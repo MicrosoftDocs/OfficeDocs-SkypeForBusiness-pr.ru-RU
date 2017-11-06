@@ -8,27 +8,27 @@ ms.topic: article
 ms.service: msteams
 description: "Пользователи могут взаимодействовать с П-ботом, задавая ему вопросы о работе с Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 30c2687d33b93d6214bec0cd7e709ccb62596a8d
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 6f2e7b8d1dacff948e4e421a8586e8670dfbc5ec
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="use-t-bot-to-help-users-with-microsoft-teams"></a>Использование П-бота для помощи пользователям с Microsoft Teams
 ============================================
 
 Чтобы ваши пользователи и лидеры могли получить помощь при работе с Microsoft Teams, познакомьте их с [П-ботом](https://support.office.com/en-us/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#bkmk_bots). Пользователи могут взаимодействовать с П-ботом, задавая ему вопросы о работе с Microsoft Teams.
 
-![](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image1.png)
+![Снимок экрана со страницей П-бота в Microsoft Teams.](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image1.png)
 
-![](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image2.png)
+![Снимок экрана с ответом П-бота на вопрос пользователя.](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image2.png)
 
 Microsoft Teams поддерживает П-бот и справочные материалы, локализованные на разные языки, перечень которых регулярно пополняется. Актуальный список поддерживаемых языков см. в статье [Поддерживаемые Microsoft Teams языки для справочных материалов](https://support.office.com/en-us/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).
 
 П-бот также предоставляет альтернативные способы помощи пользователям, предпочитающим изучать материалы, а не задавать вопросы.
 
-![](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image3.png)
+![Снимок экрана с вариантами помощи на странице П-бота, включая беседу, справку, вопросы и ответы, видеоролики и заметки о выпуске.](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image3.png)
 
 На рисунке изображены разделы справки, вопросов и ответов, видеороликов, а также заметок о выпуске, оформленные в боте в виде вкладок.
 
-![](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image4.png)
+![Снимки экрана для различных вариантов помощи в П-боте, включая справку, вопросы и ответы, видеоролики и заметки о выпуске.](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image4.png)

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Соединители предоставляют команде актуальные сведения и данные из часто используемых служб, передавая их прямо в канал."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 08f2526686c894e44193fb53d51f9f59d6960279
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 0b5bc5e3d78b9810a8f1db43122a0e4c877035a7
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Использование Office 365 и настраиваемых соединителей в Microsoft Teams
 =======================================================
@@ -27,19 +27,19 @@ ms.lasthandoff: 09/22/2017
 
 1.  Чтобы добавить соединитель в канал, щелкните **многоточие (…)** справа от имени канала и выберите **Соединители.**
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    ![Снимок экрана интерфейса Teams с выбранным именем канала и параметром "Коннекторы".](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2.  Выберите нужный соединитель и нажмите кнопку **Добавить**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    ![Снимок экрана диалогового окна "Коннекторы" с доступными для добавления соединителями.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3.  Укажите требуемые данные о соединителе и нажмите кнопку **Сохранить**. Для правильной работы соединителям требуется самая разнообразная информация, а некоторым — еще и вход пользователя в службу по ссылкам на странице конфигурации соединителя.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+    ![Снимок экрана страницы конфигурации для соединителя RSS.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
 4.  Предоставляемые соединителем данные автоматически публикуются в канале.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+    ![Снимок экрана интерфейса Teams с беседой в канале.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>Разработка настраиваемых соединителей
 -----------------------------
@@ -48,18 +48,18 @@ ms.lasthandoff: 09/22/2017
 
 1.  **Incoming Webhook** добавляется аналогично любому другому соединителю.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
+    ![Снимок экрана с параметром для добавления соединителя "Incoming Webhook" (Веб-перехватчик входящего трафика).](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
 
 2.  Чтобы создать веб-перехватчик, укажите **имя**, при необходимости обновите изображение веб-перехватчика, а затем нажмите кнопку **Создать**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
+    ![Снимок экрана страницы конфигурации для соединителя "Incoming Webhook" (Веб-перехватчик входящего трафика). ](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
 
 3.  Приложениям, передающим данные в этот канал, требуется URL-адрес соединителя веб-перехватчика. **Уникальный URL-адрес** формируется при создании **веб-перехватчика**. Сообщите этот URL-адрес своим разработчикам, чтобы они смогли должным образом настроить свои приложения для передачи данных.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
+    ![Снимок экрана с уникальным URL-адресом веб-перехватчика.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
 
 4.  Когда внешнее приложение передает данные соединителю, в списке бесед канала отображается специальное сообщение, называемое **карточкой соединителя**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
+    ![Снимок экрана интерфейса Teams с сообщением карточки соединителя.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
 
 Разработчики могут настроить свои сообщения для создания таких карточек, отправив HTTP-запрос с полезными данными в виде простой JSON на адрес веб-перехватчика Microsoft Teams, который представляет собой уникальный URL-адрес этой конечной точки, предоставленный мастером. Попросите своих разработчиков изучить статью [Начало работы с соединителями Office 365 для Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855783) в Microsoft Developer Network, содержащую подробные инструкции и примеры. Кроме того, к полезным ресурсам относится статья [Подключение приложений к группам в Outlook](https://support.office.com/en-us/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) и раздел о [Microsoft Teams в Центре разработки для Office](https://go.microsoft.com/fwlink/?linkid=855784).

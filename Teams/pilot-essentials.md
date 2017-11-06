@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Руководство по запуску пилотного проекта Microsoft Teams для изучения всех возможностей Teams параллельно с использованием Skype для бизнеса."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4340e3fa6b6ebdaf20105cfa568d17d9d3802b4e
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Пилотное использование Teams параллельно со Skype для бизнеса
 ============================================
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/22/2017
 
 Пилотный проект, призванный подтвердить готовность организации, позволяет реалистично оценить требуемые ресурсы и процедуры перед полномасштабным развертыванием в рамках всей организации.  Чтобы обеспечить максимально достоверные результаты, в пилотной программе нужно сымитировать повседневное общение и совместную работу пользователей, которые позволят определить оптимальный сценарий развертывания со Skype для бизнеса и Microsoft Teams. Планирует ли ваша организация использовать Skype для бизнеса параллельно с Teams либо полностью перейти на Teams в будущем, пилотный проект поможет определить правильный вектор дальнейшего развития. *Итак, приступим!*
 
-![](media/pilot_essentials_image3.png)
+![Схема шагов для пилотного проекта.](media/pilot_essentials_image3.png)
 
 ## <a name="step-one-define-your-pilot-program-logistics"></a>Первый шаг. Определение логистики для пилотной программы
 

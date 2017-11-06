@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения о различных лицензиях Office 365, лицензия, позволяющих пользователям работать с Microsoft Teams, а также о способах включения и отключения этого продукта."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d3c49ab67d3f3b80f8501941a2223b7a4435f514
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: bb78ffd86183ae35800fc709ad74df691a43a4e8
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Лицензирование Office 365 для Microsoft Teams
 ========================================
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/22/2017
 
 |||
 |---------|---------|
-|![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>Примечание.     |Продукт Microsoft Teams также доступен для некоммерческих организаций. Лицензирование для государственных организаций сейчас не поддерживается, однако работа в этом направлении ведется.         |
+|![Значок примечания.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>Примечание.     |Продукт Microsoft Teams также доступен для некоммерческих организаций. Лицензирование для государственных организаций сейчас не поддерживается, однако работа в этом направлении ведется.         |
         
 
 
@@ -45,6 +45,6 @@ ms.lasthandoff: 09/22/2017
 
 По умолчанию лицензия Microsoft Teams активна для всех пользователей с соответствующими подписками Office 365.
 
-![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
+![Снимок экрана с параметрами в разделе лицензий в Центре администрирования Office 365, где включена служба Microsoft Teams.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
 
 По умолчанию служба Microsoft Teams включена, и ее можно отключить или включить для всей организации. **Отключить Microsoft Teams лишь для части организации невозможно.** Если организация планирует пилотное развертывание Microsoft Teams, доступ к которому должен иметь лишь ограниченный круг пользователей, то для всех пользователей, не входящих в пилотную группу, следует отключить лицензию Microsoft Teams.

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения об использовании встроенных и настраиваемых вкладок для таких компонентов, как беседы, файлы, карты и многое другое."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2ba0e5d8897b7c77aa4fd9c319c9a77fcf2129b9
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 377ad8a0746d958e3a7a3341cce3773e9bd122f9
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Использование встроенных и настраиваемых вкладок в Microsoft Teams
 ==================================================
@@ -23,13 +23,13 @@ ms.lasthandoff: 09/22/2017
 
 -   Файлы
 
-![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+![Снимок экрана с разделом беседы для маркетинговой команды.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 
 1.  Владельцы и участники команды могут добавлять в каждый из каналов дополнительные вкладки для интеграции с соответствующими облачными службами.
 
 2.  Для преобразования во вкладки файлы Excel, PowerPoint, Word и PDF нужно отправить на **вкладку "Файлы"**. Кроме того, уже отправленные файлы можно преобразовать во вкладки одним щелчком мыши, как показано ниже.
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
+    ![Снимок экрана с вкладкой "Файлы", где выбран файл PowerPoint.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
 3.  Чтобы добавить веб-сайт, его URL-адрес должен начинаться с **префикса https**, так как это обеспечивает безопасность при обмене данными.
 
@@ -37,11 +37,11 @@ ms.lasthandoff: 09/22/2017
 
 5.  После добавления настраиваемой вкладки в канал создается **вкладка "Беседа"**, где участники команды могут обсудить данный контент.
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![Снимок экрана с настраиваемой вкладкой, где в правой части окна находится беседа.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 6.  В каналы можно добавлять дополнительные вкладки, чтобы помочь пользователям обращаться к нужным данным и управлять ими. Это может быть отчет Power BI, панель мониторинга и даже видеоканал [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785), где вы публикуете обучающие ролики.
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+    ![Три снимка экрана с различным содержимым на вкладках.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-tabs"></a>Разработка настраиваемых вкладок
 -------------------
@@ -50,4 +50,4 @@ ms.lasthandoff: 09/22/2017
 
 Microsoft Developer Network содержит [подробные инструкции](https://go.microsoft.com/fwlink/?linkid=855786) по проектированию и разработке собственных вкладок, кроме того, можно скачать и развернуть [примеры вкладок](https://go.microsoft.com/fwlink/?linkid=855787) от Майкрософт.
 
-![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
+![Снимок экрана с примером настраиваемой вкладки в Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)

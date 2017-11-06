@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения о том, как Группы Office 365 и членство в них используются в Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: de8e4298345145c8caf9d03397cf026187b11c29
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 45a3607778d87e1de075468101a9f7e1a081688e
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Группы Office 365 и Microsoft Teams
 =====================================
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/22/2017
 
 |||
 |---------|---------|
-|  ![](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) Примечание.    |Удаление группы Office 365 приведет к удалению псевдонима почтового ящика для сохраняемых бесед Outlook/OWA и приглашений на собрание Teams, а также пометит сайт SharePoint для удаления. На то, чтобы удаление команды отразилось в Outlook, требуется около 20 минут. При удалении из клиента Teams команда сразу же становится невидимой для всех ее участников. Если удалить участника из группы Office 365 с включенными функциями Teams до того, как он перестанет видеть соответствующую команду в клиенте Teams, может пройти около часа.         |
+|  ![Значок примечания.](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) Примечание.    |Удаление группы Office 365 приведет к удалению псевдонима почтового ящика для сохраняемых бесед Outlook/OWA и приглашений на собрание Teams, а также пометит сайт SharePoint для удаления. На то, чтобы удаление команды отразилось в Outlook, требуется около 20 минут. При удалении из клиента Teams команда сразу же становится невидимой для всех ее участников. Если удалить участника из группы Office 365 с включенными функциями Teams до того, как он перестанет видеть соответствующую команду в клиенте Teams, может пройти около часа.         |
 
 
 <a name="group-membership"></a>Членство в группах

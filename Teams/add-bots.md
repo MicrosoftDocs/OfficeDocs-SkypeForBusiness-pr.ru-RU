@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения о добавлении ботов для приватного чата и каналов в Microsoft Teams, создании пользовательских ботов и загрузке собственного неопубликованного бота для приватного чата."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 905a105fba269aebb2b01cbccc1a47e7667ca341
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: b1473a621f9f40ef3220546988db0635721acb7c
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Добавление ботов для приватных чатов и каналов в Microsoft Teams
 ==========================================================
@@ -32,21 +32,21 @@ ms.lasthandoff: 09/22/2017
 
 2.  Найдите боты, перейдите в раздел **Чат**, найдите **контакт** и выберите элемент **Найти приложения.**
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image1.png)
+![Снимок экрана с окном поиска, где отображается раздел "Найти приложения" для результатов поиска.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image1.png)
 
 3.  Выберите **бот**, с которым требуется открыть беседу, как показано ниже.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image2.png)
+![Снимок экрана с окном "Найти приложения", где выбрана вкладка "Боты".](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image2.png)
 
 4.  Предоставьте выбранному боту **разрешения** и укажите, требуется ли использовать бот **в приватном чате** либо в конкретной **команде**.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image3.png)
+![Снимок экрана со страницей приложения Azure Bot.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image3.png)
 
 5.  Кроме того, бот можно использовать в канале команды, просто выбрав **Просмотреть команду > Боты**. В открывшемся окне можно найти дополнительные боты.
 
 6.  Бот можно удалить из команды в любое время. Просто щелкните **Просмотреть команду > Боты**, чтобы отобразить все боты и затем **удалить** нужный.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
+![Снимок экрана с вкладкой "Боты", где отображается описание Azure Bot.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
 
 <a name="create-custom-bots-for-microsoft-teams"></a>Создание пользовательских ботов для Microsoft Teams
 --------------------------------------
@@ -62,10 +62,10 @@ ms.lasthandoff: 09/22/2017
 
 1.  Создав бот, перейдите на его [страницу](https://go.microsoft.com/fwlink/?linkid=854374) **Bot Dashboard** (Панель мониторинга бота) и скопируйте **Microsoft App ID** (ИД приложения Майкрософт) в области **Details** (Сведения).
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
+![Снимок экрана со страницей сведений для бота, где выделен идентификатор приложения Майкрософт.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 2.  В области **Чат** Microsoft Teams выберите **значок добавления чата**. В поле **Кому:** вставьте **ИД приложения Майкрософт** своего бота.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+![Снимок экрана с областью чата, где находится значок добавления чата и строка "Кому", а также выделен идентификатор приложения Майкрософт.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
 
 3.  Идентификатор разрешается в **имя бота**, после чего вы можете запустить беседу с этим ботом.

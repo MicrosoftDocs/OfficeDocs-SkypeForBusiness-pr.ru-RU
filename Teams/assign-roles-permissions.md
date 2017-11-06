@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения о назначении разрешений и ролей для владельцев и участников команд в Microsoft Teams, включая права на создание команд."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1ccb0ff3216464aca5a17c3bebeb0e259929e798
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 086f054ff5af2326d106ce5c2088a50106a76462
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Назначение ролей и разрешений в Microsoft Teams
 ===============================================
@@ -40,7 +40,7 @@ ms.lasthandoff: 09/22/2017
 
 | | |
 |---------|---------|
-|![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Примечание.     |Владельцы могут назначать других участников владельцами с помощью параметра "Показать команды". Команда может иметь до 10 владельцев.         |
+|![Значок лампочки.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Примечание.     |Владельцы могут назначать других участников владельцами с помощью параметра "Показать команды". Команда может иметь до 10 владельцев.         |
 
 <a name="permissions-to-create-teams"></a>Разрешения на создание команд
 ---------------------------
@@ -89,5 +89,5 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
 ||||
 |---------|---------|---------|
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Точка принятия решений         |Смогут ли все пользователи Microsoft Teams создавать команды (рекомендуется)?         |
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Дальнейшие действия         |Измените разрешения по умолчанию для пользователей, которые могут создавать группы Office 365, если хотите ограничить круг лиц, способных создавать команды.         |
+| ![Значок для точки принятия решений.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Точка принятия решений         |Смогут ли все пользователи Microsoft Teams создавать команды (рекомендуется)?         |
+| ![Значок дальнейших действий.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Дальнейшие действия         |Измените разрешения по умолчанию для пользователей, которые могут создавать группы Office 365, если хотите ограничить круг лиц, способных создавать команды.         |
