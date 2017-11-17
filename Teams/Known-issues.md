@@ -2,17 +2,17 @@
 title: "Известные проблемы для Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 55e1dea54b9cf6dd73e6739991b1e4ff6cf57943
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: 0f90929f2af5d72df5851d25a2456b4613fd5613
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 11/08/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
  [Справка по Microsoft Teams](microsoft-teams-help.md) > [Классические и веб-клиенты](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Известные проблемы в Microsoft Teams Обновлено: 14 сентября 2017 г. 

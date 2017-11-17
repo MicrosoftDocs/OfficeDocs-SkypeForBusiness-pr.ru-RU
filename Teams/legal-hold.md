@@ -2,17 +2,17 @@
 title: "Помещение пользователя или команды Microsoft Teams на удержание по юридическим причинам | Служба поддержки Майкрософт"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Сведения о помещении пользователя или команды Microsoft Teams на удержание по юридическим причинам с помощью Центра безопасности и соответствия требованиям, а также о том, что именно требуется удерживать в зависимости от требований к данным."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1c4394ac48fdaf0bf851dfb80b00d1e2d72749ff
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: e400731545efb103aa0b6b865eef833238b4b154
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Помещение пользователя или команды Microsoft Teams на удержание по юридическим причинам
 ==================================================

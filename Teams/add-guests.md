@@ -1,18 +1,18 @@
 ---
 title: "Добавление гостя в команду"
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: LaithAlShamri
+ms.author: laal
+manager: lolaj
 ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
 description: "Вы можете узнать о доступных администратору средствах для добавления новых гостевых пользователей в организацию, включая классический и веб-клиент Microsoft Teams, а также портал для совместной работы Azure Active Directory B2B."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 640eb72c55d58e931fff7d52212b1a7dc9e6cdbf
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 7764b05a3c3e945e505800ddf30372a2438236a6
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="add-a-guest-to-a-team"></a>Добавление гостя в команду
 =====================

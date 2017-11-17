@@ -2,17 +2,17 @@
 title: "Использование Office 365 и настраиваемых соединителей в Microsoft Teams | Служба поддержки Майкрософт"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Соединители предоставляют команде актуальные сведения и данные из часто используемых служб, передавая их прямо в канал."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0b5bc5e3d78b9810a8f1db43122a0e4c877035a7
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 5adef4ea4c540523a0efffcf007a516f0a4efbbc
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Использование Office 365 и настраиваемых соединителей в Microsoft Teams
 =======================================================

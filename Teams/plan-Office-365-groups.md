@@ -2,17 +2,17 @@
 title: "Планирование использования групп Office 365 при создании команд в Microsoft Teams | Служба поддержки Майкрософт"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Сведения о решениях, которые требуется принять при планировании работы с группами Office 365, например: выбор общедоступных и закрытых групп, использование клиента Teams или веб-консоли администратора Office 365, а также информирование команд об использовании бесед."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c4829acbe141e1ed82b30819cf5d95846f114165
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: f52b71ede74edf6de949f5efb8d609cede12c222
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Планирование использования групп Office 365 при создании команд в Microsoft Teams
 ==========================================================
