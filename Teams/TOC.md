@@ -36,6 +36,7 @@
 ## [Использование Office 365 и настраиваемых соединителей в Teams](Office-365-custom-connectors.md)
 ## [Добавление ботов для приватных чатов и каналов в Teams](add-bots.md)
 ## [Параметры администратора для приложений в Teams](admin-settings.md)
+## [Справочник по командлетам PowerShell для Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
 
 
 # [Гостевой доступ в Teams](guest-access.md)
@@ -54,6 +55,7 @@
 ## [Аудиоконференции](audio-conferencing.md)
 ### [Выработка концепции](audio-conferencing.md#Envision_AudioConferencing)
 ### [Планирование](audio-conferencing.md#Planning_AudioConferencing)
+### [Видеоролики: Аудиоконференции в Teams](audio-conferencing-videos.md)
 
 # [Переход со Skype для бизнеса на Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1. Оптимизация имеющейся среды Skype для бизнеса для перехода на Teams.](prepare-teams.md)
@@ -64,7 +66,6 @@
 
 # Видеоролики и учебные материалы
 ## [Подготовка ИТ-администратора к использованию Teams](ITAdmin-readiness.md)
-### [Видеоролики: Аудиоконференции в Teams](audio-conferencing-videos.md)
 ## [Обучение конечных пользователей для работы с Teams](enduser-training.md)
 
 
@@ -78,7 +79,10 @@
 
 
 # Устранение неполадок
+## [Известные проблемы для Microsoft Teams](Known-issues.md)
 ## [Ресурсы поддержки для Microsoft Teams](support-resources.md)
 ## [Проверка работоспособности службы для Teams](service-health.md)
 ## [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
 ## [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
+
+# [Документация разработчика для Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
