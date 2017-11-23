@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения о назначении разрешений и ролей для владельцев и участников команд в Microsoft Teams, включая права на создание команд."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9cc8a72cdabacb76638acb689c6622642c524c8e
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 21e9a1cb3f77d657824f5d532469b7b5efe62ede
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/16/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Назначение ролей и разрешений в Microsoft Teams
 ===============================================
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/08/2017
 
 | | |
 |---------|---------|
-|![Значок лампочки.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Примечание.     |Владельцы могут назначать других участников владельцами с помощью параметра "Показать команды". Команда может иметь до 10 владельцев.         |
+|![Значок лампочки.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Примечание.     |Владельцы могут назначать других участников владельцами с помощью параметра "Показать команды". Команда может иметь до 100 владельцев. Рекомендуется иметь хотя бы несколько владельцев для более простого управления командой Microsoft Teams. Кроме того, в этом случае группы не будут теряться, если их единственный владелец покинет организацию. Дополнительные сведения о потерянных группах см. в разделе [Назначение нового владельца потерянной группе](https://support.office.com/en-us/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).        |
 
 <a name="permissions-to-create-teams"></a>Разрешения на создание команд
 ---------------------------
