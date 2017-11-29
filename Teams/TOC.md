@@ -85,4 +85,6 @@
 ## [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
 ## [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
 
+
 # [Документация разработчика для Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
+

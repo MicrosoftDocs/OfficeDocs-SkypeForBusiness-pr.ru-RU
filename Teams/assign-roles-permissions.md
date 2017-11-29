@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения о назначении разрешений и ролей для владельцев и участников команд в Microsoft Teams, включая права на создание команд."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 21e9a1cb3f77d657824f5d532469b7b5efe62ede
-ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
+ms.openlocfilehash: 0fb84f0b72d2d36f3a584e811fa8640159825429
+ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 11/21/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Назначение ролей и разрешений в Microsoft Teams
 ===============================================
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/16/2017
 
 | | |
 |---------|---------|
-|![Значок лампочки.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Примечание.     |Владельцы могут назначать других участников владельцами с помощью параметра "Показать команды". Команда может иметь до 100 владельцев. Рекомендуется иметь хотя бы несколько владельцев для более простого управления командой Microsoft Teams. Кроме того, в этом случае группы не будут теряться, если их единственный владелец покинет организацию. Дополнительные сведения о потерянных группах см. в разделе [Назначение нового владельца потерянной группе](https://support.office.com/en-us/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).        |
+|![Значок лампочки.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Примечание.     |Владельцы могут назначать других участников владельцами с помощью параметра "Показать команды". Команда может иметь до 100 владельцев. Рекомендуется иметь хотя бы несколько владельцев для более простого управления командой. Кроме того, в этом случае группы не будут теряться, если их единственный владелец покинет организацию. Дополнительные сведения о потерянных группах см. в разделе [Назначение нового владельца потерянной группе](https://support.office.com/en-us/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).        |
 
 <a name="permissions-to-create-teams"></a>Разрешения на создание команд
 ---------------------------

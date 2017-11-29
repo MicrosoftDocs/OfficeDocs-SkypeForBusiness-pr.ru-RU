@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения о различных командах, каналах и приложениях, адаптированных под самые разнообразные направления деятельности, например финансы, планирование мероприятий, продажи и многое другое."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2d8ce4adafe831f71fcbb04a191427339efa56f0
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f7c69f85862396dd31b69c034521fae01c4a400a
+ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/21/2017
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 =================================================
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/08/2017
 
 Один из ключевых пунктов в программе освоения Microsoft Teams заключается в информировании пользователей о том, как Microsoft Teams может улучшить их повседневную совместную работу.
 
-По умолчанию создать команду в Microsoft Teams разрешено всем пользователям (эти права можно изменить). Пользователь существующей группы Office 365 также может улучшить ее с помощью функций Microsoft Teams.
+По умолчанию создать команду в Microsoft Teams разрешено всем пользователям (чтобы изменить эту настройку, см. раздел [Назначение ролей и разрешений в Teams](assign-roles-permissions.md)). Пользователь существующей группы Office 365 также может улучшить ее с помощью функций Microsoft Teams.
 
 <a name="sample-team-set-up"></a>Пример настройки команды
 ------------------
