@@ -63,6 +63,7 @@
 ## [3. Использование Teams параллельно со Skype для бизнеса.](guidance-SkypeforBusiness.md)
 ## [4. Извлечение выгоды за счет освоения Teams пользователями.](continue-journey.md)
 ## [Вопросы и ответы. Концепция Skype для бизнеса и Teams](FAQ-journey.md)
+## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 # Видеоролики и учебные материалы
 ## [Подготовка ИТ-администратора к использованию Teams](ITAdmin-readiness.md)
