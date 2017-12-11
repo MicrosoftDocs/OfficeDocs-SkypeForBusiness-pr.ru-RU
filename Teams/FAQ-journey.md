@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Часто задаваемые вопросы о переходе со Skype для бизнеса Online на Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ffb09f4ef21828a8f0613bfa9402aa69263237d6
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 4303b59bb7044af57973fa1606338f5c4f6e2e5e
+ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/01/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 ==========================================================
@@ -31,6 +31,8 @@ ms.lasthandoff: 11/08/2017
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Существует ли крайний срок, к которому клиентам требуется перейти со Skype для бизнеса Online на Teams? 
 
 Мы опубликуем свою стратегию по Microsoft Teams, чтобы клиенты могли оценить требуемые им возможности Teams и спланировать переход. Клиенты могут определить сроки перехода на Teams, исходя из своих потребностей.
+
+Чтобы оставаться в курсе новостей о переходе со Skype для бизнеса на Microsoft Teams, изучите загружаемый PDF-файл [Skype for Business to Microsoft Teams Capabilities Roadmap (Переход со Skype для бизнеса на Microsoft Teams: стратегия внедрения возможностей)](https://aka.ms/skype2teamsroadmap). Пока что он доступен только на английском языке. Этот PDF-файл рассказывает, чего сейчас ожидает корпорация Майкрософт в отношении переноса возможностей Skype для бизнеса в Microsoft Teams.
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Что ждет Skype для бизнеса Server? 
 

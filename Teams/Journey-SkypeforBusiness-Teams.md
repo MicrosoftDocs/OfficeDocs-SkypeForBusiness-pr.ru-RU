@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Все, что вам нужно знать о переходе со Skype для бизнеса Online на Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fa3f44cf32f18383ed1258d768050d7494afe865
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 7616975c9395b6fa1219deb576b7ceff29d89bb7
+ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/01/2017
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Переход со Skype для бизнеса на Microsoft Teams
 ==================================================
@@ -20,6 +20,8 @@ ms.lasthandoff: 11/08/2017
 Руководствуясь своей [концепцией интеллектуальных коммуникаций](https://aka.ms/intelligentcommunicationsblog), направленной на совершенствование работы со звонками и собраниями, Майкрософт встраивает функции Skype для бизнеса в Teams. Это будет происходить постепенно, и в конечном итоге Teams превратится в единый клиент для всех задач. Майкрософт ценит вас как клиента Skype для бизнеса, и поэтому готов оказывать поддержку на каждом этапе перехода на Teams. Мы понимаем, что на изменения нужно время, и поэтому предлагаем вам начать изучение Teams уже сегодня, чтобы, работая со Skype для бизнеса, понять его преимущества для вашей организации. 
 
 Ознакомьтесь со [стратегией по продукту Teams](https://aka.ms/TeamsRoadmap), чтобы узнать о дальнейших планах и выбрать оптимальный момент для перехода на Teams.
+
+Чтобы оставаться в курсе новостей о переходе со Skype для бизнеса на Microsoft Teams, изучите скачиваемый PDF-файл [Skype for Business to Microsoft Teams Capabilities Roadmap (Переход со Skype для бизнеса на Microsoft Teams: стратегия внедрения возможностей)](https://aka.ms/skype2teamsroadmap). Пока что он доступен только на английском языке. Этот PDF-файл рассказывает, чего сейчас ожидает корпорация Майкрософт в отношении переноса возможностей Skype для бизнеса в Microsoft Teams.
 
 Для обеспечения оптимальных результатов рекомендуем вам следовать указанному ниже плану:
 
@@ -35,7 +37,11 @@ ms.lasthandoff: 11/08/2017
 
  
 ### <a name="see-also"></a>См. также
+[Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 [Вопросы и ответы. Концепция Skype для бизнеса и Teams](FAQ-journey.md)
+
+[Переход со Skype для бизнеса на Microsoft Teams: cтратегия внедрения возможностей](https://aka.ms/skype2teamsroadmap)
 
 
 
