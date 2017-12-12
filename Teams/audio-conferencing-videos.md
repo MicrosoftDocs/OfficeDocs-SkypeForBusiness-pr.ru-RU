@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Видеоролики, знакомящие ИТ-администратора с Аудиоконференциями в Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 96f9b536e76eabe2cee81bacf499010e553184e8
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 31956798b9d8cc4edc8be3b6d3ec3e6c31c67b3e
+ms.sourcegitcommit: 334fee0485e16a6485055eff586203cc30e6fdc9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>Видео: Аудиоконференции в Microsoft Teams
 =============================================
@@ -23,10 +23,11 @@ ms.lasthandoff: 11/08/2017
 > Раньше Аудиоконференции назывались конференц-связью по ТСОП.
 
 
-|  |  |
-|---------|---------|
-| Введение в Аудиоконференции   | <iframe width="350" height="200" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe>   |
-| Планирование Аудиоконференций  | <iframe width="350" height="200" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe>   |
-| Перенос номеров для Аудиоконференций | <iframe width="350" height="200" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe>  |
+### <a name="introduction-to-audio-conferencing"></a>Введение в Аудиоконференции
+> [!VIDEO https://www.youtube.com/embed/AGPvaW4Vg0o]
 
+### <a name="plan-for-audio-conferencing"></a>Планирование Аудиоконференций
+> [!VIDEO https://www.youtube.com/embed/AWbuvcWcYIc]
 
+### <a name="number-porting-for-audio-conferencing"></a>Перенос номеров для Аудиоконференций
+> [!VIDEO https://www.youtube.com/embed/5k0C21KAsns]
