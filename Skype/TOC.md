@@ -90,7 +90,8 @@
 ### [Видео: внешние связи Skype для бизнеса Online](set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
 ## [Настройка сети для трансляции собрания Skype](set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
-### [Заблокированные пользовательские лицензии для трансляции собрания Skype](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)### [Включение трансляции собраний Skype](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
+### [Заблокированные пользовательские лицензии для трансляции собрания Skype](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
+### [Включение трансляции собраний Skype](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
 ### [Внесение изменений в параметры трансляции собраний Skype для организации](set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
