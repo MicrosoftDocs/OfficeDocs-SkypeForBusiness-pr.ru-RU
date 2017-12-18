@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения о различных лицензиях Office 365, лицензия, позволяющих пользователям работать с Microsoft Teams, а также о способах включения и отключения этого продукта."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 62b603bdbd2cd370e6c09dbfc877ccef9884404b
-ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
+ms.openlocfilehash: 9853bab16fead0ed4da766a6d9d59f2f93b34191
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Лицензирование Office 365 для Microsoft Teams
 ========================================
@@ -49,3 +49,20 @@ ms.lasthandoff: 11/21/2017
 Microsoft Teams можно включить или отключить для всего типа лицензии в организации. Эта служба включена по умолчанию для всех типов лицензий, кроме гостевых. **Невозможно включить Microsoft Teams только для некоторых типов лицензий, используя переключатель для службы Microsoft Teams в центре администрирования Office 365.** Если необходимо включить Microsoft Teams для одних пользователей организации и отключить для других (например, планируется пилотный проект Microsoft Teams с выбранными пользователями), включите переключатель лицензий Microsoft Teams для всех пользователей, а затем выключите его для отдельных пользователей.
 
 ![Снимок экрана с параметрами в разделе типов лицензий/пользователей в Центре администрирования Office 365, где включена служба Microsoft Teams.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image3.png)
+
+
+**Совет.**   Включение и отключение в PowerShell лицензии на рабочую нагрузку Microsoft Teams выполняются точно так же, как и для других нагрузок. План обслуживания для Microsof Teams называется TEAMS1. (Дополнительные сведения: [Отключение доступа к службам с помощью Office 365 PowerShell](https://technet.microsoft.com/en-us/library/dn771769.aspx).)
+
+**Пример:** Ниже представлен краткий пример, как отключить Microsoft Teams у всех пользователей с определенным типом лицензии. Сначала выполните эту операцию, а затем отдельно активируйте лицензии для каждого пользователя, которому нужен доступ в рамках пилотной программы.
+
+*Чтобы отобразить типы подписок в вашей организации, используйте следующую команду.*
+
+      Get-MsolAccountSku
+
+*Введите название плана, которое включает название организации и план для вашего образовательного заведения (например, ContosoSchool:ENTERPRISEPACK_STUDENT), после чего выполните следующие команды.*
+
+      $acctSKU="<plan name>
+      $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+*Чтобы отключить Microsoft Teams для всех пользователей с активной лицензией по названному вами плану, выполните следующую команду.*
+
+      Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x

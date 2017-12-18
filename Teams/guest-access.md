@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Гостевой доступ в Microsoft Teams позволяет командам в вашей организации сотрудничать с людьми, находящимися за пределами организации, предоставляя им доступ к командам и каналам."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a59b525a8162c5ad5cab84c4ca36389d362816d2
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 3409b607c92d58cd80c8b4e896eb1cecb3ec06bb
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 ======================================
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/11/2017
 |  |  |
 |---------|---------|
 | Подробный обзор гостевого доступа   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-
-  
+| Включение гостевого доступа в Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7T54KmlIHQk" frameborder="0" allowfullscreen></iframe>   |
+ | Добавление гостей в Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
     
 

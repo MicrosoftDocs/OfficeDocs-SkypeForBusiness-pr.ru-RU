@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения о настройке Microsoft Teams в вашей организации Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4ff25a452f2ce493bdb1ae8d556f08584d32d669
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f8db61d7ca8e183cce04cb993a40541c70e5e516
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Настройка Microsoft Teams в вашей организации Office 365
 ======================================================
@@ -38,9 +38,9 @@ ms.lasthandoff: 11/08/2017
 
     ![Снимок экрана со страницей "Services & add-ins" (Службы и надстройки), где выбрана служба Microsoft Teams.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-4.  Чтобы включить Microsoft Teams для организации, установите переключатель в положение **Включено** и нажмите кнопку **Сохранить**.
+4.  Чтобы включить Microsoft Teams для организации, воспользуйтесь средством выбора лицензий. Выберите все нужные лицензии, активируйте переключатель **Вкл**, а затем щелкните **Сохранить**.
 
-    ![Снимок экрана со страницей параметров Microsoft Teams, где эта служба включена с помощью переключателя.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
+    ![Снимок экрана со страницей параметров Microsoft Teams, где эта служба включена с помощью переключателя.](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
 
 > [!NOTE]

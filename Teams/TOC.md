@@ -51,11 +51,11 @@
 ## [Использование PowerShell для управления гостевым доступом в команде](guest-access-PowerShell.md)
 
 
-# [Развертывание облачной системы голосовой связи](cloud-voice-deployment.md)
+# [Облачная система голосовой связи](cloud-voice-deployment.md)
 ## [Аудиоконференции](audio-conferencing.md)
 ### [Выработка концепции](audio-conferencing.md#Envision_AudioConferencing)
-### [Планирование](audio-conferencing.md#Planning_AudioConferencing)
-### [Видеоролики: Аудиоконференции в Teams](audio-conferencing-videos.md)
+## Видео
+### [Аудиоконференции](audio-conferencing-videos.md)
 
 # [Переход со Skype для бизнеса на Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1. Оптимизация имеющейся среды Skype для бизнеса для перехода на Teams.](prepare-teams.md)
@@ -85,6 +85,7 @@
 ## [Проверка работоспособности службы для Teams](service-health.md)
 ## [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
 ## [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
+
 
 
 # [Документация разработчика для Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
