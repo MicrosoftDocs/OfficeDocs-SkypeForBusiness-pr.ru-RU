@@ -8,7 +8,11 @@
 ## [Группы Office 365 и Teams](Office-365-groups.md)
 ## [Взаимодействие Exchange и Teams](Exchange-Teams-interact.md)
 ## [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](SharePoint-OneDrive-interact.md)
+## [Взаимодействие Teams и Skype для бизнеса](Teams-and-SkypeforBusiness-interoperability.md)
 
+# [Краткие руководства по началу работы](quick-start-guides.md)
+## [Quick start: Teams planning guide (Краткое руководство. Руководство по планированию Teams)](quick-start-enable-Teams.md)
+## [Configure Calling Plans (Настройка планов звонков)](configuring-teams-calling-quickstartguide.md)
 
 # Планирование
 ## [Обзор развертывания Microsoft Teams](deployment-overview.md)
@@ -54,6 +58,10 @@
 # [Облачная система голосовой связи](cloud-voice-deployment.md)
 ## [Аудиоконференции](audio-conferencing.md)
 ### [Выработка концепции](audio-conferencing.md#Envision_AudioConferencing)
+## [Телефонная система с планами звонков](phone-system-with-calling-plans.md)
+### [Выработка концепции](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
+## Краткие руководства по началу работы
+### [Configure Calling Plans (Настройка планов звонков)](configuring-teams-calling-quickstartguide.md)
 ## Видео
 ### [Аудиоконференции](audio-conferencing-videos.md)
 
