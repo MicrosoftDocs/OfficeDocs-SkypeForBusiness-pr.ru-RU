@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения об извлечении данных Microsoft Teams из журнала аудита."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9d1a1c274ace1e680f890d7fe8abdea52886b073
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: b63f6b88d950038ec2e40e7b32eb74bc551cbdf1
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Поиск событий Microsoft Teams в журнале аудита
 ==================================================
@@ -29,12 +29,13 @@ ms.lasthandoff: 11/08/2017
 
 Полный список событий для Office 365 довольно велик и приведен [здесь](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#ID0EABAAA=Audited_activities).
 
-Прежде чем просмотреть сведения аудита, нужно включить соответствующую функцию. Чтобы включить аудит, перейдите в Центр *безопасности и соответствия требованиям*. В области *Search for activity* (Поиск действия) выберите **Start recording now** (Начать запись). Через 24 часа данные аудита будут доступны в области *Audit Log Search* (Поиск в журнале аудита) на вкладке *Search & Investigation* (Поиск и анализ).
+Прежде чем просмотреть сведения аудита, нужно включить соответствующую функцию. Чтобы включить аудит, перейдите в Центр администрирования *Безопасность и соответствие требованиям*. В области *Search for activity* (Поиск действия) выберите **Start recording now** (Начать запись). Через 24 часа данные аудита будут доступны в области *Audit Log Search* (Поиск в журнале аудита) на вкладке *Search & Investigation* (Поиск и анализ).
 
 
-| |  |
-|---------|---------|
-|![Снимок экрана с домашней страницей в Центре безопасности и соответствия требованиям.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Важно.     |Эти данные начинаются с момента включения аудита.         |
+> [!IMPORTANT]
+> Эти данные начинаются с момента включения аудита.
+
+
 
 ![Снимок экрана со страницей поиска журнала аудита в Центре безопасности и соответствия требованиям.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
 
@@ -51,6 +52,7 @@ ms.lasthandoff: 11/08/2017
 3.  Эти сведения можно экспортировать в Excel и при необходимости отфильтровать.
 
 
-|  | |
-|---------|---------|
-|![Значок восклицательного знака.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Важно. |Если функция аудита отключена, ее нужно включить, прежде чем в журнале аудита появятся данные.         |
+> [!IMPORTANT]
+> Если функция аудита не была включена ранее, ее нужно включить, чтобы в журнале аудита появились данные.
+
+

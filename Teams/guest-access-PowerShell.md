@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Используйте PowerShell, чтобы разрешить или блокировать гостевой доступ к командам в Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 563a1a56449be289572020dc226df69795596d1c
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 0e087aadced6980db80890f423e3e6e3c4b7a701
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/15/2017
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Использование PowerShell для управления гостевым доступом в команде
 ================================================
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/11/2017
 - Разрешение или блокировка гостевых пользователей из определенной команды или группы Office 365
     
   
-Дополнительные сведения см. в статье об [использовании PowerShell для управления гостевым доступом](https://support.office.com/en-us/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell).
+Дополнительные сведения см. в разделе "Использование PowerShell для управления гостевым доступом" на вкладке "Управление" в статье [Гостевой доступ в группах Office 365](https://support.office.com/en-us/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell).
   
     
     
@@ -39,3 +39,4 @@ ms.lasthandoff: 11/11/2017
   
  
 Если вы хотите блокировать гостей в командах, разрешив им при этом доступ к сайтам SharePoint, можете воспользоваться командлетами Powershell Azure Active Directory, чтобы отключить параметр AllowGuestAccessToGroups объекта "Company", при условии, что для сайтов SharePoint включен внешний общий доступ.   
+

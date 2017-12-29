@@ -3,11 +3,11 @@ layout: HubPage
 hide_bc: True
 title: "Документация и практическое руководство по Microsoft Teams"
 description: "Документация и практическое руководство по Microsoft Teams"
-ms.openlocfilehash: 8242454e9805e5daf4f7528a51479e20f82f28c7
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+ms.openlocfilehash: 46b51273b92e0dd223baded42f64ea1bdb5d5c3a
+ms.sourcegitcommit: 334fee0485e16a6485055eff586203cc30e6fdc9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/12/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -88,7 +88,7 @@ ms.lasthandoff: 12/08/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Облачная система голосовой связи</h3>
-                                                    <p>Практическое руководство по началу работы с аудиоконференциями в Microsoft Teams</p>
+                                                    <p>Практическое руководство по началу работы со службами аудиоконференции и телефонной системы в Microsoft Teams</p>
                                                 </div>
                                             </div>
                                         </div>

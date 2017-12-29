@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения об улучшении групп Office 365 с помощью Microsoft Teams за счет приглашения в команду с помощью списка рассылки, добавления групп безопасности с поддержкой почты и т. п."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: dc9126aa84c91a4124ba58613ba34111eeffb61c
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: db092c3d0c88ff82893eef4b6ea26fe9ba68a02e
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Улучшение имеющихся групп Office 365 с помощью Microsoft Teams
 =======================================================
@@ -22,9 +22,9 @@ ms.lasthandoff: 11/08/2017
 Для этого пользователям следует выполнить процедуру создания команды из клиента Microsoft Teams. Выберите параметр **"Да, добавить возможности Microsoft Teams"** в нижней части экрана и затем существующую группу, которую хотите улучшить с помощью Microsoft Teams. Участники этой группы автоматически добавляются в команду.
 
 
-|  |  |
-|---------|---------|
-|![Значок "Важно".](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>Важно.     |Правом улучшать существующую группу с помощью Microsoft Teams обладают только владельцы группы Office 365.         |
+
+> [!IMPORTANT]
+> Правом добавлять в существующую группу возможности Microsoft Teams обладают только владельцы группы Office 365. 
 
 Пользователи также могут приглашать участников в команду с помощью списка рассылки. Это осуществляется с помощью однократной синхронизации, а репликация последующих изменений членства в группе, вносимых в этот список рассылки, в Teams не осуществляется. 
 
