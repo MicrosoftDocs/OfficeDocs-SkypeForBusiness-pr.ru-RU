@@ -1,18 +1,18 @@
 ---
-title: "Обзор развертывания Microsoft Teams | Служба поддержки Майкрософт"
+title: "Обзор развертывания Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Сведения о настройке развертывания Microsoft Teams."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2f53424c034e578cd7feba33fe10e25107582a3d
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+description: "Узнайте, как выполнять развертывание Microsoft Teams."
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 02901ea151d27dd520f5f541e78445b3082f9109
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Обзор развертывания Microsoft Teams
 ========================================
@@ -55,4 +55,4 @@ ms.lasthandoff: 11/08/2017
 
  
 
-*Чтобы отслеживать эти точки принятия решений, скачайте [соответствующее сводное руководство](https://www.microsoft.com/en-us/download/55981).*
+Чтобы отследить эти точки принятия решений, скачайте вопросник по техническому планированию [Quick start:](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[ ](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[Successfully enabling Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) (Краткое руководство по началу работы. Успешная активация Microsoft Teams).

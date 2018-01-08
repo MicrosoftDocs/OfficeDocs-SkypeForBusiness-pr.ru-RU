@@ -1,5 +1,5 @@
 ---
-title: "Улучшение имеющихся групп Office 365 с помощью Microsoft Teams | Служба поддержки Майкрософт"
+title: "Улучшение имеющихся групп Office 365 с помощью Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Сведения об улучшении групп Office 365 с помощью Microsoft Teams за счет приглашения в команду с помощью списка рассылки, добавления групп безопасности с поддержкой почты и т. п."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: db092c3d0c88ff82893eef4b6ea26fe9ba68a02e
-ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 428915dc70a8044fd6a7b4202e5bdefed036daa9
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Улучшение имеющихся групп Office 365 с помощью Microsoft Teams
 =======================================================

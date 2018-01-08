@@ -1,5 +1,5 @@
 ---
-title: "Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams | Служба поддержки Майкрософт"
+title: "Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Сведения о том, как SharePoint Online и OneDrive для бизнеса работают с Microsoft Teams, включая хранение файлов в приватных чатах, а также взаимодействие между командой, каналом и библиотекой документов."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 01149aa436862de8e6537c658524be9f4db13124
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: b7d9ffad23c8f26d7d95c3f31df4ff0307517179
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams
 =============================================================================
@@ -21,7 +21,7 @@ ms.lasthandoff: 11/08/2017
 
 Файлы приватного чата хранятся в папке OneDrive для бизнеса **отправителя**, а соответствующие разрешения автоматически предоставляются всем участникам в рамках процедуры общего доступа.
 
-Если SharePoint Online у вашего клиента отключен, возможности пользователей Microsoft Teams по общему доступу к файлам в командах будут ограничены. Участники приватного чата также не смогут совместно использовать файлы, так как для этого нужен OneDrive для бизнеса (привязанный к лицензии SharePoint).
+Если в вашем клиенте не активировано решение SharePoint Online, пользователи Microsoft Teams не смогут обмениваться файлами в командах. Участники личных чатов также не смогут обмениваться файлами, так как для этой функции требуется OneDrive для бизнеса (что привязано к лицензии SharePoint).
 
 При сохранении файлов в библиотеке документов SharePoint Online и OneDrive для бизнеса выполняются все требования по обеспечению соответствия, заданные на уровне клиента.
 

@@ -7,12 +7,12 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "Вы можете узнать о функциях Microsoft Teams, доступных гостевым пользователям."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 596d0dd3bb754e6f6c983beb9ba62d775768d252
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 7ce64b92d5b51c7bfc154b955ed0c9c5ea1bab99
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="what-the-guest-experience-is-like"></a>Взаимодействие с гостями
 =================================
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/11/2017
 |Общий доступ к файлу в чате  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Добавление приложений (вкладок, ботов или соединителей)  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Создание политик гостевого доступа, действующих как на уровне клиента, так и для отдельных команд или каналов  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Приглашение пользователя извне домена клиента Office 365  <br/> ||![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Приглашение пользователя извне домена клиента Office 365 <br/>  *Этим параметром управляет владелец команды.*  <br/> <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Создание команды  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Обнаружение и присоединение открытой команды  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Просмотр организационной диаграммы  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

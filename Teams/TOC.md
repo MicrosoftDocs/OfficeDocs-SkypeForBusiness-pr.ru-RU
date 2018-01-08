@@ -1,6 +1,6 @@
 
 # Начало работы
-## [Обзор Microsoft Teams](Teams-Overview.md)
+## [Обзор Teams](Teams-Overview.md)
 ## [Проверка готовности среды для Teams](environment-readiness.md)
 ## [Лицензирование Office 365 для Teams](Office-365-licensing.md)
 ## [Обзор команд и каналов в Teams](teams-channels-overview.md)
@@ -10,25 +10,26 @@
 ## [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](SharePoint-OneDrive-interact.md)
 ## [Взаимодействие Teams и Skype для бизнеса](Teams-and-SkypeforBusiness-interoperability.md)
 
-# [Краткие руководства по началу работы](quick-start-guides.md)
+# [Краткие руководства по началу работы для администраторов Teams](quick-start-guides.md)
 ## [Quick start: Teams planning guide (Краткое руководство. Руководство по планированию Teams)](quick-start-enable-Teams.md)
 ## [Configure Calling Plans (Настройка планов звонков)](configuring-teams-calling-quickstartguide.md)
+## [Краткое руководство — Teams для образовательных учреждений](Teams-quick-start-edu.yml)
 
 # Планирование
-## [Обзор развертывания Microsoft Teams](deployment-overview.md)
+## [Обзор развертывания Teams](deployment-overview.md)
 ## [Планирование использования групп Office 365 при создании команд в Teams](plan-Office-365-groups.md)
 ## [Подготовка сети организации к использованию Teams](prepare-network.md)
 ## [URL-адреса и диапазоны IP-адресов для Office 365](Office-365-URLs-IP-address-ranges.md)
-## [Комплект семинара планирования и практическое руководство для Microsoft Teams](planning-workshop-practical-guide.md)
+## [Комплект для семинара. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
 
 # Адаптация
-## [Создание стратегии по управлению изменениями для Microsoft Teams](change-management-strategy.md)
+## [Создание стратегии по управлению изменениями для Teams](change-management-strategy.md)
 ## [Рекомендации по механизмам обратной связи с пользователями в Teams](best-practices-feedback.md)
 ## [Получение средств для развертывания Teams](rollout-tools.md)
 ## [Использование П-бота для помощи пользователям с Teams](T-Bot.md)
 
 # Управление
-## [Работа с клиентами для Microsoft Teams](get-clients.md)
+## [Работа с клиентами для Teams](get-clients.md)
 ## [Настройка Teams в вашей организации Office 365](Office-365-set-up.md)
 ## [Назначение ролей и разрешений в Teams](assign-roles-permissions.md)
 ## [Включение функций Teams в организации Office 365](enable-features-office-365.md)
@@ -94,7 +95,8 @@
 ## [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
 ## [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
 
-
+# Teams для образовательных учреждений
+## [Краткое руководство администратора — Teams для образовательных учреждений](Teams-quick-start-edu.yml)
 
 # [Документация разработчика для Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
 

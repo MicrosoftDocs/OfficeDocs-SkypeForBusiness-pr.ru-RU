@@ -1,18 +1,18 @@
 ---
-title: "Получение средств для развертывания Microsoft Teams | Служба поддержки Майкрософт"
+title: "Получение средств для развертывания Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Сведения о том, какие средства помогут развернуть Microsoft Teams, включая шаблоны электронной почты, руководства по началу работы, ресурсы из комплекта для успешной работы клиентов и многое другое."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1566fe26542204c0c82805fe44c6e85af849ecdf
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+description: "Узнайте, какие средства помогут вам в развертывании Microsoft Teams, включая шаблоны электронной почты, руководства по началу работы, комплекты для успешной работы клиентов и многое другое."
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 217cfa5678ab8ffcb7f1ad31bf357c84825b5226
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Получение средств для развертывания Microsoft Teams
 =================================================
