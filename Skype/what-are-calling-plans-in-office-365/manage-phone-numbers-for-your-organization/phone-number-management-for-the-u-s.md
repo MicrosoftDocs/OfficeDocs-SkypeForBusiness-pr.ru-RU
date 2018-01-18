@@ -1,0 +1,45 @@
+---
+title: "Управление номер телефона для США."
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: 09c8ca24-d018-422f-8485-9610171016a9
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "Используйте эту таблицу, чтобы найти сведения о получении и управлении номеров телефона в США (и Пуэрто-Рико) для Скайп для бизнеса в Интернет."
+ms.openlocfilehash: 862169ea5b6b8d91416574e065ea319840e1176b
+ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/17/2018
+---
+# <a name="phone-number-management-for-the-us"></a><span data-ttu-id="06cd0-103">Управление номер телефона для США.</span><span class="sxs-lookup"><span data-stu-id="06cd0-103">Phone number management for the U.S.</span></span>
+
+<span data-ttu-id="06cd0-104">Используйте эту таблицу, чтобы найти сведения о получении и управлении номеров телефона в США (и Пуэрто-Рико) для Скайп для бизнеса в Интернет.</span><span class="sxs-lookup"><span data-stu-id="06cd0-104">Use this table to find information on getting and managing phone numbers in the United States (and Puerto Rico) for Skype for Business Online.</span></span> 
+  
+<span data-ttu-id="06cd0-105">Дополнительные сведения содержатся в разделе [Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md).</span><span class="sxs-lookup"><span data-stu-id="06cd0-105">For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).</span></span>
+  
+|<span data-ttu-id="06cd0-106">**Что необходимо сделать?**</span><span class="sxs-lookup"><span data-stu-id="06cd0-106">**What you want to do?**</span></span>|<span data-ttu-id="06cd0-107">**Выполните эти действия и загрузите правильные форм**</span><span class="sxs-lookup"><span data-stu-id="06cd0-107">**Do these steps and download the correct forms**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="06cd0-108">Необходимо получить количество пользователей, не указанные в Скайп по центру администрирования бизнеса.</span><span class="sxs-lookup"><span data-stu-id="06cd0-108">You need to get user numbers that aren't listed in the Skype for Business admin center.</span></span>  <br/> |<span data-ttu-id="06cd0-109">Загрузить [новый запрос номеров телефона в США (количество пользователей) (v.3.0(en.us)](../../downloads/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en.us).pdf) форме, необходимо ввести его и [Отправить его "мне нравится"](mailto:gcstnmsd@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="06cd0-109">Download the [New phone number request for the U.S. (user numbers) (v.3.0(en.us)](../../downloads/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en.us).pdf) form, fill it out and [send it to us](mailto:gcstnmsd@microsoft.com).</span></span>  <br/> |
+|<span data-ttu-id="06cd0-110">Необходимо получить номера телефонов, передан в "мне нравится".</span><span class="sxs-lookup"><span data-stu-id="06cd0-110">You need to get phone numbers transferred to us.</span></span>  <br/> | <span data-ttu-id="06cd0-111">Загрузите одну из следующих форм:</span><span class="sxs-lookup"><span data-stu-id="06cd0-111">Download one of these forms:</span></span> <br/> <span data-ttu-id="06cd0-112">[Буквы от авторизации (ЗАГРУ) для США (номера пользователя и службы) (v.3.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en.us).pdf)</span><span class="sxs-lookup"><span data-stu-id="06cd0-112">[Letter of Authorization (LOA) for the U.S. (user and service numbers) (v.3.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en.us).pdf)</span></span> <br/> <span data-ttu-id="06cd0-113">[Буквы от авторизации (ЗАГРУ) для США (обслуживание бесплатных номеров) (v.3.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.1)-(en.us).pdf)</span><span class="sxs-lookup"><span data-stu-id="06cd0-113">[Letter of Authorization (LOA) for the U.S. (Toll-free numbers) (v.3.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.1)-(en.us).pdf)</span></span> <br/><br/><span data-ttu-id="06cd0-114">**Примечание:** Если вы пытаетесь получить более 999 подписчика или пользователем телефонных номеров, необходимо заполнить выходной параметр письма из авторизации (ЗАГРУ) и отправьте его в "мне нравится".</span><span class="sxs-lookup"><span data-stu-id="06cd0-114">**Note:** If you are trying to get more than 999 subscriber or user phone numbers, you will need to fill out a Letter of Authorization (LOA) and send it to us.</span></span> <span data-ttu-id="06cd0-115">Для получения дополнительных сведений в разделе [Передача телефонных номеров в Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) .</span><span class="sxs-lookup"><span data-stu-id="06cd0-115">See [Transfer phone numbers to Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) for more information.</span></span>           <span data-ttu-id="06cd0-116">Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptn@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="06cd0-116">Fill it out and [send it to us](mailto:ptn@microsoft.com).</span></span>  <br/> |
+|<span data-ttu-id="06cd0-117">Вам нужно изменить номер пользователя на номер службы.</span><span class="sxs-lookup"><span data-stu-id="06cd0-117">You need to change a user's number to a service number.</span></span>  <br/> |<span data-ttu-id="06cd0-118">[Ждем](mailto:ptn@microsoft.com) ПИН-код и список номеров пользователя есть желание перейти к номерам службы.</span><span class="sxs-lookup"><span data-stu-id="06cd0-118">[Send us](mailto:ptn@microsoft.com) your PIN and the list of user numbers you want to convert to service numbers.</span></span> <span data-ttu-id="06cd0-119">Чтобы настроить ПИН-код, [здесь](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).</span><span class="sxs-lookup"><span data-stu-id="06cd0-119">To set up a PIN, go [here](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).</span></span>  <br/> |
+|<span data-ttu-id="06cd0-120">Необходимо перенести числа из одной организации Office 365.</span><span class="sxs-lookup"><span data-stu-id="06cd0-120">You need to transfer numbers from one Office 365 organization to another.</span></span>  <br/> |<span data-ttu-id="06cd0-121">[Отправьте нам](mailto:ptn@microsoft.com) список номеров телефона пользователя (подписчика), которые нужно перевести вместе с ПИН-код источника организации, которой требуется перенести числа от.</span><span class="sxs-lookup"><span data-stu-id="06cd0-121">[Send us](mailto:ptn@microsoft.com) the list of user (subscriber) phone numbers you want to transfer along with the PIN of the source organization where you want to transfer the numbers from.</span></span> <span data-ttu-id="06cd0-122">Чтобы настроить ПИН-код, [здесь](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).</span><span class="sxs-lookup"><span data-stu-id="06cd0-122">To set up a PIN, go [here](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).</span></span>  <br/> |
+   
+## <a name="related-topics"></a><span data-ttu-id="06cd0-123">См. также:</span><span class="sxs-lookup"><span data-stu-id="06cd0-123">Related topics</span></span>
+[<span data-ttu-id="06cd0-124">Различные виды телефонных номеров, используемый для вызова планы</span><span class="sxs-lookup"><span data-stu-id="06cd0-124">Different kinds of phone numbers used for Calling Plans</span></span>](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[<span data-ttu-id="06cd0-125">Управление номера телефонов для вашей организации</span><span class="sxs-lookup"><span data-stu-id="06cd0-125">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization.md)
+
+[<span data-ttu-id="06cd0-126">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="06cd0-126">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
+
+[<span data-ttu-id="06cd0-127">Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы</span><span class="sxs-lookup"><span data-stu-id="06cd0-127">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
