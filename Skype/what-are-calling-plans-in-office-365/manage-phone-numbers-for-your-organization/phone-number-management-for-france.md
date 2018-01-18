@@ -1,36 +1,46 @@
 ---
-title: "Управление номера телефона во Франции"
+title: "Управление номер телефона для Франции"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 8de49037-905c-4757-a6e7-cf212173e7f3
-description: "Используйте эту таблицу для поиска информации на начало и управлении телефонные номера во Франции для Скайп для бизнеса Online."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров во Франции для Скайп для бизнеса в Интернет."
+ms.openlocfilehash: 959a9b19060d5a72b6d2c95dadbce9464406d3ac
+ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="phone-number-management-for-france"></a>Управление номер телефона для Франции
 
-# Управление номера телефона во Франции
-
-> [!IMPORTANT]
-> Данная статья переведена с помощью машинного перевода, см. Отказ от ответственности.  
+Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров во Франции для Скайп для бизнеса в Интернет. 
   
-Используйте эту таблицу для поиска информации на начало и управлении телефонные номера во Франции для Скайп для бизнеса Online.
+Дополнительные сведения содержатся в разделе [Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md).
   
-Подробнее читайте [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
-  
-|**Необходимые действия**|**Скачайте нужные формы и отправьте их нам**|
+|**Что необходимо сделать?**|**Загрузите правильный форм и отправлять их в "мне нравится"**|
 |:-----|:-----|
-|Необходимо получить номера телефонов пользователей, которые не перечислены в центре администрирования Skype для бизнеса.  <br/> | Скачайте одну из следующих форм. <br/> [Получение новых номеров телефонов во Франции (en US)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for France %28Geographic numbers%29 (v.2) (en.US).pdf) <br/> [Получение новых номеров телефонов во Франции (Французский)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for France %28Geographic numbers%29 (v.3) (fr.FR).pdf) <br/>  Заполните форму и[отправьте ее нам](mailto:ptneu@microsoft.com).  <br/> |
-|Необходимо получить номера телефонов, перенесенные к нам.  <br/> | Скачайте одну из следующих форм. <br/> [Доверенность для Франции (номера телефонов Freephone)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for France (Freephone numbers) (v.2.0) (fr-FR).pdf) <br/> [Доверенность для Франции (географические номера телефонов)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for France (Geographic numbers) (v.2.0) (fr-FR).pdf) <br/>  Заполните форму и[отправьте ее нам](mailto:ptneu@microsoft.com).  <br/> |
-|Необходимо опубликовать номера телефонов или отменить их публикацию в национальном телефонном справочнике.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов, для которых необходима публикация или отмена публикации. <br/> |
-|Необходимо сменить номер телефона пользователя на служебный номер.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com ) список номеров телефонов пользователей, которые необходимо преобразовать в служебные номера. <br/> |
-   
-## 
-<a name="MT_Footer"> </a>
+|Необходимо получить количество пользователей, не указанные в Скайп по центру администрирования бизнеса.  <br/> | Загрузить эту форму <br/> [Новый запрос номер телефона для Франции (географическое номера) (v.3.0)(fr.fr)](../../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf). <br/>  Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
+|Необходимо получить номера телефонов, передан в "мне нравится".  <br/> |Загрузите одну из следующих форм: <br/> [Буквы от авторизации (ЗАГРУ) для Франции (бесплатная телефонная номера) (v.2.0)(fr.fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> [Буквы от авторизации (ЗАГРУ) для Франции (географическое номера) (v.2.0)(fr-fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/>  Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
+|Вам потребуется публикации или отмены публикации номера телефона в каталоге национальный телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
+|Вам нужно изменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com ) список числа пользователей, которые требуется выполнить преобразование номеров службы. <br/> |
 
-> [!NOTE]
-> **Отказ от ответственности относительно машинного перевода**. Данная статья была переведена с помощью компьютерной системы без участия человека. Microsoft предлагает эти машинные переводы, чтобы помочь пользователям, которые не знают английского языка, ознакомиться с материалами о продуктах, услугах и технологиях Microsoft. Поскольку статья была переведена с использованием машинного перевода, она может содержать лексические,синтаксические и грамматические ошибки. 
-  
+## <a name="related-topics"></a>См. также:
+[Различные виды телефонных номеров, используемый для вызова планы](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md)
+
+[Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
+
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 

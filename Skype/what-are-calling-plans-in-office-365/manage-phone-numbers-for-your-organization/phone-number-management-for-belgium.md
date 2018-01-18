@@ -1,37 +1,45 @@
 ---
-title: "Управление номеров телефонов для (Бельгия)"
+title: "Управление номер телефона для Бельгия"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: ee10dde6-55ab-4141-92ca-dc97d8ca67f9
-
-description: "Используйте эту таблицу для поиска информации на начало и управлении телефонных номеров в Бельгия в Скайп для бизнеса Online."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Бельгия для Скайп для бизнеса в Интернет."
+ms.openlocfilehash: 3b0ef7b6468410023b55b2c16a7128b155bf6a9c
+ms.sourcegitcommit: f332028d01a15272da0b09c6d751dbf227cb2d30
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="phone-number-management-for-belgium"></a>Управление номер телефона для Бельгия
 
-# Управление номеров телефонов для (Бельгия)
-
-> [!IMPORTANT]
-> Данная статья переведена с помощью машинного перевода, см. Отказ от ответственности.  
+Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Бельгия для Скайп для бизнеса в Интернет. 
   
-Используйте эту таблицу для поиска информации на начало и управлении телефонных номеров в Бельгия в Скайп для бизнеса Online.
+Дополнительные сведения содержатся в разделе [Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md).
   
-Подробнее читайте [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
-  
-|**Необходимые действия**|**Скачайте нужные формы и отправьте их нам**|
+|**Что необходимо сделать?**|**Загрузите правильный форм и отправлять их в "мне нравится"**|
 |:-----|:-----|
-|Получение номеров телефонов пользователей.  <br/> | В Бельгии вы не можете получать номера телефонов для своей организации, используя центр администрирования Skype для бизнеса. Для этого необходимо отправить запрос нового номера телефона. Скачайте одну из следующих форм. <br/> [Получение новых номеров телефонов в Бельгия (en US)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Belgium %28Geographic numbers%29 (v.2) (en.US).pdf) <br/> [Получить новые номера телефона в Бельгия (de-быть)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Belgium %28Geographic numbers%29 (v.3) (de.BE).pdf) <br/> [Получить новые номера телефона в Бельгия (fr-быть)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Belgium %28Geographic numbers%29 (v.3) (fr.BE).pdf) <br/> [Получить новые номера телефона в Бельгия (nl-быть)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Belgium %28Geographic numbers%29 (v.3) (nl.BE).pdf) <br/>  Заполните форму и[отправьте ее нам](mailto:ptneu@microsoft.com).  <br/> |
-|Необходимо получить номера телефонов, перенесенные к нам.  <br/> | Скачайте одну из следующих форм. <br/> [Письма из авторизации (ЗАГРУ) для Бельгия (географических номера) (v.1.0) (en US)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium (Geographic numbers) (v.1.0) (en-US).pdf) <br/> [Письма из авторизации (ЗАГРУ) для Бельгия (географических номера) (v.1.0) (nl-быть)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium(Geographic numbers) (v.1.0) (nl-BE).pdf) <br/> [Письма из авторизации (ЗАГРУ) для Бельгия (географических номера) (v.1.0) (fr-быть)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium (Geographic numbers) (v.1.0) (fr-BE).pdf) <br/> [Письма из авторизации (ЗАГРУ) для Бельгия (географических номера) (v.1.0) (de-быть)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium(Geographic numbers) (v.1.0) (de-BE).pdf) <br/>  Заполните форму и[отправьте ее нам](mailto:ptneu@microsoft.com).  <br/> |
-|Необходимо опубликовать номера телефонов или отменить их публикацию в национальном телефонном справочнике.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов, для которых необходима публикация или отмена публикации.           <br/> |
-|Необходимо сменить номер телефона пользователя на служебный номер.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов пользователей, которые необходимо преобразовать в служебные номера. <br/> |
+|Получение нового номера телефонов пользователей.  <br/> |В Бельгия не могут получить номера телефонов для вашей организации, с помощью Скайп по центру администрирования бизнеса, необходимо отправить запрос нового номера телефона. Загрузите одну из следующих форм: <br/> [Новый запрос номер телефона для Бельгия (географическое номера) (v.3.0)(de.be)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(de.be).pdf) <br/> [Новый запрос номер телефона для Бельгия (географическое номера) (v.3.0)(fr.be)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(fr.be).pdf) <br/> [Новый запрос номер телефона для Бельгия (географическое номера) (v.3.0)(nl.be)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(nl.be).pdf) <br/>  Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
+|Необходимо получить номера телефонов, передан в "мне нравится".  <br/> | Загрузите одну из следующих форм: <br/> [Буквы от авторизации (ЗАГРУ) для Бельгия (географическое номера) (v.1.0)(nl.be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl.be).pdf) <br/> [Буквы от авторизации (ЗАГРУ) для Бельгия (географическое номера) (v.1.0)(fr.be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr.be).pdf) <br/> [Буквы от авторизации (ЗАГРУ) для Бельгия (географическое номера) (v.1.0)(de.be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de.be).pdf) <br/>  Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com). <br/> |
+|Вам потребуется публикации или отмены публикации номера телефона в каталоге национальный телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации.      <br/> |
+|Вам нужно изменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список числа пользователей, которые требуется выполнить преобразование номеров службы. <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>См. также:
+[Различные виды телефонных номеров, используемый для вызова планы](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-> [!NOTE]
-> **Отказ от ответственности относительно машинного перевода**. Данная статья была переведена с помощью компьютерной системы без участия человека. Microsoft предлагает эти машинные переводы, чтобы помочь пользователям, которые не знают английского языка, ознакомиться с материалами о продуктах, услугах и технологиях Microsoft. Поскольку статья была переведена с использованием машинного перевода, она может содержать лексические,синтаксические и грамматические ошибки. 
-  
+[Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md)
 
+[Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
+
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)

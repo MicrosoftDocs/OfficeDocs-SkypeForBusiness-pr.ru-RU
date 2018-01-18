@@ -1,62 +1,73 @@
 ---
-title: "Загрузка доверенности (LOA)"
+title: "Загрузите букву авторизации (ЗАГРУ)"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: c0ab5bc9-44f1-46dd-b401-828e4f10b7ac
-description: "Буква авторизации (ЗАГРУ) дает право запрашивать от вашего имени передача существующих номеров из другого поставщика услуг в случае возникновения споре. Использование ЗАГРУ при наличии служебные номера для аудиоконференций мосты, автосекретари или другими числами службы бесплатные номера телефонов или у вас больше, чем 999 номера телефонов пользователей (подписчика), которые нужно перенести Skype для бизнеса (или если вы не хотите использовать Мастер переноса локальный номер ). Необходимо Отправка пользовательского запроса на обслуживание с этой ЗАГРУ получение телефонных номеров перенесены у текущего поставщика услуг."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "Буква авторизации (ЗАГРУ) дает разрешение на запрос от вашего имени передачи существующего номера из другого поставщика услуг в случае споров по."
+ms.openlocfilehash: 4bbeb77af3a5d6ad8b1d4f7144161c6cd4d8775b
+ms.sourcegitcommit: 3fd7144b506dbe89551e104298a1dbc39d6eace0
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="download-a-letter-of-authorization-loa"></a>Загрузите букву авторизации (ЗАГРУ) 
 
-# Загрузка доверенности (LOA)
-
-> [!IMPORTANT]
-> Данная статья переведена с помощью машинного перевода, см. Отказ от ответственности.  
+**Буква авторизации (ЗАГРУ)** дает разрешение на запрос от вашего имени передачи существующего номера из другого поставщика услуг в случае споров по. Используйте ЗАГРУ, если у вас есть службы номеров для каналов аудиоконференций, автосекретари или другие номера службы бесплатных телефонных номеров или более 999 номера телефонов пользователей (подписчика), которые необходимо перенести в Скайп для бизнеса (или если вы не хотите использовать **Мастер переноса локальный номер**). Необходимо [вручную отправлять запрос настраиваемые службы](manually-submit-a-custom-service-request.md) с помощью этой ЗАГРУ для получения номера телефонов, перенесенных из текущего поставщика услуг.
   
- * **Буква авторизации (ЗАГРУ)*** дает право запрашивать от вашего имени передача существующих номеров из другого поставщика услуг в случае возникновения споре. Использование ЗАГРУ при наличии служебные номера для аудиоконференций мосты, автосекретари или другими числами службы бесплатные номера телефонов или у вас больше, чем 999 номера телефонов пользователей (подписчика), которые нужно перенести Skype для бизнеса (или если вы не хотите использовать **Мастер переноса локальный номер** ). Необходимо[Отправка пользовательского запроса на обслуживание](manually-submit-a-custom-service-request.md) с этой ЗАГРУ получение телефонных номеров перенесены у текущего поставщика услуг.
+Если у вас есть службы номеров для каналов аудиоконференций, автосекретари или другие номера службы бесплатных телефонных номеров или более 999 номера телефонов пользователей, которые необходимо перенести в Скайп для бизнеса, необходимо вручную отправлять заказа на порт.
   
-Если у вас есть служебные номера для аудиоконференций мосты, автосекретари или другими числами службы бесплатные номера телефонов или у вас более 999 номера телефонов пользователей, которые нужно перенести Skype для бизнеса, необходимо вручную отправить заказ Port (порт).
-  
-Если вы не знаете типов номеров телефонов, вам будет задавать нам для переноса, просмотреть [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md).
+Если вы не уверены типов номера телефонов, вам будет вопросом "мне нравится" на передачу, просмотрите [различные виды телефонных номеров, используемый для вызова планов](different-kinds-of-phone-numbers-used-for-calling-plans.md).
   
 > [!IMPORTANT]
-> При переносе номеров телефонов вручную с помощью доверенности (LOA) убедитесь, что **выбран правильный тип номера телефона**. Необходимо **отправить отдельные заказы на перенос** для каждого типа переносимого номера телефона.
+> Когда вы вручную портов телефонных номеров с помощью буква авторизации (ЗАГРУ), убедитесь что **выберите правильный тип номера телефона**. Необходимо **Отправить заказы отдельный порт** для каждого типа номер телефона, который требуется перенести.
   
-|**Страна или регион**|**Типы номеров телефонов**|**Прямая ссылка для скачивания**|
+|**Страна или регион**|**Тип номера телефона**|**Ссылка для непосредственного загрузки**|
 |:-----|:-----|:-----|
-|Бельгия  <br/> |Географические  <br/> |[Письма из авторизации (ЗАГРУ) для Бельгия (географических номера) (v.1.0) (en US)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium (Geographic numbers) (v.1.0) (en-US).pdf) <br/> [Письма из авторизации (ЗАГРУ) для Бельгия (географических номера) (v.1.0) (nl-быть)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium(Geographic numbers) (v.1.0) (nl-BE).pdf) <br/> [Письма из авторизации (ЗАГРУ) для Бельгия (географических номера) (v.1.0) (fr-быть)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium (Geographic numbers) (v.1.0) (fr-BE).pdf) <br/> [Письма из авторизации (ЗАГРУ) для Бельгия (географических номера) (v.1.0) (de-быть)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Belgium(Geographic numbers) (v.1.0) (de-BE).pdf) <br/> |
-|Франция  <br/> |Freephone  <br/> |[Доверенность для Франции (номера телефонов Freephone), версия 2.0](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for France (Freephone numbers) (v.2.0) (fr-FR).pdf) <br/> |
-|Франция  <br/> |Географические  <br/> |[Доверенность для Франции (географические номера телефонов), версия 2.0](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for France (Geographic numbers) (v.2.0) (fr-Fr).pdf) <br/> |
-|Германия  <br/> |Географические  <br/> |[Письма из авторизации (ЗАГРУ) для Германии (географических номера) (v.1.0) (en US)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Germany (Geographic numbers) (v.1.0) (en-US).pdf) <br/> [Письма из авторизации (ЗАГРУ) для Германии (географических номера) (v.1.0) (ru ru)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Germany (Geographic numbers) (v.1.0) (de-DE).pdf) <br/> |
-|Ирландия  <br/> |Географические  <br/> |[Доверенность для Ирландии (географические номера телефонов), версия 1.0](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Ireland (Geographic numbers) (v.1.0) (en-US).pdf) <br/> |
-|Ирландия  <br/> |Негеографические  <br/> |[Доверенность для Ирландии (негеографические номера телефонов), версия 1.0](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Ireland (Non-geographic numbers) (v.1.0) (en-US).pdf) <br/> |
-|Нидерланды  <br/> |Географические  <br/> |[Доверенность для Нидерландов (географические номера телефонов), версия 1.0 (en-US)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the Netherlands (Geographic numbers) (v.1.0) (en-US).pdf) <br/> [Доверенность для Нидерландов (географические номера телефонов), версия 2.0 (nl-NL)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the Netherlands (Geographic numbers) (v.2.0) (nl-NL).pdf) <br/> |
-|Нидерланды  <br/> |Негеографические  <br/> |[Доверенность для Нидерландов (номера телефонов, не являющиеся географическими), версия 2.0](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the Netherlands (Non-geographic numbers) (v.2.0) (nl-NL).pdf) <br/> |
-|Испания  <br/> |Все номера телефонов  <br/> |[Доверенность для Испании (все номера телефонов), версия 2.0](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Spain (All numbers) (v.1.0) (es-ES).pdf) <br/> |
-|Соединенное Королевство  <br/> |Служба (автосекретарь, конференц-связь и т. д.)  <br/> |[Доверенность для Соединенного Королевства (служебные номера телефонов), версия 2.1](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Service numbers) (v.2.1) (en-US).pdf) <br/> |
-|Соединенное Королевство  <br/> |Абонент (пользователь)  <br/> |[Письма из авторизации (ЗАГРУ) для Великобритании (числа пользователей) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Subscriber numbers) (v.2.0) (en-US).pdf) <br/> |
-|США  <br/> |Абонентские и служебные ( *платные*  ) <br/> |[Письма из авторизации (ЗАГРУ) для США (числа пользователей и службы) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (User and Service numbers) (v.3.1) (en-US).pdf) <br/> |
-|США  <br/> |Бесплатные  <br/> |[Письма из авторизации (ЗАГРУ) для США (бесплатного номера) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf) <br/> |
+|Бельгия  <br/> |Географическое  <br/> |[Буквы от авторизации (ЗАГРУ) для Бельгия (географическое номера) (v.1.0)(nl.be)](../downloads/loa-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl.be).pdf) <br/> [Буквы от авторизации (ЗАГРУ) для Бельгия (географическое номера) (v.1.0)(fr.be)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr.be).pdf) <br/> [Буквы от авторизации (ЗАГРУ) для Бельгия (географическое номера) (v.1.0)(de.be)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de.be).pdf) <br/> |
+|Франция  <br/> |Бесплатная телефонная  <br/> |[Буквы от авторизации (ЗАГРУ) для Франции (бесплатная телефонная номера) (v.2.0)(fr.fr)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> |
+|Франция  <br/> |Географическое  <br/> |[Буквы от авторизации (ЗАГРУ) для Франции (географическое номера) (v.2.0)(fr.fr)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/> |
+|Германия  <br/> |Географическое  <br/> |[Буквы от авторизации (ЗАГРУ) для Германии (географическое номера) (v.1.0)(de.de)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de.de).pdf) <br/> |
+|Ирландия  <br/> |Географическое  <br/> |[Буквы от авторизации (ЗАГРУ) для Ирландия (географическое номера) (v.1.0)(en.us)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> |
+|Ирландия  <br/> |Географическое без поддержки  <br/> |[Буквы от авторизации (ЗАГРУ) для Ирландия (не являющиеся географическое номера) (v.1.0)(en.us)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> |
+|Нидерланды  <br/> |Географическое |[Буквы от авторизации (ЗАГРУ) для Нидерландов (географическое номера) (v.2.0)(nl.nl)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/>|
+Нидерланды <br/> |Географическое без поддержки <br/> |[Буквы от авторизации (ЗАГРУ) для Нидерландов (не являющиеся географическое номера) (v.2.0)(nl.nl)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/> |
+|Испания  <br/> |Все номера  <br/> |[Буквы от авторизации (ЗАГРУ) для Испании (все номера) (v.1.0)(es.es)](../downloads/loa-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es.es).pdf) <br/> |
+|Великобритания  <br/> |Географическое без поддержки  <br/> |[Буквы от авторизации (ЗАГРУ) для Великобритании (не являющиеся географическое номера) (v.2.1)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en.us).pdf) <br/> |
+|Великобритания  <br/> |Географическое  <br/> |[Буквы от авторизации (ЗАГРУ) для Великобритании (географическое номера) (v.2.0)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en.us).pdf) <br/> |
+|США (США) (и Пуэрто-Рико) <br/> |Пользователь и службы номеров (*не бесплатных*) <br/> |[Буквы от авторизации (ЗАГРУ) для США (номера пользователя и службы) (v.3.1)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en.us).pdf) <br/> |
+|США  <br/> |Бесплатный номер  <br/> |[Буквы от авторизации (ЗАГРУ) для США (обслуживание бесплатных номеров) (v.3.1)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.1)-(en.us).pdf) <br/> |
    
-## Скачайте формы заявок для управления номерами телефонов
+## <a name="downloads-for-phone-number-management-forms"></a>Файлы для загрузки для телефонных номеров управления форм
 
-- Чтобы просмотреть полный список доверенностей и скачать соответствующие формы, перейдите на страницу [Доверенности для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkID=623745).
+- Можно просмотрите список и загрузите все буквы авторизации (ЗАГРУ) s, перейдя на [Скайп для бизнеса Online букв из авторизации](https://go.microsoft.com/fwlink/?LinkID=623745).
     
-- Чтобы просмотреть список форм заявок на получение новых номеров телефонов и скачать их, перейдите на страницу [Заявки на получение новых номеров телефонов для Skype для бизнеса](https://go.microsoft.com/fwlink/?linkid=851581).
-    
-## Статьи по теме
-
-[Передача номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md)
-  
-## 
-<a name="MT_Footer"> </a>
+- Можно просмотрите список и загрузите все формы, доступные для получения нового номера телефонов, перейдя на [Скайп для бизнеса новых запросов номер телефона](https://go.microsoft.com/fwlink/?linkid=851581).
 
 > [!NOTE]
-> **Отказ от ответственности относительно машинного перевода**. Данная статья была переведена с помощью компьютерной системы без участия человека. Microsoft предлагает эти машинные переводы, чтобы помочь пользователям, которые не знают английского языка, ознакомиться с материалами о продуктах, услугах и технологиях Microsoft. Поскольку статья была переведена с использованием машинного перевода, она может содержать лексические,синтаксические и грамматические ошибки. 
-  
+> Если вам потребуется получить дополнительные номера телефонов, чем это, пожалуйста, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+    
+## <a name="related-topics"></a>См. также:
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
+[Различные виды телефонных номеров, используемый для вызова планы](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
+[Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
+
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 

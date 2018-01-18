@@ -1,5 +1,5 @@
 ---
-title: Availability in Moldova
+title: "Доступность в Молдова"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,60 +24,60 @@ ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/02/2018
 ---
-# <a name="availability-in-moldova"></a>Availability in Moldova
+# <a name="availability-in-moldova"></a>Доступность в Молдова
 
-[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
+[Найдите другой страны или региона](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), или Дополнительные сведения о доступности страны и региона для аудиоконференции и Тарифные планы.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Moldova.
+Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Молдова.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |Нет  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Нет  <br/> |
-|Dial-out capability using the Call Me feature  <br/> |Недоступно  <br/> |
+|— Это аудиоконференции можно приобрести?  <br/> |Нет  <br/> |
+|Номера телефонов автоматически назначаются для аудиоконференции?  <br/> |Нет  <br/> |
+|Возможность подключение по телефонной линии, с помощью вызова функция  <br/> |Недоступно  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Is Phone System available for purchase?  <br/> |Да  <br/> |
-| Auto attendants <br/> |Доступно  <br/> |
-|Call queues  <br/> |Доступно  <br/> |
+|— Это телефонной системой можно приобрести?  <br/> |Да  <br/> |
+| Автосекретари <br/> |Доступно  <br/> |
+|Вызов очередей  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
    
-## <a name="calling-plans"></a>Calling Plans
+## <a name="calling-plans"></a>Тарифные планы
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |Нет  <br/> |
-|Minutes available for Calling Plans  <br/> |Неприменимо  <br/> |
-|Can make outbound calls to?  <br/> |Неприменимо  <br/> |
+|Тарифные планы доступны на покупку?  <br/> |Нет  <br/> |
+|Доступные для вызова планы минут  <br/> |Неприменимо  <br/> |
+|Можно выполнять исходящие вызовы?  <br/> |Неприменимо  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Toll and toll-free numbers for services
+## <a name="toll-and-toll-free-numbers-for-services"></a>Звонки на платные телефоны и обслуживание бесплатных номеров для служб
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> |Неприменимо  <br/> |
-|Are toll numbers available?  <br/> |Нет  <br/> |
-|Are toll-free numbers available?  <br/> |Да  <br/> |
+|Какие прописных букв или основных городов можно получить платные номера телефонов для?  <br/> |Неприменимо  <br/> |
+|Платные номера доступны?  <br/> |Нет  <br/> |
+|Обслуживание бесплатных номеров доступны?  <br/> |Да  <br/> |
    
- If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+ Если вы хотите получить бесплатный и бесплатных номеров телефонов для аудиоконференции, автосекретари, очереди вызовов, просматривать и [Приступая к службе номера телефонов для Скайп для бизнеса и группами Майкрософт](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Are Communications Credits available?  <br/> |Нет  <br/> |
+|Доступны кредитов коммуникации?  <br/> |Нет  <br/> |
    
-If you want to set them up, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+Если вы хотите настроить их, см [кредитов коммуникаций для вашей организации](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
   
 ## <a name="related-topics"></a>См. также:
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Получение службы телефонных номеров для Скайп для бизнеса и группами Майкрософт](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Доступность страны и региона для конференц-связи аудио и вызов планов](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 
 

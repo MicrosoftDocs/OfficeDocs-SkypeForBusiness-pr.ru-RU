@@ -1,147 +1,157 @@
 ---
-title: "Audio Conferencing common questions"
+title: "Часто задаваемые вопросы звукового конференц-связи"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
-description: "The following are some of the top questions we get from our customers who want to use Audio Conferencing."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Далее представлены некоторые основные вопросы, на которые поступления из наших клиентов, которым требуется использовать звук конференц-связи."
+ms.openlocfilehash: 7d214992e8d1285d62001cac9793c723d7aae93e
+ms.sourcegitcommit: dfde603cfc932925ede24bb58d566705b9ecdf29
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/05/2018
 ---
+# <a name="audio-conferencing-common-questions"></a>Часто задаваемые вопросы звукового конференц-связи
 
-# Audio Conferencing common questions
+Далее представлены некоторые основные вопросы, на которые поступления из наших клиентов, которым требуется использовать звук конференц-связи. 
+  
+Пошаговые инструкции по настройке аудиоконференции см [аудиоконференции для Скайп для бизнеса и группами Майкрософт](set-up-audio-conferencing.md).
 
-The following are some of the top questions we get from our customers who want to use Audio Conferencing. 
-  
-For step-by-step instructions for setting up Audio Conferencing, see [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md).
-  
-## What are the benefits of Audio Conferencing?
+## <a name="what-are-the-benefits-of-audio-conferencing"></a>Каковы преимущества конференц-связи звук?
 
-Calling in to meetings is very useful when people are on the road, for example, and can't attend a meeting using the Skype для бизнеса or Microsoft Teams app on their laptop or mobile devices. But there are other scenarios in which using a phone to attend a Skype для бизнеса or Microsoft Teams meeting can be a better option than using an app on a computer:
+Вызов в к собраниям очень полезен при людей, например, в пути и не могут посещение собрания с помощью Скайп для бизнеса или группами Майкрософт приложения на их ноутбуков или мобильных устройств. Однако существует несколько сценариев, в которых с помощью телефона на участие Скайп для бизнеса или группами Майкрософт собрания может быть лучший вариант, чем с помощью приложения на компьютере:
   
-- Internet connectivity is limited.
+- Подключение к Интернету ограничен.
     
-- A meeting is audio only.
+- Собрания только звука.
     
-- The person tried to join a Skype для бизнеса meeting and it failed.
+- Человека попытались присоединиться к собранию Скайп для собраний и его не удалось.
     
-- The call quality is better if they dial in.
+- Качество звонка лучше, если подключения.
     
-- People can join a meeting "hands free" using Bluetooth devices.
+- Люди могут присоединиться к собранию «автономно» с помощью устройства Bluetooth.
     
-- People find it's easier and more convenient for their situation.
+- Проще и более удобным для их ситуации поиска людей.
     
-## Who can attend an Audio Conferencing meeting? And who can I hear?
+## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>Пользователей, которые могут присутствовать на совещании аудиоконференции? И кто может слышны?
 
-Anyone who has the dial-in number and conference ID can join a Skype для бизнеса or Microsoft Teams meeting, unless the meeting organizer has locked the meeting.
+Любой пользователь, имеющий телефонные номера и конференции идентификатор могут присоединиться к Скайп собрания Business или группами Майкрософт, если только организатор собрания заблокировал собрания.
   
-Whether you're calling in using a phone or the Skype for Business or Microsoft Teams apps, you'll be able to hear everyone else on the call, and they can hear you. The meeting organizer has the ability to "mute" meeting attendees if they don't want to hear them. 
+Ли абонент в с телефона или Скайп для бизнеса или группами Майкрософт приложений можно будет воспроизводить все остальные на звонок, и они слышен. Организатор собрания имеет возможность «выключить» участников собрания, если они не хотят слушать их. 
   
-## Can I add a toll-free number for my Audio Conferencing users?
+## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>Можно добавить бесплатного телефонного номера для Мои пользователи аудио конференц-связи
 
-Yes, toll-free phone numbers (service numbers) are available but only in some countries/regions. To see a list of the numbers that are available, go [Where can I get toll-free numbers?](https://support.office.com/article/448bb563-c122-48ce-aab9-a97157a17bd3).
+Да, бесплатные номера телефонов (номера службы), доступен, но только в некоторых странах или регионах. Чтобы просмотреть список номеров, которые доступны, [здесь](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
-## How many local dial-in numbers are currently supported?
+## <a name="how-many-local-dial-in-numbers-are-currently-supported"></a>Сколько локальные телефонные номера в настоящее время поддерживаются?
 
-There are local dial-in numbers that are assigned to you when you purchase the licenses for Audio Conferencing. The dial-in numbers will be included in the meeting invite. These local numbers will be only available to your organization. The phone assigned to your organization and that number is shared by the users within that organization that are enabled for Audio Conferencing. So, Skype for Business or Microsoft Teams meetings scheduled by User A and another User B will both have the same dial-in number.
+Существует локальный номеру телефона, назначенные пользователю, когда приобрести лицензии для аудиоконференции. Телефонные номера будут включены в приглашении на собрание. Эти локальные номера можно только для вашей организации. Телефон, назначенных для вашей организации и этот номер является общим пользователями внутри организации, для которых включено для аудиоконференции. Таким образом Скайп для бизнеса или группами Майкрософт собраний помощнику по пользователь A и B другого пользователя, будут иметь одинаковые номера.
   
-Local dial-in numbers, and also in some cases international dial-in numbers from the country where your organization is located, will be included on the meeting invite. If a meeting attendee uses a different number that is include in the invite, it will be a shared phone number.
+Локальные телефонные номера, а также в некоторых случаях международных телефонных номеров в стране, где расположена вашей организации, будут включены в приглашении на собрание. Если участник собрания использует другой номер, который является включают в приглашении, оно будет общей телефонный номер.
   
-## How many international dial-in numbers does Audio Conferencing in Office 365 support?
+## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Сколько международных телефонных номеров поддерживает Audio конференция в Office 365?
 
-For a current list of countries/regions, see [Телефонные номера для аудиоконференции](phone-numbers-for-audio-conferencing.md).
+Текущий список страны или регионы в разделе [номера телефонов для аудиоконференции](phone-numbers-for-audio-conferencing.md).
   
-## Can I set up local numbers for Audio Conferencing from additional cities in the country?
+## <a name="can-i-set-up-local-numbers-for-audio-conferencing-from-additional-cities-in-the-country"></a>Можно настроить локальные номера для аудиоконференции из дополнительных городов в стране?
 
-If phone numbers for Audio Conferencing aren't available in your area or don't meet the needs of your organization, please send us feedback at [SkypeFeedback forums](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing).
+Если номера телефонов для аудиоконференции не доступны в своем регионе или не отвечают требованиям вашей организации, отправьте нам свои отзывы и предложения по [SkypeFeedback форумы](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing).
   
-## What is the maximum length of the Audio Conferencing meetings?
+## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>Что такое максимальная длина аудиоконференции собрания?
 
-The maximum length of time depends on who is in the meeting and the type of authentication they used to join the meeting.
+Максимальный период времени зависит от того, кто находится в собрания и тип проверки подлинности, они используются для присоединения к собранию.
   
-|**Meeting attendees**|**Meeting end time**|
+|**Участников собрания**|**Время окончания собрания**|
 |:-----|:-----|
-|There are users who have joined using the Skype for Business or Microsoft Teams app or have dialed in to the meeting.  <br/> |The meeting ends if there are no changes to the attendee list after 24 hours.  <br/> |
-|All of the users are dialed in to the meeting but someone has used a PIN to enter the meeting.  <br/> |The meeting ends after 24 hours.  <br/> |
-|All of the users are dialed in to the meeting but there wasn't anyone who used a PIN to enter the meeting.  <br/> |The meeting ends after 4 hours.  <br/> |
+|Есть пользователи, которые присоединятся с помощью Скайп для бизнеса или группами Майкрософт приложения или звонил в к собранию.  <br/> |Если нет изменений в список участников через 24 часа окончания собрания.  <br/> |
+|Всех пользователей подключившихся по телефону к собранию, но кто-то использовал ПИН-код для присоединения к собранию.  <br/> |24 часа после окончания собрания.  <br/> |
+|Всех пользователей подключившихся по телефону к собранию, но не было всем пользователям, которые используется ПИН-код для присоединения к собранию.  <br/> |4 часов после окончания собрания.  <br/> |
    
-## How many total phone participants can I have in meetings?
+## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Сколько всего телефона участников можно проводить в собраниях?
 
-Audio Conferencing allows up to 250 phone attendees.
+Аудиоконференции позволяет до 250 участников телефона.
   
-To find out about meeting limits, see [Skype for Business Online Limits](https://technet.microsoft.com/en-us/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
+Чтобы узнать о ограничения на собрания, видеть [Скайп для ограничения Online Business](https://technet.microsoft.com/en-us/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
   
-## Why did users start receiving emails with their Audio Conferencing information?
+## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Почему пользователям начать получения сообщений электронной почты с их аудиоконференции сведения?
 
-We added a new feature that allows you, the [Назначение ролей администратора в Office 365](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), to send and update Audio Conferencing information and PIN in email. To learn more about it, including how to disable it, see [Включение и отключение отправки сообщения электронной почты при изменении параметров аудиоконференций](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md).
+Мы добавили новый компонент, который позволяет пользователю, [администратор](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), отправлять и обновлять данные для конференции аудио и ПИН-кода по электронной почте. Дополнительные сведения о нем, включая как отключить ее, см. [Включение и отключение отправки сообщения электронной почты при изменении параметров звука конференц-связи](enable-or-disable-sending-emails-when-their-settings-change.md).
   
-## Can Audio Conferencing be used by the users who are part of an on-premises deployment of Skype for Business Server 2015?
+## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>Можно использовать звук конференц-связи для пользователей, которые входят в состав развертывания для локальной Скайп для Business Server 2015?
 
-We're not quite there. However, you can continue to use audio conferencing that is available in Skype for Business Server 2015 along with a PSTN gateway for your on-premise users. 
+Мы еще не. Тем не менее можно продолжить использование аудиоконференций, доступные в Скайп для Business Server 2015 и ТСОП-шлюз для локальных пользователей. 
   
-## Can a user get a personal conference ID?
+## <a name="can-a-user-get-a-personal-conference-id"></a>Пользователь получить идентификатор личной конференции?
 
-Skype for Business and Microsoft Teams users will be randomly assigned conferencing IDs and can't reserve or set a static conference ID that only they can use. 
+Скайп для бизнеса и группами Майкрософт пользователей случайным образом назначается конференц-связи идентификаторов и не может зарезервировать или задать идентификатор статического конференции, только они могут использовать. 
   
-## Can I use Audio Conferencing with Skype Meeting Broadcast?
+## <a name="can-i-use-audio-conferencing-with-skype-meeting-broadcast"></a>Можно использовать звук конференц-связи с Скайп вещания собрания?
 
-There isn't support currently for users enabled for Audio Conferencing to join a Skype Meeting Broadcast.
+Не существует в настоящее время поддержка пользователей, включенных в аудио конференц-связи для присоединения к собранию Скайп, вещания.
   
-## Can a user get operator assistance during a meeting?
+## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>Может ли пользователь получить помощь оператор во время собрания?
 
-No, a user can't get any operator assistance or support by pressing *0 during the meeting. If there are issues with Audio Conferencing, an administrator for an organization can contact [Обращение в службу поддержки Office 365 для бизнеса: справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+Нет, пользователь не может получить помощь любой оператор или поддержки, нажав * 0 во время собрания. При наличии проблем с аудио конференц-связи, назначены права администратора организации может связаться с [поддержки Microsoft Office 365](https://support.office.com/en-us/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
-## How does a user access or change their conference ID?
+## <a name="how-does-a-user-access-or-change-their-conference-id"></a>Как не доступа пользователей или изменить их идентификатор конференции?
 
-A Skype for Business or Microsoft Teams user can find the conference ID that is assigned to them by scheduling a meeting in Outlook and Outlook on the web. Also, users can find the conference ID in the email that will be sent to them after they are set up.
+Скайп для бизнеса или группами Майкрософт пользователя можно найти идентификатор конференции, назначаемый им время встречи в Outlook и Outlook в Интернете. Кроме того пользователи могут находить идентификатор конференции в сообщение электронной почты, на который будут отправляться им после их настройки.
   
 > [!NOTE]
-> Users won't be able to reset their conference ID. The conference ID can only be reset by you, the [Назначение ролей администратора в Office 365](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), for the organization. 
+> Пользователи не смогут сбросить их идентификатор конференции. Идентификатор конференции можно только сбросить, вы [администратор](https://support.office.com/en-us/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), для организации. 
   
-We are working on a solution that will let the user access and reset a conference ID without help from an organization's admin.
+Корпорация Майкрософт работает на решение, которое будет let доступа пользователей и сброс идентификатор конференции без помощи администратор организации.
   
-## How does a user access or change his/her PIN?
+## <a name="how-does-a-user-access-or-change-hisher-pin"></a>Как не доступа пользователей или изменение свой ПИН-код?
 
-The Skype for Business or Microsoft Teams user can find the PIN in an email that will be sent to them once they are set up.
+Скайп для бизнеса или группами Майкрософт пользователя можно найти ПИН-код в сообщение электронной почты, на который будут отправляться им после их настройки.
   
 > [!NOTE]
-> A Skype for Business or Microsoft Teams user won't be able to reset their PIN. The PIN can only be reset by you, the admin. When a PIN is reset, an email is sent to the user. 
+> Скайп для бизнеса или группами Майкрософт пользователя не будут иметь возможность сбросить свой ПИН-код. ПИН-код можно только сбросить пользователем, администратор. При сбросить ПИН-код, пользователю отправляется сообщение электронной почты. 
   
-We are working on a solution that will let the user access and reset a PIN without help from a organization's administrator.
+Мы работаем на решение, которое будет позволить пользователю доступ и сброс ПИН-кода без помощи администратора организации.
   
-## What in-meeting dial-pad commands are supported?
+## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>Какие команды панель набора номера во время собрания, поддерживаются?
 
-- *6 (Mute/unmute themselves)
+- * 6 (включить или отключить звук сами)
     
-- *1 (Plays the descriptions of dial-pad commands that are available) 
+- * 1 (воспроизведение описания доступных команд набора номера) 
     
-## Can attendees dial out to international phone numbers when they are in a Skype for Business or Microsoft Teams meeting?
+## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Участники соединиться с международных телефонных номеров в Скайп для бизнеса или группами Майкрософт собрания?
 
-Yes, attendees can dial out internationally and invite other callers into a Skype for Business or Microsoft Teams meeting. See [Исходящие звонки, позволяющие другим людям присоединиться к собранию](dialing-out-from-a-meeting-so-other-people-can-join-it.md).
+Да, участников можно выполнять звонки международное и приглашать других звонящих в Скайп для бизнеса или группами Майкрософт собрания. В разделе [выходному из собрания, чтобы другие пользователи могут присоединиться к ней](dialing-out-from-a-meeting-so-other-people-can-join-it.md).
   
-## How does a Skype for Business or Microsoft Teams user schedule a meeting with Audio Conferencing meeting details?
+## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>Как Скайп для бизнеса или группами Майкрософт пользователя запланировать собрание с сведения о собрании аудиоконференции
 
-When a user is assigned an **Audio Conferencing** license and the user creates a new Skype for Business or Microsoft Teams meeting in Outlook or Outlook on the web, the dial-in phone numbers and conferencing IDs are added to the meeting invite automatically.
+Когда пользователю назначена лицензия на **Аудиоконференции** и пользователь создает новые Скайп для бизнеса или группами Майкрософт собрания в Outlook или Outlook в Интернете, телефонные номера телефонов и конференц-связи идентификаторов добавляются в приглашении на собрание автоматически.
   
-## How does a user schedule and start a meeting when all attendees will be using a phone to dial-in?
+## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>Как не расписание пользователей и начать собрание, когда все участники будут с помощью телефона-связи?
 
-When a user is assigned an **Audio Conferencing** license, the user is assigned what is called a reservation-less conference ID. This conference ID can be shared along with the conference access phone numbers with meeting attendees without the user having to schedule a meeting.
-  
-Here is a table illustrating the scenarios when the organizer and all of the attendees dial in to a meeting:
-  
-|**User's setting**|**Organizer steps**|**Attendee steps**|
-|:-----|:-----|:-----|
-|Don't allow anonymous users to start a meeting.  <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/>  Enter the PIN for the meeting. <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/>  If the meeting organizer hasn't joined the meeting yet, the attendee will listen to music in the lobby until the organizer joins the meeting. <br/> |
-|Allow an anonymous user to start a meeting.  <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/>  If the attendee joins the meeting before the organizer, each attendee can start the meeting. <br/> |
+Планирование собрания, который будет присоединен с всех участников, использование телефон для звонков в не отличается от планирование регулярные собрания по сети. Тем не менее существует два способа, чтобы начать собрание, на котором все участники использовать телефон для звонков в:
+
+- **Параметр #1**: по умолчанию, если организатор собрания и все участники присоединение к собранию с помощью телефона, организатор собрания должен вводимых пользователем данных свой звук конференц-связи ПИН-код для его запуска. Абонентов получить запрос, если они хотят проверку в качестве организатора указанного собрания при удаленном номером телефона собрания по сети. Все участники, которые присоединиться к собранию через телефонные перед начинается Организатор переводятся в зале ожидания и будет воспроизведение музыки на удержание. Как только организатор запускает его путем введения свой звук конференц-связи ПИН-кода, все участники в зале ожидания автоматически будет присоединиться к собранию.
+
+- **Вариант 2**: Если для данного организатора включен параметр «Разрешить непроверенный абонентам первого людей на совещании» (отключен по умолчанию), а затем всех собраний, запланированных, которые этот пользователь будет иметь возможность работы без необходимости организатора вводимых пользователем данных или установил аудиоконференций ПИН-кода. При включении этого параметра собрание начинается сразу после первого присоединения его через телефонные номера, и он или она не будут размещены в зале ожидания. Дополнительные сведения см [Управление аудио параметры конференц-связи для пользователя](manage-the-audio-conferencing-settings-for-a-user.md)
    
-## См. Также:
+## <a name="related-topics"></a>См. также:
 
-[Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](set-up-audio-conferencing.md)
   
 [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
-[Телефонные номера для аудиоконференции](phone-numbers-for-audio-conferencing.md)
+[Номера телефонов для аудиоконференции](phone-numbers-for-audio-conferencing.md)
   
 

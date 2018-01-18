@@ -1,108 +1,123 @@
 ---
-title: "Назначение, изменение или удаление номера телефона пользователя"
+title: Assign, change, or remove a phone number for a user
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
-description: "Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
+ms.openlocfilehash: 4e818262d3be83f93394d4b65a67c8b8f5f35002
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Assign, change, or remove a phone number for a user
 
-# Назначение, изменение или удаление номера телефона пользователя
+When you set up Calling Plans in Office 365, you assign phone numbers to your users. 
 
-При настройке планов звонков в Office 365 необходимо назначить номера телефонов пользователям. Номер, который вы назначаете пользователю, отображается в поле **Рабочий телефон** в клиенте Skype для бизнеса и не может быть изменен пользователем.
+In the Microsoft Teams client, the phone number you assign will be listed when they click **Calls**.
+
+![User's phone number displayed in Microsoft Teams.](../images/teams-phone-number.png)
+
+In the Skype for Business client, the phone number you assign will be listed in the **Work Phone** box and can't be changed by a user.
   
 ![Work Phone Number is Greyed Out.](../images/5212fa64-b55c-4398-9709-a334f3ffa749.png)
   
 > [!IMPORTANT]
-> Если при попытке пользователя [Изменение собственного номера телефона в Skype для бизнеса](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) ** этот номер телефона недоступен для редактирования или соответствующее поле неактивно**, это означает, что номер настроен администратором и пользователю запрещено менять его.
+> If a user wants to [change his or her phone number for Skype for Business](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) and the phone number in the Skype for Business app can't be changed or is grayed out, that means an admin has set it for them and it can't be changed by them.
   
-## Назначение номера
+## <a name="assigning-a-number"></a>Assigning a number
 
-При настройке функций совершения и приема телефонных вызовов, необходимо сначала перейти в центр администрирования Skype для бизнеса и назначить пользователю телефонный номер (там также можно изменить или удалить его).
+When you are setting up users so they can make and receive phone calls, you must first use the Skype for Business admin center and assign a phone number, but you can change or remove the phone number if you need to.
   
-Сведения о получении планов звонков в Office 365 и их стоимости см. в разделе [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+To learn how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> Чтобы проверить, назначена ли пользователю лицензия, перейдите в **Центр администрирования Skype для бизнеса**, выберите **Голосовая связь** > **Пользователи голосовой связи**, затем выберите пользователя. Если лицензия уже назначена, она отобразится в разделе **Назначенная лицензия**. Также наличие назначенной лицензии можно проверить в центре администрирования Office 365. 
+> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
   
- **Назначение пользователю номера телефона**
+ **Assign a phone number to a user**
   
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Выберите **Центр администрирования Office 365** > **Центры управления** > **Skype для бизнеса**.
+2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
     
-3. На панели навигации слева выберите **Голосовая связь** > **Пользователи голосовой связи**.
+3. In the left navigation, click **Voice** > **Voice users**.
     
     **ВАЖНО!** Чтобы в левой области навигации Центра администрирования Skype для бизнеса появился элемент **Голосовая связь**, необходимо приобрести хотя бы одну **лицензию уровня корпоративный E5**, лицензию на надстройку **Телефонная система** либо лицензию на надстройку **Аудиоконференция**.
     
 4. На странице **Пользователи голосовой связи** найдите и выберите пользователя или пользователей для назначения номера телефона.
     
-5. На панели действий нажмите **Назначить номер**.
+5. In the Action pane, click **Assign number**.
     
-6. На экране **Назначение номера** в списке **Выбрать номер для назначения** выберите номер телефона для пользователя.
+6. On the **Assign number** page in the **Select number to assign** list, select the phone number for the user.
     
     > [!TIP]
-    > Если в списке нет номеров телефонов, сначала необходимо [Получение телефонных номеров для пользователей](getting-phone-numbers-for-your-users.md). Можно перейти в **Центр администрирования Skype для бизнеса**, выбрать **Голосовая связь**, а затем на странице **Номера телефонов** нажмите **Добавить** и выберите **Новые номера пользователей**. 
+    > If you don't see any phone numbers listed, you need to [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md) first. Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
   
-7. Чтобы назначить или изменить связанный адрес для экстренного реагирования, в разделе **Выберите подтвержденное местоположение для экстренного реагирования** укажите расположение из списка или (при наличии нескольких заданных расположений) введите название города в поле поиска и нажмите **Поиск**.
+7. To assign or change the associated emergency address, under **Select validated emergency location**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
     
-8. После назначения номера телефона и местоположения для экстренного реагирования нажмите **Сохранить**.
+8. After you pick the phone number and emergency location, click **Save**.
     
     > [!NOTE]
-    > Поскольку данные между Office 365 и приложением Skype для бизнеса online передаются с некоторой задержкой, может потребоваться до 24 часов для того, чтобы настройки пользователей вступили в силу. Если по истечении 24 часов телефонный номер не назначен, [Обращение в службу поддержки Office 365 для бизнеса: справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Мы будем рады вам помочь! 
+    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
-## Изменение номера
+## <a name="changing-a-number"></a>Changing a number
 
- **Изменение номера телефона пользователя**
+ **To change a phone number for a user**
   
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Выберите **Центр администрирования Office 365** > **Центры управления** > **Skype для бизнеса**.
+2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
     
-3. На панели навигации слева выберите **Голосовая связь** > **Пользователи голосовой связи**.
+3. In the left navigation, click **Voice** > **Voice users**.
     
-4. На странице **Пользователи голосовой связи** найдите и выберите пользователя или пользователей для изменения номера телефона.
+4. On the **Voice users** page, locate and select the user or users that you want to change a phone number for.
     
-5. На панели действий нажмите **Назначить номер**, затем **Изменить**.
+5. In the Action pane, under **Assigned number**, click **Change**. 
     
-6. На экране **Назначение номера** нажмите **Изменить номер**.
+6. On the **Assign number** page, click **Change number**.
     
-7. На экране **Назначение номера** в списке **Выбрать номер для назначения** выберите новый номер телефона для пользователя.
+7. On the **Assign number** page, under **Select number to assign**, use the list to select the new phone number. 
     
-8. Чтобы изменить связанный адрес для экстренного реагирования, щелкните **Изменить расположение**, а затем в разделе **Изменить адрес для экстренного реагирования** выберите расположение из списка или (при наличии нескольких заданных расположений) введите название города в поле поиска и нажмите **Поиск**.
+8. To change the associated emergency address, click **Change location**, and then under **Change emergency address to**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
     
 9. Нажмите кнопку **Сохранить**.
     
-## Удаление номера
+## <a name="removing-a-number"></a>Removing a number
 
- **Удаление номера телефона пользователя**
+ **To remove a phone number from a user**
   
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Выберите **Центр администрирования Office 365** > **Центры управления** > **Skype для бизнеса**.
+2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
     
-3. На панели навигации слева выберите **Голосовая связь** > **Пользователи голосовой связи**.
+3. In the left navigation, click **Voice** > **Voice users**.
     
-4. На странице **Пользователи голосовой связи** найдите и выберите пользователя или пользователей для удаления номера телефона.
+4. On the **Voice users** page, locate and select the user or users that you want to remove the phone number for.
     
-5. На панели действий выберите **Назначенный номер**, затем нажмите **Удалить**. 
+5. In the Action pane, under **Assigned number**, click **Remove**. 
     
-6. На экране **Удалить выбранный назначенный номер?** выберите **Да**.
+6. On the **Remove selected assigned number?** page, click **Yes**.
     
-## См. Также:
 
-#### 
+## <a name="related-topics"></a>См. также:
+[What is address validation?](what-is-address-validation.md)
+
+[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
-  
-[Звука по телефону период бесплатных конференц-связи](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)

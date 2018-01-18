@@ -1,5 +1,5 @@
 ---
-title: Toll-free dialing restrictions in Hong Kong
+title: "Ограничения бесплатных набора номера в (Гонконг)"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,21 +15,21 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom: Calling Plans
-description: This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number.
+description: "Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона."
 ms.openlocfilehash: 4905cfe123aa53faf6e442fdf3ead59e66d728a9
 ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/02/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-hong-kong"></a>Toll-free dialing restrictions in Hong Kong
+# <a name="toll-free-dialing-restrictions-in-hong-kong"></a>Ограничения бесплатных набора номера в (Гонконг)
 
-[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
+[Найдите другой страны или региона](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.
 
 
 |**Сведения**|**Описание**|
 |:-----|:-----|
-|Is toll-free calling available?  <br/> |Да  <br/> |
+|— Это бесплатный вызов доступны?  <br/> |Да  <br/> |
 |Формат набора  <br/> | 800 XXX XXX <br/> |
 |Код страны или региона по ISO  <br/> |HK  <br/> |
 |Охватываемая территория  <br/> |Неприменимо  <br/> |
@@ -40,6 +40,6 @@ ms.lasthandoff: 01/02/2018
    
 ## <a name="related-topics"></a>См. также:
 
-[Toll-free dialing limitations and restrictions](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+[Бесплатный номер набору номера, ограничения и ограничения](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Получение службы телефонных номеров для Скайп для бизнеса и группами Майкрософт](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
