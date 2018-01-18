@@ -1,42 +1,42 @@
 ---
-title: "Какой адрес службы следует указывать?"
+title: "Что следует хранить адрес службы?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderAccountInfoServiceAddress
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: b7bcf334-1dc6-4fd7-8145-f89ce695fca0
-description: "Learn what your service address is, how it differes from your billing address, and where you can find it. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderAccountInfoServiceAddress
+ms.custom: Calling Plans
+description: "Узнайте, возможности свой адрес службы, их отличий от адрес для выставления счетов и где его найти. "
+ms.openlocfilehash: 9a10b82f1fe41806baca1dccd76fcc47664b6a2d
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-should-i-put-in-for-the-service-address"></a>Что следует хранить адрес службы?
 
-# Какой адрес службы следует указывать?
-
-> [!IMPORTANT]
-> Данная статья переведена с помощью машинного перевода, см. Отказ от ответственности.  
+Адрес службы отличается от адреса выставления счетов или emergency, зарегистрированного с телефона поставщика услуг или поставщика. Если вы не знаете это, можно обратитесь к поставщику услуг или поставщика, чтобы узнать, адрес службы, указанного в свою учетную запись.
   
-Адрес службы отличается от адреса выставления счета или экстренные, который вы зарегистрировали со своего поставщика услуг телефонной или carrier. Если вы не знаете это, можете обратиться к поставщику услуг или carrier узнать адрес службы в вашей учетной записи в списке.
-  
- **Для получения подробных пошаговых инструкций читайте в статье [Передача номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).**
-  
-## 
-<a name="MT_Footer"> </a>
+ **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).**
 
 > [!NOTE]
-> **Отказ от ответственности относительно машинного перевода**. Данная статья была переведена с помощью компьютерной системы без участия человека. Microsoft предлагает эти машинные переводы, чтобы помочь пользователям, которые не знают английского языка, ознакомиться с материалами о продуктах, услугах и технологиях Microsoft. Поскольку статья была переведена с использованием машинного перевода, она может содержать лексические,синтаксические и грамматические ошибки. 
-  
-## См. Также:
-<a name="MT_Footer"> </a>
+> Если вам потребуется получить дополнительные номера телефонов, чем это, пожалуйста, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### 
+  
+## <a name="related-topics"></a>См. также:
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
+[Различные виды телефонных номеров, используемый для вызова планы](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
-  
-[Звука по телефону период бесплатных конференц-связи](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)

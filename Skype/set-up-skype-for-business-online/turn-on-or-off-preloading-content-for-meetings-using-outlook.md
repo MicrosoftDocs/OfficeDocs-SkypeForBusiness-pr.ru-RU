@@ -2,31 +2,40 @@
 title: "Включение и выключение разрешения предварительной загрузки содержимого для собраний с помощью Outlook"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: d217d422-f7e9-433d-ad24-bf41751f65ca
-description: "See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
+ms.openlocfilehash: 7cef226e6b2370aa486476375a5c4747dbe9e5b4
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Включение и выключение разрешения предварительной загрузки содержимого для собраний с помощью Outlook
 
-# Включение и выключение разрешения предварительной загрузки содержимого для собраний с помощью Outlook
-
-Пользователи могут заранее загружать содержимое, файлы или вложения из приглашения на собрание Outlook в Skype для бизнеса Online. Вы можете включить или отключить эту функцию. Эта функция включена для всех организацией, которые используют Skype для бизнеса Online. См. статью [Предварительная загрузка вложений для собрания Skype для бизнеса](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
+Пользователи может предварительно контент, файлы или вложения, подключенные к приглашения собрание Outlook Скайп для собраний по сети предприятия, но его можно включить или отключить. Он включен по умолчанию для всех организаций, использующих Скайп для бизнеса в Интернет. Просмотреть как [предварительной загрузки вложений для Скайп для собраний](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]
-> В настоящее время в Skype для бизнеса Online нет командлетов, с помощью которых можно настроить или просматривать в сети значения для параметров  _MaxContentStorageMB_ и _MaxUploadFileMB_. Они доступны только для локальных развертываний. Важно помнить, что содержимое не будет отправлено в собрание, если размер вложения превышает  _MaxUploadFileSizeMB_ или если достигнуто пороговое значение для _MaxContentStorageMB_. > 
+> На данный момент недоступны не командлеты в Скайп для бизнеса в Интернет для просмотра online значения для _MaxContentStorageMB_ и _MaxUploadFileMB_или параметр. Они доступны только для локальных развертываний. Важно знать, что содержимое не будет загружена в собрание Если вложенные превышает _MaxUploadFileSizeMB_ или _MaxContentStorageMB_ максимального числа.
   
-## Чтобы начать работу, можно сделать следующее
+## <a name="to-get-you-started"></a>Чтобы начать работу, можно сделать следующее
 
 ### 
 
  **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
   
-1. Чтобы проверить, установлена ли у вас версия 3.0 или более поздняя, в меню **Пуск** выберите пункт **Windows PowerShell**.
+1. Чтобы убедиться, что выполняется версия 3.0 или более поздней версии: **Меню "Пуск"** > **Windows PowerShell**.
     
 2. Проверьте версию, введя в окне **Windows PowerShell** команду _Get-Host_.
     
@@ -34,13 +43,13 @@ description: "See how to turn preloaded content on or off for Skype for Business
     
 4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
     
-Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
   
 ### 
 
  **Запуск сеанса Windows PowerShell**
   
-1. В меню **Пуск** выберите пункт **Windows PowerShell**.
+1. Из **меню Пуск** > **Windows PowerShell**.
     
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     
@@ -67,14 +76,14 @@ description: "See how to turn preloaded content on or off for Skype for Business
   Import-PSSession $session
   ```
 
-Дополнительные сведения о запуске Windows PowerShell см. в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) или[Подключение к Skype для бизнеса с использованием Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [подключение к Скайп для бизнеса в Интернет с помощью Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
-## Включение и выключение функции
+## <a name="turning-it-on-or-off"></a>Включение и выключение функции
 
-Возможность предварительно загружать вложение из приглашения Outlook на собрание Skype для бизнеса Online по умолчанию включена, но может потребоваться запретить пользователям из организации заранее загружать содержимое.
+Возможность загрузки содержимого, подключенного к приглашения собрание Outlook Скайп для собраний по сети Business включен по умолчанию, но может потребоваться запретить пользователям в вашей организации из предварительной загрузки содержимого в свои собрания.
   
 > [!IMPORTANT]
-> Этот параметр можно включить или отключить только для всей организации, невозможно управлять им для отдельных пользователей. 
+> Этот параметр можно только включить или выключить для всей организации; не может быть включено или отключено для одного пользователя. 
   
  **Чтобы отключить функцию, откройте Windows PowerShell и выполните следующие действия:**
   
@@ -88,7 +97,7 @@ Grant-CsGraphPolicy -PolicyName GraphDisabled
 Grant-CsGraphPolicy -PolicyName GraphEnabled 
 ```
 
-## Хотите узнать больше о Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
 - Windows PowerShell, дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
@@ -104,4 +113,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
+## <a name="related-topics"></a>См. также:
+[Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
+[Сообщите Скайп для бизнес-пользователям добавлять контакты Скайп](let-skype-for-business-users-add-skype-contacts.md)

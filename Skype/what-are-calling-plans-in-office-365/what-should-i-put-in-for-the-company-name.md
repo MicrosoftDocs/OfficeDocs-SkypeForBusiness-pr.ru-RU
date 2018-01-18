@@ -1,32 +1,43 @@
 ---
-title: "Что указывать в названии компании?"
+title: "Что следует хранить в поле имя компании?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderAccountInfoCompanyName
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 5c274a36-9e7a-4399-af08-688ffc75b8ac
-description: "What to put for the company in Skype for Business, and where you can find it. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderAccountInfoCompanyName
+ms.custom: Calling Plans
+description: "Что следует поместить в компании Скайп для бизнеса, и где его найти. "
+ms.openlocfilehash: 846f6132011b5f9c6ff4defe7ded48c5b87caca6
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-should-i-put-in-for-the-company-name"></a>Что следует хранить в поле имя компании?
 
-# Что указывать в названии компании?
-
-Это название вашей компании или организации. Название должно иметь длину не более 25 знаков с пробелами. Это название будет использоваться не для обработки заказа на перенос номеров, а в тех случаях, когда требуется разрешение споров или при переносе номеров возникли ошибки. Если полное название компании не умещается в этом поле, заказ на перенос в любом случае будет обработан без дополнительных задержек.
+Это имя компании или организации. Название компании более 25 символов, включая пробелы. Название компании не используется для обработки запроса заказа порт; она используется в случае споров по или если что-то неверный при телефонных номеров подключаются через. Если не удается разместить весь название компании в поле, не задержать или Отмена заказа на порт.
   
- **Подробные пошаговые инструкции см. в разделе [Передача номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).**
-  
-## См. Также:
+ **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).**
+ 
+> [!NOTE]
+> Если вам потребуется получить дополнительные номера телефонов, чем это, пожалуйста, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### 
+  
+## <a name="related-topics"></a>См. также:
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
+[Различные виды телефонных номеров, используемый для вызова планы](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
-  
-[Звука по телефону период бесплатных конференц-связи](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
+
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 

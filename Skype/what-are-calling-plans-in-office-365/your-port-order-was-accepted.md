@@ -2,49 +2,48 @@
 title: "Ваш заказ на перенос номера принят"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 5c2e57c2-76c4-4a36-9d01-92cd15c5eb3e
-description: "What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
+ms.custom: Calling Plans
+description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
+ms.openlocfilehash: 70768646a46ed9b7ce916013228bfabaa60a6a08
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="your-port-order-was-accepted"></a>Ваш заказ на перенос номера принят
 
-# Ваш заказ на перенос номера принят
-
-> [!IMPORTANT]
-> Данная статья переведена с помощью машинного перевода, см. Отказ от ответственности.  
-  
-Ваш заказ на перенос номера утвержден. Полученные номера можно просмотреть в разделе **Центр администрирования Skype для бизнеса** > **Голосовая связь** > **Номера телефонов**.
+Порт заказа утвержденных! Поиск номера телефонов в **Скайп по центру администрирования Business** > **голосовой связи** > **телефонных номеров**.
   
  **ВАЖНО!** Чтобы в левой области навигации Центра администрирования Skype для бизнеса появился элемент **Голосовая связь**, необходимо приобрести хотя бы одну **лицензию уровня корпоративный E5**, лицензию на надстройку **Телефонная система** либо лицензию на надстройку **Аудиоконференция**.
   
-После того как номера телефонов будут утверждены и готовы к использованию, необходимо завершить настройку, выполнив несколько дополнительных действий.
+Теперь, когда было утверждено и готовы номерам телефонов, необходимо выполнить несколько действий все настройки.
   
-- Сделать что [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Вам нужно будет **Телефонной системой** и **Местные звонки планирование** или **Планирование международные**.
+- Убедитесь, что вы [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Необходимо будет **Телефонной системой** и **Планирование внутренних звонков** или **Международный вызов планирование**.
     
-- Создайте собственные [Добавление или удаление адреса для экстренного реагирования для вашей организации](add-or-remove-an-emergency-address-for-your-organization.md) и, если необходимо,[Добавление, изменение и удаление местоположения организации для экстренного реагирования](add-change-or-remove-an-emergency-location-for-your-organization.md). Обратите внимание, что в некоторых странах и регионах адрес для экстренного реагирования назначается вместе с номером телефона.
+- Создать [Добавьте или удалите экстренных адрес для своей организации](add-or-remove-an-emergency-address-for-your-organization.md) и, если необходимо, на[Добавление, изменение или удаление экстренных расположение для вашей организации](add-change-or-remove-an-emergency-location-for-your-organization.md) (в некоторых странах или регионах, адрес можно получить экстренных с номером телефона).
     
-- Далее [Назначение, изменение или удаление номера телефона пользователя](assign-change-or-remove-a-phone-number-for-a-user.md).
-    
-## 
-<a name="MT_Footer"> </a>
+- Пойти дальше и [назначить, изменить или удалить номер телефона для пользователя](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 > [!NOTE]
-> **Отказ от ответственности относительно машинного перевода**. Данная статья была переведена с помощью компьютерной системы без участия человека. Microsoft предлагает эти машинные переводы, чтобы помочь пользователям, которые не знают английского языка, ознакомиться с материалами о продуктах, услугах и технологиях Microsoft. Поскольку статья была переведена с использованием машинного перевода, она может содержать лексические,синтаксические и грамматические ошибки. 
-  
-## См. Также:
-<a name="MT_Footer"> </a>
+> Если вам потребуется получить дополнительные номера телефонов, чем это, пожалуйста, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+    
+## <a name="related-topics"></a>См. также:
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
-#### 
+[Различные виды телефонных номеров, используемый для вызова планы](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
-  
-[Звука по телефону период бесплатных конференц-связи](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)

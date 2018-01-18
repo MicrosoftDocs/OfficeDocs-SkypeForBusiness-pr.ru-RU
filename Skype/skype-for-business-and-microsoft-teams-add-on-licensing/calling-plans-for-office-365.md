@@ -2,95 +2,107 @@
 title: "Тарифные планы для Office 365"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.topic: overview
-f1_keywords:
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
 - O365E_E5Voiceplandetails
 - O365M_E5Voiceplandetails
 - O365P_E5Voiceplandetails
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_UI_Elements
 ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
+- Licensing
 - Strat_SB_PSTN
-ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
-
-description: "Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. "
+- LIL Placement
+description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
+ms.openlocfilehash: 340090414989be602836f78b7befae84c41e4680
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="calling-plans-for-office-365"></a>Тарифные планы для Office 365
 
-# Тарифные планы для Office 365
-
-Звонки другим пользователям Skype для бизнеса и Microsoft Teams бесплатны, но если вы хотите, чтобы пользователи могли звонить на обычные телефоны, и у вас нет поставщика услуг голосовой связи, вам необходимо приобрести план звонков. [Что такое планы звонков в Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+Звонков на других Скайп для бизнеса и группами Майкрософт пользователей доступны бесплатно, но если пользователи должны иметь возможность вызова регулярных телефоны, и у вас еще нет поставщика услуг для голосовых вызовов, необходимо купить вызов планирование. [Что такое планы звонков в Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
   
-Ниже описаны доступные варианты планов звонков:
+Вот вариант вызова планов.
   
-- **План для внутренних звонков**. Пользователи с лицензиями могут звонить на номера в странах или регионах, назначенных им в Office 365.
+- **Планирование внутренний вызов**: лицензированных пользователей может выполнить вызов номера, расположенный в страны или региона, где они назначены в Office 365.
     
-- **План для внутренних и международных звонков**. Пользователи с лицензиями могут звонить на номера в своей стране или регионе, назначенных им по лицензии Office 365, а также на международные номера в[Users can make outbound calls to these countries and regions](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **Внутренние и вызов планирование International**: лицензированным пользователям может выполнить вызов номера, расположенный в страны или региона, где их Office 365 лицензия назначена для пользователя, на основе местоположения пользователя и международных номеров в [196 странах или регионах ](../country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
-Число минут в месяц, доступное для каждой организации и для каждой страны или региона, можно узнать [Страны и региона доступность для аудиоконференций и вызвав планов](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Месячная минут для каждой организации и каждой страны или региона находятся [здесь](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 > [!IMPORTANT]
-> Страна и регион определяются на основе местоположения, заданного для пользовательской лицензии в **Центре администрирования Office 365** в разделе **Активные пользователи**. Они **НЕ** определяются по адресу для выставления счетов, указанному в **Профиле организации** в **Центре администрирования Office 365**. > ![User's license location](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+> Страна или регион, зависит от местоположения лицензии пользователя в **центре администрирования Office 365** > **активных пользователей** , а **не** из списка в разделе **Профиля организации** в центре администрирования Office 365 **адреса выставления счетов **.   
+![Расположение лицензии пользователя](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-Подробные сведения об ограничениях и условиях использования см. в разделе [Звука по телефону период бесплатных конференц-связи](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md).
+Подробные сведения о ограничения на использование и условия использования видеть [аудиоконференции бесплатных периода подключение по телефонной линии](../accessibility-and-regulatory/complimentary-dial-out-period.md).
   
-## Приобретение тарифного плана
+## <a name="how-to-buy-a-calling-plan"></a>Как купить вызов планирование
 
-1. **Сначала необходимо приобрести лицензию на надстройку **Телефонная система****. Для этого[войдите в Центр администрирования Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и выберите **Выставление счетов** > **Приобретение служб** > **Подписки на надстройки** > **Купить**.
+1. **Сначала необходимо приобрести лицензию дополнительный компонент **Телефонной системой** **. Чтобы сделать это, [войти в центре администрирования Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и выбрать **выставления счетов** > **приобретение служб** > **дополнительный компонент подписки** > **купить**.
     
-    ![When you buy your Cloud PBX licenses, you'll see an option to buy a voice calling plan.](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![Приобрести лицензии облачных УАТС, появится возможность приобрести голосовой связи, вызов плана.](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > В зависимости от выбранного плана, чтобы приобрести лицензии на надстройку "Телефонная система", может потребоваться приобрести другие надстройки. Дополнительные сведения: [Какие лицензии на надстройки нужно приобрести для получения дополнительных функций?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_whichaddons)
+    > В зависимости от вашего плана необходимо купить дополнительных надстроек перед покупкой лицензии телефонной системой. Чтобы получить дополнительные сведения, обратитесь к разделу [какие лицензии дополнительный компонент необходимо купить для получения дополнительных функций?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_whichaddons)
   
-2. После приобретения лицензий на надстройку "Телефонная система" вы можете купить план звонков. Для этого войдите в **Центр администрирования Office 365**, выберите **Выставление счетов** > **Приобретение служб** > **Подписки на надстройки**, щелкните **Купить**, и вы увидите список доступных планов звонков.
+2. После приобретения лицензии телефонной системой, можно приобрести вызов планирование выполнив вход в **Центр администрирования Office 365**, **выставления счетов** > **приобретение служб** > **дополнительный компонент подписки**и затем нажав кнопку **купить**. Вы увидите вызов планы существует.
     
-    ![After you buy a Cloud PBX license, you can buy voice calling plans.](../images/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
+    ![После приобрести лицензии облачных УАТС, вы можете приобрести Тарифные планы голосовой связи.](../images/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-В зависимости от потребностей организации вы можете приобретать и назначать разным пользователям разные планы звонков. После выбора плана необходимо оформить заказ. Планы назначаются каждому пользователю в Центре администрирования Office 365. Дополнительные сведения см. в разделе [Назначение лицензий Skype для бизнеса и Microsoft Teams](assign-skype-for-business-and-microsoft-teams-licenses.md).
+Можно приобрести и назначить разные вызов планы для различных пользователей, в зависимости от потребностей организации. После выбора вызов планирование необходимо перейти к оформления заказа. Назначьте план для каждого пользователя в центре администрирования Office 365. Чтобы узнать, как просмотреть [Назначение Скайп для бизнеса и группами Майкрософт лицензий](assign-skype-for-business-and-microsoft-teams-licenses.md).
   
-## У вас уже есть поставщик услуг, предлагающий локальную связь по ТСОП для пользователей с гибридным развертыванием?
+## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Используется ли поставщик службы, который предоставляет подключение к ТСОП в локальной для пользователей гибридной?
 
-В этом случае вам не нужно приобретать тарифный план. Office 365 корпоративный E5 уже включает лицензию на надстройку **Телефонная система**, поэтому вы можете сразу перейти к оформлению заказа.
+Если Да, нет необходимости приобрести вызов планирование. Office 365 корпоративный E5 включает надстройку **Телефонной системой** , можно перейти к оформления заказа.
   
-После этого в Центре администрирования Office 365 назначьте пользователям лицензии на надстройки **Телефонная система** или для выпуска Корпоративный E5. Дополнительные сведения см. в разделе[Назначение лицензий Skype для бизнеса и Microsoft Teams](assign-skype-for-business-and-microsoft-teams-licenses.md).
+Назначьте лицензии дополнительный компонент E5 предприятия или **Телефонной системой** для пользователей в центре администрирования Office 365. Чтобы узнать, как просмотреть [Назначение Скайп для бизнеса и группами Майкрософт лицензий](assign-skype-for-business-and-microsoft-teams-licenses.md).
   
-## Сведения о ценах
+## <a name="pricing-information"></a>Сведения о ценах
 
-- [Цены на планы звонков](https://go.microsoft.com/fwlink/?LinkId=799761)
+- [Цена для Тарифные планы](https://go.microsoft.com/fwlink/?LinkId=799761)
     
-- [Цены на Телефонную систему](https://go.microsoft.com/fwlink/?linkid=799763)
+- [Цена для телефонной системы](https://go.microsoft.com/fwlink/?linkid=799763)
     
-- [Цены на аудиоконференции](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Цена для аудиоконференций](https://go.microsoft.com/fwlink/?linkid=799762)
     
-## Дополнительные сведения
+## <a name="for-more-information"></a>Дополнительные сведения
 
-Другие статьи, посвященные настройке тарифных планов.
+Ниже приведены дополнительные статьи, в которых описывается, как настроить вашей вызов планов.
   
-- [Настройка планов звонков](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
+- [Set up Calling Plans (Настройка планов звонков)](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
     
 - [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-- [Планирование Skype для бизнеса Cloud Connector Edition](https://technet.microsoft.com/EN-US/library/Mt605227.aspx). В этой статье рассказывается, как настроить телефонную систему Office 365 с вашим подключением по ТСОП.
+- [Планирование Скайп облаке соединитель для выпуска для бизнеса](https://technet.microsoft.com/EN-US/library/Mt605227.aspx): в этой статье объясняется, как настроить Office 365 телефонной системы с помощью собственных подключение к ТСОП.
     
-- [Планирование решения на основе Телефонной системы в Office 365 (облачная УАТС)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
+- [Планирование телефонной системой в решение Office 365 (облако УАТС)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
 ## 
 
-||
-|:-----|
-|![Значок для LinkedIn Learning](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Знакомство с Office 365**         Просмотрите короткие видеокурсы для **администраторов Office 365 и ИТ-специалистов** на платформе LinkedIn Learning.|
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## Связанные темы
+## <a name="related-topics"></a>См. также:
 
-[Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+- [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+    
+- [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
+    
+- [Настройка голосовой почты телефонной системы  справка для администратора](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
+    
+- [Set up Calling Plans (Настройка планов звонков)](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
+    
+- [Добавление средств и управление ими Communications кредитов](add-funds-and-manage-communications-credits.md)
+    
+- [Настройка соединителя облако](https://technet.microsoft.com/en-us/library/mt605228.aspx) и [Загрузите соединитель облако](https://aka.ms/CloudConnectorInstaller)
   
 

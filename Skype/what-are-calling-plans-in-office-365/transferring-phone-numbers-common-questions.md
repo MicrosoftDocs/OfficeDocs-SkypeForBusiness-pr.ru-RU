@@ -1,158 +1,177 @@
 ---
-title: "Transferring phone numbers common questions"
+title: "Перенос номеров телефона: часто задаваемые вопросы"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/21/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
-description: "The following are frequently asked questions about transferring phone numbers to Skype for Business. After reviewing the answers, you should be ready to create a port order and transfer your phone numbers. See Передача номеров телефонов в Office 365 for instructions."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "Следующих часто задаваемые вопросы о передаче телефонных номеров Скайп для бизнеса. После просмотра ответов, можно приступить к созданию номеру порта и перемещение телефонных номеров. В разделе Передача номера телефонов в Office 365 для получения инструкций."
+ms.openlocfilehash: 4cb18d9a5e67224b3e00ee4663f2dc1f2fbb728f
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="transferring-phone-numbers-common-questions"></a>Перенос номеров телефона: часто задаваемые вопросы
 
-# Transferring phone numbers common questions
+Следующих часто задаваемые вопросы о передаче телефонных номеров Скайп для бизнеса. После просмотра ответов, можно приступить к созданию номеру порта и перемещение телефонных номеров. Для получения инструкций в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md) .
+  
+## <a name="what-countriesregions-support-number-porting"></a>Какие стран или регионов поддерживает перенос номеров?
 
-The following are frequently asked questions about transferring phone numbers to Skype for Business. After reviewing the answers, you should be ready to create a port order and transfer your phone numbers. See [Передача номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md) for instructions.
-  
-## What countries/regions support number porting?
+Можно перенести или передачи номера телефонов во всех поддерживаемых стран или регионов, но как отправить запрос порядке порт зависят от страны или региона, откуда телефонных номеров. Можно просмотреть список элементов страны или регионы, поддерживаемых приложением [странах и область доступности для конференц-связи аудио и вызов планов](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
 
-You can port or transfer phone numbers in all of the supported countries or regions but how you submit a port order request depend on the country or region where the phone numbers come from. You can see a listing of the countries/regions that are supported by [Страны и региона доступность для аудиоконференций и вызвав планов](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md). When you are doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Skype for Business admin center, [Управление номерами телефонов для организации](6b61cb3c-361c-48a8-a9ef-d81bddde27bb.md). **(This is the new standard process, please update to match - https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)**
+При выполнении телефонных номеров задачи управления, такие как передача (переноса) номера или получения телефонных номеров, которые не доступны в Скайп по центру администрирования бизнеса, появляется [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
-## What numbers can be transferred?
+## <a name="what-numbers-can-be-transferred"></a>Какие номера можно перенести?
 
- **YOU CAN TRANSFER:**
+ **МОЖНО ПЕРЕНЕСТИ:**
   
-In general, you can transfer any phone number that is from a supported provider, including:
+В общем случае можно перенести любой номер телефона, который является из поддерживаемого поставщика, включая:
   
-- Land line phone numbers.
+- Земля строки номера телефонов.
     
-- Mobile device phone numbers such as those used for cell phone and tablets, etc.
+- Мобильного устройства телефонных номеров, используемых для мобильного телефона и планшетные ПК, и т.д.
     
     > [!NOTE]
-    > Transferring mobile numbers is only available in the U.S. and Puerto Rico. 
+    > Передача мобильных телефонов доступна только в США и Пуэрто-Рико. 
   
-- Toll phone numbers.
+- Платные номера телефона.
     
-- Toll-free phone numbers.
+- Бесплатный номер телефонных номеров.
     
     > [!NOTE]
-    > Universal International Freephone Number (UIFN) can't be transferred to us. 
+    > Универсальные Международная бесплатная телефонная номер (UIFN) нельзя перенести в "мне нравится". 
   
-- Service phone numbers such as those used for conference bridges, auto attendants, etc.
+- Служба телефонных номеров, используемых для мостов конференции, автосекретари, и т.д.
     
-- Fax phone numbers, but they can't be used for faxing. They will have to be assigned to a user.
+- Факс телефонных номеров, но они не может использоваться для отправки по факсу. Они должны быть назначены пользователям.
     
-- VoIP phone numbers from a phone provider such as Vonage or RingCentral.
+- Номера телефонов VoIP у поставщика телефона, например Vonage или RingCentral.
     
-- Skype for Business Hybrid phone numbers. If you want to transfer these numbers, you need [send email to us](ptn@microsoft.com).
+- Скайп для гибридных Business телефонных номеров. Если вы хотите перенести эти номера, вы должны отправлять электронной почты "мне нравится" в <ptn@microsoft.com>.
     
- **YOU CANNOT TRANSFER:**
+ **НЕ УДАЕТСЯ ПЕРЕНЕСТИ:**
   
 > [!NOTE]
-> At this time, you can't transfer any phone number or numbers that aren't from a supported country/region including phone numbers from a VoIP phone provider. To see a list of supported countries/regions, see [Страны и региона доступность для аудиоконференций и вызвав планов](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> В настоящее время не удается перенести любой номер телефона или чисел, не из поддерживаемых страны или региона, включая номера телефонов у поставщика телефона VoIP. Список поддерживаемых стран и регионов см [страны и региона доступности для конференц-связи аудио и вызов планов](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
-- Phone numbers used for data connections like for DSL lines or broadband Internet connections.
+- Номера телефонов, используемые для подключения к данным, как и для линии DSL или высокоскоростное подключения к Интернету.
     
-- Phone numbers dedicated to faxing.
+- Номера телефонов, выделенным для отправка и прием факсов.
     
-    If you have existing dedicated phone numbers that are being used for faxing, you  *can*  transfer these numbers over to Skype for Business but your fax services won't continue to work as expected. Faxing services aren't available to Skype для бизнеса customers, even if you have licenses for **Phone System**, **Domestic Calling Plan** or **International Calling Plan**.
+    Если имеется существующий выделенного телефонных номеров, которые используются для отправки по факсу, *можно* перенести эти номера через в Скайп для бизнеса, но факса, службы не будут по-прежнему работает должным образом. Службы факсов, недоступны для Скайп для предприятий, даже при наличии лицензии для **Телефонной системой**, **Планирование внутренних звонков** или **Международный вызов планирование**.
     
-    If you port the phone number to Skype для бизнеса, you can assign this phone number to a user in your organization instead of using it for faxing.
+    Если порт номер телефона для Скайп для бизнеса, можно назначить этот номер телефона пользователя в вашей организации, вместо использования для отправка и прием факсов.
     
 > [!NOTE]
-> At this time in the United Kingdom (U.K.), we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872. 
+> В настоящее время в Соединенное Королевство (Великобритания), в настоящее время не поддерживается передача числа географическое (Великобритания), включая номера общую стоимость для кодов области 0843, 0844, 0845, 0870, 0871, 0872. 
   
-## What information will I need to provide?
+## <a name="what-information-will-i-need-to-provide"></a>Какие сведения потребуются для предоставления?
 
-You'll need to have all of the account information for your current carrier. The information you will need to put in the port order is mostly found on the most recent bill or invoice from your current service provider. You'll also need to know whose name is on the account and of course what numbers you want to port.
+Необходимо иметь все сведения учетной записи для текущего поставщика. Сведения, необходимо поместить в том порядке, порт большей части найти на последнюю Билл или создания счетов-фактур от текущего поставщика услуг. Также необходимо знать, имя которого на учетную запись и само собой числа, которые требуется порт.
   
-## What are full-port and partial-port transfers?
+## <a name="what-are-full-port-and-partial-port-transfers"></a>Что такое перемещений full порт и порт partial?
 
-When you are porting phone numbers to Office 365, you have the option to transfer all of your numbers, or some of them.
+При переносе телефонных номеров в Office 365, вы можете переместить все номерам или некоторые из них.
   
-- **Full-port** This is when you transfer all of your numbers from your current service provider to Skype for Business Online. When you are asked for the phone numbers you want to transfer, you ** *must include* ** the billing telephone number along with all of the other phone numbers on your account.
+- **Full порт** Это при перемещении всем номерам из текущего поставщика услуг в Скайп для бизнеса в Интернет. Ответ на вопрос для телефонных номеров, который необходимо перенести, вы *должны включать* выставления счетов телефонный номер, а также все другие телефонные номера в свою учетную запись.
     
-    For example, let's say your billing telephone number is  *+1 425-555-1234*  and you want to port all of your 25 phone numbers ( *+1 425-555-1235 through 1259*  ). When you follow the instructions below to transfer your numbers, you would enter: **+14255551234 - +14255551259**.
+    Например предположим, выставления счетов телефонный номер является *+1 425-555-1234* и необходимо переместить все 25 телефонных номеров (*+1 425-555-1235 через 1259*). Если следовать приведенным ниже инструкциям для передачи номера, необходимо ввести: **+14255551234 +14255551259**.
     
-- **Partial-port** This is when you are only transferring some of your phone numbers from your current service provider to Skype for Business Online. When you are want to port some of the phone numbers tied to the same billing telephone number, you ** *must not include* ** the billing telephone number along with all of the other phone numbers on your account.
+- **Порт partial** Это при передаются только файлы некоторые из номеров телефонов из текущего поставщика услуг Скайп для бизнеса в Интернет. Когда будет необходимо выполнить некоторые из телефонных номеров, которые привязаны к одной выставления счетов номер телефона, порт вы ** *не включайте* ** выставления счетов телефонный номер, а также все другие телефонные номера в свою учетную запись.
     
-    For example, let's say your billing phone number (BTN) is  *+1 425-555-1234*  and you want to port only 5 of your 25 phone numbers ( *+1 425-555-1235 through 1259*  ). When you follow the instructions below to transfer your numbers, you would enter: **+1 425 555 1235 - +1 425 555 1239**.
+    Например предположим, выставления счетов номер телефона (BTN) — *+1 425-555-1234* и необходимо переместить только 5 25 телефонных номеров (*+1 425-555-1235 через 1259*). Если следовать приведенным ниже инструкциям для передачи номера, необходимо ввести: **+1 425 555 1235-1239 555 425 + 1**.
     
-## Can I submit a single number porting request for all of my numbers at one time?
+## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>Можно ли отправлять одним запросом номеров переноса для всех Мои номера за один раз?
 <a name="bkmk_type_1"> </a>
 
-A unique request is needed for each carrier and type of number being ported.
+Уникальный запроса необходим для каждого поставщика и тип номера переноса.
   
-For example, you need to submit a unique number porting request for each of the following types of numbers:
+Например необходимо отправить запрос уникальный номер переноса для каждого из следующих типов значений:
   
-- Local Toll numbers, also known as subscriber numbers or geographic numbers
+- Локальные номера счета, также известные как подписчика или географическое номера
     
-- Toll Free numbers with area codes such as: 800, 844, 855, 866, 877 and 888
+- Например, номер телефона бесплатные номера с кодами области: 800, 844, 855, 866, 877 и 888
     
-- Mobile numbers
+- Мобильные телефоны
     
-- Service numbers that can be used for Audio Conferencing in Office 365.
+- Номера службы, который можно использовать для аудиоконференции в Office 365.
     
-Here's more information about submitting number porting requests for each of these types of numbers:
+Ниже приведены дополнительные сведения об отправке номеров переноса запросов для каждого из этих типов чисел:
   
-- **Telephone numbers** provided by different carriers require a unique porting request for numbers with each carrier.
+- **Телефонных номеров** , предоставляемые различных связи требуется уникальный переноса запроса для чисел с каждого поставщика.
     
-- **Toll Free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 cannot be included in a number porting request with other types of numbers. To port these Toll Free numbers, you must[Отправка пользовательского запроса на обслуживание](manually-submit-a-custom-service-request.md); they cannot be submitted in the Skype для бизнеса admin center. ( **This is the new standard process, please update to match - https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)**
+- **Бесплатно чисел** с кодами области, такие как: 800, 844, 855, 866, 877 и 888 нельзя включить в запрос номеров переноса с другими типами номеров. Для этих бесплатного номера портов, необходимо [вручную отправить запрос настраиваемые службы](manually-submit-a-custom-service-request.md); они не удается отправить в Скайп по центру администрирования бизнеса. В разделе [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-    It's important to use the correct LOA for the country, and type of phone numbers, you want to port. You can download the LOAs [Загрузка доверенности (LOA)](download-a-letter-of-authorization-loa.md). **(This is the new standard process, please update to match - https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)**
+    Важно использовать правильный ЗАГРУ для страны и тип телефонных номеров необходимо порт. Вы можете загрузить LOAs, [Загрузите буква авторизации (ЗАГРУ)](download-a-letter-of-authorization-loa.md). В разделе [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-- **Mobile numbers** require a PIN code to authorize the transfer. Therefore, they need separate number porting request.
+- **Мобильные телефоны** требуется ПИН-код для авторизации переключения. Таким образом они используются разные номера переноса запроса.
     
-- **Service number** porting requests need to be submitted by themselves. They cannot be submitted with other types of numbers.
+- **Номер службы** перевода запросов требуется отправить отдельно. Они не удается отправить с другими типами номеров.
     
-## How long does it take to port numbers?
+## <a name="how-long-does-it-take-to-port-numbers"></a>Сколько времени для номера портов?
 <a name="bkmk_type_1"> </a>
 
-After you've completed the port order request, it will take between 7-14 days to be processed. However, depending on your service provider it may take up to 30 days. After the phone numbers are ported over, you will get an email from us telling you that you are good to go.
+После выполнения запроса заказа порт может занять от 7 14 дней для обработки. Тем не менее в зависимости от поставщика услуг может потребоваться до 30 дней. После номера телефонов подключаются через, вы получите сообщение электронной почты из нам о том, что вы являетесь достаточно просто.
   
-You can check the status of your port order by going to the Skype для бизнеса admin center > **Voice** > **Port orders**. The status will be listed in the window under the **Status** column.
+Можно проверить состояние порта заказа, перейдя на Скайп по центру администрирования Business > **голосовой связи** > **заказов на порт**. Состояние отображается в окне в столбце **состояние** .
   
-## Can user (subscriber) phone numbers be converted to service numbers?
+## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Может быть преобразована пользователя (подписчика) телефонных номеров телефонов службы?
 <a name="bkmk_type_1"> </a>
 
-Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this go [Управление номерами телефонов для организации](6b61cb3c-361c-48a8-a9ef-d81bddde27bb.md). **(This is the new standard process, please update to match - https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)**
+Да, они могут. Все, что нужно сделать — отправить запрос на обслуживание, которая включает в себя вашей организации клиента GUID и номера телефонов, которое необходимо преобразовать. Для выполнения этого перейдите видеть [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
   
-## Common mistakes to watch out for
+## <a name="common-mistakes-to-watch-out-for"></a>Распространенные ошибки уделить особое внимание
 <a name="bkmk_type_1"> </a>
 
-Number porting is easy to do. Your order can get messed up, however, when there is a problem with the phone service provider, the order is incomplete and missing information, or there are typos.
+Перенос номеров можно легко выполнять. Заказ можно получить ошибся, тем не менее, при наличии проблем с поставщиком услуг телефонной, порядок является полным и отсутствующие сведения или существует опечаток.
   
-Here are the most common mistakes we see customers make when they port numbers. Save yourself a call to customer support and double-check for these errors.
+Ниже приведены наиболее распространенных ошибок, мы просмотреть клиентов задавать при их номер порта. Сохраните самостоятельно звонка в службу поддержки и проверьте наличие этих ошибок.
   
-- Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and delay your port order. Verify the following is true:
+- Убедитесь в том, что учетные данные, которые вам нужно предоставить соответствует только что своего телефона оператора влияет на запись. Несоответствие информация является наиболее распространенные стать причиной ошибок и о задержке заказа порт. Убедитесь, что выполняется следующее:
     
-  - Authorized name is correct.
+  - Авторизованный имя введено правильно.
     
-  - Address is correct.
+  - Указан правильный адрес.
     
-  - Account number is correct.
+  - Номер учетной записи правильные.
     
-  - Billing Telephone Number (BTN) is correct.
+  - Номер телефона выставления счетов (BTN) является правильным.
     
-- Make sure there are no advanced call control features, for example, Call Hunt, Distinctive Ring, that are enabled on these telephone numbers.
+- Убедитесь в том, что не расширенные функции контроля звонков, например вызова сервисной, особый сигнал, для которых включено в эти номера телефонов.
     
-- Make sure you haven't placed any new service orders or disconnects with your current service provider.
+- Убедитесь, что отключение текущего поставщика услуг или не были помещены все новые заказов на обслуживание.
     
-- Make sure all numbers are from the same carrier and the same account.
+- Убедитесь в том, что все номера из того же поставщика и ту же учетную запись.
     
-- Make sure your service is active. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take 1-3 weeks depending on the carrier.
+- Убедитесь, что службы является активным. Замораживание учетная запись не позволяет изменить способ для учетной записи. Авторизованный пользователь должен для отправки заказа для текущего поставщика для удаления закрепления. Этот процесс может занять 1-3 недель в зависимости от того, оператор.
     
-## Can you transfer or port out numbers?
+## <a name="can-you-transfer-or-port-out-numbers"></a>Можно переключить или портов в работе номера?
 <a name="bkmk_type_1"> </a>
 
-To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see[Set your PIN for transferring phone numbers to a new service provider](set-your-pin-for-transferring-phone-numbers-to-a-new-service-provider.md).
-  
-## См. Также:
-<a name="bkmk_type_1"> </a>
+Для перемещения или *порта* номера телефонов из Скайп для бизнеса в Интернет на другой поставщик услуг телефонной или поставщика, необходимо установить ПИН-код. После установки ПИН-кода, необходимо включить его в случае запроса пользователя на порт номер телефона в работе. Чтобы просмотреть, как настроить ПИН-код, содержатся в разделе [Задание ПИН-код для передачи номера для нового поставщика услуг](set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).
 
-[Передача номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md)
+> [!NOTE]
+> Если вам потребуется получить дополнительные номера телефонов, чем это, пожалуйста, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
   
-[Настройка планов звонков](set-up-calling-plans.md)
+## <a name="related-topics"></a>См. также:
+[Различные виды телефонных номеров, используемый для вызова планы](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Условия и положения, распространяющиеся на экстренные вызовы](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
   
 

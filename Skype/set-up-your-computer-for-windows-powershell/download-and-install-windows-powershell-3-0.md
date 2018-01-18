@@ -3,24 +3,30 @@ title: "Скачайте и установите Windows PowerShell 3.0"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 10/3/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: LIL_Placement
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
-
-description: "Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- PowerShell
+- LIL_Placement
+description: Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online.
+ms.openlocfilehash: cdcabf75bbcdf53a1553f115af8f678d922a694b
+ms.sourcegitcommit: 622dccfbcf2c7a13ac7400dcf9f3900c58ffd37d
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/16/2017
 ---
+# <a name="download-and-install-windows-powershell-30"></a>Скачайте и установите Windows PowerShell 3.0
 
-# Скачайте и установите Windows PowerShell 3.0
-
-> [!IMPORTANT]
-> Данная статья переведена с помощью машинного перевода, см. Отказ от ответственности.  
-  
-Если вы используете Windows 8.1, Windows 8, Windows Server 2012 R2 или Windows Server 2012, у вас уже должна быть установлена версия Windows PowerShell 3.0, которая входит в состав этих операционных систем. 
+[] Если вы используете Windows 8.1, Windows 8, Windows Server 2012 R2 или Windows Server 2012, у вас уже должна быть установлена версия Windows PowerShell 3.0, которая входит в состав этих операционных систем. 
   
 Если вы работаете с Windows 7 или Windows Server 2008 R2, у вас также может быть установлена версия Windows PowerShell 3.0. Тем не менее вместо нее может использоваться версия 2.0, которая изначально поставлялась в составе этих операционных систем. Чтобы узнать, какую версию Microsoft PowerShell вы используете, выполните следующие действия на компьютере под управлением ОС Windows 7 или Windows Server 2008 R2:
   
@@ -28,19 +34,19 @@ description: "Download, install, and then use Windows PowerShell 3.0 to create a
     
 2. В консоли PowerShell введите следующую команду и нажмите клавишу ВВОД:
     
-  ```
-  Get-Host | Select-Object Version
-  ```
+    ```
+   Get-Host | Select-Object Version
+   ```
 
 3. В окне консоли должна появиться информация примерно следующего вида:
     
-  ```
-  Version
--------
-3.0
-  ```
+    ```
+    Version
+    -------
+    3.0
+    ```
 
-Если возвращается номер версии 3.0, значит вы используете Windows PowerShell 3.0. В противном случае вам необходимо установить Windows PowerShell 3.0. Для этого можно скачать платформу Windows Management Framework 3.0, в состав которой входит среда Windows PowerShell 3.0, из [Центра загрузки Майкрософт](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
+    Если возвращается номер версии 3.0, значит вы используете Windows PowerShell 3.0. В противном случае вам необходимо установить Windows PowerShell 3.0. Для этого можно скачать платформу Windows Management Framework 3.0, в состав которой входит среда Windows PowerShell 3.0, из [Центра загрузки Майкрософт](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
 Если вы убедились, что у вас установлена версия Windows PowerShell 3.0, необходимо проверить, настроена ли версия PowerShell для работы с удаленно исполняемыми сценариями. Для этого запустите приложение PowerShell от имени администратора. В ОС Windows 7, Windows Server 2008 R2, Windows Server 2012 или Windows Server 2012 R2 выполните следующие действия:
   
@@ -57,13 +63,11 @@ description: "Download, install, and then use Windows PowerShell 3.0 to create a
 3. Если появится диалоговое окно **Контроль учетных записей**, нажмите кнопку **Да**, чтобы разрешить запуск PowerShell с правами администратора.
     
 После запуска PowerShell необходимо разрешить работу с удаленными сценариями в политике выполнения. Для этого в консоли PowerShell введите следующую команду и нажмите клавишу ВВОД:
-  
 ```
 Set-ExecutionPolicy RemoteSigned -Force
 ```
-
-> [!NOTE]
-> При выполнении этой команды может появляться следующее сообщение об ошибке: > Set-ExecutionPolicy: Доступ к разделу реестра "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell" запрещен. > Как правило, это сообщение выводится в том случае, если вы запустили PowerShell без прав администратора. Чтобы исправить эту ошибку, закройте сеанс PowerShell и запустите новый сеанс от имени администратора. 
+    > [!NOTE]
+    >  When you run the preceding command, you might receive the following error message:> *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.* This error message typically occurs if you are not running PowerShell under administrator credentials. Close your session of PowerShell, and start a new session as an administrator. 
   
 Чтобы проверить правильность настройки политики выполнения, в командной строке PowerShell введите следующую команду и нажмите клавишу ВВОД:
   
@@ -139,16 +143,9 @@ Auth
     CredSSP = false
 ```
 
-Если настроена и применяется обычная проверка подлинности, вы можете использовать PowerShell для соединения с приложением Skype для бизнеса online.
+Если обычная проверка подлинности имеет значение true, а затем вы готовы к использование PowerShell для подключения к Скайп для бизнеса в Интернет.
   
-||
-|:-----|
-|![Значок для LinkedIn Learning](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Знакомство с Office 365**         Просмотрите короткие видеокурсы для **администраторов Office 365 и ИТ-специалистов** на платформе LinkedIn Learning.|
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Отказ от ответственности относительно машинного перевода**. Данная статья была переведена с помощью компьютерной системы без участия человека. Microsoft предлагает эти машинные переводы, чтобы помочь пользователям, которые не знают английского языка, ознакомиться с материалами о продуктах, услугах и технологиях Microsoft. Поскольку статья была переведена с использованием машинного перевода, она может содержать лексические,синтаксические и грамматические ошибки. 
-  
-
+## <a name="related-topics"></a>См. также:
+[Настройка компьютера для Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 

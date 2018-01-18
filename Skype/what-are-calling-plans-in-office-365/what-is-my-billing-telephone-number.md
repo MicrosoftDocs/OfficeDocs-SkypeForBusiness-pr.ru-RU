@@ -1,32 +1,42 @@
 ---
-title: "Каков мой телефон для выставления счетов?"
+title: "Что такое Мои выставления счетов по телефону?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderAccountInfoBTN
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 63bfb6a7-7e03-4f29-8ae2-d11b92caa14d
-description: "Learn what your Skype for Business billing telephone number is, and where to go to get step by step instructions on how to transfer a number."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderAccountInfoBTN
+ms.custom: Calling Plans
+description: "Узнайте о вашей Скайп для бизнеса, выставления счетов телефонный номер и где можно получить пошаговые инструкции по перемещению номер."
+ms.openlocfilehash: af7e65eabee13d690fb53803c7da1973240de24f
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-is-my-billing-telephone-number"></a>Что такое Мои выставления счетов по телефону?
 
-# Каков мой телефон для выставления счетов?
-
-Номер телефона для выставления счетов указывается в счете, который вы получаете от своего поставщика услуг или оператора. Если вы переносите номер телефона из учетной записи с единственным номером телефона, используйте его. Если в учетной записи несколько номеров телефонов, уточнить, какой из них используется для выставления счетов, можно непосредственно в счете, а также связавшись с поставщиком услуг или оператором.
+Выставления счетов телефонный номер (BTN) — это основной номер телефона, включенные в счете и международные с поставщиком услуг или поставщика. Если выполняется перемещение телефонный номер из учетной записи, которая имеет только один номер телефона, необходимо поместить этот номер телефона в. Если выполняется перемещение телефонных номеров из учетной записи, которая имеет более одного, позволяет просматривать счете или обратитесь к поставщику услуг или поставщика для определения возможности выставления счетов номер телефона для вашей учетной записи.
   
- **Подробные пошаговые инструкции см. в разделе [Передача номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).**
-  
-## См. Также:
+ **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).**
 
-#### 
+> [!NOTE]
+> Если вам потребуется получить дополнительные номера телефонов, чем это, пожалуйста, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
+  
+## <a name="related-topics"></a>См. также:
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
+[Различные виды телефонных номеров, используемый для вызова планы](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
-  
-[Звука по телефону период бесплатных конференц-связи](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)

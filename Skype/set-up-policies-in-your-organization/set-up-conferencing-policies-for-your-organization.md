@@ -2,35 +2,46 @@
 title: "Настройка политик аудиоконференций в организации"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b
-description: "Конференц-связь  это важная часть Skype для бизнеса online: она позволяет группам пользователей объединяться, чтобы просматривать презентации и видео, делиться приложениями, обмениваться файлами, общаться и совместно работать другими способами."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Конференц-связь \x97 это важная часть Skype для бизнеса online: она позволяет группам пользователей объединяться, чтобы просматривать презентации и видео, делиться приложениями, обмениваться файлами, общаться и совместно работать другими способами."
+ms.openlocfilehash: 6ccfdd3e5153a7b22d26fb492690da0e476fe9ee
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-up-conferencing-policies-for-your-organization"></a>Настройка политик аудиоконференций в организации
 
-# Настройка политик аудиоконференций в организации
-
-Конференц-связь  это важная часть Skype для бизнеса online: она позволяет группам пользователей объединяться, чтобы просматривать презентации и видео, делиться приложениями, обмениваться файлами, общаться и совместно работать другими способами.
+[] Конференц-связь  это важная часть Skype для бизнеса online: она позволяет группам пользователей объединяться, чтобы просматривать презентации и видео, делиться приложениями, обмениваться файлами, общаться и совместно работать другими способами.
   
 Конференциями и их настройками нужно управлять. В некоторых случаях могут возникать проблемы безопасности: по умолчанию в собраниях могут участвовать все (даже не прошедшие проверку подлинности пользователи). Они могут сохранять презентации или раздаточный материал. Кроме того, могут возникать юридические вопросы. Например, по умолчанию участники собрания могут добавлять заметки к общедоступному содержимому. Но эти заметки не сохраняются после архивации собрания. Если вашей организации нужно сохранять переписку, отключите заметки. 
   
- В Skype для бизнеса online конференции управляются с помощью политик. Политики конференций определяют доступные функции и возможности, в том числе то, разрешена ли передача звука и видео по протоколу IP максимальному числу участников собрания. Политики можно настроить глобально или для каждого пользователя, что дает администраторам большую гибкость.
+В Skype для бизнеса online конференции управляются с помощью политик. Политики конференций определяют доступные функции и возможности, в том числе то, разрешена ли передача звука и видео по протоколу IP максимальному числу участников собрания. Политики можно настроить глобально или для каждого пользователя, что дает администраторам большую гибкость.
   
 Параметры политики можно настроить во время ее создания. Чтобы изменить параметры существующей политики, используйте командлет **Set-CsConferencingPolicy**.
   
-## Задание политик конференц-связи
+## <a name="set-your-conferencing-policies"></a>Задание политик конференц-связи
 
 > [!NOTE]
 > Для всех параметров политики конференц-связи в Skype для бизнеса online нужно использовать Windows PowerShell. **Нельзя использовать** **Центр администрирования Skype для бизнеса**. 
   
-### Проверка и запуск Windows PowerShell
+### <a name="verify-and-start-windows-powershell"></a>Проверка и запуск Windows PowerShell
 
 - **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
     
-1. Чтобы проверить, установлена ли у вас версия 3.0 или более поздняя, в меню **Пуск** выберите пункт **Windows PowerShell**.
+1. Чтобы убедиться, что выполняется версия 3.0 или более поздней версии: **Меню "Пуск"** > **Windows PowerShell**.
     
 2. Проверьте версию, введя в окне **Windows PowerShell** команду _Get-Host_.
     
@@ -38,93 +49,70 @@ description: "Конференц-связь  это важная часть Sk
     
 4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
     
-    Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+    Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
     
 - **Запуск сеанса Windows PowerShell**
     
-1. В меню **Пуск** выберите пункт **Windows PowerShell**.
+1. Из **меню Пуск** > **Windows PowerShell**.
     
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     
     > [!NOTE]
     > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
-  
-> 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+
+  ```      
+    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
   ```
 
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-    Дополнительные сведения о запуске Windows PowerShell см. в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) или[Подключение к Skype для бизнеса с использованием Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+  Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [подключение к Скайп для бизнеса в Интернет с помощью Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-### Блокирование перемещения файлов и демонстрации рабочего стола во время собраний
+### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Блокирование перемещения файлов и демонстрации рабочего стола во время собраний
 
 - Чтобы создать политику для настроек, запустите следующую команду:
-    
 > 
   ```
   New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
   ```
-
-    Дополнительные сведения о командлете [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx).
+  В разделе Дополнительные с параметрами командлета [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
-    
 > 
   ```
   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
   ```
-
-    Дополнительные сведения о командлете [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx).
+  Просмотрите Дополнительные сведения о командлета [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
-Если политика уже создана, используйте командлет [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx), чтобы применить настройки к пользователям.
+  Если политика уже создана, используйте командлет [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx), чтобы применить настройки к пользователям.
   
-### Блокирование записи конференций и запрет анонимных участников собрания
+### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Блокирование записи конференций и запрет анонимных участников собрания
 
-- Чтобы создать политику для настроек, запустите следующую команду:
-    
+- Чтобы создать политику для настроек, запустите следующую команду: 
 > 
   ```
   New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
   ```
-
-    Дополнительные сведения о командлете [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx).
+В разделе Дополнительные с параметрами командлета [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
 - Чтобы предоставить новую политику Amos Marble, запустите следующую команду:
-    
 > 
   ```
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
   ```
-
-    Дополнительные сведения о командлете [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx).
+Просмотрите Дополнительные сведения о командлета [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
-Если политика уже создана, используйте командлет [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx), чтобы применить настройки к пользователям.
+Если вы уже создали политику, можно использовать командлет [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) внесение изменений в существующую политику и затем командлет [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) используется для применения параметров для пользователей.
   
-### Запрет записи собраний анонимными участниками и сохранения содержимого собрания внешними пользователями
+### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Запрет записи собраний анонимными участниками и сохранения содержимого собрания внешними пользователями
 
-- Чтобы создать политику для настроек, запустите следующую команду:
-    
+- Чтобы создать политику для настроек, запустите следующую команду:  
 > 
   ```
   New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
   ```
-
-    Дополнительные сведения о командлете [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx).
+В разделе Дополнительные с параметрами командлета [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
     
@@ -133,11 +121,11 @@ description: "Конференц-связь  это важная часть Sk
   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
   ```
 
-    Дополнительные сведения о командлете [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx).
+Просмотрите Дополнительные сведения о командлета [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
 Если политика уже создана, используйте командлет [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx), чтобы применить настройки к пользователям.
   
-## Хотите узнать больше о Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
 - Windows PowerShell, дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
@@ -152,5 +140,10 @@ description: "Конференц-связь  это важная часть Sk
   - [Использование Windows PowerShell для управления Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
 
+## <a name="related-topics"></a>См. также:
+[Создание политик настраиваемого внешнего доступа](create-custom-external-access-policies.md)
+
+[Передача файлов точка-точка блока](block-point-to-point-file-transfers.md)
+
+[Настройка политик клиента для вашей организации](set-up-client-policies-for-your-organization.md)

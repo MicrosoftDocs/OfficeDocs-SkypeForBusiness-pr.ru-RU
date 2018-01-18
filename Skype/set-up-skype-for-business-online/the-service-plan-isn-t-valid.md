@@ -1,34 +1,36 @@
 ---
-title: "План обслуживания Skype для бизнеса Online пользователя недействителен"
-ms.author: TONYSMIT
+title: "Недопустимый Скайп пользователя для бизнеса в Интернет план обслуживания"
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.ServicePlanNotValid
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 3631967e-d342-4a8a-905d-9b65d2ab554b
-description: "See where to assign a valid service plan for a user after a Skype for Business Online service plan isn't valid error. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.ServicePlanNotValid
+ms.custom: Setup
+description: "В разделе where для назначения плана допустимый службы для пользователя после Скайп для бизнеса в Интернет план обслуживания не допустимый ошибки. "
+ms.openlocfilehash: 276ec94eda2cdc721085e8605ccaa6bbb61d5f55
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Недопустимый Скайп пользователя для бизнеса в Интернет план обслуживания
 
-# План обслуживания Skype для бизнеса Online пользователя недействителен
+К сожалению Скайп для бизнеса в Интернет план обслуживания, назначенный этому пользователю не распознается или является недопустимым.
+  
+Перейдите в **Центр администрирования Office 365** > **активных пользователей** и назначить допустимый службы планирования для этого пользователя.
 
-> [!IMPORTANT]
-> Данная статья переведена с помощью машинного перевода, см. Отказ от ответственности.  
-  
-К сожалению Skype для бизнеса online план обслуживания, присвоенный этому пользователю не распознан или недействителен.
-  
-Перейдите в **Центр администрирования Office 365** > **Активные пользователи** и присвойте допустимый план обслуживания для этого пользователя.
-  
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>См. также:
+[Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Отказ от ответственности относительно машинного перевода**. Данная статья была переведена с помощью компьютерной системы без участия человека. Microsoft предлагает эти машинные переводы, чтобы помочь пользователям, которые не знают английского языка, ознакомиться с материалами о продуктах, услугах и технологиях Microsoft. Поскольку статья была переведена с использованием машинного перевода, она может содержать лексические,синтаксические и грамматические ошибки. 
+[Сообщите Скайп для бизнес-пользователям добавлять контакты Скайп](let-skype-for-business-users-add-skype-contacts.md)
   
 

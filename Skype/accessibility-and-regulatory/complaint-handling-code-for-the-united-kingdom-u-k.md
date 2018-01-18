@@ -1,21 +1,32 @@
 ---
-title: "Звонки по ТСОП в Skype для бизнеса  процедура подачи претензий для Великобритании"
+title: "Жалоб код обработки для Великобритании (Великобритания)"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 9/20/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
-description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Legal
+description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
+ms.openlocfilehash: eb98b00f7301e29a0a0039f78bd86b4bcfa999c5
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Жалоб код обработки для Великобритании (Великобритания)
 
-# Звонки по ТСОП в Skype для бизнеса  процедура подачи претензий для Великобритании
-
-Эти Правила применяются к заказчикам, представляющим малые предприятия (организации со штатом не более 10 сотрудников) Великобритании, в отношении службы звонков по ТСОП Skype для бизнеса (далее "Служба") в соответствии с правилами регулирования связи Великобритании. Использование других служб Skype для бизнеса регламентируется вашим соглашением на обслуживание корпорацией Майкрософт, а также другими условиями, применимыми к конкретной службе.
+Этот код применяется для малых предприятий (организаций с 10 сотрудников или менее) в Соединенное Королевство (Великобритания) относительно службы Office 365 вызов планирование («служба») в соответствии с правилами communications (Великобритания). Другие Скайп для бизнес-служб управляются соглашением с корпорацией Майкрософт и любые другие условия, применимые к использованию отдельных служб.
   
-## Обеспечение соответствия требованиям
+## <a name="how-to-make-a-complaint"></a>Обеспечение соответствия требованиям
 
 Самой приоритетной задачей Skype для бизнеса является максимально качественное обслуживание пользователей. Если вы по каким-либо причинам остались недовольны работой Службы, то можете подать претензию по телефону или через веб-сайт:
   
@@ -23,7 +34,7 @@ description: "Learn how to make a complaint for Skype for business calling servi
     
 - Веб-сайт: Выполните вход в центр администрирования Office 365 и отправьте запрос на обслуживание. Для этого выберите команду **Создание запроса на обслуживание** в разделе **Поддержка**. 
     
-## Временные шкалы
+## <a name="timelines"></a>Временные шкалы
 
 При обращении по телефону в рабочее время вы будете разговаривать с представителем Skype для бизнеса, который попытается немедленно решить проблему.
   
@@ -33,9 +44,9 @@ description: "Learn how to make a complaint for Skype for business calling servi
   
 Все претензии по работе Службы должны быть устранены специалистами Skype для бизнеса в течение 7 (семи) рабочих дней с момента их подачи. 
   
-Если вы не удовлетворены качеством урегулирования вашей претензии в отношении работы Службы, вы можете попросить вашего представителя Skype для бизнеса передать претензию для рассмотрения на более высокий уровень в соответствии с соглашением на обслуживание. Корпорация Майкрософт обязуется рассмотреть претензию в течение 7 (семи) дней с момента подачи.
+Если вас не устраивает со способом, в котором осуществляется вашей жалоб относительно службы, может затребовать Скайп для представителя Business обработки жалоб, по телефону или электронной почты перевести жалоб в соответствии с соглашением. Корпорация Майкрософт будет оценка жалоб в течение семи (7) дней поступления.
   
-## Альтернативные способы урегулирования споров
+## <a name="alternative-dispute-resolution"></a>Альтернативные способы урегулирования споров
 
 Если после подачи претензии относительно работы Службы ваша претензия не урегулирована в течение 8 (восьми) недель с момента подачи или вы получаете от нас письмо с уведомлением о принятии окончательного решения, вы можете направить претензию в Ombudsman Services, стороннюю службу по вопросам услуг связи, которая имеет соответствующую лицензию Управления по делам радио, телевидения и предприятий связи Великобритании. Кроме того, мы в письменной форме уведомим вас о возможности применения таких альтернативных способов урегулирования споров. 
   
@@ -45,15 +56,15 @@ Ombudsman Services действует независимо от корпорац
   
 Инструкции по передаче претензии в Ombudsman Services можно найти на соответствующем [веб-сайте](http://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809).
   
-Связаться с Ombudsman Services можно посредством формы на соответствующем веб-сайте, а также по телефону, электронной почте или посредством письма:
+Ombudsman служб могут достичь при заполнении формы контактов на веб-сайте служб Ombudsman или по телефону, буква или электронной почты:
   
-- Форма для связи: [https://www.ombudsman-services.org/contact-us-communications.html](https://www.ombudsman-services.org/contact-us-communications.mdl)
+- Формы контактов: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     
 - Телефон: 0330 440 1614
     
     Факс: 0330 440 1615
     
-     Текстофон: 0330 440 1600
+    Текстофон: 0330 440 1600
     
 - Адрес электронной почты: [osenquiries@os-communications.org](mailto:osenquiries@os-communications.org)
     
@@ -68,3 +79,5 @@ Ombudsman Services действует независимо от корпорац
     WA4 6WU
     
 
+## <a name="related-topics"></a>См. также:
+[Доступность страны и региона для конференц-связи аудио и вызов планов](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

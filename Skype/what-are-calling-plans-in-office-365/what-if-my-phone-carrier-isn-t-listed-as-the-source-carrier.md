@@ -1,36 +1,44 @@
 ---
-title: "Что делать, если моего оператора нет в списке?"
+title: "Что делать, если мой телефон поставщика нет в списке как оператор источника?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderDetailPanelWhois
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
-description: "Learn what to do if your carrier isn't listed in Skype for Business."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderDetailPanelWhois
+ms.custom: Calling Plans
+description: "Узнайте, что делать, если нет в списке своего оператора в Скайп для бизнеса. "
+ms.openlocfilehash: 71a2ba5fd3a91a4ac31586020dd11af3086dcf48
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Что делать, если мой телефон поставщика нет в списке как оператор источника?
 
-# Что делать, если моего оператора нет в списке?
-
-В некоторых случаях имени вашего оператора может не быть в списке. Как правило, это может быть связано с тем, что переносимые вами номера телефонов принадлежат другому поставщику услуг или оператору. Например, если ваш текущий оператор работает со сторонним поставщиком услуг, его имени может не быть в списке. 
+Это немного путаницу при появлении, что имя вашего поставщика нет в списке. В большинстве случаев Если поставщик услуг или поставщика нет в списке, скорее всего, что номера телефонов, на которого переключается через принадлежащие другого поставщика услуг или поставщика. Может быть время, когда поставщик услуг или поставщика, который указан может отличаться от текущего поставщика услуг поскольку текущего поставщика услуг может работать с поставщиком услуг сторонних производителей. 
   
-Пример.
+Пример:
   
-- Если вы переносите номера телефонов из Skype для бизнеса, в списке может отображаться оператор Level3.
+- При переносе номер из Скайп для бизнеса как своего оператора может появиться Level3 из списка.
     
- **Подробные пошаговые инструкции см. в разделе [Передача номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).**
-  
-## См. Также:
+ **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).**
 
-#### 
+    > [!NOTE]
+    > Если вам потребуется получить дополнительные номера телефонов, чем это, пожалуйста, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
+  
+## <a name="related-topics"></a>См. также:
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
-  
-[Звука по телефону период бесплатных конференц-связи](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)

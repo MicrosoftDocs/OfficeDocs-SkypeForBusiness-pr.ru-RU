@@ -1,56 +1,70 @@
 ---
-title: "Audio Conferencing pay-per-minute"
+title: "Звукового конференц-связи оплаты в минуту"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
-description: "In addition to the standard Audio Conferencing per-user license, Volume and Licensing organizations can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Licensing
+- Strat_SB_PSTN
+description: "В дополнение к Стандартная лицензия пользователя аудиоконференции Лицензирование и многопользовательская организаций можно также предложение минуту для включения возможности конференц-связи аудио для своей организации."
+ms.openlocfilehash: 759827750bd64510e47273dfccc066e9299481d3
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="audio-conferencing-pay-per-minute"></a>Звукового конференц-связи оплаты в минуту
 
-# Audio Conferencing pay-per-minute
-
-In addition to the standard Audio Conferencing per-user license, Volume and Licensing organizations can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations.
+В дополнение к Стандартная лицензия пользователя аудиоконференции Лицензирование и многопользовательская организаций можно также предложение минуту для включения возможности конференц-связи аудио для своей организации.
   
-You can find out if your [Страны и региона доступность для аудиоконференций и вызвав планов](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md) for Audio Conferencing.
+
+Можно найти ли вашей [страны или региона поддерживается](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) для аудиоконференции.
+
   
 > [!NOTE]
-> Because this offer is only available to Volume and Licensing customers, you will need to work with your account representative to acquire licenses. 
+> Так как это предложение доступен только для клиентов Лицензирование и многопользовательская, необходимо будет работать с представителем вашей учетной записи службы для получения лицензий. 
   
-## Need some details?
+## <a name="need-some-details"></a>Требуются некоторые сведения?
 
-Whereas the Audio Conferencing per-user license offer includes dial-in usage and some dial-out usage, Audio Conferencing pay-per-minute **allows you to pay for all of your Audio Conferencing usage on a per-minute basis without paying for a per-user monthly license**. With this, all dial-in and dial-out calls will be charged on a per-minute basis, including:
+В то время как предложение лицензии пользователя аудиоконференции включает использования-связь и некоторые подключение по телефонной линии, аудиоконференции оплаты в минуту **позволяет оплачиваться все использования конференц-связи звук на за минуту без ежемесячно оплаты для отдельных пользователей Лицензия**. С этого все-связь и исходящие вызовы будут оплачиваться на основе в минуту, включая:
   
-- Inbound calls to toll Audio Conferencing numbers of your organization.
+- Входящие вызовы на номер телефона номеров аудиоконференции вашей организации.
     
-- Inbound calls to toll-free Audio Conferencing numbers of your organization.
+- Входящие вызовы бесплатных номеров аудиоконференции вашей организации.
     
-- Outbound calls placed to external phone numbers from within a meeting of your organization.
+- Исходящие вызовы, помещенные на внешние телефонные номера из в рамках собрания из вашей организации.
     
 > [!NOTE]
-> You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in[Audio Conferencing](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
+> Можно найти нормы-связь и подключение по телефонной линии, связанный со эти типы звонков, описанные в разделе **увидеть курсы, для которых нужно позвонить раздел** в [Аудиоконференции](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
   
-Pay-per-minute requires your organization to have [Что такое кредиты на связь?](what-are-communications-credits.md) enabled with a license assigned to each user in order for Audio Conferencing to work. If you want more details, see[Настройка кредитов на связь для организации](set-up-communications-credits-for-your-organization.md) and/or[Лицензирование надстроек Skype для бизнеса и Microsoft Teams](skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Минуту требуется вашей организации для [Коммуникаций кредитов](what-are-communications-credits.md) лицензию, назначенную для каждого пользователя в порядке для аудиоконференции для работы с включенными. Для получения дополнительных сведений в статье [Set up кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md) и/или [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-To enable Audio Conferencing pay-per-minute for users in your organization, see [Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
+Чтобы включить аудиоконференции оплаты в минуту для пользователей в вашей организации, видеть [Попробуйте или Покупка Audio конференция в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
   
-## Want to find out more about pricing?
+## <a name="want-to-find-out-more-about-pricing"></a>Хотите узнать больше о ценах?
 
- **Looking for prices?** See[Просмотр цен и приобретение лицензий на надстройки](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) or one of the following:.
+ **Ищете цены?** Можно найти, [как просмотреть цены и приобрести лицензии дополнительный компонент](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) или один из следующих:
   
-- [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+- [Цена для аудиоконференций](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
     
-- [Pricing for Phone System](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+- [Цена для телефонной системы](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
     
-- [Pricing for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
+- [Цена для Тарифные планы](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
-## Related Topics
+## <a name="related-topics"></a>См. также:
 
-[Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
   
 [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
