@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: f2ed48030033436cecebb73e6cafba2d8494b6ed
-ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.openlocfilehash: d2576d254865e7f97ff614cc80689d952d8a3997
+ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Материалы Office на сайте docs.microsoft.com
 ## <a name="this-is-a-level-2-heading"></a>Это заголовок второго уровня
@@ -13,7 +13,7 @@ ms.lasthandoff: 12/15/2017
 *курсив*
 **полужирный** какой-то [это ссылка](Office-365-groups.md)
 
-![альтернативный текст](media/Overview-Microsoft-Teams-image1.png) здравствуйте
+![замещающий текст](media/Overview-Microsoft-Teams-image1.png) тестовое обновление
 1. элемент 2
 2. элемент 3
 3. элемент 4

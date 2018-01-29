@@ -7,11 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Сведения об использовании различных клиентов, доступных для Microsoft Teams, включая веб-клиент, классический клиент (Windows и Mac), а также мобильный клиент (Android, iOS и Windows Phone)."
-ms.openlocfilehash: 2f07ba9fc8c7f08adf608c5d3a0708e680967632
-ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
+ms.openlocfilehash: c10dde0e2893bc11f1d5a01eed1c30ed37ff30a0
+ms.sourcegitcommit: 6ddf8daf3aa1f43c67cb5a57721cb01a9c409f7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/18/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 ===========================
@@ -27,20 +27,12 @@ ms.lasthandoff: 01/03/2018
 
 Веб-клиент определяет версию браузера при подключении к сайту [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753), а в случае обнаружения неподдерживаемой версии блокирует доступ к веб-интерфейсу и рекомендует пользователю скачать классический клиент или мобильное приложение.
 
-Microsoft Teams поддерживает следующие виды и версии браузеров:
-
--   **Edge**: 12+
-
--   **Internet Explorer:** 11+
-
--   **Chrome**: 51.0+
-
--   **Firefox**: 55+
-
-
+<a name="internet-browser-support"></a>Поддержка интернет-браузеров
+------------------------------
+Teams поддерживает следующие интернет-браузеры: Internet Explorer 11, Microsoft Edge и последние версии Chrome и Firefox.
 
 > [!NOTE]
-> Поддержка Safari пока отсутствует, но скоро будет добавлена.
+> Браузер Safari сейчас не поддерживается. Актуальные сведения о новых возможностях в Teams см. на странице о [стратегии развития Teams](http://aka.ms/TeamsRoadmap). Пользователи, пытающиеся открыть Teams в Safari, будут направлены на страницу скачивания классического клиента Teams.
 
 <a name="desktop-clients"></a>Классические клиенты
 ------------------------
