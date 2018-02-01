@@ -1,23 +1,29 @@
 ---
-title: "Комплект для семинара. Планирование, развертывание и использование Microsoft Teams"
+title: "Инструменты и семинары. Планирование, развертывание и использование Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
-description: "Средства для планирования и комплект для семинара, которые помогут администратору начать работу с Microsoft Teams."
+description: "Средства планирования, семинары и стартовые комплекты, которые помогут администратору начать работу с Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0142ced9edd10a64f142e0f8dbb4f92d79593214
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: e14c16ddd71114e90af15174266f14bbbbc5982e
+ms.sourcegitcommit: 6f5fc17ffdc1ef3b3eec42e17f7bebda88cb000b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/24/2018
 ---
-<a name="workshop-kit-plan-deliver-and-operate-microsoft-teams"></a>Комплект для семинара. Планирование, развертывание и использование Microsoft Teams
+<a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>Инструменты и семинары. Планирование, развертывание и использование Microsoft Teams
 =============================================================
 
 Скачайте эти инструменты, которые помогут спланировать работу, развернуть и использовать приложение Teams в вашей организации.
+
+- [Комплект по началу работы с Microsoft Teams](http://microsoft.com/en-us/download/56505) 
+    
+    Это руководство содержит рекомендации по эффективному использованию Teams в различных подразделениях вашей организации, в том числе отделах маркетинга, продаж, финансов, управления персоналом, ИТ, разработки и управления проектами.
+
+
 
 - [Краткое руководство по началу работы. Успешная активация Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     

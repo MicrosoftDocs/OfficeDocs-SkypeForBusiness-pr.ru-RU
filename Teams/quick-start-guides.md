@@ -3,15 +3,15 @@ title: "Краткие руководства по началу работы д�
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 description: "Здесь вы найдете краткие руководства по настройке и запуску Microsoft Teams."
-ms.openlocfilehash: 06aa3b18f93e3a783f5ac7e717ddab7d77e94343
-ms.sourcegitcommit: 5ab90d4bd39bf45198ef73d0fd45dd3d8baa6acb
+ms.openlocfilehash: 523f13411887e971dcdcbc8ea301d867a79002a4
+ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="quick-start-guides-for-microsoft-teams-admins"></a>Краткие руководства по началу работы для администраторов Microsoft Teams
 =====================================

@@ -8,14 +8,20 @@ ms.topic: article
 ms.service: msteams
 description: "Гостевой доступ в Microsoft Teams позволяет командам в вашей организации сотрудничать с людьми, находящимися за пределами организации, предоставляя им доступ к командам и каналам."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 53fac61c9e8c36c572e77fd302f410ce5dce45d0
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 07dbb6faca20fd39fc65c6508489500dda143040
+ms.sourcegitcommit: d62b48ee2c21435555255afe78db6349139b070c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 ======================================
+
+Гостевой доступ — новая функция Teams. О ней особенно часто просили наши клиенты. Мы все еще дорабатываем и совершенствуем ее возможности. Вы можете отслеживать наш ход работы над гостевым доступом и сообщать свое мнение.
+- Если у вас возникают проблемы с гостевым доступом, см. раздел [Известные проблемы для Microsoft Teams](Known-issues.md).
+- Узнавайте о новых и усовершенствованных функциях из [Стратегии развития Teams](https://aka.ms/teamsroadmap).
+- Сообщите, какие функции нужны вам, на сайте [UserVoice, посвященном Teams](https://aka.ms/TeamsUserVoice).
+- Поделитесь своим опытом в разделе комментариев ниже.
 
 
 Гостевой доступ в Microsoft Teams позволяет командам в вашей организации сотрудничать с людьми, находящимися за пределами организации, предоставляя им доступ к командам и каналам. 
@@ -38,7 +44,7 @@ ms.lasthandoff: 12/20/2017
  
   
     
-  [Справка, практические руководства и средства](support-resources.md)  
+  [Ресурсы поддержки для Microsoft Teams](support-resources.md)  
  
   
 
