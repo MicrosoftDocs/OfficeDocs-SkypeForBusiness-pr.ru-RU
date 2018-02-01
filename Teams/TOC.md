@@ -20,7 +20,7 @@
 ## [Планирование использования групп Office 365 при создании команд в Teams](plan-Office-365-groups.md)
 ## [Подготовка сети организации к использованию Teams](prepare-network.md)
 ## [URL-адреса и диапазоны IP-адресов для Office 365](Office-365-URLs-IP-address-ranges.md)
-## [Комплект для семинара. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
+## [Инструменты и семинары. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
 
 # Адаптация
 ## [Создание стратегии по управлению изменениями для Teams](change-management-strategy.md)
