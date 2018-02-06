@@ -1,44 +1,48 @@
 ---
-title: "Управление номер телефона для США."
+title: "Управление номерами телефонов в США"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 09c8ca24-d018-422f-8485-9610171016a9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "Используйте эту таблицу, чтобы найти сведения о получении и управлении номеров телефона в США (и Пуэрто-Рико) для Скайп для бизнеса в Интернет."
-ms.openlocfilehash: 862169ea5b6b8d91416574e065ea319840e1176b
-ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "В этой таблице представлены сведения о получении и использовании номеров телефонов Skype для бизнеса Online в США и Пуэрто-Рико."
+ms.openlocfilehash: e89c244d00d221da3ec6e9de0a0209be6ee35a7e
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-the-us"></a>Управление номер телефона для США.
+# <a name="phone-number-management-for-the-us"></a>Управление номерами телефонов в США
 
-Используйте эту таблицу, чтобы найти сведения о получении и управлении номеров телефона в США (и Пуэрто-Рико) для Скайп для бизнеса в Интернет. 
+В этой таблице представлены сведения о получении в США и Пуэрто-Рикои использовании номеров телефонов Skype для бизнеса  Online в США и Пуэрто-Рикои управлении ими. 
   
-Дополнительные сведения содержатся в разделе [Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md).
+Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
-|**Что необходимо сделать?**|**Выполните эти действия и загрузите правильные форм**|
+|**Требуемое действие**|**Выполните следующие действия и загрузите подходящие формы**|
 |:-----|:-----|
-|Необходимо получить количество пользователей, не указанные в Скайп по центру администрирования бизнеса.  <br/> |Загрузить [новый запрос номеров телефона в США (количество пользователей) (v.3.0(en.us)](../../downloads/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en.us).pdf) форме, необходимо ввести его и [Отправить его "мне нравится"](mailto:gcstnmsd@microsoft.com).  <br/> |
-|Необходимо получить номера телефонов, передан в "мне нравится".  <br/> | Загрузите одну из следующих форм: <br/> [Буквы от авторизации (ЗАГРУ) для США (номера пользователя и службы) (v.3.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en.us).pdf) <br/> [Буквы от авторизации (ЗАГРУ) для США (обслуживание бесплатных номеров) (v.3.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.1)-(en.us).pdf) <br/><br/>**Примечание:** Если вы пытаетесь получить более 999 подписчика или пользователем телефонных номеров, необходимо заполнить выходной параметр письма из авторизации (ЗАГРУ) и отправьте его в "мне нравится". Для получения дополнительных сведений в разделе [Передача телефонных номеров в Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) .           Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptn@microsoft.com).  <br/> |
-|Вам нужно изменить номер пользователя на номер службы.  <br/> |[Ждем](mailto:ptn@microsoft.com) ПИН-код и список номеров пользователя есть желание перейти к номерам службы. Чтобы настроить ПИН-код, [здесь](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).  <br/> |
-|Необходимо перенести числа из одной организации Office 365.  <br/> |[Отправьте нам](mailto:ptn@microsoft.com) список номеров телефона пользователя (подписчика), которые нужно перевести вместе с ПИН-код источника организации, которой требуется перенести числа от. Чтобы настроить ПИН-код, [здесь](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).  <br/> |
+|Необходимо получить номера пользователей, которые не перечислены в цЦентре администрирования Skype для бизнеса.  <br/> |Скачайте форму [Запрос на получение новых номеров телефонов для США, пользовательские номера, версия 3.0 на английском (США)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en.us).pdf), заполните ее и [отправьте нам](mailto:gcstnmsd@microsoft.com).  <br/> |
+|Необходимо получить номера телефонов, переданные нам.  <br/> | Скачайте одну из следующих форм:. <br/> [Доверенность для США, пользовательские и служебные номера, версия 3.1 на английском (США)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en.us).pdf) <br/> [Доверенность для США, бесплатные номера телефонов, версия 3.1 на английском (США)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.1)-(en.us).pdf) <br/><br/>**Примечание.** Если вы пытаетесь получить больше 999 номеров телефонов подписчиков или пользователей, необходимо заполнить доверенность и отправить ее нам. Дополнительные сведения: [Передача номеров телефонов в Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).           Заполните ее и [отправьте его нам](mailto:ptn@microsoft.com).  <br/> |
+|Необходимо заменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptn@microsoft.com) свой ПИН-код и список номеров пользователей, которые нужно преобразовать в номера служб. Процедуру настройки ПИН-кода см. [в этой статье](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).  <br/> |
+|Необходимо передать номера из одной организации Office 365 в другую.  <br/> |[Отправьте нам](mailto:ptn@microsoft.com) список номеров телефонов пользователей (подписчиков), которые необходимо передать, вместе с ПИН-кодом исходной организации. Процедуру настройки ПИН-кода см. [в этой статье](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).  <br/> |
    
 ## <a name="related-topics"></a>См. также:
-[Различные виды телефонных номеров, используемый для вызова планы](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md)
+[Управление номерами телефонов организации](manage-phone-numbers-for-your-organization.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
 

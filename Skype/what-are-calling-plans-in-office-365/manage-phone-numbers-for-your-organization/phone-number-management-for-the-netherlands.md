@@ -1,44 +1,48 @@
 ---
-title: "Управление номер телефона для Нидерландов"
+title: "Управление номерами телефонов в Нидерландах"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: f3b75104-bdb9-435a-bec5-9858db9df402
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Нидерландах для Скайп для бизнеса в Интернет."
-ms.openlocfilehash: d002da98df1f77c4f2d0b491327529ce33a67804
-ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "В этой таблице представлены сведения о получении  и использовании номеров телефонов Skype для бизнеса Online в Нидерландах."
+ms.openlocfilehash: 51fe345903577ce319f90ed10183445ec2279e3f
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-the-netherlands"></a>Управление номер телефона для Нидерландов
+# <a name="phone-number-management-for-the-netherlands"></a>Управление номерами телефонов в Нидерландах
 
-Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Нидерландах для Скайп для бизнеса в Интернет. 
+В этой таблице представлены сведения о получении  и использовании в Нидерландах номеров телефонов Skype для бизнеса  Online и управлении имив Нидерландах. 
   
-Дополнительные сведения содержатся в разделе [Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md).
+Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
-|**Что необходимо сделать?**|**Загрузите правильный формы**|
+|**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получение нового номера телефонов пользователей.  <br/> | Загрузить [новый запрос номер телефона для Нидерландов (географическое номера) (v.3.0)(nl.nl)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands(geographic-numbers)-(v.3.0)-(nl.nl).pdf) <br/>  Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
-|Необходимо получить номера телефонов, передан в "мне нравится".  <br/> |Загрузите одну из следующих форм: <br/> [Буквы от авторизации (ЗАГРУ) для Нидерландов (географическое номера) (v.2.0)(nl.nl)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/> [Буквы от авторизации (ЗАГРУ) для Нидерландов (не являющиеся географическое номера) (v.2.0)(nl.nl)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/> Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
-|Вам потребуется публикации или отмены публикации номера телефона в каталоге национальный телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
-|Вам нужно изменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список числа пользователей, которые требуется выполнить преобразование номеров службы. <br/> |
+|Получение номеров телефонов для новых пользователей.  <br/> | Скачайте форму [Запрос на получение новых номеров телефонов для Нидерландов, географические номера, версия 3.0 на нидерландском (Нидерланды)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl.nl).pdf) <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Необходимо получить номера телефонов, переданные нам.  <br/> |Скачайте одну из следующих форм:. <br/> [Доверенность для Нидерландов, географические номера, версия 2.0 на нидерландском (Нидерланды)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/> [Доверенность для Нидерландов, негеографические номера, версия 2.0 на нидерландском (Нидерланды)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Необходимо опубликовать номера телефонов или отменить их публикацию в национальном телефонном справочнике.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
+|Необходимо заменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
 
 ## <a name="related-topics"></a>См. также:
-[Различные виды телефонных номеров, используемый для вызова планы](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md)
+[Управление номерами телефонов организации](manage-phone-numbers-for-your-organization.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
 

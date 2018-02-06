@@ -1,44 +1,48 @@
 ---
-title: "Управление номер телефона для Германии"
+title: "Управление номерами телефонов в Германии"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 62077251-f24e-4a43-95a2-67a2dc54e9de
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Германии для Скайп для бизнеса в Интернет."
-ms.openlocfilehash: 4c81a9efbe6ba557b1013651ef4479d11ad8ee33
-ms.sourcegitcommit: 3fd7144b506dbe89551e104298a1dbc39d6eace0
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "В этой таблице представлены сведения о получении и использовании номеров телефонов Skype для бизнеса Online в Германии."
+ms.openlocfilehash: f03a55247626fbee1ca81ee558d3d2fad3d83d73
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-germany"></a>Управление номер телефона для Германии
+# <a name="phone-number-management-for-germany"></a>Управление номерами телефонов в Германии
 
-Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Германии для Скайп для бизнеса в Интернет. 
+В этой таблице представлены сведения о получении и использованиив Германии номеров телефонов Skype для бизнеса  Online и управлении имив Германии. 
   
-Дополнительные сведения содержатся в разделе [Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md).
+Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
-|**Что необходимо сделать?**|**Загрузите правильный формы**|
+|**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получение нового номера телефонов пользователей.  <br/> | В Германии не могут получить номера телефонов для вашей организации, с помощью Скайп по центру администрирования бизнеса. Необходимо отправить запрос нового номера телефона. Во-первых загрузить эту форму <br/> [Новый запрос номер телефона для Германии (географическое номера) (v.3.0)(de.de)](../../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de.de).pdf). <br/>  затем заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
-|Необходимо получить номера телефонов, передан в "мне нравится".  <br/> | Загрузить [письма из авторизации (ЗАГРУ) для Германии (географическое номера) (v.1.0)(de.de)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de.de).pdf) <br/>  Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
-|Вам потребуется публикации или отмены публикации номера телефона в каталоге национальный телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
-|Вам нужно изменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com ) список числа пользователей, которые требуется выполнить преобразование номеров службы. <br/> |
+|Получение номеров телефонов для новых пользователей.  <br/> | В Германии нельзя получить номера телефонов для организации с помощью Центра администрирования Skype для бизнеса. Необходимо отправить запрос на получение номеров телефонов. Сначала скачайте форму <br/> [Запрос на получение новых номеров телефонов для Германии, географические номера, версия 3.0 на немецком (Германия)](../../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de.de).pdf), <br/>  заполните ее и [отправьте нам](mailto:ptneu@microsoft.com).  <br/> |
+|Необходимо получить номера телефонов, переданные нам.  <br/> | Скачайте форму [Доверенность для Германии, географические номера телефонов, версия 1.0 на немецком (Германия)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de.de).pdf) <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Необходимо опубликовать номера телефонов или отменить их публикацию в национальном телефонном справочнике.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
+|Необходимо заменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com ) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
    
 ## <a name="related-topics"></a>См. также:
-[Различные виды телефонных номеров, используемый для вызова планы](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md)
+[Управление номерами телефонов организации](manage-phone-numbers-for-your-organization.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
 

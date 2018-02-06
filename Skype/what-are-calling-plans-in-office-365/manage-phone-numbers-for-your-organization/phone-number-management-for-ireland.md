@@ -1,44 +1,48 @@
 ---
-title: "Управление номер телефона для Ирландия"
+title: "Управление номерами телефонов в Ирландии"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Ирландия для Скайп для бизнеса в Интернет."
-ms.openlocfilehash: e879d5142c39af05547b805c5cc125d7b0206688
-ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "В этой таблице представлены сведения о получении и использовании номеров телефонов Skype для бизнеса Online в Ирландии."
+ms.openlocfilehash: 92e5d92083dc26c5db65f37a20a1c31de717eaae
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-ireland"></a>Управление номер телефона для Ирландия
+# <a name="phone-number-management-for-ireland"></a>Управление номерами телефонов в Ирландии
 
-Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Ирландия для Скайп для бизнеса в Интернет. 
+В этой таблице представлены сведения о получении и использовании в Ирландии номеров телефонов Skype для бизнеса  Online в Ирландиии управлении ими. 
   
-Дополнительные сведения содержатся в разделе [Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md).
+Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
-|**Что необходимо сделать?**|**Загрузите правильный формы**|
+|**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получение нового номера телефонов пользователей.  <br/> |В Ирландия не могут получить номера телефонов для вашей организации, с помощью Скайп по центру администрирования бизнеса. Необходимо отправить запрос нового номера телефона. Загрузить [новый запрос номер телефона для Ирландия (географическое номера) (v.3.0)(en.us)](../../downloads/new-phone-number-request-for-ireland-(geographic-numbers)-(v.3.0)-(en.us).pdf) форме, необходимо ввести его и [Отправить его "мне нравится"](mailto:ptneu@microsoft.com).  <br/> |
-|Необходимо получить номера телефонов, передан в "мне нравится".  <br/> |Загрузите одну из следующих форм: <br/> [Буквы от авторизации (ЗАГРУ) для Ирландия (географическое номера) (v.3.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> [Буквы от авторизации (ЗАГРУ) для Ирландия (не являющиеся географическое номера) (v.1.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en.us).pdf) <br/>  Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
-|Вам потребуется публикации или отмены публикации номера телефона в каталоге национальный телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
-|Вам нужно изменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com ) список числа пользователей, которые требуется выполнить преобразование номеров службы. <br/> |
+|Получение номеров телефонов для новых пользователей.  <br/> |В Ирландии нельзя получить номера телефонов для организации с помощью Центра администрирования Skype для бизнеса. Необходимо отправить запрос на получение номеров телефонов. Скачайте форму [Запрос на получение новых номеров телефонов для Ирландии, географические номера, версия 3.0 на английском (США)](../../downloads/new-number-request-forms/new-phone-number-request-for-ireland-(geographic-numbers)-(v.3.0)-(en.us).pdf), заполните ее и [отправьте нам](mailto:ptneu@microsoft.com).  <br/> |
+|Необходимо получить номера телефонов, переданные нам.  <br/> |Скачайте одну из следующих форм:. <br/> [Доверенность для Ирландии, географические номера телефонов, версия 3.0 на английском (США)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> [Доверенность для Ирландии, негеографические номера телефонов, версия 1.0 на английском (США)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en.us).pdf) <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Необходимо опубликовать номера телефонов или отменить их публикацию в национальном телефонном справочнике.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
+|Необходимо заменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com ) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
    
 ## <a name="related-topics"></a>См. также:
-[Различные виды телефонных номеров, используемый для вызова планы](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md)
+[Управление номерами телефонов организации](manage-phone-numbers-for-your-organization.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
 

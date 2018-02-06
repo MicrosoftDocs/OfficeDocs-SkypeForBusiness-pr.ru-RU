@@ -1,44 +1,48 @@
 ---
-title: "Управление номер телефона для Франции"
+title: "Управление номерами телефонов во Франции"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 8de49037-905c-4757-a6e7-cf212173e7f3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров во Франции для Скайп для бизнеса в Интернет."
-ms.openlocfilehash: 959a9b19060d5a72b6d2c95dadbce9464406d3ac
-ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "В этой таблице представлены сведения о получении и использовании номеров телефонов Skype для бизнеса Online во Франции."
+ms.openlocfilehash: 8b29aacd584c31634546c9166fbf78e779a040b0
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-france"></a>Управление номер телефона для Франции
+# <a name="phone-number-management-for-france"></a>Управление номерами телефонов во Франции
 
-Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров во Франции для Скайп для бизнеса в Интернет. 
+В этой таблице представлены сведения о получении и использованииво Франции номеров телефонов Skype для бизнеса  Online во Франциии управлении ими. 
   
-Дополнительные сведения содержатся в разделе [Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md).
+Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
-|**Что необходимо сделать?**|**Загрузите правильный форм и отправлять их в "мне нравится"**|
+|**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Необходимо получить количество пользователей, не указанные в Скайп по центру администрирования бизнеса.  <br/> | Загрузить эту форму <br/> [Новый запрос номер телефона для Франции (географическое номера) (v.3.0)(fr.fr)](../../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf). <br/>  Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
-|Необходимо получить номера телефонов, передан в "мне нравится".  <br/> |Загрузите одну из следующих форм: <br/> [Буквы от авторизации (ЗАГРУ) для Франции (бесплатная телефонная номера) (v.2.0)(fr.fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> [Буквы от авторизации (ЗАГРУ) для Франции (географическое номера) (v.2.0)(fr-fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/>  Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
-|Вам потребуется публикации или отмены публикации номера телефона в каталоге национальный телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
-|Вам нужно изменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com ) список числа пользователей, которые требуется выполнить преобразование номеров службы. <br/> |
+|Необходимо получить номера пользователей, которые не перечислены в цЦентре администрирования Skype для бизнеса.  <br/> | Скачайте форму <br/> [Запрос на получение новых номеров телефонов для Франции, географические номера, версия 3.0 на французском (Франция)](../../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf), <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Необходимо получить номера телефонов, переданные нам.  <br/> |Скачайте одну из следующих форм:. <br/> [Доверенность для Франции, номера телефонов Freephone, версия 2.0 на французском (Франция)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> [Доверенность для Франции, географические номера, версия 2.0 на французском (Франция)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Необходимо опубликовать номера телефонов или отменить их публикацию в национальном телефонном справочнике.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
+|Необходимо заменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com ) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
 
 ## <a name="related-topics"></a>См. также:
-[Различные виды телефонных номеров, используемый для вызова планы](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md)
+[Управление номерами телефонов организации](manage-phone-numbers-for-your-organization.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
 

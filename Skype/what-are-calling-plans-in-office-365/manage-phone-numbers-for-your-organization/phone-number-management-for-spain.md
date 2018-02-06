@@ -1,44 +1,48 @@
 ---
-title: "Управление номер телефона для Испании"
+title: "Управление номерами телефонов в Испании"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e18d2274-cd69-47f6-9a65-1adc59dc5399
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Испании для Скайп для бизнеса в Интернет."
-ms.openlocfilehash: 457207877a30514f6ebe1006925cc67f3ed7ef89
-ms.sourcegitcommit: 3fd7144b506dbe89551e104298a1dbc39d6eace0
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "В этой таблице представлены сведения о получении и использовании номеров телефонов Skype для бизнеса Online в Испании."
+ms.openlocfilehash: 814d77b39e21f8bc9d11f176b6894139dd77d519
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-spain"></a>Управление номер телефона для Испании
+# <a name="phone-number-management-for-spain"></a>Управление номерами телефонов в Испании
 
-Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Испании для Скайп для бизнеса в Интернет. 
+В этой таблице представлены сведения о получении и использованиив Испании номеров телефонов Skype для бизнеса  Online в Испаниии управлении ими. 
   
-Дополнительные сведения содержатся в разделе [Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md).
+Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
-|**Что необходимо сделать?**|**Загрузите правильный формы**|
+|**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Необходимо получить количество пользователей, не указанные в Скайп по центру администрирования бизнеса.  <br/> | Загрузить [новый запрос номер телефона для Испании (географическое номера) (v.3.0)(es.es)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es.es).pdf) <br/>  Заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
-|Необходимо получить номера телефонов, передан в "мне нравится".  <br/> |Загрузить [письма из авторизации (ЗАГРУ) для Испании (все номера) (v.1.0)(es-es)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es.es).pdf) форме, необходимо ввести его и [Отправить его "мне нравится"](mailto:ptneu@microsoft.com). <br/> |
-|Вам потребуется публикации или отмены публикации номера телефона в каталоге национальный телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
-|Вам нужно изменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com ) список числа пользователей, которые требуется выполнить преобразование номеров службы. <br/> |
+|Необходимо получить номера пользователей, которые не перечислены в Центре администрирования Skype для бизнеса.  <br/> | Скачайте форму [Запрос на получение новых номеров телефонов для Испании, географические номера, версия 3.0 на испанском (Испания)](../../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es.es).pdf) <br/>  Заполните ее и [отправьте нам](mailto:ptneu@microsoft.com).  <br/> |
+|Необходимо получить номера телефонов, переданные нам.  <br/> |Скачайте форму [Доверенность для Испании, все номера, версия 1.0 на испанском (Испания)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es.es).pdf), заполните ее и [отправьте нам](mailto:ptneu@microsoft.com). <br/> |
+|Необходимо опубликовать номера телефонов или отменить их публикацию в национальном телефонном справочнике.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
+|Необходимо заменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com ) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
 
 ## <a name="related-topics"></a>См. также:
-[Различные виды телефонных номеров, используемый для вызова планы](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization.md)
+[Управление номерами телефонов организации](manage-phone-numbers-for-your-organization.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
 
