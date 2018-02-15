@@ -7,22 +7,24 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Пользователи могут взаимодействовать с П-ботом, задавая ему вопросы о работе с Microsoft Teams."
-ms.openlocfilehash: 448b378721b7a295e22f129e93c727572a33aaed
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: a641c05b1c2efa0f095e1de46309397435d1b4c3
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="use-t-bot-to-help-users-with-microsoft-teams"></a>Использование П-бота для помощи пользователям с Microsoft Teams
 ============================================
 
-Чтобы ваши пользователи и лидеры могли получить помощь при работе с Microsoft Teams, познакомьте их с [П-ботом](https://support.office.com/en-us/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#bkmk_bots). Пользователи могут взаимодействовать с П-ботом, задавая ему вопросы о работе с Microsoft Teams.
+Чтобы ваши пользователи и лидеры могли получить помощь при работе с Microsoft Teams, познакомьте их с [П-ботом](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#bkmk_bots). Пользователи могут взаимодействовать с П-ботом, задавая ему вопросы о работе с Microsoft Teams.
 
 ![Снимок экрана со страницей П-бота в Microsoft Teams.](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image1.png)
 
 ![Снимок экрана с ответом П-бота на вопрос пользователя.](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image2.png)
 
-Microsoft Teams поддерживает П-бот и справочные материалы, локализованные на разные языки, перечень которых регулярно пополняется. Актуальный список поддерживаемых языков см. в статье [Поддерживаемые Microsoft Teams языки для справочных материалов](https://support.office.com/en-us/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).
+Microsoft Teams поддерживает П-бот и справочные материалы, локализованные на разные языки, перечень которых регулярно пополняется. Актуальный список поддерживаемых языков см. в статье [Поддерживаемые Microsoft Teams языки для справочных материалов](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).
 
 П-бот также предоставляет альтернативные способы помощи пользователям, предпочитающим изучать материалы, а не задавать вопросы.
 

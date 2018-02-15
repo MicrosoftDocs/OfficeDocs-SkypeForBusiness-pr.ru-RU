@@ -8,19 +8,21 @@ ms.topic: article
 ms.service: msteams
 description: "Сведения о правильной настройке URL-адресов и диапазонов IP-адресов для Office 365, возможностях обхода прокси-сервера переадресации для соединений со службой Microsoft Teams, а также требованиях к политикам сети и безопасности."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 73bcce4ec670f79547d8d5ee24d8e3dcec14e52b
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 21467e1c7f85cda5bdbfa68971119c8a6c0038bc
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>URL-адреса и диапазоны IP-адресов для Office 365
 =====================================
 
-Изучите следующий список актуальных IP-адресов и портов, которые требуется настроить: [URL-адреса и диапазоны IP-адресов для Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US). Корпорация Майкрософт непрерывно совершенствует службу Office 365 и добавляет в нее новые функции, поэтому со временем требуемые порты, URL- и IP-адреса могут меняться. Актуальные версии портов и протоколов указаны в руководстве [URL-адреса и диапазоны IP-адресов для Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). Настоятельно рекомендуется [подписаться через RSS](https://go.microsoft.com/fwlink/p/?linkid=236301), чтобы получать уведомления при обновлении или изменении конечных точек.
+Изучите следующий список актуальных IP-адресов и портов, которые требуется настроить: [URL-адреса и диапазоны IP-адресов для Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US). Корпорация Майкрософт непрерывно совершенствует службу Office 365 и добавляет в нее новые функции, поэтому со временем требуемые порты, URL- и IP-адреса могут меняться. Актуальные версии портов и протоколов указаны в руководстве [URL-адреса и диапазоны IP-адресов для Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). Настоятельно рекомендуется [подписаться через RSS](https://go.microsoft.com/fwlink/p/?linkid=236301), чтобы получать уведомления при обновлении или изменении конечных точек.
 
 Как было указано ранее, интерфейс звонков и собраний в Microsoft Teams основан на облачной инфраструктуре следующего поколения, которая также применяется в Skype и Skype для бизнеса. К таким технологическим нововведениям относятся облачные службы для обработки мультимедиа и сигнализации на основе Azure, видеокодек H.264, аудиокодек SILK и Opus, устойчивость сети, телеметрия и диагностика качества связи. Таким образом, в число требований входят URL- и IP-адреса, которые могут относиться как к Skype, так и к Skype для бизнеса.
 
 Для всех рабочих нагрузок Office 365 рекомендуемым способом подключения к Microsoft Teams является обход прокси-сервера переадресации, когда это возможно. Если прокси-сервер находится между клиентом и центрами обработки данных Office 365, мультимедийный трафик может принудительно передаваться по протоколу TCP вместо UDP, что негативно повлияет на качество связи. Примеры PAC-файлов прокси-сервера, позволяющие настроить обход трафика, можно скачать из руководства по [управлению конечными точками Office 365](https://support.office.com/article/managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a).
 
-Если вашим политикам сети и безопасности требуется, чтобы трафик Office 365 протекал через прокси-сервер, обязательно выполните описанные выше требования перед развертыванием Microsoft Teams в рабочей среде (см. статью [Прокси-серверы для Skype для бизнеса Online](https://support.office.com/en-us/article/Proxy-Servers-for-Skype-for-Business-Online-7acaf2c2-35fa-490f-84cd-822e446e0fc7?ui=en-US&rs=en-US&ad=US)).
+Если вашим политикам сети и безопасности требуется, чтобы трафик Office 365 протекал через прокси-сервер, обязательно выполните описанные выше требования перед развертыванием Microsoft Teams в рабочей среде (см. статью [Прокси-серверы для Skype для бизнеса Online](https://support.office.com/article/Proxy-Servers-for-Skype-for-Business-Online-7acaf2c2-35fa-490f-84cd-822e446e0fc7?ui=en-US&rs=en-US&ad=US)).

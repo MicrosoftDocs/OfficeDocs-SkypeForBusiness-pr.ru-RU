@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: lucarras
 description: "Сведения о добавлении ботов для приватного чата и каналов в Microsoft Teams, создании пользовательских ботов и загрузке собственного неопубликованного бота для приватного чата."
-ms.openlocfilehash: c7f2aec398728f310fab780e96d4df09e4b7f582
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 53758ae9d48ff04666e1f0e89272fca75289f0fc
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Добавление ботов для приватных чатов и каналов в Microsoft Teams
 ==========================================================
@@ -22,16 +25,10 @@ ms.lasthandoff: 12/20/2017
 
 Microsoft Teams позволяет использовать боты, разработанные сообществом. Для работы пользовательских ботов требуется включить боты и их загрузку на уровне клиента. Боты можно использовать в приватных чатах или каналах. В последних боты могут добавлять участники или владельцы команды.
 
-Дополнительные сведения см. в статье Using Bots (Использование ботов) раздела [Apps and services](https://support.office.com/en-us/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) (приложения и службы). 
+Дополнительные сведения см. в статье Using Bots (Использование ботов) раздела [Apps and services](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) (приложения и службы). 
 
 
 
-
-
-
-
-
- 
 
 <a name="create-custom-bots-for-microsoft-teams"></a>Создание пользовательских ботов для Microsoft Teams
 --------------------------------------

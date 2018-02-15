@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
+ms.reviewer: laal
 description: "Вы можете ознакомится с кратким описанием того, как пригласить гостя присоединиться к команде в Microsoft Teams."
-ms.openlocfilehash: e7e847fb4f45fa4f026889af16b82cf0a3c47c67
-ms.sourcegitcommit: fe3da7145039ce514fbaa9443a4a1b9879dd6264
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 2aa3e0d720dcab80acf558b84a50b605da2bd4d3
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="how-a-guest-joins-a-team"></a>Присоединение гостя к команде
 ========================
@@ -29,16 +32,16 @@ ms.lasthandoff: 12/20/2017
 
 Ниже описано, как гость может стать участником команды:
 
-- **Шаг 1.** Владелец команды или администратор Office 365 [добавляет гостя в команду](https://support.office.com/en-us/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests).
+- **Шаг 1.** Владелец команды или администратор Office 365 [добавляет гостя в команду](https://support.office.com/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests).
     
   
 - **Шаг 2.** При необходимости администратор Office 365 или владелец команды может управлять доступными гостю возможностями. Например, он может разрешить гостю добавлять или удалять каналы либо запретить ему доступ к файлам.
     
   
-- **Шаг 3.** Гость получает от владельца команды приветственное сообщение электронной почты с приглашением присоединиться к команде. Приняв приглашение, гость может [участвовать в деятельности команд и каналов](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), получать сообщения каналов и отвечать на них, [обращаться к файлам в каналах](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), а также общаться в чате. Во время работы с Teams участники команды явно уведомляются о наличии в команде гостя с помощью текстовых сообщений и значков. Дополнительные сведения см. в разделе [Взаимодействие с гостями](guest-experience.md).
+- **Шаг 3.** Гость получает от владельца команды приветственное сообщение электронной почты с приглашением присоединиться к команде. Приняв приглашение, гость может [участвовать в деятельности команд и каналов](https://support.office.com/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), получать сообщения каналов и отвечать на них, [обращаться к файлам в каналах](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), а также общаться в чате. Во время работы с Teams участники команды явно уведомляются о наличии в команде гостя с помощью текстовых сообщений и значков. Дополнительные сведения см. в разделе [Взаимодействие с гостями](guest-experience.md).
     
   
-Гости могут в любое время покинуть команду с помощью классического или веб-клиента Teams. Дополнительные сведения см. в разделе [Как покинуть команду?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
+Гости могут в любое время покинуть команду с помощью классического или веб-клиента Teams. Дополнительные сведения см. в разделе [Как покинуть команду?](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
 > Хотя пользователи могут сами покинуть команду, удалить пользователей из клиента может только администратор. 

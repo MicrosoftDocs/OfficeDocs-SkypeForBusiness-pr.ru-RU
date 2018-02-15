@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
+ms.reviwer: laal
 description: "Управление функциями и возможностями гостевого доступа Microsoft Teams ведется с помощью четырех разных уровней авторизации."
-ms.openlocfilehash: 86384a18fdea3d15bfb0bf6368a2529a05872371
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: de1ceee3b884b62680353eac11c94198024b927e
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Авторизация гостевого доступа в Microsoft Teams
 ===========================================
@@ -98,7 +101,7 @@ ms.lasthandoff: 12/20/2017
 
 - В SharePoint Online: **Only allow sharing with external users already in the directory (Разрешить общий доступ только с внешними пользователями, уже присутствующими в каталоге)**
     
-    Дополнительные сведения см. в статье [Управление внешним общим доступом для среды SharePoint Online](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).
+    Дополнительные сведения см. в статье [Управление внешним общим доступом для среды SharePoint Online](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).
     
   
 - В Группах Office 365: **Let group owners add people outside the organization to groups (Разрешить владельцам добавлять в группы людей извне организации)**
@@ -109,4 +112,4 @@ ms.lasthandoff: 12/20/2017
 Параметры выше применяются на уровне клиента и управляют взаимодействием с гостями в SharePoint Online, OneDrive для бизнеса, группах Office 365 и Microsoft Teams.
 
 
-Вы можете управлять параметрами внешних пользователей SharePoint Online для подключенного к Teams сайта группы. Дополнительные сведения см. в статье [Управление параметрами для сайта группы SharePoint](https://support.office.com/en-us/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).
+Вы можете управлять параметрами внешних пользователей SharePoint Online для подключенного к Teams сайта группы. Дополнительные сведения см. в статье [Управление параметрами для сайта группы SharePoint](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).

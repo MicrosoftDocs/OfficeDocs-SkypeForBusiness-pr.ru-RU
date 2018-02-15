@@ -6,20 +6,23 @@ manager: lolaj
 ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara, lolaj, rowille
 description: "Средства планирования, семинары и стартовые комплекты, которые помогут администратору начать работу с Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e14c16ddd71114e90af15174266f14bbbbc5982e
-ms.sourcegitcommit: 6f5fc17ffdc1ef3b3eec42e17f7bebda88cb000b
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cf4b7dad507ee10743df986ca6c489af2bf165b3
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/15/2018
 ---
 <a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>Инструменты и семинары. Планирование, развертывание и использование Microsoft Teams
 =============================================================
 
 Скачайте эти инструменты, которые помогут спланировать работу, развернуть и использовать приложение Teams в вашей организации.
 
-- [Комплект по началу работы с Microsoft Teams](http://microsoft.com/en-us/download/56505) 
+- [Комплект по началу работы с Microsoft Teams](http://microsoft.com/download/56505) 
     
     Это руководство содержит рекомендации по эффективному использованию Teams в различных подразделениях вашей организации, в том числе отделах маркетинга, продаж, финансов, управления персоналом, ИТ, разработки и управления проектами.
 
