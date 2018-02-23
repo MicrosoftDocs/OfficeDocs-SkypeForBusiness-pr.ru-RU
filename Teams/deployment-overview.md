@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "Узнайте, как выполнять развертывание Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 02901ea151d27dd520f5f541e78445b3082f9109
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 958d0a7d3de502a82ee3844379ed4433ae8e2075
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Обзор развертывания Microsoft Teams
 ========================================
@@ -55,4 +57,4 @@ ms.lasthandoff: 12/20/2017
 
  
 
-Чтобы отследить эти точки принятия решений, скачайте вопросник по техническому планированию [Quick start:](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[ ](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[Successfully enabling Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) (Краткое руководство по началу работы. Успешная активация Microsoft Teams).
+Чтобы отследить эти точки принятия решений, скачайте вопросник по техническому планированию [Quick start: Successfully enabling Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) (Краткое руководство по началу работы. Успешная активация Microsoft Teams).

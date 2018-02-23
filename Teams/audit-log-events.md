@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: "Узнайте, как извлекать данные Microsoft Teams из журнала аудита Office 365."
-ms.openlocfilehash: 229ddc5fb1e8a775524564c27ffeecce96483fe1
-ms.sourcegitcommit: 9f185be910855f6312344ea906e96e5e6449cf4c
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: c1980bb84138570d9e9a221d7ccdc0b8fc62d203
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Поиск событий Microsoft Teams в журнале аудита
 ==================================================
@@ -40,9 +43,9 @@ ms.lasthandoff: 01/23/2018
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>Извлечение данных Teams из журнала аудита
 
-1.  Для извлечения журналов аудита войдите в [Центр безопасности и соответствия требованиям](https://go.microsoft.com/fwlink/?linkid=855775). На вкладке **Search & Investigation** (Поиск и анализ) выберите **Audit log search** (Поиск в журнале аудита).
+1.  Для извлечения журналов аудита войдите в [Центр безопасности и соответствия требованиям](https://go.microsoft.com/fwlink/?linkid=855775). В разделе **Search & Investigation** (Поиск и анализ) выберите **Audit log search** (Поиск в журнале аудита).![Снимок экрана со страницей поиска по журналу аудита в Центре безопасности и соответствия требованиям.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
-![Снимок экрана со страницей поиска журнала аудита в Центре безопасности и соответствия требованиям.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+
 
 2.  Используйте **Search** (Поиск) для фильтрации по действиям, датам и пользователям, по которым необходим аудит.
 

@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: arachman
 description: "Сведения о подготовке сети Microsoft Teams и управлении ею. Здесь приведены требования к сети и пропускной способности, а также дополнительные рекомендации."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a89d4f201a0ea8f9392146e23629e6dd671bb7c3
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: db9dc97d117ad1844d56c59191bb92ec496a9a83
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams
 =================================================
@@ -70,7 +73,7 @@ Microsoft Teams сочетает в себе три формы трафика:
 |---------|---------|---------|---------|
 |**Одноранговый звонок**     |0,1 Мбит         |0,1 Мбит         |Клиент <> клиент         |
 |**Одноранговый видеозвонок (на весь экран)**     |4 Мбит         |4 Мбит         |Клиент <> клиент          |
-|**Одноранговый совместный доступ к рабочему столу (разрешение 1920*1080)**     |4 Мбит         |4 Мбит         |Клиент <> клиент          |
+|**Одноранговая демонстрация рабочего стола (разрешение 1920 х 1080)**     |4 Мбит         |4 Мбит         |Клиент <> клиент          |
 |**Собрание с 2 участниками**     |4 Мбит         |4 Мбит         |Клиент <> Office 365         |
 |**Собрание с 3 участниками**     |8 Мбит         |6,5 Мбит         |Клиент <> Office 365           |
 |**Собрание с 4 участниками**     |5,5 Мбит         |4 Мбит         |Клиент <> Office 365           |

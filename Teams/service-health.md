@@ -7,11 +7,13 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Рекомендуется проверять работоспособность службы Teams, а также других компонентов Office 365, например Exchange, SharePoint и OneDrive для бизнеса."
-ms.openlocfilehash: 25f25347e78751104da9574a5e9d3932da82e2a7
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: d345fb1c805c0df684fe75bb1d8a2ef43b90114f
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Проверка работоспособности службы для Microsoft Teams
 ===========================================

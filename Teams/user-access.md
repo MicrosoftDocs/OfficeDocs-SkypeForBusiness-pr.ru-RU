@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ritikag
 description: "Сведения о том, как включить или отключить доступ на уровне пользователей для отдельных лиц."
-ms.openlocfilehash: 66ec29077b83b799c85acce1b5869b82fb0b83f7
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 318d9467bf1565a50987b6716f2b0a1ad86999bf
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Управление доступом пользователей к Microsoft Teams
 =====================================
@@ -37,25 +40,33 @@ ms.lasthandoff: 12/20/2017
 
 Кроме Центра администрирования Office 365, для назначения и удаления лицензий вы можете использовать PowerShell в Office 365. Чтобы назначить лицензию пользователю, используйте следующий синтаксис:
 
-Set-MsolUserLicense -UserPrincipalName "\<учетная_запись\>" -AddLicenses "\<код_SKU_учетной_записи\>"
+```
+Set-MsolUserLicense -UserPrincipalName "\<Account\>" -AddLicenses "\<AccountSkuId\>"
+```
 
 Следующий пример назначает лицензию из плана лицензирования litwareinc:ENTERPRISEPACK (Office 365 корпоративный E3) пользователю без лицензии belindan@litwareinc.com.
 
+```
 Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-Дополнительные сведения и примеры см. в статье [*Назначение лицензий учетным записям пользователей с помощью PowerShell в Office 365*](https://go.microsoft.com/fwlink/?linkid=855755).
+Дополнительные сведения и примеры: [Назначение лицензий для учетных записей пользователей с помощью PowerShell в Office 365](https://go.microsoft.com/fwlink/?linkid=855755).
 
 Чтобы удалить лицензию из существующей учетной записи пользователя, используйте следующий синтаксис:
 
-Set-MsolUserLicense -UserPrincipalName \<учетная_запись\> -RemoveLicenses "\<код_SKU_учетной_записи_1\>", "\<код_SKU_учетной_записи_2\>"
+```
+Set-MsolUserLicense -UserPrincipalName \<Account\> -RemoveLicenses "\<AccountSkuId1\>", "\<AccountSkuId2\>"
+```
 
 Следующий пример удаляет лицензию litwareinc:ENTERPRISEPACK (Office 365 корпоративный E3) из учетной записи пользователя BelindaN@litwareinc.com.
 
+```
 Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-Дополнительные сведения и примеры см. в статье [*Удаление лицензий из учетных записей пользователей с помощью PowerShell в Office 365*](https://go.microsoft.com/fwlink/?linkid=855756).
+Дополнительные сведения и примеры: [Использование PowerShell в Office 365 для удаления лицензий из учетных записей пользователей](https://go.microsoft.com/fwlink/?linkid=855756).
 
 | | | |
 |---------|---------|---------|
 |![Значок для точки принятия решений.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Точка принятия решений         |<ul><li>Каков план вашей организации по повсеместной адаптации Microsoft Teams  (в пилотном или открытом режиме)?</li></ul>         |
-|![Значок дальнейших действий.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Дальнейшие действия         |<ul><li>Если адаптация планируется в закрытом пилотном режиме, определите, будет ли это реализовано с помощью лицензирования либо адресного взаимодействия.</li><li>При необходимости примите соответствующие меры, чтобы предоставить доступ к Microsoft Teams только пользователям пилотного проекта.</li><li>Задокументируйте указания относительно того, какие пользователи будут (или не будут) иметь доступ к Microsoft Teams.</li></ul>         |
+|![Значок дальнейших действий.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Дальнейшие действия         |<ul><li>Если адаптация планируется в закрытом пилотном режиме, определите, будет ли это реализовано с помощью лицензирования либо адресного взаимодействия.</li><li>При необходимости примите соответствующие меры, чтобы предоставить доступ к Microsoft Teams только пользователям пилотного проекта.</li><li>Задокументируйте указания относительно того, какие пользователи будут (или не будут) иметь доступ к Microsoft Teams.</li></ul>         |

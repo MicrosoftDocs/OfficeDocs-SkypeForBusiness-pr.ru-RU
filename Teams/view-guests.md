@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
+ms.reviwer: laal
 description: "Вы можете узнать, как администратор может просматривать информацию о гостевых пользователях в Microsoft Teams."
-ms.openlocfilehash: 4e53b15e40f3b3e96a66baf6a87ab6eebe4db517
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: c06872f551d6468d781e8304b4b5713924eee855
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="view-guest-users-in-a-team"></a>Просмотр гостевых пользователей к команде
 ==========================

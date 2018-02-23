@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 10/05/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: MyAdvisor, dearbeen
 description: "Мы расскажем обо всем, что нужно знать для перехода со Skype для бизнеса Online на Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: af0204d5eb1edd7b58aee5c8f913a8b5404b295f
-ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: f006e0a26fc2899da0c3cebc7aa100c0a910c739
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Переход со Skype для бизнеса на Microsoft Teams
 ==================================================
@@ -21,7 +24,7 @@ ms.lasthandoff: 01/09/2018
 
 Ознакомьтесь со [стратегией по продукту Teams](https://aka.ms/TeamsRoadmap), чтобы узнать о дальнейших планах и выбрать оптимальный момент для перехода на Teams.
 
-Чтобы оставаться в курсе новостей о переходе со Skype для бизнеса на Microsoft Teams, изучите скачиваемый PDF-файл [Skype for Business to Microsoft Teams Capabilities Roadmap (Переход со Skype для бизнеса на Microsoft Teams: стратегия внедрения возможностей)](https://aka.ms/skype2teamsroadmap). Пока что он доступен только на английском языке. Этот PDF-файл рассказывает, чего сейчас ожидает корпорация Майкрософт в отношении переноса возможностей Skype для бизнеса в Microsoft Teams.
+Чтобы оставаться в курсе новостей о переходе со Skype для бизнеса на Microsoft Teams, скачайте PDF-файл [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) (Переход со Skype для бизнеса на Microsoft Teams: стратегия внедрения возможностей). Пока что он доступен только на английском языке. Этот PDF-файл рассказывает, чего сейчас ожидает корпорация Майкрософт в отношении переноса возможностей Skype для бизнеса в Microsoft Teams.
 
 Для обеспечения оптимальных результатов рекомендуем вам следовать указанному ниже плану:
 
