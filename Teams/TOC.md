@@ -5,6 +5,7 @@
 ## [Лицензирование Office 365 для Teams](Office-365-licensing.md)
 ## [Обзор команд и каналов в Teams](teams-channels-overview.md)
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
+## [Руководство: создание охватывающей всю компанию команды с помощью PowerShell](Company-wide-team-creation-powershell.yml)
 ## [Группы Office 365 и Teams](Office-365-groups.md)
 ## [Взаимодействие Exchange и Teams](Exchange-Teams-interact.md)
 ## [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](SharePoint-OneDrive-interact.md)
@@ -36,11 +37,13 @@
 ## [Управление доступом пользователей к Teams](user-access.md)
 ## [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
 ## [Настройка гибридной организации для работы с Teams](Exchange-hybrid-organization.md)
+## [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ## [Добавление домена SMTP Teams в качестве обслуживаемого в Exchange Online](SMTP-accepted-domain.md)
 ## [Использование встроенных и настраиваемых вкладок в Teams](built-in-custom-tabs.md)
 ## [Использование Office 365 и настраиваемых соединителей в Teams](Office-365-custom-connectors.md)
 ## [Добавление ботов для приватных чатов и каналов в Teams](add-bots.md)
 ## [Параметры администратора для приложений в Teams](admin-settings.md)
+## [Создание охватывающей всю компанию команды с помощью PowerShell](Company-wide-team-creation-powershell.yml)
 ## [Справочник по командлетам PowerShell для Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
 
 
@@ -61,10 +64,10 @@
 ### [Выработка концепции](audio-conferencing.md#Envision_AudioConferencing)
 ## [Телефонная система с планами звонков](phone-system-with-calling-plans.md)
 ### [Выработка концепции](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
-## Краткие руководства по началу работы
-### [Configure Calling Plans (Настройка планов звонков)](configuring-teams-calling-quickstartguide.md)
-## Видео
-### [Аудиоконференции](audio-conferencing-videos.md)
+## Планы звонков
+### [Краткое руководство. Настройка планов звонков](configuring-teams-calling-quickstartguide.md)
+### [Общие сведения о звонках в Microsoft Teams](Tutorial-Calling-in-Teams.yml)
+
 
 # [Переход со Skype для бизнеса на Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1. Оптимизация имеющейся среды Skype для бизнеса для перехода на Teams.](prepare-teams.md)
@@ -73,6 +76,7 @@
 ## [4. Извлечение выгоды за счет освоения Teams пользователями.](continue-journey.md)
 ## [Вопросы и ответы. Концепция Skype для бизнеса и Teams](FAQ-journey.md)
 ## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 
 # Видеоролики и учебные материалы
 ## [Подготовка ИТ-администратора к использованию Teams](ITAdmin-readiness.md)
