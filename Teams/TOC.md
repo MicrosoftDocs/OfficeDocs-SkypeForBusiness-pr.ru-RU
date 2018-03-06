@@ -20,6 +20,7 @@
 ## [Обзор развертывания Teams](deployment-overview.md)
 ## [Планирование использования групп Office 365 при создании команд в Teams](plan-Office-365-groups.md)
 ## [Подготовка сети организации к использованию Teams](prepare-network.md)
+## [Качество обслуживания (QoS) в Teams](QoS-in-Teams.md)
 ## [URL-адреса и диапазоны IP-адресов для Office 365](Office-365-URLs-IP-address-ranges.md)
 ## [Инструменты и семинары. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
 
@@ -61,9 +62,7 @@
 
 # [Облачная система голосовой связи](cloud-voice-deployment.md)
 ## [Аудиоконференции](audio-conferencing.md)
-### [Выработка концепции](audio-conferencing.md#Envision_AudioConferencing)
 ## [Телефонная система с планами звонков](phone-system-with-calling-plans.md)
-### [Выработка концепции](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
 ## Планы звонков
 ### [Краткое руководство. Настройка планов звонков](configuring-teams-calling-quickstartguide.md)
 ### [Общие сведения о звонках в Microsoft Teams](Tutorial-Calling-in-Teams.yml)
@@ -98,6 +97,7 @@
 ## [Проверка работоспособности службы для Teams](service-health.md)
 ## [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
 ## [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
+
 
 # Teams для образовательных учреждений
 ## [Краткое руководство администратора — Teams для образовательных учреждений](Teams-quick-start-edu.yml)

@@ -2,18 +2,18 @@
 title: "Использование П-бота для помощи пользователям с Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Пользователи могут взаимодействовать с П-ботом, задавая ему вопросы о работе с Microsoft Teams."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a641c05b1c2efa0f095e1de46309397435d1b4c3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: f8a274f9ee44536129bb8bf97629351e011b2fe9
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="use-t-bot-to-help-users-with-microsoft-teams"></a>Использование П-бота для помощи пользователям с Microsoft Teams
 ============================================

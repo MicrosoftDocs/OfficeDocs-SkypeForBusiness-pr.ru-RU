@@ -2,7 +2,7 @@
 title: "Практическое руководство по телефонной системе с планами звонков в Microsoft Teams"
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "Практическое руководство по планир�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e476956c98e074306f971d58ad6dc9aab6aec0b
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: a5ed92ed1fd156279c32c2627b85eca170a457f0
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Практическое руководство по телефонной системе с планами звонков в Microsoft Teams
 =========================================================================
@@ -320,7 +320,7 @@ ms.lasthandoff: 02/03/2018
 
 Вы можете получить телефонные номера напрямую у корпорации Майкрософт любым из следующих способов.
 
-- Использование [Центра администрирования Skype для бизнеса](https://support.office.com/en-us/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
+- Использование [Центра администрирования Skype для бизнеса](https://support.office.com/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
 - [Удаленные командлеты Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 - [Отправка формы запроса новых телефонных номеров][https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb).
 

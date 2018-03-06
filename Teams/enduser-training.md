@@ -2,7 +2,7 @@
 title: "Обучение конечных пользователей для работы с Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviewer: lolaj, ninadara
 description: "Учебные ресурсы, которые администратор может использовать для развертывания и внедрения Microsoft Teams."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e1af76ead0cedd411000fcedc162662c9e29775
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
+ms.openlocfilehash: d9889e88f031abc08a5052e87f8cffcfa814a42b
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Обучение конечных пользователей для работы с Microsoft Teams
 =====================================
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/09/2018
 | [Канал о Microsoft Teams на YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [Канал Coffee in the Cloud на YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Видеоролики с практическими руководствами, рекомендациями и обзорами функций  |
 | Введение в Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>   |
-| Настройка команд, каналов и вкладок за 5 минут   | <iframe width="350" height="200" src="https://youtu.be/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| Настройка команд, каналов и вкладок за 5 минут   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 29
 
 

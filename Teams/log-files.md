@@ -2,18 +2,18 @@
 title: "Использование файлов журналов для устранения неполадок в Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Сведения о журналах отладки, мультимедиа и рабочих журналах, создаваемых Microsoft Teams, их расположении и роли при устранении неполадок."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bef400cd5838848a0eb25f709e930611fac9ed6d
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 51cac5707b6465b2de4c1c69fdd430914769bb91
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Использование файлов журналов для устранения неполадок в Microsoft Teams
 =================================================
@@ -40,7 +40,7 @@ ms.lasthandoff: 02/03/2018
 |Android     |-         |-         |-         |
 |Windows Phone     |-         |-         |-         |
 
-Полный список поддерживаемых операционных систем и браузеров см. в [вопросах и ответах по Microsoft Teams](https://support.office.com/en-US/article/Frequently-asked-questions-about-Microsoft-Teams-%E2%80%93-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc).
+Полный список поддерживаемых операционных систем и браузеров см. в статье [Работа с клиентами для Microsoft Teams](get-clients.md).
 
 <a name="debug-logs"></a>Журналы отладки
 ---------------------------

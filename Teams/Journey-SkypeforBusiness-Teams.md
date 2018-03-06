@@ -2,7 +2,7 @@
 title: "Переход со Skype для бизнеса на Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 10/05/2017
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "Мы расскажем обо всем, что нужно зна�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f006e0a26fc2899da0c3cebc7aa100c0a910c739
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 81e016fd16e4f651515cdb56a18662e538dc4038
+ms.sourcegitcommit: 4f72e9fd65a2f759752fde5169d1152d0f5ce39c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/20/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Переход со Skype для бизнеса на Microsoft Teams
 ==================================================
@@ -42,10 +42,11 @@ ms.lasthandoff: 02/03/2018
 ### <a name="see-also"></a>См. также
 [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
-[Вопросы и ответы. Концепция Skype для бизнеса и Microsoft Teams](FAQ-journey.md)
-[Переход со Skype для бизнеса на Microsoft Teams: cтратегия внедрения возможностей](https://aka.ms/skype2teamsroadmap)
+[Вопросы и ответы. Концепция Skype для бизнеса и Teams](FAQ-journey.md)
 
 [Переход со Skype для бизнеса на Microsoft Teams: cтратегия внедрения возможностей](https://aka.ms/skype2teamsroadmap)
+
+[Переход со Skype для бизнеса на Microsoft Teams: стратегия внедрения возможностей](https://aka.ms/skype2teamsroadmap)
 
 
 

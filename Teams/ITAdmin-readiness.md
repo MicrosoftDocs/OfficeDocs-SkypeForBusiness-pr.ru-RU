@@ -2,18 +2,20 @@
 title: "Обучение ИТ-администратора для работы с Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Учебные видеоролики, знакомящие администраторов с Microsoft Teams и поясняющие процесс планирования, развертывания и использования для этого продукта."
+ms.custom:
+- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 550c306e80bcb76dc9c232bb3152b4514c3f7332
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
+ms.openlocfilehash: 1f5c37becb8fd82953e07dc948e82a51b7c9cf6e
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 ==================================
@@ -32,7 +34,7 @@ ms.lasthandoff: 02/11/2018
 | Подробный обзор гостевого доступа <br>Семинар Coffee in the Cloud с Laith Al и Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | Обнаружение электронных данных в Microsoft Teams <br> Семинар Coffee in the Cloud с Ansuman Acharya и Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Teams: пошаговый обзор внедрения, использования и управления <br> Семинар Microsoft Mechanics с Dan Stevenson и Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-
+| Настройка приложений в Microsoft Teams <br> Семинар Coffee in the Cloud с Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 
 

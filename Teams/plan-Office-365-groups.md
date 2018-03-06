@@ -2,7 +2,7 @@
 title: "Планирование использования групп Office 365 при создании команд в Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "Сведения о решениях, которые требуе�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b421d2a87a6c70f1d663366b65a47d35260b484
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: aa8cc431c3bed8fcb332bad05228de6410177fee
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Планирование использования групп Office 365 при создании команд в Microsoft Teams
 ==========================================================

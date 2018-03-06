@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: d2576d254865e7f97ff614cc80689d952d8a3997
-ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.openlocfilehash: b58c4759fc66bd9f573123bebf1772609a7a79e2
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Материалы Office на сайте docs.microsoft.com
 ## <a name="this-is-a-level-2-heading"></a>Это заголовок второго уровня
@@ -19,16 +19,18 @@ ms.lasthandoff: 01/17/2018
 3. элемент 4
 
 
+заменить на тестовый файл
 
 
+Вы можете "обмануть" таблицу Markdown при помощи символов HTML и тега перевода строки, чтобы она выглядела, как будто содержит маркированный список.
 
-sasdfsdf para1
+| Ячейка заголовка1 | Ячейка заголовка2 |
+| ---          | ---          |
+| Ячейка контента |вводный текст <br>&nbsp;&nbsp;&nbsp; &bull;&nbsp;&nbsp; элемент списка1<br> &nbsp;&nbsp;&nbsp; &bull;&nbsp;&nbsp; элемент списка2     |
+| Ячейка контента | Ячейка контента |
 
-para2
-
-**para3**
-
-
+<p>Отобразится &#9744;</p>
+<p>Отобразится &#x2610;</p>
 
 
 Контент Microsoft Teams теперь доступен.
