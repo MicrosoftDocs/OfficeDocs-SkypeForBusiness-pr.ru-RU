@@ -12,18 +12,18 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - NewAdminCenter_Update
-ms.openlocfilehash: 3e0cc06fbd0e97446371508270d02d02b1daa727
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: ad8a9324b2b3ca8c4a832cfd65308a2ed743e867
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/01/2018
 ---
 <a name="quick-start-guides-for-microsoft-teams-admins"></a>Краткие руководства по началу работы для администраторов Microsoft Teams
 =====================================
 
 Эти краткие руководства помогут быстро настроить и внедрить Teams в вашей организации. 
 
-[Quick start: Успешная активация Teams](quick-start-enable-Teams.md)
+[Краткое руководство по началу работы для администраторов](quick-start-enable-Teams.md)
 
 [Настройка планов звонков](configuring-teams-calling-quickstartguide.md)
 
