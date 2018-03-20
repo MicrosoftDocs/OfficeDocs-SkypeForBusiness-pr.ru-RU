@@ -1,7 +1,7 @@
 ---
-redirect_url: accessibility-and-regulatory
+redirect_url: audio-conferencing-in-office-365
 redirect_document_id: 
-ms.openlocfilehash: 2c39ddd21b6b1ccccd7e36c503279d12fa041f04
+ms.openlocfilehash: d8e98ef9459a063056c6903b59a7852a06327cac
 ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
