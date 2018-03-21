@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Австралии."
-ms.openlocfilehash: 7cc3be9976f0a581618cc93b835fceadab302717
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
+ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="availability-in-australia"></a>Доступность в Австралии
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 03/20/2018
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
-| Автосекретари <br/> |Доступно  <br/> |
+|Автосекретари <br/> |Доступно  <br/> |
 |Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
    
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/20/2018
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение планов звонков?  <br/> |Да, содержатся в [Telstra службы](http://aka.ms/TelstraVoicePlan).  <br/> |
+|Доступно ли приобретение планов звонков?  <br/> |Да, просмотрите [Telstra услуг голосовой связи](http://aka.ms/TelstraVoicePlan).  <br/> |
 |Доступные минуты для планов звонков  <br/> |В разделе [Telstra служб](http://aka.ms/TelstraVoicePlan). <br/> |
 |Кому можно делать исходящие звонки?  <br/> |В разделе [Telstra служб](http://aka.ms/TelstraVoicePlan). <br/> |
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 03/20/2018
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
-Если вы хотите получить международную и бесплатных номеров телефонов для автосекретарей и очереди вызовов, содержатся в [Telstra службы](http://aka.ms/TelstraVoicePlan). Для аудиоконференции, [свяжитесь с нами](mailto:ptnapac@microsoft.com).
+Если вы хотите получить международную и бесплатных номеров телефонов для автосекретарей и очереди вызовов, видеть [Telstra услуг голосовой связи](http://aka.ms/TelstraVoicePlan). Для службы номера аудиоконференций, [свяжитесь с нами](mailto:ptnapac@microsoft.com).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
