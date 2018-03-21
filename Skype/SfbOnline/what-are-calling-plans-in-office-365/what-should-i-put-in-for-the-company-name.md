@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Что следует поместить в компании Скайп для бизнеса, и где его найти. "
-ms.openlocfilehash: 875ae462ad2ade0e486adb90c06bcd3463465fbc
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 3bde0daaebdaf6a3f615629c2d23f083e84e6465
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="what-should-i-put-in-for-the-company-name"></a>Что следует хранить в поле имя компании?
 
@@ -46,3 +46,5 @@ ms.lasthandoff: 02/19/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

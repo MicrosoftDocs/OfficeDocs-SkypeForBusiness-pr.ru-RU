@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 5412636c-ad0e-48a5-b199-5925156abee4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Просмотрите инструкции по изменению экстренных адрес для пользователя для работы с общей переключения телефонной сети общего пользования (PSTN) в США и Европе. "
-ms.openlocfilehash: c30f4711609cf02b9614df21c1c62a826ec2421e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b67d6d20560ca2be1f4a2d19d86acd7afb499ff1
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Изменение экстренных адреса для пользователя
 
@@ -68,3 +70,6 @@ ms.lasthandoff: 02/19/2018
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

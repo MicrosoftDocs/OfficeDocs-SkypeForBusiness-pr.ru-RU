@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - SMB
 description: "Можно включить Скайп вещания собрания и внести изменения в параметры и политики для них."
-ms.openlocfilehash: de3d37b288a41510e4b1ec30271c66bd6dfc0aae
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b61a03178086699a8b5fc27ebc00f1c6b6f72021
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Вносить изменения в параметры вещания собрания Скайп для вашей организации
 
@@ -43,3 +43,5 @@ ms.lasthandoff: 02/19/2018
 
 [Настройка сети для трансляции собраний Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

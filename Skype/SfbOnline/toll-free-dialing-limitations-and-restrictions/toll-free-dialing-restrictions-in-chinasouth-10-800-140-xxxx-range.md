@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: "Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона."
-ms.openlocfilehash: 086072d53c5f13e5af059dfe2b9ceb60f60aac34
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 2fafe1a644c8a0757ff342d18fdae993a1f6beb2
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>Бесплатный номер набору номера, ограничения в Китае - Юг (10 800 140 диапазон XXXX)
 
@@ -47,3 +47,6 @@ ms.lasthandoff: 02/19/2018
 [Бесплатный номер набору номера, ограничения и ограничения](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

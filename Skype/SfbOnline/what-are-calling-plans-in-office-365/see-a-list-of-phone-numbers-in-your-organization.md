@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Узнайте, как просмотреть список всех номеров телефона в вашей организации, все номера, назначенная для пользователей и все номера, назначенные пользователям голосовой связи из Скайп по центру администрирования бизнеса."
-ms.openlocfilehash: b7ed36308e91d3ff93126355c604b48a92eaa61a
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 1bc5b27e97702ca0d61a637f08aab5a03b57cd57
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Список номеров телефона в вашей организации
 
@@ -108,4 +110,5 @@ ms.lasthandoff: 02/19/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

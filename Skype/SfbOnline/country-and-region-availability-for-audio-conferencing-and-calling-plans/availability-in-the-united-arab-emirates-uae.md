@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Объединенные Арабские Эмираты."
-ms.openlocfilehash: 3199b98127898314b185a42a05e8c59043e9e47c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 84df65cf9b4190ef49281048db5bc4fcc930f5a2
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>Доступность в Объединенные Арабские Эмираты (ОАЭ)
 
@@ -83,3 +83,5 @@ ms.lasthandoff: 02/19/2018
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

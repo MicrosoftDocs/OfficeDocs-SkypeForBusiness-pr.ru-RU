@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Узнайте распространенные причины для Скайп для бизнеса в Интернет входа ошибок и работы через устранения неполадок. "
-ms.openlocfilehash: aa5069e5fd5bf40ebd460c03b72ce8d9327da6d2
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a30375b54db5ef02756253e9419c2cb54f8f2f8b
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение неполадок Скайп для бизнеса в Интернет ошибки для администраторов
 
@@ -214,3 +214,6 @@ ms.lasthandoff: 02/19/2018
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: b0d2b50e-def3-4bd8-82d4-a27f4b6f205c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "При настройке аудиоконференций для Скайп для бизнеса и группами Майкрософт, необходимо выбрать поставщика аудиоконференций. Вы можете Майкрософт или третьей стороны как поставщика аудиоконференций."
-ms.openlocfilehash: 680f938750c96d93c94ce7530bca9ff247a06324
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e2b08b9d5db41cd9f6a0bff6d000c65ecbe6dfba
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="compare-audio-conferencing-providers"></a>Сравнение поставщиков аудиоконференций
 
@@ -82,4 +84,3 @@ ms.lasthandoff: 02/19/2018
 ## <a name="related-topics"></a>See also
 
 [Конференц-связь с телефонным подключением в Office 365](set-up-audio-conferencing.md)
-

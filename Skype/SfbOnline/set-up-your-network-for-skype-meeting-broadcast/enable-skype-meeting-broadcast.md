@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - SMB
 description: "Чтобы обеспечить доступ пользователей к Широковещательный показ собраний в Skype, ее необходимо включить. Для этого требуются навыки работы с Windows PowerShell. Если вы не имеете опыта работы с Windows PowerShell, мы рекомендуем обратиться для выполнения этих действий к партнеру Майкрософт."
-ms.openlocfilehash: 3748ca75efcaed479e27fe253c5b3a8399e381d6
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a220f6809aec764b4ad83ca49926dcc919a8fbe3
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собраний Skype
 
@@ -100,3 +100,5 @@ ms.lasthandoff: 02/19/2018
   
 [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

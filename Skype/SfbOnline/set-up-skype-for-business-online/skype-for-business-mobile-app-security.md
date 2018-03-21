@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Сведения по настройке безопасности мобильных приложений для пользователей. "
-ms.openlocfilehash: 150eb50c4e2c57b3e51b9400d9fdb79d49990174
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 98a748ca626d9b27a3e75ce5d75641155af7853d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Скайп безопасности Business мобильного приложения
 
@@ -42,3 +42,6 @@ ms.lasthandoff: 02/19/2018
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

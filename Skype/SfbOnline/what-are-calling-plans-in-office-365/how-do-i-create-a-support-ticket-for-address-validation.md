@@ -20,11 +20,11 @@ f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
 description: "Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могут использовать экстренные службы."
-ms.openlocfilehash: 3d6ab2d8b21b3ea2a85b3d7a2379cd5589cb392c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 9c5da69771db1d0ab743d865c3171018a0298fee
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Создание запроса в службу поддержки на проверку адреса
 
@@ -107,3 +107,6 @@ ms.lasthandoff: 02/19/2018
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Сведения, которые можно и нельзя использовать в Скайп для бизнеса центра администрирования и других функций при службы переносится в другом центре обработки данных Майкрософт. "
-ms.openlocfilehash: b310bdc431edb890002bebd8d79271c78b841b38
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e9d0f2b56ebe11ef95b59ff125434dcf3dd4574d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Почему не удается использовать Скайп для бизнеса в Интернет центра администрирования на данный момент?
 
@@ -67,3 +67,6 @@ ms.lasthandoff: 02/19/2018
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

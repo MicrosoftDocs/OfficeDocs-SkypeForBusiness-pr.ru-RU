@@ -4,12 +4,14 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
+ms.date: 03/13/2018
 ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: "Узнайте, какие языки можно установить по умолчанию для системных сообщений в Skype для бизнеса. "
-ms.openlocfilehash: 256bc49c67ffbbfc4a503ffaf621cd4bb82b0c07
-ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
-ms.translationtype: HT
+ms.openlocfilehash: bb1a4d1caaf7b2d85fa00804288eadc2588997e1
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Языки, используемые для приветствий в голосовой почтые и сообщений
 
@@ -61,9 +63,12 @@ ms.lasthandoff: 01/25/2018
 |Испанский  <br/> |Испания  <br/> |es-ES  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |Испанский  <br/> |Мексика  <br/> |es-MX  <br/> |Да, но используется испанский (Испания) — es-ES.  <br/> |Да  <br/> |Да, но используется испанский, (Испания) — (es-ES).  <br/> |
 |Шведский  <br/> |Швеция  <br/> |sv-SE  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
+|Турецкий  <br/> |Турция  <br/> |tr-TR  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
    
 ## <a name="related-topics"></a>См. также:
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Возможности телефонной системы в Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
   
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

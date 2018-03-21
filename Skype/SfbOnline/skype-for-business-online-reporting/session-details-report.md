@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "Новая панель мониторинга отчетов Office 365 показывающий обзор действий по продуктов Office 365 в вашей организации. Он позволяет работать отдельных продуктов уровня отчетами, чтобы предоставить более детальные сведения о действия в рамках каждого продукта."
-ms.openlocfilehash: 849bccd0b56ffe99a77a251989307f8528206fd9
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 3760a5dc6caf3ebf5f70290031f1014af9e04ef6
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="session-details-report"></a>Отчет о сеансе
 
@@ -118,3 +118,6 @@ Office 365 **отчеты** панели мониторинга показыва
     
 ## <a name="related-topics"></a>See also
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

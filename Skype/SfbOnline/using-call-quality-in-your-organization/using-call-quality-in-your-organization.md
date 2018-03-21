@@ -20,7 +20,7 @@ ms.custom:
 - Reporting
 description: "Настройка и использование вызова Analytics для выявления и устранения неполадок Скайп для бизнеса и группами Майкрософт проблемы с качеством вызовов."
 ms.openlocfilehash: 32900eb98ce4ea25602ed748fc750427b795d313
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/19/2018

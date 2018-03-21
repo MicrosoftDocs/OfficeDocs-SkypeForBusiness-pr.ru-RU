@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Настройка приглашения на собрания Скайп рисунок, связанный с эмблем, справки и юридических URL-адреса и текст нижнего колонтитула. "
-ms.openlocfilehash: 9d53c59b574cd21333c8749ee2868e918f6bbe6f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 374060876bcf12c5d7283586d3a04710a9b203b4
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="customize-meeting-invitations"></a>Настройка приглашения на собрания
 
@@ -73,3 +73,5 @@ ms.lasthandoff: 02/19/2018
 
 [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
 
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "В Скайп для бизнеса в Интернет у вас есть возможность управления передачу файлов между узлами (P2P) как часть существующие параметры политики конференц-связи. Тем не менее это позволяет или передача для пользователей, ли они передачу файлов, пользователь, который находится в пределах той же организации или федеративного пользователя из другой организации файлов блоки. Следующие шаги можно заблокировать P2P передачи файлов с федеративными организациями или партнеров."
-ms.openlocfilehash: 288bec32d55d9784690d84b8daa205dd33568847
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e7b3542cfef3b4dd9b663db0aa056e52fccf021d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="block-point-to-point-file-transfers"></a>Передача файлов блока точка-точка
 
@@ -125,3 +125,5 @@ ms.lasthandoff: 02/19/2018
 
 [Настройка политик конференц-связи в вашей организации](set-up-conferencing-policies-for-your-organization.md)
 
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

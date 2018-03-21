@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. '
-ms.openlocfilehash: 5a3af14d7bf507a50ab7d007a066e3bd42d90c50
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 09600c29d2df0299f326e64f75c6b4b7e5ee5178
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Развертывание клиента Skype для бизнеса в среде Office 365
 
@@ -153,4 +153,5 @@ ms.lasthandoff: 02/19/2018
   
 [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

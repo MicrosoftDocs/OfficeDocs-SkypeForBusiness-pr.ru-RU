@@ -1,0 +1,154 @@
+---
+title: "Скачайте и установите Windows PowerShell 3.0"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 01/22/2018
+ms.topic: article
+ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- PowerShell
+- LIL_Placement
+description: Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online.
+ms.openlocfilehash: 28f4db7492c233f5cfa16137d77ed8e0dc4a6572
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/27/2018
+---
+# <a name="download-and-install-windows-powershell-30"></a>Скачайте и установите Windows PowerShell 3.0
+
+[] Если вы используете Windows 8.1, Windows 8, Windows Server 2012 R2 или Windows Server 2012, у вас уже должна быть установлена версия Windows PowerShell 3.0, которая входит в состав этих операционных систем. 
+  
+Если вы работаете с Windows 7 или Windows Server 2008 R2, у вас также может быть установлена версия Windows PowerShell 3.0. Тем не менее вместо нее может использоваться версия 2.0, которая изначально поставлялась в составе этих операционных систем. Чтобы узнать, какую версию Microsoft PowerShell вы используете, выполните следующие действия на компьютере под управлением ОС Windows 7 или Windows Server 2008 R2:
+  
+1. В меню **Пуск** последовательно выберите пункты **Все программы**, **Стандартные**, **Windows PowerShell** и затем щелкните **Windows PowerShell**.
+    
+2. В консоли PowerShell введите следующую команду и нажмите клавишу ВВОД:
+    
+    ```
+   Get-Host | Select-Object Version
+   ```
+
+3. В окне консоли должна появиться информация примерно следующего вида:
+    
+    ```
+    Version
+    -------
+    3.0
+    ```
+
+    Если возвращается номер версии 3.0, значит вы используете Windows PowerShell 3.0. В противном случае вам необходимо установить Windows PowerShell 3.0. Для этого можно скачать платформу Windows Management Framework 3.0, в состав которой входит среда Windows PowerShell 3.0, из [Центра загрузки Майкрософт](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
+  
+Если вы убедились, что у вас установлена версия Windows PowerShell 3.0, необходимо проверить, настроена ли версия PowerShell для работы с удаленно исполняемыми сценариями. Для этого запустите приложение PowerShell от имени администратора. В ОС Windows 7, Windows Server 2008 R2, Windows Server 2012 или Windows Server 2012 R2 выполните следующие действия:
+  
+1. В меню **Пуск** последовательно выберите пункты **Все программы**, **Стандартные** и **Windows PowerShell**. Затем щелкните элемент **Windows PowerShell** правой кнопкой мыши и выберите **Запуск от имени администратора**.
+    
+2. Если появится диалоговое окно **Контроль учетных записей**, нажмите кнопку **Да**, чтобы разрешить запуск PowerShell с правами администратора.
+    
+В ОС Windows 8 выполните следующие действия:
+  
+1. Откройте панель чудо-кнопок и выберите **Поиск**, после чего щелкните правой кнопкой мыши элемент **Windows PowerShell**. Для быстрого доступа к панели чудо-кнопок на любом компьютере под управлением ОС Windows 8 (независимо от наличия сенсорного экрана) нажмите клавишу Windows и, не отпуская ее, клавишу C.
+    
+2. В панели инструментов внизу экрана выберите пункт **Запуск от имени администратора**.
+    
+3. Если появится диалоговое окно **Контроль учетных записей**, нажмите кнопку **Да**, чтобы разрешить запуск PowerShell с правами администратора.
+    
+После запуска PowerShell необходимо разрешить работу с удаленными сценариями в политике выполнения. Для этого в консоли PowerShell введите следующую команду и нажмите клавишу ВВОД:
+```
+Set-ExecutionPolicy RemoteSigned -Force
+```
+    > [!NOTE]
+    >  When you run the preceding command, you might receive the following error message:> *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.* This error message typically occurs if you are not running PowerShell under administrator credentials. Close your session of PowerShell, and start a new session as an administrator. 
+  
+Чтобы проверить правильность настройки политики выполнения, в командной строке PowerShell введите следующую команду и нажмите клавишу ВВОД:
+  
+```
+Get-ExecutionPolicy
+```
+
+Если настройка выполнена правильно, будет возвращено следующее значение:
+  
+```
+RemoteSigned
+```
+
+Если вы не используете Windows PowerShell 3.0, вам также необходимо скачать и установить платформу Windows Management Framework 3.0 из Центра загрузки Майкрософт. Этот пакет установки включает в себя Windows PowerShell 3.0 и Windows Remote Management (WinRM) 3.0. Его можно использовать в том случае, если вы работаете в ОС Windows 7 и еще не выполнили обновление до Windows PowerShell 3.0. В ОС Windows Server 2012, Windows Server 2012 R2, Windows 8 и Windows 8.1 устанавливать Windows PowerShell 3.0 не требуется. Версия Windows PowerShell 3.0 входит в состав этих операционных систем.
+  
+Перед установкой платформы Windows Management Framework 3.0 выполните следующие действия:
+  
+- Убедитесь, что вы скачали правильную версию пакета установки. Для 64-разрядной версии Windows 7 необходимо скачать файл Windows6.1-KB2506143-x64.msu. Для 32-разрядной версии Windows 7 потребуется файл Windows6.1-KB2506143-x86.msu.
+    
+- Если на вашем компьютере установлена ОС Windows 7, проверьте наличие пакета обновления 1 для этой операционной системы.
+    
+Если вы не знаете свою версию Windows или не уверены, установлен ли у вас пакет обновления 1 для Windows 7, откройте меню **Пуск**, щелкните правой кнопкой мыши пункт **Компьютер** и выберите пункт **Свойства**. Нужная информация будет представлена в диалоговом окне "Система".
+  
+Чтобы установить платформу Windows Management Framework 3.0, выполните следующие действия:
+  
+1. Дважды щелкните установочный MSU-файл ( **Windows6.1-KB2506143-x64.msu** или **Windows6.1-KB2506143-x86.msu**).
+    
+2. В окне мастера скачивания и установки обновления на странице **Прочтите лицензионное соглашение (1 из 1)** нажмите кнопку **Я принимаю**.
+    
+3. По завершении установки нажмите кнопку **Перезапустить сейчас**, чтобы перезагрузить компьютер.
+    
+После перезагрузки проверьте работоспособность Windows PowerShell и возможность запуска этого приложения от имени администратора. Для этого выполните следующие действия:
+  
+1. В меню **Пуск** последовательно выберите пункты **Все программы**, **Стандартные** и **Windows PowerShell**. Затем щелкните элемент **Windows PowerShell** правой кнопкой мыши и выберите **Запуск от имени администратора**.
+    
+2. Если появится диалоговое окно "Контроль учетных записей", нажмите кнопку **Да**, чтобы разрешить запуск PowerShell с правами администратора.
+    
+В появившейся консоли PowerShell необходимо убедиться, что служба WinRM запущена и правильно настроена. Для этого в командной строке PowerShell введите следующую команду и нажмите клавишу ВВОД:
+  
+```
+Get-Service winrm
+```
+
+На экран будут выведены сведения о службе WinRM:
+  
+```
+Status   Name               DisplayName
+------   ----               -----------
+Running  winrm              Windows Remote Management (WS-Manag...
+```
+
+Если в столбце состояния не указано, что служба WinRM запущена, запустите ее. Для этого введите следующую команду и нажмите клавишу ВВОД:
+  
+```
+Start-Service winrm
+```
+
+После запуска службы WinRM выполните следующую команду, чтобы проверить, что в ней используется обычная проверка подлинности:
+  
+```
+winrm set winrm/config/client/auth '@{Basic="True"}'
+```
+
+На экране должна появиться информация примерно следующего вида:
+  
+```
+Auth
+    Basic = true
+    Digest = true
+    Kerberos = true
+    Negotiate = true
+    Certificate = true
+    CredSSP = false
+```
+
+Если обычная проверка подлинности имеет значение true, а затем вы готовы к использование PowerShell для подключения к Скайп для бизнеса в Интернет.
+  
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
+   
+## <a name="related-topics"></a>See also
+[Настройка компьютера для Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

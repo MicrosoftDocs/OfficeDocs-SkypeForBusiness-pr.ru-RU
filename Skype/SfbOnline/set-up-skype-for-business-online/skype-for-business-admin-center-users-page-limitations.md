@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Узнайте о работе в рамках ограничения Скайп для отображения бизнес Online администрирования пользователей. "
-ms.openlocfilehash: b7154c8b8aae4f8f28cd2ebc9e70d1c966507db8
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 7f7189536d1c859b25eb6cacb3fc75c57995d464
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Ограничения страницы Скайп для бизнеса в Интернет пользователей центра администрирования
 
@@ -44,3 +44,6 @@ ms.lasthandoff: 02/19/2018
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Вы можете прикрепить файлы с Скайп для собраний, кто из пользователей, затем можно открыть и загрузите. Файлами, подключенными к Скайп для деловых встреч, сохраняются в почтовых ящиках любой участник почтовый ящик которого размещается на хранение для судебного разбирательства, имеет применена политика хранения Office 365 или ставится на удержание, связанные с вариантом eDiscovery безопасности Office 365 &amp; Центре соответствия требованиям. Это содержимое сохраняется папки элементов для восстановления участников в их почтовые ящики."
-ms.openlocfilehash: 59e1470d36aac988b1e0ff6ee40ebc1fb61967ed
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: fb20055106362143b5c4573115e095637d873599
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Хранение больших файлов, подключенного к Скайп для собраний
 
@@ -44,3 +44,5 @@ ms.lasthandoff: 02/19/2018
 
 [Настройка политик конференц-связи в вашей организации](set-up-conferencing-policies-for-your-organization.md)
   
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

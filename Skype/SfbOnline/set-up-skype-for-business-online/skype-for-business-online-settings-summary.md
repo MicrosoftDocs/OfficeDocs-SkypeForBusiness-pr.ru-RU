@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Этой сводки Скайп для параметров бизнеса организации и пользователей, которые помогут узнать больше о общедоступных служб обмена Мгновенными сообщениями, приглашения на собрания, записи звонков и собраний и многое другое.  "
-ms.openlocfilehash: 0f9bbf7e24d268cb4690212fc3f70abfd024c871
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e537074bea8d8243cbb4d951580c4432620ce539
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Общие сведения о параметрах Skype для бизнеса Online
 
@@ -56,3 +56,6 @@ ms.lasthandoff: 02/19/2018
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

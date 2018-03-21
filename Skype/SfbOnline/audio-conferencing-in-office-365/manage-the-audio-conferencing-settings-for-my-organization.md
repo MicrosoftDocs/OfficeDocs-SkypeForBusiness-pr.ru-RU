@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: 6fb10654c5845fb5524264219e642cd0a250e860
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b890358cebfe6b5d701758c4b6086d6e1f388ca1
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Управление параметрами звука конференц-связи для организации
 
@@ -154,7 +156,7 @@ If you want to change the email address information, you need to make sure that 
 4. В **Сброс идентификатор конференции?** окно, нажмите кнопку **Да**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
     
     > [!IMPORTANT]
-    >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Пользователи могут использовать Скайп средством переноса собрания бизнеса требуется обновить их существующих собраний. Чтобы узнать, как для загрузки, установки и запуска Скайп для бизнеса средство обновления собрания, обратитесь к разделу: [средство обновления собрания для Скайп для бизнес-деятельности и Lync] ((https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Скайп для бизнеса в Интернет, Собрания средства переноса (64-разрядная версия)](http://go.microsoft.com/fwlink/?LinkID=626047)и [Скайп для бизнеса в Интернете, средство миграции собрания (32-разрядная версия)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+    >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Пользователи могут использовать Скайп средством переноса собрания бизнеса требуется обновить их существующих собраний. Чтобы узнать, как для загрузки, установки и запуска Скайп для бизнеса средство обновления собрания, обратитесь к разделу: [средство обновления собрания для Скайп для бизнес-деятельности и Lync] ((https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Скайп для бизнеса в Интернет, средство миграции собрания (64-разрядная версия)](http://go.microsoft.com/fwlink/?LinkID=626047)и [Скайп для бизнеса в Интернет, Собрания средства переноса (32-разрядная версия)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
   
 Сброс ПИН-кода организатора конференции
   
@@ -399,4 +401,3 @@ Windows PowerShell дает возможность управлять польз
 [Управление настройками аудиоконференций для пользователя](manage-the-audio-conferencing-settings-for-a-user.md)
 
 [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](set-up-audio-conferencing.md)
-

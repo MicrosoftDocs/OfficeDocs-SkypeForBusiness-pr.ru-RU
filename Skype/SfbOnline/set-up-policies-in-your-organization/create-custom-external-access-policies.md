@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Скайп для бизнеса в Интернет позволяет создавать политики дополнительные внешнего доступа. В отличие от клиента или конференц-связи политик, где может иметь несколько комбинаций, существует три политики предварительно заданных внешнего доступа, которые могут охватывать большинство сценариев."
-ms.openlocfilehash: 7a5e347f3f9629f603544ad9ab06e11d4b649868
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 8ed4549aa1b32ccfb13bda559394e6aa79ab47ed
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="create-custom-external-access-policies"></a>Создание политик настраиваемого внешнего доступа
 
@@ -115,3 +115,6 @@ ms.lasthandoff: 02/19/2018
 [Настройка политик клиента в организации](set-up-client-policies-for-your-organization.md)
 
 [Настройка политик конференц-связи в вашей организации](set-up-conferencing-policies-for-your-organization.md)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

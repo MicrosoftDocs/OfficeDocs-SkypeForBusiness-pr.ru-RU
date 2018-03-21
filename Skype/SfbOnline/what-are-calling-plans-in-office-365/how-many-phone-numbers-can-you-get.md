@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Число номеров телефонов, которые вы можете получить для организации, превышает назначенное число лицензий. Но это зависит от типов приобретенных и назначенных номеров и лицензий. Можно нажать кнопку различные виды телефонных номеров, используемый для вызова планы можно найти сведения о различных телефонных номеров, которые используются в Скайп для бизнеса в Интернет."
-ms.openlocfilehash: 7925b5b19e0ef60bd4bde2bac5c3632b0c30ef42
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 51b6276c5bc29b978b3a77b28c09529e621e8e0c
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Сколько номеров телефонов можно получить?
 
@@ -56,3 +58,6 @@ ms.lasthandoff: 02/19/2018
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Следующих часто задаваемые вопросы о передаче телефонных номеров Скайп для бизнеса. После просмотра ответов, можно приступить к созданию номеру порта и перемещение телефонных номеров. В разделе Передача номера телефонов в Office 365 для получения инструкций."
-ms.openlocfilehash: a7b6b9ea1b028f6578b13f29706c25fb182befc1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 3fe34a7c38fb8be206b0e3812674255d0593d188
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Перенос номеров телефона: часто задаваемые вопросы
 
@@ -62,7 +64,7 @@ ms.lasthandoff: 02/19/2018
     
 - Номера телефонов VoIP у поставщика телефона, например Vonage или RingCentral.
     
-- Скайп для гибридных Business телефонных номеров. Если вы хотите перенести эти номера, вы должны отправлять электронной почты "мне нравится" в <ptn@microsoft.com>.
+- Скайп для гибридных Business телефонных номеров. Если необходимо перенести эти номера, должны отправлять электронной почты, для нас в <ptn@microsoft.com>.
     
  **НЕ УДАЕТСЯ ПЕРЕНЕСТИ:**
   
@@ -117,7 +119,7 @@ ms.lasthandoff: 02/19/2018
     
 - **Бесплатно чисел** с кодами области, такие как: 800, 844, 855, 866, 877 и 888 нельзя включить в запрос номеров переноса с другими типами номеров. Для этих бесплатного номера портов, необходимо [вручную отправить запрос настраиваемые службы](manually-submit-a-custom-service-request.md); они не удается отправить в Скайп по центру администрирования бизнеса. В разделе [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-    Важно использовать правильный ЗАГРУ для страны и тип телефонных номеров необходимо порт. Вы можете загрузить LOAs, [Загрузите буква авторизации (ЗАГРУ)](download-a-letter-of-authorization-loa.md). В разделе [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+    Важно использовать правильный ЗАГРУ для страны и тип телефонных номеров необходимо порт. Вы можете загрузить ЗАГРУ, необходимые [загрузки письма из авторизации (ЗАГРУ), здесь](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
 - **Мобильные телефоны** требуется ПИН-код для авторизации переключения. Таким образом они используются разные номера переноса запроса.
     
@@ -176,4 +178,5 @@ ms.lasthandoff: 02/19/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

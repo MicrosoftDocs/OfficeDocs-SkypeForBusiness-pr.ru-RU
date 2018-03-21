@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Чтобы переключить или портов в работе телефонных номеров из Скайп для бизнеса в Интернет на другой поставщик услуг телефонной или поставщика, необходимо вручную задать ПИН-код. После установки ПИН-кода, необходимо включить его в случае запроса пользователя на порт номер телефона в работе."
-ms.openlocfilehash: 03e2e0ca76ea434e2458f1dec4a236996a19f7aa
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 5800ca846e4f71490be24ae02d031fa0579e2ce5
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Задать ПИН-код для передачи номера для нового поставщика услуг
 
@@ -73,6 +75,7 @@ ms.lasthandoff: 02/19/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
   
 

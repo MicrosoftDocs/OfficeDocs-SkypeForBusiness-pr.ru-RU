@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "Настройка и использование вызова Analytics для выявления и устранения неполадок Скайп для бизнеса и группами Майкрософт проблемы с качеством вызовов."
-ms.openlocfilehash: 81d3f88bf04fa63aaa5857e2056aaf429e7ffcd4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ef8f9e10e25e7f67f0161a143c313ed25330db18
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Настройка Скайп для вызова бизнес-аналитики
 
@@ -91,3 +91,6 @@ ms.lasthandoff: 02/19/2018
 [Использование средства аналитики звонков для устранения проблем с низким качеством звонков в Skype для бизнеса](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [В чем разница между средством аналитики звонков и панелью мониторинга качества звонков?](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

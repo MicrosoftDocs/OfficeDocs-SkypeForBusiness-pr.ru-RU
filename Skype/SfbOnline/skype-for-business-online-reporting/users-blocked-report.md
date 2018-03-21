@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "Этот отчет, а также другие Скайп для бизнес-отчеты подробные сведения по деятельности, включая использование ТСОП внутри организации. "
-ms.openlocfilehash: 4a3ca5b29a6be75f2f03890d4447b9c62c966c92
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ff8fe5d7dfd47f19e98c1663793b91729e54acda
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="users-blocked-report"></a>Отчет о заблокированных пользователей
 
@@ -83,3 +83,6 @@ ms.lasthandoff: 02/19/2018
    
 ## <a name="related-topics"></a>See also
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

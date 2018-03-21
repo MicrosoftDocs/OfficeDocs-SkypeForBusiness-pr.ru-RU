@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Узнайте, как настроить режим конфиденциальности для пользователей, чтобы они лучше контролировать, как пользователи видят их доступность. "
-ms.openlocfilehash: c548a0b85b4b458472da0d9196ac0271a92a16c2
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6a50370afb0e35873536162c9db28e4d75eed96e
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="configure-presence-privacy-mode"></a>Настройка режима конфиденциальности для сведений о присутствии
 
@@ -44,3 +44,6 @@ ms.lasthandoff: 02/19/2018
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

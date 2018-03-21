@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Краткие общие сведения о переносе номеров телефонов от поставщика услуг в Skype для бизнеса. "
-ms.openlocfilehash: b8d23fa0a13fe577ac05808784e80ea74a560afb
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6006f03b8780ba499240f2f3c816dda71d457e1c
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="port-order-overview"></a>Общие сведения о заказе на перенос номера
 
@@ -49,3 +49,5 @@ ms.lasthandoff: 02/19/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

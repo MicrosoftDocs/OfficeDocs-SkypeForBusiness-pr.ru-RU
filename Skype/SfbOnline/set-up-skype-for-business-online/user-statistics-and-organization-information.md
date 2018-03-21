@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Узнайте, какая статистика предлагается по пользователям Skype для бизнеса: например, вы можете выяснить число пользователей, которым доступны конференции, Skype для бизнеса или Office 365."
-ms.openlocfilehash: 9a3336c061b69b951d2ec8cb6b927dd9115c7b7c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 371e1eabb7979dc805f2a4473040a491f3950352
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="user-statistics-and-organization-information"></a>Статистика пользователей и сведения об организации
 
@@ -60,3 +60,6 @@ ms.lasthandoff: 02/19/2018
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
 
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

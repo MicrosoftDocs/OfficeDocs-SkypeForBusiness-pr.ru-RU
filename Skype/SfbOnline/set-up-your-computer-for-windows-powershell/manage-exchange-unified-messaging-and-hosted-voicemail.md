@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Use PowerShell to manage Exchange Unified Messaging capabilities such as Auto Attendant and Subscriber Access and hosted voicemail in Skype for Business Online.
-ms.openlocfilehash: 98a7847f6d8ec5bebd1889aef57298bd36696918
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: cc4904768cbb7f6bbcbbd9921efebfe7d4765c55
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Управление единой системы обмена сообщениями Exchange и размещенной голосовой почты
 
@@ -39,3 +39,6 @@ ms.lasthandoff: 02/19/2018
 
 ## <a name="related-topics"></a>See also
 [Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

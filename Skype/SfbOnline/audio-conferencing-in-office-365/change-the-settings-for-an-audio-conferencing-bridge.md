@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Получите действий, необходимых для изменения параметров моста телефонных конференций Microsoft, используемый для запрашивать абонентов и сбор имен и ПИН-коды для организаторам собрания при работе с Скайп не пользователей. "
-ms.openlocfilehash: f37af15b4ab66eb5765cccbdba63b3bb6bb14597
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 62307bf26458ae54134772a0d920bcc602265bdc
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение параметров для конференц-связи аудио мост
 
@@ -32,8 +34,8 @@ ms.lasthandoff: 02/19/2018
   
 Конференц-канал отвечает на звонок, и предлагает вызывающего голосовые приглашения, с помощью собрания автоматически, attendant, а затем, в зависимости от параметров, его можно воспроизвести уведомлений, попросите звонящих записать их имя и управлять параметров ПИН-кода. ПИН-коды, предоставляемые Организаторы собраний для них начало собрания при неиспользуемые Скайп для бизнеса или группами Майкрософт приложения.
 
-    > [!IMPORTANT]
-    > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
+  > [!IMPORTANT]
+  > ПИН-код является только необходимых Организатор собрания при Скайп для бизнеса или группами Майкрософт пользователя приложения еще не запущена собрания. Если все пытается подключиться к собранию, ПИН-код является обязательным для организатора собрания начать собрание. 
   
 ## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение параметров для звукового конференц-канала
 
@@ -110,5 +112,4 @@ ms.lasthandoff: 02/19/2018
   
 ## <a name="related-topics"></a>See also
 
-[Конференц-связь с телефонным подключением в Office 365](set-up-audio-conferencing.md)
-
+[Настройка аудиоконференций](set-up-audio-conferencing.md)

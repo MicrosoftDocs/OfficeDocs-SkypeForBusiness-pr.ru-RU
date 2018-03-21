@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: "Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона."
-ms.openlocfilehash: d5323c7f4b7ffc848cc54b42c5dffb0885979719
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 18c5ebd83a7098b5be0c0683255ce38d0462ad6f
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-romania"></a>Ограничения бесплатных набора номера в Румыния
 
@@ -47,3 +47,6 @@ ms.lasthandoff: 02/19/2018
 [Бесплатный номер набору номера, ограничения и ограничения](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+
+## <a name="feedback"></a>Отзыв?
+Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
