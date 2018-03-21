@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Бельгии."
 ms.openlocfilehash: 0a030135dd4c3aeb55c82437dcfbe16380296d2e
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="phone-number-management-for-belgium"></a>Управление номерами телефонов в Бельгии
 

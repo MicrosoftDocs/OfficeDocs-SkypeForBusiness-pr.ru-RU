@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "В некоторых странах и регионах вы не сможете получить новые номера с помощью Центра администрирования Skype для бизнеса либо вам потребуются определенные номера телефонов или коды городов. В таких случаях необходимо скачать соответствующую форму, заполнить ее и отправить в нашу службу поддержки. Мы рассмотрим полученную таким образом заявку и сообщим вам о ходе ее выполнения."
 ms.openlocfilehash: 54bcc6ca99434206bf63eeb5a65b0b6dee0f583a
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="get-new-user-phone-numbers-request-forms"></a>Формы запросов на получение номеров телефонов для новых пользователей
 

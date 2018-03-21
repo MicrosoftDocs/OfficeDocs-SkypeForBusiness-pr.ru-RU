@@ -21,10 +21,10 @@ ms.custom:
 - Calling Plans
 description: "Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могут использовать экстренные службы."
 ms.openlocfilehash: 3d6ab2d8b21b3ea2a85b3d7a2379cd5589cb392c
-ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Создание запроса в службу поддержки на проверку адреса
 
