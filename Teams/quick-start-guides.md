@@ -1,25 +1,27 @@
 ---
-title: "Краткие руководства по началу работы для администраторов Microsoft Teams"
+title: Краткие руководства по началу работы для администраторов Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/22/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: "Здесь вы найдете краткие руководства по настройке и запуску Microsoft Teams."
+description: Здесь вы найдете краткие руководства по настройке и запуску Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.custom:
 - NewAdminCenter_Update
-ms.openlocfilehash: ad8a9324b2b3ca8c4a832cfd65308a2ed743e867
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: 9efa4304af5e6be486cda997e79aadb814d2ed9f
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="quick-start-guides-for-microsoft-teams-admins"></a>Краткие руководства по началу работы для администраторов Microsoft Teams
 =====================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Эти краткие руководства помогут быстро настроить и внедрить Teams в вашей организации. 
 

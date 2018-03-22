@@ -1,25 +1,27 @@
 ---
-title: "Добавление гостя в команду"
+title: Добавление гостя в команду
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 10/23/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "Вы можете узнать о доступных администратору средствах для добавления новых гостевых пользователей в организацию, включая классический и веб-клиент Microsoft Teams, а также портал для совместной работы Azure Active Directory B2B."
+description: Вы можете узнать о доступных администратору средствах для добавления новых гостевых пользователей в организацию, включая классический и веб-клиент Microsoft Teams, а также портал для совместной работы Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b885aec6cfd2ca40603a195009b6e001c7e7226e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: e84c8f29416f94b78b287275cd473388931105ea
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="add-a-guest-to-a-team"></a>Добавление гостя в команду
 =====================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-В качестве гостей можно добавить только пользователей с адресом электронной почты, соответствующим рабочей или учебной учетной записи Office 365 или Azure Active Directory.
+Лица, имеющие business потребитель электронной почты учетной записи или, например, Outlook, Gmail или другим пользователям, могут участвовать в качестве гостя в группах.
 
 
 Являясь администратором, вы можете добавить нового гостевого пользователя в организацию несколькими способами. 
@@ -32,7 +34,7 @@ ms.lasthandoff: 02/19/2018
 
 
 
-Гостевые пользователи, добавленные через Azure Active Directory B2B, Группы Office 365 или SharePoint Online, готовы к работе. Администратор Office 365 или владелец команды может добавить их в свои команды. Если команда уже имеет группу Office 365, куда добавляется гость, он получит доступ к этой команде. Добавление гостя через группу Office 365 не приводит к отправке ему приглашения по электронной почте, поэтому гостя должен уведомить один из участников команды.
+Гости, которые уже были добавлены с помощью Azure Active Directory B2B, группы Office 365 или SharePoint Online готовы перейти. Администратор Office 365 или владелец команды может добавить их в свои команды. Если команда уже имеет группу Office 365, куда добавляется гость, он получит доступ к этой команде. Добавление гостя через группу Office 365 не приводит к отправке ему приглашения по электронной почте, поэтому гостя должен уведомить один из участников команды.
 
 > [!NOTE]
 > На гостей распространяются ограничения служб [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) и [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).

@@ -1,5 +1,5 @@
 ---
-title: "Краткое руководство — руководство по планированию Microsoft Teams"
+title: Краткое руководство — руководство по планированию Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
-description: "Это руководство поможет вам в планировании, установке и внедрении Microsoft Teams в вашей организации."
+description: Это руководство поможет вам в планировании, установке и внедрении Microsoft Teams в вашей организации.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7111e5aea9869a99ffec76f7da655f1ac0261aa8
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: ce2ac8ff38f5f051a3e288efede53efa4dc0c6e5
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Краткое руководство — руководство по планированию Microsoft Teams
 ==========================================================
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/01/2018
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Если решение Microsoft Teams не включено в вашем клиенте Office 365 и вы являетесь администратором Office 365, выполните указания из статьи [Настройка Microsoft Teams в вашей организации Office 365](office-365-set-up.md) для обеспечения пользователей доступом к приложению.
+Если группами Майкрософт не включена в клиент Office 365 и Office 365, администратор выполнить инструкциям в нашей статье [Управление доступом пользователей к группам](user-access.md) , чтобы обеспечить пользователям иметь доступ к приложению.
 
 ## <a name="step-3-complete-technical-planning"></a>Шаг 3. Техническое планирование
 

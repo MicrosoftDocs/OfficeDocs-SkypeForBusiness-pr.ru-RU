@@ -1,26 +1,28 @@
 ---
-title: "Настройка Microsoft Teams в вашей организации Office 365"
+title: Включение группами Майкрософт в организации Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "Сведения о настройке Microsoft Teams в вашей организации Office 365."
+description: Узнайте, как включить группами Майкрософт для вашей организации Office 365.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a6ec5e59471ed6527bbaefd4969f5b8e7e5a5bc
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: ac66fd152a5880d23169c93a26d4dcd6d2056942
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
-<a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Настройка Microsoft Teams в вашей организации Office 365
+<a name="turn-on-microsoft-teams-in-your-office-365-organization"></a>Включение группами Майкрософт в организации Office 365
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 По умолчанию продукт Microsoft Teams включен для всех организаций. Если вы использовали Microsoft Teams в предварительной версии, параметр останется таким же, какой был указан в предварительной версии Microsoft Teams.
 
@@ -31,7 +33,7 @@ ms.lasthandoff: 02/19/2018
 
 
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>Включение или отключение Microsoft Teams для всей организации
-
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 1.  Войдите в [Центр администрирования Office 365](https://go.microsoft.com/fwlink/?linkid=854614) по учетной записи, имеющей права глобального администратора.
 
@@ -46,7 +48,3 @@ ms.lasthandoff: 02/19/2018
 4.  Чтобы включить Microsoft Teams для организации, воспользуйтесь средством выбора лицензий. Выберите все нужные лицензии, активируйте переключатель **Вкл**, а затем щелкните **Сохранить**.
 
     ![Снимок экрана со страницей параметров Microsoft Teams, где эта служба включена с помощью переключателя.](media/Services-and-addins-control-Microsoft-Teams.PNG)
-
-
-> [!NOTE]
-> Возможность управлять состоянием Microsoft Teams на уровне клиента доступна лишь временно и в дальнейшем будет удалена. После этого доступ к Microsoft Teams будет регулироваться только с помощью лицензирования на уровне пользователей. 

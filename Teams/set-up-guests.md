@@ -1,27 +1,28 @@
 ---
-title: "Включение и отключение гостевого доступа для Microsoft Teams"
+title: Включение и отключение гостевого доступа для Microsoft Teams
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 11/10/17
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
-description: "Включение и отключение гостевого доступа в Microsoft Teams"
+description: Включение и отключение гостевого доступа в Microsoft Teams
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9112494945cf97905853c827fbfdb0688e9c7fc
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: ddf9f3b2597300ca872a5ab4135538e9cc6cc5ed
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Включение и отключение гостевого доступа для Microsoft Teams
 ======================================
 
-
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 
 
@@ -37,7 +38,7 @@ ms.lasthandoff: 02/19/2018
 > [!IMPORTANT]
 > Чтобы полностью включить все возможности гостевого доступа, важно понять основную зависимость между Microsoft Teams, Azure Active Directory и Office 365. Дополнительные сведения см. в статье [Авторизация гостевого доступа в Microsoft Teams](Teams-dependencies.md).
 
-1. Войдите с использованием учетной записи глобального администратора Office 365 по адресу [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Вход с помощью учетной записи глобального администратора Office 365 в [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
   
 2. В меню навигации выберите **Параметры** и затем **Services &amp; add-ins** (Службы и надстройки).

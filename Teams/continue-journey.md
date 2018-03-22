@@ -1,20 +1,20 @@
 ---
-title: "Извлечение выгоды за счет освоения Microsoft Teams пользователями"
+title: Извлечение выгоды за счет освоения Microsoft Teams пользователями
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: "Руководство по продолжению перехода со Skype для бизнеса на Microsoft Teams."
+description: Руководство по продолжению перехода со Skype для бизнеса на Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b897a4de7358faf01bb2c79835a5d7254c88dca
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 2162fdf8a942c9a45949c52efaf4fc9b70b76b00
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>Извлечение выгоды за счет освоения Microsoft Teams пользователями
 ================================================================
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/05/2018
 - Впервые сталкиваетесь с адаптацией или управлением изменениями? Воспользуйтесь [руководством по освоению Office 365](https://go.microsoft.com/fwlink/?linkid=859045).
 
 
-## <a name="get-your-organizaton-ready-for-your-future-move-to-teams"></a>Подготовка организации к дальнейшему переходу на Teams
+## <a name="get-your-organization-ready-for-your-future-move-to-teams"></a>Подготовка организации для будущего перемещения по группам
 
 - Руководствуйтесь [стратегией](https://go.microsoft.com/fwlink/?linkid=859047), чтобы спланировать переход в Teams.
 

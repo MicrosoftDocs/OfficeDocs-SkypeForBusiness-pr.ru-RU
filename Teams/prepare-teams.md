@@ -1,20 +1,21 @@
 ---
-title: "Оптимизация имеющейся среды Skype для бизнеса для перехода на Microsoft Teams"
+title: Оптимизация имеющейся среды Skype для бизнеса для перехода на Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: "Руководство по началу перехода со Skype для бизнеса на Microsoft Teams."
+ms.reviewer: dearbeen
+description: Руководство по началу перехода со Skype для бизнеса на Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15b989e69f637697a1ea9bde676382eeccb0e019
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 3a9c9d4ccdbe3f3f1a2107c832b5437860e17d73
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="optimize-your-current-skype-for-business-environment-for-microsoft-teams"></a>Оптимизация имеющейся среды Skype для бизнеса для перехода на Microsoft Teams
 ==============================================================
@@ -47,7 +48,7 @@ ms.lasthandoff: 03/05/2018
 
 Просмотрите [видеоролики о ПМКЗ](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos), чтобы узнать, как определить качество мультимедиа с помощью Панели мониторинга качества звонка.
 
-Сведения об аналитике звонков см. в статье [Аналитика звонков в Skype для бизнеса](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-fbf7247a-84ae-46cc-9204-2c45b1c734cd).
+Для получения дополнительных сведений о вызова аналитики, ознакомьтесь с [Скайп для вызова бизнес-аналитики](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 ### <a name="quality-champion-role"></a>Роль лидера по качеству
 
