@@ -1,5 +1,6 @@
 # Начало работы
 ## [Обзор Teams](Teams-overview.md)
+## [Лицензирование Office 365 для Teams](office-365-licensing.md)
 ## [Краткое руководство. Руководство по планированию Teams](quick-start-enable-teams.md)
 ## [Инструменты и семинары. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
 ## [Проверка готовности среды для Teams](environment-readiness.md).
@@ -10,6 +11,7 @@
 
 
 # Установка
+## [Управление доступом пользователей к Teams](user-access.md)
 ## [Работа с клиентами для Teams](get-clients.md)
 ## [Обзор развертывания Teams](deployment-overview.md)
 ## [Настройка Teams в вашей организации Office 365](Office-365-set-up.md)
@@ -57,6 +59,7 @@
 ## [Использование встроенных и настраиваемых вкладок в Teams](built-in-custom-tabs.md)
 ## [Использование Office 365 и настраиваемых соединителей в Teams](office-365-custom-connectors.md)
 ## [Использование П-бота для помощи пользователям с Teams](t-bot.md)
+## [Использование отчетов о действиях для групп](teams-activity-reports.md)
 
 # Собрания
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
@@ -79,14 +82,29 @@
 ## [Добавление гостя в команду](add-guests.md)
 ## [Просмотр гостевых пользователей к команде](view-guests.md)
 ## [Изменение сведений о гостевых пользователях](edit-guests-information.md)
-## [Использование PowerShell для управления гостевым доступом в команде](guest-access-powershell.md)
+## [Использование PowerShell для управления гостевым доступом в команде](guest-access-PowerShell.md)
+## [Контрольный список доступа гостя](guest-access-checklist.md)
 
 
+# Облачная система голосовой связи
 
 
-# [Облачная система голосовой связи](cloud-voice-deployment.md)
+## [Руководство по развертыванию](cloud-voice-deployment.md)
+### [Определение Мой success - звук конференц-связи](1-envision-define-my-success-audio-conferencing.md)
+### [Принятия решений Мои службы - звук конференц-связи](2-envision-make-my-service-decisions-audio-conferencing.md)
+### [Определение Мой success - телефонной системы с помощью вызова планы](1-envision-define-my-success-phone-system.md)
+### [Принятия решений Мои службы - телефонной системы с помощью вызова планы](2-envision-make-my-service-decisions-phone-system.md)
+### [Оценка моей среды](3-envision-evaluate-my-environment.md)
+### [Планирование управления Мои службы](4-envision-plan-my-service-management.md)
+### [Планирование взаимодействия пользователя Мои пользователи](5-envision-plan-my-users-experience.md)
+### [Документ успешно план](6-envision-document-my-success-plan.md)
+### [Подготовка Мои службы](1-onboard-prepare-my-service.md)
+### [Подготовка Мои пользователи](2-onboard-prepare-my-users.md)
+### [Развернуть службу](3-onboard-deploy-my-service.md)
+### [Мои службы](1-drive-value-operate-my-service.md)
+### [Улучшите Мои службы](2-drive-value-enhance-my-service.md)
 
-## [Практическое руководство по телефонной системе с планами звонков в Teams](phone-system-with-calling-plans.md)
+
 ## [Назначение лицензий Skype для бизнеса и Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Добавление средств и управление кредитами на связь](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Доступность аудиоконференций и планов звонков в различных странах и регионах](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -95,8 +113,16 @@
 ## [Развертывание стационарных телефонов](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
-## Аудиоконференции
-### [Практическое руководство по аудиоконференциям в Teams](audio-conferencing.md)
+
+## Отслеживание качества звонков и качества обслуживания
+### [Качество обслуживания (QoS) в Teams](QoS-in-Teams.md)
+### [Измерения и меры на панели мониторинга качества звонков](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Настройка средства аналитики звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Использование средства аналитики звонков для устранения проблем с низким качеством звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [В чем разница между средством аналитики звонков и панелью мониторинга качества звонков?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+
+## Аудиоконференция
 ### [Назначение стороннего поставщика услуг аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Общие вопросы по аудиоконференциям](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -105,7 +131,6 @@
 ### [Известные проблемы аудиоконференций и устранение неполадок](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Изменение параметров моста аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Изменение номеров телефонов для моста аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Сравнение поставщиков аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Исходящие звонки, позволяющие другим людям присоединиться к собранию](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Автоматическая отправка пользователям писем при смене настроек](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Включение и отключение отправки писем при смене настроек аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -129,7 +154,6 @@
 ### [Начало аудиоконференции по телефону без ПИН-кода](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Включение и отключение оповещений о подключении к собранию и выходе из него](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Использование динамических идентификаторов аудиоконференций в организации](/SkypeForBusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Бесплатный период исходящих звонков для аудиоконференций](/SkypeForBusiness/accessibility-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Видеоролики: Аудиоконференции в Teams](audio-conferencing-videos.md)
 
@@ -140,21 +164,14 @@
 ### [Добавление, изменение и удаление местоположения экстренного реагирования для организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Назначение или изменение адреса экстренного реагирования для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Назначение, изменение или удаление номера телефона пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Уполномоченный пользователь в учетной записи](/SkypeForBusiness/what-are-calling-plans-in-office-365/authorized-person-on-the-account?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Планы звонков для Office 365](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Известные проблемы с планами звонков](/SkypeForBusiness/what-are-calling-plans-in-office-365/calling-plans-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Изменение адреса для экстренного реагирования для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Изменение местоположения для экстренного реагирования для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Создание абонентских групп и управление ими](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Типы номеров телефонов, используемые в планах звонков](/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Скачивание доверенности](/SkypeForBusiness/what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Условия и положения, распространяющиеся на экстренные вызовы](/SkypeForBusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Форма запроса на получение новых телефонных номеров для пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/get-new-user-phone-numbers-request-forms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Получение телефонных номеров для пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Как создать запрос в службу поддержки для проверки адреса?](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-do-i-create-a-support-ticket-for-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Сколько телефонных номеров можно получить?](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Как правильно вводить телефонные номера?](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-should-i-enter-the-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Управление номерами телефонов для организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Управление номер телефона для Австралии](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Управление номерами телефонов в Бельгии](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Управление номерами телефонов в Канаде](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-canada?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Управление номерами телефонов во Франции](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -164,35 +181,14 @@
 #### [Управление номерами телефонов в Нидерландах](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Управление номерами телефонов в Соединенном Королевстве](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Управление номерами телефонов в США](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-### [Ручная отправка запроса на обслуживание](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Общие сведения о заказе на перенос номера](/SkypeForBusiness/what-are-calling-plans-in-office-365/port-order-overview?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Сведения об учетной записи в заказе на перенос номера](/SkypeForBusiness/what-are-calling-plans-in-office-365/port-order-account-information?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Поиск номеров телефонов пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Просмотр списка телефонных номеров в организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Задание ПИН-кода для передачи номеров новым поставщикам услуг](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Отправка запроса на обслуживание для переноса локального номера](/SkypeForBusiness/what-are-calling-plans-in-office-365/submitting-a-service-request-for-local-number-porting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Ограничения и запреты для бесплатных номеров](/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Передача номеров телефонов в Office 365](/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Общие вопросы по передаче номеров](/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Страны и регионы, в которые пользователи могут совершать исходящие звонки](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Что такое планы звонков в Office 365?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Что такое абонентские группы?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Что такое планы звонков в Office 365?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-### [Что делать, если моего оператора нет в списке?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-if-my-phone-carrier-isn-t-listed-as-the-source-carrier?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Что такое проверка адреса?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Каков мой телефон для выставления счетов?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-my-billing-telephone-number?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Какой номер учетной записи следует указывать?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-should-i-put-in-for-the-account-number?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Что указывать в названии компании?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-should-i-put-in-for-the-company-name?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Какой адрес службы следует указывать?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-should-i-put-in-for-the-service-address?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Каково состояние моих заказов на перенос номеров?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-s-the-status-of-my-port-orders?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Почему возникают проблемы с вводом адреса в Соединенном Королевстве?](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-am-i-having-problems-entering-u-k-address-information?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Почему не удается выполнить активацию номера?](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-has-number-activation-failed?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Почему активация номера находится в ожидании?](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-just-pending?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Почему активация номера отображается как незавершенная?](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-listed-as-incomplete?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Почему активация номера отображается как обновляемая?](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-listed-as-updating?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Ваш заказ на перенос номера принят](/SkypeForBusiness/what-are-calling-plans-in-office-365/your-port-order-was-accepted?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Планы звонков в Office 365 — нормы и правила для Соединенного Королевства](/SkypeForBusiness/accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Планы звонков в Office 365 — процедура подачи претензий для Соединенного Королевства](/SkypeForBusiness/accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
@@ -200,7 +196,6 @@
 ## Телефонная система
 ### [Изменение языка по умолчанию для приветствий в голосовой почте и электронных писем](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-greetings-and-emails?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Создание очереди звонков в телефонной системе](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Телефоны, поддерживаемые в Skype для бизнеса Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Преимущества телефонной системы в Office 365](/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Использование идентификатора абонента в организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Языки для сообщений и приветствий голосовой почты](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -208,14 +203,6 @@
 ### [Настройка автосекретаря телефонной системы](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Настройка голосовой почты телефонной системы](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Что такое автосекретари телефонной системы?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-
-# Отслеживание качества звонков и качества обслуживания
-## [Качество обслуживания (QoS) в Teams](QoS-in-Teams.md)
-## [Измерения и меры на панели мониторинга качества звонков](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Настройка средства аналитики звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Использование средства аналитики звонков для устранения проблем с низким качеством звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [В чем разница между средством аналитики звонков и панелью мониторинга качества звонков?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 # Безопасность и соответствие требованиям
@@ -229,20 +216,23 @@
 
 
 
-# [Переход со Skype для бизнеса на Teams](journey-skypeforbusiness-teams.md)
+# [Переход со Skype для бизнеса на Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1. Оптимизация имеющейся среды Skype для бизнеса для перехода на Teams.](prepare-teams.md)
+### [1.1 - окружающей среды обнаружения для групп Майкрософт выгрузка данных](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2. Пилотный проект Teams параллельно с использованием Skype для бизнеса.](pilot-essentials.md)
-## [3. Использование Teams параллельно со Skype для бизнеса.](guidance-skypeforbusiness.md)
-## [4. Извлечение выгоды за счет освоения Teams пользователями](continue-journey.md)
-## [Вопросы и ответы. Переход со Skype для бизнеса на Teams](faq-journey.md)
-## [Руководство. Переход со Skype для бизнеса на Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
+### [2.1 - выбора пользователей для пилотной группы](select-users-for-your-teams-pilot.md)
+## [3. Использование Teams параллельно со Skype для бизнеса.](guidance-SkypeforBusiness.md)
+## [4. Извлечение выгоды за счет освоения Teams пользователями.](continue-journey.md)
+## [Вопросы и ответы. Концепция Skype для бизнеса и Teams](FAQ-journey.md)
+## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 
 
 # Планирование, внедрение и использование
 ## Планирование
+### [Управление доступом пользователей к Teams](user-access.md)
 ### [Работа с клиентами для Teams](get-clients.md)
-### [Настройка Teams в вашей организации Office 365](office-365-set-up.md)
-### [Включение функций Teams в организации Office 365](enable-features-office-365.md)
+### [Управление функциями группами в организации Office 365](enable-features-office-365.md)
 ### [Назначение ролей и разрешений в Teams](assign-roles-permissions.md)
 ### [Использование П-бота для помощи пользователям с Teams](t-bot.md)
 ### [Получение средств для развертывания Teams](rollout-tools.md)
@@ -252,7 +242,6 @@
 ### [Настройка гибридной организации для работы с Teams](exchange-hybrid-organization.md)
 ### [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
 ### [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
-### [Управление доступом пользователей к Teams](user-access.md)
 ### [Добавление ботов для приватных чатов и каналов в Teams](add-bots.md)
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
 ### [Использование встроенных и настраиваемых вкладок в Teams](built-in-custom-tabs.md)
