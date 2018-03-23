@@ -3,7 +3,7 @@ title: Лицензирование Office 365 для Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen, ninadara
@@ -13,11 +13,11 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30982efbc72bee3964e441551dccf15f002ae285
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 84040cb622fb685b52cb6cdc8ef15e2572ddd6c1
+ms.sourcegitcommit: 8e0833319011e22e285e2d84d7cebb2006723665
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/23/2018
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Лицензирование Office 365 для Microsoft Teams
 ========================================
@@ -39,7 +39,9 @@ ms.lasthandoff: 03/15/2018
         
 
 
-С точки зрения базовых функций Teams разные подписки Office 365 не отличаются. Но от уровня подписки зависят возможности по обеспечению соответствия. Дополнительные сведения: [Обзор обеспечения безопасности и соответствия в Teams.](security-compliance-overview.md)
+С точки зрения группами основные функциональные возможности ничем не отличаются от подписки Office 365. Но от уровня подписки зависят возможности по обеспечению соответствия. Дополнительные сведения: [Обзор обеспечения безопасности и соответствия в Teams.](security-compliance-overview.md)
+
+**Функции голосовой связи в облаке**: для звука конференц-связи, организации потребуется приобрести и назначение лицензии звук конференц-связи для каждого пользователя, который будет Настройка телефонных собраний. Вызов планы каждого пользователя должны телефонной системой, а также внутренние или внутренний и International вызов планирование. Для получения дополнительных сведений см [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 Все поддерживаемые планы подписки предоставляют право на использование веб-клиента, классических клиентов и мобильных приложений Microsoft Teams.
 
