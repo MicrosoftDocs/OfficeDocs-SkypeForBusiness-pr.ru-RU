@@ -13,9 +13,12 @@
 # Установка
 ## [Управление доступом пользователей к Teams](user-access.md)
 ## [Работа с клиентами для Teams](get-clients.md)
+## [Вход в группы](sign-in-teams.md)
 ## [Обзор развертывания Teams](deployment-overview.md)
 ## [Настройка Teams в вашей организации Office 365](Office-365-set-up.md)
 ## [Включение функций Teams в организации Office 365](enable-features-office-365.md)
+## [Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business](manage-teams-skypeforbusiness-admin-center.md)
+## [Установка группами Майкрософт, с помощью MSI](msi-deployment.md)
 ## [Измерения и меры на панели мониторинга качества звонков](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Настройка средства аналитики звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Использование средства аналитики звонков для устранения проблем с низким качеством звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -123,6 +126,7 @@
 
 
 ## Аудиоконференция
+### [Руководство по Аудиоконференций в группах](Tutorial-Audio-Conferencing.yml)
 ### [Назначение стороннего поставщика услуг аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Общие вопросы по аудиоконференциям](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -158,6 +162,7 @@
 ### [Видеоролики: Аудиоконференции в Teams](audio-conferencing-videos.md)
 
 ## Планы звонков
+### [Руководство по Вызова в группах](Tutorial-calling-in-teams.yml)
 ### [Краткое руководство по началу работы. Настройка планов звонков в Teams](configuring-teams-calling-quickstartguide.md)
 ### [Set up Calling Plans (Настройка планов звонков)](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Добавление, изменение и удаление адреса экстренного реагирования для организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
