@@ -11,11 +11,11 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7157f412cc28e44b6149b74a12be98a717496b8f
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: a2dbb006fa9e44d1f2f08efc716063c1c6b1540c
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 ==================================
@@ -28,8 +28,9 @@ ms.lasthandoff: 03/15/2018
 |  |  |
 |---------|---------|
 | [Руководство. Переход со Skype для бизнеса на Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Мы расскажем обо всем, что нужно знать для перехода со Skype для бизнеса Online на Teams.  |
-| [Краткое руководство для администраторов — Microsoft Teams для образовательных учреждений](teams-quick-start-edu.yml) |Руководство по развертыванию Teams в организации для ИТ-администраторов в сфере образования.   |
-[Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Краткое руководство по настройке планов звонков в Teams. |
+| [Руководство по Аудиоконференций в группах](Tutorial-Audio-Conferencing.yml) | В этом интерактивного обучения поможет конференц-связи звук в группах. |
+| [Краткое руководство: группами Майкрософт для образовательных учреждений "Администраторы"](teams-quick-start-edu.yml) |Руководство по развертыванию Teams в организации для ИТ-администраторов в сфере образования.   |
+| [Краткое руководство: Настройка вызов планы в группами Майкрософт](configuring-teams-calling-quickstartguide.md)| Краткое руководство по настройке планов звонков в Teams. |
 | [Учебное руководство. Общие сведения о звонках в Microsoft Teams](tutorial-calling-in-teams.yml)  |  Это учебное руководство знакомит читателей с возможностями звонков в Microsoft Teams, которые реализованы на базе Телефонной системы Office 365. Мы опишем техническое планирование, необходимое для внедрения Телефонной системы, ее настройку, а также мониторинг использования и качества звонков.  |
 | [Видеоролики об Аудиоконференциях](audio-conferencing-videos.md) |Видеоролики, знакомящие ИТ-администратора с Аудиоконференциями в Teams.  |
 | [Руководство. Собрания в Teams](tutorial-meetings-in-teams.yml) | Этот учебный курс по представляется собраний в группах. Рассматриваются возможности проведения собраний, а также требования и вопросы планирования. |

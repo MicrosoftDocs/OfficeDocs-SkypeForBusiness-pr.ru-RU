@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Австралии"
+title: Доступность в Австралии
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Австралии."
-ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Австралии.
+ms.openlocfilehash: ec5ac53fc0688aeb6ed960f64c5ffb35ceb216f9
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="availability-in-australia"></a>Доступность в Австралии
 
@@ -53,13 +53,13 @@ ms.lasthandoff: 03/21/2018
    
 ## <a name="calling-plans"></a>Планы звонков
 > [!IMPORTANT]
-> Австралия доступна только для предварительного просмотра и первых внедривших у себя клиентов. Для получения дополнительных сведений см [Telstra голосовой связи](http://aka.ms/TelstraVoicePlan). 
+> В настоящее время доступен только для просмотра и раннее внедрение в Австралии. Для получения дополнительных сведений см. [Telstra вызов для Office 365](http://aka.ms/TelstraVoicePlan). 
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение планов звонков?  <br/> |Да, просмотрите [Telstra услуг голосовой связи](http://aka.ms/TelstraVoicePlan).  <br/> |
-|Доступные минуты для планов звонков  <br/> |В разделе [Telstra служб](http://aka.ms/TelstraVoicePlan). <br/> |
-|Кому можно делать исходящие звонки?  <br/> |В разделе [Telstra служб](http://aka.ms/TelstraVoicePlan). <br/> |
+|Доступно ли приобретение планов звонков?  <br/> |Да, в разделе [Telstra вызова для Office 365](http://aka.ms/TelstraVoicePlan).  <br/> |
+|Доступные минуты для планов звонков  <br/> |В разделе [Telstra вызова для Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
+|Кому можно делать исходящие звонки?  <br/> |В разделе [Telstra вызова для Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 03/21/2018
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
-Если вы хотите получить международную и бесплатных номеров телефонов для автосекретарей и очереди вызовов, видеть [Telstra услуг голосовой связи](http://aka.ms/TelstraVoicePlan). Для службы номера аудиоконференций, [свяжитесь с нами](mailto:ptnapac@microsoft.com).
+Если вы хотите получить международную и бесплатных номеров телефонов для автосекретарей и очереди вызовов, ознакомьтесь со [Telstra вызова для Office 365](http://aka.ms/TelstraVoicePlan). Для службы номера аудиоконференций, [свяжитесь с нами](mailto:ptnapac@microsoft.com).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
