@@ -1,0 +1,106 @@
+---
+title: Планирование высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп Business Server 2015
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+ms.date: 5/17/2016
+ms.audience: ITPro
+ms.topic: conceptual
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
+description: 'Сводка: Сведения в этой статье описывается планирование высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп Business Server 2015.'
+ms.openlocfilehash: 2730d72b47d02772bf2c5c59c819bbe23e8816db
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/28/2018
+---
+# <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a><span data-ttu-id="519ec-103">Планирование высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="519ec-103">Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015</span></span>
+ 
+<span data-ttu-id="519ec-104">**Сводка:** Прочтите этот раздел, чтобы узнать, как спланировать для обеспечения высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="519ec-104">**Summary:** Read this topic to learn how to plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015.</span></span>
+  
+<span data-ttu-id="519ec-105">Высокой доступности и аварийного восстановления для сервера сохраняемого чата требуются дополнительные ресурсы, помимо тех, что обычно требуется для полного операции.</span><span class="sxs-lookup"><span data-stu-id="519ec-105">High availability and disaster recovery for Persistent Chat Server require additional resources beyond what is typically needed for full operation.</span></span> 
+  
+> [!NOTE]
+> <span data-ttu-id="519ec-106">Использование групп доступности AlwaysOn SQL не поддерживается с базами данных сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="519ec-106">Using SQL AlwaysOn Availability Groups is not supported with Persistent Chat Server databases.</span></span> 
+  
+## <a name="resource-requirements"></a><span data-ttu-id="519ec-107">Требования к ресурсам</span><span class="sxs-lookup"><span data-stu-id="519ec-107">Resource requirements</span></span>
+
+<span data-ttu-id="519ec-108">Подготовка к настройке сервера сохраняемого чата для обеспечения высокой доступности и аварийного восстановления, убедитесь, что у вас есть следующие дополнительные ресурсы.</span><span class="sxs-lookup"><span data-stu-id="519ec-108">Before configuring Persistent Chat Server for high availability and disaster recovery, ensure that you have the following additional resources.</span></span> 
+  
+- <span data-ttu-id="519ec-109">Один экземпляр выделенную базу данных, расположенный в один центр физических данных, в которой находится домашней переднего плана службы сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="519ec-109">One dedicated database instance located in the same physical data center in which the home front end of the Persistent Chat Server service is located.</span></span> <span data-ttu-id="519ec-110">Эта база данных будет использоваться как зеркала SQL Server для сохраняемых сеансов беседы базы данных-источника.</span><span class="sxs-lookup"><span data-stu-id="519ec-110">This database will serve as the SQL Server mirror for the primary Persistent Chat database.</span></span> <span data-ttu-id="519ec-111">При необходимости можно указать дополнительные SQL Server в качестве следящий сервер зеркального отображения, если вы хотите, чтобы процесс автоматической отработки отказа для зеркальной базы данных.</span><span class="sxs-lookup"><span data-stu-id="519ec-111">Optionally, designate an additional SQL Server to serve as the mirroring witness if you want an automated failover to the mirror database.</span></span>
+    
+- <span data-ttu-id="519ec-112">Один выделенный экземпляр базы данных, расположенный в другом физическом центре обработки данных.</span><span class="sxs-lookup"><span data-stu-id="519ec-112">One dedicated database instance located in the other physical data center.</span></span> <span data-ttu-id="519ec-113">Эта база данных будет использоваться как доставки журналов SQL Server базы данных-получателя для базы данных в центре обработки данных.</span><span class="sxs-lookup"><span data-stu-id="519ec-113">This database will serve as the SQL Server Log Shipping secondary database for the database in the primary data center.</span></span>
+    
+- <span data-ttu-id="519ec-114">Один экземпляр выделенную базу данных в качестве зеркала SQL Server для базы данных-получателя.</span><span class="sxs-lookup"><span data-stu-id="519ec-114">One dedicated database instance to serve as the SQL Server mirror for the secondary database.</span></span> <span data-ttu-id="519ec-115">При необходимости назначьте дополнительных серверов SQL server в качестве следящий сервер зеркального отображения.</span><span class="sxs-lookup"><span data-stu-id="519ec-115">Optionally, designate an additional SQL Server to server as the mirroring witness.</span></span> <span data-ttu-id="519ec-116">Обе базы данных должны быть расположены в том же физическом центре обработки данных, что и база данных-получатель.</span><span class="sxs-lookup"><span data-stu-id="519ec-116">Both of these must be located in the same physical data center as the secondary database.</span></span>
+    
+- <span data-ttu-id="519ec-117">Если включено соответствие требованиям сервера сохраняемого чата, требуются дополнительные три выделенную базу данных экземпляра.</span><span class="sxs-lookup"><span data-stu-id="519ec-117">If Persistent Chat Server compliance is enabled, an additional three dedicated database instances are required.</span></span> <span data-ttu-id="519ec-118">Их рассылки — это такие же, как описано ранее для базы данных Persistent Chat.</span><span class="sxs-lookup"><span data-stu-id="519ec-118">Their distribution is the same as those previously outlined for the Persistent Chat database.</span></span> <span data-ttu-id="519ec-119">Хотя база данных соответствия для совместного использования в одном экземпляре SQL Server с базой данных Persistent Chat, рекомендуется использовать отдельных экземпляров высокой доступности и аварийного восстановления.</span><span class="sxs-lookup"><span data-stu-id="519ec-119">While it is possible for the compliance database to share the same SQL Server instance as the Persistent Chat database, standalone instances for high availability and disaster recovery are recommended.</span></span>
+    
+- <span data-ttu-id="519ec-120">В общей папке, создаются и предназначенный для журналов транзакций доставки журналов SQL Server.</span><span class="sxs-lookup"><span data-stu-id="519ec-120">A file share must be created and designated for the SQL Server Log Shipping transaction logs.</span></span> <span data-ttu-id="519ec-121">Все серверы SQL в обоих центров обработки данных, на которых выполняется Persistent Chat баз данных должны иметь доступ на чтение/запись в эту общую папку.</span><span class="sxs-lookup"><span data-stu-id="519ec-121">All SQL Servers in both data centers that run Persistent Chat databases must have read/write access to this file share.</span></span> <span data-ttu-id="519ec-122">Эту папку не определена как часть роли хранилища файлов.</span><span class="sxs-lookup"><span data-stu-id="519ec-122">This share is not defined as part of a FileStore role.</span></span>
+    
+- <span data-ttu-id="519ec-123">Файловый ресурс на сервере базы данных-получателя в качестве конечной папки для журналов транзакций SQL Server, которые копируются с общего файлового ресурса основного сервера.</span><span class="sxs-lookup"><span data-stu-id="519ec-123">A file share on the secondary database server to serve as the destination folder for the SQL Server transaction logs that are copied from the primary server file share.</span></span>
+    
+## <a name="disaster-recovery-and-high-availability-solutions"></a><span data-ttu-id="519ec-124">Решения высокой доступности и аварийного восстановления</span><span class="sxs-lookup"><span data-stu-id="519ec-124">Disaster recovery and high availability solutions</span></span>
+
+<span data-ttu-id="519ec-125">Скайп для Business Server поддерживает несколько режимов обеспечения высокой доступности для вашей внутренними серверами, включая зеркальное отображение базы данных.</span><span class="sxs-lookup"><span data-stu-id="519ec-125">Skype for Business Server supports multiple modes of high availability for your Back End Servers, including database mirroring.</span></span> <span data-ttu-id="519ec-126">Для получения дополнительных сведений см. [Планирование высокой доступности и аварийного восстановления в Скайп для Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="519ec-126">For more information, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span> 
+  
+<span data-ttu-id="519ec-127">Решение аварийного восстановления для сервера сохраняемого чата описанного в данном разделе построена на вытянутый пул серверов сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="519ec-127">The disaster recovery solution for Persistent Chat Server described in this topic is built on a stretched Persistent Chat Server pool.</span></span> <span data-ttu-id="519ec-128">Не является обязательным для растянутых виртуальной локальной сети (VLAN).</span><span class="sxs-lookup"><span data-stu-id="519ec-128">There is no requirement for a stretched virtual local area network (VLAN).</span></span> <span data-ttu-id="519ec-129">С продолжительностью пул серверов сохраняемого чата, Настройка одного пула в топологии логически, но физически поместить серверы в пуле в двух разных центрах данных.</span><span class="sxs-lookup"><span data-stu-id="519ec-129">By stretching a Persistent Chat Server pool, you configure one pool in the topology logically, but you physically place the servers in the pool in two different data centers.</span></span> <span data-ttu-id="519ec-130">Настройка зеркального отображения SQL Server для базы данных так же, как и развертывания базы данных и зеркальный в одном центре обработки данных.</span><span class="sxs-lookup"><span data-stu-id="519ec-130">You configure SQL Server mirroring for the database in the same way, and deploy the database and the mirror in the same data center.</span></span> <span data-ttu-id="519ec-131">Необходимо настроить резервной копии базы данных в центре обработки данных дополнительного (с необязательным зеркала для обеспечения высокой доступности во время аварийного восстановления).</span><span class="sxs-lookup"><span data-stu-id="519ec-131">You need to configure a backup database in the secondary data center (with an optional mirror to provide high availability during disaster recovery).</span></span> <span data-ttu-id="519ec-132">Это резервной копии базы данных, используемое для отработки отказа во время аварийного восстановления.</span><span class="sxs-lookup"><span data-stu-id="519ec-132">This is the backup database used for failover during disaster recovery.</span></span> 
+  
+<span data-ttu-id="519ec-133">Для получения дополнительных сведений о настройке высокой доступности и аварийного восстановления для сервера сохраняемого чата видеть [Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).</span><span class="sxs-lookup"><span data-stu-id="519ec-133">For details about how to configure high availability and disaster recovery for Persistent Chat Server, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).</span></span> 
+  
+<span data-ttu-id="519ec-134">На следующих рисунках показано, как можно настроить пул серверов сохраняемого чата в двух разных топологий вытянутого пула:</span><span class="sxs-lookup"><span data-stu-id="519ec-134">The following figures show how the Persistent Chat Server pool can be configured in two different stretched pool topologies:</span></span>
+  
+- <span data-ttu-id="519ec-135">Вытянутый пул серверов сохраняемого чата центров обработки данных территориально распределенных с высокой пропускной способностью и небольшой задержкой.</span><span class="sxs-lookup"><span data-stu-id="519ec-135">Stretched Persistent Chat Server pool when data centers are geo-located with high bandwidth/low latency.</span></span>
+    
+- <span data-ttu-id="519ec-136">Вытянутый пул серверов сохраняемого чата центров обработки данных территориально распределенных с низкой пропускной способностью и большой задержкой.</span><span class="sxs-lookup"><span data-stu-id="519ec-136">Stretched Persistent Chat Server pool when data centers are geo-located with low bandwidth/high latency.</span></span>
+    
+<span data-ttu-id="519ec-137">На рисунке 1 показано топологии вытянутый пул серверов сохраняемого чата, где территориально-распределенных с высокой пропускной способностью и небольшой задержкой центров обработки данных.</span><span class="sxs-lookup"><span data-stu-id="519ec-137">Figure 1 shows a stretched Persistent Chat Server pool topology where data centers are geo-located with high bandwidth/low latency.</span></span> <span data-ttu-id="519ec-138">Предположим, следующие сведения о логической и физической топологии.</span><span class="sxs-lookup"><span data-stu-id="519ec-138">Assume the following for the logical and physical topologies:</span></span>
+  
+- <span data-ttu-id="519ec-139">Компоненты логической топологии:</span><span class="sxs-lookup"><span data-stu-id="519ec-139">The logical topology consists of the following:</span></span>
+    
+  - <span data-ttu-id="519ec-140">Пул сохраняемого чата для сайтов 1 и 2, который содержит серверы 1–8.</span><span class="sxs-lookup"><span data-stu-id="519ec-140">A Persistent Chat pool across Sites 1 and 2 containing servers 1 through 8.</span></span>
+    
+  - <span data-ttu-id="519ec-141">Пул сервера переднего плана, базу данных Persistent Chat, зеркальной базы данных, и при необходимости следящий сервер базы данных (не отображается в схеме) физически находящихся на узле 1.</span><span class="sxs-lookup"><span data-stu-id="519ec-141">A Front End Server pool, a Persistent Chat database, a mirrored database, and, optionally, a witness database (not shown in diagram) residing physically on Site 1.</span></span> 
+    
+  - <span data-ttu-id="519ec-142">Второй пул сервера переднего плана и резервная копия базы данных с физическим расположением на сайте 2.</span><span class="sxs-lookup"><span data-stu-id="519ec-142">A second Front End Server pool and a backup database residing physically on Site 2.</span></span>
+    
+- <span data-ttu-id="519ec-143">Физическая топология состоит из узлов 1 и 2 следующим образом:</span><span class="sxs-lookup"><span data-stu-id="519ec-143">The physical topology consists of Sites 1 and 2 as follows:</span></span>
+    
+  - <span data-ttu-id="519ec-144">Пул сохраняемого чата, который содержит серверы 1–4 (два активных и два бездействующих) на сайте 1.</span><span class="sxs-lookup"><span data-stu-id="519ec-144">A Persistent Chat pool, containing servers 1 through 4, two active, two idle on Site 1.</span></span>
+    
+  - <span data-ttu-id="519ec-145">Пул сохраняемого чата, который содержит серверы 5–8 (два активных и два бездействующих) на сайте 2.</span><span class="sxs-lookup"><span data-stu-id="519ec-145">A Persistent Chat pool, containing servers 5 through 8, two active, two idle on Site 2.</span></span>
+    
+  - <span data-ttu-id="519ec-146">Пул сервера переднего плана, базу данных Persistent Chat, зеркальной базы данных и, при необходимости следящий сервер базы данных (не отображается в схеме) на узле 1.</span><span class="sxs-lookup"><span data-stu-id="519ec-146">A Front End Server pool, a Persistent Chat database, a mirrored database, and, optionally, a witness database (not shown in diagram) on Site 1.</span></span>
+    
+  - <span data-ttu-id="519ec-147">Пул сервера переднего плана, резервная копия базы данных, в которую отправляется журнал SQL, на сайте 2.</span><span class="sxs-lookup"><span data-stu-id="519ec-147">A Front End Server Pool, and a backup database, which is the SQL log shipping target, on Site 2.</span></span>
+    
+<span data-ttu-id="519ec-148">**Вытянутый пул серверов сохраняемого чата центров обработки данных территориально распределенных с высокой пропускной способностью и небольшой задержкой**</span><span class="sxs-lookup"><span data-stu-id="519ec-148">**Stretched Persistent Chat Server pool when data centers are geo-located with high bandwidth/low latency**</span></span>
+
+![Расширенный пул сохраняемого чата с высокой пропускной способностью и небольшой задержкой](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
+  
+<span data-ttu-id="519ec-150">На рисунке 2 показано топологии вытянутый пул серверов сохраняемого чата, где территориально-распределенных с низкой пропускной способностью и большой задержкой центров обработки данных.</span><span class="sxs-lookup"><span data-stu-id="519ec-150">Figure 2 shows a stretched Persistent Chat Server pool topology where data centers are geo-located with low bandwidth/high latency.</span></span>
+  
+- <span data-ttu-id="519ec-151">Компоненты логической топологии:</span><span class="sxs-lookup"><span data-stu-id="519ec-151">The logical topology consists of the following:</span></span>
+    
+  - <span data-ttu-id="519ec-152">Пул сохраняемого чата для сайтов 1 и 2, который содержит серверы 1–8.</span><span class="sxs-lookup"><span data-stu-id="519ec-152">A Persistent Chat pool across Sites 1 and 2 containing servers 1 through 8.</span></span>
+    
+  - <span data-ttu-id="519ec-153">Пул сервера переднего плана, базу данных Persistent Chat, зеркальной базы данных, и при необходимости следящий сервер базы данных (не отображается в схеме) физически находящихся на узле 1.</span><span class="sxs-lookup"><span data-stu-id="519ec-153">A Front End Server pool, a Persistent Chat database, a mirrored database, and, optionally, a witness database (not shown in diagram) residing physically on Site 1.</span></span> 
+    
+  - <span data-ttu-id="519ec-154">Второй пул сервера переднего плана и резервная копия базы данных с физическим расположением на сайте 2.</span><span class="sxs-lookup"><span data-stu-id="519ec-154">A second Front End Server pool and a backup database residing physically on Site 2.</span></span>
+    
+- <span data-ttu-id="519ec-155">Физическая топология состоит из узлов 1 и 2 следующим образом:</span><span class="sxs-lookup"><span data-stu-id="519ec-155">The physical topology consists of Sites 1 and 2 as follows:</span></span>
+    
+  - <span data-ttu-id="519ec-156">Пул сохраняемого чата, который содержит серверы 1–4 (все активны) на сайте 1.</span><span class="sxs-lookup"><span data-stu-id="519ec-156">A Persistent Chat pool, containing servers 1 through 4, all active, on Site 1.</span></span>
+    
+  - <span data-ttu-id="519ec-157">Пул сохраняемого чата, который содержит серверы 5–8 (все бездействуют) на сайте 2.</span><span class="sxs-lookup"><span data-stu-id="519ec-157">A Persistent Chat pool, containing servers 5 through 8, all idle, on Site 2.</span></span>
+    
+  - <span data-ttu-id="519ec-158">Пул сервера переднего плана, базу данных Persistent Chat, зеркальной базы данных и, при необходимости следящий сервер базы данных (не отображается в схеме) на узле 1.</span><span class="sxs-lookup"><span data-stu-id="519ec-158">A Front End Server pool, a Persistent Chat database, a mirrored database, and, optionally, a witness database (not shown in diagram) on Site 1.</span></span>
+    
+  - <span data-ttu-id="519ec-159">Пул сервера переднего плана, резервная копия базы данных, в которую отправляется журнал SQL, на сайте 2.</span><span class="sxs-lookup"><span data-stu-id="519ec-159">A Front End Server pool, and a backup database, which is the SQL log shipping target, on Site 2.</span></span>
+    
+<span data-ttu-id="519ec-160">**Вытянутый пул серверов сохраняемого чата центров обработки данных территориально распределенных с низкой пропускной способностью и большой задержкой**</span><span class="sxs-lookup"><span data-stu-id="519ec-160">**Stretched Persistent Chat Server pool when data centers are geo-located with low bandwidth/high latency**</span></span>
+
+![Расширенный пул сохраняемого чата с низкой пропускной способностью и большой задержкой](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
+  
+

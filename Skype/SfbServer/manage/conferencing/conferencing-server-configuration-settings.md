@@ -1,0 +1,68 @@
+---
+title: Управление параметрами конфигурации сервера конференций в Skype для бизнеса Server 2015
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 1/31/2018
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
+description: 'Сводка: Узнайте, как управлять параметрами конфигурации сервера конференц-связи в Скайп для Business Server 2015.'
+ms.openlocfilehash: 88c127acdd569945eddb41e997034e5ea23ea2a6
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/28/2018
+---
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server-2015"></a><span data-ttu-id="766f3-103">Управление параметрами конфигурации сервера конференций в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="766f3-103">Manage conferencing server configuration settings in Skype for Business Server 2015</span></span>
+ 
+<span data-ttu-id="766f3-104">**Сводка:** Узнайте, как управлять параметрами конфигурации сервера конференц-связи в Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="766f3-104">**Summary:** Learn how to manage conferencing server configuration settings in Skype for Business Server 2015.</span></span>
+  
+<span data-ttu-id="766f3-105">В этом разделе описывается, как управлять параметрами конфигурации конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="766f3-105">This topic describes how to manage conferencing configuration settings.</span></span> <span data-ttu-id="766f3-106">Дополнительные сведения о планировании и развертывании конференц-связи видеть [план для конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) и [Развертывание конференц-связи в Скайп для Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="766f3-106">For more information about how to plan and deploy conferencing, see [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).</span></span>
+  
+<span data-ttu-id="766f3-107">Параметры конфигурации конференц-связи определить такие параметры, как максимальный допустимый размер содержимого собрания и раздаточные материалы; Максимальный объем пропускной способности для службы конференц-связь, совместное использование приложений; ограничения для хранилища и срок действия; загружаемые файлы для URL-адреса для внутренних и внешних поддерживаемые клиента; указатели на внутренних и внешних URL-адреса, где пользователи могут получить помощь конференц-связи и ресурсов; и портов, используемых для общего доступа к приложениям, клиент аудио-, передача файлов и трафика мультимедиа.</span><span class="sxs-lookup"><span data-stu-id="766f3-107">Conferencing configuration settings determine such things as the maximum allowed size for meeting content and handouts; maximum amount of bandwidth for the Application Sharing Conferencing service; storage limits and expiration periods; the URLs for the internal and external downloads of the supported client; pointers to internal and external URLs where users can obtain conferencing help and resources; and the ports used for application sharing, client audio, file transfers, and media traffic.</span></span> <span data-ttu-id="766f3-108">Эти параметры позволяют управлять фактический самого сервера.</span><span class="sxs-lookup"><span data-stu-id="766f3-108">These settings allow you to manage the actual servers themselves.</span></span> <span data-ttu-id="766f3-109">Эти параметры можно настроить с помощью Скайп для консоли Business Server.</span><span class="sxs-lookup"><span data-stu-id="766f3-109">These settings can be set by using Skype for Business Server Management Shell.</span></span>
+  
+<span data-ttu-id="766f3-110">При установке Скайп для Business Server система предоставляет одной коллекции конференц-связи параметры конфигурации (глобальной коллекции).</span><span class="sxs-lookup"><span data-stu-id="766f3-110">When you install Skype for Business Server, the system provides you with a single collection of conferencing configuration settings (the global collection).</span></span> <span data-ttu-id="766f3-111">Если вам необходимо создать настраиваемые параметры для сайта или службы, это можно сделать с помощью командлета **New-CsConferencingConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="766f3-111">If you need to create custom settings for a site or service, you can do so using the **New-CsConferencingConfiguration** cmdlet.</span></span> <span data-ttu-id="766f3-112">Обратите внимание на то, что новые параметры могут применяться только на уровне сайта или службы; не удается создать новую коллекцию глобальных конференц-связи, параметры конфигурации, однако можно изменить глобальную коллекцию с помощью командлета **Set-CsConferencingConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="766f3-112">Note that new settings can be applied only at the site or service scope; you cannot create a new global collection of conferencing configuration settings, but you can modify the global collection by using the **Set-CsConferencingConfiguration** cmdlet.</span></span> <span data-ttu-id="766f3-113">Кроме того не сайта или службы может размещаться более чем одной коллекции параметров.</span><span class="sxs-lookup"><span data-stu-id="766f3-113">In addition, no site or service can host more than one collection of settings.</span></span> <span data-ttu-id="766f3-114">Если вы попытаетесь для создания новых параметров для Redmond сайта и Redmond уже хранится коллекция параметров конфигурации конференц-связи сайтов, а затем команда завершится с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="766f3-114">If you try to create new settings for the Redmond site and the Redmond site already hosts a collection of conferencing configuration settings, then your command will fail.</span></span>
+  
+## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="766f3-115">Управление параметрами конфигурации конференц-связи с помощью Скайп для консоли Business Server</span><span class="sxs-lookup"><span data-stu-id="766f3-115">Manage conferencing configuration settings by using Skype for Business Server Management Shell</span></span>
+
+<span data-ttu-id="766f3-116">Для управления параметрами конфигурации конференц-связи с помощью Скайп для консоли Business Server, используйте следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="766f3-116">To manage conferencing configuration settings by using Skype for Business Server Management Shell, use the following cmdlets:</span></span>
+  
+<span data-ttu-id="766f3-117">**Параметры конфигурации конференц-связи**</span><span class="sxs-lookup"><span data-stu-id="766f3-117">**Conferencing configuration settings**</span></span>
+
+|<span data-ttu-id="766f3-118">**Командлет**</span><span class="sxs-lookup"><span data-stu-id="766f3-118">**Cmdlet**</span></span>|<span data-ttu-id="766f3-119">**Описание**</span><span class="sxs-lookup"><span data-stu-id="766f3-119">**Description**</span></span>|
+|:-----|:-----|
+|[<span data-ttu-id="766f3-120">Get-CsConferencingConfiguration</span><span class="sxs-lookup"><span data-stu-id="766f3-120">Get-CsConferencingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="766f3-121">Возвращает сведения о параметрах конфигурации конференц-связи для организации.</span><span class="sxs-lookup"><span data-stu-id="766f3-121">Returns information about the conferencing configuration settings for your organization.</span></span>  <br/> |
+|[<span data-ttu-id="766f3-122">New-CsConferencingConfiguration</span><span class="sxs-lookup"><span data-stu-id="766f3-122">New-CsConferencingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="766f3-123">Создает коллекцию параметров конфигурации конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="766f3-123">Creates a new collection of conferencing configuration settings.</span></span>  <br/> |
+|[<span data-ttu-id="766f3-124">Remove-CsConferencingConfiguration</span><span class="sxs-lookup"><span data-stu-id="766f3-124">Remove-CsConferencingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="766f3-125">Удаляет указанную коллекцию параметров конфигурации конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="766f3-125">Removes the specified collection of conferencing configuration settings.</span></span>  <br/> |
+|[<span data-ttu-id="766f3-126">SET-CsConferencingConfiguration</span><span class="sxs-lookup"><span data-stu-id="766f3-126">Set-CsConferencingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |<span data-ttu-id="766f3-127">Изменяет существующую коллекцию параметров конфигурации конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="766f3-127">Modifies an existing collection of conferencing configuration settings.</span></span>  <br/> |
+   
+<span data-ttu-id="766f3-p104">Приведенная ниже команда создает новую коллекцию параметров конфигурации конференц-связи для сайта Redmond (site:Redmond). В этом примере используется один дополнительный параметр (Organization), с помощью которого свойству Organization присваивается значение Litwareinc.</span><span class="sxs-lookup"><span data-stu-id="766f3-p104">The following command creates a new collection of conferencing configuration settings for the Redmond site (site:Redmond). In this example, one additional parameter is included (Organization) which is used to set the value of the Organization property to Litwareinc:</span></span> 
+  
+```
+New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
+
+```
+
+<span data-ttu-id="766f3-130">Обратите внимание на то, что для каждого сайта может быть только одна такая коллекция. Эта команда завершится сбоем, если у сайта Redmond уже есть коллекция параметров конфигурации конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="766f3-130">Note that you can have only one such collection per site, so this command would fail if the Redmond site already has a collection of conferencing configuration settings.</span></span> 
+  
+<span data-ttu-id="766f3-131">В следующем примере определяется новая коллекция параметров конфигурации конференц-связи, которые изначально хранилась в памяти, а позднее были применены к сайту Redmond.</span><span class="sxs-lookup"><span data-stu-id="766f3-131">The next example defines a new collection of conferencing configuration settings, which are stored in memory initially, and then applied to the Redmond site at a later time.</span></span> 
+  
+<span data-ttu-id="766f3-132">Первая команда с помощью командлета **New-CsConferencingConfiguration** создает в памяти новую коллекцию параметров, хранящуюся в переменной $x.</span><span class="sxs-lookup"><span data-stu-id="766f3-132">The first command uses the **New-CsConferencingConfiguration** cmdlet to create a new, in-memory collection of settings stored in the variable $x.</span></span> <span data-ttu-id="766f3-133">Параметр InMemory указывает на то, что коллекцию необходимо создать в памяти, а не применить немедленно к сайту Redmond.</span><span class="sxs-lookup"><span data-stu-id="766f3-133">The InMemory parameter specifies that the collection should be created in memory rather than immediately applied to the Redmond site.</span></span>
+  
+<span data-ttu-id="766f3-134">После создания коллекции вторая команда присваивает свойству Organization значение Litwareinc.</span><span class="sxs-lookup"><span data-stu-id="766f3-134">After the collection has been created, the second command sets the value of the Organization property to Litwareinc.</span></span> 
+  
+<span data-ttu-id="766f3-135">Наконец, третья команда вызывает командлет **Set-CsConferencingConfiguration**, который применяет созданные параметры к сайту Redmond.</span><span class="sxs-lookup"><span data-stu-id="766f3-135">Finally, the third command uses the **Set-CsConferencingConfiguration** cmdlet to actually apply the new settings to the Redmond site:</span></span>
+  
+```
+$x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory
+$x.Organization = "Litwareinc"
+Set-CsConferencingConfiguration -Instance $x
+
+```
+
+<span data-ttu-id="766f3-136">Без вызова командлета **Set-CsConferencingConfiguration** новые параметры никогда не вступят в силу.</span><span class="sxs-lookup"><span data-stu-id="766f3-136">If you do not call the **Set-CsConferencingConfiguration** cmdlet, the new settings will never take effect.</span></span> <span data-ttu-id="766f3-137">Вместо этого они исчезнут сразу после завершения текущего сеанса Windows PowerShell или удаления переменной $x.</span><span class="sxs-lookup"><span data-stu-id="766f3-137">Instead, they will disappear as soon as you end your Windows PowerShell session or delete the variable $x.</span></span>
+  
+
