@@ -1,0 +1,69 @@
+---
+title: Резервное копирование и восстановление баз данных сохраняемого чата в Skype для бизнеса Server 2015
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+ms.date: 3/28/2016
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
+description: 'Сводка: Узнайте, как резервное копирование и восстановление баз данных сервера сохраняемого чата в Скайп для Business Server 2015.'
+ms.openlocfilehash: 419085219ea995c680fe31fcca3597a884ceba5d
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/28/2018
+---
+# <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Резервное копирование и восстановление баз данных сохраняемого чата в Skype для бизнеса Server 2015
+ 
+**Сводка:** Узнайте, как резервное копирование и восстановление баз данных сервера сохраняемого чата в Скайп для Business Server 2015.
+  
+Persistent Chat Server требуется программное обеспечение баз данных SQL Server для хранения данных чат, например истории и контент, конфигурации, подготовке пользователей и других соответствующих метаданных. Кроме того Если включена дополнительная служба соответствия требованиям вашей организации есть правилам, которые требуют активности сохраняемого чата для архивации, программное обеспечение баз данных SQL Server используется для хранения данных соответствия требованиям, включая контент чата и события, такие как присоединении и выходе из комнаты. В базе данных сохраняемого чата (mgc) будет храниться содержимое комнат чата. Данные о соответствии хранятся в базе данных соответствия (mgccomp). Необходимо регулярно создавать резервные копии этих критически важных для бизнеса данных. 
+  
+## <a name="back-up-the-databases"></a>Резервное копирование баз данных
+
+Существует два способа создания резервной копии данных Persistent Chat. 
+  
+- Резервное копирование SQL Server
+    
+- Командлет **Export-CsPersistentChatData** , который экспортирует данные сохраняемого сеанса беседы в виде файла
+    
+Для данных, созданных с помощью резервного копирования SQL Server, требуется значительно больше места на диске (возможно, до 20 раз больше), чем для данных, созданных с помощью командлета **Export-CsPersistentChatData**, но ваше знакомство с процедурой резервного копирования SQL Server более вероятно.
+  
+Чтобы использовать процедуры резервного копирования SQL, см. подробнее в документации по SQL. 
+  
+Если планируется использовать командлет **Export-CsPersistentChatData**, данную команду можно указать следующим образом:
+  
+```
+Export-CsPersistentChatData [-FileName <String>] <COMMON PARAMETERS>
+```
+
+или
+  
+```
+Export-CsPersistentChatData [-AsBytes <SwitchParameter>] <COMMON PARAMETERS>
+```
+
+Например, приведенная ниже команда экспортирует данные сохраняемого чата из базы данных сохраняемого чата, расположенной на сервере atl-sql-001.contoso.com. Экспортируемые данные будут храниться в файле C:\Logs\PersistentChatData.zip. Поскольку параметр Level не задан, данная команда будет выполнять полный экспорт сведений о сохраняемом чате.
+  
+```
+Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName "C:\Logs\PersistentChatData.zip"
+```
+
+## <a name="restore-the-databases"></a>Восстановление баз данных
+
+Как восстановить данные Persistent Chat, зависит от метода, который можно использовать для резервного копирования. Если были использованы процедуры резервного копирования SQL Server, необходимо использовать процедуры восстановления SQL Server. Если используется командлет **Export-CsPersistentChatData** для резервного копирования данных Persistent Chat, необходимо использовать командлет **Import-CsPersistentChatData** для восстановления данных:
+  
+```
+Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>
+```
+
+или
+  
+```
+Import-CsPersistentChatData -ByteInput <Byte > <COMMON PARAMETERS>
+```
+
+

@@ -1,0 +1,58 @@
+---
+title: Управление сервером сохраняемого чата в Skype для бизнеса Server 2015
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+ms.date: 3/28/2016
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
+description: 'Сводка: Узнайте, как управлять сервера сохраняемого чата в Скайп для Business Server 2015.'
+ms.openlocfilehash: 294c6bcecbbfb57bb8d2a6a785cdf20775119510
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/28/2018
+---
+# <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление сервером сохраняемого чата в Skype для бизнеса Server 2015
+ 
+**Сводка:** Сведения об управлении сервера сохраняемого чата в Скайп для Business Server 2015.
+  
+При настройке серверов сохраняемого чата для вашей организации, укажите начальной настройки во время развертывания. Тем не менее возможны ситуации, когда нужно изменить, как реализовать поддержку сервера сохраняемого чата. Для примера необходимо настроить поддержку сервера сохраняемого чата и элементов управления для определенных групп или группе в организации. В этом разделе представлены сведения и процедуры, которые помогут вам настроить развертывание сервера сохраняемого чата. Для получения дополнительных сведений о возможностях и функциях, которые можно настроить для сервера сохраняемого чата видеть [Планирование сервера сохраняемого чата в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). Для получения дополнительных сведений о развертывании сервера сохраняемого чата видеть [Развертывание сервера сохраняемого чата в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
+  
+Серверов сохраняемого чата можно управлять с помощью панели управления или с помощью командлетов Windows PowerShell. 
+  
+Использование панели управления:
+  
+1. Из учетной записи пользователя, назначенной роли CsPersistentChatAdministrator или CsAdministrator, выполните вход на любой компьютер во внутреннем развертывании.
+    
+2. Из меню **Пуск** выберите Скайп для панели управления Business Server или откройте окно браузера и введите URL-адрес администрирования.
+    
+3. В левой панели навигации щелкните **Сохраняемый чат**.
+    
+В следующей таблице представлены командлеты Windows PowerShell, помогающих управлять сервера сохраняемого чата. Для получения дополнительных сведений о синтаксисе, включая все доступные параметры просмотра [Скайп оболочки управления 2015 Business Server](../management-shell.md).
+  
+
+|**Командлет**|**Описание**|
+|:-----|:-----|
+|New-CsPersistentChatCategory  <br/> |Создание новой категории  <br/> |
+|Командлет Set-CsPersistentChatCategory  <br/> |Настройка параметров для существующей категории  <br/> |
+|Командлет Get-CsPersistentChatCategory  <br/> |Извлечение информации о категориях  <br/> |
+|Командлет remove-CsPersistentChatCategory  <br/> |Удаление категории  <br/> |
+|New-CsPersistentChatRoom  <br/> |Создание новой комнаты чата  <br/> |
+|SET-CsPersistentChatRoom  <br/> |Настройка параметров для существующей комнаты; назначение пользователей и групп пользователей для комнаты  <br/> |
+|Командлет Get-CsPersistentChatRoom  <br/> |Извлекает сведения о комнат  <br/> |
+|Clear-CsPersistentChatRoom  <br/> |Очистка комнаты или сообщений комнаты  <br/> |
+|Remove Cspersistentchatroomnm  <br/> |Удаление комнаты  <br/> |
+|Remove-CsPersistentChatMessage  <br/> |Удаление сообщений из комнаты  <br/> |
+|New-CsPersistentChatAddin  <br/> |Создание новой надстройки  <br/> |
+|Командлет Set-CsPersistentChatAddin  <br/> |Настройка параметров для существующей надстройки  <br/> |
+|Командлет Get-CsPersistentChatAddin  <br/> |Извлечение информации о надстройках  <br/> |
+|Командлет remove-CsPersistentChatAddin  <br/> |Удаление надстройки  <br/> |
+|SET-CsPersistentChatComplianceConfiguration  <br/> |Изменяет существующую коллекцию параметров конфигурации соответствия  <br/> |
+|Export-CsPersistentChatData  <br/> |Экспорт данных из базы данных сохраняемых чатов  <br/> |
+|Import-CsPersistentChatData  <br/> |Импорт данных, экспорт которых был выполнен в предыдущих версиях Skype для бизнеса Server  <br/> |
+   
+

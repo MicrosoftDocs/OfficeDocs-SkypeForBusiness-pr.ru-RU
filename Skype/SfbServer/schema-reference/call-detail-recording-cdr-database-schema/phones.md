@@ -1,0 +1,29 @@
+---
+title: Таблица Phones
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+ms.date: 3/9/2015
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
+description: Таблица Phones представляет собой вспомогательную таблицу. Каждая запись в таблице хранятся сведения о один телефонный номер, участвующих в вызовах VoIP с записями в базе данных.
+ms.openlocfilehash: 8ec2095b857ba474a92bf0766d86119500919f51
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/28/2018
+---
+# <a name="phones-table"></a>Таблица Phones
+ 
+Таблица Phones представляет собой вспомогательную таблицу. Каждая запись в таблице хранятся сведения о один телефонный номер, участвующих в вызовах VoIP с записями в базе данных.
+  
+|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|:-----|:-----|:-----|:-----|
+|**PhoneId** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий телефон.  <br/> |
+|**PhoneUri** <br/> |nvarchar(450)  <br/> | <br/> |Номер телефона.  <br/> |
+|**NextUpdateTS** <br/> |даты и времени  <br/> ||Метка времени (только для внутреннего использования).  <br/> В этом поле было представлено в Microsoft Lync Server 2013.  <br/> |
+   
+
