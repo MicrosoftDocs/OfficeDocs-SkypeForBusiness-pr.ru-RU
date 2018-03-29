@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
-description: 'Summary: Prepare your Skype for Business Server 2015 servers with this topic. Представленная здесь информация об оборудовании, ОС, базах данных, программном обеспечении, а также все системные требования и рекомендации помогут выполнить установку и развертывание фермы серверов.'
+description: 'Сводка: Подготовка к Скайп Business Server 2015 с для серверов в этом разделе. Представленная здесь информация об оборудовании, ОС, базах данных, программном обеспечении, а также все системные требования и рекомендации помогут выполнить установку и развертывание фермы серверов.'
 ms.openlocfilehash: 8a86c96554d7aa1be0597c5c82614cd43816540f
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -22,11 +22,11 @@ ms.lasthandoff: 03/28/2018
  
 **Краткое содержание.** В данном разделе описывается подготовка серверов Skype для бизнеса Server 2015. Представленная здесь информация об оборудовании, ОС, базах данных, программном обеспечении, а также все системные требования и рекомендации помогут выполнить установку и развертывание фермы серверов.
   
-As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2015. This article will walk you through planning for the following:
+Как можно было бы ожидать, существуют некоторые подготовительные действия, чтобы сделать перед началом развертывания Скайп для Business Server 2015. В этой статье поможет выполнить планирование следующее:
   
 - [Оборудование для Skype для бизнеса Server 2015](server-requirements.md#Hardware)
   
-- [Operating systems for Skype for Business Server 2015](server-requirements.md#OS)
+- [Операционные системы, Скайп для Business Server 2015](server-requirements.md#OS)
   
 - [Внутренние базы данных, которые будут работать с Skype для бизнеса Server 2015](server-requirements.md#DBs)
   
@@ -35,121 +35,121 @@ As you might expect, there are some preparations to make before you begin deploy
 ## <a name="hardware-for-skype-for-business-server-2015"></a>Оборудование для Skype для бизнеса Server 2015
 <a name="Hardware"> </a>
 
-Now that you have your topology down (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) topic), it's time to think about servers. Skype for Business Server 2015 servers will require 64-bit hardware. Ниже приведены рекомендации по оборудованию. These aren't requirements, but they reflect the requirements necessary for optimal performance. Документация по планированию загрузки позволяет определить, не требуется ли более мощное оборудование с учетом конкретных обстоятельств.
+Теперь, когда у вас есть топологии вниз (и в противном случае можно посмотреть в разделе [Основные сведения о топологии для Скайп для Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) ), он имеет время серверы, учитывайте следующее. Скайп для серверов Business Server 2015 потребует 64-разрядного оборудования. Ниже приведены рекомендации по оборудованию. Они не требования, но они отражают требования, необходимые для обеспечения оптимальной производительности. Документация по планированию загрузки позволяет определить, не требуется ли более мощное оборудование с учетом конкретных обстоятельств.
   
-Recommended hardware for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers:
+Рекомендуемое оборудование для серверов переднего плана, внутренними серверами, серверов Standard Edition и серверов сохраняемого чата:
   
-|**Hardware component**|**Recommended**|
+|**Аппаратный компонент**|**Рекомендуется**|
 |:-----|:-----|
-|ЦП  <br/> |Два 64-разрядных шестиядерных процессора с частотой 2,26 ГГц или выше.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2015 roles.  <br/> |
+|ЦП  <br/> |Два 64-разрядных шестиядерных процессора с частотой 2,26 ГГц или выше.  <br/> Процессоры Intel Itanium не поддерживаются для Скайп для роли Business Server 2015.  <br/> |
 |Память  <br/> |32 ГБ.  <br/> |
 |Диск  <br/> |ЛЮБОЙ ИЗ ВАРИАНТОВ:  <br/> • 8 и больше жестких дисков с 10 000 об/мин и не менее 72 ГБ свободного места на диске (два диска объединены в RAID 1, а 6 — в RAID 10).   <br/> ИЛИ  <br/> • твердотельные накопители, которые способны обеспечить свободное пространство и производительность, соответствующие 8 механическим жестким дискам с 10 000 об/мин.  <br/> |
-|Сеть  <br/> |1 двухпортовый сетевой адаптер, 1 Гбит/с или выше (можно использовать 2 сетевых адаптера, но их необходимо объединить с одним MAC-адресом и одним IP-адресом).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers. <br/> Поскольку они не предоставляются операционной системе и используются для мониторинга оборудования сервера и управления им, вы можете использовать системы внешнего управления, такие как DRAC или ILO. Этот сценарий не предполагает использования многоадресного сервера и поддерживается.<br/> |
+|Сеть  <br/> |1 двухпортовый сетевой адаптер, 1 Гбит/с или выше (можно использовать 2 сетевых адаптера, но их необходимо объединить с одним MAC-адресом и одним IP-адресом).  <br/> Конфигурации с двумя или несколькими адресами, **не** поддерживается для серверов переднего плана, внутренними серверами, Standard Edition серверы, серверы и серверы Persistent Chat. <br/> Поскольку они не предоставляются операционной системе и используются для мониторинга оборудования сервера и управления им, вы можете использовать системы внешнего управления, такие как DRAC или ILO. Этот сценарий не предполагает использования многоадресного сервера и поддерживается.<br/> |
    
-Recommended hardware for Edge Servers, standalone Mediation Servers, Video Interop Servers, and Directors:
+Рекомендуемое оборудование для пограничных серверов, изолированных серверов-посредников, серверы взаимодействия видео и директоров:
   
-|**Hardware component**|**Recommended**|
+|**Аппаратный компонент**|**Рекомендуется**|
 |:-----|:-----|
-|ЦП  <br/> |64-разрядный процессор с двухканальным кэшем, четырехъядерный, 2,26 ГГц и выше.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2015 roles.  <br/> |
+|ЦП  <br/> |64-разрядный процессор с двухканальным кэшем, четырехъядерный, 2,26 ГГц и выше.  <br/> Процессоры Intel Itanium не поддерживаются для Скайп для роли Business Server 2015.  <br/> |
 |Память  <br/> |16 гигабайт.  <br/> |
 |Диск  <br/> |ЛЮБОЙ ИЗ ВАРИАНТОВ:  <br/> • 4 и больше жестких дисков с 10 000 об/мин и не менее 72 ГБ свободного места на диске (диски должны быть объединены в конфигурацию 2x RAID 1).  <br/> ИЛИ  <br/> • твердотельные накопители, которые способны обеспечить свободное пространство и производительность, соответствующие 4 механическим жестким дискам с 10 000 об/мин.  <br/> |
-|Сеть  <br/> |1 двухпортовый сетевой адаптер, 1 Гбит/с или выше (можно использовать 2 сетевых адаптера, но их необходимо объединить с одним MAC-адресом и одним IP-адресом).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Пограничным серверам потребуется два сетевых интерфейса — двухпортовые сетевые адаптеры со скоростью передачи 1 Гбит/с или выше (или два сопряженных сетевых адаптера (всего четыре), каждая пара объединена с одним MAC-адресом и одним IP-адресом, всего две пары).  <br/> On standalone Mediation Servers the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.  <br/> |
+|Сеть  <br/> |1 двухпортовый сетевой адаптер, 1 Гбит/с или выше (можно использовать 2 сетевых адаптера, но их необходимо объединить с одним MAC-адресом и одним IP-адресом).  <br/> Конфигурации с двумя или несколькими адресами **не** поддерживается для серверов взаимодействия видео и директоров. <br/> Пограничным серверам потребуется два сетевых интерфейса — двухпортовые сетевые адаптеры со скоростью передачи 1 Гбит/с или выше (или два сопряженных сетевых адаптера (всего четыре), каждая пара объединена с одним MAC-адресом и одним IP-адресом, всего две пары).  <br/> На отдельных серверов-посредников установки дополнительных сетевых карт (сетевых адаптеров), чтобы разрешить конфигурации определенного IP-адрес ТСОП поддерживается.  <br/> |
    
-## <a name="operating-systems-for-skype-for-business-server-2015"></a>Operating systems for Skype for Business Server 2015
+## <a name="operating-systems-for-skype-for-business-server-2015"></a>Операционные системы, Скайп для Business Server 2015
 <a name="OS"> </a>
 
-Once you have the hardware in place, you'll need to install operating systems (OS). These are the OS that will allow you to install and successfully use Skype for Business Server 2015.
+При наличии оборудования на месте, вам потребуются для установки операционной системы (ОС). Это операционная система, которая позволяет устанавливать и успешно использовать Скайп для Business Server 2015.
   
 |||
 |:-----|:-----|
 |Windows Server 2016  <br/> ||
-|Windows Server 2012 R2 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 R2 Standard OS with all required updates installed.  <br/> |
-|Windows Server 2012 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 Standard OS with all required updates installed.  <br/> |
+|ОС Windows Server 2012 R2 Datacenter с установлены все необходимые обновления.  <br/> |ОС Windows Server 2012 R2 Standard с установлены все необходимые обновления.  <br/> |
+|ОС Windows Server 2012 центра обработки данных с помощью установлены все необходимые обновления.  <br/> |ОС Windows Server 2012 Standard с установлены все необходимые обновления.  <br/> |
    
-If it's not on this list, it won't work properly, please don't try it for new installs of Skype for Business Server 2015.
+Если он не установлен в этом списке, она не будут работать должным образом, не повторите его для новых установок Скайп для Business Server 2015.
   
 > [!NOTE]
 > Можно было заменить, что Windows Server 2008 R2 нет в этом списке. Это связано с тем, что мы рекомендуем Windows Server 2012 R2 для всех новых серверов, используемых для Skype для бизнеса. Windows Server 2008 R2 следует использовать только в том случае, если есть серверы с уже установленной версией Lync Server 2013 и для них планируется обновление на месте. Основной жизненный цикл поддержки Windows Server 2008 R2 завершился 13.01.2015. 
   
 В дополнение к последнему пакету обновления можно проверить установку следующих обновлений (где это уместно):
   
-- Перед обновлением Windows Server 2012 необходимо установить исправления из статьи базы знаний 2858668. [Get it here](https://support.microsoft.com/en-us/kb/2858668/).
+- Перед обновлением Windows Server 2012 необходимо установить исправления из статьи базы знаний 2858668. [Получите его здесь](https://support.microsoft.com/en-us/kb/2858668/).
     
-- Если у вас Windows Server 2012 R2, перед его обновлением установите исправления из статьи базы знаний 2982006. [It's found here](https://support.microsoft.com/en-us/kb/2982006/).
+- Если у вас Windows Server 2012 R2, перед его обновлением установите исправления из статьи базы знаний 2982006. [Можно найти здесь](https://support.microsoft.com/en-us/kb/2982006/).
     
-- If you're upgrading on a Windows Server 2008 R2 box (see the Note above), then you'll want to install KB article 2533623 first. [It's at this link](https://support.microsoft.com/en-us/kb/2533623/).
+- При обновлении на Windows Server 2008 R2 поле (см. Примечание выше), а затем необходимо сначала установить БАЗЫ знаний 2533623. [В этой ссылки](https://support.microsoft.com/en-us/kb/2533623/).
     
 ## <a name="back-end-databases-that-will-work-with-skype-for-business-server-2015"></a>Внутренние базы данных, которые будут работать с Skype для бизнеса Server 2015
 <a name="DBs"> </a>
 
-When installing Skype for Business Server 2015 Standard Edition, you'll have SQL Server 2014 Express (64-bit edition) is automatically installed as well.
+При установке Скайп для Business Server 2015 Standard Edition, вам придется 2014 SQL Server Express (64-разрядная версия), а также автоматически устанавливается.
   
-Skype for Business Server 2015 Enterprise Edition is a little more complicated, but the supported list is below (everything is 64-bit edition, you'll notice, please don't use 32-bit editions):
+Скайп для Business Server 2015 Enterprise Edition немного сложнее, но меньше список поддерживаемых (все возможности 64-разрядный выпуск, можно заметить, можно не использовать 32-разрядные версии):
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2014 Enterprise (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |
-|Microsoft SQL Server 2014 Standard (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-bit edition), and we recommend running with the latest service pack.  <br/> |Microsoft SQL Server 2008 R2 Standard (64-bit edition), and we recommend running with the latest service pack  <br/> |
+|Microsoft SQL Server 2014 Enterprise (64-разрядная версия) и необходимо запустить с накопительный пакет обновления 6 или более поздней версии ([загрузить накопительный пакет обновления 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.  <br/> |
+|Microsoft SQL Server 2014 Standard (64-разрядная версия) и вам необходимо запустить в накопительный пакет обновления 6 или более поздней версии ([загрузить накопительный пакет обновления 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.  <br/> |Microsoft SQL Server 2008 R2 Standard (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления  <br/> |
    
-If you don't see the SQL Server edition you want to use listed here, you can't use it.
+Если нужная выпуск SQL Server, который будет использоваться перечисленных здесь нельзя использовать его.
   
 > [!NOTE]
-> You're also going to need to install SQL Server Reporting Services for the Monitoring Server role, but we need you to know this isn't going to be supported with SQL Always on until post-RTM. 
+> Вам также потребуется для установки служб отчетов SQL Server для роли сервера мониторинга, но необходимо знать, что это не будет поддерживаться всегда SQL на до post-RTM. 
   
 ### <a name="sql-mirroring-sql-clustering-and-sql-always-on"></a>Зеркальное отображение SQL, кластеризация SQL и SQL Always On
 
-You are able to use SQL Mirroring or SQL Clustering with Skype for Business Server 2015, it's supported. SQL Mirroring's set up through the Skype for Business Server Topology Builder. If you're intent on setting up SQL Clustering, that's done in SQL Server.
+Существует возможность использовать зеркальное отображение SQL или кластеризации SQL с Скайп для Business Server 2015, он поддерживается. Зеркалирование SQL Настройка через Скайп для Business Server Topology Builder. Если вы меры по настройке кластеризации SQL, который выполняется на сервере SQL Server.
   
-Make sure you have an active/passive configuration for SQL Clustering, as that's what's supported. Don't share the passive node with any other SQL instance.
+Убедитесь, что у вас есть активная/пассивная конфигурация для кластеризации SQL, как поддерживаемые. Не совместно использовать пассивный узел с другого экземпляра SQL.
   
 Для отказоустойчивой кластеризации требуется следующее.
   
 Два узла:
   
-- Microsoft SQL Server 2014 Standard (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2014 Standard (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
     
--  Microsoft SQL Server 2012 Standard (64-bit edition), and we recommend running with the latest service pack.
+-  Microsoft SQL Server 2012 Standard (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
     
-- Microsoft SQL Server 2008 R2 Standard (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2008 R2 Standard (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
     
 16 узлов:
   
-- Microsoft SQL Server 2014 Enterprise (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2014 Enterprise (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
     
-- Microsoft SQL Server 2012 Enterprise (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2012 Enterprise (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
     
-- Microsoft SQL Server 2008 R2 Enterprise (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2008 R2 Enterprise (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
     
 > [!IMPORTANT]
-> For upgrading, we do want you to ensure that on your Front End Servers you have at least SQL Server 2012 SP1 installed prior to upgrade. [Here's a link](https://www.microsoft.com/en-us/download/details.aspx?id=35575) to SP1 if you want to download it right away.
+> Для обновления, необходимо убедиться, что на серверах переднего плана, у вас есть по крайней мере установлен SQL Server 2012 с пакетом обновления 1 до обновления. [Ниже приводится ссылка](https://www.microsoft.com/en-us/download/details.aspx?id=35575) для пакета обновления 1, если вы хотите загрузить немедленно.
   
-If you need to read up more on SQL Mirroring, we have a Back End Server high availability in Skype for Business Server 2015 topic. Configure SQL Server clustering for Skype for Business Server 2015 has the steps for getting clustering ready. There are also further links on failover clustering for SQL, for [2014](https://technet.microsoft.com/en-us/library/hh231721.aspx), [2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx), and [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
+Если вам потребуется получить дополнительные сведения о зеркального отображения SQL, у нас есть высокой доступности Тыловой сервер в Скайп для раздела Business Server 2015. Настройка кластеризации SQL Server для Скайп для Business Server 2015 включает шаги для получения кластеризации Готово. Существуют дополнительные ссылки на отказоустойчивый кластер для SQL, [2014 г.](https://technet.microsoft.com/en-us/library/hh231721.aspx), [2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx)и [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   
 > [!NOTE]
-> Поддержка SQL Always On — новая возможность в этом выпуске. It is supported, and you can read more about it in the [Back End Server high availability in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) topic.
+> Поддержка SQL Always On — новая возможность в этом выпуске. Он поддерживается, поэтому можно получить дополнительные о нем в разделе [Тыловой сервер высокой доступности в Скайп для Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) .
   
 ## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment"></a>Программное обеспечение, которое следует установить перед развертыванием Skype для бизнеса Server 2015
 <a name="Software"> </a>
 
-There are some things you're going to need to install or configure for any server running Skype for Business Server 2015, and they're listed below. After that are additional requirements for specific server roles.
+Существует несколько действий, которые вы собираетесь необходимы для установки и настройки для сервера под управлением Скайп для Business Server 2015, и они перечислены ниже. После этого приведены дополнительные требования для определенных ролей сервера.
   
  **Все серверы:**
   
-|**Software/Role**|**Сведения**|
+|**Программное обеспечение и роли**|**Сведения**|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • If you're doing the installation on Windows Server 2012 or Windows Server 2012 R2, you're set, because it's already there.  <br/> • If you're doing an upgrade on Windows Server 2008 R2, you can download the [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) to get it. <br/> **Tip:** Once you have the correct PowerShell on there, confirm that it's BuildVersion 6.2.9200.0 or later by going to the PowerShell prompt and typing `$PSVersionTable`. Появится нужная вам информация.  <br/> |
-|Microsoft .NET Framework  <br/> |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, like so: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal, click OK and go ahead. If you don't get this pop-up, then assume those things are already installed, and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2012 R2 or Windows Server 2016 are installed. Skype for Business Server works with the following Microsoft .NET Framework versions:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7 (for Skype for Business Server CU 5 or later releases)  <br/>  .NET Framework 3.5 will likely be installed by default on your Windows Server 2008 R2 machine (definitely check to be sure before you upgrade), but it actually won't be on your Windows Server 2012/Windows Server 2012 R2 servers (for new installations). To add it in, you'll need access to your installation drive or media (the place your Windows Server was installed from, or where the install files are now). Затем продолжите процедуру, установите эту платформу как компонент в диспетчере серверов и укажите путь к установочному носителю (в частности, папку **\sources\sxs**) при появлении соответствующего запроса. <br/> |
-|Media Foundation  <br/> |For Windows Server 2016, Windows Server 2012 and Windows Server 2012 R2 the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.  <br/> |
-|Windows Identity Foundation  <br/> |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2015.  <br/> • For Windows Server 2012 and Windows Server 2012 R2, there's no need to download anything. Откройте **диспетчер серверов** и перейдите к **мастеру добавления ролей и компонентов**. Компонент **Windows Identity Foundation 3.5** перечислен в разделе **Компоненты**. If it's checked, you're good. В противном случае отметьте его и нажмите кнопку "Далее", чтобы перейти к кнопке **Установить**. <br/> |
+|Windows PowerShell 3.0  <br/> |Все Скайп для серверов Business Server должны Windows PowerShell 3.0 установлена.  <br/> • При выполнении установки на Windows Server 2012 или Windows Server 2012 R2, у вас установлен, так как он уже существует.  <br/> • При выполнении обновления на Windows Server 2008 R2, вы можете загрузить [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) , чтобы получить его. <br/> **Совет:** При наличии правильный PowerShell на него, подтвердите, что BuildVersion 6.2.9200.0 или более поздней версии, перейдя на PowerShell запрашивать и введя `$PSVersionTable`. Появится нужная вам информация.  <br/> |
+|Microsoft .NET Framework  <br/> |Службы WCF — **компонента** , который установлен как компонент Windows, в разделе **Диспетчер серверов**, загрузки, не требуется. <br/> •, Необходимую для убедитесь в том, когда вы устанавливаете этот компонент, или если уже установлен и проверяется, что параметр **HTTP-активацию** также проверяются и установлены, следующим образом: <br/> ![Снимок экрана, показывающий вариант HTTP-активации в разделе возможности .NET Framework 4.5. ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)Не выполнения, если вы получаете дополнительные всплывающее окно, о том, некоторые другие действия должны быть установлены для активации HTTP для установки. Это нормально, нажмите кнопку ОК и продолжить. Если вы не получите это всплывающих, затем предполагается, эти действия уже установлены и продолжить.  <br/> Обычно установлена платформа Microsoft .NET Framework при установке Windows Server 2012 R2 или Windows Server 2016. Скайп для Business Server работает со следующими версиями Microsoft .NET Framework:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7 (для Скайп для Business Server накопительный пакет обновления 5 или более поздних версий)  <br/>  .NET framework 3.5 вероятно будет установлен по умолчанию на компьютере Windows Server 2008 R2 (определенно убедитесь, перед обновлением), но он фактически не будут находиться на серверах Windows Server 2012 и Windows Server 2012 R2 (для новых установок). Чтобы добавить его в, вам будет доступ к диске установки или на установочном носителе (место установки Windows Server из или расположение файлов установки, которые теперь). Затем продолжите процедуру, установите эту платформу как компонент в диспетчере серверов и укажите путь к установочному носителю (в частности, папку **\sources\sxs**) при появлении соответствующего запроса. <br/> |
+|Media Foundation  <br/> |Для Windows Server 2016, Windows Server 2012 и Windows Server 2012 R2 среда выполнения установка вместе с Microsoft Foundation мультимедиа.  <br/> Все серверы Standard Edition и серверами переднего плана, используемые для конференц-связи требуется среда выполнения для запуска файлов Windows Media Audio (с расширением WMA), при воспроизведении приложения парковки вызовов, оповещения и группы ответа для объявлений и музыка.  <br/> |
+|Windows Identity Foundation  <br/> |Мы должны Windows Identity Foundation 3.5 для поддержки сценариев проверки подлинности сервер сервер для Скайп для Business Server 2015.  <br/> • Для Windows Server 2012 и Windows Server 2012 R2, нет необходимости загружать что-либо. Откройте **диспетчер серверов** и перейдите к **мастеру добавления ролей и компонентов**. Компонент **Windows Identity Foundation 3.5** перечислен в разделе **Компоненты**. Если он установлен, вы готовы. В противном случае отметьте его и нажмите кнопку "Далее", чтобы перейти к кнопке **Установить**. <br/> |
 |Средства удаленного администрирования сервера  <br/> |Средства администрирования ролей: инструменты AD DS и AD LDS  <br/> |
    
- **Front End Servers and Standard Edition server also need:**
+ **Сервер переднего плана и Standard Edition, потребуется также определить:**
   
-|**Software/Role**|**Сведения**|
+|**Программное обеспечение и роли**|**Сведения**|
 |:-----|:-----|
-|Службы IIS  <br/> |IIS is needed on all Front End Servers, as well as all Standard Edition servers, with the following modules selected:  <br/> • Common HTTP Features: Default Document, HTTP Errors, Static Content  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Performance: Static Content Compression, Dynamic Content Compression  <br/> • Security: Request Filtering, Client Certificate Mapping Authentication, Windows Authentication  <br/> • Application Development: .NET Extensibility 3.5, .NET Extensibility 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI Extensions, ISAPI Filters  <br/> • Management Tools: IIS Management Console, IIS Management Scripts and Tools  <br/> We should also note Anonymous Access is also needed, but you get that when you install IIS, so you don't have a place to select that on the list.  <br/> |
-|Windows Media Format Runtime  <br/> | For Windows Server 2016, Windows Server 2012, and Windows Server 2012 R2, you'll need to install the **Media Foundation** feature in **Server Manager**. Now, you actually can start your Skype for Business Server 2015 installation without this one, but you'll be prompted to install it, and then reboot the server, before the Skype for Business Server 2015 install continues. Лучше сделать это заранее. <br/> |
-|Silverlight  <br/> |You can install the latest version of Silverlight at [this link](https://www.microsoft.com/silverlight/).  <br/> |
+|Службы IIS  <br/> |Службы IIS необходимо на всех серверах переднего плана, а также всех серверов Standard Edition, со следующими модулями выбран:  <br/> • Основные возможности HTTP: по умолчанию статическое содержимое документа, ошибки HTTP  <br/> • Работоспособность и диагностика: HTTP, ведение журнала, средства ведения журнала трассировки  <br/> • Производительности: сжатие статического содержимого, Сжатие динамического содержимого  <br/> • Безопасность: фильтрация запросов, проверка подлинности с сопоставлением сертификата клиента, проверка подлинности Windows  <br/> • Application Development: расширяемость платформы .NET 3.5, расширяемость платформы .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, расширения ISAPI, фильтры ISAPI  <br/> • Средства управления: консоль управления IIS, службы IIS сценарии и средства управления  <br/> Также следует отметить также требовался анонимный доступ, но вы получаете, при установке служб IIS, поэтому у вас нет отправная точка для выбрать его в списке.  <br/> |
+|Windows Media Format Runtime  <br/> | Для Windows Server 2016, Windows Server 2012 и Windows Server 2012 R2 вам потребуются для установки компонента **Базы мультимедиа** в **Диспетчер сервера**. Теперь вашей Скайп для установки Business Server 2015 без, фактически можно начать, но вам будет предложено установить его и выполняет перезагрузку Установка сервера, прежде чем Скайп для Business Server 2015. Лучше сделать это заранее. <br/> |
+|Silverlight  <br/> |Можно установить последнюю версию Silverlight по [ссылке](https://www.microsoft.com/silverlight/).  <br/> |
    
 В качестве помощи в установке приведем ниже пример сценария PowerShell для автоматического запуска:
   
@@ -157,7 +157,7 @@ There are some things you're going to need to install or configure for any serve
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
 ```
 
- **Directors also need:**
+ **Совет директоров, потребуется также определить:**
   
 IIS, с выбранными следующими модулями:
   
@@ -203,7 +203,7 @@ IIS, с выбранными следующими модулями:
     
   - Фильтры ISAPI
     
-(If you're wondering, it's the same module set as the Front End Servers and Standard Edition servers, with the Dynamic Content Compression and Management Tools left out.)
+(Если вам интересно, это тот же модуль задаются в виде сервера Standard Edition и серверами переднего плана с Сжатие динамического содержимого и пропущены средства управления).
   
 Кроме того, для него приводится фрагмент кода PowerShell ниже:
   
@@ -211,12 +211,12 @@ IIS, с выбранными следующими модулями:
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
 ```
 
- **Persistent Chat Servers also need:**
+ **Серверов сохраняемого чата также требуется:**
   
-Очередь сообщений, которая также называется MSMQ. It's a Windows Server component, and you can install it under the Features section in Server Manager. If you want to read more about this, check out [Installing and Managing Message Queuing](https://technet.microsoft.com/en-us/library/cc771474.aspx).
+Очередь сообщений, которая также называется MSMQ. Это компонент Windows Server, и можно установить его в диспетчере сервера в разделе функции. Если вы хотите Подробнее об этом извлечь [Установка и управление очереди сообщений](https://technet.microsoft.com/en-us/library/cc771474.aspx).
   
  **Последние рекомендации:**
   
-Please don't install any Microsoft Internet Security and Acceleration (ISA) Server client software, or any other Winsock Layered Service Providers (LSP) software (any third-party firewalls or anti-virus network inspection software would be included here) on any of your front end servers or standalone mediation servers. Poor media traffic performance has been seen when that software's installed.
+Не установите программное обеспечение Microsoft Internet Security and Acceleration (ISA) Server клиента или другое программное обеспечение поставщиков многоуровневый службы Winsock (LSP), (любой брандмауэры сторонних производителей или программного обеспечения проверка на наличие вирусов сети будут включены здесь) на любой из серверов переднего плана или изолированных серверов-посредников. При установке программного обеспечения корпорации наблюдалась производительности трафика мультимедиа низкого уровня.
   
 

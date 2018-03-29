@@ -167,16 +167,16 @@ ms.lasthandoff: 03/28/2018
     
 |**Расположение**|**Тип**|**Порт**|**Полное доменное имя или DNS-запись**|**IP-адрес или полное доменное имя**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Внешняя DNS  <br/> |Запись  <br/> |NA  <br/> |sip.contoso.com  <br/> |**общедоступных:** 131.107.155.10 <br/> **закрытый:** 10.45.16.10 <br/> |Внешний интерфейс пограничного сервера доступа службы. Один для каждого домена SIP с Скайп необходимо для коммерческих пользователей.  <br/> |
+|Внешняя DNS  <br/> |Запись  <br/> |NA  <br/> |SIP.contoso.com  <br/> |**общедоступных:** 131.107.155.10 <br/> **закрытый:** 10.45.16.10 <br/> |Внешний интерфейс пограничного сервера доступа службы. Один для каждого домена SIP с Скайп необходимо для коммерческих пользователей.  <br/> |
 |Внешняя DNS  <br/> |Запись  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**общедоступных:** 131.107.155.20 <br/> **закрытый:** 10.45.16.20 <br/> |Внешний интерфейс для службы Web пограничный сервер конференций.  <br/> |
 |Внешняя DNS  <br/> |Запись  <br/> |NA  <br/> |AV.contoso.com  <br/> |**общедоступных:** 131.107.155.30 <br/> **закрытый:** 10.45.16.30 <br/> |Внешний интерфейс для вашей A / V Edge службы.  <br/> |
 |Внешняя DNS  <br/> |SRV-запись  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |SIP.contoso.com  <br/> |Внешний интерфейс пограничного сервера доступа службы. Эта запись SRV необходима для Скайп для клиентов Business Server 2015, Lync Server 2013 и Lync Server 2010 для работы извне. Один для каждого домена с Скайп необходимо для коммерческих пользователей.  <br/> |
-|Внешняя DNS  <br/> |SRV-запись  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Внешний интерфейс пограничного сервера доступа службы. Эта запись SRV необходима для автоматического обнаружения DNS федеративных партнеров, вызов SIP-разрешенных доменов. Один для каждого домена с Скайп необходимо для коммерческих пользователей.  <br/> |
-|Внутренняя DNS  <br/> |Запись  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |Внутренний интерфейс для консолидированной среды пограничного сервера.  <br/> |
+|Внешняя DNS  <br/> |SRV-запись  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |SIP.contoso.com  <br/> |Внешний интерфейс пограничного сервера доступа службы. Эта запись SRV необходима для автоматического обнаружения DNS федеративных партнеров, вызов SIP-разрешенных доменов. Один для каждого домена с Скайп необходимо для коммерческих пользователей.  <br/> |
+|Внутренняя DNS  <br/> |Запись  <br/> |NA  <br/> |sfvedge.contoso.NET  <br/> |172.25.33.10  <br/> |Внутренний интерфейс для консолидированной среды пограничного сервера.  <br/> |
    
-### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>DNS records for Scaled DNS and hardware Edge Server scenarios
+### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>DNS-записей для масштабированной DNS и сценарии оборудование пограничного сервера
 
-These will be the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Because this is sample data, we'll give example IPs so you can work out your own entries more easily:
+Это будут DNS-записей, которые вы собираетесь требуются для на одном пограничном сервере с помощью любого из общего IP-адреса или частных IP-адреса с преобразование сетевых адресов. Так как это демонстрационных данных дается пример IP-адреса, чтобы упростить работу свои собственные записи:
   
 - Внутренний сетевой адаптер:
     
@@ -197,103 +197,103 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
         - Пограничный сервер конференций Web: 131.107.155.20 (дополнительный)
     
-        - A/V Edge: 131.107.155.30 (secondary)
+        - A / V Edge: 131.107.155.30 (дополнительный)
     
-          Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+          Веб-конференций и A / V Edge общедоступный IP-адреса, Дополнительные (дополнительный) IP-адресов в разделе Дополнительно свойства протокола Интернета версии 4 (TCP/IPv4) и протокола Интернета версии 6 (TCP/IPv6) из свойств подключения локальной сети в Windows Server.
     
     - Закрытые IP-адреса:
     
-         - Access Edge: 10.45.16.10 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
+         - Пограничный сервер доступа: 10.45.16.10 (основной шлюз по умолчанию задан маршрутизатор, например: 10.45.16.1)
     
-         - Web Conferencing Edge: 10.45.16.20 (secondary)
+         - Пограничный сервер конференций Web: 10.45.16.20 (дополнительный)
     
-         - A/V Edge: 10.45.16.30 (secondary)
+         - A / V Edge: 10.45.16.30 (дополнительный)
     
-      Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+      Веб-конференций и A / V Edge общедоступный IP-адреса, Дополнительные (дополнительный) IP-адресов в разделе Дополнительно свойства протокола Интернета версии 4 (TCP/IPv4) и протокола Интернета версии 6 (TCP/IPv6) из свойств подключения локальной сети в Windows Server.
     
   - Узел 2
     
      - Общедоступные IP-адреса:
     
-       - Access Edge: 131.107.155.11 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
+       - Пограничный сервер доступа: 131.107.155.11 (основной шлюз по умолчанию задан в общедоступный маршрутизатор, например: 131.107.155.1)
     
-       - Web Conferencing Edge: 131.107.155.21 (secondary)
+       - Пограничный сервер конференций Web: 131.107.155.21 (дополнительный)
     
-       - A/V Edge: 131.107.155.31 (secondary)
+       - A / V Edge: 131.107.155.31 (дополнительный)
     
-      Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+      Веб-конференций и A / V Edge общедоступный IP-адреса, Дополнительные (дополнительный) IP-адресов в разделе Дополнительно свойства протокола Интернета версии 4 (TCP/IPv4) и протокола Интернета версии 6 (TCP/IPv6) из свойств подключения локальной сети в Windows Server.
     
   - Закрытые IP-адреса:
     
-      - Access Edge: 10.45.16.11 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
+      - Пограничный сервер доступа: 10.45.16.11 (основной шлюз по умолчанию задан маршрутизатор, например: 10.45.16.1)
     
-      - Web Conferencing Edge: 10.45.16.21 (secondary)
+      - Пограничный сервер конференций Web: 10.45.16.21 (дополнительный)
     
-      - A/V Edge: 10.45.16.31 (secondary)
+      - A / V Edge: 10.45.16.31 (дополнительный)
     
-      Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+      Веб-конференций и A / V Edge общедоступный IP-адреса, Дополнительные (дополнительный) IP-адресов в разделе Дополнительно свойства протокола Интернета версии 4 (TCP/IPv4) и протокола Интернета версии 6 (TCP/IPv6) из свойств подключения локальной сети в Windows Server.
     
 Возможны другие конфигурации:
   
-- Можно использовать один IP-адрес для внешнего сетевого адаптера. We don't recommend this because then you're going to need to differentiate between the thee services using different ports (which you can do in Skype for Business Server) but there are some firewalls that may block the alternate ports. Дополнительные сведения см. в статье [Планирование порта и брандмауэра](edge-environmental-requirements.md#PortFirewallPlan).
+- Можно использовать один IP-адрес для внешнего сетевого адаптера. Мы не рекомендуем так как затем вам потребуется для различения тебя служб с помощью различных портов (которые вы можете сделать в Скайп для Business Server), но существуют некоторые брандмауэры, может блокировать альтернативного порты. Дополнительные сведения см. в статье [Планирование порта и брандмауэра](edge-environmental-requirements.md#PortFirewallPlan).
     
 - Можно назначить три внешних сетевых адаптера вместо одного и назначить один из IP-адресов службы каждому из них. Это разделит службы, если возникнут проблемы, то есть позволит упростить устранение неполадок и обеспечит бесперебойную работу служб несмотря на сбои.
     
-|**Расположение**|**Type**|**Порт**|**FQDN or DNS record**|**IP address or FQDN**|**Примечания**|
+|**Расположение**|**Тип**|**Порт**|**Полное доменное имя или DNS-запись**|**IP-адрес или полное доменное имя**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Внешняя DNS  <br/> |Запись  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 and 131.107.155.11 <br/> **private:** 10.45.16.10 and 10.45.16.11 <br/> |An external interface for your Access Edge service. You'll need one for every SIP domain with Skype for Business users.  <br/> |
-|Внешняя DNS  <br/> |Запись  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 and 131.107.155.21 <br/> **private:** 10.45.16.20 and 10.45.16.21 <br/> |An external interface for your Web Conferencing Edge service.  <br/> |
-|Внешняя DNS  <br/> |Запись  <br/> |NA  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 and 131.107.155.31 <br/> **private:** 10.45.16.30 and 10.45.16.31 <br/> |An external interface for your A/V Edge service.  <br/> |
-|Внешняя DNS  <br/> |SRV-запись  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |An external interface for your Access Edge service. This SRV record is required for Skype for Business Server 2015, Lync Server 2013, and Lync Server 2010 clients to work externally. You'll need one for every domain with Skype for Business.  <br/> |
-|Внешняя DNS  <br/> |SRV-запись  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |An external interface for your Access Edge service. This SRV record is required for automatic DNS discovery of federated partners called Allowed SIP domains. You'll need one for every domain with Skype for Business.  <br/> |
-|Внутренняя DNS  <br/> |Запись  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 и 172.25.33.11  <br/> |Внутренний интерфейс для консолидированной среды пограничного сервера.  <br/> |
+|Внешняя DNS  <br/> |Запись  <br/> |NA  <br/> |SIP.contoso.com  <br/> |**Общие:** 131.107.155.10 и 131.107.155.11 <br/> **частная:** 10.45.16.10 и 10.45.16.11 <br/> |Внешний интерфейс пограничного сервера доступа службы. Один для каждого домена SIP с Скайп необходимо для коммерческих пользователей.  <br/> |
+|Внешняя DNS  <br/> |Запись  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**Общие:** 131.107.155.20 и 131.107.155.21 <br/> **частная:** 10.45.16.20 и 10.45.16.21 <br/> |Внешний интерфейс для службы Web пограничный сервер конференций.  <br/> |
+|Внешняя DNS  <br/> |Запись  <br/> |NA  <br/> |AV.contoso.com  <br/> |**Общие:** 131.107.155.30 и 131.107.155.31 <br/> **частная:** 10.45.16.30 и 10.45.16.31 <br/> |Внешний интерфейс для вашей A / V Edge службы.  <br/> |
+|Внешняя DNS  <br/> |SRV-запись  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |SIP.contoso.com  <br/> |Внешний интерфейс пограничного сервера доступа службы. Эта запись SRV необходима для Скайп для клиентов Business Server 2015, Lync Server 2013 и Lync Server 2010 для работы извне. Один для каждого домена с Скайп необходимо для бизнеса.  <br/> |
+|Внешняя DNS  <br/> |SRV-запись  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |SIP.contoso.com  <br/> |Внешний интерфейс пограничного сервера доступа службы. Эта запись SRV необходима для автоматического обнаружения DNS федеративных партнеров, вызов SIP-разрешенных доменов. Один для каждого домена с Скайп необходимо для бизнеса.  <br/> |
+|Внутренняя DNS  <br/> |Запись  <br/> |NA  <br/> |sfvedge.contoso.NET  <br/> |172.25.33.10 и 172.25.33.11  <br/> |Внутренний интерфейс для консолидированной среды пограничного сервера.  <br/> |
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>DNS-запись для федерации (все сценарии)
 
-|**Расположение**|**Type**|**Порт**|**FQDN**|**FQDN host record**|**Примечания**|
+|**Расположение**|**Тип**|**Порт**|**ПОЛНОЕ ДОМЕННОЕ ИМЯ**|**Запись узла полного доменного ИМЕНИ**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Внешняя DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |The SIP Access Edge external interface required for automatic DNS discovery. Used by your other potential federation partners. It's also known as "Allow SIP domains." You'll need one of these for each SIP domain with Skype for Business users.  <br/><br/> **Note:** You will need this SRV record for mobility and the push notification clearing house. <br/> |
+|Внешняя DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |SIP.contoso.com  <br/> |Интерфейс внешнего SIP пограничного сервера доступа, необходимых для автоматического обнаружения DNS. Используемый вашей других потенциальных федеративных партнеров. Он также называется «Разрешить доменов SIP». Вам понадобится одно из следующих для каждого домена SIP с Скайп для коммерческих пользователей.  <br/><br/> **Примечание:** Эта запись SRV потребуется для мобильных устройств и расчетной палаты push-уведомлений. <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>DNS-записи для протокола Extensible Messaging and Presence Protocol
 
-|**Расположение**|**Type**|**Порт**|**FQDN**|**IP address or FQDN host record**|**Примечания**|
+|**Расположение**|**Тип**|**Порт**|**ПОЛНОЕ ДОМЕННОЕ ИМЯ**|**Запись IP-адрес или полное доменное имя узла**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Внешняя DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |The XMPP proxy interface on your Access Edge service or Edge pool. You need to repeat this as needed for all internal SIP domains with Skype for Business enabled users, where contact with XMPP contacts is allowed through:  <br/> • a global policy  <br/> • a site policy where the user's enabled  <br/> • a user policy applied to the Skype for Business enabled user  <br/> Необходимо также сконфигурировать разрешенную политику XMPP в политике федеративных партнеров XMPP.  <br/> |
-|Внешняя DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |IP address of the Access Edge service on the Edge Server or Edge pool hosting your XMPP Proxy service  <br/> |This points to the Access Edge service on the Edge Server or Edge pool that hosts the XMPP Proxy service. Typically the SRV record that you create will point to this host (A or AAAA) record.  <br/> |
+|Внешняя DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp server._tcp.contoso.com  <br/> |XMPP.contoso.com  <br/> |Интерфейс прокси-сервера XMPP на Пограничная служба доступа или пограничный пул. Вам необходимо повторите эти шаги при необходимости для всех внутренних доменов SIP с Скайп для бизнес-поддержкой пользователей, где разрешенный контакт с контактами XMPP:  <br/> • глобальной политики  <br/> • политики сайта, где enabled пользователя  <br/> пользователю, разрешенному • политика пользователя, применяемая к Скайп для бизнеса  <br/> Необходимо также сконфигурировать разрешенную политику XMPP в политике федеративных партнеров XMPP.  <br/> |
+|Внешняя DNS  <br/> |SRV  <br/> |A  <br/> |XMPP.contoso.com  <br/> |IP-адрес службы пограничного сервера доступа на пограничный сервер или пограничный пул размещение службы прокси-сервера XMPP  <br/> |Этот атрибут указывает Пограничная служба доступа на пограничный сервер или пограничный пул, в котором размещается служба прокси-сервера XMPP. Обычно SRV-записи, создаваемого будет указывать данной записи узла (A или AAAA).  <br/> |
    
 ## <a name="certificate-planning"></a>Планирование сертификации
 <a name="CertPlan"> </a>
 
-Skype for Business Server 2015 uses certificates for secure, encrypted communications both between servers and from server to client. Как и можно было ожидать, для сертификатов понадобятся DNS-записи, чтобы серверы подходили любому имени субъекта (SN) и альтернативному имени субъекта (SAN) в сертификатах. Это требует принятия определенных мер на стадии планирования, для регистрации подходящих полных доменных имен в DNS для записей SN и SAN ваших сертификатов.
+Скайп для Business Server 2015 использует сертификаты для защищенного, шифрованного соединения связи между серверами, а также от сервера к клиенту. Как и можно было ожидать, для сертификатов понадобятся DNS-записи, чтобы серверы подходили любому имени субъекта (SN) и альтернативному имени субъекта (SAN) в сертификатах. Это требует принятия определенных мер на стадии планирования, для регистрации подходящих полных доменных имен в DNS для записей SN и SAN ваших сертификатов.
   
 Мы рассмотрим требования к внешним и внутренним сертификатам по отдельности, а затем ознакомимся с таблицей, в которой объединены и те, и другие требования.
   
 ### <a name="external-certificates"></a>Внешние сертификаты
 
-At a minimum, the certificate assigned to your external Edge Server interfaces will need to be provided by a public Certificate Authority (CA). We can't recommend a specific CA to you, but we do have a list of CAs, [Unified Communications certificate partners](https://support.microsoft.com/en-us/kb/929395) that you can take a look at to see if your preferred CA is listed.
+Как минимум сертификату, назначенному вашей внешним интерфейсам пограничного сервера, необходимо предоставить с общей сертификации (ЦС). Вам не удается рекомендуется определенный ЦС, но у нас есть список управления доступом для кода, [Партнеры по сертификатам платформы объединенных коммуникаций](https://support.microsoft.com/en-us/kb/929395) , посмотрите может занять представлено ли предпочтительный ЦС списке.
   
 Когда и как отравлять запрос на получение общедоступного сертификата в центр сертификации? Есть несколько способов.
   
-- You can go through the installation of Skype for Business Server, and then the Edge Server deployment. The Skype for Business Server Deployment Wizard will have a step to generate a certificate request, which you can then send to your chosen CA.
+- Можно выполнить установку Скайп Business Server, а затем развертывания пограничного сервера. Скайп для мастера развертывания сервера Business будут иметь шаг для создания запроса на сертификат, который затем можно отправить выбранную ЦС.
     
-- You can also use Windows PowerShell commands to generate this request, if that's more inline with your business needs or deployment strategy.
+- Также можно использовать команды Windows PowerShell для создания этого запроса, если это больше встроенное вместе с бизнес-требованиям или стратегии развертывания.
     
-- Finally, your CA may have their own submission process, which may also involve Windows PowerShell or another method. В этом случае вы должны будете обратиться к документации центра сертификации в дополнение к представленной здесь информации.
+- И, наконец имеется ли ЦС может иметь свои собственные процедура отправки, который может включать Windows PowerShell или другой метод. В этом случае вы должны будете обратиться к документации центра сертификации в дополнение к представленной здесь информации.
     
-After you've gotten the certificate, you'll need to go ahead and assign it to these services in Skype for Business Server:
+После вы получили сертификат, то необходимо дальше и назначьте его этих служб в Скайп Business Server:
   
-- Access Edge service interface
+- Интерфейс службы пограничного сервера доступа
     
-- Web Conferencing Edge service interface
+- Интерфейс веб-конференций службы
     
-- Audio/Video Authentication service (don't confuse this with the A/V Edge service, as that doesn't use a certificate to encrypt audio and video streams)
+- Служба проверки подлинности аудио/видео (не следует путать с A / V Edge службы, что и не использует сертификат для шифрования аудио- и видеопотоков)
     
 > [!IMPORTANT]
 > Все пограничные серверы должны использовать один и тот же сертификат с одним и тем же закрытым ключом для службы проверки подлинности при ретрансляции мультимедиа. 
   
 ### <a name="internal-certificates"></a>Внутренние сертификаты
 
-For the internal Edge Server interface, you can use a public certificate from a public CA, or a certificate issued from your organization's internal CA. The thing to remember about the internal certificate is that it uses an SN entry, and no SAN entries, so you don't have to worry about SAN on the internal cert at all.
+Для внутреннего интерфейса пограничного сервера можно использовать общедоступный сертификат из общедоступного центра сертификации или сертификата, выданного внутренним ЦС вашей организации. Нужно помнить о внутреннего сертификата —, что используется запись SN и нет записи альтернативного имени СУБЪЕКТА, у вас нет заниматься SAN на внутренний сертификат на всех.
   
 ### <a name="required-certificates-table"></a>Таблица "Обязательные сертификаты"
 
@@ -307,71 +307,71 @@ For the internal Edge Server interface, you can use a public certificate from a 
     
 #### <a name="edge-certificate-table"></a>Таблица "Сертификат пограничного сервера"
 
-Regardless of whether you're doing a single Edge Server or an Edge pool, this is what you'll need for your certificate:
+Независимо от того, является ли вы выполняете отдельного пограничного сервера или пограничный пул Вот что нам понадобится для вашего сертификата:
   
-|**Компонент**|**Subject name (SN)**|**Subject alternative names (SAN)/order**|**Примечания**|
+|**Компонент**|**Имя субъекта (SN)**|**Альтернативные имена субъектов (SAN) / порядок**|**Примечания**|
 |:-----|:-----|:-----|:-----|
-|Внешняя пограничная служба  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |Этот сертификат потребуется запросить в общедоступном ЦС и назначить его внешним интерфейсам пограничного сервера для следующих целей:<br/> • Access Edge  <br/> • Web Conferencing Edge  <br/> • Audio/Video Authentication  <br/> <br/>The good news is that SANs are automatically added to your certificate request, and therefore your certificate after you submit the request, based on what you defined for this deployment in Topology Builder. You'll only need to add SAN entries for any additional SIP domains or other entries you need to support. Why is sip.contoso.com replicated in this instance? That happens automatically as well, and it's needed for things to work properly.  <br/><br/> **Note:** This certificate can also be used for Public Instant Messaging connectivity. Эта процедура ничем не изменилась, но в предыдущих версиях этой документации она была  представлена в отдельной таблице. <br/> |
+|Внешняя пограничная служба  <br/> |SIP.contoso.com  <br/> |SIP.contoso.com  <br/> webcon.contoso.com  <br/> SIP.Fabrikam.com  <br/> |Этот сертификат потребуется запросить в общедоступном ЦС и назначить его внешним интерфейсам пограничного сервера для следующих целей:<br/> • Пограничного сервера доступа  <br/> • Web конференц-связи пограничного сервера  <br/> • Проверка подлинности аудио/видео  <br/> <br/>Хорошо то, что SAN, автоматически добавляются в запросе сертификата, и таким образом своего сертификата после можно отправить запрос, на основании определенных для развертывания в построителе топологий. Только необходимо добавить записи альтернативного имени СУБЪЕКТА для всех дополнительных доменов SIP или другие записи, которые должны поддерживать. Почему sip.contoso.com репликации в этом экземпляре? Который происходит автоматически, а также, и она необходима для выполнения задач для правильной работы.  <br/><br/> **Примечание:** Этот сертификат можно также использовать для общедоступных служб обмена мгновенными сообщениями. Эта процедура ничем не изменилась, но в предыдущих версиях этой документации она была  представлена в отдельной таблице. <br/> |
 |Внутренняя пограничная служба  <br/> |sfbedge.contoso.com  <br/> |NA  <br/> |Этот сертификат можно получить в общедоступном или внутреннем центре сертификации. Сертификат должен содержать расширенное использование ключа (EKU), и его необходимо назначить внутреннему интерфейсу пограничного сервера.  <br/> |
    
 Если для расширяемого протокола XMPP требуется сертификат, он будет идентичен приведенным выше записям таблицы внешнего пограничного сервера, но при этом будет содержать две дополнительные записи альтернативного имени субъекта:
   
-- xmpp.contoso.com
+- XMPP.contoso.com
     
-- \*.contoso.com
+- \*. contoso.com
     
 Помните о том, что в настоящее время протокол XMPP поддерживается только для Google Talk. Чтобы использовать его для других целей, необходимо подтвердить использование сторонних функций.
   
 ## <a name="port-and-firewall-planning"></a>Планирование порта и брандмауэра
 <a name="PortFirewallPlan"> </a>
 
-Getting your planning right for ports and firewalls for Skype for Business Server Edge Server deployments can save you days or weeks of troubleshooting and stress. As a result, we're going to list a couple of tables that will indicate our protocol usage and what ports you need to have open, inbound and outbound, both for NAT and public IP scenarios. We'll also have separate tables for hardware load balanced scenarios (HLB) and some further guidance on that. For more reading from there, we also have [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md), as well as some [Edge Server scenarios in Skype for Business Server 2015](scenarios.md) you can check out for your particular deployment concerns.
+Начало при планировании вправо для портов и межсетевые экраны Скайп для пограничного сервера Business Server развертываний можно сэкономить дней и даже недель устранения неполадок и приложите. В результате мы получение списка две таблицы, которые будут указаны наших использования протокола и какие порты необходимо открыть, входящих и исходящих, как для преобразования сетевых адресов и сценарии общедоступный IP-адрес. Мы будем также иметь отдельные таблицы для сценариев с балансировкой нагрузки оборудования (аппаратного балансировщика Нагрузки) и некоторые дополнительные рекомендации. Для более чтения из него также есть [Технические графики для Скайп для Business Server 2015](../../technical-diagrams.md), а также некоторые [сценарии пограничного сервера в Скайп для Business Server 2015](scenarios.md) , возможность извлечения для конкретного развертывания проблем.
   
 ### <a name="general-protocol-usage"></a>Общие сведения об использовании протоколов
 
 Прежде чем приступить к обсуждению сводных таблиц для внешних и внутренних брандмауэров, рассмотрим следующую таблицу:
   
-|**Audio/Video transport**|**Usage**|
+|**Аудио и видео транспорта**|**Об использовании**|
 |:-----|:-----|
 |UDP  <br/> |Предпочитаемый протокол транспортного уровня для аудио- и видеоданных.  <br/> |
-|TCP  <br/> |Резервный протокол транспортного уровня для аудио- и видеоданных.  <br/> The required transport layer protocol for application sharing to Skype for Business Server 2015, Lync Server 2013, and Lync Server 2010.  <br/> The required transport layer protocol for file transfer to Skype for Business Server 2015, Lync Server 2013, and Lync Server 2010.  <br/> |
+|TCP  <br/> |Резервный протокол транспортного уровня для аудио- и видеоданных.  <br/> Обязательный транспортный протокол для совместного использования Скайп Business Server 2015, Lync Server 2013 и Lync Server 2010.  <br/> Обязательный транспортный протокол для передачи файлов для Скайп Business Server 2015, Lync Server 2013 и Lync Server 2010.  <br/> |
    
 ### <a name="external-port-firewall-summary-table"></a>Таблица сводки по брандмауэру внешних портов
 
-Исходный IP-адрес и конечный IP-адрес будут содержать информацию для пользователей, использующих частные IP-адреса с NAT, а также для людей, использующих общедоступные IP-адреса. This will cover all the permutations in our [Edge Server scenarios in Skype for Business Server 2015](scenarios.md) section.
+Исходный IP-адрес и конечный IP-адрес будут содержать информацию для пользователей, использующих частные IP-адреса с NAT, а также для людей, использующих общедоступные IP-адреса. Охватывает все перестановок в разделе « [сценарии пограничного сервера в Скайп для Business Server 2015](scenarios.md) ».
   
-|**Role or protocol**|**TCP or UDP**|**Destination Port or port range**|**Source IP address**|**Destination IP address**|**Примечания**|
+|**Роль или протокола**|**TCP / UDP-ПОРТ**|**Конечный порт или порт диапазона**|**Исходный IP-адрес**|**Конечный IP-адрес**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> |TCP  <br/> |5269  <br/> |Любой  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service  <br/> |The XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations.  <br/> |
-|Доступ/HTTP  <br/> |TCP  <br/> |80  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Любой  <br/> |Отзыв сертификата и проверка и поиск CRL.  <br/> |
-|Доступ/DNS  <br/> |TCP  <br/> |53  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Любой  <br/> |DNS-запрос по протоколу TCP.  <br/> |
-|Доступ/DNS  <br/> |UDP  <br/> |53  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Любой  <br/> |DNS-запрос по протоколу UDP.  <br/> |
-|Доступ/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Трафик SIP от клиента к серверу для доступа внешних пользователей.  <br/> |
-|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Любой  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Для федеративного подключения и подключения к общедоступным службам обмена мгновенными сообщениями с помощью SIP.  <br/> |
-|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Любой  <br/> |Для федеративного подключения и подключения к общедоступным службам обмена мгновенными сообщениями с помощью SIP.  <br/> |
-|Веб-конференции/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Private IP using NAT:** Edge Server Web Conferencing Edge service <br/> **Public IP:** Edge Server Web Conferencing Edge service service public IP address <br/> |Web conferencing media.  <br/> |
-|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**Private IP using NAT:** Edge Server A/V Edge service service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Любой  <br/> |Используется для ретрансляции трафика мультимедиа.  <br/> |
-|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**Private IP using NAT:** Edge Server A/V Edge service service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Любой  <br/> |Используется для ретрансляции трафика мультимедиа.  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Любой  <br/> |Исходящий порт 3478:   <br/> • Used by Skype for Business Server to determine the version of Edge Server it's communicating with.  <br/> • Used for media traffic between Edge Servers.  <br/> • Required for federation with Lync Server 2010.  <br/> • Needed if multiple Edge pools are deployed within your organization.  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Любой  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |STUN/TURN – согласование кандидатов по протоколу UDP и порту 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |STUN/TURN – согласование кандидатов по протоколу TCP и порту 443.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Любой  <br/> |STUN/TURN – согласование кандидатов по протоколу TCP и порту 443.  <br/> |
+|XMPP  <br/> |TCP  <br/> |5269  <br/> |Любой  <br/> |Служба прокси-сервера XMPP (общий IP-адрес со службой пограничного доступа  <br/> |Служба прокси-сервера XMPP принимает трафик от контактов XMPP в определенных федерациях XMPP.  <br/> |
+|Доступ/HTTP  <br/> |TCP  <br/> |80  <br/> |**Частных IP-адресов с помощью NAT:** Служба пограничного сервера доступа пограничного сервера <br/> **Общедоступный IP-адрес:** Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес <br/> |Любой  <br/> |Отзыв сертификата и проверка и поиск CRL.  <br/> |
+|Доступ/DNS  <br/> |TCP  <br/> |53  <br/> |**Частных IP-адресов с помощью NAT:** Служба пограничного сервера доступа пограничного сервера <br/> **Общедоступный IP-адрес:** Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес <br/> |Любой  <br/> |DNS-запрос по протоколу TCP.  <br/> |
+|Доступ/DNS  <br/> |UDP  <br/> |53  <br/> |**Частных IP-адресов с помощью NAT:** Служба пограничного сервера доступа пограничного сервера <br/> **Общедоступный IP-адрес:** Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес <br/> |Любой  <br/> |DNS-запрос по протоколу UDP.  <br/> |
+|Доступ/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Частных IP-адресов с помощью NAT:** Служба пограничного сервера доступа пограничного сервера <br/> **Общедоступный IP-адрес:** Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес <br/> |Трафик SIP от клиента к серверу для доступа внешних пользователей.  <br/> |
+|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Любой  <br/> |**Частных IP-адресов с помощью NAT:** Служба пограничного сервера доступа пограничного сервера <br/> **Общедоступный IP-адрес:** Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес <br/> |Для федеративного подключения и подключения к общедоступным службам обмена мгновенными сообщениями с помощью SIP.  <br/> |
+|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Частных IP-адресов с помощью NAT:** Служба пограничного сервера доступа пограничного сервера <br/> **Общедоступный IP-адрес:** Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес <br/> |Любой  <br/> |Для федеративного подключения и подключения к общедоступным службам обмена мгновенными сообщениями с помощью SIP.  <br/> |
+|Веб-конференции/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Частных IP-адресов с помощью NAT:** Пограничный сервер Web Пограничная служба конференций <br/> **Общедоступный IP-адрес:** Пограничный сервер, пограничный сервер конференц-связи Web службы службы общедоступный IP-адрес <br/> |Веб-медиа конференц-связи.  <br/> |
+|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**Частных IP-адресов с помощью NAT:** Пограничный сервер аудио- и видеоконференций пограничного сервера служба — служба <br/> **Общедоступный IP-адрес:** Пограничный сервер A / V Edge общедоступный IP-адрес службы <br/> |Любой  <br/> |Используется для ретрансляции трафика мультимедиа.  <br/> |
+|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**Частных IP-адресов с помощью NAT:** Пограничный сервер аудио- и видеоконференций пограничного сервера служба — служба <br/> **Общедоступный IP-адрес:** Пограничный сервер A / V Edge общедоступный IP-адрес службы <br/> |Любой  <br/> |Используется для ретрансляции трафика мультимедиа.  <br/> |
+|-И ВИДЕОДАННЫЕ/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |**Частных IP-адресов с помощью NAT:** Пограничный сервер A / V Edge службы <br/> **Общедоступный IP-адрес:** Пограничный сервер A / V Edge общедоступный IP-адрес службы <br/> |Любой  <br/> |Исходящий порт 3478:   <br/> • Используется для определения версии пограничного сервера соединен с Скайп для Business Server.  <br/> •, Используемый для трафика мультимедиа между пограничных серверов.  <br/> • Для федерации с Lync Server 2010.  <br/> • Требуется, если несколько пулов пограничных развертываются в организации.  <br/> |
+|-И ВИДЕОДАННЫЕ/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |Любой  <br/> |**Частных IP-адресов с помощью NAT:** Пограничный сервер A / V Edge службы <br/> **Общедоступный IP-адрес:** Пограничный сервер A / V Edge общедоступный IP-адрес службы <br/> |STUN/TURN – согласование кандидатов по протоколу UDP и порту 3478.  <br/> |
+|-И ВИДЕОДАННЫЕ/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Частных IP-адресов с помощью NAT:** Пограничный сервер A / V Edge службы <br/> **Общедоступный IP-адрес:** Пограничный сервер A / V Edge общедоступный IP-адрес службы <br/> |STUN/TURN – согласование кандидатов по протоколу TCP и порту 443.  <br/> |
+|-И ВИДЕОДАННЫЕ/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |**Частных IP-адресов с помощью NAT:** Пограничный сервер A / V Edge службы <br/> **Общедоступный IP-адрес:** Пограничный сервер A / V Edge общедоступный IP-адрес службы <br/> |Любой  <br/> |STUN/TURN – согласование кандидатов по протоколу TCP и порту 443.  <br/> |
    
 ### <a name="internal-port-firewall-summary-table"></a>Таблица сводки по брандмауэру внутренних портов
 
-|**Protocol**|**TCP or UDP**|**Порт**|**Source IP address**|**Destination IP address**|**Примечания**|
+|**Протокол**|**TCP / UDP-ПОРТ**|**Порт**|**Исходный IP-адрес**|**Конечный IP-адрес**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Любая среда, в которой работает служба шлюза XMPP:  <br/> • Front End Server  <br/> • Front End pool  <br/> |Edge Server internal interface  <br/> |Outbound XMPP traffic from your XMPP Gateway service running on your Front End Server or Front End pool.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Любая:  <br/> • Director  <br/> • Director pool  <br/> • Front End Server  <br/> • Front End pool  <br/> |Edge Server internal interface  <br/> |Outbound SIP traffic from your Director, Director pool, Front End Server or Front End pool to your Edge Server internal interface.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Edge Server internal interface  <br/> |Любая:  <br/> • Director  <br/> • Director pool  <br/> • Front End Server  <br/> • Front End pool  <br/> |Inbound SIP traffic to your Director, Director pool, Front End Server, or Front End pool from your Edge Server internal interface.  <br/> |
-|PSOM/MTLS/8057  <br/> |TCP  <br/> |8057  <br/> |Любая:  <br/> • Front End Server  <br/> • Each Front End Server  <br/>  in your Front End pool <br/> |Edge Server internal interface  <br/> |Web conferencing traffic from your Front End Server or each Front End Server (if you have a Front End pool) to your Edge Server internal interface.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Любая:  <br/> • Front End Server  <br/> • Front End pool  <br/> • Any Survivable Branch Appliance using this Edge Server  <br/> • Any Survivable Branch Server using this Edge Server  <br/> |Edge Server internal interface  <br/> |Authentication of A/V users from your Front End Server or Front End pool, or your Survivable Branch Appliance or Survivable Branch Server, using your Edge Server.  <br/> |
-|UDP (STUN/MSTURN)  <br/> |UDP  <br/> |3478  <br/> |Любой  <br/> |Edge Server internal interface  <br/> |Preferred path for A/V media transfer between your internal and external users and your Survivable Branch Appliance or Survivable Branch Server.  <br/> |
-|UDP (STUN/MSTURN)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |Edge Server internal interface  <br/> |Fallback path for A/V media transfer between your internal and external users and your Survivable Branch Appliance or Survivable Branch Server, if UDP communication doesn't work. Для передачи файлов и общего доступа к рабочему столу используется TCP.  <br/> |
-|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Любая:  <br/> • Front End Server that holds the Central Management store  <br/> • Front End pool that holds the Central Management store  <br/> |Edge Server internal interface  <br/> |Replication of changes from your Central Management store store to your Edge Server.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |Любой  <br/> |Edge Server internal interface  <br/> |Centralized Logging Service controller using Skype for Business Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |Любой  <br/> |Edge Server internal interface  <br/> |Centralized Logging Service controller using Skype for Business Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |Любой  <br/> |Edge Server internal interface  <br/> |Centralized Logging Service controller using Skype for Business Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection.  <br/> |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Любая среда, в которой работает служба шлюза XMPP:  <br/> • Сервер переднего плана  <br/> • Пула переднего плана  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Исходящий трафик XMPP из службы шлюза XMPP на сервере переднего плана или интерфейсный пул.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Любая:  <br/> • Директора  <br/> • Пул директоров  <br/> • Сервер переднего плана  <br/> • Пула переднего плана  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Исходящий трафик SIP от директора, пула директора, сервера переднего плана или интерфейсный пул для внутреннего интерфейса пограничного сервера.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Любая:  <br/> • Директора  <br/> • Пул директоров  <br/> • Сервер переднего плана  <br/> • Пула переднего плана  <br/> |Входящий трафик SIP в пул директоров, пула директора, сервера переднего плана или переднего плана из внутреннего интерфейса пограничного сервера.  <br/> |
+|PSOM/MTLS/8057  <br/> |TCP  <br/> |8057  <br/> |Любая:  <br/> • Сервер переднего плана  <br/> • Каждого сервера переднего плана  <br/>  в пуле переднего плана <br/> |Внутренний интерфейс пограничного сервера  <br/> |Трафик веб-конференций из вашего сервера переднего плана или каждого сервера переднего плана (если у вас есть пул переднего плана) для внутреннего интерфейса пограничного сервера.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Любая:  <br/> • Сервер переднего плана  <br/> • Пула переднего плана  <br/> • Любого устройства для обеспечения связи в филиалах с помощью этой пограничного сервера  <br/> • Любого устройства для обеспечения связи в филиалах с помощью этой пограничного сервера  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Проверка подлинности A / V пользователей из пула переднего плана или сервера переднего плана, или для обеспечения связи в филиалах или для обеспечения связи в филиалах, с помощью пограничного сервера.  <br/> |
+|UDP (STUN/MSTURN)  <br/> |UDP  <br/> |3478  <br/> |Любой  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Предпочитаемый путь для аудио- и передачи аудио между внутренних и внешних пользователей и обеспечения связи в филиалах или сервера для обеспечения связи в филиалах.  <br/> |
+|UDP (STUN/MSTURN)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Резервный путь для аудио- и передачи аудио между внутренних и внешних пользователей и обеспечения связи в филиалах или для обеспечения связи в филиалах, если подключение по протоколу UDP не работает. Для передачи файлов и общего доступа к рабочему столу используется TCP.  <br/> |
+|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Любая:  <br/> • Сервер переднего плана, в котором размещается центральное хранилище управления  <br/> • Интерфейсного пула, в котором размещается центральное хранилище управления  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Репликация изменений из хранилища централизованного управления хранилище на пограничном сервере.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |Любой  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Централизованная служба ведения журналов контроллера с помощью Скайп командлеты командную консоль Business Server и службы централизованного ведения журналов, ClsController командной строки (ClsController.exe) или команды (ClsAgent.exe) агента и коллекция журналов.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |Любой  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Централизованная служба ведения журналов контроллера с помощью Скайп командлеты командную консоль Business Server и службы централизованного ведения журналов, ClsController командной строки (ClsController.exe) или команды (ClsAgent.exe) агента и коллекция журналов.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |Любой  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Централизованная служба ведения журналов контроллера с помощью Скайп командлеты командную консоль Business Server и службы централизованного ведения журналов, ClsController командной строки (ClsController.exe) или команды (ClsAgent.exe) агента и коллекция журналов.  <br/> |
    
 ### <a name="hardware-load-balancers-for-edge-port-tables"></a>Аппаратные средства балансировки нагрузки для таблиц пограничных портов
 
@@ -379,60 +379,60 @@ Getting your planning right for ports and firewalls for Skype for Business Serve
   
 #### <a name="external-port-firewall-summary-table"></a>Таблица сводки по брандмауэру внешних портов
 
-Исходный IP-адрес и конечный IP-адрес будут содержать информацию для пользователей, использующих частные IP-адреса с NAT, а также для людей, использующих общедоступные IP-адреса. This will cover all the permutations in our [Edge Server scenarios in Skype for Business Server 2015](scenarios.md) section.
+Исходный IP-адрес и конечный IP-адрес будут содержать информацию для пользователей, использующих частные IP-адреса с NAT, а также для людей, использующих общедоступные IP-адреса. Охватывает все перестановок в разделе « [сценарии пограничного сервера в Скайп для Business Server 2015](scenarios.md) ».
   
-|**Role or protocol**|**TCP or UDP**|**Destination Port or port range**|**Source IP address**|**Destination IP address**|**Примечания**|
+|**Роль или протокола**|**TCP / UDP-ПОРТ**|**Конечный порт или порт диапазона**|**Исходный IP-адрес**|**Конечный IP-адрес**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Доступ/HTTP  <br/> |TCP  <br/> |80  <br/> |Edge Server Access Edge service public IP address  <br/> |Любой  <br/> |Отзыв сертификата и проверка и поиск CRL.  <br/> |
-|Доступ/DNS  <br/> |TCP  <br/> |53  <br/> |Edge Server Access Edge service public IP address  <br/> |Любой  <br/> |DNS-запрос по протоколу TCP.  <br/> |
-|Доступ/DNS  <br/> |UDP  <br/> |53  <br/> |Edge Server Access Edge service public IP address  <br/> |Любой  <br/> |DNS-запрос по протоколу UDP.  <br/> |
-|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |Edge Server A/V Edge service IP address  <br/> |Любой  <br/> |Используется для ретрансляции трафика мультимедиа.  <br/> |
-|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |Edge Server A/V Edge service public IP address  <br/> |Любой  <br/> |Используется для ретрансляции трафика мультимедиа.  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Edge Server A/V Edge service public IP address  <br/> |Любой  <br/> |Исходящий порт 3478:   <br/> • Used by Skype for Business Server to determine the version of Edge Server it's communicating with.  <br/> • Used for media traffic between Edge Servers.  <br/> • Required for federation.  <br/> • Needed if multiple Edge pools are deployed within your organization.  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Любой  <br/> |Edge Server A/V Edge service public IP address  <br/> |STUN/TURN – согласование кандидатов по протоколу UDP и порту 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |Edge Server A/V Edge service public IP address  <br/> |STUN/TURN – согласование кандидатов по протоколу TCP и порту 443.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Edge Server A/V Edge service public IP address  <br/> |Любой  <br/> |STUN/TURN – согласование кандидатов по протоколу TCP и порту 443.  <br/> |
+|Доступ/HTTP  <br/> |TCP  <br/> |80  <br/> |Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес  <br/> |Любой  <br/> |Отзыв сертификата и проверка и поиск CRL.  <br/> |
+|Доступ/DNS  <br/> |TCP  <br/> |53  <br/> |Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес  <br/> |Любой  <br/> |DNS-запрос по протоколу TCP.  <br/> |
+|Доступ/DNS  <br/> |UDP  <br/> |53  <br/> |Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес  <br/> |Любой  <br/> |DNS-запрос по протоколу UDP.  <br/> |
+|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |Пограничный сервер аудио- и видеоконференций пограничного сервера IP-адрес службы  <br/> |Любой  <br/> |Используется для ретрансляции трафика мультимедиа.  <br/> |
+|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |Пограничный сервер A / V Edge общедоступный IP-адрес службы  <br/> |Любой  <br/> |Используется для ретрансляции трафика мультимедиа.  <br/> |
+|-И ВИДЕОДАННЫЕ/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |Пограничный сервер A / V Edge общедоступный IP-адрес службы  <br/> |Любой  <br/> |Исходящий порт 3478:   <br/> • Используется для определения версии пограничного сервера соединен с Скайп для Business Server.  <br/> •, Используемый для трафика мультимедиа между пограничных серверов.  <br/> •, Необходимые для федерации.  <br/> • Требуется, если несколько пулов пограничных развертываются в организации.  <br/> |
+|-И ВИДЕОДАННЫЕ/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |Любой  <br/> |Пограничный сервер A / V Edge общедоступный IP-адрес службы  <br/> |STUN/TURN – согласование кандидатов по протоколу UDP и порту 3478.  <br/> |
+|-И ВИДЕОДАННЫЕ/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |Пограничный сервер A / V Edge общедоступный IP-адрес службы  <br/> |STUN/TURN – согласование кандидатов по протоколу TCP и порту 443.  <br/> |
+|-И ВИДЕОДАННЫЕ/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Пограничный сервер A / V Edge общедоступный IP-адрес службы  <br/> |Любой  <br/> |STUN/TURN – согласование кандидатов по протоколу TCP и порту 443.  <br/> |
    
 #### <a name="internal-port-firewall-summary-table"></a>Таблица сводки по брандмауэру внутренних портов
 
-|**Protocol**|**TCP or UDP**|**Порт**|**Source IP address**|**Destination IP address**|**Примечания**|
+|**Протокол**|**TCP / UDP-ПОРТ**|**Порт**|**Исходный IP-адрес**|**Конечный IP-адрес**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Любая среда, в которой работает служба шлюза XMPP:  <br/> • Front End Server  <br/> • Front End pool VIP address running the XMPP Gateway service  <br/> |Edge Server internal interface  <br/> |Outbound XMPP traffic from your XMPP Gateway service running on your Front End Server or Front End pool.  <br/> |
-|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Любая:  <br/> • Front End Server that holds the Central Management store  <br/> • Front End pool that holds the Central Management store  <br/> |Edge Server internal interface  <br/> |Replication of changes from your Central Management store to your Edge Server.  <br/> |
-|PSOM/MTLS/8057  <br/> |TCP  <br/> |8057  <br/> |Любая:  <br/> • Front End Server  <br/> • Each Front End Server in your Front End pool  <br/> |Edge Server internal interface  <br/> |Web conferencing traffic from your Front End Server or each Front End Server (if you have a Front End pool) to your Edge Server internal interface.  <br/> |
-|UDP (STUN/MSTURN)  <br/> |UDP  <br/> |3478  <br/> |Любая:  <br/> • Front End Server  <br/> • Each Front End Server in your Front End pool  <br/> |Edge Server internal interface  <br/> |Preferred path for A/V media transfer between your internal and external users and your Survivable Branch Appliance or Survivable Branch Server.  <br/> |
-|UDP (STUN/MSTURN)  <br/> |TCP  <br/> |443  <br/> |Любая:  <br/> • Front End Server  <br/> • Each Front End Server in your pool  <br/> |Edge Server internal interface  <br/> |Fallback path for A/V media transfer between your internal and external users and your Survivable Branch Appliance or Survivable Branch Server, if UDP communication doesn't work. Для передачи файлов и общего доступа к рабочему столу используется TCP.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |Любой  <br/> |Edge Server internal interface  <br/> |Centralized Logging Service controller using Skype for Business Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |Любой  <br/> |Edge Server internal interface  <br/> |Centralized Logging Service controller using Skype for Business Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |Любой  <br/> |Edge Server internal interface  <br/> |Centralized Logging Service controller using Skype for Business Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection.  <br/> |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Любая среда, в которой работает служба шлюза XMPP:  <br/> • Сервер переднего плана  <br/> • Интерфейсного пула виртуальный IP-адрес, где запущена служба шлюза XMPP  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Исходящий трафик XMPP из службы шлюза XMPP на сервере переднего плана или интерфейсный пул.  <br/> |
+|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Любая:  <br/> • Сервер переднего плана, в котором размещается центральное хранилище управления  <br/> • Интерфейсного пула, в котором размещается центральное хранилище управления  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Репликация изменений из хранилища централизованного управления на пограничный сервер.  <br/> |
+|PSOM/MTLS/8057  <br/> |TCP  <br/> |8057  <br/> |Любая:  <br/> • Сервер переднего плана  <br/> • Каждого сервера переднего плана в пуле переднего плана  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Трафик веб-конференций из вашего сервера переднего плана или каждого сервера переднего плана (если у вас есть пул переднего плана) для внутреннего интерфейса пограничного сервера.  <br/> |
+|UDP (STUN/MSTURN)  <br/> |UDP  <br/> |3478  <br/> |Любая:  <br/> • Сервер переднего плана  <br/> • Каждого сервера переднего плана в пуле переднего плана  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Предпочитаемый путь для аудио- и передачи аудио между внутренних и внешних пользователей и обеспечения связи в филиалах или сервера для обеспечения связи в филиалах.  <br/> |
+|UDP (STUN/MSTURN)  <br/> |TCP  <br/> |443  <br/> |Любая:  <br/> • Сервер переднего плана  <br/> • Каждого сервера переднего плана в пуле  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Резервный путь для аудио- и передачи аудио между внутренних и внешних пользователей и обеспечения связи в филиалах или для обеспечения связи в филиалах, если подключение по протоколу UDP не работает. Для передачи файлов и общего доступа к рабочему столу используется TCP.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |Любой  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Централизованная служба ведения журналов контроллера с помощью Скайп командлеты командную консоль Business Server и службы централизованного ведения журналов, ClsController командной строки (ClsController.exe) или команды (ClsAgent.exe) агента и коллекция журналов.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |Любой  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Централизованная служба ведения журналов контроллера с помощью Скайп командлеты командную консоль Business Server и службы централизованного ведения журналов, ClsController командной строки (ClsController.exe) или команды (ClsAgent.exe) агента и коллекция журналов.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |Любой  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Централизованная служба ведения журналов контроллера с помощью Скайп командлеты командную консоль Business Server и службы централизованного ведения журналов, ClsController командной строки (ClsController.exe) или команды (ClsAgent.exe) агента и коллекция журналов.  <br/> |
    
 #### <a name="external-interface-virtual-ips"></a>Виртуальные IP-адреса внешнего интерфейса
 
-|**Role or protocol**|**TCP or UDP**|**Destination Port or port range**|**Source IP address**|**Destination IP address**|**Примечания**|
+|**Роль или протокола**|**TCP / UDP-ПОРТ**|**Конечный порт или порт диапазона**|**Исходный IP-адрес**|**Конечный IP-адрес**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> |TCP  <br/> |5269  <br/> |Любой  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service)  <br/> |The XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations.  <br/> |
-|XMPP  <br/> |TCP  <br/> |5269  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service)  <br/> |Любой  <br/> |The XMPP Proxy service sends traffic from XMPP contacts in defined XMPP federations.  <br/> |
-|Доступ/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Трафик SIP от клиента к серверу для доступа внешних пользователей.  <br/> |
-|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Любой  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Для федеративного подключения и подключения к общедоступным службам обмена мгновенными сообщениями с помощью SIP.  <br/> |
-|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP using NAT:** Edge Server Access Edge service service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Любой  <br/> |Для федеративного подключения и подключения к общедоступным службам обмена мгновенными сообщениями с помощью SIP.  <br/> |
-|Веб-конференции/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Private IP using NAT:** Edge Server Web Conferencing Edge service <br/> **Public IP:** Edge Server Web Conferencing Edge service public IP address <br/> |Web conferencing media.  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Любой  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |STUN/TURN – согласование кандидатов по протоколу UDP и порту 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |STUN/TURN – согласование кандидатов по протоколу TCP и порту 443.  <br/> |
+|XMPP  <br/> |TCP  <br/> |5269  <br/> |Любой  <br/> |Служба прокси-сервера XMPP (общий IP-адрес со службой пограничного доступа)  <br/> |Служба прокси-сервера XMPP принимает трафик от контактов XMPP в определенных федерациях XMPP.  <br/> |
+|XMPP  <br/> |TCP  <br/> |5269  <br/> |Служба прокси-сервера XMPP (общий IP-адрес со службой пограничного доступа)  <br/> |Любой  <br/> |Служба прокси-сервера XMPP отправляет трафик от контактов XMPP в определенных федерациях XMPP.  <br/> |
+|Доступ/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Частных IP-адресов с помощью NAT:** Служба пограничного сервера доступа пограничного сервера <br/> **Общедоступный IP-адрес:** Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес <br/> |Трафик SIP от клиента к серверу для доступа внешних пользователей.  <br/> |
+|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Любой  <br/> |**Частных IP-адресов с помощью NAT:** Служба пограничного сервера доступа пограничного сервера <br/> **Общедоступный IP-адрес:** Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес <br/> |Для федеративного подключения и подключения к общедоступным службам обмена мгновенными сообщениями с помощью SIP.  <br/> |
+|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Частных IP-адресов с помощью NAT:** Служба пограничного сервера доступа пограничного сервера <br/> **Общедоступный IP-адрес:** Пограничный сервер, пограничный сервер доступа службы общедоступный IP-адрес <br/> |Любой  <br/> |Для федеративного подключения и подключения к общедоступным службам обмена мгновенными сообщениями с помощью SIP.  <br/> |
+|Веб-конференции/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Частных IP-адресов с помощью NAT:** Пограничный сервер Web Пограничная служба конференций <br/> **Общедоступный IP-адрес:** Пограничный сервер, пограничный сервер конференц-связи Web службы общедоступный IP-адрес <br/> |Веб-медиа конференц-связи.  <br/> |
+|-И ВИДЕОДАННЫЕ/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |Любой  <br/> |**Частных IP-адресов с помощью NAT:** Пограничный сервер A / V Edge службы <br/> **Общедоступный IP-адрес:** Пограничный сервер A / V Edge общедоступный IP-адрес службы <br/> |STUN/TURN – согласование кандидатов по протоколу UDP и порту 3478.  <br/> |
+|-И ВИДЕОДАННЫЕ/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |**Частных IP-адресов с помощью NAT:** Пограничный сервер A / V Edge службы <br/> **Общедоступный IP-адрес:** Пограничный сервер A / V Edge общедоступный IP-адрес службы <br/> |STUN/TURN – согласование кандидатов по протоколу TCP и порту 443.  <br/> |
    
 #### <a name="internal-interface-virtual-ips"></a>Виртуальные IP-адреса внутреннего интерфейса
 
 Приведенные здесь рекомендации немного отличаются. Фактически при использовании аппаратной балансировки нагрузки теперь рекомендуется использовать маршрутизацию через внутренний виртуальный IP-адрес только при следующих условиях:
   
-- If you are using Exchange 2007 or Exchange 2010 Unified Messaging (UM).
+- При использовании сервера Exchange 2007 или Exchange 2010 единой системы обмена сообщениями (UM).
     
 - У вас есть устаревшие клиенты, использующие пограничный сервер.
     
-The following table does give guidance for those scenarios, but otherwise, you should be able to depend on Central Management store (CMS) to route traffic to the individual Edge Server it's aware of (this does require that CMS is kept up to date on Edge Server information, of course).
+Следующая таблица предоставить инструкции для этих сценариев, но в противном случае должна появиться возможность зависят от центрального хранилища управления (CMS) для маршрутизации трафика отдельные пограничного сервера, использующие (это требует хранения в актуальном состоянии CMS на пограничный сервер сведения, конечно).
   
-|**Protocol**|**TCP or UDP**|**Порт**|**Source IP address**|**Destination IP address**|**Примечания**|
+|**Протокол**|**TCP / UDP-ПОРТ**|**Порт**|**Исходный IP-адрес**|**Конечный IP-адрес**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Любая:  <br/> • Director  <br/> • Director pool VIP address  <br/> • Front End Server  <br/> • Front End pool VIP address  <br/> |Edge Server internal interface  <br/> |Outbound SIP traffic from your Director, Director pool VIP address, Front End Server, or Front End pool VIP address to your Edge Server internal interface.  <br/> |
-|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Edge Server internal VIP interface  <br/> |Любая:  <br/> • Director  <br/> • Director pool VIP address  <br/> • Front End Server  <br/> • Front End pool VIP address  <br/> |Inbound SIP traffic to your Director, Director pool VIP address, Front End Server, or Front End pool VIP address from your Edge Server internal interface.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Любая:  <br/> • Front End Server IP address  <br/> • Front End pool IP address  <br/> • Any Survivable Branch Appliance using this Edge Server  <br/> • Any Survivable Branch Server using this Edge Server  <br/> |Edge Server internal interface  <br/> |Authentication of A/V users from your Front End Server or Front End pool, or your Survivable Branch Appliance or Survivable Branch Server, using your Edge Server.  <br/> |
-|UDP (STUN/MSTURN)  <br/> |UDP  <br/> |3478  <br/> |Любой  <br/> |Edge Server internal interface  <br/> |Предпочитаемый путь передачи аудио/видео между внутренними и внешними пользователями.  <br/> |
-|UDP (STUN/MSTURN)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |Edge Server internal VIP interface  <br/> |Резервный путь для передачи аудио/видео между внутренними и внешними пользователями, устройством в случае, если подключение UDP не работает. Для передачи файлов и общего доступа к рабочему столу используется TCP.  <br/> |
+|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Любая:  <br/> • Директора  <br/> • Пул директоров виртуальный IP-адрес  <br/> • Сервер переднего плана  <br/> • Интерфейсного пула виртуальный IP-адрес  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Исходящий трафик SIP от директора, пул директоров виртуальный IP-адрес, сервер переднего плана или виртуальный IP-адрес пула переднего плана в адреса внутреннего интерфейса пограничного сервера.  <br/> |
+|Доступ/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Внутренний интерфейс пограничного сервера виртуальный IP-адрес  <br/> |Любая:  <br/> • Директора  <br/> • Пул директоров виртуальный IP-адрес  <br/> • Сервер переднего плана  <br/> • Интерфейсного пула виртуальный IP-адрес  <br/> |Входящий трафик SIP на директора, адрес пула виртуальный IP-адрес директора, сервера переднего плана или адрес виртуальный IP-адрес пула переднего плана из внутреннего интерфейса пограничного сервера.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Любая:  <br/> • Переднего плана IP-адрес сервера  <br/> • Переднего плана пула IP-адрес  <br/> • Любого устройства для обеспечения связи в филиалах с помощью этой пограничного сервера  <br/> • Любого устройства для обеспечения связи в филиалах с помощью этой пограничного сервера  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Проверка подлинности A / V пользователей из пула переднего плана или сервера переднего плана, или для обеспечения связи в филиалах или для обеспечения связи в филиалах, с помощью пограничного сервера.  <br/> |
+|UDP (STUN/MSTURN)  <br/> |UDP  <br/> |3478  <br/> |Любой  <br/> |Внутренний интерфейс пограничного сервера  <br/> |Предпочитаемый путь передачи аудио/видео между внутренними и внешними пользователями.  <br/> |
+|UDP (STUN/MSTURN)  <br/> |TCP  <br/> |443  <br/> |Любой  <br/> |Внутренний интерфейс пограничного сервера виртуальный IP-адрес  <br/> |Резервный путь для передачи аудио/видео между внутренними и внешними пользователями, устройством в случае, если подключение UDP не работает. Для передачи файлов и общего доступа к рабочему столу используется TCP.  <br/> |

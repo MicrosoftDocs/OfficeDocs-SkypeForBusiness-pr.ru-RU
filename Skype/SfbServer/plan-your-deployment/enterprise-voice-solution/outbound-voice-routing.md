@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
-description: Learn about outbound voice routing in Skype for Business Server Enterprise Voice, including call routing settings, dial plans, normalization rules, voice policies, PSTN usage records, and voice routes.
+description: Сведения о маршрутизации исходящей голосовой почты в Скайп Business Server корпоративной голосовой связи, включая параметры маршрутизации вызовов, наберите планы, правила нормализации, политик голосовой связи, записей использования ТСОП и маршрутов голосовых вызовов.
 ms.openlocfilehash: 9a26f734faaa7bb070c826a427b47f805ad7438f
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -20,13 +20,13 @@ ms.lasthandoff: 03/28/2018
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server-2015"></a>Планирование маршрутизации исходящих голосовых вызовов в Skype для бизнеса Server 2015
  
-Learn about outbound voice routing in Skype for Business Server Enterprise Voice, including call routing settings, dial plans, normalization rules, voice policies, PSTN usage records, and voice routes.
+Сведения о маршрутизации исходящей голосовой почты в Скайп Business Server корпоративной голосовой связи, включая параметры маршрутизации вызовов, наберите планы, правила нормализации, политик голосовой связи, записей использования ТСОП и маршрутов голосовых вызовов.
   
-Outbound call routing applies to Enterprise Voice calls that are destined for a public switched telephone network (PSTN) gateway, trunk, or private branch exchange (PBX). When a Skype for Business user places a call, the server normalizes the phone number to E.164 format, if necessary, and attempts to match it to a SIP URI. При невозможности сопоставления на сервере применяется логическая схема маршрутизации исходящих вызовов на основе представленной строки набора. Эта логическая схема задается путем настройки параметров сервера, описание которых приведено в следующей таблице.
+Маршрутизации исходящих вызовов применяется для вызовов корпоративной голосовой связи, предназначенные для шлюза телефонной сети (общего пользования PSTN), линии связи или АТС учреждения (УАТС). При Скайп для бизнес-пользователь совершает звонок, сервер нормализует номер телефона в формат E.164, если это необходимо и пытается сопоставить с URI SIP. При невозможности сопоставления на сервере применяется логическая схема маршрутизации исходящих вызовов на основе представленной строки набора. Эта логическая схема задается путем настройки параметров сервера, описание которых приведено в следующей таблице.
   
-**Skype for Business Server Outbound Call Routing Settings**
+**Параметры маршрутизации вызовов Скайп для исходящих Business Server**
 
-|**Object**|**Описание**|
+|**Объект**|**Описание**|
 |:-----|:-----|
 |Абонентская группа  <br/> |Абонентская группа — это именованный набор правил нормализации, которые преобразуют номера телефонов для именованного расположения, отдельного пользователя или контактного объекта в единый стандартный формат (E.164) для авторизации телефонов и маршрутизации вызовов.  <br/> |
 |Правило нормализации  <br/> |Правила нормализации указывают, как телефонные номера, выраженные в разных форматах, должны маршрутизироваться для каждого конкретного расположения, пользователя или контактного объекта. Одна и та же строка набора может интерпретироваться и преобразовываться по-разному в зависимости от местоположения, из которого она была набрана, и лица или контактного объекта, выполнившего вызов. Ряд правил нормализации, связанный с конкретным расположением, составляет абонентскую группу.  <br/> |
@@ -42,9 +42,9 @@ Outbound call routing applies to Enterprise Voice calls that are destined for a 
   
 ### <a name="dial-plan-scope"></a>Область абонентской группы
 
-Область действия абонентской группы определяет уровень иерархии, на котором возможно применение данной абонентской группы. In Skype for Business Server, a user can be assigned a specific per-user dial plan. If a user dial plan is not assigned, the Front End pool dial plan is applied. If there is no Front End pool pool dial plan, the site dial plan is applied. Наконец, если к пользователя не применимы никакие другие абонентские группы, применяется глобальная абонентская группа.
+Область действия абонентской группы определяет уровень иерархии, на котором возможно применение данной абонентской группы. В Скайп Business Server пользователь может быть назначен абонентской группы определенного пользователя. Если не назначается абонентской группы пользователей, будет применяться абонентскую группу пула переднего плана. Если абонентская пула пула переднего плана, применяемого абонентской сайта. Наконец, если к пользователя не применимы никакие другие абонентские группы, применяется глобальная абонентская группа.
   
-Clients obtain dial plan scope levels through in-band provisioning settings that are provided when users log on to Skype for Business. As the administrator, you can manage and assign dial plan scope levels by using Skype for Business Server Control Panel.
+Клиенты получить уровни области телефонным через автоматической подготовки параметры, которые предоставляются при входе пользователей Скайп для бизнеса. От имени администратора можно управлять и назначить уровни области телефонным с помощью Скайп для панели управления Business Server.
   
 > [!NOTE]
 > Абонентская группа шлюза телефонной сети общего пользования (ТСОП) уровня служб применяется к входящим звонкам с конкретного шлюза. 
@@ -57,7 +57,7 @@ Clients obtain dial plan scope levels through in-band provisioning settings that
     
 - **Абонентская группа сайтов**: может создаваться для всего сайта за исключением пользователей, групп или контактных объектов, которым назначена абонентская группа пулов или абонентская группа пользователей. Чтобы определить абонентскую группу, следует указать сайт, к которому она применяется.
     
-- **Глобальная абонентская группа**: абонентская группа по умолчанию, установленная вместе с продуктом. Вы можете изменить глобальную абонентскую группу, но не можете удалить ее. This dial plan applies to all Enterprise Voice users, groups, and contact objects in your deployment, unless you configure and assign a dial plan with a more specific scope.
+- **Глобальная абонентская группа**: абонентская группа по умолчанию, установленная вместе с продуктом. Вы можете изменить глобальную абонентскую группу, но не можете удалить ее. Этой абонентской применяется для всех пользователей корпоративной голосовой связи, групп и контактных объектов в развертывании, если не настроить и назначить абонентскую группу с более заданной области.
     
 ### <a name="planning-for-dial-plans"></a>Планирование абонентских групп
 
@@ -77,19 +77,19 @@ Clients obtain dial plan scope levels through in-band provisioning settings that
     
 - Решите, требуется ли использовать несколько абонентских групп для одного расположения. 
     
-    If your organization maintains a single dial plan across multiple locations, you may still need to create a separate dial plan for Enterprise Voice users who are migrating from a private branch exchange (PBX) and who need to have their existing extensions retained.
+    Если ваша организация поддерживает одной абонентской группы в нескольких местах, по-прежнему может потребоваться создание отдельных абонентской группы для пользователей корпоративной голосовой связи, миграция с АТС учреждения (УАТС) и пользователей, которые требуется установить расширениях существующих сохраняются.
     
-- Решите, требуются ли абонентские группы для индивидуальных пользователей. For example, if you have users at a branch site who are registered with the central site or if you have users who are registered on a Survivable Branch Appliance, you can consider special dialing scenarios for such users using per-user dial plans and normalization rules. For details, see [Plan for Enterprise Voice resiliency in Skype for Business Server 2015](enterprise-voice-resiliency.md).
+- Решите, требуются ли абонентские группы для индивидуальных пользователей. Например при наличии пользователей на сайте филиала, зарегистрировавшегося с центрального сайта или если у вас есть пользователи, зарегистрированные на устройство для обеспечения связи в филиалах, можно попробовать специальные сценарии набора номера для таких пользователей с помощью пользователя абонентской группы планы и правила нормализации . Дополнительные сведения см [Планирование устойчивости корпоративной голосовой связи в Скайп для Business Server 2015](enterprise-voice-resiliency.md).
     
 - Определите область абонентской группы (как описано выше в данном разделе).
     
-To create a dial plan, you specify values in the following fields, as required, by using Skype for Business Server Control Panel or Skype for Business Server Management Shell.
+Создание абонентской группы, укажите значения в следующих полях, при необходимости, Скайп для или с помощью панели управления сервера Business Скайп для консоли Business Server.
   
 #### <a name="name-and-simple-name"></a>Имя и простое имя
 
-Для абонентских групп пользователей следует указать информативное имя, указывающее пользователей, группы или контактные объекты, которым будет назначена данная абонентская группа. Для абонентских групп сайтов поле "Имя" предварительно заполнено именем сайта и не может быть изменено. For pool dial plans, the Name field is pre-populated with the PSTN gateway or Front End pool fully qualified domain name (FQDN) and cannot be changed.
+Для абонентских групп пользователей следует указать информативное имя, указывающее пользователей, группы или контактные объекты, которым будет назначена данная абонентская группа. Для абонентских групп сайтов поле "Имя" предварительно заполнено именем сайта и не может быть изменено. Для пула абонентские группы, в поле имя автоматически заполняется с шлюзом ТСОП или пула переднего плана полное доменное имя (FQDN) и не может быть изменено.
   
-The dial plan Simple Name is pre-populated with a string that is derived from the dial plan name. Поле "Простое имя" доступно для редактирования, что позволяет создать для абонентских групп информативное соглашение об именовании. TheSimple Name value cannot be empty and must be unique. Рекомендуется разработать соглашение об именовании для всей организации и последовательно применять его для всех сайтов и пользователей.
+Абонентская группа простое имя автоматически заполняется с строку, которая является производным от имя абонентской группы. Поле "Простое имя" доступно для редактирования, что позволяет создать для абонентских групп информативное соглашение об именовании. Имя TheSimple значение не может быть пустым и должно быть уникальным. Рекомендуется разработать соглашение об именовании для всей организации и последовательно применять его для всех сайтов и пользователей.
   
 #### <a name="description"></a>Описание
 
@@ -101,7 +101,7 @@ The dial plan Simple Name is pre-populated with a string that is derived from th
   
 #### <a name="external-access-prefix"></a>Префикс внешнего доступа
 
-You can specify an external access prefix of up to four characters (#, \*, and 0-9) if users need to dial one or more additional leading digits (for example, 9) to get an external line.
+Можно указать префикс внешнего доступа до четырех символов (#, \*и 0-9) Если необходимо набрать один или несколько дополнительных начальных цифр (например, 9) для получения к внешней линии.
   
 > [!NOTE]
 > Если указан префикс внешнего доступа, не требуется создавать дополнительное правило нормализации для обработки префикса. 
@@ -112,7 +112,7 @@ You can specify an external access prefix of up to four characters (#, \*, and 0
   
 Нормализация указанных пользователями номеров телефонов позволяет получить согласованный формат, облегчающий выполнение следующих задач.
   
-- Match a dialed number to the intended recipient's SIP-URI.
+- Сравнение набранного номера для URI SIP требуемого получателя.
     
 - Применение правил авторизации набора номера к вызывающей стороне.
     
@@ -130,16 +130,16 @@ You can specify an external access prefix of up to four characters (#, \*, and 0
     
 #### <a name="creating-normalization-rules"></a>Создание правил нормализации
 
-Правила нормализации используют регулярные выражения .NET Framework для указания шаблонов совпадения номеров, используемых сервером для преобразования строк набора номера в формат E.164 с целью выполнения обратного поиска номеров. You create normalization rules in the Skype for Business Server Control Panel either by entering the expressions manually, or by entering the starting digits and the length of the dial strings to be matched and letting the Skype for Business Server Control Panel generate the corresponding regular expression for you. В любом случае после завершения вы можете ввести тестовый номер, чтобы убедиться в правильной работе правил нормализации.
+Правила нормализации используют регулярные выражения .NET Framework для указания шаблонов совпадения номеров, используемых сервером для преобразования строк набора номера в формат E.164 с целью выполнения обратного поиска номеров. Создании правил нормализации в Скайп для панели управления Business Server путем ввода выражения вручную или с помощью ввода запуск цифр и длины номера строк для сопоставления и предоставление возможности Скайп для панели управления Business Server Создайте соответствующее регулярное выражение для вас. В любом случае после завершения вы можете ввести тестовый номер, чтобы убедиться в правильной работе правил нормализации.
   
-For details about using .NET Framework regular expressions, see [".NET Framework Regular Expressions"](https://go.microsoft.com/fwlink/p/?linkId=140927).
+Для получения дополнительных сведений об использовании регулярных выражений .NET Framework см. [«.NET Framework Regular Expressions»](https://go.microsoft.com/fwlink/p/?linkId=140927).
   
 #### <a name="sample-normalization-rules"></a>Примеры правил нормализации
 <a name="BKMK_SampleNormalizationRules"> </a>
 
 В следующей таблице приведены примеры правил нормализации, написанных в виде регулярных выражений .NET Framework. Эти примеры приведены только для справки, поэтому не следует рассматривать их в качестве рекомендаций по созданию правил.
   
-**Table 1.Normalization Rules Using .NET Framework Regular Expressions**
+**С помощью .NET Framework Regular Expressions правила нормализации в таблице 1.**
 
 |**Имя правила**|**Описание**|**Шаблон номеров**|**Преобразование**|**Пример**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -149,7 +149,7 @@ For details about using .NET Framework regular expressions, see [".NET Framework
 |7digitcallingDallas  <br/> |Преобразование 7-значных номеров в локальные номера Далласа  <br/> |^(\d{7})$  <br/> |+1972$1  <br/> |5550100 преобразуется в +19725550100  <br/> |
 |10digitcallingUS  <br/> |Преобразование 10-значных номеров в номера США  <br/> |^(\d{10})$  <br/> |+1$1  <br/> |2065550100 преобразуется в +12065550100  <br/> |
 |LDCallingUS  <br/> |Преобразование номеров с междугородными префиксами в номера США  <br/> |^1(\d{10})$  <br/> |+$1  <br/> |12145550100 преобразуется в +2145550100  <br/> |
-|IntlCallingUS  <br/> |Преобразование номеров с международными префиксами в номера США  <br/> |^011(\d\*)$  <br/> |+$1  <br/> |01191445550100 преобразуется в +91445550100  <br/> |
+|IntlCallingUS  <br/> |Преобразование номеров с международными префиксами в номера США  <br/> |^ 011(\d\*)$  <br/> |+$1  <br/> |01191445550100 преобразуется в +91445550100  <br/> |
 |RedmondOperator  <br/> |Преобразование 0 в оператора Редмонда  <br/> |^0$  <br/> |+14255550100  <br/> |0 преобразуется в +14255550100  <br/> |
 |RedmondSitePrefix  <br/> |Преобразование номеров с сетевым префиксом (6) и кодами сайта Редмонда (222)  <br/> |^6222(\d{4})$  <br/> |+1425555$1  <br/> |62220100 преобразуется в +14255550100  <br/> |
 |NYSitePrefix  <br/> |Преобразование номеров с сетевым префиксом (6) и кодами сайта Нью-Йорка (333)  <br/> |^6333(\d{4})$  <br/> |+1202555$1  <br/> |63330100 преобразуется в +12025550100  <br/> |
@@ -157,7 +157,7 @@ For details about using .NET Framework regular expressions, see [".NET Framework
    
 В следующей таблице приводится пример абонентской группы для сайта Редмонда (шт. Вашингтон, США) на основе правил нормализации, приведенных в предыдущей таблице.
   
-**Table 2. Redmond Dial Plan Based on Normalization Rules Shown in Table 1**
+**В таблице 2. Redmond абонентской группы на основе правил нормализации, показано в таблице 1**
 
 |**Redmond.forestFQDN**|
 |:-----|
@@ -175,15 +175,15 @@ For details about using .NET Framework regular expressions, see [".NET Framework
   
 ## <a name="voice-policies"></a>Политики голосовой связи
 
-Skype for Business Server voice policies define the following for each user, site, or organization that is assigned the policy:
+Скайп для политик голосовой связи Business Server определите следующие параметры для каждого пользователя, сайта или организации, которая назначается политика действий.
   
-- A set of calling features that can be enabled or disabled to determine the Enterprise Voice functionality available to users.
+- Набор функций звонков, которые можно включить или отключить, чтобы определить функциональные возможности корпоративной голосовой связи, доступные для пользователей.
     
 - набор режимов работы с ТСОП, который определяет разрешенные типы звонков. 
     
-The following steps will help you plan the voice policies that you will need for your Enterprise Voice deployment:
+Следующие действия помогут спланировать политики голосовой связи, требуемых для вашего развертывания корпоративной голосовой связи:
   
-- Determine how you will configure your global voice policy (the default voice policy that is installed with the product). This policy will apply to all Enterprise Voice users who are not explicitly assigned a site-level or per-user policy.
+- Определите, как настраивать политики глобального голосовой связи (по умолчанию политика голосовой связи, который устанавливается вместе с продуктом). Эта политика будет применяться ко всем пользователям корпоративной голосовой связи, явно не назначены политики на уровне сайта или пользователя.
     
 - Определение требуемых политик голосовой связи на уровне сайта.
     
@@ -195,16 +195,16 @@ The following steps will help you plan the voice policies that you will need for
     
 ### <a name="voice-policy-scope"></a>Область политики голосовых служб
 
-Voice policy scope determines the hierarchical level at which the policy can be applied. In Skype for Business Server, you can configure voice policies with the following scope levels (listed from the most specific to the most general).
+Область политики голосовой связи определяет уровне иерархии, в которой может применяться политика. В Скайп Business Server, можно настроить политики голосовой связи со следующими уровнями область (указанный от наиболее конкретных к наиболее общим).
   
 - **Политика голосовой связи на уровне пользователя** может быть назначена отдельным пользователям, группам или контактным объектам. Это политика самого низкого уровня. С помощью пользовательских политик голосовой связи можно включить функции для определенных пользователей или групп пользователей сайта. Например, вам может потребоваться отключить международную связь для некоторых сотрудников. При назначении политики голосовой связи контактный объект рассматривается как отдельный пользователь.
     
     > [!NOTE]
-    > We recommend that you deploy a user voice policy for branch site Enterprise Voice users who are registered with the central site deployment, or users who are registered on a Survivable Branch Appliance. 
+    > Мы рекомендуем развернуть пользовательской политики голосовой связи для пользователей корпоративной голосовой связи сайта филиала, зарегистрированных в случае развертывания центрального сайта или пользователей, зарегистрированных на устройство для обеспечения связи в филиалах. 
   
 - **Политика голосовой связи на уровне сайта** применяется ко всему сайту за исключением пользователей, групп или контактных объектов, которым назначена политика голосовой связи на уровне пользователя. Чтобы определить политику голосовой связи на уровне сайта, вам нужно указать сайт, к которому применяется политика. Если политика голосовой связи на уровне пользователя не назначена, то используется политика голосовой связи на уровне сайта.
     
-- **Глобальная политика голосовой связи** — это политика голосовой связи по умолчанию, которая устанавливается вместе с продуктом. Вы можете изменять глобальную политику голосовой связи в соответствии с потребностями организации, однако вы не можете переименовывать или удалять ее. This voice policy applies to all Enterprise Voice users, groups, and contact objects in your deployment unless you configure and assign a voice policy with more specific scope. Если вы хотите полностью отключить эту политику, убедитесь в том, что для всех сайтов и пользователей назначены настраиваемые политики.
+- **Глобальная политика голосовой связи** — это политика голосовой связи по умолчанию, которая устанавливается вместе с продуктом. Вы можете изменять глобальную политику голосовой связи в соответствии с потребностями организации, однако вы не можете переименовывать или удалять ее. Применяется данная политика голосовой связи для всех пользователей корпоративной голосовой связи, групп и контактных объектов в развертывании, если не настроить и назначение политики голосовой связи с более конкретные области. Если вы хотите полностью отключить эту политику, убедитесь в том, что для всех сайтов и пользователей назначены настраиваемые политики.
     
 ### <a name="call-features"></a>Функции звонков
 
@@ -226,11 +226,11 @@ Voice policy scope determines the hierarchical level at which the policy can be 
     
 - **Переопределение политики пропускной способности** позволяет администраторам переопределять политику контроля допуска звонков для отдельного пользователя. По умолчанию данная возможность отключена.
     
-- **Malicious call tracing** enables users to report malicious calls by using the Skype for Business client, and then flags such calls in the call detail records. По умолчанию эта функция отключена.
+- **Умышленного вызывать трассировки** позволяет пользователям о нежелательных звонках с помощью Скайп для клиента Business, а затем помечает такие вызовы записи регистрации вызовов. По умолчанию эта функция отключена.
     
-- **Voicemail escape** prevents calls from being immediately routed to the user's mobile phone voicemail system when simultaneous ringing is configured and the phone is turned off, out of battery, or out of range, and is based on a timer value. Этот параметр включает или отключает таймер и задает его значение. It can be configured only by using the Skype for Business Server Management Shell. По умолчанию эта функция отключена.
+- **Отмена голосовой почты** не позволяет вызовы от сразу поступает в систему голосовой почты мобильного телефона пользователя Если одновременные звонки настроено и телефона, от батарей или вне диапазона отключена, основано на значение таймера. Этот параметр включает или отключает таймер и задает его значение. Его можно настроить только с помощью Скайп для консоли Business Server. По умолчанию эта функция отключена.
     
-- **Call forwarding and simultaneous ringing PSTN usages** enables administrators to specify the same PSTN usage as the voice policy for call forwarding and simultaneous ringing, restrict call forwarding and simultaneous ringing to internal Skype for Business users only, or specify a custom PSTN usage that is different from the voice policy's PSTN usage. По умолчанию в ТСОП применяется режим переадресации вызовов и одновременного приема вызовов, указанный в политике голосовой связи.
+- **Вызов переадресации и одновременных звонков случаев использования PSTN** позволяет администраторам указывать же работы с ТСОП как политика голосовой связи для переадресации вызовов и одновременных звонков, ограничить переадресации вызовов и одновременных звонков для внутренних Скайп для Бизнес-пользователи, или указать настраиваемые использования ТСОП, отличный от режима работы с ТСОП политика голосовой связи. По умолчанию в ТСОП применяется режим переадресации вызовов и одновременного приема вызовов, указанный в политике голосовой связи.
     
 ### <a name="pstn-usage-records"></a>Записи использования ТСОП
 
@@ -241,13 +241,13 @@ Voice policy scope determines the hierarchical level at which the policy can be 
   
 ## <a name="pstn-usage-records"></a>Записи использования ТСОП
 
-Planning PSTN usage records consists mainly of listing all the call permissions that are currently in force in your organization, from the CEO to temporary workers, consultants, and contingent staff. This process also provides an opportunity to reexamine existing call permissions and revise them. You can create PSTN usage records only for those call permissions that apply to your anticipated Enterprise Voice users, but a better long-range solution might be to create PSTN usage records for all call permissions, regardless of whether some may not currently apply to the group of users to be enabled for Enterprise Voice. If call permissions change or new users with different call permissions are added, you will have already created the required PSTN usage records.
+Планирование работы с ТСОП основном состоит из список разрешений вызовов, которые в настоящее время force в вашей организации, от исполнительного Директора временных сотрудников, консультантов и временного персонала. Этот процесс также предоставляет возможность выполнить повторную проверку существующих разрешений вызова и измените их. Можно создать только для тех вызова разрешений, которые применяются для предполагаемых пользователей корпоративной голосовой связи работы с ТСОП, но может быть лучше долгосрочного решения для создания записей использования ТСОП для всех вызовов разрешений, независимо от того, является ли некоторые в настоящее время не может применяется к группе пользователей, чтобы включить для корпоративной голосовой связи. Если изменить разрешения звонок или новых пользователей с разрешениями на другой звонок добавляются, будут уже созданы необходимые записи об использовании PSTN.
   
 В следующей таблице приведены типичные режимы работы с ТСОП.
   
-**PSTN Usage Records**
+**Работы с ТСОП**
 
-|**Phone attribute**|**Описание**|
+|**Атрибут номера**|**Описание**|
 |:-----|:-----|
 |Local  <br/> |Местные звонки  <br/> |
 |Long-Distance  <br/> |Междугородние звонки  <br/> |
@@ -265,7 +265,7 @@ Planning PSTN usage records consists mainly of listing all the call permissions 
     
 ## <a name="voice-routes"></a>Маршруты голосовых вызовов
 
-Call routes specify how Skype for Business Server handles outbound calls placed by Enterprise Voice users. When a user dials a number, the Front End Server normalizes the dial string to E.164 format, if necessary, and attempts to match it to a SIP URI. Если серверу не удается найти соответствие, он применяет к исходящему звонку логику маршрутизации на основании номера. Завершающий шаг в определении этой логики состоит в создании отдельного именованного маршрута звонка для каждого набора конечных номеров телефона, указанных в абонентской группе.
+Маршруты вызовов укажите, как Скайп для Business Server обрабатывает исходящие вызовы, сделанным пользователей корпоративной голосовой связи. При вызове номер сервера переднего плана при необходимости будет выполнять нормализацию номера строки в формат E.164 и пытается сопоставить с URI SIP. Если серверу не удается найти соответствие, он применяет к исходящему звонку логику маршрутизации на основании номера. Завершающий шаг в определении этой логики состоит в создании отдельного именованного маршрута звонка для каждого набора конечных номеров телефона, указанных в абонентской группе.
   
 Перед определением маршрутов исходящих звонков необходимо выполнить следующие действия.
   
@@ -289,29 +289,29 @@ Call routes specify how Skype for Business Server handles outbound calls placed 
     
 - Режимы работы с ТСОП, требуемые пользователям для обеспечения соответствия номеров телефонов регулярному выражению для конечных номеров телефонов.
     
-You can specify call routes in the Skype for Business Server Control Panel. These call routes populate the server routing table, which Skype for Business Server uses to route calls that are destined for the PSTN.
+Можно указать маршрутов звонков в Скайп для панели управления Business Server. Эти вызова маршрутов заполнения таблица маршрутизации сервера, который Скайп для Business Server использует для маршрутизации вызовов, предназначенные для PSTN.
   
 ### <a name="mn-trunk-support"></a>Поддержка магистрали M:N
 
-Skype for Business Server provides flexibility in how calls are routed to the PSTN. Маршрут голосовых вызовов указывает набор магистральных линий связи, используемых для связи с ТСОП, которая может использоваться для конкретного голосового звонка. A trunk associates a Mediation Server and a port number with a PSTN gateway and listening port number. This logical association enables a Mediation Server to be associated with multiple gateways and have multiple connections to the same gateway. When defining a call route, you specify the trunks associated with that route, but you do not specify which Mediation Servers are associated with the route. To create trunks by defining the relationships between Mediation Servers and PSTN gateways, IP-PBXs, and Session Border Controllers (SBCs), use the Topology Builder.
+Скайп для Business Server обеспечивает гибкость маршрутизацией вызовы в ТСОП. Маршрут голосовых вызовов указывает набор магистральных линий связи, используемых для связи с ТСОП, которая может использоваться для конкретного голосового звонка. Магистраль связывается с шлюз ТСОП и прослушивающий порт сервера-посредника и номер порта. В этом логической связи позволяет быть связан с несколькими шлюзов и иметь несколько подключений к одной шлюза сервера-посредника. При определении маршрута звонок, указать магистральных линий связи, связанную с этим маршрутом, но не указать, какие серверы-посредники связаны с маршрутом. Чтобы создать магистральных линий связи, определение связей между серверов-посредников и шлюзы ТСОП, IP-УАТС и пограничных контроллеров сеансов (SBC) с помощью построителя топологии.
   
 ### <a name="least-cost-routing"></a>Маршрутизация по принципу наименьшей стоимости
 
 Возможность указания магистральных линий связи, используемых для маршрутизации различных номеров, позволяет определить маршруты, имеющие наименьшую стоимость, и использовать их соответствующим образом. Общее правило выбора магистральной линии связи — выбор магистральной линии связи с ближайшим шлюзом до расположения конечного номера, чтобы минимизировать затраты на международную связь. Например, если вы находитесь в Нью-Йорке и звоните абоненту в Риме, звонок будет передаваться по сети IP в магистральную линию связи со шлюзом в офисе Рима, чтобы плата взималась только за локальный звонок.
   
-For an example of how least-cost routing might be used, consider the following: Fabrikam decides to enable German users to dial U.S. numbers by using the U.S. trunk. Fabrikam also wants to configure the system so that all calls from U.S. Skype for Business Server users to Germany and adjacent countries/regions terminate on the trunk with the gateway in Germany. This routing will save money, because a call from Germany to Austria, for example, is less expensive than a call from the U.S. to Austria.
+Пример маршрутизации как принципу наименьшей стоимости может использоваться, учитывайте следующее: Fabrikam решает немецкого пользователи могли набора номеров США с помощью магистрали США. Fabrikam также требуется для настройки системы, чтобы завершить все вызовы из США Скайп для пользователей Business Server Германии и соседних стран или регионов на линии связи с шлюзом в Германии. В этом маршрутизации смогут экономить деньги, потому что вызов Германия Австрия, например, дешевле вызов из США Австрия.
   
 ### <a name="translating-outbound-dial-strings"></a>Преобразование строк набора исходящих звонков
 
-Skype for Business Server requires all dial strings to be normalized to E.164 format for the purpose of performing reverse number lookup (RNL). For trunks with gateways or private branch exchanges (PBXs) that require numbers translated in local dialing formats, Skype for Business Server enables you to create one or more rules that assist in manipulating the called number (i.e. Request URI) prior to routing it to the trunk. Например, можно составить правило, обеспечивающее удаление префикса +44 в начале строки набора номера с заменой префиксом 0144.
+Скайп для Business Server требуется всех строк, преобразовываться в формат E.164 для выполнения обратного номеров поиск вызова по требованию. Для магистральных линий связи со шлюзами или относиться обмена (УАТС), которые требуют преобразования в форматы локального набора номера Скайп для Business Server позволяет создавать одно или несколько правил, помогающих управлять набранного номера (то есть запроса URI) перед маршрутизацией его к магистральному каналу. Например, можно составить правило, обеспечивающее удаление префикса +44 в начале строки набора номера с заменой префиксом 0144.
   
-With Skype for Business Server, it is possible to create one or more rules that assist in manipulating the calling number prior to routing it to the trunk.
+С помощью Скайп Business Server можно создать одно или несколько правил, помогающих управлять вызываемым номером перед маршрутизацией магистрали.
   
-In planning your trunks that associate gateway:port pairs with Mediation Server:port pairs, it may be useful to group trunks with similar local dialing requirements, and therefore reduce the number of required translation rules and the time it takes to write them.
+При планировании вашего магистралей, связать пары шлюза: порт с пары Mediation Server: порт, могут оказаться полезны для группы магистральных линий связи с локальным аналогичные требования к набору номера и таким образом сократить количество правил преобразования обязательные и время, необходимое для их написания.
   
 ### <a name="configuring-caller-id"></a>Настройка идентификатора вызывающего абонента
 
-Skype for Business Server provides a way to manipulate the caller ID for outbound calls. For example, if an organization wants to mask employees' direct-dial extensions and replace them with the generic corporate or departmental number, an administrator can do that by using Skype for Business Server Control Panel to suppress the caller ID and replace it with a specified alternative caller ID. In planning your routing logic, consider which individuals, groups, sites you'll want this option for—perhaps, even, for all employees.
+Скайп для Business Server предоставляет способ для работы с Звонящего для исходящих звонков. Например если организация хочет скрытие расширений прямого вызова сотрудников и их замены универсальный организации или отдела номер, администратор может выполнять, с помощью Скайп для панели управления Business Server для предотвращения идентификатора звонящего и замените его с идентификатором указанный альтернативный вызывающего абонента. Планирование логику маршрутизации, нужно учесть какие отдельных пользователей, групп, сайтов, может потребоваться этот параметр для —, возможно, для всех сотрудников.
   
 > [!NOTE]
 > Для звонков, перенаправляемых через ТСОП, вместо исходного ИД вызывающего абонента будет представлен общий ИД вызывающего абонента. Это может привести к тому, что звонки будут обходить статусы "Не беспокоить" или параметры конфиденциальности, которые могли быть заданы вызываемым. 
@@ -324,7 +324,7 @@ Skype for Business Server provides a way to manipulate the caller ID for outboun
     
 - Если часть домена в URI запроса не содержит поддерживаемый домен для организации, компонент внешней маршрутизации на сервере не будет обрабатывать соответствующий вызов.
     
-- If a user is not enabled for Enterprise Voice, the server applies other routing logic, as appropriate.
+- Если пользователь не включен для корпоративной голосовой связи, то сервер применяет другую логику маршрутизации по соответствующим образом.
     
 - Если вызов перенаправляется в шлюз, который полностью занят (все каналы магистрали заняты), этот шлюз отклоняет вызов, а логика внешней маршрутизации перенаправляет вызов на следующий маршрут с наименьшей стоимостью. Этот сценарий необходимо рассмотреть более подробно, поскольку шлюз, предназначенный для небольших заграничных офисов (например, в Цюрихе), может переносить большой объем нелокального трафика для международных звонков в Швейцарию. Если размер дополнительного трафика шлюза задан неправильно, звонки в Швейцарию могут быть перенаправлены в шлюз в Германии, что приведет к увеличению расходов на международную связь.
     
