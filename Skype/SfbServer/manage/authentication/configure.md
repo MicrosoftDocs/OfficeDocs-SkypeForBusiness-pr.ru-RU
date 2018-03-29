@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
-description: 'Summary: Configure two-factor authentication in Skype for Business Server 2015.'
+description: 'Сводка: Настройка двухфакторной проверки подлинности в Скайп для Business Server 2015.'
 ms.openlocfilehash: edd32559a136573e7b3cf1fe5dc3a153ce0eb61c
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.lasthandoff: 03/28/2018
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server-2015"></a>Настройка двухфакторной проверки подлинности в Skype для бизнеса Server 2015
  
-**Summary:** Configure two-factor authentication in Skype for Business Server 2015.
+**Сводка:** Настройка двухфакторной проверки подлинности в Скайп для Business Server 2015.
   
-В следующих разделах приведена пошаговая процедура настройки двухфакторной проверки подлинности для развертывания. For more information about Two-factor authentication, see [Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
+В следующих разделах приведена пошаговая процедура настройки двухфакторной проверки подлинности для развертывания. Дополнительные сведения о двухфакторной проверки подлинности можно [многофакторная проверка подлинности Включение Office 365 для администраторов online - Post пользователя сетки](https://go.microsoft.com/fwlink/p/?LinkId=313332).
   
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Настройка корневого центра сертификации на предприятии для проверки подлинности с помощью смарт-карт
 
 Ниже описан порядок действий по настройке корневого ЦС предприятия для проверки подлинности с помощью смарт-карт.
   
-For information on how to install an Enterprise Root CA, see [Install an Enterprise Root Certification Authority](https://go.microsoft.com/fwlink/p/?LinkID=313364).
+Сведения о том, как установить корневой Сертификат предприятия содержатся в разделе [Установка корневой центр сертификации предприятия](https://go.microsoft.com/fwlink/p/?LinkID=313364).
   
 1. Войдите на компьютер ЦС предприятия с учетной записью администратора домена.
     
@@ -61,17 +61,17 @@ For information on how to install an Enterprise Root CA, see [Install an Enterpr
     
 ## <a name="configure-windows-8-for-virtual-smart-cards"></a>Настройка Windows 8 для виртуальных смарт-карт
 
-Одним их факторов, которые следует учитывать при развертывании двухфакторной проверки подлинности и технологии смарт-карт, является его стоимость. Windows 8 provides a number of new security capabilities, and one of the most interesting new features is support for virtual smart cards.
+Одним их факторов, которые следует учитывать при развертывании двухфакторной проверки подлинности и технологии смарт-карт, является его стоимость. Windows 8 предоставляет ряд новых функций безопасности и одним из наиболее интересных новых функций является поддержка виртуального смарт-карт.
   
-Если компьютеры оборудованы микросхемами доверенного платформенного модуля (TPM), соответствующими спецификации версии 1.2, организации могут пользоваться преимуществами регистрации по смарт-картам без дополнительных капиталовложений в оборудование. For more information, see [Using Virtual Smart Cards with Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
+Если компьютеры оборудованы микросхемами доверенного платформенного модуля (TPM), соответствующими спецификации версии 1.2, организации могут пользоваться преимуществами регистрации по смарт-картам без дополнительных капиталовложений в оборудование. Дополнительные сведения можно [с помощью виртуальных смарт-карт с Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
   
 ### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>Настройка конфигурации Windows 8 для виртуальных смарт-карт
 
-1. Log in to the Windows 8 computer using the credentials of a Skype for Business-enabled user.
+1. Войдите компьютер Windows 8, используя учетные данные Скайп для пользователя с включенной поддержкой бизнеса.
     
 2. На начальном экране Windows 8 переместите курсор в нижний правый угол.
     
-3. Select the **Search** option, and then search forCommand Prompt.
+3. Выберите параметр **поиска** и затем выполните поиск forCommand строки.
     
 4. Щелкните **Командная строка** правой кнопкой мыши, затем выберите **Запуск от имени администратора**.
     
@@ -113,15 +113,15 @@ For information on how to install an Enterprise Root CA, see [Install an Enterpr
 
 Зарегистрировать пользователей для проверки подлинности с помощью смарт-карты можно двумя способами. Простой вариант — поручить пользователям самостоятельно зарегистрироваться с помощью функции регистрации через Интернет, в то время как сложный связан с использованием агента регистрации. В этом разделе рассматривается процедура самостоятельной регистрации для использования сертификатов смарт-карт.
   
-For more information on enrolling on behalf of users as an enrollment agent, see [Enroll for Certificates on Behalf of Other Users](https://go.microsoft.com/fwlink/p/?LinkID=313367).
+Дополнительные сведения о регистрации от имени пользователей и как агент регистрации видеть [Заявка на сертификаты от имени других пользователей](https://go.microsoft.com/fwlink/p/?LinkID=313367).
   
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>Порядок регистрации пользователей для проверки подлинности с помощью смарт-карты
 
-1. Log in to the Windows 8 workstation using the credentials of a Skype for Business-enabled user.
+1. Выполните вход рабочая станция Windows 8, используя учетные данные Скайп для пользователя с включенной поддержкой Business.
     
 2. Запустите браузер Internet Explorer.
     
-3. Browse to the **Certificate Authority Web Enrollment** page (e.g. https://MyCA.contoso.com/certsrv).
+3. Перейдите на страницу **Сертификат центра сертификации подача заявок через Интернет** (например https://MyCA.contoso.com/certsrv).
     
     > [!NOTE]
     > В браузере Internet Explorer 10 эту страницу, возможно, потребуется открыть в режиме совместимости. 
@@ -142,7 +142,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     
     - Для параметра **Использование ключа** выберите значение **Обмен** (единственное доступное значение).
     
-    - For **Key Size**, enter 2048
+    - **Размер ключа**укажите 2048
     
     - Убедитесь в том, что флажок **Автоматическое имя контейнера ключа** установлен.
     
@@ -154,7 +154,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     
     - Для параметра **Алгоритм хэширования** выберите значение **sha1**.
     
-    - For **Friendly Name** enterSmardcard Certificate.
+    - Для enterSmardcard **Понятное имя** сертификата.
     
 8. Если используется физическое устройство считывания смарт-карт, вставьте смарт-карту в устройство.
     
@@ -163,12 +163,12 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 10. Когда будет предложено, введите ПИН-код, использовавшийся при создании виртуальной смарт-карты.
     
     > [!NOTE]
-    > The default virtual smart card PIN value is '12345678'. 
+    > Значение по умолчанию виртуальный смарт-карт ПИН-КОДОВ: "12345678". 
   
 11. После выдачи сертификата щелкните **Установить этот сертификат** для завершения процедуры регистрации.
     
     > [!NOTE]
-    >  If your certificate request fails with the error "This Web browser does not support the generation of certificate requests," there are three possible ways to resolve the issue:
+    >  Если ваш запрос на сертификат не удается с ошибкой «этой веб-браузер не поддерживает создание запросы сертификатов», существует три возможных способа устранения проблемы:
   
         a. Enable Compatibility View in Internet Explorer 
         b. Enable the Turn on Intranet settings option in Internet Explorer 
@@ -176,10 +176,10 @@ For more information on enrolling on behalf of users as an enrollment agent, see
   
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>Настройка служб федерации Active Directory (AD FS 2.0)
 
-В этом разделе рассматривается настройка служб федерации Active Directory (AD FS 2.0) для поддержки многофакторной проверки подлинности. For information on how to install AD FS 2.0, see [AD FS 2.0 Step-by-Step and How To Guides](https://go.microsoft.com/fwlink/p/?LinkId=313374).
+В этом разделе рассматривается настройка служб федерации Active Directory (AD FS 2.0) для поддержки многофакторной проверки подлинности. Сведения о том, как установить AD FS 2.0 можно [AD FS 2.0 Step-by-Step и как для руководства по](https://go.microsoft.com/fwlink/p/?LinkId=313374).
   
 > [!NOTE]
-> При установке AD FS 2.0 не добавляйте роль службы федерации Active Directory с помощью диспетчера серверов Windows. Instead, download and install the [Active Directory Federation Services 2.0 RTW package](https://go.microsoft.com/fwlink/p/?LinkId=313375). 
+> При установке AD FS 2.0 не добавляйте роль службы федерации Active Directory с помощью диспетчера серверов Windows. Вместо этого загрузите и установите [пакет Active Directory Federation Services 2.0 RTW](https://go.microsoft.com/fwlink/p/?LinkId=313375). 
   
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>Настройка AD FS для двухфакторной проверки подлинности
 
@@ -201,9 +201,9 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 5. Запустите консоль управления AD FS 2.0 в меню "Средства администрирования".
     
-6. Expand **Trust Relationships** > **Relying Party Trusts**.
+6. Разверните узел **отношения доверия** > **отношения доверия с проверяющей стороной**.
     
-7. Verify that a new trust has been created for your Skype for Business Server.
+7. Убедитесь, что нового отношения доверия был создан для вашей Скайп для Business Server.
     
 8. С помощью Windows PowerShell и следующих команд создайте и назначьте для отношения доверия с проверяющей стороны правило утверждения авторизации:
     
@@ -240,7 +240,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     
 - Проверка подлинности клиента по протоколу TLS
     
-На основе проверки подлинности по формам можно разработать веб-страницу, где подлинность пользователей будет проверяться по имени и паролю или по смарт-карте и PIN‑коду. В этой статье рассматривается преимущественно реализация проверки подлинности клиента по протоколу TLS с помощью AD FS 2.0. For more information about AD FS 2.0 authentication types, see [AD FS 2.0: How to Change the Local Authentication Type](https://go.microsoft.com/fwlink/p/?LinkId=313384).
+На основе проверки подлинности по формам можно разработать веб-страницу, где подлинность пользователей будет проверяться по имени и паролю или по смарт-карте и PIN‑коду. В этой статье рассматривается преимущественно реализация проверки подлинности клиента по протоколу TLS с помощью AD FS 2.0. Дополнительные сведения о типах AD FS 2.0 проверки подлинности можно [AD FS 2.0: изменение локального типа проверки подлинности](https://go.microsoft.com/fwlink/p/?LinkId=313384).
   
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>Настройка AD FS 2.0 для поддержки проверки подлинности клиента
 
@@ -256,7 +256,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     
 6. В строке меню выберите **Правка**, затем **Найти**.
     
-7. Search for \<localAuthenticationTypes\>.
+7. Поиск \<localAuthenticationTypes\>.
     
     Обратите внимание, что здесь будут перечислены четыре типа проверки подлинности, по одному на строку.
     
@@ -274,7 +274,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>Настройка пассивной проверки подлинности в Skype для бизнеса Server
 
-The following section describes how to configure Skype for Business Server 2015 to support passive authentication. Once enabled, users who are enabled for two-factor authentication will be required to use a physical or virtual smart card and a valid PIN to sign in using the Skype for Business client.
+В следующем разделе описывается настройка Скайп для 2015 Business Server для поддержки пассивной проверки подлинности. Если этот параметр включен, пользователи, которым разрешена двухфакторной проверки подлинности требуется указать использование физических или виртуальных смарт-карт и действительный ПИН-код для вход при помощи Скайп для клиента Business.
   
 > [!NOTE]
 > Заказчикам настоятельно рекомендуется включить пассивную проверку подлинности для регистратора и веб-служб на уровне служб. Включение пассивной проверки подлинности включена для регистратора и веб-служб на глобальном уровне с большой вероятностью приводит к сбоям проверки подлинности пользователей, входящих не с поддерживаемых клиентов для настольных компьютеров, во всей организации. 
@@ -285,11 +285,11 @@ The following section describes how to configure Skype for Business Server 2015 
   
 ### <a name="to-create-a-custom-web-service-configuration"></a>Порядок создания настраиваемой конфигурации веб-служб
 
-1. Log in to your Skype for Business Server 2015 Front End server using a Skype for Business administrator account.
+1. Выполните вход вашей Скайп для сервера переднего плана Business Server 2015, с помощью Скайп для учетной записи администратора предприятия.
     
-2. Launch the Skype for Business Server Management Shell.
+2. Запустите Скайп для консоли Business Server.
     
-3. From the Skype for Business Server Management Shell command-line, create a new Web Service configuration for each Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command:
+3. В Скайп для Business Server Командная консоль командной строки создайте новую конфигурацию веб-службы для каждого директора, корпоративного пула и сервера Standard Edition, который будет включен для пассивной проверки подлинности, выполнив следующую команду:
     
   ```
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
@@ -304,7 +304,7 @@ The following section describes how to configure Skype for Business Server 2015 
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
-5. Для клиентов пассивная проверка подлинности является наименее предпочтительным способом проверки подлинности WebTicket. For all Directors, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication, all other authentication types must be disabled in Skype for Business Web Services by running the following cmdlet:
+5. Для клиентов пассивная проверка подлинности является наименее предпочтительным способом проверки подлинности WebTicket. Для всех директоров (en), Enterprise пулов и серверов Standard Edition, которые будут использоваться для пассивной проверки подлинности других типов проверки подлинности, необходимо отключить в Скайп для бизнеса веб-служб, выполнив следующий командлет:
     
   ```
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
@@ -318,13 +318,13 @@ The following section describes how to configure Skype for Business Server 2015 
 
 ### <a name="proxy-configuration"></a>Конфигурация прокси-сервера
 
-When certificate authentication is disabled for Skype for Business Web Services, the Skype for Business client will use a less preferred authentication type, such as Kerberos or NTLM, to authenticate to the Registrar service. Проверка подлинности по сертификату и в этом случае необходима для извлечения WebTicket клиентом, однако для службы регистратора необходимо отключить Kerberos и NTLM.
+При отключении проверки подлинности сертификата для бизнеса веб-служб для Скайп Скайп для клиента Business будет использовать менее предпочитаемый тип проверки подлинности, например Kerberos или NTLM, проходить проверку подлинности в службе регистратора. Проверка подлинности по сертификату и в этом случае необходима для извлечения WebTicket клиентом, однако для службы регистратора необходимо отключить Kerberos и NTLM.
   
 Ниже описана процедура создания настраиваемой конфигурации прокси-сервера для пограничных пулов, корпоративных пулов и серверов Standard Edition, для которых будет включена пассивная проверка подлинности.
   
 ### <a name="to-create-a-custom-proxy-configuration"></a>Порядок создания настраиваемой конфигурации прокси-сервера
 
-1. From the Skype for Business Server Management Shell command-line, create a new proxy configuration for each Skype for Business Server 2015 Edge Pool, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following commands:
+1. В Скайп для Business Server Командная консоль командной строки, создайте новую конфигурацию прокси-сервера для каждого Скайп для Business Server 2015 пограничного пула, корпоративный пул и Standard Edition server, который будет использоваться для пассивной проверки подлинности, выполнив следующие команды:
     
   ```
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
@@ -347,7 +347,7 @@ When certificate authentication is disabled for Skype for Business Web Services,
 
 #### 
 
-[Manage two-factor authentication in Skype for Business Server 2015](two-factor-authentication.md)
+[Управление двухфакторной проверки подлинности в Скайп для Business Server 2015](two-factor-authentication.md)
   
-[Use two-factor authentication with Skype for Business client and Skype for Business Server 2015](use.md)
+[Использовать двухфакторной проверки подлинности с помощью Скайп для бизнеса клиентов и Скайп для Business Server 2015](use.md)
 
