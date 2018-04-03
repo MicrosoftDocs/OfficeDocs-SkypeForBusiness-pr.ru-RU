@@ -1,5 +1,5 @@
 ---
-title: "Настройка службы переноса собраний (MMS)"
+title: Настройка службы переноса собраний (MMS)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 031f09c0-9d2a-487a-b6db-b5d4bed6d16a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Служба переноса собраний (MMS) \x97 это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams."
-ms.openlocfilehash: 0d33efb2f60a06853ba26cd6e525f624114c95a5
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 46f7c0223c88b7a4a3aa3a553e14df85ce86835d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Настройка службы переноса собраний (MMS)
 
@@ -292,4 +294,4 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
     
 ## <a name="related-topics"></a>See also
 
-[Конференц-связь с телефонным подключением в Office 365](set-up-audio-conferencing.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

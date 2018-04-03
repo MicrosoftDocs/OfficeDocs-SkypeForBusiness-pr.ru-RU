@@ -1,5 +1,5 @@
 ---
-title: "Код practice для Великобритании (Великобритания)"
+title: Код practice для Великобритании (Великобритания)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: ec34b528ed31f78e3c6075f357ff96c702371514
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: c1528d1ec28dd940b5b696dd03f9c389f6d16844
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>Код practice для Великобритании (Великобритания)
 
@@ -114,7 +114,7 @@ Skype для бизнеса передает звонок в службы пла
   
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-Все Поставщики услуг обязаны пройти регистрацию в независимой организации PhonepayPlus, которая имеет соответствующую лицензию Управления по делам радио, телевидения и предприятий связи Великобритании. PhonepayPlus осуществляет регулирование рынка служб платных номеров, а также расследование подаваемых клиентами претензий. Все поставщики услуг, должна придерживаться PhonepayPlus кода из практического занятия, можно найти в [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). В случае нарушения этих норм и правил со стороны Поставщика услуг организация PhonepayPlus имеет право:
+Все Поставщики услуг обязаны пройти регистрацию в независимой организации PhonepayPlus, которая имеет соответствующую лицензию Управления по делам радио, телевидения и предприятий связи Великобритании. PhonepayPlus осуществляет регулирование рынка служб платных номеров, а также расследование подаваемых клиентами претензий. Все Поставщики услуг обязаны соблюдать действующие нормы и правила PhonepayPlus, которые опубликованы по адресу [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). В случае нарушения этих норм и правил со стороны Поставщика услуг организация PhonepayPlus имеет право:
   
 - потребовать устранить последствия нарушения;
     
@@ -124,7 +124,7 @@ Skype для бизнеса передает звонок в службы пла
     
 ### <a name="service-provider-contact-information"></a>Контактные данные Поставщика услуг
 
-Чтобы найти контактные данные для поставщика услуг, можно использовать средство PhonepayPlus #NumberChecker в [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). Если вы считаете, что с вас ошибочно взяли плату за пользование службами платных номеров, следует обращаться напрямую к Поставщику услуг.
+Для поиска контактных данных Поставщика услуг следует использовать инструмент #NumberChecker, опубликованный организацией PhonepayPlus по адресу [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). Если вы считаете, что с вас ошибочно взяли плату за пользование службами платных номеров, следует обращаться напрямую к Поставщику услуг.
   
 ### <a name="complaints"></a>Претензии
 
@@ -132,7 +132,7 @@ Skype для бизнеса передает звонок в службы пла
   
 - Телефон: 0300 30 300 20 (с 09:30 по 17:00 с понедельника по пятницу)
     
-- Online запрос: [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- Веб-сайт: [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
     
 ### <a name="dispute-resolution"></a>Урегулирование споров
 
@@ -148,5 +148,3 @@ Skype для бизнеса передает звонок в службы пла
 ## <a name="related-topics"></a>См. также:
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

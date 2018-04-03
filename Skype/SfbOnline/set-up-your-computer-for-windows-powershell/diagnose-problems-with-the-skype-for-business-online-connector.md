@@ -1,5 +1,5 @@
 ---
-title: "Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online"
+title: Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 80062caae67eca24f47e1deb764121aef96ba30f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 3b00bfba29a8523d49690059ce1faceabcf040ab
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 02/19/2018
 
 Политика выполнения PowerShell помогает определить, какие файлы конфигурации можно загрузить в консоль PowerShell и какие сценарии пользователь может запустить из этой консоли. Как минимум Модуль соединителя Skype для бизнеса Online невозможно импортировать, если политика выполнения имеет значение RemoteSigned. Если это не так, вы получите следующее сообщение об ошибке при попытке импортировать модуль:
   
-- **Ошибка**: *Import-Module: файл C:\\Program Files\\общие файлы\\Microsoft Lync Server 2013\\модулей\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 не удается загрузить, поскольку выполняется сценарии отключено на этом компьютере. Для получения дополнительных сведений см. about_Execution_Policies на https://go.microsoft.com/fwlink/?LinkID=135170.*
+- **Ошибка**: *Import-Module: файл C:\\Program Files\\общие файлы\\Microsoft Lync Server 2013\\модулей\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 не удается загрузить, поскольку выполняется сценарии отключено на этом компьютере. Для получения дополнительных сведений см about_Execution_Policies в https://go.microsoft.com/fwlink/?LinkID=135170.*
 
 - **Решение** Чтобы устранить эту проблему, запустите PowerShell от имени администратора и запустите следующую команду:
     ```
@@ -65,7 +65,7 @@ ms.lasthandoff: 02/19/2018
   
   - **Ошибка**: *Import-Module: версия загруженных PowerShell — «2.0". Модуль "D:\\Program Files\\общие файлы\\Microsoft Lync Server 2013\\модулей\\LyncOnlineConnector\\LyncOnlineConnector.psd1" требует Минимальная версия PowerShell «3.0"для выполнения. Проверьте установку PowerShell и повторите попытку.*
 
-- **Решение**: Установка Windows PowerShell 3.0, которому можно получить из центра загрузки Майкрософт по [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)является единственным способом для устранения этой проблемы.
+- **Решение**: Установка Windows PowerShell 3.0, который доступен в центре загрузки Майкрософт по является единственным способом для устранения этой проблемы [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
 ## <a name="failed-to-connect-to-live-id-server"></a>Не удалось подключиться к серверу Live ID
 <a name="BKMKFailedConnect"> </a>
@@ -103,7 +103,7 @@ ms.lasthandoff: 02/19/2018
 
 - **Ошибка**: *Get-CsWebTicket: не удалось выполнить вход для пользователя 'kenmyer@litwareinc.com'. Создайте новый объект PSCredential, убедившись, что используется правильное имя пользователя и пароль.*
 
-- **Решение**: Если вы думаете, что вы используете учетную запись пользователя и что у вас есть правильный пароль, попробуйте снова войти в систему. Если это не удается, используйте один набор учетных данных и попробуйте выполнить вход в [https://login.microsoftonline.com/](https://login.microsoftonline.com/). Если там не удастся войти, обратитесь в службу поддержки Office 365. 
+- **Решение**: Если вы думаете, что вы используете учетную запись пользователя и что у вас есть правильный пароль, попробуйте снова войти в систему. При сбое используйте те же учетные данные и попробуйте войти на сайте [https://login.microsoftonline.com/](https://login.microsoftonline.com/). Если там не удастся войти, обратитесь в службу поддержки Office 365. 
 
   
 ## <a name="the-user-does-not-have-permission-to-manage-this-tenant"></a>У пользователя нет разрешения на управление этим клиентом
@@ -129,7 +129,7 @@ ms.lasthandoff: 02/19/2018
 
 Каждый администратор может установить максимум три удаленных подключения к Skype для бизнеса online одновременно. Если у вас установлено три удаленных подключения PowerShell, при попытке четвертого подключения произойдет сбой со следующим сообщением об ошибке:
 
-- **Ошибка**: *New-PSSession: [admin.vdomain.com] подключение к удаленному серверу admin.vdomain.com выведено следующее сообщение об ошибке: служба WS-Management не удается обработать запрос. Превышено максимальное количество одновременных оболочек для этого пользователя. Закройте существующими оболочками или инициировать квоты для данного пользователя. Дополнительные сведения можно [](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1* удаленное устранение неполадок
+- **Ошибка**: *New-PSSession: [admin.vdomain.com] подключение к удаленному серверу admin.vdomain.com выведено следующее сообщение об ошибке: служба WS-Management не удается обработать запрос. Превышено максимальное количество одновременных оболочек для этого пользователя. Закройте существующими оболочками или инициировать квоты для данного пользователя. Для получения дополнительных сведений см. [удаленного] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Решение**: закрыть один или несколько предыдущих подключений является единственным способом для устранения этой проблемы. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.
   
@@ -138,10 +138,12 @@ ms.lasthandoff: 02/19/2018
 
 Хотя у каждого администратора может быть до трех одновременных подключений к клиенту Skype для бизнеса online, одному клиенту запрещено иметь больше девяти одновременных подключений. Например, три администратора могут открыть по три сеанса. Если четвертый администратор попытается установить подключение (10-е по счету), произойдет сбой со следующим сообщением об ошибке:
   
-- **Ошибка**: *New-PSSession: [admin.vdomain.com] подключение к удаленному серверу admin.vdomain.com выведено следующее сообщение об ошибке: служба WS-Management не удается обработать запрос. Превышено максимальное количество одновременных оболочек для клиента. Закройте существующими оболочками или инициировать квоты для клиента. Дополнительные сведения можно [](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1* удаленное устранение неполадок
+- **Ошибка**: *New-PSSession: [admin.vdomain.com] подключение к удаленному серверу admin.vdomain.com выведено следующее сообщение об ошибке: служба WS-Management не удается обработать запрос. Превышено максимальное количество одновременных оболочек для клиента. Закройте существующими оболочками или инициировать квоты для клиента. Для получения дополнительных сведений см. [удаленного] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Решение**: закрыть один или несколько предыдущих подключений является единственным способом для устранения этой проблемы. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.  
  
 ## <a name="related-topics"></a>See also
 [Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
+  
+ 

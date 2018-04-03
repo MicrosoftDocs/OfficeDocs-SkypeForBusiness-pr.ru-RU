@@ -1,5 +1,5 @@
 ---
-title: "Управление параметрами звука конференц-связи для пользователя"
+title: Управление параметрами звука конференц-связи для пользователя
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Как администратор Office 365 можно изменить параметры звука конференц-связи — например, поставщика, счета по умолчанию или бесплатный номер, идентификатор конференции или ПИН-код — для отдельного пользователя в организации. Если вы хотите изменить параметры для вашей организации, просмотреть управление конференц-связи аудио параметров для организации."
-ms.openlocfilehash: 47a52e9dc6fd4327e68ad829aea8c77978fe53b5
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Как администратор Office 365 можно изменить параметры звука конференц-связи — например, поставщика, счета по умолчанию или бесплатный номер, идентификатор конференции или ПИН-код — для отдельного пользователя в организации. Если вы хотите изменить параметры для вашей организации, просмотреть управление конференц-связи аудио параметров для организации.
+ms.openlocfilehash: cf9db4b2191b7b8152dc5c831b098de4143402b9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>Управление параметрами звука конференц-связи для пользователя
 
@@ -58,8 +58,6 @@ ms.lasthandoff: 03/16/2018
    
 ## <a name="related-topics"></a>See also
 
-[Управление настройками аудиоконференций для организации](manage-the-audio-conferencing-settings-for-my-organization.md)
+[Управление настройками аудиоконференции для организации](manage-the-audio-conferencing-settings-for-my-organization.md)
 
-[Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](set-up-audio-conferencing.md)
-  
 [Общие вопросы по аудиоконференциям](audio-conferencing-common-questions.md)

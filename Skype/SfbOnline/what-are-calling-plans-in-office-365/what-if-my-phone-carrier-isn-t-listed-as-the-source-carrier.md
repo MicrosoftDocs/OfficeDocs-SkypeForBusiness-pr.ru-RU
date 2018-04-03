@@ -1,5 +1,5 @@
 ---
-title: "Что делать, если мой телефон поставщика нет в списке как оператор источника?"
+title: Что делать, если мой телефон поставщика нет в списке как оператор источника?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderDetailPanelWhois
 ms.custom:
 - Calling Plans
-description: "Узнайте, что делать, если нет в списке своего оператора в Скайп для бизнеса. "
-ms.openlocfilehash: da9f5603c477f67b68ed02b00434b10318de31c8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Узнайте, что делать, если нет в списке своего оператора в Скайп для бизнеса. '
+ms.openlocfilehash: 7ca5b0b959066dec5841862ac9270dcc023aecd4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Что делать, если мой телефон поставщика нет в списке как оператор источника?
 
@@ -48,5 +48,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

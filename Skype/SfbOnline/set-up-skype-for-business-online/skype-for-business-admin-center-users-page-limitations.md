@@ -1,5 +1,5 @@
 ---
-title: "Ограничения страницы Скайп для бизнеса в Интернет пользователей центра администрирования"
+title: Ограничения страницы Скайп для бизнеса в Интернет пользователей центра администрирования
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.UsersCountLimitationWarning
 ms.custom:
 - Setup
-description: "Узнайте о работе в рамках ограничения Скайп для отображения бизнес Online администрирования пользователей. "
-ms.openlocfilehash: 7f7189536d1c859b25eb6cacb3fc75c57995d464
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Узнайте о работе в рамках ограничения Скайп для отображения бизнес Online администрирования пользователей. '
+ms.openlocfilehash: 13b5a6f8aa838b7a2ff21b10d488f5569792c385
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Ограничения страницы Скайп для бизнеса в Интернет пользователей центра администрирования
 
@@ -45,5 +45,5 @@ ms.lasthandoff: 02/27/2018
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

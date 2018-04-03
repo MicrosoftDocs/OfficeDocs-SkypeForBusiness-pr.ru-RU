@@ -1,5 +1,5 @@
 ---
-title: "Вносить изменения в параметры вещания собрания Скайп для вашей организации"
+title: Вносить изменения в параметры вещания собрания Скайп для вашей организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
-description: "Можно включить Скайп вещания собрания и внести изменения в параметры и политики для них."
-ms.openlocfilehash: b61a03178086699a8b5fc27ebc00f1c6b6f72021
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Можно включить Скайп вещания собрания и внести изменения в параметры и политики для них.
+ms.openlocfilehash: 26b5173ad911632a1a36b499e9f617f6848c2345
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Вносить изменения в параметры вещания собрания Скайп для вашей организации
 
@@ -43,5 +43,5 @@ ms.lasthandoff: 02/27/2018
 
 [Настройка сети для трансляции собраний Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

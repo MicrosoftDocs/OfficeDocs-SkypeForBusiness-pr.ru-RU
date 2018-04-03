@@ -1,5 +1,5 @@
 ---
-title: "Назначение, изменение или удаление номер телефона для пользователя"
+title: Назначение, изменение или удаление номер телефона для пользователя
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Узнайте, как назначить, изменить или удалить рабочий номер телефона для вашей Скайп для бизнес-пользователи, за пределами предприятия и клиенты могут позвонить."
-ms.openlocfilehash: 34d60b9a032cbf3de472eb0f99c1027aea619217
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Узнайте, как назначить, изменить или удалить рабочий номер телефона для вашей Скайп для бизнес-пользователи, за пределами предприятия и клиенты могут позвонить.
+ms.openlocfilehash: 25ef3478a77da97e354e3652f3b605b47d4afb60
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение или удаление номер телефона для пользователя
 
@@ -123,3 +125,6 @@ ms.lasthandoff: 02/19/2018
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

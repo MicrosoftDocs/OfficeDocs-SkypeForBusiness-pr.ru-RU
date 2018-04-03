@@ -1,5 +1,5 @@
 ---
-title: "Видеть, изменение и сброс идентификатор конференции, назначенных пользователю"
+title: Видеть, изменение и сброс идентификатор конференции, назначенных пользователю
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Узнайте, как назначить пользователю в Скайп для бизнеса идентификатор конференции и какие конференции идентификатор приложения-службы должны быть параметров. "
-ms.openlocfilehash: b542e764d0b8b1587c34e78a54612410cd72a3bd
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'Узнайте, как назначить пользователю в Скайп для бизнеса идентификатор конференции и какие конференции идентификатор приложения-службы должны быть параметров. '
+ms.openlocfilehash: 12fe2b0f425f58dca8272f5f0536ba5393b2f76c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="see-change-and-reset-a-conference-id-assigned-to-a-user"></a>Видеть, изменение и сброс идентификатор конференции, назначенных пользователю
 
@@ -108,7 +108,6 @@ ms.lasthandoff: 03/16/2018
     
 - Идентификатор конференции для всех пользователей аудиоконференций будет 7 символов по умолчанию, и количество знаков, нельзя изменить.
     
-- Если пользователь перемещается от корпорации Майкрософт в качестве поставщика аудиоконференций поставщика аудиоконференций сторонних производителей или поставщик услуг аудиоконференций имеет значение **None**, идентификатор конференции больше не будут работать. В разделе [Назначение независимых производителей в качестве поставщика аудиоконференций](assign-a-third-party-as-the-audio-conferencing-provider.md) или [перемещения поставщика аудиоконференций пользователя в корпорацию Майкрософт](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
@@ -128,5 +127,5 @@ ms.lasthandoff: 03/16/2018
     
 ## <a name="related-topics"></a>See also
 
-[Конференц-связь с телефонным подключением в Office 365](set-up-audio-conferencing.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

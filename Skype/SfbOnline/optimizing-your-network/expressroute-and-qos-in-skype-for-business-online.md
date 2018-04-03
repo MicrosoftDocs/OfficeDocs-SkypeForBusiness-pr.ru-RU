@@ -1,5 +1,5 @@
 ---
-title: "ExpressRoute и качество обслуживания в Skype для бизнеса Online"
+title: ExpressRoute и качество обслуживания в Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 9c339905dc23df15b5e5a8e6569fafb78524d39e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ae647dc469676b3fa94723f020fd8ac641aa7dd0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute и качество обслуживания в Skype для бизнеса Online
 
@@ -404,3 +404,5 @@ Skype для бизнеса открывает новые возможности
 
 [Документация ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
 
+  
+ 

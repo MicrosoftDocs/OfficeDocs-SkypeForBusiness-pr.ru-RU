@@ -1,5 +1,5 @@
 ---
-title: "Как ввести номера телефонов?"
+title: Как ввести номера телефонов?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
-description: "Узнайте, как настраивать номера телефонов при переносе их Скайп для бизнеса. "
-ms.openlocfilehash: c68a42838021c9f8a564b55dbac078af07d9031b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Узнайте, как настраивать номера телефонов при переносе их Скайп для бизнеса. '
+ms.openlocfilehash: 68fe698612c095e657dab56723df7de6eb13b858
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>Как ввести номера телефонов?
 
@@ -97,3 +97,6 @@ ms.lasthandoff: 02/19/2018
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

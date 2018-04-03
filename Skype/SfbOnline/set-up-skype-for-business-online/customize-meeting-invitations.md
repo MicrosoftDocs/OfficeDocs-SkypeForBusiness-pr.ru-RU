@@ -1,5 +1,5 @@
 ---
-title: "Настройка приглашения на собрания"
+title: Настройка приглашения на собрания
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: "Настройка приглашения на собрания Скайп рисунок, связанный с эмблем, справки и юридических URL-адреса и текст нижнего колонтитула. "
-ms.openlocfilehash: 374060876bcf12c5d7283586d3a04710a9b203b4
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Настройка приглашения на собрания Скайп рисунок, связанный с эмблем, справки и юридических URL-адреса и текст нижнего колонтитула. '
+ms.openlocfilehash: 202669b67cb8feb3af7216a2faf9400a014da88e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="customize-meeting-invitations"></a>Настройка приглашения на собрания
 
@@ -70,8 +70,7 @@ ms.lasthandoff: 02/27/2018
 ## <a name="related-topics"></a>См. также:
 <a name="__top"> </a>
 
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

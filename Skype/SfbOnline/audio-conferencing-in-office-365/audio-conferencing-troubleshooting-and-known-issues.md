@@ -1,5 +1,5 @@
 ---
-title: "Известные проблемы аудиоконференций и устранение неполадок"
+title: Известные проблемы аудиоконференций и устранение неполадок
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Ознакомьтесь со списком известные проблемы, возникающие при использовании Microsoft как их поставщика конференц-связи, состояние и некоторые обходные пути. "
-ms.openlocfilehash: 6d10e797ef052cafc22555b26a27a1aaeae1fc76
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'Ознакомьтесь со списком известные проблемы, возникающие при использовании Microsoft как их поставщика конференц-связи, состояние и некоторые обходные пути. '
+ms.openlocfilehash: 3748c6f60c04ea34f327eb371ba16f112a124287
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Известные проблемы аудиоконференций и устранение неполадок
 
@@ -61,4 +61,4 @@ ms.lasthandoff: 03/16/2018
    
 ## <a name="related-topics"></a>See also
 
-[Конференц-связь с телефонным подключением в Office 365](set-up-audio-conferencing.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

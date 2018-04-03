@@ -1,5 +1,5 @@
 ---
-title: "Авторизованного пользователя для учетной записи"
+title: Авторизованного пользователя для учетной записи
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
 ms.custom:
 - Calling Plans
-description: "Узнайте, почему необходимо добавить авторизованного пользователя, который можно внести изменения в учетную запись, при использовании мастера новый локальный заказ номер порта."
-ms.openlocfilehash: f12bb42b3ae74f0d487e25f935c2c129545008c1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Узнайте, почему необходимо добавить авторизованного пользователя, который можно внести изменения в учетную запись, при использовании мастера новый локальный заказ номер порта.
+ms.openlocfilehash: 9d0b49828be9bc87443ba77ae8daf7ba16270b42
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="authorized-person-on-the-account"></a>Авторизованного пользователя для учетной записи
 
@@ -49,3 +49,6 @@ ms.lasthandoff: 02/19/2018
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

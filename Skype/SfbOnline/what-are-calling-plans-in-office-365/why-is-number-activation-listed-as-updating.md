@@ -1,5 +1,5 @@
 ---
-title: "Почему номеров активации указана в качестве обновления?"
+title: Почему номеров активации указана в качестве обновления?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.NumberActivationStateUpdating
 ms.custom:
 - Calling Plans
-description: "Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами."
-ms.openlocfilehash: b5e9df2c7950403d91c1511d86b49d84c023576d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
+ms.openlocfilehash: 825b1e15e4dd83a9a9fe70a31dbc46dcc6cf04f6
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Почему номеров активации указана в качестве обновления?
 
@@ -106,5 +106,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

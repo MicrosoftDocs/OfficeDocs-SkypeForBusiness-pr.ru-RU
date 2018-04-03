@@ -1,5 +1,5 @@
 ---
-title: "Бесплатное периода подключение по телефонной линии"
+title: Бесплатное периода подключение по телефонной линии
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "Клиенты могут использовать Office 365 вызов планирование и конференц-связи Office 365 аудио разрешенными в Скайп для бизнес-сети PSTN службы используйте условиях и соглашением о корпоративном лицензировании клиента."
+hideEdit: true
+description: Клиенты могут использовать Office 365 вызов планирование и конференц-связи Office 365 аудио разрешенными в Скайп для бизнес-сети PSTN службы используйте условиях и соглашением о корпоративном лицензировании клиента.
 ms.openlocfilehash: fac5ad1e413d62669e1ed23e6ea19f1c51ea3017
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Бесплатное периода подключение по телефонной линии звукового конференц-связи
 

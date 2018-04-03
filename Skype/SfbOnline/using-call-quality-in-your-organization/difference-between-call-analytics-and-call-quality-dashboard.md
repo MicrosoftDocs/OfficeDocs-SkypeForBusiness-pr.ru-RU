@@ -1,5 +1,5 @@
 ---
-title: "В чем разница между средством аналитики звонков и панелью мониторинга качества звонков?"
+title: В чем разница между средством аналитики звонков и панелью мониторинга качества звонков?
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems in Skype for Business.
-ms.openlocfilehash: a17b98451013f24810fd437fa3eb638f98610a8f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 934b0cfec28fa4a67e1dad699db504bda25b2978
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="whats-the-difference-between-call-analytics-and-call-quality-dashboard"></a>В чем разница между средством аналитики звонков и панелью мониторинга качества звонков?
 
@@ -64,3 +64,6 @@ ms.lasthandoff: 02/19/2018
 [Настройка средства аналитики звонков в Skype для бизнеса](set-up-call-analytics.md)
 
 [Использование средства аналитики звонков для устранения проблем с низким качеством звонков в Skype для бизнеса](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+  
+ 

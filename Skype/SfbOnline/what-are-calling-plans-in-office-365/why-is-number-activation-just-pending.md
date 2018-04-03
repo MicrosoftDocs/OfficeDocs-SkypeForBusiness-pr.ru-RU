@@ -1,5 +1,5 @@
 ---
-title: "Почему — это просто ожидает номеров активации?"
+title: Почему — это просто ожидает номеров активации?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.NumberActivationStatePending
 ms.custom:
 - Calling Plans
-description: "Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами."
-ms.openlocfilehash: 9e11ffdc522b02082f7a4eb6fcab993a9fa33589
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
+ms.openlocfilehash: 0ef01cb445f2dff18638c1714f3e71c9655018e1
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-is-number-activation-just-pending"></a>Почему — это просто ожидает номеров активации?
 
@@ -107,3 +107,6 @@ ms.lasthandoff: 02/19/2018
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Измерения и меры, недоступны в панели мониторинга качества звонков"
+title: Измерения и меры, недоступны в панели мониторинга качества звонков
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 7b59e7bd1d4f74aa07ec749dc805c9022a43372c
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 672eca2e9af90b32f04d1b4ea6ad024a716fa1cf
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Измерения и меры, недоступны в панели мониторинга качества звонков
 
@@ -516,5 +516,5 @@ ms.lasthandoff: 02/27/2018
 
 [В чем разница между средством аналитики звонков и панелью мониторинга качества звонков?](Difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

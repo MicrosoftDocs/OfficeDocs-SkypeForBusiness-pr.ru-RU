@@ -1,5 +1,5 @@
 ---
-title: "Назначение лицензий Skype для бизнеса и Microsoft Teams"
+title: Назначение лицензий Skype для бизнеса и Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "Узнайте, как назначить Скайп для бизнеса лицензий для телефонной системой, звук конференц-связи, вызов планы и кредитов коммуникаций. "
-ms.openlocfilehash: ca3b7a5abef407bb4b8ead2af060a6cfa9b7dd74
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 'Узнайте, как назначить Скайп для бизнеса лицензий для телефонной системой, звук конференц-связи, вызов планы и кредитов коммуникаций. '
+ms.openlocfilehash: 12a26dc7b9ebd47ae10005afb66f23a8cb278237
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Назначение лицензий Skype для бизнеса и Microsoft Teams
 
@@ -115,11 +115,7 @@ ms.lasthandoff: 03/08/2018
 
 - **Сторонний поставщик аудиоконференций**. Если для пользователя уже настроено использование стороннего поставщика аудиоконференций, при назначении ему лицензии на **аудиоконференцию** поставщиком аудиоконференций автоматически назначается Майкрософт, но вы можете снова задать стороннего поставщика.
     
-- Дальнейшие действия: после назначения лицензий **Аудиоконференций** , им необходимо назначить поставщика аудиоконференций. Выполните одно из указанных ниже действий.
-    
-  - [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
-    
-  - [Назначение стороннего поставщика услуг аудиоконференций](../audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)
+- Дальнейшие действия: после назначения лицензий **Аудиоконференций** , им необходимо назначить поставщика аудиоконференций. В разделе [назначение Microsoft в качестве поставщика аудиоконференций].
     
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Назначение лицензии на аудиоконференции одному пользователю
 
@@ -201,12 +197,10 @@ foreach ($user in $users)
 Ознакомьтесь с примером сценария для назначения лицензий на **аудиоконференции**. Обновите сведения для назначения лицензий на **кредиты на связь**.
   
 ## <a name="related-topics"></a>See also
-
-[Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
   
 [Настройка планов звонков](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
   
 [Добавление средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
   
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

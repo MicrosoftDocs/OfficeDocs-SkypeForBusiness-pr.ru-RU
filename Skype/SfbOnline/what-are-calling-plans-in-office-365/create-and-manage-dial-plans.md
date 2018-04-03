@@ -1,5 +1,5 @@
 ---
-title: "Создание и управление ими абонентских групп"
+title: Создание и управление ими абонентских групп
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Сведения о создании вызова абонентских групп (вызов ТСОП абонентских групп) в Office 365 и управлять ими. "
-ms.openlocfilehash: cf9d2fced57bab38165332887abe0977e2c8157b
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 'Сведения о создании вызова абонентских групп (вызов ТСОП абонентских групп) в Office 365 и управлять ими. '
+ms.openlocfilehash: 0b297cc9a1ba4026fb018d9d324e712bbe0e2881
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-and-manage-dial-plans"></a>Создание и управление ими абонентских групп
 
@@ -229,5 +229,5 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

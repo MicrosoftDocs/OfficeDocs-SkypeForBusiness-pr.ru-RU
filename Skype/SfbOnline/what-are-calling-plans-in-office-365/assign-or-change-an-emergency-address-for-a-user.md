@@ -1,5 +1,5 @@
 ---
-title: "Назначение или изменение экстренных адреса для пользователя"
+title: Назначение или изменение экстренных адреса для пользователя
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Узнайте, как настроить адрес и телефон номер экстренного вызова для каждого пользователя, работающей с общей переключения телефонной сети общего пользования (PSTN)."
-ms.openlocfilehash: 1b86861e40ac1b5929176b1e0b8f6274d749e8f9
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Узнайте, как настроить адрес и телефон номер экстренного вызова для каждого пользователя, работающей с общей переключения телефонной сети общего пользования (PSTN).
+ms.openlocfilehash: d1323f400e15b629d6fc623636c4060028ec42c1
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Назначение или изменение экстренных адреса для пользователя
 
@@ -67,5 +67,5 @@ ms.lasthandoff: 03/08/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

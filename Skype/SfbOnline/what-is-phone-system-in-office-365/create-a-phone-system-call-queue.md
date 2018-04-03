@@ -1,5 +1,5 @@
 ---
-title: "Создание очереди вызовов с телефонной системой"
+title: Создание очереди вызовов с телефонной системой
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 363c6d7eefd63d1f89eb5d1420e516894d432b6b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a6eac4b7fec191d9e897f41e3c32b270ab21abcf
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>Создание очереди вызовов с телефонной системой
 
@@ -95,7 +97,7 @@ ms.lasthandoff: 02/19/2018
 Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. После получения счета или бесплатная служба телефонных номеров, они будут отображаться в **Скайп по центру администрирования Business** > **голосовой связи** > **номера телефонов**и **тип номера** в списке будет отображаться как **Служба — бесплатный номер **. Для получения номера службы видеть [Приступая к службе номера телефонов для Скайп для бизнеса и группами Майкрософт](getting-service-phone-numbers.md) или существующий номер службы и передача, см [передачи телефонных номеров в Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> Если вы находитесь за пределами США, Скайп по центру администрирования бизнес нельзя использовать для получения номера службы. Вместо этого перейдите [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) сведения о выполните за ее пределами США.
+> Если вы находитесь за пределами США, Скайп по центру администрирования бизнес нельзя использовать для получения номера службы. Перейдите на [Управление телефонные номера для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) вместо этого на вашу за ее пределами США.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Шаг 3. Создание новой очереди звонков
 
@@ -138,6 +140,9 @@ Before you can create and set up your call queues, you will need to get or trans
  1. Откройте **Параметры** в их рабочего стола Скайп для клиента Business. 
  2. На вкладке **Переадресация звонков** щелкните ссылку **Изменить параметры Интернет-версия** .
  3. На странице параметров пользователей нажмите кнопку **Позвонить очереди**и снимите флажки для очередей, для которых требуется отключить.
+ 
+    > [!NOTE] 
+    > Агенты, с помощью Mac, мобильный телефон, или клиентами Lync 2013 и гибридной голосовой связи, пользователи, размещенных в локальной с помощью Скайп для сервера Business 2015, можно перейти к [https://aka.ms/cqsettings](https://aka.ms/cqsettings) для доступа к явного out-параметр.
    
 ### <a name="add-call-agents-to-a-call-queue"></a>Добавление операторов в очередь звонков
 
@@ -161,7 +166,7 @@ Before you can create and set up your call queues, you will need to get or trans
 ![Номер 2](../images/sfbcallout2.png)<br/><br/>**При достижении максимальное число звонков** Очереди звонок по достижении максимального размера (задается с помощью параметра **Maximum вызывает в очереди** ), можно выбрать, что происходит с новой входящие звонки.
 *    **Отключить с сигналом занятости**. Звонок отключается. 
 *    **Переадресация этот вызов** При выборе это будет иметь следующие параметры:
-     *    **Лица в вашей компании** Активных пользователей с **Телефонной системой** лицензии и включен для корпоративной голосовой связи или вызова планирование. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лица в вашей компании** и установите их переадресация на голосовую почту напрямую звонков этому пользователю. <br/>
+     *    **Лица в вашей компании** Активных пользователей с **Телефонной системой** лицензии и включен для корпоративной голосовой связи или вызова планирование. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лица в вашей компании** и установите их переадресация на голосовую почту напрямую звонков этому пользователю. <br/> <br/>Дополнительные сведения о лицензировании, необходимые для голосовой почты, см [телефонной системы голосовой почты](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
      
         > [!Note]
         > Пользователи размещенных в локальной Lync Server 2010 не поддерживается.<br/>
@@ -175,7 +180,7 @@ Before you can create and set up your call queues, you will need to get or trans
 ![Число 4](../images/sfbcallout4.png)<br/><br/>**При истечении времени ожидания звонка**. Определяет порядок дальнейшей звонков по истечении времени, заданного в параметре **Как долго звонок может находиться в очереди**:   
 *    **Отключить**. Звонок отключается. 
 *    **Переадресация этот вызов** При выборе это будет иметь следующие параметры:
-     *    **Лица в вашей компании** Активных пользователей с **Телефонной системой** лицензии и включен для корпоративной голосовой связи или вызова планов. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лица в вашей компании** и установите их переадресация на голосовую почту напрямую звонков этому пользователю. 
+     *    **Лица в вашей компании** Активных пользователей с **Телефонной системой** лицензии и включен для корпоративной голосовой связи или вызова планов. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лица в вашей компании** и установите их переадресация на голосовую почту напрямую звонков этому пользователю. </br><br/>  Дополнительные сведения о лицензировании, необходимые для голосовой почты, см [телефонной системы голосовой почты](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
 
         > [!Note]
         > Пользователи размещенных в локальной Lync Server 2010 не поддерживается.<br/>
@@ -239,3 +244,6 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](getting-service-phone-numbers.md)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+  
+ 

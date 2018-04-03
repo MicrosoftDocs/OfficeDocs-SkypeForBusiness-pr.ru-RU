@@ -1,5 +1,5 @@
 ---
-title: "Тестирование установки Skype для бизнеса Online"
+title: Тестирование установки Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 6f280e6345fb8a6af72cac35f4844f7a63caab48
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 4ddd99dec5e8c283741380b68e01ef97363fda85
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Тестирование установки Skype для бизнеса Online
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/27/2018
     
 - компьютер для каждой тестовой учетной записи. Настройте компьютеры типичным для организации способом.
     
-- Настройка учетной записи у поставщика услуг аудиоконференций вSkype для бизнеса online. Дополнительную информацию см. в разделе [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).
+- Учетная запись с поставщика аудиоконференций для Скайп для бизнеса в Интернет. 
     
 ## <a name="what-do-you-want-to-do"></a>В этой статье:
 
@@ -73,8 +73,6 @@ ms.lasthandoff: 02/27/2018
 - код конференции и ПИН-код для каждого пользователя в организации, который планирует или проводит собрания.
     
 После настройки аудиоконференции для пользователей им автоматически будет отправлено сообщение электронной почты с номерами телефонов и кодом конференции. Эти сведения также автоматически добавляются в новые приглашения на собрания Skype для бизнеса.
-  
-Дополнительные сведения см. в разделе [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md). 
   
  **Добавление данных для аудиоконференции к учетной записи одного из тестовых пользователей**
   
@@ -141,5 +139,5 @@ ms.lasthandoff: 02/27/2018
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Бахрейн"
+title: Доступность в Бахрейн
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Бахрейн."
-ms.openlocfilehash: 1fea4599e6d3a7d35d305eac1e11c9370e47e9f1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Бахрейн.
+ms.openlocfilehash: 7a7d91defec60ae0cbbe43287e065212b1f66a22
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-bahrain"></a>Доступность в Бахрейн
 
@@ -82,4 +82,3 @@ ms.lasthandoff: 02/19/2018
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

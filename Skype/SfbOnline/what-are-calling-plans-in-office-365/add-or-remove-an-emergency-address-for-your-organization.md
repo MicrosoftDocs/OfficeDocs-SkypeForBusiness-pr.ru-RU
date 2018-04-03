@@ -1,5 +1,5 @@
 ---
-title: "Добавление или удаление адреса для экстренного реагирования для вашей организации"
+title: Добавление или удаление адреса для экстренного реагирования для вашей организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: 4bde1e825df6425f25fe9dbf41873e6b3b932507
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 1853d3904b79d3f4edad2909e2cf2476d3450828
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Добавление или удаление адреса для экстренного реагирования для вашей организации
 
@@ -78,5 +78,5 @@ ms.lasthandoff: 03/08/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

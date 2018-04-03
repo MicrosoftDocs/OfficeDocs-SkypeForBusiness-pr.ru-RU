@@ -1,5 +1,5 @@
 ---
-title: "Отчет о заблокированных пользователей"
+title: Отчет о заблокированных пользователей
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Этот отчет, а также другие Скайп для бизнес-отчеты подробные сведения по деятельности, включая использование ТСОП внутри организации. "
-ms.openlocfilehash: ff8fe5d7dfd47f19e98c1663793b91729e54acda
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Этот отчет, а также другие Скайп для бизнес-отчеты подробные сведения по деятельности, включая использование ТСОП внутри организации. '
+ms.openlocfilehash: 9d7a43cc8348dc3e56ddffc27c20446518fb32b5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="users-blocked-report"></a>Отчет о заблокированных пользователей
 
@@ -84,5 +84,5 @@ ms.lasthandoff: 02/27/2018
 ## <a name="related-topics"></a>See also
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

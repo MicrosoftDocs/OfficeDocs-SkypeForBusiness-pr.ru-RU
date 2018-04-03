@@ -1,5 +1,5 @@
 ---
-title: "В этом Скайп для бизнеса в Интернет функции не включена"
+title: В этом Скайп для бизнеса в Интернет функции не включена
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
-description: "Найти возможные причины и предложений действие при получении Скайп для бизнеса в Интернет средство не включено ошибки. "
-ms.openlocfilehash: ff8e8dca2dc4a196a31f979c6aced400d5a7b194
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Найти возможные причины и предложений действие при получении Скайп для бизнеса в Интернет средство не включено ошибки. '
+ms.openlocfilehash: 5d0167ed53f5396d3d048815986dea7600f9182f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>В этом Скайп для бизнеса в Интернет функции не включена
 
@@ -39,3 +39,6 @@ ms.lasthandoff: 02/19/2018
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
+
+  
+ 

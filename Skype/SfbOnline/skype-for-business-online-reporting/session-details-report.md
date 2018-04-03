@@ -1,5 +1,5 @@
 ---
-title: "Отчет о сеансе"
+title: Отчет о сеансе
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Новая панель мониторинга отчетов Office 365 показывающий обзор действий по продуктов Office 365 в вашей организации. Он позволяет работать отдельных продуктов уровня отчетами, чтобы предоставить более детальные сведения о действия в рамках каждого продукта."
-ms.openlocfilehash: 3760a5dc6caf3ebf5f70290031f1014af9e04ef6
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Новая панель мониторинга отчетов Office 365 показывающий обзор действий по продуктов Office 365 в вашей организации. Он позволяет работать отдельных продуктов уровня отчетами, чтобы предоставить более детальные сведения о действия в рамках каждого продукта.
+ms.openlocfilehash: 3f33c08f271e638aa160319d39f2e66f97f61a1a
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="session-details-report"></a>Отчет о сеансе
 
@@ -119,5 +119,5 @@ Office 365 **отчеты** панели мониторинга показыва
 ## <a name="related-topics"></a>See also
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

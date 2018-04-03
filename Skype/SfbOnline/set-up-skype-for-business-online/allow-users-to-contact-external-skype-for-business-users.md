@@ -1,5 +1,5 @@
 ---
-title: "Разрешить пользователям контактов внешних Скайп для бизнес-пользователи"
+title: Разрешить пользователям контактов внешних Скайп для бизнес-пользователи
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -25,12 +25,12 @@ f1_keywords:
 ms.custom:
 - Setup
 - LIL_Placement
-description: "Узнайте, как настроить Скайп для бизнеса дать возможность пользователям обращаться к пользователей в другой организации или разрешить за пределами контактов к ним. "
-ms.openlocfilehash: 570f268427ddac33e8f720230fbb1f6adb2e319b
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Узнайте, как настроить Скайп для бизнеса дать возможность пользователям обращаться к пользователей в другой организации или разрешить за пределами контактов к ним. '
+ms.openlocfilehash: cdbdb961f4fcf4bf9544a16f3efc8d4ba58d8664
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Разрешить пользователям контактов внешних Скайп для бизнес-пользователи
 
@@ -147,5 +147,5 @@ ms.lasthandoff: 02/27/2018
   
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
   
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

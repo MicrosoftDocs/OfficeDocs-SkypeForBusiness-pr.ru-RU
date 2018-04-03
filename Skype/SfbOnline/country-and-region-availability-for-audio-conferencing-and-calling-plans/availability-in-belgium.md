@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Бельгия"
+title: Доступность в Бельгия
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Бельгия."
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Бельгия.
 ms.openlocfilehash: 0fcc305afdadbd0132282134de12a8ea26b59194
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-belgium"></a>Доступность в Бельгия
 

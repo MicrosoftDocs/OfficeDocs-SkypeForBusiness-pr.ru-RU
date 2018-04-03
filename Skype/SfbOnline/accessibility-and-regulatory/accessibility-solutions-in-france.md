@@ -1,5 +1,5 @@
 ---
-title: "Специальные возможности решения во Франции"
+title: Специальные возможности решения во Франции
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: "Des utilisateurs ses автора предложения отчетные expériences accessibles est au cœur де ла критически que s'est fixée Microsoft: personne chaque отчетные permettre et d'accomplir отчетные chaque организации де ла planète davantage quelles que soit ses навыков. Microsoft автора предложения де plaisir le, avec Скайп предприятия, отменять определенные d «accessibilité qui s'inscrivent dans сын сотрудничества Форт Бетонирование l» accessibilité nombre де решений et l'inclusion numérique."
 ms.openlocfilehash: 723746dcc61335f3eb0b655b51d177e804ab4166
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-in-france"></a>Специальные возможности решения для Скайп для бизнеса в Интернет во Франции
 

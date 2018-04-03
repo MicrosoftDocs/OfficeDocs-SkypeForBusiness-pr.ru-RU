@@ -1,5 +1,5 @@
 ---
-title: "Как можно использовать идентификатор звонящего в вашей организации"
+title: Как можно использовать идентификатор звонящего в вашей организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Идентификатор звонящего можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, называется CallingLineIdentity."
-ms.openlocfilehash: f87718858507405e54643575825b264c6c1cbea1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Идентификатор звонящего можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, называется CallingLineIdentity.
+ms.openlocfilehash: d658c292164556bb67845a08b519b9e78b6ff91d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Как можно использовать идентификатор звонящего в вашей организации
 
@@ -90,3 +92,6 @@ ms.lasthandoff: 02/19/2018
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

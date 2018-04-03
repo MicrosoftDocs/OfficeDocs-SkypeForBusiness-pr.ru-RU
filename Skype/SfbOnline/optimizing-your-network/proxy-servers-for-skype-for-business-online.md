@@ -1,5 +1,5 @@
 ---
-title: "Прокси-серверы для Skype для бизнеса Online"
+title: Прокси-серверы для Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "В этой статье представлены рекомендации по использованию прокси-сервера в Skype для бизнеса."
-ms.openlocfilehash: 29438474524c7c1e518fb3130fdaf436e562d76e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: В этой статье представлены рекомендации по использованию прокси-сервера в Skype для бизнеса.
+ms.openlocfilehash: 0f4d0b82eeaedd4b81ea84a8d8d3a67993d7be96
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Прокси-серверы для Skype для бизнеса Online
 
@@ -71,11 +71,11 @@ ms.lasthandoff: 02/27/2018
     
 Встроенную поддержку Bluecoat легко включить в Skype для бизнеса. Она позволяет идентифицировать нужный трафик и управлять им. Это обеспечит оптимальное взаимодействие для пользователей: проверку подлинности, обмен сигналами и поток трафика мультимедиа, и при этом не создаст проблем с безопасностью.
     
-Если Bluecoat прокси-сервер является частью топологию сети обратитесь к следующей ссылке: https://support.symantec.com/en_US/article.DOC9757.html
+Если Bluecoat прокси-сервер является частью топологию сети можно найти по следующей ссылке:https://support.symantec.com/en_US/article.DOC9757.html
 
 ## <a name="related-topics"></a>See also
 
 [Оптимизация сети для Skype для бизнеса Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

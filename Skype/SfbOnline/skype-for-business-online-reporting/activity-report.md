@@ -1,5 +1,5 @@
 ---
-title: "Отчета об активности"
+title: Отчета об активности
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - O365E_ReportsS4BActivity
 ms.custom:
 - Reporting
-description: "Узнайте, как получить Скайп для отчетов о деятельности, он содержит и интерпретации данных. "
-ms.openlocfilehash: 21b34d8c99d03030eb5699feea54d4eb7629537c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Узнайте, как получить Скайп для отчетов о деятельности, он содержит и интерпретации данных. '
+ms.openlocfilehash: 419bb60a40271c6680193841c175cb86860a2a0e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="activity-report"></a>Отчета об активности
 
@@ -118,3 +118,5 @@ Office 365 **отчеты** панели мониторинга показыва
 ## <a name="related-topics"></a>See also
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Пакистан"
+title: Доступность в Пакистан
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Пакистан."
-ms.openlocfilehash: 72bf8f63b112fe799542685a06322e65e12eab4d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Пакистан.
+ms.openlocfilehash: 2b557247a1b9666bc615b6e79e844f52262bbab4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-pakistan"></a>Доступность в Пакистан
 
@@ -83,3 +83,5 @@ ms.lasthandoff: 02/19/2018
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
+  
+ 

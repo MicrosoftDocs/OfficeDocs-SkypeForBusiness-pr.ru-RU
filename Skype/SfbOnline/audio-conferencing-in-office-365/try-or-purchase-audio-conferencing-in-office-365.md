@@ -1,5 +1,5 @@
 ---
-title: "Попробуйте или Покупка Audio конференция в Office 365"
+title: Попробуйте или Покупка Audio конференция в Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +22,12 @@ f1keywords:
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Узнайте, как попробуйте или приобрести лицензии Office 365 для настройки конференц-связи, которые пользователи могут телефонное подключение к аудиоконференции (конференции с ТСОП). "
-ms.openlocfilehash: 2c2b76bb207d5463c4b431e4cf9be4f0ecdba472
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Узнайте, как попробуйте или приобрести лицензии Office 365 для настройки конференц-связи, которые пользователи могут телефонное подключение к аудиоконференции (конференции с ТСОП). '
+ms.openlocfilehash: 1dda3a2ecc24e512e9d614b42292233471525805
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365"></a>Попробуйте или Покупка Audio конференция в Office 365
 
@@ -73,7 +75,7 @@ ms.lasthandoff: 02/19/2018
   
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Шаг 2: Установка поставщика аудиоконференций для пользователей, которые привести или планировать собрания
 
-При назначении лицензии на **Аудиоконференции** людей в организации привести или планировать собрания, они являются все set up и Готово к работе! (Не нужно задать их поставщика аудиоконференций.) Однако если есть пользователи, использующие поставщика сторонних производителей аудиоконференций (ACP), необходимо [переместить пользователя поставщика аудиоконференций в корпорацию Майкрософт](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
+При назначении лицензии на **Аудиоконференции** людей в организации привести или планировать собрания, они являются все set up и Готово к работе! (Не нужно задать их поставщика аудиоконференций.) 
   
 > [!NOTE]
 > Если вы хотите использовать ACP сторонних производителей, выберите **аудиоконференции** > **мост Microsoft**. В нижней части страницы выберите, **Если вы хотите настроить поставщика аудиоконференций сторонних производителей, щелкните здесь**. 

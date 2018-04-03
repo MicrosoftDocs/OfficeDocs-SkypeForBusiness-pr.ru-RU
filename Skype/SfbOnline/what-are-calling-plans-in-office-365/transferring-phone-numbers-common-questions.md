@@ -1,5 +1,5 @@
 ---
-title: "Перенос номеров телефона: часто задаваемые вопросы"
+title: 'Перенос номеров телефона: часто задаваемые вопросы'
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Следующих часто задаваемые вопросы о передаче телефонных номеров Скайп для бизнеса. После просмотра ответов, можно приступить к созданию номеру порта и перемещение телефонных номеров. В разделе Передача номера телефонов в Office 365 для получения инструкций."
-ms.openlocfilehash: 3fe34a7c38fb8be206b0e3812674255d0593d188
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Следующих часто задаваемые вопросы о передаче телефонных номеров Скайп для бизнеса. После просмотра ответов, можно приступить к созданию номеру порта и перемещение телефонных номеров. В разделе Передача номера телефонов в Office 365 для получения инструкций.
+ms.openlocfilehash: ce62365c337d94c05c7ca1b3ff1703cb39086f97
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Перенос номеров телефона: часто задаваемые вопросы
 
@@ -178,5 +178,5 @@ ms.lasthandoff: 03/08/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

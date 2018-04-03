@@ -1,5 +1,5 @@
 ---
-title: "Настройка политик мобильных устройств в организации"
+title: Настройка политик мобильных устройств в организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Можно настроить способ подключения к Skype для бизнеса Online с помощью приложения Skype для бизнеса на мобильных устройствах, например с помощью функции, которая позволяет пользователям совершать и принимать звонки по рабочим, а не личным номерам мобильных телефонов. Можно также использовать политики мобильных устройств, чтобы запросить подключение Wi-Fi при звонках."
-ms.openlocfilehash: 904da369a4218b0b41112c97a1fed9de03c47c3b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Можно настроить способ подключения к Skype для бизнеса Online с помощью приложения Skype для бизнеса на мобильных устройствах, например с помощью функции, которая позволяет пользователям совершать и принимать звонки по рабочим, а не личным номерам мобильных телефонов. Можно также использовать политики мобильных устройств, чтобы запросить подключение Wi-Fi при звонках.
+ms.openlocfilehash: f3fa8b2974406827494ea8ceb759b23d01817825
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Настройка политик мобильных устройств в организации
 
@@ -145,3 +145,5 @@ New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false
 
 [Настройка политик конференц-связи в вашей организации](set-up-conferencing-policies-for-your-organization.md)
 
+  
+ 

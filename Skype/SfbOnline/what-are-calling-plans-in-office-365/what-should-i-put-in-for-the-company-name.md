@@ -1,5 +1,5 @@
 ---
-title: "Что следует хранить в поле имя компании?"
+title: Что следует хранить в поле имя компании?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoCompanyName
 ms.custom:
 - Calling Plans
-description: "Что следует поместить в компании Скайп для бизнеса, и где его найти. "
-ms.openlocfilehash: 3bde0daaebdaf6a3f615629c2d23f083e84e6465
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Что следует поместить в компании Скайп для бизнеса, и где его найти. '
+ms.openlocfilehash: 9664879695a79a485b034667feff2c4486878bae
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-should-i-put-in-for-the-company-name"></a>Что следует хранить в поле имя компании?
 
@@ -46,5 +46,5 @@ ms.lasthandoff: 02/27/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

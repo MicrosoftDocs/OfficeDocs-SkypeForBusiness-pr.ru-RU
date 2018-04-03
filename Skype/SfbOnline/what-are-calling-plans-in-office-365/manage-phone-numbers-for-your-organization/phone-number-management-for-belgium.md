@@ -1,5 +1,5 @@
 ---
-title: "Управление номерами телефонов в Бельгии"
+title: Управление номерами телефонов в Бельгии
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Бельгии."
-ms.openlocfilehash: 7d5f5212a147b90317c39059a21d1a461845df86
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Бельгии.
+ms.openlocfilehash: 7af80c2c09ebd45cb2ca97e700cfe0ad98d3860f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="phone-number-management-for-belgium"></a>Управление номерами телефонов в Бельгии
 
@@ -51,5 +51,5 @@ ms.lasthandoff: 03/08/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

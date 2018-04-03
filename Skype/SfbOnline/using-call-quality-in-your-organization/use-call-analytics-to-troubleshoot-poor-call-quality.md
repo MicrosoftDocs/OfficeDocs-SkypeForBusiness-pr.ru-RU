@@ -1,5 +1,5 @@
 ---
-title: "Качество связи Analytics звонков использовать для устранения неполадок низкого уровня Скайп для бизнеса"
+title: Качество связи Analytics звонков использовать для устранения неполадок низкого уровня Скайп для бизнеса
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Используйте вызова анализа сведений о устройств, сети и подключения к для диагностики проблем пользователей с Скайп для собраний и вызовы бизнеса."
-ms.openlocfilehash: cbb728c14c58393a5ec71cc538ad958ba58fb947
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Используйте вызова анализа сведений о устройств, сети и подключения к для диагностики проблем пользователей с Скайп для собраний и вызовы бизнеса.
+ms.openlocfilehash: b7f900509506433bd2c863fb6c0c33c4f71f2ab5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Качество связи Analytics звонков использовать для устранения неполадок низкого уровня Скайп для бизнеса
 
@@ -77,5 +77,5 @@ ms.lasthandoff: 02/27/2018
 
 [В чем разница между средством аналитики звонков и панелью мониторинга качества звонков?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

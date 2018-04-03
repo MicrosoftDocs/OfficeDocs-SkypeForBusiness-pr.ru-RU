@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Перу"
+title: Доступность в Перу
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Перу."
-ms.openlocfilehash: 1af5637dfe6657a53773a7713e25c3ef10a0bd01
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Перу.
+ms.openlocfilehash: 4250f9dffb0f8bd8379bf2f993bf616599345221
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-peru"></a>Доступность в Перу
 
@@ -83,4 +83,5 @@ ms.lasthandoff: 02/19/2018
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 

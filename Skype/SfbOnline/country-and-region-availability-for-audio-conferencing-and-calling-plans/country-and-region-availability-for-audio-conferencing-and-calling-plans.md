@@ -1,5 +1,5 @@
 ---
-title: "Страны и регионы, для которых доступны аудиоконференции и планы звонков"
+title: Страны и регионы, для которых доступны аудиоконференции и планы звонков
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 - LIL_Placement
-description: "Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов."
-ms.openlocfilehash: b332830b2b53637af84a2154d346396e74d55622
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
+ms.openlocfilehash: ee9e98da987d1d1ad78282bb6cd299e33542ad85
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
@@ -202,5 +202,5 @@ ms.lasthandoff: 03/21/2018
 ## <a name="related-topics"></a>См. также:
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

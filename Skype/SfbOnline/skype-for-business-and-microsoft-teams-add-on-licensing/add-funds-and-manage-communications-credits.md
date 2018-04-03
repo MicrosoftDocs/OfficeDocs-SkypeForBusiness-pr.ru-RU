@@ -1,5 +1,5 @@
 ---
-title: "Добавление средств и управление ими Communications кредитов"
+title: Добавление средств и управление ими Communications кредитов
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -27,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "Узнайте, как оплачиваться для обмена данными кредитов (потребление PSTN) Скайп для бизнес-служб и посмотрите, планы для хранения пользователей с доступом к непрерывной телефонной системы. "
-ms.openlocfilehash: a97b0d3b47e8062ae47def379b22dd73c7909700
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Узнайте, как оплачиваться для обмена данными кредитов (потребление PSTN) Скайп для бизнес-служб и посмотрите, планы для хранения пользователей с доступом к непрерывной телефонной системы. '
+ms.openlocfilehash: c9eb2cb23b4d7be58970a28c928d7c839c30db4b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Добавление средств и управление ими Communications кредитов
 
@@ -82,10 +84,11 @@ ms.lasthandoff: 02/19/2018
 
 - [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [Настройка голосовой почты телефонной системы  справка для администратора](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Настройка вызова планы](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) и [Вызов планов Office 365](calling-plans-for-office-365.md)
         
 - [Настройка соединителя облако](https://technet.microsoft.com/en-us/library/mt605228.aspx) и [Загрузите соединитель облако](https://aka.ms/CloudConnectorInstaller)
+
+  
+ 

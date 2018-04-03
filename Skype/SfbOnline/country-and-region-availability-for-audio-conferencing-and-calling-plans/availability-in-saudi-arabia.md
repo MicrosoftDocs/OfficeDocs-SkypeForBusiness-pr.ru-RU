@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Саудовская Аравия"
+title: Доступность в Саудовская Аравия
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Саудовской Аравии."
-ms.openlocfilehash: ead867298773d0127dc8aeaecd2c5f341583eb22
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Саудовской Аравии.
+ms.openlocfilehash: d7e179c8d7be74e433000b5ca22a466f278267bc
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-saudi-arabia"></a>Доступность в Саудовская Аравия
 
@@ -83,5 +83,5 @@ ms.lasthandoff: 02/27/2018
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

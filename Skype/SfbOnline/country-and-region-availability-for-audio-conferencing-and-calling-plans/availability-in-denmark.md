@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Дания"
+title: Доступность в Дания
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Дания."
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Дания.
 ms.openlocfilehash: f3f9e5e0a2689a97b00865c9d43ae23772d4494e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-denmark"></a>Доступность в Дания
 

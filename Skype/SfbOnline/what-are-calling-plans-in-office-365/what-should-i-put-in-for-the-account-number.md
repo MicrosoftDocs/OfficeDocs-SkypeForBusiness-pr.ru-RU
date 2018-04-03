@@ -1,5 +1,5 @@
 ---
-title: "Что следует хранить для номера учетной записи?"
+title: Что следует хранить для номера учетной записи?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAccountNumber
 ms.custom:
 - Calling Plans
-description: "В разделе что следует помещать как номер учетной записи в Скайп для бизнеса, и где можно найти. "
-ms.openlocfilehash: 1853e8c6d63db37d89f41c49a6302d2f765a0302
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'В разделе что следует помещать как номер учетной записи в Скайп для бизнеса, и где можно найти. '
+ms.openlocfilehash: 14a95d5f4061216fbf0dfef077bdac9ac4294206
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-should-i-put-in-for-the-account-number"></a>Что следует хранить для номера учетной записи?
 
@@ -48,4 +48,5 @@ ms.lasthandoff: 02/19/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+  
+ 

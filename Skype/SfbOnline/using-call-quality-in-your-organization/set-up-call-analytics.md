@@ -1,12 +1,12 @@
 ---
-title: "Настройка Скайп для вызова бизнес-аналитики"
+title: Настройка Скайп для вызова бизнес-аналитики
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.date: 01/22/2018
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Настройка и использование вызова Analytics для выявления и устранения неполадок Скайп для бизнеса и группами Майкрософт проблемы с качеством вызовов."
-ms.openlocfilehash: ef8f9e10e25e7f67f0161a143c313ed25330db18
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Настройка и использование вызова Analytics для выявления и устранения неполадок Скайп для бизнеса и группами Майкрософт проблемы с качеством вызовов.
+ms.openlocfilehash: 0169d8e2008ce0d87f4ee666663d4d8ccb71d1b8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Настройка Скайп для вызова бизнес-аналитики
 
@@ -72,7 +72,7 @@ ms.lasthandoff: 02/27/2018
     
      ![Снимок экрана показаны разрешения для вызова Analytics страницы с параметрами для уровня 1 и 2 уровня разрешений.](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
   
- Пользователи с любой из этих уровней разрешений получить вызова аналитики с помощью выделенного URL-адрес *https://adminportal.services.skypeforbusiness.com*.
+ Получить пользователей с помощью одной из этих уровней разрешений для вызова аналитики с помощью выделенного URL-адрес *https://adminportal.services.skypeforbusiness.com*.
   
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Отправка .tsv или CSV-файла для добавления построение сайта и клиентов сведения
 <a name="BKMK_UploadFiles"> </a>
@@ -92,5 +92,5 @@ ms.lasthandoff: 02/27/2018
 
 [В чем разница между средством аналитики звонков и панелью мониторинга качества звонков?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

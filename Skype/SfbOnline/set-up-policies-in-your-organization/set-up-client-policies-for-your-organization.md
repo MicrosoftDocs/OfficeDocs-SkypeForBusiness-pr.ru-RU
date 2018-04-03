@@ -1,5 +1,5 @@
 ---
-title: "Настройка политик клиента в организации"
+title: Настройка политик клиента в организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Политики клиента помогают определить функции Skype для бизнеса online, доступные пользователям. Например, вы можете предоставить одним пользователям право передавать файлы и запретить это другим пользователям."
-ms.openlocfilehash: 82fa2c828af9aed01652870ea5d3db02ca8248c3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Политики клиента помогают определить функции Skype для бизнеса online, доступные пользователям. Например, вы можете предоставить одним пользователям право передавать файлы и запретить это другим пользователям.
+ms.openlocfilehash: 2cf7507e4616d54982d8baaf4388ee5830ae64da
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Настройка политик клиента в организации
 
@@ -152,3 +152,6 @@ ms.lasthandoff: 02/19/2018
 [Передача файлов точка-точка блока](block-point-to-point-file-transfers.md)
 
 [Настройка политик конференц-связи в вашей организации](set-up-conferencing-policies-for-your-organization.md)
+
+  
+ 

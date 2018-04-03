@@ -1,5 +1,5 @@
 ---
-title: "Отправить сообщение электронной почты для пользователя с помощью свои данные для подключения"
+title: Отправить сообщение электронной почты для пользователя с помощью свои данные для подключения
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Отправьте сообщение электронной почты с их аудиоконференций сведения пользователей."
-ms.openlocfilehash: 70533de9fbf942a6ff7bd00f3998ede9f43ff96a
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Отправьте сообщение электронной почты с их аудиоконференций сведения пользователей.
+ms.openlocfilehash: f1e4ddd06011d7eb85253e06d6b7de775a207683
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Отправка пользователям электронных писем с информацией о конференции с телефонным подключением
 
@@ -114,4 +114,4 @@ ms.lasthandoff: 03/16/2018
   
 ## <a name="related-topics"></a>See also
 
-[Конференц-связь с телефонным подключением в Office 365](set-up-audio-conferencing.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

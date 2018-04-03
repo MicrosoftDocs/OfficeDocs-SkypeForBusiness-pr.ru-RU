@@ -1,5 +1,5 @@
 ---
-title: "Устранение неполадок Скайп для бизнеса в Интернет ошибки для администраторов"
+title: Устранение неполадок Скайп для бизнеса в Интернет ошибки для администраторов
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Узнайте распространенные причины для Скайп для бизнеса в Интернет входа ошибок и работы через устранения неполадок. "
-ms.openlocfilehash: a30375b54db5ef02756253e9419c2cb54f8f2f8b
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Узнайте распространенные причины для Скайп для бизнеса в Интернет входа ошибок и работы через устранения неполадок. '
+ms.openlocfilehash: 26541918db9598cbdaf9d61e52806da94bae9d46
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение неполадок Скайп для бизнеса в Интернет ошибки для администраторов
 
@@ -215,5 +215,5 @@ ms.lasthandoff: 02/27/2018
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

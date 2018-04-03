@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Словения"
+title: Доступность в Словения
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Словения."
-ms.openlocfilehash: 2fdc75147821f80f1a5bbd459c32e8bfb7ff378f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Словения.
+ms.openlocfilehash: ec601ee7a1a8be33e34c218233b7e38646bfffcf
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-slovenia"></a>Доступность в Словения
 
@@ -83,5 +83,6 @@ ms.lasthandoff: 02/19/2018
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 
 

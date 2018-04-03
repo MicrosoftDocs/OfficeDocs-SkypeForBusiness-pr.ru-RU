@@ -1,5 +1,5 @@
 ---
-title: "Что такое Мои выставления счетов по телефону?"
+title: Что такое Мои выставления счетов по телефону?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoBTN
 ms.custom:
 - Calling Plans
-description: "Узнайте о вашей Скайп для бизнеса, выставления счетов телефонный номер и где можно получить пошаговые инструкции по перемещению номер."
-ms.openlocfilehash: 4b72ded8ee370aca7e0ee1db6edcc917a194de9e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Узнайте о вашей Скайп для бизнеса, выставления счетов телефонный номер и где можно получить пошаговые инструкции по перемещению номер.
+ms.openlocfilehash: 3cfb34fb26a55a756d910a417da030df2dba64a0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-is-my-billing-telephone-number"></a>Что такое Мои выставления счетов по телефону?
 
@@ -45,3 +45,6 @@ ms.lasthandoff: 02/19/2018
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

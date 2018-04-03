@@ -1,5 +1,5 @@
 ---
-title: "Что такое вызов планы в Office 365?"
+title: Что такое вызов планы в Office 365?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 - LIL_Placement
-description: "Узнайте, какие Office 365 Callings планы (вызов ТСОП) указано, какие области может использоваться в и ссылки для получения пошаговые инструкции о том, как настроить его. "
-ms.openlocfilehash: 0fb7bf62be37a196eb5432eb747f77b5a08ecc93
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 'Узнайте, какие Office 365 Callings планы (вызов ТСОП) указано, какие области может использоваться в и ссылки для получения пошаговые инструкции о том, как настроить его. '
+ms.openlocfilehash: cc6405662eef6be5a2461147356b2a1a58fccf0f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-calling-plans-in-office-365"></a>Что такое вызов планы в Office 365?
 
@@ -71,5 +71,5 @@ ms.lasthandoff: 03/08/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Почему не удается использовать Скайп для бизнеса в Интернет центра администрирования на данный момент?"
+title: Почему не удается использовать Скайп для бизнеса в Интернет центра администрирования на данный момент?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
-description: "Сведения, которые можно и нельзя использовать в Скайп для бизнеса центра администрирования и других функций при службы переносится в другом центре обработки данных Майкрософт. "
-ms.openlocfilehash: e9d0f2b56ebe11ef95b59ff125434dcf3dd4574d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Сведения, которые можно и нельзя использовать в Скайп для бизнеса центра администрирования и других функций при службы переносится в другом центре обработки данных Майкрософт. '
+ms.openlocfilehash: 0b87061f1ef3861c4c01d9144fa5e2c86f5c2985
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Почему не удается использовать Скайп для бизнеса в Интернет центра администрирования на данный момент?
 
@@ -68,5 +68,5 @@ ms.lasthandoff: 02/27/2018
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

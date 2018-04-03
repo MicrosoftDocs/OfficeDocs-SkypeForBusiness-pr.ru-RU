@@ -1,5 +1,5 @@
 ---
-title: "Поток звонков с использованием ExpressRoute"
+title: Поток звонков с использованием ExpressRoute
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "В этой статье поясняются ключевые принципы потока звонков в Skype для бизнеса Online и ExpressRoute, а также приводятся некоторые подробные примеры потока звонков в целях повышения вашей осведомленности и точности планирования."
-ms.openlocfilehash: aa746ad4152dca6e1c06d99ad5b14d55f7be2fa1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: В этой статье поясняются ключевые принципы потока звонков в Skype для бизнеса Online и ExpressRoute, а также приводятся некоторые подробные примеры потока звонков в целях повышения вашей осведомленности и точности планирования.
+ms.openlocfilehash: 220a23a5a43b281790422c39908e7a0ea32c03b4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="call-flow-using-expressroute"></a>Поток звонков с использованием ExpressRoute
 
@@ -233,3 +233,6 @@ ms.lasthandoff: 02/19/2018
 ## <a name="related-topics"></a>See also
 
 [Документация ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
+
+  
+ 

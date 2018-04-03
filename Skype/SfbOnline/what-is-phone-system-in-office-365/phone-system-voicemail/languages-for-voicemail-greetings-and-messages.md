@@ -1,5 +1,5 @@
 ---
-title: "Языки для приветствий голосовой почты и сообщений"
+title: Языки для приветствий голосовой почты и сообщений
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Узнайте, какие языки можно установить по умолчанию для системных сообщений в Skype для бизнеса. "
-ms.openlocfilehash: bb1a4d1caaf7b2d85fa00804288eadc2588997e1
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+description: 'Узнайте, какие языки можно установить по умолчанию для системных сообщений в Skype для бизнеса. '
+ms.openlocfilehash: bcb8f00910c0ce15c0e9a1da6e008bc2008cbfad
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Языки, используемые для приветствий в голосовой почтые и сообщений
 
@@ -70,5 +70,5 @@ ms.lasthandoff: 03/15/2018
 
 [Возможности телефонной системы в Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
   
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

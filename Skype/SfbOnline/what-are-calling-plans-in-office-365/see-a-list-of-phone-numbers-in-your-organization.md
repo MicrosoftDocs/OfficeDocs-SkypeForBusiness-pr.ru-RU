@@ -1,5 +1,5 @@
 ---
-title: "Список номеров телефона в вашей организации"
+title: Список номеров телефона в вашей организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Узнайте, как просмотреть список всех номеров телефона в вашей организации, все номера, назначенная для пользователей и все номера, назначенные пользователям голосовой связи из Скайп по центру администрирования бизнеса."
-ms.openlocfilehash: 1bc5b27e97702ca0d61a637f08aab5a03b57cd57
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Узнайте, как просмотреть список всех номеров телефона в вашей организации, все номера, назначенная для пользователей и все номера, назначенные пользователям голосовой связи из Скайп по центру администрирования бизнеса.
+ms.openlocfilehash: c58932544e64041eb93404a3f9477a8ca953bafb
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Список номеров телефона в вашей организации
 
@@ -110,5 +110,5 @@ ms.lasthandoff: 03/08/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Ограничения бесплатных набора номера в (Гонконг)"
+title: Ограничения бесплатных набора номера в (Гонконг)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона."
-ms.openlocfilehash: ef8c8f3707d1d14d8ade0edbb0b6ba056c11dd77
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
+ms.openlocfilehash: bacc4013b1152fe5107fecbcf6059aba729bd7d9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-hong-kong"></a>Ограничения бесплатных набора номера в (Гонконг)
 
@@ -47,3 +47,6 @@ ms.lasthandoff: 02/19/2018
 [Бесплатный номер набору номера, ограничения и ограничения](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+
+  
+ 

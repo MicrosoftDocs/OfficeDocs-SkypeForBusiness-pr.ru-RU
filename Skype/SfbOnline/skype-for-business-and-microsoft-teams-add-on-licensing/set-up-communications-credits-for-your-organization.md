@@ -1,5 +1,5 @@
 ---
-title: "Настройка кредитов на связь для организации"
+title: Настройка кредитов на связь для организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 61ee7bb2a4de8417f9e018de369c0a87649b75a1
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 8a60efc9318354b9873c976cf717d3dd2cf73b3d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/08/2018
   
 - Назначение лицензии **Звук конференц-связи** для пользователей. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](assign-skype-for-business-and-microsoft-teams-licenses.md).
     
-    После назначения этой лицензии необходимо настроить аудиоконференцию. Пошаговые инструкции см. в статье [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).
+    После назначения данной лицензии, необходимо будет настроить аудиоконференций. Пошаговые инструкции в разделе [Попробуйте или Покупка Audio конференция в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
     
 - Назначение **Телефона системы** и внутри страны или внутреннее и международное лицензии вызов планирование для пользователей. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](assign-skype-for-business-and-microsoft-teams-licenses.md).
     
@@ -114,8 +114,6 @@ ms.lasthandoff: 03/08/2018
 
 - [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [Настройка голосовой почты телефонной системы  справка для администратора](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Настройка вызова планы](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) и [Вызов планов Office 365](calling-plans-for-office-365.md)
@@ -124,5 +122,5 @@ ms.lasthandoff: 03/08/2018
     
 - [Настройка соединителя облако](https://technet.microsoft.com/en-us/library/mt605228.aspx) и [Загрузите соединитель облако](https://aka.ms/CloudConnectorInstaller)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

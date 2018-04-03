@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Босния &amp; Герцеговина"
+title: Доступность в Босния &amp; Герцеговина
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Босния и Герцеговина."
-ms.openlocfilehash: 0e5d37a9def0980b16379443b94d0e295372f30e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Босния и Герцеговина.
+ms.openlocfilehash: 2c31d018b623ae53d5775ce1180507e77c3ce536
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>Доступность в Босния &amp; Герцеговина
 
@@ -82,5 +82,4 @@ ms.lasthandoff: 02/19/2018
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
 

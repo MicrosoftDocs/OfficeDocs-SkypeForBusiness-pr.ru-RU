@@ -1,5 +1,5 @@
 ---
-title: "Включение и использование панели мониторинга качества звонков"
+title: Включение и использование панели мониторинга качества звонков
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.ToolsCallQualityDashboard
 ms.custom:
 - Reporting
-description: "Узнайте, как включить и использовать Скайп для панели мониторинга качества Online вызовов бизнес и получить сводные отчеты о качестве вызовов. "
-ms.openlocfilehash: d2cbcf0a7acdfebd3ba3fb1a2cc109d32f4213a9
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Узнайте, как включить и использовать Скайп для панели мониторинга качества Online вызовов бизнес и получить сводные отчеты о качестве вызовов. '
+ms.openlocfilehash: 5e1bf4a112e36761c18a11d3173b263002ad5e3f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для групп Майкрософт и Скайп для бизнеса в Интернет
 
@@ -249,3 +249,6 @@ ms.lasthandoff: 02/19/2018
 [Использование вызова аналитики для устранения вызовов плохого качества](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Различие между аналитики вызова и панель мониторинга качества звонков?](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+  
+ 

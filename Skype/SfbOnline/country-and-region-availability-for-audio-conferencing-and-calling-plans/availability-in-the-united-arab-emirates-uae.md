@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Объединенные Арабские Эмираты (ОАЭ)"
+title: Доступность в Объединенные Арабские Эмираты (ОАЭ)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Объединенные Арабские Эмираты."
-ms.openlocfilehash: 84df65cf9b4190ef49281048db5bc4fcc930f5a2
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Объединенные Арабские Эмираты.
+ms.openlocfilehash: 85f8ade0686e29d2138a8c2827843cd07b500d39
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>Доступность в Объединенные Арабские Эмираты (ОАЭ)
 
@@ -83,5 +83,5 @@ ms.lasthandoff: 02/27/2018
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Что такое проверка адреса?"
+title: Что такое проверка адреса?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.CivicAddressValidation
 ms.custom:
 - Calling Plans
-description: "Узнайте о проверке адреса, ее важности и связи с адресами и службами экстренного реагирования. "
-ms.openlocfilehash: f5da983796a435ba64d428b21544a44a191e6de4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Узнайте о проверке адреса, ее важности и связи с адресами и службами экстренного реагирования. '
+ms.openlocfilehash: d67277490afc12d8bdb2c5433d55e70ea6f5395e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-is-address-validation"></a>Что такое проверка адреса?
 
@@ -44,3 +44,5 @@ ms.lasthandoff: 02/19/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+  
+ 

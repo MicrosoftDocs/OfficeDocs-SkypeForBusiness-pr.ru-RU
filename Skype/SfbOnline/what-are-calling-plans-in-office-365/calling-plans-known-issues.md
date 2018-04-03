@@ -1,5 +1,5 @@
 ---
-title: "Вызов планы известные проблемы"
+title: Вызов планы известные проблемы
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "Узнайте, известные проблемы с телефонной для Office 365 (вызов ТСОП) и что можно сделать о них. "
-ms.openlocfilehash: cb572c9de92cd53384c07c4e48779598ca73bb8c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Узнайте, известные проблемы с телефонной для Office 365 (вызов ТСОП) и что можно сделать о них. '
+ms.openlocfilehash: 4af75c194631680877b053841790e536e425794a
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="calling-plans-known-issues"></a>Вызов планы известные проблемы
 
@@ -48,3 +48,6 @@ ms.lasthandoff: 02/19/2018
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Доминиканская Республика"
+title: Доступность в Доминиканская Республика
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Доминиканская Республика."
-ms.openlocfilehash: 00d3a3f2cdc87af59895f7cc1a5f2e8513f6a752
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Доминиканская Республика.
+ms.openlocfilehash: b11df2299272ec2dfd9ff1b89bcb5631e43061bd
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-the-dominican-republic"></a>Доступность в Доминиканская Республика
 
@@ -83,6 +83,6 @@ ms.lasthandoff: 02/27/2018
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 
 

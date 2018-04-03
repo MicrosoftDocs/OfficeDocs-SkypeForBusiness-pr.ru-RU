@@ -1,5 +1,5 @@
 ---
-title: "Что нужно после перенесен по номерам телефонов?"
+title: Что нужно после перенесен по номерам телефонов?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
-description: "В разделе что нужно сделать Далее после перенесены номера телефонов для Скайп для бизнеса."
-ms.openlocfilehash: 961d61e93be4f6647fe7396a7400bf42d47911ba
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: В разделе что нужно сделать Далее после перенесены номера телефонов для Скайп для бизнеса.
+ms.openlocfilehash: d190d642edc932d1c620493afc893e03d85a4fb4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Что нужно после перенесен по номерам телефонов?
 
@@ -52,3 +52,5 @@ ms.lasthandoff: 02/19/2018
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Включение трансляции собраний Skype"
+title: Включение трансляции собраний Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: "Чтобы обеспечить доступ пользователей к Широковещательный показ собраний в Skype, ее необходимо включить. Для этого требуются навыки работы с Windows PowerShell. Если вы не имеете опыта работы с Windows PowerShell, мы рекомендуем обратиться для выполнения этих действий к партнеру Майкрософт."
-ms.openlocfilehash: a220f6809aec764b4ad83ca49926dcc919a8fbe3
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Чтобы обеспечить доступ пользователей к Широковещательный показ собраний в Skype, ее необходимо включить. Для этого требуются навыки работы с Windows PowerShell. Если вы не имеете опыта работы с Windows PowerShell, мы рекомендуем обратиться для выполнения этих действий к партнеру Майкрософт.
+ms.openlocfilehash: 6dc6e52d9a91e9ba3ceb32c2be5a8c0b4564902d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собраний Skype
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/27/2018
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Включение Трансляции собраний Skype с помощью центра администрирования Skype для бизнеса
 
-1. Войдите с учетной записью администратора глобального администратора Office 365 на сайт [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Вход с помощью учетной записи глобального администратора Office 365 в [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
 2. В центре администрирования Office 365 перейдите в раздел **Центры администрирования** > **Skype для бизнеса**.
     
@@ -100,5 +100,5 @@ ms.lasthandoff: 02/27/2018
   
 [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Почему возникают проблемы, введя Соединенное Королевство сведения об адресе?"
+title: Почему возникают проблемы, введя Соединенное Королевство сведения об адресе?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: "Ниже приведены некоторые причины, почему может не получается адрес или адреса для проверки правильности в Соединенное Королевство (Великобритания)."
-ms.openlocfilehash: 6f77a9f69751df04d995c098768d99d85a6e2c70
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Ниже приведены некоторые причины, почему может не получается адрес или адреса для проверки правильности в Соединенное Королевство (Великобритания).
+ms.openlocfilehash: 75373098af599768aa654f5327c1f40069ed51c7
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Почему возникают проблемы, введя Соединенное Королевство сведения об адресе?
 
@@ -117,3 +117,6 @@ ms.lasthandoff: 02/19/2018
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Развертывание телефонов для приложения Skype для бизнеса Online"
+title: Развертывание телефонов для приложения Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: faa17eb3-7483-4984-87f2-815d981b68ae
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Познакомьтесь с действиями развертывания для получения микропрограммы, при необходимости обновите ее, назначение лицензий и настройка параметров для Скайп для рабочих телефонов online"
-ms.openlocfilehash: 86756fb1033e2928a7427c9352fbf6fbb24dc154
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Познакомьтесь с действиями развертывания для получения микропрограммы, при необходимости обновите ее, назначение лицензий и настройка параметров для Скайп для рабочих телефонов online
+ms.openlocfilehash: ee6f8e0b892b8cef1c70c7bc01ba7e7d9c4cb8e8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Развертывание телефонов для приложения Skype для бизнеса Online
 
@@ -224,4 +226,5 @@ BToE  это механизм для партнеров по программ�
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 

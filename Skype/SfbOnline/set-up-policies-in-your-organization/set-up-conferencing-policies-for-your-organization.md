@@ -1,5 +1,5 @@
 ---
-title: "Настройка политик аудиоконференций в организации"
+title: Настройка политик аудиоконференций в организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Конференц-связь \x97 это важная часть Skype для бизнеса online: она позволяет группам пользователей объединяться, чтобы просматривать презентации и видео, делиться приложениями, обмениваться файлами, общаться и совместно работать другими способами."
-ms.openlocfilehash: 97102f717fbc8703c6bda456acdfadfcfd71276f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6005789d4be479ea4fd39f74fb950600c640bbb5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Настройка политик аудиоконференций в организации
 
@@ -148,3 +148,6 @@ ms.lasthandoff: 02/19/2018
 [Передача файлов точка-точка блока](block-point-to-point-file-transfers.md)
 
 [Настройка политик клиента в организации](set-up-client-policies-for-your-organization.md)
+
+  
+ 

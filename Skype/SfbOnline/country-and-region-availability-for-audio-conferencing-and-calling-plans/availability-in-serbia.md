@@ -1,5 +1,5 @@
 ---
-title: "Доступность в Сербия"
+title: Доступность в Сербия
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Сербия."
-ms.openlocfilehash: 10300229e12cbe147e1900a639246b2a5ad779af
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Сербия.
+ms.openlocfilehash: 25f5a1e750abce8b9452da3e2047a8452e0f30da
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-serbia"></a>Доступность в Сербия
 
@@ -83,6 +83,6 @@ ms.lasthandoff: 02/27/2018
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 
 

@@ -1,5 +1,5 @@
 ---
-title: "Скайп Настройка \"Администраторы\" для бизнеса параметры для отдельных пользователей"
+title: Скайп Настройка "Администраторы" для бизнеса параметры для отдельных пользователей
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1_keywords:
 ms.custom:
 - Setup
 - LIL_Placement
-description: "Узнайте, как изменить Скайп для бизнеса параметры для отдельных пользователей, таких как: аудио- и видеоконференций, собраний и регистрации вызовов. "
-ms.openlocfilehash: 3be7ff64d3dfe84ea05753de77f4b0420c6e5787
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Узнайте, как изменить Скайп для бизнеса параметры для отдельных пользователей, таких как: аудио- и видеоконференций, собраний и регистрации вызовов. '
+ms.openlocfilehash: 8659434542696ccb37a0353cd491cc0d01f01e30
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Администраторы: Настройка Скайп Business для отдельных пользователей
 
@@ -109,5 +109,5 @@ ms.lasthandoff: 02/27/2018
 
 [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

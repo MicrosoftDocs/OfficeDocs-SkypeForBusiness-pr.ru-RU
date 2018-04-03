@@ -1,5 +1,5 @@
 ---
-title: "Управление учетными записями пользователей с помощью Online соединителя"
+title: Управление учетными записями пользователей с помощью Online соединителя
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "Командлет Get-CsOnlineUser в Windows PowerShell для получения сведений о Скайп вашей организации для бизнеса активные пользователи."
-ms.openlocfilehash: 933993b434e7a74e2fabb7782eff2105ad1bad70
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Командлет Get-CsOnlineUser в Windows PowerShell для получения сведений о Скайп вашей организации для бизнеса активные пользователи.
+ms.openlocfilehash: 1583e808cc489bb19f51acd6f52c900772138efe
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>Управление учетными записями пользователей с помощью Online соединителя
 
@@ -115,5 +115,5 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 ## <a name="related-topics"></a>See also
 [Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
+  
+ 

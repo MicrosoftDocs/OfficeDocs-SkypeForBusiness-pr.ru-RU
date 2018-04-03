@@ -1,5 +1,5 @@
 ---
-title: "Включение и выключение отчетов и отзывов клиентов в Skype для бизнеса"
+title: Включение и выключение отчетов и отзывов клиентов в Skype для бизнеса
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Можно включить вашей Скайп для бизнес-пользователям использовать встроенные Скайп для средство отправки отзывов приложения Business чтобы дать возможность пользователям отчитываться о проблемах и отзывы и напрямую в корпорацию Майкрософт о своих качества."
-ms.openlocfilehash: c60057e2b303fb9265560754fb4bb2643685ac5c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Можно включить вашей Скайп для бизнес-пользователям использовать встроенные Скайп для средство отправки отзывов приложения Business чтобы дать возможность пользователям отчитываться о проблемах и отзывы и напрямую в корпорацию Майкрософт о своих качества.
+ms.openlocfilehash: d88ea4fc9f760def5ab7bb40efed9e1ebdfac2f0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Включение и выключение отчетов и отзывов клиентов в Skype для бизнеса
 
@@ -97,3 +97,6 @@ ms.lasthandoff: 02/19/2018
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
+
+  
+ 

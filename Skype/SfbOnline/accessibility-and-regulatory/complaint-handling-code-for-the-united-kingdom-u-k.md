@@ -1,5 +1,5 @@
 ---
-title: "Жалоб код обработки для Великобритании (Великобритания)"
+title: Жалоб код обработки для Великобритании (Великобритания)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 3a75a9900907963db52c659631fe99e07a7c6ec8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 1c67d16704f93d256a66595ffacdd4ed70c5b439
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Жалоб код обработки для Великобритании (Великобритания)
 
@@ -62,7 +62,7 @@ Ombudsman Services действует независимо от корпорац
   
 Ombudsman служб могут достичь при заполнении формы контактов на веб-сайте служб Ombudsman или по телефону, буква или электронной почты:
   
-- Формы контактов: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
+- Форма для связи: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     
 - Телефон: 0330 440 1614
     
@@ -86,5 +86,3 @@ Ombudsman служб могут достичь при заполнении фо�
 ## <a name="related-topics"></a>См. также:
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.

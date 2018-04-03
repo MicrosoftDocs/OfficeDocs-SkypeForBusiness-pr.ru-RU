@@ -1,5 +1,5 @@
 ---
-title: "Настройка сети для вещания Скайп собрания"
+title: Настройка сети для вещания Скайп собрания
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: "Сведения о функцию вещания собрания Скайп Скайп для бизнеса в Интернет, который позволяет расписания, создавать и вещания собрания или события для крупных online аудиторий до 10 000 участников."
-ms.openlocfilehash: 9dab3a7e74b9f69a3df6bd06c3ad868d109343fe
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Сведения о функцию вещания собрания Скайп Скайп для бизнеса в Интернет, который позволяет расписания, создавать и вещания собрания или события для крупных online аудиторий до 10 000 участников.
+ms.openlocfilehash: 62c1f1fea7042230210d123c6d7fb88ff839d6f4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Настройка сети для вещания Скайп собрания
 
@@ -102,4 +102,5 @@ ms.lasthandoff: 02/19/2018
   
 [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
-
+  
+ 
