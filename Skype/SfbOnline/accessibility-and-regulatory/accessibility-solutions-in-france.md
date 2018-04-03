@@ -20,11 +20,11 @@ ms.custom:
 - Legal
 hideEdit: 
 description: "Des utilisateurs ses автора предложения отчетные expériences accessibles est au cœur де ла критически que s'est fixée Microsoft: personne chaque отчетные permettre et d'accomplir отчетные chaque организации де ла planète davantage quelles que soit ses навыков. Microsoft автора предложения де plaisir le, avec Скайп предприятия, отменять определенные d «accessibilité qui s'inscrivent dans сын сотрудничества Форт Бетонирование l» accessibilité nombre де решений et l'inclusion numérique."
-ms.openlocfilehash: 45cc85ba3cca82a2f7064da0718dc56d0cc88df5
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 723746dcc61335f3eb0b655b51d177e804ab4166
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-in-france"></a>Специальные возможности решения для Скайп для бизнеса в Интернет во Франции
 
@@ -73,5 +73,3 @@ L'objectif де Microsoft est d'offrir ла meilleure expérience возможн
 ## <a name="related-topics"></a>See also
 [Декларация о соответствии специальных возможностей Skype для бизнеса Online во Франции](accessibility-declaration-of-conformance-in-france.md)
 
-## <a name="feedback"></a>Отзыв?
-Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.
