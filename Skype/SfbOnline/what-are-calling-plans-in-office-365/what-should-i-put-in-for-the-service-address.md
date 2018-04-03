@@ -1,5 +1,5 @@
 ---
-title: "Что следует хранить адрес службы?"
+title: Что следует хранить адрес службы?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,31 +20,31 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoServiceAddress
 ms.custom:
 - Calling Plans
-description: "Узнайте, возможности свой адрес службы, их отличий от адрес для выставления счетов и где его найти. "
-ms.openlocfilehash: 4c07c9724db61894fad659343470dfc50a76e494
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Узнайте, возможности свой адрес службы, их отличий от адрес для выставления счетов и где его найти. '
+ms.openlocfilehash: c5791e2bb48bc6fb8a42c1941ed3b6b225b22460
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="what-should-i-put-in-for-the-service-address"></a><span data-ttu-id="808be-103">Что следует хранить адрес службы?</span><span class="sxs-lookup"><span data-stu-id="808be-103">What should I put in for the service address?</span></span>
+# <a name="what-should-i-put-in-for-the-service-address"></a><span data-ttu-id="e27bc-103">Что следует хранить адрес службы?</span><span class="sxs-lookup"><span data-stu-id="e27bc-103">What should I put in for the service address?</span></span>
 
-<span data-ttu-id="808be-104">Адрес службы отличается от адреса выставления счетов или emergency, зарегистрированного с телефона поставщика услуг или поставщика.</span><span class="sxs-lookup"><span data-stu-id="808be-104">The service address is different from the billing or emergency address that you have registered with your phone service provider or carrier.</span></span> <span data-ttu-id="808be-105">Если вы не знаете это, можно обратитесь к поставщику услуг или поставщика, чтобы узнать, адрес службы, указанного в свою учетную запись.</span><span class="sxs-lookup"><span data-stu-id="808be-105">If you don't know this, you can contact your service provider or carrier to find out the service address listed on your account.</span></span>
+<span data-ttu-id="e27bc-104">Адрес службы отличается от адреса выставления счетов или emergency, зарегистрированного с телефона поставщика услуг или поставщика.</span><span class="sxs-lookup"><span data-stu-id="e27bc-104">The service address is different from the billing or emergency address that you have registered with your phone service provider or carrier.</span></span> <span data-ttu-id="e27bc-105">Если вы не знаете это, можно обратитесь к поставщику услуг или поставщика, чтобы узнать, адрес службы, указанного в свою учетную запись.</span><span class="sxs-lookup"><span data-stu-id="e27bc-105">If you don't know this, you can contact your service provider or carrier to find out the service address listed on your account.</span></span>
   
- <span data-ttu-id="808be-106">**Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="808be-106">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
+ <span data-ttu-id="e27bc-106">**Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="e27bc-106">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="808be-107">Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="808be-107">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="e27bc-107">Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="e27bc-107">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="808be-108">См. также:</span><span class="sxs-lookup"><span data-stu-id="808be-108">Related topics</span></span>
-[<span data-ttu-id="808be-109">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="808be-109">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="e27bc-108">См. также:</span><span class="sxs-lookup"><span data-stu-id="e27bc-108">Related topics</span></span>
+[<span data-ttu-id="e27bc-109">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="e27bc-109">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
 
-[<span data-ttu-id="808be-110">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="808be-110">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="e27bc-110">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="e27bc-110">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="808be-111">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="808be-111">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="e27bc-111">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="e27bc-111">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="808be-112">Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы</span><span class="sxs-lookup"><span data-stu-id="808be-112">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="e27bc-112">Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы</span><span class="sxs-lookup"><span data-stu-id="e27bc-112">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a><span data-ttu-id="808be-113">Отзыв?</span><span class="sxs-lookup"><span data-stu-id="808be-113">Feedback?</span></span>
-<span data-ttu-id="808be-114">Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.</span><span class="sxs-lookup"><span data-stu-id="808be-114">To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).</span></span>
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Отправка запроса на обслуживание для переноса локального номера"
+title: Отправка запроса на обслуживание для переноса локального номера
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,29 +21,29 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
-ms.openlocfilehash: 72c9d132d6378e05b96c94f830820ffcbef247e7
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 5221476d56b79fceabea2fa23a60ce58749e0ad9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="submitting-a-service-request-for-local-number-porting"></a><span data-ttu-id="39a36-103">Отправка запроса на обслуживание для переноса локального номера</span><span class="sxs-lookup"><span data-stu-id="39a36-103">Submitting a service request for local number porting</span></span>
+# <a name="submitting-a-service-request-for-local-number-porting"></a><span data-ttu-id="adc1c-103">Отправка запроса на обслуживание для переноса локального номера</span><span class="sxs-lookup"><span data-stu-id="adc1c-103">Submitting a service request for local number porting</span></span>
 
-<span data-ttu-id="39a36-104">Если требуется перенести более 999 телефонных номеров (для пользователей, или номера службы, включая международную или бесплатный) Скайп для бизнеса в Интернет, см [Управление номера телефонов для вашей организации.](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)</span><span class="sxs-lookup"><span data-stu-id="39a36-104">If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization.](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)</span></span>
+<span data-ttu-id="adc1c-104">Если требуется перенести более 999 телефонных номеров (для пользователей, или номера службы, включая международную или бесплатный) Скайп для бизнеса в Интернет, см [Управление номера телефонов для вашей организации.](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)</span><span class="sxs-lookup"><span data-stu-id="adc1c-104">If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization.](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="39a36-105">Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="39a36-105">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="adc1c-105">Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="adc1c-105">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="39a36-106">См. также:</span><span class="sxs-lookup"><span data-stu-id="39a36-106">Related topics</span></span>
-[<span data-ttu-id="39a36-107">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="39a36-107">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="adc1c-106">См. также:</span><span class="sxs-lookup"><span data-stu-id="adc1c-106">Related topics</span></span>
+[<span data-ttu-id="adc1c-107">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="adc1c-107">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
 
-[<span data-ttu-id="39a36-108">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="39a36-108">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="adc1c-108">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="adc1c-108">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="39a36-109">Управление номерами телефонов организации</span><span class="sxs-lookup"><span data-stu-id="39a36-109">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="adc1c-109">Управление номерами телефонов организации</span><span class="sxs-lookup"><span data-stu-id="adc1c-109">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[<span data-ttu-id="39a36-110">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="39a36-110">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="adc1c-110">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="adc1c-110">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="39a36-111">Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы</span><span class="sxs-lookup"><span data-stu-id="39a36-111">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="adc1c-111">Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы</span><span class="sxs-lookup"><span data-stu-id="adc1c-111">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-## <a name="feedback"></a><span data-ttu-id="39a36-112">Отзыв?</span><span class="sxs-lookup"><span data-stu-id="39a36-112">Feedback?</span></span>
-<span data-ttu-id="39a36-113">Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.</span><span class="sxs-lookup"><span data-stu-id="39a36-113">To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).</span></span>
+  
+ 

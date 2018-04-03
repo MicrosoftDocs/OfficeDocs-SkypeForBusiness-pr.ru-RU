@@ -1,5 +1,5 @@
 ---
-title: "Бесплатное периода подключение по телефонной линии"
+title: Бесплатное периода подключение по телефонной линии
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,76 +18,73 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "Клиенты могут использовать Office 365 вызов планирование и конференц-связи Office 365 аудио разрешенными в Скайп для бизнес-сети PSTN службы используйте условиях и соглашением о корпоративном лицензировании клиента."
-ms.openlocfilehash: b029cd33c0dd58bf287704a3c1a1d4f7d1c98b5b
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+hideEdit: true
+description: Клиенты могут использовать Office 365 вызов планирование и конференц-связи Office 365 аудио разрешенными в Скайп для бизнес-сети PSTN службы используйте условиях и соглашением о корпоративном лицензировании клиента.
+ms.openlocfilehash: fac5ad1e413d62669e1ed23e6ea19f1c51ea3017
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="audio-conferencing-complimentary-dial-out-period"></a><span data-ttu-id="f632e-103">Бесплатное периода подключение по телефонной линии звукового конференц-связи</span><span class="sxs-lookup"><span data-stu-id="f632e-103">Audio Conferencing complimentary dial-out period</span></span>
+# <a name="audio-conferencing-complimentary-dial-out-period"></a><span data-ttu-id="8eb51-103">Бесплатное периода подключение по телефонной линии звукового конференц-связи</span><span class="sxs-lookup"><span data-stu-id="8eb51-103">Audio Conferencing complimentary dial-out period</span></span>
 
-## <a name="skype-for-business-pstn-services"></a><span data-ttu-id="f632e-104">Услуги ТСОП в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="f632e-104">Skype for Business PSTN Services</span></span>
+## <a name="skype-for-business-pstn-services"></a><span data-ttu-id="8eb51-104">Услуги ТСОП в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="8eb51-104">Skype for Business PSTN Services</span></span>
 
-<span data-ttu-id="f632e-105">Клиенты могут использовать Office 365 вызов планирование и конференц-связи Office 365 аудио разрешенными в Скайп для бизнес-сети PSTN службы используйте условиях и соглашением о корпоративном лицензировании клиента.</span><span class="sxs-lookup"><span data-stu-id="f632e-105">Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement.</span></span> <span data-ttu-id="f632e-106">Условия использования службы ТСОП можно найти в [условия лицензионного соглашения и документация](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span><span class="sxs-lookup"><span data-stu-id="f632e-106">The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span></span>
+<span data-ttu-id="8eb51-105">Клиенты могут использовать Office 365 вызов планирование и конференц-связи Office 365 аудио разрешенными в Скайп для бизнес-сети PSTN службы используйте условиях и соглашением о корпоративном лицензировании клиента.</span><span class="sxs-lookup"><span data-stu-id="8eb51-105">Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement.</span></span> <span data-ttu-id="8eb51-106">Условия использования службы ТСОП можно найти в [условия лицензионного соглашения и документация](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span><span class="sxs-lookup"><span data-stu-id="8eb51-106">The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).</span></span>
   
-### <a name="complimentary-dial-out-period"></a><span data-ttu-id="f632e-107">Бесплатное обратным звонком периода</span><span class="sxs-lookup"><span data-stu-id="f632e-107">Complimentary dial out period</span></span>
+### <a name="complimentary-dial-out-period"></a><span data-ttu-id="8eb51-107">Бесплатное обратным звонком периода</span><span class="sxs-lookup"><span data-stu-id="8eb51-107">Complimentary dial out period</span></span>
 
-<span data-ttu-id="f632e-108">Как дополнительные преимущества для клиентов, осваивает услуги конференц-связи Office 365 звука Корпорация Майкрософт предоставляет дополнительные преимущества, связанные с звонков из организованы пользователи, которым назначены лицензии Office 365Audio конференц-связи через 30 июня 2018.</span><span class="sxs-lookup"><span data-stu-id="f632e-108">As an additional benefit to customers adopting our Office 365 Audio Conferencing service, Microsoft is providing additional benefits related to dial out from meetings organized by users assigned an Office 365Audio Conferencing license through June 30, 2018.</span></span> <span data-ttu-id="f632e-109">Для периода до 30 июня 2018 пользователей, принимающих участие организованы лицензированным пользователям может быть разрешен, зависимости от разрешений, предоставленных с организатором собрания, звонить по телефону из в рамках собрания телефонных номеров в следующих странах 44:</span><span class="sxs-lookup"><span data-stu-id="f632e-109">For the period through June 30, 2018, users attending meetings organized by licensed users may be allowed, based on permissions granted by the meeting organizer, to make dial-out calls from within the meeting to phone numbers in the following 44 countries:</span></span>
+<span data-ttu-id="8eb51-108">Как дополнительные преимущества для клиентов, осваивает услуги конференц-связи Office 365 звука Корпорация Майкрософт предоставляет дополнительные преимущества, связанные с звонков из организованы пользователи, которым назначены лицензии Office 365Audio конференц-связи через 30 июня 2018.</span><span class="sxs-lookup"><span data-stu-id="8eb51-108">As an additional benefit to customers adopting our Office 365 Audio Conferencing service, Microsoft is providing additional benefits related to dial out from meetings organized by users assigned an Office 365Audio Conferencing license through June 30, 2018.</span></span> <span data-ttu-id="8eb51-109">Для периода до 30 июня 2018 пользователей, принимающих участие организованы лицензированным пользователям может быть разрешен, зависимости от разрешений, предоставленных с организатором собрания, звонить по телефону из в рамках собрания телефонных номеров в следующих странах 44:</span><span class="sxs-lookup"><span data-stu-id="8eb51-109">For the period through June 30, 2018, users attending meetings organized by licensed users may be allowed, based on permissions granted by the meeting organizer, to make dial-out calls from within the meeting to phone numbers in the following 44 countries:</span></span>
   
 |    |
 |-----|
-|<span data-ttu-id="f632e-110">Австралия</span><span class="sxs-lookup"><span data-stu-id="f632e-110">Australia</span></span>  <br/> |
-|<span data-ttu-id="f632e-111">Австрия</span><span class="sxs-lookup"><span data-stu-id="f632e-111">Austria</span></span>  <br/> |
-|<span data-ttu-id="f632e-112">Бельгия</span><span class="sxs-lookup"><span data-stu-id="f632e-112">Belgium</span></span>  <br/> |
-|<span data-ttu-id="f632e-113">Бразилия</span><span class="sxs-lookup"><span data-stu-id="f632e-113">Brazil</span></span>  <br/> |
-|<span data-ttu-id="f632e-114">Болгария</span><span class="sxs-lookup"><span data-stu-id="f632e-114">Bulgaria</span></span>  <br/> |
-|<span data-ttu-id="f632e-115">Канада</span><span class="sxs-lookup"><span data-stu-id="f632e-115">Canada</span></span>  <br/> |
-|<span data-ttu-id="f632e-116">Китай</span><span class="sxs-lookup"><span data-stu-id="f632e-116">China</span></span>  <br/> |
-|<span data-ttu-id="f632e-117">Хорватия</span><span class="sxs-lookup"><span data-stu-id="f632e-117">Croatia</span></span>  <br/> |
-|<span data-ttu-id="f632e-118">Чешская Республика</span><span class="sxs-lookup"><span data-stu-id="f632e-118">Czech Republic</span></span>  <br/> |
-|<span data-ttu-id="f632e-119">Дания</span><span class="sxs-lookup"><span data-stu-id="f632e-119">Denmark</span></span>  <br/> |
-|<span data-ttu-id="f632e-120">Эстония</span><span class="sxs-lookup"><span data-stu-id="f632e-120">Estonia</span></span>  <br/> |
-|<span data-ttu-id="f632e-121">Финляндия</span><span class="sxs-lookup"><span data-stu-id="f632e-121">Finland</span></span>  <br/> |
-|<span data-ttu-id="f632e-122">Франция</span><span class="sxs-lookup"><span data-stu-id="f632e-122">France</span></span>  <br/> |
-|<span data-ttu-id="f632e-123">Германия</span><span class="sxs-lookup"><span data-stu-id="f632e-123">Germany</span></span>  <br/> |
-|<span data-ttu-id="f632e-124">Греция</span><span class="sxs-lookup"><span data-stu-id="f632e-124">Greece</span></span>  <br/> |
-|<span data-ttu-id="f632e-125">Гонконг</span><span class="sxs-lookup"><span data-stu-id="f632e-125">Hong Kong</span></span>  <br/> |
-|<span data-ttu-id="f632e-126">Венгрия</span><span class="sxs-lookup"><span data-stu-id="f632e-126">Hungary</span></span>  <br/> |
-|<span data-ttu-id="f632e-127">Индия</span><span class="sxs-lookup"><span data-stu-id="f632e-127">India</span></span>  <br/> |
-|<span data-ttu-id="f632e-128">Ирландия</span><span class="sxs-lookup"><span data-stu-id="f632e-128">Ireland</span></span>  <br/> |
-|<span data-ttu-id="f632e-129">Италия</span><span class="sxs-lookup"><span data-stu-id="f632e-129">Italy</span></span>  <br/> |
-|<span data-ttu-id="f632e-130">Япония</span><span class="sxs-lookup"><span data-stu-id="f632e-130">Japan</span></span>  <br/> |
-|<span data-ttu-id="f632e-131">Люксембург</span><span class="sxs-lookup"><span data-stu-id="f632e-131">Luxembourg</span></span>  <br/> |
-|<span data-ttu-id="f632e-132">Малайзия</span><span class="sxs-lookup"><span data-stu-id="f632e-132">Malaysia</span></span>  <br/> |
-|<span data-ttu-id="f632e-133">Мексика</span><span class="sxs-lookup"><span data-stu-id="f632e-133">Mexico</span></span>  <br/> |
-|<span data-ttu-id="f632e-134">Нидерланды</span><span class="sxs-lookup"><span data-stu-id="f632e-134">Netherlands</span></span>  <br/> |
-|<span data-ttu-id="f632e-135">Новая Зеландия</span><span class="sxs-lookup"><span data-stu-id="f632e-135">New Zealand</span></span>  <br/> |
-|<span data-ttu-id="f632e-136">Норвегия</span><span class="sxs-lookup"><span data-stu-id="f632e-136">Norway</span></span>  <br/> |
-|<span data-ttu-id="f632e-137">Польша</span><span class="sxs-lookup"><span data-stu-id="f632e-137">Poland</span></span>  <br/> |
-|<span data-ttu-id="f632e-138">Португалия</span><span class="sxs-lookup"><span data-stu-id="f632e-138">Portugal</span></span>  <br/> |
-|<span data-ttu-id="f632e-139">Пуэрто-Рико</span><span class="sxs-lookup"><span data-stu-id="f632e-139">Puerto Rico</span></span>  <br/> |
-|<span data-ttu-id="f632e-140">Румыния</span><span class="sxs-lookup"><span data-stu-id="f632e-140">Romania</span></span>  <br/> |
-|<span data-ttu-id="f632e-141">Россия</span><span class="sxs-lookup"><span data-stu-id="f632e-141">Russia</span></span>  <br/> |
-|<span data-ttu-id="f632e-142">Сингапур</span><span class="sxs-lookup"><span data-stu-id="f632e-142">Singapore</span></span>  <br/> |
-|<span data-ttu-id="f632e-143">Словакия</span><span class="sxs-lookup"><span data-stu-id="f632e-143">Slovak Republic</span></span>  <br/> |
-|<span data-ttu-id="f632e-144">Словения</span><span class="sxs-lookup"><span data-stu-id="f632e-144">Slovenia</span></span>  <br/> |
-|<span data-ttu-id="f632e-145">Южная Африка</span><span class="sxs-lookup"><span data-stu-id="f632e-145">South Africa</span></span>  <br/> |
-|<span data-ttu-id="f632e-146">Южная Корея</span><span class="sxs-lookup"><span data-stu-id="f632e-146">South Korea</span></span>  <br/> |
-|<span data-ttu-id="f632e-147">Испания</span><span class="sxs-lookup"><span data-stu-id="f632e-147">Spain</span></span>  <br/> |
-|<span data-ttu-id="f632e-148">Швеция</span><span class="sxs-lookup"><span data-stu-id="f632e-148">Sweden</span></span>  <br/> |
-|<span data-ttu-id="f632e-149">Швейцария</span><span class="sxs-lookup"><span data-stu-id="f632e-149">Switzerland</span></span>  <br/> |
-|<span data-ttu-id="f632e-150">Тайвань</span><span class="sxs-lookup"><span data-stu-id="f632e-150">Taiwan</span></span>  <br/> |
-|<span data-ttu-id="f632e-151">Таиланд</span><span class="sxs-lookup"><span data-stu-id="f632e-151">Thailand</span></span>  <br/> |
-|<span data-ttu-id="f632e-152">Соединенное Королевство</span><span class="sxs-lookup"><span data-stu-id="f632e-152">United Kingdom</span></span>  <br/> |
-|<span data-ttu-id="f632e-153">США</span><span class="sxs-lookup"><span data-stu-id="f632e-153">United States</span></span>  <br/> |
+|<span data-ttu-id="8eb51-110">Австралия</span><span class="sxs-lookup"><span data-stu-id="8eb51-110">Australia</span></span>  <br/> |
+|<span data-ttu-id="8eb51-111">Австрия</span><span class="sxs-lookup"><span data-stu-id="8eb51-111">Austria</span></span>  <br/> |
+|<span data-ttu-id="8eb51-112">Бельгия</span><span class="sxs-lookup"><span data-stu-id="8eb51-112">Belgium</span></span>  <br/> |
+|<span data-ttu-id="8eb51-113">Бразилия</span><span class="sxs-lookup"><span data-stu-id="8eb51-113">Brazil</span></span>  <br/> |
+|<span data-ttu-id="8eb51-114">Болгария</span><span class="sxs-lookup"><span data-stu-id="8eb51-114">Bulgaria</span></span>  <br/> |
+|<span data-ttu-id="8eb51-115">Канада</span><span class="sxs-lookup"><span data-stu-id="8eb51-115">Canada</span></span>  <br/> |
+|<span data-ttu-id="8eb51-116">Китай</span><span class="sxs-lookup"><span data-stu-id="8eb51-116">China</span></span>  <br/> |
+|<span data-ttu-id="8eb51-117">Хорватия</span><span class="sxs-lookup"><span data-stu-id="8eb51-117">Croatia</span></span>  <br/> |
+|<span data-ttu-id="8eb51-118">Чешская Республика</span><span class="sxs-lookup"><span data-stu-id="8eb51-118">Czech Republic</span></span>  <br/> |
+|<span data-ttu-id="8eb51-119">Дания</span><span class="sxs-lookup"><span data-stu-id="8eb51-119">Denmark</span></span>  <br/> |
+|<span data-ttu-id="8eb51-120">Эстония</span><span class="sxs-lookup"><span data-stu-id="8eb51-120">Estonia</span></span>  <br/> |
+|<span data-ttu-id="8eb51-121">Финляндия</span><span class="sxs-lookup"><span data-stu-id="8eb51-121">Finland</span></span>  <br/> |
+|<span data-ttu-id="8eb51-122">Франция</span><span class="sxs-lookup"><span data-stu-id="8eb51-122">France</span></span>  <br/> |
+|<span data-ttu-id="8eb51-123">Германия</span><span class="sxs-lookup"><span data-stu-id="8eb51-123">Germany</span></span>  <br/> |
+|<span data-ttu-id="8eb51-124">Греция</span><span class="sxs-lookup"><span data-stu-id="8eb51-124">Greece</span></span>  <br/> |
+|<span data-ttu-id="8eb51-125">Гонконг</span><span class="sxs-lookup"><span data-stu-id="8eb51-125">Hong Kong</span></span>  <br/> |
+|<span data-ttu-id="8eb51-126">Венгрия</span><span class="sxs-lookup"><span data-stu-id="8eb51-126">Hungary</span></span>  <br/> |
+|<span data-ttu-id="8eb51-127">Индия</span><span class="sxs-lookup"><span data-stu-id="8eb51-127">India</span></span>  <br/> |
+|<span data-ttu-id="8eb51-128">Ирландия</span><span class="sxs-lookup"><span data-stu-id="8eb51-128">Ireland</span></span>  <br/> |
+|<span data-ttu-id="8eb51-129">Италия</span><span class="sxs-lookup"><span data-stu-id="8eb51-129">Italy</span></span>  <br/> |
+|<span data-ttu-id="8eb51-130">Япония</span><span class="sxs-lookup"><span data-stu-id="8eb51-130">Japan</span></span>  <br/> |
+|<span data-ttu-id="8eb51-131">Люксембург</span><span class="sxs-lookup"><span data-stu-id="8eb51-131">Luxembourg</span></span>  <br/> |
+|<span data-ttu-id="8eb51-132">Малайзия</span><span class="sxs-lookup"><span data-stu-id="8eb51-132">Malaysia</span></span>  <br/> |
+|<span data-ttu-id="8eb51-133">Мексика</span><span class="sxs-lookup"><span data-stu-id="8eb51-133">Mexico</span></span>  <br/> |
+|<span data-ttu-id="8eb51-134">Нидерланды</span><span class="sxs-lookup"><span data-stu-id="8eb51-134">Netherlands</span></span>  <br/> |
+|<span data-ttu-id="8eb51-135">Новая Зеландия</span><span class="sxs-lookup"><span data-stu-id="8eb51-135">New Zealand</span></span>  <br/> |
+|<span data-ttu-id="8eb51-136">Норвегия</span><span class="sxs-lookup"><span data-stu-id="8eb51-136">Norway</span></span>  <br/> |
+|<span data-ttu-id="8eb51-137">Польша</span><span class="sxs-lookup"><span data-stu-id="8eb51-137">Poland</span></span>  <br/> |
+|<span data-ttu-id="8eb51-138">Португалия</span><span class="sxs-lookup"><span data-stu-id="8eb51-138">Portugal</span></span>  <br/> |
+|<span data-ttu-id="8eb51-139">Пуэрто-Рико</span><span class="sxs-lookup"><span data-stu-id="8eb51-139">Puerto Rico</span></span>  <br/> |
+|<span data-ttu-id="8eb51-140">Румыния</span><span class="sxs-lookup"><span data-stu-id="8eb51-140">Romania</span></span>  <br/> |
+|<span data-ttu-id="8eb51-141">Россия</span><span class="sxs-lookup"><span data-stu-id="8eb51-141">Russia</span></span>  <br/> |
+|<span data-ttu-id="8eb51-142">Сингапур</span><span class="sxs-lookup"><span data-stu-id="8eb51-142">Singapore</span></span>  <br/> |
+|<span data-ttu-id="8eb51-143">Словакия</span><span class="sxs-lookup"><span data-stu-id="8eb51-143">Slovak Republic</span></span>  <br/> |
+|<span data-ttu-id="8eb51-144">Словения</span><span class="sxs-lookup"><span data-stu-id="8eb51-144">Slovenia</span></span>  <br/> |
+|<span data-ttu-id="8eb51-145">Южная Африка</span><span class="sxs-lookup"><span data-stu-id="8eb51-145">South Africa</span></span>  <br/> |
+|<span data-ttu-id="8eb51-146">Южная Корея</span><span class="sxs-lookup"><span data-stu-id="8eb51-146">South Korea</span></span>  <br/> |
+|<span data-ttu-id="8eb51-147">Испания</span><span class="sxs-lookup"><span data-stu-id="8eb51-147">Spain</span></span>  <br/> |
+|<span data-ttu-id="8eb51-148">Швеция</span><span class="sxs-lookup"><span data-stu-id="8eb51-148">Sweden</span></span>  <br/> |
+|<span data-ttu-id="8eb51-149">Швейцария</span><span class="sxs-lookup"><span data-stu-id="8eb51-149">Switzerland</span></span>  <br/> |
+|<span data-ttu-id="8eb51-150">Тайвань</span><span class="sxs-lookup"><span data-stu-id="8eb51-150">Taiwan</span></span>  <br/> |
+|<span data-ttu-id="8eb51-151">Таиланд</span><span class="sxs-lookup"><span data-stu-id="8eb51-151">Thailand</span></span>  <br/> |
+|<span data-ttu-id="8eb51-152">Соединенное Королевство</span><span class="sxs-lookup"><span data-stu-id="8eb51-152">United Kingdom</span></span>  <br/> |
+|<span data-ttu-id="8eb51-153">США</span><span class="sxs-lookup"><span data-stu-id="8eb51-153">United States</span></span>  <br/> |
    
 > [!CAUTION]
-> <span data-ttu-id="f632e-154">Приступая к работе с 1 июля 2018, все подписки Office 365 аудиоконференции будет вернуться к условия стандартная служба для исходящих звонков из организованы пользователям с Office 365 аудиоконференции назначение лицензий</span><span class="sxs-lookup"><span data-stu-id="f632e-154">Beginning July 1, 2018, all Office 365 Audio Conferencing subscriptions will revert to the standard service terms for dial out from meetings organized by users with Office 365 Audio Conferencing licenses assigned</span></span> 
+> <span data-ttu-id="8eb51-154">Приступая к работе с 1 июля 2018, все подписки Office 365 аудиоконференции будет вернуться к условия стандартная служба для исходящих звонков из организованы пользователям с Office 365 аудиоконференции назначение лицензий</span><span class="sxs-lookup"><span data-stu-id="8eb51-154">Beginning July 1, 2018, all Office 365 Audio Conferencing subscriptions will revert to the standard service terms for dial out from meetings organized by users with Office 365 Audio Conferencing licenses assigned</span></span> 
   
-## <a name="related-topics"></a><span data-ttu-id="f632e-155">См. также:</span><span class="sxs-lookup"><span data-stu-id="f632e-155">Related topics</span></span>
-[<span data-ttu-id="f632e-156">Страны и регионы, для которых доступны аудиоконференции и планы звонков</span><span class="sxs-lookup"><span data-stu-id="f632e-156">Country and region availability for Audio Conferencing and Calling Plans</span></span>](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-## <a name="feedback"></a><span data-ttu-id="f632e-157">Отзыв?</span><span class="sxs-lookup"><span data-stu-id="f632e-157">Feedback?</span></span>
-<span data-ttu-id="f632e-158">Для предоставления продукта свои отзывы и предложения или сообщите нам знать, как в нашем [Скайп для бизнеса свои отзывы и предложения](https://www.skypefeedback.com)см.</span><span class="sxs-lookup"><span data-stu-id="f632e-158">To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8eb51-155">См. также:</span><span class="sxs-lookup"><span data-stu-id="8eb51-155">Related topics</span></span>
+[<span data-ttu-id="8eb51-156">Страны и регионы, для которых доступны аудиоконференции и планы звонков</span><span class="sxs-lookup"><span data-stu-id="8eb51-156">Country and region availability for Audio Conferencing and Calling Plans</span></span>](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
