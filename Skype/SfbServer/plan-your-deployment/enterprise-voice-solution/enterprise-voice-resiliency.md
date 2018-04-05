@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Узнайте, как обеспечить поддержку устойчивости голосовой связи в Скайп Business Server корпоративной голосовой связи, в центральных сайтов и сайтов филиалов. Доступны следующие варианты сайта филиала развертывания для обеспечения связи в филиалах или для обеспечения связи в филиалах.
-ms.openlocfilehash: a4ce7e01ef93ef7bfca2357b65b315b4be5c6781
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4303df46b7430ec8a7e3891baec7f9ff99d85480
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Планирование устойчивости корпоративной голосовой связи в Skype для бизнеса Server 2015
  
@@ -87,9 +87,8 @@ ms.lasthandoff: 03/28/2018
 
 Скайп для Business Server зависит от следующих компонентов инфраструктуры и программного обеспечения для обеспечения устойчивости голосовой связи.
   
-|||
-|:-----|:-----|
 |**Компонент** <br/> |**Функция** <br/> |
+|:-----|:-----|
 |Служба доменных имен  <br/> |Разрешение записей SRV и A для сервера и для возможности подключения клиента к серверу  <br/> |
 |Exchange и веб-службы Exchange (EWS)  <br/> |Хранение контактов; данные календаря  <br/> |
 |Единая система обмена сообщениями Exchange и веб-службы Exchange  <br/> |Журналы вызовов, список голосовой почты, голосовая почта  <br/> |

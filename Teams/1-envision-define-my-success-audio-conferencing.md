@@ -11,17 +11,15 @@ description: Оценивать результаты развертывания 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b0b40dd3b8a034d655a14e0dd905f8a9a3c0ec
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 80af34d827ecc1646e85f7a8db4593dbf446ed30
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="define-my-success"></a>Определение Мой success
 
-## <a name="introduction"></a>Введение
-
-Этот контент общие требования для правильного определения успешности развертывания аудиоконференции для вашей организации. Определив успеха должным образом, можно оценить результаты в ходе работы через развертывания и убедитесь, что результаты, которые можно достичь результаты, которые вы хотите, чтобы.
+В этой статье дается обзор требований для определения успешности развертывания аудиоконференции для вашей организации. Определив должным образом цель, можно оценить результаты в ходе работы через развертывания и убедитесь, что результаты, которые можно достичь те, которые вы хотите, чтобы.
 
 <!--ENDOFSECTION-->
 

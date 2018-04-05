@@ -1,5 +1,5 @@
 ---
-title: "Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams"
+title: Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 - LIL_Placement
-description: "Узнайте, как для настройки конференц-связи или аудио для пользователей в вашей организации, которым необходимо присоединиться к конференции с помощью телефона. "
+description: 'Узнайте, как для настройки конференц-связи или аудио для пользователей в вашей организации, которым необходимо присоединиться к конференции с помощью телефона. '
 ms.openlocfilehash: 4d82de668ec31f1664fb05202979dd6df94bda2b
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams
 

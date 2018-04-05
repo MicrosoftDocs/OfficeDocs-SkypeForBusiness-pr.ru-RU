@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Сводка: Обзор рекомендаций простой URL-адрес в этом разделе прежде чем внедрять DNS-записей для Скайп для Business Server 2015.'
-ms.openlocfilehash: 989ea4f518c1917311759158bbe29355f400138b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 87346a7c4c03837e5ebfdf0143cdb7c786f0e43b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server-2015"></a>Требования DNS для простых URL-адресов в Скайп для Business Server 2015
  
@@ -63,9 +63,8 @@ ms.lasthandoff: 03/28/2018
   
 **Вариант именования простых URL-адрес 1**
 
-|||
-|:-----|:-----|
 |**Простой URL-адрес** <br/> |**Пример** <br/> |
+|:-----|:-----|
 |Meet  <br/> |https://meet.contoso.com, https://meet.fabrikam.comи так далее (по одному для каждого домена SIP в организации)  <br/> |
 |Телефонные подключения  <br/> |https://dialin.contoso.com  <br/> |
 |Admin  <br/> |https://admin.contoso.com  <br/> |
@@ -74,9 +73,8 @@ ms.lasthandoff: 03/28/2018
   
 **Вариант именования простых URL-адрес 2**
 
-|||
-|:-----|:-----|
 |**Простой URL-адрес** <br/> |**Пример** <br/> |
+|:-----|:-----|
 |Meet  <br/> |https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meetи так далее (по одному для каждого домена SIP в организации)  <br/> |
 |Телефонные подключения  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |Admin  <br/> |https://SfB2015.contoso.com/Admin  <br/> |
@@ -85,9 +83,8 @@ ms.lasthandoff: 03/28/2018
   
 **Вариант именования простых URL-адресов 3**
 
-|||
-|:-----|:-----|
 |**Простой URL-адрес** <br/> |**Пример** <br/> |
+|:-----|:-----|
 |Meet  <br/> |https://SfB2015.contoso.com/contosoSIPdomain/Meet  <br/> https://SfB2015.contoso.com/fabrikamSIPdomain/Meet  <br/> |
 |Телефонные подключения  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |Admin  <br/> |https://SfB2015.contoso.com/Admin  <br/> |

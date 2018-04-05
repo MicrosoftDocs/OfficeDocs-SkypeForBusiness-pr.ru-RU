@@ -1,9 +1,9 @@
 
 # [Скайп для администрирования Online бизнеса](../skype-for-business-online.md)
 
-## [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## [Доступность аудиоконференций и планов звонков в различных странах и регионах](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Аудиоконференции в Office 365 
+## [Аудиоконференции в Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md)  
 ### [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Общие вопросы по аудиоконференциям](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Поддерживаемые языки для аудиоконференций](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -26,6 +26,7 @@
 ### [Просмотр списка пользователей, активированных для аудиоконференции](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
 ### [Отправка пользователям электронных писем с данными для подключения по телефону](../audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md)
 ### [Установка длины ПИН-кода для аудиоконференции](../audio-conferencing-in-office-365/set-the-PIN-length-for-audio-conferencing-meetings.md)
+### [Настройка аудиоконференций](../audio-conferencing-in-office-365//set-up-audio-conferencing.md)
 ### [Установка языков для автосекретаря](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)
 ### [Указание номеров телефонов, которые можно включать в приглашения](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)
 ### [Настройка службы переноса собраний (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)

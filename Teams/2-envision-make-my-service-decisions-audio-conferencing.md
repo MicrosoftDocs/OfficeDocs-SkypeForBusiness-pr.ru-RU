@@ -1,5 +1,5 @@
 ---
-title: Make Audio Conferencing service decisions - Microsoft Teams
+title: Принятия решений службы конференц-связи аудио - группами Майкрософт
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
@@ -7,64 +7,66 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Learn about meetings, licensing and availability, configure conference bridge settings, acquire or transfer phone numbers, choose tenant dial plans.
+description: Сведения о собраниях, лицензирование и доступность, Настройка параметров моста конференции, получить или перемещение телефонных номеров, выберите клиента абонентские группы.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a4007b328ec66bed0ccae0160491b4ee20f858
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: fa51cda9a9ce57d7672b152b45eb9c8e3cf4ba46
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="make-my-service-decisions"></a>Make my service decisions
+# <a name="make-my-service-decisions"></a>Мои проведения службы
 
-To plan for the technical implementation of Audio Conferencing, you must make a series of service decisions ahead of time to better prepare your organization to implement a solution that meets your defined business requirements.
+Чтобы спланировать технического внедрения аудиоконференции, необходимо принять ряд решений службы заранее лучше Подготовка организации для реализации решения, отвечающую определенных бизнес-требования.
 
-As part of defining required Audio Conferencing features in Microsoft Teams, one of the first steps is to evaluate the latest public roadmap to determine:
+## <a name="audio-conferencing-in-teams"></a>Аудиоконференций в группах
 
--   Which Audio Conferencing features in Teams that will be deployed for users in scope.
+Как часть определения необходимые компоненты аудио конференц-связи в группами Майкрософт одним из первых шагов является оценка последние общедоступных стратегия для определения:
 
--   Expected user functionality requirements for Audio Conferencing in Teams.
+-   Какие функции конференц-связи звук в группах, которые будут развернуты для пользователей в области действия.
 
--   Confirmation that Audio Conferencing features in Teams described in the latest public roadmap meet your user, functionality, and scope requirements, within the timeline of your deployment.
+-   Ожидается требования функциональные возможности пользователя для аудиоконференции в группах.
+
+-   Подтверждение, что функции конференц-связи звук в группах, описанных в последние общедоступных схема соответствуют пользователя, функциональные возможности и требования к области, в пределах временная шкала развертывания.
 
 > [!NOTE]
-> The latest Teams roadmap for identifying Teams Audio Conferencing features in scope for your deployment can be found at <https://aka.ms/skype2teamsroadmap>.
+> Последняя версия плана группами для определения функций конференц-связи звука группы в области действия для развертывания, можно найти в <https://aka.ms/skype2teamsroadmap>.
 
 ## <a name="meetings-in-teams"></a>Собрания в Teams
 
-Teams gives your users the capability to schedule and join online meetings by using HD video, voice over IP (VoIP), and PSTN dial-in conferencing options.
+Команды предоставляет пользователям возможность планирования и присоединиться к собрания по сети с помощью видео высокой Четкости, голосовой связи по протоколу IP (VoIP) и PSTN параметры конференц-связи.
 
-Meetings can be scheduled as private meetings (only invited parties can join) or channel meetings (open for all users having access to the channel), and your users can also start impromptu meetings within channels.
+Можно было планировать как частных собраний (только приглашенные производители могут присоединиться к) или канала собрания (открыт для всех пользователей, имеющие доступ к каналу) и пользователей также можно начать совещаний между каналами.
 
 > [!NOTE]
-> To learn more about the features of meetings in Teams, see the [Skype for Business to Microsoft Teams Capabilities Roadmap] https://aka.ms/skype2teamsroadmap).
+> Чтобы узнать больше о возможности собраний в группах, обратитесь к разделу [Скайп для бизнеса в Microsoft групп возможностях стратегия] https://aka.ms/skype2teamsroadmap).
 
-Meeting participants can join your Teams meetings by dialing in to the toll or toll-free dial-in conference bridge phone numbers via landlines or mobile phones. In addition, users can let the Audio Conferencing service initiate the “call me” feature so they can participate in a meeting by having the conference bridge call their phones (useful when the data connection isn’t reliable), or let meeting organizers invite meeting participants by dialing out to their phones.
+Участникам собрания может присоединяться к собраниям вашей группы, набрав в международную или мост бесплатных конференц связи с телефонным телефонных номеров с помощью landlines или мобильные телефоны. Кроме того, пользователи могут разрешить аудио служба конференц-связи инициировать компонента «вызов», поэтому они могут принимать участие в собрании по необходимости вызывать их телефоны (полезен, когда подключение к данным не является надежным) моста конференции или let собрания приглашать организаторам собрания Участники по выходному их телефоны.
 
 > [!IMPORTANT]
-> Audio Conferencing in Teams doesn’t support third-party audio conferencing providers (ACPs).
+> Аудиоконференций в группах не поддерживает аудиоконференций сторонних поставщиков (ACPs).
 
 <!--ENDOFSECTION-->
 
 ## <a name="availability-of-audio-conferencing"></a>Доступность Аудиоконференций
 
-Before you plan for the implementation of Audio Conferencing in Teams, you need to review the availability of the Audio Conferencing service as detailed in [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Перед началом планирования для реализации конференц-связи звук в группах, необходимо просмотрите доступности службы аудиоконференции как описано в [страны и региона доступности для конференц-связи аудио и вызов планов](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 > [!IMPORTANT]
-> Due to legal constraints, for Audio Conferencing to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions where the Audio Conferencing service is commercially available.
+> Из-за юридические ограничения для аудио конференц-связи, чтобы оно было доступно для международной организации в странах и регионах, где службы аудиоконференции коммерческую приобретается контракт для подписки на Office 365.
 
-After confirming your organization is eligible to obtain the Audio Conferencing service, compile the list of user locations or offices where you’ll implement the Audio Conferencing service, based on the list of available countries and regions.
+После подтверждения, что организации для обслуживания аудиоконференции, список пользователя расположения или офисов, где будет реализован службу аудио конференц-связи на основе списка доступных стран и регионов.
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Определите, в каких расположениях пользователей или офисах будет внедрена служба Аудиоконференций.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Точки принятия решений|<ul><li>Определите, в каких расположениях пользователей или офисах будет внедрена служба Аудиоконференций.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Дальнейшие действия|<ul><li>Задокументируйте расположения пользователей или офисы, где будет использоваться служба Аудиоконференций.</li></ul>|
 
 > [!TIP]
-> Below is an example of an Audio Conferencing site enablement list template:
+> Ниже приведен пример шаблона списка Включение звука конференц-связи веб-сайта.
 >|Офис   |Расположение |Служба конференц-связи по ТСОП  |
 >|---------|---------|---------|
 >|One Epping Road|Австралия|Аудиоконференции|
@@ -77,29 +79,29 @@ After confirming your organization is eligible to obtain the Audio Conferencing 
 
 ## <a name="licensing-for-audio-conferencing"></a>Лицензирование Аудиоконференций
 
-An [Audio Conferencing license](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) is available as part of Office 365 E5 subscription plans, or as an add-on service to Office 365 E1 or Office 365 E3 subscription plans.
+[Аудиоконференции лицензии](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) на доступна как часть планы подписки на Office 365 E5 или дополнительной службы для планы подписки на Office 365 E1 или Office 365 E3.
 
 > [!NOTE]
-> PSTN or dial-in conferencing in Teams doesn’t support third-party audio conferencing providers (ACPs).
+> PSTN или телефонных конференций в группах не поддерживает аудиоконференций сторонних поставщиков (ACPs).
 > <br>Если вы уже используете конференц-связь по ТСОП Skype для бизнеса Online, то можете сразу же воспользоваться преимуществами Аудиоконференций в Teams.
 
-To provide toll-free conference bridge phone numbers and to support conferencing dial-out to international phone numbers, you must set up [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) for your organization.
+Для предоставления бесплатных конференции bridge номера телефонов и для поддержки конференц-связи по телефону для международных телефонных номеров необходимо настроить [Кредитов коммуникаций](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) для вашей организации.
 
 > [!IMPORTANT]
-> Some countries are serviced by toll-free conference bridge phone numbers only. To support dial-in in these countries, you must use Communications Credits.
+> В некоторых странах обслуживаются номера телефонов на бесплатный номер конференции bridge. Для поддержки-связь в этих странах, необходимо использовать кредитов коммуникаций.
 
-The first consideration when implementing Communications Credits is to decide the initial amount of funds you want to purchase. If your organization chooses to use auto-recharge, you need to decide the trigger amount (lowest amount of funds) and the auto-recharge amount. Your actual usage will determine the auto-recharge amount. You should monitor your Communications Credits usage over time and adjust the recharge amount as necessary.
+Прежде всего, когда реализация кредитов Communications состоит в том, начальный объем средств, вы хотите приобрести. Если ваша организация решает использовать автоматическое пополнения, необходимо решить, размеры триггер (минимальное количество средств) и автоматическая пополнения. Фактические значения использования определяет сумма пополнения автоматически. Следует отслеживание кредитов коммуникации по времени и регулировка пополнения при необходимости.
 
-You can learn more about Communications Credits [here](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Дополнительные сведения о связи кредитов [здесь](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>If your organization hasn’t already purchased the required Audio Conferencing licensing, decide whether you’ll acquire Audio Conferencing licenses by stepping up existing Office 365 subscriptions or by acquiring Audio Conferencing add-on licenses.</li><li>Decide whether Communications Credits are required for your Audio Conferencing implementation. Если нужны, определите начальный объем приобретаемых средств. При необходимости определите пороговую сумму и сумму для автоматического пополнения счета.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Дальнейшие действия|<ul><li>Document the users who will be assigned Audio Conferencing licenses.</li><li>Document the Communications Credits plan (initial amount, trigger amount,auto-recharge amount)</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Точки принятия решений|<ul><li>Если вашей организации уже не приобрести необходимые аудиоконференции лицензирования, принять ли будете получать лицензии аудиоконференции пошаговое выполнение копирование существующей подписки Office 365 или приобретение лицензий дополнительный компонент аудиоконференции.</li><li>Решите, требуются ли кредитов коммуникаций для реализации аудиоконференции. Если нужны, определите начальный объем приобретаемых средств. При необходимости определите пороговую сумму и сумму для автоматического пополнения счета.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Дальнейшие действия|<ul><li>Документирование пользователей, которые будут назначены лицензии звук конференц-связи.</li><li>Документировать План коммуникаций кредитов (Начальная сумма, триггер, автоматически пополнения сумма)</li></ul>|
 
 > [!TIP]
-> You can document the license assignment list for Audio Conferencing users by using the following example.
+> Вы можете документировать списка назначения лицензий для пользователей, звук конференц-связи с использованием в следующем примере.
 >|Пользователь  |Офис  |Лицензия на Office 365  |
 >|---------|---------|---------|
 >|Adele Vance|One Epping Road|Office 365 E5|
@@ -110,7 +112,7 @@ You can learn more about Communications Credits [here](https://docs.microsoft.co
 >|Lee Gu|One Marina Boulevard|Office 365 E5|
 >|Emily Braun|32 London Bridge Street|Office 365 E5|
 >|Lidia Holloway|32 London Bridge Street|Office 365 E5|
->|Louis Lahr|32 London Bridge Street|Office 365 E5|
+>|Lahr Луис|32 London Bridge Street|Office 365 E5|
 >|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, надстройка Аудиоконференций|
 >|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
 >|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, надстройка Аудиоконференций|
@@ -132,21 +134,21 @@ You can learn more about Communications Credits [here](https://docs.microsoft.co
 
 -   Несколько типов конференции мост телефонных номеров (звонки на платные телефоны и бесплатный номер)
 
--   Multiple categories of conference bridge phone numbers (dedicated and shared)
+-   Нескольких категорий bridge конференции номера телефонов (выделенный и общих)
 
 -   Поддержка нескольких языков для моста конференций (основной и дополнительный)
 
--   A default phone number for the tenant
+-   Номер телефона по умолчанию для клиента
 
 > [!NOTE]
-> Dedicated conference bridge phone numbers count toward the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses. Бесплатные телефонные номера для моста конференций требуют использования Кредитов на связь.
+> Выделенного bridge телефонных номеров число конференций сторону ограничения телефонных номеров, которое можно приобрести каждого клиента, на основе числа лицензий, которые применяются. Бесплатные телефонные номера для моста конференций требуют использования Кредитов на связь.
 
-If you must transfer existing conference bridge phone numbers to the Audio Conferencing service—assuming they meet country-specific requirements—you can transfer these existing conference bridge phone numbers to Microsoft.
+Если необходимо перенести существующих телефонных номеров конференции мост к службе конференц-связи аудио — если они требованиям страны — эти существующей конференции bridge номера телефонов можно перенести в корпорацию Майкрософт.
 
 > [!NOTE]
-The complexity of transferring phone numbers to Microsoft varies greatly depending on country or region, carrier, number of circuits involved, and many other contributing factors. Work with your current provider to investigate how long this is likely to take to help ensure that you start the process early enough to meet your timelines.
+Сложность передачи телефонных номеров в корпорацию Майкрософт значительно изменяются в зависимости от страны или региона, поставщика, число каналов участвующие и множество факторов размещающие материалы. Работа с вашей текущей поставщиком, чтобы изучить, как долго это может выполнить, чтобы обеспечить надлежащую раннего начала процесса достаточно для удовлетворения временных шкал.
 
-To learn more about conference bridge phone numbers, review the following articles:
+Для получения дополнительных сведений о конференции bridge телефонных номеров, ознакомьтесь со следующими статьями:
 
 -   [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
 
@@ -159,10 +161,10 @@ To learn more about conference bridge phone numbers, review the following articl
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Точки принятия решений|<ul><li>Decide whether your organization needs dedicated conference bridge phone numbers.</li><li>Decide how the dedicated conference bridge phone numbers will be obtained for user locations or offices in-scope for the Audio Conferencing implementation (that is, obtain from Microsoft or transfer existing phone numbers).</li><li>If you choose to obtain them from Microsoft, decide the method to use (form submission or automated) for user locations or offices in-scope for the Audio Conferencing implementation.</li><li>Decide the language preferences to set up for each dedicated conference bridge phone number.</li><li>Decide the tenant default conference bridge phone number.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Дальнейшие действия|<ul><li>Document the master plan for phone number acquisition, detailing how phone numbers will be obtained for each user location or office in scope for the Audio Conferencing implementation.</li><li>If applicable, complete the New Telephone Number Request form—one form for each location or office.</li><li>Document the detailed conference bridge phone number configurations (shared and dedicated conference bridge phone numbers, language preferences for each dedicated conference bridge phone number, tenant default conference bridge phone number).</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Точки принятия решений|<ul><li>Решите, должна ли ваша организация выделенного конференции bridge телефонных номеров.</li><li>Решите, получение выделенного конференции bridge номера телефонов для пользователя расположения или офисов в области для реализации аудиоконференции (, который является, получить от Майкрософт или перемещения существующего номера телефонов).</li><li>Если нужно получать эти корпорации Майкрософт решить, используемый метод (отправке или автоматические) для пользователя расположения или офисов в области для реализации звук конференц-связи.</li><li>Определите языковые параметры для настройки для каждого номера телефона, bridge выделенного конференции.</li><li>Решите, номер телефона для конференции bridge клиента по умолчанию.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Дальнейшие действия|<ul><li>Документирование сводный план для приобретения номеров телефона, детализации Получение номера телефонов для каждого пользователя местоположение или office в области действия для реализации звук конференц-связи.</li><li>Если это применимо, заполните форму запросить новый номер телефона — одну форму для каждого расположения или office.</li><li>Документ bridge подробные конференции телефонных номеров конфигураций (общих и выделенные телефонных номеров конференции bridge, языковые параметры для каждого выделенного конференции bridge номера телефона, номер телефона bridge конференции клиента по умолчанию).</li></ul>|
 
-Below is an example of a template you can use to capture conference bridge details.
+Ниже приведен пример шаблона, которые можно использовать для сбора сведений bridge конференции.
 
 > [!TIP]
 > Ниже приведен пример шаблона по сбору сведений для моста конференций.
@@ -183,19 +185,19 @@ Below is an example of a template you can use to capture conference bridge detai
 
 -   Длина ПИН-кода настраивается в пределах от 4 до 12 цифр и по умолчанию равна 5 цифрам.
 
--   Notification emails sent on enablement of the Audio Conferencing license or any other admin-driven change are enabled by default. You can disable this feature and take control of your organization’s user communications.
+-   Уведомления по электронной почте отправляются на включение лицензии аудиоконференции или других изменений под управлением администратора, включены по умолчанию. Можно отключить эту функцию и управлять коммуникаций пользователей в вашей организации.
 
-For users who are assigned an Audio Conferencing license, the default toll/toll-free numbers, shown in the Audio Conferencing coordinates, can be configured to use:
+Для пользователей, которым назначена лицензия на аудиоконференции по умолчанию международную/toll-free номеров, указанных в координаты аудиоконференции можно настроить для использования:
 
--   The tenant-level default.
+-   По умолчанию уровне клиента.
 
 -   Автоматически назначенный bridge телефонных номеров.
 
 -   Конференции bridge телефонных номеров вручную настроить для каждого пользователя.
 
-User-specific conference bridge phone numbers are typically useful in global or nationwide organizations where users are distributed and must provide local numbers as the default conference bridge phone numbers in their meeting invitations.
+Пользовательская конференции мост телефона, номера обычно используются в организациях, глобальной или США. пользователи могут распределяются и должен предоставлять локальные номера как мост конференции по умолчанию телефонных номеров в свои приглашения на собрания.
 
-Participants joining from different cities or overseas can look up additional numbers configured at the tenant level, but these numbers don’t appear directly in the meeting invitations. Приглашения на собрания укажите ссылку, участники **группы конференц-связи с телефонным номеров** страницу их поиск номера телефона конференции bridge, наиболее близкого к их расположения.
+Участников, подключающихся из разных городов или за границей может выполнять поиск дополнительных номеров, настроенных на уровне клиента, но не отображаются эти номера непосредственно в приглашения на собрания. Приглашения на собрания укажите ссылку, участники **группы конференц-связи с телефонным номеров** страницу их поиск номера телефона конференции bridge, наиболее близкого к их расположения.
 
 Можно также настроить как непроверенных вызывающих обрабатываются каждого отдельного Организатор — необходимость Организатор собрания, чтобы начать собрание перед не прошедшим проверку подлинности абонентов может быть присоединен или разрешить непроверенный абонентов начало собрания .
 

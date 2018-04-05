@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Узнайте, как просмотреть список пользователей в вашей организации, которые включены для телефонных конференций из внутри Скайп по центру администрирования бизнеса. '
-ms.openlocfilehash: c58a8e2475b1b41e02d0abced47fcc9d076d5f25
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4f019a3ffc8b30de0a5d57a882bd2cdcb78f0508
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Просмотреть список пользователей, для которых включено для аудиоконференции
 
@@ -34,11 +34,13 @@ ms.lasthandoff: 04/03/2018
   
 ## <a name="viewing-a-list-of-users"></a>Просмотр списка пользователей
 
-1. Sign in to Office 365 with your work or school account.
+**Использование групп Майкрософт и Скайп по центру администрирования бизнеса**
+
+- В левой панели навигации щелкните **Пользователи**.
+
+**С помощью Скайп по центру администрирования бизнеса**
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
-    
-3. В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **пользователей**.
+- В левой области переходов, перейдите к **аудиоконференции** > **пользователей**.
     
 ## <a name="what-else-should-i-know"></a>Дополнительные сведения
 

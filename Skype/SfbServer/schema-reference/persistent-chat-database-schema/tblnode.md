@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode содержит дерево объектов (с узлами категорий или комнат чата), которым осуществляется в панели управления и администрирования командлетов.
-ms.openlocfilehash: b743453225fda70db18a7bc616a5f7b647d5ebff
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0b5e752856272ad7021666822694cd27bb3660ee
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="tblnode"></a>tblNode
  
@@ -34,7 +34,6 @@ tblNode содержит дерево объектов (с узлами кате
 |вход  <br/> |бит  <br/> | Для категорий: <br/>  Значение true, если журнал чата включен. <br/>  False, если журнал чата отключен. <br/>  Для комнат: <br/>  Значение NULL. <br/> |
 |filePost  <br/> |бит  <br/> | Для категорий: <br/>  Значение true, если передача файлов разрешена. <br/>  False, если передача файлов запрещена. <br/>  Для комнат: <br/>  Значение NULL. <br/> |
 |Этот параметр отключен  <br/> |bit, не может быть null  <br/> |Значение true, если этот параметр отключен комнаты чата. Применяется только к комнатам чата. (Значение false для категории).  <br/> |
-|||
 |поведение  <br/> |smallint, не может быть null  <br/> | Поведение (поиск в таблице EnumValue): <br/>  4: Normal (обычные комнаты чата). <br/>  5: auditorium (комнаты чата аудитории, могут только докладчики). <br/>  Применяется только к комнатам чата. <br/> |
 |видимости  <br/> |smallint, не может быть null  <br/> | Видимость (поиск в таблице EnumValue): <br/>  2: закрытый <br/>  3: областью действия <br/>  6: open <br/>  Применяется только к комнатам чата. <br/> |
 |siopID  <br/> |Глобальный уникальный идентификатор (GUID)  <br/> |GUID надстройки, если надстройка связан с этой комнате чата. (Категории нет надстроек.)  <br/> Те данные ищется таблица SiopWhiteList.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: "Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams"
+title: Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 01/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: "Часто задаваемые вопросы о переходе со Skype для бизнеса Online на Microsoft Teams."
+description: Часто задаваемые вопросы о переходе со Skype для бизнеса Online на Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d14538fb0884be77ffaedefd3459c8448d981d34
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 648e43ab121f226893d72c7a38a80923aedda1f2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 ==========================================================
@@ -62,7 +62,7 @@ ms.lasthandoff: 02/19/2018
 
 ### <a name="what-support-are-you-offering-to-customers-who-wish-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-in-office-365"></a>Какую поддержку вы оказываете клиентам, желающим перейти на Teams, особенно тем из них, которые вложили значительные средства в Skype для бизнеса в Office 365?
 
-Клиенты продолжат использовать Skype для бизнеса в Office 365, пока Teams не начнет отвечать их бизнес-потребностям. Мы предоставим клиентам, желающим перейти на Teams, средства и указания для реализации данного процесса и управления им. Указания и рекомендации будут опубликованы на сайте [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams). При первом запуске программа предоставляет ознакомительный обзор, а внутри нее доступны подсказки, которые облегчат переход на Teams новым пользователям. При подобном переходе клиенты смогут воспользоваться FastTrack, поддержкой клиентов и услугами партнеров.
+Клиенты продолжат использовать Skype для бизнеса в Office 365, пока Teams не начнет отвечать их бизнес-потребностям. Мы предоставим клиентам, желающим перейти на Teams, средства и указания для реализации данного процесса и управления им. Рекомендации и оптимальные методы, будут доступны в [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams). При первом запуске программа предоставляет ознакомительный обзор, а внутри нее доступны подсказки, которые облегчат переход на Teams новым пользователям. При подобном переходе клиенты смогут воспользоваться FastTrack, поддержкой клиентов и услугами партнеров.
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>Что это означает с точки зрения лицензирования? Как клиенты будут оплачивать службы интеллектуальных коммуникаций в Teams?
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 02/19/2018
 
 ### <a name="how-can-customers-learn-when-skype-for-business-capabilities-will-be-available-in-teams"></a>Как клиентам узнать, когда возможности Skype для бизнеса будут доступны в Teams?
 
-Мы будем публиковать сведения о запланированных к выпуску функциях Teams в [стратегии Office 365](https://go.microsoft.com/fwlink/?linkid=859057). Стратегия перехода со Skype на Teams представлена на веб-сайте [http://aka.ms/skype2teamsroadmap](http://aka.ms/skype2teamsroadmap). 
+Мы будем публиковать сведения о запланированных к выпуску функциях Teams в [стратегии Office 365](https://go.microsoft.com/fwlink/?linkid=859057). Скайп к группам план был создан [http://aka.ms/skype2teamsroadmap](http://aka.ms/skype2teamsroadmap). 
  
 
 ### <a name="what-apis-and-sdks-will-be-made-available-for-teams"></a>Какие API-интерфейсы и пакеты SDK будут доступны для Teams?
@@ -133,7 +133,7 @@ ms.lasthandoff: 02/19/2018
 
 ### <a name="what-is-the-plan-for-video-interoperability-support-for-teams-meetings"></a>Каковы ваши планы относительно поддержки видеовзаимодействия для собраний Teams?
 
-Устройства для конференц-залов занимают важное место в нашей концепции современного рабочего пространства. На мероприятии Ignite 25 сентября мы объявили о сотрудничестве с Blue Jeans и Pexip для реализации в Teams видеовзаимодействия через облако. Клиенты могут продолжить использование Polycom Real Connect for Office 365 вместе со Skype для бизнеса Online. Мы опубликуем свою стратегию дальнейшего развития, чтобы клиенты могли оценить, насколько Teams отвечает их бизнес-потребностям. 
+Устройства для конференц-залов занимают важное место в нашей концепции современного рабочего пространства. Мы объявили об изменении 25 сентября по Ignite, мы работа с Джинсы синий, Pexip и Polycom для предоставления облачных взаимодействия с видео с группами. Клиенты могут продолжить использование Polycom Real Connect for Office 365 вместе со Skype для бизнеса Online. Мы опубликуем свою стратегию дальнейшего развития, чтобы клиенты могли оценить, насколько Teams отвечает их бизнес-потребностям. 
 
 ### <a name="will-the-latest-generation-of-skype-room-systems-v2-support-meetings-in-teams"></a>Будет ли последнее поколение Систем комнат Skype (версии 2) поддерживать собрания в Teams?
 

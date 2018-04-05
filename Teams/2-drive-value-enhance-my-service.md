@@ -11,13 +11,15 @@ description: Регулярно оценивают возможности для
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00fa4db5a2e25cf2a258f85328653f6a28f476d5
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 0c10f4da1c6619ae0f17976a8039c2a77eaadab6
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="enhance-my-service"></a>Улучшите Мои службы
+
+В этой статье дается обзор требований к эффективному использованию облачных служб голосовой связи для вашей организации. Постоянно отслеживая возможности службы облака голосовой связи, можно убедитесь, что вы получили возможность работать большинство значение для вашей организации.
 
 ## <a name="enhance-my-service-overview"></a>Улучшите Общие сведения о личных службы
 После успешного развертывания конференц-связи звук или телефонной системы с помощью вызова планы служб для вашей организации и работают службы с помощью качества и надежности, следующим шагом является регулярно определите, могут ли у вас есть возможность улучшения служб.
