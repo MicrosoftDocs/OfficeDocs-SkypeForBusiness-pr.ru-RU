@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: 'Сводка: Узнайте, как перенос параметров пользователя и перемещение пользователей в Скайп для бизнеса в Интернет.'
-ms.openlocfilehash: dada94d1bc198a86a06c468dc959fa0684e706d2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 352798c217cb7495134cb32996db783f7e498ded
+ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Перемещение локальных пользователей в Skype для бизнеса Online
  
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-confirm-that-an-on-premises-user-account-has-been-synchronized-with-office-365"></a>Чтобы убедиться, что локальная учетная запись пользователя синхронизирована с Office 365, выполните следующие действия.
 
-1. Используя учетную запись администратора клиента, откройте [Центр администрирования Office 365](https://portal.office.com/) для клиента.
+1. Используя учетную запись администратора клиента, откройте [Центр администрирования Office 365](https://portal.office.com/) для клиента.  Учетные записи администратора клиента следует предоставить Скайп для бизнес-роли администратора и роль управления пользователя (или роль глобального администратора) для выполнения этой функции в Office 365
     
 2. На панели навигации слева щелкните элемент **Пользователи**, а затем **Активные пользователи**.
     
