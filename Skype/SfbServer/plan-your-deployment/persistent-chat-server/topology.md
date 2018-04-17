@@ -9,103 +9,103 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
-description: 'Сводка: Прочтите этот раздел, чтобы узнать о сервера сохраняемого чата компоненты и топологии в Скайп для Business Server 2015.'
-ms.openlocfilehash: 11d12283c3ee302c8133b0a56bbea53315508aec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Summary: Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server 2015.'
+ms.openlocfilehash: b5da90b6753a534ae705af96dcf871663017ea55
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Планирование топологии сервера сохраняемого чата
  
-**Сводка:** Прочтите этот раздел, чтобы узнать о сервера сохраняемого чата компоненты и топологии в Скайп для Business Server 2015.
+**Summary:** Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server 2015.
   
-Серверов сохраняемого чата поддерживает конфигурации одного сервера или несколькими серверами. Серверов сохраняемого чата можно установить на любом Скайп Business Server 2015 Enterprise Edition или сервера Standard Edition. 
+Persistent Chat Server supports both single-server and multiple-server configurations. You can install Persistent Chat Server on either a Skype for Business Server 2015 Enterprise Edition or Standard Edition Server. 
   
-## <a name="persistent-chat-server-components"></a>Сохраняемый чат серверных компонентов
+## <a name="persistent-chat-server-components"></a>Persistent Chat Server components
 
 Сервер сохраняемого чата состоит из следующих компонентов.
   
-- Один или несколько компьютеров под управлением сервера сохраняемого чата и предоставляют следующие службы:
+- One or more computers running Persistent Chat Server and providing the following services:
     
-  - Служба сохраняемого чата
+  - Persistent Chat service
     
   - Служба соответствия, которая включается, если включено соответствие
     
-- Один или несколько серверов (по более чем одному при использовании зеркального отображения) под управлением серверной базы данных SQL Server для размещения базы данных контента сохраняемого чата, где хранятся содержимое комнат чата, комнаты и категорий.
+- One or more servers (more than one if mirroring is used) running the SQL Server back-end database for hosting the Persistent Chat content database where chat room content, rooms, and categories are stored.
     
     > [!NOTE]
-    > Серверная база данных хранит данные журнала чата, а также приведены сведения о категорий и комнат сохраняемого чата, которые создаются. 
+    > The back-end database stores chat history data, including information about categories and Persistent Chat rooms that are created. 
   
-- Если включено соответствие требованиям, один или несколько серверов (по более чем одному при использовании зеркального отображения) под управлением серверной базы данных SQL Server для размещения базы данных соответствия Persistent Chat, где события соответствия и чата содержимого для соответствия требованиям хранения.
+- If compliance is enabled, one or more servers (more than one if mirroring is used) running the SQL Server back-end database for hosting the Persistent Chat Compliance database, where compliance events and chat content for the purpose of compliance are stored.
     
-Для получения дополнительных сведений о требованиях к оборудованию и программному обеспечению для сервера сохраняемого чата просмотрите [требования к серверу для Скайп для Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) и [требования к оборудованию и программному обеспечению для сервера сохраняемого чата в Скайп для Business Server 2015](hardware-and-software-requirements.md). 
+For details about hardware and software requirements for Persistent Chat Server, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](hardware-and-software-requirements.md). 
   
-## <a name="persistent-chat-server-topologies"></a>Persistent Chat Server топологии
+## <a name="persistent-chat-server-topologies"></a>Persistent Chat Server topologies
 
-Вы можете развернуть сервера сохраняемого чата в пулах одним или несколькими серверами и с одним или несколькими пула топологии. Серверов сохраняемого чата поддерживает следующие топологии:
+You can deploy Persistent Chat Server in single-server or multiple-server pools, and with single-pool or multiple-pool topology. Persistent Chat Server supports the following topologies:
   
 -  Сервер Standard Edition с сервером сохраняемого чата, совместно размещенные на внешнем сервере
     
--  Сервер Standard Edition с сервера сохраняемого чата на отдельном сервере
+-  Standard Edition Server with Persistent Chat Server on a separate server
     
--  Server Enterprise Edition с одного Persistent Chat сервера на отдельном сервере
+-  Enterprise Edition Server with a single Persistent Chat Server on a separate server
     
--  Server Enterprise Edition с более одного сервера сохраняемого чата на отдельных серверах
+-  Enterprise Edition Server with more than one Persistent Chat Server on separate servers
     
-Несмотря на возможность развертывания сервера сохраняемого чата на сервере Standard Edition, обратите внимание, что производительность и масштаб затрагиваются и высокой доступности недоступно. Таким образом рекомендуется развернуть сохраняемый сеанс беседы на сервере Standard Edition в первую очередь для обоснования концепции оценки и тестирования. 
+Although you can deploy Persistent Chat Server on a Standard Edition Server, be aware that performance and scale will be affected, and high availability is not an option. Therefore, it is recommended that you deploy Persistent Chat on a Standard Edition Server primarily for proof of concept and evaluation purposes. 
   
-Скайп для Business Server 2015 поддерживает различные сценарии совместного размещения обеспечивает гибкость для сохранения расходы на оборудование, выполнив несколько компонентов на одном сервере (если у вас есть небольшая организация) или для запуска отдельных компонентов на разных серверах) Если у вас есть организации среднего размера, который должен масштабируемость и производительность). Факторы масштабируемости, безусловно, следует учитывать при принятии решения о размещении компонентов. Сценарии совместного размещения отличаются для Скайп для серверов Standard Edition и Business Server 2015 Enterprise Edition. 
+Skype for Business Server 2015 supports a variety of collocation scenarios, providing you the flexibility to save hardware costs by running multiple components on one server (if you have a small organization), or to run individual components on different servers (if you have a larger organization that needs scalability and performance). Факторы масштабируемости, безусловно, следует учитывать при принятии решения о размещении компонентов. Collocation scenarios differ for Skype for Business Server 2015 Enterprise Edition and Standard Edition servers. 
   
-В следующих разделах эти топологии описываются более подробно, включая сценарии и варианты совместного размещения для серверов внутренних баз данных. Для получения дополнительных сведений о выровненное размещение всех ролей сервера и базы данных видеть [Основные сведения о топологии для Скайп для Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
+В следующих разделах эти топологии описываются более подробно, включая сценарии и варианты совместного размещения для серверов внутренних баз данных. For details about collocation of all server roles and databases, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
   
 ### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Сервер Standard Edition с сервером сохраняемого чата, совместно размещенные на внешнем сервере
 
-В версии Standard Edition поддерживается совместное размещение сохраняемого чата на сервере переднего плана. Это самая простая базовая конфигурация. Необходимо убедиться в том, существующего сервера переднего плана на наличие достаточную емкость с точки зрения физических ресурсов: ЦП, памяти, дискового пространства и т. д.
+В версии Standard Edition поддерживается совместное размещение сохраняемого чата на сервере переднего плана. Это самая простая базовая конфигурация. You must make sure that the existing Front End Server has enough capacity in terms of physical resources: CPU, memory, disk space, and so on.
   
-Кроме того можно совместно сервера сохраняемого чата внутреннего сервера и базы данных соответствия Persistent Chat (Если эта возможность включена) на локальном внутреннего сервера SQL Server Express. Можно также использовать отдельного сервера SQL Server с экземпляром выделенного. 
+In addition, you can collocate the Persistent Chat Server back-end server and the Persistent Chat Compliance database (if enabled) on the local SQL Server Express back-end server. You can also choose to use a separate SQL Server with a dedicated instance. 
   
 > [!IMPORTANT]
-> Нельзя добавить дополнительные серверы в пул серверов сохраняемого чата, если первого сервера сохраняемого чата совмещена с сервера переднего плана выпуска Standard. Рекомендуется установить первый сервер как автономный экземпляр, чтобы добавить дополнительные серверы более поздних версий, при необходимости. 
+> You cannot add additional servers to a Persistent Chat Server pool if the first Persistent Chat Server is collocated with a Standard Edition Front End Server. It is recommended that you install the first server as a standalone instance so that you can add more servers later, if needed. 
   
 ### <a name="standard-edition-server-with-persistent-chat-server-installed-on-a-separate-server"></a>Сервер Standard Edition с сервером сохраняемого чата на отдельном сервере
 
 С помощью версии Standard Edition вы можете устанавливать сервер сохраняемого чата в качестве автономного экземпляра и потом добавить несколько серверов при необходимости.   
   
-Можно совместно расположить сервера сохраняемого чата внутреннего сервера и базы данных соответствия Persistent Chat (Если эта возможность включена) на локальном внутреннего сервера SQL Server Express. Можно также использовать отдельного сервера SQL Server с экземпляром выделенного. 
+You can collocate the Persistent Chat Server back-end server and the Persistent Chat Compliance database (if enabled) on the local SQL Server Express back-end server. You can also choose to use a separate SQL Server with a dedicated instance. 
   
 ### <a name="enterprise-edition-server-with-a-single-persistent-chat-server"></a>Сервер Enterprise Edition и один сервер сохраняемого чата
 
-В версии Enterprise Edition вы должны устанавливать сервер сохраняемого чата на отдельном компьютере. Имеется в виду, что вы не можете совместно размещать сервер сохраняемого чата на внешнем сервере Enterprise Edition. В этом развертывания требуется отдельный сервер, на котором сервера сохраняемого чата и служба соответствия требованиям (Если эта возможность включена).
+В версии Enterprise Edition вы должны устанавливать сервер сохраняемого чата на отдельном компьютере. Имеется в виду, что вы не можете совместно размещать сервер сохраняемого чата на внешнем сервере Enterprise Edition. This deployment requires a separate server that runs Persistent Chat Server and the Compliance service (if enabled).
   
-Тем не менее, можно совместно базы данных SQL Server для сервера сохраняемого чата на внутреннюю базу данных пула переднего плана Enterprise Edition.
+You can, however, collocate the SQL Server database for Persistent Chat Server on the back-end database of an Enterprise Edition Front End pool.
   
 > [!NOTE]
 > Если планируется использовать группы доступности AlwaysOn SQL для обеспечения высокой доступности и аварийного восстановления, учтите, что эта конфигурация не поддерживается для баз данных сервера сохраняемого чата. 
   
-При совместном размещении баз данных Persistent Chat с серверной базой данных, можно либо использовать один экземпляр SQL Server для любого или для всех баз данных, или можно использовать отдельный экземпляр SQL Server для каждой базы данных.
+If you collocate the Persistent Chat database with the back-end database, you can either use a single instance of SQL Server for any or all of the databases, or you can use a separate instance of SQL Server for each database.
   
 > [!IMPORTANT]
-> На сервере, содержащем базу данных Persistent Chat может размещаться других баз данных. Тем не менее во время рассмотрения collocating базы данных сохраняемого сеанса беседы с другими базами данных, обратите внимание, что для хранения сообщений несколько пользователей, дискового пространства необходимости в базе данных, сохраняемых сеансов беседы может стать очень большим. По этой причине не рекомендуется collocating базы данных сохраняемого сеанса беседы с серверной базой данных. 
+> The server hosting the Persistent Chat database can host other databases. However, when you consider collocating the Persistent Chat database with other databases, be aware that if you are storing the messages of more than a few users, the disk space needed by the Persistent Chat database can grow very large. For this reason, we do not recommend collocating the Persistent Chat database with the back-end database. 
   
-На следующем рисунке показаны все компоненты топологии для одного сервера сохраняемого чата с поддержкой соответствия требованиям (необязательно).
+The following figure shows all components of a topology for a single Persistent Chat Server with compliance enabled (optional).
   
-**Односерверная топология**
+**Single Server Topology**
 
 ![Сервер сохраняемого чата - топология с одним сервером](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
 ### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Сервер Enterprise Edition с несколькими серверами сохраняемого чата
 
-С помощью Enterprise Edition Вы можете развернуть топологии для большей емкости и надежности. Топологии аналогична топологии с одним сервером за исключением того, что несколько серверов размещения сервера сохраняемого чата, а можно масштабировать более поздней версии. Топологии может содержать более четырех active компьютеров под управлением сервера сохраняемого чата (высокого уровня доступности и аварийного восстановления конфигурации позволит до восьми, но может быть только четыре активный и оставшиеся четыре во время выключения). Каждый сервер может поддерживать до 20 000 одновременно работающих пользователей, всего не более 80000 одновременно работающих пользователей, подключенных к пул серверов сохраняемого чата с 4 серверами. Несколько компьютеров с сервера сохраняемого чата должен находиться в том же домене доменных служб Active Directory, как Скайп для Business Server и служба соответствия требованиям.
+With Enterprise Edition, you can deploy a multiple-server topology for greater capacity and reliability. A multiple-server topology is the same as the single-server topology except that multiple servers host Persistent Chat Server, and can scale higher. The multiple-server topology can include as many as four active computers running Persistent Chat Server (high availability and disaster recovery configurations will allow up to eight, but only four can be active and the remaining four on standby). Each server can support as many as 20,000 concurrent users, for a total of 80,000 concurrent users connected to a Persistent Chat Server pool with 4 servers. Multiple computers running Persistent Chat Server should reside in the same Active Directory Domain Services domain as Skype for Business Server and the Compliance service.
   
-На следующем рисунке показаны все компоненты топологии с несколькими компьютерами под управлением сервера сохраняемого чата, дополнительной службой соответствия и отдельной базой данных соответствия.
+The following figure shows all the components of a multiple-server topology with multiple computers running Persistent Chat Server, the optional Compliance service, and a separate compliance database.
   
-**Топология с несколькими серверами**
+**Multiple Server Topology**
 
 ![Сервер сохраняемого чата — топология с несколькими серверами](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
   
-Топологии с несколькими серверами предоставляют пул функциональные возможности сервера. В пуле серверов служб Persistent Chat связи и общего доступа к данным. Например журнал чата, который изначально была учтена для одной службы сохраняемого чата доступен из любого службы сохраняемого чата в системе. Файл, который загрузил через одну службу сохраняемого сеанса беседы может осуществляться любой службы сохраняемого чата. Пользователи могут быть подключены к другой Persistent Chat Server серверов переднего плана и может быть связи друг с другом. По умолчанию порт TCP 8011 подключает сервер к пулу серверов и используется службами сохраняемых сеансов беседы для взаимодействия между собой или в административных целях.
+Multiple-server topologies provide pooling of server functionality. In a server pool, the Persistent Chat services communicate and share data. For example, chat history that was originally posted to one Persistent Chat service is available from any Persistent Chat service in the system. A file that is uploaded through one Persistent Chat service can be accessed by any Persistent Chat service. Users can be connected to different Persistent Chat Server Front End Servers and can be communicating with each other. The default port of TCP 8011 connects a server to a server pool, and is used by the Persistent Chat services to communicate between themselves, or for administrative purposes.
   
-К примеру в четырех серверов серверов сохраняемого чата развертывания, где 80 000 пользователей могут одновременно войти в систему с и с помощью Persistent Chat, нагрузка равномерное распределение по 20 000 пользователей на один сервер. Если на одном сервере станут недоступны, пользователей, подключенных к серверу будут потеряны их доступ для сервера сохраняемого чата. Отключенные пользователи автоматически перемещается на остальных серверах до восстановления server недоступен. 
+For example, in a four-server Persistent Chat Server deployment, where 80,000 users can be simultaneously signed in to Persistent Chat, the load is distributed evenly at 20,000 users per server. If one server becomes unavailable, the users who are connected to that server will lose their access to Persistent Chat Server. The disconnected users will be automatically transferred to the remaining servers until the unavailable server is restored. 
   
 

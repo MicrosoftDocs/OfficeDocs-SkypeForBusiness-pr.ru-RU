@@ -11,57 +11,57 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
-description: 'Сводка: Узнайте, как установить средства администрирования, необходимые для установки Скайп для Business Server 2015. Загрузить бесплатную пробную версию программы Скайп для 2015 Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: e54dfd4b29f3947b58517007949922a5c1230d51
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Summary: Learn how to install the administrative tools required for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: c0d6b4a2ad41fbca4c89e6095a34eabf08e191ee
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server-2015"></a>Установка средств администрирования в Skype для бизнеса Server 2015
  
-**Сводка:** Узнайте, как установить средства администрирования, необходимые для установки Скайп для Business Server 2015. Загрузить бесплатную пробную версию программы Скайп для 2015 Business Server в центре Microsoft оценки по: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to install the administrative tools required for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-К средствам администрирования относятся построитель топологий и панель управления. Средства администрирования необходимо установить по крайней мере на одном сервере в топологии или рабочей станции управления 64-разрядная версии ОС Windows, который поддерживается для Скайп для Business Server. Шаги с 1 по 5 могут выполняться в произвольном порядке. Но шаги 6, 7 и 8 должны выполняться в указанном порядке после шагов с 1 по 5, как показано на схеме. Установка средств администрирования — шаг 3 из 8.
+К средствам администрирования относятся построитель топологий и панель управления. The administrative tools must be installed on at least one server in the topology or a 64-bit management workstation running a Windows OS version that is supported for Skype for Business Server. Шаги с 1 по 5 могут выполняться в произвольном порядке. Но шаги 6, 7 и 8 должны выполняться в указанном порядке после шагов с 1 по 5, как показано на схеме. Установка средств администрирования — шаг 3 из 8.
   
 ![Обзорная схема](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   
-## <a name="install-skype-for-business-server-2015-administrative-tools"></a>Установка Скайп для средств администрирования Business Server 2015
+## <a name="install-skype-for-business-server-2015-administrative-tools"></a>Install Skype for Business Server 2015 administrative tools
 
-Установочного носителя для Скайп для Business Server 2015 предоставляют гибкие возможности. При первом запуске Setup.exe установлены средства только являются Скайп для мастер развертывания Business Server и Скайп для консоли Business Server. С помощью этих двух средств, известных как основные компоненты можно продолжить процесс установки, но они не обеспечивают основные функциональные возможности для общего Скайп для среды Business Server. Мастер развертывания автоматически запускается после установки основных компонентов. В разделе мастер развертывания под названием **Установить средства администрирования** устанавливает Скайп для Business Server Topology Builder и Скайп для панели управления Business Server.
+The installation media for Skype for Business Server 2015 provides a flexible experience. When you first run Setup.exe, the only tools installed are the Skype for Business Server Deployment Wizard and the Skype for Business Server Management Shell. By using these two tools, known as Core Components, you can continue with the installation process, but they do not provide primary functionality for the overall Skype for Business Server environment. Мастер развертывания автоматически запускается после установки основных компонентов. The section of the Deployment Wizard titled **Install Administrative Tools** installs Skype for Business Server Topology Builder and Skype for Business Server Control Panel.
   
 > [!IMPORTANT]
-> Каждый Скайп для среды Business Server необходимо иметь хотя бы один сервер с установлены средства администрирования. 
+> Every Skype for Business Server environment must have at least one server with the administrative tools installed. 
   
 Смотреть видеоруководство **Установка средств администрирования**.
   
-![Ваш браузер не поддерживает видео. Установите Microsoft Silverlight, Adobe Flash Player или Internet Explorer 9.](../../media/MSN_Video_Widget.gif)
+> [!video https://www.microsoft.com/en-us/videoplayer/embed/99a5c436-963b-4eed-b423-651568c87cb1?autoplay=false]
   
-### <a name="install-skype-for-business-server-2015-administrative-tools-from-the-deployment-wizard"></a>Установка Скайп для средств администрирования Business Server 2015 с помощью мастера развертывания
+### <a name="install-skype-for-business-server-2015-administrative-tools-from-the-deployment-wizard"></a>Install Skype for Business Server 2015 administrative tools from the Deployment Wizard
 
-1. Вставка Скайп для Business Server 2015 установочного носителя. Если установка не началась автоматически, дважды щелкните файл **Setup**.
+1. Insert the Skype for Business Server 2015 installation media. Если установка не началась автоматически, дважды щелкните файл **Setup**.
     
 2. Для запуска установочного носителя требуется Microsoft Visual C++. Открывается диалоговое окно с запросом подтверждения установки. Нажмите **Да**.
     
-3. С помощью смарт-установки компонента в Скайп для Business Server 2015, может подключиться к Интернету, чтобы проверить наличие обновлений во время установки. Это повышает эффективность работы, так как вы можете быть уверены в получении самых последних обновлений продукта. Нажмите кнопку **Установить**, чтобы начать установку.
+3. By using Smart Setup, a new feature in Skype for Business Server 2015, you can connect to the Internet to check for updates during the installation process. Это повышает эффективность работы, так как вы можете быть уверены в получении самых последних обновлений продукта. Нажмите кнопку **Установить**, чтобы начать установку.
     
 4. Внимательно просмотрите лицензионное соглашение. Если вы согласны, выберите **Я принимаю условия лицензионного соглашения** и нажмите кнопку **ОК**.
     
-5. Скайп для Business Server 2015 основные компоненты будут установлены на сервере. 
+5. The Skype for Business Server 2015 Core Components will be installed on the server. 
     
     Состав основных компонентов показан на рисунке.
     
     ![Основные компоненты на экране приложений.](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-  - **Скайп для 2015 мастер развертывания Business Server** Программа развертывания, который содержит панель запуска для установки различных компонентов Скайп для Business Server 2015.
+  - **Skype for Business Server 2015 Deployment Wizard** A deployment program that provides a launch pad for installing the various components of Skype for Business Server 2015.
     
-  - **Скайп оболочки управления 2015 Business Server** Предварительно настроенного PowerShell программа, которая предоставляет возможности администрирования Скайп для Business Server 2015.
+  - **Skype for Business Server 2015 Management Shell** A preconfigured PowerShell program that allows for administration of Skype for Business Server 2015.
     
-    После завершения установки основных компонентов Скайп мастер развертывания 2015 Business Server для автоматического запуска, как показано на рисунке. 
+    Once the installation of the Core Components is complete, the Skype for Business Server 2015 Deployment Wizard will automatically launch, as shown in the figure. 
     
     ![Мастер развертывания Skype для бизнеса Server 2015](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
-6. Кроме основных компонентов будет необходимо также установить Скайп для Business Server 2015 Topology Builder и Скайп для панели управления 2015 Business Server по крайней мере на одном сервере в среде. Щелкните **Установить средства администрирования** в окне мастера развертывания.
+6. In addition to the Core Components, you will also need to install Skype for Business Server 2015 Topology Builder and Skype for Business Server 2015 Control Panel on at least one server in the environment. Щелкните **Установить средства администрирования** в окне мастера развертывания.
     
 7. Нажмите кнопку **Далее**, чтобы начать установку.
     
@@ -69,8 +69,8 @@ ms.lasthandoff: 03/28/2018
     
     ![Средства администрирования Skype для бизнеса Server 2015](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   
-   - **Скайп для бизнеса 2015 построитель топологий** Программа, используемая для построения, развертывания и управления топологии.
+   - **Skype for Business Server 2015 Topology Builder** A program used to build, deploy, and manage topologies.
     
-   - **Скайп для панели управления 2015 Business Server** Программа, используемая для администрирования установки.
+   - **Skype for Business Server 2015 Control Panel** A program used to administer the installation.
     
 

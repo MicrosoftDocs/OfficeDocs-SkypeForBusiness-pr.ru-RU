@@ -6,6 +6,7 @@
 ## [Проверка готовности среды для Teams](environment-readiness.md).
 ## [Подготовка сети организации к использованию Teams](prepare-network.md)
 ## [URL-адреса и диапазоны IP-адресов для Office 365](Office-365-URLs-IP-address-ranges.md)
+## [Ограничения и спецификации для групп](limits-specifications-teams.md)
 
 
 
@@ -224,7 +225,7 @@
 ### [1.1 - окружающей среды обнаружения для групп Майкрософт выгрузка данных](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2. Пилотный проект Teams параллельно с использованием Skype для бизнеса.](pilot-essentials.md)
 ### [2.1 - выбора пользователей для пилотной группы](select-users-for-your-teams-pilot.md)
-## [3 — обновление пути и сосуществование Скайп для бизнеса и рабочих групп](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+## [3 — понять, совместимости и обновление режимы для Скайп для бизнеса и рабочих групп](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [4. Извлечение выгоды за счет освоения Teams пользователями.](continue-journey.md)
 ## [Вопросы и ответы. Концепция Skype для бизнеса и Teams](FAQ-journey.md)
 ## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)

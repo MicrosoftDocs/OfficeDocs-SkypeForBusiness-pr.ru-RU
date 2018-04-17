@@ -1,5 +1,5 @@
 ---
-title: Включение и использование панели мониторинга качества звонков
+title: Turning on and using Call Quality Dashboard
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,236 +19,236 @@ f1keywords:
 - ms.lync.lac.ToolsCallQualityDashboard
 ms.custom:
 - Reporting
-description: 'Узнайте, как включить и использовать Скайп для панели мониторинга качества Online вызовов бизнес и получить сводные отчеты о качестве вызовов. '
-ms.openlocfilehash: 5e1bf4a112e36761c18a11d3173b263002ad5e3f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
+ms.openlocfilehash: 463567d46da9f7fa50aa54880e017ae886cba57d
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для групп Майкрософт и Скайп для бизнеса в Интернет
+# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online
 
-Узнайте, как использовать панель мониторинга качества звонков для контроля качества звонка в вашей организации Office 365.
+Learn how to configure your Office 365 organization to use the Call Quality Dashboard to monitor call quality.
   
-Вызов качества панели мониторинга (CQD) для групп Майкрософт и Скайп для бизнеса в Интернет можно воспользоваться сведениями в качестве вызовов, сделанных с помощью групп Майкрософт и Скайп для бизнес-служб. В этом разделе описываются действия, необходимые для выполнения начала сбора данных.
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic describes the steps you'll need to complete to start collecting data.
   
 > [!NOTE]
-> CQD подробное описание отчетов в настоящее время доступен в качестве Технический предварительного просмотра, но доступны для всех клиентов. 
+> The CQD detailed reports are currently available as Tech Preview but available to all customers. 
   
-## <a name="latest-changes-and-updates"></a>Последние изменения и обновления
+## <a name="latest-changes-and-updates"></a>Latest changes and updates
 
-Самые последние изменения, чтобы CQD используются следующие:
+The most recent changes to CQD are as follows:
   
-- Включает в себя данные группами Майкрософт в дополнение к Скайп для бизнеса в Интернет данных.
+- Includes Microsoft Teams data in addition to Skype for Business Online data.
     
-- Сводные отчеты о включить фильтр продукта, выберите все данные группами Майкрософт, или и Скайп для бизнеса в Интернет данных.
+- Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data.
     
-Обратитесь к данной статье представлен список [измерений](dimensions-and-measures-available-in-call-quality-dashboard.md)и мер, доступные в вызов качества панели мониторинга для групп Майкрософт и Скайп для бизнеса в Интернет.
+Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
-> Сведения об обновлениях и изменения в панели мониторинга можно найти, нажав кнопку **хорошо!** в панели мониторинга. Перейдите к [панели мониторинга качество звонка](https://aka.ms/CQDOnline). 
+> Information about updates and changes to the dashboard can be found by clicking the link in the **Good news!** banner when it is displayed on the dashboard.
   
-## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Активация сводные отчеты о панели мониторинга (CQD) качество звонка Microsoft
+## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
-Прежде чем начать, с помощью CQD, необходимо включить его для своей организации Office 365.
+Before you can start using the CQD, you'll need to activate it for your Office 365 organization.
   
-1. Войдите в организации Office 365, используя учетную запись администратора и выберите плитку **администрирования** , чтобы открыть центр администрирования.
+1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
     
-2. В левой области **центра администрирования**установите **Скайп для бизнеса** , чтобы открыть Скайп по центру администрирования бизнес.
+2. In the left pane, under **Admin centers**, select **Skype for Business** to open the Skype for Business admin center.
     
-3. В Скайп по центру администрирования бизнеса выберите **Инструменты** в левой панели и выберите **Скайп для панели мониторинга качества Online вызовов Business**.
+3. In the Skype for Business admin center, select **Tools** in the left pane, and then select **Skype for Business Online Call Quality Dashboard**.
     
-     ![Скайп для бизнес-средства](../images/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+     ![Skype for Business tools](../images/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
-4. На открывшейся странице войдите в систему с учетной записи глобального администратора и затем укажите учетные данные для учетной записи при появлении запроса.
+4. On the page that opens, log in with your Global Administrator account, and then provide the credentials for the account when prompted.
     
-     ![CQD для входа](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+     ![CQD Login](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-После входа, после активации CQD начинает сбор и обработки данных.
+After you login, once activated, the CQD will begin collecting and processing data.
   
 > [!NOTE]
-> Она может занять несколько часов для обработки достаточно данных для отображения значимых результатов в отчетах. 
+> It may take a couple of hours to process enough data to display meaningful results in the reports. 
   
-## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>Интернет-версия функции мониторинга качества звонков для Скайп для бизнеса
+## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>Features of the Call Quality Dashboard for Skype for Business Online
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-Отчеты по Сводка CQD предоставляют часть функций, запланированных для подробных отчетов. Ниже перечислены различия между двумя версиями:
+CQD Summary Reports provide a subset of the features planned for Detailed Reports. The differences between the two editions are summarized here:
   
-|**Функция**|**Сводные отчеты о**|**Подробные отчеты**|
+|**Функция**|**Summary Reports**|**Detailed Reports**|
 |:-----|:-----|:-----|
-|Показатель общего доступа приложения  <br/> |Нет  <br/> |Да  <br/> |
-|Построение сведения о поддержке клиентов  <br/> |Да  <br/> |Да  <br/> |
-|Поддержка перехода анализа  <br/> |Нет  <br/> |Да  <br/> |
-|Показателей надежности  <br/> |Нет  <br/> |Да  <br/> |
-|Отчеты о ожидания введите  <br/> |Да  <br/> |Да  <br/> |
-|Обзор отчетов  <br/> |Да  <br/> |Да  <br/> |
-|Набор отчетов на пользователя  <br/> |Нет  <br/> |Да  <br/> |
-|Отчет о задайте настройки (Добавление, удаление и изменение отчетов)  <br/> |Нет  <br/> |Да  <br/> |
-|На основе видео экрана показатели общего доступа  <br/> |Нет  <br/> |Да  <br/> |
-|Показатели видео  <br/> |Нет  <br/> |Да  <br/> |
-|Объем данных, которые доступны  <br/> |Последние 6 месяцев  <br/> |Последние 6 месяцев  <br/> |
-|Данные групп Майкрософт  <br/> |Да  <br/> |Да  <br/> |
+|Application sharing metric  <br/> |Нет  <br/> |Да  <br/> |
+|Customer building information support  <br/> |Да  <br/> |Да  <br/> |
+|Drill-down analysis support  <br/> |Нет  <br/> |Да  <br/> |
+|Media reliability metrics  <br/> |Нет  <br/> |Да  <br/> |
+|Out-of-the-box reports  <br/> |Да  <br/> |Да  <br/> |
+|Overview reports  <br/> |Да  <br/> |Да  <br/> |
+|Per-user report set  <br/> |Нет  <br/> |Да  <br/> |
+|Report set customization (add, delete, modify reports)  <br/> |Нет  <br/> |Да  <br/> |
+|Video-based screen sharing metrics  <br/> |Нет  <br/> |Да  <br/> |
+|Video metrics  <br/> |Нет  <br/> |Да  <br/> |
+|Amount of data available  <br/> |Last 6 months  <br/> |Last 6 months  <br/> |
+|Microsoft Teams data  <br/> |Да  <br/> |Да  <br/> |
    
-### <a name="out-of-the-box-reports"></a>Отчеты о ожидания введите
+### <a name="out-of-the-box-reports"></a>Out-of-the-box reports
 
-Оба выпуска CQD предоставляют-стандартной опыт показывает, что дает возможность вызова показателей качества без необходимости создавать новые отчеты. Когда в серверной обработки данных, вы увидите качества данных о вызовах в отчетах.
+Both editions of CQD provide an out-of-the-box experience, giving you call quality metrics without the need to create any new reports. Once data is processed in the back-end, you can start seeing call quality data in the reports.
   
-### <a name="overview-reports"></a>Обзор отчетов
+### <a name="overview-reports"></a>Overview reports
 
-Оба выпуска CQD предоставляют точку высокого уровня запись к общей информации качество звонка, но способ сведения представлены в отчетах Сводка отличается от подробных отчетов.
+Both editions of the CQD provide a high-level entry point to the overall call quality information, but the way information is presented in Summary Reports is different from that of Detailed Reports.
   
-Сводные отчеты о предоставляют это представление отчета упрощенный вкладки, которая позволяет пользователям быстро просматривать и понять общее состояние качество звонка и тенденций.
+Summary Reports provide a simplified tabbed page report view that enables users to quickly browse and understand the overall call quality status and trends.
   
-Следующие четыре вкладки:
+The four tabs include:
   
-- **Общее качество звонка** - сведения о всех потоков, которые является объединение потоков сервера клиентского и потоков клиента клиента, а также отдельный сервер клиентского и потоки клиента клиента, в виде тенденции месяц и день.
+- **Overall Call Quality** - provides information about all streams, which is an aggregation of Server-Client streams and Client-Client streams, as well as separate Server-Client and Client-Client streams, in the form of monthly and daily trends.
     
-- Дополнительные сведения о потоков между конечными точками серверных и клиентских **серверов - Client** .
+- **Server - Client** - provides additional details for the streams between Server and Client endpoints.
     
-- **Клиент - Client** - Дополнительные сведения о потоков между двумя конечными точками клиента.
+- **Client - Client** - provides additional details for the streams between two Client endpoints.
     
-- **Качество голосовых соглашения об уровне ОБСЛУЖИВАНИЯ** - предоставляет сведения о вызовах, включенные в Скайп для бизнеса Online Voice Quality соглашения об уровне ОБСЛУЖИВАНИЯ.
+- **Voice Quality SLA** - provides information about calls that are included in the Skype for Business Online Voice Quality SLA.
     
-### <a name="overall-call-quality-tab"></a>Вкладка общее качество звонка
+### <a name="overall-call-quality-tab"></a>Overall Call Quality tab
 
-Используйте данные на этой вкладке, чтобы оценить состояние качество звонка и тенденции, посмотрев счетчики потока и низкого уровня процентов. Условные обозначения в правом верхнем углу показано, какие цвета и визуальные элементы, представляющие этих показателей.
+Use the data on this tab to evaluate call quality status and trends by looking at the stream counts and poor percentages. The legend in the upper-right corner shows which color and visual elements represent these metrics.
   
-![Клавиша CQD данных](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+![CQD Data key](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Потоки классифицируются в три группы: хороший низкого уровня и Неклассифицированные. Существует также рассчитываются *низкого уровня %* со значениями, позволяющие вам отношение числа потоков рассматривать как * плохих * количеству общее секретная потока. С момента *низкого уровня % = низкий потоков / (низкого уровня потоков + хороший потоков) * 100* , это делает *низкого уровня %* влияет на сведения о присутствии с несколькими потоками *несекретными* . Для чего используется для классификации потока как низкого уровня или хороший обратитесь к [Пороговые значения качества звонков](https://aka.ms/cqd_quality_thresholds).
+Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as *Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. For what is used for classifying a stream as poor or good, refer to [Call Quality Thresholds](https://aka.ms/cqd_quality_thresholds).
   
-Используйте масштаб слева оценить количество вызовов значений.
+Use the scale on the left to measure the stream count values.
   
-![Число CQD данных](../images/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+![CQD data count](../images/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
-Используйте масштаб справа для измерения значения низкого уровня %.
+Use the scale on the right to measure the Poor % values.
   
-![CQD данные по cent](../images/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+![CQD data per cent](../images/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
-Можно также получить фактический числовые значения при наведении мыши на строку.
+You can also obtain the actual numerical values by hovering the mouse over a bar.
   
 > [!NOTE]
-> В следующем примере приведен из очень маленькие образца набора данных и значения не реалистичной для развертывания. 
+> The following example is from a very small sample data set, and the values aren't realistic for an actual deployment. 
   
-![Числовые данные CQD](../images/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+![CQD Data numeric](../images/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
-Общий поток том является важным фактором при выборе этих как соответствующие вычисляемые низкого уровня процентные доли являются. Меньшего размера тома общий поток, менее надежные, переданные низкого уровня процентные значения.
+The overall stream volume is an important factor in determining how relevant the calculated Poor percentages are. The smaller the volume of overall streams, the less reliable the reported Poor percentage values are.
   
-### <a name="server-client-tab-and-client-client-tabs"></a>Вкладка клиент сервера и клиента клиента вкладки
+### <a name="server-client-tab-and-client-client-tabs"></a>Server-Client tab and Client-Client tabs
 
-Эти две вкладки укажите дополнительные сведения о потоков, выполняемых в сценариях их конечной точки для конечной точки. Обе вкладки имеют четыре свертываемых раздела, представляющее четыре сценариев, при которых будет потока мультимедийных потоков.
+These two tabs provide additional details for the streams that took place in their endpoint-to-endpoint scenarios. Both tabs have four collapsible sections, representing four scenarios under which media streams would flow.
   
-- Проводное внутри
+- Wired Inside
     
-- Проводное за пределами
+- Wired Outside
     
-- Исследование WiFi
+- Wifi Inside
     
-- За пределами WiFi
+- Wifi Outside
     
-#### <a name="inside-test"></a>Внутри тестирования
+#### <a name="inside-test"></a>Inside Test
 
-Во время обработки, серверной CQD классификация потока как *внутри* или *за пределами* с использованием информации построения, если он существует. Конечные точки каждого потока связаны с адрес подсети. Если в списке подсети в сведениях о передаваемом построения подсети, он считается внутри. Если построение сведения не еще не был отправлен, затем внутри тестирования будет всегда классифицировать потоки как *за пределами* . Обратите внимание, что внутри тестирования для сервера клиентского сценария учитывает только конечная точка клиента. Поскольку серверы всегда за пределами с точки зрения пользователя, это не учитывается в тесте.
+During processing, the CQD back-end classifies a stream as  *Inside*  or *Outside*  using Building information, if it exists. Endpoints of each stream are associated with a subnet address. If the subnet is in the list of the subnets marked InsideCorp in the uploaded Building information, then it is considered *Inside*. If Building information has not yet been uploaded, then Inside Test will always classify the streams as *Outside*. Please note that Inside Test for Server-Client scenario only considers the client endpoint. Because servers are always outside from a user's perspective, this isn't accounted for in the test.
   
-#### <a name="wired-vs-wifi"></a>Проводной и wifi
+#### <a name="wired-vs-wifi"></a>Wired vs. wifi
 
-Как указать имена, это условие классификации на основе типа клиентских подключений. Еще раз всегда проводной сети сервера и его не включаются в расчет.
+As the names indicate, this is a classification criteria based on the type of client connections. Again, server is always wired and it isn't included in the calculation.
   
 > [!NOTE]
-> Учитывая потока, если один из двух конечных точек подключения Wifi сети, затем относится к категории Wifi в CQD. 
+> Given a stream, if one of the two endpoints is connected to a Wifi network, then it is classified as Wifi in CQD. 
   
-## <a name="selecting-product-data-to-see-in-reports"></a>Выбор продукта данные для отображения в отчетах
+## <a name="selecting-product-data-to-see-in-reports"></a>Selecting product data to see in reports
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-В Обзор и расположение Enhanced отчеты, можно использовать в раскрывающемся списке **Фильтр продуктов** для отображения всех данных продукта только данные группами Майкрософт, или только Скайп для бизнеса в Интернет данных.
+In the Summary and Location Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
   
-![Снимке экрана показан элемент управления фильтра продукта с параметры для всех групп Майкрософт и Скайп для бизнеса.](../images/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+![Screenshot shows the Product Filter control with options for All, Microsoft Teams, and Skype for Business.](../images/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-В подробных отчетов измерения группы можно использовать для фильтрации данных групп Майкрософт или Скайп для бизнеса в Интернет данных как часть определения отчета.
+In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data as part of defining the report.
   
-## <a name="upload-building-information"></a>Построение Отправка информации
+## <a name="upload-building-information"></a>Upload Building information
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-Панель мониторинга отчетов Сводка CQD включает в себя на страницу **Загрузки данных клиента** , доступного, выбрав в меню «Параметры» в верхнем правом углу **Отправка данных клиента** . Эта страница используется для "Администраторы" для отправки их собственные сведения, такие как сопоставление IP-адреса и сведения о местоположении сопоставление каждого беспроводного доступа и его MAC-адрес, и т.д.
+The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless AP and its MAC address, etc.
   
-![Панель мониторинга CQD](../images/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
+![CQD Dashboard](../images/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. На странице **Отправка данных клиента** используйте раскрывающееся меню для выбора типа файла данных для загрузки. Тип данных файла обозначает содержимое файла (например, «Создание» относится к сопоставление IP-адреса и построение также другие сведения о местоположении). В настоящее время мы только поддержке тип данных «Стандартные». Несколько дополнительных типов данных будет добавлен в последующих выпусках.
+1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type for uploading. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building as well as other geographical information). Currently we are only supporting the "Building" data type. A few more data types will be added with subsequent releases.
     
-2. После выбора типа файла данных, нажмите кнопку **Обзор** , чтобы выбрать файл данных.
+2. After selecting the file data type, click **Browse** to choose a data file.
     
-  - Файл данных должен находиться файл .tsv (вкладка-запятыми) или в CSV-файл (CSV-). Если с помощью CSV-файла, любое поле, которое содержит запятую должно содержать кавычки или иметь запятой, которая удалена. К примеру Если построение называется Нюнорск Йорке, в CSV-файл его ввода как «Нюнорск Йорке».
+  - The data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. If using a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY, in the .csv file it should be entered as "NY,NY".
     
-  - Файл данных не должен превышать 50 МБ.
+  - The data file must be no larger than 50MB in size.
     
-  - Для каждого файла данных каждого столбца в файле должен совпадать с типом данных, описанных далее в этом разделе.
+  - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
     
-3. После выбора файла данных, укажите **дату начала** и (необязательно) **Укажите конечную дату**.
+3. After selecting a data file, specify **Start date** and, optionally, **Specify an end date**.
     
-4. После выбора, **Дата начала**, выберите **Отправить** Отправка файла на сервер CQD.
+4. After selecting **Start date**, select **Upload** to upload the file to the CQD server.
     
-    Прежде чем отправить файл сначала проверки. После проверки, он хранится в Azure больших двоичных объектов. Если возникает ошибка проверки или файл не будут храниться в Azure больших двоичных объектов, сообщение об ошибке отображается запрос исправления в файл. На следующем рисунке показана ошибка во время количество столбцов в файле данных неверны.
+    Before the file is uploaded, it is first validated. Once validated, it is stored in an Azure blob. If validation fails or the file fails to be stored in an Azure blob, an error message is displayed requesting a correction to the file. The following image shows an error occurring when the number of columns in the data file is incorrect.
     
-     ![Ошибка проверки CQD пример передачи](../images/22716a32-3d3d-4870-983c-46089e8b212a.png)
+     ![CQD Example upload validation error](../images/22716a32-3d3d-4870-983c-46089e8b212a.png)
   
-5. Если не происходит ошибки во время проверки, отправка файла будет успешно. Может появиться файл загруженные данные в таблицу **Мои передача** , в которой показан полный список всех загружаемых файлов для текущего клиента в нижней части страницы.
+5. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
     
-    Каждого записывать один отправленный клиентом данные файла, тип файла, время последнего обновления, периода времени, описание, удаление и значок загрузки. Чтобы удалить файл, выберите значок корзины корзины в таблице. Чтобы загрузить файл, выберите значок загрузки в столбце **загрузки** таблицы.
+    Each record shows one uploaded tenant data file, with file type, last update time, time period, description, a remove icon, and a download icon. To remove a file, select the trash bin icon in the table. To download a file, select the download icon in the **Download** column of the table.
     
-     ![Мои отправляет CQD таблицы](../images/4168a883-bbea-461a-80b1-42eedf2e7732.png)
+     ![CQD My Uploads table](../images/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
-### <a name="tenant-data-file-format-and-building-data-file-structure"></a>Формат файла данных клиента и структура файла данных построения
+### <a name="tenant-data-file-format-and-building-data-file-structure"></a>Tenant data file format and Building data file structure
 <a name="BKMKTenantDataFile"> </a>
 
-Формат файла данных, загружаемых должны соответствовать следующие действия, чтобы проходит проверку до отправки.
+The format of the data file you upload must meet the following to pass the validation check before uploading.
   
-- Файл должен находиться файл .tsv, который означает, что, каждой строки, столбцы, разделенных ВКЛАДКИ, или в CSV-файл с каждого столбца, разделенных точкой с запятой.
+- The file must be either a .tsv file, which means, in each row, columns are separated by a TAB, or a .csv file with each column separated by a comma.
     
-- Содержимое файла данных сюда не включены в таблице заголовки. Что означает, что первая строка файла данных должен быть реальные данные, не заголовки как «Сеть», и т.д.
+- The content of the data file doesn't include table headers. That means the first line of the data file should be real data, not headers like "Network," etc.
     
-- Для каждого столбца в тип данных можно только строка, число или Bool. Если номер, значение должно быть числовое значение; Если это логическое значение должно быть 0 или 1.
+- For each column, the data type can only be String, Number, or Bool. If it is Number, the value must be a numeric value; if it is Bool, the value must be either 0 or 1.
     
-- Для каждого столбца, если тип данных string, данных может быть пустым (, но по-прежнему должны быть разделены соответствующие запятые (то есть вкладки или запятой). Это просто присваивает значение пустое строковое значение.
+- For each column, if the data type is string, the data can be empty (but still must be separated by an appropriate delimiter (i.e., a tab or comma). This just assigns that field an empty string value.
     
-- Должен быть 14 столбцов для каждой строки и столбцы должны иметь следующие данные типа и столбцы должны находиться в том порядке, перечисленные в следующей таблице:
+- There must be 14 columns for each row, each column must have the following data type, and the columns must be in the order listed in the following table:
     
-|**Имя столбца**|**Тип данных**|**Пример**|
+|**Column Name**|**Data type**|**Пример**|
 |:-----|:-----|:-----|
 |Сеть  <br/> |Строка  <br/> |192.168.1.0  <br/> |
-|NetworkName  <br/> |Строка  <br/> |США/Сиэтл/СИЭТЛ SEA-1  <br/> |
+|NetworkName  <br/> |Строка  <br/> |USA/Seattle/SEATTLE-SEA-1  <br/> |
 |NetworkRange  <br/> |Число  <br/> |26  <br/> |
-|BuildingName  <br/> |Строка  <br/> |СИЭТЛ SEA-1  <br/> |
+|BuildingName  <br/> |Строка  <br/> |SEATTLE-SEA-1  <br/> |
 |OwnershipType  <br/> |Строка  <br/> |Contoso  <br/> |
-|BuildingType  <br/> |Строка  <br/> |Завершение ИТ  <br/> |
-|BuildingOfficeType  <br/> |Строка  <br/> |Проектирование  <br/> |
+|BuildingType  <br/> |Строка  <br/> |IT Termination  <br/> |
+|BuildingOfficeType  <br/> |Строка  <br/> |Engineering  <br/> |
 |City  <br/> |Строка  <br/> |Сиэтл  <br/> |
 |ZipCode  <br/> |Строка  <br/> |98001  <br/> |
-|Страна  <br/> |Строка  <br/> |"МНЕ НРАВИТСЯ"  <br/> |
+|Country  <br/> |Строка  <br/> |US  <br/> |
 |State  <br/> |Строка  <br/> |Красноярский край  <br/> |
 |Region  <br/> |Строка  <br/> |MSUS  <br/> |
 |InsideCorp  <br/> |Bool  <br/> |1  <br/> |
 |ExpressRoute  <br/> |Bool  <br/> |0  <br/> |
    
 > [!IMPORTANT]
-> Диапазон сети можно использовать для представления supernet (сочетание несколько подсетей с один префикс маршрутизации). Все новые передача построения будет проверяться любые перекрывающиеся диапазоны. Если ранее загрузки файла построения следует загрузить текущий файл и повторно отправить его определение любого перекрытия и устранить проблему до отправки еще раз. Любой перекрытия в ранее загруженные файлы может привести к неправильной сопоставления подсетей зданий в отчетах. Некоторые реализации VPN неправильно определять сведений о подсети. Рекомендуется при добавлении VPN подсети в построение файла вместо одной записи для подсети, отдельной, добавляются записи для каждого адреса подсети VPN как отдельной сети 32-разрядная версия. Каждая строка может иметь стандартные метаданные. Например вместо одной строке для 172.16.18.0/24 должен иметь 256 строк, по одной строке для каждого адреса между 172.16.18.0/32 и 172.16.18.255/32 включительно. 
+> The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive. 
   
-## <a name="selecting-media-type-in-detailed-reports"></a>Выбор типа мультимедиа в подробных отчетов
+## <a name="selecting-media-type-in-detailed-reports"></a>Selecting media type in detailed reports
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-Подробные отчеты о поддерживает посмотрев надежности качество и мультимедиа для аудио-, видео, общий доступ к приложениям и на основе видео совместного использования экрана типов мультимедиа. Измерения, показатели и фильтры, которые специфичны для типа мультимедиа иметь префикс «Аудио», «Видео», «AppSharing» или «VBSS».
+The detailed reports support looking at quality and media reliability for audio, video, application sharing, and video-based screen-sharing media types. Dimensions, measures, and filters that are specific to a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
   
-![Вызов качества размеры панели мониторинга.](../images/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
+![Call Quality Dashboard Dimensions.](../images/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
   
-Если вы хотите просмотреть измерения и меры для типа мультимедиа, новый тип носителя измерений и фильтров может потребоваться. Например чтобы отчет, который отображает подсчитывает число сеансов на различных типах носителей, включите измерение тип носителя.
+If you want to view the dimensions and measures for a single media type, the new MediaType dimension and filter may be required. For example, to have a report that shows the total session counts across different media types, include the MediaType dimension.
   
-![Вызов качества панели мониторинга потока общее число.](../images/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
+![Call Quality Dashboard Total Stream Count.](../images/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
 ## <a name="related-topics"></a>See also
 [Настройка средства аналитики звонков в Skype для бизнеса](set-up-call-analytics.md)
 
-[Использование вызова аналитики для устранения вызовов плохого качества](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Use Call Analytics to troubleshoot poor  call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Различие между аналитики вызова и панель мониторинга качества звонков?](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

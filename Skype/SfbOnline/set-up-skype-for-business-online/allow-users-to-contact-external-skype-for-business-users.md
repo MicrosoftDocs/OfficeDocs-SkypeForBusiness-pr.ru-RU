@@ -1,5 +1,5 @@
 ---
-title: Разрешить пользователям контактов внешних Скайп для бизнес-пользователи
+title: Allow users to contact external Skype for Business users
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -25,32 +25,37 @@ f1_keywords:
 ms.custom:
 - Setup
 - LIL_Placement
-description: 'Узнайте, как настроить Скайп для бизнеса дать возможность пользователям обращаться к пользователей в другой организации или разрешить за пределами контактов к ним. '
-ms.openlocfilehash: cdbdb961f4fcf4bf9544a16f3efc8d4ba58d8664
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
+ms.openlocfilehash: b7700eeaf9a2fdd39d9a25fce93cfd17f42d4b8e
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="allow-users-to-contact-external-skype-for-business-users"></a>Разрешить пользователям контактов внешних Скайп для бизнес-пользователи
+# <a name="allow-users-to-contact-external-skype-for-business-users"></a>Allow users to contact external Skype for Business users
 
 > [!NOTE]
-> Скайп для федерации Business недоступен для Office 365, которой 21Vianet и организациями Office 365 Германия. 
+> Skype for Business federation isn't available to Office 365 operated by 21Vianet and Office 365 Germany organizations. 
   
-Действия, описанные в этом приведены в статье случаи использования:
+Use the steps in this article when:
   
-- У вас есть пользователи в разных доменах в бизнесе. Например Rob@ContosoEast.com и Ann@ContosoWest.com.
+- You have users on different domains in your business. For example, Rob@ContosoEast.com and Ann@ContosoWest.com.
     
-- Требуется людей в организации использование Скайп для бизнеса для контактных лиц в конкретных предприятия за пределами вашей организации.
+- You want the people in your organization to use Skype for Business to contact people in specific businesses outside of your organization.
     
--Требуется кому-либо в мире, который использует Скайп для бизнеса должны иметь возможность поиска и связи с вами с помощью свой адрес электронной почты. Если вы и они используют Скайп по умолчанию для параметров Business, этот вариант возможен автоматически. В противном случае необходимости убедитесь, что их конфигурации не блокирует вашего домена.
+-You want anyone else in the world who uses Skype for Business to be able to find and contact you, using your email address. If you and they use the default Skype for Business settings, this will work automatically. If they don't, then they need to make sure their configuration isn't blocking your domain.
     
-## <a name="enable-business-to-business-communications-for-your-users"></a>Включить бизнес бизнес связь для пользователей
+## <a name="enable-business-to-business-communications-for-your-users"></a>Enable business-to-business communications for your users
 <a name="bk_preview"> </a>
 
-Для этого необходимы [Роли администраторов в Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) в Office 365.
+To see how this works, watch this video:
+***
+> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
+***
+
+You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
   
-1. Выполните вход с учетной записью администратора Office 365. 
+1. Sign in with your Office 365 admin account. 
     
 2. В Центр администрирования Office 365 последовательно выберите пункты **Центры администрирования** > **Skype для бизнеса**.
     
@@ -58,82 +63,84 @@ ms.lasthandoff: 04/03/2018
   
 3. В **Центр администрирования Skype для бизнеса**выберите пункты **оОрганизация** > **Ввнешняяие связьи**.
     
-4. Чтобы настроить связь с определенным бизнес- или с пользователями в другом домене, в раскрывающемся списке выберите **на только для разрешенных доменов**.
+4. To set up communication with a specific business or with users in another domain, in the drop-down box, choose **On only for allowed domains**.
     
-    ИЛИ, если необходимо включить связь с все остальные в мире, имеющий открыть Скайп для бизнес-политик, выберите **на за исключением заблокированных доменов**. Это значение по умолчанию.
+    OR, if you want to enable communication with everyone else in the world who has open Skype for Business policies, choose **On except for blocked domains**. Это значение по умолчанию.
     
-5. В списке **заблокированных или разрешенных доменов**, выберите **+** и добавьте имя домена, чтобы разрешить.
+5. Under **Blocked or allowed domains**, choose **+** and add the name of the domain you want to allow.
     
-6. Убедитесь в том, что администратор другой организации не эти же действия в их **Скайп по центру администрирования бизнес**. К примеру в список **разрешенных доменов** их администрирования необходимо войти в домен для бизнеса.
+6. Make sure the admin in the other organization does these same steps in their **Skype for Business admin center**. For example, in their **allowed domains** list, their admin needs to enter the domain for your business.
     
 7. При использовании брандмауэра Windows Skype для бизнеса откроет нужные порты автоматически.
     
-    Если ваша организация использует решения различных брандмауэра для ограничения компьютеры в сети с подключением к Интернету, убедитесь, что на клиентских компьютерах, могут получить доступ к следующие [URL-адреса Office 365 и диапазоны IP-адресов](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges). Возможно, потребуется добавить полные доменные имена для исходящих белого списка в брандмауэр или прокси-сервера конфигурации инфраструктуры: ** \*. api.skype.com**, \* **. users.storage.live.com**и **graph.skype.com**. За инструкциями о том, как открыть эти порты в брандмауэре обратитесь к документации, поставляемой с ним.
+    If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges). This may require adding the FQDNs to the outbound allow list in your firewall or proxy infrastructure configuration: **\*.api.skype.com**, \***.users.storage.live.com**, and **graph.skype.com**. For instructions on how to open these ports in your firewall, check the documentation that came with it.
     
-    Список всех портов, которые должны быть открыты в разделе [URL-адреса Office 365 и диапазоны IP-адресов](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    For a list of all ports you need to open, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+
+8. Make sure that the administrator in the organization has also followed these steps.
     
-8. **ПЕРЕД ПРОВЕРКОЙ ПОДОЖДИТЕ 24 ЧАСА**. После изменения внешних параметров связи может потребоваться до 24 часов для их распространения по всем центрам обработки данных.
+9. **ПЕРЕД ПРОВЕРКОЙ ПОДОЖДИТЕ 24 ЧАСА**. После изменения внешних параметров связи может потребоваться до 24 часов для их распространения по всем центрам обработки данных.
     
-![Скайп](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) можно разрешить пользователям искать и обмена мгновенными Сообщениями со всех, кто использует Скайп, приложение бесплатное потребителей! Для получения дополнительных сведений см [Let Скайп для бизнес-пользователям добавлять контакты Скайп](let-skype-for-business-users-add-skype-contacts.md).
+![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) You can allow your users to search for and IM with everyone who uses Skype, the free consumer app! To learn more, see [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md).
   
 ## <a name="test-and-troubleshoot"></a>Проверка и устранение проблем
 <a name="bk_preview"> </a>
 
- **Наиболее распространенные проблемы, которые людей возникнуть при настройке бизнес делового общения правильного их [Office 365 URL-адреса и диапазоны IP-адресов](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) .**
+ **The most common issue people encounter when setting up business-to-business communication is getting their [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) right.**
   
-Чтобы проверить настройки, необходимо контакта на Скайп для бизнеса, который не является за брандмауэром вашей компании.
+To test your setup, you need a contact on Skype for Business who's not behind your company firewall.
   
 1. После изменения настроек внешней связи **подождите до 24 часов перед тем, как проверять их**.
     
-2. В Скайп для бизнеса поиск контакта в Скайп для бизнеса и отправить запрос в чате.
+2. In Skype for Business, search for your contact in Skype for Business, and send a request to chat.
     
-    Если вы получаете сообщение, оно не доставлено из-за политики компании, необходимо еще раз проверьте к [Office 365 URL-адреса и диапазоны IP-адресов](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    If you get a message that it couldn't be sent due to company policy, you need to double-check your [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
     
-3. Попросите Скайп для бизнес-контакта отправляет запрос на беседу. Если вы не получите свой запрос, проблема заключается в настройках брандмауэра (если они уже подтверждения правильности их параметры брандмауэра).
+3. Ask your Skype for Business contact to send you a request to chat. If you don't receive their request, the problem is your firewall settings (assuming they've already confirmed their firewall settings are correct).
     
-4. Другой способ проверки, является ли проблема брандмауэра — это расположение wifi не за брандмауэром, таких как кафе и использовать Скайп для бизнеса отправить запрос контакту чата. Если сообщение проходит через существует, но не в том случае, когда вы находитесь на работе, это значит, проблема является брандмауэра.
+4. Another way to test whether the problem is your firewall is to go to a wifi location not behind your firewall such as a coffee shop, and use Skype for Business to send a request to your contact to chat. If the message goes through there, but not when you're at work, then you know the problem is your firewall.
     
-## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>Как найти других пользователей и найти, при подключении через другой компании
+## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>How to find others, and be found, when connecting with another business
 <a name="bk_preview"> </a>
 
-После включения внешнего обмена данными с другими Скайп для бизнес-пользователи пользователям найти федеративных Скайп для бизнес-пользователей по ключевым словам их учетное имя: например, Rob@contoso.com. Затем необходимо добавить пользователя в свой список контактов.
+After you enable external communication with other Skype for Business users, your users can find federated Skype for Business users by searching for their sign-in name: for example, Rob@contoso.com. Then they will need to add the person to their list of contacts.
   
-![Для поиска пользователя в федеративных бизнеса, необходимо найти их адреса электронной почты (обычно это также их учетное имя).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
+![To find a user in a federated business, you must search for their email address (this is usually also their sign in name).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
-## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Советы по настройке связь с федеративными бизнеса
+## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Tips on setting up communications with federated businesses
 <a name="bk_preview"> </a>
 
-- Чтобы настроить федерацию между Скайп для бизнеса 2015 и Скайп для бизнеса в Интернет, обратитесь к разделу в этой статье TechNet: [Настройка федерации с Скайп для бизнеса в Интернет](https://technet.microsoft.com/en-us/library/jj205126.aspx).
+- To configure federation between Skype for Business 2015 and Skype for Business Online, see this TechNet article: [Configure federation with Skype for Business Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
     
-- Чтобы настроить федерации между Lync и Скайп для бизнеса в Интернет, обратитесь к разделу в этой статье TechNet: [Настройка поддержки федерации для клиента Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- To configure federation between Lync and Skype for Business Online, see this TechNet article: [Configuring Federation Support for a Lync Online Customer](https://technet.microsoft.com/en-us/library/hh202193.aspx).
     
-- Когда два Скайп для бизнес-пользователей в Office 365 обмениваются данными друг с другом в разных доменах, их можно использовать Скайп только для функции бизнес-(например, видеобеседы или рабочему столу), которые включены в обеих организациях.
+- When two Skype for Business users in Office 365 are communicating with each other on separate domains, they can only use Skype for Business features (for example, video conversations or desktop sharing) that are turned on in both organizations.
     
-- Если на месте или хранение для судебного разбирательства находится в состоянии Скайп для корпоративных пользователей в вашей организации, любой мгновенные сообщения от этого пользователя и другие Скайп для бизнеса или Скайп пользователей будут сохраняться **Восстанавливаемых элементов** в почтовом ящике. Эти беседы не сохраняются в папке **Журнала бесед** в почтовом ящике.
+- If a Skype for Business user in your organization is put on an In-Place or Litigation Hold, any IM conversations between that user and other Skype for Business or Skype users will be saved in **Recoverable Items** in their mailbox. These conversations aren't saved in the **Conversations History** folder in their mailbox.
     
-## <a name="turn-off-external-communication-for-specific-individuals"></a>Отключение внешнего обмена данными для определенных пользователей
+## <a name="turn-off-external-communication-for-specific-individuals"></a>Turn off external communication for specific individuals
 <a name="bk_preview"> </a>
 
-После включения внешнего обмена данными для всего предприятия, можно отключить его только определенным лицам.
+After you enable external communication for your entire business, you can turn it off for only specific individuals.
   
-1. Выполните вход с учетной записью администратора Office 365.
+1. Sign in with your Office 365 admin account.
     
-2. В центре администрирования Office 365 перейдите к **пользователям** > **Активные пользователи**.
+2. In the Office 365 admin center, go to **Users** > **Active users**.
     
-3. В список пользователей выберите пользователя и в разделе **Дополнительные параметры**, нажмите кнопку **Изменить Скайп для свойства Business**.
+3. In the list of users, choose the user, and then, under **More Settings**, click **Edit Skype for Business properties**.
     
-    ![Выберите Скайп для бизнеса](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
+    ![Choose Skype for Business](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
-4. В **Скайп по центру администрирования бизнеса**выберите **внешних коммуникаций**.
+4. In the **Skype for Business admin center**, choose **External communications**.
     
-    На странице " **Параметры** " будут выбраны все варианты. Снимите флажок коммуникаций, которые необходимо отключить. На следующем рисунке показана, что Джейкоба будет иметь возможность обмениваться данными с пользователями в других надежных бизнеса, но не с другими пользователями Скайп.
+    On the **Options** page, all of the choices will be selected. Clear the communications you want to disable. The following image shows that Jakob will be able to communicate with people in other trusted businesses, but not with other Skype users.
     
-    ![Выберите внешние контакты](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
+    ![Choose External contacts](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
 5. Нажмите кнопку **Сохранить**.
     
 > [!NOTE]
-> Может потребоваться ожидать в течение 24 часов, чтобы изменения вступили в силу. 
+> You may have to wait for up to 24 hours for your changes to take effect. 
   
 
 

@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Сведения о функцию вещания собрания Скайп Скайп для бизнеса в Интернет, который позволяет расписания, создавать и вещания собрания или события для крупных online аудиторий до 10 000 участников.
-ms.openlocfilehash: 62c1f1fea7042230210d123c6d7fb88ff839d6f4
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 6b581d7cb8c20b8d4b2794cc2f0f94d7d35a1dd1
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Настройка сети для вещания Скайп собрания
 
