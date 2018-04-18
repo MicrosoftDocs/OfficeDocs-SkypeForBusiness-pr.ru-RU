@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 03/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -19,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: None
 description: Ознакомьтесь с телефонной системой голосовой почты.
-ms.openlocfilehash: 280e4c4bf7f63ba9a1423b42e8c5d547ac22292c
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 9c7fc5fb882bed5bd54c9aad50ee327955095b41
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="0eef6-103">Параметры лицензии на основе плана</span><span class="sxs-lookup"><span data-stu-id="0eef6-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="30d45-103">Параметры лицензии на основе плана</span><span class="sxs-lookup"><span data-stu-id="30d45-103">License options based on your plan</span></span>
 
 

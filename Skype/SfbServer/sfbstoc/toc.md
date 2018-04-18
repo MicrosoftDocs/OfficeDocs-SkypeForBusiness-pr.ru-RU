@@ -518,6 +518,7 @@
 ### [Системы комнат Skype версии 2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
 #### [XML-файл конфигурации](../manage/skype-room-systems-v2/xml-config-file.md)
+#### [С помощью средства восстановления](../manage/skype-room-systems-v2/recovery-tool.md)
 ### [Учетные записи пользователей](../manage/user-accounts/user-accounts.md)
 #### [Настройка свойств](../manage/user-accounts/customize-properties.md)
 ### [Управление службами](../manage/manage-services.md)
