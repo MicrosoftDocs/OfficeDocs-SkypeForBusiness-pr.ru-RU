@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 04/02/2018
 ms.topic: article
 ms.assetid: d935a90d-ea61-433d-a820-b400ed9c1f5d
 ms.tgt.pltfrm: cloud
@@ -22,17 +21,17 @@ ms.custom:
 - Audio Conferencing
 - Strat_SB_PSTN
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: dcf0eb1c4dcbfc5de54303e7d55538d3fcd6c007
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 2ccb2b9a2b0a611d46056a8369dcb92d294c081f
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Назначение Майкрософт в качестве поставщика услуг аудиоконференций
 
-To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them. See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.
+Для использования конференц-связи звук в Office 365 с помощью Скайп для бизнеса и группами Майкрософт, пользователи в вашей организации должны иметь лицензию звук конференц-связи, назначенные им. Для получения дополнительных сведений о лицензировании и также сколько это стоит видеть [Попробуйте или Покупка Audio конференция в Office 365](try-or-purchase-audio-conferencing-in-office-365.md) .
 
-Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization. You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.
+Аудиоконференции Майкрософт предоставляет телефонные номера телефонов, контакты и конференции идентификаторы, которые могут использоваться с участников собрания на присоединение к собраниям вашей организации. Только необходимо назначить Microsoft в качестве поставщика аудиоконференций для тех, кто собирается расписание или привести Скайп для бизнеса или группами Майкрософт собраний.
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Назначение Майкрософт в качестве поставщика услуг аудиоконференций
 
@@ -40,14 +39,14 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
 
 1. Перейдите в раздел **Центр администрирования Office 365** > **Skype для бизнеса**.
     
-2. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**.
+2. В **Скайп по центру администрирования бизнеса**, в левой панели навигации перейдите к **аудиоконференции**.
     
-3. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
+3. Если вы видите заголовка о том, что существуют пользователи, имеющие **Аудиоконференций** лицензия назначена, но не имеют Microsoft задаются в виде их поставщика аудиоконференций, но при этом, нажмите кнопку **щелкните здесь, чтобы переместить их**. Если нужная баннера в **Скайп по центру администрирования Business** щелкните **Пользователи**и выберите фильтр **пользователей готово для перемещения к аудиоконференции** .
     
-4. On the properties page for the user, under **Provider name**, select **Microsoft** in the drop-down list.
+4. На странице "Свойства" для пользователя, в разделе **имя поставщика**выберите **Microsoft** в раскрывающемся списке.
     
     > [!NOTE]
-    > Because you are using Microsoft as the audio conferencing provider and there are multiple phone numbers, you can use the **Default toll number** drop-down list to select a default audio number for the user.
+    > Так как вы используете Microsoft в качестве поставщика аудиоконференций и существует несколько телефонных номеров, можно использовать раскрывающегося списка **номер счета по умолчанию** для выбора звукового номер по умолчанию для пользователя.
   
 5. Нажмите кнопку **Сохранить**.
     
@@ -59,7 +58,7 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
 > При смене поставщика на **Майкрософт** сведения об аудиоконференции (идентификатор конференции, платные и бесплатные телефонные номера) будут изменены. Сохраните эти данные перед сменой поставщика. 
 
   
-To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet.
+Чтобы изменить поставщик в корпорацию Майкрософт для небольшого числа пользователей, можно использовать командлет [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) .
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>Применение сценария Windows PowerShell для большого количества пользователей
@@ -67,7 +66,7 @@ To change the provider to Microsoft for a small number of users, you can use the
 
 При смене поставщика на **Майкрософт** сведения об аудиоконференции (идентификатор конференции, платные и бесплатные телефонные номера) будут изменены. Сохраните эти данные перед сменой поставщика. 
   
-You can save the following script as a PowerShell script file and then run it using any of its input parameters.
+Можно сохранить приведенный ниже сценарий как файл сценария PowerShell и запустите его с помощью любого из его входные параметры.
 
 **Пример 1.** Чтобы выполнить этот сценарий, сформируйте список пользователей, которых нужно обновить.
    
@@ -83,13 +82,13 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**Example 3:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.
+**В примере 3:** В этом примере использовании этот сценарий для поставщика аудиоконференций из Intercall (или другого поставщика) в **корпорацию Майкрософт** для большое число пользователей в вашей организации.
     
   ```
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
-  Here is the script:
+  Здесь приведен сценарий.
 
   ```
   <#
@@ -189,6 +188,6 @@ Script.ps1 -CsvFile <Path of the csv file>
 Дополнительные сведения об использовании Windows PowerShell см. в статье [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038).
   
 ## <a name="related-topics"></a>See also
-[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-[Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[Попробуйте или Покупка Audio конференция в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Настройка Скайп для бизнеса в Интернет](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
