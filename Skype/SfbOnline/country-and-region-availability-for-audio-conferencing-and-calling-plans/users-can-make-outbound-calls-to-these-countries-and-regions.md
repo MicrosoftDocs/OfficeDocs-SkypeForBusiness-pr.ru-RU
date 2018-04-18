@@ -1,10 +1,9 @@
 ---
-title: Пользователи могут выполнять исходящие вызовы для этих стран и регионов
+title: Users can make outbound calls to these countries and regions
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
@@ -20,16 +19,16 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Этот раздел содержит все страны или регионы, которые пользователи можно установить исходящие вызовы, если у них есть вызов планирование.
-ms.openlocfilehash: 9cac97144bec681773eca2811751525e0c2950d5
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: This topic contains all of the countries/regions that users can place outbound calls to if they have a Calling Plan.
+ms.openlocfilehash: bd8ce62b5f1d5c8b032503a045e40c72bbe5d00b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Пользователи могут выполнять исходящие вызовы для этих стран и регионов
+# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Users can make outbound calls to these countries and regions
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>Какие пользователи стран или регионов можно выполнять исходящие звонки на, если у пользователя есть внутренний или внутренних и международных звонков планирование лицензии
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>See what countries/regions users can make outbound calls to if the user has a Domestic or Domestic and International Calling Plan license
 
 
 |**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
@@ -62,7 +61,7 @@ ms.lasthandoff: 04/03/2018
 |Босния и Герцеговина |Гаити ||Новая Зеландия |Южная Африка | 
 |Ботсвана |Гондурас ||Никарагуа |Испания |
 |Bazil |Гонконг ||Нигер |Sri Lanka | 
-|Даруссалам Bunei |Венгрия ||Нигерия |Сен-Пьер и Миклеон | 
+|Bunei Darussalam |Венгрия ||Нигерия |Сен-Пьер и Миклеон | 
 |Болгария |||Северные Марианские острова |Судан |
 |Буркина-Фасо |||Норвегия |Суринам |
 |Камбоджа |||Оман |Свазиленд | 

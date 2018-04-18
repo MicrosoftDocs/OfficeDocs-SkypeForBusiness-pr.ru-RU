@@ -1,10 +1,9 @@
 ---
-title: "Управление номерами телефонов организации"
+title: Управление номерами телефонов организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 03/19/2018
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -23,12 +22,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Для каждой страны или региона существуют свои инструкцииУказания по получению номеров телефоновных номеровдля пользователей в Skype для бизнеса  Online и Microsoft  Teams отличаются в зависимости от страны или региона. Воспользуйтесь ссылкой на вашу страну или регион для получения необходимой информации."
-ms.openlocfilehash: 01c6f3bbb01d74d021594612561d035163378ba5
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: Для каждой страны или региона существуют свои инструкцииУказания по получению номеров телефоновных номеровдля пользователей в Skype для бизнеса  Online и Microsoft  Teams отличаются в зависимости от страны или региона. Воспользуйтесь ссылкой на вашу страну или регион для получения необходимой информации.
+ms.openlocfilehash: 1a1c2a0efafa2edc9e3bae2eff812edadfca1d87
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Управление номерами телефонов организации
 Существует три способа получить пользователей и службы (международную и бесплатных) номеров для вашей организации.

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 91f2d947-45fc-4fab-bd8b-2e313531c477
 ms.tgt.pltfrm: cloud
@@ -22,25 +21,25 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 6609a0393e2b0f641f843b917f8b14a079aeb923
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: a2eab7b314b02c288367a45b68b8c364acefd1eb
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Телефоны, поддерживаемые в Skype для бизнеса Online
 
 [] Skype для бизнеса Online квалифицирует и поддерживает стационарные телефоны для пользователей, которым требуется привычный способ телефонной связи через приложение Skype для бизнеса. В этом разделе описываются версии телефонов и встроенного ПО, которые поддерживаются приложением Skype для бизнеса Online, а также приводятся другие рекомендации по настройке телефонов в вашей организации.
   
-To get the latest updates and most up-to-date information on supported devices, see the [Skype for Business Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+Чтобы получить последние обновления и большинство предоставляются самые последние сведения о поддерживаемых устройств, обратитесь к разделу [Скайп для каталога бизнес-устройства](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 ## <a name="supported-phones"></a>Поддерживаемые телефоны
 
-For Skype for Business Online users, you can choose from several models within the *Certified for Skype for Business Phones*  and phones running Lync Phone Edition (LPE) listed under the Skype for Business Online category in the [Skype for Business Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+Для Скайп для бизнеса в Интернет пользователей можно выбрать несколько моделей в рамках *сертифицированных для Скайп для рабочих телефонов* и телефоны с Lync Phone Edition (LPE) в списке Скайп для бизнеса в Интернет категории в [Скайп для бизнеса устройства Каталог](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 Майкрософт является партнером и тесно сотрудничает с компаниями Polycom, Yealink и AudioCodes по вопросам разработки и сертификации широкого спектра устройств в рамках партнерской программы IP-телефонии (PIP) для телефонных систем в Office 365 и Skype для бизнеса Server.
   
-When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. Выбирая телефоны с нужным кодом, вы получаете устройства с заранее установленной соответствующей версией Skype для бизнеса Online.
+При заказе новых телефонов для Скайп для бизнеса, важно приобрести телефонов с *правом продукта идентификатор*. Выбирая телефоны с нужным кодом, вы получаете устройства с заранее установленной соответствующей версией Skype для бизнеса Online.
   
 |||
 |:-----|:-----|
@@ -51,7 +50,7 @@ When ordering new phones for Skype for Business, it is important to buy phones w
    
 Дополнительные сведения о телефонах Polycom см. в разделе [Решения голосовой связи для Майкрософт](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
   
-Дополнительные сведения о телефонах Yealink см. в разделе [IP-телефоны для Skype для бизнеса](http://www.yealink.com/products_list_10.html#filter2)
+Для получения дополнительных сведений о Yealink телефоны видеть [Скайп для бизнеса IP-телефонов](http://www.yealink.com/products_list_10.html#filter2).
   
 Дополнительные сведения о телефонах AudioCodes см. в разделе [IP-телефоны для Skype для бизнеса](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
@@ -88,7 +87,7 @@ Skype для бизнеса Online не требует наличия допол
 |**Функция** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |Вход с помощью учетных данных пользователя  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
 |Вход через компьютер (сопряжение), только для Windows  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Вход через веб-интерфейс  <br/>  <br/> **Note:** Check the supportability matrix in deployment guide.           |Да  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
+|Вход через веб-интерфейс  <br/>  <br/> **Примечание:** Установите флажок Таблица поддержки в руководстве по развертыванию.           |Да  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
 |Присоединение к собранию одним щелчком  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |Набор номера одним нажатием кнопки (сопряжение)  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |Элементы управления собранием  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
@@ -97,10 +96,10 @@ Skype для бизнеса Online не требует наличия допол
 |Обновление устройства  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |Автоматическое предоставление данных голосовой почты  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |Качество взаимодействия  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
-|Загрузка журнала  <br/> <br/> **Note:** Currently, all logs are uploaded to the Microsoft Support team only; customer access to phone logs aren't yet available.           |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
+|Загрузка журнала  <br/> <br/> **Примечание:** В настоящее время все журналы выгружаются в группу поддержки корпорации Майкрософт. доступа клиентов к журналы звонков еще недоступны.           |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |Современная проверка подлинности  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
 |Несколько номеров экстренных служб  <br/> |Да  <br/> |Нет  <br/> |Нет  <br/> |Да  <br/> |
-|Интеграция с календарем Exchange *  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> <br/> **Note:** Requires PC tethering           |
+|Интеграция с календарем Exchange *  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> <br/> **Примечание:** Требует tethering ПК           |
 |Интеграция оповещения о присутствии  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |Каталог организации  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |Делегирование  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |

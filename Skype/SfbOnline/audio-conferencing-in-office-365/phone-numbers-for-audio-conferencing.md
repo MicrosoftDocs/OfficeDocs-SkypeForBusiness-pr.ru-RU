@@ -1,10 +1,9 @@
 ---
-title: Phone numbers for Audio Conferencing
+title: Номера телефонов для аудиоконференции
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
@@ -23,66 +22,66 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned.
-ms.openlocfilehash: 9b1fca6a576a9de77e74bcab8df740b5106cf5bc
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: efd0d438f47521cb4c5027e5d9ca51712fa3a68d
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="phone-numbers-for-audio-conferencing"></a>Phone numbers for Audio Conferencing
+# <a name="phone-numbers-for-audio-conferencing"></a>Номера телефонов для аудиоконференции
 
-When you are setting up **Audio Conferencing** for Skype for Business and Microsoft Teams, dial-in phone numbers are automatically assigned to your organization. You can see the phone numbers that are assigned to your audio conferencing bridge by going to the **Skype for Business admin center** > **Audio conferencing** > **Microsoft bridge**. See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers.md).
+При установке **Аудио конференц-связи** для Скайп для бизнеса и группами Майкрософт, телефонные номера телефонов автоматически назначаются вашей организации. Можно просмотреть номера телефонов, назначенные звукового конференц-канала, перейдя на **Скайп по центру администрирования Business** > **аудиоконференции** > **мост Microsoft**. В разделе [список номеров звук конференц-связи](see-a-list-of-audio-conferencing-numbers.md).
   
 > [!NOTE]
-> Не существует никакого ресурса, который содержит список всех номеров для аудиоконференций с подключением по телефону. If you want to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Для фильтрации поиска воспользуйтесь списками **Страна или регион**, **Область** и **Город**. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
+> Не существует никакого ресурса, который содержит список всех номеров для аудиоконференций с подключением по телефону. Если вы хотите узнать, если существует телефонные номера телефонов в области или страны или региона, используйте **Скайп по центру администрирования Business** > **голосовой связи** > **Телефонных номеров**, нажмите кнопку **Добавить**и нажмите кнопку **новую службу Номера**. Для фильтрации поиска воспользуйтесь списками **Страна или регион**, **Область** и **Город**. Кроме того, если вы ищете службы бесплатных номеров, выберите **бесплатный номер** из **состояние и область** списка.
   
-## <a name="audio-conferencing-coverage-and-pricing"></a>Audio Conferencing coverage and pricing
+## <a name="audio-conferencing-coverage-and-pricing"></a>Аудио покрытия конференц-связи и цены
 
-For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing information, see 
+Полный список всех стран или регионов и городов, где доступен звук конференц-связи в разделе [странах и область доступности для конференц-связи аудио и вызов планов](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Сведения о ценах, в разделе 
   
 [Тарифы на аудиоконференции](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Телефонные номера для подключения в приглашении на собрание
 
-When a Skype for Business Online or Microsoft Teams user schedules a meeting in Outlook or Outlook Web App, the default audio conferencing number that is set for the user is included in the meeting invite. If you want to select a different default number for one or more users, you can change that by going to the **Skype for Business admin center** > **Audio conferencing** > **Users**. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
+При Скайп для бизнеса в Интернет или группами Майкрософт пользователь планирует собрание в Outlook или Outlook Web App, номер конференции по умолчанию, заданное для пользователя включена в приглашении на собрание. Если вы хотите выберите номер по умолчанию для одного или нескольких пользователей, можно изменить, последовательно выбрав пункты **Скайп по центру администрирования Business** > **аудиоконференции** > **пользователей**. В разделе [Задайте телефона, номера, находящимся на приглашает](set-the-phone-numbers-included-on-invites.md).
   
 Чтобы просмотреть другие номера для подключения, перейдите по ссылке **Найти местный номер** в приглашении на собрание.
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Dial-in phone numbers set on an audio conferencing bridge
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Телефонных номеров телефонов на звукового конференц-канала
 
-There are two types of audio conferencing phone numbers that can be assigned to your conferencing bridge: **Shared** and **Dedicated**. Both types of these numbers can be used by any caller to join audio meetings that are being held in your organization.
+Существует два типа аудиоконференций телефонных номеров, который может быть назначен конференц-канал: **Shared** и **выделенными**. Обоих типов эти номера можно использовать любой вызывающим для присоединения к звуковой собрания, которые хранятся в вашей организации.
   
  **Выделенные телефонные номера**  это номера, доступные только для пользователей внутри организации. Вы можете изменить языки, которые используются при звонках на эти номера.
   
  **Общедоступные телефонные номера**  это номера, доступ к которым можно предоставлять другим организациям Office 365. Изменить языки, которые используются при звонках на эти номера, нельзя.
   
-While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. Список номеров, которые можно использовать для подключения к собранию, открывается при переходе по ссылке **Найти местный номер**, которая включена во все приглашения.
+Хотя номер конференции по умолчанию, назначенная инициатора включены только в приглашении на собрание, вызывающего можно использовать любой из телефонных номеров, назначенные конференц-канал, чтобы присоединиться к собранию. Список номеров, которые можно использовать для подключения к собранию, открывается при переходе по ссылке **Найти местный номер**, которая включена во все приглашения.
   
-## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Automatically assigned audio conferencing phone numbers
+## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Автоматически назначаются аудиоконференций телефонных номеров
 
-Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. Полученные номера телефонов назначаются мосту аудиоконференции в качестве номеров по умолчанию. Номер телефона, назначенный по умолчанию мосту, должен соответствовать стране или региону нахождения организации.
+Общие аудиоконференций телефона, номера автоматически назначаются организаций при их в случае включена поддержка аудиоконференций. Полученные номера телефонов назначаются мосту аудиоконференции в качестве номеров по умолчанию. Номер телефона, назначенный по умолчанию мосту, должен соответствовать стране или региону нахождения организации.
   
 > [!NOTE]
-> The country or region location of your organization can be found by signing in to the **Office 365 admin center** and looking under **Organization Profile**. 
+> Страна или регион местонахождение вашей организации можно найти, вход в **Центр администрирования Office 365** и посмотрев под **Профиля организации**. 
   
 > [!CAUTION]
-> Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Бесплатные номера доступны для этих стран независимо от существующих ограничений. 
+> Из-за ограниченной доступностью международную телефонных номеров в Венесуэла, Индонезия и Объединенные Арабские Эмираты (ОАЭ) организаций из этих стран или регионов не будут иметь автоматически назначенные им номер международную звук конференц-связи. Бесплатные номера доступны для этих стран независимо от существующих ограничений. 
   
-Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+Выделенные аудиоконференций номера телефонов, номера службы, который можно получить и назначьте для вашей организации. Служба номера можно найти с помощью **Скайп по центру администрирования бизнеса**. Дополнительные сведения см [Приступая к службе номера телефонов для Скайп для бизнеса и группами Майкрософт](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
-To see a list of those countries/regions that have phone numbers automatically assigned to organizations, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Список этих страны или регионы, имеющие номера телефонов, автоматически назначается для организаций, см [страны и региона доступности для конференц-связи аудио и вызов планов](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="what-else-should-you-know"></a>Дополнительные сведения
 
-- To see the list of supported languages for audio conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).
+- Чтобы просмотреть список поддерживаемых языков для аудиоконференций, см [аудиоконференций](audio-conferencing-supported-languages.md).
     
-- You can use the [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) cmdlet to see the dedicated phone numbers for audio conferencing for you organization.
+- Командлет [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) видеть выделенные номера телефонов для аудиоконференции для ваша организация.
     
 - Можно использовать командлет [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684), чтобы просмотреть список языков, поддерживаемых в выделенных телефонных номерах для конференц-связи с подключением.
     
-- You can set up to 4 languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
+- Можно задать до 4 языков для каждого номера телефона, аудиоконференций - основной и дополнительный три. А также можно настроить языков на выделенном аудиоконференций номер телефона.
     
-- To set the dial-in phone number for a user, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
+- [Задайте телефона, приглашает номера, находящимся на](set-the-phone-numbers-included-on-invites.md)телефонные номера для пользователя, см.
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    

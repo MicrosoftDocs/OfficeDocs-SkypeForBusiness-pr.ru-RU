@@ -1,10 +1,9 @@
 ---
-title: Setting up Phone System in your organization
+title: Настройка телефонной системы в вашей организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 02/28/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -18,63 +17,63 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: 'Learn how to set up Phone System (Cloud PBX) for your organization. '
-ms.openlocfilehash: a9715797284f08c3d7f2ecbf3ba45a9269a5e0e0
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: 'Узнайте, как настроить телефонной системой (облако УАТС) для вашей организации. '
+ms.openlocfilehash: 95fed9f26cefddce80de5c8f12a0e18d7368d1f4
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="setting-up-phone-system-in-your-organization"></a>Setting up Phone System in your organization
+# <a name="setting-up-phone-system-in-your-organization"></a>Настройка телефонной системы в вашей организации
 
-The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.  
+Ниже приводится пошаговое руководство по настройке телефонной системой в Office 365. Ссылки на дополнительные подробные сведения, доступные в конце каждого этапа.  
 
-## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>Step 1: Make sure that Phone System is available in your country or region
+## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>Шаг 1: Убедитесь, что система телефона будет доступна в вашей стране или регионе
 
-1.  First go to [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md), and select your country or region from the list at the top of the page. 
-2.  Under **Phone System**, review the list of features and details. 
-3.  If Phone System is available, go to step 2. 
+1.  Сначала перейти к [страны и региона для конференц-связи аудио и вызов планы](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)и выберите страны или региона из списка в верхней части страницы. 
+2.  В разделе **Телефонной системой**просмотрите список функций и подробные сведения. 
+3.  Если телефонной системой, перейдите к шагу 2. 
 
-**To learn more about regional availability of Phone System and Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).**
+**Для получения дополнительных сведений о доступности региональных телефонной системой и звук конференц-связи, просмотрите [страны и региона доступности для конференц-связи аудио и вызов планов](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).**
 
-## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Step 2: Buy and assign Phone System and Calling Plan licenses
+## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Шаг 2: Купить и назначение лицензий телефонной системой и вызов планирование
 
-To assign a Phone System and Calling Plan license to a single user the steps are the same as assigning an Office 365 license. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). If you want to assign multiple users in bulk, see (../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+Чтобы назначить телефонной системой и вызов планирование лицензии отдельному пользователю действия такие же, как назначение лицензии Office 365. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Если вы хотите назначить несколько пользователей в пакетном режиме, см (.. / skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
-## <a name="step-3-get-phone-numbers-for-your-users"></a>Step 3: Get phone numbers for your users
+## <a name="step-3-get-phone-numbers-for-your-users"></a>Шаг 3: Получение номера телефонов для пользователей
 
 [] Прежде чем настраивать возможности совершения и получения телефонных звонков для пользователей в организации, необходимо получить для них номера телефонов. 
 
-You have three ways of getting numbers for your users: 
-- Get new numbers using the Skype for Business admin center.
-- Get new numbers that aren't available in the Skype for Business admin center.
+У вас есть три способа получения номера для пользователей: 
+- Получение нового номера, с помощью Скайп по центру администрирования бизнес.
+- Получение нового номера, не доступны в Скайп по центру администрирования бизнеса.
 - Перенести или передать существующие номера от вашего текущего поставщика услуг или оператора телефонной связи в Office 365.
 
-Необходимо воспользоваться страницей **Добавление новых пользовательских номеров** для просмотра, поиска, получения и резервирования этих номеров. You can search by Country/Region, State, and City, and then enter the number of phone numbers you will need for your users. 
+Необходимо воспользоваться страницей **Добавление новых пользовательских номеров** для просмотра, поиска, получения и резервирования этих номеров. Поиск по страны или региона, состояние и Город и затем введите количество телефонных номеров, необходимых для пользователей. 
 
-### <a name="get-new-user-phone-numbers"></a>Get new user phone numbers 
+### <a name="get-new-user-phone-numbers"></a>Получение нового пользователя телефонных номеров 
   
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
-3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![Add button](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
+3. В левой панели навигации выберите пункты **голосовой связи** > **телефонных номеров**, нажмите кнопку **Добавить новый номер** ![кнопку Добавить](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)и нажмите кнопку **новый количество пользователей**.
     
-### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Get new numbers that aren't available in the Skype for Business admin center
+### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Получение нового номера, не доступны в Скайп по центру администрирования бизнеса
   
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new user numbers.   
+В некоторых случаях (в зависимости от страны или региона) будет приобретать номерам новый с помощью Скайп по центру администрирования бизнеса. В этом случае необходимо загрузить формы и отправьте его в "мне нравится". В разделе [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , узнайте, как запросить новый количество пользователей.   
   
-### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Port or transfer phone numbers from your service provider or phone carrier
+### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Порт или передачи номера телефонов от поставщика услуг или телефон поставщика
   
-- Если требуется 999 и менее телефонных номеров, можно использовать мастер **Заказ на перенос нового номера** в центре администрирования Skype для бизнеса. Follow the steps found in [Transfer phone numbers to Office 365](..//what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) to transfer your phone numbers over to Skype for Business Online.
+- Если требуется 999 и менее телефонных номеров, можно использовать мастер **Заказ на перенос нового номера** в центре администрирования Skype для бизнеса. Выполните шаги, описанные в [передачи телефонных номеров в Office 365](..//what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) для передачи номера телефонов через Скайп для бизнеса в Интернет.
     
-- If you need to port more than 999 phone numbers, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to submit a port order service request or order to get all of these phone numbers ported over to Office 365. 
+- Должны быть перенесены более 999 телефонных номеров в статье [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) для отправки запроса на обслуживание порядке порта или порядке, чтобы получить все эти номера телефонов, перенесены на Office 365. 
 
-**For detailed information about getting new phone numbers or transferring existing numbers, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md).**
+**Подробные сведения о получении нового номера телефонов или перенос существующих номеров содержатся в разделе [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md).**
 
-## <a name="step-4-get-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Step 4: Get service phone numbers (audio conferencing, call queues, auto attendants)
+## <a name="step-4-get-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Шаг 4: Get телефонных номеров (аудиоконференций, очереди вызовов, автосекретари)
 
-In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Номера телефонов служб позволяют обслуживать большее число одновременных звонков по сравнению с абонентскими номерами. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
+В дополнение к началу номера телефонов для пользователей с Office 365, можно поиск и получить бесплатный или бесплатные номера телефонов для службы, такие как аудиоконференций (для мостов конференции), автосекретари и очереди вызовов (также называемая номеров службы). Номера телефонов служб позволяют обслуживать большее число одновременных звонков по сравнению с абонентскими номерами. Например номер службы может обрабатывать сотен звонков одновременно, в то время как номер телефона пользователя может обрабатывать только несколько звонков одновременно.
 
 ### <a name="get-new-service-numbers"></a>Получение новых номеров служб
 
@@ -82,26 +81,26 @@ In addition to getting phone numbers for your users from Office 365, you can sea
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
-3. In the left navigation go to **Voice** > **Phone numbers** > **Add new number**, and then click **New service numbers**.
+3. В левой панели навигации выберите пункты **голосовой связи** > **номера телефонов** > **Добавить новый номер**и нажмите кнопку **новый номеров службы**.
     
     > [!IMPORTANT] 
-    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .
     
-### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Get new numbers that aren't available in the Skype for Business admin center
+### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Получение нового номера, не доступны в Скайп по центру администрирования бизнеса
   
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new numbers. 
+В некоторых случаях (в зависимости от страны или региона) будет приобретать номерам новый с помощью Скайп по центру администрирования бизнеса. В этом случае необходимо загрузить формы и отправьте его в "мне нравится". В разделе [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , узнайте, как для запроса нового номера. 
 
 ### <a name="port-or-transfer-existing-service-numbers"></a>Перенос существующих номеров служб
 
-If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You have to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, please make sure you specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Перенос номеров службы из текущего поставщика услуг или поставщика, необходимо вручную отправлять номеру порта в корпорацию Майкрософт. Необходимо отправить заказы отдельный порт для каждого типа службы номер (звонок и бесплатных), что можно будет передавать с помощью буква авторизации (ЗАГРУ). В письма из авторизации (ЗАГРУ), необходимо выбрать правильный тип номера службы. При обращении службы поддержки Майкрософт, чтобы убедиться, что указать, что выполняется перемещение номер службы (*и не является числом пользователей или подписчика*) или одновременных вызовов емкости не может быть достаточно для обработки звонков. Необходимо перенести телефонных номеров или выполните другие действия с телефонных номеров в статье [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>Step 5: If you want to set up Calling Plans
+## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>Шаг 5: Если вы хотите настроить вызов планы
 
-If you have been following the steps above, you have already bought and assigned Phone System and licenses and a Calling Plan (step 2) and acquired phone numbers for your users (step 3), so your calling plan is partially set up. Follow the three procedures below to complete the setup of your Calling Plan.
+Если следующие шаги, вы уже купили и назначенные телефонной системой и лицензий и вызов плана (шаг 2) и приобретенного раздела номера телефонов для пользователей (шаг 3), так что вызывающий план частично настраивается. Выполните три процедуры, приведенные ниже, чтобы завершить настройку вашего вызов плана.
 
-### <a name="add-emergency-addresses-and-locations-for-your-organization"></a>Add emergency addresses and locations for your organization
+### <a name="add-emergency-addresses-and-locations-for-your-organization"></a>Добавление экстренных адресов и расположения для вашей организации
 
-1. On the **Voice** page, choose **Emergency locations** > **Add new address**.
+1. На странице **голосовой связи** выберите **расположения аварийного** > **Добавить новый адрес**.
     
 2. Укажите адрес в поле **Новый адрес** и заполните остальные поля.
     
@@ -115,7 +114,7 @@ If you have been following the steps above, you have already bought and assigned
     При необходимости внесите изменения в адрес. 
     
     > [!CAUTION]
-    > На этом этапе проверяется правильность и формат указанного городского адреса или адреса с указанием улицы и здания. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Даже в таком случае сочетание названия города и правильно указанного почтового адреса позволяет диспетчеру направить службы экстренного реагирования по нужному адресу. 
+    > На этом этапе проверяется правильность и формат указанного городского адреса или адреса с указанием улицы и здания. Существует возможность, что частично правильный адрес emergency, такие как если бы вы ввели название города, может по-прежнему пройти проверку. Даже в таком случае сочетание названия города и правильно указанного почтового адреса позволяет диспетчеру направить службы экстренного реагирования по нужному адресу. 
   
     > [!TIP]
     > Если адрес для экстренного реагирования исправлен, отобразится зеленый баннер, уведомляющий о том, что адрес был обновлен. 
@@ -127,16 +126,16 @@ If you have been following the steps above, you have already bought and assigned
 > [!TIP]
 > Если перед выполнением этого шага вы добавили несколько новых пользователей, обратите внимание, что они могут появиться на странице **Пользователи голосовой связи** только спустя **несколько часов**. Это связано с определенной задержкой.
   
-1. On the **Voice users** page, select the people who you want to assign a phone number and emergency address to.
+1. На странице **пользователям голосовой связи** выберите пользователей, которые необходимо назначить номер телефона и экстренных адрес.
     
-2. In the Action pane, click **Assign number**.
+2. В области действий щелкните **Назначение номер**.
     
-3. On the **Assign number** page, in the **Select number to assign** list, select the phone number for the user.
+3. На странице **Назначение номера** в списке **выберите номер, чтобы назначить** выберите номер телефона для пользователя.
     
-4. To select an emergency address, enter name of the city in the box and choose **Search**.
+4. Чтобы выбрать экстренных адрес, введите название города, в поле и нажмите **Поиск**.
     
     > [!IMPORTANT]
-    > If you are outside the United States, your numbers already have an emergency address, but you can change it now. See [Assign or change an emergency address for a user](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md). 
+    > Если вы находитесь за пределами США, номерам уже есть экстренные адрес, но можно изменить теперь. В разделе [Назначение или изменение экстренных адреса для пользователя](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md). 
   
 5. После назначения номера телефона и адреса для обращения в экстренных случаях нажмите **Сохранить**.
     
@@ -157,35 +156,35 @@ If you have been following the steps above, you have already bought and assigned
     
     ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](../images/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
-В **Группами Майкрософт**пользователи могут видеть телефонный номер, щелкнув **звонки** в левой панели навигации. The phone number is shown above the dial pad.
+В **Группами Майкрософт**пользователи могут видеть телефонный номер, щелкнув **звонки** в левой панели навигации. Номер телефона отображается над панель набора номера.
 
-![A user can see their number in Microsoft Teams by clicking Calls in the left navigation.](../images/teams-phone-number.png)
+![Позволяют пользователям просматривать их число группами Майкрософт, щелкнув звонки в левой панели навигации.](../images/teams-phone-number.png)
 
-**For more detailed information about all of the steps involved in setting up a Calling Plan, see [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).**
+**Более подробные сведения обо всех действий, необходимых для настройки вызова планирование см [вызов планов](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).**
 
 
-## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>Step 6: If you want to set up Audio Conferencing
+## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>Шаг 6: Если вы хотите настроить аудиоконференции
 
 В некоторых случаях пользователям в организации требуется телефон, чтобы присоединиться к собранию. Скайп для бизнеса и группами Майкрософт включить функцию аудиоконференций для только что этой ситуации! Люди могут вызывать в Скайп для бизнеса или группами Майкрософт собраний с помощью телефона, вместо использования Скайп для бизнеса или группами Майкрософт приложения на мобильном устройстве или Компьютере. 
   
-You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
+Необходимо настроить звук конференц-связи для пользователей, которые планируется расписание или привести собрания. Участники собрания присоединяются к не требуется никаких лицензий на их или другие программы установки.
   
-For frequently asked questions about Audio Conferencing, see [Audio Conferencing common questions](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md).
+Часто задаваемые вопросы о конференц-связи звук в разделе [распространенные вопросы аудио конференц-связи](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md).
     
-1. If you purchased **Audio Conferencing** add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+1. Если вы приобрели лицензии дополнительный компонент **Звук конференц-связи** и коммуникаций кредитов лицензии, назначьте их слишком. Сведения содержатся в разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
-    Decide on your audio conferencing provider. An audio conferencing provider supplies an audio conferencing bridge. The conferencing bridge sets your dial-in phone numbers, PINs, and conference IDs for meetings. Decide whether to use Microsoft or a third-party audio conferencing provider: 
+    Выберите поставщика аудиоконференций. Поставщика аудиоконференций предоставляет звукового конференц-канала. Мост конференц-связи задает телефонные номера телефонов, контакты и конференции идентификаторы для собраний. Принятие решения об использовании Майкрософт или стороннего поставщика: 
 
     > [!NOTE]
-    > Microsoft Teams users can't user a third-party audio conferencing provider. 
+    > Группами Майкрософт пользователи не могут пользовательского поставщика аудиоконференций сторонних производителей. 
   
-    - **Microsoft as your audio conferencing provider**: If you want the easiest solution for audio conferencing, choose Microsoft as your audio conferencing provider.
+    - **Microsoft в качестве поставщика аудиоконференций**: простой решение для аудиоконференций, выберите Microsoft в качестве поставщика аудиоконференций.
     
-    - **Third party as your audio conferencing provider**: If you are in a country where Audio Conferencing in Office 365 isn't available, the service quality isn't great because of its location, or you have an existing contract, choose a third-party audio conferencing provider. To find a provider, go to [Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530).
+    - **Третья сторона в качестве поставщика аудиоконференций**: Если вы находитесь в стране, где аудиоконференций в Office 365 недоступен, качество службы не будет замечательных из-за его местоположение или у вас есть существующий контракт, выберите звук сторонних производителей Поставщик конференц-связи. Чтобы найти поставщика, перейдите к [Microsoft точно указать](http://go.microsoft.com/fwlink/?LinkId=797530).
  
-2.  Assign the audio conferencing provider to people who lead or schedule meetings. See [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
+2.  Назначение поставщика аудиоконференций людям, которые привести или планировать собрания. В разделе [Назначение Microsoft в качестве поставщика аудиоконференций](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
 
-3. Set up meeting invitations. The following steps are optional, but a lot of admins like to do them: 
+3. Настройка приглашения на собрания. Следующие шаги являются необязательными, однако их следует выполнять как много администраторов: 
   
     1. [Настройка приглашения на собрания](../set-up-skype-for-business-online/customize-meeting-invitations.md). Номеру телефона, задайте для пользователя будет автоматически добавляется в приглашения на собрания, отправляемые участникам. Тем не менее можно добавить свои собственные справки и юридических ссылок, текстовое сообщение и рисунок небольшого предприятия.
     

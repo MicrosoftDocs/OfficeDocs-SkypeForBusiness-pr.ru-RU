@@ -1,10 +1,9 @@
 ---
-title: Отчета об активности Peer-to-peer
+title: Peer-to-peer activity report
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: d3b2d569-4ee9-44b8-92bf-d518142f0713
 ms.tgt.pltfrm: cloud
@@ -21,30 +20,30 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: d78161a49afdd8d5021d6d8df10bdca717100fc9
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: ad2e9745d68a3c47e60aa03f957054a1eeef1deb
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="peer-to-peer-activity-report"></a>Отчета об активности Peer-to-peer
+# <a name="peer-to-peer-activity-report"></a>Peer-to-peer activity report
 
-Office 365 **отчеты** панели мониторинга показывает обзор активности для продуктов Office 365 в вашей организации. Он позволяет работать отдельных продуктов уровня отчетами, чтобы предоставить более детальные сведения о действия в рамках каждого продукта. Например можно использовать **Скайп для бизнес - одноранговом данными** отчета видеть, сколько пользователей с помощью обмена мгновенными Сообщениями, аудио, видео, приложения общего доступа и передачу файлов. 
+The new Office 365 **Reports** dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business peer-to-peer activity** report to see how much your users are using IM, audio, video, application sharing, and transferring files. 
 
-Изучите [Общие сведения об отчетах](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
-Этот отчет, а также другие Скайп для бизнес-отчетов предоставляет подробные сведения об активности внутри организации. Эти сведения полезны при анализе, планировании и принятии других решений на уровне организации. 
+This report, along with the other Skype for Business reports, gives you details on activity across your organization. Эти сведения полезны при анализе, планировании и принятии других решений на уровне организации. 
   
 > [!NOTE]
 > Вы можете просмотреть все отчеты Skype для бизнеса, если войдете в Центр администрирования Office 365 в качестве администратора. 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Получение отчета об одноранговых сеансах в Skype для бизнеса
 
-1. Перейдите в **Центр администрирования Office 365** > **отчетов** > **об использовании**.
+1. Go to the **Office 365 admin center** > **Reports** > **Usage**.
     
-2. На странице **Использование** щелкните **Скайп для бизнес - одноранговом данными** на **Выберите список отчетов** в левой части. Или, нажмите кнопку **Скайп для деловых операций** мини-приложения и нажмите кнопку **Скайп для бизнес - одноранговой активности** в списке **Скайп для деловых операций** .
+2. On the **Usage** page, click **Skype for Business peer-to-peer activity** on the **Select a report list** on the left. Or, click the **Skype for Business activity** widget and then click **Skype for Business peer-to-peer activity** on the **Skype for Business activity** list.
     
-     ![Скайп одноранговые меню](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
+     ![Skype peer to peer menu selected](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
   
     > [!IMPORTANT]
     > Для некоторых подписок на Office 365 могут быть доступны не все продукты и отчеты об активности, показанные в этой статье. 
@@ -53,34 +52,34 @@ Office 365 **отчеты** панели мониторинга показыва
 
 Чтобы получить представление об одноранговых сеансах в Skype для бизнеса, просмотрите диаграммы **Действие**, **Пользователи** и **Минуты**.
   
-![Отчет по одноранговой Скайп с выносками.](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
+![Skype peer to peer report with callouts.](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
   
 ***
-![Номер 1](../images/sfbcallout1.png)<br/>В отчете **Одноранговые сеансы в Skype для бизнеса** можно отследить тенденции за последние 7, 30, 90 и 180 дней.
+![Number 1](../images/sfbcallout1.png)<br/>В отчете **Одноранговые сеансы в Skype для бизнеса** можно отследить тенденции за последние 7, 30, 90 и 180 дней.
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
 ***
-![Номер 2](../images/sfbcallout2.png)<br/>Для каждого отчета указывается дата создания. Отчеты обычно отражают задержка 24 - 48 часов с момента активности. 
+![Number 2](../images/sfbcallout2.png)<br/>Для каждого отчета указывается дата создания. The reports usually reflect a 24- to 48-hour latency from time of activity. 
 ***
-![Номер 3](../images/sfbcallout3.png)<br/>На интерактивной диаграмме **Активность** отображаются тенденции использования, а также общее число сеансов по типу сеанса, проводимых в вашей организации. Оно будет показано общее число и типы сеансов **обмена мгновенными Сообщениями**, **аудио**, **видео**, **общий доступ к приложениям**и **передачу файлов** в организации. 
+![Number 3](../images/sfbcallout3.png)<br/>На интерактивной диаграмме **Активность** отображаются тенденции использования, а также общее число сеансов по типу сеанса, проводимых в вашей организации. It will show you the total number and types of **IM**, **Audio**, **Video**, **Application sharing**, and **File transfers** sessions across your organization. 
 ***
-![Число 4](../images/sfbcallout4.png)<br/>На интерактивной диаграмме **Пользователи** отображаются тенденции использования, а также число уникальных пользователей, которые принимали участие в одноранговых сеансах, проводимых в вашей организации. Оно будет показывать общее количество пользователей, а также типы **обмена мгновенными Сообщениями**, **аудио**, **видео**, **общий доступ к приложениям**и **передачу файлов** в peer-to-peer sessions.
+![Number 4](../images/sfbcallout4.png)<br/>На интерактивной диаграмме **Пользователи** отображаются тенденции использования, а также число уникальных пользователей, которые принимали участие в одноранговых сеансах, проводимых в вашей организации. It will show you the total number of users along with the types of **IM**, **Audio**, **Video**, **Application sharing**, and **File transfers** in peer-to-peer sessions.
 ***
-![Число 5](../images/sfbcallout5.png)<br/>На интерактивной диаграмме **Минуты** отображаются тенденции использования, а также общая длительность проводимых пользователями одноранговых сеансов с использованием аудио- и видеосвязи. Здесь отображается общая продолжительность участия пользователей в одноранговых сеансах с типом **Аудио** и **Видео**.  
+![Number 5](../images/sfbcallout5.png)<br/>На интерактивной диаграмме **Минуты** отображаются тенденции использования, а также общая длительность проводимых пользователями одноранговых сеансов с использованием аудио- и видеосвязи. Здесь отображается общая продолжительность участия пользователей в одноранговых сеансах с типом **Аудио** и **Видео**.  
 ***
-![Номер 6](../images/sfbcallout6.png)<br/>На каждой диаграмме представлены горизонтальная (X) и вертикальная (Y) оси. 
+![Number 6](../images/sfbcallout6.png)<br/>На каждой диаграмме представлены горизонтальная (X) и вертикальная (Y) оси. 
 *    На диаграмме **Активность** по оси Y указывается общее число сеансов с использованием услуг обмена мгновенными сообщениями, аудио- и видеосвязи, общего доступа к приложениям и передачи файлов, проведенных в вашей организации.
-*    На диаграмме активности **пользователей** оси Y — это всего число пользователей, которые проводятся обмен мгновенными Сообщениями, аудио, видео, приложения общего доступа и передача файлов сеансов. 
+*    On the **Users** activity chart, the Y axis is the total number users that held IM, audio, video, application sharing, and transferring files sessions. 
 *    На диаграмме **Минуты** по оси Y указывается общее число минут, затраченных пользователями в вашей организации на проведение одноранговых сеансов с использованием услуг аудио- и видеосвязи. 
 
 На оси X обеих диаграмм представлен диапазон дат, выбранный для отчета.
 ***
-![Номер 7](../images/sfbcallout7.png)<br/>Вы можете отфильтровать ряд, который отображается на диаграмме, щелкнув элемент легенды. Например на диаграмме **активности** щелкните или нажмите **обмена мгновенными Сообщениями**, **аудио**, **видео**, **общий доступ к приложениям**и **передачи файлов** для просмотра только сведения, связанные с каждой из них. При выборе другого значения данные в таблице-сетке не меняются. 
+![Number 7](../images/sfbcallout7.png)<br/>Вы можете отфильтровать ряд, который отображается на диаграмме, щелкнув элемент легенды. For example, on the **Activity** chart, click or tap **IM**, **Audio**, **Video**, **Application sharing**, and **File transfers** to see only the info related to each one. При выборе другого значения данные в таблице-сетке не меняются. 
 ***
-![Число 8](../images/sfbcallout8.png)<br/>В таблице показаны сведения по всем одноранговым сеансам с разбивкой по пользователям. Здесь приводятся все пользователи, которым назначена лицензия на Skype для бизнеса, а также сведения об использовании ими одноранговых сеансов. При необходимости вы можете добавлять столбцы в таблицу.
+![Number 8](../images/sfbcallout8.png)<br/>В таблице показаны сведения по всем одноранговым сеансам с разбивкой по пользователям. Здесь приводятся все пользователи, которым назначена лицензия на Skype для бизнеса, а также сведения об использовании ими одноранговых сеансов. При необходимости вы можете добавлять столбцы в таблицу.
 *    **Имя пользователя**  это имя, указанное пользователем.
-*    **Удален**  лицензия пользователя была удалена. <br/> <br/> **Примечание:**  Действия для удаленного пользователя будет отображаться в отчете до тех пор, пока он или она была применена лицензия на некоторое время за выбранный период. Столбец **Удален** указывает, что пользователь больше не является активным, но участвовал при формировании данных в отчете.  <br/><br/>
+*    **Удален**  лицензия пользователя была удалена. <br/> <br/> **Note:**  Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. Столбец **Удален** указывает, что пользователь больше не является активным, но участвовал при формировании данных в отчете.  <br/><br/>
 *    **Дата удаления**  это дата удаления лицензии пользователя. 
 *    **Дата последнего действия (UTC)**  дата последнего действия, выполненного пользователем, в формате UTC.
 *    **Мгновенные сообщения**  общее число одноранговых сеансов, проведенных пользователем.
@@ -91,11 +90,11 @@ Office 365 **отчеты** панели мониторинга показыва
 *    **Время аудиосвязи (в минутах)**  общая продолжительность сеансов аудиосвязи в организации. 
 *    **Время видеосвязи (в минутах)**  общая продолжительность сеансов видеосвязи в организации. 
 
-Если политики организации не позволяют просматривать отчеты, в которых есть личные сведения пользователей, можно изменить параметр конфиденциальности для всех отчетов. Извлечение **как скрыть сведения об уровне пользователя?** раздел в [Отчеты об активности в центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+Если политики организации не позволяют просматривать отчеты, в которых есть личные сведения пользователей, можно изменить параметр конфиденциальности для всех отчетов. Check out the **How do I hide user level details?** section in the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
-![Число 9](../images/sfbcallout9.png)<br/>Вы также можете экспортировать данные отчета в CSV-файл Excel, щелкнув или нажав **Экспорт**.           <br/> ![Кнопка экспорта Скайп для бизнес-отчеты.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>При этом данные всех пользователей будут экспортированы в формат, позволяющий сортировать и фильтровать их для дальнейшего анализа. Если у вас менее 2000 пользователей, вы можете сортировать и фильтровать значения в самой таблице отчета. Если пользователей больше 2000, для фильтрации и сортировки потребуется экспортировать данные.
+![Number 9](../images/sfbcallout9.png)<br/>Вы также можете экспортировать данные отчета в CSV-файл Excel, щелкнув или нажав **Экспорт**.           <br/> ![Skype for Business Reporting Export Button.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>При этом данные всех пользователей будут экспортированы в формат, позволяющий сортировать и фильтровать их для дальнейшего анализа. Если у вас менее 2000 пользователей, вы можете сортировать и фильтровать значения в самой таблице отчета. Если пользователей больше 2000, для фильтрации и сортировки потребуется экспортировать данные.
 ***
-![Число 10](../images/sfbcallout10.png)<br/>![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>Щелкните или нажмите значок **столбцы** в любом из столбцов для добавления или удаления столбцов из отчета.         
+![Number 10](../images/sfbcallout10.png)<br/>![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>Click or tap the **Columns** icon in any of the columns to add or remove columns from the report.         
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Просмотр других отчетов по Skype для бизнеса
 
@@ -103,17 +102,17 @@ Office 365 **отчеты** панели мониторинга показыва
     
 - [Отчет об использованных клиентах Skype для бизнеса](device-usage-report.md) . В этом отчете представлены настольные (в том числе под управлением ОС Windows) и мобильные устройства, на которых установлено приложение Skype для бизнеса и которые используются для обмена мгновенными сообщениями и участия в собраниях.
     
-- [Скайп для бизнеса Организатор отчету о конференциях](conference-organizer-activity-report.md) Вы можете увидеть, какое количество пользователей организации конференций, использующие обмен мгновенными Сообщениями, аудио-и видеоконференции, совместный доступ к данным, веб-узла, телефонным in/out - 3rd стороны и телефонным in/out - Microsoft.
+- [Skype for Business conference organizer activity report](conference-organizer-activity-report.md) You can see how much your users are organizing conferences that use IM, audio/video, application sharing, Web, dial-in/out - 3rd party, and dial-in/out - Microsoft.
     
-- [Скайп для бизнеса участников отчету о конференциях](conference-participant-activity-report.md) Можно увидеть сколько приложения аудио и видео, обмен мгновенными Сообщениями, общий доступ, веб и и конференций в исходящих и конференц-связи являются являлся участником.
+- [Skype for Business conference participant activity report](conference-participant-activity-report.md) You can see how many IM, audio/video, application sharing, Web and and dial-in/out conferencing conferences are being participated in.
     
-- [Отчет о заблокированных Скайп для бизнес-пользователи](users-blocked-report.md) Можно просмотреть список пользователей в вашей организации, которые были заблокированы из вызовы ТСОП.
+- [Skype for Business users blocked report](users-blocked-report.md) You can see the users in your organization that have been blocked from making PSTN calls.
     
-- [Скайп для отчета об использовании PSTN бизнеса](pstn-usage-report.md) Можно увидеть время, затраченное на входящих и исходящих вызовов и затраты на эти вызовы в минутах.
+- [Skype for Business PSTN usage report](pstn-usage-report.md) You can see the number of minutes spent in inbound/outbound calls and cost for these calls.
     
-- [Скайп для бизнеса PSTN minute пулы отчета](pstn-minute-pools-report.md) можно увидеть число минут потребления во время текущего месяца вашей организации.
+- [Skype for Business PSTN minute pools report](pstn-minute-pools-report.md) you can see the number of minutes consumed during the current month within your organization.
 
-- [Скайп для отчета о сеансе бизнеса](session-details-report.md) Можно просмотреть сведения о работе вызова отдельных пользователей.
+- [Skype for Business session details report](session-details-report.md) You can see details about individual user's call experiences.
     
 ## <a name="related-topics"></a>See also
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

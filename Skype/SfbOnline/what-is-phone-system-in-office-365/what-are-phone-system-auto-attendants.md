@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Сведения автосекретари телефонной системой (облако УАТС) и их использования. '
-ms.openlocfilehash: a1253419bdd321efd99a4ea375655d52f154b6ab
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 59c0dbc129e782749cdc873115e760f1e3d894e3
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Что такое автосекретари телефонной системой?
 
@@ -194,7 +193,7 @@ ms.lasthandoff: 04/03/2018
 - Скайп для бизнеса в Интернет пользователь с **Телефонной системой** лицензировать, включена ли для корпоративной голосовой связи или вызова планы назначаемых. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **Сотрудник вашей компании** и установите для этого абонента режим переадресации звонков непосредственно на голосовую почту.
     
     > [!NOTE]
-    > Users hosted on-premises using Lync Server 2010 can't be used as an Operator. 
+    > Hosted локальных пользователей с помощью Lync Server 2010 не может использоваться как оператор. 
   
 - Другой настроенный в организации автосекретарь.
     
@@ -202,7 +201,7 @@ ms.lasthandoff: 04/03/2018
     
 ### <a name="business-hours-and-call-handling"></a>Рабочие часы и обработка звонков
 
-Рабочие часы настраиваются отдельно для каждого автосекретаря. Если рабочие часы не настроены, по умолчанию устанавливается круглосуточный график работы без выходных дней. Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours. Можно задать различные параметры входящей обработки звонков и различных приветствие (которые являются необязательными), и как можно задать для рабочее и нерабочее время.
+Рабочие часы настраиваются отдельно для каждого автосекретаря. Если рабочие часы не настроены, по умолчанию устанавливается круглосуточный график работы без выходных дней. Можно задать рабочих часов с разрывов в момент в течение дня и все данные о количестве часов, которые не установлены, как рабочих часов, считаются нерабочее время. Можно задать различные параметры входящей обработки звонков и различных приветствие (которые являются необязательными), и как можно задать для рабочее и нерабочее время.
   
 Каждый автосекретарь содержит параметры обработки звонков можно задать:
   
@@ -213,9 +212,9 @@ ms.lasthandoff: 04/03/2018
   - Перенаправить звонок на Скайп для бизнеса в Интернет пользователь с **Телефонной системой** лицензию, включена ли для корпоративной голосовой связи или вызова планы назначаемых. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **Сотрудник вашей компании** и установите для этого абонента режим переадресации звонков непосредственно на голосовую почту.
     
     > [!NOTE]
-    > Users hosted on-premises using Lync Server 2010 aren't supported. 
+    > Пользователи размещенных в локальной Lync Server 2010 не поддерживается. 
   
-  - Redirect the call to a call queue. To see more about call queues, see [Create a Phone System call queue](create-a-phone-system-call-queue.md).
+  - Перенаправление звонка в очередь вызова. Дополнительные сведения о очереди вызовов см [Создание очереди вызовов с телефонной системой](create-a-phone-system-call-queue.md).
     
   - Перенаправить звонок на другого автосекретаря, были установлены.
     
@@ -223,22 +222,22 @@ ms.lasthandoff: 04/03/2018
     
 ### <a name="menu-options"></a>Параметры меню
 
-Phone System auto attendants allow you to create menu prompts ("Press 1 for Sales, Press 2 for Services") and set up menu options to route calls based on what the user selects. Настройка параметров меню для автосекретаря позволяет организации для обеспечения интерактивного руководства для получения человека по назначению быстрее, без использования человеческого оператор для обработки входящих звонков. Меню приглашения можно создавать с помощью преобразования текста в речь (сгенерированное системой запросы) или отправка звукового файла, который был записан. Распознавание речи использует голосовые команды для громкой навигации, но людей, пользующихся также можно использовать клавиатуру телефона для перехода меню.
+Автосекретари телефонной системы позволяют создать меню приглашения («Press 1 для продаж, нажмите клавишу 2 для служб») и настроить параметры меню для маршрутизации вызовов на основании пользователь выбирает. Настройка параметров меню для автосекретаря позволяет организации для обеспечения интерактивного руководства для получения человека по назначению быстрее, без использования человеческого оператор для обработки входящих звонков. Меню приглашения можно создавать с помощью преобразования текста в речь (сгенерированное системой запросы) или отправка звукового файла, который был записан. Распознавание речи использует голосовые команды для громкой навигации, но людей, пользующихся также можно использовать клавиатуру телефона для перехода меню.
   
 Клавиши от 0 до 9 могут быть назначены **Параметры меню** в автосекретарь с помощью Скайп по центру администрирования бизнеса. Можно создать различные наборы параметров меню для рабочее и нерабочее и можно включать и отключать телефонным по имени в **Меню Параметры**. Ключи может быть сопоставлен переводить звонки:
   
-- Оператор (по умолчанию назначается клавиша 0). However, it can be re-assigned to any other key, or removed from the menu.
+- Оператор (по умолчанию назначается клавиша 0). Тем не менее он может быть повторно назначается другим ключом или удалена из меню.
     
-- A call queue.
+- Очередь звонок.
     
-- Другой автосекретарь. Multi-level menus can be set up by pointing a **Menu Option** in one auto attendant to another auto attendant with its own set of Menu Options, which is called a "nested" auto attendant.
+- Другой автосекретарь. Многоуровневых меню можно настроить с помощью команды **Пункта меню** в один автосекретаря другого автосекретаря собственный набор параметров меню, который называется «вложенных» автосекретаря.
     
-- A Skype for Business Online user who has a **Phone System** license that is Enterprise Voice-enabled or has Calling Plans assigned to them. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **Сотрудник вашей компании** и установите для этого абонента режим переадресации звонков непосредственно на голосовую почту.
+- Скайп для бизнеса в Интернет пользователь с **Телефонной системой** лицензировать, включена ли для корпоративной голосовой связи или вызова планы назначаемых. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **Сотрудник вашей компании** и установите для этого абонента режим переадресации звонков непосредственно на голосовую почту.
     
     > [!NOTE]
-    > Users hosted on-premises using Lync Server 2010 can't be used in **Menu Options**. 
+    > Hosted локальных пользователей с помощью Lync Server 2010 не может использоваться в **Меню Параметры**. 
   
-Имя каждого пункта меню становится ключевое слово распознавания речи включенный распознавания речи. For example, callers can say "One" to select the menu option mapped to key 1, or they can simply say "Sales" to select the same menu option named "Sales."
+Имя каждого пункта меню становится ключевое слово распознавания речи включенный распознавания речи. Например абоненты могут сказать "Один", чтобы выбрать пункт меню, сопоставленное с ключом 1 или можно просто говорят «Продажи», чтобы выбрать тот же параметр меню под названием «Sales».
   
 Чтобы настроить автосекретарь и параметры меню, перейдите [настроить автосекретарь телефонной системой](set-up-a-phone-system-auto-attendant.md).
   
@@ -249,9 +248,9 @@ Before you can create and set up your auto attendants, you will need to get or t
 > [!NOTE]
 > Если вы находитесь за пределами США, Скайп по центру администрирования бизнес нельзя использовать для получения номера службы. Вместо этого перейдите [Управление номера телефонов для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) для просмотра как это сделать.
   
-## <a name="changing-the-users-caller-id-to-be-a-call-queues-phone-number"></a>Changing the user's Caller ID to be a call queue's phone number
+## <a name="changing-the-users-caller-id-to-be-a-call-queues-phone-number"></a>Изменение Звонящего пользователя быть очереди вызовов номер телефона
 
-You can protect a user's identity by changing their caller ID for the outbound calls to a call queue instead by creating a policy using the **New-CallingLineIdentity** cmdlet.
+Можно защитить удостоверения пользователя с помощью изменения их Звонящего для исходящих звонков в очередь вызова вместо этого путем создания политики с помощью командлета **New-CallingLineIdentity** .
   
 Для этого выполните команду:
   
@@ -259,13 +258,13 @@ You can protect a user's identity by changing their caller ID for the outbound c
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
-Then apply the policy to the user using the **Grant-CallingLineIdentity** cmdlet. Для этого выполните команду:
+Затем примените политику для пользователя, с помощью командлета **Grant-CallingLineIdentity** . Для этого выполните команду:
   
 ```
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-You can get more information on how to make changes to caller ID settings in your organization [How can caller ID be used in your organization](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
+Можно получить дополнительные сведения о внесении изменений в параметры идентификатор звонящего в вашей организации, [как идентификатор звонящего используются в организации](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
   
 ## <a name="related-topics"></a>See also
 [Преимущества телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)

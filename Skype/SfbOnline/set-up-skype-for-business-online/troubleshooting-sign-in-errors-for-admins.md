@@ -1,9 +1,8 @@
 ---
-title: Устранение неполадок Скайп для бизнеса в Интернет ошибки для администраторов
+title: Troubleshooting Skype for Business Online sign-in errors for administrators
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: cdd4801a-2fe1-4aab-bbb6-db5f95f972d1
 ms.tgt.pltfrm: cloud
@@ -16,199 +15,199 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: 'Узнайте распространенные причины для Скайп для бизнеса в Интернет входа ошибок и работы через устранения неполадок. '
-ms.openlocfilehash: 26541918db9598cbdaf9d61e52806da94bae9d46
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: 'Learn common causes for Skype for Business Online sign-errors and Work through troubleshooting these problems. '
+ms.openlocfilehash: 5c3204304d44729be2e2f382ed213507832536b1
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение неполадок Скайп для бизнеса в Интернет ошибки для администраторов
+# <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Troubleshooting Skype for Business Online sign-in errors for administrators
 
-Для устранения неполадок Скайп для бизнеса в Интернет ошибки, запустите, устраняя самые распространенные причины входа сложности. При необходимости можно затем выполните действия на основании типа ошибки определенные разрешения. Если пользователь по-прежнему не удается войти в программу, собрать Дополнительные сведения и затем для получения дополнительной поддержки. 
+To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. 
   
 ## <a name="what-do-you-want-to-do"></a>В этой статье:
 <a name="top"> </a>
 
-> [Распространенные причины Скайп для бизнеса в Интернет ошибки проверки](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
+> [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
     
-> [Выполните инструкции по устранению неполадок для определенное сообщение об ошибке (только для предприятий)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
+> [Follow resolution steps for a specific error (Enterprise only)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
     
-> [Добавьте запись брандмауэра для msoidsvc.exe для прокси-сервера](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
+> [Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
     
-> [Обновление параметров DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
+> [Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
     
-> [Установка стороннего сертификата SSL на сервере ADFS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
+> [Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
     
-> [Обновление учетных записей](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
+> [Update security credentials](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
     
-> [Изменение разделов реестра TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
+> [Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
     
-> [Изменение параметров пользователей в Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
+> [Update user settings in Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
     
-> [Использование службы поддержки Майкрософт, поиск и устранение неисправностей](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
+> [Use the Microsoft Support troubleshooting guide](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
     
-> [Собрать Дополнительные сведения и для получения дополнительной поддержки](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
+> [Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
     
-## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Распространенные причины Скайп для бизнеса в Интернет ошибки проверки
+## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Check for common causes of Skype for Business Online sign-in errors
 <a name="toc323194094"> </a>
 
-Большинство проблем сводятся к небольшое число причины и многие из них можно без труда исправить. В следующей таблице перечислены некоторые распространенные причины ошибки входа и некоторые действия, которые вы или пользователи могут выполнять их устранения.
+Most sign-in issues can be traced to a small number of causes, and many of these are easy to correct. The table below lists some common causes of sign-in errors and some steps you or the users can take to resolve them.
   
-|**Возможные причины**|**Решение**|
+|**Possible Cause**|**Resolution**|
 |:-----|:-----|
-|При входе в систему, появится диалоговое окно с фразой: **не удается проверить, что сервер является доверенным для адрес входа. Подключить?** <br/> |Убедитесь, что имя домена в диалоговом окне доверенного сервера в организации, например, **domainName.contoso.com**. Попросите пользователя установите флажок **Всегда доверять данного сервера** и нажмите кнопку **Подключить**. <br/> Корпоративным клиентам можно запретить отображение, когда пользователь входит в первый раз с помощью правки реестра Windows на каждом пользовательском компьютере этого сообщения. Дополнительные сведения см [TrustModelData изменение разделов реестра](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
-|Неверный адрес, имя пользователя или пароль  <br/> | Убедитесь, что указаны правильные учетное имя пользователя и пароль. <br/>  Убедитесь, что имя входа пользователя имеет следующий формат: **bobk@contoso.com**. Это может отличаться от формата, используемого для входа в сеть организации.  <br/>  Попросите пользователя попробуйте снова выполнить вход. <br/> |
-|Забытый пароль  <br/> |Сброс пароля пользователя и сообщите его новый временный пароль.  <br/> |
-|Не лицензии на использование Скайп для бизнеса в Интернет  <br/> |Убедитесь, что пользователь зарегистрирован как Скайп для бизнеса в Интернет пользователя. В противном случае регистрации пользователя и затем попросите его выполнить повторный вход.  <br/> |
-|Неправильная версия Скайп для бизнеса в Интернет установлены  <br/> |Эта проблема обычно связана с сообщением об ошибке, содержащее следующие фразы: **Служба проверки подлинности могут быть несовместимы с этой версией программы**.  <br/> Попросите пользователя удаление и повторная установка Скайп для бизнеса в Интернет из портала Office 365.  <br/> |
-|Проблема приобретение личный сертификат, необходимо войти в систему  <br/> |Если адрес входа пользователя был недавно изменен, может потребоваться удалить кэшированные данные. Попросите пользователей, чтобы выйти, нажмите кнопку Удалить Мои сведения входа ссылка на экране входа и повторите попытку.  <br/> |
-|Настройте собственное имя домена, и изменения не может завершено распространение через систему.  <br/> |Во-первых убедитесь, что вы изменили записей службы доменных имен (DNS) в соответствии с изменениями.  <br/> Если вы уже внесены необходимые изменения DNS, оповещение пользователя для пробного ведение журналов в более поздней версии. Изменения DNS может занять до 72 часов в силу во всей системе.  <br/> |
-|Система тактовая синхронизированы с часами сервера  <br/> |Убедитесь, что контроллера домена сети синхронизируются с надежным внешним источником времени. Дополнительные сведения в статье базы знаний Майкрософт 816042, [как настроить основного сервера времени в Windows Server](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/> |
+|During sign-in, a dialog box appears that contains the following phrase: **cannot verify that the server is trusted for your sign-in address. Connect anyway?** <br/> |Verify that the domain name in the dialog box is a trusted server in your organization—for example, **domainName.contoso.com**. Ask the user to select the **Always trust this server** check box, and then click **Connect**. <br/> Enterprise customers can prevent this message from appearing when a user signs in for the first time by modifying the Windows registry on each user's computer. For details, see [Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
+|Mistyped sign-in address, user name, or password  <br/> | Confirm that the user's sign-in name and password are correct. <br/>  Verify that the user's sign-in name is formatted as follows: **bobk@contoso.com**. This may be different from the format you use to sign in to your organization's network.  <br/>  Ask the user to try signing in again. <br/> |
+|Forgotten password  <br/> |Reset the user's password and notify him or her of the new temporary password.  <br/> |
+|Not licensed to use Skype for Business Online  <br/> |Confirm that the user is registered as a Skype for Business Online user. If not, register the user, and then ask him or her to sign in again.  <br/> |
+|Wrong version of Skype for Business Online installed  <br/> |This issue is usually associated with an error message that contains the following phrase: **the authentication service may be incompatible with this version of the program**.  <br/> Ask the user to uninstall and reinstall Skype for Business Online from the Office 365 Portal.  <br/> |
+|Problem acquiring a personal certificate that is required to sign in  <br/> |If the user's sign-in address has recently changed, they may need to delete cached sign-in data. Ask users to sign out, click the Delete my sign-in info link on the sign-in screen, and then try again.  <br/> |
+|You set up a custom domain name, and the changes may not have finished propagating through the system.  <br/> |First, ensure that you have modified the Domain Name Service (DNS) records to reflect the change.  <br/> If you have already made the necessary DNS changes, advise the user to try logging in later. DNS changes can take up to 72 hours to be reflected throughout the system.  <br/> |
+|System clock out of sync with server clock  <br/> |Ensure that your network domain controller is synchronizing with a reliable external time source. For details, see the Microsoft Knowledge Base article 816042, [How to configure an authoritative time server in Windows Server](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/> |
    
-Для устранения неполадок Скайп для бизнеса в Интернет ошибки, запустите, устраняя самые распространенные причины входа сложности. При необходимости можно затем выполните действия на основании типа ошибки определенные разрешения. Если пользователь по-прежнему не удается войти в программу, собрать Дополнительные сведения и затем для получения дополнительной поддержки. 
+To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. 
   
-## <a name="follow-resolution-steps-for-a-specific-error-enterprise-only"></a>Выполните инструкции по устранению неполадок для определенное сообщение об ошибке (только для предприятий)
+## <a name="follow-resolution-steps-for-a-specific-error-enterprise-only"></a>Follow resolution steps for a specific error (Enterprise only)
 <a name="toc325626440"> </a>
 
 > [!IMPORTANT]
->  Эти инструкции предназначены в основном для клиентов Microsoft Office 365 планирование E. Если вы являетесь клиента из Office 365 планирование P, перейдите к разделу следующие,[собрать Дополнительные сведения и для получения дополнительной поддержки ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information). 
+>  These instructions are intended primarily for Microsoft Office 365 Plan E customers. If you are an Office 365 Plan P customer, continue to the following section,[Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information). 
   
-Если пользователь не может войти в после предложений в предыдущем разделе, можно сделать, дополнительные Устранение неполадок в зависимости от типа ошибки. В следующей таблице перечислены распространенные сообщения об ошибках и возможные причины. Следующей таблице приведены подробные процедуры для решения проблем.
+If the user cannot sign in after you have tried the suggestions in the previous section, then you can do additional troubleshooting based on the type of error. The table below lists the most common error messages and possible causes. Following the table are detailed procedures to address each issue.
   
-|**Сообщение об ошибке**|**Возможные причины**|**Решение**|
+|**Error message**|**Possible cause**|**Resolution**|
 |:-----|:-----|:-----|
-|Адрес для входа не найден  <br/> |Запросы на вход из Microsoft Online Services входа помощника по (msoidsvc.exe) не будет через внешний брандмауэр или прокси-сервера.  <br/> |[Добавьте запись брандмауэра для msoidsvc.exe для прокси-сервера](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall) <br/> |
-|Сервер временно недоступен  <br/> |Если в вашей организации есть настраиваемый домен, необходимые параметры доменных имен (DNS) может быть отсутствующих или неправильных.  <br/> |[Обновление параметров DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service) <br/> |
-|Сервер временно недоступен  <br/> |Если ваша организация использует единого входа с помощью служб федерации Active Directory (ADFS), использовалась самозаверяющий сертификат безопасного сокетов протокол SSL, а не из стороннего центра сертификации.  <br/> |[Установка стороннего сертификата SSL на сервере ADFS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and) <br/> |
-|Проблема приобретение личный сертификат, необходимо войти в систему  <br/> |Если вы удалили уже данных кэширования сервера, используемое для входа в и ошибка повторяется, учетные данные безопасности пользователя может быть поврежден или RSA папку на компьютере пользователя может блокировать проверки подлинности.  <br/> |[Обновление учетных записей](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials) <br/> |
-|Диалоговое окно доверия сертификата отображается при входе пользователя в первый раз.  <br/> |Это диалоговое окно отображается, если ваше Скайп для Business server еще не указана в раздел реестра **TrustModelData** . <br/> |[Изменение разделов реестра TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
-|Пользователь не включен SIP  <br/> |Если ваша организация установки Microsoft Office Communications Server или Microsoft Lync Server 2010, не удалили пользователей от сервера перед ликвидацией его. В результате атрибута **msRTCSIP-UserEnabled** по-прежнему установлено значение **FALSE** в доменных службах Active Directory. <br/> |[Изменение параметров пользователей в Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)<br/> |
+|Sign-in address not found  <br/> |Sign-in requests from the Microsoft Online Services Sign-On Assistant (msoidsvc.exe) are not going through your external firewall, or proxy server.  <br/> |[Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall) <br/> |
+|Server is temporarily unavailable  <br/> |If your organization has a custom domain, the necessary Domain Name System (DNS) settings may be missing or incorrect.  <br/> |[Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#update-dns-service) <br/> |
+|Server is temporarily unavailable  <br/> |If your organization is using single sign-on with Active Directory Federation Services (ADFS), you may have used a self-signed Secure Socket Layer (SSL) certificate rather than one from a third-party certification authority.  <br/> |[Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and) <br/> |
+|Problem acquiring a personal certificate that is required to sign in  <br/> |If you've already removed the cached server data used to sign in and the error continues to appear, the user's security credentials may be corrupted, or an RSA folder on the user's computer may be blocking authentication.  <br/> |[Update security credentials](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials) <br/> |
+|A certificate trust dialog box appears when a user signs in for the first time.  <br/> |This dialog box appears if your Skype for Business server is not yet listed in the **TrustModelData** registry key. <br/> |[Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
+|User is not SIP enabled  <br/> |If your organization had a previous installation of Microsoft Office Communications Server or Microsoft Lync Server 2010, you may not have deleted your users from the server before decommissioning it. As a result, the **msRTCSIP-UserEnabled** attribute is still set to **FALSE** in Active Directory Domain Services. <br/> |[Update user settings in Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)<br/> |
    
-### <a name="add-a-firewall-entry-for-msoidsvcexe-to-your-proxy-server"></a>Добавьте запись брандмауэра для msoidsvc.exe для прокси-сервера
+### <a name="add-a-firewall-entry-for-msoidsvcexe-to-your-proxy-server"></a>Add a firewall entry for msoidsvc.exe to your proxy server
 <a name="add-a-firewall"> </a>
 
-Эта процедура является возможные исправление следующее сообщение об ошибке: **адрес для входа не найден**.
+This procedure is a possible fix for the following error message: **Sign-in address not found**.
   
- **Примечание**: следующие шаги предполагается использование Microsoft Forefront Threat Management Gateway (TMG) 2010. При наличии различных веб-шлюза решений, используйте параметры, описанные в шаге 4 ниже.
+ **NOTE**: The following steps assume you are using Microsoft Forefront Threat Management Gateway (TMG) 2010. If you have a different web gateway solution, use the settings described in step 4 below.
   
-Создание приложения для Msoidsvc.exe в Forefront TMG 2010, выполните следующие действия.
+To create an application entry for Msoidsvc.exe in Forefront TMG 2010, follow these steps:
   
-1. В левой области Forefront щелкните **сеть**.
+1. In the Forefront left pane, click **Networking**.
     
-2. Перейдите на вкладку **сети** . На вкладке **задачи** в правой области щелкните **Настройка параметров клиента Forefront TMG**.
+2. Click the **Network** tab. Under the **Tasks** tab in the right pane, click **Configure Forefront TMG Client Settings**.
     
-3. В диалоговом окне **Параметры клиентов Forefront TMG** щелкните **Создать**.
+3. In the **Forefront TMG Client Settings** dialog box, click **New**.
     
-4. В диалоговом окне **Настройка записи приложения** настройте следующие правила:
+4. In the **Application Entry Setting** dialog box, configure the following rules:
     
-|**Приложение**|**Ключ**|**Значение**|
+|**Приложение**|**Key**|**Value**|
 |:-----|:-----|:-----|
-|**msoidsvc** <br/> |Отключение  <br/> |0  <br/> |
+|**msoidsvc** <br/> |Disable  <br/> |0  <br/> |
 |**msoidsvc** <br/> |DisableEx  <br/> |0  <br/> |
    
-Дополнительные сведения в статье базы знаний Майкрософт 2409256, [не удается подключиться к Скайп для бизнеса в Интернет, так как локальный брандмауэр блокирует подключение](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2409256).
+For details, see the Microsoft Knowledge Base article 2409256, [You cannot connect to Skype for Business Online because an on-premises firewall blocks the connection](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2409256).
   
-### <a name="update-dns-settings"></a>Обновление параметров DNS
+### <a name="update-dns-settings"></a>Update DNS settings
 <a name="update-dns-service"> </a>
 
-Если в вашей организации есть настраиваемый домен, эту процедуру можно возможные исправление следующее сообщение об ошибке: **сервер временно недоступен**.
+If your organization has a custom domain, this procedure is a possible fix for the following error message: **Server is temporarily unavailable**.
   
-- Предоставьте регистратора доменных имен для получения сведений о том, как добавить следующие записи CNAME для домена.
+- Contact your domain name registrar for information on how to add the following CNAME record to your domain:
     
-  - **Тип записи DNS**: CNAME 
+  - **DNS record type**: CNAME 
     
-  - **Имя**: sip
+  - **Name**: sip
     
-  - **Значение/назначение**: sipdir.online.microsoft.com
+  - **Value/Destination**: sipdir.online.microsoft.com
     
-Дополнительные сведения в статье базы знаний Майкрософт 2566790, [Устранение неполадок Скайп для проблемы с конфигурацией DNS Online бизнеса в Office 365](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
+For details, see the Microsoft Knowledge Base article 2566790, [Troubleshooting Skype for Business Online DNS configuration issues in Office 365](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
   
-### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>Установка стороннего сертификата SSL на сервере ADFS
+### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>Install a third-party SSL certificate on your ADFS server
 <a name="verify-upn-and"> </a>
 
-Установка стороннего сертификата SSL на сервере служб федерации Active домена (ADFS), выполните следующие действия.
+To install a third-party SSL certificate on your Active Domain Federation Services (ADFS) server, follow these steps:
   
-1. Получение SSL-сертификата в стороннего центра сертификации, например VeriSign или Thawte.
+1. Obtain an SSL certificate from a third-party certification authority such as VeriSign or Thawte.
     
-2. Установка сертификата на сервер службы федерации Active Directory с помощью консоли управления ADFS. 
+2. Install the certificate on your ADFS server by using the ADFS management console. 
     
-### <a name="update-security-credentials"></a>Обновление учетных записей
+### <a name="update-security-credentials"></a>Update security credentials
 <a name="update-security-credentials"> </a>
 
-Эта процедура является возможные варианты исправления в сообщении об ошибке, **проблема приобретение личный сертификат необходимо войти в систему**.
+This procedure is a possible fix for the error message **Problem acquiring a personal certificate required to sign in**.
   
-Чтобы устранить возможные проблемы сертификата или учетных данных, сначала обновите сертификат пользователя в диспетчере сертификатов Windows. Для этого выполните следующие действия.
+To eliminate possible certificate or credential problems, first renew the user's certificate in Windows Certificate Manager. To do this, follow these steps:
   
-1. Откройте диспетчер сертификатов Windows. Для этого нажмите кнопку **Пуск**, выберите пункт **выполнить**, введите **certmgr.msc**и нажмите кнопку **ОК**. 
+1. Open Windows Certificate Manager. To do this, click **Start**, click **Run**, type **certmgr.msc**, and then click **OK**. 
     
-2. Дважды щелкните **Личные**и затем дважды щелкните **сертификаты**. 
+2. Double-click **Personal**, and then double-click **Certificates**. 
     
-3. Сортировка по **Выдан** столбца, а затем найдите сертификат, выданный Communications Server.
+3. Sort by the **Issued By** column, and then look for a certificate that is issued by Communications Server.
     
-4. Щелкните сертификат правой кнопкой мыши и выберите команду **Удалить**. 
+4. Right-click the certificate, and then click **Delete**. 
     
-Далее Если пользователь работает под управлением Windows 7, удалите их сохраненных учетных данных в диспетчере учетных данных Windows. Для этого выполните следующие действия.
+Next, if the user is running Windows 7, remove their stored credentials in Windows Credential Manager. To do this, follow these steps:
   
-1. Нажмите кнопку **Пуск**, выберите пункт **Панель управления**и выберите **Диспетчер учетных данных**. 
+1. Click **Start**, click **Control Panel**, and then click **Credential Manager**. 
     
-2. Найдите набор учетных данных, используемый для подключения к Скайп для бизнеса в Интернет. 
+2. Locate the set of credentials that is used to connect to Skype for Business Online. 
     
-3. Разверните набор учетных данных и нажмите кнопку **Удалить из хранилища**. 
+3. Expand the set of credentials, and then click **Remove from Vault**. 
     
-4. Снова выполните вход и повторный ввод учетных данных пользователя.
+4. Sign in again and reenter the user's credentials.
     
-И, наконец Если пользователь по-прежнему не удается войти в после обновления их учетных данных, удалите RSA папку на компьютере пользователя, так как он может блокировать завершения процесса проверки подлинности пользователей:
+Finally, if the user still cannot sign in after you've updated their credentials, try deleting the RSA folder on the user's computer, because it could be blocking completion of the user authentication process:
   
-1. Войдите на компьютер пользователя, с помощью учетной записи администратора.
+1. Sign in to the user's computer using an administrator account.
     
-2. При необходимости включите параметр представления папок, **Показать скрытые файлы**. 
+2. If necessary, turn on the folder view option **Show hidden files**. 
     
-3. Введите следующую команду в адресной строке файла Explorer: **C:\\Documents and Settings\\UserName\\данные приложения\\Microsoft\\шифрования\\RSA**, где ***имя_пользователя*** — это имя входа в Windows.
+3. Type the following into the address bar of File Explorer: **C:\\Documents and Settings\\UserName\\Application Data\\Microsoft\\Crypto\\RSA**, where ***UserName*** is your Windows sign-in name.
     
-4. Удалите все папки, начинается с именем **S-1-5-21 -** и строки номеров.
+4. Delete any folder that begins with the name **S-1-5-21-** followed by a string of numbers.
     
-### <a name="modify-trustmodeldata-registry-keys"></a>Изменение разделов реестра TrustModelData
+### <a name="modify-trustmodeldata-registry-keys"></a>Modify TrustModelData registry keys
 <a name="modify-trustmodeldata-registry"> </a>
 
-Когда пользователь входит в первый раз, появляется диалоговое окно, которое содержит примерно следующим образом: **не удается проверить, что сервер является доверенным для адрес входа. Подключить?** Это средство безопасности, а не ошибка. Тем не менее вы можете запретить диалоговое окно отображение с помощью объектов групповой политики (GPO) для обновления компьютеров пользователей с именем домена, перед выполняют вход в первый раз. Для этого выполните следующие действия.
+When a user signs in for the first time, they may receive a dialog box that contains something like the following: **Cannot verify that the server is trusted for your sign-in address. Connect anyway?** This is a security feature, and not an error. However, you can prevent the dialog box from appearing by using a Group Policy Object (GPO) to update users' machines with your domain name before they sign in for the first time. To accomplish this, do the following:
   
-- Создание и развертывание объекта групповой Политики, который добавляет вашей Скайп для бизнеса доменного имени —, например domainName.contoso.com—to текущее значение HKEY_LOCAL_MACHINE\\программного обеспечения\\политик\\Microsoft\\Communicator\\ TrustModelData.
+- Create and deploy a GPO that appends your Skype for Business domain name—for example, domainName.contoso.com—to the current value of HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Communicator\\TrustModelData.
     
 > [!IMPORTANT]
->  Необходимо *Добавить* имя домена в существующее значение, не просто замените его.
+>  You must *append*  your domain name to the existing value, not simply replace it.
   
-Дополнительные сведения в статье базы знаний Майкрософт 2531068, [Скайп для бизнеса (Lync) не удается проверить, что сервер является доверенным для адрес входа](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068).
+For details, see the Microsoft Knowledge Base article 2531068, [Skype for Business (Lync) cannot verify that the server is trusted for your sign-in address](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068).
   
 ### <a name="update-user-settings-in-active-directory"></a>Обновление параметров пользователя в Active Directory
 <a name="update-user-settings"> </a>
 
-Если ваша организация установки Microsoft Office Communications Server или Microsoft Lync Server 2010, не удалили пользователей от сервера перед ликвидацией его. В результате атрибута **msRTCSIP-UserEnabled** по-прежнему установлено значение **FALSE** в доменных службах Active Directory.
+If your organization had a previous installation of Microsoft Office Communications Server or Microsoft Lync Server 2010, you may not have deleted your users from the server before decommissioning it. As a result, the **msRTCSIP-UserEnabled** attribute is still set to **FALSE** in Active Directory Domain Services.
   
-Чтобы устранить эту проблему, выполните следующие действия:
+To fix this issue, follow these steps:
   
-1. Обновите атрибут **msRTCSIP-UserEnabled** для всех заинтересованных пользователей значение **TRUE**.
+1. Update the **msRTCSIP-UserEnabled** attribute for all affected users to **TRUE**.
     
-2. Запустите средство синхронизации каталогов Microsoft Online Services (DirSync). Дополнительные сведения см [AIntegrate локальную каталогов с помощью Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx). 
+2. Rerun the Microsoft Online Services Directory Synchronization Tool (DirSync). For details, see [AIntegrate your on-premises directories with Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx). 
     
-Для устранения неполадок Скайп для бизнеса в Интернет ошибки, запустите, устраняя самые распространенные причины входа сложности. При необходимости можно затем выполните действия на основании типа ошибки определенные разрешения. Если пользователь по-прежнему не удается войти в программу, собрать Дополнительные сведения и затем для получения дополнительной поддержки. 
-## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Использование службы поддержки Майкрософт, поиск и устранение неисправностей
+To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. 
+## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Use the Microsoft Support troubleshooting guide
 <a name="toc325626447"> </a>
 
-Если вы по-прежнему не удается устранить проблемы входа пользователя, просмотрите предложений в статье базы знаний Майкрософт 2541980, [Устранение неполадок входа в Скайп для бизнеса в Интернет](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2541980).
+If you're still not able to resolve the user's sign-in problems, review the suggestions in Microsoft Knowledge Base article 2541980, [How to troubleshoot sign-in issues in Skype for Business Online](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2541980).
   
-## <a name="collect-more-information-and-seek-additional-help"></a>Собрать Дополнительные сведения и для получения дополнительной поддержки
+## <a name="collect-more-information-and-seek-additional-help"></a>Collect more information and seek additional help
 <a name="collect-more-information"> </a>
 
-Если выполнения выше рекомендации и по-прежнему не удается распознать неполадок входа, необходимо собрать Дополнительные сведения и обратитесь в службу технической поддержки. Для этого выполните следующие действия. 
+If you've followed the guidance above and still can't resolve your sign-in issues, you must collect additional information and contact technical support. To do this, follow these steps: 
   
-1. Получение файлов журнала и сведения о журнале событий Windows с компьютера пользователя. Для получения пошаговых инструкций обратитесь к разделу справки конечных пользователей, [Включите журналы ошибок в Lync](http://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
+1. Obtain the log files and Windows Event log details from the user's machine. For step-by-step instructions, see the end-user help topic [Turn on error logs in Lync](http://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
     
-2. Отправка файлов журнала и подробные сведения об ошибке в службу технической поддержки Майкрософт.
+2. Send the log files and detailed information about the error to Microsoft technical support.
     
-Возможно, потребуется предоставить дополнительную информацию, установив диагностики Microsoft Online Services и набор средств поддержки ведения журнала (MOSDAL) на компьютере соответствующего пользователя. [Набор средств поддержки MOSDAL](http://support.office.com/article/ddf1f52f-24a1-4675-abe0-141052c88b72)для получения дополнительных сведений, см.
+You may be asked to supply additional diagnostic information by installing the Microsoft Online Services Diagnostic and Logging (MOSDAL) Support Toolkit on the affected user's machine. For details, see [Using the MOSDAL Support Toolkit](http://support.office.com/article/ddf1f52f-24a1-4675-abe0-141052c88b72).
   
-Для устранения неполадок Скайп для бизнеса в Интернет ошибки, запустите, устраняя самые распространенные причины входа сложности. При необходимости можно затем выполните действия на основании типа ошибки определенные разрешения. Если пользователь по-прежнему не удается войти в программу, собрать Дополнительные сведения и затем для получения дополнительной поддержки. 
+To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. 
   
 ## <a name="related-topics"></a>See also
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)

@@ -3,7 +3,7 @@ title: Качество взаимодействия руководство по
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: Руководство по анализа производител
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65591f364cd40db5307208e089b6897cfb60e878
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 42af71e9062b68da6e9d3bc77a6c067eee35ec92
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="quality-of-experience-review-guide"></a>Качество взаимодействия руководство по решению
 
@@ -495,7 +495,7 @@ _Фильтр отчета в таблице 4._
 
 ![Снимок экрана всплывающее окно, которое уведомляет о том, что шаблон был успешно импортирована.](media/quality-of-experience-review-guide-imagestep5.png)
 
-1.  Повторите шаги 4 и 5 для второго шаблона CQD.
+6.  Повторите шаги 4 и 5 для второго шаблона CQD.
 
 > [!NOTE]
 > Шаблоны CQD импортируются на одного пользователя. Если дополнительных пользователей необходимо использовать в отчете, необходимо войти в и импорт шаблонов в их экземпляр CQD. 

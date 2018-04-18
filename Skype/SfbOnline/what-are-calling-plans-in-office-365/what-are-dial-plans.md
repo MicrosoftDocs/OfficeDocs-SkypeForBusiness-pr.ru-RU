@@ -1,10 +1,9 @@
 ---
-title: Что такое абонентских групп?
+title: What are dial plans?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
 ms.tgt.pltfrm: cloud
@@ -21,29 +20,29 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: 'Узнайте какой тип телефонным Тарифные планы (вызов ТСОП абонентских групп) доступны при использовании Office 365 и выберите одну для вашей организации.  '
+description: 'Learn what type of dial calling plans (PSTN Calling dial plans) are available with Office 365 and how to choose one for your organization.  '
 search.appverid:
 - MED150
 - MOE150
-ms.openlocfilehash: 8e32143b78d9ed6da81910f24ecf2bcbe9baaf70
-ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
+ms.openlocfilehash: c24727dec0a9d938b3b0e40ef6f47501944e70e1
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="what-are-dial-plans"></a>Что такое абонентских групп?
+# <a name="what-are-dial-plans"></a>What are dial plans?
 
 [] Абонентская группа  это именованный набор правил нормализации, который преобразует номера телефонов отдельных пользователей в альтернативный формат (обычно E.164) для авторизации и маршрутизации звонков.
   
-В абонентской группе состоит из одного или нескольких правил нормализации, которые определяют, как в различные форматы номеров телефонов преобразуются в альтернативный формат. Ту же строку телефонным может интерпретировать и перевести по-разному в различных абонентских групп, поэтому в зависимости от того, какие абонентской группы назначается для определенного пользователя, то же самое Набираемый номер может быть переведены и перенаправляться по-разному.
+A dial plan consists of one or more normalization rules that define how phone numbers expressed in various formats are translated to an alternate format. The same dial string may be interpreted and translated differently in different dial plans, so depending on which dial plan is assigned to a given user, the same dialed number may be translated and routed differently.
   
-Просмотреть [Создание и управление ими абонентских групп](create-and-manage-dial-plans.md) для создания и управления абонентских групп клиента.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage tenant dial plans.
   
 ## <a name="tenant-dial-plan-scope"></a>Область действия абонентской группы для клиента
 
-Область действия абонентской группы определяет уровень иерархии, на котором возможно применение данной абонентской группы. Области иначе, чем в Скайп для Business Server 2015 локальное развертывание. Клиенты получают соответствующие абонентские группы с помощью параметров подготовки, которые предоставляются автоматически при входе клиентов в Skype для бизнеса Online. Как администратор вы можете назначать уровни действия абонентских групп и управлять ими с помощью удаленной оболочки PowerShell.
+Область действия абонентской группы определяет уровень иерархии, на котором возможно применение данной абонентской группы. The scopes are different than in a Skype for Business Server 2015 on-premises deployment. Клиенты получают соответствующие абонентские группы с помощью параметров подготовки, которые предоставляются автоматически при входе клиентов в Skype для бизнеса Online. Как администратор вы можете назначать уровни действия абонентских групп и управлять ими с помощью удаленной оболочки PowerShell.
   
-В Скайп для бизнеса в Интернет существует два типа абонентских групп-областью действия службы и клиента (по для вашей организации) областью действия. В абонентской группе службы областью действия определяется для каждой страны или региона, где доступен телефонной системой Office 365. Каждый пользователь автоматически назначается службы страны абонентской, соответствующее место использования Office 365, назначенные пользователю. Не может изменить службы страны единой системы обмена сообщениями, но можно создать абонентских групп клиента областью действия, которые дополнить абонентской службы страны. Как будут иметь доступ клиенты, они получить «эффективных телефонным план,» которого состоит из службы страны единой системы обмена сообщениями и абонентской надлежащим образом с областью клиента. Таким образом не необходимо указать все правила нормализации в абонентских групп клиента они уже может существовать в абонентской группе службы страны.
+In Skype for Business Online, there are two types of dial plans - service scoped and tenant (which is for your organization) scoped. A service scoped dial plan is defined for every country/region where the Office 365 Phone System is available. Each user is automatically assigned the service country dial plan that matches the Office 365 Usage Location assigned to the user. You can't change the service country dial plan, but you can create tenant scoped dial plans, which augment the service country dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service country dial plan and the appropriately scoped tenant dial plan. Therefore, it's not necessary to define all normalization rules in tenant dial plans as they might already exist in the service country dial plan.
   
 Абонентские группы на основе клиентов можно дополнительно разбить на две области действия: область действия клиента и область действия пользователя. Если клиент определяет и назначает абонентскую группу на уровне пользователя, для этого пользователя подготавливается эффективная абонентская группа с учетом абонентской группы страны обслуживания и назначенной абонентской группы пользователя. Если клиент определяет абонентскую группу с областью действия клиента, но не назначает абонентскую группу на уровне пользователя, для этого пользователя подготавливается эффективная абонентская группа с учетом абонентской группы страны обслуживания и абонентской группы клиента.
   
@@ -53,27 +52,27 @@ ms.lasthandoff: 04/06/2018
   
 Ниже перечислены возможные эффективные абонентские группы.
   
- **Службы страны** Если абонентская клиента областью действия не определен и не абонентской группы пользователей областью действия клиента назначается подготовленных пользователей, пользователь получит эффективных абонентской, сопоставленные с страны службы, связанные с их расположения об использовании Office 365.
+ **Service Country** If no tenant scoped dial plan is defined and no tenant user scoped dial plan is assigned to the provisioned user, the user will receive an effective dial plan mapped to the service country associated with their Office 365 Usage Location.
   
- **Глобальные - клиента службы страны** Если абонентской группы пользователей клиента определен, но не назначенных пользователю, подготовленных пользователей будет получать эффективных абонентской, состоящий из абонентской группы объединенных клиента и службы страны абонентской группы связанных с их расположения об использовании Office 365.
+ **Tenant Global - Service Country** If a tenant user dial plan is defined but not assigned to a user, the provisioned user will receive an effective dial plan consisting of a merged tenant dial plan and the service country dial plan associated with their Office 365 Usage Location.
   
- **Клиент пользователя - службы страны** Если абонентской группы пользователей клиента определенный и назначенных пользователю, подготовленных пользователей будет получать эффективных абонентской, состоящий из абонентской группе пользователей объединенных клиента и службы страны абонентской группы связанных с их расположения об использовании Office 365.
+ **Tenant User - Service Country** If a tenant user dial plan is defined and assigned to a user, the provisioned user will receive an effective dial plan consisting of the merged tenant user dial plan and the service country dial plan associated with their Office 365 Usage Location.
   
-Просмотреть [Создание и управление ими абонентских групп](create-and-manage-dial-plans.md) для создания вашего клиента абонентских групп.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
   
 ## <a name="planning-for-tenant-dial-plans"></a>Планирование абонентских групп клиента
 
 Для планирования настраиваемых абонентских групп выполните следующие шаги.
   
-- **Шаг 1** Решите, требуется ли пользовательский набор план для улучшения набору номера, интерфейса пользователя. Как правило потребности в один бы для поддержки набора номера не E.164, такие как расширения или сокращение национальный набора номера.
+- **Step 1** Decide whether a custom dial plan is needed to enhance the user dialing experience. Typically, the need for one would be to support non-E.164 dialing, such as extensions or abbreviated national dialing.
     
-- **Шаг 2** Определение ли необходимые глобальные клиента или абонентских групп пользователей областью действия клиента или оба. Абонентские группы пользователей с областью действия необходимы, если у пользователей есть различных локального целей.
+- **Step 2** Determine whether tenant global or tenant user scoped dial plans are needed, or both. User scoped dial plans are needed if users have different local dialing requirements.
     
 - **Шаг 3.** Определите допустимые шаблоны номеров для каждой из необходимых абонентских групп. Требуются только те шаблоны, которые не заданы в абонентских группах страны обслуживания.
     
 - **Шаг 4.** Разработайте схему именования абонентских групп на уровне организации. Использование стандартной схемы именования обеспечивает согласованность работы, а также упрощает обслуживание и обновление системы.
     
-[Она](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice) имеет дополнительные ресурсы и партнеры (en), которые могут помочь в реализации абонентских групп клиента.
+The [FastTrack](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice) has additional resources and partners that can assist you with implementing tenant dial plans.
   
 ## <a name="creating-your-new-tenant-dial-plan"></a>Создание абонентской группы клиента
 
@@ -81,7 +80,7 @@ ms.lasthandoff: 04/06/2018
   
 ### <a name="name-and-simple-name"></a>Имя и простое имя
 
-Для абонентских групп пользователей должны укажите описательное имя, которое определяет для пользователей единой системы обмена сообщениями будет назначен. Абонентская группа простое имя предварительно заполненными со строкой, который является производным от имя абонентской группы. Поле "Простое имя" доступно для редактирования, что позволяет создать для абонентских групп информативное соглашение об именовании. Значение простое имя не может быть пустым и должно быть уникальным. Рекомендуется разработать соглашение об именовании для всей организации и последовательно применять его для всех сайтов и пользователей.
+For user dial plans, you should specify a descriptive name that identifies to the users the dial plan will be assigned. The dial plan Simple Name is prepopulated with a string that is derived from the dial plan name. Поле "Простое имя" доступно для редактирования, что позволяет создать для абонентских групп информативное соглашение об именовании. The Simple Name value cannot be empty and must be unique. Рекомендуется разработать соглашение об именовании для всей организации и последовательно применять его для всех сайтов и пользователей.
   
 ### <a name="description"></a>Описание
 
@@ -97,13 +96,13 @@ ms.lasthandoff: 04/06/2018
 > [!NOTE]
 > В случае указания префикса создавать дополнительное правило нормализации для него не требуется. 
   
-Просмотреть [Создание и управление ими абонентских групп](create-and-manage-dial-plans.md) для создания вашего клиента абонентских групп.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
   
 ## <a name="normalization-rules"></a>Правила нормализации
 
 Правила нормализации определяют, как преобразуются номера телефонов, указанные в разных форматах. Одна и та же строка номера может быть интерпретирована и преобразована по-разному, в зависимости от языкового стандарта, который применяется к набравшему ее пользователю. Правила нормализации могут потребоваться, если пользователям нужно набирать сокращенные внутренние или внешние номера.
   
-Одно или несколько правил нормализации необходимо назначить абонентскую группу. Правила нормализации сопоставляются из сверху вниз, поэтому важно порядке, в котором они представлены в абонентской группы клиента. Например если 10 правил нормализации в абонентской группе клиента, набранный номер соответствующей логики будет использована, начиная с первого правила нормализации, если не соответствие затем второй и т.д. Если совпадение, используется это правило и нет никаких действий в соответствии с другими правилами, которые определены. В абонентской группе данного клиента может быть не более 25 правила нормализации.
+One or more normalization rules must be assigned to the dial plan. Normalization rules are matched from top to bottom, so the order in which they appear in a tenant dial plan is important. For example, if a tenant dial plan has 10 normalization rules, the dialed number matching logic will be tried starting with the first normalization rule, if there isn't a match then the second, and so forth. If a match is made, that rule is used and there is no effort to match any other rules that are defined. There can be a maximum of 25 normalization rules in a given tenant dial plan.
   
 ### <a name="determining-the-required-normalization-rules"></a>Определение необходимых правил нормализации
 
@@ -113,15 +112,15 @@ ms.lasthandoff: 04/06/2018
 
 Правила нормализации используют регулярные выражения платформы .NET Framework для указания шаблонов числовых соответствий, которые используются сервером для преобразования набираемых строк в формат E.164 для обратного преобразования номеров. Для создания правил нормализации можно указать регулярное выражение для проверки соответствия, и при обнаружении соответствия будет выполнено преобразование. После окончания настройки можно ввести тестовый номер, чтобы проверить работу правил нормализации.
   
-Для получения дополнительных сведений об использовании регулярных выражений .NET Framework видеть [Регулярных выражений .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
+For details about using .NET Framework regular expressions, see [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927).
   
-Просмотреть [Создание и управление ими абонентских групп](create-and-manage-dial-plans.md) для создания и управления нормализации правил для вашего клиента абонентские группы.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage normalization rules for your tenant dial plans.
   
 ### <a name="sample-normalization-rules"></a>Примеры правил нормализации
 
 В следующей таблице приведены примеры правил нормализации, написанных в виде регулярных выражений .NET Framework. Эти примеры приведены только для справки, поэтому не следует рассматривать их в качестве рекомендаций по созданию правил.
   
- **Использование регулярных выражений .NET Framework правил нормализации**
+ **Normalization rules using .NET Framework regular expressions**
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
@@ -138,7 +137,7 @@ ms.lasthandoff: 04/06/2018
  **Абонентская группа Редмонда основана на приведенных выше правилах нормализации.**
   
 В следующей таблице показан пример абонентской группы для города Редмонда (штат Вашингтон, США) на основе правил нормализации из предыдущей таблицы.
-|:-----| | **Абонентская группа Redmond** <br/> | | 5digitExtension <br/> | | 7digitcallingRedmond <br/> | | RedmondSitePrefix <br/> | | RedmondOperator <br/> |
+|:-----| |**Redmond dial plan** <br/> | |5digitExtension <br/> | |7digitcallingRedmond <br/> | |RedmondSitePrefix <br/> | |RedmondOperator <br/> |
    
 > [!NOTE]
 > Названия правил нормализации из предыдущей таблицы не содержат пробелов, но вы можете использовать пробелы в названиях своих правил. Например, первое правило в таблице могло называться 5 digit extension или 5-digit Extension (добавочный номер из 5 цифр). 

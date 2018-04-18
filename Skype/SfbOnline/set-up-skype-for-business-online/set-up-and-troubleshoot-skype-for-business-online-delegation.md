@@ -3,7 +3,6 @@ title: Настройка и устранение неполадок Скайп 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e676b911-5f82-41d8-b4ce-3d0d45c3cd04
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: В этой статье объясняется, как настроить и устранении неполадок Скайп для бизнеса в Интернет делегирования. В этой статье описаны рекомендации по рекомендации по настройке, рекомендации и действия по устранению неполадок.
-ms.openlocfilehash: 343559110b5026f09b22f8f85d6fc95b19abedb6
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 13df45590905bd6bbf7498ec6d2ab912cf976228
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Настройка и устранение неполадок Скайп для бизнеса в Интернет делегирования
 

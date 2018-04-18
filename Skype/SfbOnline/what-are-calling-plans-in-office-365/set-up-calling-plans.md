@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 03/30/2018
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
@@ -23,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 4f591807dcfb4ed4b4d9fceb8340ba18b11549ec
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 194f38811766f96ad192b38730158f01ce9ab234
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-calling-plans"></a>Настройка вызова планы
 Звонков на других Скайп для бизнес-пользователи могут свободно, но если пользователи должны иметь возможность вызова телефоны за пределами вашей организации получить внутренние вызов план или международный вызов плана в Office 365. Это просто установки для бизнеса. 
@@ -46,7 +45,7 @@ ms.lasthandoff: 04/05/2018
 ## <a name="step-3-get-phone-numbers"></a>Шаг 3: Получение телефонных номеров
 Для получения нового номера пользователя тремя способами:
 
-- **Используйте Скайп по центру администрирования бизнеса.** Для некоторых странах или регионах, можно получить номера для пользователей с помощью Скайп по центру администрирования бизнеса, см [Начало e номера телефонов для пользователей.](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md).
+- **Используйте Скайп по центру администрирования бизнеса.** Для некоторых странах или регионах, можно получить номера для пользователей с помощью Скайп по центру администрирования бизнеса, см [Начало e номера телефонов для пользователей.](getting-phone-numbers-for-your-users.md).
     
 - **На существующий номер порта.** Вы можете порта или перенос существующих номеров из текущего поставщика услуг или телефон поставщика в Office 365. Видеть [передачи телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md) или [Управление номера телефонов для вашей организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) для получения дополнительных сведений, помогут вам сделать это.  
   

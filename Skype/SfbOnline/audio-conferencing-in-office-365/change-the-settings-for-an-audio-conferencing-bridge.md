@@ -1,10 +1,9 @@
 ---
-title: Change the settings for an Audio Conferencing bridge
+title: Изменение параметров для конференц-связи аудио мост
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 04/03/2018
 ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
@@ -21,70 +20,70 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Get the steps you need to change settings for a conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business or Microsoft Teams apps. "
-ms.openlocfilehash: 727392bc81bce2fb3cfd84029e6a275e1eed3e24
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+description: 'Получите действий, необходимых для изменения параметров конференц-канал, используемый для запрашивать абонентов и сбор имена и ПИН-коды для организаторам собрания, когда они не используют Скайп для бизнеса или группами Майкрософт приложений. '
+ms.openlocfilehash: 1ab6f5f82d8282f9062439f875ea15d2ab6d7fd5
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Change the settings for an Audio Conferencing bridge
+# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение параметров для конференц-связи аудио мост
 
-When you are setting up Audio Conferencing in Office 365, you will receive phone numbers for your users from what is called an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers. These phone numbers are used when callers dial in to a meeting. The phone number is included at the bottom of the Skype for Business or Microsoft Teams meeting invite.
+При установке аудиоконференций в Office 365, вы получите номера телефонов для пользователей из называемое звукового конференц-канала. Конференц-канал может содержать один или несколько номеров телефонов. Эти номера телефонов используются при абонентов телефонное подключение к собранию. Номер телефона включен в нижней части Скайп для бизнеса или группами Майкрософт приглашение.
   
-The conferencing bridge answers a call and prompts the caller with voice prompts using a meeting auto attendant, and then, depending on your settings, it can play notifications, ask callers to record their name, and control the PIN settings. PINs are given to meeting organizers to allow them to start a meeting when they are aren't using a Skype for Business or Microsoft Teams app.
+Конференц-канал отвечает на звонок, и предлагает вызывающего голосовые приглашения, с помощью собрания автоматически, attendant, а затем, в зависимости от параметров, его можно воспроизвести уведомлений, попросите звонящих записать их имя и управлять параметров ПИН-кода. ПИН-коды, предоставляемые Организаторы собраний для них начало собрания при неиспользуемые Скайп для бизнеса или группами Майкрософт приложения.
 
   > [!IMPORTANT]
-  > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
+  > ПИН-код является только необходимых Организатор собрания при Скайп для бизнеса или группами Майкрософт пользователя приложения еще не запущена собрания. Если все пытается подключиться к собранию, ПИН-код является обязательным для организатора собрания начать собрание. 
 
 > [!CAUTION]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>Using the Microsoft Teams and Skype for Business Admin Center
+## <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>Использование групп Майкрософт и Скайп по центру администрирования бизнеса
 
-1. In the left navigation, go to **Meetings** > **Conference bridges**. 
+1. В левой области переходов, перейдите к **собраниям** > **мостов конференции**. 
 
-2. At the top of the **Conference bridges** page, click **Bridge settings**. 
+2. В верхней части страницы **мостов конференции** нажмите кнопку **Параметры Bridge**. 
 
-3. In the **Bridge settings** pane, select: 
-  - **Meeting entry and exit notifications** If you turn this off, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
+3. В области **Параметры моста** выберите: 
+  - **Собрание и выйти из уведомления** Если отключить этот режим, пользователей, которые уже присоединились к собранию не будут уведомлены, когда кто-то или выходе из собрания.
     
-    When you turn on **Meeting entry and exit notifications**, you can select these options:
+    При **входе и выходе уведомления о собрании**, можно выбрать следующие параметры:
     
-  - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
+  - **Имена или телефонных номеров** Когда пользователи телефонное подключение к собранию, телефонный номер, воспроизводимый при их присоединении к.
     
-  - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
+  - **Мелодии** Когда пользователи телефонное подключение к собранию, звукового сигнала будет воспроизводиться при их присоединении к.
       
-  - **Ask callers to record their name before joining the meeting** If you turn this off, callers won't be asked to record their name before they join a meeting.
+  - **ASK абонентов записать их имя перед присоединением к собранию** Если отключить этот режим, вызывающие объекты не будет предложено записать их имя перед их присоединиться к собранию.
 
-4. To set the PIN length for meetings, select the number of digits you want for the PIN in the **PIN length** list.
+4. Чтобы задать длину ПИН-кода для собраний, выберите количество знаков, которое необходимо использовать для ПИН-кода в списке **Длина ПИН-кода** .
 
-5. To specify whether to send email to your users, enable or disable **Automatically send emails to users if their audio conferencing configuration changes**.
-    See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
+5. Чтобы указать необходимость отправки электронной почты для пользователей, включение или отключение **автоматически отправлять пользователям по электронной почте при изменении их конфигурации аудиоконференций**.
+    Для получения дополнительных сведений в разделе [по электронной почте, автоматически отправляются пользователям при изменении их параметров звука конференц-связи](emails-sent-to-users-when-their-settings-change.md) .
  
 6. Нажмите кнопку **Применить**. 
 
-## <a name="using-skype-for-business-admin-center"></a>Using Skype for Business admin center
+## <a name="using-skype-for-business-admin-center"></a>С помощью Скайп по центру администрирования бизнеса
 
- **Set up the meeting experience when callers join a meeting**
+ **Настройка качества собрания при абонентов присоединиться к собранию**
     
-1. In the **Skype for Business admin center**, in the left navigation go to **Audio conferencing** > **Microsoft bridge settings**.
+1. В **Скайп по центру администрирования бизнеса**, в левой панели навигации выберите пункты **аудиоконференции** > **параметров моста Microsoft**.
     
-2. On the **Microsoft bridge settings** page, under **Meeting join experience**, select:
+2. На странице **параметров моста Microsoft** в разделе **при присоединении к собраниям**выберите:
     
-  - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear the check box, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
+  - **Enable meeting entry and exit notifications to be turned on** This is selected by default. Если снять этот флажок, пользователей, которые уже присоединились к собранию не будут уведомлены, когда кто-то или выходе из собрания.
     
-    When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:
+    При выборе **Включить запись собрание и выйти из уведомления, чтобы быть включенным**эти параметры можно выбрать в списке **Тип объявлений входа и выхода** :
     
-  - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
+  - **Имена или телефонных номеров** Когда пользователи телефонное подключение к собранию, телефонный номер, воспроизводимый при их присоединении к.
     
-  - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
+  - **Мелодии** Когда пользователи телефонное подключение к собранию, звукового сигнала будет воспроизводиться при их присоединении к.
   
-  - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear the check box, callers won't be asked to record their name before they join a meeting.
+  - **ASK абонентов записать их имя перед присоединением к собранию** Этот флажок установлен по умолчанию. Если снять этот флажок, вызывающие объекты не будет предложено записать их имя перед их присоединиться к собранию.
     
 3. См. статью **Изменение параметров моста аудиоконференций**.
     
-**Set the PIN length for meetings**
+**Задать длину ПИН-кода для собраний**
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -92,12 +91,12 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     
 3. В окне **Центр администрирования Skype для бизнеса** на панели навигации слева выберите **Конференц-связь с телефонным подключением** > **Параметры моста Microsoft**.
     
-4. On the **Microsoft bridge settings** page, under **Security**, enter the number of digits you want for the PIN in the **PIN length** list, and then click **Save**.
+4. На странице **параметров моста корпорации Майкрософт** в области **безопасности**введите количество цифр, которое необходимо использовать для ПИН-кода в списке **Длина ПИН-код** и нажмите кнопку **Сохранить**.
     
     > [!IMPORTANT]
-    > The PIN must be between 4 and 12 digits. 
+    > ПИН-код должен быть от 4 до 12 цифр. 
   
-**Select whether to send email to your users**
+**Выберите, следует ли для отправки электронной почты для пользователей**
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -105,13 +104,13 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     
 3. В окне **Центр администрирования Skype для бизнеса** на панели навигации слева выберите **Конференц-связь с телефонным подключением** > **Параметры моста Microsoft**.
     
-4. On the **Microsoft bridge settings** page, select or clear **Automatically send emails to users if their dial-in information changes**, and then click **Save**.
+4. На странице **параметров Microsoft моста** установите или снимите флажок **автоматически отправлять пользователям по электронной почте при изменении их данные для подключения**и нажмите кнопку **Сохранить**.
     
-    See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
+    Для получения дополнительных сведений в разделе [по электронной почте, автоматически отправляются пользователям при изменении их параметров звука конференц-связи](emails-sent-to-users-when-their-settings-change.md) .
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- To save time or automate this process, you can use the [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) cmdlet.
+- Для экономии времени или автоматизировать этот процесс, можно использовать командлет [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) .
     
 - Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     

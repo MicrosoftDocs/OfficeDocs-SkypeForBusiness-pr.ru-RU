@@ -3,36 +3,39 @@ title: Лицензирование Office 365 для Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/15/2018
+ms.date: 04/16/2018
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.reviewer: dearbeen, ninadara
+localization_priority: Normal
 description: Сведения о различных лицензиях Office 365, лицензия, позволяющих пользователям работать с Microsoft Teams, а также о способах включения и отключения этого продукта.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84040cb622fb685b52cb6cdc8ef15e2572ddd6c1
-ms.sourcegitcommit: 8e0833319011e22e285e2d84d7cebb2006723665
+ms.openlocfilehash: 3d9d3ae6a085881a3965a4e25a101172c5874b14
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/18/2018
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Лицензирование Office 365 для Microsoft Teams
 ========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Следующие подписки Office 365 позволяют пользователям работать с Microsoft Teams.
+Следующие подписки Office 365 предоставление пользователям разрешения для групп.
 
-|Планы для малого бизнеса  |Корпоративные планы  |Планы для образования  |
-|---------|---------|---------|
-|Office 365 бизнес базовый     |Office 365 корпоративный E1         |Office 365 для образования         |
-|Office 365 бизнес премиум     |Office 365 корпоративный E3         |Office 365 для образования плюс         |
-|     |Office 365 корпоративный E4 (устарел)         |Office 365 для образования E3 (устарел)         |
-|     |Office 365 корпоративный E5         |Office 365 для образования E5   
-      |Office 365 корпоративный F1 |  |
+|Планы для малого бизнеса  |Корпоративные планы  |Планы для образования  |Планы для разработчиков |
+|---------|---------|---------|---------|
+|Office 365 бизнес базовый     |Office 365 корпоративный E1  |Office 365 для образования |Office 365 для разработчиков     |
+|Office 365 бизнес премиум     |Office 365 корпоративный E3         |Office 365 для образования плюс         |      |
+|Office 365 корпоративный F1     |Office 365 корпоративный E4 (устарел)         |Office 365 для образования E3 (устарел)         |  |
+|     |Office 365 корпоративный E5         |Office 365 для образования E5  | 
+
+
 
 > [!NOTE]
 > Продукт Microsoft Teams также доступен для некоммерческих организаций. Лицензирование для государственных организаций сейчас не поддерживается, но работа в этом направлении ведется.

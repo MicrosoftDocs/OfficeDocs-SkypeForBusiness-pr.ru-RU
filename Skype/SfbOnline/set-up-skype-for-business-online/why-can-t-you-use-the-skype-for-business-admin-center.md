@@ -3,7 +3,6 @@ title: Почему не удается использовать Скайп дл
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: c182d564-1674-4491-b1d9-3e0cb657d4cc
 ms.tgt.pltfrm: cloud
@@ -19,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Сведения, которые можно и нельзя использовать в Скайп для бизнеса центра администрирования и других функций при службы переносится в другом центре обработки данных Майкрософт. '
-ms.openlocfilehash: 0b87061f1ef3861c4c01d9144fa5e2c86f5c2985
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: b591b5352ba0d676462fabbaac446ecc769e204a
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Почему не удается использовать Скайп для бизнеса в Интернет центра администрирования на данный момент?
 
