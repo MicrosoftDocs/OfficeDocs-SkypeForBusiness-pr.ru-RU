@@ -3,7 +3,7 @@
 
 ## [Доступность аудиоконференций и планов звонков в различных странах и регионах](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Аудиоконференций в Office 365 (.. аудио- и audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
+## [Аудиоконференции в Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Общие вопросы по аудиоконференциям](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Поддерживаемые языки для аудиоконференций](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -33,7 +33,6 @@
 ### [Начало аудиоконференции по телефону без ПИН-кода](../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Включение и отключение оповещений о подключении к собранию и выходе из него](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
-### [Использование динамических идентификаторов аудиоконференций в организации](../audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)
 
 ## [Планы звонков в Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Добавление, изменение и удаление местоположения организации для экстренного реагирования](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
@@ -60,6 +59,7 @@
 #### [Управление номерами телефонов в США](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [Как можно использовать идентификатор абонента в организации?](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [Сколько номеров телефонов можно получить?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
+### [О вызове код строки и вызова имени субъекта](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 ### [Поиск номеров телефонов пользователей](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [Просмотр списка номеров телефонов в организации](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Настройка идентификатора звонящего для пользователя](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -72,7 +72,8 @@
 ### [Что такое абонентские группы?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
 ## Телефонная система в Office 365
-### [Создание очереди звонков для телефонной системы](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+### [Что такое телефонная система в Office 365?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+### [Создание очереди звонков в телефонной системе](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Получение номеров телефонов в Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Развертывание телефонов для приложения Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 ### [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
