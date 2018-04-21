@@ -1,5 +1,5 @@
 
-# [Skype for Business Online Admin](../skype-for-business-online.md)
+# [Скайп для администрирования Online бизнеса](../skype-for-business-online.md)
 
 ## [Доступность аудиоконференций и планов звонков в различных странах и регионах](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
@@ -11,7 +11,7 @@
 ### [Изменение параметров моста аудиоконференций](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [Изменение номеров телефонов для моста аудиоконференций](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 ### [Исходящие звонки, позволяющие другим людям присоединиться к собранию](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
-### [Disabling toll-free numbers for specific users](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
+### [Отключение бесплатных номеров для отдельных пользователей](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
 ### [Электронные письма, отправляемые пользователям при изменении параметров](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [Включение и отключение отправки сообщений электронной почты при изменении параметров](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [Разрешение пользователям на запись своих имен при присоединении к собранию](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
@@ -47,7 +47,7 @@
 ### [Получение номеров телефонов для пользователей](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [Получение планов звонков в Office 365](../what-are-calling-plans-in-office-365/how-to-get-calling-plans-for-office-365.md)
 ### [Управление номерами телефонов организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-#### [Phone number management for Australia](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [Управление номер телефона для Австралии](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [Управление номерами телефонов в Бельгии](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [Управление номерами телефонов в Канаде](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [Управление номерами телефонов во Франции](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
@@ -59,6 +59,7 @@
 #### [Управление номерами телефонов в США](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [Как можно использовать идентификатор абонента в организации?](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [Сколько номеров телефонов можно получить?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
+### [О вызове код строки и вызова имени субъекта](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 ### [Поиск номеров телефонов пользователей](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [Просмотр списка номеров телефонов в организации](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Настройка идентификатора звонящего для пользователя](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -71,7 +72,8 @@
 ### [Что такое абонентские группы?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
 ## Телефонная система в Office 365
-### [Создание очереди звонков для телефонной системы](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+### [Что такое телефонная система в Office 365?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+### [Создание очереди звонков в телефонной системе](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Получение номеров телефонов в Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Развертывание телефонов для приложения Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 ### [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
@@ -81,7 +83,7 @@
 #### [Языки для приветствий в голосовой почте и сообщений из Skype для бизнеса](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Настройка голосовой почты телефонной системы  справка для администратора](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Настройка автосекретаря телефонной системы](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [Setting up Phone System in your organization](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
+### [Настройка телефонной системы в вашей организации](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [Что представляют собой автосекретари телефонной системы?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
 ## [Настройка сети для трансляции собраний Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
@@ -165,4 +167,4 @@
 ### [Нормы и правила для Соединенного Королевства](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Процедура подачи претензий для Соединенного Королевства](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Рекомендации по сбору данных](../accessibility-and-regulatory/data-collection-practices.md)
-### [End of life program for the integration of Skype for Business with third-party audio conferencing](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+### [Конец жизненного программы для интеграции Скайп для бизнеса с помощью сторонних производителей аудиоконференций](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)

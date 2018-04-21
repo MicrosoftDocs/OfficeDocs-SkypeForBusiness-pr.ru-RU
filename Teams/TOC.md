@@ -266,7 +266,7 @@
 
 # Устранение неполадок и поддержка
 ## [Получение средств для развертывания Teams](rollout-tools.md)
-## [Известные проблемы для Microsoft Teams](known-issues.md)
+## [Известные проблемы для Microsoft Teams](Known-issues.md)
 ## [Ресурсы поддержки для Microsoft Teams](support-resources.md)
 ## [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
 ## [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
