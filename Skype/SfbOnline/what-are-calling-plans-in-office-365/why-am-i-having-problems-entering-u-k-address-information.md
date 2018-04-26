@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Ниже приведены некоторые причины, почему может не получается адрес или адреса для проверки правильности в Соединенное Королевство (Великобритания).
-ms.openlocfilehash: b2cd02f05bb062b94780f49af4908ac90ed0f674
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: bb1a42f7607979e4a41ec96e9ce80b0b4b8a4dac
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Почему возникают проблемы, введя Соединенное Королевство сведения об адресе?
 
@@ -113,9 +113,9 @@ ms.lasthandoff: 04/18/2018
 
 [Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

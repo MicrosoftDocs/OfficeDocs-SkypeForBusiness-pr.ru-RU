@@ -34,6 +34,7 @@
 ### [Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Включение и отключение оповещений о подключении к собранию и выходе из него](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
+
 ## [Планы звонков в Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Добавление, изменение и удаление местоположения организации для экстренного реагирования](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Добавление или удаление адреса для экстренного реагирования для организации](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
@@ -59,7 +60,7 @@
 #### [Управление номерами телефонов в США](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [Как можно использовать идентификатор абонента в организации?](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [Сколько номеров телефонов можно получить?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
-### [О вызове код строки и вызова имени субъекта](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
+###[О вызове код строки и вызова имени субъекта](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [Поиск номеров телефонов пользователей](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [Просмотр списка номеров телефонов в организации](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Настройка идентификатора звонящего для пользователя](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -160,11 +161,12 @@
 ### [Управление учетными записями пользователей](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Управление организацией с помощью модуля Skype для бизнеса Online Connector](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-## Специальные возможности и нормативные требования
-### [Декларация о соответствии специальных возможностей Skype для бизнеса Online во Франции](../accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Решения со специальными возможностями Skype для бизнеса Online во Франции](../accessibility-and-regulatory/accessibility-solutions-in-france.md)
-### [Продолжительность осуществления бесплатного обратного звонка](../accessibility-and-regulatory/complimentary-dial-out-period.md)
-### [Нормы и правила для Соединенного Королевства](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
-### [Процедура подачи претензий для Соединенного Королевства](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [Рекомендации по сбору данных](../accessibility-and-regulatory/data-collection-practices.md)
-### [Конец жизненного программы для интеграции Скайп для бизнеса с помощью сторонних производителей аудиоконференций](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+## Юридические и регулятивным требованиям
+### [Декларация о соответствии специальных возможностей Skype для бизнеса Online во Франции](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
+### [Решения со специальными возможностями Skype для бизнеса Online во Франции](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Продолжительность осуществления бесплатного обратного звонка](../legal-and-regulatory/complimentary-dial-out-period.md)
+### [Нормы и правила для Соединенного Королевства](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
+### [Процедура подачи претензий для Соединенного Королевства](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Рекомендации по сбору данных](../legal-and-regulatory/data-collection-practices.md)
+### [Экстренных вызовов меток](../legal-and-regulatory/emergency-calling-labels.md)
+### [Конец жизненного программы для интеграции Скайп для бизнеса с помощью сторонних производителей аудиоконференций](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)

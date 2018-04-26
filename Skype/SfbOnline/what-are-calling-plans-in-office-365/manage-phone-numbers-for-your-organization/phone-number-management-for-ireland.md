@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Ирландии.
-ms.openlocfilehash: e799a0bab2bc9005727c6d14247b5ec877b74e43
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 0e71f65d9895213b823c3aeac92e03bb8917d476
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="phone-number-management-for-ireland"></a>Управление номерами телефонов в Ирландии
 
@@ -46,9 +46,9 @@ ms.lasthandoff: 04/18/2018
 
 [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization.md)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Австралии для Скайп для бизнеса в Интернет и рабочих групп Microsoft.
-ms.openlocfilehash: eee327ce128b7756db9955d000b56771c965109e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: feda32495a539d5a2f6082c9a1e53466a54f1cd4
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="phone-number-management-for-australia"></a>Управление номер телефона для Австралии
 > [!IMPORTANT]
@@ -52,4 +52,4 @@ ms.lasthandoff: 04/18/2018
 
 [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization.md)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)

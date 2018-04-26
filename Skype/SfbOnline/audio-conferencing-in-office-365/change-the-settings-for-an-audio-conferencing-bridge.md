@@ -21,11 +21,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Получите действий, необходимых для изменения параметров конференц-канал, используемый для запрашивать абонентов и сбор имена и ПИН-коды для организаторам собрания, когда они не используют Скайп для бизнеса или группами Майкрософт приложений. '
-ms.openlocfilehash: 1ab6f5f82d8282f9062439f875ea15d2ab6d7fd5
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: d5af21ab1df8b2b4b5b7e6d296a585812a5888c1
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение параметров для конференц-связи аудио мост
 
@@ -36,10 +36,9 @@ ms.lasthandoff: 04/18/2018
   > [!IMPORTANT]
   > ПИН-код является только необходимых Организатор собрания при Скайп для бизнеса или группами Майкрософт пользователя приложения еще не запущена собрания. Если все пытается подключиться к собранию, ПИН-код является обязательным для организатора собрания начать собрание. 
 
-> [!CAUTION]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
-## <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>Использование групп Майкрософт и Скайп по центру администрирования бизнеса
+## <a name="teams-logo-30x30pngimagesteams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![команды логотип 30x30.png](../images/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
+   > [!NOTE]
+   > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 1. В левой области переходов, перейдите к **собраниям** > **мостов конференции**. 
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 04/18/2018
  
 6. Нажмите кнопку **Применить**. 
 
-## <a name="using-skype-for-business-admin-center"></a>С помощью Скайп по центру администрирования бизнеса
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-skype-for-business-admin-center"></a>![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) С помощью Скайп по центру администрирования бизнеса
 
  **Настройка качества собрания при абонентов присоединиться к собранию**
     

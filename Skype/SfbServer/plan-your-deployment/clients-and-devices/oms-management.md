@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: " В этой статье рассматриваются рекомендации по планированию использования Operations Management Suite с целью управления устройствами систем комнат Skype версии 2 в существующей реализации Skype для бизнеса Server 2015."
-ms.openlocfilehash: e6409370da3597623526379581081e617f48dd81
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b117b243b638c9e06b21901f14515b51d6931d23
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Планирование управления системами комнат Skype версии 2 с помощью OMS
  
@@ -42,9 +42,9 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="related-tasks"></a>Связанные задачи
 
-1. После подписаться OMS, создайте настраиваемые поля (как описано в [соответствие полей](../../deploy/deploy-clients/with-oms.md#Custom_fields)), необходимые для разбора сведения, которые будут отправляться из консоли систем комнаты Скайп версии 2. Этот компонент включает общие сведения о схеме JSON, задокументированные в [понять записей журнала](../../manage/skype-room-systems-v2/oms.md#Telemetry).
+1. После подписаться OMS, создание настраиваемых полей (как описано в [соответствие полей](../../deploy/deploy-clients/with-oms.md#Custom_fields)) требуется для синтаксического анализа сведения, которые будут отправляться из систем комнаты Скайп версии 2 консоли. Этот компонент включает общие сведения о схеме JSON, задокументированные в [понять записей журнала](../../manage/skype-room-systems-v2/oms.md#Telemetry).
     
-2. Разработка управления представления систем комнаты Скайп версии 2 в OMS (просмотреть [Определение SRS v2 представления в OMS](../../deploy/deploy-clients/with-oms.md#Views)) с помощью конструктора представлений, упомянутых выше.
+2. Разработка представления управления системами комнаты Скайп версии 2 в OMS. Можно либо [Создать панели мониторинга системы комнаты Скайп версии 2 с помощью метода import](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method) ) или [Создание панели мониторинга v2 систем комнаты Скайп вручную](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually).
     
 ## <a name="individual-skype-room-systems-v2-console-requirements"></a>Отдельные требования к консоли систем комнаты Скайп версии 2
 
