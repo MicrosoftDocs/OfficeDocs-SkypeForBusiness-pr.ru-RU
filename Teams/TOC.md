@@ -152,7 +152,6 @@
 ### [Установка языков автосекретаря для аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Задание телефонных номеров, включаемых в приглашения](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Установка длины ПИН-кода для аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 ### [Начало аудиоконференции по телефону без ПИН-кода](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Включение и отключение оповещений о подключении к собранию и выходе из него](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -209,10 +208,10 @@
 
 
 # Безопасность и соответствие требованиям
+## [Обзор обеспечения безопасности и соответствия в Teams](security-compliance-overview.md)
 ## [Рекомендации по сбору данных для Skype для бизнеса и Teams](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Обнаружение электронных данных в Teams](ediscovery-investigation.md)
 ## [Модели удостоверений и проверка подлинности в Microsoft Teams](identify-models-authentication.md)
-## [Обзор обеспечения безопасности и соответствия в Teams](security-compliance-overview.md)
 ## [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
 ## [Поиск событий Teams в журнале аудита](audit-log-events.md)
 ## [Поиск контента в Teams](content-search.md)

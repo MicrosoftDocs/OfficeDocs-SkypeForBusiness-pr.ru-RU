@@ -21,15 +21,15 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Служба переноса собраний (MMS) \x97 это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams."
-ms.openlocfilehash: e240d9913ac543495286d8151bc0200a0f7c196d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 3dd85d0e4eb588a916c7c4738c982a888133b3bd
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Настройка службы переноса собраний (MMS)
 
-[] Служба переноса собраний (MMS)  это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams.
+Служба переноса собраний (MMS)  это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams.  Это средство не переносятся Скайп для собраний Business участникам собрания групп Майкрософт.  
   
  **Требования**
   

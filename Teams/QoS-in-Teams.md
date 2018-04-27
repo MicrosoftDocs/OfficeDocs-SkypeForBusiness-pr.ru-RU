@@ -11,11 +11,11 @@ description: Подготовка сети организации к работ�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 884055dce490b9db8fd31f6e52042a4315633e00
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 09416304ec2b87bed6c24d3a82f2b81895739e11
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Качество обслуживания (QoS) в Microsoft Teams
 

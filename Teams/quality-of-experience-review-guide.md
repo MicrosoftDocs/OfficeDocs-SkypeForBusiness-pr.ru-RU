@@ -11,11 +11,11 @@ description: Руководство по анализа производител
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42af71e9062b68da6e9d3bc77a6c067eee35ec92
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 1f0f5eb9ff2521d56214a9e07be715da21a5bed3
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="quality-of-experience-review-guide"></a>Качество взаимодействия руководство по решению
 
@@ -1095,7 +1095,7 @@ _На рисунке 28 - отчет о версии клиента_
 
 #### <a name="organizational-usage-of-capture-devices-microphones-by-volume"></a>Организационные использования устройства захвата (микрофонов) по тома
 
-Этот отчет используется для оценки использования микрофон тома и счета MOS и можно найти в соответствующие шаблоны в разделе клиентов и устройств*.*
+Этот отчет используется для оценки использования микрофон тома и счета MOS и можно найти в соответствующие шаблоны в разделе клиентов и устройств *.*
 
 > [!IMPORTANT]
 > Устройство отчетов требуется исключить федеративных участников данных. Чтобы исключить федеративных участников данных, необходимо добавить фильтр запроса для **Второй идентификатор клиента** , задайте для вашей организации [ИД клиента](#tenant-id). 

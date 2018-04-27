@@ -3,7 +3,7 @@
 
 ## [Доступность аудиоконференций и планов звонков в различных странах и регионах](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## [Аудиоконференции в Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md)  
+## [Аудиоконференции в Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Общие вопросы по аудиоконференциям](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Поддерживаемые языки для аудиоконференций](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -33,6 +33,7 @@
 ### [Начало аудиоконференции по телефону без ПИН-кода](../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Включение и отключение оповещений о подключении к собранию и выходе из него](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
+
 
 
 ## [Планы звонков в Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
@@ -93,10 +94,19 @@
 ### [Изменение параметров трансляции собраний Skype](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+### Параметры лицензии на основе плана
+#### [Office 365 бизнеса расширенный](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+#### [Расширенный Office 365, Office 365 профессиональный плюс, или Скайп для бизнеса Интернет-версия план 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+#### [Office 365 корпоративный E1, E3 и E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
+#### [Office 365 корпоративный E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
+#### [Office 365 корпоративный E5 (без аудиоконференций)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
+#### [Системы комнат Skype версии 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+#### [GOV, EDU и некоммерческие организации](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 ### [Добавление средств и управление кредитами на связь](../skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [Назначение лицензий Skype для бизнеса и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [Поминутная оплата для аудиоконференций](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
 ### [Настройка кредитов на связь для организации](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
+### [Планы звонков для Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)
 ### [Что такое кредиты на связь?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
 ## [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
@@ -163,7 +173,9 @@
 
 ## Юридические и регулятивным требованиям
 ### [Декларация о соответствии специальных возможностей Skype для бизнеса Online во Франции](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Решения со специальными возможностями Skype для бизнеса Online во Франции](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Решения для специальных возможностей в Skype для бизнеса Online во Франции](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Зарегистрируйтесь ретрансляции IP-адресов в Канада —](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [Ретрансляция IP-адресов в Канада — руководство пользователя](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [Продолжительность осуществления бесплатного обратного звонка](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [Нормы и правила для Соединенного Королевства](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Процедура подачи претензий для Соединенного Королевства](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
