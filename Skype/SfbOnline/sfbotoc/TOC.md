@@ -173,7 +173,9 @@
 
 ## Юридические и регулятивным требованиям
 ### [Декларация о соответствии специальных возможностей Skype для бизнеса Online во Франции](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Решения со специальными возможностями Skype для бизнеса Online во Франции](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Решения для специальных возможностей в Skype для бизнеса Online во Франции](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Зарегистрируйтесь ретрансляции IP-адресов в Канада —](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [Ретрансляция IP-адресов в Канада — руководство пользователя](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [Продолжительность осуществления бесплатного обратного звонка](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [Нормы и правила для Соединенного Королевства](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Процедура подачи претензий для Соединенного Королевства](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
