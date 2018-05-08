@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Узнайте, параметров длины и требования к ПИН-кода и узнайте, как задать длину для собраний в Скайп для бизнеса.
-ms.openlocfilehash: b20e782955b946f676cca5221f63b06cdd4d1be1
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 318e24bf30563d0a790584f9c1ccceb01d93c793
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Задать длину ПИН-кода для собраний аудио конференц-связи
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="setting-the-pin-length"></a>Установка длины ПИН-кода
 
-**Использование групп Майкрософт и Скайп по центру администрирования бизнеса**
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
 
 1. В левой области переходов, перейдите к **собраниям** > **Мостов конференции**. 
 
@@ -45,7 +44,7 @@ ms.lasthandoff: 04/18/2018
 
 4. Нажмите кнопку **Применить**.
 
-**С помощью Скайп по центру администрирования бизнеса**
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
  
 1. В окне **Центр администрирования Skype для бизнеса** на панели навигации слева выберите **Конференц-связь с телефонным подключением** > **Параметры моста Microsoft**.
     
@@ -53,6 +52,9 @@ ms.lasthandoff: 04/18/2018
     
 > [!NOTE]
 > ПИН-код, отличается от идентификатор конференции. Идентификаторы конференции используются абонентов при их присоединении к собранию. Они используются для идентификации собрания. ПИН-код используется для проверки подлинности вызывающего Организатор собрания. 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-more-about-pin-settings"></a>Хотите узнать больше о параметров ПИН-кода?
 

@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Служба переноса собраний (MMS) \x97 это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams."
-ms.openlocfilehash: 3dd85d0e4eb588a916c7c4738c982a888133b3bd
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: 8da3aaabdd772c5de8f110996585f1386f9eeb05
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Настройка службы переноса собраний (MMS)
 

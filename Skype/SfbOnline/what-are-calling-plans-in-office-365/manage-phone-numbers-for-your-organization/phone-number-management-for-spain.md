@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Испании.
-ms.openlocfilehash: 25b989195a7510d8efb2bd2476c30654bb5c23ef
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: d9457132c3b90d9f9a72558cd40abc17514f15b5
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="phone-number-management-for-spain"></a>Управление номерами телефонов в Испании
 

@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Узнайте, как просмотреть список пользователей в вашей организации, которые включены для телефонных конференций из внутри Скайп по центру администрирования бизнеса. '
-ms.openlocfilehash: d97da976941f0853e5948112e4e7c34c7841afc8
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 28fb899586c6a0904126249b769e6fb0004878ca
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Просмотреть список пользователей, для которых включено для аудиоконференции
 
@@ -33,13 +32,16 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="viewing-a-list-of-users"></a>Просмотр списка пользователей
 
-**Использование групп Майкрософт и Скайп по центру администрирования бизнеса**
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
 
 - В левой панели навигации щелкните **Пользователи**.
 
-**С помощью Скайп по центру администрирования бизнеса**
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
     
 - В левой области переходов, перейдите к **аудиоконференции** > **пользователей**.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 ## <a name="what-else-should-i-know"></a>Дополнительные сведения
 

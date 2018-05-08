@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: ae0f26c02bef1262b54cd509f9e539ef68aec112
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 03b6f3b2ce270d1dd6e2855dec4ee2af9a2447c8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>Задайте телефона, номера, находящимся на приглашает
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 04/18/2018
 > [!NOTE]
 > Организатор собрания может использовать не более одного платного и одного бесплатного телефонного номера в приглашении на собрание, однако также имеется ссылка в нижней части приглашения на собрания, по которой открывается список всех телефонных номеров для подключения к собранию. 
   
-## <a name="setting-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Настройка организатором собрания телефонного номера по умолчанию для подключения
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) Значение по умолчанию телефонные номера для организатора собрания
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
@@ -72,7 +71,10 @@ ms.lasthandoff: 04/18/2018
   
   - **Сторонний является поставщик**: поля **бесплатный номер** и **телефоны** используются для ввода цифр для пользователя.
     
-## <a name="reset-audio-conferencing-phone-numbers"></a>Сброс номеров доступа к конференции с телефонным подключением
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-audio-conferencing-phone-numbers"></a>![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) Сброс номеров доступа к конференции с телефонным подключением
 
 1. В **Центр администрирования Skype для бизнеса**выберите **Аудиоконференция**.
     

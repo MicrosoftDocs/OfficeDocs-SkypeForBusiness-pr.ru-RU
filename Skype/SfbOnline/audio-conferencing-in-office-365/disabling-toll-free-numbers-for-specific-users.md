@@ -12,17 +12,16 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Администраторы могут управлять организаторов использование бесплатных номеров для их собраний.
-ms.openlocfilehash: 0d2b4d16d6475587dd85223e0a88f64562664429
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: a63078256ac9ac52b3d405bd3cf1b63120fb77ce
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для отдельных пользователей
 
@@ -43,7 +42,7 @@ ms.lasthandoff: 04/18/2018
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для отдельных пользователей 
 
-**Использование групп Майкрософт и Скайп по центру администрирования бизнеса**
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
 
 1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
 
@@ -55,7 +54,7 @@ ms.lasthandoff: 04/18/2018
 
 5. Нажмите кнопку **применения.** 
 
-**С помощью Скайп по центру администрирования бизнеса**
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
 
 1. В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **пользователей**, а затем выберите пользователя из списка доступных пользователей. 
 
@@ -64,6 +63,9 @@ ms.lasthandoff: 04/18/2018
 3. Снимите флажок **Разрешить использование бесплатных номеров для присоединения к собраниям этого пользователя**. 
  
 4. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**. 
+ 
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
 **С помощью PowerShell**  
 

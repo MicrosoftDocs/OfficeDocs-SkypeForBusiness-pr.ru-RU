@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: 3c40c4bb59dd6628730542f73d8bdbddae7b9ad7
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: 395b1f2d9813c5ef99102c5c50ed7fff884dc594
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>Сброс идентификатора конференции для пользователя
 
@@ -37,7 +36,7 @@ ms.lasthandoff: 04/20/2018
   
 ## <a name="resetting-the-conference-id-for-a-user"></a>Сброс идентификатор конференции для пользователя
 
-**Использование групп Майкрософт и Скайп по центру администрирования бизнеса**
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
 
 1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
 
@@ -47,7 +46,7 @@ ms.lasthandoff: 04/20/2018
 
 2. В окне **сбросить идентификатор конференции** нажмите кнопку **ОК**. A conference ID will be automatically created and an email sent to the user with the new conference ID. По умолчанию по электронной почте отправляются пользователям, но это может быть отключена.   
 
-**С помощью Скайп по центру администрирования бизнеса**
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
     
 1. В **Скайп по центру администрирования бизнеса**, щелкните **аудиоконференции** > **пользователей**, выберите пользователя и нажмите кнопку **Сброс**в области действий в разделе **Идентификатор конференции** .
     
@@ -56,6 +55,9 @@ ms.lasthandoff: 04/20/2018
 > [!NOTE]
 > После сброса идентификатора конференции на электронную почту пользователя отправляется сообщение с новым идентификатором конференции. В большинстве случаев это сообщение электронной почты отправляется на основной адрес электронной почты, которым, как правило, является почтовый ящик Office 365. Сообщение электронной почты содержит новый идентификатор конференции, номера телефонов для телефонного подключения по умолчанию и инструкции по использованию средства обновления для собраний Skype для бизнеса. 
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="what-else-should-i-know"></a>Дополнительные сведения
 
 - Можно отправить все сведения конференц-связи для пользователя в сообщение электронной почты, включая идентификатор конференции и телефонные номера телефонов, нажав кнопку **Отправить сведения о конференции по электронной почте** для пользователя в области действий. ПИН-код не отправляется.
@@ -92,4 +94,4 @@ ms.lasthandoff: 04/20/2018
     
 ## <a name="related-topics"></a>See also
 
-[Сброс ПИН-кода аудиоконференции для пользователя](reset-the-audio-conferencing-pin-for-a-user.md)
+[Сброс аудиоконференций ПИН-кода](reset-the-audio-conferencing-pin.md)

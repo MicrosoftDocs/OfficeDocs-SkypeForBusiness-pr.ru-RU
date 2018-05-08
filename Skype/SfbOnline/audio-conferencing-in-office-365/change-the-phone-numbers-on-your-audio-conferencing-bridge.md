@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: При покупке лицензий аудиоконференций для Skype для бизнеса корпорация Майкрософт предоставит вашей организации мост аудиоконференции . Мост аудиоконференции предоставляет номера телефонов для подключения из различных мест, так что организаторы и участники собрания могут использовать их, чтобы присоединяться к собраниям Skype для бизнеса или Microsoft Teams с помощью телефона.
-ms.openlocfilehash: cb38da52bd2c67a66e354b21712b8cc0d986796c
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: de5959a6182e354a9f12669100b60f66fd70f88f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Изменение номеров телефонов для вашей аудиоконференции моста
 
@@ -53,6 +52,9 @@ ms.lasthandoff: 04/18/2018
     > [!NOTE]
     > Новый номер телефона был назначен, даже в том случае, если номер стала новый номер по умолчанию, не изменить номер по умолчанию для существующих пользователей. Для установки международную по умолчанию или телефоны, который добавляется приглашает организатора собрания, содержатся в разделе [Задание телефона, номера, находящимся на приглашает](set-the-phone-numbers-included-on-invites.md). 
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Шаг 2. Изменение номеров телефонов по умолчанию, которые указаны в приглашениях на собрания пользователей (необязательно)
 
 Номера телефонов по умолчанию для пользователя, из них, включенных в свои собрания приглашает при составлении приглашения на собрание. [Телефона, номера, находящимся на приглашает](set-the-phone-numbers-included-on-invites.md)для получения дополнительных сведений см.

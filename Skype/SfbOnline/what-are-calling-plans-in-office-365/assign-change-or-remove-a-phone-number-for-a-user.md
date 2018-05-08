@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: Узнайте, как назначить, изменить или удалить рабочий номер телефона для вашей Скайп для бизнес-пользователи, за пределами предприятия и клиенты могут позвонить.
-ms.openlocfilehash: 15e275c9b718bc859cd56837198a54d09d302ea4
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: e718c5c64a3778f6a3acaedcaed9b77d955446a1
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение или удаление номер телефона для пользователя
 

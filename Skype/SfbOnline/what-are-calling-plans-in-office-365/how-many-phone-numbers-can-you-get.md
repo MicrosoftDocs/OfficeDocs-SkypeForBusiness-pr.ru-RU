@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: Число номеров телефонов, которые вы можете получить для организации, превышает назначенное число лицензий. Но это зависит от типов приобретенных и назначенных номеров и лицензий. Можно нажать кнопку различные виды телефонных номеров, используемый для вызова планы можно найти сведения о различных телефонных номеров, которые используются в Скайп для бизнеса в Интернет.
-ms.openlocfilehash: 9e98f179753f7c9e135c398e718d7cf9ee418e66
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 5267e22b76aa5a487db77d51cc601a97896b8478
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Сколько номеров телефонов можно получить?
 

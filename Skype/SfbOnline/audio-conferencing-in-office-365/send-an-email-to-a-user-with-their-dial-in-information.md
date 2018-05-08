@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Отправьте сообщение электронной почты с их аудиоконференций сведения пользователей.
-ms.openlocfilehash: 23eb461d84395672f97fc4ff97c4c0ded7aa92e2
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: da006b1e63dd36234acf20bb02fdffba2dc70fa2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Отправка пользователям электронных писем с информацией о конференции с телефонным подключением
 
@@ -35,14 +34,12 @@ ms.lasthandoff: 04/18/2018
     
 - Идентификатор конференции пользователя.
     
-    > [!NOTE]
-    > Статические идентификаторы используются в том случае, когда пользователи в вашей организации не требуется запомнить случайное число; их можно выбрать определенное число или использовать один, который легко запомнить. При использовании идентификаторы динамических конференции каждого собрания, расписания пользователя будет присваивает идентификатор уникальный конференции. Если вы хотите назначить динамических вместо статических конференции идентификаторы, [Перейдите сюда](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
-  
+   
 Ниже приведен пример сообщения электронной почты:
   
 ![Сообщение о конференц-связи с телефонным подключением](../images/audio-conferencing-info.png)
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Отправить сообщение электронной почты с информацией аудиоконференций для пользователя
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-send-an-email-with-audio-conferencing-information-to-a-user"></a>![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) Отправить сообщение электронной почты с информацией аудиоконференций для пользователя
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -54,7 +51,10 @@ ms.lasthandoff: 04/18/2018
     
 > [!TIP]
 > Можно также отправить электронной почты для пользователя с помощью параметров аудиоконференций путем изменения свойства пользователя **аудиоконференции** > **отправлять сведения о конференции по электронной почте**. 
-  
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="what-else-should-you-know-about-this-email"></a>Что еще необходимо знать о таких сообщениях?
 
 - Существует несколько сообщений электронной почты, отправленных для пользователей в вашей организации после их, необходимо включить для аудиоконференций.

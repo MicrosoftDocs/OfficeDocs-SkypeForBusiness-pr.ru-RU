@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: a90eebdc0d75b96feeac94b07333fed47756478b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e183b133339022c9cfbdb58756584efb9b455550
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>Предоставление пользователям возможности записи собственного имени при присоединении к собранию
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Выбор необходимости записи имени вызывающей стороны
 
-**Использование групп Майкрософт и Скайп по центру администрирования бизнеса**
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
 
 1. В левой области переходов, перейдите к **собраниям** > **Мостов конференции**. 
 
@@ -46,7 +45,7 @@ ms.lasthandoff: 04/18/2018
 4. Нажмите кнопку **Применить**.
 
 
-**С помощью Скайп по центру администрирования бизнеса**
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
     
 1. В окне **Центр администрирования Skype для бизнеса** на панели навигации слева выберите **Конференц-связь с телефонным подключением** > **Параметры моста Microsoft**.
     
@@ -58,6 +57,9 @@ ms.lasthandoff: 04/18/2018
     
 3. После внесения изменений нажмите кнопку **Сохранить**.
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
 - Можно сэкономить время и автоматизировать процесс, используя командлет [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).

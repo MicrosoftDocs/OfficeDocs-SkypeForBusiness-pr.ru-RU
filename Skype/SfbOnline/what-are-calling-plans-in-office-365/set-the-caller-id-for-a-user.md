@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: Система телефона в Office 365 предоставляет идентификатора по умолчанию, который является назначенный телефонный номер пользователя. Можно изменить или заблокировать идентификатор звонящего (также называемая вызов код строки) для пользователя. Дополнительные сведения об использовании идентификатора звонящего в вашей организации, можно перейти, как идентификатор звонящего используются в организации.
-ms.openlocfilehash: 8935aa0c7cf54ef5bb04fefa10957daaf91a560f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 8e1ba6806ea48b0a33e70b0dcc21dfdece8e52a8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Настройка идентификатора абонента для пользователя
 Система телефона в Office 365 предоставляет идентификатора по умолчанию, который является назначенный телефонный номер пользователя. Можно изменить или заблокировать идентификатор звонящего (также называемая вызов код строки) для пользователя. Дополнительные сведения об использовании идентификатора звонящего в вашей организации, перейдя [как идентификатор звонящего используются в организации](how-can-caller-id-be-used-in-your-organization.md).
@@ -117,7 +116,6 @@ Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modul
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
   ```
-
   > [!NOTE]  
   > Во всех случаях поле «службы» не должен содержать начальные «+».
 
@@ -183,9 +181,11 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 [Управление номерами телефонов организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
+[О вызове код строки и вызова имени субъекта](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+
 [Условия и положения, распространяющиеся на экстренные вызовы](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
-  
+ 
  

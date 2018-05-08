@@ -15,7 +15,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: 4be2e366a241dfe07a22dfa6487c377283fd58ba
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 5707784f04dc52697ecd3d65b4c48ec105d10247
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
@@ -123,7 +123,7 @@ ms.lasthandoff: 04/26/2018
 > - [Венесуэла](availability-in-venezuela.md)
 > - [Вьетнам](availability-in-vietnam.md)
 
-**Если вы ищете электронной таблицы с помощью всех стран и регионов, загрузите и сохраните [облачных голосовой связи компонента страны или региона доступности электронной таблицы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-03202018)-(en-us).xlsx?raw=true)**.
+**Если вы ищете электронной таблицы с помощью всех стран и регионов, загрузите и сохраните [облачных голосовой связи компонента страны или региона доступности электронной таблицы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-05042018)-(en-us).xlsx?raw=true)**.
 
 ***
 

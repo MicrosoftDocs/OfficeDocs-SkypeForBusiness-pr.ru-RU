@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: Скайп для бизнеса в Интернет с помощью различных телефонных номеров типов в зависимости от назначения, для которого вы хотите использовать номер телефона.
-ms.openlocfilehash: 0055d247aa24f98eb93ab30a1d7ccb15ffb3ca64
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 2ee58b9748b9cc3360570a97563b378649bf60dd
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Различные виды телефонных номеров, используемый для вызова планы
 

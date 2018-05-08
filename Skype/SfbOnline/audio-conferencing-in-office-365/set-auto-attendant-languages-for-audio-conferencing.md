@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Узнайте, как выбрать аудиоконференций auto автосекретаря языков для номера аудиоконференций.
-ms.openlocfilehash: 6b3d0f2fd9a74429a0b1817fc3987c0fdef8698e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c4461f61ce05afedc2663a3e5b61d37370394cd4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Набор auto attendant языков для аудиоконференции
 
@@ -38,7 +37,7 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Настройка конференц-связи auto attendant языков
 
-**Использование групп Майкрософт и Скайп по центру администрирования бизнеса**
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
 
 1. В левой области переходов, перейдите к **собраниям** > **Мостов конференции**.
 
@@ -51,7 +50,7 @@ ms.lasthandoff: 04/18/2018
 
 4. Нажмите кнопку **Применить**.
 
-**С помощью Скайп для бизнеса Интернет-версия**
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **С помощью Скайп для бизнеса в Интернете**
 
 Должен быть [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) или [Скайп для бизнеса администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) для выполнения этого шага.
     
@@ -66,6 +65,9 @@ ms.lasthandoff: 04/18/2018
   
 4. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**.
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="want-else-should-i-know"></a>Хотите другим способом, должны знать?
 
 - Чтобы просмотреть список поддерживаемых языков для аудиоконференции, см [звук конференц-связи](audio-conferencing-supported-languages.md).

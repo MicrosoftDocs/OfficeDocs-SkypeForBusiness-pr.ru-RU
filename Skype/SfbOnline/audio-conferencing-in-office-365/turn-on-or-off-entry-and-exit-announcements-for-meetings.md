@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Узнайте, как включить запись и выхода из Включение и отключение оповещений в Скайп для бизнеса собрания с помощью Скайп по центру администрирования бизнес. '
-ms.openlocfilehash: a9c3788db6b5742b4f2b41961c3843b4939c315b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 8c2eee6d9a6631fa9ade4e3f1dc4b54b74ea4465
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Включение и отключение входе и выходе участников собраний
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="setting-meeting-join-options"></a>Настройка параметров присоединения к собранию
 
-**Использование групп Майкрософт и Скайп по центру администрирования бизнеса**
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
 
 1. В левой области переходов, перейдите к **собраниям** > **Мостов конференции**. 
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 04/18/2018
     
 6. После внесения изменений нажмите кнопку **Применить**.
 
-**С помощью Скайп по центру администрирования бизнеса**
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
     
 1. В окне **Центр администрирования Skype для бизнеса** на панели навигации слева выберите **Конференц-связь с телефонным подключением** > **Параметры моста Microsoft**.
     
@@ -61,6 +60,9 @@ ms.lasthandoff: 04/18/2018
     
 5. После внесения изменений нажмите кнопку **Сохранить**.
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
 - Для экономии времени или автоматизировать этот процесс, можно использовать командлет [Set-CsOnlineDialInConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) .

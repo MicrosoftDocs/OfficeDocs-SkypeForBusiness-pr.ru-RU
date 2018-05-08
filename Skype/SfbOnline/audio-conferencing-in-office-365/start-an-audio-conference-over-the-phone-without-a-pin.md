@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 8a4b9c9cbb21c8a269e9d07285e4ecf68d2f2a7a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4deb415e9fd7154d72b7d598bcc5dfb8eabed6ed
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Начало конференции аудио по телефону без ПИН-кода
 
@@ -37,7 +36,7 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Разрешение и запрет присоединения анонимных абонентов к собранию
 
-**Использование групп Майкрософт и Скайп по центру администрирования бизнеса**
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
 
 1. В левой панели навигации щелкните **Пользователи**. 
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 04/18/2018
     
 4. Нажмите кнопку **Применить**. 
 
-**С помощью Скайп по центру администрирования бизнеса**
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
     
 1. В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **пользователей**. 
     
@@ -58,6 +57,9 @@ ms.lasthandoff: 04/18/2018
 3. На странице свойств пользователя в разделе **параметры собрания**установите или снимите **непроверенный Разрешить звонящим быть первого людей в ходе собрания. Если не, затем они будет ждать в зале ожидания прошедшего проверку подлинности пользователь присоединился к**.
     
 4. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**. 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
  **С помощью Windows Powershell**
   
@@ -69,7 +71,7 @@ ms.lasthandoff: 04/18/2018
 
 ## <a name="what-else-should-you-know"></a>Дополнительные сведения
 
-- Если требуется сбросить ПИН-код, см. раздел [Сброс ПИН-кода для конференц-связи с телефонным подключением для пользователя](reset-the-audio-conferencing-pin-for-a-user.md).
+- Если требуется сбросить ПИН-код, ознакомьтесь со [Сброс ПИН-кода конференц-связи звука](reset-the-audio-conferencing-pin.md).
     
 - Если анонимный доступ или не требует ПИН-код начать собрание:
     

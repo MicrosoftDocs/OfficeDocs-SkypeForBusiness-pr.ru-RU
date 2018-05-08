@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Узнайте, как выполнять поиск номерам конференц-связь в пределах Скайп для бизнеса. '
-ms.openlocfilehash: d4e1ef41a02a0197133d2b5cc08a4f35f961e4ee
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c50c7a06aae2e9e68a5f9a2c66fc04f912a35705
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>Список номеров аудиоконференции
 
@@ -43,7 +42,7 @@ ms.lasthandoff: 04/18/2018
 > [!NOTE]
 > Внутренние телефонных номеров выделенным для вашей организации и являются единственными, которые могут быть заданы как номер телефона по умолчанию. Тем не менее международных телефонных номеров может совместно использоваться несколькими организациями. 
   
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Чтобы просмотреть номера телефонов аудиоконференций
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--to-view-your-audio-conferencing-phone-numbers"></a>![sfb логотип 30x30.png](../images/sfb-logo-30x30.png)  Чтобы просмотреть номера телефонов аудиоконференций
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -57,6 +56,9 @@ ms.lasthandoff: 04/18/2018
     
 > [!NOTE]
 > Можно перейти к **аудиоконференции** > **пользователей** и выберите Свойства пользователя, чтобы изменить значение по умолчанию, какой номер, выбрав новый номер из списка доступных номеров в вашей организации. В разделе [Задайте телефона, номера, находящимся на приглашает](set-the-phone-numbers-included-on-invites.md). 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 

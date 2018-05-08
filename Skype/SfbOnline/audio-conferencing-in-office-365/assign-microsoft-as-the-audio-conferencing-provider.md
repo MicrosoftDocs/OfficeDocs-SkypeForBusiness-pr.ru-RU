@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-- Strat_SB_PSTN
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 2ccb2b9a2b0a611d46056a8369dcb92d294c081f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e5e11adb4bf02e87de316d70be48b60d3ecd1d7f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Назначение Майкрософт в качестве поставщика услуг аудиоконференций
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 04/18/2018
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Назначение Майкрософт в качестве поставщика услуг аудиоконференций
 
-### <a name="using-the-skype-for-business-admin-center"></a>Использование Центра администрирования Skype для бизнеса
+### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) Использование Центра администрирования Skype для бизнеса
 
 1. Перейдите в раздел **Центр администрирования Office 365** > **Skype для бизнеса**.
     
@@ -49,6 +48,9 @@ ms.lasthandoff: 04/18/2018
     > Так как вы используете Microsoft в качестве поставщика аудиоконференций и существует несколько телефонных номеров, можно использовать раскрывающегося списка **номер счета по умолчанию** для выбора звукового номер по умолчанию для пользователя.
   
 5. Нажмите кнопку **Сохранить**.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 ### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>Применение сценария Windows PowerShell для небольшого количества пользователей
 

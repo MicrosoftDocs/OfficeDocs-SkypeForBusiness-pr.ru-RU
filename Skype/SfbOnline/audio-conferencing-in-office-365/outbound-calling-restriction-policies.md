@@ -11,17 +11,16 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Администраторы могут управлять тип звукового конференц-связи и конечного пользователя вызовы в ТСОП, которые могут создаваться пользователями.
-ms.openlocfilehash: a842366a5788de960cf5f0338219903ebe3d93f7
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 2929198a8bfff866f0d9f6d375593cd429885b2e
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Исходящих вызовов политики ограниченного использования программ для вызовов ТСОП аудиоконференции и пользователей
 
@@ -40,7 +39,7 @@ ms.lasthandoff: 04/18/2018
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Ограничить исходящие вызовы аудиоконференций 
 
-**Использование групп Майкрософт и Скайп по центру администрирования бизнеса**
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
 
 1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
 
@@ -52,7 +51,7 @@ ms.lasthandoff: 04/18/2018
 
 5. Нажмите кнопку **Применить**. 
 
-**С помощью Скайп по центру администрирования бизнеса**
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
 
 1.  В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **пользователей**, а затем выберите пользователя из списка доступных пользователей.
 
@@ -63,6 +62,9 @@ ms.lasthandoff: 04/18/2018
     ![Ограничения на параметры телефонные контакты](../images/restrictions-to-dial-outs.png)
 
 5. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 **С помощью PowerShell**
 
