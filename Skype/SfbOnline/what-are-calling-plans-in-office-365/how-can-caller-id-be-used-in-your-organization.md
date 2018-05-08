@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: Идентификатор звонящего можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, называется CallingLineIdentity.
-ms.openlocfilehash: 4dc596e8301310f2c229c46add5795e72c432daf
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: a1a809805b96152e4b205c8f38b3c8409014eb55
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Как можно использовать идентификатор звонящего в вашей организации
 

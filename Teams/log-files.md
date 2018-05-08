@@ -1,19 +1,19 @@
 ---
-title: "Использование файлов журналов для устранения неполадок в Microsoft Teams"
+title: Использование файлов журналов для устранения неполадок в Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Сведения о журналах отладки, мультимедиа и рабочих журналах, создаваемых Microsoft Teams, их расположении и роли при устранении неполадок."
+description: Сведения о журналах отладки, мультимедиа и рабочих журналах, создаваемых Microsoft Teams, их расположении и роли при устранении неполадок.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51cac5707b6465b2de4c1c69fdd430914769bb91
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 4fb5cdb663a2769e4362461c69d8313fa24ade88
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 05/08/2018
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Использование файлов журналов для устранения неполадок в Microsoft Teams
 =================================================
@@ -87,7 +87,7 @@ ms.lasthandoff: 02/19/2018
 
 |Клиент |Расположение |
 |---------|---------|
-|Windows     |%appdata%\Roaming\Microsoft\Teams\media-stack\*.etl         |
+|Windows     |%AppData%\Microsoft\Teams\media-Stack\*.etl         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
 
 
@@ -98,5 +98,5 @@ ms.lasthandoff: 02/19/2018
 
 |Клиент |Расположение |
 |---------|---------|
-|Windows     |%appdata%\Roaming\Microsoft\Teams\logs.txt         |
+|Windows     |%AppData%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |

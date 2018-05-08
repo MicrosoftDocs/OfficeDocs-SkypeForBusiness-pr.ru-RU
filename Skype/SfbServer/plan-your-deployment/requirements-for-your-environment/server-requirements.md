@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Сводка: Подготовка к Скайп Business Server 2015 с для серверов в этом разделе. Представленная здесь информация об оборудовании, ОС, базах данных, программном обеспечении, а также все системные требования и рекомендации помогут выполнить установку и развертывание фермы серверов.'
-ms.openlocfilehash: 28e9cf9be6f52a5e7f35a2d958832b1f13ada3b0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: dfcde40c8084279dca39e830a84ad6e9631530dd
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Требования к серверу для Skype для бизнеса Server 2015
  
@@ -153,11 +153,17 @@ ms.lasthandoff: 05/03/2018
 |Windows Media Format Runtime  <br/> | Для Windows Server 2016, Windows Server 2012 и Windows Server 2012 R2 вам потребуются для установки компонента **Базы мультимедиа** в **Диспетчер сервера**. Теперь вашей Скайп для установки Business Server 2015 без, фактически можно начать, но вам будет предложено установить его и выполняет перезагрузку Установка сервера, прежде чем Скайп для Business Server 2015. Лучше сделать это заранее. <br/> |
 |Silverlight  <br/> |Можно установить последнюю версию Silverlight по [ссылке](https://www.microsoft.com/silverlight/).  <br/> |
    
+> [!NOTE] 
+> Кроме того, может потребоваться включение просмотра каталогов при использовании балансировки нагрузки. В противном случае — пустая страница загрузится которого балансировки нагрузки рассмотрите возможность сбоя. 
+
 В качестве помощи в установке приведем ниже пример сценария PowerShell для автоматического запуска:
-  
+
 ```
-Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
+Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS, Desktop-Experience, Telnet-Client
 ```
+
+> [!NOTE] 
+> Команда выполняет поиск исходных файлов в определенном порядке. При наличии интернет-подключения команда обращается к центру обновления Windows. Однако в автономном режиме необходимо обеспечить доступность исходных файлов для команды. Дополнительные сведения об использовании PowerShell к установке ролей и компонентов, просмотрите [установки или удаления роли, службы ролей или компонентов](https://technet.microsoft.com/en-us/library/hh831809.aspx) не забудьте центра обновления Windows снова запустите после установки необходимых компонентов, даже при использовании команды PowerShell.
 
  **Совет директоров, потребуется также определить:**
   

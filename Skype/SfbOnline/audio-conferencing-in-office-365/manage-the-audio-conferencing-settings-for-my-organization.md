@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: db355e71ff90a43c46900ad2b95b9e8593a9094d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b2759e4ee1f8e8cac2f753eb5afecbf13642abb0
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Управление параметрами звука конференц-связи для организации
 
@@ -72,29 +72,7 @@ See [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId
 >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Пользователи могут использовать Скайп средством переноса собрания бизнеса требуется обновить их существующих собраний. Чтобы узнать, как для загрузки, установки и запуска Скайп для бизнеса средство обновления собрания, обратитесь к разделу: [Средство обновления собрания для Скайп для бизнес-деятельности и Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Скайп для бизнеса в Интернет, средство миграции собрания (64-разрядная версия)](http://go.microsoft.com/fwlink/?LinkID=626047)и [Скайп для бизнеса в Интернет, собрания Средство миграции (32-разрядная версия)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
   
 Изменение поставщика аудиоконференций с Microsoft на стороннего поставщика
-  
-## <a name="change-the-audio-conferencing-provider-from-microsoft-to-a-third-party-provider"></a>Изменение поставщика аудиоконференций корпорацией Майкрософт стороннего поставщика
-
-![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
-
-1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
-    
-3. В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **пользователей**, а затем выберите изменяемый поставщик услуг аудиоконференций для пользователя.
-    
-4. In the Action pane, click **Edit**. 
-    
-5. На странице " **Свойства** " в разделе **имя поставщика**выберите поставщика аудиоконференций для пользователя.
-    
-    > [!NOTE]
-    > Microsoft можно выбрать как поставщика услуг аудиоконференций, или значение **None** , только при выборе нескольких пользователей.
-  
-6. См. статью **Изменение поставщика конференц-связи с телефонным подключением для пользователей**. 
-    
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Включение или отключение сообщений, отправляемых в пользователей аудиоконференций
 
 ![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**

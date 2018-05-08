@@ -73,8 +73,7 @@
 ### [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [Что такое абонентские группы?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## Телефонная система в Office 365
-### [Что такое телефонная система в Office 365?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Телефонной системой в Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Создание очереди звонков в телефонной системе](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Получение номеров телефонов в Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Развертывание телефонов для приложения Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -86,7 +85,8 @@
 #### [Настройка голосовой почты телефонной системы  справка для администратора](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Настройка автосекретаря телефонной системы](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [Настройка телефонной системы в вашей организации](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
-### [Что представляют собой автосекретари телефонной системы?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+### [Что такое автосекретари телефонной системы?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+#### [Настройка автосекретаря телефонной системы](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 ## [Настройка сети для трансляции собраний Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Заблокированные лицензии пользователей для трансляции собраний Skype](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
