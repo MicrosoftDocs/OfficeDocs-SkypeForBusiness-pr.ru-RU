@@ -20,7 +20,7 @@
 ### [Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП](../audio-conferencing-in-office-365/outbound-calling-restriction-policies.md)
 ### [Номера телефонов для аудиоконференции](../audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md)
 ### [Сброс идентификатора конференции для пользователя](../audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md)
-### [Сброс ПИН-кода для аудиоконференции для пользователя](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin-for-a-user.md)
+### [Сброс аудиоконференций ПИН-кода](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin.md)
 ### [Просмотр, изменение и сброс идентификатора конференц-связи, назначенного пользователю](../audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user.md)
 ### [Просмотр списка номеров для аудиоконференции](../audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers.md)
 ### [Просмотр списка пользователей, активированных для аудиоконференции](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
