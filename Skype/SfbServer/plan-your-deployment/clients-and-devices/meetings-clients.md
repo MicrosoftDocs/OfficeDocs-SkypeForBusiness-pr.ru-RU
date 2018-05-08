@@ -7,16 +7,18 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Сводка: ИТ-специалистов следует Обзор требований к поддержка Скайп для бизнеса веб-приложения и приложения собраний Скайп при планировании для Скайп Business Server 2015. В этой статье не предназначен для пользователей из этих приложений.'
-ms.openlocfilehash: 4cbfead665d6e325d43f274311d44b5dc48d712e
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: d99d718f02950cd643f7ccf79064eae3b0b83f72
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Планирование для клиентов собрания (веб-приложения и приложения собрания)
  

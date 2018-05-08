@@ -7,16 +7,18 @@ ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: 'Сводка: Изучите эти ссылки на сведения о разработке понятий, логических и физических моделей для настройки Скайп для функции Business Server 2015, серверов и топологий.'
-ms.openlocfilehash: d4e1b4e7164543233a6a78c17807b4f8611d44b2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 66f6e8a6ea422f3f264d1773385a28eb57a1d587
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>Планирование развертывания Skype для бизнеса Server 2015
  

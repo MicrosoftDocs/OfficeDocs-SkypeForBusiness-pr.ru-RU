@@ -7,16 +7,18 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Сводка: Подготовка к Скайп Business Server 2015 с для серверов в этом разделе. Представленная здесь информация об оборудовании, ОС, базах данных, программном обеспечении, а также все системные требования и рекомендации помогут выполнить установку и развертывание фермы серверов.'
-ms.openlocfilehash: 8a86c96554d7aa1be0597c5c82614cd43816540f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 28e9cf9be6f52a5e7f35a2d958832b1f13ada3b0
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Требования к серверу для Skype для бизнеса Server 2015
  

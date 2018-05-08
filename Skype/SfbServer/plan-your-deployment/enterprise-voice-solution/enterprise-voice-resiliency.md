@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Узнайте, как обеспечить поддержку устойчивости голосовой связи в Скайп Business Server корпоративной голосовой связи, в центральных сайтов и сайтов филиалов. Доступны следующие варианты сайта филиала развертывания для обеспечения связи в филиалах или для обеспечения связи в филиалах.
-ms.openlocfilehash: 4303df46b7430ec8a7e3891baec7f9ff99d85480
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: f5497c31e407d5d03564ab7caf7a0b8c8d4e0914
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Планирование устойчивости корпоративной голосовой связи в Skype для бизнеса Server 2015
  

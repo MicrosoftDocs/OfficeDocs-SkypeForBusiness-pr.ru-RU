@@ -6,20 +6,18 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Skype16
-- IT_Skype16
-ms.custom:
 - Strat_SB_Hybrid
-- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Сводка: Обзор сценариев для Скайп для параметров развертывания Business Server 2015. Этот раздел будет полезен при использовании как одного сервера, так и пула серверов с DNS и средствами балансировки нагрузки (HLB).'
-ms.openlocfilehash: b3c9299586856b59a8f07f7f2bcb460268c6d687
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 52a083f0df806d719cba2b596ded1e016c838ea8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server-2015"></a>Расширенные пограничного сервера DNS планирование для Скайп Business Server 2015
  

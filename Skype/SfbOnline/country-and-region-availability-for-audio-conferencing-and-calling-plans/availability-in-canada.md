@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Здесь представлены доступные в Канаде службы Office 365 для Microsoft Teams и Skype для бизнеса.
-ms.openlocfilehash: abc0ecee302e3f646e43fcbb54e5ecf2e19ee5bd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6a5f5f0c73d82880acfd9adfa824825ed41b4f85
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="availability-in-canada"></a>Доступность в Канаде
 
@@ -51,8 +51,6 @@ ms.lasthandoff: 04/18/2018
 |Голосовая почта  <br/> |Доступно  <br/> |
 
 ## <a name="calling-plans"></a>Планы звонков
-> [!IMPORTANT]
-> В Канаде эта услуга доступна только участникам программ предварительной оценки и ранним пользователям. Дополнительные сведения: [Skype Preview Programs](https://www.skypepreview.com) (Программы предварительной оценки Skype)
     
 |**Функция**|**Сведения**|
 |:-----|:-----|
@@ -69,6 +67,9 @@ ms.lasthandoff: 04/18/2018
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+
+> [!Note] 
+> При вызове план (внутренние или внутреннее и международное) номер телефона в Канада, он будет рассматриваться как внутренних звонков набираемый пользователем в США. Это также так, когда пользователь в Канада будет выполнять звонок в США число.
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: Решения для политики расположения для развертывания E9-1-1 в Скайп для Business Server корпоративной голосовой связи, включая пользователей, которые для включения и как для поддержки перемещаемых профилей пользователей.
-ms.openlocfilehash: 966344f2cfc7a964c9dda0898b4ba99c42e03193
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 72a2a290a846ec39b13f51a16ea231249ea11b9b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server-2015"></a>Предоставление пользователям доступа к службе E9-1-1 в Skype для бизнеса Server 2015
  

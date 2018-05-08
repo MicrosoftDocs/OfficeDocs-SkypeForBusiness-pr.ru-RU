@@ -7,16 +7,18 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 0c4a0ec4-1a2b-4ce8-8323-f797162ab4fe
 description: Сведения об телефонной системой корпорации Майкрософт в решениях для Office 365 (облако УАТС) для включения управления звонками и возможности Exchange закрытый филиала (УАТС) в облаке Office 365.
-ms.openlocfilehash: abef43d3d90f14272beb2eb71d2cc344b80db8bf
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 2b8fbad9d5ec81f4e950aa7dfe9041913761f1fb
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-your-phone-system-in-office-365-cloud-pbx-solution"></a>Планирование решения телефонной системы в Office 365 (облачная УАТС)
  

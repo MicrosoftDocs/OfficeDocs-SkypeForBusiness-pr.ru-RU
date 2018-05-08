@@ -11,14 +11,15 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
+  localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7e35c95e2d5ed6a70ac4f424a22544edadf6f521
-  ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+  ms.openlocfilehash: 4c23c7aebcf45c190da29287f4cf7f6f1a4aeb7d
+  ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/28/2018
+  ms.lasthandoff: 05/03/2018
 items:
 - durationInMinutes: 1
   content: "Это учебное руководство знакомит читателей с возможностями звонков в Microsoft Teams, которые реализованы на базе Телефонной системы Office 365. Мы опишем техническое планирование, необходимое для внедрения Телефонной системы, ее настройку, а также мониторинг использования и качества звонков.\n\nЦелевая аудитория данного курса: \n\n- ИТ-специалисты.\n\n- Сотрудники, ответственные за планирование, развертывание и управление Microsoft Teams.\n\n- Организации, планирующие внедрить функции звонков в среде Microsoft Teams.\n\nСодержание руководства:\n\n- Что такое звонки в Microsoft Teams?\n\n- Как планировать звонки в Microsoft Teams.\n\n- Как настроить звонки в Microsoft Teams.\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\nЧтобы задать вопрос или отправить отзыв по этому руководству, вы можете сделать следующее:\n\n- Оставьте сообщение в разделе комментариев в нижней части страницы \"Дальнейшие действия\" этого руководства.</a>\n\n- Отправьте нам письмо по электронной почте: [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Calling)\n\nЧтобы оставить отзыв о продукте Microsoft Teams, например поделиться идеями новых функций, зайдите на портал [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"

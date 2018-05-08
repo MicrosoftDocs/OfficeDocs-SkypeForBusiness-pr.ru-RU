@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Узнайте о правил трансляции и нормализации строк в Скайп Business Server корпоративной голосовой связи для абонентской группы.
-ms.openlocfilehash: ff3718e89d152a2b6c7d1c78ccaaa055d00ffcdb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c72e3909fdc0e4485683382b84a5d737fa75b8fc
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="translation-rules-in-skype-for-business-server-2015"></a>Правила преобразования в Skype для бизнеса Server 2015
  
@@ -37,7 +39,7 @@ ms.lasthandoff: 03/28/2018
   
 |**Описание**|**Начальных цифр**|**Длина**|**Цифры для удаления**|**Цифры для добавления**|**Шаблон поиска соответствия**|**Преобразование**|**Пример**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Обычный междугородний звонок в США  <br/> (убирается '+')  <br/> |+ 1  <br/> |Ровно 12  <br/> |1  <br/> |0  <br/> |^\+(1\d {10}) $  <br/> |$1  <br/> |+14255551010 преобразуется в 14255551010  <br/> |
+|Обычный междугородний звонок в США  <br/> (убирается '+')  <br/> |+ 1  <br/> |Ровно 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 преобразуется в 14255551010  <br/> |
 |Международный звонок из США  <br/> (убирается '+' и добавляются цифры 011)  <br/> |+  <br/> |Не менее 11  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 преобразуется в 011441235551010  <br/> |
    
 

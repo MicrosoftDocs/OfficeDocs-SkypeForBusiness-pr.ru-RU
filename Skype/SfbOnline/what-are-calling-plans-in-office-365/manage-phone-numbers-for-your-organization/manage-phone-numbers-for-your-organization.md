@@ -15,19 +15,18 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: Для каждой страны или региона существуют свои инструкцииУказания по получению номеров телефоновных номеровдля пользователей в Skype для бизнеса  Online и Microsoft  Teams отличаются в зависимости от страны или региона. Воспользуйтесь ссылкой на вашу страну или регион для получения необходимой информации.
-ms.openlocfilehash: 42a16c8dbdddd2907dfd2da8debfcd2dcd583487
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: ae3a68c81d147441559dc91e2b22522484642b4e
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Управление номерами телефонов организации
 Существует три способа получить пользователей и службы (международную и бесплатных) номеров для вашей организации.
