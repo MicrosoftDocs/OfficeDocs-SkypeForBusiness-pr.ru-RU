@@ -768,8 +768,8 @@
 #### [Изменения, внесенные с подготовки домена](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md)
 #### [Изменения, сделанные Grant-CsSetupPermission](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-cssetuppermission.md)
 #### [Изменения, сделанные Grant-CsOUPermission](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-csoupermission.md)
-## [Разделы справки](../help-topics/help-topics.md)
-### [Справка по DepWiz](../help-topics/help-depwiz/help-depwiz.md)
+## Разделы справки
+### Справка по DepWiz
 #### [Подготовка отдельного сервера Standard Edition (введение)](../help-topics/help-depwiz/prepare-single-standard-edition-server-intro.md)
 #### [Подготовка отдельного сервера Standard Edition (вызов)](../help-topics/help-depwiz/prepare-single-standard-edition-server-invoke.md)
 #### [Просмотр сертификата](../help-topics/help-depwiz/view-certificate.md)
@@ -840,7 +840,7 @@
 #### [Мастер развертывания: Путь к MSI установщика](../help-topics/help-depwiz/deployment-wizard-path-to-msi-installer.md)
 #### [Мастер развертывания: Центр обновления Windows](../help-topics/help-depwiz/deployment-wizard-windows-update.md)
 #### [Мастер развертывания: Объединенных коммуникаций API](../help-topics/help-depwiz/deployment-wizard-unified-communications-api.md)
-### [Справка по LSCP](../help-topics/help-lscp/help-lscp.md)
+### Справка по LSCP
 #### [С помощью панели управления](../help-topics/help-lscp/use-the-control-panel.md)
 #### [Политика версий клиентов: Создание новой или редактирование существующей](../help-topics/help-lscp/client-version-policy-create-new-or-edit-existing.md)
 #### [Политика версий клиентов](../help-topics/help-lscp/client-version-policy.md)
@@ -1009,7 +1009,7 @@
 #### [Мастер гибридной: перемещение пользователей](../help-topics/help-lscp/hybrid-wizard-move-user.md)
 #### [Мастер управления гибридной](../help-topics/help-lscp/hybrid-manageability-wizard.md)
 #### [Мастер гибридной: вход на портал Office 365](../help-topics/help-lscp/hybrid-wizard-sign-in-to-office-365.md)
-### [Справка по планированию](../help-topics/help-planning/help-planning.md)
+### Справка по планированию
 #### [Архивирование](../management-tools/planning-tool/archiving.md)
 #### [Аудио и видеоконференций](../management-tools/planning-tool/audio-video-conferencing.md)
 #### [Сайты филиалов](../management-tools/planning-tool/branch-sites.md)
@@ -1035,7 +1035,7 @@
 #### [Инфраструктура голосовой связи](../management-tools/planning-tool/voice-infrastructure.md)
 #### [Передачи голосовых данных](../management-tools/planning-tool/voice-traffic.md)
 #### [Веб-конференции](../management-tools/planning-tool/web-conferencing.md)
-### [Справка по TopoBld](../help-topics/help-topobld/help-topobld.md)
+### Справка по TopoBld
 #### [Добавление дополнительных доменов SIP](../help-topics/help-topobld/add-additional-sip-domains.md)
 #### [Добавление файлового хранилища сервера архивации](../help-topics/help-topobld/add-archiving-server-file-store.md)
 #### [Добавление сервера архивации](../help-topics/help-topobld/add-archiving-server.md)

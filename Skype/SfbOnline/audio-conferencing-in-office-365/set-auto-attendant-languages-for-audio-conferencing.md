@@ -15,71 +15,73 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Узнайте, как выбрать аудиоконференций auto автосекретаря языков для номера аудиоконференций.
-ms.openlocfilehash: 6b3d0f2fd9a74429a0b1817fc3987c0fdef8698e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c4461f61ce05afedc2663a3e5b61d37370394cd4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing"></a><span data-ttu-id="38079-103">Набор auto attendant языков для аудиоконференции</span><span class="sxs-lookup"><span data-stu-id="38079-103">Set auto attendant languages for Audio Conferencing</span></span>
+# <a name="set-auto-attendant-languages-for-audio-conferencing"></a><span data-ttu-id="03d6f-103">Набор auto attendant языков для аудиоконференции</span><span class="sxs-lookup"><span data-stu-id="03d6f-103">Set auto attendant languages for Audio Conferencing</span></span>
 
-<span data-ttu-id="38079-104">Автосекретарь конференции для Скайп для бизнеса и рабочих групп Microsoft можно приветствовать звука звонящих в некоторых языков при их присоединении к собранию.</span><span class="sxs-lookup"><span data-stu-id="38079-104">The Audio Conferencing auto attendant for Skype for Business and Microsoft Teams can greet audio callers in a number of different languages when they join a meeting.</span></span>
+<span data-ttu-id="03d6f-104">Автосекретарь конференции для Скайп для бизнеса и рабочих групп Microsoft можно приветствовать звука звонящих в некоторых языков при их присоединении к собранию.</span><span class="sxs-lookup"><span data-stu-id="03d6f-104">The Audio Conferencing auto attendant for Skype for Business and Microsoft Teams can greet audio callers in a number of different languages when they join a meeting.</span></span>
   
-<span data-ttu-id="38079-105">Выберите один основной язык и до четырех дополнительных языков.</span><span class="sxs-lookup"><span data-stu-id="38079-105">Choose one primary language and up to four secondary languages.</span></span> <span data-ttu-id="38079-106">Первым используется основной язык, заданная и что выбрать дополнительные языки будут использовать автосекретаря.</span><span class="sxs-lookup"><span data-stu-id="38079-106">The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select.</span></span> 
+<span data-ttu-id="03d6f-105">Выберите один основной язык и до четырех дополнительных языков.</span><span class="sxs-lookup"><span data-stu-id="03d6f-105">Choose one primary language and up to four secondary languages.</span></span> <span data-ttu-id="03d6f-106">Первым используется основной язык, заданная и что выбрать дополнительные языки будут использовать автосекретаря.</span><span class="sxs-lookup"><span data-stu-id="03d6f-106">The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select.</span></span> 
   
 > [!NOTE]
->  <span data-ttu-id="38079-107">Языки можно настроить на внутреннем звука номеров доступа только.</span><span class="sxs-lookup"><span data-stu-id="38079-107">You can configure the languages on domestic audio access phone numbers only.</span></span>
+>  <span data-ttu-id="03d6f-107">Языки можно настроить на внутреннем звука номеров доступа только.</span><span class="sxs-lookup"><span data-stu-id="03d6f-107">You can configure the languages on domestic audio access phone numbers only.</span></span>
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a><span data-ttu-id="38079-108">Настройка конференц-связи auto attendant языков</span><span class="sxs-lookup"><span data-stu-id="38079-108">Set the conferencing auto attendant languages</span></span>
+## <a name="set-the-conferencing-auto-attendant-languages"></a><span data-ttu-id="03d6f-108">Настройка конференц-связи auto attendant языков</span><span class="sxs-lookup"><span data-stu-id="03d6f-108">Set the conferencing auto attendant languages</span></span>
 
-<span data-ttu-id="38079-109">**Использование групп Майкрософт и Скайп по центру администрирования бизнеса**</span><span class="sxs-lookup"><span data-stu-id="38079-109">**Using the Microsoft Teams and Skype for Business Admin Center**</span></span>
+<span data-ttu-id="03d6f-109">![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**</span><span class="sxs-lookup"><span data-stu-id="03d6f-109">![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**</span></span>
 
-1. <span data-ttu-id="38079-110">В левой области переходов, перейдите к **собраниям** > **Мостов конференции**.</span><span class="sxs-lookup"><span data-stu-id="38079-110">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span>
+1. <span data-ttu-id="03d6f-110">В левой области переходов, перейдите к **собраниям** > **Мостов конференции**.</span><span class="sxs-lookup"><span data-stu-id="03d6f-110">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span>
 
-2. <span data-ttu-id="38079-111">Выберите номер телефона аудиоконференций из списка и в верхней части страницы, нажмите кнопку **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="38079-111">Select the audio conferencing phone number from the list, and at the top of the page, click **Edit**.</span></span>
+2. <span data-ttu-id="03d6f-111">Выберите номер телефона аудиоконференций из списка и в верхней части страницы, нажмите кнопку **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="03d6f-111">Select the audio conferencing phone number from the list, and at the top of the page, click **Edit**.</span></span>
 
-3. <span data-ttu-id="38079-112">В области справа выберите нужный язык по умолчанию и любые дополнительные языки.</span><span class="sxs-lookup"><span data-stu-id="38079-112">In the pane on the right, choose the default language you want and any alternate languages.</span></span> 
+3. <span data-ttu-id="03d6f-112">В области справа выберите нужный язык по умолчанию и любые дополнительные языки.</span><span class="sxs-lookup"><span data-stu-id="03d6f-112">In the pane on the right, choose the default language you want and any alternate languages.</span></span> 
  
     > [!NOTE]
-    > <span data-ttu-id="38079-113">По умолчанию и альтернативные языки, поддерживаемые указаны.</span><span class="sxs-lookup"><span data-stu-id="38079-113">The default and alternate languages that are supported are listed.</span></span> <span data-ttu-id="38079-114">Порядок, в котором можно выбрать их в списках будут порядок языков, представленных для вызывающих объектов.</span><span class="sxs-lookup"><span data-stu-id="38079-114">The order in which you select them in the lists will be the order of the languages presented to callers.</span></span> 
+    > <span data-ttu-id="03d6f-113">По умолчанию и альтернативные языки, поддерживаемые указаны.</span><span class="sxs-lookup"><span data-stu-id="03d6f-113">The default and alternate languages that are supported are listed.</span></span> <span data-ttu-id="03d6f-114">Порядок, в котором можно выбрать их в списках будут порядок языков, представленных для вызывающих объектов.</span><span class="sxs-lookup"><span data-stu-id="03d6f-114">The order in which you select them in the lists will be the order of the languages presented to callers.</span></span> 
 
-4. <span data-ttu-id="38079-115">Нажмите кнопку **Применить**.</span><span class="sxs-lookup"><span data-stu-id="38079-115">Click **Apply**.</span></span>
+4. <span data-ttu-id="03d6f-115">Нажмите кнопку **Применить**.</span><span class="sxs-lookup"><span data-stu-id="03d6f-115">Click **Apply**.</span></span>
 
-<span data-ttu-id="38079-116">**С помощью Скайп для бизнеса Интернет-версия**</span><span class="sxs-lookup"><span data-stu-id="38079-116">**Using Skype for Business online**</span></span>
+<span data-ttu-id="03d6f-116">![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **С помощью Скайп для бизнеса в Интернете**</span><span class="sxs-lookup"><span data-stu-id="03d6f-116">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using Skype for Business online**</span></span>
 
-<span data-ttu-id="38079-117">Должен быть [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) или [Скайп для бизнеса администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) для выполнения этого шага.</span><span class="sxs-lookup"><span data-stu-id="38079-117">You must be an [Office 365 global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) or [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.</span></span>
+<span data-ttu-id="03d6f-117">Должен быть [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) или [Скайп для бизнеса администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) для выполнения этого шага.</span><span class="sxs-lookup"><span data-stu-id="03d6f-117">You must be an [Office 365 global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) or [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.</span></span>
     
-1. <span data-ttu-id="38079-118">В **Скайп по центру администрирования бизнеса**, в левой области переходов перейдите к **аудиоконференции**и нажмите кнопку **моста Microsoft**.</span><span class="sxs-lookup"><span data-stu-id="38079-118">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**, and then click **Microsoft bridge**.</span></span>
+1. <span data-ttu-id="03d6f-118">В **Скайп по центру администрирования бизнеса**, в левой области переходов перейдите к **аудиоконференции**и нажмите кнопку **моста Microsoft**.</span><span class="sxs-lookup"><span data-stu-id="03d6f-118">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**, and then click **Microsoft bridge**.</span></span>
     
-2. <span data-ttu-id="38079-119">Выберите номер телефона аудиоконференций из списка и в области действий выберите пункт **задать языков**.</span><span class="sxs-lookup"><span data-stu-id="38079-119">Select the audio conferencing phone number from the list, and in the Action pane, click **Set languages**.</span></span> 
+2. <span data-ttu-id="03d6f-119">Выберите номер телефона аудиоконференций из списка и в области действий выберите пункт **задать языков**.</span><span class="sxs-lookup"><span data-stu-id="03d6f-119">Select the audio conferencing phone number from the list, and in the Action pane, click **Set languages**.</span></span> 
     
-3. <span data-ttu-id="38079-120">На странице **Установка языков** выберите **основной язык** списке, чтобы просмотреть полный список доступных языков.</span><span class="sxs-lookup"><span data-stu-id="38079-120">On the **Set languages** page, click the **Primary language** list to view the complete list of available languages.</span></span> <span data-ttu-id="38079-121">Если требуется, щелкните каждый из списков **дополнительных языков** , чтобы выбрать язык дополнительного.</span><span class="sxs-lookup"><span data-stu-id="38079-121">If you need to, click each of the **Secondary languages** lists to select secondary language.</span></span>
+3. <span data-ttu-id="03d6f-120">На странице **Установка языков** выберите **основной язык** списке, чтобы просмотреть полный список доступных языков.</span><span class="sxs-lookup"><span data-stu-id="03d6f-120">On the **Set languages** page, click the **Primary language** list to view the complete list of available languages.</span></span> <span data-ttu-id="03d6f-121">Если требуется, щелкните каждый из списков **дополнительных языков** , чтобы выбрать язык дополнительного.</span><span class="sxs-lookup"><span data-stu-id="03d6f-121">If you need to, click each of the **Secondary languages** lists to select secondary language.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="38079-122">Перечисляются основных и дополнительных языков, которые поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="38079-122">The primary and secondary languages that are supported are listed.</span></span> <span data-ttu-id="38079-123">Порядок, в котором можно выбрать их в списках будут порядок языков, представленных для вызывающих объектов.</span><span class="sxs-lookup"><span data-stu-id="38079-123">The order in which you select them in the lists will be the order of the languages presented to callers.</span></span> 
+    > <span data-ttu-id="03d6f-122">Перечисляются основных и дополнительных языков, которые поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="03d6f-122">The primary and secondary languages that are supported are listed.</span></span> <span data-ttu-id="03d6f-123">Порядок, в котором можно выбрать их в списках будут порядок языков, представленных для вызывающих объектов.</span><span class="sxs-lookup"><span data-stu-id="03d6f-123">The order in which you select them in the lists will be the order of the languages presented to callers.</span></span> 
   
-4. <span data-ttu-id="38079-124">Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**.</span><span class="sxs-lookup"><span data-stu-id="38079-124">Click **Save**.</span></span>
+4. <span data-ttu-id="03d6f-124">Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**.</span><span class="sxs-lookup"><span data-stu-id="03d6f-124">Click **Save**.</span></span>
     
-## <a name="want-else-should-i-know"></a><span data-ttu-id="38079-125">Хотите другим способом, должны знать?</span><span class="sxs-lookup"><span data-stu-id="38079-125">Want else should I know?</span></span>
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-- <span data-ttu-id="38079-126">Чтобы просмотреть список поддерживаемых языков для аудиоконференции, см [звук конференц-связи](audio-conferencing-supported-languages.md).</span><span class="sxs-lookup"><span data-stu-id="38079-126">To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).</span></span>
-    
-- <span data-ttu-id="38079-127">Языки можно задать для выделенных, но не для общих телефонных номеров.</span><span class="sxs-lookup"><span data-stu-id="38079-127">Languages can be set for dedicated but not for shared phone numbers.</span></span>
-    
-- <span data-ttu-id="38079-128">Список страны или регионы, в которых доступен звук конференц-связи в Office 365 с помощью Microsoft в качестве поставщика, см [номера телефонов для аудиоконференции](phone-numbers-for-audio-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="38079-128">To see a list of countries/regions in which Audio Conferencing in Office 365 using Microsoft as the provider is available, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md).</span></span>
-    
-## <a name="want-to-use-windows-powershell"></a><span data-ttu-id="38079-129">Необходимо использовать Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="38079-129">Want to use Windows PowerShell?</span></span>
+## <a name="want-else-should-i-know"></a><span data-ttu-id="03d6f-125">Хотите другим способом, должны знать?</span><span class="sxs-lookup"><span data-stu-id="03d6f-125">Want else should I know?</span></span>
 
-<span data-ttu-id="38079-130">Для автоматизации этого шага, можно использовать командлеты [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) и [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) .</span><span class="sxs-lookup"><span data-stu-id="38079-130">To automate this step, you can use the [Set-CsOnlineDialInConferencingServiceNumber ](https://go.microsoft.com/fwlink/?LinkId=617689) and [Get-CsOnlineDialInConferencingLanguagesSupported ](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlets.</span></span>
+- <span data-ttu-id="03d6f-126">Чтобы просмотреть список поддерживаемых языков для аудиоконференции, см [звук конференц-связи](audio-conferencing-supported-languages.md).</span><span class="sxs-lookup"><span data-stu-id="03d6f-126">To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).</span></span>
+    
+- <span data-ttu-id="03d6f-127">Языки можно задать для выделенных, но не для общих телефонных номеров.</span><span class="sxs-lookup"><span data-stu-id="03d6f-127">Languages can be set for dedicated but not for shared phone numbers.</span></span>
+    
+- <span data-ttu-id="03d6f-128">Список страны или регионы, в которых доступен звук конференц-связи в Office 365 с помощью Microsoft в качестве поставщика, см [номера телефонов для аудиоконференции](phone-numbers-for-audio-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="03d6f-128">To see a list of countries/regions in which Audio Conferencing in Office 365 using Microsoft as the provider is available, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md).</span></span>
+    
+## <a name="want-to-use-windows-powershell"></a><span data-ttu-id="03d6f-129">Необходимо использовать Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="03d6f-129">Want to use Windows PowerShell?</span></span>
+
+<span data-ttu-id="03d6f-130">Для автоматизации этого шага, можно использовать командлеты [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) и [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) .</span><span class="sxs-lookup"><span data-stu-id="03d6f-130">To automate this step, you can use the [Set-CsOnlineDialInConferencingServiceNumber ](https://go.microsoft.com/fwlink/?LinkId=617689) and [Get-CsOnlineDialInConferencingLanguagesSupported ](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlets.</span></span>
   
-<span data-ttu-id="38079-131">Чтобы получить дополнительные сведения, обратитесь к разделу [С помощью Windows PowerShell для выполнения распространенных Скайп для бизнеса в Интернет задачи управления](https://go.microsoft.com/fwlink/?LinkId=525038)</span><span class="sxs-lookup"><span data-stu-id="38079-131">To learn more, see [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)</span></span>
+<span data-ttu-id="03d6f-131">Чтобы получить дополнительные сведения, обратитесь к разделу [С помощью Windows PowerShell для выполнения распространенных Скайп для бизнеса в Интернет задачи управления](https://go.microsoft.com/fwlink/?LinkId=525038)</span><span class="sxs-lookup"><span data-stu-id="03d6f-131">To learn more, see [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="38079-132">See also</span><span class="sxs-lookup"><span data-stu-id="38079-132">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="03d6f-132">See also</span><span class="sxs-lookup"><span data-stu-id="03d6f-132">Related topics</span></span>
 
-[<span data-ttu-id="38079-133">Пробная и платная аудиоконференции в Office 365</span><span class="sxs-lookup"><span data-stu-id="38079-133">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[<span data-ttu-id="03d6f-133">Пробная и платная аудиоконференции в Office 365</span><span class="sxs-lookup"><span data-stu-id="03d6f-133">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
