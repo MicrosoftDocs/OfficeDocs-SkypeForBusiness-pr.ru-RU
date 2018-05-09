@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как выполнять поиск номерам конференц-связь в пределах Скайп для бизнеса. '
-ms.openlocfilehash: c50c7a06aae2e9e68a5f9a2c66fc04f912a35705
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: bccd4a5c02dbb6bc32c27e315b80a39705284429
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>Список номеров аудиоконференции
 
@@ -42,7 +42,19 @@ ms.lasthandoff: 05/03/2018
 > [!NOTE]
 > Внутренние телефонных номеров выделенным для вашей организации и являются единственными, которые могут быть заданы как номер телефона по умолчанию. Тем не менее международных телефонных номеров может совместно использоваться несколькими организациями. 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--to-view-your-audio-conferencing-phone-numbers"></a>![sfb логотип 30x30.png](../images/sfb-logo-30x30.png)  Чтобы просмотреть номера телефонов аудиоконференций
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Чтобы просмотреть номера телефонов аудиоконференций
+
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
+
+1. В левой области переходов, перейдите к **собраниям** > **мостов конференции**. 
+2.  Просмотр номера телефонов, которые доступны для аудиоконференций.
+
+- Можно также просмотреть расположение и основной язык, который будет использоваться автосекретарем аудиоконференций.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -57,8 +69,6 @@ ms.lasthandoff: 05/03/2018
 > [!NOTE]
 > Можно перейти к **аудиоконференции** > **пользователей** и выберите Свойства пользователя, чтобы изменить значение по умолчанию, какой номер, выбрав новый номер из списка доступных номеров в вашей организации. В разделе [Задайте телефона, номера, находящимся на приглашает](set-the-phone-numbers-included-on-invites.md). 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 

@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Отправьте сообщение электронной почты с их аудиоконференций сведения пользователей.
-ms.openlocfilehash: da006b1e63dd36234acf20bb02fdffba2dc70fa2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac6aa097b9c34c23c27afb2e99e4e40e3f587c8
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Отправка пользователям электронных писем с информацией о конференции с телефонным подключением
 
@@ -39,7 +39,25 @@ ms.lasthandoff: 05/03/2018
   
 ![Сообщение о конференц-связи с телефонным подключением](../images/audio-conferencing-info.png)
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-send-an-email-with-audio-conferencing-information-to-a-user"></a>![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) Отправить сообщение электронной почты с информацией аудиоконференций для пользователя
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Отправить сообщение электронной почты с информацией аудиоконференций для пользователя
+
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
+
+1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
+
+2. В верхней части страницы нажмите кнопку **Изменить**.
+
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+
+1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
+
+2. В верхней части страницы нажмите кнопку **Изменить**.
+
+3. В разделе **Audio конференц-связи**нажмите кнопку **Отправить сведения о конференции по электронной почте**.
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -51,9 +69,6 @@ ms.lasthandoff: 05/03/2018
     
 > [!TIP]
 > Можно также отправить электронной почты для пользователя с помощью параметров аудиоконференций путем изменения свойства пользователя **аудиоконференции** > **отправлять сведения о конференции по электронной почте**. 
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Что еще необходимо знать о таких сообщениях?
 

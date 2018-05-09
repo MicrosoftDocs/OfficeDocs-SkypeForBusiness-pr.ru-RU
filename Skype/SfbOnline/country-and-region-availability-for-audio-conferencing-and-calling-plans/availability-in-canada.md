@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Здесь представлены доступные в Канаде службы Office 365 для Microsoft Teams и Skype для бизнеса.
-ms.openlocfilehash: 6a5f5f0c73d82880acfd9adfa824825ed41b4f85
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e79b8960366881ae4f5e6d2205cd5b935b468b08
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="availability-in-canada"></a>Доступность в Канаде
 
@@ -55,8 +55,10 @@ ms.lasthandoff: 05/03/2018
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
-|Доступные минуты для планов звонков  <br/> |3000 минут для звонков внутри страны или 600 минут для международных звонков в месяц (в зависимости от того, какое количество исчерпается раньше). <br/> |
-|Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Доступные для вызова планы минут. |Существует четыре параметра план в месяц календаря. <ul><li>120 минуты планирование внутренних звонков </li><li>240 минуты планирование внутренних звонков</li></li><li>3000 минуты планирование внутренних звонков </li></li><li>600 минуту для Россия и International вызов планов</li></li> 
+|Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+> [!Note]
+> Вызовы в США обрабатывается как внутренних звонков.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
