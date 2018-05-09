@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: В этой статье приведены требования для поддержки v2 Скайп комнаты систем.
-ms.openlocfilehash: 1c9e998c096b92788a2e214220987dfe4aafffca
-ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
+ms.openlocfilehash: 0fb1fbcde28c343787967485dd6cae36491311b7
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
  
@@ -108,13 +108,16 @@ ms.lasthandoff: 05/08/2018
    
 **Сертифицированный видео периферийных v2 систем Скайп комнаты**
 
-|**Тип комнаты**|**Количество пользователей**|**Устройство по размеру оптимальную комнаты**|**Комментарии**|
+|Тип комнаты|Количество людей|Устройство по размеру оптимальную комнаты|Комментарии|
 |:-----|:-----|:-----|:-----|
 |**Фокус** <br/> 10' x 9'  <br/> |2 – 4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
 |**Небольшой** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ специалистов обычно входит в состав группы Logitech  <br/> |
 |**Средний** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
 |**Большой** <br/> 15' x 32 °  <br/> |12-16  <br/> |Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
    
+ > [!NOTE]
+ > Передней части разрешение экрана комнаты должен иметь значение не более 1920x1080p.
+
 ## <a name="required-software-downloads"></a>Необходимое программное обеспечение
 
 Необходимы следующие файлы для загрузки для создания образа версии 2 Скайп комнаты систем.

@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: e9cec9045d297bb1b627338824baa1d5ac2a1dcf
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 36aef8125e27d4d327b5d6f279a9cd711af3e490
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="conference-participant-activity-report"></a>Отчет по активности участников конференции
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 04/18/2018
 ![Скайп участников отчету о конференциях](../images/a5fb6a3f-d8bc-402e-850e-87a75fbc2546.PNG)
   
 ***
-![Номер 1](../images/sfbcallout1.png)<br/>В **отчете об участии в конференциях в Skype для бизнеса** можно отследить тенденции за последние 7, 30, 90 и 180 дней.
+![Номер 1](../images/sfbcallout1.png)<br/>В **отчете об участии в конференциях в Skype для бизнеса** можно отследить тенденции за последние 7, 30, 90 и 180 дней. Тем не менее, если щелкнуть в конкретный день в отчете таблицы (видеть номер 7) будет показывать данные на 30 дней до даты (видеть номер 2) для создания отчета.
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.

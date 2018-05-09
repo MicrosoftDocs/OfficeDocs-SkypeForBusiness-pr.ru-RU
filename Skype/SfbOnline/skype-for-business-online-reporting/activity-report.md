@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Узнайте, как получить Скайп для отчетов о деятельности, он содержит и интерпретации данных. '
-ms.openlocfilehash: fd167f9effb06bca43362fa4e9db3652ae8d15a4
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 0b376ddecf13a1346e17f23bbc1780e2780255dc
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="activity-report"></a>Отчета об активности
 
@@ -54,7 +54,7 @@ Office 365 **отчеты** панели мониторинга показыва
   
 ***
 ![Номер 1](../images/sfbcallout1.png)<br/>
-Отчет **Скайп для деловых операций** можно просмотреть для тенденций за последние 7 дней, 30 дней, в течение 90 дней или 180 дней.
+Отчете **Скайп для деловых операций** электронной почты можно просмотреть для тенденций за последние 7 дней, 30 дней, в течение 90 дней или 180 дней. Тем не менее если нажать кнопку в конкретный день в отчете, таблице (видеть номер 7) будет показывать данные для до 28 дней с текущей даты (не Дата создания отчета).
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
