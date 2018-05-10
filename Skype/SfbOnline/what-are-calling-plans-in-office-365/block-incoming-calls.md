@@ -1,7 +1,24 @@
 ---
-Заголовок: «Блок входящий трафик звонки в Скайп для бизнеса в Интернете» ms.author: tonysmit Автор: диспетчер tonysmit: serdars ms.date: 05/07/2018 ms.topic: приведены в статье ms.assetid: ms.tgt.pltfrm: облако ms.service: Скайп для бизнес online ms.collection: Adm_Skype4B_ Online ms.audience: Admin appliesto: Скайп для бизнеса localization_priority: обычный f1keywords: None ms.custom: описание PowerShell: «Использование PowerShell для управления входящих звонков, блокировки в Скайп для бизнеса Online».
+title: Блокировать входящие звонки в Скайп для бизнеса Интернет-версия
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 05/07/2018
+ms.topic: article
+ms.assetid: ''
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto: Skype for Business
+localization_priority: Normal
+ms.custom: Use PowerShell to manage inbound call blocking in Skype for Business Online.
+ms.openlocfilehash: 9a9ff446d7b95588f1d9c2460db1284de717e557
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/10/2018
 ---
-
  # <a name="block-inbound-calls"></a>Блокировать входящие вызовы
 
 Скайп для бизнеса планы Online вызов теперь поддерживает блокирование для входящих вызовов из телефонной сети общего пользования (PSTN). Эта функция позволяет клиента глобальный список шаблоны номеров следует определить, чтобы Звонящего всех входящих PSTN вызов клиента могут быть установлено списка для соответствия. Входящий звонок отклоняется, если совпадение. 
@@ -14,7 +31,6 @@
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Вызов блокировки информацию и элементы управления администратора
 Элементы управления администратора для блокировки номеров, предоставляются только с помощью PowerShell. Шаблоны номеров блока определены как шаблоны регулярных выражений. Порядок выражений не имеет значения — первый шаблон сопоставления в списке приведет вызова окон. Новый номер или шаблон добавить или удалить в списке заблокированных списка абонентов может потребоваться до 24 часов для для шаблона станет активным.
-
 ## <a name="call-blocking-powershell-commands"></a>Блокировка команды PowerShell вызовов
 
 *InboundBlockedNumberPattern* Шаблоны номеров управляются с помощью команды *CsInboundBlockedNumberPattern* **New**, **Получение**, **Установка**и **Удаление**.  
@@ -57,4 +73,4 @@
 Как упоминалось ранее, шаблоны для блокировки абонентов выполняется с помощью регулярных выражений (regex). Существует несколько средств доступен через Интернет для проверки соответствия шаблону регулярного выражения. Если вы не знакомы с помощью шаблонов регулярных выражений, рекомендуется выполнить некоторое время, чтобы ознакомиться с основными функциями и убедитесь, что вы получаете ожидаемые результаты использовать средство для проверки соответствия шаблону, перед добавлением нового заблокированных номеров совпадений в клиент. 
 
 ## <a name="related-topics"></a>See also
-[Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
+[Настройка компьютера для Скайп для бизнеса в Интернет управление с помощью Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )

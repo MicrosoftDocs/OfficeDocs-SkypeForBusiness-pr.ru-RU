@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Развертывание средства SEFAUtil в Скайп для Business Server.
-ms.openlocfilehash: 48fa0077315169e6a80e65e91d7ce9a31583cdb5
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: 4def73d0bca655569275f61d9ebfeafb4ab7e3d4
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>Развертывание инструмента SEFAUtil в Skype для бизнеса 2015
  
@@ -29,7 +29,7 @@ ms.lasthandoff: 05/09/2018
 > [!IMPORTANT]
 > Среда выполнения Microsoft Unified Communications Managed API (UCMA) 5 необходимо установить на любом компьютере, где предполагается запустить средство SEFAUtil. Загружаемый файл расположен здесь: [Объединенных коммуникаций управляемых API 5.0 времени выполнения](https://www.microsoft.com/en-us/download/details.aspx?id=47344). Также можно загрузить пакет SDK 5 UCMA, которая включает в себя среды выполнения, здесь: [Пакет SDK для UCMA 5.0](https://www.microsoft.com/en-us/download/details.aspx?id=47345).
   
-Средство SEFAUtil можно запустить в любой пула переднего плана в вашем развертывании.
+Средство SEFAUtil можно запустить в любой пула переднего плана в вашем развертывании. Для запуска средства SEFAUtil выполните шаги 1, 2 и 3 из Скайп для бизнеса мастер развертывания на компьютере доверенных приложений. SEFAUtil требует локального хранилища конфигурации должен быть установлен, а также сертификат.
   
 > [!NOTE]
 > Статья блога Technet, посвященной более подробных сведений о запуске SEFAUtil, "[способ получения SEFAutil под управлением?](https://go.microsoft.com/fwlink/?LinkId=278940)«. 
