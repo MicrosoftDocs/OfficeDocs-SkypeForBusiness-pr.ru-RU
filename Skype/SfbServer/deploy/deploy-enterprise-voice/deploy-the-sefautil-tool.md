@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Развертывание средства SEFAUtil в Скайп для Business Server.
-ms.openlocfilehash: f0bb660218b761e513e120f4ea5786eb9278b12a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 48fa0077315169e6a80e65e91d7ce9a31583cdb5
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>Развертывание инструмента SEFAUtil в Skype для бизнеса 2015
  
@@ -27,7 +27,7 @@ ms.lasthandoff: 05/03/2018
 Для развертывания и управления раскладки вызывать группу, необходимо использовать Скайп Business Server версии средства SEFAUtil. 
   
 > [!IMPORTANT]
-> На всех компьютерах, на которых планируется запускать инструмент SEFAUtil, должен быть установлен Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK. 
+> Среда выполнения Microsoft Unified Communications Managed API (UCMA) 5 необходимо установить на любом компьютере, где предполагается запустить средство SEFAUtil. Загружаемый файл расположен здесь: [Объединенных коммуникаций управляемых API 5.0 времени выполнения](https://www.microsoft.com/en-us/download/details.aspx?id=47344). Также можно загрузить пакет SDK 5 UCMA, которая включает в себя среды выполнения, здесь: [Пакет SDK для UCMA 5.0](https://www.microsoft.com/en-us/download/details.aspx?id=47345).
   
 Средство SEFAUtil можно запустить в любой пула переднего плана в вашем развертывании.
   

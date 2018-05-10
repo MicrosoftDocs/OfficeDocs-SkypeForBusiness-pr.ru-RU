@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Германии.
-ms.openlocfilehash: 3570f4a2e66ac83fd5ab6fc295e5725618f17c2a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: a0e88129ee1477bdaeec910cdc2e58a08ae21dd2
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="availability-in-germany"></a>Доступность в Германии
 
@@ -51,12 +51,12 @@ ms.lasthandoff: 04/18/2018
 |Голосовая почта  <br/> |Доступно  <br/> |
    
 ## <a name="calling-plans"></a>Планы звонков
-
+    
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
-|Доступные минуты для планов звонков  <br/> |1200 минут для звонков внутри страны или 600 минут для международных звонков в месяц (в зависимости от того, какое количество исчерпается раньше).  <br/> |
-|Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Доступные для вызова планы минут. |Существует четыре параметра план в месяц календаря. <ul><li>120 минуты планирование внутренних звонков </li><li>240 минуты планирование внутренних звонков</li></li><li>3000 минуты планирование внутренних звонков </li></li><li>600 минуту для Россия и International вызов планов</li></li> 
+|Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
