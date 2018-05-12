@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: В данном разделе приведены сведения о настройке учетных записей для версии 2 Скайп комнаты систем в Exchange и Скайп для Business Server 2015.
-ms.openlocfilehash: e6dd99ac63ca4168bf7c9211b5fa3026ebf1f972
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 0514d1b542e8fa53f7210992d5cb219f7e9a7719
+ms.sourcegitcommit: 6b868f683e1f2354eb42fdf33911e77b7a3a83e2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Настройка учетных записей для систем комнаты Скайп версии 2
  

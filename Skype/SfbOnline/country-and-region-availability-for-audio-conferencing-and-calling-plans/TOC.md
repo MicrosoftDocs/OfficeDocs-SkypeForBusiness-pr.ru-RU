@@ -77,6 +77,7 @@
 ### [Создание очереди звонков в телефонной системе](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Получение номеров телефонов в Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Развертывание телефонов для приложения Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+###[Параметр копирование телефоны общие области (узел)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Возможности телефонной системы](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Голосовая почта для телефонной системы
