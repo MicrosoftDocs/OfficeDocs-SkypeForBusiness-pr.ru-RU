@@ -12,11 +12,11 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: В этой статье описывается настройка консольного устройства и его периферийных устройств для Систем комнат Skype версии 2.
-ms.openlocfilehash: b9b786de35af63202b168b0664440d28302492e5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b82343f98304b0607bb3525b508aecf81e80a031
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Настройка консоли для Систем комнат Skype версии 2
  
@@ -49,7 +49,7 @@ ms.lasthandoff: 05/03/2018
 > Существующей версии 2 Скайп комнаты систем с 10 Enterprise Годовщина центра обновления Windows переход к версии 2 систем комнаты Скайп обновление 3 путем получения магазина Windows будет работать, но необходимо провести новую установку, как описано ниже. 
   
 1. Загрузите [MSU для KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
-2. Загрузите [сценарий CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+2. Загрузите [сценарий CreateSrsMedia.ps1](room-systems-v2-scripts.md).
 3. Размещение MSU для KB4056892 в том же каталоге как сценарий CreateSrsMedia.ps1.
 4. Запустите сценарий CreateSrsMedia.ps1 из командной строки с повышенными привилегиями на компьютере Windows 10.
 
@@ -164,7 +164,7 @@ ms.lasthandoff: 05/03/2018
 
 1. Скачайте сертификат ЦС на компьютер и сохраните его в папке C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer.
     
-2. Поместите 4 поверхности в режиме администратором ( [Admin режим и устройства управления](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)см).
+2. Поместите 4 поверхности в режиме администратором ( [Admin режим и устройства управления](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)см).
     
 3. Выполните следующую команду.
     
@@ -175,11 +175,11 @@ ms.lasthandoff: 05/03/2018
 ### <a name="join-an-active-directory-domain-optional"></a>Присоединение к домену Active Directory (необязательно)
 <a name="Certs"> </a>
 
-Скайп комнаты систем v2 устройств можно объединить с вашего домена. Систем комнаты Скайп v2 устройств должны находиться в отдельные Подразделения из рабочих станциях ПК, так как количество политик рабочей станции не совместимы с системами комнаты Скайп версии 2. Распространенные пример, принудительное применение политики паролей, которые не позволит систем комнаты Скайп v2 автоматический запуск. Сведения об управлении параметры объектов групповой Политики можно найти [Управление системами комнаты Скайп версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md). 
+Скайп комнаты систем v2 устройств можно объединить с вашего домена. Систем комнаты Скайп v2 устройств должны находиться в отдельные Подразделения из рабочих станциях ПК, так как количество политик рабочей станции не совместимы с системами комнаты Скайп версии 2. Распространенные пример, принудительное применение политики паролей, которые не позволит систем комнаты Скайп v2 автоматический запуск. Сведения об управлении параметры объектов групповой Политики можно найти [Управление системами комнаты Скайп версии 2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md). 
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>Присоединение Систем комнат Skype версии 2 к домену
 
-1. Войти в консоль администрирования с учетной записью ( [режим и устройства управления Admin](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)см).
+1. Войти в консоль администрирования с учетной записью ( [режим и устройства управления Admin](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)см).
     
 2. Запустите командную строку Powershell с повышенными привилегиями.
     

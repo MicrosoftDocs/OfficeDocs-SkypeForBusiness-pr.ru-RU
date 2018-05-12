@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: В этой статье приведены требования для поддержки v2 Скайп комнаты систем.
-ms.openlocfilehash: 0fb1fbcde28c343787967485dd6cae36491311b7
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: b1216989dd5ac18f8cd4b4f97e7be975ca7289d7
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
  
@@ -28,35 +28,37 @@ ms.lasthandoff: 05/09/2018
   
 - 32 ГБ или больше дисков USB необходимо настроить как загрузочного установочного носителя Windows для Windows 10 Enterprise. 
     
-- Один из следующих планшетные ПК:
+- Один из следующих планшетные ПК и консоли:
     
 **Поддерживаемые планшетные ПК**
-
-
-|**Планшет**|**Процессор**|**ОЗУ**|**Диск**|
+|Планшет|Процессор|ОЗУ|Диск|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4 и sup1;  <br/> |Основные i5  <br/> |4 ГБ  <br/> |128 ГБ  <br/> |
-|Surface Pro 4 и sup1;  <br/> |Основные i5  <br/> |8 ГБ  <br/> |256 ГБ  <br/> |
-|Surface Pro & sup1; <br/> |Основные i5  <br/> |4 ГБ  <br/> |128 ГБ  <br/> |
-|Surface Pro & sup1; <br/> |Основные i5  <br/> |8 ГБ  <br/> |256 ГБ  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |8 ГБ  <br/> |128 ГБ  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |16 ГБ  <br/> |512 ГБ  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |16 ГБ  <br/> |1 ТБ  <br/> |
+|Surface Pro 4    |Основные i5  |4 ГБ  |128 ГБ  |
+|Surface Pro 4    |Основные i5  |8 ГБ  |256 ГБ  |    
+|Surface Pro (2017)  |Основные i5  |4 ГБ  |128 ГБ  |
+|Surface Pro (2017)  |Основные i5  |8 ГБ  |256 ГБ  |
+|Surface Pro (2017)  |Core i7  |8 ГБ  |128 ГБ  |
+|Surface Pro (2017)  |Core i7  |16 ГБ  |512 ГБ  |
+|Surface Pro (2017) |Core i7  |16 ГБ  |1 ТБ  |
    
-& sup1; — M3 ядрами процессора не поддерживаются в этой модели.
+> [!NOTE]
+> M3 ядрами процессора, не поддерживаются.
+
+**Поддерживаемые консоли**
+|консоль;|Процессор|ОЗУ|Диск|
+|:-----|:-----|:-----|:-----|
+|[Сервер-концентратор Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Основные i5  |8 ГБ  |128 ГБ  |  
+ <!-- HP dock is still pending  -->  
     
- 
+- Один из следующих параметров закрепления станции для обеспечения безопасности планшетном ПК к собранию комнаты в таблице. 
     
-- Один из следующих параметров закрепления станции для обеспечения безопасности на планшете к собранию комнаты в таблице. 
-    
-  - [Logitech SmartDock](https://www.logitech.com/en-us/product/smartdock)
+  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
     
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
   - [Polycom MSR серии](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-  - [Сервер-концентратор Lenovo 500](https://www3.lenovo.com/us/en/hub500)  
-<!-- HP dock is still pending  -->  
+
  
 **Сертифицированный встроенное периферийных устройств USB аудио- и видеоконференций**
 |**Периферийных систем комнаты Скайп версии 2**|**Версия микропрограммы сертифицированный для систем комнаты Скайп версии 2**|
@@ -133,7 +135,7 @@ ms.lasthandoff: 05/09/2018
     
 Эти файлы для загрузки должны быть объединены в загрузочного диска установки Windows media определенным образом, описывается далее в статье [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md). 
   
-Кроме того можно копию [сценарий Powershell](https://go.microsoft.com/fwlink/?linkid=870105) , используемом для заполнения учетные записи систем комнаты Скайп версии 2.
+Кроме того можно копию [SkypeRoomProvisioningScript.ps1](../../deploy/deploy-clients/room-systems-v2-scripts.md), используемом для заполнения учетные записи систем комнаты Скайп версии 2.
   
 ## <a name="see-also"></a>См. также
 

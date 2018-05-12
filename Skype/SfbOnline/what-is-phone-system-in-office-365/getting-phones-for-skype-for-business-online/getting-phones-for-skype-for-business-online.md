@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: cba66559fada6edb0965fb5bf7095bccdedaa307
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 894637bbde15a80f377098e61d1eba77fbef4bf2
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Телефоны, поддерживаемые в Skype для бизнеса Online
 
@@ -68,7 +68,8 @@ ms.lasthandoff: 05/09/2018
 |Yealink  <br/> |X.8.1.52  <br/> |Февраль 2017 г.  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Декабрь 2016 г.  <br/> |
    
-> [ПРИМЕЧАНИЕ] Телефоны Lync Phone Edition (LPE), заданных для локального развертывания следует обновить до встроенного минимальные или более поздняя версия требуемые перед переносом этих пользователей Скайп для бизнеса в Интернет. Если перевести пользователей из локального местоположения на Skype для бизнеса Online без предварительного обновления встроенного ПО на телефонах, пользователи не смогут подключаться к Skype для бизнеса Online со своих телефонов. 
+> [!NOTE]
+Настроенные для локального развертывания телефоны Lync Phone Edition (LPE) требуется обновить, установив минимально допустимую (или более позднюю) версию встроенного ПО перед переводом пользователей на работу со Skype для бизнеса Online. Если перевести пользователей из локального местоположения на Skype для бизнеса Online без предварительного обновления встроенного ПО на телефонах, пользователи не смогут подключаться к Skype для бизнеса Online со своих телефонов. 
   
 ## <a name="required-licenses"></a>Требуемые лицензии
 

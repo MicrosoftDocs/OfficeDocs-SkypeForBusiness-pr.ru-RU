@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Эта статья посвящена процедуре для развертывания управления устройствами v2 систем комнаты Скайп интегрированная, начала до конца способом, с помощью Microsoft Operations Management Suite.
-ms.openlocfilehash: e401981c1bdb35f78212451db231a882c07d57d1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 13648c9a74cbd30f69884eb19fde5004999cc4e3
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Развертывание управления системами комнат Skype версии 2 с помощью OMS
  
@@ -169,7 +169,7 @@ ms.lasthandoff: 05/03/2018
 
 Можно импортировать пакет управления Operations панели мониторинга и начать наблюдение за устройство немедленно. Выполните следующие действия для импорта панели мониторинга.
 
-1.  Загрузите [панели мониторинга](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview).
+1.  Получите файл [SkypeRoomSystems_v2.omsview](room-systems-v2-scripts.md) панели мониторинга.
 2.  Войдите в [портал Microsoft Operations Management Suite](http://aka.ms/omsportal).
 3.  Откройте **Конструктор представлений**.
 4.  Выберите **Импорт**, а затем выберите файл **SkypeRoomSystems_v2.omsview** .

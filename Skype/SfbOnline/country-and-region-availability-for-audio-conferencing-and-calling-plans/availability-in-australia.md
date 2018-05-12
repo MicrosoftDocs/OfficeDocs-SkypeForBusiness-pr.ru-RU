@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Австралии.
-ms.openlocfilehash: d3d8cab8192a29e4eebcfe7afcd140f95e695209
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c4707423f2d816a846e6a688809e2ab6626f6d40
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-australia"></a>Доступность в Австралии
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 04/18/2018
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> | Аделаида <br/>  Брисбен <br/>  Канберра <br/>  Дарвин <br/>  Мельбурн <br/>  Ньюкасл <br/>  Перт <br/>  Сидней <br/>  Вуллонгонг <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> | <ul><li>Аделаида <li>Брисбен <li>  Канберра <li>Дарвин <li>Мельбурн <li>Ньюкасл <li> Перт <li>Сидней <li>Вуллонгонг  |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
