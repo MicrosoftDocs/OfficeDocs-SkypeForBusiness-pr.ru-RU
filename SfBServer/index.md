@@ -1,0 +1,1 @@
+# <a name="welcome-to-officedocs-skypeforbusinessserver"></a>Знакомство с OfficeDocs SkypeForBusinessServer!
