@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Вы можете загрузить эти метки для экстренного вызова при использовании вызова планы в Office 365.
-ms.openlocfilehash: 6ca40a1520f85dbf09b7e524e4eda929084be50f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 8236a63a2da20441afb0949e5a201750e118615f
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="emergency-calling-labels"></a>Экстренные вызовы меток
 
