@@ -34,14 +34,13 @@
 ### [Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Включение и отключение оповещений о подключении к собранию и выходе из него](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
-
-
 ## [Планы звонков в Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Добавление, изменение и удаление местоположения организации для экстренного реагирования](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Добавление или удаление адреса для экстренного реагирования для организации](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Назначение, изменение или удаление номера телефона пользователя](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Назначение или изменение адреса для экстренного реагирования для пользователя](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [Известные проблемы планов звонков](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
+### [Блокировать входящие звонки](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
+### [Известные проблемы с планами звонков](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Изменение адреса для экстренного реагирования для пользователя](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Изменение местоположения для экстренного реагирования для пользователя](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [Создание абонентских групп и управление ими](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
@@ -77,6 +76,7 @@
 ### [Создание очереди звонков в телефонной системе](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Получение номеров телефонов в Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Развертывание телефонов для приложения Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+#### [Параметр копирование телефоны общие области (узел)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Возможности телефонной системы](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Голосовая почта для телефонной системы
