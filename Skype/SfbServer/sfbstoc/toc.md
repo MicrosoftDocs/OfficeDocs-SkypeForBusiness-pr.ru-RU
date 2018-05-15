@@ -66,6 +66,9 @@
 ###### [Обновление CcCACertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-cccacertificate.md)
 ###### [Обновление CcServerCertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md)
 ##### [Устранение неполадок развертывания облака соединителя](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md)
+#### Планирование системы Microsoft Phone Прямая отправка
+##### [Планирование прямой маршрутизации](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md)
+##### [Настройка прямой маршрутизации](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md)
 ### [Планирование гибридного подключения](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)
 ### [Развертывание гибридного подключения](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
 #### [Настройка федерации с Скайп для бизнеса в Интернет](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)
