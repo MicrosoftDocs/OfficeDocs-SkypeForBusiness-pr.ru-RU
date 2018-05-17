@@ -146,11 +146,12 @@
 ### [Прокси-серверы для Skype для бизнеса Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
 ## Использование функции качества звонков в организации
+### [Вызов аналитики и панель мониторинга качества звонка](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Измерения и меры на панели мониторинга качества звонков](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Настройка средства аналитики звонков в Skype для бизнеса](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Включение и использование панели мониторинга качества звонков](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Устранение неполадок с качеством звонков с помощью средства аналитики звонков](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Различия между средством аналитики звонков и панелью мониторинга качества звонков](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+
 
 ## [Отчетность Skype для бизнеса Online](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Отчет об активности](../skype-for-business-online-reporting/activity-report.md)
