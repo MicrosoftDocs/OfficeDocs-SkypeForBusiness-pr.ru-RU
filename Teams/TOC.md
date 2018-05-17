@@ -7,6 +7,7 @@
 ## [Подготовка сети организации к использованию Teams](prepare-network.md)
 ## [URL-адреса и диапазоны IP-адресов для Office 365](Office-365-URLs-IP-address-ranges.md)
 ## [Ограничения и спецификации для групп](limits-specifications-teams.md)
+## [Создание стратегии управления изменений](change-management-strategy.md)
 
 
 
@@ -253,6 +254,7 @@
 ### [Руководство: создание охватывающей всю компанию команды с помощью PowerShell](company-wide-team-creation-powershell.yml)
 
 ## Управление
+### [Качество взаимодействия руководство по решению](quality-of-experience-review-guide.md)
 ### [Подготовка сети организации к использованию Teams](prepare-network.md)
 ### [Инструменты и семинары. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
 ### [Обзор развертывания Teams](deployment-overview.md)
