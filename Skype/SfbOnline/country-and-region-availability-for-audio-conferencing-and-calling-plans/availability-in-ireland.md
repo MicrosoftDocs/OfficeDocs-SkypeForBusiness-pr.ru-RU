@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Ирландия.
-ms.openlocfilehash: 1445895530403fcf3f38cfa787faa4df7e1dfdb2
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: f3443286f890ea7b7111c0605490789e91e08320
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-ireland"></a>Доступность в Ирландия
 
@@ -56,6 +56,7 @@ ms.lasthandoff: 05/11/2018
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
 |Доступные для вызова планы минут. |Существует четыре параметра план в месяц календаря. <ul><li>120 минуты планирование внутренних звонков </li><li>240 минуты планирование внутренних звонков</li></li><li>3000 минуты планирование внутренних звонков </li></li><li>600 минуту для Россия и International вызов планов</li></li> 
+|Можно выполнять исходящие вызовы на номера premium? <br/> | В настоящее время не поддерживается. <br/> |
 |Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб

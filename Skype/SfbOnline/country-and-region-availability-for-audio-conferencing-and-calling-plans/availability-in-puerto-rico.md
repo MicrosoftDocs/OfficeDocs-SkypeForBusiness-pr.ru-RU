@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Пуэрто-Рико.
-ms.openlocfilehash: 92bde6e252f750a065e0068e18f1003f4efdcb49
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 8032f38bf51db5762e0256e4aadb005b6b7caf8a
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-puerto-rico"></a>Доступность в Пуэрто-Рико
 
@@ -56,6 +56,7 @@ ms.lasthandoff: 04/18/2018
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
 |Доступные минуты для планов звонков  <br/> |3000 минут для звонков внутри страны или 600 минут для международных звонков в месяц (в зависимости от того, какое количество исчерпается раньше). Внутренние звонки в США включают звонки во все 50 штатов, а также в Пуэрто-Рико.Пользователи, которым назначена лицензия в США или Пуэрто-Рико, получают одинаковое количество минут.  <br/> |
+|Можно выполнять исходящие вызовы на номера premium? <br/> | В настоящее время не поддерживается. <br/> |
 |Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб

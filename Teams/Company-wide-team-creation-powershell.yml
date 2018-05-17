@@ -6,7 +6,6 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  interactive: azurecli
   ms.author: ninadara
   manager: serdars
   ms.date: 02/07/2018
@@ -14,11 +13,11 @@ metadata:
   ms.topic: tutorial
   localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
-  ms.openlocfilehash: bd9a5e04709b49703de43af48794115c9a48604e
-  ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+  ms.openlocfilehash: b7f90cb375e775d56ecc6ec523218744ae695792
+  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/03/2018
+  ms.lasthandoff: 05/16/2018
 items:
 - durationInMinutes: 3
   content: "\nВ этой обучающей статье приведен сценарий PowerShell, который создает в Teams открытую команду, охватывающую всю компанию. Сценарий использует для этого PowerShell-модуль MicrosoftTeams, который сейчас находится в бета-версии. В нем также используется PowerShell-модуль AzureAD для получения списка пользователей вашего клиента. \n\nРуководство станет отличной отправной точкой, если вы хотите попробовать несколько простых команд PowerShell и ближе познакомиться с этим мощным корпоративным инструментом. PowerShell — ключевой компонент для управления другими аспектами групп Azure AD, включая контроль создания групп, т. е. управление пользователями, которые могут создавать команды в Teams. \n\n### <a href=\"https://docs.microsoft.com/MicrosoftTeams/scripts/powershell-script-sample-create-company-wide-team\" target=\"_blank\">:arrow_down: Получить сценарий PowerShell</a>\n\n> [!IMPORTANT]\n> Этот сценарий PowerShell добавляет в команду только первых 2500 участников. 2500 участников — текущее ограничение на размер команды. \n\n\nЭта учебная статья предназначена для ИТ-администраторов или пользователей Teams, которые хотят автоматизировать создание команд. После прочтения этой статьи вы сможете следующее.  \n- Установить необходимые модули в PowerShell.\n- Использовать сценарий. \n\nМы не затронем следующие аспекты.\n1. Подробные сведения о PowerShell. Мы укажем только те сведения о PowerShell, которые необходимы для запуска сценария PowerShell. Дополнительные сведения см. в статье <a href=\"https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-5.1\" target=\"_blank\">Начало работы с Windows PowerShell</a>.\n2. Функциональность модуля <a href=\"https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0\" target=\"_blank\">AzureAD</a>. Этот сценарий PowerShell использует модуль AzureAD для одной команды, предназначенной для получения пользователей клиента. \n3. Командлеты в модуле <a href=\"https://github.com/MicrosoftDocs/office-docs-powershell/tree/master/teams/teams-ps/teams\" target=\"_blank\">MicrosoftTeams</a>. \n4. Пошаговое описание сценария PowerShell. \n\n\nЧтобы задать вопрос или оставить отзыв об этой учебной статье, сделайте следующее.\n  - Оставьте сообщение в разделе комментариев в нижней части страницы [Дальнейшие действия](company-wide-team-creation-powershell.yml#step-7) этого руководства.\n  - Напишите нам по адресу: [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Create company-wide team using PowerShell).\n  - Чтобы отправить отзыв о продукте, например, запросить новую функцию, зайдите на сайт <a href=\"https://aka.ms/TeamsUserVoice\" target=\"_blank\">UserVoice</a>.\n"

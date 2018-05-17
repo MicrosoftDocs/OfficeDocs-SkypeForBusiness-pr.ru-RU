@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Великобритании.
-ms.openlocfilehash: fd81f016ede49843a1f2ae8b431514d07ba55c5f
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 9d4fc73f3ccc1d6bda1b7d5c2ab308de02a37ed9
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Доступность в Соединенное Королевство (Соединенное Королевство)
 
@@ -56,6 +56,7 @@ ms.lasthandoff: 05/11/2018
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
 |Доступные для вызова планы минут. |Существует четыре параметра план в месяц календаря. <ul><li>120 минуты планирование внутренних звонков </li><li>240 минуты планирование внутренних звонков</li></li><li>3000 минуты планирование внутренних звонков </li></li><li>600 минуту для Россия и International вызов планов</li></li> 
+|Можно выполнять исходящие вызовы на номера premium? <br/> | Частично поддерживаемая: поддерживаются вызовы для общих затрат номеров (приставок 44843, 44844, 44845, 44870, 44871, 44872).  Звонки с префиксами 449XX не поддерживаются. <br/> |
 |Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб

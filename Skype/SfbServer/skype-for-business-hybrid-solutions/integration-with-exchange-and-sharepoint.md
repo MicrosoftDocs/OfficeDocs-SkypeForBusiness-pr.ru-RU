@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Сводка: Сведения о Скайп Business Server 2015 интеграции с Exchange и SharePoint.'
-ms.openlocfilehash: 12f6974a6a0d3641242eda072332667ece31c72a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 51943ac3b67ec204429a1970836f03f04acec0d5
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Интеграция с Exchange и SharePoint
  
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/03/2018
   
  **Скайп для Business Server локально и Exchange локально**
   
-| |
+
 |**Функция**|**Примечания**|
 |:-----|:-----|
 |Обмен мгновенными сообщениями и присутствие в Outlook  <br/> |Для получения дополнительных сведений см [обмена мгновенными Сообщениями и присутствия](http://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
@@ -55,7 +55,7 @@ ms.lasthandoff: 05/03/2018
    
  **Скайп для Business Server локально и Exchange Online**
   
-| |
+
 |**Функция**|**Примечания**|
 |:-----|:-----|
 |Обмен мгновенными сообщениями и присутствие в Outlook  <br/> |Дополнительные сведения можно [настроить интеграцию локального Скайп Business Server 2015 и Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
@@ -75,7 +75,7 @@ ms.lasthandoff: 05/03/2018
    
  **Скайп для бизнеса в Интернет и Exchange локально**
   
-| |
+ 
 |**Функция**|**Примечания**|
 |:-----|:-----|
 |Присутствие в Outlook  <br/> ||
@@ -92,7 +92,7 @@ ms.lasthandoff: 05/03/2018
    
  **Скайп для бизнеса в Интернете и Exchange Online**
   
-| |
+
 |**Функция**|**Примечания**|
 |:-----|:-----|
 |Обмен мгновенными сообщениями и присутствие в Outlook  <br/> ||
