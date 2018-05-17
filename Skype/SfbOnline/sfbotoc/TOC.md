@@ -143,10 +143,9 @@
 ### [Поток звонков с использованием ExpressRoute](../optimizing-your-network/call-flow-using-expressroute.md)
 ### [ExpressRoute и качество обслуживания в Skype для бизнеса Online](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [Качество медиаданных и производительность сетевого подключения](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
-### [Прокси-серверы для Skype для бизнеса Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
+### [Прокси-серверы для Skype для бизнеса Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md) 
 
-## Использование функции качества звонков в организации
-### [Вызов аналитики и панель мониторинга качества звонка](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+## [Вызов аналитики и панель мониторинга качества звонка](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Измерения и меры на панели мониторинга качества звонков](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Настройка средства аналитики звонков в Skype для бизнеса](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Включение и использование панели мониторинга качества звонков](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
