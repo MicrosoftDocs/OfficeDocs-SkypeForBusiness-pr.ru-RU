@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Сводка: Сведения о сведения о планировании гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет. Настройка гибридных подключений является первым шагом при развертывании многих гибридных решений Skype для бизнеса.'
-ms.openlocfilehash: dbd7d2e00bf31b926ec4d54a0717c000459e8479
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 31c10423c6ba838e595de75e39d6f166de30c756
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Планирование гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online
  
@@ -299,9 +299,9 @@ ms.lasthandoff: 05/17/2018
 |SIP (MTLS)  <br/> |TCP  <br/> |доступа  <br/> |Office 365  <br/> |Любой  <br/> |5061  <br/> |Сигнализация  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |доступа  <br/> |Любой  <br/> |5061  <br/> |Сигнализация  <br/> |
 |STUN  <br/> |TCP  <br/> |передачи аудио- и видеоданных  <br/> |Office 365  <br/> |50000–59999  <br/> |443  <br/> |Открытый для сеансов совместного использования звука, видео и приложений  <br/> |
-|STUN  <br/> |TCP  <br/> |Office 365  <br/> |передачи аудио- и видеоданных  <br/> |любой  <br/> |443  <br/> |Открытый для сеансов совместного использования звука, видео и приложений  <br/> |
+|STUN  <br/> |TCP  <br/> |Office 365  <br/> |передачи аудио- и видеоданных  <br/> |50000–59999  <br/> |443  <br/> |Открытый для сеансов совместного использования звука, видео и приложений  <br/> |
 |STUN  <br/> |UDP  <br/> |передачи аудио- и видеоданных  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Открытый для сеансов передачи звука и видео  <br/> |
-|STUN  <br/> |UDP  <br/> |Office 365  <br/> |передачи аудио- и видеоданных  <br/> |любой  <br/> |3478  <br/> |Открытый для сеансов передачи звука и видео  <br/> |
+|STUN  <br/> |UDP  <br/> |Office 365  <br/> |передачи аудио- и видеоданных  <br/> |443  <br/> |3478  <br/> |Открытый для сеансов передачи звука и видео  <br/> |
    
 Дополнительные сведения о порт и брандмауэра, планирование пограничного сервера в разделе [requirements окружающей среды пограничного сервера в Скайп для Business Server 2015](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). В разделе также [портов и протоколов требования для серверов](../plan-your-deployment/network-requirements/ports-and-protocols.md) и [Схема протокол рабочих нагрузок](http://go.microsoft.com/fwlink/p/?LinkId=550989).
   

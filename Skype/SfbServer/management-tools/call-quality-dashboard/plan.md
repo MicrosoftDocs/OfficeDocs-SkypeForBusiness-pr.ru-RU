@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Сводка: Сведения о том, что необходимо учитывать при планировании для панели мониторинга качества звонков.'
-ms.openlocfilehash: 25438b759e367d70df6ae09b7d4a5cc093dc1e7a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b54b151fbf9777311af68fcba1611f2bd174a9b7
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server-2015"></a>Планирование для Скайп Business Server 2015 для панели мониторинга качества звонка
  
@@ -186,8 +186,8 @@ CQD использует Microsoft SQL Server, Microsoft SQL Server Analysis Ser
 
 |**Компьютер**|**Ядра ЦП**|**ОЗУ**|**Архив качества взаимодействия и куба на одном диске**|**Архив качества взаимодействия и временной БД SQL на одном диске**|
 |:-----|:-----|:-----|:-----|:-----|
-|Виртуальные mmachine  <br/> |4  <br/> |7 ГБ  <br/> |Да  <br/> |Да  <br/> |
-|4 Ccore  <br/> |4  <br/> |20 ГБ  <br/> |Да  <br/> |Нет  <br/> |
+|Виртуальная машина  <br/> |4  <br/> |7 ГБ  <br/> |Да  <br/> |Да  <br/> |
+|4 процессора с тактовой  <br/> |4  <br/> |20 ГБ  <br/> |Да  <br/> |Нет  <br/> |
 |8 ядра  <br/> |8  <br/> |32 ГБ  <br/> |Да  <br/> |Нет  <br/> |
 |16-ядерный  <br/> |16  <br/> |128 ГБ  <br/> |Нет  <br/> |Нет  <br/> |
    

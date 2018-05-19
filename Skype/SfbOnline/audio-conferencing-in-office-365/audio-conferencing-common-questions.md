@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Далее представлены некоторые основные вопросы, на которые поступления из наших клиентов, которым требуется использовать звук конференц-связи.
-ms.openlocfilehash: bc902c8c01abc7edab52c8e5341b93d2aaaaaeb7
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1162b8550eac78f72d64202c681961f4b0eb723c
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="audio-conferencing-common-questions"></a>Часто задаваемые вопросы звукового конференц-связи
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>Можно добавить бесплатного телефонного номера для Мои пользователи аудио конференц-связи
 
-Да, бесплатные номера телефонов (номера службы), доступен, но только в некоторых странах или регионах. Чтобы просмотреть список номеров, которые доступны, [здесь](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Да, бесплатные номера телефонов (номера службы), доступен, но только в некоторых странах или регионах. Список номеров, которые доступны в разделе [доступность страны и региона для конференц-связи аудио и вызов планов](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="how-many-local-dial-in-numbers-are-currently-supported"></a>Сколько локальные телефонные номера в настоящее время поддерживаются?
 

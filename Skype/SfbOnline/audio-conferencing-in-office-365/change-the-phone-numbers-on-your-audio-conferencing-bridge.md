@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: При покупке лицензий аудиоконференций для Skype для бизнеса корпорация Майкрософт предоставит вашей организации мост аудиоконференции . Мост аудиоконференции предоставляет номера телефонов для подключения из различных мест, так что организаторы и участники собрания могут использовать их, чтобы присоединяться к собраниям Skype для бизнеса или Microsoft Teams с помощью телефона.
-ms.openlocfilehash: de5959a6182e354a9f12669100b60f66fd70f88f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 89bc5d0ad31deec9ebc0a970bedc62cb5ed50bee
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Изменение номеров телефонов для вашей аудиоконференции моста
 
@@ -39,6 +39,9 @@ ms.lasthandoff: 05/03/2018
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Шаг 1. Назначение нового номера телефона мосту аудиоконференции
 
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 1. Войдите в Office 365 со своей рабочей учетной записью.
     
 2. Откройте **Центр администрирования Office 365** > **Центры администрирования** > **Skype для бизнеса** > **Голосовая связь** > **Номера телефонов**.
@@ -52,8 +55,7 @@ ms.lasthandoff: 05/03/2018
     > [!NOTE]
     > Новый номер телефона был назначен, даже в том случае, если номер стала новый номер по умолчанию, не изменить номер по умолчанию для существующих пользователей. Для установки международную по умолчанию или телефоны, который добавляется приглашает организатора собрания, содержатся в разделе [Задание телефона, номера, находящимся на приглашает](set-the-phone-numbers-included-on-invites.md). 
   
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 
 ### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Шаг 2. Изменение номеров телефонов по умолчанию, которые указаны в приглашениях на собрания пользователей (необязательно)
 
@@ -140,15 +142,15 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 ### <a name="to-verify-that-windows-powershell-is-ready-to-go"></a>Проверка готовности Windows PowerShell
 
- **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
+ Эти шаги проверки под управлением Windows PowerShell версии 3.0 или выше.
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Введите **меню «Пуск»** > **Windows PowerShell**.
     
-2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
+2. _Get-узла_ введите в окне **Windows PowerShell** для проверки версии.
     
 3. Если у вас более ранняя версия, вам необходимо скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4.0, перейдите на страницу [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845). При появлении запроса перезагрузите компьютер.
     
-4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
+4. Необходимо также установить модуль Windows PowerShell для Скайп для бизнеса в Интернет, который позволяет создавать удаленного сеанса Windows PowerShell, который подключается к Скайп для бизнеса в Интернет. В этом модуле поддерживается только в 64-разрядных компьютеров и можно загрузить из центра загрузки Майкрософт по [Windows PowerShell модуль для Скайп для бизнеса в Интернет](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
     
 Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
   
@@ -173,9 +175,9 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [подключение к Скайп для бизнеса в Интернет с помощью Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
-### <a name="save-time-or-automate"></a>Экономия времени благодаря автоматизации
+### <a name="save-time-and-automate"></a>Экономия времени и автоматизации
 
-Для экономии времени и автоматизации процесса можно воспользоваться командлетами [Set-CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688) или **Set-CsOnlineDialInConferencingUserDefaultNumber**.
+Экономия времени благодаря автоматизация этот процесс, можно использовать командлеты **Set-CsOnlineDialInConferencingUserDefaultNumber** или [Set-CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688) .
   
 - Используйте командлет [Set-CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688) для изменения платного или бесплатного номера по умолчанию для определенных пользователей.
     
@@ -213,7 +215,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   
 ## <a name="about-windows-powershell"></a>О Windows PowerShell
 
-Windows PowerShell, дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+С помощью Windows PowerShell можно управлять пользователями и что они или не действующими для них. Windows PowerShell, которые помогут управлять Скайп и Office 365 для бизнеса Online с использованием точки администрирования, которые можно упростить повседневной работе, особенно в том случае, если у вас есть несколько задач для выполнения. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -11,11 +11,11 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2dbb006fa9e44d1f2f08efc716063c1c6b1540c
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: 5913b67c8c15fbff7f59b1155f7c2e366d6bb93c
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 ==================================
@@ -35,6 +35,7 @@ ms.lasthandoff: 03/28/2018
 | [Видеоролики об Аудиоконференциях](audio-conferencing-videos.md) |Видеоролики, знакомящие ИТ-администратора с Аудиоконференциями в Teams.  |
 | [Руководство. Собрания в Teams](tutorial-meetings-in-teams.yml) | Этот учебный курс по представляется собраний в группах. Рассматриваются возможности проведения собраний, а также требования и вопросы планирования. |
 | Развертывание и использование Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| Прямая отправка для групп Майкрософт (Предварительная версия)   | <iframe width="350" height="200" src="https://www.youtube.com/watch?v=RjJAn9BAxDw" frameborder="0" allowfullscreen></iframe>   |
 | Подробный обзор гостевого доступа <br>Семинар Coffee in the Cloud с Laith Al и Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | Обнаружение электронных данных в Microsoft Teams <br> Семинар Coffee in the Cloud с Ansuman Acharya и Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Teams: пошаговый обзор внедрения, использования и управления <br> Семинар Microsoft Mechanics с Dan Stevenson и Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
