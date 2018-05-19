@@ -34,7 +34,7 @@
 ## [Лицензирование Office 365 для Teams](office-365-licensing.md)
 ## [Назначение лицензий Skype для бизнеса и Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Лицензирование надстроек Skype для бизнеса и Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Управление пробная версия предоставляется информационный Работник для групп](iw-trial-teams.md)
+## [Управление предложение коммерческие пробную версию команды](iw-trial-teams.md)
 ## [Настройка кредитов на связь для организации](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Что такое кредиты на связь?](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
