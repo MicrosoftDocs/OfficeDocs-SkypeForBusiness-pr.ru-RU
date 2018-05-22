@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Сводка: ИТ-специалистов следует Обзор требований к поддержка Скайп для бизнеса веб-приложения и приложения собраний Скайп при планировании для Скайп Business Server 2015. В этой статье не предназначен для пользователей из этих приложений.'
-ms.openlocfilehash: d99d718f02950cd643f7ccf79064eae3b0b83f72
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 921afbb6c446633128b2e2ead3c714dcdad91dd3
+ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Планирование для клиентов собрания (веб-приложения и приложения собрания)
  
@@ -49,7 +49,6 @@ ms.lasthandoff: 05/03/2018
 Для использования Скайп для бизнеса веб-приложения, пользователь должен одно из следующих поддерживается сочетания операционной системы и браузера. 
   
 **Операционная система и Минимальная поддержка браузера в Скайп для бизнеса Web App**
-
 
 | Операционная система | Пограничный | 32 - и 64-разрядная версия Internet Explorer 11 или более поздняя версия | 32 - и 64-разрядная версия Internet Explorer 10 или более поздней версии | 32 - и 64-разрядная версия Internet Explorer 9 или более поздней версии | 32 - и 64-разрядная версия Firefox 12.X или более поздней версии | 32 - и 64-разрядная версия Chrome 18.X или более поздней версии |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -95,7 +94,6 @@ ms.lasthandoff: 05/03/2018
 <a name="BKMK_Conferencing"> </a>
 
 В этой таблице сравниваются функции собраний, доступны пользователям Скайп для клиента Business, Скайп для бизнеса веб-приложения, приложения Скайп собраний и Lync Web App. Для сравнения компонента приводится Lync Web App: пользователь может только загрузке и использовании Lync Web App, если собрание размещалась на Lync server 2013.
-  
 
 | Компонент или возможность | Скайп для клиента Business 2016 | Скайп для бизнеса на клиенте Mac | Приложение для собраний Skype | Skype для бизнеса Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -178,9 +176,7 @@ ms.lasthandoff: 05/03/2018
 <a name="BKMK_Conferencing"> </a>
 
 #### 
-
 [Развертывание веб-загрузки клиентов в Скайп для Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+
 #### 
-
 [Поддерживаемые платформы для приложения Скайп собраний](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
-
