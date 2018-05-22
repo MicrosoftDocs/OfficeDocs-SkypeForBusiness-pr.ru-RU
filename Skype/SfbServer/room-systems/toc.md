@@ -16,7 +16,6 @@
 ### [Настройка консоли](../deploy/deploy-clients/console.md)
 ### [С помощью System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [Управление с помощью OMS](../deploy/deploy-clients/with-oms.md)
-### [Сценарии v2 систем Скайп комнаты](../deploy/deploy-clients/room-systems-v2-scripts.md)
 ## Управление
 ### [Общие сведения об управлении](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [Обслуживание и эксплуатация](../manage/skype-room-systems-v2/room-systems-v2-operations.md)
