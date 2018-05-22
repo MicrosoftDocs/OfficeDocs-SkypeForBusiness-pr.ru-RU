@@ -12,11 +12,11 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: В этой статье описывается настройка консольного устройства и его периферийных устройств для Систем комнат Skype версии 2.
-ms.openlocfilehash: b82343f98304b0607bb3525b508aecf81e80a031
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 96fb2a88d699ca364f02f24af58d2f17dc555e11
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Настройка консоли для Систем комнат Skype версии 2
  
@@ -49,7 +49,7 @@ ms.lasthandoff: 05/11/2018
 > Существующей версии 2 Скайп комнаты систем с 10 Enterprise Годовщина центра обновления Windows переход к версии 2 систем комнаты Скайп обновление 3 путем получения магазина Windows будет работать, но необходимо провести новую установку, как описано ниже. 
   
 1. Загрузите [MSU для KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
-2. Загрузите [сценарий CreateSrsMedia.ps1](room-systems-v2-scripts.md).
+2. Загрузите [сценарий CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 3. Размещение MSU для KB4056892 в том же каталоге как сценарий CreateSrsMedia.ps1.
 4. Запустите сценарий CreateSrsMedia.ps1 из командной строки с повышенными привилегиями на компьютере Windows 10.
 

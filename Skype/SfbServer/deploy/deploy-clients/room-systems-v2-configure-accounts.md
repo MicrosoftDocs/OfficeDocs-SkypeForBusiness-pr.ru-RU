@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: В данном разделе приведены сведения о настройке учетных записей для версии 2 Скайп комнаты систем в Exchange и Скайп для Business Server 2015.
-ms.openlocfilehash: 0514d1b542e8fa53f7210992d5cb219f7e9a7719
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 2db3d07fe12aa5dd2f6e311481da113303db93cc
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Настройка учетных записей для систем комнаты Скайп версии 2
  
@@ -75,7 +75,7 @@ ms.lasthandoff: 05/17/2018
 |:-----|:-----|
 |Проверка подлинности на основе сертификата  <br/> |Сертификаты могут потребоваться для Exchange и Скайп для Business Server. Для развертывания сертификатов можно загрузить их, выполнив вход в систему с правами администратора.  <br/> |
    
-Настройка учетных записей пользователей рекомендуется настроить их с помощью удаленной оболочки Windows PowerShell. Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript.ps1](room-systems-v2-scripts.md), сценарий, который поможет создать новые учетные записи пользователей, или validate существующие учетные записи ресурсов, что у вас есть помогающих перевод их в совместимые учетных записей пользователей системы комнаты Скайп версии 2.
+Настройка учетных записей пользователей рекомендуется настроить их с помощью удаленной оболочки Windows PowerShell. Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), сценарий, который поможет создать новые учетные записи пользователей, или validate существующие учетные записи ресурсов, что у вас есть помогающих перевод их в совместимые учетных записей пользователей системы комнаты Скайп версии 2.
   
 Если вы предпочитаете использовать пользовательский Интерфейс Office 365 через командлетов Windows PowerShell, некоторые из них могут выполняться вручную. Раздел [Создание учетной записи устройств, использующих Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
   
