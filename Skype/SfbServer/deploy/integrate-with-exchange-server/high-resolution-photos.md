@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Сводка: Настройка использования фотографий высокого разрешения в Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server 2015.'
-ms.openlocfilehash: 9d5117f2774a928e520aa211007fffb0740a2b52
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 43ca3ca0444339ff61811c8aad5860989e45ca33
+ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server-2015"></a>Настройка использования фотографий высокого разрешения в Skype для бизнеса Server 2015
  
@@ -35,12 +35,12 @@ ms.lasthandoff: 03/28/2018
 Фотографий высокого разрешения, к которым можно получить с помощью веб-служб Exchange, могут быть загружены пользователями, использующими Outlook 2013 Web App; Пользователи разрешены только для обновления собственных фотографий. Администраторы, тем не менее, можно обновить фотографий для любого пользователя с помощью командной консоли Exchange и последовательность команд Windows PowerShell следующим образом:
   
 ```
-$photo = ([Byte ] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
+$photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
 Set-UserPhoto -Identity "Ken Myer" -PictureData -Preview $photo -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-В первой команде этого примера используется командлет Get-Content для считывания содержимого файла C:\Photos\Kenmyer.jpg и сохранения этих данных в переменной с именем Preview$photo. Во второй команде Exchange командлет Set-UserPhoto используется для загрузки фотографий и их присоединение к учетной записи пользователя Ken Myer, фотографий.
+В первой команде в предыдущем примере используется `Get-Content` командлет, чтобы прочитать содержимое файла C:\Photos\Kenmyer.jpg и сохраните эти данные в переменной с именем $photo. Во второй команде командлет Exchange `Set-UserPhoto` используется для загрузки фотографий и их присоединение к учетной записи пользователя Ken Myer, фотографий.
   
 > [!NOTE]
 > В данном примере в качестве идентификатора учетной записи используется отображаемое имя пользователя Ken Myer в Active Directory. Для ссылки на учетную запись пользователя можно использовать и другие идентификаторы, например SMTP-адрес пользователя или имя участника-пользователя. Обратитесь к документации для командлета Set-UserPhoto в [https://go.microsoft.com/fwlink/p/?LinkId=268536](https://go.microsoft.com/fwlink/p/?LinkId=268536) для получения дополнительных сведений
@@ -59,6 +59,4 @@ https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmy
 
 Если администратор может просматривать фотографию, с помощью Internet Explorer, но пользователь не может просматривать свой фотографий в Скайп для бизнеса может быть неполадок с помощью веб-служб Exchange или с помощью службы автообнаружения Exchange.
   
-Обратите внимание, что дополнительной настройки необходим для фотографию сделать доступными в Скайп для бизнеса. Эта фотография будет мгновенно доступна после ее отправки и выполнения командлета Set-UserPhoto.
-  
-
+Обратите внимание, что дополнительной настройки необходим для фотографию сделать доступными в Скайп для бизнеса. Вместо этого фотографии можно сразу же после его передачи и `Set-UserPhoto` выполнения командлета.
