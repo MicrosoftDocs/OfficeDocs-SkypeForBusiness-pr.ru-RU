@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365.
-ms.openlocfilehash: 87ae4f7e846cce1cfeca2c7f64fdee93476ae350
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: ac6cbd53f16fb9fe07e24ef288eddbc5acca1b00
+ms.sourcegitcommit: 5e094591704e27d9d802ff86c1ada6d775ab783a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Развертывание Систем комнат Skype версии 2 в среде Office 365 
  
@@ -92,7 +92,7 @@ ms.lasthandoff: 05/08/2018
    Вы также можете задать номер телефона для комнаты следующим образом.
     
    ```
-   Set-MsolUser -UniversalPrincipalName <upn> -PhoneNumber <phone number>
+   Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
 
 6. Учетная запись устройства должна быть действительной лицензии Office 365 или Exchange и Скайп для бизнеса не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Get-MsolAccountSku можно использовать для получения списка доступных номеров SKU для клиента Office 365 следующим образом:
