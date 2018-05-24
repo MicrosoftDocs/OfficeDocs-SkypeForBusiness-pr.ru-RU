@@ -39,8 +39,7 @@
 ### [Добавление или удаление адреса для экстренного реагирования для организации](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Назначение, изменение или удаление номера телефона пользователя](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Назначение или изменение адреса для экстренного реагирования для пользователя](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [Блокировать входящие звонки](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
-### [Известные проблемы с планами звонков](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
+### [Известные проблемы планов звонков](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Изменение адреса для экстренного реагирования для пользователя](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Изменение местоположения для экстренного реагирования для пользователя](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [Создание абонентских групп и управление ими](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
@@ -150,7 +149,6 @@
 ### [Настройка средства аналитики звонков в Skype для бизнеса](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Включение и использование панели мониторинга качества звонков](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Устранение неполадок с качеством звонков с помощью средства аналитики звонков](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-
 
 ## [Отчетность Skype для бизнеса Online](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Отчет об активности](../skype-for-business-online-reporting/activity-report.md)
