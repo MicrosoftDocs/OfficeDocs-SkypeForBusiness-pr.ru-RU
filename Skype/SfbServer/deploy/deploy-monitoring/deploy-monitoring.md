@@ -10,16 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Сводка: Узнайте, как развертывание мониторинг в Скайп для Business Server 2015.'
-ms.openlocfilehash: a963db346f5d9f7904b43fc2032aa881295d1b77
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a25165add0ca6f9acd08e77efeda42cf7a8819ef
+ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server-2015"></a>Развертывание функции мониторинга в Skype для бизнеса Server 2015
  
 **Сводка:** Сведения о развертывании мониторинг в Скайп для Business Server 2015.
-  
+ 
+Перед выполнением этих действий просмотрите [Планирование для мониторинга в Скайп для Business Server 2015](../../plan-your-deployment/monitoring.md).
+ 
 Как правило, реализация служб мониторинга в топологии выполняется в два этапа.
   
 1. Включение мониторинга в то же время вы устанавливаете новые Скайп для пула Business Server. (В Скайп Business Server 2015, мониторинг Включение или отключение на основе пула в пул.) Обратите внимание на то, что можно включить мониторинг для пула без фактического сбор данных мониторинга, процесс описано в разделе Configuring Call Detail Recording and Quality of Experience Settings в этой документации.
@@ -92,4 +94,8 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
     
 Как отмечено выше, команды в предыдущих примерах позволяют включить мониторинг регистрации вызовов и качества взаимодействия глобально, то есть в пределах организации. Можно также создавать для регистрации вызовов и качества взаимодействия отдельные параметры конфигурации на уровне сайта, после чего выборочно включать и отключать мониторинг для отдельных сайтов. Например, мониторинг регистрации вызовов может быть включен для сайта Redmond и отключен для сайта Dublin. Дополнительные сведения об управлении вашей параметров конфигурации наблюдения за приведены в разделе Руководство по развертыванию [Настройка регистрации вызовов и параметров качества взаимодействия в Скайп для Business Server 2015](call-detail-recording-and-qoe.md).
   
+## <a name="see-also"></a>См. также
 
+#### 
+
+[Планирование для мониторинга в Скайп Business Server 2015](../../plan-your-deployment/monitoring.md)

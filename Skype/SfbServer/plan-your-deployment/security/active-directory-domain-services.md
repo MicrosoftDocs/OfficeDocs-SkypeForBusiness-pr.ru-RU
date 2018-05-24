@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Доменные службы Active Directory работает как службы каталогов для Windows Server 2003, Windows Server 2008, Windows Server 2012 и Windows Server 2012 R2 сетей. Доменные службы Active Directory также выступает в качестве foundation, на котором создается Скайп для инфраструктуры безопасности Business Server 2015. Этот раздел предназначен для описания как Скайп для Business Server 2015 использует доменных служб Active Directory для создания надежного среды обмена мгновенными Сообщениями, веб-конференций, мультимедиа и голосовой связи. Для получения дополнительных сведений о подготовке среды для доменных служб Active Directory приведена Установка Скайп Business Server 2015 в документации по развертыванию. Для получения дополнительных сведений о роли доменных служб Active Directory в сетях Windows Server документации для версии операционной системы, которую вы используете.
-ms.openlocfilehash: eb4a2d5a070f7840733dd20da859d2dede38750a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d0beaeba36db02e7b0e4ad76bfefa27a9a49a09d
+ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server-2015"></a>Доменные службы Active Directory для Skype для бизнеса Server 2015
  
@@ -111,3 +111,7 @@ ms.lasthandoff: 03/28/2018
 |Прокси-серверы  <br/> |Скайп для Business Server 2015 не поддерживает обратной совместимости для прокси-серверов  <br/> |
    
 
+## <a name="see-also"></a>См. также
+
+#### 
+[Подготовка Active Directory для Скайп для Business Server 2015](../../deploy/install/prepare-active-directory.md)
