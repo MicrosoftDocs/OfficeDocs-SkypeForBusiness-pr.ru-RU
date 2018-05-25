@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Сводка: Узнайте, как установка и тестирование Скайп для бизнеса на вашей Windows Phone.'
-ms.openlocfilehash: c3f9fcf20726c4fd33dc4de462b64a1397373a0f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 12916e26857e5d456338519adee6190c11bace7b
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype для бизнеса Server 2015: установка и проверка Skype для бизнеса на Windows Phone
  
@@ -112,7 +112,6 @@ ms.lasthandoff: 03/28/2018
 ## <a name="see-also"></a>См. также
 
 #### 
-
 
 [Начало работы с Скайп для бизнеса для Windows Phone 8.1]()
 

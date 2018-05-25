@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Сводка: Развертывание Скайп для бизнеса Web App и использовать приложение Скайп собраний с Скайп для бизнеса.'
-ms.openlocfilehash: e1cee2741e1538da1e4c5ed8e25509415cb16ac3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a81e8744208261934635aee4f8a872a81b179c90
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server-2015"></a>Развертывание веб-клиентов, доступных для скачивания, в Skype для бизнеса Server 2015
  
@@ -154,7 +154,6 @@ ms.lasthandoff: 03/28/2018
 [Планирование для клиентов собрания (веб-приложения и приложения собрания)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
   
 [Планирование для клиентов собрания (веб-приложения и приложения собрания)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
-#### 
 
 [Настройка страницы присоединения к собранию](http://technet.microsoft.com/library/45880423-47f4-49af-b825-cbd8e3fc1046.aspx)
   

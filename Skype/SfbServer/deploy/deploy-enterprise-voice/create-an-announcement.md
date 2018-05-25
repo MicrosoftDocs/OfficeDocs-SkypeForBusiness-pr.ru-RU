@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Создание и удаление объявлений для объявлений приложения в Скайп Business Server корпоративной голосовой связи. От этих действий зависит способ обработки вызовов на неназначенные номера.
-ms.openlocfilehash: 46d743fa81db22ff7a528a6ba8ea99c5b8d6b4ec
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2b290c54f805951cdb3dede67c3dafe1a0d542d1
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server-2015"></a>Создание и удаление оповещения в Скайп для Business Server 2015
  
@@ -117,7 +117,6 @@ ms.lasthandoff: 05/03/2018
 #### 
 
 [Создание и удаление оповещения в Скайп для Business Server 2015](create-an-announcement.md)
-#### 
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
   

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: Можно добавить устройство проверки на странице тестирование устройства и затем использовать это устройство для проверки функциональности новых обновлений перед развертыванием этих обновлений на устройствах производственной. Вы можете протестировать устройство глобально (то есть в рамках всей среды) или для отдельного сайта. Устройство проверки указывается по MAC-адресу или серийному номеру. При добавлении устройства, оно отображается в списке на странице устройство проверки Скайп для панели управления Business Server.
-ms.openlocfilehash: de08a562695af309e795b0ded98c66ea738d0183
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 54b92d919654a82fbebe893b16af219cb761f12e
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="test-device"></a>Тестовое устройство
  
@@ -56,7 +56,6 @@ ms.lasthandoff: 03/28/2018
 #### 
 
 [Тестовое устройство: Создание новой или редактирование существующей](test-device-create-new-or-edit-existing.md)
-#### 
 
 [Новый CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   

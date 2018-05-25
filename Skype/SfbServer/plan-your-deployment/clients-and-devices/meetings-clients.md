@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Сводка: ИТ-специалистов следует Обзор требований к поддержка Скайп для бизнеса веб-приложения и приложения собраний Скайп при планировании для Скайп Business Server 2015. В этой статье не предназначен для пользователей из этих приложений.'
-ms.openlocfilehash: 921afbb6c446633128b2e2ead3c714dcdad91dd3
-ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
+ms.openlocfilehash: 1e843f0f6ba5d25958f4396c272d97943445239f
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Планирование для клиентов собрания (веб-приложения и приложения собрания)
  
@@ -178,5 +178,4 @@ ms.lasthandoff: 05/22/2018
 #### 
 [Развертывание веб-загрузки клиентов в Скайп для Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-#### 
 [Поддерживаемые платформы для приложения Скайп собраний](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

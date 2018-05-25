@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Сводка: Узнайте, как для получения, обновления и создать параметры конфигурации для службы централизованного ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: 0c4d03119a61fccd062e650c38815bee069852f5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8fe02cc4d2c04f9433736c4bced429f84f84d915
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Управление параметрами конфигурации централизованной службы ведения журналов в Skype для бизнеса Server 2015
  
@@ -54,7 +54,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 > [!TIP]
 > Можно также назначить - пулов и пулов, которые необходимо выполнять команды ведения журнала на список разделенных запятыми. 
   
-Сайта и глобальной области определены в командлетах **New-** **Set -**и **Remove -** централизованной службы ведения журналов. В приведенных ниже примерах демонстрируется настройка сайта и глобальной области.
+Сайта и глобальной области определены в командлетах **New-** **Set -** и **Remove -** централизованной службы ведения журналов. В приведенных ниже примерах демонстрируется настройка сайта и глобальной области.
   
 > [!IMPORTANT]
 > Показанные команды могут содержать параметры и концепции, описанные в других разделах. Примеры команд предназначены для демонстрации использования **-Identity** параметр для определения области, а другие параметры включены для полноты и для определения области действия. Для получения дополнительных сведений о командлеты **Set-CsClsConfiguration** видеть [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) в документации по операциям.
@@ -185,10 +185,8 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 [Настройка поставщиков для службы централизованного ведения журналов в Скайп для Business Server 2015](configure-providers.md)
   
 [Настройка сценариев для централизованной службы ведения журналов в Скайп для Business Server 2015](configure-scenarios.md)
-#### 
 
 [Службы централизованного ведения журналов в Скайп для бизнеса 2015](centralized-logging-service.md)
-#### 
 
 [SET-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
   
