@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: В этом разделе описываются средства в Скайп Business Server 2015 для набора ресурсов для, включая назначение каждого средства и примеры его использования. Скайп для набора ресурсов 2015 Business Server позволяет упростить выполнять рутинные задачи для ИТ-администраторам, развертывания и управления Скайп для Business Server 2015. Например средство веб-конференции данных можно использовать для легко управлять данные, которые отправлены пользователями во время собрания по сети. Средство SEFAUtil можно использовать для настройки вызова делегата, переадресация и ответы на для пользователей. Мы рекомендуем использовать эти средства для более эффективного управления Скайп для Business Server 2015 ИТ-администраторов.
-ms.openlocfilehash: 7178b7e5566badfea8096e314b1ac23213173a35
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 29ec63c387802e86144f5b1aa24e5441edec9939
+ms.sourcegitcommit: 4f5f298d59ecd914db9393b8b54e2abfc10e725a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Документация по инструментам Skype для бизнеса Server 2015 Resource Kit
  
@@ -279,7 +279,6 @@ ABSConfig может выполняться только с компьютера
   
 Нажмите кнопку **ОК**. Автоматически откроется электронная таблица BandwidthUtilizationAnalyzer.xlsm. Следуйте инструкциям в окне сообщения. Подробные сведения см. в следующем разделе, **Использование таблицы BandwidthUtilizationAnalyzer.xlsm**.
   
-#### 
 
 ### <a name="using-bandwidthutilizationanalyzerxlsm"></a>Использование таблицы BandwidthUtilizationAnalyzer.xlsm
 
