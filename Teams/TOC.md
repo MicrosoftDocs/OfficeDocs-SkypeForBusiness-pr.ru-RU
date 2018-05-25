@@ -16,6 +16,7 @@
 ## [Управление доступом пользователей к Teams](user-access.md)
 ## [Работа с клиентами для Teams](get-clients.md)
 ## [Требования к оборудованию для приложения группы](hardware-requirements-for-the-teams-app.md)
+## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
 ## [Вход в группы](sign-in-teams.md)
 ## [Обзор развертывания Teams](deployment-overview.md)
 ## [Настройка Teams в вашей организации Office 365](Office-365-set-up.md)
