@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 03aea975fae29b6a905753a2365007fb5b8a584f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3d08e68860f4ee508c8464545ba4cbe69ccb2d9d
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="users-assign-policies"></a>Пользователи: Назначение политик
  
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/24/2018
     
 - [Задание версий клиента, поддерживаемые для входа пользователя](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [Назначение политики ПИН-код пользователя в Скайп для Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Назначение политики ПИН-код пользователя в Скайп для Business Server 2015](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [Настройка федерации, удаленного доступа пользователей и общедоступных служб обмена Мгновенными сообщениями для пользователей](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -40,5 +40,5 @@ ms.lasthandoff: 05/24/2018
     
 - [Назначение политики сохраняемого чата на пользователя](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
 

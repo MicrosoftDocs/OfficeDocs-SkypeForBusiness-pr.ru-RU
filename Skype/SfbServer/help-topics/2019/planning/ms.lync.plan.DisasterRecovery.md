@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Скайп для Business Server 2015 включает в себя аварийного восстановления меры, позволяя вам пары пулов переднего плана, расположенный в двух центров данных.
-ms.openlocfilehash: 584a5c82619bc99bb4804bbb36140148fce8b6fe
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0efcf3d2c93ef97bcf81b80868a26f0420587bb7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="disaster-recovery-planning-tool"></a>Аварийное восстановление (средство планирования)
  
 Скайп для Business Server 2015 включает в себя аварийного восстановления меры, позволяя вам пары пулов переднего плана, расположенный в двух центров данных.
   
-Для получения дополнительных сведений о подготовке среды для аварийного восстановления видеть [Планирование высокой доступности и аварийного восстановления в Скайп для Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Для получения дополнительных сведений о подготовке среды для аварийного восстановления видеть [Планирование высокой доступности и аварийного восстановления в Скайп для Business Server 2015](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 

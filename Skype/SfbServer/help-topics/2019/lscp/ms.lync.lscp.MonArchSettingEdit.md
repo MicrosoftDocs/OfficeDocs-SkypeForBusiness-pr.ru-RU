@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Конфигурации архивирования используются для управления параметрами архивирования развертывания. Конфигурации архивирования включают глобальную конфигурацию и, возможно, одну или несколько конфигураций сайта или пула:'
-ms.openlocfilehash: 49227ded326c893d42852796e9c783a2dc4096cd
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 93bddc8bbba3280ae4e40c0031e65acc6965aa72
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Конфигурация архивирования: создание новой или редактирование существующей
  
@@ -69,5 +69,5 @@ ms.lasthandoff: 05/24/2018
     > [!NOTE]
     > Если включить интеграцию с Microsoft Exchange очистку для пользователей, размещенных на сервере Exchange 2013 и с почтовым ящикам, помещенные на хранение на месте, контролируются с помощью Exchange. Единственное исключение — для файлов, конференц-связи, которые хранятся в файловом ресурсе Lync Server. Эти файлы удаляются из файлового хранилища только после того, как эти файлы экспортированы (отправлены в Exchange), если выбран параметр удаления данных после экспорта архивных данных; или после заданного числа дней, если задан параметр числа дней хранения. 
   
-Подробные сведения о функции архивации и возможностей, включая интеграцию с Exchange в разделе [Планирование архивации в Скайп для Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Развертывание архивации для Скайп для Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивации в Скайп для Бизнес-2015 сервера](../../manage/archiving/archiving.md).
+Подробные сведения о функции архивации и возможностей, включая интеграцию с Exchange в разделе [Планирование архивации в Скайп для Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [Развертывание архивации для Скайп для Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивации в Скайп для Бизнес-2015 сервера](../../../manage/archiving/archiving.md).
 

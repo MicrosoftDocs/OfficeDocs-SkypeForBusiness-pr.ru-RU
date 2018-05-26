@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: Создание нового сервера сохраняемого чата или пул серверов сохраняемого чата с помощью мастера определения нового пула сохраняемого чата. Выберите пул на нескольких компьютерах или пул одиночного компьютера. Если выбран пул из одного компьютера, а позднее потребовался пул из нескольких компьютеров, необходимо удалить пул из одного компьютера и затем определить пул из нескольких компьютеров.
-ms.openlocfilehash: b4fbeb54c926573e908b361e7556fab9d87da848
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 419eab5bb6f92c3b0859214042e59378b5d8c601
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="define-persistent-chat-fqdn"></a>Определение полного доменного имени сохраняемого чата
  
@@ -28,7 +28,7 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

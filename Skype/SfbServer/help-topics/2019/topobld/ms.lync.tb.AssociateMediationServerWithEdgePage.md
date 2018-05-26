@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: Определение сервера-посредника, укажите параметры, которые связать сервер-посредник с сервера переднего плана и пограничного сервера или пула. Чтобы связать сервер-посредник или пул с пограничного сервера или пула пограничных серверов, выполните следующие действия.
-ms.openlocfilehash: 543f0c9c7faa767d429693cd8f5f3ff7396a6169
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 105c379e2740db099df73dc5d534a8c94992d7ea
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="associate-mediation-server-with-edge"></a>Связывание сервера-посредника с пограничным сервером
  
@@ -29,6 +29,6 @@ ms.lasthandoff: 05/24/2018
 > [!NOTE]
 > Если вы не еще не определили пограничного сервера или пула пограничных серверов в развертывании, раскрывающегося списка не будет содержать операций. Можно нажать кнопку **Далее** для продолжения и изменение параметров для сервера-посредника, после того как добавлена в развертывание пограничного сервера или пула.
   
-Для получения дополнительных сведений см [Сервера-посредника в построителе топологий в Скайп для Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Для получения дополнительных сведений см [Сервера-посредника в построителе топологий в Скайп для Business Server 2015](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

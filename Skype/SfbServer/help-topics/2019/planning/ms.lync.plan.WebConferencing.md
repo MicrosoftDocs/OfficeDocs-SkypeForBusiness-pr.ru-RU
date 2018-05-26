@@ -13,11 +13,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Скайп веб-конференций Business Server 2015 включает в себя совместная работа над документами, общий доступ к приложениям и рабочим столам.
-ms.openlocfilehash: 3755a922970942451f08e19c2ba59884cd8b91d3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1e2863895e9e0666381d6095e5846456029205b7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="web-conferencing-planning-tool"></a>Веб-конференций (средство планирования)
  
@@ -28,12 +28,12 @@ ms.lasthandoff: 05/24/2018
   
 Сведения о планировании включения веб-конференций в вашей организации см. в следующих статьях: 
   
-- [Планирование конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование конференц-связи в Скайп для Business Server 2015](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Аппаратные и программные требования для конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Аппаратные и программные требования для конференц-связи в Скайп для Business Server 2015](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Планирование конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Планирование конференц-связи в Скайп для Business Server 2015](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [План для больших собраний в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
+- [План для больших собраний в Скайп для Business Server 2015](../../../plan-your-deployment/conferencing/large-meetings.md)
     
 

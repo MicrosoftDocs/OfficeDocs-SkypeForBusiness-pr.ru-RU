@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Изменение общих параметров для сервера сохраняемого чата или пул серверов сохраняемого чата настраиваются путем определения следующих свойств:'
-ms.openlocfilehash: 84d6600c6ff99d55233ad40c7238fbb2c0480c98
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7124839f0b3869ecc6f5589359727ac141a054d9
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Расширитель общих настроек сохраняемого чата
  
@@ -114,9 +114,9 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 

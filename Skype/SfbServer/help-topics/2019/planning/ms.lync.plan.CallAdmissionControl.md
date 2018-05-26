@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: Контроль допуска звонков (CAC) на основе доступной пропускной способности сети определяет, следует ли разрешать установку сеансов связи в режиме реального времени, таких как голосовые или видеовызовы.
-ms.openlocfilehash: 10750b7f3653eed9051b59ebd0b79174cd92f5c9
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5aa8a606251712c47c69838b8ec6d45a0fe48b8c
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="call-admission-control-planning-tool"></a>Контроль допуска звонков (средство планирования)
  
 Контроль допуска звонков (CAC) на основе доступной пропускной способности сети определяет, следует ли разрешать установку сеансов связи в режиме реального времени, таких как голосовые или видеовызовы.
   
-Для получения дополнительных сведений о планировании для контроля допуска звонков видеть [плана для контроля допуска звонков в Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Для получения дополнительных сведений о планировании для контроля допуска звонков видеть [плана для контроля допуска звонков в Скайп для Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 

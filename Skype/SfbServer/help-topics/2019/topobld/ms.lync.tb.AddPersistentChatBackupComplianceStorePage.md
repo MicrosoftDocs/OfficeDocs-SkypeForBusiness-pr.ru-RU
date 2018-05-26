@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: Настройка резервного копирования соответствия требованиям хранилища SQL Server, который будет предоставлять резервных копий баз данных для сервера сохраняемого чата или соответствия сервера сохраняемого чата хранилища SQL Server.
-ms.openlocfilehash: 4e3a2bf034d5ab20c7352f2b6ef9c8a6a0c4befa
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7143ecdc51caf941196f1499e9cc1dc35764b0d3
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Добавление резервного хранилища SQL Server соответствия сохраняемого чата
  
@@ -48,13 +48,13 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Требования к серверу для Скайп для Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Требования к серверу для Скайп для Business Server 2015](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Аппаратные и программные требования для сервера сохраняемого чата в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Аппаратные и программные требования для сервера сохраняемого чата в Скайп для Business Server 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Настройка службы соответствия для сервера сохраняемого чата в Скайп для Business Server 2015](../../manage/persistent-chat/configure-compliance.md)
+[Настройка службы соответствия для сервера сохраняемого чата в Скайп для Business Server 2015](../../../manage/persistent-chat/configure-compliance.md)
   
-[Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 

@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
 description: В окне развернутый шлюз щелкните шлюз, где требуется импортировать выбранный файл конфигурации голосовой связи.
-ms.openlocfilehash: 1d5ecef232d8d30125c68d2092f7b2f6ae1ed75f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 18efe0de13acd0899f34ed18cf5a00f46d3b08b0
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="view-gateways-import-configuration"></a>Просмотр шлюзов (Импорт конфигурации)
  
 В **окне развернутый шлюз**щелкните шлюз, где требуется импортировать выбранный файл конфигурации голосовой связи.
   
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
   
 

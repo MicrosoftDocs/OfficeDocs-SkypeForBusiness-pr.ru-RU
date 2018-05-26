@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: Используйте диалоговое окно связи между областями для поиска связей между областями в вашей среде. Для использования существующего связь между областями щелкните связь между областями в списке и нажмите кнопку ОК.
-ms.openlocfilehash: a18bb0740e353752b9ff2d704e11499d78f91fc4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bc7261f326ee5f4c512d79465b86318d0f875b8b
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-region-link"></a>Выбор связи между областями
  
@@ -25,6 +25,6 @@ ms.lasthandoff: 05/24/2018
 > [!NOTE]
 > Чтобы получить все доступные связи между областями, ничего не вводите в поле поиска и нажмите значок поиска. 
   
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
   
 

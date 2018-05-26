@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Щелкните правой кнопкой мыши на пула сохраняемого чата в построителе топологий, чтобы выполнить следующее:'
-ms.openlocfilehash: 0fce18fb4e0882141b28cb073ce1b4e608487c02
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9109199dd1569d7d197d50c32725bc9f23cd1226
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Создание узла области применения серверов сохраняемого чата
  
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/24/2018
 
 #### 
 
-[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

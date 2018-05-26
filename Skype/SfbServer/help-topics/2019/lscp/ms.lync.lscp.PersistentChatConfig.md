@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: Развертывание сервера сохраняемого чата могут размещаться количество параллельных комнат сохраняемого сеанса беседы. На сервере комнаты чата можно упорядочить по целому набору категорий. Каждая комната чата относится к одной категории и наследует от нее некоторые параметры. Такая организация позволяет получить структуру, которая удобна для идентификации бесед по их назначению, облегчает делегированное администрирование и упрощает управление.
-ms.openlocfilehash: c4408ebd4417d2cf825620837da018ef30f725c9
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7be983ecc9a0cceca77fafae3217a91986da380b
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-configuration"></a>Настройка сохраняемого чата
  
@@ -122,6 +122,6 @@ ms.lasthandoff: 05/24/2018
     
 ### 
 
-Подробные сведения о сервера сохраняемого чата функций и возможностей, посвященной [планированию сервера сохраняемого чата в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Развернуть Persistent Chat Server в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)и [Управление сервера сохраняемого чата в Скайп для Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Подробные сведения о сервера сохраняемого чата функций и возможностей, посвященной [планированию сервера сохраняемого чата в Скайп для Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Развернуть Persistent Chat Server в Скайп для Business Server 2015](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)и [Управление сервера сохраняемого чата в Скайп для Business Server 2015](../../../manage/persistent-chat/persistent-chat.md).
   
 

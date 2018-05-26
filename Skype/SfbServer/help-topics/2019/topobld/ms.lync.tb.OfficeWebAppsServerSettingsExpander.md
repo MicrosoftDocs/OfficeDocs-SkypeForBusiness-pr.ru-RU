@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Изменение свойств настроенного сервера Office Web Apps. Чтобы изменить доступны следующие свойства:'
-ms.openlocfilehash: 44f9218ff8e125389dae06396a9b06e5cc197e44
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b7da5e19d6d9c300d96442c97bf4866116a60af3
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Изменение параметров сервера Office Web Apps
  
@@ -28,7 +28,7 @@ ms.lasthandoff: 05/24/2018
   
 Установите флажок **Сервер Office Web Apps развернут во внешней сети**, если этот сервер развернут в сети периметра или в другой сетевой зоне за пределами внутреннего брандмауэра, отделяющего сеть периметра, сети без доверия и Интернет от внутреннего развертывания.
   
-![Расширитель настроек Office Web Apps](../../media/OfficeWebApps_Settings_Expander.jpg)
+![Расширитель настроек Office Web Apps](../../../media/OfficeWebApps_Settings_Expander.jpg)
   
 ## <a name="see-also"></a>См. также
 

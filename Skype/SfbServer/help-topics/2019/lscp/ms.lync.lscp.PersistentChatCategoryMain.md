@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: Настройка категорий можно использовать раздел категории Persistent Chat страницы. Категории комнат сохраняемого чата — логическая структура организации комнат чата. Категория определяет набор списков управления доступом (ACL) по умолчанию для управления пользователями и группами пользователей, которые могут создавать комнаты чата или присоединяться к ним. Категории можно использовать для применения этических границ между различными подразделениями в организациях.
-ms.openlocfilehash: 52c58cb17f4d5bec9fbfb61188ac67d5d57978c3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f199220dc45e8a611682cfedc871ba744aa6d18e
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-category-main-page"></a>Главная страница категории сохраняемого чата
  
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/24/2018
   
 Категории комнат чата могут содержать комнаты чата, но не другие категории. Каждой категории описывает его содержимое с метаданными, такими как _имя_ и _Описание_. Кроме того, у категории есть свойства, которые можно задать для управления поведением комнат чата, относящегося к нему, например, если разрешить _приглашения_ или _Загрузки файлов_комнат чата, или содержит _Журнал чата_.
   
-Создание новой категории, видеть [Управление категориями в сервера сохраняемого чата в Скайп для Business Server 2015](../../manage/persistent-chat/categories.md). Если вы являетесь администратором Persistent Chat, категории можно создать с помощью панели управления или командлетов Windows PowerShell.
+Создание новой категории, видеть [Управление категориями в сервера сохраняемого чата в Скайп для Business Server 2015](../../../manage/persistent-chat/categories.md). Если вы являетесь администратором Persistent Chat, категории можно создать с помощью панели управления или командлетов Windows PowerShell.
   
 ## <a name="tasks-that-you-can-perform"></a>Задачи, которые вы можете выполнить
 
@@ -74,6 +74,6 @@ ms.lasthandoff: 05/24/2018
     
 ### 
 
-Подробные сведения о сервера сохраняемого чата функций и возможностей, посвященной [планированию сервера сохраняемого чата в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Развернуть Persistent Chat Server в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)и [Управление сервера сохраняемого чата в Скайп для Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Подробные сведения о сервера сохраняемого чата функций и возможностей, посвященной [планированию сервера сохраняемого чата в Скайп для Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Развернуть Persistent Chat Server в Скайп для Business Server 2015](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)и [Управление сервера сохраняемого чата в Скайп для Business Server 2015](../../../manage/persistent-chat/persistent-chat.md).
   
 

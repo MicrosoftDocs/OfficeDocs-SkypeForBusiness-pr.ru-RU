@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: В разделе Add-in страницы Persistent Chat можно использовать для сопоставления URL-адреса с комнатами Persistent Chat. Эти URL-адреса отображаются в клиенте в комнате чата в области расширения беседы. Администратор должен добавить надстройки в список зарегистрированных надстроек, а руководители или создатели комнат чата должны связать комнаты с одной из зарегистрированных надстроек, чтобы пользователи могли увидеть это обновление в клиенте.
-ms.openlocfilehash: 701a128095cd2d9e001109fb6623659d189b2fbb
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7c7dab8b3109834882e2f8cd8fc8285269fbec89
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Главная страница надстройки сохраняемого чата
  
@@ -24,13 +24,13 @@ ms.lasthandoff: 05/24/2018
   
 Надстройки используются для расширения доступных в комнате возможностей. Типичная надстройки могут содержать URL-адрес приложение Silverlight, перехватывает при Финансовый символ представляется чата и отображает журнал запасов в области расширяемости. К другим примерам относится внедрение URL-адреса OneNote в комнату чата в качестве надстройки, чтобы включить некоторый общий контекст – «Важные размышления» или «Тема дня».
   
-Создание надстроек для комнат сохраняемого чата, видеть [Настройка надстроек для комнат сохраняемого сеанса беседы в Скайп для Business Server 2015](../../manage/persistent-chat/configure-add-ins.md). Если вы являетесь администратором Persistent Chat, можно создать надстроек с помощью панели управления или командлетов Windows PowerShell.
+Создание надстроек для комнат сохраняемого чата, видеть [Настройка надстроек для комнат сохраняемого сеанса беседы в Скайп для Business Server 2015](../../../manage/persistent-chat/configure-add-ins.md). Если вы являетесь администратором Persistent Chat, можно создать надстроек с помощью панели управления или командлетов Windows PowerShell.
   
 ## <a name="tasks-you-can-perform"></a>Задачи, которые вы можете выполнить
 
 На странице **Надстройка** можно выполнить следующие задачи:
   
-- [Настройка надстроек для комнат сохраняемого сеанса беседы в Скайп для Business Server 2015](../../manage/persistent-chat/configure-add-ins.md)
+- [Настройка надстроек для комнат сохраняемого сеанса беседы в Скайп для Business Server 2015](../../../manage/persistent-chat/configure-add-ins.md)
     
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>Настройка надстроек для комнат чата
 
@@ -58,6 +58,6 @@ ms.lasthandoff: 05/24/2018
     
 ### 
 
-Подробные сведения о сервера сохраняемого чата функций и возможностей, посвященной [планированию сервера сохраняемого чата в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Развернуть Persistent Chat Server в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)и [Управление сервера сохраняемого чата в Скайп для Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Подробные сведения о сервера сохраняемого чата функций и возможностей, посвященной [планированию сервера сохраняемого чата в Скайп для Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Развернуть Persistent Chat Server в Скайп для Business Server 2015](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)и [Управление сервера сохраняемого чата в Скайп для Business Server 2015](../../../manage/persistent-chat/persistent-chat.md).
   
 

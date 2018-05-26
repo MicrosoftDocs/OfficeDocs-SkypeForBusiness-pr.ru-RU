@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: Очереди группы ответа хранят звонки в группу ответа, пока агент отвечает на звонок.
-ms.openlocfilehash: f5223aaca700c10a25631131db69a55de1362ddc
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7927efe94ee913921c2ddf139d2643084127bfc0
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Очередь группы ответа: создание новой или редактирование существующей
  
@@ -68,6 +68,6 @@ ms.lasthandoff: 05/24/2018
     
   - **Вперед в другую очередь** Если выбран этот параметр, перейдите в очередь, который должен принимать звонки, при превышении очереди.
     
-Для получения дополнительных сведений о группы ответа функций и возможностей см. в документации по планированию [Планирование приложения группы ответа в Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) . Дополнительные сведения о работе с очередями см [Управление очередями группы ответа](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) в документации по операциям.
+Для получения дополнительных сведений о группы ответа функций и возможностей см. в документации по планированию [Планирование приложения группы ответа в Скайп для Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) . Дополнительные сведения о работе с очередями см [Управление очередями группы ответа](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) в документации по операциям.
   
 

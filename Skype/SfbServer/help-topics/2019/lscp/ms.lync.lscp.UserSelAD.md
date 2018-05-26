@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
 description: Используйте выбор в диалоговом окне Active Directory для поиска пользователей, которые необходимо включить для Скайп для Business Server. В поле поиска введите SIP-адрес или отображаемое имя пользователя, которого требуется найти. Чтобы получить всех доступных пользователей, не вводите ничего в поле поиска.
-ms.openlocfilehash: 0c3dfa1878adb310c30870ede26fada16072c9f3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c41ec7cd0ab8b143cdda1274e150d49003ba454e
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-from-active-directory"></a>Выбор в Active Directory
  
 Используйте диалоговое окно **Выбор в Active Directory** для поиска пользователей, которые необходимо включить для Скайп для Business Server. В поле поиска введите SIP-адрес или отображаемое имя пользователя, которого требуется найти. Чтобы получить всех доступных пользователей, не вводите ничего в поле поиска.
   
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
   
 

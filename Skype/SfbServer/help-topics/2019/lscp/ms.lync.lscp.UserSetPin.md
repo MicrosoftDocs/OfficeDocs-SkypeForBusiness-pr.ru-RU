@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: Чтобы создать ПИН-код пользователя, выберите автоматически создавать допустимый ПИН-код.
-ms.openlocfilehash: f09103a0a1300a32098547b896dc7872b1339c6b
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 4cc95fb7dbbf66aee293d73aa3b61d46fdfc59a3
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="set-pin"></a>Настройка ПИН-кода
  
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/24/2018
   
 Чтобы создать собственный ПИН-код, выберите **Вручную ввести определенный ПИН-код**, а затем введите в текстовое поле ПИН-код, который удовлетворяет требованиям к ПИН-кодам, заданным в параметрах политики ПИН-кодов. 
   
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
   
 ## <a name="see-also"></a>См. также
 

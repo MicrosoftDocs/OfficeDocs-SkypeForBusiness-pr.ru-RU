@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Запустите построитель топологий для настройки свойств и конфигурации развертывания Microsoft Lync Server 2013. При загрузке системы Topology Builder отображает диалоговое окно с вопросом, каким будет источник в документе топологии. Выберите один из трех вариантов:'
-ms.openlocfilehash: 754d7a4e9f69c97891714dc02b325bf1d2b8b168
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f7e41d99b24f7064bd68f8c8a44565078eba87cf
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="topology-builder-startup-dialog"></a>Диалоговое окно запуска построителя топологии
  
@@ -28,7 +28,7 @@ ms.lasthandoff: 05/24/2018
     
 - **Новая топология** Установите этот флажок, чтобы начать настройку документа топологии. Этот параметр открывает новый документ топологии, который настроен в соответствии с требованиями для развертывания, который будет настроен.
     
-![Диалоговое окно запуска построителя топологии](../../media/Topology_Builder_Startup_Dialog.jpg)
+![Диалоговое окно запуска построителя топологии](../../../media/Topology_Builder_Startup_Dialog.jpg)
   
 ## <a name="see-also"></a>См. также
 

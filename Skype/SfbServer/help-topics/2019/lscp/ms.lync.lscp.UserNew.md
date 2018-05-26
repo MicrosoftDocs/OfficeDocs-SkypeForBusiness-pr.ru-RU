@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 598b4f148f0a0780b078ecce5f7405ecaa34452d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: e6391f7492a5bcf0811ae5ae545b9e7356be09ec
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="users-new-lync-server-user"></a>Пользователи: Новый пользователь Lync Server
  
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/24/2018
     
 - [Задание версий клиента, поддерживаемые для входа пользователя](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [Назначение политики ПИН-код пользователя в Скайп для Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Назначение политики ПИН-код пользователя в Скайп для Business Server 2015](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [Настройка федерации, удаленного доступа пользователей и общедоступных служб обмена Мгновенными сообщениями для пользователей](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/24/2018
     
 - [Назначение политики расположения для пользователя](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-- [Включение пользователей для корпоративной голосовой связи в Скайп для Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Включение пользователей для корпоративной голосовой связи в Скайп для Business Server 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Настройка федерации, удаленного доступа пользователей и общедоступных служб обмена Мгновенными сообщениями для пользователей](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -48,5 +48,5 @@ ms.lasthandoff: 05/24/2018
     
 - [Назначение политики сохраняемого чата на пользователя](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
 

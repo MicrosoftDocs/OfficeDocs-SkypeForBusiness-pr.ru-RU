@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Используйте диалоговое окно сайта выберите для поиска узлов, доступных в вашей среде. Для использования существующего сайта, выберите сайт в списке и нажмите кнопку ОК.
-ms.openlocfilehash: 7c39b0d4d0fad775f1c271542f76889060267c33
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7aba1089d73188c2d65771a87f01a20f93c48c4a
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-site"></a>Выбор сайта
  
@@ -25,7 +25,7 @@ ms.lasthandoff: 05/24/2018
 > [!NOTE]
 > Чтобы получить все доступные сайты, ничего не вводите в поле поиска и нажмите значок поиска. 
   
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
   
 ## <a name="tasks-you-can-perform"></a>Задачи, которые вы можете выполнить
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/24/2018
     
 - [Создание политики сайта для сохраняемого чата](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
     
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
   
 ## <a name="to-configure-persistent-chat-options-globally"></a>Настройка параметров Persistent Chat глобально
 
