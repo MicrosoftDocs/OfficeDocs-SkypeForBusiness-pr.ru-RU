@@ -14,6 +14,7 @@ ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "19179289"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a><span data-ttu-id="cc67d-103">Обслуживание версии 2 Скайп комнаты систем и операции</span><span class="sxs-lookup"><span data-stu-id="cc67d-103">Skype Room Systems v2 maintenance and operations</span></span> 
  
