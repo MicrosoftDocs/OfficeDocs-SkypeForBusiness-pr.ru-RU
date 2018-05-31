@@ -19,22 +19,23 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Сведения о лицензии дополнительный компонент и функции для GOV, EDU и планы некоммерческой организации. '
-ms.openlocfilehash: cc0777a6dd62e8353ef381c9f0e379e552c6bf18
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Узнать о лицензии надстройки и средства GOV, EDU и планы некоммерческая организация. '
+ms.openlocfilehash: bf1678efce8f6e08398147db7bb88c771da75bbb
+ms.sourcegitcommit: 3255d091396cb78478fa8899e98e53e149d89f28
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/29/2018
+ms.locfileid: "19493985"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU и некоммерческие организации
 
-Большинство Скайп для функции бизнес-доступные .gov, .edu и некоммерческие организации. Для получения дополнительных сведений см.
+Наиболее Скайп для функций Business доступны .gov, .edu и некоммерческие организации. Приведены в следующей таблице, для получения дополнительных сведений.
 
-|**Функция Skype для бизнеса**|**Доступна для .GOV (GCC)**|**Доступна для .GOV (не GCC)**|**Доступна для .EDU**|**Доступна для некоммерческих организаций**|
+| **Скайп для функции Business** | **Доступные .GOV (GCC)** | **Доступен для .GOV (не являющиеся GCC)** | **Доступные .EDU** | **Доступен для некоммерческие организации** |
 |:-----|:-----|:-----|:-----|:-----|
-|Трансляция собрания Skype  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |Да  <br/> |
-|АудиоконференцияSkype для бизнеса  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Телефонная система Office 365  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|План звонков Office 365  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
+|Скайп собрания вещания  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |Да  <br/> |
+|Скайп для бизнеса аудиоконференций  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
+|Office 365 телефонной системой  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
+|Вызов план Office 365  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
    
-См. запись блога [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers (Расширенные возможности Office 365 теперь доступны пользователям Government Community Cloud в США)](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
+Можно найти в этом блоге: [Office 365 дополнительные возможности теперь доступно для США облако сообщества госучреждений] (https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
