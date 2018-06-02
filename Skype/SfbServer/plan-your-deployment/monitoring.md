@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Сводка: Изучите раздел при планировании для мониторинга службы в Скайп Business Server 2015.'
-ms.openlocfilehash: 82cad33f6094711f592633229db81b598df56fcb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f277f74de3c7adee914c141ac4472b3c2fba1575
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546556"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server-2015"></a>Планирование мониторинга в Skype для бизнеса Server 2015
  
@@ -104,7 +105,7 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
     
 - Microsoft SQL Server 2012 Standard Edition (64-разрядная версия),
     
-- Microsoft SQL Server 2014 Enterprise Edition (64-разрядная версия),
+- Microsoft SQL Server 2014 Enterprise Edition (64-разрядная версия)
     
 - Microsoft SQL Server 2014 Standard Edition (64-разрядная версия),
     
@@ -122,10 +123,7 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
     
 Другими словами, нельзя иметь два экземпляра базы данных LcsCdr в одном экземпляре SQL Server. Если требуется несколько экземпляров базы данных LcsCdr, придется настроить несколько экземпляров SQL Server.
   
-## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
-<a name="topologies"> </a>
+## <a name="see-also"></a>См. также
 
-#### 
 
 [Мониторинг развертывания](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-

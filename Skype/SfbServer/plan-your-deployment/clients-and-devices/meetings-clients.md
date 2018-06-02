@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Сводка: ИТ-специалистов следует Обзор требований к поддержка Скайп для бизнеса веб-приложения и приложения собраний Скайп при планировании для Скайп Business Server 2015. В этой статье не предназначен для пользователей из этих приложений.'
-ms.openlocfilehash: 1e843f0f6ba5d25958f4396c272d97943445239f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 88006a758909f56f21724706bf9670077d603caa
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546563"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Планирование для клиентов собрания (веб-приложения и приложения собрания)
  
@@ -158,24 +159,13 @@ ms.lasthandoff: 05/24/2018
     
 - Вы может необходимо включить [JavaScript](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) поддерживает в браузере для некоторых Скайп для компонентов Business Web App для работает должным образом.
     
-### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Требования к шифрования из-за ASP .NET 4.5
+### <a name="aes-support"></a>Поддержка AES 
 
-По состоянию на Скайп Business Server 2015 накопительным пакетом обновления 5 AES не поддерживается для ASP.NET 4.6 и это может привести к Скайп собраний приложения могут быть запуск. Если клиент использует AES как значение ключа проверки компьютера необходимо сбросить значение ключа машины SHA-1 или другой поддерживаемый алгоритм на уровне веб-сайта Скайп собраний приложения в IIS. При необходимости просмотрите [Управления конфигурации IIS 8.0 ASP.NET](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) для получения инструкций.
-  
-Другие поддерживаемые значения.
-  
-- HMACSHA256
-    
-- HMACSHA384
-    
-- HMACSHA512
-    
- Значения, AES, 3DES и MD5 больше не допускается, поскольку они были один раз в ASP.NET 4. [Улучшения шифрования в ASP.NET 4.5, пункта 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) имеет более подробных сведений.
+По состоянию на Скайп Business Server 2015 накопительным пакетом обновления 5 AES не поддерживается для ASP.NET 4.6 и это может привести к Скайп собраний приложения могут быть запуск. [Криптографический требования из-за ASP .NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) содержит более подробные сведения.
   
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="BKMK_Conferencing"> </a>
 
-#### 
 [Развертывание веб-загрузки клиентов в Скайп для Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
 [Поддерживаемые платформы для приложения Скайп собраний](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

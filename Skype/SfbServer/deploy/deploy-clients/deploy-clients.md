@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Сводка: Обзор методов установки enterprise client для Скайп для бизнеса.'
-ms.openlocfilehash: d41ce5b2fe9b4717a9af78fb3072ae0da48b72ec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4c1253613befd5bf71add33b7ab9cab826d4a490
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546471"
 ---
 # <a name="deploy-clients-for-skype-for-business-server-2015"></a>Развертывание клиентов для Skype для бизнеса Server 2015
  
@@ -60,7 +61,4 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="see-also"></a>См. также
 
-#### 
-
-[Развертывание Скайп для клиента Business для вашей организации](https://support.officeppe.com/en-us/article/Deploy-the-Skype-for-Business-client-for-your-organization-8c563b81-22c9-4024-9efe-9fe28c7bbc96?ui=en-US&amp;rs=en-US&amp;ad=US)
-
+[Развертывание Скайп для клиента бизнеса в Office 365](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
