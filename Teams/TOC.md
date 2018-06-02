@@ -16,7 +16,6 @@
 ## [Управление доступом пользователей к Teams](user-access.md)
 ## [Работа с клиентами для Teams](get-clients.md)
 ## [Требования к оборудованию для приложения группы](hardware-requirements-for-the-teams-app.md)
-## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
 ## [Вход в группы](sign-in-teams.md)
 ## [Обзор развертывания Teams](deployment-overview.md)
 ## [Настройка Teams в вашей организации Office 365](Office-365-set-up.md)
@@ -41,7 +40,7 @@
 
 
 # Взаимодействие с Office 365
-## [Взаимодействие Teams и Skype для бизнеса](teams-and-skypeforbusiness-interoperability.md)
+## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
 ## [Группы Office 365 и Teams](office-365-groups.md)
 ## [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
 ## [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
@@ -227,6 +226,7 @@
 ## [2. Пилотный проект Teams параллельно с использованием Skype для бизнеса.](pilot-essentials.md)
 ### [2.1 - выбора пользователей для пилотной группы](select-users-for-your-teams-pilot.md)
 ## [3 — понять, совместимости и обновление режимы для Скайп для бизнеса и рабочих групп](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [3.1 - рабочих групп и Скайп для бизнеса сосуществования и взаимодействия](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ## [4. Извлечение выгоды за счет освоения Teams пользователями.](continue-journey.md)
 ## [Вопросы и ответы. Концепция Skype для бизнеса и Teams](FAQ-journey.md)
 ## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
