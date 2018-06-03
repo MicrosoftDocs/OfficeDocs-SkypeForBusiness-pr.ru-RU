@@ -1,22 +1,23 @@
 ---
-title: "Администратор Skype для бизнеса Online"
-description: "Узнайте, как управлять Skype для бизнеса Online в своей организации."
+title: Администратор Skype для бизнеса Online
+description: Узнайте, как управлять Skype для бизнеса Online в своей организации.
 services: skype-for-business-online-admin
 author: tonysmit
 manager: serdars
 ms.date: 01/22/2018
 layout: LandingPage
-ms.assetid: 
+ms.assetid: ''
 ms.service: skype-for-business-online-admin
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: 3de4ba1e928dfef92a259738507a94a279e9ca1e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: MT
+ms.openlocfilehash: e92f5fdf9aa3b7d60ccf956d0eca872fd7b3f43f
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546463"
 ---
 # <a name="skype-for-business-online-admin"></a>Администратор Skype для бизнеса Online
 
@@ -30,7 +31,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_get-started.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -48,7 +49,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_support.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -66,7 +67,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_account-management.svg" alt="User account" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/user-accounts.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -84,7 +85,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tools.svg" alt="Troubleshoot" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Troubleshoot" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,16 +103,74 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_teams-flag.svg" alt="Flag" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Переход со Skype для бизнеса на Microsoft Teams</h3>
+                        <h3>Переход со Skype для бизнеса на Teams</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
+    </li>
+</ul>
+
+---
+
+<h2>Что нового</h2>
+
+<ul class="panelContent cardsF">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Статьи</h3>
+                        <p><a href=" ">Имя ссылки</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Новые функции</h3>
+                        <p><a href=" ">Имя ссылки</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector-blue.svg" alt="Updates" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Основные обновления</h3>
+                        <p><a href=" ">Имя ссылки</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
 </ul>
 
@@ -125,7 +184,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardText">
                         <h3>Аудиоконференции</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Аудиоконференции в Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Управление настройками аудиоконференции для организации</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Общие вопросы по аудиоконференциям</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Сравнение поставщиков аудиоконференций</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности аудиоконференции в стране или регионе</a></p>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Аудиоконференции в Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Управление настройками аудиоконференции для организации</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Общие вопросы по аудиоконференциям</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Сравнение поставщиков аудиоконференций</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности аудиоконференции в стране или регионе</a></p>
                     </div>
                 </div>
             </div>
@@ -161,7 +220,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardText">
                         <h3>Планы звонков</h3>
-                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">Что такое планы звонков в Office 365?</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">Настройка планов звонков</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности планов звонков в стране или регионе</a></p>
+                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">Что такое планы звонков в Office 365?</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">Настройка планов звонков</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности планов звонков в стране или регионе</a></p>
                     </div>
                 </div>
             </div>
@@ -173,7 +232,7 @@ ms.lasthandoff: 02/19/2018
                 <div class="card">
                     <div class="cardText">
                         <h3>Телефонная система</h3>
-                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system">Возможности телефонной системы в Office 365</a></p>
+                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system">Возможности телефонной системы в Office 365</a></p>
                </div>
                 </div>
             </div>
