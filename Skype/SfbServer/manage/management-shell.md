@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: Скайп для консоли Business Server содержит интерфейс командной строки для администрирования и управления сервером. Создан на основе Windows PowerShell, а также полный набор командлетов управления и администрирования, относящиеся к Скайп и прежних версий продуктов Lync server.
-ms.openlocfilehash: e4eb5f183af29dd5f9932fb15cdb86a0f78e7840
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e1c954c75f03be7e7603866c4bb58d5927f2c3f8
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569374"
 ---
 # <a name="skype-for-business-server-2015-management-shell"></a>Командная консоль Skype для бизнеса Server 2015
  
@@ -24,7 +25,7 @@ ms.lasthandoff: 03/28/2018
 Windows PowerShell позволяет управлять приложениями корпорации Майкрософт с помощью командной строки. Содержит среды командной строки, команды конкретного продукта и полный языка сценариев. Windows PowerShell была впервые введена как загружаемая версия для операционной системы Windows позднее в 2006 г. и был включены как интерфейс командной строки для управления Microsoft Exchange Server 2007. Он был включен в большинство серверных продуктов Майкрософт, включая Lync и Скайп серверы, Приступая к работе с Lync Server 2010. Около 700 определенные командлеты Lync и Скайп доступны в Скайп для консоли Business Server.
   
 > [!NOTE]
-> Скайп для бизнеса Справочник командлетов перемещен в docs.microsoft.com. Нажатие на приведенные ниже ссылки вы перейдете к новой страницы docs.microsoft.com. Теперь весь контент предлагается с открытым исходным кодом и доступен в сообществе GitHub. Хотите принять участие в работе с ним? Извлечение сведений в repo здесь:[https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
+> Справочник по командлетам Skype для бизнеса перенесен на веб-сайт docs.microsoft.com. По представленным ниже ссылкам вы можете перейти на новую страницу портала docs.microsoft.com. Теперь весь контент предлагается с открытым исходным кодом и доступен в сообществе GitHub. Хотите принять участие в работе с ним? Извлечение сведений в repo здесь:[https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
 Скайп для Business Server 2015 поставляется с более чем 700 командлетов, которые позволяют администраторам управлять Скайп для Business Server, с помощью Скайп для консоли Business Server. Вы можете получить справку по командлету непосредственно в командной строке, введя следующую команду:
   
@@ -64,7 +65,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
   ```
   // Save the help files
    Save-Help -DestinationPath \\UpdateShare\HelpDownload
-// Run Update-Help against the local help files
+  // Run Update-Help against the local help files
    Update-Help -Module SkypeforBusiness -SourcePath \\UpdateShare\HelpDownload
   ```
 

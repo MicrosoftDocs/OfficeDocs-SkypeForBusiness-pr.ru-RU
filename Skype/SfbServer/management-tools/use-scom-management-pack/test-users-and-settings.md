@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Сводка: Настройка тестовых учетных записей пользователей и параметры узла наблюдателя для Скайп для искусственных транзакций Business Server.'
-ms.openlocfilehash: 55172fb152b3b02e87e8d46048c820c2c1b2dd04
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ee5330f10dd97e8ecc8a3e3e30962e6e8a69555b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569877"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Настройка тестовых пользователей узла-наблюдателя и параметров
  
@@ -301,7 +302,6 @@ $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
-
 ```
 
 Эта задача настройки должна быть запущена изнутри предприятия:
@@ -439,5 +439,3 @@ $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
   
 > [!IMPORTANT]
 > По умолчанию Скайп для Business Server 2015 сохраняет файлы журналов в папку, которая не является общей. Чтобы сделать эти журналы доступны, должны совместно использовать эту папку. Например: \\atl-watcher-001.litwareinc.com\WatcherNode. 
-  
-
