@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Сводка: Развертывание Скайп для бизнеса Web App и использовать приложение Скайп собраний с Скайп для бизнеса.'
-ms.openlocfilehash: a81e8744208261934635aee4f8a872a81b179c90
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 35d019e7b0c97586091d1de8151f6714e7d31b92
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501978"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server-2015"></a>Развертывание веб-клиентов, доступных для скачивания, в Skype для бизнеса Server 2015
  
@@ -149,8 +150,6 @@ ms.lasthandoff: 05/24/2018
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="SMA_Enable"> </a>
 
-#### 
-
 [Планирование для клиентов собрания (веб-приложения и приложения собрания)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
   
 [Планирование для клиентов собрания (веб-приложения и приложения собрания)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
@@ -160,4 +159,3 @@ ms.lasthandoff: 05/24/2018
 [Заявление о конфиденциальности Microsoft Online Services](https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx)
   
 [Условия лицензионного соглашения и документация](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)
-

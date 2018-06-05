@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: В дополнение к началу номера телефонов для пользователей с Office 365, можно поиск и получить бесплатный или бесплатные номера телефонов для службы, такие как аудиоконференций (для мостов конференции), автосекретари и очереди вызовов (также называемая номеров службы). Номера телефонов служб позволяют обслуживать большее число одновременных звонков по сравнению с абонентскими номерами.
-ms.openlocfilehash: 9a7761ca39295ef36531f74b835d9e0dbd498d51
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 78bb84b60e6c7b4632e8eef84e2b6dc057af136e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500730"
 ---
 # <a name="getting-service-phone-numbers"></a>Получение службы телефонных номеров
 
@@ -44,7 +45,9 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="get-new-service-numbers"></a>Получение новых номеров служб
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+
+1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
@@ -82,7 +85,7 @@ ms.lasthandoff: 05/03/2018
 > Если необходимо больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## <a name="related-topics"></a>See also
-[Преимущества телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
+[Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

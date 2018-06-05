@@ -17,17 +17,20 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 4385ca2a5d8654d9619c353932462f2d32a1c9a3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 37f028c6a7347f13c6f41d88bfdb23907dfa92c3
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500618"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Разрешение на добавление контактов Skype пользователям Skype для бизнеса
 
 [] В Skype для бизнеса поддерживается поиск любых пользователей бесплатной версии Skype и общение с ними! В этой статье рассказывается о том, как добавлять контакты Skype. 
   
 Для этого необходимы [Роли администраторов в Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) в Office 365.
+
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
   
 1. Выполните вход с учетной записью администратора Office 365 в [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
     
@@ -97,7 +100,7 @@ ms.lasthandoff: 04/18/2018
    
 ## <a name="related-topics"></a>See also
 
-[Разрешите пользователям связываться с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md)
+[Разрешение пользователям на связь с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md)
   
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 

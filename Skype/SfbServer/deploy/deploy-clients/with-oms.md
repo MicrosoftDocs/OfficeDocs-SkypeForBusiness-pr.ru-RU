@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Эта статья посвящена процедуре для развертывания управления устройствами v2 систем комнаты Скайп интегрированная, начала до конца способом, с помощью Microsoft Operations Management Suite.
-ms.openlocfilehash: 7d8dc8a7e7f5a74c68fbc7bf5ecb98664c2b02ad
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: b0e43360b92b2ac8fdc32794a03942ec5c7755dc
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501034"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Развертывание управления системами комнат Skype версии 2 с помощью OMS
  
@@ -495,7 +496,6 @@ ms.lasthandoff: 05/21/2018
 
 ## <a name="see-also"></a>См. также
 
-#### 
 [Планирование управления системами комнаты Скайп версии 2 с OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [Управление устройствами систем комнаты Скайп версии 2 с OMS](../../manage/skype-room-systems-v2/oms.md)

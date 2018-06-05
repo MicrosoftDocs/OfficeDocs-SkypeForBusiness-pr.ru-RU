@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Сводка: Узнайте, как для получения, обновления и создать параметры конфигурации для службы централизованного ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: 8fe02cc4d2c04f9433736c4bced429f84f84d915
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: e386c22b8e8c1543b553ca1b9f242e9554ee5c85
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504574"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Управление параметрами конфигурации централизованной службы ведения журналов в Skype для бизнеса Server 2015
  
@@ -180,8 +181,6 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 Если удалить конфигурацию уровня сайта, сайт будет использовать глобальные параметры.
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Настройка поставщиков для службы централизованного ведения журналов в Скайп для Business Server 2015](configure-providers.md)
   
 [Настройка сценариев для централизованной службы ведения журналов в Скайп для Business Server 2015](configure-scenarios.md)
@@ -195,4 +194,3 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 [New-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
   
 [Remove-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)
-

@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Сводка: Настройка ролей сервера взаимодействия видео (VIS) в Скайп для Business Server 2015.'
-ms.openlocfilehash: 7192135f5822e3086de7533afbdc8492194a3889
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 783900004d4f3ed9b060e7f237a62dfc5cf124f1
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501933"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server-2015"></a>Настройка VIS в Skype для бизнеса Server 2015
  
@@ -85,7 +86,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Настройка CUCM для взаимодействия с Скайп для Business Server 2015](configure-cucm-for-interoperation.md)
-

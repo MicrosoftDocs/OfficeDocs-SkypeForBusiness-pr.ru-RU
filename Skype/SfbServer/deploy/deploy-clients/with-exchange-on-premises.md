@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 в гибридной среде с сервером Exchange при локальном.
-ms.openlocfilehash: a0a53b7f8be916d1c0c1a69a23a0f8c604420d9a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f2550fb5dffcd8be3f3f8e330db2e3cfa32651dd
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500792"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises-hybrid"></a>Развертывание Систем комнат Skype версии 2 в локальной среде Exchange (гибридное)
  
@@ -146,8 +147,6 @@ ms.lasthandoff: 03/28/2018
 Для проверки можно использовать любой Скайп для бизнеса клиента для входа в эту учетную запись.
   
 ## <a name="see-also"></a>См. также
-
-#### 
 
 [Планирование для помещения Скайп систем версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

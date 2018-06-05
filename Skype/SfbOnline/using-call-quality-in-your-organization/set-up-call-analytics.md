@@ -18,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Настройка и использование вызова Analytics для выявления и устранения неполадок Скайп для бизнеса и группами Майкрософт проблемы с качеством вызовов.
-ms.openlocfilehash: 0fea9e37933908ef64f1b2eb100f3851f84a6690
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 5cba53e1a01b1aff3a08f4ec84cea60dc455fb35
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500696"
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Настройка Скайп для вызова бизнес-аналитики
 
@@ -57,6 +58,8 @@ ms.lasthandoff: 05/17/2018
    
  **Настройка другого уровня разрешений в аналитике вызова** 
  <a name="BKMK_SetUpTier"> </a>
+
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
   
 1. Создание группы безопасности Office 365 для уровня 1 и 2 уровня и людей, с которыми вы хотите добавить в каждую группу. Также можно повторно использовать существующие группы безопасности. Дополнительные сведения см. в статье [Создание, изменение или удаление группы безопасности в Центре администрирования Office 365](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
     

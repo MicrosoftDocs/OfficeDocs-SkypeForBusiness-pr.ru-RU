@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: 'В этой статье рассматривается интегрированное и комплексное управление устройствами Систем комнат Skype версии 2 с помощью Microsoft Operations Management Suite. '
-ms.openlocfilehash: 4290e89f2a5faba6fa4efdfb48e57345bc0c35f5
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: b77f7216593d30c843eb49fd8879a83b5b0025c8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504238"
 ---
 # <a name="manage-skype-room-systems-v2-devices-with-oms"></a>Управление устройствами Систем комнат Skype версии 2 с помощью OMS
  
@@ -39,12 +40,9 @@ ms.lasthandoff: 05/11/2018
 |3001  <br/> Сообщение об ошибке  <br/> |Событие, свидетельствующее об ошибке оборудования. Специальный процесс приложения Систем комнат Skype каждые 5 минут проверяет состояние подключенных компонентов оборудования (фронтальный дисплей, микрофон, динамик, камера). Если хотя бы один компонент неработоспособен, в журнал событий записывается идентификатор 3001. Это событие будет записываться в журнал до тех пор, пока проблема с устройством не будет устранена.  <br/> |{«Описание»:» **переднего из комнаты отображать состояние: неработоспособные.** Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy. ","ResourceState":"Unhealthy","OperationName":"HardwareCheckEngine","OperationResult":"Fail","OS":"Windows 10","OSVersion":"10.0.14393.1198","Alias":"alias@contoso.com","DisplayName":"Yosemite conference room","AppVersion":"2.0.58.0","IPv4Address":"10.10.10.10","IPv6Address":"IPv6Address","IPv4Address2":"10.10.10.10"} <br/>  В параметрах, соответствующих периферийным компонентам оборудования, может отображаться значение "Healthy" (Работоспособно) или "Unhealthy" (Неработоспособно). <br/> В этом примере в системе настроены два фронтальных дисплея, ни один из которых на данный момент не доступен. В параметре "Conference Microphone" (Микрофон для конференц-связи) указано неработоспособное состояние, что может быть вызвано целым рядом причин. Так как не все компоненты прошли проверку, в параметре "ResourceState" (Состояние ресурса) содержится значение "Unhealthy" (Неработоспособно). В этом случае необходимо обратиться к техническому специалисту для дальнейшего анализа причин неполадок.  <br/> |
 |4000  <br/> Информация  <br/> |Событие, свидетельствующее о перезапуске приложения. Записывается в журнал событий Windows при каждом перезапуске приложения.  <br/> | {"Description":"App restarts.","ResourceState":"Healthy","OperationName":"Restart","OperationResult":"Pass","OS":"Windows 10","OSVersion":"10.0.14393.693","Alias":"alias@domain.com","DisplayName":"Display Name","AppVersion":"1.0.38.0","IPv4Address":"10.10.10.10","IPv6Address":"ip v6 address"} <br/> Скайп для бизнес-приложения могут перезапустить ряду причин. Сравнение частота перезагрузку устройств в одном здании и в различных помещениях, учитывая известные проблемы, связанные как power колебания и сбои, как это может помочь вам проблем инфраструктуры. <br/> |
    
-## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
-<a name="Telemetry"> </a>
-
-#### 
+## <a name="see-also"></a>См. также
+<a name="Telemetry"></a>
 
 [Планирование управления системами комнаты Скайп версии 2 с OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [Развертывание управление системами комнаты Скайп версии 2 с OMS](../../deploy/deploy-clients/with-oms.md)
-

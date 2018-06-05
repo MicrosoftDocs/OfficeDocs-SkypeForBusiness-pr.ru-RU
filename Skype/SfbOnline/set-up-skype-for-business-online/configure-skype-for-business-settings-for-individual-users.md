@@ -1,5 +1,5 @@
 ---
-title: Admins Configure Skype for Business settings for individual users
+title: Скайп Настройка "Администраторы" для бизнеса параметры для отдельных пользователей
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,27 +19,30 @@ f1_keywords:
 ms.custom:
 - Setup
 - LIL_Placement
-description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 930960117a46639e86ed2d24c286a5270b21acb9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 'Узнайте, как изменить Скайп для бизнеса параметры для отдельных пользователей, таких как: аудио- и видеоконференций, собраний и регистрации вызовов. '
+ms.openlocfilehash: f9b6db08c87e46326d6e9de7c82d6e1c89cffce0
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500822"
 ---
-# <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Admins: Configure Skype for Business settings for individual users
+# <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Администраторы: Настройка Скайп Business для отдельных пользователей
 
-This article explains how admins configure Skype for Business for a small number of users. To do these steps in bulk, we've included links to the Windows PowerShell cmdlets you can use.
+В этой статье объясняется, как администраторы настраивать Скайп для бизнеса, для небольшого числа пользователей. Для выполнения этих действий в пакетном режиме, включены ссылки на командлетов Windows PowerShell, которые можно использовать.
   
-To allow (or block) everyone in your business to communicate with external people, see:
+Чтобы разрешить (или заблокировать) всем сотрудникам организации для взаимодействия с внешним пользователям, см.
   
-- [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md): You can let your organization use advanced Skype for Business features (share desktops, look for who's online, etc.) to communicate with people in a specific trusted (federated) business. The article also explains how to block communication with specific domains.
+- [Разрешить пользователям включать поддержку для связи внешних Скайп для бизнес-пользователи](allow-users-to-contact-external-skype-for-business-users.md): можно разрешить вашей организации используйте advanced Скайп для функций Business (общий доступ настольных компьютеров, внешнего вида для пользователей, которые через Интернет, и т.д.) для взаимодействия с пользователями в определенном надежные (федеративных) business. В статье также описываются способы заблокировать обмен данными с определенных доменов.
     
-- [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md). You can let your organization use Skype for Business to search for and IM people who use Skype, the free app.
+- [Сообщите Скайп для бизнес-пользователи добавлять контакты Скайп](let-skype-for-business-users-add-skype-contacts.md). Позволяет организации использовать Скайп для бизнеса для поиска и обмена мгновенными Сообщениями пользователей Скайп бесплатное приложение.
     
-## <a name="configure-general-settings-for-one-user"></a>Configure general settings for one user
+## <a name="configure-general-settings-for-one-user"></a>Настройка общих параметров для одного пользователя
 <a name="__toc325019204"> </a>
 
-You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
+Необходимо иметь [разрешения администратора](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) для выполнения следующих действий.
+
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
   
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
@@ -49,54 +52,54 @@ You must have [admin permissions](https://support.office.com/en-us/article/da585
     
     ![In the Skype for Business admin center, choose Users.](../images/7c80eeb3-6555-4fc8-91f4-61b493581e9e.png)
   
-4. Choose which users you want to edit.
+4. Выберите пользователей, которые требуется изменить.
     
 5. В области справа выберите **Изменить**.
     
     ![Choose the edit icon.](../images/5dd7c5bc-b8fa-4201-b6a6-1436ad8f88fb.png)
   
-6. On the **General** options page, select or clear the check box next to the features you want to change, and then choose **Save**.
+6. На странице " **Общие** параметры" установите или снимите флажок рядом с пунктом функции, которые требуется изменить и нажмите кнопку **Сохранить**.
     
-|**Option**|**Сведения**|
+|**Параметр**|**Сведения**|
 |:-----|:-----|
-|Audio and HD video  <br/> |Allow this person to record audio meetings, audio and video meetings, or don't allow them to schedule any meeetings (none).  <br/> |
-|Record conversations and meetings  <br/> |Choose what this person is allowed to record.  <br/> This option is not available with Skype for Business Basic.  <br/> |
-|For compliance, turn off non-archived features  <br/> | Choose this option if you're legally required to preserve electronically stored information. <br/>  Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) set up in in the Exchange admin center. It turns off the following features: <br/>  Передача файлов через службу мгновенных сообщений <br/>  Общие страницы OneNote <br/>  Примечания PowerPoint <br/> |
+|Аудио и видео высокой Четкости  <br/> |Разрешить этой человека записывать аудио собрания, аудио- и видеоконференций собраний или запретить их для планирования любого meeetings (нет).  <br/> |
+|Запись бесед и собраний  <br/> |Выберите, что этот человек разрешается вести запись.  <br/> Этот параметр недоступен с Скайп для базовой бизнеса.  <br/> |
+|Для соответствия требованиям отключите не архивируются функции  <br/> | Выберите этот параметр, если вы закону, чтобы сохранить электронных. <br/>  При выборе этого параметра отключает функции, которые не регистрируются при наличии [Хранения на месте](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) настройки в центре администрирования Exchange. Отключает следующие функции: <br/>  Передача файлов через службу мгновенных сообщений <br/>  Общие страницы OneNote <br/>  Примечания PowerPoint <br/> |
    
-To configure these settings in bulk, use PowerShell. See [Managing policies in Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
+Чтобы настроить эти параметры в пакетном режиме, с помощью PowerShell. См.: [Управление политики в Скайп для бизнеса в Интернет](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
   
-## <a name="block-external-communications"></a>Block external communications
+## <a name="block-external-communications"></a>Блокировать внешней связи
 <a name="__toc325019206"> </a>
 
-After you [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md) for everyone in your company, you can selectively block external communications for specific individuals using these steps.
+После вы [позволить Скайп для бизнес-пользователям добавлять контакты Скайп](let-skype-for-business-users-add-skype-contacts.md) для всех пользователей в вашей компании можно выборочно заблокировать внешних коммуникаций для определенных пользователей, выполнив следующие действия.
   
-1. Choose **Users**, select the users whose settings you want to disable, and then choose **Edit** ![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Выберите **пользователей**, выберите пользователей, параметры которого требуется отключить и выберите команду **Изменить** ![изменить](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
-2. Choose **External communications**, and then clear the options as appropriate:
+2. Выбор **внешних коммуникаций**, а затем снимите нужные флажки:
     
-  - **External Skype for Business users**: Clear this box if you don't want the user to be able to communicate with Skype for Business users in federated domains.
+  - **Внешние Скайп для бизнес-пользователи**: снимите этот флажок, если необходимо запретить пользователям связываться с Скайп для бизнес-пользователей в федеративных доменах.
     
-  - **External Skype users**: Clear this box if you don't want the user to be able to communicate with people who are using the freeSkype app.
+  - **Внешние Скайп пользователей**: Если вы не требуется, чтобы пользователь могли взаимодействовать с другими пользователями, у которых freeSkype приложения, снимите флажок.
     
 3. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**.
     
-To configure these settings in bulk, use PowerShell. See [Managing communications in Skype for Business Online with outside users and organizations](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
+Чтобы настроить эти параметры в пакетном режиме, с помощью PowerShell. В разделе [Управление коммуникаций в Скайп для бизнеса в Интернет с помощью внешних пользователей и организаций](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
   
-## <a name="edit-audio-conferencing-settings-for-one-user"></a>Edit audio conferencing settings for one user
+## <a name="edit-audio-conferencing-settings-for-one-user"></a>Изменение параметров звукового конференц-связи для одного пользователя
 <a name="__toc314837483"> </a>
 
-1. Choose **Users**, select the user whose audio conferencing settings you wan to edit, ,and then choose **Edit** ![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Выберите **пользователей**, установите аудиоконференций, параметры которого требуется изменить, пользователю и выберите команду **Изменить** ![изменить](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
-2. Choose **Audio conferencing**, select your audio conferencing provider, type or change the requested information, and then click **Save**.
+2. Выбрать **звук конференц-связи**, выберите поставщика аудиоконференций, введите или измените требуемые сведения и нажмите кнопку **Сохранить**.
     
 |**Настройка аудиоконференции**|**Описание**|
 |:-----|:-----|
-|**Provider name** <br/> |Choose your provider from the list.  <br/> |
-|**Платный номер** (обязательно) <br/> |For a third-party ACP, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
-|**Бесплатный номер** <br/> |For a third-party ACP, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
-|**Conference ID and PIN** (required) <br/> |The participant PIN, or conference code, used to join meetings that are scheduled by this user and are provided from a third-party audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, this won't be required.  <br/> |
+|**Имя поставщика** <br/> |Выберите поставщика из списка.  <br/> |
+|**Платный номер** (обязательно) <br/> |Для ACP сторонних производителей эти номера телефонов, из них, полученные от поставщика аудиоконференций. Если пользователь использует Microsoft в качестве поставщика аудиоконференций, это будут номера, заданные для звукового конференц-канала. Форматирование чисел, как они отображаются в Скайп для бизнеса и группами Майкрософт приглашения на собрания.  <br/> |
+|**Бесплатный номер** <br/> |Для ACP сторонних производителей эти номера телефонов, из них, полученные от поставщика аудиоконференций. Если пользователь использует Microsoft в качестве поставщика аудиоконференций, это будут номера, заданные для звукового конференц-канала. Форматирование чисел, как они отображаются в Скайп для бизнеса и группами Майкрософт приглашения на собрания.  <br/> |
+|**Идентификатор конференции и ПИН-кода** (обязательно) <br/> |Участник ПИН-код или конференции код, используется для присоединения к собраниям, запланированных данным пользователем и предоставляются от поставщика аудиоконференций сторонних производителей. Если пользователь использует Microsoft в качестве поставщика аудиоконференций, это не требуется указать.  <br/> |
    
-To configure these settings in bulk, use PowerShell. See [Set the phone numbers included on invites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md).
+Чтобы настроить эти параметры в пакетном режиме, с помощью PowerShell. В разделе [Задайте телефона, номера, находящимся на приглашает](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md).
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]

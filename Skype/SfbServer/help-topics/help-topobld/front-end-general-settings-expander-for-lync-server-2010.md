@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Можно изменить свойства сервера переднего плана или интерфейсный пул, редактирование или настроить следующие атрибуты. Страница настройки делится на следующие разделы:'
-ms.openlocfilehash: 2e249f1bd7f0f42cdc23429d79afde86d3f175a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4d18d8499c053d2fbed5b0b3dba97bda263f28cd
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504091"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Расширитель интерфейсных общих параметров для Lync Server 2010
  
@@ -97,7 +98,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Определение и настройка пула переднего плана или сервера Standard Edition.](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
-

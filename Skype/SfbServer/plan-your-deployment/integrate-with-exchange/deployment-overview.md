@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: 'Сводка: Изучите раздел при планировании интеграции Скайп для 2015 Business Server с Exchange 2013.'
-ms.openlocfilehash: bf035712a635c8ed293ca65639d68c6cac8a5d9b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f316500109df389fd247a5ef394ddd2891386ca5
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504875"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>Обзор процесса развертывания для интеграции локальной единой системы обмена сообщениями и Skype для бизнеса
  
@@ -44,7 +45,4 @@ ms.lasthandoff: 03/28/2018
    
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Планирование интеграции единой системы обмена сообщениями Exchange в Скайп для бизнеса](unified-messaging.md)
-

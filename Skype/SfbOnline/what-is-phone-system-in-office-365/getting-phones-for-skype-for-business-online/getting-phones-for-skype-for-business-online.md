@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 894637bbde15a80f377098e61d1eba77fbef4bf2
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19494015"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Телефоны, поддерживаемые в Skype для бизнеса Online
 
@@ -56,7 +57,7 @@ ms.lasthandoff: 05/11/2018
 > [!NOTE]
 > Skype для бизнеса Online поддерживает Lync Phone Edition. Базовая поддержка платформы LPE прекращается 10 апреля 2014 г. В соответствии с установленным жизненным циклом поддержки Lync Server 2013 период поддержки продлен до 11 апреля 2023 г. Описание жизненного цикла LPE см. в разделе [Жизненный цикл продуктов Майкрософт](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO). Skype для бизнеса Online не поддерживает модели LPE CAP.
   
-## <a name="supported-firmware"></a>Поддерживаемое встроенное ПО
+## <a name="supported-firmware"></a>Поддерживаемые встроенного по
 
 Это минимальная версия программного обеспечения, необходимая поддерживаемым телефонам для работы с телефонной системой в Office 365:
   
@@ -71,13 +72,13 @@ ms.lasthandoff: 05/11/2018
 > [!NOTE]
 Настроенные для локального развертывания телефоны Lync Phone Edition (LPE) требуется обновить, установив минимально допустимую (или более позднюю) версию встроенного ПО перед переводом пользователей на работу со Skype для бизнеса Online. Если перевести пользователей из локального местоположения на Skype для бизнеса Online без предварительного обновления встроенного ПО на телефонах, пользователи не смогут подключаться к Skype для бизнеса Online со своих телефонов. 
   
-## <a name="required-licenses"></a>Требуемые лицензии
+## <a name="required-licenses"></a>Необходимые лицензии
 
 Skype для бизнеса Online не требует наличия дополнительных лицензий Майкрософт, кроме пользовательских лицензий. Дополнительную информацию о требуемых пользовательских лицензиях см. в разделе [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 Модели лицензирования, применяемые производителем, могут отличаться в зависимости от применяемого открытого сертифицированного встроенного ПО SIP и Skype для бизнеса. При изменении сертифицированной модели с открытым встроенным ПО SIP, необходимо сверить требования лицензии с производителем.
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>Функциональные возможности подключенных телефонов для Skype для бизнеса Online
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>Набор компонентов телефоны подключенных Скайп для бизнеса в Интернет
 
 Полное описание функций и возможностей устройств см. в руководствах производителя.
   
@@ -105,16 +106,17 @@ Skype для бизнеса Online не требует наличия допол
 |Интеграция фотографии контакта  <br/> |Нет  <br/> |Да  <br/> |Нет  <br/> |Да  <br/> |
 ||||||
 
-    > [!NOTE]
-    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
-   
+     
+> [!NOTE]
+> CX 600 или другие телефоны Aries не поддерживают многофакторная проверка подлинности (многофакторной проверкой Подлинности). При принудительном многофакторной проверкой Подлинности завершится ошибкой этих устройств для входа в систему. Для authetication этих устройств необходимо использовать только ИД организации.
+ 
 ## <a name="what-else-should-you-know"></a>Дополнительные сведения
 Пошаговые инструкции см. в разделе [Развертывание телефонов для приложения Skype для бизнеса Online](deploying-skype-for-business-online-phones.md).
 
 ## <a name="related-topics"></a>См. также:
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
-[Преимущества телефонной системы в Office 365](../here-s-what-you-get-with-phone-system.md)
+[Возможности телефонной системы в Office 365](../here-s-what-you-get-with-phone-system.md)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

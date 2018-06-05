@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Сводка: Реализация IPv6, перед установкой Скайп для Business Server 2015.'
-ms.openlocfilehash: 4bd7a76e6b55b0b09cf0be469cb84c3d6384f109
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 20a1e711d5a9a3a195d9b89328b3c2903d13988c
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504224"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Планирование IPv6 в Skype для бизнеса
  
@@ -203,8 +204,6 @@ ms.lasthandoff: 05/24/2018
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="migration"> </a>
 
-#### 
-
 [Настройка типов IP-адресов в Скайп для бизнеса](ip-address-types.md)
 
 [Архитектура адресации протокола IP версии 6](https://tools.ietf.org/html/rfc4291)
@@ -212,4 +211,3 @@ ms.lasthandoff: 05/24/2018
 [Формат адреса глобальной одноадресной рассылки IPv6](https://tools.ietf.org/html/rfc3587)
   
 [Уникальные локальные IPv6-адреса одноадресной рассылки](https://tools.ietf.org/html/rfc4193)
-

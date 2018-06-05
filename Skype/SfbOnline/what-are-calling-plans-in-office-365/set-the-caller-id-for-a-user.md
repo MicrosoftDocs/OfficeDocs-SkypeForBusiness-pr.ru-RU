@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Система телефона в Office 365 предоставляет идентификатора по умолчанию, который является назначенный телефонный номер пользователя. Можно изменить или заблокировать идентификатор звонящего (также называемая вызов код строки) для пользователя. Дополнительные сведения об использовании идентификатора звонящего в вашей организации, можно перейти, как идентификатор звонящего используются в организации.
-ms.openlocfilehash: 8e1ba6806ea48b0a33e70b0dcc21dfdece8e52a8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a48edfd6f0b6967f1f9c628b415f781b8c4832c7
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500856"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Настройка идентификатора абонента для пользователя
 Система телефона в Office 365 предоставляет идентификатора по умолчанию, который является назначенный телефонный номер пользователя. Можно изменить или заблокировать идентификатор звонящего (также называемая вызов код строки) для пользователя. Дополнительные сведения об использовании идентификатора звонящего в вашей организации, перейдя [как идентификатор звонящего используются в организации](how-can-caller-id-be-used-in-your-organization.md).
@@ -160,7 +161,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-- Windows PowerShell, дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 'Сводка: Управление OAuth и партнерских приложений в Скайп Business Server 2015.'
-ms.openlocfilehash: 41886b0275bd7284f6716c322595f1c360171360
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: acbc8cfa9fd43bdc73752278d1da805d5b4a31ef
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504399"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server-2015"></a>Управление проверкой подлинности между серверами (Oauth) и партнерскими приложениями Skype для бизнеса Server 2015
  
@@ -61,9 +62,6 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Назначьте сертификат проверки подлинности сервер сервер Скайп для Business Server 2015](assign-a-server-to-server-certificate.md)
   
 [Настройка гибридной среды в Скайп для Business Server 2015](configure-a-hybrid-environment.md)
-

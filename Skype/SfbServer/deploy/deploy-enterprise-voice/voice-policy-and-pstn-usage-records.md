@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Сводка: Создание или изменение политики голосовой связи и Настройка записей использования ТСОП с помощью Скайп для панели управления Business Server.'
-ms.openlocfilehash: fc1d60cb66dd0cf73c63b9896f153bb83c8fec24
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 69904c28d8121cd8416b547e17fcad866260a319
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501051"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>Создание или изменение голосовой политики и настройка записей использования ТСОП в Skype для бизнеса 2015
  
@@ -335,8 +336,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Просмотр записей использования ТСОП в Скайп для бизнеса 2015](view-pstn-usage-records.md)
   
 [Создание или изменение маршрута голосовых в Скайп для бизнеса 2015](create-or-modify-a-voice-route.md)
@@ -344,4 +343,3 @@ ms.lasthandoff: 05/03/2018
 [Публикация ожидающих изменений конфигурации маршрутизации голосовой связи в Скайп для бизнеса 2015](voice-route-config-changes.md)
   
 [Настройка отмены для голосовой почты в Скайп для бизнеса 2015](configure-voice-mail-escape.md)
-

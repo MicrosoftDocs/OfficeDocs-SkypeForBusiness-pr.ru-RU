@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Узнайте о распределения каналов SIP в Скайп Business Server корпоративной голосовой связи
-ms.openlocfilehash: 39300bfd518729cf99e41accfc64412bbcf4afb4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 01f8401f6573220c8995df99f863bfd95a08ffb8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504105"
 ---
 # <a name="sip-trunking-in-skype-for-business-server-2015"></a>Транкинг SIP в Skype для бизнеса Server 2015
  
@@ -182,7 +183,4 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Распределение каналов SIP сайтов филиалов в Скайп для Business Server 2015](branch-site.md)
-

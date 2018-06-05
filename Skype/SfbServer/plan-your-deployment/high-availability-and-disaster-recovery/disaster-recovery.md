@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Для аварийного восстановления Скайп для Business Server предлагает связывания с отработки отказа в случае, если один пул происходит сбой пула.
-ms.openlocfilehash: 50f4b7b37ed6b3f0aefb9c44736c6415054604f5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 77d0f681b8fc4b88837ed46d1afc6bb415f46932
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505036"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server-2015"></a>Аварийное восстановление пула переднего плана в Skype для бизнеса Server 2015
  
@@ -98,7 +99,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Развертывание парных пулов переднего плана для аварийного восстановления в Скайп for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)
-

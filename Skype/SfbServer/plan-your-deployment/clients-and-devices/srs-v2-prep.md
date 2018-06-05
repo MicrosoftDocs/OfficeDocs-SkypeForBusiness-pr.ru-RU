@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: В этой статье описывается Подготовка инфраструктуры для развертывания версии 2 Скайп комнаты систем.
-ms.openlocfilehash: b8f1e52686cfab957f2fb81a33deecc778514673
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 46e40acf8d82c0fe5feee66781ac9ebefda68f3e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "19179282"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504770"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -165,8 +165,6 @@ ms.locfileid: "19179282"
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Планирование места Скайп систем версии 2](skype-room-systems-v2-0.md)
 
 [Требования к версии 2 Скайп комнаты систем](requirements.md)
@@ -176,4 +174,3 @@ ms.locfileid: "19179282"
 [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md)
   
 [Управление Скайп комнаты систем версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

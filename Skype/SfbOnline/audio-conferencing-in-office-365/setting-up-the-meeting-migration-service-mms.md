@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Служба переноса собраний (MMS) \x97 это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams."
-ms.openlocfilehash: 8da3aaabdd772c5de8f110996585f1386f9eeb05
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f81c394d676da951cf98f34f080fb26f135b9550
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501002"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Настройка службы переноса собраний (MMS)
 
@@ -139,7 +140,7 @@ MMS обновляет существующие собрания Skype для б
   
 ## <a name="managing-mms"></a>Управление MMS
 
-Для управления MMS и проверки состояния операций переноса нужно использовать Windows PowerShell. В этом разделе предполагается, что вы знакомы с использованием PowerShell для управления организацией Skype для бизнеса. Если вам нужна помощь с PowerShell, обратитесь к разделу [Управление организацией Skype для бизнеса с помощью PowerShell](setting-up-the-meeting-migration-service-mms.md#WPSInfo) в конце этой статьи.
+Необходимо использовать Windows PowerShell для управления MMS и проверьте состояние текущих миграций. В этом разделе предполагается, что вы знакомы с использованием PowerShell для управления организацией Skype для бизнеса. Если вы только начинаете PowerShell, в разделе [С помощью PowerShell для управления вашей Скайп для организации](setting-up-the-meeting-migration-service-mms.md#WPSInfo) в конце этой статьи.
   
 ### <a name="how-do-i-check-the-status-of-meeting-migrations"></a>Как проверить состояние переноса собраний?
 

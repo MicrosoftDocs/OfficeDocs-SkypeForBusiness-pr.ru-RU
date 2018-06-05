@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Сведения об областях сети, сетевых сайтах и IP-подсетях. Все эти должна быть настроена для развертывания плана для сервера-посредника в Скайп для бизнеса 2015, планирование для контроля допуска звонков в Скайп Business Server 2015), или планирование чрезвычайных служб в Скайп 2015 Business Server в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: c08ac0a4e5f93c15cc3bfa43bd622381017118be
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e76c88df482dfd5e58d6c0e11449eb6f6242b796
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504098"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Сетевые параметры для расширенных функций корпоративной голосовой связи в Skype для бизнеса Server 2015
  
@@ -69,11 +70,8 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Планирование контроля допуска звонков в Скайп для Business Server 2015](call-admission-control.md)
   
 [Планирование для экстренных служб в Скайп Business Server 2015](emergency-services.md)
   
 [Планирование для сервера-посредника в Скайп для бизнеса 2015](media-bypass.md)
-

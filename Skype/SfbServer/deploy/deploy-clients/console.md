@@ -12,11 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: В этой статье описывается настройка консольного устройства и его периферийных устройств для Систем комнат Skype версии 2.
-ms.openlocfilehash: 96fb2a88d699ca364f02f24af58d2f17dc555e11
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: eed37791c73b2deeb9e5f0605dbf1265d9a1d02d
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501027"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Настройка консоли для Систем комнат Skype версии 2
  
@@ -236,8 +237,6 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="Checklist"> </a>
 
-#### 
-
 [Планирование для помещения Скайп систем версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Развертывание Скайп комнаты систем версии 2](room-systems-v2.md)
@@ -245,4 +244,3 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 [Настройка консоли систем комнаты Скайп версии 2](console.md)
   
 [Управление Скайп комнаты систем версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

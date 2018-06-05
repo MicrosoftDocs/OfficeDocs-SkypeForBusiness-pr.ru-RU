@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Сводка: Создание пула серверов взаимодействия видео в Скайп для 2015 Business Server, с помощью построителя топологий.'
-ms.openlocfilehash: 89fcdf34480bc9b99295993d28e32ca547f07893
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c66889530bbcc8753e8003667e6ea26589cd5daf
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501704"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server-2015"></a>Создание пула VIS в Skype для бизнеса Server 2015
  
@@ -64,11 +65,8 @@ ms.lasthandoff: 05/24/2018
 На этом этапе все задачи, выполняемые с помощью построителя топологии, завершены. Перейдите к установке программного обеспечения на новом сервере или серверах VIS.
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Развертывание VIS серверной роли в Скайп for Business Server 2015](deploy-the-vis-server-role.md)
 
 [Планирование для Business Server 2015 видео взаимодействия сервера в Скайп](../../plan-your-deployment/video-interop-server.md)
   
 [Создание и публикация новой топологии в Скайп для Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)
-

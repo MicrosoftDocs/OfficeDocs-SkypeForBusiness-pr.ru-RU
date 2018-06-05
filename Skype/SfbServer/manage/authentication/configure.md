@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Сводка: Настройка двухфакторной проверки подлинности в Скайп для Business Server 2015.'
-ms.openlocfilehash: edd32559a136573e7b3cf1fe5dc3a153ce0eb61c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f7394c0415fb14698ae837c4604f1a2ceaa22931
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504651"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server-2015"></a>Настройка двухфакторной проверки подлинности в Skype для бизнеса Server 2015
  
@@ -345,9 +346,6 @@ ms.lasthandoff: 03/28/2018
 
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Управление двухфакторной проверки подлинности в Скайп для Business Server 2015](two-factor-authentication.md)
   
 [Использовать двухфакторной проверки подлинности с помощью Скайп для бизнеса клиентов и Скайп для Business Server 2015](use.md)
-

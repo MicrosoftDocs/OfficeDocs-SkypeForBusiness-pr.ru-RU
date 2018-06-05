@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Сводка: Узнайте, как создать или изменить маршрут голосовой связи в Скайп для Business Server 2015 с помощью Скайп для панели управления Business Server.'
-ms.openlocfilehash: a999cf8ce068aeca217995bf9f8b0395beaa1d2b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 7c1bd9e118d95e89111225e49d2e07e921d8f33c
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500935"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business-2015"></a>Создание или изменение голосового маршрута в Skype для бизнеса 2015
  
@@ -122,11 +123,8 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Просмотр записей использования ТСОП в Скайп для бизнеса 2015](view-pstn-usage-records.md)
   
 [Создание или изменение политики голосовой связи и Настройка записей использования ТСОП в Скайп для бизнеса 2015](voice-policy-and-pstn-usage-records.md)
   
 [Публикация ожидающих изменений конфигурации маршрутизации голосовой связи в Скайп для бизнеса 2015](voice-route-config-changes.md)
-

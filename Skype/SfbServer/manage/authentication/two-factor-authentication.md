@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Сводка: Управление двухфакторной проверки подлинности в Скайп для Business Server 2015.'
-ms.openlocfilehash: 5933afc311514e841d7fb96f41988d8f495d0bee
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c72e998b7e12993f328aa4e331c67d5b660e94aa
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504518"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server-2015"></a>Управление двухфакторной проверкой подлинности в Skype для бизнеса Server 2015
  
@@ -108,9 +109,6 @@ AD FS 2.0 обеспечивает функцию обнаружения пов�
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Настройка двухфакторной проверки подлинности в Скайп для Business Server 2015](configure.md)
   
 [Настройка двухфакторной проверки подлинности в Скайп для Business Server 2015](configure.md)
-

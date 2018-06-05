@@ -9,11 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: 'Скайп для Business Server 2015 планирования и сведения о конфигурации на основе видео совместное использование рабочего стола (VbSS), который теперь доступен для загрузки: Скайп для Business Server 2015 накопительные пакеты обновления KB3061064.'
-ms.openlocfilehash: 21b7868efb9b1a6621aa85cae277114629d67551
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 50ba16703d391724a413e59e5d9e41cdb94b06af
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504364"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server-2015"></a>Совместное использование экрана на основе видеосеансов в Skype для бизнеса Server 2015
  
@@ -190,9 +191,6 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Скайп для Business Server 2015 накопительное обновление KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)
   
 [На основе видео совместного использования экрана (VBSS) доступна в Скайп для Business Server 2015](https://support.microsoft.com/en-us/kb/3170163)
-

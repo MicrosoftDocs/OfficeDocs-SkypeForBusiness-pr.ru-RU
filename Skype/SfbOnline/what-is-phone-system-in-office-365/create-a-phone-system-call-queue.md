@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 119e56f27edc992466a6565235715d2703b1cb12
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: c3ac8c47d0936ecede1532bd9356d0db0807142a
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501095"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Создание очереди вызовов с телефонной системой
 
@@ -98,6 +99,8 @@ Before you can create and set up your call queues, you will need to get or trans
 > Если вы находитесь за пределами США, Скайп по центру администрирования бизнес нельзя использовать для получения номера службы. Перейдите на [Управление телефонные номера для вашей организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) вместо этого на вашу за ее пределами США.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Шаг 3. Создание новой очереди звонков
+
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
 
 В **Центре администрирования Skype для бизнеса** выберите **Маршрутизация вызовов** > **Очереди звонков** и щелкните **Добавить**:
   
@@ -240,7 +243,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>See also
-[Преимущества телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
+[Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](getting-service-phone-numbers.md)
 

@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 1eb72cd0260826c845b033aca849e85a94d6ba6b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 849e3329bce87414c9544b79429a295a2c72a22e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500903"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -89,7 +90,7 @@ ms.lasthandoff: 05/03/2018
     
 3. На панели действий в разделе **Лицензии на продукты** нажмите **Изменить**.
     
-4. On the **Product licenses** page, toggle ** Communications Credits** to **On** to assign this license, and then click **Save**.
+4. На странице **лицензий на продукт** включения и отключения **Кредитов коммуникаций** **на** назначение данной лицензии и нажмите кнопку **Сохранить**.
     
     > [!NOTE]
     > Это рекомендуется делать даже в том случае, если у вас есть пользователи с назначенными лицензиями на выпуск **Корпоративный E5**.

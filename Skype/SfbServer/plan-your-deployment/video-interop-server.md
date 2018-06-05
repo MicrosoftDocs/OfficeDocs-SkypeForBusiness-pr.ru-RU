@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 'Сводка: Изучите раздел при планировании интеграции Скайп для Business Server 2015 с устройствами сторонних производителей телеконференций.'
-ms.openlocfilehash: 1a0ae30cf383f9f05cc8c37ef2c1ba7b7c76cfb8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cd8d4ec7ad854dc87d9bf9c86e2552996a09215d
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505183"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server-2015"></a>Планирование для сервера видеовзаимодействия в Skype для бизнеса Server 2015
  
@@ -186,7 +187,4 @@ FEC можно включить для восстановления от пот�
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="resiliency"> </a>
 
-#### 
-
 [Развертывание видео взаимодействия сервера в Скайп для Business Server 2015](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)
-

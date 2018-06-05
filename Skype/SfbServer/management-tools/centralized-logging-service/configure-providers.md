@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Сводка: Сведения о настройке поставщиков сценариев для централизованной службы ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: a609d7406f59702aeb906a21132eff5f861ce037
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bea50b6c1ea2fa805e407db4f6dd3fcfb761b4ef
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504350"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Настройка поставщиков для централизованной службы ведения журналов в Skype для бизнеса Server 2015
  
@@ -182,8 +183,6 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
 При удалении сценария с помощью командлета **Remove-CsClsScenario** , полностью удалить сценарий из области действия. Чтобы использовать созданные сценарии и поставщиков, которые являются частью сценария, необходимо создать новых поставщиков и назначить их новому сценарию.
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
   
 [New-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/new-csclsscenario?view=skype-ps)
@@ -193,4 +192,3 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
 [SET-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)
   
 [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps)
-

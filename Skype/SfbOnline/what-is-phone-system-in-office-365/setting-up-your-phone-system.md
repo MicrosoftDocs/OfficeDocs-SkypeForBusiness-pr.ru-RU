@@ -19,11 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить телефонной системой (облако УАТС) для вашей организации. '
-ms.openlocfilehash: 3092442f9b2421bb0dc8a7a6ac7683761176d64c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 26ffa60322c4b3f37b8f524c43efdf9a74cb1305
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501043"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Настройка телефонной системы в вашей организации
 
@@ -39,7 +40,7 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Шаг 2: Купить и назначение лицензий телефонной системой и вызов планирование
 
-Чтобы назначить телефонной системой и вызов планирование лицензии отдельному пользователю действия такие же, как назначение лицензии Office 365. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Если вы хотите назначить несколько пользователей в пакетном режиме, см (.. / skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+Чтобы назначить телефонной системой и вызов планирование лицензии отдельному пользователю действия такие же, как назначение лицензии Office 365. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Если вы хотите назначить несколько пользователей в пакетном режиме, видеть [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Шаг 3: Получение номера телефонов для пользователей
 
@@ -53,7 +54,10 @@ ms.lasthandoff: 05/03/2018
 Необходимо воспользоваться страницей **Добавление новых пользовательских номеров** для просмотра, поиска, получения и резервирования этих номеров. Поиск по страны или региона, состояние и Город и затем введите количество телефонных номеров, необходимых для пользователей. 
 
 ### <a name="get-new-user-phone-numbers"></a>Получение нового пользователя телефонных номеров 
-  
+ 
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+
+ 
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
@@ -78,7 +82,10 @@ ms.lasthandoff: 05/03/2018
 
 ### <a name="get-new-service-numbers"></a>Получение новых номеров служб
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+
+
+1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
@@ -262,7 +269,7 @@ Before you can create and set up your call queues, you will need to get or trans
     
 3. На панели действий в разделе **Лицензии на продукты** нажмите **Изменить**.
     
-4. On the **Product licenses** page, toggle ** Communications Credits** to **On** to assign this license, and then click **Save**.
+4. На странице **лицензий на продукт** включения и отключения **Кредитов коммуникаций** **на** назначение данной лицензии и нажмите кнопку **Сохранить**.
     
     > [!NOTE]
     > Это рекомендуется делать даже в том случае, если у вас есть пользователи с назначенными лицензиями на выпуск **Корпоративный E5**.
@@ -270,7 +277,7 @@ Before you can create and set up your call queues, you will need to get or trans
 **Дополнительные сведения о назначении лицензий кредитов Communications см [кредитов коммуникаций для вашей организации](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).**
 
 ## <a name="related-topics"></a>See also
-[Преимущества телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
+[Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](getting-service-phone-numbers.md)
 

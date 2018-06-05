@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: ff7716a057ee2b3bb27b01a4912f718d28e3739b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a4ede7e5bac4b7e1fe5931f404a6d2c9e4f63056
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500866"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Получение телефонных номеров для пользователей
 
@@ -44,6 +45,8 @@ ms.lasthandoff: 05/03/2018
 > Если требуется помощь по настройке номеров телефонов для организации, можно [Обращение в службу поддержки Office 365 для бизнеса: справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Получение нового номера телефонов для пользователей
+
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -82,7 +85,9 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Отображение телефонных номеров для организации
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+
+1. Sign in to Office 365 with your work or school account.
     
 2. Перейдите в раздел **Центр администрирования Office 365** > **Skype для бизнеса**.
     

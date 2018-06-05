@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: После ответа на вопросы начального опроса вы можете изменить полное доменное имя и IP-адреса сайта. Для этого на странице глобальной топологии, дважды щелкните сайт, который требуется изменить.
-ms.openlocfilehash: 7de778c9aed8594df4fc70f9a6635bd0c21c6db4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b47f8b52360b5b286ea11cbeca0d864292e7beaa
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504973"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Изменение топологии в Skype для бизнеса Server 2015
  
@@ -80,7 +81,4 @@ ms.lasthandoff: 03/28/2018
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="Edit_Network_diagram"> </a>
 
-#### 
-
 [Изменение структуры](http://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
-

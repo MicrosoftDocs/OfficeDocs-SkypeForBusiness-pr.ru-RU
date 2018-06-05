@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Сводка: Сведения о настройке Скайп для инфраструктуры Business Server 2015 для работы с System Center Operations Manager.'
-ms.openlocfilehash: 998413a20f775f48cedfc501650d7562850c9965
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cb2eb053142bcbc4c24a61f6dbd7322a3772f4a6
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504791"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Управление Skype для бизнеса Server 2015 с помощью пакета управления SCOM
  
@@ -250,7 +251,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Скайп для бизнеса 2015 средств управления](../../management-tools/management-tools.md)
-

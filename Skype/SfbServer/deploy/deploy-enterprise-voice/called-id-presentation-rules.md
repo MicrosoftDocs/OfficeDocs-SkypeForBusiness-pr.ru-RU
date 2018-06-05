@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Сводка: Узнайте, как определять правила преобразования с помощью построения правила преобразования в Скайп для Business Server 2015.'
-ms.openlocfilehash: cdaa26a832b453e641bf4b7fbd2df30a80324f7d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: eeff210b409d9d53ae54a30041207cffaa618f32
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500874"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server-2015"></a>Создание или изменение правила трансляции для представления кода вызываемого абонента в Skype для бизнеса Server 2015
  
@@ -100,8 +101,6 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Настройка магистрали без обхода сервера-посредника в Скайп для Business Server 2015](configure-trunk-with-media-bypass.md)
   
 [Настройка магистрали без обхода сервера-посредника в Скайп для Business Server 2015](configure-trunk-without-media-bypass.md)
@@ -109,4 +108,3 @@ ms.lasthandoff: 05/24/2018
 [Публикация ожидающих изменений конфигурации маршрутизации голосовой связи в Скайп для бизнеса 2015](voice-route-config-changes.md)
 
 [Развертывание сервера-посредника в Скайп for Business Server 2015](deploy-media-bypass.md)
-

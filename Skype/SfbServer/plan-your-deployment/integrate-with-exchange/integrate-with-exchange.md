@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Сводка: Просмотрите в этом разделе приведены сведения об интеграции Скайп для 2015 Business Server с Exchange Server 2016 или Exchange Server 2013.'
-ms.openlocfilehash: 3c71509fc05ecabdf34f1d6ce8ec4f1a7af523be
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 2534cd1d2b3bd02998beb2034c704259b6b14c49
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505120"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Планирование интеграции Skype для бизнеса и Exchange
  
@@ -112,8 +113,6 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="feature_support"> </a>
 
-#### 
-
 [Настройка интеграции между локальной Скайп для Business Server 2015 и Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
   
 [Настройка OAuth между Скайп для бизнеса в Интернет и Exchange локально](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
@@ -123,4 +122,3 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 [Как можно интегрировать Exchange Server 2013 с Lync Server 2013, Скайп для бизнеса в Интернет или гибридного развертывания Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=746494)
   
 [Настройка партнерских приложений в Скайп для Business Server 2015 и Microsoft Exchange Server](https://go.microsoft.com/fwlink/p/?LinkId=746495)
-

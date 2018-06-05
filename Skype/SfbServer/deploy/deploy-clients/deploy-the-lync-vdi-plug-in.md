@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: В этом разделе рассматриваются процедуры развертывания для использования Скайп для бизнеса при подключении к удаленной виртуальных рабочих столов.
-ms.openlocfilehash: a8f95903f3c06fd953b8d97ba829d4f23e8d72b6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 47491b4409f21386cf28f811b6c2c3cbffe1e69b
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501673"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server-2015"></a>Развертывание подключаемого модуля VDI для Lync в Skype для бизнеса Server 2015
  
@@ -123,7 +124,4 @@ ms.lasthandoff: 03/28/2018
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="tshoot_VDI"> </a>
 
-#### 
-
 [Планирование Скайп для бизнеса в средах инфраструктуры виртуальных рабочих СТОЛОВ](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
-
