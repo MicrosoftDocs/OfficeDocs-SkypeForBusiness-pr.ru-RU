@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Узнайте, как включить телефонной системой в службах Office 365 голосовой связи для вашей Скайп для коммерческих пользователей.
-ms.openlocfilehash: 1810be3f891e1f66e724133732ed16e94a1d8015
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 7855fd7cdb2bfd30b99bf6ad17543e7aea973a6b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569563"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Включение пользователей для корпоративной голосовой связи через Интернет и телефонной системой в голосовой почты Office 365
  
@@ -122,7 +123,6 @@ ms.lasthandoff: 05/03/2018
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
-
   ```
 
 > [!NOTE]
