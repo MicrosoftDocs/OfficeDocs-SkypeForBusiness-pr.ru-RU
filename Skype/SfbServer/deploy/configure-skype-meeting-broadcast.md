@@ -15,85 +15,77 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Сводка: Сведения о действиях, которые необходимо выполнить для настройки Скайп собрания вещания для вашей локальной Скайп для гибридного развертывания Business Server.'
-ms.openlocfilehash: e788a263223ea3fa0f4ce9ed844fb5b4eb0ae898
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: da34ecdf1a83ffb0b2e259756d9124af8e628b9f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568408"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a><span data-ttu-id="b74e2-103">Настройка локального развертывания для трансляции собраний Skype</span><span class="sxs-lookup"><span data-stu-id="b74e2-103">Configure your on-premises deployment for Skype Meeting Broadcast</span></span>
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a><span data-ttu-id="56595-103">Настройка локального развертывания для трансляции собраний Skype</span><span class="sxs-lookup"><span data-stu-id="56595-103">Configure your on-premises deployment for Skype Meeting Broadcast</span></span>
  
-<span data-ttu-id="b74e2-104">**Сводка:** Узнайте о действиях, которые необходимо выполнить для настройки Скайп собрания вещания для вашей локальной Скайп для гибридного развертывания Business Server.</span><span class="sxs-lookup"><span data-stu-id="b74e2-104">**Summary:** Learn about the steps you need to perform to configure Skype Meeting Broadcast for your on-premises Skype for Business Server hybrid deployment.</span></span>
+<span data-ttu-id="56595-104">**Сводка:** Узнайте о действиях, которые необходимо выполнить для настройки Скайп собрания вещания для вашей локальной Скайп для гибридного развертывания Business Server.</span><span class="sxs-lookup"><span data-stu-id="56595-104">**Summary:** Learn about the steps you need to perform to configure Skype Meeting Broadcast for your on-premises Skype for Business Server hybrid deployment.</span></span>
   
-<span data-ttu-id="b74e2-105">Широковещательные собрания Скайп — это сетевая служба, входящий в состав Office 365.</span><span class="sxs-lookup"><span data-stu-id="b74e2-105">Skype Meeting Broadcast is an online service that is part of Office 365.</span></span> <span data-ttu-id="b74e2-106">Если выполняется Скайп для Business Server локальных и требуется использовать Скайп собрания вещания в вашей среде, то необходимо необходимо выполнить действия по настройке в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="b74e2-106">If you are running Skype for Business Server on-premises and want to use Skype Meeting Broadcast in your environment, you'll need to follow the configuration steps in this topic.</span></span> <span data-ttu-id="b74e2-107">Прежде чем начать, среде необходимо настроить для гибридной среды с Скайп для бизнеса в Интернет.</span><span class="sxs-lookup"><span data-stu-id="b74e2-107">Before you begin, your environment needs to be configured for hybrid with Skype for Business Online.</span></span> <span data-ttu-id="b74e2-108">Дополнительные сведения см в [планировании гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) и [развертывания гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).</span><span class="sxs-lookup"><span data-stu-id="b74e2-108">For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) and [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).</span></span>
+<span data-ttu-id="56595-105">Широковещательные собрания Скайп — это сетевая служба, входящий в состав Office 365.</span><span class="sxs-lookup"><span data-stu-id="56595-105">Skype Meeting Broadcast is an online service that is part of Office 365.</span></span> <span data-ttu-id="56595-106">Если выполняется Скайп для Business Server локальных и требуется использовать Скайп собрания вещания в вашей среде, то необходимо необходимо выполнить действия по настройке в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="56595-106">If you are running Skype for Business Server on-premises and want to use Skype Meeting Broadcast in your environment, you'll need to follow the configuration steps in this topic.</span></span> <span data-ttu-id="56595-107">Прежде чем начать, среде необходимо настроить для гибридной среды с Скайп для бизнеса в Интернет.</span><span class="sxs-lookup"><span data-stu-id="56595-107">Before you begin, your environment needs to be configured for hybrid with Skype for Business Online.</span></span> <span data-ttu-id="56595-108">Дополнительные сведения см в [планировании гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) и [развертывания гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).</span><span class="sxs-lookup"><span data-stu-id="56595-108">For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) and [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).</span></span>
   
-## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a><span data-ttu-id="b74e2-109">Настройте гибридную среду для вещания Скайп собрания</span><span class="sxs-lookup"><span data-stu-id="b74e2-109">Configure your hybrid environment for Skype Meeting Broadcast</span></span>
+## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a><span data-ttu-id="56595-109">Настройте гибридную среду для вещания Скайп собрания</span><span class="sxs-lookup"><span data-stu-id="56595-109">Configure your hybrid environment for Skype Meeting Broadcast</span></span>
 
-<span data-ttu-id="b74e2-110">Вам потребуется выполните следующие действия для подготовки среды к Скайп собрания вещания:</span><span class="sxs-lookup"><span data-stu-id="b74e2-110">You'll need to do the following to prepare your environment for Skype Meeting Broadcast:</span></span>
+<span data-ttu-id="56595-110">Вам потребуется выполните следующие действия для подготовки среды к Скайп собрания вещания:</span><span class="sxs-lookup"><span data-stu-id="56595-110">You'll need to do the following to prepare your environment for Skype Meeting Broadcast:</span></span>
   
-- <span data-ttu-id="b74e2-111">Настройка федерации с Скайп для бизнеса в Интернет ресурсы</span><span class="sxs-lookup"><span data-stu-id="b74e2-111">Configure federation with Skype for Business Online resources</span></span>
+- <span data-ttu-id="56595-111">Настройка федерации с Скайп для бизнеса в Интернет ресурсы</span><span class="sxs-lookup"><span data-stu-id="56595-111">Configure federation with Skype for Business Online resources</span></span>
     
-- <span data-ttu-id="b74e2-112">Настройка федеративных доменов SIP</span><span class="sxs-lookup"><span data-stu-id="b74e2-112">Configure SIP federated domains</span></span>
+- <span data-ttu-id="56595-112">Настройка федеративных доменов SIP</span><span class="sxs-lookup"><span data-stu-id="56595-112">Configure SIP federated domains</span></span>
     
-### <a name="configure-federation-with-skype-for-business-online-resources"></a><span data-ttu-id="b74e2-113">Настройка федерации с Скайп для бизнеса в Интернет ресурсы</span><span class="sxs-lookup"><span data-stu-id="b74e2-113">Configure federation with Skype for Business Online resources</span></span>
+### <a name="configure-federation-with-skype-for-business-online-resources"></a><span data-ttu-id="56595-113">Настройка федерации с Скайп для бизнеса в Интернет ресурсы</span><span class="sxs-lookup"><span data-stu-id="56595-113">Configure federation with Skype for Business Online resources</span></span>
 
-<span data-ttu-id="b74e2-114">Чтобы включить федерацию с Скайп для бизнеса в Интернет ресурсы, необходимо настроить внешний доступ для федеративного поставщика SIP.</span><span class="sxs-lookup"><span data-stu-id="b74e2-114">To enable federation with Skype for Business Online resources, you need to configure External Access for a SIP Federated Provider.</span></span> <span data-ttu-id="b74e2-115">Для этого с помощью Скайп для панели управления Business Server выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="b74e2-115">To do this by using the Skype for Business Server Control Panel follow these steps:</span></span>
+<span data-ttu-id="56595-114">Чтобы включить федерацию с Скайп для бизнеса в Интернет ресурсы, необходимо настроить внешний доступ для федеративного поставщика SIP.</span><span class="sxs-lookup"><span data-stu-id="56595-114">To enable federation with Skype for Business Online resources, you need to configure External Access for a SIP Federated Provider.</span></span> <span data-ttu-id="56595-115">Для этого с помощью Скайп для панели управления Business Server выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="56595-115">To do this by using the Skype for Business Server Control Panel follow these steps:</span></span>
   
-1. <span data-ttu-id="b74e2-116">Запустите Скайп для панели управления Business Server и слева выберите **Внешний доступ** .</span><span class="sxs-lookup"><span data-stu-id="b74e2-116">Start the Skype for Business Server Control Panel and select **External Access** on the left.</span></span>
+1. <span data-ttu-id="56595-116">Запустите Скайп для панели управления Business Server и слева выберите **Внешний доступ** .</span><span class="sxs-lookup"><span data-stu-id="56595-116">Start the Skype for Business Server Control Panel and select **External Access** on the left.</span></span>
     
-2. <span data-ttu-id="b74e2-117">Выберите **Федеративные поставщики SIP** и нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="b74e2-117">Select **SIP Federated Providers** and click **New**.</span></span>
+2. <span data-ttu-id="56595-117">Выберите **Федеративные поставщики SIP** и нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="56595-117">Select **SIP Federated Providers** and click **New**.</span></span>
     
-3. <span data-ttu-id="b74e2-118">Задайте для нового поставщика следующие параметры.</span><span class="sxs-lookup"><span data-stu-id="b74e2-118">Configure the new provider with the following settings:</span></span>
+3. <span data-ttu-id="56595-118">Задайте для нового поставщика следующие параметры.</span><span class="sxs-lookup"><span data-stu-id="56595-118">Configure the new provider with the following settings:</span></span>
     
 |||
 |:-----|:-----|
-|<span data-ttu-id="b74e2-119">**Разрешить взаимодействие с этим поставщиком:**</span><span class="sxs-lookup"><span data-stu-id="b74e2-119">**Enable communications with this provider:**</span></span> <br/> |<span data-ttu-id="b74e2-120">выбрано</span><span class="sxs-lookup"><span data-stu-id="b74e2-120">Selected</span></span>  <br/> |
-|<span data-ttu-id="b74e2-121">**Имя поставщика:**</span><span class="sxs-lookup"><span data-stu-id="b74e2-121">**Provider name:**</span></span> <br/> |<span data-ttu-id="b74e2-122">LyncOnlineResources</span><span class="sxs-lookup"><span data-stu-id="b74e2-122">LyncOnlineResources</span></span>  <br/> |
-|<span data-ttu-id="b74e2-123">**Служба пограничного доступа (полное доменное имя):**</span><span class="sxs-lookup"><span data-stu-id="b74e2-123">**Access Edge service (FQDN):**</span></span> <br/> |<span data-ttu-id="b74e2-124">sipfed.Resources.Lync.com</span><span class="sxs-lookup"><span data-stu-id="b74e2-124">sipfed.resources.lync.com</span></span>  <br/> |
-|<span data-ttu-id="b74e2-125">**Уровень проверки по умолчанию:**</span><span class="sxs-lookup"><span data-stu-id="b74e2-125">**Default verification level:**</span></span> <br/> |<span data-ttu-id="b74e2-126">Разрешить пользователям взаимодействовать со всеми, кто работает с тем же поставщиком.</span><span class="sxs-lookup"><span data-stu-id="b74e2-126">Allow users to communicate with everyone using this provider.</span></span>  <br/> |
+|<span data-ttu-id="56595-119">**Разрешить взаимодействие с этим поставщиком:**</span><span class="sxs-lookup"><span data-stu-id="56595-119">**Enable communications with this provider:**</span></span> <br/> |<span data-ttu-id="56595-120">выбрано</span><span class="sxs-lookup"><span data-stu-id="56595-120">Selected</span></span>  <br/> |
+|<span data-ttu-id="56595-121">**Имя поставщика:**</span><span class="sxs-lookup"><span data-stu-id="56595-121">**Provider name:**</span></span> <br/> |<span data-ttu-id="56595-122">LyncOnlineResources</span><span class="sxs-lookup"><span data-stu-id="56595-122">LyncOnlineResources</span></span>  <br/> |
+|<span data-ttu-id="56595-123">**Служба пограничного доступа (полное доменное имя):**</span><span class="sxs-lookup"><span data-stu-id="56595-123">**Access Edge service (FQDN):**</span></span> <br/> |<span data-ttu-id="56595-124">sipfed.Resources.Lync.com</span><span class="sxs-lookup"><span data-stu-id="56595-124">sipfed.resources.lync.com</span></span>  <br/> |
+|<span data-ttu-id="56595-125">**Уровень проверки по умолчанию:**</span><span class="sxs-lookup"><span data-stu-id="56595-125">**Default verification level:**</span></span> <br/> |<span data-ttu-id="56595-126">Разрешить пользователям взаимодействовать со всеми, кто работает с тем же поставщиком.</span><span class="sxs-lookup"><span data-stu-id="56595-126">Allow users to communicate with everyone using this provider.</span></span>  <br/> |
    
-<span data-ttu-id="b74e2-127">Можно также включить федерацию с Скайп для бизнеса в Интернет ресурсы, выполнив следующий командлет в Скайп для консоли Business Server:</span><span class="sxs-lookup"><span data-stu-id="b74e2-127">You can also enable federation with Skype for Business Online resources by running the following cmdlet in the Skype for Business Server Management Shell:</span></span>
+<span data-ttu-id="56595-127">Можно также включить федерацию с Скайп для бизнеса в Интернет ресурсы, выполнив следующий командлет в Скайп для консоли Business Server:</span><span class="sxs-lookup"><span data-stu-id="56595-127">You can also enable federation with Skype for Business Online resources by running the following cmdlet in the Skype for Business Server Management Shell:</span></span>
   
 ```
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
 ```
 
-### <a name="configure-sip-federated-domains"></a><span data-ttu-id="b74e2-128">Настройка федеративных доменов SIP</span><span class="sxs-lookup"><span data-stu-id="b74e2-128">Configure SIP federated domains</span></span>
+### <a name="configure-sip-federated-domains"></a><span data-ttu-id="56595-128">Настройка федеративных доменов SIP</span><span class="sxs-lookup"><span data-stu-id="56595-128">Configure SIP federated domains</span></span>
 
-<span data-ttu-id="b74e2-129">Затем необходимо добавить в список разрешенных доменов SIP федеративные домены.</span><span class="sxs-lookup"><span data-stu-id="b74e2-129">Next, you need to add SIP Federated domains to the allowed domain list.</span></span> <span data-ttu-id="b74e2-130">Повторите эти шаги для каждого из четырех указанных доменов, создав четыре новых федеративных домена SIP.</span><span class="sxs-lookup"><span data-stu-id="b74e2-130">Repeat these steps for each of the domains listed, creating 4 new SIP federated domains.</span></span> <span data-ttu-id="b74e2-131">Включить эти домены для региональных данных центры используется в Скайп для бизнеса в Интернет.</span><span class="sxs-lookup"><span data-stu-id="b74e2-131">These domains include are for the regional data centers used in Skype for Business Online.</span></span>
+<span data-ttu-id="56595-129">Затем необходимо добавить в список разрешенных доменов SIP федеративные домены.</span><span class="sxs-lookup"><span data-stu-id="56595-129">Next, you need to add SIP Federated domains to the allowed domain list.</span></span> <span data-ttu-id="56595-130">Повторите эти шаги для каждого из четырех указанных доменов, создав четыре новых федеративных домена SIP.</span><span class="sxs-lookup"><span data-stu-id="56595-130">Repeat these steps for each of the domains listed, creating 4 new SIP federated domains.</span></span> <span data-ttu-id="56595-131">Включить эти домены для региональных данных центры используется в Скайп для бизнеса в Интернет.</span><span class="sxs-lookup"><span data-stu-id="56595-131">These domains include are for the regional data centers used in Skype for Business Online.</span></span>
   
-1. <span data-ttu-id="b74e2-132">Запустите Скайп для панели управления Business Server и слева выберите **Внешний доступ** .</span><span class="sxs-lookup"><span data-stu-id="b74e2-132">Start the Skype for Business Server Control Panel and select **External Access** on the left.</span></span>
+1. <span data-ttu-id="56595-132">Запустите Скайп для панели управления Business Server и слева выберите **Внешний доступ** .</span><span class="sxs-lookup"><span data-stu-id="56595-132">Start the Skype for Business Server Control Panel and select **External Access** on the left.</span></span>
     
-2. <span data-ttu-id="b74e2-133">Выберите **Федеративные поставщики SIP** и нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="b74e2-133">Select **SIP Federated Domains** and click **New**.</span></span>
+2. <span data-ttu-id="56595-133">Выберите **Федеративные поставщики SIP** и нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="56595-133">Select **SIP Federated Domains** and click **New**.</span></span>
     
-3. <span data-ttu-id="b74e2-134">В поле **Имя домена (или полное доменное имя)** введите домен, повторив этот шаг для каждого из указанных ниже доменов.</span><span class="sxs-lookup"><span data-stu-id="b74e2-134">For the **Domain name (or FQDN):**, enter the domain, repeating this procedure for each of the following domains:</span></span>
+3. <span data-ttu-id="56595-134">В поле **Имя домена (или полное доменное имя)** введите домен, повторив этот шаг для каждого из указанных ниже доменов.</span><span class="sxs-lookup"><span data-stu-id="56595-134">For the **Domain name (or FQDN):**, enter the domain, repeating this procedure for each of the following domains:</span></span>
     
-  - <span data-ttu-id="b74e2-135">noammeetings.Lync.com</span><span class="sxs-lookup"><span data-stu-id="b74e2-135">noammeetings.lync.com</span></span>
+  - <span data-ttu-id="56595-135">noammeetings.Lync.com</span><span class="sxs-lookup"><span data-stu-id="56595-135">noammeetings.lync.com</span></span>
     
-  - <span data-ttu-id="b74e2-136">emeameetings.Lync.com</span><span class="sxs-lookup"><span data-stu-id="b74e2-136">emeameetings.lync.com</span></span>
+  - <span data-ttu-id="56595-136">emeameetings.Lync.com</span><span class="sxs-lookup"><span data-stu-id="56595-136">emeameetings.lync.com</span></span>
     
-  - <span data-ttu-id="b74e2-137">apacmeetings.Lync.com</span><span class="sxs-lookup"><span data-stu-id="b74e2-137">apacmeetings.lync.com</span></span>
+  - <span data-ttu-id="56595-137">apacmeetings.Lync.com</span><span class="sxs-lookup"><span data-stu-id="56595-137">apacmeetings.lync.com</span></span>
     
-  - <span data-ttu-id="b74e2-138">Resources.Lync.com</span><span class="sxs-lookup"><span data-stu-id="b74e2-138">resources.lync.com</span></span>
+  - <span data-ttu-id="56595-138">Resources.Lync.com</span><span class="sxs-lookup"><span data-stu-id="56595-138">resources.lync.com</span></span>
     
-<span data-ttu-id="b74e2-139">Можно также настроить внешнего доступа для федеративных доменов SIP, выполнив следующие командлеты в Скайп для консоли Business Server:</span><span class="sxs-lookup"><span data-stu-id="b74e2-139">You can also configure the external access for SIP federated domains by running the following cmdlets in the Skype for Business Server Management Shell:</span></span>
+<span data-ttu-id="56595-139">Можно также настроить внешнего доступа для федеративных доменов SIP, выполнив следующие командлеты в Скайп для консоли Business Server:</span><span class="sxs-lookup"><span data-stu-id="56595-139">You can also configure the external access for SIP federated domains by running the following cmdlets in the Skype for Business Server Management Shell:</span></span>
   
 ```
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "emeameetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "apacmeetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-<span data-ttu-id="b74e2-140">После выполнения этих действий можно начать с помощью Скайп собрания вещания в вашем развертывании.</span><span class="sxs-lookup"><span data-stu-id="b74e2-140">Once you've completed these configuration steps you can start using Skype Meeting Broadcast in your deployment.</span></span> <span data-ttu-id="b74e2-141">Дополнительные сведения о Скайп вещания собрания можно [возможности собраний Скайп, широковещательного?](https://go.microsoft.com/fwlink/?LinkId=617071) и [Руководстве вещания администратора Скайп собрания](https://go.microsoft.com/fwlink/?LinkId=617075).</span><span class="sxs-lookup"><span data-stu-id="b74e2-141">For more information about Skype Meeting Broadcast, see [What is a Skype Meeting Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) and [Skype Meeting Broadcast Admin Guide](https://go.microsoft.com/fwlink/?LinkId=617075).</span></span>
+<span data-ttu-id="56595-140">После выполнения этих действий можно начать с помощью Скайп собрания вещания в вашем развертывании.</span><span class="sxs-lookup"><span data-stu-id="56595-140">Once you've completed these configuration steps you can start using Skype Meeting Broadcast in your deployment.</span></span> <span data-ttu-id="56595-141">Дополнительные сведения о Скайп вещания собрания можно [возможности собраний Скайп, широковещательного?](https://go.microsoft.com/fwlink/?LinkId=617071) и [Руководстве вещания администратора Скайп собрания](https://go.microsoft.com/fwlink/?LinkId=617075).</span><span class="sxs-lookup"><span data-stu-id="56595-141">For more information about Skype Meeting Broadcast, see [What is a Skype Meeting Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) and [Skype Meeting Broadcast Admin Guide](https://go.microsoft.com/fwlink/?LinkId=617075).</span></span>
   
 

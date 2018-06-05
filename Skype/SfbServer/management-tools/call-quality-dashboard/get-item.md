@@ -11,39 +11,40 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Сводка: Сведения о операцию получения элемента, который является частью службы элемента. Служба элемент является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.'
-ms.openlocfilehash: 6e4ba82c804937025b72da2d443c2a828d92d98a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 29811f7f760644d257a2600dea08e54e1a53421b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569154"
 ---
-# <a name="get-item"></a><span data-ttu-id="a5013-105">Получение элемента</span><span class="sxs-lookup"><span data-stu-id="a5013-105">Get Item</span></span>
+# <a name="get-item"></a><span data-ttu-id="0f8a7-105">Получение элемента</span><span class="sxs-lookup"><span data-stu-id="0f8a7-105">Get Item</span></span>
  
-<span data-ttu-id="a5013-106">**Сводка:** Узнайте о операцию получения элемента, который является частью службы элемента.</span><span class="sxs-lookup"><span data-stu-id="a5013-106">**Summary:** Learn about the Get Item operation, which is part of the Item Service.</span></span> <span data-ttu-id="a5013-107">Служба элемент является частью API репозитория для панели мониторинга качества звонков.</span><span class="sxs-lookup"><span data-stu-id="a5013-107">The Item Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="a5013-108">Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="a5013-108">Call Quality Dashboard is a tool for Skype for Business Server 2015.</span></span>
+<span data-ttu-id="0f8a7-106">**Сводка:** Узнайте о операцию получения элемента, который является частью службы элемента.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-106">**Summary:** Learn about the Get Item operation, which is part of the Item Service.</span></span> <span data-ttu-id="0f8a7-107">Служба элемент является частью API репозитория для панели мониторинга качества звонков.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-107">The Item Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="0f8a7-108">Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-108">Call Quality Dashboard is a tool for Skype for Business Server 2015.</span></span>
   
-<span data-ttu-id="a5013-109">Операции получения элемента является частью службы элемента в API репозитория для панели мониторинга качества звонков.</span><span class="sxs-lookup"><span data-stu-id="a5013-109">The Get Item operation is part of the Item Service in the Repository API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="0f8a7-109">Операции получения элемента является частью службы элемента в API репозитория для панели мониторинга качества звонков.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-109">The Get Item operation is part of the Item Service in the Repository API for Call Quality Dashboard.</span></span>
   
-## <a name="get-item"></a><span data-ttu-id="a5013-110">Получение элемента</span><span class="sxs-lookup"><span data-stu-id="a5013-110">Get Item</span></span>
+## <a name="get-item"></a><span data-ttu-id="0f8a7-110">Получение элемента</span><span class="sxs-lookup"><span data-stu-id="0f8a7-110">Get Item</span></span>
 
-<span data-ttu-id="a5013-111">Получение элемента возвращает конкретный элемент в репозитории.</span><span class="sxs-lookup"><span data-stu-id="a5013-111">Get Item returns a specific item in the repository.</span></span>
+<span data-ttu-id="0f8a7-111">Получение элемента возвращает конкретный элемент в репозитории.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-111">Get Item returns a specific item in the repository.</span></span>
   
-|<span data-ttu-id="a5013-112">**Метод**</span><span class="sxs-lookup"><span data-stu-id="a5013-112">**Method**</span></span>|<span data-ttu-id="a5013-113">**URI запроса**</span><span class="sxs-lookup"><span data-stu-id="a5013-113">**Request URI**</span></span>|<span data-ttu-id="a5013-114">**Версия HTTP**</span><span class="sxs-lookup"><span data-stu-id="a5013-114">**HTTP Version**</span></span>|
+|<span data-ttu-id="0f8a7-112">**Метод**</span><span class="sxs-lookup"><span data-stu-id="0f8a7-112">**Method**</span></span>|<span data-ttu-id="0f8a7-113">**URI запроса**</span><span class="sxs-lookup"><span data-stu-id="0f8a7-113">**Request URI**</span></span>|<span data-ttu-id="0f8a7-114">**Версия HTTP**</span><span class="sxs-lookup"><span data-stu-id="0f8a7-114">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="a5013-115">Получить</span><span class="sxs-lookup"><span data-stu-id="a5013-115">GET</span></span>  <br/> |<span data-ttu-id="a5013-116">https://\<портала\>/QoERepositoryService/репозитория/элемент / {itemId}</span><span class="sxs-lookup"><span data-stu-id="a5013-116">https://\<portal\>/QoERepositoryService/repository/item/{itemId}</span></span>  <br/> |<span data-ttu-id="a5013-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="a5013-117">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="0f8a7-115">Получить</span><span class="sxs-lookup"><span data-stu-id="0f8a7-115">GET</span></span>  <br/> |<span data-ttu-id="0f8a7-116">https://\<портала\>/QoERepositoryService/репозитория/элемент / {itemId}</span><span class="sxs-lookup"><span data-stu-id="0f8a7-116">https://\<portal\>/QoERepositoryService/repository/item/{itemId}</span></span>  <br/> |<span data-ttu-id="0f8a7-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="0f8a7-117">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="a5013-118">**Параметры URI** — нет.</span><span class="sxs-lookup"><span data-stu-id="a5013-118">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="0f8a7-118">**Параметры URI** — нет.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-118">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="a5013-119">**Заголовки запроса** — без дополнительных заголовков.</span><span class="sxs-lookup"><span data-stu-id="a5013-119">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="0f8a7-119">**Заголовки запроса** — без дополнительных заголовков.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-119">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="a5013-120">**Текст запроса** — нет.</span><span class="sxs-lookup"><span data-stu-id="a5013-120">**Request Body** - None.</span></span>
+ <span data-ttu-id="0f8a7-120">**Текст запроса** — нет.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-120">**Request Body** - None.</span></span>
   
- <span data-ttu-id="a5013-121">**Ответа** - ответ включает код состояния HTTP и набор заголовков ответов.</span><span class="sxs-lookup"><span data-stu-id="a5013-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="0f8a7-121">**Ответа** - ответ включает код состояния HTTP и набор заголовков ответов.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="a5013-122">**Код состояния** - успешные операции возвращает код состояния 200 (ОК).</span><span class="sxs-lookup"><span data-stu-id="a5013-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="a5013-123">Если элемент с указанным Идентификатором не найден, возвращает код состояния 404 (не найден).</span><span class="sxs-lookup"><span data-stu-id="a5013-123">If a specified item ID is not found, it returns status code 404 (Not Found).</span></span>
+ <span data-ttu-id="0f8a7-122">**Код состояния** - успешные операции возвращает код состояния 200 (ОК).</span><span class="sxs-lookup"><span data-stu-id="0f8a7-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="0f8a7-123">Если элемент с указанным Идентификатором не найден, возвращает код состояния 404 (не найден).</span><span class="sxs-lookup"><span data-stu-id="0f8a7-123">If a specified item ID is not found, it returns status code 404 (Not Found).</span></span>
   
- <span data-ttu-id="a5013-124">**Заголовки ответа** — без дополнительных заголовков.</span><span class="sxs-lookup"><span data-stu-id="a5013-124">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="0f8a7-124">**Заголовки ответа** — без дополнительных заголовков.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-124">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="a5013-125">**Тело ответа** - ниже приведен пример полезные данные ответа в формате JSON в.</span><span class="sxs-lookup"><span data-stu-id="a5013-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
+ <span data-ttu-id="0f8a7-125">**Тело ответа** - ниже приведен пример полезные данные ответа в формате JSON в.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
   
 ```
 {
@@ -53,17 +54,16 @@ ms.lasthandoff: 03/28/2018
 "type": "application/json",
 "subItemIds": [1653, 1710]
 }
-
 ```
 
- <span data-ttu-id="a5013-126">*идентификатор элемента* - идентификатор элемента.</span><span class="sxs-lookup"><span data-stu-id="a5013-126">*itemId*  - ID of the item.</span></span>
+ <span data-ttu-id="0f8a7-126">*идентификатор элемента* - идентификатор элемента.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-126">*itemId*  - ID of the item.</span></span>
   
- <span data-ttu-id="a5013-127">*идентификатор пользователя* — идентификатор пользователя, которому принадлежит этот элемент.</span><span class="sxs-lookup"><span data-stu-id="a5013-127">*userId*  - ID of the user who owns this item.</span></span>
+ <span data-ttu-id="0f8a7-127">*идентификатор пользователя* — идентификатор пользователя, которому принадлежит этот элемент.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-127">*userId*  - ID of the user who owns this item.</span></span>
   
- <span data-ttu-id="a5013-128">*контент* - содержимого конкретного приложения.</span><span class="sxs-lookup"><span data-stu-id="a5013-128">*content*  - The application-specific content.</span></span>
+ <span data-ttu-id="0f8a7-128">*контент* - содержимого конкретного приложения.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-128">*content*  - The application-specific content.</span></span>
   
- <span data-ttu-id="a5013-129">*Тип* — тип контента.</span><span class="sxs-lookup"><span data-stu-id="a5013-129">*type*  - The type of the content.</span></span> <span data-ttu-id="a5013-130">В этом поле задается с помощью приложений.</span><span class="sxs-lookup"><span data-stu-id="a5013-130">This field is set by the applications.</span></span>
+ <span data-ttu-id="0f8a7-129">*Тип* — тип контента.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-129">*type*  - The type of the content.</span></span> <span data-ttu-id="0f8a7-130">В этом поле задается с помощью приложений.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-130">This field is set by the applications.</span></span>
   
- <span data-ttu-id="a5013-131">*subItemIds* - идентификаторы вложенные элементы, при их наличии.</span><span class="sxs-lookup"><span data-stu-id="a5013-131">*subItemIds*  - The IDs of sub-Items, if any.</span></span> <span data-ttu-id="a5013-132">Это short-circuit операции получение дочерних элементов для сохранения звонка.</span><span class="sxs-lookup"><span data-stu-id="a5013-132">This is a short-circuit of Get Sub-Items operation to save a call.</span></span> <span data-ttu-id="a5013-133">Приложения также могут получать те же данные, с помощью операции получение дочерних элементов.</span><span class="sxs-lookup"><span data-stu-id="a5013-133">Applications can alternatively obtain the same information using Get Sub-Items operation.</span></span>
+ <span data-ttu-id="0f8a7-131">*subItemIds* - идентификаторы вложенные элементы, при их наличии.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-131">*subItemIds*  - The IDs of sub-Items, if any.</span></span> <span data-ttu-id="0f8a7-132">Это short-circuit операции получение дочерних элементов для сохранения звонка.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-132">This is a short-circuit of Get Sub-Items operation to save a call.</span></span> <span data-ttu-id="0f8a7-133">Приложения также могут получать те же данные, с помощью операции получение дочерних элементов.</span><span class="sxs-lookup"><span data-stu-id="0f8a7-133">Applications can alternatively obtain the same information using Get Sub-Items operation.</span></span>
   
 

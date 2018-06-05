@@ -10,127 +10,127 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: Командлет Install-CcAppliance устанавливает на сервер узла устройство Skype для бизнеса Cloud Connector Edition, включая виртуальные машины Active Directory, центрального хранилища управления, сервера-посредника и пограничного сервера.
-ms.openlocfilehash: a3717e510ccadaa930d50573f067888780f7dce5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d35a102f7d3ade7b64bcf43388eaf03dc455c27b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569989"
 ---
-# <a name="install-ccappliance"></a><span data-ttu-id="5b377-103">Install-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="5b377-103">Install-CcAppliance</span></span>
+# <a name="install-ccappliance"></a><span data-ttu-id="3d770-103">Install-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="3d770-103">Install-CcAppliance</span></span>
  
-<span data-ttu-id="5b377-104">Командлет Install-CcAppliance устанавливает на сервер узла устройство Skype для бизнеса Cloud Connector Edition, включая виртуальные машины Active Directory, центрального хранилища управления, сервера-посредника и пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="5b377-104">The Install-CcAppliance cmdlet installs the Skype for Business Cloud Connector Edition appliance—including the AD, Central Management Store, Mediation Server, and Edge Server virtual machines—on the host server.</span></span> 
+<span data-ttu-id="3d770-104">Командлет Install-CcAppliance устанавливает на сервер узла устройство Skype для бизнеса Cloud Connector Edition, включая виртуальные машины Active Directory, центрального хранилища управления, сервера-посредника и пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="3d770-104">The Install-CcAppliance cmdlet installs the Skype for Business Cloud Connector Edition appliance—including the AD, Central Management Store, Mediation Server, and Edge Server virtual machines—on the host server.</span></span> 
   
 ```
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
 Install-CcAppliance [-Steps <array>] [-PrepareOnly]  [<CommonParameters>]
 Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
-
 ```
 
-## <a name="examples"></a><span data-ttu-id="5b377-105">Примеры</span><span class="sxs-lookup"><span data-stu-id="5b377-105">Examples</span></span>
-<span data-ttu-id="5b377-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="5b377-106"></span></span>
+## <a name="examples"></a><span data-ttu-id="3d770-105">Примеры</span><span class="sxs-lookup"><span data-stu-id="3d770-105">Examples</span></span>
+<span data-ttu-id="3d770-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="3d770-106"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="5b377-107">Пример 1</span><span class="sxs-lookup"><span data-stu-id="5b377-107">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="3d770-107">Пример 1</span><span class="sxs-lookup"><span data-stu-id="3d770-107">Example 1</span></span>
 
-<span data-ttu-id="5b377-108">Следующий пример устанавливает новый соединитель облачных устройства на хост-сервера:</span><span class="sxs-lookup"><span data-stu-id="5b377-108">The following example installs a new Cloud Connector appliance on the host server:</span></span>
+<span data-ttu-id="3d770-108">Следующий пример устанавливает новый соединитель облачных устройства на хост-сервера:</span><span class="sxs-lookup"><span data-stu-id="3d770-108">The following example installs a new Cloud Connector appliance on the host server:</span></span>
   
 ```
 Install-CcAppliance
 ```
 
-### <a name="example-2"></a><span data-ttu-id="5b377-109">Пример 2</span><span class="sxs-lookup"><span data-stu-id="5b377-109">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="3d770-109">Пример 2</span><span class="sxs-lookup"><span data-stu-id="3d770-109">Example 2</span></span>
 
-<span data-ttu-id="5b377-110">В следующем примере соединитель облачных обновляется до последней версии:</span><span class="sxs-lookup"><span data-stu-id="5b377-110">The following example upgrades Cloud Connector to the latest version:</span></span>
+<span data-ttu-id="3d770-110">В следующем примере соединитель облачных обновляется до последней версии:</span><span class="sxs-lookup"><span data-stu-id="3d770-110">The following example upgrades Cloud Connector to the latest version:</span></span>
   
 ```
 Install-CcAppliance -Upgrade
 ```
 
-### <a name="example-3"></a><span data-ttu-id="5b377-111">Пример 3</span><span class="sxs-lookup"><span data-stu-id="5b377-111">Example 3</span></span>
+### <a name="example-3"></a><span data-ttu-id="3d770-111">Пример 3</span><span class="sxs-lookup"><span data-stu-id="3d770-111">Example 3</span></span>
 
-<span data-ttu-id="5b377-112">В следующем примере показано удаление всех учетных данных облачных соединителя, кэшируются на хост-сервера, выдает запрос пользователю для указания еще раз, все учетные данные и устанавливает соединителя облачных:</span><span class="sxs-lookup"><span data-stu-id="5b377-112">The following example removes all Cloud Connector credentials cached on the host server, prompts the user to specify all credential information again, and then installs Cloud Connector:</span></span>
+<span data-ttu-id="3d770-112">В следующем примере показано удаление всех учетных данных облачных соединителя, кэшируются на хост-сервера, выдает запрос пользователю для указания еще раз, все учетные данные и устанавливает соединителя облачных:</span><span class="sxs-lookup"><span data-stu-id="3d770-112">The following example removes all Cloud Connector credentials cached on the host server, prompts the user to specify all credential information again, and then installs Cloud Connector:</span></span>
   
 ```
 Install-CcAppliance -UpdateAllCredentials
 ```
 
-### <a name="example-4"></a><span data-ttu-id="5b377-113">Пример 4</span><span class="sxs-lookup"><span data-stu-id="5b377-113">Example 4</span></span>
+### <a name="example-4"></a><span data-ttu-id="3d770-113">Пример 4</span><span class="sxs-lookup"><span data-stu-id="3d770-113">Example 4</span></span>
 
-<span data-ttu-id="5b377-114">В следующем примере в консоли PowerShell выводятся все шаги по развертыванию:</span><span class="sxs-lookup"><span data-stu-id="5b377-114">The following example displays all deployment steps in the PowerShell console:</span></span>
+<span data-ttu-id="3d770-114">В следующем примере в консоли PowerShell выводятся все шаги по развертыванию:</span><span class="sxs-lookup"><span data-stu-id="3d770-114">The following example displays all deployment steps in the PowerShell console:</span></span>
   
 ```
 Install-CcAppliance -ShowStepsOnly
 ```
 
-<span data-ttu-id="5b377-115">Параметр -ShowStepsOnly используется только для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="5b377-115">The -ShowStepsOnly parameter is for troubleshooting only.</span></span>
+<span data-ttu-id="3d770-115">Параметр -ShowStepsOnly используется только для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="3d770-115">The -ShowStepsOnly parameter is for troubleshooting only.</span></span>
   
-### <a name="example-5"></a><span data-ttu-id="5b377-116">Пример 5</span><span class="sxs-lookup"><span data-stu-id="5b377-116">Example 5</span></span>
+### <a name="example-5"></a><span data-ttu-id="3d770-116">Пример 5</span><span class="sxs-lookup"><span data-stu-id="3d770-116">Example 5</span></span>
 
-<span data-ttu-id="5b377-117">В следующем примере создаются файлы конфигурации для каждого шага развертывания на сервере узла.</span><span class="sxs-lookup"><span data-stu-id="5b377-117">The following example generates configuration files for each deployment step on the host server.</span></span> <span data-ttu-id="5b377-118">Будут сохранены файлы конфигурации \<ApplianceRoot\>\Instances\\< версии\>-default\ExportedConfig папку на хост-сервера:</span><span class="sxs-lookup"><span data-stu-id="5b377-118">Configuration files are saved to the \<ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig folder on the host server:</span></span>
+<span data-ttu-id="3d770-117">В следующем примере создаются файлы конфигурации для каждого шага развертывания на сервере узла.</span><span class="sxs-lookup"><span data-stu-id="3d770-117">The following example generates configuration files for each deployment step on the host server.</span></span> <span data-ttu-id="3d770-118">Будут сохранены файлы конфигурации \<ApplianceRoot\>\Instances\\< версии\>-default\ExportedConfig папку на хост-сервера:</span><span class="sxs-lookup"><span data-stu-id="3d770-118">Configuration files are saved to the \<ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig folder on the host server:</span></span>
   
 ```
 Install-CcAppliance -PrepareOnly
 ```
 
-<span data-ttu-id="5b377-119">Чтобы определить корневой каталог устройства, выполните командлет Get-CcApplianceDirectory.</span><span class="sxs-lookup"><span data-stu-id="5b377-119">To determine the appliance root, run the Get-CcApplianceDirectory cmdlet.</span></span> 
+<span data-ttu-id="3d770-119">Чтобы определить корневой каталог устройства, выполните командлет Get-CcApplianceDirectory.</span><span class="sxs-lookup"><span data-stu-id="3d770-119">To determine the appliance root, run the Get-CcApplianceDirectory cmdlet.</span></span> 
   
-### <a name="example-6"></a><span data-ttu-id="5b377-120">Пример 6</span><span class="sxs-lookup"><span data-stu-id="5b377-120">Example 6</span></span>
+### <a name="example-6"></a><span data-ttu-id="3d770-120">Пример 6</span><span class="sxs-lookup"><span data-stu-id="3d770-120">Example 6</span></span>
 
-<span data-ttu-id="5b377-p102">В следующем примере Cloud Connector выполняет шаги развертывания 1, 2 и 3, создавая виртуальные коммутаторы и виртуальные машины Active Directory, после чего устанавливая службу домена на сервер Active Directory. Если шаг уже был выполнен ранее, он пропускается:</span><span class="sxs-lookup"><span data-stu-id="5b377-p102">In the following example, Cloud Connector runs deployment steps 1, 2, and 3 to create virtual switches, create an AD virtual machine, and install the domain service on the AD server. It skips the step if the step has already been executed:</span></span>
+<span data-ttu-id="3d770-p102">В следующем примере Cloud Connector выполняет шаги развертывания 1, 2 и 3, создавая виртуальные коммутаторы и виртуальные машины Active Directory, после чего устанавливая службу домена на сервер Active Directory. Если шаг уже был выполнен ранее, он пропускается:</span><span class="sxs-lookup"><span data-stu-id="3d770-p102">In the following example, Cloud Connector runs deployment steps 1, 2, and 3 to create virtual switches, create an AD virtual machine, and install the domain service on the AD server. It skips the step if the step has already been executed:</span></span>
   
 ```
 Install-CcAppliance -Steps @(1,2,3) -SkipExistingObjects
 ```
 
-<span data-ttu-id="5b377-123">Вместе с параметром Steps необходимо использовать параметр SkipExistingObjects.</span><span class="sxs-lookup"><span data-stu-id="5b377-123">The SkipExistingObjects parameter must be used in conjunction with the Steps parameter.</span></span>
+<span data-ttu-id="3d770-123">Вместе с параметром Steps необходимо использовать параметр SkipExistingObjects.</span><span class="sxs-lookup"><span data-stu-id="3d770-123">The SkipExistingObjects parameter must be used in conjunction with the Steps parameter.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="5b377-124">Параметр Steps используется только для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="5b377-124">The Steps parameter is for troubleshooting purposes only.</span></span> <span data-ttu-id="5b377-125">Не используйте этот параметр для развертывания нового или обновления работающего устройства.</span><span class="sxs-lookup"><span data-stu-id="5b377-125">Do not use this parameter to deploy an appliance or to upgrade an appliance that is in service.</span></span> 
+> <span data-ttu-id="3d770-124">Параметр Steps используется только для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="3d770-124">The Steps parameter is for troubleshooting purposes only.</span></span> <span data-ttu-id="3d770-125">Не используйте этот параметр для развертывания нового или обновления работающего устройства.</span><span class="sxs-lookup"><span data-stu-id="3d770-125">Do not use this parameter to deploy an appliance or to upgrade an appliance that is in service.</span></span> 
   
-<span data-ttu-id="5b377-126">Чтобы определить шаги развертывания, выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="5b377-126">To determine the steps of the deployment, run the following command:</span></span>
+<span data-ttu-id="3d770-126">Чтобы определить шаги развертывания, выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="3d770-126">To determine the steps of the deployment, run the following command:</span></span>
   
-<span data-ttu-id="5b377-127">Install-CcAppliance - ShowStepsOnly</span><span class="sxs-lookup"><span data-stu-id="5b377-127">Install-CcAppliance -ShowStepsOnly</span></span>
+<span data-ttu-id="3d770-127">Install-CcAppliance - ShowStepsOnly</span><span class="sxs-lookup"><span data-stu-id="3d770-127">Install-CcAppliance -ShowStepsOnly</span></span>
   
-## <a name="detailed-description"></a><span data-ttu-id="5b377-128">Подробное описание</span><span class="sxs-lookup"><span data-stu-id="5b377-128">Detailed Description</span></span>
-<span data-ttu-id="5b377-129"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="5b377-129"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="3d770-128">Подробное описание</span><span class="sxs-lookup"><span data-stu-id="3d770-128">Detailed Description</span></span>
+<span data-ttu-id="3d770-129"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="3d770-129"></span></span>
 
-<span data-ttu-id="5b377-130">Командлет Install-CcAppliance используется для развертывания облака соединитель для нового устройства или для обновления существующего устройства до последней версии.</span><span class="sxs-lookup"><span data-stu-id="5b377-130">The Install-CcAppliance cmdlet is used to deploy Cloud Connector to a new appliance or to upgrade an existing appliance to the latest version.</span></span>
+<span data-ttu-id="3d770-130">Командлет Install-CcAppliance используется для развертывания облака соединитель для нового устройства или для обновления существующего устройства до последней версии.</span><span class="sxs-lookup"><span data-stu-id="3d770-130">The Install-CcAppliance cmdlet is used to deploy Cloud Connector to a new appliance or to upgrade an existing appliance to the latest version.</span></span>
   
-<span data-ttu-id="5b377-131">Если у вас есть новые устройства, обязательно ознакомьтесь со сведениями подготовить среду для соединителя облачных сначала, выполните командлет Register-CcAppliance для регистрации устройства и затем используйте командлет Install-CcAppliance.</span><span class="sxs-lookup"><span data-stu-id="5b377-131">If you have a new appliance, be sure to read Prepare your environment for Cloud Connector first, run the Register-CcAppliance cmdlet to register the appliance, and then run the Install-CcAppliance cmdlet.</span></span> <span data-ttu-id="5b377-132">Дополнительные сведения можно [Развернуть один сайт в облаке соединителя](deploy-a-single-site-in-cloud-connector.md) и [развертывания нескольких сайтов в облаке соединителя](deploy-multiple-sites-in-cloud-connector.md).</span><span class="sxs-lookup"><span data-stu-id="5b377-132">For more information, see [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) and [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md).</span></span> 
+<span data-ttu-id="3d770-131">Если у вас есть новые устройства, обязательно ознакомьтесь со сведениями подготовить среду для соединителя облачных сначала, выполните командлет Register-CcAppliance для регистрации устройства и затем используйте командлет Install-CcAppliance.</span><span class="sxs-lookup"><span data-stu-id="3d770-131">If you have a new appliance, be sure to read Prepare your environment for Cloud Connector first, run the Register-CcAppliance cmdlet to register the appliance, and then run the Install-CcAppliance cmdlet.</span></span> <span data-ttu-id="3d770-132">Дополнительные сведения можно [Развернуть один сайт в облаке соединителя](deploy-a-single-site-in-cloud-connector.md) и [развертывания нескольких сайтов в облаке соединителя](deploy-multiple-sites-in-cloud-connector.md).</span><span class="sxs-lookup"><span data-stu-id="3d770-132">For more information, see [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) and [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md).</span></span> 
   
-<span data-ttu-id="5b377-133">Если у вас есть существующее развертывание облачных соединителя и необходимо обновить, пожалуйста, следуйте инструкциям в [обновление до новой версии облачных соединителя](upgrade-to-a-new-version-of-cloud-connector.md).</span><span class="sxs-lookup"><span data-stu-id="5b377-133">If you have an existing deployment of Cloud Connector and you want to upgrade, please follow the instructions in [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).</span></span>
+<span data-ttu-id="3d770-133">Если у вас есть существующее развертывание облачных соединителя и необходимо обновить, пожалуйста, следуйте инструкциям в [обновление до новой версии облачных соединителя](upgrade-to-a-new-version-of-cloud-connector.md).</span><span class="sxs-lookup"><span data-stu-id="3d770-133">If you have an existing deployment of Cloud Connector and you want to upgrade, please follow the instructions in [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="5b377-134">Параметры</span><span class="sxs-lookup"><span data-stu-id="5b377-134">Parameters</span></span>
-<span data-ttu-id="5b377-135"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="5b377-135"></span></span>
+## <a name="parameters"></a><span data-ttu-id="3d770-134">Параметры</span><span class="sxs-lookup"><span data-stu-id="3d770-134">Parameters</span></span>
+<span data-ttu-id="3d770-135"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="3d770-135"></span></span>
 
-|<span data-ttu-id="5b377-136">**Параметр**</span><span class="sxs-lookup"><span data-stu-id="5b377-136">**Parameter**</span></span>|<span data-ttu-id="5b377-137">**Обязательно**</span><span class="sxs-lookup"><span data-stu-id="5b377-137">**Required**</span></span>|<span data-ttu-id="5b377-138">**Тип**</span><span class="sxs-lookup"><span data-stu-id="5b377-138">**Type**</span></span>|<span data-ttu-id="5b377-139">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5b377-139">**Description**</span></span>|
+|<span data-ttu-id="3d770-136">**Параметр**</span><span class="sxs-lookup"><span data-stu-id="3d770-136">**Parameter**</span></span>|<span data-ttu-id="3d770-137">**Обязательно**</span><span class="sxs-lookup"><span data-stu-id="3d770-137">**Required**</span></span>|<span data-ttu-id="3d770-138">**Тип**</span><span class="sxs-lookup"><span data-stu-id="3d770-138">**Type**</span></span>|<span data-ttu-id="3d770-139">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3d770-139">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="5b377-140">PrepareOnly</span><span class="sxs-lookup"><span data-stu-id="5b377-140">PrepareOnly</span></span>  <br/> |<span data-ttu-id="5b377-141">Необязательно</span><span class="sxs-lookup"><span data-stu-id="5b377-141">Optional</span></span>  <br/> |<span data-ttu-id="5b377-142">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="5b377-142">System.Management.Automation.SwitchParameter</span></span>  <br/> | <span data-ttu-id="5b377-p105">Создает файлы конфигурации для каждого шага развертывания. Этот параметр используется только для устранения неполадок. </span><span class="sxs-lookup"><span data-stu-id="5b377-p105">Generate configuration files for each deployment step. This parameter is for troubleshooting only.</span></span> <br/> |
-|<span data-ttu-id="5b377-145">ShowStepsOnly</span><span class="sxs-lookup"><span data-stu-id="5b377-145">ShowStepsOnly</span></span>  <br/> |<span data-ttu-id="5b377-146">Необязательно</span><span class="sxs-lookup"><span data-stu-id="5b377-146">Optional</span></span>  <br/> |<span data-ttu-id="5b377-147">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="5b377-147">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="5b377-p106">Отображает только названия шагов развертывания. Этот параметр используется только для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="5b377-p106">Display deployment step names only. This parameter is for troubleshooting only.</span></span>  <br/> |
-|<span data-ttu-id="5b377-150">SkipExistingObjects</span><span class="sxs-lookup"><span data-stu-id="5b377-150">SkipExistingObjects</span></span>  <br/> |<span data-ttu-id="5b377-151">Необязательно</span><span class="sxs-lookup"><span data-stu-id="5b377-151">Optional</span></span>  <br/> |<span data-ttu-id="5b377-152">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="5b377-152">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="5b377-p107">Этот параметр используется вместе с параметром Steps. Этот параметр используется только для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="5b377-p107">This parameter must be used in conjunction with the Steps parameter. This parameter is for troubleshooting only.</span></span>  <br/> |
-|<span data-ttu-id="5b377-155">Steps</span><span class="sxs-lookup"><span data-stu-id="5b377-155">Steps</span></span>  <br/> |<span data-ttu-id="5b377-156">Необязательно</span><span class="sxs-lookup"><span data-stu-id="5b377-156">Optional</span></span>  <br/> |<span data-ttu-id="5b377-157">System.Array</span><span class="sxs-lookup"><span data-stu-id="5b377-157">System.Array</span></span>  <br/> |<span data-ttu-id="5b377-p108">Выполняет шаги развертывания. Этот параметр используется только для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="5b377-p108">Run the deployment steps. This parameter is for troubleshooting only.</span></span>  <br/> |
-|<span data-ttu-id="5b377-160">Upgrade</span><span class="sxs-lookup"><span data-stu-id="5b377-160">Upgrade</span></span>  <br/> |<span data-ttu-id="5b377-161">Необязательно</span><span class="sxs-lookup"><span data-stu-id="5b377-161">Optional</span></span>  <br/> |<span data-ttu-id="5b377-162">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="5b377-162">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="5b377-163">Обновляет существующее развертывание Cloud Connector до последней версии.</span><span class="sxs-lookup"><span data-stu-id="5b377-163">Upgrade existing Cloud Connector to the latest version.</span></span>  <br/> |
-|<span data-ttu-id="5b377-164">UpdateAllCredentials</span><span class="sxs-lookup"><span data-stu-id="5b377-164">UpdateAllCredentials</span></span>  <br/> |<span data-ttu-id="5b377-165">Необязательно</span><span class="sxs-lookup"><span data-stu-id="5b377-165">Optional</span></span>  <br/> |<span data-ttu-id="5b377-166">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="5b377-166">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="5b377-167">Удаление всех учетных данных облачных соединителя в кэше.</span><span class="sxs-lookup"><span data-stu-id="5b377-167">Remove all Cloud Connector credentials in the cache.</span></span> <span data-ttu-id="5b377-168">Отображает запрос для ввода пользователем новых учетных данных для установки.</span><span class="sxs-lookup"><span data-stu-id="5b377-168">Prompt the user to specify new credential information for the installation.</span></span>  <br/> |
+|<span data-ttu-id="3d770-140">PrepareOnly</span><span class="sxs-lookup"><span data-stu-id="3d770-140">PrepareOnly</span></span>  <br/> |<span data-ttu-id="3d770-141">Необязательно</span><span class="sxs-lookup"><span data-stu-id="3d770-141">Optional</span></span>  <br/> |<span data-ttu-id="3d770-142">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="3d770-142">System.Management.Automation.SwitchParameter</span></span>  <br/> | <span data-ttu-id="3d770-p105">Создает файлы конфигурации для каждого шага развертывания. Этот параметр используется только для устранения неполадок. </span><span class="sxs-lookup"><span data-stu-id="3d770-p105">Generate configuration files for each deployment step. This parameter is for troubleshooting only.</span></span> <br/> |
+|<span data-ttu-id="3d770-145">ShowStepsOnly</span><span class="sxs-lookup"><span data-stu-id="3d770-145">ShowStepsOnly</span></span>  <br/> |<span data-ttu-id="3d770-146">Необязательно</span><span class="sxs-lookup"><span data-stu-id="3d770-146">Optional</span></span>  <br/> |<span data-ttu-id="3d770-147">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="3d770-147">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="3d770-p106">Отображает только названия шагов развертывания. Этот параметр используется только для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="3d770-p106">Display deployment step names only. This parameter is for troubleshooting only.</span></span>  <br/> |
+|<span data-ttu-id="3d770-150">SkipExistingObjects</span><span class="sxs-lookup"><span data-stu-id="3d770-150">SkipExistingObjects</span></span>  <br/> |<span data-ttu-id="3d770-151">Необязательно</span><span class="sxs-lookup"><span data-stu-id="3d770-151">Optional</span></span>  <br/> |<span data-ttu-id="3d770-152">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="3d770-152">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="3d770-p107">Этот параметр используется вместе с параметром Steps. Этот параметр используется только для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="3d770-p107">This parameter must be used in conjunction with the Steps parameter. This parameter is for troubleshooting only.</span></span>  <br/> |
+|<span data-ttu-id="3d770-155">Steps</span><span class="sxs-lookup"><span data-stu-id="3d770-155">Steps</span></span>  <br/> |<span data-ttu-id="3d770-156">Необязательно</span><span class="sxs-lookup"><span data-stu-id="3d770-156">Optional</span></span>  <br/> |<span data-ttu-id="3d770-157">System.Array</span><span class="sxs-lookup"><span data-stu-id="3d770-157">System.Array</span></span>  <br/> |<span data-ttu-id="3d770-p108">Выполняет шаги развертывания. Этот параметр используется только для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="3d770-p108">Run the deployment steps. This parameter is for troubleshooting only.</span></span>  <br/> |
+|<span data-ttu-id="3d770-160">Upgrade</span><span class="sxs-lookup"><span data-stu-id="3d770-160">Upgrade</span></span>  <br/> |<span data-ttu-id="3d770-161">Необязательно</span><span class="sxs-lookup"><span data-stu-id="3d770-161">Optional</span></span>  <br/> |<span data-ttu-id="3d770-162">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="3d770-162">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="3d770-163">Обновляет существующее развертывание Cloud Connector до последней версии.</span><span class="sxs-lookup"><span data-stu-id="3d770-163">Upgrade existing Cloud Connector to the latest version.</span></span>  <br/> |
+|<span data-ttu-id="3d770-164">UpdateAllCredentials</span><span class="sxs-lookup"><span data-stu-id="3d770-164">UpdateAllCredentials</span></span>  <br/> |<span data-ttu-id="3d770-165">Необязательно</span><span class="sxs-lookup"><span data-stu-id="3d770-165">Optional</span></span>  <br/> |<span data-ttu-id="3d770-166">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="3d770-166">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="3d770-167">Удаление всех учетных данных облачных соединителя в кэше.</span><span class="sxs-lookup"><span data-stu-id="3d770-167">Remove all Cloud Connector credentials in the cache.</span></span> <span data-ttu-id="3d770-168">Отображает запрос для ввода пользователем новых учетных данных для установки.</span><span class="sxs-lookup"><span data-stu-id="3d770-168">Prompt the user to specify new credential information for the installation.</span></span>  <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="5b377-169">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="5b377-169">Input Types</span></span>
-<span data-ttu-id="5b377-170"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="5b377-170"></span></span>
+## <a name="input-types"></a><span data-ttu-id="3d770-169">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="3d770-169">Input Types</span></span>
+<span data-ttu-id="3d770-170"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="3d770-170"></span></span>
 
-<span data-ttu-id="5b377-p110">Нет. Командлет Install-CcAppliance не принимает входные данные по конвейеру.</span><span class="sxs-lookup"><span data-stu-id="5b377-p110">None. The Install-CcAppliance cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="3d770-p110">Нет. Командлет Install-CcAppliance не принимает входные данные по конвейеру.</span><span class="sxs-lookup"><span data-stu-id="3d770-p110">None. The Install-CcAppliance cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="5b377-173">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="5b377-173">Return Types</span></span>
-<span data-ttu-id="5b377-174"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="5b377-174"></span></span>
+## <a name="return-types"></a><span data-ttu-id="3d770-173">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="3d770-173">Return Types</span></span>
+<span data-ttu-id="3d770-174"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="3d770-174"></span></span>
 
-<span data-ttu-id="5b377-175">Нет</span><span class="sxs-lookup"><span data-stu-id="5b377-175">None</span></span>
+<span data-ttu-id="3d770-175">Нет</span><span class="sxs-lookup"><span data-stu-id="3d770-175">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="5b377-176">См. также</span><span class="sxs-lookup"><span data-stu-id="5b377-176">See also</span></span>
-<span data-ttu-id="5b377-177"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="5b377-177"></span></span>
+## <a name="see-also"></a><span data-ttu-id="3d770-176">См. также</span><span class="sxs-lookup"><span data-stu-id="3d770-176">See also</span></span>
+<span data-ttu-id="3d770-177"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="3d770-177"></span></span>
 
-[<span data-ttu-id="5b377-178">Публикация CcAppliance</span><span class="sxs-lookup"><span data-stu-id="5b377-178">Publish-CcAppliance</span></span>](publish-ccappliance.md)
+[<span data-ttu-id="3d770-178">Публикация CcAppliance</span><span class="sxs-lookup"><span data-stu-id="3d770-178">Publish-CcAppliance</span></span>](publish-ccappliance.md)
   
-[<span data-ttu-id="5b377-179">Register-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="5b377-179">Register-CcAppliance</span></span>](register-ccappliance.md)
+[<span data-ttu-id="3d770-179">Register-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="3d770-179">Register-CcAppliance</span></span>](register-ccappliance.md)
   
-[<span data-ttu-id="5b377-180">Отмена регистрации CcAppliance</span><span class="sxs-lookup"><span data-stu-id="5b377-180">Unregister-CcAppliance</span></span>](unregister-ccappliance.md)
+[<span data-ttu-id="3d770-180">Отмена регистрации CcAppliance</span><span class="sxs-lookup"><span data-stu-id="3d770-180">Unregister-CcAppliance</span></span>](unregister-ccappliance.md)
   
-[<span data-ttu-id="5b377-181">Удаление CcAppliance</span><span class="sxs-lookup"><span data-stu-id="5b377-181">Uninstall-CcAppliance</span></span>](uninstall-ccappliance.md)
+[<span data-ttu-id="3d770-181">Удаление CcAppliance</span><span class="sxs-lookup"><span data-stu-id="3d770-181">Uninstall-CcAppliance</span></span>](uninstall-ccappliance.md)
   
 
