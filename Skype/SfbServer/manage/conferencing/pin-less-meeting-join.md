@@ -10,58 +10,57 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Сводка: Сведения о настройке ПИН-кода меньше собраний вариант присоединиться в Скайп для Business Server 2015.'
-ms.openlocfilehash: 6e9e26f856fec85b3f7436684d1b084eb3873ba9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 375c008cd8cec072e9d2b71de1765756e4c0f881
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569343"
 ---
-# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a><span data-ttu-id="98f80-103">Настройка присоединения к собранию без ПИН-кода в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="98f80-103">Configure PIN-less meeting join in Skype for Business Server</span></span>
+# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a><span data-ttu-id="88734-103">Настройка присоединения к собранию без ПИН-кода в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="88734-103">Configure PIN-less meeting join in Skype for Business Server</span></span>
  
-<span data-ttu-id="98f80-104">**Сводка:** Сведения о настройке ПИН-кода меньше собраний вариант присоединиться в Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="98f80-104">**Summary:** Learn how to configure the PIN-less meeting join option in Skype for Business Server 2015.</span></span>
+<span data-ttu-id="88734-104">**Сводка:** Сведения о настройке ПИН-кода меньше собраний вариант присоединиться в Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="88734-104">**Summary:** Learn how to configure the PIN-less meeting join option in Skype for Business Server 2015.</span></span>
   
-<span data-ttu-id="98f80-105">При попытке присоединиться к собранию вызывающего-связь, служба Attendant автоматически конференции (CAA) помещает вызывающего абонента в перо удержания, отличается от зал ожидания & #x 2014 г.; Если выступающим еще не на вызов и вызывающего абонента-связь не вошел лидера ПИН-кода.</span><span class="sxs-lookup"><span data-stu-id="98f80-105">When a dial-in caller attempts to join a meeting, the Conference Auto Attendant (CAA) service places the caller in a holding pen that is different from the Lobby &#x2014; if a presenter is not already on a call, and the dial-in caller has not entered a leader PIN.</span></span> <span data-ttu-id="98f80-106">ПИН-код меньше вариант присоединения к собранию позволяет присоединиться к собранию без ввода ПИН-код ведущего даже в том случае, если они находятся на первого лица на вызов вызывающей-связь.</span><span class="sxs-lookup"><span data-stu-id="98f80-106">The PIN-less meeting join option allows dial-in callers to join a meeting without entering a leader PIN even if they are the first person on a call.</span></span> 
+<span data-ttu-id="88734-105">При попытке присоединиться к собранию вызывающего-связь, служба Attendant автоматически конференции (CAA) помещает вызывающего абонента в перо удержания, отличается от зал ожидания & #x 2014 г.; Если выступающим еще не на вызов и вызывающего абонента-связь не вошел лидера ПИН-кода.</span><span class="sxs-lookup"><span data-stu-id="88734-105">When a dial-in caller attempts to join a meeting, the Conference Auto Attendant (CAA) service places the caller in a holding pen that is different from the Lobby &#x2014; if a presenter is not already on a call, and the dial-in caller has not entered a leader PIN.</span></span> <span data-ttu-id="88734-106">ПИН-код меньше вариант присоединения к собранию позволяет присоединиться к собранию без ввода ПИН-код ведущего даже в том случае, если они находятся на первого лица на вызов вызывающей-связь.</span><span class="sxs-lookup"><span data-stu-id="88734-106">The PIN-less meeting join option allows dial-in callers to join a meeting without entering a leader PIN even if they are the first person on a call.</span></span> 
   
-<span data-ttu-id="98f80-107">При настройке этого компонента следует учитывать следующие сведения.</span><span class="sxs-lookup"><span data-stu-id="98f80-107">Keep the following in mind when configuring this feature:</span></span>
+<span data-ttu-id="88734-107">При настройке этого компонента следует учитывать следующие сведения.</span><span class="sxs-lookup"><span data-stu-id="88734-107">Keep the following in mind when configuring this feature:</span></span>
   
-- <span data-ttu-id="98f80-108">Применяется только к частным собраниям.</span><span class="sxs-lookup"><span data-stu-id="98f80-108">Applies to private meetings only.</span></span>
+- <span data-ttu-id="88734-108">Применяется только к частным собраниям.</span><span class="sxs-lookup"><span data-stu-id="88734-108">Applies to private meetings only.</span></span>
     
-- <span data-ttu-id="98f80-109">Позволяет вызывающим абонентам ТСОП оставаться в частых собраниях при отсутствии прошедших проверку пользователей.</span><span class="sxs-lookup"><span data-stu-id="98f80-109">Allows PSTN callers to stay in private meetings without the presence of authenticated users.</span></span>
+- <span data-ttu-id="88734-109">Позволяет вызывающим абонентам ТСОП оставаться в частых собраниях при отсутствии прошедших проверку пользователей.</span><span class="sxs-lookup"><span data-stu-id="88734-109">Allows PSTN callers to stay in private meetings without the presence of authenticated users.</span></span>
     
-- <span data-ttu-id="98f80-110">Измененные настройки применяются ко всем существующим и новым частным собраниям.</span><span class="sxs-lookup"><span data-stu-id="98f80-110">After the setting is changed, it applies to all existing and new private meetings.</span></span>
+- <span data-ttu-id="88734-110">Измененные настройки применяются ко всем существующим и новым частным собраниям.</span><span class="sxs-lookup"><span data-stu-id="88734-110">After the setting is changed, it applies to all existing and new private meetings.</span></span>
     
-- <span data-ttu-id="98f80-111">Можно включить либо на сайте организатора, либо на глобальном уровне.</span><span class="sxs-lookup"><span data-stu-id="98f80-111">Can be enabled either at the site of the organizer or at the global level.</span></span>
+- <span data-ttu-id="88734-111">Можно включить либо на сайте организатора, либо на глобальном уровне.</span><span class="sxs-lookup"><span data-stu-id="88734-111">Can be enabled either at the site of the organizer or at the global level.</span></span>
     
-- <span data-ttu-id="98f80-112">Можно установить следующие варианты обхода зала ожидания:</span><span class="sxs-lookup"><span data-stu-id="98f80-112">Options for who can bypass the lobby can be set for either of the following:</span></span> 
+- <span data-ttu-id="88734-112">Можно установить следующие варианты обхода зала ожидания:</span><span class="sxs-lookup"><span data-stu-id="88734-112">Options for who can bypass the lobby can be set for either of the following:</span></span> 
     
-  - <span data-ttu-id="98f80-113">**Все вызывающие абоненты из моей организации попадают напрямую**</span><span class="sxs-lookup"><span data-stu-id="98f80-113">**Anyone from my Organization with Callers get in directly**</span></span>
+  - <span data-ttu-id="88734-113">**Все вызывающие абоненты из моей организации попадают напрямую**</span><span class="sxs-lookup"><span data-stu-id="88734-113">**Anyone from my Organization with Callers get in directly**</span></span>
     
-  - <span data-ttu-id="98f80-114">**Все вызывающие абоненты попадают напрямую** (Эта настройка используется по умолчанию.)</span><span class="sxs-lookup"><span data-stu-id="98f80-114">**Anyone (no restrictions) with Callers get in directly** (This is the default setting.)</span></span>
+  - <span data-ttu-id="88734-114">**Все вызывающие абоненты попадают напрямую** (Эта настройка используется по умолчанию.)</span><span class="sxs-lookup"><span data-stu-id="88734-114">**Anyone (no restrictions) with Callers get in directly** (This is the default setting.)</span></span>
     
-- <span data-ttu-id="98f80-115">Если присоединение без ПИН-кода включено, служба CAA по-прежнему запрашивает ПИН-код ведущего.</span><span class="sxs-lookup"><span data-stu-id="98f80-115">When configured to enable PIN-less join, the CAA service still prompts for a leader PIN.</span></span> <span data-ttu-id="98f80-116">Пользователи могут присоединиться к собранию независимо от того, введен ли ПИН-код.</span><span class="sxs-lookup"><span data-stu-id="98f80-116">Users can join the meeting whether or not a PIN is entered.</span></span> <span data-ttu-id="98f80-117">Тем не менее сохраняя возможность вводить ПИН-код ведущего позволяет телефонные вызывающей стороне проверку в качестве лидера и управление ими собрания, если это необходимо.</span><span class="sxs-lookup"><span data-stu-id="98f80-117">However, retaining the ability to enter a leader PIN allows a dial-in caller to authenticate as a leader and manage the meeting if necessary.</span></span>
+- <span data-ttu-id="88734-115">Если присоединение без ПИН-кода включено, служба CAA по-прежнему запрашивает ПИН-код ведущего.</span><span class="sxs-lookup"><span data-stu-id="88734-115">When configured to enable PIN-less join, the CAA service still prompts for a leader PIN.</span></span> <span data-ttu-id="88734-116">Пользователи могут присоединиться к собранию независимо от того, введен ли ПИН-код.</span><span class="sxs-lookup"><span data-stu-id="88734-116">Users can join the meeting whether or not a PIN is entered.</span></span> <span data-ttu-id="88734-117">Тем не менее сохраняя возможность вводить ПИН-код ведущего позволяет телефонные вызывающей стороне проверку в качестве лидера и управление ими собрания, если это необходимо.</span><span class="sxs-lookup"><span data-stu-id="88734-117">However, retaining the ability to enter a leader PIN allows a dial-in caller to authenticate as a leader and manage the meeting if necessary.</span></span>
     
-## <a name="configure-pin-less-meeting-join"></a><span data-ttu-id="98f80-118">Настройка присоединения к собранию без ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="98f80-118">Configure PIN-less meeting join</span></span>
+## <a name="configure-pin-less-meeting-join"></a><span data-ttu-id="88734-118">Настройка присоединения к собранию без ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="88734-118">Configure PIN-less meeting join</span></span>
 
-<span data-ttu-id="98f80-119">Чтобы включить присоединения к собранию без использования ПИН-кода для пользователей, используйте командлет [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) с параметром AllowAnonymousPstnActivation следующим образом:</span><span class="sxs-lookup"><span data-stu-id="98f80-119">To enable PIN-less meeting join for your users, use the [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet with the AllowAnonymousPstnActivation parameter as follows:</span></span>
+<span data-ttu-id="88734-119">Чтобы включить присоединения к собранию без использования ПИН-кода для пользователей, используйте командлет [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) с параметром AllowAnonymousPstnActivation следующим образом:</span><span class="sxs-lookup"><span data-stu-id="88734-119">To enable PIN-less meeting join for your users, use the [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet with the AllowAnonymousPstnActivation parameter as follows:</span></span>
   
 ```
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
 ```
 
-<span data-ttu-id="98f80-120">Например, следующая команда включает присоединение к собранию без ПИН-кода для сайта Redmond:</span><span class="sxs-lookup"><span data-stu-id="98f80-120">For example, the following command enables PIN-less meeting join for the site Redmond:</span></span>
+<span data-ttu-id="88734-120">Например, следующая команда включает присоединение к собранию без ПИН-кода для сайта Redmond:</span><span class="sxs-lookup"><span data-stu-id="88734-120">For example, the following command enables PIN-less meeting join for the site Redmond:</span></span>
   
 ```
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
-
 ```
 
-<span data-ttu-id="98f80-121">Когда присоединение к собранию без ПИН-кода включено, в целях безопасности можно запретить анонимным пользователям присоединяться к собранию обратным звонком. Для этого политику конференц-связи следует настроить следующим образом.</span><span class="sxs-lookup"><span data-stu-id="98f80-121">For security purposes, when PIN-less meeting join is turned on, you might want to restrict anonymous users from dialing out by ensuring the ConferencingPolicy is set as follows:</span></span>
+<span data-ttu-id="88734-121">Когда присоединение к собранию без ПИН-кода включено, в целях безопасности можно запретить анонимным пользователям присоединяться к собранию обратным звонком. Для этого политику конференц-связи следует настроить следующим образом.</span><span class="sxs-lookup"><span data-stu-id="88734-121">For security purposes, when PIN-less meeting join is turned on, you might want to restrict anonymous users from dialing out by ensuring the ConferencingPolicy is set as follows:</span></span>
   
 ```
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
-
 ```
 
-<span data-ttu-id="98f80-122">Для получения дополнительных сведений см [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="98f80-122">For more information, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="88734-122">Для получения дополнительных сведений см [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="88734-122">For more information, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).</span></span>
   
 
