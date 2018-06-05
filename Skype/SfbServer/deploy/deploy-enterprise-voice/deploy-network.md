@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Создание или изменение областей сети, сетевых узлов и сопоставление подсетей в Скайп для Business Server. Все эти группы используются для расширенных функций корпоративной голосовой связи: обход мультимедиа, контроль допуска звонков и маршрутизация на основе местоположения.'
-ms.openlocfilehash: 17696844d20bda6a709b3ae609e6963d8fb4a090
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 39fb65f3f2bef0ab81833b42fe50cbf866bee65b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501020"
+ms.locfileid: "19568384"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business-2015"></a>Развертывание сетевых областей, сайтов и подсетей в Skype для бизнеса 2015
  
@@ -53,7 +53,6 @@ ms.locfileid: "19501020"
     
    ```
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
-
    ```
 
     В этом примере вы создали области сети, называется «NorthAmerica», которая связана с центральным сайтом с ИД CHICAGO.
@@ -94,7 +93,6 @@ ms.locfileid: "19501020"
     
    ```
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
-
    ```
 
     В этом примере изменить существующую область сети называется «NorthAmerica» (созданный с помощью процедур, описанных ранее в этом разделе), изменив описание. Описание существовало для региона «NorthAmerica», эта команда переопределяет это значение; Если описание не ранее было задано, эта команда задает его.
@@ -137,7 +135,6 @@ ms.locfileid: "19501020"
     
    ```
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
-
    ```
 
     В этом примере вы создали сетевой узел с именем «Chicago», который находится в сети «northamerica».
@@ -191,7 +188,6 @@ ms.locfileid: "19501020"
     
    ```
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
-
    ```
 
     В этом примере узел с именем «Альбукерке» будет перемещено в область сети «NorthAmerica». Чтобы изменить конфигурацию этого сетевого узла для развертывания контроля допуска звонков, E9-1-1 или обхода сервера-посредника, измените параметры сетевого узла, выполнив командлет Set-CsNetworkSite с параметром BWPolicyProfileID или LocationPolicy соответственно.

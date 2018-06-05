@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Сводка: Узнайте, как управлять параметрами конфигурации сервера конференц-связи в Скайп для Business Server 2015.'
-ms.openlocfilehash: 88c127acdd569945eddb41e997034e5ea23ea2a6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e59bfce2a1317d67b1a77f7277996d5a964a314f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569465"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server-2015"></a>Управление параметрами конфигурации сервера конференций в Skype для бизнеса Server 2015
  
@@ -43,7 +44,6 @@ ms.lasthandoff: 03/28/2018
   
 ```
 New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
-
 ```
 
 Обратите внимание на то, что для каждого сайта может быть только одна такая коллекция. Эта команда завершится сбоем, если у сайта Redmond уже есть коллекция параметров конфигурации конференц-связи. 
@@ -60,7 +60,6 @@ New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
 $x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory
 $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x
-
 ```
 
 Без вызова командлета **Set-CsConferencingConfiguration** новые параметры никогда не вступят в силу. Вместо этого они исчезнут сразу после завершения текущего сеанса Windows PowerShell или удаления переменной $x.
