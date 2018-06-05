@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Сводка: Узнайте, как управлять Persistent Chat Server разговоров в Скайп для Business Server 2015.'
-ms.openlocfilehash: fd927e3a54f1f3a8df429677f481ea224534b984
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7febc9736f43f3168d7bc62b0ddf833fa6b5864b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569402"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление комнатами чата на сервере сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -76,7 +77,7 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="create-a-new-room"></a>Создание новой комнаты
 
-Создать новую комнату можно с помощью командлета **New-CsPersistentChatRoom**. Например следующая команда создает новый чата с именем ITChatRoom на пул atl-cs-001.contoso.com. В этом примере добавляется комнаты чата категории ИТ:
+Создать новую комнату можно с помощью командлета **New-CsPersistentChatRoom**. Например, следующая команда создаст новую комнату чата с именем ITChatRoom в пуле atl-cs-001.contoso.com. В данном примере комната чата добавлена в категорию IT:
   
 ```
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
@@ -130,7 +131,6 @@ Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled
   
 ```
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
-
 ```
 
 ## <a name="get-information-about-rooms"></a>Получение сведений о комнат

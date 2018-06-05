@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Сводка: Сведения об отчете активности пользователей в Скайп Business Server 2015.'
-ms.openlocfilehash: b3a69f067f2acbc27b84b58c7ebc9ba53c979f92
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ed0e61d2e5593287c4f793d8b0c4cf647d772478
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569395"
 ---
 # <a name="user-activity-report-in-skype-for-business-server-2015"></a>Отчет по активности пользователей в Skype для бизнеса Server 2015
  
@@ -24,7 +25,7 @@ ms.lasthandoff: 03/28/2018
   
 Отчет об активности пользователей иногда называют отчетом «службы технической поддержки». Это вызвано тем, что данный отчет часто используется сотрудниками службы технической поддержки для получения информации о сеансе для определенного пользователя. Вы можете отфильтровывать входящие и исходящие звонки для отдельного пользователя, просто введя URI SIP в поле «User URI prefix» (Префикс URI пользователя).
   
-После этого отчета об активности пользователей будет возвращать сведения для всех пользователей, чьи SIP URI начинается с указанной строки. Например если **ken** введите в поле URI, User Activity Report поиск **Ken**. Myer@litwareinc.com. Тем не менее, он будет также найти этих пользователей:
+После этого отчета об активности пользователей будет возвращать сведения для всех пользователей, чьи SIP URI начинается с указанной строки. Например, если ввести в поле URI значение **ken**, отчет об активности пользователя найдет **Ken**.Myer@litwareinc.com. Однако при этом будут найдены и другие пользователи:
   
 - **Кен** azi@litwareinc.com
     
@@ -69,7 +70,7 @@ $x | Group-Object "From user" | Select Name | Sort-Object Name
 
 Другими словами:
   
-```
+<pre>
 Name
 ----
 David.Ahs@litwareinc.com
@@ -77,7 +78,7 @@ Gilead.Amosnino@litwareinc.com
 Henrik.Jensen@litwareinc.com
 Ken.Myer@litwareinc.com
 Pilar.Ackerman@litwareinc.com
-```
+</pre>
 
 Эта команда выводит список уникальных пользователей (на основании общего числа сеансов, в которых они приняли участие:
   
@@ -87,7 +88,7 @@ $x | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descendi
 
 При этом возвращаются данные, аналогичные следующим:
   
-```
+<pre>
 Count    Name
 -----    ----
   523    Ken.Myer@litwareinc.com
@@ -95,7 +96,7 @@ Count    Name
    29    Pilar.Ackerman@litwareinc.com
    17    Gilead.Amosnino@litwareinc.com
    10    Henrik.Jensen@litwareinc.com
-```
+</pre>
 
 Эта команда ограничивает область поиска только сеансами, имевшими звуковую модальность:
   

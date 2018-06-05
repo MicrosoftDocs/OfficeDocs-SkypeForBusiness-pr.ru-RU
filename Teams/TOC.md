@@ -62,6 +62,7 @@
 # Приложения и службы
 ## [Параметры администратора для приложений в Teams](admin-settings.md)
 ## [Добавление ботов для приватных чатов и каналов в Teams](add-bots.md)
+## [Управление хранилище приложений Private групп](private-app-store-teams.md)
 ## [Использование встроенных и настраиваемых вкладок в Teams](built-in-custom-tabs.md)
 ## [Использование Office 365 и настраиваемых соединителей в Teams](office-365-custom-connectors.md)
 ## [Использование П-бота для помощи пользователям с Teams](t-bot.md)
@@ -127,9 +128,9 @@
 ### [Использование средства аналитики звонков для устранения проблем с низким качеством звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
-## Аудиоконференция
+## Аудиоконференции
 ### [Руководство по Аудиоконференций в группах](Tutorial-Audio-Conferencing.yml)
-### [Аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Общие вопросы по аудиоконференциям](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Поминутная оплата аудиоконференций](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

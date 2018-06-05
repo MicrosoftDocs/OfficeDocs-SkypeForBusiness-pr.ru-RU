@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: 'Сводка: Сведения о операцию получения куб, который является частью API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.'
-ms.openlocfilehash: e39a88e249dc807b201b08d966285d93ae7f82a6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bbb2419fb66f6ecf397a2ccbcb4fe2858ce0d8fe
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569147"
 ---
 # <a name="get-cube"></a>Получение куба
  
@@ -88,7 +89,6 @@ ms.lasthandoff: 03/28/2018
 "Description": "Description of Audio Good Streams JPDR Count"
 }]
 }
-
 ```
 
  *Ключевые показатели эффективности* — зарезервировано. Ключевые показатели эффективности части полезных данных запроса позволяет выполнить запрос операции для возврата значения для ключевых индикаторов производительности, определенных в кубе. Не ключевые показатели эффективности еще не существует в кубе качества взаимодействия.

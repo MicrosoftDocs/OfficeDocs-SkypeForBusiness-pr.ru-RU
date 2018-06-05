@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 'Сводка: Просмотр сведения о ПИН пользователя в Скайп для Business Server 2015.'
-ms.openlocfilehash: 2521c9edba0b16eda6ea799b6b968a8c57bba245
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fecd4c983cad20b0efa77cbd5c6fc809db777aec
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568761"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server-2015"></a>Просмотр сведений о ПИН-коде пользователя в Skype для бизнеса Server 2015
  
@@ -74,21 +75,18 @@ ms.lasthandoff: 03/28/2018
 
 Команда возвращает примерно следующую информацию:
 
-  ```
-  Identity          : sip:kenmyer@litwareinc.com
+<pre>
+Identity          : sip:kenmyer@litwareinc.com
 IsPinSet          : False
 IsLockedOut       : False
 LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
-  ```
+</pre>
 
 Для получения дополнительных сведений см раздел справки для командлета [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) .
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Задать пользователя телефонных конференций ПИН-код в Скайп для Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
   
 [Заблокировать или разблокировать ПИН-код, в Скайп пользователя для Business Server 2015](lock-or-unlock-a-user-pin.md)
-

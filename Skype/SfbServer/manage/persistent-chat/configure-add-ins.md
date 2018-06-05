@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Сводка: Сведения о настройке надстроек для комнат чата Persistent Chat Server в Скайп для Business Server 2015.'
-ms.openlocfilehash: dbd1eba6cf73783d02b502930f271ada93e28145
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 64017115370c24c8c4a117f595230a6f5f741afd
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569967"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Настройка надстроек для комнат сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -52,7 +53,7 @@ ms.lasthandoff: 03/28/2018
 
 Надстройки для комнат чата можно настроить с помощью следующих командлетов Windows PowerShell. Для получения дополнительных сведений о синтаксисе, включая все доступные параметры просмотра [Скайп оболочки управления 2015 Business Server](../management-shell.md).
   
-| |
+
 |**Командлет**|**Описание**|
 |:-----|:-----|
 |New-CsPersistentChatAddin  <br/> |Создание новой надстройки  <br/> |

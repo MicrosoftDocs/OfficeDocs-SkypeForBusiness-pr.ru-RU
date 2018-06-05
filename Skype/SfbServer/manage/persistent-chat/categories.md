@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Сводка: Узнайте, как управлять категориями сервера сохраняемого чата в Скайп для Business Server 2015.'
-ms.openlocfilehash: e24beb1c4e1ebe7bb541a7bd6226f098c1bcb58b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 418cdc395a611c880da5b9455c10367fe19c6843
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568621"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление категориями на сервере сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -102,7 +103,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="create-a-new-category"></a>Создание новой категории
 
-Новую категорию можно создать с помощью командлета **New-CsPersistentChatCategory**. Например следующая команда создает новую категорию с именем служба технической поддержки в пуле atl-cs-001.contoso.com. В этом примере включена отправка файла:
+Новую категорию можно создать с помощью командлета **New-CsPersistentChatCategory**. Например, следующая команда создает новую категорию с именем HelpDesk в пуле atl-cs-001.contoso.com. В этом примере загрузка файлов включена.
   
 ```
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
@@ -134,5 +135,3 @@ Get-CsPersistentChatCategory
 ```
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```
-
-

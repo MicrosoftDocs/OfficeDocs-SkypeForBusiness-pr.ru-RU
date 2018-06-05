@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: В этой статье описывается, как управлять служб, работающих в Скайп для топологии Business Server 2015.
-ms.openlocfilehash: f8406d473b1d2ae644ac56d071313d2b488169fa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 87bf9fd90c68155504e6be5b28b56d571eaad924
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569577"
 ---
 # <a name="manage-services-for-skype-for-business-server-2015"></a>Управление службами для Скайп для Business Server 2015
 
@@ -105,7 +106,6 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
     
   ```
   Get-CsAdminRoleAssignment -Identity "kenmyer"
-
   ```
 
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server. 

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Настройка, заполнения и опубликовать базу данных местоположений E9-1-1 в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 0a08d248c5eb7ec406a86f8357c565507bb10ed6
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f07eafbbbfcbb62c7176e35faba48e0d1281ce39
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568333"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server-2015"></a>Настройка базы данных местоположений в Skype для бизнеса Server 2015
  
@@ -70,7 +71,6 @@ ms.lasthandoff: 05/03/2018
    ```
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
-
    ```
 
 2. Выполните следующий командлет, чтобы добавить беспроводные расположения в базу данных расположений.
@@ -125,7 +125,6 @@ ms.lasthandoff: 05/03/2018
    ```
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
-
    ```
 
 3. Чтобы проверить адреса, хранящиеся в базе данных местонахождения, выполните следующий командлет.
@@ -150,7 +149,6 @@ ms.lasthandoff: 05/03/2018
     
   ```
   Publish-CsLisConfiguration
-
   ```
 
 

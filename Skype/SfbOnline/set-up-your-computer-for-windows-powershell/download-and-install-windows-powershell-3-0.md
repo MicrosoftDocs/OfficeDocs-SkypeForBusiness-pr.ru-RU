@@ -17,12 +17,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online.
-ms.openlocfilehash: 6679e9749efd6ee09a7c26f383b1b411caadb43e
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 9c2b0f02d9da7e44cdb5585314c13a6bafbe58c6
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19493995"
+ms.locfileid: "19568325"
 ---
 # <a name="download-and-install-windows-powershell-30"></a>Скачайте и установите Windows PowerShell 3.0
 
@@ -34,17 +34,17 @@ ms.locfileid: "19493995"
     
 2. В консоли PowerShell введите следующую команду и нажмите клавишу ВВОД:
     
-    ```
+   ```
    Get-Host | Select-Object Version
    ```
 
 3. В окне консоли должна появиться информация примерно следующего вида:
     
-    ```
-    Version
-    -------
+    <pre>
+    Version <BR>
+    ------- <BR>
     3.0
-    ```
+    </pre>
 
     Если возвращается номер версии 3.0, значит вы используете Windows PowerShell 3.0. В противном случае вам необходимо установить Windows PowerShell 3.0. Для этого можно скачать платформу Windows Management Framework 3.0, в состав которой входит среда Windows PowerShell 3.0, из [Центра загрузки Майкрософт](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
@@ -79,9 +79,7 @@ Get-ExecutionPolicy
 
 Если настройка выполнена правильно, будет возвращено следующее значение:
   
-```
-RemoteSigned
-```
+`RemoteSigned`
 
 Если вы не используете Windows PowerShell 3.0, вам также необходимо скачать и установить платформу Windows Management Framework 3.0 из Центра загрузки Майкрософт. Этот пакет установки включает в себя Windows PowerShell 3.0 и Windows Remote Management (WinRM) 3.0. Его можно использовать в том случае, если вы работаете в ОС Windows 7 и еще не выполнили обновление до Windows PowerShell 3.0. В ОС Windows Server 2012, Windows Server 2012 R2, Windows 8 и Windows 8.1 устанавливать Windows PowerShell 3.0 не требуется. Версия Windows PowerShell 3.0 входит в состав этих операционных систем.
   
@@ -115,11 +113,11 @@ Get-Service winrm
 
 На экран будут выведены сведения о службе WinRM:
   
-```
+<pre>
 Status   Name               DisplayName
 ------   ----               -----------
 Running  winrm              Windows Remote Management (WS-Manag...
-```
+</pre>
 
 Если в столбце состояния не указано, что служба WinRM запущена, запустите ее. Для этого введите следующую команду и нажмите клавишу ВВОД:
   
@@ -135,7 +133,7 @@ winrm set winrm/config/client/auth '@{Basic="True"}'
 
 На экране должна появиться информация примерно следующего вида:
   
-```
+<pre>
 Auth
     Basic = true
     Digest = true
@@ -143,7 +141,7 @@ Auth
     Negotiate = true
     Certificate = true
     CredSSP = false
-```
+</pre>
 
 Если обычная проверка подлинности имеет значение true, а затем вы готовы к использование PowerShell для подключения к Скайп для бизнеса в Интернет.
   

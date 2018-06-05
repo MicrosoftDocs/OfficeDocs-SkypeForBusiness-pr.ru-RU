@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Сводка: Узнайте, как управлять номера доступа к конференц-связи в Скайп для Business Server 2015.'
-ms.openlocfilehash: ebe3388578b74041802afc12f47e0b484cb88bd7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3bbde214863fa7d08214569e4d9aa2a767016eb4
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569437"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server-2015"></a>Управление номерами доступа к конференц-связи с телефонным подключением в Skype для бизнеса Server 2015
  
@@ -48,12 +49,11 @@ ms.lasthandoff: 03/28/2018
   
 ```
 Get-CsDialInConferencingAccessNumber
-
 ```
 
 Ниже приведен пример типа возвращаемой информации.
   
-```
+<pre>
 Identity           : CN={20ca8dc8-5ff8-41f4-b5bb-22ba9972ae2e},
                      CN=Application Contacts,CN=RTCService=Services,
                      CN=Configuration,DC=litwareinc,DC=com
@@ -66,8 +66,7 @@ SecondaryLanguages : {}
 Pool               : atl-cs-001.litwareinc.com
 HostingProvider    :
 Regions            : {US}
-
-```
+</pre>
 
 Для получения дополнительных сведений см [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
@@ -137,14 +136,12 @@ Regions            : {US}
   
 ```
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
-
 ```
 
 Команда, показанная в следующем примере, изменяет номер доступа к конференц-связи с телефонным подключением с идентификатором sip:RedmondDialIn@litwareinc.com, добавляя города Redmond (Редмонд) и Seattle (Сиэтл). Для указания городов используется параметр Regions и названия городов (два строковых значения, разделенных запятыми). Обратите внимание, что эта команда завершится с ошибкой, если города Redmond (Редмонд) и Seattle (Сиэтл) не определены в абонентских группах.
   
 ```
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
-
 ```
 
 Для получения дополнительных сведений см [Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps).

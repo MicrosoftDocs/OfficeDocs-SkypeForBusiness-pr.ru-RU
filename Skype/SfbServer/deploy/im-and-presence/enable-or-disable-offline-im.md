@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: Узнайте включить или отключить автономный режим мгновенного обмена Мгновенными сообщениями в Скайп для Business Server 2015.
-ms.openlocfilehash: a9133ad82e4d25fae2aebd266273ecbb37c2a010
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 46adfbea2e3164944d9670310819d3ae46d8d07c
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569814"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server-2015"></a>Включение или отключение автономного обмена мгновенными сообщениями в Skype для бизнеса Server 2015
  
@@ -58,13 +59,9 @@ ms.lasthandoff: 03/28/2018
 
 Существует две минуты таймера из при автономной сообщение отправляется при обработан и обработки. Если не удается обработать автономных сообщений они будут отображаться в следующий каталог: 
   
-   ```
-  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler
-  ```
+  <pre>  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler   </pre>
 
 Основной Скайп для бизнеса ETL журнала будет содержать сведения об обработке автономных сообщений и — Лучший источник для исследования и устранения неполадок. 
   
 > [!NOTE]
 > Было сообщено о следующей проблеме: сбой отправки автономных сообщений и заполнение сообщениями папки "Черновики". Эта проблема наблюдалась для почтовых ящиков локальной организации Exchange. На 14 июня 2016 г данная проблема была устранена для всех каналов C2R.  
-  
-

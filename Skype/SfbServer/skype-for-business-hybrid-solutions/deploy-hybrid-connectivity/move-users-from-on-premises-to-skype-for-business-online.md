@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: 'Сводка: Узнайте, как перенос параметров пользователя и перемещение пользователей в Скайп для бизнеса в Интернет.'
-ms.openlocfilehash: 4c6a54bf5d197e4836c733975b60242c0fd3d431
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 25065f5765f46d5432e59d8053573a13e37dc8a1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569416"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Перемещение локальных пользователей в Skype для бизнеса Online
  
@@ -88,5 +89,3 @@ Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online
   ```
   Get-CsUser -Identity
   ```
-
-

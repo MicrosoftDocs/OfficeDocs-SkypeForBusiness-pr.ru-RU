@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 'Сводка: Узнайте, как для установки обновления или исправления на Тыловой сервер в Скайп для Business Server.'
-ms.openlocfilehash: 14acff1aea501bf47dff95053259187570d2f990
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 40437deb77fc5b212a6c579030ed77939c421050
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569381"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server-2015"></a>Модернизация или обновление внутреннего сервера или сервера Standard Edition в Skype для бизнеса Server 2015
  
@@ -82,5 +83,3 @@ ms.lasthandoff: 03/28/2018
     Install-CsDatabase -Update -LocalDatabases
 
     ```
-
-

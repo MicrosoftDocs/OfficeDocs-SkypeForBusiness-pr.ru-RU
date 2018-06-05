@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Сводка: Сведения о была исчерпана при использовании API для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.'
-ms.openlocfilehash: 038324064177c110c0736092985e9da1b330ea8b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ccc9965af4766277978968b91321aefb5fdae3b9
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568865"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>Данные API для панели мониторинга качества звонков (CQD) в Скайп для Business Server 2015
  
@@ -56,7 +57,6 @@ Data API предоставляет программный доступ к па�
     <add key="QoEDataLib.DebugMode" value="True" /> <!-- Setting this to True, allows seeing of the detail logs in status page -->
 …  </appSettings>
 </configuration>
-
 ```
 
 

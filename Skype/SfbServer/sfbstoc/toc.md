@@ -69,6 +69,8 @@
 #### Планирование системы Microsoft Phone Прямая отправка
 ##### [Планирование прямой маршрутизации](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md)
 ##### [Настройка прямой маршрутизации](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md)
+##### [Переход на прямой маршрутизации](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/migrating-to-direct-routing.md)
+##### [Учетные записи пользователей в гибридной среде с помощью подключения к ТСОП](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/user-accounts-in-a-hybrid-environment-with-pstn.md)
 ### [Планирование гибридного подключения](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)
 ### [Развертывание гибридного подключения](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
 #### [Настройка федерации с Скайп для бизнеса в Интернет](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)
@@ -102,6 +104,7 @@
 #### [Совместимость с Office](../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
 #### [Разрешение видеоизображения](../plan-your-deployment/clients-and-devices/video-resolutions.md)
 #### [Клиенты собраний](../plan-your-deployment/clients-and-devices/meetings-clients.md)
+##### [Требования к сети минимальные Скайп собраний приложения](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Требования к Windows Phone](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
 #### [Системы комнат Skype версии 2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ##### [Поддержка для текущей версии филиала](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)

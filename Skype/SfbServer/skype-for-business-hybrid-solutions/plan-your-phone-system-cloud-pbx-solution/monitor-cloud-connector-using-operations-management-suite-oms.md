@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Прочтите этот раздел, чтобы узнать, как мониторинг соединителя облачных версии 2.1 и последующего развертывания с помощью пакетов управления Microsoft операции (OMS).
-ms.openlocfilehash: 8cb454cfcb61bb11e0545ab5ff7dd45d1403ce55
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 160fcfc4baade7bc59d41771b0fd86d3cb725cab
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569763"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Мониторинг соединителя облако с помощью пакетов управления Operations (OMS)
  
@@ -152,8 +153,7 @@ ms.lasthandoff: 04/05/2018
 - — Это запрос для сообщение об ошибке:
     
   ```
-  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)
- | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
+  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
     В запросе используется фильтр компьютер, *где компьютер содержит «MediationServer»* . Фильтр выбирает только на компьютере, имя которого содержит строку «MediationServer».
@@ -165,8 +165,7 @@ ms.lasthandoff: 04/05/2018
 - — Это запрос для сброса оповещения:
     
   ```
-  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)
- | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
+  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     Сброс запросов выполняет точно положительно запроса об ошибках. Для каждого компьютера он будет возвращать один Если последний событий — это служба запуска события; он возвращает nothing, если последний событие — остановить службу.
@@ -178,9 +177,7 @@ ms.lasthandoff: 04/05/2018
 - — Это запрос для сообщение об ошибке:
     
   ```
-  Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName 
-== "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize
- TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
+  Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
     Для каждого компьютера запрос будет получать последние счетчики для входящих звонков и исходящих вызовов и суммы этих двух значений. Возвращает один вход, если суммарное значение превышает 500; он возвращает nothing, если это не так. Вкратце запрос возвращает список серверов, одновременных звонков слишком большого числа в интервал времени.
@@ -188,10 +185,7 @@ ms.lasthandoff: 04/05/2018
 - — Это запрос для сброса оповещения:
     
   ```
-  Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==
- "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize
- TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
-
+  Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     Сброс запросов выполняет точно положительно запроса об ошибках. Для каждого компьютера запрос будет получать последние счетчики для входящих звонков и исходящих вызовов и суммы этих двух значений. Возвращает один журнала, если значение сумма меньше, чем значение 500; в противном случае будет возвращено значение nothing.
@@ -201,8 +195,7 @@ ms.lasthandoff: 04/05/2018
 Чтобы создать это предупреждение, — это запрос:
   
 ```
-search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==
- "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
+search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 
 Запрос будет возвращать все счетчика использования процессора и события остановки службы из всех компьютеров и прибыли, когда-либо остановлена одного журнала, если либо использования процессора превышает 90% или службы. 

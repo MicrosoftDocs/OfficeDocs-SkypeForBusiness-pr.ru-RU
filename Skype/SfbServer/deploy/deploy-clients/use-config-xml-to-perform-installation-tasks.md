@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 'Сводка: Порядок использования файла Config.xml для указания дополнительных инструкций по установке.'
-ms.openlocfilehash: f55683d672df890be8baf0ac7ca50b3170faf3d2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e3c27aab3e821f7dcd621e40fd4339e4db2b985
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568558"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-server-2015"></a>Использование Config.xml для выполнения задач, связанных с установкой в Skype для бизнеса Server 2015
  
@@ -75,9 +76,9 @@ ms.lasthandoff: 03/28/2018
     
 3. Измените запись для элемента, используя нужные значения параметров автоматической установки. Убедитесь в том, что вы удалить разделители комментариев "\<!--» и «--\>«. Например, используйте следующий синтаксис:
     
-  ```
+  <pre>
   < DistributionPoint Location="\\server\share\Skype15" />
-  ```
+  </pre>
 
 4. Сохраните файл Config.xml.
     

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: В этой статье обсуждается удаленное управление параметры по умолчанию, используемый устройством версии 2 Скайп комнаты системы, включая применение пользовательской темы.
-ms.openlocfilehash: 0b32b43f56cb0295bdfec8741da622501674df8b
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 939b0ce13aac70a9a80b1cae246a9491b4c098de
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505106"
+ms.locfileid: "19569161"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Удаленное управление параметрами консоли Систем комнат Skype версии 2 с помощью XML-файла конфигурации
  
@@ -61,7 +61,6 @@ ms.locfileid: "19505106"
          </CustomThemeColor>
   </Theming>
 </SkypeSettings>
-
 ```
 
 Если XML-файл имеет неверный формат (например, недопустимый тип значений переменных, неправильный порядок элементов, отсутствие закрывающих элементов и т. д.), при его обработке применяются параметры, расположенные до точки ошибки, а оставшаяся часть файла игнорируется. Любые неизвестные элементы XML-файла также пропускаются. Соответствующие пропущенным элементам параметры устройств остаются без изменений. Если значение этого параметра является недопустимым, его предыдущего значения не изменяется.

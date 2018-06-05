@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Сводка: Просмотр сведений политики ПИН-кода пользователя для Скайп для Business Server 2015.'
-ms.openlocfilehash: 3b62dae5cbd29c4622e30c6369a498eb48e126c7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 57960037f5a89cd93e03dc37d3f010343313e1e6
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568768"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server-2015"></a>Просмотр сведений о политике ПИН-кодов в Skype для бизнеса Server 2015
  
@@ -49,21 +50,18 @@ ms.lasthandoff: 03/28/2018
 
 Команда возвращает примерно следующую информацию:
 
-  ```
-  Identity             : Global
+<pre>
+Identity             : Global
 Description          :
 MinPasswordLength    : 5
 PINHistoryCount      : 0
 AllowCommonPatterns  : False
 PINLifetime          : 0
 MaximumLogonAttempts :
-  ```
+</pre>
 
 Для получения дополнительных сведений см раздел справки для командлета [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) .
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Создание новой политики ПИН-код в Скайп для Business Server 2015](create-a-new-pin-policy.md)
-

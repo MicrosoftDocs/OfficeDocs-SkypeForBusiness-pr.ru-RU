@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: e2f9629de713c363de02124a922b21882853d54d
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 2a600b7f6e61ae9dead69e5bfac534e2196974b1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570173"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -59,14 +60,14 @@ gcm *onlinePSTNGateway*
 
 Команда вернет четыре функций, которые будут позволяют управлять их изготовителей. 
 
-```
+<pre>
 CommandType    Name                       Version    Source 
 -----------    ----                       -------    ------ 
 Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       New-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt 
 Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
-```   
+</pre>   
 
 
 ### <a name="pair-the-sbc-to-the-tenant"></a>Пара SBC к клиенту 
@@ -86,7 +87,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
 Возвращает:
-``` 
+<pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -96,7 +97,7 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True   
-```
+</pre>
 Доступны дополнительные методы, которые могут быть заданы во время связывания. В предыдущем примере тем не менее, минимально необходимые параметры показаны. 
  
 В следующей таблице перечислены дополнительные параметры, которые можно использовать в настройке параметров для *New-CsOnlinePstnGateway*. 
@@ -129,7 +130,7 @@ Enabled               : True
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 Которая возвращает:
-``` 
+<pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -141,7 +142,7 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True 
-```
+</pre>
 
 #### <a name="validate-sip-options-flow"></a>Проверка потока SIP-параметры 
 
@@ -177,7 +178,7 @@ Enabled               : True
 Необязательный лицензии: 
 
 - Вызов плана 
-- Аудиоконференция 
+- Аудиоконференции 
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Пользователь является, размещенными в Скайп для бизнеса в Интернет 
 
@@ -290,7 +291,7 @@ Get-CSOnlinePSTNUsage
   Usage     : {testusage, US and Canada, International, karlUsage. . .}
 ```
 В приведенном ниже примере можно увидеть результат выполнения команды PowerShell *`(Get-CSOnlinePSTNUsage).usage`* Отображение полного названия (не сокращается).    
-```
+<pre>
  testusage
  US and Canada
  International
@@ -300,7 +301,7 @@ Get-CSOnlinePSTNUsage
  karlUsage2
  Unrestricted
  Two trunks
-  ```
+</pre>
 
 **Шаг 2:** В сеанс PowerShell в Скайп для бизнеса в Интернет, создайте три маршрутов: Redmond 1, Redmond 2 и других + 1, как описано в предыдущей таблице. 
 
@@ -312,7 +313,7 @@ Get-CSOnlinePSTNUsage
   ```
 
 Которая возвращает:
-```
+<pre>
 Identity                : Redmond 1
 Priority            : 1
 Description         :
@@ -322,7 +323,7 @@ OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name            : Redmond 1
 SuppressCallerId    :
 AlternateCallerId   :
-```
+</pre>
 Чтобы создать маршрут Redmond 2, введите:
 
 ```
@@ -355,7 +356,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 New-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 Которого должен возвращать:
-```
+<pre>
 Identity            : Redmond 1 
 Priority            : 1
 Description     : 
@@ -378,7 +379,7 @@ NumberPattern       : ^\+1(425|206) (\d{7})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
-```
+</pre>
 
 В примере, маршрут «Другие + 1» автоматически была назначена приоритет. 
 
@@ -392,12 +393,12 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 
 В этом примере показан результат.
 
-```
+<pre>
 Identity        : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description         :
 RouteType           : BYOT
-```
+</pre>
 
 **Шаг 4:** Предоставление пользователю Спенс Low политику маршрутизации голосовой связи с помощью PowerShell.
 
@@ -411,12 +412,11 @@ RouteType           : BYOT
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 Которая возвращает:
-```
+<pre>
 OnlineVoiceRoutingPolicy
 ------------------------
 US Only
-
-```
+</pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>Создание политики маршрутизации голосовой связи с несколькими случаев использования PSTN
 
@@ -470,7 +470,7 @@ Spencer Low — допускается только в США и Канада ч
   ```
   Которая возвращает:
 
-  ```
+  <pre>
   Identity                  : International 
   Priority                      : 5
   Description                   : 
@@ -480,27 +480,29 @@ Spencer Low — допускается только в США и Канада ч
   Name                            : International
   SupressCallerId           :
   AlternateCallerId         :
-  ```
+</pre>
 3.  Создайте политику маршрутизации голосовой связи «Без ограничений». Режим работы с ТСОП «Redmond 1» и «Redmond» используются повторно в политике маршрутизации голосовой связи, чтобы сохранить специальная обработка звонков на номер «+1 425 XXX XX XX» и «+1 206 XXX XX XX» как на локальном или локальный.
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
+```
 
-    Запомните порядка использования ТСОП:
+    Take note of the order of PSTN Usages:
 
-    а. Если вызов, выполненный на номер «+ 1425 XXX XX XX» с помощью использования, настроенных как показано в следующем примере, вызов следуют маршрут в об использовании «"Мне Нравится" и Canada» и применяются специальные логику маршрутизации. То есть, вызов перенаправляется с помощью sbc1<span></span>. contoso.biz и sbc2<span></span>. contoso.biz, а затем sbc3<span></span>. contoso.biz и sbc4<span></span>. contoso.biz как маршруты резервного копирования. 
+    a. If a call made to number “+1425 XXX XX XX” with the usages configured as in the following example, the call follows the route set in “US and Canada” usage and the special routing logic is applied. That is, the call is routed using  sbc1<span></span>.contoso.biz and sbc2<span></span>.contoso.biz first, and then  sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz as the backup routes. 
 
-    б.  Если режим работы с ТСОП «Международный» до «"Мне Нравится" и Canada», вызовы + 1425 XXX XX XX направляются sbc2<span></span>. contoso.biz и sbc5<span></span>. contoso.biz как часть логику маршрутизации. Введите команду:
+    b.  If “International” PSTN usage is before “US and Canada,” calls to + 1425 XXX XX XX are routed to sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz as part of the routing logic. Enter the command:
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
 
    Которая возвращает
 
-   ```
+  <pre>
    Identity     : International 
    OnlinePstnUsages     : {US and Canada, International}     
    Description      :  
    RouteType        : BYOT
-   ```
+  </pre>
 
 4.  Назначение политики маршрутизации голосовой связи для пользователя «John Woods» с помощью следующей команды.
 
@@ -515,11 +517,11 @@ Spencer Low — допускается только в США и Канада ч
   ```
   Которая возвращает:
 
-  ```
-  OnlineVoiceRoutingPolicy
-  ------------------------
-  No Restrictions
-  ```
+<pre>
+    OnlineVoiceRoutingPolicy
+    ------------------------
+    No Restrictions
+</pre>
 
 Результатом будет неограниченный политика голосовой связи, применяются к вызовам, Джон Вудз и выполним логику маршрутизации вызовов для США, Канада и международных звонков.
 

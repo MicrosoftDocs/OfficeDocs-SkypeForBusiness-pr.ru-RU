@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Прочитайте о том, как установить и настроить параметры «занят» в Скайп для Business Server 2015.
-ms.openlocfilehash: ff0f9a892d0882adcc2af0c4c41c1177b3488520
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d9348077c5779984879d3ac9f0d68bf68fd0c561
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568216"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Установка и настройка параметров занятости в Skype для бизнеса Server
  
@@ -102,14 +103,12 @@ ms.lasthandoff: 05/03/2018
   
 ```
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
-
 ```
 
 В следующем примере эта команда задает параметры занятости для пользователя "Chrystal Velasquez". В такой конфигурации новые входящие звонки, поступающие этому пользователю во время активного звонка, переадресуются на голосовую почту:
   
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy 
-
 ```
 
 Сведения о занятости параметры конфигурации можно извлечь с помощью командлета [Get-CsBusyOptions](http://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) . В следующем примере возвращается текущее значение «занят» параметры «KenMyer@Contoso.com»:
@@ -122,7 +121,6 @@ Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
   
 ```
 Remove-CsBusyOptions -Identity "Ken Myer"
-
 ```
 
 Подробные сведения о командлетах, используется для настройки параметров «занят» см в разделе справочные материалы для [Набора CsBusyOptions](http://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx), [Get-CsBusyOptions](http://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)и [Remove-CsBusyOptions](http://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx).
@@ -137,24 +135,21 @@ $p2 = New-CsClsProvider -Name Sipstack -Type WPP -Level Info -Flags
  "TF_PROTOCOL,TF_CONNECTION,TF_SECURITY,TF_DIAG,TF_SHOW_CONFERENCE,TF_SHOW_ALLREQUESTS,TF_SHOW_ALLSIPHEADERS" -Role Registrar
 $p3 = New-CsClsProvider -Name BusyOptions -Type WPP -Level Verbose -Flags All
 New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3} 
-
 ```
 
 ## <a name="verify-and-troubleshoot"></a>Проверка и устранение неполадок
 
 После установки параметров «занят», вы можете проверить, что установка прошла успешно, с помощью командлета [Get-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps) для получения списка серверов приложений. Если параметры занятости установлены надлежащим образом, этот командлет вернет следующую конфигурацию этой функции:
   
-|||
-|:-----|:-----|
-|Identity   <br/> |  : Service:Registrar:pool0.vdomain.com/BusyOptions <br/> |
-|Priority  <br/> | : 5 <br/> |
-|Uri   <br/> |: http://www.microsoft.com/LCS/BusyOptions  <br/> |
-|Имя  <br/> |  : BusyOptions <br/> |
-|Включено  <br/> |: True  <br/> |
-|Critical  <br/> |: False  <br/> |
-|Имя_сценария  <br/> | : <br/> |
-|Script   <br/> | : <br/> |
-   
-Также можно использовать средство просмотра событий Windows для проверки успешности установки параметров «занят» и что Скайп для Business Server успешно загружен параметры «занят». Чтобы проверить параметры «занят», откройте **окно просмотра событий -\> журналы служб - приложений и\> Скайп (или Lync) сервера** и выполните поиск события ID = 30253.
+<pre>
+Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions 
+Priority   : 5 
+Uri        : http://www.microsoft.com/LCS/BusyOptions 
+Name       : BusyOptions 
+Enabled    : True 
+Critical   : False  
+ScriptName : 
+Script     : 
+</pre> 
   
-
+Также можно использовать средство просмотра событий Windows для проверки успешности установки параметров «занят» и что Скайп для Business Server успешно загружен параметры «занят». Чтобы проверить параметры «занят», откройте **окно просмотра событий -\> журналы служб - приложений и\> Скайп (или Lync) сервера** и выполните поиск события ID = 30253.

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Прочтите этот раздел, чтобы узнать о шаги развертывания, что сервера-посредника Edition соединителя облачных версии 2.0 и более поздней версии с.
-ms.openlocfilehash: 0d147cbd1f6497757aa73e380ebeca0c03f1de7b
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: fc1ebe85ff3d26d66688173ea70c53c441d96e77
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505197"
+ms.locfileid: "19570046"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Развертывание обхода сервера-посредника в Cloud Connector Edition
  
@@ -55,7 +55,6 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
-
 ```
 
 Установите флажок репликация локальных, подключиться к серверов-посредников соединителя облаке, выполните следующую команду в PowerShell и убедитесь, что включено — значение True, а параметру AlwaysBypass = True
