@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Сводка: Настройка Скайп для Business Server 2015 в гибридной среде.'
-ms.openlocfilehash: e31338647338854b260c9f8935cac4dde69df490
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4798839bd001e6320870d7ca97ba99108e3b32de
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570187"
 ---
 # <a name="configure-a-hybrid-environment-in-skype-for-business-server-2015"></a>Настройка гибридной среды в Skype для бизнеса Server 2015
  
@@ -101,7 +102,7 @@ Get-MsolServicePrincipal
 
 Команда возвращает для всех субъектов-служб сведения, похожие на следующие:
   
-```
+<pre>
 ExtensionData        : System.Runtime.Serialization.ExtensionDataObject
 AccountEnabled       : True
 Addresses            : {}
@@ -110,7 +111,7 @@ DisplayName          : Skype for Business Server
 ObjectId             : aada5fbd-c0ae-442a-8c0b-36fec40602e2
 ServicePrincipalName : SkypeForBusinessServer/litwareinc.com
 TrustedForDelegation : True
-```
+</pre>
 
 На следующем шаге выполняется импорт, кодирование и назначение сертификата X.509. Импорт и кодирования сертификат, используйте следующие команды Windows PowerShell, убедитесь указать полный путь к вашей. Файл CER при вызове метода импорта:
   
@@ -137,14 +138,14 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 Эта команда возвращает следующие данные:
   
-```
+<pre>
 Type      : Asymmetric
 Value     : 
 KeyId     : bc2795f3-2387-4543-a95d-f92c85c7a1b0
 StartDate : 6/1/2012 8:00:00 AM
 EndDate   : 5/31/2013 8:00:00 AM
 Usage     : Verify
-```
+</pre>
 
 После этого вы можете удалить сертификат с помощью следующей команды:
   
@@ -158,7 +159,6 @@ Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00
   
 ```
 Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
-
 $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000
 $lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/lync.contoso.com")
 Set-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $lyncSP.ServicePrincipalNames

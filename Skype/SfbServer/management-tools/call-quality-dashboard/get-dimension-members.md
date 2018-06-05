@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Сводка: Сведения о выполняемой операции получения элементов измерения. Получение элементов измерения операции является частью API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.'
-ms.openlocfilehash: 6da1b8f6d93dc197df320f1fb5875a6269a9b45a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e15f63d5ad52c9fbc52d692fd5bbb0480a41a50a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569280"
 ---
 # <a name="get-dimension-members"></a>Получение элементов измерения
  
@@ -47,7 +48,6 @@ ms.lasthandoff: 03/28/2018
 "PageNumber": 0,
 "PageSize": 8000
 }
-
 ```
 
  **Ответа** - ответ включает код состояния HTTP и набор заголовков ответов.
@@ -82,7 +82,4 @@ ms.lasthandoff: 03/28/2018
 ["[2031-01-01T00:00:00]",
 "January 2031"]]
 }
-
 ```
-
-

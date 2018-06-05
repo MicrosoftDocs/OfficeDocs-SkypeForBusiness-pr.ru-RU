@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Сводка: Узнайте, как развертывание звонок через работу в Скайп для Business Server 2015 для некоторых или всех пользователей.'
-ms.openlocfilehash: e101cf39daedb8d94879b6cf99cd0c7b4ae00e8d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6b4dcb12458fb3421db5b500b550061c24d51bc1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568251"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server-2015"></a>Развертывание функции вызовов с рабочего телефона в Skype для бизнеса Server 2015
  
@@ -72,9 +73,7 @@ ms.lasthandoff: 05/03/2018
 - Введите следующий командлет
     
   ```
-  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber
-    <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
-
+  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     К примеру следующий командлет создается политика звонков с помощью рабочих называется ContosoUser1CvWP, пользователь может использовать один номер обратного вызова admin и задает этот номер обратного вызова 1-555-789-1234.
@@ -98,8 +97,6 @@ ms.lasthandoff: 05/03/2018
   ```
 
 ## <a name="see-also"></a>См. также
-
-#### 
 
 [Планирование позвонить с рабочего в Скайп для Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

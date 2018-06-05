@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Сводка: Узнайте, как для изменения политик архивации для Скайп для Business Server 2015 пользователя.'
-ms.openlocfilehash: f03ddc0799868e825c46fad2f93ba93d3b8a071a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569409"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Изменение существующей политики архивации в Skype для бизнеса Server 2015
  
@@ -59,21 +60,18 @@ ms.lasthandoff: 03/28/2018
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
-
 ```
 
 Чтобы включить архивацию внешних сеансов связи, присвойте параметру ArchiveExternal значение True ($True): 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
-
 ```
 
 Чтобы включить архивацию сеансов внутренней и внешней связи, задайте значение параметра свойствам ArchiveInternal и ArchiveExternal значение True: 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
-
 ```
 
 ### <a name="disable-archiving-policies"></a>Отключение политик архивации
@@ -82,5 +80,4 @@ Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
-
 ```

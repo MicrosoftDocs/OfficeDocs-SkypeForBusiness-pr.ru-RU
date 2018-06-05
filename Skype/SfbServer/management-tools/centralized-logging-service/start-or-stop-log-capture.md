@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Сводка: Узнайте, как запустить или остановить сеанс записи журналов службы централизованного ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: 3a66e9320734900c3f944b2a7abce55359a765d8
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: dee3a9cd1b5feaf241795de6595f755b3f321409
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504728"
+ms.locfileid: "19570159"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Запуск или остановка записи журналов CLS в Skype для бизнеса Server 2015
  
@@ -75,7 +75,6 @@ ms.locfileid: "19504728"
     
   ```
   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-
   ```
 
     При успешном выполнении этого сценария возвращается результат, подобный следующему:

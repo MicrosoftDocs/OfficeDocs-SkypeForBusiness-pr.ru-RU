@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Сводка: Узнайте, как для подключения Скайп для Business Server 2015 Скайп получателю. Также известной как Скайп подключение.'
-ms.openlocfilehash: 3e972b44a72c9887165a2cc6746523b7667d1e56
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4d81d2529435d250957c775d954a33a562bed1e9
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569168"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server-2015"></a>Развертывание подключений к Skype в Skype для бизнеса Server 2015
  
@@ -200,7 +201,6 @@ ms.lasthandoff: 03/28/2018
   
    ```
    New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
-
    ```
 
     Функции менее очевидных параметров

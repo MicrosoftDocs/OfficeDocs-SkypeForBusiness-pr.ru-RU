@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Устранение неполадок развертывания облака соединителя Edition.
-ms.openlocfilehash: 2e4f0d2a258e48e4c953fb8ea4175c64b585b91f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 41d2d43c5b47c3c0774cbdf6a29304d8c86132dc
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569672"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Устранение неполадок с развертыванием Cloud Connector
  
@@ -175,9 +176,8 @@ ms.lasthandoff: 05/03/2018
   Unregister-CsHybridPSTNAppliance -Force
   ```
 
-- 
     
-    **Проблема: Командлет Get-CcRunningVersion возвращает пустое значение, при наличии развернутого устройства, размещенных на нем.**
+-    **Проблема: Командлет Get-CcRunningVersion возвращает пустое значение, при наличии развернутого устройства, размещенных на нем.**
     
     **Решение**. Это может происходить при обновлении версии 1.3.4 или 1.3.8 до 1.4.1. После установки версии 1.4.1 с помощью MSI-файла необходимо выполнить `Register-CcAppliance` до запуска любого другого командлета. `Register-CcAppliance` выполнит миграцию файла module.ini из папки %UserProfile%\CloudConnector в папку %ProgramData%\CloudConnector. Если пропустить этот шаг, в папке %ProgramData%\CloudConnector будет создан новый файл module.ini, который заменит сведения о выполняющейся или резервной версии для 1.3.4 или 1.3.8.
     
@@ -208,21 +208,19 @@ ms.lasthandoff: 05/03/2018
     
     Для соединителя облачных предыдущих выпусках 2.0:
     
-  ```
-  Reset-CcCACertificate 
-Renew-CcServerCertificate 
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate 
+    Renew-CcServerCertificate 
+    Remove-CcLegacyServerCertificate 
+    ```
 
     Или для соединителя облачных версии 2.0 и более поздних версий:
     
-  ```
-  Reset-CcCACertificate 
-Update-CcServerCertificate 
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate 
+    Update-CcServerCertificate 
+    Remove-CcLegacyServerCertificate 
+    ```
 
 3. Выполните командлет Exit CcUpdate, чтобы запустить службы и и выход из режима обслуживания.
     
@@ -240,27 +238,25 @@ Remove-CcLegacyServerCertificate
     
     Для соединителя облачных предыдущих выпусках 2.0:
     
-  ```
-  Reset-CcCACertificate
-Renew-CcServerCertificate
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate
+    Renew-CcServerCertificate
+    Remove-CcLegacyServerCertificate 
+    ```
 
     Или для соединителя облачных версии 2.0 и более поздних версий:
     
-  ```
-  Reset-CcCACertificate
-Update-CcServerCertificate
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate
+    Update-CcServerCertificate
+    Remove-CcLegacyServerCertificate 
+    ```
 
   - На первом appliance запустите следующий командлет, чтобы выполнить резервное копирование файлов центра сертификации для \<SiteRoot\> папки. Более поздних версий на все другие устройства на том же сайте командлет Reset-CcCACertificate будет автоматически использовать файлов резервных копий центра сертификации и устройства будут использовать тот же сертификат корневого.
     
-  ```
-  Backup-CcCertificationAuthority
-  ```
+    ```
+    Backup-CcCertificationAuthority
+    ```
 
   - Выполните командлет CcUpdate выхода для запуска служб и выйти из режима обслуживания. 
     
@@ -274,55 +270,51 @@ Remove-CcLegacyServerCertificate
   Set-CcCredential -AccountType TenantAdmin
   ```
 
-- 
-    
-    **Проблема: После изменения пароля для учетной записи сервера узла, используется для развертывания, появляется следующее сообщение об ошибке: «ConvertTo-SecureString: недопустимый ключ для использования в указанном состоянии.» в %ProgramFiles%\Skype для Cloud Business Connector Edition\ManagementService\CceManagementService.log или во время выполнения командлета Get-CcCredential.**
+- **Проблема: После изменения пароля для учетной записи сервера узла, используется для развертывания, появляется следующее сообщение об ошибке: «ConvertTo-SecureString: недопустимый ключ для использования в указанном состоянии.» в %ProgramFiles%\Skype для Cloud Business Connector Edition\ManagementService\CceManagementService.log или во время выполнения командлета Get-CcCredential.**
     
     **Решение:** Все облака соединителя учетные данные хранятся в следующий файл: «% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml». При изменении паролей на хост-сервере, необходимо обновить локально сохраненных учетных данных.
     
     **При использовании соединителя облачных версии 1.4.2,** обновите всех паролей облачных соединителя, выполнив следующие действия:
     
-1. Перезапустите сервер узла.
+    1. Перезапустите сервер узла.
     
-2. Удалите следующий файл: «% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml».
+    2. Удалите следующий файл: «% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml».
     
-3. Запуск консоли PowerShell от имени администратора и запустите «Register CcAppliance-локальный» повторного ввода после описания службы и паролей. Введите же пароли, введенные до развертывания облака соединителя.
+    3. Запуск консоли PowerShell от имени администратора и запустите «Register CcAppliance-локальный» повторного ввода после описания службы и паролей. Введите же пароли, введенные до развертывания облака соединителя.
     
     **При использовании соединителя облачных версии 2.0 или более поздней версии,** обновите всех паролей облачных соединителя, выполнив следующие действия:
     
-1. Перезапустите сервер узла.
+    1. Перезапустите сервер узла.
     
-2. Удалите следующий файл: «% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml».
+    2. Удалите следующий файл: «% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml».
     
-3. Запуск консоли PowerShell от имени администратора и запустите «Register CcAppliance-локальный» повторного ввода после описания службы и паролей. 
+    3. Запуск консоли PowerShell от имени администратора и запустите «Register CcAppliance-локальный» повторного ввода после описания службы и паролей. 
     
     Если файл кэшированного пароля был сгенерирован с помощью Cloud Connector версии 1.4.2, при появлении запроса используйте пароль VMAdmin для пароля CceService. Для всех остальных учетных записей введите тот же пароль, который был указан ранее для развертывания Cloud Connector.
     
     Если файл кэшированного пароля был сгенерирован с помощью Cloud Connector версии 1.4.2, и пароли учетных записей DomainAdmin и VMAdmin отличаются друг от друга, необходимо выполнить следующие действия.
     
-1. Запустите командлет Set-CcCredential -AccountType DomainAdmin, следуя инструкциям ниже.
+    1. Запустите командлет Set-CcCredential -AccountType DomainAdmin, следуя инструкциям ниже.
     
-1. При запросе учетных данных старой учетной записи введите учетные данные, которые использовались с паролем для учетной записи CceService.
+    2. При запросе учетных данных старой учетной записи введите учетные данные, которые использовались с паролем для учетной записи CceService.
     
-2. При запросе учетных данных новой учетной записи введите пароль для DomainAdmin, использованный ранее.
+    3. При запросе учетных данных новой учетной записи введите пароль для DomainAdmin, использованный ранее.
     
     Если файл кэширования пароль был создан с облачных соединителя версии 2.0 и более поздних версий, по умолчанию, VmAdmin и страница используют тот же пароль как CceService. При изменении паролей страница и VMAdmin, необходимо выполнить следующие действия:
     
-1. Запустите командлет Set-CcCredential -AccountType DomainAdmin, следуя инструкциям ниже.
+    1. Запустите командлет Set-CcCredential -AccountType DomainAdmin, следуя инструкциям ниже.
     
-1. При запросе учетных данных старой учетной записи введите учетные данные, которые использовались с паролем для CceService.
+        1. При запросе учетных данных старой учетной записи введите учетные данные, которые использовались с паролем для CceService.
     
-2. При запросе учетных данных новой учетной записи введите пароль для DomainAdmin, использованный ранее.
+        2. При запросе учетных данных новой учетной записи введите пароль для DomainAdmin, использованный ранее.
     
-2. Запустите командлет Set-CcCredential -AccountType VmAdmin, следуя инструкциям ниже.
+    2. Запустите командлет Set-CcCredential -AccountType VmAdmin, следуя инструкциям ниже.
     
-1. При запросе учетных данных старой учетной записи введите учетные данные, которые использовались с паролем для CceService.
+        1. При запросе учетных данных старой учетной записи введите учетные данные, которые использовались с паролем для CceService.
     
-2. При запросе учетных данных новой учетной записи введите пароль для VmAdmin, использованный ранее.  
+        2. При запросе учетных данных новой учетной записи введите пароль для VmAdmin, использованный ранее.  
     
-- 
-    
-    **Проблема: С соединителем облачных версии 2.1 и более поздних версий, при запуске Register CcAppliance или других командлетов на устройстве, вы получаете сообщение об ошибке таких как: «для каждого объекта: свойство «Общий» не удается найти на этот объект. Убедитесь, что свойство существует. В C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 символов: 14»**
+- **Проблема: С соединителем облачных версии 2.1 и более поздних версий, при запуске Register CcAppliance или других командлетов на устройстве, вы получаете сообщение об ошибке таких как: «для каждого объекта: свойство «Общий» не удается найти на этот объект. Убедитесь, что свойство существует. В C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 символов: 14»**
     
     **Решение:** Облако 2.1 соединителя и более поздних версий требуется .NET Framework 4.6.1 или более поздней версии. Обновите на устройстве до версии 4.6.1 .NET Framework или более поздней версии и снова запустите cmdlet(s).
     
@@ -346,9 +338,7 @@ Remove-CcLegacyServerCertificate
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
-- 
-    
-    **Проблема. Требуется вручную проверять и устанавливать обновления Windows на сервере узла или виртуальных машинах.**
+-  **Проблема. Требуется вручную проверять и устанавливать обновления Windows на сервере узла или виртуальных машинах.**
     
     **Решение**. Рекомендуется использовать преимущества функции автоматического применения обновлений ОС в составе Skype для бизнеса Cloud Connector Edition. После регистрации устройства для управления через Интернет и включения автоматического обновления ОС сервер узла и виртуальные машины будут проверять и устанавливать обновления Windows автоматически согласно параметрам периода обновления ОС.
     
@@ -358,15 +348,13 @@ Remove-CcLegacyServerCertificate
     
     Дополнительные сведения об обновлении развертывания Cloud Connector вручную см. в следующем разделе.
     
-- 
-    
-    **Проблема: При соединителя облачных обновлений на новое построение и командлеты соединителей облако не обновляются.** В некоторых случаях это происходит, если окно PowerShell будет открыта в случае автоматического обновления.
+-   **Проблема: При соединителя облачных обновлений на новое построение и командлеты соединителей облако не обновляются.** В некоторых случаях это происходит, если окно PowerShell будет открыта в случае автоматического обновления.
     
     **Решение:** Чтобы загрузить обновленные командлеты, можно выполнить одно из следующих действий:
     
-  - Закройте PowerShell на устройстве облачных соединителя и снова запустите PowerShell.
+     - Закройте PowerShell на устройстве облачных соединителя и снова запустите PowerShell.
     
-  - Или можно запустить CloudConnector Import-Module-Force. 
+     - Или можно запустить CloudConnector Import-Module-Force. 
     
 ## <a name="install-windows-updates-manually"></a>Установка обновления Windows вручную
 
@@ -415,5 +403,3 @@ Remove-CcLegacyServerCertificate
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
 - Процесс Microsoft.Rtc.CCE.ManagementService.exe.
-    
-

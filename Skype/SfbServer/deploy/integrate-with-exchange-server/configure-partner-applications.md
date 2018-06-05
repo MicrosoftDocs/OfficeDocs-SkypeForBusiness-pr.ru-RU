@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 'Сводка: Настройка межсерверной проверки подлинности Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server 2015.'
-ms.openlocfilehash: d7b3d93126c5b2db06e5f7343f5636b3c305d7c8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c53a11931140c6f540e3f139f9164c484b3ffa52
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568959"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-2015-and-exchange-server"></a>Настройка партнерских приложений в Скайп для Business Server 2015 и Exchange Server
  
@@ -79,5 +80,3 @@ Test-CsExStorageConnectivity -SipUri "sip:kenmyer@litwareinc.com"
 > При получении ответа 401 из этого командлета это возможно, так как конфигурация по умолчанию для Exchange не поддерживает за принятие маркеры Oauth. Дополнительные сведения об использовании Oauth в Exchange [OAuth настройки проверки подлинности с помощью SharePoint 2013 и Скайп для Business Server 2015](https://go.microsoft.com/fwlink/p/?LinkId=513103)см. 
   
 Если проверка завершилась успешно и соединение было установлено, можно перейти к настройке дополнительных компонентов, таких как интеграция службы архивации и единое хранилище контактов.
-  
-

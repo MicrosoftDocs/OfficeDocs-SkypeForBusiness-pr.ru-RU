@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Сводка: Узнайте, как вручную удалить записи из базы данных качества взаимодействия, используемых Скайп для Business Server 2015 и регистрации Вызовов.'
-ms.openlocfilehash: 805bf72b3d4846bb00d3c3772b033242976cd7c3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1451187112e636e58fbcd32061ce1e8bec1b7b9a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568534"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server-2015"></a>Удаление баз данных сведений о вызовах и качества взаимодействия вручную в Skype для бизнеса Server 2015
  
@@ -32,7 +33,7 @@ ms.lasthandoff: 03/28/2018
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
-В предыдущей команде оба вызова записи регистрации и диагностические данные записи старше 10 дней, удаляются из базы данных мониторинга atl-sql-001.litwareinc.com. (Записи регистрации вызовов, отчеты и сеанса пользователя. Записи диагностические данные, загруженные клиентскими приложениями, например Скайп для Business Server 2015 журналов диагностики.)
+В предыдущей команде записи сведений о вызовах и записи диагностических данных старше 10 дней удаляются из базы данных мониторинга на atl-sql-001.litwareinc.com. (Записи регистрации вызовов представляют собой отчеты о пользователях/сеансах. Записи диагностические данные, загруженные клиентскими приложениями, например Скайп для Business Server 2015 журналов диагностики.)
   
 Как показано выше, при запуске командлета Invoke-CsCdrDatabasePurge вам следует включить как параметр urgeCallDetaiDataOlderThanDays, так и параметр PurgeDiagnosticDataOlderThanDays. Однако для этих параметров необязательно нужно устанавливать одинаковые значения. Например, можно очистить записи сведений о вызовах старше 10 дней, оставив все записи диагностических данных в базе данных. Чтобы сделать это, равным параметру PurgeCallDetailDataOlderThanDays 10 и PurgeDiagnosticDataOlderThanDays 0. Например:
   
@@ -42,12 +43,12 @@ Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwa
 
 По умолчанию при запуске Invoke-CsCdrDatabasePurge для каждой из очищаемых баз данных отображается приглашение, аналогичное данному:
   
-```
+<pre>
 Confirm
 Are you sure you want to perform this action?
 Performing operation "Stored procedure: RtcCleanupDiag" on Target "Target SQL Server:atl-sql-001.litwareinc.com\archinst Database: lcscdr".
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All [S] Suspend  [?] Help (default is "Y"):
-```
+</pre>
 
 Для выполнения очистки базы данных вам следует ввести Y («Да») или A («Да для всех»). Если вы не хотите отображать эти запросы подтверждения, добавьте в конец вызова Invoke-CsCdrDatabasePurge следующий параметр:
   

@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: 'Сводка: Сведения о операцию получить пользовательский параметр, который является частью службы параметров пользователя. Служба параметров пользователя входит в API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.'
-ms.openlocfilehash: 562886196f06030aef30efbd6f583c29d7f29e59
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e3646b1c6d5a7f959ee76565bb7b92ac84cbe8a4
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569252"
 ---
 # <a name="get-user-setting"></a>Получить параметры пользователя
  
@@ -52,7 +53,6 @@ ms.lasthandoff: 03/28/2018
 "key": "ShowDescriptions",
 "value": "true"
 }
-
 ```
 
  *идентификатор пользователя* — идентификатор пользователя.

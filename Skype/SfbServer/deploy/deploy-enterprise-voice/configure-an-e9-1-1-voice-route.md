@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Настройка маршрутов голосовой связи E9-1-1 в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: c31ac7c264fb931c127375eca5a383d10998c3f1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b61b77fce36e0415d9c6f1189d8ecf2a5659d2f9
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568230"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server-2015"></a>Настройка голосового маршрута для E9-1-1 в Skype для бизнеса Server 2015
  
@@ -49,7 +50,6 @@ ms.lasthandoff: 05/03/2018
     
    ```
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
-
    ```
 
 5. Кроме того для подключения к магистрали SIP, рекомендуется запускать следующий командлет, чтобы создать локальный маршрут для вызовов, которые не были обработаны с SIP-магистраль поставщика услуг E9-1-1. Этот маршрут будет использоваться, если подключение к поставщику службы E9-1-1 недоступно. 

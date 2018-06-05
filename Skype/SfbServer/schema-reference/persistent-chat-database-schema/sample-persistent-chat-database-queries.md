@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: В этом разделе содержатся примеры запросов для базы данных Persistent Chat.
-ms.openlocfilehash: 1e2d457a31061dcfb3c332a067069cbd4a8a9ebd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 805257fce0a0f892995636133ce6f07f9bd16d3a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570215"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Примеры запросов к базе данных сохраняемого чата
  
@@ -28,7 +29,6 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   WHERE channelId = nodeID AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
   GROUP BY nodeName
   ORDER BY ChatMessages DESC
-
 ```
 
 Используйте следующий пример, чтобы получить список наиболее активных пользователей после определенной даты.
@@ -39,7 +39,6 @@ SELECT prinName as Name, count(*) as ChatMessages
   WHERE prinID = userId AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
   GROUP BY prinName
   ORDER BY ChatMessages DESC
-
 ```
 
 Используйте следующий пример, чтобы получить список всех, кто когда-либо отправлял сообщение «Hello World» в нем.
@@ -77,5 +76,3 @@ SELECT prinName
   where inv.prinID = 5 AND inv.prinID = p.prinID and inv.nodeID = n.nodeID
   ORDER BY invID DESC
 ```
-
-

@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Настройка OAuth проверки подлинности между Exchange при локальном и Скайп для бизнеса в Интернет позволяет Скайп для бизнеса и интеграция с Exchange, описанными в поддержка функции.
-ms.openlocfilehash: adb811a8934fdc6ea574dc934efa57ee28e6fba6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ff7b45f3fcdbaaf752817d1705acb047a4c71f12
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568903"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>Настройка подключения по протоколу OAuth между Skype для бизнеса Online и локальной системой Exchange
  
@@ -71,7 +72,6 @@ Set-MailUser -Identity $user.Identity -HiddenFromAddressListsEnabled $True -Doma
   
 ```
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN> 
-
 ```
 
 ```
@@ -142,7 +142,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymm
 > [!NOTE]
 > Для успешного выполнения следующего сценария требуется подключить Windows PowerShell для Azure Active Directory к клиенту Microsoft Online Azure AD, как описано на шаге 4 предыдущего раздела. 
   
-1. Сохраните следующий тест в файл сценария PowerShell, который можно назвать RegisterEndpoints.ps1. В этом примере используется подстановочный знак для регистрации всех конечных точек для contoso.com. Замените contoso.com сертификации имя узла для своей локальной организации Exchange
+1. Сохраните следующий тест в файл сценария PowerShell, который можно назвать RegisterEndpoints.ps1. В этом примере используется подстановочный знак для регистрации всех конечных точек contoso.com. Замените contoso.com сертификации имя узла для своей локальной организации Exchange
     
   ```
   $externalAuthority="*.<your Verified Domain>" 

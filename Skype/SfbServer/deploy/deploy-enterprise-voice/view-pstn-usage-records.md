@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Сводка: Узнайте, как для просмотра записей использования ТСОП Скайп для или с помощью панели управления сервера Business Скайп для консоли Business Server.'
-ms.openlocfilehash: e4e58326fade20a48b032cf6cdc575894152fac0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 3d7682be31bdd8afc3a4700943789f555d3a3944
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568223"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business-2015"></a>Просмотр записей использования ТСОП в Skype для бизнеса 2015
  
@@ -47,14 +48,11 @@ ms.lasthandoff: 05/03/2018
 
     Этой командой возвращается информация, аналогичная следующим сведениям:
     
-  ```
+<pre>
   Identity : Global
   Usage    : {Internal, Local, Long Distance}
-  ```
+</pre>
 
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Создание или изменение политики голосовой связи и Настройка записей использования ТСОП в Скайп для бизнеса 2015](voice-policy-and-pstn-usage-records.md)
-

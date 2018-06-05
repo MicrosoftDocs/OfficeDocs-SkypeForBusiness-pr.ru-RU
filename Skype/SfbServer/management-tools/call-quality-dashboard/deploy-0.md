@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Сводка: Сведения о процессе развертывания для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.'
-ms.openlocfilehash: 8a15d8da91235b4927bfaf35eadad625db42f45c
-ms.sourcegitcommit: 0a0fd436d4d732710bb65e1809ac28dd2e0df41a
+ms.openlocfilehash: 0d096ba8c2303ca952100a8142b356944b775dcc
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2018
-ms.locfileid: "19526384"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569189"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Развертывание панели мониторинга качества звонков для Скайп для Business Server 2015
  
@@ -268,8 +268,7 @@ INSERT INTO
 [BuildingTypeDesc])
 VALUES
 (1, 
-'Headquarters') 
-  
+'Headquarters')   
 ```
 
 Параметры BuildingTypeId и BuildingTypeDesc являются обязательными.
