@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Сводка: Рассматриваются вопросы об использовании порта перед реализацией Скайп для Business Server 2015.'
-ms.openlocfilehash: 576b0247631e4f01909acb717e12efbb954d5cb0
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 9f47cf2f04db02765f9693b1128fe1f9440b59e6
+ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546594"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19630156"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Порты и протоколы требования для серверов
  
@@ -30,6 +30,9 @@ ms.locfileid: "19546594"
 Хотя это может показаться несколькими бит в первую очередь, сложных задач для планирования, это можно сделать с помощью [Скайп для средство планирования 2015 Business Server](https://go.microsoft.com/fwlink/p/?LinkID=282725). После проведения на вопросы мастера сведения о средствах, которые вы планируете использовать, для каждого сайта, определенные вами можно просмотреть отчет брандмауэра в отчет для администратора пограничного сервера и воспользуйтесь сведениями, приведенными в списке существует для создания правил yourfirewall. Можно также корректировать многие имена и IP-адреса, используемые для получения дополнительных сведений см. [Просмотр отчета брандмауэра](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Не помните можно экспортировать отчет для администратора пограничного сервера в электронную таблицу Microsoft Excel, и отчет о брандмауэре будет одного из листов в файле. 
   
 Также можно найти сведения в приведенных ниже таблицах в форме диаграммы, описанные в разделе связанные из статьи [Technical diagrams для Скайп для Business Server 2015](../../technical-diagrams.md) плаката с описанием нагрузок протокола.
+> [!NOTE]
+> - Скайп Business Online пользователям следует обращаться к [Office 365 URL-адреса и диапазоны IP-адресов](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). 
+> - Вы может иметь брандмауэры оборудования или программного обеспечения, мы не требуется конкретных моделей или версии. Главное —, какие порты являются whitelisted, так что брандмауэр не будет нарушать функционирования Скайп Business Server.
   
 ## <a name="port-and-protocol-details"></a>Сведения о портах и протоколах
 
