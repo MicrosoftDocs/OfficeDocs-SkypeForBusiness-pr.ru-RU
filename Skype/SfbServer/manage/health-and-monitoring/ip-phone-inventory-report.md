@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 'Сводка: Сведения о IP-телефонам в Скайп для Business Server 2015.'
-ms.openlocfilehash: a161fae573a10f8da875736387284f0771a363e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fd68e94f9d4c30aafb86302d8211b52909f737db
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569556"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server-2015"></a>Отчет по инвентарю IP-телефонов в Skype для бизнеса Server 2015
  
@@ -46,7 +47,7 @@ $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Na
 
 Эти команды возвращают сведения, схожие со следующими:
   
-```
+<pre>
 Count    Name
 -----    ----
   267    POLYCOM, CX700
@@ -60,8 +61,7 @@ Count    Name
    11    Microsoft, CPE_A
     9    POLYCOM, CX500
     7    Aastra, 6721ip
-
-```
+</pre>
 
 Следующие команды возвращают сведения о телефонах, которые выполнили вход в систему, но никогда не использовались для звонков (на это указывает отсутствие значения показателя Last activity (Последнее действие)):
   
@@ -72,7 +72,7 @@ $phones | Where-Object {$_."Last activity" -eq ""}
 
 Команды возвращают данные, схожие со следующими:
   
-```
+<pre>
 Manufacturer     : POLYCOM
 Hardware version : CX600
 MAC address      : 00-04-F2-00-01-76
@@ -81,7 +81,7 @@ User agent       : CPE/4.0.7423.1 OCPhone/4.0.7423.1 (Microsoft Lync 2010 (Beta)
 Last logon time  : 8/30/2010 4:44:48 PM
 Last logoff time : 8/30/2010 5:59:07 PM
 Last activity    :
-```
+</pre>
 
 Другой интересный способ использования отчета по IP-телефонам: если у IP-телефона есть MAC-адрес, то для получения сведений о пользователе, который использовал этот телефон последним, введите требуемый MAC-адрес в соответствующее поле. Отчет по IP-телефонам вернет SIP-адрес последнего пользователя, выполнившего вход в систему. В качестве альтернативного варианта для поиска всех телефонов, используемых этим пользователем, введите SIP-адрес пользователя (в поле User URI (URI пользователя)).
   

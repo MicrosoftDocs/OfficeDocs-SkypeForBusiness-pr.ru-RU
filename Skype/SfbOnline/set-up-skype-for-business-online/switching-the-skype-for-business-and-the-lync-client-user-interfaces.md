@@ -17,11 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 9edbc3642a0b8459cc658d32d135eb21e0b3edf8
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 27d6d29f3a3e8528e0d9c5076249ff821a5c666d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568376"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Переключение между пользовательскими интерфейсами клиентов Skype для бизнеса и Lync
 
@@ -128,37 +129,37 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 |**Параметр политики администратора**|**Пользовательский интерфейс**|
 |:-----|:-----|
 |Политика не установлена. |Пользователь продолжает работать в пользовательском интерфейсе клиента Skype для бизнеса.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```<br/>|Пользователь продолжает работать в пользовательском интерфейсе клиента Skype для бизнеса.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```<br/>|Пользователю будет предложено переключиться на пользовательский интерфейс клиента Skype для бизнеса (Lync). Пользователь может переключиться позже.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>```|Пользователь будет работать в пользовательском интерфейсе клиента Skype для бизнеса. |
-```Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>```|Пользователь будет предложено переключитесь в Скайп для пользовательского интерфейса клиента Business (Lync). В дальнейшем администратор может изменить этот параметр и переключить пользователя на пользовательский интерфейс клиента Skype для бизнеса. |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|Пользователь продолжает работать в пользовательском интерфейсе клиента Skype для бизнеса.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|Пользователю будет предложено переключиться на пользовательский интерфейс клиента Skype для бизнеса (Lync). Пользователь может переключиться позже.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|Пользователь будет работать в пользовательском интерфейсе клиента Skype для бизнеса. |
+`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|Пользователь будет предложено переключитесь в Скайп для пользовательского интерфейса клиента Business (Lync). В дальнейшем администратор может изменить этот параметр и переключить пользователя на пользовательский интерфейс клиента Skype для бизнеса. |
    
 Эта таблица содержит информацию о взаимодействии с пользователем при изменении политики.
   
 |**Параметр политики администратора**|**Пользовательский интерфейс Skype для бизнеса (Lync)**|**Пользовательский интерфейс Skype для бизнеса**|
 |:-----|:-----|:-----|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```|Пользователю будет предложено переключиться на пользовательский интерфейс клиента Skype для бизнеса.  <br/> |Пользователь продолжает работать в пользовательском интерфейсе клиента Skype для бизнеса.  <br/> |
-|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```|Пользователь будет использовать Скайп для интерфейса Business (Lync).  <br/> |Пользователь будет предложено переключитесь в Скайп для пользовательского интерфейса клиента Business (Lync).  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|Пользователю будет предложено переключиться на пользовательский интерфейс клиента Skype для бизнеса.  <br/> |Пользователь продолжает работать в пользовательском интерфейсе клиента Skype для бизнеса.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|Пользователь будет использовать Скайп для интерфейса Business (Lync).  <br/> |Пользователь будет предложено переключитесь в Скайп для пользовательского интерфейса клиента Business (Lync).  <br/> |
 |Политика не установлена.  <br/> |Никогда не видят пользователи Скайп для пользовательского интерфейса клиента Business (Lync) Если политика не установлена. Пользователь будет работать только в пользовательском интерфейсе клиента Skype для бизнеса.  <br/> |Пользователь продолжает работать в пользовательском интерфейсе клиента Skype для бизнеса.  <br/> |
    
 В этой таблице приводятся все настраиваемые политики, доступные для Online. Эти новые политики были созданы для того, чтобы предоставить администраторам гибкость и сохранить прежнюю настраиваемую политику при переключении флагов EnableSkypeUI. Чтобы назначить пользователям одну из приведенных ниже политик, используйте указанные выше командлеты.
   
 |**Название политики**|**EnableSkypeUI**|
 |:-----|:-----|
-```ClientPolicyDefaultPhoto```||
-```ClientPolicyDefaultPhotoDisableSkypeUI``` |False|
-```ClientPolicyNoIMURL```||
-```ClientPolicyNoIMURLDisableSkypeUI``` |False|
-```ClientPolicyNoIMURLPhoto```||
-```ClientPolicyNoIMURLPhotoDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingI```||
-```ClientPolicyNoSaveIMNoArchivingDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingNoIMURL```||
-```ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto``` ||
-```ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI```|False|
-```ClientPolicyNoSaveIMNoArchivingPhoto```||
-```ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI``` |False|
+`ClientPolicyDefaultPhoto`||
+`ClientPolicyDefaultPhotoDisableSkypeUI` |False|
+`ClientPolicyNoIMURL`||
+`ClientPolicyNoIMURLDisableSkypeUI` |False|
+`ClientPolicyNoIMURLPhoto`||
+`ClientPolicyNoIMURLPhotoDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingI`||
+`ClientPolicyNoSaveIMNoArchivingDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingNoIMURL`||
+`ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto` ||
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI`|False|
+`ClientPolicyNoSaveIMNoArchivingPhoto`||
+`ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |False|
 
    
 Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
@@ -203,9 +204,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 Строка должна выглядеть следующим образом:
   
-```
-"IsBasicTutorialSeenByUser"=dword:00000001
-```
+`"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>Отключение руководства в клиенте
 

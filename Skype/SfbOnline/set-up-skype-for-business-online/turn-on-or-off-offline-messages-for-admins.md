@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 99238998f5bb5396f0c2c97226ac9dc37180fe01
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 84455ad8efceda6af8f7f077ff9968485debed06
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568400"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Включение и отключение отправки сообщений в автономном режиме для администраторов
 
@@ -66,20 +67,8 @@ ms.lasthandoff: 04/18/2018
 > 
   ```
   Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  ```
-
-> 
-  ```
   $credential = Get-Credential
-  ```
-
-> 
-  ```
   $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
   Import-PSSession $session
   ```
 
@@ -90,7 +79,7 @@ ms.lasthandoff: 04/18/2018
 > [!NOTE]
 > Мгновенные сообщения в автономном режиме доступны **только** в последней версии клиента Skype для бизнеса с установкой "нажми и работай" и недоступны в более ранних версиях этого клиента, а также если для установки клиента Skype для бизнеса использовался MSI-файл.
   
-Для включения или отключения автономный режим сообщения отправки автономный режим сообщений для пользователей в вашей организации, задайте для _EnableIMAutoArchiving_ `True` или `False`. По умолчанию это значение `True`.
+Чтобы включить или отключить отправку автономных сообщений для пользователей в организации, задайте для  _EnableIMAutoArchiving_ значение `True` или `False`. По умолчанию это значение `True`.
   
 Чтобы отключить эту функцию, воспользуйтесь командлетом **Set-CsClientPolicy** и выполните следующую команду:
   
@@ -100,24 +89,16 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 
 Чтобы включить или отключить отправку автономных сообщений для пользователя, задайте для  _EnableIMAutoArchiving_ значение `True` или `False`. По умолчанию задано значение  `True`. Можно использовать существующую политику или создайте его как в приведенном ниже примере.
   
-> 
+ 
   ```
   New-CsClientPolicy -Identity OfflineIM
-  ```
-
-> 
-  ```
   Set-CsClientPolicy -Identity OfflineIM -EnableIMAutoArchiving $False
-  ```
-
-> 
-  ```
   Grant -CsClientPolicy -Identity "Tony Smith" - PolicyName OfflineIM
   ```
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-- Windows PowerShell, дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

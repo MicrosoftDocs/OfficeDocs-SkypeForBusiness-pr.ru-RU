@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Сводка: Узнайте, как создавать, изменять и удалять сценариев для централизованной службы ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: e8b9575ed949e1769e867113be301deede981018
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d9280c8b72498e9c280ec89dfb1220a24fc154c9
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569929"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Настройка сценариев для централизованной службы ведения журналов в Skype для бизнеса Server 2015
  
@@ -222,5 +223,3 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   ```
   Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
   ```
-
-
