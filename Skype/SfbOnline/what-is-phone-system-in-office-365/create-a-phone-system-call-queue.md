@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: c3ac8c47d0936ecede1532bd9356d0db0807142a
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 18988c7d6f913b85d11bc465c336dfd265fa34a0
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501095"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649585"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Создание очереди вызовов с телефонной системой
 
@@ -155,7 +155,7 @@ Before you can create and set up your call queues, you will need to get or trans
 ***
 ![Номер 1](../images/sfbcallout1.png)<br/><br/>Агенты вызова (50 максимальное) может быть:
 *    Активных пользователей с **Телефонной системой** лицензии и включен для корпоративной голосовой связи или с помощью вызова планирование. <br/><br/> **Примечание:**  Для перенаправление звонков на людей в организации, сети, они должны иметь лицензию **Телефонной системой** и включен для корпоративной голосовой связи или иметь вызов планирование. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Чтобы включить их для корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
-*    Активные пользователи с с **Телефонной системой** лицензии и вызов план, добавляются в группу Office 365, список рассылки с включенной поддержкой почты или группы безопасности. Он может занять более 30 минут агент добавлен в список рассылки или группу безопасности, чтобы начать принимать звонки из очереди вызовов. Только что созданный распространения списка или группу безопасности может потребоваться до 48 часов станет доступным для использования с очередями вызовов. Вновь созданные группы Office 365 доступны немедленно. <br/> 
+*    Активные пользователи с **Телефонной системой** лицензии и вызов планирования, которые добавляются в группу Office 365, список рассылки с включенной поддержкой почты или группы безопасности. Он может занять более 30 минут агент добавлен в список рассылки или группу безопасности, чтобы начать принимать звонки из очереди вызовов. Только что созданный распространения списка или группу безопасности может потребоваться до 48 часов станет доступным для использования с очередями вызовов. Вновь созданные группы Office 365 доступны немедленно. <br/> 
 
     > [!NOTE] 
     > Пользователи размещенных в локальной Lync Server 2010 не поддерживается.           

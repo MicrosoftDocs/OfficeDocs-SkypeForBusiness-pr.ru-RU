@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Exchange Online.
-ms.openlocfilehash: 210f01f4d016ee0d3855edc79f20e2adceaa4f18
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: f97b4a140a220440c18c5a3094af01299da9dddf
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568879"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649614"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Развертывание Систем комнат Skype версии 2 в среде Exchange Online (гибридное)
  
@@ -40,7 +40,7 @@ ms.locfileid: "19568879"
 Set-ExecutionPolicy Unrestricted
 $org='contoso.microsoft.com'
 $cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/ps1-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
 ```
 
 2. После установки сеанса будет либо создать новый почтовый ящик и включение как RoomMailboxAccount или изменение параметров для существующего почтового ящика помещения. Это позволит учетной записи для проверки подлинности в системах комнаты Скайп версии 2.

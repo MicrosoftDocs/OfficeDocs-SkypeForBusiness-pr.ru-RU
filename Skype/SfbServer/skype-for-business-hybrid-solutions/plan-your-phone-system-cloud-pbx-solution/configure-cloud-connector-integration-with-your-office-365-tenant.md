@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Сведения о настройке интеграции Cloud Connector с клиентом Office 365.
-ms.openlocfilehash: 62caf2cd70b16f0a8e85a38b381478d49e4ee37c
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649645"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Настройка интеграции Cloud Connector с клиентом Office 365
  
@@ -165,7 +166,7 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     
     Используйте домен SIP по умолчанию соединителя облака (первого домена SIP в INI-файл) в качестве пользователя домена.
     
-    Не назначайте созданной учетной записи лицензии Office 365 (например, E5). Сначала дождитесь, пока завершится синхронизация с Office 365 Active Directory.
+    Назначение лицензии Office 365 (например, E5) с учетной записью, вы создаете.
     
 2. Клиент удаленного сеанса PowerShell с помощью вашего клиента учетные данные администратора и выполните следующий командлет, чтобы задать сервер-посредник и полное доменное имя пограничного сервера для этого пользователя учетной записи, замена \<DisplayName\> с отображаемым именем пользователя Учетная запись, которую вы создали:
     

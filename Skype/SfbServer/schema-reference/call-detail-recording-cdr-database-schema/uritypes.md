@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
 description: Таблица UriTypes содержит различные типы URI (универсальный код ресурса), отслеживаемые в Скайп для Business Server 2015.
-ms.openlocfilehash: e21fe7d88c64acf57ad8d318a755b7fa6c73c1c2
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: d1a796367ae068dcd814b13b1b0ec6ce9ae453f1
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570060"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649607"
 ---
 # <a name="uritypes-table"></a>Таблица UriTypes
  
 Таблица UriTypes содержит различные типы URI (универсальный код ресурса), отслеживаемые в Скайп для Business Server 2015.
 
-При создании базы данных регистрации Вызовов, создаются две записи для представления PhoneUri и UserUri, а другим пользователям 
+При создании базы данных регистрации Вызовов, создаются две записи для представления PhoneUri и UserUri и записей, создаваемых после динамически назначены UriTypeId. 
   
 |**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
