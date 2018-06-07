@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Сводка: ИТ-специалистов следует Обзор требований к поддержка Скайп для бизнеса веб-приложения и приложения собраний Скайп при планировании для Скайп Business Server 2015. В этой статье не предназначен для пользователей из этих приложений.'
-ms.openlocfilehash: 832cc68dfb645132c95baaefb9c9af5d9e996a2a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 88006a758909f56f21724706bf9670077d603caa
+ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569884"
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19691204"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Планирование для клиентов собрания (веб-приложения и приложения собрания)
  
@@ -165,8 +165,6 @@ ms.locfileid: "19569884"
   
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="BKMK_Conferencing"> </a>
-
-[Требования к сети минимальные Скайп собраний приложения](minimum-network-requirements.md)
 
 [Развертывание веб-загрузки клиентов в Скайп для Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
