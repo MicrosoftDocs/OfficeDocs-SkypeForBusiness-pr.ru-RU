@@ -22,11 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Узнайте, как для настройки конференц-связи или аудио для пользователей в вашей организации, которым необходимо присоединиться к конференции с помощью телефона. '
-ms.openlocfilehash: d91a3637a0f7d35d319368017e0f9c6611faf2a7
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: 52872b9995d5973ee872e3105c870ccf7bb07abc
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703487"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams
 
@@ -35,6 +36,9 @@ ms.lasthandoff: 05/09/2018
 Необходимо настроить звук конференц-связи для пользователей, которые планируется расписание или привести собрания. Участники собрания присоединяются к не требуется никаких лицензий на их или другие программы установки.
   
 Часто задаваемые вопросы о конференц-связи звук в разделе [распространенные вопросы аудио конференц-связи](audio-conferencing-common-questions.md).
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="step-1-find-out-if-audio-conferencing-is-available-in-your-countryregion"></a>Шаг 1: Узнайте, доступен ли звук конференц-связи в вашей стране или регионе
 <a name="__top"> </a>

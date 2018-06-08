@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: eb827cff5bdfbc86bf85aab63a8f29165a91f034
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 3a02ae779b55aa9ca4f340d5a88d6e5fb9c5f750
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703417"
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>Сброс идентификатора конференции для пользователя
 
@@ -33,7 +34,10 @@ ms.lasthandoff: 05/08/2018
 > [!NOTE]
 > Если ваш поставщик конференц-связи Microsoft, идентификаторы пользователей конференции устанавливаются динамических только по умолчанию. К сожалению, существует возможность изменения в Скайп для бизнеса центра администрирования или с помощью Windows Powershell стать статическими, как это сейчас не поддерживается.
 Идентификаторы конференции только автоматически устанавливаются только для Скайп бизнеса и группами Майкрософт пользователям, включенным для аудиоконференции. 
-  
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="resetting-the-conference-id-for-a-user"></a>Сброс идентификатор конференции для пользователя
 
 ![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**

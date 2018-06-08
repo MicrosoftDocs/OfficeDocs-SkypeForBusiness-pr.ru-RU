@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 66cf9e662231a9afefe605649e8bae0d4652713b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 31d81b1a61838d4fcb8151ef467b14a9c1240c4b
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703387"
 ---
 # <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>Исходящие звонки, позволяющие другим людям присоединиться к собранию
 
@@ -33,6 +34,9 @@ ms.lasthandoff: 05/03/2018
 - Вы можете подключение по телефонной линии только в том случае, если вам присоединиться к собранию с помощью Скайп для бизнеса или группами Майкрософт приложения.
     
 - Вы организатор собрания был разрешен доступ к конференции.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
  **Шаг 1:** На собрании пригласить, используйте параметр **Пригласить более людей** для исходящих звонков на номер телефона.
   

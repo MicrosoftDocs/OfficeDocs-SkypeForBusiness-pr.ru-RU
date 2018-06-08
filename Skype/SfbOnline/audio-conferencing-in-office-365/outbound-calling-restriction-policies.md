@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Администраторы могут управлять тип звукового конференц-связи и конечного пользователя вызовы в ТСОП, которые могут создаваться пользователями.
-ms.openlocfilehash: 2929198a8bfff866f0d9f6d375593cd429885b2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0533a15d6c60720f37c859f110b30af617d95774
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703427"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Исходящих вызовов политики ограниченного использования программ для вызовов ТСОП аудиоконференции и пользователей
 
@@ -36,6 +37,8 @@ ms.lasthandoff: 05/03/2018
    > [!NOTE]
    > Вызов определяется как внутренних, если номера телефонов в стране, в качестве страны, который был установлен в Office 365 для организатора собрания (в случае аудиоконференций) или конечного пользователя (в случае вызовы в ТСОП конечного пользователя). 
 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Ограничить исходящие вызовы аудиоконференций 
 

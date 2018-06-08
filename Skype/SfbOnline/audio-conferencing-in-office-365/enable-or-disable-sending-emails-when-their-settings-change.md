@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: a588c5b425fe3d71ecd6d73193348b98e8e2f298
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9656dc25347661626397e4f95daee7bd5f460a6d
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703447"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>Включение и отключение отправки сообщения электронной почты при изменении параметров аудиоконференций
 
@@ -52,6 +53,9 @@ ms.lasthandoff: 05/03/2018
     
   - При изменении поставщика аудиоконференций пользователя в корпорацию Майкрософт.
     
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Включение или отключение сообщением электронной почты, отправляемые пользователями
 
 Группами Майкрософт, Скайп по центру администрирования Business или Windows PowerShell можно использовать для включения или отключения электронной почты для пользователей.

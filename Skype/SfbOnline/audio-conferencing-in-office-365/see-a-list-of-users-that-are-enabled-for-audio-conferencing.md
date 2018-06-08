@@ -20,15 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как просмотреть список пользователей в вашей организации, которые включены для телефонных конференций из внутри Скайп по центру администрирования бизнеса. '
-ms.openlocfilehash: 28fb899586c6a0904126249b769e6fb0004878ca
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d7a5c272968def249df22af25fd36d257f8c74a0
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703467"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Просмотреть список пользователей, для которых включено для аудиоконференции
 
 После включения Скайп для бизнеса или группами Майкрософт пользователей в вашей организации для аудиоконференции, можно просмотреть список тех пользователей, которые будут включены. При просмотре списка, также будут отображаться для каждого пользователя в списке тип поставщика услуг аудиоконференций, они используется номер телефона-связи по умолчанию для пользователя, и, если ваша организация не включен для идентификаторы динамических конференции, статические конференции идентификаторы для собраний аудиоконференций, которые они организации.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Просмотр списка пользователей
 
@@ -40,9 +44,6 @@ ms.lasthandoff: 05/03/2018
     
 - В левой области переходов, перейдите к **аудиоконференции** > **пользователей**.
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-    
 ## <a name="what-else-should-i-know"></a>Дополнительные сведения
 
 - При просмотре списка пользователей, для которых включено можно выберите пользователя в списке и использовать области действия для изменения параметров аудиоконференций для этого пользователя.
@@ -75,7 +76,7 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Windows PowerShell, дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

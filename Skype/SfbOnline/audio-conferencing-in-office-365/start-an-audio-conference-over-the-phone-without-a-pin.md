@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 4deb415e9fd7154d72b7d598bcc5dfb8eabed6ed
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 8abdd9bcd61c55c7d55d896feef36afed22b312f
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703477"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Начало конференции аудио по телефону без ПИН-кода
 
@@ -33,6 +34,9 @@ ms.lasthandoff: 05/03/2018
 Если организатор собрания вызывает к собранию по умолчанию, ПИН-код должен начать собрание. Можно настроить его, чтобы любой пользователь может звонить на собрание и не будут запрашиваться ПИН-код начать собрание. Чтобы включить или отключить этот параметр для одного пользователя, используйте центр администрирования Skype для бизнеса.
   
 Если кто-то запущен собрания из Скайп для бизнеса или группами Майкрософт приложения ПИН-код не требуется для организатора собрания. ПИН-код только в том случае требуется при Организатор собрания присоединился к их собрание по телефону. ПИН-код для собраний отправляется звука пользователя при назначаются лицензии **Аудиоконференций** и включена поддержка аудиоконференций. В разделе [Отправить сообщение электронной почты для пользователя с помощью их аудиоконференции сведения](send-an-email-to-a-user-with-their-dial-in-information.md) и [сообщения электронной почты, которые отправляются пользователям при изменении их параметров звука конференц-связи, автоматически](emails-sent-to-users-when-their-settings-change.md).
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Разрешение и запрет присоединения анонимных абонентов к собранию
 
@@ -58,8 +62,7 @@ ms.lasthandoff: 05/03/2018
     
 4. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**. 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
     
  **С помощью Windows Powershell**
   

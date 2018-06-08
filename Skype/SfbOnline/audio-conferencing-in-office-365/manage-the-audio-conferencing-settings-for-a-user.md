@@ -20,15 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Как администратор Office 365 можно изменить параметры звука конференц-связи — например, поставщика, счета по умолчанию или бесплатный номер, идентификатор конференции или ПИН-код — для отдельного пользователя в организации. Если вы хотите изменить параметры для вашей организации, просмотреть управление конференц-связи аудио параметров для организации.
-ms.openlocfilehash: 141ede21a99ff251786c7dfc63f4c55358b61c72
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 064625919cab532c10cdadd16ad95e144d301419
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703377"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>Управление параметрами звука конференц-связи для пользователя
 
 Как администратор Office 365 можно изменить параметры звука конференц-связи — например, поставщика, счета по умолчанию или бесплатный номер, идентификатор конференции или ПИН-код — для отдельного пользователя в организации. Если вы хотите изменить параметры для вашей организации, ознакомьтесь со [управлять параметрами звука конференц-связи для организации](manage-the-audio-conferencing-settings-for-my-organization.md).
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 5ddc20d1b9166315581a6f894c5d630d9e247881
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: eb2c5c5e8cdc0562cb5a2e391c741763b1da0bd4
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568284"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703751"
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>Задайте телефона, номера, находящимся на приглашает
 
@@ -38,6 +38,9 @@ ms.locfileid: "19568284"
   
 > [!NOTE]
 > Организатор собрания может использовать не более одного платного и одного бесплатного телефонного номера в приглашении на собрание, однако также имеется ссылка в нижней части приглашения на собрания, по которой открывается список всех телефонных номеров для подключения к собранию. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Значение по умолчанию телефонные номера для организатора собрания
 
@@ -56,9 +59,6 @@ ms.locfileid: "19568284"
     ![Нажмите кнопку Изменить рядом с пунктом аудиоконференции](../images/teamseditaudioconf.png)
 
 4. Использование полей **бесплатный номер** или **бесплатный номер** для ввода цифр для пользователя.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
 

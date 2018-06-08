@@ -12,28 +12,28 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17a2a7e4be22878cf0625077b23fad388b38bc9e
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 6aaa763c423d7756808856706375f96f99224b9e
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19576984"
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694891"
 ---
-<a name="manage-the-microsoft-teams-private-app-store"></a>Управление в хранилище приложений Microsoft Private групп
+<a name="publish-apps-to-the-microsoft-teams-private-app-store"></a>Публикация приложений в хранилище приложений Microsoft Private групп
 ============================================
 
 > [!IMPORTANT]
 > На этой странице описываются функции предварительного выпуска и содержит предварительные контент, который может значительно изменяться перед выпуском. Добавляемые снимки экрана являются заполнители и может выглядеть иначе, чем вы см.
 
-В хранилище приложений Microsoft Private группы можно использовать для построения и распространения бизнес приложениями для вашей организации. 
+В хранилище приложений Microsoft Private группы можно использовать для тестирования и распространения бизнес приложений в вашей организации. 
 
 В хранилище приложений Microsoft Private групп позволяет распространять бизнес приложениями, созданные специально для вашей организации и используйте на для выполнения важных функций для пользователей. 
  
-Существует два метода для управления в хранилище приложений Private групп:
+Существует два метода для публикации приложений в магазине приложение Private групп:
 - Непосредственно от команды клиента 
-- Командлеты, использующих возможности интерфейсов API Microsoft Graph (этот метод еще не доступен.)
+- Командлеты, использующих возможности интерфейсов API Microsoft Graph (этот метод еще не доступен для предварительного просмотра.)
 
-## <a name="manage-the-teams-private-app-store-from-the-teams-client"></a>Управление хранилище приложений Private групп из группы клиента
+## <a name="publish-an-app-to-the-teams-private-app-store-from-the-teams-client"></a>Публикация приложения в хранилище приложение Private групп из группы клиента
 
 ### <a name="get-a-teams-app-package"></a>Получение пакета приложения группы
 

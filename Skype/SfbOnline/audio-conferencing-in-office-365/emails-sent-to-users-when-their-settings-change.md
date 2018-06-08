@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, какие сведения о автоматически отправляется пользователям по электронной почте при изменении их параметров конференц-связи. '
-ms.openlocfilehash: 47225eff4d7d8bd091b2b7ba9d795c600cbd4b0e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4766f8f236cbe94b11660165b8659a892d301285
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703437"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>Сообщений, отправляемых в пользователей при изменении их параметров
 
@@ -77,6 +78,9 @@ ms.lasthandoff: 05/03/2018
     
      ![Конференц-связь отключена.](../images/audio-conferencing-turned-off.png)
   
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Вносить изменения в сообщения электронной почты, отправленные им
 
 Можно внести изменения в сообщение электронной почты, которое отправляется пользователям, включая адрес электронной почты и отображаемое имя, включенную в контактных сведений *из* автоматически. По умолчанию, отправителя сообщения электронной почты будут из Office 365, однако можно изменить адрес электронной почты и отображаемое имя с помощью командлета [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) и Windows PowerShell. Чтобы изменить адрес электронной почты, который отправляет сообщение электронной почты для пользователей, необходимо выполнить следующее:

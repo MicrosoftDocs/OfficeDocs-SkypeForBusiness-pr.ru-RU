@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как выполнять поиск номерам конференц-связь в пределах Скайп для бизнеса. '
-ms.openlocfilehash: bccd4a5c02dbb6bc32c27e315b80a39705284429
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 70602e252d7c31bff7d6181c0cd5a51353da2def
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703661"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>Список номеров аудиоконференции
 
@@ -41,7 +42,10 @@ ms.lasthandoff: 05/08/2018
   
 > [!NOTE]
 > Внутренние телефонных номеров выделенным для вашей организации и являются единственными, которые могут быть заданы как номер телефона по умолчанию. Тем не менее международных телефонных номеров может совместно использоваться несколькими организациями. 
-  
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Чтобы просмотреть номера телефонов аудиоконференций
 
 ![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
@@ -50,9 +54,6 @@ ms.lasthandoff: 05/08/2018
 2.  Просмотр номера телефонов, которые доступны для аудиоконференций.
 
 - Можно также просмотреть расположение и основной язык, который будет использоваться автосекретарем аудиоконференций.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
 

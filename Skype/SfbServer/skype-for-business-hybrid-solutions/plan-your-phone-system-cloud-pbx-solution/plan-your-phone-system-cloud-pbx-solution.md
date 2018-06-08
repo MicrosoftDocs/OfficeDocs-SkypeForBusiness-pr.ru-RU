@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0c4a0ec4-1a2b-4ce8-8323-f797162ab4fe
 description: Сведения об телефонной системой корпорации Майкрософт в решениях для Office 365 (облако УАТС) для включения управления звонками и возможности Exchange закрытый филиала (УАТС) в облаке Office 365.
-ms.openlocfilehash: 2b8fbad9d5ec81f4e950aa7dfe9041913761f1fb
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9949c2559bcaf6a46e788a0fe640b42c7a66c1b7
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695105"
 ---
 # <a name="plan-your-phone-system-in-office-365-cloud-pbx-solution"></a>Планирование решения телефонной системы в Office 365 (облачная УАТС)
  
@@ -26,7 +27,11 @@ ms.lasthandoff: 05/03/2018
   
 Майкрософт предлагает различные параметры для разрешения пользователей для вызова landlines и мобильные телефоны через общедоступные переключения телефонной сети общего пользования (PSTN) — учетных записей существует ли в Office 365 на Скайп для бизнеса в Интернет или в вашей локальной Скайп для бизнеса Развертывание сервера или Lync Server 2013.
   
-В этой статье описываются различные услуги голосовой связи Microsoft и затем представлены рекомендации, на котором параметры могут быть лучше всего подходит для вас, в зависимости от текущего состояния и будущих планы вашей организации. В этой статье, а также Скайп можно использовать для плакат бизнес-решений Online голосовой связи, доступные для загрузки в форматах [Visio](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan Voice Solution poster - Final.vsdx) и [PDF](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan Voice Solution poster - Final.pdf) .
+В этой статье описываются различные услуги голосовой связи Microsoft и затем представлены рекомендации, на котором параметры могут быть лучше всего подходит для вас, в зависимости от текущего состояния и будущих планы вашей организации. 
+
+В этой статье, а также Скайп можно использовать для плакат бизнес-решений Online голосовой связи, доступные для загрузки в формате Visio и PDF:
+* [Visio](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan%20Voice%20Solution%20poster%20-%20Final.vsdx)
+* [PDF](https://download.microsoft.com/download/2/E/E/2EE5C4DE-7F12-475C-A507-37870020F0D3/Plan%20Voice%20Solution%20poster%20-%20Final.pdf)
   
 ## <a name="enterprise-voice"></a>Корпоративная голосовая связь
 

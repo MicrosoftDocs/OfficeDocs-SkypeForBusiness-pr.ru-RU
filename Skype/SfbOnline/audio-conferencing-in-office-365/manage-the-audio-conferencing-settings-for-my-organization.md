@@ -20,15 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'В разделе действия, чтобы назначить идентификатора лицензии и конференц-связь с телефонным пользователя и другие параметры конференц-связи. '
-ms.openlocfilehash: 7a5f82a827049f591d012af7f752e26ac4f9d87b
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 26d80b71344227aeaec7089e2bb9f9a9dfe32ad2
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703671"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Управление параметрами звука конференц-связи для организации
 
 Можно легко видеть все параметры аудиоконференций Скайп для бизнеса и группами Майкрософт в одном месте. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-an-audio-conferencing-license"></a>Назначение лицензии на аудиоконференции
 
