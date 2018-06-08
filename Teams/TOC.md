@@ -101,6 +101,7 @@
 ### [Определение Мой success](1-envision-define-my-success-cloud-voice.md)
 ### [Принятия решений Мои службы - звук конференц-связи](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [Принятия решений Мои службы - телефонной системы с помощью вызова планы](2-envision-make-my-service-decisions-phone-system.md)
+### [Принять Мои решения службы - прямой маршрутизации телефонной системы](2-envision-make-my-service-decisions-direct-routing.md)
 ### [Оценка моей среды](3-envision-evaluate-my-environment.md)
 ### [Планирование управления Мои службы](4-envision-plan-my-service-management.md)
 ### [Планирование взаимодействия пользователя Мои пользователи](5-envision-plan-my-users-experience.md)
