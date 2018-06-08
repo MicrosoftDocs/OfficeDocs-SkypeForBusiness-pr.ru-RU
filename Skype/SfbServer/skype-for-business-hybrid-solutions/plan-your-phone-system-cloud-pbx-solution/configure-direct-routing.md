@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: 2a600b7f6e61ae9dead69e5bfac534e2196974b1
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 225189778a2ab6650cc874d43a6db0fa9f684dfa
+ms.sourcegitcommit: 9dc1c9afccb1792611b6e6d60dfcf62302dbde81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570173"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19709171"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -102,7 +102,7 @@ Enabled               : True
  
 В следующей таблице перечислены дополнительные параметры, которые можно использовать в настройке параметров для *New-CsOnlinePstnGateway*. 
 
-|**Обязательно?**|**Имя**.|**Описание**|**По умолчанию**|**Возможные значения**|**Тип и ограничения**|
+|Обязательно?|Имя|Описание|"Default" (По умолчанию)|Возможные значения|Тип и ограничения|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Да|Полное доменное имя|Полное ДОМЕННОЕ имя пограничного контроллера Сеансов |Нет|Имя NoneFQDN, ограничение 63 символов|Строка, список разрешенных и запрещенных символов на [соглашениях об именовании в Active Directory для компьютеров, доменов, сайты и подразделениями](https://support.microsoft.com/en-us/help/909264)|
 |Нет|MediaBypass |Параметр зарезервирован для будущего использования. Параметра, указанное для SBC поддерживает обход сервера-посредника и администратор хочет его использования.|Нет|True<br/>False|Логическое|
@@ -207,7 +207,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 Например чтобы добавить номер телефона для пользователя «Иван низкий», необходимо ввести следующее: 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremisLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 Номер телефона должен быть настроен как полный номер телефона E.164 с код страны. 
@@ -334,7 +334,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 Чтобы создать маршрутом + 1, введите:
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -375,7 +375,7 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\+1(425|206) (\d{7})$
+NumberPattern       : ^\\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
@@ -413,9 +413,9 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 Которая возвращает:
 <pre>
-OnlineVoiceRoutingPolicy
-------------------------
-US Only
+    OnlineVoiceRoutingPolicy
+    ---------------------
+    US Only
 </pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>Создание политики маршрутизации голосовой связи с несколькими случаев использования PSTN
