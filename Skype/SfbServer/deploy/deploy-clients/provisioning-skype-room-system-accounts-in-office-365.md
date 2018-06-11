@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: В этом разделе описывается выделение учетных записей системы комнат Skype в Office 365.
-ms.openlocfilehash: be90831eba5f16f5a3b41f4c74c26333bf728926
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 93e8c07665240813317750491cd9c3355f0c3a90
+ms.sourcegitcommit: 7c6036c60a8b18556215f5d540dda2a3f068479d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19747065"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Предоставление учетных записей системы комнат Skype в Office 365
  
@@ -87,10 +88,16 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 Предыдущей команды настроить или создать новую учетную запись почтового ящика Exchange ресурсов для использования системы комнаты Скайп посредством включения учетной записи.
   
 После создания почтового ящика, можно использовать командлет Set-CalendarProcessing в Exchange Online PowerShell для настройки почтового ящика. Дополнительные сведения см. в разделе "Развертывание одного локального леса", шаги 3–6.
+
+## <a name="assigning-a-skype-for-business-online-license"></a>Назначение лицензии Skype для бизнеса Online
+
+Теперь можно назначить Скайп для бизнеса Online (план 2) или Скайп для лицензии через Интернет бизнес (план 3) с помощью портала администрирования Office 365, как описано в [Назначение и удаление лицензий на Office 365 для бизнеса](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) или в [Скайп для бизнеса надстройки Лицензирование](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+  
+После назначения лицензии для Скайп для бизнеса в Интернет, вы сможете для входа и убедиться, что учетная запись является активным, с помощью любого Скайп для клиента Business.
   
 ## <a name="skype-for-business-online-provisioning"></a>Предоставление Skype для бизнеса Online
 
-После создания и включена, как показано выше учетную запись почтового ящика ресурса комнаты учетной записи будут синхронизироваться с Exchange Online леса для Скайп для бизнеса в Интернет леса с помощью леса Windows Azure Active Directory. Подготовка Скайп комнаты системную учетную запись в Скайп для бизнеса в Интернет пула необходимы следующие действия. Эти шаги совпадают с существующей учетной записи ресурса почтового ящика или учетной записи только что созданный (confrm1 или confrm2), так как после их, необходимо включить в Exchange Online, оба этих учетных записей синхронизация с Скайп для бизнеса в Интернет так же, как:
+После помещения ресурсов почтовый ящик учетной записи была создана и включена, как показано выше, и лицензированных учетную запись для oline Скайп для бизнеса, что учетной записи будет выполнять синхронизацию с Exchange Online леса для Скайп для бизнеса в Интернет леса с помощью Windows Azure леса Active Directory. Подготовка Скайп комнаты системную учетную запись в Скайп для бизнеса в Интернет пула необходимы следующие действия. Эти шаги совпадают с существующей учетной записи ресурса почтового ящика или учетной записи только что созданный (confrm1 или confrm2), так как после их, необходимо включить в Exchange Online, оба этих учетных записей синхронизация с Скайп для бизнеса в Интернет так же, как:
   
 1. Создайте удаленный сеанс PowerShell. Обратите внимание, что необходимо загрузить Скайп для бизнес-Online соединителя модуля и Microsoft Online Services помощника по входу и убедитесь в том, что на компьютере настроена. Дополнительные сведения содержатся в разделе [Настройка компьютера для управления Lync Online](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
     
@@ -112,11 +119,6 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
-## <a name="assigning-a-skype-for-business-online-license"></a>Назначение лицензии Skype для бизнеса Online
-
-После включения Скайп комнаты системной учетной записью в Скайп для бизнеса Скайп можно назначить для бизнеса Online (план 2) или Скайп для лицензии через Интернет бизнес (план 3) с помощью портала администрирования Office 365, как описано в [Назначение и удаление лицензий для Office 365 для бизнеса](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) или в [Скайп для лицензирования дополнительный компонент Business](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
-  
-После назначения лицензии для Скайп для бизнеса в Интернет, вы сможете для входа и убедиться, что учетная запись является активным, с помощью любого Скайп для клиента Business.
   
 ## <a name="password-expiration"></a>Срок действия пароля
 
