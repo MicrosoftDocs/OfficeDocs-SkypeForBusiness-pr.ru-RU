@@ -41,6 +41,7 @@
 
 # Взаимодействие с Office 365
 ## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
+## [Настройка параметров сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md)
 ## [Группы Office 365 и Teams](office-365-groups.md)
 ## [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
 ## [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
