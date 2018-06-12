@@ -17,11 +17,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: К сожалению, существуют некоторые пользовательских лицензий, которые блокируются при пользователя перейдите к https://broadcast.skype.com и хотите использовать Скайп собрания вещания. Если пользователь видит это сообщение, у них один заблокированных лицензий, которые были им назначены. Если по-прежнему требуется использовать его, назначьте их другой лицензии Office 365.
-ms.openlocfilehash: 536df828081fdda78b6a0079a53661a4b3276e3a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: f7a7bb44a6de3cfaa5af282f855b0345f0a3ea76
+ms.sourcegitcommit: 2290f152ea13d87fb1fd70007fe19523184ce947
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19844602"
 ---
 # <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Заблокировано пользовательских лицензий для вещания Скайп собрания
 
@@ -51,17 +52,10 @@ ms.lasthandoff: 04/18/2018
     
 - Office 365 Education E3 учебы
     
-- Преимущества использования учебы A3 Office 365
+- Преимущества использования учебы A1 Office 365
     
-- Преимущества использования учебы A5 Office 365
-    
-- Office 365 A5 преимуществ использования учебы конференц-связи ТСОП
-    
-- Преимущества использования Microsoft 365 A3 учебы
-    
-- Преимущества использования Microsoft 365 A5 учебы
-    
-- Преимущества использования Microsoft 365 A5 учебы PSTN конференц-связи
+- Преимущества использования Microsoft 365 A1 учебы
+
     
 ## <a name="related-topics"></a>See also
 
