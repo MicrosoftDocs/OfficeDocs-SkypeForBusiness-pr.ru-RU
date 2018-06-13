@@ -259,7 +259,7 @@
 ### [Руководство: создание охватывающей всю компанию команды с помощью PowerShell](company-wide-team-creation-powershell.yml)
 
 ## Управление
-### [Позволяют пользователям общаться с другими людьми](let-your-teams-users-communicate-with other-people.md)
+### [Позволяют пользователям общаться с другими людьми](let-your-teams-users-communicate-with-other-people.md)
 ### [Качество взаимодействия руководство по решению](quality-of-experience-review-guide.md)
 ### [Подготовка сети организации к использованию Teams](prepare-network.md)
 ### [Инструменты и семинары. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
