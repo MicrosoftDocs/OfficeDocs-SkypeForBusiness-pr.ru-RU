@@ -19,11 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: 8ea357aefe96505285d9c7bb870ef852ea2649a4
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 9f0e0886df721397fe82a60672ef3947c14a3860
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856039"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Рекомендации по сбору данных для Skype для бизнеса и Microsoft Teams
 
@@ -76,10 +77,14 @@ ms.lasthandoff: 05/25/2018
   
 Конечные пользователи не могут включить или отключить сбор данных.
   
-Управлять телеметрией для веб-страниц приложения для собраний Skype и агента присоединения можно с помощью следующей политики:
+Скайп собрания приложения и веб-страниц запуска для присоединения к, способ управления телеметрии заключается в этой политике: <<<<<<< HEAD
+  
+<a name="set-cswebserviceconfiguration--meetinguxenabletelemetry-true"></a>Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
+=======
  
 `Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True` 
 
+>>>>>>> образец
   
 Для этой политики по умолчанию установлено значение False, поэтому сбор данных телеметрии по умолчанию отключен. Этот параметр задается для каждого пула и позволяет управлять всеми пользователями, которые подключаются к собранию, проводимому на сервере, с помощью приложения для собраний Skype.
   
@@ -100,9 +105,15 @@ ms.lasthandoff: 05/25/2018
   
 - Параметру "Групповая политика DisableAutomaticSendTracing" должно быть присвоено значение False на сервере или в центре администрирования клиента (состояние по умолчанию). Дополнительные сведения см. в разделе [ Настройка политик начальной загрузки клиентов в Skype для бизнеса Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx).
     
+<<<<<<< Заголовок
+- Конечные пользователи делают выбор индивидуально на вкладке "Общие" (щелкните значок шестеренки, откроется диалоговое окно "Параметры" с вкладкой "Общие") в клиенте Skype для бизнеса.
+    
+     ![Значок шестеренки](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
+=======
 - Конечные пользователи по отдельности согласие на вкладке Общие (щелкните значок шестеренки ![значок шестеренки](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , а затем открывает **диалоговое окно** отображается вкладка **Общие** ) в Скайп для клиента Business.
     
  
+>>>>>>> образец
   
 ![Skype for Business data collection checkbox in the Options > General dialog](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 в гибридной среде с сервером Exchange при локальном.
-ms.openlocfilehash: f2550fb5dffcd8be3f3f8e330db2e3cfa32651dd
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: cf816fe8b2a80f10ce34c46cb527bb72774ebd10
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500792"
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856022"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises-hybrid"></a>Развертывание Систем комнат Skype версии 2 в локальной среде Exchange (гибридное)
  
@@ -66,16 +66,15 @@ ms.locfileid: "19500792"
 1. Включение удаленного почтового ящика, открыв вашей локальной среды управления Exchange с правами администратора и выполните следующую команду:
      
    ```
-   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -RemoteRoutingAddress 'PROJECTRIGEL01@contoso.com' -Room
+   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -Room
    ```
 
 2. Для запуска удаленного сеанса Windows PowerShell и подключитесь к Microsoft Exchange. Клиент Office 365 выполните следующие команды:
     
    ```
-   Set-ExecutionPolicy Unrestricted
    $org='contoso.com'
    $cred=Get-Credential $admin@$org
-   $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri 'https://outlook.office365.com/ps1-liveid/' -Credential $cred -Authentication Basic -AllowRedirection 
+   $sess = New-PSSession -ConfigurationName Microsoft.Exchange -Credential $cred -AllowRedirection -Authentication Basic -ConnectionUri "https://<ExchangeServerFQDN>/PowerShell"
    Import-PSSession $sess
    ```
 

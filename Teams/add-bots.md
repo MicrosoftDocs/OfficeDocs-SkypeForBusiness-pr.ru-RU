@@ -10,11 +10,12 @@ ms.reviewer: lucarras
 description: Сведения о добавлении ботов для приватного чата и каналов в Microsoft Teams, создании пользовательских ботов и загрузке собственного неопубликованного бота для приватного чата.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50abaf5e6fb15451bfa1695ab2a16e0ce1747232
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 08417f4aafae8c7fd844cb253a889b833d0e6266
+ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19856030"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Добавление ботов для приватных чатов и каналов в Microsoft Teams
 ==========================================================
@@ -44,7 +45,7 @@ Microsoft Teams позволяет использовать боты, разра
 <a name="side-load-your-own-bot-for-private-chat"></a>Загрузка собственного неопубликованного бота для приватного чата
 ---------------------------------------
 
-1.  Создав свой бот, зайдите на страницу **Bot Dashboard** — [информационную панель](https://go.microsoft.com/fwlink/?linkid=854374) разработанного вами бота, а затем в разделе **Details** (Сведения) скопируйте **Microsoft App ID** (Идентификатор приложения Майкрософт).![Снимок экрана страницы сведений с выделенным идентификатором приложения Майкрософт.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png) 
+1. После создания вашего программа-робот, перейдите в раздел **Параметров приложения** для программы-робота, который вы создали, затем в разделе **Параметры приложения**, скопируйте значение параметра **MicrosoftAppId** . ![Страницы параметров снимок экрана приложения для программы-робота с Идентификатором приложения Microsoft с выделением.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 
 
