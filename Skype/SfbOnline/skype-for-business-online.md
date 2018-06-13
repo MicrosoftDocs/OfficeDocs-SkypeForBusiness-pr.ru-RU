@@ -12,12 +12,12 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: e92f5fdf9aa3b7d60ccf956d0eca872fd7b3f43f
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 8df54547474376266cabad2f70be6877f12f246d
+ms.sourcegitcommit: 75f9d15ec5c6284191c28e783761619326b57d53
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546463"
+ms.lasthandoff: 06/13/2018
+ms.locfileid: "19862903"
 ---
 # <a name="skype-for-business-online-admin"></a>Администратор Skype для бизнеса Online
 
@@ -132,7 +132,9 @@ ms.locfileid: "19546463"
                     </div>
                     <div class="cardText">
                         <h3>Статьи</h3>
-                        <p><a href=" ">Имя ссылки</a></p>
+                        <p><a 
+                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Настройка телефонной системы в вашей организации</a></p>
+                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Сторонняя интеграция с Аудиоконференциями</a></p>
                     </div>
                 </div>
             </div>
@@ -149,7 +151,8 @@ ms.locfileid: "19546463"
                     </div>
                     <div class="cardText">
                         <h3>Новые функции</h3>
-                        <p><a href=" ">Имя ссылки</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Планы звонков в Канаде (общедоступная версия)</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Планы звонков в Австралии (только предварительная версия)</a></p>
                     </div>
                 </div>
             </div>
@@ -166,7 +169,7 @@ ms.locfileid: "19546463"
                     </div>
                     <div class="cardText">
                         <h3>Основные обновления</h3>
-                        <p><a href=" ">Имя ссылки</a></p>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">Настройка Аудиоконференций</a></p>
                     </div>
                 </div>
             </div>
