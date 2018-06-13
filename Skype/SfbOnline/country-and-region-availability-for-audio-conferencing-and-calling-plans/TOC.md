@@ -1,9 +1,9 @@
 
 # [Скайп для администрирования Online бизнеса](../skype-for-business-online.md)
 
-## [Доступность аудиоконференций и планов звонков в различных странах и регионах](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## [Аудиоконференции в Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
+## [Аудиоконференции в Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Общие вопросы по аудиоконференциям](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Поддерживаемые языки для аудиоконференций](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -146,7 +146,7 @@
 ### [Качество медиаданных и производительность сетевого подключения](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [Прокси-серверы для Skype для бизнеса Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
-## [Аналитики вызова и панель мониторинга качества звонков] (.. аудио- и using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+## [Вызов аналитики и панель мониторинга качества звонка](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Измерения и меры на панели мониторинга качества звонков](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Настройка средства аналитики звонков в Skype для бизнеса](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Включение и использование панели мониторинга качества звонков](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)

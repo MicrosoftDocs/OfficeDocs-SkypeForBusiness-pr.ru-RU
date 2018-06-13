@@ -13,15 +13,16 @@
 
 
 # Установка
+## [Обзор развертывания Teams](deployment-overview.md)
 ## [Управление доступом пользователей к Teams](user-access.md)
 ## [Работа с клиентами для Teams](get-clients.md)
 ## [Требования к оборудованию для приложения группы](hardware-requirements-for-the-teams-app.md)
 ## [Вход в группы](sign-in-teams.md)
-## [Обзор развертывания Teams](deployment-overview.md)
 ## [Настройка Teams в вашей организации Office 365](Office-365-set-up.md)
 ## [Включение функций Teams в организации Office 365](enable-features-office-365.md)
 ## [Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business](manage-teams-skypeforbusiness-admin-center.md)
 ## [Установка группами Майкрософт, с помощью MSI](msi-deployment.md)
+## [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
 ## [Измерения и меры на панели мониторинга качества звонков](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Настройка средства аналитики звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Использование средства аналитики звонков для устранения проблем с низким качеством звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -258,6 +259,7 @@
 ### [Руководство: создание охватывающей всю компанию команды с помощью PowerShell](company-wide-team-creation-powershell.yml)
 
 ## Управление
+### [Позволяют пользователям общаться с другими людьми](let-your-teams-users-communicate-with other-people.md)
 ### [Качество взаимодействия руководство по решению](quality-of-experience-review-guide.md)
 ### [Подготовка сети организации к использованию Teams](prepare-network.md)
 ### [Инструменты и семинары. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
@@ -266,8 +268,6 @@
 ### [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
 ### [Создание охватывающей всю компанию команды с помощью PowerShell](company-wide-team-creation-powershell.yml)
 ### [Справочник по командлетам PowerShell для Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
-
-
 
 
 # Устранение неполадок и поддержка
