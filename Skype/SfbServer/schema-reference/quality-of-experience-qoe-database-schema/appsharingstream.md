@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: В таблице AppSharingStream содержатся показатели качества взаимодействия для сетевых потоков, используемых для общего доступа к приложениям. Эта таблица была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: a10370814da5630a6d453b2ff4cad44b16b74ff1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e3b2f19810fbd9f68ebe848e78c032035fb49978
+ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19881537"
 ---
 # <a name="appsharingstream-table"></a>Таблица AppSharingStream
  
@@ -24,7 +25,7 @@ ms.lasthandoff: 03/28/2018
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |даты и времени  <br/> |Основной, внешний  <br/> |Дата и время начала сеанса.  <br/> |
 |**SessionSeq** <br/> |целое  <br/> |Основной, внешний  <br/> |Последовательный идентификатор, который используется для проведения различия между сеансами, запускаемых на тот же день и в то же время.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Основной, внешний  <br/> |Представляет тип видео строки, используемой в вызове. Доступны значения:  <br/> 0 — аудио  <br/> 1 — видео  <br/> 2 — панорамное видео  <br/> 3 - приложения и рабочим столом  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Основной, внешний  <br/> | В разделе [MediaLine Table](https://docs.microsoft.com/en-us/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
 |**StreamID** <br/> |целое  <br/> |Primary  <br/> |Уникальный идентификатор потока общего доступа к приложения.  <br/> |
 |**JitterInterArrival** <br/> |целое  <br/> ||Среднее значение колебаний, зарегистрированных между прибытиями пакетов RTP. (Колебания – это показатель «вибрирования» вызова.) Высокие значения колебаний обычно вызваны перегрузкой сервера-посредника и приводят к искажению звука или потере аудиосигналов.  <br/> |
 |**JitterInterArrivalMax** <br/> |целое  <br/> ||Максимальный уровень дрожания между прибытия пакетов RTP. (Дрожание является меры «shakiness» звонок). High дрожание значения, обычно вызваны перегрузки или на сервере перегруженные мультимедиа и приводит к более искаженные или потере звука.  <br/> |
