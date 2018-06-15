@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
-description: В этой статье приведены требования для поддержки v2 Скайп комнаты систем.
-ms.openlocfilehash: 443f24e80b8d7e66c38fdb0e2e99ab6926bce4b4
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: В этой статье приведены требования для поддержки систем комнаты Скайп версии 2.
+ms.openlocfilehash: 1d44178beb69cda78b72bb8d0e599af81be39321
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504799"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887879"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
  
-В этой статье приведены требования для поддержки v2 Скайп комнаты систем. 
+В этой статье приведены требования для поддержки систем комнаты Скайп версии 2. 
   
 Развертывание включает создание учетной записи, как описано в разделе [Развертывание системы комнаты Скайп версии 2](../../deploy/deploy-clients/room-systems-v2.md) и о настройке консоли собрания, как описано в статье [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md). Может также потребоваться ссылаться на [Скайп для лицензирования дополнительный компонент Business](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
   
@@ -136,7 +136,7 @@ ms.locfileid: "19504799"
     
 Эти файлы для загрузки должны быть объединены в загрузочного диска установки Windows media определенным образом, описывается далее в статье [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md). 
   
-Кроме того можно копию [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), используемом для заполнения учетные записи систем комнаты Скайп версии 2.
+Кроме того можно копию [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), часто используется для подготовки учетных записей систем комнаты Скайп версии 2.
   
 ## <a name="see-also"></a>См. также
 

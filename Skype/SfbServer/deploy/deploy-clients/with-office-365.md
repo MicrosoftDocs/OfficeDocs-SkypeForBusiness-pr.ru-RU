@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365.
-ms.openlocfilehash: b44633ae7e0dab875771cbc3146688215d1bdcbc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: bf23da871b3e736bd9fce2ee821b716fc43830b1
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569521"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887907"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Развертывание Систем комнат Skype версии 2 в среде Office 365 
  
-В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365.
-  
-В этом разделе описывается добавление учетной записи устройства для систем комнаты Скайп v2 при наличии online развертывания Office 365.
+В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365, где оба online находятся в Скайп для бизнеса и Exchange. 
+
+Настройка учетных записей пользователей проще всего настроить их с помощью удаленной оболочки Windows PowerShell. Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей, или validate существующие учетные записи ресурсов, что у вас есть помогающих перевод их в совместимые учетных записей пользователей системы комнаты Скайп версии 2. При необходимости можно выполните следующие действия, чтобы настроить учетные записи, используемые устройства версии 2 Скайп комнаты систем.
   
 ## <a name="deploy-skype-room-systems-v2-with-office-365"></a>Развертывание Систем комнат Skype версии 2 в среде Office 365 
 
@@ -180,6 +180,8 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 > Будут добавлены CloudPBX и PSTNCallingDomesticAndInternational. Кроме того, вам потребуется назначить номер телефона с помощью интерфейса администрирования. 
   
 ## <a name="see-also"></a>См. также
+
+[Настройка учетных записей для систем комнаты Скайп версии 2](room-systems-v2-configure-accounts.md)
 
 [Планирование для помещения Скайп систем версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
