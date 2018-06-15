@@ -13,28 +13,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Скайп для Business Server 2015.
-ms.openlocfilehash: 9705d849027f03a4d4befc6c433f0fe6fb4bc414
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568258"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887829"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a><span data-ttu-id="d8168-103">Развертывание Систем комнат Skype версии 2 со Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="d8168-103">Deploy Skype Room Systems v2 with Skype for Business Server 2015</span></span>
- 
-<span data-ttu-id="d8168-104">В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="d8168-104">Read this topic for information on how to deploy Skype Room Systems v2 with Skype for Business Server 2015.</span></span>
+# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a><span data-ttu-id="199c5-103">Развертывание Систем комнат Skype версии 2 со Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="199c5-103">Deploy Skype Room Systems v2 with Skype for Business Server 2015</span></span>
   
-<span data-ttu-id="d8168-105">В этом разделе объясняется, как добавить учетную запись устройства для систем комнаты Скайп версии 2 при наличии одним лесом локального развертывания.</span><span class="sxs-lookup"><span data-stu-id="d8168-105">This topic explains how you add a device account for Skype Room Systems v2 when you have a single-forest, on-premises deployment.</span></span>
+<span data-ttu-id="199c5-104">В этом разделе объясняется, как добавить учетную запись устройства для систем комнаты Скайп версии 2 при наличии одним лесом локального развертывания.</span><span class="sxs-lookup"><span data-stu-id="199c5-104">This topic explains how you add a device account for Skype Room Systems v2 when you have a single-forest, on-premises deployment.</span></span>
   
-<span data-ttu-id="d8168-106">При наличии одного леса, локальное развертывание Exchange 2013 с пакетом обновления 1 или более поздней версии и Скайп Business Server 2015 или более поздней версии отмеченными сценарии Windows PowerShell можно использовать для создания учетных записей устройства.</span><span class="sxs-lookup"><span data-stu-id="d8168-106">If you have a single-forest, on-premises deployment with Exchange 2013 SP1 or later and Skype for Business Server 2015 or later, then you can use the provided Windows PowerShell scripts to create device accounts.</span></span> <span data-ttu-id="d8168-107">Если вы используете развертывания нескольких лесов, можно использовать эквивалентный командлеты, которые будут создавать одинаковые результаты.</span><span class="sxs-lookup"><span data-stu-id="d8168-107">If you're using a multi-forest deployment, you can use equivalent cmdlets that will produce the same results.</span></span> <span data-ttu-id="d8168-108">В этой статье описываются необходимые для этого командлеты.</span><span class="sxs-lookup"><span data-stu-id="d8168-108">Those cmdlets are described in this section.</span></span>
-  
-## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a><span data-ttu-id="d8168-109">Развертывание Систем комнат Skype версии 2 со Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="d8168-109">Deploy Skype Room Systems v2 with Skype for Business Server 2015</span></span>
+<span data-ttu-id="199c5-105">При наличии одного леса, локальное развертывание Exchange 2013 с пакетом обновления 1 или более поздней версии и Скайп Business Server 2015 или более поздней версии отмеченными сценарии Windows PowerShell можно использовать для создания учетных записей устройства.</span><span class="sxs-lookup"><span data-stu-id="199c5-105">If you have a single-forest, on-premises deployment with Exchange 2013 SP1 or later and Skype for Business Server 2015 or later, then you can use the provided Windows PowerShell scripts to create device accounts.</span></span> <span data-ttu-id="199c5-106">Если вы используете развертывания нескольких лесов, можно использовать эквивалентный командлеты, которые будут создавать одинаковые результаты.</span><span class="sxs-lookup"><span data-stu-id="199c5-106">If you're using a multi-forest deployment, you can use equivalent cmdlets that will produce the same results.</span></span> <span data-ttu-id="199c5-107">В этой статье описываются необходимые для этого командлеты.</span><span class="sxs-lookup"><span data-stu-id="199c5-107">Those cmdlets are described in this section.</span></span>
 
-<span data-ttu-id="d8168-110">Перед развертыванием системы комнаты Скайп версии 2 с Скайп для Business Server 2015 убедитесь, что удовлетворены требования.</span><span class="sxs-lookup"><span data-stu-id="d8168-110">Before you deploy Skype Room Systems v2 with Skype for Business Server 2015, be sure you have met the requirements.</span></span> <span data-ttu-id="d8168-111">Для получения дополнительных сведений см [систем комнаты Скайп версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).</span><span class="sxs-lookup"><span data-stu-id="d8168-111">For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
+<span data-ttu-id="199c5-108">Настройка учетных записей пользователей проще всего настроить их с помощью удаленной оболочки Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="199c5-108">The easiest way to set up user accounts is to configure them using remote Windows PowerShell.</span></span> <span data-ttu-id="199c5-109">Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей, или validate существующие учетные записи ресурсов, что у вас есть помогающих перевод их в совместимые учетных записей пользователей системы комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="199c5-109">Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts.</span></span> <span data-ttu-id="199c5-110">При необходимости можно выполните следующие действия, чтобы настроить учетные записи, используемые устройства версии 2 Скайп комнаты систем.</span><span class="sxs-lookup"><span data-stu-id="199c5-110">If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.</span></span>
   
-<span data-ttu-id="d8168-112">Перед началом развертывания систем комнаты Скайп версии 2, убедитесь, что у соответствующих разрешений для запуска связанного командлетов.</span><span class="sxs-lookup"><span data-stu-id="d8168-112">Before you begin to deploy Skype Room Systems v2, be sure you have the right permissions to run the associated cmdlets.</span></span>
+## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a><span data-ttu-id="199c5-111">Развертывание Систем комнат Skype версии 2 со Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="199c5-111">Deploy Skype Room Systems v2 with Skype for Business Server 2015</span></span>
+
+<span data-ttu-id="199c5-112">Перед развертыванием системы комнаты Скайп версии 2 с Скайп для Business Server 2015 убедитесь, что удовлетворены требования.</span><span class="sxs-lookup"><span data-stu-id="199c5-112">Before you deploy Skype Room Systems v2 with Skype for Business Server 2015, be sure you have met the requirements.</span></span> <span data-ttu-id="199c5-113">Для получения дополнительных сведений см [систем комнаты Скайп версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).</span><span class="sxs-lookup"><span data-stu-id="199c5-113">For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
   
-1. <span data-ttu-id="d8168-113">Для запуска удаленного сеанса Windows PowerShell с ПК и подключитесь к Exchange.</span><span class="sxs-lookup"><span data-stu-id="d8168-113">Start a remote Windows PowerShell session from a PC and connect to Exchange.</span></span> 
+<span data-ttu-id="199c5-114">Перед началом развертывания систем комнаты Скайп версии 2, убедитесь, что у соответствующих разрешений для запуска связанного командлетов.</span><span class="sxs-lookup"><span data-stu-id="199c5-114">Before you begin to deploy Skype Room Systems v2, be sure you have the right permissions to run the associated cmdlets.</span></span>
+  
+1. <span data-ttu-id="199c5-115">Для запуска удаленного сеанса Windows PowerShell с ПК и подключитесь к Exchange.</span><span class="sxs-lookup"><span data-stu-id="199c5-115">Start a remote Windows PowerShell session from a PC and connect to Exchange.</span></span> 
     
    ```
    Set-ExecutionPolicy Unrestricted
@@ -48,25 +48,25 @@ ms.locfileid: "19568258"
  
    ```
 
-   <span data-ttu-id="d8168-114">Обратите внимание на то, что $strExchangeServer — это полное доменное имя (FQDN) сервера Exchange и $strLyncFQDN — это полное доменное имя вашей Скайп для развертывания Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="d8168-114">Note that $strExchangeServer is the fully qualified domain name (FQDN) of your Exchange server, and $strLyncFQDN is the FQDN of your Skype for Business Server 2015 deployment.</span></span>
+   <span data-ttu-id="199c5-116">Обратите внимание на то, что $strExchangeServer — это полное доменное имя (FQDN) сервера Exchange и $strLyncFQDN — это полное доменное имя вашей Скайп для развертывания Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="199c5-116">Note that $strExchangeServer is the fully qualified domain name (FQDN) of your Exchange server, and $strLyncFQDN is the FQDN of your Skype for Business Server 2015 deployment.</span></span>
     
-2. <span data-ttu-id="d8168-115">После установки сеанса будет либо создать новый почтовый ящик и включение как RoomMailboxAccount или изменение параметров для существующего почтового ящика помещения.</span><span class="sxs-lookup"><span data-stu-id="d8168-115">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="d8168-116">Это позволит учетной записи для проверки подлинности системы комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="d8168-116">This will allow the account to authenticate to Skype Room Systems v2.</span></span>
+2. <span data-ttu-id="199c5-117">После установки сеанса будет либо создать новый почтовый ящик и включение как RoomMailboxAccount или изменение параметров для существующего почтового ящика помещения.</span><span class="sxs-lookup"><span data-stu-id="199c5-117">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="199c5-118">Это позволит учетной записи для проверки подлинности системы комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="199c5-118">This will allow the account to authenticate to Skype Room Systems v2.</span></span>
     
-    <span data-ttu-id="d8168-117">Изменение существующего почтового ящика ресурса:</span><span class="sxs-lookup"><span data-stu-id="d8168-117">If you're changing an existing resource mailbox:</span></span>
+    <span data-ttu-id="199c5-119">Изменение существующего почтового ящика ресурса:</span><span class="sxs-lookup"><span data-stu-id="199c5-119">If you're changing an existing resource mailbox:</span></span>
     
    ```
    Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
    -AsPlainText -Force)
    ```
 
-   <span data-ttu-id="d8168-118">Если вы создаете новый почтовый ящик ресурса:</span><span class="sxs-lookup"><span data-stu-id="d8168-118">If you're creating a new resource mailbox:</span></span>
+   <span data-ttu-id="199c5-120">Если вы создаете новый почтовый ящик ресурса:</span><span class="sxs-lookup"><span data-stu-id="199c5-120">If you're creating a new resource mailbox:</span></span>
     
    ```
    New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room 
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. <span data-ttu-id="d8168-119">Можно задать различные свойства Exchange для учетной записи устройства, чтобы улучшить работу в собрание для людей.</span><span class="sxs-lookup"><span data-stu-id="d8168-119">You can set various Exchange properties on the device account to improve the meeting experience for people.</span></span> <span data-ttu-id="d8168-120">Описание необходимых настроек приводится в разделе "Свойства Exchange".</span><span class="sxs-lookup"><span data-stu-id="d8168-120">You can see which properties need to be set in the Exchange properties section.</span></span>
+3. <span data-ttu-id="199c5-121">Можно задать различные свойства Exchange для учетной записи устройства, чтобы улучшить работу в собрание для людей.</span><span class="sxs-lookup"><span data-stu-id="199c5-121">You can set various Exchange properties on the device account to improve the meeting experience for people.</span></span> <span data-ttu-id="199c5-122">Описание необходимых настроек приводится в разделе "Свойства Exchange".</span><span class="sxs-lookup"><span data-stu-id="199c5-122">You can see which properties need to be set in the Exchange properties section.</span></span>
     
    ```
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments 
@@ -74,28 +74,28 @@ ms.locfileid: "19568258"
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. <span data-ttu-id="d8168-121">Если вы решили не срок действия пароля, можно задать, с помощью командлетов Windows PowerShell слишком.</span><span class="sxs-lookup"><span data-stu-id="d8168-121">If you decide to have the password not expire, you can set that with Windows PowerShell cmdlets too.</span></span> <span data-ttu-id="d8168-122">Дополнительные сведения см. в разделе "Управление паролями".</span><span class="sxs-lookup"><span data-stu-id="d8168-122">See Password management for more information.</span></span>
+4. <span data-ttu-id="199c5-123">Если вы решили не срок действия пароля, можно задать, с помощью командлетов Windows PowerShell слишком.</span><span class="sxs-lookup"><span data-stu-id="199c5-123">If you decide to have the password not expire, you can set that with Windows PowerShell cmdlets too.</span></span> <span data-ttu-id="199c5-124">Дополнительные сведения см. в разделе "Управление паролями".</span><span class="sxs-lookup"><span data-stu-id="199c5-124">See Password management for more information.</span></span>
     
    ```
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. <span data-ttu-id="d8168-123">Включение учетной записи в службе каталогов Active Directory, он будет выполнять проверку подлинности для систем комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="d8168-123">Enable the account in Active Directory so it will authenticate to Skype Room Systems v2.</span></span>
+5. <span data-ttu-id="199c5-125">Включение учетной записи в службе каталогов Active Directory, он будет выполнять проверку подлинности для систем комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="199c5-125">Enable the account in Active Directory so it will authenticate to Skype Room Systems v2.</span></span>
     
    ```
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. <span data-ttu-id="d8168-124">Включение учетной записи устройства с Скайп для Business Server 2015, включив свою учетную запись Active Directory систем комнаты Скайп версии 2 на Скайп для пула Business Server 2015:</span><span class="sxs-lookup"><span data-stu-id="d8168-124">Enable the device account with Skype for Business Server 2015 by enabling your Skype Room Systems v2 Active Directory account on a Skype for Business Server 2015 pool:</span></span>
+6. <span data-ttu-id="199c5-126">Включение учетной записи устройства с Скайп для Business Server 2015, включив свою учетную запись Active Directory систем комнаты Скайп версии 2 на Скайп для пула Business Server 2015:</span><span class="sxs-lookup"><span data-stu-id="199c5-126">Enable the device account with Skype for Business Server 2015 by enabling your Skype Room Systems v2 Active Directory account on a Skype for Business Server 2015 pool:</span></span>
     
    ```
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com 
    -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
    ```
 
-    <span data-ttu-id="d8168-125">Для этого вам понадобятся SIP-адрес и контроллер домена проекта.</span><span class="sxs-lookup"><span data-stu-id="d8168-125">You'll need to use the Session Initiation Protocol (SIP) address and domain controller for the Project</span></span> 
+    <span data-ttu-id="199c5-127">Для этого вам понадобятся SIP-адрес и контроллер домена проекта.</span><span class="sxs-lookup"><span data-stu-id="199c5-127">You'll need to use the Session Initiation Protocol (SIP) address and domain controller for the Project</span></span> 
     
-7. <span data-ttu-id="d8168-126">**Необязательный**.</span><span class="sxs-lookup"><span data-stu-id="d8168-126">**Optional.**</span></span> <span data-ttu-id="d8168-127">Также можно разрешить систем комнаты Скайп v2 для выполнения и приема телефонных звонков телефонной сети (общего пользования PSTN), позволяя корпоративной голосовой связи для вашей учетной записи.</span><span class="sxs-lookup"><span data-stu-id="d8168-127">You can also allow Skype Room Systems v2 to make and receive public switched telephone network (PSTN) phone calls by enabling Enterprise Voice for your account.</span></span> <span data-ttu-id="d8168-128">Корпоративной голосовой связи не является обязательным требованием для систем комнаты Скайп версии 2, но если требуется использовать возможности набора номера ТСОП для клиентских систем комнаты Скайп версии 2, здесь — это способ его включения:</span><span class="sxs-lookup"><span data-stu-id="d8168-128">Enterprise Voice isn't a requirement for Skype Room Systems v2, but if you want PSTN dialing functionality for the Skype Room Systems v2 client, here's how to enable it:</span></span>
+7. <span data-ttu-id="199c5-128">**Необязательный**.</span><span class="sxs-lookup"><span data-stu-id="199c5-128">**Optional.**</span></span> <span data-ttu-id="199c5-129">Также можно разрешить систем комнаты Скайп v2 для выполнения и приема телефонных звонков телефонной сети (общего пользования PSTN), позволяя корпоративной голосовой связи для вашей учетной записи.</span><span class="sxs-lookup"><span data-stu-id="199c5-129">You can also allow Skype Room Systems v2 to make and receive public switched telephone network (PSTN) phone calls by enabling Enterprise Voice for your account.</span></span> <span data-ttu-id="199c5-130">Корпоративной голосовой связи не является обязательным требованием для систем комнаты Скайп версии 2, но если требуется использовать возможности набора номера ТСОП для клиентских систем комнаты Скайп версии 2, здесь — это способ его включения:</span><span class="sxs-lookup"><span data-stu-id="199c5-130">Enterprise Voice isn't a requirement for Skype Room Systems v2, but if you want PSTN dialing functionality for the Skype Room Systems v2 client, here's how to enable it:</span></span>
     
    ```
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -104,9 +104,9 @@ ms.locfileid: "19568258"
    Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
    ```
 
-   <span data-ttu-id="d8168-p107">Обратите внимание, что используемые в примере контроллер домена и номер телефона необходимо заменить данными, соответствующими вашей среде. Значение параметра $true остается прежним.</span><span class="sxs-lookup"><span data-stu-id="d8168-p107">Again, you'll need to replace the provided domain controller and phone number examples with your own information. The parameter value $true stays the same.</span></span>
+   <span data-ttu-id="199c5-p108">Обратите внимание, что используемые в примере контроллер домена и номер телефона необходимо заменить данными, соответствующими вашей среде. Значение параметра $true остается прежним.</span><span class="sxs-lookup"><span data-stu-id="199c5-p108">Again, you'll need to replace the provided domain controller and phone number examples with your own information. The parameter value $true stays the same.</span></span>
     
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-2015-on-premises"></a><span data-ttu-id="d8168-131">Пример: Настройка учетной записи помещения в Exchange и Скайп для Business Server 2015 локально</span><span class="sxs-lookup"><span data-stu-id="d8168-131">Sample: room account setup in Exchange and Skype for Business Server 2015 on premises</span></span>
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-2015-on-premises"></a><span data-ttu-id="199c5-133">Пример: Настройка учетной записи помещения в Exchange и Скайп для Business Server 2015 локально</span><span class="sxs-lookup"><span data-stu-id="199c5-133">Sample: room account setup in Exchange and Skype for Business Server 2015 on premises</span></span>
 
 ```
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) 
@@ -122,12 +122,14 @@ Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
-## <a name="see-also"></a><span data-ttu-id="d8168-132">См. также</span><span class="sxs-lookup"><span data-stu-id="d8168-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="199c5-134">См. также</span><span class="sxs-lookup"><span data-stu-id="199c5-134">See also</span></span>
 
-[<span data-ttu-id="d8168-133">Планирование для помещения Скайп систем версии 2</span><span class="sxs-lookup"><span data-stu-id="d8168-133">Plan for Skype Room Systems v2</span></span>](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[<span data-ttu-id="199c5-135">Настройка учетных записей для систем комнаты Скайп версии 2</span><span class="sxs-lookup"><span data-stu-id="199c5-135">Configure accounts for Skype Room Systems v2</span></span>](room-systems-v2-configure-accounts.md)
+
+[<span data-ttu-id="199c5-136">Планирование для помещения Скайп систем версии 2</span><span class="sxs-lookup"><span data-stu-id="199c5-136">Plan for Skype Room Systems v2</span></span>](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[<span data-ttu-id="d8168-134">Развертывание Скайп комнаты систем версии 2</span><span class="sxs-lookup"><span data-stu-id="d8168-134">Deploy Skype Room Systems v2</span></span>](room-systems-v2.md)
+[<span data-ttu-id="199c5-137">Развертывание Скайп комнаты систем версии 2</span><span class="sxs-lookup"><span data-stu-id="199c5-137">Deploy Skype Room Systems v2</span></span>](room-systems-v2.md)
   
-[<span data-ttu-id="d8168-135">Настройка консоли систем комнаты Скайп версии 2</span><span class="sxs-lookup"><span data-stu-id="d8168-135">Configure a Skype Room Systems v2 console</span></span>](console.md)
+[<span data-ttu-id="199c5-138">Настройка консоли систем комнаты Скайп версии 2</span><span class="sxs-lookup"><span data-stu-id="199c5-138">Configure a Skype Room Systems v2 console</span></span>](console.md)
   
-[<span data-ttu-id="d8168-136">Управление Скайп комнаты систем версии 2</span><span class="sxs-lookup"><span data-stu-id="d8168-136">Manage Skype Room Systems v2</span></span>](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[<span data-ttu-id="199c5-139">Управление Скайп комнаты систем версии 2</span><span class="sxs-lookup"><span data-stu-id="199c5-139">Manage Skype Room Systems v2</span></span>](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
