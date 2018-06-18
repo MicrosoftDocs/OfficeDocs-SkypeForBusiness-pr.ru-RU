@@ -10,15 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 description: В этом разделе описывается управление учетными записями системы комнат Skype.
-ms.openlocfilehash: c47765b617e0856d1db25c7ed4902fe0af9924f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4d3535c9583481273f7a511143244b511cdb5819
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927790"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Управление учетными записями системы комнат Skype
  
-В этом разделе описывается управление учетными записями системы комнат Skype.
+В этом разделе описывается управление учетными записями системы комнат Skype. 
+
+> [!NOTE]
+> Версии 2 Скайп комнаты систем — это разные продукт с другой зависимости и процедуры развертывания. Сведения о версии 2 Скайп комнаты систем содержатся v2 систем комнаты Скайп [Общие сведения об управлении](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Перемещение между пулами Скайп комнаты системной учетной записи
 

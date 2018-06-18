@@ -23,3 +23,22 @@
 ### [Устройства с OMS](../manage/skype-room-systems-v2/oms.md)
 ### [Настройка с помощью XML-файла](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [С помощью средства восстановления](../manage/skype-room-systems-v2/recovery-tool.md)
+# Комнаты Скайп систем (v1)
+## Планирование
+### [Развертывание системы Скайп помещения в Скайп для Business Server](../deploy/deploy-clients/deploy-skype-room-system.md)
+## Развертывание
+### [Подготовка учетных записей Скайп и Скайп помещений системы Exchange](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
+#### [Один лес Скайп комнаты системы локальных развертываний](../deploy/deploy-clients/single-forest-on-premises-deployments.md)
+#### [Система комнаты Скайп нескольких лесов локальных развертываний](../deploy/deploy-clients/multiple-forest-on-premises-deployments.md)
+#### [Подготовка Скайп комнаты системных учетных записей в Office 365](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
+#### [Гибридные развертывания системы Скайп комнаты](../deploy/deploy-clients/hybrid-deployments.md)
+#### [Система комнаты Скайп и Скайп для бизнеса федеративных партнеров](../deploy/deploy-clients/room-system-and-federated-partners.md)
+### [Политика конференц-связи для Скайп помещений системных учетных записей](../deploy/deploy-clients/conferencing-policy.md)
+### [Системы комнаты Скайп доверенные домены](../deploy/deploy-clients/trusted-domains.md)
+### [Сведения о выполнении миграции системы Скайп комнаты](../deploy/deploy-clients/migration-considerations.md)
+### [Присоединение к вопросы домена Скайп комнаты системы](../deploy/deploy-clients/domain-joining-considerations.md)
+### [Система комнаты Скайп: Скайп для бизнеса лицензии на программное обеспечение](../deploy/deploy-clients/skype-for-business-software-liicense.md)
+### [Система комнаты Скайп управляемости и средства](../deploy/deploy-clients/manageability-and-tools.md)
+### [Сценарии установки системы комнаты Скайп комнаты](../deploy/deploy-clients/room-setup-scripts.md)
+## Управление
+### [Управление Скайп комнаты системных учетных записей](../deploy/deploy-clients/manage-skype-room-system-accounts.md)

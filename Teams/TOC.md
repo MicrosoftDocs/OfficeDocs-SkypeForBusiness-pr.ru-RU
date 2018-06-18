@@ -234,7 +234,7 @@
 ### [3.1 - рабочих групп и Скайп для бизнеса сосуществования и взаимодействия](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ## [4. Извлечение выгоды за счет освоения Teams пользователями.](continue-journey.md)
 ## [Вопросы и ответы. Концепция Skype для бизнеса и Teams](FAQ-journey.md)
-## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Руководство. Переход со Skype для бизнеса на Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 
 
@@ -268,6 +268,7 @@
 ### [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
 ### [Создание охватывающей всю компанию команды с помощью PowerShell](company-wide-team-creation-powershell.yml)
 ### [Справочник по командлетам PowerShell для Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
+### [Команды Microsoft Online вызова денежных средств](microsoft-teams-online-call-flows.md)
 
 
 # Устранение неполадок и поддержка

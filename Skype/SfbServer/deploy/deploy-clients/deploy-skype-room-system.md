@@ -1,5 +1,5 @@
 ---
-title: Развертывание системы комнат Skype в Skype для бизнеса Server
+title: Общие сведения о развертывании для системы Скайп комнаты
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,18 +10,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 description: Узнайте, как развертывание системы Скайп помещения, собрания комнаты решения, состоящая из интегрированной аппаратного и программного обеспечения, оптимизированный для присоединения к Скайп для деловых встреч.
-ms.openlocfilehash: 11cbae1cdbdd0585a2ea67625179ee7862309723
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ed31a1892ca1661282f87775fae805da5b5f8504
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927804"
 ---
-# <a name="deploy-skype-room-system-in-skype-for-business-server"></a>Развертывание системы комнат Skype в Skype для бизнеса Server
+# <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Планирования развертывания для системы комнаты Скайп в Скайп для бизнеса
  
 Узнайте, как развертывание системы Скайп помещения, собрания комнаты решения, состоящая из интегрированной аппаратного и программного обеспечения, оптимизированный для присоединения к Скайп для деловых встреч.
   
 > [!NOTE]
 > В целях контента, Скайп для бизнеса для смарт-системы комнаты, Crestron RL и Polycom CX8000 будет рассматриваться, как система Скайп помещений. 
+
+> [!NOTE]
+> Версии 2 Скайп комнаты систем — это разные продукт с другой зависимости и процедуры развертывания. Сведения о версии 2 Скайп комнаты систем содержатся [планирование систем комнаты Скайп версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
   
  Система комнаты Скайп — Скайп для клиента Business объединенных коммуникаций, оптимизированные для Скайп для деловых встреч в физической конференц-залов.
   
