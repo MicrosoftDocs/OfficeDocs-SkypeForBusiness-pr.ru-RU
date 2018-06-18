@@ -17,11 +17,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Этот отчет, а также другие Скайп для бизнес-отчеты подробные сведения по деятельности, включая использование ТСОП внутри организации. '
-ms.openlocfilehash: 90de47e67307b90b3f1e375237654cf48e0cb84a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+search.appverid: MET150
+ms.openlocfilehash: 0b6bc07afb44b4bb2ba7e2b31f51443c93645655
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933050"
 ---
 # <a name="users-blocked-report"></a>Отчет о заблокированных пользователей
 
@@ -30,9 +32,11 @@ ms.lasthandoff: 04/18/2018
  Изучите [Общие сведения об отчетах](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) для нескольких отчетов, которые доступны.
   
 > [!NOTE]
-> Вы можете просмотреть все отчеты Skype для бизнеса, если войдете в Центр администрирования Office 365 в качестве администратора. 
+> При входе с правами администратора к центру администрирования Office 365 могли видеть все Скайп для бизнес-отчетов. 
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Как получить Скайп для бизнес-пользователи заблокировано отчета
+
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
 
 - Перейдите в **Центр администрирования Office 365** > **центры администрирования** > **Скайп по центру администрирования Business** > **отчетов** > **Заблокированные пользователи**.
     

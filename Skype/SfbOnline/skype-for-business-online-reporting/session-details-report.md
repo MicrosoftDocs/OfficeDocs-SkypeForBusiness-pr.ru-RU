@@ -17,11 +17,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Новая панель мониторинга отчетов Office 365 показывающий обзор действий по продуктов Office 365 в вашей организации. Он позволяет работать отдельных продуктов уровня отчетами, чтобы предоставить более детальные сведения о действия в рамках каждого продукта.
-ms.openlocfilehash: 1e72c4f13934961808aa861b1863db2befa6ea49
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+search.appverid: MET150
+ms.openlocfilehash: 63d0d049e7522d1e62f717c063eb92f658a5623f
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933178"
 ---
 # <a name="session-details-report"></a>Отчет о сеансе
 

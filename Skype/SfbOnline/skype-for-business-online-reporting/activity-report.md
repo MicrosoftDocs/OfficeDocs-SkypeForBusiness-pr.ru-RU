@@ -18,12 +18,13 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Узнайте, как получить Скайп для отчетов о деятельности, он содержит и интерпретации данных. '
-ms.openlocfilehash: 3240f26159e39169e1e31dcdb278acbd43a13f11
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+search.appverid: MET150
+ms.openlocfilehash: c827ed5c853a1f3e474f5f115a0dd1ef1975b5f7
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19516867"
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933110"
 ---
 # <a name="activity-report"></a>Отчета об активности
 

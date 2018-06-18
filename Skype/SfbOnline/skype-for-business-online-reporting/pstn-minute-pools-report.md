@@ -17,12 +17,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: В новом центре администрирования Skype для бизнеса в разделе Отчеты приводится сводка операций по звонкам и аудиоконференциям в организации. В ней можно также просмотреть детализированные отчеты по отдельным продуктам. Например Скайп для бизнеса PSTN minute пулы отчета можно использовать для просмотра потребления во время текущего месяца вашей организации в минутах.
-ms.openlocfilehash: be1b3cbea37f8d66c25ef6c1e75f18e7473a299e
-ms.sourcegitcommit: 0a0fd436d4d732710bb65e1809ac28dd2e0df41a
+search.appverid: MET150
+ms.openlocfilehash: 876455807887694f7e885038e7473634a40f5f21
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2018
-ms.locfileid: "19526947"
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933060"
 ---
 # <a name="pstn-minute-pools-report"></a>Отчет о minute пулы ТСОП
 

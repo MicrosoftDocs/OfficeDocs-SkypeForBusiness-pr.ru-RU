@@ -18,18 +18,19 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems in Skype for Business.
-ms.openlocfilehash: c8d73ee128425f106174ccad60a0b0c947cc07e5
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 59be26d9f5adc48b71b2b675f872025b13eb206e
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933070"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Вызов аналитики и панель мониторинга качества звонка
 
 [] В Skype для бизнеса проблемы с качеством звонков можно отслеживать и устранять двумя способами (с помощью средства аналитики звонков и панели мониторинга качества звонков), которые описываются в этой статье.
   
 > [!NOTE]
-> На данный момент доступна лишь предварительная версия средства аналитики звонков. Описание и изображения в этой статье могут не соответствовать фактическому интерфейсу. 
+> На данный момент доступна лишь предварительная версия средства аналитики звонков. Описание и изображения в этой статье могут не соответствовать фактическому интерфейсу. Только последние 30 дней данных доступен в аналитике вызова.
   
 ## <a name="whats-call-analytics-and-when-should-i-use-it"></a>Что представляет собой средство аналитики звонков и для чего оно предназначено?
 
