@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Прочтите этот раздел, чтобы узнать о оборудование, программное обеспечение и требования к инфраструктуре для запуска Скайп для бизнеса на Mac.
-ms.openlocfilehash: a963a3bd563f82a2fd26b2a72e0610c10c0be742
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9fd03dbc04937dc34145c97a3abd4fc561ae0270
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503958"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Скайп для бизнеса на требования к клиентскому Mac
  
@@ -73,11 +74,8 @@ ms.lasthandoff: 05/24/2018
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="Infrastructure"> </a>
 
-#### 
-
 [Требования DNS для Скайп для Business Server 2015](../../plan-your-deployment/network-requirements/dns.md)
 
 [Часто задаваемые вопросы](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   
 [Известные проблемы](https://go.microsoft.com/fwlink/p/?LinkId=798228)
-

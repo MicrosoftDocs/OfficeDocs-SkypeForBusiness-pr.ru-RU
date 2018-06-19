@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Настройка сервера-посредника для использования только для определенных узлов и областей в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: ce9daafdde21bc2d30a942ce6b888f2cc7c4e2ff
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: df9e36fff04e86b5df743710d35762e458b1c44e
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500799"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-2015-to-use-site-and-region-information"></a>Настройка глобальных параметров обхода мультимедиа в Скайп для 2015 Business Server для использования сведений об узлах и областях
  
@@ -56,7 +57,4 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)
-

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Удаленное управление звонками была компонента в предыдущих версиях Lync Server, который позволяет пользователям управлять телефонах УАТС с Lync Server. В Скайп Business Server этот компонент был заменен звонок с помощью рабочих. В версии клиента для Скайп Business Server 2015 и переход вперед, удаленного вызова элемента управления больше не доступен для настройки в клиенте и была удалена для использования.
-ms.openlocfilehash: e3a8031a79d547a279b377a45e1e8461cd47a2e7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 83e3138d11113d46b3225980205150f79d85235c
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504035"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business-2015"></a>Планирование удаленного управления звонками в Skype для бизнеса 2015
  
@@ -38,11 +39,8 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Планирование позвонить с рабочего в Скайп для Business Server 2015](call-via-work.md)
   
 [Сравнение функций для настольных компьютеров для Скайп для бизнеса](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
 
 [Сделать Скайп для вызова бизнеса, но использовать стационарный телефон УАТС для аудио](https://support.office.com/en-us/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
-

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Сводка: Узнайте, как развертывание корпоративной голосовой связи для Скайп для 2015 Business Server в центральном узле.'
-ms.openlocfilehash: 858519652b9f50e11e87c2ac9d3777bae9371ae0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1f5a81882e1e4dd7c580e7dba084e6aa5d2f01a1
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500813"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server-2015"></a>Развертывание корпоративной голосовой связи в Skype для бизнеса Server 2015
  
@@ -59,7 +60,4 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Планирование корпоративной голосовой связи в Скайп Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
-

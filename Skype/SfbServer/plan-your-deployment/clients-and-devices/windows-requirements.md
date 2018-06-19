@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Сводка: Обзор требований к поддержки клиентов Windows при планировании Скайп Business Server 2015.'
-ms.openlocfilehash: 72e34e334a9b43139b77aec93f29adb76dd56241
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bbfdef4a9ed811ca0bae7e07a45dbf24aa48d4cb
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504084"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Требования к клиентскому Windows и поддержка программного обеспечения
  
@@ -70,8 +71,6 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Планирование для клиентов собрания (веб-приложения и приложения собрания)](meetings-clients.md)
   
 [Скайп для бизнеса на требования к клиентскому Mac](mac-requirements.md)
@@ -79,4 +78,3 @@ ms.lasthandoff: 05/24/2018
 [Загрузить Скайп для бизнеса на всех устройствах](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)
   
 [Требования к системе для Office 365](https://products.office.com/en-us/office-system-requirements)
-

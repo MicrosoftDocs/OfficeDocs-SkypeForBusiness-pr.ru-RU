@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: Настройка SNMP-приложения для работы с E9-1-1 в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 4d864d8617f679867e514f3cc74ae4fe0201a989
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6024119042bede23f6b38f07c6ccdffa86a76db7
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500419"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server-2015"></a>Настройка SNMP-приложения в Skype для бизнеса Server 2015
  
@@ -42,8 +43,6 @@ ms.lasthandoff: 05/03/2018
    ```
 
 ## <a name="see-also"></a>См. также
-
-#### 
 
 [Командлет Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

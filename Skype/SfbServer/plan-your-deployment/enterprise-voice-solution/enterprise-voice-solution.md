@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Сводка: Сведения о возможностях по планированию единое решение голосовой связи и коммуникаций в Скайп Business Server 2015.'
-ms.openlocfilehash: 9e0b0be7652f8f400e697086b09b447f7f97e958
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b8870cb252613a362c38262185e779b06dff6136
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504259"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server-2015"></a>Планирование решения корпоративной голосовой связи в Скайп Business Server 2015
  
@@ -45,11 +46,8 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Планирование корпоративной голосовой связи в Скайп Business Server 2015](enterprise-voice.md)
   
 [Планирование позвонить с рабочего в Скайп для Business Server 2015](call-via-work.md)
   
 [Планирование удаленного управления звонками в Скайп для бизнеса 2015](remote-call-control.md)
-

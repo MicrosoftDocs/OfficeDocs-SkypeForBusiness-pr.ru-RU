@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Включите пользователей для парковки вызовов в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: b93a9393a095a4860bfd8f392f95d834dad6fa71
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 88385ae1332905ae242cf0b4a5002f96b336a1af
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500453"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business-2015"></a>Включение для пользователей приостановки звонков в Skype для бизнеса 2015
  
@@ -64,7 +65,4 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Создание или изменение политики голосовой связи и Настройка записей использования ТСОП в Скайп для бизнеса 2015](voice-policy-and-pstn-usage-records.md)
-

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Создание политики между сайтами, которые используются с корпоративной голосовой связи контроля допуска звонков в Скайп для Business Server.
-ms.openlocfilehash: f8c09f850a001b634ee63199210733000775fd0a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6dc1469950bfac46110953c0e354cd50f4f89688
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500721"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server-2015"></a>Создание политик межсайтового взаимодействия в Skype для бизнеса Server 2015
  
@@ -45,8 +46,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Новый CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   
 [Командлета Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
@@ -54,4 +53,3 @@ ms.lasthandoff: 05/03/2018
 [SET-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
   
 [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
-

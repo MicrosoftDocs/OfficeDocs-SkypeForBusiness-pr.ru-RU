@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Управление параметрами группы ответа уровня приложения, такие как параметры обратного вызова и музыка при удержании, в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: eaf31904958997561be056da728ff3b0b31f9d8b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2133a85a9ae929a55e5edf0206932d3048dace34
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500538"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business-2015"></a>Управление параметрами группы ответа уровня приложения в Skype для бизнеса 2015
  
@@ -55,11 +56,8 @@ ms.lasthandoff: 05/03/2018
 
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Командлет Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
 [Командлет Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
-

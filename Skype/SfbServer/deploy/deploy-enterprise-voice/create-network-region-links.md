@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Создание или изменение связей между областями сети, используемые с корпоративной голосовой связи контроля допуска звонков в Скайп Business Server.
-ms.openlocfilehash: e0fbabb811ec604b3a0155074a01bc4b02bd6152
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d1f8814c60a99ecd76fe87993549e8dba733e52c
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500677"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server-2015"></a>Создание связей между сетевыми областями в Skype для бизнеса Server 2015
  
@@ -69,8 +70,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Новый CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
@@ -78,4 +77,3 @@ ms.lasthandoff: 05/03/2018
 [SET-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
 [Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
-

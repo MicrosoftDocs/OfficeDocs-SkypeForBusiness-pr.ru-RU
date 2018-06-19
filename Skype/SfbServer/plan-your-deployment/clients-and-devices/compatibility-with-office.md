@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Понимаете, могут получить доступ к Скайп для функции Business из Outlook и других приложений Microsoft Office.
-ms.openlocfilehash: 186b8951718e6903ec7cc4f8c317504b74917716
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 49bfb52925855ad7fd5ce0564056cfd8c5039ef6
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503986"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Скайп для обеспечения совместимости бизнеса с помощью приложений Office
  
@@ -65,15 +66,12 @@ ms.lasthandoff: 05/03/2018
    
 ## <a name="see-also"></a>См. также
  
-
 [Требования к клиентскому Windows и поддержка программного обеспечения](windows-requirements.md)
   
 [Планирование для клиентов собрания (веб-приложения и приложения собрания)](meetings-clients.md)
-#### 
 
 [Взаимодействие с клиентом в Lync 2013](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)
   
 [Требования к клиентской системе](http://technet.microsoft.com/library/38f3a465-dac1-4381-bc59-270a4ef07ced.aspx)
   
 [Требования к приложение Lync магазина Windows](http://technet.microsoft.com/library/5f2e0a40-8450-4f61-b6f6-913fc1906020.aspx)
-
