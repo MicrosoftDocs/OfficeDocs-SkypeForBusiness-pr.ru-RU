@@ -287,6 +287,7 @@
 
 #Teams для образовательных учреждений
 ## [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
+## [Ресурсы группы для образовательных учреждений "Администраторы"](resources-teams-edu.md)
 
 # [Документация разработчика для Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
 
