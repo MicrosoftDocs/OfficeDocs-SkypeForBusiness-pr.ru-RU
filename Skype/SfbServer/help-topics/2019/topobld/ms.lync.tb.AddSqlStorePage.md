@@ -3,7 +3,6 @@ title: Добавление хранилища SQL
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: Чтобы определить новое хранилище SQL, что означает, что есть определить базу данных на основе SQL Server и экземпляр SQL Server — экземпляр по умолчанию или именованный экземпляр, следует указать приведенные ниже.
-ms.openlocfilehash: fcc498ea217afec1cac09ed4dc167878c58002f0
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3e61767b1c014692a5375ede6de103fffcf5284f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987307"
 ---
 # <a name="add-sql-store"></a>Добавление хранилища SQL
  

@@ -3,7 +3,6 @@ title: Посредник расширитель общих настроек с�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Изменение свойств серверов-посредников в этом диалоговом окне. В левой представляют собой набор быстрые ссылки для параметров общих параметров, настройки следующего перехода и настройки шлюза ТСОП. В каждом разделе приведены следующие параметры:'
-ms.openlocfilehash: bc5016c9dbeb6b0693444f930c9883b1736258d2
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 39e9f57efd695c7bb90386dddc3f106106bb867e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990977"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Посредник расширитель общих настроек сервера для Lync Server 2010
  
@@ -45,9 +45,6 @@ ms.lasthandoff: 05/24/2018
     
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Обзор распределения каналов SIP](http://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
   
 [Параметры развертывания шлюза ТСОП](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
-

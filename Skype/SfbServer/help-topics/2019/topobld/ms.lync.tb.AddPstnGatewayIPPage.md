@@ -3,7 +3,6 @@ title: Определите IP-адрес шлюза IP или ТСОП
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Определение адресов IPv4 или IPv6 для шлюза IP-адресов или по телефону коммутируемой телефонной сети (общего пользования PSTN), выбрав включить IPv4 или включить IPv6. Можно либо использовать все настроенные IP-адреса или ограничьте использование службы выбранных IP-адресов.
-ms.openlocfilehash: 13e8cd916a568174b754ba8804faeb2612656421
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: adb8bfee46bbf32edef6111ee40843ebf47bb453
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987356"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Определите IP-адрес шлюза IP или ТСОП
  
@@ -26,7 +26,4 @@ ms.lasthandoff: 05/24/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Связи с телефонным требования к конференц-связи](http://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
-

@@ -3,7 +3,6 @@ title: Внешний узел области применения прилож�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 description: Узел серверы доверенных приложений перечислены пулы доверенных приложений на этом сайте. Пулы доверенных приложений содержат серверы, запустите доверенными приложениями объединенных коммуникаций Майкрософт, но не запускайте Скайп для ролей сервера. Можно выполнить следующее действие.
-ms.openlocfilehash: c7f877e069b240c80219ce24f15943b2cce5fb08
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 4d71f5527b97b290c03ff125b49c5a2a57d22d3d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990065"
 ---
 # <a name="external-applications-scope-node"></a>Внешний узел области применения приложений
  

@@ -3,7 +3,6 @@ title: Расширитель внешнего приложения общих �
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Чтобы изменить свойства сервера доверенных приложений, который уже был определен, выполните следующие действия.
-ms.openlocfilehash: 4104b9cf22a3db36afd159c0b7d9812142112ece
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f6acc3f31e294cab08b688327c7cc9b8f25bea3b
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987286"
 ---
 # <a name="external-application-general-settings-expander"></a>Расширитель внешнего приложения общих параметров
  

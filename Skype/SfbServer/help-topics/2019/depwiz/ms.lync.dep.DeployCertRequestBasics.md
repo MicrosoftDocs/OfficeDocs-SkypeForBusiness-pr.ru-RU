@@ -3,7 +3,6 @@ title: Запрос сертификата (основные сведения)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: Страница Настройка имени и безопасности предоставляет текстовое поле для определения понятное имя раскрывающегося списка для длины бита для пары ключей и закрытого и флажок, который позволяет пометить закрытый ключ сертификата как экспортируемый.
-ms.openlocfilehash: e9c70074a168b00288b931cb168b5fea210367c2
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9b8e306c9fa7611622e293185dcf08ff97d3e876
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991987"
 ---
 # <a name="certificate-request-basic"></a>Запрос сертификата (основные сведения)
  

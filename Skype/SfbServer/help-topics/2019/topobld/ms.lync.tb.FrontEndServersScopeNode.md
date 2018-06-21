@@ -3,7 +3,6 @@ title: Узел области применения серверов перед�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: Узел пулы переднего плана Enterprise Edition выводится пулов переднего плана на этом сайте, а узлы Standard Edition серверы переднего плана серверов Standard Edition на этом сайте. Можно выполнить следующее действие.
-ms.openlocfilehash: 4ba5bbc6f49c5f5ec63a8fb6f9766ce38c14a833
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: cc9c7e04e3037d2e3d9e8d0c658579d76c9601c3
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991019"
 ---
 # <a name="front-end-servers-scope-node"></a>Узел области применения серверов переднего плана
  

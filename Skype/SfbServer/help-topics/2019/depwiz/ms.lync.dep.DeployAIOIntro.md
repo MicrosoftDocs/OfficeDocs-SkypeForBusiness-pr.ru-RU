@@ -3,7 +3,6 @@ title: Подготовка отдельного сервера Standard Edition
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 description: Чтобы начать установку Скайп для сервера Business Server 2015 Standard Edition, который будет содержать центральное хранилище управления и других выровненных служб, которые можно выбрать, необходимо войти качестве должна быть членом локальной группы администраторов на сервере, который будет стать сервера Standard Edition. Странице Prepare один стандартный выпуск сервера подробно описываются требования к начальной установки. Компьютер должен быть членом домена, в котором планируется развернуть его, и необходимо успешно выполнить Подготовка схемы, домена и леса для своего леса.
-ms.openlocfilehash: 9c43f3bc4574d35577b483cf1ca0748f78f3d04a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 32a8241e2a7259b8b59007f62d4d604cab94f16e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19988819"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>Подготовка отдельного сервера Standard Edition (введение)
  

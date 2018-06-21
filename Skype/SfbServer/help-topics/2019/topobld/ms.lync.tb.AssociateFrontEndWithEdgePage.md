@@ -3,7 +3,6 @@ title: Связывание сервера переднего плана с по
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 description: С каждым пулом переднего плана может быть связан только один пограничный сервер или пограничный пул. Если к сайту разрешен доступ внешних пользователей, можно включить поддержку удаленных пользователей. Возможна также поддержка федеративных пользователей, включая пользователей конкретных поставщиков общедоступных услуг связи для обмена мгновенными сообщениями (например, Windows Live), и поддержка анонимных пользователей.
-ms.openlocfilehash: ab8ee5ae7ca44b6b4aa70b355cf9d406f69e64f7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b4faaf7e6708af6b369846391087ac35742e1d42
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987342"
 ---
 # <a name="associate-front-end-with-edge"></a>Связывание сервера переднего плана с пограничным
  

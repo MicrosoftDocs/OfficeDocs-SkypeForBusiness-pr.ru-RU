@@ -3,7 +3,6 @@ title: Создание новой или редактирование суще�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: b9c456dab073d15a619adf7792fdb2055389999c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d765cc2eef7ff895480e1fe4156d4517fbbd699e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990893"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>Политика внешнего доступа: создание новой или редактирование существующей
  

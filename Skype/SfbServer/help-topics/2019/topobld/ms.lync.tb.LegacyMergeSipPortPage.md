@@ -3,7 +3,6 @@ title: Порт SIP для объединения с устаревшей вер
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 description: 'По умолчанию обмен данными с клиентами, интерфейсными пулами прежних версий и серверами осуществляется через SIP-порт 5061, работающий по протоколу TCP. Если значение по умолчанию не используется, выберите порт SIP для всех пулов и серверов: и введите новое значение.'
-ms.openlocfilehash: e0e0acc954586152d3a10835011ae1025425af90
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0ce8971f1628242d16698b03b22ded829e6979bb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987748"
 ---
 # <a name="legacy-merge-sip-port"></a>Порт SIP для объединения с устаревшей версией
  

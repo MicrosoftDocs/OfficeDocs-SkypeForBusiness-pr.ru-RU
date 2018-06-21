@@ -3,7 +3,6 @@ title: Добавление компонентов переднего плана
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
 description: Выберите каждый компонент, который необходимо включить для пула переднего плана. Как минимум, необходимо развернуть мгновенного обмена Мгновенными сообщениями, которая всегда включена и его нельзя отменить. Также существует возможность развертывания другие функции, например, конференц-связи, корпоративной голосовой связи и допуска контроля допуска звонков. Некоторые функции, зависящие от топологии.
-ms.openlocfilehash: f0f9933d029a63f534e1ed94d8e4179d98594226
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7908cd64256a2104cd7f08ad78af5787664ae63e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987923"
 ---
 # <a name="add-front-end-features-2010"></a>Добавление компонентов переднего плана 2010
  

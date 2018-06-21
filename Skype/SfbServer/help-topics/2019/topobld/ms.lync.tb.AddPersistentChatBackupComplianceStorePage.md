@@ -3,7 +3,6 @@ title: Добавление резервного хранилища SQL Server �
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: Настройка резервного копирования соответствия требованиям хранилища SQL Server, который будет предоставлять резервных копий баз данных для сервера сохраняемого чата или соответствия сервера сохраняемого чата хранилища SQL Server.
-ms.openlocfilehash: 7143ecdc51caf941196f1499e9cc1dc35764b0d3
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 5dd121facf9008cb1698b0b9ee46eb0dbaa76afa
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987377"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Добавление резервного хранилища SQL Server соответствия сохраняемого чата
  
@@ -46,8 +46,6 @@ ms.lasthandoff: 05/25/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [Требования к серверу для Скайп для Business Server 2015](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
@@ -57,4 +55,3 @@ ms.lasthandoff: 05/25/2018
 [Настройка службы соответствия для сервера сохраняемого чата в Скайп для Business Server 2015](../../../manage/persistent-chat/configure-compliance.md)
   
 [Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
-

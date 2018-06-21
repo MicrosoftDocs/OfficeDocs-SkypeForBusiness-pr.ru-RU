@@ -3,7 +3,6 @@ title: Выбор правил преобразования
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 55776a94-4888-4436-a3b6-0e6f8252e392
 description: Корпоративной голосовой связи требуется, что все номера строк преобразовываться в формат E.164 для выполнения обратного номеров поиск. Ответная часть магистрали (то есть связанный шлюз, УАТС или магистраль SIP) может требовать того, чтобы номера были указаны в местном формате набора номеров. Чтобы преобразовать номера из формата E.164 в местный формат набора номеров, можно задать одно или несколько правил преобразования, которые будут изменять URI запроса перед отправкой его в ответную часть магистрали. Например, можно написать правило преобразования для удаления +44 из начала строки набора и замены этой последовательности номером 0144.
-ms.openlocfilehash: b0f99ee8faa679c25d9b2de1b129970d07291dbe
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 66e9c86679ead2832ecb8e0069e60fdcc9eae49f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19992134"
 ---
 # <a name="select-translation-rules"></a>Выбор правил преобразования
  

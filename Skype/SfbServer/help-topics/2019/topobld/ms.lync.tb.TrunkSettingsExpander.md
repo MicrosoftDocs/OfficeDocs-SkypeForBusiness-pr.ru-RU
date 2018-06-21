@@ -3,7 +3,6 @@ title: Расширитель настроек магистральной лин
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: Чтобы изменить параметры магистральной линии SIP, выполните следующие действия.
-ms.openlocfilehash: 511f1496d77b44dbd1ce94a229915a1edfa32e32
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: cfb8626d0aa7933444269c93ab69992c6a43185a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19989869"
 ---
 # <a name="trunk-settings-expander"></a>Расширитель настроек магистральной линии связи
  
@@ -41,9 +41,6 @@ ms.lasthandoff: 05/25/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Контрольный список развертывания для распределения каналов SIP](http://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
   
 [Компоненты и топологии для распределения каналов SIP](http://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
-
