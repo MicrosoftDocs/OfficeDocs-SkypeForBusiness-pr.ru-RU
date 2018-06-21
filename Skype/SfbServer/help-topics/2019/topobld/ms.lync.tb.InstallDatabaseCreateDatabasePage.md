@@ -3,7 +3,6 @@ title: Установка и создание баз данных
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: Выберите базы данных, которые вы хотите создать для вашего развертывания. По умолчанию базы данных будут создаваться на определенном SQL Server на определенном сайте и автоматически развертывание и настройка файлов базы данных на SQL Server, размещении баз данных на основе.
-ms.openlocfilehash: cf838e66dc5e9592ba71dd9d44fa5fc333c6dbc7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 70bd185b4e559215df7d3623dc5591648e718ed9
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979360"
 ---
 # <a name="install-and-create-databases"></a>Установка и создание баз данных
  
@@ -25,7 +25,7 @@ ms.lasthandoff: 05/24/2018
  **Выберите базы данных, которую вы хотите создать**: установите флажок все базы данных, которые планируется развернуть и настроить. Установите флажок некоторых или всех баз данных, которые нужно развернуть. 
   
 > [!CAUTION]
-> SQL Server должны уже настроены для экземпляра (если они имеются) и должны быть открыты порты брандмауэра для экземпляра, который развертывает администратор баз данных для учета. Дополнительные сведения см [Настройка SQL Server для Lync Server 2013 Preview](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
+> SQL Server должны уже настроены для экземпляра (если они имеются) и должны быть открыты порты брандмауэра для экземпляра, который развертывает администратор баз данных для учета. Дополнительные сведения см [Configure SQL Server](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
   
  **Дополнительно**: щелкните на сервере SQL Server и нажмите кнопку **Дополнительно** , чтобы выбрать расположения файлов на SQL Server для базы данных. Сведения о размещение файлов базы данных в разделе [База данных установки с помощью консоли управления Lync Server](http://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)
   

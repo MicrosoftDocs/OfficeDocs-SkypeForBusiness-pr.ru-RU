@@ -3,7 +3,6 @@ title: Мастер гибридной войти в Office 365
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -16,11 +15,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: Используйте Скайп к управляемости гибридного сервера Business мастера по настройке среды для гибридной среды с Скайп для бизнеса в Интернет.
-ms.openlocfilehash: 3c1ab3ea2615469ae10f1d6a57fff2a1805a7e1c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 03183e8935119b7caf623e9478ec2239f29c352d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19968519"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Мастер гибридной среды: вход в Office 365
  

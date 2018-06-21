@@ -3,7 +3,6 @@ title: Сохранить параметры конфигурации незаф
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: В диалоговом окне незафиксированные параметры конфигурации голосовой связи можно использовать для просмотра все изменения, внесенные. Прокрутите диалоговое окно, чтобы просмотреть все несохраненные изменения, или нажмите стрелки, чтобы развернуть или свернуть различные разделы. После завершения нажмите кнопку Сохранить, чтобы сохранить все эти изменения или нажмите кнопку Отмена, чтобы внести изменения.
-ms.openlocfilehash: d6c7b95329709732f42289f616e21929a0ed976d
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 30c006da73a086df1d84f4b9049006ea5096da5c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976004"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>Незафиксированные параметры конфигурации голосовой связи: фиксация
  

@@ -3,7 +3,6 @@ title: Добавление A / V MCU пула
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: Все Enterprise Edition серверов переднего плана из центрального сайта, у которых нет выровненных A / аудио-и видеоконференциями службы можно использовать одном автономного A / пула аудио-и видеоконференциями. Для каждого A аудио- и видео конференций, необходимо указать полное доменное имя (FQDN) для пула и является ли он будет иметь только один объект аудио- и видеоконференций или нескольких балансировку сетевой нагрузки A / V серверах конференц-связи.
-ms.openlocfilehash: d1712829030836446c06a2e335c424d51a19e466
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 67cb56d1a8556464906e0b05bae26c0c6a2e7340
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966853"
 ---
 # <a name="add-av-mcu-pool"></a>Добавление A / V MCU пула
  

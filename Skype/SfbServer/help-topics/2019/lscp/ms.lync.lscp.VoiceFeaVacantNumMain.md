@@ -3,7 +3,6 @@ title: Неназначенный номер телефона
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Неназначенные номера — это телефонные номера, допустимые для вашей организации, но не назначенные пользователю или телефону. В таблице неназначенных номеров указывается, как обрабатываются такие номера.
-ms.openlocfilehash: d145b3ed7e55404e3763e0bdf65ae467a000c180
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: da019253c0ed76446e0bb385e58e21c027628802
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19968330"
 ---
 # <a name="unassigned-phone-number"></a>Неназначенный номер телефона
  
@@ -77,6 +77,6 @@ ms.lasthandoff: 05/25/2018
     
 - **Оповещения** Извещение, воспроизводимое для этого диапазона неназначенных номеров.
     
-Для получения дополнительных сведений о объявления функций и возможностей см [в приложении объявлений в Скайп для бизнеса 2015](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) в документации по планированию. Для получения дополнительных сведений о работе с диапазоны неназначенных номеров содержатся в документации по операциям [Настройка маршрутизации для неназначенных телефонных номеров](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) .
+Для получения дополнительных сведений о объявления функций и возможностей см [в приложении объявлений в Скайп для бизнеса](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) в документации по планированию. Для получения дополнительных сведений о работе с диапазоны неназначенных номеров содержатся в документации по операциям [Настройка маршрутизации для неназначенных телефонных номеров](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) .
   
 

@@ -1,9 +1,8 @@
 ---
 title: Обновление устройств
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: Периодически корпорация Майкрософт выпускает новый набор обновления встроенного устройства для Скайп для Business Phone Edition, который можно импортировать на серверах и распространения для пользователей. Можно получить последние версии из правила обновления устройств, перейдя на страницу справки и поддержки на веб-сайте Microsoft и поиск forPhone Edition.Download последнюю версию пакета обновления и извлеките файлы в папку на компьютере, на которых требуется отправить обновления. После извлечения файлы затем можно использовать командлет Import-CsDeviceUpdate для импорта правил обновления устройств, обнаруженных в извлеченные. CAB-файл (который будет иметь имя UCUpdates.cab). Дополнительные сведения см Import-CsDeviceUpdate.
-ms.openlocfilehash: 584c04e8169eec4621c91c469127b99388f4820a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 793f7328d3396f1e734e709f24f61bb802c26a47
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978071"
 ---
 # <a name="device-update"></a>Обновление устройства
  
@@ -60,7 +60,4 @@ ms.lasthandoff: 05/24/2018
 Для получения дополнительных сведений об устройстве веб-службе обновления видеть [Просмотр обновлений программного обеспечения для устройств в вашей организации](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) в документации по планированию.
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)
-

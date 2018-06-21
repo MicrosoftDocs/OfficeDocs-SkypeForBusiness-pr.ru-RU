@@ -3,7 +3,6 @@ title: Очередь группы ответа
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: Группы ответа состоят из групп агентов, очереди и рабочие процессы. Очереди группы ответа хранят звонки в группу ответа, пока агент отвечает на звонок.
-ms.openlocfilehash: ee9e60edaf6b0ffa690a75817e9f1c41c049e344
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 8ebdc6a421261f049bcfdd1da8054d3d05849f3f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971477"
 ---
 # <a name="response-groups-queue"></a>Очередь группы ответа
  
@@ -52,6 +52,6 @@ ms.lasthandoff: 05/25/2018
     
 - **Описание** Описание очереди.
     
-Для получения дополнительных сведений о группы ответа функций и возможностей см. в документации по планированию [Планирование приложения группы ответа в Скайп для Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) . Для получения дополнительных сведений о работе с очередями группы ответа содержатся в документации по операциям [Управление очередями группы ответа](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) .
+Для получения дополнительных сведений о группы ответа функциях и возможностях видеть [Планирование приложения группы ответа в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Для получения дополнительных сведений о работе с очередями группы ответа содержатся в документации по операциям [Управление очередями группы ответа](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) .
   
 

@@ -3,7 +3,6 @@ title: Добавьте полное доменное имя пула довер
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 description: Чтобы определить полное доменное имя пула доверенных приложений (FQDN), укажите следующие параметры.
-ms.openlocfilehash: af21ab09797a5b81f2071a37a2668d556f0a4012
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1a6bd10d1091d5e3b494a5c20e3ff294c279ccba
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976853"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>Добавьте полное доменное имя пула доверенных приложений
  

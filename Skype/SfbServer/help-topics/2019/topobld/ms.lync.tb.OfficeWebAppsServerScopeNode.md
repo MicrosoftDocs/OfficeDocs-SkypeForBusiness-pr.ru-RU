@@ -3,7 +3,6 @@ title: Расширитель узла области применения се�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: 'Щелкните правой кнопкой мыши на серверы Office Web Apps в построителе топологий, чтобы выполнить следующее:'
-ms.openlocfilehash: 4418b338be168d997b3e3b703cbbfa8211332d39
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: acbe1da8c4da2e54af9974859320ccdff23b377c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971223"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Расширитель узла области применения сервера Office Web Apps
  

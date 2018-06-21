@@ -3,7 +3,6 @@ title: Службы SQL Server Reporting Services (вызов)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 description: После предоставления необходимой информации для развертывания сервера мониторинга отчетов Microsoft SQL Server 2008 R2 или для служб Microsoft SQL Server 2012 отчета, на странице выполнение команд отображается сводка по переданные команды для установки отчеты служб отчетов SQL Server.
-ms.openlocfilehash: 54be791fb026d3268ce8b33ea4c82fe5fd1374df
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 39710ceb9c2612fcc7128fbf175f4c0c48952349
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19967763"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>Службы SQL Server Reporting Services (вызов)
  

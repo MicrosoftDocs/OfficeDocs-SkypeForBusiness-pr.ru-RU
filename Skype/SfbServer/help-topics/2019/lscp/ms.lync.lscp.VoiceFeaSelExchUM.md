@@ -3,7 +3,6 @@ title: Выбор автосекретаря единой системы обм�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 description: Используйте диалоговое окно Выбор единой системы обмена СООБЩЕНИЯМИ автосекретаря Exchange для выбора Exchange единой системы обмена СООБЩЕНИЯМИ автосекретарь, который будет обрабатывать входящие звонки для диапазона неназначенных номеров.
-ms.openlocfilehash: 7dd7c7ec8276e1b896a277f4cbcaab0fd9987f3c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 57e2334d6b15400228b0f2e723e25b8cce0a3350
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979647"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Выбор автосекретаря единой системы обмена СООБЩЕНИЯМИ Exchange
  

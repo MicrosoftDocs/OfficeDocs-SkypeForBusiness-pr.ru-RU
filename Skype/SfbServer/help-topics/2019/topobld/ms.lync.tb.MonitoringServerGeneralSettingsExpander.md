@@ -3,7 +3,6 @@ title: Расширитель общих параметров сервера м�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 description: 'В построителе топологий можно изменить свойства для отдельного сервера мониторинга, щелкнув правой кнопкой мыши сервер мониторинга, в дереве консоли и затем выбрав действие на панели инструментов или, нажав кнопку задачи в области действий выберите команду Изменить свойства и при изменении любого из следующих параметров:'
-ms.openlocfilehash: 049479e0a16764b5da91c43a003521238e0c1bdd
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: fb4bc9a26cddc3497a7f80f02821ae578742a199
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19977042"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Расширитель общих параметров сервера мониторинга
  

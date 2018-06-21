@@ -3,7 +3,6 @@ title: Внешний узел области применения прилож�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 'Для этого узла указывается полное доменное имя пула, параметр репликации и пул следующего перехода для пула доверенных приложений. Вы можете выполнить следующие действия:'
-ms.openlocfilehash: 169abb029187ad610c170b37b20b6b030d266726
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: e8043ef82175134ec1c44b7263156f594c36f8c5
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969486"
 ---
 # <a name="external-application-scope-node"></a>Внешний узел области применения приложений
  

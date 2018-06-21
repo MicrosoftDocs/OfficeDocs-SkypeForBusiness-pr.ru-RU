@@ -3,7 +3,6 @@ title: Создание администраторов панели управл
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
-description: Предоставление доступа к Скайп для Business Server 2015, выполните следующие действия.
-ms.openlocfilehash: db781611e2df2abf23c071673d3dfe0570f5700b
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: Предоставление доступа к Скайп для Business Server, выполните следующие действия.
+ms.openlocfilehash: 9f9342b02f89b31c22a50f834aa08347ba7fd798
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979031"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Создание администраторов панели управления Skype для бизнеса Server
  
-Предоставление доступа к Скайп для Business Server 2015, выполните следующие действия.
+Предоставление доступа к Скайп для Business Server, выполните следующие действия.
   
 1. Войдите как участник группы администраторов домена или группы RTCUniversalServerAdmins.
     

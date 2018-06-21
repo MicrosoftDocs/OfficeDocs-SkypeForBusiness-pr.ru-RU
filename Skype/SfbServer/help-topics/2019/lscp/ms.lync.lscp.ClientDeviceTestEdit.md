@@ -1,9 +1,8 @@
 ---
 title: Создание новой или редактирование существующего устройства проверки
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: Возможность "Устройство проверки" работает совместно с возможностью "Обновление устройства". Можно добавить устройство проверки на странице тестирование устройства и затем использовать это устройство для проверки функциональности новых обновлений перед развертыванием этих обновлений на устройствах производственной. Вы можете протестировать устройство глобально (то есть в рамках всей среды) или для отдельного сайта. Устройство проверки указывается по MAC-адресу или серийному номеру. При добавлении устройства, оно отображается в списке на странице устройство проверки Скайп для панели управления Business Server.
-ms.openlocfilehash: 0eb79ad604b228ce4531738b4f7f1423ab5b98e2
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3f3c896f0ec6c373a4edfc3049a9838b815bb448
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974259"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Тестовое устройство: создание нового или редактирование существующего
  
@@ -51,14 +51,10 @@ ms.lasthandoff: 05/25/2018
 Для получения дополнительных сведений о тестировании устройств в разделе [Add устройства для проверки возможности обновления](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) в документации по операциям.
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Тестовое устройство](ms.lync.lscp.ClientDeviceTestMain.md)
-#### 
 
 [Новый CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   
 [SET-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
   
 [Просмотр обновлений программного обеспечения для устройств в вашей организации](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
-

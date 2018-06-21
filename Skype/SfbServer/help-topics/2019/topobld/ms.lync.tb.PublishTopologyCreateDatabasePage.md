@@ -3,7 +3,6 @@ title: Создание базы данных
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: Topology Builder предоставляет способ установки баз данных для хранилища SQL Server. При установке баз данных с помощью построителя топологий приложение считывает данные из топологии и затем устанавливает необходимых баз данных на указанном компьютере с SQL Server или кластера SQL Server. С помощью построителя топологий можно устанавливать базы данных только таким способом. Если требуется установить определенную базу данных на определенном компьютере или необходимо установить выровненных баз данных, необходимо использовать интерфейс командной строки Windows PowerShell и командлет Install-CsDatabase вместо этого.
-ms.openlocfilehash: 9bee333e0b56a6eeb8f4363e6657be2fabfa1ace
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f9d351d4b6b7cb37d2daeb889caabb1f4090e74e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979801"
 ---
 # <a name="create-database"></a>Создание базы данных
  
@@ -24,7 +24,7 @@ Topology Builder предоставляет способ установки ба
   
 ### <a name="creating-a-database"></a>Создание базы данных
 
-1. Нажмите кнопку Скайп для узла Business Server 2015 и нажмите кнопку **Установка базы данных**.
+1. Нажмите кнопку Скайп для узла Business Server и нажмите кнопку **Установка базы данных**.
     
 2. В диалоговом окне **Установка баз данных** на странице **Создание базы данных** выберите полное доменное имя (FQDN) хранилища SQL Server, где будут создаваться новые базы данных.
     

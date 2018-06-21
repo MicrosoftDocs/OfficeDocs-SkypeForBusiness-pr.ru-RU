@@ -3,7 +3,6 @@ title: Установка локального хранилища конфигу
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 description: 'В области выполнения команд отображается состояние задачи для установки локальной реплики центрального хранилища управления только для чтения. Во время выполнения задачи, область задач будет обновляться по мере выполнения команды. Следует ознакомиться состояние задачи и обратите внимание на наличие ошибок или предупреждений, которые отображаются. Когда задачи завершены, сообщение состояние задачи: завершено отображается, и раскрывающегося списка для файлов журналов — отображает имена файлов журнала. Для просмотра файлов журнала, которые были созданы, выберите файл журнала для просмотра и щелкните Просмотреть журнал. Обзор всех файлов журнала для успеха, ошибки и предупреждения.'
-ms.openlocfilehash: 642b6f9d0b008936528ff5c8204c573b3b5284a5
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5fb7d100a863191eb8a308057e98360666512fb6
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969444"
 ---
 # <a name="install-local-configuration-store-invoke"></a>Установка локального хранилища конфигурации (вызов)
  

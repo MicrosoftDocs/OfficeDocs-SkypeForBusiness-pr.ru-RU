@@ -3,7 +3,6 @@ title: Введение в удаление развертывания
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: Запустите мастер развертывания удалить только в том случае, если вы хотите выводить из эксплуатации всего развертывания. Создание пустую топологию, состоящую из одного сервера переднего плана. После выполнения этого мастера и публикации топологии, пустой, нельзя вернуться к исходной топологии.
-ms.openlocfilehash: b959ee189a9e290e83659b2f3ca93f673d872ead
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3e83ba506cf3376a90a7ec245816627328853816
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966720"
 ---
 # <a name="remove-deployment-introduction"></a>Введение в удаление развертывания
  
