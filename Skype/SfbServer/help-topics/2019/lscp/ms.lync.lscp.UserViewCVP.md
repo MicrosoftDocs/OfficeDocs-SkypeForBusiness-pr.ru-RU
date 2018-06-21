@@ -3,7 +3,6 @@ title: Пользователи Просмотр или Настройка по�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 6985522c96d9d14ac0db3504927d79a3c5b9abbc
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 58721fe8167521411a44520a8bfc268325e60a04
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19992239"
 ---
-# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="f8d65-104">Пользователи: Просмотр или Настройка политики версий клиентов</span><span class="sxs-lookup"><span data-stu-id="f8d65-104">Users: View or Configure Client Version Policy</span></span>
+# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="7a1c0-104">Пользователи: Просмотр или Настройка политики версий клиентов</span><span class="sxs-lookup"><span data-stu-id="7a1c0-104">Users: View or Configure Client Version Policy</span></span>
  
-<span data-ttu-id="f8d65-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="f8d65-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="7a1c0-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="7a1c0-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="f8d65-107">Задание версий клиента, поддерживаемые для входа пользователя</span><span class="sxs-lookup"><span data-stu-id="f8d65-107">Specify Client Versions Supported for Sign-in by a User</span></span>](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="7a1c0-107">Задание версий клиента, поддерживаемые для входа пользователя</span><span class="sxs-lookup"><span data-stu-id="7a1c0-107">Specify Client Versions Supported for Sign-in by a User</span></span>](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-<span data-ttu-id="f8d65-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="f8d65-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+<span data-ttu-id="7a1c0-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="7a1c0-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
 

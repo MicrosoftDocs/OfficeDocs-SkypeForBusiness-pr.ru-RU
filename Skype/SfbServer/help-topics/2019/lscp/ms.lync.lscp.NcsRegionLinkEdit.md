@@ -3,7 +3,6 @@ title: Настройка связи между областями сети со
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 5def9769f57ed5b5940bb7be664939399f7dd1f1
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: a493dda7b384644d9a55c20276d12c61dc0919d7
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991616"
 ---
-# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="dc9f1-104">Настройка связи между областями сети: Создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="dc9f1-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="9ca7e-104">Настройка связи между областями сети: Создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="9ca7e-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="dc9f1-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="dc9f1-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="9ca7e-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="9ca7e-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="dc9f1-107">Настройка связей между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="dc9f1-107">Configuring Network Region Links</span></span>](http://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="9ca7e-107">Настройка связей между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="9ca7e-107">Configuring Network Region Links</span></span>](http://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
     
-<span data-ttu-id="dc9f1-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="dc9f1-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+<span data-ttu-id="9ca7e-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="9ca7e-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
 
