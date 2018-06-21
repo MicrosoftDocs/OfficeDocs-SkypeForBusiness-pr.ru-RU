@@ -3,7 +3,6 @@ title: Добавление ТСОП для устройства обеспеч�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 description: Чтобы определить шлюза телефонной сети (общего пользования PSTN) для обеспечения связи в филиалах в филиале, укажите следующие параметры.
-ms.openlocfilehash: cefdc46eb2f5b7573e5e5bd9acb93cb5ab384622
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7357beacc93e9fbfede068802c5e849416096a0e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19996886"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>Добавление ТСОП для устройства обеспечения связи в филиалах
  

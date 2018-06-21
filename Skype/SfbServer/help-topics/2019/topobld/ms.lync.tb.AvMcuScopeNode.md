@@ -3,7 +3,6 @@ title: Узел области AV MCU
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: В этом узле отображается полное доменное имя пула и связанные с этим пулом аудио- и видеоконференций интерфейсные пулы. Можно выполнить следующие действия.
-ms.openlocfilehash: f3157d19eac103af45a84815c09b8af3b2845e7d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 650ad55d4d03f2adcbac6b6ae446da0c25ad6f34
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997117"
 ---
 # <a name="av-mcu-scope-node"></a>Узел области AV MCU
  

@@ -3,7 +3,6 @@ title: Отложенный сертификат (вызов)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 description: На странице выполнение команд отображается состояние команды, которые извлекаются отложенный сертификат. После завершения задачи доступен файл журнала извлечения ожидающих установки сертификатов. Нажмите кнопку Просмотреть журнал обработки и уведомление о состоянии задач. Нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: 3195ca99c14ba0ca25a3923c4be32d6557feb0fe
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5846ea840c7caccddb428b00f7d5c33e570667dd
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19996970"
 ---
 # <a name="pending-certificate-invoke"></a>Отложенный сертификат (вызов)
  

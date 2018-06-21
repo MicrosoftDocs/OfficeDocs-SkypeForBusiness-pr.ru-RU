@@ -3,7 +3,6 @@ title: Выбор службы оповещений
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 description: Используйте диалоговое окно с служба оповещения выберите для выбора службы извещения, который будет обрабатывать входящие звонки для диапазона неназначенных номеров.
-ms.openlocfilehash: 35bd31414f3aaedbe9256b1b5c4b2ee07fc38cbc
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3f41884a3737e51d7ccfcea5c686e6c4d38bfb4d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19996921"
 ---
 # <a name="select-an-announcement-service"></a>Выбор службы оповещений
  
