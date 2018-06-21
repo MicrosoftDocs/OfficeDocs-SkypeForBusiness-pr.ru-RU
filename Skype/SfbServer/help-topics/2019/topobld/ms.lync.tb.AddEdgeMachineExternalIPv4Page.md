@@ -3,7 +3,6 @@ title: Добавление внешнего IPv4 пограничного ко�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,14 +11,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
 description: В внешнего адреса IPv4 введите внешний IP-адрес, указывающий на служба пограничного сервера доступа, служба пограничного сервера конференц-связи Web и A / V Edge службы.
-ms.openlocfilehash: eef8afdd81b181a866a18e3b3e1d809f29574796
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 73912cf28ff45b8f42925ae4c71bdb0f774f686a
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978050"
 ---
-# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="25723-103">Добавление внешнего IPv4 пограничного компьютера</span><span class="sxs-lookup"><span data-stu-id="25723-103">Add Edge Machine External IPv4</span></span>
+# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="1f247-103">Добавление внешнего IPv4 пограничного компьютера</span><span class="sxs-lookup"><span data-stu-id="1f247-103">Add Edge Machine External IPv4</span></span>
  
-<span data-ttu-id="25723-104">В **Внешнего адреса IPv4**введите внешний IP-адрес, указывающий на служба пограничного сервера доступа, служба пограничного сервера конференц-связи Web и A / V Edge службы.</span><span class="sxs-lookup"><span data-stu-id="25723-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="1f247-104">В **Внешнего адреса IPv4**введите внешний IP-адрес, указывающий на служба пограничного сервера доступа, служба пограничного сервера конференц-связи Web и A / V Edge службы.</span><span class="sxs-lookup"><span data-stu-id="1f247-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

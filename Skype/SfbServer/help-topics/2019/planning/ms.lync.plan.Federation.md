@@ -3,7 +3,6 @@ title: Федерация (средство планирования)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -13,22 +12,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Пограничные серверы можно настроить для внутренних и внешних пользователей доступа к контактам партнерские организации, так и служб.
-ms.openlocfilehash: 2c4e87831a971b50852ffda41e7b8268e6c3392f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: da8580752a07d5d2552adbffd3bdf5924ad5b8e1
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19972366"
 ---
-# <a name="federation-planning-tool"></a><span data-ttu-id="6c995-103">Федерация (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="6c995-103">Federation (Planning Tool)</span></span>
+# <a name="federation-planning-tool"></a><span data-ttu-id="da3c1-103">Федерация (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="da3c1-103">Federation (Planning Tool)</span></span>
  
-<span data-ttu-id="6c995-104">Пограничные серверы можно настроить для внутренних и внешних пользователей доступа к контактам партнерские организации, так и служб.</span><span class="sxs-lookup"><span data-stu-id="6c995-104">Edge Servers can be configured to allow your internal and external users access to contacts at partner organizations or services.</span></span>
+<span data-ttu-id="da3c1-104">Пограничные серверы можно настроить для внутренних и внешних пользователей доступа к контактам партнерские организации, так и служб.</span><span class="sxs-lookup"><span data-stu-id="da3c1-104">Edge Servers can be configured to allow your internal and external users access to contacts at partner organizations or services.</span></span>
   
- <span data-ttu-id="6c995-105">Федерации работает, как и в Microsoft Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="6c995-105">Federation works like it did for Microsoft Lync 2013.</span></span> <span data-ttu-id="6c995-106">Дополнительные сведения о подготовке среды для федерации см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="6c995-106">For more details about preparing your environment for Federation, see the following topics:</span></span>
+ <span data-ttu-id="da3c1-105">Федерации работает, как и в Microsoft Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="da3c1-105">Federation works like it did for Microsoft Lync 2013.</span></span> <span data-ttu-id="da3c1-106">Дополнительные сведения о подготовке среды для федерации см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="da3c1-106">For more details about preparing your environment for Federation, see the following topics:</span></span>
   
-- [<span data-ttu-id="6c995-107">Планирование федерации Lync Server 2013 и Office Communications Server</span><span class="sxs-lookup"><span data-stu-id="6c995-107">Planning for Lync Server 2013 and Office Communications Server federation</span></span>](https://technet.microsoft.com/en-us/library/jj205335%28v=ocs.15%29.aspx)
+- [<span data-ttu-id="da3c1-107">Планирование федерации Lync Server 2013 и Office Communications Server</span><span class="sxs-lookup"><span data-stu-id="da3c1-107">Planning for Lync Server 2013 and Office Communications Server federation</span></span>](https://technet.microsoft.com/en-us/library/jj205335%28v=ocs.15%29.aspx)
     
-- [<span data-ttu-id="6c995-108">Планирование для общедоступных служб обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6c995-108">Planning for public instant messaging connectivity in Lync Server 2013</span></span>](https://technet.microsoft.com/en-us/library/jj205349%28v=ocs.15%29.aspx)
+- [<span data-ttu-id="da3c1-108">Планирование для общедоступных служб обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da3c1-108">Planning for public instant messaging connectivity in Lync Server 2013</span></span>](https://technet.microsoft.com/en-us/library/jj205349%28v=ocs.15%29.aspx)
     
-- [<span data-ttu-id="6c995-109">Планирование для расширяемого системы обмена сообщениями и сведениями о присутствии федерации протокола XMPP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6c995-109">Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](https://technet.microsoft.com/en-us/library/jj205107%28v=ocs.15%29.aspx)
+- [<span data-ttu-id="da3c1-109">Планирование для расширяемого системы обмена сообщениями и сведениями о присутствии федерации протокола XMPP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da3c1-109">Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](https://technet.microsoft.com/en-us/library/jj205107%28v=ocs.15%29.aspx)
     
 
