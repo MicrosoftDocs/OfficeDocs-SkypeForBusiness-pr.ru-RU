@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 description: Используйте диалоговое окно Выбор записи использования ТСОП для поиска существующей записи телефонной сети (общего пользования PSTN) использования, которые можно использовать.
-ms.openlocfilehash: df636b17aa4ee362a5501ce87d2eeffdf1aed52f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3ad3889760f24fd0534ad0427eff8a1c9ee11377
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987265"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045738"
 ---
-# <a name="select-pstn-usage-record"></a><span data-ttu-id="e85dd-103">Выбор записи использования ТСОП</span><span class="sxs-lookup"><span data-stu-id="e85dd-103">Select PSTN Usage Record</span></span>
+# <a name="select-pstn-usage-record"></a><span data-ttu-id="63f69-103">Выбор записи использования ТСОП</span><span class="sxs-lookup"><span data-stu-id="63f69-103">Select PSTN Usage Record</span></span>
  
-<span data-ttu-id="e85dd-104">Используйте диалоговое окно **Выбор записи использования ТСОП** для поиска существующей записи телефонной сети (общего пользования PSTN) использования, которые можно использовать.</span><span class="sxs-lookup"><span data-stu-id="e85dd-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
+<span data-ttu-id="63f69-104">Используйте диалоговое окно **Выбор записи использования ТСОП** для поиска существующей записи телефонной сети (общего пользования PSTN) использования, которые можно использовать.</span><span class="sxs-lookup"><span data-stu-id="63f69-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="e85dd-105">Чтобы получить все доступные записи использования ТСОП, не вводите в поле «Поиск» и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="e85dd-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="63f69-105">Чтобы получить все доступные записи использования ТСОП, не вводите в поле «Поиск» и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="63f69-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
   
-<span data-ttu-id="e85dd-106">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="e85dd-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
   
 
