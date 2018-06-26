@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Создание и управление Persistent Chat комнат намного проще с правильное использование категорий. Администратор сохраняемого чата можно назначить Указание параметров AllowedMembers и Creators для каждой категории и можно также определить параметры комнаты чата по умолчанию и поведения, которые будут применяться для всех комнатах чата, созданные в категории. Администраторы сохраняемого чата создания категорий или управления ими с помощью панели управления или командлетов Windows PowerShell.
-ms.openlocfilehash: f83ff99905a9c2ada133c6a21d235a8385261545
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c29163a88394fd9c3653e9bbbdae8c9f744f610e
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974672"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045612"
 ---
 # <a name="select-allowed-members"></a>Выбор разрешенных участников
  
@@ -32,7 +32,7 @@ ms.locfileid: "19974672"
     
 - [Новые возможности сервера сохраняемого чата](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>Настройка категорий для комнат чата
 

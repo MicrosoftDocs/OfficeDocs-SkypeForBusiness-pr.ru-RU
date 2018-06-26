@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Используйте диалоговое окно сайта выберите для поиска узлов, доступных в вашей среде. Для использования существующего сайта, выберите сайт в списке и нажмите кнопку ОК.
-ms.openlocfilehash: 7aba1089d73188c2d65771a87f01a20f93c48c4a
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 7ebf146d6887ec0f2fafc8655c6d448fbd0573fb
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044111"
 ---
 # <a name="select-a-site"></a>Выбор сайта
  
@@ -25,7 +26,7 @@ ms.lasthandoff: 05/25/2018
 > [!NOTE]
 > Чтобы получить все доступные сайты, ничего не вводите в поле поиска и нажмите значок поиска. 
   
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="tasks-you-can-perform"></a>Задачи, которые вы можете выполнить
 
@@ -35,7 +36,7 @@ ms.lasthandoff: 05/25/2018
     
 - [Создание политики сайта для сохраняемого чата](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
     
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="to-configure-persistent-chat-options-globally"></a>Настройка параметров Persistent Chat глобально
 

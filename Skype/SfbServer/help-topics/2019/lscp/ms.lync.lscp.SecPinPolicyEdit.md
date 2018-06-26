@@ -11,22 +11,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 204bba99c5aaaf6f156c899f68f02e56c2525073
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d752f560560ff7621503ade0b8621586bf1df8d0
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996866"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045472"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Политики ПИН-код: Создание новой или редактирование существующей
  
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
   
-- [Создание новой политики ПИН-код в Скайп для Business Server 2015](../../../manage/authentication/create-a-new-pin-policy.md)
+- [Создание новой политики ПИН-код в Скайп для Business Server](../../../manage/authentication/create-a-new-pin-policy.md)
     
-- [Изменение существующей политики ПИН-код в Скайп для Business Server 2015](../../../manage/authentication/modify-an-existing-pin-policy.md)
+- [Изменение существующей политики ПИН-код в Скайп для Business Server](../../../manage/authentication/modify-an-existing-pin-policy.md)
     
-- [Удаление политики ПИН-код в Скайп для Business Server 2015](../../../manage/authentication/delete-a-pin-policy.md)
+- [Удаление политики ПИН-код в Скайп для Business Server](../../../manage/authentication/delete-a-pin-policy.md)
     
 - [Создание или изменение параметров ПИН-кода конференц-связи для сайта или группы пользователей](http://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
     
@@ -34,5 +34,5 @@ ms.locfileid: "19996866"
     
 - [Удаление параметров ПИН-кода конференц-связи для сайта или группы пользователей](http://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
     
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
+ 
 

@@ -11,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: Для определения префиксами или начальных цифр, добавьте префиксы, которые должен обрабатывать этот маршрут, включая + при необходимости. Например можно сопоставить все номера, начиная с +123.
-ms.openlocfilehash: 3eb0f67bc5bebfd52205b9625eca1c78e9ddb43b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c4ccbb572830581aa58d27c7af2bfad1e4001dcd
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987951"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045178"
 ---
 # <a name="prefix-edit"></a>Редактирование префиксов
  
 Для определения префиксами или начальных цифр, добавьте префиксы, которые должен обрабатывать этот маршрут, включая + при необходимости. Например можно сопоставить все номера, начиная с +123.
   
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
+ 
   
 

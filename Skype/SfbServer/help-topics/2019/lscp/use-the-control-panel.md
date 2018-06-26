@@ -9,15 +9,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eff02f-4bc1-4e3a-bac5-2043e19f781a
 description: Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления Business Server см управление Скайп Business Server 2015.
-ms.openlocfilehash: 21fe0e8e10fb614e97fd24c94c7f0aa94af71b9a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4b6986ef62a8f1961bf932c7c6c724e39a3f171a
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967945"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046622"
 ---
 # <a name="use-the-skype-for-business-server-2015-control-panel"></a>Используйте Скайп для панели управления сервера 2015 бизнеса
  
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
+ 
   
 

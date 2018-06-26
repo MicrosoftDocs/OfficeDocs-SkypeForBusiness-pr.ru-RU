@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 description: Используйте диалоговое окно Выбор записи использования ТСОП для поиска существующей записи телефонной сети (общего пользования PSTN) использования, которые можно использовать.
-ms.openlocfilehash: df636b17aa4ee362a5501ce87d2eeffdf1aed52f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3ad3889760f24fd0534ad0427eff8a1c9ee11377
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987265"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045738"
 ---
 # <a name="select-pstn-usage-record"></a>Выбор записи использования ТСОП
  
@@ -25,6 +25,6 @@ ms.locfileid: "19987265"
 > [!NOTE]
 > Чтобы получить все доступные записи использования ТСОП, не вводите в поле «Поиск» и нажмите значок поиска. 
   
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
+ 
   
 

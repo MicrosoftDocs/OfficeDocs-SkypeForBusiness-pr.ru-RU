@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d3fe1f6-e987-4b21-aafd-4ceaf523027a
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: e315a053d19ca8097d293c750e88b0b127f846e3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 664b45f2af0ef0afab6d065645444a69f9f1a66b
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972422"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043894"
 ---
 # <a name="configure-a-network-region"></a>Настройка области сети
  
@@ -24,5 +24,5 @@ ms.locfileid: "19972422"
   
 - [Настройка сетевых областей](http://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
     
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
+ 
 

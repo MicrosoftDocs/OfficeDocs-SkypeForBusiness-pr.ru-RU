@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: be05b5eee8bea3a2815ab65a134613fe811b1573
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cacb6a46285fc3bf66d12e6adcbd149045ddcb73
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969437"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045248"
 ---
 # <a name="voice-policy"></a>Политика голосовой связи
  
@@ -26,5 +26,5 @@ ms.locfileid: "19969437"
     
 - [Изменение политики голосовой связи и Настройка записей использования ТСОП](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
     
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
+ 
 

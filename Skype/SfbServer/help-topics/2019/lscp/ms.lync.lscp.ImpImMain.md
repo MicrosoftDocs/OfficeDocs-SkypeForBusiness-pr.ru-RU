@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: fb20f56ca84d5a2a099f328e8f6586bd256ee14a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7b58675876b2e158a9dcf207049d030853002794
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989897"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045830"
 ---
 # <a name="url-filter"></a>Фильтр URL-адресов
  
@@ -26,5 +26,5 @@ ms.locfileid: "19989897"
     
 - [Создание нового фильтра URL-адрес для управления гиперссылками в мгновенные сообщения](http://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
     
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
+ 
 

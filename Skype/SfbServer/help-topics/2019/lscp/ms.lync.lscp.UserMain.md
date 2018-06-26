@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Настройка пользователей для Скайп для Business Server можно использовать результаты запроса поиска. Можно выполнить поиск пользователей по отображаемое имя, имя первого, последнего имени, имя учетной записи диспетчера учетных записей (SAM), SIP-адрес или строки универсальный код ресурса (URI). Можно также выполнить поиск для пользователей с помощью панели управления Lync Server или Active Directory — пользователи и компьютеры оснастку.
-ms.openlocfilehash: 6bd837326e70b3712eb478d662cd6b5a41336953
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 253dfd6a2e454b7d68211b18a5c1c3e8c6c4a837
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971407"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046440"
 ---
 # <a name="control-panel---updated-user-search"></a>Панель управления — обновлено: Поиск пользователей
  
@@ -42,7 +42,7 @@ ms.locfileid: "19971407"
     
 - [Настройка телефонии для пользователей](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="ui-reference"></a>Ссылка на пользовательский интерфейс
 
