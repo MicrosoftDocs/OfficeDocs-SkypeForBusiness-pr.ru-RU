@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 971dd7ebaf400820914107cebb384821480a9e7c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: eaf21f5534c3af207297cc1377a0ef21a01e18e8
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990767"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049165"
 ---
-# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="b8dbd-104">Пользователи: Просмотр или Настройка политики ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="b8dbd-104">Users: View or Configure PIN Policy</span></span>
+# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="058a1-104">Пользователи: Просмотр или Настройка политики ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="058a1-104">Users: View or Configure PIN Policy</span></span>
  
-<span data-ttu-id="b8dbd-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="b8dbd-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="058a1-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="058a1-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="b8dbd-107">Задать пользователя телефонных конференций ПИН-код в Скайп для Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="b8dbd-107">Set a user's dial-in conferencing PIN in Skype for Business Server 2015</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [<span data-ttu-id="058a1-107">Задать пользователя телефонных конференций ПИН-код в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="058a1-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
-<span data-ttu-id="b8dbd-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="b8dbd-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
 
