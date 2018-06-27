@@ -11,25 +11,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server.
-ms.openlocfilehash: 4c4bf15d59fa9aa65a747a552d54ac879c06b51a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5789efb5c57c2b8c5b7ad0695339d2bf36e1cc15
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967672"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049172"
 ---
 # <a name="associate-vis-with-edge"></a>Связывание сервера видеовзаимодействия с пограничным
  
-Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий, описаны в [Создать новую группу VIS в Скайп для Business Server 2015](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)через Интернет.
+Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий, описаны в [Создать новую группу VIS в Скайп для Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)через Интернет.
   
-Интернет-версия описываются действия, необходимые для назначения ролей сервера взаимодействия видео на сервере с помощью Windows PowerShell в [Развернуть роль сервера VIS в Скайп для Business Server 2015](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+Интернет-версия описываются действия, необходимые для назначения ролей сервера взаимодействия видео на сервере с помощью Windows PowerShell в [Развернуть роль сервера VIS в Скайп для Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-Интернет-версия описаны этапы настройки нового сервера видео взаимодействия с помощью Windows PowerShell на [настроить сервер взаимодействия видео в Скайп для Business Server 2015](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
+Интернет-версия описаны этапы настройки нового сервера видео взаимодействия с помощью Windows PowerShell на [настроить сервер взаимодействия видео в Скайп для Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
   
- Параметры для видео шлюз, который необходимо установить в графическом Интерфейсе Cisco для взаимодействия с VIS представлены online в [CUCM Настройка для взаимодействия с Скайп для Business Server 2015](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
+ Параметры для видео шлюз, который необходимо установить в графическом Интерфейсе Cisco для взаимодействия с VIS представлены online в [CUCM Настройка для взаимодействия с Скайп для Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
   
- Параметры для VTC, должны быть установлены в графическом Интерфейсе Cisco для взаимодействия с шлюзом видео и VIS представлены online в [Настройка VTC для взаимодействия с Скайп для Business Server 2015](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
+ Параметры для VTC, должны быть установлены в графическом Интерфейсе Cisco для взаимодействия с шлюзом видео и VIS представлены online в [Настройка VTC для взаимодействия с Скайп для Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
 ## <a name="see-also"></a>См. также
 
-[Планирование для Business Server 2015 видео взаимодействия сервера в Скайп](../../../plan-your-deployment/video-interop-server.md)
+[Планирование для видео взаимодействия сервера в Скайп Business Server](../../../plan-your-deployment/video-interop-server.md)
