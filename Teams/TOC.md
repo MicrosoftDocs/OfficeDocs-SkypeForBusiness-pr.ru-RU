@@ -29,7 +29,6 @@
 ## [Вызов аналитики и панель мониторинга качества звонка](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
-
 # Лицензирование
 ## [Управление доступом пользователей к Teams](user-access.md)
 ## [Лицензирование Office 365 для Teams](office-365-licensing.md)
@@ -127,7 +126,7 @@
 ### [Измерения и меры на панели мониторинга качества звонков](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Настройка средства аналитики звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Использование средства аналитики звонков для устранения проблем с низким качеством звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
+### [Классификация потока в панели мониторинга качества звонка](/SkypeForBusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ## Аудиоконференции
 ### [Руководство по Аудиоконференций в группах](Tutorial-Audio-Conferencing.yml)

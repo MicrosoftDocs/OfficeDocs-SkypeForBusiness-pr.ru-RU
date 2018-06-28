@@ -10,11 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: Учебные ресурсы, которые администратор может использовать для развертывания и внедрения Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b095d25f4b414eda58e8030264139b7fdf5b42a
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: bcfefb62ab0c9bbe7b24addd8ee74c3e188edcf6
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091576"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Обучение конечных пользователей для работы с Microsoft Teams
 =====================================
@@ -32,6 +33,7 @@ ms.lasthandoff: 04/27/2018
 | [Канал о Microsoft Teams на YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [Канал Coffee in the Cloud на YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Видеоролики с практическими руководствами, рекомендациями и обзорами функций  |
 | Введение в Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
+| Общие сведения о группами Майкрософт для образовательных заведений  | <iframe width="350" height="200" src="https://youtu.be/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
 | Настройка команд, каналов и вкладок за 5 минут   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 | В широком - сотрудничать Добавление гости в вашу группу Microsoft  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
 | Скорость совместной работы — с помощью панели команд в группах Майкрософт  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
