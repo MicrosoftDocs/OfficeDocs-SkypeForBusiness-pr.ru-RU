@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 80952cec03913db1576cec5a6c7b8345ff6aad94
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 2a45181b15fa3bb2a4766491e193a9770193e47b
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049095"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088520"
 ---
 # <a name="users-new-lync-server-user"></a>Пользователи: Новый пользователь Lync Server
  
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
   
-- [Добавление нового пользователя в Lync Server 2010](http://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
+- [Добавление нового пользователя](http://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
     
-- [Включение и отключение пользователей для Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Включить или отключить пользователей](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
 - [Назначение политики конференц-связи для изменения пользовательского интерфейса собрания по умолчанию](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
     

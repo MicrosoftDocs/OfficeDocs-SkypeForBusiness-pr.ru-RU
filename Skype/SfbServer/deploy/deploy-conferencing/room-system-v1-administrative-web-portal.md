@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 description: Скайп для бизнес-Server 2015 Скайп комнаты систем v1 (SRS v1, ранее называлась системы комнаты Lync) административного веб-портала — это веб-портала, организации могут использовать для поддержки конференц-залов Скайп комнаты систем. Администраторы могут использовать SRS v1 административного веб-портала для отслеживания работоспособности устройств, например следя за устройства аудио и видео. С помощью этого портала, администраторы могут удаленно собирать диагностические сведения, чтобы отслеживать работоспособность конференц-зала.
-ms.openlocfilehash: d87241cc983fabf76a952bce4941063169f787c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 84f9d84861980f970fb496f957c712a1d7dfead4
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088534"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server-2015"></a>Развертывание веб-портала администрирования SRS версии 1 в Skype для бизнеса Server 2015
  
@@ -29,9 +30,9 @@ ms.lasthandoff: 03/28/2018
   
 В этом разделе:
   
-- [Настройка среды для администрирования веб-портала SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)
+- [настройка среды для работы с веб-порталом администрирования SRS версии 1.](room-system-v1-administrative-web-portal.md#Config_Env)
     
-- [Установка SRS v1 административного веб-портала](room-system-v1-administrative-web-portal.md#Install_SRS)
+- [Установка веб-портала администрирования SRS версии 1](room-system-v1-administrative-web-portal.md#Install_SRS)
     
 - [использование веб-портала администрирования SRS;](room-system-v1-administrative-web-portal.md#Use_Portal)
     
@@ -65,7 +66,7 @@ ms.lasthandoff: 03/28/2018
     
     Создайте группу с глобальной областью действия и типом "Безопасность". SIP поддержкой пользователей, добавленных в эту группу, могут использовать все функции портала администрирования, включая массового управление Скайп для бизнес-залов. 
     
-6. Добавьте группу SRSFullAccessAdminGroup как участника группы LRSSupportAdminGroup.
+6. Добавление LRSFullAccessAdminGroup как члена LRSSupportAdminGroup.
     
      ![Свойства LRSSupportAdminGroup, страница участников](../../media/LRS_Add_LRSSupportAdminGroup.png)
   
@@ -106,7 +107,7 @@ ms.lasthandoff: 03/28/2018
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
-6. Если порт, используемый отличный от 5061, добавьте следующую строку в файле Web.Config: 
+6. Если используется порт, отличный от 5061, добавьте в файл Web.Config следующую строку:  
     
    ```
    <add key="PortalUserRegistrarPort" value="5061" />
