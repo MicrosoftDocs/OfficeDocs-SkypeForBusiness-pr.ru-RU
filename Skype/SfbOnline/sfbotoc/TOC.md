@@ -1,9 +1,9 @@
 
-# [Скайп для администрирования Online бизнеса](../skype-for-business-online.md)
+# [Администратор Skype для бизнеса Online](../skype-for-business-online.md)
 
-## [Доступность аудиоконференций и планов звонков в различных странах и регионах](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## [Аудиоконференции в Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
+## [Аудиоконференции в Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Общие вопросы по аудиоконференциям](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Поддерживаемые языки для аудиоконференций](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -71,7 +71,7 @@
 ### [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [Что такое абонентские группы?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## [Телефонной системой в Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Телефонная система в Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Создание очереди звонков в телефонной системе](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Получение номеров телефонов в Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Развертывание телефонов для приложения Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -94,7 +94,7 @@
 
 ## [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 ### Параметры лицензии на основе плана
-#### [Office 365 бизнеса расширенный](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+#### [Office 365 бизнес премиум](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
 #### [Расширенный Office 365, Office 365 профессиональный плюс, или Скайп для бизнеса Интернет-версия план 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 #### [Office 365 корпоративный E1, E3 и E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 #### [Office 365 корпоративный E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
@@ -149,6 +149,7 @@
 ### [Настройка средства аналитики звонков в Skype для бизнеса](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Включение и использование панели мониторинга качества звонков](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Устранение неполадок с качеством звонков с помощью средства аналитики звонков](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Классификация потока в панели мониторинга качества звонка](../using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard.md)
 
 ## [Отчетность Skype для бизнеса Online](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Отчет об активности](../skype-for-business-online-reporting/activity-report.md)
