@@ -12,15 +12,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
 description: Средство планирования использует сведения о трафике пользователя для определения количества портов для использования в развертывании. Этот номер, в свою очередь, определяет число серверов-посредников и шлюзов, которые требуется указать. Дополнительные сведения см Estimating использования голосовой связи и трафика для Скайп для Business Server 2015.
-ms.openlocfilehash: 26ef246c4f8ca5dbacb526ab45e60779576a64c1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cfa0e0956fe667fcf1bc2660f1f9586aa661ca4d
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979696"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088541"
 ---
-# <a name="voice-traffic-planning-tool"></a><span data-ttu-id="059a3-105">Передачи голосовых данных (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="059a3-105">Voice Traffic (Planning Tool)</span></span>
+# <a name="voice-traffic-planning-tool"></a><span data-ttu-id="c2f79-105">Передачи голосовых данных (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="c2f79-105">Voice Traffic (Planning Tool)</span></span>
  
-<span data-ttu-id="059a3-106">Средство планирования использует сведения о трафике пользователя для определения количества портов для использования в развертывании.</span><span class="sxs-lookup"><span data-stu-id="059a3-106">The planning tool uses information about user traffic to determining the number of ports to use in the deployment.</span></span> <span data-ttu-id="059a3-107">Этот номер, в свою очередь, определяет число серверов-посредников и шлюзов, которые требуется указать.</span><span class="sxs-lookup"><span data-stu-id="059a3-107">This number in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="059a3-108">Дополнительные сведения см [Estimating использования голосовой связи и трафика для Скайп для Business Server 2015](../../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span><span class="sxs-lookup"><span data-stu-id="059a3-108">For details, see [Estimating voice usage and traffic for Skype for Business Server 2015](../../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span></span>
+<span data-ttu-id="c2f79-106">Средство планирования использует сведения о трафике пользователя для определения количества портов для использования в развертывании.</span><span class="sxs-lookup"><span data-stu-id="c2f79-106">The planning tool uses information about user traffic to determining the number of ports to use in the deployment.</span></span> <span data-ttu-id="c2f79-107">Этот номер, в свою очередь, определяет число серверов-посредников и шлюзов, которые требуется указать.</span><span class="sxs-lookup"><span data-stu-id="c2f79-107">This number in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="c2f79-108">Дополнительные сведения см [Estimating использования голосовой связи и трафика для Скайп для Business Server](../../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span><span class="sxs-lookup"><span data-stu-id="c2f79-108">For details, see [Estimating voice usage and traffic for Skype for Business Server](../../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span></span>
   
 
