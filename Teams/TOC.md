@@ -30,6 +30,7 @@
 ## [Работа с клиентами для Teams](get-clients.md)
 ### [Требования к оборудованию для приложения группы](hardware-requirements-for-the-teams-app.md)
 ### [Установка группами Майкрософт, с помощью MSI](msi-deployment.md)
+### [Развертывание групп для предоставления сервера-концентратора](teams-surface-hub.md)
 ## [Включение группами Майкрософт в вашей организации](Office-365-set-up.md)
 ## [Управление функциями группами в организации](enable-features-office-365.md)
 ### [Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business](manage-teams-skypeforbusiness-admin-center.md)
@@ -130,6 +131,7 @@
 ### [Добавление домена SMTP Teams в качестве обслуживаемого в Exchange Online](smtp-accepted-domain.md)
 ### [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ## [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](sharepoint-onedrive-interact.md)
+## [Группы взаимодействия в Office 365 включена несколькими географически аренде](teams-experience-o365odb-spo-multi-geo.md)
 <!-- ============================================================ -->
 
 
