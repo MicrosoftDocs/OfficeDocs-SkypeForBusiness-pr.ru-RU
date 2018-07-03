@@ -502,7 +502,7 @@
 #### [Стадии AV и OAuth сертификатов](../manage/authentication/stage-av-and-oauth-certificates.md)
 #### [Сервер сервер и партнерских приложений](../manage/authentication/server-to-server-and-partner-applications.md)
 ##### [Назначение сертификата сервера для сервера](../manage/authentication/assign-a-server-to-server-certificate.md)
-##### [Настройка гибридной среды](../manage/authentication/configure-a-hybrid-environment.md)
+##### [Настройка проверки подлинности сервер сервер в гибридной среде](../manage/authentication/configure-a-hybrid-environment.md)
 ##### [Настройка локального приложения партнера](../manage/authentication/configure-an-on-premises-partner-app.md)
 #### [Параметров конфигурации регистратора](../manage/authentication/registrar-configuration-settings.md)
 #### [Параметры конфигурации веб-службы](../manage/authentication/web-service-configuration-settings.md)
