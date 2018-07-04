@@ -123,7 +123,7 @@
 <!-- ============================================================ -->
 # Interopearability с Office 365
 ## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
-## [Настройка параметров сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md)
+## [Задайте вашей сосуществования и параметры обновления](setting-your-coexistence-and-upgrade-settings.md)
 ## [Группы Office 365 и Teams](office-365-groups.md)
 ## [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
 ## [Взаимодействие Exchange и Teams](exchange-teams-interact.md)
