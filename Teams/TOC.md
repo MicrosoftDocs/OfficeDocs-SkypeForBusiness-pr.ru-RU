@@ -246,6 +246,13 @@
 #### [Настройка автосекретаря телефонной системы](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Настройка голосовой почты телефонной системы](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Что такое автосекретари телефонной системы?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### Прямой маршрутизации телефонной системы
+#### [Планирование прямой маршрутизации](direct-routing-plan.md)
+#### [Настройка прямой маршрутизации](direct-routing-configure.md)
+#### [Переход на прямой маршрутизации](direct-routing-migrating.md)
+#### [Учетные записи пользователей в гибридной среде с помощью подключения к ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
+#### [Настройте пограничный контроллер сеансов для нескольких клиентов](direct-routing-sbc-multiple-tenants.md)
+#### [Список сертифицированных для прямой маршрутизации пограничных контроллеров сеансов](direct-routing-border-controllers.md)
 ### [Команды Microsoft Online вызова денежных средств](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
