@@ -37,7 +37,7 @@
 ### [Назначение ролей и разрешений в Teams](assign-roles-permissions.md)
 ## [Современный проверки подлинности](sign-in-teams.md)
 ## [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
-## [Руководство по развертыванию voide облако](cloud-voice-deployment.md)
+## [Руководство по развертыванию облачных голосовой связи](cloud-voice-deployment.md)
 ### [Определение Мой success](1-envision-define-my-success-cloud-voice.md)
 ### [Принятия решений Мои службы - звук конференц-связи](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [Принятия решений Мои службы - телефонной системы с помощью вызова планы](2-envision-make-my-service-decisions-phone-system.md)
