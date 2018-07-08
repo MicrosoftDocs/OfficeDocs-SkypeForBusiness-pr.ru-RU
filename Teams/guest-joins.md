@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Вы можете ознакомится с кратким описанием того, как пригласить гостя присоединиться к команде в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb8672168b3f9f249f5f2d538c6f152c9012e29f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969374"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211054"
 ---
 <a name="how-a-guest-joins-a-team"></a>Присоединение гостя к команде
 ========================
