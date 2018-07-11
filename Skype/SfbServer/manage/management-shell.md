@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: Скайп для консоли Business Server содержит интерфейс командной строки для администрирования и управления сервером. Создан на основе Windows PowerShell, а также полный набор командлетов управления и администрирования, относящиеся к Скайп и прежних версий продуктов Lync server.
-ms.openlocfilehash: e1c954c75f03be7e7603866c4bb58d5927f2c3f8
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 50e76784526a3430c6e91a3c6cfdd76962fda3cd
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569374"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266883"
 ---
 # <a name="skype-for-business-server-2015-management-shell"></a>Командная консоль Skype для бизнеса Server 2015
  
@@ -70,5 +70,8 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
   ```
 
     Для получения дополнительных сведений см [о обновляемым](https://technet.microsoft.com/library/hh847735.aspx).
+    
+    > [!NOTE]
+    > Если вы используете PowerShell удаленно может потребоваться разрешить связь через брандмауэр. Дополнительные сведения о портах, использует службу удаленного взаимодействия PowerShell см [что порт Does PowerShell об удаленном взаимодействии использования?](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/).
     
 
