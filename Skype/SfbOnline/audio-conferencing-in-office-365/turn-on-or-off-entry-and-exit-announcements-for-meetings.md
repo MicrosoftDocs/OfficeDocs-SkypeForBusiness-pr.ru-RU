@@ -1,5 +1,5 @@
 ---
-title: Включение и отключение входе и выходе участников собраний
+title: Включение и отключение оповещений о подключении к собранию и выходе из него
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как включить запись и выхода из Включение и отключение оповещений в Скайп для бизнеса собрания с помощью Скайп по центру администрирования бизнес. '
-ms.openlocfilehash: 18b22e5491b67b6f4ec3f089803bcfb5e486eb14
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 9cd2c95d0dde2e61ca1f0378fe91a215bdfc2682
+ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703457"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20302154"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Включение и отключение входе и выходе участников собраний
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Включение и отключение оповещений о подключении к собранию и выходе из него
 
 При установке аудиоконференций в Office 365, вы получите звукового конференц-канала. Конференц-канал может содержать один или несколько телефонных номеров, которые пользователи будут использовать вызывает Скайп для бизнеса или группами Майкрософт собрания. 
   
@@ -67,7 +67,7 @@ ms.locfileid: "19703457"
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Для экономии времени или автоматизировать этот процесс, можно использовать командлет [Set-CsOnlineDialInConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) .
+- Для экономии времени или автоматизировать этот процесс, можно использовать командлет [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) .
     
 -  Что касается Windows PowerShell, то Skype для бизнеса online дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
