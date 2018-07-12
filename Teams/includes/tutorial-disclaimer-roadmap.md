@@ -3,3 +3,4 @@
 - Выполните в [блоге группы](https://aka.ms/teamsblog).
 - Ознакомьтесь с [группами схема](https://aka.ms/skype2teamsroadmap).
 - Сведения о последней выпущенной функции в [Заметки о выпуске](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+- • Участвовать в [технического сообщества группами Майкрософт](https://aka.ms/TeamsCommunity) , чтобы ответы на вопросы компонента.

@@ -250,6 +250,7 @@
 #### [Планирование прямой маршрутизации](direct-routing-plan.md)
 #### [Настройка прямой маршрутизации](direct-routing-configure.md)
 #### [Переход на прямой маршрутизации](direct-routing-migrating.md)
+#### [Мониторинг и устранение неполадок прямой маршрутизации](direct-routing-monitor-and-troubleshoot.md)
 #### [Учетные записи пользователей в гибридной среде с помощью подключения к ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Настройте пограничный контроллер сеансов для нескольких клиентов](direct-routing-sbc-multiple-tenants.md)
 #### [Список сертифицированных для прямой маршрутизации пограничных контроллеров сеансов](direct-routing-border-controllers.md)
