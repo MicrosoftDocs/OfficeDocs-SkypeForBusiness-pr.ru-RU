@@ -29,9 +29,10 @@
 ## [Управление доступом пользователей к Teams](user-access.md)
 ## [Работа с клиентами для Teams](get-clients.md)
 ### [Требования к оборудованию для приложения группы](hardware-requirements-for-the-teams-app.md)
-### [Установка группами Майкрософт, с помощью MSI](msi-deployment.md)
+### [Установка группы с помощью MSI](msi-deployment.md)
 ### [Развертывание групп для предоставления сервера-концентратора](teams-surface-hub.md)
-## [Включение группами Майкрософт в вашей организации](Office-365-set-up.md)
+## [Запуск команды в виртуальной среде](virtual-environment-teams.md)
+## [Позволяют группам в организации](Office-365-set-up.md)
 ## [Управление функциями группами в организации](enable-features-office-365.md)
 ### [Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business](manage-teams-skypeforbusiness-admin-center.md)
 ### [Назначение ролей и разрешений в Teams](assign-roles-permissions.md)
@@ -70,7 +71,7 @@
 ### [Настройка средства аналитики звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Использование средства аналитики звонков для устранения проблем с низким качеством звонков в Skype для бизнеса](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Вызов аналитики и панель мониторинга качества звонка](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Справочник по командлетам PowerShell для Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
+
 ## Устранение неполадок и поддержка
 ### [Известные проблемы для Microsoft Teams](Known-issues.md)
 ### [Ресурсы поддержки для Microsoft Teams](support-resources.md)
@@ -264,5 +265,6 @@
 ## [Ресурсы группы для образовательных учреждений "Администраторы"](resources-teams-edu.md)
 <!-- ============================================================ -->
 
+# [Справочник по командлетам PowerShell для Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
 
 # [Документация разработчика для Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)

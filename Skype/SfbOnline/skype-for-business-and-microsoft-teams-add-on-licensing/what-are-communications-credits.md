@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 5d3a1c2b3565f8497bf108d9af6ad44379f2515b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 070816cf38fd86bf89bb05d27f1aedf5a5f90da5
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20326998"
 ---
 # <a name="what-are-communications-credits"></a>Что такое кредиты на связь?
 
@@ -76,7 +77,7 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="recommended-funding-amounts"></a>Рекомендованные суммы платежа
 
-Рекомендуется начать с помощью небольшую финансирования, который для небольших организаций может быть даже как минимум 20. После сбора месяц или два режима работы с ТСОП с помощью отчет сведений об использовании PSTN, можно корректировать суммы в соответствии с обычной использования в организации.
+Рекомендуется начать с помощью небольшую финансирования, который может быть по меньшей мере 50 даже для небольших организаций. После сбора месяц или два режима работы с ТСОП с помощью отчет сведений об использовании PSTN, можно корректировать суммы в соответствии с обычной использования в организации.
   
 При готовности к установке см. статью [Настройка кредитов на связь для организации](set-up-communications-credits-for-your-organization.md).
   

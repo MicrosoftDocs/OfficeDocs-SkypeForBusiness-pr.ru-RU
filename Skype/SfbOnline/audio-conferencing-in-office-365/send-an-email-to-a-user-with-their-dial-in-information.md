@@ -1,5 +1,5 @@
 ---
-title: Отправить сообщение электронной почты для пользователя с помощью свои данные для подключения
+title: Отправка пользователям электронных писем с данными для подключения по телефону
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Отправьте сообщение электронной почты с их аудиоконференций сведения пользователей.
-ms.openlocfilehash: 363c2ada59dfc0e61944e032d19f6d47a2d30343
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 28d3f83259033b5e587c299464a334710797e149
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703397"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20324126"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Отправка пользователям электронных писем с информацией о конференции с телефонным подключением
 
