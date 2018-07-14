@@ -122,7 +122,7 @@
 
 
 <!-- ============================================================ -->
-# Interopearability с Office 365
+# Взаимодействие с Office 365
 ## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
 ## [Задайте вашей сосуществования и параметры обновления](setting-your-coexistence-and-upgrade-settings.md)
 ## [Группы Office 365 и Teams](office-365-groups.md)
@@ -165,6 +165,11 @@
 ### [Запись собрания облачных групп](cloud-recording.md)
 ### [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ### [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+### Событий в реальном времени
+#### [Что такое группы live событий?](what-are-teams-live-events.md)
+
+
+
 ## Приложения и службы
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
 ### [Добавление ботов для приватных чатов и каналов в Teams](add-bots.md)
