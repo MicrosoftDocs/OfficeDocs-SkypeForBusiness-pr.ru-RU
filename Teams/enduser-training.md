@@ -10,12 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: Учебные ресурсы, которые администратор может использовать для развертывания и внедрения Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12c490717f0b2b6242735a01bd4e420588b3b06f
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: 95841fe18e8435d319c4f1c5e5e7c5754a46d0c6
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266110"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20361132"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Обучение конечных пользователей для работы с Microsoft Teams
 =====================================
@@ -33,9 +33,8 @@ ms.locfileid: "20266110"
 | [Канал о Microsoft Teams на YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [Канал Coffee in the Cloud на YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Видеоролики с практическими руководствами, рекомендациями и обзорами функций  |
 | Введение в Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
-| Общие сведения о группами Майкрософт для образовательных заведений  | <iframe width="350" height="200" src="https://youtu.be/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
-| Настройка команд, каналов и вкладок за 5 минут   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
-| В широком - сотрудничать Добавление гости в вашу группу Microsoft  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
-| Скорость совместной работы — с помощью панели команд в группах Майкрософт  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
+| Общие сведения о группами Майкрософт для образовательных заведений  | <iframe width="350" height="200" src="https://youtube.com/embed/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
+
+| 5 минут, чтобы настройка хорошие групп, каналов и вкладки | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | | Широко - сотрудничать Добавление гости в вашу группу Microsoft | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | | Скорость совместной работы — с помощью панели команд в группах Майкрософт | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
 
 
