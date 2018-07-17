@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aae2fb4118a5069c7f1f85a90326ec9c158037db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: eed2f652ae91c8f6c5296fc558d5008fb0e5e607
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569599"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20409314"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 ==================================
@@ -28,7 +28,7 @@ ms.locfileid: "19569599"
 
 |  |  |
 |---------|---------|
-| [Руководство. Переход со Skype для бизнеса на Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Мы расскажем обо всем, что нужно знать для перехода со Skype для бизнеса Online на Teams.  |
+| [Учебник: Обновление Скайп для бизнеса до группами Майкрософт](tutorial-journey-skypeforbusiness-to-teams.yml) |Руководство по все, что нужно знать об обновлении группам из Скайп для бизнеса в Интернет.  |
 | [Руководство по Аудиоконференций в группах](Tutorial-Audio-Conferencing.yml) | В этом интерактивного обучения поможет конференц-связи звук в группах. |
 | [Краткое руководство: группами Майкрософт для образовательных учреждений "Администраторы"](teams-quick-start-edu.yml) |Руководство по развертыванию Teams в организации для ИТ-администраторов в сфере образования.   |
 | [Краткое руководство: Настройка вызов планы в группами Майкрософт](configuring-teams-calling-quickstartguide.md)| Краткое руководство по настройке планов звонков в Teams. |

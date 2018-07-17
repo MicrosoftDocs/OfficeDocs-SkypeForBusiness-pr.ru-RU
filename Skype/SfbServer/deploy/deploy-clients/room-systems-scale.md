@@ -1,7 +1,7 @@
 ---
 title: Развертывание Скайп комнаты систем с помощью System Center Configuration Manager
 ms.author: jambirk
-author: jambirk
+author: Turgayo
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: В данном разделе приведены сведения о развертывании версии 2 Скайп комнаты систем на крупномасштабного развертывания в среде.
-ms.openlocfilehash: 2117916287ff6064f89a8be4dedec046d4e4cec4
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 7b4e1e9aa4caa8d88f2aa496495badc7401d6d90
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694900"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412320"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Развертывание системы комнаты Скайп версии 2 с помощью System Center Configuration Manager
 
