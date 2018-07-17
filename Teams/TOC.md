@@ -18,6 +18,7 @@
 ## [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
 ## [Создание стратегии управления изменений](change-management-strategy.md)
 ## [Получение средств для развертывания Teams](rollout-tools.md)
+## [Планирование для государственных учреждений 365 Microsoft - GCC развертываниях](plan-for-government-gcc.md)
 <!-- ============================================================ -->
 
 
@@ -95,20 +96,7 @@
 <!-- ============================================================ -->
 
 
-<!-- 
-# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
-### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
-## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
-### [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
-## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [3.1 - Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-## [4 - Drive value through user adoption](continue-journey.md)
-## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
-## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
- -->
-
-<!-- NEW ============================================================ -->
+<!-- ============================================================ -->
 # [Обновление до группами Майкрософт Скайп для бизнеса](Journey-SkypeforBusiness-Teams.md)
 ## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Обновление базовой](upgrade-basic.md)
@@ -140,7 +128,7 @@
 ### [Улучшения службы](upgrade-enhance-my-service.md)
 ## [Вопросы и ответы](FAQ-journey.md)
 
-<!-- END NEW ============================================================ -->
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Безопасность и соответствие требованиям
@@ -206,7 +194,7 @@
 ## Приложения и службы
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
 ### [Добавление ботов для приватных чатов и каналов в Teams](add-bots.md)
-### [Публикация приложений в хранилище приложений Private групп](tenant-apps-catalog-teams.md)
+### [Публикация приложений в каталог приложений группы клиента](tenant-apps-catalog-teams.md)
 ### [Использование встроенных и настраиваемых вкладок в Teams](built-in-custom-tabs.md)
 ### [Использование Office 365 и настраиваемых соединителей в Teams](office-365-custom-connectors.md)
 ### [Использование П-бота для помощи пользователям с Teams](t-bot.md)
