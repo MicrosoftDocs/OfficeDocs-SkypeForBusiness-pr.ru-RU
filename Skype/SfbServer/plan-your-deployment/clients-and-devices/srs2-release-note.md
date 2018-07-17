@@ -1,7 +1,7 @@
 ---
 title: Примечания к выпуску
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этой статье рассматривается накопительное улучшения в системах комнаты Скайп версии 2.
-ms.openlocfilehash: 3c8c314000fddf78f9247efaefa989f586c1e7b4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bd99a4c3772836d6352228bfd90cecd592af557f
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412327"
 ---
 # <a name="release-notes"></a>Примечания к выпуску 
 
@@ -97,8 +98,7 @@ Introduced in this update:
 - Возможность отправить отзыв для общедоступных построения     
 - Улучшенная телеметрии вокруг надежности присоединиться к собранию     
 - Дополнительные OMS отчетов     
-- Возможности для ИТ-администратором для удаленной настройки устройств 
-    <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- Возможности для ИТ-администратором для удаленной настройки устройств<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
@@ -139,8 +139,6 @@ Introduced in this update:
 <a name="See"> </a>  
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 
-
-#### 
 [Справка по версии 2 Скайп комнаты систем](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Подготовка к Скайп для бизнес-среде](srs-v2-prep.md)
@@ -149,6 +147,6 @@ Introduced in this update:
 
 [Известные проблемы с системами комнаты Скайп версии 2](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Планирование для помещения Скайп систем версии 2](skype-room-systems-v2-0.md)
+[Планирование для Систем комнат Skype версии 2](skype-room-systems-v2-0.md)
 
-[Управление Скайп комнаты систем версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление Системами комнат Skype версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

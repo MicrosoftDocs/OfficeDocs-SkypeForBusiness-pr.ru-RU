@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: В этой статье приведены требования для поддержки систем комнаты Скайп версии 2.
-ms.openlocfilehash: 8c473ee6d1d94b2f382c43ad1383546a69138781
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: e99b425e16bb26ff8fc8f225b703b46224d1f4a4
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/17/2018
-ms.locfileid: "20397149"
+ms.locfileid: "20412278"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
  
@@ -49,7 +49,7 @@ ms.locfileid: "20397149"
 |консоль;|Процессор|ОЗУ|Диск|
 |:-----|:-----|:-----|:-----|
 |[Сервер-концентратор Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Основные i5  |8 ГБ  |128 ГБ  |  
- <!-- HP dock is still pending  -->  
+|[HP интеллектуальных Slice к собранию G2 комнат](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Основные i5  |8 ГБ  |128 ГБ  |  
     
 - Один из следующих параметров закрепления станции для обеспечения безопасности планшетном ПК к собранию комнаты в таблице. 
     
