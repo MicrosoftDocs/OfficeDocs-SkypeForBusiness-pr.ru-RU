@@ -95,19 +95,52 @@
 <!-- ============================================================ -->
 
 
-<!-- ============================================================ -->
-# [Переход со Skype для бизнеса на Teams](Journey-SkypeforBusiness-Teams.md)
-## [1. Оптимизация имеющейся среды Skype для бизнеса для перехода на Teams.](prepare-teams.md)
-### [1.1 - окружающей среды обнаружения для групп Майкрософт выгрузка данных](environmental-discovery-for-microsoft-teams-rollout.md)
-## [2. Пилотный проект Teams параллельно с использованием Skype для бизнеса.](pilot-essentials.md)
-### [2.1 - выбора пользователей для пилотной группы](select-users-for-your-teams-pilot.md)
-## [3 — понять, совместимости и обновление режимы для Скайп для бизнеса и рабочих групп](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [3.1 - рабочих групп и Скайп для бизнеса сосуществования и взаимодействия](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-## [4. Извлечение выгоды за счет освоения Teams пользователями.](continue-journey.md)
-## [Вопросы и ответы. Концепция Skype для бизнеса и Teams](FAQ-journey.md)
-## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-<!-- ============================================================ -->
+<!-- 
+# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
+## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
+### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
+## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
+### [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
+## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [3.1 - Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+## [4 - Drive value through user adoption](continue-journey.md)
+## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
+## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+ -->
 
+<!-- NEW ============================================================ -->
+# [Обновление до группами Майкрософт Скайп для бизнеса](Journey-SkypeforBusiness-Teams.md)
+## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Обновление базовой](upgrade-basic.md)
+### [Образец сообщения электронной почты и опросов](upgrade-emails-surveys.md)
+## [Обновление специалистов](upgrade-pro.md)
+## [Планирование обновления пути](upgrade-plan-journey.md)
+### [Прикрепить другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
+### [Определение области проекта](upgrade-define-project-scope.md)
+### [Понять взаимодействие и совместная работа](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Выбор обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Планирование качества](upgrade-plan-for-quality.md)
+## [Подготовка среды для групп](upgrade-prepare-environment.md)
+### [Подготовка ИТ-персонал для групп](upgrade-prepare-IT-pros.md)
+### [Необходимые компоненты](upgrade-plan-journey-prerequisites.md)
+### [Оценка среды](upgrade-plan-journey-evaluate-environment.md)
+### [Подготовка сети](upgrade-prepare-environment-prepare-network.md)
+### [Подготовка службы](upgrade-prepare-environment-prepare-service.md)
+## [Подготовка групп в вашей организации](upgrade-prepare-organization.md)
+### [Оцените готовность к организационных изменений](upgrade-org-change-readiness.md)
+### [Подготовка плана готовность пользователей](upgrade-user-readiness.md)
+## [Проведение пилотных пользователей](pilot-essentials.md)
+## [Выполнение обновления на группы](upgrade-to-teams.md)
+### [Обновление от Скайп для бизнеса в Интернете по группам](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Обновление с Скайп для гибридной среды Business по группам](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [Обновление от Скайп для бизнеса локальных групп,](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [Диск выгоду за счет внедрения пользователя](continue-journey.md)
+### [Использование службы](upgrade-operate-my-service.md)
+### [Отслеживание качества](upgrade-monitor-quality.md)
+### [Улучшения службы](upgrade-enhance-my-service.md)
+## [Вопросы и ответы](FAQ-journey.md)
+
+<!-- END NEW ============================================================ -->
 
 <!-- ============================================================ -->
 # Безопасность и соответствие требованиям

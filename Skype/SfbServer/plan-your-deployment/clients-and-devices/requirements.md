@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: В этой статье приведены требования для поддержки систем комнаты Скайп версии 2.
-ms.openlocfilehash: 1d44178beb69cda78b72bb8d0e599af81be39321
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 8c473ee6d1d94b2f382c43ad1383546a69138781
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887879"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397149"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
  
@@ -64,7 +64,7 @@ ms.locfileid: "19887879"
 **Сертифицированный встроенное периферийных устройств USB аудио- и видеоконференций**
 |**Периферийных систем комнаты Скайп версии 2**|**Версия микропрограммы сертифицированный для систем комнаты Скайп версии 2**|
 |:-----|:-----|
-|[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> ||
+|[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Аудио - 1.0.172  <br/> Видео - 1.0.156  <br/> |
 |[Подключение Logitech ConferenceCam](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
 |[Группа Logitech](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
@@ -72,12 +72,12 @@ ms.locfileid: "19887879"
 |[Logitech PTZ специалистов](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
 |[Polycom RealPresence Trio](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
-|[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
-|[Sennheiser SP 220 мс](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
+|[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
+|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
-|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
+|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0  <br/> |
-|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
+|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
 |[1000 Yamaha YVC](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c  <br/> |
    
 - **Расширения USB**:
@@ -102,50 +102,43 @@ ms.locfileid: "19887879"
   
 **Сертифицированный аудиоустройств v2 систем Скайп комнаты**
 
-|**Тип комнаты**|**Количество пользователей**|**Рекомендуемое максимальное расстояние от микрофона до голос**|**Устройство с комнаты максимальный размер**|**Комментарии**|
+|**Тип комнаты**|**Количество людей**|**Рекомендованное максимальное расстояние от микрофона до выступающего**|**Устройство для максимального размера комнаты**|**Комментарии**|
 |:-----|:-----|:-----|:-----|:-----|
-|**Фокус** <br/> 10' x 9'  <br/> |2 – 4  <br/> |1,5 МБ  <br/> |Logitech Connect  <br/> |Относятся следующие устройства подключения Logitech камера, должен быть установлен на передней части комнаты (не Центр таблицы) для записи локального участников.  <br/> |
-|**Небольшой** <br/> 16' x 16'  <br/> |4-6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Для комнат большего размера громкости воспроизведения может быть недостаточно.  <br/> |
-|**Средний** <br/> 18' x 20'  <br/> |6-12  <br/> |2,4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 мс  <br/> |Logitech MeetUp включает в себя камера, он должен быть установлен на передней части комнаты (не Центр таблицы для записи локального участников).  <br/> В общем случае комнат с таблицами длинный прямоугольный или u образный может преимущества Дополнительные сопутствующие микрофонов.  <br/> Устройство SP 220 MS должно подключаться последовательно.  <br/> |
-|**Большой** <br/> 15' x 32 °  <br/> |12-16  <br/> |3m  <br/> Здесь также учитывается расстояние до каждого дополнительного микрофона, подключенного к звуковому устройству.   <br/> |Группа Logitech + вспомогательных микрофона  <br/> Polycom Trio + вспомогательных микрофона  <br/> Polycom CX5100 + вспомогательных микрофона  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 мс + вспомогательных микрофона  <br/> |Все звуковые устройства, указанные в этой строке, поддерживают подключение дополнительных микрофонов.  <br/> Устройство CX5100 оснащено встроенной камерой с круговым обзором, что позволяет размещать его в центре стола.  <br/> Устройство SP 220 MS должно подключаться последовательно.  <br/> |
+|**Фокус-комната** <br/> 10' x 9'  <br/> |2 – 4  <br/> |1,5 МБ  <br/> |Logitech Connect  <br/> |Относятся следующие устройства подключения Logitech камера, должен быть установлен на передней части комнаты (не Центр таблицы) для записи локального участников.  <br/> |
+|**Небольшая** <br/> 16' x 16'  <br/> |4-6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Для комнат большего размера громкости воспроизведения может быть недостаточно.  <br/> |
+|**Средняя** <br/> 18' x 20'  <br/> |6-12  <br/> |2,4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 мс  <br/> |Logitech MeetUp включает в себя камера, он должен быть установлен на передней части комнаты (не Центр таблицы для записи локального участников).  <br/> В общем случае комнат с таблицами длинный прямоугольный или u образный может преимущества Дополнительные сопутствующие микрофонов.  <br/> Устройство SP 220 MS должно подключаться последовательно.  <br/> |
+|**Большая** <br/> 15' x 32 °  <br/> |12-16  <br/> |3m  <br/> Здесь также учитывается расстояние до каждого дополнительного микрофона, подключенного к звуковому устройству.   <br/> |Группа Logitech + вспомогательных микрофона  <br/> Polycom Trio + вспомогательных микрофона  <br/> Polycom CX5100 + вспомогательных микрофона  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 мс + вспомогательных микрофона  <br/> |Все звуковые устройства, указанные в этой строке, поддерживают подключение дополнительных микрофонов.  <br/> Устройство CX5100 оснащено встроенной камерой с круговым обзором, что позволяет размещать его в центре стола.  <br/> Устройство SP 220 MS должно подключаться последовательно.  <br/> |
    
 **Сертифицированный видео периферийных v2 систем Скайп комнаты**
 
 |Тип комнаты|Количество людей|Устройство по размеру оптимальную комнаты|Комментарии|
 |:-----|:-----|:-----|:-----|
-|**Фокус** <br/> 10' x 9'  <br/> |2 – 4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
-|**Небольшой** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ специалистов обычно входит в состав группы Logitech  <br/> |
-|**Средний** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
-|**Большой** <br/> 15' x 32 °  <br/> |12-16  <br/> |Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**Фокус-комната** <br/> 10' x 9'  <br/> |2 – 4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
+|**Небольшая** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ специалистов обычно входит в состав группы Logitech  <br/> |
+|**Средний уровень** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**Большая** <br/> 15' x 32 °  <br/> |12-16  <br/> |Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
    
  > [!NOTE]
  > Передней части разрешение экрана комнаты должен иметь значение не более 1920x1080p.
 
 ## <a name="required-software-downloads"></a>Необходимое программное обеспечение
 
-Необходимы следующие файлы для загрузки для создания образа версии 2 Скайп комнаты систем.
-  
-- [Пакет установки систем комнаты Скайп версии 2](https://go.microsoft.com/fwlink/?linkid=851168).
-    
-- Получите копию 64-разрядной версии обновления 10 Enterprise создателя (английский язык, построения 1703). 
-    
+Для создания образа версии 2 Скайп комнаты систем, следуйте инструкциям в статье [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md). Эти инструкции поможет выполнить загрузку все необходимое программное обеспечение для процесса установки. 
+
     > [!NOTE]
-    > 64-разрядная версия Windows 10 Enterprise Годовщина выпуска (английский язык, версия 1607) больше не поддерживается по состоянию на версии 2 систем комнаты Скайп 3.0.12.0 (обновление 3). 
-  
-- Поддерживаемые [драйверы 4 Surface Pro](https://go.microsoft.com/fwlink/?linkid=856887) или [Surface Pro драйверы](https://go.microsoft.com/fwlink/?linkid=856888).
-    
-Эти файлы для загрузки должны быть объединены в загрузочного диска установки Windows media определенным образом, описывается далее в статье [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md). 
-  
+    > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
+
 Кроме того можно копию [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), часто используется для подготовки учетных записей систем комнаты Скайп версии 2.
+
   
 ## <a name="see-also"></a>См. также
 
-[Планирование для помещения Скайп систем версии 2](skype-room-systems-v2-0.md)
+[Планирование для Систем комнат Skype версии 2](skype-room-systems-v2-0.md)
   
-[Развертывание Скайп комнаты систем версии 2](../../deploy/deploy-clients/room-systems-v2.md)
+[Развертывание Систем комнат Skype версии 2](../../deploy/deploy-clients/room-systems-v2.md)
   
-[Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md)
+[Настройка консоли для Систем комнат Skype версии 2](../../deploy/deploy-clients/console.md)
   
-[Управление Скайп комнаты систем версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление Системами комнат Skype версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Скайп для лицензирования дополнительный компонент Business](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

@@ -3,7 +3,7 @@ title: Развертывание групп Майкрософт для пре�
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2018
+ms.date: 07/16/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfd9e5fd267de180907c2ea41c53541c08ff28b7
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: abb049c0185fa52b804c893d6f7abf73a1a902ab
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266940"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397065"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Развертывание групп Майкрософт для предоставления сервера-концентратора
 ======================================
@@ -193,7 +193,7 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 |Параметр   |Значение    |
 |----------|---------|
 |Путь      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|Тип данных | String (строка набора для групп код пакета приложения как - **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! Команды**) |
+|Тип данных | Строка — строка набора к группам код пакета приложения как **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! Группы** |
 |Операции| Получение, установка        |
 
 Перезагрузите устройство поверхность сервера-концентратора. После перезагрузки устройства, должна появиться возможность запуска приложения группы на начальном экране и присоединиться к собранию из календаря.
