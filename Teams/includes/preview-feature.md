@@ -1,1 +1,1 @@
-<span data-ttu-id="62371-101">Это функция предварительной версии или предыдущего выпуска.</span><span class="sxs-lookup"><span data-stu-id="62371-101">This is a preview or early release feature.</span></span>
+<span data-ttu-id="5f623-101">Это функция предварительной версии или предыдущего выпуска.</span><span class="sxs-lookup"><span data-stu-id="5f623-101">This is a preview or early release feature.</span></span>
