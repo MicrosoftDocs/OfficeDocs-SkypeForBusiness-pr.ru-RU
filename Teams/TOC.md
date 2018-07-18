@@ -16,9 +16,10 @@
 ## [URL-адреса и диапазоны IP-адресов для Office 365](office-365-urls-ip-address-ranges.md)
 ## [Ограничения и спецификации для групп](limits-specifications-teams.md)
 ## [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
-## [Создание стратегии управления изменений](change-management-strategy.md)
 ## [Получение средств для развертывания Teams](rollout-tools.md)
 ## [Планирование для государственных учреждений 365 Microsoft - GCC развертываниях](plan-for-government-gcc.md)
+## Адаптации.
+### [Создание стратегии управления изменений](change-management-strategy.md)
 <!-- ============================================================ -->
 
 
