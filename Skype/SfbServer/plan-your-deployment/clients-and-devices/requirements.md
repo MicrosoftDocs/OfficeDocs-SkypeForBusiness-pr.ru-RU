@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: В этой статье приведены требования для поддержки систем комнаты Скайп версии 2.
-ms.openlocfilehash: e99b425e16bb26ff8fc8f225b703b46224d1f4a4
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 405b7cd6fefd7fb6fbd6168957bbc2b41a83bea8
+ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412278"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "20509537"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
  
@@ -125,8 +125,8 @@ ms.locfileid: "20412278"
 
 Для создания образа версии 2 Скайп комнаты систем, следуйте инструкциям в статье [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md). Эти инструкции поможет выполнить загрузку все необходимое программное обеспечение для процесса установки. 
 
-    > [!NOTE]
-    > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
+> [!NOTE]
+> ИТ-специалистов требуется доступ к Windows 10 Enterprise ISO файлов с помощью их соглашением о корпоративном лицензировании.
 
 Кроме того можно копию [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), часто используется для подготовки учетных записей систем комнаты Скайп версии 2.
 
