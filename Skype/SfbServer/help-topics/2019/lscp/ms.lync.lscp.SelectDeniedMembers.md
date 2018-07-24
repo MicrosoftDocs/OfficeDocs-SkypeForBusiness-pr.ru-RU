@@ -3,7 +3,6 @@ title: Выбор запрещенных участников
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,36 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
+ROBOTS: NOINDEX, NOFOLLOW
 description: Администратор сохраняемого чата можно создавать и управлять категорий комнат чата. В процессе создания и управления ими категорий комнат чата администратор сохраняемого чата можно настроить участников (доменных служб Active Directory группы и контейнеры/пользователи), которые имеют доступ к быть члены/создателей каналы, в конкретной категории. Persistent Chat Administrator также можно добавить DeniedMembers к категории, и они станут явные исключения в список разрешенных. DeniedMembers переопределить возможности Указание параметров AllowedMembers.
-ms.openlocfilehash: b5d203c02e8bec67da2a9a94fb7726675a6151cf
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 66c2dc6fb42af3387eff77f7f9257795a72bc6ad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049088"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974905"
 ---
-# <a name="select-denied-members"></a><span data-ttu-id="df014-106">Выбор запрещенных участников</span><span class="sxs-lookup"><span data-stu-id="df014-106">Select Denied Members</span></span>
- 
-<span data-ttu-id="df014-107">Администратор сохраняемого чата можно создавать и управлять категорий комнат чата.</span><span class="sxs-lookup"><span data-stu-id="df014-107">A Persistent Chat Administrator can create and manage chat room categories.</span></span> <span data-ttu-id="df014-108">В процессе создания и управления ими категорий комнат чата администратор сохраняемого чата можно настроить участников (доменных служб Active Directory группы и контейнеры/пользователи), которые имеют доступ к быть члены/создателей каналы, в конкретной категории.</span><span class="sxs-lookup"><span data-stu-id="df014-108">As part of creating and managing chat room categories, a Persistent Chat Administrator can configure principals (Active Directory Domain Services groups/containers/users) that have access to be members/creators of chat rooms of a particular category.</span></span> <span data-ttu-id="df014-109">Persistent Chat Administrator также можно добавить DeniedMembers к категории, и они станут явные исключения в список разрешенных.</span><span class="sxs-lookup"><span data-stu-id="df014-109">A Persistent Chat Administrator can also add DeniedMembers to a category and these become explicit exclusions to the allowed list.</span></span> <span data-ttu-id="df014-110">DeniedMembers переопределить возможности Указание параметров AllowedMembers.</span><span class="sxs-lookup"><span data-stu-id="df014-110">DeniedMembers override what's in AllowedMembers.</span></span>
-  
-## <a name="tasks-that-you-can-perform"></a><span data-ttu-id="df014-111">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="df014-111">Tasks that you can perform</span></span>
+# <a name="select-denied-members"></a><span data-ttu-id="5ac48-106">Выбор запрещенных участников</span><span class="sxs-lookup"><span data-stu-id="5ac48-106">Select Denied Members</span></span>
 
-<span data-ttu-id="df014-112">На странице **Выберите запрещенных участников** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="df014-112">You can perform the following tasks on the **Select Denied Members** page:</span></span>
-  
-- [<span data-ttu-id="df014-113">Настройка категорий</span><span class="sxs-lookup"><span data-stu-id="df014-113">Configure Categories</span></span>](http://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
-    
-- [<span data-ttu-id="df014-114">Новые возможности сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="df014-114">New Persistent Chat Server Features</span></span>](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
-    
- 
-  
-## <a name="to-configure-categories-for-chat-rooms"></a><span data-ttu-id="df014-115">Настройка категорий для комнат чата</span><span class="sxs-lookup"><span data-stu-id="df014-115">To configure categories for chat rooms</span></span>
-
-<span data-ttu-id="df014-116">В области **членство в**разделе **Запрещенные участники** Добавление или удаление пользователей и другие субъекты Active Directory, связанных с участниками, удаляемыми из комнаты.</span><span class="sxs-lookup"><span data-stu-id="df014-116">In **Membership**, in the **Denied members** section, add or remove users and other Active Directory principals associated with members being denied from the room.</span></span>
-  
-### 
-
-<span data-ttu-id="df014-117">Для получения дополнительных сведений о сервера сохраняемого чата функциях и возможностях видеть [Overview of сервера сохраняемого чата](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="df014-117">For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation.</span></span> <span data-ttu-id="df014-118">Дополнительные сведения о работе с конфигурациями сервера сохраняемого чата содержатся [Настройка сервера сохраняемого чата](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) в документации по развертыванию и [управлению Lync Server 2013, серверов сохраняемого чата](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) в документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="df014-118">For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="df014-119">См. также</span><span class="sxs-lookup"><span data-stu-id="df014-119">See also</span></span>
-
-[<span data-ttu-id="df014-120">Общие сведения о членстве в сохраняемом чате</span><span class="sxs-lookup"><span data-stu-id="df014-120">Understanding Persistent Chat Membership</span></span>](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+> [!NOTE] 
+> <span data-ttu-id="5ac48-107">Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="5ac48-107">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="5ac48-108">Те же функциональные возможности доступны в группах.</span><span class="sxs-lookup"><span data-stu-id="5ac48-108">The same functionality is available in Teams.</span></span> <span data-ttu-id="5ac48-109">Дополнительные сведения содержатся в разделе [обновление Скайп для бизнеса для групп Майкрософт](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="5ac48-109">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="5ac48-110">Если необходимо использовать сохраняемого чата, возможны перенос пользователей, которым требуется эта функция группам или продолжить использование Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="5ac48-110">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

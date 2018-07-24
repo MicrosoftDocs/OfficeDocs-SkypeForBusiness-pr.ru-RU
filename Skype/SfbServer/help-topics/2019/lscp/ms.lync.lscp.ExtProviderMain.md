@@ -10,18 +10,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e875ac6-8afb-45bc-bcaa-3c7451125fae
+ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: e1997240dcb4665fea5f146d955c2b654e3afcd0
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b4e08a93e2dbee360c27516247f82fad8601be64
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966895"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978839"
 ---
-# <a name="sip-federated-providers"></a><span data-ttu-id="81406-104">Федеративные поставщики SIP</span><span class="sxs-lookup"><span data-stu-id="81406-104">SIP Federated Providers</span></span>
+# <a name="sip-federated-providers"></a><span data-ttu-id="2b8c9-104">Федеративные поставщики SIP</span><span class="sxs-lookup"><span data-stu-id="2b8c9-104">SIP Federated Providers</span></span>
  
-<span data-ttu-id="81406-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="81406-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="2b8c9-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="2b8c9-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="81406-107">Управление SIP федеративных поставщиков для вашей организации</span><span class="sxs-lookup"><span data-stu-id="81406-107">Manage SIP Federated Providers for Your Organization</span></span>](http://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="2b8c9-107">Управление SIP федеративных поставщиков для вашей организации</span><span class="sxs-lookup"><span data-stu-id="2b8c9-107">Manage SIP Federated Providers for Your Organization</span></span>](http://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
     
 

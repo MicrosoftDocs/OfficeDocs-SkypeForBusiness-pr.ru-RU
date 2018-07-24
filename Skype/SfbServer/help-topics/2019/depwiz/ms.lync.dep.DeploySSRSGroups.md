@@ -10,18 +10,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
+ROBOTS: NOINDEX, NOFOLLOW
 description: В группе только для чтения укажите укажите группу, к которому необходимо предоставить доступ только для чтения к отчетам мониторинг.
-ms.openlocfilehash: 34275bcb00efca6be0bdf90704db98447ef116f5
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f4a00fe17bcfa952b086609595c0e1b49c47e466
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996908"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978589"
 ---
-# <a name="sql-server-reporting-services-groups"></a><span data-ttu-id="88dc9-103">Службы SQL Server Reporting Services (группы)</span><span class="sxs-lookup"><span data-stu-id="88dc9-103">SQL Server Reporting Services (Groups)</span></span>
+# <a name="sql-server-reporting-services-groups"></a><span data-ttu-id="51c23-103">Службы SQL Server Reporting Services (группы)</span><span class="sxs-lookup"><span data-stu-id="51c23-103">SQL Server Reporting Services (Groups)</span></span>
 
-<span data-ttu-id="88dc9-104">**Указать группу только для чтения**и укажите группу, к которому необходимо предоставить доступ только для чтения к отчетам мониторинг.</span><span class="sxs-lookup"><span data-stu-id="88dc9-104">In the **Specify Read-Only Group**, specify the group to whom you want to grant read-only access to Monitoring reports.</span></span> <span data-ttu-id="88dc9-105">Используйте формат &lt;домена&gt;\\&lt;группу доступа&gt;.</span><span class="sxs-lookup"><span data-stu-id="88dc9-105">Use the format &lt;domain&gt;\\&lt;access group&gt;.</span></span> <span data-ttu-id="88dc9-106">Например: contoso\RTCUniversalReadOnlyAdmins.</span><span class="sxs-lookup"><span data-stu-id="88dc9-106">For example: contoso\RTCUniversalReadOnlyAdmins.</span></span>
+<span data-ttu-id="51c23-104">**Указать группу только для чтения**и укажите группу, к которому необходимо предоставить доступ только для чтения к отчетам мониторинг.</span><span class="sxs-lookup"><span data-stu-id="51c23-104">In the **Specify Read-Only Group**, specify the group to whom you want to grant read-only access to Monitoring reports.</span></span> <span data-ttu-id="51c23-105">Используйте формат &lt;домена&gt;\\&lt;группу доступа&gt;.</span><span class="sxs-lookup"><span data-stu-id="51c23-105">Use the format &lt;domain&gt;\\&lt;access group&gt;.</span></span> <span data-ttu-id="51c23-106">Например: contoso\RTCUniversalReadOnlyAdmins.</span><span class="sxs-lookup"><span data-stu-id="51c23-106">For example: contoso\RTCUniversalReadOnlyAdmins.</span></span>
   
-<span data-ttu-id="88dc9-107">Назначение группы доступ только для чтения не является обязательным.</span><span class="sxs-lookup"><span data-stu-id="88dc9-107">Assigning a group read-only access is optional.</span></span> <span data-ttu-id="88dc9-108">Если вы не хотите теперь предоставляется доступ только для чтения, можно настроить его позже непосредственно в SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="88dc9-108">If you do not want to grant read-only access now, you can configure it later directly in SQL Server Reporting Services.</span></span>
+<span data-ttu-id="51c23-107">Назначение группы доступ только для чтения не является обязательным.</span><span class="sxs-lookup"><span data-stu-id="51c23-107">Assigning a group read-only access is optional.</span></span> <span data-ttu-id="51c23-108">Если вы не хотите теперь предоставляется доступ только для чтения, можно настроить его позже непосредственно в SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="51c23-108">If you do not want to grant read-only access now, you can configure it later directly in SQL Server Reporting Services.</span></span>
   
 

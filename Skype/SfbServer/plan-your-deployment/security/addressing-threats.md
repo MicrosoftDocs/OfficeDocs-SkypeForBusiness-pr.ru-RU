@@ -1,27 +1,27 @@
 ---
-title: Адресация угроз основной инфраструктуре для Skype для бизнеса Server 2015
+title: Угрозы, связанные с основной инфраструктуре-адресов для Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/22/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
-description: В дополнение к советы и рекомендации для вашей Скайп для развертывания Business Server 2015 могут помочь для обеспечения безопасности, проверки, общие сведения о и адресации любой потребностей в конкретных областях развертывания.
-ms.openlocfilehash: 8d4e1e3379651e68921aaae7a57a1e67707fc30b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: В дополнение к советы и рекомендации для вашей Скайп для развертывания Business Server может помочь для обеспечения безопасности, проверки, общие сведения о и адресации любой потребностей в конкретных областях развертывания.
+ms.openlocfilehash: df6660e05520e80d8bfff305396415bb97833f8a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006736"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server-2015"></a><span data-ttu-id="4a1ee-103">Адресация угроз основной инфраструктуре для Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="4a1ee-103">Addressing threats to your core infrastructure for Skype for Business Server 2015</span></span>
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="70f18-103">Угрозы, связанные с основной инфраструктуре-адресов для Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="70f18-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
  
-<span data-ttu-id="4a1ee-104">В дополнение к советы и рекомендации для вашей Скайп для развертывания Business Server 2015 могут помочь для обеспечения безопасности, проверки, общие сведения о и адресации любой потребностей в конкретных областях развертывания.</span><span class="sxs-lookup"><span data-stu-id="4a1ee-104">In addition to following best practices for your Skype for Business Server 2015 deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
+<span data-ttu-id="70f18-104">В дополнение к советы и рекомендации для вашей Скайп для развертывания Business Server может помочь для обеспечения безопасности, проверки, общие сведения о и адресации любой потребностей в конкретных областях развертывания.</span><span class="sxs-lookup"><span data-stu-id="70f18-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="4a1ee-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="4a1ee-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="70f18-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="70f18-105">In this section</span></span>
 
-- [<span data-ttu-id="4a1ee-106">Советы и рекомендации по инфраструктуре ядра в Скайп для Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="4a1ee-106">Best practices for your core infrastructure in Skype for Business Server 2015</span></span>](best-practices.md)
+- [<span data-ttu-id="70f18-106">Советы и рекомендации по инфраструктуре ядра в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="70f18-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
     
 

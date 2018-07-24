@@ -11,36 +11,36 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: Чтобы изменить свойства существующего сайта, выполните следующие действия.
-ms.openlocfilehash: da25eb65d041f52668c9b854d48da3d7894d193b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5dd36f11528152be260f378fd2253b5655834088
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988476"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971871"
 ---
-# <a name="lync-server-site-settings-expander"></a><span data-ttu-id="4c58c-103">Расширитель параметров среды Lync Server</span><span class="sxs-lookup"><span data-stu-id="4c58c-103">Lync Server Site Settings Expander</span></span>
+# <a name="lync-server-site-settings-expander"></a><span data-ttu-id="20873-103">Расширитель параметров среды Lync Server</span><span class="sxs-lookup"><span data-stu-id="20873-103">Lync Server Site Settings Expander</span></span>
  
-<span data-ttu-id="4c58c-104">Чтобы изменить свойства существующего сайта, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="4c58c-104">To edit the properties of an existing site, do the following:</span></span>
+<span data-ttu-id="20873-104">Чтобы изменить свойства существующего сайта, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="20873-104">To edit the properties of an existing site, do the following:</span></span>
   
-## 
 
-### <a name="site-properties"></a><span data-ttu-id="4c58c-105">Свойства сайта</span><span class="sxs-lookup"><span data-stu-id="4c58c-105">Site properties</span></span>
 
-<span data-ttu-id="4c58c-106">В свойствах сайта можно изменить или изменение сайта Name (обязательный), описание (необязательно), Город (необязательный параметр), край, Округ (необязательно) и код страны или региона (необязательно).</span><span class="sxs-lookup"><span data-stu-id="4c58c-106">In site properties, you can change or modify the site Name (required), Description (optional), City (optional), State/Province (optional), and the Country/Region Code (optional).</span></span>
-  
-<span data-ttu-id="4c58c-107">Для получения дополнительных сведений о свойствах сайта видеть [Add Branch Sites to Your Topology](http://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx).</span><span class="sxs-lookup"><span data-stu-id="4c58c-107">For details about site properties, see [Add Branch Sites to Your Topology](http://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx).</span></span>
-  
-### <a name="federation-route-properties"></a><span data-ttu-id="4c58c-108">Свойства маршрута федерации</span><span class="sxs-lookup"><span data-stu-id="4c58c-108">Federation Route properties</span></span>
+## <a name="site-properties"></a><span data-ttu-id="20873-105">Свойства сайта</span><span class="sxs-lookup"><span data-stu-id="20873-105">Site properties</span></span>
 
-<span data-ttu-id="4c58c-109">Чтобы задать назначение федеративного маршрута сайта, сначала необходимо включена функция на пограничный сервер или пул пограничного сервера федерации.</span><span class="sxs-lookup"><span data-stu-id="4c58c-109">To set a site federation route assignment, you must first have federation enabled on an Edge Server or an Edge Server pool.</span></span> <span data-ttu-id="4c58c-110">Если федерация не включен на пограничный сервер или пул, параметры назначение маршрута федерации для сайта не будет доступен для изменения.</span><span class="sxs-lookup"><span data-stu-id="4c58c-110">If federation is not enabled on an Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
+<span data-ttu-id="20873-106">В свойствах сайта можно изменить или изменение сайта Name (обязательный), описание (необязательно), Город (необязательный параметр), край, Округ (необязательно) и код страны или региона (необязательно).</span><span class="sxs-lookup"><span data-stu-id="20873-106">In site properties, you can change or modify the site Name (required), Description (optional), City (optional), State/Province (optional), and the Country/Region Code (optional).</span></span>
   
-<span data-ttu-id="4c58c-111">Если параметр федерации на пограничном сервере или пуле был настроен, установите флажок **Включить** на уровне сайта.</span><span class="sxs-lookup"><span data-stu-id="4c58c-111">If the federation setting at the Edge Server or pool has been configured, select **Enable** at the site level.</span></span> <span data-ttu-id="4c58c-112">Выберите пункт пограничных серверов или Директор из раскрывающегося списка, чтобы установить в качестве маршрута федерации.</span><span class="sxs-lookup"><span data-stu-id="4c58c-112">Then select an Edge or a Director from the drop-down list to set as the federation route.</span></span>
+<span data-ttu-id="20873-107">Для получения дополнительных сведений о свойствах сайта видеть [Add Branch Sites to Your Topology](http://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx).</span><span class="sxs-lookup"><span data-stu-id="20873-107">For details about site properties, see [Add Branch Sites to Your Topology](http://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx).</span></span>
+  
+## <a name="federation-route-properties"></a><span data-ttu-id="20873-108">Свойства маршрута федерации</span><span class="sxs-lookup"><span data-stu-id="20873-108">Federation Route properties</span></span>
+
+<span data-ttu-id="20873-109">Чтобы задать назначение федеративного маршрута сайта, сначала необходимо включена функция на пограничный сервер или пул пограничного сервера федерации.</span><span class="sxs-lookup"><span data-stu-id="20873-109">To set a site federation route assignment, you must first have federation enabled on an Edge Server or an Edge Server pool.</span></span> <span data-ttu-id="20873-110">Если федерация не включен на пограничный сервер или пул, параметры назначение маршрута федерации для сайта не будет доступен для изменения.</span><span class="sxs-lookup"><span data-stu-id="20873-110">If federation is not enabled on an Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
+  
+<span data-ttu-id="20873-111">Если параметр федерации на пограничном сервере или пуле был настроен, установите флажок **Включить** на уровне сайта.</span><span class="sxs-lookup"><span data-stu-id="20873-111">If the federation setting at the Edge Server or pool has been configured, select **Enable** at the site level.</span></span> <span data-ttu-id="20873-112">Выберите пункт пограничных серверов или Директор из раскрывающегося списка, чтобы установить в качестве маршрута федерации.</span><span class="sxs-lookup"><span data-stu-id="20873-112">Then select an Edge or a Director from the drop-down list to set as the federation route.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="4c58c-113">Этот параметр повлияет на всех сайтах.</span><span class="sxs-lookup"><span data-stu-id="4c58c-113">This setting will affect all sites.</span></span> <span data-ttu-id="4c58c-114">Убедитесь, что параметр, который настраивается на этом сайте подходит для всех сайтов.</span><span class="sxs-lookup"><span data-stu-id="4c58c-114">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span> 
+> <span data-ttu-id="20873-113">Этот параметр повлияет на всех сайтах.</span><span class="sxs-lookup"><span data-stu-id="20873-113">This setting will affect all sites.</span></span> <span data-ttu-id="20873-114">Убедитесь, что параметр, который настраивается на этом сайте подходит для всех сайтов.</span><span class="sxs-lookup"><span data-stu-id="20873-114">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span> 
   
-### 
+## <a name="see-also"></a><span data-ttu-id="20873-115">См. также</span><span class="sxs-lookup"><span data-stu-id="20873-115">See also</span></span>
 
-<span data-ttu-id="4c58c-115">Дополнительные сведения см [топологии для доступа внешних пользователей](http://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).</span><span class="sxs-lookup"><span data-stu-id="4c58c-115">For details, see [Topologies for External User Access](http://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).</span></span>
+<span data-ttu-id="20873-116">Дополнительные сведения см [топологии для доступа внешних пользователей](http://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).</span><span class="sxs-lookup"><span data-stu-id="20873-116">For details, see [Topologies for External User Access](http://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).</span></span>
   
 

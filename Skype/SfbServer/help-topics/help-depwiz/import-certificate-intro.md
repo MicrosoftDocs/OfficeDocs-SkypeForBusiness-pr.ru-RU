@@ -3,7 +3,7 @@ title: Импорт сертификата (введение)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,19 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: Чтобы импортировать сертификат, необходимо указать путь к файлу сертификата. В текстовом поле Выбор сертификата файла можно либо введите полный путь и имя файла или нажмите кнопку Обзор и перейдите в расположение путь и имя файла (как правило, .p7b, PFX-файл или CER-файл).
-ms.openlocfilehash: f83f42bbd8515ae20510d8253b560a93070e9ed6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b6397595a0996e85c97898219ea8fcd3e326b69b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998394"
 ---
-# <a name="import-certificate-intro"></a><span data-ttu-id="f4d9f-104">Импорт сертификата (введение)</span><span class="sxs-lookup"><span data-stu-id="f4d9f-104">Import Certificate (Intro)</span></span>
+# <a name="import-certificate-intro"></a><span data-ttu-id="56f92-104">Импорт сертификата (введение)</span><span class="sxs-lookup"><span data-stu-id="56f92-104">Import Certificate (Intro)</span></span>
  
-<span data-ttu-id="f4d9f-105">Чтобы импортировать сертификат, необходимо указать путь к файлу сертификата.</span><span class="sxs-lookup"><span data-stu-id="f4d9f-105">To import a certificate, you must provide a path to the certificate file.</span></span> <span data-ttu-id="f4d9f-106">В поле **Выбор сертификата файла** можно либо введите полный путь и имя файла или нажмите кнопку **Обзор** и перейдите в расположение путь и имя файла (как правило, .p7b, PFX-файл или CER-файл).</span><span class="sxs-lookup"><span data-stu-id="f4d9f-106">In the **Select Certificate file** text box, you can either type the full path and file name, or click the **Browse** button and navigate to the path location and the file name (typically, a .p7b, .pfx, or .cer file).</span></span>
+<span data-ttu-id="56f92-105">Чтобы импортировать сертификат, необходимо указать путь к файлу сертификата.</span><span class="sxs-lookup"><span data-stu-id="56f92-105">To import a certificate, you must provide a path to the certificate file.</span></span> <span data-ttu-id="56f92-106">В поле **Выбор сертификата файла** можно либо введите полный путь и имя файла или нажмите кнопку **Обзор** и перейдите в расположение путь и имя файла (как правило, .p7b, PFX-файл или CER-файл).</span><span class="sxs-lookup"><span data-stu-id="56f92-106">In the **Select Certificate file** text box, you can either type the full path and file name, or click the **Browse** button and navigate to the path location and the file name (typically, a .p7b, .pfx, or .cer file).</span></span>
   
-<span data-ttu-id="f4d9f-107">Если сертификат содержит закрытый ключ, установите флажок, **файл сертификата содержит закрытый ключ сертификата**.</span><span class="sxs-lookup"><span data-stu-id="f4d9f-107">If the certificate contains a private key, select the check box **Certificate file contains certificate's private key**.</span></span> <span data-ttu-id="f4d9f-108">Если этот флажок установлен, ввода текста **пароля** включено.</span><span class="sxs-lookup"><span data-stu-id="f4d9f-108">When this check box is selected, the **Password** text input is enabled.</span></span> <span data-ttu-id="f4d9f-109">Если у вас есть сертификат с закрытым ключом, связанные с ним, пароль обычно размещается на закрытый ключ при создании сертификата.</span><span class="sxs-lookup"><span data-stu-id="f4d9f-109">If you have a certificate with a private key associated with it, a password is usually placed on the private key when the certificate is created.</span></span> <span data-ttu-id="f4d9f-110">Введите пароль для закрытого ключа, чтобы разрешить сертификат и закрытый ключ к импорту в хранилище сертификатов.</span><span class="sxs-lookup"><span data-stu-id="f4d9f-110">You input the password for the private key to allow the certificate and the private key to be imported into the certificate store.</span></span> <span data-ttu-id="f4d9f-111">Когда вы предоставили сведения для путь к файлу сертификата, а при необходимости и пароль для закрытого ключа, при необходимости, нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="f4d9f-111">When you have provided the information for the certificate file path, and optionally the private key password, if required, click **Next**.</span></span>
+<span data-ttu-id="56f92-107">Если сертификат содержит закрытый ключ, установите флажок, **файл сертификата содержит закрытый ключ сертификата**.</span><span class="sxs-lookup"><span data-stu-id="56f92-107">If the certificate contains a private key, select the check box **Certificate file contains certificate's private key**.</span></span> <span data-ttu-id="56f92-108">Если этот флажок установлен, ввода текста **пароля** включено.</span><span class="sxs-lookup"><span data-stu-id="56f92-108">When this check box is selected, the **Password** text input is enabled.</span></span> <span data-ttu-id="56f92-109">Если у вас есть сертификат с закрытым ключом, связанные с ним, пароль обычно размещается на закрытый ключ при создании сертификата.</span><span class="sxs-lookup"><span data-stu-id="56f92-109">If you have a certificate with a private key associated with it, a password is usually placed on the private key when the certificate is created.</span></span> <span data-ttu-id="56f92-110">Введите пароль для закрытого ключа, чтобы разрешить сертификат и закрытый ключ к импорту в хранилище сертификатов.</span><span class="sxs-lookup"><span data-stu-id="56f92-110">You input the password for the private key to allow the certificate and the private key to be imported into the certificate store.</span></span> <span data-ttu-id="56f92-111">Когда вы предоставили сведения для путь к файлу сертификата, а при необходимости и пароль для закрытого ключа, при необходимости, нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="56f92-111">When you have provided the information for the certificate file path, and optionally the private key password, if required, click **Next**.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="f4d9f-112">Если вы не знаете пароль для закрытого ключа, импорт не выполнится.</span><span class="sxs-lookup"><span data-stu-id="f4d9f-112">If you do not know the password for the private key, the import will fail.</span></span> 
+> <span data-ttu-id="56f92-112">Если вы не знаете пароль для закрытого ключа, импорт не выполнится.</span><span class="sxs-lookup"><span data-stu-id="56f92-112">If you do not know the password for the private key, the import will fail.</span></span> 
   
 

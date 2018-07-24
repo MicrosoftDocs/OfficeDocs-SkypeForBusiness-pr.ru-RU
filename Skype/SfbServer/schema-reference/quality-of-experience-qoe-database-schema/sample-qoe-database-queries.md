@@ -3,31 +3,31 @@ title: Образцы запросов к базе данных качества
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: В этом разделе содержатся примеры запросов для базы данных качества взаимодействия (QoE).
-ms.openlocfilehash: 70fff2c34e7eade21e5f2c29893a175ee65e39b0
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c66d0fdc51ee3382034f5fba1e98f93a8799f312
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570180"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020599"
 ---
-# <a name="sample-qoe-database-queries"></a><span data-ttu-id="89267-103">Образцы запросов к базе данных качества взаимодействия</span><span class="sxs-lookup"><span data-stu-id="89267-103">Sample QoE database queries</span></span>
+# <a name="sample-qoe-database-queries"></a><span data-ttu-id="0d907-103">Образцы запросов к базе данных качества взаимодействия</span><span class="sxs-lookup"><span data-stu-id="0d907-103">Sample QoE database queries</span></span>
  
-<span data-ttu-id="89267-104">В этом разделе содержатся примеры запросов для базы данных качества взаимодействия (QoE).</span><span class="sxs-lookup"><span data-stu-id="89267-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
+<span data-ttu-id="0d907-104">В этом разделе содержатся примеры запросов для базы данных качества взаимодействия (QoE).</span><span class="sxs-lookup"><span data-stu-id="0d907-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
   
-<span data-ttu-id="89267-105">Используйте следующий пример, чтобы получить среднее значение дрожания и среднюю потерю пакетов для всех аудиопотоков.</span><span class="sxs-lookup"><span data-stu-id="89267-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
+<span data-ttu-id="0d907-105">Используйте следующий пример, чтобы получить среднее значение дрожания и среднюю потерю пакетов для всех аудиопотоков.</span><span class="sxs-lookup"><span data-stu-id="0d907-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
   
 ```
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-<span data-ttu-id="89267-106">Используйте следующий пример, чтобы найти общее количество конференций, использовавших консоль Live Meeting.</span><span class="sxs-lookup"><span data-stu-id="89267-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
+<span data-ttu-id="0d907-106">Используйте следующий пример, чтобы найти общее количество конференций, использовавших консоль Live Meeting.</span><span class="sxs-lookup"><span data-stu-id="0d907-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
   
 ```
 select avg(ConversationalMOS)
@@ -40,7 +40,7 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and s.CalleeUserAgentType = 4 -- Lync
 ```
 
-<span data-ttu-id="89267-107">Используйте следующий пример, чтобы получить ConversstionalMOS, SendingMOS и listendingmos для устройства захвата.</span><span class="sxs-lookup"><span data-stu-id="89267-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
+<span data-ttu-id="0d907-107">Используйте следующий пример, чтобы получить ConversstionalMOS, SendingMOS и listendingmos для устройства захвата.</span><span class="sxs-lookup"><span data-stu-id="0d907-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
   
 ```
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
