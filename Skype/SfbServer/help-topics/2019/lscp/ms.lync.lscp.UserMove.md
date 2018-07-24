@@ -10,18 +10,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
-description: На странице "переместить пользователей" можно выбрать конечный пул для перемещения выбранного пользователя.
-ms.openlocfilehash: 28aa7fb074d4aed5d4d770091cb545917e7cb6df
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: На странице Переместить пользователей вы можете выбрать конечный пул для перемещения выбранного пользователя.
+ms.openlocfilehash: 90aec8c75a444e0d8ac11c7296df28ad2ca141d6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975008"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992606"
 ---
-# <a name="move-user"></a><span data-ttu-id="d7fbc-103">Перемещение пользователя</span><span class="sxs-lookup"><span data-stu-id="d7fbc-103">Move User</span></span>
+# <a name="move-user"></a><span data-ttu-id="e7cca-103">Перемещение пользователя</span><span class="sxs-lookup"><span data-stu-id="e7cca-103">Move User</span></span>
  
-<span data-ttu-id="d7fbc-104">На странице **Переместить пользователей** вы можете выбрать конечный пул для перемещения выбранного пользователя.</span><span class="sxs-lookup"><span data-stu-id="d7fbc-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
+<span data-ttu-id="e7cca-104">На странице **Переместить пользователей** вы можете выбрать конечный пул для перемещения выбранного пользователя.</span><span class="sxs-lookup"><span data-stu-id="e7cca-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
   
-<span data-ttu-id="d7fbc-105">Дополнительные сведения о перемещении пользователей можно [Переместить пользователей в другой пул](http://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="d7fbc-105">For more information about moving users, see [Move Users to Another Pool](http://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
+<span data-ttu-id="e7cca-105">Дополнительные сведения о перемещении пользователей можно [Переместить пользователей в другой пул](http://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="e7cca-105">For more information about moving users, see [Move Users to Another Pool](http://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
   
 

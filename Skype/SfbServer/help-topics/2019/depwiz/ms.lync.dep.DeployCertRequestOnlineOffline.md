@@ -10,18 +10,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
-description: Чтобы создать запрос отложенный или автономный запрос, установите подготовить запрос сейчас, но отправить его более поздняя версия (автономного запроса сертификата). Чтобы создать немедленный запрос в локальную службу сертификации (как правило внутренней системы в вашей организации инфраструктуры открытого ключа), выберите немедленно отправить запрос в локальную службу сертификации.
-ms.openlocfilehash: 562a7f8e5d35e1444b9a4ef91d96da767ed7c7e2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Чтобы создать отложенный или автономный запрос, выберите Подготовить запрос сейчас, но отправить позже (автономный запрос сертификата). Чтобы создать немедленный запрос в локальную службу сертификации (как правило внутренней системы в вашей организации инфраструктуры открытого ключа), выберите немедленно отправить запрос в локальную службу сертификации.
+ms.openlocfilehash: 09f5b97bba4cad9799d3f3cdcb30816b7f69fd6c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990655"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003023"
 ---
-# <a name="certificate-request-online-offline"></a><span data-ttu-id="d1459-104">Запрос сертификата (сетевой, автономный)</span><span class="sxs-lookup"><span data-stu-id="d1459-104">Certificate Request (Online Offline)</span></span>
+# <a name="certificate-request-online-offline"></a><span data-ttu-id="84cf1-104">Запрос сертификата (сетевой, автономный)</span><span class="sxs-lookup"><span data-stu-id="84cf1-104">Certificate Request (Online Offline)</span></span>
  
-<span data-ttu-id="d1459-105">Чтобы создать отложенный или автономный запрос, выберите **Подготовить запрос сейчас, но отправить позже (автономный запрос сертификата)**.</span><span class="sxs-lookup"><span data-stu-id="d1459-105">To create a delayed request or an offline request, select **Prepare the request now, but send it later (offline certificate request)**.</span></span> <span data-ttu-id="d1459-106">Чтобы создать немедленный запрос в локальную службу сертификации (как правило внутренней системы в вашей организации инфраструктуры открытого ключа), выберите **Отправить запрос в локальную службу сертификации немедленно**.</span><span class="sxs-lookup"><span data-stu-id="d1459-106">To create an immediate request to an online certification authority (typically an internal system in your organization's public key infrastructure), select **Send the request immediately to an online certification authority**.</span></span>
+<span data-ttu-id="84cf1-105">Чтобы создать отложенный или автономный запрос, выберите **Подготовить запрос сейчас, но отправить позже (автономный запрос сертификата)**.</span><span class="sxs-lookup"><span data-stu-id="84cf1-105">To create a delayed request or an offline request, select **Prepare the request now, but send it later (offline certificate request)**.</span></span> <span data-ttu-id="84cf1-106">Чтобы создать немедленный запрос в локальную службу сертификации (как правило внутренней системы в вашей организации инфраструктуры открытого ключа), выберите **Отправить запрос в локальную службу сертификации немедленно**.</span><span class="sxs-lookup"><span data-stu-id="84cf1-106">To create an immediate request to an online certification authority (typically an internal system in your organization's public key infrastructure), select **Send the request immediately to an online certification authority**.</span></span>
   
-<span data-ttu-id="d1459-p103">Выбрав нужный параметр, нажмите кнопку **Далее**. Чтобы отменить действие без выполнения изменений, нажмите кнопку **Отмена**. Чтобы вернуться на предыдущий шаг, нажмите кнопку **Назад**.</span><span class="sxs-lookup"><span data-stu-id="d1459-p103">After you have made a selection, click **Next** to continue. If you want to cancel without making changes, click **Cancel**. To go back to the previous step, click **Back**.</span></span>
+<span data-ttu-id="84cf1-p103">Выбрав нужный параметр, нажмите кнопку **Далее**. Чтобы отменить действие без выполнения изменений, нажмите кнопку **Отмена**. Чтобы вернуться на предыдущий шаг, нажмите кнопку **Назад**.</span><span class="sxs-lookup"><span data-stu-id="84cf1-p103">After you have made a selection, click **Next** to continue. If you want to cancel without making changes, click **Cancel**. To go back to the previous step, click **Back**.</span></span>
   
 

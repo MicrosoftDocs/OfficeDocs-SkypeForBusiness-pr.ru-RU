@@ -3,7 +3,6 @@ title: Узел области сохраняемого чата
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,25 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: Чтобы начать создание нового сервера сохраняемого чата или пул серверов сохраняемого чата, в построителе топологии щелкните правой кнопкой мыши на Persistent Chat пулы, а затем выберите нового пула сохраняемого чата
-ms.openlocfilehash: c3806adaaa03fcedfe72a7538afdb30c65bb4c1f
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 5e419127138140ce02b877fb3bf7357c79007350
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012647"
 ---
-# <a name="persistent-chat-scope-node"></a><span data-ttu-id="a6f1c-103">Узел области сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="a6f1c-103">Persistent Chat Scope Node</span></span>
- 
-<span data-ttu-id="a6f1c-104">Чтобы начать создание нового сервера сохраняемого чата или пул серверов сохраняемого чата, в построителе топологии щелкните правой кнопкой мыши на **Persistent Chat пулы** , а затем выберите **Нового пула сохраняемого чата**</span><span class="sxs-lookup"><span data-stu-id="a6f1c-104">To begin the creation of a new Persistent Chat Server or Persistent Chat Server pool, in Topology Builder you right click on **Persistent Chat pools** and then select **New Persistent Chat Pool**</span></span>
-  
-- <span data-ttu-id="a6f1c-105">**Топология**.</span><span class="sxs-lookup"><span data-stu-id="a6f1c-105">**Topology**.</span></span> <span data-ttu-id="a6f1c-106">Этот параметр можно использовать для определения новой топологии, откройте существующую топологию, загрузите текущей топологии, сохранить копию топологии, опубликовать эту топологию, установка базы данных, объединение компонентов с предыдущими версиями Office Communications Server или удаление развертывание.</span><span class="sxs-lookup"><span data-stu-id="a6f1c-106">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Office Communications Server, or remove the deployment.</span></span>
-    
-- <span data-ttu-id="a6f1c-p102">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="a6f1c-p102">**Help**. You can use this option to access Help for the active node.</span></span>
-    
-## <a name="see-also"></a><span data-ttu-id="a6f1c-109">См. также</span><span class="sxs-lookup"><span data-stu-id="a6f1c-109">See also</span></span>
+# <a name="persistent-chat-scope-node"></a><span data-ttu-id="e5a92-103">Узел области сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="e5a92-103">Persistent Chat Scope Node</span></span>
 
-#### 
-
-[<span data-ttu-id="a6f1c-110">Планирование для сервера сохраняемого чата в Скайп Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="a6f1c-110">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[<span data-ttu-id="a6f1c-111">Добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="a6f1c-111">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> <span data-ttu-id="e5a92-104">Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e5a92-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="e5a92-105">Те же функциональные возможности доступны в группах.</span><span class="sxs-lookup"><span data-stu-id="e5a92-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="e5a92-106">Дополнительные сведения содержатся в разделе [обновление Скайп для бизнеса для групп Майкрософт](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="e5a92-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="e5a92-107">Если необходимо использовать сохраняемого чата, возможны перенос пользователей, которым требуется эта функция группам или продолжить использование Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="e5a92-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
