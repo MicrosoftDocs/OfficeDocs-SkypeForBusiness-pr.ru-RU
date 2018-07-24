@@ -10,24 +10,25 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
+ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы задать назначение федеративного маршрута сайта, сначала необходимо включена функция на пограничном сервере или пула пограничных серверов федерации. Если федерация не включен на пограничном сервере или в пуле, параметры назначение маршрута федерации для сайта не будет доступен для изменения.
-ms.openlocfilehash: 260a5dd836adb0c2e99d660f134e57a15a257f18
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5878c7fc5ad41ab4359e4d4cd8cf808b958e7be8
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986815"
+ms.locfileid: "21061512"
 ---
-# <a name="federation-route-settings-expander"></a><span data-ttu-id="22d7a-104">Расширитель настроек маршрута федерации</span><span class="sxs-lookup"><span data-stu-id="22d7a-104">Federation Route Settings Expander</span></span>
+# <a name="federation-route-settings-expander"></a><span data-ttu-id="d06f2-104">Расширитель настроек маршрута федерации</span><span class="sxs-lookup"><span data-stu-id="d06f2-104">Federation Route Settings Expander</span></span>
  
-<span data-ttu-id="22d7a-105">Чтобы задать назначение федеративного маршрута сайта, сначала необходимо включена функция на пограничном сервере или пула пограничных серверов федерации.</span><span class="sxs-lookup"><span data-stu-id="22d7a-105">To set a site federation route assignment, you must first have federation enabled on the Edge Server or Edge Server pool.</span></span> <span data-ttu-id="22d7a-106">Если федерация не включен на пограничном сервере или в пуле, параметры назначение маршрута федерации для сайта не будет доступен для изменения.</span><span class="sxs-lookup"><span data-stu-id="22d7a-106">If federation is not enabled on the Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
+<span data-ttu-id="d06f2-105">Чтобы задать назначение федеративного маршрута сайта, сначала необходимо включена функция на пограничном сервере или пула пограничных серверов федерации.</span><span class="sxs-lookup"><span data-stu-id="d06f2-105">To set a site federation route assignment, you must first have federation enabled on the Edge Server or Edge Server pool.</span></span> <span data-ttu-id="d06f2-106">Если федерация не включен на пограничном сервере или в пуле, параметры назначение маршрута федерации для сайта не будет доступен для изменения.</span><span class="sxs-lookup"><span data-stu-id="d06f2-106">If federation is not enabled on the Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
 
-<span data-ttu-id="22d7a-107">Если параметр федерации на пограничном сервере или пуле был настроен, можно настроить следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="22d7a-107">If the federation setting at the Edge Server or pool has been configured, you can configure the following options:</span></span> 
+<span data-ttu-id="d06f2-107">Если параметр федерации на пограничном сервере или пуле был настроен, можно настроить следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="d06f2-107">If the federation setting at the Edge Server or pool has been configured, you can configure the following options:</span></span> 
   
-- <span data-ttu-id="22d7a-108">**Разрешить назначения маршрута федерации ко всем сайтам** Этот параметр повлияет на всех сайтах.</span><span class="sxs-lookup"><span data-stu-id="22d7a-108">**Allow federation route assignments to all sites** This setting will affect all sites.</span></span> <span data-ttu-id="22d7a-109">Убедитесь, что параметр, который настраивается на этом сайте подходит для всех сайтов.</span><span class="sxs-lookup"><span data-stu-id="22d7a-109">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span>
+- <span data-ttu-id="d06f2-108">**Разрешить назначения маршрута федерации ко всем сайтам** Этот параметр повлияет на всех сайтах.</span><span class="sxs-lookup"><span data-stu-id="d06f2-108">**Allow federation route assignments to all sites** This setting will affect all sites.</span></span> <span data-ttu-id="d06f2-109">Убедитесь, что параметр, который настраивается на этом сайте подходит для всех сайтов.</span><span class="sxs-lookup"><span data-stu-id="d06f2-109">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span>
     
-- <span data-ttu-id="22d7a-110">**Включить SIP-федерацию** Установите этот флажок, чтобы включить маршрут федерации SIP и затем выберите пул директоров или пограничный в качестве маршрута федерации.</span><span class="sxs-lookup"><span data-stu-id="22d7a-110">**Enable SIP federation** Select this option to enable a SIP federation route, and then select a Director or Edge pool as the federation route.</span></span>
+- <span data-ttu-id="d06f2-110">**Включить SIP-федерацию** Установите этот флажок, чтобы включить маршрут федерации SIP и затем выберите пул директоров или пограничный в качестве маршрута федерации.</span><span class="sxs-lookup"><span data-stu-id="d06f2-110">**Enable SIP federation** Select this option to enable a SIP federation route, and then select a Director or Edge pool as the federation route.</span></span>
     
-- <span data-ttu-id="22d7a-111">**Включить поддержку федерации XMPP** Установите этот флажок, чтобы включить маршрут федерации XMPP и затем выберите пул директоров или пограничный в качестве маршрута федерации.</span><span class="sxs-lookup"><span data-stu-id="22d7a-111">**Enable XMPP federation** Select this option to enable an XMPP federation route, and then select a Director or Edge pool as the federation route.</span></span>
+- <span data-ttu-id="d06f2-111">**Включить поддержку федерации XMPP** Установите этот флажок, чтобы включить маршрут федерации XMPP и затем выберите пул директоров или пограничный в качестве маршрута федерации.</span><span class="sxs-lookup"><span data-stu-id="d06f2-111">**Enable XMPP federation** Select this option to enable an XMPP federation route, and then select a Director or Edge pool as the federation route.</span></span>
     
 

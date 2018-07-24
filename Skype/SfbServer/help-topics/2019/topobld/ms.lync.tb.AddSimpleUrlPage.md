@@ -10,24 +10,25 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
+ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы добавить дополнительные простых URL-адреса для определения развертывания, укажите URL-адрес нового простого URL-адреса.
-ms.openlocfilehash: d86c383213b5dfa5472cec9cb46f67abf220e289
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ef26dc814340f9dd2acfa57290d5493946ba5f15
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006000"
+ms.locfileid: "21061159"
 ---
-# <a name="add-simple-url"></a><span data-ttu-id="5c131-103">Добавление простого URL-адреса</span><span class="sxs-lookup"><span data-stu-id="5c131-103">Add Simple URL</span></span>
+# <a name="add-simple-url"></a><span data-ttu-id="5963b-103">Добавление простого URL-адреса</span><span class="sxs-lookup"><span data-stu-id="5963b-103">Add Simple URL</span></span>
  
-<span data-ttu-id="5c131-104">Чтобы добавить дополнительные простых URL-адреса для определения развертывания, укажите URL-адрес нового простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="5c131-104">To add additional simple URLs to the definition of the deployment, specify the URL of the new simple URL.</span></span> <span data-ttu-id="5c131-105">Формат URL-адрес: _http://\<простого URL-адрес типа\>.\< имя домена\> _ или _http://\<доменное имя\>/\<простого URL-адрес типа\>_, где простого типа URL-адрес — это одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="5c131-105">The format of the URL is  _http://\<simple URL type\>.\<domain name\>_ or _http://\<domain name\>/\<simple URL type\>_, where the simple URL type is one of the following:</span></span>
+<span data-ttu-id="5963b-104">Чтобы добавить дополнительные простых URL-адреса для определения развертывания, укажите URL-адрес нового простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="5963b-104">To add additional simple URLs to the definition of the deployment, specify the URL of the new simple URL.</span></span> <span data-ttu-id="5963b-105">Формат URL-адрес: _http://\<простого URL-адрес типа\>.\< имя домена\> _ или _http://\<доменное имя\>/\<простого URL-адрес типа\>_, где простого типа URL-адрес — это одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="5963b-105">The format of the URL is  _http://\<simple URL type\>.\<domain name\>_ or _http://\<domain name\>/\<simple URL type\>_, where the simple URL type is one of the following:</span></span>
   
-- <span data-ttu-id="5c131-106">Meet</span><span class="sxs-lookup"><span data-stu-id="5c131-106">Meet</span></span>
+- <span data-ttu-id="5963b-106">Meet</span><span class="sxs-lookup"><span data-stu-id="5963b-106">Meet</span></span>
     
-- <span data-ttu-id="5c131-107">Звонить</span><span class="sxs-lookup"><span data-stu-id="5c131-107">Dial in</span></span>
+- <span data-ttu-id="5963b-107">Звонить</span><span class="sxs-lookup"><span data-stu-id="5963b-107">Dial in</span></span>
     
 > [!IMPORTANT]
-> <span data-ttu-id="5c131-108">Может иметь одно номера в простой URL-адрес и один собраний простого URL-адреса active в любое время.</span><span class="sxs-lookup"><span data-stu-id="5c131-108">You can have one Dial in simple URL and one Meet simple URL active at any time.</span></span> <span data-ttu-id="5c131-109">Добавление нового простого URL-адреса, делая активный URL-адрес будет задать все последующие запросы для использования нового простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="5c131-109">Adding a new simple URL and making it the active URL will set all future requests to use the new simple URL.</span></span> <span data-ttu-id="5c131-110">Оставьте неактивную простого URL-адреса для обработки конференций и других запросов, которые были внесены при активном старые простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="5c131-110">You leave the nonactive simple URL to handle conferences and other requests that were made when the older simple URL was active.</span></span> 
+> <span data-ttu-id="5963b-108">Может иметь одно номера в простой URL-адрес и один собраний простого URL-адреса active в любое время.</span><span class="sxs-lookup"><span data-stu-id="5963b-108">You can have one Dial in simple URL and one Meet simple URL active at any time.</span></span> <span data-ttu-id="5963b-109">Добавление нового простого URL-адреса, делая активный URL-адрес будет задать все последующие запросы для использования нового простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="5963b-109">Adding a new simple URL and making it the active URL will set all future requests to use the new simple URL.</span></span> <span data-ttu-id="5963b-110">Оставьте неактивную простого URL-адреса для обработки конференций и других запросов, которые были внесены при активном старые простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="5963b-110">You leave the nonactive simple URL to handle conferences and other requests that were made when the older simple URL was active.</span></span> 
   
 
 

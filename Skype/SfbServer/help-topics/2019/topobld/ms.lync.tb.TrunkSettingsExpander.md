@@ -10,37 +10,38 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
+ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы изменить параметры магистральной линии SIP, выполните следующие действия.
-ms.openlocfilehash: 4f8f6e2f0851b00f9e7702391ce051a42dd686c3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 79a72516ef57fe66cb95e0b965fef5a118f2feea
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985835"
+ms.locfileid: "21058431"
 ---
-# <a name="trunk-settings-expander"></a><span data-ttu-id="fe5e6-103">Расширитель настроек магистральной линии связи</span><span class="sxs-lookup"><span data-stu-id="fe5e6-103">Trunk Settings Expander</span></span>
+# <a name="trunk-settings-expander"></a><span data-ttu-id="eee88-103">Расширитель настроек магистральной линии связи</span><span class="sxs-lookup"><span data-stu-id="eee88-103">Trunk Settings Expander</span></span>
  
-<span data-ttu-id="fe5e6-104">Чтобы изменить параметры магистральной линии SIP, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="fe5e6-104">To edit or modify the settings for a SIP trunk, you do the following:</span></span>
+<span data-ttu-id="eee88-104">Чтобы изменить параметры магистральной линии SIP, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="eee88-104">To edit or modify the settings for a SIP trunk, you do the following:</span></span>
   
- <span data-ttu-id="fe5e6-105">**Имя линии связи**. Обязательный параметр, однозначно определяющий магистраль SIP в развертывании.</span><span class="sxs-lookup"><span data-stu-id="fe5e6-105">**Trunk name** is a required entry and uniquely identifies the SIP trunk in the deployment.</span></span>
+ <span data-ttu-id="eee88-105">**Имя линии связи**. Обязательный параметр, однозначно определяющий магистраль SIP в развертывании.</span><span class="sxs-lookup"><span data-stu-id="eee88-105">**Trunk name** is a required entry and uniquely identifies the SIP trunk in the deployment.</span></span>
   
- <span data-ttu-id="fe5e6-106">**Связанный шлюз ТСОП**. Выберите существующий шлюз ТСОП, определенный в развертывании.</span><span class="sxs-lookup"><span data-stu-id="fe5e6-106">**Associated PSTN gateway**: Select an existing PSTN gateway that has been defined in the deployment.</span></span>
+ <span data-ttu-id="eee88-106">**Связанный шлюз ТСОП**. Выберите существующий шлюз ТСОП, определенный в развертывании.</span><span class="sxs-lookup"><span data-stu-id="eee88-106">**Associated PSTN gateway**: Select an existing PSTN gateway that has been defined in the deployment.</span></span>
   
- <span data-ttu-id="fe5e6-p101">**Порт прослушивания для шлюза IP/ТСОП**. Порт TCP/IP, через который на шлюзе ожидается передача запросов. Обязательное значение зависит от поставщика шлюза, но по умолчанию используется порт 5067.</span><span class="sxs-lookup"><span data-stu-id="fe5e6-p101">**Listening port for IP/PSTN gateway**: Indicates what TCP/IP port the gateway will be listening for requests on. The required value may differ, based on the vendor of the gateway, but the default is port 5067.</span></span>
+ <span data-ttu-id="eee88-p101">**Порт прослушивания для шлюза IP/ТСОП**. Порт TCP/IP, через который на шлюзе ожидается передача запросов. Обязательное значение зависит от поставщика шлюза, но по умолчанию используется порт 5067.</span><span class="sxs-lookup"><span data-stu-id="eee88-p101">**Listening port for IP/PSTN gateway**: Indicates what TCP/IP port the gateway will be listening for requests on. The required value may differ, based on the vendor of the gateway, but the default is port 5067.</span></span>
   
- <span data-ttu-id="fe5e6-p102">**Транспортный протокол SIP**. Допустимые протоколы: TCP и TLS. По умолчанию применяется протокол TLS. Сведения о протоколах, поддерживаемых конкретным шлюзом, см. в документации поставщика шлюза. Предпочтительным является используемый по умолчанию протокол TLS, если он поддерживается шлюзом, так как этот протокол обеспечивает повышенный уровень безопасности.</span><span class="sxs-lookup"><span data-stu-id="fe5e6-p102">**SIP Transport Protocol**: The protocol used is either TCP or TLS. TLS is the default. Refer to the gateway vendor documentation for what you gateway supports. The default is TLS, and should be considered the more secure selection, if the gateway supports TLS.</span></span>
+ <span data-ttu-id="eee88-p102">**Транспортный протокол SIP**. Допустимые протоколы: TCP и TLS. По умолчанию применяется протокол TLS. Сведения о протоколах, поддерживаемых конкретным шлюзом, см. в документации поставщика шлюза. Предпочтительным является используемый по умолчанию протокол TLS, если он поддерживается шлюзом, так как этот протокол обеспечивает повышенный уровень безопасности.</span><span class="sxs-lookup"><span data-stu-id="eee88-p102">**SIP Transport Protocol**: The protocol used is either TCP or TLS. TLS is the default. Refer to the gateway vendor documentation for what you gateway supports. The default is TLS, and should be considered the more secure selection, if the gateway supports TLS.</span></span>
   
- <span data-ttu-id="fe5e6-113">**Связанный сервер-посредник**: выберите существующий сервер-посредник из развертывания для связи с канала SIP.</span><span class="sxs-lookup"><span data-stu-id="fe5e6-113">**Associated Mediation Server**: Select an existing Mediation Server from the deployment to associate with the SIP trunk.</span></span>
+ <span data-ttu-id="eee88-113">**Связанный сервер-посредник**: выберите существующий сервер-посредник из развертывания для связи с канала SIP.</span><span class="sxs-lookup"><span data-stu-id="eee88-113">**Associated Mediation Server**: Select an existing Mediation Server from the deployment to associate with the SIP trunk.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="fe5e6-114">Корневая магистраль можно сопоставить с сервером-посредником.</span><span class="sxs-lookup"><span data-stu-id="fe5e6-114">Only the root trunk can be associated with a Mediation Server.</span></span> 
+> <span data-ttu-id="eee88-114">Корневая магистраль можно сопоставить с сервером-посредником.</span><span class="sxs-lookup"><span data-stu-id="eee88-114">Only the root trunk can be associated with a Mediation Server.</span></span> 
   
- <span data-ttu-id="fe5e6-115">**Порт связанного сервера-посредника**: требуемое значение это задано значение, сервер-посредник, настроенную для прослушивания.</span><span class="sxs-lookup"><span data-stu-id="fe5e6-115">**Associated Mediation Server port**: A required value, this is set to the value that the Mediation Server is configured to listen on.</span></span>
+ <span data-ttu-id="eee88-115">**Порт связанного сервера-посредника**: требуемое значение это задано значение, сервер-посредник, настроенную для прослушивания.</span><span class="sxs-lookup"><span data-stu-id="eee88-115">**Associated Mediation Server port**: A required value, this is set to the value that the Mediation Server is configured to listen on.</span></span>
   
 ![Расширитель настроек магистральной линии связи](../../../media/Trunk_Settings_Expander.jpg)
   
-## <a name="see-also"></a><span data-ttu-id="fe5e6-117">См. также</span><span class="sxs-lookup"><span data-stu-id="fe5e6-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eee88-117">См. также</span><span class="sxs-lookup"><span data-stu-id="eee88-117">See also</span></span>
 
-[<span data-ttu-id="fe5e6-118">Контрольный список развертывания для распределения каналов SIP</span><span class="sxs-lookup"><span data-stu-id="fe5e6-118">SIP Trunking Deployment Checklist</span></span>](http://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[<span data-ttu-id="eee88-118">Контрольный список развертывания для распределения каналов SIP</span><span class="sxs-lookup"><span data-stu-id="eee88-118">SIP Trunking Deployment Checklist</span></span>](http://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
   
-[<span data-ttu-id="fe5e6-119">Компоненты и топологии для распределения каналов SIP</span><span class="sxs-lookup"><span data-stu-id="fe5e6-119">Components and Topologies for SIP Trunking</span></span>](http://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[<span data-ttu-id="eee88-119">Компоненты и топологии для распределения каналов SIP</span><span class="sxs-lookup"><span data-stu-id="eee88-119">Components and Topologies for SIP Trunking</span></span>](http://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
