@@ -10,30 +10,31 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
+ROBOTS: NOINDEX, NOFOLLOW
 description: Очереди группы ответа содержат вызовы в группы ответа, пока агент отвечает на звонок. Очереди назначения групп агентов. При создании или изменение очереди для выбора одного или нескольких групп агентов для назначения в очередь используется диалоговое окно Выбор групп.
-ms.openlocfilehash: 8b8ebcce726b92e40f20f077319dcec1272d35f2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 288efe4395361b508e7ebe245155c55319161581
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974003"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967857"
 ---
-# <a name="select-groups"></a><span data-ttu-id="bdbc8-105">Выбор групп</span><span class="sxs-lookup"><span data-stu-id="bdbc8-105">Select Groups</span></span>
+# <a name="select-groups"></a><span data-ttu-id="9b23f-105">Выбор групп</span><span class="sxs-lookup"><span data-stu-id="9b23f-105">Select Groups</span></span>
  
-<span data-ttu-id="bdbc8-106">Очереди группы ответа содержат вызовы в группы ответа, пока агент отвечает на звонок.</span><span class="sxs-lookup"><span data-stu-id="bdbc8-106">Response Group queues hold calls to response groups until an agent answers the call.</span></span> <span data-ttu-id="bdbc8-107">Очереди назначения групп агентов.</span><span class="sxs-lookup"><span data-stu-id="bdbc8-107">Queues have assigned agent groups.</span></span> <span data-ttu-id="bdbc8-108">При создании или изменение очереди для выбора одного или нескольких групп агентов для назначения в очередь используется диалоговое окно **Выбор групп** .</span><span class="sxs-lookup"><span data-stu-id="bdbc8-108">When you create or edit a queue, you use the **Select Groups** dialog box to select one or more agent groups to be assigned to the queue.</span></span>
+<span data-ttu-id="9b23f-106">Очереди группы ответа содержат вызовы в группы ответа, пока агент отвечает на звонок.</span><span class="sxs-lookup"><span data-stu-id="9b23f-106">Response Group queues hold calls to response groups until an agent answers the call.</span></span> <span data-ttu-id="9b23f-107">Очереди назначения групп агентов.</span><span class="sxs-lookup"><span data-stu-id="9b23f-107">Queues have assigned agent groups.</span></span> <span data-ttu-id="9b23f-108">При создании или изменение очереди для выбора одного или нескольких групп агентов для назначения в очередь используется диалоговое окно **Выбор групп** .</span><span class="sxs-lookup"><span data-stu-id="9b23f-108">When you create or edit a queue, you use the **Select Groups** dialog box to select one or more agent groups to be assigned to the queue.</span></span>
   
-## <a name="ui-reference"></a><span data-ttu-id="bdbc8-109">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="bdbc8-109">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="9b23f-109">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="9b23f-109">UI Reference</span></span>
 
-<span data-ttu-id="bdbc8-110">Ниже перечислены элементы управления и поля в диалоговом окне **Выбор групп** .</span><span class="sxs-lookup"><span data-stu-id="bdbc8-110">The following list describes the controls and fields in the **Select Groups** dialog box.</span></span>
+<span data-ttu-id="9b23f-110">Ниже перечислены элементы управления и поля в диалоговом окне **Выбор групп** .</span><span class="sxs-lookup"><span data-stu-id="9b23f-110">The following list describes the controls and fields in the **Select Groups** dialog box.</span></span>
   
-- <span data-ttu-id="bdbc8-111">Поиск в поле поиска имя группы агентов.</span><span class="sxs-lookup"><span data-stu-id="bdbc8-111">Search box Searches for name of an agent group.</span></span> <span data-ttu-id="bdbc8-112">Введите полностью или частично имя.</span><span class="sxs-lookup"><span data-stu-id="bdbc8-112">Enter all or part of the name.</span></span> <span data-ttu-id="bdbc8-113">Не заполняйте поле «Поиск» для отображения всех групп агентов для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="bdbc8-113">Leave the search box empty to display all the agent groups for your organization.</span></span> 
+- <span data-ttu-id="9b23f-111">Поиск в поле поиска имя группы агентов.</span><span class="sxs-lookup"><span data-stu-id="9b23f-111">Search box Searches for name of an agent group.</span></span> <span data-ttu-id="9b23f-112">Введите полностью или частично имя.</span><span class="sxs-lookup"><span data-stu-id="9b23f-112">Enter all or part of the name.</span></span> <span data-ttu-id="9b23f-113">Не заполняйте поле «Поиск» для отображения всех групп агентов для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="9b23f-113">Leave the search box empty to display all the agent groups for your organization.</span></span> 
     
-- <span data-ttu-id="bdbc8-114">**Имя** Отображает имена возвращенных групп агентов.</span><span class="sxs-lookup"><span data-stu-id="bdbc8-114">**Name** Displays the names of the returned agent groups.</span></span>
+- <span data-ttu-id="9b23f-114">**Имя** Отображает имена возвращенных групп агентов.</span><span class="sxs-lookup"><span data-stu-id="9b23f-114">**Name** Displays the names of the returned agent groups.</span></span>
     
-- <span data-ttu-id="bdbc8-115">**Политика участия** Отображает политику участия, заданную для группы агентов: строгая или свободная.</span><span class="sxs-lookup"><span data-stu-id="bdbc8-115">**Participation policy** Displays the participation policy defined for the agent group: formal or informal.</span></span>
+- <span data-ttu-id="9b23f-115">**Политика участия** Отображает политику участия, заданную для группы агентов: строгая или свободная.</span><span class="sxs-lookup"><span data-stu-id="9b23f-115">**Participation policy** Displays the participation policy defined for the agent group: formal or informal.</span></span>
     
-- <span data-ttu-id="bdbc8-116">**Метод маршрутизации** Отображает тип маршрутизации, заданный для группы агентов.</span><span class="sxs-lookup"><span data-stu-id="bdbc8-116">**Routing method** Displays the type of routing defined for the agent group.</span></span>
+- <span data-ttu-id="9b23f-116">**Метод маршрутизации** Отображает тип маршрутизации, заданный для группы агентов.</span><span class="sxs-lookup"><span data-stu-id="9b23f-116">**Routing method** Displays the type of routing defined for the agent group.</span></span>
     
-<span data-ttu-id="bdbc8-117">Дополнительные сведения о работе с очередями см [Управление очередями группы ответа](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) в документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="bdbc8-117">For details about working with queues, see [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="9b23f-117">Дополнительные сведения о работе с очередями см [Управление очередями группы ответа](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) в документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="9b23f-117">For details about working with queues, see [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span></span>
   
 
