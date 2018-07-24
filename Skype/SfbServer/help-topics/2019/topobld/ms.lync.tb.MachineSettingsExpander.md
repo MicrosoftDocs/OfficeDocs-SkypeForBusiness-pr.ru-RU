@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
+ROBOTS: NOINDEX, NOFOLLOW
 description: Этот узел отображает полное доменное имя и IP-адрес этого сервера. Можно выполнить следующие действия.
-ms.openlocfilehash: 7b2f6acf518181bba8b85ad2a0596602a3edf969
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 95a713378e5b4a9e4bd502fa6df999021c2074e5
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966839"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069598"
 ---
 # <a name="server-settings-expander"></a>Расширитель параметров сервера
  

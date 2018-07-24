@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
+ROBOTS: NOINDEX, NOFOLLOW
 description: Для развертывания выпуска Enterprise Edition, А аудио- и видеоконференций совмещен пула переднего плана. Также можно совместно сервера-посредника в пуле переднего плана, или его можно развернуть как изолированный сервер. A аудио- и видеоконференций всегда размещается совместно при включении конференц-связи.
-ms.openlocfilehash: 58f06cda9927c7596844fd3cda884bdfe48e32a7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a7e81191b9f187a87fbe29f56919a4e6c77823ef
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974980"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069295"
 ---
 # <a name="add-front-end-server-collocations"></a>Добавление размещений сервера переднего плана
  

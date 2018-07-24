@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
+ROBOTS: NOINDEX, NOFOLLOW
 description: Контроль доступа звонков — это сеть регионов, сайтов и подсетей, которые позволяют вам налагать ограничения на передачу звука и видео в зависимости от доступной пропускной способности. После настройки сети на использование контроля доступа звонков, следует включить контроль доступа звонков для применения заданных ограничений.
-ms.openlocfilehash: b555b7415d96ec99e827ac20a8055fabca3b0a0b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5a6f1627c2d15b62a9c89c9714ca1fc23b416468
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976613"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062166"
 ---
 # <a name="call-admission-control-settings-expander"></a>Расширитель параметров контроля допуска звонков
  

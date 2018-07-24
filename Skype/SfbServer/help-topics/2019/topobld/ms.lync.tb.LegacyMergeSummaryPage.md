@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
+ROBOTS: NOINDEX, NOFOLLOW
 description: Миграция с Microsoft Office Communications Server 2007 R2 на Lync Server 2013 использует возможности Topology Builder для объединения существующей топологии. Сводный экран указывает все действия и выбранные элементы, внесенные во время настройки слияния Office Communications Server 2007 R2 в конфигурации построитель топологии Lync Server 2013.
-ms.openlocfilehash: d3b093c9665690fcc4a7350760249216fd3a8352
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2bd30be40f1f7350612dc7cfd074ea45c78c7f6e
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987391"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065851"
 ---
 # <a name="legacy-merge-summary-page"></a>Страница сводки объединения с устаревшей версией
  

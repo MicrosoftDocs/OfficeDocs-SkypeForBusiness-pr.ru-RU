@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
+ROBOTS: NOINDEX, NOFOLLOW
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server.
-ms.openlocfilehash: 694167ce5b49e866d2ed635ea0898eb4c5006aa1
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 147413046bdaa4cfeca2992b452241fe1697c3ee
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046300"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21064352"
 ---
 # <a name="add-vis-machine"></a>Добавление компьютера сервера видеовзаимодействия
  

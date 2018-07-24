@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
+ROBOTS: NOINDEX, NOFOLLOW
 description: Полное доменное имя внешних веб-конференций позволяет внешним пользователям присоединяться к собраниям в локальной. Введите полное доменное имя (FQDN) веб-конференций внешнего интерфейса из устаревшего пограничного сервера.
-ms.openlocfilehash: 5871af367ac2c060637b056daa824eda21eac784
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7ba81731c463196eda4c47dc615f27eb15246259
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987769"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069626"
 ---
 # <a name="legacy-merge"></a>Объединения с устаревшей версией
  

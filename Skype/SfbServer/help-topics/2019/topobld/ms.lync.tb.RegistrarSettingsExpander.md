@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
+ROBOTS: NOINDEX, NOFOLLOW
 description: Устойчивость предоставляет высокой доступности и аварийного восстановления для пула регистратора. С указанием регистратора резервного копирования в случае сбоя основного регистратора Registrar взять на себя для неудачных регистратора резервной копии позволяя пользователям входить в систему и общаться. Пользователи могут использовать потенциально ограниченной функциональности, в зависимости от того, который системы не были выполнены в основном регистраторе.
-ms.openlocfilehash: b1609bfa8fd3fe9fb58d02c2154a3427c5ba94c0
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ff8193ced1f731812cdd4d4095013d1a7cf72cee
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964690"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067540"
 ---
 # <a name="registrar-settings-expander"></a>Расширитель параметров регистратора
  

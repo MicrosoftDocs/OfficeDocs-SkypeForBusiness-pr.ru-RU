@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: Узел серверы доверенных приложений перечислены пулы доверенных приложений на этом сайте. Пулы доверенных приложений содержат серверы, запустите доверенными приложениями объединенных коммуникаций Майкрософт, но не запускайте Скайп для ролей сервера. Можно выполнить следующее действие.
-ms.openlocfilehash: 4d71f5527b97b290c03ff125b49c5a2a57d22d3d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Узел Серверы доверенных приложений содержит список пулов доверенных приложений на данном сайте. Пулы доверенных приложений содержат серверы, запустите доверенными приложениями объединенных коммуникаций Майкрософт, но не запускайте Скайп для ролей сервера. Можно выполнить следующее действие.
+ms.openlocfilehash: 24f167f8ab81983d596c2686da7342c6858830ff
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990065"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062624"
 ---
 # <a name="external-applications-scope-node"></a>Внешний узел области применения приложений
  

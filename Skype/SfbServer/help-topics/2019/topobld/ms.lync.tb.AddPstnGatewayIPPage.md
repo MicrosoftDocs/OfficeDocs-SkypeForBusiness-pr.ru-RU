@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
+ROBOTS: NOINDEX, NOFOLLOW
 description: Определение адресов IPv4 или IPv6 для шлюза IP-адресов или по телефону коммутируемой телефонной сети (общего пользования PSTN), выбрав включить IPv4 или включить IPv6. Можно либо использовать все настроенные IP-адреса или ограничьте использование службы выбранных IP-адресов.
-ms.openlocfilehash: adb8bfee46bbf32edef6111ee40843ebf47bb453
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 472b87c91a1f34bffac797df401053c427d45881
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987356"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067681"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Определите IP-адрес шлюза IP или ТСОП
  

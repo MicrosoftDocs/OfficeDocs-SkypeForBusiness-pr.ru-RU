@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Можно определить хранилище SQL Server для мониторинга, настроив следующие свойства:'
-ms.openlocfilehash: 421eca100d65e529ac965dc927d193e9378bdc5f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 56be865d60266fd2ee477356f9c7cd407dee28c4
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992015"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068984"
 ---
 # <a name="add-director-monitoring"></a>Добавление мониторинга директора
  

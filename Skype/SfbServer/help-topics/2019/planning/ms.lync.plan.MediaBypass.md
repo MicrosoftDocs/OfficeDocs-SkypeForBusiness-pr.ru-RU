@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
+ROBOTS: NOINDEX, NOFOLLOW
 description: Обход сервера-посредника означает исключение сервера-посредника из пути передачи данных по возможности для звонков, чьи сигналы проходят через сервер-посредник. Для получения дополнительных сведений ознакомьтесь со статьей Plan для мультимедиа обходить в Скайп для бизнеса.
-ms.openlocfilehash: f59c129afbfdcdfaa791d5c6e0606997f72d1bd1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 601bf7a12a077dc2e820849b92c924711a19da0d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974287"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21058670"
 ---
 # <a name="media-bypass-planning-tool"></a>Сервера-посредника (средство планирования)
  

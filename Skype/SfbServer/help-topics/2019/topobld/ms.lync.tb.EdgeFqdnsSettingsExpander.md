@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
-description: Чтобы изменить или указать параметры внешнего для пограничных серверов, сначала необходимо определить, если будет использовать отдельный IP-адресов для доступа к Session Initiation Protocol (SIP), Web конференций и служба пограничного сервера аудио и видео.
-ms.openlocfilehash: 96d34ed48238da6d3c80b1bb9fb03714560fd89c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Если для пограничных серверов требуется задать или изменить значения в разделе Внешние параметры, необходимо сначала определить, будут ли назначены отдельные IP-адреса для доступа по протоколу SIP, для пограничных веб-конференций и для пограничной службы передачи аудио- и видеоданных
+ms.openlocfilehash: 4edc676da68538c9860083b1e27f7e16eb89f846
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965999"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069584"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Расширитель параметров полного доменного имени пограничного сервера
  

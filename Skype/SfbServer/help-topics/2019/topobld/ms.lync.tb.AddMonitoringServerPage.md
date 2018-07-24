@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
+ROBOTS: NOINDEX, NOFOLLOW
 description: Для включения в проект топологии сервера мониторинга, необходимо указать полное доменное имя (FQDN) сервера, на котором требуется развернуть сервер мониторинга. Перед публикацией топологии, которая включает в себя сервер мониторинга и установка Скайп для Business Server на сервере, необходимо выполнить все необходимые компоненты для развертывания мониторинга. Для получения дополнительных сведений об этих необходимых компонентов в документации по развертыванию показано развертывание мониторинга.
-ms.openlocfilehash: 8c396335126ce2d5b1df51e1f967a4375f329a2f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 83e1091a13bd72df86d86661e4476c2b88679733
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992127"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067688"
 ---
 # <a name="add-monitoring-server"></a>Добавление сервера мониторинга
  

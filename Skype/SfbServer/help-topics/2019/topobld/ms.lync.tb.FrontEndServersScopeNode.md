@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
-description: Узел пулы переднего плана Enterprise Edition выводится пулов переднего плана на этом сайте, а узлы Standard Edition серверы переднего плана серверов Standard Edition на этом сайте. Можно выполнить следующее действие.
-ms.openlocfilehash: cc9c7e04e3037d2e3d9e8d0c658579d76c9601c3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Узел Пулы переднего плана Enterprise Edition содержит список пулов переднего плана на данном сайте, а узел Серверы переднего плана Standard Edition — список серверов переднего плана стандартного выпуска на данном сайте. Доступно следующее действие.
+ms.openlocfilehash: f6ca2a8b27b0868492862c551cebfe12e9e32ffa
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991019"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065587"
 ---
 # <a name="front-end-servers-scope-node"></a>Узел области применения серверов переднего плана
  

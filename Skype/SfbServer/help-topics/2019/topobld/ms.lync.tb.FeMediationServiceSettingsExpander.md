@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
-description: 'Для сервера-посредника необходимо указать следующее:'
-ms.openlocfilehash: b1d7f088165c1287599d19e103b3a418d5f4a5f8
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: В разделе Сервер-посредник можно задать следующие параметры.
+ms.openlocfilehash: 3f9e5781202060215e76ad431dc05497387547a3
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997089"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069189"
 ---
 # <a name="mediation-service-settings-expander"></a>Расширитель настроек службы сервера-посредника
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
+ROBOTS: NOINDEX, NOFOLLOW
 description: С каждым пулом переднего плана может быть связан только один пограничный сервер или пограничный пул. Если к сайту разрешен доступ внешних пользователей, можно включить поддержку удаленных пользователей. Возможна также поддержка федеративных пользователей, включая пользователей конкретных поставщиков общедоступных услуг связи для обмена мгновенными сообщениями (например, Windows Live), и поддержка анонимных пользователей.
-ms.openlocfilehash: b4faaf7e6708af6b369846391087ac35742e1d42
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 79c4a17f1d59a071470534915f5421e964f59d1b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987342"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063065"
 ---
 # <a name="associate-front-end-with-edge"></a>Связывание сервера переднего плана с пограничным
  

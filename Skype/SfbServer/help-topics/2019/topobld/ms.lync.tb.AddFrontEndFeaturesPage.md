@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
+ROBOTS: NOINDEX, NOFOLLOW
 description: Выберите каждый компонент, который необходимо включить для пула переднего плана. Как минимум, необходимо развернуть мгновенного обмена Мгновенными сообщениями, которая всегда включена и его нельзя отменить. Также существует возможность развертывания другие функции, например, конференц-связи, корпоративной голосовой связи и допуска контроля допуска звонков. Некоторые функции, зависящие от топологии.
-ms.openlocfilehash: c0d9248e6e8d0165a98b4ba38a4f95b9a2e992ef
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9a6b6f38983174e3b13982b9d273e45a7dd5dacb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976839"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067821"
 ---
 # <a name="add-front-end-features"></a>Добавление компонентов переднего плана
  

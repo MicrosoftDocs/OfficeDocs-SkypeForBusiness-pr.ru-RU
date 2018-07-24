@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
+ROBOTS: NOINDEX, NOFOLLOW
 description: Сервер мониторинга требует с поддерживаемой 64-разрядной версией программного обеспечения баз данных SQL Server для хранения данных наблюдения. Можно выбрать ранее заданных базы данных SQL Server, которое будет использоваться для наблюдения за, или определите новую базу данных SQL Server, указав полное доменное имя (FQDN) сервера, на котором размещаются базы данных SQL Server, в дополнение к экземпляру SQL Сервер, который вы хотите использовать для новой базы данных SQL Server (который может быть экземпляр по умолчанию или именованный экземпляр, который указан).
-ms.openlocfilehash: 362f4be3d778d0c5607f6c0ee1233d85d6b9149e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1a8a5dc3e17daa63ed844a3fa566089ee0ee7064
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969773"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069507"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Добавление хранилища SQL Server для сервера мониторинга
  

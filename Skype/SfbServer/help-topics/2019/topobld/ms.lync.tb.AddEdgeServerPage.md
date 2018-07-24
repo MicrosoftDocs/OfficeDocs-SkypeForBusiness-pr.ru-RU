@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
+ROBOTS: NOINDEX, NOFOLLOW
 description: Для включения пограничного сервера или пула пограничных серверов в топологическую схему необходимо указать полное доменное имя сервера, на котором требуется развернуть пограничный сервер или пул пограничных серверов. Перед публикацией топологии, которая включает в себя пограничного сервера или пула пограничных серверов и установка Скайп для Business Server, необходимо завершить все необходимые компоненты для развертывания доступа внешних пользователей. Для получения дополнительных сведений об этих предварительных требованиях см для установки серверов в сети периметра в документации по развертыванию.
-ms.openlocfilehash: d5021404bc9e8445433f1acdae2c022045f45628
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 18f94e958c8a0e7b0859b598dd5b307dcb2d2411
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987370"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068593"
 ---
 # <a name="add-edge-server"></a>Добавление пограничного сервера
  
