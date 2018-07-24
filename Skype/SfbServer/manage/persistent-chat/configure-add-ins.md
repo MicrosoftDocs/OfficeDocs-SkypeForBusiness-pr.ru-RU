@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Сводка: Сведения о настройке надстроек для комнат чата Persistent Chat Server в Скайп для Business Server 2015.'
-ms.openlocfilehash: 64017115370c24c8c4a117f595230a6f5f741afd
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: f96f000c4ac3a78f6ca3ba4972f295e45128ce50
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569967"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967735"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Настройка надстроек для комнат сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -25,6 +25,9 @@ ms.locfileid: "19569967"
   
  Чтобы пользователи увидели надстройку в клиенте, необходимо добавить надстройку в список зарегистрированных надстроек, а руководители или создатели комнат чата должны сопоставить комнаты с надстройкой
   
+> [!NOTE]
+> Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны либо перенос пользователей, которым требуется эта функция групп, или для дальнейшего использования Скайп для Business Server 2015. 
+
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Конфигурация надстроек для комнат чата с помощью панели управления
 
 Чтобы настроить надстройки для комнат чата с помощью панели управления, выполните следующие действия:

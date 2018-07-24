@@ -1,26 +1,25 @@
 ---
-title: Связь хранилища мониторинга с интерфейсным пулом в Skype для бизнеса Server 2015
+title: Связать хранилище данных мониторинга с пулом переднего плана в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
-description: 'Сводка: Узнайте, как связать пулов переднего плана с хранилищем мониторинга, используемые Скайп для Business Server 2015.'
-ms.openlocfilehash: 6706185264df4220b723f72c0863f11d84e2dc05
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как связать пулов переднего плана с хранилищем мониторинга, используемые Скайп для Business Server.'
+ms.openlocfilehash: a7a7965016ed659d120cf4bff642e85e9941b193
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968211"
 ---
-# <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server-2015"></a>Связь хранилища мониторинга с интерфейсным пулом в Skype для бизнеса Server 2015
- 
-**Сводка:** Узнайте, как связать пулов переднего плана с хранилищем мониторинга, используемые Скайп для Business Server 2015.
+# <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Связать хранилище данных мониторинга с пулом переднего плана в Скайп для Business Server 
+**Сводка:** Узнайте, как связать пулов переднего плана с хранилищем мониторинга, используемые Скайп для Business Server.
   
-В Скайп Business Server 2015 отслеживание данных можно собирать только на пулов переднего плана, связанные с хранилищем мониторинга, задачи, обычно выполняемые при определении интерфейсного пула в построителе топологий.
+В Скайп для сервера мониторинга данных можно собирать только на пулов переднего плана, связанные с хранилищем мониторинга, задачи, обычно выполняемые при определении интерфейсного пула в построителе топологий.
   
 ## <a name="associate-a-monitoring-store-with-a-front-end-pool"></a>Связь хранилища мониторинга с пулом переднего плана
 

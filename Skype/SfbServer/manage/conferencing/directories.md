@@ -1,25 +1,24 @@
 ---
-title: Создание каталогов конференций в Skype для бизнеса Server 2015
+title: Создание каталогов конференций в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 'Сводка: Узнайте, как для создания каталогов конференций в Скайп для Business Server 2015.'
-ms.openlocfilehash: 861172a76da68d39fd9f8213de6e45a892aa1780
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Узнайте, как для создания каталогов конференций в Скайп для Business Server.'
+ms.openlocfilehash: d54f9782e43c85d5119d0d6138131dc1858ee8f0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568747"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967728"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server-2015"></a>Создание каталогов конференций в Skype для бизнеса Server 2015
+# <a name="create-conference-directories-in-skype-for-business-server"></a>Создание каталогов конференций в Скайп для Business Server
  
-**Сводка:** Узнайте, как для создания каталогов конференций в Скайп для Business Server 2015.
+**Сводка:** Узнайте, как для создания каталогов конференций в Скайп для Business Server.
   
 Каталоги конференций Ведение сопоставления между собрания буквенно-цифровой идентификатор, который использует участника присоединиться к конференции, при использовании Скайп для бизнеса и конференции цифровой идентификатор, который использует телефонных конференций участника присоединиться к конференции. 
   

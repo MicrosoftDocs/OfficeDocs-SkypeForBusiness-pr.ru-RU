@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
+ROBOTS: NOINDEX, NOFOLLOW
 description: Очереди группы ответа содержат вызовы в группы ответа, пока агент отвечает на звонок. Очереди назначения групп агентов. При создании или изменение очереди для выбора одного или нескольких групп агентов для назначения в очередь используется диалоговое окно Выбор групп.
-ms.openlocfilehash: 8b8ebcce726b92e40f20f077319dcec1272d35f2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 288efe4395361b508e7ebe245155c55319161581
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974003"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967857"
 ---
 # <a name="select-groups"></a>Выбор групп
  

@@ -1,23 +1,22 @@
 ---
-title: Модернизация или обновление внутреннего сервера или сервера Standard Edition в Skype для бизнеса Server 2015
+title: Исправление или обновление Тыловой сервер или сервере Standard Edition в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 'Сводка: Узнайте, как для установки обновления или исправления на Тыловой сервер в Скайп для Business Server.'
-ms.openlocfilehash: 40437deb77fc5b212a6c579030ed77939c421050
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 7815c42443afae6fef7aaec71399120fb61ece82
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569381"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969133"
 ---
-# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server-2015"></a>Модернизация или обновление внутреннего сервера или сервера Standard Edition в Skype для бизнеса Server 2015
+# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Исправление или обновление Тыловой сервер или сервере Standard Edition в Скайп для Business Server
  
 **Сводка:** Сведения об установке обновления или исправления на Тыловой сервер в Скайп для Business Server.
   
@@ -31,7 +30,7 @@ ms.locfileid: "19569381"
     
 2. Загрузите обновление и извлеките его на локальный жесткий диск.
     
-3. Запустите Скайп для консоли Business Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы**, щелкните **Скайп для бизнеса 2015**и нажмите кнопку **Скайп для консоли Business Server**.
+3. Запустите Скайп для консоли Business Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы**, щелкните **Скайп для бизнеса**и нажмите кнопку **Скайп для консоли Business Server**.
     
 4. Остановите Скайп для служб Business Server. В командной строке выполните следующую команду:
     
@@ -49,7 +48,7 @@ ms.locfileid: "19569381"
     
 7. Установите обновление.
     
-8. Запустите Скайп для консоли Business Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы**, щелкните **Скайп для бизнеса 2015**и нажмите кнопку **Скайп для консоли Business Server**.
+8. Запустите Скайп для консоли Business Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы**, щелкните **Скайп для бизнеса**и нажмите кнопку **Скайп для консоли Business Server**.
     
 9. Остановите Скайп для служб Business Server еще раз, чтобы захватить -d сборки глобального кэша сборок (GAC). В командной строке выполните следующую команду:
     

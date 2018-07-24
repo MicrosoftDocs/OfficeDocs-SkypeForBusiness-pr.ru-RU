@@ -3,7 +3,7 @@ title: Определение новой линии связи
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 'Определите новый сеанс initiation protocol (SIP) магистрали содержат следующие сведения:'
-ms.openlocfilehash: acc40b4dc1075ab77baa65c607b5445502daa1fb
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5af2fadc00775ead03fdc7400882befcdc30ddaa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967921"
 ---
 # <a name="define-a-new-trunk"></a>Определение новой линии связи
  
@@ -36,9 +37,6 @@ ms.lasthandoff: 05/24/2018
     
 ## <a name="see-also"></a>См. также
 
-#### 
+[Магистраль M:N в Skype для бизнеса Server 2015](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[Магистраль m: n в Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
-
-[Как реализовать распределения каналов SIP?](http://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
-
+[Реализация распределения каналов SIP](http://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)

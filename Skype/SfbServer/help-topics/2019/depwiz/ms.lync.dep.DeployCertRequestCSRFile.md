@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
-description: Для создания автономного запроса, необходимо сначала создать соответствующий запрос (CSR). В текстовом поле имя файла введите путь и имя файла для по обслуживанию Клиентов. Нажать кнопку Обзор, чтобы выбрать расположение для создания по обслуживанию Клиентов. Нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: ee87c82da4889f40a1cfdb0d977986b95fc6e445
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Для создания автономного запроса, необходимо сначала создать соответствующий запрос (CSR). В текстовом поле имя файла введите путь и имя файла для по обслуживанию Клиентов. Нажать кнопку Обзор, чтобы выбрать расположение для создания по обслуживанию Клиентов. Для продолжения нажмите кнопку Далее.
+ms.openlocfilehash: 70a59dc8a7641ec39a5b5ec657f73f9ea23b3536
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974052"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968154"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Запрос сертификата (запрос подписи сертификата)
  
