@@ -1,27 +1,26 @@
 ---
-title: Изменение существующей политики архивации в Skype для бизнеса Server 2015
+title: Изменить существующую политику в Скайп архивирования для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Сводка: Узнайте, как для изменения политик архивации для Скайп для Business Server 2015 пользователя.'
-ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Узнайте, как для изменения политик архивации для Скайп для Business Server пользователя.'
+ms.openlocfilehash: 6c92d4f7e4c2a464d248f6b981165de000615432
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569409"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974653"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Изменение существующей политики архивации в Skype для бизнеса Server 2015
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Изменить существующую политику в Скайп архивирования для Business Server
  
-**Сводка:** Узнайте, как для изменения политик архивации для Скайп для Business Server 2015 пользователя.
+**Сводка:** Сведения о переходе пользователя политик архивации для Скайп для Business Server.
   
-При первом развертывании Скайп для Business Server 2015, Настройка начальной политик архивации, определяющие способ реализации архивации для пользователей в развертывании. В этом разделе описываются способы управления политиками и их изменения. 
+При первом развертывании Скайп для Business Server, Настройка начальной политик архивации, определяющие способ реализации архивации для пользователей в развертывании. В этом разделе описываются способы управления политиками и их изменения. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Изменение политик архивации с помощью панели управления
 
@@ -48,7 +47,7 @@ ms.locfileid: "19569409"
 6. Нажмите **Исполнить**.
     
     > [!IMPORTANT]
-    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения см [Применить политики архивации для пользователей, Скайп для Business Server 2015](apply-a-policy-to-users.md). 
+    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения см [Применить политики архивации для пользователей, Скайп для Business Server](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Изменение политик архивации с помощью Windows PowerShell
 

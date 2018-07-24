@@ -1,27 +1,28 @@
 ---
-title: Настройка использования фотографий высокого разрешения в Skype для бизнеса Server 2015
+title: Настройка использования фотографий высокого разрешения в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: 'Сводка: Настройка использования фотографий высокого разрешения в Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server 2015.'
-ms.openlocfilehash: 43ca3ca0444339ff61811c8aad5860989e45ca33
-ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
+description: 'Сводка: Настройка использования фотографий высокого разрешения в Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server.'
+ms.openlocfilehash: 224c8dc238d8427deddc706b883614fd04c9b133
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007239"
 ---
-# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server-2015"></a>Настройка использования фотографий высокого разрешения в Skype для бизнеса Server 2015
+# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Настройка использования фотографий высокого разрешения в Скайп для Business Server
  
-**Сводка:** Настройка использования фотографий высокого разрешения в Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server 2015.
+**Сводка:** Настройка использования фотографий высокого разрешения в Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server.
   
-В Скайп для Business Server 2015 фотографии могут храниться в Exchange Server 2016 или Exchange Server 2013 почтового ящика пользователя, что обеспечивает размеры фотографий до 648 x 648 пикселей. Кроме того Exchange Server можно автоматически изменять размеры этих фотографий для различных продуктов при необходимости. Как правило, используются фотографии трех размеров и разрешений, которые перечислены ниже.
+В Скайп для Business Server фотографии могут храниться в Exchange Server 2016 или Exchange Server 2013 почтового ящика пользователя, что обеспечивает размеры фотографий до 648 x 648 пикселей. Кроме того Exchange Server можно автоматически изменять размеры этих фотографий для различных продуктов при необходимости. Как правило, используются фотографии трех размеров и разрешений, которые перечислены ниже.
   
 - Размер 64 x 64 пикселя используется для атрибута thumbnailPhoto в Active Directory. При отправке фотографии в Exchange Server Exchange автоматически создать 64 пикселя версией 64 пикселя, фотографий и обновить атрибут thumbnailPhoto пользователя. Обратите внимание, что не наоборот: Если вручную обновить атрибут thumbnailPhoto в Active Directory фотографий в почтовый ящик Exchange пользователя автоматически не будут обновляться.
     

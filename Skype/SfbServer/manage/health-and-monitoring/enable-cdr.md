@@ -1,24 +1,24 @@
 ---
-title: Включение регистрации вызовов в Skype для бизнеса Server 2015
+title: Включение регистрации вызовов в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 'Сводка: Узнайте, как Включение регистрации вызовов (CDR) записей в Скайп для Business Server 2015.'
-ms.openlocfilehash: 3fe33f3cfde310b3674c125b7eb8ab1bf04f7c03
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как включить регистрации вызовов (CDR) записей в Скайп для Business Server.'
+ms.openlocfilehash: 55fafd037e271166eaf94b460f656b811720e00f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995743"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server-2015"></a>Включение регистрации вызовов в Skype для бизнеса Server 2015
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Включение регистрации вызовов в Скайп для Business Server
  
-**Сводка:** Узнайте, как включить регистрации вызовов (CDR) записей в Скайп для Business Server 2015.
+**Сводка:** Узнайте, как включить регистрации вызовов (CDR) записей в Скайп для Business Server.
   
 Функция регистрации вызовов (CDR) записывает сведения об использовании и диагностические данные для одноранговых операций, включая обмен мгновенными сообщениями, звонки VoIP, общий доступ к приложениям, передачу файлов и собрания. С помощью данных об использовании можно вычислить рентабельность инвестиций, а диагностические данные можно использовать при поиске и устранении проблем с одноранговыми операциями и собраниями. 
   
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Чтобы включить CDR с помощью Скайп для панели управления Business Server
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server 2015.
+1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server. 
     

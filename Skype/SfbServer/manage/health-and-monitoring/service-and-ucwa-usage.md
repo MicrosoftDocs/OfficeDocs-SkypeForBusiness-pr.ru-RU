@@ -1,24 +1,27 @@
 ---
-title: Отслеживание использования службы Mobility Service и UCWA в Skype для бизнеса Server 2015
+title: Мониторинг использования службы Mobility Service и UCWA в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
-description: 'Сводка: Управление Mobility Service (Mcx) и веб-API (UCWA) объединенных коммуникаций в Скайп для Business Server 2015.'
-ms.openlocfilehash: e71d18fe90eb9a7f2fd7b6563e6d6930f2473e74
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Управление Mobility Service (Mcx) и веб-объединенных коммуникаций API (UCWA) в Скайп для Business Server.'
+ms.openlocfilehash: 780d8fca068a78ec08312551d03dbdb5327df90e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975951"
 ---
-# <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server-2015"></a>Отслеживание использования службы Mobility Service и UCWA в Skype для бизнеса Server 2015
+# <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Мониторинг использования службы Mobility Service и UCWA в Скайп для Business Server
  
-**Сводка:** Управление Mobility Service (Mcx) и веб-API (UCWA) объединенных коммуникаций в Скайп Business Server 2015.
+**Сводка:** Управление Mobility Service (Mcx) и веб-объединенных коммуникаций API (UCWA) в Скайп для Business Server.
+
+> [!NOTE]
+> Поддержка MCX для устаревших мобильных клиентов больше не доступен в Скайп для Business Server 2019. Пользователям необходимо обновить до текущего клиента.
   
 На постоянной основе следует отслеживать ЦП и памяти, используемый Скайп для службы Mobility Business Server (Mcx) и Unified Communications Web API (UCWA). Чтобы отслеживать использование, прибегите к одному из следующих способов:
   
@@ -28,7 +31,7 @@ ms.lasthandoff: 03/28/2018
     
 - Счетчики производительности **ЦП** и **Процессор**.
     
-В большинстве развертываний ресурсы ЦП, задействованные UCWA, не должны в среднем превышать 15 %. Использование памяти следует попадают в рамках, описанных в [мониторе ограничений емкости памяти сервера в Скайп для Business Server 2015](server-memory-capacity-limits.md).
+В большинстве развертываний ресурсы ЦП, задействованные UCWA, не должны в среднем превышать 15 %. Использование памяти следует попадают в рамках, описанных в [мониторе ограничений емкости памяти сервера в Скайп для Business Server](server-memory-capacity-limits.md).
   
 Помимо счетчиков использования ЦП и памяти можно использовать следующие счетчики производительности, которые позволят определить степень перегрузки сервера запросами:
   
@@ -45,7 +48,7 @@ ms.lasthandoff: 03/28/2018
     
 - Счетчики производительности **ЦП** и **Процессор**.
     
-В большинстве развертываний ресурсы ЦП, задействованные службой Mobility Service, не должны в среднем превышать 15 %. Использование памяти следует попадают в рамках, описанных в [мониторе ограничений емкости памяти сервера в Скайп для Business Server 2015](server-memory-capacity-limits.md).
+В большинстве развертываний ресурсы ЦП, задействованные службой Mobility Service, не должны в среднем превышать 15 %. Использование памяти следует попадают в рамках, описанных в [мониторе ограничений емкости памяти сервера в Скайп для Business Server](server-memory-capacity-limits.md).
   
 Помимо счетчиков производительности ЦП и памяти можно использовать следующие счетчики производительности ASP.NET, которые позволят определить степень перегрузки сервера запросами.
   
@@ -55,10 +58,10 @@ ms.lasthandoff: 03/28/2018
     
 > [!NOTE]
 > При достижении или превышении этих значений следует вернуться к планированию мощности и повторно выполнить расчет, чтобы определить правильные значения тактовой частоты ЦП, числа ядер и объема памяти для компьютеров, на которых размещаются веб-службы. 
+
+> [!NOTE]
+> Поддержка MCX для устаревших мобильных клиентов больше не доступен в Скайп для Business Server 2019. Пользователям необходимо обновить до текущего клиента.
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
-[Монитор ограничений емкости памяти сервера в Скайп для Business Server 2015](server-memory-capacity-limits.md)
-
+[Монитор ограничений емкости памяти сервера в Скайп для Business Server](server-memory-capacity-limits.md)

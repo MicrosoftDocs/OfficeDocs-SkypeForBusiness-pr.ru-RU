@@ -3,7 +3,6 @@ title: Расширитель параметров следующего скач
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,27 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: Настройка пула Persistent Chat следующего прыжка, выбрав сервера переднего плана или интерфейсный пул из списка.
-ms.openlocfilehash: cd7051aac31b185f619e254e0856f7f2af72842e
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: d1734e46b33234b10a61e0e15b3e861e3f5d9915
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026661"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Расширитель параметров следующего скачка сохраняемого чата
- 
-Настройка Persistent Chat **пул узла следующего перехода** , выбрав сервера переднего плана или интерфейсный пул из списка.
-  
- **ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.
-  
- **Отмена**. Отмена изменений и закрытие диалогового окна.
-  
- **Справка**. Отображение этого экрана справки.
-  
-## <a name="see-also"></a>См. также
 
-#### 
-
-[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[Добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Дополнительные сведения содержатся в разделе [обновление Скайп для бизнеса для групп Майкрософт](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны перенос пользователей, которым требуется эта функция группам или продолжить использование Скайп для Business Server 2015.

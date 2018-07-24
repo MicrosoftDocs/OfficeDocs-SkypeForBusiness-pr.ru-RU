@@ -1,22 +1,22 @@
 ---
-title: Использование параметров командной строки установки в Skype для бизнеса Server 2015
+title: Использование параметров командной строки программы установки с Скайп пользователей
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 'Сводка: Сведения об операциях командной строки Setup.exe в программе установки Office.'
-ms.openlocfilehash: 0fa4f31750697f0bd0dbe87bbde025cbc7f530bd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 13005f96b353b8648ed676ef68af54b76a99e48c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974454"
 ---
-# <a name="use-setup-command-line-options-in-skype-for-business-server-2015"></a>Использование параметров командной строки установки в Skype для бизнеса Server 2015
+# <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Использование параметров командной строки программы установки с Скайп пользователей
  
 **Сводка:** Узнайте об операциях командной строки Setup.exe в программе установки Office.
   
@@ -35,6 +35,5 @@ ms.lasthandoff: 03/28/2018
 |/repair Skype  <br/> |Запускает программу установки на компьютере пользователя для восстановления Скайп для бизнеса.  <br/> |
 |/uninstall Skype  <br/> |Запускает программу установки для удаления Скайп для бизнеса с компьютера пользователя.  <br/> |
    
-Сведения об использовании параметров командной строки программы установки в разделе [https://go.microsoft.com/fwlink/p/?linkid=267515](https://go.microsoft.com/fwlink/p/?linkid=267515). 
-  
+
 

@@ -1,26 +1,26 @@
 ---
-title: Управление политиками конференц-связи в Skype для бизнеса Server 2015
+title: Управление политиками конференц-связи в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
-description: 'Сводка: Узнайте, как управлять политиками конференц-связи в Скайп для Business Server 2015.'
-ms.openlocfilehash: 48ae623a9571b848ccb70b377416343eccca0c1c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как управлять политиками конференц-связи в Скайп для Business Server.'
+ms.openlocfilehash: d5fed0c6615747069d71015fca33144ca41dd64b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986659"
 ---
-# <a name="manage-conferencing-policies-in-skype-for-business-server-2015"></a>Управление политиками конференц-связи в Skype для бизнеса Server 2015
+# <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Управление политиками конференц-связи в Скайп для Business Server
  
-**Сводка:** Узнайте, как управлять политиками конференц-связи в Скайп для Business Server 2015.
+**Сводка:** Узнайте, как управлять политиками конференц-связи в Скайп для Business Server.
   
-В этом разделе описывается, каким образом можно управлять политиками конференц-связи. Дополнительные сведения о планировании и развертывании конференц-связи видеть [план для конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) и [Развертывание конференц-связи в Скайп для Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+В этом разделе описывается, каким образом можно управлять политиками конференц-связи. Дополнительные сведения о планировании и развертывании конференц-связи видеть [план для конференц-связи в Скайп для Business Server](../../plan-your-deployment/conferencing/conferencing.md) и [Развертывание конференц-связи в Скайп для Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Политика конференц-связи позволяет определить широкий спектр параметров расписания и участия, от возможности включения в собрание IP-аудио и видео, до максимального количества участников. Политики конференц-связи можно использовать для управления безопасностью, пропускной способностью и правовыми аспектами собраний.
   
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/28/2018
 
 Для управления встречами с помощью Скайп для консоли Business Server, используйте следующие командлеты:
   
-**Параметры политики конференц-связи**
+**Параметры политик конференц-связи**
 
 |**Командлет**|**Описание**|
 |:-----|:-----|

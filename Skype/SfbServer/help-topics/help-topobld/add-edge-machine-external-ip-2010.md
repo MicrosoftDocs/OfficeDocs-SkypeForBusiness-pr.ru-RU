@@ -3,7 +3,7 @@ title: Добавление пограничного внешнего IP-адр�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: Можно настроить свойства на этой странице для указания пограничного сервера на внешние расположения службы пограничного сервера доступа, служба пограничного сервера конференц-связи Web и A / V Edge службы.
-ms.openlocfilehash: 6bfaba3919825f23aa69cf56b33a8aecabd124c0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 969c403d91b2bbd3b2c7622a9c9e4e21c67be5b5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974300"
 ---
 # <a name="add-edge-machine-external-ip-2010"></a>Добавление пограничного внешнего IP-адреса сервера 2010
  

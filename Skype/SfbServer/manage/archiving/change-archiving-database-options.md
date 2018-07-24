@@ -1,24 +1,24 @@
 ---
-title: Изменение параметров базы данных для архивации в Skype для бизнеса Server 2015
+title: Изменение параметров базы данных архивации в Скайп Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
-description: 'Сводка: Узнайте, как изменить базы данных параметров архивации для Скайп для Business Server 2015.'
-ms.openlocfilehash: 5bb7ee9329cc3fa7a0795115f9a0d11768ab7aa4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как изменить базы данных параметров архивации для Скайп для Business Server.'
+ms.openlocfilehash: af1cc1e6398652efac5be20114dac6bf228ef892
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010080"
 ---
-# <a name="change-archiving-database-options-in-skype-for-business-server-2015"></a>Изменение параметров базы данных для архивации в Skype для бизнеса Server 2015
+# <a name="change-archiving-database-options-in-skype-for-business-server"></a>Изменение параметров базы данных архивации в Скайп Business Server
 
-**Сводка:** Узнайте, как изменение базы данных параметров архивации для Скайп для Business Server 2015.
+**Сводка:** Узнайте, как изменение базы данных параметров архивации для Скайп для Business Server.
   
 При развертывании архивации с помощью хранилища сервера SQL Server для архивации хранилища, используемого для каких-либо пользователей, можно изменить следующие базы данных хранилища:
   
@@ -91,7 +91,7 @@ ms.lasthandoff: 03/28/2018
 8. Для сохранения конфигурации нажмите кнопку **ОК**.
     
     > [!IMPORTANT]
-    > Изменения, внесенные в построителе топологий не вступят в силу только после публикации новой топологии. Дополнительные сведения см [Добавить баз данных архивации к существующему развертыванию в Скайп для Business Server 2015](../../deploy/deploy-archiving/add-archiving-databases.md). 
+    > Изменения, внесенные в построителе топологий не вступят в силу только после публикации новой топологии. Дополнительные сведения см [Добавить баз данных архивации к существующему развертыванию в Скайп для Business Server](../../deploy/deploy-archiving/add-archiving-databases.md). 
   
 ## <a name="change-the-location-of-the-archiving-database-by-using-windows-powershell"></a>Изменение расположения архивной базы данных с помощью Windows PowerShell
 

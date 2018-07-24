@@ -3,7 +3,7 @@ title: Расширитель общих настроек директора д�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
 description: Чтобы настроить общие свойства директора или пула директоров.
-ms.openlocfilehash: e8bf8b1c5bffac0be01ea6dbde2830c99c96e9e1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 48f0c59e547d5c7a1ef841c3fa7a8270349234a6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010514"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>Расширитель общих настроек директора для Lync Server 2010
  

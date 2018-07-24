@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
+ROBOTS: NOINDEX, NOFOLLOW
 description: Группы ответа состоят из групп агентов, очереди и рабочие процессы. Очереди группы ответа хранят звонки в группу ответа, пока агент отвечает на звонок.
-ms.openlocfilehash: 8ebdc6a421261f049bcfdd1da8054d3d05849f3f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9d5176b84612c627ed9fbba333c6524ea55be539
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971477"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026611"
 ---
 # <a name="response-groups-queue"></a>Очередь группы ответа
  
@@ -52,6 +53,6 @@ ms.locfileid: "19971477"
     
 - **Описание** Описание очереди.
     
-Для получения дополнительных сведений о группы ответа функциях и возможностях видеть [Планирование приложения группы ответа в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Для получения дополнительных сведений о работе с очередями группы ответа содержатся в документации по операциям [Управление очередями группы ответа](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) .
+Для получения дополнительных сведений о группы ответа функций и возможностей см. в документации по планированию [Планирование приложения группы ответа в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) . Для получения дополнительных сведений о работе с очередями группы ответа содержатся в документации по операциям [Управление очередями группы ответа](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) .
   
 

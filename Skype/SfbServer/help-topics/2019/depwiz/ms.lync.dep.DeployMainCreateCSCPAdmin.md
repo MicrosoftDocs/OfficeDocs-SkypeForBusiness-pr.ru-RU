@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
+ROBOTS: NOINDEX, NOFOLLOW
 description: Предоставление доступа к Скайп для Business Server, выполните следующие действия.
-ms.openlocfilehash: 9f9342b02f89b31c22a50f834aa08347ba7fd798
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c90290184b461e6662672ef3b6c32096ca63871f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979031"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973089"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Создание администраторов панели управления Skype для бизнеса Server
  
@@ -49,7 +50,7 @@ ms.locfileid: "19979031"
     
 - **CsUserAdministrator.** Участники могут управлять пользователями, включать и отключать их, назначать им существующие политики.
     
-- **CsViewOnlyAdministrator:** Участники могут просматривать развертывания и настройки сведения о сервере. Членство в этом позволяет членам позволяют отслеживать состояние серверы Скайп для Business Server 2015.
+- **CsViewOnlyAdministrator:** Участники могут просматривать развертывания и настройки сведения о сервере. В этом членства позволяет членам позволяют отслеживать состояние серверы Скайп для Business Server.
     
 - **CsVoiceAdministrator:** Участников можно создать, настроить и управлять параметрами связанные с голосовой связи в Скайп Business Server.
     

@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Сводка: Сведения в этой статье описывается добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015.'
-ms.openlocfilehash: 3d00e24dbe8f25b2a1887b8c1c79a63bda3471f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9d6845b7239056ec18be780060ba6ef96756f743
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973012"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015
  
@@ -26,6 +27,9 @@ ms.lasthandoff: 03/28/2018
     
 - Публикация обновленной топологии
     
+> [!NOTE] 
+> Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны либо перенос пользователей, которым требуется эта функция групп, или для дальнейшего использования Скайп для Business Server 2015. 
+
 ## <a name="update-your-topology-to-include-persistent-chat-server"></a>Обновление топологии для включения сервера сохраняемого чата
 
 Выполните следующие действия для установки один пул серверов сохраняемого чата без конфигурацию аварийного восстановления. Настройка вытянутый пул серверов сохраняемого чата для обеспечения высокой доступности и аварийного восстановления, в разделе [Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).

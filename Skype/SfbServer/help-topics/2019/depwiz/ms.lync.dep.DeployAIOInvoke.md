@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
+ROBOTS: NOINDEX, NOFOLLOW
 description: На странице выполнение команд можно просмотреть задачи установки SQL Server Express и настройки в качестве центрального хранилища управления в области задач. По умолчанию создать экземпляр базы данных на основе SQL Server с именем RTC. Чтобы разрешить входящий и исходящий доступ для серверов и клиентов для взаимодействия с базой данных и экземпляр также создаются правила брандмауэра. После выполнения задачи, можно выбрать файл журнала из раскрывающегося списка. Файл журнала называется начальной загрузки локального компьютера. После выбора файла журнала, нажмите кнопку Просмотреть журнал. Просмотрите файл журнала все ошибки и предупреждения. Когда вы будете готовы продолжить, нажмите кнопку Готово. Теперь следует определить топологию с помощью построителя топологий, если это еще не сделано.
-ms.openlocfilehash: ec6cd9d7f8e7812ca61138e053fd18abf4e24d96
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 44fae0f1349b9252f207248fa99b714b0a8550ce
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964535"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987513"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Подготовка отдельного сервера Standard Edition (вызов)
  

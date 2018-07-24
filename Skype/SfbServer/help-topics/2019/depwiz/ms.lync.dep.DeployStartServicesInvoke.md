@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
-description: Области сводки в области выполнения команд состояние задачи, выдается для запуска служб для Скайп для сервера Business Server role, который развертывает администратор. В сводной информации в области задач не отображается запуск служб в реальном времени. Некоторые Скайп для служб Business Server может занять длительное время, чтобы начать процесс начальной загрузки. В процессе выполнения задач вызывается команда запуска, но этот процесс не приостанавливается для проверки успешности запуска службы. Если необходимо отслеживать запуск службы и ее состояние, следует пользоваться консолью управления (MMC) для служб Windows.
-ms.openlocfilehash: b61cb966d7a3d9ba619ffcca14034f9899bba466
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Области сводки в области выполнения команд состояние задачи, выдается для запуска служб для Скайп для сервера Business Server role, который развертывает администратор.
+ms.openlocfilehash: 119f7027c09d67f8c1182e20186d568007f0ca71
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965894"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026007"
 ---
 # <a name="start-services-invoke"></a>Запуск служб (вызов)
  

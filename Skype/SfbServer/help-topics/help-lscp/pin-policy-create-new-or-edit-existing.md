@@ -3,7 +3,7 @@ title: Создание новой или редактирование суще�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: d415b056e66ec0dd3757691f8b027c605f5bd01d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2d24b25ddcd5c1b041bf4fb0ae10b72a28fc6f2c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014445"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Политики ПИН-код: Создание новой или редактирование существующей
  
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
   
-- [Создание новой политики ПИН-код в Скайп для Business Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
+- [Создание новой политики ПИН-кодов в Skype для бизнеса Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
     
-- [Изменение существующей политики ПИН-код в Скайп для Business Server 2015](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [Изменение существующей политики ПИН-кодов в Skype для бизнеса Server 2015](../../manage/authentication/modify-an-existing-pin-policy.md)
     
-- [Удаление политики ПИН-код в Скайп для Business Server 2015](../../manage/authentication/delete-a-pin-policy.md)
+- [Удаление политики ПИН-кодов в Skype для бизнеса Server 2015](../../manage/authentication/delete-a-pin-policy.md)
     
 - [Создание или изменение параметров ПИН-кода конференц-связи для сайта или группы пользователей](http://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
     

@@ -3,19 +3,18 @@ title: Предоставление учетных записей системы
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: В этом разделе описывается выделение учетных записей системы комнат Skype в Office 365.
-ms.openlocfilehash: 93e8c07665240813317750491cd9c3355f0c3a90
-ms.sourcegitcommit: 7c6036c60a8b18556215f5d540dda2a3f068479d
+ms.openlocfilehash: 63b195dd2989e6da2d3a2cecdbc76ccff741cd87
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19747065"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010043"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Предоставление учетных записей системы комнат Skype в Office 365
  
@@ -97,9 +96,13 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 ## <a name="skype-for-business-online-provisioning"></a>Предоставление Skype для бизнеса Online
 
-После помещения ресурсов почтовый ящик учетной записи была создана и включена, как показано выше, и лицензированных учетную запись для oline Скайп для бизнеса, что учетной записи будет выполнять синхронизацию с Exchange Online леса для Скайп для бизнеса в Интернет леса с помощью Windows Azure леса Active Directory. Подготовка Скайп комнаты системную учетную запись в Скайп для бизнеса в Интернет пула необходимы следующие действия. Эти шаги совпадают с существующей учетной записи ресурса почтового ящика или учетной записи только что созданный (confrm1 или confrm2), так как после их, необходимо включить в Exchange Online, оба этих учетных записей синхронизация с Скайп для бизнеса в Интернет так же, как:
+После помещения ресурсов почтовый ящик учетной записи была создана и включена, как показано выше, и лицензированных учетной записи для Скайп для бизнеса в Интернет учетной записи будут синхронизироваться с Exchange Online леса для Скайп для бизнеса в Интернет леса с помощью Лес Windows Azure Active Directory. Подготовка Скайп комнаты системную учетную запись в Скайп для бизнеса в Интернет пула необходимы следующие действия. Эти шаги совпадают с существующей учетной записи ресурса почтового ящика или учетной записи только что созданный (confrm1 или confrm2), так как после их, необходимо включить в Exchange Online, оба этих учетных записей синхронизация с Скайп для бизнеса в Интернет так же, как:
   
-1. Создайте удаленный сеанс PowerShell. Обратите внимание, что необходимо загрузить Скайп для бизнес-Online соединителя модуля и Microsoft Online Services помощника по входу и убедитесь в том, что на компьютере настроена. Дополнительные сведения содержатся в разделе [Настройка компьютера для управления Lync Online](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
+<<<<<<< Заголовок
+1. Создайте удаленный сеанс PowerShell. Обратите внимание, что необходимо загрузить Скайп для бизнес-Online соединителя модуля и Microsoft Online Services помощника по входу и убедитесь в том, что на компьютере настроена. Дополнительные сведения можно [настроить компьютер для Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+=======
+1. Создайте удаленный сеанс PowerShell. Обратите внимание, что необходимо загрузить Скайп для бизнес-Online соединителя модуля и Microsoft Online Services помощника по входу и убедитесь в том, что на компьютере настроена. Дополнительные сведения можно [настроить компьютер для Windows PowerShell](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
+>>>>>>> 0a230b02c47ae4de6638a638b76ed38243c71ab9
     
    ```
    Import-Module LyncOnlineConnector
@@ -137,6 +140,6 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-Дополнительные сведения можно [С помощью Windows PowerShell для управления Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
+Дополнительные сведения можно [настроить компьютер для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
 

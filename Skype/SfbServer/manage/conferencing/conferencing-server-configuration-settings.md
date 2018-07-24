@@ -1,27 +1,26 @@
 ---
-title: Управление параметрами конфигурации сервера конференций в Skype для бизнеса Server 2015
+title: Управление параметрами конфигурации сервера конференц-связи в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: 'Сводка: Узнайте, как управлять параметрами конфигурации сервера конференц-связи в Скайп для Business Server 2015.'
-ms.openlocfilehash: e59bfce2a1317d67b1a77f7277996d5a964a314f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Узнайте, как управлять параметрами конфигурации сервера конференц-связи в Скайп для Business Server.'
+ms.openlocfilehash: ede34c37e957340f0aa01ac511378d2f4bb3a80e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569465"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009896"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server-2015"></a>Управление параметрами конфигурации сервера конференций в Skype для бизнеса Server 2015
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Управление параметрами конфигурации сервера конференц-связи в Скайп для Business Server
  
-**Сводка:** Узнайте, как управлять параметрами конфигурации сервера конференц-связи в Скайп для Business Server 2015.
+**Сводка:** Узнайте, как управлять параметрами конфигурации сервера конференц-связи в Скайп для Business Server.
   
-В этом разделе описывается, как управлять параметрами конфигурации конференц-связи. Дополнительные сведения о планировании и развертывании конференц-связи видеть [план для конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) и [Развертывание конференц-связи в Скайп для Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+В этом разделе описывается, как управлять параметрами конфигурации конференц-связи. Дополнительные сведения о планировании и развертывании конференц-связи видеть [план для конференц-связи в Скайп для Business Server](../../plan-your-deployment/conferencing/conferencing.md) и [Развертывание конференц-связи в Скайп для Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Параметры конфигурации конференц-связи определить такие параметры, как максимальный допустимый размер содержимого собрания и раздаточные материалы; Максимальный объем пропускной способности для службы конференц-связь, совместное использование приложений; ограничения для хранилища и срок действия; загружаемые файлы для URL-адреса для внутренних и внешних поддерживаемые клиента; указатели на внутренних и внешних URL-адреса, где пользователи могут получить помощь конференц-связи и ресурсов; и портов, используемых для общего доступа к приложениям, клиент аудио-, передача файлов и трафика мультимедиа. Эти параметры позволяют управлять фактический самого сервера. Эти параметры можно настроить с помощью Скайп для консоли Business Server.
   

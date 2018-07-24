@@ -3,7 +3,7 @@ title: Связывание сервера переднего плана с AV M
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 description: A аудио- и видеоконференций позволяет передачи аудио- и видеосвязи между пользователей (то есть, если у них соответствующих клиентских устройств, например гарнитуры для звуковых конференций и веб-камер для видеоконференций). Если ваше развертывание поддерживает конференц-связи и включить веб-конференций и A аудио- и видеоконференций, можно совместно расположить A / V Server конференц-связи с сервером переднего плана), или вы можете развернуть один или несколько изолированный A / видео конференций (A / пула аудио-и видеоконференциями) . Если выбран параметр для развертывания изолированного A / V Server конференц-связи, необходимо определить его в построителе топологий.
-ms.openlocfilehash: 7b38f9bc548c3c29d713f2c36a04b782ad7d6279
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1e6e95ef7f6dd216b5cb2fe87b1f4525ce900396
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975503"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>Связывание сервера переднего плана с AV MCU
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
+ROBOTS: NOINDEX, NOFOLLOW
 description: Группы ответа состоят из групп агентов, очереди и рабочие процессы. Группа агентов — группа людей, предназначены для отвечать на звонки группы ответа.
-ms.openlocfilehash: ea4441a65abe6d2acb3f57a920b75e9f893e9b72
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f2915ab536ceb5dc7f4bf58defedcc737e705eec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974221"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973153"
 ---
 # <a name="response-groups-group"></a>Группы ответа: группа
  
@@ -52,6 +53,6 @@ ms.locfileid: "19974221"
     
 - **Описание** Описание для группы агентов.
     
-Для получения дополнительных сведений о группы ответа функциях и возможностях видеть [Планирование приложения группы ответа в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Дополнительные сведения о работе с группами агентов см [Управление группами агентов](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) в документации по операциям.
+Для получения дополнительных сведений о группы ответа функций и возможностей см. в документации по планированию [Планирование приложения группы ответа в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) . Дополнительные сведения о работе с группами агентов см [Управление группами агентов](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) в документации по операциям.
   
 

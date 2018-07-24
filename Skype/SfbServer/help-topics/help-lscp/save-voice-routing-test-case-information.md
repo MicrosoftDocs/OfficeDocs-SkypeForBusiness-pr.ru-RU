@@ -3,7 +3,7 @@ title: Сохранение информации тестового случая
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: В диалоговом окне Сохранение информации тестового случая маршрутизации голосовых можно использовать для сохранения тестового случая маршрутизации временные голосовой связи. В поле сохранение информации маршрутизации голосовых тестового случая введите имя, которое требуется предоставить этого тестового случая в поле имя и нажмите кнопку ОК.
-ms.openlocfilehash: 29f57c2e8867eee4e8b55e3feddc30835e0f8750
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 50ad181cec9944e56a763a4352e82efec8bfb172
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012123"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Сохранение информации тестового случая маршрутизации голосовой связи
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
+ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте выбор в диалоговом окне Active Directory для поиска пользователей, которые необходимо включить для Скайп для Business Server. В поле поиска введите SIP-адрес или отображаемое имя пользователя, которого требуется найти. Чтобы получить всех доступных пользователей, не вводите ничего в поле поиска.
-ms.openlocfilehash: 48feee5193758376aef580559577d58f3cef5a60
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 061636c5db637bb6bd966d956abc162ae7a3cd6a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046195"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972967"
 ---
 # <a name="select-from-active-directory"></a>Выбор в Active Directory
  

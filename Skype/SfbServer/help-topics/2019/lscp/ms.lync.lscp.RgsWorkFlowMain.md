@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
+ROBOTS: NOINDEX, NOFOLLOW
 description: Группы ответа состоят из групп агентов, очереди и рабочие процессы. Рабочие процессы группы ответа определяют действия, предпринимаемые при получении приложения группы ответа на телефонный звонок.
-ms.openlocfilehash: 6af4d40b75ae090cd3e99746ea111e3d804aed60
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: eabf3dfdd8e9dd9f63bb7fed6e71c1a7b2cbed38
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997026"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997535"
 ---
 # <a name="response-groups-workflow"></a>Рабочий процесс групп ответа
  
@@ -56,6 +57,6 @@ ms.locfileid: "19997026"
     
 - **Включено** Указывает, будет ли данному рабочему процессу будут принимать звонки.
     
-Для получения дополнительных сведений о группы ответа функциях и возможностях видеть [Планирование приложения группы ответа в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Для получения дополнительных сведений о работе с рабочими процессами для группы ответа видеть [Управление рабочими процессами группы ответа](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) в документации по операциям.
+Для получения дополнительных сведений о группы ответа функций и возможностей см. в документации по планированию [Планирование приложения группы ответа в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) . Для получения дополнительных сведений о работе с рабочими процессами для группы ответа видеть [Управление рабочими процессами группы ответа](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) в документации по операциям.
   
 

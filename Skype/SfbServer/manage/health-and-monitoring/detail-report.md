@@ -1,24 +1,24 @@
 ---
-title: Подробный отчет о конференции в Skype для бизнеса Server 2015
+title: Подробный отчет по конференции в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 'Сводка: Сведения о подробный отчет по конференции используется в Скайп для Business Server 2015.'
-ms.openlocfilehash: 4c55b2f339aa3d591f01d73d0f60d8fbc0bb483f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения о подробный отчет по конференции используется в Скайп для Business Server.'
+ms.openlocfilehash: ebccaf35464c54eac6c1b8c5a2febf2ebea02b7e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971317"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server-2015"></a>Подробный отчет о конференции в Skype для бизнеса Server 2015
+# <a name="conference-detail-report-in-skype-for-business-server"></a>Подробный отчет по конференции в Скайп для Business Server
  
-**Сводка:** Узнайте о подробный отчет по конференции используется в Скайп для Business Server 2015.
+**Сводка:** Узнайте о подробный отчет по конференции используется в Скайп для Business Server.
   
 Подробный отчет по конференции содержит подробную информацию обо всех пользователях, принимавших участие в конференции. Например, вы можете просматривать такую информацию, как дата и время присоединения пользователя к конференции, дата и время покидания конференции, а также агент пользователя конечной точки, использованный для подключения этого пользователя к конференции. Вы также можете просмотреть информацию о роли пользователя в каждой конференции (например, выступающий или участник). Возможно, еще важнее то, что вы можете быстро просмотреть, какие пользователи успешно присоединились к конференции и участвовали в ней и какие пользователи не смогли этого сделать.
   
@@ -26,13 +26,13 @@ ms.lasthandoff: 03/28/2018
 
 Подробный отчет по конференции можно открыть из следующих отчетов:
   
-- [Call Admission Control Report в Скайп для Business Server 2015](call-admission-control-report.md) (щелкнув метрику сведений для конференции)
+- [Call Admission Control Report в Скайп для Business Server](call-admission-control-report.md) (щелкнув метрику сведений для конференции)
     
-- [Отчет по списку сбоев в Скайп для Business Server 2015](failure-list-report.md) (щелкнув метрику конференции)
+- [Отчет по списку сбоев в Скайп для Business Server](failure-list-report.md) (щелкнув метрику конференции)
     
-- [User Activity Report в Скайп для Business Server 2015](user-activity-report.md) (щелкнув метрику URI конференции)
+- [User Activity Report в Скайп для Business Server](user-activity-report.md) (щелкнув метрику URI конференции)
     
-Из подробного отчета по конференции можно получить доступ [Диагностического отчета в Скайп для Business Server 2015](diagnostic-report.md) , щелкнув метрику диагностического отчета (сведений).
+Из подробного отчета по конференции можно получить доступ [Диагностического отчета в Скайп для Business Server](diagnostic-report.md) , щелкнув метрику диагностического отчета (сведений).
   
 ## <a name="filters"></a>Фильтры
 

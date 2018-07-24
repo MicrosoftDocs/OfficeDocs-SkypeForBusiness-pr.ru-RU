@@ -3,7 +3,7 @@ title: Добавление внешнего IPv4 пограничного ко�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
 description: В внешнего адреса IPv4 введите внешний IP-адрес, указывающий на служба пограничного сервера доступа, служба пограничного сервера конференц-связи Web и A / V Edge службы.
-ms.openlocfilehash: eef8afdd81b181a866a18e3b3e1d809f29574796
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 75b799ff410ba57c59f35e1dd9f0782de17c3741
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014507"
 ---
 # <a name="add-edge-machine-external-ipv4"></a>Добавление внешнего IPv4 пограничного компьютера
  

@@ -3,18 +3,18 @@ title: Гибридное развертывание системы комнат
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/17/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Прочтите этот раздел, чтобы узнать, как развертывание системы Скайп помещения в гибридной среде.
-ms.openlocfilehash: e4ef63ec39106a2cb35201d43ca012b4ce173911
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ce57178a03a466b76edfbafdcc467d9458028845
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997295"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Гибридное развертывание системы комнат Skype
  

@@ -3,7 +3,7 @@ title: Просмотр сведений о компьютере тополог�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: eb295d952f218e61eabb896cffdd4c6459dfed7e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 51c3b997a30a5fb574f2deb146a39ac381bac96e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003842"
 ---
 # <a name="topology-view-computer-detail"></a>Топология: Просмотр сведений о компьютере
  

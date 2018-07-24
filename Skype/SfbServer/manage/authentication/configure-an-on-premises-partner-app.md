@@ -1,28 +1,27 @@
 ---
-title: Настройка локального приложения партнера для Skype для бизнеса Server 2015
+title: Настройка локального приложения партнера для Скайп для Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
-description: 'Сводка: Настройка локального приложения партнера для Скайп для Business Server 2015.'
-ms.openlocfilehash: 2f13196288fb7b609e5e3d39996c12eab04493dc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Настройка локального приложения партнера для Скайп для Business Server.'
+ms.openlocfilehash: 1377957797108f3cbc8e290b7750e9fba489cbf8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569451"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009727"
 ---
-# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server-2015"></a>Настройка локального приложения партнера для Skype для бизнеса Server 2015
+# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Настройка локального приложения партнера для Скайп для Business Server
  
-**Сводка:** Настройка локального приложения партнера для Скайп для Business Server 2015.
+**Сводка:** Настройка локального приложения партнера для Скайп для Business Server.
   
-После назначения сертификата OAuthTokenIssuer затем необходимо настроить вашей Скайп для приложений партнеров Business Server 2015. (Процедура будет описан в настраивает Microsoft Exchange Server 2013 и SharePoint в качестве партнерских приложений, которые является необязательным.) Настройка локального приложения партнера, необходимо запустить путем копирования приведенный ниже сценарий Windows PowerShell и вставки кода в "Блокнот" (или любом другом текстовом редакторе):
+После назначения сертификата OAuthTokenIssuer затем необходимо настроить вашей Скайп для приложений партнеров Business Server. (Процедура будет описан в настраивает Microsoft Exchange Server 2013 и SharePoint в качестве партнерских приложений, которые является необязательным.) Настройка локального приложения партнера, необходимо запустить путем копирования приведенный ниже сценарий Windows PowerShell и вставки кода в "Блокнот" (или любом другом текстовом редакторе):
   
 ```
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -102,7 +101,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 Это сообщение об ошибке обычно означает одно из двух: 1) один из URL-адресов, указанных в скрипте, недействительный (то есть один из URL-адресов метаданных не является фактическим URL-адресом метаданных); 2) не удалось связаться с одним из URL-адресов метаданных. В этом случае убедитесь, что заданы правильные и доступные URL-адреса, и повторно выполните скрипт.
   
-После создания партнерского приложения для Скайп Business Server 2015 затем необходимо настроить Скайп для Business Server в качестве партнерского приложения для Exchange 2013. Можно настроить приложения партнеров для Exchange 2013, выполнив сценарий Configure-EnterprisePartnerApplication.ps1; все, что вам нужно сделать — укажите URL-адрес метаданных для Скайп для Business Server и указать, что Скайп для Business Server нового партнерского приложения. 
+После создания партнерского приложения для Скайп Business Server затем необходимо настроить Скайп для Business Server в качестве партнерского приложения для Exchange 2013. Можно настроить приложения партнеров для Exchange 2013, выполнив сценарий Configure-EnterprisePartnerApplication.ps1; все, что вам нужно сделать — укажите URL-адрес метаданных для Скайп для Business Server и указать, что Скайп для Business Server нового партнерского приложения. 
   
 Чтобы настроить Скайп для Business Server как партнерское приложение для Exchange, откройте командную консоль Exchange и выполните команду следующего вида
   

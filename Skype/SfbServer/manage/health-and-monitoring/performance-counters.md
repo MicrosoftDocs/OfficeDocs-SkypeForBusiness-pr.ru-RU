@@ -1,34 +1,37 @@
 ---
-title: Счетчики производительности мобильной работы в Skype для бизнеса Server 2015
+title: Счетчики производительности мобильности в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Сводка: Сведения о счетчиках производительности, которые можно использовать для наблюдения за серверами под управлением Unified Communications Web API (UCWA) и Скайп для Business Server 2015 Mcx Mobility Service.'
-ms.openlocfilehash: 7f82f263969deb5fc71e448f0e514dd0056c31eb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения о счетчиках производительности, которые можно использовать для наблюдения за серверами под управлением Unified Communications Web API (UCWA) и Скайп для службы Mobility Mcx Business Server.'
+ms.openlocfilehash: a1e44d0ba7fec9eb50d7d1f1bcea78a85a1f4955
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969847"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server-2015"></a>Счетчики производительности мобильной работы в Skype для бизнеса Server 2015
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Счетчики производительности мобильности в Скайп для Business Server
  
-**Сводка:** Сведения о счетчиках производительности, которые можно использовать для наблюдения за серверами под управлением Unified Communications Web API (UCWA) и Скайп для Business Server 2015 Mcx Mobility Service.
+**Сводка:** Сведения о счетчиках производительности, которые можно использовать для наблюдения за серверами под управлением Unified Communications Web API (UCWA) и Скайп для службы Mobility Mcx Business Server.
   
-В следующих таблицах перечислены имена и описания счетчиков производительности, которые можно использовать для наблюдения за серверами под управлением Unified Communications Web API (UCWA) и Скайп для Business Server 2015 Mcx Mobility Service. 
+В следующих таблицах перечислены имена и описания счетчиков производительности, которые можно использовать для наблюдения за серверами под управлением Unified Communications Web API (UCWA) и Скайп для службы Mobility Mcx Business Server. 
   
 Имя категории счетчиков в таблице UCWA — **LS:WEB - UCWA**.
   
 Имя категории для счетчиков в таблице службы Mcx Mobility Service — **LS:WEB — Mobile Communication Service**.
+
+> [!NOTE]
+> Поддержка MCX для устаревших мобильных клиентов больше не доступен в Скайп для Business Server 2019. Пользователям необходимо обновить до текущего клиента.
   
 ## <a name="performance-counters-for-ucwa"></a>Счетчики производительности для UCWA
 
-|**Счетчик**|**Описание**|
+|Счетчик|Описание|
 |:-----|:-----|
 |Active Application Count (Число активных приложений)  <br/> |Текущее число приложений  <br/> |
 |Active Application Sharing Modality Count (Число активных модальностей общего доступа к приложениям)  <br/> |Текущее число модальностей общего доступа к приложениям  <br/> |
@@ -74,7 +77,7 @@ ms.lasthandoff: 03/28/2018
 |Total Sessions Terminated Because of User Idle Timeout (Всего сеансов, завершенных из-за таймаута бездействия)  <br/> |Общее число сеансов, которые были завершены из-за истечения времени ожидания в режиме бездействия пользователя  <br/> |
 |Total Throttled Applications (Всего приложений, к которым применяется регулирование)  <br/> |Число приложений, к которым применяется регулирование  <br/> |
    
-**Счетчики производительности для службы Mobility Mcx**
+**Счетчики производительности для службы Mcx Mobility Service**
 
 |**Счетчик**|**Описание**|
 |:-----|:-----|
@@ -110,4 +113,5 @@ ms.lasthandoff: 03/28/2018
 |Total Successful Inbound Voice Calls (Всего успешных входящих голосовых вызовов)  <br/> |Общее число успешных входящих голосовых вызовов  <br/> |
 |Total Successful Outbound Voice Calls (Всего успешных исходящих голосовых вызовов)  <br/> |Общее число успешных исходящих голосовых вызовов  <br/> |
    
-
+> [!NOTE]
+> Поддержка MCX для устаревших мобильных клиентов больше не доступен в Скайп для Business Server 2019. Пользователям необходимо обновить до текущего клиента.

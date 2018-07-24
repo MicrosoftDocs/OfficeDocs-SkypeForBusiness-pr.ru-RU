@@ -1,5 +1,5 @@
 ---
-title: Настройка Скайп для 2015 Business Server для использования архивации Exchange Server
+title: Настройка Скайп для бизнес-сервера архивирование Exchange Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,21 +10,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
-description: 'Сводка: Настройка расшифровки обмена мгновенными Сообщениями для Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server 2015.'
-ms.openlocfilehash: 280b86d223cc1dd90eb7fe7bc17e4ab3499e7f5d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Настройка расшифровки обмена мгновенными Сообщениями для Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server.'
+ms.openlocfilehash: eee0c67a1f0f1595fb0ba287fe6a3aa662e45d9c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014538"
 ---
-# <a name="configure-skype-for-business-server-2015-to-use-exchange-server-archiving"></a>Настройка Скайп для 2015 Business Server для использования архивации Exchange Server
+# <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Настройка Скайп для бизнес-сервера архивирование Exchange Server
  
-**Сводка:** Настройка расшифровки обмена мгновенными Сообщениями для Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server 2015.
+**Сводка:** Настройка расшифровки обмена мгновенными Сообщениями для Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server.
   
-Скайп для Business Server 2015 предоставляет в распоряжение администраторов возможность обмена мгновенными сообщениями и расшифровки Web конференц-связи, только в Exchange Server 2016 или Exchange Server 2013 почтовый ящик пользователя, а не базы данных SQL Server. Если выбран этот параметр, запись расшифровок выполняется в папку "Удаленные" в почтовом ящике пользователя. Папка "Удаленные" представляет собой скрытую папку, размещенную в папке корзины. Хотя эта папка не отображается конечным пользователям, папка индексируется системой поиска Exchange и для обнаружения с помощью поиска почтовых ящиков Exchange и/или Microsoft SharePoint Server 2013. Так как данные хранятся в той же папке, используемые функцией хранения на месте Exchange (ответственность за архивирование электронной почты и другими сообщениями Exchange), администраторы могут использовать единый инструмент для поиска всех электронных сообщений заархивированы для пользователь.
+Скайп для Business Server предоставляет в распоряжение администраторов возможность обмена мгновенными сообщениями и расшифровки Web конференц-связи, только в Exchange Server 2016 или Exchange Server 2013 почтовый ящик пользователя, а не базы данных SQL Server. Если выбран этот параметр, запись расшифровок выполняется в папку "Удаленные" в почтовом ящике пользователя. Папка "Удаленные" представляет собой скрытую папку, размещенную в папке корзины. Хотя эта папка не отображается конечным пользователям, папка индексируется системой поиска Exchange и для обнаружения с помощью поиска почтовых ящиков Exchange и/или Microsoft SharePoint Server 2013. Так как данные хранятся в той же папке, используемые функцией хранения на месте Exchange (ответственность за архивирование электронной почты и другими сообщениями Exchange), администраторы могут использовать единый инструмент для поиска всех электронных сообщений заархивированы для пользователь.
   
 > [!IMPORTANT]
-> Чтобы полностью отключить архивацию бесед, также необходимо отключить журнал бесед. Дополнительные сведения в следующих разделах: [Управление архивации внутренних и внешних коммуникаций в Скайп для Business Server 2015](http://technet.microsoft.com/library/6c2cf941-3204-4f1a-a7e0-416c828056d9.aspx), [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)и [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
+> Чтобы полностью отключить архивацию бесед, также необходимо отключить журнал бесед. Дополнительные сведения в следующих разделах: [Управление архивации внутренних и внешних коммуникаций в Скайп для Business Server](http://technet.microsoft.com/library/6c2cf941-3204-4f1a-a7e0-416c828056d9.aspx), [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)и [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
   
 Чтобы архивировать расшифровки в Exchange Server должен начинаться с Настройка проверки подлинности сервер сервер между Скайп для Business Server и Exchange Server. После проверки подлинности сервер сервер будет готова, вы можете выполните следующие задачи в Скайп для Business Server (Обратите внимание, что в зависимости от установки и настройки, не потребуется выполнить все эти задачи):
   

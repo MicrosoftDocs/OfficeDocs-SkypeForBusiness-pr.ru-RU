@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: Это предварительная редакция документации, и она может меняться. Пустые разделы добавлены в качестве заполнителей.
-ms.openlocfilehash: 90e7bcc235f2613789e56cb31e2b0dec654506b9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e6b20c1050630507bf48fbfc075dcf182a30fe91
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988259"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007254"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>Публикация топологии создать страницу зеркальной базы данных
  
@@ -26,6 +26,3 @@ Topology Builder анализирует все параметры конфигу
   
  Если выбран параметр выбирать не следует установить один или все эти базы данных в настоящее время, снимите баз данных, которые будут установлены. В дальнейшем выбранный для использования **Установка базы данных** , щелкните правой кнопкой мыши большинства элементов узла в построителе топологий.
   
-## <a name="see-also"></a>См. также
-
-[Развертывание зеркального отображения SQL для обеспечения высокой доступности Тыловой сервер в Скайп для Business Server](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

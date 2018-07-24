@@ -1,23 +1,22 @@
 ---
-title: Использование Config.xml для выполнения задач, связанных с установкой в Skype для бизнеса Server 2015
+title: Использование файла Config.xml для выполнения задач установки в Скайп пользователей
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: 'Сводка: Порядок использования файла Config.xml для указания дополнительных инструкций по установке.'
-ms.openlocfilehash: 4e3c27aab3e821f7dcd621e40fd4339e4db2b985
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: Сводка. Сведения об использовании файла Config.xml для определения дополнительных инструкций по установке.
+ms.openlocfilehash: ea869fe2b49d5c1a5b4e04c3bc75cfd52b66555e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568558"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003510"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-server-2015"></a>Использование Config.xml для выполнения задач, связанных с установкой в Skype для бизнеса Server 2015
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Использование файла Config.xml для выполнения задач установки в Скайп пользователей
  
 **Сводка.** Сведения об использовании файла Config.xml для определения дополнительных инструкций по установке.
   
@@ -43,18 +42,18 @@ ms.locfileid: "19568558"
     
 В следующей таблице перечислены элементы Config.xml, чаще всего используемые для Скайп для установки Business.
   
-**Элементы config.XML**
+**Элементы Config.xml**
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |Configuration  <br/> |Элемент верхнего уровня (обязательный). Содержит атрибут Product, например: Product=Lync. (Это работает только для клиентов Skype для бизнеса.)  <br/> |
-|OptionState  <br/> | Определяет, как при установке будут обрабатываться компоненты конкретного продукта. Используйте следующие атрибуты для предотвращения установки служб Business Connectivity Services, который включает в себя общие компоненты, которые мешают Outlook 2016: <br/>  ID = «LOBiMain» <br/>  State="Absent" <br/>  Children="Force" <br/> |
+|OptionState  <br/> | Определяет, как при установке будут обрабатываться компоненты конкретного продукта. Используйте следующие атрибуты для предотвращения установки служб Business Connectivity Services, который включает в себя общие компоненты, которые мешают Outlook: <br/>  ID = «LOBiMain» <br/>  State="Absent" <br/>  Children="Force" <br/> |
 |Display  <br/> | Уровень пользовательского интерфейса, отображаемого пользователю программой установки. Обычно используются следующие атрибуты: <br/>  CompletionNotice = «Yes» | No"(default) « <br/>  AcceptEula = «Yes» | No"(default) « <br/> |
 |Logging  <br/> | Параметры ведения журнала программой установки. Обычно используются следующие атрибуты: <br/>  Тип = «Off» | Standard"(default) « | «Verbose» <br/>  Шаблон =» _filename_.txt» (имя файла журнала)  <br/> |
 |Setting  <br/> | Определяет значения для свойств программы установщика Windows. Обычно используются следующие атрибуты:<br/>  Setting Id =» _имя_"(имя свойства установщика Windows)  <br/>  Значение =» _значение_"(значение, задаваемое свойству)  <br/> |
 |DistributionPoint  <br/> | Полный доменный путь точки сетевой установки, из которой запускается установка. Содержит атрибут Location:<br/>  Расположение =» _путь_"  <br/> |
    
-Следующий пример показывает файл Config.xml для типичной автоматической установки Скайп для бизнеса. 
+Следующий пример показывает файл Config.xml для типичной автоматической установки Скайп для клиента Business. 
   
 ```
 <Configuration Product="Lync"> 

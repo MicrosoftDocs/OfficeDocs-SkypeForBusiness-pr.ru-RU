@@ -11,17 +11,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: Скайп для Business Server поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
-ms.openlocfilehash: 37eb1dff810d227c96711d931b3576ea4e3c84fa
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+description: Скайп для Business Server 2015 поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
+ms.openlocfilehash: 5a3402a3b6c161f2934c3fd42c5402f7d8008ff0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971645"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013639"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange единой системы обмена сообщениями параметры (средство планирования)
+# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Параметры сообщений (средство планирования) в Скайп для бизнеса 2015 единая Exchange
+
+> [!NOTE]
+> Единая система обмена сообщениями Exchange ранее известных как больше недоступен в Exchange 2019, но можно использовать телефонной системой для записи голосовых сообщений и оставьте записи в почтовый ящик Exchange пользователя. [Планирование голосовой почты облачной службы](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) более подробные сведения.
  
-Скайп для Business Server поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
+Скайп для Business Server 2015 поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
   
 Для получения дополнительных сведений см.:
   

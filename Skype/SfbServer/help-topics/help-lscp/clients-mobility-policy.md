@@ -3,7 +3,7 @@ title: Клиенты мобильной политики
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: На странице политика клиенты отображаются доступные в вашем развертывании политики мобильных устройств.
-ms.openlocfilehash: 27fe7bd4d92591ae3ff35f225a2841d576d03d7a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8d722117567e5e65cabc414ac8edf2cdab3c0283
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971303"
 ---
 # <a name="clients-mobility-policy"></a>Клиенты: Политика мобильных устройств
  
@@ -36,7 +37,6 @@ ms.lasthandoff: 03/28/2018
 
 В следующих списках описываются меню, команды, поля и свойства на этой странице.
   
-### 
 
 - **Поле поиска** Введите строку в текстовое поле для фильтрации отображаемых политик.
     
@@ -50,9 +50,6 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Планирование для мобильных устройств](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
   
 [Развертывание поддержки мобильной работы](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
-

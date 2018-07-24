@@ -1,9 +1,9 @@
 ---
 title: Конфигурация версии клиента
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: Кроме возможности задания версии клиентов, которые вы хотите поддержки в среде, можно также указать действие по умолчанию для клиентов, которые еще не определена политика версии. Это позволяет ограничить, какие версии клиента, используемых в вашей среде, которые позволяют контролировать расходы, связанные с поддержкой нескольких версий клиента.
-ms.openlocfilehash: 4b5f76d17c92d0dd478aa9a1a3fe902ccbf35c48
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5740684ee266bf3f976e355fb222988a7261277a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025928"
 ---
 # <a name="client-version-configuration"></a>Конфигурация версии клиента
  

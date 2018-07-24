@@ -3,18 +3,18 @@ title: Политика конференц-связи для учетных за
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: В этом разделе описывается назначение политик конференц-связи для учетных записей Системы комнат Skype.
-ms.openlocfilehash: 07ce5031bd053837d69d3ed3da27aabb344c3a65
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: a9eb05c8e29a3db216bc74e5e016c2c6a8413a33
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973425"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Политика конференц-связи для учетных записей системы комнат Skype
  
@@ -59,7 +59,7 @@ ms.lasthandoff: 04/05/2018
 |Для параметра TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |Рекомендуется установить значение как можно выше. Пропускную способность зависит от состояния сети во время конференции.\*  <br/> |
 |Для параметра EnableMultiViewJoin  <br/> |TRUE  <br/> |Должно быть значение TRUE для системы комнаты Скайп, чтобы обеспечить просмотр нескольких видеопотоков  <br/> |
    
-* Сведения о планировании пропускной способности содержатся [Требования к пропускной способности сети для трафика мультимедиа](https://technet.microsoft.com/en-us/library/jj688118%28v=ocs.15%29.aspx).
+* Сведения о планировании пропускной способности содержатся [требования к пропускной способности сети для трафика мультимедиа](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic).
   
 > [!NOTE]
 > Если клиент Скайп комнаты система пытается присоединиться к запланированным собранием, созданные пользователем, размещенный в пуле Lync Server 2010, политики конференц-связи Организатор собрания может запретить клиенту Скайп комнаты системы для выполнения совместной работы. 

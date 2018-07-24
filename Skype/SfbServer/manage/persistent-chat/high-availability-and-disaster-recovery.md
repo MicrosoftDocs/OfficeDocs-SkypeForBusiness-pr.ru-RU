@@ -10,17 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Сводка: Узнайте, как управлять сервера сохраняемого чата высокой доступности и аварийного восстановления в Скайп для Business Server 2015.'
-ms.openlocfilehash: 8bc80ff6a38238b81b658a7f4d9620dc3a56b9be
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3c3da985f8d68f257257909fbc06e93868233468
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008225"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление высокой доступностью и аварийным восстановлением для сервера сохраняемого чата в Skype для бизнеса Server 2015
  
 **Сводка:** Сведения об управлении сервера сохраняемого чата высокой доступности и аварийного восстановления в Скайп для Business Server 2015.
   
 В этом разделе описывается, как выполнить отработку отказа и восстановления размещения обратно Persistent Chat Server. Перед прочтением данного раздела, обязательно прочитайте [Планирование высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) и [Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Бизнес-2015 сервера](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+
+> [!NOTE]
+> Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны либо перенос пользователей, которым требуется эта функция групп, или для дальнейшего использования Скайп для Business Server 2015. 
   
 ## <a name="fail-over-persistent-chat-server"></a>Переключения сервера сохраняемого чата
 

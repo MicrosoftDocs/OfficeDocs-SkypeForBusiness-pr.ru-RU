@@ -3,7 +3,7 @@ title: Пользователи редактирование пользоват�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 507c70863513809a37fc1722a4272e2e726a3836
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1532291004b4f60b710161143888632fb98ebf3a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981271"
 ---
 # <a name="users-edit-user"></a>Пользователи: Редактирование пользователя
  
@@ -24,13 +25,13 @@ ms.lasthandoff: 03/28/2018
   
 - [Включение и отключение пользователей для Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [Включение пользователей для корпоративной голосовой связи в Скайп для Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Включение пользователей для корпоративной голосовой связи в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Назначение политики конференц-связи для изменения пользовательского интерфейса собрания по умолчанию](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
     
 - [Задание версий клиента, поддерживаемые для входа пользователя](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [Назначение политики ПИН-код пользователя в Скайп для Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Назначение политики ПИН-кодов уровня пользователя в Skype для бизнеса Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [Настройка федерации, удаленного доступа пользователей и общедоступных служб обмена Мгновенными сообщениями для пользователей](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

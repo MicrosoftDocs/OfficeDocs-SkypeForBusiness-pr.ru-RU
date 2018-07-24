@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
+ROBOTS: NOINDEX, NOFOLLOW
 description: В области сведения об организации позволяет указать имя вашей организации и подразделения (OU) (обычно отдела или подразделения), для которого запрашивается сертификат. Данные, введите в текстовых полях подразделение и организации отображается в сертификате и используется для идентификации источник запроса сертификата при просмотре сертификат с другими пользователями.
-ms.openlocfilehash: 5afe780e15902ebc766e47cba31467d433662d87
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 69ba17a0860921d4fa3cb2c09799a56c5d0770b5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970467"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974884"
 ---
 # <a name="certificate-request-organization-information"></a>Запрос сертификата (сведения об организации)
  

@@ -1,25 +1,25 @@
 ---
-title: Создание новой политики ПИН-кодов в Skype для бизнеса Server 2015
+title: Создание новой политики ПИН-код в Скайп для Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
-description: 'Сводка: Создание новой политики ПИН-код в Скайп для Business Server 2015.'
-ms.openlocfilehash: d04c19f09830b971300d2ff9bf4a8a1d93994f7c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Создание новой политики ПИН-код в Скайп для Business Server.'
+ms.openlocfilehash: 080b6efabc168d1d099c0f14abc394e8cd2d267a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977559"
 ---
-# <a name="create-a-new-pin-policy-in-skype-for-business-server-2015"></a>Создание новой политики ПИН-кодов в Skype для бизнеса Server 2015
+# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Создание новой политики ПИН-код в Скайп для Business Server
  
-**Сводка:** Создание новой политики ПИН-код в Скайп для Business Server 2015.
+**Сводка:** Создание новой политики ПИН-код в Скайп для Business Server.
   
 На странице **Политика ПИН-код** можно использовать для предоставления персонального идентификационного номера (ПИН-кода), проверки подлинности пользователей, которые подключаются к Скайп для бизнеса с IP-телефонов. Чтобы использовать проверку подлинности на основе ПИН-кодов, необходимо установить флажок **Разрешить проверку подлинности на основе ПИН-кода** в параметрах веб-службы.
   
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-create-a-user-or-site-pin-policy"></a>Создание политики ПИН-кодов для пользователя или сайта
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server 2015.
+1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server. 
     

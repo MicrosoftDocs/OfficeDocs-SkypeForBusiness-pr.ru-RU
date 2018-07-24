@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'На странице выполнение команд отображаются краткие сведения о задачах, как их выполнения. Просмотрите сводку и убедитесь в том, что задачи было выполнено успешно, и что нет ошибок. Просмотрите предупреждения, чтобы убедиться в том, что они должны. Ниже области сводки должно появиться состояние задачи: завершено. В раскрывающемся списке файл журнала подготовка домена должны быть видны. Если он не установлен, выберите файл журнала и нажмите кнопку Просмотреть журнал для просмотра подробного действия и результаты задачи. Нажмите кнопку Готово для завершения подготовки домена.'
-ms.openlocfilehash: 5fc0211ae072e959f92cf843cd2a44b15d1f8f58
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5be329fa15576f181a6ba0dd7aa1f32d4ec28c0d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964079"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006820"
 ---
 # <a name="prepare-current-domain-invoke"></a>Подготовка текущего домена (вызов)
  

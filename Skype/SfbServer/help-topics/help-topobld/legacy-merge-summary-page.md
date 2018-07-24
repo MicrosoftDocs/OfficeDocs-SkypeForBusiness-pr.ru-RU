@@ -3,7 +3,7 @@ title: Страница сводки объединения с устаревш�
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
 description: Миграция с Microsoft Office Communications Server 2007 R2 на Lync Server 2013 использует возможности Topology Builder для объединения существующей топологии. Сводный экран указывает все действия и выбранные элементы, внесенные во время настройки слияния Office Communications Server 2007 R2 в конфигурации построитель топологии Lync Server 2013.
-ms.openlocfilehash: 4ed22741904b4b7d9e1b6e04577aafea01b93076
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f757ff3b2cedc1e72c67eec501f3b446f13ec7a2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001576"
 ---
 # <a name="legacy-merge-summary-page"></a>Страница сводки объединения с устаревшей версией
  
@@ -26,7 +27,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Миграция с Office Communications Server 2007 R2 на Lync Server 2013](http://technet.microsoft.com/library/f3fa4f5f-e9a2-4fb7-a12d-20f04173e697.aspx)
-

@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: В разделе Add-in страницы Persistent Chat можно использовать для сопоставления URL-адреса с комнатами Persistent Chat. Эти URL-адреса отображаются в клиенте в комнате чата в области расширения беседы. Администратор должен добавить надстройки в список зарегистрированных надстроек, а руководители или создатели комнат чата должны связать комнаты с одной из зарегистрированных надстроек, чтобы пользователи могли увидеть это обновление в клиенте.
-ms.openlocfilehash: 701a128095cd2d9e001109fb6623659d189b2fbb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d165f770d7d10b7e1d599a4698561f3f833d7d82
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005876"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Главная страница надстройки сохраняемого чата
  
@@ -30,7 +31,7 @@ ms.lasthandoff: 03/28/2018
 
 На странице **Надстройка** можно выполнить следующие задачи:
   
-- [Настройка надстроек для комнат сохраняемого сеанса беседы в Скайп для Business Server 2015](../../manage/persistent-chat/configure-add-ins.md)
+- [Настройка надстроек для комнат сохраняемого чата в Skype для бизнеса Server 2015](../../manage/persistent-chat/configure-add-ins.md)
     
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>Настройка надстроек для комнат чата
 
@@ -56,7 +57,7 @@ ms.lasthandoff: 03/28/2018
     
 7. Нажмите **Исполнить**.
     
-### 
+## <a name="see-also"></a>См. также
 
 Подробные сведения о сервера сохраняемого чата функций и возможностей, посвященной [планированию сервера сохраняемого чата в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Развернуть Persistent Chat Server в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)и [Управление сервера сохраняемого чата в Скайп для Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   

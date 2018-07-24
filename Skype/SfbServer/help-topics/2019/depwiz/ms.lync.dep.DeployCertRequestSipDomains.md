@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
-description: На странице параметров домена SIP на странице альтернативные имена субъектов (SAN), должны установите флажок для основного домена Session Initiation Protocol (SIP) и других доменов SIP инфраструктуры и развертывания, соответствующие условиям из списка.
-ms.openlocfilehash: 3d4bda17cf80ac8ee82ff86fca037203f83e4c60
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: На странице задания домена SIP для альтернативных имен субъектов (SAN) следует установить флажок для основного домена SIP и любых других доменов SIP, если инфраструктура и развертывание соответствуют указанным критериям.
+ms.openlocfilehash: 9cc86cf7f1bbd2ad2276e6554841a69a366d4274
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988245"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020114"
 ---
 # <a name="certificate-request-sip-domains"></a>Запрос сертификата (домены SIP)
  

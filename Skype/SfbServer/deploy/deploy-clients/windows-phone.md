@@ -3,18 +3,18 @@ title: Установка и проверка Skype для бизнеса на W
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Сводка: Узнайте, как установка и тестирование Скайп для бизнеса на вашей Windows Phone.'
-ms.openlocfilehash: 12916e26857e5d456338519adee6190c11bace7b
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 90e8b99532e51399f9f76e5e12d60a3eeab84481
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978049"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype для бизнеса Server 2015: установка и проверка Skype для бизнеса на Windows Phone
  
@@ -109,9 +109,5 @@ ms.lasthandoff: 05/24/2018
     
 2. Коснитесь и удерживайте Скайп для приложения Business для Windows Phone и выберите **Удалить**.
     
-## <a name="see-also"></a>См. также
 
-#### 
-
-[Начало работы с Скайп для бизнеса для Windows Phone 8.1]()
 

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
+ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы подготовить лес доменных служб Active Directory, необходимо успешно расширить схему, как описано в разделе Running Schema Preparation и убедитесь в том, что схема была реплицирована.
-ms.openlocfilehash: f993236fc13fc2274acaa8bb4c6b0ae1105afccb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 8bab8fecef4980c2d82f92a90f5c11c6bf7870f1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987489"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971899"
 ---
 # <a name="prepare-current-forest"></a>Подготовка текущего леса
  
@@ -29,7 +30,7 @@ ms.locfileid: "19987489"
 2. На странице **Подготовка леса** нажмите кнопку **Далее**.
     
     > [!NOTE]
-    > Подготовка леса позволяет выбрать поместить универсальных групп для Скайп для Business Server 2015. Выберите расположение в соответствии с требованиями организации. 
+    > Подготовка леса позволяет выбрать поместить универсальных групп для Скайп для Business Server. Выберите расположение в соответствии с требованиями организации. 
   
 3. На странице **Выполнение команд** найдите запись **Состояние задачи: Завершено**, затем нажмите кнопку **Просмотр журнала**. Убедитесь в отсутствии ошибок. Просмотрите предупреждения и определите, являются ли они ожидаемыми и типичными для данной инфраструктуры.
     

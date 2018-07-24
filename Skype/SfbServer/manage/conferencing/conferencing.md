@@ -1,26 +1,26 @@
 ---
-title: Управление конференц-связью в Skype для бизнеса Server 2015
+title: Управление конференц-связи в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
-description: 'Сводка: Узнайте, как управлять конференц-связи в Скайп для Business Server 2015.'
-ms.openlocfilehash: 2239c5aae8754e381bf6cf7b8b41aa6ef31b8033
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как управлять конференц-связи в Скайп для Business Server.'
+ms.openlocfilehash: 031c0b19d8132d9c8658702a5bdb30d84b418ae3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973341"
 ---
-# <a name="manage-conferencing-in-skype-for-business-server-2015"></a>Управление конференц-связью в Skype для бизнеса Server 2015
+# <a name="manage-conferencing-in-skype-for-business-server"></a>Управление конференц-связи в Скайп для Business Server
  
-**Сводка:** Сведения об управлении конференц-связи в Скайп для Business Server 2015.
+**Сводка:** Сведения об управлении конференц-связи в Скайп для Business Server.
   
-В этом разделе описаны процедуры управления конференц-связи. Дополнительные сведения о планировании и развертывании конференц-связи видеть [план для конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) и [Развертывание конференц-связи в Скайп для Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+В этом разделе описаны процедуры управления конференц-связи. Дополнительные сведения о планировании и развертывании конференц-связи видеть [план для конференц-связи в Скайп для Business Server](../../plan-your-deployment/conferencing/conferencing.md) и [Развертывание конференц-связи в Скайп для Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 В Скайп Business Server управлять сведения о конференц-связи, указав конфигурации и параметров политики следующим образом. Обратите внимание, что термины конференц-связь и собрания в некоторых случаях взаимозаменяемыми. Однако в общем случае можно представить собрания в качестве определенный экземпляр конференц-связи.
   
@@ -80,7 +80,7 @@ ms.lasthandoff: 03/28/2018
 
 Можно использовать следующие Скайп для командлетов командной консоли Business Server для управления конференц-связи: 
   
-**Параметры политики конференц-связи**
+**Параметры политик конференц-связи**
 
 |**Командлет**|**Описание**|
 |:-----|:-----|
@@ -108,7 +108,7 @@ ms.lasthandoff: 03/28/2018
 |[Remove-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |Удаляет указанную коллекцию параметров конфигурации конференции.  <br/> |
 |[SET-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |Изменяет существующую коллекцию параметров конфигурации конференц-связи.  <br/> |
    
-**Параметры настройки входящих звонков**
+**Параметры конфигурации телефонного подключения**
 
 |**Командлет**|**Описание**|
 |:-----|:-----|
@@ -167,7 +167,7 @@ ms.lasthandoff: 03/28/2018
 |[Командлет Test-CsDataConference](https://docs.microsoft.com/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Проверяет ли пары пользователи могут принимать участие в Скайп для Business Server веб-конференции, которая включает в себя действия, такие как общий доступ к или Просмотр слайдов PowerPoint, доски и опросы. Командлет также проверяет, что Скайп для конференц-связи Business Server веб-службы могут обнаруживать сервера Office Web Apps и, что клиент может Отправка файла PowerPoint для использования с сервером Office Web Apps.  <br/> |
 |[Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Выполняет проверку, может ли пользователь принять участие в сеансе конференц-связи с телефонным подключением.  <br/> |
 |[Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Тестирует номер телефона на абонентскую группу (которая раньше называлась профилем местоположения) и возвращает правило нормализации, которое будет применяться к номеру, а также преобразованный номер после применения правила нормализации.  <br/> |
-|[Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Проверяет возможность три пользователям участвовать в Скайп для конференции Business Server Mobility Service. Служба мобильной связи позволяет пользователям мобильных телефонов, например, iPhone и ОС Windows Phone для обмена мгновенными сообщениями и сведения о присутствии; хранения и извлечения голосовой почты во внутренней сети вместо предложенного с их поставщику услуг беспроводной связи; и воспользуйтесь преимуществами Скайп для возможности Business Server, такие как позвонить с рабочего и конференц-связь по телефону.  <br/> |
+|[Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Проверяет возможность три пользователям участвовать в Скайп для конференции Business Server Mobility Service. Служба мобильной связи позволяет пользователям мобильных телефонов, например, iPhone и ОС Windows Phone для обмена мгновенными сообщениями и сведения о присутствии; хранения и извлечения голосовой почты во внутренней сети вместо предложенного с их поставщику услуг беспроводной связи; и воспользуйтесь преимуществами Скайп для возможности Business Server, такие как позвонить с рабочего и конференц-связь по телефону.  <br/> **Примечание:** Клиенты, использующие MCX не поддерживается в Скайп для Business Server 2019.|
 |[Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Проверяет возможность пары пользователей планировать сетевую конференцию, присоединяться к ней, а затем проводить ее с помощью веб-интерфейса API объединенных коммуникаций (UCWA).  <br/> |
 |[Debug-CsDataConference](https://docs.microsoft.com/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Возвращает диагностические сведения о возможности конференц-связи данных, включенных в Скайп для Business Server.  <br/> |
    

@@ -2,7 +2,7 @@
 title: Необходимые компоненты и настройка для средства Stress and Performance Skype для бизнеса
 ms.author: heidip
 author: microsoftheidi
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Требования и необходимые компоненты для средства Stress and Performance Skype для бизнеса Server 2015. Установка и настройка средства Stress and Performance.
-ms.openlocfilehash: 9e59c314b546cf0e9204047eb9a86096fbdd5cd8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fbc04202ea9b0719be9b8221d43171d58fe772b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995293"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Необходимые компоненты и настройка для средства Stress and Performance Skype для бизнеса
  
@@ -22,11 +23,11 @@ ms.lasthandoff: 03/28/2018
   
 Прежде чем запускать средство Stress and Performance, ознакомьтесь со следующими разделами, содержащими требования к конфигурации оборудования, программного обеспечения и системы:
   
-- [Требования к оборудованию клиента](prerequisites-and-setup.md#ClientHardwareReqs)
+- [требования к оборудованию клиента;](prerequisites-and-setup.md#ClientHardwareReqs)
     
 - [Требования к программному обеспечению клиента](prerequisites-and-setup.md#ClientSoftwareReqs)
     
-- [Требования к конфигурации](prerequisites-and-setup.md#ConfigReqs)
+- [требования к конфигурации.](prerequisites-and-setup.md#ConfigReqs)
     
 Также ознакомьтесь с разделом [Установка средства Stress and Performance Skype для бизнеса Server 2015](prerequisites-and-setup.md#Installing).
   

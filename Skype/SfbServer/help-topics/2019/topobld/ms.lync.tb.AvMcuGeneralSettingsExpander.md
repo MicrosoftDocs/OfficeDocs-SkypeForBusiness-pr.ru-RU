@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: 'Чтобы изменить свойства для A аудио- и видеоконференций пула, который уже были определены, можно сделать следующее:'
-ms.openlocfilehash: 1ecc843ec0324a6b07a62d9ba114a2b30fbc6f45
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 8029dd22de0032a2a19f33d94eca8390df2a3125
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966874"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982365"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Расширитель общих настроек AV MCU
  
@@ -33,7 +33,6 @@ ms.locfileid: "19966874"
 > [!NOTE]
 > Если не пулов переднего плана, отображаются в **выберите пулов переднего плана для связи с A / пула аудио-и видеоконференциями** области, либо совмещенного A / V Server конференц-связи с пулом переднего плана или не выбран параметр для добавления конференц-связи в функции **и функциональные возможности** раздел свойств пула переднего плана.
   
-## 
 
 После завершения нажмите кнопку **ОК** , чтобы завершить редактирование A аудио- и видеоконференций пула параметров. Для отмены изменений нажмите кнопку **Отмена**.
   

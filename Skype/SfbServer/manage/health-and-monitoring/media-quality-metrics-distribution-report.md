@@ -1,24 +1,24 @@
 ---
-title: Отчет по распределению метрик качества среды в Skype для бизнеса Server 2015
+title: Media Quality отчет по распределению метрик в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 'Сводка: Сведения о Media Quality отчет по распределению метрик в Скайп для Business Server 2015.'
-ms.openlocfilehash: 8883a15e4d78ee0eb5fad298fcbdddea6aedb5a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения о Media Quality отчет по распределению метрик в Скайп для Business Server.'
+ms.openlocfilehash: ef15807cdc0377d2548a83f8da56de9b6cf85e04
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014140"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server-2015"></a>Отчет по распределению метрик качества среды в Skype для бизнеса Server 2015
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Media Quality отчет по распределению метрик в Скайп для Business Server 
  
-**Сводка:** Узнайте о Media Quality отчет по распределению метрик в Скайп для Business Server 2015.
+**Сводка:** Узнайте о Media Quality отчет по распределению метрик в Скайп для Business Server.
   
 Отчет по распределению метрик качества среды позволяет просматривать диаграмму, на которой отображаются значения распространения для метрик качества работы, такие как дрожание и потеря пакетов. Предположим, пользователи сделали 10 звонков; ниже приведен отчет по этим 10 звонкам со следующими значениями времени цикла:
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 03/28/2018
 
 Фильтры позволяют получать более точные и актуальные наборы данных или просматривать возвращаемые данные в разных комбинациях. В следующей таблице перечислены фильтры, которые можно использовать в отчете по распределению метрик качества среды.
   
-**Фильтры отчета по распределению метрик качества мультимедиа**
+**Фильтры отчета по распределению метрик качества среды**
 
 |**Имя**.|**Описание**|
 |:-----|:-----|

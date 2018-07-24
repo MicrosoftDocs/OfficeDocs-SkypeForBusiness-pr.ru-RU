@@ -3,7 +3,7 @@ title: Расширитель параметров регистратора
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: Устойчивость предоставляет высокой доступности и аварийного восстановления для пула регистратора. С указанием регистратора резервного копирования в случае сбоя основного регистратора Registrar взять на себя для неудачных регистратора резервной копии позволяя пользователям входить в систему и общаться. Пользователи могут использовать потенциально ограниченной функциональности, в зависимости от того, который системы не были выполнены в основном регистраторе.
-ms.openlocfilehash: 9d8460f0a883dfabc55153744ba4f3f886b34898
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9aa72170b157045f8adf28bc2be08b115ae40c5b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015713"
 ---
 # <a name="registrar-settings-expander"></a>Расширитель параметров регистратора
  

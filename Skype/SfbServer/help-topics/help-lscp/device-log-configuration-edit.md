@@ -1,9 +1,9 @@
 ---
 title: Изменить настройки журнала устройств
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Можно добавить настройку журнала устройств на странице Изменение параметров журнала, который определяет максимальный размер кэша, максимальный размер файла журнала или время хранения файла журнала до его удаления. Можно изменить эти параметры в соответствии с потребностями организации.
-ms.openlocfilehash: 8003014f7b94824d0ef36a8d1328c6430e98d894
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fac6dd8aae7c1081c268d35ea0336b41eb7c6f55
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969996"
 ---
 # <a name="device-log-configuration-edit"></a>Конфигурация журнала устройств: редактирование
  
@@ -51,7 +52,4 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Конфигурация журнала устройств](device-log-configuration.md)
-

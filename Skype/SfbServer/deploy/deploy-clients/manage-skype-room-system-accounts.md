@@ -3,19 +3,18 @@ title: Управление учетными записями системы к�
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 description: В этом разделе описывается управление учетными записями системы комнат Skype.
-ms.openlocfilehash: 4d3535c9583481273f7a511143244b511cdb5819
-ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
+ms.openlocfilehash: 502e9c3e7036abef832bf051513b11dff4c3becc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19927790"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999634"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Управление учетными записями системы комнат Skype
  

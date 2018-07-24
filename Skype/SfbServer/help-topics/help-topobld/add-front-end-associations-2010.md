@@ -3,7 +3,7 @@ title: Добавление связей переднего плана 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: Можно включить поддержку для конкретных компонентов, которые требуют развертывания других серверов путем связывания ролей сервера с пулом переднего плана в данный момент. Также можно связать ролей сервера с пулом переднего плана в дальнейшем. Следующие роли сервера, которые могут быть связаны с пулом переднего плана.
-ms.openlocfilehash: 74cf2ca8e04043d9cf6556bc220b42502e014a07
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 467321e8b0ebaab9ece6a82c1f191457db1cf863
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020820"
 ---
 # <a name="add-front-end-associations-2010"></a>Добавление связей переднего плана 2010
  

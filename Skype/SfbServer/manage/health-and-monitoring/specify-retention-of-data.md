@@ -1,24 +1,24 @@
 ---
-title: Указание способа хранения данных CDR в Skype для бизнеса Server 2015
+title: Указание срока хранения данных CDR в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: 'Сводка: Сведения об управлении данных регистрации вызовов (CDR) для Скайп для Business Server 2015.'
-ms.openlocfilehash: cb15468f1980f0103c2333676a92ae1ca1280f1b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения об управлении данных регистрации вызовов (CDR) для Скайп для Business Server.'
+ms.openlocfilehash: ce35d8d2cac0968cca912031ec5e406ebe93e2eb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005834"
 ---
-# <a name="specify-retention-of-cdr-data-in-skype-for-business-server-2015"></a>Указание способа хранения данных CDR в Skype для бизнеса Server 2015
+# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Указание срока хранения данных CDR в Скайп для Business Server
  
-**Сводка:** Сведения об управлении данных регистрации вызовов (CDR) для Скайп для Business Server 2015.
+**Сводка:** Сведения об управлении данных регистрации вызовов (CDR) для Скайп для Business Server.
   
 По умолчанию данные регистрации вызовов (CDR) удаляются по прошествии 60 дней. Можно использовать параметры на странице **Регистрация вызовов**, чтобы задать хранение данных в течение большего или меньшего времени. Если отключить CDR, то данные, которые были записаны до включения CDR, также будут удаляться.
   
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-specify-retention-of-cdr-data"></a>Настройка хранения данных CDR
 
-1. Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server 2015.
+1. Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
     
@@ -69,7 +69,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
-[Вызов регистрации (CDR) в Скайп для Business Server 2015](call-detail-recording-cdr.md)
-
+[Вызовов компании recording (CDR) в Скайп for Business Server](call-detail-recording-cdr.md)

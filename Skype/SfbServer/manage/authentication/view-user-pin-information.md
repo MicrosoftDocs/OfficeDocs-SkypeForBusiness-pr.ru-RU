@@ -1,31 +1,30 @@
 ---
-title: Просмотр сведений о ПИН-коде пользователя в Skype для бизнеса Server 2015
+title: Представление пользователя сведения о ПИН-код в Скайп для Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: 'Сводка: Просмотр сведения о ПИН пользователя в Скайп для Business Server 2015.'
-ms.openlocfilehash: fecd4c983cad20b0efa77cbd5c6fc809db777aec
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Просмотр сведений о пользователе ПИН-код в Скайп для Business Server.'
+ms.openlocfilehash: 4b0eda76e4429ee5c6d658f4d161783bc4d356a3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568761"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008561"
 ---
-# <a name="view-user-pin-information-in-skype-for-business-server-2015"></a>Просмотр сведений о ПИН-коде пользователя в Skype для бизнеса Server 2015
+# <a name="view-user-pin-information-in-skype-for-business-server"></a>Представление пользователя сведения о ПИН-код в Скайп для Business Server
  
-**Сводка:** Просмотр пользователя сведения о ПИН-код в Скайп для Business Server 2015.
+**Сводка:** Просмотр пользователя сведения о ПИН-код в Скайп для Business Server.
   
-Чтобы присоединиться к конференции номера в качестве пользователя с разрешением, Скайп для пользователя Business Server 2015 с использованием учетных данных доменных служб Active Directory (AD DS) требуется персональный идентификационный номер (ПИН-кода). Можно просмотреть сведения о ПИН пользователя из Скайп для панели управления Business Server.
+Чтобы присоединиться к конференции номера в качестве пользователя с разрешением, Скайп для пользователя Business Server с использованием учетных данных доменных служб Active Directory (AD DS) требуется персонального идентификационного номера (ПИН-кода). Можно просмотреть сведения о ПИН пользователя из Скайп для панели управления Business Server.
   
 > [!NOTE]
-> Можно просмотреть сведения о состоянии ПИН, такие как когда ПИН был определен или когда был в последний раз изменен, однако сведения о состоянии не содержат самого ПИН. Если пользователь теряет свой ПИН-код, ее можно восстановить с помощью процедур в [наборе пользователя телефонных конференций ПИН-код в Скайп для Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+> Можно просмотреть сведения о состоянии ПИН, такие как когда ПИН был определен или когда был в последний раз изменен, однако сведения о состоянии не содержат самого ПИН. Если пользователь теряет свой ПИН-код, который может сбросить, выполнив процедуры, описанные в [задать пользователя телефонных конференций ПИН-код в Скайп для Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Чтобы просмотреть ПИН пользователя в Скайп для панели управления Business Server
 
@@ -87,6 +86,6 @@ PinExpirationTime :
   
 ## <a name="see-also"></a>См. также
 
-[Задать пользователя телефонных конференций ПИН-код в Скайп для Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+[Задать пользователя телефонных конференций ПИН-код в Скайп для Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
-[Заблокировать или разблокировать ПИН-код, в Скайп пользователя для Business Server 2015](lock-or-unlock-a-user-pin.md)
+[Заблокировать или разблокировать ПИН-код, в Скайп пользователя для Business Server](lock-or-unlock-a-user-pin.md)

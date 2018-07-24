@@ -1,22 +1,22 @@
 ---
-title: Развертывание сопряженных интерфейсных пулов для аварийного восстановления в Skype для бизнеса Server 2015
+title: Развертывание парных пулов переднего плана для аварийного восстановления в Скайп for Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Вам может потребоваться использовать сопряженные интерфейсные пулы для обеспечения аварийного восстановления, однако это не обязательное требование.
-ms.openlocfilehash: e13694c364908cfef70edafc1e7eb0484c5fe1bd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 72083b2ec249a83c06cd8ccebe683f29d15709e0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026483"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server-2015"></a>Развертывание сопряженных интерфейсных пулов для аварийного восстановления в Skype для бизнеса Server 2015
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Развертывание парных пулов переднего плана для аварийного восстановления в Скайп for Business Server
  
 Вам может потребоваться использовать сопряженные интерфейсные пулы для обеспечения аварийного восстановления, однако это не обязательное требование.
   
@@ -81,7 +81,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
-[Переднего плана пула аварийного восстановления в Скайп для Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
-
+[Переднего плана пула аварийного восстановления в Скайп для Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

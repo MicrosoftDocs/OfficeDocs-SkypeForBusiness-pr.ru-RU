@@ -3,18 +3,18 @@ title: Установка и и проверка Skype для бизнеса п�
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Сводка: Порядок установки и тестирования для операций ввода-вывода приложения Скайп для бизнеса.'
-ms.openlocfilehash: 3cd701769f2a4f55958a5d08c8a7f698c32cfcdb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a31dc19322c2f5f511fb027f50040ba96fdd7f42
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020375"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Установка и и проверка Skype для бизнеса под управлением iOS
  

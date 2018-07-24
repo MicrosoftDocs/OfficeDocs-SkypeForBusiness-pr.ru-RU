@@ -1,24 +1,24 @@
 ---
-title: Изменение параметров конфигурации собраний в Skype для бизнеса Server 2015
+title: Изменение параметров конфигурации собрания в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: 'Сводка: Узнайте, как для изменения параметров конфигурации собрания в Скайп для Business Server 2015.'
-ms.openlocfilehash: 95f28f35859553f79fc6f74f8850f224bda54deb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как для изменения параметров конфигурации собрания в Скайп для Business Server.'
+ms.openlocfilehash: b4b8307711fcf7b120c867debe5ab3e2978f6ef7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978969"
 ---
-# <a name="modify-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Изменение параметров конфигурации собраний в Skype для бизнеса Server 2015
+# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Изменение параметров конфигурации собрания в Скайп для Business Server
  
-**Сводка:** Узнайте, как для изменения параметров конфигурации собрания в Скайп для Business Server 2015.
+**Сводка:** Узнайте, как для изменения параметров конфигурации собрания в Скайп для Business Server.
   
 Вы можете изменить параметров конфигурации собрания с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
   

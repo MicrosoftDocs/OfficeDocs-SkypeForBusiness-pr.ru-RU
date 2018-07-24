@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: Редактируемые свойства существующего развертывания расположены в следующих разделах.
-ms.openlocfilehash: e2ead1d674d6cfd3b01854d3ec0ca7bafd353b15
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2784a1c2f21699a3d5cc30b2fcfba76bf1d3338c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991580"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21027242"
 ---
 # <a name="deployment-settings-expander"></a>Расширитель параметров развертывания
  
@@ -71,7 +71,6 @@ ms.locfileid: "19991580"
   
 Для получения дополнительных сведений о перемещении центральное хранилище управления содержатся [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) в справочник командлетов Windows PowerShell.
   
-## 
 
 Для получения дополнительных сведений об определении и настройке этих параметров просмотрите [Определение и Настройка топологии](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
   

@@ -1,32 +1,32 @@
 ---
-title: Управление конференц-связью с телефонным подключением в Skype для бизнеса Server 2015
+title: Управление конференц-связи в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
-description: 'Сводка: Узнайте, как управлять конференц-связи в Скайп для Business Server 2015.'
-ms.openlocfilehash: 44427a9109fd061233d1c8676166788e162c7e08
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как управлять конференц-связи в Скайп для Business Server.'
+ms.openlocfilehash: dac805421539116f89e007c68689ffd89400d059
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969640"
 ---
-# <a name="manage-dial-in-conferencing-in-skype-for-business-server-2015"></a>Управление конференц-связью с телефонным подключением в Skype для бизнеса Server 2015
+# <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Управление конференц-связи в Скайп для Business Server
  
-**Сводка:** Сведения об управлении конференц-связи в Скайп для Business Server 2015.
+**Сводка:** Сведения об управлении конференц-связи в Скайп для Business Server.
   
-В этом разделе описывается, как управлять конференц-связью с телефонным подключением. Дополнительные сведения о планировании и настройке конференц-связи во время развертывания [план для конференций в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md) и [Настройка телефонных конференций в Скайп для Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md)см.
+В этом разделе описывается, как управлять конференц-связью с телефонным подключением. Дополнительные сведения о планировании и настройке конференц-связи во время развертывания [план для конференций в Скайп для Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) и [Настройка телефонных конференций в Скайп для Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md)см.
   
 Можно выполнить следующие задачи для управления конференц-связи: включить или отключить телефонных конференций, управление номеров доступа, управление политиками ПИН-код для связи с телефонным подключением, управление присоединиться к конференции и оставьте извещения, изменение сопоставления клавиш для DTMF команды и приветствие пользователей для конференц-связи. 
   
-Дополнительные сведения об управлении абонентских групп можно [Создание и изменение абонентской группы в Скайп для Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md).
+Дополнительные сведения об управлении абонентских групп можно [Создание и изменение абонентской группы в Скайп для Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
-Дополнительные сведения об использовании ТСОП можно [Настройка политик голосовой связи, записей использования ТСОП и маршрутов голосовых вызовов в Скайп для бизнеса 2015](../../deploy/deploy-enterprise-voice/voice-and-pstn.md).
+Дополнительные сведения об использовании ТСОП можно [Настройка политик голосовой связи, записей использования ТСОП и маршрутов голосовых вызовов в Скайп для бизнеса](../../deploy/deploy-enterprise-voice/voice-and-pstn.md).
   
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Управление конференц-связи с помощью Скайп для панели управления Business Server
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 03/28/2018
 
 Управление конференц-связи с помощью Скайп для консоли Business Server, используйте следующие командлеты:
   
-**Параметры настройки входящих звонков**
+**Параметры конференц-связи с телефонным подключением**
 
 |**Командлет**|**Описание**|
 |:-----|:-----|

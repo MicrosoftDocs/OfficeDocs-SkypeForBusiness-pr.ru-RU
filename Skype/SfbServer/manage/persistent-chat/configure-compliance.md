@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Сводка: Узнайте, как настроить службу соответствия Persistent Chat Server в Скайп для Business Server 2015.'
-ms.openlocfilehash: 99c09408fbc404edd7ccd6c3844f59dca77a35f0
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568628"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026618"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Настройка службы проверки на соответствие для сервера сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -36,6 +36,9 @@ ms.locfileid: "19568628"
 - загружает файл.
     
 Эта информация может извлекаться из базы данных проверки совместимости SQL по мере необходимости. 
+
+> [!NOTE]
+> Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны либо перенос пользователей, которым требуется эта функция групп, или для дальнейшего использования Скайп для Business Server 2015. 
   
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Настройка службы проверки совместимости с помощью Windows PowerShell
 
@@ -128,9 +131,9 @@ void Translate(ConversationCollection conversations)
 
 В следующей таблице показаны атрибуты сообщений Type, Content и ID.
   
-**Атрибуты элемента messages**
+**Атрибуты элемента Messages**
 
-|**Атрибут**|**Описание**|**Необязательный или обязательный**|
+|**Атрибут**|**Описание**|**Применение**|
 |:-----|:-----|:-----|
 |Тип  <br/> |Указывает тип сообщения. Типы сообщений описаны в таблице типов сообщений элемента Message.  <br/> |Обязательный  <br/> |
 |Content  <br/> |Представляет собой содержимое сообщения. Для сообщений с типом Join или Part этот атрибут не используется.  <br/> |Необязательный  <br/> |
@@ -138,9 +141,9 @@ void Translate(ConversationCollection conversations)
    
 Каждый элемент Sender содержит пять атрибутов: имя пользователя, идентификатор, адрес электронной почты, принадлежность ко внутренним пользователям и URI-код. Эти атрибуты описаны в следующей таблице.
   
-**Атрибуты элемента sender**
+**Атрибуты элемента Sender**
 
-|**Атрибут**|**Описание**|**Необязательный или обязательный**|
+|**Атрибут**|**Описание**|**Применение**|
 |:-----|:-----|:-----|
 |Username  <br/> |Имя отправителя.  <br/> |Необязательный  <br/> |
 |ID  <br/> |Уникальный идентификатор отправителя.  <br/> |Обязательный  <br/> |

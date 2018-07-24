@@ -1,25 +1,25 @@
 ---
-title: Удаление политики ПИН-кодов в Skype для бизнеса Server 2015
+title: Удаление политики ПИН-код в Скайп для Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
-description: 'Сводка: Удаление пользователя телефонных конференций ПИН-кода для Скайп для Business Server 2015.'
-ms.openlocfilehash: b64a4509105214358549f320cf8885d6386986f7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Удаление пользователя телефонных конференций ПИН-кода для Скайп для Business Server.'
+ms.openlocfilehash: 22c70204aa73430c49cf232dfba859d3ef54b74c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974898"
 ---
-# <a name="delete-a-pin-policy-in-skype-for-business-server-2015"></a>Удаление политики ПИН-кодов в Skype для бизнеса Server 2015
+# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Удаление политики ПИН-код в Скайп для Business Server
  
-**Сводка:** Удаление пользователя телефонных конференций ПИН-кода для Скайп для Business Server 2015.
+**Сводка:** Удаление пользователя телефонных конференций ПИН-кода для Скайп для Business Server.
   
 Чтобы удалить политику персональных идентификационных номеров (политику ПИН-кодов), выполните следующие действия.
   
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>Удаление политики ПИН-код в Скайп для панели управления Business Server
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server 2015.
+1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
     

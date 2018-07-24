@@ -3,19 +3,18 @@ title: Общие сведения о развертывании для сист
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 description: Узнайте, как развертывание системы Скайп помещения, собрания комнаты решения, состоящая из интегрированной аппаратного и программного обеспечения, оптимизированный для присоединения к Скайп для деловых встреч.
-ms.openlocfilehash: ed31a1892ca1661282f87775fae805da5b5f8504
-ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
+ms.openlocfilehash: a985a209c63d6d0262db42fb07f78133960444ca
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19927804"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020474"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Планирования развертывания для системы комнаты Скайп в Скайп для бизнеса
  
@@ -76,7 +75,7 @@ ms.locfileid: "19927804"
 В следующей таблице указаны Скайп комнаты системы технической поддержке клиентов с версиями Exchange Server: 
   
 
-|**Exchange**|**Локально**|**Онлайн**|**Гибридные**|
+|**Exchange**|**Локальная**|**В Интернете**|**Гибридная**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |Да (только одиночный лес)  <br/> |Н/Д  <br/> |Н/Д  <br/> |
 |Exchange 2013  <br/> |Да (поддержка нескольких лесов доступна для Exchange 2013 CU6 и более поздних версий)  <br/> |Да  <br/> |Да  <br/> |

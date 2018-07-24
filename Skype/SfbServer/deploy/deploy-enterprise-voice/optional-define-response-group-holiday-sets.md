@@ -1,9 +1,8 @@
 ---
-title: Определение набора праздников группы ответа в Skype для бизнеса 2015 (необязательно)
+title: (Необязательно) Определение группы ответа праздничные дни в Скайп для бизнеса
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Создание и изменение наборах праздников ответа, в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 0ee6ffa0afdff32096845d7450fa92ff6e720022
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: f959b69462ecc3d3d37d6febfbf043a48f9dd4ad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974749"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business-2015"></a>Определение набора праздников группы ответа в Skype для бизнеса 2015 (необязательно)
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Необязательно) Определение группы ответа праздничные дни в Скайп для бизнеса
  
 Создание и изменение наборах праздников ответа, в Скайп Business Server корпоративной голосовой связи.
   
@@ -54,7 +54,7 @@ ms.lasthandoff: 05/24/2018
 
 ## <a name="see-also"></a>См. также
 
-[Проектирование и создание рабочих процессов для группы ответа в Скайп для бизнеса 2015](designing-and-creating-response-group-workflows.md)
+[Проектирование и создание рабочих процессов для группы ответа в Скайп для бизнеса](designing-and-creating-response-group-workflows.md)
 
 [Командлет New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

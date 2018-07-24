@@ -3,7 +3,7 @@ title: Добавление компьютера переднего плана
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 description: Укажите полное доменное имя (FQDN) каждого компьютера, который требуется добавить в качестве сервера переднего плана в этом пуле. До публикации топологии можно в любой момент обновить полное доменное имя добавленного к списку компьютера или удалить его из пула. После публикации топологии для изменения полного доменного ИМЕНИ необходимо удаление сервера в построителе топологий, а затем добавляя новый сервер к пулу с новой полным доменным ИМЕНЕМ. Дополнительные сведения о добавлении пула переднего плана в топологию Просмотрите определение и настройка пула переднего плана в документации по развертыванию.
-ms.openlocfilehash: f4d8b197592a68cd3d19ba1bc2741b9f4743d19c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ff12350f2c8ce7527fa619145fd03956191df936
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974891"
 ---
 # <a name="add-front-end-machine"></a>Добавление компьютера переднего плана
  

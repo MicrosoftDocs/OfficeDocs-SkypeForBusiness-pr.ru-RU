@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 description: Развертывание сервера сохраняемого чата могут размещаться количество параллельных комнат сохраняемого сеанса беседы. На сервере комнаты чата можно упорядочить по целому набору категорий. Каждая комната чата относится к одной категории и наследует от нее некоторые параметры. Такая организация позволяет получить структуру, которая удобна для идентификации бесед по их назначению, облегчает делегированное администрирование и упрощает управление.
-ms.openlocfilehash: 3a7fe2763138beb42cf6dbdbe927ca9378e2539f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8f406d53193e64bdd7406e7eed931ab8a3f2a684
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987777"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Главная страница конфигурации сохраняемого чата
  
@@ -118,7 +119,7 @@ ms.lasthandoff: 03/28/2018
     
 7. Нажмите **Исполнить**.
     
-### 
+## <a name="see-also"></a>См. также
 
 Подробные сведения о сервера сохраняемого чата функций и возможностей, посвященной [планированию сервера сохраняемого чата в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Развернуть Persistent Chat Server в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)и [Управление сервера сохраняемого чата в Скайп для Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   
