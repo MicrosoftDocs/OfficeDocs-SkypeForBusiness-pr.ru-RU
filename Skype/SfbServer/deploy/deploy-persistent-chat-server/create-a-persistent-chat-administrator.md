@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: 'Сводка: Прочтите этот раздел, чтобы узнать, как создать роль администратора сервера сохраняемого чата для включения начальной настройки и управления службы Persistent Chat в Скайп для Business Server 2015.'
-ms.openlocfilehash: 4efe5dff2821784a24f51712b8a19dad83e47c3b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: df2c62964d6c1d315f6fda04132c829d235e6038
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966117"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Создание администратора сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -24,6 +25,9 @@ ms.lasthandoff: 03/28/2018
   
 Прежде чем настраивать и администрировать сервер сохраняемого чата, необходимо убедиться, что заданы соответствующие права и разрешения пользователей и в группу безопасности администраторов сохраняемого чата добавлены все пользователи, которые будут действовать как администраторы сохраняемого чата.
   
+> [!NOTE] 
+> Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны либо перенос пользователей, которым требуется эта функция групп, или для дальнейшего использования Скайп для Business Server 2015.
+
 ## <a name="create-a-persistent-chat-administrator"></a>Создание администратора сохраняемого чата
 
 Чтобы добавить пользователя в группу безопасности Persistent Chat Administrator CsPersistentChatAdministrator, выполните следующие действия:

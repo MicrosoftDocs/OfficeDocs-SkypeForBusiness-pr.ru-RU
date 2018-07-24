@@ -1,24 +1,24 @@
 ---
-title: Включение или отключение архивации в Skype для бизнеса Server 2015
+title: Включить или отключить архивацию в Скайп Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
-description: 'Сводка: Узнайте, как включить или отключить архивацию в Скайп Business Server 2015.'
-ms.openlocfilehash: ef4e24025d0f1c27b0249b4ea237a579882e74c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как включить или отключить архивацию в Скайп Business Server.'
+ms.openlocfilehash: a0d32a3bacb604c326db13034bf5315c7f3d4d99
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965893"
 ---
-# <a name="enable-or-disable-archiving-in-skype-for-business-server-2015"></a>Включение или отключение архивации в Skype для бизнеса Server 2015
+# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Включить или отключить архивацию в Скайп Business Server
 
-**Сводка:** Узнайте, как включить или отключить архивацию в Скайп Business Server 2015.
+**Сводка:** Узнайте, как включить или отключить архивацию в Скайп Business Server.
   
 ## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a>Включение и отключение архивации с панели управления
 

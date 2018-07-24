@@ -1,26 +1,26 @@
 ---
-title: Управление параметрами конфигурации собраний в Skype для бизнеса Server 2015
+title: Управление параметров конфигурации собрания в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
-description: 'Сводка: Сведения об управлении параметров конфигурации собрания в Скайп для Business Server 2015.'
-ms.openlocfilehash: 30b19eee5e298bfaa5eefe1eee50c9ea615b5682
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения об управлении параметров конфигурации собрания в Скайп для Business Server.'
+ms.openlocfilehash: 28f0dc37579f762b8ae3b0ac8ac58440c6ce5e24
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966068"
 ---
-# <a name="manage-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Управление параметрами конфигурации собраний в Skype для бизнеса Server 2015
+# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Управление параметров конфигурации собрания в Скайп для Business Server
  
-**Сводка:** Сведения об управлении параметров конфигурации собрания в Скайп для Business Server 2015.
+**Сводка:** Сведения об управлении параметров конфигурации собрания в Скайп для Business Server.
   
-В этом разделе рассматривается задание параметров конфигурации собраний. Дополнительные сведения о планировании и развертывании конференц-связи видеть [план для конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) и [Развертывание конференц-связи в Скайп для Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+В этом разделе рассматривается задание параметров конфигурации собраний. Дополнительные сведения о планировании и развертывании конференц-связи видеть [план для конференц-связи в Скайп для Business Server](../../plan-your-deployment/conferencing/conferencing.md) и [Развертывание конференц-связи в Скайп для Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Параметры конфигурации собраний определяют тип собраний, которые могут создаваться пользователями, а также возможность и способ присоединения к собраниям анонимных пользователей и пользователей, подключающихся по телефонной линии. Обратите внимание на то, что эти параметры влияют только на запланированные собрания; они не влияют на незапланированных собраний, нажав кнопку «провести собрание» в Скайп для бизнеса.
   
