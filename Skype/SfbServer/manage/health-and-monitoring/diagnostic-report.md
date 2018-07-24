@@ -1,24 +1,24 @@
 ---
-title: Диагностический отчет в Skype для бизнеса Server 2015
+title: Диагностический отчет в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Сводка: Сведения о диагностического отчета в Скайп для Business Server 2015.'
-ms.openlocfilehash: 86639f5687cb6d19ff18c9aafb869a74fb777113
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения о диагностического отчета в Скайп для Business Server.'
+ms.openlocfilehash: 15ef3d6e5663dee7ec0056ed48dc45119ad09db2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966386"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server-2015"></a>Диагностический отчет в Skype для бизнеса Server 2015
+# <a name="diagnostic-report-in-skype-for-business-server"></a>Диагностический отчет в Скайп для Business Server
  
-**Сводка:** Узнайте о диагностического отчета в Скайп для Business Server 2015.
+**Сводка:** Узнайте о диагностического отчета в Скайп для Business Server.
   
 Диагностический отчет предоставляет сведения о сеансах, которые завершились с ошибкой. Эти сведения включают ИД диагностики и диагностический заголовок, переданные при сбое сеанса. ИД диагностики – это уникальный идентификатор (в виде заголовка ms-diagnostics), который возвращает добавленное сообщение SIP, а диагностический заголовок содержит дополнительное описание ИД диагностики. Отчет также может содержать дополнительные сведения об устранении неполадок, предоставляемые компонентом создания отчетов. Пример:
   
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="accessing-the-diagnostic-report"></a>Доступ к диагностическому отчету
 
-Диагностический отчет возможен, щелкнув метрику диагностического отчета (сведений) на [Peer-to-Peer сеанса подробный отчет в Скайп для Business Server 2015](peer-to-peer-session-detail-report.md) или подробный отчет по конференции.
+Диагностический отчет возможен, щелкнув метрику диагностического отчета (сведений) на [Peer-to-Peer сеанса подробный отчет в Скайп для Business Server](peer-to-peer-session-detail-report.md) или подробный отчет по конференции.
   
 ## <a name="filters"></a>Фильтры
 
@@ -40,9 +40,9 @@ ms.lasthandoff: 03/28/2018
 
 В следующей таблице перечислены сведения, содержащиеся в диагностическом отчете.
   
-**Метрики диагностического отчета**
+**Показатели отчета Diagnostic Report (Диагностический отчет)**
 
-|**Имя**.|**Можно отсортировать по этому элементу?**|**Описание**|
+|**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Время создания отчета** <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |
 |**Код ответа** <br/> |Нет  <br/> |Код ответа SIP, отправленный при сбое сеанса.  <br/> |

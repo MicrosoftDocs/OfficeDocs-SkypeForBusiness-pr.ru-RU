@@ -1,25 +1,24 @@
 ---
-title: Проверка конференц-связи с телефонным подключением в Skype для бизнеса Server 2015
+title: Тестирование телефонных конференций в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 'Сводка: Узнайте, как проверить телефонных конференций в Скайп для Business Server 2015.'
-ms.openlocfilehash: 7e6e53d5d4ee3e3e28beadc54ca86a79c6118637
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Узнайте, как проверить телефонных конференций в Скайп для Business Server.'
+ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569273"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966414"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server-2015"></a>Проверка конференц-связи с телефонным подключением в Skype для бизнеса Server 2015
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Тестирование телефонных конференций в Скайп для Business Server
  
-**Сводка:** Узнайте, как проверить телефонных конференций в Скайп для Business Server 2015.
+**Сводка:** Узнайте, как проверить телефонных конференций в Скайп для Business Server.
   
 Чтобы завершить проверку конфигурации конференц-связи с телефонным подключением, выполните поиск абонентских групп с регионом, для которого не задан ни один номер доступа, а также номеров доступа, для которых не задан ни один регион конференц-связи с телефонным подключением. Также следует проверить, что веб-страница "Параметры конференц-связи с телефонным подключением" и номера доступа к телефонному подключению работают правильно.
   

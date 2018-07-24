@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Шаг 3: Запрос, установка или назначение сертификатов запускается мастер сертификатов после выберите пункт выполнить. Сертификаты, настроенные в мастере основаны на определении Скайп для топологии Business Server, которая настроена и опубликованный Topology Builder для центрального хранилища управления. Для успешного запуска мастера сертификатов для локальную службу сертификации (ЦС) в организации, необходимо войти на компьютер как пользователь, являющийся членом группы администраторов локального компьютера. Также необходимо прошедшего проверку подлинности пользователя домена в домене, где существует компьютера и ЦС. Мастер сертификатов предоставляют возможность указать альтернативные учетные данные для доступа к ЦС организации.'
-ms.openlocfilehash: 12f55778d5c8652c9b04d3d26193dae75c2dad53
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cf61a6e2c065ea01e18ae5935c3b4e0e49d9ea36
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992141"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966217"
 ---
 # <a name="request-install-or-assign-certificates"></a>Запрос, установка или назначение сертификатов
  

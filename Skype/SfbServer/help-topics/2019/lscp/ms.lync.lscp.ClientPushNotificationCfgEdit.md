@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
+ROBOTS: NOINDEX, NOFOLLOW
 description: Push-уведомления и система PNCH — это два компонента для работы с мобильными устройствами. Push-уведомления — это процесс, в котором уведомления отправляются в систему PNCH. Сообщение удерживается в системе до тех пор, пока оно не сможет быть доставлено на мобильный клиент или не закончится срок его действия.
-ms.openlocfilehash: 6b5aa62b7b89729ef80e215302744dd02f444731
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7954b3230f2f20ee1d7a8043fd2f7232d99352a7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988483"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966224"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Мобильный клиент: создание или редактирование конфигурации push-уведомлений
  

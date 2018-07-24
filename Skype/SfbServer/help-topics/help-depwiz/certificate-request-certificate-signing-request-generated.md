@@ -3,7 +3,7 @@ title: Запрос сертификата (запрос подписи серт
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
 description: После завершения автономный запрос на сертификат, отображается страница файл запроса сертификата. Отображать запрос на сертификат и подготовить для отправки в вашей автономной центр сертификации (ЦС) или общедоступного центра сертификации, нажмите кнопку Просмотр. Запрос сертификата отображается в "Блокнот" Windows (по умолчанию). Скопируйте и вставьте запрос закодированный сертификата из этого списка или завершения обработки запроса на сертификат, выполнив указания из выбранную автономного центра сертификации или общедоступный центр сертификации. Нажмите кнопку Готово, чтобы продолжить.
-ms.openlocfilehash: b74bc98a540e39fef60bcb7bf08df3c98e25354f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6fbf8728943f876ddb894a56f26f47b9e20beb9d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966110"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>Запрос сертификата (запрос подписи сертификата создан)
  
