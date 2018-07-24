@@ -1,24 +1,24 @@
 ---
-title: Подробный отчет по сеансу одноранговой связи в Skype для бизнеса Server 2015
+title: Peer-to-Peer сеанса подробный отчет в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 'Сводка: Сведения о сеансе Peer-to-Peer подробного отчета по в Скайп для Business Server 2015.'
-ms.openlocfilehash: 454a31449ceff109ac81bd266f1ef7c21f7c0afd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения о сеансе Peer-to-Peer подробного отчета по в Скайп для Business Server.'
+ms.openlocfilehash: 6ac6a26c52fcc0eaca4890631b1d91f338930421
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000728"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server-2015"></a>Подробный отчет по сеансу одноранговой связи в Skype для бизнеса Server 2015
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Peer-to-Peer сеанса подробный отчет в Скайп для Business Server
  
-**Сводка:** Сведения о сеансе Peer-to-Peer подробного отчета по в Скайп для Business Server 2015.
+**Сводка:** Сведения о сеансе Peer-to-Peer подробного отчета по в Скайп для Business Server.
   
 Отчет по деталям однорангового сеанса (Peer-to-Peer Session Detail Report) предоставляет подробные сведения об одноранговом сеансе. Например, если выбрать сеанс обмена мгновенными сообщениями, то отчет предоставит сведения о количестве сообщений, отправленных в этом сеансе каждым из двух пользователей.
   
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/28/2018
     
 - Отчет по списку отказов 
     
-В отчете Peer-to-Peer сеанса можно вызвать [Диагностического отчета в Скайп для Business Server 2015](diagnostic-report.md) , щелкнув метрику диагностического отчета (сведений). Можно также вызвать отчет по основным сбоям (Top Failures Report), щелкнув одну из следующих метрик:
+В отчете Peer-to-Peer сеанса можно вызвать [Диагностического отчета в Скайп для сервера](diagnostic-report.md) , щелкнув метрику диагностического отчета (сведений). Можно также вызвать отчет по основным сбоям (Top Failures Report), щелкнув одну из следующих метрик:
   
 - Response (Ответ)
     
@@ -85,7 +85,7 @@ ms.lasthandoff: 03/28/2018
   
 **Метрики для модальностей**
 
-|**Имя**.|**Можно отсортировать по этому элементу?**|**Описание**|
+|**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Modalities (Модальности)** <br/> |Нет  <br/> |Модальности, использованные в сеансе, например, обмен мгновенными сообщениями или передача файла.  <br/> |
 |**From user messages (Сообщения пользователя-инициатора)** <br/> |Нет  <br/> |Количество сообщений, отправленных пользователем, начавшим сеанс.  <br/> |
@@ -97,7 +97,7 @@ ms.lasthandoff: 03/28/2018
   
 **Метрики для диагностических отчетов**
 
-|**Имя**.|**Можно отсортировать по этому элементу?**|**Описание**|
+|**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Detail (Сведения)** <br/> |Нет  <br/> |При нажатии этой метрики отображается диагностический отчет для данного сеанса.  <br/> |
 |**Reported time (Время создания отчета)** <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |

@@ -1,22 +1,22 @@
 ---
-title: Настройка интеллектуального списка контактов в Skype для бизнеса Server
+title: Настройка списка смарт-контактов в Скайп пользователей
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 'Сводка: Узнайте, как включить функцию списка смарт-контакты в Скайп для клиента Business.'
-ms.openlocfilehash: f5b5b8f7baa0ce848765a0f2b62aabb118ecb224
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 72e8a2e5eb0640215ac4512ff210d30f31295fd8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976214"
 ---
-# <a name="configure-smart-contacts-list-in-skype-for-business-server"></a>Настройка интеллектуального списка контактов в Skype для бизнеса Server
+# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Настройка списка смарт-контактов в Скайп пользователей
  
 **Сводка:** Узнайте, как включить функцию списка смарт-контакты в Скайп для клиента Business.
   
@@ -78,13 +78,11 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
   
 - Проверьте конфигурацию. 
     
-- Убедитесь, что сведения об организации AD заполняется.
+- Проверьте заполнение информации об организации AD.
     
 - Сбор Скайп для журналов клиента Business на нового пользователя для последующего анализа.
     
 - Убедитесь в том, что Скайп для клиента Business пользовательский Интерфейс не отображается сообщение, в котором он не удается подключиться к адресной книге. Чтобы подтвердить подключение адресной книги, выполните поиск пользователя в Скайп для панели поиска клиента Business.
-    
-- В случае проблем с подключением к адресной книге с помощью STrace соберите трассировки HTTPS и проанализируйте их, используя HTTPReplay. Дополнительные сведения см в [блоге связанных с ними](https://blogs.msdn.microsoft.com/canberrapfe/2012/06/04/have-you-ever-wondered-what-web-service-urls-are-used-by-the-lync-client-strace-is-your-tool/).
     
 - Проблемы репликации Доменных служб может привести к контактов, чтобы быть разрешены, когда пользователь первый раз входит в Скайп для бизнеса.
     

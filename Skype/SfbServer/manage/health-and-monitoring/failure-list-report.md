@@ -1,31 +1,30 @@
 ---
-title: Отчет о списке сбоев в Skype для бизнеса Server 2015.
+title: FAILURE List Report в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Сводка: Сведения об отчете списка сбоев в Скайп Business Server 2015.'
-ms.openlocfilehash: 7cb146569958908e79700e725d473bc246295c9d
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Сведения об отчете списка сбоев в Скайп Business Server.'
+ms.openlocfilehash: 3d40d7d73b6a4cb63e3885736a9a32f8b64ed989
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569322"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992635"
 ---
-# <a name="failure-list-report-in-skype-for-business-server-2015"></a>Отчет о списке сбоев в Skype для бизнеса Server 2015.
+# <a name="failure-list-report-in-skype-for-business-server"></a>FAILURE List Report в Скайп для Business Server 
  
-**Сводка:** Сведения об отчете списка сбоев в Скайп Business Server 2015.
+**Сводка:** Сведения об отчете списка сбоев в Скайп Business Server.
   
 Отчет Failure List (Список ошибок) предоставляет сведения об участниках однорангового сеанса (конференции), завершившегося с ошибкой. Эти сведения содержат URI пользователя, у которого возникла ошибка, а также код ответа SIP и ИД диагностики, связанные с ошибкой.
   
 ## <a name="accessing-the-failure-list-report"></a>Доступ к отчету Failure List (Список ошибок)
 
-Failure List Report открыть, щелкнув какую-либо из следующих показателей [Отчета о распределении сбоев в Скайп для Business Server 2015](failure-distribution-report.md):
+Failure List Report открыть, щелкнув какую-либо из следующих показателей [Отчета о распределении сбоев в Скайп для Business Server](failure-distribution-report.md):
   
 - Top diagnostic reasons (sessions) (Основные причины диагностики (сеансы))
     
@@ -43,7 +42,7 @@ Failure List Report открыть, щелкнув какую-либо из сл
     
 - Top from user agents (sessions) (Основные агенты пользователей, используемые в сеансах, завершившихся с ошибками (сеансы))
     
-Из Failure List Report, щелкнув метрику сведений о сеансе для сеанса peer-to-peer можно вызвать [Peer-to-Peer сеанса подробный отчет в Скайп для Business Server 2015](peer-to-peer-session-detail-report.md) . Чтобы открыть отчет сведений о конференции, нажмите показатель «Конференция» для конференции.
+Из Failure List Report, щелкнув метрику сведений о сеансе для сеанса peer-to-peer можно вызвать [Peer-to-Peer сеанса подробный отчет в Скайп для Business Server](peer-to-peer-session-detail-report.md) . Чтобы открыть отчет сведений о конференции, нажмите показатель «Конференция» для конференции.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Рекомендации по использованию отчета Failure List (Список ошибок)
 
@@ -97,9 +96,9 @@ Count    Name
 
 В следующей таблице приведены сведения, содержащиеся в отчете Failure List (Список ошибок) для каждого звонка, завершившегося с ошибкой.
   
-**Метрики отчета по списку сбоев**
+**Показатели отчета Failure List (Список ошибок)**
 
-|**Имя**.|**Можно отсортировать по этому элементу?**|**Описание**|
+|**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Время создания отчета** <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |
 |**Запрос** <br/> |Нет  <br/> |Тип запроса SIP, завершившегося с ошибкой. Например, INVITE или BYE.  <br/> |

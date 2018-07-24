@@ -3,18 +3,18 @@ title: Настройка клиента на Mac в Skype для бизнеса
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: В этой статье описываются параметры клиента Skype для бизнеса на Mac и настройки по умолчанию, а также порядок их изменения вне приложения.
-ms.openlocfilehash: 8c779ad35d82b42bc8e162599265f6a25f7a65c3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 37ea82cc87e58303ab412c7adbd427dd11c74f89
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014642"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Настройка клиента на Mac в Skype для бизнеса
  
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/28/2018
   
 Чтобы задать эти параметры, получения командной строки в Mac клиента и в качестве необходимо ввести значения по умолчанию и записи com.microsoft.SkypeForBusiness клавиш с помощью клавиш предпочтений, описанные в следующей таблице.
   
-**Клиентские ключи предпочтений**
+**Ключи параметров клиента**
 
 
 |**Ключ**|**Тип**|**Значение**|**Описание**|
@@ -56,7 +56,6 @@ ms.lasthandoff: 03/28/2018
   
 значения по умолчанию запись com.microsoft.SkypeForBusiness trustedDomainList-массива — Добавление «sfb.com» «abc.com» «test.org»
   
-Рекомендации по использованию командной значения по умолчанию можно найти в [Apple Справочник по библиотеке](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.mdl). Несмотря на то, что эта страница устарела и больше не обновляется, информация о команде defaults не изменилась и по-прежнему актуальна.
   
 ### <a name="sample-unedited-settings"></a>Пример неизмененных параметров
 

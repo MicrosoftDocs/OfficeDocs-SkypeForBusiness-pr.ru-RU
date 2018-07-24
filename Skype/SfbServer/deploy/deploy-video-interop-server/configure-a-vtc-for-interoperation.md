@@ -1,27 +1,27 @@
 ---
-title: Настройка VTC для взаимодействия с Skype для бизнеса Server 2015
+title: Настройка VTC для взаимодействия с Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
-description: 'Сводка: Настройка VTC устройства для работы с Скайп для Business Server 2015.'
-ms.openlocfilehash: a88f34866a2a2147be0f30488e961552c6f19350
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Настройка VTC устройства для работы с Скайп для Business Server.'
+ms.openlocfilehash: cc6b8d4fb48a0f43d646d204d399c575af503390
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017909"
 ---
-# <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server-2015"></a>Настройка VTC для взаимодействия с Skype для бизнеса Server 2015
+# <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Настройка VTC для взаимодействия с Скайп для Business Server
  
-**Сводка:** Настройка VTC устройства для работы с Скайп для Business Server 2015.
+**Сводка:** Настройка VTC устройства для работы с Скайп для Business Server.
   
-Приведенные ниже конфигурационные процедуры настройки необходимо выполнить для каждой VTC, которая будет подключаться к серверу Skype для бизнеса VIS через магистраль SIP и видеошлюз CUCM.
+Необходимо выполнить следующие процедуры настройки конфигурации для каждого VTC, которые будут подключаться к Скайп для Business VIS server через магистраль SIP и Cisco объединенных коммуникаций Manager (CallManager или CUCM) видео шлюза.
   
 Параметры, описанные здесь приведены только в качестве примеров того, как можно настроить CUCM для работы с VIS. Такого же результата также можно достичь с помощью других настроек и/или использования альтернативных функциональных возможностей CUCM. Рекомендаций в отношении оптимальной конфигурации для конкретного сценария нет.
   

@@ -1,26 +1,29 @@
 ---
-title: Мониторинг производительности для мобильных устройств в Skype для бизнеса Server 2015
+title: Мобильность монитора производительности в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: 'Сводка: Сведения о Mobility Service (Mcx) и веб-API (UCWA) объединенных коммуникаций в Скайп для Business Server 2015.'
-ms.openlocfilehash: 1981bff8398f3fab9206f9dab748c545268f7edf
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения о Mobility Service (Mcx) и веб-объединенных коммуникаций API (UCWA) в Скайп для Business Server.'
+ms.openlocfilehash: 4affcb532697f24c87d62e18fc26552639dc00e1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990639"
 ---
-# <a name="monitor-mobility-for-performance-in-skype-for-business-server-2015"></a>Мониторинг производительности для мобильных устройств в Skype для бизнеса Server 2015
+# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Мобильность монитора производительности в Скайп для Business Server
  
-**Сводка:** Описание службы Mobility Service (Mcx) и веб-API (UCWA) объединенных коммуникаций в Скайп для Business Server 2015.
+**Сводка:** Сведения о службе Mobility Service (Mcx) и веб-объединенных коммуникаций API (UCWA) в Скайп для Business Server.
   
 Скайп для службы Mobility Business Server (Mcx) и Unified Communications Web API (UCWA) увеличивают нагрузку на пулов переднего плана и серверов переднего плана. Мобильных устройств, которые поддерживают подключение к серверу даже в том случае, если свернутого мобильных приложений, таких как Android и Nokia устройств под управлением Lync 2010 Mobile, а также Android и Apple устройств под управлением Lync 2013 Mobile применяться дополнительную нагрузку, чем устройств, прерывания их подключения к серверу при свернутом окне мобильных приложений. С увеличением использования мобильных устройств должны отслеживать производительность мобильности, чтобы определить, когда следует увеличить емкость.
+
+> [!NOTE]
+> Поддержка MCX для устаревших мобильных клиентов больше не доступен в Скайп для Business Server 2019. Пользователям необходимо обновить до текущего клиента.
   
 Некоторые ограничения, влияющие на производительность мобильности: 
   
@@ -36,14 +39,14 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="in-this-section"></a>Содержание
 
-- [Монитор ограничений емкости памяти сервера в Скайп для Business Server 2015](server-memory-capacity-limits.md)
+- [Монитор ограничений емкости памяти сервера в Скайп для Business Server](server-memory-capacity-limits.md)
     
-- [Мониторинг использования службы Mobility Service и UCWA в Скайп для Business Server 2015](service-and-ucwa-usage.md)
+- [Мониторинг использования службы Mobility Service и UCWA в Скайп для Business Server](service-and-ucwa-usage.md)
     
-- [Настройка службы мобильности для повышения производительности в Скайп для Business Server 2015](configure-service.md)
+- [Настройка службы мобильности для повышения производительности в Скайп для Business Server](configure-service.md)
     
-- [Мониторинга IIS запросить файлы журнала трассировки в Скайп для Business Server 2015](iis-request-tracing-log-files.md)
+- [Мониторинг файлов журнала в Скайп трассировки для сервера запросов IIS](iis-request-tracing-log-files.md)
     
-- [Счетчики производительности мобильности в Скайп для Business Server 2015](performance-counters.md)
+- [Счетчики производительности мобильности в Скайп для Business Server](performance-counters.md)
     
 

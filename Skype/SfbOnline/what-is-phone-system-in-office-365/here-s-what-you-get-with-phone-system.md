@@ -1,5 +1,5 @@
 ---
-title: Вот вы получаете с телефонной системой в Office 365
+title: Возможности телефонной системы в Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Описание функций, доступность и планирование и настройка телефонной системой (облако УАТС) для вашего бизнеса. '
-ms.openlocfilehash: e2ba535de48e11e503280b8bd65fbe78611dc47d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4d3ec5d9d490a7ad0064611d36b788da69b726e2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975446"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Вот вы получаете с телефонной системой в Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Возможности телефонной системы в Office 365
 
 УАТС является телефонной системы в бизнесе. Телефонной системой в надстройку Office 365 предоставляет возможности УАТС, но без сложной и дорогим оборудования. 
   
@@ -77,7 +78,7 @@ ms.lasthandoff: 05/03/2018
   
 - [Настройка вызова планы](../what-are-calling-plans-in-office-365/set-up-calling-plans.md): Данная статья содержит пошаговые инструкции для получить настройку с помощью телефонных номеров или для переноса существующего номера телефонов Скайп для бизнеса.
     
-- [Планирование телефонной системой в решение Office 365 (облако УАТС)](https://go.microsoft.com/fwlink/?LinkId=708645): все параметры развертывания размещает TechNet в этой статье. Также имеет сведения о планировании полностью только в облаке решения. 
+- [Планирование телефонной системой в решение Office 365 (облако УАТС)](https://go.microsoft.com/fwlink/?LinkId=708645): в этой статье размещает все параметры развертывания. Также имеет сведения о планировании полностью только в облаке решения. 
     
 - [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md): Узнайте, какие лицензии, которые необходимо купить для получения телефонной системой в Office 365.
     
@@ -91,7 +92,7 @@ ms.lasthandoff: 05/03/2018
 ||||
 |:-----|:-----|:-----|
 |**Клиенты с расширенными** <br/> |**Мобильные клиенты** <br/> |**IP-телефонов** <br/> |
-| Works со всеми поддерживается ПК или Mac клиенты в Office 365. <br/> [Установка Skype для бизнеса](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Настройка Lync для Mac 2011 для Office 365](https://support.office.com/en-us/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | У нас есть Скайп для пользователей: <br/> [операций ввода-вывода](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Выберите из большого числа стационарные телефоны, совместимые с Скайп для бизнеса. В разделе [Приступая к телефоны для Скайп для бизнеса в Интернет](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md). <br/> |
+| Works со всеми поддерживается ПК или Mac клиенты в Office 365. <br/> [Установка Skype для бизнеса](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Настройка Lync для Mac 2011 для Office 365](https://support.office.com/en-us/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | У нас есть Скайп для пользователей: <br/> [iOS](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Выберите из большого числа стационарные телефоны, совместимые с Скайп для бизнеса. В разделе [Приступая к телефоны для Скайп для бизнеса в Интернет](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md). <br/> |
    
 ## <a name="related-topics"></a>См. также:
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](getting-service-phone-numbers.md)

@@ -3,7 +3,7 @@ title: Новые возможности в Skype для бизнеса Server 2
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 'Сводка: Прочитайте этот раздел, чтобы узнать о новых возможностях в Скайп для Business Server 2015. Подробные сведения о новых возможностей клиента Lync теперь это Скайп для бизнеса (новые).'
-ms.openlocfilehash: 0d8172e5031f8b2e51373051b2674e99f5539b6b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9c5dd3996cb6c15de93b564fa800e01270d92b66
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012453"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Новые возможности в Skype для бизнеса Server 2015
 

@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Сводка: Прочтите этот раздел, чтобы узнать, как создание начальной пользовательских политик для сервера сохраняемого чата в Скайп для Business Server 2015. Пользовательские политики persistent Chat определение ли доступны пользователям доступ к комнатам чата.'
-ms.openlocfilehash: 01ed6eb048f1949c93260c554eb58d0c76c5259f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 186611977a1a9dfa77549e8f0c5df6b863718eee
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000838"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Настройка пользовательских политик сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -32,6 +33,9 @@ ms.lasthandoff: 03/28/2018
     
 - Применение политики к пользователю или группе пользователей
     
+> [!NOTE] 
+> Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны либо перенос пользователей, которым требуется эта функция групп, или для дальнейшего использования Скайп для Business Server 2015.
+
 ## <a name="configure-the-global-policy"></a>Настройка глобальной политики
 
 Чтобы настроить глобальную политику, выполните следующие действия:

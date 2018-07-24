@@ -1,5 +1,5 @@
 ---
-title: Настройка интеграции между локальной Скайп для Business Server 2015 и Outlook Web App
+title: Настройка интеграции между локальной Скайп для Business Server и Outlook Web App
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,17 +11,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Сводка: Интеграция Скайп для Business Server и Outlook Web App.'
-ms.openlocfilehash: 4ac4d6a71f8006e813d09631f8ccf28742940ff2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 206100ce74731b9ffa6b2987e4884b7589f6e2c8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995850"
 ---
-# <a name="configure-integration-between-on-premises-skype-for-business-server-2015-and-outlook-web-app"></a>Настройка интеграции между локальной Скайп для Business Server 2015 и Outlook Web App
+# <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Настройка интеграции между локальной Скайп для Business Server и Outlook Web App
  
 **Сводка:** Интеграция Скайп для Business Server и Outlook Web App.
   
-Пользователи, которые с помощью локального Скайп для развертываний Business Server 2015 можно настроить взаимодействие с Microsoft Outlook Web App в Microsoft Exchange Online в режиме гибридного развертывания. Возможности взаимодействия включают единый вход и интеграцию обмена мгновенными сообщениями и сведениями о присутствии в интерфейс Outlook Web App. Для включения этой интеграции, необходимо настроить пограничный сервер в вашей локальной Скайп для развертывания Business Server, выполнив следующие задачи: 
+Пользователи, которые с помощью локального Скайп для развертываний Business Server можно настроить взаимодействие с Microsoft Outlook Web App в Microsoft Exchange Online в режиме гибридного развертывания. Возможности взаимодействия включают единый вход и интеграцию обмена мгновенными сообщениями и сведениями о присутствии в интерфейс Outlook Web App. Для включения этой интеграции, необходимо настроить пограничный сервер в вашей локальной Скайп для развертывания Business Server, выполнив следующие задачи: 
   
 - настройте общее адресное пространство SIP;
     
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="configure-a-shared-sip-address-space"></a>Настройка общего адресного пространства SIP
 
-Для интеграции локальной Скайп для 2015 Business Server с Exchange Online, необходимо настроить общее адресное пространство SIP. Одном адресном пространстве SIP домена поддерживается Скайп для Business Server и службы Exchange Online.
+Для интеграции локальной Скайп для Business Server с Exchange Online, необходимо настроить общее адресное пространство SIP. Одном адресном пространстве SIP домена поддерживается Скайп для Business Server и службы Exchange Online.
   
 Использование Скайп для консоли Business Server, Настройка пограничного сервера для федерации, выполнив командлет **Set-CSAccessEdgeConfiguration** с использованием параметров, показанных в следующем примере:
   
@@ -41,7 +42,7 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - Параметр **AllowFederatedUsers** указывает, разрешены ли внутренних пользователей для взаимодействия с пользователями из федеративных доменов. Кроме того, это свойство определяет ли внутренние пользователи могут общаться с пользователями в общей сценария пространства адресов SIP с помощью Скайп для Business Server и Exchange Online.
     
-Для получения дополнительных сведений об использовании Скайп для консоли Business Server см [Скайп оболочки управления 2015 Business Server](../../manage/management-shell.md).
+Для получения дополнительных сведений об использовании Скайп для консоли Business Server см [Скайп для консоли Business Server](../../manage/management-shell.md).
   
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>Настройка поставщика услуг размещения на пограничном сервере
 
@@ -86,9 +87,6 @@ Get-CsHostingProvider -LocalStore
 
 ## <a name="see-also"></a>См. также
 
-#### 
-
-[Предоставление Скайп для Business Server 2015 пользователям голосовой почты на hosted Exchange единой системы обмена СООБЩЕНИЯМИ](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
+[Предоставление Скайп для Business Server пользователи голосовой почты в размещенной Exchange единой системы обмена СООБЩЕНИЯМИ](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
   
-[Размещенной интеграции единой системы обмена сообщениями Exchange, в Скайп для Business Server 2015](http://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)
-
+[Размещенной интеграции единой системы обмена сообщениями Exchange, в Скайп для Business Server](http://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)

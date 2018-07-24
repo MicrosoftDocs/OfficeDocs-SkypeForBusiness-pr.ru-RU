@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: Скайп для Business Server 2015 Stress and Performance Tool используется при планировании мощности и производительности, помощник по настройке в тестовой или тестовой среды.
-ms.openlocfilehash: 0a0a5b17a6e45b2e8944e0e0dd4b3840fc62e102
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9ccd4b851ad64f829a15bd6138764995f789dbf6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984465"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Скайп для Business Server 2015 Stress and Performance Tool
  
@@ -29,6 +30,9 @@ ms.lasthandoff: 03/28/2018
 - Измерение производительности вашей Скайп для развертываний Business Server
     
 Проектирование топологии и оптимизация топологии с [Скайп для бизнеса 2015 калькулятор емкости Server планирования](../../management-tools/capacity-planning-calculator.md)с помощью [Скайп для средство планирования Business Server 2015](../../management-tools/planning-tool/planning-tool.md) обычно используется это средство. 
+
+> [!NOTE]
+> Это средство не будет обновляться для Скайп для Business Server 2019.
   
 ## <a name="tests"></a>Тесты
 
@@ -60,7 +64,7 @@ Stress and Performance Tool можно смоделировать эти тип�
 
 Если вам нужно знать более следует ознакомиться со следующими статьями:
   
-- [Необходимые условия и программы установки для Скайп для бизнес-Stress and Performance Tool](prerequisites-and-setup.md)
+- [Необходимые компоненты и настройка для средства Stress and Performance Skype для бизнеса](prerequisites-and-setup.md)
     
 - [Сценарии производительности для Скайп для Business Server 2015 Stress and Performance Tool](scenarios.md)
     

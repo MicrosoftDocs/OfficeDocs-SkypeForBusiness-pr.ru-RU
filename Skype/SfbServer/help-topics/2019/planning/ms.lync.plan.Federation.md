@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Пограничные серверы можно настроить для внутренних и внешних пользователей доступа к контактам партнерские организации, так и служб.
-ms.openlocfilehash: da8580752a07d5d2552adbffd3bdf5924ad5b8e1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d3541fae214d64a87f9bbc51603e3ae19346c686
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972366"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983814"
 ---
 # <a name="federation-planning-tool"></a>Федерация (средство планирования)
  
 Пограничные серверы можно настроить для внутренних и внешних пользователей доступа к контактам партнерские организации, так и служб.
   
- Федерации работает, как и в Microsoft Lync 2013. Дополнительные сведения о подготовке среды для федерации см. в следующих статьях:
+ Федерации работает в Скайп для Business Server, как и в Microsoft Lync 2013. Дополнительные сведения о подготовке среды для федерации см. в следующих статьях:
   
 - [Планирование федерации Lync Server 2013 и Office Communications Server](https://technet.microsoft.com/en-us/library/jj205335%28v=ocs.15%29.aspx)
     

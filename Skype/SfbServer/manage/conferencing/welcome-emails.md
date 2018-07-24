@@ -1,24 +1,24 @@
 ---
-title: Отправка приветственных сообщений пользователям с телефонным подключением в Skype для бизнеса Server 2015
+title: Отправка приветственного сообщения для звонков в пользователей в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: 'Сводка: Узнайте, как приглашение пользователей принять телефонных конференций в Скайп для Business Server 2015.'
-ms.openlocfilehash: 0aa939e2ef742c554339967e31204461bca52b6f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как приглашение пользователей принять телефонных конференций в Скайп для Business Server.'
+ms.openlocfilehash: f21d130f84b248b2911d691dbcf80f2563ee60fb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008682"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server-2015"></a>Отправка приветственных сообщений пользователям с телефонным подключением в Skype для бизнеса Server 2015
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Отправка приветственного сообщения для звонков в пользователей в Скайп для Business Server
  
-**Сводка:** Узнайте, как приглашение пользователей принять телефонных конференций в Скайп для Business Server 2015.
+**Сводка:** Узнайте, как приглашение пользователей принять телефонных конференций в Скайп для Business Server.
   
 После настройки конференц-связи с телефонным подключением и проверки правильности ее работы следует назначить пользователям личные идентификационные номера (ПИН‑коды) и сообщить им о доступности этой функции. Можно также предоставить вводные инструкции, например, первоначальный PIN‑код и ссылку на веб-страницу параметров конференц-связи с телефонным подключением. 
   
@@ -28,9 +28,9 @@ ms.lasthandoff: 03/28/2018
   
 Можно создать сценарий, предусматривающий многократное выполнение сценариев **Set-CsPinSendCAWelcomeMail** для задания ПИН‑кодов и передачи сообщения электронной почты группе пользователей. Можно изменить шаблон сообщения (то есть файл CAWelcomeEmailTemplate.html), добавив дополнительные ссылки на страницы интрасети или задав другой текст сообщения.
   
-## 
 
-### <a name="set-an-initial-pin-and-send-welcome-email"></a>Задание начального ПИН‑кода и отправка приветственного сообщения электронной почты
+
+## <a name="set-an-initial-pin-and-send-welcome-email"></a>Задание начального ПИН‑кода и отправка приветственного сообщения электронной почты
 
 1. Войдите в систему как участник группы RTCUniversalServerAdmins.
     

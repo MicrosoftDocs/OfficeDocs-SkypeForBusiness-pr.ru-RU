@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Перед началом разработки и планирование вашей Скайп для инфраструктуры Business Server 2015 с помощью Скайп для средство планирования 2015 Business Server, необходимо сначала установить средство планирования. Средство планирования не нужно развертывать на рабочей станции или сервере, который является частью инфраструктуры или домена, где предполагается установить Скайп для Business Server 2015. Readme-файле средство планирования подробно описываются важные сведения об установке и с помощью средства. Некоторые сведения, приведенные в Readme-файле дублируются для наглядности.
-ms.openlocfilehash: e71d08c6378984e23e0994d7dda6d57f0e44abc2
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 462964672f0fe9aaf426bd196357ffb8eca05e9d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504833"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002852"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Установка средства планирования в Skype для бизнеса Server 2015
  
@@ -47,9 +47,9 @@ ms.locfileid: "19504833"
   
 После предварительной установки требований, затем можно установить средство планирования.
   
-## 
 
-### <a name="to-install-the-planning-tool"></a>Установка средства планирования
+
+## <a name="to-install-the-planning-tool"></a>Установка средства планирования
 
 1. Войдите на локальный компьютер как член группы "Администраторы".
     
@@ -108,4 +108,4 @@ ms.locfileid: "19504833"
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="Optional_Software"> </a>
 
-[Установка средство планирования](http://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
+[Установка средства планирования](http://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

@@ -1,28 +1,28 @@
 ---
-title: Управление удалением архивных данных в Skype для бизнеса Server 2015
+title: Управление Удаление архивных данных в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
-description: 'Сводка: Сведения об управлении Удаление архивных данных для Скайп для Business Server 2015.'
-ms.openlocfilehash: caeddcd927c20f0622cbd45b6d93abb2bf5d6618
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения об управлении Удаление архивных данных для Скайп для Business Server.'
+ms.openlocfilehash: fce7c8214eddd55736a54b960d57053a88cdc859
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997946"
 ---
-# <a name="manage-purging-of-archived-data-in-skype-for-business-server-2015"></a>Управление удалением архивных данных в Skype для бизнеса Server 2015
+# <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Управление Удаление архивных данных в Скайп для Business Server
 
-**Сводка:** Сведения об управлении Удаление архивных данных для Скайп для Business Server 2015.
+**Сводка:** Сведения об управлении Удаление архивных данных для Скайп для Business Server.
   
-Базы данных архивирования не предназначен для долгосрочного хранения и Скайп для Business Server 2015 не предоставляет решения на базе электронных документов (поиск) для архивных данных, требуется ли переместить другие хранилища данных. Скайп для Business Server предоставляет средство экспорта сеанса, которые можно использовать для экспорта архивированных данных в текст для поиска записей. Необходимо указать время удаления архивных и экспортированных данных. 
+Базы данных архивирования не предназначен для долгосрочного хранения и Скайп для Business Server не предоставляет решения на базе электронных документов (поиск) для архивных данных, требуется ли переместить другие хранилища данных. Скайп для Business Server предоставляет средство экспорта сеанса, которые можно использовать для экспорта архивированных данных в текст для поиска записей. Необходимо указать время удаления архивных и экспортированных данных. 
   
-Дополнительные сведения о Экспорт данных с помощью командлета **Export-CsArchivingData** [Экспорт архивированных данных в Скайп для Business Server 2015](export-archived-data.md)см.
+Дополнительные сведения о Экспорт данных с помощью командлета **Export-CsArchivingData** [Экспорт архивированных данных в Скайп для Business Server](export-archived-data.md)см.
   
 ## <a name="manage-purging-of-data-by-using-the-control-panel"></a>Управление удалением данных с помощью панели управления
 
@@ -74,7 +74,7 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -Purg
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-В следующем примере используется командлет **Invoke-CsArchivingDatabasePurge** , чтобы очистить все записи более 24 часов назад из базы данных архивации на atl-sql-001.contoso.com. Чтобы убедиться, что удаляются все записи, включая записи, которые не были экспортированы, PurgeExportedArchivesOnly параметру присвоено значение False ($False):
+В следующем примере используется командлет **Invoke-CsArchivingDatabasePurge** , чтобы очистить все записи более 24 часов назад из базы данных архивации на atl-sql-001.contoso.com. Для удаления всех, а не только экспортированных записей параметру PurgeExportedArchivesOnly присвоено значение False ($False).
   
 ```
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

@@ -1,24 +1,24 @@
 ---
-title: Настройка заявлений об отказе от архивации для внешних пользователей в Skype для бизнеса Server 2015
+title: Настройка архивации заявления об отказе для внешних пользователей в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
-description: 'Сводка: Сведения о сведения о настройке отказа от архивирования для Скайп для Business Server 2015.'
-ms.openlocfilehash: 3790160024010084c69df7d9865f17622fca4f0d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения в этой статье описывается настройка отказа от архивирования для Скайп для Business Server.'
+ms.openlocfilehash: cb49135f80c1711e7e71d16b448e51d308f7ebea
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978671"
 ---
-# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server-2015"></a>Настройка заявлений об отказе от архивации для внешних пользователей в Skype для бизнеса Server 2015
+# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Настройка архивации заявления об отказе для внешних пользователей в Скайп для Business Server
  
-**Сводка:** Прочтите этот раздел, чтобы узнать, как настройка отказа от архивирования для Скайп для Business Server 2015.
+**Сводка:** Прочтите этот раздел, чтобы узнать, как настройка отказа от архивирования для Скайп для Business Server.
   
 В случае взаимодействия организации с внешними партнерами необходимо известить их об архивации данных, передаваемых в процессе этого взаимодействия. При развертывании пограничного сервера и включение федерации для вашей организации запрос, следует ли автоматически отправлять отказа от архивирования для внешних партнеров. 
   

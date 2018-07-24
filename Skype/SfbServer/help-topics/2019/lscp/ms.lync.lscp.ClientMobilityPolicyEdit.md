@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
+ROBOTS: NOINDEX, NOFOLLOW
 description: В диалоговом окне Изменение политики мобильных устройств можно изменить сведения о политики мобильных устройств.
-ms.openlocfilehash: 6e7c8f1b043219fbc7cb098f15c006e907d1822d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 5f0a38dc4cd5a9d61412aeabbf333af587afae01
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969591"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987707"
 ---
 # <a name="edit-client-mobility-policy"></a>Изменение политики мобильных устройств клиента
  
@@ -26,7 +27,6 @@ ms.locfileid: "19969591"
 
 В следующих списках описываются меню, команды, поля и свойства на этой странице.
   
-### 
 
 - **Фиксация** Щелкните, чтобы сохранить изменения в параметрах политики.
     

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
-description: На странице выполнение команд отображается состояние команды, которые извлекаются отложенный сертификат. После завершения задачи доступен файл журнала извлечения ожидающих установки сертификатов. Нажмите кнопку Просмотреть журнал обработки и уведомление о состоянии задач. Нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: 5846ea840c7caccddb428b00f7d5c33e570667dd
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: На странице выполнение команд отображается состояние команды, которые извлекаются отложенный сертификат. После завершения задачи доступен файл журнала извлечения ожидающих установки сертификатов. Нажмите кнопку Просмотреть журнал обработки и уведомление о состоянии задач. Для продолжения нажмите кнопку Далее.
+ms.openlocfilehash: 63da48b442c0b82e3c9f729ff5a6931803208437
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996970"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988112"
 ---
 # <a name="pending-certificate-invoke"></a>Отложенный сертификат (вызов)
  

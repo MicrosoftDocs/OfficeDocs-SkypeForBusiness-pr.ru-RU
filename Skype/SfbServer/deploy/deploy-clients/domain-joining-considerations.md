@@ -3,19 +3,18 @@ title: Рекомендации по присоединению к домену 
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: В этом разделе описывается присоединение к домену ПК с системой комнат Skype.
-ms.openlocfilehash: ffc55984df3b42b06f4db8faa6a286ea41e99480
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: b89ca5c5619c8d090aa765d0be1765b0b13900de
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568663"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972480"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Рекомендации по присоединению к домену для системы комнат Skype
  
@@ -60,12 +59,12 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-Даже если создано отдельное подразделение и наследование заблокировано, некоторые политики могут привести к возникновению проблем на более высоком уровне. Групповая политика с параметром "Без переопределения" имеет приоритет над подразделением с параметром блокировки наследования политики. Для получения дополнительных сведений обратитесь к статье «No переопределить Кому. по сравнению as блокировать наследование политики» в документации по групповой политики в http://technet.microsoft.com/en-us/library/cc978255.aspx.
+Даже если создано отдельное подразделение и наследование заблокировано, некоторые политики могут привести к возникновению проблем на более высоком уровне. Групповая политика с параметром "Без переопределения" имеет приоритет над подразделением с параметром блокировки наследования политики. Для получения дополнительных сведений обратитесь к статье, [Не перекрывать по сравнению с блокировать наследование политики](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) в документации по групповой политики.
   
 В некоторых случаях различные подходы к решению этих проблем. Мы рекомендуем вам обратитесь к вашей экспертов Active Directory, чтобы убедиться, что имеются Подразделения, соответствующие параметры групповой Политики или по крайней мере Подразделение, в котором уже было сказано политики не существует. Рекомендуется включить качество обслуживания (QoS) для устройств Скайп комнаты системы.
 
 ## <a name="see-also"></a>См. также
   
-[Конфигурация устройств: Создание новой или редактирование существующей](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
+[Конфигурация устройств: создание новой или редактирование существующей](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 
 [Управление качеством обслуживания](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)

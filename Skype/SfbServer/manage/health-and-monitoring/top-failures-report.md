@@ -1,24 +1,24 @@
 ---
-title: Отчет по самым частым отказам в Skype для бизнеса Server 2015
+title: TOP Failures Report в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Сводка: Сведения о отчета по основным сбоям в Скайп для Business Server 2015.'
-ms.openlocfilehash: 3eb536fdeaa606c16c78954401bc43e91dd520d9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения о отчета по основным сбоям в Скайп для Business Server.'
+ms.openlocfilehash: 7050c156d78ed7b4c254976cf4fd2027f3a677d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002160"
 ---
-# <a name="top-failures-report-in-skype-for-business-server-2015"></a>Отчет по самым частым отказам в Skype для бизнеса Server 2015
+# <a name="top-failures-report-in-skype-for-business-server"></a>TOP Failures Report в Скайп для Business Server
  
-**Сводка:** Узнайте о отчета по основным сбоям в Скайп для Business Server 2015.
+**Сводка:** Узнайте о отчета по основным сбоям в Скайп для Business Server.
   
 Отчет по основным сбоям позволяет узнать о наиболее частых сбоях и характере их изменения с течением времени. Сбои основаны на сочетании двух следующих метрик:
   
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="accessing-the-top-failures-report"></a>Доступ к отчету по основным сбоям
 
-Доступ к отчету по основным сбоям можно получить с домашней страницы отчетов по мониторингу. Щелкните показатель сеансов учтено займет [Отчета о распределении сбоев в Скайп для Business Server 2015](failure-distribution-report.md).
+Доступ к отчету по основным сбоям можно получить с домашней страницы отчетов по мониторингу. Щелкните показатель сеансов учтено вы перейдете к [Отчету распределения сбоев в Скайп для Business Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Рекомендации по использованию отчета по основным сбоям
 
@@ -69,7 +69,7 @@ Busy Here (Занято).
   
 **Метрики отчета по основным сбоям**
 
-|**Имя**.|**Можно отсортировать по этому элементу?**|**Описание**|
+|**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Rank (Ранг)** <br/> |Да  <br/> |Относительный ранг, основанный на количестве включенных в отчет сеансов.  <br/> |
 |**Reported sessions (Отчетные сеансы)** <br/> |Да  <br/> |Общее число неудачных сеансов на основе кода диагностики и кода ответа SIP.  <br/> |

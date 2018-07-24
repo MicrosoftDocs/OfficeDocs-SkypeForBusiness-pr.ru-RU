@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Сводка: Прочтите этот раздел, чтобы узнать о категорий, комнат чата и роли пользователей и администраторов для сервера сохраняемого чата в Скайп для Business Server 2015.'
-ms.openlocfilehash: 73c7bd8863ba9560b8ef7d79b3e5dce1fbd797a1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 83aa18d427c97ba54dcc3c66e684a4e13ed0c5df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983779"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Категории сохраняемого чата, комнаты чата и роли пользователей в Skype для бизнеса Server 2015
  
@@ -27,6 +28,9 @@ ms.lasthandoff: 03/28/2018
 - Комнаты чата и роли пользователей
     
 - Роли администратора
+
+> [!NOTE] 
+> Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны либо перенос пользователей, которым требуется эта функция групп, или для дальнейшего использования Скайп для Business Server 2015. 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>Категории для организации комнат чата
 
@@ -75,10 +79,10 @@ ms.lasthandoff: 03/28/2018
 
 Дополнительные сведения о настройке комнат чата и ролей пользователя, а также сведения об управлении ими см. в следующих разделах:
   
-- [Создание администратора сохраняемого чата в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md)
+- [Создание администратора сохраняемого чата в Skype для бизнеса Server 2015](../../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md)
     
-- [Управление категориями в сервера сохраняемого чата в Скайп для Business Server 2015](../../manage/persistent-chat/categories.md)
+- [Управление категориями на сервере сохраняемого чата в Skype для бизнеса Server 2015](../../manage/persistent-chat/categories.md)
     
-- [Управление разговоров в Persistent Chat Server в Скайп для Business Server 2015](../../manage/persistent-chat/chat-rooms.md)
+- [Управление комнатами чата на сервере сохраняемого чата в Skype для бизнеса Server 2015](../../manage/persistent-chat/chat-rooms.md)
     
 

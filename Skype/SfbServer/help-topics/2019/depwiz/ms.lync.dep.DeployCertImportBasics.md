@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
+ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы импортировать сертификат, необходимо указать путь к файлу сертификата. В текстовом поле Выбор сертификата файла можно либо введите полный путь и имя файла или нажмите кнопку Обзор и перейдите в расположение путь и имя файла (как правило, .p7b, PFX-файл или CER-файл).
-ms.openlocfilehash: 0454c7d34d0d9d775bdf424cdccc27588fb5f5e1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6d46f79b84bc66a80624fd7a8010addc60e840f6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987384"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967971"
 ---
 # <a name="import-certificate-intro"></a>Импорт сертификата (введение)
  

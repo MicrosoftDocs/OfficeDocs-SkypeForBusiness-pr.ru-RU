@@ -1,25 +1,25 @@
 ---
-title: Платформа безопасности для Skype для бизнеса Server 2015
+title: Модель безопасности для Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: В этом разделе приведен обзор основных элементов, формирующих модель безопасности для Скайп для Business Server 2015. Общие сведения о совместной работе этих элементов необходимо для принятия обоснованных решений о защите вашей конкретной Скайп для развертывания Business Server 2015.
-ms.openlocfilehash: c29941a3e903b6318db2de0453589b5017e6f51b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: В этом разделе приведен обзор основных элементов, формирующих модель безопасности для Скайп для Business Server. Общие сведения о совместной работе этих элементов необходимо для принятия обоснованных решений о защите вашей конкретной Скайп для развертывания Business Server.
+ms.openlocfilehash: 487b3ea7f57c1a008327be2b9b31664a160e8425
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983618"
 ---
-# <a name="security-framework-for-skype-for-business-server-2015"></a>Платформа безопасности для Skype для бизнеса Server 2015
+# <a name="security-framework-for-skype-for-business-server"></a>Модель безопасности для Скайп для Business Server
  
-В этом разделе приведен обзор основных элементов, формирующих модель безопасности для Скайп для Business Server 2015. Общие сведения о совместной работе этих элементов необходимо для принятия обоснованных решений о защите вашей конкретной Скайп для развертывания Business Server 2015.
+В этом разделе приведен обзор основных элементов, формирующих модель безопасности для Скайп для Business Server. Общие сведения о совместной работе этих элементов необходимо для принятия обоснованных решений о защите вашей конкретной Скайп для развертывания Business Server.
   
 Ниже представлены эти элементы.
   
@@ -35,24 +35,24 @@ ms.lasthandoff: 03/28/2018
     
 - Windows PowerShell предоставляет функции безопасности, для которых включено по умолчанию, чтобы пользователи не могут легко или непреднамеренно выполнение скриптов.
     
-Для определения надежным пользователям, серверы, подключений и операций для обеспечения безопасной foundation для Скайп для Business Server 2015 совместно эти элементы основных компонентов системы безопасности.
+Эти элементы системы безопасности фундаментальные работают вместе для определения надежным пользователям, серверы, подключений и операций для обеспечения безопасной foundation для Скайп для Business Server.
   
 ## <a name="in-this-section"></a>Содержание
 
 В этом разделе описываются принципы работы каждого из этих основных элементов для повышения безопасности вашей Скайп для инфраструктуры Business Server.
   
-- [Доменные службы Active Directory для Скайп для Business Server 2015](active-directory-domain-services.md)
+- [Доменные службы Active Directory для Скайп для Business Server](active-directory-domain-services.md)
     
-- [Управление доступом на основе ролей (RBAC) для Скайп для Business Server 2015](role-based-access-control-rbac.md)
+- [Управление доступом на основе ролей (RBAC) для Скайп для Business Server](role-based-access-control-rbac.md)
     
-- [Инфраструктура открытого ключа для Скайп для Business Server 2015](public-key-infrastructure-for-skype.md)
+- [Инфраструктура открытого ключа для Скайп для Business Server](public-key-infrastructure-for-skype.md)
     
-- [Протокол TLS и MTLS для Скайп для Business Server 2015](tls-and-mtls.md)
+- [Протокол TLS и MTLS для Скайп для Business Server](tls-and-mtls.md)
     
-- [Шифрование для Скайп для Business Server 2015](encryption.md)
+- [Шифрование для Скайп для Business Server](encryption.md)
     
-- [Пользователь и клиент проверки подлинности Скайп для Business Server 2015](user-and-client-authentication.md)
+- [Пользователь и клиент проверки подлинности Скайп для Business Server](user-and-client-authentication.md)
     
-- [Скайп для средств управления Business Server 2015 и Windows PowerShell](management-tools.md)
+- [Скайп для средств управления Business Server и Windows PowerShell](management-tools.md)
     
 

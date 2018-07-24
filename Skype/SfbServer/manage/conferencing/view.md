@@ -1,25 +1,24 @@
 ---
-title: Просмотр политик конференц-связи в Skype для бизнеса Server 2015
+title: Просмотр политик конференц-связи в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: 'Сводка: Узнайте, как для просмотра политик конференц-связи в Скайп для Business Server 2015.'
-ms.openlocfilehash: 5a0e99506d5c9fb7bc8799abcb15e4bb4224a3bc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Узнайте, как для просмотра политик конференц-связи в Скайп для Business Server.'
+ms.openlocfilehash: 161b9f172af935b105e01bda88c1c3dbef2e3a9f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568670"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992338"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server-2015"></a>Просмотр политик конференц-связи в Skype для бизнеса Server 2015
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a>Просмотр политик конференц-связи в Скайп для Business Server
  
-**Сводка:** Узнайте, как для просмотра политик конференц-связи в Скайп для Business Server 2015.
+**Сводка:** Узнайте, как для просмотра политик конференц-связи в Скайп для Business Server.
   
 Политики конференц-связи можно просмотреть с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
   
@@ -37,7 +36,7 @@ ms.locfileid: "19568670"
     
     **Изменения политики конференц - \<политики\> ** открывает Отображение параметров для выбранной политики.
     
-    Для получения дополнительных сведений о настройке параметров см. [Создание политики конференц-связи в Скайп для Business Server 2015](create-policies.md).
+    Для получения дополнительных сведений о настройке параметров см. [Создание политики конференц-связи в Скайп для Business Server](create-policies.md).
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Просмотр политик конференц-связи с помощью Скайп для консоли Business Server
 

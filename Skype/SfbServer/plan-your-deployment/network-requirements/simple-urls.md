@@ -1,24 +1,24 @@
 ---
-title: Требования DNS для простых URL-адресов в Скайп для Business Server 2015
+title: Требования DNS для простых URL-адресов в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/9/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: 'Сводка: Обзор рекомендаций простой URL-адрес в этом разделе прежде чем внедрять DNS-записей для Скайп для Business Server 2015.'
-ms.openlocfilehash: 87346a7c4c03837e5ebfdf0143cdb7c786f0e43b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+description: 'Сводка: Обзор рекомендаций простой URL-адрес в этом разделе прежде чем внедрять DNS-записей для Скайп для Business Server.'
+ms.openlocfilehash: 9786037cde74b77b855946551f5d4ed5ffc91701
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984388"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server-2015"></a>Требования DNS для простых URL-адресов в Скайп для Business Server 2015
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Требования DNS для простых URL-адресов в Скайп для Business Server
  
-**Сводка:** Обзор рекомендаций простой URL-адрес в этом разделе прежде чем внедрять DNS-записей для Скайп для Business Server 2015.
+**Сводка:** Обзор рекомендаций простой URL-адрес в этом разделе прежде чем внедрять DNS-записей для Скайп для Business Server.
   
 Простые URL-адреса упрощает присоединение к собраниям для пользователей и доступ к Скайп для средств администрирования Business Server более удобен для администраторов. Простые URL-адреса используйте своего домена, который не должен соответствовать доменов SIP, которые определены. 
   
@@ -111,7 +111,7 @@ Meet-ext.geolb.contoso.com
 Затем создайте записи CNAME, которые разрешают простой URL-адрес Meet (например, meet.contoso.com) в два адреса GeoDNS.
   
 > [!NOTE]
-> Если в сети используется hairpinning (маршрутизация весь трафик простого URL-адреса через внешний ресурс, включая трафик, поступающие из вашей организации), затем можно только что настройки внешнего адреса GeoDNS и разрешаться только, собраний простых URL-адреса внешний адрес.
+> Если сеть поддерживает разворот пакетов (маршрутизация всего трафика простых URL-адресов через внешнюю ссылку, включая трафик из организации), можно просто настроить внешний адрес GeoDNS и разрешать простой URL-адрес Meet только во внешний адрес.
   
 При использовании этого метода можно настроить каждый адрес GeoDNS для использования метода циклического перебора для распределения запросов между двумя пулами или для подключения в основном к одному пулу (например, к пулу, который географически ближе расположен) и использования другого пула только в случае сбоя подключения. 
   

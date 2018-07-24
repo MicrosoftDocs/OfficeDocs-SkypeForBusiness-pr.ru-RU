@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
+ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы начать установку Скайп для Business Server, необходимо подготовить схемы доменных служб Active Directory, леса и домены, используемом для серверов и пользователей. Скайп для мастера развертывания сервера Business поможет выполнить действия, необходимые для подготовки Active Directory, Приступая к работе с использованием схемы, а затем в подготовки леса. После подтверждения, что репликация Active Directory будет успешно выполнена, затем Подготовка каждого домена, в котором будет размещаться пользователей или серверов.
-ms.openlocfilehash: 69c101d7aa22e5129253760883ed0d83f1c8f164
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 501fbfe8b98e7334386e116c76812502f92ac53c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991047"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987658"
 ---
 # <a name="prepare-active-directory"></a>Подготовка Active Directory
  

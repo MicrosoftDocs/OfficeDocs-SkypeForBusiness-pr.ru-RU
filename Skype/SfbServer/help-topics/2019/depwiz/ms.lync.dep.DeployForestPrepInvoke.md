@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'На странице выполнение команд отображаются краткие сведения о задачах, как их выполнения. Просмотрите сводку и убедитесь в том, что задачи было выполнено успешно, и что нет ошибок. Просмотрите предупреждения, чтобы убедиться в том, что они должны. В разделе области сводки должно появиться состояние задачи: завершено. В раскрывающемся списке должны отображаться файл журнала Подготовка леса. Если он не установлен, выберите файл журнала и нажмите кнопку Просмотреть журнал для просмотра подробного действия и результаты задачи. Нажмите кнопку Готово для завершения подготовки леса.'
-ms.openlocfilehash: 5e2d021f94363da9789c0f3343b837b48205d6c7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 58557b6d432eb7ec58609427be0abbb879887630
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972359"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004484"
 ---
 # <a name="prepare-current-forrest-invoke"></a>Подготовка текущего леса (вызов)
  

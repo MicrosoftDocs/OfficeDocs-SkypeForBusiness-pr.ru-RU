@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
+ROBOTS: NOINDEX, NOFOLLOW
 description: Страница Настройка имени и безопасности предоставляет текстовое поле для определения понятное имя раскрывающегося списка для длины бита для пары ключей и закрытого и флажок, который позволяет пометить закрытый ключ сертификата как экспортируемый.
-ms.openlocfilehash: 9b8e306c9fa7611622e293185dcf08ff97d3e876
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 474111f6f732353c80ceea88da3e9cebda1caae3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991987"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996468"
 ---
 # <a name="certificate-request-basic"></a>Запрос сертификата (основные сведения)
  

@@ -1,22 +1,22 @@
 ---
-title: Использование центра развертывания Office (OCT) в Skype для бизнеса Server 2015
+title: Использование центра развертывания Office (OCT) в Скайп для Business Server
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Сводка: Способы использования центра развертывания Office с Скайп для клиента Business.'
-ms.openlocfilehash: b0e8dd399af7a75a6f575d554cbe6c25c4e8ffd3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bee037e005a9887a3f338ef071bec6fddc8990ea
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983709"
 ---
-# <a name="use-the-office-customization-tool-oct-in-skype-for-business-server-2015"></a>Использование центра развертывания Office (OCT) в Skype для бизнеса Server 2015
+# <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Использование центра развертывания Office (OCT) в Скайп для Business Server
  
 **Сводка:** Как использовать центр развертывания Office с Скайп для клиента Business.
   
@@ -24,7 +24,9 @@ ms.lasthandoff: 03/28/2018
   
 Центр развертывания Office является частью программы установки и она используется только для корпоративных версиях продукта. Запустите центр развертывания Office с помощью следующей команды `setup.exe /admin` в командной строке из корневого каталога точки сетевой установки, который содержит Office исходные файлы. Например, используйте следующий путь.
   
- `\\server\share\Office15\setup.exe /admin`
+ ```
+\\server\share\Office15\setup.exe /admin
+```
   
 Администраторы используют центр развертывания Office для создания MSP-файл программы установки и можно настроить следующие области:
   
@@ -36,6 +38,6 @@ ms.lasthandoff: 03/28/2018
     
 - **Outlook** Используется для настройки профиля пользователя по умолчанию в Outlook, указания параметров Exchange, добавление учетных записей, удаление учетных записей и экспорт параметров и указания групп отправки и получения.
     
-Сведения о центре развертывания Office, в разделе [использования центра развертывания Office для настройки Office 2013](https://technet.microsoft.com/library/cc179132.aspx). Обратите внимание на то, что эти сведения также относится к Office 2016.
+Сведения о центре развертывания Office, в разделе [использования центра развертывания Office для настройки Office 2013](https://docs.microsoft.com/en-us/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Обратите внимание, что эти сведения также относится к более поздние версии Office.
   
 

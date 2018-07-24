@@ -1,22 +1,22 @@
 ---
-title: Установка исправления или обновления SQL Server в составе группы доступности AlwaysOn в Skype для бизнеса Server 2015
+title: Исправление или обновление SQL Server в группы обеспечения доступности AlwaysOn в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 9/11/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7298254b-bc33-450e-846a-2612f6dc7006
 description: 'Сводка: Узнайте о необходимости дополнительных действий после обновления вы или обновить Тыловой сервер, который является частью группы обеспечения доступности AlwaysOn в Скайп для Business Server.'
-ms.openlocfilehash: 8f5c9131e59ccedd7f590f696fe53aa6c18c7d22
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7227bdc61e7accbdd6f6e760e1a33d9a2b76eb30
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982988"
 ---
-# <a name="patch-or-update-a-sql-server-in-an-alwayson-availability-group-in-skype-for-business-server-2015"></a>Установка исправления или обновления SQL Server в составе группы доступности AlwaysOn в Skype для бизнеса Server 2015
+# <a name="patch-or-update-a-sql-server-in-an-alwayson-availability-group-in-skype-for-business-server"></a>Исправление или обновление SQL Server в группы обеспечения доступности AlwaysOn в Скайп для Business Server
  
 **Сводка:** Узнайте о необходимости дополнительные действия, после исправлений или обновления Тыловой сервер, который является частью группы обеспечения доступности AlwaysOn в Скайп для Business Server.
   

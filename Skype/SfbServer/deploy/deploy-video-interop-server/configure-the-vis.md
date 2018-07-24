@@ -1,26 +1,25 @@
 ---
-title: Настройка VIS в Skype для бизнеса Server 2015
+title: Настройка видео взаимодействия сервера в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: 'Сводка: Настройка ролей сервера взаимодействия видео (VIS) в Скайп для Business Server 2015.'
-ms.openlocfilehash: 783900004d4f3ed9b060e7f237a62dfc5cf124f1
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Сводка: Настройка ролей сервера взаимодействия видео (VIS) в Скайп для Business Server.'
+ms.openlocfilehash: 68931d9523fba92211295805e2f041869bc3e774
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501933"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982533"
 ---
-# <a name="configure-the-video-interop-server-in-skype-for-business-server-2015"></a>Настройка VIS в Skype для бизнеса Server 2015
+# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Настройка видео взаимодействия сервера в Скайп для Business Server
  
-**Сводка:** Настройка ролей сервера взаимодействия видео (VIS) в Скайп для Business Server 2015.
+**Сводка:** Настройка ролей сервера взаимодействия видео (VIS) в Скайп для Business Server.
   
  Настройте параметры, которые VIS будет связать с видео магистральных линий связи, с помощью Windows PowerShell. Конфигурация видеомагистралей с глобальной областью действия создается после установки службы VIS. Эта конфигурация видеомагистралей посредством VIS применяется ко всем магистралям, для которых не задана конфигурация видеомагистралей с более узкой областью действия. Следует учитывать, что конфигурация видеомагистралей представляет собой набор параметров, применимых к видеомагистралям.
   
@@ -32,7 +31,7 @@ ms.locfileid: "19501933"
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>Настройка VIS, с помощью Windows PowerShell
 
-1. Создание новой конфигурации магистрали видео (набор параметров) для использования на линии связи между VIS и CUCM, с помощью следующего командлета Windows PowerShell:
+1. Создание новой конфигурации магистрали видео (набор параметров) для использования на линии связи между VIS и Cisco объединенных коммуникаций Manager (CallManager или CUCM), с помощью следующего командлета Windows PowerShell:
     
    ```
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
@@ -72,7 +71,7 @@ ms.locfileid: "19501933"
 Для SIP-магистрали видеозвонка от видео шлюза, чей URI запроса содержит номер не E.164 будет считывать имя абонентской, связанные с сопоставленном VIS, а в контексте телефона часть URI запроса в приглашении, VI будут включены имя абонентской группы S отправляет на сервере переднего плана. Затем в приложении трансляции на сервере переднего плана извлекаются связанные с абонентской группой правила нормализации для их применения к идентификатору URI запроса.
 ## <a name="trunk-configuration-options"></a>Варианты конфигурации магистралей
 
-Командлеты Windows PowerShell для настройки видео магистрали, указанным выше появились в Скайп для Business Server 2015. Параметры, связанные с конфигурацией видеомагистрали, требуют краткого пояснения.
+Командлеты Windows PowerShell для настройки видео магистрали, указанным выше, впервые появившихся в Скайп для Business Server 2015. Параметры, связанные с конфигурацией видеомагистрали, требуют краткого пояснения.
   
  **GatewaySendsRtcpForActiveCalls** Этот параметр определяет ли RTCP пакеты, отправляются из VTC VIS для активных звонков. В данном контексте активным считается вызов, для которого хотя бы в одном направлении разрешен поток мультимедийных данных. Если для параметра GatewaySendsRtcpForActiveCalls задано значение True, а на VIS в течение периода, превышающего 30 секунд, не принят ни один пакет RTCP, вызов завершается. По умолчанию задано значение **True**.
   
@@ -86,4 +85,4 @@ ms.locfileid: "19501933"
   
 ## <a name="see-also"></a>См. также
 
-[Настройка CUCM для взаимодействия с Скайп для Business Server 2015](configure-cucm-for-interoperation.md)
+[Настройка CUCM для взаимодействия с Скайп для Business Server](configure-cucm-for-interoperation.md)

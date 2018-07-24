@@ -1,28 +1,27 @@
 ---
-title: Настройка гибридной среды в Skype для бизнеса Server 2015
+title: Настройка проверки подлинности сервер сервер для Скайп для гибридной среды Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
-description: 'Сводка: Настройка Скайп для Business Server 2015 в гибридной среде.'
-ms.openlocfilehash: 4798839bd001e6320870d7ca97ba99108e3b32de
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Настройка проверки подлинности сервер сервер для Скайп для гибридной среды Business Server.'
+ms.openlocfilehash: d0934b8451c59577007812965f9d04f22f90445b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570187"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005601"
 ---
-# <a name="configure-a-hybrid-environment-in-skype-for-business-server-2015"></a>Настройка гибридной среды в Skype для бизнеса Server 2015
+# <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Настройка проверки подлинности сервер сервер для Скайп для гибридной среды Business Server.
  
-**Сводка:** Настройка Скайп для Business Server 2015 в гибридной среде.
+**Сводка:** Настройка проверки подлинности сервер сервер для Скайп для гибридной среды Business Server.
   
-В гибридной конфигурации некоторые пользователи размещаются в локальной установки Скайп для Business Server 2015 в то время как другие пользователи размещаются в версии Office 365 Скайп для Business Server. Чтобы настроить проверку подлинности сервер сервер в гибридной среде, необходимо настроить своей локальной установки Скайп для 2015 Business Server для доверия серверу авторизации Office 365. Первым шагом этот процесс может быть выполнено, выполнив следующие Скайп для скрипта консоли Business Server:
+В гибридной конфигурации некоторые пользователи размещаются в локальной установки Скайп для Business Server в то время как другие пользователи размещаются в версии Office 365 Скайп для Business Server. Чтобы настроить проверку подлинности сервер сервер в гибридной среде, необходимо настроить своей локальной установки Скайп для Business Server для доверия серверу авторизации Office 365. Первым шагом этот процесс может быть выполнено, выполнив следующие Скайп для скрипта консоли Business Server:
   
 ```
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
@@ -71,14 +70,14 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 $TenantID = (Get-CsTenant -DisplayName "Fabrikam.com").TenantId
 ```
 
-После выполнения скрипта необходимо настроить отношения доверия между Скайп для Business Server 2015 и сервера авторизации и второй отношения доверия между Exchange 2013 и сервера авторизации. Это возможно только с помощью командлетов Microsoft Online Services.
+После выполнения скрипта необходимо настроить отношения доверия между Скайп для Business Server и сервера авторизации и второй отношения доверия между Exchange 2013 и сервера авторизации. Это возможно только с помощью командлетов Microsoft Online Services.
   
 > [!NOTE]
 > Если командлеты Microsoft Online Services не установлены, потребуется выполнить две операции перед тем, как продолжить. Во-первых, скачайте и установите 64-разрядную версию помощника по входу в Microsoft Online Services. После завершения установки, загрузите и установите 64-разрядная версия Microsoft Online Services модуль для Windows PowerShell. Подробные сведения по установке и использованию модуль Microsoft Online Services можно найти на веб-сайте Office 365. Эти инструкции также можно узнать, как настроить единый вход, федерации и синхронизации между Office 365 и Active Directory. 
   
 Если вы не выполнили установку этих командлетов, то произойдет сбой вашего сценария, так как командлет Get-CsTenant будет недоступен.
   
-После настройки Office 365, и после создания Office 365 субъектов-служб для Скайп Business Server 2015 и Exchange 2013, затем нужно зарегистрировать свои учетные данные в этих субъектов-служб. Для этого необходимо сначала получить X.509 Base64 в виде файла CER. Этот сертификат затем будет применяться к участников службы Office 365.
+После настройки Office 365, и после создания Office 365 субъектов-служб для Скайп для Business Server и Exchange 2013, затем нужно зарегистрировать свои учетные данные в этих субъектов-служб. Для этого необходимо сначала получить X.509 Base64 в виде файла CER. Этот сертификат затем будет применяться к участников службы Office 365.
   
 После получения сертификата X.509, начать модуль Microsoft Online Services (нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы**, щелкните **Microsoft Online Services**и нажмите кнопку **Microsoft Online Services модуль для Windows PowerShell**). После открытия модуля службы, введите следующие действия, чтобы импортировать модуль Microsoft Online Windows PowerShell, содержащий командлетов, которые можно использовать для управления субъектов-служб:
   
@@ -122,7 +121,7 @@ $binaryValue = $certificate.GetRawCertData()
 $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 ```
 
-После того как сертификат был импортирован и кодировке, затем можно назначить сертификат для субъектов-служб Office 365. Для этого сначала командлет Get-MsolServicePrincipal для получения значение свойства AppPrincipalId для Скайп для Business Server и участников службы Microsoft Exchange; значение свойства AppPrincipalId будет использоваться для идентификации участников-служб, назначаемое сертификат. С помощью AppPrincipalId свойство руку значение для Скайп Business Server 2015, назначение сертификата до версии Office 365 Скайп для Business Server используйте следующую команду:
+После того как сертификат был импортирован и кодировке, затем можно назначить сертификат для субъектов-служб Office 365. Для этого сначала командлет Get-MsolServicePrincipal для получения значение свойства AppPrincipalId для Скайп для Business Server и участников службы Microsoft Exchange; значение свойства AppPrincipalId будет использоваться для идентификации участников-служб, назначаемое сертификат. С помощью AppPrincipalId свойство руку значение для Скайп Business Server, выполните следующую команду назначение сертификата до версии Office 365 Скайп для Business Server.
   
 ```
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 
@@ -153,7 +152,7 @@ Usage     : Verify
 Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 ```
 
-В дополнение к назначения сертификата, который необходимо настроить Exchange Online участников-служб и настройка локальной версии Скайп для Business Server 2015 внешние Web services URL-адреса в качестве участника-службы Office 365. Для этого можно выполнить две следующие команды: 
+В дополнение к назначения сертификата, который необходимо настроить Exchange Online участников-служб и настройка локальной версии Скайп для Business Server внешние Web services URL-адреса в качестве участника-службы Office 365. Для этого можно выполнить две следующие команды: 
   
 В следующем примере lync.contoso.com является внешним Web services URL-адрес Скайп для пула Business Server. Следует повторите эти действия, чтобы добавить всех внешних Web services URL-адреса в развертывании.
   

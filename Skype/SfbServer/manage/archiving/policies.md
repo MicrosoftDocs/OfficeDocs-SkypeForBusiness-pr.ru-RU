@@ -1,5 +1,5 @@
 ---
-title: Управление политиками архивации в Skype для бизнеса Server 2015
+title: Управление политики архивации из Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,16 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
-description: 'Сводка: Узнайте, как управлять политиками пользователя для архивации для Скайп для Business Server 2015.'
-ms.openlocfilehash: 584849862e106098bc4bbad92ed4e0b87be410e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как управлять политиками пользователя для архивации для Скайп для Business Server.'
+ms.openlocfilehash: d29d30c99320631279114d3ebdfa8ee7db00b677
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013323"
 ---
-# <a name="manage-archiving-policies-in-skype-for-business-server-2015"></a>Управление политиками архивации в Skype для бизнеса Server 2015
+# <a name="manage-archiving-policies-in-skype-for-business-server"></a>Управление политики архивации из Скайп для Business Server
 
-**Сводка:** Узнайте, как управлять политиками пользователя для архивации для Скайп для Business Server 2015.
+**Сводка:** Узнайте, как управлять политиками пользователя для архивации для Скайп для Business Server.
   
 Изначально Настройка политик архивации при развертывании архивации, но можно изменять, добавлять и удалять конфигурации после развертывания. Политики архивации определить, следует ли архивировать: 
   
@@ -29,7 +30,7 @@ ms.lasthandoff: 03/28/2018
 Политик архивации может быть набор на глобальном, сайта или на уровне пользователя.
   
 > [!NOTE]
-> Если включена интеграция с Microsoft Exchange для вашего развертывания, управления политик Exchange ли архивации для пользователей, которые размещаются на сервере Exchange и установить их почтовые ящики на хранение на месте. Дополнительные сведения см [Планирование архивации в Скайп для Business Server 2015](../../plan-your-deployment/archiving/archiving.md) и [Настройка интеграции с хранилищем Exchange для Скайп для Business Server 2015](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Если включена интеграция с Microsoft Exchange для вашего развертывания, управления политик Exchange ли архивации для пользователей, которые размещаются на сервере Exchange и установить их почтовые ящики на хранение на месте. Дополнительные сведения см [Планирование архивации в Скайп для Business Server](../../plan-your-deployment/archiving/archiving.md) и [Настройка интеграции с хранилищем Exchange для Скайп для Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>Управление политиками архивации с помощью панели управления
 
@@ -43,7 +44,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Управление политиками архивации с помощью Windows PowerShell
 
-Управлять политиками архивации можно также с помощью командлетов Windows PowerShell, приведенных в следующей таблице. Для получения дополнительных сведений о синтаксисе, включая все доступные параметры просмотра [Скайп оболочки управления 2015 Business Server](../management-shell.md).
+Управлять политиками архивации можно также с помощью командлетов Windows PowerShell, приведенных в следующей таблице. Для получения дополнительных сведений о синтаксисе, включая все доступные параметры видеть [Скайп для консоли Business Server](../management-shell.md).
   
 
 |**Командлет**|**Описание**|

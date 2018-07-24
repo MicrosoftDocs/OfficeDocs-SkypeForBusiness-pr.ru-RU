@@ -1,24 +1,24 @@
 ---
-title: Сопоставление отчетов мониторинга с зеркальной базы данных в Скайп для Business Server 2015
+title: Сопоставление отчетов мониторинга с зеркальной базы данных в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 'Сводка: Узнайте, как связать отчетов мониторинга с зеркальной базы данных, используемые Скайп для Business Server 2015.'
-ms.openlocfilehash: 246f16fd54133e2a6cf1e26a8126d0ec546bd686
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как связать отчетов мониторинга с зеркальной базы данных, используемые Скайп для Business Server.'
+ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000773"
 ---
-# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server-2015"></a>Сопоставление отчетов мониторинга с зеркальной базы данных в Скайп для Business Server 2015
+# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Сопоставление отчетов мониторинга с зеркальной базы данных в Скайп для Business Server 
  
-**Сводка:** Узнайте, как связать отчетов мониторинга с зеркальной базы данных, используемые Скайп для Business Server 2015.
+**Сводка:** Узнайте, как связать отчетов мониторинга с зеркальной базы данных, используемые Скайп для Business Server.
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>Отчеты по отслеживанию с зеркальной базой данных
 
@@ -66,9 +66,6 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="see-also"></a>См. также
 
-#### 
-
-[Установка отчетов в Скайп мониторинга для Business Server 2015](install-monitoring-reports.md)
+[Установка отчетов мониторинга в Скайп для Business Server](install-monitoring-reports.md)
   
-[С помощью отчетов в Скайп мониторинга для Business Server 2015](../../manage/health-and-monitoring/monitoring-reports.md)
-
+[Использование отчетов мониторинга в Скайп для Business Server](../../manage/health-and-monitoring/monitoring-reports.md)

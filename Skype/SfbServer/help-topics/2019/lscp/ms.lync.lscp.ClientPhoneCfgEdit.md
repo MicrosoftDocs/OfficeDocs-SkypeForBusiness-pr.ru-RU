@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
+ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Создание конфигурации устройства или изменение конфигурации устройства можно создать или изменить набор параметров, используемый для управления Скайп для Business Phone Edition. Эти настройки позволяют настраивать такие параметры, как требуемый режим безопасности, уровень ведения журнала на устройстве, качество обслуживания голосовой связи (QoS), и определять необходимость автоматической блокировки телефонов по истечении заданного периода неактивности.
-ms.openlocfilehash: f2bea8a2bdeb5a217444cfa18706adfa087a7229
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9e91313db84a870ef4f85105ddf2b2138d8948aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979353"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997932"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Конфигурация устройств: создание новой или редактирование существующей
  

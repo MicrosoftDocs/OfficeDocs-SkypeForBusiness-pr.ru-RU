@@ -1,33 +1,32 @@
 ---
-title: Функция оценки звонка в Skype для бизнеса Server 2015
+title: Оцените Мои звонка в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/13/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 'Сводка: Сведения о скорости личных вызова функции в Скайп для Business Server 2015.'
-ms.openlocfilehash: 54e751731e305767eecb755f274de667949379f2
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Сведения о скорости личных вызова функции в Скайп для Business Server.'
+ms.openlocfilehash: 737d6a71f6880139d558d601a14d8f76c61d80f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569799"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989065"
 ---
-# <a name="rate-my-call-in-skype-for-business-server-2015"></a>Функция оценки звонка в Skype для бизнеса Server 2015
+# <a name="rate-my-call-in-skype-for-business-server"></a>Оцените Мои звонка в Скайп для Business Server
  
-**Сводка:** Сведения о скорости личных вызова функции в Скайп для Business Server 2015.
+**Сводка:** Сведения о скорости личных вызова функции в Скайп для Business Server.
   
-Частота личных вызовов — это новая возможность в Скайп для 2015 бизнеса и клиентов 2016 в Windows, который предоставляет способ получить свои отзывы и предложения от их конечных пользователей предприятия.
+Скорость личных звонок был компонента в Скайп для 2015 бизнеса и клиентов 2016 в Windows, который предоставляет способ получить свои отзывы и предложения от их конечных пользователей предприятия.
   
 Окно личных вызова скорость предлагает систему «звездочка» оценок и предустановленные токены для вызовов, аудио- и видеоконференций. Кроме того администраторы могут разрешить настраиваемого поля оставить отзыв.
   
 Собранные данные оценки вызова в настоящее время не включаются ни в один из существующих ответов мониторинга, но имеет отдельный отчет мониторинга. Сбор данных в таблицах SQL, которые можно получить, запустив SQL-запросов.
   
-## <a name="rate-my-call-prerequisites"></a>Оцените Мои звонков необходимые условия
+## <a name="rate-my-call-prerequisites"></a>Требования функции оценки вызова
 
 Пользователи в вашей Скайп для развертывания Business Server может получить доступ к скорости личных вызова функциональные возможности, необходимо развернута и настроена следующего набора компонентов:
   
@@ -41,7 +40,7 @@ ms.locfileid: "19569799"
     
 - Рекомендуется развернуть панель мониторинга качества вызовов (CQD).
     
-## <a name="configure-rate-my-call"></a>Настройка скорости Мои звонка
+## <a name="configure-rate-my-call"></a>Настройка функции оценки вызова
 
 Частота личных вызова она включена по умолчанию в политике клиента со следующими параметрами:
   
@@ -55,7 +54,7 @@ ms.locfileid: "19569799"
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a>Доступ к скорости личных данных вызовов
+## <a name="accessing-rate-my-call-data"></a>Доступ к данным оценки вызова
 
 Сбор данных от пользователей в двух таблиц в базе данных мониторинга.
   
@@ -63,7 +62,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
   
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** -в этой таблице содержится маркеров определений.
   
-Маркеров определений закодированы следующим образом:
+Определения маркеров имеют следующую кодировку:
   
 |||
 |:-----|:-----|

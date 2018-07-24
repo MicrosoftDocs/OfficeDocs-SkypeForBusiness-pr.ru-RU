@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Чтобы изменить свойства сервера доверенных приложений, который уже был определен, выполните следующие действия.
-ms.openlocfilehash: f6acc3f31e294cab08b688327c7cc9b8f25bea3b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b01e48a3d2a003295956df981c4b571a7494be34
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987286"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993101"
 ---
 # <a name="external-application-general-settings-expander"></a>Расширитель внешнего приложения общих параметров
  
@@ -38,7 +38,6 @@ ms.locfileid: "19987286"
 
 Можно указать сервера следующего прыжка пула сервера доверенных приложений, выбрав определенного пула переднего плана Enterprise Edition или Standard Edition сервера переднего плана в раскрывающемся списке. Директор или директора пула не является допустимым выбора для следующего прыжка сервера доверенных приложений и не будет отображаться в списке.
   
-## 
 
 Нажмите **кнопку ОК** , чтобы принять и сохранить изменения. Для отмены изменений и закрытия страницы свойств нажмите кнопку **Отмена**.
   

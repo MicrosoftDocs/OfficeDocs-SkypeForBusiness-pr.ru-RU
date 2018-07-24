@@ -1,25 +1,24 @@
 ---
-title: Просмотр параметров конфигурации собрания в Skype для бизнеса Server 2015
+title: Просмотр параметров конфигурации собрания в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: 'Сводка: Узнайте, как для просмотра параметров конфигурации собрания в Скайп для Business Server 2015.'
-ms.openlocfilehash: 1af530732df37ed78e47ee5b5d5914c00fbbd4bf
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Узнайте, как для просмотра параметров конфигурации собрания в Скайп для Business Server.'
+ms.openlocfilehash: 44154b9cdba4743eed9c2a4153545651657d4e72
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568726"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988827"
 ---
-# <a name="view-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Просмотр параметров конфигурации собрания в Skype для бизнеса Server 2015
+# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Просмотр параметров конфигурации собрания в Скайп для Business Server
  
-**Сводка:** Узнайте, как для просмотра параметров конфигурации собрания в Скайп для Business Server 2015.
+**Сводка:** Узнайте, как для просмотра параметров конфигурации собрания в Скайп для Business Server.
   
 Можно просмотреть параметров конфигурации собрания с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
   
@@ -38,7 +37,7 @@ ms.locfileid: "19568726"
     
     **Изменение конфигурации собрания - \<политики\> ** открывает Отображение параметров для выбранной политики.
     
-    Подробные сведения о настройке параметров в разделе [Создание параметров конфигурации в Скайп для Business Server 2015 собрания](create-settings.md).
+    Для получения дополнительных сведений о настройке параметров см [параметров конфигурации в Скайп для Business Server собрания](create-settings.md).
     
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Просмотр параметров конфигурации собрания с помощью Скайп для консоли Business Server
 <a name="BKMK_ViewJoinSettings"> </a>

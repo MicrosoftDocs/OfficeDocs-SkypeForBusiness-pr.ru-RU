@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
-description: Чтобы начать установку новых Скайп для роли сервера Business Server, необходимо сначала установить на локальном SQL Server, на котором будет размещаться локального хранилища конфигурации. Локальное хранилище конфигурации будет действовать как только для чтения реплики Скайп для бизнеса сервера центрального хранилища управления (CMS). Необходимо войти в систему на сервере выполняются на этапе установки локального хранилища конфигурации учетной записью локального администратора на компьютере и иметь членство в группе RTCUniversalServerAdmins или группе групп RTCUniversalGlobalReadOnlyGroup. При установке пограничного сервера не обязательно быть участником группы RTCUniversalServerAdmins или RTCUniversalGlobalReadOnlyGroup. Документ описания Topology Builder считываются из документа экспортированного определения а не из центрального хранилища управления. Чтобы экспортировать документ описания Topology Builder и сделать его доступным для пограничных серверов, см раздел Экспорт Your Topology и копировать его на внешний носитель для установки пограничного сервера.
-ms.openlocfilehash: fd2e6a51d0ff7d6194f0ec39592765807ea55da4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Чтобы начать установку новых Скайп для роли сервера Business Server, необходимо сначала установить на локальном SQL Server, на котором будет размещаться локального хранилища конфигурации. Локальное хранилище конфигурации будет действовать как только для чтения реплики Скайп для бизнеса сервера центрального хранилища управления (CMS).
+ms.openlocfilehash: ab19a45925a25b97e9b1c478c631ee71fe999b83
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988301"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993672"
 ---
 # <a name="install-local-configuration-store"></a>Установка локального хранилища конфигурации
  

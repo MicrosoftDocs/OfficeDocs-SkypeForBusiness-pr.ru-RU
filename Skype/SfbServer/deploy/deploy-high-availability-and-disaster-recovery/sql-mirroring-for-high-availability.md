@@ -3,21 +3,20 @@ title: Развертывание зеркального отображения 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Чтобы обеспечить возможность развертывания зеркального отображения SQL, серверы должны работать под управлением, как минимум, версии SQL Server 2008 R2. Эта версия должна выполнятся на всех серверах-участниках: на сервере-источнике, зеркальном сервере и следящем сервере. Дополнительные сведения см накопительный пакет обновления пакет 9 для SQL Server 2008 с пакетом обновления 1.'
-ms.openlocfilehash: 9edbda5d793fed48d31625c3e0d53ab2f9e6d349
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a0baf639b050d323a29eb347c14b38505f059ef2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569140"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016208"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Развертывание зеркального отображения SQL Server для обеспечения высокой доступности внутреннего сервера в Skype для бизнеса Server 2015
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Развертывание зеркального отображения SQL для обеспечения высокой доступности в Скайп для Business server 2015 Тыловой сервер
  
 
 Чтобы обеспечить возможность развертывания зеркального отображения SQL, серверы должны работать под управлением, как минимум, версии SQL Server 2008 R2. Эта версия должна выполнятся на всех серверах-участниках: на сервере-источнике, зеркальном сервере и следящем сервере. Дополнительные сведения см [накопительного обновления 9 для SQL Server 2008 с пакетом обновления 1 ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
@@ -121,11 +120,11 @@ Topology Builder можно использовать для редактиров
     
   - [(SQL Server) конечная точка зеркального отображения базы данных](https://go.microsoft.com/fwlink/p/?LinkId=247347)
     
-## <a name="using-skype-for-business-server-management-shell-cmdlets-to-set-up-sql-mirroring"></a>С помощью Скайп по командлетам командной консоли управления Business Server для настройки зеркального отображения SQL
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>С помощью Скайп по командлетам командной консоли управления Business Server 2015 набору зеркального отображения SQL
 
 Проще всего настроить зеркальное отображение с помощью построителя топологий, но можно также выполнить эту процедуру с помощью командлетов.
   
-1. Откройте Скайп для окна консоли Business Server и выполните следующий командлет:
+1. Откройте Скайп для окна консоли 2015 Business Server и выполните следующий командлет:
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 

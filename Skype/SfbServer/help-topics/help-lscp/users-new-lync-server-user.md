@@ -3,7 +3,7 @@ title: Пользователи новый пользователь Lync Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 598b4f148f0a0780b078ecce5f7405ecaa34452d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 213a6c5d3561c3690405ba7c1f1eca682c3a4a12
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993397"
 ---
 # <a name="users-new-lync-server-user"></a>Пользователи: Новый пользователь Lync Server
  
@@ -30,7 +31,7 @@ ms.lasthandoff: 03/28/2018
     
 - [Задание версий клиента, поддерживаемые для входа пользователя](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [Назначение политики ПИН-код пользователя в Скайп для Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Назначение политики ПИН-кодов уровня пользователя в Skype для бизнеса Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [Настройка федерации, удаленного доступа пользователей и общедоступных служб обмена Мгновенными сообщениями для пользователей](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -38,7 +39,7 @@ ms.lasthandoff: 03/28/2018
     
 - [Назначение политики расположения для пользователя](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-- [Включение пользователей для корпоративной голосовой связи в Скайп для Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Включение пользователей для корпоративной голосовой связи в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Настройка федерации, удаленного доступа пользователей и общедоступных служб обмена Мгновенными сообщениями для пользователей](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

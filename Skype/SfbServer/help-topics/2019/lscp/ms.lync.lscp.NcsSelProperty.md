@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
+ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно назначения свойства для указания идентификатора сети и описание сайта в нескольких подсетях за один раз. В поле Описание введите описание, которое будет использоваться для подсетей, выбранном. В ИД сетевого узла выберите ИД сетевого узла, который требуется назначить подсети, выбранном. Чтобы назначить эти свойства подсети, выбранном, нажмите кнопку ОК.
-ms.openlocfilehash: f2c0a682ccefe357907a11c8cf7fb8ed47cee250
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: b5453ff35e74093f7a0d7857fcf36e3f3e5aa3da
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049081"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997049"
 ---
 # <a name="assign-properties"></a>Назначение свойств
  

@@ -1,28 +1,28 @@
 ---
-title: Создание или изменение коллекции параметров конфигурации CDR в Skype для бизнеса Server 2015
+title: Создание или изменение коллекции параметров конфигурации CDR в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-description: 'Сводка: Сведения о регистрации вызовов (CDR) в Скайп для Business Server 2015.'
-ms.openlocfilehash: 9861c3e2fba0f601e47e093a664999052d128f95
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения о регистрации вызовов (CDR) в Скайп для Business Server.'
+ms.openlocfilehash: f1bbf12f3766156b5f30ef3f2760669791e8c4c0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970374"
 ---
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server-2015"></a>Создание или изменение коллекции параметров конфигурации CDR в Skype для бизнеса Server 2015
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Создание или изменение коллекции параметров конфигурации CDR в Скайп для Business Server
  
-**Сводка:** Сведения о регистрации вызовов (CDR) в Скайп для Business Server 2015.
+**Сводка:** Сведения о регистрации вызовов (CDR) в Скайп для Business Server.
   
 Регистрация вызовов (CDR) позволяет отслеживать использование таких возможностей, как сеансы однорангового обмена мгновенными сообщениями, телефонные звонки по протоколу VoIP и конференц-связь. Эти сведения об использовании включают информацию о том, кто и кому звонил, время и длительность звонков.
   
-При установке Скайп для Business Server 2015 single глобальной коллекции параметров конфигурации CDR будет создан автоматически. Администраторы также могут создавать особые параметры на уровне сайта. Если такие параметры на уровне сайта используются, то они имеют преимущество перед глобальными параметрами. Например, если создаются параметры для сайта Redmond на уровне сайта, то эти параметры (а не глобальные параметры) будут использоваться для управления CDR на сайте Redmond.
+При установке Скайп для Business Server single глобальной коллекции параметров конфигурации CDR будет создан автоматически. Администраторы также могут создавать особые параметры на уровне сайта. Если такие параметры на уровне сайта используются, то они имеют преимущество перед глобальными параметрами. Например, если создаются параметры для сайта Redmond на уровне сайта, то эти параметры (а не глобальные параметры) будут использоваться для управления CDR на сайте Redmond.
   
 Параметры конфигурации CDR можно создать с помощью любого из Скайп для панели управления Business Server или командлет [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) . Скайп для панели управления Business Server или командлета [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) можно использовать для изменения существующих параметров. Если Скайп для панели управления Business Server используется для создания или изменения параметров, будут доступны вам следующие параметры:
   

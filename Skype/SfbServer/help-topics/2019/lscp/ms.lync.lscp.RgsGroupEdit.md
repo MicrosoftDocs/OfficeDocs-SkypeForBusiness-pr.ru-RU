@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
+ROBOTS: NOINDEX, NOFOLLOW
 description: Группы агентов определяют, кто может ответить на звонок в группу ответа (которая также называется агентами), а также параметры, применяемые ко всем агентам в этой группе.
-ms.openlocfilehash: af09b13d6fc6853a43719688b0f97ab60c20990f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 39a1ddb2520165a4060cb621f8948cad80f8b493
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988448"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985060"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Группы ответа: создание новой или редактирование существующей группы
  
@@ -67,6 +68,6 @@ ms.locfileid: "19988448"
     
     Стрелки вверх и вниз позволяют переместить выбранного агента вверх и вниз в списке агентов. Порядок агентов в списке влияет на порядок получения ими вызовов при циклической и последовательной маршрутизации.
     
-Для получения дополнительных сведений о группы ответа функциях и возможностях видеть [Планирование приложения группы ответа в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Дополнительные сведения о работе с группами агентов см [Управление группами агентов](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) в документации по операциям.
+Для получения дополнительных сведений о группы ответа функций и возможностей см. в документации по планированию [Планирование приложения группы ответа в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) . Дополнительные сведения о работе с группами агентов см [Управление группами агентов](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) в документации по операциям.
   
 

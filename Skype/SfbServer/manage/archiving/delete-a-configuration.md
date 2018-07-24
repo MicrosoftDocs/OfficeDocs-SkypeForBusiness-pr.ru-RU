@@ -1,24 +1,24 @@
 ---
-title: Удаление конфигурации архивации в Skype для бизнеса Server 2015
+title: Удаление конфигурации архивации в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: 'Сводка: Узнайте, как удаление конфигурации архивации в Скайп для Business Server 2015.'
-ms.openlocfilehash: 810c195f34a729218118744d4b6943e8dd60eb75
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как удалить конфигурации архивации в Скайп для Business Server.'
+ms.openlocfilehash: f8cb64cf7523cfaec26006560b4f77f39d904ead
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018937"
 ---
-# <a name="delete-an-archiving-configuration-in-skype-for-business-server-2015"></a>Удаление конфигурации архивации в Skype для бизнеса Server 2015
+# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Удаление конфигурации архивации в Скайп для Business Server
 
-**Сводка:** Узнайте, как удалить конфигурации архивации в Скайп для Business Server 2015.
+**Сводка:** Узнайте, как удалить конфигурации архивации в Скайп для Business Server.
   
 Конфигурацию сайта или пула можно удалить, но удаление глобальной конфигурации невозможно. При удалении глобальной конфигурации она автоматически восстанавливает значения по умолчанию.
   

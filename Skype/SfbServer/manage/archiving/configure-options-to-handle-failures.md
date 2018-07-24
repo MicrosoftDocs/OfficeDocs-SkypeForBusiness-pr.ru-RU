@@ -1,24 +1,24 @@
 ---
-title: Настройка параметров обработки отказов при архивации в Skype для бизнеса Server 2015
+title: Настройка параметров архивации для обработки ошибок в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: ': Сводка блокирование сеансов обмена мгновенными Сообщениями и конференц-связи в случае Скайп для сбоев Business Server 2015, которая позволит архивации.'
-ms.openlocfilehash: 4ad6b8eb496555751aab31949aa3e710749e0262
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: ': Сводка блокирование сеансов обмена мгновенными Сообщениями и конференц-связи в случае Скайп для сбоев Business Server, который будет препятствовать архивации.'
+ms.openlocfilehash: 952ee82ca3be045fc0407a6ce2f61fdaead12030
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998716"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server-2015"></a>Настройка параметров обработки отказов при архивации в Skype для бизнеса Server 2015
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Настройка параметров архивации для обработки ошибок в Скайп для Business Server
 
-**Сводка:** Узнайте, как для блокировки сеансов обмена мгновенными Сообщениями и конференц-связи в случае Скайп для сбоев Business Server 2015, которая позволит архивации.
+**Сводка:** Узнайте, как для блокировки сеансов обмена мгновенными Сообщениями и конференц-связи в случае Скайп для сбоев Business Server, который будет препятствовать архивации.
   
 Если архивация является обязательным требованием для вашей организации, можно заблокировать сеансы обмена мгновенными Сообщениями и конференц-связи в случае Скайп для сбоев Business Server, который будет препятствовать архивации. Этот режим иногда называется критическим. Например, в случае неполадки службы хранения данных обмен мгновенными сообщениям блокируется для тех пользователей, сообщения которых подлежат архивации. После устранения сбоя обмен мгновенными сообщениями и конференц-связь восстанавливаются автоматически. 
   

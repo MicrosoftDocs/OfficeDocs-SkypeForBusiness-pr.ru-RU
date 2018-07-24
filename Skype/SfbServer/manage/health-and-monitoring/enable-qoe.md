@@ -1,24 +1,24 @@
 ---
-title: Включение функции отслеживания качества взаимодействия в Skype для бизнеса Server 2015
+title: Включение качества взаимодействия в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-description: 'Сводка: Узнайте, как включить качества взаимодействия (QoE) в Скайп для Business Server 2015.'
-ms.openlocfilehash: 8c63a1bf493e601c4936b83cc9edfaa6e3727f26
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как включить качества взаимодействия (QoE) в Скайп для Business Server.'
+ms.openlocfilehash: 37775223016a463fc7f090f82163fbf8271cd050
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993203"
 ---
-# <a name="enable-quality-of-experience-in-skype-for-business-server-2015"></a>Включение функции отслеживания качества взаимодействия в Skype для бизнеса Server 2015
+# <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Включение качества взаимодействия в Скайп для Business Server
  
-**Сводка:** Включение качества взаимодействия (QoE) в Скайп для Business Server 2015.
+**Сводка:** Включение качества взаимодействия (QoE) в Скайп для Business Server.
   
 Служба отслеживания качества взаимодействия (QoE) записывает числовые данные, которые показывают качество мультимедиа-данных, и сведения об участниках, именах устройств, драйверах, IP-адресах и типах конечных точек, использованных во время звонка или сеанса. Дополнительные сведения см [мониторинг](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx) в документации по планированию.
   
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>Включение службы качества взаимодействия с помощью Скайп для панели управления Business Server
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server 2015.
+1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
     

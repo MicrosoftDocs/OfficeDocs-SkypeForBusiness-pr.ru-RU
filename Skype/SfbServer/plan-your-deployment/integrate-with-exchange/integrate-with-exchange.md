@@ -3,34 +3,31 @@ title: Планирование интеграции Skype для бизнеса
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
-description: 'Сводка: Просмотрите в этом разделе приведены сведения об интеграции Скайп для 2015 Business Server с Exchange Server 2016 или Exchange Server 2013.'
-ms.openlocfilehash: 2534cd1d2b3bd02998beb2034c704259b6b14c49
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Сводка: Просмотрите в этом разделе приведены сведения об интеграции Скайп для Business Server с Exchange Server 2016 или Exchange Server 2013.'
+ms.openlocfilehash: 0fc7975e35d84cf6fda75addacee9ffbb8f25b52
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505120"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013239"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Планирование интеграции Skype для бизнеса и Exchange
  
-**Сводка:** Просмотрите в этом разделе приведены сведения об интеграции Скайп для 2015 Business Server с Exchange Server 2016 или Exchange Server 2013.
+**Сводка:** Просмотрите в этом разделе приведены сведения об интеграции Скайп для Business Server с Exchange Server 2016 или Exchange Server 2013.
   
-Перед Скайп можно интегрировать Business Server 2015 и Exchange Server, вам необходимо убедиться, что Скайп для Business Server 2015 и Exchange Server полностью установлен и вверх и запущен. 
+Перед Скайп можно интегрировать Business Server и Exchange Server, вам необходимо убедиться, что Скайп для Business Server и Exchange Server полностью установлен и вверх и работает. 
   
 Для получения дополнительных сведений об установке Exchange Server в документации Exchange Server планирования и развертывания для вашей версии Exchange. 
+   
+После серверы, запущено и работает, необходимо назначить сертификаты проверки подлинности сервер сервер для обоих Скайп для Business Server и Exchange Server; Эти сертификаты позволяют Скайп для Business Server и Exchange Server для обмена данными и общаться друг с другом. При установке Exchange Server самозаверяющий сертификат с именем Microsoft Exchange Server проверкой подлинности на основе сертификата будет создан автоматически. Этот сертификат, который можно найти в хранилище сертификатов локального компьютера, можно использовать для проверки подлинности сервер сервер на сервере Exchange. Для получения дополнительных сведений о назначении сертификатов в Exchange Server см [Настройка почтового потока и клиентского доступа](https://go.microsoft.com/fwlink/p/?LinkId=268540).
   
-Для получения дополнительных сведений об установке Скайп для Business Server 2015 видеть [Развертывание Скайп для Business Server 2015](../../deploy/deploy.md).
-  
-После серверы, запущено и работает, необходимо назначить сертификаты проверки подлинности сервер сервер для обоих Скайп Business Server 2015 и Exchange Server; Эти сертификаты позволяют Скайп Business Server 2015 и Exchange Server для обмена данными и общаться друг с другом. При установке Exchange Server самозаверяющий сертификат с именем Microsoft Exchange Server проверкой подлинности на основе сертификата будет создан автоматически. Этот сертификат, который можно найти в хранилище сертификатов локального компьютера, можно использовать для проверки подлинности сервер сервер на сервере Exchange. Для получения дополнительных сведений о назначении сертификатов в Exchange Server см [Настройка почтового потока и клиентского доступа](https://go.microsoft.com/fwlink/p/?LinkId=268540).
-  
-Для Скайп для Business Server 2015 можно использовать существующие Скайп для сертификата Business Server как сертификат проверки подлинности сервер сервер; Например сертификат по умолчанию можно также использовать в качестве сертификат OAuthTokenIssuer. Скайп для Business Server 2015 позволяет использовать любой сертификат веб-сервера, как сертификат для проверки подлинности сервер сервер при условии, что:
+Для Скайп для Business Server можно использовать существующие Скайп для сертификата Business Server как сертификат проверки подлинности сервер сервер; Например сертификат по умолчанию можно также использовать в качестве сертификат OAuthTokenIssuer. Скайп для Business Server позволяет использовать любой сертификат веб-сервера, как сертификат для проверки подлинности сервер сервер при условии, что:
   
 - этот сертификат содержит имя домена SIP в поле "Тема";
     
@@ -38,7 +35,7 @@ ms.locfileid: "19505120"
     
 - длина сертификата составляет не менее 2048 бит.
     
-Для получения дополнительных сведений о сертификатах проверки подлинности сервер сервер для Скайп для Business Server 2015 видеть [назначить сертификат проверки подлинности сервер сервер, который будет Скайп для Business Server 2015](../../manage/authentication/assign-a-server-to-server-certificate.md).
+Для получения дополнительных сведений о сертификатах проверки подлинности сервер сервер для Скайп для Business Server см [назначить сертификат проверки подлинности сервер сервер, который будет Скайп для Business Server](../../manage/authentication/assign-a-server-to-server-certificate.md).
   
 После назначения сертификатов, затем необходимо настроить службы автообнаружения на сервере Exchange. В Exchange Server службы автообнаружения настраивает профили пользователей и предоставляет доступ к службам Exchange при входе пользователей в систему. Пользователи предоставляют службе автообнаружения свой адрес электронной почты и пароль; в свою очередь службы предоставляют пользователям следующую информацию:
   
@@ -50,7 +47,7 @@ ms.locfileid: "19505120"
     
 - параметры сервера мобильного Outlook.
     
-Перед интеграцией Скайп Business Server 2015 и Exchange Server, необходимо настроить службы автообнаружения. Вы можете проверить, настроен ли служба автообнаружения, выполнив следующую команду из командной консоли Exchange Server и проверки значения свойства AutoDiscoverServiceInternalUri:
+Перед интеграцией Скайп для Business Server и Exchange Server, необходимо настроить службы автообнаружения. Вы можете проверить, настроен ли служба автообнаружения, выполнив следующую команду из командной консоли Exchange Server и проверки значения свойства AutoDiscoverServiceInternalUri:
   
 ```
 Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Format-List
@@ -64,9 +61,9 @@ URI автообнаружения можно назначить с помощь
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
-Для получения дополнительных сведений о службе автообнаружения просмотрите [Общее представление о службе автообнаружения](https://go.microsoft.com/fwlink/p/?LinkId=268542).
+Для получения дополнительных сведений о службе автообнаружения см [Службы автообнаружения](https://go.microsoft.com/fwlink/p/?LinkId=268542).
   
-После настройки службы автоматического обнаружения необходимо затем изменить Скайп о параметрах конфигурации Business Server OAuth; Это гарантирует, что этой Скайп для Business Server знает расположение службы автообнаружения. Для изменения параметров конфигурации OAuth в Скайп для Business Server 2015, запустите следующую команду в Скайп консоли Business Server. При запуске этой команды, убедитесь, что указан URI для службы автообнаружения, запущенные на сервере Exchange, и использовать **autodiscover.svc** для указания на расположение службы вместо **autodiscover.xml** (которая указывает XML-файла используется службой):
+После настройки службы автоматического обнаружения необходимо затем изменить Скайп о параметрах конфигурации Business Server OAuth; Это гарантирует, что этой Скайп для Business Server знает расположение службы автообнаружения. Для изменения параметров конфигурации OAuth в Скайп для Business Server, выполните следующую команду в Скайп для консоли Business Server. При запуске этой команды, убедитесь, что указан URI для службы автообнаружения, запущенные на сервере Exchange, и использовать **autodiscover.svc** для указания на расположение службы вместо **autodiscover.xml** (которая указывает XML-файла используется службой):
   
 ```
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -83,14 +80,14 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 В дополнение к настройке службы автообнаружения, необходимо также создать запись DNS для службы, указывающий на сервере Exchange. Например если службы автообнаружения располагается по autodiscover.litwareinc.com необходимо будет создать запись DNS для autodiscover.litwareinc.com, которая разрешает полное доменное имя сервера Exchange (например, ATL-exchange-001.litwareinc.com).
   
-Если вы реализуете интеграцию Скайп для Business Server с Exchange Online, выполните следующие действия, в [Настройка интеграции между локальной Скайп Business Server 2015 и Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), в противном случае см [Скайп интегрировать для Business Server 2015 с Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+Если вы реализуете интеграцию Скайп для Business Server с Exchange Online, выполните следующие действия, в [Настройка интеграции между локальной Скайп для Business Server и Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), в противном случае см [Скайп интегрировать для Business Server с Exchange Сервер](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## <a name="feature-support"></a>Поддержка функций
 <a name="feature_support"> </a>
 
 В следующей таблице описаны функции, поддерживаемые в разделе различные сочетания версией через Интернет или локальной Exchange и Скайп для бизнеса.
   
-||**Exchange 2016/2013/2010 (локально) + Скайп для 2015 Business Server (локально)**|**Exchange Online + Скайп для 2015 Business Server (локально)**|**Exchange 2010 (локально) + Скайп для бизнеса в Интернет**|**Exchange 2016/2013(on premises) + Скайп для бизнеса в Интернет**|**Exchange Online + Скайп для бизнеса в Интернете**|
+||**Exchange 2016/2013/2010 (локально) + Скайп для Business Server (локально)**|**Exchange Online + Скайп для Business Server (локально)**|**Exchange 2010 (локально) + Скайп для бизнеса в Интернет**|**Exchange 2016/2013(on premises) + Скайп для бизнеса в Интернет**|**Exchange Online + Скайп для бизнеса в Интернете**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Присутствие в Outlook  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |Ответ с помощью мгновенного сообщения, вызова ТСОП, вызова Skype или видеовызова из сообщения электронной почты Outlook  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
@@ -113,12 +110,12 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="feature_support"> </a>
 
-[Настройка интеграции между локальной Скайп для Business Server 2015 и Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
+[Настройка интеграции между локальной Скайп для Business Server и Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
   
-[Настройка OAuth между Скайп для бизнеса в Интернет и Exchange локально](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
+[Настройка подключения по протоколу OAuth между Skype для бизнеса Online и локальной системой Exchange](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
 
-[Интеграция Скайп для Business Server 2015 с Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
+[Интеграция Скайп для Business Server с Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   
 [Как можно интегрировать Exchange Server 2013 с Lync Server 2013, Скайп для бизнеса в Интернет или гибридного развертывания Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=746494)
   
-[Настройка партнерских приложений в Скайп для Business Server 2015 и Microsoft Exchange Server](https://go.microsoft.com/fwlink/p/?LinkId=746495)
+[Настройка партнерских приложений в Скайп Business Server и Microsoft Exchange Server](../../deploy/integrate-with-exchange-server/configure-partner-applications.md)

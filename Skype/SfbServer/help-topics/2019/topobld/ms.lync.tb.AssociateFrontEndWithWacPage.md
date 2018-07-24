@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Службы, выполняющиеся на сервере Office Web Apps, позволяют выступающему загрузить документ для демонстрации на собрании; при этом их функциональные возможности расширены по сравнению с предыдущими версиями.
-ms.openlocfilehash: ea7df7254dc17b3db0107df9d92ba69d8c51b128
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: af10702b84021caa5d2e9a7c874e3dcaad2f54ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970663"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985811"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Страница сопоставления сервера переднего плана с сервером Office Web Apps
  
 Службы, выполняющиеся на сервере Office Web Apps, позволяют выступающему загрузить документ для демонстрации на собрании; при этом их функциональные возможности расширены по сравнению с предыдущими версиями.
   
-При выборе сервера Office Web Apps для развертывания конференц-связь была выбрана как один из компонентов для вашего Скайп для конфигурации Business Server 2015.
+При выборе сервера Office Web Apps для развертывания конференц-связь была выбрана как один из компонентов для вашего Скайп для конфигурации Business Server.
   
 Параметры в этом диалоговом окне предоставляют следующие возможности.
   

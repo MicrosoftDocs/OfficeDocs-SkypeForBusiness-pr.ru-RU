@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Создание и управление Persistent Chat комнат намного проще с правильное использование категорий. Администратор сохраняемого чата можно назначить Указание параметров AllowedMembers и Creators для каждой категории и можно также определить параметры комнаты чата по умолчанию и поведения, которые будут применяться для всех комнатах чата, созданные в категории. Администраторы сохраняемого чата создания категорий или управления ими с помощью Скайп для панели управления Business Server или командлетов Windows PowerShell.
-ms.openlocfilehash: 23b7bcbc07401d19bac6d7d77fc17d1a4a84a477
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9a814a5a6408e80fc1b51679fad80ef8c44f6b49
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005586"
 ---
 # <a name="select-creators"></a>Выбор создателей
  
@@ -36,13 +37,11 @@ ms.lasthandoff: 03/28/2018
 
 В области **членство в**разделе **создателей** Добавление или удаление пользователей и другие субъекты Active Directory, связанных с creators для категории. Автор — это пользователь, обладающий разрешениями на создание комнат чата и назначение их диспетчеров и участников.
   
-### 
+
 
 Для получения дополнительных сведений о сервера сохраняемого чата функциях и возможностях видеть [Overview of сервера сохраняемого чата](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) в документации по планированию. Дополнительные сведения о работе с конфигурациями сервера сохраняемого чата содержатся [Настройка сервера сохраняемого чата](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) в документации по развертыванию и [управлению Lync Server 2013, серверов сохраняемого чата](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) в документации по операциям.
   
 ## <a name="see-also"></a>См. также
-
-#### 
 
 [Общие сведения о членстве в сохраняемом чате](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
   
@@ -51,4 +50,3 @@ ms.lasthandoff: 03/28/2018
 [Перемещение чата из одной категории в другую](http://technet.microsoft.com/library/7e93b8f6-5a18-4476-a432-3918e01bcfa6.aspx)
   
 [Создание или редактирование нового чата](http://technet.microsoft.com/library/aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4.aspx)
-

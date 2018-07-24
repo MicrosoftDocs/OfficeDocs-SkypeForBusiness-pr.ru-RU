@@ -1,24 +1,24 @@
 ---
-title: Управление сопоставлением клавиш для команд DTMF в Skype для бизнеса Server 2015
+title: Управление сопоставления клавиш для команд DTMF в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 'Сводка: Сведения об управлении сопоставления клавиш для команд тонального (двухтональный) в Скайп для Business Server 2015.'
-ms.openlocfilehash: 0dca7143b59b7cf4ded0302f763053e71be3bb2b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения об управлении сопоставления клавиш для команд тонального (двухтональный) в Скайп для Business Server.'
+ms.openlocfilehash: 629db0c94b71b9cbf54ebf2c6f6a5074b4b611fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992684"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server-2015"></a>Управление сопоставлением клавиш для команд DTMF в Skype для бизнеса Server 2015
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Управление сопоставления клавиш для команд DTMF в Скайп для Business Server
  
-**Сводка:** Сведения об управлении сопоставления клавиш для команд тонального (двухтональный) в Скайп для Business Server 2015.
+**Сводка:** Сведения об управлении сопоставления клавиш для команд тонального (двухтональный) в Скайп для Business Server.
   
 Пользователи конференц-связи с телефонным подключением могут использовать клавиши на клавиатуре телефона для выполнения команд DTMF. Команды DTMF позволяют пользователям, подключающимся к конференции по телефону, управлять параметрами конференции (например, включением и отключением звука микрофона или блокированием и снятием блокировки конференции) с помощью клавиатуры телефона. 
   

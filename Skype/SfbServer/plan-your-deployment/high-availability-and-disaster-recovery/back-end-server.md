@@ -1,9 +1,8 @@
 ---
-title: Высокая доступность внутреннего сервера в Skype для бизнеса Server 2015
+title: Назад высокой доступности внутреннего сервера в Скайп для Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/20/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Сведения о способах обеспечения высокой доступности Тыловой сервер, поддерживаемые в Скайп для Business Server, включая группы обеспечения доступности AlwaysOn, экземпляры отказоустойчивого кластера AlwaysOn, зеркальное отображение базы данных и кластер отработки отказа SQL.
-ms.openlocfilehash: f0831ffb757d04e954ece8a1874dffad9e6e74d0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 57cc09765ab8f753e60a5f76f5d93b385c7fd406
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983186"
 ---
-# <a name="back-end-server-high-availability-in-skype-for-business-server-2015"></a>Высокая доступность внутреннего сервера в Skype для бизнеса Server 2015
+# <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Назад высокой доступности внутреннего сервера в Скайп для Business Server
  
 Сведения о способах обеспечения высокой доступности Тыловой сервер, поддерживаемые в Скайп для Business Server, включая группы обеспечения доступности AlwaysOn, экземпляры отказоустойчивого кластера AlwaysOn, зеркальное отображение базы данных и кластер отработки отказа SQL.
   
@@ -75,6 +75,9 @@ ms.lasthandoff: 03/28/2018
   
 > [!IMPORTANT]
 > С помощью построителя топологий или командлетов для установки и удаления SQL зеркальное отображение поддерживается только в том случае, если основной, зеркальный и следящий сервер (при желании) серверы принадлежат к тому же домену. Если необходимо настроить зеркальное отображение SQL для серверов в других доменах, см. документацию по SQL Server. 
+
+> [!NOTE]
+> Зеркальное отображение SQL доступна в Скайп для Business Server 2015, но в Скайп Business Server 2019 больше не поддерживается. Методы кластеризации отработки отказа группы обеспечения доступности AlwaysOn, экземпляры кластера AlwaysOn отработки отказа (FCI) и SQL, являются предпочтительными с Скайп для Business Server 2019.
   
 ### <a name="recovery-time-for-automatic-back-end-server-failover-with-database-mirroring"></a>Время восстановления при автоматической отработке отказа внутреннего сервера с помощью зеркального отображения баз данных
 
@@ -99,7 +102,7 @@ ms.lasthandoff: 03/28/2018
 > [!IMPORTANT]
 > Имена экземпляров для нескольких экземпляров группы обеспечения доступности AlwaysOn должны быть одинаковыми. 
   
-Действия для развертывания группы обеспечения доступности AlwaysOn в разделе [Deploy группы обеспечения доступности AlwaysOn на Тыловой сервер в Скайп для Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
+Действия для развертывания группы обеспечения доступности AlwaysOn в разделе [Deploy группы обеспечения доступности AlwaysOn на Тыловой сервер в Скайп для Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
   
 ## <a name="sql-server-failover-clustering"></a>Отказоустойчивая кластеризация SQL Server
 

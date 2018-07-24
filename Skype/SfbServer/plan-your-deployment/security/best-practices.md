@@ -1,22 +1,22 @@
 ---
-title: Рекомендации по основной инфраструктуре в Skype для бизнеса Server 2015
+title: Советы и рекомендации по инфраструктуре ядра в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Возможно, вы уже выполнили действия по проектированию отказоустойчивости вашей системы, применяя такие меры, как аппаратное резервирование, защита от потери напряжения питания, регулярная установка обновлений системы безопасности и использование средств защиты от вирусов, а также запуск сервера мониторинга. Эти рекомендации преимущества не только вашей Скайп для инфраструктуры Business Server, но всей сети. Если эти рекомендации не реализованы, рекомендуется делать это перед развертыванием Скайп для Business Server.
-ms.openlocfilehash: 9d79f98ebc66807f21f8d1eef468efc400dd5fbb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f88461e7563d28dce145d01a9b47a0176ef0d97f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996596"
 ---
-# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server-2015"></a>Рекомендации по основной инфраструктуре в Skype для бизнеса Server 2015
+# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Советы и рекомендации по инфраструктуре ядра в Скайп для Business Server
  
 Возможно, вы уже выполнили действия по проектированию отказоустойчивости вашей системы, применяя такие меры, как аппаратное резервирование, защита от потери напряжения питания, регулярная установка обновлений системы безопасности и использование средств защиты от вирусов, а также запуск сервера мониторинга. Эти рекомендации преимущества не только вашей Скайп для инфраструктуры Business Server, но всей сети. Если эти рекомендации не реализованы, рекомендуется делать это перед развертыванием Скайп для Business Server.
   

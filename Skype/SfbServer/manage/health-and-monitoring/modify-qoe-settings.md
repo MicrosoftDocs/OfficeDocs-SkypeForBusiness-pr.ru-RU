@@ -1,24 +1,24 @@
 ---
-title: Изменение параметров качества взаимодействия в Skype для бизнеса Server 2015
+title: Изменение параметров качества взаимодействия в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: 'Сводка: Узнайте, как задание параметров хранения данных о качестве взаимодействия в Скайп для Business Server 2015.'
-ms.openlocfilehash: 99a85a389b225d57b48b52b3f6f1d5b66e93f122
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как задание параметров хранения данных о качестве взаимодействия в Скайп для Business Server.'
+ms.openlocfilehash: a456a2528b78242849f651209e70c98046ebe0c3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012668"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server-2015"></a>Изменение параметров качества взаимодействия в Skype для бизнеса Server 2015
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Изменение параметров качества взаимодействия в Скайп для Business Server
  
-**Сводка:** Узнайте, как задание параметров хранения данных о качестве взаимодействия в Скайп для Business Server 2015.
+**Сводка:** Узнайте, как задание параметров хранения данных о качестве взаимодействия в Скайп для Business Server.
   
 По умолчанию данные о качестве взаимодействия удаляются каждые 60 дней. Чтобы изменить срок хранения данных, используйте параметры на странице **Данные о качестве взаимодействия**. При отключении записи данных о качестве взаимодействия все собранные ранее данные будут удалены.
   
@@ -67,7 +67,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [Мониторинг развертывания](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-

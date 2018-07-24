@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
+ROBOTS: NOINDEX, NOFOLLOW
 description: Если изменения не были завершены, просмотрите сообщения в данном диалоговом, измените конфигурацию маршрутизации голосовой связи и повторите попытку.
-ms.openlocfilehash: e098b3e5eb6ad7e64e0c5587307c34924657d64a
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: efd468b7913114bced5a86b75cbe442df918583a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044055"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988219"
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>Маршрутизация голосовой связи: Состояние фиксации изменений для конфигурации маршрутизации голосовой связи
  

@@ -1,26 +1,25 @@
 ---
-title: Просмотр сведений о политике ПИН-кодов в Skype для бизнеса Server 2015
+title: Просмотр сведений о политике ПИН-код в Скайп для Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
-description: 'Сводка: Просмотр сведений политики ПИН-кода пользователя для Скайп для Business Server 2015.'
-ms.openlocfilehash: 57960037f5a89cd93e03dc37d3f010343313e1e6
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Просмотр сведений политики ПИН-кода пользователя для Скайп для Business Server.'
+ms.openlocfilehash: 8401f429184122539f66186c470034f2829536b3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568768"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017157"
 ---
-# <a name="view-pin-policy-information-in-skype-for-business-server-2015"></a>Просмотр сведений о политике ПИН-кодов в Skype для бизнеса Server 2015
+# <a name="view-pin-policy-information-in-skype-for-business-server"></a>Просмотр сведений о политике ПИН-код в Скайп для Business Server
  
-**Сводка:** Просмотр сведений политики ПИН-кода пользователя для Скайп для Business Server 2015.
+**Сводка:** Просмотр сведений политики ПИН-кода пользователя для Скайп для Business Server.
   
 Для представления персонального идентификационного номера (ПИН-кода) проверки подлинности пользователей, которым подключаются к Скайп для бизнеса с IP-телефонов вкладка **Политики ПИН-кода** . Чтобы использовать проверку подлинности на основе ПИН-кодов, необходимо установить флажок **Разрешить проверку подлинности на основе ПИН-кода** в параметрах веб-службы.
   
@@ -28,7 +27,7 @@ ms.locfileid: "19568768"
   
 ### <a name="to-view-information-about-a-pin-policy-in-skype-for-business-server-control-panel"></a>Для просмотра сведений о политике ПИН-код в Скайп для панели управления Business Server
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server 2015.
+1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
     
@@ -64,4 +63,4 @@ MaximumLogonAttempts :
   
 ## <a name="see-also"></a>См. также
 
-[Создание новой политики ПИН-код в Скайп для Business Server 2015](create-a-new-pin-policy.md)
+[Создание новой политики ПИН-код в Скайп для Business Server](create-a-new-pin-policy.md)

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
+ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы начать установку базы данных, который будет использоваться для хранения локальной копии только для чтения из центрального хранилища управления, выберите между получение определенных конфигурации публикации с помощью построителя топологий с уже установлена и настроена Central Хранилище управления или чтение определенные конфигурации с другими носителя. Для компьютера, который размещается на внутренней сети вашей организации выберите получить автоматически из центрального хранилища управления.
-ms.openlocfilehash: 4a061ddec04e2b80412b8e60badb8600633093d9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 87d2620b6b4b9eb36ee96e7f9b693016620d3a49
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19980004"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003147"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Вызов установки локального хранилища конфигурации (Настройка)
  

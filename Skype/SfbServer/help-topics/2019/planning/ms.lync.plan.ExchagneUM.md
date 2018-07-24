@@ -11,17 +11,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: Скайп для Business Server поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
-ms.openlocfilehash: 8cecd30382306aa3a57ae275ac57e4feb2a4a121
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+description: Скайп для Business Server 2015 поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
+ms.openlocfilehash: ab1ee6c6ce811f728b05a04544611ffa638daf8e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965859"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981391"
 ---
-# <a name="exchange-unified-messaging-planning-tool"></a>Exchange единой системы обмена сообщениями (средство планирования)
+# <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange единой системы обмена сообщениями (средство планирования) в Скайп для бизнеса 2015
  
-Скайп для Business Server поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
+> [!NOTE]
+> Единая система обмена сообщениями Exchange ранее известных как больше недоступен в Exchange 2019, но можно использовать телефонной системой для записи голосовых сообщений и оставьте записи в почтовый ящик Exchange пользователя. [Планирование голосовой почты облачной службы](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) более подробные сведения.
+
+Скайп для Business Server 2015 поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
   
 Для получения дополнительных сведений см.:
   

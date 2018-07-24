@@ -1,29 +1,28 @@
 ---
-title: Просмотр сведений о конфигурации CDR в Skype для бизнеса Server 2015
+title: Сведения о конфигурации CDR представления в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
-description: 'Сводка: Сведения об использовании регистрации вызовов соединений (CDR) в Скайп для Business Server 2015.'
-ms.openlocfilehash: cd143db6ebc0c4e284763ccf4beb9c545fa24ff5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Сведения об использовании регистрации вызовов соединений (CDR) в Скайп для Business Server.'
+ms.openlocfilehash: 6abdd508cdb8ecbd89054596b024e27376c70a38
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569444"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979415"
 ---
-# <a name="view-cdr-configuration-information-in-skype-for-business-server-2015"></a>Просмотр сведений о конфигурации CDR в Skype для бизнеса Server 2015
+# <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Сведения о конфигурации CDR представления в Скайп для Business Server
  
-**Сводка:** Сведения об использовании регистрации вызовов соединений (CDR) в Скайп для Business Server 2015.
+**Сводка:** Сведения об использовании регистрации вызовов соединений (CDR) в Скайп для Business Server.
   
 Служба регистрации вызовов (CDR) позволяет отслеживать использование таких услуг, как сеансы обмена одноранговыми мгновенными сообщениями, телефонные вызовы с передачей речи по IP-сетям (VoIP) и вызовы конференц-связи. Данные о таком использовании телефонии включают сведения о том, кто кому звонил, когда звонили и каким долгим был телефонный разговор.
   
-Когда вы устанавливаете Скайп для Business Server 2015, single, глобальной коллекции параметров конфигурации CDR будет создан автоматически. Администраторы также могут создавать настраиваемые коллекции параметров, которые можно применять к отдельным сайтам. Можно просмотреть параметры конфигурации CDR используется в вашей организации с помощью Скайп для панели управления Business Server или командлет [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
+Когда вы устанавливаете Скайп для Business Server, single, глобальной коллекции параметров конфигурации CDR будет создан автоматически. Администраторы также могут создавать настраиваемые коллекции параметров, которые можно применять к отдельным сайтам. Можно просмотреть параметры конфигурации CDR используется в вашей организации с помощью Скайп для панели управления Business Server или командлет [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
   
 ### <a name="to-view-cdr-configuration-information-by-using-skype-for-business-server-control-panel"></a>Просмотр сведений о конфигурации CDR с помощью Скайп для панели управления Business Server
 

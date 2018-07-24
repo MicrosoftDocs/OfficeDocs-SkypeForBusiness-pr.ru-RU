@@ -1,26 +1,26 @@
 ---
-title: Настройка взаимодействия Skype для бизнеса Server 2015 с хранилищем Exchange
+title: Настройка интеграции с хранилищем Exchange для Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
-description: 'Сводка: Прочтите этот раздел, чтобы узнать, как настроить интеграцию с хранилищем Exchange в Скайп для Business Server 2015.'
-ms.openlocfilehash: 2d814bb297999062aaf93160286031afec51c3a9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Прочтите этот раздел, чтобы узнать, как настроить интеграцию с хранилищем Exchange в Скайп для Business Server.'
+ms.openlocfilehash: 5f987ef0c2c47960a71c94a3b5a692062e787ed6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988334"
 ---
-# <a name="configure-integration-with-exchange-storage-for-skype-for-business-server-2015"></a>Настройка взаимодействия Skype для бизнеса Server 2015 с хранилищем Exchange
+# <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Настройка интеграции с хранилищем Exchange для Скайп для Business Server
  
-**Сводка:** Прочтите этот раздел, чтобы узнать, как настроить интеграцию с хранилищем Exchange в Скайп для Business Server 2015.
+**Сводка:** Прочтите этот раздел, чтобы узнать, как настроить интеграцию с хранилищем Exchange в Скайп для Business Server.
   
-При использовании интеграции с Microsoft Exchange для всех пользователей в вашем развертывании не нужно настроить Скайп для Business Server политик архивации для пользователей. Вместо этого настройте политики хранения на месте Exchange для поддержки архивации для пользователей, размещенных на сервере Exchange, с их почтовых ящиков, поставленных на хранение на месте. Перед настройкой интеграции с хранилищем Exchange чтение [Планирование архивации в Скайп для Business Server 2015](../../plan-your-deployment/archiving/archiving.md). Для получения дополнительных сведений о политиках хранения на месте Exchange обратитесь к документации Exchange. 
+При использовании интеграции с Microsoft Exchange для всех пользователей в вашем развертывании не нужно настроить Скайп для Business Server политик архивации для пользователей. Вместо этого настройте политики хранения на месте Exchange для поддержки архивации для пользователей, размещенных на сервере Exchange, с их почтовых ящиков, поставленных на хранение на месте. Перед настройкой интеграции с хранилищем Exchange чтение [Планирование архивации в Скайп для Business Server](../../plan-your-deployment/archiving/archiving.md). Для получения дополнительных сведений о политиках хранения на месте Exchange обратитесь к документации Exchange. 
   
 ## <a name="configure-integration-with-microsoft-exchange-storage"></a>Настройка интеграции с хранилищем Microsoft Exchange
 

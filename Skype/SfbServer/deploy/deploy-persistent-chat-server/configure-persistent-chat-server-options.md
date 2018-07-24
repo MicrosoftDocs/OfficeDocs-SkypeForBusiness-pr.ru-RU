@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Сводка: Сведения о настройке параметров сервера сохраняемого чата на глобальном, сайта или уровне пула в Скайп для Business Server 2015.'
-ms.openlocfilehash: 6fe06b6a5383178f0a9465624f7a0e739c2a32e6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1da6acc83c051e2de3b2453aae04f40c5b18d456
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988841"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Настройка параметров сервера сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -29,7 +30,10 @@ ms.lasthandoff: 03/28/2018
 - Ограничение обновлений участников. Максимальное количество участников в комнате чата, которым будут рассылаться пакеты обновления сохраняемого чата. Глобальное значение по умолчанию: 75.
     
 - URL-адрес управления комнаты. URL-адрес, предназначенный для управления настраиваемой комнатой чата. Этот параметр позволяет применять средство управления настраиваемой комнатой. 
-    
+   
+> [!NOTE] 
+> Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны либо перенос пользователей, которым требуется эта функция групп, или для дальнейшего использования Скайп для Business Server 2015.
+ 
 ## <a name="configure-persistent-chat-server-global-options"></a>Настройка глобальных параметров сервера сохраняемого чата
 
 Настройка глобальных параметров сервера сохраняемого чата:

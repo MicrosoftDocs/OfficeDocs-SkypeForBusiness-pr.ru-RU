@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Сводка: Узнайте, как управлять категориями сервера сохраняемого чата в Скайп для Business Server 2015.'
-ms.openlocfilehash: 418cdc395a611c880da5b9455c10367fe19c6843
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 01b1bad9fd8b68eee68e1980fcb79f69462e9dfa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568621"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979507"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление категориями на сервере сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -36,6 +36,9 @@ ms.locfileid: "19568621"
 Прежде чем настраивать категорий, обязательно прочитайте [сохраняемого чата категорий, комнат чата и роли пользователей в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md).
   
 Настраивать категории и управлять ими можно с помощью панели управления и командлетов Windows PowerShell.
+
+> [!NOTE]
+> Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны либо перенос пользователей, которым требуется эта функция групп, или для дальнейшего использования Скайп для Business Server 2015. 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>Настройка категорий с помощью панели управления
 

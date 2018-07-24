@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
+ROBOTS: NOINDEX, NOFOLLOW
 description: На странице выполнение команд отображается состояние области задач как команды, выполненные для создания запроса на сертификат. После завершения задач, в раскрывающемся списке области сводки содержит список файлов журнала. Раскрывающемся списке выберите файл журнала, чтобы просмотреть и нажмите кнопку Просмотреть журнал. Запустите Internet Explorer и отображения файла журнала. В случае сбоя запроса просмотрите файлы журнала, чтобы определить причину ошибки. Можно повторно выполнить запрос на сертификат, чтобы решить эту проблему, устранении ошибки, указанных в файле журнала. Тем не менее продолжить страницы запроса сертификата и запросить сертификат еще раз.
-ms.openlocfilehash: 67734202b2fce51c6ee7ec8af9998bc8f184b352
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c8370209fe1640a9a9f0fa17b8796ca642a94565
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965642"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968560"
 ---
 # <a name="certificate-request-invoke"></a>Запрос сертификата (вызов)
  

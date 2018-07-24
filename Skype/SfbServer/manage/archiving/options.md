@@ -1,24 +1,24 @@
 ---
-title: Управление параметрами архивации в Skype для бизнеса Server 2015
+title: Управление параметров архивации в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
-description: 'Сводка: Сведения о настройке параметров архивации для Скайп для Business Server 2015.'
-ms.openlocfilehash: 29800fef7054cd0e82f203d2ad6ec1ed53251ca4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения о настройке параметров архивации для Скайп для Business Server.'
+ms.openlocfilehash: 235a0170a4301e48caeae17b7315a174ca2c8aee
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993569"
 ---
-# <a name="manage-archiving-options-in-skype-for-business-server-2015"></a>Управление параметрами архивации в Skype для бизнеса Server 2015
+# <a name="manage-archiving-options-in-skype-for-business-server"></a>Управление параметров архивации в Скайп для Business Server
 
-**Сводка:** Сведения о настройке параметров архивации для Скайп для Business Server 2015.
+**Сводка:** Сведения о настройке параметров архивации для Скайп для Business Server.
   
 Исходно архивация настраивается во время развертывания, однако конфигурации можно изменять, добавлять и удалять и после развертывания. Параметры архивации определяют: 
   
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/28/2018
     
 - Дополнительные конфигурации на уровне пула, которые определяют, как архивация реализуется для конкретного пула
     
-Конфигурацию сайта или пула можно удалить, но удаление глобальной конфигурации невозможно. При удалении глобальной конфигурации она автоматически восстанавливает значения по умолчанию. Для получения дополнительных сведений о реализации архивации конфигураций и иерархии конфигураций, архивации Просмотр [Планирование архивации в Скайп для Business Server 2015](../../plan-your-deployment/archiving/archiving.md).
+Конфигурацию сайта или пула можно удалить, но удаление глобальной конфигурации невозможно. При удалении глобальной конфигурации она автоматически восстанавливает значения по умолчанию. Для получения дополнительных сведений о реализации архивации конфигураций и иерархии конфигураций, архивации Просмотр [Планирование архивации в Скайп для Business Server](../../plan-your-deployment/archiving/archiving.md).
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Настройка параметров архивации с помощью панели управления
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Настройка параметров архивации с помощью Windows PowerShell
 
-Параметры архивации также можно настроить с помощью командлетов Windows PowerShell, перечисленных в таблице ниже. Для получения дополнительных сведений о синтаксисе, включая все доступные параметры просмотра [Скайп оболочки управления 2015 Business Server](../management-shell.md).
+Параметры архивации также можно настроить с помощью командлетов Windows PowerShell, перечисленных в таблице ниже. Для получения дополнительных сведений о синтаксисе, включая все доступные параметры видеть [Скайп для консоли Business Server](../management-shell.md).
   
 
 |**Командлет**|**Описание**|

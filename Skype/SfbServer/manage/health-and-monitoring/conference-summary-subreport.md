@@ -1,24 +1,24 @@
 ---
-title: Сводный подотчет по конференции в Skype для бизнеса Server 2015
+title: Сводный Подотчет по конференции в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 'Сводка: Сведения о конференции вложенного сводного отчета о в Скайп для Business Server 2015.'
-ms.openlocfilehash: 39c71ebfa5798d861a9b8afd8865486dba033c1d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Сведения о конференции вложенного сводного отчета о в Скайп для Business Server.'
+ms.openlocfilehash: 1a35d772e368fe9755d0b7640d6a69f1ec46d4ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997731"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server-2015"></a>Сводный подотчет по конференции в Skype для бизнеса Server 2015
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Сводный Подотчет по конференции в Скайп для Business Server
  
-**Сводка:** Сведения о конференции вложенного сводного отчета о в Скайп для Business Server 2015.
+**Сводка:** Сведения о конференции вложенного сводного отчета о в Скайп для Business Server.
   
 Вложенный сводный отчет о конференции содержит обзор неудачных сеансов конференц-связи. Такие неудачные сеансы дополнительно делятся по типу — сеансы Focus и сеансы MCU.
   
@@ -40,7 +40,7 @@ ms.lasthandoff: 03/28/2018
   
 **Метрики вложенного сводного отчета о конференции**
 
-|**Имя**.|**Можно отсортировать по этому элементу?**|**Описание**|
+|**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Общее количество конференций** <br/> |Нет  <br/> |Общее количество проведенных конференций.  <br/> |
 |**Всего сеансов конференц-связи** <br/> |Нет  <br/> |Общее количество сеансов конференций. Отдельная конференция может иметь несколько сеансов; например, конференция может включать в себя как сеанс Focus, так и сеанс MCU.  <br/> |

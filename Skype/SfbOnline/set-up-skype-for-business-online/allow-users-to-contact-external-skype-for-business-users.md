@@ -1,5 +1,5 @@
 ---
-title: Разрешить пользователям контактов внешних Скайп для бизнес-пользователи
+title: Разрешение пользователям на связь с внешними пользователями Skype для бизнеса
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Узнайте, как настроить Скайп для бизнеса дать возможность пользователям обращаться к пользователей в другой организации или разрешить за пределами контактов к ним. '
-ms.openlocfilehash: d8cac3838550530666c2e7550c616a0b77cfd820
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: bd03e7c85b91bb9995dcbac3fc5d885cba2c7bd0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500686"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968463"
 ---
-# <a name="allow-users-to-contact-external-skype-for-business-users"></a>Разрешить пользователям контактов внешних Скайп для бизнес-пользователи
+# <a name="allow-users-to-contact-external-skype-for-business-users"></a>Разрешение пользователям на связь с внешними пользователями Skype для бизнеса
 
 > [!NOTE]
 > Скайп для федерации Business недоступен для Office 365, которой 21Vianet и организациями Office 365 Германия. 
@@ -107,9 +107,9 @@ ms.locfileid: "19500686"
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Советы по настройке связь с федеративными бизнеса
 <a name="bk_preview"> </a>
 
-- Чтобы настроить федерацию между Скайп для бизнеса 2015 и Скайп для бизнеса в Интернет, обратитесь к разделу в этой статье TechNet: [Настройка федерации с Скайп для бизнеса в Интернет](https://technet.microsoft.com/en-us/library/jj205126.aspx).
+- Чтобы настроить федерацию между Скайп для бизнеса 2015 и Скайп для бизнеса в Интернет, обратитесь к разделу в этой статье: [Настройка федерации с Скайп для бизнеса в Интернет](https://technet.microsoft.com/en-us/library/jj205126.aspx).
     
-- Чтобы настроить федерации между Lync и Скайп для бизнеса в Интернет, обратитесь к разделу в этой статье TechNet: [Настройка поддержки федерации для клиента Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- Чтобы настроить федерации между Lync и Скайп для бизнеса в Интернет, обратитесь к разделу в этой статье: [Настройка поддержки федерации для клиента Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
     
 - Когда два Скайп для бизнес-пользователей в Office 365 обмениваются данными друг с другом в разных доменах, их можно использовать Скайп только для функции бизнес-(например, видеобеседы или рабочему столу), которые включены в обеих организациях.
     

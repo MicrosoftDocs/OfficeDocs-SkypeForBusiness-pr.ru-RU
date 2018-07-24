@@ -3,7 +3,7 @@ title: Запрос сертификата (вызов)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 description: На странице выполнение команд отображается состояние области задач как команды, выполненные для создания запроса на сертификат. После завершения задач, в раскрывающемся списке области сводки содержит список файлов журнала. Раскрывающемся списке выберите файл журнала, чтобы просмотреть и нажмите кнопку Просмотреть журнал. Запустите Internet Explorer и отображения файла журнала. В случае сбоя запроса просмотрите файлы журнала, чтобы определить причину ошибки. Можно повторно выполнить запрос на сертификат, чтобы решить эту проблему, устранении ошибки, указанных в файле журнала. Тем не менее продолжить страницы запроса сертификата и запросить сертификат еще раз.
-ms.openlocfilehash: ec76039400a798f474a07e8a1f888bdd32617e17
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 544b54241e55369ff5b98a0c979fc55515001357
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968999"
 ---
 # <a name="certificate-request-invoke"></a>Запрос сертификата (вызов)
  

@@ -1,31 +1,31 @@
 ---
-title: Управление архивацией в Skype для бизнеса Server 2015
+title: Управление архивацией в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
-description: 'Сводка: Узнайте, как для управления архивацией на Скайп для Business Server 2015.'
-ms.openlocfilehash: fb8359d47b1933e2575685bc532d69e6b9bb6c45
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как для управления архивацией на Скайп для Business Server.'
+ms.openlocfilehash: 3044ad4bd8c5b551d5cc43c2d3f6ae9b111c7ca6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008077"
 ---
-# <a name="manage-archiving-in-skype-for-business-server-2015"></a>Управление архивацией в Skype для бизнеса Server 2015
+# <a name="manage-archiving-in-skype-for-business-server"></a>Управление архивацией в Скайп для Business Server
 
-**Сводка:** Узнайте, как для управления архивацией на Скайп для Business Server 2015.
+**Сводка:** Узнайте, как для управления архивацией на Скайп для Business Server.
   
 При развертывании архивации для организации указывается исходная конфигурация во время развертывания. Однако могут быть ситуации, в которых потребуется изменить реализацию поддержки архивации для ежедневного управления или для удовлетворения новых требований организации. Например, может потребоваться отдельно настроить поддержку архивации для определенного сайта, пула или для определенных пользователей в организации. Для пользователей, размещенных на Скайп для Business Server, это сделать, создание и Настройка пользовательских политик и параметров конфигурации архивации. 
   
-Прежде чем читать этот раздел, убедитесь, что вы знакомы с сведения в [Планирование архивации в Скайп для Business Server 2015](../../plan-your-deployment/archiving/archiving.md) и [Развертывание архивации для Скайп для Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md).
+Прежде чем читать этот раздел, убедитесь, что вы знакомы с сведения в [Планирование архивации в Скайп для Business Server](../../plan-your-deployment/archiving/archiving.md) и [Развертывание архивации для Скайп для Business Server](../../deploy/deploy-archiving/deploy-archiving.md).
   
 > [!NOTE]
-> Если для развертывания активирована интеграция Microsoft Exchange, политики Exchange определяют, включена ли архивация для пользователей, которые размещены на Exchange и для которых почтовые ящики переведены на хранение на месте. Дополнительные сведения см [Планирование архивации в Скайп для Business Server 2015](../../plan-your-deployment/archiving/archiving.md) и [Настройка интеграции с хранилищем Exchange для Скайп для Business Server 2015](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Если для развертывания активирована интеграция Microsoft Exchange, политики Exchange определяют, включена ли архивация для пользователей, которые размещены на Exchange и для которых почтовые ящики переведены на хранение на месте. Дополнительные сведения см [Планирование архивации в Скайп для Business Server](../../plan-your-deployment/archiving/archiving.md) и [Настройка интеграции с хранилищем Exchange для Скайп для Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="archiving-configuration-options"></a>Параметры конфигурации архивации
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/28/2018
     
 - настройку удаления и экспорта данных.
     
-Эти параметры можно задавать глобально, на уровне сайтов или пулов. Для получения дополнительных сведений см. [Управление параметры архивации в Скайп для Business Server 2015](options.md).
+Эти параметры можно задавать глобально, на уровне сайтов или пулов. Для получения дополнительных сведений см. [Управление параметры архивации в Скайп для Business Server](options.md).
   
 ## <a name="archiving-policies"></a>Политики архивации
 
@@ -53,11 +53,11 @@ ms.lasthandoff: 03/28/2018
     
 - внешние коммуникации.
     
-Эти политики можно задавать глобально, на уровне сайтов или пользователей. Для получения дополнительных сведений см. [Управление политики архивации в Скайп для Business Server 2015](policies.md).
+Эти политики можно задавать глобально, на уровне сайтов или пользователей. Для получения дополнительных сведений см. [Управление политики архивации в Скайп для Business Server](policies.md).
   
 ## <a name="manage-archiving-by-using-the-control-panel-or-by-using-windows-powershell"></a>Управление архивацией с помощью панели управления или командлетов Windows PowerShell
 
-Архивацией можно управлять с помощью панели управления или Windows PowerShell. В таблице ниже приводятся сводные сведения о доступных командлетах, которые помогают управлять архивацией. Для получения дополнительных сведений о синтаксисе, включая все доступные параметры просмотра [Скайп оболочки управления 2015 Business Server](../management-shell.md). 
+Архивацией можно управлять с помощью панели управления или Windows PowerShell. В таблице ниже приводятся сводные сведения о доступных командлетах, которые помогают управлять архивацией. Для получения дополнительных сведений о синтаксисе, включая все доступные параметры видеть [Скайп для консоли Business Server](../management-shell.md). 
 
 
 |**Командлет**|**Описание**|

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
+ROBOTS: NOINDEX, NOFOLLOW
 description: Параметры конфигурации используются для включения и отключения управления версиями клиентов. Конфигурация версии клиента глобального устанавливается с Скайп для Business Server и используется для включения или отключения контроля версий клиента для развертывания всего сервера. Когда включена глобальная конфигурация, при попытке пользователя войти в систему применяются все заданные политики версий клиентов. Вы можете отключить глобальную конфигурацию версий клиентов, если не хотите применять какое-либо управление версиями.
-ms.openlocfilehash: 3b03ae27b20ddd84a371c91c95bb3372457df33b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a5647926d8fca4548dd376da6218e6f9aac27d3c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987580"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983772"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Конфигурация версии клиента: создание новой или редактирование существующей
  

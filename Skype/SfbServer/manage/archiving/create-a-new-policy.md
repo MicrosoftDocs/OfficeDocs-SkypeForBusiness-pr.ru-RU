@@ -1,24 +1,24 @@
 ---
-title: Создание новой политики архивации в Skype для бизнеса Server 2015
+title: Создание новой политики архивации в Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: 'Сводка: Узнайте, как создать новую политику архивации для Скайп Business Server 2015.'
-ms.openlocfilehash: 38a87892620a4d4fdd70b2cf855dc37d371b1b57
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Узнайте, как создать новую политику архивации для Скайп Business Server.'
+ms.openlocfilehash: e900bd9ac73a6e192eba7a506d713a56a69e794d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970360"
 ---
-# <a name="create-a-new-archiving-policy-in-skype-for-business-server-2015"></a>Создание новой политики архивации в Skype для бизнеса Server 2015
+# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Создание новой политики архивации в Скайп для Business Server
 
-**Сводка:** Узнайте, как создать новую политику архивации для Скайп Business Server 2015.
+**Сводка:** Узнайте, как создание новой политики архивации Скайп для Business Server.
   
 Новые политики архивации можно создавать с помощью панели управления или командлетов Windows PowerShell.
   
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/28/2018
 6. Щелкните **Исполнить**.
     
     > [!IMPORTANT]
-    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения см [Применить политики архивации для пользователей, Скайп для Business Server 2015](apply-a-policy-to-users.md). 
+    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения см [Применить политики архивации для пользователей, Скайп для Business Server](apply-a-policy-to-users.md). 
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Создание новой политики архивации с помощью Windows PowerShell
 

@@ -3,18 +3,19 @@ title: Сведения о таблице регистрации Вызовов 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: В следующих разделах описываются столбцы таблиц схемы сведений о данных записей регистрации вызовов базы данных.
-ms.openlocfilehash: 36426f194219ecb8cf64e071eb40b24e9dc52bc3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 631a7ad4bd24dc5c41302f6f67ad97b6add0a490
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012439"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Сведения о таблице регистрации Вызовов в Скайп для Business Server 2015
  
@@ -78,9 +79,9 @@ ms.lasthandoff: 03/28/2018
     
 - [Таблица Media](media.md)
     
-- [Таблица mediaList](medialist.md)
+- [Таблица MediaList](medialist.md)
     
-- [Таблица mediationservers](mediationservers.md)
+- [Таблица MediationServers](mediationservers.md)
     
 - [Таблица MSMQProcessing](msmqprocessing.md)
     
@@ -94,7 +95,7 @@ ms.lasthandoff: 03/28/2018
     
 - [Таблица Registration](registration.md)
     
-- [Таблица roles](roles.md)
+- [Таблица Roles](roles.md)
     
 - [Таблица Servers](servers.md)
     
@@ -108,11 +109,11 @@ ms.lasthandoff: 03/28/2018
     
 - [Таблица задач](task.md)
     
-- [Таблица tenants](tenants.md)
+- [Таблица Tenants](tenants.md)
     
 - [Таблица UriTypes](uritypes.md)
     
-- [Таблица пользователей](users.md)
+- [Таблица User](users.md)
     
 - [Таблица useragentdef](useragentdef.md)
     

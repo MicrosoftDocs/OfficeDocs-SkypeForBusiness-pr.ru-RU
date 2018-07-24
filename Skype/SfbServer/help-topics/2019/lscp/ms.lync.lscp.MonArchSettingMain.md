@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Использование конфигураций архивирования для управления параметрами для вашей Скайп для развертывания Business Server, среди которых включение и отключение следующих параметров архивирования:'
-ms.openlocfilehash: 3bac88f44fea669c0eb1219046067f1e348c413c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d8e7adec0918cf13104857957442f1f0a5f4ff3d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973215"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004262"
 ---
 # <a name="archiving-configuration"></a>Конфигурация архивирования
  
@@ -64,5 +65,5 @@ ms.locfileid: "19973215"
     
 - **Обновление** Можно обновить страницу **Конфигурация архивирования** , чтобы проверить состояние параметров всех конфигураций архивирования.
     
-Подробные сведения о функции архивации и возможностей, включая интеграцию с Exchange в разделе [Планирование архивации в Скайп для Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [Развертывание архивации для Скайп для Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивации в Скайп для Бизнес-2015 сервера](../../../manage/archiving/archiving.md).
+Подробные сведения о функции архивации и возможностей, включая интеграцию с Exchange в разделе [Планирование архивации в Скайп для Business Server](../../../plan-your-deployment/archiving/archiving.md), [Развертывание архивации для Скайп для Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивации в Скайп для бизнеса Сервер](../../../manage/archiving/archiving.md).
 

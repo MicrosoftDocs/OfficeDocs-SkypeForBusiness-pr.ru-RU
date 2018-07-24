@@ -1,33 +1,33 @@
 ---
-title: Управление параметрами конфигурации веб-службы в Skype для бизнеса Server 2015
+title: Управление параметрами конфигурации веб-службы в Скайп для Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-description: 'Сводка: Управление параметрами конфигурации веб-службы в Скайп для Business Server 2015.'
-ms.openlocfilehash: a0976728ecd09392408fb719861681e0465d7bed
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Сводка: Управление параметрами конфигурации веб-службы в Скайп для Business Server.'
+ms.openlocfilehash: 7724ef576142c2eb6cebb287a88b7761a69028aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995836"
 ---
-# <a name="manage-web-service-configuration-settings-in-skype-for-business-server-2015"></a>Управление параметрами конфигурации веб-службы в Skype для бизнеса Server 2015
+# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Управление параметрами конфигурации веб-службы в Скайп для Business Server
  
-**Сводка:** Управление параметрами конфигурации веб-службы в Скайп Business Server 2015.
+**Сводка:** Управление параметрами конфигурации веб-службы в Скайп для Business Server.
   
-Страница **Веб-службы** можно использовать для настройки методов проверки подлинности для доступа к Скайп для Business Server 2015 связанных с веб-серверов и веб-служб.
+Страница **Веб-службы** можно использовать для настройки методов проверки подлинности для доступа к Скайп для Business Server связанных с веб-серверов и веб-служб.
   
 Чтобы создать политику веб-службы, выполните следующие действия.
   
 ### <a name="to-create-new-web-service-configuration-settings"></a>Создание параметров конфигурации новой веб-службы
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server 2015.
+1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
     
@@ -53,13 +53,13 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>Изменение параметров конфигурации существующей веб-службы
 
-Страница **Веб-службы** можно использовать для настройки методов проверки подлинности для доступа к Скайп для Business Server 2015 связанных с веб-серверов и веб-служб.
+Страница **Веб-службы** можно использовать для настройки методов проверки подлинности для доступа к Скайп для Business Server связанных с веб-серверов и веб-служб.
   
 Чтобы изменить политику существующей веб-службы, выполните следующие действия.
   
 ### <a name="to-modify-existing-web-service-configuration-settings"></a>Изменение параметров конфигурации существующей веб-службы
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server 2015.
+1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
     
@@ -85,7 +85,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-delete-web-service-configuration-settings"></a>Удаление параметров конфигурации существующей веб-службы
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server 2015.
+1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
     

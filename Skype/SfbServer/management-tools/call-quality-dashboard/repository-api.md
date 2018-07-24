@@ -3,7 +3,7 @@ title: Репозиторий API для панели мониторинга к�
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Сводка: Сведения об API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.'
-ms.openlocfilehash: 083a7b3a9a539757769ba0a2d2fcf0d3ea2f9b1b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 67378b6b0e927f45605a1ca0f7cdddffafac3022
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570194"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989096"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>Репозиторий API для панели мониторинга качества звонков (CQD) в Скайп для Business Server 2015
  

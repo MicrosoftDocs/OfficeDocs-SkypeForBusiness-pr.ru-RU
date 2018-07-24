@@ -1,30 +1,29 @@
 ---
-title: Применение политики архивации к пользователям Skype для бизнеса Server 2015
+title: Применение политики архивации для пользователей, Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 'Сводка: Узнайте, как назначение политики архивации для пользователей, Скайп для Business Server 2015.'
-ms.openlocfilehash: 0a9b19f6b02daae09f71b1f9933c90bfc86c5e23
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Узнайте, как назначение политики архивации для пользователей, Скайп для Business Server.'
+ms.openlocfilehash: bc54c25a710e4e1cca44fb7311a47101f31ef7df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569388"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985618"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server-2015"></a>Применение политики архивации к пользователям Skype для бизнеса Server 2015
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Применение политики архивации для пользователей, Скайп для Business Server
 
-**Сводка:** Узнайте, как назначение политики архивации для пользователей, Скайп для Business Server 2015.
+**Сводка:** Узнайте, как назначение политики архивации для пользователей, Скайп для Business Server.
   
-Если вы создали одну или несколько политик пользователей для архивации для пользователей, размещенных на Скайп для Business Server 2015, вы можете реализовать поддержки архивации для конкретных пользователей путем применения соответствующих политик для этих пользователей или групп пользователей. Например если создать политику для поддержки архивации внутренних коммуникаций, можно применить их хотя бы одному пользователю или группе пользователей для поддержки архивации из Скайп пользователя для коммуникаций Business Server 2015.
+Если вы создали одну или несколько политик пользователей для архивации для пользователей, размещенных на Скайп для Business Server, вы можете реализовать поддержки архивации для конкретных пользователей путем применения соответствующих политик для этих пользователей или групп пользователей. Например если создать политику для поддержки архивации внутренних коммуникаций, можно применить их хотя бы одному пользователю или группе пользователей для поддержки архивации из Скайп пользователя для коммуникаций Business Server.
   
 > [!NOTE]
-> Если включена интеграция с Microsoft Exchange для вашего развертывания, управления политики хранения на месте Exchange ли архивации для пользователей, которые размещаются на сервере Exchange и установить их почтовые ящики на хранение на месте. Дополнительные сведения см [Планирование архивации в Скайп для Business Server 2015](../../plan-your-deployment/archiving/archiving.md) и [Настройка интеграции с хранилищем Exchange для Скайп для Business Server 2015](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Если включена интеграция с Microsoft Exchange для вашего развертывания, управления политики хранения на месте Exchange ли архивации для пользователей, которые размещаются на сервере Exchange и установить их почтовые ящики на хранение на месте. Дополнительные сведения см [Планирование архивации в Скайп для Business Server](../../plan-your-deployment/archiving/archiving.md) и [Настройка интеграции с хранилищем Exchange для Скайп для Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Применение политики пользователей с помощью панели управления
 

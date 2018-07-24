@@ -3,7 +3,7 @@ title: Расширитель общих настроек AV MCU
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: 'Чтобы изменить свойства для A аудио- и видеоконференций пула, который уже были определены, можно сделать следующее:'
-ms.openlocfilehash: 9e0b1ef0aafae579aa0bab56e340177aeea0ecf8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0f51245a29edf829eabfec21b2d2dd5a85b3b15e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016528"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Расширитель общих настроек AV MCU
  
@@ -33,7 +34,7 @@ ms.lasthandoff: 03/28/2018
 > [!NOTE]
 > Если не пулов переднего плана, отображаются в **выберите пулов переднего плана для связи с A / пула аудио-и видеоконференциями** области, либо совмещенного A / V Server конференц-связи с пулом переднего плана или не выбран параметр для добавления конференц-связи в функции **и функциональные возможности** раздел свойств пула переднего плана.
   
-## 
+
 
 После завершения нажмите кнопку **ОК** , чтобы завершить редактирование A аудио- и видеоконференций пула параметров. Для отмены изменений нажмите кнопку **Отмена**.
   

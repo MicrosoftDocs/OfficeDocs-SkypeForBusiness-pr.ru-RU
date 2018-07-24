@@ -1,26 +1,25 @@
 ---
-title: Назначение политики ПИН-кодов уровня пользователя в Skype для бизнеса Server 2015
+title: Назначение политики ПИН-код пользователя в Скайп для Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: 'Сводка: Рабочей области AV и OAuth сертификаты для Скайп для Business Server 2015.'
-ms.openlocfilehash: 6eba19d67f2b2b04c98ed993fa02ca0c2052f28a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Рабочей области AV и OAuth сертификаты для Скайп для Business Server.'
+ms.openlocfilehash: fc7444aae0dfea0f22500f524490aea470c83903
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569514"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005955"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server-2015"></a>Назначение политики ПИН-кодов уровня пользователя в Skype для бизнеса Server 2015
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Назначение политики ПИН-код пользователя в Скайп для Business Server
 
-**Сводка:** Сертификаты рабочей области AV и OAuth для Скайп для Business Server 2015.
+**Сводка:** Сертификаты рабочей области AV и OAuth для Скайп для Business Server.
   
 Политика конференц связи с телефонным персонального идентификационного номера (ПИН-кода) — это один из индивидуальных параметров учетной записи пользователя, который можно настроить в Скайп для панели управления Business Server.
   
@@ -67,7 +66,7 @@ ms.locfileid: "19569514"
     > [!NOTE]
     > Из-за несколько политик, которые можно настроить с помощью диалогового окна **Назначение политик** ** \<Сохранить как и\> ** установлен по умолчанию для каждой политики в диалоговом окне. Чтобы продолжить использование политики, назначенной пользователю ранее, не вносите никаких изменений в эти настройки.
   
-   - Разрешить Скайп для Business Server 2015 автоматический выбор либо политики глобального уровня или, если она задана, политику уровня сайта.
+   - Разрешить Скайп для Business Server автоматический выбор либо политики глобального уровня или, если она задана, политику уровня сайта.
     
    - Щелкните имя политики ПИН-кода на пользователя, ранее заданную на странице **Политика ПИН-кода**.
     
@@ -108,4 +107,4 @@ ms.locfileid: "19569514"
   
 ## <a name="see-also"></a>См. также
 
-[Создание новой политики ПИН-код в Скайп для Business Server 2015](create-a-new-pin-policy.md)
+[Создание новой политики ПИН-код в Скайп для Business Server](create-a-new-pin-policy.md)
