@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'В построителе топологий можно выполнить задачи, связанные с отдельного сервера под управлением мониторинг либо щелкните правой кнопкой мыши сервер мониторинга в дереве консоли, выбрав пункты действие на панели инструментов или задач в области действия, а затем выбрав один из следующие параметры для сервера под управлением мониторинг:'
-ms.openlocfilehash: 006bfb85db15bd5d842644ca63edf55cf3b9b495
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ea748113fa701b0b8c65078704b9b570514fafb3
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987278"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082602"
 ---
 # <a name="monitoring-scope-node"></a>Узел области мониторинга
  

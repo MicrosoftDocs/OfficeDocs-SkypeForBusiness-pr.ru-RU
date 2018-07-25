@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
-description: В построителе топологий можно выполнить задачи, связанные с отдельного сервера архивирование, либо сервера архивации в дереве консоли правой кнопкой мыши, нажав кнопку действия на панели инструментов или нажав кнопку задачи в области действия и затем выбрав следующей архивации Параметр Server.
-ms.openlocfilehash: a42a215a3a8af193c68c12bdf953948d449d3536
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Для выполнения в построителе топологий задач, относящихся к отдельному серверу архивации, можно щелкнуть правой кнопкой мыши Сервер архивации и выбрать Действие на панели инструментов или щелкнуть задачу на панели действий, затем щелкнуть один из следующих параметров сервера архивации.
+ms.openlocfilehash: 881ccca58456f227f868a2a0e288b2c0a139583d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967574"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082645"
 ---
 # <a name="archiving-servers-scope-node"></a>Узел области серверов архивации
  

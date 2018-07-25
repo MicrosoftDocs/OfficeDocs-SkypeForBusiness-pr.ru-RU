@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
+ROBOTS: NOINDEX, NOFOLLOW
 description: Определение сервера-посредника, укажите параметры, которые связать сервер-посредник с сервера переднего плана и пограничного сервера или пула. Чтобы связать сервер-посредник или пул с пограничного сервера или пула пограничных серверов, выполните следующие действия.
-ms.openlocfilehash: 5fe2a7439494fdb8cc0e579eff6a146851bea369
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b619b4d4244aadcb8e161da0a2393c5896024585
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974882"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082631"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Связывание сервера-посредника с пограничным сервером
  
