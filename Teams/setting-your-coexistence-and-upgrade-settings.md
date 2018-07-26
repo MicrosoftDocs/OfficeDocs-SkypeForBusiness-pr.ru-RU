@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b23869226081b46a3668d33b0a25528de4e04ec4
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: c2f5b518beceb00909e7b6b97f7bfd6eb513edd8
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266892"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21148427"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Настройка параметров сосуществования и обновления
 
@@ -26,6 +26,10 @@ ms.locfileid: "20266892"
 При обновлении вашего Скайп для бизнес-пользователям использовать команды, у вас есть несколько вариантов, которые помогут вам сделать его облегчения процесса для пользователей. Вы можете сделать сосуществования и обновление параметров для всех пользователей в организации за один раз, или можно внести изменения параметров для одного или нескольких пользователей в вашей организации. Обратите внимание, что старые версии Скайп пользователей может не учитывают эти параметры.
 
 Параметры, назначенные на уровне пользователей имеют приоритет перед параметров, применяемых на уровне всей организации. Можно получить больше узнать о типах режимах, которые можно использовать в, прочитав статью [понять сосуществования и обновление пути для Скайп для бизнеса и рабочих групп](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).  
+
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+
 
 ## <a name="setting-upgrade-options-for-all-users-in-your-organization"></a>Настройка параметров обновления для всех пользователей в вашей организации
 

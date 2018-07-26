@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Партнеры корпорации Майкрософт с выбранным поставщикам SBC для подтверждения своей SBC для работы с прямой маршрутизации.
-ms.openlocfilehash: 27586342fd81046dc21c97267b6875c41926de71
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 2ba827e734916b983c54f910b00af92fc8d74bdb
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246651"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21148250"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список сертифицированных для прямой маршрутизации пограничных контроллеров сеансов
 
@@ -33,7 +33,7 @@ ms.locfileid: "20246651"
 
 В следующей таблице перечислены устройства, сертифицированном для прямой маршрутизации. 
 
-[Дополнительные сведения о прямой маршрутизации](https://aka.ms/dr). 
+[Дополнительные сведения о прямой маршрутизации](https://aka.ms/dr). Если у вас возникли вопросы о программа сертификации SBC для прямой маршрутизации по электронной почте для drsbccertification@microsoft.com
 
 
 |Поставщика  |Продукта  |Не посредника  |Обход сервера-посредника  |Версия программного обеспечения|
