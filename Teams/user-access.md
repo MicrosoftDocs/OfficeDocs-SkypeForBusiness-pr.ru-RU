@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a612420808af06a773d206573f02d805aac06b15
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: 1a3905d0a131e36c0d2e5315a2e3436c468d49bd
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20265885"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21249351"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Управление доступом пользователей к Microsoft Teams
 =====================================
@@ -47,7 +47,7 @@ ms.locfileid: "20265885"
 
 Включение и отключение в PowerShell лицензии на рабочую нагрузку Microsoft Teams выполняются точно так же, как и для других нагрузок. План обслуживания для Microsof Teams называется TEAMS1. (Дополнительные сведения: [Отключение доступа к службам с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).)
 
-**Пример:** Ниже приведен только краткий образец на как может отключить команды для всех пользователей определенного лицензию. Сначала выполните эту операцию, а затем отдельно активируйте лицензии для каждого пользователя, которому нужен доступ в рамках пилотной программы.
+**Пример:** Ниже приведен краткий образца на как может отключить команды для всех пользователей определенного лицензию. Сначала выполните эту операцию, а затем отдельно активируйте лицензии для каждого пользователя, которому нужен доступ в рамках пилотной программы.
 
 Чтобы отобразить типы подписок в вашей организации, используйте следующую команду.
 

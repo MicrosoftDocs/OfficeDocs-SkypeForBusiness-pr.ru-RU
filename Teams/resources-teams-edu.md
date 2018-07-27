@@ -3,7 +3,7 @@ title: Ресурсы группами Майкрософт для образо�
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/18/2018
+ms.date: 07/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -12,19 +12,19 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b411722b94e7a540fe5af4dc8b098ad935876c00
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eb38d1dc24094233bac94f75967bf8f1e42b93d
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995989"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21251886"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Ресурсы группами Майкрософт для образовательных учреждений "Администраторы"
 ==============================================
 
 ## <a name="adoption-content"></a>Содержимое внедрения
 
-Создание настраиваемого сообщения, плакаты и объявления с вашей школа сведения и логотип. Или используйте все готово для печати плакатов и дополнительную информацию, чтобы получить нравится группами Майкрософт вашей организации.
+Создание настраиваемого сообщения, плакаты и объявления с вашей школа сведения и логотип. Или используйте все готово для печати плакатов, рекламных листовок и других раздаточные материалы, чтобы получить нравится группами Майкрософт вашей организации.
 
 |Шаблоны настраиваемый электронной почты |         |
 |---------|---------|
@@ -37,6 +37,10 @@ ms.locfileid: "20995989"
 |**Общие сведения об группами Майкрософт для образовательных учреждений - значения**<br>[Загрузить настраиваемые DOCX-файл](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx?raw=true)<br>[Загрузить файл PDF все готово для печати](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![Снимок экрана с группами Майкрософт краткие сведения о для образовательных учреждений - плакат значения.](media/poster-intro-values.png)    |**Общие сведения об группами Майкрософт для образовательных учреждений - функции**<br>[Загрузить настраиваемые DOCX-файл](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx?raw=true)<br>[Загрузить файл PDF все готово для печати](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![Снимок экрана с группами Майкрософт краткие сведения о для образовательных учреждений - плакат функции.](media/poster-intro-features.png)          |
 |**Взаимодействовать с группами Майкрософт - значения**<br>[Загрузить настраиваемые DOCX-файл](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx?raw=true)<br>[Загрузить файл PDF все готово для печати](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![Снимок экрана Empower с группами Майкрософт - плакат значения.](media/poster-empower-values.png)   |**Взаимодействовать с группами Майкрософт - функции**<br>[Загрузить настраиваемые DOCX-файл](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx?raw=true)<br>[Загрузить файл PDF все готово для печати](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![Снимок экрана Empower с группами Майкрософт - плакат функции.](media/poster-empower-features.png)          |
 |**Значение группами Майкрософт для образовательных заведений**<br>[Загрузить настраиваемые DOCX-файл](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[Загрузить файл PDF все готово для печати](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-values.pdf?raw=true)<br>![Снимок экрана значение группами Майкрософт для образовательных заведений дополнительная информация.](media/flyer-values.png)    |**Функции группами Майкрософт для образовательных заведений**<br>[Загрузить настраиваемые DOCX-файл](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[Загрузить файл PDF все готово для печати](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-features.pdf?raw=true)<br>![Снимок экрана с компонентами группами Майкрософт для образовательных заведений дополнительная информация.](media/flyer-features.png)        |
+
+|Все готово для печати пакетов  |        |
+|---------|---------|
+|**Начало работы с группами Майкрософт для образовательных учреждений - советы и рекомендации**<br>[Загрузить файл PDF все готово для печати](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![Снимок экрана: начало работы с группами Майкрософт для образовательных заведений пакетов.](media/package-teams-edu-get-started.png)    |
 
 ## <a name="call-to-action"></a>Призыв к действию
 
