@@ -134,15 +134,21 @@
 <!-- ============================================================ -->
 # Безопасность и соответствие требованиям
 ## [Обзор обеспечения безопасности и соответствия в Teams](security-compliance-overview.md)
-## [Рекомендации по сбору данных для Skype для бизнеса и Teams](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Обнаружение электронных данных в Teams](ediscovery-investigation.md)
 ## [Модели удостоверений и проверка подлинности в Microsoft Teams](identify-models-authentication.md)
 ## [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
 ## [Поиск событий Teams в журнале аудита](audit-log-events.md)
 ## [Поиск контента в Teams](content-search.md)
+## [Объявление о соответствии во Франции для групп Майкрософт специальных возможностей](accessibility-declaration-of-conformance-in-france-for-teams.md)
+##  [Специальные возможности решения для Скайп для бизнеса в Интернет и рабочих групп Microsoft](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Код упражнения в Великобритании](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Спецификации обработки кода для Великобритании](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Период бесплатного обратного звонка](/SkypeForBusiness/legal-and-regulatory/?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Рекомендации по сбору данных](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Метки экстренных вызовов](/SkypeForBusiness/legal-and-regulatory/emergency-calling-lables?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Условия и положения, распространяющиеся на экстренные вызовы](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
-
-
 <!-- ============================================================ -->
 # Взаимодействие с Office 365
 ## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)

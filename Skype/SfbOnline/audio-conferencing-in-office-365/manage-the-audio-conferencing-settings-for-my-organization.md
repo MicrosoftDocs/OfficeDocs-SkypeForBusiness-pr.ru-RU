@@ -1,5 +1,5 @@
 ---
-title: Управление параметрами звука конференц-связи для организации
+title: Управление настройками аудиоконференции для организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'В разделе действия, чтобы назначить идентификатора лицензии и конференц-связь с телефонным пользователя и другие параметры конференц-связи. '
-ms.openlocfilehash: 26d80b71344227aeaec7089e2bb9f9a9dfe32ad2
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: f3ab0f2d1ac32de5744dc4ac994e8030a1540ba4
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703671"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21642478"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Управление параметрами звука конференц-связи для организации
+# <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Управление настройками аудиоконференции для организации
 
 Можно легко видеть все параметры аудиоконференций Скайп для бизнеса и группами Майкрософт в одном месте. 
 
@@ -86,7 +86,7 @@ ms.locfileid: "19703671"
 - You can also use the Windows PowerShell and run: 
     
   ```
-  Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $true|$false
+  Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
     [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) можно использовать для управления другими параметрами для вашей организации, включая электронной почты.
