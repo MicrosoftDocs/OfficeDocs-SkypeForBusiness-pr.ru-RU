@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: В этой статье обсуждается удаленное управление параметры по умолчанию, используемый устройством версии 2 Скайп комнаты системы, включая применение пользовательской темы.
-ms.openlocfilehash: 9310683d3dbe274721f2bdcd583492b63a10d821
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e8ff661dfab6810d1072b86dddcb8621c63b8d0
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015601"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21711053"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Удаленное управление параметрами консоли Систем комнат Skype версии 2 с помощью XML-файла конфигурации
  
@@ -39,6 +39,9 @@ ms.locfileid: "21015601"
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
              <AutoRotatePassword>1</AutoRotatePassword>
   </UserAccount>    
+  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+  <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+  <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled> 
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled> 
   <DualScreenMode>true</DualScreenMode>
@@ -74,14 +77,16 @@ ms.locfileid: "21015601"
 |\<HideMeetingName\>  <br/> |Логическое значение & #x 2777; <br/> |Первая & #x 2776; <br/> |Если имеет значение "true", названия собраний скрываются.  <br/> |
 |\<UserAccount\>  <br/> |Контейнер  <br/> |Первая & #x 2776; <br/> |Контейнер для параметров учетных данных.  <br/> Знак в адрес, адрес Exchange или адрес электронной почты, как правило, то же самое, таких как RanierConf<span></span>@contoso.com.  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |Логическое значение & #x 2777; <br/> |Первая & #x 2776; <br/> |По умолчанию эта функция включена.  <br/> |
-|\<TeamsMeetingsEnabled\>  <br/> |Логическое значение & #x 2777; <br/> |Первая & #x 2776; <br/> |По умолчанию эта функция отключена.  <br/> XML-файл считается неправильно сформированным, если оба \<SkypeMeetingsEnabled\> и\<TeamsMeetingsEnabled\> отключены, однако это допустимо иметь оба параметра включены в то же время.  <br/> |
 |\<SkypeSignInAddress\>  <br/> |Строковый 3 <br/> ||Имя для входа для учетной записи устройства Skype для бизнеса консоли.  <br/> |
 |\<ExchangeAddress\>  <br/> |Строковый 3 <br/> ||Имя для входа для учетной записи устройства Exchange консоли.  <br/> Если параметр "ExchangeAddress" (Адрес Exchange) пропущен, параметр "SkypeSignInAddress" (Адрес для входа Skype) не будет применяться автоматически.   <br/> |
 |\<DomainUsername\>  <br/> |Строка & #x Microsoft 2778; <br/> ||Домен и имя пользователя устройства консоли, например Seattle\RanierConf.  <br/> |
 |\<Пароль\>  <br/> |Строковый 3 <br/> || Параметр пароля содержит пароль, используемый для входа в учетной записи устройства Skype для бизнеса.  <br/> |
 | \<ConfigureDomain\> <br/> |Строка & #x Microsoft 2778; <br/> ||Можно указать список доменов, разделенных запятыми.  <br/> |
 |\<AutoRotatePassword\>  <br/> |Логическое значение & #x 2777; <br/> |||
-| \<DualScreenMode\> <br/> |Логическое значение & #x 2777; <br/> |Первая & #x 2776; <br/> |Если значение true, включен режим двойной экрана. В противном случае устройство работает в режиме одного экрана.  <br/> |
+|\<TeamsMeetingsEnabled\>  <br/> |Логическое значение & #x 2777; <br/> |Первая & #x 2776; <br/> |По умолчанию эта функция отключена.  <br/> XML-файл считается неправильно сформированным, если оба \<SkypeMeetingsEnabled\> и\<TeamsMeetingsEnabled\> отключены, однако это допустимо иметь оба параметра включены в то же время.  <br/> |
+|\<IsTeamsDefaultClient > |Логическое значение & #x 2777; <br/> |Первая & #x 2776; <br/> |По умолчанию эта функция отключена. <br/>|
+|\<BluetoothAdvertisementEnabled > |Логическое значение & #x 2777; <br/> |Первая & #x 2776; <br/> |По умолчанию эта функция включена. <br/>|
+|\<DualScreenMode\> <br/> |Логическое значение & #x 2777; <br/> |Первая & #x 2776; <br/> |Если значение true, включен режим двойной экрана. В противном случае устройство работает в режиме одного экрана.  <br/> |
 |\<SendLogs\>  <br/> |Контейнер  <br/> |Первая & #x 2776; <br/> ||
 |\<EmailAddressForLogsAndFeedback\>  <br/> |Строка & #x Microsoft 2778; <br/> ||Задает необязательный адрес электронной почты, на который отправляются журналы при открытии окна "Обратная связь".   <br/> |
 |\<SendLogsAndFeedback\>  <br/> |Логическое значение & #x 2777; <br/> || Если имеет значение "true", журналы отправляются администратору. Если имеет значение "false", администратору отправляются только отзывы, но не журналы. <br/> |

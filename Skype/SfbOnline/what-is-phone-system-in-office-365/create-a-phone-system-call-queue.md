@@ -1,5 +1,5 @@
 ---
-title: Создание очереди вызовов с телефонной системой
+title: Создание очереди звонков в телефонной системе
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 18988c7d6f913b85d11bc465c336dfd265fa34a0
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: 9b86bec84846dff36e509488eb34f0415fe8cd95
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649585"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708353"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Создание очереди вызовов с телефонной системой
+# <a name="create-a-phone-system-call-queue"></a>Создание очереди звонков в телефонной системе
 
 Телефонный звонок системы очередей включают приветствие, используемые при получении звонка на номер телефона для вашей организации, возможность автоматически переводить звонки в режим удержания и возможность поиска для следующего агента доступные вызова для обработки вызова при людей, вызов прослушивают музыку при удержании. Можно создать один или несколько очередей звонка для вашей организации.
   
@@ -90,6 +90,14 @@ ms.locfileid: "19649585"
   - iPhone Скайп для клиента Business (версия 6.16.0 и более поздних версий)
     
   - iPad Скайп для клиента Business (версия 6.16.0 и более поздних версий)
+
+  - Клиент Microsoft Windows групп (32- и 64-разрядной версии)
+
+  - Клиент Microsoft группами Mac
+
+  - Группами Майкрософт для iPhone
+
+  - Приложения для Android группами Майкрософт
     
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Шаг 2. Получение или перенос платных или бесплатных номеров телефонов служб
 
