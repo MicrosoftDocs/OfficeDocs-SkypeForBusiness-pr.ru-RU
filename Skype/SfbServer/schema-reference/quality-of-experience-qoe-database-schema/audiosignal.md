@@ -10,17 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Каждая запись представляет метрики звукового сигнала для одной конечной точки. Как правило каждого вызова имеет две записи, также является вызывающего абонента и является вызываемого абонента.
-ms.openlocfilehash: 25d565538ecdf7cae15ff23f539a2e2eddf8680f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0ffab37f49e55f73d8d414258e208265e2b5e9ff
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21781650"
 ---
 # <a name="audiosignal-table"></a>Таблица AudioSignal
  
 Каждая запись представляет метрики звукового сигнала для одной конечной точки. Как правило каждого вызова имеет две записи, также является вызывающего абонента и является вызываемого абонента. 
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылка из [MediaLine table](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |целое  <br/> |Primary  <br/> |Ссылка из [MediaLine table](medialine-0.md).  <br/> |
@@ -53,5 +54,6 @@ ms.lasthandoff: 03/28/2018
 |**SendSignalLevelCh2** <br/> |целое  <br/> ||Уровень сигнала, переданного по каналу 2.  <br/> Этот столбец появился в Microsoft Lync Server 2013.  <br/> |
 |**SendNoiseLevelCh1** <br/> |целое  <br/> ||Уровень шума, переданного по каналу 1.  <br/> Этот столбец появился в Microsoft Lync Server 2013.  <br/> |
 |**SendNoiseLevelCh2** <br/> |целое  <br/> ||Уровень шума, переданного по каналу 2.  <br/> Этот столбец появился в Microsoft Lync Server 2013.  <br/> |
-   
+|**RenderLoopbackSignalLevel** <br/> |целое  <br/> ||Уровень в dBFS сигнала, отправляемого динамик для воспроизведения. Учетные записи для корректировок полученного сигнала любой рост. <br/> Этот столбец появился в Microsoft Lync Server 2013.  <br/> |   
+|**RenderNoiseLevel** <br/> |целое  <br/> ||Уровень в dBFS содержимого пропускаемых сигнала, отправляемого динамик для воспроизведения <br/> |
 
