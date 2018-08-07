@@ -10,18 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: В этой статье приведены требования для поддержки систем комнаты Скайп версии 2.
-ms.openlocfilehash: 405b7cd6fefd7fb6fbd6168957bbc2b41a83bea8
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: c6267f24771954c31cfc4c75f8fff7b1aa8b9b66
+ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20509537"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22111848"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
  
 В этой статье приведены требования для поддержки систем комнаты Скайп версии 2. 
   
 Развертывание включает создание учетной записи, как описано в разделе [Развертывание системы комнаты Скайп версии 2](../../deploy/deploy-clients/room-systems-v2.md) и о настройке консоли собрания, как описано в статье [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md). Может также потребоваться ссылаться на [Скайп для лицензирования дополнительный компонент Business](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
+
+> [!NOTE]
+> Версии 2 Скайп комнаты систем предназначен для использования с Скайп для Business Server 2019, Скайп Business Server 2015, группами Майкрософт или Скайп для бизнеса в Интернет.  <br><br>Более ранних платформы, как Lync Server 2013 не требуются для работы с системами комнаты Скайп версии 2. 
   
 ## <a name="hardware-requirements"></a>Требования к оборудованию
 
@@ -34,13 +37,13 @@ ms.locfileid: "20509537"
 **Поддерживаемые планшетные ПК**
 |Планшет|Процессор|ОЗУ|Диск|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4    |Основные i5  |4 ГБ  |128 ГБ  |
-|Surface Pro 4    |Основные i5  |8 ГБ  |256 ГБ  |    
+|Surface Pro 4       |Основные i5  |4 ГБ  |128 ГБ  |
+|Surface Pro 4       |Основные i5  |8 ГБ  |256 ГБ  |    
 |Surface Pro (2017)  |Основные i5  |4 ГБ  |128 ГБ  |
 |Surface Pro (2017)  |Основные i5  |8 ГБ  |256 ГБ  |
 |Surface Pro (2017)  |Core i7  |8 ГБ  |128 ГБ  |
-|Surface Pro (2017)  |Core i7  |16 ГБ  |512 ГБ  |
-|Surface Pro (2017) |Core i7  |16 ГБ  |1 ТБ  |
+|Surface Pro (2017)  |Core i7  |16 ГБ |512 ГБ  |
+|Surface Pro (2017)  |Core i7  |16 ГБ |1 ТБ    |
    
 > [!NOTE]
 > M3 ядрами процессора, не поддерживаются.
@@ -62,7 +65,7 @@ ms.locfileid: "20509537"
 
  
 **Сертифицированный встроенное периферийных устройств USB аудио- и видеоконференций**
-|**Периферийных систем комнаты Скайп версии 2**|**Версия микропрограммы сертифицированный для систем комнаты Скайп версии 2**|
+|Периферийных систем комнаты Скайп версии 2|Версия микропрограммы сертифицированный для систем комнаты Скайп версии 2|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Аудио - 1.0.172  <br/> Видео - 1.0.156  <br/> |
