@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: f12952944c85c77778a018de0f4f4b2bd39945b0
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19494015"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22101967"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Телефоны, поддерживаемые в Skype для бизнеса Online
 
@@ -55,7 +55,9 @@ ms.locfileid: "19494015"
 Дополнительные сведения о телефонах AudioCodes см. в разделе [IP-телефоны для Skype для бизнеса](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Skype для бизнеса Online поддерживает Lync Phone Edition. Базовая поддержка платформы LPE прекращается 10 апреля 2014 г. В соответствии с установленным жизненным циклом поддержки Lync Server 2013 период поддержки продлен до 11 апреля 2023 г. Описание жизненного цикла LPE см. в разделе [Жизненный цикл продуктов Майкрософт](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO). Skype для бизнеса Online не поддерживает модели LPE CAP.
+> Lync Phone Edition поддерживается с Скайп для бизнеса в Интернет, но не с группами Майкрософт. Основной поддержки для платформы LPE завершен сервером апреля/10/2014 г., с расширенной поддержки до апреля/11/2023 для выравнивания по срокам поддержки продуктов Lync Server 2013. Сведения о жизненном цикле LPE [Жизненный цикл продукта Microsoft](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) см. Ограничение LPE моделей не поддерживаются с Скайп для бизнеса в Интернет.
+>
+> В этом году, Office 365 не могут использовать любой версии старше версии 1.2 TLS. Поскольку операционной системы из LPE не поддерживает TLS 1.2, LPE не будет поддерживаться для подключения к Office 365 больше. Дополнительные сведения см в [статье Preparing для обязательного использования TLS 1.2 в Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) .
   
 ## <a name="supported-firmware"></a>Поддерживаемые встроенного по
 

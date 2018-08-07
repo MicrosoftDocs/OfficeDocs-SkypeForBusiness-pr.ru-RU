@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Вы можете ознакомится с кратким описанием того, как пригласить гостя присоединиться к команде в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 8d8853e9b383d90ca2b030edd6f6a9f896a6bed7
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211054"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22100135"
 ---
 <a name="how-a-guest-joins-a-team"></a>Присоединение гостя к команде
 ========================
@@ -33,7 +33,7 @@ ms.locfileid: "20211054"
 
 Ниже описано, как гость может стать участником команды:
 
-- **Шаг 1.** Владелец команды или администратор Office 365 [добавляет гостя в команду](https://support.office.com/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests).
+- **Шаг 1.** Владелец команды или администратор Office 365 [добавляет гостя в команду](https://support.office.com/en-us/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
     
   
 - **Шаг 2.** При необходимости администратор Office 365 или владелец команды может управлять доступными гостю возможностями. Например, он может разрешить гостю добавлять или удалять каналы либо запретить ему доступ к файлам.
