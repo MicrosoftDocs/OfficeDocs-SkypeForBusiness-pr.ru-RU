@@ -1,9 +1,8 @@
 ---
-title: Развертывание функции вызовов с рабочего телефона в Skype для бизнеса Server 2015
+title: Развертывание позвонить с рабочего в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,19 +11,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 'Сводка: Узнайте, как развертывание звонок через работу в Скайп для Business Server 2015 для некоторых или всех пользователей.'
-ms.openlocfilehash: 6b4dcb12458fb3421db5b500b550061c24d51bc1
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Узнайте о развертывании звонок через работу в Скайп для Business Server для некоторых или всех пользователей.'
+ms.openlocfilehash: 60890f510f5f895f3a99f070cd9cf1a7c997da61
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568251"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991047"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server-2015"></a>Развертывание функции вызовов с рабочего телефона в Skype для бизнеса Server 2015
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Развертывание позвонить с рабочего в Скайп для Business Server
  
-**Сводка:** Сведения о развертывании звонок через работу в Скайп для Business Server 2015 для некоторых или всех пользователей.
+**Сводка:** Сведения о развертывании звонок через работу в Скайп для Business Server для некоторых или всех пользователей.
   
-Используйте следующие действия для развертывания звонок с помощью рабочих для пользователей. В [Планирование для звонков с помощью Скайп для Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)рассматриваются вопросы планирования. В предыдущих версиях Lync Server удаленного вызова элемент управления был функции, которая позволяет пользователям управлять телефонах УАТС с Lync Server. В Скайп Business Server этот компонент был заменен звонок с помощью рабочих. 
+Используйте следующие действия для развертывания звонок с помощью рабочих для пользователей. В [Планирование для звонков с помощью Скайп для Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)рассматриваются вопросы планирования. В предыдущих версиях Lync Server удаленного вызова элемент управления был функции, которая позволяет пользователям управлять телефонах УАТС с Lync Server. В Скайп Business Server этот компонент был заменен звонок с помощью рабочих. 
   
 ## <a name="prerequisites-for-call-via-work"></a>Необходимые условия для позвонить с рабочего
 
@@ -98,5 +97,5 @@ ms.locfileid: "19568251"
 
 ## <a name="see-also"></a>См. также
 
-[Планирование позвонить с рабочего в Скайп для Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[Планирование позвонить с рабочего в Скайп для Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

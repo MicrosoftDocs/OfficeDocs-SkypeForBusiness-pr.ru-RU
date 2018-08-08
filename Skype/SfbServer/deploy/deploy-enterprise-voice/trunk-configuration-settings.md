@@ -1,9 +1,8 @@
 ---
-title: Создание новой коллекции параметров конфигурации магистралей в Skype для бизнеса Server 2015
+title: Создание новой коллекции магистрали, параметры конфигурации в Скайп для Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Сводка: Сведения о создании параметров конфигурации новой коллекции магистрали с помощью Скайп для панели управления Business Server.'
-ms.openlocfilehash: 2dd402e61e87642234410b74cb5c6b28b89c69a9
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e77e6fb0a84761363eb81b62858e800e2e5d65fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025802"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server-2015"></a>Создание новой коллекции параметров конфигурации магистралей в Skype для бизнеса Server 2015
- 
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Создание новой коллекции магистрали, параметры конфигурации в Скайп для Business Server 
+
 **Сводка:** Сведения о создании параметров конфигурации новой коллекции магистрали с помощью Скайп для панели управления Business Server.
   
 Параметры конфигурации магистрали SIP определяют отношения и и возможности между сервером-посредником и шлюзом ТСОП, IP-УАТС или пограничным контроллером сеансов (SBC) у поставщика услуг. Эти параметры, в частности, определяют следующее:

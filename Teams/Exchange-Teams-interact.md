@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: Сведения о взаимодействии Microsoft Teams и различных установок Exchange при использовании некоторых функций, таких как создание команд и присоединение к ним, создание каналов и т. д.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65bbcc3155147141b99f63be686a92b85f87c119
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: a89f3670d2dda14ae5d15647213aca5d1d5398af
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569917"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams 
 =========================================
@@ -34,8 +36,8 @@ ms.lasthandoff: 04/26/2018
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|
 |**Exchange Online Dedicated vNext**|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|
-|**Устаревшая среда Exchange Online Dedicated** (требуется синхронизация с Azure AD)|Да (список разрешенных)|Нет|Нет|Да|Нет|Нет|Да|Да|Нет|Да (Exchange 2013 +)|Нет|Да|Да|
-|**Локальная организация Microsoft Exchange** (требуется синхронизация с Azure AD)|Да (список разрешенных)|Нет|Нет|Да|Да (Exchange 2016 CU3 +)|Нет|Да|Да|Нет|Да (Exchange 2013 +)|Нет|Да|Да|
+|**Устаревшая среда Exchange Online Dedicated** (требуется синхронизация с Azure AD)|Да ([разрешены списка](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Нет|Нет|Да|Нет|Нет|Да|Да|Нет|Да (Exchange 2013 +)|Нет|Да|Да|
+|**Локальная организация Microsoft Exchange** (требуется синхронизация с Azure AD)|Да ([разрешены списка](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Нет|Нет|Да|Да (Exchange 2016 CU3 +)|Нет|Да|Да|Нет|Да (Exchange 2013 +)|Нет|Да|Да|
                                                             
 *\*Поддерживается Exchange 2016 с накопительным пакетом обновления 3 или более поздней версии*
 

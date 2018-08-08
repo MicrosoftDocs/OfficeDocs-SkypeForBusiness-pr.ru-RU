@@ -1,9 +1,9 @@
 ---
-title: Создание общего файлового ресурса в Skype для бизнеса Server 2015
+title: Создание общей папки в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,24 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
-description: 'Сводка: Сведения о создании общего файлового ресурса сервера Windows в ходе установки Скайп для Business Server 2015. Загрузить бесплатную пробную версию программы Скайп для 2015 Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 5f91a18a744e73cd65f58efef071978604653b27
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Сводка: Сведения о создании общего файлового ресурса сервера Windows в ходе установки Скайп для Business Server. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: a84e37c3d069c3f51570b600d5ec4804d2a5ee3c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967116"
 ---
-# <a name="create-a-file-share-in-skype-for-business-server-2015"></a>Создание общего файлового ресурса в Skype для бизнеса Server 2015
+# <a name="create-a-file-share-in-skype-for-business-server"></a>Создание общей папки в Скайп для Business Server
  
-**Сводка:** Сведения о создании общего файлового ресурса сервера Windows в ходе установки Скайп для Business Server 2015. Загрузить бесплатную пробную версию программы Скайп для 2015 Business Server в центре Microsoft оценки по:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Сводка:** Сведения о создании общего файлового ресурса сервера Windows в ходе установки Скайп для Business Server. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Скайп для Business Server требуется в общей папке, чтобы компьютеров в топологии могут обмениваться файлами. Создание общей папки — шаг 2 из 8 в процессе установки для Скайп для Business Server 2015. Шаги 1–5 можно выполнять в любом порядке. Однако шаги 6, 7 и 8 выполняются по порядку и после шагов 1–5, как показано на схеме. Планирование подробные сведения об общей папке, см [окружающей среды Скайп для Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+Скайп для Business Server требуется в общей папке, чтобы компьютеров в топологии могут обмениваться файлами. Создание общей папки — шаг 2 из 8 в процессе установки для Скайп для Business Server. Шаги 1–5 можно выполнять в любом порядке. Однако шаги 6, 7 и 8 выполняются по порядку и после шагов 1–5, как показано на схеме. Планирование подробные сведения об общей папке, содержатся в разделе [окружающей среды требования к Скайп для Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) или [требования к серверу для Скайп для Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ![Обзорная схема](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>Создание базового общего файлового ресурса
 
-В этом разделе приведены пошаговые инструкции по созданию базового общего файлового ресурса Windows Server. Базовая общей папке Windows Server поддерживается с Скайп Business Server. Тем не менее он не поддерживает явным образом высокой доступности. Для среды с высокой доступностью рекомендуется общий файловый ресурс распределенной файловой системы (DFS). Дополнительные сведения о распределенной файловой системы и высокой доступности общей папки в разделе [Планирование высокой доступности и аварийного восстановления в Скайп для Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+В этом разделе приведены пошаговые инструкции по созданию базового общего файлового ресурса Windows Server. Базовая общей папке Windows Server поддерживается с Скайп Business Server. Тем не менее он не поддерживает явным образом высокой доступности. Для среды с высокой доступностью рекомендуется общий файловый ресурс распределенной файловой системы (DFS). Дополнительные сведения о распределенной файловой системы и высокой доступности общей папки в разделе [Планирование высокой доступности и аварийного восстановления в Скайп для Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
 > В Windows Server 2012 R2 значительно усовершенствованы общие файловые ресурсы на платформе Windows Server, сходные с сетями хранения данных. По сравнению с традиционном устройством на основе сети хранения данных, система хранения данных в Windows Server 2012 R2 обеспечивает двукратное сокращение затрат при незначительном снижении производительности. Дополнительные сведения о параметрах файла совместный доступ в Windows Server 2012 R2 см загружаемом техническом документе [Windows Server 2012 R2 хранилища](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf). 

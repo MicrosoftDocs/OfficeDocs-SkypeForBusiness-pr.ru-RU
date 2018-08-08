@@ -1,9 +1,8 @@
 ---
-title: Транкинг SIP для сайта филиала Skype для бизнеса Server 2015
+title: Распределение каналов SIP сайтов филиалов в Скайп для Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: Узнайте о распределения каналов SIP на сайтах филиалов в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 862a39e7472ab461725957cea6e5a89e0c156286
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e14d6ba3101c1981b719ea0f030d2e92fbd4ab7b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966273"
 ---
-# <a name="branch-site-sip-trunking-in-skype-for-business-server-2015"></a>Транкинг SIP для сайта филиала Skype для бизнеса Server 2015
+# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Распределение каналов SIP сайтов филиалов в Скайп для Business Server
  
 Узнайте о распределения каналов SIP на сайтах филиалов в Скайп Business Server корпоративной голосовой связи.
   
-В некоторых случаях может потребоваться реализовать распределенные SIP-магистрали в выбранных филиалов. Чтобы определить, является ли SIP магистрали необходима для сайта филиала, а также для получения дополнительных сведений о поддерживаемых вариантов топологии для развертывания магистралях SIP связи сайтов филиалов, см [SIP-магистрали в Скайп для Business Server 2015](sip-trunking.md).
+В некоторых случаях может потребоваться реализовать распределенные SIP-магистрали в выбранных филиалов. Чтобы определить, является ли SIP магистрали необходима для сайта филиала, а также для получения дополнительных сведений о поддерживаемых вариантов топологии для развертывания магистралях SIP связи сайтов филиалов, см [SIP-магистрали в Скайп для Business Server](sip-trunking.md).
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Пример анализа требований к магистрали SIP для офиса филиала
 

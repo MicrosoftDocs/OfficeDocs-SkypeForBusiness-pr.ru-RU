@@ -1,9 +1,8 @@
 ---
-title: Настройка escape-последовательности голосовой почты в Skype для бизнеса 2015
+title: Настройка отмены для голосовой почты в Скайп для бизнеса
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: 'Сводка: Сведения о настройке отмены для голосовой почты в Скайп для Business Server 2015 с помощью Скайп для консоли Business Server.'
-ms.openlocfilehash: 2f8cf7549fd91c8153803a42f5dfb3b78a311e56
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Сводка: Сведения о настройке отмены для голосовой почты в Скайп для Business Server с помощью Скайп для консоли Business Server.'
+ms.openlocfilehash: 3e8686690634b9571cae963b8ca91d73a6758e26
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568292"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985138"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business-2015"></a>Настройка escape-последовательности голосовой почты в Skype для бизнеса 2015
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Настройка отмены для голосовой почты в Скайп для бизнеса
  
-**Сводка:** Сведения о настройке отмены для голосовой почты в Скайп для Business Server 2015 с помощью Скайп для консоли Business Server.
+**Сводка:** Сведения о настройке отмены для голосовой почты в Скайп для Business Server с помощью Скайп для консоли Business Server.
   
 Когда пользователь настраивает одновременных звонков на мобильный телефон, вызывающий объект обычно направляются в личную голосовую почту пользователя Если мобильный телефон является выключены, от батарей или вне диапазона. С Скайп Business Server связанной с бизнесом вызовы, направляемые в свои системы корпоративной голосовой почты выбранных пользователей. В частности можно настроить таймера, а если звонок был дан ответ с транспортной голосовой почты в интервал времени определенные, Скайп для Business Server будет отключиться от транспортной системы голосовой почты (и личную голосовую почту пользователя), при пользователя Оставшиеся конечных точек в корпоративной системе продолжить звонок. Таким образом, вызывающего автоматически маршрутизируются для корпоративной голосовой почты пользователя.
   
@@ -49,3 +48,4 @@ Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -P
 ## <a name="see-also"></a>См. также
 
 [Настройка политик голосовой связи и записей использования ТСОП для авторизации функций звонков и привилегии](http://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+

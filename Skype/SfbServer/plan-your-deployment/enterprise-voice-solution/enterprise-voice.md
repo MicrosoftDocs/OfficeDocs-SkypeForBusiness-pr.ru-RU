@@ -1,9 +1,8 @@
 ---
-title: Планирование корпоративной голосовой связи в Skype для бизнеса Server 2015
+title: Планирование корпоративной голосовой связи в Скайп Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Планирование основы в Скайп Business Server, включая сайты, регионы, сетевые связи между узлами и оценка передачи голосовых данных об использовании корпоративной голосовой связи.
-ms.openlocfilehash: f1bd8f2f8514f34390cd085bd1407894e9788620
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 413887b29a45ccdf022a4fb4c847cb0b504bb4b1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977943"
 ---
-# <a name="plan-for-enterprise-voice-in-skype-for-business-server-2015"></a>Планирование корпоративной голосовой связи в Skype для бизнеса Server 2015
+# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Планирование корпоративной голосовой связи в Скайп Business Server
  
 Планирование основы в Скайп Business Server, включая сайты, регионы, сетевые связи между узлами и оценка передачи голосовых данных об использовании корпоративной голосовой связи.
   
@@ -54,24 +54,24 @@ Microsoft Lync Server 2013, средство планирования испол
 
 В следующих разделах для получения дополнительных сведений о планировании развертывания корпоративной голосовой связи.
   
-- [Компоненты, необходимые для корпоративной голосовой связи в Скайп для Business Server 2015](components-required-for-enterprise-voice.md)
+- [Компоненты, необходимые для корпоративной голосовой связи в Скайп для Business Server](components-required-for-enterprise-voice.md)
     
-- [Планирование подключения к ТСОП в Скайп Business Server 2015](pstn-connectivity-0.md)
+- [Планирование подключения к ТСОП в Скайп Business Server](pstn-connectivity-0.md)
     
-- [Параметры сети для расширенных функций корпоративной голосовой связи в Скайп для Business Server 2015](network-settings-for-advanced-features.md)
+- [Параметры сети для расширенных функций корпоративной голосовой связи в Скайп для Business Server](network-settings-for-advanced-features.md)
     
-- [Планирование контроля допуска звонков в Скайп для Business Server 2015](call-admission-control.md)
+- [Планирование контроля допуска звонков в Скайп для Business Server](call-admission-control.md)
     
-- [Планирование для экстренных служб в Скайп Business Server 2015](emergency-services.md)
+- [Планирование для экстренных служб в Скайп Business Server](emergency-services.md)
     
-- [Планирование для сервера-посредника в Скайп для бизнеса 2015](media-bypass.md)
+- [Планирование для сервера-посредника в Скайп для бизнеса](media-bypass.md)
     
-- [Планирование частных телефонных линий с Скайп для бизнеса 2015](private-telephone-lines.md)
+- [Планирование частных телефонных линий с Скайп для бизнеса](private-telephone-lines.md)
     
-- [Планирование для маршрутизации на основе расположения в Скайп для бизнеса 2015](location-based-routing.md)
+- [Планирование зависимостью от расположения маршрутизации Скайп для бизнеса](location-based-routing.md)
     
-- [Планирование функций управления вызовами в Скайп для бизнеса 2015](call-management-features.md)
+- [Планирование функций управления вызовами в Скайп для бизнеса](call-management-features.md)
     
-- [Планирование устойчивости корпоративной голосовой связи в Скайп для Business Server 2015](enterprise-voice-resiliency.md)
+- [Планирование устойчивости корпоративной голосовой связи в Скайп для Business Server](enterprise-voice-resiliency.md)
     
 

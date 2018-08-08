@@ -1,9 +1,8 @@
 ---
-title: Изменение параметров конфигурации магистрали SIP в Skype для бизнеса Server 2015
+title: Изменение параметров конфигурации магистрали SIP в Скайп для Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Сводка: Узнайте, как для изменения параметров конфигурации магистрали SIP с помощью Скайп для панели управления Business Server.'
-ms.openlocfilehash: b7d0b622a960577fe8af68544a3f38f3c8b154f9
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2a507b49318491528b025c3a8aba67e43a9dd82c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998170"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server-2015"></a>Изменение параметров конфигурации магистрали SIP в Skype для бизнеса Server 2015
+# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Изменение параметров конфигурации магистрали SIP в Скайп для Business Server
  
 **Сводка:** Узнайте, как для изменения параметров конфигурации магистрали SIP с помощью Скайп для панели управления Business Server.
   

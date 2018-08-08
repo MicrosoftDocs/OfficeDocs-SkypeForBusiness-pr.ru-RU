@@ -1,9 +1,8 @@
 ---
-title: Создание или изменение очереди в Skype для бизнеса 2015
+title: Создание или изменение очереди в Скайп для бизнеса
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Создание или изменение очереди группы ответа, в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: d959ca00829200ac8ad54168d72ca108adabb39f
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 10396e7d9e672999e72a8fe83c7bdffbd80b7f4b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500986"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991406"
 ---
-# <a name="create-or-modify-a-queue-in-skype-for-business-2015"></a>Создание или изменение очереди в Skype для бизнеса 2015
+# <a name="create-or-modify-a-queue-in-skype-for-business"></a>Создание или изменение очереди в Скайп для бизнеса
  
 Создание или изменение очереди группы ответа, в Скайп Business Server корпоративной голосовой связи.
   

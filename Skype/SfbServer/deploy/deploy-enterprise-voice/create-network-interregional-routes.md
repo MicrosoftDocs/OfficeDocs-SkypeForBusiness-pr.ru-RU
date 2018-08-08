@@ -1,9 +1,8 @@
 ---
-title: Создание межрегиональных сетевых маршрутов в Skype для бизнеса Server 2015
+title: Создание сетевых маршрутов interregional в Скайп для Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Создание или изменение маршрутов interregional сети, которые используются контроля допуска звонков корпоративной голосовой связи в Скайп Business Server.
-ms.openlocfilehash: f9f395325ecf2df35ac43730501603c2fdda9157
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: b099910a6881958919ed9707424a9ae77f0f8983
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500609"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978920"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server-2015"></a>Создание межрегиональных сетевых маршрутов в Skype для бизнеса Server 2015
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Создание сетевых маршрутов interregional в Скайп для Business Server
  
 Создание или изменение маршрутов interregional сети, которые используются контроля допуска звонков корпоративной голосовой связи в Скайп Business Server. 
   
-Сетевой маршрут interregional определяет маршрут между парой областей сети. Маршрут между регионами сети требуется для каждой пары регионов сети в развертывании службы контроля допуска звонков. Это позволяет каждому региону сети в рамках развертывания осуществлять доступ к любому другому региону.
+Маршрут между регионами сети определяет маршрут между парой регионов сети. Маршрут между регионами сети требуется для каждой пары регионов сети в развертывании службы контроля допуска звонков. Это позволяет каждому региону сети в рамках развертывания осуществлять доступ к любому другому региону.
   
 Связи между регионами накладывают определенные ограничения на пропускную способность, доступную подключениям между регионами; маршруты же определяют путь, который должны пройти подключения от одного региона до другого.
   

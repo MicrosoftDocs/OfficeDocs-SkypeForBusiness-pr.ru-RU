@@ -1,9 +1,8 @@
 ---
-title: Настройка службы сведений о дополнительном местоположении в Skype для бизнеса Server 2015
+title: Настройка дополнительных сведений о расположении службы в Скайп для Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: Настройка базы данных-источника (SLS) дополнительных расположений для E9-1-1 в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 8f89afa61f235e05955d053e1a28b66a948d42fc
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 36bbe6183fa6f4eb086c8676e17c63f63fc994a4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500497"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006529"
 ---
-# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server-2015"></a>Настройка службы сведений о дополнительном местоположении в Skype для бизнеса Server 2015
+# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Настройка дополнительных сведений о расположении службы в Скайп для Business Server
  
 Настройка базы данных-источника (SLS) дополнительных расположений для E9-1-1 в Скайп Business Server корпоративной голосовой связи. 
   
@@ -40,3 +39,4 @@ ms.locfileid: "19500497"
 ## <a name="see-also"></a>См. также
 
 [Командлет Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+

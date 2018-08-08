@@ -1,9 +1,8 @@
 ---
-title: Создание политик местоположения в Skype для бизнеса Server 2015
+title: Создание политик расположения в Скайп для Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,29 +13,29 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Прочтите сведения о настройке политик расположения экстренных служб (E9-1-1) в Скайп enhanced Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 6687e5ac8d414ef9db49c2fccdde9dceedb93889
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 525c0a1a7a22a31e129c50ebebd68483a31cb87c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568299"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987266"
 ---
-# <a name="create-location-policies-in-skype-for-business-server-2015"></a>Создание политик местоположения в Skype для бизнеса Server 2015
+# <a name="create-location-policies-in-skype-for-business-server"></a>Создание политик расположения в Скайп для Business Server
  
 Прочтите сведения о настройке политик расположения экстренных служб (E9-1-1) в Скайп enhanced Business Server корпоративной голосовой связи. 
   
-Скайп для Business Server использует политику расположения для включения Скайп пользователей для E9-1-1 во время регистрации клиента. Политика расположения содержит параметры, которые определяют порядок реализации E911. Дополнительные сведения содержатся в разделе [планирование политики расположения для Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
+Скайп для Business Server использует политику расположения для включения Скайп пользователей для E9-1-1 во время регистрации клиента. Политика расположения содержит параметры, которые определяют порядок реализации E911. Дополнительные сведения содержатся в разделе [планирование политики расположения для Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
   
 Вы задаете политики расположения с помощью Скайп для панели управления бизнеса или с помощью командлета [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) .
   
 > [!NOTE]
-> Скайп для Business Server теперь поддерживает конфигурации нескольких аварийного номера для клиента. Если вы хотите настроить несколько аварийного номера, необходимо выполнить сведения в [Планирование нескольких аварийного номера в Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) и [настроить несколько аварийного номера в Скайп для бизнеса 2015](configure-multiple-emergency-numbers.md). 
+> Скайп для Business Server теперь поддерживает конфигурации нескольких аварийного номера для клиента. Если вы хотите настроить несколько аварийного номера, необходимо выполнить сведения в [Планирование нескольких аварийного номера в Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) и [настроить несколько аварийного номера в Скайп для бизнеса](configure-multiple-emergency-numbers.md). 
   
 Глобальную политику расположения можно редактировать, кроме того, можно создавать новые именованные политики расположения. Клиент получает глобальную политику, если он расположен не в подсети, для которой имеется связанная локальная политика, или если локальная политика не назначена ему напрямую. Именованные политики назначаются подсетям или пользователям.   
   
 Чтобы создать политику расположения, следует использовать учетную запись, являющуюся членом группы RTCUniversalServerAdmins или административной роли CsVoiceAdministrator или обладает эквивалентными правами и разрешениями администратора.
   
-Дополнительные сведения содержатся в разделе [планирование политики расположения для Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Командлеты в этой процедуре используют заданную политику расположения и приведенные ниже значения. Полное описание командлета параметры и значения в разделе [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
+Дополнительные сведения содержатся в разделе [планирование политики расположения для Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Командлеты в этой процедуре используют заданную политику расположения и приведенные ниже значения. Полное описание командлета параметры и значения в разделе [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
   
 |**Элемент**|**Значение**|
 |:-----|:-----|

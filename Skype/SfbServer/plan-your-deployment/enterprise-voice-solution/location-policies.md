@@ -1,9 +1,8 @@
 ---
-title: Планирование политик расположения для Skype для бизнеса Server 2015
+title: Планирование политик расположения Скайп для Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Прочтите этот раздел, чтобы узнать о планировании политики расположения для развертывания усовершенствованные экстренных служб (E9-1-1) в Скайп Business Server Enterprise Voice.
-ms.openlocfilehash: 013eeea9858910c6ef94c928f92c42a742908355
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cbc4bdbf552c3839cef0701dcf3e47e4603a270e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971169"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server-2015"></a>Планирование политик расположения для Skype для бизнеса Server 2015
+# <a name="plan-location-policies-for-skype-for-business-server"></a>Планирование политик расположения Скайп для Business Server
  
 Прочтите этот раздел, чтобы узнать о планировании политики расположения для развертывания усовершенствованные экстренных служб (E9-1-1) в Скайп Business Server Enterprise Voice. 
   
 > [!NOTE]
-> Скайп для Business Server теперь поддерживает конфигурации нескольких аварийного номера для клиента. Если вы хотите настроить несколько аварийного номера, необходимо выполнить сведения в [Планирование нескольких аварийного номера в Скайп для Business Server 2015](multiple-emergency-numbers.md) и [настроить несколько аварийного номера в Скайп для бизнеса 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
+> Скайп для Business Server теперь поддерживает конфигурации нескольких аварийного номера для клиента. Если вы хотите настроить несколько аварийного номера, необходимо выполнить сведения в [Планирование нескольких аварийного номера в Скайп для Business Server](multiple-emergency-numbers.md) и [настроить несколько аварийного номера в Скайп для бизнеса](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
   
-Создание политик расположения с помощью Скайп для панели управления бизнеса или с помощью командлета [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Дополнительные сведения можно [Создать политики расположения в Скайп для Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md).
+Создание политик расположения с помощью Скайп для панели управления бизнеса или с помощью командлета [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Дополнительные сведения можно [Создать политики расположения в Скайп для Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 Все политики расположений содержат следующие сведения.
   
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/03/2018
   
  **Расположение**
   
-Этот параметр используется только в том случае, если включена **Включение Enhanced 9-1-1** .
+Эта настройка используется только в том случае, если включен параметр **Разрешить расширенные службы экстренного вызова**. 
   
 Чтобы определить поведение клиентов, можно настроить параметр **Расположение** следующим образом:   
   

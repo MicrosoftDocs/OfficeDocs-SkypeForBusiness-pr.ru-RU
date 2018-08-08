@@ -1,9 +1,8 @@
 ---
-title: Развертывание инструмента SEFAUtil в Skype для бизнеса 2015
+title: Развертывание средства SEFAUtil в Скайп для бизнеса
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Развертывание средства SEFAUtil в Скайп для Business Server.
-ms.openlocfilehash: 4def73d0bca655569275f61d9ebfeafb4ab7e3d4
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 55079f1727a6671a41e87582edd5810a4daa731f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001205"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>Развертывание инструмента SEFAUtil в Skype для бизнеса 2015
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Развертывание средства SEFAUtil в Скайп для бизнеса
  
 Развертывание средства SEFAUtil в Скайп для Business Server.
   
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/10/2018
 Средство SEFAUtil можно запустить в любой пула переднего плана в вашем развертывании. Для запуска средства SEFAUtil выполните шаги 1, 2 и 3 из Скайп для бизнеса мастер развертывания на компьютере доверенных приложений. SEFAUtil требует локального хранилища конфигурации должен быть установлен, а также сертификат.
   
 > [!NOTE]
-> Статья блога Technet, посвященной более подробных сведений о запуске SEFAUtil, "[способ получения SEFAutil под управлением?](https://go.microsoft.com/fwlink/?LinkId=278940)«. 
+> Дополнительные сведения о запуске SEFAUtil, посвященной статья блога "[способ получения SEFAutil под управлением?](https://go.microsoft.com/fwlink/?LinkId=278940)«. 
   
 ### <a name="to-deploy-sefautil"></a>Развертывание SEFAUtil
 

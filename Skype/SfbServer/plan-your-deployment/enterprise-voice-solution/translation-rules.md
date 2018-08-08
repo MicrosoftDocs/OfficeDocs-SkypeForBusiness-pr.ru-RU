@@ -1,9 +1,8 @@
 ---
-title: Правила преобразования в Skype для бизнеса Server 2015
+title: Правила преобразования в Скайп для Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Узнайте о правил трансляции и нормализации строк в Скайп Business Server корпоративной голосовой связи для абонентской группы.
-ms.openlocfilehash: c72e3909fdc0e4485683382b84a5d737fa75b8fc
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4ef5f92b8c5ef91abeb5ce2b6ea1e4c0eebe7580
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973188"
 ---
-# <a name="translation-rules-in-skype-for-business-server-2015"></a>Правила преобразования в Skype для бизнеса Server 2015
+# <a name="translation-rules-in-skype-for-business-server"></a>Правила преобразования в Скайп для Business Server
  
 Узнайте о правил трансляции и нормализации строк в Скайп Business Server корпоративной голосовой связи для абонентской группы.
   
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/03/2018
   
 Для получения дополнительных сведений о реализации правил преобразования в документации по развертыванию показано [Определение правил преобразования](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) .
   
-|**Описание**|**Начальных цифр**|**Длина**|**Цифры для удаления**|**Цифры для добавления**|**Шаблон поиска соответствия**|**Преобразование**|**Пример**|
+|**Описание**|**Цифры в начале**|**Длина**|**Цифры для удаления**|**Цифры для добавления**|**Шаблон соответствия**|**Преобразование**|**Пример**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Обычный междугородний звонок в США  <br/> (убирается '+')  <br/> |+ 1  <br/> |Ровно 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 преобразуется в 14255551010  <br/> |
 |Международный звонок из США  <br/> (убирается '+' и добавляются цифры 011)  <br/> |+  <br/> |Не менее 11  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 преобразуется в 011441235551010  <br/> |

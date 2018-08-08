@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Выполните действия, описанные в этом разделе, чтобы изменить конфигурацию существующего Скайп для соединителя Cloud Business Edition версии 1.4.1 или более поздняя версия развертывания.
-ms.openlocfilehash: 9e660744e05bfd0628c19b86110ad33443c58671
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 0a89c4a03d7cb316674490bc81768f27cd1a9c66
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569570"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176085"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Изменение конфигурации существующего развертывания Cloud Connector
  
@@ -279,7 +279,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 Чтобы добавить новый домен SIP (или несколько доменов SIP) существующего развертывания облака соединителя, выполните следующие действия.
   
-1. Вам потребуется выполнить процедуру по изменению домена в Office 365 и убедиться, что вы можете добавлять записи DNS. Дополнительные сведения о настройке домена в Office 365 содержатся в разделе [Настройка домена в Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US)видео.
+1. Вам потребуется выполнить процедуру по изменению домена в Office 365 и убедиться, что вы можете добавлять записи DNS. Дополнительные сведения о том, как настроить свой домен в Office 365 можно [Добавить домен в Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Обновления файла конфигурации соединителя облаке новый домен SIP или доменов.
     
@@ -300,7 +300,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 Если необходимо изменить основной домен SIP в развертывании облачных соединителя, выполните следующие действия:
   
-1. Вам потребуется выполнить процедуру по изменению домена в Office 365 и убедиться, что вы можете добавлять записи DNS. Дополнительные сведения о настройке домена в Office 365 содержатся в разделе [Настройка домена в Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US)видео.
+1. Вам потребуется выполнить процедуру по изменению домена в Office 365 и убедиться, что вы можете добавлять записи DNS. Дополнительные сведения о том, как настроить свой домен в Office 365 можно [Добавить домен в Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Обновите файл конфигурации соединителя облако с новый домен SIP.
     
@@ -322,7 +322,9 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 6. 
     
-    Удаление регистрации веб-узла для каждого сайта, выполнив следующий командлет в Скайп для бизнеса Online PowerShell:
+    Удалите регистрацию клиента для каждого устройства на сайте, выполнив следующий командлет в консоли PowerShell Skype для бизнеса Online.
+
+
     
   ```
   Remove-CsHybridPSTNSite

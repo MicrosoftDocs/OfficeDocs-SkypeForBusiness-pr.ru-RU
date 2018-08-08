@@ -2,20 +2,22 @@
 title: Шаблоны электронной почты пользователя внедрения для групп Майкрософт или Скайп для развертывания Business
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Использование шаблонов для отправки по электронной почте пользователям, как реализовать возможности голосовой связи облака в группы или Скайп для бизнеса.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e3ba28ef4e2e8eca93a7c1b8b11d25ea898f39b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 22ef253084427e4eb5a61505726a3dccf5f4fbb5
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694828"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Упростить пользователя внедрения новых online телефонной системы
 

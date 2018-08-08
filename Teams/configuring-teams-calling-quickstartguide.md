@@ -1,21 +1,23 @@
 ---
-title: "Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams"
+title: Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 12/12/2017
+ms.date: 6/1/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
-description: "Краткое руководство по настройке планов звонков в Microsoft Teams."
+description: Краткое руководство по настройке планов звонков в Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a32b615905d39bf8b91688f461f804a28d5a52d
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 0ded826a87bbde3e95af3734eb310988db5d7aef
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694804"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams
 ==============================================================
@@ -34,19 +36,21 @@ ms.lasthandoff: 02/19/2018
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Что необходимо для активации вкладки **Звонки** в Teams
 Чтобы включить вкладку **Звонки** в Teams и позволить пользователям совершать и принимать звонки по ТСОП, необходимо подготовить пользователей для использования службы телефонной системы и планов звонков. Соответствующие инструкции см. в разделе [Set up Calling Plans](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0) (Настройка планов звонков).
 
-> [!IMPORTANT]
-> Перед настройкой планов звонков в Teams ознакомьтесь с приведенными далее ограничениями.
-> * **Teams не поддерживает гибридную голосовую связь.** Гибридная голосовая связь в Teams сейчас не поддерживается. Клиентам, использующим гибридную голосовую связь, не рекомендуется изменять какие-либо политики для получения звонков в Teams, так как это приведет к нарушению работы службы.
-> * **Teams не поддерживает федеративные звонки.** Федеративные звонки (звонки между клиентами или компаниями) сейчас не поддерживаются в Teams. Пока их поддержка не будет реализована, такие звонки всегда будут перенаправляться в Skype для бизнеса вне зависимости от того, как настроены вызовы.
-
 ## <a name="teams-interop-policy-configuration"></a>Настройка политики взаимодействия Teams
-Чтобы активировать возможность приема звонков в Teams, необходимо перенастроить политику взаимодействия Teams на перенаправление звонков в это приложение. Используйте для этого удаленный сеанс Windows PowerShell с командлетами для Skype для бизнеса [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype). Дополнительные сведения о политике взаимодействия Teams см. в разделе [Взаимодействие Microsoft Teams и Skype для бизнеса](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
+Для включения групп начать принимать звонки, вам потребуется обновить команды обновления и политики группы взаимодействия, с помощью [групп Майкрософт & Скайп по центру администрирования бизнеса](https://aka.ms/teamsadmincenter) или с помощью удаленного сеанса Windows PowerShell с Скайп для бизнеса [ `*-CsTeamsUpgradePolicy`и `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) командлеты, можно настроить переадресацию звонков для группы.
+
+Дополнительные сведения о политике обновления группы и политики взаимодействия команды можно [миграции и руководство по взаимодействию для организаций, с помощью команды Скайп для бизнеса](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
 > [!TIP]
-> Чтобы найти нужные командлеты PowerShell, введите "CsTeamsInteropPolicy" в поле **Фильтр** в [документации по командлетам PowerShell в Skype для бизнеса](https://docs.microsoft.com/powershell/module/skype).
+> Чтобы найти командлеты PowerShell, необходимую, введите «CsTeamsUpgradePolicy» или «CsTeamsInteropPolicy» в поле **Фильтр** в [Скайп документация командлета Business PowerShell](https://docs.microsoft.com/powershell/module/skype).
 
-### <a name="default-teams-interop-policy"></a>Политика взаимодействия Teams по умолчанию
+### <a name="default-teams-upgrade-and-interop-policies"></a>Значение по умолчанию групп политики обновления и взаимодействия
 Конфигурация политики по умолчанию в Teams предназначена для обеспечения непрерывности бизнес-процессов в ходе развертывания Teams. По умолчанию звонки по VoIP, ТСОП и федеративные звонки вашим пользователям будут по-прежнему поступать в Skype для бизнеса до тех пор, пока вы не обновите политику и не активируете входящие звонки в Teams. Это гарантирует отсутствие непредвиденных нарушений в работе служб голосовой связи при пилотном запуске и развертывании Teams.
+
+Команды обновления политики по умолчанию будет храниться в унаследованный режим, который будет поддерживать групп взаимодействия политику, чтобы определить, где чаты и вызовы маршрутизирует--группы или Скайп для бизнеса.
+
+> [!NOTE]
+> Поведение группы обновление политики и скоро будет изменения политики взаимодействия команды, как описано в [руководстве по взаимодействию для организаций, с помощью команды Скайп для бизнеса и миграции](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 В политике взаимодействия Teams задана следующая конфигурация по умолчанию.
 
@@ -62,69 +66,42 @@ ms.lasthandoff: 02/19/2018
 > [!NOTE]
 > Пользователи, которым были назначены лицензии на службу телефонной системы с планами звонков, предназначенные для использования со Skype для бизнеса Online, и у которых настроена глобальная политика взаимодействия Teams по умолчанию, получат доступ к вкладке "Звонки" в Teams и смогут совершать исходящие звонки по ТСОП из Teams без необходимости каких-либо действий со стороны администраторов.
 
-#### <a name="how-to-configure-teams-to-use-the-default-policy"></a>Настройка Teams для использования политики по умолчанию
-Глобальная политика взаимодействия Teams по умолчанию применяется ко всем пользователям в клиенте и настраивается с параметрами по умолчанию, описанными выше. Если по какой-либо причине вы предоставили пользователям разные политики и хотели бы вернуться к настройкам по умолчанию, вам нужно применить глобальную политику взаимодействия Teams через удаленный сеанс Windows PowerShell для Skype для бизнеса.
-
-    Grant-CsTeamsInteropPolicy -PolicyName Global -Identity user@contoso.com
-
-> [!WARNING]
-> Хотя вы можете изменить значения глобальной политики взаимодействия Teams по умолчанию, настоятельно не рекомендуем это делать. 
-
 ## <a name="configuring-teams-to-receive-inbound-pstn-calls"></a>Настройка Teams для приема входящих звонков по ТСОП
-Для приема входящих звонков по ТСОП в Teams потребуется настроить Teams как приложение для звонков по умолчанию, применив политику взаимодействия Teams с параметром `CallingDefaultClient`, имеющим значение "Teams".
+Получать входящие вызовы ТСОП в группах, необходимо настроить группы по умолчанию, вызов приложения с применением команды обновления политики с соответствующей группы взаимодействия политики, которая задает `CallingDefaultClient` параметр группам.
 
 > [!IMPORTANT]
 > Эту конфигурацию рекомендуется применить к стартовому набору пользователей, чтобы они могли опробовать новые потрясающие возможности звонков в Teams, прежде чем вносить изменения на более широком уровне или на уровне всей организации.
 
-Для направления входящих звонков по ТСОП в Teams рекомендуем рассмотреть возможность использования следующей готовой политики взаимодействия Teams.
+Для продолжения использования устаревших групп политики обновления, воспользоваться следующие предварительно настроенного политики взаимодействия групп для маршрутизации входящих звонков ТСОП к группам:
 
     Identity                   : Tag:DisallowOverrideCallingTeamsChatTeams
     AllowEndUserClientOverride : False
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
+Если выбрано использование обновленного обновления политики групп, им необходимо назначить TeamsOnly режима для пользователей.
+
 Приведенная выше политика действует следующим образом.
-* **Для существующих клиентов Skype для бизнеса** эта политика будет перенаправлять входящие звонки в Teams. В их число входят звонки по VoIP (из Teams и Skype для бизнеса) и звонки по ТСОП. Федеративные звонки будут по-прежнему поступать в Skype для бизнеса. 
-* **Для клиентов без Skype для бизнеса** звонки по ТСОП будут поступать в Teams. Федеративные звонки в Teams сейчас **не поддерживаются**.
+* **Для существующих клиентов Skype для бизнеса** эта политика будет перенаправлять входящие звонки в Teams. В их число входят звонки по VoIP (из Teams и Skype для бизнеса) и звонки по ТСОП. 
+* **Для клиентов без Skype для бизнеса** звонки по ТСОП будут поступать в Teams.
 
 > [!WARNING]
 > В настоящее время задание параметру `CallingDefaultClient` значения "Teams" будет также влиять на звонки на IP-телефоны Skype для бизнеса. Входящие вызовы не будут поступать на эти телефоны. Их будут принимать только клиенты Teams. Сведения о поддержке существующих сертифицированных SIP-телефонов см. в документе с [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) (Переход со Skype для бизнеса на Microsoft Teams: стратегия внедрения возможностей).
 
-### <a name="how-to-configure-teams-to-receive-pstn-calls"></a>Настройка Teams для приема звонков по ТСОП
-Примените политику взаимодействия Teams как описано выше через удаленный сеанс Windows PowerShell для Skype для бизнеса, чтобы перенаправлять звонки в Teams.
+### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Как настроить пользователям пользоваться PSTN вызывает в группах
+При использовании устаревшего обновления политики групп, применение политики взаимодействия команды, как описано выше, с помощью Скайп для бизнеса удаленного сеанса Windows PowerShell можно настроить переадресацию звонков для группы:
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-## <a name="configuring-teams-to-allow-users-to-change-their-preferred-calling-experience"></a>Настройка Teams для разрешения пользователям изменять предпочитаемый способ звонков
-Чтобы пользователи могли самостоятельно выбирать предпочитаемый способ приема вызовов, т. е. решать, принимать ли звонки в Teams или Skype для бизнеса, создайте настраиваемую политику взаимодействия Teams, которая активирует параметр `AllowEndUserClientOverride`.
+Если вы решите использовать режим TeamsOnly, может изменить режим сосуществования пользователя на TeamsOnly путем группами Майкрософт & Скайп по центру администрирования бизнеса, или с помощью Скайп для бизнеса удаленного сеанса Windows PowerShell можно настроить переадресацию звонков для группы.
 
-Далее приведен пример политики взаимодействия Teams, которая предоставляет пользователю возможность выбора подходящего способа работы со звонками.
-
-    Identity                   : Tag:CustomPolicy
-    AllowEndUserClientOverride : True
-    CallingDefaultClient       : Default
-    ChatDefaultClient          : Default
-
-После применения настраиваемой политики к пользователям в клиенте Teams им станет доступна возможность самостоятельно изменять предпочитаемое приложение для звонков.
-
-![Предпочитаемое приложение для звонков](media/Preferred_calling_application_option.png)
-
-> [!IMPORTANT]
-> Эту конфигурацию рекомендуется применить к стартовому набору пользователей, прежде чем вносить изменения на более широком уровне или на уровне всей организации.
-
-### <a name="how-to-create-and-apply-the-custom-teams-interop-policy"></a>Создание и применение настраиваемой политики взаимодействия Teams
-Чтобы создать, как описано выше, настраиваемую политику взаимодействия Teams в ходе удаленного сеанса Windows PowerShell для Skype для бизнеса, сделайте следующее.
-
-    New-CsTeamsInteropPolicy -Identity tag:CustomPolicy -AllowEndUserClientOverride:$True -CallingDefaultClient:Default -ChatDefaultClient:Default
-
-    Grant-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -Identity user@contoso.com
-
-
+    Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
+    Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
 ## <a name="see-also"></a>См. также
 [Set up Calling Plans (Настройка планов звонков)](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)
 
-[Взаимодействие Microsoft Teams и Skype для бизнеса](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
+[Руководство по миграции и взаимодействия для организаций, с помощью команды Скайп для бизнеса](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Практическое руководство по телефонной системе с планами звонков в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 

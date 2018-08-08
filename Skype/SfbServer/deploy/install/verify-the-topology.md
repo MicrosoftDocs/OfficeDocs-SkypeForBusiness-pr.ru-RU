@@ -1,9 +1,9 @@
 ---
-title: Проверка топологии в Skype для бизнеса Server 2015
+title: Проверка топологии в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/14/2016
+ms.date: 7/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: 'Сводка: Узнайте, как проверить Скайп для топологии Business Server и надлежащую работу серверы Active Directory. Загрузить бесплатную пробную версию программы Скайп для 2015 Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 93696511ab415d4e3df65e6d2e3c5efcb621c39d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Сводка: Узнайте, как проверить Скайп для топологии Business Server и надлежащую работу серверы Active Directory. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 162d3839c055bdc5dc8edd22afa754bc1e5e0237
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012654"
 ---
-# <a name="verify-the-topology-in-skype-for-business-server-2015"></a>Проверка топологии в Skype для бизнеса Server 2015
+# <a name="verify-the-topology-in-skype-for-business-server"></a>Проверка топологии в Скайп для Business Server
  
-**Сводка:** Узнайте, как проверить Скайп для топологии Business Server и надлежащую работу серверы Active Directory. Загрузите бесплатную пробную версию программы Скайп для Business Server 2015 [Центр оценки Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Сводка:** Узнайте, как проверить Скайп для топологии Business Server и надлежащую работу серверы Active Directory. Загрузите бесплатную пробную версию программы Скайп для Business Server [Центр оценки Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 После публикации топологии и Скайп для компонентов системы Business Server, установленных на каждом из серверов в топологии, вы готовы к убедитесь, что топология работает как надо. Включают в себя проверку, конфигурации распространенных из на все серверы Active Directory, чтобы весь домен известно, что Скайп для бизнеса доступна в домене. Шаги с 1 по 5 могут выполняться в произвольном порядке. Но шаги 6, 7 и 8 должны выполняться в указанном порядке после шагов с 1 по 5, как показано на схеме. Проверка топологии — это шаг 8 из 8.
   

@@ -1,9 +1,8 @@
 ---
-title: Процесс развертывания приложения "Объявления" в Skype для бизнеса Server 2015
+title: Процесс развертывания для объявлений приложения в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Процесс развертывания и действия для объявлений приложения в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 08a52569dede43bbe54b1bf7e62f37114ba68853
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6aabc5090d233b991e1fd89ef61f364a6b1c5666
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968915"
 ---
-# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server-2015"></a>Процесс развертывания приложения "Объявления" в Skype для бизнеса Server 2015
+# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Процесс развертывания для объявлений приложения в Скайп для Business Server
  
 Процесс развертывания и действия для объявлений приложения в Скайп Business Server корпоративной голосовой связи.
   
@@ -32,9 +32,9 @@ ms.lasthandoff: 05/03/2018
   
 **Процесс развертывания объявлений**
 
-|**Этап**|**Действия**|**Роли**|**Документация по развертыванию**|
+|**Этап**|**Шаги**|**Роли **|**Документация по развертыванию**|
 |:-----|:-----|:-----|:-----|
-|Настройка параметров объявлений  <br/> | Создайте объявление, записав и отправив звуковые файлы или воспользовавшись преобразованием текста в речь. <br/>  Настройте диапазоны неназначенных номеров в таблице неназначенных номеров и свяжите их с соответствующим объявлением. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[Создание и удаление оповещения в Скайп для Business Server 2015](create-an-announcement.md) <br/> [Создание или изменение диапазона неназначенных номеров в Скайп для Business Server 2015](create-or-modify-an-unassigned-number-range.md) <br/> |
-|Проверка развертывания объявления  <br/> |Выполните тестовое прослушивание объявлений, чтобы убедиться в их правильной работе.  <br/> |-  <br/> |[(Необязательно) Проверка развертывания объявлений в Скайп для бизнеса 2015](optional-verify-announcement-deployment.md) <br/> |
+|Настройка параметров объявлений  <br/> | Создайте объявление, записав и отправив звуковые файлы или воспользовавшись преобразованием текста в речь. <br/>  Настройте диапазоны неназначенных номеров в таблице неназначенных номеров и свяжите их с соответствующим объявлением. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[Создание и удаление оповещения в Скайп для Business Server](create-an-announcement.md) <br/> [Создание или изменение диапазона неназначенных номеров в Скайп для Business Server](create-or-modify-an-unassigned-number-range.md) <br/> |
+|Проверка развертывания объявления  <br/> |Выполните тестовое прослушивание объявлений, чтобы убедиться в их правильной работе.  <br/> |-  <br/> |[(Необязательно) Проверка развертывания объявлений в Скайп для бизнеса](optional-verify-announcement-deployment.md) <br/> |
    
 

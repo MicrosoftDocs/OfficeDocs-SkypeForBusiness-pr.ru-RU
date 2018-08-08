@@ -1,128 +1,130 @@
 ---
-title: Steering committee for Microsoft Teams cloud voice deployment
+title: Исполнительного комитета развертывания голосовой связи облака группами Майкрософт
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers.
+description: Определите управляющая группа ключевых заинтересованных лиц и руководителям проектов, определите цели развертывания, отслеживание хода выполнения и удалении окон.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30553d989a48fb008b6dc52c759150b2997ac01b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: b4f3651ca59819ba732f5fe1e705201d4ee44757
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266131"
 ---
-# <a name="steering-committee"></a>Steering committee
+# <a name="steering-committee"></a>Исполнительного комитета
 
-## <a name="steering-committee-overview"></a>Steering committee overview
+## <a name="steering-committee-overview"></a>Обзор исполнительного комитета
 
-A steering committee is a governing group of key stakeholders and project leaders who have been brought together to guide a project or program toward its defined business outcomes. The steering committee isn’t directly responsible for *how* the project is delivered, but rather *what* the project delivers to the business.
+Исполнительного комитета — управляющая группа ключевых заинтересованных лиц и руководителей проектов, которые были перенесены вместе, чтобы guide проекта или программы к его определенный деятельности. Исполнительного комитета не напрямую несет ответственность за *как* доставки проекта, но вместо *какие* проекта обеспечивает для бизнеса.
 
-Every project requires an agreed-on vision and charter. To deliver the projects’ desired outcomes the vision must be clearly defined, it needs to be monitored and maintained. This becomes the responsibility of the steering committee: to drive decisions, advise, provide strategic oversight, to serve as advocates to the organization for the project’s initiatives, and—when necessary—remove blockers.
+Каждый проект требует согласованного концепции и главы. Для предоставления желаемых проектов, концепция должны быть четко определены, необходимо отслеживать и обслуживать. Это становится ответственность за исполнительного комитета: диск решения, рекомендаций, предоставляют стратегического надзор за, в качестве представителей в организацию для проекта инициативы и, при необходимости — удаление окон.
 
-Your organization should put significant thought into the formation of the steering committee. The committee must ensure that the project achieves the business objectives you’ve defined for driving change throughout the organization, meet periodically to discuss the current pulse of the project, and help remove any obstacles that are encountered during the journey.
+Организации следует помещать значительных усилий, образование исполнительного комитета. Комитет необходимо убедиться, что проект достигает бизнес-целей, указанные для поездок изменений в организации, отвечающих периодически для обсуждения pulse текущего проекта и удалить любые препятствий, в которых обнаружены во время Реализация.
 
-The committee should define its charter to include some key objectives:
+Комитет необходимо определить его главы для включения некоторые основные задачи:
 
--   Keep a strong alignment between the project team and the executive sponsor or executive leadership.
+-   Будьте строгое выравнивание от группы проекта до ответственного спонсора или высшего звена.
 
--   Provide insight into the status of the project to the executive sponsor or executive leadership.
+-   Предоставить подробные сведения о состоянии проекта ответственного спонсора или высшего звена.
 
--   Allow the executive sponsor or executive leadership team to provide direction and input to the project and ensure that it aligns with overarching business goals, by adjusting project plans, objective key results (OKRs), and other project activities.
+-   Разрешайте ответственного спонсора или группа высшего звена обладает направление и вводимых пользователем данных в проект и убедитесь, что оно соответствует коммерческим всеобъемлющая бизнес-задач, настраивая планов проектов, целевые ключевые результаты (OKRs) и другие задачи проекта.
 
-The steering committee meets at a recurring interval throughout the lifetime of a project to ensure alignment between the organizational leadership and the project team. This critical meeting ensures that the direction of the project has leadership’s full support and incorporates any feedback provided by leadership into the project to drive success. The committee uses these meetings to gain insight into project status, and also to:
+Исполнительного комитета с использованием периодичностью повторяющихся во время работы проекта для обеспечения соответствия между организационной руководства и группы проекта. Критические собрания гарантирует, что направление проекта имеет полную поддержку руководства и включает в себя все свои отзывы и предложения, предоставленные руководства в проект для достижения успеха. Комитет использует эти собраний для получить представление о состоянии проекта, а также:
 
--   Agree on business outcomes that align to the business case, and to ensure the project is driving towards delivery of these outcomes.
+-   Согласовать деятельности, созданных для экономическое обоснование и убедитесь, что проект, влияющие достигло предельного доставки этих результатов.
 
--   Check and approve the project for accuracy and compliance with the business case.
+-   Проверка и утверждение проект для точности и обеспечения соответствия требованиям, с помощью экономическое обоснование.
 
--   Review and verify changes made to the business case that could affect any defined outcomes.
+-   Просмотрите и проверьте изменения, внесенные экономическое обоснование, которое может повлиять на любой определенных результатов.
 
--   Make strategic decisions regarding the prioritization of project deliverables, and approve interim deliverables.
+-   Сделать стратегические решения, касающиеся приоритетов конечных результатов проекта и утверждение промежуточный режим работы конечных результатов.
 
--   Identify, manage, and mitigate gaps, risks, and issues where additional influence is required from the committee.
+-   Определение, управление и сократить перерывов в работе, риски и проблемы, когда дополнительные влияют на то необходим из комитет.
 
--   Gather support from the executive sponsor or executive leadership team for issues that require escalation, prioritizing and resolving any conflicts between stakeholder business units. 
+-   Сбор поддержки из группы высшего звена наличие проблем, которые требуют эскалации, определение приоритетов и разрешения конфликтов между заинтересованных лиц бизнес-единицы или ответственного спонсора. 
 
--   Provide formal feedback and recommendations to executive leadership, the change advisory board, or other business and IT stakeholders, as applicable.
+-   Предоставление официальную свои отзывы и предложения и рекомендации для высшего звена, доски advisory изменения, или других бизнеса и ИТ заинтересованных лиц, в зависимости от настроек.
 
-## <a name="identify-members-of-the-steering-committee"></a>Identify members of the steering committee
+## <a name="identify-members-of-the-steering-committee"></a>Определение членов исполнительного комитета
 
-A committee is only as effective as its participants are influential. The steering committee needs to maintain representation from both business and technical decision makers, along with any of the core project team leadership and partner teams who contribute to the solution.
+Комитет только эффективности его участники стали знаток. Исполнительного комитета должен поддерживать представление из бизнеса и технические лица, принимающие решения, а также любые основных руководства группы разработчиков проекта и партнеров команды, в которых используются в решение.
 
-Every steering committee needs strong leadership and clearly defined roles and responsibilities. To set realistic expectations for the committee’s performance and the participation of its members, you must document and agree on assigned roles and responsibilities. You absolutely must have a responsive executive sponsor and business leadership on this committee to provide effective influence across the organization and ensure a diverse perspective.
+Каждые исполнительного комитета должно жесткого руководства и четко определенных ролей и обязанностей. Чтобы задать реалистичные ожидания комитет производительности и участие в его члены, необходимо документов и согласовать назначенные роли и обязанности. Абсолютно необходимо иметь уровень возможности реагирования у ответственного спонсора и руководства business на комитета для обеспечения эффективной влияют на то в организации и обеспечения различных Перспектива.
 
 > [!NOTE]
-> Adjust roles and responsibility based on your organization and project team design. In smaller organizations, these roles can overlap.
+> Настройка роли и ответственность за зависимости от вашей организацией и проектом team project. В небольших организаций могут перекрывать этих ролей.
 
-| Название | Должность | Contact | Email |
+| Название | Должность | Контакт | Email |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------|
-| Ответственный спонсор | Advocate for the project, ensure its direction stays in alignment with the vision of the organization. Serve as ultimate authority to make decisions the committee can’t agree on. | | |
-| Business Decision Maker(s) | Advocate for the project, ensure its direction stays in alignment with the vision of the organization | | |
-| Architect | Ensure that technology decisions are achievable and align to agreed-on business outcomes. | | |
-| Core Project Team | Provide details about any specific component, either technical or non-technical (such as adoption and change management) | | |
-| Известный качества | Be accountable for putting together quality metrics. | | |
-| Program/Project Manager | Take responsibility for the presentation and collection of feedback to incorporate into the project. | | |
-| Partner Account Team | Provide feedback from the partner’s point of view from a broader perspective, other partner activities. | | |
-| Partner Project Team | Provide feedback from the partner’s point of view regarding the delivery of the project | | |
+| Ответственный спонсор | Представление для проекта, убедитесь, что его направление остается в соответствие с представление об организации. Служить права для принятия решений комитет невозможно согласовать; | | |
+| Maker(s) принятия решений для бизнеса | Представление для проекта, убедитесь, что его направление остается в соответствие с представление об организации | | |
+| Разработчик архитектуры | Убедитесь, что решения по технологии, можно выполнять и выровнять согласованного деятельности. | | |
+| Основная группа проекта | Введите сведения о любого конкретного компонента, технические или не технической (например, изменения и внедрения управления) | | |
+| Лидер по качеству | Быть ответственность для объединения показателей качества. | | |
+| Руководитель программы/проекта | Следить за сбора отзывов для включения в проект и презентации. | | |
+| Учетная запись группы партнера | Поделитесь своими впечатлениями с точки зрения партнера с более широкой зрения другие действия партнера. | | |
+| Группы проекта партнера | Поделитесь своими впечатлениями с точки зрения партнера относительно доставки проекта | | |
 
-## <a name="schedule-steering-committee-meetings"></a>Schedule steering committee meetings 
+## <a name="schedule-steering-committee-meetings"></a>Планирование собраний исполнительного комитета 
 
-Although every organization and every project team is structured in slightly different ways, the steering committee meeting should never become just another project standup meeting. Consider the objectives of the steering committee meeting: it’s your opportunity to keep the project on track by gathering support and direction from the executive sponsor or executive leadership. Make sure that everyone attends this meeting so there’s direct messaging between the entire project team and executive sponsor or executive leadership and there is no miscommunication when the message is relayed.
+Несмотря на то, что все организации и каждой группе проекта структурирован различными способами, собрания исполнительного комитета никогда не должны стать рабочие совещания любой другой проект. Рассмотрите цели собрания исполнительного комитета: является возможность сохранить проект на отслеживание по сбору поддержки и направление ответственного спонсора или высшего звена. Убедитесь, что все посещает собрания, существует прямого обмена сообщениями между team всего проекта и ответственного спонсора или высшего звена и нет не уже при ретрансляция сообщения.
 
-When scheduling a committee meeting, take into consideration the project and organizational cadence. Try to schedule it either weekly or every other week, based on your executive sponsors’ preference and the pace of your organization.
+При планировании собрания комитет принимать во внимание проекта и организационной ритмичности. Попробуйте выполнить его, либо еженедельно или каждые две недели, на основе приоритетов вашей оперативное спонсоров и скорость вашей организации.
 
 > [!TIP]
-> If yours is a fast-moving environment, don’t let too much time pass between meetings—that can lead to problems that could have been avoided by meeting more frequently. However, in a slower-paced environment, holding a meeting every week can lead to meeting fatigue, which might decrease the effectiveness of the steering committee. Use your experience and judgement to determine the appropriate cadence, and always remember that you can change the schedule. Don't meet just for the sake of meeting.
+> Если у вас быстрых среды, не позволяйте слишком много времени между собрания —, который может привести к проблемам, которые можно избежать, если собрание чаще. Тем не менее в среде медленнее скорость руку собрания еженедельного может привести к испытания собрания, который может снизить эффективность исполнительного комитета. Использование возможностей и judgement для получения соответствующих ритмичности и постоянно помните, что можно изменить расписание. Не отвечают только для собраний.
 
-### <a name="prepare-for-the-meeting"></a>Prepare for the meeting
+### <a name="prepare-for-the-meeting"></a>Подготовка к собранию
 
-To make the most of everyone’s time, you need to prepare for the meeting. The core team can start to prepare the material for the steering committee meeting. The [Steering Committee Template – Link to sample PPT template] Steering Committee Template can be used as a starting point for preparation.
+Чтобы сделать большую часть времени всех пользователей, необходимо подготовить для собрания. Основная группа можно запустить для подготовки материалов для исполнительного комитета собрания. [Исполнительного комитета шаблон — ссылка на образец шаблона PPT] исполнительного комитета шаблон можно использовать в качестве отправной точки для подготовки.
 
-The following assets should be completed and included in the presentation deck for the meeting:
+Следующие ресурсы должен быть завершена и включить в панель презентации для собрания:
 
--   Follow-up on prior steering committee action items
+-   Наблюдение за предыдущий исполнительного комитета элементы действия
 
--   Steering committee PowerPoint, project high-level status report
+-   PowerPoint исполнительного комитета, отчет о состоянии высокого уровня проекта
 
-    -   Look at the project all up from a monthly/quarterly/yearly–type review.
+    -   Проверьте проекта все элементы с в месяц/ежеквартально/ежегодно — тип проверки.
 
-    -   Identify key project milestones:
+    -   Определение вех ключевые проекта:
 
-        -   Discuss the importance and impact of milestones (these should be captured in the risks register).
+        -   Обсудите важность и влияние вех (они будут заноситься в регистре риски, связанные с).
 
-        -   Decide on go/no-go for upcoming migrations based on preparation, particularly with business decision makers.
+        -   Выберите перейти о целесообразности предстоящие миграции на основании подготовки, особенно с бизнес-решений.
 
-    -   Call out project execution dates and high-impact activities.
+    -   Выноска даты выполнения проекта и важнейших мероприятия.
 
-    -   Report on the OKRs that were identified as important to the committee; be sure to include usage, user sentiment, quality and reliability metrics.
+    -   Создание отчетов по OKRs, которые были определены как важный комитет; Убедитесь, что для включения использования, пользователь пользователей, показатели качества и надежности.
 
 -   PowerPoint исполнительного комитета, еженедельно отчет о состоянии проекта
 
-    -   Contains highlight and lowlights, key issues, and action items, and next steps.
+    -   Содержит выделения и сведений, ключевые проблемы и действия и дальнейшие действия.
 
-    -   Contains more technical detail focused on day to day issues and less on overall project status.
+    -   Содержит подробные технические сведения целенаправленных вопросы каждый день, а не на общее состояние проекта.
 
--   Issues log and risks register [Link Risk-Issues Log (Web Content)]
+-   Журнал проблемы и [риски, связанные с регистрации](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
 
-    -   Share the status of any issues that the committee is tracking.
+    -   Совместное использование состояние отслеживания комитет найденные проблемы.
 
-        -   Be prepared to provide an update on any and all bugs.
+        -   Подготовить получать обновления на все ошибки.
 
     -   Определите новые элементы, которые могут повлиять на Успех достижения результатов бизнес-деятельности.
 
-        -   Identify their impact on the project.
+        -   Определите их влияние на проект.
 
         -   Определение лица и бизнес-подразделений.
 
-        -   Identify next steps and what assistance might be required from committee members.
+        -   Определите дальнейшие действия и какие помощника может потребоваться от участников комитет.
 
--   Обзор качества: использование отчетов из известный качества [Ссылка на планирование для управления службой и качества (веб-содержимого)]
+-   Обзор качества: использование отчетов из [известный качества](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)
 
     -   Подготовить описаны результаты этих подробные отчеты по качеству и включить рекомендации для устранения проблем, указанных.
 
@@ -154,7 +156,7 @@ The following assets should be completed and included in the presentation deck f
 
 5.  Всегда следует пытаться продвигать положительное новости о пользователей рабочих затрат времени и пользователя свои отзывы и предложения (при наличии). Сообщите и продаже История. Если полностью отрицательно свои отзывы и предложения, будьте готовым ее рассмотреть и поясняется, что выполняется для устранения проблем взаимодействия отрицательные пользователя.
 
-    а.  Take the opportunity to give kudos to individual team members for the good work they’re doing. It’s important to recognize when excellent, hard work is being accomplished by team members, especially in front of their leadership team.
+    а.  Воспользуйтесь возможностью, чтобы предоставить сотрудникам к отдельным членам группы за отличную работу, которые делают. Очень важно распознавание великолепную, жестко рабочих выполняется путем участников группы, особенно перед их руководство.
 
 6.  Всегда сохраните окончания собрания согласовать любые дальнейшие действия и принятие решения по владельцу эти решения, которые были согласования во время собрания.
 
@@ -186,7 +188,7 @@ The following assets should be completed and included in the presentation deck f
 
 4.  Запустите повышения качества в каждой беседы:
 
-    -   Articulate the importance of having a quality champion.
+    -   Сформулировать, важно иметь известный качества.
 
     -   Определение людей или групп пользователей, которые будут берут на себя роль известный качества.
 
@@ -210,10 +212,10 @@ The following assets should be completed and included in the presentation deck f
 
 Через жизненного цикла решения роль комитет изменится. По мере того как представление и адаптация новых сотрудников в этап значение диска для комитет может потребоваться несколько корректировки:
 
--   Настройте ритмичности собрания. Просмотрите динамической организации и определить, если собрание должен происходить реже. Как организационных изменений начинает dwindle частота обмена данными уровня вероятно будет снизить. Investigate changing the meeting to a monthly or quarterly meeting cadence if appropriate
+-   Настройте ритмичности собрания. Просмотрите динамической организации и определить, если собрание должен происходить реже. Как организационных изменений начинает dwindle частота обмена данными уровня вероятно будет снизить. Исследовать изменение собрания ритмичности помесячный или Поквартальный собрания, если это необходимо
 
--   Настройка представителей в собрание. As the solution moves into the drive value phase it is likely that the core project team will be reassigned to new projects. It will be necessary to update the team that is reporting as support and operations will become the leads on the status of the solution.
+-   Настройка представителей в собрание. При перемещении решения в этап значение диск, вероятно, переназначение основная группа проекта для новых проектов. Необходимо обновить группы, который сообщает о качестве поддержки и операции, станут интересы на состояние решения.
 
--   Определение и отчетности по эксплуатации OKRs. Основные результаты и индикаторы успеха изменится через жизненного цикла решения. The desired business outcomes should continue to be tracked and reported. Продолжить создание отчетов по качество и надежность решение для голосовой связи в контексте поездок достигло предельного результата бизнеса. Additional metrics and key results, such as, user sentiment, user adoption and support metrics will become the top indicators of success.
+-   Определение и отчетности по эксплуатации OKRs. Основные результаты и индикаторы успеха изменится через жизненного цикла решения. Требуемое деятельности будет отслеживать и включать в отчеты. Продолжить создание отчетов по качество и надежность решение для голосовой связи в контексте поездок достигло предельного результата бизнеса. Дополнительные показатели и ключа результаты, такие как пользователь пользователей, поддержка показатели и внедрения пользователя станут верхней индикаторы успеха.
 
--   Use a larger steering committee umbrella to cover the drive value phases of multiple solutions. Найдите возможности более эффективно использовать исполнительного комитета. Используйте комитета по обеспечению между размером сферы решений.
+-   Используйте увеличенное общий исполнительного комитета на случай этапов значение диск нескольких решений. Найдите возможности более эффективно использовать исполнительного комитета. Используйте комитета по обеспечению между размером сферы решений.

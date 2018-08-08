@@ -2,20 +2,22 @@
 title: Развертывание групп Майкрософт облачная служба голосовой связи
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 03/13/2018
+manager: serdars
+ms.date: 05/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Загрузите страница Playbook Включение сайта Планирование групп развертывания и ускорить и оптимизации круга пользователей, качество и удовлетворенность с точки зрения.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f59b7568f5ec0d3d9b6ef3b04f4094b222d0702b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: a3e40009a76ef7c8f31d659d45de1e4acf0801ec
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695512"
 ---
 # <a name="deploy-my-service"></a>Развернуть службу
 
@@ -36,7 +38,7 @@ ms.lasthandoff: 04/05/2018
 -   Уменьшение потребности в поддержке и выше.
 
 > [!NOTE]
-> В этой статье и связанные страница playbook не предназначен для описания каждого этапа технические конфигурации, необходимые для подключения службы или предоставление гудка на определенный сайт. Вместо этого они сосредоточиться на действия и задачи, которые рекомендуется встроенного пользователям легко и их начать использование групп рабочих нагрузок голосовой связи через быстро и легко перехода внедрения высокая скорость, при минимизации требования для поддержки. Техническое руководство по оптимальным образом настроить среду для голосовой связи группами см входящая контрольные списки для [настройки рабочих нагрузок голосовые команды](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams), [группы основными возможностями](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities), [сети для групп](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-networking)и [Включение Office 365 ](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-enable-office-365).
+> В этой статье и связанные страница playbook не предназначен для описания каждого этапа технические конфигурации, необходимые для подключения службы или предоставление гудка на определенный сайт. Вместо этого они сосредоточиться на действия и задачи, которые рекомендуется встроенного пользователям легко и их начать использование групп рабочих нагрузок голосовой связи через быстро и легко перехода внедрения высокая скорость, при минимизации требования для поддержки. Техническое руководство по оптимальным образом настроить среду для голосовой связи группами см контрольные списки адаптация новых сотрудников для [настройки рабочих нагрузок голосовые команды](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Настройка прямой маршрутизации в группах](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [группами основные возможности](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [сети для групп](onboarding-checklist-configure-networking.md), а также [Включение Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -45,6 +47,9 @@ ms.lasthandoff: 04/05/2018
 Страница playbook выделена устранения факторов, влияющих на пользователя с точки зрения развертывания голосовые команды. Действия и задачи сгруппированы в следующих областях фокус.
 
 -   Проверка готовности службы
+    - Аудиоконференции
+    - Планы звонков
+    - Прямая отправка
 
 -   Включение пользователя
 
@@ -90,15 +95,13 @@ ms.lasthandoff: 04/05/2018
 > [!TIP]
 > Повторите предыдущие шаги для всех расположений, у вас есть.
 
-
 > [!IMPORTANT]
 > Некоторые из них не применялось для всех сайтов и расположения. Если определенное действие не относится к сайту, необходимо выбрать **неприменимо** для этого действия. **Не удалять** какие-либо строки в страница playbook; в противном случае формулы свертки состояния не будут работать.<br/><br/>
 Обратите внимание на действия, которые может занимать больше времени, чем запланированных для, например номер перенос и закупок. Эти действия может отрицательно сказаться на временная шкала развертывания сайта. Убедитесь, что для просмотра и обновить список действий и связанные временной шкалы еженедельно и представлять их на [собраниях исполнительного комитета](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) для обеспечения учитывать состояние каждого сайта и любые возможные отклонения от графика развертывания заинтересованных лиц.
 
-
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Точки принятия решений</td><td><ul><li>Решите, если страница Playbook Включение сайта является обязательным для развертывания.</li><li>Определить, кто будет отвечать по настройке страница Playbook Включение сайта для групп Майкрософт для каждого узла, который вы развертываете.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Дальнейшие действия</td><td><ul><li>Загрузите страница Playbook Включение сайта.</li><li>Настройка страница Playbook Включение сайта для первого сайта.</li><li>Повторите для дополнительных сайтов.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Дальнейшие действия</td><td><ul><li>[Загрузите страница Playbook Включение сайта](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true).</li><li>Настройка страница Playbook Включение сайта для первого сайта.</li><li>Повторите для дополнительных сайтов.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

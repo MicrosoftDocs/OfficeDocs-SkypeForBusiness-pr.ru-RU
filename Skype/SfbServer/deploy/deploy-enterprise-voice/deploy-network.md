@@ -1,9 +1,8 @@
 ---
-title: Развертывание сетевых областей, сайтов и подсетей в Skype для бизнеса 2015
+title: Развертывание областей сети, сайты и подсети в Скайп для бизнеса
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,24 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Создание или изменение областей сети, сетевых узлов и сопоставление подсетей в Скайп для Business Server. Все эти группы используются для расширенных функций корпоративной голосовой связи: обход мультимедиа, контроль допуска звонков и маршрутизация на основе местоположения.'
-ms.openlocfilehash: 39fb65f3f2bef0ab81833b42fe50cbf866bee65b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 427ab9102fe7a840aee68e0dbc2c372b908930e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568384"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980776"
 ---
-# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business-2015"></a>Развертывание сетевых областей, сайтов и подсетей в Skype для бизнеса 2015
+# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Развертывание областей сети, сайты и подсети в Скайп для бизнеса
  
 Создание или изменение областей сети, сетевых узлов и сопоставление подсетей в Скайп для Business Server. Все эти группы используются для расширенных функций корпоративной голосовой связи: обход мультимедиа, контроль допуска звонков и маршрутизация на основе местоположения.
   
-В расширенные функции корпоративной голосовой связи входят: [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) и [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Все эти возможности требуют создания областей сети, сетевых сайтов и подсетей. Например, для всех этих функций требуется, чтобы каждая подсеть в топологии была связана с определенным сетевым сайтом, а каждый сетевой сайт должен быть связан с сетевой областью. Дополнительные сведения о терминах можно [Сетевые параметры для расширенных функций корпоративной голосовой связи в Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+В расширенные функции корпоративной голосовой связи входят: [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) и [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Данные функции требуются для создания сетевых областей, сетевых сайтов и подсетей. Например, для всех этих функций требуется, чтобы каждая подсеть в топологии была связана с определенным сетевым сайтом, а каждый сетевой сайт должен быть связан с сетевой областью. Дополнительные сведения о терминах можно [Сетевые параметры для расширенных функций корпоративной голосовой связи в Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
   
 На контроль допуска звонков и E9-1-1 распространяются дополнительные требования относительно конфигурации для сетевых сайтов:
   
-- Контроль допуска звонков необходимо указать, что профиль политики пропускной способности для каждого сайта, который ограничен с ограничениями полоса пропускания глобальной сети. Если вы планируете развернуть контроля допуска звонков, прежде чем настраивать сетевые узлы необходимо[Создание профилей политики пропускной способности в Скайп для Business Server 2015](create-bandwidth-policy-profiles.md) .
+- Для использования функции контроля допуска звонков необходимо указать профиль политики пропускной способности для каждого сайта, на который распространяются ограничения полосы пропускания WAN. Если вы планируете развернуть контроля допуска звонков, прежде чем настраивать сетевые узлы необходимо [Создание профилей политики пропускной способности в Скайп для Business Server](create-bandwidth-policy-profiles.md) .
     
-- E9-1-1 необходимо указать, что политики расположения для каждого сайта. Если планируется развертывание E9-1-1, прежде чем настраивать сетевые узлы необходимо[Создание политик расположения в Скайп для Business Server 2015](create-location-policies.md) .
+- Для использования E9-1-1 необходимо указать политику расположения для каждого сайта. Если вы планируете развернуть E9-1-1, прежде чем настраивать сетевые узлы необходимо [Создание политик расположения в Скайп для Business Server](create-location-policies.md) .
     
 ## <a name="create-or-modify-a-network-region"></a>Создание или изменение сетевой области
 
@@ -314,6 +313,7 @@ ms.locfileid: "19568384"
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="BKMK_AssociateSubnets"> </a>
 
+
 [Новый CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
   
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
@@ -329,3 +329,4 @@ ms.locfileid: "19568384"
 [SET-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
   
 [Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
+

@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Порядок выполнения подробные окружающей среды обнаружения во время планирования поездке из Скайп для бизнеса для групп Майкрософт.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5fde916c4fe9ece9ad80ec63dad1618fa0d1ae5
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: e62d6425f5e38d4763f54c27821a544d3c063420
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246532"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Обнаружение окружающей среды развертывания групп Майкрософт
 ===================================================
@@ -72,13 +74,13 @@ Capture подробные сведения о ключевых заинтере
 > | Обратите внимание, клиент рабочей Office 365 <br>имя и идентификатор в столбце ответов <br/>Если имеется более одного клиента <br>связанный с вашей организации <br>Обратите внимание, все идентификаторы.  | Имя клиента: <br/>Идентификатор клиента:| |
 > | Какие регионов развернуты клиенты?| | |
 > | Являются этих клиентов Office 365 сред или <br>Выделенные? | <input type="checkbox">Сред<br/> <input type="checkbox">Выделенные | |
-> | Какие продукты Microsoft Online вы используете сейчас? <br/>Обратите внимание на число пользователей, включенных в каждый <br>службы в столбце примечания. | <input type="checkbox">Группами Майкрософт <br/> <input type="checkbox">Скайп для бизнеса <br>&nbsp;&nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive для бизнеса <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Другие|                                   |
+> | Какие продукты Microsoft Online вы используете сейчас? <br/>Обратите внимание на число пользователей, включенных в каждый <br>службы в столбце примечания. | <input type="checkbox">Группами Майкрософт <br/> <input type="checkbox">Скайп для бизнеса <br>&nbsp; &nbsp; &nbsp;В Интернете <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive для бизнеса <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Другие|                                   |
 > | К какому уровню лицензии включен для Скайп для <br>Бизнес-пользователи Online? | <input type="checkbox">E1/G1 <br/> <input type="checkbox">E2/G2 <br/> <input type="checkbox">E3/G3 <br/> <input type="checkbox">E4/G4 E5 | Число пользователей <br>для каждого SKU: |
 > | Что такое текущего леса Active Directory <br>функциональный уровень в среде? <br/>При наличии более одного леса, запишите подробные сведения <br>в столбце примечания. | <input type="checkbox">Windows Server 2000 <br/> <input type="checkbox">Windows Server 2003 <br/> <input type="checkbox">Windows Server 2008<br/> <input type="checkbox">Windows Server 2008 R2 <br/> <input type="checkbox">Windows Server 2012 г. <br/> <input type="checkbox">Windows Server 2012 R2 <br/> <input type="checkbox">Windows Server 2016| |
 > | Что вы используете для каталога <br>Синхронизация сегодня? |<input type="checkbox">Без синхронизации (только облако) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp;Подключения <br/> <input type="checkbox">Другие (указание в <br>&nbsp;&nbsp; &nbsp;Столбца комментарии.)| |
 > | Развернуто ли сейчас федеративное удостоверение <br/>(Служб федерации active Directory или <br>сторонних производителей) | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
 > | Если вы используете федеративных удостоверений, что такое <br>Инфраструктура федерации? | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Службы федерации Active Directory Windows 2012 г. <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox">Федерация сторонних производителей <br>&nbsp;&nbsp; &nbsp;шлюза <br>&nbsp;&nbsp; &nbsp;(Обратите внимание на то подробных сведений в <br>&nbsp;&nbsp; &nbsp;Столбца комментарии.) | |
-> | Если в настоящее время Ведение active Office 365 <br>клиентов, — это SMTP или SIP-домена из вашего <br>конечных пользователей, связанных с клиента? | <input type="checkbox">Н/д – нет Office 365 <br>&nbsp;&nbsp; &nbsp;клиента на месте <br/> <input type="checkbox">Нет, пользователей SMTP или SIP <br>&nbsp;&nbsp; &nbsp;домена, не сопоставленный <br>&nbsp;&nbsp; &nbsp;с любого клиентами в <br>&nbsp;&nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Да, пользователей SMTP или SIP <br>&nbsp;&nbsp; &nbsp;связан домена <br>&nbsp;&nbsp; &nbsp;с существующего клиента <br>&nbsp;&nbsp; &nbsp;в Office 365 | |
+> | Если в настоящее время Ведение active Office 365 <br>клиентов, — это SMTP или SIP-домена из вашего <br>конечных пользователей, связанных с клиента? | <input type="checkbox">Н/д – нет Office 365 <br>&nbsp;&nbsp; &nbsp;клиента на месте <br/> <input type="checkbox">Нет, пользователей SMTP или SIP <br>&nbsp;&nbsp; &nbsp;домена, не сопоставленный <br>&nbsp;&nbsp; &nbsp;с любого клиентами в <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Да, пользователей SMTP или SIP <br>&nbsp;&nbsp; &nbsp;связан домена <br>&nbsp;&nbsp; &nbsp;с существующего клиента <br>&nbsp;&nbsp; &nbsp;в Office 365 | |
 > | UPN пользователя соответствует основной SMTP-адрес? | <input type="checkbox">Да <br/> <input type="checkbox">Нет <br/> <input type="checkbox">Несогласованно | |
 
 <a name="existing-collaboration-platform-summary"></a>Существующие сводки платформу совместной работы
@@ -96,6 +98,7 @@ Capture подробные сведения о ключевых заинтере
 > | У вас есть другой платформы сторонних производителей развернут <br>и сегодня используется? Если это так, обратите внимание на число пользователей <br>Эти платформы и сведений об использовании в комментариях <br>столбец. | <input type="checkbox">Cisco WebEx <br/> <input type="checkbox">Временной резерв <br/> <input type="checkbox">Другие (указать в комментариях <br>&nbsp;&nbsp; &nbsp;столбца.) | Число пользователей: <br/>Сведения о:|
 > | Если планируется переместить пользователей из этих сторонних производителей <br>Платформа для групп? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
 > | Что такое текущее решение телефонии и конференций <br>пользователей, которые находятся в области действия этой инициативы? | | |
+> | У вас есть [SBC для поддержки прямой маршрутизации](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) развернуты для вашего офисов, которые находятся в области действия этой инициативы? <br>Если Да, запишите подробные сведения в столбце примечания.| <input type="checkbox">Да <br/> <input type="checkbox">Нет ||
 
 <a name="collaboration-platform-deployment-details"></a>Сведения о развертывании платформу совместной работы
 -----------------------------------------

@@ -14,18 +14,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Сводка: Узнайте, как обновление с Lync Server 2013 Скайп для Business Server 2015. Загрузить бесплатную пробную версию программы Скайп для 2015 Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 36d692788e84c0e7f136d947d7c3b2709b490b9f
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 5fb00af65aa3aa63c32b9d54be03010747d4e83b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501079"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019888"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Обновление до Skype для бизнеса Server 2015
  
 **Сводка:** Узнайте, как обновление с Lync Server 2013 Скайп для Business Server 2015. Загрузите бесплатную пробную версию программы Скайп для Business Server 2015 [Центр оценки Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Используйте процедуры, описанные в этом документе обновления Lync Server 2013 до Скайп для Business Server 2015 с помощью Скайп for Business Server Topology Builder и новая функция обновление на месте. Если требуется обновление с Lync Server 2010 или Office Communications Server 2007 R2, ознакомьтесь со [Планирование обновления до Скайп для Business Server 2015](../plan-your-deployment/upgrade.md).
+
+> [!NOTE]
+> Обновления на месте были доступны в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Параллельное поддерживается сосуществования, [перехода на Скайп для Business Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) более подробные сведения.
   
 ## <a name="upgrade-from-lync-server-2013"></a>Обновление с Lync Server 2013
 
@@ -233,14 +236,14 @@ Disable-CsComputer -Scorch
   
 Просмотрите полное сообщение внизу страницы, содержащее указания по устранению неполадки. Для просмотра подробных сведений выберите **Просмотреть журналы**.
   
-Если обновление на месте не удалось выполнить на **Готовность к обновлению проверка** или ** установка предварительные условия отсутствующий **, убедитесь, что на сервере есть последних Windows Server, Lync Server и установленными обновлениями SQL Server и все необходимое программное обеспечение и роли установить. Что необходимо список в разделе [требования к серверу для Скайп для Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) и [установить необходимые компоненты для Скайп для Business Server 2015](install/install-prerequisites.md).
+В случае сбоя обновления на месте на **Готовность к обновлению проверка** или **отсутствует Установка необходимых компонентов**убедитесь, что на сервере есть все Windows Server, Lync Server и SQL Server обновления применяется и все необходимое программное обеспечение и роли являются установить. Что необходимо список в разделе [требования к серверу для Скайп для Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) и [установить необходимые компоненты для Скайп для Business Server 2015](install/install-prerequisites.md).
   
 ## <a name="see-also"></a>См. также
 
-[Планирование обновления до Скайп для Business Server 2015](../plan-your-deployment/upgrade.md)
+[Планирование обновления до Skype для бизнеса Server 2015](../plan-your-deployment/upgrade.md)
   
-[Требования к серверу для Скайп для Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Требования к серверу для Skype для бизнеса Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Установка необходимых компонентов для Скайп для Business Server 2015](install/install-prerequisites.md)
+[Установка обязательных компонентов для Skype для бизнеса Server 2015](install/install-prerequisites.md)
   
-[Установка Скайп для Business Server 2015](install/install.md)
+[Установка Skype для бизнеса Server 2015](install/install.md)

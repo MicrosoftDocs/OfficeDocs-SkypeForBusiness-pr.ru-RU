@@ -1,9 +1,8 @@
 ---
-title: Настройка нескольких номеров экстренных служб в Skype для бизнеса 2015
+title: Настройка нескольких аварийного номера в Скайп для бизнеса
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 4/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,19 +11,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: В этой статье описываются способы настройки нескольких номеров экстренных служб в Skype для бизнеса Server 2015.
-ms.openlocfilehash: 176233639a6ca935165e4640471377cc012db103
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: Прочтите этот раздел, чтобы узнать, как настроить несколько аварийного номера в Скайп для Business Server.
+ms.openlocfilehash: 01dc72e2d165ff3c4076aa4180768ca941607b93
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568237"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985425"
 ---
-# <a name="configure-multiple-emergency-numbers-in-skype-for-business-2015"></a>Настройка нескольких номеров экстренных служб в Skype для бизнеса 2015
+# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Настройка нескольких аварийного номера в Скайп для бизнеса
  
-В этой статье описываются способы настройки нескольких номеров экстренных служб в Skype для бизнеса Server 2015.
+Прочтите этот раздел, чтобы узнать, как настроить несколько аварийного номера в Скайп для Business Server.
   
-Скайп для Business Server теперь поддерживает несколько аварийного номера для клиента. Несколько аварийного номера — это новая возможность, введенные в 2016 июня накопительного обновления. Прежде чем настраивать среду для поддержки нескольких аварийного номера, обязательно прочитайте [Планирование нескольких аварийного номера в Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
+Скайп для Business Server теперь поддерживает несколько аварийного номера для клиента. Несколько аварийного номера — это новая возможность, введенные в 2016 июня накопительного обновления. Прежде чем настраивать среду для поддержки нескольких аварийного номера, обязательно прочитайте [Планирование нескольких аварийного номера в Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
   
 > [!NOTE]
 > Если вы еще не был обновлен для 2016 ноября накопительные пакеты обновления, посетите страницу [обновления для Скайп для Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015). С помощью 2016 ноября накопительные пакеты обновления, количество номеров экстренные службы поддержки увеличивается от 5 до 100. 

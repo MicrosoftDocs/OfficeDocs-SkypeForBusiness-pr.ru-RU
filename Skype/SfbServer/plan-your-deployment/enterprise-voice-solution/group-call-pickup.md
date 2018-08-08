@@ -1,9 +1,8 @@
 ---
-title: Планирование группового ответа на звонки в Skype для бизнеса 2015
+title: Планирование для группы отправки вызовов в Скайп для бизнеса
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Планирование для отправки вызовов группы в Скайп Business Server корпоративной голосовой связи, который позволяет пользователям отвечать на звонки, изначально предназначены для других пользователей.
-ms.openlocfilehash: 6a2fde93d6fcbfa4e2b382f3512d65a8d986a8ba
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 17c3d453fa54ea72c02c022d33b0b2f1c61e8b0b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016200"
 ---
-# <a name="plan-for-group-call-pickup-in-skype-for-business-2015"></a>Планирование группового ответа на звонки в Skype для бизнеса 2015
+# <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Планирование для группы отправки вызовов в Скайп для бизнеса
  
 Планирование для отправки вызовов группы в Скайп Business Server корпоративной голосовой связи, который позволяет пользователям отвечать на звонки, изначально предназначены для других пользователей.
   
@@ -115,7 +115,7 @@ ms.lasthandoff: 05/03/2018
   
 **Групповой звонок раскладки пользовательская модель**
 
-|**Метрики**|**Каждого пула переднего плана <br/> (содержит 8 серверов переднего плана)**|**На каждом сервере Standard Edition**|
+|**Показатель**|**Каждого пула переднего плана <br/> (содержит 8 серверов переднего плана)**|**Для каждого сервера Standard Edition**|
 |:-----|:-----|:-----|
 |Рекомендуемое число пользователей на группу  <br/> |50  <br/> |50  <br/> |
 |Рекомендуемое число групп  <br/> |500  <br/> |60  <br/> |

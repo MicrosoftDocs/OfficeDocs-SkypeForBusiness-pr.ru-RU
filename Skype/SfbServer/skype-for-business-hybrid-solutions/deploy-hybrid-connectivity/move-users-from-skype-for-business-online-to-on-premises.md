@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Сводка: Узнайте, как для перемещения учетных записей пользователей из Интернета к локально в Скайп для Business Server.'
-ms.openlocfilehash: 7e0400a0a77a50253e6932c8255c64eb58574229
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569479"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025683"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Перемещение пользователей из Скайп для бизнеса в Интернет для локально
  
@@ -70,9 +70,7 @@ ms.locfileid: "19569479"
   Import-PSSession $CSSession -AllowClobber
   ```
 
-    Дополнительные сведения о том, как установить удаленный сеанс PowerShell с Скайп для бизнеса в Интернет можно [подключение к Lync Online с помощью Windows PowerShell](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx).
-    
-    Дополнительные сведения об использовании Скайп для бизнеса в Интернет модуль PowerShell соединитель можно [С помощью Windows PowerShell для управления Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
+    Дополнительные сведения об использовании PowerShell с Скайп для бизнеса в Интернет можно [настроить компьютер для Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 - Общее адресное пространство SIP должна быть настроена интерактивного клиента. Для этого сначала удаленного сеанса Powershell с Скайп для бизнеса в Интернет. Затем выполните следующий командлет:
     
@@ -131,9 +129,9 @@ ms.locfileid: "19569479"
     
   - Обновите запись **lyncdiscover.contoso.com** A, указав полное доменное имя локального обратного прокси-сервера.
     
-  - Обновление ** *_sip* . запишите _tls.contoso.com** SRV для разрешения в общедоступный IP-адрес или виртуальный IP-адрес адрес пограничной службы доступа Lync локальных.
+  - Обновление ** *_sip* . _tls.contoso.com** запись SRV для разрешения в общедоступный IP-адрес или виртуальный IP-адрес адрес пограничной службы доступа Lync локальных.
     
-  - Обновление ** *_sipfederationtls* . запишите _tcp.contoso.com** SRV для разрешения в общедоступный IP-адрес или виртуальный IP-адрес адрес службы пограничного сервера доступа из Скайп for Business Server 2015 локальной.
+  - Обновление ** *_sipfederationtls* . _tcp.contoso.com** запись SRV для разрешения в общедоступный IP-адрес или виртуальный IP-адрес адрес службы пограничного сервера доступа из Скайп for Business Server 2015 локальной.
     
   - Если используемые организацией разделения DNS (иногда называется «разделенной DNS»), убедитесь в том, что пользователи, разрешение имен через внутреннюю зону DNS направляются пула переднего плана.
     
@@ -189,7 +187,7 @@ ms.locfileid: "19569479"
   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
   ```
 
-|**Атрибут Active Directory**|**Имя атрибута**|**Правильное значение Online пользователя**|**Правильное значение для локальных пользователей**|
+|**Атрибут Active Directory**|**Имя атрибута**|**Правильное значение для пользователя Online**|**Правильное значение для локальных пользователей**|
 |:-----|:-----|:-----|:-----|
 |msRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.Online.Lync.com  <br/> |SRV:  <br/> |
 |msRTCSIP-PrimaryUserAddress  <br/> |SIPAddress  <br/> |SIP:username@Contoso.com  <br/> |SIP:username@Contoso.com  <br/> |

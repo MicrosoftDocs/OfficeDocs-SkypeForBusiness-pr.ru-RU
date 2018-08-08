@@ -1,9 +1,8 @@
 ---
-title: Настройка параметров парковки вызовов в Skype для бизнеса 2015
+title: Настройка параметров парковки вызовов в Скайп для бизнеса
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Изменение параметров парковки вызовов в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: c0aacdf23788c56d2bd0204665d5971dc715df3b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 518cefda9cd6186c8362dea83bb80acb046d441d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568306"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019519"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business-2015"></a>Настройка параметров парковки вызовов в Skype для бизнеса 2015
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Настройка параметров парковки вызовов в Скайп для бизнеса
  
 Изменение параметров парковки вызовов в Скайп Business Server корпоративной голосовой связи.
   
@@ -60,7 +59,7 @@ ms.locfileid: "19568306"
 
 ## <a name="see-also"></a>См. также
 
-[Настройка парковки вызовов музыку при удержании inSkype для бизнеса 2015](customize-call-park-music-on-hold.md)
+[Настройка функции воспроизведения музыки для режима удержания при парковке вызова в Skype для бизнеса 2015](customize-call-park-music-on-hold.md)
 
 [Новый CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
   

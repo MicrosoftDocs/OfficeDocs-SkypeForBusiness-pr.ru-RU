@@ -1,5 +1,5 @@
 ---
-title: Установка обязательных компонентов для Skype для бизнеса Server 2015
+title: Установка необходимых компонентов для Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
-description: 'Сводка: Сведения о серверов и ролей серверов, необходимо настроить перед установкой Скайп для Business Server 2015. Загрузить бесплатную пробную версию программы Скайп для 2015 Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: f37954b4eddffbcef08c270dc86234e3a56e7079
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: 'Сводка: Сведения о серверов и ролей серверов, необходимо настроить перед установкой Скайп для Business Server. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: ffd286262686d1faf55591f88df75b0e0323acc2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972922"
 ---
-# <a name="install-prerequisites-for-skype-for-business-server-2015"></a>Установка обязательных компонентов для Skype для бизнеса Server 2015
+# <a name="install-prerequisites-for-skype-for-business-server"></a>Установка необходимых компонентов для Скайп для Business Server
  
-**Сводка:** Сведения о серверах и роли сервера, которые необходимо настроить перед установкой Скайп для Business Server 2015. Загрузите бесплатную пробную версию программы Скайп для Business Server 2015 [Центр оценки Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Сводка:** Сведения о серверах и роли сервера, который необходимо настроить перед установкой Скайп для Business Server. Загрузите бесплатную пробную версию программы Скайп для Business Server [Центр оценки Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 При настройке Windows Server на каждом из серверов в топологии устанавливаются роли и функции, которые являются необходимыми компонентами. Требования зависят от роли, которую выполняет сервер в топологии. Шаги 1–5 можно выполнять в любом порядке. Однако шаги 6, 7 и 8 необходимо выполнять в указанном порядке и только после шагов 1–5, как показано на схеме. Обязательные компоненты устанавливаются на шаге 1 из 8.
   
@@ -30,7 +31,7 @@ ms.lasthandoff: 05/08/2018
   
 ## <a name="setup-windows-server"></a>Настройка Windows Server
 
-Скайп для Business Server 2015 требуется операционная система Windows Server и число необходимых компонентов можно установить. Для получения дополнительных сведений о планировании наличие необходимых компонентов просмотрите [требования к серверу для Скайп для Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+Скайп для Business Server требуется операционная система Windows Server и число необходимых компонентов можно установить. Для получения дополнительных сведений о планировании наличие необходимых компонентов просмотрите [требования к серверу для Скайп для Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 > [!TIP]
 > Здесь приведена процедура для Windows Server 2012 R2. Процедуры для других версий Windows Server могут незначительно отличаться. 
@@ -48,7 +49,7 @@ ms.lasthandoff: 05/08/2018
 
 Можно установить необходимые роли и компоненты, с помощью диспетчера сервера. 
     
-1. Установите необходимые программные компоненты, указанные в [требования к серверу для Скайп для Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). На сервере, на котором будет запущен Скайп для Business Server 2015 должен быть необходимого программного обеспечения.
+1. Установите необходимые программные компоненты, указанные в [требования к серверу для Скайп для Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). На сервере, на котором будет запущен Скайп для Business Server должен быть необходимого программного обеспечения.
     
     > [!CAUTION]
     > По умолчанию в Windows Server 2012 R2 не устанавливаются все исходные файлы для обязательных компонентов. Если сервер не подключен в сети Интернет, для установки обязательных компонентов потребуется установить носитель Windows Server 2012 R2 и выбрать **Указать альтернативный исходный путь**. Исходные файлы находятся в каталоге sources\sxs. Например, если носитель Windows Server 2012 R2 установлен в дисковод D, следует указать путь `d:\sources\sxs`. Важно получить последние пакеты обновления из центра обновления Windows. При отсутствии интернет-подключения потребуется вручную установить все необходимые пакеты обновления, а также обязательные компоненты для этих пакетов. 
@@ -61,6 +62,6 @@ ms.lasthandoff: 05/08/2018
 
 
 > [!IMPORTANT]
-> Для серверов, роль которых отличается от роли сервера переднего плана, например для директоров, серверов сохраняемого чата и пограничных серверов, предусмотрены особые наборы обязательных компонентов. Сведения на точное необходимого программного обеспечения, необходимые для каждого типа сервера содержатся [требования к серверу для Скайп для Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+> Для серверов, роль которых отличается от роли сервера переднего плана, например для директоров, серверов сохраняемого чата и пограничных серверов, предусмотрены особые наборы обязательных компонентов. Для получения дополнительных сведений на точное необходимого программного обеспечения, необходимые для каждого типа сервера просмотрите [требования к серверу для Скайп для Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 

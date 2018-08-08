@@ -1,53 +1,59 @@
 ---
-title: Переход со Skype для бизнеса на Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Скайп для бизнеса об обновлении группами Майкрософт
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: MyAdvisor, dearbeen
-description: Мы расскажем обо всем, что нужно знать для перехода со Skype для бизнеса Online на Microsoft Teams.
+ms.reviewer: dearbeen
+description: Следуйте проверенных успеха framework для пути обновления вашей организации из Скайп для бизнеса в группы
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4341be17cd224e01cc6024d6bf871a6823cdad2
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 1cb5d785df33059fa26c4a081b3ebef70540d65b
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145286"
 ---
-<a name="journey-from-skype-for-business-to-microsoft-teams"></a>Переход со Skype для бизнеса на Microsoft Teams
-==================================================
-
-Руководствуясь своей [концепцией интеллектуальных коммуникаций](https://aka.ms/intelligentcommunicationsblog), направленной на совершенствование работы со звонками и собраниями, Майкрософт встраивает функции Skype для бизнеса в Teams. Это будет происходить постепенно, и в конечном итоге Teams превратится в единый клиент для всех задач. Майкрософт ценит вас как клиента Skype для бизнеса, и поэтому готов оказывать поддержку на каждом этапе перехода на Teams. Мы понимаем, что на изменения нужно время, и поэтому предлагаем вам начать изучение Teams уже сегодня, чтобы, работая со Skype для бизнеса, понять его преимущества для вашей организации. 
-
-Ознакомьтесь со [стратегией по продукту Teams](https://aka.ms/TeamsRoadmap), чтобы узнать о дальнейших планах и выбрать оптимальный момент для перехода на Teams.
-
-Чтобы оставаться в курсе новостей о переходе со Skype для бизнеса на Microsoft Teams, скачайте PDF-файл [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) (Переход со Skype для бизнеса на Microsoft Teams: стратегия внедрения возможностей). Пока что он доступен только на английском языке. Этот PDF-файл рассказывает, чего сейчас ожидает корпорация Майкрософт в отношении переноса возможностей Skype для бизнеса в Microsoft Teams.
-
-Для обеспечения оптимальных результатов рекомендуем вам следовать указанному ниже плану:
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Скайп для бизнеса об обновлении группами Майкрософт
 
 
-[1. Оптимизация имеющейся среды Skype для бизнеса для перехода на Teams.](prepare-teams.md)
+Поддержка концепции intelligent коммуникаций корпорации Майкрософт, группами Майкрософт является центром для командной работы, собрать чата, собраний, вызов, совместной работы, интеграции приложений и хранение файлов. Как существующие Скайп для клиента Business ознакомьтесь с обновления до Microsoft командами, чтобы испытать этот полный набор возможностей обмена данными и совместной работы в одного клиентского интерфейса.
 
-[2. Пилотный проект Teams параллельно с использованием Skype для бизнеса.](pilot-essentials.md)
+Обновления реализация может занять некоторое время и в вашем для поддержки каждого этапа проекта. Будет ли вы будете только что Приступая к работе с командами, уже с помощью команды наряду с Скайп для бизнеса, или Готово к обновлению, мы прилагает все усилия для переноса уровня руководство для вашей организации и рекомендуем вам выполнить дальнейшие действия для начала осознавать, значение команды можно предоставить пользователям организации.
 
-[3 — обновление пути и сосуществование Скайп для бизнеса и рабочих групп](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+Просмотрите этот [Обзор](https://aka.ms/UpgradeOverview) введение к Скайп для бизнеса в пути обновления групп, включая основные концепции, framework и пути обновления.
 
-[4. Извлечение выгоды за счет освоения Teams пользователями.](continue-journey.md)
+## <a name="upgrade-journey-framework"></a>Обновление реализация framework
+
+Чтобы избавят вас от обновления пути, мы применил проверенных успеха структуру для поездок изменения, включения рекомендации, советы и ресурсами на протяжении. Каждый шаг построения на предыдущей и для получения оптимальных результатов рекомендуется следующий действия в указанном порядке.
+
+Как показано ниже, успешного обновления начинается, объединяя правильный выбор сотрудников на стадии заинтересованных лиц проекта и переместив для определения проекта, где solidified область, целями и временной шкалы. Это позволяет создать надежная платформа для обновления пути. Нет очень важно для подготовки для обоих технической подготовки _и_ готовность пользователей этапы перед переходом к развертыванию и реализации. Планирование пилотного проекта для проверки готовности перед широкий выгрузка данных. Для максимального преимущества на этапе высокий уровень составить план, который отслеживает качество и ускоряет адаптацию пользователей.
+
+> [!Tip]
+> Для перемещения по обновлению пути найдите этот рисунок на связанных страниц, чтобы определить, где находятся в процессе. ![Убедитесь, что проект настроен для успешной работы с группы правой проекта. Определение области проекта, цели и временной шкалы. Подтверждение проверки готовности к техническим и пользователя. Выполнение плана развертывания. Ведение momentum для обеспечения максимальной результаты.] (media/upgrade-banner-main.png "Убедитесь, что проект настроен для успешной работы с группы правой проекта. Определение области проекта, цели и временной шкалы. Подтверждение проверки готовности к техническим и пользователя. Выполнение плана развертывания. Ведение momentum для обеспечения максимальной результаты.")
+
+## <a name="to-get-started"></a>Для начала работы...
+
+Мы понимаем, что пользователи не поставляются универсальная. Для повышения мы иерархическую структуру два пути: обновление базовой и обновление специалистов. Выбор пути, который наилучшим образом отвечает требованиям вашей организации.
+
+Выберите один из следующих возможностей или просмотреть оба для определения оптимального пути. Дополнительные сведения будут переходит в оперативный режим постепенно, поэтому автоматически проверять обратно вашей организации по-прежнему производится пути к группам. Для лучшего понимания путь обновления и какие дополнительные рекомендации могут быть полезны занять некоторое время для <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">совместного использования ваш отзыв</a>.
 
 
- 
-### <a name="see-also"></a>См. также
-[Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-
-[Вопросы и ответы. Концепция Skype для бизнеса и Teams](FAQ-journey.md)
-
-[Схема группами Майкрософт](https://aka.ms/teamsroadmap)
-
-[Переход со Skype для бизнеса на Microsoft Teams: стратегия внедрения возможностей](https://aka.ms/skype2teamsroadmap)
-
+<div class="mx-tableFixed">
+<table>
+<tbody>
+<tr><td><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-basic"><img src="media/upgrade-to-teams-upgrade-basic-icon.png" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Basic checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
+<td>
+<a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
+</tbody></table>
+</div>
 
 
-
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

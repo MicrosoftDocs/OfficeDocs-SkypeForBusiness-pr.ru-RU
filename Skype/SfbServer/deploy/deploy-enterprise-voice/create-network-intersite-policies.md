@@ -1,9 +1,8 @@
 ---
-title: Создание политик межсайтового взаимодействия в Skype для бизнеса Server 2015
+title: Создание сетевого политик межсайтового взаимодействия в Скайп для Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Создание политики между сайтами, которые используются с корпоративной голосовой связи контроля допуска звонков в Скайп для Business Server.
-ms.openlocfilehash: 6dc1469950bfac46110953c0e354cd50f4f89688
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 49405bbaa1d761f1acc10c7506e44992cc03a153
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500721"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988524"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server-2015"></a>Создание политик межсайтового взаимодействия в Skype для бизнеса Server 2015
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Создание сетевого политик межсайтового взаимодействия в Скайп для Business Server
  
 Создание политики между сайтами, которые используются с корпоративной голосовой связи контроля допуска звонков в Скайп для Business Server. 
   
-Сетевая межсайтовая политика задает ограничения пропускной способности между узлами, соединенными прямые связи глобальной сети между ними.
+Межсайтовая сетевая политика определяет ограничения пропускной способности между сайтами, соединенными прямыми каналами связи по глобальной сети.
   
 > [!IMPORTANT]
 > Сетевая межсайтовая политика является обязательным *только* при наличии прямое соединение между двумя сетевыми узлами.

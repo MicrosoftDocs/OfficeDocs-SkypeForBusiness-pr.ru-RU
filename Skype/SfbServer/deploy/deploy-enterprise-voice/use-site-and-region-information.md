@@ -1,9 +1,8 @@
 ---
-title: Настройка глобальных параметров обхода мультимедиа в Скайп для 2015 Business Server для использования сведений об узлах и областях
+title: Настройка глобальных параметров обхода мультимедиа в Скайп для Business Server для использования сведений об узлах и областях
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Настройка сервера-посредника для использования только для определенных узлов и областей в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: df9e36fff04e86b5df743710d35762e458b1c44e
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 081be80d969c2503abc7e2de4e9865b6057a363b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500799"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995981"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-2015-to-use-site-and-region-information"></a>Настройка глобальных параметров обхода мультимедиа в Скайп для 2015 Business Server для использования сведений об узлах и областях
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Настройка глобальных параметров обхода мультимедиа в Скайп для Business Server для использования сведений об узлах и областях
  
 Настройка сервера-посредника для использования только для определенных узлов и областей в Скайп Business Server корпоративной голосовой связи. 
   
@@ -53,8 +52,9 @@ ms.locfileid: "19500799"
     
 Затем добавьте подсети в сетевой узел, как описано в статье [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets). После сопоставления всех подсетей с сетевыми узлами развертывание обхода сервера-посредника будет завершено.
 > [!IMPORTANT]
-> Если вы еще не создали области сети и сетевые узлы, вам необходимо создать их, прежде чем вы сможете приступить к развертыванию обхода сервера-посредника. Дополнительные сведения см [областей сети развернуть, сайты и подсети в Скайп для бизнеса 2015](deploy-network.md). 
+> Если вы еще не создали области сети и сетевые узлы, вам необходимо создать их, прежде чем вы сможете приступить к развертыванию обхода сервера-посредника. Дополнительные сведения см [областей сети развернуть, сайты и подсети в Скайп для бизнеса](deploy-network.md). 
   
 ## <a name="see-also"></a>См. также
 
 [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)
+

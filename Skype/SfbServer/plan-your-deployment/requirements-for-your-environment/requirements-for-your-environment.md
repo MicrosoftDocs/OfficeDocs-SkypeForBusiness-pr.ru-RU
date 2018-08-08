@@ -13,14 +13,15 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 'Сводка: Структуры разделов для требования систем и инфраструктуры сети или требования Скайп для Business Server 2015. Если вам требуется для установки и настройки что-либо в качестве предварительного требования к установке и развертыванию Скайп для Business Server 2015, оно будет здесь.'
-ms.openlocfilehash: c3ad031a79d7a880036da5fb5eed1ad938505747
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Сводка: обзор разделов с требованиями к системе, сети или инфраструктуре для Skype для бизнеса Server 2015. Если для установки и развертывания Skype для бизнеса Server 2015 необходимо установить или настроить какой-то компонент, он будет описан здесь.'
+ms.openlocfilehash: 98729469459f451727f2285c64dcff3a7fe15f9e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000457"
 ---
-# <a name="requirements-for-your-skype-for-business-environment"></a>Требования к среде Skype для бизнеса Server 2015
+# <a name="requirements-for-your-skype-for-business-2015-environment"></a>Требования к вашей Скайп среды 2015 бизнеса
  
 **Сводка:** обзор разделов с требованиями к системе, сети или инфраструктуре для Skype для бизнеса Server 2015. Если для установки и развертывания Skype для бизнеса Server 2015 необходимо установить или настроить какой-то компонент, он будет описан здесь.
   

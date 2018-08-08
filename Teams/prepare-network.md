@@ -1,5 +1,5 @@
 ---
-title: "Подготовка сети организации к использованию Microsoft Teams"
+title: Подготовка сети организации к использованию Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,15 +7,17 @@ ms.date: 02/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
-description: "Сведения о подготовке сети Microsoft Teams и управлении ею. Здесь приведены требования к сети и пропускной способности, а также дополнительные рекомендации."
+description: Сведения о подготовке сети Microsoft Teams и управлении ею. Здесь приведены требования к сети и пропускной способности, а также дополнительные рекомендации.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e734014ff72c8b7eb6ba0e9f27cce7489ec3daf9
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 3fec119a29ea29d9d5c897395c82e27fdaed5e48
+ms.sourcegitcommit: 8c13d6279760749f60776a3c9e46118f029ae818
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "20024200"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams
 =================================================
@@ -35,7 +37,7 @@ Teams сочетает в себе три формы трафика:
 
 Чтобы обеспечить в Microsoft Teams оптимальную работу с мультимедиа в реальном времени, нужно обеспечить соответствие сетей требованиям для Office 365. Дополнительные сведения: [Качество медиаданных и производительность сетевого подключения в Skype для бизнеса Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US).
 
-Два определяющих сегмента сети (между программой-клиентом и периметром Майкрософт, а также между периметром клиента и периметром Майкрософт) должны соответствовать следующим требованиям:
+Для двух определение сегментов сети (клиент для пограничного сервера Microsoft) и граница клиента для пограничного сервера Microsoft необходимо учитывать следующие рекомендации.
 
 
 |Значение  |Между программой-клиентом и периметром Майкрософт  |Между периметром заказчика и периметром Майкрософт  |
@@ -57,22 +59,23 @@ Teams сочетает в себе три формы трафика:
 
 Расчеты пропускной способности для Microsoft Teams довольно сложны, поэтому был создан соответствующий калькулятор. Для доступа к калькулятору перейдите в раздел [Network Planner](http://aka.ms/bwcalc/) (планировщик сети) в MyAdvisor.
 
-Приведенную ниже информацию можно использовать в качестве вспомогательных справочных сведений, однако для определения своих потребностей рекомендуем клиентам использовать [Network Planner](https://aka.ms/bwcalc).
+<!--
+The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
 
 > [!IMPORTANT]
->Если требуемая пропускная способность недоступна, стек мультимедиа в Teams соответствующим образом понизит качество аудио/видеосвязи, что негативно повлияет на качество звонков и собраний. Клиент Teams будет пытаться улучшить качество звука за счет качества видео. Поэтому крайне важно обеспечить требуемую пропускную способность.
+>If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
 
 
-|Действие  |Пропускная способность при скачивании  |Пропускная способность при отправке  |Поток трафика |
+|Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
 |---------|---------|---------|---------|
-|**Одноранговый звонок**     |0,1 Мбит         |0,1 Мбит         |Клиент <> клиент         |
-|**Одноранговый видеозвонок (на весь экран)**     |4 Мбит         |4 Мбит         |Клиент <> клиент          |
-|**Одноранговая демонстрация рабочего стола (разрешение 1920 х 1080)**     |4 Мбит         |4 Мбит         |Клиент <> клиент          |
-|**Собрание с 2 участниками**     |4 Мбит         |4 Мбит         |Клиент <> Office 365         |
-|**Собрание с 3 участниками**     |8 Мбит         |6,5 Мбит         |Клиент <> Office 365           |
-|**Собрание с 4 участниками**     |5,5 Мбит         |4 Мбит         |Клиент <> Office 365           |
-|**Собрание с 5 и более участниками**     |6 Мбит         |1,5 Мбит         |Клиент <> Office 365           |
-
+|**Peer to peer Audio Call**     |0.1 Mb         |0.1Mb         |Client <> Client         |
+|**Peer to peer Video Call (full screen)**     |4 Mb         |4Mb         |Client <> Client          |
+|**Peer to peer Desktop Sharing (1920*1080 resolution)**     |4 Mb         |4 Mb         |Client <> Client          |
+|**2 Participant Meeting**     |4 Mb         |4 Mb         |Client <> Office 365         |
+|**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
+|**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
+|**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
+-->
 
 <a name="additional-network-considerations"></a>Дополнительные рекомендации относительно сети
 ---------------

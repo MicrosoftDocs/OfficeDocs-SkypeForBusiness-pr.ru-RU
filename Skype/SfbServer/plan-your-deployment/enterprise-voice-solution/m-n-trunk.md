@@ -1,9 +1,8 @@
 ---
-title: Магистраль MN в Скайп для Business Server 2015
+title: Магистраль MN в Скайп для Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: 'Скайп для корпоративной голосовой связи Business Server поддерживает магистрали m: n между сервером-посредником и компоненты, такие как шлюзы ТСОП, пограничных контроллеров сеансов и IP-УАТС.'
-ms.openlocfilehash: 8f85cce1eaca8f37b6acc87f7ad4beed74fc788f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 13c25bddcbd5870caf0240f043321605cc9ace81
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012158"
 ---
-# <a name="mn-trunk-in-skype-for-business-server-2015"></a>Магистраль M:N в Skype для бизнеса Server 2015
+# <a name="mn-trunk-in-skype-for-business-server"></a>Магистраль m: n в Скайп для Business Server
  
 Скайп для корпоративной голосовой связи Business Server поддерживает магистрали m: n между сервером-посредником и компоненты, такие как шлюзы ТСОП, пограничных контроллеров сеансов и IP-УАТС.
   

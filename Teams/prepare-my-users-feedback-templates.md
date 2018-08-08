@@ -2,20 +2,22 @@
 title: Опросы свои отзывы и предложения пользователей в группы Microsoft или Скайп для бизнеса
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Сбор отзывов и предложений по улучшению облачных реализации голосовой связи в группами Майкрософт или Скайп для бизнеса.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71ac2dd26b0b60293602aadb83284e0bf5c25739
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 92336183b6c96e789ce079119a1acc05ba3da4af
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695440"
 ---
 # <a name="user-feedback-surveys"></a>Опросы отзывов пользователей 
 

@@ -7,19 +7,20 @@ ms.date: 04/16/2018
 ms.topic: article
 audience: Admin
 ms.service: msteams
-ms.reviewer: dearbeen, ninadara
-localization_priority: Normal
+ms.reviewer: ''
+localization_priority: Priority
 description: Сведения о различных лицензиях Office 365, лицензия, позволяющих пользователям работать с Microsoft Teams, а также о способах включения и отключения этого продукта.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d9d3ae6a085881a3965a4e25a101172c5874b14
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 25124f8e324dc2b713e9243c21b5dc4376deafb3
+ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21750354"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Лицензирование Office 365 для Microsoft Teams
 ========================================
@@ -32,13 +33,14 @@ ms.lasthandoff: 04/18/2018
 |---------|---------|---------|---------|
 |Office 365 бизнес базовый     |Office 365 корпоративный E1  |Office 365 для образования |Office 365 для разработчиков     |
 |Office 365 бизнес премиум     |Office 365 корпоративный E3         |Office 365 для образования плюс         |      |
-|Office 365 корпоративный F1     |Office 365 корпоративный E4 (устарел)         |Office 365 для образования E3 (устарел)         |  |
+|     |Office 365 корпоративный E4 (устарел)         |Office 365 для образования E3 (устарел)         |  |
 |     |Office 365 корпоративный E5         |Office 365 для образования E5  | 
+|     |Office 365 корпоративный F1 |    |     |
 
-
+Дополнительные сведения о получении группами извлечь [как получить доступ к группами Майкрософт?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
-> Продукт Microsoft Teams также доступен для некоммерческих организаций. Лицензирование для государственных организаций сейчас не поддерживается, но работа в этом направлении ведется.
+> Продукт Microsoft Teams также доступен для некоммерческих организаций. Команды будет приступить к развертыванию для НАС государственных облако сообщества (GCC) 17 июля и быть доступны для всех подходящих клиентов к концу 2018 августа. Мы работа в использование групп Майкрософт в других США государственных облака (GCC высокой и министерства обороны США) готовится к выпуску. Дополнительные сведения в блоге группы Microsoft [здесь](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
         
 
 

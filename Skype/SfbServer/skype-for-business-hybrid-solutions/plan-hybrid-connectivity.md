@@ -16,12 +16,13 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
-description: 'Сводка: Сведения о сведения о планировании гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет. Настройка гибридных подключений является первым шагом при развертывании многих гибридных решений Skype для бизнеса.'
-ms.openlocfilehash: d61bdd8ecf7ce35e1f80e5b69ede590d5d2c1cd1
-ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
+description: Краткое содержание. В этом разделе приводятся сведения о планировании гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online.  Настройка гибридных подключений является первым шагом при развертывании многих гибридных решений Skype для бизнеса.
+ms.openlocfilehash: 2cd4c66ebd36542fa90cb8b8bcd0aa88da0d8df0
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145367"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Планирование гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online
  
@@ -31,31 +32,31 @@ ms.lasthandoff: 05/22/2018
   
 В этой статье содержатся следующие разделы.
   
-- [Обзор (en)](plan-hybrid-connectivity.md#BKMK_Overview)
+- [Обзор](plan-hybrid-connectivity.md#BKMK_Overview)
     
 - [Требования к инфраструктуре](plan-hybrid-connectivity.md#BKMK_Infrastructure)
     
-- [Поддержка нескольких лесов](plan-hybrid-connectivity.md#BKMK_MultiForest)
+- [Поддержка множества лесов](plan-hybrid-connectivity.md#BKMK_MultiForest)
     
-- [Совместная работа Exchange](plan-hybrid-connectivity.md#BKMK_Exchange)
+- [Совместная работа с Exchange](plan-hybrid-connectivity.md#BKMK_Exchange)
     
 - [Учетные данные администратора](plan-hybrid-connectivity.md#BKMK_Credentials)
     
-- [Скайп для бизнеса Online PowerShell](plan-hybrid-connectivity.md#BKMK_PowerShell)
+- [Skype для бизнеса Online и PowerShell](plan-hybrid-connectivity.md#BKMK_PowerShell)
     
-- [Скайп поддержки клиентов бизнеса](plan-hybrid-connectivity.md#BKMK_ClientSupport)
+- [Поддержка клиентов Skype для бизнеса](plan-hybrid-connectivity.md#BKMK_ClientSupport)
     
 - [Требования к топологии](plan-hybrid-connectivity.md#BKMK_Topology)
     
-- [Требования к приведены разрешенные или заблокированные федерации](plan-hybrid-connectivity.md#BKMK_Federation)
+- [Требования к спискам разрешения и блокировки для федерации](plan-hybrid-connectivity.md#BKMK_Federation)
     
 - [Параметры DNS](plan-hybrid-connectivity.md#BKMK_DNS)
     
-- [Требования к брандмауэру](plan-hybrid-connectivity.md#BKMK_Firewall)
+- [Информация о брандмауэре](plan-hybrid-connectivity.md#BKMK_Firewall)
     
-- [Требования к портов и протоколов](plan-hybrid-connectivity.md#BKMK_Ports)
+- [Требования относительно портов и протоколов](plan-hybrid-connectivity.md#BKMK_Ports)
     
-- [Учетные записи пользователей и данных](plan-hybrid-connectivity.md#BKMK_UserAccounts)
+- [Учетные записи пользователей и данные](plan-hybrid-connectivity.md#BKMK_UserAccounts)
     
 - [Политики и функции пользователей](plan-hybrid-connectivity.md#BKMK_UserPolicies)
     
@@ -126,6 +127,9 @@ ms.lasthandoff: 05/22/2018
 Для развертывания гибридной системы связи между Skype для бизнеса Server и Skype для бизнеса Online необходимо настроить в вашей среде следующее.
   
 - Single локального развертывания Скайп Business Server или Lync Server, развернутого в поддерживаемые топологии. Просмотрите [требования к топологии](plan-hybrid-connectivity.md#BKMK_Topology) в этом разделе.
+    
+    > [!NOTE]
+    > Каждый домен SIP, существует ли в локальной среде, должны существовать в клиент Office 365 и наоборот. Не может быть несколько доменов SIP через Интернет только и несколько доменов только локальные. В противном случае сведения о присутствии, обмен мгновенными Сообщениями и другие функции не будут работать правильно.
     
 - Клиент Microsoft Office 365 с помощью Скайп для бизнеса в Интернет включено. 
     
@@ -278,7 +282,9 @@ ms.lasthandoff: 05/22/2018
 |Записи DNS A для полного доменного имени пограничной службы веб-конференций, например, webcon.contoso.com, разрешается во внешние IP-адреса пограничного сервера веб-конференций  <br/> |Внутренний корпоративной сети подключения компьютера пользователя  <br/> |Включите для пользователей в сети возможность представлять или просматривать содержимое во время собраний, которые проводятся локально. К содержимому относятся файлы PowerPoint, доски, опросы и общие заметки.   <br/> |
    
 В зависимости от настройки DNS в вашей организации может потребоваться добавить эти записи во внутреннюю зону DNS, чтобы соответствующие домены SIP предоставляли внутреннее разрешение DNS для этих записей.
-  
+
+[!NOTE] _sipfederationtls._tcp. \<sipdomain.com\> разрешение записей SRV между пограничным сервером является обязательным для гибридной конфигурации. Пограничный сервер не может решить эти записи, в локальной пользователи не смогут просматривать сведения о присутствии и общаться с пользователями online.
+
 ## <a name="firewall-considerations"></a>Информация о брандмауэре
 <a name="BKMK_Firewall"> </a>
 
@@ -294,7 +300,7 @@ ms.lasthandoff: 05/22/2018
 Помимо требований к портам для внутреннего обмена данными, для реализации гибридной системы связи необходимо также настроить следующие порты.
   
 
-|**Протокол**|**TCP / UDP-ПОРТ**|**Исходный IP-адрес**|**Назначение IP-адресов**|**Порт источника**|**Конечный порт**|**Примечания**|
+|**Протокол**|**TCP или UDP**|**Исходный IP-адрес**|**Конечный IP-адрес**|**Исходный порт**|**Конечный порт**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |доступа  <br/> |Office 365  <br/> |Любой  <br/> |5061  <br/> |Сигнализация  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |доступа  <br/> |Любой  <br/> |5061  <br/> |Сигнализация  <br/> |

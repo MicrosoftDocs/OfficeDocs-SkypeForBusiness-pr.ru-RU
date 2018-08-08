@@ -1,9 +1,8 @@
 ---
-title: Развертывание функций управления звонками в Skype для бизнеса 2015
+title: Развертывание функций управления вызовами в Скайп для бизнеса
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Развертывание функций управления вызовами в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 181c8e983416c91e6847869786170ad2f73c8728
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a63f53970b25c9148c65c95890df14e77feb0008
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025661"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business-2015"></a>Развертывание функций управления звонками в Skype для бизнеса 2015
+# <a name="deploy-call-management-features-in-skype-for-business"></a>Развертывание функций управления вызовами в Скайп для бизнеса
  
 Развертывание функций управления вызовами в Скайп Business Server корпоративной голосовой связи.
   
@@ -38,12 +38,12 @@ ms.lasthandoff: 05/03/2018
   
 ## <a name="in-this-section"></a>Содержание
 
-- [Процесс развертывания для парковки вызовов в Скайп для бизнеса 2015](deployment-process-for-call-park.md)
+- [Процесс развертывания для парковки вызовов в Скайп для бизнеса](deployment-process-for-call-park.md)
     
-- [Deployment process for Group Call Pickup in Skype for Business 2015](deployment-process-for-group-call-pickup.md)
+- [Процесс развертывания для группы вызова раскладки в Скайп для бизнеса](deployment-process-for-group-call-pickup.md)
     
-- [Процесс развертывания для группы ответа в Скайп для бизнеса 2015](deployment-process-for-response-group.md)
+- [Процесс развертывания для группы ответа в Скайп для бизнеса](deployment-process-for-response-group.md)
     
-- [Процесс развертывания для объявлений приложения в Скайп для Business Server 2015](deployment-process-for-the-announcement-application.md)
+- [Процесс развертывания для объявлений приложения в Скайп для Business Server](deployment-process-for-the-announcement-application.md)
     
 

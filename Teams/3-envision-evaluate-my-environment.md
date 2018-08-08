@@ -2,20 +2,22 @@
 title: Оценка среды для рабочих нагрузок команды Microsoft cloud голосовой связи
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Используйте пользователей и анализ сетевых Оцените готовность своей организации, откройте порты TCP и UDP-ПОРТ, выполните все исправления сети.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b97a588a55eb1b7183315751a9483d69eeb0b6b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 72c7e7cc159634edcbd6b108c60fe42108adebac
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20396767"
 ---
 # <a name="evaluate-my-environment"></a>Оценка моей среды
 
@@ -37,7 +39,7 @@ ms.lasthandoff: 04/05/2018
 Как часть окружающей среды обнаружения включают все вопросы, связанные с сетями конечных пользователей, такие как оценки готовности ПК и мобильных устройств для поддержки звука конференц-связи и телефонной системой с вызова планирование business варианты использования, из требования к оборудованию требования к программному обеспечению.
 
 Обнаружение окружающей среды можно также открыть ли вам нужно [Переключить телефонных номеров в корпорацию Майкрософт](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
-Узнать, что это поможет вашей организации соответствующим образом его плана проекта и подготовьте сведения, необходимые для переноса номеров. [Окружающей среды обнаружения для групп Майкрософт выгрузка данных](https://docs.microsoft.com/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) из MyAdvisor можно использовать для обнаружения окружающей среды.
+Узнать, что это поможет вашей организации соответствующим образом его плана проекта и подготовьте сведения, необходимые для переноса номеров. [Окружающей среды обнаружения для групп Майкрософт выгрузка данных](environmental-discovery-for-microsoft-teams-rollout.md) из MyAdvisor можно использовать для обнаружения окружающей среды.
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Точки принятия решений</td><td><ul><li>Кто будет отвечать за выполнение оценки среды?</li></ol></td></tr>

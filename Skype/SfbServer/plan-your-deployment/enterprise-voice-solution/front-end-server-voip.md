@@ -1,9 +1,8 @@
 ---
-title: VoIP-компоненты сервера переднего плана в Skype для бизнеса Server 2015
+title: Переднего плана Server VoIP компоненты для Скайп для Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Сведения о компонентах Enterprise Voice, расположенные на серверах переднего плана в Скайп для Business Server, включая службы перевода и различные компоненты маршрутизации.
-ms.openlocfilehash: a95b437128f7ddb8dd78462d3a8443e972dd75bc
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 24cac38b62cb92fc0d2353edad1238d02b290d75
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980825"
 ---
-# <a name="front-end-server-voip-components-for-skype-for-business-server-2015"></a>VoIP-компоненты сервера переднего плана в Skype для бизнеса Server 2015
+# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Переднего плана Server VoIP компоненты для Скайп для Business Server
  
 Сведения о компонентах Enterprise Voice, расположенные на серверах переднего плана в Скайп для Business Server, включая службы перевода и различные компоненты маршрутизации.
   
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/03/2018
     
 - компонент маршрутизации между кластерами.
     
-- [Компонент сервера-посредника в Скайп для Business Server 2015](mediation-server.md)
+- [Компонент сервера-посредника в Скайп для Business Server](mediation-server.md)
     
 ## <a name="translation-service"></a>Служба перевода
 

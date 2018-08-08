@@ -2,20 +2,22 @@
 title: Принятия решений службы конференц-связи аудио - группами Майкрософт
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Сведения о собраниях, лицензирование и доступность, Настройка параметров моста конференции, получить или перемещение телефонных номеров, выберите клиента абонентские группы.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa51cda9a9ce57d7672b152b45eb9c8e3cf4ba46
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 577ee414529223dbc435d8570a55adb6883fd8a2
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695624"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -330,15 +332,15 @@ ms.lasthandoff: 04/05/2018
 >|Имя абонентской группы клиента<br>_Описание_  |Имя правил нормализации<br>_Описание_  |Шаблон<br>Преобразование<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**AU-NSW-NorthRyde-OER**<br>_Абонентская группа One Epping Road North Ryde, NSW, AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Внутренний номер (x7000–x7999) для офиса One Epping Road, North Ryde, NSW, Австралия_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_Нормализация местного номера для NSW, Австралия_|^([2-9]\d{7})$<br>+612$1<br>False|
->||**AU-TollFree**<br>_Нормализация бесплатного номера для Австралии_|^(1[38]\d{4,8})\d*$<br>+61$1<br>False|
->||**AU-Service**<br>_Нормализация номера службы для Австралии_|^(000\|1[0125]\d{1,8})$<br>$1<br>False|
+>||**AU-NSW-Local**<br>_Нормализация местного номера для NSW, Австралия_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+>||**AU-TollFree**<br>_Нормализация бесплатного номера для Австралии_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+>||**AU-Service**<br>_Нормализация номера службы для Австралии_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
 >|**SG-Singapore-OMB**<br>_OMB в Сингапуре, абонентская группа SG_|**SG-OMB-Internal**<br>_Внутренний номер (x8000 â €«x 8999) для системы office OMB, Сингапур_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_Нормализация бесплатного номера для Сингапура_|^(1?800\d{7})\d*$<br>+65$1<br>False|
->||**SG-Service**<br>_Нормализация номера службы для Сингапура_|^(1\d{3,4}\|9\d{2})$<br>$1<br>False|
+>||**SG-TollFree**<br>_Нормализация бесплатного номера для Сингапура_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+>||**SG-Service**<br>_Нормализация номера службы для Сингапура_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
 >|**FR-Paris-Issy-39qdPR**<br>_Абонентская группа 39 quai du Président Roosevelt Issy-les-Moulineaux, Франция_|**FR-39qdPR-Internal**<br>_Внутренний номер (€ â x7000 «x 7999) для 39 office Рузвельта Président du quai, Issy-les-Moulineaux, Франция_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Нормализация бесплатного номера для Франции_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Нормализация номера службы для Франции_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
+>||**FR-TollFree**<br>_Нормализация бесплатного номера для Франции_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_Нормализация номера службы для Франции_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
 > [!TIP]

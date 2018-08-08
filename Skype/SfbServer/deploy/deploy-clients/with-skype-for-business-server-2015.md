@@ -1,9 +1,8 @@
 ---
-title: Развертывание Систем комнат Skype версии 2 со Skype для бизнеса Server 2015
+title: Развертывание Скайп комнаты v2 систем с Скайп для Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,15 +11,15 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Скайп для Business Server 2015.
-ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Скайп для Business Server.
+ms.openlocfilehash: a1d46012979cd908a00113c4573133da63e844ba
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887829"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976830"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Развертывание Систем комнат Skype версии 2 со Skype для бизнеса Server 2015
+# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Развертывание Скайп комнаты v2 систем с Скайп для Business Server
   
 В этом разделе объясняется, как добавить учетную запись устройства для систем комнаты Скайп версии 2 при наличии одним лесом локального развертывания.
   
@@ -28,9 +27,9 @@ ms.locfileid: "19887829"
 
 Настройка учетных записей пользователей проще всего настроить их с помощью удаленной оболочки Windows PowerShell. Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей, или validate существующие учетные записи ресурсов, что у вас есть помогающих перевод их в совместимые учетных записей пользователей системы комнаты Скайп версии 2. При необходимости можно выполните следующие действия, чтобы настроить учетные записи, используемые устройства версии 2 Скайп комнаты систем.
   
-## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Развертывание Систем комнат Skype версии 2 со Skype для бизнеса Server 2015
+## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Развертывание Скайп комнаты v2 систем с Скайп для Business Server
 
-Перед развертыванием системы комнаты Скайп версии 2 с Скайп для Business Server 2015 убедитесь, что удовлетворены требования. Для получения дополнительных сведений см [систем комнаты Скайп версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).
+Перед развертыванием системы комнаты Скайп версии 2 с Скайп для Business Server убедитесь, что удовлетворены требования. Для получения дополнительных сведений см [систем комнаты Скайп версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).
   
 Перед началом развертывания систем комнаты Скайп версии 2, убедитесь, что у соответствующих разрешений для запуска связанного командлетов.
   
@@ -48,7 +47,7 @@ ms.locfileid: "19887829"
  
    ```
 
-   Обратите внимание на то, что $strExchangeServer — это полное доменное имя (FQDN) сервера Exchange и $strLyncFQDN — это полное доменное имя вашей Скайп для развертывания Business Server 2015.
+   Обратите внимание на то, что $strExchangeServer — это полное доменное имя (FQDN) сервера Exchange и $strLyncFQDN — это полное доменное имя вашей Скайп для развертывания Business Server.
     
 2. После установки сеанса будет либо создать новый почтовый ящик и включение как RoomMailboxAccount или изменение параметров для существующего почтового ящика помещения. Это позволит учетной записи для проверки подлинности системы комнаты Скайп версии 2.
     
@@ -86,7 +85,7 @@ ms.locfileid: "19887829"
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Включение учетной записи устройства с Скайп для Business Server 2015, включив свою учетную запись Active Directory систем комнаты Скайп версии 2 на Скайп для пула Business Server 2015:
+6. Включение учетной записи устройства с Скайп для сервера, включив свою учетную запись Active Directory систем комнаты Скайп версии 2 на Скайп для пула Business Server:
     
    ```
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com 
@@ -106,7 +105,7 @@ ms.locfileid: "19887829"
 
    Обратите внимание, что используемые в примере контроллер домена и номер телефона необходимо заменить данными, соответствующими вашей среде. Значение параметра $true остается прежним.
     
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-2015-on-premises"></a>Пример: Настройка учетной записи помещения в Exchange и Скайп для Business Server 2015 локально
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Пример: Настройка учетной записи помещения в Exchange и Скайп для Business Server локально
 
 ```
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) 
@@ -126,10 +125,10 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 [Настройка учетных записей для систем комнаты Скайп версии 2](room-systems-v2-configure-accounts.md)
 
-[Планирование для помещения Скайп систем версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Планирование для Систем комнат Skype версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Развертывание Скайп комнаты систем версии 2](room-systems-v2.md)
+[Развертывание Систем комнат Skype версии 2](room-systems-v2.md)
   
-[Настройка консоли систем комнаты Скайп версии 2](console.md)
+[Настройка консоли для Систем комнат Skype версии 2](console.md)
   
-[Управление Скайп комнаты систем версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление Системами комнат Skype версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
