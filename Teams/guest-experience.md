@@ -1,5 +1,5 @@
 ---
-title: "Взаимодействие с гостями"
+title: Взаимодействие с гостями
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,20 +7,22 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "Вы можете узнать о функциях Microsoft Teams, доступных гостевым пользователям."
+description: Вы можете узнать о функциях Microsoft Teams, доступных гостевым пользователям.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 500d8b0aa1ed8f006fdbab2d67771c2d65ebaa53
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 9d30b7b554b07ccc29233210419f2a3129349a1e
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19178884"
 ---
-<a name="what-the-guest-experience-is-like"></a><span data-ttu-id="7fc89-103">Взаимодействие с гостями</span><span class="sxs-lookup"><span data-stu-id="7fc89-103">What the guest experience is like</span></span>
+<a name="what-the-guest-experience-is-like"></a><span data-ttu-id="15494-103">Взаимодействие с гостями</span><span class="sxs-lookup"><span data-stu-id="15494-103">What the guest experience is like</span></span>
 =================================
 
-<span data-ttu-id="7fc89-104">Когда гостя приглашают присоединиться к команде, он получает приветственное сообщение электронной почты, содержащее некоторые сведения о команде и приобретаемых возможностях.</span><span class="sxs-lookup"><span data-stu-id="7fc89-104">When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member.</span></span> <span data-ttu-id="7fc89-105">Прежде чем получить доступ к команде и ее каналам, гость должен активировать приглашение в сообщении.</span><span class="sxs-lookup"><span data-stu-id="7fc89-105">The guest must redeem the invitation in the email message before they can access the team and its channels.</span></span>
+<span data-ttu-id="15494-104">Когда гостя приглашают присоединиться к команде, он получает приветственное сообщение электронной почты, содержащее некоторые сведения о команде и приобретаемых возможностях.</span><span class="sxs-lookup"><span data-stu-id="15494-104">When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member.</span></span> <span data-ttu-id="15494-105">Прежде чем получить доступ к команде и ее каналам, гость должен активировать приглашение в сообщении.</span><span class="sxs-lookup"><span data-stu-id="15494-105">The guest must redeem the invitation in the email message before they can access the team and its channels.</span></span>
   
     
     
@@ -32,7 +34,7 @@ ms.lasthandoff: 02/19/2018
   
     
     
-<span data-ttu-id="7fc89-108">Все участники команды видят в беседе канала сообщение о том, что владелец добавил гостя с определенным именем.</span><span class="sxs-lookup"><span data-stu-id="7fc89-108">All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name.</span></span> <span data-ttu-id="7fc89-109">Любой участник команды может легко определить, кто именно является гостем.</span><span class="sxs-lookup"><span data-stu-id="7fc89-109">Everyone on the team can identify easily who is a guest.</span></span> <span data-ttu-id="7fc89-110">На следующем снимке экрана для примера команды отображается баннер с текстом "В состав этой группы входят гости", а рядом с именем каждого гостя находится метка "Гость".</span><span class="sxs-lookup"><span data-stu-id="7fc89-110">As shown in the following screenshot of a sample team, a banner indicates "This team has guests" and a "GUEST" label appears next to each guest's name.</span></span>
+<span data-ttu-id="15494-108">Все участники команды видят в беседе канала сообщение о том, что владелец добавил гостя с определенным именем.</span><span class="sxs-lookup"><span data-stu-id="15494-108">All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name.</span></span> <span data-ttu-id="15494-109">Любой участник команды может легко определить, кто именно является гостем.</span><span class="sxs-lookup"><span data-stu-id="15494-109">Everyone on the team can identify easily who is a guest.</span></span> <span data-ttu-id="15494-110">На следующем снимке экрана для примера команды отображается баннер с текстом "В состав этой группы входят гости", а рядом с именем каждого гостя находится метка "Гость".</span><span class="sxs-lookup"><span data-stu-id="15494-110">As shown in the following screenshot of a sample team, a banner indicates "This team has guests" and a "GUEST" label appears next to each guest's name.</span></span>
   
     
     
@@ -44,29 +46,31 @@ ms.lasthandoff: 02/19/2018
   
     
     
-<span data-ttu-id="7fc89-112">В следующей таблице сравниваются функции Microsoft Teams, доступные участникам команды в организации и гостевому пользователю этой команды.</span><span class="sxs-lookup"><span data-stu-id="7fc89-112">The following table compares the Microsoft Teams functionality available for an organization's team members to the functionality available for a guest user on the team.</span></span>
+<span data-ttu-id="15494-112">В следующей таблице сравниваются функции Microsoft Teams, доступные участникам команды в организации и гостевому пользователю этой команды.</span><span class="sxs-lookup"><span data-stu-id="15494-112">The following table compares the Microsoft Teams functionality available for an organization's team members to the functionality available for a guest user on the team.</span></span>
   
     
     
 
 
-|<span data-ttu-id="7fc89-113">**Возможности в Teams**</span><span class="sxs-lookup"><span data-stu-id="7fc89-113">**Capability in Teams**</span></span>|<span data-ttu-id="7fc89-114">**Пользователь Teams в организации**</span><span class="sxs-lookup"><span data-stu-id="7fc89-114">**Teams user in the organization**</span></span>|<span data-ttu-id="7fc89-115">**Гостевой пользователь**</span><span class="sxs-lookup"><span data-stu-id="7fc89-115">**Guest user**</span></span>|
+|<span data-ttu-id="15494-113">**Возможности в Teams**</span><span class="sxs-lookup"><span data-stu-id="15494-113">**Capability in Teams**</span></span>|<span data-ttu-id="15494-114">**Пользователь Teams в организации**</span><span class="sxs-lookup"><span data-stu-id="15494-114">**Teams user in the organization**</span></span>|<span data-ttu-id="15494-115">**Гостевой пользователь**</span><span class="sxs-lookup"><span data-stu-id="15494-115">**Guest user**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="7fc89-116">Создание канала</span><span class="sxs-lookup"><span data-stu-id="7fc89-116">Create a channel</span></span>  <br/>  <span data-ttu-id="7fc89-117">*Этим параметром управляет владелец команды.*</span><span class="sxs-lookup"><span data-stu-id="7fc89-117">*Team owners control this setting.*</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|<span data-ttu-id="7fc89-120">Участие в приватном чате</span><span class="sxs-lookup"><span data-stu-id="7fc89-120">Participate in a private chat</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|<span data-ttu-id="7fc89-123">Участие в беседе канала</span><span class="sxs-lookup"><span data-stu-id="7fc89-123">Participate in a channel conversation</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|<span data-ttu-id="7fc89-126">Публикация, удаление и изменение сообщений</span><span class="sxs-lookup"><span data-stu-id="7fc89-126">Post, delete, and edit messages</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|<span data-ttu-id="7fc89-129">Общий доступ к файлу в канале</span><span class="sxs-lookup"><span data-stu-id="7fc89-129">Share a channel file</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|<span data-ttu-id="7fc89-132">Общий доступ к файлу в чате</span><span class="sxs-lookup"><span data-stu-id="7fc89-132">Share a chat file</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|<span data-ttu-id="7fc89-134">Добавление приложений (вкладок, ботов или соединителей)</span><span class="sxs-lookup"><span data-stu-id="7fc89-134">Add apps (tabs, bots, or connectors)</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|<span data-ttu-id="7fc89-136">Создание политик гостевого доступа, действующих как на уровне клиента, так и для отдельных команд или каналов</span><span class="sxs-lookup"><span data-stu-id="7fc89-136">Create tenant-wide and teams/channels guest access policies</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|<span data-ttu-id="7fc89-138">Приглашение пользователя извне домена клиента Office 365</span><span class="sxs-lookup"><span data-stu-id="7fc89-138">Invite a user outside the Office 365 tenant's domain</span></span> <br/>  <span data-ttu-id="7fc89-139">*Этим параметром управляет владелец команды.*</span><span class="sxs-lookup"><span data-stu-id="7fc89-139">*Team owners control this setting.*</span></span>  <br/> <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|<span data-ttu-id="7fc89-141">Создание команды</span><span class="sxs-lookup"><span data-stu-id="7fc89-141">Create a team</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|<span data-ttu-id="7fc89-143">Обнаружение и присоединение открытой команды</span><span class="sxs-lookup"><span data-stu-id="7fc89-143">Discover and join a public team</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|<span data-ttu-id="7fc89-145">Просмотр организационной диаграммы</span><span class="sxs-lookup"><span data-stu-id="7fc89-145">View organization chart</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|<span data-ttu-id="15494-116">Создание канала</span><span class="sxs-lookup"><span data-stu-id="15494-116">Create a channel</span></span>  <br/>  <span data-ttu-id="15494-117">*Этим параметром управляет владелец команды.*</span><span class="sxs-lookup"><span data-stu-id="15494-117">*Team owners control this setting.*</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|<span data-ttu-id="15494-120">Участие в приватном чате</span><span class="sxs-lookup"><span data-stu-id="15494-120">Participate in a private chat</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|<span data-ttu-id="15494-123">Участие в беседе канала</span><span class="sxs-lookup"><span data-stu-id="15494-123">Participate in a channel conversation</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|<span data-ttu-id="15494-126">Публикация, удаление и изменение сообщений</span><span class="sxs-lookup"><span data-stu-id="15494-126">Post, delete, and edit messages</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|<span data-ttu-id="15494-129">Общий доступ к файлу в канале</span><span class="sxs-lookup"><span data-stu-id="15494-129">Share a channel file</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|<span data-ttu-id="15494-132">Общий доступ к файлу в чате</span><span class="sxs-lookup"><span data-stu-id="15494-132">Share a chat file</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|<span data-ttu-id="15494-134">Добавление приложений (вкладок, ботов или соединителей)</span><span class="sxs-lookup"><span data-stu-id="15494-134">Add apps (tabs, bots, or connectors)</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|<span data-ttu-id="15494-136">Создание собрания или получить доступ к расписания</span><span class="sxs-lookup"><span data-stu-id="15494-136">Create meetings or access schedules</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|<span data-ttu-id="15494-138">Access OneDrive для бизнеса хранилища</span><span class="sxs-lookup"><span data-stu-id="15494-138">Access OneDrive for Business storage</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|<span data-ttu-id="15494-140">Создание политик гостевого доступа, действующих как на уровне клиента, так и для отдельных команд или каналов</span><span class="sxs-lookup"><span data-stu-id="15494-140">Create tenant-wide and teams/channels guest access policies</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|<span data-ttu-id="15494-142">Приглашение пользователя извне домена клиента Office 365</span><span class="sxs-lookup"><span data-stu-id="15494-142">Invite a user outside the Office 365 tenant's domain</span></span> <br/>  <span data-ttu-id="15494-143">*Этим параметром управляет владелец команды.*</span><span class="sxs-lookup"><span data-stu-id="15494-143">*Team owners control this setting.*</span></span>  <br/> <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|<span data-ttu-id="15494-145">Создание команды</span><span class="sxs-lookup"><span data-stu-id="15494-145">Create a team</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|<span data-ttu-id="15494-147">Обнаружение и присоединение открытой команды</span><span class="sxs-lookup"><span data-stu-id="15494-147">Discover and join a public team</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|<span data-ttu-id="15494-149">Просмотр организационной диаграммы</span><span class="sxs-lookup"><span data-stu-id="15494-149">View organization chart</span></span>  <br/> |![Галочка](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 
     
 > [!NOTE]
-> <span data-ttu-id="7fc89-147">Администраторы Office 365 управляют доступными гостям функциями.</span><span class="sxs-lookup"><span data-stu-id="7fc89-147">Office 365 admins control the features available to guests.</span></span> 
+> <span data-ttu-id="15494-151">Администраторы Office 365 управляют доступными гостям функциями.</span><span class="sxs-lookup"><span data-stu-id="15494-151">Office 365 admins control the features available to guests.</span></span> 
   
