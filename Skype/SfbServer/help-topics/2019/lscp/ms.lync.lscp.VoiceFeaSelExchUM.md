@@ -12,14 +12,17 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно Выбор единой системы обмена СООБЩЕНИЯМИ автосекретаря Exchange для выбора Exchange единой системы обмена СООБЩЕНИЯМИ автосекретарь, который будет обрабатывать входящие звонки для диапазона неназначенных номеров.
-ms.openlocfilehash: fa8733ea3c8e005c934ffaacc71a77516bc360e6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3ee269d4ab746bb46a658aae5987810d54164b0a
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987798"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138404"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Выбор автосекретаря единой системы обмена СООБЩЕНИЯМИ Exchange
+
+> [!NOTE]
+> Exchange единой системы обмена СООБЩЕНИЯМИ остается доступным в Скайп для Business Server 2019 при Скайп для бизнеса 2019 интеграции с Exchange 2013 или Exchange 2016. Из-за изменения в поддержке в Exchange 2019 интеграции с Exchange единой системы обмена СООБЩЕНИЯМИ, отзыва emphasised пользу функции голосовой почты в облаке и облачных автосекретаря.  [Планирование голосовой почты облачной службы](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) [планирование голосовой почты облачной службы] и [Планирование Скайп для Business Server и миграция Exchange Server](../../../../SfBServer2019/hybrid/plan-um-migration.md) (.. /.. /.. / SfBServer2019/hybrid/plan-um-migration.md) для получения дополнительных сведений.
  
 Используйте диалоговое окно **Выбор единой системы обмена СООБЩЕНИЯМИ автосекретаря Exchange** для выбора Exchange единой системы обмена СООБЩЕНИЯМИ автосекретарь, который будет обрабатывать входящие звонки для диапазона неназначенных номеров.
   

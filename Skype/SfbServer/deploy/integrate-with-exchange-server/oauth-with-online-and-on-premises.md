@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Настройка OAuth проверки подлинности между Exchange при локальном и Скайп для бизнеса в Интернет позволяет Скайп для бизнеса и интеграция с Exchange, описанными в поддержка функции.
-ms.openlocfilehash: ff7b45f3fcdbaaf752817d1705acb047a4c71f12
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: cb822dd183e913fd1b3258cc136572380592733f
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568903"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138611"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>Настройка подключения по протоколу OAuth между Skype для бизнеса Online и локальной системой Exchange
  
@@ -167,4 +167,8 @@ Set-MsolServicePrincipal -ObjectID $p.ObjectId -ServicePrincipalNames $p.Service
     
 4. Запустите Outlook от имени этого пользователя и убедитесь, что беседа отображается в папке журнала бесед Outlook.
     
+Кроме того Обратите внимание на трафик. Трафик в подтверждении OAuth действительно особый (и не выглядит как обычная проверка подлинности), особенно вокруг сфер, где вы начнете видеть трафика издателя, которая выглядит следующим образом: 00000004-0000-0ff1-ce00-000000000000 @ (иногда с аудио- и перед знак @), в маркеры, которые передаются. Вы не увидите имя пользователя или пароль, который является точка OAuth. Но вы увидите издателя «Office» — в данном случае является Скайп для бизнеса – и область действия подписки "4".
 
+Если необходимо, чтобы что успешно вы используете OAuth, убедитесь, что вы знаете, что следует ожидать и знать, как должны выглядеть трафика. Да, [Вот, что следует ожидать](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34), вот стандартный [Пример трафика OAuth в приложении Microsoft](http://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (действительно полезен для чтения, хотя он не использует маркеры обновления) и существуют Fiddler расширения, которые можно найти в вашей OAuth JWT (JSON Веб-маркера). 
+
+Ниже приведен [Пример настройки один](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), но можно использовать любое средство сетевой трассировки, как для выполнения этого процесса.

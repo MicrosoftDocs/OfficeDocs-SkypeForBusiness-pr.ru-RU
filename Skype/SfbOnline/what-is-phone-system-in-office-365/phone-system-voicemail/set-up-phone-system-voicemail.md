@@ -1,5 +1,5 @@
 ---
-title: Настройка телефонной системы голосовой почты
+title: Настройка голосовой почты телефонной системы
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: 93dd33eefe587c548e346974cc86fe2608b392ec
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f5dcf6012dc9ac6659d35c29a31ee6a5ff40eec2
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135533"
 ---
-# <a name="set-up-phone-system-voicemail"></a>Настройка телефонной системы голосовой почты
+# <a name="set-up-phone-system-voicemail"></a>Настройка голосовой почты телефонной системы
 
 Эта статья предназначена для [администрирования Office 365](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) , чтобы настроить компонентов телефонной системы голосовой почты для всех пользователей в организации.
   
@@ -80,7 +81,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Включение маски сквернословие транскрибирования для вашей организации
 
-Транскрибирования сквернословие маскирование отключено по умолчанию для вашей организации. Если бизнес-требований, чтобы включить его, можно включить транскрибирования сквернословие маскирование с помощью [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Для этого выполните команду:
+Транскрибирования сквернословие маскирование отключено по умолчанию для вашей организации. Если для бизнеса требуется, чтобы включить его, можно включить транскрибирования сквернословие маскирование с помощью [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Для этого выполните команду:
   
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -88,7 +89,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>Выключение транскрибирования для пользователя
 
-Анализ политик пользователей выполняется до анализа параметров по умолчанию для организации. Например, если транскрибирование голосовой почты включено для всех ваших пользователей, можно назначить политику, чтобы отключить транскрибирование для конкретного пользователя, с помощью командлета [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx).
+Анализ политик пользователей выполняется до анализа параметров по умолчанию для организации. Например транскрибирования голосовая почта включена для всех пользователей, следует назначить политики для отключения транскрибирования для отдельного пользователя с помощью командлета [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) .
   
 Для отключения транскрибирования для одиночного пользователя выполните команду:
   
@@ -98,7 +99,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 ### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>Включение маски сквернословие транскрибирования для пользователя
 
-Чтобы включить режим маски сквернословие транскрибирования для определенного пользователя, можно назначить политику, чтобы включить режим маски сквернословие транскрибирования для определенного пользователя, с помощью командлета [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) .
+Чтобы включить транскрибирования сквернословие маскирование для определенного пользователя, можно назначить политики для включения сквернословие транскрибирования маскирование для отдельного пользователя с помощью командлета [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) .
   
 Чтобы включить транскрибирования сквернословие маскирование для одного пользователя, выполните следующую команду:
   
@@ -117,7 +118,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
     
 - [Обучение работе со Skype для бизнеса 2016](http://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Связанные разделы
 [Настройка Skype для бизнеса Online](../../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
 [Возможности телефонной системы в Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
