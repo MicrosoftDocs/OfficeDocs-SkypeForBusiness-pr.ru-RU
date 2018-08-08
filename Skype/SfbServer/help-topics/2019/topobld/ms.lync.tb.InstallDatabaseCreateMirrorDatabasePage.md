@@ -12,21 +12,14 @@ localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 ROBOTS: NOINDEX, NOFOLLOW
 description: Это предварительная редакция документации, и она может меняться. Пустые разделы добавлены в качестве заполнителей.
-ms.openlocfilehash: 7c5ce978f46390b01e284352733c3508b51646f2
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 03048decb58ec1db1bff93133e3c2f504be414b3
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064343"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196116"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Установки для создания зеркальной базы данных страницы
  
-Это предварительная редакция документации, и она может меняться. Пустые разделы добавлены в качестве заполнителей.
-  
-Если вы не были установлены зеркальные базы данных SQL Server во время процесса публикации, установите их с помощью **Установка базы данных** из правой кнопкой мыши на любом узле в построителе топологий. Выберите зеркального хранилища для установки. Нажмите кнопку **Параметры** , чтобы определить необходимые дополнительные параметры.
-  
-## <a name="see-also"></a>См. также
-
-[Install-CsMirrorDatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
-  
-[Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)
+> [!NOTE]
+> Зеркальное отображение SQL доступна в Скайп для Business Server 2015, но в Скайп Business Server 2019 больше не поддерживается. Методы кластеризации отработки отказа группы обеспечения доступности AlwaysOn, экземпляры кластера AlwaysOn отработки отказа (FCI) и SQL, являются предпочтительными с Скайп для Business Server 2019.

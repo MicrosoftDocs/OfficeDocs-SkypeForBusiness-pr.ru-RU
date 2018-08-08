@@ -1,5 +1,5 @@
 ---
-title: Исходящих вызовов политики ограниченного использования программ для вызовов ТСОП аудиоконференции и пользователей
+title: Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,20 +10,22 @@ ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Администраторы могут управлять тип звукового конференц-связи и конечного пользователя вызовы в ТСОП, которые могут создаваться пользователями.
-ms.openlocfilehash: 0533a15d6c60720f37c859f110b30af617d95774
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 473baddce6ddac5fa523f02477cd89f6a2c4f4a2
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703427"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22193016"
 ---
-# <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Исходящих вызовов политики ограниченного использования программ для вызовов ТСОП аудиоконференции и пользователей
+# <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП
 
 С правами администратора можно использовать элементы управления исходящих вызовов для ограничения тип звукового конференц-связи и конечного пользователя вызовы в ТСОП, которые могут создаваться пользователями в вашей организации. 
 

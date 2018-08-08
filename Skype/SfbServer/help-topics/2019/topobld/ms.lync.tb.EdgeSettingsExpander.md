@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы изменить параметры для одного или нескольких существующих пулов пограничных серверов, можно воспользоваться следующими разделами параметров:'
-ms.openlocfilehash: 4c93ec4ab23c60ddbad96c20d9ae717f0418ba0c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 158f0970067b94eb4c8660342da949802d57ae6f
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061751"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196034"
 ---
 # <a name="edge-settings-expander"></a>Расширитель пограничных параметров
  
@@ -34,9 +34,7 @@ ms.locfileid: "21061751"
 
 Внутреннее полное доменное имя пола пограничных серверов. Измените полное доменное имя пула, чтобы изменить данный параметр.
   
-Установите флажок **Включение федерации для этого пограничного пула (порт 5061)** , если вы создадите федерацию с доверенным партнером Lync Server 2013, Microsoft Lync Server 2010 или Microsoft Office Communications Server 2007 R2.
-  
-Если требуется разрешить федерацию XMPP, установите флажок **Включить поддержку федерации XMPP для этого пограничного пула**.
+Установите флажок **Включение федерации для этого пограничного пула (порт 5061)** , если вы создадите федерацию с Скайп для сервера Business Server 2015.
   
 В поле **Внутренний порт репликации конфигурации (HTTPS)** укажите номер порта.
   
