@@ -12,21 +12,14 @@ localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 ROBOTS: NOINDEX, NOFOLLOW
 description: Это предварительная редакция документации, и она может меняться. Пустые разделы добавлены в качестве заполнителей.
-ms.openlocfilehash: 7c5ce978f46390b01e284352733c3508b51646f2
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 03048decb58ec1db1bff93133e3c2f504be414b3
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064343"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196116"
 ---
-# <a name="install-database-create-mirror-database-page"></a><span data-ttu-id="04402-104">Установки для создания зеркальной базы данных страницы</span><span class="sxs-lookup"><span data-stu-id="04402-104">Install Database Create Mirror Database Page</span></span>
+# <a name="install-database-create-mirror-database-page"></a><span data-ttu-id="e4777-104">Установки для создания зеркальной базы данных страницы</span><span class="sxs-lookup"><span data-stu-id="e4777-104">Install Database Create Mirror Database Page</span></span>
  
-<span data-ttu-id="04402-p102">Это предварительная редакция документации, и она может меняться. Пустые разделы добавлены в качестве заполнителей.</span><span class="sxs-lookup"><span data-stu-id="04402-p102">This is preliminary documentation and is subject to change. Blank topics are included as placeholders.</span></span>
-  
-<span data-ttu-id="04402-107">Если вы не были установлены зеркальные базы данных SQL Server во время процесса публикации, установите их с помощью **Установка базы данных** из правой кнопкой мыши на любом узле в построителе топологий.</span><span class="sxs-lookup"><span data-stu-id="04402-107">If you chose not to install the SQL Server mirror databases during the Publish process, you install them using **Install Database** from a right click on any node in Topology Builder.</span></span> <span data-ttu-id="04402-108">Выберите зеркального хранилища для установки.</span><span class="sxs-lookup"><span data-stu-id="04402-108">You select the mirror store to install.</span></span> <span data-ttu-id="04402-109">Нажмите кнопку **Параметры** , чтобы определить необходимые дополнительные параметры.</span><span class="sxs-lookup"><span data-stu-id="04402-109">Click **Settings** to define any advanced settings.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="04402-110">См. также</span><span class="sxs-lookup"><span data-stu-id="04402-110">See also</span></span>
-
-[<span data-ttu-id="04402-111">Install-CsMirrorDatabase</span><span class="sxs-lookup"><span data-stu-id="04402-111">Install-CsMirrorDatabase</span></span>](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
-  
-[<span data-ttu-id="04402-112">Install-CsDatabase</span><span class="sxs-lookup"><span data-stu-id="04402-112">Install-CsDatabase</span></span>](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)
+> [!NOTE]
+> <span data-ttu-id="e4777-105">Зеркальное отображение SQL доступна в Скайп для Business Server 2015, но в Скайп Business Server 2019 больше не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="e4777-105">SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="e4777-106">Методы кластеризации отработки отказа группы обеспечения доступности AlwaysOn, экземпляры кластера AlwaysOn отработки отказа (FCI) и SQL, являются предпочтительными с Скайп для Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e4777-106">The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.</span></span>
