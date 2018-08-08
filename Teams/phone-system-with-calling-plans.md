@@ -8,15 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Практическое руководство по планированию, развертыванию и использованию службы телефонной системы с планами звонков в Microsoft Teams. Руководство использует платформу, включающую выработку концепции (планирование), внедрение (предоставление) и извлечение выгоды (эксплуатация).
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 8c658376e3891f8215a5139439e82c17298bee2b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: da5dc02c109ab736360c373f8513f6c2cf19c1cb
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19004862"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Практическое руководство по телефонной системе с планами звонков в Microsoft Teams
 =========================================================================
@@ -438,8 +440,8 @@ ms.lasthandoff: 04/05/2018
 >|Имя абонентской группы клиента<br>_Описание  |Имя правил нормализации<br>_Описание_  |Шаблон<br>Преобразование<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**FR-Paris-Issy-39qdPR**<br>_Абонентская группа 39 quai du Président Roosevelt Issy-les-Moulineaux, Франция_|**FR-39qdPR-Internal**<br>_Внутренний номер (x7000–x7999) для офиса 39 quai du Président Roosevelt, Issy-les-Moulineaux, Франция_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Нормализация бесплатного номера для Франции_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Нормализация номера службы для Франции_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
+>||**FR-TollFree**<br>_Нормализация бесплатного номера для Франции_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_Нормализация номера службы для Франции_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
 > [!TIP]

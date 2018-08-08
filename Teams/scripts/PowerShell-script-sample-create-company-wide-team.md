@@ -1,18 +1,20 @@
 ---
-title: "Пример сценария PowerShell — создание охватывающей всю компанию команды в Microsoft Teams"
+title: Пример сценария PowerShell — создание охватывающей всю компанию команды в Microsoft Teams
 author: ninadara
 ms.author: ninadara
 manager: serdars
 ms.date: 02/07/2018
 ms.topic: article
 ms.service: msteams
-description: "Используйте этот сценарий PowerShell, чтобы создать в Teams открытую команду, охватывающую всю компанию."
+description: Используйте этот сценарий PowerShell, чтобы создать в Teams открытую команду, охватывающую всю компанию.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 6092979771353a8edaad4229bbcd16a3f85bbb60
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 26933c97aaa5d16c28a771e3d45c31174b807c07
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "18999161"
 ---
 <a name="powershell-script-sample---create-a-company-wide-team-in-microsoft-teams"></a>Пример сценария PowerShell — создание охватывающей всю компанию команды в Microsoft Teams
 -------------------------------------------------------------------------

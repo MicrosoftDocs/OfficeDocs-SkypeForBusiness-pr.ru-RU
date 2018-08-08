@@ -7,14 +7,16 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 description: Сведения о правильной настройке URL-адресов и диапазонов IP-адресов для Office 365, возможностях обхода прокси-сервера переадресации для соединений со службой Microsoft Teams, а также требованиях к политикам сети и безопасности.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 713815836b2edcad31528abc01c74a2332ecf88a
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: f946bc45fae230c0fd0ead9c06d0ced537bc7f92
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "18998975"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>URL-адреса и диапазоны IP-адресов для Office 365
 =====================================
