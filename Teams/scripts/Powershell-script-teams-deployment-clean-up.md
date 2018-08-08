@@ -6,21 +6,23 @@ manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
-description: Используйте этот сценарий PowerShell, чтобы создать в Teams открытую команду, охватывающую всю компанию.
+description: Используйте этот сценарий PowerShell для очистки группами Майкрософт на конечных компьютерах или для отдельных пользователей.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1466a08d493538eadb6cd2bfc2f50ac15acb0fa7
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: e159c06a27151523e52db5bf7e0aa2eab33620a9
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21249194"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="3f024-103">Пример сценария PowerShell — Очистка развертывания групп Майкрософт</span><span class="sxs-lookup"><span data-stu-id="3f024-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="a818e-103">Пример сценария PowerShell — Очистка развертывания групп Майкрософт</span><span class="sxs-lookup"><span data-stu-id="a818e-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="3f024-104">Этот сценарий PowerShell можно выполнять для очистки группами Майкрософт из целевого machines\users.</span><span class="sxs-lookup"><span data-stu-id="3f024-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines\users.</span></span> <span data-ttu-id="3f024-105">Должны быть выполнены для каждого пользователя на целевой компьютер.</span><span class="sxs-lookup"><span data-stu-id="3f024-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="a818e-104">Этот сценарий PowerShell можно выполнять для очистки группами Майкрософт целевые компьютеры или пользователей.</span><span class="sxs-lookup"><span data-stu-id="a818e-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="a818e-105">Должны быть выполнены для каждого пользователя на целевой компьютер.</span><span class="sxs-lookup"><span data-stu-id="a818e-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="3f024-106">Пример сценария</span><span class="sxs-lookup"><span data-stu-id="3f024-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="a818e-106">Пример сценария</span><span class="sxs-lookup"><span data-stu-id="a818e-106">Sample script</span></span>
 
 ````powershell
 <#
@@ -35,19 +37,21 @@ $TeamsUpdateExePath = [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Microsoft', 
 
 try
 {
-    if ([System.IO.File]::Exists($TeamsUpdateExePath)) {
+    if (Test-Path -Path $TeamsUpdateExePath) {
         Write-Host "Uninstalling Teams process"
 
         # Uninstall app
-        $proc = Start-Process $TeamsUpdateExePath "-uninstall -s" -PassThru
+        $proc = Start-Process -FilePath $TeamsUpdateExePath -ArgumentList "-uninstall -s" -PassThru
         $proc.WaitForExit()
     }
-    Write-Host "Deleting Teams directory"
-    Remove-Item –path $TeamsPath -recurse
+    if (Test-Path -Path $TeamsPath) {
+        Write-Host "Deleting Teams directory"
+        Remove-Item –Path $TeamsPath -Recurse
+    }
 }
 catch
 {
-    Write-Output "Uninstall failed with exception $_.exception.message"
+    Write-Error -ErrorRecord $_
     exit /b 1
 }
 
