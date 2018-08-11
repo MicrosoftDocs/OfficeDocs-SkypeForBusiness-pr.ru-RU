@@ -17,6 +17,7 @@
 ## [Ограничения и спецификации для групп](limits-specifications-teams.md)
 ## [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
 ## [Получение средств для развертывания Teams](rollout-tools.md)
+## [Планирование управления в группах](plan-teams-governance.md)
 ## [Планирование для государственных учреждений 365 Microsoft - GCC развертываниях](plan-for-government-gcc.md)
 ## Адаптации.
 ### [Создание стратегии управления изменений](change-management-strategy.md)
@@ -298,6 +299,7 @@
 # Команды для образовательных заведений
 ## [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
 ## [Ресурсы группы для образовательных учреждений "Администраторы"](resources-teams-edu.md)
+## [Управления Microsoft Education вопросы и ответы для администраторов](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
 # [Справочник по командлетам PowerShell для Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
