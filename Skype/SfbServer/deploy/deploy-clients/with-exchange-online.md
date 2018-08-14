@@ -3,7 +3,6 @@ title: Развертывание Систем комнат Skype версии 
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Exchange Online.
-ms.openlocfilehash: dad47f56d96da0f84383b2638684c65554e5a8f9
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: b413168d04123256472e6d01cb8cd1858619a714
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887893"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974674"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Развертывание Систем комнат Skype версии 2 в среде Exchange Online 
  
@@ -85,7 +84,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 3. Введите пароль учетной записи. Подтвердите пароль. Убедитесь, что выбран только параметр **Срок действия пароля не ограничен**.
     
     > [!NOTE]
-    > Выбор **Срок действия пароля не ограничен** является обязательным требованием для Скайп для Business Server 2015 на систем комнаты Скайп версии 2. В некоторых случаях пароли с неограниченным сроком действия могут быть запрещены правилами домена. Если Да, необходимо создать исключение для каждой учетной записи пользователя систем комнаты Скайп версии 2.
+    > Выбор **Срок действия пароля не ограничен** является обязательным требованием для Скайп для Business Server на Скайп комнаты систем версии 2. В некоторых случаях пароли с неограниченным сроком действия могут быть запрещены правилами домена. Если Да, необходимо создать исключение для каждой учетной записи пользователя систем комнаты Скайп версии 2.
   
 4. Чтобы создать учетную запись, нажмите кнопку **Готово**.
     
@@ -93,7 +92,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     
 ### <a name="assign-an-office-365-license"></a>Назначение лицензии Office 365
 
-1. Учетная запись должна иметь действительной лицензии Office 365, чтобы убедиться, что Скайп для Business Server 2015 и Exchange будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи.
+1. Учетная запись должна иметь действительной лицензии Office 365, чтобы убедиться, что Скайп для Business Server и Exchange будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи.
     
 2. Затем используйте Get-MsolAccountSku для получения списка доступных номеров SKU для клиента Office 365.
     
@@ -106,7 +105,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    ```
 
 
-### <a name="enable-the-user-account-with-skype-for-business-server-2015"></a>Включение учетной записи пользователя со Skype для бизнеса Server 2015
+### <a name="enable-the-user-account-with-skype-for-business-server"></a>Включение учетной записи пользователя с помощью Скайп для Business Server
 
 1. Создайте удаленного сеанса Windows PowerShell с ПК, как показано ниже:
     
@@ -116,19 +115,19 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. Включение учетной записи системы комнаты Скайп версии 2 для Скайп для Business Server 2015, выполните следующую команду.
+2. Включение учетной записи системы комнаты Скайп версии 2 для Скайп для Business Server, выполните следующую команду.
     
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-    Если вы не уверены, используйте для параметра RegistrarPool в вашей среде, можно получить значение из существующего Скайп для пользователя Business Server 2015, с помощью этой команды
+    Если вы не уверены, используйте для параметра RegistrarPool в вашей среде, можно получить значение из существующего Скайп для пользователя Business Server, с помощью этой команды
     
    ```
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-skype-for-business-server-2015-license-to-your-skype-room-systems-v2-account"></a>Назначение лицензии Skype для бизнеса Server 2015 своей учетной записи Систем комнат Skype версии 2
+### <a name="assign-a-skype-for-business-server-license-to-your-skype-room-systems-v2-account"></a>Назначение Скайп лицензию Business Server для учетной записи системы комнаты Скайп версии 2
 
 1. Выполните вход в качестве администратора клиента, откройте административного портала Office 365 и щелкните приложения администрирования.
     
@@ -148,11 +147,11 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 [Настройка учетных записей для систем комнаты Скайп версии 2](room-systems-v2-configure-accounts.md)
 
-[Планирование для помещения Скайп систем версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Планирование для Систем комнат Skype версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Развертывание Скайп комнаты систем версии 2](room-systems-v2.md)
+[Развертывание Систем комнат Skype версии 2](room-systems-v2.md)
   
-[Настройка консоли систем комнаты Скайп версии 2](console.md)
+[Настройка консоли для Систем комнат Skype версии 2](console.md)
   
-[Управление Скайп комнаты систем версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление Системами комнат Skype версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

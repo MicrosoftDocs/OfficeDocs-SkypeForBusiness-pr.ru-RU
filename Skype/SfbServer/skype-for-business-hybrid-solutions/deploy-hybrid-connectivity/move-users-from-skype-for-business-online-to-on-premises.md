@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Сводка: Узнайте, как для перемещения учетных записей пользователей из Интернета к локально в Скайп для Business Server.'
-ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2d49033e499d9a52af04fcb9e23d8ed483859f5
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025683"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "22301444"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Перемещение пользователей из Скайп для бизнеса в Интернет для локально
  
@@ -191,7 +191,7 @@ ms.locfileid: "21025683"
 |:-----|:-----|:-----|:-----|
 |msRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.Online.Lync.com  <br/> |SRV:  <br/> |
 |msRTCSIP-PrimaryUserAddress  <br/> |SIPAddress  <br/> |SIP:username@Contoso.com  <br/> |SIP:username@Contoso.com  <br/> |
-|sRTCSIP-UserEnabled  <br/> |Включено  <br/> |True  <br/> |True  <br/> |
+|msRTCSIP-UserEnabled  <br/> |Включено  <br/> |True  <br/> |True  <br/> |
    
 10. Каждому перемещенному пользователю потребуется выйти из системы, а затем снова войти. При входе они должны проверить свои списки контактов и в случае необходимости добавить контакты.
     

@@ -1,7 +1,7 @@
 ---
 title: Сравнение функций для настольных компьютеров для Скайп для Business Server 2015
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Сводка: Скайп для Business Server 2015 или Скайп для администраторов Business Online можно использовать эти таблицы понять, какие возможности поддерживаются в какие клиенты.'
-ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
-ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
+ms.openlocfilehash: 73d25486544c4832b9fe30235128c8c3d4c5ae82
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21223926"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391821"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Сравнение функций для настольных компьютеров для Скайп для Business Server 2015
  
@@ -102,6 +102,7 @@ ms.locfileid: "21223926"
 |Отправка рукописных сообщений  <br/> ||||& #x 2714;||||||
 |Получение рукописных сообщений  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
 |Настройка высокой важности для мгновенных сообщений  <br/> |& #x 2714;||& #x 2714;|||||||
+|Передавать файлы в peer-to-peer Текстовых бесед<br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|||& #x 2714;|
    
 ## <a name="meetings-support"></a>Поддержка собраний
 <a name="BKMK_Conferencing"> </a>

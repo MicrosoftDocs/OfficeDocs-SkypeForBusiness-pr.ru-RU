@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Прочтите этот раздел, чтобы узнать о шаги развертывания, что сервера-посредника Edition соединителя облачных версии 2.0 и более поздней версии с.
-ms.openlocfilehash: fc1ebe85ff3d26d66688173ea70c53c441d96e77
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 4d0400682702c528e9e1ccb324731378d8c09b2c
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570046"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246689"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Развертывание обхода сервера-посредника в Cloud Connector Edition
  
@@ -44,7 +44,8 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 Включение обхода сервера-посредника осуществляется в два этапа. Командлет New-CsNetworkMedia не выполняет немедленное сохранение новой конфигурации и лишь создает параметры в памяти. Объект, созданный данным командлетом, должен быть сохранен в переменную и затем передан в качестве параметра MediaBypassSettings конфигурации сети. Дополнительные сведения можно [Пример: веб-узел DNS-записей в сложных средах с несколькими веб-посредника](deploy-media-bypass-in-cloud-connector.md#Example).
   
-Репликации между локальной и компонентов online может занять более 24 часов, корпорация Майкрософт рекомендует выполните необходимые команды перед включением пользователей.
+Репликация между локальными компонентами и компонентами в сети может занять до 24 часов, поэтому Майкрософт рекомендует выполнить необходимые команды перед включением пользователей. 
+
   
 ## <a name="confirm-media-bypass-settings"></a>Подтвердить параметры обхода сервера-посредника
 
@@ -67,7 +68,8 @@ Get-CsNetworkConfiguration -LocalStore
   
 1. Откройте %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog.  
     
-2. Поиск hybridconfigserviceinternalurl и убедитесь, что URL-адрес совпадает с тем, которую вы задали.
+2. Найдите hybridconfigserviceinternalurl и проверьте, что URL-адрес совпадает с указанным вами. 
+
     
 ## <a name="change-media-bypass-parameters"></a>Изменить параметры обхода сервера-посредника
 
@@ -179,8 +181,12 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 4. Создайте политику DNS, которая подключает клиентские подсети к соответствующим областям зоны, чтобы обеспечить требуемое разрешение DNS.
     
 В таком случае клиентам, создающим DNS-запросы для hybridvoice.adatum.biz из подсети в Амстердаме, вернутся адреса 192.168.1.45, 192.168.1.46, 192.168.1.47 и 192.168.1.48, тогда как клиентам, создающим ту же форму запроса в Сиэтле, вернутся 10.10.1.8, 10.10.1.9 и 10.10.1.10.
+
+> [!NOTE]
+> Если устройство системы CCE не Получение обновленных параметров, проверьте, если устройство возможность связаться клиента с помощью удаленной оболочки PowerShell. Remote PowerShell можно использовать для проверки состояния устройства для обеспечения связи с Get-CsHybridPSTNAppliance или с помощью PowerShell на узле системы CCE для проверки состояния с Get-CcApplianceStatus.
+
   
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="Example"> </a>
 
-[Планирование для сервера-посредника в облаке соединителя Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
+[План обхода сервера-посредника в Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)

@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: Найдите сведения о планировании Скайп для бизнеса гибридного развертывания.
-ms.openlocfilehash: f77c58497b40551a23ce32ab66718999edcc360c
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 124286ea60b1bd032d9d736284a738c63aea2dc6
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176193"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>Скайп для гибридных решений для бизнеса
  
@@ -29,7 +30,7 @@ ms.lasthandoff: 05/08/2018
     
 - [Добавление Скайп для бизнеса в Интернет в существующий локальной Скайп для бизнес-среде](skype-for-business-hybrid-solutions.md#BKMK_HybridConnectivity)
     
-- [Воспользуйтесь преимуществами телефонной системой в Office 365 (облако УАТС)](skype-for-business-hybrid-solutions.md#BKMK_CloudPBX)
+- [Используйте преимущества телефонной системы в Office 365 (облачная УАТС)](skype-for-business-hybrid-solutions.md#BKMK_CloudPBX)
     
 - [Интеграция с Exchange и SharePoint](skype-for-business-hybrid-solutions.md#BKMK_IntegratewExchangeSharePoint)
     
@@ -78,9 +79,9 @@ ms.lasthandoff: 05/08/2018
   
 В гибридных предложениях Office 365 доступны две телефонные системы: 
   
-- [Система телефона в Office 365 с помощью подключения к локальной предоставлено вашей Скайп для развертывания Business Server](skype-for-business-hybrid-solutions.md#BKMK_Server)
+- [Телефонная система в Office 365 с подключением к локальной сети, которое обеспечивается Skype для бизнеса Server](skype-for-business-hybrid-solutions.md#BKMK_Server)
     
-- [Система телефона в Office 365 с помощью подключения к локальной предоставлено Скайп для облачных соединитель Business Server Edition](skype-for-business-hybrid-solutions.md#BKMK_CCE)
+- [Телефонная система в Office 365 с подключением к локальной сети, которое обеспечивается Skype для бизнеса Server Cloud Connector Edition](skype-for-business-hybrid-solutions.md#BKMK_CCE)
     
 ### <a name="phone-system-in-office-365-with-on-premises-connectivity-provided-by-your-skype-for-business-server-deployment"></a>Телефонная система в Office 365 с подключением к локальной сети, которое обеспечивается Skype для бизнеса Server
 <a name="BKMK_Server"> </a>
@@ -207,22 +208,22 @@ ms.lasthandoff: 05/08/2018
   
 - [Microsoft cloud архитектура ИТ-ресурсами](https://aka.ms/clouditarch)
     
-- [Облачное удостоверение Microsoft для архитекторов предприятия](https://aka.ms/cloudidarch)
+- [Облачное удостоверение Microsoft для архитекторов предприятия](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Подготовиться к работе с Office 365 корпоративный вашей организации](https://aka.ms/O365EntPrep)
     
-- [Планирование гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет](plan-hybrid-connectivity.md)
+- [Планирование гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online](plan-hybrid-connectivity.md)
     
-- [Развертывание гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
+- [Развертывание гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
     
 - [Телефонной системой в решениях для Office 365](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
     
-- [Планирование интеграции Скайп для бизнеса и Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
+- [Планирование интеграции Skype для бизнеса и Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
 Вы можете скачать версию этой статьи в формате плаката:
   
-- [Скайп для бизнес-моделей архитектуры (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.pdf)
+- [Скайп для бизнес-моделей архитектуры (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
     
-- [Скайп для бизнес-моделей архитектурные (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.vsd)
+- [Скайп для бизнес-моделей архитектурные (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
     
 
