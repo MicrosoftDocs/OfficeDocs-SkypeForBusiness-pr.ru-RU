@@ -1,349 +1,351 @@
 ---
-title: Plan for service management guide for Microsoft Teams
+title: Руководство по планированию управления службами для Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Deliver high-quality Teams user experience by managing service, network, and endpoint health and defining operational and Quality Champion roles.
+description: Вы можете обеспечить высококачественное взаимодействие с пользователем в Teams, управляя работоспособностью служб, сети и конечных точек, а также определяя операционные роли и роли лидеров по качеству.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cccd06cd9bd5ee458497fbb41db56955bb9a5ee9
-ms.sourcegitcommit: d70e5a5e7d05a2226c1d011895fb12187d73fad0
-ms.translationtype: MT
+ms.openlocfilehash: 584268a3b1b36f11518ed10e04b995b2d84b9bc1
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20396881"
 ---
-# <a name="plan-for-service-management-and-quality"></a>Plan for service management and quality
+# <a name="plan-for-service-management-and-quality"></a>Планирование управления службами и обеспечения их качества
 
-This document is about the Envision phase for Microsoft Teams.
+Этот документ посвящен этапу выработки концепции для Microsoft Teams.
  
 ## <a name="introduction"></a>Введение
 
-This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality during the Envision phase, before your first pilot or production deployment.
+Этот материал содержит обзор требований, которые нужно выполнить, чтобы обеспечить и поддерживать высокий уровень качества развертывания Microsoft Teams. Вы можете поспособствовать успешному развертыванию, спланировав управление службами и обеспечение их качества на этапе выработки концепции перед первым пилотным или рабочим развертыванием.
 
-The guidance is organized into the following sections:
+Это руководство поделено на несколько разделов:
 
--   First is an overview of user experience and the key components that underpin quality. This highlights the areas to focus on prior to onboarding to Microsoft Teams.
+-   В первом приведен обзор взаимодействия с пользователем и ключевых компонентов, определяющих уровень качества. В нем указаны области, на которых следует сосредоточить внимание, перед освоением Microsoft Teams.
 
--   Second, guidance is given for planning a support model to manage Microsoft Teams prior to the first user pilot or production deployment. This section describes the tasks that need to be performed on a regular basis to maintain a quality Teams deployment. In addition, this section introduces you to further guidance which you can use to start understanding and operationalizing these tasks.
+-   Во втором приведены рекомендации по планированию модели поддержки для управления Microsoft Teams перед первым пилотным или рабочим развертыванием. Здесь описаны задачи, которые нужно выполнять на регулярной основе, чтобы поддерживать высокий уровень качества развертывания Teams. Кроме того, здесь приведены сведения, помогающие подробнее разобраться в этих задачах и начать реализовывать их.
 
--   Third, specific guidance helps with planning your network and endpoints in your organization to support Microsoft Teams.
+-   Третий содержит инструкции по планированию сети и конечных точек в организации для поддержки Microsoft Teams.
 
--   Lastly, next steps are summarized with references to related content.
+-   В последнем приведена сводка по следующим шагам с указанием ссылок на соответствующие материалы.
 
-## <a name="key-components-that-affect-user-experience"></a>Key components that affect user experience
+## <a name="key-components-that-affect-user-experience"></a>Ключевые компоненты, влияющие на взаимодействие с пользователем
 
-The key components that affect user experience will be reviewed in this section. Before reviewing the key components, it’s critical that you understand user experience and its importance in realizing your organization’s business goals. Let’s review how we define the user experience first.
+В этом разделе рассмотрены ключевые компоненты, влияющие на взаимодействие с пользователем. Перед ознакомлением с этими компонентами крайне важно понять, как осуществляется взаимодействие с пользователем и почему оно так важно для достижения бизнес-целей организации. Для начала давайте рассмотрим, как определяется взаимодействие с пользователем.
 
-### <a name="user-experience-defined"></a>User experience defined
+### <a name="user-experience-defined"></a>Определение взаимодействия с пользователем
 
-Business goals can be realized when you deploy Microsoft Teams and incorporate communications into your business processes to enhance their workflow. Quality drives adoption and usage: if your organization delivers a high-quality service that delights people, then individuals and teams can gain confidence and find new and innovative ways of using the service that drive business benefits.
+Бизнес-цели можно реализовать, развернув Microsoft Teams и внедрив коммуникации в бизнес-процессы, чтобы улучшить рабочий процесс. Качество влечет за собой принятие и использование: если ваша организация предоставляет высококачественную службу, приводящую работников в настоящий восторг, то как отдельные люди, так и целые группы смогут действовать увереннее и искать инновационные подходы к использованию этой службы, создавая определенные бизнес-преимущества.
 
-At the heart of this is the user’s experience with Teams—the person’s emotions and attitudes toward the service. So what contributes to the user experience? It ranges from users’ knowing how to use Teams and incorporating it into their daily workflow to experiencing exceptional call quality and being able to connect reliably, regardless of where they are. User experience is very broad in nature; this document focuses only on those elements that can be controlled by your organization.
+В основе всего этого лежат впечатления пользователя от работы с Teams, то есть его эмоции и отношение к службе. А что именно влияет на взаимодействие с пользователем? Многое, начиная с умения пользователя использовать службу Teams и внедрять ее в повседневные рабочие процессы и заканчивая исключительным качеством звонков и возможностью надежного соединения в любых условиях. Взаимодействие с пользователем — очень широкое понятие. В этом документе основное внимание уделяется только тем элементам, которыми может управлять ваша организация.
 
-There are specific requirements to the deployment that are critically important to deliver a fantastic user experience—especially when using the Cloud Voice features in Teams. It is critical to treat Microsoft Teams as a first-class citizen with other communication and collaboration investments, prioritizing real-time traffic accordingly. The following section gives an overview of the key components that affect user experience. In further sections, we will provide you guidance on how to start planning to deploy and maintain the key components that comprise quality.
+Существуют определенные требования к развертыванию, которые позволяют обеспечить выдающееся взаимодействие с пользователем, особенно при использовании функций Cloud Voice в Teams. Крайне важно выделить Microsoft Teams среди других средств взаимодействия и совместной работы, назначив соответствующие приоритеты трафику реального времени. Следующий раздел содержит обзор ключевых компонентов, влияющих на взаимодействие с пользователем. В последующих разделах приведены указания о том, как начать планировать развертывание и обслуживание ключевых компонентов, определяющих уровень качества.
 
-### <a name="key-components-of-quality"></a>Key components of quality
+### <a name="key-components-of-quality"></a>Ключевые компоненты, определяющие качество
 
-An organization or supporting partner should start planning for three key components during the Envision phase of a Teams deployment: service management, network, and endpoints. The combination of all three areas is fundamental to the quality of the user experience.
+Организации или содействующему партнеру следует начать планировать три ключевых компонента на этапе выработки концепции развертывания Teams: управление службами, сеть и конечные точки. Сочетание этих трех областей является основополагающим для качества взаимодействия с пользователем.
 
-![Diagram describing the 3 components of quality, and how service management overlaps all 3 components.](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png)
+![Схема, показывающая три компонента качества и то, как управление службами охватывает их все.](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Схема, показывающая три компонента качества и то, как управление службами охватывает их все.")
 
-#### <a name="service-management"></a>Service management
+#### <a name="service-management"></a>Управление службами
 
-Service management can be divided into two distinct categories of responsibility:
+Управление службами можно поделить на две четкие категории ответственности:
 
--   **Microsoft responsibility**. Microsoft is responsible for the infrastructure components that the Office 365 service comprises. Microsoft is accountable to customers to ensure that any of their users connecting to Teams is provided with a reliable and high-quality experience.
+-   **Ответственность корпорации Майкрософт**. Корпорация Майкрософт отвечает за инфраструктурные компоненты, составляющие службу Office 365. Майкрософт отчитывается перед клиентами, чтобы взаимодействие с любыми их пользователями, подключающимися к Teams, было надежным и высококачественным.
 
--   **Customer responsibility**. You and your organization are responsible for managing various aspects of the Office 365 service, on-premises network, and user endpoints. For example, as new IP addresses are added to Office 365, you must update the appropriate firewalls to allow communication to the new endpoints to avoid user disruption.
+-   **Ответственность клиента**. Вы и ваша организация отвечаете за управление различными аспектами службы Office 365, локальной сети и конечных точек пользователей. Например, при добавлении новых IP-адресов в Office 365 вам нужно соответствующим образом изменить настройку брандмауэров, чтобы разрешить взаимодействие с новыми конечными точками и предотвратить перерывы в работе пользователей.
 
-For detailed guidance for service management planning, see [Planning for Service Management](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-service-management).
+Подробные указания по планированию управления службами см. в разделе [Планирование управления службами](#plan-for-service-management).
 
 #### <a name="network"></a>Сеть 
 
-In most organizations, networks were initially designed to provide access to data and applications that resided in their datacenters. Cloud-based applications like Office 365 require changes to these networks to support the new access and data flows that Teams requires. Before you can enable users for Teams in your organization, you must evaluate and optimize your current network. This is critically important when leveraging cloud voice capabilities.
+В большинстве организаций сети изначально были рассчитаны на предоставление доступа к данным и приложениям, находящимся в центрах данных этих организаций. С появлением облачных приложений, таких как Office 365, возникает потребность изменить эти сети, чтобы они поддерживали новые потоки доступа и данных, необходимые Teams. Прежде чем предложить Teams пользователям в своей организации, следует оценить и оптимизировать имеющуюся сеть. При использовании функций Cloud Voice это имеет определяющее значение.
 
-In traditional networks, users will need to traverse the perimeter networks of an organization to access Teams. Many organizations will have security-based devices such as proxy servers, firewalls, and VPNs that can block, impede, or provide an unoptimized path for network traffic.
+В традиционных сетях пользователям для доступа к Teams потребуется проходить сети периметра организации. Многие организации используют средства безопасности, такие как прокси-серверы, брандмауэры и виртуальные частные сети (VPN), способные блокировать сетевой трафик, препятствовать его прохождению или направлять его по неоптимальному пути.
 
-Furthermore, the core internal networks need to be optimized and right-sized to provide sufficient capacity and quality for supporting the Teams workloads, including real-time media. You can use bandwidth planning, remediation, and optimization to help ensure your network provides a high-quality and efficient path to Office 365.
+Кроме того, требуется оптимизировать основные внутренние сети и подобрать их размер, чтобы обеспечить достаточный уровень производительности и качества для рабочих нагрузок Teams, включая мультимедиа реального времени. Вы можете планировать, корректировать и оптимизировать пропускную способность, чтобы сеть обеспечивала высококачественную и эффективную работу с Office 365.
 
-For detailed guidance about network planning, see [Planning for Network Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-network-quality).
+Подробные указания по планированию сети см. в разделе [Планирование обеспечения качества для сети](#plan-for-network-quality).
 
 #### <a name="endpoints"></a>Конечные точки
 
-Microsoft Teams supports a variety of endpoints. From PCs to tablets to phones, you can access Teams anywhere from virtually any device.
+Microsoft Teams поддерживает различные конечные точки. От компьютеров до планшетов и телефонов — вы можете обратиться к Teams в любых условиях и практически с любого устройства.
 
-To give your users the best experience possible, you need to consider these important aspects during the Envision phase: Do your endpoints meet the Teams hardware and software requirements? Have you configured and optimized endpoints to support Wi-Fi networks? Which devices will you use to make and receive voice calls? Are those devices optimized for Teams?
+Чтобы обеспечить наилучшее взаимодействие с пользователями, нужно учесть на этапе выработки концепции следующие важные аспекты. Удовлетворяют ли ваши конечные точки требованиям к оборудованию и программному обеспечению Teams? Выполнили ли вы настройку и оптимизацию конечных точек для поддержки сетей Wi-Fi? Какие устройства вы будете использовать для совершения и приема голосовых звонков? Оптимизированы ли эти устройства для работы с Teams?
 
-For detailed guidance about endpoint planning, see [Planning for Endpoint Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-endpoint-quality).
+Подробные указания по планированию конечных точек см. в разделе [Планирование обеспечения качества для конечных точек](#plan-for-endpoint-quality).
 
-## <a name="plan-for-service-management"></a>Plan for service management
+## <a name="plan-for-service-management"></a>Планирование управления службами
 
-Service management is a broad topic that covers day-to-day operations of the Microsoft Teams service after it has been deployed and enabled for users. The Teams service encompasses Microsoft Office 365 and the infrastructure components that are deployed on-premises (for example, networking).
+Управление службами — это обширная тема, которая охватывает повседневные операции службы Microsoft Teams после ее развертывания и предоставления пользователям. Служба Teams включает в себя Microsoft Office 365 и инфраструктурные компоненты, развертываемые локально (например, сети).
 
-The notion of service management is most likely not a new concept for most organizations. You probably have already implemented processes and tasks that are associated with existing services. That said, you can probably augment what you have in place when you plan for service management today to support Microsoft Teams in the future.
+Идея управления службами, скорее всего, не нова для большинства организаций. Вероятно, вы уже реализовали процессы и задачи, связанные с существующими службами. Планируя управление службами сейчас для поддержки Microsoft Teams в будущем, вы с высокой вероятностью сможете улучшить уже сделанное.
 
-Service management encompasses all the activities and processes involved in managing Microsoft Teams end to end. As described earlier, some components of service management—the infrastructure components that the Office 365 service itself comprises—are Microsoft’s responsibility, whereas the customer is accountable to its users to manage the various aspects of Teams, the network, and endpoints they provide. This section of the document will focus on the customer’s responsibility from a service management perspective.
+Управление службами охватывает все действия и процессы, связанные с комплексным управлением Microsoft Teams. Как указано выше, некоторые компоненты управления службами — инфраструктурные компоненты, составляющие саму службу Office 365, — относятся к области ответственности Майкрософт, тогда как клиент отвечает за управление различными аспектами Teams, сети и конечных точек, предоставляемыми его пользователям. Этот раздел посвящен зоне ответственности клиента с точки зрения управления службами.
 
-![Diagram describing the 3 components of qualilty, and how service management overlaps all 3 components. With a focus on Service Mangement.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png)
+![Схема, показывающая три компонента качества и то, как управление службами охватывает их все. При этом основное внимание уделяется управлению службами.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Схема, показывающая три компонента качества и то, как управление службами охватывает их все. При этом основное внимание уделяется управлению службами.")
 
-### <a name="introduction-to-the-operations-guide"></a>Introduction to the Operations Guide 
+### <a name="introduction-to-the-operations-guide"></a>Знакомство с руководством по работе 
 
-**What**, **Who**, and **How** are three important questions that need to be answered when it comes to service management.
+**Что**, **кто** и **как** — вот три важных вопроса, на которые нужно ответить при реализации управления службами.
 
-You can use the Operations Guide [Link to Operations Guide] to help you address all three of these questions. The guide provides a list of activities to be performed on a daily, weekly, monthly, and as-needed basis. These activities and tasks are critical for maintaining a high-quality Teams deployment. Determining who will be responsible for performing specific activities in service management is a critical aspect of your planning that you need to do early in the Envision phase to ensure a successful deployment. After you’ve figured out the tasks and activities, they need to be understood and followed by the groups or individuals that you assign to them. The Operations Guide provides knowledge and guidance for how to perform each of the tasks, and/or references to outside content.
+[Руководство по работе](1-drive-value-operate-my-service.md) поможет вам найти ответы на все три вопроса. В нем перечислены действия, которые можно выполнять ежедневно, еженедельно, ежемесячно и по мере необходимости. Эти действия и задачи крайне важны для обеспечения высококачественного развертывания Teams. Определение того, кто будет отвечать за выполнение определенных действий в управлении службами, является важной составляющей планирования, которую нужно учесть в начале этапа выработки концепции, чтобы обеспечить успешное развертывание. После определения задач и действий их должны изучить и выполнить те лица или группы лиц, которым вы их назначаете. Руководство по работе содержит сведения и инструкции по выполнению каждой из этих задач, а также ссылки на другие материалы.
 
-### <a name="operational-role-mapping"></a>Operational role mapping
+### <a name="operational-role-mapping"></a>Сопоставление операционных ролей
 
-Planning for service management early is a critical milestone, because the operations phase begins when the first pilot users are enabled. The project team must review and agree on the tasks and activities required, identify the team that’s responsible for each operational task, and then get a commitment and sign-off from each respective team.
+Заблаговременное планирование управления службами является важной задачей, так как этап операций начинается с появления первых пилотных пользователей. Проектная команда должна рассмотреть и согласовать необходимые задачи и действия, определить команду, отвечающую за каждую операционную задачу, а затем получить обязательства и подтверждение от каждой из этих команд.
 
-After sign-off is complete, the responsible team must then start operationalizing these roles and responsibilities. This might include training and readiness, updating the staffing model, or ensuring that external partners are ready to deliver.
+После подтверждения ответственная команда должна приступить к практической реализации этих ролей и обязанностей. Сюда могут входить учебные или подготовительные мероприятия, изменение модели комплектования персонала или проверка готовности внешних партнеров к работе.
 
-Mapping operational roles early in the Envision phase enables all teams to start their operational tasks during the pilot, and ramp up operations and make sure that everything is ready after the deployment starts.
+Сопоставление операционных ролей в начале этапа выработки концепции позволяет всем командам приступить к своим операционным задачам во время пилотного проекта, затем нарастить операции и подготовить все необходимое к началу развертывания.
 
-The Operations Guide provides a list of common tasks mapped to typical roles that should be valid in most scenarios. You need to customize these responsibilities to work for your organization.
+Руководство по работе содержит список общих задач, сопоставленных с типичными ролями, которые должны действовать в большинстве сценариев. Вам нужно настроить эти обязанности, чтобы они работали в вашей организации.
 
-### <a name="the-quality-champion-role"></a>The Quality Champion role
+### <a name="the-quality-champion-role"></a>Роль лидера по качеству
 
-A group or individual needs to be accountable for quality in all organizations. This is the most important role in service management. The Quality Champion is a customer role that's assigned to a person or group who is passionate about their users' experience. This role requires the skills to identify trends in the environment and the sponsorship to work with other teams to drive remediation. The best candidate for the Quality Champion is typically the customer service owner, who—depending on the organization’s size and complexity—could be any person or group who is passionate about user experience.
+Нужно назначить группу или отдельного человека, отвечающих за качество во всех организациях. Это самая важная роль в управлении службами. Лидер по качеству — это роль клиента, назначаемая человеку или группе, которые с большим энтузиазмом относятся к взаимодействию с пользователями. Для этой роли нужны навыки по выявлению тенденций в среде, а также стремление сотрудничать с другими командами для принятия корректирующих мер. Наилучшим кандидатом на роль лидера по качеству обычно является владелец клиентской службы, который, в зависимости от размера и сложности организации, может быть любым человеком или группой лиц, с большим энтузиазмом относящихся к взаимодействию с пользователями.
 
-The Quality Champion leverages existing tools and documented processes, such as the Call Quality Dashboard (CQD) and the Quality Experience Review Guide, to monitor user experience, identify quality trends, and drive remediation where needed. The Quality Champion works with the respective teams to drive remediation actions, reporting to a steering committee on their progress and open issues.
+Лидер по качеству использует имеющиеся средства и задокументированные процессы, такие как панель мониторинга качества звонка (ПМКЗ) и руководство по анализу процедуры обеспечения качества, чтобы отслеживать взаимодействие с пользователем, выявлять тенденции в области качества и стимулировать принятие корректирующих мер по мере необходимости. Лидер по качеству должен сотрудничать с соответствующими командами, чтобы следить за принятием корректирующих мер, а также отчитываться перед управляющим комитетом о ходе работ и имеющихся проблемах.
 
-The tasks and activities associated with the role have been documented in the Operations Guide. This role should be assigned early in the Envision phase. A key step in operationalizing the role of Quality Champion is gaining the knowledge required for the role and ensuring the prerequisites are in place to deliver on the tasks. A key task for this role is running a regular Quality Experience Review.
+Связанные с этой ролью задачи и действия задокументированы в руководстве по работе. Эту роль следует назначить в начале этапа выработки концепции. Основной шаг практической реализации роли лидера по качеству заключается в приобретении необходимых для нее знаний и навыков, а также выполнении всех предварительных требований для продуктивной работы над задачами. Основной задачей для этой роли является регулярное выполнение анализа процедуры обеспечения качества.
 
-### <a name="introduction-to-the-quality-experience-review-guide"></a>Introduction to the Quality Experience Review Guide
+### <a name="introduction-to-the-quality-experience-review-guide"></a>Знакомство с руководством по анализу процедуры обеспечения качества
 
-The Quality Experience Review Guide has a set of activities that assess and provide remediation guidance in key areas that have the greatest impact for improving user experience as shown in the figure below.
+Руководство по анализу процедуры обеспечения качества содержит ряд действий, позволяющих произвести оценку и выдать рекомендации по корректирующим мерам в ключевых областях, которые оказывают наибольшее влияние на улучшение взаимодействия с пользователем, как показано на рисунке ниже.
 
-![A diagram that indicates the key areas that are examined during a quality experience review.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png)
+![Схема, показывающая ключевые области, рассматриваемые во время анализа процедуры обеспечения качества.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Схема, показывающая ключевые области, рассматриваемые во время анализа процедуры обеспечения качества.")
 
-By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
+Непрерывно оценивая и корректируя области, описанные в этом документе, вы можете снизить их потенциальное негативное влияние на взаимодействие с пользователем. Большинство встречающихся в развертывании проблем с взаимодействием с пользователем можно разделить на следующие категории:
 
--   Incomplete firewall or proxy configuration
+-   Неполная настройка брандмауэра или прокси-сервера
 
--   Poor Wi-Fi coverage
+-   Слабый охват сети Wi-Fi
 
--   Insufficient bandwidth
+-   Недостаточная пропускная способность
 
 -   VPN
 
--   Use of unoptimized or built-in audio devices
+-   Использование неоптимальных или встроенных звуковых устройств
 
--   Problematic subnets or network devices
+-   Проблемы с подсетями или сетевыми устройствами
 
-The guidance provided in the Quality Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact. Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
+Указания, приведенные в руководстве по анализу процедуры обеспечения качества, сосредоточены на использовании интернет-версии панели мониторинга качества звонка (ПМКЗ) в качестве основного средства для изучения каждой из указанных областей и ведения соответствующих отчетов, при этом основное внимание уделяется звуку, чтобы ускорить освоение и увеличить извлекаемую пользу. Любые оптимизации для сети, направленные на улучшение звукового взаимодействия, также вносят вклад в улучшение видеосвязи и совместного доступа к рабочему столу.
 
-We highly recommend that you nominate the Quality Champion early on. After being nominated, they should start to familiarize themselves with the content in the Quality Experience Review Guide.
+Мы настоятельно рекомендуем назначить лидера по качеству в самом начале процесса. После назначения этому человеку следует приступить к изучению руководства по анализу процедуры обеспечения качества.
 
-The Quality Experience Review Guide can be found [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+Это руководство находится [здесь](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
 
-## <a name="plan-for-network-quality"></a>Plan for network quality 
+## <a name="plan-for-network-quality"></a>Планирование обеспечения качества для сети 
 
-Planning for network quality will be the focus for the following section.
+Планирование обеспечения качества для сети будет подробно описано в следующем разделе.
 
-![Diagram describing the 3 components of quality, and how service management overlaps all 3 components. With a focus on Network.](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png)
+![Схема, показывающая три компонента качества и то, как управление службами охватывает их все. При этом основное внимание уделяется сети.](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Схема, показывающая три компонента качества и то, как управление службами охватывает их все. При этом основное внимание уделяется сети.")
 
-As previously mentioned, planning for network quality prior to onboarding to Microsoft Teams is critical. For further guidance for network readiness, see [Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
+Как уже было указано, крайне важно спланировать обеспечение качества для сети перед освоением Microsoft Teams. Дополнительные указания по подготовке сети см. в разделе [Подготовка сети организации к Microsoft Teams](prepare-network.md).
 
-В большинстве организаций сетей может включать в себя управляемые и неуправляемые сетей.
+Сети большинства организаций могут состоять как из управляемых, так и из неуправляемых сетей.
 
-Managed networks are components of the network infrastructure that an organization has direct control over. As a result, managed networks have a direct influence on the quality that can be provided to real-time traffic workloads.
+Управляемые сети — это компоненты сетевой инфраструктуры, которыми организация может управлять напрямую. Поэтому управляемые сети оказывают прямое влияние на уровень качества, который можно обеспечить для рабочих нагрузок трафика реального времени.
 
-Conversely, unmanaged networks are segments of the network that a customer has limited control, or no control, over.
+И, наоборот, неуправляемые сети — это сегменты сети, управлять которыми клиент может лишь ограниченно или не может вообще.
 
-Internet connections between the organization and Office 365 are networks where a customer has limited control. The networks are managed by an ISP, but organizations should be able to influence the quality of the network by upgrading their bandwidth, advocating for route optimizations, or—if all else fails—switching ISPs.
+Интернет-соединения между организациями и Office 365 являются сетями, которыми клиент может управлять лишь ограниченно. Этими сетями управляет поставщик услуг Интернета, однако организации могут повлиять на качество такой сети, увеличив свою пропускную способность, выступая за оптимизацию маршрутов или, если все это не дает результата, сменив поставщика услуг Интернета.
 
-Home networks or networks in hotels or coffee shops are examples of networks where a customer has no control.
+Домашние сети или сети в отелях или кофейнях являются примером сетей, которыми клиент не может управлять.
 
-In the following sections, we will focus on the quality requirements of managed networks.
+В последующих разделах основное внимание будет уделено требованиям к качеству для управляемых сетей.
 
-### <a name="key-network-planning-areas"></a>Key network planning areas
+### <a name="key-network-planning-areas"></a>Ключевые области планирования сети
 
-The following sections focus on the important areas for delivering a high-quality network.
-
-> [!NOTE]
-> Many networks evolve over time due to upgrades, expansion, or other business requirements. Убедитесь, что рабочих процессов на месте для поддержки этих областей в процессе планирования управления службы.
-
-#### <a name="bandwidth"></a>Bandwidth
-
-Bandwidth planning is a critical aspect of the network readiness activity. Ensuring that there's enough bandwidth for the Microsoft Teams workloads is imperative. Должны иметь возможность право размера существующего сети, необходимо понимать, что в настоящее время наполнения, текущего использования ресурсов и — в конечном счете, оставшихся наличной пропускной способности.
-
-To measure current utilization, you need to monitor the network. This measurement can then be used as the starting point for bandwidth planning. Кроме того сети должны постоянно отслеживаться во время развертывания и после развертывания, чтобы убедиться, что сеть достаточно подготовлен.
+В следующих разделах описаны области, имеющие значение для обеспечения высококачественной сети.
 
 > [!NOTE]
-> When monitoring network utilization, it’s important to avoid using averages over the day. These averages can include non-core hours that skew the result. Averages can hide peak periods and mask an underlying problem.
+> Со временем многие сети развиваются и видоизменяются в результате обновлений, расширения или под влиянием других бизнес-требований. Убедитесь, что в рамках планирования управления службами предусмотрены операционные процессы для учета этих областей.
 
-The [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) helps you determine and organize network requirements for your deployment in just a few simple steps. By using the tool to gather your organization's networking details and Cloud Voice usage, you can get an approximate calculation of the network requirements you’ll need for your Cloud Voice deployment, manage and export these details for reporting, and view areas for further investigation and next steps.
+#### <a name="bandwidth"></a>Пропускная способность
 
-#### <a name="quality-of-service-qos"></a>Quality of service (QoS)
+Планирование пропускной способности является важной составляющей подготовки сети. Вам просто обязательно нужно убедиться в наличии достаточной пропускной способности для рабочих нагрузок Microsoft Teams. Чтобы правильно подобрать размер существующей сети, следует разобраться, что уже подготовлено, что используется, а главное — сколько осталось доступной пропускной способности.
 
-QoS should be implemented on all segments of the managed network, even networks that have been adequately provisioned for bandwidth. In the latter case, QoS acts as a risk mitigation in the event of unanticipated network load. When QoS is implemented, voice traffic will be prioritized so that these unanticipated events don’t affect quality.
+Для замера текущего использования требуется мониторинг сети. Затем это измерение можно использовать в качестве отправной точки для планирования пропускной способности. Кроме того, требуется непрерывный мониторинг сети во время и после развертывания, чтобы гарантировать ее полноценную подготовку.
 
-A QoS implementation should include areas of the network, from the endpoint all the way up to the egress points and from the egress points back to the endpoint. Это гарантирует, что передачи голосовых данных назначаются приоритеты в обоих направлениях. Качество обслуживания должен быть реализован на другое проводное и сети Wi-Fi.
+> [!NOTE]
+> При мониторинге использования сети важно стараться не использовать средние значения за день. Они могут включать в себя неосновные часы, искажающие результат. В них могут быть скрыты пиковые периоды и неочевидны имеющиеся проблемы.
 
-Для реализации качества обслуживания в сети, следующие рекомендации могут помочь [Качества обслуживания в группах Майкрософт](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)
+[Планировщик сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) помогает определить и упорядочить требования к сети для развертывания всего за несколько простых шагов. Используя это средство для сбора сведений о сетях и использовании Cloud Voice в организации, вы можете получить приблизительный расчет требований к сети для развертывания Cloud Voice, экспортировать эти сведения для ведения отчетов, а также просматривать области для дальнейшего изучения и выполнения дальнейших действий.
+
+#### <a name="quality-of-service-qos"></a>Качество обслуживания
+
+Качество обслуживания должно быть реализовано во всех сегментах управляемой сети, даже для сетей, для которых была подготовлена достаточная пропускная способность. Для таких сетей качество обслуживания является мерой устранения рисков на случай непредвиденной нагрузки на сеть. После реализации качества обслуживания голосовой трафик будет иметь приоритет, поэтому такие непредвиденные события никак не повлияют на качество.
+
+Реализация качества обслуживания должна включать в себя области сети — от конечной точки вверх до точек исходящего трафика и затем назад до той же конечной точки. Это позволит приоритизировать голосовой трафик в обоих направлениях. Качество обслуживания нужно реализовать как в проводных сетях, так и в сетях Wi-Fi.
+
+При реализации качества обслуживания в сети может пригодиться следующее руководство [Качество обслуживания в Microsoft Teams](qos-in-teams.md)
 
 #### <a name="proxy-servers"></a>Прокси-серверы
 
-Many organizations view traffic destined for the internet as a security risk, and they mitigate this risk by monitoring and evaluating traffic at the egress points in the network. Прокси-серверы — это класс устройств, которые могут быть развернуты в соответствии с этим требованиям.
+Многие организации рассматривают трафик, направленный в Интернет, как угрозу безопасности и устраняют этот риск, отслеживая и оценивая трафик в точках исходящего трафика в сети. Прокси-серверы являются тем классом устройств, которые можно развернуть для выполнения этого требования.
 
-Прокси-сервер могут вызвать проблемы при выполнении проверки сетевых пакетов или изменение полезных данных. This can lead to call setup failures, dropped calls, and poor call quality. Если в режиме реального времени мультимедиа принудительно проходят через прокси-сервер, стек мультимедиа в группах принудительно не TCP могут сократить качества. UDP-ПОРТ всегда является предпочтительным по протоколу TCP.
+Прокси-сервер может стать источником проблем при проверке или изменении пакетов для рабочей нагрузки. Это может привести к сбоям при установке звонков, сбросу звонков и низкому качеству связи. Если мультимедиа реального времени требуется проходить прокси-сервер, стек мультимедиа в Teams будет вынужден переключиться на TCP, что может еще больше ухудшить качество. Вместо TCP всегда лучше использовать UDP.
 
-Кроме того, прокси-сервер может не предназначено для обработки дополнительной нагрузки Office 365 и специально рабочих нагрузок группами Майкрософт, включая мультимедиа в режиме реального времени.
+Кроме того, прокси-сервер может быть не рассчитан на обработку дополнительной нагрузки Office 365, в частности рабочих нагрузок Microsoft Teams, включая мультимедиа реального времени.
 
-Due to the potential problems a proxy server can introduce, and these additional capacity concerns, Microsoft recommends bypassing the proxy server and making a direct connection to Office 365.
+Из-за потенциальных проблем, которые может вызывать прокси-сервер, и этих дополнительных трудностей, связанных с производительностью, корпорация Майкрософт рекомендуется обходить прокси-сервер и устанавливать прямое подключение к Office 365.
 
-Конфигурация, необходимая для обхода прокси-сервера меняется в зависимости от поставщиков, но общий подход обычно включает в себя обновление файла (PAC) Автоматическая настройка прокси-сервера. Файл PAC представляет собой файл конфигурации, описывающего какие трафик проходит через прокси-сервер и трафик обходит его.
+Конфигурация, необходимая для обхода прокси-сервера, зависит от конкретного поставщика, но общий подход обычно включает в себя обновление файла автонастройки прокси-сервера (PAC). Файл конфигурации PAC описывает, какой трафик проходит через прокси-сервер, а какой обходит его.
 
-Some proxy server vendors provide an automated process for ensuring the configuration is up to date. Если поставщик не предоставляет этот автоматический процесс, можно загрузить обновленный файл PAC из <https://aka.ms/o365proxies>.
+Некоторые поставщики прокси-серверов предоставляют автоматическую процедуру для обновления конфигурации. Если у вашего поставщика такая процедура не предусмотрена, вы можете скачать обновленный файл PAC по адресу <https://aka.ms/o365proxies>.
 
-[Прокси-серверы для Скайп для бизнеса в Интернете и рабочих групп](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Прокси-серверы для Skype для бизнеса Online и Teams](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
 
 #### <a name="firewalls"></a>Брандмауэры
 
-Убедитесь, что справа порты и протоколы открыть, чтобы все Office 365 IP-адреса и URL-адреса требуется для получения доступа к группами Майкрософт. Также важно для развертывания высокого качества. Просто вызов или выполняется присоединение к конференции не достаточно необходимо убедиться, что брандмауэр настроен правильно.
+Для доступа к Microsoft Teams нужно убедиться, что подходящие порты и протоколы открыты для всех IP- и URL-адресов Office 365. Это также необходимо и для высококачественного развертывания. Простого звонка или присоединения к конференции недостаточно для подтверждения правильной настройки брандмауэра.
 
-Если только TCP открыта в брандмауэре, сеанс будет установлено, но предпочитаемый транспорта (UDP-ПОРТ) не согласовано. TCP и UDP должны быть открыты для брандмауэра для обеспечения работы пользователей.
+Если в брандмауэре открыт только протокол TCP, сеанс устанавливается, однако предпочитаемый транспорт (UDP) не согласовывается. Для обеспечения наилучшего взаимодействия с пользователем в брандмауэре нужно открыть как TCP, так и UDP.
 
-Из-за его с сохранением состояния характер TCP не будет предпочтительным для мультимедиа в режиме реального времени и предоставляется только в качестве транспорта сети восстановление размещения для групп Майкрософт. С TCP если задержка пакетов или убытков, пакеты должны быть повторно до их в случае подтверждено. Это может привести к мультимедиа пакетов, которые больше не соответствующих за счет своевременного текущего пакетов мультимедиа. Клиент группы пользователя пытается увеличить аудио и может осуществлять звуковой артефактов в зависимости от того, в сети. С помощью дополнительных затрат на TCP обычно приемлемой качества, могут перейти низкого уровня пользовательского интерфейса. По этой причине без сведений о состоянии сети транспорта UDP-ПОРТ является обязательным.
+Из-за отслеживания состояния протокол TCP не является предпочтительным для мультимедиа реального времени и предоставляется только в качестве резервного сетевого транспорта для Microsoft Teams. При использовании TCP в случае задержки или потери пакетов их требуется передавать повторно, пока они не будут подтверждены. Это может привести к тому, что уже неактуальные пакеты конкурируют за своевременную доставку с актуальными пакетами мультимедиа. Клиент Teams пользователя пытается растянуть звук, что в зависимости от условий сети может приводить к различимым звуковым артефактам. С учетом дополнительных служебных данных TCP в целом приемлемое взаимодействие может стать неудовлетворительным. Поэтому требуется сетевой транспорт UDP без отслеживания состояния.
 
-Полное руководство для открытия брандмауэра для групп Майкрософт предоставляется в статье [Office 365 URL-адреса и диапазоны IP-адресов](https://aka.ms/o365ips) .
+Полноценные инструкции по открытию брандмауэра для Microsoft Teams приведены в статье [URL-адреса и диапазоны IP-адресов Office 365](https://aka.ms/o365ips).
 
-После открытия брандмауэра, можно использовать [Средство оценки производительности сети Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53885) для проверки подключения для возможности голосовой связи облака.
+После открытия брандмауэра можно воспользоваться [средством оценки сети (Майкрософт)](https://www.microsoft.com/download/details.aspx?id=53885), чтобы проверить возможность подключения к функциям Cloud Voice.
 
 > [!IMPORTANT]
-> Microsoft Office 365 IP-адреса и URL-адреса будут изменяться со временем. При планировании управления службы важно обеспечить рабочего процесса на месте и группы отвечает для наблюдение за [Office 365 URL-адреса и диапазоны IP-адресов](https://aka.ms/o365ips) и выполнения обновлений соответствующим образом.
+> Со временем IP- и URL-адреса Microsoft Office 365 будут меняться. Во время планирования управления службами важно предусмотреть операционный процесс и сделать группу ответственной за отслеживание [URL-адресов и диапазонов IP-адресов Office 365](https://aka.ms/o365ips) и своевременное внесение изменений.
 
-#### <a name="local-internet-egress"></a>Локального исходящего трафика Интернета
+#### <a name="local-internet-egress"></a>Локальный исходящий интернет-трафик
 
-Многие сети были предназначены для использования сервера-концентратора и резервный топологии. В этой топологии трафика из Интернета обычно проходят через глобальной сети для центрального центра обработки данных перед его выскочит (egresses) к Интернету. Часто это централизовать сетевых устройств безопасности с целью уменьшения общую стоимость.
+Многие сети были рассчитаны на использование звездообразной топологии. В ней интернет-трафик обычно проходит глобальную сеть по пути в главный центр данных, прежде чем появиться (превратиться в исходящий) в Интернете. Часто это служит для централизации устройств безопасности сети, чтобы снизить общие издержки.
 
-Доставить назад трафика глобальной сети увеличивает задержку и имеет отрицательное влияние на качество и удобство работы пользователей. Поскольку группами Майкрософт выполняется в корпорации Майкрософт большой глобальной сети, нет часто в сетевой папке авторами закрыть для пользователя. Пользователь будет вероятнее всего получить более высокую производительность, egressing из локального точки internet почти их расположения и вход в систему сети optimized голосовой связи, как можно скорее. Для некоторых видов нагрузки DNS-запросы используются для отправки трафика ближайший сервера переднего плана. В таких случаях важно, что при использовании локального выходной точке, сопряжено с локального разрешения DNS.
+Обратное перемещение трафика через WAN повышает задержку и отрицательно влияет на качество и взаимодействие с пользователем. Так как Microsoft Teams выполняется в крупной глобальной сети Майкрософт, вблизи от пользователя обычно имеется сетевое расположение пиринга. Пользователь с высокой долей вероятности улучшит производительность, если как можно быстрее перейдет с локальной интернет-точки, находящейся вблизи от его расположения, в нашу сеть, оптимизированную для голосовой связи. При некоторых рабочих нагрузках для отправки трафика на ближайший интерфейсный сервер используются запросы DNS. В этом случае при использовании локальной точки исходящего трафика важно, чтобы она была сопряжена с локальным разрешением DNS.
 
-Оптимизация сетевой путь к глобальной сети корпорации Майкрософт улучшить производительность и в конечном счете оптимального для пользователей. Дополнительные сведения см в блоге [Начало наиболее подключения и производительности в Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
+Оптимизация сетевого пути к глобальной сети Майкрософт повысит производительности и в конечном счете обеспечит наилучшее взаимодействие с пользователями. Дополнительные сведения см. в записи блога [Обеспечение наилучшей возможности подключения и производительности в Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
 #### <a name="vpn"></a>VPN
 
-Виртуальные частные сети обеспечения ценных службы на многие организации. К сожалению они обычно не предназначена или настроить для поддержки мультимедиа в режиме реального времени. Некоторые VPN также могут не поддерживать UDP-ПОРТ. Виртуальные частные сети также предоставляют дополнительный уровень шифрования на основе трафика мультимедиа по умолчанию. Кроме того возможность подключения к службе группами Майкрософт может оказаться эффективным из-за фиксации Сверхтонкая трафика через устройство VPN. Кроме того они не могут обязательно с точки зрения емкости для учета предполагаемых нагрузок, которые требуют группами.
+VPN предоставляют полезную службу множеству организаций. К сожалению, они обычно не предназначены или не настроены для поддержки мультимедиа реального времени. Некоторые VPN также могут не поддерживать UDP. VPN также создают дополнительный уровень шифрования поверх уже зашифрованного трафика мультимедиа. Кроме того, возможность подключения к службе Microsoft Teams может быть неэффективна из-за разворота пакетов трафика через VPN-устройство. Они также могут не обладать производительностью, необходимой для выполнения предполагаемых нагрузок для Teams.
 
-Рекомендуется предоставить альтернативный маршрут, который обходит виртуальной частной сети для трафика группами. Обычно это называется split туннель VPN. Туннелирование способом разделения этого трафика для Office 365 не проходят через VPN-Подключение, но будет перейти непосредственно к Office 365. Это изменение будет иметь положительное влияние на качество, но также предоставляет дополнительный преимущества уменьшения нагрузки из сети организации и VPN-устройства.
+Рекомендуется предоставить дополнительный путь, который позволяет трафику Teams обходить VPN. Обычно такое решение называется VPN с раздельным туннелированием. Раздельное туннелирование означает, что трафик для Office 365 не проходит через VPN, а идет напрямую в Office 365. Такое изменение может улучшить качество, а также имеет и второе преимущество — снижение нагрузки на VPN-устройства и сеть организации.
 
-Чтобы реализовать split туннель, обратитесь к поставщику сети VPN для сведений о конфигурации.
+Чтобы реализовать раздельное туннелирование, проконсультируйтесь с поставщиком VPN и уточните у него нюансы настройки.
 
 #### <a name="wi-fi"></a>Wi-Fi
 
-Как виртуальных Частных сетей Wi-Fi не обязательно предназначена или не настроен для поддержки мультимедиа в режиме реального времени. Планирование и/или оптимизация, сети Wi-Fi для поддержки команд — это особенно важно для развертывания контроля качества.
+Как и VPN, сети Wi-Fi не всегда предназначены или настроены для поддержки мультимедиа реального времени. Планирование и (или) оптимизация сети Wi-Fi для поддержки Teams является важным аспектом качественного развертывания.
 
-Существует ряд факторов, которые следует учитывать для оптимизации сети Wi-Fi.
+При оптимизации сети Wi-Fi нужно учитывать несколько факторов.
 
--   Реализация качества обслуживания и мультимедиа Wi-Fi (WMM) для обеспечения этого трафика мультимедиа начало их приоритета соответствующим образом через сети Wi-Fi.
+-   Реализация качества обслуживания или Wi-Fi Multimedia (WMM) для обеспечения надлежащей приоритизации трафика мультимедиа при передачи по сетям Wi-Fi.
 
--   Планирование и оптимизация W-Fi панелей и доступа выберите размещение. Диапазон 2,4 ГГц может обеспечить достаточное количество возможности в зависимости от расположения точки доступа, но точки доступа, часто влияют другие пользовательские устройства, которые используются в этом диапазоне. Диапазон 5 ГГц больше подходит в режиме реального времени мультимедиа из-за их высокой плотности диапазон, но требуется несколько точек доступа для получения достаточно покрытия. Конечные точки также должны поддерживать этот диапазон и настроен соответствующим образом использовать эти полосы.
+-   Планирование и оптимизация диапазонов W-Fi и размещения точек доступа. Диапазон 2,4 ГГц способен обеспечить адекватное взаимодействие в зависимости от расположения точек доступа, однако на эти точки обычно влияют другие потребительские устройства, работающие в том же диапазоне. Диапазон 5 ГГц лучше подходит для мультимедиа реального времени, так как имеет повышенную плотность, однако для обеспечения достаточного охвата потребуется больше точек доступа. Сами конечные точки должны поддерживать этот диапазон и быть настроены для его использования.
 
--   Если сети Wi-Fi появление развернуты, рассмотрите возможность реализации управления диапазона. Управление полосой — это метод, реализованный Wi-Fi поставщиков, влияющих на централизованной двойного клиентам использовать диапазон 5 ГГц.
+-   При развертывании двухдиапазонных сетей Wi-Fi рекомендуется реализовать Band Steering. Band Steering — это реализуемый поставщиками Wi-Fi механизм, который побуждает двухдиапазонные клиенты использовать диапазон 5 ГГц.
 
--   Перекрытие каналов — при точки доступа же канала слишком близко друг к другу, они могут привести к перекрытие сигнала и случайно конкурируют приведет к недопустимый интерфейс для пользователя. Убедитесь, что точка доступа, которые рядом друг с другом на каналы не повторять.
+-   Перекрытие каналов — когда точки доступа одного канала расположены слишком близко друг к другу, они могут создавать перекрытие сигнала и непреднамеренно конкурировать, что ухудшает взаимодействие с пользователем. Убедитесь, что расположенные рядом точки доступа относятся к неперекрывающимся каналам.
 
-Каждого беспроводной поставщика имеет свой собственный рекомендации по развертыванию беспроводной решения. Мы рекомендуем, обратитесь к своему поставщику для конкретные инструкции.
+Каждый поставщик беспроводной связи дает индивидуальные рекомендации по развертыванию своего беспроводного решения. Мы рекомендуем придерживаться их.
 
 ### <a name="network-readiness-assessment"></a>Оценка готовности сети
 
-Часть действий по подготовке сети включает оценки сети. После выполнения планирования и настройки, оценки поможет вам Общие сведения о базовой качества сети перед выполнением встроенного пользователей группам Microsoft. Результаты оценки также поможет вам определить и определять приоритеты усилия по устранению проблем перед включением для групп пользователей.
+В число действий по подготовке сети входит ее оценка. Завершив планирование и настройку, можно выполнить оценку, чтобы получить общее представление о качестве сети, прежде чем предложить пользователям освоить Microsoft Teams. Результаты этой оценки также помогут определить корректирующие действия и назначить им приоритеты перед предоставлением Teams пользователям.
 
-Оценки сети должны быть выполнены для обоих проводной сети и сетей Wi-Fi для всех зданий, которые разрешены для облачных возможности голосовой связи в группах.
+Оценку нужно проводить как для проводных сетей, так и для сетей Wi-Fi во всех зданиях, где планируется включить функции Cloud Voice в Teams.
 
-Оценки сети может осуществляться с помощью партнера корпорации Майкрософт, средства сторонних производителей или [средство оценки производительности сети Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53885). Мы также представлено руководство о том, как выполнить оценку, с помощью средство оценки производительности сети Майкрософт в составе указаниям по подготовке [здесь](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)...
+Для выполнения оценки можно привлечь партнера Майкрософт либо использовать сторонние средства или [средство оценки сети (Майкрософт)](https://www.microsoft.com/download/details.aspx?id=53885). Мы также предоставляем дальнейшие указания по проведению оценки с помощью средства оценки сети (Майкрософт) в инструкциях по подготовке [здесь](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
 
-## <a name="plan-for-endpoint-quality"></a>Планирование качества конечной точки
+## <a name="plan-for-endpoint-quality"></a>Планирование обеспечения качества для конечных точек
 
-Как видно из приведенной ниже диаграмме, конечные точки являются важными стандартный блок в поддержке качества взаимодействия для конечных пользователей.
+Как видно из приведенной ниже схемы, конечные точки являются важной составляющей обеспечения высококачественного взаимодействия с пользователями.
 
-![Схема, описывающая 3 компоненты качества, а также как служба управления перекрывается всех компонентов 3. С фокусом в конечных точках.](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png)
+![Схема, показывающая три компонента качества и то, как управление службами охватывает их все. При этом основное внимание уделяется конечным точкам.](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Схема, показывающая три компонента качества и то, как управление службами охватывает их все. При этом основное внимание уделяется конечным точкам.")
 
-Конечные точки группы Microsoft можно запустить на многих устройствах, включая ПК, Макинтош, планшетные ПК и мобильных устройств. При работе не только включает устройство, но как пользователь подключается к устройства — например, с помощью встроенных устройства микрофона или динамика, со звукоизоляцией очистить или оптимизированный гарнитуры. С помощью оптимизированного гарнитуры можно расширить общего взаимодействия с пользователем.
+Конечные точки Microsoft Teams могут выполняться на множество устройств, включая компьютеры, Mac, планшеты и мобильные устройства. Часть процедур взаимодействия касается не только самого устройства, но и того, как пользователь подключается к нему, например с помощью встроенного микрофона и динамика, наушников-капелек или специальной гарнитуры. Использование специальной гарнитуры позволяет расширить возможности взаимодействия с пользователем.
 
-Следующие рекомендации по планированию реализации конечной точки поможет вам убедитесь, что ваша организация успешного входящая опыт работы с группами.
+Приведенные ниже указания по планированию конечных точек помогут вашей организации добиться успешного освоения Teams.
 
-### <a name="endpoint-capability"></a>Возможность конечной точки
+### <a name="endpoint-capability"></a>Производительность конечных точек
 
-— Это первая часть планирования для обеспечения все компьютеры и другие устройства в организации можно запустить группами Майкрософт. Это включает в себя не только ниже описаны требования к оборудованию, а также основные сведения о else ПК действия в фоновом режиме. Многие организации выполнить другое программное обеспечение, включая системы обнаружения вторжений и программное обеспечение защиты от вредоносных программ, которое может повлиять на производительность базового устройства.
+Первая часть планирования заключается в том, чтобы убедиться, что все компьютеры и другие устройства в организации могут выполнять Microsoft Teams. Для этого нужно не только посмотреть требования к оборудованию, но и выяснить, что еще компьютер обрабатывает в фоновом режиме. Во многих организациях на компьютерах выполняется другое программное обеспечение, включая системы обнаружения атак и антивредоносное ПО, что может негативно повлиять на базовую производительность устройства.
 
-Группами Майкрософт имеет клиенты доступных веб-приложений, настольных систем (Windows и Mac) и мобильные устройства (Android, iOS и Windows Mobile). Сведения о требованиях к программному обеспечению для каждой платформы видеть [Получить клиентов для групп Майкрософт](https://docs.microsoft.com/microsoftteams/get-clients).
+В Microsoft Teams доступен веб-клиент, классический клиент (Windows и Mac) и мобильный клиент (Android, iOS и Windows Mobile). Сведения о требованиях к программному обеспечению для каждой платформы см. в разделе [Работа с клиентами для Microsoft Teams](get-clients.md).
 
-### <a name="endpoint-firewalls"></a>Конечная точка брандмауэров
+### <a name="endpoint-firewalls"></a>Брандмауэры конечных точек
 
-Клиентские брандмауэры могут оказывают значительное влияние на взаимодействие с пользователем. Клиентские брандмауэры могут повлиять на качество звонка в дополнение к препятствует созданию звонка. Настройте соответствующие исключения брандмауэра клиента, основываясь на информации в [Office 365 URL-адреса и диапазоны IP-адресов](https://aka.ms/o365ips). Независимых поставщиков будут иметь конкретные инструкции по созданию исключения.
+Клиентские брандмауэры могут оказывать значительное негативное влияние на взаимодействие с пользователем. Они могут ухудшать качество звонков и препятствовать их установке. Вы можете настроить соответствующие исключения в клиентском брандмауэре, руководствуясь сведениями в разделе [URL-адреса и диапазоны IP-адресов Office 365](https://aka.ms/o365ips). Сторонний поставщик решений должен предоставить индивидуальные инструкции по созданию исключений.
 
 > [!NOTE]
-> Группами Майкрософт будет автоматически обновлять брандмауэра Windows с конфигурацией соответствующие брандмауэра.
+> Microsoft Teams автоматически внесет подходящие настройки в брандмауэр Windows.
 
-### <a name="wi-fi-recommendations-for-endpoints"></a>Рекомендации по Wi-Fi для конечных точек
+### <a name="wi-fi-recommendations-for-endpoints"></a>Рекомендации по сетям Wi-Fi для конечных точек
 
-Планирование и развертывание оптимизированный сети Wi-Fi для поддержки рабочих нагрузок в режиме реального времени в группах Microsoft потребует значительные планирования. В следующих разделах представлены некоторые общие рекомендации, помогающие избежать некоторых распространенных ошибок при планировании для конечных точек.
+Чтобы развернуть оптимизированную сеть Wi-Fi для поддержки нагрузок реального времени в Microsoft Teams, потребуется значительный объем планирования. В следующих разделах приведены общие инструкции, которые помогут вам избежать некоторых распространенных ошибок при планировании конечных точек.
 
 #### <a name="wi-fi-drivers"></a>Драйверы Wi-Fi
 
-Некоторые драйверы Wi-Fi может быть проблематичным. Например драйвер может быть очень агрессивные поведение перемещения между точками доступа, качество процента звонков низкого качества. Это значение не распространенный вариант, но не важно, чтобы убедиться, что обновлены и тестирование перед развертыванием, драйверы Wi-Fi на персональном Компьютере.
+Использование некоторых драйверов Wi-Fi может превратиться в проблему. Например, драйвер может очень активно переключаться между точками доступа, что ведет к ухудшению качества звонков. Это случается не часто, однако перед развертыванием важно обновить и протестировать драйверы Wi-Fi на компьютере.
 
-#### <a name="wi-fi-bands"></a>Полосы Wi-Fi
+#### <a name="wi-fi-bands"></a>Диапазоны Wi-Fi
 
-Существует в основном два типа полос Wi-Fi сегодня оборудования, 2,4 ГГц и 5,0 ГГц. Если организация предоставляет обеих полос, следует настроить параметры драйвера к выбору 5.0 ГГц. Этот диапазон намного выше плотность терминах пропускной способности и меньше влияет помехи, видимых 2,4 ГГц. Эта рекомендация предполагается, что должным образом optimized 5.0 ГГц сети.
+В оборудовании Wi-Fi сегодня существует два основных типа диапазонов — 2,4 ГГц и 5,0 ГГц. Если ваша организация использует оба диапазона, в драйвере следует указать предпочтительный диапазон 5,0 ГГц. Он гораздо плотнее с точки зрения пропускной способности и менее подвержен помехам, которые наблюдаются в диапазоне 2,4 ГГц. При этом предполагается, что вы должным образом оптимизировали диапазон 5,0 ГГц.
 
-#### <a name="wi-fi-radio-type"></a>Тип радио Wi-Fi
+#### <a name="wi-fi-radio-type"></a>Стандарт связи Wi-Fi
 
-Планирование для устройств, поддерживающих новые типы радио Wi-Fi. Можно получить очень хорошую производительность Wi-Fi, если использовать 802.11ac или более поздней версии на устройствах, подготовкой.
+Учитывайте в планах устройства, поддерживающие более новые стандарты связи Wi-Fi. Используя на подготавливаемых устройствах стандарт связи 802.11ac или более новый, можно добиться очень хорошей производительности Wi-Fi.
 
-#### <a name="wireless-avoidance"></a>Избежание беспроводной сети
+#### <a name="wireless-avoidance"></a>Отказ от беспроводной связи
 
-Некоторые организации предпочитают полностью избежать Wi-Fi. В некоторых случаях данное руководство осуществляется через рекомендации, чтобы пользователи могли напрямую подключаться к проводной сети. В некоторых случаях порядок привязки к сети могут иметь предпочитаемое беспроводное подключение и продолжить использовать это подключение, несмотря на то, что компьютер подключен к проводное подключение. Чтобы избежать этого случайных, настройте порядок привязки, чтобы избежать этого сценария.
+Некоторые организации предпочитают вообще не использовать сети Wi-Fi. Иногда это проявляется в том, что пользователю рекомендуется подключиться напрямую к проводной сети. В некоторых случаях порядок привязки к сети может устанавливать приоритет беспроводного подключения, при этом оно продолжает использоваться, даже если компьютер подключен к проводной сети. Во избежание такого непреднамеренного режима работы исключите его, настроив порядок привязки к сети.
 
-#### <a name="80211-power-save-protocol"></a>протокол энергосбережения 802.11
+#### <a name="80211-power-save-protocol"></a>Протокол энергосбережения 802.11
 
-Если организация использует точки беспроводного доступа или маршрутизаторы, не поддерживающие мощности 802.11 сохранение протокола, может привести к пропущенные звонки или процента звонков низкого качества качества группами Майкрософт, работающих на устройствах Windows. Если не удается обновить точку беспроводного доступа или маршрутизаторы, следует обновить план электропитания Windows Параметры на устройствах, на которых выполняется от батарей. Дальнейший подробной указаний в следующей [статье технической поддержки](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
+Если ваша организация использует беспроводные точки доступа или маршрутизаторы, не поддерживающие протокол энергосбережения 802.11, в Microsoft Teams на устройствах Windows вы можете столкнуться с прерыванием звонков и низким их качеством. Если обновить беспроводные точки доступа или маршрутизаторы невозможно, следует изменить параметры схемы управления питанием Windows на устройствах, работающих от батареи. Дополнительные сведения и инструкции по настройке приведены в следующей [справочной статье](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
-### <a name="devices-for-teams"></a>Устройства для групп
+### <a name="devices-for-teams"></a>Устройства для Teams
 
-Группами Майкрософт можно использовать для собраний или с телефонной системой. При использовании этих функций, устройство интерфейс, используемый для групп играет важную роль в работе пользователей.
+Microsoft Teams можно использовать для собраний или в качестве телефонной системы. При использовании этих функций интерфейсное устройство, используемое для Teams, играет важную роль с точки зрения взаимодействия с пользователем.
 
-С помощью встроенных ПК Динамики и микрофон может показаться приемлемой для пользователя, который имеет этой конфигурации. Но обычно эти устройства не оптимизирован для отмены шума и любого типа шума может иметь нижестоящие воздействия на другие пользователи на звонок. Максимальное использование всех возможностей устройства, оптимизированные для следующих сценариев поможет обеспечить высокое качество взаимодействия.
+Использование встроенного динамика и микрофона компьютера может казаться приемлемым пользователю с подобной конфигурацией. Однако обычно эти устройства не оптимизированы для шумоподавления, поэтому любой вид окружающего шума может передаваться всем участникам звонка. Использование специальных устройств для таких сценариев поможет обеспечить высококачественное взаимодействие.
 
-Каждое устройство должно для удовлетворения потребностей пользователей. Вам потребуется настроить устройств, например гарнитуры для различных пользователей и примеры использования в организации. Сопоставление пользователя для устройств упражнения необходимо выполнить как часть процесса планирования.
+Любое устройство должно соответствовать потребностям ваших пользователей. Вам следует подбирать устройства, например гарнитуры, по размеру, а также использовать защитные чехлы в рамках организации. Сопоставление устройств с конкретными людьми следует осуществлять в рамках процесса планирования.
 
-После выбора устройства, включите их в план пилотного тестирования для окончательного проверки. Использование опросы во время пилотного проекта для сбора отзывов для обеспечения стратегии устройство является оптимальным.
+Выбрав устройства, включите их в пилотный план тестирования для окончательной проверки. Во время пилотного проекта используйте опросы, чтобы собрать отзывы и убедиться в оптимальности своей стратегии по устройствам.
 
-На этом этапе рекомендуется использовать звуковых устройств, которые были сертифицированный через Скайп для программа сертификации предприятия. Чтобы найти устройств, сертифицированных по программе, обратитесь к каталог решений [Устройства USB, сертифицированном для Скайп для бизнеса](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
+При этом рекомендуется использовать звуковые устройства, сертифицированные по программе Skype для бизнеса. Чтобы найти устройства, сертифицированные по этой программе, см. каталог решений [USB-устройства, сертифицированные для Skype для бизнеса](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
 
-Для получения дополнительных сведений см [клиентов и устройств - курс обучения для проверки готовности к](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)
+Дополнительные сведения см. в статье [Клиент и устройства — семинар по подготовке](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)
 
 ## <a name="client-updates"></a>Обновления клиента
 
-Одним из основных преимуществ группами Майкрософт — это, что клиент будет храниться в актуальном состоянии автоматически. Клиенты на ПК или Mac обновляются с помощью фонового процесса, который ищет новые построения и файлы для загрузки новый клиент при простое приложение. Размер загрузки клиента примерно составляет 100 МБ.
+Одним из основных преимуществ Microsoft Teams является автоматическое обновление клиента. Клиенты на компьютере и Mac обновляются с помощью фонового процесса, который проверяет наличие новых сборок и скачивает новый клиент при простое приложения. Размер скачиваемого клиента примерно равен 100 МБ.
 
-Организации не содержит элемент управления или доступ к параметру политики для управления процессом обновления. Для снижения риска проблема, которая может обнаруживать в более новое построение последнюю известную версию, хранимых на конечной точке. Если проблема связана с новое построение, службы группами Майкрософт может вернуться конечной точки для предыдущей версии автоматически.
+Организация никак не может контролировать параметры политики для управления этим процессом обновления. Чтобы устранить риск того, что в обнаруженной новой сборке присутствует ошибка, на конечной точке хранится последняя работоспособная версия. При наличии проблем с новой сборкой служба Microsoft Teams может автоматически вернуть конечную точку на предыдущую версию.
 
-## <a name="next-steps-and-references"></a>Далее действия и справочные материалы
+## <a name="next-steps-and-references"></a>Дальнейшие действия и ссылки
 
-В таблице приведена сводка по действиям при планировании со ссылками на связанный контент.
+Эта таблица представляет собой сводку по действиям планирования со ссылками на соответствующие материалы.
 
-| Область | Сведения | Справочные материалы |
+| Область | Сведения | Ссылки |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Планирование службы управления | Проведение упражнения сопоставления действующие роли <br/> Утверждение запроса из ответственность рабочих групп <br/> Проверки готовности к роли | [Руководство пользователя](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) |
-| | Используют Champion(s) качества <br/> Качество Champion готовности| [Узнайте, CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Руководство по решению для качества взаимодействия](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | Установка шаблонов анализа качества взаимодействия <br/> Отправка файла построения | [Шаблоны QERLite](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-1-2.zip?raw=true) <br/> [Построение Отправка информации](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information)|
-| Планирование качества сети | Запустите планировщик работы сети | [Планировщик работы сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
-| | Реализация качества обслуживания | [Качество обслуживания в группах Майкрософт](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams) |
-| | Обход прокси-сервера | [Руководство по прокси-сервера](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
-| | Реализация разделения туннель через VPN | [Руководство по туннель Split VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
-| | Оптимизация сети Wi-Fi для мультимедиа в режиме реального времени  | Обратитесь к третьей стороны поставщиков |
-| | Реализация локального исходящего трафика Интернета | [Выходной локальная интрасеть](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
-| | Реализация подключение к сети <br/> Проверка подключения к сети | [URL-адреса Office 365 и IP-адреса](https://aka.ms/o365ips) |
-| | | [Средство оценки производительности сети](https://www.microsoft.com/en-us/download/details.aspx?id=53885) |
-| | Оценка сети | [Оценка готовности сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
-| Планирование качества конечной точки | Обновление конечной точки брандмауэров | [URL-адреса Office 365 и IP-адреса](https://aka.ms/o365ips) |
-| | Проверка требований к программному обеспечению | [Получение клиентов для групп Майкрософт](https://docs.microsoft.com/microsoftteams/get-clients) |
-| | Реализовать рекомендации конечной точки Wi-Fi | Обратитесь к третьей стороны поставщиков |
-| | Проведение пользователя к устройствам сопоставление <br/> Подготовка устройств и их пилотный проект | [Клиентов и устройств - курс обучения для проверки готовности к](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Каталог устройства](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
+| Планирование управления службами | Пример управления сопоставлением операционных ролей <br/> Подтверждение из подотчетных команд <br/> Проверка готовности к роли | [Руководство по работе](1-drive-value-operate-my-service.md) |
+| | Назначение лидеров по качеству <br/> Готовность лидера по качеству| [Изучение панели мониторинга качества звонка](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Руководство по анализу процедуры обеспечения качества](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
+| | Установка шаблонов для анализа процедуры обеспечения качества <br/> Отправка файла для создания | [Шаблоны QERLite](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [Отправка сведений для создания](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| Планирование обеспечения качества для сети | Запуск планировщика сети | [Планировщик сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
+| | Реализация качества обслуживания | [Качество обслуживания в Microsoft Teams](qos-in-teams.md) |
+| | Обход прокси-серверов | [Инструкции по прокси-серверам](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Реализация VPN с раздельным туннелированием | [Инструкции по VPN с раздельным туннелированием](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
+| | Оптимизация сетей Wi-Fi для мультимедиа реального времени  | Консультации у сторонних поставщиков |
+| | Реализация локального исходящего интернет-трафика | [Локальный исходящий интернет-трафик](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
+| | Обеспечение сетевого взаимодействия <br/> Проверка сетевого взаимодействия | [URL-адреса и диапазоны IP-адресов Office 365](https://aka.ms/o365ips) |
+| | | [Средство оценки сети](https://www.microsoft.com/download/details.aspx?id=53885) |
+| | Выполнение оценки сети | [Оценка готовности сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
+| Планирование обеспечения качества для конечных точек | Обновление брандмауэров конечных точек | [URL-адреса и диапазоны IP-адресов Office 365](https://aka.ms/o365ips) |
+| | Проверка требований к программному обеспечению | [Работа с клиентами для Microsoft Teams](get-clients.md) |
+| | Выполнение рекомендаций по конечным точкам Wi-Fi | Консультации у сторонних поставщиков |
+| | Сопоставление человека с устройством <br/> Подготовка и пилотное тестирование устройств | [Клиент и устройства — семинар по подготовке](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Каталог устройств](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
