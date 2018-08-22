@@ -1,5 +1,5 @@
 ---
-title: Набор auto attendant языков для аудиоконференции
+title: Задать auto attendant языков для аудиоконференции в Скайп для бизнеса в Интернет
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Узнайте, как выбрать аудиоконференций auto автосекретаря языков для номера аудиоконференций.
-ms.openlocfilehash: 44c05f081115ddf50eefd8df97765b3cbd82ef56
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: Узнайте, как выбрать аудиоконференций auto attendant языки, для номер аудиоконференций в Скайп для бизнеса в Интернет.
+ms.openlocfilehash: 026a09290c6e008493784c0d883220e03d13559f
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703771"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490518"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Набор auto attendant языков для аудиоконференции
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Задать auto attendant языков для аудиоконференции в Скайп для бизнеса в Интернет
 
-Автосекретарь конференции для Скайп для бизнеса и рабочих групп Microsoft можно приветствовать звука звонящих в некоторых языков при их присоединении к собранию.
+> [!Note]
+> Сведения об установке языковых attendant автоматически в группах Microsoft [auto attendant языков для аудиоконференции в группах Microsoft](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams)см.
+
+Автосекретарь конференции для Скайп для бизнеса можно приветствовать звука звонящих в некоторых языков при их присоединении к собранию.
   
 Выберите один основной язык и до четырех дополнительных языков. Первым используется основной язык, заданная и что выбрать дополнительные языки будут использовать автосекретаря. 
   
@@ -40,21 +42,6 @@ ms.locfileid: "19703771"
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Настройка конференц-связи auto attendant языков
-
-![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
-
-1. В левой области переходов, перейдите к **собраниям** > **Мостов конференции**.
-
-2. Выберите номер телефона аудиоконференций из списка и в верхней части страницы, нажмите кнопку **Изменить**.
-
-3. В области справа выберите нужный язык по умолчанию и любые дополнительные языки. 
- 
-    > [!NOTE]
-    > По умолчанию и альтернативные языки, поддерживаемые указаны. Порядок, в котором можно выбрать их в списках будут порядок языков, представленных для вызывающих объектов. 
-
-4. Нажмите кнопку **Применить**.
-
-![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **С помощью Скайп для бизнеса в Интернете**
 
 Должен быть [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) или [Скайп для бизнеса администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) для выполнения этого шага.
     
@@ -83,6 +70,6 @@ ms.locfileid: "19703771"
   
 Чтобы получить дополнительные сведения, обратитесь к разделу [С помощью Windows PowerShell для выполнения распространенных Скайп для бизнеса в Интернет задачи управления](https://go.microsoft.com/fwlink/?LinkId=525038)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Связанные разделы
 
 [Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

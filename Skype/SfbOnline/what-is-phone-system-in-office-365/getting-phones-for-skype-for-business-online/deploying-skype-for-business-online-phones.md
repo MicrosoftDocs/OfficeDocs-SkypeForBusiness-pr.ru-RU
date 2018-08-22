@@ -14,17 +14,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
 description: Познакомьтесь с действиями развертывания для получения микропрограммы, при необходимости обновите ее, назначение лицензий и настройка параметров для Скайп для рабочих телефонов online
-ms.openlocfilehash: 444d74dc5c831dcdb542b4712da64369481c874a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9a19367066fac2b74b51659fb6159ba33b68450e
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490803"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Развертывание телефонов для приложения Skype для бизнеса Online
 
@@ -220,7 +220,7 @@ BToE  это механизм для партнеров по программ�
 ## <a name="related-topics"></a>См. также:
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Преимущества телефонной системы в Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
+[Возможности телефонной системы в Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
