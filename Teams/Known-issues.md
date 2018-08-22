@@ -3,19 +3,19 @@ title: Известные проблемы для Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/9/2018
+ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara
+ms.reviewer: marcl
 description: Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7053bade0b01a35ba8e43607b182c9faec63879
-ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
+ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21779521"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546401"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
   
@@ -131,7 +131,7 @@ ms.locfileid: "21779521"
 ## <a name="meetings"></a>Собрания
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
-|Пользователи не может получить доступ к собраниям/соединители, но почтовые ящики Exchange Online. <br/> |Клиент активно блокирует веб-служб Exchange из служб в Exchange Online, но должен иметь MS группами спецификации в рамках политики веб-служб Exchange. <br/> |Чтобы сделать команды MS спецификации, необходимо добавить следующие строка агента пользователя для MS группами в EWSAllowList: `*skypespaces*`, включая звездочки. — Это полная команда:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Дополнительные сведения:https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+|Пользователи не может получить доступ к собраниям/соединители, но почтовые ящики Exchange Online. <br/> |Клиент активно блокирует веб-служб Exchange из служб в Exchange Online, но должен иметь MS группами спецификации в рамках политики веб-служб Exchange. <br/> |Чтобы сделать команды MS спецификации, необходимо добавить следующие строка агента пользователя для MS группами в EWSAllowList: `*skypespaces*`, включая звездочки. — Это полная команда:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Дополнительные сведения:https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|

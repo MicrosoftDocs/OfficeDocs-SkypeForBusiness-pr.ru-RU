@@ -9,18 +9,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: 112381db7d4d2bc160917b41c7e8e437ef737bcf
-ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
+ms.openlocfilehash: 664aae1a213859a6e4e73ec4c75ce39b6058788e
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21762945"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546528"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
 Если вы еще не сделали прочитайте [Планирование прямой маршрутизации](direct-routing-plan.md) наличие необходимых компонентов и просмотреть другие действия необходимо выполнить перед настройкой сети Microsoft телефонной системой. 
 
-В этой статье описывается настройка прямой маршрутизации Microsoft телефонной системы. Описывается, как связать поддерживаемые пограничный контроллер сеансов (SBC) для прямой маршрутизации и способы настройки групп Майкрософт пользователям использовать прямой маршрутизации для подключения к общедоступной переключения телефонной сети общего пользования (PSTN). Для выполнения действий, описанных в данной статье, администраторы должны знакомы с командлеты PowerShell. Дополнительные сведения об использовании PowerShell в разделе [Настройка компьютера для Windows PowerShell](https://technet.microsoft.com/library/dn362831.aspx). 
+В этой статье описывается настройка прямой маршрутизации Microsoft телефонной системы. Описывается, как связать поддерживаемые пограничный контроллер сеансов (SBC) для прямой маршрутизации и способы настройки групп Майкрософт пользователям использовать прямой маршрутизации для подключения к общедоступной переключения телефонной сети общего пользования (PSTN). Для выполнения действий, описанных в данной статье, администраторы должны знакомы с командлеты PowerShell. Дополнительные сведения об использовании PowerShell в разделе [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
 Рекомендуется, чтобы подтвердить, что пограничного контроллера Сеансов уже настроен соответствии с рекомендациями по своему поставщику SBC: 
 
@@ -43,7 +43,7 @@ ms.locfileid: "21762945"
 
 ### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>Подключение к Скайп для бизнеса в Интернет с помощью PowerShell 
 
-Можно использовать сеанс PowerShell, подключенных к клиенту связать SBC интерфейс прямой маршрутизации. Чтобы открыть сеанс PowerShell, выполните действия, указанные в [Настройка компьютера для Windows PowerShell](https://technet.microsoft.com/library/dn362831.aspx). 
+Можно использовать сеанс PowerShell, подключенных к клиенту связать SBC интерфейс прямой маршрутизации. Чтобы открыть сеанс PowerShell, выполните действия, указанные в [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
 После создания удаленного сеанса PowerShell, проверьте, что вы видите команды для управления SBC. Для проверки команды, введите или копирование и вставка в следующем в сеанс PowerShell и нажмите клавишу ВВОД: 
 

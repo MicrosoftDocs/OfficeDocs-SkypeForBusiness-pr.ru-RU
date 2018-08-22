@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Сведения, необходимые для переноса в прямой маршрутизации из Скайп для бизнеса в Интернет и перспективы конфигурации группы.
-ms.openlocfilehash: 04e8f141776dd3003352b3df888092960e23dcf6
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 859ab19162f8cf16cc419f7f871fc0059e4566d6
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211146"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546599"
 ---
 # <a name="migrating-to-direct-routing"></a>Переход на прямой маршрутизации
 
@@ -79,8 +79,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 Дополнительные сведения о миграции с телефонной системой с локального подключения к ТСОП в Скайп for Business Server см.:
 
-- [Планирование](https://technet.microsoft.com/en-us/library/mt455212.aspx)
-- [Развертывание](https://technet.microsoft.com/en-us/library/mt634319.aspx) 
+- [Планирование](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [Развертывание](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 Рекомендуется удалить ранее настроенные голосовой связи, сведений о маршрутизации следующим образом:
 
@@ -91,8 +91,8 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 Дополнительные сведения о миграции с телефонной системой с локального подключения к ТСОП через соединитель облачных см.:
 
-- [Планирование](https://technet.microsoft.com/en-us/library/mt605227.aspx)  
-- [Развертывание](https://technet.microsoft.com/en-us/library/mt634319.aspx)
+- [Планирование](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [Развертывание](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 - [Пользовательская конфигурация](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 Рекомендуется удалить ранее настроенные голосовой связи, сведений о маршрутизации следующим образом:
