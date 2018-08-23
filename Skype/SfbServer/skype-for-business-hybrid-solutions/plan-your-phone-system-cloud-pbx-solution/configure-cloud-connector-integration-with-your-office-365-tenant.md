@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Сведения о настройке интеграции Cloud Connector с клиентом Office 365.
-ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 01a3eac7356846b7d3b153ff4e01c9b52c3744ce
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211153"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599416"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Настройка интеграции Cloud Connector с клиентом Office 365
  
@@ -168,7 +168,13 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     
     Обратите внимание, что назначение лицензий только необходимые для распространения пользователя в Скайп для бизнеса online directory. Назначение лицензии Office 365 (например, E5) для учетной записи необходимо создать разрешить до одного часа для передачи изменений, затем удалите лицензию с этой учетной записи.
     
-2. Клиент удаленного сеанса PowerShell с помощью вашего клиента учетные данные администратора и выполните следующий командлет, чтобы задать сервер-посредник и полное доменное имя пограничного сервера для этого пользователя учетной записи, замена \<DisplayName\> с отображаемым именем пользователя Учетная запись, которую вы создали:
+2. Запустите клиент Azure AD удаленный сеанс PowerShell с помощью глобальные или учетные данные администратора и выполните следующий командлет, чтобы задать отдела для учетной записи пользователя Azure AD настроена в шаг 1 для «HybridMediationServer»:
+
+ ```
+  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+  ```
+
+3. Запустите клиент Скайп для бизнеса с помощью вашего Скайп for Business учетные данные администратора клиента и выполните следующий командлет, чтобы задать сервер-посредник и полное доменное имя пограничного сервера для этого пользователя учетной записи, замена удаленный сеанс PowerShell \<DisplayName\> с отображаемым именем пользователя для учетной записи, созданной на шаге 1:
     
   ```
   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
