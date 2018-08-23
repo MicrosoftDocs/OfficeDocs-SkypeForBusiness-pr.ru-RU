@@ -40,6 +40,7 @@
 ### [Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business](manage-teams-skypeforbusiness-admin-center.md)
 ### [Назначение ролей и разрешений в Teams](assign-roles-permissions.md)
 ### [Публикация приложений в каталог приложений группы клиента](tenant-apps-catalog-teams.md)
+### [Настройка собрания Скайп приложение для работы с группами](configure-skype-meetings-app-to-work-with-teams.md)
 ## [Современный проверки подлинности](sign-in-teams.md)
 ## [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
 ## [Руководство по развертыванию облачных голосовой связи](cloud-voice-deployment.md)
