@@ -1,7 +1,7 @@
 ---
 title: Настройка прямой маршрутизации
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599432"
+ms.locfileid: "22914754"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -519,9 +519,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 Результатом будет неограниченный политика голосовой связи, применяются к вызовам, Джон Вудз и выполним логику маршрутизации вызовов для США, Канада и международных звонков.
 
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Установка группами Майкрософт по предпочитаемый вызывающего клиента для пользователей
+## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Установка группами Майкрософт по предпочитаемый вызывающего клиента для пользователей
 
-Прямое маршрутизации только маршрутизации вызовов в и из него пользователей при использовании команды Cleint. Если ваша организация только использовать команды клиента, параметр «Только для групп» режим в политике обновления рекомендуется. Если вы организация использует Скайп для Business Server или Скайп для бизнеса в Интернет, ознакомьтесь со следующей [Общие сведения о совместимости и обновление пути для Скайп для бизнеса и рабочих групп](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) и выберите соответствующий параметр. 
+Прямое маршрутизации только маршруты звонки в и из него пользователей при использовании команды клиента. Если ваша организация использует только группы, параметр «Только для команды» режим в политике обновления рекомендуется. Если ваша организация использует Скайп для Business Server или Скайп для бизнеса в Интернет, обратитесь к следующей статье для получения дополнительных сведений и выберите соответствующий параметр: [понять сосуществования и обновление пути для Скайп для бизнеса и рабочих групп](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="see-also"></a>См. также

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Сводка: Интеграция Скайп для Business Server и Outlook Web App.'
-ms.openlocfilehash: 206100ce74731b9ffa6b2987e4884b7589f6e2c8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ad1f6bc898a29c2a5e0f326d3a5edc4d782bab2
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995850"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22914098"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Настройка интеграции между локальной Скайп для Business Server и Outlook Web App
  
@@ -53,7 +53,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 ```
 
 > [!NOTE]
-> При использовании Office 365 под управлением 21Vianet в Китае замените значение для параметра **ProxyFqdn** (например, exap.um.outlook.com) на полное доменное имя для службы под управлением 21Vianet: "exap.um.partner.outlook.cn".
+> При использовании Office 365 под управлением 21Vianet в Китае замените значение для параметра ProxyFqdn (например, exap.um.outlook.com) на полное доменное имя для службы под управлением 21Vianet: "exap.um.partner.outlook.cn". Если вы используете Office 365 GCC высокой, замените значение для параметра ProxyFqdn в этом примере («exap.um.outlook.com») полное доменное имя для высокой GCC: «exap.um.office365.us».
   
 - **Identity** определяет строковое значение уникального идентификатора для поставщика услуг размещения, которую вы создаете (например, «Exchange Online»). Значения с пробелами должны заключаться в двойные кавычки.
     
