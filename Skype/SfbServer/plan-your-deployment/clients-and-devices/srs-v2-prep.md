@@ -1,7 +1,7 @@
 ---
 title: Подготовка среды
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: В этой статье описывается Подготовка инфраструктуры для развертывания версии 2 Скайп комнаты систем.
-ms.openlocfilehash: 46e40acf8d82c0fe5feee66781ac9ebefda68f3e
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 694da63ea29d1d0455faa568f2ee9956fb26948f
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504770"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601943"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -110,9 +110,9 @@ ms.locfileid: "19504770"
     
 Чтобы использовать это приложение, необходимо обеспечить подключение к следующим конечным точкам. Чтобы просмотреть IP-адреса, разверните соответствующий раздел под таблицей с описанием потока трафика.
   
-**Примеры имя/порт узла брандмауэр прокси-сервера**
+**Примеры назначения имен хоста и портов для прокси-сервера брандмауэра**
 
-|**Цель**|**Источник или учетные данные**|**Порт источника**|**Назначения**|**CDN**|**ExpressRoute для Office 365**|**Назначение IP-адресов**|**Конечный порт**|
+|**Назначение**|**Источник учетных данных**|**Исходный порт**|**Конечный порт**|**Сеть доставки содержимого**|**ExpressRoute для Office 365**|**Конечный IP-адрес**|**Конечный порт**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Проверка подлинности и удостоверение в  <br/> |[Office 365 проверки подлинности](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) и удостоверения <br/> |||
 |Портал и общие службы  <br/> |[Office 365 портала и общему](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) см. <br/> |||
@@ -167,10 +167,10 @@ ms.locfileid: "19504770"
 
 [Планирование места Скайп систем версии 2](skype-room-systems-v2-0.md)
 
-[Требования к версии 2 Скайп комнаты систем](requirements.md)
+[Системы комнат Skype версии 2 — требования](requirements.md)
   
-[Развертывание Скайп комнаты систем версии 2](../../deploy/deploy-clients/room-systems-v2.md)
+[Развертывание Систем комнат Skype версии 2](../../deploy/deploy-clients/room-systems-v2.md)
   
-[Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md)
+[Настройка консоли для Систем комнат Skype версии 2](../../deploy/deploy-clients/console.md)
   
-[Управление Скайп комнаты систем версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление Системами комнат Skype версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

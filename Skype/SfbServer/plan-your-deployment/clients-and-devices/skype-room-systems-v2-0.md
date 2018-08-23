@@ -1,7 +1,7 @@
 ---
 title: Планирование для Систем комнат Skype версии 2
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: В этой статье объясняется, соответствующие вопросы планирования развертывания систем комнаты Скайп v2 следующего поколения Скайп комнаты систем.
-ms.openlocfilehash: 89bcfb0e668526893b14dba5202a4e22fed2e8a8
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856117"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601950"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Планирование места Скайп систем версии 2 
 
@@ -74,10 +74,10 @@ ms.locfileid: "19856117"
 | Выбор устройства           | ИТ Project команды / Team аудио/видео              |             | [Выбор устройства](#device-selection)                      |
 | Закупка                | ИТ Project команды / Team аудио/видео              |             | [Закупка](#procurement)                      |
 | Подготовка сайта             | Производственные объекты / team аудио/видео / Team Project ИТ |             | [Подготовка сайта](../../deploy/deploy-clients/room-systems-v2.md#site-readiness)                      |
-| Готовность к службе          | ИТ проекта группы                        |             | [Подготовка службы](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
+| Готовность к службе          | ИТ проекта группы                        |             | [Готовность к службе](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
 | Конфигурация              | ИТ проекта группы                        |             | [Настройка и развертывание](../../deploy/deploy-clients/room-systems-v2.md#configuration-and-deployment)                      |
 | Развертывание                 | Производственные объекты / team аудио/видео / Team Project ИТ |             | [Контрольный список развертывания](../../deploy/deploy-clients/console.md#skype-room-systems-v2-deployment-checklist)                      |
-| Освоение                   | Производственные объекты / team аудио/видео / Team Project ИТ |             | [Внедрения](#plan-for-adoption-and-change-management)                      |
+| Освоение                   | Производственные объекты / team аудио/видео / Team Project ИТ |             | [Освоение](#plan-for-adoption-and-change-management)                      |
 | Обслуживание и эксплуатация | Группа аудио/видео / Team Project ИТ              |             | [Общие сведения об управлении](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)                      |
 
 

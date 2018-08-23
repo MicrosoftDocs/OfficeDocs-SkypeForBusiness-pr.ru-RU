@@ -1,7 +1,7 @@
 ---
 title: Поддержка версий
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этой статье обсуждается Поддержка жизненного цикла системы комнаты Скайп версии 2.
-ms.openlocfilehash: 596197a240d4cf44e8bcf0d0069f9cad5d5e6777
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 86f71f1ddd554c9a9d368cdb725367a368257453
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601957"
 ---
 # <a name="version-support"></a>Поддержка версий
  
@@ -38,11 +39,8 @@ ms.lasthandoff: 05/24/2018
 <a name="See"> </a>  
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 
-
-#### 
 [Справка по версии 2 Скайп комнаты систем](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Заметки о выпуске систем комнаты Скайп версии 2](srs2-release-note.md)
 
-[Планирование для помещения Скайп систем версии 2](skype-room-systems-v2-0.md)
-
+[Планирование для Систем комнат Skype версии 2](skype-room-systems-v2-0.md)
