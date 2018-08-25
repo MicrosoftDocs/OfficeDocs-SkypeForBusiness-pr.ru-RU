@@ -4,6 +4,11 @@
 # [Skype для бизнеса Server 2015](../skype-for-business-server-2015.md)
 ## [Технические схемы](../technical-diagrams.md)
 ## [Новые возможности в Skype для бизнеса Server](../what-s-new-in-skype-for-business-server.md)
+
+## [Файлы для загрузки и обновления Скайп для бизнеса](../software-updates.md)
+### [Обновления клиента](../sfb-client-updates.md)
+### [Обновления сервера](../sfb-server-updates.md)
+
 ## [Скайп для гибридных решений для бизнеса](../skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions.md)
 ### [Планирование решения телефонной системой (облако УАТС)](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md)
 #### [Планирование телефонной системой с локального подключения к ТСОП](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
