@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7ad229-31f3-477e-b254-f45858213fa8
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 79413713fb3ba4c656dad7d835931003dd688615
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3cd4fa6d367cc0509831b06c66c054a71c8e0d4c
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995532"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242098"
 ---
-# <a name="bandwidth-policy-profile"></a><span data-ttu-id="f0816-104">Профиль политики пропускной способности</span><span class="sxs-lookup"><span data-stu-id="f0816-104">Bandwidth Policy Profile</span></span>
- 
-<span data-ttu-id="f0816-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="f0816-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="f0816-107">Настройка профиля политики пропускной способности</span><span class="sxs-lookup"><span data-stu-id="f0816-107">Configuring Bandwidth Policy Profile</span></span>](http://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
-    
-<span data-ttu-id="f0816-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="f0816-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="bandwidth-policy-profile"></a><span data-ttu-id="a1e19-104">Профиль политики пропускной способности</span><span class="sxs-lookup"><span data-stu-id="a1e19-104">Bandwidth Policy Profile</span></span>
+
+<span data-ttu-id="a1e19-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="a1e19-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="a1e19-107">Настройка профиля политики пропускной способности</span><span class="sxs-lookup"><span data-stu-id="a1e19-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+
+<span data-ttu-id="a1e19-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="a1e19-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

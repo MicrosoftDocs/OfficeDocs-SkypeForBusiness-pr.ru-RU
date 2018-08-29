@@ -12,25 +12,25 @@ localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Изменение свойств настроенного сервера Office Web Apps. Чтобы изменить доступны следующие свойства:'
-ms.openlocfilehash: 6a31b55e4e3282dfefb376916e11a2a1d19034b7
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 845bc9db84a9f4afbb63b453086f3e583f181863
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21066214"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23241857"
 ---
-# <a name="edit-office-web-apps-server-settings"></a><span data-ttu-id="6fb44-104">Изменение параметров сервера Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="6fb44-104">Edit Office Web Apps Server Settings</span></span>
- 
-<span data-ttu-id="6fb44-105">Изменение свойств настроенного сервера Office Web Apps.</span><span class="sxs-lookup"><span data-stu-id="6fb44-105">You edit the properties of the configured Office Web Apps Server.</span></span> <span data-ttu-id="6fb44-106">Чтобы изменить доступны следующие свойства:</span><span class="sxs-lookup"><span data-stu-id="6fb44-106">The following properties are available to edit:</span></span>
-  
- <span data-ttu-id="6fb44-107">**Полное доменное имя сервера приложений Office Web**: это свойство определяет полное доменное имя сервера Office Web Apps и должна соответствовать система доменных имен (DNS) узла A или AAAA (при использовании IPv6) записи.</span><span class="sxs-lookup"><span data-stu-id="6fb44-107">**Office Web Apps Server FQDN**: This property defines the fully qualified domain name of the Office Web Apps Server and should match a domain name system (DNS) host A or AAAA (if IPv6 is being used) record.</span></span>
-  
- <span data-ttu-id="6fb44-108">**URL-адрес обнаружения сервера Office Web Apps**: универсальный код ресурса URL-адреса для клиентского доступа для сервера Office Web Apps, может потребоваться изменить этот адрес по умолчанию, если сервер размещен в другой зоны сети, отличный от внутренней сети для вашей развертывание.</span><span class="sxs-lookup"><span data-stu-id="6fb44-108">**Office Web Apps Server discovery URL**: The uniform resource locator (URL) for client access to the Office Web Apps Server, you may need to edit this address from its default if the server is placed in another network zone other than the internal network for your deployment.</span></span>
-  
-<span data-ttu-id="6fb44-109">Установите флажок **Сервер Office Web Apps развернут во внешней сети**, если этот сервер развернут в сети периметра или в другой сетевой зоне за пределами внутреннего брандмауэра, отделяющего сеть периметра, сети без доверия и Интернет от внутреннего развертывания.</span><span class="sxs-lookup"><span data-stu-id="6fb44-109">Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.</span></span>
-  
-![Расширитель настроек Office Web Apps](../../../media/OfficeWebApps_Settings_Expander.jpg)
-  
-## <a name="see-also"></a><span data-ttu-id="6fb44-111">См. также</span><span class="sxs-lookup"><span data-stu-id="6fb44-111">See also</span></span>
+# <a name="edit-office-web-apps-server-settings"></a><span data-ttu-id="18566-104">Изменение параметров сервера Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="18566-104">Edit Office Web Apps Server Settings</span></span>
 
-[<span data-ttu-id="6fb44-112">Компоненты и топологии для конференц-связи</span><span class="sxs-lookup"><span data-stu-id="6fb44-112">Components and Topologies for Conferencing</span></span>](http://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+<span data-ttu-id="18566-105">Изменение свойств настроенного сервера Office Web Apps.</span><span class="sxs-lookup"><span data-stu-id="18566-105">You edit the properties of the configured Office Web Apps Server.</span></span> <span data-ttu-id="18566-106">Чтобы изменить доступны следующие свойства:</span><span class="sxs-lookup"><span data-stu-id="18566-106">The following properties are available to edit:</span></span>
+
+ <span data-ttu-id="18566-107">**Полное доменное имя сервера приложений Office Web**: это свойство определяет полное доменное имя сервера Office Web Apps и должна соответствовать система доменных имен (DNS) узла A или AAAA (при использовании IPv6) записи.</span><span class="sxs-lookup"><span data-stu-id="18566-107">**Office Web Apps Server FQDN**: This property defines the fully qualified domain name of the Office Web Apps Server and should match a domain name system (DNS) host A or AAAA (if IPv6 is being used) record.</span></span>
+
+ <span data-ttu-id="18566-108">**URL-адрес обнаружения сервера Office Web Apps**: универсальный код ресурса URL-адреса для клиентского доступа для сервера Office Web Apps, может потребоваться изменить этот адрес по умолчанию, если сервер размещен в другой зоны сети, отличный от внутренней сети для вашей развертывание.</span><span class="sxs-lookup"><span data-stu-id="18566-108">**Office Web Apps Server discovery URL**: The uniform resource locator (URL) for client access to the Office Web Apps Server, you may need to edit this address from its default if the server is placed in another network zone other than the internal network for your deployment.</span></span>
+
+<span data-ttu-id="18566-109">Установите флажок **Сервер Office Web Apps развернут во внешней сети**, если этот сервер развернут в сети периметра или в другой сетевой зоне за пределами внутреннего брандмауэра, отделяющего сеть периметра, сети без доверия и Интернет от внутреннего развертывания.</span><span class="sxs-lookup"><span data-stu-id="18566-109">Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.</span></span>
+
+![Расширитель настроек Office Web Apps](../../../media/OfficeWebApps_Settings_Expander.jpg)
+
+## <a name="see-also"></a><span data-ttu-id="18566-111">См. также</span><span class="sxs-lookup"><span data-stu-id="18566-111">See also</span></span>
+
+[<span data-ttu-id="18566-112">Компоненты и топологии для конференц-связи</span><span class="sxs-lookup"><span data-stu-id="18566-112">Components and Topologies for Conferencing</span></span>](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
