@@ -9,61 +9,61 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 'Сводка: Сведения в этой статье описывается развертывание конференц-связи в Скайп for Business Server.'
-ms.openlocfilehash: b893a78ae5abb7c920c588cae948779cc3095c63
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e004afdc420bcd99679e20c29bf6ba7efc7f735f
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010521"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23263825"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Развертывание конференц-связи в Скайп for Business Server
- 
+
 **Сводка:** В данном разделе приведены в этой статье описывается развертывание конференц-связи в Скайп for Business Server.
-  
-Существует четыре типа конференц-связи в Скайп для Business Server: веб-конференций, аудио и видео (A / V) конференц-связи, телефонных конференций и мгновенные сообщения (IM) конференц-связи. В зависимости от потребностей можно включить все типы конференц-связи или использовать только один тип. 
-  
-При развертывании Скайп для Business Server автоматически развертываются возможности обмена мгновенными Сообщениями конференц-связи. При создании и публикации новой топологии с помощью построителя топологий указывается, следует ли развертывать веб-конференции, аудио/видеоконференции и конференц-связь с телефонным подключением, как описано в следующих контрольных списках: 
-  
+
+Существует четыре типа конференц-связи в Скайп для Business Server: веб-конференций, аудио и видео (A / V) конференц-связи, телефонных конференций и мгновенные сообщения (IM) конференц-связи. В зависимости от потребностей можно включить все типы конференц-связи или использовать только один тип.
+
+При развертывании Скайп для Business Server автоматически развертываются возможности обмена мгновенными Сообщениями конференц-связи. При создании и публикации новой топологии с помощью построителя топологий указывается, следует ли развертывать веб-конференции, аудио/видеоконференции и конференц-связь с телефонным подключением, как описано в следующих контрольных списках:
+
 - [Deployment checklist for web and audio/video conferencing](deploy-conferencing.md#BKMK_ChecklistWebConferencing)
-    
+
 - [Блок-схема и контрольный список развертывания для конференц-связи с телефонным подключением](deploy-conferencing.md#BKMK_DialinConferencing)
-    
+
 Перед развертыванием конференц-связи, следует ознакомиться со следующими разделами планирования:
-  
+
 - [Планирование для конференц-связи в Скайп Business Server](../../plan-your-deployment/conferencing/conferencing.md)
-    
+
 - [Аппаратные и программные требования для конференц-связи в Скайп для Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
-    
+
 - [Планирование топологии конференц-связи для Скайп Business Server](../../plan-your-deployment/conferencing/conferencing-topology.md)
-    
+
 - [Планирование для конференц-связи в Скайп Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
-    
+
 - [План для больших собраний в Скайп для Business Server](../../plan-your-deployment/conferencing/large-meetings.md)
-    
+
 ## <a name="deployment-checklist-for-web-and-audiovideo-conferencing"></a>Контрольный список развертывания для веб- и аудио/видеоконференций
 <a name="BKMK_ChecklistWebConferencing"> </a>
 
-В следующей таблице дается обзор действий, необходимых для развертывания веб- и аудио/видеоконференций в существующей топологии. Здесь также есть ссылки на документацию по планированию и процедурам. 
-  
+В следующей таблице дается обзор действий, необходимых для развертывания веб- и аудио/видеоконференций в существующей топологии. Здесь также есть ссылки на документацию по планированию и процедурам.
+
 |**Этап**|**Шаги**|**Роли и членство в группах**|**Документация**|
 |:-----|:-----|:-----|:-----|
 |**Установка необходимого аппаратного и программного обеспечения** <br/> |Конференц-связи выполняется на серверах переднего плана из пула переднего плана и серверов Standard Edition. В разделе сервер и окружающей среды требования для серверов переднего плана.  <br/> При включении веб-конференций, необходимо убедиться, что Скайп для Business Server обмениваться данными с сервером Office Web Apps, который используется для обработки общего доступа и отрисовки презентаций PowerPoint.  <br/> Для веб-конференций также необходимо указать общий файловый ресурс для использования в качестве хранилища файлов.  <br/> Предполагается ли разрешить внешним пользователям с клиентами Skype для бизнеса присоединяться к конференциям? Если да, необходимо развернуть пограничные серверы.  <br/> |Пользователь домена, являющийся членом локальной группы "Администраторы"  <br/> | [Требования к серверу для Скайп для Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) <br> [Требования к серверу для Skype для бизнеса Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Требования к среде Skype для бизнеса Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [Аппаратные и программные требования для конференц-связи в Скайп для Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [Настройка интеграции с сервером Office Web Apps в Скайп для Business Server](office-web-app-server.md) <br/> [Создание общей папки в Скайп для Business Server](../../deploy/install/create-a-file-share.md) <br/> [Планирование развертываний пограничного сервера в Skype для бизнеса Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [Развертывание пограничного сервера в Skype для бизнеса Server 2015.](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
 |**Создание соответствующей внутренней топологии для поддержки конференц-связи** <br/> |Необходимо запустить построитель топологий, чтобы добавить конференц-связь в топологию, а затем опубликовать эту топологию.  <br/> |Для определения топологии требуется учетная запись члена локальной группы "Пользователи".  <br/> Чтобы опубликовать топологию, учетную запись, которая должна быть членом группы администраторов домена и группу RTCUniversalServerAdmins и имеет разрешения на полный доступ (чтение/запись/изменение) в общей папке, которое будет использоваться для Скайп для хранилища файлов Business Server (, чтобы топологии Конструктор можно настроить требуемые доступом)  <br/> |[Создание и публикация новой топологии в Скайп для Business Server](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**Настройка политик и параметров конфигурации конференц-связи** <br/> |Используйте Скайп для панели управления Business Server или Скайп для консоли Business Server для настройки политик конференц-связи и параметры конфигурации.  <br/> |Группа RTCUniversalServerAdmins (только Windows PowerShell) или назначение пользователям роли CSAdministrator  <br/> |[Управление политиками конференц-связи в Скайп для Business Server](../../manage/conferencing/conferencing-policies.md) <br/> [Управление параметров конфигурации собрания в Скайп для Business Server](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [SET-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [SET-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [SET-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
-   
+
 ## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>Блок-схема и контрольный список развертывания для конференц-связи с телефонным подключением
 <a name="BKMK_DialinConferencing"> </a>
 
  Конференц-связь с телефонным подключением позволяет пользователям присоединяться к аудио- или видеоконференциям из телефонной сети общего пользования (ТСОП).
-  
-Также некоторые компоненты, необходимые для конференц-связи используются для корпоративной голосовой связи. Например, вместе с корпоративной голосовой связью также необходимо развернуть сервер-посредник и шлюз ТСОП — компоненты, которые также требуются для конференц-связи с телефонным подключением. Поэтому способ развертывания конференц-связи с телефонным подключением зависит от того, развертывается ли также решение для корпоративной голосовой связи. 
-  
+
+Также некоторые компоненты, необходимые для конференц-связи используются для корпоративной голосовой связи. Например, вместе с корпоративной голосовой связью также необходимо развернуть сервер-посредник и шлюз ТСОП — компоненты, которые также требуются для конференц-связи с телефонным подключением. Поэтому способ развертывания конференц-связи с телефонным подключением зависит от того, развертывается ли также решение для корпоративной голосовой связи.
+
 На данной блок-схеме конференц-связи с телефонным подключением показаны действия, которые необходимо выполнить в зависимости от того, развернуто ли также решение для корпоративной голосовой связи. В таблице после блок-схемы дается обзор действий, которые требуется и рекомендуется выполнить для развертывания конференц-связи с телефонным подключением. Здесь также предоставлены ссылки на соответствующую документацию по планированию и процедурам. Дополнительные сведения о планировании в единое решение Enterprise Voice в разделе [Планирование решения корпоративной голосовой связи в Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
-  
+
 **Блок-схема конференц-связи с телефонным подключением**
 
 ![Развертывание блок-схемы конференц-связи с телефонным подключением](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
-  
+
 **Контрольный список развертывания конференц-связи с телефонным подключением**
 
 |**Этап**|**Шаги**|**Членство в ролях и группе**|**Документация**|
@@ -78,9 +78,9 @@ ms.locfileid: "21010521"
 |**Проверка или изменение требований персонального идентификационного номера (ПИН-кода) пользователя (необязательно)** <br/> |Используйте Скайп для панели управления Business Server или Скайп для консоли Business Server для просмотра или изменения **Политики ПИН-кода**конференц-связи. Можно задать минимальную длину ПИН-кода, максимальное число попыток входа, срок действия ПИН-кода и Общие шаблоны, являются ли допустимый.  <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Управление политиками ПИН-кода для конференц-связи в Скайп для Business Server](../../manage/conferencing/pin-policies.md) <br/> [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> [SET-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |
 |**Изменение сопоставления клавиш для команд DTMF (необязательно)** <br/> |С помощью командлета **Set-CsDialinConferencingDtmfConfiguration** измените сочетания клавиш для команд тонального набора (DTMF), которые могут использоваться участниками для управления параметрами конференции (такими как отключение и включение звука или блокировка и разблокировка). <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Управление сопоставления клавиш для команд DTMF в Скайп для Business Server](../../manage/conferencing/key-mapping-for-dtmf-commands.md) <br/> [SET-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |
 |**Изменение поведения оповещений о присоединении к конференции и выходе из нее (необязательно)** <br/> |Командлет **Set-CsDialinConferencingConfiguration** используется для изменения порядка работы оповещений, когда участники присоединяются к конференции или покидают ее. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Управление присоединиться к конференции и передачи оповещений в Скайп для Business Server](../../manage/conferencing/join-and-leave-announcements.md) <br/> [SET-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |
-|**Настройка каталогов конференций (рекомендуется)** <br/> |Командлет **New-CsConferenceDirectory** используется для создания одного каталога конференции для каждых 999 пользователей в пуле. <br/> |RTCUniversalServerAdmins  <br/> |[Создание каталогов конференций (обязательно)](http://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [Новый CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
+|**Настройка каталогов конференций (рекомендуется)** <br/> |Командлет **New-CsConferenceDirectory** используется для создания одного каталога конференции для каждых 999 пользователей в пуле. <br/> |RTCUniversalServerAdmins  <br/> |[Создание каталогов конференций (обязательно)](https://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [Новый CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
 |**Проверка параметров конференц-связи с телефонным подключением (необязательно)** <br/> |Командлет **Get-CsDialinConferencingAccessNumber** используется для поиска абонентских групп, имеющим регион конференц-связи с телефонным подключением, который не используется ни одним номером доступа, а также найдите номера доступа, которым не назначен регион. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> CsHelpDesk  <br/> |[Настройка телефонных конференций в Скайп для Business Server](dial-in-conferencing.md) <br/> [Тестирование телефонных конференций в Скайп для Business Server](../../manage/conferencing/tests.md) <br/> [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |
 |**Проверка конференц-связи с телефонным подключением (необязательно)** <br/> |Командлет **Test-CsDialInConferencing** используется для проверки правильности работы номеров доступа для указанного пула. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Тестирование телефонных конференций в Скайп для Business Server](../../manage/conferencing/tests.md) <br/> [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |
 |**Приглашение пользователей принять участие в конференц-связи с телефонным подключением и установка начальных ПИН-кодов (необязательно)** <br/> |С помощью **Set -** cspinsendcawelcomemail установите начальные ПИН пользователей и отправьте приглашающее письмо, содержащее начальный ПИН-код и ссылку на страницу параметров конференц-связи. <br/> |RTCUniversalServerAdmins  <br/> |[Отправка приветственного сообщения для звонков в пользователей в Скайп для Business Server](../../manage/conferencing/welcome-emails.md) <br/> |
-   
+
 

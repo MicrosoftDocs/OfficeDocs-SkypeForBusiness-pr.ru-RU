@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: В данном разделе приведены сведения о развертывании версии 2 Скайп комнаты систем на крупномасштабного развертывания в среде.
-ms.openlocfilehash: 5ed6e041eb862c7bb50bde89ef172f9012ca8c2e
-ms.sourcegitcommit: 81c6775fdcf8726d2df83c421a85b7908f1f7412
+ms.openlocfilehash: 3b34d584bf98326257964e30431f622a0be6dee2
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22601999"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247459"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Развертывание системы комнаты Скайп версии 2 с помощью System Center Configuration Manager
 
@@ -81,7 +81,7 @@ ms.locfileid: "22601999"
 
 2.  Выберите сервер точка распространения, который будет обслуживать развертывания систем комнаты Скайп версии 2 и выберите пункт **Свойства**.
 
-3.  Перейдите на вкладку **PXE** и убедитесь, что включены следующие параметры: 
+3.  Перейдите на вкладку **PXE** и убедитесь, что включены следующие параметры:
     -   Включение поддержки PXE для клиентов
     -   Разрешить эта точка распространения для ответа на входящие запросы PXE
     -   Включение поддержки неизвестный компьютер
@@ -212,7 +212,7 @@ ms.locfileid: "22601999"
       Wait-Process -name wusa
    }
 ```
-3.  Загрузка обязательных пакетов обновления Windows в ту же папку.  
+3.  Загрузка обязательных пакетов обновления Windows в ту же папку.
     > [!NOTE]
     > Во время публикации этой статьи только [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) не требуется. Установите флажок [Настройка консоли версии 2 Скайп комнаты систем](console.md), чтобы увидеть, требуется ли обновлений.
 
@@ -319,21 +319,21 @@ ms.locfileid: "22601999"
         strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
         strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
         strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
-        TextArea2.innerHTML = strHTMLText   
+        TextArea2.innerHTML = strHTMLText
     End Sub
-    
+
     Sub SetComputerName()
         dim result
         result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
-        If (result = vbYes) then 
-            SET env = CreateObject("Microsoft.SMS.TSEnvironment") 
+        If (result = vbYes) then
+            SET env = CreateObject("Microsoft.SMS.TSEnvironment")
             env("OSDComputerName") = strNewComputerName
-            self.close  
+            self.close
         elseif (result = vbNo) then
             Window_OnLoad
         End If
     End Sub
-    
+
     Sub UpdateComputerName()
         strNewComputerName = newcomputername.value
         if len(trim(strNewComputerName)) = 0 then
@@ -342,26 +342,26 @@ ms.locfileid: "22601999"
         end if
         SetComputerName
     End Sub
-    
+
     Sub ChangeComputerName()
         TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
         TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
     End Sub
-    
+
     Sub Window_OnLoad
         Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
         oTSProgressUI.CloseProgressDialog
         GenerateComputerName
     End Sub
     </script>
-    
+
     <body>
     <span id = "TextArea1"></span>
     <span id = "TextArea2">
     </span>
     </body>
     </html>
-    
+
     ```
 3.  В консоли диспетчера конфигураций, перейдите к **Библиотеке программного обеспечения** \> **Управление приложениями** \> **пакетов**и выберите команду **Создать пакет**.
 
@@ -390,16 +390,16 @@ ms.locfileid: "22601999"
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
     <settings pass="specialize">
-        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <DisableBootMenu>1</DisableBootMenu>
             <DisplayDisabled>1</DisplayDisabled>
         </component>
-        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
         </component>
     </settings>
     <settings pass="oobeSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <OOBE>
                 <HideEULAPage>true</HideEULAPage>
                 <HideLocalAccountScreen>true</HideLocalAccountScreen>
@@ -625,11 +625,11 @@ ms.locfileid: "22601999"
     16. **Добавление пользователя локальной Скайп**: на этом этапе создается локальная учетная запись Скайп используется для автоматического входа в Windows и запустите приложение Скайп комнаты систем версии 2. Этот шаг не имеет любой пакет программного обеспечения, связанные с ним и для его необходим без настройки.
 
     17. **Задать и настройке приложения SRS**: этот шаг выполняется настройка установки систем комнаты Скайп версии 2 приложения для следующей загрузки операционной системы.
-        -   Убедитесь, что выбраны **SRS версии 2 — Настройка пакета установки SRS** и **системы в режиме одобрения администратором отключить 64-разрядная версия файла** .       
+        -   Убедитесь, что выбраны **SRS версии 2 — Настройка пакета установки SRS** и **системы в режиме одобрения администратором отключить 64-разрядная версия файла** .
 
 > [!IMPORTANT]
 > Очень важно, что действия последовательность задач должны быть в порядке следования. Изменение порядка шагов или настроить дополнительные действия может перестать работать развертывания.
-> 
+>
 > **Задать и настройке приложения SRS** шаг должен быть последний шаг в последовательности задач, в противном случае возможны ошибки при развертывании.
 
 ### <a name="create-deployment-for-the-task-sequence"></a>Создание развертывания для последовательности задач

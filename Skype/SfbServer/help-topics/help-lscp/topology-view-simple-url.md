@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: fe33cf1c1b216588ef14b30ce212b81cf3752a22
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c652f9fd4a8de6e8ada981374ad6a0c05a2491f8
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013340"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23241843"
 ---
 # <a name="topology-view-simple-url"></a>Топология: Простой URL-адрес Просмотр
- 
+
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-  
-- [Редактирование или Настройка простых URL-адресов](http://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
-    
-- [Управление простых URL-адресов](http://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
-    
+
+- [Редактирование или Настройка простых URL-адресов](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
+
+- [Управление простых URL-адресов](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
+
 Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
 
