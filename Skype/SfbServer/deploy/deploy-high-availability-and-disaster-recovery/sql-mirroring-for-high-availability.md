@@ -9,283 +9,283 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Чтобы обеспечить возможность развертывания зеркального отображения SQL, серверы должны работать под управлением, как минимум, версии SQL Server 2008 R2. Эта версия должна выполнятся на всех серверах-участниках: на сервере-источнике, зеркальном сервере и следящем сервере. Дополнительные сведения см накопительный пакет обновления пакет 9 для SQL Server 2008 с пакетом обновления 1.'
-ms.openlocfilehash: a0baf639b050d323a29eb347c14b38505f059ef2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 37444cb9825c473657722a0b4e61745385730d7e
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016208"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23254608"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Развертывание зеркального отображения SQL для обеспечения высокой доступности в Скайп для Business server 2015 Тыловой сервер
- 
 
-Чтобы обеспечить возможность развертывания зеркального отображения SQL, серверы должны работать под управлением, как минимум, версии SQL Server 2008 R2. Эта версия должна выполнятся на всех серверах-участниках: на сервере-источнике, зеркальном сервере и следящем сервере. Дополнительные сведения см [накопительного обновления 9 для SQL Server 2008 с пакетом обновления 1 ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
-  
+
+Чтобы обеспечить возможность развертывания зеркального отображения SQL, серверы должны работать под управлением, как минимум, версии SQL Server 2008 R2. Эта версия должна выполнятся на всех серверах-участниках: на сервере-источнике, зеркальном сервере и следящем сервере. Дополнительные сведения см [накопительного обновления 9 для SQL Server 2008 с пакетом обновления 1 ](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
+
 В целом, для настройки зеркального отображения SQL между двумя внутренними серверами с ресурсом-свидетелем требуется следующее:
-  
+
 - Версия SQL Server основного сервера должна поддерживать зеркальное отображение SQL.
-    
-- На основном ресурсе, зеркальном ресурсе и ресурсе-свидетеле (если развертывается) должна быть установлена одна и та же версия SQL Server.  
-    
+
+- На основном ресурсе, зеркальном ресурсе и ресурсе-свидетеле (если развертывается) должна быть установлена одна и та же версия SQL Server. 
+
 - На основном и зеркальном ресурсах должен быть установлен один и тот же выпуск SQL Server. На ресурсе-свидетеле может быть установлен другой выпуск.
-    
+
 [Следящий сервер зеркального отображения базы данных](https://go.microsoft.com/fwlink/p/?LinkId=247345)SQL рекомендации в отношении версии SQL которых поддерживается для роли следящего сервера, см.
-  
+
 Развертывание зеркального отображения SQL с помощью построителя топологии. Выберите параметр в зеркальной базы данных с помощью построителя топологий и Topology Builder выполняет настройку зеркального отображения (в том числе настройки следящего сервера, если вы хотите, чтобы) при публикации топологии. Обратите внимание, что настройка или удаление свидетеля выполняется одновременно с настройкой или удалением зеркала. Отдельной команды для развертывания или удаления только свидетеля не существует.
-  
+
 Для настройки зеркального отображения серверов сначала нужно правильно настроить разрешения базы данных SQL. Дополнительные сведения см [Задать копирование учетных записей для зеркального отображения базы данных или группы обеспечения доступности AlwaysOn (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454).
-  
+
 При использовании зеркального отображения SQL режим восстановления базы данных всегда задан как **Полный**, т. е. вы должны регулярно отслеживать размер журнала транзакций и журналов транзакций резервного копирования, чтобы предотвратить нехватку места на диске на внутренних серверах. Частота резервного копирования журналов транзакций зависит от скорости роста журналов, которая в свою очередь зависит от транзакций баз данных в результате действий пользователей в интерфейсном пуле. Рекомендуется определить ожидаемую скорость роста журналов для полезной нагрузки развертывания, чтобы вы могли правильно провести планирование. В следующих статьях представлены дополнительные сведения об управлении резервным копированием и журналами SQL:
-  
+
 - [Модели восстановления баз данных](https://go.microsoft.com/fwlink/p/?LinkId=268446)
-    
+
 - [Обзор резервного копирования](https://go.microsoft.com/fwlink/p/?LinkId=268449)
-    
+
 - [Резервное копирование журнала транзакций](https://go.microsoft.com/fwlink/p/?LinkId=268452)
-    
+
 При использовании зеркального отображения SQL топологию можно настроить при создании пулов или после их создания.
-  
+
 > [!IMPORTANT]
-> С помощью построителя топологий или командлетов для установки и удаления SQL зеркальное отображение поддерживается только в том случае, если основной, зеркальный и следящий сервер (при желании) серверы принадлежат к тому же домену. Если необходимо настроить зеркальное отображение SQL для серверов в других доменах, см. документацию по SQL Server. 
-  
+> С помощью построителя топологий или командлетов для установки и удаления SQL зеркальное отображение поддерживается только в том случае, если основной, зеркальный и следящий сервер (при желании) серверы принадлежат к тому же домену. Если необходимо настроить зеркальное отображение SQL для серверов в других доменах, см. документацию по SQL Server.
+
 > [!IMPORTANT]
-> При внесении изменений в отношения зеркального отображения внутренних баз данных необходимо перезагрузить все серверы переднего плана в пуле.  > Для изменения в зеркальное отображение (например, изменения расположения зеркала), необходимо использовать построитель топологий для выполнения следующих трех действий: 
-  
+> При внесении изменений в отношения зеркального отображения внутренних баз данных необходимо перезагрузить все серверы переднего плана в пуле.  > Для изменения в зеркальное отображение (например, изменения расположения зеркала), необходимо использовать построитель топологий для выполнения следующих трех действий:
+
 1. Удаление зеркального отображения со старого сервера-зеркала.
-    
+
 2. Добавление зеркального отображения на новый сервер-зеркало.
-    
+
 3. Опубликуйте топологию.
-    
+
 > [!NOTE]
-> Вам потребуется создать общую папку для записи в нее зеркальных файлов, кроме того, службе, от имени которой выполняются SQL Server и агент SQL, необходим доступ для записи/чтения. Если службы SQL Server работает в контексте сетевой службы, можно добавить \<домена\>\\< SQLSERVERNAME\>$ из основной и зеркальный серверы SQL Server для разрешений совместный доступ. Использование символа $ важно для определения того, что это значение является учетной записью компьютера. 
-  
+> Вам потребуется создать общую папку для записи в нее зеркальных файлов, кроме того, службе, от имени которой выполняются SQL Server и агент SQL, необходим доступ для записи/чтения. Если службы SQL Server работает в контексте сетевой службы, можно добавить \<домена\>\\< SQLSERVERNAME\>$ из основной и зеркальный серверы SQL Server для разрешений совместный доступ. Использование символа $ важно для определения того, что это значение является учетной записью компьютера.
+
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Настройка зеркального отображения SQL при создании пула в построителе топологий
 
 1. На странице **Определение хранилища SQL** щелкните **Создать** рядом с полем **Хранилище SQL**. 
-    
+
 2. На странице **Определение нового хранилища SQL** укажите основное хранилище, выберите **Этот экземпляр SQL находится в отношении зеркального отображения**, укажите номер порта для зеркального отображения SQL (по умолчанию — 5022), а затем нажмите кнопку **ОК**.
-    
-3. Вернитесь на страницу **Определение хранилища SQL** и выберите **Включить зеркальное отображение хранилища SQL**.  
-    
+
+3. Вернитесь на страницу **Определение хранилища SQL** и выберите **Включить зеркальное отображение хранилища SQL**. 
+
 4. На странице **Определение нового хранилища SQL** укажите хранилище SQL, которое будет использоваться в качестве зеркала. Выберите **Этот экземпляр SQL находится в отношении зеркального отображения**, укажите номер порта (по умолчанию — 5022), а затем нажмите кнопку **ОК**.
-    
-5. Если необходимо использовать ресурс-свидетель для этого зеркала, выполните следующие действия.  
-    
-    а. Выберите **Использовать ресурс-свидетель зеркального отображения SQL для включения автоматического переключения**.  
-    
-    б. На странице **Определение хранилища SQL** выберите **Использовать ресурс-свидетель зеркального отображения SQL для включения автоматического переключения** и укажите хранилище SQL для использования в качестве ресурса-свидетеля.  
-    
-    в. Укажите номер порта (по умолчанию — 7022) и щелкните **ОК**.  
-    
+
+5. Если необходимо использовать ресурс-свидетель для этого зеркала, выполните следующие действия. 
+
+    а. Выберите **Использовать ресурс-свидетель зеркального отображения SQL для включения автоматического переключения**. 
+
+    б. На странице **Определение хранилища SQL** выберите **Использовать ресурс-свидетель зеркального отображения SQL для включения автоматического переключения** и укажите хранилище SQL для использования в качестве ресурса-свидетеля. 
+
+    в. Укажите номер порта (по умолчанию — 7022) и щелкните **ОК**. 
+
 6. После завершения определения интерфейсного пула и другие роли в топологии, используйте построитель топологий для публикации топологии. После публикации топологии, если в пуле переднего плана, на котором размещается центральное хранилище управления зеркального отображения SQL включена, вы увидите параметр, чтобы создать как основной и зеркальной базы данных хранилища SQL.
-    
+
     Щелкните **Параметры** и введите путь, который необходимо использовать в качестве пути к общей папке для резервной копии зеркального отображения.
-    
+
     Нажмите кнопку **ОК**, а затем кнопку **Далее** для создания баз данных и публикации топологии. Будут развернуты ресурс-зеркало и ресурс-свидетель (если указан).
-    
-Topology Builder можно использовать для редактирования свойств уже существующего пула, чтобы включить зеркальное отображение SQL. 
-  
+
+Topology Builder можно использовать для редактирования свойств уже существующего пула, чтобы включить зеркальное отображение SQL.
+
 ## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>Добавление зеркального отображения SQL в существующий пул переднего плана в построителе топологий
 
 1. В построителе топологии щелкните пул правой кнопкой мыши и выберите команду **Изменить свойства**.
-    
-2. Выберите **Включить зеркальное отображение хранилища SQL**, а затем щелкните **Создать** рядом с элементом **Зеркальное отображение хранилища SQL**.  
-    
-3. Укажите хранилище SQL, которое необходимо использовать в качестве зеркала.  
-    
+
+2. Выберите **Включить зеркальное отображение хранилища SQL**, а затем щелкните **Создать** рядом с элементом **Зеркальное отображение хранилища SQL**. 
+
+3. Укажите хранилище SQL, которое необходимо использовать в качестве зеркала. 
+
 4. Выберите **Этот экземпляр SQL находится в отношении зеркального отображения**, укажите номер порта зеркального отображения SQL (порт по умолчанию — 5022), а затем нажмите кнопку **ОК**.
-    
-5. Если необходимо настроить ресурс-свидетель, выберите **Использовать свидетель зеркального отображения SQL для включения автоматической отработки отказа** и щелкните **Создать**.  
-    
-6. Укажите хранилище SQL, которое необходимо использовать в качестве свидетеля.  
-    
+
+5. Если необходимо настроить ресурс-свидетель, выберите **Использовать свидетель зеркального отображения SQL для включения автоматической отработки отказа** и щелкните **Создать**. 
+
+6. Укажите хранилище SQL, которое необходимо использовать в качестве свидетеля. 
+
 7. Выберите **Этот экземпляр SQL находится в отношении зеркального отображения**, укажите номер порта зеркального отображения SQL (порт по умолчанию — 7022), а затем нажмите кнопку **ОК**.
-    
+
 8. Нажмите **ОК**.
-    
-9. Опубликуйте топологию. После этого появится запрос на установку базы данных.  
-    
+
+9. Опубликуйте топологию. После этого появится запрос на установку базы данных. 
+
     В процессе публикации топологии отобразится запрос на определение пути к общей папке. Серверы SQL Server, которые участвуют в зеркалировании, должны иметь доступ на чтение и запись для этой общей папки для выполнения зеркалирования.
-    
+
 Перед переходом к следующей процедуре необходимо установить базу данных.
-  
+
 При настройке зеркального отображения сервера SQL Server следует иметь в виду следующее.
-  
+
 - Если конечная точка зеркального отображения уже существует, она будет повторно использоваться с подключением по указанным портам, а порты, определенные в топологии, будут игнорироваться.
-    
+
 - Любой порт, уже выделенный для других приложений на том же сервере, включая порты для других экземпляров SQL, не должен использоваться для доступных установленных экземпляров SQL. Это означает, что при наличии нескольких экземпляров SQL Server, установленных на одном и том же сервере, они не должны использовать один и тот же порт для зеркального отображения. Для получения подробной информации см. следующие статьи:
-    
+
   - [Указание сетевого адреса сервера (зеркальное отображение базы данных)](https://go.microsoft.com/fwlink/p/?LinkId=247346)
-    
+
   - [(SQL Server) конечная точка зеркального отображения базы данных](https://go.microsoft.com/fwlink/p/?LinkId=247347)
-    
+
 ## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>С помощью Скайп по командлетам командной консоли управления Business Server 2015 набору зеркального отображения SQL
 
 Проще всего настроить зеркальное отображение с помощью построителя топологий, но можно также выполнить эту процедуру с помощью командлетов.
-  
+
 1. Откройте Скайп для окна консоли 2015 Business Server и выполните следующий командлет:
-    
+
    ```
-   Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 
+   Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose
    ```
 
     Например:
-    
+
    ```
-   Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose 
+   Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose
    ```
 
     Отобразится следующее:
-    
+
  <pre>
-  Database Name:rtcxds 
-        Data File:D:\CsData\BackendStore\rtc\DbPath\rtcxds.mdf 
-         Log File:D:\CsData\BackendStore\rtc\LogPath\rtcxds.ldf 
-      Primary SQL: e04-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\e04-ocs$ 
-       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\K16-ocs$ 
-     Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
-          Account: LOS_A\AB14-lct$ 
-    Database Name:rtcshared 
-        Data File:D:\CsData\BackendStore\rtc\DbPath\rtcshared.mdf 
-         Log File:D:\CsData\BackendStore\rtc\LogPath\rtcshared.ldf 
-      Primary SQL: e04-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\e04-ocs$ 
-       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\K16-ocs$ 
-     Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
-          Account: LOS_A\AB14-lct$ 
-    Database Name:rtcab 
-        Data File:D:\CsData\ABSStore\rtc\DbPath\rtcab.mdf 
-         Log File:D:\CsData\ABSStore\rtc\LogPath\rtcab.ldf 
-      Primary SQL: e04-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\e04-ocs$ 
-       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\K16-ocs$ 
-     Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
-          Account: LOS_A\AB14-lct$ 
-    Database Name:rgsconfig 
-        Data File:D:\CsData\ApplicationStore\rtc\DbPath\rgsconfig.mdf 
-         Log File:D:\CsData\ApplicationStore\rtc\LogPath\rgsconfig.ldf 
-      Primary SQL: e04-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\e04-ocs$ 
-       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\K16-ocs$ 
-     Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
-          Account: LOS_A\AB14-lct$ 
-    Database Name:rgsdyn 
-        Data File:D:\CsData\ApplicationStore\rtc\DbPath\rgsdyn.mdf 
-         Log File:D:\CsData\ApplicationStore\rtc\LogPath\rgsdyn.ldf 
-      Primary SQL: e04-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\e04-ocs$ 
-       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\K16-ocs$ 
-     Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
-          Account: LOS_A\AB14-lct$ 
-    Database Name:cpsdyn 
-        Data File:D:\CsData\ApplicationStore\rtc\DbPath\cpsdyn.mdf 
-         Log File:D:\CsData\ApplicationStore\rtc\LogPath\cpsdyn.ldf 
-      Primary SQL: e04-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\e04-ocs$ 
-       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\K16-ocs$ 
-     Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
-          Account: LOS_A\AB14-lct$ 
-    Database Name:xds 
-        Data File:D:\CsData\CentralMgmtStore\rtc\DbPath\xds.mdf 
-         Log File:D:\CsData\CentralMgmtStore\rtc\LogPath\xds.ldf 
-      Primary SQL: e04-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\e04-ocs$ 
-       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\K16-ocs$ 
-     Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
-          Account: LOS_A\AB14-lct$ 
-    Database Name:lis 
-        Data File:D:\CsData\CentralMgmtStore\rtc\DbPath\lis.mdf 
-         Log File:D:\CsData\CentralMgmtStore\rtc\LogPath\lis.ldf 
-      Primary SQL: e04-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\e04-ocs$ 
-       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc 
-          Account: LOS_A\K16-ocs$ 
-     Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
+  Database Name:rtcxds
+        Data File:D:\CsData\BackendStore\rtc\DbPath\rtcxds.mdf
+         Log File:D:\CsData\BackendStore\rtc\LogPath\rtcxds.ldf
+      Primary SQL: e04-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\e04-ocs$
+       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\K16-ocs$
+     Witness SQL : AB14-lct.los_a.lsipt.local\rtc
           Account: LOS_A\AB14-lct$
-[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): 
+    Database Name:rtcshared
+        Data File:D:\CsData\BackendStore\rtc\DbPath\rtcshared.mdf
+         Log File:D:\CsData\BackendStore\rtc\LogPath\rtcshared.ldf
+      Primary SQL: e04-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\e04-ocs$
+       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\K16-ocs$
+     Witness SQL : AB14-lct.los_a.lsipt.local\rtc
+          Account: LOS_A\AB14-lct$
+    Database Name:rtcab
+        Data File:D:\CsData\ABSStore\rtc\DbPath\rtcab.mdf
+         Log File:D:\CsData\ABSStore\rtc\LogPath\rtcab.ldf
+      Primary SQL: e04-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\e04-ocs$
+       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\K16-ocs$
+     Witness SQL : AB14-lct.los_a.lsipt.local\rtc
+          Account: LOS_A\AB14-lct$
+    Database Name:rgsconfig
+        Data File:D:\CsData\ApplicationStore\rtc\DbPath\rgsconfig.mdf
+         Log File:D:\CsData\ApplicationStore\rtc\LogPath\rgsconfig.ldf
+      Primary SQL: e04-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\e04-ocs$
+       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\K16-ocs$
+     Witness SQL : AB14-lct.los_a.lsipt.local\rtc
+          Account: LOS_A\AB14-lct$
+    Database Name:rgsdyn
+        Data File:D:\CsData\ApplicationStore\rtc\DbPath\rgsdyn.mdf
+         Log File:D:\CsData\ApplicationStore\rtc\LogPath\rgsdyn.ldf
+      Primary SQL: e04-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\e04-ocs$
+       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\K16-ocs$
+     Witness SQL : AB14-lct.los_a.lsipt.local\rtc
+          Account: LOS_A\AB14-lct$
+    Database Name:cpsdyn
+        Data File:D:\CsData\ApplicationStore\rtc\DbPath\cpsdyn.mdf
+         Log File:D:\CsData\ApplicationStore\rtc\LogPath\cpsdyn.ldf
+      Primary SQL: e04-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\e04-ocs$
+       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\K16-ocs$
+     Witness SQL : AB14-lct.los_a.lsipt.local\rtc
+          Account: LOS_A\AB14-lct$
+    Database Name:xds
+        Data File:D:\CsData\CentralMgmtStore\rtc\DbPath\xds.mdf
+         Log File:D:\CsData\CentralMgmtStore\rtc\LogPath\xds.ldf
+      Primary SQL: e04-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\e04-ocs$
+       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\K16-ocs$
+     Witness SQL : AB14-lct.los_a.lsipt.local\rtc
+          Account: LOS_A\AB14-lct$
+    Database Name:lis
+        Data File:D:\CsData\CentralMgmtStore\rtc\DbPath\lis.mdf
+         Log File:D:\CsData\CentralMgmtStore\rtc\LogPath\lis.ldf
+      Primary SQL: e04-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\e04-ocs$
+       Mirror SQL: K16-ocs.los_a.lsipt.local\rtc
+          Account: LOS_A\K16-ocs$
+     Witness SQL : AB14-lct.los_a.lsipt.local\rtc
+          Account: LOS_A\AB14-lct$
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"):
 </pre>
 
 2. Проверьте следующее:
-    
-    - Порт 5022 доступен через брандмауэр, если брандмауэр Windows включен на сервере-источнике SQL Server e04-ocs.los_a.lsipt.local\rtc.  
-    
-    - Порт 5022 доступен через брандмауэр, если брандмауэр Windows включен на зеркальном ресурсе SQL Server K16-ocs.los_a.lsipt.local\rtc.  
-    
-    - Порт 7022 доступен через брандмауэр, если брандмауэр Windows включен на следящем сервере SQL Server AB14-lct.los_a.lsipt.local\rtc.  
-    
-   - Учетные записи которых выполняются серверы SQL Server на всех основных и зеркальных серверах SQL, имеют разрешение на чтение и запись в общую папку файлов \\E04 OCS\csdatabackup 
-    
-   - Убедитесь, что поставщик инструментария управления Windows (WMI) работает на всех этих серверах. Командлет использует этот поставщик для поиска информации об учетных записях для служб SQL Server, которые выполняются на всех серверах-источниках, зеркальных серверах и следящих серверах.  
-    
-   - Убедитесь, что учетная запись, выполняющая этот командлет, имеет разрешение на создание папок для данных и файлов журналов для всех зеркальных серверов.  
-    
+
+    - Порт 5022 доступен через брандмауэр, если брандмауэр Windows включен на сервере-источнике SQL Server e04-ocs.los_a.lsipt.local\rtc. 
+
+    - Порт 5022 доступен через брандмауэр, если брандмауэр Windows включен на зеркальном ресурсе SQL Server K16-ocs.los_a.lsipt.local\rtc. 
+
+    - Порт 7022 доступен через брандмауэр, если брандмауэр Windows включен на следящем сервере SQL Server AB14-lct.los_a.lsipt.local\rtc. 
+
+   - Учетные записи которых выполняются серверы SQL Server на всех основных и зеркальных серверах SQL, имеют разрешение на чтение и запись в общую папку файлов \\E04 OCS\csdatabackup
+
+   - Убедитесь, что поставщик инструментария управления Windows (WMI) работает на всех этих серверах. Командлет использует этот поставщик для поиска информации об учетных записях для служб SQL Server, которые выполняются на всех серверах-источниках, зеркальных серверах и следящих серверах. 
+
+   - Убедитесь, что учетная запись, выполняющая этот командлет, имеет разрешение на создание папок для данных и файлов журналов для всех зеркальных серверов. 
+
    - Обратите внимание, что учетная запись пользователя, используемая экземпляром SQL для запуска, должна обладать разрешениями на чтение и запись для общей папки. Если общая папка размещена на другом сервере, и экземпляр SQL использует локальную системную учетную запись, вы должны предоставить разрешения для общей папки серверу, на котором размещен экземпляр SQL.
-    
+
 3. Введите A и нажмите клавишу ВВОД.
-    
+
     Зеркальное отображение будет настроено.
-    
+
     **Install-CsMirrorDatabase** устанавливает зеркальной и настраивает зеркальное отображение для всех баз данных, находящихся на основного хранилища SQL. Если вы хотите настроить зеркальное отображение только определенные баз данных, можно использовать параметр - DatabaseType, или если вы хотите настроить зеркальное отображение для всех баз данных, за исключением несколько, можно использовать параметр - ExcludeDatabaseList вместе с разделителями запятыми список баз данных имена, чтобы исключить.
-  
+
     Например если добавить следующий параметр **Install-CsMirrorDatabase**, будут отражены все базы данных, кроме rtcxds.
-  
+
     `-ExcludeDatabaseList rtcab,rtcxds`
-  
+
    Например если добавить следующий параметр **Install-CsMirrorDatabase**, будут отражены только базы данных rtcab, rtcshared и rtcxds.
-  
+
     `-DatabaseType User`
-  
+
 ## <a name="removing-or-changing-sql-mirroring"></a>Удаление и изменение зеркального отображения SQL
 
 Чтобы удалить зеркальное отображение SQL пула в построителе топологий, сначала следует использовать командлет для удаления зеркала в SQL Server. Затем вы можете использовать построитель топологий, чтобы удалить зеркало из топологии. Чтобы сделать это в SQL Server, запустите следующий командлет:
-  
+
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
 ```
 
 Например, чтобы удалить зеркальное отображение и сбросить базы данных для баз данных User, введите следующую команду:
-  
+
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 ```
 
 `-DropExistingDatabasesOnMirror` Параметра приводит к удалению из зеркального отображения баз данных.
-  
+
 Чтобы затем удалить это зеркальное отображение из топологии, выполните одно из следующих действий:
-  
+
 1. В построителе топологии щелкните пул правой кнопкой мыши и выберите пункт **Изменить свойства**.
-    
+
 2. Снимите флажок **Включить зеркальное отображение хранилища SQL** и нажмите кнопку **ОК**.
-    
+
 3. Публикация топологии.
-    
+
 ## <a name="removing-a-mirroring-witness"></a>Удаление следящего сервера зеркального отображения
 
 Используйте эту процедуру, если вам потребуется удалить следящий сервер из Тыловой сервер конфигурации зеркального отображения.
-  
-1. В построителе топологии щелкните пул правой кнопкой мыши и выберите пункт **Изменить свойства**. 
-    
+
+1. В построителе топологии щелкните пул правой кнопкой мыши и выберите пункт **Изменить свойства**.
+
 2. Снимите флажок **Использовать свидетель зеркального отображения SQL Server для автоматической отработки отказа** и нажмите кнопку **ОК**.
-    
+
 3. Публикация топологии.
-    
+
     После публикации топологии, Topology Builder появится сообщение, которое включает в себя следующие
-    
+
    ```
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 
     Не выполняйте это действие, но не вводите `Uninstall-CsMirrorDatabase` при этом будет удалена вся конфигурация зеркального отображения.
-    
+
 4. Чтобы удалить только следящий сервер из конфигурации SQL Server, следуйте инструкциям, представленным в [удалить следящий сервер из сеанса зеркального отображения базы данных (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268456).
-    
+
 

@@ -11,12 +11,12 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Централизованный поиск обновлений Skype для бизнеса Server 2015 и Lync 2013, а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: c83e3994c47876e6064b58265848c64487e47b76
-ms.sourcegitcommit: 3915a89d072f0f801d5662286bea08839ed2a9e6
+ms.openlocfilehash: e3b1ae326494a14c502a7427d30f664646bfe373
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22601908"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253057"
 ---
 # <a name="skype-for-business-updates"></a>Обновления Skype для бизнеса
 
@@ -76,7 +76,7 @@ ms.locfileid: "22601908"
 * * *
 
 ## <a name="lync-server-2013-update-history"></a>Журнал обновлений Lync Server 2013
-    
+
 |Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Накопительный пакет обновления 9 для Lync Server 2013  |[Статья базы знаний 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |Июль 2017 г. |
@@ -90,7 +90,7 @@ ms.locfileid: "22601908"
 |Накопительный пакет обновления 5.0.8308.956 для Lync Server 2013, сервер-посредник |[Статья базы знаний 3140586](https://support.microsoft.com/kb/3140586)|Апрель 2016 г. |
 |Накопительный пакет обновления 5.0.8308.956 для Lync Server 2013, служба групп ответов |[Статья базы знаний 3140585](https://support.microsoft.com/kb/3140585)|Апрель 2016 г. |
 |Накопительный пакет обновления 5.0.8308.956 для Lync Server 2013, сервер конференций |[Статья базы знаний 3140584](https://support.microsoft.com/kb/3140584)|Апрель 2016 г. |
-|Накопительный пакет обновления 5.0.8308.956 для Lync Server 2013, сервер переднего плана и пограничный сервер |[Статья базы знаний 3140582](https://support.microsoft.com/kb/3140582)|Апрель 2016 г. | 
+|Накопительный пакет обновления 5.0.8308.956 для Lync Server 2013, сервер переднего плана и пограничный сервер |[Статья базы знаний 3140582](https://support.microsoft.com/kb/3140582)|Апрель 2016 г. |
 |Накопительный пакет обновления 5.0.8308.956 для Lync Server 2013, основные компоненты |[Статья базы знаний 3140581](https://support.microsoft.com/kb/3140581)|Апрель 2016 г. |
 |Накопительный пакет обновления 5.0.8308.945 для Lync Server 2013, сервер веб-компонентов |[Статья базы знаний 3126638](https://support.microsoft.com/kb/3126638)|Январь 2016 г. |
 |Накопительный пакет обновления 5.0.8308.945 для Lync Server 2013, основные компоненты |[Статья базы знаний 3126637](https://support.microsoft.com/kb/3126637)|Январь 2016 г. |
@@ -205,7 +205,7 @@ ms.locfileid: "22601908"
 
 ### <a name="resource-kit-technical-reference"></a>Набор ресурсов (технический справочник)
 
-На странице [Набор ресурсов Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) можно скачать отдельные главы или ZIP-файл со [всеми 19 главами книги по наборам ресурсов](http://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
+На странице [Набор ресурсов Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) можно скачать отдельные главы или ZIP-файл со [всеми 19 главами книги по наборам ресурсов](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
 
 ### <a name="group-chat"></a>бесед
 
@@ -226,9 +226,9 @@ ms.locfileid: "22601908"
 
 ## <a name="additional-information"></a>Дополнительная информация
 
-Обновления программного обеспечения включают все обновления, накопительные пакеты обновления, пакеты обновления, пакеты дополнительных компонентов, критические обновления, обновления для системы безопасности и исправления. Описание стандартной терминологии обновлений программного обеспечения Майкрософт см. в [статье базы знаний 824684](https://support.microsoft.com/kb/824684). 
+Обновления программного обеспечения включают все обновления, накопительные пакеты обновления, пакеты обновления, пакеты дополнительных компонентов, критические обновления, обновления для системы безопасности и исправления. Описание стандартной терминологии обновлений программного обеспечения Майкрософт см. в [статье базы знаний 824684](https://support.microsoft.com/kb/824684).
 
- 
+
 ## <a name="related-topics"></a>Связанные разделы
 
 - [Установка Skype для бизнеса Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)

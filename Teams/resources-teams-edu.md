@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eb38d1dc24094233bac94f75967bf8f1e42b93d
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: af9d574abb69068095c31a9aaac0270b3fc7e960
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21251886"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248805"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Ресурсы группами Майкрософт для образовательных учреждений "Администраторы"
 ==============================================
@@ -44,15 +44,15 @@ ms.locfileid: "21251886"
 
 ## <a name="call-to-action"></a>Призыв к действию
 
-- Попробуйте нашу [интерактивную демонстрацию Microsoft Teams](http://teamsdemo.office.com/) (5 минут).
+- Попробуйте нашу [интерактивную демонстрацию Microsoft Teams](https://teamsdemo.office.com/) (5 минут).
 - Включите Microsoft Teams в [Центре администрирования Office 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (войдите как администратор Office 365).
 - Скачайте клиенты Teams: [Microsoft Teams работает на всех ваших устройствах](https://teams.microsoft.com/downloads).
 - Получите дополнительные сведения об Office 365 для образования в [Центре справки "Образование"](https://support.office.com/education).
-    
+
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Стратегия развития Microsoft Teams](https://aka.ms/teamsroadmap)
-- Актуальные новости в нашем [блоге Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 
+- Актуальные новости в нашем [блоге Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - Блог Мэтта Сосмана (Matt Soseman) "The Productive Cloud" о [поддержке PowerShell в Microsoft Teams](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
 - [Отправить предложение](https://aka.ms/eduuservoice)
 - [Связаться со службой поддержки](https://aka.ms/o365portal)

@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 4cb5a14f2bce0a9450788de178cff8e27cbc4e33
-  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
+  ms.openlocfilehash: 698bb6a90d3ba6b64b3288b60d55eec2dac17453
+  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/05/2018
-  ms.locfileid: "20201417"
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "23253440"
 items:
 - durationInMinutes: 1
   content: >
@@ -49,7 +49,7 @@ items:
     -   Отчеты
 
 
-    Аудиоконференции добавляет компоненты и функциональные возможности собраний в группах. Мы рекомендуем выполнить [собраний в группами Майкрософт](http://aka.ms/tr-meetings) перед в этом руководстве.
+    Аудиоконференции добавляет компоненты и функциональные возможности собраний в группах. Мы рекомендуем выполнить [собраний в группами Майкрософт](https://aka.ms/tr-meetings) перед в этом руководстве.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -98,7 +98,7 @@ items:
     ### <a name="next-steps"></a>Дальнейшие действия
 
 
-    1.  Зайдите в [MyAdvisor](http://aka.ms/myadvisor), чтобы получить индивидуальные рекомендации по развертыванию.
+    1.  Зайдите в [MyAdvisor](https://aka.ms/myadvisor), чтобы получить индивидуальные рекомендации по развертыванию.
 
     2.  Начать работу с использованием звука конференц-связи в группах.
 
@@ -109,4 +109,4 @@ items:
         - Выполните в [блоге группы](https://aka.ms/teamsblog).
         - Ознакомьтесь с [группами схема](https://aka.ms/skype2teamsroadmap).
         - Сведения о последней выпущенной функции в [Заметки о выпуске](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    5.  Посмотрите [другие обучающие курсы и материалы](http://aka.ms/Teamsacademy).
+    5.  Посмотрите [другие обучающие курсы и материалы](https://aka.ms/Teamsacademy).

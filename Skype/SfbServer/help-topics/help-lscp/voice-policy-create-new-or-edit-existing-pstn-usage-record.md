@@ -12,21 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 description: UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
-ms.openlocfilehash: 4e2df35cac36587f96a7f2e250a4dd5558a1919f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bd66c1fafea72a4a0e10cb1d3c20c5b1e8bbc84c
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23254450"
 ---
 # <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>Политика голосовой связи: Создание новой или редактирование существующей записи использования ТСОП
- 
+
 UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
-  
-- [Создание или изменение политики голосовой связи и Настройка записей использования ТСОП в Скайп для бизнеса 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
-    
-- [Изменение политики голосовой связи и Настройка записей использования ТСОП](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
-    
-- [Просмотр записей использования ТСОП в Скайп для бизнеса 2015](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
-    
+
+- [Создание или изменение голосовой политики и настройка записей использования ТСОП в Skype для бизнеса 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+
+- [Изменение политики голосовой связи и Настройка записей использования ТСОП](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+
+- [Просмотр записей использования ТСОП в Skype для бизнеса 2015](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+
 Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
 

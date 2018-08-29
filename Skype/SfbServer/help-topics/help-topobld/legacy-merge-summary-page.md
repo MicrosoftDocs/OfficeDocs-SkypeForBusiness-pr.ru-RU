@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
 description: Миграция с Microsoft Office Communications Server 2007 R2 на Lync Server 2013 использует возможности Topology Builder для объединения существующей топологии. Сводный экран указывает все действия и выбранные элементы, внесенные во время настройки слияния Office Communications Server 2007 R2 в конфигурации построитель топологии Lync Server 2013.
-ms.openlocfilehash: f757ff3b2cedc1e72c67eec501f3b446f13ec7a2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a4d0749bd4fa59598bc52e7e0c08fd810b163e86
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001576"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23257180"
 ---
 # <a name="legacy-merge-summary-page"></a>Страница сводки объединения с устаревшей версией
- 
+
 Миграция с Microsoft Office Communications Server 2007 R2 на Lync Server 2013 использует возможности Topology Builder для объединения существующей топологии. Сводный экран указывает все действия и выбранные элементы, внесенные во время настройки слияния Office Communications Server 2007 R2 в конфигурации построитель топологии Lync Server 2013.
-  
+
 Просмотрите сводку и определите, если выбранные параметры были правильно определены. Если вы удовлетворены выбранных элементов, отражены в сводке продолжить работу со слиянием.
-  
+
 ## <a name="see-also"></a>См. также
 
-[Миграция с Office Communications Server 2007 R2 на Lync Server 2013](http://technet.microsoft.com/library/f3fa4f5f-e9a2-4fb7-a12d-20f04173e697.aspx)
+[Миграция с Office Communications Server 2007 R2 на Lync Server 2013](https://technet.microsoft.com/library/f3fa4f5f-e9a2-4fb7-a12d-20f04173e697.aspx)

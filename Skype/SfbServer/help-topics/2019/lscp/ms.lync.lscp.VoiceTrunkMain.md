@@ -12,24 +12,24 @@ localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: f046400bb37384216005fb08e650fab50a878f7b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 48dcd6ad1dcae256826adf92daa09b73999c5b97
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983485"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23262262"
 ---
 # <a name="trunk-configuration"></a>Настройка линии связи
- 
+
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-  
+
 - [Настройка магистрали без обхода сервера-посредника в Скайп для Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
-    
+
 - [Настройка магистрали без обхода сервера-посредника в Скайп для Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
-    
+
 - [Создание или изменение правила преобразования для называемое идентификатор представления в Скайп для Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
-    
-- [Создание или изменение правила преобразования вручную](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
-    
- 
+
+- [Создание или изменение правила преобразования вручную](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+
+
 
