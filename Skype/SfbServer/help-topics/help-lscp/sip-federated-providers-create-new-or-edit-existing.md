@@ -12,16 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: eeea3729de6aaf9ad8a120cde1aa6188b34d077a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 42c80e5a9d0239285058481adb603ba463676387
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256737"
 ---
-# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="47ae8-104">Федеративные поставщики услуг SIP: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="47ae8-104">SIP Federated Providers: Create New or Edit Existing</span></span>
- 
-<span data-ttu-id="47ae8-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="47ae8-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="47ae8-107">Управление SIP федеративных поставщиков для вашей организации</span><span class="sxs-lookup"><span data-stu-id="47ae8-107">Manage SIP Federated Providers for Your Organization</span></span>](http://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
-    
+# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="3014c-104">Федеративные поставщики услуг SIP: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="3014c-104">SIP Federated Providers: Create New or Edit Existing</span></span>
+
+<span data-ttu-id="3014c-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="3014c-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="3014c-107">Управление SIP федеративных поставщиков для вашей организации</span><span class="sxs-lookup"><span data-stu-id="3014c-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+
 

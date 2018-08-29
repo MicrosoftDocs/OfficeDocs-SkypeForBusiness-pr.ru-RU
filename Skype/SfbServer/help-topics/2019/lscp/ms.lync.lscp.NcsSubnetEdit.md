@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: bdb46b68355f1880e6530b5823675f139252d923
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6c912f2b6ef4e07e55f5dcef89e0a50d127e5ca0
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998583"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23258321"
 ---
-# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="13f7c-104">Связывание подсети: Добавление новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="13f7c-104">Associate a Subnet: Add New or Edit Existing</span></span>
- 
-<span data-ttu-id="13f7c-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="13f7c-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="13f7c-107">Настройка подсетей</span><span class="sxs-lookup"><span data-stu-id="13f7c-107">Configuring Network Subnets</span></span>](http://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
-    
- 
+# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="a18d2-104">Связывание подсети: Добавление новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="a18d2-104">Associate a Subnet: Add New or Edit Existing</span></span>
+
+<span data-ttu-id="a18d2-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="a18d2-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="a18d2-107">Настройка подсетей</span><span class="sxs-lookup"><span data-stu-id="a18d2-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+
+
 

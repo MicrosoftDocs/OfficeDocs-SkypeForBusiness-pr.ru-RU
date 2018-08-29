@@ -12,22 +12,22 @@ localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 9ebe5d64dad79a785f353e03887d9acf6444c492
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0cab55c810c9031d1356e293ea9780055e75c36a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967742"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23263543"
 ---
-# <a name="web-service-security-settings-create-new-or-modify-existing"></a><span data-ttu-id="03e29-104">Параметров безопасности веб-службы: Создание новых или изменение существующих</span><span class="sxs-lookup"><span data-stu-id="03e29-104">Web Service Security Settings: Create New or Modify Existing</span></span>
- 
-<span data-ttu-id="03e29-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="03e29-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="03e29-107">Управление параметрами конфигурации веб-службы в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="03e29-107">Manage Web Service configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/web-service-configuration-settings.md)
-    
-- [<span data-ttu-id="03e29-108">Изменение существующей веб-службы</span><span class="sxs-lookup"><span data-stu-id="03e29-108">Modify an Existing Web Service</span></span>](http://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
-    
-- [<span data-ttu-id="03e29-109">Удаление веб-службы</span><span class="sxs-lookup"><span data-stu-id="03e29-109">Delete a Web Service</span></span>](http://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
-    
- 
+# <a name="web-service-security-settings-create-new-or-modify-existing"></a><span data-ttu-id="8fe90-104">Параметров безопасности веб-службы: Создание новых или изменение существующих</span><span class="sxs-lookup"><span data-stu-id="8fe90-104">Web Service Security Settings: Create New or Modify Existing</span></span>
+
+<span data-ttu-id="8fe90-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="8fe90-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="8fe90-107">Управление параметрами конфигурации веб-службы в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="8fe90-107">Manage Web Service configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/web-service-configuration-settings.md)
+
+- [<span data-ttu-id="8fe90-108">Изменение существующей веб-службы</span><span class="sxs-lookup"><span data-stu-id="8fe90-108">Modify an Existing Web Service</span></span>](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
+
+- [<span data-ttu-id="8fe90-109">Удаление веб-службы</span><span class="sxs-lookup"><span data-stu-id="8fe90-109">Delete a Web Service</span></span>](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
+
+
 

@@ -12,19 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
-ms.openlocfilehash: 65a66f584badba0d6245e267c55c4f9be31ed688
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: da9e2bce9343186f05140fb1fff411b780202911
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23250583"
 ---
-# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a><span data-ttu-id="0b046-103">Тестирование маршрутизации голосовой связи: Создание новой или редактирование существующих тестовых сценариев</span><span class="sxs-lookup"><span data-stu-id="0b046-103">Test Voice Routing: Create New or Edit Existing Test Cases</span></span>
- 
-<span data-ttu-id="0b046-104">UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)</span><span class="sxs-lookup"><span data-stu-id="0b046-104">UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)</span></span>
-  
-- [<span data-ttu-id="0b046-105">Создание случая тестирования маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="0b046-105">Create a Voice Routing Test Case</span></span>](http://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
-    
-- [<span data-ttu-id="0b046-106">Запуск примеров тестирования маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="0b046-106">Run Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
-    
-<span data-ttu-id="0b046-107">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="0b046-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a><span data-ttu-id="6f043-103">Тестирование маршрутизации голосовой связи: Создание новой или редактирование существующих тестовых сценариев</span><span class="sxs-lookup"><span data-stu-id="6f043-103">Test Voice Routing: Create New or Edit Existing Test Cases</span></span>
+
+<span data-ttu-id="6f043-104">UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)</span><span class="sxs-lookup"><span data-stu-id="6f043-104">UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)</span></span>
+
+- [<span data-ttu-id="6f043-105">Создание случая тестирования маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="6f043-105">Create a Voice Routing Test Case</span></span>](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+
+- [<span data-ttu-id="6f043-106">Запуск примеров тестирования маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="6f043-106">Run Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+
+<span data-ttu-id="6f043-107">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="6f043-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

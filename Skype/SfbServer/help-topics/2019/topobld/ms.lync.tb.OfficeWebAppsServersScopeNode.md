@@ -12,23 +12,23 @@ localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы открыть мастер Office Online, щелкните Серверы Office Web Apps правой кнопкой мыши и выберите пункт Определение нового сервера Office Web Apps.
-ms.openlocfilehash: 95c7d60b4ffe230ab597004d1ceb006fcecbc9c0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 1bb14babf28a66c6c6cf04c4c8b317d23f21925b
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067928"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260379"
 ---
-# <a name="office-web-apps-servers-scope-node"></a><span data-ttu-id="4c47e-103">Узел области серверов Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="4c47e-103">Office Web Apps Servers Scope Node</span></span>
- 
-<span data-ttu-id="4c47e-104">Чтобы открыть мастер Office Online, щелкните **Серверы Office Web Apps** правой кнопкой мыши и выберите пункт **Определение нового сервера Office Web Apps**.</span><span class="sxs-lookup"><span data-stu-id="4c47e-104">You right click **Office Web Apps Servers** and select **New Office Web Apps Server** to open the Office Online wizard.</span></span>
-  
-![Узел области серверов Office Web Apps](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
-  
-- <span data-ttu-id="4c47e-p101">**Топология**. Эта команда позволяет задать новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, выполнить объединение с компонентами прежних версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="4c47e-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
-    
-- <span data-ttu-id="4c47e-p102">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="4c47e-p102">**Help**. You can use this option to access Help for the active node.</span></span>
-    
-## <a name="see-also"></a><span data-ttu-id="4c47e-110">См. также</span><span class="sxs-lookup"><span data-stu-id="4c47e-110">See also</span></span>
+# <a name="office-web-apps-servers-scope-node"></a><span data-ttu-id="83d27-103">Узел области серверов Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="83d27-103">Office Web Apps Servers Scope Node</span></span>
 
-[<span data-ttu-id="4c47e-111">Настройка интеграции с сервером Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="4c47e-111">Configuring Integration with Office Web Apps Server</span></span>](http://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+<span data-ttu-id="83d27-104">Чтобы открыть мастер Office Online, щелкните **Серверы Office Web Apps** правой кнопкой мыши и выберите пункт **Определение нового сервера Office Web Apps**.</span><span class="sxs-lookup"><span data-stu-id="83d27-104">You right click **Office Web Apps Servers** and select **New Office Web Apps Server** to open the Office Online wizard.</span></span>
+
+![Узел области серверов Office Web Apps](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+
+- <span data-ttu-id="83d27-p101">**Топология**. Эта команда позволяет задать новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, выполнить объединение с компонентами прежних версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="83d27-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+
+- <span data-ttu-id="83d27-p102">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="83d27-p102">**Help**. You can use this option to access Help for the active node.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="83d27-110">См. также</span><span class="sxs-lookup"><span data-stu-id="83d27-110">See also</span></span>
+
+[<span data-ttu-id="83d27-111">Настройка интеграции с сервером Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="83d27-111">Configuring Integration with Office Web Apps Server</span></span>](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)

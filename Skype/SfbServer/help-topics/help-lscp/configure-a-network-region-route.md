@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 8c73dc228d8bc6828e7bf8818e06aa2bd985b614
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 58a48112a0fdf410762904b1ebf7be1fef1186d2
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997654"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245050"
 ---
-# <a name="configure-a-network-region-route"></a><span data-ttu-id="97afc-104">Настройка маршрута области сети</span><span class="sxs-lookup"><span data-stu-id="97afc-104">Configure a Network Region Route</span></span>
- 
-<span data-ttu-id="97afc-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="97afc-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="97afc-107">Настройка маршрутов между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="97afc-107">Configuring Network Region Routes</span></span>](http://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
-    
-<span data-ttu-id="97afc-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="97afc-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="configure-a-network-region-route"></a><span data-ttu-id="b4744-104">Настройка маршрута области сети</span><span class="sxs-lookup"><span data-stu-id="b4744-104">Configure a Network Region Route</span></span>
+
+<span data-ttu-id="b4744-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="b4744-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="b4744-107">Настройка маршрутов между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="b4744-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+
+<span data-ttu-id="b4744-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="b4744-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

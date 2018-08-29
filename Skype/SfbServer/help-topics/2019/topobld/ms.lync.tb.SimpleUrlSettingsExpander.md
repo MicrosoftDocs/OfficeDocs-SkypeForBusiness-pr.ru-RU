@@ -12,41 +12,41 @@ localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы задать новый, удалить существующий или изменить активный простой URL-адресов, выполните следующие действия.
-ms.openlocfilehash: a46096db273f80753588025d0c81bb07b1d03416
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 138b830415a1a6a8e7f248aedf66980a507f7ffd
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060568"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245260"
 ---
-# <a name="simple-url-settings-expander"></a><span data-ttu-id="12d3e-103">Расширитель параметров простого URL-адреса</span><span class="sxs-lookup"><span data-stu-id="12d3e-103">Simple URL Settings Expander</span></span>
- 
-<span data-ttu-id="12d3e-104">Чтобы задать новый, удалить существующий или изменить активный простой URL-адресов, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="12d3e-104">To specify new, remove existing, or to change the active the simple URLs, do the following:</span></span>
-  
-## <a name="simple-urls"></a><span data-ttu-id="12d3e-105">Простые URL-адреса </span><span class="sxs-lookup"><span data-stu-id="12d3e-105">Simple URLs</span></span>
+# <a name="simple-url-settings-expander"></a><span data-ttu-id="46d68-103">Расширитель параметров простого URL-адреса</span><span class="sxs-lookup"><span data-stu-id="46d68-103">Simple URL Settings Expander</span></span>
 
-<span data-ttu-id="12d3e-106">Чтобы изменить или определить простых URL-адресов, сначала решите, какой из трех простых URL-адресов, которые нужно изменить.</span><span class="sxs-lookup"><span data-stu-id="12d3e-106">To modify or define the simple URLs, first decide which of the three simple URLs that you want to edit or change.</span></span> <span data-ttu-id="12d3e-107">Можно выбрать URL-адрес для доступа с телефона, URL-адрес собрания и URL-адрес административного доступа.</span><span class="sxs-lookup"><span data-stu-id="12d3e-107">You can choose from the Phone access URL, the Meeting URL, and the Administrative access URL.</span></span>
-  
-<span data-ttu-id="12d3e-108">Если требуется изменить URL-адрес для доступа с телефона или собрания, выберите этот URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="12d3e-108">To modify either the Phone access URL or the Meeting URL, select the URL that you need to change.</span></span> <span data-ttu-id="12d3e-109">Щелкните **Изменить URL-адрес**.</span><span class="sxs-lookup"><span data-stu-id="12d3e-109">Click **Edit URL**.</span></span> <span data-ttu-id="12d3e-110">Измените URL-адрес и нажмите кнопку **ОК** , чтобы сохранить URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="12d3e-110">Edit the URL, and click **OK** to save the URL.</span></span> <span data-ttu-id="12d3e-111">Для отмены изменений нажмите кнопку **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="12d3e-111">Click **Cancel** to discard any changes.</span></span>
-  
-<span data-ttu-id="12d3e-112">Для добавления нового URL-адреса нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="12d3e-112">To add a new URL, click **Add**.</span></span> <span data-ttu-id="12d3e-113">В диалоговом окне **Добавить простой URL-адрес** укажите URL-адрес и нажмите кнопку **ОК** , чтобы сохранить URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="12d3e-113">In the **Add simple URL** dialog, specify the URL, and then click **OK** to save the URL.</span></span> <span data-ttu-id="12d3e-114">Если этот URL-адрес должен быть активным, выберите **Задать этот адрес в качестве активного URL-адреса для выбранного домена**.</span><span class="sxs-lookup"><span data-stu-id="12d3e-114">Select **Make this the active URL for the selected domain** if you need to set the new URL as the active URL.</span></span> <span data-ttu-id="12d3e-115">Для отмены изменений нажмите кнопку **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="12d3e-115">Click **Cancel** to discard any changes.</span></span>
-  
-<span data-ttu-id="12d3e-116">Чтобы сделать другой URL-адрес активный URL-адрес (помечается символом зеленая галочка рядом с URL-адрес), выберите его и нажмите кнопку **Сделать активным**.</span><span class="sxs-lookup"><span data-stu-id="12d3e-116">To make a different URL the active URL (as noted by the green check mark next to the URL), select the URL and click **Make Active**.</span></span>
-  
+<span data-ttu-id="46d68-104">Чтобы задать новый, удалить существующий или изменить активный простой URL-адресов, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="46d68-104">To specify new, remove existing, or to change the active the simple URLs, do the following:</span></span>
+
+## <a name="simple-urls"></a><span data-ttu-id="46d68-105">Простые URL-адреса </span><span class="sxs-lookup"><span data-stu-id="46d68-105">Simple URLs</span></span>
+
+<span data-ttu-id="46d68-106">Чтобы изменить или определить простых URL-адресов, сначала решите, какой из трех простых URL-адресов, которые нужно изменить.</span><span class="sxs-lookup"><span data-stu-id="46d68-106">To modify or define the simple URLs, first decide which of the three simple URLs that you want to edit or change.</span></span> <span data-ttu-id="46d68-107">Можно выбрать URL-адрес для доступа с телефона, URL-адрес собрания и URL-адрес административного доступа.</span><span class="sxs-lookup"><span data-stu-id="46d68-107">You can choose from the Phone access URL, the Meeting URL, and the Administrative access URL.</span></span>
+
+<span data-ttu-id="46d68-108">Если требуется изменить URL-адрес для доступа с телефона или собрания, выберите этот URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="46d68-108">To modify either the Phone access URL or the Meeting URL, select the URL that you need to change.</span></span> <span data-ttu-id="46d68-109">Щелкните **Изменить URL-адрес**.</span><span class="sxs-lookup"><span data-stu-id="46d68-109">Click **Edit URL**.</span></span> <span data-ttu-id="46d68-110">Измените URL-адрес и нажмите кнопку **ОК** , чтобы сохранить URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="46d68-110">Edit the URL, and click **OK** to save the URL.</span></span> <span data-ttu-id="46d68-111">Для отмены изменений нажмите кнопку **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="46d68-111">Click **Cancel** to discard any changes.</span></span>
+
+<span data-ttu-id="46d68-112">Для добавления нового URL-адреса нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="46d68-112">To add a new URL, click **Add**.</span></span> <span data-ttu-id="46d68-113">В диалоговом окне **Добавить простой URL-адрес** укажите URL-адрес и нажмите кнопку **ОК** , чтобы сохранить URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="46d68-113">In the **Add simple URL** dialog, specify the URL, and then click **OK** to save the URL.</span></span> <span data-ttu-id="46d68-114">Если этот URL-адрес должен быть активным, выберите **Задать этот адрес в качестве активного URL-адреса для выбранного домена**.</span><span class="sxs-lookup"><span data-stu-id="46d68-114">Select **Make this the active URL for the selected domain** if you need to set the new URL as the active URL.</span></span> <span data-ttu-id="46d68-115">Для отмены изменений нажмите кнопку **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="46d68-115">Click **Cancel** to discard any changes.</span></span>
+
+<span data-ttu-id="46d68-116">Чтобы сделать другой URL-адрес активный URL-адрес (помечается символом зеленая галочка рядом с URL-адрес), выберите его и нажмите кнопку **Сделать активным**.</span><span class="sxs-lookup"><span data-stu-id="46d68-116">To make a different URL the active URL (as noted by the green check mark next to the URL), select the URL and click **Make Active**.</span></span>
+
 > [!NOTE]
-> <span data-ttu-id="12d3e-117">Может быть только один активный URL-адрес для каждого домена Session Initiation Protocol (SIP).</span><span class="sxs-lookup"><span data-stu-id="12d3e-117">There can only be one active URL for each Session Initiation Protocol (SIP) domain.</span></span> 
-  
-<span data-ttu-id="12d3e-118">Чтобы удалить URL-адрес, выберите его и нажмите кнопку **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="12d3e-118">To remove a URL, select the URL and click **Remove**.</span></span>
-  
-> [!CAUTION]
-> <span data-ttu-id="12d3e-119">Обязательно прочитайте сведения на странице диалогового окна Параметры простых URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="12d3e-119">Be sure to read the information on the simple URLs settings dialog page.</span></span> <span data-ttu-id="12d3e-120">Удаление URL-адрес собрания для отрисовки существующих собраний, запланированных пользователями более недоступна.</span><span class="sxs-lookup"><span data-stu-id="12d3e-120">Removing a Meeting URL can render existing meetings scheduled by users no longer accessible.</span></span> <span data-ttu-id="12d3e-121">Необходимо учитывайте, отправляемых из существующего URL-адрес после внесения active новый URL-адрес собрания.</span><span class="sxs-lookup"><span data-stu-id="12d3e-121">Consider leaving the existing URL after making the new Meeting URL active.</span></span> <span data-ttu-id="12d3e-122">Если вы уверены, что пользователи больше не используется старый URL-адрес собрания, его можно удалить его.</span><span class="sxs-lookup"><span data-stu-id="12d3e-122">When you are sure that users are no longer using the old Meeting URL, you can safely remove it.</span></span> 
-  
-<span data-ttu-id="12d3e-123">Чтобы изменить URL-адрес административного доступа, отредактируйте запись.</span><span class="sxs-lookup"><span data-stu-id="12d3e-123">To edit or change the Administrative access URL, edit the entry.</span></span>
-  
-<span data-ttu-id="12d3e-124">После завершения все изменения на странице "Изменение свойств", нажмите кнопку **ОК** , чтобы сохранить изменения.</span><span class="sxs-lookup"><span data-stu-id="12d3e-124">After you are finished with all changes on the Edit Properties page, click **OK** to save the changes.</span></span> <span data-ttu-id="12d3e-125">Для отмены изменений нажмите кнопку **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="12d3e-125">Click **Cancel** to discard changes.</span></span>
-  
-###  <a name="see-also"></a><span data-ttu-id="12d3e-126">См. также</span><span class="sxs-lookup"><span data-stu-id="12d3e-126">See also</span></span>
+> <span data-ttu-id="46d68-117">Может быть только один активный URL-адрес для каждого домена Session Initiation Protocol (SIP).</span><span class="sxs-lookup"><span data-stu-id="46d68-117">There can only be one active URL for each Session Initiation Protocol (SIP) domain.</span></span>
 
-<span data-ttu-id="12d3e-127">Дополнительные сведения см [простых URL-адресов](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)</span><span class="sxs-lookup"><span data-stu-id="12d3e-127">For details, see [Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)</span></span>
-  
+<span data-ttu-id="46d68-118">Чтобы удалить URL-адрес, выберите его и нажмите кнопку **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="46d68-118">To remove a URL, select the URL and click **Remove**.</span></span>
+
+> [!CAUTION]
+> <span data-ttu-id="46d68-119">Обязательно прочитайте сведения на странице диалогового окна Параметры простых URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="46d68-119">Be sure to read the information on the simple URLs settings dialog page.</span></span> <span data-ttu-id="46d68-120">Удаление URL-адрес собрания для отрисовки существующих собраний, запланированных пользователями более недоступна.</span><span class="sxs-lookup"><span data-stu-id="46d68-120">Removing a Meeting URL can render existing meetings scheduled by users no longer accessible.</span></span> <span data-ttu-id="46d68-121">Необходимо учитывайте, отправляемых из существующего URL-адрес после внесения active новый URL-адрес собрания.</span><span class="sxs-lookup"><span data-stu-id="46d68-121">Consider leaving the existing URL after making the new Meeting URL active.</span></span> <span data-ttu-id="46d68-122">Если вы уверены, что пользователи больше не используется старый URL-адрес собрания, его можно удалить его.</span><span class="sxs-lookup"><span data-stu-id="46d68-122">When you are sure that users are no longer using the old Meeting URL, you can safely remove it.</span></span>
+
+<span data-ttu-id="46d68-123">Чтобы изменить URL-адрес административного доступа, отредактируйте запись.</span><span class="sxs-lookup"><span data-stu-id="46d68-123">To edit or change the Administrative access URL, edit the entry.</span></span>
+
+<span data-ttu-id="46d68-124">После завершения все изменения на странице "Изменение свойств", нажмите кнопку **ОК** , чтобы сохранить изменения.</span><span class="sxs-lookup"><span data-stu-id="46d68-124">After you are finished with all changes on the Edit Properties page, click **OK** to save the changes.</span></span> <span data-ttu-id="46d68-125">Для отмены изменений нажмите кнопку **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="46d68-125">Click **Cancel** to discard changes.</span></span>
+
+###  <a name="see-also"></a><span data-ttu-id="46d68-126">См. также</span><span class="sxs-lookup"><span data-stu-id="46d68-126">See also</span></span>
+
+<span data-ttu-id="46d68-127">Дополнительные сведения см [простых URL-адресов](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)</span><span class="sxs-lookup"><span data-stu-id="46d68-127">For details, see [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)</span></span>
+
 

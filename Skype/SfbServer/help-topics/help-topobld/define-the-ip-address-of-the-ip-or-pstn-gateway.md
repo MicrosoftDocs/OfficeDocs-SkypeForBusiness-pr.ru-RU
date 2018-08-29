@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Определение адресов IPv4 или IPv6 для шлюза IP-адресов или по телефону коммутируемой телефонной сети (общего пользования PSTN), выбрав включить IPv4 или включить IPv6. Можно либо использовать все настроенные IP-адреса или ограничьте использование службы выбранных IP-адресов.
-ms.openlocfilehash: 6f1ec0f4364c95b36092d74b27df1d3ba27fe0ac
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c6d287fdb6705bbca00a6aa269f548f30417c513
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003562"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260603"
 ---
-# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a><span data-ttu-id="e75f2-104">Определите IP-адрес шлюза IP или ТСОП</span><span class="sxs-lookup"><span data-stu-id="e75f2-104">Define the IP Address of the IP or PSTN Gateway</span></span>
- 
-<span data-ttu-id="e75f2-105">Определение адресов IPv4 или IPv6 для шлюза IP-адресов или по телефону коммутируемой телефонной сети (общего пользования PSTN), выбрав **Включить IPv4** или **Включить IPv6**.</span><span class="sxs-lookup"><span data-stu-id="e75f2-105">You define the IPv4 or IPv6 addresses for the IP or phone switched telephone network (PSTN) gateway by selecting either **Enable IPv4** or **Enable IPv6**.</span></span> <span data-ttu-id="e75f2-106">Вы можете **использовать все настроенные IP-адреса** или **ограничьте использование службы выбранных IP-адресов**.</span><span class="sxs-lookup"><span data-stu-id="e75f2-106">You can choose either **Use all configured IP addresses** or **Limit service usage to selected IP addresses**.</span></span>
-  
-<span data-ttu-id="e75f2-107">Если выбран параметр **использовать все настроенные IP-адреса**, будет использоваться всеми адресами, настроенными на шлюз.</span><span class="sxs-lookup"><span data-stu-id="e75f2-107">If you select **Use all configured IP addresses**, all addresses configured on the gateway will be used.</span></span> <span data-ttu-id="e75f2-108">При необходимости выберите **ограничьте использование службы для выбранных IP-адресов**, которое позволяет запись **IP-адрес ТСОП** .</span><span class="sxs-lookup"><span data-stu-id="e75f2-108">Optionally, select **Limit service usage to selected IP addresses**, which enables the **PSTN IP address** entry.</span></span> <span data-ttu-id="e75f2-109">Введите адрес IPv4 или IPv6, назначенную для этот шлюз.</span><span class="sxs-lookup"><span data-stu-id="e75f2-109">Enter the IPv4 or IPv6 address that has been assigned for this gateway.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="e75f2-110">См. также</span><span class="sxs-lookup"><span data-stu-id="e75f2-110">See also</span></span>
+# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a><span data-ttu-id="a5a2b-104">Определите IP-адрес шлюза IP или ТСОП</span><span class="sxs-lookup"><span data-stu-id="a5a2b-104">Define the IP Address of the IP or PSTN Gateway</span></span>
 
-[<span data-ttu-id="e75f2-111">Связи с телефонным требования к конференц-связи</span><span class="sxs-lookup"><span data-stu-id="e75f2-111">Dial-In Conferencing Requirements</span></span>](http://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
+<span data-ttu-id="a5a2b-105">Определение адресов IPv4 или IPv6 для шлюза IP-адресов или по телефону коммутируемой телефонной сети (общего пользования PSTN), выбрав **Включить IPv4** или **Включить IPv6**.</span><span class="sxs-lookup"><span data-stu-id="a5a2b-105">You define the IPv4 or IPv6 addresses for the IP or phone switched telephone network (PSTN) gateway by selecting either **Enable IPv4** or **Enable IPv6**.</span></span> <span data-ttu-id="a5a2b-106">Вы можете **использовать все настроенные IP-адреса** или **ограничьте использование службы выбранных IP-адресов**.</span><span class="sxs-lookup"><span data-stu-id="a5a2b-106">You can choose either **Use all configured IP addresses** or **Limit service usage to selected IP addresses**.</span></span>
+
+<span data-ttu-id="a5a2b-107">Если выбран параметр **использовать все настроенные IP-адреса**, будет использоваться всеми адресами, настроенными на шлюз.</span><span class="sxs-lookup"><span data-stu-id="a5a2b-107">If you select **Use all configured IP addresses**, all addresses configured on the gateway will be used.</span></span> <span data-ttu-id="a5a2b-108">При необходимости выберите **ограничьте использование службы для выбранных IP-адресов**, которое позволяет запись **IP-адрес ТСОП** .</span><span class="sxs-lookup"><span data-stu-id="a5a2b-108">Optionally, select **Limit service usage to selected IP addresses**, which enables the **PSTN IP address** entry.</span></span> <span data-ttu-id="a5a2b-109">Введите адрес IPv4 или IPv6, назначенную для этот шлюз.</span><span class="sxs-lookup"><span data-stu-id="a5a2b-109">Enter the IPv4 or IPv6 address that has been assigned for this gateway.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="a5a2b-110">См. также</span><span class="sxs-lookup"><span data-stu-id="a5a2b-110">See also</span></span>
+
+[<span data-ttu-id="a5a2b-111">Связи с телефонным требования к конференц-связи</span><span class="sxs-lookup"><span data-stu-id="a5a2b-111">Dial-In Conferencing Requirements</span></span>](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
