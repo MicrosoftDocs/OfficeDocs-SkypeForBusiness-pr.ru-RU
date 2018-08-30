@@ -4,12 +4,12 @@ hide_bc: true
 title: Документация и практическое руководство по Microsoft Teams
 description: Документация и практическое руководство по Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: a9fa022e0d70655f916ab76988199fa6d06b648e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 519a5a254fcc75b0f29c8f83c7bdf87b00103ccf
+ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546353"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23289901"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -90,7 +90,7 @@ ms.locfileid: "22546353"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Облачная система голосовой связи</h3>
-                                                    <p>Практическое руководство по началу работы со службами аудиоконференции и телефонной системы в Microsoft Teams</p>
+                                                    <p>Развертывание аудиоконференций Тарифные планы и телефонной системы в группах</p>
                                                 </div>
                                             </div>
                                         </div>
