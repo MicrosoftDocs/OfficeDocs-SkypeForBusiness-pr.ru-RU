@@ -69,6 +69,40 @@
 
 
 <!-- ============================================================ -->
+# [Обновление от Скайп для бизнеса в группы](Journey-SkypeforBusiness-Teams.md)
+## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Обновление базовой](upgrade-basic.md)
+### [Образец сообщения электронной почты и опросов](upgrade-emails-surveys.md)
+## [Обновление специалистов](upgrade-pro.md)
+## [Планирование обновления пути](upgrade-plan-journey.md)
+### [Прикрепить другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
+### [Определение области проекта](upgrade-define-project-scope.md)
+### [Понять взаимодействие и совместная работа](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Выбор обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Планирование качества](upgrade-plan-for-quality.md)
+## [Подготовка среды для групп](upgrade-prepare-environment.md)
+### [Подготовка ИТ-персонал для групп](upgrade-prepare-IT-pros.md)
+### [Необходимые компоненты](upgrade-plan-journey-prerequisites.md)
+### [Оценка среды](upgrade-plan-journey-evaluate-environment.md)
+### [Подготовка сети](upgrade-prepare-environment-prepare-network.md)
+### [Подготовка службы](upgrade-prepare-environment-prepare-service.md)
+## [Подготовка групп в вашей организации](upgrade-prepare-organization.md)
+### [Оцените готовность к организационных изменений](upgrade-org-change-readiness.md)
+### [Подготовка плана готовность пользователей](upgrade-user-readiness.md)
+## [Проведение пилотных пользователей](pilot-essentials.md)
+## [Выполнение обновления на группы](upgrade-to-teams.md)
+### [Обновление от Скайп для бизнеса в Интернете по группам](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Обновление с Скайп для гибридной среды Business по группам](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [Обновление от Скайп для бизнеса локальных групп,](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [Диск выгоду за счет внедрения пользователя](continue-journey.md)
+### [Использование службы](upgrade-operate-my-service.md)
+### [Отслеживание качества](upgrade-monitor-quality.md)
+### [Улучшения службы](upgrade-enhance-my-service.md)
+## [Вопросы и ответы](FAQ-journey.md)
+
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
 # Управление
 ## [Качество взаимодействия руководство по решению](quality-of-experience-review-guide.md)
 <!--## Call analytics
@@ -102,40 +136,6 @@
 ## [Видеоролики: Аудиоконференции в Teams](audio-conferencing-videos.md)
 <!-- ============================================================ -->
 
-
-<!-- ============================================================ -->
-# [Обновление до группами Майкрософт Скайп для бизнеса](Journey-SkypeforBusiness-Teams.md)
-## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Обновление базовой](upgrade-basic.md)
-### [Образец сообщения электронной почты и опросов](upgrade-emails-surveys.md)
-## [Обновление специалистов](upgrade-pro.md)
-## [Планирование обновления пути](upgrade-plan-journey.md)
-### [Прикрепить другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
-### [Определение области проекта](upgrade-define-project-scope.md)
-### [Понять взаимодействие и совместная работа](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [Выбор обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Планирование качества](upgrade-plan-for-quality.md)
-## [Подготовка среды для групп](upgrade-prepare-environment.md)
-### [Подготовка ИТ-персонал для групп](upgrade-prepare-IT-pros.md)
-### [Необходимые компоненты](upgrade-plan-journey-prerequisites.md)
-### [Оценка среды](upgrade-plan-journey-evaluate-environment.md)
-### [Подготовка сети](upgrade-prepare-environment-prepare-network.md)
-### [Подготовка службы](upgrade-prepare-environment-prepare-service.md)
-## [Подготовка групп в вашей организации](upgrade-prepare-organization.md)
-### [Оцените готовность к организационных изменений](upgrade-org-change-readiness.md)
-### [Подготовка плана готовность пользователей](upgrade-user-readiness.md)
-## [Проведение пилотных пользователей](pilot-essentials.md)
-## [Выполнение обновления на группы](upgrade-to-teams.md)
-### [Обновление от Скайп для бизнеса в Интернете по группам](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [Обновление с Скайп для гибридной среды Business по группам](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Обновление от Скайп для бизнеса локальных групп,](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [Диск выгоду за счет внедрения пользователя](continue-journey.md)
-### [Использование службы](upgrade-operate-my-service.md)
-### [Отслеживание качества](upgrade-monitor-quality.md)
-### [Улучшения службы](upgrade-enhance-my-service.md)
-## [Вопросы и ответы](FAQ-journey.md)
-
-<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Безопасность и соответствие требованиям
