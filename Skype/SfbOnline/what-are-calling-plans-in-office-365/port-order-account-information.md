@@ -1,5 +1,5 @@
 ---
-title: Сведения об учетной записи заказа на порт
+title: Сведения об учетной записи в заказе на перенос номера
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Узнайте, какие сведения учетной записи, вам потребуются при работе с помощью мастера новый локальный заказ номер порта. '
-ms.openlocfilehash: bd2f929a7268db03c1d9e3660d6f3df20ff9cc72
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 69d972709e0711f8ac17131a81c604044d869c85
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780484"
 ---
-# <a name="port-order-account-information"></a>Сведения об учетной записи заказа на порт
+# <a name="port-order-account-information"></a>Сведения об учетной записи в заказе на перенос номера
 
 При использовании страницы **сведений об учетной записи** в мастере **Новый локальный заказ номер порта** для отправки заказа на порт, необходимо будет почти все те же данные, который будет предоставлять ЗАГРУ, в том числе:
   
@@ -66,19 +67,19 @@ ms.lasthandoff: 04/26/2018
 > [!CAUTION]
 > **Не отключайте услуги, предоставляемые поставщиком услуг или оператором связи.**> **Для переноса номеров в Skype для бизнеса Online услуги предыдущего поставщика должны оставаться активными.**> **Не блокируйте свой счет у поставщика услуг или оператора связи. Поменять оператора связи заблокированного счета не представляется возможным. Для отмены блокировки счета уполномоченный представитель отправляет поставщику услуг соответствующую заявку. В зависимости от оператора связи, этот процесс может занять от 1 до 3 дней.**> 
   
- **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).**
+ **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## <a name="related-topics"></a>См. также:
-[Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+[Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-(.. аудио- и what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

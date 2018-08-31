@@ -1,5 +1,5 @@
 ---
-title: Как ввести номера телефонов?
+title: Как правильно вводить телефонные номера?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: 'Узнайте, как настраивать номера телефонов при переносе их Скайп для бизнеса. '
-ms.openlocfilehash: 74914b98ccc60984f1d2be16f6a3351e7b26b2cf
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: b5b547a88dab1c812a47c310645254985cc0b606
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780602"
 ---
-# <a name="how-should-i-enter-the-phone-numbers"></a>Как ввести номера телефонов?
+# <a name="how-should-i-enter-the-phone-numbers"></a>Как правильно вводить телефонные номера?
 
 При переносе номера телефонов, им необходимо ввести в правильном формате. 
   
@@ -80,20 +81,20 @@ ms.lasthandoff: 04/26/2018
     
   - «-» Используется для только разделение двух чисел. Он не поддерживается для включения нескольких «-» в диапазон номеров. Например, следует вводить **(425) 555-0649-(425) 555-1115** в виде **(425) 5550649 - (425) 5551115**.
     
- **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).**
+ **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
   
 ## <a name="related-topics"></a>См. также:
-[Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+[Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Управление номерами телефонов организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

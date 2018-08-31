@@ -19,11 +19,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Узнайте о проверке адреса, ее важности и связи с адресами и службами экстренного реагирования. '
-ms.openlocfilehash: c82208dd08018c812451a6a26b5a9c6e5420410d
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: d5a64273ae29bac3b1f6e42212a0b50aa3dca9a5
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779118"
 ---
 # <a name="what-is-address-validation"></a>Что такое проверка адреса?
 
@@ -36,10 +37,11 @@ ms.lasthandoff: 04/26/2018
 
   
 ## <a name="related-topics"></a>См. также:
-[Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
+[Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
-[Управление номерами телефонов для организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-[Условия и положения, распространяющиеся на экстренные вызовы](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
+
+[Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

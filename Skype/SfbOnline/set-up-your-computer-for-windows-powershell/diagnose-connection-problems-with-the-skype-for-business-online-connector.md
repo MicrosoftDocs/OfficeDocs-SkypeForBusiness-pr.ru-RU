@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 7daf8702d2e21ff83bc5d246aff61bfcdb945418
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 60ed4be1d4c20426a645002f1b7a71f65f120774
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779098"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -40,9 +41,9 @@ ms.lasthandoff: 05/25/2018
     
 - [Возможность подключения к клиенту отключена в Skype для бизнеса Online](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
     
-- [Превышено максимальное число параллельных оболочек для этого пользователя в Skype для бизнеса Online ](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKMaxNumberShellsUser)
+- [Превышено максимальное количество одновременных оболочек для этого пользователя в Скайп для бизнеса в Интернет](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKMaxNumberShellsUser)
     
-- [Превышено максимальное число параллельных оболочек для этого клиента в Skype для бизнеса Online ](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
+- [Превышено максимальное количество одновременных оболочек для клиента в Скайп для бизнеса в Интернет](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
     
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Ошибка Import-Module, вызванная политикой выполнения Windows PowerShell
 <a name="BKMKPowerShellExecutionPolicy"> </a>
@@ -141,7 +142,7 @@ ms.lasthandoff: 05/25/2018
 
 - **Решение**: закрыть один или несколько предыдущих подключений является единственным способом для устранения этой проблемы. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.  
  
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Связанные разделы
 [Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

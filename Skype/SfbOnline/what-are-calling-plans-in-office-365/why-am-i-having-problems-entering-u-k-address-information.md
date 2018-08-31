@@ -1,5 +1,5 @@
 ---
-title: Почему возникают проблемы, введя Соединенное Королевство сведения об адресе?
+title: Почему возникают проблемы с вводом адреса в Соединенном Королевстве?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Ниже приведены некоторые причины, почему может не получается адрес или адреса для проверки правильности в Соединенное Королевство (Великобритания).
-ms.openlocfilehash: bb1a42f7607979e4a41ec96e9ce80b0b4b8a4dac
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 3c0749f488ece74e6038786af79d47f1669151b1
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779451"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Почему возникают проблемы, введя Соединенное Королевство сведения об адресе?
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Почему возникают проблемы с вводом адреса в Соединенном Королевстве?
 
 Ниже приведены некоторые причины, почему может не получается адрес или адреса для проверки правильности в Соединенное Королевство (Великобритания).
   
@@ -109,11 +110,11 @@ ms.lasthandoff: 04/26/2018
 
    
 ## <a name="related-topics"></a>См. также:
-[Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+[Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

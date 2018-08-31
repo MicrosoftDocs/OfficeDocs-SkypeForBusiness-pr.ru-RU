@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: c84e8b28d6a13e3dca64a08a63aa516556357dde
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914754"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779773"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -31,7 +31,7 @@ ms.locfileid: "22914754"
 
 - [Пары SBC с телефонной системы Microsoft и проверки связывания](#pair-the-sbc-to-direct-routing-service-of-phone-system)
 - [Включение пользователей для службы напрямую маршрутизации](#enable-users-for-direct-routing-service)
-- [Убедитесь, что группами Майкрософт является предпочтительным вызывающего клиента для пользователей](#set-microsoft-teams-as-the-preferred-calling-client-for-the-users) 
+- [Убедитесь, что группами Майкрософт является предпочтительным вызывающего клиента для пользователей](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
 ## <a name="pair-the-sbc-to-direct-routing-service-of-phone-system"></a>Пары SBC для направления маршрутизации службы телефонной системой 
 
@@ -171,7 +171,7 @@ Enabled               : True
 Необязательный лицензии: 
 
 - Вызов плана 
-- Аудиоконференции 
+- Аудиоконференция 
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Пользователь является, размещенными в Скайп для бизнеса в Интернет 
 
@@ -517,7 +517,6 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 </pre>
 
 Результатом будет неограниченный политика голосовой связи, применяются к вызовам, Джон Вудз и выполним логику маршрутизации вызовов для США, Канада и международных звонков.
-
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Установка группами Майкрософт по предпочитаемый вызывающего клиента для пользователей
 

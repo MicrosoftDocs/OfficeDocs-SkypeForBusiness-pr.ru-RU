@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 8f8d6bc1e2fc08e98c11b00bfda4e66c978c69a7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4a8c3c167c8830dfc240b4ce5000f96c5ccbb3f
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241936"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779028"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>Каково состояние моих заказов на перенос номеров?
 
@@ -42,19 +42,19 @@ ms.locfileid: "23241936"
 |**Ошибка** <br/> |Нет  <br/> |Да  <br/> |Да  <br/> |Да (в настоящее время невозможно удалить номеру порта Если возникает ошибка. Порядок порта необходимо повторно создать или вам требуется [обращение в службу поддержки продуктов бизнес - Admin справки](https://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).  <br/> |Оператор проигравшей отклонил порядке.  <br/> |
 |**Завершена** <br/> |Да  <br/> |Нет  <br/> |Нет  <br/> |Нет  <br/> |Номера были успешно перенесены.  <br/> |
 |**Отменить** <br/> |Нет  <br/> |Да  <br/> |Нет  <br/> |Нет  <br/> |Администратор отменил порядке.  <br/> |
-
- **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).**
-
+   
+ **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ 
 > [!NOTE]
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 ## <a name="related-topics"></a>См. также:
-[Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+[Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
