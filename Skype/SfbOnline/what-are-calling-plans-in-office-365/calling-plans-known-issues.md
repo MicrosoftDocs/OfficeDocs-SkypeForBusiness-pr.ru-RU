@@ -1,5 +1,5 @@
 ---
-title: Вызов планы известные проблемы
+title: Известные проблемы с планами звонков
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,18 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Узнайте, известные проблемы с телефонной для Office 365 (вызов ТСОП) и что можно сделать о них. '
-ms.openlocfilehash: d201db80c2da09223d8e3b1935c383089f997382
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 6846fc2e5bd2e1293ca5185a642a813275921ea4
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779301"
 ---
-# <a name="calling-plans-known-issues"></a>Вызов планы известные проблемы
+# <a name="calling-plans-known-issues"></a>Известные проблемы с планами звонков
 
 Тарифные планы в Office 365 являются новой возможностью в Скайп для бизнеса в Интернет. Ниже представлены проблемы, которые они отслеживаемые и активно изучению. Они потенциально разрешается при обновлении компонента в будущем построения в Office 365 и Скайп для бизнеса в Интернет.
   
-## <a name="calling-plans-known-issues"></a>Вызов планы известные проблемы
+## <a name="calling-plans-known-issues"></a>Известные проблемы с планами звонков
 
 |**Известные проблемы**|**Комментарии**|
 |:-----|:-----|
@@ -38,13 +39,13 @@ ms.lasthandoff: 04/26/2018
 > Если вам потребуется получить дополнительные номера телефонов, чем это, пожалуйста, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
    
 ## <a name="related-topics"></a>См. также:
-[Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+[Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Управление номерами телефонов организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

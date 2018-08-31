@@ -1,5 +1,5 @@
 ---
-title: Что такое Мои выставления счетов по телефону?
+title: Каков мой телефон для выставления счетов?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,28 +20,29 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте о вашей Скайп для бизнеса, выставления счетов телефонный номер и где можно получить пошаговые инструкции по перемещению номер.
-ms.openlocfilehash: 498ccb436adb181aa1399c9643dcaf52f3884663
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: e73a8d003d3be6b14aaacc36fe0c9a8b3f4159b1
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780932"
 ---
-# <a name="what-is-my-billing-telephone-number"></a>Что такое Мои выставления счетов по телефону?
+# <a name="what-is-my-billing-telephone-number"></a>Каков мой телефон для выставления счетов?
 
 Выставления счетов телефонный номер (BTN) — это основной номер телефона, включенные в счете и международные с поставщиком услуг или поставщика. Если выполняется перемещение телефонный номер из учетной записи, которая имеет только один номер телефона, необходимо поместить этот номер телефона в. Если выполняется перемещение телефонных номеров из учетной записи, которая имеет более одного, позволяет просматривать счете или обратитесь к поставщику услуг или поставщика для определения возможности выставления счетов номер телефона для вашей учетной записи.
   
- **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).**
+ **Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
   
 ## <a name="related-topics"></a>См. также:
-[Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+[Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
