@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Служба переноса собраний (MMS) \x97 это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams."
-ms.openlocfilehash: 820726451c1ed9a28d29882903348f231ee4ce16
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
-ms.translationtype: MT
+ms.openlocfilehash: 013e68ada16f15b3a410823680ec062b9fb7fa3a
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703811"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780504"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Настройка службы переноса собраний (MMS)
 
-Служба переноса собраний (MMS)  это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams.  Это средство не переносятся Скайп для собраний Business участникам собрания групп Майкрософт.  
+Служба миграции собраний (MMS) - это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. MMS позволяет пользователям отказаться от необходимости запускать средство миграции собрания для обновления их собраний в Skype для бизнеса и Microsoft Teams. Эта служба не мигрирует собрания Skype для бизнеса в собрания Microsoft Teams.  
   
  **Требования**
   
@@ -63,7 +63,7 @@ MMS обновляет собрания Skype для пользователей 
   
 - Так как для работы MMS необходимо, чтобы почтовый ящик пользователя находился в Exchange Online, то если вы одновременно переносите почтовые ящики с локального сервера Exchange Server, сначала переместите почтовый ящик пользователя в Exchange Online.
     
-- Assign the **Audio Conferencing** license to the user before you run the `Move-CSUser` cmdlet to migrate the user. This is because MMS also updates meetings when audio conferencing settings are changed for a user. If you don't assign the license first, MMS will update all meetings again when you assign the license.
+- Назначение лицензии  для пользователя **Аудиоконференции**перед запуском командлета `Move-CSUser` используется для миграции пользователя. Это причине того, что MMS также обновляет собрания при изменении параметров аудиоконференции для пользователя. Если вы не назначаете лицензию сначала, MMS  снова обновит все собрания при её назначении.
     
 ### <a name="if-youre-currently-using-a-third-party-audio-conferencing-provider-acp"></a>Использование стороннего поставщика конференц-связи с телефонным подключением
 
@@ -89,7 +89,7 @@ MMS обновляет существующие собрания Skype для б
     
 - При переключении пользователя на новый мост аудиоконференции.
     
-- При освобождении номера телефона на мосте аудиоконференции. Это сложный сценарий, который потребует дополнительных действий. Дополнительные сведения см. в разделе [Измените платные или бесплатные номера телефонов для моста аудиоконференций.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- При освобождении номера телефона на мосте аудиоконференции. Это сложный сценарий, который потребует дополнительных действий. Дополнительные сведения см. в разделе [Измените платные или бесплатные номера телефонов для моста аудиоконференций.](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
     
 > [!IMPORTANT]
 > MMS обновляет собрания только в том случае, если вы используете мост Майкрософт. При использовании стороннего поставщика аудиоконференций пользователям потребуется обновить свои собрания вручную. В этом случае можно воспользоваться [средством переноса собраний](https://go.microsoft.com/fwlink/p/?linkid=626047). 
@@ -124,7 +124,7 @@ MMS обновляет существующие собрания Skype для б
     
 - При переносе собрания MMS заменяет все сведения в блоке информации о собрании по сети. Если же пользователь изменил этот блок, внесенные им изменения будут перезаписаны. Все остальные данные в сведениях о собрании, за исключением этого блока, останутся нетронутыми.
     
-     ![The meeting block that gets updated by MMS](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+     ![Блокировка собрания, обновляемого MMS](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
   
 - Содержимое собрания, которое было создано или присоединено к собранию (доски, опросы и т. д.), не сохранится после переноса с помощью MMS. Если организаторы собрания добавили содержимое к собранию заранее, это содержимое не придется снова создавать после запуска MMS.
     
@@ -140,12 +140,12 @@ MMS обновляет существующие собрания Skype для б
   
 ## <a name="managing-mms"></a>Управление MMS
 
-Необходимо использовать Windows PowerShell для управления MMS и проверьте состояние текущих миграций. В этом разделе предполагается, что вы знакомы с использованием PowerShell для управления организацией Skype для бизнеса. Если вы только начинаете PowerShell, в разделе [С помощью PowerShell для управления вашей Скайп для организации](setting-up-the-meeting-migration-service-mms.md#WPSInfo) в конце этой статьи.
+Для управления MMS и проверки состояния операций миграции нужно использовать Windows PowerShell. В этом разделе предполагается, что вы знакомы с использованием PowerShell для управления организацией Skype для бизнеса. Если вам нужна помощь с PowerShell, обратитесь к разделу [Управление организацией Skype для бизнеса с помощью PowerShell](setting-up-the-meeting-migration-service-mms.md#WPSInfo) в конце этой статьи.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-### <a name="how-do-i-check-the-status-of-meeting-migrations"></a>Как проверить состояние переноса собраний?
+### <a name="how-do-i-check-the-status-of-meeting-migrations"></a>Как проверить состояние миграции собраний?
 
 Для проверки состояния переноса собраний можно запустить командлет  `Get-CsMeetingMigrationStatus`. Ниже приведено несколько примеров.
   
@@ -155,9 +155,9 @@ MMS обновляет существующие собрания Skype для б
 Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
-Эта команда выведет состояния всех операций переноса в таблице:
+Эта команда выведет состояния всех операций переноса в виде таблицы:
   
-Состояние UserCount —<br/> Ожидающие 21<br/>InProgress 6<br/> Сбой 2 <br/> Успешных 131
+State UserCount---------------<br/> Pending 21<br/>InProgress 6<br/> Failed 2 <br/> Succeeded 131
 > [!IMPORTANT]
 > Если вы видите, что некоторые операции переноса завершились сбоем, устраните ошибки как можно быстрее. Пока вы не устраните ошибки, пользователи не смогут присоединяться к собраниям, создаваемым этими пользователями. Дополнительные сведения см. в разделе [Что делать, если произошла ошибка?](setting-up-the-meeting-migration-service-mms.md#Troubleshooting)
   
@@ -252,7 +252,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
 
  **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Чтобы убедиться, что выполняется версия 3.0 или более поздняя версия: **Меню "Пуск"** > **Windows PowerShell**.
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
@@ -264,7 +264,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
   
  **Запуск сеанса Windows PowerShell**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Из **меню "Пуск"** > **Windows PowerShell**.
     
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     
@@ -284,7 +284,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Причины использования Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
@@ -296,4 +296,4 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
     
 ## <a name="related-topics"></a>See also
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
