@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: В этой статье приведены требования для поддержки систем комнаты Скайп версии 2.
-ms.openlocfilehash: 0cb0a2cc0508f3499c94971647a22a936fc0648d
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: ce5b8343973fca50970132accd7833641ed9c5a1
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601936"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23797346"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
  
@@ -51,9 +51,9 @@ ms.locfileid: "22601936"
 **Поддерживаемые консоли**
 |консоль;|Процессор|ОЗУ|Диск|
 |:-----|:-----|:-----|:-----|
-|[Сервер-концентратор Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Основные i5  |8 ГБ  |128 ГБ  |  
+|[Сервер-концентратор ThinkSmart Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Основные i5  |8 ГБ  |128 ГБ  |  
 |[HP интеллектуальных Slice к собранию G2 комнат](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Основные i5  |8 ГБ  |128 ГБ  |  
-    
+
 - Один из следующих параметров закрепления станции для обеспечения безопасности планшетном ПК к собранию комнаты в таблице. 
     
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
