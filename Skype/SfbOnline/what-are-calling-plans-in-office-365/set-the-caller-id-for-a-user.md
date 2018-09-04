@@ -19,21 +19,21 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Система телефона в Office 365 предоставляет идентификатора по умолчанию, который является назначенный телефонный номер пользователя. Можно изменить или заблокировать идентификатор звонящего (также называемая вызов код строки) для пользователя. Дополнительные сведения об использовании идентификатора звонящего в вашей организации, можно перейти, как идентификатор звонящего используются в организации.
-ms.openlocfilehash: a48edfd6f0b6967f1f9c628b415f781b8c4832c7
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
-ms.translationtype: MT
+description: Телефонная система в Office 365 предоставляет идентификатор абонента по умолчанию, который является назначенным пользователю номером телефона. Вы можете изменить или заблокировать идентификатор абонента (также называемый идентификатором вызывающей линии) для пользователя. Дополнительные сведения об использовании идентификатора абонента в организации см. в разделе «Использование идентификатора абонента в организации».
+ms.openlocfilehash: cf6f1aab6f865a87186b7acb793e5aa7829907aa
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500856"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780820"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Настройка идентификатора абонента для пользователя
-Система телефона в Office 365 предоставляет идентификатора по умолчанию, который является назначенный телефонный номер пользователя. Можно изменить или заблокировать идентификатор звонящего (также называемая вызов код строки) для пользователя. Дополнительные сведения об использовании идентификатора звонящего в вашей организации, перейдя [как идентификатор звонящего используются в организации](how-can-caller-id-be-used-in-your-organization.md).
+Телефонная система в Office 365 предоставляет идентификатор вызывающего абонента по умолчанию, который является назначенным пользователю номером телефона. Вы можете изменить или заблокировать идентификатор вызывающего абонента (также называемый идентификатором вызывающей линии) для пользователя. Дополнительные сведения об использовании идентификатора вызывающего абонента в организации см. в разделе [Использование идентификатора абонента в организации](how-can-caller-id-be-used-in-your-organization.md).
   
 > [!TIP]
-> Нельзя блокировать входящие звонки в настоящее время Скайп для бизнеса в Интернет. 
+> В настоящее время в Skype для бизнеса Online невозможно заблокировать входящие вызовы. 
   
-Для изменения доступны следующие настройки:
+Для изменения доступны следующие параметры.
   
 > [!NOTE]
 > Эта функция **не предназначена** для организаций с локальными развертываниями Lync или Skype для бизнеса Server.
@@ -43,9 +43,9 @@ ms.locfileid: "19500856"
     > [!NOTE]
     > Чтобы использовать параметр  _Service_, необходимо указать допустимый номер службы.
   
-- **Блокировать их исходящих Звонящего** Можно заблокировать исходящей Звонящего отправки для исходящих вызовов ТСОП пользователя. При этом будет блокировать телефонный номер из показа на телефоне вызываемого пользователя.
+- **Блокировать идентификатор исходящего абонента**. Вы можете заблокировать отправку исходящего идентификатора абонента при звонках по ТСОП. В этом случае номер телефона не будет отображаться на телефоне вызываемого абонента.
     
-- **Блокировать их входящих идентификатора звонящего** Можно запретить пользователю получение идентификатора звонящего на входящие вызовы ТСОП.
+- **Блокировать идентификатор входящего абонента**. Вы можете заблокировать получение идентификатора абонента в любых входящих звонках по ТСОП.
     
 > [!IMPORTANT]
 > При звонках в экстренные службы номер телефона пользователя (идентификатор абонента) передается всегда. 
@@ -57,13 +57,13 @@ ms.locfileid: "19500856"
 ## <a name="set-your-caller-id-policy-settings"></a>Задание настроек политики идентификатора абонента
 
 > [!NOTE]
-> Для всех параметров идентификатора звонящего в Скайп для бизнеса в Интернет необходимо использовать Windows PowerShell и **нельзя использовать** **Скайп по центру администрирования бизнеса**. 
+> Для всех настроек идентификатора абонента в Skype для бизнеса Online нужно использовать Windows PowerShell. **Не удастся использовать** **центр администрирования Skype для бизнеса**. 
   
 ### <a name="verify-and-start-windows-powershell"></a>Проверка и запуск Windows PowerShell
 
 - **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Чтобы убедиться, что запущена версия 3.0 или более поздняя версия: **Меню "Пуск"** > **Windows PowerShell**.
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
@@ -75,7 +75,7 @@ ms.locfileid: "19500856"
     
 - **Запуск сеанса Windows PowerShell**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Из **меню "Пуск"** > **Windows PowerShell**.
     
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     
@@ -98,49 +98,49 @@ Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modul
   Import-PSSession $session
   ```
 
-Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [подключение к Скайп для бизнеса в Интернет с помощью Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Если вы желаете получить больше информации по запуску Windows PowerShell см.[Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или[Подключение к Skype для бизнеса Online с использованием Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Просмотр всех настроек политики идентификатора абонента в организации
 
-- Чтобы просмотреть все параметры политики идентификатор звонящего в вашей организации, выполните следующую команду:
+- Чтобы просмотреть все параметры политики идентификатора абонента в вашей организации, выполните следующую команду:
 
   ```
   Get-CsCallingLineIdentity |fl
   ```
-Просмотрите Дополнительные сведения и примеры для [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
+Другие примеры [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx) и дополнительные сведения.
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Создание политики идентификатора абонента для организации
 
 
-- Чтобы создать новую политику идентификатор звонящего, который задает идентификатор звонящего для анонимного, выполните следующую команду:
+- Чтобы создать новую политику идентификатора абонента, которая устанавливает идентификатор абонента в качестве анонимного, выполните следующую команду:
     
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
   ```
   > [!NOTE]  
-  > Во всех случаях поле «службы» не должен содержать начальные «+».
+  > Во всех случаях поле «Номер службы» не должно содержать начальный символ «+».
 
-  Просмотрите дополнительные примеры и подробные сведения для [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
+  Другие примеры [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx) и дополнительные сведения.
     
-- Чтобы применить новую политику, которую вы создали мрамор Amos, выполните следующую команду:
+- Чтобы применить созданную политику к Amos Marble, выполните следующую команду:
     
   ```
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   Дополнительные сведения о командлете [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
     
-Если вы уже создали политику, можно использовать командлет [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) внесение изменений в существующую политику и затем используйте командлет [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) для применения параметров для пользователей.
+Если политика уже создана, используйте командлет [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx), чтобы применить настройки к пользователям.
   
-### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Блокировка идентификатора входящего абонента
+### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Блокировка идентификатора вызывающего абонента
 
-- Чтобы блокировать входящие идентификатора звонящего, выполните следующую команду:
+- Чтобы заблокировать идентификатор вызывающего абонента, выполните следующую команду:
     
   ```
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  Просмотрите Дополнительные сведения и примеры для [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
+  Другие примеры [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) и дополнительные сведения.
     
-- Чтобы применить политику, которую вы создали для пользователей в вашей организации, выполните следующую команду:
+- Чтобы применить созданную настройку политики к пользователю вашей организации, выполните следующую команду:
     
   ```
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
@@ -161,11 +161,11 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell предназначена для управления пользователями и их правами. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Шесть причин использовать Windows PowerShell для управления Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
@@ -175,18 +175,17 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
-[Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+  
+ ## <a name="related-topics"></a>Похожие темы
+[Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Управление номерами телефонов организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[О вызове код строки и вызова имени субъекта](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+[Дополнительные сведения об идентификаторе вызывающей линии и имени вызывающего абонента](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-  
- 
  
