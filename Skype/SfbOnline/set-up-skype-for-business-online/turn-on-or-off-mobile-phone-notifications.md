@@ -1,5 +1,5 @@
 ---
-title: Включение и отключение уведомления мобильного телефона
+title: Включение и отключение уведомлений на мобильном телефоне
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,13 +17,14 @@ f1keywords:
 ms.custom:
 - Setup
 description: Узнайте, как включить или отключить уведомления мобильного телефона, пользователи могут получать оповещения о входящих, голосовой почты и пропущенные мгновенных сообщений.
-ms.openlocfilehash: b20ba45cbc6958978a21ee0195ff9586000faef8
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 98e46cae258d6ca0d90e6e1cb96c3eeb724c31ee
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500411"
 ---
-# <a name="turn-on-or-off-mobile-phone-notifications"></a>Включение и отключение уведомления мобильного телефона
+# <a name="turn-on-or-off-mobile-phone-notifications"></a>Включение и отключение уведомлений на мобильном телефоне
 
 Как **[назначить роли администратора в Office 365 для бизнеса](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** для вашей организации можно ли вашей Скайп для бизнес-пользователи получать оповещения о входящих и пропущенных мгновенных сообщений, если они находятся на их мобильных телефонов или планшетных компьютеров.
   
@@ -32,9 +33,11 @@ ms.lasthandoff: 04/18/2018
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Отключение push-уведомления для всех устройств Windows Phone или Apple в вашей организации
 <a name="__top"> </a>
 
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+
 1. Вход в Office 365.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Перейдите в раздел **Центр администрирования Office 365** > **Skype для бизнеса**.
     
 3. Перейдите в раздел **организация** > **Общие**. 
     
@@ -51,7 +54,7 @@ ms.lasthandoff: 04/18/2018
 > [!IMPORTANT]
 >  Корпорация Майкрософт использует других производителей для обеспечения Скайп в режиме реального времени для бизнес-мобильных уведомлений для Windows Phone, iPhone и iPad пользователей. В разделе [заявление о конфиденциальности для Microsoft Скайп для продуктов бизнес](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 

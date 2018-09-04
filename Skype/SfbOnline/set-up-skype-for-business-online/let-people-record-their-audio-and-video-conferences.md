@@ -1,5 +1,5 @@
 ---
-title: Позволяют записывать конференции аудио- и видеоконференций
+title: Разрешение пользователям на запись аудио- и видеоконференций
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,15 +17,18 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Как включить запись для аудио-и видеоконференций, а также узнать, что является и не включена в записи. '
-ms.openlocfilehash: bec8910c838e253a135a605d53306185aae3383e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: eaf94874dc55dd333911b8bdfade085e137916a8
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500530"
 ---
-# <a name="let-people-record-their-audio-and-video-conferences"></a>Позволяют записывать конференции аудио- и видеоконференций
+# <a name="let-people-record-their-audio-and-video-conferences"></a>Разрешение пользователям на запись аудио- и видеоконференций
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Выберите параметры для одного пользователя, либо все записи в вашей организации по умолчанию
+
+![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
 
 1. Перейдите в **Центр администрирования Office 365** > **Скайп для бизнеса**и нажмите кнопку **Пользователи**.
     
@@ -41,7 +44,7 @@ ms.lasthandoff: 04/18/2018
    
 Дополнительные сведения см [сохранения и публикации записи Lync](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) и [Диспетчер записи Lync](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
