@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Тринидад и Тобаго.
-ms.openlocfilehash: 147efe757dda5855cf7a1646f60d72863c3d4c91
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: de167d9018ca6d1227ddf387adac31f6c5958845
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785616"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829212"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>Доступность в Тринидад и Тобаго
 
@@ -40,7 +40,7 @@ ms.locfileid: "23785616"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Недоступно  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуется кредитов связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

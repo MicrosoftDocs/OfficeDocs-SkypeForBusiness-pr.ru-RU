@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Украина.
-ms.openlocfilehash: 28cc57795852cfe5d718d30afcbd7268521780ff
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 947e1a231867957420dd7761d3b8bae150ffff2f
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784624"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829332"
 ---
 # <a name="availability-in-the-ukraine"></a>Доступность в Украина
 
@@ -40,7 +40,7 @@ ms.locfileid: "23784624"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Номера телефонов не привязаны к конкретному городу или местоположению. Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Недоступно  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуется кредитов связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

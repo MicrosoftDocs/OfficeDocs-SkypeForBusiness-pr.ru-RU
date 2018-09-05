@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Македония.
-ms.openlocfilehash: c8a78f0cbb8f03a44763b2cc2bc90c1dc49d17ad
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 374970604544b4a9da1e6606f5dbcebf1dfffb4e
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785832"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829188"
 ---
 # <a name="availability-in-macedonia"></a>Доступность в Македония
 
@@ -40,7 +40,7 @@ ms.locfileid: "23785832"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Недоступно  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуется кредитов связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

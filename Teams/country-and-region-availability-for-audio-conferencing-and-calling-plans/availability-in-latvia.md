@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Латвия.
-ms.openlocfilehash: af90e7034ba9d3ebd8dbcca7d0a27db7e3c2bc8e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3cd2a506f4245043d3e5c5554fa05a077353d4c2
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785136"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829156"
 ---
 # <a name="availability-in-latvia"></a>Доступность в Латвия
 
@@ -40,7 +40,7 @@ ms.locfileid: "23785136"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Номера телефонов не привязаны к конкретному городу или местоположению. Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Недоступно  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуется кредитов связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

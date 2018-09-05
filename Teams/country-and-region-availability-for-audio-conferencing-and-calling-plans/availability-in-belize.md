@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Белиз.
-ms.openlocfilehash: 99f87d140001238a084d78f4efc87f5fce0c1d48
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 5ef1d3d7874c44a8475988a73607b640958c96c5
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785496"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829380"
 ---
 # <a name="availability-in-belize"></a>Доступность в Белиз
 
@@ -40,7 +40,7 @@ ms.locfileid: "23785496"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Недоступно  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуется кредитов связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

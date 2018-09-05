@@ -105,25 +105,20 @@
 <!-- ============================================================ -->
 # Управление
 ## [Качество взаимодействия руководство по решению](quality-of-experience-review-guide.md)
-## Аналитика звонка
+## Отслеживание качества звонков и качество обслуживания
+### [Качество обслуживания (QoS) в Teams](QoS-in-Teams.md)
+### [Вызов аналитики и панель мониторинга качества звонка](difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Настройка вызова аналитики](set-up-call-analytics.md)
 ### [Устранение неполадок с качеством звонков с помощью средства аналитики звонков](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Вызов аналитики и панель мониторинга качества звонка](difference-between-call-analytics-and-call-quality-dashboard.md)
-
+### [Классификация потоков в Панели мониторинга качества звонка](stream-classification-in-call-quality-dashboard.md)
 ## Устранение неполадок и поддержка
 ### [Известные проблемы для Microsoft Teams](Known-issues.md)
 ### [Ресурсы поддержки для Microsoft Teams](support-resources.md)
 ### [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
 ### [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
 ### [Проверка работоспособности службы для Teams](service-health.md)
-## Отслеживание качества звонков и качества обслуживания
-### [Качество обслуживания (QoS) в Teams](QoS-in-Teams.md)
-### [Вызов аналитики и панель мониторинга качества звонка](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Настройка средства аналитики звонков в Skype для бизнеса](set-up-call-analytics.md)
-### [Использование средства аналитики звонков для устранения проблем с низким качеством звонков в Skype для бизнеса](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Классификация потоков в Панели мониторинга качества звонка](stream-classification-in-call-quality-dashboard.md)
+
 <!-- ============================================================ -->
 
 

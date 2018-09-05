@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Босния и Герцеговина.
-ms.openlocfilehash: 43545d18c8db4babc9af49924d75732123fa07cc
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6c785a913b2fe8855e8e7d9d89b37c63fcd7c6d3
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784008"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829276"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>Доступность в Босния &amp; Герцеговина
 
@@ -40,7 +40,7 @@ ms.locfileid: "23784008"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Недоступно  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуется кредитов связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

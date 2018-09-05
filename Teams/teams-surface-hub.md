@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: aed0cc2b26fa55dcf47b2d90bbd974720c371663
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246160"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829268"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Развертывание групп Майкрософт для предоставления сервера-концентратора
 ======================================
@@ -157,7 +157,7 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 Существует два варианта для настройки политики по умолчанию звонков и собраний приложения. 
 
 - **Вариант 1**: настройте с помощью USB-ключ. 
-- **Вариант 2**: настройка с помощью MDM, такие как InTune.
+- **Вариант 2**: настройка с помощью MDM, такие как Intune.
  
 ### <a name="option-1-configure-via-usb-key"></a>Вариант 1: Настройте с помощью USB-ключ 
  
@@ -180,9 +180,11 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 9. Перезагрузите устройство поверхность сервера-концентратора. 
 10. После перезагрузки устройства, должна появиться возможность запуска приложения группы на начальном экране и присоединиться к собранию из календаря. 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>Вариант 2: Настройка с помощью MDM, такие как InTune 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Вариант 2: Настройка с помощью MDM, такие как Intune 
 
-Используйте следующие для настройки политики по умолчанию звонков и собраний приложения с помощью InTune.
+Используйте следующие для настройки политики по умолчанию звонков и собраний приложения с помощью Intune.
+
+.
 
 |Параметр   |Значение    |Описание    |
 |----------|---------|---------|

@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Шри-Ланка.
-ms.openlocfilehash: f0e8c801723a858435649fb7c6d49e2da92ff45c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: f53df43b5c8487bd6dec8828362ae51a16a1daa9
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785080"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829428"
 ---
 # <a name="availability-in-sri-lanka"></a>Доступность в Шри-Ланка
 
@@ -40,7 +40,7 @@ ms.locfileid: "23785080"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Номера телефонов не привязаны к конкретному городу или местоположению. Выделенные номера телефонов, см[Приступая к службе номера телефонов для Скайп для бизнеса и группами Майкрософт](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Недоступно  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуется кредитов связи  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

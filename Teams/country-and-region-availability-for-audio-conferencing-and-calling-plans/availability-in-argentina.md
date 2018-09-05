@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Аргентина.
-ms.openlocfilehash: f1c121e27ce6e17dfd30c5d6220a3c240fa3b079
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6f1c4c047523de5e9a9ac6da9aadb669bb976a1e
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783928"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829356"
 ---
 # <a name="availability-in-argentina"></a>Доступность в Аргентина
 
@@ -40,7 +40,7 @@ ms.locfileid: "23783928"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li>Буэнос-Айрес</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Недоступно <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуется кредитов связи <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
