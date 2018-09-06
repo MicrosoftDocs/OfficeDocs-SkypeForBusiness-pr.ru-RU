@@ -1,24 +1,25 @@
 ---
-title: "Использование П-бота для помощи пользователям с Microsoft Teams"
+title: Использование П-бота для помощи пользователям с Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Пользователи могут взаимодействовать с П-ботом, задавая ему вопросы о работе с Microsoft Teams."
+description: Пользователи могут взаимодействовать с П-ботом, задавая ему вопросы о работе с Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8a274f9ee44536129bb8bf97629351e011b2fe9
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 1cdbe4366b84ac93236c8e9f3ca6f1eb8e3f6ba7
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843775"
 ---
 <a name="use-t-bot-to-help-users-with-microsoft-teams"></a>Использование П-бота для помощи пользователям с Microsoft Teams
 ============================================
 
-Чтобы ваши пользователи и лидеры могли получить помощь при работе с Microsoft Teams, познакомьте их с [П-ботом](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#bkmk_bots). Пользователи могут взаимодействовать с П-ботом, задавая ему вопросы о работе с Microsoft Teams.
+Чтобы ваши пользователи и лидеры могли получить помощь при работе с Microsoft Teams, познакомьте их с [П-ботом](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b). Пользователи могут взаимодействовать с П-ботом, задавая ему вопросы о работе с Microsoft Teams.
 
 ![Снимок экрана со страницей П-бота в Microsoft Teams.](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image1.png)
 

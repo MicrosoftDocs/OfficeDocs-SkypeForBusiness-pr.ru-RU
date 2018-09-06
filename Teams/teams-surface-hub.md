@@ -15,17 +15,17 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aed0cc2b26fa55dcf47b2d90bbd974720c371663
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 17ba794c2a0b2a09081da41b5fad5df2bee5bb4c
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829268"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844767"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Развертывание групп Майкрософт для предоставления сервера-концентратора
 ======================================
 
-Перед развертыванием группами Майкрософт для сервера-концентратора Microsoft Surface убедитесь, что удовлетворены оборудования, операционной системы и другие требования. Дополнительные сведения можно найти в [руководстве администратора сервера-концентратора Microsoft Surface](https://docs.microsoft.com/en-us/surface-hub/).
+Перед развертыванием группами Майкрософт для сервера-концентратора Microsoft Surface убедитесь, что удовлетворены оборудования, операционной системы и другие требования. Дополнительные сведения можно найти в [руководстве администратора сервера-концентратора Microsoft Surface](https://docs.microsoft.com/surface-hub/).
 
 ## <a name="set-up-user-accounts"></a>Настройка учетных записей пользователей
  
@@ -103,7 +103,7 @@ Get-MsolAccountSku
 Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
 ```
 
-7\. Затем необходимо включить запись устройства с группами для сервера-концентратора поверхности. Убедитесь, что в вашей среде соответствует требованиям, определенным в [руководстве администратора Microsoft Surface сервера-концентратора](https://docs.microsoft.com/en-us/surface-hub/).
+7\. Затем необходимо включить запись устройства с группами для сервера-концентратора поверхности. Убедитесь, что в вашей среде соответствует требованиям, определенным в [руководстве администратора Microsoft Surface сервера-концентратора](https://docs.microsoft.com/surface-hub/).
 
 Для запуска удаленного сеанса Windows PowerShell следующим образом (не забудьте установить Скайп для компонентов Business Online PowerShell):
 

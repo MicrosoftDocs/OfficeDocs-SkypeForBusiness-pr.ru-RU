@@ -10,12 +10,12 @@ ms.reviewer: marcl
 description: Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b88d0767c2815e276fe791b0751fb7090f8d446
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a3f97c5a28bdbd266750c10b113ab826ab8ba272
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779432"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843991"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "23779432"
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
-|Управление администрирования клиента всей соединителей больше не доступен  <br/> |При попытке добавить соединитель в клиент и Интернет-версия мы сообщение об ошибке: произошла непредвиденная ошибка. Повторите попытку. SET-OrganizationConfig - ConnectorsEnabled = True   <br/> |Отключите с помощью параметров команды. Просмотрите статью поддержкиhttps://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |21.06.2017  <br/> |
+|Управление администрирования клиента всей соединителей больше не доступен  <br/> |При попытке добавить соединитель в клиент и Интернет-версия мы сообщение об ошибке: произошла непредвиденная ошибка. Повторите попытку. SET-OrganizationConfig - ConnectorsEnabled = True   <br/> |Отключите с помощью параметров команды. Просмотрите статью поддержкиhttps://msdn.microsoft.com/microsoft-teams/connectors  <br/> |21.06.2017  <br/> |
 
 ## <a name="apps"></a>Приложения
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
@@ -134,7 +134,7 @@ ms.locfileid: "23779432"
 ## <a name="meetings"></a>Собрания
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
-|Пользователи не может получить доступ к собраниям/соединители, но почтовые ящики Exchange Online. <br/> |Клиент активно блокирует веб-служб Exchange из служб в Exchange Online, но должен иметь MS группами спецификации в рамках политики веб-служб Exchange. <br/> |Чтобы сделать команды MS спецификации, необходимо добавить следующие строка агента пользователя для MS группами в EWSAllowList: `*skypespaces*`, включая звездочки. — Это полная команда:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Дополнительные сведения:https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
+|Пользователи не может получить доступ к собраниям/соединители, но почтовые ящики Exchange Online. <br/> |Клиент активно блокирует веб-служб Exchange из служб в Exchange Online, но должен иметь MS группами спецификации в рамках политики веб-служб Exchange. <br/> |Чтобы сделать команды MS спецификации, необходимо добавить следующие строка агента пользователя для MS группами в EWSAllowList: `*skypespaces*`, включая звездочки. — Это полная команда:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Дополнительные сведения:https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|

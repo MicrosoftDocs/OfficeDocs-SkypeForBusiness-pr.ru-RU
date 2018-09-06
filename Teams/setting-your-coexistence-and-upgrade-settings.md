@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2f5b518beceb00909e7b6b97f7bfd6eb513edd8
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 16cbe6c20661da3c4e6dd18255055b2c661a4758
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148427"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845583"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Настройка параметров сосуществования и обновления
 
@@ -63,9 +63,9 @@ ms.locfileid: "21148427"
 3. Если выбрать любой **режим сосуществования** отличный от **масштабе организации использование параметров**, у вас есть параметр, чтобы включить уведомления в Скайп пользователя для бизнес-приложения, обновление группы в ближайшее время. Можно включить это уведомление для пользователя, включив параметр **Уведомлять Скайп для бизнес-пользователя** .
 4. После внесения изменений нажмите кнопку **Сохранить** .
 
-### <a name="related-topics"></a>See also
+### <a name="related-topics"></a>См. также:
 [Планирование поездки](upgrade-plan-journey.md)
 
 [Понять сосуществования и обновление пути для Скайп для бизнеса и рабочих групп](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-[Руководство по миграции и взаимодействия для организаций, с помощью команды Скайп для бизнеса](https://docs.microsoft.com/en-us/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Руководство по миграции и взаимодействия для организаций, с помощью команды Скайп для бизнеса](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)

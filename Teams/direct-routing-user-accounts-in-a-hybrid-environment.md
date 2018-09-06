@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Узнайте о различных сочетаний при создании пользователей и какие комбинации поддерживаются, а не поддерживается.
-ms.openlocfilehash: 03fd0f57d4c9f504c2f40d6675e44c8ba96adb13
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 04f0237dd7df6c856b6fef117f435ea2db052c82
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084589"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846263"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Учетные записи пользователей в гибридной среде с помощью подключения к ТСОП
 
@@ -66,4 +66,4 @@ ms.locfileid: "20084589"
 Для всех пользователей, пользователь объектов **должны** быть созданы в локальной AD и синхронизируются с Azure AD, с помощью средства Azure AD подключение. Предоставление пользователям для команды/Скайп для бизнеса, **не поддерживается** , если объект пользователя будет создан непосредственно в Azure AD в гибридной конфигурации. Для новых пользователей, такие как найма новых сотрудников, который будет включен непосредственно для групп, пользователь должен, расположенным в Скайп для бизнеса на собственных изначально и перемещено в сети регистратора. Создание пользователей в сети Скайп для бизнеса или группами без первого включения их в локальный пул с корпоративной голосовой связи, **не поддерживается**.
   
 
-Пользователь должен быть включен для Скайп для бизнеса и корпоративной голосовой связи используются локальные Скайп для средств управления Business пользователя. Предоставление пользователям для Скайп для бизнеса online только **не поддерживается**. Обратитесь [в этой статье](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) для получения дополнительных сведений о том, как включить пользователей для Скайп для бизнеса в гибридной конфигурации.
+Пользователь должен быть включен для Скайп для бизнеса и корпоративной голосовой связи используются локальные Скайп для средств управления Business пользователя. Предоставление пользователям для Скайп для бизнеса online только **не поддерживается**. Обратитесь [в этой статье](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) для получения дополнительных сведений о том, как включить пользователей для Скайп для бизнеса в гибридной конфигурации.

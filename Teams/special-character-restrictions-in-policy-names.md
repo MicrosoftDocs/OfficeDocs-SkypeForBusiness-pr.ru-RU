@@ -17,12 +17,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: В разделе проблемы в имена политик и что можно сделать для fix it для есть со специальными знаками.
-ms.openlocfilehash: 6aabd3c1d7e373c048ea1d1f723f83ad1108dbe0
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+ms.openlocfilehash: b0ae1458e81bdb6ee527c954ab0f2faf3461e3cf
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21645390"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844815"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Какие существуют ограничения специального символа в политиках групп?
 
@@ -39,7 +39,7 @@ ms.locfileid: "21645390"
 
 
 **Шаг 1 - удаленного подключения с помощью PowerShell.** 
- [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , если она еще не установлена.
+ [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , если она еще не установлена.
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -71,7 +71,7 @@ ms.locfileid: "21645390"
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-Отображается, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) для получения дополнительных сведений о этот командлет.
+Отображается, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) для получения дополнительных сведений о этот командлет.
 
 **Шаг 5 – удаление старой политики.**
 
@@ -79,7 +79,7 @@ Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-Отображается, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) для получения дополнительных сведений о этот командлет.
+Отображается, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) для получения дополнительных сведений о этот командлет.
 
 Если эта команда выполнена успешно, все готово. Приведенная выше команда возвращает ошибку, вызвано тем, что старая политика назначена пользователям, поэтому необходимо запустить для удаления всех для пользователей из политики:
 
@@ -88,7 +88,7 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
   - [Почему необходимо использовать Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -105,4 +105,4 @@ Windows PowerShell is all about managing users and what users are allowed or not
     > [!NOTE]
     > Модуль Windows PowerShell для Скайп для бизнеса в Интернет позволяет создавать удаленного сеанса Windows PowerShell, который подключается к Скайп для бизнеса в Интернет и рабочих групп Microsoft. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-### <a name="related-topics"></a>See also
+### <a name="related-topics"></a>См. также:

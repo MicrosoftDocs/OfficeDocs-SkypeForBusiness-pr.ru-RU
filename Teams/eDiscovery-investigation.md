@@ -1,5 +1,5 @@
 ---
-title: "Обнаружение электронных данных в Microsoft Teams"
+title: Обнаружение электронных данных в Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,14 +7,15 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "Сведения о том, когда требуется обнаружение электронных данных, например при передаче всей информации, хранящейся в электронной форме, для судебных разбирательств."
+description: Сведения о том, когда требуется обнаружение электронных данных, например при передаче всей информации, хранящейся в электронной форме, для судебных разбирательств.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d42879d9d1a65fd6ac206fb5f0c115a02fed2a4
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 02efc096362c194d580edc259f9afa5c65fd1cda
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843711"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Обнаружение электронных данных в Microsoft Teams
 ============================
@@ -23,7 +24,7 @@ ms.lasthandoff: 02/19/2018
 
 Все индивидуальные или групповые чаты в Teams собираются через почтовые ящики пользователей, а все сообщения в каналах — через почтовый ящик группы, представляющий соответствующую команду. Отправленные файлы собираются с помощью функций по обнаружению электронных данных в SharePoint Online и OneDrive для бизнеса.
 
-1.  Чтобы осуществить обнаружение электронных данных для контента Microsoft Teams, ознакомьтесь с материалом по [этой ссылке](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1).
+1.  Для проведения расследования обнаружения электронных данных с содержимым группами Майкрософт, просмотрите шаг 1 в [эту](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) ссылку.
 
 2.  В выходных данных Excel сведения Microsoft Teams отображаются в виде **мгновенных сообщений или бесед**, кроме того, можно подключить **PST-файл** в Outlook.
 

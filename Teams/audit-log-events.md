@@ -10,11 +10,12 @@ ms.reviewer: anach
 description: Узнайте, как извлекать данные Microsoft Teams из журнала аудита Office 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ddf413f192941598f617ea10a755a2c23abd3f7
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: b2661b8018fd7bf2debed117794751266627fd4e
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843791"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Поиск событий Microsoft Teams в журнале аудита
 ==================================================
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/15/2018
 
 -   Изменение параметра
 
-Полный список действий в Office 365, для которых выполняется аудит, см. в статье [Поиск по журналу аудита в Центре безопасности и соответствия требованиям Office 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c?=&PickTab=Activities&ad=US#PickTab=Activities).
+Полный список действий в Office 365, для которых выполняется аудит, см. в статье [Поиск по журналу аудита в Центре безопасности и соответствия требованиям Office 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
 ## <a name="turn-on-auditing-in-teams"></a>Включение аудита в Teams
 

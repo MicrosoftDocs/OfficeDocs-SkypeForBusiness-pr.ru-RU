@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: e4270a56e24d621511c94c9dc925fb1d1ca120ba
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: d33f4037517936b39bd81ccb6ec5b7df3ef5a3b8
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783072"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846439"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Рекомендации по сбору данных для Skype для бизнеса и Microsoft Teams
 
@@ -52,7 +52,7 @@ ms.locfileid: "23783072"
 |Идентификатор пользователя  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |Идентификатор хешируется дважды: первый раз в клиенте и затем в службе телеметрии. Хеширование гарантирует, что идентификатор не может быть связан с конкретным пользователем.  <br/> |
 |DeviceID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |Идентификатор устройства  это глобальный уникальный идентификатор, который единожды генерируется на устройстве случайным образом и отправляется в службу телеметрии.  <br/> |
 
-Данные переписи НЕ содержат информацию, идентифицирующую организацию или пользователя. Дополнительные сведения см. в разделе [Заявление о конфиденциальности Skype для бизнеса](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx).
+Данные переписи НЕ содержат информацию, идентифицирующую организацию или пользователя. Дополнительные сведения см. в разделе [Заявление о конфиденциальности Skype для бизнеса](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx).
 
 Данные переписи включены по умолчанию и не могут быть отключены администраторами или пользователями.
 
@@ -73,7 +73,7 @@ ms.locfileid: "23783072"
 
 Данные по использованию НЕ содержат информацию, идентифицирующую пользователей.
 
-Сбор данных по использованию включен по умолчанию, но локальные администраторы могут отключить эту функцию с помощью параметра "Групповая политика DisableAutomaticSendTracing" в Skype для бизнеса Server 2015. Этот параметр отключается для всех пользователей в организации. См. раздел [Настройка политик начальной загрузки клиентов в Skype для бизнеса Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx).
+Сбор данных по использованию включен по умолчанию, но локальные администраторы могут отключить эту функцию с помощью параметра "Групповая политика DisableAutomaticSendTracing" в Skype для бизнеса Server 2015. Этот параметр отключается для всех пользователей в организации. См. раздел [Настройка политик начальной загрузки клиентов в Skype для бизнеса Server 2015](https://technet.microsoft.com/library/gg425941.aspx).
 
 Конечные пользователи не могут включить или отключить сбор данных.
 
@@ -94,11 +94,11 @@ ms.locfileid: "23783072"
 |Идентификатор потока беседы  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA ==  <br/> ||
 |Идентификатор пользователя  <br/> |amosmarble <br/> |Идентификатор отправляется в открытом виде, который хэшируется службой телеметрии перед сохранением  <br/> |
 
-Сведения, собираемые в отчете об ошибках, содержат личную информацию, включая IP-адрес пользователя и SIP URI. Подробное описание собираемых данных см. в разделе [Заявление о конфиденциальности Skype для бизнеса ](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx).
+Сведения, собираемые в отчете об ошибках, содержат личную информацию, включая IP-адрес пользователя и SIP URI. Подробное описание собираемых данных см. в разделе [Заявление о конфиденциальности Skype для бизнеса ](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx).
 
 Для отчетов об ошибках требуется следующее.
 
-- Параметру "Групповая политика DisableAutomaticSendTracing" должно быть присвоено значение False на сервере или в центре администрирования клиента (состояние по умолчанию). Дополнительные сведения см. в разделе [ Настройка политик начальной загрузки клиентов в Skype для бизнеса Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx).
+- Параметру "Групповая политика DisableAutomaticSendTracing" должно быть присвоено значение False на сервере или в центре администрирования клиента (состояние по умолчанию). Дополнительные сведения см. в разделе [ Настройка политик начальной загрузки клиентов в Skype для бизнеса Server 2015](https://technet.microsoft.com/library/gg425941.aspx).
     
 - Конечные пользователи по отдельности согласие на вкладке Общие (щелкните значок шестеренки ![значок шестеренки](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , а затем открывает **диалоговое окно** отображается вкладка **Общие** ) в Скайп для клиента Business.
     
@@ -113,7 +113,7 @@ ms.locfileid: "23783072"
 
 Для пользователей 21Vianet, использующих Office 365 см. [Set up your network for Lync Online](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
-## <a name="related-topics"></a>Связанные разделы
-[Программа улучшения качества программного обеспечения](https://www.microsoft.com/products/ceip/en-US/default.mspx)
+## <a name="related-topics"></a>См. также:
+[Программа улучшения качества программного обеспечения](https://www.microsoft.com/products/ceip/default.mspx)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

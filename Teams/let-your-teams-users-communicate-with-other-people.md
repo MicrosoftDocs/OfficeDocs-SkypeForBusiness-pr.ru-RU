@@ -12,12 +12,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Узнайте, как настроить группы сотрудников могут пользователи могут взаимодействовать с пользователями в другой организации.
-ms.openlocfilehash: b8c3705b288abd81e85bd941ab019bb8e8e0e40e
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 3eaffac3571abc70d4964ea4a8955f187d1e988f
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829116"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844639"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Сообщите разговор группам пользователей и взаимодействовать с пользователями в другой организации групп
 
@@ -35,7 +35,7 @@ ms.locfileid: "23829116"
 
 ### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>Шаг 1 - Убедитесь в том настроить порты и URL-адресов, которые требуются.
 
-**Наиболее распространенные проблемы, которые людей возникнуть при настройке бизнес делового общения правильного их [Office 365 URL-адреса и диапазоны IP-адресов](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) .**
+**Наиболее распространенные проблемы, которые людей возникнуть при настройке бизнес делового общения правильного их [Office 365 URL-адреса и диапазоны IP-адресов](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) .**
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>Шаг 2 - включить вашей организации для взаимодействия с другой организацией групп
 

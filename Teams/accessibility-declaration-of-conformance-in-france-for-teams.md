@@ -16,12 +16,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Группами Майкрософт est l'outil де чата collaboratif qui d'Office 365 intègre toutes personnes les, contenus et outils не votre équipe être besoin Бетонирование плюс impliquée et efficace. "
-ms.openlocfilehash: 380b233b5246be518214d72771a7113ba733e54f
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 148071fdea294893b4107cc31347d4e4b1dc8e2c
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20518705"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846919"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration де conformité en matière d'accessibilité
 
@@ -37,11 +37,11 @@ Nom du produit: группами Майкрософт
 
 Web сайта: [Группами Майкрософт](https://teams.microsoft.com/)
 
-Обратитесь в Бетонирование, а также d'informations: [Группы службы поддержки Майкрософт](https://support.office.com/en-us/teams)
+Обратитесь в Бетонирование, а также d'informations: [Группы службы поддержки Майкрософт](https://support.office.com/teams)
 
 Сайт web en matière d'accessibilité: [Специальных возможностей Майкрософт](https://www.microsoft.com/accessibility/)
 
-Служба де réponse дополнительный вопросы d'utilisateurs en ситуации де с физическими недостатками: [eDAD](https://support.microsoft.com/en-us/answerdesk/accessibility)
+Служба де réponse дополнительный вопросы d'utilisateurs en ситуации де с физическими недостатками: [eDAD](https://support.microsoft.com/answerdesk/accessibility)
 
 Бетонирование obtenir de l'aide sur ce взаимопонимания veuillez [nous envoyer отменять электронной почты](mailto:edad@microsoft.com?subject=Conformance%20Statement).
 
@@ -202,6 +202,6 @@ La personnalisation du produit annule ла présente déclaration де conformit
 
 LE présent документа est fourni отчетные titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, TACITE EXPRESSE ПОДРАЗДЕЛЕНИЕ, DANS LE PRÉSENT ДОКУМЕНТА.
 
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 
-[Решения для специальных возможностей в Skype для бизнеса Online во Франции](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)
+[Решения для специальных возможностей в Skype для бизнеса Online во Франции](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

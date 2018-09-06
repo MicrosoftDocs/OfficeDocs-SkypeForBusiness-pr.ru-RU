@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94cdfd1f8bc9c3ef1a7968eb1d1219f22b37ea26
-ms.sourcegitcommit: af2406f8ac57fa6d867a806f8421f8da374d6781
+ms.openlocfilehash: e2a96f579dba947a616120ae853636b9c81ac6f1
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "22499738"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844023"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Планирование управления службами и обеспечения их качества
 
@@ -338,7 +338,7 @@ Microsoft Teams можно использовать для собраний ил
 | | Установка шаблонов для анализа процедуры обеспечения качества <br/> Отправка файла для создания | [Шаблоны QERLite](https://aka.ms/qertemplates) <br/> [Отправка сведений для создания](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
 | Планирование обеспечения качества для сети | Запуск планировщика сети | [Планировщик сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Реализация качества обслуживания | [Качество обслуживания в Microsoft Teams](qos-in-teams.md) |
-| | Обход прокси-серверов | [Инструкции по прокси-серверам](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Обход прокси-серверов | [Инструкции по прокси-серверам](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Реализация VPN с раздельным туннелированием | [Инструкции по VPN с раздельным туннелированием](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Оптимизация сетей Wi-Fi для мультимедиа реального времени  | Консультации у сторонних поставщиков |
 | | Реализация локального исходящего интернет-трафика | [Локальный исходящий интернет-трафик](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
