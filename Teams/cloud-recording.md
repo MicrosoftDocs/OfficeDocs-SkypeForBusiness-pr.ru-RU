@@ -9,12 +9,12 @@ description: Практическое руководство по разверт
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edf168d099df6c7d799cf0e513f0343f4902b67
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 64a0dd2cccfe92fe1385b40caa45551bfe91bba9
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242498"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835025"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись собрания облачных групп
 
@@ -114,9 +114,13 @@ ms.locfileid: "23242498"
 ## <a name="manage-meeting-recordings"></a>Управление записями собрания
 Записи собраний, считаются клиента владельцем содержимого. Если владелец записи из компании, администратор можно открыть URL-адрес видеоролика записи в потоке Microsoft в режиме администратором. Администратор может удалить записи, обновлять метаданные записи и изменять разрешения для записи видео. Дополнительные сведения о [возможностях администрирования в поток](https://docs.microsoft.com/en-us/stream/manage-content-permissions).
 
+## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Соответствие требованиям и обнаружение электронных данных для записи на собрания
+Записи собраний, хранятся в Microsoft поток, который является Office 365 уровня-C спецификации. Чтобы обеспечить поддержку запросов на электронное обнаружение для соответствия требованиям администраторов, которые хотят собрания или звонок записей для потоков Microsoft, завершенных сообщения запись доступна в функции поиска контента соответствия требованиям для групп Майкрософт. Соответствие "Администраторы" можно искать ключевое слово «запись» в поле Тема элемента в предварительной версии содержимого поиска соответствия требованиям и обнаружение собрания и вызова записей в организации. Предварительным условием является их для просмотра всех записей — это, что их необходимо настроить в Microsoft потока с помощью административного доступа. Дополнительные сведения о [назначении разрешения администратора в поток](https://docs.microsoft.com/en-us/stream/assign-administrator-user-role).
+
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Windows PowerShell имеет много преимуществ в скорости, простоты и повышения производительности по сравнению только с помощью центра администрирования Office 365, например, при внесении изменений параметров для нескольких пользователей за один раз. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
 
 - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Настройка компьютера для Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525038)
+

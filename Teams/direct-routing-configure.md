@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: c84e8b28d6a13e3dca64a08a63aa516556357dde
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 455ae4bd419dd4e92152615adc42f879168e4f15
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779773"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835033"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -25,7 +25,7 @@ ms.locfileid: "23779773"
 Рекомендуется, чтобы подтвердить, что пограничного контроллера Сеансов уже настроен соответствии с рекомендациями по своему поставщику SBC: 
 
 - Документация по развертыванию AudioCodes 
-- Документация по развертыванию ленты
+- Лента Communications документации по развертыванию
 
 Можно настроить телефонной системой Microsoft и пользователи могли использовать прямой маршрутизации, а затем настроить группами Майкрософт как предпочитаемый вызывающего клиента, выполнив следующие действия: 
 

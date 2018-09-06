@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Прочтите этот раздел, чтобы узнать, как прямой маршрутизации Microsoft телефонной системы позволяет подключать поддерживаемые, предоставленный заказчиком пограничный контроллер сеансов (SBC) для Microsoft телефонной системой.
-ms.openlocfilehash: 7abf23aeb74807597b337c66e769b0625d862d0f
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: aa816f0e7da1745e3c8ced9f174b2f60eb2e38ce
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914122"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835009"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -220,7 +220,7 @@ SBC выполняет запрос DNS для разрешения sip.pstnhub.
 
 В процессе сертификации являются следующие поставщиков:
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Лента (ранее — Sonus):
+- Лента коммуникации (ранее — Sonus):
    - [Серия SBC пограничного сервера](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [Серия основных SBC](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel не продать SBC для предприятий, но их SBC сертифицированном.  
