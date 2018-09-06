@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 12ebb45fdeb145f72e2fe4e501cc144216c155e1
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 0652428cf33db0af1043fc672f1962dca1c4f9c6
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783288"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848635"
 ---
 # <a name="set-up-calling-plans"></a>Настройка планов звонков
 Звонков на других Скайп для бизнес-пользователи могут свободно, но если пользователи должны иметь возможность вызова телефоны за пределами вашей организации получить внутренние вызов план или международный вызов плана в Office 365. Это просто установки для бизнеса. 
@@ -120,14 +120,14 @@ ms.locfileid: "23783288"
 
 Если вы знакомы с Windows PowerShell, то можете использовать следующие командлеты для назначения номеров телефонов пользователям. 
   
-- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/en-us/library/mt243818.aspx): получает номера телефонов из корпоративного каталога голосовой связи.
+- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/library/mt243818.aspx): получает номера телефонов из корпоративного каталога голосовой связи.
     
-- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/en-us/library/mt243817.aspx): Задает номера телефонов.
+- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/library/mt243817.aspx): Задает номера телефонов.
     
-Дополнительные сведения см. в разделе [Краткий справочник.Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://technet.microsoft.com/en-us/library/dn362776%28v=ocs.15%29.aspx).
+Дополнительные сведения см. в разделе [Краткий справочник.Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://technet.microsoft.com/library/dn362776%28v=ocs.15%29.aspx).
   
    > [!NOTE]
-   > Если необходимо больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+   > Если необходимо больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 ## <a name="related-topics"></a>См. также:

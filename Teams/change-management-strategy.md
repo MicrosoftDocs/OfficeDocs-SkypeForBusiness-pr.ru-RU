@@ -1,19 +1,20 @@
 ---
-title: "Создание стратегии по управлению изменениями для Microsoft Teams"
+title: Создание стратегии по управлению изменениями для Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Сведения о создании стратегии по управлению изменениями для Microsoft Teams посредством определения ключевых заинтересованных лиц, бизнес-результатов, показателей успешности и управления кампанией."
+description: Сведения о создании стратегии по управлению изменениями для Microsoft Teams посредством определения ключевых заинтересованных лиц, бизнес-результатов, показателей успешности и управления кампанией.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73fa7f0decc5080166e85049bb7619b9b3c29ad5
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: 17fad2be5fdd25df6708c806dc7cd40e19a066b4
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843879"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Создание стратегии по управлению изменениями для Microsoft Teams
 =======================================================
@@ -140,7 +141,7 @@ ms.lasthandoff: 03/01/2018
 
 Команда по проекту должна включать ИТ-администраторов из вашей организации. Эти сотрудники получат доступ к отчетам Office 365 об использовании Microsoft Teams, которые встроены в интерфейс портала администрирования Office 365. Отчеты позволят получить сведения об использовании Microsoft Teams в вашей организации. Мы также рекомендуем напрямую запрашивать у пользователей обратную связь, а также их идеи по использованию Teams. Распространение в компании сведений о реальном применении новых решений сыграет огромную роль в долгосрочном внедрении изменений среди ваших пользователей.  
 
-Дополнительные сведения об отчетах по использованию Microsoft Teams на портале администрирования Office 365 см. [здесь](https://support.office.com/en-us/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+Дополнительные сведения об отчетах по использованию Microsoft Teams на портале администрирования Office 365 см. [здесь](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 > [!TIP]
 > Используйте общий канал команды или сообщество Yammer для сбора аналитики об использовании. Делитесь полученными данными с тегом #TeamsStories для удобства поиска.  Каждый месяц публикуйте в своей интрасети историю об использовании Teams с тегом #TeamsStories, чтобы отметить сотрудников, которые используют нововведения для повышения производительности и для эффективной совместной работы в вашей среде.  

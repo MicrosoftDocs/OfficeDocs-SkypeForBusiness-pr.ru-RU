@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Далее представлены некоторые основные вопросы, на которые поступления из наших клиентов, которым требуется использовать звук конференц-связи.
-ms.openlocfilehash: 2ab4a7dc64cd08f2f7421f1ba6672892d879abd0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3b9c6e11f0f086191a9aae72e56edb1af31027c3
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784888"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848587"
 ---
 # <a name="audio-conferencing-common-questions"></a>Общие вопросы по аудиоконференциям
 
@@ -85,11 +85,11 @@ ms.locfileid: "23784888"
 
 Аудиоконференции позволяет до 250 участников телефона.
   
-Чтобы узнать о ограничения на собрания, видеть [Скайп для ограничения Online Business](https://technet.microsoft.com/en-us/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
+Чтобы узнать о ограничения на собрания, видеть [Скайп для ограничения Online Business](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Почему пользователям начать получения сообщений электронной почты с их аудиоконференции сведения?
 
-Мы добавили новый компонент, который позволяет пользователю, [администратор](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), отправлять и обновлять данные для конференции аудио и ПИН-кода по электронной почте. Для получения дополнительных сведений о его, как отключить ее, включая см. [Включение и отключение отправки сообщения электронной почты при изменении параметров звука конференц-связи в группами Майкрософт](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) , или [Включение и отключение отправки по электронной почте при изменении параметров звука конференц-связи в Скайп для бизнеса Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
+Мы добавили новый компонент, который позволяет пользователю, [администратор](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), отправлять и обновлять данные для конференции аудио и ПИН-кода по электронной почте. Для получения дополнительных сведений о его, как отключить ее, включая см. [Включение и отключение отправки сообщения электронной почты при изменении параметров звука конференц-связи в группами Майкрософт](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) , или [Включение и отключение отправки по электронной почте при изменении параметров звука конференц-связи в Скайп для бизнеса Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>Можно использовать звук конференц-связи для пользователей, которые входят в состав развертывания для локальной Скайп для Business Server 2015?
 
@@ -105,14 +105,14 @@ ms.locfileid: "23784888"
   
 ## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>Может ли пользователь получить помощь оператор во время собрания?
 
-Нет, пользователь не может получить помощь любой оператор или поддержки, нажав * 0 во время собрания. При наличии проблем с аудио конференц-связи, назначены права администратора организации может связаться с [поддержки Microsoft Office 365](https://support.office.com/en-us/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+Нет, пользователь не может получить помощь любой оператор или поддержки, нажав * 0 во время собрания. При наличии проблем с аудио конференц-связи, назначены права администратора организации может связаться с [поддержки Microsoft Office 365](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>Как не доступа пользователей или изменить их идентификатор конференции?
 
 Скайп для бизнеса или группами Майкрософт пользователя можно найти идентификатор конференции, назначаемый им время встречи в Outlook и Outlook в Интернете. Кроме того пользователи могут находить идентификатор конференции в сообщение электронной почты, на который будут отправляться им после их настройки.
   
 > [!NOTE]
-> Пользователи не смогут сбросить их идентификатор конференции. Идентификатор конференции можно только сбросить, вы [администратор](https://support.office.com/en-us/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), для организации. 
+> Пользователи не смогут сбросить их идентификатор конференции. Идентификатор конференции можно только сбросить, вы [администратор](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), для организации. 
   
 Корпорация Майкрософт работает на решение, которое будет let доступа пользователей и сброс идентификатор конференции без помощи администратор организации.
   
