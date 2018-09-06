@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c69ffab7fcca4fa7f2374e3527793e863ee22ef6
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: fceaa215835b5ef231a29f896656835da940dbde
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694836"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779808"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Определите и задокументируйте телефонной системой с вызова планы в план тестирования группами для предприятий 
 ============================================================================================
@@ -654,7 +654,7 @@ ms.locfileid: "19694836"
 Как правило, можно найти сведения, необходимые в последнюю Билл или создания счетов-фактур от текущего поставщика услуг.
 
 > [!TIP]
->   Можно перенести или перемещение телефонных номеров в рамках всех поддерживаемых стран или регионов; Тем не менее способ отправки запроса заказа порт может отличаться в зависимости от страны или региона, где телефонных номеров, поступают из. Текущий список поддерживаемых стран или регионов в разделе [странах и область доступности для конференц-связи аудио и вызов планов](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+>   Можно перенести или перемещение телефонных номеров в рамках всех поддерживаемых стран или регионов; Тем не менее способ отправки запроса заказа порт может отличаться в зависимости от страны или региона, где телефонных номеров, поступают из. Текущий список поддерживаемых стран или регионов в разделе [странах и область доступности для конференц-связи аудио и вызов планов](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 >   Для получения дополнительных сведений о передаче телефонных номеров телефонной системы с помощью вызова планы — а также потенциальные ограничения — [передачи телефонных номеров в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) и [бесплатно набору номера, ограничения в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 

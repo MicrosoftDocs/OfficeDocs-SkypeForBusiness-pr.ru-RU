@@ -12,23 +12,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Эта статья посвящена процедуре для развертывания управления устройствами v2 систем комнаты Скайп интегрированная, начала до конца способом, с помощью Microsoft Operations Management Suite.
-ms.openlocfilehash: 3e6c162619d42fcf181a3f3b279f6b89106d4a1c
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 0d1cd51bb80a287078ca4d85bdaec721e78d24ff
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391779"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256352"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Развертывание управления системами комнат Skype версии 2 с помощью OMS
- 
+
 В этой статье описывается установка и развертывание интегрированная, сквозного управления устройствами версии 2 Скайп комнаты систем с помощью Microsoft Operations Management Suite.
-  
+
 Можно настроить пакет управления Microsoft операций для обеспечения базовой телеметрии и оповещения, которые помогут вам управлять Скайп собрания комнаты устройств. Мере разработки решения по управлению можно развернуть дополнительные данные и возможности управления для создания более подробные представления производительности и доступности устройства.
 
 Выполнив в этом руководстве, можно использовать панели мониторинга как следующий пример, чтобы получить подробные сведения о состоянии отчетов о доступности устройства, приложения и работоспособности оборудования и распространения версии приложений систем комнаты Скайп версии 2.
 
 ![Пример OMS представления для SRS версии 2] (../../media/Deploy_OMS_1.png "Пример OMS представления для SRS версии 2")
-  
+
 В общих чертах вам необходимо выполнить следующие задачи.
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "22391779"
 
 После развертывания агентов управления набор операций на тестовых устройств убедитесь, что аналитика журнала собирают данные журналов событий.
 
-1.  Войдите в [портал Microsoft Operations Management Suite](http://aka.ms/omsportal).
+1.  Войдите в [портал Microsoft Operations Management Suite](https://aka.ms/omsportal).
 
 2.  Перечислены события, создаваемые устройства версии 2 Скайп комнаты систем:
     1.  Перейти к **Поиску журнала** и использовать запрос для извлечения записей, которые будут иметь настраиваемого поля.
@@ -110,7 +110,7 @@ ms.locfileid: "22391779"
 
 Чтобы извлечь настраиваемых полей из него захвата журналы событий, выполните следующие действия:
 
-1.  Войдите в [портал Microsoft Operations Management Suite](http://aka.ms/omsportal).
+1.  Войдите в [портал Microsoft Operations Management Suite](https://aka.ms/omsportal).
 
 2.  Перечислены события, создаваемые устройства версии 2 Скайп комнаты систем:
     1.  Перейти к **Поиску журнала** и использовать запрос для извлечения записей, которые будут иметь настраиваемого поля.
@@ -130,8 +130,8 @@ ms.locfileid: "22391779"
 > Имейте в виду, что все поля JSON и пакет управления Operations зависят от регистра символов.
 
 > Обратите внимание на состояние флажка EventID в таблице ниже. Убедитесь, что проверить состояние этого флажка для операций Management Suite успешно извлечение значения настраиваемых полей.
-> 
-> ![Определение настраиваемого поля] (../../media/Deploy_OMS_5.png "Определение настраиваемого поля") 
+>
+> ![Определение настраиваемого поля] (../../media/Deploy_OMS_5.png "Определение настраиваемого поля")
 
 **В таблице 1**
 
@@ -170,8 +170,8 @@ ms.locfileid: "22391779"
 
 Можно импортировать пакет управления Operations панели мониторинга и начать наблюдение за устройство немедленно. Выполните следующие действия для импорта панели мониторинга.
 
-1.  Получите файл [SkypeRoomSystems_v2.omsview](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview) панели мониторинга.
-2.  Войдите в [портал Microsoft Operations Management Suite](http://aka.ms/omsportal).
+1.  Получите файл [SkypeRoomSystems_v2.omsview](https://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview) панели мониторинга.
+2.  Войдите в [портал Microsoft Operations Management Suite](https://aka.ms/omsportal).
 3.  Откройте **Конструктор представлений**.
 4.  Выберите **Импорт**, а затем выберите файл **SkypeRoomSystems_v2.omsview** .
 5.  Нажмите кнопку **Сохранить**.
@@ -349,13 +349,13 @@ ms.locfileid: "22391779"
 В разделе [Общие сведения о оповещений в аналитике журнала](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts) для получения дополнительных сведений о оповещения в пакет управления Operations.
 
 > [!NOTE]
-> В приведенных ниже примерах отправлять оповещения по электронной почте, если устройство v2 систем комнаты Скайп создает оборудования или ошибки приложения. 
+> В приведенных ниже примерах отправлять оповещения по электронной почте, если устройство v2 систем комнаты Скайп создает оборудования или ошибки приложения.
 
 
 ### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>Настройка оповещения по электронной почте для проблемы с оборудованием систем комнаты Скайп версии 2
 
 Настройте правило оповещения, которое проверяет наличие устройства версии 2 Скайп комнаты систем, которые были применены неполадки с оборудованием за последний час.
-1.  Войдите в [портал Microsoft Operations Management Suite](http://aka.ms/omsportal).
+1.  Войдите в [портал Microsoft Operations Management Suite](https://aka.ms/omsportal).
 
 2.  Выберите **Журнал поиска**.
 
@@ -364,7 +364,7 @@ ms.locfileid: "22391779"
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF 
+    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF
     |sort by TimeGenerated desc
     ```
 
@@ -438,7 +438,7 @@ ms.locfileid: "22391779"
 
 1.  Создание общей сетевой путь и предоставить ей права чтения для группы **Компьютеров домена** .
 
-2.  Загрузка 64-разрядная версия операции управления набор агентов для Windows из<http://go.microsoft.com/fwlink/?LinkID=517476>
+2.  Загрузка 64-разрядная версия операции управления набор агентов для Windows из<https://go.microsoft.com/fwlink/?LinkID=517476>
 
 3.  Извлеките содержимое пакета установки в сетевой папке.
     1.  Откройте окно командной строки и выполните **MMASetup AMD64.exe/c**
@@ -464,34 +464,34 @@ ms.locfileid: "22391779"
 
     ```
     # Install-OMSAgent.ps1
-    <# 
-    Date:        04/20/2018 
-    Script:      Install-OMSAgent.ps1 
+    <#
+    Date:        04/20/2018
+    Script:      Install-OMSAgent.ps1
     Version:     1.0
-    #> 
-    
+    #>
+
     # Set the parameters
     $WorkspaceId = "<your workspace id>"
     $WorkspaceKey = "<your workspace key>"
     $SetupPath = "\\Server\Share"
-    
+
     $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
-    
+
     # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
-    
+
     # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log  
-    
+    Start-Transcript -Path C:\OMSAgentInstall.Log
+
     # Check if the Microsoft Monitoring Agent is installed
     $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
-    
-    # Check if the Microsoft Monitoring agent is installed 
+
+    # Check if the Microsoft Monitoring agent is installed
     if (!$mma)
     {
         #Install agent
         Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
     }
-    
+
     # Check if the agent has a valid configuration
     $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
     if (!$CheckOMS)
@@ -499,12 +499,12 @@ ms.locfileid: "22391779"
         # Apply new configuration
         $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
         $mma.ReloadConfiguration()
-    } 
-    
-    Stop-Transcript 
-    
+    }
+
+    Stop-Transcript
+
     ```
-    
+
 > [!NOTE]
 > При необходимости повторно настройте агент, перетащить его в другой рабочей области и изменение параметров прокси-сервера после первоначальной установки можно найти в статье [Управление и обслуживание анализа журнала агента](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage) .
 
@@ -521,5 +521,5 @@ ms.locfileid: "22391779"
 ## <a name="see-also"></a>См. также
 
 [Планирование управления системами комнат Skype версии 2 с помощью OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
-  
+
 [Управление устройствами Систем комнат Skype версии 2 с помощью OMS](../../manage/skype-room-systems-v2/oms.md)

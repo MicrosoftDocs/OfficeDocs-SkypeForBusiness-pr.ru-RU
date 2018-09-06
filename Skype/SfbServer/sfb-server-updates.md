@@ -11,14 +11,14 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Централизованный поиск обновлений Skype для бизнеса Server 2015 и Lync 2013, а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: e3b1ae326494a14c502a7427d30f664646bfe373
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
-ms.translationtype: HT
+ms.openlocfilehash: 6260d4b648f09dddef2b52f8df8996ffe115a7fc
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253057"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485744"
 ---
-# <a name="skype-for-business-updates"></a>Обновления Skype для бизнеса
+# <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
 Централизованный поиск обновлений [Skype для бизнеса Server 2015](#skype-for-business-server-2015-update-history), [Lync 2013](#Lync-2013-update-history) и [Lync Server 2010](#lync-server-2010-update-history), а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
 
@@ -150,7 +150,6 @@ ms.locfileid: "23253057"
 |:--- |:--- |
 |[Файл справки с документацией по Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=35405)|Август 2015 г. |
 
-
 * * *
 
 ## <a name="lync-server-2010-update-history"></a>Журнал обновлений Lync Server 2010
@@ -228,10 +227,8 @@ ms.locfileid: "23253057"
 
 Обновления программного обеспечения включают все обновления, накопительные пакеты обновления, пакеты обновления, пакеты дополнительных компонентов, критические обновления, обновления для системы безопасности и исправления. Описание стандартной терминологии обновлений программного обеспечения Майкрософт см. в [статье базы знаний 824684](https://support.microsoft.com/kb/824684).
 
-
 ## <a name="related-topics"></a>Связанные разделы
 
 - [Установка Skype для бизнеса Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)
 - [Обновление до Skype для бизнеса Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
-
-
+- [Последние обновления версий Skype для бизнеса, в которых используется установщик Windows (MSI)](sfb-client-updates.md)

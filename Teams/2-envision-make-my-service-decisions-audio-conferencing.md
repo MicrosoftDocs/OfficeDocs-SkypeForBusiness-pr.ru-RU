@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577ee414529223dbc435d8570a55adb6883fd8a2
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 3a4e1fed56742dbeb246b89d2a40e96ed3ccb683
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695624"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779988"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19695624"
 
 ## <a name="availability-of-audio-conferencing"></a>Доступность Аудиоконференций
 
-Перед началом планирования для реализации конференц-связи звук в группах, необходимо просмотрите доступности службы аудиоконференции как описано в [страны и региона доступности для конференц-связи аудио и вызов планов](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Перед началом планирования для реализации конференц-связи звук в группах, необходимо просмотрите доступности службы аудиоконференции как описано в [страны и региона доступности для конференц-связи аудио и вызов планов](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
 > Из-за юридические ограничения для аудио конференц-связи, чтобы оно было доступно для международной организации в странах и регионах, где службы аудиоконференции коммерческую приобретается контракт для подписки на Office 365.
@@ -288,7 +288,7 @@ ms.locfileid: "19695624"
 
 -   [Перенос номеров телефонов в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   [Transferring phone numbers common questions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Общие вопросы по передаче номеров телефонов](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 |         |         |         |

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection: IT_Skype16
 description: Ссылки для ИТ-специалистов на сведения о последних обновлениях бессрочных лицензий для клиентов Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013
-ms.openlocfilehash: cf87fbb903e7bff015f77881ede956a4c4999b07
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
-ms.translationtype: HT
+ms.openlocfilehash: 015285bb5a513f0d490a596af28b83b662a518ce
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247593"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485801"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Последние обновления версий Skype для бизнеса, в которых используется установщик Windows (MSI)
 
@@ -36,7 +36,6 @@ ms.locfileid: "23247593"
   - [Требования к среде Skype для бизнеса](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
 
   - [Требования к системе Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
-
 
 ## <a name="skype-for-business-2016-client-updates"></a>Обновления клиентов Skype для бизнеса 2016
 |Имя пакета|Номер статьи базы знаний|Дата выпуска|
@@ -72,8 +71,6 @@ ms.locfileid: "23247593"
 |Обновление для системы безопасности для Skype для бизнеса 2016 |[Статья базы знаний 3114372](https://support.microsoft.com/kb/3114372) | Декабрь 2015 г.|
 |Обновление для системы безопасности для Skype для бизнеса 2016 |[Статья базы знаний 3085634](https://support.microsoft.com/kb/3085634) | Ноябрь 2015 г.|
 |Обновление для системы безопасности для Skype для бизнеса 2016 |[Статья базы знаний 2910994](https://support.microsoft.com/kb/2910994) | Сентябрь 2015 г.|
-
-
 
 ## <a name="skype-for-business-2015-client-updates"></a>Обновления клиентов Skype для бизнеса 2015
 
@@ -118,15 +115,12 @@ ms.locfileid: "23247593"
 |Обновление для системы безопасности для Skype для бизнеса 2015 или Lync 2013|[Статья базы знаний 3085500](https://support.microsoft.com/kb/3085500) | Сентябрь 2015 г. |
 |Обновление для Skype для бизнеса 2015 или Lync 2013|[Статья базы знаний 3054791 ](https://support.microsoft.com/kb/3054791) | Июнь 2015 г. |
 
-
 ### <a name="skype-for-business-on-mac-client-updates"></a>Обновления клиентов Skype для бизнеса на Mac
 
 |Имя пакета|Дата выпуска|
 |:--- |:--- |
 |[Обновление для Skype для бизнеса на Mac](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | Июнь 2018 г. |
 |[Текущие заметки о выпуске для Skype для бизнеса на Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | Июнь 2018 г. |
-
-
 
 * * *
 
@@ -175,8 +169,6 @@ ms.locfileid: "23247593"
 |Обновление для системы безопасности для Skype для бизнеса 2015 или Lync 2013|[Статья базы знаний 3085500](https://support.microsoft.com/kb/3085500) | Сентябрь 2015 г. |
 |Обновление для Skype для бизнеса 2015 или Lync 2013|[Статья базы знаний 3054791 ](https://support.microsoft.com/kb/3054791) | Июнь 2015 г. |
 
-
-
 ### <a name="lync-phone-edition-updates"></a>Обновления Lync Phone Edition
 
 Имя пакета|Номер статьи базы знаний|Дата выпуска|
@@ -201,7 +193,6 @@ ms.locfileid: "23247593"
 |[Lync Phone Edition для Polycom CX500, Polycom CX600 и Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | Апрель 2017 г. |
 |[Lync Phone Edition для Polycom CX700 и LG-Nortel IP Phone 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | Декабрь 2015 г. |
 
-
 ### <a name="lync-basic-2013-trial-software"></a>Пробная версия программного обеспечения Lync Basic 2013
 
 Имя пакета|Дата выпуска|
@@ -211,14 +202,12 @@ ms.locfileid: "23247593"
 
 * * *
 
-
 ### <a name="lync-for-mac-2011-client-updates"></a>Обновления клиентов Lync для Mac 2011
 
 Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Обновление для Lync для Mac 2011 |[Статья базы знаний 3175174](https://support.microsoft.com/kb/3175174)|Июль 2016 г.|
 |Накопительные пакеты обновления для Lync для Mac 2011 |[Статья базы знаний 3074981](https://support.microsoft.com/kb/3074981)|Июль 2015 г.|
-
 
 ### <a name="lync-2010-client-updates"></a>Обновления клиентов Lync 2010
 
@@ -234,7 +223,6 @@ ms.locfileid: "23247593"
 |Обновление для системы безопасности для Lync 2010 |[Статья базы знаний 3096735](https://support.microsoft.com/kb/3096735) | Ноябрь 2015 г.|
 |Обновление для системы безопасности для Lync 2010 |[Статья базы знаний 3081087](https://support.microsoft.com/kb/3081087) | Сентябрь 2015 г.|
 |Накопительные пакеты обновления для Lync 2010 |[Статья базы знаний 3072611](https://support.microsoft.com/kb/3072611) | Июль 2015 г.|
-
 
 ### <a name="lync-2010-attendant-updates"></a>Обновления для Lync 2010 Attendant
 
@@ -276,3 +264,6 @@ ms.locfileid: "23247593"
 |[Пробная версия Lync 2010 (32-разрядная) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| Ноябрь 2010 г. |
 |[Пробная версия Lync 2010 (64-разрядная) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| Ноябрь 2010 г. |
 
+## <a name="related-topics"></a>См. также:
+
+- [Обновления Skype для бизнеса Server](sfb-server-updates.md)

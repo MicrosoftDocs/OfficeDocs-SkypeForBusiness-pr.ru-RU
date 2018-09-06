@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f91836848f6a7698025e118542628cbce44166c6
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 19d5be5ebab02b839354a79af6a75e3ade9f3000
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21597585"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23797325"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams
 =============================================================================
@@ -41,6 +41,12 @@ ms.locfileid: "21597585"
 
 > [!NOTE]
 > В настоящее время вы не можете заменить библиотеку документов и сайт SharePoint по умолчанию. Нас часто спрашивают об этой возможности, и мы рассматриваем пути ее внедрения. Обо всех готовящихся изменениях вы можете узнать в [Стратегии развития Teams](https://aka.ms/teamsroadmap) и в [посвященном Teams разделе UserVoice](https://aka.ms/TeamsUserVoice).
+
+> [!TIP]
+> Добавление вкладки в группу, что ссылки на существующие SharePoint веб-сайтов или к существующей SharePoint библиотеки документов:
+> 1. Выберите значок "плюс" рядом с вкладками.
+> 2. Выберите **веб-сайт**.
+> 3. Введите имя и введите URL-адрес библиотеки документов или сайт SharePoint.
 
 У каждого пользователя имеется папка OneDrive **Файлы чатов Microsoft Teams** для хранения всех файлов, предоставленных для общего доступа в приватных чатах с другими пользователями (в формате один к одному или один ко многим). При этом разрешения для ограничения доступа настраиваются автоматически.
 
