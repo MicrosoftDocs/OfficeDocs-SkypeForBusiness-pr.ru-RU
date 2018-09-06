@@ -1,5 +1,5 @@
 ---
-title: Создание и управление ими абонентских групп
+title: Создание абонентских групп и управление ими
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,25 +19,26 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Сведения о создании вызова абонентских групп (вызов ТСОП абонентских групп) в Office 365 и управлять ими. '
-ms.openlocfilehash: 5390765db0d70acb789c6dcf4a2fd4dc488e613e
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
-ms.translationtype: MT
+description: 'Сведения о создании абонентских групп звонков (абонентские группы звонков по ТСОП) в Office 365 и о управлении ими. '
+ms.openlocfilehash: a0bbe698e348461d9f8295035e02afcb537eb503
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779291"
 ---
-# <a name="create-and-manage-dial-plans"></a>Создание и управление ими абонентских групп
+# <a name="create-and-manage-dial-plans"></a>Создание абонентских групп и управление ими
 
-После запланированных абонентские группы для вашей организации и поняли все правила нормализации, которые необходимо создать для маршрутизации вызовов, необходимо использовать Windows PowerShell для создания абонентских групп и измените параметр.
+После того, как вы запланировали абонентские группы для вашей организации и ознакомились со всеми правилами нормализации, которые необходимо создать для маршрутизации вызовов, необходимо использовать Windows PowerShell для создания абонентских групп и внесения каких-либо изменений в параметры.
   
 > [!NOTE]
-> Скайп по центру администрирования бизнес не может использоваться для создания и управления абонентских групп. 
+> Центр администрирования Skype для бизнеса не может использоваться для создания абонентских групп и управления ими. 
   
-## <a name="verifying-and-starting-remote-powershell"></a>Проверка и запуск удаленной оболочки PowerShell
+## <a name="verifying-and-starting-remote-powershell"></a>Проверка и запуск удаленного модуля PowerShell
 
- **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
+ **Убедитесь в том, что у вас установлен модуль Windows PowerShell 3.0 или более поздней версии**
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Чтобы убедиться, что выполняется версия 3.0 или более поздняя версия, зайдите в **Меню "Пуск"** > **Windows PowerShell**.
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
@@ -49,7 +50,7 @@ ms.lasthandoff: 05/25/2018
   
  **Запуск сеанса Windows PowerShell**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Из **меню "Пуск"** > **Windows PowerShell**.
     
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     
@@ -64,74 +65,74 @@ ms.lasthandoff: 05/25/2018
     Import-PSSession $session
   ```
 
-Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [подключение к Скайп для бизнеса в Интернет с помощью Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Если вы желаете получить дополнительные сведения по запуску Windows PowerShell, см. статью [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или[Подключение к Skype для бизнеса Online с использованием Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
-## <a name="creating-and-managing-your-dial-plans"></a>Создание и управление абонентских
+## <a name="creating-and-managing-your-dial-plans"></a>Создание ваших абонентских групп и управление ими
 
-Создание и управление ими абонентских групп клиентов можно использовать либо одного командлета или сценария PowerShell.
+Создание абонентских групп клиентов и управление ими можно осуществлять с помощью одиночного командлета или сценария PowerShell.
   
-### <a name="using-single-cmdlets"></a>С помощью одного командлетов
+### <a name="using-single-cmdlets"></a>С помощью одиночного командлета
 
-- Чтобы создать новую абонентскую группу, выполните следующую команду:
+- Чтобы создать новую абонентскую группу, запустите следующую команду:
     
   ```
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Другие примеры и параметры в разделе [New-CsTenantDialPlan](https://technet.microsoft.com/library/mt775026.aspx).
+    Другие примеры и параметры см. в разделе [New-CsTenantDialPlan](https://technet.microsoft.com/library/mt775026.aspx).
     
-- Внесение изменений в существующую абонентскую группу, выполните следующую команду:
+- Чтобы внести изменения в существующую абонентскую группу, запустите следующую команду:
     
   ```
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Другие примеры и параметры в разделе [Set-CsTenantDialPlan](https://technet.microsoft.com/library/mt775023.aspx).
+    Другие примеры и параметры см. в разделе [Set-CsTenantDialPlan](https://technet.microsoft.com/library/mt775023.aspx).
     
-- Чтобы добавить пользователей в абонентской группе, выполните следующую команду:
+- Чтобы добавить пользователей в абонентскую группу, запустите следующую команду:
     
   ```
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    Другие примеры и параметры в разделе [Предоставление CsTenantDialPlan](https://technet.microsoft.com/library/mt775021.aspx).
+    Другие примеры и параметры см. в разделе [Grant-CsTenantDialPlan](https://technet.microsoft.com/library/mt775021.aspx).
     
-- Чтобы просмотреть параметры в абонентской группе, выполните следующую команду:
+- Чтобы просмотреть параметры абонентской группы, запустите следующую команду:
     
   ```
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    Другие примеры и параметры в разделе [Get-CsTenantDialPlan](https://technet.microsoft.com/library/mt775024.aspx).
+    Другие примеры и параметры см. в разделе [Get-CsTenantDialPlan](https://technet.microsoft.com/library/mt775024.aspx).
     
-- Чтобы удалить абонентской группы, выполните следующую команду:
+- Чтобы удалить абонентскую группу, запустите следующую команду:
     
   ```
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    Другие примеры и параметров в разделе [Remove CsTenantDialPlan](https://technet.microsoft.com/library/mt775020.aspx).
+    Другие примеры и параметры см. в разделе [Remove-CsTenantDialPlan](https://technet.microsoft.com/library/mt775020.aspx).
     
-- Чтобы просмотреть параметры действующих абонентскую группу, выполните следующую команду:
+- Чтобы просмотреть параметры действующей абонентской группы, запустите следующую команду:
     
   ```
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    Другие примеры и параметры в разделе [Get-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775022.aspx).
+    Другие примеры и параметры см. в разделе [Get-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775022.aspx).
     
-- Для проверки действующих параметров в абонентской группе, выполните следующую команду:
+- Для проверки действующих параметров абонентской группы запустите следующую команду:
     
   ```
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255551234 -Identity 1849827b-a810-40a8-8f77-e94250d4680b_US_TenantDialPlanRedmond
   ```
 
-    Другие примеры и параметры в разделе [Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).
+    Другие примеры и параметры см. в разделе [Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).
     
 ### <a name="using-a-powershell-script"></a>С помощью скрипта PowerShell
 
-Выполните это для удаления правила нормализации, который связан с клиента абонентской группы без необходимости сначала удаление абонентской клиента:
+Запустите эту команду для удаления правила нормализации, которое связано с абонентской группой клиента, и вам не придется сначала удалять абонентскую группу клиента:
 ```
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
@@ -139,18 +140,18 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
-Запустите следующие правила нормализации Добавление существующего клиента абонентскую группу с именем RedmondDialPlan.
+Запустите эту команду для добавления следующего правила нормализации к существующему клиенту абонентской группы с именем RedmondDialPlan.
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
-Выполните это для удаления следующее правило нормализации из существующего клиента абонентская группа с именем RedmondDialPlan.
+Запустите эту команду для удаления следующего правила нормализации из существующего клиента абонентской группы с именем RedmondDialPlan.
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-Когда необходимо также проверить существующие правила нормализации, определить, какой из них нужно удалить и затем использовать его индексу удаляет его, выполните следующие действия. Массив правил нормализации начинается с индексом 0. Мы предлагаем для удаления правила нормализации цифра 3, чтобы он индекса 1.
+Запустите следующую команду, когда вы хотите также проверить существующие правила нормализации, определить, какое из них нужно удалить, а затем использовать его индекс для удаления. Массив правил нормализации начинается с индекса 0. Если мы хотим удалить з-х цифровое правило нормализации, индекс будет 1.
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -170,15 +171,15 @@ $nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[Number 1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-Выполните это для поиска всех пользователей, которым были присвоены RedmondDialPlan клиента абонентская группа.
+Запустите эту команду для поиска всех пользователей, которым была присвоена абонентская группа клиента RedmondDialPlan.
   
 ```
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Выполните эти для добавления существующих локальных абонентская группа с именем OPDP1 как в абонентской группе клиента для вашей организации. Необходимо сначала сохранить в локальной абонентская группа в XML-файл, а затем использовать для создания новой абонентской клиента.
+Запустите эту команду для добавления существующей локальной абонентской группы с именем OPDP1 в качестве абонентской группы клиента для вашей организации. Необходимо сначала сохранить локальную абонентскую группу в XML-файл, а затем использовать ее для создания новой абонентской группы клиента.
   
-Выполните это для сохранения локальной единой системы обмена сообщениями в XML-файл.
+Запустите эту команду для сохранения локальной абонентской группы в XML-файл.
   
 ```
 $DPName = "OPDP1"
@@ -186,7 +187,7 @@ $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
 ```
 
-Выполните это для создания новой абонентской клиента.
+Запустите эту команду для создания новой абонентской группы клиента.
   
 ```
 $DPFileName = "dialplan.xml"
@@ -200,13 +201,13 @@ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows Powershell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell используется для управления пользователями и их правами. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Почему необходимо использовать PowerShell Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
@@ -216,14 +217,14 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
-[Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a>Связанные темы
+[Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Управление номерами телефонов организации](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
