@@ -1,7 +1,7 @@
 ---
 title: Минимальные требования к сети для приложения "Собрания Skype"
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 6/4/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Сводка: Сведения о для организаций, которые не использовать Office 365 и требуется доступ к собраниям, размещенного в организации, выполните.'
-ms.openlocfilehash: 6005e8ea26b5910769967fa38a9a274428395ee4
-ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
+ms.openlocfilehash: 34c3169fd36422011f9d1e9b262e774d0fb4c06b
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19744297"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601922"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Минимальные требования к сети для приложения "Собрания Skype"
  
@@ -34,7 +34,7 @@ ms.locfileid: "19744297"
  
 |Приложения |Полные доменные имена назначения  |IP-адреса  |Порты  |
 |---|---------|---------|---------|
-|**Приложение Скайп собраний** | \*. lync.com <br/>\*. infra.lync.com<br/>\*. pipe.aria.microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*вещания<span></span>. officeapps.live.com <br/>\*PowerPoint<span></span>. officeapps.live.com <br/>\*. office.live.com<br/>\*. cdn.office.net<br/>*.s-Microsoft.com (en)<br/>        |   Эти IP-адреса часто обновляются.  Просмотреть [Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) , а также [Office Online диапазонов IP-адресов](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP: 3478–3481<br/>
+|**Приложение для собраний Skype** | \*. lync.com <br/>\*. infra.lync.com<br/>\*. pipe.aria.microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*вещания<span></span>. officeapps.live.com <br/>\*PowerPoint<span></span>. officeapps.live.com <br/>\*. office.live.com<br/>\*. cdn.office.net<br/>*.s-Microsoft.com (en)<br/>        |   Эти IP-адреса часто обновляются.  Просмотреть [Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) , а также [Office Online диапазонов IP-адресов](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP: 3478–3481<br/>
 |**Teams**    | \*<span></span>. Microsoft.com (en) <br/>\*<span></span>. skype.com | Эти IP-адреса часто обновляются.  Просмотреть [Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) , а также [Office Online диапазонов IP-адресов](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP: 443 <br/> UDP: 3478–3481
 
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
@@ -42,6 +42,6 @@ ms.locfileid: "19744297"
 
 [Планирование для клиентов собрания (веб-приложения и приложения собрания)](meetings-clients.md)
 
-[Развертывание веб-загрузки клиентов в Скайп для Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+[Развертывание веб-загрузки клиентов в Скайп для Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
 [Поддерживаемые платформы для приложения Скайп собраний](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

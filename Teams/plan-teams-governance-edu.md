@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf271132e9de19d5952e05e12b91b3a9e87ea529
-ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
+ms.openlocfilehash: 4991990143b0292f83b5c71b8b2bf01a5d612184
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "22331272"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599456"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Управления Microsoft Education вопросы и ответы для администраторов
 
@@ -30,9 +30,9 @@ ms.locfileid: "22331272"
 -   **Классификация** Вы можете создать классификации строк, которые пользователи в вашей организации можно задать при создании группы с Office 365. 
 
 > [!IMPORTANT]
-> Политика именования групп требуется лицензия Azure Active Directory Premium P1 для уникальных пользователей, которые являются участниками группы Office 365.
+> С помощью политики именования групп Office 365 требует Azure Active Directory Premium P1 лицензий или Azure AD базовой EDU лицензии для каждого уникального пользователя, который является членом одной или нескольких групп Office 365.
 
-Подробные инструкции в разделе [политика именования групп Office](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+Подробные сведения содержатся в разделе [политика именования групп Office](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 > [!Note]
 > Если группы создаются автоматически с помощью входные данные из другой системы (например, синхронизация данных School), следует проверьте соответствие входные данные политики назначения имен, который был настроен; Если нет, группы создания завершится с ошибкой.
@@ -57,6 +57,9 @@ ms.locfileid: "22331272"
 -   С помощью PowerShell, можно создать группы и каналы и настроить параметры автоматически. Для получения дополнительных сведений в разделе [Microsoft команды PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
 -   Можно использовать API-Интерфейс Microsoft Graph (в настоящее время в бета-версия) для создания, настройки, клонирование и архивировать группами. Показано [Использование Microsoft Graph API для работы с группами Майкрософт](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) для получения дополнительных сведений.
 
+> [!TIP]
+> Синхронизация данных School создает группу Office 365 для каждого класса синхронизирован и [позволяет скрытое членство](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) , чтобы только преподавателей и учащихся в этом классе могут видеть члены этого класса. Если используется другой процесс для создания групп класс параметр HiddenGroupMembershipEnabled командлета New-UnifiedGroup в соответствии с теми же требованиями конфиденциальности.
+
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>Что делать с группами по окончании режим или квартала?
 
 Мы рекомендуем сначала выбирая способ обработки данных групп при режим школа или квартала на: чтобы удалить или оставить его недоступны для учащихся даже после их прохождения курса. Может потребоваться следует помнить о календаре школа, любые политики, заданную вами не конфликтует с праздничные дни. Для реализации стратегии, можно использовать следующие средства:
@@ -66,6 +69,9 @@ ms.locfileid: "22331272"
 
 -   **Архива группы:** Этот параметр помещает группы в режиме только для чтения. Их можно по-прежнему просматривать и поиск, но не могут добавлять всех новых сообщений. [Восстановление группы или архива](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) описывает, как владельцев группы можно архивировать группы; Группа владельцев можно также использовать [API график (бета-версия)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) для архивации и восстановления группы.
  
+> [!IMPORTANT]
+> С помощью политики срока действия группы Office 365 требует Azure Active Directory Premium P1 лицензий для каждого уникального пользователя, который является членом одной или нескольких групп Office 365.
+
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>Какие шаблоны группы для личных факультета, использованный при создании группы?
 
 Да. Пользователи могут выбрать **Создание группы на основе существующего шаблона** , при создании новой группы и владельцев группы можно также использовать [API график (бета-версия)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) для создания новой группы из доступных шаблонов.

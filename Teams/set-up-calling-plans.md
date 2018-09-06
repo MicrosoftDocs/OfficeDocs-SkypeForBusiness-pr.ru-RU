@@ -1,0 +1,145 @@
+---
+title: Настройка планов звонков
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav, roykuntz, jastark
+ms.topic: article
+ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
+ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Priority
+f1keywords: None
+ms.custom:
+- Calling Plans
+- LIL_Placement
+description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
+ms.openlocfilehash: 12ebb45fdeb145f72e2fe4e501cc144216c155e1
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23783288"
+---
+# <a name="set-up-calling-plans"></a>Настройка планов звонков
+Звонков на других Скайп для бизнес-пользователи могут свободно, но если пользователи должны иметь возможность вызова телефоны за пределами вашей организации получить внутренние вызов план или международный вызов плана в Office 365. Это просто установки для бизнеса. 
+
+## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Шаг 1: Узнайте, если вызов планы доступны в вашей стране или регионе
+Перейти к [страны и региона для конференц-связи аудио и вызов планы](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) и выберите страну или регион, чтобы получить сведения о доступности о вызове планы, а также сведения о международную звук конференц-связи, телефонной системой и бесплатный номер номера и кредитов коммуникаций.
+  
+## <a name="step-2-buy-and-assign-licenses"></a>Шаг 2: Купить и назначение лицензий
+1. Если система телефона в Office 365 компонента не включена в план, может потребоваться приобрести лицензии дополнительный компонент **Телефонной системой** . После того как **Телефонной системой** лицензий на покупку [Вызов планы для Office 365](calling-plans-for-office-365.md). Просмотреть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)и приобрести лицензии и планирование. 
+    
+    > [!TIP]
+    > Лицензий **Телефонной системой** и вызов планы в Office 365 перейдите вместе, чтобы увидеть возможность купить вызов планы, необходимо иметь лицензии **Телефонной системой** .
+  
+2. Сначала назначение лицензий, а затем назначить вызов планирование для пользователей в вашей организации. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+    
+## <a name="step-3-get-phone-numbers"></a>Шаг 3: Получение телефонных номеров
+Есть три способа получить новые номера пользователей:
+
+- **Используйте Скайп по центру администрирования бизнеса.** В некоторых странах или регионах можно получить номера для ваших пользователей с помощью Центра администрирования Skype для бизнеса. См. статью [Получение телефонных номеров для ваших пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
+    
+- **Портируйте номера, которые у вас уже есть.** Вы можете порта или перенос существующих номеров из текущего поставщика услуг или телефон поставщика в Office 365. Для получения дополнительных полезных сведений о том, как это сделать, см. статью [Перемещение телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md) или [Управление телефонными номерами вашей организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+  
+- **Используйте форму запроса для новых номеров.** В некоторых случаях (в зависимости от страны или региона) не будут иметь возможность получать новые телефонных номеров с помощью Скайп по центру администрирования бизнес или вам потребуется номера телефона или код области. В таких случаях необходимо скачать соответствующую форму, заполнить ее и отправить в нашу службу поддержки. Для получения дополнительных сведений см. статью [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+
+## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Шаг 4: Добавление экстренных адресов и расположения для вашей организации
+<a name="bkmk_add_addresses"></a> Экстренных адрес должен быть связан с номером телефона; При этом сопоставление осуществляется, может зависеть от стран и регионов. Например, в США необходимо привязать адрес для экстренного реагирования при назначении телефонного номера пользователю. В Великобритании необходимо привязать адрес для экстренного реагирования к номеру телефона при получении телефонных номеров в Office 365 или передаче телефонного номера текущим поставщиком услуг. 
+
+**Чтобы добавить экстренных адрес для вашей организации**
+
+![sfb логотип 30x30.png](media/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+
+В Скайп по центру администрирования бизнеса, перейдите к **голосовым** > **расположения аварийного** > **Добавить новый адрес**. Для получения дополнительных сведений см [Добавить или удалить и экстренных адрес для вашей организации](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
+
+**Чтобы добавить экстренных расположение для вашей организации** 
+
+![sfb логотип 30x30.png](media/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+
+В Скайп по центру администрирования бизнеса, перейдите к **голосовым** > **расположения аварийного** > **Добавить новый адрес**. Для получения дополнительных сведений в разделе [Add, изменение или удаление экстренных расположение для вашей организации](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
+
+    
+## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Шаг 5: Назначение экстренных адрес и номер телефона для пользователя
+<a name="bkmk_add_addresses"></a> При установке вызов планы в Office 365, необходимо назначить номер телефона и адрес экстренных каждого пользователя. Адрес для экстренного реагирования необходимо создать перед тем, как сопоставить его с номером телефона. 
+
+**Чтобы добавить экстренных адрес для пользователя** 
+
+![sfb логотип 30x30.png](media/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+
+В Скайп по центру администрирования бизнеса, перейдите к **голосовым** > **пользователей голосовой связи** > **расположение аварийного** > **присвоить номер** > **изменить расположение**. Для получения дополнительных сведений см [Назначение или изменение экстренных адреса для пользователя](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
+
+   > [!NOTE]
+   > Можно также назначить экстренных адрес при назначении номер телефона.
+
+**Чтобы назначить номер телефона для пользователя**
+
+![sfb логотип 30x30.png](media/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+
+В Скайп по центру администрирования бизнеса, перейдите к **голосовым** > **пользователей голосовой связи** > **присвоить номер** > **изменить расположение**. Для получения дополнительных сведений см [назначить, изменить или удалить номер телефона для пользователя](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user) .
+
+## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>Шаг 6: Сообщите пользователям о новых телефонные номера
+<a name="bkmk_add_addresses"> </a>
+
+Мы рекомендуем использовать для этого электронную почту или другой выбранный вашей компанией способ связи. 
+
+Вот, как он будет видеть этот номер телефона в свои приложения **Скайп для бизнеса** :
+  
+1. Войдите в приложение Skype для бизнеса на рабочем столе.
+    
+2. Выберите **Настройки** > **Инструменты** > **Параметры**. 
+    
+     ![To view your phone number, go to Settings > Tools > Options.](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
+  
+3. Выберите **Телефоны**. 
+    
+    ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+ 
+В **Группами Майкрософт**пользователи могут видеть телефонный номер, щелкнув **звонки** в левой панели навигации. Номер телефона отображается над панель набора номера.
+
+![Позволяют пользователям просматривать их число группами Майкрософт, щелкнув звонки в левой панели навигации.](media/teams-phone-number.png)
+
+## <a name="what-else-do-you-need-to-know"></a>Дополнительные важные сведения
+<a name="bkmk_add_addresses"> </a>
+
+- Зачастую адрес для экстренного реагирования является городским адресом, адресом с указанием улицы и здания или физическим адресом. Это городской адрес или адрес с указанием улицы и здания, где расположена ваша организация.
+    
+- Местоположения для экстренного реагирования не подтверждаются, подтверждаются только адреса.
+    
+- Дополнительные сведения об адресах для экстренного реагирования см. в статье [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
+    
+## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>Хотите автоматизировать процесс назначения номеров телефонов?
+<a name="bkmk_add_addresses"> </a>
+
+Если вы знакомы с Windows PowerShell, то можете использовать следующие командлеты для назначения номеров телефонов пользователям. 
+  
+- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/en-us/library/mt243818.aspx): получает номера телефонов из корпоративного каталога голосовой связи.
+    
+- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/en-us/library/mt243817.aspx): Задает номера телефонов.
+    
+Дополнительные сведения см. в разделе [Краткий справочник.Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://technet.microsoft.com/en-us/library/dn362776%28v=ocs.15%29.aspx).
+  
+   > [!NOTE]
+   > Если необходимо больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+
+
+## <a name="related-topics"></a>См. также:
+[Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
+
+[Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
+[Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
+
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+  
+ 

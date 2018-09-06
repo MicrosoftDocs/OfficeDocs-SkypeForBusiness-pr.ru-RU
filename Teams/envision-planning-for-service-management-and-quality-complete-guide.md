@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 584268a3b1b36f11518ed10e04b995b2d84b9bc1
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 94cdfd1f8bc9c3ef1a7968eb1d1219f22b37ea26
+ms.sourcegitcommit: af2406f8ac57fa6d867a806f8421f8da374d6781
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396881"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "22499738"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Планирование управления службами и обеспечения их качества
 
@@ -141,7 +141,7 @@ Microsoft Teams поддерживает различные конечные т�
 
 Мы настоятельно рекомендуем назначить лидера по качеству в самом начале процесса. После назначения этому человеку следует приступить к изучению руководства по анализу процедуры обеспечения качества.
 
-Это руководство находится [здесь](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+Это руководство находится [здесь](https://aka.ms/qerguide).
 
 ## <a name="plan-for-network-quality"></a>Планирование обеспечения качества для сети 
 
@@ -334,8 +334,8 @@ Microsoft Teams можно использовать для собраний ил
 | Область | Сведения | Ссылки |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Планирование управления службами | Пример управления сопоставлением операционных ролей <br/> Подтверждение из подотчетных команд <br/> Проверка готовности к роли | [Руководство по работе](1-drive-value-operate-my-service.md) |
-| | Назначение лидеров по качеству <br/> Готовность лидера по качеству| [Изучение панели мониторинга качества звонка](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Руководство по анализу процедуры обеспечения качества](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | Установка шаблонов для анализа процедуры обеспечения качества <br/> Отправка файла для создания | [Шаблоны QERLite](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [Отправка сведений для создания](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| | Назначение лидеров по качеству <br/> Готовность лидера по качеству| [Изучение панели мониторинга качества звонка](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Руководство по анализу процедуры обеспечения качества](https://aka.ms/qerguide) |
+| | Установка шаблонов для анализа процедуры обеспечения качества <br/> Отправка файла для создания | [Шаблоны QERLite](https://aka.ms/qertemplates) <br/> [Отправка сведений для создания](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
 | Планирование обеспечения качества для сети | Запуск планировщика сети | [Планировщик сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Реализация качества обслуживания | [Качество обслуживания в Microsoft Teams](qos-in-teams.md) |
 | | Обход прокси-серверов | [Инструкции по прокси-серверам](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |

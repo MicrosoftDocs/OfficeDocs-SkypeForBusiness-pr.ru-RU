@@ -17,45 +17,45 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Сводка: Сведения о Скайп Business Server 2015 интеграции с Exchange и SharePoint.'
-ms.openlocfilehash: be40510a5a33545a7aa6fc84d6d67a20a2cd89cf
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 5599ebcb4e4b9209f0f36ff767b8d261fbffba60
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546478"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23243258"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Интеграция с Exchange и SharePoint
- 
+
 **Сводка:** Сведения о Скайп Business Server 2015 интеграции с Exchange и SharePoint.
-  
+
 Можно настроить Скайп для развертываний Business Server 2015 для интеграции с Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange Server 2010 и SharePoint Server, в локальной и online. Функции, приведенные в следующей таблице, поддерживаются всеми клиентами, если не указано иное. Дополнительные сведения о клиенте поддержки см [Сравнение функций для настольных компьютеров для Скайп для бизнеса](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) и Скайп для бизнеса в Интернет таблицы сравнения клиентов на [клиентах для Скайп для бизнеса в Интернет](https://go.microsoft.com/fwlink/p/?LinkId=281902).
-  
+
 ## <a name="integration-with-exchange-server"></a>Интеграция с Exchange Server
 
-В следующей таблице перечислены функции, поддерживаемые в гибридном развертывании при интеграции с Microsoft Exchange Server. 
-  
+В следующей таблице перечислены функции, поддерживаемые в гибридном развертывании при интеграции с Microsoft Exchange Server.
+
  **Скайп для Business Server локально и Exchange локально**
-  
+
 
 |**Функция**|**Примечания**|
 |:-----|:-----|
-|Обмен мгновенными сообщениями и присутствие в Outlook  <br/> |Для получения дополнительных сведений см [обмена мгновенными Сообщениями и присутствия](http://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
+|Обмен мгновенными сообщениями и присутствие в Outlook  <br/> |Для получения дополнительных сведений см [обмена мгновенными Сообщениями и присутствия](https://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
 |Планирование собраний по сети и присоединение к ним с помощью Outlook  <br/> |Дополнительные сведения можно [Интегрировать Скайп для 2015 Business Server с Exchange Server](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
 |Обмен мгновенными Сообщениями и сведений о присутствии в Outlook Web App  <br/> |Дополнительные сведения в статье [Configure гибридной среде Скайп для Business Server 2015](../manage/authentication/configure-a-hybrid-environment.md).  <br/> |
 |Расписание и присоединиться к собранию по сети через Outlook Web App  <br/> ||
 |Обмен мгновенными сообщениями и присутствие в мобильных клиентах  <br/> ||
-|Присоединение к собраниям по сети в мобильных клиентах  <br/> |Для получения дополнительных сведений см [Развертывание мобильных устройств](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx).  <br/> |
+|Присоединение к собраниям по сети в мобильных клиентах  <br/> |Для получения дополнительных сведений см [Развертывание мобильных устройств](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx).  <br/> |
 |Публикация состояния в соответствии со сведениями о доступности в календаре Outlook  <br/> ||
 |Список контактов (из единого хранилища контактов)  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Lync 2013 или Скайп для настольных компьютеров клиента Business является обязательным.  <br/>  Дополнительные сведения можно [Настроить Скайп для 2015 Business Server для использования в единое хранилище контактов](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |Фотографии с высоким разрешением контакт в клиент Lync 2013, Скайп для клиента Business и Lync Web App.  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Дополнительные сведения содержатся в разделе [Настройка использования фотографий высокого разрешения в Скайп для Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
 |Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Почтовый ящик exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> ||
-|Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Для получения дополнительных сведений см [Контрольный список развертывания для архивации](http://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
+|Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Для получения дополнительных сведений см [Контрольный список развертывания для архивации](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Поиск заархивированного содержимого  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> |
-|Голосовая почта  <br/> |Для получения дополнительных сведений см [Развертывание локального Exchange единой системы обмена СООБЩЕНИЯМИ для предоставления Lync Server 2013 голосовой почты](http://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx).  <br/> |
-   
+|Голосовая почта  <br/> |Для получения дополнительных сведений см [Развертывание локального Exchange единой системы обмена СООБЩЕНИЯМИ для предоставления Lync Server 2013 голосовой почты](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx).  <br/> |
+
  **Скайп для Business Server локально и Exchange Online**
-  
+
 
 |**Функция**|**Примечания**|
 |:-----|:-----|
@@ -70,13 +70,13 @@ ms.locfileid: "19546478"
 |Фотографии с высоким разрешением контакт в клиент Lync 2013, Скайп для клиента Business и Lync Web App.  <br/> |Дополнительные сведения содержатся в разделе [Настройка использования фотографий высокого разрешения в Скайп для Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
 |Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Почтовый ящик Exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> ||
-|Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> |Для получения дополнительных сведений см [Контрольный список развертывания для архивации](http://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
+|Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> |Для получения дополнительных сведений см [Контрольный список развертывания для архивации](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Поиск заархивированного содержимого  <br/> |Дополнительные сведения см в [Настройка Exchange для центра обнаружения электронных данных SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
-|Голосовая почта  <br/> |Дополнительные сведения содержатся в разделе [Предоставление Lync Server 2013 пользователям голосовой почты на Hosted Exchange единой системы обмена СООБЩЕНИЯМИ](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx).  <br/> |
-   
+|Голосовая почта  <br/> |Дополнительные сведения содержатся в разделе [Предоставление Lync Server 2013 пользователям голосовой почты на Hosted Exchange единой системы обмена СООБЩЕНИЯМИ](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx).  <br/> |
+
  **Скайп для бизнеса в Интернет и Exchange локально**
-  
- 
+
+
 |**Функция**|**Примечания**|
 |:-----|:-----|
 |Присутствие в Outlook  <br/> ||
@@ -90,9 +90,9 @@ ms.locfileid: "19546478"
 |Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Почтовый ящик Exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> ||
 |Журнал бесед на стороне сервера  <br/> ||
-   
+
  **Скайп для бизнеса в Интернете и Exchange Online**
-  
+
 
 |**Функция**|**Примечания**|
 |:-----|:-----|
@@ -110,14 +110,14 @@ ms.locfileid: "19546478"
 |Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> ||
 |Поиск заархивированного содержимого  <br/> ||
 |Голосовая почта  <br/> ||
-   
+
 ## <a name="integration-with-sharepoint"></a>Интеграция с SharePoint
 
 В следующей таблице перечислены функции, поддерживаемые в гибридном развертывании при интеграции с SharePoint.
-  
+
 ||**Локальная версия SharePoint**|**SharePoint Online**|
 |:-----|:-----|:-----|
 |**Скайп для Business Server 2015 локальной** <br/> | Поиск по навыкам <br/>  Сведения о присутствии в SharePoint <br/> | Сведения о присутствии в SharePoint <br/> |
-|**Скайп для бизнеса в Интернете** <br/> | Сведения о присутствии в SharePoint <br/> | Сведения о присутствии в SharePoint <br/> |
-   
+|**Skype для бизнеса Online** <br/> | Сведения о присутствии в SharePoint <br/> | Сведения о присутствии в SharePoint <br/> |
+
 

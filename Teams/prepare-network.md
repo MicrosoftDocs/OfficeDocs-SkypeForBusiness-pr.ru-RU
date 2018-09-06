@@ -3,7 +3,7 @@ title: Подготовка сети организации к использо�
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 02/26/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fec119a29ea29d9d5c897395c82e27fdaed5e48
-ms.sourcegitcommit: 8c13d6279760749f60776a3c9e46118f029ae818
+ms.openlocfilehash: 7d5d5d04a7e307119ad51eb12ac013ffa089cebf
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2018
-ms.locfileid: "20024200"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246287"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams
 =================================================
@@ -35,7 +35,7 @@ Teams сочетает в себе три формы трафика:
 > [!IMPORTANT]
 > Сейчас собрания поддерживаются на мобильных устройствах iOS и Android, но не на Windows Phone.
 
-Чтобы обеспечить в Microsoft Teams оптимальную работу с мультимедиа в реальном времени, нужно обеспечить соответствие сетей требованиям для Office 365. Дополнительные сведения: [Качество медиаданных и производительность сетевого подключения в Skype для бизнеса Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US).
+Чтобы обеспечить в Microsoft Teams оптимальную работу с мультимедиа в реальном времени, нужно обеспечить соответствие сетей требованиям для Office 365. Дополнительные сведения: [Качество медиаданных и производительность сетевого подключения в Skype для бизнеса Online](https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 Для двух определение сегментов сети (клиент для пограничного сервера Microsoft) и граница клиента для пограничного сервера Microsoft необходимо учитывать следующие рекомендации.
 
@@ -57,7 +57,7 @@ Teams сочетает в себе три формы трафика:
 <a name="bandwidth-requirements"></a>Требования к пропускной способности
 ----------
 
-Расчеты пропускной способности для Microsoft Teams довольно сложны, поэтому был создан соответствующий калькулятор. Для доступа к калькулятору перейдите в раздел [Network Planner](http://aka.ms/bwcalc/) (планировщик сети) в MyAdvisor.
+Расчеты пропускной способности для Microsoft Teams довольно сложны, поэтому был создан соответствующий калькулятор. Для доступа к калькулятору перейдите в раздел [Network Planner](https://aka.ms/bwcalc/) (планировщик сети) в MyAdvisor.
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a89f3670d2dda14ae5d15647213aca5d1d5398af
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3cf488377302fda32ff1c569c114818977ea10fc
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569917"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599362"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams 
 =========================================
@@ -37,7 +37,7 @@ ms.locfileid: "19569917"
 |**Exchange Online**|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|
 |**Exchange Online Dedicated vNext**|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|
 |**Устаревшая среда Exchange Online Dedicated** (требуется синхронизация с Azure AD)|Да ([разрешены списка](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Нет|Нет|Да|Нет|Нет|Да|Да|Нет|Да (Exchange 2013 +)|Нет|Да|Да|
-|**Локальная организация Microsoft Exchange** (требуется синхронизация с Azure AD)|Да ([разрешены списка](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Нет|Нет|Да|Да (Exchange 2016 CU3 +)|Нет|Да|Да|Нет|Да (Exchange 2013 +)|Нет|Да|Да|
+|**Локальная организация Microsoft Exchange** (требуется синхронизация с Azure AD)|Да ([разрешены списка](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Нет|Нет|Да|Да (Exchange 2016 CU3 +)|Нет|Да|Да|Нет|Да (Exchange 2013 +)|Нет|Нет|Да|
                                                             
 *\*Поддерживается Exchange 2016 с накопительным пакетом обновления 3 или более поздней версии*
 
