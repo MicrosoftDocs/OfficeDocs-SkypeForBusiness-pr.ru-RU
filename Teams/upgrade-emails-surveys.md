@@ -13,28 +13,28 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb78449b335ca1f770a7e8e636db7d485be78ad1
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 723a90609b6ef704d368e93ce915ac9027d58d4a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398119"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23244518"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a><span data-ttu-id="e4de1-103">Образец сообщения электронной почты и опросов для обновления базовой коммуникаций</span><span class="sxs-lookup"><span data-stu-id="e4de1-103">Sample emails and surveys for Upgrade Basic communications</span></span>
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a><span data-ttu-id="13c82-103">Образец сообщения электронной почты и опросов для обновления базовой коммуникаций</span><span class="sxs-lookup"><span data-stu-id="13c82-103">Sample emails and surveys for Upgrade Basic communications</span></span>
 
-## <a name="sample-emails"></a><span data-ttu-id="e4de1-104">Пример сообщения электронной почты</span><span class="sxs-lookup"><span data-stu-id="e4de1-104">Sample emails</span></span>
+## <a name="sample-emails"></a><span data-ttu-id="13c82-104">Пример сообщения электронной почты</span><span class="sxs-lookup"><span data-stu-id="13c82-104">Sample emails</span></span>
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a><span data-ttu-id="e4de1-105">Заинтересованных лиц сообщения электронной почты, шаг 1</span><span class="sxs-lookup"><span data-stu-id="e4de1-105">Stakeholder email, for step 1</span></span>
+### <a name="stakeholder-email-for-step-1"></a><span data-ttu-id="13c82-105">Заинтересованных лиц сообщения электронной почты, шаг 1</span><span class="sxs-lookup"><span data-stu-id="13c82-105">Stakeholder email, for step 1</span></span>
 
-<span data-ttu-id="e4de1-106">Тема:</span><span class="sxs-lookup"><span data-stu-id="e4de1-106">Subject line:</span></span>
+<span data-ttu-id="13c82-106">Тема:</span><span class="sxs-lookup"><span data-stu-id="13c82-106">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-<span data-ttu-id="e4de1-107">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="e4de1-107">Body of email:</span></span>
+<span data-ttu-id="13c82-107">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="13c82-107">Body of email:</span></span>
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -43,19 +43,19 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
-[<span data-ttu-id="e4de1-108">Возврат к шаг 1.</span><span class="sxs-lookup"><span data-stu-id="e4de1-108">Return to step 1</span></span>](upgrade-basic.md#step-1)
+[<span data-ttu-id="13c82-108">Возврат к шаг 1.</span><span class="sxs-lookup"><span data-stu-id="13c82-108">Return to step 1</span></span>](upgrade-basic.md#step-1)
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a><span data-ttu-id="e4de1-109">Уведомить пользователей сообщения электронной почты, шаг 4</span><span class="sxs-lookup"><span data-stu-id="e4de1-109">Notify users email, for step 4</span></span>
+### <a name="notify-users-email-for-step-4"></a><span data-ttu-id="13c82-109">Уведомить пользователей сообщения электронной почты, шаг 4</span><span class="sxs-lookup"><span data-stu-id="13c82-109">Notify users email, for step 4</span></span>
 
-<span data-ttu-id="e4de1-110">Тема:</span><span class="sxs-lookup"><span data-stu-id="e4de1-110">Subject line:</span></span>
+<span data-ttu-id="13c82-110">Тема:</span><span class="sxs-lookup"><span data-stu-id="13c82-110">Subject line:</span></span>
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-<span data-ttu-id="e4de1-111">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="e4de1-111">Body of email:</span></span>
+<span data-ttu-id="13c82-111">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="13c82-111">Body of email:</span></span>
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -66,25 +66,25 @@ Our official transition to Teams is set for <<X date>>, but your journey starts 
 
 CALL TO ACTION: Get started with Teams today
 
--   View this [Introducing Microsoft Teams video](http://teamsdemo.office.com/)
+-   View this [Introducing Microsoft Teams video](https://teamsdemo.office.com/)
 -   Follow these [Quick Start](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) steps to send your first chat in Teams
 
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
 
-[<span data-ttu-id="e4de1-112">Возврат к шаг 4</span><span class="sxs-lookup"><span data-stu-id="e4de1-112">Return to step 4</span></span>](upgrade-basic.md#step-4)
+[<span data-ttu-id="13c82-112">Возврат к шаг 4</span><span class="sxs-lookup"><span data-stu-id="13c82-112">Return to step 4</span></span>](upgrade-basic.md#step-4)
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a><span data-ttu-id="e4de1-113">Напомнить пользователям сообщения электронной почты, шаг 6</span><span class="sxs-lookup"><span data-stu-id="e4de1-113">Remind users email, for step 6</span></span>
+### <a name="remind-users-email-for-step-6"></a><span data-ttu-id="13c82-113">Напомнить пользователям сообщения электронной почты, шаг 6</span><span class="sxs-lookup"><span data-stu-id="13c82-113">Remind users email, for step 6</span></span>
 
-<span data-ttu-id="e4de1-114">Тема. строка: напоминание: Подготовка к обновлению до групп</span><span class="sxs-lookup"><span data-stu-id="e4de1-114">Subject line: REMINDER: Get ready for your upgrade to Teams</span></span>
+<span data-ttu-id="13c82-114">Тема. строка: напоминание: Подготовка к обновлению до групп</span><span class="sxs-lookup"><span data-stu-id="13c82-114">Subject line: REMINDER: Get ready for your upgrade to Teams</span></span>
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-<span data-ttu-id="e4de1-115">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="e4de1-115">Body of email:</span></span>
+<span data-ttu-id="13c82-115">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="13c82-115">Body of email:</span></span>
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -103,19 +103,19 @@ Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Tea
 Should you have questions about this upgrade, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="e4de1-116">Возврат к шаг 6</span><span class="sxs-lookup"><span data-stu-id="e4de1-116">Return to step 6</span></span>](upgrade-basic.md#step-6)
+[<span data-ttu-id="13c82-116">Возврат к шаг 6</span><span class="sxs-lookup"><span data-stu-id="13c82-116">Return to step 6</span></span>](upgrade-basic.md#step-6)
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a><span data-ttu-id="e4de1-117">Приветственного сообщения электронной почты пользователей из ответственного спонсора для шаг 7</span><span class="sxs-lookup"><span data-stu-id="e4de1-117">Welcome users email from the executive sponsor, for step 7</span></span>
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a><span data-ttu-id="13c82-117">Приветственного сообщения электронной почты пользователей из ответственного спонсора для шаг 7</span><span class="sxs-lookup"><span data-stu-id="13c82-117">Welcome users email from the executive sponsor, for step 7</span></span>
 
-<span data-ttu-id="e4de1-118">Тема:</span><span class="sxs-lookup"><span data-stu-id="e4de1-118">Subject line:</span></span>
+<span data-ttu-id="13c82-118">Тема:</span><span class="sxs-lookup"><span data-stu-id="13c82-118">Subject line:</span></span>
 
 ```
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-<span data-ttu-id="e4de1-119">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="e4de1-119">Body of email:</span></span>
+<span data-ttu-id="13c82-119">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="13c82-119">Body of email:</span></span>
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -128,8 +128,8 @@ Let me be the first to officially welcome you to Microsoft Teams. Your Skype for
 
 CALL TO ACTION: If you need assistance getting started in Teams:
 
--   View this Introducing Microsoft Teams video: http://teamsdemo.office.com/
--   Visit the Office 365 Training Center, or simply ask T-Bot. 
+-   View this Introducing Microsoft Teams video: https://teamsdemo.office.com/
+-   Visit the Office 365 Training Center, or simply ask T-Bot.
 
 Should you have questions about Teams, contact <<insert alias or contact info>>.
 
@@ -138,20 +138,20 @@ Regards,
 <<insert executive sponsor name>>
 ````
 
-[<span data-ttu-id="e4de1-120">Возврат к действию 7</span><span class="sxs-lookup"><span data-stu-id="e4de1-120">Return to step 7</span></span>](upgrade-basic.md#step-7)
+[<span data-ttu-id="13c82-120">Возврат к действию 7</span><span class="sxs-lookup"><span data-stu-id="13c82-120">Return to step 7</span></span>](upgrade-basic.md#step-7)
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a><span data-ttu-id="e4de1-121">Возврат сообщения электронной почты, шаг 9</span><span class="sxs-lookup"><span data-stu-id="e4de1-121">Check-in email, for step 9</span></span>
+### <a name="check-in-email-for-step-9"></a><span data-ttu-id="13c82-121">Возврат сообщения электронной почты, шаг 9</span><span class="sxs-lookup"><span data-stu-id="13c82-121">Check-in email, for step 9</span></span>
 
 
-<span data-ttu-id="e4de1-122">Тема:</span><span class="sxs-lookup"><span data-stu-id="e4de1-122">Subject line:</span></span>
+<span data-ttu-id="13c82-122">Тема:</span><span class="sxs-lookup"><span data-stu-id="13c82-122">Subject line:</span></span>
 
 ```
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-<span data-ttu-id="e4de1-123">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="e4de1-123">Body of email:</span></span>
+<span data-ttu-id="13c82-123">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="13c82-123">Body of email:</span></span>
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -161,19 +161,19 @@ Share your feedback (see sample below) and transition experience with us. Your i
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="e4de1-124">Возврат к шаг 9</span><span class="sxs-lookup"><span data-stu-id="e4de1-124">Return to step 9</span></span>](upgrade-basic.md#step-9)
- 
+[<span data-ttu-id="13c82-124">Возврат к шаг 9</span><span class="sxs-lookup"><span data-stu-id="13c82-124">Return to step 9</span></span>](upgrade-basic.md#step-9)
+
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a><span data-ttu-id="e4de1-125">Электронной почты к Попросите пользователей, групп и каналы блоке try у по действие 10</span><span class="sxs-lookup"><span data-stu-id="e4de1-125">Email to ask users to give teams and channels a try, for step 10</span></span>
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a><span data-ttu-id="13c82-125">Электронной почты к Попросите пользователей, групп и каналы блоке try у по действие 10</span><span class="sxs-lookup"><span data-stu-id="13c82-125">Email to ask users to give teams and channels a try, for step 10</span></span>
 
-<span data-ttu-id="e4de1-126">Тема:</span><span class="sxs-lookup"><span data-stu-id="e4de1-126">Subject line:</span></span> 
+<span data-ttu-id="13c82-126">Тема:</span><span class="sxs-lookup"><span data-stu-id="13c82-126">Subject line:</span></span>
 
 ```
 CALL TO ACTION: Give teams and channels a try
 ```
 
-<span data-ttu-id="e4de1-127">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="e4de1-127">Body of email:</span></span>
+<span data-ttu-id="13c82-127">Текст сообщений электронной почты:</span><span class="sxs-lookup"><span data-stu-id="13c82-127">Body of email:</span></span>
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -188,44 +188,44 @@ Tip: The best use of the Teams workspace comes when the right people join the ri
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[<span data-ttu-id="e4de1-128">Возврат к шаг 10</span><span class="sxs-lookup"><span data-stu-id="e4de1-128">Return to step 10</span></span>](upgrade-basic.md#step-10)
+[<span data-ttu-id="13c82-128">Возврат к шаг 10</span><span class="sxs-lookup"><span data-stu-id="13c82-128">Return to step 10</span></span>](upgrade-basic.md#step-10)
 
 <!--ENDOFSECTION-->
 
 <a name="step-9-surveys"></a>
 
-## <a name="sample-surveys"></a><span data-ttu-id="e4de1-129">Пример опросов</span><span class="sxs-lookup"><span data-stu-id="e4de1-129">Sample surveys</span></span>
+## <a name="sample-surveys"></a><span data-ttu-id="13c82-129">Пример опросов</span><span class="sxs-lookup"><span data-stu-id="13c82-129">Sample surveys</span></span>
 
-<span data-ttu-id="e4de1-130">Указывает, как квалифицированного пользователь находится на для выполнения следующих действий в группы, а также если существуют одну или несколько операций, которые вы хотите получить дополнительные сведения о.</span><span class="sxs-lookup"><span data-stu-id="e4de1-130">Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you’d like to learn more about.</span></span>
+<span data-ttu-id="13c82-130">Указывает, как квалифицированного пользователь находится на для выполнения следующих действий в группы, а также если существуют одну или несколько операций, которые вы хотите получить дополнительные сведения о.</span><span class="sxs-lookup"><span data-stu-id="13c82-130">Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you’d like to learn more about.</span></span>
 
-|  &nbsp;  | <span data-ttu-id="e4de1-131">Очень квалифицированного</span><span class="sxs-lookup"><span data-stu-id="e4de1-131">Very skilled</span></span> | <span data-ttu-id="e4de1-132">Несколько квалифицированного</span><span class="sxs-lookup"><span data-stu-id="e4de1-132">Somewhat skilled</span></span> | <span data-ttu-id="e4de1-133">Для всех квалификацией</span><span class="sxs-lookup"><span data-stu-id="e4de1-133">Not skilled at all</span></span> | <span data-ttu-id="e4de1-134">Чтобы получить дополнительные сведения</span><span class="sxs-lookup"><span data-stu-id="e4de1-134">Want to learn more</span></span> | <span data-ttu-id="e4de1-135">Н/Д</span><span class="sxs-lookup"><span data-stu-id="e4de1-135">N/A</span></span> | <span data-ttu-id="e4de1-136">Трудность определения/не знакомы</span><span class="sxs-lookup"><span data-stu-id="e4de1-136">Unsure/not familiar</span></span> |   |   |   |    |
+|  &nbsp;  | <span data-ttu-id="13c82-131">Очень квалифицированного</span><span class="sxs-lookup"><span data-stu-id="13c82-131">Very skilled</span></span> | <span data-ttu-id="13c82-132">Несколько квалифицированного</span><span class="sxs-lookup"><span data-stu-id="13c82-132">Somewhat skilled</span></span> | <span data-ttu-id="13c82-133">Для всех квалификацией</span><span class="sxs-lookup"><span data-stu-id="13c82-133">Not skilled at all</span></span> | <span data-ttu-id="13c82-134">Чтобы получить дополнительные сведения</span><span class="sxs-lookup"><span data-stu-id="13c82-134">Want to learn more</span></span> | <span data-ttu-id="13c82-135">Н/Д</span><span class="sxs-lookup"><span data-stu-id="13c82-135">N/A</span></span> | <span data-ttu-id="13c82-136">Трудность определения/не знакомы</span><span class="sxs-lookup"><span data-stu-id="13c82-136">Unsure/not familiar</span></span> |   |   |   |    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|------------------|--------------------|--------------------|-----|---------------------|---|---|---|----|
-| <span data-ttu-id="e4de1-137">Использование групп для обмена мгновенными Сообщениями/беседы</span><span class="sxs-lookup"><span data-stu-id="e4de1-137">Use Teams for IM/chatting with others</span></span>                                                                                                                     |              |                  |                    |                    |     |                     |   |   |   |    |
-| <span data-ttu-id="e4de1-138">Использование групп для собраний по сети</span><span class="sxs-lookup"><span data-stu-id="e4de1-138">Use Teams for online meetings</span></span>                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
-| <span data-ttu-id="e4de1-139">Использование групп для совместной работы (групп и каналы)</span><span class="sxs-lookup"><span data-stu-id="e4de1-139">Use Teams for collaboration (teams and channels)</span></span>                                                                                                          |              |                  |                    |                    |     |                     |   |   |   |    |
-| <span data-ttu-id="e4de1-140">Используйте группы на мобильное устройство</span><span class="sxs-lookup"><span data-stu-id="e4de1-140">Use Teams on my mobile device</span></span>                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
+| <span data-ttu-id="13c82-137">Использование групп для обмена мгновенными Сообщениями/беседы</span><span class="sxs-lookup"><span data-stu-id="13c82-137">Use Teams for IM/chatting with others</span></span>                                                                                                                     |              |                  |                    |                    |     |                     |   |   |   |    |
+| <span data-ttu-id="13c82-138">Использование групп для собраний по сети</span><span class="sxs-lookup"><span data-stu-id="13c82-138">Use Teams for online meetings</span></span>                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
+| <span data-ttu-id="13c82-139">Использование групп для совместной работы (групп и каналы)</span><span class="sxs-lookup"><span data-stu-id="13c82-139">Use Teams for collaboration (teams and channels)</span></span>                                                                                                          |              |                  |                    |                    |     |                     |   |   |   |    |
+| <span data-ttu-id="13c82-140">Используйте группы на мобильное устройство</span><span class="sxs-lookup"><span data-stu-id="13c82-140">Use Teams on my mobile device</span></span>                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
 
 
-| <span data-ttu-id="e4de1-141">**Что делать, если что-либо не позволяет с помощью групп Майкрософт?**</span><span class="sxs-lookup"><span data-stu-id="e4de1-141">**What, if anything, is preventing you from using Microsoft Teams?**</span></span>   | <span data-ttu-id="e4de1-142">**Выберите все подходящие варианты**</span><span class="sxs-lookup"><span data-stu-id="e4de1-142">**Select all that apply**</span></span> |
+| <span data-ttu-id="13c82-141">**Что делать, если что-либо не позволяет с помощью групп Майкрософт?**</span><span class="sxs-lookup"><span data-stu-id="13c82-141">**What, if anything, is preventing you from using Microsoft Teams?**</span></span>   | <span data-ttu-id="13c82-142">**Выберите все подходящие варианты**</span><span class="sxs-lookup"><span data-stu-id="13c82-142">**Select all that apply**</span></span> |
 |--------|-------|
-| <span data-ttu-id="e4de1-143">Никогда не говорят о нем</span><span class="sxs-lookup"><span data-stu-id="e4de1-143">I’ve never heard about it</span></span>    | <span data-ttu-id="e4de1-144">& #9744;</span><span class="sxs-lookup"><span data-stu-id="e4de1-144">&#9744;</span></span> |
-| <span data-ttu-id="e4de1-145">Я оно еще не установлено на моем компьютере</span><span class="sxs-lookup"><span data-stu-id="e4de1-145">I don’t have it installed on my computer</span></span>   |  <span data-ttu-id="e4de1-146">& #9744;</span><span class="sxs-lookup"><span data-stu-id="e4de1-146">&#9744;</span></span>  |
-| <span data-ttu-id="e4de1-147">Не понять, как она заинтересована me или людей, которых я работать с</span><span class="sxs-lookup"><span data-stu-id="e4de1-147">I don't understand how it would benefit me or the people I work with</span></span>   |  <span data-ttu-id="e4de1-148">& #9744;</span><span class="sxs-lookup"><span data-stu-id="e4de1-148">&#9744;</span></span>  |
-| <span data-ttu-id="e4de1-149">Не удалось времени для оценки необходимы</span><span class="sxs-lookup"><span data-stu-id="e4de1-149">I haven't had time to evaluate it for my needs</span></span>   |  <span data-ttu-id="e4de1-150">& #9744;</span><span class="sxs-lookup"><span data-stu-id="e4de1-150">&#9744;</span></span>  |
-| <span data-ttu-id="e4de1-151">Используются другими приложениями, которые соответствуют необходимы для обмена данными и совместной работы</span><span class="sxs-lookup"><span data-stu-id="e4de1-151">I already use other applications that meet my needs for communication and collaboration</span></span>   |  <span data-ttu-id="e4de1-152">& #9744;</span><span class="sxs-lookup"><span data-stu-id="e4de1-152">&#9744;</span></span>  |
-| <span data-ttu-id="e4de1-153">Требуется обучение перед его использованием</span><span class="sxs-lookup"><span data-stu-id="e4de1-153">I would need training before using it</span></span>   |  <span data-ttu-id="e4de1-154">& #9744;</span><span class="sxs-lookup"><span data-stu-id="e4de1-154">&#9744;</span></span>  |
-| <span data-ttu-id="e4de1-155">Я попытка использовать ее, но с технические вопросы или недопустимый взаимодействия</span><span class="sxs-lookup"><span data-stu-id="e4de1-155">I’ve tried to use it, but had technical issues or a bad experience</span></span>    |  <span data-ttu-id="e4de1-156">& #9744;</span><span class="sxs-lookup"><span data-stu-id="e4de1-156">&#9744;</span></span>   |
-| <span data-ttu-id="e4de1-157">Наш службу поддержки не удалось Справка о Мои вопросы</span><span class="sxs-lookup"><span data-stu-id="e4de1-157">Our support desk couldn't help me with my questions</span></span>   | <span data-ttu-id="e4de1-158">& #9744;</span><span class="sxs-lookup"><span data-stu-id="e4de1-158">&#9744;</span></span>   |
-| <span data-ttu-id="e4de1-159">Значение Nothing, в настоящее время я использовать</span><span class="sxs-lookup"><span data-stu-id="e4de1-159">Nothing, I currently use it</span></span>    |  <span data-ttu-id="e4de1-160">& #9744;</span><span class="sxs-lookup"><span data-stu-id="e4de1-160">&#9744;</span></span>  |
-| <span data-ttu-id="e4de1-161">Другие (укажите)</span><span class="sxs-lookup"><span data-stu-id="e4de1-161">Other (please specify)</span></span>     | <span data-ttu-id="e4de1-162">& #9744;</span><span class="sxs-lookup"><span data-stu-id="e4de1-162">&#9744;</span></span>   |
+| <span data-ttu-id="13c82-143">Никогда не говорят о нем</span><span class="sxs-lookup"><span data-stu-id="13c82-143">I’ve never heard about it</span></span>    | <span data-ttu-id="13c82-144">& #9744;</span><span class="sxs-lookup"><span data-stu-id="13c82-144">&#9744;</span></span> |
+| <span data-ttu-id="13c82-145">Я оно еще не установлено на моем компьютере</span><span class="sxs-lookup"><span data-stu-id="13c82-145">I don’t have it installed on my computer</span></span>   |  <span data-ttu-id="13c82-146">& #9744;</span><span class="sxs-lookup"><span data-stu-id="13c82-146">&#9744;</span></span>  |
+| <span data-ttu-id="13c82-147">Не понять, как она заинтересована me или людей, которых я работать с</span><span class="sxs-lookup"><span data-stu-id="13c82-147">I don't understand how it would benefit me or the people I work with</span></span>   |  <span data-ttu-id="13c82-148">& #9744;</span><span class="sxs-lookup"><span data-stu-id="13c82-148">&#9744;</span></span>  |
+| <span data-ttu-id="13c82-149">Не удалось времени для оценки необходимы</span><span class="sxs-lookup"><span data-stu-id="13c82-149">I haven't had time to evaluate it for my needs</span></span>   |  <span data-ttu-id="13c82-150">& #9744;</span><span class="sxs-lookup"><span data-stu-id="13c82-150">&#9744;</span></span>  |
+| <span data-ttu-id="13c82-151">Используются другими приложениями, которые соответствуют необходимы для обмена данными и совместной работы</span><span class="sxs-lookup"><span data-stu-id="13c82-151">I already use other applications that meet my needs for communication and collaboration</span></span>   |  <span data-ttu-id="13c82-152">& #9744;</span><span class="sxs-lookup"><span data-stu-id="13c82-152">&#9744;</span></span>  |
+| <span data-ttu-id="13c82-153">Требуется обучение перед его использованием</span><span class="sxs-lookup"><span data-stu-id="13c82-153">I would need training before using it</span></span>   |  <span data-ttu-id="13c82-154">& #9744;</span><span class="sxs-lookup"><span data-stu-id="13c82-154">&#9744;</span></span>  |
+| <span data-ttu-id="13c82-155">Я попытка использовать ее, но с технические вопросы или недопустимый взаимодействия</span><span class="sxs-lookup"><span data-stu-id="13c82-155">I’ve tried to use it, but had technical issues or a bad experience</span></span>    |  <span data-ttu-id="13c82-156">& #9744;</span><span class="sxs-lookup"><span data-stu-id="13c82-156">&#9744;</span></span>   |
+| <span data-ttu-id="13c82-157">Наш службу поддержки не удалось Справка о Мои вопросы</span><span class="sxs-lookup"><span data-stu-id="13c82-157">Our support desk couldn't help me with my questions</span></span>   | <span data-ttu-id="13c82-158">& #9744;</span><span class="sxs-lookup"><span data-stu-id="13c82-158">&#9744;</span></span>   |
+| <span data-ttu-id="13c82-159">Значение Nothing, в настоящее время я использовать</span><span class="sxs-lookup"><span data-stu-id="13c82-159">Nothing, I currently use it</span></span>    |  <span data-ttu-id="13c82-160">& #9744;</span><span class="sxs-lookup"><span data-stu-id="13c82-160">&#9744;</span></span>  |
+| <span data-ttu-id="13c82-161">Другие (укажите)</span><span class="sxs-lookup"><span data-stu-id="13c82-161">Other (please specify)</span></span>     | <span data-ttu-id="13c82-162">& #9744;</span><span class="sxs-lookup"><span data-stu-id="13c82-162">&#9744;</span></span>   |
 
 
-<span data-ttu-id="e4de1-163">**Вероятность вы рекомендуем группами Майкрософт friend/коллег? (0 = не на всех скорее всего... 10 = очень скорее всего)**</span><span class="sxs-lookup"><span data-stu-id="e4de1-163">**How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely)**</span></span> 
-     
-| <span data-ttu-id="e4de1-164">0</span><span class="sxs-lookup"><span data-stu-id="e4de1-164">0</span></span>      | <span data-ttu-id="e4de1-165">1</span><span class="sxs-lookup"><span data-stu-id="e4de1-165">1</span></span>            | <span data-ttu-id="e4de1-166">2</span><span class="sxs-lookup"><span data-stu-id="e4de1-166">2</span></span>                | <span data-ttu-id="e4de1-167">3</span><span class="sxs-lookup"><span data-stu-id="e4de1-167">3</span></span>                  | <span data-ttu-id="e4de1-168">4</span><span class="sxs-lookup"><span data-stu-id="e4de1-168">4</span></span>                  | <span data-ttu-id="e4de1-169">5</span><span class="sxs-lookup"><span data-stu-id="e4de1-169">5</span></span>   | <span data-ttu-id="e4de1-170">6</span><span class="sxs-lookup"><span data-stu-id="e4de1-170">6</span></span>                   | <span data-ttu-id="e4de1-171">7</span><span class="sxs-lookup"><span data-stu-id="e4de1-171">7</span></span> | <span data-ttu-id="e4de1-172">8</span><span class="sxs-lookup"><span data-stu-id="e4de1-172">8</span></span> | <span data-ttu-id="e4de1-173">9</span><span class="sxs-lookup"><span data-stu-id="e4de1-173">9</span></span> | <span data-ttu-id="e4de1-174">10</span><span class="sxs-lookup"><span data-stu-id="e4de1-174">10</span></span> |
+<span data-ttu-id="13c82-163">**Вероятность вы рекомендуем группами Майкрософт friend/коллег? (0 = не на всех скорее всего... 10 = очень скорее всего)**</span><span class="sxs-lookup"><span data-stu-id="13c82-163">**How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely)**</span></span>
+
+| <span data-ttu-id="13c82-164">0</span><span class="sxs-lookup"><span data-stu-id="13c82-164">0</span></span>      | <span data-ttu-id="13c82-165">1</span><span class="sxs-lookup"><span data-stu-id="13c82-165">1</span></span>            | <span data-ttu-id="13c82-166">2</span><span class="sxs-lookup"><span data-stu-id="13c82-166">2</span></span>                | <span data-ttu-id="13c82-167">3</span><span class="sxs-lookup"><span data-stu-id="13c82-167">3</span></span>                  | <span data-ttu-id="13c82-168">4</span><span class="sxs-lookup"><span data-stu-id="13c82-168">4</span></span>                  | <span data-ttu-id="13c82-169">5</span><span class="sxs-lookup"><span data-stu-id="13c82-169">5</span></span>   | <span data-ttu-id="13c82-170">6</span><span class="sxs-lookup"><span data-stu-id="13c82-170">6</span></span>                   | <span data-ttu-id="13c82-171">7</span><span class="sxs-lookup"><span data-stu-id="13c82-171">7</span></span> | <span data-ttu-id="13c82-172">8</span><span class="sxs-lookup"><span data-stu-id="13c82-172">8</span></span> | <span data-ttu-id="13c82-173">9</span><span class="sxs-lookup"><span data-stu-id="13c82-173">9</span></span> | <span data-ttu-id="13c82-174">10</span><span class="sxs-lookup"><span data-stu-id="13c82-174">10</span></span> |
 | ------| -----  | ---------|-------|-----|-------|------|------|------|------|------|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
-[<span data-ttu-id="e4de1-175">Возврат к шаг 9</span><span class="sxs-lookup"><span data-stu-id="e4de1-175">Return to step 9</span></span>](upgrade-basic.md#step-9)
+[<span data-ttu-id="13c82-175">Возврат к шаг 9</span><span class="sxs-lookup"><span data-stu-id="13c82-175">Return to step 9</span></span>](upgrade-basic.md#step-9)
 
 <!--ENDOFSECTION-->

@@ -13,98 +13,98 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Сводка: Узнайте, как определить, создание и изменение правила нормализации в Скайп для Business Server.'
-ms.openlocfilehash: d9c56d96c0eb9069e4ec02b196a326ad8b599e75
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5bceeb7702f75db27d0893d5e5e6f4596e89b456
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20972550"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260120"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a><span data-ttu-id="ffbbf-103">Создание или изменение правила нормализации в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="ffbbf-103">Create or modify a normalization rule in Skype for Business</span></span>
- 
-<span data-ttu-id="ffbbf-104">**Сводка:** Узнайте, как определить, создание и изменение правила нормализации в Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-104">**Summary:** Learn how to define, create, and modify a normalization rule in Skype for Business Server.</span></span>
-  
-<span data-ttu-id="ffbbf-105">Определите, создание и изменение правил нормализации в Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-105">Define, create, and modify normalization rules in Skype for Business Server.</span></span>
-  
-### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a><span data-ttu-id="ffbbf-106">Задание правила нормализации с помощью инструмента "Построение правила нормализации"</span><span class="sxs-lookup"><span data-stu-id="ffbbf-106">To define a normalization rule by using Build a Normalization Rule</span></span>
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a><span data-ttu-id="4f6d0-103">Создание или изменение правила нормализации в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="4f6d0-103">Create or modify a normalization rule in Skype for Business</span></span>
 
-1. <span data-ttu-id="ffbbf-107">Откройте Скайп для панели управления Business Server</span><span class="sxs-lookup"><span data-stu-id="ffbbf-107">Open Skype for Business Server Control Panel</span></span>
-    
-2. <span data-ttu-id="ffbbf-108">(Необязательно) Выполните действия, описанные в [Создание и изменение абонентской группы в Скайп для Business Server](dial-plans.md) через шаг 11 или [Изменить телефонной](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) по действие 10.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-108">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) through step 11 or [Modify a Dial Plan](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) through step 10.</span></span>
-    
-3. <span data-ttu-id="ffbbf-109">**Создание правила нормализации** или **Изменение правила нормализации**введите имя, описывающее шаблон номера для нормализации в поле **имя** (например, 5DigitExtension).</span><span class="sxs-lookup"><span data-stu-id="ffbbf-109">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example,5DigitExtension).</span></span>
-    
-4. <span data-ttu-id="ffbbf-110">В поле **Описание** введите описание правила нормализации (например, "Преобразование пятизначных добавочных номеров") (не обязательно).</span><span class="sxs-lookup"><span data-stu-id="ffbbf-110">(Optional) In **Description**, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
-    
-5. <span data-ttu-id="ffbbf-111">В разделе **Построение правила нормализации** введите значения в следующих полях.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-111">In **Build a Normalization Rule**, enter values in the following fields:</span></span>
-    
-   - <span data-ttu-id="ffbbf-112">**Начальных цифр** (Необязательно) Укажите начальные цифры должны сопоставляться с шаблоном для сопоставления набираемых номеров.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-112">**Starting digits** (Optional) Specify the leading digits of dialed numbers you want the pattern to match.</span></span> <span data-ttu-id="ffbbf-113">Например type425 Если вы хотите, чтобы шаблон для поиска соответствия набора номера, начинающиеся с 425.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-113">For example, type425 if you want the pattern to match dialed numbers beginning with 425.</span></span>
-    
-   - <span data-ttu-id="ffbbf-114">**Длина** Укажите количество цифр в шаблоне соответствия и выберите должны сопоставляться с шаблоном на точное соответствие длину, совпадение набираемым номерам, которые по крайней мере длину или совпадение набираемым номерам, любой длины.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-114">**Length** Specify the number of digits in the matching pattern and select whether you want the pattern to match this length exactly, match dialed numbers that are at least this length, or match dialed numbers of any length.</span></span>
-    
-   - <span data-ttu-id="ffbbf-115">**Цифры для удаления** (Необязательно) Укажите количество начальных цифр для удаления из набираемых номеров, которые должны сопоставляться с шаблоном в соответствии с.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-115">**Digits to remove** (Optional) Specify the number of starting digits to be removed from dialed numbers you want the pattern to match.</span></span>
-    
-   - <span data-ttu-id="ffbbf-116">**Цифры для добавления** (Необязательно) Укажите количество цифр для добавления к набираемых номеров, требуется шаблон для поиска соответствия.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-116">**Digits to add** (Optional) Specify digits to be added to dialed numbers you want the pattern to match.</span></span>
-    
-    <span data-ttu-id="ffbbf-117">Значения, введенные в этих полях, отражаются в полях **Шаблон для поиска соответствия** и **Правило трансляции**.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-117">The values you enter in these fields are reflected in **Pattern to match** and **Translation rule**.</span></span> <span data-ttu-id="ffbbf-118">Например если оставить пустым, type7 **начала цифр** в поле **Длина** и выберите **точно**и укажите 0 в **цифры для удаления**результате регулярное выражение в **шаблон для поиска соответствия** — это:</span><span class="sxs-lookup"><span data-stu-id="ffbbf-118">For example, if you leave **Starting digits** empty, type7 into the **Length** field and select **Exactly**, and specify 0 in **Digits to remove**, the resulting regular expression in the **Pattern to match** is:</span></span>
-    
-    <span data-ttu-id="ffbbf-119">^(\d{7})$</span><span class="sxs-lookup"><span data-stu-id="ffbbf-119">^(\d{7})$</span></span>
-    
-6. <span data-ttu-id="ffbbf-120">В поле **Правило трансляции** укажите шаблон для формата преобразованных телефонных номеров E.164 следующим образом.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-120">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers as follows:</span></span>
-    
-   - <span data-ttu-id="ffbbf-121">Значение количества цифр, указанных в шаблоне соответствия.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-121">A value that represents the number of digits specified in the matching pattern.</span></span> <span data-ttu-id="ffbbf-122">Например, если шаблон поиска соответствия ^(\d{7})$, а затем $1 в перевода правила представляет 7-значных набираемых номеров.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-122">For example, if the matching pattern is ^(\d{7})$ then$1 in the translation rule represents 7-digit dialed numbers.</span></span>
-    
-   - <span data-ttu-id="ffbbf-123">(Необязательно) Введите значение в поле **цифры для добавления** , указывающее цифры, которые должны добавляться в начало преобразуемого номер (например, + 1425).</span><span class="sxs-lookup"><span data-stu-id="ffbbf-123">(Optional) Type a value into the **Digits to add** field to specify digits to be prepended to the translated number (for example,+1425).</span></span>
-    
-    <span data-ttu-id="ffbbf-124">Например, если **шаблон для поиска соответствия** содержит ^(\d{7})$ как шаблон для набора номера и содержит **правила преобразования** + 1425$ 1 как шаблон для формата E.164 номера телефонов, правило будет выполнять нормализацию номера 5550100 до + 14255550100.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-124">For example, if **Pattern to match** contains^(\d{7})$ as the pattern for dialed numbers and **Translation rule** contains+1425$1 as the pattern for E.164 phone numbers, the rule normalizes 5550100 to +14255550100.</span></span>
-    
-7. <span data-ttu-id="ffbbf-125">Если в результате применения правила нормализации получается внутренний телефонный номер организации, выберите **Внутреннее расширение** (не обязательно).</span><span class="sxs-lookup"><span data-stu-id="ffbbf-125">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
-    
-8. <span data-ttu-id="ffbbf-p104">Введите номер для проверки правила нормализации, затем нажмите кнопку **Перейти** (необязательно). Результаты проверки отображаются под полем **Введите номер телефона для проверки**.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-p104">(Optional) Enter a number to test the normalization rule, and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
-    
-    > [!NOTE]
-    > <span data-ttu-id="ffbbf-128">Можно сохранить правило нормализации, который еще не прошел проверку и настроить его более поздняя версия.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-128">You can save a normalization rule that does not yet pass the test and then reconfigure it later.</span></span> <span data-ttu-id="ffbbf-129">Дополнительные сведения см [Тестирование маршрутизации голосовой связи](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span><span class="sxs-lookup"><span data-stu-id="ffbbf-129">For details, see [Test Voice Routing](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span></span> 
-  
-9. <span data-ttu-id="ffbbf-130">Нажмите кнопку **ОК** для сохранения правила нормализации.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-130">Click **OK** to save the normalization rule.</span></span>
-    
-10. <span data-ttu-id="ffbbf-131">Нажмите кнопку **ОК** для сохранения абонентской группы.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-131">Click **OK** to save the dial plan.</span></span>
-    
-11. <span data-ttu-id="ffbbf-132">На странице **Абонентская группа** нажмите кнопку **Сохранить**, затем **Сохранить все**.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-132">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span> 
-    
-    > [!NOTE]
-    > <span data-ttu-id="ffbbf-133">При создании или изменение правила нормализации, необходимо выполнить команду **Сохранить все** публикация изменений конфигурации.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-133">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="ffbbf-134">Дополнительные сведения см в документации по операциям [Публикация ожидающих изменений конфигурации маршрутизации голосовой связи в Скайп для бизнеса](voice-route-config-changes.md) .</span><span class="sxs-lookup"><span data-stu-id="ffbbf-134">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
-  
-### <a name="to-define-a-normalization-rule-manually"></a><span data-ttu-id="ffbbf-135">Определение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="ffbbf-135">To define a normalization rule manually</span></span>
+<span data-ttu-id="4f6d0-104">**Сводка:** Узнайте, как определить, создание и изменение правила нормализации в Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-104">**Summary:** Learn how to define, create, and modify a normalization rule in Skype for Business Server.</span></span>
 
-1. <span data-ttu-id="ffbbf-136">Откройте Скайп для панели управления Business Server</span><span class="sxs-lookup"><span data-stu-id="ffbbf-136">Open Skype for Business Server Control Panel</span></span>
-    
-2. <span data-ttu-id="ffbbf-137">(Необязательно) Выполните действия, описанные в [Создание и изменение абонентской группы в Скайп для Business Server](dial-plans.md).</span><span class="sxs-lookup"><span data-stu-id="ffbbf-137">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md).</span></span> 
-    
-3. <span data-ttu-id="ffbbf-138">**Создание правила нормализации** или **Изменение правила нормализации**введите имя, описывающее шаблон номера для нормализации (например, имя rule5DigitExtension нормализации) в поле **имя** .</span><span class="sxs-lookup"><span data-stu-id="ffbbf-138">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, name the normalization rule5DigitExtension).</span></span>
-    
-4. <span data-ttu-id="ffbbf-139">В поле **Описание** введите описание правила нормализации (например, "Преобразование пятизначных добавочных номеров") (не обязательно).</span><span class="sxs-lookup"><span data-stu-id="ffbbf-139">(Optional) In **Description** field, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
-    
-5. <span data-ttu-id="ffbbf-140">В разделе **Построение правила нормализации** нажмите кнопку **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-140">In **Build a Normalization Rule**, click **Edit**.</span></span>
-    
-6. <span data-ttu-id="ffbbf-141">В разделе **Введите регулярное выражение** введите следующие данные.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-141">Enter the following in **Type a Regular Expression**:</span></span>
-    
-   - <span data-ttu-id="ffbbf-142">В поле **Сопоставить этот шаблон** укажите шаблон, которому должен соответствовать набираемый телефонный номер.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-142">In **Match this pattern**, specify the pattern that you want to use to match the dialed phone number.</span></span>
-    
-   - <span data-ttu-id="ffbbf-143">В поле **Правило трансляции** укажите шаблон для формата преобразуемых телефонных номеров E.164.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-143">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers.</span></span>
-    
-    <span data-ttu-id="ffbbf-144">Например, если вводится ^(\d{7})$ в **соответствие этому шаблону** и + 1425$ 1 в поле **правило преобразования**, правило будет выполнять нормализацию номера 5550100 до + 14255550100.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-144">For example, if you enter ^(\d{7})$ in **Match this pattern** and+1425$1 in **Translation rule**, the rule normalizes 5550100 to +14255550100.</span></span>
-    
-7. <span data-ttu-id="ffbbf-145">Если в результате применения правила нормализации получается внутренний телефонный номер организации, выберите **Внутреннее расширение** (не обязательно).</span><span class="sxs-lookup"><span data-stu-id="ffbbf-145">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
-    
-8. <span data-ttu-id="ffbbf-p107">Введите номер для проверки правила нормализации, затем нажмите кнопку **Перейти** (необязательно). Результаты проверки отображаются под полем **Введите номер телефона для проверки**.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-p107">(Optional) Enter a number to test the normalization rule and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
-    
-9. <span data-ttu-id="ffbbf-148">Нажмите кнопку **ОК** для сохранения правила нормализации.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-148">Click **OK** to save the normalization rule.</span></span>
-    
-10. <span data-ttu-id="ffbbf-149">Нажмите кнопку **ОК** для сохранения абонентской группы.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-149">Click **OK** to save the dial plan.</span></span>
-    
-11. <span data-ttu-id="ffbbf-150">На странице **Абонентская группа** нажмите кнопку **Сохранить**, затем **Сохранить все**.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-150">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
-    
+<span data-ttu-id="4f6d0-105">Определите, создание и изменение правил нормализации в Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-105">Define, create, and modify normalization rules in Skype for Business Server.</span></span>
+
+### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a><span data-ttu-id="4f6d0-106">Задание правила нормализации с помощью инструмента "Построение правила нормализации"</span><span class="sxs-lookup"><span data-stu-id="4f6d0-106">To define a normalization rule by using Build a Normalization Rule</span></span>
+
+1. <span data-ttu-id="4f6d0-107">Откройте Скайп для панели управления Business Server</span><span class="sxs-lookup"><span data-stu-id="4f6d0-107">Open Skype for Business Server Control Panel</span></span>
+
+2. <span data-ttu-id="4f6d0-108">(Необязательно) Выполните действия, описанные в [Создание и изменение абонентской группы в Скайп для Business Server](dial-plans.md) через шаг 11 или [Изменить телефонной](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) по действие 10.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-108">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) through step 11 or [Modify a Dial Plan](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) through step 10.</span></span>
+
+3. <span data-ttu-id="4f6d0-109">**Создание правила нормализации** или **Изменение правила нормализации**введите имя, описывающее шаблон номера для нормализации в поле **имя** (например, 5DigitExtension).</span><span class="sxs-lookup"><span data-stu-id="4f6d0-109">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example,5DigitExtension).</span></span>
+
+4. <span data-ttu-id="4f6d0-110">В поле **Описание** введите описание правила нормализации (например, "Преобразование пятизначных добавочных номеров") (не обязательно).</span><span class="sxs-lookup"><span data-stu-id="4f6d0-110">(Optional) In **Description**, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
+
+5. <span data-ttu-id="4f6d0-111">В разделе **Построение правила нормализации** введите значения в следующих полях.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-111">In **Build a Normalization Rule**, enter values in the following fields:</span></span>
+
+   - <span data-ttu-id="4f6d0-112">**Начальных цифр** (Необязательно) Укажите начальные цифры должны сопоставляться с шаблоном для сопоставления набираемых номеров.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-112">**Starting digits** (Optional) Specify the leading digits of dialed numbers you want the pattern to match.</span></span> <span data-ttu-id="4f6d0-113">Например type425 Если вы хотите, чтобы шаблон для поиска соответствия набора номера, начинающиеся с 425.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-113">For example, type425 if you want the pattern to match dialed numbers beginning with 425.</span></span>
+
+   - <span data-ttu-id="4f6d0-114">**Длина** Укажите количество цифр в шаблоне соответствия и выберите должны сопоставляться с шаблоном на точное соответствие длину, совпадение набираемым номерам, которые по крайней мере длину или совпадение набираемым номерам, любой длины.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-114">**Length** Specify the number of digits in the matching pattern and select whether you want the pattern to match this length exactly, match dialed numbers that are at least this length, or match dialed numbers of any length.</span></span>
+
+   - <span data-ttu-id="4f6d0-115">**Цифры для удаления** (Необязательно) Укажите количество начальных цифр для удаления из набираемых номеров, которые должны сопоставляться с шаблоном в соответствии с.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-115">**Digits to remove** (Optional) Specify the number of starting digits to be removed from dialed numbers you want the pattern to match.</span></span>
+
+   - <span data-ttu-id="4f6d0-116">**Цифры для добавления** (Необязательно) Укажите количество цифр для добавления к набираемых номеров, требуется шаблон для поиска соответствия.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-116">**Digits to add** (Optional) Specify digits to be added to dialed numbers you want the pattern to match.</span></span>
+
+    <span data-ttu-id="4f6d0-117">Значения, введенные в этих полях, отражаются в полях **Шаблон для поиска соответствия** и **Правило трансляции**.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-117">The values you enter in these fields are reflected in **Pattern to match** and **Translation rule**.</span></span> <span data-ttu-id="4f6d0-118">Например если оставить пустым, type7 **начала цифр** в поле **Длина** и выберите **точно**и укажите 0 в **цифры для удаления**результате регулярное выражение в **шаблон для поиска соответствия** — это:</span><span class="sxs-lookup"><span data-stu-id="4f6d0-118">For example, if you leave **Starting digits** empty, type7 into the **Length** field and select **Exactly**, and specify 0 in **Digits to remove**, the resulting regular expression in the **Pattern to match** is:</span></span>
+
+    <span data-ttu-id="4f6d0-119">^(\d{7})$</span><span class="sxs-lookup"><span data-stu-id="4f6d0-119">^(\d{7})$</span></span>
+
+6. <span data-ttu-id="4f6d0-120">В поле **Правило трансляции** укажите шаблон для формата преобразованных телефонных номеров E.164 следующим образом.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-120">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers as follows:</span></span>
+
+   - <span data-ttu-id="4f6d0-121">Значение количества цифр, указанных в шаблоне соответствия.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-121">A value that represents the number of digits specified in the matching pattern.</span></span> <span data-ttu-id="4f6d0-122">Например, если шаблон поиска соответствия ^(\d{7})$, а затем $1 в перевода правила представляет 7-значных набираемых номеров.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-122">For example, if the matching pattern is ^(\d{7})$ then$1 in the translation rule represents 7-digit dialed numbers.</span></span>
+
+   - <span data-ttu-id="4f6d0-123">(Необязательно) Введите значение в поле **цифры для добавления** , указывающее цифры, которые должны добавляться в начало преобразуемого номер (например, + 1425).</span><span class="sxs-lookup"><span data-stu-id="4f6d0-123">(Optional) Type a value into the **Digits to add** field to specify digits to be prepended to the translated number (for example,+1425).</span></span>
+
+    <span data-ttu-id="4f6d0-124">Например, если **шаблон для поиска соответствия** содержит ^(\d{7})$ как шаблон для набора номера и содержит **правила преобразования** + 1425$ 1 как шаблон для формата E.164 номера телефонов, правило будет выполнять нормализацию номера 5550100 до + 14255550100.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-124">For example, if **Pattern to match** contains^(\d{7})$ as the pattern for dialed numbers and **Translation rule** contains+1425$1 as the pattern for E.164 phone numbers, the rule normalizes 5550100 to +14255550100.</span></span>
+
+7. <span data-ttu-id="4f6d0-125">Если в результате применения правила нормализации получается внутренний телефонный номер организации, выберите **Внутреннее расширение** (не обязательно).</span><span class="sxs-lookup"><span data-stu-id="4f6d0-125">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
+
+8. <span data-ttu-id="4f6d0-p104">Введите номер для проверки правила нормализации, затем нажмите кнопку **Перейти** (необязательно). Результаты проверки отображаются под полем **Введите номер телефона для проверки**.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-p104">(Optional) Enter a number to test the normalization rule, and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
+
     > [!NOTE]
-    > <span data-ttu-id="ffbbf-151">При создании или изменение правила нормализации, необходимо выполнить команду **Сохранить все** публикация изменений конфигурации.</span><span class="sxs-lookup"><span data-stu-id="ffbbf-151">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="ffbbf-152">Дополнительные сведения см в документации по операциям [Публикация ожидающих изменений конфигурации маршрутизации голосовой связи в Скайп для бизнеса](voice-route-config-changes.md) .</span><span class="sxs-lookup"><span data-stu-id="ffbbf-152">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
-  
+    > <span data-ttu-id="4f6d0-128">Можно сохранить правило нормализации, который еще не прошел проверку и настроить его более поздняя версия.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-128">You can save a normalization rule that does not yet pass the test and then reconfigure it later.</span></span> <span data-ttu-id="4f6d0-129">Дополнительные сведения см [Тестирование маршрутизации голосовой связи](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span><span class="sxs-lookup"><span data-stu-id="4f6d0-129">For details, see [Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span></span>
+
+9. <span data-ttu-id="4f6d0-130">Нажмите кнопку **ОК** для сохранения правила нормализации.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-130">Click **OK** to save the normalization rule.</span></span>
+
+10. <span data-ttu-id="4f6d0-131">Нажмите кнопку **ОК** для сохранения абонентской группы.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-131">Click **OK** to save the dial plan.</span></span>
+
+11. <span data-ttu-id="4f6d0-132">На странице **Абонентская группа** нажмите кнопку **Сохранить**, затем **Сохранить все**.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-132">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="4f6d0-133">При создании или изменение правила нормализации, необходимо выполнить команду **Сохранить все** публикация изменений конфигурации.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-133">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="4f6d0-134">Дополнительные сведения см в документации по операциям [Публикация ожидающих изменений конфигурации маршрутизации голосовой связи в Скайп для бизнеса](voice-route-config-changes.md) .</span><span class="sxs-lookup"><span data-stu-id="4f6d0-134">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
+
+### <a name="to-define-a-normalization-rule-manually"></a><span data-ttu-id="4f6d0-135">Определение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="4f6d0-135">To define a normalization rule manually</span></span>
+
+1. <span data-ttu-id="4f6d0-136">Откройте Скайп для панели управления Business Server</span><span class="sxs-lookup"><span data-stu-id="4f6d0-136">Open Skype for Business Server Control Panel</span></span>
+
+2. <span data-ttu-id="4f6d0-137">(Необязательно) Выполните действия, описанные в [Создание и изменение абонентской группы в Скайп для Business Server](dial-plans.md).</span><span class="sxs-lookup"><span data-stu-id="4f6d0-137">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md).</span></span>
+
+3. <span data-ttu-id="4f6d0-138">**Создание правила нормализации** или **Изменение правила нормализации**введите имя, описывающее шаблон номера для нормализации (например, имя rule5DigitExtension нормализации) в поле **имя** .</span><span class="sxs-lookup"><span data-stu-id="4f6d0-138">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, name the normalization rule5DigitExtension).</span></span>
+
+4. <span data-ttu-id="4f6d0-139">В поле **Описание** введите описание правила нормализации (например, "Преобразование пятизначных добавочных номеров") (не обязательно).</span><span class="sxs-lookup"><span data-stu-id="4f6d0-139">(Optional) In **Description** field, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
+
+5. <span data-ttu-id="4f6d0-140">В разделе **Построение правила нормализации** нажмите кнопку **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-140">In **Build a Normalization Rule**, click **Edit**.</span></span>
+
+6. <span data-ttu-id="4f6d0-141">В разделе **Введите регулярное выражение** введите следующие данные.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-141">Enter the following in **Type a Regular Expression**:</span></span>
+
+   - <span data-ttu-id="4f6d0-142">В поле **Сопоставить этот шаблон** укажите шаблон, которому должен соответствовать набираемый телефонный номер.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-142">In **Match this pattern**, specify the pattern that you want to use to match the dialed phone number.</span></span>
+
+   - <span data-ttu-id="4f6d0-143">В поле **Правило трансляции** укажите шаблон для формата преобразуемых телефонных номеров E.164.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-143">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers.</span></span>
+
+    <span data-ttu-id="4f6d0-144">Например, если вводится ^(\d{7})$ в **соответствие этому шаблону** и + 1425$ 1 в поле **правило преобразования**, правило будет выполнять нормализацию номера 5550100 до + 14255550100.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-144">For example, if you enter ^(\d{7})$ in **Match this pattern** and+1425$1 in **Translation rule**, the rule normalizes 5550100 to +14255550100.</span></span>
+
+7. <span data-ttu-id="4f6d0-145">Если в результате применения правила нормализации получается внутренний телефонный номер организации, выберите **Внутреннее расширение** (не обязательно).</span><span class="sxs-lookup"><span data-stu-id="4f6d0-145">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
+
+8. <span data-ttu-id="4f6d0-p107">Введите номер для проверки правила нормализации, затем нажмите кнопку **Перейти** (необязательно). Результаты проверки отображаются под полем **Введите номер телефона для проверки**.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-p107">(Optional) Enter a number to test the normalization rule and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
+
+9. <span data-ttu-id="4f6d0-148">Нажмите кнопку **ОК** для сохранения правила нормализации.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-148">Click **OK** to save the normalization rule.</span></span>
+
+10. <span data-ttu-id="4f6d0-149">Нажмите кнопку **ОК** для сохранения абонентской группы.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-149">Click **OK** to save the dial plan.</span></span>
+
+11. <span data-ttu-id="4f6d0-150">На странице **Абонентская группа** нажмите кнопку **Сохранить**, затем **Сохранить все**.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-150">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="4f6d0-151">При создании или изменение правила нормализации, необходимо выполнить команду **Сохранить все** публикация изменений конфигурации.</span><span class="sxs-lookup"><span data-stu-id="4f6d0-151">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="4f6d0-152">Дополнительные сведения см в документации по операциям [Публикация ожидающих изменений конфигурации маршрутизации голосовой связи в Скайп для бизнеса](voice-route-config-changes.md) .</span><span class="sxs-lookup"><span data-stu-id="4f6d0-152">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
+
 
