@@ -9,17 +9,18 @@ ms.service: msteams
 ms.reviewer: ''
 description: Сведения о продукте Microsoft Teams, его инфраструктуре и использовании вместе с Office 365.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86698a3bb7535a20b7fb1b6833062d118f2f9eae
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dbee055a5d91c6e0e453f0f539cba823226c347e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967131"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867583"
 ---
 <a name="overview-of-microsoft-teams"></a>Обзор Microsoft Teams
 ===========================
@@ -118,10 +119,4 @@ Teams реализован на базе существующих техноло
 
 ## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Заметки о выпуске клиента Microsoft Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
-## <a name="what-happened-to-the-teams-admin-faq"></a>Что случилось с вопросами и ответами для администраторов Teams?
 
-Хотя изначально статья с вопросами и ответами для администраторов Teams была довольно удобной, она быстро превратилась в нагромождение самых разных сведений, что затруднило поиск нужной информации. Поэтому мы извлекли оттуда все самое ценное и внесли в документацию Teams, которую вы и просматриваете прямо сейчас. В ней вся информация из вопросов и ответов приведена с учетом контекста.
-
-Если вы ищете то, что вы не можете найти здесь, сообщите о нем в представленном ниже разделе **свои отзывы и предложения** . Мы попробуйте реагировать на ваш отзыв в течение 24 часов.
-
-Следует отметить, что мы **все еще** используем вопросы и ответы по [переходу со Skype для бизнеса на Microsoft Teams](FAQ-journey.md). 

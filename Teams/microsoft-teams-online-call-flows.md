@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 description: Описывает, как рабочая нагрузка групп использует денежных средств Office 365 в различных топологиях.
-ms.openlocfilehash: 2374349f426de6fb25d25cc4ded7c6c8a776dd1d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 69b4deb078a0626c8a7cc4dce808825f2d038bac
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964543"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861819"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Команды Microsoft Online вызова денежных средств
 
@@ -50,7 +51,7 @@ ms.locfileid: "19964543"
 
 ### <a name="connectivity-to-office-365"></a>Подключение к Office 365
 
-Службы групп необходимо [подключение к Интернету](https://support.office.com/en-us/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). Группы конечных точек, URL-адреса и IP-адрес диапазоны, перечислены в [Office 365 URL-адреса и диапазоны IP-адресов](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). (Примечание: требуется открыть подключение к TCP-порты 80 и 443 и UDP-порты 3478 до 3481.) Кроме того службы группы обладают зависимость Скайп для бизнеса веб-службами, поэтому необходимые для подключения также этой службы в Интернете.
+Службы групп необходимо [подключение к Интернету](https://support.office.com/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). Группы конечных точек, URL-адреса и IP-адрес диапазоны, перечислены в [Office 365 URL-адреса и диапазоны IP-адресов](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). (Примечание: требуется открыть подключение к TCP-порты 80 и 443 и UDP-порты 3478 до 3481.) Кроме того службы группы обладают зависимость Скайп для бизнеса веб-службами, поэтому необходимые для подключения также этой службы в Интернете.
 
 Подключения к потоков мультимедиа группами реализована с помощью стандартных процедур IETF ICE (интерактивная Connectivity Establishment).
 

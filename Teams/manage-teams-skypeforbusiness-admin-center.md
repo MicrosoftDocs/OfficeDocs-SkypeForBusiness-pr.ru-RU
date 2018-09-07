@@ -7,6 +7,7 @@ ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
+search.appverid: MET150
 description: Понять, как управлять всей клиента и пользовательские параметры для группы во время перехода от групп работы в центре администрирования Office 365 для новых групп Майкрософт & Скайп по центру администрирования бизнеса.
 localization_priority: Priority
 ms.custom:
@@ -15,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 5528ecfc3d47738e0f34b56f007e36d193d95da6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b81853b33f457dd8a69890774b4b7ff8902d8226
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968190"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864829"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>Управление группами во время перехода на новые группами Майкрософт и Скайп по центру администрирования бизнеса
 ======================================================
@@ -44,7 +45,7 @@ ms.locfileid: "20968190"
 Начиная с середины марта 2018, были доступны в новых групп Майкрософт & Скайп по центру администрирования Business следующие возможности: 
 
 - **Политики обмена сообщениями группами Майкрософт**: Создание политики для управления группами Майкрософт взаимодействия с пользователем для обмена сообщениями сценарии уровня пользователя.
-- **Группами Майкрософт обновление политики**: Настройка качества взаимодействия и обновление между Скайп для бизнеса и группами Майкрософт. Отображается, https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
+- **Группами Майкрософт обновление политики**: Настройка качества взаимодействия и обновление между Скайп для бизнеса и группами Майкрософт. Отображается, https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
 - **Гостевая группами Майкрософт, параметры сообщений**: управления возможности обмена сообщениями для гостевых учетных записей в группах Microsoft. 
 - **Параметры федерации**: управление федерации между группами Майкрософт для клиентов и Скайп для бизнеса. 
 - **Управление пользователями**: назначение политик и настройки учетных записей пользователей. 

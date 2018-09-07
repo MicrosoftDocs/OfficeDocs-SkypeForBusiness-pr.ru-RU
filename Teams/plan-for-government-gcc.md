@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: Руководство для ИТ-специалистов для развертывания диска Office 365, в сущности, которые обрабатывают данные может быть государственные нормативы США.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 708dda8e38d879d11589696cd901213a68b03cd8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835041"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869383"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Планирование для государственных учреждений 365 Microsoft - GCC развертываниях
 
@@ -38,9 +39,9 @@ ms.locfileid: "23835041"
 -   Доступ к содержимому вашей организации клиента ограничено промежуточная численности специалистов корпорации Майкрософт.
 -   Microsoft 365 государственных организаций - GCC следует сертификаты и другие навыки, необходимые для клиентов в государственном секторе.
 
-Можно найти дополнительные сведения о Microsoft 365 государственных - GCC предложение для НАС правительственных клиентов в [Office 365 государственных планы](https://products.office.com/en-us/government/compare-office-365-government-plans), включая [требования](https://products.office.com/en-us/government/compare-office-365-government-plans#EligibilityRequirements).
+Можно найти дополнительные сведения о Microsoft 365 государственных - GCC предложение для НАС правительственных клиентов в [Office 365 государственных планы](https://products.office.com/government/compare-office-365-government-plans), включая [требования](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-[Описание службы Office 365 терминалов](https://technet.microsoft.com/en-us/library/mt774581.aspx) : описание преимуществ платформы, которые центральным обеспечение соответствия требованиям в США.
+[Описание службы Office 365 терминалов](https://technet.microsoft.com/library/mt774581.aspx) : описание преимуществ платформы, которые центральным обеспечение соответствия требованиям в США.
 
 > [!Tip]
 > Может потребоваться перенос таблиц данных в описание службы в книгу Excel и добавьте два столбца: **Relevant для организации планировщика** и **потребностям организации планировщика**. Затем можно просмотреть этот список с коллегами, чтобы убедиться, что данная служба отвечает требованиям вашей организации.
@@ -84,7 +85,7 @@ ms.locfileid: "23835041"
 
 ## <a name="step-4-apply-for-microsoft-365-government---gcc"></a>Шаг 4. Применяется для государственных организаций Microsoft 365 - GCC
 
-Принято решение, что эта служба для своей организации, запустите процесс [применения этой службы](https://products.office.com/en-us/government/eligibility-validation).
+Принято решение, что эта служба для своей организации, запустите процесс [применения этой службы](https://products.office.com/government/eligibility-validation).
 
 ## <a name="step-5-plan-for-governance"></a>Шаг 5. Планирование управления
 

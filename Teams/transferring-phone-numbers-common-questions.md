@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Следующих часто задаваемые вопросы о передаче телефонных номеров Скайп для бизнеса. После просмотра ответов, можно приступить к созданию номеру порта и перемещение телефонных номеров. В разделе Передача номера телефонов в Office 365 для получения инструкций.
-ms.openlocfilehash: 1153ee53efaf0b158c6c8c63dcd65cfa5f758007
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 17454e6f6ae57c96feeae6f4c3d23b1c6572bd62
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784368"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869455"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Общие вопросы по передаче номеров телефонов
 
@@ -167,7 +168,7 @@ ms.locfileid: "23784368"
 Для перемещения или *порта* номера телефонов из Скайп для бизнеса в Интернет на другой поставщик услуг телефонной или поставщика, необходимо установить ПИН-код. После установки ПИН-кода, необходимо включить его в случае запроса пользователя на порт номер телефона в работе. Чтобы просмотреть, как настроить ПИН-код, содержатся в разделе [Задание ПИН-код для передачи номера для нового поставщика услуг](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
 
 > [!NOTE]
-> Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+> Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
   
 ## <a name="related-topics"></a>См. также:

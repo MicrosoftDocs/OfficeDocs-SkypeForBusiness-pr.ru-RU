@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Узнайте рекомендуемые способы организации команд Microsoft Teams в соответствии с потребностями вашей организации.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be7cd35a85d220163d7d0c762883e7e1018c3115
-ms.sourcegitcommit: fa8732e704f00096c7ff041aba91e617a8d44e29
+ms.openlocfilehash: aa2d931561922a8b5e92e3ec695b4cd8ad4fdb83
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2018
-ms.locfileid: "19875255"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867591"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Рекомендации по работе с командами в Microsoft Teams
 ======================================================
@@ -36,7 +37,7 @@ ms.locfileid: "19875255"
 
 Создав команду, рекомендуется приблизительно определить нужные темы для обсуждения и создать начальные каналы, чтобы люди могли легко находить интересующие беседы и принимать в них участие. Присваивайте каналам описательные имена, чтобы было понятно, что именно в них обсуждается. Вы можете создавать вкладки в каналах, чтобы добавлять такие средства, как OneNote, PowerBI, или ссылки на веб-страницы и другие материалы, чтобы людям было проще находить требуемые сведения и обмениваться идеями.
 
-Дополнительные сведения о [работе в группах](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) с следующие советы для конечных пользователей. 
+Дополнительные сведения о [работе в группах](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) с следующие советы для конечных пользователей. 
 
 <a name="channel-best-practices"></a>Рекомендации по каналу
 ----------------------
@@ -52,6 +53,6 @@ ms.locfileid: "19875255"
 
 Сейчас вы не можете удалить общий канал или убрать его из избранного. Присваивая имена каналам, помните, что они будут отображаться в алфавитном порядке после общего канала.  В группах с много каналов используйте функцию «Избранное канала» для управления каналы, появится автоматически при переходе в группу. 
 
-Дополнительные сведения о [работе в каналы](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) с следующие советы для конечных пользователей. 
+Дополнительные сведения о [работе в каналы](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) с следующие советы для конечных пользователей. 
 
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 3dc773b9-95e0-4448-b2f1-887c54022429
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -21,12 +22,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Узнайте, какие Office 365 Callings планы (вызов ТСОП) указано, какие области может использоваться в и ссылки для получения пошаговые инструкции о том, как настроить его. '
-ms.openlocfilehash: 8dec8792c6dce840c8635698853f0ac733c438e0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 21d770044b2d72dc51915cfc6384501dbcc120e7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784968"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860535"
 ---
 # <a name="what-are-calling-plans-in-office-365"></a>Что такое планы звонков в Office 365?
 

@@ -3,21 +3,22 @@ title: Адаптация новых сотрудников контрольно
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 03/16/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Выполните основные, дел и действий в этот контрольный список при настройке Office 365 для групп.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c328e447149e4cd514a3535942a8b0cb7319a9f7
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 1e657fcefbd86f361f41e47369452b87f6463c83
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695696"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865145"
 ---
 # <a name="enable-office-365"></a>Включение Office 365
  
@@ -31,5 +32,5 @@ ms.locfileid: "19695696"
 | 6  | Настройте среду для удостоверений. | Пользователи могут создаваться в Office 365 непосредственно (в модели развертывания online) или синхронизируются из локального Active Directory в клиент Office 365. <br/><br/>Определите, следует ли использовать облачных удостоверений синхронизированного удостоверения и федеративные удостоверения. Определение правильного identity типа находится вне области этот контрольный список; Тем не менее вы найдете ссылки на сведения об этих параметрах в столбце **дополнительной информации** . <br/><br/>**Примечание:** Если вы используете синхронизировать или федеративные удостоверения, убедитесь, что локальные имена участников-пользователей (UPN) соответствует UPN Office 365, и все обязательные атрибуты настроены для синхронизации с Azure AD подключение. Для атрибутов, которые необходимы для групп используйте список атрибутов для Скайп для бизнеса в Интернет. | | [Общее представление о удостоверений Office 365 и Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) <br/><br/>[Подготовка к подготовке пользователей с помощью синхронизации службы каталогов в Office 365](https://support.office.com/article/Prepare-to-provision-users-through-directory-synchronization-to-Office-365-01920974-9e6f-4331-a370-13aea4e82b3e) <br/><br/>[Azure AD подключение синхронизации: атрибуты синхронизируются с Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-attributes-synchronized) |
 | 7  | Подтверждение Администраторы клиента | Работа с разработать модель администрирования Office 365 группам безопасности. <br/><br/>Необходимо определить и задокументировать все администраторы клиента и службы. | | [О ролях администратора Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 8  | Реализация административных ролей для клиента | Назначение роли администраторов Office 365 для администраторов и проверка, что модели администрирования потребностям вашей организации. | | [Назначение роли администратора в Office 365 для бизнеса](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
-| 9  | Войдите в отправляемых вызова панели мониторинга качества (CQD) данные построения. | Каждое развертывание групп, необходимо использовать CQD получить представление о качества и надежности всех вызовов, используйте команды. <br><br>Используйте рекомендации CQD, указанный в столбце **Дополнительные сведения** для извлечения максимальной выгоды из этой программы. | | [Планирование службы управления и контроля качества](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[Руководство по решению для качества взаимодействия](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) <br/><br/>[Шаблоны взаимодействия проверки качества](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/><br/>[Включение и использование панели мониторинга качества звонков для групп Майкрософт и Скайп для бизнеса в Интернет](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[Отправка построение сведения](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
+| 9  | Войдите в отправляемых вызова панели мониторинга качества (CQD) данные построения. | Каждое развертывание групп, необходимо использовать CQD получить представление о качества и надежности всех вызовов, используйте команды. <br><br>Используйте рекомендации CQD, указанный в столбце **Дополнительные сведения** для извлечения максимальной выгоды из этой программы. | | [Планирование службы управления и контроля качества](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[Руководство по анализу процедуры обеспечения качества](https://aka.ms/qerguide) <br/><br/>[Шаблоны взаимодействия проверки качества](https://aka.ms/qertemplates) <br/><br/>[Включение и использование панели мониторинга качества звонков для групп Майкрософт и Скайп для бизнеса в Интернет](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[Отправка построение сведения](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
 | 10  | Проверьте, что стандартные сведения обрабатываются и вызова панели мониторинга качества (CQD) исполняемой для клиента. | | | [Панель мониторинга качества звонка](https://cqd.lync.com) |

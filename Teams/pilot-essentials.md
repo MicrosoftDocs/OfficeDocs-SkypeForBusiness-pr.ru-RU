@@ -10,15 +10,16 @@ ms.reviewer: dearbeen
 description: Руководство для начала для пилотного группами Майкрософт для изучения этого групп можно предоставить пользователям вашей организации, пока вы продолжаете использовать Скайп для бизнеса
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ec24edb381f48992c2f558d1b7e68b1ffd6d74
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: b1a21c14182f0a4666eb5ae236cc9ac382a6bced
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20393929"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867919"
 ---
 ![Этапы обновления пути с акцентом на развертывание и стадии реализации] (media/upgrade-banner-deployment.png "Этапы обновления пути с акцентом на развертывание и стадии реализации")
 

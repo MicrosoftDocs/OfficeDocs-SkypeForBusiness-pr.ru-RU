@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'В разделе действия группами Майкрософт, чтобы назначить идентификатора лицензии и конференц-связь с телефонным к пользователю и многие другие параметры конференц-связи. '
-ms.openlocfilehash: 2e372c76cbbedeaa7558b4308366262e93cb5b91
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: b9b3198f5d66b36e986eeab72fdf5dd31521fb14
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780374"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866837"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Управление параметрами звука конференц-связи для организации в группах Майкрософт
 
@@ -69,11 +70,11 @@ ms.locfileid: "23780374"
     
 **С помощью Windows PowerShell**
   
-В разделе [Справочник по Microsoft команды PowerShell](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) для получения дополнительных сведений.
+В разделе [Справочник по Microsoft команды PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) для получения дополнительных сведений.
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Изменить сведения о контакте отправителя в сообщениях электронной почты, отправляемое пользователю
 
-В сообщение, которое отправляется пользователям автоматически, можно внести изменения, включив в него фактический адрес электронной почты и отобразив имя отправителя в составе контактной информации. По умолчанию отправителя сообщения электронной почты — Office 365, но можно изменить адрес электронной почты и отображаемое имя, с помощью Windows PowerShell. В разделе [Справочник по Microsoft команды PowerShell](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) для получения дополнительных сведений.
+В сообщение, которое отправляется пользователям автоматически, можно внести изменения, включив в него фактический адрес электронной почты и отобразив имя отправителя в составе контактной информации. По умолчанию отправителя сообщения электронной почты — Office 365, но можно изменить адрес электронной почты и отображаемое имя, с помощью Windows PowerShell. В разделе [Справочник по Microsoft команды PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) для получения дополнительных сведений.
   
 ## <a name="reset-the-meeting-conference-id"></a>Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
@@ -215,7 +216,7 @@ Windows PowerShell дает возможность управлять польз
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Дополнительные сведения о Windows PowerShell, [Справочник по Microsoft команды PowerShell](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) для получения дополнительных сведений см.
+Дополнительные сведения о Windows PowerShell, [Справочник по Microsoft команды PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) для получения дополнительных сведений см.
   
     
 ## <a name="related-topics"></a>См. также:

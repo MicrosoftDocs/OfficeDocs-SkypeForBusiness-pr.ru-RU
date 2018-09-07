@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Выбор модели развертывания, разработки ответственность ответственность запрошен обоснованные матрицу (RACI), создание планов выполнения и управления.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dddc3763f0fa2934d473999d42702746bbb531ee
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 59b5b3604904e7de97aa821edc823eccd97431e2
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695864"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861303"
 ---
 # <a name="document-my-success-plan"></a>Документ успешно план
 
@@ -82,7 +83,7 @@ ms.locfileid: "19695864"
 
 Ниже приведен пример плана квартальное выполнения этапа Предвидения реализации облачных голосовой связи.
 
-| Сайт или подразделение                            | Число сотрудников | Аудиоконференции | Телефонная система                    | Квартал для выполнения |
+| Сайт или подразделение                            | Число сотрудников | Аудиоконференция | Телефонная система                    | Квартал для выполнения |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
 | США: Нью-Йорк                             | 2000                | Да                | Телефонная система с планами звонков | Q1 CY2018          |
 | Ирландия: Дублин                          | 300                 | Да                | Телефонная система с планами звонков | Q1 CY2018          |
