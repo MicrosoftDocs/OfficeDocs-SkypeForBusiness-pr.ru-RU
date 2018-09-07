@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Сведения о том, как Группы Office 365 и членство в них используются в Microsoft Teams.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9d7c37a0aa53f45036388bdedfc5bdc87b1cc8a
-ms.sourcegitcommit: 5fb3957b658b48edf3d9878a9d53a4002b8f55d8
+ms.openlocfilehash: 9ef86beea194dde66e3ce5d7f54bde7a522dd605
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23520064"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850025"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 групп и группами Майкрософт
 =====================================
@@ -33,7 +34,7 @@ ms.locfileid: "23520064"
 > [!NOTE]
 > Удаление группы Office 365 приведет к удалению псевдонима почтового ящика для сохраняемых бесед Outlook/OWA и приглашений на собрание Teams, а также пометит сайт SharePoint для удаления. Занимает примерно 20 минут между удаления группы и влияние на Outlook. Удаление группы из группы клиента оно будет удалено непосредственно из представления для всех пользователей, которые являются участниками рабочей группы. При удалении членов группы Office 365, у которого включена на его функциональные возможности групп, может быть задержка около двух часов до группа удаляется из представления в клиенте группами для затронутых пользователей, которые были удалены.
 >
->Ознакомьтесь с [этой](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) сведения о восстановлении группу Office 365, который был удален.
+>Ознакомьтесь с [этой](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) сведения о восстановлении группу Office 365, который был удален.
 
 <a name="group-membership"></a>Членство в группах
 ----------------

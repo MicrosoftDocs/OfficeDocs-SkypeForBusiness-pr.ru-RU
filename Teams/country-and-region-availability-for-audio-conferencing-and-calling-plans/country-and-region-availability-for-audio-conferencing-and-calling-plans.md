@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -24,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: dede3b8c1d3e844399973046d0569f8b3e3fca20
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6be4aa215277fb8e5a1d4186cdac17eed5ca3d1f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785608"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853345"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
@@ -149,7 +150,7 @@ ms.locfileid: "23785608"
 
 Дополнительные сведения об аудиоконференциях см. в статье [Audio Conferencing common questions (Общие вопросы по аудиоконференциям)](../audio-conferencing-common-questions.md)
 
-[Тарифы на аудиоконференции](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements) 
+[Тарифы на аудиоконференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>При использовании функции "Звонок на мой номер" или добавлении других пользователей к собранию.
 Для аудиоконференции существует функция "*Звонок на мой номер*". С помощью нее можно разрешать другим пользователям присоединяться к собранию с телефонным подключением. Используйте раскрывающийся список выше, чтобы проверить, доступна ли эта функция в конкретной стране или регионе.
@@ -164,7 +165,7 @@ ms.locfileid: "23785608"
 
 Помимо номеров телефонов для отдельных пользователей в Office 365 можно также найти и получить платные или бесплатные номера телефонов для таких служб, как аудиоконференции (для мостов конференций), автосекретари или очереди звонков. Такие номера называют номерами служб. В разделе [Приступая к службе номера телефонов](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) для получения телефонных номеров. Своим пользователям после назначения плана звонков можно назначить номера телефонов, чтобы они могли совершать и принимать телефонные звонки. Чтобы найти эти номера телефонов, перейдите на [Получение номера телефонов для пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). См. также статью [Назначение, изменение или удаление номера телефона пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
 
-[Тарифы для телефонной системы](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+[Тарифы для телефонной системы](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
 > Доступность платных телефонных номеров в некоторых из этих регионов может различаться в зависимости от времени и уровня их использования. 

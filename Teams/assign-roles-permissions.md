@@ -7,17 +7,18 @@ ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
+search.appverid: MET150
 description: Сведения о назначении разрешений и ролей для владельцев и участников команд в Microsoft Teams, включая права на создание команд.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b6dfc74b3d7dc740cc970f711f32fac1d75e2d5
-ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
+ms.openlocfilehash: 98ec3b95395a3d972af245f6653ea0294cfa670d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "19441663"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856317"
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Назначение ролей и разрешений в Microsoft Teams
 ===============================================
@@ -55,7 +56,7 @@ ms.locfileid: "19441663"
 <a name="permissions-to-create-teams"></a>Разрешения на создание команд
 ---------------------------
 
-По умолчанию все пользователи с почтовым ящиком в Exchange Online обладают правом на создание групп Office 365, а значит, и команды в Microsoft Teams. Вы можете более жестко регулировать или запретить создание команд и групп Office 365, делегировав права на создание и управление некоторому кругу пользователей. Сведения содержатся в разделе [Управление, кто может создавать группы Office 365](https://support.office.com/en-us/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+По умолчанию все пользователи с почтовым ящиком в Exchange Online обладают правом на создание групп Office 365, а значит, и команды в Microsoft Teams. Вы можете более жестко регулировать или запретить создание команд и групп Office 365, делегировав права на создание и управление некоторому кругу пользователей. Сведения содержатся в разделе [Управление, кто может создавать группы Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
 ||||

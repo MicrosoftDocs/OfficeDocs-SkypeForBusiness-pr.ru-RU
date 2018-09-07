@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: В дополнение к Стандартная лицензия пользователя аудиоконференции Лицензирование и многопользовательская организаций можно также предложение минуту для включения возможности конференц-связи аудио для своей организации.
-ms.openlocfilehash: 16859697bad3ca9409c7973079b9b36ca3085576
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 251116ee5f362710c07a7a53ce4a11f53f3cd09c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783160"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855765"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Поминутная оплата аудиоконференций
 
@@ -49,7 +50,7 @@ ms.locfileid: "23783160"
 - Исходящие вызовы, помещенные на внешние телефонные номера из в рамках собрания из вашей организации.
     
 > [!NOTE]
-> Можно найти нормы-связь и подключение по телефонной линии, связанный со эти типы звонков, описанные в разделе **увидеть курсы, для которых нужно позвонить раздел** в [Аудиоконференции](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
+> Можно найти нормы-связь и подключение по телефонной линии, связанный со эти типы звонков, описанные в разделе **увидеть курсы, для которых нужно позвонить раздел** в [Аудиоконференции](https://products.office.com/skype-for-business/pstn-conferencing). 
   
 Минуту требуется вашей организации для [Коммуникаций кредитов](what-are-communications-credits.md) лицензию, назначенную для каждого пользователя в порядке для аудиоконференции для работы с включенными. Для получения дополнительных сведений в статье [Set up кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md) и/или [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   
@@ -59,11 +60,11 @@ ms.locfileid: "23783160"
 
  **Ищете цены?** Можно найти, [как просмотреть цены и приобрести лицензии дополнительный компонент](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how) или один из следующих:
   
-- [Тарифы на аудиоконференции](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+- [Тарифы на аудиоконференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [Тарифы для телефонной системы](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+- [Тарифы для телефонной системы](https://products.office.com/skype-for-business/phone-system#Requirements)
     
-- [Цены на Тарифные планы](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
+- [Цены на Тарифные планы](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>См. также:
   

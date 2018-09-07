@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Сведения о решениях, которые необходимо установить при планировании для Office 365 групп, таких как Выбор открытых и закрытых групп, с помощью команды клиента или веб-консоль администрирования Office 365 и инструкции для ваших команд об использовании бесед.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f89b6c8c21a196903ff476ffa1a072b7c999b6ce
-ms.sourcegitcommit: 5fb3957b658b48edf3d9878a9d53a4002b8f55d8
+ms.openlocfilehash: 735044773ba6b0e63d5a2b544345b3bff25b6dc5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23520072"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854111"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Планирование использования групп Office 365 при создании команд в Microsoft Teams
 ==========================================================
@@ -46,4 +47,4 @@ ms.locfileid: "23520072"
 
 -   [Добавление или удаление членов из группы Office 365, с помощью центра администрирования Office 365](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
--   [Восстановление удаленного группы Office 365](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)
+-   [Восстановление удаленного группы Office 365](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)

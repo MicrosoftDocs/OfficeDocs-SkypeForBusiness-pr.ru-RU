@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -24,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 63aa3171733dad8d1f788f1817db864be36e1dfa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a7f8a5f5e824fb31a7a3a312bd9d804e8948f605
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23782984"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850903"
 ---
 # <a name="calling-plans-for-office-365"></a>Планы звонков для Office 365
 
@@ -86,7 +87,7 @@ ms.locfileid: "23782984"
     
 - [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
     
-- [Планирование Скайп облаке соединитель для выпуска для бизнеса](https://technet.microsoft.com/EN-US/library/Mt605227.aspx): в этой статье объясняется, как настроить Office 365 телефонной системы с помощью собственных подключение к ТСОП.
+- [Планирование Скайп облаке соединитель для выпуска для бизнеса](https://technet.microsoft.com/library/Mt605227.aspx): в этой статье объясняется, как настроить Office 365 телефонной системы с помощью собственных подключение к ТСОП.
     
 - [Планирование решения телефонной системы в Office 365 (облачная УАТС)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
@@ -101,7 +102,7 @@ ms.locfileid: "23782984"
     
 - [Добавление средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
     
-- [Настройка соединителя облако](https://technet.microsoft.com/en-us/library/mt605228.aspx) и [Загрузите соединитель облако](https://aka.ms/CloudConnectorInstaller)
+- [Настройка соединителя облако](https://technet.microsoft.com/library/mt605228.aspx) и [Загрузите соединитель облако](https://aka.ms/CloudConnectorInstaller)
   
   
  

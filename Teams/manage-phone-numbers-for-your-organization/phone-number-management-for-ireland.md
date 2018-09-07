@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Ирландии.
-ms.openlocfilehash: bfe218e7bea7c0d4dac3fae9e72e42058663a797
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 871f6c0b651930c15989342f0dba811baaeb7681
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785448"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853393"
 ---
 # <a name="phone-number-management-for-ireland"></a>Управление номерами телефонов в Ирландии
 

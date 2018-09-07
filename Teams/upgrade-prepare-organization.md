@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Оцените готовность своей организации, чтобы принять изменения и Подготовка плана для получения пользователей, Готово к обновлению из Скайп для бизнеса для групп Майкрософт
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03f9704ca129d8925ae1c68dabedb0153feae406
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: bfbff0262365bedc88bc0cdc6630c0ccfbc6c465
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398079"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857417"
 ---
 ![Этапы обновления пути с акцентом на стадии подготовки пользователей] (media/upgrade-banner-user-readiness.png "Этапы обновления пути с акцентом на стадии подготовки пользователей")
 

@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Используйте данное руководство для изучения требования, необходимые для доставки и обслуживать развертывание групп Майкрософт высокого качества.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6114120998425acdd443ab852b3f39fd2549b5ff
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 58f99698f5168f428900095a813a8361955255e6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779950"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854151"
 ---
 ![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")
 
@@ -345,7 +346,7 @@ Microsoft Teams можно использовать для собраний ил
 | | Установка шаблонов для анализа процедуры обеспечения качества <br/> Отправка файла для создания | [Шаблоны QERLite](https://aka.ms/qertemplates) <br/> [Отправка сведений для создания](turning-on-and-using-call-quality-dashboard.md)|
 | Планирование обеспечения качества для сети | Запуск планировщика сети | [Планировщик сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Реализация качества обслуживания | [Качество обслуживания в Microsoft Teams](qos-in-teams.md) |
-| | Обход прокси-серверов | [Инструкции по прокси-серверам](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Обход прокси-серверов | [Инструкции по прокси-серверам](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Реализация VPN с раздельным туннелированием | [Инструкции по VPN с раздельным туннелированием](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Оптимизация сетей Wi-Fi для мультимедиа реального времени  | Консультации у сторонних поставщиков |
 | | Реализация локального исходящего интернет-трафика | [Локальный исходящий интернет-трафик](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |

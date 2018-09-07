@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как попробуйте или приобрести лицензии Office 365 для настройки конференц-связи, которые пользователи могут телефонное подключение к аудиоконференции (конференции с ТСОП). '
-ms.openlocfilehash: 117af07a388eaab0fda5f70777a8bc0aea16210e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 76c8b88bf4352cd0196f9ea25cef8361dda2a9b0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785648"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850927"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Попробуйте или Покупка аудио конференц-связи в Office 365 для групп Майкрософт
 
@@ -33,7 +34,7 @@ ms.locfileid: "23785648"
 
 Необходимо настроить звукового конференц-связи для пользователей, которые планируется расписание или привести собрания. Участники, у которых звонка в собрания к собранию не требуется никаких лицензий на назначенные им и не требуется дополнительная настройка.
 
-Цена сведения, в разделе [ценообразования для аудиоконференции](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+Цена сведения, в разделе [ценообразования для аудиоконференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Этап 1: Приобрести и назначение лицензий аудиоконференции
 

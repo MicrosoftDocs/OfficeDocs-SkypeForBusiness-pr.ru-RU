@@ -3,21 +3,22 @@ title: Развертывание облачной системы голосов
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: MyAdvisor
 description: Практическое руководство по развертыванию функций облачной голосовой связи в Microsoft Teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12c7f9378144134a0e09d90e838ca3bc62178ffb
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: 001c1b0f69108630267f368b065cc8d72c0b38c5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20302137"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855281"
 ---
 # <a name="cloud-voice-deployment"></a>Развертывание облачной системы голосовой связи
 
@@ -41,7 +42,7 @@ ms.locfileid: "20302137"
 
 Тарифные планы является дополнительной службы для функции телефонной системой, доставленных через рабочих групп и Скайп для бизнеса в Интернет. Тарифные планы требуется, что пользователь быть размещен в Скайп для бизнеса в Интернет для работы в группах Майкрософт. Тарифные планы обеспечивают для сотрудников в бизнесе с основной номер телефона, а также позволяет их выполнение и прием телефонных звонков за пределами вашей организации по ТСОП.
 
-Дополнительные сведения, прочитайте [вот вы получаете с телефонной системой в Office 365](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) и [Каковы вызов планы в Office 365?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
+Дополнительные сведения, прочитайте [вот вы получаете с телефонной системой в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) и [Каковы вызов планы в Office 365?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
 
 
 ## <a name="phone-system-direct-routing-direct-routing"></a>Телефон системы прямой маршрутизации («Прямая отправка»)

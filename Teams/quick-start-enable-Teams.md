@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: Это руководство поможет вам в планировании, установке и внедрении Microsoft Teams в вашей организации.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc4e1815b6d3b649c8af518068ca2d6ff3e9adbc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fbebf57b4da07f25d9687c27acd70e5cfd25930e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242816"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854999"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Краткое руководство — руководство по планированию Microsoft Teams
 ==========================================================
@@ -50,7 +51,7 @@ ms.locfileid: "23242816"
 
 ## <a name="step-3-complete-technical-planning"></a>Шаг 3. Техническое планирование
 
-Эффективное техническое планирование — основа для эффективной работы пользователей. Если в вашей организации больше 50 рабочих мест и она использует [определенный план обслуживания](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365), вам бесплатно доступна программа [Преимущество FastTrack](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365), которая поможет организовать планирование, развертывание и внедрение новых служб. Вы также можете решить эти задачи самостоятельно, используя наши мастера по подключению FastTrack. Чтобы получить их, войдите на сайт [FastTrack](https://fasttrack.microsoft.com/) под своей учетной записью Office 365. В планировании Teams вам помогут представленные ниже сведения. Как минимум, просмотрите следующие четыре статьи.
+Эффективное техническое планирование — основа для эффективной работы пользователей. Если в вашей организации больше 50 рабочих мест и она использует [определенный план обслуживания](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365), вам бесплатно доступна программа [Преимущество FastTrack](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365), которая поможет организовать планирование, развертывание и внедрение новых служб. Вы также можете решить эти задачи самостоятельно, используя наши мастера по подключению FastTrack. Чтобы получить их, войдите на сайт [FastTrack](https://fasttrack.microsoft.com/) под своей учетной записью Office 365. В планировании Teams вам помогут представленные ниже сведения. Как минимум, просмотрите следующие четыре статьи.
 
 1.  [Проверка готовности среды для Teams](environment-readiness.md)
 2.  [Подготовка вашей сети к использованию Teams](prepare-network.md)

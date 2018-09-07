@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -22,12 +23,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Для каждой страны или региона существуют свои инструкцииУказания по получению номеров телефоновных номеровдля пользователей в Skype для бизнеса  Online и Microsoft  Teams отличаются в зависимости от страны или региона. Воспользуйтесь ссылкой на вашу страну или регион для получения необходимой информации.
-ms.openlocfilehash: ef94cf9171db12c2eeb3650c592e1b626484a553
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 31d1b0b7d1a2719d4645addaa96aa8d82fd090fb
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785512"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858459"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Управление номерами телефонов организации
 Существует три способа получить телефонные номера для пользователей и служб (платные и бесплатные) для вашей организации.
@@ -79,7 +80,7 @@ ms.locfileid: "23785512"
 - Узнать о доступности планов звонков в вашей стране или вашем регионе можно в разделе [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) (Доступность аудиоконференций и планов звонков в различных странах и регионах)
 - Чтобы выбрать подходящий тип номера телефона, обратитесь к разделу [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md) (Различные типы номеров телефонов для планов звонков).
 - Чтобы узнать о получении номера телефона пользователя в Центре администрирования, прочитайте [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users) (Получение номеров телефонов для пользователей).
-- Чтобы получить сведения о настройке телефонных номеров для вашей организации, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- Чтобы получить сведения о настройке телефонных номеров для вашей организации, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
     
 ## <a name="related-topics"></a>См. также:

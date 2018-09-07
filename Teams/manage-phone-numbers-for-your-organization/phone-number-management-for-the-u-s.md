@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 09c8ca24-d018-422f-8485-9610171016a9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,16 +21,17 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в США и Пуэрто-Рико.
-ms.openlocfilehash: f0e72dfc847903c87a1e6336b66f021df692903a
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6acc294bfe9db4a80cc932b9635c14ea7551fc8c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785504"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850959"
 ---
 # <a name="phone-number-management-for-the-us"></a>Управление номерами телефонов в США
 
-В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft  Teams и управлении ими в США и Пуэрто-Рико и управлении ими.   
+В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft  Teams и управлении ими в США и Пуэрто-Рико и управлении ими.
+
 Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   
 |**Требуемое действие**|**Выполните следующие действия и загрузите подходящие формы**|

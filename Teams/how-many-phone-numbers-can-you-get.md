@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Число номеров телефонов, которые вы можете получить для организации, превышает назначенное число лицензий. Но это зависит от типов приобретенных и назначенных номеров и лицензий. Можно нажать кнопку различные виды телефонных номеров, используемый для вызова планы можно найти сведения о различных телефонных номеров, которые используются в Скайп для бизнеса в Интернет.
-ms.openlocfilehash: 53c470e528fefbb793fbb2d75d732cfb31730ef3
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a0d4e1273a49ac4f9e82cb98c8baddf22772f9d4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784736"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856309"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Сколько телефонных номеров можно получить?
 
 Число номеров телефонов, которые вы можете получить для организации, превышает назначенное число лицензий. Но это зависит от типов приобретенных и назначенных номеров и лицензий. Можно нажать кнопку [различные виды телефонных номеров, используемый для вызова планы](different-kinds-of-phone-numbers-used-for-calling-plans.md) можно найти сведения о различных телефонных номеров, которые используются в Скайп для бизнеса в Интернет.
   
-Отображается номер телефонных номеров, которые можно получить на странице **телефонные номера** в Скайп по центру администрирования Business или можно запустить командлет [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/en-us/library/mt634605.aspx) .
+Отображается номер телефонных номеров, которые можно получить на странице **телефонные номера** в Скайп по центру администрирования Business или можно запустить командлет [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) .
   
 > [!IMPORTANT]
 > Ограничения, указанные ниже, не включают в себя номера телефонов, которые вы перенесли в Майкрософт. 

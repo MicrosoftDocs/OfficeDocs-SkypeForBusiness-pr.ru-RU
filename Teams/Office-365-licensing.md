@@ -9,18 +9,19 @@ audience: Admin
 ms.service: msteams
 ms.reviewer: ''
 localization_priority: Priority
+search.appverid: MET150
 description: Сведения о различных лицензиях Office 365, лицензия, позволяющих пользователям работать с Microsoft Teams, а также о способах включения и отключения этого продукта.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5537ddef4c693d74c3b158a9a9b39fbc66be510
-ms.sourcegitcommit: 088003651ab18492c9520503b4f2bc0f30b0815d
+ms.openlocfilehash: a4133f239c2b8f710d76d11360bb3d837037b0d5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23531910"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854103"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Лицензирование Office 365 для Microsoft Teams
 ========================================
@@ -42,9 +43,9 @@ ms.locfileid: "23531910"
 > [!NOTE]
 > Продукт Microsoft Teams также доступен для некоммерческих организаций. Команды будет приступить к развертыванию для НАС государственных облако сообщества (GCC) 17 июля и быть доступны для всех подходящих клиентов к концу 2018 августа. Мы работа в использование групп Майкрософт в других США государственных облака (GCC высокой и министерства обороны США) готовится к выпуску. Дополнительные сведения в блоге группы Microsoft [здесь](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
         
-С точки зрения группами основные функциональные возможности ничем не отличаются от подписки Office 365. Но от уровня подписки зависят возможности по обеспечению соответствия. Дополнительные сведения: [Обзор обеспечения безопасности и соответствия в Teams.](security-compliance-overview.md) Подробный список функций, доступных в каждой подписки в разделе [Описание платформы Office 365](https://technet.microsoft.com/en-us/library/office-365-platform-service-description.aspx).
+С точки зрения группами основные функциональные возможности ничем не отличаются от подписки Office 365. Но от уровня подписки зависят возможности по обеспечению соответствия. Дополнительные сведения: [Обзор обеспечения безопасности и соответствия в Teams.](security-compliance-overview.md) Подробный список функций, доступных в каждой подписки в разделе [Описание платформы Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
-**Функции голосовой связи в облаке**: для звука конференц-связи, организации потребуется приобрести и назначение лицензии звук конференц-связи для каждого пользователя, который будет Настройка телефонных собраний. Вызов планы каждого пользователя должны телефонной системой, а также внутренние или внутренний и International вызов планирование. Для получения дополнительных сведений см [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+**Функции голосовой связи в облаке**: для звука конференц-связи, организации потребуется приобрести и назначение лицензии звук конференц-связи для каждого пользователя, который будет Настройка телефонных собраний. Вызов планы каждого пользователя должны телефонной системой, а также внутренние или внутренний и International вызов планирование. Для получения дополнительных сведений см [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 Все поддерживаемые планы подписки предоставляют право на использование веб-клиента, классических клиентов и мобильных приложений Microsoft Teams.
 
