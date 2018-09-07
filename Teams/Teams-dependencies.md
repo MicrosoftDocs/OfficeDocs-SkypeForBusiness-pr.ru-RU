@@ -7,15 +7,16 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
+search.appverid: MET150
 description: Управление функциями и возможностями гостевого доступа Microsoft Teams ведется с помощью четырех разных уровней авторизации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ce2d706264b8e05672f4b994e213cde594f1203
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: a646ba320681b6e92ec35b6cf62f14ecff0a54dd
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843895"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860445"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Авторизация гостевого доступа в Microsoft Teams
 ===========================================

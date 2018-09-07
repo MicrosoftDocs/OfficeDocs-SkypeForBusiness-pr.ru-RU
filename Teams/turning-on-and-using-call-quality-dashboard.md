@@ -9,6 +9,7 @@ ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Узнайте, как включить и использовать Скайп для панели мониторинга качества Online вызовов бизнес и получить сводные отчеты о качестве вызовов. '
-ms.openlocfilehash: 3b9c0351bb0625ed23e9340ad56dcb72fefd8821
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 4e6ef7fc8358d75c5043ec8cc34615db0a4dfe23
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784928"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23870487"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для групп Майкрософт и Скайп для бизнеса в Интернет
 
@@ -247,7 +248,7 @@ ms.locfileid: "23784928"
   
 ![Вызов качества панели мониторинга потока общее число.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 [Настройка средства аналитики звонков в Skype для бизнеса](set-up-call-analytics.md)
 
 [Использование вызова аналитики для устранения вызовов плохого качества](use-call-analytics-to-troubleshoot-poor-call-quality.md)

@@ -9,6 +9,7 @@ ms.assetid: 2c4e278f-afcd-4320-9a96-799491138835
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: f67c87c7a5242dbc8b47e5bc4c8d9ab77f68110f
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: f0ed93dd0c44d2603c335c39e217a558f9f00501
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23782896"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868055"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-netherlands"></a>Ограничения бесплатных набора номера в Нидерландах
 
@@ -42,7 +43,7 @@ ms.locfileid: "23782896"
 |Доступность мобильных сетей  <br/> | Да. Доступно по премиальному тарифу. <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> | Мобильный доступ: Взимается повременная плата. <br/> |
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 
 [Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)
 

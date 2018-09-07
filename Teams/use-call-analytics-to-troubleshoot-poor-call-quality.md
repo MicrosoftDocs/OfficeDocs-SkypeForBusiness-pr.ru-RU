@@ -10,6 +10,7 @@ ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Используйте вызова анализа сведений о устройств, сети и подключения к для диагностики проблем пользователей с Скайп для собраний и вызовы бизнеса.
-ms.openlocfilehash: db1f0ed4ce79936a5355fe087220fe2802f61ce6
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 9142b8ecd5c2fe0d24bb91c51c4625f5bf559ee9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783152"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869983"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Устранение неполадок с качеством звонков с помощью средства аналитики звонков
 
@@ -75,7 +76,7 @@ ms.locfileid: "23783152"
 |Сети звука классификации процента звонков низкого качества  <br/> |Сеанс  <br/> |Проблемы качества сети были обнаружены в областях потери пакетов, дрожание, Замедление nmos, время приема-Передачи, или скрытого отношение. Дополнительные сведения об условиях, используемый для классификации неполадки вызовов в этом [блоге Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133)см.  <br/> |
 |Устройство не работает  <br/> |Устройства  <br/> | Устройство не работает правильно. Устройство, не работает соотношения являются: <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 [Настройка средства аналитики звонков в Skype для бизнеса](set-up-call-analytics.md)
 
 [Вызов аналитики и панель мониторинга качества звонка](difference-between-call-analytics-and-call-quality-dashboard.md)
