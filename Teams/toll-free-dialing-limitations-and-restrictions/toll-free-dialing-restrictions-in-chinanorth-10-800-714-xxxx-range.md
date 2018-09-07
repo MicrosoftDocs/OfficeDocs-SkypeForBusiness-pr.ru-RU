@@ -9,6 +9,7 @@ ms.assetid: de35403c-ac6d-4325-9fb2-9bead8f14faf
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 321c99eed6ee91df3a7e6891e0e3c478a465d789
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 02241a897b3f218fbafab1e1947e6fe950fca847
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783568"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850719"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>Бесплатный номер набору номера, ограничения в Китае - Север (10 800 714 диапазон XXXX)
 
@@ -42,7 +43,7 @@ ms.locfileid: "23783568"
 |Доступность мобильных сетей  <br/> |Нет  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Недоступно для звонков с таксофона.  <br/> |
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 [Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

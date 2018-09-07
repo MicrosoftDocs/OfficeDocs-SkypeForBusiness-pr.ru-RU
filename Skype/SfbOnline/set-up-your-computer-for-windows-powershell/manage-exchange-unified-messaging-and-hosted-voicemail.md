@@ -1,5 +1,5 @@
 ---
-title: Управление единой системы обмена сообщениями Exchange и размещенной голосовой почты
+title: Управление единой системой обмена сообщениями Exchange и размещенной голосовой почтой
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 707198df-df85-4833-9c15-aa29b71f085c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Use PowerShell to manage Exchange Unified Messaging capabilities such as Auto Attendant and Subscriber Access and hosted voicemail in Skype for Business Online.
-ms.openlocfilehash: 33fe3c7a3c19916a8a70008f467035c832e5ecb3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 10c1891272a81731c94e5f0f459bb91e532e8387
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849796"
 ---
-# <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Управление единой системы обмена сообщениями Exchange и размещенной голосовой почты
+# <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Управление единой системой обмена сообщениями Exchange и размещенной голосовой почтой
 
 [] Вы можете управлять единой системой обмена сообщениями Exchange и размещенной голосовой почтой в Skype для бизнеса online с помощью набора командлетов.
   
@@ -36,7 +38,7 @@ ms.lasthandoff: 04/18/2018
 |[Get-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849633) <br/> <br/>[GRANT-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849602) <br/> |Управляет политиками размещенной голосовой почты, используемыми в организации. Политики размещенной голосовой почты определяют, как неотвеченные звонки перенаправляются в службу единой системы обмена сообщениями Exchange. Эти политики затрагивают только пользователей, у которых разрешена размещенная голосовая почта единой системы обмена сообщениями Exchange.  <br/><br/> Чтобы проверить, разрешена ли размещенная голосовая почта для пользователя, запустите команду, аналогичную следующей, из приглашения PowerShell.  <br/> "Get-CsOnlineUser-Identity «kenmyer@litwareinc.com» | SELECT-Object HostedVoiceMail "|
    
 
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 [Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: c182d564-1674-4491-b1d9-3e0cb657d4cc
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,11 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Сведения, которые можно и нельзя использовать в Скайп для бизнеса центра администрирования и других функций при службы переносится в другом центре обработки данных Майкрософт. '
-ms.openlocfilehash: b591b5352ba0d676462fabbaac446ecc769e204a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: d0b67b7193d6bc56617807d3c14d1196ee66d76c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854202"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Почему не удается использовать Скайп для бизнеса в Интернет центра администрирования на данный момент?
 
@@ -62,7 +64,7 @@ ms.lasthandoff: 04/18/2018
 
 Что. Хотя мы вы переход к Скайп для бизнеса веб-службами, по-прежнему можно использовать другие центры администрирования Office 365 (например, Office 365 и Exchange центры администрирования). Тем не менее а также Скайп для бизнеса в Интернет центра администрирования, не будут иметь возможность использовать Скайп для командлетов Online удаленной оболочки PowerShell Business во время миграции. 
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

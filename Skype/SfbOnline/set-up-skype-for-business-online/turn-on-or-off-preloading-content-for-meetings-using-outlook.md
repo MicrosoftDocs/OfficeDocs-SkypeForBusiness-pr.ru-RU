@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: d217d422-f7e9-433d-ad24-bf41751f65ca
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 7a572689575a708707aeca3eb963d5eb7d864594
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: d5a0e6f9d512e585e370268d3e21daef177e3923
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568274"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850130"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Включение и выключение разрешения предварительной загрузки содержимого для собраний с помощью Outlook
 
@@ -36,7 +37,7 @@ ms.locfileid: "19568274"
 
  **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Чтобы убедиться, что выполняется версия 3.0 или более поздняя версия, зайдите в **Меню "Пуск"** > **Windows PowerShell**.
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
@@ -50,7 +51,7 @@ ms.locfileid: "19568274"
 
  **Запуск сеанса Windows PowerShell**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Из **меню "Пуск"** > **Windows PowerShell**.
     
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     
@@ -91,7 +92,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Шесть причин использовать Windows PowerShell для управления Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     

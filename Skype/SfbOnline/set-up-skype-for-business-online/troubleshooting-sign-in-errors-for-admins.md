@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: cdd4801a-2fe1-4aab-bbb6-db5f95f972d1
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Узнайте распространенные причины для Скайп для бизнеса в Интернет входа ошибок и работы через устранения неполадок. '
-ms.openlocfilehash: 88ff25ab4603810d41e92e25a62bfecb3c376246
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 63bcd69fa4db2266647960c119c198797c154f75
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255790"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850216"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение неполадок Скайп для бизнеса в Интернет ошибки для администраторов
 
@@ -212,7 +213,7 @@ ms.locfileid: "23255790"
 
 Для устранения неполадок Скайп для бизнеса в Интернет ошибки, запустите, устраняя самые распространенные причины входа сложности. При необходимости можно затем выполните действия на основании типа ошибки определенные разрешения. Если пользователь по-прежнему не удается войти в программу, собрать Дополнительные сведения и затем для получения дополнительной поддержки.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

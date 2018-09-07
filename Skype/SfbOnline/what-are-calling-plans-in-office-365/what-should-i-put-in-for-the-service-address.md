@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b7bcf334-1dc6-4fd7-8145-f89ce695fca0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Узнайте, возможности свой адрес службы, их отличий от адрес для выставления счетов и где его найти. '
-ms.openlocfilehash: 34335a51f482ad83c8090bf2967f6b1639441893
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: ea5c1c0c7c4e56a21ad28f4ac1a45e742e0736cd
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779441"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849766"
 ---
 # <a name="what-should-i-put-in-for-the-service-address"></a>Какой адрес службы следует указывать?
 

@@ -9,6 +9,7 @@ ms.assetid: e3e3b5a0-c333-46fd-be0a-299b6adf7b88
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 9d2be18967d3064fef30f2d6924bffffff8d0afc
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 644f898ca7845757bb99b50e83ac7026e712b12c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785072"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850771"
 ---
 # <a name="toll-free-dialing-restrictions-in-israel"></a>Ограничения бесплатных набора номера в Израиля
 
@@ -42,7 +43,7 @@ ms.locfileid: "23785072"
 |Доступность мобильных сетей  <br/> | Частично. См. примечания. <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Мобильный доступ: Отсутствует доступ для абонентов мобильных сетей Paltel и Jawal/Watania.  <br/> |
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 
 [Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 35562b48-1da1-4081-8a3a-033d0f1986b2
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Можно включить вашей Скайп для бизнес-пользователям использовать встроенные Скайп для средство отправки отзывов приложения Business чтобы дать возможность пользователям отчитываться о проблемах и отзывы и напрямую в корпорацию Майкрософт о своих качества.
-ms.openlocfilehash: 09ddaa9952ab5d536c6a95937ca71c4c056a15e0
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 6d8f5c7e7c333e447b4238e47dab1fc7ad394816
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22135543"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850102"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Включение и выключение отчетов и отзывов клиентов в Skype для бизнеса
 
@@ -44,7 +45,7 @@ ms.locfileid: "22135543"
 
 - **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Чтобы убедиться, что выполняется версия 3.0 или более поздняя версия, зайдите в **Меню "Пуск"** > **Windows PowerShell**.
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
@@ -56,7 +57,7 @@ ms.locfileid: "22135543"
     
 - **Запуск сеанса Windows PowerShell**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Из **меню "Пуск"** > **Windows PowerShell**.
     
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     

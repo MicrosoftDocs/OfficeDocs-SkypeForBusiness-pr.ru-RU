@@ -9,6 +9,7 @@ ms.assetid: 097af064-dcc4-4ee0-b4ac-517073fedd9e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: b5982c04b97fb90511b938506ad69868de19b35e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: aa81bad4fa603b9d0006c9bb7af693aea96e6c41
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785728"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854237"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovenia"></a>Ограничения бесплатных набора номера в Словения
 
@@ -44,7 +45,7 @@ ms.locfileid: "23785728"
    
 ## <a name="see-also"></a>См. также
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 
 [Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)
 

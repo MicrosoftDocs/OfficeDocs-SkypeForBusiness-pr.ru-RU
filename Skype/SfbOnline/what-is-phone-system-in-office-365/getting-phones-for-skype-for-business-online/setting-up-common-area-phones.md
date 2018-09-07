@@ -7,6 +7,7 @@ ms.reviewer: wasseemh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Познакомьтесь с действиями развертывания для получения микропрограммы, при необходимости обновите ее, назначение лицензий и настройка параметров для телефонов общего пользования.
-ms.openlocfilehash: cb6cf1ed66f07ba618c74a47bc2c435229b235ec
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: c590620048c92177236a67b1480c19e64ca21e02
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779215"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850170"
 ---
 # <a name="set-up-common-area-phones"></a>Настройка телефонов общего пользования
 Телефон общего пользования (CAP) обычно размещается в холле или другом общедоступном месте. Например, телефон приемной, домофон, телефон для конференц-залов и другие CAP настраиваются скорее как устройства, чем как пользователи, и автоматически входят в сеть. В приведенных ниже шагах мы поможем вам настроить учетную запись для телефонной системы с тарифными планами, чтобы вы могли развернуть эти типы телефонов в своей организации.
@@ -143,7 +144,7 @@ ms.locfileid: "23779215"
 > Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если вы локально синхронизировали Active Directory с AAD, обратите внимание на учетные данные, которые будут изменены при подготовке CAP.
 
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>См. также:
 
 - Узнайте больше о доступных телефонах в статье [Развертывание телефонов Skype для бизнеса Online](deploying-skype-for-business-online-phones.md).
 - [Телефоны, поддерживаемые в Skype для бизнеса Online](getting-phones-for-skype-for-business-online.md)

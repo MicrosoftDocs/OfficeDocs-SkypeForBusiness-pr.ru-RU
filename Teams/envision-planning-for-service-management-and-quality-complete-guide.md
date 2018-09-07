@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Вы можете обеспечить высококачественное взаимодействие с пользователем в Teams, управляя работоспособностью служб, сети и конечных точек, а также определяя операционные роли и роли лидеров по качеству.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2a96f579dba947a616120ae853636b9c81ac6f1
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 7fc8f34efc655c75898e9805942607ad7e782b69
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23844023"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853121"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Планирование управления службами и обеспечения их качества
 

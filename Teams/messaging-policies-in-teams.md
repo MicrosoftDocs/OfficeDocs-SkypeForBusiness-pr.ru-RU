@@ -11,15 +11,16 @@ ms.audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
+search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Сведения о политиках системы обмена сообщениями и как они могут использоваться для управления чата системы обмена сообщениями в группах.
-ms.openlocfilehash: 56aedc797fdc73ec93000ba5aced4f17de93aaa4
-ms.sourcegitcommit: b87168f58218a5a44e1f3371867401d44f6927e5
+ms.openlocfilehash: ef252f958f08c75d0fcfb8af0a06aadf776d3668
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22221808"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850919"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Что системы обмена сообщениями политик в группах?
 
@@ -38,5 +39,5 @@ ms.locfileid: "22221808"
 - **Использование наклейки в беседах** При включении этого, пользователи могут включать наклейки в беседах разговор с другими людьми.
 
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>См. также:
 [Политик собраний в группах](meeting-policies-in-teams.md)

@@ -1,5 +1,5 @@
 ---
-title: Создание политик настраиваемого внешнего доступа
+title: Создание настраиваемых политик внешнего доступа
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 89cbd278-5480-473c-8cd9-04e07e5f9e0b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,14 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Скайп для бизнеса в Интернет позволяет создавать политики дополнительные внешнего доступа. В отличие от клиента или конференц-связи политик, где может иметь несколько комбинаций, существует три политики предварительно заданных внешнего доступа, которые могут охватывать большинство сценариев.
-ms.openlocfilehash: e166aa9af162fd6432c8932d5842ea0fd00a36b3
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: e0af31d015c69ebd91c28a229a20d3d2c6c926c4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568315"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850160"
 ---
-# <a name="create-custom-external-access-policies"></a>Создание политик настраиваемого внешнего доступа
+# <a name="create-custom-external-access-policies"></a>Создание настраиваемых политик внешнего доступа
 
 Скайп для бизнеса в Интернет позволяет создавать политики дополнительные внешнего доступа. В отличие от клиента или конференц-связи политик, где может иметь несколько комбинаций, существует три политики предварительно заданных внешнего доступа, которые могут охватывать большинство сценариев. Далее представлены:
   
@@ -50,7 +51,7 @@ ms.locfileid: "19568315"
 
 - **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Чтобы убедиться, что выполняется версия 3.0 или более поздняя версия, зайдите в **Меню "Пуск"** > **Windows PowerShell**.
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
@@ -62,7 +63,7 @@ ms.locfileid: "19568315"
     
 - **Запуск сеанса Windows PowerShell**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Из **меню "Пуск"** > **Windows PowerShell**.
     
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     

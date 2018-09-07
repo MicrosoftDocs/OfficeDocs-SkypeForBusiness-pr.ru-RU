@@ -7,15 +7,16 @@ ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl
+search.appverid: MET150
 description: Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3f97c5a28bdbd266750c10b113ab826ab8ba272
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: fa72e0b417b324bbd66f80ae399bc15ddde779a2
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843991"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850253"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
 
@@ -50,7 +51,7 @@ ms.locfileid: "23843991"
 ## <a name="authentication"></a>Проверка подлинности
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
-|При попытке присоединиться к Microsoft Teams через Internet Explorer или Edge программа зацикливается или дает сбой и вход не выполняется.   <br/> | Ваша организация использует в Internet Explorer доверенные сайты, но они не разрешены в Microsoft Teams, поэтому веб-приложение Microsoft Teams не может войти должным образом. <br/>|Внесите следующие изменения в параметры Internet Explorer, используя права администратора или объект групповой политики.<br/><ol><li>В разделе **Свойства обозревателя** &gt; **конфиденциальности** &gt; **Дополнительно**принятия первоначального сторонних производителей и сторонние файлы cookie и установите флажок для **всегда разрешать файлы cookie сеанса**.</li><li>Щелкните **Свойства обозревателя** &gt; **Надежные узлы** &gt; **сайтов**и добавьте следующее:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>Примечание</b>. Всегда подтверждайте и разрешайте все доверенные URL-адреса для Microsoft Teams и требования из следующего документа: [URL-адреса и диапазоны IP-адресов для Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).   <br/> |01.11.2017  <br/> |
+|При попытке присоединиться к Microsoft Teams через Internet Explorer или Edge программа зацикливается или дает сбой и вход не выполняется.   <br/> | Ваша организация использует в Internet Explorer доверенные сайты, но они не разрешены в Microsoft Teams, поэтому веб-приложение Microsoft Teams не может войти должным образом. <br/>|Внесите следующие изменения в параметры Internet Explorer, используя права администратора или объект групповой политики.<br/><ol><li>В разделе **Свойства обозревателя** &gt; **конфиденциальности** &gt; **Дополнительно**принятия первоначального сторонних производителей и сторонние файлы cookie и установите флажок для **всегда разрешать файлы cookie сеанса**.</li><li>Щелкните **Свойства обозревателя** &gt; **Надежные узлы** &gt; **сайтов**и добавьте следующее:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>Примечание</b>. Всегда подтверждайте и разрешайте все доверенные URL-адреса для Microsoft Teams и требования из следующего документа: [URL-адреса и диапазоны IP-адресов для Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01.11.2017  <br/> |
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|

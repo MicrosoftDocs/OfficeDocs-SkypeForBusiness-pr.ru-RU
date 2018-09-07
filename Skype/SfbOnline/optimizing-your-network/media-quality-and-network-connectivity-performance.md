@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5fe3e01b-34cf-44e0-b897-b0b2a83f0917
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: В этом разделе определяет набор требований к производительности сети для Скайп для бизнеса Интернет-служб и как можно выбрать для использования в Интернете или ExpressRoute-соединение между зоной и Скайп для бизнеса в Интернет на основе оценку сети подключение. Если вы решили развернуть Azure ExpressRoute для выделенного подключение к Office 365, в этом документе также рекомендации по планированию ExpressRoute подключений в разных Скайп для бизнеса в Интернет сценариев развертывания.
-ms.openlocfilehash: 3a57ba58e2881f2e279949877d17e115cb1c23df
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: ce4a1379310d9dd7fdcad6c8242c792103f05c18
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779359"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850234"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Качество медиаданных и производительность сетевого подключения в Skype для бизнеса Online
 
@@ -337,7 +338,7 @@ Azure ExpressRoute предоставляет следующие дополни�
   
 ![Соединитель ExpressRoute Cloud двух.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 
 [ExpressRoute и качество обслуживания в Skype для бизнеса Online](expressroute-and-qos-in-skype-for-business-online.md)
 

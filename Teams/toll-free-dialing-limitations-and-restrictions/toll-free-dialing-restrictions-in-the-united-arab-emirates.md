@@ -9,6 +9,7 @@ ms.assetid: 3cd6c094-d178-4968-85dd-ab774d12b893
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона, чтобы набрать этот номер бесплатный номер.
-ms.openlocfilehash: ddbf8dccb65b0e533ebe077dd1c974ed88b45b9e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 537644c71671ccb8792d84d84a43fbe5a32a2f2d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783128"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850845"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>Ограничения бесплатных набора номера в Объединенные Арабские Эмираты
 
@@ -42,7 +43,7 @@ ms.locfileid: "23783128"
 |Доступность мобильных сетей  <br/> |Да  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Нет  <br/> |
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 
 [Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)
 
