@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 12203a1a-4a9f-4838-88c5-3740ea16ed8d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Вы можете прикрепить файлы с Скайп для собраний, кто из пользователей, затем можно открыть и загрузите. Файлами, подключенными к Скайп для деловых встреч, сохраняются в почтовых ящиках любой участник почтовый ящик которого размещается на хранение для судебного разбирательства, имеет применена политика хранения Office 365 или ставится на удержание, связанные с вариантом eDiscovery безопасности Office 365 &amp; Центре соответствия требованиям. Это содержимое сохраняется папки элементов для восстановления участников в их почтовые ящики.
-ms.openlocfilehash: ddd4742b3e30ed09a7e538d40712577ab26edfda
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: b38f2ec56fb53932c08ede2a8c6f39557216a6b8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864978"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Хранение больших файлов, подключенного к Скайп для собраний
 
@@ -34,7 +36,7 @@ ms.lasthandoff: 04/18/2018
   
 Почтовые ящики, которые не являются на удержание не будет сохранен данные собрания. Например на собрании три человека в которой почтовые ящики двух участников помечены как для хранения, собрания данные сохраняются в почтовые ящики этих двух участников, но не к почтовому ящику третий участник, почтовый ящик которого нет на удержание.
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)
 
 [Передача файлов точка-точка блока](block-point-to-point-file-transfers.md)

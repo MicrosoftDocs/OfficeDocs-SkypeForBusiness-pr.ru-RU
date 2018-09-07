@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 4935cddf-fafa-442d-91a3-246af01f8373
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-search.appverid: MET150
-ms.openlocfilehash: 54fa46f64989e796628d36f0af7d2f59b0c253d8
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 9339efa3dfe9f7984b23dd46ce0fac47dbe4b9ee
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933090"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865218"
 ---
 # <a name="skype-for-business-online-reporting"></a>Отчетность Skype для бизнеса Online
 
@@ -57,7 +57,7 @@ ms.locfileid: "19933090"
 |[Скайп минутного Business PSTN пулы отчета](pstn-minute-pools-report.md) <br/> | Это план лицензии и служб, используемый для вызова. <br/> Тип лицензии <br/> Описание возможностей <br/> Страна Minute пула  <br/> Используемые минут <br/> Общее количество минут <br/> Процент минут, за месяц <br/> |
 |[Скайп для отчета о сеансе бизнеса](session-details-report.md) <br/> | Псевдоним пользователя <br/> Идентификатор диалогового окна  <br/> Типы мультимедиа  <br/> Время начала и окончания <br/> В и из URI <br/> URL-адрес конференции <br/> Номер телефона <br/> |
  
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

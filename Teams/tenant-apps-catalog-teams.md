@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: prem
 description: Руководство для публикации приложений в каталоге приложений Microsoft группы клиента.
 localization_priority: Normal
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 655a9da3670a7894e581cd2e6adebd02ef22706b
-ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
+ms.openlocfilehash: 11b1ccf53715b15098b772e460602ce5eddade62
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21762937"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866374"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Публикация приложений в каталог приложений клиента группами Майкрософт
 =======================================================

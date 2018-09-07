@@ -8,16 +8,17 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 ms.audience: Admin
+search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Узнайте, как настроить группы сотрудников могут пользователи могут взаимодействовать с пользователями в другой организации.
-ms.openlocfilehash: 3eaffac3571abc70d4964ea4a8955f187d1e988f
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 39be4ddb1a9f42382de30c04d3e81a990aad3547
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23844639"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863107"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Сообщите разговор группам пользователей и взаимодействовать с пользователями в другой организации групп
 

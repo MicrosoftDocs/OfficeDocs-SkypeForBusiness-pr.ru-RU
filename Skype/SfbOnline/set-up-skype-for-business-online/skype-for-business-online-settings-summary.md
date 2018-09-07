@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: da3386ab-0397-4c55-b9f0-9dbeade93455
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 ms.appliesto:
@@ -17,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Этой сводки Скайп для параметров бизнеса организации и пользователей, которые помогут узнать больше о общедоступных служб обмена Мгновенными сообщениями, приглашения на собрания, записи звонков и собраний и многое другое.  '
-ms.openlocfilehash: 17504d2c0e367a6bd92f427befb3aebb7ecdc364
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 95368d06cbd243aa5b57b7e68ec1e99db81b2fb0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865600"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Общие сведения о параметрах Skype для бизнеса Online
 
@@ -51,7 +53,7 @@ ms.lasthandoff: 04/18/2018
 |Обратный вызов для анонимных участников  <br/> |Разрешение анонимным участникам собрания Skype для бизнеса online подключаться к аудиоконференции посредством обратного вызова от поставщика услуг аудиоконференций  <br/> |Включено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Отключение неархивных функций  <br/> | Отключает функции, которые не регистрируются при организации настроил [контента добавить для случая и место источников на удержание в центре обнаружения электронных данных](https://go.microsoft.com/fwlink/?LinkId=529482) в центре администрирования Exchange: <br/>  Передача файлов через службу мгновенных сообщений <br/>  Общие страницы OneNote <br/>  Примечания PowerPoint <br/>  Включите этот параметр, если требуется сохранять данные в электронной форме. <br/> |Отключено  <br/> |[Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

@@ -1,5 +1,5 @@
 ---
-title: О вызове код строки и вызова имени субъекта
+title: Дополнительные сведения об идентификаторе вызывающей линии и имени вызывающего абонента
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Узнайте, почему необходимо добавить авторизованного пользователя, который можно внести изменения в учетную запись, при использовании мастера новый локальный заказ номер порта.
-ms.openlocfilehash: 1174ba5837bb91c3251232ab48fa63c343425ac1
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 846abfd5b6973a02ad1a7388b45a79ec709695a0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865280"
 ---
-# <a name="more-about-calling-line-id-and-calling-party-name"></a>О вызове код строки и вызова имени субъекта
+# <a name="more-about-calling-line-id-and-calling-party-name"></a>Дополнительные сведения об идентификаторе вызывающей линии и имени вызывающего абонента
 
 CallerID, как оно обычно используется для ссылки, фактически состоит из подключенных пользователей идентифицируемый следующая информация:
     - Номер телефона (обычно обозначается как CLID или телефонной линии идентификатор) 
@@ -35,6 +37,6 @@ CLID & CNAM передачи несет ответственность за пр
 
 Несоответствия в CNAM может быть вызвана задержки в связи промежуточных или выполнения определенного обновления CNAM сведения в достоверности баз данных, как в случае в США. В странах, где есть база данных не достоверных CNAM, рекомендациям отдельного поставщика также может вызвать проблемы с CNAM данные, поступающие в списке с помощью вызова. Microsoft в настоящее время не поддерживает отправляющего CNAM сведения только в США в стране.»
 
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 
 

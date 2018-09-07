@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: e95a7d09-0c45-4b95-956e-f099b7b0e659
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,11 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Найти возможные причины и предложений действие при получении Скайп для бизнеса в Интернет средство не включено ошибки. '
-ms.openlocfilehash: 372ea06a914df61efbc3a55b846423a569c2ac31
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 12d5c19f7830d99ce6c7e8fad8089b713bd90d0a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863612"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>В этом Скайп для бизнеса в Интернет функции не включена
 
@@ -34,7 +36,7 @@ ms.lasthandoff: 04/18/2018
 |Пользователь находится в расположение, где этот компонент не будет доступен.  <br/> |Если это возможно, перейдите в **Центр администрирования Office 365** > **активных пользователей** и назначьте этого пользователя в место, где эта функция доступна. <br/> |
 |Компонент не был включен для вашей организации.  <br/> |Перейдите в **Центр администрирования Office 365** > **Скайп для бизнеса** и включить функцию для всей организации. <br/> |
    
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

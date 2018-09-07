@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 51c2f7ac-2b72-488d-b1ea-f00e1e88ee7a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: В новом центре администрирования Skype для бизнеса в разделе Отчеты приводится сводка операций по звонкам и аудиоконференциям в организации. В ней можно также просмотреть детализированные отчеты по отдельным продуктам. Например Скайп для бизнеса PSTN minute пулы отчета можно использовать для просмотра потребления во время текущего месяца вашей организации в минутах.
-search.appverid: MET150
-ms.openlocfilehash: a12597faf9f5669809cbf97a2ea8a054c65a8a0c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 41f1e0c2dcc7504341bb6d9076c7a99b63ed50a9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779671"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865112"
 ---
 # <a name="pstn-minute-pools-report"></a>Отчет о пулах минут, затраченных по ТСОП
 
@@ -92,7 +92,7 @@ ms.locfileid: "23779671"
 
 - [Скайп для отчета о сеансе бизнеса](session-details-report.md) Можно просмотреть сведения о работе вызова отдельных пользователей.
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

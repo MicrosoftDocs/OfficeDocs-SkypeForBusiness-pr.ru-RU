@@ -1,5 +1,5 @@
 ---
-title: Настройка и устранение неполадок Скайп для бизнеса в Интернет делегирования
+title: Настройка делегирования в Skype для бизнеса Online и устранение неполадок
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: e676b911-5f82-41d8-b4ce-3d0d45c3cd04
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: В этой статье объясняется, как настроить и устранении неполадок Скайп для бизнеса в Интернет делегирования. В этой статье описаны рекомендации по рекомендации по настройке, рекомендации и действия по устранению неполадок.
-ms.openlocfilehash: 13df45590905bd6bbf7498ec6d2ab912cf976228
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: bb1f8639d045d156d5095e33a4a012987604c6e1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856492"
 ---
-# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Настройка и устранение неполадок Скайп для бизнеса в Интернет делегирования
+# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Настройка делегирования в Skype для бизнеса Online и устранение неполадок
 
 В этой статье объясняется, как настроить и устранении неполадок Скайп для бизнеса в Интернет делегирования. В этой статье описаны рекомендации по рекомендации по настройке, рекомендации и действия по устранению неполадок.
   
@@ -50,10 +52,10 @@ ms.lasthandoff: 04/18/2018
     
 ### <a name="skype-for-business-client-version-support"></a>Скайп для поддержки версии клиента Business
 
-||**Outlook 2013**|**Outlook 2016**|
+||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
 |**Lync/Скайп для базовой клиента Business**| Не поддерживается |Не поддерживается
-|**Скайп для бизнеса 2015**|Поддерживается| Поддерживается|
+|**Skype для бизнеса 2015**|Поддерживается| Поддерживается|
 |**Скайп 2016 бизнеса**|Поддерживается| Поддерживается|
 
    
@@ -63,7 +65,7 @@ ms.lasthandoff: 04/18/2018
 
 |**Лицензия**|**Клиенты**|**Примечания**|
 |:-----|:-----|:-----|
-|Enterprise E3  <br/> |Использовать с Outlook 2013 и Outlook 2016 Lync 2013 (Скайп для бизнеса 2015)  <br/> Скайп использовать с Outlook 2013 и Outlook 2016 2016 бизнеса  <br/> |Скайп для бизнеса базовый клиент не поддерживает делегирование.  <br/> Для клиентов можно передать вызовов, но не встреч.  <br/> |
+|Корпоративный E3  <br/> |Использовать с Outlook 2013 и Outlook 2016 Lync 2013 (Скайп для бизнеса 2015)  <br/> Скайп использовать с Outlook 2013 и Outlook 2016 2016 бизнеса  <br/> |Скайп для бизнеса базовый клиент не поддерживает делегирование.  <br/> Для клиентов можно передать вызовов, но не встреч.  <br/> |
 |Для предприятий E3 с телефонной системой Office 365 + Office 365 xCalling плана  <br/> |Использовать с Outlook 2013 и Outlook 2016 Lync 2013 (Скайп для бизнеса 2015)  <br/> Скайп использовать с Outlook 2013 и Outlook 2016 2016 бизнеса  <br/> Lync для Mac 2011  <br/> |Скайп для бизнеса базовый клиент не поддерживает делегирование.  <br/> Для клиентов можно передать вызовов, но не встреч.  <br/> |
    
 **Сценарий E5 корпоративного лицензирования**
@@ -140,7 +142,7 @@ ms.lasthandoff: 04/18/2018
     
 - Почтовый ящик Exchange Online не будет доступна через Скайп для клиента Business. При возникновении этой ошибки запустите [Outlook Проверка подключения](https://testconnectivity.microsoft.com/) к убедитесь в том, что они передают.
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

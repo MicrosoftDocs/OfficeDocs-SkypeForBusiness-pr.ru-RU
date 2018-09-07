@@ -1,5 +1,5 @@
 ---
-title: Заблокировано пользовательских лицензий для вещания Скайп собрания
+title: Заблокированные лицензии пользователей для трансляции собраний Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b898557c-547f-4055-9478-d17fb653285f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,14 +18,14 @@ f1keywords: None
 ms.custom:
 - SMB
 description: К сожалению, существуют некоторые пользовательских лицензий, которые блокируются при пользователя перейдите к https://broadcast.skype.com и хотите использовать Скайп собрания вещания. Если пользователь видит это сообщение, у них один заблокированных лицензий, которые были им назначены. Если по-прежнему требуется использовать его, назначьте их другой лицензии Office 365.
-ms.openlocfilehash: f7a7bb44a6de3cfaa5af282f855b0345f0a3ea76
-ms.sourcegitcommit: 2290f152ea13d87fb1fd70007fe19523184ce947
+ms.openlocfilehash: 68ea3a6632ce5c25c0c443edc8abc66a5c6f5bbe
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19844602"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861408"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Заблокировано пользовательских лицензий для вещания Скайп собрания
+# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Заблокированные лицензии пользователей для трансляции собраний Skype
 
 К сожалению, существуют некоторые пользовательских лицензий, которые блокируются, когда пользователи могут https://broadcast.skype.com и хотите использовать Скайп собрания вещания. Если пользователь видит это сообщение, у них один заблокированных лицензий, которые были им назначены. Если по-прежнему требуется использовать его, назначьте их другой лицензии Office 365.
   

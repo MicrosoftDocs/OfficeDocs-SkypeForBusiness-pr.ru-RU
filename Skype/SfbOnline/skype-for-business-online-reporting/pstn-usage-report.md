@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 74eda791-c41f-4fd9-ae0b-913342e7ab04
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: В новом центре администрирования Skype для бизнеса в разделе Отчеты приводится сводка операций по звонкам и аудиоконференциям в организации. В ней можно также просмотреть детализированные отчеты по отдельным продуктам. Например, в отчете об использовании услуг ТСОП в Skype для бизнеса можно просмотреть сведения о длительности входящих и исходящих звонков, а также их стоимости. Помимо этого, можно просмотреть сведения об использовании аудиоконференции с телефонным подключением по ТСОП и стоимости звонков, чтобы проанализировать расходы на связь в организации.
-search.appverid: MET150
-ms.openlocfilehash: 562911b6ceb4751a1a808d4e8f63ddaddddfad99
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6003199b69395001dc47d77f83927ac32e06e5a4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779187"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862244"
 ---
 # <a name="pstn-usage-report"></a>Отчет об использовании услуг ТСОП
 
@@ -118,7 +118,7 @@ ms.locfileid: "23779187"
 
 - [Скайп для отчета о сеансе бизнеса](session-details-report.md) Можно просмотреть сведения о работе вызова отдельных пользователей.
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

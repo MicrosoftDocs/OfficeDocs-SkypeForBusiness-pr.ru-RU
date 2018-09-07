@@ -9,6 +9,7 @@ ms.assetid: c3a51334-fff3-4b31-9618-c150adb53a0c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Литва.
-ms.openlocfilehash: d200af21b4e5a605c0d69da15f7d1f435646f3ee
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: b42b3a37615b12ba256504ff17bf2ab21d6c360f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829316"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866331"
 ---
 # <a name="availability-in-lithuania"></a>Доступность в Литва
 

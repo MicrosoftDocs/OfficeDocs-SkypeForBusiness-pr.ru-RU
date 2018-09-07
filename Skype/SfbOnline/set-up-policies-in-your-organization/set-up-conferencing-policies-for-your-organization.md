@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Конференц-связь \x97 это важная часть Skype для бизнеса online: она позволяет группам пользователей объединяться, чтобы просматривать презентации и видео, делиться приложениями, обмениваться файлами, общаться и совместно работать другими способами."
-ms.openlocfilehash: 9e4c0bc5a90a97ae249b9308fd0ffc62a654a824
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: c5db13adef479bdb3a8702a2782e2ccce19195d6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500567"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861202"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Настройка политик аудиоконференций в организации
 
@@ -132,7 +133,7 @@ ms.locfileid: "19500567"
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Шесть причин использовать Windows PowerShell для управления Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     

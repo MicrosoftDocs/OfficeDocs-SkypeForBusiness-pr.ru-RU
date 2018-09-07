@@ -1,26 +1,34 @@
 ---
-title: Обновление до группами Майкрософт
+title: Планируете обновление группы — группами Майкрософт для вашей Скайп для бизнеса
 author: dearbeen
-ms.author: MyAdvisor
+ms.author: dearbeen
 manager: serdars
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: ЗАПОЛНИТЕЛЬ
+description: Планирование обновления, сначала прикрепление заинтересованные стороны, а затем области проекта.
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
-robots: noindex
-redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams
-redirect_document_id: true
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 100ca887a15bdc961638c3da9b0fb1fe05e9eaf5
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: c138282ed7b65cd7efcdb31cb363110702233346
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695153"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867077"
 ---
-# <a name="plan-the-journey"></a>Планирование поездки
+![Убедитесь, что проект настроен для успешной работы с группы правой проекта. Определение области проекта, цели и временной шкалы. Подтверждение проверки готовности к техническим и пользователя. Выполнение плана развертывания. Ведение momentum для обеспечения максимальной результаты.] (media/upgrade-banner-main.png "Приступить к обновлению реализация")
 
-ЗАПОЛНИТЕЛЬ
+
+# <a name="plan-for-your-upgrade"></a>Планирование обновления
+
+Работоспособны технические среды, реализации бизнес-целей, начинающихся с надлежащего планирования и внедрения долгосрочной пользователя. Надежный план предоставляет инфраструктуру для обновления проекта и обеспечивает работу всех заинтересованных лиц к же целей. Используя времени для определения успешности должным образом, можно измерить результаты в ходе работы через развертывания и убедитесь, что в случае достижения результатов, которые вы хотите, чтобы. Планирование поездке включает в себя:
+
+-   [Прикрепление другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md).
+-   [Определение области проекта](https://aka.ms/SkypetoTeams-Scope).
+-   [Общие сведения о совместимости и взаимодействию Скайп для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist).
+

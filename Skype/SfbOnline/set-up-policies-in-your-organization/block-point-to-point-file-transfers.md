@@ -1,5 +1,5 @@
 ---
-title: Передача файлов блока точка-точка
+title: Блокировка передачи файлов точка-точка
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9adf9859-de5b-461e-92ea-b6ce4dd2f7c1
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: В Скайп для бизнеса в Интернет у вас есть возможность управления передачу файлов между узлами (P2P) как часть существующие параметры политики конференц-связи. Тем не менее это позволяет или передача для пользователей, ли они передачу файлов, пользователь, который находится в пределах той же организации или федеративного пользователя из другой организации файлов блоки. Следующие шаги можно заблокировать P2P передачи файлов с федеративными организациями или партнеров.
-ms.openlocfilehash: 318f6e6b88f0be4c85f72aa7b59d6e3fec2bd781
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 3ae7bce22a99858af36696e1fde41bb614f2c008
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858494"
 ---
-# <a name="block-point-to-point-file-transfers"></a>Передача файлов блока точка-точка
+# <a name="block-point-to-point-file-transfers"></a>Блокировка передачи файлов точка-точка
 
 В Скайп для бизнеса в Интернет у вас есть возможность управления передачу файлов между узлами (P2P) как часть существующие параметры политики конференц-связи. Тем не менее это позволяет или передача для пользователей, ли они передачу файлов, пользователь, который находится в пределах той же организации или федеративного пользователя из другой организации файлов блоки. Следующие шаги можно заблокировать P2P передачи файлов с федеративными организациями или партнеров.
   
@@ -51,7 +53,7 @@ ms.lasthandoff: 05/25/2018
 
 - **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Чтобы убедиться, что выполняется версия 3.0 или более поздняя версия, зайдите в **Меню "Пуск"** > **Windows PowerShell**.
     
 2. Проверка версии с помощью следующей команды _Get-узел_ в окне **Windows PowerShell** .
     
@@ -63,7 +65,7 @@ ms.lasthandoff: 05/25/2018
     
 - **Запуск сеанса Windows PowerShell**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Из **меню "Пуск"** > **Windows PowerShell**.
     
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     

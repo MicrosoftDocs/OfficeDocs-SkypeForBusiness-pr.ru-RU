@@ -1,5 +1,5 @@
 ---
-title: Отчет о заблокированных пользователей
+title: Отчет о заблокированных пользователях
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 0ac844b2-1b08-4e5a-addf-03cde7af7a40
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,15 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Этот отчет, а также другие Скайп для бизнес-отчеты подробные сведения по деятельности, включая использование ТСОП внутри организации. '
-search.appverid: MET150
-ms.openlocfilehash: 0b6bc07afb44b4bb2ba7e2b31f51443c93645655
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 508d41de4a8b67e1a266bead6f91445acd041a7e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933050"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860620"
 ---
-# <a name="users-blocked-report"></a>Отчет о заблокированных пользователей
+# <a name="users-blocked-report"></a>Отчет о заблокированных пользователях
 
 Новые Скайп для бизнес- **отчеты** панели мониторинга показывающий обзор действий по Скайп для бизнеса продуктов в вашей организации. Он позволяет работать к отдельным отчетам уровень продукта для предоставления более детальные сведения о действия в рамках каждого продукта. Например **Скайп для бизнес-пользователи заблокировано** отчет используется для отображения пользователей в вашей организации, которые были заблокированы из вызовы ТСОП. Этот отчет, а также другие Скайп для бизнес-отчеты подробные сведения по деятельности, включая использование ТСОП внутри организации.
   
@@ -84,7 +84,7 @@ ms.locfileid: "19933050"
 
 - [Скайп для отчета о сеансе бизнеса](session-details-report.md) Можно просмотреть сведения о работе вызова отдельных пользователей.
    
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

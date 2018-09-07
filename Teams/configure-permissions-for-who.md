@@ -1,20 +1,22 @@
 ---
-title: "Настройка разрешений для приложения Who"
+title: Настройка разрешений для приложения Who
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 12/07/2017
 ms.topic: article
 ms.service: msteams
-description: "Практическое руководство по развертыванию функций облачной голосовой связи в Microsoft Teams."
+search.appverid: MET150
+description: Практическое руководство по развертыванию функций облачной голосовой связи в Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 629a732b178f6702f5ba308c6d0effe069019091
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: cc8fe9a21cdfa4d1df0bf3f11631d103a13fe94b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860217"
 ---
 <a name="configure-permissions-for-who"></a>Настройка разрешений для приложения Who
 =============================

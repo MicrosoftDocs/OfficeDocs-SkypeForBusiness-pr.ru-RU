@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: dfa736b9-4920-4f48-b8c0-b5487ec6086f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Сведения о функцию вещания собрания Скайп Скайп для бизнеса в Интернет, который позволяет расписания, создавать и вещания собрания или события для крупных online аудиторий до 10 000 участников.
-ms.openlocfilehash: 190911fcf87e0b3042bc8895ade016756a58a1ec
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e1f10ad5036e2866cc480491e98bd2dd7396895a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251661"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862218"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Настройка сети для трансляции собраний Skype
 
@@ -94,7 +95,7 @@ ms.locfileid: "23251661"
 
 Если вы Скайп для бизнеса сети организации и локального развертывания Lync Server 2010, Microsoft Lync Server 2013 и Скайп для Business Server 2015 и имеют пользователей обоих Интернет-версия и локальной, но и других действий, которые необходимо выполнить дополнение к пример выше для включения в локальной организации для взаимодействия с Скайп для бизнеса в Интернет и разрешить всем пользователям возможность создавать и присоединиться к собранию Скайп, вещания. Чтобы узнать, что этих требований, содержатся в разделе [Настройка локального развертывания на наличие Скайп собрания вещания](https://go.microsoft.com/fwlink/?LinkId=617070).
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>См. также:
 
 [Включение трансляции собраний Skype](enable-skype-meeting-broadcast.md)
 

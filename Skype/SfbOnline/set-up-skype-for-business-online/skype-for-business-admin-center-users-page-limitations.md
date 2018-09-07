@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 0a24c1d1-11e3-4971-a90d-4c3e69ef165f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,11 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Узнайте о работе в рамках ограничения Скайп для отображения бизнес Online администрирования пользователей. '
-ms.openlocfilehash: 37c2df7235cdf324d273bcb2d57dcd0b0a4f05a9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 1f8a3c98e218b3d536c21bbfdd0efe7cecf3806b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862998"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Ограничения страницы Скайп для бизнеса в Интернет пользователей центра администрирования
 
@@ -39,7 +41,7 @@ ms.lasthandoff: 04/18/2018
   
 ![Пользователи страницы навигации для изменения объема пользователей на странице](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>См. также:
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
