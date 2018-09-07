@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 91f2d947-45fc-4fab-bd8b-2e313531c477
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, какие телефоны компаний Polycom, HP и Mitel поддерживают Skype для бизнеса, а также о требуемых лицензиях. '
-ms.openlocfilehash: 92a91d97efabeaaebb074e41e41bc9a8812fa0c5
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 441effac4256ee01f713e10e592ea3402726d5f3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780612"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863766"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Телефоны, поддерживаемые в Skype для бизнеса Online
 
@@ -35,7 +36,7 @@ ms.locfileid: "23780612"
   
 ## <a name="supported-phones"></a>Поддерживаемые телефоны
 
-Пользователи Skype для бизнеса Online могут выбирать различные модели из раздела  *Сертифицированные телефоны для Skype для бизнеса*, а также телефоны под управлением Lync Phone Edition (LPE) в категории Skype для бизнеса Online в[каталоге устройств Skype для бизнеса](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+Пользователи Skype для бизнеса Online могут выбирать различные модели из раздела *Сертифицированные телефоны для Skype для бизнеса*, а также телефоны под управлением Lync Phone Edition (LPE) в категории Skype для бизнеса Online в [каталоге устройств Skype для бизнеса](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 Майкрософт является партнером и тесно сотрудничает с компаниями Polycom, Yealink и AudioCodes по вопросам разработки и сертификации широкого спектра устройств в рамках партнерской программы IP-телефонии (PIP) для телефонных систем в Office 365 и Skype для бизнеса Server.
   
@@ -55,7 +56,7 @@ ms.locfileid: "23780612"
 Дополнительные сведения о телефонах AudioCodes см. в разделе [IP-телефоны для Skype для бизнеса](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Skype для бизнеса Online поддерживает Lync Phone Edition, однако Microsoft Teams не поддерживает эти устройства. Базовая поддержка платформы LPE прекращается 10 апреля 2014 г. В соответствии с установленным жизненным циклом поддержки Lync Server 2013 период поддержки продлен до 11 апреля 2023 г. Описание жизненного цикла LPE см. в разделе [Жизненный цикл продуктов Майкрософт](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO). Skype для бизнеса Online не поддерживает модели LPE CAP.
+> Lync Phone Edition поддерживается в Skype для бизнеса Online, но не поддерживается в Microsoft Teams. Основная поддержка платформы LPE заканчивается 10 апреля 2014 г., расширенная поддержка заканчивается 11 апреля 2023 г. в соответствии со сроком поддержки Lync Server 2013. Для получения дополнительной информации о жизненном цикле LPE см. [Жизненный цикл для продуктов Майкрософт](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO). Модели LPE CAP не поддерживаются Skype для бизнеса Online.
 >
 > Позже в этом году Office 365 перестанет поддерживать все версии TLS, предшествующие версии 1.2. Поскольку базовая операционная система LPE не поддерживает TLS 1.2, LPE больше не будет поддерживаться для подключения к Office 365. Для получения дополнительной информации см. [Подготовка к обязательному использованию TLS 1.2 в Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365).
   
@@ -115,7 +116,7 @@ Skype для бизнеса Online не требует наличия допол
 ## <a name="what-else-should-you-know"></a>Дополнительные сведения
 Пошаговые инструкции см. в разделе [Развертывание телефонов для приложения Skype для бизнеса Online](deploying-skype-for-business-online-phones.md).
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>См. также:
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

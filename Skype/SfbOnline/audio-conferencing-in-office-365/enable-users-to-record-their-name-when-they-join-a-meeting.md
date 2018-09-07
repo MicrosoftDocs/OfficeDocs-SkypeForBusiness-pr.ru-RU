@@ -1,5 +1,5 @@
 ---
-title: Разрешить пользователям записать их имя при их присоединиться к собранию Скайп для бизнеса в Интернет
+title: Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -18,26 +19,26 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Узнайте, как включить или отключить ли пользователям можно записать их имена, когда они присоединиться к собранию Скайп для бизнеса в Интернет.
-ms.openlocfilehash: b920f0cfea6aa607f5bc3ea7c8a53b5668ba02da
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: Узнайте, как включить или отключить возможность записи пользователем собственного имени при присоединении к собранию в Skype для бизнеса Online.
+ms.openlocfilehash: 6022d7ebf0e653bc43373cb00faabc207f91562a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490728"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850044"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Разрешить пользователям записать их имя при их присоединиться к собранию Скайп для бизнеса в Интернет
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Skype для бизнеса Online
 
 > [!Note]
-> Если требуется разрешить пользователям возможность регистрировать их имена в группах, ознакомьтесь со [дают пользователям возможность регистрировать их имя при их присоединиться к собранию в группах Майкрософт](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
+> Если требуется предоставить пользователям возможность записывать свое имя в Microsoft Teams, ознакомьтесь со статьей [Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Microsoft Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
 
 [] При настройке конференц-связи с телефонным подключением в Skype для бизнеса online вы получите телефонные номера и ресурс, который называется мостом для конференц-связи с телефонным подключением или для аудиоконференций. Мост для конференц-связи может содержать один или несколько телефонных номеров, которые могут быть как выделенными, так и общими.
   
 Мост конференц-связи обеспечивает ответ на вызов пользователя, который присоединяется к собранию с телефона. Мост конференц-связи отвечает вызывающей стороне голосовыми подсказками с помощью автосекретаря, а затем, в зависимости от настроек, может воспроизвести уведомления, попросить вызывающую сторону записать свое имя и настроить ПИН-код безопасности для организаторов собрания. ПИН-коды предоставляются организаторам собраний. Организаторы могут начать собрание, введя ПИН-код. Однако собрание можно настроить таким образом, чтобы ПИН-код не требовался.
 
-## <a name="set-whether-callers-should-record-their-name"></a>Выбор необходимости записи имени вызывающей стороны
+## <a name="set-whether-callers-should-record-their-name"></a>Установка необходимости записи имени вызывающей стороны
     
-1. В окне **Центр администрирования Skype для бизнеса** на панели навигации слева выберите **Конференц-связь с телефонным подключением** > **Параметры моста Microsoft**.
+1. В окне **Центр администрирования Skype для бизнеса** на панели навигации слева выберите **Аудиоконференции** > **Параметры моста Microsoft**.
     
 2. В разделе **Присоединение к собранию** включите параметр **Включить уведомления о входе и выходе из собрания**.
     
@@ -71,6 +72,6 @@ ms.locfileid: "22490728"
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Связанные темы
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная версии аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
