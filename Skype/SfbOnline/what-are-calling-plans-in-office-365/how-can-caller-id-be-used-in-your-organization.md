@@ -1,5 +1,5 @@
 ---
-title: Использование идентификатора вызывающего абонента в вашей организации
+title: Использование идентификатора вызывающего абонента в организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Идентификатором вызывающего абонента можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, которая называется CallingLineIdentity.
-ms.openlocfilehash: 04ee6f0bc074318f30d0257e7466d2d2ec7262aa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 410712a8fd0a6f28b0bc2821daae8143b38ceb63
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23778998"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854228"
 ---
-# <a name="how-can-caller-id-be-used-in-your-organization"></a>Использование идентификатора вызывающего абонента в вашей организации
+# <a name="how-can-caller-id-be-used-in-your-organization"></a>Использование идентификатора вызывающего абонента в организации
 
 Идентификатором вызывающего абонента можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, которая называется CallingLineIdentity.
   
@@ -62,16 +63,16 @@ ms.locfileid: "23778998"
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Контроль пользователем идентификатора вызывающего абонента
 
-Атрибут EnableUserOverride позволяет одному или нескольким пользователям изменять их настройку идентификатора вызывающего абонента на **Анонимный**. Эта функция применяется только при настройке политики CallingLineIdentity с параметром CallingIDSubstitute LineURI или заменой. Значение по умолчанию объекта EnableUserOverride равно False.
+Атрибут EnableUserOverride позволяет одному или нескольким пользователям изменять их настройку идентификатора вызывающего абонента на **Анонимный**. Эта функция применяется только при настройке политики CallingLineIdentity с параметром CallingIDSubstitute LineURI или заменой. Значение EnableUserOverride по умолчанию — False.
   
 Ваши пользователи могут установить их идентификатор вызывающего абонента как **Анонимный** с помощью вкладки **Call Forward Settings** в клиенте Skype для бизнеса для настольных приложений.
   
 ||||
 |:-----|:-----|:-----|
 |**Windows** <br/> |**Версия** <br/> |**Поддерживается** <br/> |
-|Click-to-Run  <br/> |Текущая платформа канала выпущена 6 декабря 2016 года - версия 1611 (сборка 7571.2072)  <br/> |Да  <br/> |
-|Click-to-Run  <br/> |Первый выпуск для отложенного канала был выпущен 22 февраля 2017 года - версия 1701 (сборка 7766.2060)  <br/> |Да  <br/> |
-|Click-to-Run  <br/> |Отложенный канал выпущен 13 июня 2017 г. - версия 1701 (сборка 7766.2092)  <br/> |Да  <br/> |
+|Технология "нажми и работай"  <br/> |Текущая платформа канала выпущена 6 декабря 2016 года - версия 1611 (сборка 7571.2072)  <br/> |Да  <br/> |
+|Технология "нажми и работай"  <br/> |Первый выпуск для отложенного канала был выпущен 22 февраля 2017 года - версия 1701 (сборка 7766.2060)  <br/> |Да  <br/> |
+|Технология "нажми и работай"  <br/> |Отложенный канал выпущен 13 июня 2017 г. - версия 1701 (сборка 7766.2092)  <br/> |Да  <br/> |
 |MSI  <br/> |Skype для бизнеса  <br/> |Нет  <br/> |
 |Mac  <br/> |Skype для бизнеса  <br/> |Нет  <br/> |
    
@@ -81,7 +82,7 @@ ms.locfileid: "23778998"
   
 Чтобы задать идентификатор вызывающего абонента, см. [Назначение идентификатора абонента пользователю](set-the-caller-id-for-a-user.md).
   
-## <a name="related-topics"></a>Связанные темы
+## <a name="related-topics"></a>Статьи по теме
 [Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [Типы номеров телефонов, используемые в планах звонков](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

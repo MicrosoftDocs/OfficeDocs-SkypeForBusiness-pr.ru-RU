@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,13 +20,13 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Сведения о лицензиях надстроек и функциях, и о том, как приобрести планы Office 365 корпоративный. '
-ms.openlocfilehash: 3138b8888468ffdfc3e91f381edc3e18fa18e465
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+description: 'Сведения о лицензиях и функциях надстроек, а также о том, как приобрести планы Office 365 корпоративный. '
+ms.openlocfilehash: 039f4cbb5ebe85450a752f11f2878350fea67c9c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780652"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851678"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 корпоративный E5
 
@@ -36,4 +37,4 @@ ms.locfileid: "23780652"
 |**Добавляемая функция** <br/> |**Что необходимо приобрести** <br/> |
 |**Функция аудиоконференции входит в состав пакета.** <br/> |После приобретения лицензии корпорация Майкрософт станет вашим поставщиком аудиоконференций.  <br/> |
 |**Бесплатные номера для удаленного доступа к собраниям через телефонную сеть и возможность совершать исходящие звонки с собрания с телефонным подключением других пользователей из любой точки мира.** <br/> |[Кредиты на связь](/microsoftteams/set-up-communications-credits-for-your-organization)|
-|**Функция голосовой почты телефонной системы входит в состав пакета!** <br/> |Тарифные планы: купите [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365) на Office 365. <br/>  Или воспользуйтесь [телефонной службой вашего поставщика](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |
+|**Функция голосовой почты телефонной системы входит в состав пакета.** <br/> |Тарифные планы: приобретите [Тарифный план](/MicrosoftTeams/calling-plans-for-office-365) на Office 365. <br/>  Также можно воспользоваться [телефонной службой вашего поставщика](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |
