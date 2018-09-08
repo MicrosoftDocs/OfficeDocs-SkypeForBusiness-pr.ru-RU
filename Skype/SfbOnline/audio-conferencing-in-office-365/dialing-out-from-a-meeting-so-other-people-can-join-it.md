@@ -1,5 +1,5 @@
 ---
-title: Исходящие звонки из Skype для бизнеса, позволяющие другим людям присоединиться к собранию
+title: Чтобы другие пользователи могут присоединиться к ней выходному из Скайп для собраний
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,49 +15,49 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Узнайте, что вам нужно, и как организаторы собраний могут позвонить другим людям, с помощью Skype для бизнеса.
-ms.openlocfilehash: 630802b034200b3ab029446f6300b1d8ddcccbb0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 2fe59b977384e9c76dfde4a9fd609510dc69a5d4
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851452"
+ms.locfileid: "23887317"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Исходящие звонки из Skype для бизнеса, позволяющие другим людям присоединиться к собранию
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Чтобы другие пользователи могут присоединиться к ней выходному из Скайп для собраний
 
 > [!NOTE]
 > Информацию об исходящих звонках из собрания команды см. в статье [Исходящие звонки из собрания команды, позволяющие другим людям присоединиться к собранию](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
-Организатор собрания может выполнить исходящий вызов с помощью приложения Skype для бизнеса, чтобы другие пользователи могли присоединиться к собранию с помощью своих телефонов. При совершении исходящего звонка рекомендуется набирать номер полностью, включая код страны/региона, однако это необязательно. Настройка исходящих вызовов
+Организатор собрания можно абонентской группы с помощью Скайп для бизнес-приложения для других пользователей присоединиться к одной собрание, с помощью телефона. При совершении исходящего звонка рекомендуется набирать номер полностью, включая код страны/региона, однако это необязательно. Настройка исходящих вызовов
   
-- Вы можете совершать исходящие вызовы, только если присоединились к собранию с помощью приложения Skype для бизнеса.
+- Вы можете подключение по телефонной линии только в том случае, если вам присоединиться к собранию с помощью Скайп для бизнес-приложения.
     
-- Для вас, как для организатора собрания, включена аудиоконференция.
+- Вы организатор собрания был разрешен доступ к конференции.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
- **Шаг 1.** В пригласительном собрании для исходящего звонка на номер телефона воспользуйтесь параметром **Пригласить еще пользователей**.
+ **Шаг 1:** На собрании пригласить, используйте параметр **Пригласить более людей** для исходящих звонков на номер телефона.
   
-![Позвоните с помощью Skype для бизнеса.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
+![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
- **Шаг 2.** Введите в окно номер телефона полностью, включая код страны/региона.
+ **Шаг 2:** Введите полный телефонного номера, включая код страны или региона в поле.
   
-![Наберите номер телефона с помощью Skype для бизнеса.](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>Поддерживаемые страны и регионы
 
-Подключение к телефонной линии доступно только в некоторых странах или регионах. Полный список стран см. в статье [Страны и регионы, для которых доступны аудиоконференции и тарифные планы](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Dial-out is only available to some countries/regions. Полный список в разделе [доступность страны и региона для конференц-связи аудио и вызов планов](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше об аудиоконференции?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше о аудиоконференций?
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Лицензирование надстроек Skype для бизнеса](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Скайп для лицензирования дополнительный компонент Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>См. также:
 

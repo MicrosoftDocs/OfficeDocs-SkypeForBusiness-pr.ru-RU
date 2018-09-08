@@ -14,17 +14,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Администраторы управляют тем, как организаторы могут использовать бесплатные номера для их собраний.
-ms.openlocfilehash: 6b441d8c136375628243d77280b6a32768b0a590
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: b438ee16135485a79458869858c52dd35bafa560
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860724"
+ms.locfileid: "23885174"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Отключение бесплатных номеров для определенных пользователей Skype для бизнеса Online
 
@@ -49,13 +49,13 @@ ms.locfileid: "23860724"
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для определенных пользователей 
 
 
-1. В **центре администрирования Skype для бизнеса** на панели навигации слева перейдите в раздел **Аудиоконференции** > **Пользователи**, затем выберите пользователя в списке доступных пользователей. 
+1. В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **пользователей**, а затем выберите пользователя из списка доступных пользователей. 
 
-2. На панели действий нажмите **Правка**. 
+2. In the Action pane, click **Edit**. 
 
 3. Снимите флажок **Разрешить использование бесплатных номеров для присоединения к собраниям этого пользователя**. 
  
-4. Нажмите **Сохранить**. 
+4. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**. 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

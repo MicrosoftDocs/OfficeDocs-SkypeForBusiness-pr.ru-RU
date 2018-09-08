@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: Планирование вашей топологии распределения каналов SIP для развертывания E9-1-1, использующего поставщиками распределения каналов SIP, в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 8a0264bc66be97a80b9ef1d14a020f438a8a89f5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7640cbd78dadaac999327becce360bf5ea865ef5
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974667"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885540"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Проектирование канала SIP для E9-1-1 в Скайп для Business Server
  

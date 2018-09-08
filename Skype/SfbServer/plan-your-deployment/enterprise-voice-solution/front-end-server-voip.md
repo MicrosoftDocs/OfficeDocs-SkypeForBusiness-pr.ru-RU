@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Сведения о компонентах Enterprise Voice, расположенные на серверах переднего плана в Скайп для Business Server, включая службы перевода и различные компоненты маршрутизации.
-ms.openlocfilehash: 66907df9daf8be35466140d2064048a11b181ba5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5b99ea77d31f1697b0809c4089c801b2df729a29
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256246"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888899"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Переднего плана Server VoIP компоненты для Скайп для Business Server
 

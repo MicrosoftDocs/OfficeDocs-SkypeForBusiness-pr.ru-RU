@@ -1,5 +1,5 @@
 ---
-title: Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Skype для бизнеса Online
+title: Разрешить пользователям записать их имя при их присоединиться к собранию Скайп для бизнеса в Интернет
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,19 +15,19 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Узнайте, как включить или отключить возможность записи пользователем собственного имени при присоединении к собранию в Skype для бизнеса Online.
-ms.openlocfilehash: 6022d7ebf0e653bc43373cb00faabc207f91562a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: Узнайте, как включить или отключить ли пользователям можно записать их имена, когда они присоединиться к собранию Скайп для бизнеса в Интернет.
+ms.openlocfilehash: 0e330d5efdd7325a8db48aa679d6ecbb9264c345
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850044"
+ms.locfileid: "23884724"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Skype для бизнеса Online
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Разрешить пользователям записать их имя при их присоединиться к собранию Скайп для бизнеса в Интернет
 
 > [!Note]
 > Если требуется предоставить пользователям возможность записывать свое имя в Microsoft Teams, ознакомьтесь со статьей [Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Microsoft Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
@@ -36,9 +36,9 @@ ms.locfileid: "23850044"
   
 Мост конференц-связи обеспечивает ответ на вызов пользователя, который присоединяется к собранию с телефона. Мост конференц-связи отвечает вызывающей стороне голосовыми подсказками с помощью автосекретаря, а затем, в зависимости от настроек, может воспроизвести уведомления, попросить вызывающую сторону записать свое имя и настроить ПИН-код безопасности для организаторов собрания. ПИН-коды предоставляются организаторам собраний. Организаторы могут начать собрание, введя ПИН-код. Однако собрание можно настроить таким образом, чтобы ПИН-код не требовался.
 
-## <a name="set-whether-callers-should-record-their-name"></a>Установка необходимости записи имени вызывающей стороны
+## <a name="set-whether-callers-should-record-their-name"></a>Выбор необходимости записи имени вызывающей стороны
     
-1. В окне **Центр администрирования Skype для бизнеса** на панели навигации слева выберите **Аудиоконференции** > **Параметры моста Microsoft**.
+1. В окне **Центр администрирования Skype для бизнеса** на панели навигации слева выберите **Конференц-связь с телефонным подключением** > **Параметры моста Microsoft**.
     
 2. В разделе **Присоединение к собранию** включите параметр **Включить уведомления о входе и выходе из собрания**.
     
@@ -72,6 +72,6 @@ ms.locfileid: "23850044"
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Связанные темы
+## <a name="related-topics"></a>See also
 
-[Пробная и платная версии аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

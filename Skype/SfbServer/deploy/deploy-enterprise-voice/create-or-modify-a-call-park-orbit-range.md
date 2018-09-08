@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Создание или изменение таблицы диапазон орбиты парковки вызовов в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: d64d3a0630ee45dcaace00a9a9b97f5d2cee7cd0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 8c9ff275e384148fb6e40f96bd26e7273809f25a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241600"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883882"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Создание или изменение диапазона орбит парковки вызовов в Скайп для бизнеса
 

@@ -15,18 +15,18 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Узнайте, какие страны и регионы имеют телефонные номера для конференц-связи и как они автоматически назначаются.
-ms.openlocfilehash: ff1234e1447b4c74033971208b2a09275126f145
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 79e02a1216917b830629b707ffaff784d37edc1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851101"
+ms.locfileid: "23891740"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Номера телефонов для аудиоконференции в группах Майкрософт
 

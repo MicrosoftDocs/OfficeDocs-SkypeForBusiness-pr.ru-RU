@@ -7,17 +7,17 @@ ms.date: 08/29/2018
 ms.topic: article
 ms.service: msteams
 description: Сведения о решениях, которые необходимо установить при планировании для Office 365 групп, таких как Выбор открытых и закрытых групп, с помощью команды клиента или веб-консоль администрирования Office 365 и инструкции для ваших команд об использовании бесед.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 735044773ba6b0e63d5a2b544345b3bff25b6dc5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 82ebbab5be855e71eeaa6e6b5efb95e214a8f57e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854111"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892668"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Планирование использования групп Office 365 при создании команд в Microsoft Teams
 ==========================================================

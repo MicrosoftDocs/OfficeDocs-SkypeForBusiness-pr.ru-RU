@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 'Сведения о Skype для бизнеса Cloud Connector Edition, который представляет собой набор упакованных виртуальных машин, реализующий локальную связь через ТСОП с помощью телефонной системы Office 365 (облачная УАТС). '
-ms.openlocfilehash: 2c0bd37ef2956402fa656aef1e7b8bef561c3fee
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.openlocfilehash: 58b84f083f77dde134dc0b2d7bab7fe60dcac5ea
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2018
-ms.locfileid: "23797332"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883621"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Планирование Skype для бизнеса Cloud Connector Edition
 

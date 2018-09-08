@@ -7,16 +7,16 @@ ms.date: 07/13/2018
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: skypeforbusiness-server-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Централизованный поиск обновлений Skype для бизнеса Server 2015 и Lync 2013, а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 6260d4b648f09dddef2b52f8df8996ffe115a7fc
-ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.openlocfilehash: 80be47503b8338a1c53ece04028d92d47597e696
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23485744"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886039"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 

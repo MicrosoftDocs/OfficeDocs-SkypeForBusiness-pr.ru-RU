@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 'Сводка: Узнайте, как Настройка идентификатора звонящего с помощью Скайп для панели управления Business Server.'
-ms.openlocfilehash: 98f2f63584da6a52f4e43b2601073b552518d5b0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 69c8ba7307b0e641812b9638059ae3ddb92c5ab9
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255373"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885766"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Создание или изменение правила преобразования для идентификатора звонящего в Скайп для Business Server
 
