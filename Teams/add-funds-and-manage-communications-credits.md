@@ -16,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether
@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Узнайте, как оплачиваться для обмена данными кредитов (потребление PSTN) Скайп для бизнес-служб и посмотрите, планы для хранения пользователей с доступом к непрерывной телефонной системы. '
-ms.openlocfilehash: 281ac6033c5c748161d15a6a588353b2baeed433
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 205f2faaa89342ede80ecc1dae8195e437f47d69
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850911"
+ms.locfileid: "23882750"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Добавление средств и управление кредитами на связь
 

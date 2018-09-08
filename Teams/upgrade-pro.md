@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Используйте данное руководство, если вы находитесь в большой организации или связан с активным настройки вашей Скайп по развертыванию.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 093cc007200976bdbd32b8d064263ed1e9e33d94
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ff25edcfc24df1040aa7d23606e62d4beccb08dd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23871000"
+ms.locfileid: "23891508"
 ---
 # <a name="upgrade-pro"></a>Обновление специалистов
 

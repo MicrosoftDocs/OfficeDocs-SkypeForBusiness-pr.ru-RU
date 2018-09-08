@@ -7,17 +7,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
 description: Руководство по управлению переход к группам из Скайп для бизнеса
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11ba2e2d6d59ecd53dd1824f50c53022e15f2b69
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1028f599b3b5cacf23fa920b85c42cf8a5bd4673
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854185"
+ms.locfileid: "23884237"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Руководство по миграции и взаимодействия для организаций, с помощью команды Скайп для бизнеса
 

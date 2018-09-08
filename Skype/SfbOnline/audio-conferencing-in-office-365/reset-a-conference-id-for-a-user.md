@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, действия, чтобы сбросить пользователя собрания идентификатор конференции в Скайп для бизнеса в Интернет и получения ссылки на средства обновления и миграции для собраний. '
-ms.openlocfilehash: ac37d682d45b22eff61392ee05d7c369d67c3b67
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: d569dfb015db5cea79c57233ba455adfd90a3182
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490538"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887548"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Сброс идентификатор конференции для пользователя в Скайп для бизнеса в Интернет
 
@@ -58,7 +59,7 @@ ms.locfileid: "22490538"
     
 - Идентификатор конференции для пользователя для аудиоконференций можно просматривать в нижней части области действий в разделе **Audio конференц-связи** , при выборе пользователем на странице " **Пользователи** ".
     
-- After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Пользователи могут использовать Скайп для бизнеса собрания средство для обновления их существующих собраний. Чтобы узнать, как для загрузки, установки и запуска Скайп для бизнеса средство обновления собрания, см.
+- После создания нового идентификатора конференции старый идентификатор не может использоваться для выполнения вызовов. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Пользователи могут использовать Скайп для бизнеса собрания средство для обновления их существующих собраний. Чтобы узнать, как для загрузки, установки и запуска Скайп для бизнеса средство обновления собрания, см.
     
   - [Средство обновления для собраний Skype для бизнеса и Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     

@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, какие языки можно установить по умолчанию для системных сообщений в Skype для бизнеса. '
-ms.openlocfilehash: a5bb115e84e37ddd1e98fd2c504ce86ec4f24b67
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: d9ce631673eda8577417bbe0be4a3a3eb60e3524
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850811"
+ms.locfileid: "23887494"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Языки, используемые для приветствий в голосовой почтые и сообщений
 

@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
 description: Понять, как управлять всей клиента и пользовательские параметры для группы во время перехода от групп работы в центре администрирования Office 365 для новых групп Майкрософт & Скайп по центру администрирования бизнеса.
-localization_priority: Priority
+localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: b81853b33f457dd8a69890774b4b7ff8902d8226
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1e334e4978ea645527273a79f49ed097038fcb36
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864829"
+ms.locfileid: "23885438"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>Управление группами во время перехода на новые группами Майкрософт и Скайп по центру администрирования бизнеса
 ======================================================

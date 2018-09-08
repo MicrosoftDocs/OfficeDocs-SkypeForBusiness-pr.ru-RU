@@ -1,5 +1,5 @@
 ---
-title: Просмотр списка пользователей, активированных для аудиоконференций в Skype для бизнеса
+title: Просмотреть список пользователей, которые включены в Скайп для аудиоконференции для бизнеса в Интернет
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,19 +15,19 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как просмотреть список пользователей в вашей организации, которые активированы для телефонных конференций, из центра администрирования Skype для бизнеса. '
-ms.openlocfilehash: 5cb792a3706c93c764f119075fca657b2179a383
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 722f9e411e1781529ea68f6995a2109f58d39cb0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849856"
+ms.locfileid: "23881998"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Просмотр списка пользователей, активированных для аудиоконференций в Skype для бизнеса
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Просмотреть список пользователей, которые включены в Скайп для аудиоконференции для бизнеса в Интернет
 
 > [!NOTE]
 > Для получения сведений об активированных пользователях в Microsoft Teams см. [Просмотр списка пользователей, активированных для аудиоконференций в Microsoft Teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
@@ -40,7 +40,7 @@ ms.locfileid: "23849856"
 ## <a name="viewing-a-list-of-users"></a>Просмотр списка пользователей
 
    
-- В панели навигации слева выберите **Аудиоконференции** > **Пользователи**.
+- В панели навигации слева перейдите к секции **Аудиоконференции** > **Пользователи**.
 
 ## <a name="what-else-should-i-know"></a>Дополнительные сведения
 
@@ -74,7 +74,7 @@ ms.locfileid: "23849856"
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- С помощью Windows PowerShell можно управлять пользователями, а также разрешениями и запретами на определенные действия пользователей. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -88,6 +88,6 @@ ms.locfileid: "23849856"
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Связанные с этим темы
+## <a name="related-topics"></a>See also
 
-[Пробная и платная версии аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

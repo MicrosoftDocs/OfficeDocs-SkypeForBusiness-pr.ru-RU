@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 description: В дополнение к Стандартная лицензия пользователя аудиоконференции Лицензирование и многопользовательская организаций можно также предложение минуту для включения возможности конференц-связи аудио для своей организации.
-ms.openlocfilehash: 251116ee5f362710c07a7a53ce4a11f53f3cd09c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e4d2679de8ca6239e8a63dcac6a17fac6bc19fab
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855765"
+ms.locfileid: "23887723"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Поминутная оплата аудиоконференций
 

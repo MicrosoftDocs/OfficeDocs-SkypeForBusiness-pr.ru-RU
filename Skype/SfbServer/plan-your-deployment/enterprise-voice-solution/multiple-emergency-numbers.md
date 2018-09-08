@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: В данном разделе приведены в этой статье описывается планирование нескольких аварийного номера в Скайп для Business Server.
-ms.openlocfilehash: 48b71f5f4810378ec05ae769de4ec57b9a840a79
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6a27539641544682f6cb0905d8434f632fa868f2
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979785"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23891523"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Планирование для нескольких аварийного номера в Скайп Business Server
  

@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Сведения о создании абонентских групп звонков (абонентские группы звонков по ТСОП) в Office 365 и о управлении ими. '
-ms.openlocfilehash: 5b0de676fce07712c22bd4e3c31f824f734ff007
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 8f096a62104a8128243ea657c61f436ab5f25def
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853682"
+ms.locfileid: "23881967"
 ---
 # <a name="create-and-manage-dial-plans"></a>Создание абонентских групп и управление ими
 
@@ -66,7 +66,7 @@ ms.locfileid: "23853682"
     Import-PSSession $session
   ```
 
-Если вы желаете получить дополнительные сведения по запуску Windows PowerShell, см. статью [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [Подключение к Skype для бизнеса Online с использованием Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [подключение к Скайп для бизнеса в Интернет с помощью Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 ## <a name="creating-and-managing-your-dial-plans"></a>Создание ваших абонентских групп и управление ими
 
@@ -74,7 +74,7 @@ ms.locfileid: "23853682"
   
 ### <a name="using-single-cmdlets"></a>С помощью одиночного командлета
 
-- Чтобы создать новую абонентскую группу, запустите следующую команду:
+- Чтобы создать новую абонентскую группу, выполните следующую команду:
     
   ```
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
@@ -202,9 +202,9 @@ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows Powershell?
 
-- Windows PowerShell используется для управления пользователями и их правами. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

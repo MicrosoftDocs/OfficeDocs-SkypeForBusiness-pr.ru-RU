@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Получите действия по созданию номер телефона по умолчанию для абонентов, чтобы присоединиться к собранию Microsfot группами. '
-ms.openlocfilehash: 54778aac19d090b4c609da1c5a63da3ba146ae44
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: eddab0762b679dba08dd9981d6ae61a1403ebf47
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857449"
+ms.locfileid: "23882962"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Установка телефона, номера, находящимся на приглашает в группами Майкрософт
 
@@ -49,7 +49,7 @@ ms.locfileid: "23857449"
 
     ![Нажмите кнопку Изменить в Microsoft групп и Скайп по центру администрирования Business](media/teamsedituser.png)
 
-3. Рядом с пунктом **Звук конференц-связи**нажмите кнопку **Изменить**. 
+3. Рядом с пунктом **Аудиоконференции** нажмите **Изменить**. 
     
     ![Нажмите кнопку Изменить рядом с пунктом аудиоконференции](media/teamseditaudioconf.png)
 

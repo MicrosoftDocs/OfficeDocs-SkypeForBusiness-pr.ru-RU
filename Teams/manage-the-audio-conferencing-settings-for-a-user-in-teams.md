@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Как администратор Office 365 можно изменить параметры конференц-связи Microsoft группами звука — например поставщика, счета по умолчанию или бесплатный номер, идентификатор конференции или ПИН-код — для отдельного пользователя в организации. '
-ms.openlocfilehash: 3f6adffcccfeee38b2a8af2d56759aabee25f16c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c101b84044e98ce44c374847aeab59f23d1a41be
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857625"
+ms.locfileid: "23882954"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Управление параметрами звука конференц-связи для пользователя в группах Майкрософт
 

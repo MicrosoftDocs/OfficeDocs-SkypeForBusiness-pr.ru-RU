@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Планирование обновления, сначала прикрепление заинтересованные стороны, а затем области проекта.
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c138282ed7b65cd7efcdb31cb363110702233346
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 07c592f8f3ef6e1021805766189e9c1cd522e8ab
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867077"
+ms.locfileid: "23883231"
 ---
 ![Убедитесь, что проект настроен для успешной работы с группы правой проекта. Определение области проекта, цели и временной шкалы. Подтверждение проверки готовности к техническим и пользователя. Выполнение плана развертывания. Ведение momentum для обеспечения максимальной результаты.] (media/upgrade-banner-main.png "Приступить к обновлению реализация")
 

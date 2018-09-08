@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Соединенном Королевстве.
-ms.openlocfilehash: 14ff98aff0a5b83bc27a4575959964ad77b6e00a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 8d88dc52b90aa2f1326b844be2eed70816e3af7f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864097"
+ms.locfileid: "23884369"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Управление номерами телефонов в Соединенном Королевстве
 

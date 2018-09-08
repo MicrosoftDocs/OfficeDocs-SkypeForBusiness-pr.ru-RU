@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Сводка: Узнайте, как удалить коллекцию параметров конфигурации магистрали с помощью Скайп для панели управления Business Server.'
-ms.openlocfilehash: 94f6e24c645a85bf2ed9ba5ded2f8eb4f207209f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 27e022588798e848cf690bb643d921e46d827b39
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968833"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890539"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Удаление существующей коллекции параметров конфигурации магистрали SIP в Скайп для Business Server
  

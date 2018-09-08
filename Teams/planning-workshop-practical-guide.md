@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, rowille
 description: Средства планирования, семинары и стартовые комплекты, которые помогут организациям начать работу с Microsoft Teams.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1d4ddfba74e33f86ae8a8af113c95579997632d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 00a6da2c87baeba21a46c5b848f9750740db4018
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23852037"
+ms.locfileid: "23883989"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Инструменты и семинары. Планирование, развертывание и внедрение Microsoft Teams
 

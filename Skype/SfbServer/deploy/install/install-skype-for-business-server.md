@@ -7,19 +7,19 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 'Сводка: Узнайте, как установить Скайп компонентов системы Business Server на каждом сервере в топологии. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 41fbe8db0d279d9cace577e1977c093fd794693b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c6122bea5af5be0e08f2510a6fae4b9c0e406df4
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994707"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887268"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Установка Skype для бизнеса Server на серверах в топологии
  

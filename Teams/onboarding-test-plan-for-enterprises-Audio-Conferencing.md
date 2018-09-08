@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Убедитесь, что вашей организации ожиданиям посредством тестирования аудио конференц-связи в группы функций, функциональные возможности и удобство использования.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e60a434e352c0165ef71075307617c009555ff34
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2df81aec5f5fe7ba1d1c5e097074cde6dd0eeb56
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862787"
+ms.locfileid: "23882390"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Определите и задокументируйте аудиоконференции конференции в план тестирования группами для предприятий 
 ===============================================================================

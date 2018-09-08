@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Планирование взаимодействия с, обучения, и как пилотного, встроенного и обновления для групп пользователей
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff2df8eb2934cc535d53a30473e4b6c9b40e3730
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: befff52148094a0009fc640fc636cd5078f4fe22
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866941"
+ms.locfileid: "23890222"
 ---
 ![Этапы обновления пути с акцентом на стадии подготовки пользователей] (media/upgrade-banner-user-readiness.png "Этапы обновления пути с акцентом на стадии подготовки пользователей")
 
