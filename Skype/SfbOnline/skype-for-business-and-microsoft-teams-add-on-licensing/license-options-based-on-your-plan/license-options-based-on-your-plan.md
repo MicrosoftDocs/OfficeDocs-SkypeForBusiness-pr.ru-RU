@@ -1,5 +1,5 @@
 ---
-title: Параметры лицензии на основе плана
+title: Параметры лицензии вашего Тарифного плана
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -14,16 +15,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom: None
 description: Ознакомьтесь с телефонной системой голосовой почты.
-ms.openlocfilehash: 120299cbb635fc8bed3734307763a65f344aa66b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 961b45de4049b7ab323f4e2cd8a6441711078113
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881875"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="b2c06-103">Параметры лицензии на основе плана</span><span class="sxs-lookup"><span data-stu-id="b2c06-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="c782e-103">Параметры лицензии вашего Тарифного плана</span><span class="sxs-lookup"><span data-stu-id="c782e-103">License options based on your plan</span></span>
 
 
