@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Пользователи могут с помощью телефонной системой в Office 365 (облако УАТС) необходимо включить их для корпоративной голосовой связи и назначить их номер телефона. Это можно сделать с помощью локального развертывания, пока пользователь по-прежнему размещенный в локальном развертывании.
-ms.openlocfilehash: 1099aa825d76017df3afe64cf6d7b3c39391a883
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 8d00120b0b0fd74baed1ceb003a46cfc2468d502
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883378"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Включение пользователей для корпоративной голосовой связи локально
  
