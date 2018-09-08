@@ -1,28 +1,28 @@
 ---
 title: Пример сценария PowerShell — приводятся сведения, с помощью команды Microsoft Deployment очистки
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
 description: Используйте этот сценарий PowerShell для очистки группами Майкрософт на конечных компьютерах или для отдельных пользователей.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e159c06a27151523e52db5bf7e0aa2eab33620a9
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: 9b95ca42e1f110b72d092ada65b2d672627fac4f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21249194"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887284"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="a818e-103">Пример сценария PowerShell — Очистка развертывания групп Майкрософт</span><span class="sxs-lookup"><span data-stu-id="a818e-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="1ab64-103">Пример сценария PowerShell — Очистка развертывания групп Майкрософт</span><span class="sxs-lookup"><span data-stu-id="1ab64-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="a818e-104">Этот сценарий PowerShell можно выполнять для очистки группами Майкрософт целевые компьютеры или пользователей.</span><span class="sxs-lookup"><span data-stu-id="a818e-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="a818e-105">Должны быть выполнены для каждого пользователя на целевой компьютер.</span><span class="sxs-lookup"><span data-stu-id="a818e-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="1ab64-104">Этот сценарий PowerShell можно выполнять для очистки группами Майкрософт целевые компьютеры или пользователей.</span><span class="sxs-lookup"><span data-stu-id="1ab64-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="1ab64-105">Должны быть выполнены для каждого пользователя на целевой компьютер.</span><span class="sxs-lookup"><span data-stu-id="1ab64-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="a818e-106">Пример сценария</span><span class="sxs-lookup"><span data-stu-id="a818e-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="1ab64-106">Пример сценария</span><span class="sxs-lookup"><span data-stu-id="1ab64-106">Sample script</span></span>
 
 ````powershell
 <#
