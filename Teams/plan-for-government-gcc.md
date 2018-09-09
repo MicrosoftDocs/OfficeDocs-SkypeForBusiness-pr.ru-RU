@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
 description: Руководство для ИТ-специалистов для развертывания диска Office 365, в сущности, которые обрабатывают данные может быть государственные нормативы США.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 708dda8e38d879d11589696cd901213a68b03cd8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 430b6c6de5468442f7a290b07b28eb59d276e00c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23869383"
+ms.locfileid: "23885774"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Планирование для государственных учреждений 365 Microsoft - GCC развертываниях
 

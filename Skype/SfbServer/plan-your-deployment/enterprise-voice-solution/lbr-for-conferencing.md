@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Планирование для расположения маршрутизация на основе конференц-связи в Скайп Business Server корпоративной голосовой связи, включая консультативное вызов передает.
-ms.openlocfilehash: 38f43ff2cac0f201861c0ee890034ada886e42b2
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 97ceaeb4f7e6e24cdffe3f1fd8c737de2e429e17
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248861"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23888362"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Маршрутизация конференц-связи в Скайп для Business Server на основе расположения
 

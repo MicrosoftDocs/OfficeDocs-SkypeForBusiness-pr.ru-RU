@@ -7,18 +7,18 @@ ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Сведения о развертывании нескольких сайтов ТСОП в Cloud Connector Edition.
-ms.openlocfilehash: c0e41408b43574fdfd3e8dc6b1d2c8ffc434d8c5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569528"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23889715"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Развертывание нескольких сайтов в Cloud Connector
  
@@ -76,7 +76,7 @@ ExternalMRPublicIPs=104.42.226.134
 
 В следующей таблице приводятся различия между конфигурацией с одним сайтом с поддержкой высокой доступности и развертыванием с несколькими сайтами.
   
-|**Категория**|**Элемент**|**Одним сайтом с высокой ДОСТУПНОСТИ**|**Нескольких сайтах**|
+|**Категория**|**Элемент**|**Один сайт с высокой доступностью**|**Несколько сайтов**|
 |:-----|:-----|:-----|:-----|
 |Установка  <br/> |Общая папка  <br/> |Требует **же** общую папку для устройств <br/> |Требуются **разные** общие папки для каждого устройства <br/> |
 |Настройка  <br/> |VirtualMachineDomain  <br/> |Требуется **один** домен для всех устройств <br/> |Требуется **один** домен для разных сайтов ТСОП <br/> |

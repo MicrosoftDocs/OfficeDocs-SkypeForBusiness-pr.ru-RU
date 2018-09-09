@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Загрузите страница Playbook Включение сайта Планирование групп развертывания и ускорить и оптимизации круга пользователей, качество и удовлетворенность с точки зрения.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd3b1482430a24c20d4a5969c44f4c27a8115731
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: fb83eb7b0bae7b19d5ac6fdeeb7d0466b08927bd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860297"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23887300"
 ---
 # <a name="deploy-my-service"></a>Развернуть службу
 

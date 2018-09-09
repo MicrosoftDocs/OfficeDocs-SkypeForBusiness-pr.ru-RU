@@ -7,19 +7,19 @@ ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Сводка: Сведения о новом Скайп для бизнеса, а также можно предпринять для подготовки к обновлению среды и пользователей независимо от Скайп используется для бизнеса в Интернет, Скайп для Business Server 2015, Скайп для 2015 Business Server, Lync Server 2013 или Lync Server 2010.'
-ms.openlocfilehash: 61f0aad551230c8639a2ea17b612b1aa09bb54df
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 6c34ea8d47556015c4e357c1f6f9f052fba8cb47
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391750"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885256"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Планирование Скайп для бизнеса 2015 взаимодействия с пользователем для пользователей
  
