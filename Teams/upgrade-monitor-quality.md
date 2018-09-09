@@ -8,45 +8,45 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Задачи и действия, необходимые для отслеживания качества и использования групп Microsoft
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42d48f9a6bd841ce2756e783e712ee01ed108c55
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f74757654fffc46276907e54c41223fe7d533f2e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862621"
+ms.locfileid: "23886072"
 ---
-<span data-ttu-id="a13af-103">![Этапы обновления пути с акцентом на стадии высокий уровень работоспособности] (media/upgrade-banner-op-excellence.png "Этапы обновления пути с акцентом на стадии высокий уровень работоспособности")</span><span class="sxs-lookup"><span data-stu-id="a13af-103">![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")</span></span>
+<span data-ttu-id="07dca-103">![Этапы обновления пути с акцентом на стадии высокий уровень работоспособности] (media/upgrade-banner-op-excellence.png "Этапы обновления пути с акцентом на стадии высокий уровень работоспособности")</span><span class="sxs-lookup"><span data-stu-id="07dca-103">![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")</span></span>
 
-<span data-ttu-id="a13af-104">В этой статье является частью высокий уровень этапа поездке обновления, который начинается сразу после выполнения обновления Скайп для бизнеса в группы.</span><span class="sxs-lookup"><span data-stu-id="a13af-104">This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.</span></span>
+<span data-ttu-id="07dca-104">В этой статье является частью высокий уровень этапа поездке обновления, который начинается сразу после выполнения обновления Скайп для бизнеса в группы.</span><span class="sxs-lookup"><span data-stu-id="07dca-104">This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.</span></span>
 
-# <a name="quality-of-experience-review-guide"></a><span data-ttu-id="a13af-105">Качество взаимодействия руководство по решению</span><span class="sxs-lookup"><span data-stu-id="a13af-105">Quality of Experience Review Guide</span></span>
+# <a name="quality-of-experience-review-guide"></a><span data-ttu-id="07dca-105">Качество взаимодействия руководство по решению</span><span class="sxs-lookup"><span data-stu-id="07dca-105">Quality of Experience Review Guide</span></span>
 
-<span data-ttu-id="a13af-106">[Качество из взаимодействия руководство по решению](https://aka.ms/qerguide) включают набор действий, которые оценки и даются рекомендации по исправлению в ключевых областях, которые имеют наибольшее влияние на улучшение взаимодействия с пользователем, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="a13af-106">The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.</span></span>
+<span data-ttu-id="07dca-106">[Качество из взаимодействия руководство по решению](https://aka.ms/qerguide) включают набор действий, которые оценки и даются рекомендации по исправлению в ключевых областях, которые имеют наибольшее влияние на улучшение взаимодействия с пользователем, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="07dca-106">The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.</span></span>
 
-<span data-ttu-id="a13af-107">![Ключевые области для проверки во время проверки качества Quality of: аудио-, надежности и результатах опроса пользователя.] (media/plan-my-service-management-image2.png "Ключевые области для проверки во время проверки качества Quality of: аудио-, надежности и результатах опроса пользователя.")</span><span class="sxs-lookup"><span data-stu-id="a13af-107">![The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.")</span></span>
+<span data-ttu-id="07dca-107">![Ключевые области для проверки во время проверки качества Quality of: аудио-, надежности и результатах опроса пользователя.] (media/plan-my-service-management-image2.png "Ключевые области для проверки во время проверки качества Quality of: аудио-, надежности и результатах опроса пользователя.")</span><span class="sxs-lookup"><span data-stu-id="07dca-107">![The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.")</span></span>
 
-<span data-ttu-id="a13af-108">Постоянно вызов и устранению области, описанные в руководстве по, позволит сократить их потенциально может отрицательно сказаться на взаимодействие с пользователем.</span><span class="sxs-lookup"><span data-stu-id="a13af-108">By continually assessing and remediating the areas described in the guide, you can reduce their potential to negatively affect user experience.</span></span> <span data-ttu-id="a13af-109">Большинство встречающихся в развертывании проблем с взаимодействием с пользователем можно разделить на следующие категории:</span><span class="sxs-lookup"><span data-stu-id="a13af-109">Most user-experience problems encountered in a deployment can be grouped into the following categories:</span></span>
+<span data-ttu-id="07dca-108">Постоянно вызов и устранению области, описанные в руководстве по, позволит сократить их потенциально может отрицательно сказаться на взаимодействие с пользователем.</span><span class="sxs-lookup"><span data-stu-id="07dca-108">By continually assessing and remediating the areas described in the guide, you can reduce their potential to negatively affect user experience.</span></span> <span data-ttu-id="07dca-109">Большинство встречающихся в развертывании проблем с взаимодействием с пользователем можно разделить на следующие категории:</span><span class="sxs-lookup"><span data-stu-id="07dca-109">Most user-experience problems encountered in a deployment can be grouped into the following categories:</span></span>
 
--   <span data-ttu-id="a13af-110">Неполная настройка брандмауэра или прокси-сервера</span><span class="sxs-lookup"><span data-stu-id="a13af-110">Incomplete firewall or proxy configuration</span></span>
+-   <span data-ttu-id="07dca-110">Неполная настройка брандмауэра или прокси-сервера</span><span class="sxs-lookup"><span data-stu-id="07dca-110">Incomplete firewall or proxy configuration</span></span>
 
--   <span data-ttu-id="a13af-111">Слабый охват сети Wi-Fi</span><span class="sxs-lookup"><span data-stu-id="a13af-111">Poor Wi-Fi coverage</span></span>
+-   <span data-ttu-id="07dca-111">Слабый охват сети Wi-Fi</span><span class="sxs-lookup"><span data-stu-id="07dca-111">Poor Wi-Fi coverage</span></span>
 
--   <span data-ttu-id="a13af-112">Недостаточная пропускная способность</span><span class="sxs-lookup"><span data-stu-id="a13af-112">Insufficient bandwidth</span></span>
+-   <span data-ttu-id="07dca-112">Недостаточная пропускная способность</span><span class="sxs-lookup"><span data-stu-id="07dca-112">Insufficient bandwidth</span></span>
 
--   <span data-ttu-id="a13af-113">VPN</span><span class="sxs-lookup"><span data-stu-id="a13af-113">VPN</span></span>
+-   <span data-ttu-id="07dca-113">VPN</span><span class="sxs-lookup"><span data-stu-id="07dca-113">VPN</span></span>
 
--   <span data-ttu-id="a13af-114">Использование неоптимальных или встроенных звуковых устройств</span><span class="sxs-lookup"><span data-stu-id="a13af-114">Use of unoptimized or built-in audio devices</span></span>
+-   <span data-ttu-id="07dca-114">Использование неоптимальных или встроенных звуковых устройств</span><span class="sxs-lookup"><span data-stu-id="07dca-114">Use of unoptimized or built-in audio devices</span></span>
 
--   <span data-ttu-id="a13af-115">Проблемы с подсетями или сетевыми устройствами</span><span class="sxs-lookup"><span data-stu-id="a13af-115">Problematic subnets or network devices</span></span>
+-   <span data-ttu-id="07dca-115">Проблемы с подсетями или сетевыми устройствами</span><span class="sxs-lookup"><span data-stu-id="07dca-115">Problematic subnets or network devices</span></span>
 
-<span data-ttu-id="a13af-116">В центре внимания использование Online вызова панели мониторинга качества (CQD) в качестве основного средства для регистрации и исследовать каждой области, описанного с фокусом на аудио для обеспечения максимальной воздействия и внедрения рекомендациями, изложенными в Quality of качества руководство по решению.</span><span class="sxs-lookup"><span data-stu-id="a13af-116">The guidance provided in the Quality of Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact.</span></span> <span data-ttu-id="a13af-117">Любые оптимизации для сети, направленные на улучшение звукового взаимодействия, также вносят вклад в улучшение видеосвязи и совместного доступа к рабочему столу.</span><span class="sxs-lookup"><span data-stu-id="a13af-117">Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.</span></span>
+<span data-ttu-id="07dca-116">В центре внимания использование Online вызова панели мониторинга качества (CQD) в качестве основного средства для регистрации и исследовать каждой области, описанного с фокусом на аудио для обеспечения максимальной воздействия и внедрения рекомендациями, изложенными в Quality of качества руководство по решению.</span><span class="sxs-lookup"><span data-stu-id="07dca-116">The guidance provided in the Quality of Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact.</span></span> <span data-ttu-id="07dca-117">Любые оптимизации для сети, направленные на улучшение звукового взаимодействия, также вносят вклад в улучшение видеосвязи и совместного доступа к рабочему столу.</span><span class="sxs-lookup"><span data-stu-id="07dca-117">Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.</span></span>
 
-<span data-ttu-id="a13af-118">Мы настоятельно рекомендуем на раннем этапе используют известный качества.</span><span class="sxs-lookup"><span data-stu-id="a13af-118">We highly recommend that you nominate the quality champion early on.</span></span> <span data-ttu-id="a13af-119">После назначить им следует запустить ознакомиться с содержимым в [Quality of качества руководство по решению](https://aka.ms/qerguide).</span><span class="sxs-lookup"><span data-stu-id="a13af-119">After being nominated, they should start to familiarize themselves with the content in the [Quality of Experience Review Guide](https://aka.ms/qerguide).</span></span>
+<span data-ttu-id="07dca-118">Мы настоятельно рекомендуем на раннем этапе используют известный качества.</span><span class="sxs-lookup"><span data-stu-id="07dca-118">We highly recommend that you nominate the quality champion early on.</span></span> <span data-ttu-id="07dca-119">После назначить им следует запустить ознакомиться с содержимым в [Quality of качества руководство по решению](https://aka.ms/qerguide).</span><span class="sxs-lookup"><span data-stu-id="07dca-119">After being nominated, they should start to familiarize themselves with the content in the [Quality of Experience Review Guide](https://aka.ms/qerguide).</span></span>
 
 <!--ENDOFSECTION-->

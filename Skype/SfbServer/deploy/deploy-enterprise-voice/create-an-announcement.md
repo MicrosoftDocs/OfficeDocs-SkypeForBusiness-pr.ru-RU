@@ -6,68 +6,68 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Создание и удаление объявлений для объявлений приложения в Скайп Business Server корпоративной голосовой связи. От этих действий зависит способ обработки вызовов на неназначенные номера.
-ms.openlocfilehash: 831cb389a97ea45130875b76005aab2059cf08ab
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 63d64bb09c24609ebb05c6de879bd1fe0e92d093
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23260141"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887397"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a><span data-ttu-id="0c5f8-104">Создание и удаление оповещения в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="0c5f8-104">Create or delete an announcement in Skype for Business Server</span></span>
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a><span data-ttu-id="238cb-104">Создание и удаление оповещения в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="238cb-104">Create or delete an announcement in Skype for Business Server</span></span>
 
-<span data-ttu-id="0c5f8-105">Создание и удаление объявлений для объявлений приложения в Скайп Business Server корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-105">Create or delete announcements for Announcement application in Skype for Business Server Enterprise Voice.</span></span> <span data-ttu-id="0c5f8-106">От этих действий зависит способ обработки вызовов на неназначенные номера.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-106">This affects how calls to unassigned numbers are handled.</span></span>
+<span data-ttu-id="238cb-105">Создание и удаление объявлений для объявлений приложения в Скайп Business Server корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="238cb-105">Create or delete announcements for Announcement application in Skype for Business Server Enterprise Voice.</span></span> <span data-ttu-id="238cb-106">От этих действий зависит способ обработки вызовов на неназначенные номера.</span><span class="sxs-lookup"><span data-stu-id="238cb-106">This affects how calls to unassigned numbers are handled.</span></span>
 
-<span data-ttu-id="0c5f8-p103">При настройке объявлений в действительности вы настраиваете то, как будут обрабатываться звонки на неназначенные номера. Можно воспроизводить подсказку — аудиофайл или TTS-файл синтезированной речи, или можно просто перевести вызов на указанный пункт назначения без подсказки.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-p103">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled. You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
+<span data-ttu-id="238cb-p103">При настройке объявлений в действительности вы настраиваете то, как будут обрабатываться звонки на неназначенные номера. Можно воспроизводить подсказку — аудиофайл или TTS-файл синтезированной речи, или можно просто перевести вызов на указанный пункт назначения без подсказки.</span><span class="sxs-lookup"><span data-stu-id="238cb-p103">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled. You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
 
-<span data-ttu-id="0c5f8-p104">Для создания объявлений сначала нужно определить таблицу неназначенных номеров. Данную процедуру необходимо выполнить для всех объявлений, использующих звуковую подсказку, подсказку TTS, или объявлений, не использующих подсказку.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-p104">You need to create announcements before you define the unassigned number table. You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
+<span data-ttu-id="238cb-p104">Для создания объявлений сначала нужно определить таблицу неназначенных номеров. Данную процедуру необходимо выполнить для всех объявлений, использующих звуковую подсказку, подсказку TTS, или объявлений, не использующих подсказку.</span><span class="sxs-lookup"><span data-stu-id="238cb-p104">You need to create announcements before you define the unassigned number table. You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
 
-<span data-ttu-id="0c5f8-111">В этом разделе описывается импорт и создание оповещений.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-111">This topic describes how to import and create announcements.</span></span> <span data-ttu-id="0c5f8-112">Для получения дополнительных сведений о назначении объявлений в таблице неназначенных номеров видеть [настройки таблицы неназначенных номер](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).</span><span class="sxs-lookup"><span data-stu-id="0c5f8-112">For details about assigning announcements in the unassigned number table, see [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).</span></span>
+<span data-ttu-id="238cb-111">В этом разделе описывается импорт и создание оповещений.</span><span class="sxs-lookup"><span data-stu-id="238cb-111">This topic describes how to import and create announcements.</span></span> <span data-ttu-id="238cb-112">Для получения дополнительных сведений о назначении объявлений в таблице неназначенных номеров видеть [настройки таблицы неназначенных номер](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).</span><span class="sxs-lookup"><span data-stu-id="238cb-112">For details about assigning announcements in the unassigned number table, see [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).</span></span>
 
-## <a name="create-a-new-announcement-for-unassigned-numbers"></a><span data-ttu-id="0c5f8-113">Создание нового объявления для неназначенных номеров</span><span class="sxs-lookup"><span data-stu-id="0c5f8-113">Create a new announcement for unassigned numbers</span></span>
+## <a name="create-a-new-announcement-for-unassigned-numbers"></a><span data-ttu-id="238cb-113">Создание нового объявления для неназначенных номеров</span><span class="sxs-lookup"><span data-stu-id="238cb-113">Create a new announcement for unassigned numbers</span></span>
 
-<span data-ttu-id="0c5f8-114">Чтобы создать новое оповещение, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-114">To create a new announcement, you need to perform the following steps:</span></span>
+<span data-ttu-id="238cb-114">Чтобы создать новое оповещение, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="238cb-114">To create a new announcement, you need to perform the following steps:</span></span>
 
-1. <span data-ttu-id="0c5f8-115">Если планируется использовать звуковое приглашение, запишите звуковой файл с помощью любого приложения для звукозаписи.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-115">For audio prompts, record the audio file by using your favorite audio recording application.</span></span>
+1. <span data-ttu-id="238cb-115">Если планируется использовать звуковое приглашение, запишите звуковой файл с помощью любого приложения для звукозаписи.</span><span class="sxs-lookup"><span data-stu-id="238cb-115">For audio prompts, record the audio file by using your favorite audio recording application.</span></span>
 
-2. <span data-ttu-id="0c5f8-116">Для звуковых приглашений выполните командлет **Import-CsAnnouncementFile** , чтобы импортировать содержимое звукового файла в хранилище файлов.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-116">For audio prompts, run the **Import-CsAnnouncementFile** cmdlet to import the contents of the audio file to File Store.</span></span>
+2. <span data-ttu-id="238cb-116">Для звуковых приглашений выполните командлет **Import-CsAnnouncementFile** , чтобы импортировать содержимое звукового файла в хранилище файлов.</span><span class="sxs-lookup"><span data-stu-id="238cb-116">For audio prompts, run the **Import-CsAnnouncementFile** cmdlet to import the contents of the audio file to File Store.</span></span>
 
-3. <span data-ttu-id="0c5f8-117">Выполните командлет **New-CsAnnouncement** , чтобы создать оповещение.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-117">Run the **New-CsAnnouncement** cmdlet to create and name the announcement.</span></span> <span data-ttu-id="0c5f8-118">С его помощью можно создавать оповещения со звуковыми приглашениями, текстовыми приглашениями, преобразованными в речь, а также оповещения без приглашений.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-118">Perform this step to create announcements with an audio prompt, a text-to-speech (TTS) prompt, or no prompt.</span></span>
+3. <span data-ttu-id="238cb-117">Выполните командлет **New-CsAnnouncement** , чтобы создать оповещение.</span><span class="sxs-lookup"><span data-stu-id="238cb-117">Run the **New-CsAnnouncement** cmdlet to create and name the announcement.</span></span> <span data-ttu-id="238cb-118">С его помощью можно создавать оповещения со звуковыми приглашениями, текстовыми приглашениями, преобразованными в речь, а также оповещения без приглашений.</span><span class="sxs-lookup"><span data-stu-id="238cb-118">Perform this step to create announcements with an audio prompt, a text-to-speech (TTS) prompt, or no prompt.</span></span>
 
     > [!TIP]
-    > <span data-ttu-id="0c5f8-119">Вы можете создать оповещение без приглашения, например, если требуется переводить звонки в определенное назначение без воспроизведения сообщения.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-119">You might want to create an announcement with no prompt (for example, if you want to transfer calls to a specific destination without playing a message).</span></span>
+    > <span data-ttu-id="238cb-119">Вы можете создать оповещение без приглашения, например, если требуется переводить звонки в определенное назначение без воспроизведения сообщения.</span><span class="sxs-lookup"><span data-stu-id="238cb-119">You might want to create an announcement with no prompt (for example, if you want to transfer calls to a specific destination without playing a message).</span></span>
 
-4. <span data-ttu-id="0c5f8-120">Назначьте новое оповещение диапазону номеров в таблице неназначенных номеров.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-120">Assign the new announcement to a number range in the unassigned number table.</span></span>
+4. <span data-ttu-id="238cb-120">Назначьте новое оповещение диапазону номеров в таблице неназначенных номеров.</span><span class="sxs-lookup"><span data-stu-id="238cb-120">Assign the new announcement to a number range in the unassigned number table.</span></span>
 
-### <a name="to-create-a-new-announcement"></a><span data-ttu-id="0c5f8-121">Создание нового оповещения</span><span class="sxs-lookup"><span data-stu-id="0c5f8-121">To create a new announcement</span></span>
+### <a name="to-create-a-new-announcement"></a><span data-ttu-id="238cb-121">Создание нового оповещения</span><span class="sxs-lookup"><span data-stu-id="238cb-121">To create a new announcement</span></span>
 
-1. <span data-ttu-id="0c5f8-122">Если планируется использовать звуковые приглашения, создайте звуковой файл.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-122">For audio prompts, create the audio file.</span></span>
+1. <span data-ttu-id="238cb-122">Если планируется использовать звуковые приглашения, создайте звуковой файл.</span><span class="sxs-lookup"><span data-stu-id="238cb-122">For audio prompts, create the audio file.</span></span>
 
-2. <span data-ttu-id="0c5f8-123">Войдите на компьютер, где установлена Скайп для консоли Business Server как член группы RTCUniversalServerAdmins или с необходимые права пользователя как описано в **Делегирование разрешений на установку**.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-123">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
+2. <span data-ttu-id="238cb-123">Войдите на компьютер, где установлена Скайп для консоли Business Server как член группы RTCUniversalServerAdmins или с необходимые права пользователя как описано в **Делегирование разрешений на установку**.</span><span class="sxs-lookup"><span data-stu-id="238cb-123">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
 
-3. <span data-ttu-id="0c5f8-124">Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-124">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+3. <span data-ttu-id="238cb-124">Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="238cb-124">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
 
-4. <span data-ttu-id="0c5f8-125">Для звуковых приглашений выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="0c5f8-125">For audio prompts, run:</span></span>
+4. <span data-ttu-id="238cb-125">Для звуковых приглашений выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="238cb-125">For audio prompts, run:</span></span>
 
    ```
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. <span data-ttu-id="0c5f8-126">Выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="0c5f8-126">Run:</span></span>
+5. <span data-ttu-id="238cb-126">Выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="238cb-126">Run:</span></span>
 
    ```
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
    ```
 
-    <span data-ttu-id="0c5f8-p107">Для перевода звонков на голосовую почту введите SIP-адрес в формате sip:имя_пользователя@имя_домена;opaque=app:voicemail (пример: sip:bob@contoso.com;opaque=app:voicemail). Для перевода звонков на номер телефона введите SIP-адрес в формате sip:номер@имя_домена;user=phone (пример: sip:+ 14255550121@contoso.com;user=phone).</span><span class="sxs-lookup"><span data-stu-id="0c5f8-p107">For transferring calls to voice mail, type SIPAddress in the format sip:username@domainname;opaque=app:voicemail (for example, sip:bob@contoso.com;opaque=app:voicemail). For transferring calls to a phone number, type SIPAddress in the format sip:number@domainname;user=phone (for example, sip:+ 14255550121@contoso.com;user=phone).</span></span>
+    <span data-ttu-id="238cb-p107">Для перевода звонков на голосовую почту введите SIP-адрес в формате sip:имя_пользователя@имя_домена;opaque=app:voicemail (пример: sip:bob@contoso.com;opaque=app:voicemail). Для перевода звонков на номер телефона введите SIP-адрес в формате sip:номер@имя_домена;user=phone (пример: sip:+ 14255550121@contoso.com;user=phone).</span><span class="sxs-lookup"><span data-stu-id="238cb-p107">For transferring calls to voice mail, type SIPAddress in the format sip:username@domainname;opaque=app:voicemail (for example, sip:bob@contoso.com;opaque=app:voicemail). For transferring calls to a phone number, type SIPAddress in the format sip:number@domainname;user=phone (for example, sip:+ 14255550121@contoso.com;user=phone).</span></span>
 
-    <span data-ttu-id="0c5f8-129">Например, чтобы указать звуковое приглашение, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="0c5f8-129">For example, to specify an audio prompt:</span></span>
+    <span data-ttu-id="238cb-129">Например, чтобы указать звуковое приглашение, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="238cb-129">For example, to specify an audio prompt:</span></span>
 
    ```
    $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
@@ -75,52 +75,52 @@ ms.locfileid: "23260141"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
    ```
 
-    <span data-ttu-id="0c5f8-130">Например, чтобы указать текстовое приглашение, преобразованное в речь, введите:</span><span class="sxs-lookup"><span data-stu-id="0c5f8-130">For example, to specify a TTS prompt:</span></span>
+    <span data-ttu-id="238cb-130">Например, чтобы указать текстовое приглашение, преобразованное в речь, введите:</span><span class="sxs-lookup"><span data-stu-id="238cb-130">For example, to specify a TTS prompt:</span></span>
 
    ```
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-  <span data-ttu-id="0c5f8-131">Дополнительные сведения об этих командлетах, а для просмотра списка кодов языков для использования в параметре **TextToSpeechPrompt** в разделе [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="0c5f8-131">For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).</span></span>
+  <span data-ttu-id="238cb-131">Дополнительные сведения об этих командлетах, а для просмотра списка кодов языков для использования в параметре **TextToSpeechPrompt** в разделе [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="238cb-131">For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).</span></span>
 
-## <a name="delete-an-announcement-for-unassigned-numbers"></a><span data-ttu-id="0c5f8-132">Удаление объявления для неназначенных номеров</span><span class="sxs-lookup"><span data-stu-id="0c5f8-132">Delete an announcement for unassigned numbers</span></span>
+## <a name="delete-an-announcement-for-unassigned-numbers"></a><span data-ttu-id="238cb-132">Удаление объявления для неназначенных номеров</span><span class="sxs-lookup"><span data-stu-id="238cb-132">Delete an announcement for unassigned numbers</span></span>
 
-### <a name="to-delete-an-announcement"></a><span data-ttu-id="0c5f8-133">Порядок удаления оповещения</span><span class="sxs-lookup"><span data-stu-id="0c5f8-133">To delete an announcement</span></span>
+### <a name="to-delete-an-announcement"></a><span data-ttu-id="238cb-133">Порядок удаления оповещения</span><span class="sxs-lookup"><span data-stu-id="238cb-133">To delete an announcement</span></span>
 
-1. <span data-ttu-id="0c5f8-134">Войдите на компьютер, где установлена Скайп для консоли Business Server как член группы RTCUniversalServerAdmins или с необходимые права пользователя как описано в **Делегирование разрешений на установку**.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-134">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
+1. <span data-ttu-id="238cb-134">Войдите на компьютер, где установлена Скайп для консоли Business Server как член группы RTCUniversalServerAdmins или с необходимые права пользователя как описано в **Делегирование разрешений на установку**.</span><span class="sxs-lookup"><span data-stu-id="238cb-134">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
 
-2. <span data-ttu-id="0c5f8-135">Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="0c5f8-135">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="238cb-135">Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="238cb-135">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
 
-3. <span data-ttu-id="0c5f8-p108">Получите список всех оповещений, используемых в организации. Выполните в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="0c5f8-p108">List all the announcements in your organization. At the command line, run:</span></span>
+3. <span data-ttu-id="238cb-p108">Получите список всех оповещений, используемых в организации. Выполните в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="238cb-p108">List all the announcements in your organization. At the command line, run:</span></span>
 
    ```
    Get-CsAnnouncement
    ```
 
-4. <span data-ttu-id="0c5f8-p109">В полученном списке найдите оповещение, которое требуется удалить, и скопируйте его идентификатор GUID. Затем выполните в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="0c5f8-p109">In the resulting list, locate the announcement you want to delete, and copy the GUID. Then, at the command line, run:</span></span>
+4. <span data-ttu-id="238cb-p109">В полученном списке найдите оповещение, которое требуется удалить, и скопируйте его идентификатор GUID. Затем выполните в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="238cb-p109">In the resulting list, locate the announcement you want to delete, and copy the GUID. Then, at the command line, run:</span></span>
 
    ```
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
-    <span data-ttu-id="0c5f8-140">Например:</span><span class="sxs-lookup"><span data-stu-id="0c5f8-140">For example:</span></span>
+    <span data-ttu-id="238cb-140">Например:</span><span class="sxs-lookup"><span data-stu-id="238cb-140">For example:</span></span>
 
    ```
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
    ```
 
     > [!NOTE]
-    > <span data-ttu-id="0c5f8-141">Для получения дополнительных сведений о Дополнительные параметры просмотра [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) и [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="0c5f8-141">For details about more options, see [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) and [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).</span></span>
+    > <span data-ttu-id="238cb-141">Для получения дополнительных сведений о Дополнительные параметры просмотра [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) и [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="238cb-141">For details about more options, see [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) and [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="0c5f8-142">См. также</span><span class="sxs-lookup"><span data-stu-id="0c5f8-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="238cb-142">См. также</span><span class="sxs-lookup"><span data-stu-id="238cb-142">See also</span></span>
 
-[<span data-ttu-id="0c5f8-143">Создание и удаление оповещения в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="0c5f8-143">Create or delete an announcement in Skype for Business Server</span></span>](create-an-announcement.md)
+[<span data-ttu-id="238cb-143">Создание и удаление оповещения в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="238cb-143">Create or delete an announcement in Skype for Business Server</span></span>](create-an-announcement.md)
 
-[<span data-ttu-id="0c5f8-144">Import-CsAnnouncementFile</span><span class="sxs-lookup"><span data-stu-id="0c5f8-144">Import-CsAnnouncementFile</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
+[<span data-ttu-id="238cb-144">Import-CsAnnouncementFile</span><span class="sxs-lookup"><span data-stu-id="238cb-144">Import-CsAnnouncementFile</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[<span data-ttu-id="0c5f8-145">Новый CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="0c5f8-145">New-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[<span data-ttu-id="238cb-145">Новый CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="238cb-145">New-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 
-[<span data-ttu-id="0c5f8-146">Remove-CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="0c5f8-146">Remove-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
+[<span data-ttu-id="238cb-146">Remove-CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="238cb-146">Remove-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
-[<span data-ttu-id="0c5f8-147">Get-CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="0c5f8-147">Get-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
+[<span data-ttu-id="238cb-147">Get-CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="238cb-147">Get-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
 
