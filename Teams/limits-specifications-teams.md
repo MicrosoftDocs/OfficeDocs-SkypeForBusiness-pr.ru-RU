@@ -3,7 +3,7 @@ title: Ограничения и характеристики для групп 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/17/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -13,12 +13,12 @@ MS.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34aec991af50ef3b06d43d705e97f6e9bba70714
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8712a40e61fbef9971637a2abdddb0fe401fca02
+ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889819"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935794"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и характеристики для групп Майкрософт
 =============================================
@@ -30,11 +30,13 @@ ms.locfileid: "23889819"
 
 |Функция    | Максимальное ограничение |
 |-----------|---------------|
-|Число групп, которые может создать пользователь | 250         |
+|Число групп, которые может создать пользователь | Может быть ограничение 250 объект & sup1;         |
 |Число участников в группы | 2500       |
 |Число групп, которое может создать глобальный администратор        | Без ограничений   |
 |Число групп, которые могут возникнуть клиента Office 365    | 500 000     |
 |Число каналов на каждое группы    | 200         |
+
+& sup1; Любой объект каталогов в Azure Active Directory подсчитывает достигло предельного это ограничение.
 
 <a name="meetings-and-calls"></a>Собрания и вызовы 
 ------------------

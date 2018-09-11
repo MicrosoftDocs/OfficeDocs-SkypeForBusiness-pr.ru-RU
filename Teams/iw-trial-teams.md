@@ -3,7 +3,7 @@ title: Управление предложение коммерческие об
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/31/2018
+ms.date: 09/11/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -12,12 +12,12 @@ search.appverid: MET150
 localization_priority: Normal
 description: Пользователям Office 365, у которых нет лицензии для групп Майкрософт можно инициировать пробную версию 1 год рабочих групп.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 10977a95d5ff86d72964270a2c6daa7d9764448e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7fba776f109b8785b72000af4981d64015f3054c
+ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858823"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935818"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Управление предложение коммерческие облачных пробная версия Microsoft групп
 =======================================================
@@ -40,6 +40,8 @@ ms.locfileid: "23858823"
 - SharePoint Online — базовые подписки
 - Sway
 - Сеть Yammer Enterprise
+
+Предложение может быть назначен для не более 500 000 пользователей каждого клиента. Пробная лицензия выделяемый 2 ГБ SharePoint Online для каждого пользователя с пробной версии.
 
 ## <a name="who-is-eligible"></a>Кто имеет право
 
