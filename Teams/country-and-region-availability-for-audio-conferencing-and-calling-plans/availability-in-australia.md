@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Австралии.
-ms.openlocfilehash: 97a2e1b565a47f45787bc0d732f0ee622dc3ec7d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a374f83d87dc34167c8d108d08fc74755a8c1c79
+ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868199"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935485"
 ---
 # <a name="availability-in-australia"></a>Доступность в Австралии
 
@@ -54,7 +54,7 @@ ms.locfileid: "23868199"
 
 ## <a name="calling-plans"></a>Планы звонков
 > [!IMPORTANT]
-> В настоящее время доступен только для просмотра и раннее внедрение в Австралии. Для получения дополнительных сведений см. [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan).
+> Доступно только через Telstra для клиентов на основе Австралии. Для получения дополнительных сведений см. [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
