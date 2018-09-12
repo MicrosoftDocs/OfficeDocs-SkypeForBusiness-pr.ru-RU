@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab8bb4be2d98c33ad01827f3eb6a3c940bfb6228
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 251cc2d12dfdab2e9bc4c9bcc928e80a9c43e2c2
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868223"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23938002"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Развертывание групп Майкрософт для предоставления сервера-концентратора
 ======================================
@@ -185,8 +185,6 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 
 Используйте следующие для настройки политики по умолчанию звонков и собраний приложения с помощью Intune.
 
-.
-
 |Параметр   |Значение    |Описание    |
 |----------|---------|---------|
 |Путь      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
@@ -201,3 +199,5 @@ Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
 
 Перезагрузите устройство поверхность сервера-концентратора. После перезагрузки устройства, должна появиться возможность запуска приложения группы на начальном экране и присоединиться к собранию из календаря.
 
+> [!NOTE]
+> Если ваше устройство или устройствах вашей организации не в настоящее время частью программы изнутри Windows и находятся в странах, затрагиваемых с нормы защиты общие данные (GDPR) (или вручную были изменены параметры телеметрии для базовой), необходимо повторно проверить что были разрешены полный телеметрии перед присоединением изнутри программы. GDPR изменить поведение по умолчанию сервер-концентратор поверхность устройств в ЕС Установка телеметрии для базовой.

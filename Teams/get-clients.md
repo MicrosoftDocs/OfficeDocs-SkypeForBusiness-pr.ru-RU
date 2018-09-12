@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbadb9324942cdb354570673a0fd923c9e04bdbd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 134d6d310762bc43d578085fd3f1031112307ee9
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891331"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937885"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 ===========================
@@ -48,11 +48,15 @@ ms.locfileid: "23891331"
 > [!NOTE]
 > Архитектура (32-разрядная и 64-разрядная версия) группами Майкрософт не зависит от архитектуры Windows и Office, которая устанавливается.
 
-Клиент Windows развертывается в папке AppData внутри профиля пользователя. Развертывание в локальный профиль пользователя позволяет установить клиент без повышенных прав. Клиент Windows устанавливается в следующие расположения:
+Клиент Windows развертывается в папке AppData внутри профиля пользователя. Развертывание в локальный профиль пользователя позволяет установить клиент без повышенных прав. Клиент Windows использует следующих расположений:
 
-- %appdata%\\local\\Microsoft\\Teams
+- % LocalAppData %\\Microsoft\\групп
 
-- %appdata%\\roaming\\Microsoft\\Teams
+- % LocalAppData %\\Microsoft\\TeamsMeetingsAddin
+
+- % AppData %\\Microsoft\\групп
+
+- % LocalAppData %\\SquirrelTemp
 
 Когда пользователи впервые выполняют звонок через клиент Microsoft Teams, они могут заметить предупреждение с параметрами брандмауэра Windows, предлагающее пользователю разрешить взаимодействие. Следует ли игнорировать это сообщение, так как звонок будет работать, даже при закрытии предупреждение может проинструктировать пользователей.
 

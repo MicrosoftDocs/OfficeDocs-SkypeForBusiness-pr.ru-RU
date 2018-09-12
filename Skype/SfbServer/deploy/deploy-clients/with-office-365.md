@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365.
-ms.openlocfilehash: cccc86fce3eea00449b7737eabb618fa40afa6a6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 9140ea2f1d88b8d56ecfee1b41d7bf5c9b571dbb
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883026"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23938017"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Развертывание Систем комнат Skype версии 2 в среде Office 365 
  
@@ -197,3 +197,4 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
   
 [Управление Системами комнат Skype версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
+[Лицензирование v2 систем Скайп комнаты](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

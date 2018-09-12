@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2655e96ceccbfdc0a915af370820a913471a3a4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f4c3f795df06735c735ac29b6f46c6c8d8e9d46c
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891452"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937868"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams 
 =========================================
@@ -37,8 +37,8 @@ ms.locfileid: "23891452"
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|
 |**Exchange Online Dedicated vNext**|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|
-|**Устаревшая среда Exchange Online Dedicated** (требуется синхронизация с Azure AD)|Да ([разрешены списка](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c))|Нет|Нет|Да|Нет|Нет|Да|Да|Нет|Да (Exchange 2013 +)|Нет|Да|Да|
-|**Локальная организация Microsoft Exchange** (требуется синхронизация с Azure AD)|Да ([разрешены списка](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c))|Нет|Нет|Да|Да (Exchange 2016 CU3 +)|Нет|Да|Да|Нет|Да (Exchange 2013 +)|Нет|Нет|Да|
+|**Устаревшая среда Exchange Online Dedicated** (требуется синхронизация с Azure AD)|Да ([разрешены списка](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Нет|Нет|Да|Нет|Нет|Да|Да|Нет|Нет|Нет|Да|Да|
+|**Локальная организация Microsoft Exchange** (требуется синхронизация с Azure AD)|Да ([разрешены списка](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Нет|Нет|Да|Да (Exchange 2016 CU3 +)|Нет|Да|Да|Нет|Нет|Нет|Нет|Да|
                                                             
 *\*Поддерживается Exchange 2016 с накопительным пакетом обновления 3 или более поздней версии*
 

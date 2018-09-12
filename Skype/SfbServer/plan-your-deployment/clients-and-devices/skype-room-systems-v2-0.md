@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: В этой статье объясняется, соответствующие вопросы планирования развертывания систем комнаты Скайп v2 следующего поколения Скайп комнаты систем.
-ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: f793753b6fad2c544a4ab845b5cd220792a9b8d1
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601950"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937844"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Планирование места Скайп систем версии 2 
 
@@ -50,7 +50,7 @@ ms.locfileid: "22601950"
 
 Как правило пакеты и встроенная единиц измерения включают предустановленное программное обеспечение, а если приобрести поддерживаемые компоненты по отдельности для Surface Pro систем, то необходимо установить программное обеспечение. Дополнительные сведения см [в этой статье об установке программного обеспечения на устройствах](../../deploy/deploy-clients/room-systems-scale.md). 
 
-Вы можете развернуть систем комнаты Скайп версии 2 с Скайп для бизнеса в Интернет или Скайп для развертываний гибридного или локальных бизнес. Поддержка групп Майкрософт в ближайшее время очень.
+Вы можете развернуть систем комнаты Скайп версии 2 с Скайп для бизнеса в Интернет или Скайп для развертываний гибридного или локальных бизнес.  См [систем комнаты Скайп v2](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) сведения о необходимых лицензий.
 
 |    |     |
 |-----------|------------|

@@ -2,12 +2,13 @@
 ## Планирование
 ### [Обзор планирования системы комнаты Скайп версии 2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ### [Поддержка версий](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
-### [Заметки о выпуске](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
+### [Примечания к выпуску](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Подготовка среды](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Требования](../plan-your-deployment/clients-and-devices/requirements.md)
+### [Online лицензирования](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [Планирование управления с OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
-## Развертывание
-### [Общие сведения о развертывании](../deploy/deploy-clients/room-systems-v2.md)
+## Развертывание: 
+### [Обзор развертывания](../deploy/deploy-clients/room-systems-v2.md)
 ### [Настройка учетных записей](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [С помощью Office 365](../deploy/deploy-clients/with-office-365.md)
 ### [С помощью Скайп для Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
@@ -25,15 +26,15 @@
 ### [С помощью средства восстановления](../manage/skype-room-systems-v2/recovery-tool.md)
 # Комнаты Скайп систем (v1)
 ## Планирование
-### [Развертывание системы Скайп помещения в Скайп для Business Server](../deploy/deploy-clients/deploy-skype-room-system.md)
-## Развертывание
-### [Подготовка учетных записей Скайп и Скайп помещений системы Exchange](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
+### [Развертывание системы комнат Skype в Skype для бизнеса Server](../deploy/deploy-clients/deploy-skype-room-system.md)
+## Развертывание: 
+### [Предоставление учетных записей Exchange и Skype для системы комнат Skype](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
 #### [Один лес Скайп комнаты системы локальных развертываний](../deploy/deploy-clients/single-forest-on-premises-deployments.md)
 #### [Система комнаты Скайп нескольких лесов локальных развертываний](../deploy/deploy-clients/multiple-forest-on-premises-deployments.md)
-#### [Подготовка Скайп комнаты системных учетных записей в Office 365](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
+#### [Предоставление учетных записей системы комнат Skype в Office 365](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
 #### [Гибридные развертывания системы Скайп комнаты](../deploy/deploy-clients/hybrid-deployments.md)
-#### [Система комнаты Скайп и Скайп для бизнеса федеративных партнеров](../deploy/deploy-clients/room-system-and-federated-partners.md)
-### [Политика конференц-связи для Скайп помещений системных учетных записей](../deploy/deploy-clients/conferencing-policy.md)
+#### [Федеративные партнеры системы комнат Skype и Skype для бизнеса](../deploy/deploy-clients/room-system-and-federated-partners.md)
+### [Политика конференц-связи для учетных записей системы комнат Skype](../deploy/deploy-clients/conferencing-policy.md)
 ### [Системы комнаты Скайп доверенные домены](../deploy/deploy-clients/trusted-domains.md)
 ### [Сведения о выполнении миграции системы Скайп комнаты](../deploy/deploy-clients/migration-considerations.md)
 ### [Присоединение к вопросы домена Скайп комнаты системы](../deploy/deploy-clients/domain-joining-considerations.md)
@@ -41,4 +42,4 @@
 ### [Система комнаты Скайп управляемости и средства](../deploy/deploy-clients/manageability-and-tools.md)
 ### [Сценарии установки системы комнаты Скайп комнаты](../deploy/deploy-clients/room-setup-scripts.md)
 ## Управление
-### [Управление Скайп комнаты системных учетных записей](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
+### [Управление учетными записями системы комнат Skype](../deploy/deploy-clients/manage-skype-room-system-accounts.md)

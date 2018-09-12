@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: Сведения о настройке одного пограничный контроллер сеансов (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: 3073800a6c200bcaeffafb557d6ea149dee598cd
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 66f529c5a64c56a25a826cac8e26b3e7219cd1de
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866461"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937994"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройте пограничный контроллер сеансов для нескольких клиентов
 
@@ -52,7 +52,7 @@ ms.locfileid: "23866461"
 Подробное описание действий по развернуть и настроить их изготовителей размещения случае SBC обратитесь к документации разработчика SBC.
 
 - **AudioCodes:** [Заметки о конфигурации прямой маршрутизации](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), конфигурации SBC, размещения сценария, описанного в «Подключение SBC AudioCodes группами Майкрософт прямой маршрутизации размещение модели конфигурации уведомление». 
-- **Ленты коммуникаций:** SBC сценариях с удаленным доступом поддерживаемые только серии ядра. Обратитесь к [Ленты Communications SBC ядра Microsoft группами руководство по настройке](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe).
+- **Ленты коммуникаций:**  Обратитесь за помощью для [Ленты Communications SBC ядра Microsoft группами руководство по настройке](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) для получения сведений о настройке ленты основных серии SBC и на этой странице [ленты наиболее рекомендация - Настройка доставки прямой маршрутизации Microsoft групп SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > Пожалуйста, обратите внимание на способы настройки заголовка «Контакт». Заголовок контакт будет использоваться для поиска клиента клиента во входящем сообщении пригласить. 

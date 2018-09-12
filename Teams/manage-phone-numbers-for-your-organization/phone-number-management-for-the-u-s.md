@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в США и Пуэрто-Рико.
-ms.openlocfilehash: 25070ff377489994101b82b9b34c74c82989c546
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bb1599a3127ffb7a07ec6001a5b2b78831ae320f
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883052"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23938010"
 ---
 # <a name="phone-number-management-for-the-us"></a>Управление номерами телефонов в США
 
@@ -42,7 +42,7 @@ ms.locfileid: "23883052"
 |Необходимо заменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptn@microsoft.com) свой ПИН-код и список номеров пользователей, которые нужно преобразовать в номера служб. Процедуру настройки ПИН-кода см. [в этой статье](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 |Необходимо передать номера из одной организации Office 365 в другую.  <br/> |[Отправьте нам](mailto:ptn@microsoft.com) список номеров телефонов пользователей (подписчиков), которые необходимо передать, вместе с ПИН-кодом исходной организации. Процедуру настройки ПИН-кода см. [в этой статье](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
    
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>См. также: 
 
 [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
