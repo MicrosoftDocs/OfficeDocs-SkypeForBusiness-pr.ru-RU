@@ -2,6 +2,7 @@
 title: Управление устройствами Систем комнат Skype версии 2 с помощью OMS
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/19/2017
 ms.audience: ITPro
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: 'В этой статье рассматривается интегрированное и комплексное управление устройствами Систем комнат Skype версии 2 с помощью Microsoft Operations Management Suite. '
-ms.openlocfilehash: b77f7216593d30c843eb49fd8879a83b5b0025c8
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 5c472995c4948ce83587ec130724ddf3bdb5c75f
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504238"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965921"
 ---
 # <a name="manage-skype-room-systems-v2-devices-with-oms"></a>Управление устройствами Систем комнат Skype версии 2 с помощью OMS
  
@@ -43,6 +44,6 @@ ms.locfileid: "19504238"
 ## <a name="see-also"></a>См. также
 <a name="Telemetry"></a>
 
-[Планирование управления системами комнаты Скайп версии 2 с OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
+[Планирование управления системами комнат Skype версии 2 с помощью OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
-[Развертывание управление системами комнаты Скайп версии 2 с OMS](../../deploy/deploy-clients/with-oms.md)
+[Развертывание управления системами комнат Skype версии 2 с помощью OMS](../../deploy/deploy-clients/with-oms.md)

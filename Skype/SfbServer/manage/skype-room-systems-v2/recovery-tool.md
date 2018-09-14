@@ -3,18 +3,19 @@ title: С помощью средства восстановления сист�
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: davgroom
 ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этой статье описывается использование средства восстановления для v2 Скайп комнаты систем, который можно использовать для переноса устаревший системы в поддерживаемых состояний.
-ms.openlocfilehash: cd8e05be686cef1df44f364c515a6116edf06209
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 04bce72f6a8812c35b92f9f92d445cdf8765d110
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504980"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965991"
 ---
 # <a name="use-the-skype-room-systems-v2-recovery-tool"></a>С помощью средства восстановления системы комнаты Скайп версии 2
  
@@ -64,4 +65,4 @@ ms.locfileid: "19504980"
  
 [Справка по версии 2 Скайп комнаты систем](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Управление Скайп комнаты систем версии 2](skype-room-systems-v2.md)
+[Управление Системами комнат Skype версии 2](skype-room-systems-v2.md)

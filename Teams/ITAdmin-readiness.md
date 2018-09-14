@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42ac2b70b0ab0ba014decbef423ee82c6d45ddb2
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 50e9bf67a920b36ade9eabf037bd4a0a551e7ad6
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849847"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965651"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 ==================================
@@ -36,12 +36,12 @@ ms.locfileid: "23849847"
 | [Учебное руководство. Общие сведения о звонках в Microsoft Teams](tutorial-calling-in-teams.yml)  |  Это учебное руководство знакомит читателей с возможностями звонков в Microsoft Teams, которые реализованы на базе Телефонной системы Office 365. Мы опишем техническое планирование, необходимое для внедрения Телефонной системы, ее настройку, а также мониторинг использования и качества звонков.  |
 | [Видеоролики об Аудиоконференциях](audio-conferencing-videos.md) |Видеоролики, знакомящие ИТ-администратора с Аудиоконференциями в Teams.  |
 | [Руководство. Собрания в Teams](tutorial-meetings-in-teams.yml) | Этот учебный курс по представляется собраний в группах. Рассматриваются возможности проведения собраний, а также требования и вопросы планирования. |
-| Развертывание и использование Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| Прямая отправка для групп Майкрософт (Предварительная версия)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
-| Подробный обзор гостевого доступа <br>Семинар Coffee in the Cloud с Laith Al и Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-| Обнаружение электронных данных в Microsoft Teams <br> Семинар Coffee in the Cloud с Ansuman Acharya и Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
-| Teams: пошаговый обзор внедрения, использования и управления <br> Семинар Microsoft Mechanics с Dan Stevenson и Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-| Настройка приложений в Microsoft Teams <br> Семинар Coffee in the Cloud с Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+| Развертывание и использование Teams   | <iframe width="320" height="240" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| Прямая отправка для групп Майкрософт (Предварительная версия)   | <iframe width="320" height="240" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
+| Подробный обзор гостевого доступа <br>Семинар Coffee in the Cloud с Laith Al и Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+| Обнаружение электронных данных в Microsoft Teams <br> Семинар Coffee in the Cloud с Ansuman Acharya и Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
+| Teams: пошаговый обзор внедрения, использования и управления <br> Семинар Microsoft Mechanics с Dan Stevenson и Jeremy Chapman |  <iframe width="320" height="240" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
+| Настройка приложений в Microsoft Teams <br> Семинар Coffee in the Cloud с Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 
 

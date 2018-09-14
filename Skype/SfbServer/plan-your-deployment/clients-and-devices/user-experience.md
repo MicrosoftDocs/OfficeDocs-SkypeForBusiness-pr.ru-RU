@@ -1,7 +1,8 @@
 ---
 title: Планирование Скайп для бизнеса 2015 взаимодействия с пользователем для пользователей
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Сводка: Сведения о новом Скайп для бизнеса, а также можно предпринять для подготовки к обновлению среды и пользователей независимо от Скайп используется для бизнеса в Интернет, Скайп для Business Server 2015, Скайп для 2015 Business Server, Lync Server 2013 или Lync Server 2010.'
-ms.openlocfilehash: 6c34ea8d47556015c4e357c1f6f9f052fba8cb47
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b5bfd0c48cb1e850fdaa88a991772306430a0b9f
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885256"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965679"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Планирование Скайп для бизнеса 2015 взаимодействия с пользователем для пользователей
  
