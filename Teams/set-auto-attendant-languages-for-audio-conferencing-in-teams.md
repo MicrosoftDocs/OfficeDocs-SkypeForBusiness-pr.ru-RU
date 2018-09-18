@@ -1,5 +1,5 @@
 ---
-title: Набор auto attendant языков для аудиоконференции в группах Майкрософт
+title: Установка языков автосекретаря для аудиоконференций в Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,23 +15,23 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Узнайте, как выбрать аудиоконференций auto attendant языки, для номер аудиоконференций в группах Майкрософт.
-ms.openlocfilehash: 4be8da4bf65d189c2bfba5ceb8dd6cc7a1cbee53
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+description: Сведения о том, как выбрать языки автосекретаря аудиоконференций для номера аудиоконференций в Microsoft Teams.
+ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853377"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23893020"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Набор auto attendant языков для аудиоконференции в группах Майкрософт
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Установка языков автосекретаря для аудиоконференций в Microsoft Teams
 
-Автосекретарь конференции для групп Майкрософт можно приветствовать звука абонентов в некоторых языков при их присоединении к собранию.
+Автосекретарь аудиоконференций для Microsoft Teams может приветствовать вызывающих абонентов на нескольких разных языках во время присоединения к собранию.
   
-Выберите один основной язык и до четырех дополнительных языков. Основной язык, который вы установили, автосекретарь будет использовать первым, а дополнительные языки будут использоваться автосекретарем в выбранном вами порядке. 
+Выберите один основной язык и до четырех дополнительных. Основной язык, который вы установили, автосекретарь будет использовать первым, а дополнительные языки будут использоваться автосекретарем в выбранном вами порядке. 
   
 > [!NOTE]
 >  Вы можете настроить языки только на внутренних телефонных номерах.
@@ -39,21 +39,21 @@ ms.locfileid: "23853377"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>Установка языков автоматического секретаря конференции
+## <a name="set-the-conferencing-auto-attendant-languages"></a>Задание языков для автосекретаря конференц-связи
 
-1. В левой области переходов, перейдите к **собраниям** > **Мостов конференции**.
+1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.
 
-2. Выберите номер телефона аудиоконференций из списка и в верхней части страницы, нажмите кнопку **Изменить**.
+2. Выберите телефонный номер аудиоконференций в списке и затем щелкните **Изменить** в верхней части страницы.
 
-3. В области справа выберите нужный язык по умолчанию и любые дополнительные языки. 
+3. В области справа выберите язык по умолчанию и альтернативные языки. 
  
     > [!NOTE]
-    > По умолчанию и альтернативные языки, поддерживаемые указаны. Порядок, в котором можно выбрать их в списках будут порядок языков, представленных для вызывающих объектов. 
+    > В списке отображаются поддерживаемые языки. Порядок выбора языков в списках определяет порядок использования языков для вызывающих абонентов. 
 
-4. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**.
+4. Нажмите кнопку **Сохранить**.
 
     
-## <a name="want-else-should-i-know"></a>Хотите другим способом, должны знать?
+## <a name="want-else-should-i-know"></a>Что еще мне нужно знать?
 
 - Со списком поддерживаемых языков для аудиоконференций можно ознакомиться в статье [Поддерживаемые языки аудиоконференций](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).
     
@@ -63,9 +63,9 @@ ms.locfileid: "23853377"
     
 ## <a name="want-to-use-windows-powershell"></a>Хотите использовать Windows PowerShell?
 
-В разделе [Справочник по Microsoft команды PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) для получения дополнительных сведений.
+Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
-[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Оцените или приобретите аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

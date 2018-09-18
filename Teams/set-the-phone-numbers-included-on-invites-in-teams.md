@@ -1,5 +1,5 @@
 ---
-title: Задайте телефона, номера, находящимся на приглашает в группах Microsfot
+title: Настройка телефонных номеров, включаемых в приглашения в Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,17 +19,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Получите действия по созданию номер телефона по умолчанию для абонентов, чтобы присоединиться к собранию Microsfot группами. '
+description: 'Описание шагов по созданию телефонного номера по умолчанию для вызывающих абонентов на присоединение к собранию Microsoft Teams. '
 ms.openlocfilehash: eddab0762b679dba08dd9981d6ae61a1403ebf47
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882962"
 ---
-# <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Установка телефона, номера, находящимся на приглашает в группами Майкрософт
+# <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Настройка телефонных номеров, включаемых в приглашения в Microsoft Teams
 
-Аудиоконференций в Office 365 позволяет пользователям в вашей организации для создания групп Майкрософт собраний и разрешить пользователям по телефонной линии к собраниям с помощью телефона. В Office 365 у вас есть возможность использовать мост аудиоконференций Microsoft или моста аудиоконференций сторонних производителей, размещенного поставщиком утвержденных аудиоконференций (ACP).
+Функция аудиоконференций в Office 365 позволяет пользователям вашей организации создавать собрания Microsoft Teams для подключения к ним пользователей по телефону. В Office 365 есть возможность использования моста аудиоконференций Майкрософт или моста аудиоконференций сторонних разработчиков, размещенного у утвержденного поставщика услуг аудиоконференций.
   
 Мост конференц-связи предоставляет вашей организации ряд телефонных номеров для подключения. Все эти номера могут быть использованы для подключения к собраниям, созданным организаторами, однако вы можете выбрать, какие номера будут указаны в приглашениях на собрания.
   
@@ -39,25 +39,25 @@ ms.locfileid: "23882962"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Установить или изменить номер телефона по умолчанию аудиоконференций для организатора собрания или пользователя
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Задание или изменение телефонного номера аудиоконференций по умолчанию для организатора собрания или пользователя
 
-1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
+1. В левой области навигации щелкните на элементе **Пользователи** и выберите пользователя в списке доступных пользователей.
 
-    ![Показывает, Выбор пользователей в группы Microsoft и Скайп по центру администрирования Business](media/teamsselectusers.png)
+    ![Показан выбор пользователей в Microsoft Teams и Центре администрирования Skype для бизнеса](media/teamsselectusers.png)
 
-2. В верхней части страницы нажмите кнопку **Изменить**.
+2. В верхней части страницы щелкните на элементе **Изменить**.
 
-    ![Нажмите кнопку Изменить в Microsoft групп и Скайп по центру администрирования Business](media/teamsedituser.png)
+    ![Щелчок на элементе «Изменить» в Microsoft Teams и Центре администрирования Skype для бизнеса](media/teamsedituser.png)
 
-3. Рядом с пунктом **Аудиоконференции** нажмите **Изменить**. 
+3. Щелкните **Изменить** рядом с элементом **Аудиоконференции**. 
     
-    ![Нажмите кнопку Изменить рядом с пунктом аудиоконференции](media/teamseditaudioconf.png)
+    ![Щелчок на элементе «Изменить» рядом с элементом «Аудиоконференции»](media/teamseditaudioconf.png)
 
-4. Использование полей **бесплатный номер** или **бесплатный номер** для ввода цифр для пользователя.
+4. Используйте поля **Платный номер** и **Бесплатный номер** для ввода номеров для этого пользователя.
 
 
 > [!IMPORTANT]
-> При изменении параметров аудиоконференций пользователя повторяющиеся и будущих собраний группами Майкрософт должен быть обновлено и отправлены участникам. 
+> При изменении настроек аудиоконференции нужно обновить и отправить участникам повторяющиеся и будущие собрания Microsoft Teams. 
 
 ## <a name="want-to-use-windows-powershell"></a>Хотите использовать Windows PowerShell?
 
@@ -65,11 +65,11 @@ Windows PowerShell дает возможность управлять польз
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Дополнительные сведения о Windows PowerShell, [Справочник по Microsoft команды PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) для получения дополнительных сведений см. 
+Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps). 
   
     
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
-[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Оцените или приобретите аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 56033a3efc5e163ddd67f6f45bff590204c03783
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882085"
@@ -47,7 +47,7 @@ ms.locfileid: "23882085"
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Если группами Майкрософт не включена в клиент Office 365 и Office 365, администратор выполнить инструкциям в нашей статье [Управление доступом пользователей к группам](user-access.md) , чтобы обеспечить пользователям иметь доступ к приложению.
+Если решение Microsoft Teams не включено в вашем клиенте Office 365 и вы являетесь администратором Office 365, выполните указания из статьи [Управление доступом к Teams](user-access.md), чтобы обеспечить пользователям доступ к приложению.
 
 ## <a name="step-3-complete-technical-planning"></a>Шаг 3. Техническое планирование
 

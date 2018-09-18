@@ -15,7 +15,7 @@ appliesto:
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
 ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/13/2018
 ms.locfileid: "23965525"
@@ -325,7 +325,7 @@ ms.locfileid: "23965525"
 
 - Использование [Центра администрирования Skype для бизнеса](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Удаленные командлеты Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Отправка формы запросить новый номер телефона](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Отправка формы запроса новых телефонных номеров](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 Форма запроса новых телефонных номеров лучше всего подходит для их запланированного получения, так как вы можете запросить блок смежных номеров. Получение телефонных номеров с помощью Центра администрирования Skype для бизнеса или удаленного сеанса Windows PowerShell доступно лишь в некоторых странах и регионах.
 
@@ -440,8 +440,8 @@ ms.locfileid: "23965525"
 >|Имя абонентской группы клиента<br>_Описание  |Имя правил нормализации<br>_Описание_  |Шаблон<br>Преобразование<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**FR-Paris-Issy-39qdPR**<br>_Абонентская группа 39 quai du Président Roosevelt Issy-les-Moulineaux, Франция_|**FR-39qdPR-Internal**<br>_Внутренний номер (x7000–x7999) для офиса 39 quai du Président Roosevelt, Issy-les-Moulineaux, Франция_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Нормализация бесплатного номера для Франции_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Нормализация номера службы для Франции_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+>||**FR-TollFree**<br>_Нормализация бесплатного номера для Франции_|^0?(80\d{7})\d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_Нормализация номера службы для Франции_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
 > [!TIP]

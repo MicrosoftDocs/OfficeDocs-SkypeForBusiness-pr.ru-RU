@@ -1,25 +1,25 @@
 ---
-title: Пример сценария PowerShell — приводятся сведения, с помощью команды Microsoft Deployment очистки
+title: Пример сценария PowerShell — помощь с очисткой развертывания Microsoft Teams
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
-description: Используйте этот сценарий PowerShell для очистки группами Майкрософт на конечных компьютерах или для отдельных пользователей.
+description: Вы можете использовать этот сценарий, чтобы очистить Microsoft Teams на целевых компьютерах или для конкретных пользователей.
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 ms.openlocfilehash: 9b95ca42e1f110b72d092ada65b2d672627fac4f
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23887284"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>Пример сценария PowerShell — Очистка развертывания групп Майкрософт
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>Пример сценария PowerShell — очистка развертывания Microsoft Teams
 -------------------------------------------------------------------------
 
-Этот сценарий PowerShell можно выполнять для очистки группами Майкрософт целевые компьютеры или пользователей. Должны быть выполнены для каждого пользователя на целевой компьютер. 
+Этот сценарий PowerShell можно использовать для очистки Microsoft Teams на целевых компьютерах или для конкретных пользователей. Его следует запустить для каждого пользователя на целевом компьютере. 
 
 
 ## <a name="sample-script"></a>Пример сценария

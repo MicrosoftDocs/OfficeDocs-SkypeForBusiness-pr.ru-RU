@@ -1,5 +1,5 @@
 ---
-title: Список номеров аудиоконференции в группами Майкрософт
+title: Просмотр списка номеров для аудиоконференций в Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,23 +19,23 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Узнайте, как выполнять поиск номерам конференц-связь в пределах группами Майкрософт. '
+description: 'Сведения о просмотре номеров для конференц-связи с телефонным подключением из Microsoft Teams. '
 ms.openlocfilehash: 2690d446b181ed3fe634c805f93c2aa09396dffe
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23887419"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Список номеров аудиоконференции в группами Майкрософт
+# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Просмотр списка номеров для аудиоконференций в Microsoft Teams
 
-При настройке звуковое конференц-связи для пользователей, групп Майкрософт можно просмотреть номера телефонов, им доступны для аудиоконференций. Этот список будет содержать все номера телефонов для аудиоконференций, доступные вашей организации.
+При настройке аудиоконференций для пользователей Microsoft Teams вы можете просмотреть телефонные номера, доступные им для аудиоконференций. Этот список содержит все телефонные номера аудиоконференций, доступные в вашей организации.
   
- **Ищете цены?** В разделе [ценообразования для аудиоконференций](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+ **Ищете цены?** См. статью [Тарифы на аудиоконференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
-Если в вашей организации доступен только один телефонный номер, он будет использоваться по умолчанию для всех пользователей. Если доступно несколько номеров телефонов, для каждого пользователя можно выбрать номер телефона по умолчанию. Этот номер по умолчанию будут включены в приглашения на собрания групп Майкрософт.
+Если в вашей организации доступен только один телефонный номер, он будет использоваться по умолчанию для всех пользователей. При наличии нескольких телефонных номеров можно выбрать номер по умолчанию для каждого из пользователей. Этот номер по умолчанию будет включен в приглашения на собрание Microsoft Teams.
   
-Чтобы изменить входящий номер одного пользователя, можно просмотреть статью [Установка телефонных номеров, включенных при приглашении](set-the-phone-numbers-included-on-invites-in-teams.md).
+Чтобы изменить номер телефонного подключения для отдельного пользователя, см. статью [Настройка телефонных номеров, включаемых в приглашения](set-the-phone-numbers-included-on-invites-in-teams.md).
   
 > [!NOTE]
 > Внутренние входящие номера являются выделенными для вашей организации. В качестве номеров телефона по умолчанию можно установит только их. Однако международные входящие номера могут совместно использоваться несколькими организациями. 
@@ -43,12 +43,12 @@ ms.locfileid: "23887419"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Просмотр номеров телефона для аудиоконференций
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Просмотр телефонных номеров аудиоконференций
 
-1. В левой области переходов, перейдите к **собраниям** > **мостов конференции**. 
-2.  Просмотр номера телефонов, которые доступны для аудиоконференций.
+1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
+2.  Вы можете просмотреть телефонные номера, доступные для аудиоконференций.
 
-- Можно также просмотреть расположение и основной язык, который будет использоваться автосекретарем аудиоконференций.
+- Кроме того, можно просмотреть расположение и основной язык, которые будут использоваться автосекретарем аудиоконференций.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
@@ -56,11 +56,11 @@ Windows PowerShell дает возможность управлять польз
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Дополнительные сведения о Windows PowerShell, [Справочник по Microsoft команды PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) для получения дополнительных сведений см.
+Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
-[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Оцените или приобретите аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
   

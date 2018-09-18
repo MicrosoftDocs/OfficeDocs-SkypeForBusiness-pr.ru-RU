@@ -1,5 +1,5 @@
 ---
-title: Выходному из собрания группами Майкрософт, чтобы другие пользователи могут присоединиться к ней
+title: Обратные звонки из собрания Microsoft Teams, позволяющие другим людям присоединиться к нему
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,44 +15,44 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Узнайте, что вам нужно и как организаторам собрания может выполнить вызов для других пользователей, с помощью команды.
-ms.openlocfilehash: b4e0fc6d2f6f15e53a3802b2676f1859a992b696
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+description: Сведения о том, как организаторы собрания могут совершать обратные звонки другим людям через Teams и что для этого нужно.
+ms.openlocfilehash: 498f03e5ff42c3c99b6e151c05e1c6174054db46
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860527"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892996"
 ---
-# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Выходному из собрания группами Майкрософт, чтобы другие пользователи могут присоединиться к ней
+# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Обратные звонки из собрания Microsoft Teams, позволяющие другим людям присоединиться к нему
 
-Организатор собрания можно абонентской группы с помощью команды приложения для других пользователей присоединиться к собранию же с помощью телефона. При совершении исходящего звонка рекомендуется набирать номер полностью, включая код страны/региона, однако это необязательно. Настройка исходящих вызовов
+Вы, как организатор собрания, можете выполнить обратный звонок с помощью приложения Teams, чтобы другие пользователи могли присоединиться к собранию по телефону. При совершении обратного звонка рекомендуется набирать номер полностью, включая код страны/региона, однако это необязательно. Условия для использования обратных звонков:
   
-- Вы можете подключение по телефонной линии только в том случае, если вам присоединиться к собранию с помощью команды.
+- Вы можете совершать обратные звонки, только если присоединились к собранию с помощью приложения Teams.
     
-- Вы организатор собрания был разрешен доступ к конференции.
+- Вы, как организатор собрания, были активированы для аудиоконференции.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
- **Шаг 1:** На собрании, используйте **Добавить людей** ![кнопку Добавить людей](media/add-people-button.png) вариант, чтобы выполнять звонки на номер телефона.
+ **Шаг 1.** На собрании используйте параметр **Добавить людей** ![Кнопка «Добавить людей»](media/add-people-button.png), чтобы совершить обратный звонок на телефонный номер.
   
   
- **Шаг 2:** Введите полный телефонного номера, включая код страны или региона в поле **Пригласить пользователя или набора номера** .
+ **Шаг 2.** Введите полный телефонный номер, включая код страны/региона, в поле **Пригласить или набрать номер**.
   
-![Приглашение пользователей или наберите номер поля](media/invite-someone-box.png)
+![Поле «Пригласить или набрать номер»](media/invite-someone-box.png)
   
 ## <a name="supported-countries-and-regions"></a>Поддерживаемые страны и регионы
 
-Dial-out is only available to some countries/regions. Полный список в разделе [доступность страны и региона для конференц-связи аудио и вызов планов](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Обратные звонки доступны только в некоторых странах/регионах. Полный список см. в статье [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше о аудиоконференций?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше об аудиоконференциях?
 
-[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Оцените или приобретите аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
     
-[Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+[Дополнительные лицензии для Skype для бизнеса и Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
     
 
