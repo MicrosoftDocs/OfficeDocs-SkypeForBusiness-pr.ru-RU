@@ -192,7 +192,7 @@
 ## Собрания
 ### [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
 ### [Исходящие звонки, позволяющие другим людям присоединиться к собранию](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
-### [Отключение бесплатных номеров для отдельных пользователей](disabling-toll-free-numbers-for-specific-teams-users.md)
+### [Отключение бесплатных номеров для определенных пользователей](disabling-toll-free-numbers-for-specific-teams-users.md)
 ### [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ### [Включение и отключение отправки писем при смене настроек аудиоконференций](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 ### [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -328,7 +328,6 @@
 #### [Общие вопросы по аудиоконференциям](audio-conferencing-common-questions.md)
 #### [Поминутная оплата аудиоконференций](audio-conferencing-pay-per-minute.md)
 #### [Поддерживаемые языки для аудиоконференций](audio-conferencing-supported-languages.md)
-#### [Известные проблемы аудиоконференций и устранение неполадок](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Изменение параметров моста аудиоконференций](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [Изменение номеров телефонов для моста аудиоконференций](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 #### [Исходящие звонки, позволяющие другим людям присоединиться к собранию](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
@@ -473,7 +472,7 @@
 #### [Мониторинг и устранение неполадок прямой маршрутизации](direct-routing-monitor-and-troubleshoot.md)
 #### [Учетные записи пользователей в гибридной среде с помощью подключения к ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Настройте пограничный контроллер сеансов для нескольких клиентов](direct-routing-sbc-multiple-tenants.md)
-#### [Список сертифицированных для прямой маршрутизации пограничных контроллеров сеансов](direct-routing-border-controllers.md)
+#### [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
 ### [Команды Microsoft Online вызова денежных средств](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
