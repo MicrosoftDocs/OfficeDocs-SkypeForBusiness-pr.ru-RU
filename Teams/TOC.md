@@ -30,6 +30,8 @@
 
 ## [Обзор развертывания Teams](deployment-overview.md)
 ## [Управление доступом пользователей к Teams](user-access.md)
+## [Использование роли администраторов группами Майкрософт для управления группами](using-admin-roles.md)
+## [Обзор PowerShell групп](teams-powershell-overview.md)
 ## [Работа с клиентами для Teams](get-clients.md)
 ### [Требования к оборудованию для приложения группы](hardware-requirements-for-the-teams-app.md)
 ### [Установка группы с помощью MSI](msi-deployment.md)
@@ -38,7 +40,7 @@
 ## [Позволяют группам в организации](Office-365-set-up.md)
 ## [Управление функциями группами в организации](enable-features-office-365.md)
 ### [Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business](manage-teams-skypeforbusiness-admin-center.md)
-### [Назначение ролей и разрешений в Teams](assign-roles-permissions.md)
+### [Назначение группы владельцев и членов в группы](assign-roles-permissions.md)
 ### [Публикация приложений в каталог приложений группы клиента](tenant-apps-catalog-teams.md)
 ### [Настройка собрания Скайп приложение для работы с группами](configure-skype-meetings-app-to-work-with-teams.md)
 ## [Современный проверки подлинности](sign-in-teams.md)
