@@ -1,9 +1,9 @@
 ---
-title: Назначение ролей и разрешений в Microsoft Teams
+title: Назначение группы владельцев и членов в группы Microsoft
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 08/27/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
@@ -13,20 +13,20 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da4bae93a35775141c246145e1375e73963ec120
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a2fd9f611d616f368973ced432e886bf4ba9d8f5
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892700"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24021812"
 ---
-<a name="assign-roles-and-permissions-in-microsoft-teams"></a>Назначение ролей и разрешений в Microsoft Teams
-===============================================
+<a name="assign-team-owners-and-members-in-microsoft-teams"></a>Назначение группы владельцев и членов в группы Microsoft
+=================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-В Microsoft Teams доступно две роли: **владелец** и **участник**. По умолчанию создающий команду пользователь становится владельцем. При создании команды из существующей группы Office 365 разрешения наследуются.
+Внутри групп Майкрософт существует две роли пользователя: **владельца** и **член**. По умолчанию пользователь, который создает новые группы предоставляется состояния владельца. При создании команды из существующей группы Office 365 разрешения наследуются.
 
 Следующая таблица описывает, чем различаются разрешения владельца и участника:
 
@@ -43,7 +43,7 @@ ms.locfileid: "23892700"
 |**Добавление вкладок**      |Да         |Да*         |
 |**Добавление соединителей**      |Да         |Да*         |
 |**Добавление ботов**      |Да         |Да*         |
-\* Эти функции могут быть отключены владельцем на уровне команды, в случае чего они будут недоступны участникам.
+\*Эти элементы может быть отключена, пользователь с уровнем рабочая группа, в противном случае члены не имеет доступа к ним.
 
 \*\*Добавив участника в команду, владелец также может повысить его до владельца. Кроме того, владелец может понизить себя до участника.
 
