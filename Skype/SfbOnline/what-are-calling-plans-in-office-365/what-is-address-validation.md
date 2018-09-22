@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Узнайте о проверке адреса, ее важности и связи с адресами и службами экстренного реагирования. '
-ms.openlocfilehash: e9799fd9e19fb9527e31f63e3f94ace621cd9632
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4ae8ab25f83eb97929706881f7f757ee3541284d
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855628"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958424"
 ---
 # <a name="what-is-address-validation"></a>Что такое проверка адреса?
 
@@ -44,7 +44,7 @@ ms.locfileid: "23855628"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

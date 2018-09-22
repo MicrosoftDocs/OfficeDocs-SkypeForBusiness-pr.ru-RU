@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Чтобы перенести или передать телефонные номера со Skype для бизнеса Online на другого поставщика или оператора услуг телефонной связи, необходимо вручную задать ПИН-код. После установки ПИН-кода необходимо указать его при запросе переноса телефонного номера.
-ms.openlocfilehash: ef688c6aa7aabd1880513994236cb62353eab665
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f30c26d366d6ad431683ba5b80641a9796c2730c
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890111"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958254"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Установка PIN-кода для передачи номеров новому поставщику услуг
 
@@ -75,7 +75,7 @@ ms.locfileid: "23890111"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

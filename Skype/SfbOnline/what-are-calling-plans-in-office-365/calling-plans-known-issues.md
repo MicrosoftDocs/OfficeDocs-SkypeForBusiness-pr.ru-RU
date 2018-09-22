@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Узнайте, известные проблемы с телефонной для Office 365 (вызов ТСОП) и что можно сделать о них. '
-ms.openlocfilehash: 7db9f99a2884d78c07df1cb5d020ae9e8335515c
-ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
+ms.openlocfilehash: 01a49749f472b6a3e591295cff7184dc26fd564a
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "23999167"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958414"
 ---
 # <a name="calling-plans-known-issues"></a>Известные проблемы с планами звонков
 
@@ -47,7 +47,7 @@ ms.locfileid: "23999167"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Научитесь добавлять, изменять или удалять местоположение вашей организации для экстренного реагирования, которое используется Skype для бизнеса в телефонных сетях общего пользования. '
-ms.openlocfilehash: 68c4e60288a85f39b198eb0ea1bd05e6a1e7f5e6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 862d62af8db8275e304c1522ae19a80d9ebcfec4
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883681"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958274"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Добавление, изменение и удаление местоположения организации для экстренного реагирования
 
@@ -77,16 +77,16 @@ ms.locfileid: "23883681"
     
 5. В разделе **Местоположенния связанные с** нажмите на кнопку **Удалить**, имеющуюся рядом со ссылкой на местоположение.
     
-6. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**.
+6. Нажмите кнопку **Сохранить**.
     
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Что такое проверка адреса?](what-is-address-validation.md)
 
 [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

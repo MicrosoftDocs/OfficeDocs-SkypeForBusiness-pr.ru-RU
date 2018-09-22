@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
-ms.openlocfilehash: 6852dde95528f98b8850070f47caab225282de2d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 930837f7d6accc4d7ff9d1533296267605097828
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864904"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958094"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Почему активация номера отображается как обновляемая?
 
@@ -105,6 +105,6 @@ ms.locfileid: "23864904"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

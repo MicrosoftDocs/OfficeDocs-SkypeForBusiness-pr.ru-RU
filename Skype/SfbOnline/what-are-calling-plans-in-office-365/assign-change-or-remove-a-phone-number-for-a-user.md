@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Узнайте, как назначить, изменить или удалить рабочий номер телефона ваших пользователей Skype for Business, чтобы другие предприятия и клиенты могли им звонить.
-ms.openlocfilehash: 4bc70c327330a4d52bcd0c712ce44d237dde02e0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 17cb05a4d9982981e65b5919a868979fca1a1aa2
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890014"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958124"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение или удаление номер телефона для пользователя
 
@@ -104,7 +104,7 @@ ms.locfileid: "23890014"
     
 8. Для изменения связанного адреса экстренного реагирования, нажмите кнопку **Изменить местоположение**, а затем в разделе **Изменить адрес экстренного реагирования на**, либо выберите местоположение в списке, либо, если вы имеете много определенных местоположений, введите в поле поиска название города и нажмите кнопку **Поиск**.
     
-9. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**.
+9. Нажмите кнопку **Сохранить**.
     
 
 
@@ -125,14 +125,14 @@ ms.locfileid: "23890014"
 6. На панели действий, под строкой ontenteditable="false" class="locked monad startTag">**Назначить номер**, нажмите **Удалить**.
     
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Что такое проверка адреса?](what-is-address-validation.md)
 
 [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

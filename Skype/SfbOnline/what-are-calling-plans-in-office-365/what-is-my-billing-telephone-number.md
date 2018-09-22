@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте о вашей Скайп для бизнеса, выставления счетов телефонный номер и где можно получить пошаговые инструкции по перемещению номер.
-ms.openlocfilehash: 748ea9603cf0e3fef7dc19dc2a148025e33ab205
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b0eb2d3b2a4740759b2ea13eb5cddb1691392a48
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849786"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958264"
 ---
 # <a name="what-is-my-billing-telephone-number"></a>Каков мой телефон для выставления счетов?
 
@@ -45,7 +45,7 @@ ms.locfileid: "23849786"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

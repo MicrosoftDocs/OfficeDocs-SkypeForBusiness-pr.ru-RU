@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Узнайте, как изменить местоположение для реагирования экстренных служб для пользователей. С помощью безлимитного числа местоположений, можно изменить местоположения для реагирования экстренных служб, по мере того как сотрудники двигаются между этажами и зданиями. '
-ms.openlocfilehash: e8536647bedf0cdb212ca334193659a104e0e1e3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caf201bf71d15518ffbfbf473a904da2d1d03aa4
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891177"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958214"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>Изменение местоположения для экстренного реагирования для пользователя
 
@@ -57,7 +57,7 @@ ms.locfileid: "23891177"
     
     Если вы хотите добавить новое местоположение для реагирования экстренных служб, ознакомьтесь со [Добавление, изменение или удаление местоположения для реагирования экстренных служб  для вашей организации](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Добавление или удаление адреса для экстренного реагирования для организации](add-or-remove-an-emergency-address-for-your-organization.md)
 
 [Добавление, изменение и удаление местоположения организации для экстренного реагирования](add-change-or-remove-an-emergency-location-for-your-organization.md)
@@ -68,7 +68,7 @@ ms.locfileid: "23891177"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

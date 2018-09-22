@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Узнайте, как настроить адрес для экстренного реагирования и номер телефона для каждого вашего пользователя, работающего с телефонной сетью общего пользования.
-ms.openlocfilehash: 053e0d13109f66b4e714b69f0bc5650e20acdb69
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 56552002c589b776935be973700cff822a9f4857
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885814"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958164"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Назначение или изменение адреса экстренного реагирования для пользователя
 
@@ -58,14 +58,14 @@ ms.locfileid: "23885814"
     
 8. Выберите экстренных адреса из списка адресов и нажмите кнопку **Сохранить**. 
     
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Что такое проверка адреса?](what-is-address-validation.md)
 
 [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

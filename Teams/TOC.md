@@ -177,7 +177,7 @@
 ### [Решения для специальных возможностей в Skype для бизнеса Online во Франции](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Команды и каналы
 ### [Обзор команд и каналов в Teams](teams-channels-overview.md)
-### [Назначение ролей и разрешений в Teams](assign-roles-permissions.md)
+### [Назначение группы владельцев и членов в группы Microsoft](assign-roles-permissions.md)
 ### [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ### [Руководство: создание охватывающей всю компанию команды с помощью PowerShell](company-wide-team-creation-powershell.yml)
 ## [Гостевой доступ](guest-access.md)
@@ -203,6 +203,8 @@
 ### [Запись собрания облачных групп](cloud-recording.md)
 ### [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ### [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Облако видео взаимодействия](cloud-video-interop.md)
+#### [Настройка взаимодействия видео облако](cloud-video-interop-for-teams-set-up.md)
 ### Событий в реальном времени
 #### [Что такое группы live событий?](teams-live-events/what-are-teams-live-events.md)
 
@@ -465,8 +467,10 @@
 #### [Языки для сообщений и приветствий голосовой почты](languages-for-voicemail-greetings-and-messages.md)
 #### [Настройка идентификатора звонящего для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Настройка автосекретаря телефонной системы](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Пример реализации - автосекретари](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Настройка голосовой почты телефонной системы](set-up-phone-system-voicemail.md)
 #### [Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
+#### [Ответ автосекретаря и вызвать очереди звонки непосредственно из рабочих групп](answer-auto-attendant-and-call-queue-calls.md)
 ### Прямой маршрутизации телефонной системы
 #### [Планирование прямой маршрутизации](direct-routing-plan.md)
 #### [Настройка прямой маршрутизации](direct-routing-configure.md)

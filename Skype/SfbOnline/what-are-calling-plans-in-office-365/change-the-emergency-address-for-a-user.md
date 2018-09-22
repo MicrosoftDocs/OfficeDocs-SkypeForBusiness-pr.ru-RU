@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Просмотрите инструкции по изменению адреса для экстренного реагирования для пользователя для работы с телефонной сетью общего пользования (PSTN) в США и Европе. '
-ms.openlocfilehash: dad05a0ea42e6007e96b34ce5e0881fa6b427b8f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 31162e24471cb4e9259678f779143900fa61ac08
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881902"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958354"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Изменение адреса для экстренного реагирования для пользователя
 
@@ -60,7 +60,7 @@ ms.locfileid: "23881902"
   
 8. Выберите новый адрес для экстренного реагирования в списке и нажмите кнопку **Сохранить**.
     
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Добавление или удаление адреса для экстренного реагирования для организации](add-or-remove-an-emergency-address-for-your-organization.md)
 
 [Добавление, изменение и удаление местоположения организации для экстренного реагирования](add-change-or-remove-an-emergency-location-for-your-organization.md)
@@ -71,7 +71,7 @@ ms.locfileid: "23881902"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

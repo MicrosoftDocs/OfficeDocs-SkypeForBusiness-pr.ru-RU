@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Узнайте, как просмотреть список всех телефонных номеров в вашей организации, все номера, назначенные пользователям, и все номера, назначенные пользователям голосовой связи, из центра администрирования Skype для бизнеса.
-ms.openlocfilehash: b28fb7c75beefa08b35b3b35be30b58652037895
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2f7311b3b50be7bb6cea086fdd3e9f4fe67a677b
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888002"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958234"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Просмотр списка телефонных номеров в организации
 
@@ -117,6 +117,6 @@ ms.locfileid: "23888002"
 
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

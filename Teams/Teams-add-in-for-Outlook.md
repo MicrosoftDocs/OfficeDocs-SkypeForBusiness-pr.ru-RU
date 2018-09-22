@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ad125380a60116592a68eeac466c46d7daa723
-ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
+ms.openlocfilehash: 07cc04f47da980bfb5a637c1cfe6bc2b72a26f8f
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2018
-ms.locfileid: "23998994"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967361"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -48,9 +48,9 @@ ms.locfileid: "23998994"
 
 ## <a name="enable-private-meetings"></a>Активация частных собраний
 
-Для развертывания подключаемого модуля нужно разрешить планирование частных собраний в [Центре администрирования Office 365](https://portal.office.com/adminportal/home).
+Разрешить планирование для частных собраний должен быть включен в группы & Скайп по центру администрирования Business подключаемого модуля для получения развернут. В центре администрирования перейдите к **собраниям** > **Политик собраний**и в разделе **Общие** включения и отключения **Разрешить планирование частных собраний** для на.)
 
-![Снимок экрана с параметрами раздела "Звонки и собрания" в Центре администрирования Office 365.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+![Снимок экрана параметров в группы & Скайп по центру администрирования бизнеса.](media/teams-add-in-for-outlook-image1.png)
 
 Клиент Microsoft Teams устанавливает нужную надстройку, определяя, требуется ли пользователям 32- или 64-разрядная версия.
 

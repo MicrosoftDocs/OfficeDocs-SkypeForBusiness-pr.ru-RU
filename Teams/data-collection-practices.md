@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: ec6e3cafd3df2509764b69dc5809781fc94ab882
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: eecd4594d7b0f6ccc61505ed24b023f0c01a53e5
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850969"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967475"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Рекомендации по сбору данных для Skype для бизнеса и Microsoft Teams
 
@@ -99,7 +99,7 @@ ms.locfileid: "23850969"
 
 Для отчетов об ошибках требуется следующее.
 
-- Параметру "Групповая политика DisableAutomaticSendTracing" должно быть присвоено значение False на сервере или в центре администрирования клиента (состояние по умолчанию). Дополнительные сведения см. в разделе [ Настройка политик начальной загрузки клиентов в Skype для бизнеса Server 2015](https://technet.microsoft.com/library/gg425941.aspx).
+- Параметр групповой политики DisableAutomaticSendTracing задано значение False, на сервере или в центре администрирования клиента (это состояние по умолчанию). [Настройка политики начальной загрузки клиентов в Скайп для Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) более подробные сведения.
     
 - Конечные пользователи по отдельности согласие на вкладке Общие (щелкните значок шестеренки ![значок шестеренки](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , а затем открывает **диалоговое окно** отображается вкладка **Общие** ) в Скайп для клиента Business.
     
@@ -114,7 +114,7 @@ ms.locfileid: "23850969"
 
 Для пользователей 21Vianet, использующих Office 365 см. [Set up your network for Lync Online](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Программа улучшения качества программного обеспечения](https://www.microsoft.com/products/ceip/default.mspx)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
