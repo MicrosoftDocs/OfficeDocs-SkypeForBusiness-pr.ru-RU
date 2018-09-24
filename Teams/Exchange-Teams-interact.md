@@ -13,15 +13,18 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a422cb18cf6105ead7f0a76096a6cb5a755a1906
-ms.sourcegitcommit: 8537814aabddd7e7a6d1148c8c71ea14ae0c499a
+ms.openlocfilehash: d69ba0fc113667149b212547cd04ed02e814ba50
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24009047"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975126"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams 
 =========================================
+
+> [!Tip]
+> Просмотрите следующие сеанса, чтобы узнать, как группы взаимодействует с Azure Active Directory (AAD), группы Office 365, Exchange, SharePoint и OneDrive для бизнеса: [Основы группами Майкрософт](https://aka.ms/teams-foundations)
 
 Для полноценной работы с Microsoft Teams сотруднику нужно разрешить использовать Exchange Online, SharePoint Online, а также создавать группы Office 365.
 

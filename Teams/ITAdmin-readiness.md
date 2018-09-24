@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c6d3601e72e829f2c00fd166c3b249872e48347
-ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
+ms.openlocfilehash: e3ee2ac75015f26317f85d6cf4ecf79e71496f0b
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24960957"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975094"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -140,7 +140,7 @@ ms.locfileid: "24960957"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Архитектура</h3><p>[Видео: Основы - основные компоненты рабочих групп](https://www.youtube.com/watch?v=xJBvJTDiQqg)</p>
+                        <h3>Архитектура</h3><p>[Видео: Основы - основные компоненты рабочих групп](http://aka.ms/teams-foundations)</p>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ ms.locfileid: "24960957"
                     <div class="cardText">
                         <h3>Планирование и развертывание</h3>
                          <p>[Quick start: Teams planning guide (Краткое руководство. Руководство по планированию Teams)](quick-start-enable-teams.md)</p>
-                         <p>[Видео: Клиент рабочего стола групп Windows](https://www.youtube.com/watch?v=zp1_wGzq1ic)</p>
+                         <p>[Видео: Клиент рабочего стола групп Windows](http://aka.ms/teams-clients)</p>
                     </div>
                 </div>
             </div>

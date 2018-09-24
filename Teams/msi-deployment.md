@@ -13,15 +13,18 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aaf355c1f1fc65855c7bffb7c5632929a084b88
-ms.sourcegitcommit: 3a7d2131717327d9b2d16848758e31e10326a0bd
+ms.openlocfilehash: 3141eb3f7d584e2140c95ec509e14285cc1cfe7c
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24057605"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975102"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Установка Microsoft Teams с помощью MSI
 =================================
+
+> [!Tip]
+> Просмотрите следующие сеанса, чтобы узнать о преимуществах клиент рабочий стол Windows, планировании его и способе развертывания: [Группы Windows Desktop Client](https://aka.ms/teams-clients)
 
 Чтобы использовать System Center Configuration Manager или групповой политики или любой механизма распространения сторонних производителей для широкомасштабного развертывания решения, корпорация Майкрософт предоставляет файлов MSI ( [32-разрядная](https://aka.ms/teams32bitmsi) и [64-разрядная версия](https://aka.ms/teams64bitmsi)), администраторы могут использовать для развертывания массового рабочих групп для выбора пользователей или компьютеров. Администраторы могут использовать эти файлы для удаленного развертывания групп, чтобы пользователи не имеют для ручной загрузки приложения группы. При развертывании команды будет автоматически запуска для всех пользователей, вход на этом компьютере. (Можно отключить запуск после установки приложения. [Ниже приведены](#disable-auto-lanuch-for-the-msi-installer)). Мы рекомендуем развертывание пакета на компьютере, поэтому всех новых пользователей компьютера также выиграют от этого развертывания. 
  
@@ -59,7 +62,7 @@ MSI группы будут помещены установщика в Program F
 > [!TIP] 
 > Наш сценарий [развертывания групп Майкрософт Очистка](.\scripts\Powershell-script-teams-deployment-clean-up.md) можно использовать для выполнения действия 1 и 2 с помощью SCCM.  
                     
-## <a name="disable-auto-lanuch-for-the-msi-installer"></a>Отключение автоматического lanuch для установщика MSI
+## <a name="disable-auto-launch-for-the-msi-installer"></a>Отключение автоматического запуска для установщика MSI
 
 Если вы хотите отключить запуск, введите следующую команду:
 

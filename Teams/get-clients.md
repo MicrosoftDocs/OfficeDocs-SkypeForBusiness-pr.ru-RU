@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfd6eead5c62865d2c0c00f8719f2e6ec188ff9c
-ms.sourcegitcommit: 43bb1c1355193809c4f297d3dcb535c8b8d5d527
+ms.openlocfilehash: 9caef93f2303458d20c2d7e2142579edaae69748
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24062004"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975118"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 ===========================
@@ -29,6 +29,9 @@ ms.locfileid: "24062004"
 
 <a name="desktop-client"></a>Клиент рабочего стола
 --------------
+
+> [!Tip]
+> Просмотрите следующие сеанса, чтобы узнать о преимуществах рабочий стол Windows Client, планировании его и способе развертывания: [Группы Windows Desktop Client](https://aka.ms/teams-clients)
 
 Клиентское группами Майкрософт — это автономного приложения и в настоящее время не входит в Office 365 ProPlus. Команды доступна для Windows (7 +), 32-разрядная и 64-разрядных версий и macOS (10.10 +). В Windows группам требуется .NET Framework 4.5 или более поздней версии; Установщик команды будет предлагать установить ее автоматически, если она не была. 
 
