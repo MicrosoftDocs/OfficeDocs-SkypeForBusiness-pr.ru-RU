@@ -6,30 +6,31 @@ manager: serdars
 ms.date: 02/07/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 description: Используйте этот сценарий PowerShell, чтобы создать в Teams открытую команду, охватывающую всю компанию.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 6c4c1acf659e391320f1fa713be0e8d6c9e09853
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+MS.collection: Teams_ITAdmin_Help
+ms.openlocfilehash: 99de14049a0811227c74d0199e322761490dc69f
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884098"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013195"
 ---
-<a name="powershell-script-sample---create-a-company-wide-team-in-microsoft-teams"></a><span data-ttu-id="a591c-103">Пример сценария PowerShell — создание охватывающей всю компанию команды в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a591c-103">PowerShell Script Sample - Create a company-wide team in Microsoft Teams</span></span>
+<a name="powershell-script-sample---create-a-company-wide-team-in-microsoft-teams"></a><span data-ttu-id="5a8db-103">Пример сценария PowerShell — создание охватывающей всю компанию команды в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="5a8db-103">PowerShell Script Sample - Create a company-wide team in Microsoft Teams</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="a591c-104">Этот сценарий PowerShell создает в Teams открытую команду, охватывающую всю компанию.</span><span class="sxs-lookup"><span data-stu-id="a591c-104">This PowerShell script creates a public, company-wide team in Teams.</span></span> <span data-ttu-id="a591c-105">Сценарий использует для этого PowerShell-модуль MicrosoftTeams, который сейчас находится в бета-версии.</span><span class="sxs-lookup"><span data-stu-id="a591c-105">The script uses the MicrosoftTeams PowerShell module (currently in beta) to create a public, company-wide team.</span></span> <span data-ttu-id="a591c-106">В нем также используется PowerShell-модуль AzureAD для получения списка пользователей вашего клиента.</span><span class="sxs-lookup"><span data-stu-id="a591c-106">It also uses the AzureAD PowerShell module to fetch the list of users in your tenant.</span></span> 
+<span data-ttu-id="5a8db-104">Этот сценарий PowerShell создает в Teams открытую команду, охватывающую всю компанию.</span><span class="sxs-lookup"><span data-stu-id="5a8db-104">This PowerShell script creates a public, company-wide team in Teams.</span></span> <span data-ttu-id="5a8db-105">Сценарий использует для этого PowerShell-модуль MicrosoftTeams, который сейчас находится в бета-версии.</span><span class="sxs-lookup"><span data-stu-id="5a8db-105">The script uses the MicrosoftTeams PowerShell module (currently in beta) to create a public, company-wide team.</span></span> <span data-ttu-id="5a8db-106">В нем также используется PowerShell-модуль AzureAD для получения списка пользователей вашего клиента.</span><span class="sxs-lookup"><span data-stu-id="5a8db-106">It also uses the AzureAD PowerShell module to fetch the list of users in your tenant.</span></span> 
 
-<span data-ttu-id="a591c-107">Полные инструкции по использованию этого сценария PowerShell см. в нашем учебном руководстве [Создание в Teams охватывающей всю компанию команды с помощью PowerShell](../Company-wide-team-creation-powershell.yml).</span><span class="sxs-lookup"><span data-stu-id="a591c-107">For complete instructions on using this PowerShell script, check out our tutorial, [Create a company-wide team in Teams using PowerShell](../Company-wide-team-creation-powershell.yml).</span></span>
+<span data-ttu-id="5a8db-107">Полные инструкции по использованию этого сценария PowerShell см. в нашем учебном руководстве [Создание в Teams охватывающей всю компанию команды с помощью PowerShell](../Company-wide-team-creation-powershell.yml).</span><span class="sxs-lookup"><span data-stu-id="5a8db-107">For complete instructions on using this PowerShell script, check out our tutorial, [Create a company-wide team in Teams using PowerShell](../Company-wide-team-creation-powershell.yml).</span></span>
 
-<span data-ttu-id="a591c-108">Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="a591c-108">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="5a8db-108">Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="5a8db-108">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="a591c-109">Пример сценария</span><span class="sxs-lookup"><span data-stu-id="a591c-109">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="5a8db-109">Пример сценария</span><span class="sxs-lookup"><span data-stu-id="5a8db-109">Sample script</span></span>
 
 > [!TIP]
-> <span data-ttu-id="a591c-110">Файл сценария PowerShell — это текстовый файл с расширением .PS1.</span><span class="sxs-lookup"><span data-stu-id="a591c-110">A PowerShell script file is a text file with a .PS1 extension.</span></span> <span data-ttu-id="a591c-111">Чтобы использовать этот сценарий, щелкните **Копировать** и вставьте код в текстовый файл.</span><span class="sxs-lookup"><span data-stu-id="a591c-111">To use this script, click **Copy** and then paste the code into a text file.</span></span> <span data-ttu-id="a591c-112">Сохраните файл под именем CreateCompanyWideTeam.ps1, и вы получите сценарий PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a591c-112">Save it with the filename CreateCompanyWideTeam.ps1, and you've got a PowerShell script.</span></span>
+> <span data-ttu-id="5a8db-110">Файл сценария PowerShell — это текстовый файл с расширением .PS1.</span><span class="sxs-lookup"><span data-stu-id="5a8db-110">A PowerShell script file is a text file with a .PS1 extension.</span></span> <span data-ttu-id="5a8db-111">Чтобы использовать этот сценарий, щелкните **Копировать** и вставьте код в текстовый файл.</span><span class="sxs-lookup"><span data-stu-id="5a8db-111">To use this script, click **Copy** and then paste the code into a text file.</span></span> <span data-ttu-id="5a8db-112">Сохраните файл под именем CreateCompanyWideTeam.ps1, и вы получите сценарий PowerShell.</span><span class="sxs-lookup"><span data-stu-id="5a8db-112">Save it with the filename CreateCompanyWideTeam.ps1, and you've got a PowerShell script.</span></span>
 
 ````powershell
 <#
@@ -183,16 +184,16 @@ Disconnect-MicrosoftTeams
 ````
 
 
-## <a name="script-explanation"></a><span data-ttu-id="a591c-113">Пояснение сценария</span><span class="sxs-lookup"><span data-stu-id="a591c-113">Script explanation</span></span>
+## <a name="script-explanation"></a><span data-ttu-id="5a8db-113">Пояснение сценария</span><span class="sxs-lookup"><span data-stu-id="5a8db-113">Script explanation</span></span>
 
 
-<span data-ttu-id="a591c-114">Полные инструкции по использованию этого сценария PowerShell см. в нашем учебном руководстве [Создание в Teams охватывающей всю компанию команды с помощью PowerShell](../Company-wide-team-creation-powershell.yml)</span><span class="sxs-lookup"><span data-stu-id="a591c-114">For complete instructions on using this PowerShell script, check out our tutorial, [Create a company-wide team in Teams using PowerShell](../Company-wide-team-creation-powershell.yml)</span></span>
+<span data-ttu-id="5a8db-114">Полные инструкции по использованию этого сценария PowerShell см. в нашем учебном руководстве [Создание в Teams охватывающей всю компанию команды с помощью PowerShell](../Company-wide-team-creation-powershell.yml)</span><span class="sxs-lookup"><span data-stu-id="5a8db-114">For complete instructions on using this PowerShell script, check out our tutorial, [Create a company-wide team in Teams using PowerShell](../Company-wide-team-creation-powershell.yml)</span></span>
 
-<span data-ttu-id="a591c-115">Этот сценарий состоит из 5 частей (перечислены сверху вниз).</span><span class="sxs-lookup"><span data-stu-id="a591c-115">There are 5 sections to this script (listed in order from top to bottom):</span></span>
-1. <span data-ttu-id="a591c-116">**Документация и описание переменных**</span><span class="sxs-lookup"><span data-stu-id="a591c-116">**Documentation and variable definitions**</span></span>
-2. <span data-ttu-id="a591c-117">**Функция Create-Team**: создает команду, если это необходимо.</span><span class="sxs-lookup"><span data-stu-id="a591c-117">**Function Create-Team**: Creates a team if necessary.</span></span> <span data-ttu-id="a591c-118">Если GroupID не указан, в этой части будет создана команда с заданными TeamName и TeamDescription.</span><span class="sxs-lookup"><span data-stu-id="a591c-118">If you don't specify a GroupID, this section will create the team with the specified TeamName and TeamDescription.</span></span>
-3. <span data-ttu-id="a591c-119">**Функция Add-Channels**: если вы указали каналы, то эта функция запрашивает описание канала и создает канал.</span><span class="sxs-lookup"><span data-stu-id="a591c-119">**Function Add-Channels**: If you've specified channels, this is where the channel description gets requested, and then the channel gets created.</span></span> 
-4. <span data-ttu-id="a591c-120">**Функция Add-Members**: выполняет все управление участниками.</span><span class="sxs-lookup"><span data-stu-id="a591c-120">**Function Add-Members**: This does all member management.</span></span> <span data-ttu-id="a591c-121">Эта часть сценария подключается к модулю AzureAD, получает список пользователей и добавляет их в команду, если вы не указали список пользователей.</span><span class="sxs-lookup"><span data-stu-id="a591c-121">This section connects to AzureAD,  fetches a set of users, and adds them to the team if you don’t provide a member list.</span></span> <span data-ttu-id="a591c-122">Она обрабатывает логику добавления владельцев и участников и не добавляет тех участников, которые уже включены в команду.</span><span class="sxs-lookup"><span data-stu-id="a591c-122">It handles the logic of adding owners and members, and not adding members who already belong to the team.</span></span> 
-5. <span data-ttu-id="a591c-123">**Основная программа**: это порядок, в котором выполняются функции.</span><span class="sxs-lookup"><span data-stu-id="a591c-123">**Main program**: This is the order in which the functions get executed.</span></span> 
+<span data-ttu-id="5a8db-115">Этот сценарий состоит из 5 частей (перечислены сверху вниз).</span><span class="sxs-lookup"><span data-stu-id="5a8db-115">There are 5 sections to this script (listed in order from top to bottom):</span></span>
+1. <span data-ttu-id="5a8db-116">**Документация и описание переменных**</span><span class="sxs-lookup"><span data-stu-id="5a8db-116">**Documentation and variable definitions**</span></span>
+2. <span data-ttu-id="5a8db-117">**Функция Create-Team**: создает команду, если это необходимо.</span><span class="sxs-lookup"><span data-stu-id="5a8db-117">**Function Create-Team**: Creates a team if necessary.</span></span> <span data-ttu-id="5a8db-118">Если GroupID не указан, в этой части будет создана команда с заданными TeamName и TeamDescription.</span><span class="sxs-lookup"><span data-stu-id="5a8db-118">If you don't specify a GroupID, this section will create the team with the specified TeamName and TeamDescription.</span></span>
+3. <span data-ttu-id="5a8db-119">**Функция Add-Channels**: если вы указали каналы, то эта функция запрашивает описание канала и создает канал.</span><span class="sxs-lookup"><span data-stu-id="5a8db-119">**Function Add-Channels**: If you've specified channels, this is where the channel description gets requested, and then the channel gets created.</span></span> 
+4. <span data-ttu-id="5a8db-120">**Функция Add-Members**: выполняет все управление участниками.</span><span class="sxs-lookup"><span data-stu-id="5a8db-120">**Function Add-Members**: This does all member management.</span></span> <span data-ttu-id="5a8db-121">Эта часть сценария подключается к модулю AzureAD, получает список пользователей и добавляет их в команду, если вы не указали список пользователей.</span><span class="sxs-lookup"><span data-stu-id="5a8db-121">This section connects to AzureAD,  fetches a set of users, and adds them to the team if you don’t provide a member list.</span></span> <span data-ttu-id="5a8db-122">Она обрабатывает логику добавления владельцев и участников и не добавляет тех участников, которые уже включены в команду.</span><span class="sxs-lookup"><span data-stu-id="5a8db-122">It handles the logic of adding owners and members, and not adding members who already belong to the team.</span></span> 
+5. <span data-ttu-id="5a8db-123">**Основная программа**: это порядок, в котором выполняются функции.</span><span class="sxs-lookup"><span data-stu-id="5a8db-123">**Main program**: This is the order in which the functions get executed.</span></span> 
 
 
