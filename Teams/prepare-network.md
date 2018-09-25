@@ -10,15 +10,15 @@ ms.reviewer: arachman
 description: Сведения о подготовке сети Microsoft Teams и управлении ею. Здесь приведены требования к сети и пропускной способности, а также дополнительные рекомендации.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a470ddec93526fe5ea3aa5a24a835d37d971426c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 40250062b5439726fa1a0d7f886ba99e71a2060a
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892692"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014509"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams
 =================================================
@@ -36,7 +36,7 @@ Teams сочетает в себе три формы трафика:
 > [!IMPORTANT]
 > Сейчас собрания поддерживаются на мобильных устройствах iOS и Android, но не на Windows Phone.
 
-Чтобы обеспечить в Microsoft Teams оптимальную работу с мультимедиа в реальном времени, нужно обеспечить соответствие сетей требованиям для Office 365. Дополнительные сведения см. в статье [Качество медиаданных и производительность сетевого подключения в Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Чтобы обеспечить в Microsoft Teams оптимальную работу с мультимедиа в реальном времени, нужно обеспечить соответствие сетей требованиям для Office 365. Дополнительные сведения: [Качество медиаданных и производительность сетевого подключения в Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 Два определяющих сегмента сети (между клиентом и Microsoft Edge, а также между периметром заказчика и Microsoft Edge) должны соответствовать следующим рекомендациям:
 
@@ -58,7 +58,7 @@ Teams сочетает в себе три формы трафика:
 <a name="bandwidth-requirements"></a>Требования к пропускной способности
 ----------
 
-Расчеты пропускной способности для Microsoft Teams довольно сложны, поэтому был создан соответствующий калькулятор. Для доступа к калькулятору перейдите в раздел [Планировщик сети в MyAdvisor](https://aka.ms/bwcalc/).
+Расчеты пропускной способности для Microsoft Teams довольно сложны, поэтому был создан соответствующий калькулятор. Для доступа к калькулятору перейдите в раздел [Network Planner](https://aka.ms/bwcalc/) (планировщик сети) в MyAdvisor.
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

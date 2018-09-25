@@ -7,6 +7,7 @@ ms.date: 08/28/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о требованиях к оборудованию, необходимых для установки и запуска рабочих групп Майкрософт.
@@ -14,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 566a3d29ed9238fb236c1a334c22d51c70b9430e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f0b3375ae5ad1caf3a8aacd9ff6b02236d7e85d6
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884152"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015071"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Требования к оборудованию для приложения группами Майкрософт
 
@@ -58,7 +59,7 @@ ms.locfileid: "23884152"
 
 - операций ввода-вывода - требуется iOS 10.0 или более поздней версии. Совместимый с iPhone, iPad и iPod touch.
 
-### <a name="related-topics"></a>См. также:
+### <a name="related-topics"></a>Связанные разделы
 - [Получение приложения группы](get-clients.md)
 - [Группами Майкрософт на мобильных устройствах](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Установка приложения группами Майкрософт, с помощью файла MSI](msi-deployment.md)

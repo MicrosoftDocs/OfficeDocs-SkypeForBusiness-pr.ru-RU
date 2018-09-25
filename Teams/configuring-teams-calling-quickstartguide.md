@@ -10,15 +10,17 @@ ms.reviewer: MyAdvisor, lolaj
 search.appverid: MET150
 description: Краткое руководство по настройке планов звонков в Microsoft Teams.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86a4862a547df6f50d0831616a42824d9f8c3287
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 6a1fb82f57035f238ce222bf7f21b72983d21075
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882100"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015935"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams
 ==============================================================
@@ -35,7 +37,7 @@ ms.locfileid: "23882100"
 ![Звонки в Teams](media/Calling_in_Teams.png)
 
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Что необходимо для активации вкладки **Звонки** в Teams
-Чтобы включить вкладку **Звонки** в Teams и позволить пользователям совершать и принимать звонки по ТСОП, необходимо подготовить пользователей для использования службы телефонной системы и планов звонков. Соответствующие инструкции по настройке см. в статье [Настройка планов звонков](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans).
+Чтобы включить вкладку **Звонки** в Teams и позволить пользователям совершать и принимать звонки по ТСОП, необходимо подготовить пользователей для использования службы телефонной системы и планов звонков. Соответствующие инструкции см. в разделе [Set up Calling Plans](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans) (Настройка планов звонков).
 
 ## <a name="teams-interop-policy-configuration"></a>Настройка политики взаимодействия Teams
 Чтобы разрешить Teams принимать звонки, нужно изменить политику обновления Teams и политику взаимодействия Teams с помощью [Microsoft Teams и Центра администрирования Skype для бизнеса](https://aka.ms/teamsadmincenter) или удаленного сеанса Windows PowerShell с командлетами [`*-CsTeamsUpgradePolicy` и `*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype) Skype для бизнеса для перенаправления звонков в Teams.
@@ -87,7 +89,7 @@ ms.locfileid: "23882100"
 * **Для клиентов без Skype для бизнеса** звонки по ТСОП будут поступать в Teams.
 
 > [!WARNING]
-> Сейчас задание параметру `CallingDefaultClient` значения Teams будет также влиять на звонки на IP-телефоны Skype для бизнеса. Входящие вызовы не будут поступать на эти телефоны. Их будут принимать только клиенты Teams. Сведения о поддержке существующих сертифицированных SIP-телефонов см. в статье [Переход со Skype для бизнеса на Microsoft Teams: стратегия внедрения возможностей](https://aka.ms/skype2teamsroadmap).
+> В настоящее время задание параметру `CallingDefaultClient` значения "Teams" будет также влиять на звонки на IP-телефоны Skype для бизнеса. Входящие вызовы не будут поступать на эти телефоны. Их будут принимать только клиенты Teams. Сведения о поддержке существующих сертифицированных SIP-телефонов см. в документе с [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) (Переход со Skype для бизнеса на Microsoft Teams: стратегия внедрения возможностей).
 
 ### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Настройка пользователей для получения звонков по ТСОП в Teams
 Примените политику взаимодействия Teams, как описано выше, через удаленный сеанс Windows PowerShell для Skype для бизнеса, чтобы перенаправлять звонки в Teams:

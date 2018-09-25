@@ -5,23 +5,25 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/23/2018
 ms.topic: article
-ms.service: msteams
+ms.service:
+- msteams
+- skype-for-business-online
 ms.reviewer: ''
 search.appverid: MET150
 description: Понять, как управлять всей клиента и пользовательские параметры для группы во время перехода от групп работы в центре администрирования Office 365 для новых групп Майкрософт & Скайп по центру администрирования бизнеса.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: dddb73e5b616fead421d1b610eff6229b4191d06
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: e54dfb0bc62e94e0a870aefc192851ce7b8a53fe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965701"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013901"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business
 ======================================================
@@ -76,7 +78,7 @@ ms.locfileid: "23965701"
 |Настраиваемое облачное хранилище     |Общего банка данных        |TeamsClientConfiguration         |Клиент         |
 |Настраиваемое облачное хранилище     |Диск Google        |TeamsClientConfiguration         |Клиент         |
 |Настраиваемое облачное хранилище     |ShareFile        |TeamsClientConfiguration         |Клиент         |
-|Введите параметры пользователя и лицензии     |Включить группами Майкрософт включено или отключено для всех пользователей          |Рекомендуется использовать. Использование центра администрирования Office 365 для назначения лицензий.        |         |
+|Введите параметры пользователя и лицензии     |Включить группами Майкрософт включено или отключено для всех пользователей          |Является устаревшим. Использование центра администрирования Office 365 для назначения лицензий.  Включение и отключение гостевой будут перемещаться TeamsClientConfiguration - AllowGuestUser      |         |
 |Команды и каналы     |         |Перенаправляет Azure Active Directory Управление групповой (то же, что текущий взаимодействия).              |Пользователь         |
 |Команды и каналы     |         |Перенаправления на управление группами AAD (то же, что текущий взаимодействия).             |Пользователь          |
 |Звонки и собрания     |Разрешить планирование для частных собраний         |TeamsMeetingPolicy         |Пользователь          |

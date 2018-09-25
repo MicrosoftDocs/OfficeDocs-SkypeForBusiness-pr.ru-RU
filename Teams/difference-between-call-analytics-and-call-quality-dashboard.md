@@ -7,8 +7,12 @@ ms.reviewer: mikedav, wlooney
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -19,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Узнайте о вызова аналитики и панель мониторинга качества звонков и когда следует использовать их для мониторинга и устранения проблем качества звонка.
-ms.openlocfilehash: 4ebbf8d2d423a6d251f4d32e626801118dfe7877
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 8d41e051a7f55c24c3388e707648970bb1ab64df
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23869391"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013549"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Вызов аналитики и панель мониторинга качества звонка
 
@@ -74,7 +78,7 @@ Microsoft групп и Скайп для бизнеса предоставля�
   
 Дополнительные сведения о CQD можно [Включить и с помощью вызова панели мониторинга качества для групп Майкрософт и Скайп для бизнеса в Интернет](turning-on-and-using-call-quality-dashboard.md) и [измерения и меры, доступные в вызов качества панели мониторинга для групп Майкрософт и Скайп для бизнеса в Интернет](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Настройка вызова аналитики](set-up-call-analytics.md)
 
 [Устранение неполадок с качеством звонков с помощью средства аналитики звонков](use-call-analytics-to-troubleshoot-poor-call-quality.md)

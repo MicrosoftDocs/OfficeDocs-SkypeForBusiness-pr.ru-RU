@@ -6,9 +6,12 @@ manager: serdars
 ms.reviewer: makolomi
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -20,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить телефонной системой (облако УАТС) для вашей организации. '
-ms.openlocfilehash: 54ac25bb3c2ec88a35bc8e017f7a3eb2e55edc1e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 92d575a3219bcf2a99c48040b77b0eaa2463b25a
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883239"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017689"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Настройка телефонной системы в вашей организации
 
@@ -276,7 +279,7 @@ ms.locfileid: "23883239"
 
 **Дополнительные сведения о назначении лицензий кредитов Communications см [кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md).**
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

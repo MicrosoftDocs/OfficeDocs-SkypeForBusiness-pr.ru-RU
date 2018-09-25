@@ -7,7 +7,9 @@ ms.reviewer: makolomi
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
@@ -21,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Сведения автосекретари телефонной системой (облако УАТС) и их использования. '
-ms.openlocfilehash: f37bed2629926154c037ec8dbaf5e61e9b9ec8d2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d8edb924b030c9008374c8d6f49df5328b630677
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889935"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013805"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Что такое автосекретари телефонной системы?
 
@@ -267,7 +269,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 Можно получить дополнительные сведения о внесении изменений в параметры идентификатор звонящего в вашей организации, [как идентификатор звонящего используются в организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

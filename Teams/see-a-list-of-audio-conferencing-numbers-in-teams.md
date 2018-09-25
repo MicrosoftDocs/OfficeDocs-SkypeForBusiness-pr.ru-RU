@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 2d6b4ed4-e12b-4691-8405-fae720d69425
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о просмотре номеров для конференц-связи с телефонным подключением из Microsoft Teams. '
-ms.openlocfilehash: 2690d446b181ed3fe634c805f93c2aa09396dffe
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 0b7ddc14fd87d62dd276c5b8c76a67572ed484a1
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887419"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017329"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Просмотр списка номеров для аудиоконференций в Microsoft Teams
 
-При настройке аудиоконференций для пользователей Microsoft Teams вы можете просмотреть телефонные номера, доступные им для аудиоконференций. Этот список содержит все телефонные номера аудиоконференций, доступные в вашей организации.
+При настройке звуковое конференц-связи для пользователей, групп Майкрософт можно просмотреть номера телефонов, им доступны для аудиоконференций. Этот список будет содержать все номера телефонов для аудиоконференций, доступные вашей организации.
   
- **Ищете цены?** См. статью [Тарифы на аудиоконференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+ **Ищете цены?** В разделе [ценообразования для аудиоконференций](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
-Если в вашей организации доступен только один телефонный номер, он будет использоваться по умолчанию для всех пользователей. При наличии нескольких телефонных номеров можно выбрать номер по умолчанию для каждого из пользователей. Этот номер по умолчанию будет включен в приглашения на собрание Microsoft Teams.
+Если в вашей организации доступен только один телефонный номер, он будет использоваться по умолчанию для всех пользователей. Если доступно несколько номеров телефонов, для каждого пользователя можно выбрать номер телефона по умолчанию. Этот номер по умолчанию будут включены в приглашения на собрания групп Майкрософт.
   
 Чтобы изменить номер телефонного подключения для отдельного пользователя, см. статью [Настройка телефонных номеров, включаемых в приглашения](set-the-phone-numbers-included-on-invites-in-teams.md).
   

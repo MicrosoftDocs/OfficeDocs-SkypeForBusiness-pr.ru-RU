@@ -10,15 +10,15 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Выберите Тарифные планы и лицензирование, Настройка местоположении для экстренных служб и функций, как код голосовой почты и вызывающего абонента, получить или передачи телефонных номеров.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2eb201c72c66f39478c5ade6b9400e819f2fe932
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0794af6763dd91005bbe8dcd8b19e5a97db55d20
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887364"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014445"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 

@@ -7,9 +7,12 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 3dc773b9-95e0-4448-b2f1-887c54022429
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -22,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Узнайте, какие Office 365 Callings планы (вызов ТСОП) указано, какие области может использоваться в и ссылки для получения пошаговые инструкции о том, как настроить его. '
-ms.openlocfilehash: 240a709c838beaa221be3235f05f92f65faaa1ee
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 032527a0d2244d0121329220a9ef45491ec19017
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890023"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013597"
 ---
 # <a name="what-are-calling-plans-in-office-365"></a>Что такое планы звонков в Office 365?
 
@@ -57,7 +60,7 @@ ms.locfileid: "23890023"
 > Если необходимо больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 
 [Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)

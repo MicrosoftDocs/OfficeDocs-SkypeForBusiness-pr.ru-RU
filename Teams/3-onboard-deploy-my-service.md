@@ -10,15 +10,15 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Загрузите страница Playbook Включение сайта Планирование групп развертывания и ускорить и оптимизации круга пользователей, качество и удовлетворенность с точки зрения.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb83eb7b0bae7b19d5ac6fdeeb7d0466b08927bd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 45d74a26b65f788e914587b521a5bb14ea606567
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23887300"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012307"
 ---
 # <a name="deploy-my-service"></a>Развернуть службу
 

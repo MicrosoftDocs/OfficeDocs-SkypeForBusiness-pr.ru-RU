@@ -9,21 +9,21 @@ ms.service: msteams
 description: Сведения о том, как Группы Office 365 и членство в них используются в Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 386dc9ba6552f4b8cb8110b3351e8073e76a6113
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: d7ce73b84dd45ebe85c82a207fdd1062703a0ffe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975110"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012947"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 групп и группами Майкрософт
 =====================================
 
 > [!Tip]
-> Просмотрите следующие сеанса, чтобы узнать, как группы взаимодействует с Azure Active Directory (AAD), группы Office 365, Exchange, SHarePoint и OneDrive для бизнеса: [Основы группами Майкрософт](https://aka.ms/teams-foundations)
+> Просмотрите следующие сеанса, чтобы узнать, как группы взаимодействует с Azure Active Directory (AAD), группы Office 365, Exchange, SharePoint и OneDrive для бизнеса: [Основы группами Майкрософт](https://aka.ms/teams-foundations)
 
 Группы Office 365 — это служба членства в Office 365. На базовом уровне группа Office 365 представляет собой объект в Azure Active Directory со списком участников и слабой связью с соответствующими рабочими нагрузками, включая сайт группы SharePoint, группу Yammer, ресурсы общего почтового ящика Exchange, Планировщик, PowerBI и OneNote. Вы можете добавить или удалить пользователей в группу так же, как и любой другой объект на основе группы безопасности в службе каталогов Active Directory.
 

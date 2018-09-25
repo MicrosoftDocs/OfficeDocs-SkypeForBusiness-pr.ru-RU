@@ -6,8 +6,12 @@ manager: serdars
 ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: msteams
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- msteams
+- skype-for-business-online
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -18,12 +22,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: В разделе проблемы в имена политик и что можно сделать для fix it для есть со специальными знаками.
-ms.openlocfilehash: 61902c3cdeafbacbf316b99834e7ac32286443b4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e1d46f70b42b96b2f3811c97d0110946fd013cd7
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853417"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017505"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Какие существуют ограничения специального символа в политиках групп?
 
@@ -106,4 +110,4 @@ Windows PowerShell дает возможность управлять польз
     > [!NOTE]
     > Модуль Windows PowerShell для Скайп для бизнеса в Интернет позволяет создавать удаленного сеанса Windows PowerShell, который подключается к Скайп для бизнеса в Интернет и рабочих групп Microsoft. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-### <a name="related-topics"></a>См. также:
+### <a name="related-topics"></a>Связанные разделы

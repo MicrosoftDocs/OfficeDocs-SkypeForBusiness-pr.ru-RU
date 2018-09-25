@@ -1,5 +1,5 @@
 ---
-title: Общие вопросы по аудиоконференциям
+title: Общие вопросы об аудиоконференциях
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,9 +7,12 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Далее представлены некоторые основные вопросы, на которые поступления из наших клиентов, которым требуется использовать звук конференц-связи.
-ms.openlocfilehash: ea2d0e294fbb5ee4b82dc7c50980f9a47ef352ba
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d5ba9368e65afbb6228ebaff0296a57e902cc51c
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889896"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014759"
 ---
-# <a name="audio-conferencing-common-questions"></a>Общие вопросы по аудиоконференциям
+# <a name="audio-conferencing-common-questions"></a>Общие вопросы об аудиоконференциях
 
 Далее представлены некоторые основные вопросы, на которые поступления из наших клиентов, которым требуется использовать звук конференц-связи. 
   
@@ -148,7 +151,7 @@ ms.locfileid: "23889896"
 
 - **Вариант 2**: Если для данного организатора включен параметр «Разрешить непроверенный абонентам первого людей на совещании» (отключен по умолчанию), а затем всех собраний, запланированных, которые этот пользователь будет иметь возможность работы без необходимости организатора вводимых пользователем данных или установил аудиоконференций ПИН-кода. При включении этого параметра собрание начинается сразу после первого присоединения его через телефонные номера, и он или она не будут размещены в зале ожидания. Дополнительные сведения см [Управление аудио параметры конференц-связи для пользователя в группах Майкрософт](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) или [Управление аудио параметры конференц-связи для пользователя в Скайп для бизнеса в Интернет](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
    
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
 [Настройка Skype для бизнеса Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   

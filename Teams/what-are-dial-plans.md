@@ -7,9 +7,12 @@ ms.reviewer: mikedav, roykuntz
 ms.topic: article
 ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Узнайте какой тип телефонным Тарифные планы (вызов ТСОП абонентских групп) доступны при использовании Office 365 и выберите одну для вашей организации.  '
-ms.openlocfilehash: d0a803316326ca4bc4909ad0e15fa4bfc75a3d00
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ad7419af1eb58e25effd646ec2aaaa6644ffe50d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889474"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013589"
 ---
 # <a name="what-are-dial-plans"></a>Что такое абонентские группы?
 
@@ -141,7 +144,7 @@ ms.locfileid: "23889474"
 > Названия правил нормализации из предыдущей таблицы не содержат пробелов, но вы можете использовать пробелы в названиях своих правил. Например, первое правило в таблице могло называться 5 digit extension или 5-digit Extension (добавочный номер из 5 цифр). 
   
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
 [Создание абонентских групп и управление ими](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
 

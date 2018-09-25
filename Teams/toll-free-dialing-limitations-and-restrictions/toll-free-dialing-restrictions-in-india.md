@@ -7,8 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: d9e0809c-633d-4ee9-891b-ff4282789da5
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Skype for Business
@@ -19,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 52fa255944bfa1ddf9e202849e22ee9d9cf103b1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 99b13a33120983c2e57bbe1991a301cb850cf015
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854169"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012851"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Ограничения бесплатных набора номера в Индии
 
@@ -42,7 +46,7 @@ ms.locfileid: "23854169"
 |Доступность мобильных сетей  <br/> |Частично. См. примечания.  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Доступно для абонентов следующих сетей: Loop Mobile, BSNL  наземная связь (все регионы кроме Бхопала), Vodafone, IDEA/SPICE (все регионы, за исключением оператора Spice в Пенджабе), MTS India/Shyam (наземная связь), MTNL  наземная и мобильная связь, Reliance (все регионы кроме: Ахмадабад, Бхопал, Бхубанешвар, Джайпур, Лакхнау, Мератх), TTML и TTSL (наземная связь и оплата по факту), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, сеть Bharti/Airtel.  <br/> Недоступно для абонентов следующих сетей: TTSL (предоплата), Etisalat DB Telecom и Jio.  <br/> |
    
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

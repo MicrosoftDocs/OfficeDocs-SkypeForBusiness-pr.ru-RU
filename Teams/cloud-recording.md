@@ -5,17 +5,18 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Практическое руководство по развертыванию функций облачной голосовой связи в Microsoft Teams.
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14b7003ca1ccecd0574e9c7e06de5cd81d85547e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851177"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014181"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись собрания облачных групп
 
@@ -36,7 +37,7 @@ ms.locfileid: "23851177"
 - Если пользователь изъявил рекомендации по организации, настройте, администратор
 - Пользователь имеет достаточно места в потоке Microsoft для записи будет сохранен
 - Пользователь имеет TeamsMeetingPolicy AllowCloudRecording не установлено значение true
-- Пользователь имеет TeamsMeetingPolicy.AllowTranscription установлено значение "true", поэтому пользователь может выбрать, следует ли автоматически переписать записи
+- Пользователь имеет TeamsMeetingPolicy AllowTranscription установлено значение "true", поэтому пользователь может выбрать, следует ли автоматически переписать записи
 - Пользователь не анонимного, гостя или федеративных пользователей на собрании
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Настройка групп запись собрания облаке для пользователей в вашей организации

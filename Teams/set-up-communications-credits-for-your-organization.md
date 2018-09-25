@@ -7,9 +7,12 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 1e4f48caff52cf648e075d9c4c4972076e124c00
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f82788d34e492b6dd3fe54c60168b8d83b3c09e2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891695"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25018011"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -58,9 +61,11 @@ ms.locfileid: "23891695"
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. В центре администрирования Office 365 на панели навигации слева выберите **Выставление счетов** > **Подписки** > **Надстройки** > **Buy add-ons (Купить надстройки)**, а затем **Кредиты на связь** > **Купить**.
+2. В левой области переходов центра администрирования Office 365, перейдите к **выставления счетов** > **подписки** > **Добавить подписки**.
+
+3. Разверните **дополнительный компонент подписки**, а затем выберите **Кредитов Communications** > **купить**.
     
-3. На странице подписки **Кредитов Communications** заполните данные и нажмите кнопку **Далее**:
+4. На странице подписки **Кредитов Communications** заполните данные и нажмите кнопку **Далее**:
     
   - **Добавить средства**. Введите сумму, которую следует добавить на счет. Если автоматическое пополнение счета отключено, после исчерпания этих средств функции звонков, реализуемые посредством кредитов на связь (например, услуга бесплатных входящих звонков), станут недоступны. Чтобы не пополнять счет кредитов на связь вручную каждый раз, когда остаток на нем достигает нуля, рекомендуем включить функцию автоматического пополнения счета.
     
@@ -75,7 +80,7 @@ ms.locfileid: "23891695"
       > [!NOTE]
     > Средства будут расходоваться только на оплату кредитов на связь по опубликованным корпорацией Майкрософт тарифам при использовании служб. Средства, не израсходованные за 12 месяцев с даты приобретения, списываются и не могут использоваться для оплаты. 
     
-4. Введите платежные данные и выберите команду **Заказать**.
+5. Введите платежные данные и выберите команду **Заказать**.
     >[!IMPORTANT]
     >Если вы являетесь клиентом корпоративного лицензирования, можно выбрать номер соглашение enterprise для платежа. Если у вас есть несколько номеров соглашение enterprise, вы сможете выбрать соглашение enterprise вы хотите использовать для оплаты. Вы также получит возможность указать номер заказа на покупку для связи с номером соглашение enterprise (если применимо).
     
@@ -110,7 +115,7 @@ ms.locfileid: "23891695"
   
 Таблицу с описанием лицензий, необходимых для использования различных компонентов, см. в разделе [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
 - [Настройка Skype для бизнеса Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как выбрать языки автосекретаря аудиоконференций для номера аудиоконференций в Microsoft Teams.
-ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b9613b5e64bad0428975a6acd3b11db16a42c680
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893020"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017955"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Установка языков автосекретаря для аудиоконференций в Microsoft Teams
 
 Автосекретарь аудиоконференций для Microsoft Teams может приветствовать вызывающих абонентов на нескольких разных языках во время присоединения к собранию.
   
-Выберите один основной язык и до четырех дополнительных. Основной язык, который вы установили, автосекретарь будет использовать первым, а дополнительные языки будут использоваться автосекретарем в выбранном вами порядке. 
+Выберите один основной язык и до четырех дополнительных языков. Основной язык, который вы установили, автосекретарь будет использовать первым, а дополнительные языки будут использоваться автосекретарем в выбранном вами порядке. 
   
 > [!NOTE]
 >  Вы можете настроить языки только на внутренних телефонных номерах.
@@ -48,7 +48,7 @@ ms.locfileid: "23893020"
 3. В области справа выберите язык по умолчанию и альтернативные языки. 
  
     > [!NOTE]
-    > В списке отображаются поддерживаемые языки. Порядок выбора языков в списках определяет порядок использования языков для вызывающих абонентов. 
+    > По умолчанию и альтернативные языки, поддерживаемые указаны. Порядок, в котором можно выбрать их в списках будут порядок языков, представленных для вызывающих объектов. 
 
 4. Нажмите кнопку **Сохранить**.
 

@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 26ea19d3-e420-4fc1-baa3-2692d17e5e1d
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, как включить или отключить в Skype отправку сообщений пользователям при изменении таких настроек, как ПИН-код или номер по умолчанию для конференц-связи в Microsoft Teams. '
-ms.openlocfilehash: a59553f26ee39e042fa28d9e58e7f5ae2aae21be
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 2c082410f7acf000473e001f46587025edd6e9c7
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23892504"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015543"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Включение и отключение отправки сообщений электронной почты при изменении настроек аудиоконференций в Microsoft Teams
 
-Если пользователи активированы для участия в аудиоконференциях, они автоматически получают уведомление по электронной почте. В некоторых случаях потребуется сократить количество уведомлений по электронной почте. Для этого можно отключить отправку сообщений.
+Пользователи автоматически получают уведомления по электронной почте, если они активированы для аудиоконференций. Возможны ситуации, тем не менее, чтобы сократить число сообщений электронной почты, отправленных в Microsoft группам пользователей. В этом случае можно отключить функцию отправки сообщений по электронной почте.
   
 Если отправка уведомлений по электронной почте отключена, пользователи не будут получать сообщения аудиоконференций, включая сообщения о разрешении/запрете на использование аудиоконференций, а также о сбросе ПИН-кода и изменении идентификатора конференции или телефонного номера для конференц-связи по умолчанию.
   

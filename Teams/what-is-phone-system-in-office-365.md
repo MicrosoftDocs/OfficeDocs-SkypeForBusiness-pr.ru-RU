@@ -5,9 +5,12 @@ author: tonysmit
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -19,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Ознакомьтесь с телефонной системой может сделать для вас. '
-ms.openlocfilehash: bd0dc1af2e775eb4b62c77666bb9d010ecd4fe87
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ec9dc331d83a94563851958f5b3bc85f6c264070
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883076"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016607"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Что такое телефонная система в Office 365?
 
@@ -73,7 +76,7 @@ ms.locfileid: "23883076"
 
 Если вы готовы приступить к работе, см [телефонной системы в вашей организации](setting-up-your-phone-system.md).
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 - [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)

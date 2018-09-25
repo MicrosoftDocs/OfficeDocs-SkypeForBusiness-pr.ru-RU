@@ -5,6 +5,7 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: bjwhalen
 search.appverid: MET150
 description: Эта статья поможет вам выбрать режиме сосуществования и задайте другие параметры совместной работы.
@@ -12,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69687729ac9d9575b79e53c1ff00396d0db8e51c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2a83382ff46e5a698e3755f2c1d2d859dddd65f0
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856333"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013203"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Настройка параметров сосуществования и обновления
 
@@ -64,7 +65,7 @@ ms.locfileid: "23856333"
 3. Если выбрать любой **режим сосуществования** отличный от **масштабе организации использование параметров**, у вас есть параметр, чтобы включить уведомления в Скайп пользователя для бизнес-приложения, обновление группы в ближайшее время. Можно включить это уведомление для пользователя, включив параметр **Уведомлять Скайп для бизнес-пользователя** .
 4. После внесения изменений нажмите кнопку **Сохранить** .
 
-### <a name="related-topics"></a>См. также:
+### <a name="related-topics"></a>Связанные разделы
 [Планирование поездки](upgrade-plan-journey.md)
 
 [Понять сосуществования и обновление пути для Скайп для бизнеса и рабочих групп](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

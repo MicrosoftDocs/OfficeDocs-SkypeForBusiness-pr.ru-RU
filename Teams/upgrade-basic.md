@@ -11,15 +11,15 @@ description: Ускорение десяти шаг плана для обнов
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea1e371ae10991c5a8d5d9121da9f78fb44af430
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7ba3471b2a51a4629d316a4507a08cd02e30022a
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883215"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015647"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>Обновление базовой 
@@ -151,7 +151,7 @@ ms.locfileid: "23883215"
 
 *(Обновления день)*
 
-Вы — уже является дня, когда ваша организация официально обновляет групп, как решения обмена данными и совместной работы. На портале администрирования Office 365 активируйте ключ upgrade, установка для режима совместной работы **Групп только**. Пользователи будут получать уведомления в их Скайп для клиента Business, что они обновлены до группами.
+Вы — уже является дня, когда ваша организация официально обновляет групп, как решения обмена данными и совместной работы. В группы & Скайп по центру администрирования Business активируйте ключ upgrade путем установки для параметра режима совместной работы **Групп только**. (В центре администрирования, перейдите в раздел **масштабе организации параметры** > **Обновление группы**.) Пользователи будут получать уведомления в их Скайп для клиента Business, что они обновлены до группами.
 
 Мы рекомендуем, что после все обновления, можно отправить сообщение электронной почты, приветствия их группами.
 

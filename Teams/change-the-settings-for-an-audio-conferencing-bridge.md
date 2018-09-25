@@ -7,26 +7,29 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Получите действий, необходимых для изменения параметров конференц-канал, используемый для запрашивать абонентов и сбор имена и ПИН-коды для организаторам собрания, когда они не используют Скайп для бизнеса или группами Майкрософт приложений. '
-ms.openlocfilehash: 314730714ad8ce78e5b3bf72d10544720b624600
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3a1f73d4840aa59fcc217d1f04b9bff09fc0e7c7
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864369"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017111"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение параметров моста аудиоконференций
 
@@ -62,10 +65,10 @@ ms.locfileid: "23864369"
 5. Чтобы указать необходимость отправки электронной почты для пользователей, включение или отключение **автоматически отправлять пользователям по электронной почте при изменении их конфигурации аудиоконференций**.
     Для получения дополнительных сведений см [по электронной почте, автоматически отправляются пользователям при изменении их параметров звука конференц-связи в группах Майкрософт](emails-sent-to-users-when-their-settings-change-in-teams.md) или [по электронной почте для пользователей при изменении их параметров в Скайп для бизнеса в Интернет](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) .
  
-6. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**. 
+6. Нажмите кнопку **Сохранить**. 
 
 
-## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![sfb логотип 30x30.png](media/sfb-logo-30x30.png)  Использование Центра администрирования Skype для бизнеса
+## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  Использование Центра администрирования Skype для бизнеса
 
  **Настройка качества собрания при абонентов присоединиться к собранию**
     
@@ -83,7 +86,7 @@ ms.locfileid: "23864369"
   
    - **ASK абонентов записать их имя перед присоединением к собранию** Этот флажок установлен по умолчанию. Если снять этот флажок, вызывающие объекты не будет предложено записать их имя перед их присоединиться к собранию.
     
-3. См. статью **Изменение параметров моста аудиоконференций**.
+3. После внесения изменений нажмите кнопку **Сохранить**.
     
 **Задать длину ПИН-кода для собраний**
   

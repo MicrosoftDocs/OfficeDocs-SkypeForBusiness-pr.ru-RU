@@ -5,16 +5,17 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Научитесь использовать Windows PowerShell для управления все функции, доступные в группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3deddb614be2ad5ee1389dcf53d8dab749a8567b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0daff64e5a0f6f876de4adb7b60d913fbcce78cb
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855647"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016079"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Управление группами с помощью PowerShell
 
@@ -52,5 +53,5 @@ ms.locfileid: "23855647"
 ### <a name="step-4-connect-using-the-teams-connector-module"></a>Шаг 4: Подключиться, используя модуль соединителя группы
 [Используйте этот раздел справки](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
-### <a name="related-topics"></a>См. также:
+### <a name="related-topics"></a>Связанные разделы
 - [Управление группами функций с помощью PowerShell](manage-features-with-powershell.md)

@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: Ответы на часто задаваемые вопросы от администраторов групп образования корпорации Майкрософт, которые используют команды.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29e242cfdfe4e4e01c20efd2ec9dae996746b493
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 867c5c6a2c4a2bf3456e7956ad1a212ccd75f317
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883223"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014501"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Управления Microsoft Education вопросы и ответы для администраторов
 
