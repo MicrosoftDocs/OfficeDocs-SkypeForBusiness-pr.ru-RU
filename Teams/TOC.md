@@ -40,6 +40,7 @@
 ## [Позволяют группам в организации](Office-365-set-up.md)
 ## [Управление функциями группами в организации](enable-features-office-365.md)
 ### [Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business](manage-teams-skypeforbusiness-admin-center.md)
+### [Управление группами в группами Майкрософт & Скайп по центру администрирования Business](manage-teams-in-modern-portal.md)
 ### [Назначение группы владельцев и членов в группы](assign-roles-permissions.md)
 ### [Публикация приложений в каталог приложений группы клиента](tenant-apps-catalog-teams.md)
 ### [Настройка собрания Скайп приложение для работы с группами](configure-skype-meetings-app-to-work-with-teams.md)
@@ -78,6 +79,7 @@
 <!-- ============================================================ -->
 # [Обновление от Скайп для бизнеса в группы](Journey-SkypeforBusiness-Teams.md)
 ## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Обучение под руководством инструктора для групп](instructor-led-training-teams-landing-page.md)
 ## [Обновление базовой](upgrade-basic.md)
 ### [Образец сообщения электронной почты и опросов](upgrade-emails-surveys.md)
 ## [Обновление специалистов](upgrade-pro.md)
@@ -131,6 +133,7 @@
 
 <!-- ============================================================ -->
 # Учебный курс по
+## [Обучение под руководством инструктора для групп](instructor-led-training-teams-landing-page.md)
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
 ## [Обучение конечных пользователей для работы с Teams](enduser-training.md)
 ## [Видеоролики: Аудиоконференции в Teams](audio-conferencing-videos.md)
