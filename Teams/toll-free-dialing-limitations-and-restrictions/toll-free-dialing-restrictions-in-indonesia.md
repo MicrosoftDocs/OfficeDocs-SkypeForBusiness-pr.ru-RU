@@ -7,8 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 4cec1b2d-80b4-4cc0-b250-19449c7b136b
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,34 +24,34 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 520d5acd9ec9795b76d519868fd32d67fd94637d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 62f455a22b103c9e99946ce0750d355b0fec5eb9
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861021"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012475"
 ---
-# <a name="toll-free-dialing-restrictions-in-indonesia"></a><span data-ttu-id="ce40a-105">Ограничения бесплатных набора номера в Индонезия</span><span class="sxs-lookup"><span data-stu-id="ce40a-105">Toll-free dialing restrictions in Indonesia</span></span>
+# <a name="toll-free-dialing-restrictions-in-indonesia"></a><span data-ttu-id="3c68c-105">Ограничения бесплатных набора номера в Индонезия</span><span class="sxs-lookup"><span data-stu-id="3c68c-105">Toll-free dialing restrictions in Indonesia</span></span>
 
-<span data-ttu-id="ce40a-106">[Найдите другой страны или региона](../toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.</span><span class="sxs-lookup"><span data-stu-id="ce40a-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="3c68c-106">[Найдите другой страны или региона](../toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.</span><span class="sxs-lookup"><span data-stu-id="3c68c-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="ce40a-107">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="ce40a-107">**Details**</span></span>|<span data-ttu-id="ce40a-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="ce40a-108">**Description**</span></span>|
+|<span data-ttu-id="3c68c-107">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="3c68c-107">**Details**</span></span>|<span data-ttu-id="3c68c-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3c68c-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="ce40a-109">— Это бесплатный вызов доступны?</span><span class="sxs-lookup"><span data-stu-id="ce40a-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="ce40a-110">Да</span><span class="sxs-lookup"><span data-stu-id="ce40a-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="ce40a-111">Формат набора</span><span class="sxs-lookup"><span data-stu-id="ce40a-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="ce40a-112">001 803 CCC XXXX</span><span class="sxs-lookup"><span data-stu-id="ce40a-112">001 803 CCC XXXX</span></span> <br/>  <span data-ttu-id="ce40a-113">007 803 CCC XXXX</span><span class="sxs-lookup"><span data-stu-id="ce40a-113">007 803 CCC XXXX</span></span> <br/> |
-|<span data-ttu-id="ce40a-114">Код страны или региона по ISO</span><span class="sxs-lookup"><span data-stu-id="ce40a-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="ce40a-115">ID</span><span class="sxs-lookup"><span data-stu-id="ce40a-115">ID</span></span>  <br/> |
-|<span data-ttu-id="ce40a-116">Охватываемая территория</span><span class="sxs-lookup"><span data-stu-id="ce40a-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="ce40a-117">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="ce40a-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="ce40a-118">Неохватываемая территория</span><span class="sxs-lookup"><span data-stu-id="ce40a-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="ce40a-119">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="ce40a-119">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="ce40a-120">Доступность проводных и наземных линий связи</span><span class="sxs-lookup"><span data-stu-id="ce40a-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="ce40a-121">Да</span><span class="sxs-lookup"><span data-stu-id="ce40a-121">Yes</span></span>  <br/> |
-|<span data-ttu-id="ce40a-122">Доступность мобильных сетей</span><span class="sxs-lookup"><span data-stu-id="ce40a-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="ce40a-p102">Частично. См. примечания.</span><span class="sxs-lookup"><span data-stu-id="ce40a-p102">Partial. See comments.</span></span>  <br/> |
-|<span data-ttu-id="ce40a-125">Примечания, ограничения и проблемы с доступом</span><span class="sxs-lookup"><span data-stu-id="ce40a-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="ce40a-p103">Для расширения охвата предлагается два формата номеров. Номера формата 007 803 CCC XXXX доступны для абонентов сети PT Telkom, включая мобильные линии связи Telkomsel и XL. Номера формата 001 803 CCC XXXX доступны для абонентов сети Indosat. Для мобильной связи: только абоненты Matrix Cellular (префикс 0855, 0858, 0815 и 0816).</span><span class="sxs-lookup"><span data-stu-id="ce40a-p103">Two number formats are provided for greater coverage. The number format 007 803 CCC XXXX format is accessible from the PT Telkom network, including Telkomsel and XL mobile. The number format 001 803 CCC XXXX is accessible from the Indosat network. For mobile: Matrix Cellular (prefix 0855, 0858, 0815, and 0816) only.</span></span>  <br/> |
+|<span data-ttu-id="3c68c-109">— Это бесплатный вызов доступны?</span><span class="sxs-lookup"><span data-stu-id="3c68c-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="3c68c-110">Да</span><span class="sxs-lookup"><span data-stu-id="3c68c-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="3c68c-111">Формат набора</span><span class="sxs-lookup"><span data-stu-id="3c68c-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="3c68c-112">001 803 CCC XXXX</span><span class="sxs-lookup"><span data-stu-id="3c68c-112">001 803 CCC XXXX</span></span> <br/>  <span data-ttu-id="3c68c-113">007 803 CCC XXXX</span><span class="sxs-lookup"><span data-stu-id="3c68c-113">007 803 CCC XXXX</span></span> <br/> |
+|<span data-ttu-id="3c68c-114">Код страны или региона по ISO</span><span class="sxs-lookup"><span data-stu-id="3c68c-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="3c68c-115">ID</span><span class="sxs-lookup"><span data-stu-id="3c68c-115">ID</span></span>  <br/> |
+|<span data-ttu-id="3c68c-116">Охватываемая территория</span><span class="sxs-lookup"><span data-stu-id="3c68c-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="3c68c-117">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="3c68c-117">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="3c68c-118">Неохватываемая территория</span><span class="sxs-lookup"><span data-stu-id="3c68c-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="3c68c-119">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="3c68c-119">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="3c68c-120">Доступность проводных и наземных линий связи</span><span class="sxs-lookup"><span data-stu-id="3c68c-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="3c68c-121">Да</span><span class="sxs-lookup"><span data-stu-id="3c68c-121">Yes</span></span>  <br/> |
+|<span data-ttu-id="3c68c-122">Доступность мобильных сетей</span><span class="sxs-lookup"><span data-stu-id="3c68c-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="3c68c-p102">Частично. См. примечания.</span><span class="sxs-lookup"><span data-stu-id="3c68c-p102">Partial. See comments.</span></span>  <br/> |
+|<span data-ttu-id="3c68c-125">Примечания, ограничения и проблемы с доступом</span><span class="sxs-lookup"><span data-stu-id="3c68c-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="3c68c-p103">Для расширения охвата предлагается два формата номеров. Номера формата 007 803 CCC XXXX доступны для абонентов сети PT Telkom, включая мобильные линии связи Telkomsel и XL. Номера формата 001 803 CCC XXXX доступны для абонентов сети Indosat. Для мобильной связи: только абоненты Matrix Cellular (префикс 0855, 0858, 0815 и 0816).</span><span class="sxs-lookup"><span data-stu-id="3c68c-p103">Two number formats are provided for greater coverage. The number format 007 803 CCC XXXX format is accessible from the PT Telkom network, including Telkomsel and XL mobile. The number format 001 803 CCC XXXX is accessible from the Indosat network. For mobile: Matrix Cellular (prefix 0855, 0858, 0815, and 0816) only.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="ce40a-130">См. также:</span><span class="sxs-lookup"><span data-stu-id="ce40a-130">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="3c68c-130">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="3c68c-130">Related topics</span></span>
 
-[<span data-ttu-id="ce40a-131">Бесплатный номер набору номера, ограничения и ограничения</span><span class="sxs-lookup"><span data-stu-id="ce40a-131">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="3c68c-131">Бесплатный номер набору номера, ограничения и ограничения</span><span class="sxs-lookup"><span data-stu-id="3c68c-131">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="ce40a-132">Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ce40a-132">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="3c68c-132">Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="3c68c-132">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
