@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Сводка: Скайп для Business Server 2015 или Скайп для администраторов Business Online можно использовать эти таблицы понять, какие возможности поддерживаются в какие клиенты.'
-ms.openlocfilehash: cb0955dcb695b0431e73b1f575087b06ec3b0449
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965736"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002391"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Сравнение функций для настольных компьютеров для Скайп для Business Server 2015
  
@@ -111,7 +111,8 @@ ms.locfileid: "23965736"
 Таблица ниже приводит функции, связанные с поддержкой собраний.
   
 > [!NOTE]
->  Скайп для возможности собраний по сети Business не доступны в Скайп для бизнеса Online автономный план 1.
+>  Скайп для возможности собраний по сети Business не доступны в Скайп для бизнеса Online автономный план 1.  План 1, который [не поддерживается](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement
+).
 
 При связи между абонентами Skype пользователь Skype для бизнеса Online с планом 1 может принимать участие в сеансах демонстрации рабочего стола и общего доступа к приложениям, если его пригласит пользователь, имеющий доступ к функциям общего доступа.   
 Дополнительные сведения см [Скайп для описания службы Online бизнеса](https://technet.microsoft.com/library/jj822172.aspx). 
