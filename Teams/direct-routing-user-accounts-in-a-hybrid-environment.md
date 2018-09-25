@@ -5,17 +5,22 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: ''
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: Узнайте о различных сочетаний при создании пользователей и какие комбинации поддерживаются, а не поддерживается.
-ms.openlocfilehash: 8690d294755ed75b1c79a2c1fa61a4df196bc070
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: aa2d5b7b98b4a683f7f79ee9fb9b76e04a40263b
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851313"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014213"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Учетные записи пользователей в гибридной среде с помощью подключения к ТСОП
 
@@ -25,7 +30,7 @@ ms.locfileid: "23851313"
  
 - Скайп для Business Server 2015 или Lync Server 2013 
 - Клиента Office 365 
-- Гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет или группами клиента 
+- Гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет или группами Майкрософт клиента 
 - Пользователей, которым разрешена на выполнение и прием звонков общедоступных переключения телефонной сети общего пользования (PSTN), чтобы и от клиента
 
  

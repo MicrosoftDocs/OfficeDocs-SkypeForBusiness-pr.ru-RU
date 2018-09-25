@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: anprakas
 search.appverid: MET150
 description: Сведения для добавления домена SMTP группы Microsoft как домена разрешенных отправителей в Exchange Online для отправки уведомления участников группы.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f0b20f84484d4b0998a11653fe7f9d2bb1e9899
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 5f99503d91f9d2c674cea6ec1aaf9c5b747a1047
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861587"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014711"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Добавление Microsoft группами домена SMTP как домена разрешенных отправителей в Exchange Online 
 =============================================================================

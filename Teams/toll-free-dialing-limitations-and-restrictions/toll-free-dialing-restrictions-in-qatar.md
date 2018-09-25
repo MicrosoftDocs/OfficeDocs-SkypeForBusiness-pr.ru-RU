@@ -7,8 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 0c1e59f7-99cf-438b-969e-cdf370cfea62
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 3c2a9d241eede4ce7cc8538aec93bc28b0f808a5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 6e0788f59ef6a6a3a2c8655e4cf3adc75ff3f5a7
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866421"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016775"
 ---
 # <a name="toll-free-dialing-restrictions-in-qatar"></a>Ограничения бесплатных набора номера в Катар
 
@@ -43,7 +47,7 @@ ms.locfileid: "23866421"
 |Доступность мобильных сетей  <br/> |Из Qtel &amp; только Vodafone.  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Нет  <br/> |
    
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
 [Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)
 

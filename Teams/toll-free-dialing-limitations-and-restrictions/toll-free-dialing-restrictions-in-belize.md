@@ -7,8 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 087ecda8-29ed-4246-a318-d9d23336a19f
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 307e224af4b70123e3323910201bf4e250f9c42b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: d071371ee959ad7c6affbabe64aedaffa21b6e63
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868087"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015775"
 ---
 # <a name="toll-free-dialing-restrictions-in-belize"></a>Ограничения бесплатных набора номера в Белиз
 
@@ -43,7 +47,7 @@ ms.locfileid: "23868087"
 |Доступность мобильных сетей  <br/> |Частично. См. примечания.  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Мобильный доступ: Доступно для абонентов мобильной сети BTL.  <br/> |
    
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

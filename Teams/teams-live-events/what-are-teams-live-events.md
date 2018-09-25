@@ -5,17 +5,20 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection:
+- Teams_ITAdmin_Help
+- Teams_ITAdmin_Help
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: Узнайте, как Live события позволяет пользователям вещание видео и содержимого для крупных online аудиторий в группами Майкрософт, Yammer и Microsoft потока.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b99bd690bf504645d2967dbab31c3f58fc50fd92
-ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
+ms.openlocfilehash: 1f985164385179c64c05fdadea1c6df5854583e3
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "23999246"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017947"
 ---
 # <a name="what-are-teams-live-events"></a>Что такое группы live событий?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]

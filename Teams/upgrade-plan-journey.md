@@ -11,15 +11,15 @@ description: Планирование обновления, сначала пр�
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07c592f8f3ef6e1021805766189e9c1cd522e8ab
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0a250c41aae8712db3964d04d375ecc834cf5d0d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883231"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017795"
 ---
 ![Убедитесь, что проект настроен для успешной работы с группы правой проекта. Определение области проекта, цели и временной шкалы. Подтверждение проверки готовности к техническим и пользователя. Выполнение плана развертывания. Ведение momentum для обеспечения максимальной результаты.] (media/upgrade-banner-main.png "Приступить к обновлению реализация")
 
