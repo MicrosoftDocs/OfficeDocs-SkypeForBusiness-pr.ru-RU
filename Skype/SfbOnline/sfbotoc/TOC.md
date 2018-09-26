@@ -235,7 +235,8 @@
 ### [Настройка телефонной системы в вашей организации](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Что такое автосекретари телефонной системы?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Настройка автосекретаря телефонной системы](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-#### [Пример реализации - автосекретари](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+#### [Пример для малого бизнеса — Настройка автосекретарю.](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+
 
 ## [Настройка сети для трансляции собраний Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Заблокированные лицензии пользователей для трансляции собраний Skype](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)

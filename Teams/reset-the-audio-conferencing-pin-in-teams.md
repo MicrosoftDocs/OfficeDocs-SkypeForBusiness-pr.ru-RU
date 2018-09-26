@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о ПИН-кодах и их сбросе в Microsoft Teams. '
-ms.openlocfilehash: b88ab6ee2cd498a38026e1fe2bfde04344514901
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f331298915cea6240baeb2f6f6086ec8b9ade675
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014253"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019070"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Сброс ПИН-кода аудиоконференций в Microsoft Teams
 
@@ -35,11 +35,11 @@ ms.locfileid: "25014253"
 
 ## <a name="reset-a-users-pin"></a>Сброс ПИН-кода пользователя
 
-1. В левой области навигации щелкните на элементе **Пользователи** и выберите пользователя в списке доступных пользователей.
+1. В группами Майкрософт & Скайп по центру администрирования бизнеса, на панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
 
-2. В верхней части страницы щелкните на элементе **Изменить**.
+2. В разделе **Audio конференц-связи**щелкните **Сброс ПИН-кода**.
 
-3. В области **Аудиоконференции** щелкните на элементе **Сбросить ПИН-код**.
+3. Нажмите кнопку **восстановить**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

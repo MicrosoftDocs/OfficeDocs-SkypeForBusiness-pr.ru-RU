@@ -11,12 +11,12 @@ description: Практическое руководство по разверт
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014181"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019078"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись собрания облачных групп
 
@@ -62,7 +62,7 @@ ms.locfileid: "25014181"
 
 Используйте параметр AllowCloudRecording TeamsMeetingPolicy в команды PowerShell для управления ли собрания пользователя могут записать или нет. Дополнительные сведения об управлении TeamsMeetingPolicy с Office 365 PowerShell [здесь](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-Обратите внимание, что организатор собрания и инициатор записи необходимо иметь разрешения записи записывать собрание. Если для пользователей, которым назначен пользовательскую политику, пользователи получают глобальной политики, которая имеет запись по умолчанию.
+Обратите внимание, что организатор собрания и инициатор записи необходимо иметь разрешения записи записывать собрание. Если для пользователей, которым назначен пользовательскую политику, пользователи получают глобальной политики, которая имеет AllowTranscription отключен по умолчанию.
 
 Пользователь может вернуться к глобальной политики используйте следующий командлет для удаления назначения политики для пользователя:
 

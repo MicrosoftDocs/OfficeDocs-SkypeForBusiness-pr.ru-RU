@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Сведения автосекретари телефонной системой (облако УАТС) и их использования. '
-ms.openlocfilehash: d8edb924b030c9008374c8d6f49df5328b630677
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5d73a32e7df8e25c24ba7eeaa958d9b8bc4dd80d
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013805"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019104"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Что такое автосекретари телефонной системы?
 
@@ -55,7 +55,7 @@ ms.locfileid: "25013805"
 - Ваша организация должна обладать (как минимум) лицензией типа  Enterprise E3 plus **Телефонная система** или лицензией Enterprise E5. Число пользовательских лицензий **Телефонной системой** , назначенные последствия, что номер службы номера, доступны для использования автосекретарей. Число автосекретарей, которые могут возникнуть, зависит от номеров **Телефонной системой** и **Аудиоконференции** лицензий, для которых в вашей организации. Дополнительные сведения о лицензировании переход [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
     
     > [!TIP]
-    > Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо будет включить их для корпоративной голосовой связи или назначить вызов планы им. В разделе[Назначение Скайп для бизнеса и группами Майкрософт лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). Кроме того, можно использовать Windows PowerShell. Например, выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо будет включить их для корпоративной голосовой связи или назначить вызов планы им. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). Кроме того, можно использовать Windows PowerShell. Например, выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Для получения и использовать службы бесплатных номеров для вашей автосекретари, необходимо настроить связь кредитов. Чтобы сделать это, обратитесь к разделу [Каковы кредитов коммуникации?](what-are-communications-credits.md) и [настроить кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md).
     
@@ -276,5 +276,5 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-  
- 
+[Пример для малого бизнеса — Настройка автосекретарю.](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+

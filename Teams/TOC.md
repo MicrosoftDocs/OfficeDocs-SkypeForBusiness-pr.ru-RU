@@ -474,7 +474,7 @@
 #### [Языки для сообщений и приветствий голосовой почты](languages-for-voicemail-greetings-and-messages.md)
 #### [Настройка идентификатора звонящего для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Настройка автосекретаря телефонной системы](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Пример реализации - автосекретари](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Пример для малого бизнеса — Настройка автосекретарю.](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Настройка голосовой почты телефонной системы](set-up-phone-system-voicemail.md)
 #### [Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
 #### [Ответ автосекретаря и вызвать очереди звонки непосредственно из рабочих групп](answer-auto-attendant-and-call-queue-calls.md)

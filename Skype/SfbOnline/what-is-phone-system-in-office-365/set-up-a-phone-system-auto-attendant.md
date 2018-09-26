@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить и тестирование автосекретари телефонной системой (облако УАТС) для обработки для вашей организации эффективным звонков. '
-ms.openlocfilehash: 00743fed485effe76864f3d7b619d6fb1fd28c0b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b9d6bead2fc4aec259765d322840c948eeb31ef
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884161"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019021"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Настройка автосекретаря телефонной системы
 
@@ -37,14 +37,14 @@ ms.locfileid: "23884161"
 ## <a name="step-1---getting-started"></a>Шаг 1. Начало работы
 
 - Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. После получения счета или службы бесплатных номеров, они будут отображаться на **Скайп по центру администрирования бизнес** > **голосовой связи** > страницы**телефонных номеров** . Для получения номера службы видеть [Приступая к службе номера телефонов для Скайп для бизнеса и группами Майкрософт](getting-service-phone-numbers.md)или существующий номер службы и передача, см [передачи телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365). **User (subscriber)** numbers can't be assigned to auto attendants. Если вы находитесь за пределами США, Скайп по центру администрирования Business нельзя использовать для получения номера службы; [здесь](/microsoftteams/manage-phone-numbers-for-your-organization) вместо этого.
-    
+
     > [!CAUTION]
-    > Чтобы получить и использовать бесплатных номеров телефонов, необходимо настроить кредитов коммуникаций. Чтобы это сделать, обратитесь [Каковы кредитов коммуникации?](/microsoftteams/what-are-communications-credits) и [настроить кредитов коммуникаций для вашей организации](/microsoftteams/set-up-communications-credits-for-your-organization). 
+    > Чтобы получить и использовать бесплатных номеров телефонов, необходимо настроить кредитов коммуникаций. Чтобы это сделать, обратитесь [Каковы кредитов коммуникации?](/microsoftteams/what-are-communications-credits) и [настроить кредитов коммуникаций для вашей организации](/microsoftteams/set-up-communications-credits-for-your-organization).
   
 - Ваша организация должна иметь (как минимум) лицензию типа "Корпоративный E3 с**телефонной системой"** или лицензию "Корпоративный E5". Число назначенных пользовательских лицензий**телефонной системы**влияет на количество сервисных номеров, которые могут быть использованы для автосекретарей. Количество доступных автосекретарей зависит от количества лицензий на **телефонную систему** и **аудиоконференции**вашей организации. Чтобы узнать больше о лицензировании, нажмите [здесь](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо включить их для корпоративной голосовой связи или назначить им вызов планы в Office 365. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Кроме того, можно использовать Windows PowerShell. Например выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` 
+    > Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо включить их для корпоративной голосовой связи или назначить им вызов планы в Office 365. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Кроме того, можно использовать Windows PowerShell. Например выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Шаг 2. Создание нового автосекретаря
 
@@ -65,7 +65,7 @@ ms.locfileid: "23884161"
 
 > [!NOTE]
 > **User (subscriber)** numbers can't be assigned to auto attendants.
-    
+
 ***
 ![Номер 3](../images/sfbcallout3.png)<br/>**Часовой пояс**. Укажите часовой пояс для функции автосекретаря. Он не обязательно должен совпадать с часовым поясом, соответствующим указанному для вашей организации основному адресу. Для каждого автосекретаря можно указать свой часовой пояс, на основе которого в каждом конкретном случае будут установлены соответствующие рабочие часы.
 ***
@@ -261,6 +261,7 @@ ms.locfileid: "23884161"
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](getting-service-phone-numbers.md)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-    
-  
- 
+
+[Что такое автосекретари телефонной системы?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
+
+[Пример для малого бизнеса — Настройка автосекретарю.](tutorial-org-aa.yml)  

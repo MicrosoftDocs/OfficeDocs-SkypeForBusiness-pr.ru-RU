@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как разрешить или запретить пользователям записывать свои имена при присоединении к собранию в Microsoft Teams.
-ms.openlocfilehash: 8583ca92de2544946eb898d128e423b6df62cb24
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cb29fccf8e1997b4c7a82900e3fa6600c603a9a9
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012939"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019062"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Microsoft Teams
 
@@ -36,13 +36,15 @@ ms.locfileid: "25012939"
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Выбор необходимости записи имени вызывающего абонента
 
-1. В группами Майкрософт & Скайп по центру администрирования бизнеса, в левой панели навигации, перейдите к **собраниям** > **Мостов конференции**. 
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
 
-2. В верхней части страницы **Мосты конференц-связи** щелкните **Настройки моста**. 
+1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 
-3. Включите или выключите **уведомления о входе на собрание и выходе из него**.
+2. В верхней части страницы **Мостов конференции** нажмите кнопку **Параметры Bridge**. 
 
-4. При включении уведомлений выберите **Имена или номера телефонов** в разделе **Тип объявлений о входе или выходе**, а затем включите функцию **Попросите абонентов записывать свои имена перед присоединением к собранию.**
+3. Включение или отключение **собрание и выйти из уведомления**.
+
+4. Если Включение уведомлений, выберите **имена или телефонных номеров** в списке **Тип входа и выхода объявлений**и включите **попросите звонящих записать их имя перед присоединением к собранию.**
 
 6. Нажмите кнопку **Сохранить**.
     
@@ -61,4 +63,4 @@ Windows PowerShell дает возможность управлять польз
   
 ## <a name="related-topics"></a>Связанные разделы
 
-[Оцените или приобретите аудиоконференции в Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Пробная и платная аудиоконференции в Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

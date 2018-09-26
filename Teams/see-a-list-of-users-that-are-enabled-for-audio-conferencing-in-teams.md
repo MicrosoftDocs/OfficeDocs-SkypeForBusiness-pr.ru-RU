@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, как просмотреть список пользователей в вашей организации, которые активированы для конференц-связи с телефонным подключением из Microsoft Teams. '
-ms.openlocfilehash: e82d0d265e89c5b717ff25ea7c58ec240b38bea0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a05aa000b2289499c030ac564a5f09eeefdd865a
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014037"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019122"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Просмотр списка пользователей, активированных для аудиоконференций в Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "25014037"
   
 ## <a name="viewing-a-list-of-users"></a>Просмотр списка пользователей
 
-- На панели навигации слева щелкните **Пользователи**.
+- В группами Майкрософт & Скайп по центру администрирования бизнеса, на панели навигации слева щелкните **Пользователи**.
 
 
 ## <a name="what-else-should-i-know"></a>Что еще мне нужно знать?

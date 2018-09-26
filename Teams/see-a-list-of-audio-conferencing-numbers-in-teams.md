@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о просмотре номеров для конференц-связи с телефонным подключением из Microsoft Teams. '
-ms.openlocfilehash: 0b7ddc14fd87d62dd276c5b8c76a67572ed484a1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: de92f552a873cf51a0cc8487d08cacca387e3e7a
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017329"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019038"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Просмотр списка номеров для аудиоконференций в Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "25017329"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Просмотр телефонных номеров аудиоконференций
 
-1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
+1. В группами Майкрософт & Скайп по центру администрирования бизнеса, в левой панели навигации, перейдите к **собраниям** > **мостов конференции**. 
 2.  Вы можете просмотреть телефонные номера, доступные для аудиоконференций.
 
 - Кроме того, можно просмотреть расположение и основной язык, которые будут использоваться автосекретарем аудиоконференций.
