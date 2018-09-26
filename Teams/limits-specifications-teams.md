@@ -6,19 +6,19 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: karuanag
 description: Описание ограничений, спецификации и другие требования, применимые к группами Майкрософт.
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faa31d1a225c19b511e074eedbb5702eb1432a50
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: af408506195878a4c213044e6c2223ae75bb815b
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014831"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090188"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и характеристики для групп Майкрософт
 =============================================
@@ -32,7 +32,7 @@ ms.locfileid: "25014831"
 |-----------|---------------|
 |Число групп, которые может создать пользователь | Может быть ограничение 250 объект & sup1;         |
 |Число участников в группы | 2500       |
-|Число групп, которое может создать глобальный администратор        | Без ограничений   |
+|Число групп, которое может создать глобальный администратор        | 500 000   |
 |Число групп, которые могут возникнуть клиента Office 365    | 500 000     |
 |Число каналов на каждое группы    | 200         |
 
