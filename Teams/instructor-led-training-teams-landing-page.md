@@ -8,12 +8,12 @@ ms.topic: hub-page
 ms.author: dearbeen
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: ed79bef2980c505c6e23a92c12af576ec5f31e3e
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.openlocfilehash: 5f721ccc993e31ae0040df7ea841ef13e86dae26
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25019340"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090228"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -41,7 +41,7 @@ ms.locfileid: "25019340"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>#ThisIsTeams - Ежедневная Демонстрация группами Майкрософт</h3>
+                                                    <h3>#ThisIsTeams - Обзор групп Майкрософт</h3>
                                                     <p>Что такое Microsoft Teams? Присоединяйтесь к нам в этом 30-минутный ориентации обнаружить, групп и как она может работать для вас.</p>
                                                 </div>
                                             </div>
@@ -61,7 +61,7 @@ ms.locfileid: "25019340"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Начало работы с группами</h3>
-                                                    <p>Из беседы и собраний с помощью групп и каналы пользователей будет закрыто этот сеансов с foundation для использования групп с уверенностью.</p>
+                                                    <p>Из беседы и собрания с помощью групп и каналы пользователи будут не изменяйте этот сеанс foundation для использования групп с уверенностью.</p>
                                                 </div>
                                             </div>
                                         </div>

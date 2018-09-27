@@ -17,6 +17,7 @@
 ## [Ограничения и спецификации для групп](limits-specifications-teams.md)
 ## [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
 ## [Получение средств для развертывания Teams](rollout-tools.md)
+## [Планирование управления жизненным циклом в группах](plan-teams-lifecycle.md)
 ## [Планирование управления в группах](plan-teams-governance.md)
 ## [Планирование для государственных учреждений 365 Microsoft - GCC развертываниях](plan-for-government-gcc.md)
 ## Адаптации.
