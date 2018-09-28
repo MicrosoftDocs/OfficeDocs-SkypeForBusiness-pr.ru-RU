@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Получите инструкции по созданию номер телефона по умолчанию для абонентов, чтобы присоединиться к собранию группами Майкрософт. '
-ms.openlocfilehash: f62a6e63181c474d19f403d6c81f858177bd8cd0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 859bf6f4a99f95c67123385c99061b1546eaa60c
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016199"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347579"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Настройка телефонных номеров, включаемых в приглашения в Microsoft Teams
 
@@ -41,23 +41,25 @@ ms.locfileid: "25016199"
   
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Задание или изменение телефонного номера аудиоконференций по умолчанию для организатора собрания или пользователя
 
-1. В левой области навигации щелкните на элементе **Пользователи** и выберите пользователя в списке доступных пользователей.
+![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
 
-    ![Показан выбор пользователей в Microsoft Teams и Центре администрирования Skype для бизнеса](media/teamsselectusers.png)
+1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
 
-2. В верхней части страницы щелкните на элементе **Изменить**.
+    ![Показывает, Выбор пользователей в группы Microsoft и Скайп по центру администрирования Business](media/teamsselectusers.png)
 
-    ![Щелчок на элементе «Изменить» в Microsoft Teams и Центре администрирования Skype для бизнеса](media/teamsedituser.png)
+2. В верхней части страницы нажмите кнопку **Изменить**.
 
-3. Щелкните **Изменить** рядом с элементом **Аудиоконференции**. 
+    ![Нажмите кнопку Изменить в Microsoft групп и Скайп по центру администрирования Business](media/teamsedituser.png)
+
+3. Рядом с пунктом **Аудиоконференции** нажмите **Изменить**. 
     
-    ![Щелчок на элементе «Изменить» рядом с элементом «Аудиоконференции»](media/teamseditaudioconf.png)
+    ![Нажмите кнопку Изменить рядом с пунктом аудиоконференции](media/teamseditaudioconf.png)
 
-4. Используйте поля **Платный номер** и **Бесплатный номер** для ввода номеров для этого пользователя.
+4. Использование полей **бесплатный номер** или **бесплатный номер** для ввода цифр для пользователя.
 
 
 > [!IMPORTANT]
-> При изменении настроек аудиоконференции нужно обновить и отправить участникам повторяющиеся и будущие собрания Microsoft Teams. 
+> При изменении параметров аудиоконференций пользователя повторяющиеся и будущих собраний группами Майкрософт должен быть обновлено и отправлены участникам. 
 
 ## <a name="want-to-use-windows-powershell"></a>Хотите использовать Windows PowerShell?
 
@@ -72,4 +74,4 @@ Windows PowerShell дает возможность управлять польз
     
 ## <a name="related-topics"></a>Связанные разделы
 
-[Оцените или приобретите аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

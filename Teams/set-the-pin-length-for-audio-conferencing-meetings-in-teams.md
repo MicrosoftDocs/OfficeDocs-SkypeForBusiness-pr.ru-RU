@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о параметрах длины и требованиях для ПИН-кода, а также о настройке этой длины для собраний в Microsoft Teams.
-ms.openlocfilehash: db7c62920dc7440cc8356dd3f5275dd551cdfd78
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8e0be3a904f4172aa0f92c1632ad37992a36ab5f
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014919"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347484"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Установка длины ПИН-кода для собраний аудиоконференций в Microsoft Teams
 
@@ -38,11 +38,13 @@ ms.locfileid: "25014919"
   
 ## <a name="setting-the-pin-length"></a>Настройка длины ПИН-кода
 
+![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
+
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 
 2. В верхней части страницы **Мосты конференц-связи** щелкните **Настройки моста**. 
 
-3. В области **Длина ПИН-кода** раздела **Настройки моста** выберите требуемое число цифр для ПИН-кода.
+3. В области **Параметры Bridge** в разделе **Длина ПИН-кода**выберите количество знаков, которое необходимо использовать для ПИН-код.
 
 4. Нажмите кнопку **Сохранить**.
 
@@ -70,4 +72,4 @@ Windows PowerShell дает возможность управлять польз
   
 ## <a name="related-topics"></a>Связанные разделы
 
-[Оцените или приобретите аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

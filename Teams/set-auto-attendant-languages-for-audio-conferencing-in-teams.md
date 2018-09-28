@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как выбрать языки автосекретаря аудиоконференций для номера аудиоконференций в Microsoft Teams.
-ms.openlocfilehash: b9613b5e64bad0428975a6acd3b11db16a42c680
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a9586e7d6741d49342a34a694c2a5def7406946c
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017955"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347492"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Установка языков автосекретаря для аудиоконференций в Microsoft Teams
 
@@ -41,11 +41,13 @@ ms.locfileid: "25017955"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Задание языков для автосекретаря конференц-связи
 
+![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
+
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.
 
-2. Выберите телефонный номер аудиоконференций в списке и затем щелкните **Изменить** в верхней части страницы.
+2. Выберите номер телефона аудиоконференций из списка и в верхней части страницы, нажмите кнопку **Изменить**.
 
-3. В области справа выберите язык по умолчанию и альтернативные языки. 
+3. В области справа выберите нужный язык по умолчанию и любые дополнительные языки. 
  
     > [!NOTE]
     > По умолчанию и альтернативные языки, поддерживаемые указаны. Порядок, в котором можно выбрать их в списках будут порядок языков, представленных для вызывающих объектов. 
@@ -53,7 +55,7 @@ ms.locfileid: "25017955"
 4. Нажмите кнопку **Сохранить**.
 
     
-## <a name="want-else-should-i-know"></a>Что еще мне нужно знать?
+## <a name="want-else-should-i-know"></a>Хотите другим способом, должны знать?
 
 - Со списком поддерживаемых языков для аудиоконференций можно ознакомиться в статье [Поддерживаемые языки аудиоконференций](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).
     
@@ -63,9 +65,9 @@ ms.locfileid: "25017955"
     
 ## <a name="want-to-use-windows-powershell"></a>Хотите использовать Windows PowerShell?
 
-Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+В разделе [Справочник по Microsoft команды PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) для получения дополнительных сведений.
   
 ## <a name="related-topics"></a>Связанные разделы
 
-[Оцените или приобретите аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

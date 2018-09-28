@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 69ed5566d516f89b5b3f2c96ab37e43690693708
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 660854bc851be4409962f1177917e86f2ae3482d
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017899"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347547"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Передача номеров телефонов в Office 365
 
@@ -53,7 +53,7 @@ ms.locfileid: "25017899"
  
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Перейдите в раздел **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Последовательно выберите пункты **группами Майкрософт и Скайп по центру администрирования Business** > **портала прежних версий**.
     
 3. На панели навигации слева выберите раздел **Голосовая связь** > **Заказы на перенос** и нажмите **Добавить**.
     
@@ -81,7 +81,7 @@ ms.locfileid: "25017899"
     
   - **Город**, **Регион**, **Индекс** служебного адреса.
     
-6. На странице **Номера** введите номера телефонов, которые необходимо перенести в формате E.164. Например, в Северной Америке используется формат +1XXXYYYZZZZ. Разделяйте номера телефонов запятой.
+6. На странице **Номера** введите номера телефонов, которые необходимо перенести в формате E.164. Например, в Северной Америке используется формат +1XXXYYYZZZZ. Используйте запятую для разделения нескольких телефонных номеров.
     
     > [!NOTE]
     > При полном переносе необходимо включить в список служебный номер телефона для выставления счетов (BTN). При частичном переносе включать в список служебный номер телефона для выставления счетов (BTN) не требуется. 
@@ -90,7 +90,7 @@ ms.locfileid: "25017899"
     
 7. Нажмите **Продолжить**.
     
-8. На странице **Дата переноса** в раскрывающемся списке **День** выберите дату начала, затем в списке **Время начала** выберите время (EST) и нажмите **Далее**.
+8. На странице " **Дата** " в раскрывающемся списке **день** выберите дату и в раскрывающемся списке **время начала** выберите время (ПРИБЛ) и нажмите кнопку **Далее**.
     
 9. On the **Letter of authorization** page, check each of the following boxes. Then under the **Signature** box, type the person that is authorized to make changes to the account. This is the same name that is used on the **Account Information** page > **Authorizing person**. Then click **Next**.
     

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о просмотре номеров для конференц-связи с телефонным подключением из Microsoft Teams. '
-ms.openlocfilehash: de92f552a873cf51a0cc8487d08cacca387e3e7a
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: e2a3684e7f2c0264e36a6e30ce2df4adf2537895
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019038"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347379"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Просмотр списка номеров для аудиоконференций в Microsoft Teams
 
@@ -45,10 +45,12 @@ ms.locfileid: "25019038"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Просмотр телефонных номеров аудиоконференций
 
-1. В группами Майкрософт & Скайп по центру администрирования бизнеса, в левой панели навигации, перейдите к **собраниям** > **мостов конференции**. 
-2.  Вы можете просмотреть телефонные номера, доступные для аудиоконференций.
+![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
 
-- Кроме того, можно просмотреть расположение и основной язык, которые будут использоваться автосекретарем аудиоконференций.
+1. В левой области переходов, перейдите к **собраниям** > **мостов конференции**. 
+2. Просмотр номера телефонов, которые доступны для аудиоконференций.
+
+- Можно также просмотреть расположение и основной язык, который будет использоваться автосекретарем аудиоконференций.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
@@ -62,5 +64,5 @@ Windows PowerShell дает возможность управлять польз
   
 ## <a name="related-topics"></a>Связанные разделы
 
-[Оцените или приобретите аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
   

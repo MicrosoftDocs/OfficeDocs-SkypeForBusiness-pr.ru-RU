@@ -187,7 +187,7 @@
 ### [Обзор команд и каналов в Teams](teams-channels-overview.md)
 ### [Назначение группы владельцев и членов в группы Microsoft](assign-roles-permissions.md)
 ### [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
-### [Руководство: создание охватывающей всю компанию команды с помощью PowerShell](company-wide-team-creation-powershell.yml)
+### [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
 ## [Гостевой доступ](guest-access.md)
 ### [Присоединение гостя к команде](guest-joins.md)
 ### [Взаимодействие с гостями](guest-experience.md)

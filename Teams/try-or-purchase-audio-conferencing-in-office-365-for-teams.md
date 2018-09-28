@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: 1538781a2704ae65922d57f8ac556fd3e57d7fe4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: efe5ab7189a5012b27b12838844325240b5891f5
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014301"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347555"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Попробуйте или Покупка аудио конференц-связи в Office 365 для групп Майкрософт
 
@@ -38,7 +38,7 @@ ms.locfileid: "25014301"
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Этап 1: Приобрести и назначение лицензий аудиоконференции
 
-Для перехода к этому шагу у Вас должны быть [О правах администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Для выполнения этих действий необходимо быть [глобального администратора или администратора выставления счетов](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) .
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Для приобретения и назначения пользовательских лицензий на аудиоконференции:
 
