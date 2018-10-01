@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: e611b66efb09091303c98dba6c3cdf55d693bc8c
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
+ms.openlocfilehash: d3f16e8eecb9396b4258094e761464625c2db548
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965533"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352308"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Практическое руководство по развертыванию Аудиоконференций в Microsoft Teams
 ============================================================
@@ -229,8 +229,7 @@ ms.locfileid: "23965533"
 <br>
 Техническое планирование для внедрения Аудиоконференций
 -----------------------------------------
-
-При планировании внедрения Аудиоконференций нужно заранее принять ряд решений, чтобы ваша организация была готова использовать систему в соответствии со своими бизнес-потребностями. Эти решения будут внесены в план по технической реализации.
+<a name="technical-planning-for-audio-conferencing"></a> По планированию для технического внедрения аудиоконференции ряд решений должна состоять заранее лучше Подготовка организации для реализации решения, отвечающую бизнес-требований. Эти решения будут внесены в план по технической реализации.
 
 ## <a name="availability-of-audio-conferencing"></a>Доступность Аудиоконференций
 

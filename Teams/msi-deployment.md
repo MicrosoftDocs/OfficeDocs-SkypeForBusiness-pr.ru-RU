@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b72f40e624c63349913688e11ffc30be5a93a92b
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 8230cb0cd03e1ba0b11c43c16d8817fdb80c31ec
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347123"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352284"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Установка Microsoft Teams с помощью MSI
 =================================
@@ -59,7 +59,7 @@ MSI группы будут помещены установщика в Program F
 3. Повторное развертывание пакета MSI для данного компьютера.
 
 > [!TIP] 
-> Наш сценарий [развертывания групп Майкрософт Очистка](.\scripts\Powershell-script-teams-deployment-clean-up.md) можно использовать для выполнения действия 1 и 2 с помощью SCCM.  
+> Наш сценарий [развертывания групп Майкрософт Очистка](scripts/Powershell-script-teams-deployment-clean-up.md) можно использовать для выполнения действия 1 и 2 с помощью SCCM.    
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>Отключение автоматического запуска для установщика MSI
 

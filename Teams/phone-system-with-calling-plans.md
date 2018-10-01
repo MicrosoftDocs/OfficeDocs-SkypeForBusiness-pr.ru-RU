@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: HT
+ms.openlocfilehash: e4c86bb7d918a30b0abe185d67b717904702bc93
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965525"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352300"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Практическое руководство по телефонной системе с планами звонков в Microsoft Teams
 =========================================================================
@@ -231,8 +231,7 @@ ms.locfileid: "23965525"
 <br>
 Планирование технического внедрения телефонной системы с планами звонков
 ------------------------------------------------------
-
-При планировании технического внедрения телефонной системы с планами звонков нужно заранее принять ряд решений, чтобы лучше подготовить организацию к внедрению решения в соответствии с бизнес-требованиями. Эти решения будут внесены в план по технической реализации.
+<a name="technical-planning-for-phone-system-with-calling-plans"></a> Для планирования для технического внедрения телефонной системы с помощью вызова планы, ряд решений должна состоять заранее лучше Подготовка организации для реализации решения, отвечающую бизнес-требований. Эти решения будут внесены в план по технической реализации.
 
 ## <a name="availability-of-calling-plans"></a>Доступность планов звонков
 
