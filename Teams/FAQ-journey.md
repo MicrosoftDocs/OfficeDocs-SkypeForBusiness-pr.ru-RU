@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a59134e48d71f9704054d01fecccff385e45e7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015375"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358903"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "25015375"
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Существует ли крайний срок, к которому клиентам требуется перейти со Skype для бизнеса Online на Teams?
 
-Мы доступна Наш план для групп клиентов можно оценить возможности для групп, относящиеся к их потребности и планирование такого перехода к группам. Клиенты могут определить сроки перехода на Teams, исходя из своих потребностей. Это отличный способ для Оставайтесь в курсе новостей о пути между Скайп для бизнеса группам, [Скайп для Busineses для Microsoft групп возможностях стратегия](https://aka.ms/skype2teamsroadmap)— документ в формате PDF (в только на английском языке, по крайней мере в данный момент), который предоставляет текущих оценках корпорации Майкрософт о Скайп возможности Business готовится к группам.
+Мы доступна Наш план для групп клиентов можно оценить возможности для групп, относящиеся к их потребности и планирование такого перехода к группам. Клиенты могут определить сроки перехода на Teams, исходя из своих потребностей. Это отличный способ для Оставайтесь в курсе новостей о пути между Скайп для бизнеса группам, [Скайп для бизнеса в Microsoft групп возможностях стратегия](https://aka.ms/skype2teamsroadmap)— документ в формате PDF (в только на английском языке, по крайней мере в данный момент), который предоставляет текущих оценках корпорации Майкрософт о Скайп возможности Business готовится к группам.
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Что ждет Skype для бизнеса Server?
 

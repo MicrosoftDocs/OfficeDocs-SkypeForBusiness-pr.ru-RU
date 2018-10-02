@@ -1,5 +1,5 @@
 ---
-title: Нормы и правила для Соединенного Королевства
+title: Тарифные планы в Office 365 — код practice для Великобритании (Великобритания)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: 646d525111e18752492ad7ebc346839b7d296f9b
-ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.openlocfilehash: 7049ea04edab22d43ee69fab08fed35ee7a5ea3e
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25352316"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358966"
 ---
-# <a name="code-of-practice-for-the-united-kingdom-uk"></a>Нормы и правила для Соединенного Королевства
+# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Тарифные планы в Office 365 — код practice для Великобритании (Великобритания)
 
 Этот код применяется для малых предприятий (организаций с 10 сотрудников или менее) в Соединенное Королевство (Великобритания) относительно службы Office 365 вызов планирование («служба») в соответствии с правилами communications (Великобритания). Использование других служб Skype для бизнеса регламентируется вашим соглашением на обслуживание корпорацией Майкрософт, а также другими условиями, применимыми к конкретной службе.
 
