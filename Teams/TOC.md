@@ -215,6 +215,9 @@
 #### [Настройка взаимодействия видео облако](cloud-video-interop-for-teams-set-up.md)
 ### Событий в реальном времени
 #### [Что такое группы live событий?](teams-live-events/what-are-teams-live-events.md)
+#### [Планирование групп событий в реальном времени](teams-live-events/plan-for-teams-live-events.md)
+#### [Настройка для групп событий в реальном времени](teams-live-events/set-up-for-teams-live-events.md)
+#### [Настройка групп событий в реальном времени](teams-live-events/configure-teams-live-events.md)
 
 
 
