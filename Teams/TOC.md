@@ -2,15 +2,14 @@
 # Начало работы
 
 ## [Обзор Teams](Teams-overview.md)
-## [Краткое руководство. Руководство по планированию Teams](quick-start-enable-teams.md)
 ## [Инструменты и семинары. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
-## [Лицензирование Office 365 для Teams](office-365-licensing.md)
 <!-- ============================================================ -->
 
 
 <!-- ============================================================ -->
 # Планирование
 
+## [Краткое руководство. Руководство по планированию Teams](quick-start-enable-teams.md)
 ## [Проверка готовности среды для Teams](environment-readiness.md).
 ## [Подготовка сети организации к использованию Teams](prepare-network.md)
 ## [URL-адреса и диапазоны IP-адресов для Office 365](office-365-urls-ip-address-ranges.md)
@@ -20,8 +19,7 @@
 ## [Планирование управления жизненным циклом в группах](plan-teams-lifecycle.md)
 ## [Планирование управления в группах](plan-teams-governance.md)
 ## [Планирование для государственных учреждений 365 Microsoft - GCC развертываниях](plan-for-government-gcc.md)
-## Адаптации.
-### [Создание стратегии управления изменений](change-management-strategy.md)
+## [Создание стратегии управления изменений](change-management-strategy.md)
 <!-- ============================================================ -->
 
 
@@ -45,7 +43,6 @@
 ### [Назначение группы владельцев и членов в группы](assign-roles-permissions.md)
 ### [Публикация приложений в каталог приложений группы клиента](tenant-apps-catalog-teams.md)
 ### [Настройка собрания Скайп приложение для работы с группами](configure-skype-meetings-app-to-work-with-teams.md)
-## [Современный проверки подлинности](sign-in-teams.md)
 ## [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
 ## [Руководство по развертыванию облачных голосовой связи](cloud-voice-deployment.md)
 ### [Определение Мой success](1-envision-define-my-success-cloud-voice.md)
@@ -67,8 +64,6 @@
 ### [Назначение лицензий Skype для бизнеса и Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Лицензирование надстроек Skype для бизнеса и Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Управление предложение коммерческие пробную версию команды](iw-trial-teams.md)
-### [Настройка кредитов на связь для организации](set-up-communications-credits-for-your-organization.md)
-### [Что такое кредиты на связь?](what-are-communications-credits.md)
 ## Поддерживаемые устройства
 ### [IP-телефонов](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB-устройства аудио- и видеоконференций](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -80,7 +75,6 @@
 <!-- ============================================================ -->
 # [Обновление от Скайп для бизнеса в группы](Journey-SkypeforBusiness-Teams.md)
 ## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Обучение под руководством инструктора для групп](instructor-led-training-teams-landing-page.md)
 ## [Обновление базовой](upgrade-basic.md)
 ### [Образец сообщения электронной почты и опросов](upgrade-emails-surveys.md)
 ## [Обновление специалистов](upgrade-pro.md)
@@ -113,6 +107,19 @@
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
+# Взаимодействие с Office 365
+## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
+## [Задайте вашей сосуществования и параметры обновления](setting-your-coexistence-and-upgrade-settings.md)
+## [Группы Office 365 и Teams](office-365-groups.md)
+## [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
+## [Взаимодействие Exchange и Teams](exchange-teams-interact.md)
+### [Настройка гибридной организации для работы с Teams](exchange-hybrid-organization.md)
+### [Добавление домена SMTP Teams в качестве обслуживаемого в Exchange Online](smtp-accepted-domain.md)
+## [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](sharepoint-onedrive-interact.md)
+## [Группы взаимодействия в Office 365 включена несколькими географически аренде](teams-experience-o365odb-spo-multi-geo.md)
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
 # Управление
 ## [Качество взаимодействия руководство по решению](quality-of-experience-review-guide.md)
 ## Отслеживание качества звонков и качество обслуживания
@@ -137,7 +144,6 @@
 ## [Обучение под руководством инструктора для групп](instructor-led-training-teams-landing-page.md)
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
 ## [Обучение конечных пользователей для работы с Teams](enduser-training.md)
-## [Видеоролики: Аудиоконференции в Teams](audio-conferencing-videos.md)
 <!-- ============================================================ -->
 
 
@@ -146,6 +152,7 @@
 ## [Обзор обеспечения безопасности и соответствия в Teams](security-compliance-overview.md)
 ## [Обнаружение электронных данных в Teams](ediscovery-investigation.md)
 ## [Модели удостоверений и проверка подлинности в Microsoft Teams](identify-models-authentication.md)
+## [Современный проверки подлинности](sign-in-teams.md)
 ## [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
 ## [Поиск событий Teams в журнале аудита](audit-log-events.md)
 ## [Поиск контента в Teams](content-search.md)
@@ -154,35 +161,19 @@
 ### [Политики хранения известные проблемы](retention-policies-known-issues.md)
 ## [Расположение данных в Teams](location-of-data-in-teams.md)
 ## [Объявление о соответствии во Франции для групп Майкрософт специальных возможностей](accessibility-declaration-of-conformance-in-france-for-teams.md)
-##  [Специальные возможности решения для Скайп для бизнеса в Интернет и рабочих групп Microsoft](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [Код упражнения в Великобритании](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Обработка жалоб кода для Великобритании](complaint-handling-code-for-the-united-kingdom-u-k.md)
-##  [Период бесплатного обратного звонка](complimentary-dial-out-period.md)
+## [Специальные возможности решения для Скайп для бизнеса в Интернет и рабочих групп Microsoft](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Тарифные планы в Office 365 — код упражнения в Великобритании](code-of-practice-for-the-united-kingdom-u-k.md)
+##  [Вызов планы в Office 365 — обработка жалоб кода для Великобритании](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ## [Рекомендации по сбору данных](data-collection-practices.md)
 ##  [Метки экстренных вызовов](emergency-calling-labels.md)
 ##  [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
-<!-- ============================================================ -->
-# Взаимодействие с Office 365
-## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
-## [Задайте вашей сосуществования и параметры обновления](setting-your-coexistence-and-upgrade-settings.md)
-## [Группы Office 365 и Teams](office-365-groups.md)
-## [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
-## [Взаимодействие Exchange и Teams](exchange-teams-interact.md)
-### [Настройка гибридной организации для работы с Teams](exchange-hybrid-organization.md)
-### [Добавление домена SMTP Teams в качестве обслуживаемого в Exchange Online](smtp-accepted-domain.md)
-### [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
-## [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](sharepoint-onedrive-interact.md)
-## [Группы взаимодействия в Office 365 включена несколькими географически аренде](teams-experience-o365odb-spo-multi-geo.md)
-<!-- ============================================================ -->
+
 
 
 <!-- ============================================================ -->
 # Возможности
-## Специальные возможности
-### [Декларация о соответствии специальных возможностей Skype для бизнеса Online во Франции](/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Решения для специальных возможностей в Skype для бизнеса Online во Франции](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Команды и каналы
 ### [Обзор команд и каналов в Teams](teams-channels-overview.md)
 ### [Назначение группы владельцев и членов в группы Microsoft](assign-roles-permissions.md)
@@ -231,9 +222,7 @@
 ### [Использование отчетов о действиях для групп](teams-activity-reports.md)
 ### [Использовать встроенный перевод сообщений в группах](inline-message-translation-teams.md)
 ## Облачная система голосовой связи
-### [Назначение лицензий Skype для бизнеса и Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Добавление средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
-### [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Аргентина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [Австралия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 #### [Австрия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -335,6 +324,10 @@
 #### [Управление номерами телефонов в Нидерландах](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Управление номерами телефонов в Соединенном Королевстве](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Управление номерами телефонов в США](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+### Управление кредитов связи
+#### [Что такое кредиты на связь?](what-are-communications-credits.md)
+#### [Настройка кредитов на связь для организации](set-up-communications-credits-for-your-organization.md)
+#### [Добавление средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
 ### [Развертывание стационарных телефонов](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Аудиоконференции
 #### [Руководство по Аудиоконференций в группах](Tutorial-Audio-Conferencing.yml)
@@ -345,7 +338,6 @@
 #### [Поддерживаемые языки для аудиоконференций](audio-conferencing-supported-languages.md)
 #### [Изменение параметров моста аудиоконференций](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [Изменение номеров телефонов для моста аудиоконференций](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-#### [Исходящие звонки, позволяющие другим людям присоединиться к собранию](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
 #### [Автоматическая отправка пользователям писем при смене настроек](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [Включение и отключение отправки писем при смене настроек аудиоконференций](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -466,8 +458,6 @@
 #### [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [Что такое проверка адреса?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Что такое абонентские группы?](what-are-dial-plans.md)
-#### [Планы звонков в Office 365 — нормы и правила для Соединенного Королевства](code-of-practice-for-the-united-kingdom-u-k.md)
-#### [Планы звонков в Office 365 — процедура подачи претензий для Соединенного Королевства](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### Телефонная система
 #### [Что такое телефонная система в Office 365?](what-is-phone-system-in-office-365.md)
 #### [Настройка телефонной системы в вашей организации](setting-up-your-phone-system.md)
