@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: В этом разделе описывается развертывание Системы комнат Skype в локальной среде с одиночным лесом.
-ms.openlocfilehash: 8c931aca8505aa4d41175dbf5e1a138b668323d0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0c3f76d94e54c616068303a08e4e4254f5f8347
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967907"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375303"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Развертывание одного локального леса для системы комнат Skype
  
@@ -30,17 +30,17 @@ ms.locfileid: "20967907"
   
 1. Выполните следующую команду в командной консоли Exchange PowerShell:
     
-  ```
-  Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
 2. Если вы планируете создать новый почтовый ящик, выполните следующую команду для локальной организации Exchange с одиночным лесом:
     
-  ```
-  New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
-  В приведенном выше примере создается активная учетная запись пользователя в Active Directory и почтовый ящик комнаты для конференц-зала в локальной организации Exchange. Параметр RoomMailboxPassword определяет пароль для учетной записи пользователя.
+   В приведенном выше примере создается активная учетная запись пользователя в Active Directory и почтовый ящик комнаты для конференц-зала в локальной организации Exchange. Параметр RoomMailboxPassword определяет пароль для учетной записи пользователя.
     
 3. Настройте учетную запись для автоматического разрешения конфликтов путем приема/отклонения собраний. Скайп выводящий комнаты системы конференц-зала учетными записями в Exchange можно управлять пользователями, однако обратите внимание, что пока человек принимает приглашение на собрание он будет отсутствовать в календаре начального экрана комнаты Скайп системы.
     

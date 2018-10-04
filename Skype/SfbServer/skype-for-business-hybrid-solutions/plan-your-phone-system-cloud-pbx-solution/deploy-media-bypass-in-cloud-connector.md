@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Прочтите этот раздел, чтобы узнать о шаги развертывания, что сервера-посредника Edition соединителя облачных версии 2.0 и более поздней версии с.
-ms.openlocfilehash: ec6647c5d95701ea18a6d403132d50ae8e8ad8dc
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890644"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375501"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Развертывание обхода сервера-посредника в Cloud Connector Edition
  
@@ -150,33 +150,33 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
     
     Амстердам
     
-  - Тип A
+   - Тип A
     
-  - Имя hybridvoice в зоне DNS adatum.biz
+   - Имя hybridvoice в зоне DNS adatum.biz
     
-  - Целевой объект: 192.168.1.45
+   - Целевой объект: 192.168.1.45
     
-    Создайте дополнительные записи для дополнительных серверов-посредников.
+     Создайте дополнительные записи для дополнительных серверов-посредников.
     
-  - 192.168.1.46
+   - 192.168.1.46
     
-  - 192.168.1.47
+   - 192.168.1.47
     
-  - 192.168.1.48
+   - 192.168.1.48
     
-    Сиэтл
+     Сиэтл
     
-  - Тип A
+   - Тип A
     
-  - Имя hybridvoice в зоне DNS adatum.biz
+   - Имя hybridvoice в зоне DNS adatum.biz
     
-  - Целевой объект: 10.10.1.8
+   - Целевой объект: 10.10.1.8
     
-    Создайте дополнительные записи для дополнительных серверов-посредников.
+     Создайте дополнительные записи для дополнительных серверов-посредников.
     
-  - 10.10.1.9
+   - 10.10.1.9
     
-  - 10.10.1.10
+   - 10.10.1.10
     
 4. Создайте политику DNS, которая подключает клиентские подсети к соответствующим областям зоны, чтобы обеспечить требуемое разрешение DNS.
     

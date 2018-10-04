@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Сводка: Прочтите этот раздел, чтобы узнать, как настроить интеграцию сервера Office Web Apps и Скайп для Business Server для включения презентаций PowerPoint для веб-конференций.'
-ms.openlocfilehash: 558ba648cab4dfd2667251ea96bc83d313746f10
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6c7c19f7634c7b0266364d372b573d3d060d5a97
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997316"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375246"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Настройка интеграции с сервером Office Web Apps в Скайп для Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "20997316"
 
 Чтобы добавить сервер Office Web Apps в топологию, выполните следующие действия:
   
-1.  Откройте Скайп для Business Server Topology Builder.
+1. Откройте Скайп для Business Server Topology Builder.
     
 2. В диалоговом окне **построителя топологий** выберите **Загрузить топологию из существующего развертывания**, а затем нажмите **ОК**.
     
@@ -45,9 +45,9 @@ ms.locfileid: "20997316"
     
 6. В диалоговом окне **Определение нового сервера Office Web Apps** введите полное доменное имя (FQDN) сервера Office Web Apps в поле **Полное доменное имя сервера Office Web Apps**; при этом URL-адрес для обнаружения сервера Office Web Apps автоматически вводится в поле **URL-адрес обнаружения сервера Office Web Apps**.
     
-  - При локальной установке сервера Office Web Apps и в одной сетевой зоне как Скайп для Business Server выберите вариант **сервера Office Web Apps развернут во внешней сети (то есть в периметре/Интернете)** не следует выбирать.
+   - При локальной установке сервера Office Web Apps и в одной сетевой зоне как Скайп для Business Server выберите вариант **сервера Office Web Apps развернут во внешней сети (то есть в периметре/Интернете)** не следует выбирать.
     
-  - Если сервер Office Web Apps развернут за пределами внутреннего брандмауэра, выберите режим **Сервер Office Web Apps развернут во внешней сети (периметр/Интернет)**.
+   - Если сервер Office Web Apps развернут за пределами внутреннего брандмауэра, выберите режим **Сервер Office Web Apps развернут во внешней сети (периметр/Интернет)**.
     
 7. В диалоговом окне **Определение нового сервера Office Web Apps** нажмите кнопку **ОК**, затем нажмите кнопку **ОК** в диалоговом окне **Изменение свойств**. URL-адрес для обнаружения Office Online будет отображаться как одна из связей пула.
     
@@ -85,7 +85,7 @@ ms.locfileid: "20997316"
   
  **Office Web Apps Server Внешняя страница выступающего: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; внедрения**
   
- **Страница внутренних attendee Office Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; внедрить = true&amp;**
+ **Страница внутренних attendee Office Web Apps Server: <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp>;**
   
 Если отображается ошибка MCU данных LS событие с Идентификатором события 41033, который означает, что обнаружение сервера Office Web Apps. В этом случае Скайп для Business Server попытается столько раз, сколько для обнаружения вновь настройки сервера Office Web Apps. Если процесс обнаружения не удается выполнить несколько раз следует удалить из документа топологии сервера Office Web Apps, публикация обновленной топологии и повторите Добавление топологии для сервера Office Web Apps, после устранения возможных проблем подключения к.
   

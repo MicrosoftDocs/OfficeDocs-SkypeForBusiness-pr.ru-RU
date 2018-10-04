@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Скайп для Business Server поддерживает простых URL-адресов.
-ms.openlocfilehash: a67e9a8ef46b7809fdc8ce8b4eaadc2ca4720966
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 71935aab09de1598b355d2a7b27dfa02fd169216
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028833"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374992"
 ---
 # <a name="change-simple-urls-after-migration"></a>Изменение простых URL-адресов после миграции
 
@@ -41,8 +41,8 @@ ms.locfileid: "25028833"
     
 2. Установите **Простых URL-адресов** в области слева выберите ниже поле **URL-адрес административного доступа** введите простой URL-адрес для административного доступа к Скайп для панели управления Business Server и нажмите кнопку **ОК**.
     
-    > [!TIP]
-    > В качестве URL-адреса администрирования рекомендуется использовать максимально простой URL-адрес. — Это самый простой вариант https://admin. _ \<домена\>_. 
+   > [!TIP]
+   > В качестве URL-адреса администрирования рекомендуется использовать максимально простой URL-адрес. — Это самый простой вариант https://admin. <em> \<домена\></em>. 
   
 ## <a name="see-also"></a>См. также
 

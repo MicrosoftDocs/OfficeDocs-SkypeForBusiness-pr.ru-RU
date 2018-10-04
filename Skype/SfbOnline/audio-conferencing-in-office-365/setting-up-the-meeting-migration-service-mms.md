@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Служба переноса собраний (MMS) \x97 это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams."
-ms.openlocfilehash: ab2aa3925ff1313798431e8f7bdec525074d2501
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 045896fe8b612e01a22360e0c12f15ebe2719c76
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885214"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374643"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Настройка службы переноса собраний (MMS)
 
-Служба переноса собраний (MMS)  это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams.  Это средство не переносит собрания Skype для бизнеса в собрания Microsoft Teams.  
+Meeting Migration Service (MMS) is a Skype for Business service that runs in the background and automatically updates Skype for Business and Microsoft Teams meetings for users. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.  This tool does not migrate Skype for Business meetings into Microsoft Teams meetings.  
   
  **Требования**
   
@@ -44,7 +44,7 @@ MMS обновляет собрания Skype для пользователей 
     
 - Изменение администратором параметров аудиоконференции для пользователя, при котором требуется изменение сведений об аудиоконференции в собраниях пользователя.
     
- **Распространенные сценарии, в которых невозможно использовать MMS**
+  **Распространенные сценарии, в которых невозможно использовать MMS**
   
 Вот несколько распространенных сценариев, которые могут относиться к вашей ситуации. Это все поддерживаемые сценарии переноса. Но в следующих сценариях MMS работать не будет, и вам придется использовать [средство переноса собраний](https://go.microsoft.com/fwlink/p/?linkid=626047).
   
@@ -107,15 +107,15 @@ MMS обновляет существующие собрания Skype для б
   
 1. Определение всех собраний Skype для бизнеса и Microsoft Teams, которые пользователь запланировал на будущее
     
-  - Все собрания Skype для бизнеса или Microsoft Teams, произошедшие до запуска MMS, не учитываются.
+   - Все собрания Skype для бизнеса или Microsoft Teams, произошедшие до запуска MMS, не учитываются.
     
-  - Обновляются только те собрания, организатором которых является пользователь.
+   - Обновляются только те собрания, организатором которых является пользователь.
     
 2. Замена блока с информацией о собрании в сведениях о собрании
     
 3. Отправка обновлений всем участникам собрания от имени организатора собрания
     
- **Сколько времени занимает перенос собраний с помощью MMS?**
+   **Сколько времени занимает перенос собраний с помощью MMS?**
   
 Время, которое требуется MMS для переноса собраний, зависит от количества затронутых пользователей и от общего количества собраний Skype для бизнеса или Microsoft Teams в календаре для каждого пользователя. Минимальное время переноса составляет 10 минут. Хотя некоторые объемные операции переноса могут занимать до 12 часов, большинство операций должно завершиться в течение часа.
   
@@ -141,7 +141,7 @@ MMS обновляет существующие собрания Skype для б
   
 ## <a name="managing-mms"></a>Управление MMS
 
-Необходимо использовать Windows PowerShell для управления MMS и проверьте состояние текущих миграций. В этом разделе предполагается, что вы знакомы с использованием PowerShell для управления организацией Skype для бизнеса. Если вы только начинаете PowerShell, в разделе [С помощью PowerShell для управления вашей Скайп для организации](setting-up-the-meeting-migration-service-mms.md#WPSInfo) в конце этой статьи.
+You need to use Windows PowerShell to manage MMS and check the status of ongoing migrations. The information in this section assumes that you're familiar with using PowerShell to manage your Skype for Business organization. If you are new to PowerShell, see the [Using PowerShell to manage your Skype for Business organization](setting-up-the-meeting-migration-service-mms.md#WPSInfo) section at the end of this article.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -181,17 +181,17 @@ Get-CsMeetingMigrationStatus -UserId "ashaw@contoso.com"
   
 1. Определите пользователей, которых затронул сбой. Для получения списка пользователей, которых затронул сбой, и возникших ошибок выполните следующую команду:
     
-  ```
-  Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastErrorMessage
-  ```
+   ```
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastErrorMessage
+   ```
 
 2. Для каждого из этих пользователей запустите [средство переноса собраний](https://go.microsoft.com/fwlink/p/?linkid=626047) для переноса собраний этих пользователей вручную.
     
 3. Если с помощью средства переноса собраний перенос выполнить все равно не удается, есть два варианта действий.
     
-  - Попросить пользователей создать собрания Skype заново.
+   - Попросить пользователей создать собрания Skype заново.
     
-  - [Связаться со службой поддержки](https://go.microsoft.com/fwlink/p/?LinkID=518322).
+   - [Связаться со службой поддержки](https://go.microsoft.com/fwlink/p/?LinkID=518322).
     
 ### <a name="enabling-and-disabling-mms"></a>Включение и отключение MMS
 <a name="Troubleshooting"> </a>
@@ -273,13 +273,13 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
     > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
   
 > 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  $credential = Get-Credential
-  $session = New-CsOnlineSession -Credential $credential
-  Import-PSSession $session
-  ```
-Дополнительные сведения о запуске Windows PowerShell см. в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или[Подключение к Skype для бизнеса с использованием Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+>   ```
+>   Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+>   $credential = Get-Credential
+>   $session = New-CsOnlineSession -Credential $credential
+>   Import-PSSession $session
+>   ```
+> Дополнительные сведения о запуске Windows PowerShell см. в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или[Подключение к Skype для бизнеса с использованием Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 - Windows PowerShell, дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     

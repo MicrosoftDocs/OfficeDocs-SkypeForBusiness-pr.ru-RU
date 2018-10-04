@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Надежные пользователя — это один, учетные данные прошедшие проверку подлинности доверенного сервера в Скайп для Business Server. Этот сервер — это обычно сервера Standard Edition, сервер переднего плана Enterprise Edition или директора. Скайп для Business Server использует доменных служб Active Directory как репозиторий серверной single, доверенных учетных данных пользователя.
-ms.openlocfilehash: c16e70641d2ce6e25b932904e9371f7ddf03bdd8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9616774bf721863503c2ebd9145c6860f7068ef3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010648"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375484"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Пользователь и клиент проверки подлинности Скайп для Business Server
  
@@ -57,5 +57,5 @@ ms.locfileid: "21010648"
     
 - HMACSHA512
     
- Значения AES, 3DES и MD5 больше не поддерживаются, в отличие от ASP.NET 4. [Улучшения шифрования в ASP.NET 4.5, пункта 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) имеет более подробных сведений.
+  Значения AES, 3DES и MD5 больше не поддерживаются, в отличие от ASP.NET 4. [Улучшения шифрования в ASP.NET 4.5, пункта 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) имеет более подробных сведений.
   

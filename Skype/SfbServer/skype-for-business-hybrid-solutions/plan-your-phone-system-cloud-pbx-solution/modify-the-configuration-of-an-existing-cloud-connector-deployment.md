@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Выполните действия, описанные в этом разделе, чтобы изменить конфигурацию существующего Скайп для соединителя Cloud Business Edition версии 1.4.1 или более поздняя версия развертывания.
-ms.openlocfilehash: fe226e67f6f492e0fae7473156908cd4a5147ea2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885805"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375374"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Изменение конфигурации существующего развертывания Cloud Connector
  
@@ -31,75 +31,75 @@ ms.locfileid: "23885805"
   
 1. Выполните следующий командлет, чтобы удалить все существующие виртуальные машины на сервере узла.  
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. Выполните следующий командлет, чтобы отменить регистрацию устройства:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. Измените файл CloudConnector.ini в каталоге устройств.
     
 4. Выполните следующий командлет, чтобы обновить конфигурацию: (этот шаг применима только для версии 2; для предыдущих версий, перейдите к следующему шагу.)
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. Выполните следующий командлет, чтобы зарегистрировать устройство снова:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. Выполните следующий командлет, чтобы установить Skype для бизнеса Cloud Connector Edition:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 При наличии нескольких устройств на сайте необходимо выполнить эти шаги, изменить файл CloudConnector.ini и последовательно развернуть все устройства снова.
   
 1. Выполните следующий командлет, чтобы удалить все существующие виртуальные машины на текущем устройстве. 
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. Выполните следующий командлет, чтобы отменить регистрацию устройства:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. Измените файл CloudConnector.ini в каталоге устройств.
     
 4. Выполните следующий командлет, чтобы обновить конфигурацию: (этот шаг применима только для версии 2; для предыдущих версий, перейдите к следующему шагу.)
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. Выполните следующий командлет, чтобы зарегистрировать устройство снова:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. Выполните следующий командлет на всех остальных устройствах сайта, чтобы получить последнюю конфигурацию:
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 7. Выполните следующий командлет, чтобы снова развернуть соединитель облака на текущем устройстве:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="modify-the-configuration-of-multiple-sites"></a>Изменение конфигурации нескольких сайтов
 <a name="BKMK_MultipleSites"> </a>
@@ -115,45 +115,45 @@ ms.locfileid: "23885805"
   
 1. Свойство EnableAutoUpdate сайта должен иметь значение true (значение по умолчанию). Выполните следующий командлет, чтобы убедиться, что свойство EnableAutoUpdate имеет значение true:
     
-  ```
-  Get-CsHybridPSTNSite -Identity <SiteName>
-  ```
+   ```
+   Get-CsHybridPSTNSite -Identity <SiteName>
+   ```
 
 2. Создайте период автоматического обновления для клиента.
     
     Автоматическое обновление может выполняться ежедневно, еженедельно и ежемесячно. Для каждого периода необходимо задать дату начала и продолжительность.
     
-  - Для ежедневного обновления требуется указать только время начала и продолжительность.  
+   - Для ежедневного обновления требуется указать только время начала и продолжительность.  
     
-  - Для еженедельного обновления необходимо указать один или несколько дней недели.
+   - Для еженедельного обновления необходимо указать один или несколько дней недели.
     
-  - Ежемесячное обновление может выполняться двумя разными способами. В первом случае указывается день месяца. Во втором задаются недели и дни недели (допускается выбор нескольких элементов).
+   - Ежемесячное обновление может выполняться двумя разными способами. В первом случае указывается день месяца. Во втором задаются недели и дни недели (допускается выбор нескольких элементов).
     
-  - Для каждого клиента можно определить 20 периодов времени. По умолчанию для нового клиента устанавливается период, соответствующий периоду обновления операционной системы и компонентов. Чтобы настроить ежедневное, еженедельное или ежемесячное обновление, выполните следующие командлеты:
+   - Для каждого клиента можно определить 20 периодов времени. По умолчанию для нового клиента устанавливается период, соответствующий периоду обновления операционной системы и компонентов. Чтобы настроить ежедневное, еженедельное или ежемесячное обновление, выполните следующие командлеты:
     
-  ```
-  New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
+   ```
 
-  - Задайте интервал времени обновления для сайта. 
+   - Задайте интервал времени обновления для сайта. 
     
-    Интервалы времени обновления BITS-файлов и операционной системы задаются отдельно. В обоих случаях можно настроить один или несколько интервалов времени. Каждый интервал времени может быть назначен разным сайтам для разных целей (обновление BITS-файлов или операционной системы). Выполните следующий командлет, чтобы установить интервал времени для сайта: 
+     Интервалы времени обновления BITS-файлов и операционной системы задаются отдельно. В обоих случаях можно настроить один или несколько интервалов времени. Каждый интервал времени может быть назначен разным сайтам для разных целей (обновление BITS-файлов или операционной системы). Выполните следующий командлет, чтобы установить интервал времени для сайта: 
     
-  ```
-  Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
-  ```
+   ```
+   Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
+   ```
 
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Обновите выделенные учетные данные администратора клиента. 
 <a name="BKMK_MultipleSites"> </a>
@@ -178,11 +178,11 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. Выполните следующие команды, чтобы получить пароли, которые вам понадобятся в дальнейшем.  
     
-  - Get-CcCredential - AccountType страница - DisplayPassword
+   - Get-CcCredential - AccountType страница - DisplayPassword
     
-  - Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-  - Get-CcCredential - AccountType CceService - DisplayPassword
+   - Get-CcCredential - AccountType CceService - DisplayPassword
     
 2. Измените пароль учетной записи на сервере узла.
     
@@ -226,17 +226,17 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. Выполните следующие команды, чтобы получить имена учетных записей и пароли, которые будут использовать более поздней версии.
     
-  ```
-  Get-CcCredential -AccountType TenantAdmin -DisplayPassword
-Get-CcCredential -AccountType TenantAdmin
-Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
-Get-CcCredential -AccountType OMSWorkspace 
-Get-CcCredential -AccountType ExternalCert -DisplayPassword
-Get-CcCredential -AccountType CABackupFile -DisplayPassword
-Get-CcCredential -AccountType CceService -DisplayPassword
-Get-CcCredential -AccountType VMAdmin -DisplayPassword
-Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-  ```
+   ```
+   Get-CcCredential -AccountType TenantAdmin -DisplayPassword
+   Get-CcCredential -AccountType TenantAdmin
+   Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
+   Get-CcCredential -AccountType OMSWorkspace 
+   Get-CcCredential -AccountType ExternalCert -DisplayPassword
+   Get-CcCredential -AccountType CABackupFile -DisplayPassword
+   Get-CcCredential -AccountType CceService -DisplayPassword
+   Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   Get-CcCredential -AccountType DomainAdmin -DisplayPassword
+   ```
 
 2. Выполните командлет CcUpdate ввод для извлечения устройства и перетащить его в режим обслуживания вручную.
     
@@ -250,29 +250,29 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 6. По умолчанию для учетных записей VmAdmin и DomainAdmin используется тот же пароль, что и для CceService. Если пароли для учетных записей DomainAdmin, VMAdmin и CceService, возвращаемые на шаге 1, различаются между собой, необходимо выполнить следующие действия.
     
-1. Запустите командлет Set-CcCredential -AccountType DomainAdmin, следуя инструкциям ниже.
+7. Запустите командлет Set-CcCredential -AccountType DomainAdmin, следуя инструкциям ниже.
     
-  - При запросе учетных данных старой учетной записи введите учетные данные, которые использовались с паролем для учетной записи CceService.
+   - При запросе учетных данных старой учетной записи введите учетные данные, которые использовались с паролем для учетной записи CceService.
     
-  - При запросе учетных данных новой учетной записи введите пароль для учетной записи DomainAdmin, возвращенный на шаге 1.
+   - При запросе учетных данных новой учетной записи введите пароль для учетной записи DomainAdmin, возвращенный на шаге 1.
     
-2. Запустите командлет Set-CcCredential -AccountType VmAdmin, следуя инструкциям ниже.
+8. Запустите командлет Set-CcCredential -AccountType VmAdmin, следуя инструкциям ниже.
     
-  - При запросе учетных данных старой учетной записи введите учетные данные, которые использовались с паролем для учетной записи CceService.
+   - При запросе учетных данных старой учетной записи введите учетные данные, которые использовались с паролем для учетной записи CceService.
     
-  - При запросе учетных данных новой учетной записи введите пароль для учетной записи VmAdmin, возвращенный на шаге 1.  
+   - При запросе учетных данных новой учетной записи введите пароль для учетной записи VmAdmin, возвращенный на шаге 1.  
     
-7. Выполните командлет CcUpdate выхода для перемещения устройства из режима обслуживания вручную.
+9. Выполните командлет CcUpdate выхода для перемещения устройства из режима обслуживания вручную.
     
-8. После выполнения этих действий на всех устройствах на том же сайте PSTN, удалите следующие файлы в корневой папке сайта:
+10. После выполнения этих действий на всех устройствах на том же сайте PSTN, удалите следующие файлы в корневой папке сайта:
     
-  - CcLockFile
+    - CcLockFile
     
-  - Site_\<полное доменное имя пограничного пула внешнего Sip\>
+    - Site_\<полное доменное имя пограничного пула внешнего Sip\>
     
-  - Tenant_\<полное доменное имя пограничного пула внешнего Sip\>
+    - Tenant_\<полное доменное имя пограничного пула внешнего Sip\>
     
-  - TenantConfigLock_\<полное доменное имя пограничного пула внешнего Sip\>
+    - TenantConfigLock_\<полное доменное имя пограничного пула внешнего Sip\>
     
 ## <a name="add-a-new-sip-domain"></a>Добавьте новый домен SIP. 
 <a name="BKMK_UpdatePassword"> </a>
@@ -287,9 +287,9 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 4. Задайте путь к новому внешнему сертификату пограничного компонента в следующем виде:
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
@@ -308,17 +308,17 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 4. Задайте путь к новому внешнему сертификату пограничного компонента в следующем виде:
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
     Удалите регистрацию клиента для каждого устройства на сайте, выполнив следующий командлет в администратор PowerShell на соединителе облаке:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 6. 
     
@@ -326,33 +326,33 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 
     
-  ```
-  Remove-CsHybridPSTNSite
-  ```
+   ```
+   Remove-CsHybridPSTNSite
+   ```
 
 7. 
     
     Удалите каждого устройства, выполнив следующий командлет в администратор PowerShell на соединителе облачных:
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 8. 
     
      Регистрация каждого устройства, выполнив следующий командлет в администратор PowerShell на соединителе облаке:
     
-  ```
-  Register-ccAppliance
-  ```
+   ```
+   Register-ccAppliance
+   ```
 
 9. 
     
      Установка каждого устройства по одному, выполнив следующий командлет в администратор PowerShell на соединителе облаке:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>Замените сертификат внешней границы нового сертификата
 <a name="BKMK_UpdatePassword"> </a>
@@ -363,9 +363,9 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 2. Выполните следующую команду. 
     
-  ```
-  Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
+   ```
 
 3. 
     

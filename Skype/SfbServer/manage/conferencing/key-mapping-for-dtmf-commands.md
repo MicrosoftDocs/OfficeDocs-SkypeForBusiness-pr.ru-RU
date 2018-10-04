@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Сводка: Сведения об управлении сопоставления клавиш для команд тонального (двухтональный) в Скайп для Business Server.'
-ms.openlocfilehash: 629db0c94b71b9cbf54ebf2c6f6a5074b4b611fa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c745a621704c677ffb36acb4667021e9734ca398
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992684"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374880"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Управление сопоставления клавиш для команд DTMF в Скайп для Business Server
  
@@ -34,19 +34,19 @@ ms.locfileid: "20992684"
     
 3. Для просмотра параметров DTMF, используемых для конференц-связи с телефонным подключением, выполните следующую команду в окне командной строки:
     
-  ```
-  Get-CsDialinConferencingDtmfConfiguration
-  ```
+   ```
+   Get-CsDialinConferencingDtmfConfiguration
+   ```
 
 4. Для изменения параметров DTMF, используемых для конференц-связи с телефонным подключением, выполните следующий командлет и укажите клавишу, назначаемую каждому параметру, который требуется изменить:
     
-  ```
-  Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
-[-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
-[-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
-[-HelpCommand <default key is 1>] [-LockUnlockConferenceCommand <default key is 7>]
-[-MuteUnmuteCommand <default key is 6>] [-PrivateRollCallCommand <default key is 3>]
-  ```
+   ```
+   Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
+   [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
+   [-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
+   [-HelpCommand <default key is 1>] [-LockUnlockConferenceCommand <default key is 7>]
+   [-MuteUnmuteCommand <default key is 6>] [-PrivateRollCallCommand <default key is 3>]
+   ```
 
 5. (Дополнительно). Чтобы создать дополнительные наборы команд DTMF для конкретных сайтов, используйте командлет **New-CsDialinConferencingDtmfConfiguration**, указав идентификатор сайта.
     

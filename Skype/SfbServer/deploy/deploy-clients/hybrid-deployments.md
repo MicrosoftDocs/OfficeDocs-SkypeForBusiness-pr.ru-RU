@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Прочтите этот раздел, чтобы узнать, как развертывание системы Скайп помещения в гибридной среде.
-ms.openlocfilehash: ce57178a03a466b76edfbafdcc467d9458028845
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4e73b182f7e957f6f8a45e2ba0ccaa113a96411f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997295"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375282"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Гибридное развертывание системы комнат Skype
  
@@ -28,9 +28,9 @@ ms.locfileid: "20997295"
   
 1. Создание почтового ящика ресурсов в центре администрирования Exchange (LyncSample.ccsctp.net) с помощью подключения к консоли управления Exchange Online, как описано в Exchange Online подготовки.
     
-  ```
-  New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
-  ```
+   ```
+   New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
+   ```
 
     Вы можете проверить подключения OWA, с использованием lrstest5@LyncSample.ccsctp.net для входа.
     
@@ -44,8 +44,8 @@ ms.locfileid: "20997295"
     
     После создания почтового ящика для его настройки можно использовать Set-CalendarProcessing в командной консоли Exchange Online. Для получения дополнительных сведений см. шаги 3-6 в разделе "Локальные развертывания с одиночным лесом".
     
-    > [!NOTE]
-    > Если у вас есть гибридной среде с Exchange Server и Exchange Online, перейдите к командной консоли Exchange и Enable-RemoteMailbox lrstest5@LyncSample.mail.ccsctp.net - RemoteRoutingAddress lrstest5@LyncSample.com-комнаты. Запустите синхронизацию с каталогом. 
+   > [!NOTE]
+   > Если у вас есть гибридной среде с Exchange Server и Exchange Online, перейдите к командной консоли Exchange и Enable-RemoteMailbox lrstest5@LyncSample.mail.ccsctp.net - RemoteRoutingAddress lrstest5@LyncSample.com-комнаты. Запустите синхронизацию с каталогом. 
   
     Если требуется разместить Скайп комнаты системных почтовых ящиков в Exchange Online, эти действия Командная консоль Exchange не являются обязательными и можно перейти к шагу 6.
     

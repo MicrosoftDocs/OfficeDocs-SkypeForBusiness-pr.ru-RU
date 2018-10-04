@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Сводка: Установка и настройка узлов-наблюдателей для Скайп для искусственных транзакций Business Server.'
-ms.openlocfilehash: 4e7b0b8c1874a2491cc34d26a8ef6870c412b760
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6719826515954290f30eac272f638b846f45142a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015640"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375988"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Установка и настройка узлов-наблюдателей
  
@@ -281,9 +281,9 @@ C:\Tools\Watchernode.msi authentication=trustedserver
     
 2. В консоли управления Skype для бизнеса Server введите следующую команду и нажмите клавишу ВВОД (укажите фактический путь к копии файла Watchernode.msi).
     
-  ```
-  c:\Tools\Watchernode.msi Authentication=Negotiate
-  ```
+   ```
+   c:\Tools\Watchernode.msi Authentication=Negotiate
+   ```
 
 > [!NOTE]
 > Как указывалось выше, файл Watchernode.msi также можно запустить из окна командной строки. Чтобы открыть это окно, в меню **Пуск** правой кнопкой мыши щелкните пункт **Командная строка** и выберите команду **Запуск от имени администратора**. Когда откроется окно командной строки, введите в нем команду, показанную на шаге 2 выше. 

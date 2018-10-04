@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Сводка: Подготовка к Скайп для серверов Business Server 2019 и инфраструктуры домена в этом разделе. Оборудование, операционная система, баз данных, программного обеспечения, все требования к системе и рекомендации, а также сертификат DNS, файловый ресурс и сведения Active Directory, являются здесь для обеспечения успешной установки и развертывания фермы серверов.'
-ms.openlocfilehash: eb6e0b4207d266e8b3a12ab62332fd99c717c1ec
-ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
+ms.openlocfilehash: a5422f52e9158d01f821c0a2abd051917fbed7b1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030646"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375129"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2019"></a>Требования к серверу для Скайп для Business Server 2019
 
@@ -79,9 +79,9 @@ ms.locfileid: "25030646"
 
 > [!NOTE]
 > Вне зависимости от роли сервера, мы также рекомендуем следующие параметры настройки для Скайп Business Server 2019 (это может изменяться в зависимости от марки оборудования, вы приобрели, поэтому обратитесь к документации по особенности):
-- BIOS config - должно быть присвоено ПЛОСКОЙ из NUMA.
-- Включение технология Hyper-Threading.
-- 8 очередь необходимо задать параметр очереди RSS-канал.
+> - BIOS config - должно быть присвоено ПЛОСКОЙ из NUMA.
+> - Включение технология Hyper-Threading.
+> - 8 очередь необходимо задать параметр очереди RSS-канал.
 
    
 ## <a name="operating-systems-for-skype-for-business-server-2019"></a>Операционные системы, Скайп для Business Server 2019

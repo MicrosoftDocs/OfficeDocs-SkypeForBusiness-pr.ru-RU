@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Сводка: Узнайте, как для получения, обновления и создать параметры конфигурации для службы централизованного ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: 163ac9607e3b690aac2f069c38e967692721d819
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253120"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375603"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Управление параметрами конфигурации централизованной службы ведения журналов в Skype для бизнеса Server 2015
 
@@ -66,9 +66,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
 Используйте командлеты **New-CsClsConfiguration** и **Set-CsClsConfiguration** для создания новой конфигурации или для обновления существующей конфигурации. При выполнении **Get-CsClsConfiguration**, отображает сведения, похожие на следующем рисунке, где развертывания в настоящее время имеет глобальную конфигурацию по умолчанию, но не определен конфигурации сайта:
 
@@ -80,9 +80,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-  ```
-  Get-CsClsConfiguration -LocalStore
-  ```
+   ```
+   Get-CsClsConfiguration -LocalStore
+   ```
 
 При использовании первом примере где **Get-CsClsConfiguration** никакие параметры не указаны, команда ссылки хранилища для данных. Если указан параметр - LocalStore, команда ссылается на компьютере LocalStore вместо центрального хранилища управления.
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>Получение списка сценариев, определенных в текущий момент
@@ -91,15 +91,15 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-  ```
-  Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
+   ```
 
     Например для получения сценариев, определенных в глобальной области, выполните следующую команду.
 
-  ```
-  Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
+   ```
 
 Командлет **Get-CsClsConfiguration** всегда отображается сценариев, которые являются частью конфигурации заданной области действия. В большинстве случаев отображаются не все сценарии, кроме того, отображаемые сценарии сокращаются. Используемая здесь команда отображает список всех сценариев и частичные сведения об используемых поставщиках, настройках и флагах.
 ### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Обновление глобальной области для службы централизованного ведения журналов с помощью Windows PowerShell
@@ -108,15 +108,15 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-  ```
-  Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  Например:
+   Например:
 
-  ```
-  Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
+   ```
 
 При выполнении этой команды CLSAgent на каждом компьютере и в каждом пуле развертывания задает для размера переключения на новый файл трассировки значение 40 МБ. Эта команда влияет на компьютеры и пулы на всех сайтах и задает в качестве размера переключения на новый журнал трассировки значение 40 МБ.
 ### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Обновление области сайта для службы централизованного ведения журналов с помощью Windows PowerShell
@@ -125,15 +125,15 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-  ```
-  Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  Например:
+   Например:
 
-  ```
-  Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
+   ```
 
 > [!NOTE]
 > Как отмечено в примере, расположением файлов журнала по умолчанию является каталог %TEMP%\Tracing. Однако так как фактически файл записывает CLSAgent, который выполняется как сетевая служба, переменная %TEMP% расширяется до %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.
@@ -145,9 +145,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-  ```
-  New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
-  ```
+   ```
+   New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
+   ```
 
     > [!NOTE]
     > Командлет New-CsClsConfiguration предоставляет доступ к большому количеству необязательных параметров конфигурации. Для получения дополнительных сведений о параметрах конфигурации видеть [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) и [Общие сведения о централизованного ведения журналов параметры конфигурации службы](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx).
@@ -165,9 +165,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-  ```
-  Remove-CsClsConfiguration -Identity <scope and name>
-  ```
+   ```
+   Remove-CsClsConfiguration -Identity <scope and name>
+   ```
 
 К примеру Чтобы удалить конфигурацию централизованной службы ведения журналов, созданный для увеличения времени откат файлов журнала, увеличение размера файла журнала откат и задайте расположение кэша файла журнала в сетевом ресурсе, как показано ниже:
 

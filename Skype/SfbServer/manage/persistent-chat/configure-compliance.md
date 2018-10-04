@@ -10,92 +10,92 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Сводка: Узнайте, как настроить службу соответствия Persistent Chat Server в Скайп для Business Server 2015.'
-ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d6fff09a59870c8550627bcf4222192e405c871
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026618"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375931"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Настройка службы проверки на соответствие для сервера сохраняемого чата в Skype для бизнеса Server 2015
- 
+
 **Сводка:** Узнайте, как настроить службу соответствия Persistent Chat Server в Скайп для Business Server 2015.
-  
+
 Проверка совместимости сохраняемого чата позволяет администраторам хранить архив сообщений сохраняемого чата и действий в нем. Служба соответствия записей и архивов данные, связанные с каждой беседы сервера сохраняемого чата, в том числе участника:
-  
+
 - Операторы комнаты сохраняемого чата
-    
+
 - покидает комнату чата;
-    
+
 - публикует сообщение;
-    
+
 - просматривает историю чата;
-    
+
 - отправляет файл;
-    
+
 - загружает файл.
-    
+
 Эта информация может извлекаться из базы данных проверки совместимости SQL по мере необходимости. 
 
 > [!NOTE]
 > Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны либо перенос пользователей, которым требуется эта функция групп, или для дальнейшего использования Скайп для Business Server 2015. 
-  
+
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Настройка службы проверки совместимости с помощью Windows PowerShell
 
 Включив службы проверки совместимости с помощью построителя топологий, можно настроить ее путем выполнения командлета **Set-CsPersistenChatComplianceConfiguration**:
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
 или
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
 Можно задать следующие параметры.
-  
+
 - AdapterType - позволяет указать тип адаптера. Адаптер — это продукт сторонних производителей, который преобразует данные в базе данных соответствия требованиям в определенный формат. По умолчанию выполняется XML.
-    
+
 - OneChatRoomPerOutputFile — этот параметр позволяет указать, что, разделите отчеты должны быть созданы для каждой чат.
-    
+
 - AddChatRoomDetails - при включении этого параметра, этот параметр записывает Дополнительные сведения о каждом комнаты чата в базе данных. Поскольку этот параметр может существенно увеличить размер базы данных, он отключен по умолчанию.
-    
+
 - AddUserDetails - при включении этого параметра, этот параметр записывает Дополнительные сведения о каждом пользователе комнаты чата в базе данных. Поскольку этот параметр может существенно увеличить размер базы данных, он отключен по умолчанию.
-    
+
 - Удостоверение — этот параметр позволяет параметров соответствия требованиям для ограничения области для определенного семейства сайтов, включая глобальной, сайта и уровни обслуживания. Значение по умолчанию — глобальный уровень. 
-    
+
 - RunInterval. Этот параметр определяет длительность периода, по истечении которого на сервере создается новый выходной файл проверки совместимости (по умолчанию: 15 минут).
-    
+
 ## <a name="use-a-customized-compliance-adapter"></a>Работа с пользовательским адаптером проверки совместимости
 
 Можно написать пользовательский адаптер вместо использования адаптера xmladapter настраиваемым, который устанавливается вместе с сервера сохраняемого чата. Для этого необходимо предоставить сборку .NET Framework, которая содержит общий класс, реализующий интерфейс **IComplianceAdapter**. Эта сборка необходимо поместить в папку установки сервера сохраняемого чата каждого сервера в пуле серверов сохраняемого чата. Данные проверки совместимости могут поступать в адаптер с любого сервера проверки совместимости, но на разные экземпляры адаптера с серверов проверки совместимости на поступают повторяющиеся данные.
-  
+
 Интерфейс определен в сборке Compliance.dll в пространстве имен `Microsoft.Rtc.Internal.Chat.Server.Compliance`. Интерфейс определяет два метода, которые должен реализовать пользовательский адаптер.
-  
+
 Сервер соответствия Persistent Chat будет вызвать метод следующие при первой загрузке адаптера. `AdapterConfig` Содержит конфигурацию соответствия Persistent Chat, соответствующий адаптеру соответствия требованиям:
-  
+
 ```
 void SetConfig(AdapterConfig config)
 ```
 
 Соответствия Persistent Chat server вызывает следующий метод через определенные интервалы, поскольку новые данные для перевода. Этот период равен `RunInterval` как задано в конфигурации соответствия Persistent Chat:
-  
+
 ```
 void Translate(ConversationCollection conversations)
 ```
 
 `ConversationCollection` Содержит сведения о беседах, собранные с момента последнего последнем вызове этого метода.
-  
+
 ## <a name="customize-the-xslt-definition-file"></a>Настройка файла определения XSLT
 
 Данные проверки совместимости доставляются в формате XML, который можно с применением файла определения XSLT преобразовать в формат, подходящий для конкретной организации. Этот раздел содержит описание файла XML, созданного с помощью службы проверки совместимости. Приведены также примеры файла определения XSLT и выходного файла.
-  
+
 ### <a name="output-format"></a>Форма выходных данных
 
 Выходные данные службы проверки совместимости классифицируются по беседе (элемент Conversation) и затем по сообщению (элемент Messages), как показано в следующем примере кода:
-  
+
 ```
 <?xml version="1.0" encoding="utf-8" ?> 
 <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -112,7 +112,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 Элемент Conversation содержит четыре элемента (Channel, FirstMessage, StartTimeUTC и EndTimeUTC). Элемент Channel содержит код URI, назначенный комнате чата, а элемент FirstMessage описывает первое сообщение в элементе Messages. Элементы StartTimeUTC и EndTimeUTC задают время начала и окончания беседы, как показано в следующем примере кода:
-  
+
 ```
 <<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -121,7 +121,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 Элемент Message содержит два элемента (Sender и DateTimeUTC) и три атрибута (Type, Content и ID). Элемент Sender представляет пользователя, отправляющего сообщение, а элемент DateTimeUTC — время возникновения события, как показано в следующем примере кода:
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -130,7 +130,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 В следующей таблице показаны атрибуты сообщений Type, Content и ID.
-  
+
 **Атрибуты элемента Messages**
 
 |**Атрибут**|**Описание**|**Применение**|
@@ -138,9 +138,9 @@ void Translate(ConversationCollection conversations)
 |Тип  <br/> |Указывает тип сообщения. Типы сообщений описаны в таблице типов сообщений элемента Message.  <br/> |Обязательный  <br/> |
 |Content  <br/> |Представляет собой содержимое сообщения. Для сообщений с типом Join или Part этот атрибут не используется.  <br/> |Необязательный  <br/> |
 |ID  <br/> |Указывает уникальный идентификатор содержимого. Этот атрибут используется только с сообщениями, имеющими тип Chat.  <br/> |Необязательный  <br/> |
-   
+
 Каждый элемент Sender содержит пять атрибутов: имя пользователя, идентификатор, адрес электронной почты, принадлежность ко внутренним пользователям и URI-код. Эти атрибуты описаны в следующей таблице.
-  
+
 **Атрибуты элемента Sender**
 
 |**Атрибут**|**Описание**|**Применение**|
@@ -150,11 +150,11 @@ void Translate(ConversationCollection conversations)
 |Email  <br/> |Адрес электронной почты отправителя.  <br/> |Необязательный  <br/> |
 |Internal  <br/> |Определяет, является ли пользователь внутренним или федеративным. Если задано значение true, пользователь является внутренним.  <br/> |Необязательный  <br/> |
 |Uri  <br/> |URI SIP пользователя.  <br/> |Обязательно  <br/> |
-   
+
 В следующих примерах показано типы сообщений, которые может содержать элемент сообщения. Здесь также представлен пример использования каждого из элементов.
-  
+
 Соединение — пользователь присоединяется к комнате чата.
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -163,7 +163,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 Часть — пользователь покидает комнату чата.
-  
+
 ```
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -172,7 +172,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 Чат - адрес электронной почты отправителя.
-  
+
 ```
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -181,7 +181,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 Ответ на чат - пользователь запрашивает содержимое из истории чата.
-  
+
 ```
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -190,7 +190,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 Отправка файла - пользователь отправляет файл.
-  
+
 ```
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -199,7 +199,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 Загрузка файла — пользователь загружает файл.
-  
+
 ```
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -210,7 +210,7 @@ void Translate(ConversationCollection conversations)
 ### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>По умолчанию выходные данные сохраняемого чата XSD и пример преобразования XSL
 
 Следующий пример кода содержит выходные данные сервера проверки совместимости по умолчанию:
-  
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -224,7 +224,7 @@ void Translate(ConversationCollection conversations)
         <xs:enumeration value="FILEDOWNLOAD"/>
       </xs:restriction>
     </xs:simpleType>
-  
+
   <xs:element name="Sender">
     <xs:complexType>
       <xs:attribute name="UserName" type="xs:string" />
@@ -309,7 +309,7 @@ void Translate(ConversationCollection conversations)
 ```
 
 Следующий образец кода содержит пример преобразования в формат XSL:
-  
+
 ```
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
@@ -378,5 +378,4 @@ void Translate(ConversationCollection conversations)
       <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
    </xsl:template>
 </xsl:stylesheet>
-
 ```

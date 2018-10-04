@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Сводка: Сведения о панели мониторинга в Скайп для Business Server.'
-ms.openlocfilehash: a3896f7ed80ec058c2ed2476e98ce61f85e78229
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e12c9faed684121def2e1a4b175f2f7a9fcb534e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969391"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375275"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Использование панели мониторинга в Скайп для Business Server
  
@@ -42,7 +42,7 @@ Get-CsReportingConfiguration
   
 - Уникальных входов пользователей в систему
     
- **Связь между одноранговыми узлами**
+  **Связь между одноранговыми узлами**
   
 - Общее количество сеансов
     
@@ -58,7 +58,7 @@ Get-CsReportingConfiguration
     
 - Среднее количество минут аудиосеанса
     
- **Конференция**
+  **Конференция**
   
 - Общее количество конференций
     
@@ -92,7 +92,7 @@ Get-CsReportingConfiguration
     
 - Организаторов конференций со сбоями вызовов
     
- **Пользователей со звонками плохого качества**
+  **Пользователей со звонками плохого качества**
   
 - Всего пользователей со звонками плохого качества
     

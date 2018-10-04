@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Сводка: Обзор рекомендаций компонент сети ниже перед реализацией Скайп для Business Server.'
-ms.openlocfilehash: 3b052977d605c923a333097ad073ad59d7d6a586
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ad0e3b48a320997ddce0559e388d5cfdcab861d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886363"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375084"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -77,6 +77,7 @@ Network performance and needs are directly linked to the traffic load placed on 
 В следующей таблице описаны рекомендуемые исключения IPsec.
 
 **Рекомендуемые исключения IPsec**
+
 |Имя правила |Исходный IP-адрес |Конечный IP-адрес |Протокол |Исходный порт |Конечный порт |Требование проверки подлинности |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
 |Внутренние входящие данные пограничного сервера аудио- и видеоданных|Любой  |Внутренние данные пограничного сервера аудио- и видеоданных|UDP и TCP|Любой |Любой |Не выполнять проверку подлинности|

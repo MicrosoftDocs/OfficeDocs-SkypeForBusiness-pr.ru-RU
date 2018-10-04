@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Сводка: Сведения в этой статье описывается настройка взаимодействия с пользователем для Скайп для коммерческих пользователей.'
-ms.openlocfilehash: 18fb67b88673dd2edfe3816d485a8cb05c84f3ae
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e2a7d53788eda36fc18cb9094cde096864ce2ba
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018190"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375360"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Настройка взаимодействия с пользователем с помощью Скайп для бизнеса 2015
  
@@ -88,13 +88,13 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
     
     Строка должна выглядеть следующим образом:
     
- <pre>
-[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
-"CanSharePptInCollab"=dword:00000001
-"CanShareOneNoteInCollab"=dword:00000001
-"CanAppShareInCollab"=dword:00000001
-"EnableSkypeUI"=hex:00,00,00,00
-</pre>
+   <pre>
+   [HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
+   "CanSharePptInCollab"=dword:00000001
+   "CanShareOneNoteInCollab"=dword:00000001
+   "CanAppShareInCollab"=dword:00000001
+   "EnableSkypeUI"=hex:00,00,00,00
+   </pre>
 
 Теперь интерфейс Lync будет отображаться при первом запуске клиента Skype для бизнеса пользователями.
   

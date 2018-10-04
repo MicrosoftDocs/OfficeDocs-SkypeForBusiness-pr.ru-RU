@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Изменение общих параметров для сервера сохраняемого чата или пул серверов сохраняемого чата настраиваются путем определения следующих свойств:'
-ms.openlocfilehash: 84d6600c6ff99d55233ad40c7238fbb2c0480c98
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 912cacaa050962b85d8e3f70bec78f01306909d6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374961"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Расширитель общих настроек сохраняемого чата
  
@@ -104,19 +105,16 @@ ms.lasthandoff: 03/28/2018
     
 - **Хранение файлов** Выберите расположение хранилища файлов в списке, или нажмите кнопку **Создать** , чтобы создать новое хранилище файлов.
     
- **ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.
+  **ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.
   
- **Отмена**. Отмена изменений и закрытие диалогового окна.
+  **Отмена**. Отмена изменений и закрытие диалогового окна.
   
- **Справка**. Отображение этого экрана справки.
+  **Справка**. Отображение этого экрана справки.
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
-[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Планирование для сервера сохраняемого чата в Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [Добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
-
+[Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Skype для бизнеса Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

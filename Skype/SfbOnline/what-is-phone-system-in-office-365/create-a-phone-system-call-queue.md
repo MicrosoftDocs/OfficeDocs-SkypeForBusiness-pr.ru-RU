@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте о том, как настроить телефонную систему для работы с очередью вызовов Office 365 (Cloud PBX), позволяющей использовать корпоративное приветствие, музыкальную заставку при удержании вызова и функцию переадресации вызовов операторам, доступным в списках распределения и группах безопасности. Помимо этого, вы можете получить информацию о том, как настроить максимальный размер очереди, тайм-аут и параметры обработки вызовов. '
-ms.openlocfilehash: b8fa32a223ed870c73228debd408fa923355ab3d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 1952d6d180f5b9662b1e598ceb9d0b8d230640c2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890556"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375152"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Создание очереди звонков в телефонной системе
 
-Телефонный звонок системы очередей включают приветствие, используемые при получении звонка на номер телефона для вашей организации, возможность автоматически переводить звонки в режим удержания и возможность поиска для следующего агента доступные вызова для обработки вызова при людей, вызов прослушивают музыку при удержании. Вы можете создать для своей организации одну или несколько очередей вызовов.
+Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
   
 Очереди вызовов в телефонной системе позволяют использовать следующие функции.
   
@@ -42,7 +42,7 @@ ms.locfileid: "23890556"
     
 - Отображение параметров максимальный размер очереди вызовов, время ожидания и параметрах управления звонками.
     
-Когда кто-то звонит к телефонному номеру, который имеет значение копирование копирование с помощью очереди вызовов, они будут прослушать приветствия (Если какие-либо настройки), а затем они будут помещены в очередь и дождитесь следующего агента доступные звонок. Вызывающий абонент будет прослушивают музыку, пока они находятся на удержании Ожидание и вызовы будут предложены звонок агентам образом *Первого в, первый выходной параметр* (FIFO).
+When someone calls in to a phone number that is set up up with a call queue, they will hear a greeting first (if any is set up), and then they will be put in the queue and wait for the next available call agent. The person calling in will hear music while they are on hold waiting, and the calls will be offered to the call agents in the  *First In, First Out*  (FIFO) manner.
   
 Все звонки в очереди будут распределяться с помощью автосекретаря маршрутизации режиме или режиме последовательного маршрутизации:
   
@@ -61,17 +61,17 @@ ms.locfileid: "23890556"
 
 Перед началом работы с очередями звонков необходимо запомнить следующие моменты.
   
-- Ваша организация должна обладать (как минимум) лицензией типа  Enterprise E3 plus **Телефонная система** или лицензией Enterprise E5. Число назначенных лицензий пользователя **телефонной системы** влияет на количество обслуживаемых номеров, доступных для использования с очередью вызовов. Количество очередей вызовов, которое можно сформировать, определяется количеством назначенных организации лицензий на **телефонную систему** и **аудиоконференцию**. Для получения дополнительной информации о лицензировании нажмите [здесь](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned affects the number of service numbers that are available to be used for call queues. The number of call queues you can have is dependent on the number of **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, go [here](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!NOTE]
-    > Для перенаправления вызовов тем сотрудникам организации, которые находятся в сети, им необходимо предоставить лицензию на **телефонную систему** и разрешить доступ к корпоративной голосовой связи, либо предоставить тарифные планы Office 365. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Для предоставления сотрудникам доступа к корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Чтобы больше узнать о тарифных планах Office 365, см. [Что представляют собой тарифные планы в Office 365?](/microsoftteams/what-are-calling-plans-in-office-365) и [Тарифные планы для Office 365](/microsoftteams/calling-plans-for-office-365).
     
     > [!NOTE]
     > Пользователи размещенных в локальной Lync Server 2010 не поддерживается агентами вызова очереди. 
   
-- Для назначения могут использоваться лишь те платные и бесплатные обслуживаемые телефонные номера, которые были получены в **центре администрирования Skype для бизнеса** или переданы в очередь вызовов телефонной системы другим поставщиком услуг. Чтобы получить и использовать бесплатные телефонные номера, необходимо настроить кредиты на услуги связи.
+- You can only assign toll and toll-free service phone numbers that you got in the **Skype for Business admin center** or transferred from another service provider to Phone System call queues. To get and use toll-free service numbers, you need to set up Communications Credits.
     
     > [!NOTE]
     > Номера телефонов пользователей (абонентов) нельзя назначить очередям звонков  можно использовать платные или бесплатные номера телефонов служб. 
@@ -82,7 +82,7 @@ ms.locfileid: "23890556"
     
   - Клиент Lync для настольных ПК 2013 (32- и 64-разрядные версии)
     
-  - Skype для бизнеса Online поддерживает все модели IP-телефонов. В разделе [Приступая к телефоны для Скайп для бизнеса в Интернет](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
+  - All IP phone models supported for Skype for Business Online. See [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
     
   - Клиент Mac Skype для бизнеса (версия 16.8.196 и более поздние) 
     
@@ -102,10 +102,10 @@ ms.locfileid: "23890556"
     
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Шаг 2. Получение или перенос платных или бесплатных номеров телефонов служб
 
-Перед созданием и настройкой очередей вызовов необходимо получить или выполнить передачу существующих платных или бесплатных обслуживаемых номеров. После получения платных или бесплатных обслуживаемых номеров, они будут отображаться в секции **Центр администрирования Skype для бизнеса** > **Голосовая связь** > **Номера телефонов**, а доступный **Тип номера** будет отображаться, как **Обслуживаемый — бесплатный**. Для получения номера службы видеть [Приступая к службе номера телефонов для Скайп для бизнеса и группами Майкрософт](getting-service-phone-numbers.md) или существующий номер службы и передача, см [передачи телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
   
 > [!NOTE]
-> Если вы находитесь за пределами США, Скайп по центру администрирования бизнес нельзя использовать для получения номера службы. Перейдите на [Управление телефонные номера для вашей организации](/microsoftteams/manage-phone-numbers-for-your-organization) вместо этого на вашу за ее пределами США.
+> If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go to [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) instead to see how to do it from the outside of the United States.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Шаг 3. Создание новой очереди звонков
 
@@ -120,7 +120,7 @@ ms.locfileid: "23890556"
 ![Номер 1](../images/sfbcallout1.png)<br/>
 **Имя**. Введите описательное имя очереди звонков. Это поле является обязательным и может содержать до 64 знаков, включая пробелы.<br/> Это имя отображается в уведомлении о входящем звонке.
 ***
-![Номер 2](../images/sfbcallout2.png)<br/>**Номер телефона** Выберите службы счета или номер бесплатный номер телефона для звонка очереди. Это необязательный параметр. <br/> Если отсутствуют в списке, нужно получить номера службы перед созданием очереди этот звонок. Чтобы получить номер службы, см [Приступая к службе номера телефонов для Скайп для бизнеса и группами Майкрософт](getting-service-phone-numbers.md)
+![Номер 2](../images/sfbcallout2.png)<br/>**Phone number** Select a service toll or toll-free phone number for the call queue. This is optional. <br/> If there aren't any listed, you need to get service numbers before you can create this call queue. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md)
 ***
 ![Номер 3](../images/sfbcallout3.png)<br/>**Домен**. Если необходимо, выберите используемый домен Office 365. Это поле доступно только в том случае, если используется несколько доменов Office 365. Если у вас есть несколько доменов, необходимо выбрать нужный в списке. <br/> Например, вы можете использовать домен следующего вида:  _contoso.com or redmond.contoso.com_
    
@@ -129,7 +129,7 @@ ms.locfileid: "23890556"
 ![Setting up a call queue.](../images/1d395a93-7cab-4178-9295-12d5379e20de.png)
   
 ***
-![Номер 1](../images/sfbcallout1.png)<br/>**Приветствие**  необязательное поле. Это приветствие, которое воспроизведения для пользователей, которые звонка в номер очереди вызовов. <br/> Можно загрузить звукового файла (форматы формате WAV, .mp3 или WMA).
+![Номер 1](../images/sfbcallout1.png)<br/>**Greeting** is optional. This is the greeting that is played for people who call in to the call queue number. <br/> Можно загрузить звукового файла (форматы формате WAV, .mp3 или WMA).
 ***
 ![Номер 2](../images/sfbcallout2.png)<br/>**Музыка на удержание** Можно либо использовать музыку по умолчанию на удержание, входящие в состав очереди звонок или можно будет загрузить звукового файла в формате WAV, mp3 или WMA форматов для использования в качестве настраиваемого музыки при удержании. 
    
@@ -139,7 +139,7 @@ ms.locfileid: "23890556"
 ![Позволяет отобразить доступные методы распределения вызовов](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
-![Номер 1](../images/sfbcallout1.png)<br/>**Метод распределения вызовов**. В качестве метода распределения вызовов, содержащихся в очереди, можно выбрать опцию **Автосекретарь**, либо **Последовательное**. По умолчанию для всех новых и существующих очередей вызовов выбирается  маршрутизация автосекретаря. Чтобы использовать последовательную маршрутизацию, необходимо специально выбрать опцию **Последовательной** маршрутизации с помощью пользовательского интерфейса и командлетов. <br/><br/> При выборе последовательной маршрутизации и наличии сохраненной очереди вызовы, содержащиеся в последней, будут поступать операторам в порядке очередности, начиная с первой записи в списке операторов. Если оператор отклоняет или не принимает вызов, то он перенаправляется следующему оператору в списке. Вызов поочередно поступает операторам до тех пор, пока он не будет принят, или пока не истечет тайм-аут по ожиданию в очереди.   
+![Номер 1](../images/sfbcallout1.png)<br/>**Call distribution method** You can choose either **Attendant** or **Serial** for your call queue distribution method. All new and existing call queues will have attendant routing selected by default. To use serial routing, you must explicitly choose the **Serial** routing option in UI and cmdlets. <br/><br/> When serial routing is chosen and the call queue is saved, the calls from the queue will ring your agents one by one, starting from the beginning of the agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.   
 
 > [!NOTE]
 > При последовательной маршрутизации пропускаются те операторы, которые имеют статус **Не в сети**, характеризуют свою доступность с помощью опции **Не беспокоить** или **отказались** от получения вызовов из этой очереди. 
@@ -149,7 +149,7 @@ ms.locfileid: "23890556"
 ![Позволяет отобразить флажок отказа от получения вызова оператором](../images/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
 ***
-![Номер 1](../images/sfbcallout1.png)<br/>**Функция отказа от получения вызова оператором**. Операторам очереди вызовов можно разрешить отказываться от приема вызовов из определенной очереди, выбрав **Функцию отказа от получения вызова оператором**.  <br/> Включение этого параметра позволяет всем операторам этой очереди начинать или прекращать прием вызовов из нее по собственному желанию. Сняв данный флажок, привилегию отказа от получения вызовов можно отменить в любое время, в результатае чего операторы снова будут выбраны для работы с этой очередью в автоматическм режиме (это значение по умолчанию применяется для всех операторов).  <br/><br/> Для доступа к функции отказа операторы могут выполнить следующие действия.
+![Номер 1](../images/sfbcallout1.png)<br/>**Функция отказа от получения вызова оператором**. Операторам очереди вызовов можно разрешить отказываться от приема вызовов из определенной очереди, выбрав **Функцию отказа от получения вызова оператором**.  <br/> Enabling this option allows all agents in this queue to start or stop receiving call from this call queue at will. You can revoke the agent opt-out privilege at any time by clearing the check box, causing agents to become automatically opted in for this queue again (the default setting for all agents).  <br/><br/> Для доступа к функции отказа операторы могут выполнить следующие действия.
  1. Открыть секцию  **Параметры** на своем рабочем столе клиента Skype для бизнеса. 
  2. На вкладке **Переадресация вызовов** нажать на ссылку **Изменить параметры при подключении к сети** .
  3. На странице пользовательских параметров нажать на кнопку **Очереди вызовов**, а затем — снять  флажки для всех очередей, прием вызовов из которых следует отключить.
@@ -163,43 +163,43 @@ ms.locfileid: "23890556"
   
 ***
 ![Номер 1](../images/sfbcallout1.png)<br/><br/>Операторами (максимальное число которых равно 50) могут быть:
-*    подключенные к сети пользователи, обладающие лицензией на **телефонную систему** и разрешением на использование корпоративной голосовой связи, либо тарифным планом. <br/><br/> **Примечание.**  Переадресация вызовов подключенным к сети сотрудникам организации возможна только в случае, если они обладают лицензией на **телефонную систему** и могут пользоваться корпоративной голосовой связью, либо имеют тарифный план. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Для предоставления сотрудникам доступа к корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
-*    Подключенные к сети пользователи, обладающие лицензией на **телефонную систему** и тарифным планом, которые добавлены в группу Office 365, список распределения с включенной поддержкой почты или группу безопасности. Добавление нового оператора в список распределения или группу безопасности для приема содержащихся в очереди вызовов может занимать до 30 минут. Чтобы вновь созданный список распределения или группа безопасности стали доступными для использования с очередями вызовов, может потребоваться до 48 часов. Вновь созданные группы Office 365 становятся доступными незамедлительно. <br/> 
+* подключенные к сети пользователи, обладающие лицензией на **телефонную систему** и разрешением на использование корпоративной голосовой связи, либо тарифным планом. <br/><br/> **Note:**  To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
+* Online users with a **Phone System** license and a Calling Plan that are added to an Office 365 Group, a mail-enabled Distribution List, or a Security Group. It might take up to 30 minutes for a new agent added for a distribution list or a security group to start receiving calls from a call queue. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Office 365 Groups are available almost immediately. <br/> 
 
-    > [!NOTE] 
-    > Пользователи размещенных в локальной Lync Server 2010 не поддерживается.           
+  > [!NOTE] 
+  > Пользователи размещенных в локальной Lync Server 2010 не поддерживается.           
    
 ### <a name="set-the-maximum-queue-size-and-maximum-wait-time"></a>Настройка максимального размера и максимального времени ожидания в очереди
 
 ![Set up a call queue.](../images/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 ***
-![Номер 1](../images/sfbcallout1.png)<br/><br/>**Максимум вызывает в очереди** Позволяет задать максимальное вызовов, которые можно ожидать в очереди, в то же время. Значение по умолчанию — 50, но его можно составлять от 0 до 200. при достижении это ограничение, вызов будут обрабатываться в способ установки на странице параметров **при достижении максимальное число звонков** ниже.
+![Номер 1](../images/sfbcallout1.png)<br/><br/>**Maximum calls in the queue** Use this to set the maximum calls that can wait in the queue at the same time. The default is 50, but it can range from 0 to 200.When this limit is reached, the call will be handled in way you have set on the **When the maximum number of calls is reached** setting below.
 ***
 ![Номер 2](../images/sfbcallout2.png)<br/><br/>**При достижении максимальное число звонков** Очереди звонок по достижении максимального размера (задается с помощью параметра **Maximum вызывает в очереди** ), можно выбрать, что происходит с новой входящие звонки.
-*    **Отключить с сигналом занятости**. Звонок отключается. 
-*    **Переадресация этот вызов** При выборе это будет иметь следующие параметры:
-     *    **Сотрудники компании**. Пользователи, подключенные к сети, обладающие лицензией на **телефонную систему** и имеющие доступ к корпоративной голосовой связи, либо тарифный план. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лица в вашей компании** и установите их переадресация на голосовую почту напрямую звонков этому пользователю. <br/> <br/>Для получения дополнительных сведений о лицензиях, необходимых для использования голосовой почты, см. [Настройка голосовой почты телефонной системы](/microsoftteams/set-up-phone-system-voicemail). 
+* **Отключить с сигналом занятости**. Звонок отключается. 
+* **Переадресация этот вызов** При выборе это будет иметь следующие параметры:
+  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/> <br/>Для получения дополнительных сведений о лицензиях, необходимых для использования голосовой почты, см. [Настройка голосовой почты телефонной системы](/microsoftteams/set-up-phone-system-voicemail). 
      
-        > [!Note]
-        > Пользователи размещенных в локальной Lync Server 2010 не поддерживается.<br/>
+    > [!Note]
+    > Пользователи размещенных в локальной Lync Server 2010 не поддерживается.<br/>
      
-     *    **Вызов очереди** Вы должны создать другую очередь звонков, но после выполнения, вы можете выбрать очереди вызовов.
-     *    **Автосекретарь** Вы должны создать автосекретарь, но после выполнения, вы можете выбрать автосекретаря. В разделе [настроить автосекретарь телефонной системой](set-up-a-phone-system-auto-attendant.md).
+  * **Вызов очереди** Вы должны создать другую очередь звонков, но после выполнения, вы можете выбрать очереди вызовов.
+  * **Auto Attendant** You must have already created an auto attendant, but after you do, you can select that auto attendant. See [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
 ***
-![Номер 3](../images/sfbcallout3.png)<br/><br/>**Как долго звонок может находиться в очереди**. Вы также можете настроить продолжительность удержания звонка в очереди до того, как истечет время ожидания и этот звонок будет вынужденно переадресован или отключен. Порядок обработки такого звонка задается в параметре **При истечении времени ожидания звонка**. Можно установить время в диапазоне от 0 до 45 минут. <br/><br/> Значение тайм-аута можно указать в секундах, с интервалом 15 секунд. Это позволяет управлять потоком вызовов с более высоким уровнем детализации. Так, к примеру, можно указать, что все вызовы, на которые оператор не отвечает в течение 30 секунд, будут перенаправлены к автосекретарю для поиска в справочнике. 
+![Номер 3](../images/sfbcallout3.png)<br/><br/>**Как долго звонок может находиться в очереди**. Вы также можете настроить продолжительность удержания звонка в очереди до того, как истечет время ожидания и этот звонок будет вынужденно переадресован или отключен. Порядок обработки такого звонка задается в параметре **При истечении времени ожидания звонка**. Можно установить время в диапазоне от 0 до 45 минут. <br/><br/> The timeout value can be set in seconds, at 15-second intervals. This allows you to manipulate the call flow with finer granularity. For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search Auto Attendant. 
 
 ***
 ![Номер 4](../images/sfbcallout4.png)<br/><br/>**При истечении времени ожидания звонка**. Определяет порядок дальнейшей звонков по истечении времени, заданного в параметре **Как долго звонок может находиться в очереди**:
-*    **Отключить**. Звонок отключается. 
-*    **Переадресация этот вызов** При выборе это будет иметь следующие параметры:
-     *    **Сотрудники компании**. Пользователи, подключенные к сети, обладающие лицензией на **телефонную систему**  и имеющие доступ к корпоративной голосовой связи, либо имеющие тарифный план. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лица в вашей компании** и установите их переадресация на голосовую почту напрямую звонков этому пользователю. </br><br/>  Для получения дополнительных сведений о лицензиях, необходимых для использования голосовой почты, см. [Настройка голосовой почты телефонной системы](/microsoftteams/set-up-phone-system-voicemail). 
+* **Отключить**. Звонок отключается. 
+* **Переадресация этот вызов** При выборе это будет иметь следующие параметры:
+  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  Для получения дополнительных сведений о лицензиях, необходимых для использования голосовой почты, см. [Настройка голосовой почты телефонной системы](/microsoftteams/set-up-phone-system-voicemail). 
 
-        > [!Note]
-        > Пользователи размещенных в локальной Lync Server 2010 не поддерживается.<br/>
+    > [!Note]
+    > Пользователи размещенных в локальной Lync Server 2010 не поддерживается.<br/>
 
-     *    **Вызов очереди** Вы должны создать другую очередь звонков, но после выполнения, вы можете выбрать очереди вызовов.
-     *    **Автосекретарь** Вы должны создать автосекретарь, но после выполнения, вы можете выбрать автосекретаря. В разделе [настроить автосекретарь телефонной системой](set-up-a-phone-system-auto-attendant.md).
+  * **Вызов очереди** Вы должны создать другую очередь звонков, но после выполнения, вы можете выбрать очереди вызовов.
+  * **Auto Attendant** You must have already created an auto attendant, but after you do, you can select that auto attendant. See [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
    
 ## <a name="changing-the-users-caller-id-to-be-a-call-queues-phone-number"></a>Замена присвоенного пользователю идентификатора вызывающео абонента на телефонный номер очереди вызовов
 
@@ -211,7 +211,7 @@ ms.locfileid: "23890556"
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
-Затем примените политику к пользователю, воспользовавшись командлетом **Grant-CallingLineIdentity**. Для этого выполните команду:
+Then apply the policy to the user using the **Grant-CallingLineIdentity** cmdlet. To do this, run:
   
 ```
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
@@ -237,7 +237,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
     
 ### <a name="more-about-windows-powershell"></a>Дополнительные сведения о Windows PowerShell
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

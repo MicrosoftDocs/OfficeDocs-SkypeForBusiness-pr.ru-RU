@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Узнайте, как назначить, изменить или удалить рабочий номер телефона ваших пользователей Skype for Business, чтобы другие предприятия и клиенты могли им звонить.
-ms.openlocfilehash: 57ffe302c784ff441d124017035c8031c1c737c1
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 40c067657132781d29b8f20a3738d6d28ce36331
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347033"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374661"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение или удаление номер телефона для пользователя
 
@@ -50,7 +50,7 @@ ms.locfileid: "25347033"
 Чтобы узнать, как получить тарифные планы в Office 365, а также их стоимость, см. [Лицензирование дополнительных компонентов Skype for Business и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> Чтобы увидеть, имеет ли пользователь лицензию, вы можете перейти в **Центр администрирования Skype for Business** > **Голосовая связь** > **Пользователи голосовой связи** и выбрать пользователя. Если лицензия назначена, она будет записана в разделе **Назначенная лицензия**. Также вы можете использовать центр администрирования Office 365. 
+> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
   
  ## <a name="assign-a-phone-number-to-a-user"></a>Назначение номер телефона для пользователя
  
@@ -62,7 +62,7 @@ ms.locfileid: "25347033"
     
 3. На левой панели навигации нажмите **Голосовая связь** > **Пользователи голосовой связи**.
    > [!NOTE]
- Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .
+   > Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .
  
    
     
@@ -80,7 +80,7 @@ ms.locfileid: "25347033"
 8. После того, как вы выбрали номер телефона и местоположение экстренного реагирования, нажмите **Сохранить**.
     
     > [!NOTE]
-    > Из-за задержки между Office 365 и Skype for Business Online, может потребоваться до 24 часов для включения пользователей. Если после 24 часов, если номер телефона не будет назначен правильно, выполните [обращение в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Мы готовы прийти на помощь! 
+    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
 
 

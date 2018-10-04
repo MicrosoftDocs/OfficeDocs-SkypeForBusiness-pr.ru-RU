@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Скайп для сервера планирования и сведения о конфигурации на основе видео (VbSS) совместное использование рабочего стола
-ms.openlocfilehash: a658453af5f71d7bb8103411ed16c534e3004a03
-ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
+ms.openlocfilehash: a7ea07f02b73b1092a11f61757318d0d653e048a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23935477"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375910"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Видео на основе совместное использование рабочего стола для Скайп для Business Server 
  

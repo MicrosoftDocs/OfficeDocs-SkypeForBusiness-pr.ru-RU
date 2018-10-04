@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Следующих часто задаваемые вопросы о передаче телефонных номеров Скайп для бизнеса. После просмотра ответов, можно приступить к созданию номеру порта и перемещение телефонных номеров. В разделе Передача номера телефонов в Office 365 для получения инструкций.
-ms.openlocfilehash: 62829fff57b234380d93240183ddf8700855cb39
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8a260d1d59668a583f6bdda24bb88472a68c1f43
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015303"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375873"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Общие вопросы по передаче номеров телефонов
 
@@ -69,7 +69,7 @@ ms.locfileid: "25015303"
     
 - Скайп для гибридных Business телефонных номеров. Если необходимо перенести эти номера, должны отправлять электронной почты, для нас в <ptn@microsoft.com>.
     
- **НЕ УДАЕТСЯ ПЕРЕНЕСТИ:**
+  **НЕ УДАЕТСЯ ПЕРЕНЕСТИ:**
   
 > [!NOTE]
 > В настоящее время не удается перенести любой номер телефона или чисел, не из поддерживаемых страны или региона, включая номера телефонов у поставщика телефона VoIP. Список поддерживаемых стран и регионов см [страны и региона доступности для конференц-связи аудио и вызов планов](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

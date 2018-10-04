@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы изменить свойства сервера доверенных приложений, который уже был определен, выполните следующие действия.
-ms.openlocfilehash: ab11480cf7772be8e85463866359da7ea6f2b27e
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 73010b40bd5c06c1e59d9b2fee0e4fde3d247732
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069570"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374548"
 ---
 # <a name="external-application-general-settings-expander"></a>Расширитель внешнего приложения общих параметров
  
@@ -26,7 +26,7 @@ ms.locfileid: "21069570"
 Существует два раздела, которые можно изменить.
   
 > Общие настройки
-    
+> 
 > Настройки следующего перехода
     
 ## <a name="general-settings"></a>Общие настройки

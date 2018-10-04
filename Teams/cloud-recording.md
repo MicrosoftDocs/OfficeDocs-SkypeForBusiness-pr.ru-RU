@@ -11,12 +11,12 @@ description: Практическое руководство по разверт
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019078"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375981"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись собрания облачных групп
 
@@ -75,13 +75,13 @@ ms.locfileid: "25019078"
 </br>
 
 
-|Сценарий|Шаги |
-|---|---|
-|Я хочу все пользователи в моей компании могут вести запись свои собрания |<ol><li>Подтверждение глобального CsTeamsMeetingPolicy имеет AllowCloudRecording = True<li>Все пользователи имеют глобальные или CsTeamsMeetingPolicy одну из политик CsTeamsMeetingPolicy с AllowCloudRecording = True </ol>|
-|Требуется большая часть Мои пользователи должны иметь возможность записать свои собрания, но отключить пользователей, которым не допускается для записи |<ol><li>Подтверждение GlobalCsTeamsMeetingPolicy имеет AllowCloudRecording = True<li>Большинство пользователей имеют глобального CsTeamsMeetingPolicy или один политик CsTeamsMeetingPolicy с AllowCloudRecording = True<li>Все пользователи имеют одну из политик CsTeamsMeetingPolicy с AllowCloudRecording = False</ol>|
-|Требуется запись быть отключено 100%| <ol><li>Подтверждение глобального CsTeamsMeetingPolicy имеет AllowCloudRecording = False<li>Все пользователи были присвоены глобального CsTeamsMeetingPolicy или одну из политик CsTeamsMeetingPolicy с AllowCloudRecording = False|
-|Требуется записи отключены для большинства пользователей, но выборочно включить конкретных пользователей, которым разрешено для записи|<ol><li>Подтверждение глобального CsTeamsMeetingPolicy имеет AllowCloudRecording = False<li>Большинство пользователей были присвоены глобального CsTeamsMeetingPolicy или один политик CsTeamsMeetingPolicy с AllowCloudRecording = False<li>Все пользователи имеют одну из политик CsTeamsMeetingPolicy с AllowCloudRecording = True <ol>|
-|||
+|                                                                 Сценарий                                                                 |                                                                                                                                                                         Шаги                                                                                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                    Я хочу все пользователи в моей компании могут вести запись свои собрания                                    |                                                                     <ol><li>Подтверждение глобального CsTeamsMeetingPolicy имеет AllowCloudRecording = True<li>Все пользователи имеют глобальные или CsTeamsMeetingPolicy одну из политик CsTeamsMeetingPolicy с AllowCloudRecording = True </ol>                                                                     |
+| Требуется большая часть Мои пользователи должны иметь возможность записать свои собрания, но отключить пользователей, которым не допускается для записи |        <ol><li>Подтверждение GlobalCsTeamsMeetingPolicy имеет AllowCloudRecording = True<li>Большинство пользователей имеют глобального CsTeamsMeetingPolicy или один политик CsTeamsMeetingPolicy с AllowCloudRecording = True<li>Все пользователи имеют одну из политик CsTeamsMeetingPolicy с AllowCloudRecording = False</ol>         |
+|                                                   Требуется запись быть отключено 100%                                                   |                                                                <ol><li>Подтверждение глобального CsTeamsMeetingPolicy имеет AllowCloudRecording = False<li>Все пользователи были присвоены глобального CsTeamsMeetingPolicy или одну из политик CsTeamsMeetingPolicy с AllowCloudRecording = False                                                                 |
+|      Требуется записи отключены для большинства пользователей, но выборочно включить конкретных пользователей, которым разрешено для записи       | <ol><li>Подтверждение глобального CsTeamsMeetingPolicy имеет AllowCloudRecording = False<li>Большинство пользователей были присвоены глобального CsTeamsMeetingPolicy или один политик CsTeamsMeetingPolicy с AllowCloudRecording = False<li>Все пользователи имеют одну из политик CsTeamsMeetingPolicy с AllowCloudRecording = True <ol> |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
 ### <a name="enabledisable-recording-transcription-for-users"></a>Включение и отключение записи транскрибирования для пользователей
 

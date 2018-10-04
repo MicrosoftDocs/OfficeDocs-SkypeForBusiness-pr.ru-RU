@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Сводка: Узнайте, как для перемещения учетных записей пользователей из Интернета к локально в Скайп для Business Server.'
-ms.openlocfilehash: 77ef2ad5cf22632d3f81f35fc0c3a20054303e96
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 033fb0a3a2cce6c763113ca94ea8af3c652cbbf5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884533"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374360"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Перемещение пользователей из Скайп для бизнеса в Интернет для локально
 
@@ -87,15 +87,15 @@ ms.locfileid: "23884533"
 
 1. Сначала подготовьте организацию к гибридному развертыванию, включая установку Azure Active Directory Connect и средств синхронизации. Дополнительные сведения см в [планировании гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md).
 
-  - На локальном развертывании в Скайп для консоли Business Server, введите следующие командлеты для создания поставщика услуг размещения для Скайп для бизнеса в Интернет. Можно использовать любое значение для параметра Identity и Name.
+   - На локальном развертывании в Скайп для консоли Business Server, введите следующие командлеты для создания поставщика услуг размещения для Скайп для бизнеса в Интернет. Можно использовать любое значение для параметра Identity и Name.
 
-  ```
-  Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-  ```
+   ```
+   Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+   ```
 
-  ```
-  New-CsHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
-  ```
+   ```
+   New-CsHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+   ```
 
 2. Убедитесь, что на пограничных серверах локальной, у вас есть цепочки сертификатов, который позволяет подключение к Скайп для бизнеса в Интернет, как показано в следующей таблице. Вы можете загрузить этот цепочки: [https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip](https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip).
 
@@ -107,33 +107,33 @@ ms.locfileid: "23884533"
 
 3. В Active Directory в локальной включение учетных записей пользователя для Скайп для Business Server 2015 локально. Для отдельных пользователей это можно сделать путем ввода следующего командлета:
 
-  ```
-  Enable-CsUser
--Identity "username "
--SipAddress "sip: username @contoso.com"
--HostingProviderProxyFqdn "sipfed.online.lync.com"
-  ```
+   ```
+   Enable-CsUser
+   -Identity "username "
+   -SipAddress "sip: username @contoso.com"
+   -HostingProviderProxyFqdn "sipfed.online.lync.com"
+   ```
 
     Или можно создать сценарий для считывания имен пользователей из файла и передачи их как входных данных командлету Enable-CsUser:
 
-  ```
-  Enable-CsUser
--Identity $Identity
--SipAddress $SipAddress
--HostingProviderProxyFqdn "sipfed.online.lync.com"
-  ```
+   ```
+   Enable-CsUser
+   -Identity $Identity
+   -SipAddress $SipAddress
+   -HostingProviderProxyFqdn "sipfed.online.lync.com"
+   ```
 
 4. Синхронизация пользователей online с обновленные локальными пользователями. Для получения дополнительных сведений см [Средств интеграции каталогов](https://go.microsoft.com/fwlink/p/?LinkId=530320).
 
 5. Обновите следующие записи DNS для направления весь трафик SIP для локального развертывания:
 
-  - Обновите запись **lyncdiscover.contoso.com** A, указав полное доменное имя локального обратного прокси-сервера.
+   - Обновите запись **lyncdiscover.contoso.com** A, указав полное доменное имя локального обратного прокси-сервера.
 
-  - Обновление ** *_sip* . _tls.contoso.com** запись SRV для разрешения в общедоступный IP-адрес или виртуальный IP-адрес адрес пограничной службы доступа Lync локальных.
+   - Обновление ** *_sip* . _tls.contoso.com** запись SRV для разрешения в общедоступный IP-адрес или виртуальный IP-адрес адрес пограничной службы доступа Lync локальных.
 
-  - Обновление ** *_sipfederationtls* . _tcp.contoso.com** запись SRV для разрешения в общедоступный IP-адрес или виртуальный IP-адрес адрес службы пограничного сервера доступа из Скайп for Business Server 2015 локальной.
+   - Обновление ** *_sipfederationtls* . _tcp.contoso.com** запись SRV для разрешения в общедоступный IP-адрес или виртуальный IP-адрес адрес службы пограничного сервера доступа из Скайп for Business Server 2015 локальной.
 
-  - Если используемые организацией разделения DNS (иногда называется «разделенной DNS»), убедитесь в том, что пользователи, разрешение имен через внутреннюю зону DNS направляются пула переднего плана.
+   - Если используемые организацией разделения DNS (иногда называется «разделенной DNS»), убедитесь в том, что пользователи, разрешение имен через внутреннюю зону DNS направляются пула переднего плана.
 
 6. Тип `Get-CsUser` командлет, чтобы проверить некоторые свойства о пользователях, предполагается перемещать. Необходимо убедиться в том, что параметру HostingProviderProxyFQDN присвоено значение `"sipfed.online.lync.com"`, и проверить правильность задания SIP-адресов.
 
@@ -141,16 +141,16 @@ ms.locfileid: "23884533"
 
     Чтобы переместить одного пользователя, введите следующее:
 
-  ```
-  $cred = Get-Credential
-  Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
-  ```
+   ```
+   $cred = Get-Credential
+   Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
+   ```
 
     Можно переместить несколько пользователей с помощью командлета **Get-CsUSer** с параметром - фильтра для выбора пользователей с определенное свойство. Например можно выделить все активные пользователи, фильтрации для {поставщиком услуг размещения - eq «sipfed.online.lync.om»}. Затем можно передать возвращенные пользователям командлета **Move-CsUSer** , как показано ниже.
 
-  ```
-  Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com " -Credential $creds -HostedMigrationOverrideURL <URL>
-  ```
+   ```
+   Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com " -Credential $creds -HostedMigrationOverrideURL <URL>
+   ```
 
     Формат URL-адрес, указанный для параметра **HostedMigrationOverrideUrl** должен быть URL-адрес в пул, где работает размещенная служба миграции, в следующем формате: _Https://\<полное доменное имя пула\>/HostedMigration/ hostedmigrationService.svc_.
 
@@ -179,19 +179,19 @@ ms.locfileid: "23884533"
     > [!NOTE]
     > По умолчанию максимальный размер файлов журналов транзакций базы данных rtcxds составляет 16 ГБ. Это не достаточно большой при перемещении большого числа пользователей, одновременно, особенно если зеркальное отображение включено. Во избежание такой ситуации можно увеличить размер файлов или регулярно создавать резервные копии файлов журналов. Дополнительные сведения можно [https://support.microsoft.com/kb/2756725](https://support.microsoft.com/kb/2756725).
 
-8. Это необязательный шаг. Если требуется интеграция с Exchange 2013 Online, необходимо для использования поставщика услуг размещения дополнительных. Дополнительные сведения см [Настройка интеграции между локальной Скайп Business Server 2015 и Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md).
+6. Это необязательный шаг. Если требуется интеграция с Exchange 2013 Online, необходимо для использования поставщика услуг размещения дополнительных. Дополнительные сведения см [Настройка интеграции между локальной Скайп Business Server 2015 и Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md).
 
-9. Теперь пользователи перемещаются. Чтобы проверить, что пользователь имеет правильные значения для атрибутов, показанных в таблице ниже, введите следующий командлет:
+7. Теперь пользователи перемещаются. Чтобы проверить, что пользователь имеет правильные значения для атрибутов, показанных в таблице ниже, введите следующий командлет:
 
-  ```
-  Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
-  ```
+   ```
+   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
+   ```
 
-|**Атрибут Active Directory**|**Имя атрибута**|**Правильное значение для пользователя Online**|**Правильное значение для локальных пользователей**|
-|:-----|:-----|:-----|:-----|
-|msRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.Online.Lync.com  <br/> |SRV:  <br/> |
-|msRTCSIP-PrimaryUserAddress  <br/> |SIPAddress  <br/> |SIP:username@Contoso.com  <br/> |SIP:username@Contoso.com  <br/> |
-|msRTCSIP-UserEnabled  <br/> |Включено  <br/> |True  <br/> |True  <br/> |
+| **Атрибут Active Directory**     | **Имя атрибута**     | **Правильное значение для пользователя Online** | **Правильное значение для локальных пользователей** |
+|:-----------------------------------|:-----------------------|:----------------------------------|:----------------------------------------|
+| msRTCSIP-DeploymentLocator  <br/>  | HostingProvider  <br/> | sipfed.Online.Lync.com  <br/>     | SRV:  <br/>                             |
+| msRTCSIP-PrimaryUserAddress  <br/> | SIPAddress  <br/>      | SIP:username@Contoso.com  <br/>   | SIP:username@Contoso.com  <br/>         |
+| msRTCSIP-UserEnabled  <br/>        | Включено  <br/>         | True  <br/>                       | True  <br/>                             |
 
 10. Каждому перемещенному пользователю потребуется выйти из системы, а затем снова войти. При входе они должны проверить свои списки контактов и в случае необходимости добавить контакты.
 

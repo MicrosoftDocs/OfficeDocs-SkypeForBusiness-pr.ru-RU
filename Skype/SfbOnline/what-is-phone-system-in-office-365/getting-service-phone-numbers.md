@@ -20,20 +20,20 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: В дополнение к началу номера телефонов для пользователей с Office 365, можно поиск и получить бесплатный или бесплатные номера телефонов для службы, такие как аудиоконференций (для мостов конференции), автосекретари и очереди вызовов (также называемая номеров службы). Номера телефонов служб позволяют обслуживать большее число одновременных звонков по сравнению с абонентскими номерами.
-ms.openlocfilehash: f5627333475d04b14805a1749ccf56b1337047d4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
+ms.openlocfilehash: c16f80af9f7d7e530fb56dca2ef1ad2d51f1f1f6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884073"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374904"
 ---
 # <a name="getting-service-phone-numbers"></a>Получение служебных номеров телефонов
 
-В дополнение к началу номера телефонов для пользователей с Office 365, можно поиск и получить бесплатный или бесплатные номера телефонов для службы, такие как аудиоконференций (для мостов конференции), автосекретари и очереди вызовов (также называемая номеров службы). Номера телефонов служб позволяют обслуживать большее число одновременных звонков по сравнению с абонентскими номерами. Например номер службы может обрабатывать сотен звонков одновременно, в то время как номер телефона пользователя может обрабатывать только несколько звонков одновременно.
+In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
   
 > [!NOTE]
-> Кредиты на связь Office 365 необходимо первоначально настроить  для получения бесплатных номеров. В разделе [Set up кредитов коммуникаций для вашей организации](/microsoftteams/set-up-communications-credits-for-your-organization). 
+> Office 365 Communications Credits must be set up first in order to acquire toll-free numbers. See [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization). 
   
 У вас есть два способа получения номеров службы, поэтому можно использовать с Скайп для бизнеса и группами Майкрософт:
   
@@ -59,33 +59,33 @@ ms.locfileid: "23884073"
     
 4. На странице " **Добавить новых номеров службы** " выберите следующее:
     
-  - **Страна или регион**
+   - **Страна или регион**
     
-  - **Область или регион**
+   - **Область или регион**
     
-  - **Город**
+   - **Город**
     
-5. В разделе **Количество** введите число номеров, которое требуется вашей организации, и нажмите кнопку **Добавить**, чтобы зарезервировать лицензии. У вас есть 10 минут, чтобы выбрать телефонных номеров; При использовании более чем 10 минут номера телефонов будут возвращены в пул телефонных номеров.
+5. Under **Quantity**, enter the number of phone numbers that you want for your organization and click **Add** to create a reservation. You have 10 minutes to select your phone numbers; if you take more than 10 minutes, the phone numbers will be returned to the pool of phone numbers.
     
     > [!NOTE]
-    > Отображается номер телефонных номеров, основанное на количество лицензий, рядом с элементом в списке **Общее службы номера вашего могут получить**. Дополнительные сведения см [Сколько номеров телефонов можно получить?](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > You can see the number of phone numbers, which is based on the number of licenses, listed next to **Total Service numbers your can acquire**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
   
-6. Вы можете нажать **Показать номера**, чтобы увидеть полный список номеров телефонов. Эта функция полезна, если вы не хотите выберите номер телефона в списке.
+6. You can click **Show numbers** to see the full list of phone numbers. This is helpful if you don't want to select a specific phone number in the list.
     
 7. Выберите номера телефонов и нажмите **Получить номера**.
     
 ### <a name="assign-service-numbers"></a>Назначение номеров служб
 
-После получения служебных номеров их можно назначить мосту аудиоконференции. Для этого, содержатся в разделе [Изменение счета или бесплатные номера для вашего моста звук конференц-связи](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+Once you have your service numbers, they can then be assigned to an audio conferencing bridge. To do this, see [Change the toll or toll free numbers on your Audio Conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
   
 ### <a name="port-or-transfer-existing-service-numbers"></a>Перенос существующих номеров служб
 
-Если вы хотите передать служебные номера от вашего текущего поставщика услуг или оператора связи, вам необходимо вручную отправить заказ на перенос номеров в Майкрософт. Вы должны отправлять отдельные заказы на перенос номеров для каждого типа служебных номеров (платных или бесплатных), которые вы будете переносить с помощью Доверенности (LOA). В Доверенности (LOA) необходимо выбрать правильный тип служебного номера. При обращении в службу поддержки корпорации Майкрософт убедитесь, что вы указываете, что вы переносите служебный номер (*а не номер пользователя или абонента*). В противном случае одновременная пропускная способность номера может оказаться недостаточной для обработки объемов вызовов. Если вы хотите перенести номера телефонов или выполнить другие действия с вашими телефонными номерами, см. статью [Управление номерами телефонов для вашей организации](/microsoftteams/manage-phone-numbers-for-your-organization).
+If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You have to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, please make sure you specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 > [!NOTE]
 > Если необходимо больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)

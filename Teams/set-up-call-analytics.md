@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Настройка и использование вызова Analytics для выявления и устранения неполадок Скайп для бизнеса и группами Майкрософт проблемы с качеством вызовов.
-ms.openlocfilehash: 1e7c7eaa769ba1e08a46b539b15e673d35891f5c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ff1323ad94381119dc9651d353d57988f0ff5876
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016911"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375903"
 ---
 # <a name="set-up-call-analytics"></a>Настройка вызова аналитики
 
@@ -81,7 +81,7 @@ ms.locfileid: "25016911"
     
      ![Снимок экрана показаны разрешения для вызова Analytics страницы с параметрами для уровня 1 и 2 уровня разрешений.](media/setup-call-analytics-image1.png)
   
- Получить пользователей с помощью одной из этих уровней разрешений для вызова аналитики с помощью выделенного URL-адрес *https://adminportal.services.skypeforbusiness.com*.
+   Получить пользователей с помощью одной из этих уровней разрешений для вызова аналитики с помощью выделенного URL-адрес *https://adminportal.services.skypeforbusiness.com*.
   
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Отправка .tsv или CSV-файла для добавления построение сайта и клиентов сведения
 <a name="BKMK_UploadFiles"> </a>

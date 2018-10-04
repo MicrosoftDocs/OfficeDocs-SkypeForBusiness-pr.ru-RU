@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b877ecac39c98d6dd77fc3617c2cf7bd4da332eb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7858737dc69f076ca059aca9de5437cb3cb88e52
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015231"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374598"
 ---
 ![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")
 
@@ -60,8 +60,8 @@ ms.locfileid: "25015231"
 >Большинство параметров конфигурации, общих элементов для групп и Скайп для бизнеса в Интернет. Использование групп Майкрософт & Скайп по центру администрирования Business для настройки этих параметров.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Точка принятия решений</td><td><ul><li>Кто будет отвечать надзор завершения контрольные списки адаптация новых сотрудников?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Дальнейшие действия</td><td><ul><li>Загрузите контрольные списки адаптация новых сотрудников.</li><li>Работа с помощью элементов контрольного списка адаптация новых сотрудников, пошаговые в соответствии с вашей организации плана развертывания.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Точка принятия решений</td><td><ul><li>Кто будет отвечать надзор завершения контрольные списки адаптация новых сотрудников?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Дальнейшие действия</td><td><ul><li>Загрузите контрольные списки адаптация новых сотрудников.</li><li>Работа с помощью элементов контрольного списка адаптация новых сотрудников, пошаговые в соответствии с вашей организации плана развертывания.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
