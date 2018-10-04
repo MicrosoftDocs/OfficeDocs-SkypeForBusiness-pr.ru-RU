@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Соответствующие вопросы планирования развертывания систем комнаты Скайп версии 2, а также для развертывания и управления системы.
-ms.openlocfilehash: 02dcbb2ccdd1b7737dff25475fa8f623d5cff926
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: 49fb892e6621c3bd601425fc2ccee84313b4444c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21249231"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374811"
 ---
 <h2>Версии 2 систем комнаты Скайп & #x 2013; <br>Следующее поколение систем Скайп комнаты </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -25,7 +25,7 @@ ms.locfileid: "21249231"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>От малого ютиться области до больших конференц-залы с расширенными пробелы собрания преобразования, совместной работы Скайп для бизнеса программой, можно легко использовать, развертывания и управления. </p>
+                        <p>Преобразование собрания пробелов от малого ютиться области до больших конференц-залы с расширенными возможностями, совместной работы Скайп для бизнеса программой & #39; s прост, развертывания и управления. </p>
                         <p>Запуск собрания на время с одним нажатием соединения, а затем мгновенно project для отображения в комнаты и общий доступ для удаленных участников. </p>
                         <p>Выберите один из партнеров правом системы и аудиоустройств видео: Logitech, Crestron, Polycom, Lenovo и HP.</p>
                         <p></p>

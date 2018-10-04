@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Сводка: Перейдите по этим ссылкам, чтобы узнать, как реализовать Скайп для Business Server 2015.'
-ms.openlocfilehash: 21a776b96c640b152e512b3c052340e2ed8f45d9
-ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
+ms.openlocfilehash: 459738bf2c3aae789db26c960297d692c85696af
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19949817"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375887"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype для бизнеса Server 2015
 
@@ -72,7 +72,7 @@ ms.locfileid: "19949817"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Развертывание</h3>
+                        <h3>Развертывание: </h3>
                     </div>
                 </div>
             </div>
@@ -145,9 +145,9 @@ ms.locfileid: "19949817"
                 <div class="card">
                     <div class="cardText">
                         <h3>Прежде чем начать</h3>
-                        <p>[Требования к среде](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)</p>
-                        <p>[Требования к сети](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)</p>
-                        <p>[Клиенты и устройства](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)</p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Требования к среде</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Сетевые требования</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Клиенты и устройства</a></p>
                     </div>
                 </div>
             </div>
@@ -159,8 +159,8 @@ ms.locfileid: "19949817"
                 <div class="card">
                     <div class="cardText">
                         <h3>Установка и управление ими</h3>
-                        <p>[Установка Скайп для Business Server](/SkypeForBusiness/deploy/install/install)</p>
-                        <p>[Управление Скайп для Business Server](/SkypeForBusiness/manage/manage)</p>
+                        <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Установка Skype для бизнеса Server</a></p>
+                        <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Управление системой Skype для бизнеса Server</a></p>
                      </div>
                 </div>
             </div>
@@ -172,8 +172,8 @@ ms.locfileid: "19949817"
                 <div class="card">
                     <div class="cardText">
                         <h3>Корпоративная голосовая связь</h3>
-                        <p>[Планирование](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)</p>
-                        <p>[Развертывание](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)</p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">Планирование</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">Развертывание</a></p>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@ ms.locfileid: "19949817"
                     <div class="cardText">
                         <h3>Трансляция собрания Skype</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">Что это такое?</a></p>
-                        <p>[Настройка локального развертывания на наличие Скайп вещания собрания](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)
+                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Настройка локального развертывания на наличие Скайп вещания собрания</a>
                     </div>
                 </div>
             </div>
@@ -198,9 +198,9 @@ ms.locfileid: "19949817"
                 <div class="card">
                     <div class="cardText">
                         <h3>Гибридные решения</h3>
-                        <p>[Планирование гибридного подключения](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)</p>
-                        <p>[Планирование решения телефонной системой (облако УАТС)](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)</p>
-                        <p>[Планирование для облачных соединителя Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)</p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Планирование гибридного подключения</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution" data-raw-source="[Plan your Phone System (Cloud PBX) solution ](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)">Планирование решения телефонной системой (облако УАТС)</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition" data-raw-source="[Plan for Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)">Планирование для облачных соединителя Edition</a></p>
                </div>
                 </div>
             </div>
