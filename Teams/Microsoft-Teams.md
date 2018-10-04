@@ -4,12 +4,12 @@ hide_bc: true
 title: Документация и практическое руководство по Microsoft Teams
 description: Документация и практическое руководство по Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: 6f4ba9227e383039968e9fa84321c9ec0628d7f5
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 60f174ab661537e398292ac222ceae839e373fac
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843783"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372390"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -109,7 +109,7 @@ ms.locfileid: "23843783"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Безопасность &amp; и соответствие требованиям</h3>
-                                                    <p>Продукт Microsoft Teams основан на возможностях облака Office 365. Это значит, что он предоставляет необходимую безопасность и соответствие требованиям уровня организации</p>
+                                                    <p>Команды создан на основе облака Office 365, что означает функций безопасности уровня предприятия &amp; необходимо соответствие требованиям</p>
                                                 </div>
                                             </div>
                                         </div>

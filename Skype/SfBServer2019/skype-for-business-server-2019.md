@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Сводка: Перейдите по этим ссылкам, чтобы узнать, как реализовать Скайп для Business Server 2019.'
-ms.openlocfilehash: 0597aa1ac93e943bf20556ecec8047416eacef99
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1ae2c6cb758a2cc7e948e7e20a2ce8527553f7c5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029876"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374197"
 ---
 # <a name="skype-for-business-server-2019"></a>Скайп для Business Server 2019
 
@@ -205,9 +205,11 @@ ms.locfileid: "25029876"
 -->
 
 ### <a name="featured-articles"></a>Основные статьи
-| | | |
-|:--- |:--- |:--- |
-|**Прежде чем начать** <br>[Требования к системе](plan/system-requirements.md) <br>[Сетевые требования](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) |**Установка ** <br>[Установка Skype для бизнеса Server](../SfbServer/deploy/install/install.md) <br> [Перенос в Скайп для бизнеса 2019](migration/migration-to-skype-for-business-server-2019.md)|**Корпоративная голосовая связь**.<br>[Планирование](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Развертывание](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)|
-|**Новые возможности**<br>[Новые возможности](whats-new.md)  |**Гибридные решения**<br>[Планирование гибридного подключения](hybrid/plan-hybrid-connectivity.md)<br> [Планирование службы голосовой почты в облаке](hybrid/plan-cloud-voicemail.md)<br>[Планирование подключения к данным звонка](hybrid/plan-call-data-connector.md)  |  |
-| | | |
+
+|                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Прежде чем начать** <br>[Требования к системе](plan/system-requirements.md) <br>[Сетевые требования](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Установка ** <br>[Установка Skype для бизнеса Server](../SfbServer/deploy/install/install.md) <br> [Перенос в Скайп для бизнеса 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Корпоративная голосовая связь**.<br>[Планирование](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Развертывание](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **Новые возможности**<br>[Новые возможности](whats-new.md)                                                                                                                                         | **Гибридные решения**<br>[Планирование гибридного подключения](hybrid/plan-hybrid-connectivity.md)<br> [Планирование службы голосовой почты в облаке](hybrid/plan-cloud-voicemail.md)<br>[Планирование подключения к данным звонка](hybrid/plan-call-data-connector.md) |                                                                                                                                                                                                     |
+|                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
+
 * * *   
