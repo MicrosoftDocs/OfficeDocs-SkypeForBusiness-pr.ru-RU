@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8715e4f7fb624c745c8fbb76591386e568a038f
-ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
+ms.openlocfilehash: a2750f99e47517e0b1e516b89673106b44f0c96c
+ms.sourcegitcommit: 0cb35fd6e93939f2252d0729c7c08bac50e6cd6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25359456"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25402079"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -129,7 +129,7 @@ ms.locfileid: "25359456"
                 <div class="card">
                     <div class="cardText">
                         <h3>Переход со Skype для бизнеса на Microsoft Teams</h3>
-                         <p>[Руководство. Переход со Skype для бизнеса на Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml)</p>
+                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Руководство. Переход со Skype для бизнеса на Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,8 @@ ms.locfileid: "25359456"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Архитектура</h3><p>[Видео: Основы - основные компоненты рабочих групп](http://aka.ms/teams-foundations)</p>
+                        <h3>Архитектура</h3>
+                        <p><a href="http://aka.ms/teams-foundations">Видео: Основы - основные компоненты рабочих групп</a></p>
                     </div>
                 </div>
             </div>
@@ -150,8 +151,8 @@ ms.locfileid: "25359456"
                 <div class="card">
                     <div class="cardText">
                         <h3>Планирование и развертывание</h3>
-                         <p>[Quick start: Teams planning guide (Краткое руководство. Руководство по планированию Teams)](quick-start-enable-teams.md)</p>
-                         <p>[Видео: Клиент рабочего стола групп Windows](http://aka.ms/teams-clients)</p>
+                         <p><a href="quick-start-enable-teams.md">Quick start: Teams planning guide (Краткое руководство. Руководство по планированию Teams)</a></p>
+                         <p><a href="http://aka.ms/teams-clients">Видео: Клиент рабочего стола групп Windows</a></p>
                     </div>
                 </div>
             </div>
@@ -162,7 +163,7 @@ ms.locfileid: "25359456"
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams для образовательных учреждений</h3>
-                        <p>[Краткое руководство: группы для образовательных учреждений "Администраторы"](teams-quick-start-edu.yml)</p>
+                        <p><a href="teams-quick-start-edu.yml">Краткое руководство: группы для образовательных учреждений "Администраторы"</a></p>
                     </div>
                 </div>
             </div>
@@ -174,9 +175,9 @@ ms.locfileid: "25359456"
                 <div class="card">
                     <div class="cardText">
                         <h3>Команды и каналы</h3>
-                         <p>[Видео: Получение группы запущены](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
-                         <p>[Видео: Переход к руководство для владельцев группы](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547")</p>
-                         <p>[Статья: Создание группы масштабе организации в группах](create-an-org-wide-team.md)</a></p>
+                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Видео: Получение группы запущены</a></p>
+                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Видео: Переход к руководство для владельцев группы</a></p>
+                         <p><a href="create-an-org-wide-team.md">Статья: Создание группы масштабе организации в группах</a></p>
                     </div>
                 </div>
             </div>
@@ -187,7 +188,7 @@ ms.locfileid: "25359456"
                 <div class="card">
                     <div class="cardText">
                         <h3>Безопасность и соответствие требованиям</h3>
-                       <p>[Видео: Общие сведения об электронных документов в группах](https://www.youtube.com/watch?v=OF65_p_07cE)</p>
+                       <p><a href="https://www.youtube.com/watch?v=OF65_p_07cE">Видео: Общие сведения об электронных документов в группах</a></p>
                     </div>
                 </div>
             </div>
@@ -199,7 +200,7 @@ ms.locfileid: "25359456"
                 <div class="card">
                     <div class="cardText">
                         <h3>Собрания</h3>
-                        <p>[Руководство. Собрания в Teams](tutorial-meetings-in-teams.yml)</a></p>
+                        <p><a href="tutorial-meetings-in-teams.yml">Руководство. Собрания в Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -210,9 +211,9 @@ ms.locfileid: "25359456"
                 <div class="card">
                     <div class="cardText">
                         <h3>Приложения и средства</h3>
-                        <p>[Видео: Добавление средств с вкладками](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
-                        <p>[Видео: Использование поле Команда](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
-                        <p>[Видео: Обзор панели команд](https://www.youtube.com/watch?v=wYrRCRphrp0)</p>
+                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Видео: Добавление средств с вкладками</a></p>
+                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Видео: Использование поле Команда</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Видео: Обзор панели команд</a></p>
                     </div>
                 </div>
             </div>
@@ -224,10 +225,10 @@ ms.locfileid: "25359456"
                 <div class="card">
                     <div class="cardText">
                         <h3>Аудиоконференция</h3>
-                         <p>[Руководство по Аудиоконференций в группах](tutorial-audio-conferencing.yml)</p>
-                         <p>[Видео: Общие сведения о конференции](https://www.youtube.com/watch?v=AGPvaW4Vg0o)</p>
-                         <p>[Видео: Планирование аудиоконференций](https://www.youtube.com/watch?v=AWbuvcWcYIc)</p>
-                         <p>[Видео: Номер перенос для аудиоконференции](https://www.youtube.com/watch?v=5k0C21KAsns)</p>
+                         <p><a href="tutorial-audio-conferencing.yml">Руководство по Аудиоконференций в группах</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=AGPvaW4Vg0o">Видео: Общие сведения о конференции</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=AWbuvcWcYIc">Видео: Планирование аудиоконференций</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=5k0C21KAsns">Видео: Номер перенос для аудиоконференции</a></p>
                     </div>
                 </div>
             </div>
@@ -238,8 +239,8 @@ ms.locfileid: "25359456"
                 <div class="card">
                     <div class="cardText">
                         <h3>Планы звонков</h3>
-                         <p>[Краткое руководство: Настройка вызов планы в группах](configuring-teams-calling-quickstartguide.md)</p>
-                         <p>[Учебное руководство. Общие сведения о звонках в Microsoft Teams](tutorial-calling-in-teams.yml)</p>
+                         <p><a href="configuring-teams-calling-quickstartguide.md">Краткое руководство: Настройка вызов планы в группах</a></p>
+                         <p><a href="tutorial-calling-in-teams.yml">Учебное руководство. Общие сведения о звонках в Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -250,7 +251,7 @@ ms.locfileid: "25359456"
                 <div class="card">
                     <div class="cardText">
                         <h3>Прямая отправка</h3>
-                        <p>[Видео: Прямая отправка для групп - предварительного просмотра](https://www.youtube.com/watch?v=dVkc5Bs926Q)</p>
+                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">Видео: Прямая отправка для групп - предварительного просмотра</a></p>
                     </div>
                 </div>
             </div>
