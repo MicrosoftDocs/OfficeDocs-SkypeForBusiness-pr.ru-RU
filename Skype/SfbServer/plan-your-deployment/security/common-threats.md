@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Так как Скайп для Business Server — это система communications корпоративного класса, можно принять во внимание распространенных угроз безопасности, которые могут повлиять на его инфраструктуры и обмена информацией.
-ms.openlocfilehash: 59f65a6a9a4d56850908fa0749e4a672b23b7a85
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5609fda3fd3d58a5e5ed5df34c1c5e39e7843e85
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967829"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373066"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Распространенные угрозы безопасности в современном компьютерном мире
  
@@ -101,9 +101,9 @@ ms.locfileid: "20967829"
    
 **Обязательные данные**
 
-|**Раскрываемые данные**|**Пример сведений**|
-|:-----|:-----|
-|IP-адрес  <br/> |Фактический адрес компьютера или адрес NAT  <br/> |
-|Универсальный код ресурса SIP  <br/> |jeremylos@litwareinc.com  <br/> |
-   
+
+| **Раскрываемые данные** | **Пример сведений**                            |
+|:-------------------|:---------------------------------------------------|
+| IP-адрес  <br/>  | Фактический адрес компьютера или адрес NAT  <br/> |
+| Универсальный код ресурса SIP  <br/>     | jeremylos@litwareinc.com  <br/>                    |
 

@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После миграции на Скайп для Business Server 2019, необходимо переместить центральный сервер управления Скайп для сервера переднего плана Business Server 2019 или пула, прежде чем удалять устаревшего сервера.
-ms.openlocfilehash: 805b5c506fdda11bdc24144a0622e674e8ef281b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6a358b11d7d319d5dafbb82f4391cdc3d0ae1562
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030527"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373445"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Перемещение устаревшего сервера централизованного управления Скайп для Business Server 2019
 
@@ -35,9 +35,9 @@ ms.locfileid: "25030527"
     
 3. Для создания нового центрального хранилища управления в Скайп Business Server 2019 базы данных SQL Server, в Скайп для консоли Business Server, введите следующую команду:
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
+   ```
 
 4. Подтвердите, что состояние службы **Скайп для интерфейсного сервера Business** **работы**.
     
@@ -56,9 +56,9 @@ ms.locfileid: "25030527"
   
 5. Для создания нового центрального хранилища управления на Скайп для Business Server 2019 Standard Edition Front End Server, в Скайп для консоли Business Server, введите следующую команду: 
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
+   ```
 
 6. Подтвердите, что состояние службы **Скайп для интерфейсного сервера Business** **работы**.
     
@@ -70,18 +70,18 @@ ms.locfileid: "25030527"
     
 3. В поле Скайп для консоли Business Server введите: 
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
     > [!CAUTION]
     > Если `Enable-CsTopology` не завершена, устранить проблему, предотвращая команда завершения перед продолжением. Если **Командлет Enable-CsTopology** не был выполнен успешно, move завершится с ошибкой, и он может привести к топологии где у пользователей нет центрального хранилища управления. 
   
 4. На Скайп для пула переднего плана или сервера переднего плана Business Server 2019, в Скайп для консоли Business Server введите следующую команду: 
     
-  ```
-  Move-CsManagementServer
-  ```
+   ```
+   Move-CsManagementServer
+   ```
 
 5. Скайп для консоли Business Server отображает серверы, файловых хранилищ, хранилищ баз данных и точек подключения службы для текущего состояния и состояния предложено. Внимательно ознакомьтесь с информацией и убедитесь, что это предполагаемая источника и назначения. Введите **Y** , чтобы продолжить или **N** , чтобы остановить перемещение. 
     
@@ -99,9 +99,9 @@ ms.locfileid: "25030527"
     
 12. Чтобы подтвердить репликации с помощью нового управления повторяться хранилища, в Скайп для консоли Business Server, введите следующую команду: 
     
-  ```
-  Get-CsManagementStoreReplicationStatus
-  ```
+    ```
+    Get-CsManagementStoreReplicationStatus
+    ```
 
     > [!NOTE]
     > Репликация может занять некоторое время для обновления всех текущих реплик. 
@@ -117,15 +117,15 @@ ms.locfileid: "25030527"
   
 3. Чтобы удалить файлы базы данных хранилища централизованного управления из устаревшего установки сервера централизованного управления, введите следующую команду:
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
+   ```
 
     Например:
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
+   ```
 
     Где _ \<полное доменное имя SQL Server\> _ — это либо устаревший установите Тыловой сервер в развертывании Enterprise Edition или полное доменное имя сервера Standard Edition. 
     

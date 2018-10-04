@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72c420697b015d3af9cfe6fb9dd96757f1542e80
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c908cbfbd7daace3665ff99ccd3962fabf440e65
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016311"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373402"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>Запустите группами Майкрософт в виртуальной среде
 ============================================
@@ -100,7 +100,7 @@ ms.locfileid: "25016311"
 5.  Примените параметр предустановленных политики «AllOff» для всех пользователей, которые будут работать с группами в виртуализованной среде:<br>
 \>> *Предоставление CsTeamsMeetingPolicy - PolicyName AllOff-Identity «идентификатор электронной почты пользователя»*
 
-##<a name="known-limitations"></a>Известные ограничения
+## <a name="known-limitations"></a>Известные ограничения
 
 Кроме упомянутых previosly ограничения аудио- и видеоконференций существуют дополнительные ограничения, с которыми пользователи в виртуализированных средах могут столкнуться:
 

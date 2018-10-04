@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Прочитайте сведения об управлении v2 Скайп комнаты систем следующего поколения Скайп комнаты систем.
-ms.openlocfilehash: 52e02ff1f87d06088636b2f44706ec03c62675f3
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965893"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373649"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Обслуживание версии 2 Скайп комнаты систем и операции 
  
@@ -234,9 +234,9 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
     
 4. Перезагрузите компьютер после завершения работы.
     
- Консоль перезапускает в его обычной работе режима, работа приложения v2 Скайп комнаты систем. Можно удалить клавиатуры, если он был подключен к для выполнения этой процедуры.
-## <a name="troubleshooting-tips"></a>Советы по устранению неполадок
-<a name="TS"> </a>
+   Консоль перезапускает в его обычной работе режима, работа приложения v2 Скайп комнаты систем. Можно удалить клавиатуры, если он был подключен к для выполнения этой процедуры.
+   ## <a name="troubleshooting-tips"></a>Советы по устранению неполадок
+   <a name="TS"> </a>
 
 - Приглашения на собрания может не отображаться при отправке за пределами домена (например, между двумя компаниями). В таких случаях ИТ-администраторов. следует решить, следует ли разрешить внешним пользователям планировать собрания.
     

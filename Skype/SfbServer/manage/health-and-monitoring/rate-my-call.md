@@ -9,47 +9,47 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Сводка: Сведения о скорости личных вызова функции в Скайп для Business Server.'
-ms.openlocfilehash: 737d6a71f6880139d558d601a14d8f76c61d80f2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3e4e2f63c9d61bacab73838933ef89130714f6f0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989065"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373475"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Оцените Мои звонка в Скайп для Business Server
- 
+
 **Сводка:** Сведения о скорости личных вызова функции в Скайп для Business Server.
-  
+
 Скорость личных звонок был компонента в Скайп для 2015 бизнеса и клиентов 2016 в Windows, который предоставляет способ получить свои отзывы и предложения от их конечных пользователей предприятия.
-  
+
 Окно личных вызова скорость предлагает систему «звездочка» оценок и предустановленные токены для вызовов, аудио- и видеоконференций. Кроме того администраторы могут разрешить настраиваемого поля оставить отзыв.
-  
+
 Собранные данные оценки вызова в настоящее время не включаются ни в один из существующих ответов мониторинга, но имеет отдельный отчет мониторинга. Сбор данных в таблицах SQL, которые можно получить, запустив SQL-запросов.
-  
+
 ## <a name="rate-my-call-prerequisites"></a>Требования функции оценки вызова
 
 Пользователи в вашей Скайп для развертывания Business Server может получить доступ к скорости личных вызова функциональные возможности, необходимо развернута и настроена следующего набора компонентов:
-  
+
 -  Необходимо иметь Скайп для установки сервера Business (версия 9160 или выше).
-    
+
 - У пользователей Установка и обновление до последней версии Скайп для бизнеса и также попросить использовать Скайп для пользовательского интерфейса бизнеса.
-    
+
 - Пользователи должны быть размещены на Скайп для пула переднего плана Business Server.
-    
+
 - Необходимо иметь Скайп для сервера базы данных мониторинга развернуты и связанный вашей Скайп для пулов Business Server.
-    
+
 - Рекомендуется развернуть панель мониторинга качества вызовов (CQD).
-    
+
 ## <a name="configure-rate-my-call"></a>Настройка функции оценки вызова
 
 Частота личных вызова она включена по умолчанию в политике клиента со следующими параметрами:
-  
+
 - Оцените Мои процент отображения вызовов - 10%
-    
+
 - Оцените Мои вызова разрешить Custom отзывов и предложений — этот параметр отключен
-    
+
 Нет никаких действий, необходимых для реализации базовой функции, тем не менее, но если требуется настраиваемых свои отзывы и предложения необходимо включить отдельно. Следующий командлет Windows PowerShell — это пример Включение настраиваемого конечного пользователя свои отзывы и предложения и изменение интервала от 10% до 80%.
-  
+
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
@@ -57,13 +57,13 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 ## <a name="accessing-rate-my-call-data"></a>Доступ к данным оценки вызова
 
 Сбор данных от пользователей в двух таблиц в базе данных мониторинга.
-  
+
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** -в этой таблице содержатся результаты опроса маркеров конечными пользователями.
-  
+
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** -в этой таблице содержится маркеров определений.
-  
+
 Определения маркеров имеют следующую кодировку:
-  
+
 |||
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
@@ -104,15 +104,15 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |408  <br/> |SS_Other  <br/> |
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
-   
+
  **[QoeMetrics]. [dbo]. [CallQualityFeedback]** В этой таблице содержатся результаты опроса «Звезда» голосования и отзывы пользователей, если этот параметр включен.
-  
+
 Данные из таблиц, которые могут вызываться с помощью **выберите \* из [Table.Name]** запроса или с помощью Microsoft SQL Server Management Studio.
-  
+
 Можно использовать следующие запросы SQL:
-  
+
  **Аудио**
-  
+
 ```
 SELECT
         s.ConferenceDateTime
@@ -146,11 +146,10 @@ SELECT
             (CallerCqfToken.TokenId < 20 or (CallerCqfToken.TokenId > 100 and CallerCqfToken.TokenId < 200)) -- only look at Audio related feedback
         INNER JOIN [User] AS Caller WITH (NOLOCK) ON
             Caller.UserKey = CallerCqf.FromURI
- 
 ```
 
  **Видео**
-  
+
 ```
 SELECT
         s.ConferenceDateTime
@@ -189,7 +188,7 @@ SELECT
 ## <a name="updating-token-definitions"></a>Обновление маркеров определений
 
 Новый маркер проблема идентификаторы сообщить о последних Скайп пользователей (\> 100), которая не может быть представлен в [QoeMetrics]. [dbo]. Таблица [CallQualityFeedbackTokenDef]. Для обновления таблицы базы данных с последними маркеров определений ниже SQL команду можно выполнить на базу данных мониторинга с помощью Microsoft SQL Server Management Studio. Эта команда будет заменен всех записей в [QoeMetrics]. [dbo]. Таблица [CallQualityFeedbackTokenDef].
-  
+
 ```
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
@@ -231,7 +230,6 @@ INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (408, N'SS_Other'),
     (501, N'Reliabilty_Join'),
     (502, N'Reliabilty_Invite');
-
 ```
 
 

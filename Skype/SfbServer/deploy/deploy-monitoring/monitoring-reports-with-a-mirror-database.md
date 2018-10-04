@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Сводка: Узнайте, как связать отчетов мониторинга с зеркальной базы данных, используемые Скайп для Business Server.'
-ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fdca07874192a772a99145bf3ca2042995bb7aee
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000773"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374367"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Сопоставление отчетов мониторинга с зеркальной базы данных в Скайп для Business Server 
  
@@ -36,9 +36,9 @@ ms.locfileid: "21000773"
     
    - Имя экземпляра базы данных, в которой устанавливаются Отчеты о мониторинге (например, **archinst**).
     
-    Например, если служба SQL Server Reporting Services была установлена на компьютере atl-sql-001.litwareinc.com, а в Отчетах о мониторинге используется экземпляр базы данных с именем archinst, то URL-адрес главной страницы будет выглядеть следующим образом:
+     Например, если служба SQL Server Reporting Services была установлена на компьютере atl-sql-001.litwareinc.com, а в Отчетах о мониторинге используется экземпляр базы данных с именем archinst, то URL-адрес главной страницы будет выглядеть следующим образом:
     
-    **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
 2. Выполнив переход на главную страницу службы Reporting Services, щелкните ссылку **ServerReports**, затем - **Reports_Content**. Вы перейдете к странице **Reports_Content** для Скайп для отчетов мониторинга Business Server.
     

@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: В этой статье описывается настройка консоли версии 2 Скайп комнаты систем и его периферийных устройств.
-ms.openlocfilehash: 57ee754d99c9c0fcec62347146c79e9da5995fe1
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: bb23f0dad26f37554657a101dc68dc7d776080b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965708"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371063"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Настройка консоли для Систем комнат Skype версии 2
  
@@ -145,7 +145,7 @@ ms.locfileid: "23965708"
     
    - Динамик по умолчанию. Динамик, который используется для воспроизведения звука со входа HDMI.
     
-    Параметры каждого элемента можно настроить в соответствующем раскрывающемся списке. Необходимо сделать выбор для каждого устройства.
+     Параметры каждого элемента можно настроить в соответствующем раскрывающемся списке. Необходимо сделать выбор для каждого устройства.
     
 6. Нажмите кнопку **Готово **.
     
@@ -174,9 +174,9 @@ ms.locfileid: "23965708"
     
 3. Выполните следующую команду.
     
-  ```
-  certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
-  ```
+   ```
+   certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
+   ```
 
 ### <a name="join-an-active-directory-domain-optional"></a>Присоединение к домену Active Directory (необязательно)
 <a name="Certs"> </a>
@@ -191,9 +191,9 @@ ms.locfileid: "23965708"
     
 3. Введите следующую команду в Powershell:
     
-  ```
-  Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
-  ```
+   ```
+   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
+   ```
 
 Например, если redmond.corp.microsoft.com — это полное доменное, и вы хотите вашей консоли систем комнаты Скайп версии 2 в «v2 систем комнаты Скайп» Подразделения, являющийся дочерним элементом «ресурсы» Подразделение, команда будет:
   

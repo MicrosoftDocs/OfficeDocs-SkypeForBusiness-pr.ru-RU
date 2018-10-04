@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Сводка: Настройка двухфакторной проверки подлинности в Скайп для Business Server.'
-ms.openlocfilehash: 4fc8791cd7459ecea89bb8101b2c1a488b6eace2
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bb3975c3c843e2d6d7600109c600ad948aa1de15
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250803"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373890"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Настройка двухфакторной проверки подлинности в Скайп для Business Server
 
@@ -77,9 +77,9 @@ ms.locfileid: "23250803"
 
 5. Откройте консоль управления TPM, выполнив следующую команду:
 
-  ```
-  Tpm.msc
-  ```
+   ```
+   Tpm.msc
+   ```
 
 6. Убедитесь в том, что спецификация вашего TPM имеет версию 1.2 или выше.
 
@@ -90,18 +90,18 @@ ms.locfileid: "23250803"
 
 8. Создайте новую виртуальную смарт-карту, введя в командную строку следующую команду:
 
-  ```
-  TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
-  ```
+   ```
+   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
+   ```
 
     > [!NOTE]
     > Чтобы сообщить настраиваемое значение ПИН-кода, используйте ключ командной строки /pin.
 
 9. Откройте консоль управления компьютером, введя в командную строку следующую команду:
 
-  ```
-  CompMgmt.msc
-  ```
+   ```
+   CompMgmt.msc
+   ```
 
 10. В консоли управления компьютером выберите **Управление устройствами**.
 
@@ -134,27 +134,27 @@ ms.locfileid: "23250803"
 
 7. В разделе **Шаблон сертификата** выберите **Пользователь смарт-карты** и введите в полях расширенного запроса сертификата следующие значения.
 
-  - В разделе **Параметры ключа** задайте следующие значения.
+   - В разделе **Параметры ключа** задайте следующие значения.
 
-    - Установите переключатель в положение **Создать новый набор ключей**.
+     - Установите переключатель в положение **Создать новый набор ключей**.
 
-    - Для параметра **Поставщик служб шифрования** выберите значение **Базовый поставщик криптографии смарт-карт (Microsoft)**.
+     - Для параметра **Поставщик служб шифрования** выберите значение **Базовый поставщик криптографии смарт-карт (Microsoft)**.
 
-    - Для параметра **Использование ключа** выберите значение **Обмен** (единственное доступное значение).
+     - Для параметра **Использование ключа** выберите значение **Обмен** (единственное доступное значение).
 
-    - В поле **Размер ключа** введите значение 2048.
+     - В поле **Размер ключа** введите значение 2048.
 
-    - Убедитесь в том, что флажок **Автоматическое имя контейнера ключа** установлен.
+     - Убедитесь в том, что флажок **Автоматическое имя контейнера ключа** установлен.
 
-    - Оставьте остальные флажки снятыми.
+     - Оставьте остальные флажки снятыми.
 
-  - В разделе **Дополнительные параметры** задайте следующие значения.
+   - В разделе **Дополнительные параметры** задайте следующие значения.
 
-    - Для параметра **Формат запроса** выберите значение **CMC**.
+     - Для параметра **Формат запроса** выберите значение **CMC**.
 
-    - Для параметра **Алгоритм хэширования** выберите значение **sha1**.
+     - Для параметра **Алгоритм хэширования** выберите значение **sha1**.
 
-    - Для enterSmardcard **Понятное имя** сертификата.
+     - Для enterSmardcard **Понятное имя** сертификата.
 
 8. Если используется физическое устройство считывания смарт-карт, вставьте смарт-карту в устройство.
 
@@ -189,15 +189,15 @@ ms.locfileid: "23250803"
 
 3. Введите в командной строке Windows PowerShell следующую команду:
 
-  ```
-  add-pssnapin Microsoft.Adfs.PowerShell
-  ```
+   ```
+   add-pssnapin Microsoft.Adfs.PowerShell
+   ```
 
 4. Установите партнерское отношение с каждым сервером, на котором будет разрешена пассивная проверка подлинности; для этого выполните следующую команду, указав имя сервера в конкретном развертывании:
 
-  ```
-  Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-  ```
+   ```
+   Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+   ```
 
 5. Запустите консоль управления AD FS 2.0 в меню "Средства администрирования".
 
@@ -207,24 +207,24 @@ ms.locfileid: "23250803"
 
 8. С помощью Windows PowerShell и следующих команд создайте и назначьте для отношения доверия с проверяющей стороны правило утверждения авторизации:
 
-  ```
-  $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
-  ```
+   ```
+   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+   ```
 
-  ```
-  Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
--IssuanceAuthorizationRules $IssuanceAuthorizationRules
-  ```
+   ```
+   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
+   -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+   ```
 
 9. С помощью Windows PowerShell и следующих команд создайте и назначьте для отношения доверия с проверяющей стороны правило утверждения преобразования:
 
-  ```
-  $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-  ```
+   ```
+   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+   ```
 
-  ```
-  Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
-  ```
+   ```
+   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+   ```
 
 10. В консоли управления AD FS 2.0 щелкните отношение доверия с проверяющей стороной правой кнопкой мыши и выберите команду **редактирования правил утверждений**.
 
@@ -268,9 +268,9 @@ ms.locfileid: "23250803"
 
 11. Перезапустите службу IIS, выполнив следующую команду:
 
-  ```
-  IISReset /Restart /NoForce
-  ```
+    ```
+    IISReset /Restart /NoForce
+    ```
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>Настройка пассивной проверки подлинности в Skype для бизнеса Server
 
@@ -291,30 +291,30 @@ ms.locfileid: "23250803"
 
 3. В Скайп для Business Server Командная консоль командной строки создайте новую конфигурацию веб-службы для каждого директора, корпоративного пула и сервера Standard Edition, который будет включен для пассивной проверки подлинности, выполнив следующую команду:
 
-  ```
-  New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-  ```
+   ```
+   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+   ```
 
     > [!CAUTION]
     > Значением полного доменного имени WsFedPassiveMetadataUri является имя службы федерации сервера AD FS 2.0. Значение имени службы федерации можно найти в консоли управления AD FS 2.0, щелкнув **Служба** в области навигации правой кнопкой мыши и затем выбрав **Изменить свойства службы федерации**.
 
 4. Проверьте правильность значений UseWsFedPassiveAuth и WsFedPassiveMetadataUri, выполнив следующую команду:
 
-  ```
-  Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
-  ```
+   ```
+   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
+   ```
 
 5. Для клиентов пассивная проверка подлинности является наименее предпочтительным способом проверки подлинности WebTicket. Для всех директоров (en), Enterprise пулов и серверов Standard Edition, которые будут использоваться для пассивной проверки подлинности других типов проверки подлинности, необходимо отключить в Скайп для бизнеса веб-служб, выполнив следующий командлет:
 
-  ```
-  Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
-  ```
+   ```
+   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
+   ```
 
 6. Убедитесь в том, что все остальные типы проверки подлинности успешно отключены, выполнив следующую команду:
 
-  ```
-  Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
-  ```
+   ```
+   Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
+   ```
 
 ### <a name="proxy-configuration"></a>Конфигурация прокси-сервера
 
@@ -326,19 +326,19 @@ ms.locfileid: "23250803"
 
 1. В Скайп для Business Server Командная консоль командной строки создайте новую конфигурацию прокси-сервера для каждого Скайп для пограничного пула Business Server, корпоративный пул и Standard Edition server, который будет использоваться для пассивной проверки подлинности, выполнив следующие команды:
 
-  ```
-  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-  ```
+   ```
+   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+   ```
 
-  ```
-  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-  ```
+   ```
+   New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+   ```
 
 2. Убедитесь, что все остальные типы проверки подлинности прокси-сервера успешно отключены, выполнив следующую команду:
 
-  ```
-  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
-  ```
+   ```
+   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
+   ```
 
 ## <a name="see-also"></a>См. также
 

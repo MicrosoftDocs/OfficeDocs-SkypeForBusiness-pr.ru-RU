@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Можно переместить пользователя из устаревшего пула в вашей Скайп для Business Server 2019 пилотного пула с помощью Скайп для панели управления 2019 Business Server или Скайп для консоли 2019 Business Server. В следующем примере, в столбец пул регистратора pool01.contoso.net является устаревшего пула и все шесть из этих пользователей подключения в этот пул. Используйте следующие процедуры для перехода пользователя к вашей Скайп для пула Business Server 2019, с помощью Скайп для панели управления 2019 Business Server и Скайп для консоли Business Server.
-ms.openlocfilehash: f04cccf29fd88bf1da95f4d67f6e47c51b878717
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6742c5fc00c9d53030ac32ee698686bb8b11fa07
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028812"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372747"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Перемещение одного пользователя в пилотный пул
 
@@ -43,15 +43,15 @@ ms.locfileid: "25028812"
     
 2. В командной строке введите следующую команду: 
     
-  ```
-  Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
-  ```
+   ```
+   Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
+   ```
 
 3. После этого в командной строке введите следующую команду: 
     
-  ```
-  Get-CsUser -Identity "David Pelton"
-  ```
+   ```
+   Get-CsUser -Identity "David Pelton"
+   ```
 
 4. Идентификатор **RegistrarPool** теперь указывает на Скайп для пула Business Server 2019. Наличие это удостоверение подтверждает, что пользователь успешно перемещен. 
 

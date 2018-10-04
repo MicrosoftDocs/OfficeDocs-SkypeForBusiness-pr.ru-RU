@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Вам может потребоваться использовать сопряженные интерфейсные пулы для обеспечения аварийного восстановления, однако это не обязательное требование.
-ms.openlocfilehash: 72083b2ec249a83c06cd8ccebe683f29d15709e0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7bbb15c635b8a0b9c90d80309e49721cfe778155
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026483"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371274"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Развертывание парных пулов переднего плана для аварийного восстановления в Скайп for Business Server
  
@@ -58,23 +58,23 @@ ms.locfileid: "21026483"
 
 10. Выполните принудительную синхронизацию данных о пользователях и конференциях между двумя пулами с помощью следующих командлетов:
     
-   ```
-   Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-   ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+    ```
 
-   ```
-   Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-   ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
 
-   Синхронизация данных может занять некоторое время. Можно использовать следующие командлеты для проверки состояния. Убедитесь, что для обоих направлений состояние является стационарным.
+    Синхронизация данных может занять некоторое время. Можно использовать следующие командлеты для проверки состояния. Убедитесь, что для обоих направлений состояние является стационарным.
     
-   ```
-   Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-   ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+    ```
 
-   ```
-   Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
-   ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
 
 > [!NOTE]
 > Параметр **автоматической отработки отказа и восстановления размещения для голосовой связи** и связанные временных интервалов в построителе топологий применяются только к функции обеспечения устойчивости голосовой связи, которые были представлены в Lync Server. При выборе этого параметра не означает, что отработка отказа пула, обсуждаемые в этом документе происходит автоматически. Отработки отказа и восстановления размещения всегда требуют администраторы могут вручную активировать командлеты отработки отказа и восстановления размещения, соответственно.

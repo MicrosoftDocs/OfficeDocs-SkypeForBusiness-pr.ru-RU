@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: 248156cb326c4614be717b6f851d0ea04b28dd39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: deb26d47c2b291e83c3ed32e4175bf7a82035c67
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888317"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370856"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Воспользуйтесь пробной версией или приобретите функцию аудиоконференции в Office 365 для Skype для бизнеса Online
 
@@ -34,9 +34,9 @@ ms.locfileid: "23888317"
 > Сведения об аудиоконференции в Microsoft Teams содержатся в разделе [Воспользуйтесь пробной версией или приобретите функцию аудиоконференции в Office 365 для Skype для Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
 
 
-В некоторых случаях пользователям в организации требуется телефон, чтобы присоединиться к собранию. Скайп для бизнеса включает в себя функцию аудиоконференции для только что этой ситуации! Люди могут присоединяться к собраниям Skype для бизнеса с помощью телефона, а не использовать приложение Skype для бизнеса на мобильном устройстве или компьютере.
+Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business includes the Audio Conferencing feature for just this situation! People can call into Skype for Business meetings using a phone, instead of using the Skype for Business app on a mobile device or PC.
 
-Необходимо настроить звукового конференц-связи для пользователей, которые планируется расписание или привести собрания. Участникам, которые подключаются к собранию, не нужны ни специально назначенные им лицензии, ни другие настройки.
+You only need to set up audio conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to the meeting don't need any licenses assigned to them and don't need other setup.
 
 Цена сведения, в разделе [ценообразования для аудиоконференции](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
 
@@ -46,27 +46,27 @@ ms.locfileid: "23888317"
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Для приобретения и назначения пользовательских лицензий на аудиоконференции:
 
-1. Узнайте, доступен ли **Звук конференц-связи** в вашей стране или регионе. [Странах и область доступности для конференц-связи аудио и вызов планов](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
+1. Find out if **Audio Conferencing** is available in your country/region. [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
     
-2. Получите свою лицензию на **Аудиконференции**. Если Вы хотите:
+2. Get your **Audio Conferencing** licenses. If you want to:
 
-  - **Загрузить пробную версию**, прежде чем приобрести лицензию, Вы можете пройти регистрацию для получения бесплатной пробной версии Office 365 корпоративный E5, в которую входит функция аудиоконференции. См. раздел [Пробная версия Office 365 корпоративный E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Try it** before you buy it, you can sign up for an Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-  - **Купить**, видеть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+   - **Купить**, видеть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 3. [Назначение и удаление лицензий на Office 365 для бизнеса](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) , приобретенных для пользователей в вашей организации, которые будет расписание или ведущий сотрудник собраний.
 
-4. Дополнительно назначить приобретенные Вами лицензии на надстройку аудиоконференции и кредиты на связь. Сведения содержатся в разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Для приобретения и назначения лицензий на аудиоконференции с поминутной оплатой:
 
-Клиенты Volume and Licensing могут получить лицензии на аудиоконференции с поминутной оплатой. Дополнительные сведения о лицензии на аудиоконференции с поминутной оплатой доступны в разделе [Аудиоконференции с поминутной оплатой](/microsoftteams/audio-conferencing-pay-per-minute). 
+If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conferencing licenses. For additional information on pay-per-minute Audio Conferencing licenses, see [Audio Conferencing pay-per-minute](/microsoftteams/audio-conferencing-pay-per-minute). 
   
-1. Узнайте, доступен ли **Звук конференц-связи** в вашей стране или регионе. [Доступность страны и региона для конференц-связи аудио и вызов планов](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
+1. Find out if **Audio Conferencing** is available in your country/region. [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
     
-2. Получите свои лицензии на **Аудиоконференции**. Для приобретения лицензий с поминутной оплатой свяжитесь с консультантом по работе с клиентами.
+2. Get your **Audio Conferencing** licenses. To acquire pay-per-minute licenses, please contact your account representative.
     
-3. [Настройка коммуникаций кредитов для вашей организации](/microsoftteams/set-up-communications-credits-for-your-organization) для вашей организации. Для настройки функции предоставления кредитов на связь см. [Что такое кредиты на связь?](/microsoftteams/what-are-communications-credits)
+3. [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization) for your organization. To set up Communications Credits, see [What are Communications Credits?](/microsoftteams/what-are-communications-credits)
     
     > [!IMPORTANT]
     > Если кредиты на связь не настроены, для любых пользователей с лицензиями с поминутной оплатой функция аудиоконференции работать не будет.
@@ -78,25 +78,25 @@ ms.locfileid: "23888317"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Шаг 2: задать поставщика аудиоконференций для людей, проводящих или планирующих собрания
 
-Когда лицензии на **Аудиоконференции** уже назначены для людей в организации, проводящих или планирующих собрания, все настроено и готово к работе! (Нет необходимости в настройке их поставщика аудиоконференций.)
+When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
 
 ## <a name="step-3-other-admin-tasks"></a>Шаг 3: другие задачи администратора
 
 Следующие шаги являются **необязательными**, однако многие администраторы считают их необходимыми:
 
-1. [Настройка приглашения на собрания](../set-up-skype-for-business-online/customize-meeting-invitations.md). Номеру телефона, задайте для пользователя будет автоматически добавляется в приглашения на собрания, отправляемые участникам. Тем не менее можно добавить свои собственные справки и юридических ссылок, текстовое сообщение и рисунок небольшого предприятия.
+1. [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
 
-2. [Задайте телефона, номера, находящимся на приглашает](set-the-phone-numbers-included-on-invites.md). Это —номер телефона, который будет отображаться в собрании, которое запланировал пользователь.
+2. [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). This is the phone number that will show up in the meeting that is scheduled by a user.
 
-3. [Задайте auto attendant языков звукового конференц-связи](set-auto-attendant-languages-for-audio-conferencing.md) , автосекретаря аудиоконференций для приветствовать абонента, когда они звонить на номер телефона аудиоконференций. Этот шаг необходим только в том случае, если Microsoft назначен в качестве поставщика аудиоконференции.
+3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
 
 4. [Задать длину ПИН-кода для собраний аудио конференц-связи](set-the-pin-length-for-audio-conferencing-meetings.md).
 
 
 > [!NOTE]
-> Эта функция еще не доступна пользователям Office 365 под управлением компании 21Vianet в Китае. Дополнительные сведения см. в разделе [Узнать больше о версии Office 365 под управлением компании 21Vianett](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
+> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
 [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

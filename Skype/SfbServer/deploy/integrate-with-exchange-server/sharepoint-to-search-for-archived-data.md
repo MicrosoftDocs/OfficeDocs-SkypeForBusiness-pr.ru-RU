@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Сводка: Настройка SharePoint Server для поиска данных архивации с Exchange Server и Скайп для Business Server.'
-ms.openlocfilehash: efd3fc67faacba503736968786988aaf01f45073
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0663874985063f4cf051aec69792ea0bdb32bb26
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971801"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373323"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Настройка поиска архивных данных Skype для бизнеса на сервере SharePoint
  
@@ -125,7 +125,7 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 4. При появлении страницы набора eDiscovery выберите **Создать элемент** в разделе **Определить и сохранить: наборы обнаружения**.
     
-5. На странице "Создать: набор обнаружения" введите псевдоним пользователя электронной почты в поле **Имя набора обнаружения**. Введите **eDiscovery Lync\* ** в **Фильтр** и нажмите кнопку **Добавить &amp; Управление источниками**.
+5. На странице "Создать: набор обнаружения" введите псевдоним пользователя электронной почты в поле **Имя набора обнаружения**. Введите **eDiscovery Lync\\*** в **Фильтр** и нажмите кнопку **Добавить &amp; Управление источниками**.
     
 6. На странице Добавление &amp; Управление источниками введите псевдоним электронной почты пользователя в текстовом поле первой в группе **почтовые ящики**. Щелкните на значке почтового ящика рядом со учебником для проверки связи SharePoint с указанным почтовым ящиком.
     

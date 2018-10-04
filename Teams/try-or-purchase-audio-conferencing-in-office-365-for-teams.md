@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: efe5ab7189a5012b27b12838844325240b5891f5
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 8a5484aee9e8a5a9b8a3e1a0c0cf3e3f264b17d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347555"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371977"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Попробуйте или Покупка аудио конференц-связи в Office 365 для групп Майкрософт
 
@@ -46,9 +46,9 @@ ms.locfileid: "25347555"
     
 2. Получите свою лицензию на **Аудиконференции**. Если Вы хотите:
 
-  - **Загрузить пробную версию**, прежде чем приобрести лицензию, Вы можете пройти регистрацию для получения бесплатной пробной версии Office 365 корпоративный E5, в которую входит функция аудиоконференции. См. раздел [Пробная версия Office 365 корпоративный E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Загрузить пробную версию**, прежде чем приобрести лицензию, Вы можете пройти регистрацию для получения бесплатной пробной версии Office 365 корпоративный E5, в которую входит функция аудиоконференции. См. раздел [Пробная версия Office 365 корпоративный E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-  - **Купить**, видеть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+   - **Купить**, видеть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 3. [Назначение и удаление лицензий на Office 365 для бизнеса](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) , приобретенных для пользователей в вашей организации, которые будет расписание или ведущий сотрудник собраний.
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Создание и удаление объявлений для объявлений приложения в Скайп Business Server корпоративной голосовой связи. От этих действий зависит способ обработки вызовов на неназначенные номера.
-ms.openlocfilehash: 63d64bb09c24609ebb05c6de879bd1fe0e92d093
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: cbdcaed3d5908b76f0932f3461dfc21716f74b32
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887397"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372296"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Создание и удаление оповещения в Скайп для Business Server
 
@@ -81,7 +81,7 @@ ms.locfileid: "23887397"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-  Дополнительные сведения об этих командлетах, а для просмотра списка кодов языков для использования в параметре **TextToSpeechPrompt** в разделе [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
+   Дополнительные сведения об этих командлетах, а для просмотра списка кодов языков для использования в параметре **TextToSpeechPrompt** в разделе [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>Удаление объявления для неназначенных номеров
 

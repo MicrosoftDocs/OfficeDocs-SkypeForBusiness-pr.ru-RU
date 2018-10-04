@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить телефонной системой (облако УАТС) для вашей организации. '
-ms.openlocfilehash: 92d575a3219bcf2a99c48040b77b0eaa2463b25a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: aae5a8e5fc8a0cd2cb20a2e3964c14a89039ce1e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017689"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374452"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Настройка телефонной системы в вашей организации
 
@@ -193,20 +193,20 @@ ms.locfileid: "25017689"
     
     - **Третья сторона в качестве поставщика аудиоконференций**: Если вы находитесь в стране, где аудиоконференций в Office 365 недоступен, качество службы не будет замечательных из-за его местоположение или у вас есть существующий контракт, выберите звук сторонних производителей Поставщик конференц-связи. Чтобы найти поставщика, перейдите к [Microsoft точно указать](http://go.microsoft.com/fwlink/?LinkId=797530).
  
-2.  Назначение поставщика аудиоконференций людям, которые привести или планировать собрания. В разделе [Назначение Microsoft в качестве поставщика аудиоконференций](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+2. Назначение поставщика аудиоконференций людям, которые привести или планировать собрания. В разделе [Назначение Microsoft в качестве поставщика аудиоконференций](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 3. Настройка приглашения на собрания. Следующие шаги являются необязательными, однако многие администраторы считают их необходимыми: 
   
-    1. [Настройка приглашения на собрания в Скайп для бизнеса](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Номеру телефона, задайте для пользователя будет автоматически добавляется в приглашения на собрания, отправляемые участникам. Тем не менее можно добавить свои собственные справки и юридических ссылок, текстовое сообщение и рисунок небольшого предприятия.
+   1. [Настройка приглашения на собрания в Скайп для бизнеса](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Номеру телефона, задайте для пользователя будет автоматически добавляется в приглашения на собрания, отправляемые участникам. Тем не менее можно добавить свои собственные справки и юридических ссылок, текстовое сообщение и рисунок небольшого предприятия.
     
-    2. Задайте аудиоконференции номера телефонов для, включенных в Организаторы собраний приглашает [в Скайп для бизнеса](/skypeforbusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites) или [Группами Майкрософт](set-the-phone-numbers-included-on-invites-in-teams.md). Это номер телефона, который будет отображаться в собрание, запланированное для пользователя.
+   2. Задайте аудиоконференции номера телефонов для, включенных в Организаторы собраний приглашает [в Скайп для бизнеса](/skypeforbusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites) или [Группами Майкрософт](set-the-phone-numbers-included-on-invites-in-teams.md). Это номер телефона, который будет отображаться в собрание, запланированное для пользователя.
     
-    3. Задайте auto attendant языков для аудиоконференций [в Скайп для бизнеса](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) или [в группах Майкрософт](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) , автосекретаря аудиоконференций для приветствовать абонента, когда они звонить на номер телефона аудиоконференций. Этот шаг применяется только в том случае, если вы используете Microsoft как звука поставщика.
+   3. Задайте auto attendant языков для аудиоконференций [в Скайп для бизнеса](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) или [в группах Майкрософт](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) , автосекретаря аудиоконференций для приветствовать абонента, когда они звонить на номер телефона аудиоконференций. Этот шаг применяется только в том случае, если вы используете Microsoft как звука поставщика.
     
-    4. Задать длину ПИН-кода для собраний аудио конференц-связи [в Скайп для бизнеса](/skypeforbusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings) или [Группами Майкрософт](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md).
+   4. Задать длину ПИН-кода для собраний аудио конференц-связи [в Скайп для бизнеса](/skypeforbusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings) или [Группами Майкрософт](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md).
     
-    > [!NOTE]
-    > Эта функция еще не доступна пользователям Office 365 под управлением компании 21Vianet в Китае. Дополнительные сведения см. в разделе [Узнать больше о версии Office 365 под управлением компании 21Vianett](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
+      > [!NOTE]
+      > Эта функция еще не доступна пользователям Office 365 под управлением компании 21Vianet в Китае. Дополнительные сведения см. в разделе [Узнать больше о версии Office 365 под управлением компании 21Vianett](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 **Дополнительные сведения о аудиоконференции см [звук конференц-связи](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing).**
 

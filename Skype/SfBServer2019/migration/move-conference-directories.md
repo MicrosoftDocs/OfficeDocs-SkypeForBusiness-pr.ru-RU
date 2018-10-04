@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Перед ликвидацией пула необходимо выполнить следующую процедуру для каждого каталога конференции в устаревшем пуле.
-ms.openlocfilehash: 18cbada5833a5160fc1eb81560c56bc9fcff3e2a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b7526d8c3c032bf8b1f9052dce7da7e8a87b66b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028014"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372807"
 ---
 # <a name="move-conference-directories"></a>Перемещение каталогов конференций
 
@@ -25,35 +25,35 @@ ms.locfileid: "25028014"
     
 2. Чтобы получить идентификатор каталогов конференций в вашей организации, выполните следующую команду:
     
-  ```
-  Get-CsConferenceDirectory
-  ```
+   ```
+   Get-CsConferenceDirectory
+   ```
 
     Предыдущая команда возвращает все каталоги конференций в организации. Из-за, можно ограничить результаты в пул списан. Например если ликвидации пула с pool01.contoso.net полное доменное имя (FQDN), чтобы ограничить возвращаемые данные для каталогов конференций из этого пула используйте следующую команду:
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
+   ```
 
     Эта команда возвращает только каталоги конференций, в которых свойство ServiceID содержит полное доменное имя pool01.contoso.net.
     
 3. Для перемещения каталогов конференций, выполните следующую команду для каждого каталога конференции в пуле:
     
-  ```
-  Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
+   ```
 
     К примеру перемещение каталога конференции 3, используйте следующую команду, указав в качестве TargetPool Скайп для пула Business Server 2019:
     
-  ```
-  Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
+   ```
 
     Если вы хотите переместить все каталоги конференций в пуле, используйте команду, аналогичную следующей:
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
+   ```
 
 Загрузите [Microsoft Удаление прежних версий и удаление роли сервера](https://go.microsoft.com/fwlink/p/?linkId=246227) для подробные пошаговые инструкции по ликвидация старых пулов.
   

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Сводка: Узнайте, как установить средства администрирования, необходимые для установки Скайп для Business Server. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: a51de57ca8eaa7d303af4240b5d30e8a5ca51f70
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5f5e00075f34a6a09d36dede7c4cf2ac2a6ab60f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882132"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373059"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Установка средств администрирования в Скайп для Business Server
  
@@ -56,13 +56,13 @@ ms.locfileid: "23882132"
     
     ![Основные компоненты на экране приложений.](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-  - **Скайп для мастер развертывания Business Server** Программа развертывания, который содержит панель запуска для установки различных компонентов Скайп для Business Server.
+   - **Скайп для мастер развертывания Business Server** Программа развертывания, который содержит панель запуска для установки различных компонентов Скайп для Business Server.
     
-  - **Скайп для консоли Business Server** Предварительно настроенного PowerShell программа, которая предоставляет возможности администрирования Скайп для Business Server.
+   - **Скайп для консоли Business Server** Предварительно настроенного PowerShell программа, которая предоставляет возможности администрирования Скайп для Business Server.
     
-    После завершения установки основных компонентов Скайп мастер развертывания Business Server для автоматического запуска, как показано на рисунке. 
+     После завершения установки основных компонентов Скайп мастер развертывания Business Server для автоматического запуска, как показано на рисунке. 
     
-    ![Мастер развертывания Skype для бизнеса Server](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![Мастер развертывания Skype для бизнеса Server](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. В дополнение к основные компоненты будет также необходимо установить Скайп Business Server Topology Builder и Скайп для панели управления Business Server по крайней мере на одном сервере в среде. Щелкните **Установить средства администрирования** в окне мастера развертывания.
     

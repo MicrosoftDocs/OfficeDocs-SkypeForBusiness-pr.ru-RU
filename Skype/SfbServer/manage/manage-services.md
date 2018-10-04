@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: В этой статье описывается, как управлять служб, работающих в Скайп для топологии Business Server.
-ms.openlocfilehash: 0bf12ed7719be7804b2cb4d69e29a7d0a058e142
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7f95023416bd1b851bc5a3d3ce6185e3362ec098
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977005"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372448"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Управление службами для Скайп для Business Server
 
@@ -103,9 +103,9 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 
 1. Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server . Можно определить, является ли вам назначена роль CsAdministrator RBAC или CsServerAdministrator, выполнив команду, аналогичную следующей:
     
-  ```
-  Get-CsAdminRoleAssignment -Identity "kenmyer"
-  ```
+   ```
+   Get-CsAdminRoleAssignment -Identity "kenmyer"
+   ```
 
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server. 
 3. В левой панели навигации щелкните **Топология** , а затем щелкните **состояние**.

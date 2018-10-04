@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После перемещения пользователей к Скайп для пулов Business Server 2019 можно выполнить миграцию групп ответа. Перенос ответа групп включает копирование группы агентов, очередей, рабочие процессы, звуковые файлы и перемещение контактных объектов группы ответа из устаревшего развертывания Скайп для пула Business Server 2019. После миграции устаревших групп ответа звонки для группы ответа обрабатывается приложения группы ответа в Скайп для пула Business Server 2019. Вызовы в группы ответа больше не обрабатывается устаревшего пула.
-ms.openlocfilehash: bdff9b96b73e925fb68b4a2f9bebb9b23edb4b56
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 89149210e8041fbc84834cec83e1c1fe13d0765c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028021"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372939"
 ---
 # <a name="migrate-response-groups"></a>Миграция групп ответа
 
@@ -56,15 +56,15 @@ ms.locfileid: "25028021"
     
 3. Выполните следующую команду:
     
-  ```
-  Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
-  ```
+   ```
+   Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
+   ```
 
     Например:
     
-  ```
-  Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
-  ```
+   ```
+   Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
+   ```
 
 4. После миграции групп ответа и агентами в Скайп для пула Business Server 2019 URL-адрес, агенты выполняют вход и выход с Скайп для URL-адреса 2019 Business Server и доступен из меню " **Сервис** ". Напоминание агенты для обновления всех ссылок, например закладок, новый URL-адрес. 
     
@@ -90,31 +90,31 @@ ms.locfileid: "25028021"
     
     Для получения дополнительных сведений о следующих командлетах выполните следующую команду:
     
-  ```
-  Get-Help <cmdlet name> -Detailed
-  ```
+   ```
+   Get-Help <cmdlet name> -Detailed
+   ```
 
 3. Выполните следующую команду:
     
-  ```
-  Get-CsRgsAgentGroup
-  ```
+   ```
+   Get-CsRgsAgentGroup
+   ```
 
 4. Проверьте, все ли группы агентов в старой среды включены в список.
     
 5. Выполните следующую команду:
     
-  ```
-  Get-CsRgsQueue
-  ```
+   ```
+   Get-CsRgsQueue
+   ```
 
 6. Проверьте, все ли очереди из старой среды включены в список.
     
 7. Выполните следующую команду:
     
-  ```
-  Get-CsRgsWorkflow
-  ```
+   ```
+   Get-CsRgsWorkflow
+   ```
 
 8. Проверьте, все ли рабочие процессы из старой среды включены в список.
     

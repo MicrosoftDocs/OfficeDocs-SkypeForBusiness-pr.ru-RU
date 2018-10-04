@@ -8,85 +8,84 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Перенос номеров доступа Скайп для Business Server 2019 требуется выполнение командлета Move-CsApplicationEndpoint для переноса контактных объектов. Во время установки прежних версий и Скайп для периода сосуществования Business Server 2019 номера для телефонного номера, созданные в Скайп Business Server 2019 ведут себя аналогично на номера доступа, создаваемого в прежних версий установка, как описано в данном раздел.
-ms.openlocfilehash: 62d2d4f34f109c265a72a92283082601bd92b40b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 697ffb05e54722576f15dce2b4e7f0721b255aa2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027727"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370730"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Перенос номеров доступа
 
 Перенос номеров доступа Скайп для Business Server 2019 требуется выполнение командлета **Move-CsApplicationEndpoint** для переноса контактных объектов. Во время установки прежних версий и Скайп для периода сосуществования Business Server 2019 номера для телефонного номера, созданные в Скайп Business Server 2019 ведут себя аналогично на номера доступа, создаваемого в прежних версий установка, как описано в данном раздел. 
-  
+
 Номера для телефонного номера, созданные в устаревший установите, но перемещено в Скайп для Business Server 2019 или, которые созданы в Скайп для 2019 Business Server до, во время и после миграции, обладают следующими характеристиками:
-  
+
 - Не отображаются на странице номеров телефонного подключения и приглашения на собрание Office Communications Server 2007 R2.
-    
+
 - Отображаются на странице номеров телефонного подключения и установки устаревших приглашений на собрания.
-    
+
 - Отображаются на Скайп для Business Server 2019 приглашения на собрания и на странице номеров телефонного подключения.
-    
+
 - Не могут просматривать или изменять в средстве администрирования Office Communications Server 2007 R2.
-    
+
 - Можно просматривать и изменять в прежних версий install панель управления и устаревшие установить консоль управления.
-    
+
 - Можно просматривать и изменять в Скайп для панели управления 2019 Business Server и Скайп для консоли 2019 Business Server.
-    
+
 - Их можно повторно упорядочивать внутри региона с помощью командлета Set-CsDialinConferencingAccessNumber с параметром Priority.
-    
+
 Необходимо завершить перенос номеров доступа, указывающие на устаревший установку пула до его ликвидации прежних версий install. Если не выполнить миграции номеров доступа, как описано в следующей процедуре, входящие звонки для номера доступа завершится с ошибкой.
-  
+
 > [!IMPORTANT]
 > Необходимо выполнить эту процедуру до ликвидации пула прежних версий install. 
-  
+
 > [!NOTE]
 > Рекомендуется переместить номера доступа при незначительном использовании небольшим, это на случай короткого периода недоступности службы. 
-  
+
 ## <a name="to-identify-and-move-dial-in-access-numbers"></a>Определение и перемещение номера для телефонного номера
 
 1. Запустите Скайп для консоли Business Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы**, щелкните **Скайп Microsoft для Business Server 2019**и нажмите кнопку **Скайп для консоли Business Server**.
-    
+
 2. Чтобы переместить каждый номер доступа в пул, размещенный в Скайп для Business Server 2019, с помощью командной строки выполните: 
-    
-  ```
-  Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
-  
-  ```
+
+   ```
+   Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
+   ```
 
 3. Откройте Скайп для панели управления Business Server.
-    
+
 4. На левой панели навигации щелкните элемент **Конференция**.
-    
+
 5. Перейдите на вкладку **Телефонный номер доступа** . 
-    
+
 6. Убедитесь, что номера для телефонного номера осталось для пула прежних версий установки, из которого выполняется миграция.
-    
+
     > [!NOTE]
     > Когда все номера доступа выберите команду Скайп для пула Business Server 2019, вы можете ликвидировать пул прежних версий install. 
-  
+
 ## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-control-panel"></a>Проверка миграции номеров доступа с помощью Скайп для панели управления сервера Business
 
 1. Из учетной записи пользователя, назначенной роли **CsUserAdministrator** или **csadministrator** Войдите на любой компьютер во внутреннем развертывании. 
-    
+
 2. Откройте Скайп для панели управления Business Server.
-    
+
 3. На левой панели навигации щелкните элемент **Конференция**.
-    
+
 4. Перейдите на вкладку **Телефонный номер доступа** . 
-    
+
 5. Убедитесь, что все номера доступа перенесены в пул, размещенный на Скайп для Business Server 2019.
-    
+
 ## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-management-shell"></a>Проверка миграции номеров доступа, с помощью Скайп для консоли Business Server
 
 1. Откройте Скайп для консоли Business Server.
-    
+
 2. Чтобы вернуть все номера доступа к конференц связи с телефонным перенесены из командной строки выполните:
-    
-  ```
-  Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
-  ```
+
+   ```
+   Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
+   ```
 
 3. Убедитесь, что все номера доступа перенесены в пул, размещенный на Скайп для Business Server 2019.
-    
+
 

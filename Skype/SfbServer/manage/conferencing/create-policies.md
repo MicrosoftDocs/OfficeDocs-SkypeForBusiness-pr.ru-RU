@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Сводка: Сведения о создании политик конференц-связи в Скайп для Business Server.'
-ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4a481d8853fdb8f022da3539c5ebeb49c3b49402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996603"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372289"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политик конференц-связи в Скайп для Business Server
  
@@ -26,7 +26,7 @@ ms.locfileid: "20996603"
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2.  Откройте Скайп для панели управления Business Server.
+2. Откройте Скайп для панели управления Business Server.
     
 3. На левой панели навигации щелкните **Конференция**, а затем — **Политика конференц-связи**.
     
@@ -36,8 +36,8 @@ ms.locfileid: "20996603"
     
    - Чтобы создать политику уровня сайта, выберите вариант **Политика сайта**. В поле поиска **Выбор сайта** введите часть или полное имя сайта, для которого требуется создать политику. В списке сайтов выберите нужный сайт и нажмите кнопку **ОК**.
     
-    > [!NOTE]
-    > Имя сайта становится именем политики конференций, его нельзя изменить. 
+     > [!NOTE]
+     > Имя сайта становится именем политики конференций, его нельзя изменить. 
   
 5. В поле **Описание** введите описание политики.
     

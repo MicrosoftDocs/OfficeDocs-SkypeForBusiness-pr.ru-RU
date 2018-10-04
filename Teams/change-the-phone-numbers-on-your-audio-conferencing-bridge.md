@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: При покупке лицензий аудиоконференций для Skype для бизнеса корпорация Майкрософт предоставит вашей организации мост аудиоконференции . Мост аудиоконференции предоставляет номера телефонов для подключения из различных мест, так что организаторы и участники собрания могут использовать их, чтобы присоединяться к собраниям Skype для бизнеса или Microsoft Teams с помощью телефона.
-ms.openlocfilehash: 5cd9a925ecf7dd24d900ebcbd30de3a30ec7a97d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 26a6e8dcb467ceea990b974d1687e0a5998eeb4b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016751"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372244"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Изменение номеров телефонов для моста аудиоконференций
 
@@ -38,7 +38,7 @@ ms.locfileid: "25016751"
 В дополнение к телефонных номеров, назначенной конференц-канал, можно [получить дополнительные службы номеров](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) (международную и обслуживание бесплатных номеров, используемый для аудиоконференций) из других расположениях и затем присвоить им для конференц-связи мост так, чтобы Разверните узел покрытия для пользователей.
   
 > [!NOTE]
-> Должны иметь возможность отменить роли и назначить номер телефона для конференц-канал, номер телефона должен быть номер «*службы*». Тип номера можно просмотреть на вкладке **Голосовая связь** > **Номера телефонов** в столбце **Тип номера**. Необходимо вначале настроить кредиты на связь Office 365, для того, чтобы пользователи, во время общения по мосту, могли звонить на бесплатный номер.
+> To be able to assign/unassign a phone number for a conferencing bridge, the phone number must be a '*service*' number. You can see the type of number it is by navigating to **Voice** > **Phone numbers** and looking in the **Number Type** column. Office 365 Communications Credits must be set up first in order for users to dial into the bridge on a toll free number.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -101,7 +101,7 @@ ms.locfileid: "25016751"
 
 Если номер телефона будет удален, а данные пользователей и собраний не обновятся, в существующих приглашениях может быть указан номер телефона, непригодный для присоединения к собранию.
 
-В первых трех шагах потребуется запустить Windows PowerShell. Чтобы просмотреть, как это сделать, нажмите кнопку [хотели бы узнать, как управлять с помощью Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bkPowerShell)
+For the first three steps, you will need to start Windows PowerShell. To see how to do this, click [Want to know how to manage with Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bkPowerShell)
 
 ### <a name="step-1---update-users-that-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>Шаг 1. Обновление данных пользователей, у которых будет отменено назначение номера телефона по умолчанию
 
@@ -111,7 +111,7 @@ ms.locfileid: "25016751"
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
- >Можно также изменить счета по умолчанию или бесплатная числа пользователей в Скайп по центру администрирования бизнес. Однако, это не повлечёт за собой автоматическую перепланировку их встреч. 
+ >You can also change the default toll or toll-free number of users in the Skype for Business admin center. However, this won't automatically reschedule their meetings. 
  
  Для получения дополнительных сведений см [задать телефона, номера, находящимся на приглашает в группах Майкрософт](set-the-phone-numbers-included-on-invites-in-teams.md) или [телефона, номера, находящимся на приглашает в Скайп для бизнеса в Интернет](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
 
@@ -138,8 +138,8 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 4. В диалоговом окне подтверждения нажмите кнопку **Да**.
 
-  > [!IMPORTANT]
-  > После отмены назначения номера телефона для моста аудиоконференций, телефонный номер больше не будет доступен пользователям для подключения к новым или существующим собраниям.
+   > [!IMPORTANT]
+   > После отмены назначения номера телефона для моста аудиоконференций, телефонный номер больше не будет доступен пользователям для подключения к новым или существующим собраниям.
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 <a name="bkPowerShell"> </a>
@@ -154,8 +154,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 3. Если у вас более ранняя версия, вам необходимо скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4.0, перейдите на страницу [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845). При появлении запроса перезагрузите компьютер.
 
-4. Необходимо также установить модуль Windows PowerShell для Скайп для бизнеса в Интернет, который позволяет создавать удаленного сеанса Windows PowerShell, который подключается к Скайп для бизнеса в Интернет. В этом модуле поддерживается только в 64-разрядных компьютеров и можно загрузить из центра загрузки Майкрософт по [Windows PowerShell модуль для Скайп для бизнеса в Интернет](https://go.microsoft.com/fwlink/?LinkId=294688).
-При появлении запроса перезагрузите компьютер.
+4. You also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module is supported only on 64-bit computers and can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
 
 Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
 
@@ -220,7 +219,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 ## <a name="about-windows-powershell"></a>О Windows PowerShell
 
-С помощью Windows PowerShell вы можете управлять пользователями и тем, что им можно и что нельзя делать. Windows PowerShell, которые помогут управлять Скайп и Office 365 для бизнеса Online с использованием точки администрирования, которые можно упростить повседневной работе, особенно в том случае, если у вас есть несколько задач для выполнения. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+With Windows PowerShell you can manage users and what they are or are not allowed to do. Windows PowerShell  can help you manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, especially when you've got multiple tasks to do. To get started with Windows PowerShell, see these topics:
 
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 

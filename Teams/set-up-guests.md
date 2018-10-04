@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb19af107bc41fc088d7398570e34d0586b34e15
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fcb907a1a84dce1e1fcf550333b8b1dd788f23fa
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015791"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370755"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Включение и отключение гостевого доступа для Microsoft Teams
 ======================================
@@ -65,7 +65,7 @@ ms.locfileid: "25015791"
   
 5. Выберите значение **Включить** для параметра **Turn Microsoft Teams on or off for all users of this type** (Включить или отключить Microsoft Teams для всех пользователей этого типа), чтобы включить Teams и гостевой доступ в организации, а затем выберите **Сохранить**. 
     
- Дополнительные сведения о гостевом доступе см. в следующих видео.  
+   Дополнительные сведения о гостевом доступе см. в следующих видео.  
 
 |  |  |
 |---------|---------|

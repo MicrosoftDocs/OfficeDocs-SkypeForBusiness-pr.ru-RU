@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Каждые для обеспечения связи в филиалах Appliance (SBA) связан с пулом переднего плана, который выступает в качестве резервного регистратора для SBA. Когда переднего плана миграции пула Скайп для 2019 Business Server, устройство должно отделяется от пула переднего плана, во время обновления пула после пула были перенесены на Скайп для Business Server 2019, устройство может быть повторно связано с обновленных переднего E Вторая пула. Данная операция подразумевает удаление SBA из устаревшего топологии в построителе топологий и добавляя SBA Скайп для топологии Business Server 2019. Пользователей, размещенных на устаревший SBA необходимо сначала перемещены в другой пул переднего плана перед удалением на устройство из топологии. После добавления SBA для Скайп для топологии Business Server 2019 этих пользователей можно затем перемещать обратно на устройство. Эти действия приведены ниже.
-ms.openlocfilehash: 6de2b8c228ef9e65f57b70451ac33350a2d8a456
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff35032d9abc5c1435e44dea7aca83d841b404c6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030583"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373751"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Подключение Survivable Branch Appliance
 
@@ -58,8 +58,8 @@ ms.locfileid: "25030583"
     3. Выберите **устройство для обеспечения связи в филиалах**.
     
 9. Следуйте инструкциям в открывшемся мастере создания. Сведения об элементах мастера см.    
-<!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
- <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
+   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
+   <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
     > Устройство для обеспечения связи в филиалах может быть связано только с хранилищем данных наблюдения. 

@@ -9,19 +9,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Ссылки для ИТ-специалистов на сведения о последних обновлениях бессрочных лицензий для клиентов Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013
-ms.openlocfilehash: 148f635d081b33a80d6b138b717e87aecdd616c5
-ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
+ms.openlocfilehash: 69ff89c856204577c46f27c568f3b6d9cf5613b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23884191"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374165"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Последние обновления версий Skype для бизнеса, в которых используется установщик Windows (MSI)
 
 По ссылкам, указанным на этой странице, находятся дополнительные сведения о последних обновлениях бессрочных лицензий для клиентов Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013, а также соответствующие файлы для скачивания.
 
 > [!NOTE]
-> - Сведения в этой статье применимы только к бессрочным лицензиям для клиентов Skype для бизнеса, в которых используется установщик Windows (MSI). Например, к версии корпоративного лицензирования Skype для бизнеса, например, входящую в Office профессиональный плюс 2016.
+> - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
 > - Сведения в этой статье не применимы к версиям Skype для бизнеса для Office 365, например, входящим в Office 365 профессиональный плюс.
 > - Просмотреть сведения о последних обновлениях мобильных клиентов, а также скачать установочные файлы можно в магазине приложений вашего мобильного клиента (iTunes, Google Play или Microsoft Store).
 > - Чтобы узнать, какую версию Skype для бизнеса вы используете, ознакомьтесь со статьей [Какая у меня версия Skype для бизнеса?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
@@ -29,7 +29,7 @@ ms.locfileid: "23884191"
 
 Совместимость Skype для бизнеса с Office 365 и вашей локальной средой зависит от требований к системе для вашего развертывания.
 
-- Служба Office 365 совместима с любой версией Skype для бизнеса с основной фазой поддержки, включая последнюю версию Skype для бизнеса 2016. Из предыдущих серий Skype для бизнеса продолжить работу с Office 365 смогут только имеющие расширенную поддержку, однако их функциональность будет ограничена. Дополнительные сведения см. в разделе [Политика жизненного цикла Майкрософт](https://support.microsoft.com/lifecycle).
+- Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
 
 - Для локальных развертываний Skype для бизнеса Server должны быть выполнены требования к системе для вашей версии Skype для бизнеса:
 
@@ -38,6 +38,7 @@ ms.locfileid: "23884191"
   - [Требования к системе Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
 
 ## <a name="skype-for-business-2016-client-updates"></a>Обновления клиентов Skype для бизнеса 2016
+
 |Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:---  |:---  |:---  |
 |Обновление для системы безопасности для Skype для бизнеса 2016 |[Статья базы знаний 4022221](https://support.microsoft.com/kb/4022221)| Июль 2018 г. |
@@ -171,19 +172,19 @@ ms.locfileid: "23884191"
 
 ### <a name="lync-phone-edition-updates"></a>Обновления Lync Phone Edition
 
-Имя пакета|Номер статьи базы знаний|Дата выпуска|
-|:--- |:--- |:--- |
-|Накопительный пакет обновления для Lync Phone Edition для телефонов Aastra 6721ip и Aastra 6725ip|[Статья базы знаний 4019527](https://support.microsoft.com/en-us/help/4019527) | Апрель 2017 г. |
-|Накопительный пакет обновления для Microsoft Lync Phone Edition для телефонов HP 4110 и HP 4120|[Статья базы знаний 4019528](https://support.microsoft.com/en-us/help/4019528) | Апрель 2017 г. |
-|Накопительный пакет обновления для Microsoft Lync Phone Edition для телефонов Polycom CX500, Polycom CX600 и Polycom CX3000|[Статья базы знаний 4019529](https://support.microsoft.com/en-us/help/4019529) | Апрель 2017 г. |
-|Накопительный пакет обновления для Lync Phone Edition для телефонов Aastra 6721ip и Aastra 6725ip|[Статья базы знаний 3050585](https://support.microsoft.com/en-us/kb/3050585) | Май 2015 г. |
-|Накопительный пакет обновления для Lync Phone Edition для телефонов HP 4110 и HP 4120|[Статья базы знаний 3050587](https://support.microsoft.com/en-us/kb/3050587) | Май 2015 г. |
-|Накопительный пакет обновления для Lync Phone Edition для Polycom CX500, Polycom CX600 и Polycom CX3000|[Статья базы знаний 3050588](https://support.microsoft.com/en-us/kb/3050588) | Май 2015 г. |
-|Накопительный пакет обновления для Lync Phone Edition для телефонов Polycom CX700 и LG-Nortel IP Phone 8540|[Статья базы знаний 3050590](https://support.microsoft.com/en-us/kb/3050590) | Май 2015 г. |
-|Накопительный пакет обновления для Lync Phone Edition для телефонов Aastra 6721ip и Aastra 6725ip |[Статья базы знаний 2954032](https://support.microsoft.com/kb/2954032) | Апрель 2014 г.|
-|Накопительный пакет обновления для Lync Phone Edition для телефонов HP 4110 и HP 4120 |[Статья базы знаний 2954033](https://support.microsoft.com/kb/2954033) | Апрель 2014 г.||
-|Накопительный пакет обновления для Lync Phone Edition для телефонов Polycom CX500, Polycom CX600 и Polycom CX3000 |[Статья базы знаний 2954034](https://support.microsoft.com/kb/2954034) | Апрель 2014 г.||
-|Накопительный пакет обновления для Lync Phone Edition для телефонов Polycom CX700 и LG-Nortel IP Phone 8540 |[Статья базы знаний 2954035](https://support.microsoft.com/kb/2954035) | Апрель 2014 г.||
+| Имя пакета                                                                                                       | Номер статьи базы знаний                                                      | Дата выпуска |
+|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------|
+| Накопительный пакет обновления для Lync Phone Edition для телефонов Aastra 6721ip и Aastra 6725ip                             | [Статья базы знаний 4019527](https://support.microsoft.com/en-us/help/4019527) | Апрель 2017 г.   |
+| Накопительный пакет обновления для Microsoft Lync Phone Edition для телефонов HP 4110 и HP 4120                              | [Статья базы знаний 4019528](https://support.microsoft.com/en-us/help/4019528) | Апрель 2017 г.   |
+| Накопительный пакет обновления для Microsoft Lync Phone Edition для телефонов Polycom CX500, Polycom CX600 и Polycom CX3000 | [Статья базы знаний 4019529](https://support.microsoft.com/en-us/help/4019529) | Апрель 2017 г.   |
+| Накопительный пакет обновления для Lync Phone Edition для телефонов Aastra 6721ip и Aastra 6725ip                            | [Статья базы знаний 3050585](https://support.microsoft.com/en-us/kb/3050585)   | Май 2015 г.     |
+| Накопительный пакет обновления для Lync Phone Edition для телефонов HP 4110 и HP 4120                                        | [Статья базы знаний 3050587](https://support.microsoft.com/en-us/kb/3050587)   | Май 2015 г.     |
+| Накопительный пакет обновления для Lync Phone Edition для Polycom CX500, Polycom CX600 и Polycom CX3000                      | [Статья базы знаний 3050588](https://support.microsoft.com/en-us/kb/3050588)   | Май 2015 г.     |
+| Накопительный пакет обновления для Lync Phone Edition для телефонов Polycom CX700 и LG-Nortel IP Phone 8540                  | [Статья базы знаний 3050590](https://support.microsoft.com/en-us/kb/3050590)   | Май 2015 г.     |
+| Накопительный пакет обновления для Lync Phone Edition для телефонов Aastra 6721ip и Aastra 6725ip                            | [Статья базы знаний 2954032](https://support.microsoft.com/kb/2954032)         | Апрель 2014 г.   |
+| Накопительный пакет обновления для Lync Phone Edition для телефонов HP 4110 и HP 4120                                        | [Статья базы знаний 2954033](https://support.microsoft.com/kb/2954033)         | Апрель 2014 г.   |
+| Накопительный пакет обновления для Lync Phone Edition для телефонов Polycom CX500, Polycom CX600 и Polycom CX3000           | [Статья базы знаний 2954034](https://support.microsoft.com/kb/2954034)         | Апрель 2014 г.   |
+| Накопительный пакет обновления для Lync Phone Edition для телефонов Polycom CX700 и LG-Nortel IP Phone 8540                  | [Статья базы знаний 2954035](https://support.microsoft.com/kb/2954035)         | Апрель 2014 г.   |
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>Клиенты Lync Phone Edition в Центре загрузки
 
@@ -246,24 +247,25 @@ ms.locfileid: "23884191"
 
 ### <a name="attendant"></a>Attendant
 
-**Имя пакета и ссылка**|Дата выпуска|
-|:--- |:--- |
-|[Lync 2010 Attendant (32-разрядная версия)](https://www.microsoft.com/download/en/details.aspx?id=10164) | Ноябрь 2010 г. |
-|[Lync 2010 Attendant (64-разрядная версия)](https://www.microsoft.com/download/en/details.aspx?id=20084) | Ноябрь 2010 г. |
+| **Имя пакета и ссылка**                                                                       | Дата выпуска  |
+|:--------------------------------------------------------------------------------------------|:--------------|
+| [Lync 2010 Attendant (32-разрядная версия)](https://www.microsoft.com/download/en/details.aspx?id=10164) | Ноябрь 2010 г. |
+| [Lync 2010 Attendant (64-разрядная версия)](https://www.microsoft.com/download/en/details.aspx?id=20084) | Ноябрь 2010 г. |
 
 ### <a name="attendee"></a>Участник
 
-**Имя пакета и ссылка**|Дата выпуска|
-|:--- |:--- |
-|[Lync 2010 Attendee — установка на уровне администратора](https://www.microsoft.com/download/en/details.aspx?id=23396) | Апрель 2013 г. |
-|[Lync 2010 Attendee — установка на уровне пользователя](https://www.microsoft.com/download/en/details.aspx?id=15755) | Июнь 2014 г. |
+| **Имя пакета и ссылка**                                                                                   | Дата выпуска |
+|:--------------------------------------------------------------------------------------------------------|:-------------|
+| [Lync 2010 Attendee — установка на уровне администратора](https://www.microsoft.com/download/en/details.aspx?id=23396) | Апрель 2013 г.   |
+| [Lync 2010 Attendee — установка на уровне пользователя](https://www.microsoft.com/download/en/details.aspx?id=15755)  | Июнь 2014 г.    |
 
 ### <a name="trial-software"></a>Пробная версия программного обеспечения
-**Имя пакета и ссылка**|Дата выпуска|
-|:--- |:--- |
-|[Пробная версия Lync 2010 (32-разрядная) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| Ноябрь 2010 г. |
-|[Пробная версия Lync 2010 (64-разрядная) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| Ноябрь 2010 г. |
 
-## <a name="related-topics"></a>См. также:
+| **Имя пакета и ссылка**                                                                       | Дата выпуска  |
+|:--------------------------------------------------------------------------------------------|:--------------|
+| [Пробная версия Lync 2010 (32-разрядная) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | Ноябрь 2010 г. |
+| [Пробная версия Lync 2010 (64-разрядная) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | Ноябрь 2010 г. |
+
+## <a name="related-topics"></a>Связанные разделы
 
 - [Обновления Skype для бизнеса Server](sfb-server-updates.md)

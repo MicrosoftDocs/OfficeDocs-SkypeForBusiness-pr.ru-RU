@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: В этой статье описываются преимущества, рекомендации по планированию и требования к внедрению службы Microsoft Cloud голосовой почты. Сведения о настройке голосовой почты в облаке содержатся в разделе Настройка голосовой почты облака.
-ms.openlocfilehash: e307ddcb5159e51ebe26e6a5bee10f9b2ee716e9
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 8f7c2e394aa7d3f5a04961088202d1d9055eef9e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030625"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370636"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Планирование службы голосовой почты в облаке
 
@@ -81,7 +81,7 @@ ms.locfileid: "25030625"
 
 -  Если у вас есть развертывания только локальные--, который является, только Exchange и Скайп для бизнеса локальных серверов--, но чтобы воспользоваться преимуществами голосовой почты в облаке, требуется лицензия PREM д. 
 
-##<a name="migration-and-interoperability"></a>Миграция и взаимодействие
+## <a name="migration-and-interoperability"></a>Миграция и взаимодействие
 
 При планировании развертывания Скайп для Business Server 2019 и/или 2019 сервера Exchange необходимо планирование миграции тщательно составить продолжительное службы для голосовых сообщений. Учитывайте следующее.
 

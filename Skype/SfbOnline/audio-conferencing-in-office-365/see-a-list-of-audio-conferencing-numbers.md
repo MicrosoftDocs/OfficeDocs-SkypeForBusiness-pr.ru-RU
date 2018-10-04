@@ -20,31 +20,31 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как определить входящие номера конференц-связи в Skype для бизнеса Online. '
-ms.openlocfilehash: 43442d2ecee1de30126b73dd7cce8124db650c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891259"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372890"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Просмотр списка номеров для аудиоконференций в Skype для бизнеса Online
 
 > [!NOTE]
 > Сведения о номерах для аудиоконференций в Microsoft Teams см. в статье [Просмотра номеров для аудиоконференций в Microsoft Teams](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).
 
-При настройке аудиоконференций для пользователей Skype для бизнеса можно просматривать телефонные номера, доступные пользователям для участия в аудиоконференциях. Этот список будет содержать все номера телефонов для аудиоконференций, доступные вашей организации.
+When you set up Audio Conferencing for Skype for Business users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.
   
- **Ищете цены?** В разделе [ценообразования для аудиоконференций](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+ **Looking for prices?** See [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **Не существует никакого ресурса, который содержит список всех номеров для аудиоконференций с подключением по телефону.** Если вы хотите узнать, если существует телефонные номера телефонов в области или страны или региона, перейдите к **Скайп по центру администрирования Business** > **голосовой связи** > **Телефонных номеров**, нажмите кнопку **Добавить**и нажмите кнопку **новую службу Номера**. Для фильтрации поиска воспользуйтесь списками **Страна или регион**, **Область** и **Город**. Кроме того, если вы ищете службы бесплатных номеров, выберите **бесплатный номер** из **состояние и область** списка.
+> **There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing.** If you are looking to see if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
   
-Если в вашей организации доступен только один телефонный номер, он будет использоваться по умолчанию для всех пользователей. Если доступно несколько номеров телефонов, для каждого пользователя можно выбрать номер телефона по умолчанию. Этот номер по умолчанию будет использоваться в приглашениях на собрания в Skype для бизнеса.
+If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business meeting invitations.
   
 Чтобы изменить входящий номер одного пользователя, можно просмотреть статью [Установка телефонных номеров, включенных при приглашении](set-the-phone-numbers-included-on-invites.md).
   
 > [!NOTE]
-> Внутренние входящие номера являются выделенными для вашей организации. В качестве номеров телефона по умолчанию можно установит только их. Однако международные входящие номера могут совместно использоваться несколькими организациями. 
+> Domestic dial-in numbers are dedicated to your organization and are the only ones that can be set as a default phone number. However, international dial-in numbers may be shared across multiple organizations. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -57,12 +57,12 @@ ms.locfileid: "23891259"
     
 3. В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **Microsoft bridge**, а затем:
     
-  - Вы можете просмотреть номера телефонов, которые доступны для аудиоконференций.
+   - Вы можете просмотреть номера телефонов, которые доступны для аудиоконференций.
     
-  - Также можно увидеть местоположение и основных и дополнительных языков, которые будут использоваться звукового конференц-связи, принимаемые автосекретарем.
+   - Также можно увидеть местоположение и основных и дополнительных языков, которые будут использоваться звукового конференц-связи, принимаемые автосекретарем.
     
 > [!NOTE]
-> Можно перейти к **аудиоконференции** > **пользователей** и выберите Свойства пользователя, чтобы изменить значение по умолчанию, какой номер, выбрав новый номер из списка доступных номеров в вашей организации. В разделе [Задайте телефона, номера, находящимся на приглашает](set-the-phone-numbers-included-on-invites.md). 
+> You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 
 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell

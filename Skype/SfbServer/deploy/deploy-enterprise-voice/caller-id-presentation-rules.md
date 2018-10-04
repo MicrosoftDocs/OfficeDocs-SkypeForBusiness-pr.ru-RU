@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 'Сводка: Узнайте, как Настройка идентификатора звонящего с помощью Скайп для панели управления Business Server.'
-ms.openlocfilehash: 69c8ba7307b0e641812b9638059ae3ddb92c5ab9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 69d5a1d8f04900933b5de4ebd795961d8b450ca7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885766"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373589"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Создание или изменение правила преобразования для идентификатора звонящего в Скайп для Business Server
 
@@ -48,7 +48,7 @@ ms.locfileid: "23885766"
 
    - Чтобы удалить правило преобразования из магистральной линии связи, выделите имя этого правила, а затем щелкните **Удалить**.
 
-    > [!CAUTION]
-    > Не сопоставляйте правила преобразования с магистральной линией связи, если вы уже настроили их для связанной одноранговой магистральной линии связи, поскольку эти два правила могут конфликтовать друг с другом.
+     > [!CAUTION]
+     > Не сопоставляйте правила преобразования с магистральной линией связи, если вы уже настроили их для связанной одноранговой магистральной линии связи, поскольку эти два правила могут конфликтовать друг с другом.
 
 

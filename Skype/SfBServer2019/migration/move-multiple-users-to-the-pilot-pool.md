@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Можно переместить несколько пользователей из устаревшего пула для вашей Скайп для Business Server 2019 пилотного пула с помощью Скайп для панели управления 2019 Business Server или Скайп для консоли 2019 Business Server.
-ms.openlocfilehash: e96ef658f566f0e069f4db6e4f2f08e0410ea260
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3b01613e16e41ed2ee7aac7bc6c443e19db933c2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028658"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372511"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Перемещение нескольких пользователей в пилотный пул
 
@@ -54,19 +54,19 @@ ms.locfileid: "25028658"
 
 1. Откройте Скайп для консоли Business Server 2019. 
     
-2.  В командной строке введите следующую команду и **User1** и **Пользователь2** заменить имена определенного пользователя, которую требуется переместить и замените **pool_FQDN** имя пула, назначения. В этом примере мы будут перемещаться Чен Хао и Екатериной Иордания пользователей. 
+2. В командной строке введите следующую команду и **User1** и **Пользователь2** заменить имена определенного пользователя, которую требуется переместить и замените **pool_FQDN** имя пула, назначения. В этом примере мы будут перемещаться Чен Хао и Екатериной Иордания пользователей. 
     
-  ```
-  Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
+   ```
 
-     ![Пример командлет PowerShell Get-CsUser](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![Пример командлет PowerShell Get-CsUser](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. В командной строке введите следующую команду: 
     
-  ```
-  Get-CsUser -Identity "User1"
-  ```
+   ```
+   Get-CsUser -Identity "User1"
+   ```
 
 4. Удостоверение **Пула регистратора** теперь должны указывать в пул, указанное в качестве **pool_FQDN** на предыдущем шаге. Наличие это удостоверение подтверждает, что пользователь успешно перемещен. Повторите шаг, чтобы убедиться, что **Пользователь2** был перемещен. 
     
@@ -81,17 +81,17 @@ ms.locfileid: "25028658"
     
 2. В командной строке введите следующую команду: 
     
-  ```
-  Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
+   ```
 
      ![Командлет PowerShell и результатов в командной консоли](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. Выполните **Командлет Get-CsUser** для одного из пробных пользователей. 
     
-  ```
-  Get-CsUser -Identity "Hao Chen"
-  ```
+   ```
+   Get-CsUser -Identity "Hao Chen"
+   ```
 
 4. Удостоверение **Пула регистратора** для каждого пользователя теперь указывает на пул, указанное в качестве **pool_FQDN** на предыдущем шаге. Наличие это удостоверение подтверждает, что пользователь успешно перемещен. 
     

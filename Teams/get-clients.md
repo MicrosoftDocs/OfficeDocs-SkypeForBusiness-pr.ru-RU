@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70d75e623bae7881d44c145f518ab5d02c3f38d0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a24f4ba3c9470827c8a73bf8ac234cf7ae8467e8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014551"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372790"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 ===========================
@@ -106,7 +106,7 @@ Mac пользователи могут устанавливать групп с
 <a name="mobile-clients"></a>Мобильные клиенты
 --------------
 
-Мобильные приложения Microsoft Teams доступны для Android, iOS и Windows Phone и предназначены для пользователей, участвующих в беседах на основе чата и выполняющих одноранговые звонки во время поездок. Для мобильных приложений следует использовать соответствующий магазин: Google Play, Apple App Store или Microsoft Store.
+Мобильных приложениях группами Майкрософт, доступны для Android и операций ввода-вывода и предназначены для пользователей по пути, участие в беседах по на основе чата и позволяют peer-to-peer голосовые вызовы. Для мобильных приложений перейти в соответствующие хранилища мобильных устройств Google воспроизвести и в хранилище приложений Apple. Удаленные приложения Windows Phone 20 июля 2018 видеть [здесь](https://support.microsoft.com/en-us/help/4230833/windows-phone-app-for-microsoft-teams-is-retiring) для получения дополнительных сведений.
 
 Для мобильных приложений Microsoft Teams поддерживаются следующие мобильные платформы:
 

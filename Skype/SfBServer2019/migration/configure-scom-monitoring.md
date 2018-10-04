@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После миграции на Скайп Microsoft для Business Server 2019, необходимо выполнить несколько задач для настройки Скайп для 2019 Business Server для работы с System Center Operations Manager.
-ms.openlocfilehash: c0d15d14e158c33cda5e623ea978a0bc4f0bb920
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c54038bc89c62a9911e684e451a66f4f12a23124
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028938"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373744"
 ---
 # <a name="configure-scom-monitoring"></a>Настройка мониторинга SCOM
 
@@ -39,13 +39,13 @@ ms.locfileid: "25028938"
     
 2. В командной строке введите следующую команду:
     
-  ```
-  New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-  ```
+   ```
+   New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+   ```
 
-  ```
-  New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-  ```
+   ```
+   New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+   ```
 
     > [!NOTE]
     > При изменении реестра может возникнуть ошибка, которая не удалось выполнить команду, если раздел реестра уже существует. При возникновении, можно игнорировать ошибки. 

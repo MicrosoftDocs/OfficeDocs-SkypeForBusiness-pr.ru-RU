@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Сводка: Подготовка к и реализовать отключение TLS 1.0 и 1.1 в вашей среде.'
-ms.openlocfilehash: e1e345da45c60637a8c6cf20061f8b0274a1474d
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: e220a6615ef259e5ccba5b47a9e0f992289e6af4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347458"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373073"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Отключить протокол TLS 1.0/1.1 в Скайп для Business Server 2015
 
@@ -487,9 +487,9 @@ Windows Registry Editor Version 5.00
 
 1. [Установка необходимых компонентов для Скайп для Business Server](../../deploy/install/install-prerequisites.md)  
 2. 2. Установка .NET 4.7: 
-    - **Примечание:** Мы впервые представлена поддержка 4.7 .NET в Скайп для Business Server 2015 накопительным пакетом обновления 5 + (6.0.9319.281). Таким образом на последующих этапах ниже мы будет обновляться основные компоненты до основной установки.
-    - Загрузка: https://www.microsoft.com/en-us/download/details.aspx?id=55167.
-    - Ссылка: [программное обеспечение, которое должны быть установлены перед Скайп для развертывания Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
+      - **Примечание:** Мы впервые представлена поддержка 4.7 .NET в Скайп для Business Server 2015 накопительным пакетом обновления 5 + (6.0.9319.281). Таким образом на последующих этапах ниже мы будет обновляться основные компоненты до основной установки.
+      - Загрузка: https://www.microsoft.com/en-us/download/details.aspx?id=55167.
+      - Ссылка: [программное обеспечение, которое должны быть установлены перед Скайп для развертывания Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
 3. Скопируйте файлы/папки ISO: 
     - С помощью Скайп для Business Server 2015 ISO подключенное, откройте корневой каталог диска, подключенный как (Ex: D:\) в File Explorer.
     - Скопируйте все папки и файлы в папку на локальном диске (например: C:\SkypeForBusiness2015ISO).

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, какие телефоны компаний Polycom, HP и Mitel поддерживают Skype для бизнеса, а также о требуемых лицензиях. '
-ms.openlocfilehash: d7b8b92d268ab6ba4cf0c5dd49eab15586c95ba3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b218161268855a1b89aa54fd0e40c4b308db40d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890278"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371568"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Телефоны, поддерживаемые в Skype для бизнеса Online
 
@@ -40,7 +40,7 @@ ms.locfileid: "23890278"
   
 Майкрософт является партнером и тесно сотрудничает с компаниями Polycom, Yealink и AudioCodes по вопросам разработки и сертификации широкого спектра устройств в рамках партнерской программы IP-телефонии (PIP) для телефонных систем в Office 365 и Skype для бизнеса Server.
   
-При заказе новых телефонов для Скайп для бизнеса, важно приобрести телефонов с *правом продукта идентификатор*. Выбирая телефоны с нужным кодом, вы получаете устройства с заранее установленной соответствующей версией Skype для бизнеса Online.
+When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
   
 |||
 |:-----|:-----|
@@ -56,9 +56,9 @@ ms.locfileid: "23890278"
 Дополнительные сведения о телефонах AudioCodes см. в разделе [IP-телефоны для Skype для бизнеса](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Lync Phone Edition поддерживается в Skype для бизнеса Online, но не поддерживается в Microsoft Teams. Основной поддержки для платформы LPE завершен сервером апреля/10/2014 г., с расширенной поддержки до апреля/11/2023 для выравнивания по срокам поддержки продуктов Lync Server 2013. Для получения дополнительной информации о жизненном цикле LPE см. [Жизненный цикл для продуктов Майкрософт](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO). Модели LPE CAP не поддерживаются Skype для бизнеса Online.
+> Lync Phone Edition is supported with Skype for Business Online, but not with Microsoft Teams. Mainstream support for the LPE platform ended by April/10/2014, with extended support until April/11/2023 to align with the product support lifecycle of Lync Server 2013. See [Microsoft Product Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) for details on the LPE lifecycle. LPE CAP models aren't supported with Skype for Business Online.
 >
-> Позже в этом году Office 365 перестанет поддерживать все версии TLS, предшествующие версии 1.2. Поскольку базовая операционная система LPE не поддерживает TLS 1.2, LPE больше не будет поддерживаться для подключения к Office 365. Для получения дополнительной информации см. [Подготовка к обязательному использованию TLS 1.2 в Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365).
+> Later this year, Office 365 will not support any version of TLS older than 1.2. Since the underlying operating system of LPE does not support TLS 1.2, LPE will not be supported to connect to Office 365 anymore. See [Preparing for the mandatory use of TLS 1.2 in Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) for more information.
   
 ## <a name="supported-firmware"></a>Поддерживаемые встроенного по
 
@@ -73,7 +73,7 @@ ms.locfileid: "23890278"
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Декабрь 2016 г.  <br/> |
    
 > [!NOTE]
-Настроенные для локального развертывания телефоны Lync Phone Edition (LPE) требуется обновить, установив минимально допустимую (или более позднюю) версию встроенного ПО перед переводом пользователей на работу со Skype для бизнеса Online. Если перевести пользователей из локального местоположения на Skype для бизнеса Online без предварительного обновления встроенного ПО на телефонах, пользователи не смогут подключаться к Skype для бизнеса Online со своих телефонов. 
+> Настроенные для локального развертывания телефоны Lync Phone Edition (LPE) требуется обновить, установив минимально допустимую (или более позднюю) версию встроенного ПО перед переводом пользователей на работу со Skype для бизнеса Online. Если перевести пользователей из локального местоположения на Skype для бизнеса Online без предварительного обновления встроенного ПО на телефонах, пользователи не смогут подключаться к Skype для бизнеса Online со своих телефонов. 
   
 ## <a name="required-licenses"></a>Необходимые лицензии
 
@@ -111,7 +111,7 @@ Skype для бизнеса Online не требует наличия допол
 
      
 > [!NOTE]
-> CX 600 и другие телефоны Aries не поддерживают многофакторную проверку подлинности (MFA). При принудительном включении MFA вход с помощью данных устройств будет невозможен. Данные устройства должны использовать только код организации для проверки подлинности.
+> CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
  
 ## <a name="what-else-should-you-know"></a>Дополнительные сведения
 Пошаговые инструкции см. в разделе [Развертывание телефонов для приложения Skype для бизнеса Online](deploying-skype-for-business-online-phones.md).

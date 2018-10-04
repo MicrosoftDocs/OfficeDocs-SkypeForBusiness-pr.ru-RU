@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 'Сведения о Skype для бизнеса Cloud Connector Edition, который представляет собой набор упакованных виртуальных машин, реализующий локальную связь через ТСОП с помощью телефонной системы Office 365 (облачная УАТС). '
-ms.openlocfilehash: 58b84f083f77dde134dc0b2d7bab7fe60dcac5ea
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b98ba65555e8e94c743a87299b920f9ffd5efbfb
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883621"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372526"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Планирование Skype для бизнеса Cloud Connector Edition
 
@@ -568,7 +568,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
-- **Вариант 2.** Если вы хотите использовать единый сертификат подстановочными знаками на всех пограничных серверов пула развертыванием, то можно использовать запись альтернативного имени СУБЪЕКТА с подстановочными знаками из \*. sipdomain.com вместо имени пула пограничного сервера в сертификате. Имя субъекта может быть названием пограничного пула доступа любого из развернутых пограничных пулов.
+- <strong>Вариант 2.</strong> Если вы хотите использовать единый сертификат подстановочными знаками на всех пограничных серверов пула развертыванием, то можно использовать запись альтернативного имени СУБЪЕКТА с подстановочными знаками из \*. sipdomain.com вместо имени пула пограничного сервера в сертификате. Имя субъекта может быть названием пограничного пула доступа любого из развернутых пограничных пулов.
 
   ```
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,

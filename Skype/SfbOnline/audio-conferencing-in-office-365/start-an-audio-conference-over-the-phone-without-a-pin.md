@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как разрешить или запретить анонимным абонентам присоединяться к собранию с помощью центра администрирования Skype for Business admin или путем использования сценария PowerShell. '
-ms.openlocfilehash: a87fe66eca889e7424ed34376dbf499f8bbfef81
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 557360c3e49e22d1e719d98e8d51fda476efd045
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885164"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372739"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Начало аудиоконференции по телефону без PIN-кода в Skype для бизнеса Online
 
@@ -34,9 +34,9 @@ ms.locfileid: "23885164"
 
 Это может быть неудобства для пользователей, которые телефонное подключение к собранию, в течение которого будут храниться в зал собраний, прослушивание музыки, так как Скайп для бизнеса Организатор собрания еще не запущена собрания. 
   
-Если организатор собрания вызывает к собранию по умолчанию, ПИН-код должен начать собрание. Можно настроить его, чтобы любой пользователь может звонить на собрание и не будут запрашиваться ПИН-код начать собрание. Чтобы включить или отключить этот параметр для одного пользователя, используйте центр администрирования Skype для бизнеса.
+If a meeting organizer calls in to the meeting, by default, a PIN is required to start a meeting. You can set it up so that anyone can dial in to a meeting and not be prompted for a PIN to start the meeting. You can use the Skype for Business admin center to enable or disable this setting for a single user.
   
-Если кто-то запущен собрания из Скайп для бизнес-приложения, ПИН-код не требуется для организатора собрания. ПИН-код только в том случае требуется при Организатор собрания присоединился к их собрание по телефону. ПИН-код для собраний отправляется звука пользователя при назначаются лицензии **Аудиоконференций** и включена поддержка аудиоконференций. В разделе [Отправить сообщение электронной почты для пользователя с помощью их аудиоконференции сведения](send-an-email-to-a-user-with-their-dial-in-information.md) и [сообщения электронной почты, которые отправляются пользователям при изменении их параметров звука конференц-связи, автоматически](emails-sent-to-users-when-their-settings-change.md).
+A PIN isn't required for the meeting organizer if someone has started the meeting from the Skype for Business app. A PIN is only required when a meeting organizer joins their meeting over a phone. The PIN for meetings is sent to the audio user when they are assigned the **Audio Conferencing** license and are enabled for Audio Conferencing. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) and [Emails that are automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -49,7 +49,7 @@ ms.locfileid: "23885164"
     
 3. На странице свойств пользователя в разделе **параметры собрания**установите или снимите **непроверенный Разрешить звонящим быть первого людей в ходе собрания. Если не, затем они будет ждать в зале ожидания прошедшего проверку подлинности пользователь присоединился к**.
     
-4. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**. 
+4. Нажмите кнопку **Сохранить**. 
 
 
     
@@ -73,7 +73,7 @@ ms.locfileid: "23885164"
     
 - Если анонимный доступ или не требует ПИН-код начать собрание, отключен:
     
-  - Если собрание еще не началось (никто не присоединился): абонент не получит сообщения с вопросом, является ли он организатором. Кроме того, PIN-код запрашиваться не будет. Так как параметр организатора — это значение отключено, будет запущен процесс собрания и анонимных абонентов будет присоединиться к собранию.
+  - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     
   - Если собрание уже началось (кто-либо присоединился): абонент не получит сообщения с вопросом, является ли он организатором. Кроме того, PIN-код запрашиваться не будет. Собрание уже началось, и абонент присоединится к нему.
     
@@ -81,7 +81,7 @@ ms.locfileid: "23885164"
 
 - Для экономии времени или автоматизации процесса можно воспользоваться командлетом [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
     
--  Что касается Windows PowerShell, то Skype для бизнеса online дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
+- Что касается Windows PowerShell, то Skype для бизнеса online дает возможность управлять пользователями, предоставляя им права на определенные действия. С помощью Windows PowerShell вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     

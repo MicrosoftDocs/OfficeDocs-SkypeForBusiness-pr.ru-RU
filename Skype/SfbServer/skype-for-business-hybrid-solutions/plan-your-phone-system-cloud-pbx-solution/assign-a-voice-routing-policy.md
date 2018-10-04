@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Сводка: Прочтите этот раздел, чтобы узнать, как назначение политики голосовой связи для пользователей, использующих с телефонной системой в Office 365 с помощью подключения к ТСОП в локальной.'
-ms.openlocfilehash: 6acc7188cbb76c101890591a822ac03a686a8246
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 12e74a6ea4a0adf652cc4e9477d20f91b4e13732
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886064"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372411"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Назначение политики маршрутизации голосовой связи
  
@@ -50,15 +50,15 @@ ms.locfileid: "23886064"
     
 3. Добавление записей использования ТСОП в политике:
     
-  ```
-  Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
-  ```
+   ```
+   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
+   ```
 
     Например:
     
-  ```
-  Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
-  ```
+   ```
+   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
+   ```
 
 ## <a name="creating-a-new-voice-routing-policy"></a>Создание новой политики маршрутизации голосовой связи
 
@@ -70,15 +70,15 @@ ms.locfileid: "23886064"
     
 3. Создание новой политики маршрутизации голосовой связи
     
-  ```
-  New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
-  ```
+   ```
+   New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
+   ```
 
     Например:
     
-  ```
-  New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
-  ```
+   ```
+   New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
+   ```
 
 В этом примере создается новая политика маршрутизации голосовой связи HybridVoice, с которой связаны две записи использования ТСОП.
   
@@ -94,15 +94,15 @@ ms.locfileid: "23886064"
     
 3. Назначьте существующую политику голосовой связи пользователю:
     
-  ```
-  Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
-  ```
+   ```
+   Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
+   ```
 
     Например:
     
-  ```
-  Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
-  ```
+   ```
+   Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
+   ```
 
 В этом примере пользователю с отображаемым именем Bob Kelly назначается ранее созданная политика голосовой связи с именем HybridVoice.
   

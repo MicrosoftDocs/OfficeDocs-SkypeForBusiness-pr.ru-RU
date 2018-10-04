@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 9eb3cfcaa037e29d2ea6a82f4f5e6ad1876f969a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 576c7cb3cc083fcdf609419a45bf7fab7a64269b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854714"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371645"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -51,7 +51,7 @@ ms.locfileid: "23854714"
 
 Политика выполнения PowerShell помогает определить, какие файлы конфигурации можно загрузить в консоль PowerShell и какие сценарии пользователь может запустить из этой консоли. Как минимум Модуль соединителя Skype для бизнеса Online невозможно импортировать, если политика выполнения имеет значение RemoteSigned. Если это не так, вы получите следующее сообщение об ошибке при попытке импортировать модуль:
   
-- **Ошибка**: *Import-Module: файл C:\\Program Files\\общие файлы\\Microsoft Lync Server 2013\\модулей\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 не удается загрузить, поскольку выполняется сценарии отключено на этом компьютере. Для получения дополнительных сведений см about_Execution_Policies в https://go.microsoft.com/fwlink/?LinkID=135170.*
+- **Ошибка**: <em>Import-Module: файл C:\\Program Files\\общие файлы\\Microsoft Lync Server 2013\\модулей\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 не удается загрузить, поскольку выполняется сценарии отключено на этом компьютере. Для получения дополнительных сведений см about_Execution_Policies в https://go.microsoft.com/fwlink/?LinkID=135170.</em>
 
 - **Решение**: Чтобы устранить эту проблему, запустите PowerShell от имени администратора и запустите следующую команду:
     ```
@@ -143,7 +143,7 @@ ms.locfileid: "23854714"
 
 - **Решение**: закрыть один или несколько предыдущих подключений является единственным способом для устранения этой проблемы. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.  
  
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

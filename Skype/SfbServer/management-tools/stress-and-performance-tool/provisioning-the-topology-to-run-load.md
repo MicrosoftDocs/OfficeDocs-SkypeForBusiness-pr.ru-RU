@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: Скайп для изменения топологии Business Server 2015 или подготовки пользователи для успешного запуска средства нагрузка и производительность.
-ms.openlocfilehash: 825dd56a7f2cb343eddd8cbed7e811cdc5154b9c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6ff08a3b99f4dc1f05b56c2a1fa86733ccf4f852
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373780"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Подготовка топологии для запуска нагрузки в сценарии нагрузка и производительность
  
@@ -24,15 +25,15 @@ ms.lasthandoff: 03/28/2018
   
 1. Задайте политику выполнения Windows PowerShell неограниченный. Если вы не знаете его значение на данный момент можно откройте Скайп для Business Server Командная консоль и выполните следующую команду:
     
-  ```
-  Get-ExecutionPolicy
-  ```
+   ```
+   Get-ExecutionPolicy
+   ```
 
-  Если не возвращаемое значение Unrestricted, то необходимо запустить этот следующим:
+   Если не возвращаемое значение Unrestricted, то необходимо запустить этот следующим:
     
-  ```
-  Set-ExecutionPolicy -Unrestricted
-  ```
+   ```
+   Set-ExecutionPolicy -Unrestricted
+   ```
 
 2. Чтобы эффективно настроить Скайп для Business Server, вам потребуется:
     
@@ -42,9 +43,9 @@ ms.lasthandoff: 03/28/2018
     
 3. Чтобы запустить сценарий из командной строки, можно использовать:
     
-  ```
-  PowerShell.exe -file <path to the file>
-  ```
+   ```
+   PowerShell.exe -file <path to the file>
+   ```
 
 4. Как правило после выполнения скрипта из этого пакета полученные трассировки будет храниться в файле в один и тот же путь из которых запуска сценария. Существует формат именования, \<имя_сценария\>$h$m$s.txt. Поэтому при запуске ArchivingPolicy.ps1 в 12:15 PM вы получите файл журнала с именем ArchivingPolicy121500.txt.
     

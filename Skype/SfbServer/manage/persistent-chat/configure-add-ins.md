@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Сводка: Сведения о настройке надстроек для комнат чата Persistent Chat Server в Скайп для Business Server 2015.'
-ms.openlocfilehash: f96f000c4ac3a78f6ca3ba4972f295e45128ce50
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967735"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372701"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Настройка надстроек для комнат сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -46,9 +46,9 @@ ms.locfileid: "20967735"
     
 6. В окне **Новая надстройка** выполните следующие действия:
     
-  - В поле **Имя** укажите имя новой надстройки.
+   - В поле **Имя** укажите имя новой надстройки.
     
-  - В поле **URL-адрес** укажите URL-адрес, который должен быть сопоставлен с данной надстройкой. Эти URL-адреса ограничены протоколами HTTP и HTTPS.
+   - В поле **URL-адрес** укажите URL-адрес, который должен быть сопоставлен с данной надстройкой. Эти URL-адреса ограничены протоколами HTTP и HTTPS.
     
 7. Нажмите **Исполнить**.
     

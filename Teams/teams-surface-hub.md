@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62eb0e6fbae734a83fd96f89203db0547938e9d3
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.openlocfilehash: aca03693a7abea6e26f175cc49f0142894749160
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018588"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372183"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Развертывание групп Майкрософт для предоставления сервера-концентратора
 ======================================
@@ -65,7 +65,7 @@ ms.locfileid: "25018588"
 5. Нажмите кнопку **Добавить или удалить подготовки пакета**. 
 6. Нажмите кнопку **добавить пакет**.
 7. В раскрывающемся меню выберите параметр **Съемный носитель** . 
-8. Добавьте соответствующие **TeamsRTMMode*.ppkg** пакет, который ранее был скопирован на ключ USB. 
+8. Добавьте соответствующие <strong>TeamsRTMMode*.ppkg</strong> пакет, который ранее был скопирован на ключ USB. 
 9. Перезагрузите устройство поверхность сервера-концентратора. 
 10. После перезагрузки устройства, должна появиться возможность запуска приложения группы на начальном экране и присоединиться к собранию из календаря. 
 

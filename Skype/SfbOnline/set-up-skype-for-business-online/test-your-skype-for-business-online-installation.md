@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 50f313fcbc68fc28d0b1bc65482b6c14cb1d59b0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b2b69ec2eaa9fa2ace90ad117d866b00cb75f163
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851696"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370942"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Тестирование установки Skype для бизнеса Online
 
@@ -39,11 +39,11 @@ ms.locfileid: "23851696"
 ## <a name="what-do-you-want-to-do"></a>В этой статье:
 
 > [Настройка тестовых учетных записей](test-your-skype-for-business-online-installation.md#__toc328126910)
-
+> 
 > [Настройка тестовых компьютеров](test-your-skype-for-business-online-installation.md#__toc328126911)
-
+> 
 > [Настройка аудиоконференций](test-your-skype-for-business-online-installation.md#__toc328126912)
-
+> 
 > [Тестирование функций и устройств Skype для бизнеса Online](test-your-skype-for-business-online-installation.md#__toc328126913)
 
 ## <a name="set-up-test-accounts"></a>Настройка тестовых учетных записей
@@ -135,7 +135,7 @@ ms.locfileid: "23851696"
 |[Показ слайдов PowerPoint на собрании Lync](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |Презентация PowerPoint отображается на компьютерах других пользователей в окне сцены собрания Skype для бизнеса.  <br/> |
 |[Передача файла на собрании Lync](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |После загрузки все участники собрания смогут просмотреть вложение и загрузить его на свои компьютеры.  <br/> |
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

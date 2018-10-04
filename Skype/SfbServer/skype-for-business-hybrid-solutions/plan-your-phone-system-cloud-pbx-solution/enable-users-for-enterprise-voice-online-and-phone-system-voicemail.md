@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Узнайте, как включить телефонной системой в службах Office 365 голосовой связи для вашей Скайп для коммерческих пользователей.
-ms.openlocfilehash: ef1e7b98ad4a6080d07dc4abca717aef49a725ed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ec0e37c0597f81001075f144dd38b58acfbb1159
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887906"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372672"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Включение пользователей для корпоративной голосовой связи через Интернет и телефонной системой в голосовой почты Office 365
  
@@ -41,15 +41,15 @@ ms.locfileid: "23887906"
     
 3. Введите следующую команду и нажмите клавишу ВВОД.
     
-  ```
-  Import-Module skypeonlineconnector
-  ```
+   ```
+   Import-Module skypeonlineconnector
+   ```
 
 4. Введите следующую команду и нажмите клавишу ВВОД.
     
-  ```
-  $cred = Get-Credential
-  ```
+   ```
+   $cred = Get-Credential
+   ```
 
     После нажатия клавиши ВВОД появится диалоговое окно "Учетные данные Windows PowerShell".
     
@@ -57,29 +57,29 @@ ms.locfileid: "23887906"
     
 6. В окне PowerShell введите следующую команду и нажмите клавишу ВВОД.
     
-  ```
-  $Session = New-CsOnlineSession -Credential $cred -Verbose
-  ```
+   ```
+   $Session = New-CsOnlineSession -Credential $cred -Verbose
+   ```
 
 7. 	Импортируйте сеанс с помощью следующего командлета.
     
-  ```
-  Import-PSSession $Session -AllowClobber
-  ```
+   ```
+   Import-PSSession $Session -AllowClobber
+   ```
 
     Время выполнения PowerShell на Скайп для Business Server, локального Скайп по командлетам Business уже загружен при открытии PowerShell. Необходимо указать параметр - AllowClobber, чтобы разрешить командлеты online на перезапись локальных командлетов с тем же именем.
     
 8. Выполните командлет Set-CsUser, чтобы назначить свойства $EnterpriseVoiceEnabled и $HostedVoiceMail пользователю:
     
-  ```
-  Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     Например:
     
-  ```
-  Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     > [!NOTE]
     > Вы можете определить пользователя по адресу SIP, по имени участника-пользователя (UPN), по имени домена и имени пользователи (домен\имя пользователя) и по отображаемому имени Active Directory (Bob Kelly). 

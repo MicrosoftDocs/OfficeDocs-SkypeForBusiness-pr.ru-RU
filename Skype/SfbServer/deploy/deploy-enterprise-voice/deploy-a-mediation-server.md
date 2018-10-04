@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Сводка: Узнайте, как определять и развертывание сервера-посредника в построителе топологий в Скайп for Business Server.'
-ms.openlocfilehash: fd83ecb44726f151dea83c19b9745446653ca33b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e4221230fbaf993b5bf3d2b647e6d7e6e7ada51
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883726"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371923"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Развертывание сервера-посредника в построителе топологий в Скайп для Business Server
  
@@ -79,8 +79,8 @@ ms.locfileid: "23883726"
     
    - Если вы хотите развернуть несколько серверов-посредников в пуле, чтобы обеспечить высокую доступность, выберите пункт **пул на нескольких компьютерах**.
     
-    > [!NOTE]
-    > Необходимо [Развернуть](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) для поддержки сервера-посредника пулы, которые имеют несколько серверов-посредников.
+     > [!NOTE]
+     > Необходимо [Развернуть](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) для поддержки сервера-посредника пулы, которые имеют несколько серверов-посредников.
   
    - Если вы хотите развернуть только один сервер-посредник в пуле, так как не требуется высокий уровень доступности, выберите пункт **пул из одного компьютера**. Пропустите следующее действие.
     

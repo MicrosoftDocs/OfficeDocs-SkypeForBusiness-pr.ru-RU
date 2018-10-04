@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Политики клиента помогают определить функции Skype для бизнеса online, доступные пользователям. Например, вы можете предоставить одним пользователям право передавать файлы и запретить это другим пользователям.
-ms.openlocfilehash: 791d54dd12e5f222958fd4513abdeca2433cbf16
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1a5e752976aaa14adeb0b2345da830c5765ce7f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857864"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373196"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Настройка политик клиента в организации
 
@@ -58,32 +58,32 @@ ms.locfileid: "23857864"
     > [!NOTE]
     > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [подключение к Скайп для бизнеса в Интернет с помощью Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [подключение к Скайп для бизнеса в Интернет с помощью Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Отключение эмотиконов, уведомлений о присутствии и запрет на сохранение мгновенных сообщений
 
 - Чтобы создать политику для настроек, запустите следующую команду:
     
 > 
-  ```
-  New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
-  ```
+>   ```
+>   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
+>   ```
 
   В разделе Дополнительные с параметрами командлета [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
     
 > 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
-  ```
+>   ```
+>   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
+>   ```
 
   Просмотрите Дополнительные сведения о командлета [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
@@ -94,18 +94,18 @@ ms.locfileid: "23857864"
 - Чтобы создать политику для настроек, запустите следующую команду:
     
 > 
-  ```
-  New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
-  ```
+>   ```
+>   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
+>   ```
 
   В разделе Дополнительные с параметрами командлета [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
     
 > 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
-  ```
+>   ```
+>   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
+>   ```
 
   Просмотрите Дополнительные сведения о командлета [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
@@ -114,18 +114,18 @@ ms.locfileid: "23857864"
 ### <a name="prevent-showing-recent-contacts"></a>Запрет отображения последних контактов
 
 - Чтобы создать политику для настроек, запустите следующую команду:
-> 
-  ```
-  New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
-  ```
+  > 
+  > ```
+  > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
+  > ```
 
   В разделе Дополнительные с параметрами командлета [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
 - Чтобы предоставить новую политику Amos Marble, запустите следующую команду:
-> 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
-  ```
+  > 
+  > ```
+  > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
+  > ```
 
   Просмотрите Дополнительные сведения о командлета [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     

@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: c705feab5ab0288fb496544c76ce7346de3bb9d5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bc39b239128ffacea5c4d58d1055f57d5088fb11
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013653"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372487"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
@@ -136,7 +136,7 @@ ms.locfileid: "25013653"
 После изучения доступности служб Skype для бизнеса или Microsoft Teams можно просмотреть статью [Skype for Business and Microsoft Teams add-on licensing (Лицензирование надстроек Skype для бизнеса и Microsoft Teams)](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing), в которой содержится полезная информация по приобретению лицензий и их назначению пользователям.
 
 > [!NOTE]
-
+> 
 > Если вам потребуется получить дополнительные номера телефонов для пользователей, видеть [Приступая к номера телефонов для пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users) или для телефонных номеров формы запроса, [Управление номера телефонов для вашей организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 

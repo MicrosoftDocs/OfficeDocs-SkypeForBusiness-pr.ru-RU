@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Сводка: Узнайте, как управлять сервера сохраняемого чата высокой доступности и аварийного восстановления в Скайп для Business Server 2015.'
-ms.openlocfilehash: 3c3da985f8d68f257257909fbc06e93868233468
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 477897362a01ae3ac6097c50eaed8f9ece31f49d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008225"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371636"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление высокой доступностью и аварийным восстановлением для сервера сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -48,15 +48,15 @@ ms.locfileid: "21008225"
   
 1. Удалите доставку журналов из Persistent Chat Server резервного копирования базы данных доставки журналов.
     
-  - С помощью SQL Server Management Studio, подключитесь к экземпляру базы данных, где расположена база данных mgc резервного копирования сервера сохраняемого чата.
+   - С помощью SQL Server Management Studio, подключитесь к экземпляру базы данных, где расположена база данных mgc резервного копирования сервера сохраняемого чата.
     
-  - Откройте окно отправки запроса в базу данных master.
+   - Откройте окно отправки запроса в базу данных master.
     
-  - Используйте следующую команду для сброса доставки журналов:
+   - Используйте следующую команду для сброса доставки журналов:
     
-  ```
-  exec sp_delete_log_shipping_secondary_database mgc
-  ```
+   ```
+   exec sp_delete_log_shipping_secondary_database mgc
+   ```
 
 2. Скопируйте все нескопированные файлы резервных копий из общей папки резервных копий в конечную папку копирования на резервном сервере.
     
@@ -64,15 +64,15 @@ ms.locfileid: "21008225"
     
 4. Подключите резервную базу данных mgc к сети. В окне запроса, которое было открыто в действии 1b, выполните следующие действия.
     
-  - Завершите все подключения к базе данных mgc при их наличии:
+   - Завершите все подключения к базе данных mgc при их наличии:
     
-  - Выполните команду **exec sp_who2**, чтобы определить подключения к базе данных mgc.
+   - Выполните команду **exec sp_who2**, чтобы определить подключения к базе данных mgc.
     
-  - **kill \<spid\> ** для завершения этих подключений.
+   - **kill \<spid\> ** для завершения этих подключений.
     
-  - Подключите базу данных к сети:
+   - Подключите базу данных к сети:
     
-  - **restore database mgc with recovery**.
+   - **restore database mgc with recovery**.
     
 5. В Скайп консоли Business Server, используйте команду **Set-CsPersistentChatState-Identity «служба: atl-cs-001.litwareinc.com» - PoolState FailedOver** отработки отказа для резервного копирования базы данных mgc. Обязательно замените полное доменное имя в пуле Persistent Chat для узла atl-cs-001.litwareinc.com.
     

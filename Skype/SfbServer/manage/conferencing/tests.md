@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Сводка: Узнайте, как проверить телефонных конференций в Скайп для Business Server.'
-ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e86e2c136edd8520f12944768e327e0870106f6e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966414"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372841"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Тестирование телефонных конференций в Скайп для Business Server
  
@@ -30,9 +30,9 @@ ms.locfileid: "20966414"
     
 3. Выполните следующую команду в командной строке:
     
-  ```
-  Get-CsDialinConferencingAccessNumber -EmptyRegion
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -EmptyRegion
+   ```
 
     Этот командлет возвращает все абонентские группы с регионом конференц-связи с телефонным подключением, для которого не задан ни один номер доступа.
     
@@ -46,9 +46,9 @@ ms.locfileid: "20966414"
     
 3. Выполните следующую команду в командной строке:
     
-  ```
-  Get-CsDialinConferencingAccessNumber -Region NULL
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -Region NULL
+   ```
 
     Этот командлет возвращает все номера доступа к конференц-связи с телефонным подключением, которые не связаны ни с одним регионом.
     
@@ -70,12 +70,12 @@ ms.locfileid: "20966414"
     
 3. Выполните следующую команду в командной строке:
     
-  ```
-  $credentials = Get-Credential
+   ```
+   $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********
-Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-  ```
+   Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
+   ```
 
     Полученный отчет показывает успешность или сбой операции, а также содержит диагностические сведения. - Verbose флаг содержит более подробные сведения о сколько найдены номера доступа и сведений о них.
     

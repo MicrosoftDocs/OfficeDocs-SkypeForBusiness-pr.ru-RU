@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6939f28f5e7c215c96be56c7f85a536dc155f3a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: eba3174e8bce17f66a7e990c0066bc886aed9f9b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017979"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374099"
 ---
 ![Этапы обновления пути с акцентом на стадии подготовки пользователей] (media/upgrade-banner-user-readiness.png "Этапы обновления пути с акцентом на стадии подготовки пользователей")
 
@@ -40,14 +40,14 @@ ms.locfileid: "25017979"
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Точки принятия решений|<ul><li>Как создать план готовности, чтобы упростить и ускорить внедрение пользователя новое решение?</li><li>Требуется ли сведения о вправо, обучение и ресурсы технической поддержки пользователей возможность работать с изменениями и действующие лица пользователя, который был определен с соответствием?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Следующий шаг|<ul><li>Используйте для создания идеи для плана проверки готовности к из списка ниже. Выберите наиболее подходящих действий — или добавлять собственные — составлять план готовности, оптимизированная для вашей организации. Не забудьте используется вместе с широкой доступности (для всей организации) и целевого (для laggards или определенных пользователей) кампании для результаты для максимальной нагрузки.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Дальнейшее действие|<ul><li>Используйте для создания идеи для плана проверки готовности к из списка ниже. Выберите наиболее подходящих действий — или добавлять собственные — составлять план готовности, оптимизированная для вашей организации. Не забудьте используется вместе с широкой доступности (для всей организации) и целевого (для laggards или определенных пользователей) кампании для результаты для максимальной нагрузки.</li></ul>|
 
 
 <div class="mx-tableFixed">
 <table>
 <tbody>
 <tr><th>Какие каналы связи будет использовать?</th><th>Какие обучающие каналы будут использовать?</th><th>Какая поддержка каналы будут использовать?</th></tr>
-<tr><td><ul><li>Email<br>**Совет:** Используйте наш пример пилотного, совместная работа и обновление для настройки электронной почты кампании по электронной почте.</li><li>Плакаты и цифровых вывески</li><li>Запуск событий</li><li>Менеджеры отдела</li><li>Лидеры</li><li>Команды/каналов</li><li>Gamification</li></ul></td><td><ul><li>Корпорация Майкрософт опубликовала статьи и видео</li><li>Ресурсы:<ul><li>[Переключитесь в группы из Скайп для бизнеса](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Учебные групп](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)</li></ul></li><li>Помощь в продукта (T-роботов)</li><li>Собственное обучение группы</li><li>Обучение группы партнера</li></ul></td><td><ul><li>Собственное служба технической поддержки</li><li>Перенаправленный службу поддержки</li><li>Самообслуживание (в интрасети)</li><li>[Интерактивная справка и инструкции](https://support.office.com/teams)</li><li>Этажа walkers и чемпионатов</li><li>Цикл свои отзывы и предложения (опросы, рейтинги)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>Совет:</strong> Используйте наш пример пилотного, совместная работа и обновление для настройки электронной почты кампании по электронной почте.</li><li>Плакаты и цифровых вывески</li><li>Запуск событий</li><li>Менеджеры отдела</li><li>Лидеры</li><li>Команды/каналов</li><li>Gamification</li></ul></td><td><ul><li>Корпорация Майкрософт опубликовала статьи и видео</li><li>Ресурсы:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переключитесь в группы из Скайп для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Учебные групп</a></li></ul></li><li>Помощь в продукта (T-роботов)</li><li>Собственное обучение группы</li><li>Обучение группы партнера</li></ul></td><td><ul><li>Собственное служба технической поддержки</li><li>Перенаправленный службу поддержки</li><li>Самообслуживание (в интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Интерактивная справка и инструкции</a></li><li>Этажа walkers и чемпионатов</li><li>Цикл свои отзывы и предложения (опросы, рейтинги)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

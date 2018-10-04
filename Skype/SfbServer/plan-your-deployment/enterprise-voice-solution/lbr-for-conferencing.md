@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Планирование для расположения маршрутизация на основе конференц-связи в Скайп Business Server корпоративной голосовой связи, включая консультативное вызов передает.
-ms.openlocfilehash: 97ceaeb4f7e6e24cdffe3f1fd8c737de2e429e17
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888362"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373244"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Маршрутизация конференц-связи в Скайп для Business Server на основе расположения
 
@@ -47,6 +47,7 @@ ms.locfileid: "23888362"
 В следующей таблице приведен эти ограничения на основе расположения маршрутизации конференц-связи.
 
 | |
+
 |**Пользователи конференции на данный момент**|**Пользователи, которым разрешено присоединяться к конференции**|**Пользователи, которым запрещено присоединяться к конференции**|
 |:-----|:-----|:-----|
 |Скайп для одного или нескольких клиентского Business VoIP из одного сетевого узла  <br/> |Скайп для пользователя клиентского VoIP бизнеса с одного узла сети  <br/> Скайп для пользователей клиентского Business VoIP из разных сетевого узла  <br/> Скайп для пользователя клиентского VoIP бизнеса от неизвестного сетевого узла  <br/> Федеративные Скайп для пользователей клиентского VoIP бизнеса  <br/> Пользователь, присоединяющийся с помощью конечной точки ТСОП  <br/> |Нет  <br/> |
@@ -141,7 +142,7 @@ ms.locfileid: "23888362"
 
 После найти значение приоритета правильный для маршрутизации на основе расположения для приложения конференц-связи, введите следующий командлет для каждого пула переднего плана или сервера Standard Edition, домашние пользователи включены для маршрутизации на основе местоположения:
 
-New-CsServerApplication-удостоверения службы: Registrar:<Pool FQDN>/LBRouting-приоритет <Application Priority> -включено $true-критические $true - Uri https://www.microsoft.com/LCS/LBRoutingFor пример:
+New-CsServerApplication-удостоверения службы: Registrar:<Pool FQDN>/LBRouting-приоритет <Application Priority> -включено $true-критические $true - Uri <https://www.microsoft.com/LCS/LBRoutingFor> пример:
 
 New-CsServerApplication-Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting удостоверение-приоритет 3 - Enabled $true-критические $true - Uri https://www.microsoft.com/LCS/LBRoutingAfter с помощью этого командлета, перезапустите все серверы переднего плана в пуле или серверы Standard Edition где Маршрутизация на основе расположения для конференц-связи приложения был включен.
 

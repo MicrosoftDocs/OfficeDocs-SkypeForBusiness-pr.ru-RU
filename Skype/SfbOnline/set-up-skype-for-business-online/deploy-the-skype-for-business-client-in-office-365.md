@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. '
-ms.openlocfilehash: 6af2ed700783fef853052b39c60270baf86919e9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858798"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372574"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Развертывание клиента Skype для бизнеса в среде Office 365
 
@@ -136,7 +136,7 @@ ms.locfileid: "23858798"
     
 - [Настройка параметров обновлений для Office 365 профессиональный плюс](https://technet.microsoft.com/en-us/library/dn761708.aspx)
     
- **Периодичность получения обновлений функциональности**
+  **Периодичность получения обновлений функциональности**
   
 Помимо источника обновлений также можно настроить периодичность обновления функциональности клиента Skype для бизнеса. Существует два возможных варианта:
   
@@ -148,7 +148,7 @@ ms.locfileid: "23858798"
   
 Настроить периодичность обновления функциональности и канал обновлений можно с помощью средства развертывания Office или с помощью групповой политики. Параметр "Ежемесячный канал" позволяет получать обновления ежемесячно (приблизительно), а параметр "Полугодовой канал" позволяет получать обновления раз в полгода. Дополнительные сведения о каналах см. в статье [Общие сведения о каналах обновлений для Office 365 профессиональный плюс](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
   

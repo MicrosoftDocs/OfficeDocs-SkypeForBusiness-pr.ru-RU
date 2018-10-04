@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
 description: 'Сводка: Узнайте, как для применения исправлений и обновлений для сервера переднего плана в Скайп для Business Server.'
-ms.openlocfilehash: 29191192b1dab16b79cc594cc0a7b3b68aaa906f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cf209159391ef084d77b5adc639698ed766427ff
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20972774"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371719"
 ---
 # <a name="patch-or-update-front-end-servers-in-skype-for-business-server"></a>Исправление или обновление серверов переднего плана в Скайп для Business Server
  
@@ -26,21 +26,21 @@ ms.locfileid: "20972774"
 
 1. Введите следующий командлет:
     
-  ```
-  Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
-  ```
+   ```
+   Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
+   ```
 
      Если при выполнении этого командлета отображаются сведения об отсутствующих репликах, перед применением исправлений выполните следующий командлет для восстановления пула.
     
-  ```
-  Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
-  ```
+   ```
+   Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
+   ```
 
 2. На первом сервере, где требуется внести исправления, выполните следующий командлет:
     
-  ```
-  Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
-  ```
+   ```
+   Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
+   ```
 
     Этот командлет перемещает все службы в других серверов переднего плана в пуле и переводит этот сервер в автономный режим.
     
@@ -48,9 +48,9 @@ ms.locfileid: "20972774"
     
 4. На обновленном сервере выполните следующий командлет:
     
-  ```
-  Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
-  ```
+   ```
+   Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
+   ```
 
     Сервер возвращается в режим нормальной работы.
     

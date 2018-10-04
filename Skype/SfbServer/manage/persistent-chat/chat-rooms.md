@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Сводка: Узнайте, как управлять Persistent Chat Server разговоров в Скайп для Business Server 2015.'
-ms.openlocfilehash: 25d13b8b44e16d476191fdae337eb72d73e77dbc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1c197be847d2a1359a3e6203df718cc34f1d9e41
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973777"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372151"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление комнатами чата на сервере сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -76,7 +76,7 @@ ms.locfileid: "20973777"
     
 - Presenters. Позволяет назначать выступающих комнате-аудитории чата. 
     
- Подробные сведения о синтаксисе, включая все параметры, [Скайп для консоли 2015 Business Server](../management-shell.md).
+  Подробные сведения о синтаксисе, включая все параметры, [Скайп для консоли 2015 Business Server](../management-shell.md).
   
 ## <a name="create-a-new-room"></a>Создание новой комнаты
 

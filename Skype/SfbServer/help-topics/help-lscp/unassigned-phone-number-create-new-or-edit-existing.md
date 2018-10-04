@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: Неназначенные номера — это телефонные номера, допустимые для вашей организации, но не назначенные пользователю или телефону. В таблице неназначенных номеров указывается, как обрабатываются такие номера.
-ms.openlocfilehash: 8983c52691eec7945f431be3efdce56be025ee6b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5e8648b94950750e6f750044ba4033fdf637c6f4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261408"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373672"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Неназначенный номер телефона: Создание новой или редактирование существующей
 
@@ -48,7 +48,7 @@ ms.locfileid: "23261408"
 
   - **Оповещения** Выберите извещение, воспроизводимое для этого диапазона неназначенных номеров.
 
--  Если вы выбрали **Exchange единой системы обмена СООБЩЕНИЯМИ** для **службы оповещения**:
+- Если вы выбрали **Exchange единой системы обмена СООБЩЕНИЯМИ** для **службы оповещения**:
 
   - **Телефонный номер автосекретаря** Выберите номер телефона для единой системы обмена СООБЩЕНИЯМИ автосекретаря Exchange.
 

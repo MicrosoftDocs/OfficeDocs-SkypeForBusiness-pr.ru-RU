@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Эта статья посвящена процедуре для развертывания управления устройствами v2 систем комнаты Скайп интегрированная, начала до конца способом, с помощью Microsoft Operations Management Suite.
-ms.openlocfilehash: 4e52c416f9f35aaee1ccb3b5e8c75c29246a1c5d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5ef935f30bfdb5036c87fe24d9456af1b52925e5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891250"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371382"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Развертывание управления системами комнат Skype версии 2 с помощью OMS
 
@@ -110,27 +110,27 @@ ms.locfileid: "23891250"
 
 Чтобы извлечь настраиваемых полей из него захвата журналы событий, выполните следующие действия:
 
-1.  Войдите в [портал Microsoft Operations Management Suite](https://aka.ms/omsportal).
+1. Войдите в [портал Microsoft Operations Management Suite](https://aka.ms/omsportal).
 
-2.  Перечислены события, создаваемые устройства версии 2 Скайп комнаты систем:
-    1.  Перейти к **Поиску журнала** и использовать запрос для извлечения записей, которые будут иметь настраиваемого поля.
-    2.  Пример запроса:`Event | where Source == "SRS-App"`
+2. Перечислены события, создаваемые устройства версии 2 Скайп комнаты систем:
+   1.  Перейти к **Поиску журнала** и использовать запрос для извлечения записей, которые будут иметь настраиваемого поля.
+   2.  Пример запроса:`Event | where Source == "SRS-App"`
 
-3.  Выберите один из записей, нажмите кнопку слева и запустите мастер извлечения поля.
+3. Выберите один из записей, нажмите кнопку слева и запустите мастер извлечения поля.
 
    ![Мастер извлечения поля] (../../media/Deploy_OMS_3.png "Мастер извлечения поля")
 
-4.  Выделите данные, которые вы хотите извлечь из RenderedDescription и укажите название поля. В таблице 1 приведены имена полей, которые следует использовать.
+4. Выделите данные, которые вы хотите извлечь из RenderedDescription и укажите название поля. В таблице 1 приведены имена полей, которые следует использовать.
 
    ![Определение настраиваемого поля] (../../media/Deploy_OMS_4.png "Определение настраиваемого поля")
 
-5.  Использование сопоставлений, показано в *таблице 1*. Пакет управления Operations автоматически добавляет ** \_CF** строка при определении нового поля.
+5. Использование сопоставлений, показано в *таблице 1*. Пакет управления Operations автоматически добавляет ** \_CF** строка при определении нового поля.
 
 > [!IMPORTANT]
 > Имейте в виду, что все поля JSON и пакет управления Operations зависят от регистра символов.
-
+> 
 > Обратите внимание на состояние флажка EventID в таблице ниже. Убедитесь, что проверить состояние этого флажка для операций Management Suite успешно извлечение значения настраиваемых полей.
->
+> 
 > ![Определение настраиваемого поля] (../../media/Deploy_OMS_5.png "Определение настраиваемого поля")
 
 **В таблице 1**
@@ -462,48 +462,50 @@ ms.locfileid: "23891250"
 7.  Устройств систем комнаты Скайп версии 2 следует Установка и настройка агента мониторинг Microsoft с второй перезагрузки.
 
 
-    ```
-    # Install-OMSAgent.ps1
-    <#
-    Date:        04/20/2018
-    Script:      Install-OMSAgent.ps1
-    Version:     1.0
-    #>
+~~~
+```
+# Install-OMSAgent.ps1
+<#
+Date:        04/20/2018
+Script:      Install-OMSAgent.ps1
+Version:     1.0
+#>
 
-    # Set the parameters
-    $WorkspaceId = "<your workspace id>"
-    $WorkspaceKey = "<your workspace key>"
-    $SetupPath = "\\Server\Share"
+# Set the parameters
+$WorkspaceId = "<your workspace id>"
+$WorkspaceKey = "<your workspace key>"
+$SetupPath = "\\Server\Share"
 
-    $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
+$SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
 
-    # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
+# $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
 
-    # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log
+# Start PowerShell logging
+Start-Transcript -Path C:\OMSAgentInstall.Log
 
-    # Check if the Microsoft Monitoring Agent is installed
-    $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
+# Check if the Microsoft Monitoring Agent is installed
+$mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
 
-    # Check if the Microsoft Monitoring agent is installed
-    if (!$mma)
-    {
-        #Install agent
-        Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
-    }
+# Check if the Microsoft Monitoring agent is installed
+if (!$mma)
+{
+    #Install agent
+    Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
+}
 
-    # Check if the agent has a valid configuration
-    $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
-    if (!$CheckOMS)
-    {
-        # Apply new configuration
-        $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
-        $mma.ReloadConfiguration()
-    }
+# Check if the agent has a valid configuration
+$CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
+if (!$CheckOMS)
+{
+    # Apply new configuration
+    $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
+    $mma.ReloadConfiguration()
+}
 
-    Stop-Transcript
+Stop-Transcript
 
-    ```
+```
+~~~
 
 > [!NOTE]
 > При необходимости повторно настройте агент, перетащить его в другой рабочей области и изменение параметров прокси-сервера после первоначальной установки можно найти в статье [Управление и обслуживание анализа журнала агента](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage) .

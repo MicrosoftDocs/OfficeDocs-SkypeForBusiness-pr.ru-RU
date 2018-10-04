@@ -10,17 +10,17 @@ ms.collection: Teams_ITAdmin_Help
 description: Вы можете использовать этот сценарий, чтобы очистить Microsoft Teams на целевых компьютерах или для конкретных пользователей.
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
-ms.openlocfilehash: 7a0d12fb59b8f5f513ed4f0c64502d6c9ff369e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: edda16fe78c941121f5f974cc3921c710e7c5911
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011899"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372534"
 ---
 <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>Пример сценария PowerShell — очистка развертывания Microsoft Teams
 -------------------------------------------------------------------------
 
-Этот сценарий PowerShell можно выполнять для очистки группами Майкрософт целевые компьютеры или пользователей. Должны быть выполнены для каждого пользователя на целевой компьютер. 
+Этот сценарий PowerShell можно использовать для очистки Microsoft Teams на целевых компьютерах или для конкретных пользователей. Его следует запустить для каждого пользователя на целевом компьютере. 
 
 
 ## <a name="sample-script"></a>Пример сценария
@@ -55,7 +55,6 @@ catch
     Write-Error -ErrorRecord $_
     exit /b 1
 }
-
 ````
 
 

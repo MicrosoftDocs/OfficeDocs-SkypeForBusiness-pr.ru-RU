@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После удаления сервера мониторинга, можно удалить базы данных SQL Server, которые размещены данных с сервера. Используйте следующую процедуру для удаления определения построителя топологий и удалите файлы базы данных и журналов на сервер базы данных.
-ms.openlocfilehash: 1dc18d520afd67156443ddc2fc22dc838a2aa139
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 85999f1bbb3fc443edcab9d1f1354f26187c6a75
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027979"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373359"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>Удаление базы данных SQL Server для сервера мониторинга
 
@@ -35,9 +35,9 @@ ms.locfileid: "25027979"
     
 3. В командной строке введите следующую команду:
     
-  ```
-  Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     Где _ \<полное доменное имя\> _ — это полное доменное имя (FQDN) сервера базы данных и _ \<экземпляра\> _ — это дополнительный именованный экземпляр базы данных. 
     

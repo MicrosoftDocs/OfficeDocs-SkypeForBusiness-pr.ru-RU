@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: e287cc1b6c987e29067d75e344710104cd9c2c4b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: da7786e9ae43fe6021a8358622eedcac22514e57
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246892"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370654"
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Материалы Office на сайте docs.microsoft.com
 ## <a name="this-is-a-level-2-heading"></a>Это заголовок второго уровня
@@ -43,7 +43,7 @@ ms.locfileid: "23246892"
 <p>Отобразится &#9744;</p>
 <p>Отобразится &#x2610;</p>
 
-###<a name="this-is-heading-3"></a>Это — это заголовок 3
+### <a name="this-is-heading-3"></a>Это — это заголовок 3
 
 Контент Microsoft Teams теперь доступен.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)

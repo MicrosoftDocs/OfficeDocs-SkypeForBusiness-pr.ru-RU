@@ -18,12 +18,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 98701f55bd1cdf2c6a5f8177d05a95030a4a04a5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3961aaa5bfe8ca17a28fa736f64a91a48414a494
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850092"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371954"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Разрешение на добавление контактов Skype пользователям Skype для бизнеса
 
@@ -75,9 +75,9 @@ ms.locfileid: "23850092"
     
 4. Еще один способ проверить, связано ли это с брандмауэром,  подключиться к сети Wi-Fi, не защищенной брандмауэром, например, в кафе, и отправить в Skype для бизнеса запрос на беседу контакту в Skype. 
     
-  - **Если вы отправили запрос контакту Skype, но он его не получил**, попросите контакт отправить вам запрос на чат. Если проблема была в установке соединения между Skype и Skype для бизнеса, обычно она устраняется.
+   - **Если вы отправили запрос контакту Skype, но он его не получил**, попросите контакт отправить вам запрос на чат. Если проблема была в установке соединения между Skype и Skype для бизнеса, обычно она устраняется.
     
-  - Если сообщение будет доставлено, хотя на работе этого не удается сделать, значит, проблема в брандмауэре. 
+   - Если сообщение будет доставлено, хотя на работе этого не удается сделать, значит, проблема в брандмауэре. 
     
 ## <a name="what-you-can-and-cant-do"></a>Что можно и что нельзя делать
 

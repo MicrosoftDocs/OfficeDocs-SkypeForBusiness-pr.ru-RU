@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Сводка: Узнайте, как запустить или остановить сеанс записи журналов службы централизованного ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: dee3a9cd1b5feaf241795de6595f755b3f321409
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570159"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373766"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Запуск или остановка записи журналов CLS в Skype для бизнеса Server 2015
  
@@ -36,15 +36,15 @@ ms.locfileid: "19570159"
     
 2. Запустите сценарий ведения журнала со службой централизованного ведения журналов, введя следующую команду:
     
-  ```
-  Start-CsClsLogging -Scenario <name of scenario>
-  ```
+   ```
+   Start-CsClsLogging -Scenario <name of scenario>
+   ```
 
     Например для запуска сценария **AlwaysOn** введите:
     
-  ```
-  Start-CsClsLogging -Scenario AlwaysOn
-  ```
+   ```
+   Start-CsClsLogging -Scenario AlwaysOn
+   ```
 
     > [!NOTE]
     > У сценария AlwaysOn нет длительности по умолчанию. Этот сценарий будет работать, пока не будет явным образом остановлен вручную с помощью командлета **Stop-CsClsLogging** . Дополнительные сведения см [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Для всех остальных сценариев длительность по умолчанию составляет 4 часа. 
@@ -58,9 +58,9 @@ ms.locfileid: "19570159"
   
 4. Чтобы выполнить другой сценарий, используйте командлет **Start-CsClsLogging** с именем выполняемого дополнительного сценария для запуска следующим образом (например, сценария **Authentication**):
     
-  ```
-  Start-CsClsLogging -Scenario Authentication
-  ```
+   ```
+   Start-CsClsLogging -Scenario Authentication
+   ```
 
     > [!IMPORTANT]
     > В любой момент времени на любом конкретном компьютере может работать не более двух сценариев. Если область применения команды является глобальной, этот сценарий или сценарии будут выполняться на всех компьютерах среды. Для запуска третьего сценария необходимо остановить ведение журнала для области применения (компьютер, пул, сайт, глобальная), в которой нужно запустить новый сценарий. Если сценарии запущены в глобальной области применения, можно остановить ведение журнала в одном или обоих сценариях для одного или нескольких компьютеров и пулов. 
@@ -71,11 +71,11 @@ ms.locfileid: "19570159"
     
 2. Для управления командами ведения журнала доступны дополнительные параметры. Вы можете использовать - длительность, чтобы настроить интервал времени для запуска сценария. Также можно определить - компьютеров, список имен доменов полное компьютера (FQDN), разделенные точкой с запятой, или - список полных доменных имен для пулов, которые необходимо выполнить вход в систему, разделенных пулов, их запятыми.
     
-    Начало сеанса ведения журнала для сценарий UserReplicator в пуле «pool01.contoso.net». При этом длительность сеанса ведения журнала определяется равной 8 часам. Для этого введите следующую команду:
+    Пусть нужно запустить сеанс ведения журнала с помощью сценария UserReplicator для пула "pool01.contoso.net". При этом длительность сеанса ведения журнала определяется равной 8 часам. Для этого введите следующую команду:
     
-  ```
-  Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-  ```
+   ```
+   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
+   ```
 
     При успешном выполнении этого сценария возвращается результат, подобный следующему:
     
@@ -111,26 +111,26 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Запрос централизованной службы ведения журналов, чтобы узнать, какие сценарии в настоящее время работает, введя следующее:
     
-  ```
-  Show-CsClsLogging
-  ```
+   ```
+   Show-CsClsLogging
+   ```
 
-  ![Консоль Windows PowerShell после вызова Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Консоль Windows PowerShell после вызова Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-  Результатом выполнения Show-CsClsLogging являются сводные данные обо всех выполняемых сценариях и областях их выполнения. Дополнительные сведения см [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
+   Результатом выполнения Show-CsClsLogging являются сводные данные обо всех выполняемых сценариях и областях их выполнения. Дополнительные сведения см [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
     
 3. Чтобы остановить выполняемый в данный момент сеанс ведения журнала, введите:
     
-  ```
-  Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
-  ```
-  Например:
+   ```
+   Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
+   ```
+   Например:
     
-  ```
-  Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
-  ```
+   ```
+   Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
+   ```
 
-  Эта команда остановит ведение журнала с помощью сценария UserReplicatior для pool01.contoso.net.
+   Эта команда остановит ведение журнала с помощью сценария UserReplicatior для pool01.contoso.net.
     
     > [!NOTE]
     > Журналы, созданные в течение останавливаемого сеанса ведения журнала с помощью сценария UserReplicator, не удаляются. Журналы остаются доступными для выполнения поиска с помощью команды Search-CsClsLogging. Дополнительные сведения см [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
@@ -139,4 +139,4 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="stop"> </a>
 
-[Службы централизованного ведения журналов в Скайп для бизнеса 2015](centralized-logging-service.md)
+[Централизованная служба ведения журнала в Skype для бизнеса 2015](centralized-logging-service.md)

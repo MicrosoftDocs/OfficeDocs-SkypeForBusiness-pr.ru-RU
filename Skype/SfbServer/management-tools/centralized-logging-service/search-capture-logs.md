@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Сводка: Узнайте, как поиск и просмотр записей журналов службы централизованного ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: 4016aeaac5b693ceef620dad66031254f208bfbf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9429ef0f2c14552c615e4d7f81c497ea9bb546f3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969020"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372221"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Поиск записей в журналах, созданных службой централизованного ведения журналов в Skype для бизнеса Server 2015
  
@@ -56,9 +56,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Убедитесь в том, что в глобальной области среды выполняется сценарий AlwaysOn, после чего введите в командной строке следующее:
     
-  ```
-  Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 > [!NOTE]
 > По умолчанию Search-CsClsLogging отправляет результаты поиска на консоль. Если вы хотите сохранить результаты поиска в файл, используйте - OutputFilePath _ \<строку полный путь\>_. Чтобы определить параметр - OutputFilePath, укажите путь и имя файла как часть параметра в строковом формате, заключенной в кавычки (например, C:\LogFiles\SearchOutput.txt). В этом примере необходимо убедиться в том, что каталог C:\LogFiles существует, и у вас есть разрешения для чтения и записи файлов в этот каталог (разрешение NTFS Modify). Выполняется добавление выходных данных, но не их перезапись. Чтобы создать отдельные файлы, определите уникально идентифицируемое имя файлы для каждой операции поиска. 
@@ -73,9 +73,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. Чтобы ограничить поиск для конкретного пула или компьютера, используйте параметр - компьютеров с компьютера определяется полное имя компьютера, заключенной в кавычки и разделенных точкой с запятой, как показано ниже:
     
-  ```
-  Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 Например:
     
@@ -85,25 +85,25 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Чтобы выполнить поиск по нескольким компьютерам, введите несколько имен компьютеров в кавычках с разделением запятыми. Например:
     
-  ```
-  Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
+   ```
 
 3. Если вам нужно найти весь пул, а не отдельный компьютер, измените параметр - компьютеров для - пулов, remove имя компьютера и заменить ее с помощью пула или пулов в кавычки, разделив их запятыми.
     
     Например:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. При использовании команд поиска, пулов можно указать любые в среде, например пулов переднего плана, пограничные пулы, пулы серверов сохраняемого чата или любые другие, определенные как пул в вашем развертывании.
     
     Например:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>Выполнение поиска с использованием параметров времени
 
@@ -113,9 +113,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
     К примеру с помощью - StartTime и - EndTime определение диапазон даты и времени, можно определить поиска между 8 AM и 9: 00 на 11/20/2012 на пул. Также можно задать путь для записи результатов в файл с именем :\logfile.txt:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 > [!NOTE]
 > Заданная строка времени и даты может быть указана в формате "дата-время" или "время-дата". «Команда будет анализа строки и используйте соответствующие значения для даты и времени и параметры языка и региональных параметров на компьютере, на котором выполняется командлет. 
@@ -142,9 +142,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Чтобы выполнить команду сбора трассировок для заданных компонентов, введите следующий текст:
     
-  ```
-  Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
-  ```
+   ```
+   Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
+   ```
 
 Например:
     
@@ -156,21 +156,21 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 3. Чтобы ограничить поиск теми же компонентами, просто пул переднего плана с именем pool01.contoso.net, введите:
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. По умолчанию для команд, содержащих несколько параметров, используется следующая логика поиска: логический оператор OR с каждым из определенных параметров. Можно изменить это поведение, значение параметра **- MatchAll** . Для этого введите следующий текст:
     
-  ```
-  Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 5. Если для сценариев задано постоянное выполнение (например, AlwaysOn), или определены сценарии длительного выполнения, журналы могут быть перемещены с локального компьютера в сетевую общую папку. Общая папка определяется параметром CacheFileNetworkFolder с использованием командлета New-CsClsConfiguration для создания новой или изменения текущей конфигурации с помощью Set-CsClsConfiguration. Если включать общую папку в коллекцию журналов для поиска не требуется, используйте параметр SkipNetworkLogs, как показано далее:
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>Чтение записей журналов службы централизованного ведения журналов
 

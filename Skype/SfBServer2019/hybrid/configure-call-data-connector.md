@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Инструкции по настройке вызова подключения к данным, что позволяет телеметрии из Скайп for Business локально, чтобы просмотреть с помощью Скайп для бизнеса в Интернет средства.
-ms.openlocfilehash: 38e74e76e09d03036419f16807841a67fdf3433a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7c64ff1cfb7c300c575fb1b4512c590d1ddb867d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030576"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373301"
 ---
 # <a name="configure-call-data-connector"></a>Настройка подключения к данным звонка
 
@@ -99,7 +99,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ```
 
 В дополнение к глобальные параметры параметры конфигурации вызова подключения к данным может быть назначен на уровне сайта. Это обеспечивает гибкость дополнительное управление, когда речь идет о мониторинга. К примеру администратор может включить переадресацию звонков подключения к данным для сайта Redmond, но отключить переадресацию звонков подключения к данным для сайта Дублин, как показано в следующем примере:
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
 ```
@@ -111,6 +111,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 Параметры, настроенные в области узла, имеют более высокий приоритет, чем параметры, настроенные в глобальной области. Предположим, например, переадресации звонков подключения к данным включено в глобальной области, но этот параметр отключен на уровне сайта (для сайта Redmond). Это означает, что вызов регистрации и сведения о качестве взаимодействия не будет необходимо перенаправлять пользователей на сайте Redmond. Тем не менее пользователи в другие веб-сайты (то есть пользователи, управляемые в глобальных параметрах вместо параметры сайта Redmond) будут иметь их регистрации вызовов и пересылку сведений о качестве взаимодействия.
 
 В следующей таблице показаны значения для наиболее часто используемые параметры, используемые вызова подключения к данным:  
+
 |Свойство|Описание|Значение по умолчанию|
 |:-----|:-----|:-----|
 |EnableCallDataConnector  <br/> |Указывает, включена ли вызов подключения к данным. Если значение True, мониторинг записей будет перенаправляться online мониторинга.  <br/> |$False  <br/> |
@@ -121,7 +122,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 Отключение вызова подключения к данным разорвать связь хранилищу данных наблюдения из пула переднего плана, а также его удаления или повлиять на во внутренней базе данных мониторинга. При отключении вызова подключения к данным, остановите Скайп для Business Server из передача данных вызовов в облаке. 
 
 Отключение вызова подключения к данным с помощью командлета Set-CsCloudCallDataConnectorConfiguration в Скайп оболочки управления Business Server. К примеру следующая команда выключает вызова подключения к данным на глобальном уровне путем установки свойства EnableCallDataConnector значение $False.
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
@@ -140,7 +141,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ## <a name="for-more-information"></a>Дополнительные сведения
 
 Дополнительные сведения о командлеты можно использовать команду Get-Help из Скайп для консоли Business Server. Например:
-  
+
 Get-Help Get-CsCloudCallDataConnector | Дополнительные
 
 Get-Help Set-CsCloudCallDataConnector | Дополнительные
