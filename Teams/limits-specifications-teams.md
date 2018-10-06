@@ -3,7 +3,7 @@ title: Ограничения и характеристики для групп 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
+ms.date: 10/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2288ea2c2359098bc66e317ff57ef16c7900e98
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: cd62d8ea24de4ce790609b710b78c7d6977821d7
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347205"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436698"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и характеристики для групп Майкрософт
 =============================================
@@ -45,7 +45,7 @@ ms.locfileid: "25347205"
 |Функция     | Максимальное ограничение |
 |------------|---------------|
 |Количество пользователей в ходе собрания  | 250    |
-|Количество пользователей в частной беседы  | 20    |
+|Количество пользователей в частной беседы  | 50    |
 
 <a name="storage"></a>Хранилище
 -------
