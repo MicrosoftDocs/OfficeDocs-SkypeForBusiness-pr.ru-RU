@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Сводка: Сведения о окружающей среды требования для пограничного сервера в Скайп для Business Server.'
-ms.openlocfilehash: 30bab83832d92fa77742bdaba39757f25e496c36
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2fbe4f617a9a3d7fa0adebb65141596bd0c94fbe
+ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373438"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454013"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Пограничный окружающей среды требования к серверам в Скайп для Business Server
  
@@ -127,7 +127,7 @@ ms.locfileid: "25373438"
     - Lync Server 2010
     - Lync Server 2013
     - Microsoft Office O365
-- Скайп для бизнеса сервера 2019:
+- Скайп Business Server 2019:
     - Lync Server 2013
     - Skype для бизнеса Server 2015
     - Microsoft Office 365.
