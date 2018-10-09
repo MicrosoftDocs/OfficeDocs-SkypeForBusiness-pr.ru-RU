@@ -16,7 +16,7 @@
 ## [Ограничения и спецификации для групп](limits-specifications-teams.md)
 ## [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
 ## [Получение средств для развертывания Teams](rollout-tools.md)
-## [Планирование управления жизненным циклом в группах](plan-teams-lifecycle.md)
+## [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
 ## [Планирование управления в группах](plan-teams-governance.md)
 ## [Планирование для государственных учреждений 365 Microsoft - GCC развертываниях](plan-for-government-gcc.md)
 ## [Создание стратегии управления изменений](change-management-strategy.md)
@@ -37,6 +37,7 @@
 ### [Развертывание групп для предоставления сервера-концентратора](teams-surface-hub.md)
 ## [Запуск команды в виртуальной среде](virtual-environment-teams.md)
 ## [Позволяют группам в организации](Office-365-set-up.md)
+## [Использование групп Майкрософт областью действия поиск в каталоге](teams-scoped-directory-search.md)
 ## [Управление функциями группами в организации](enable-features-office-365.md)
 ### [Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business](manage-teams-skypeforbusiness-admin-center.md)
 ### [Управление группами в группами Майкрософт & Скайп по центру администрирования Business](manage-teams-in-modern-portal.md)
@@ -221,6 +222,7 @@
 ### [Использование П-бота для помощи пользователям с Teams](t-bot.md)
 ### [Использование отчетов о действиях для групп](teams-activity-reports.md)
 ### [Использовать встроенный перевод сообщений в группах](inline-message-translation-teams.md)
+
 ## Облачная система голосовой связи
 ### [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Аргентина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
