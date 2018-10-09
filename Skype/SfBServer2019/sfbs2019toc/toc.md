@@ -9,6 +9,7 @@
 
 ## Гибридные решения
 ### [Планирование гибридного подключения](../hybrid/plan-hybrid-connectivity.md)
+### [Планирование Скайп для переноса Business Server и Exchange Server](../hybrid/plan-um-migration.md)
 ### [Настройка гибридного подключения](../hybrid/configure-hybrid-connectivity.md)
 #### [Настройка Скайп для гибридных бизнеса](../hybrid/configure-federation-with-skype-for-business-online.md)
 #### [Настройка федерации для поставщика аудиоконференций](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
@@ -19,7 +20,6 @@
 ### Облако голосовой почты
 #### [Планирование голосовой почты в облаке](../hybrid/plan-cloud-voicemail.md)
 #### [Настройка голосовой почты в облаке](../hybrid/configure-cloud-voicemail.md)
-#### [Планирование Скайп для переноса Business Server и Exchange Server](../hybrid/plan-um-migration.md)
 ### Подключения к данным звонка
 #### [Планирование подключения к данным звонка](../hybrid/plan-call-data-connector.md)
 #### [Настройка подключения к данным звонка](../hybrid/configure-call-data-connector.md)
