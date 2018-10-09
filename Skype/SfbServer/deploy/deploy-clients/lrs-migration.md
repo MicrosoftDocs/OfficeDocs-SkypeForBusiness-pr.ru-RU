@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: В данном разделе приведены в этой статье описывается перенос системы комнаты Lync устройств для использования версии 2 Скайп комнаты системного программного обеспечения.
-ms.openlocfilehash: d97083b40c3a2baf926ecd61a5c9792ded6eddd5
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: b6c11e101ab3984f934dab1a9e06d80df3ce5e4f
+ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450520"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450650"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Перенос устройств системы Lync комнаты (LRS) в системе комнаты Скайп версии 2 
 [Окончание поддержки на 9 октября 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)достигнет устройств системы Lync комнаты (LRS) с помощью программ Скайп комнаты системы версии 1 (SRS v1). Это означает, что программное обеспечение v1 Скайп комнаты систем не будет любой обновлений продукта или исправления после указанной даты. Пользователям с Lync комнаты системных устройств с использованием Скайп комнаты системное программное обеспечение v1 рекомендуется обновить свои устройства системы комнаты Скайп версии 2 (SRS v2).
@@ -26,7 +26,7 @@ ms.locfileid: "25450520"
 
 ## <a name="which-devices-are-affected"></a>Какие устройства будут затронуты?
 Ниже приведен список устройств, которые затрагиваются это изменение:
-- [Смарт-систем комнаты](https://smartkapp.com/products/smart-room-systems)
+- [Смарт-систем комнаты](https://support.smarttech.com/en/hardware/room-systems-skype)
 - [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
 - [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 - Crestron RL
