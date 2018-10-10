@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b62b3e27cf0aa10ea6719cb1f27980ee83f4421
-ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
+ms.openlocfilehash: 3e9cddc12a5ef4de6dfb42a714b83e29b6fb4f5f
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25455972"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456893"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Использование групп Майкрософт областью действия поиск в каталоге
 
@@ -28,7 +28,7 @@ ms.locfileid: "25455972"
 
 Группами Майкрософт позволяет организациям предоставлять своим пользователям настраиваемых представлений каталога. Группами Майкрософт использует [политики адресных книг Exchange](https://docs.microsoft.com/en-us/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) для поддержки этих настраиваемых представлений. После включения политики будут область результатов, возвращаемых выполняет поиск других пользователей (например, для запуска в чате или для добавления членов в группы), соответствующую настроенные политики. Пользователи не смогут найти или обнаружение и присоединение к новых рабочих групп за пределами этих политик. 
 
-## <a name="when-should-you-use-scroped-directory-searches"></a>Когда следует использовать поиска в каталоге scroped?
+## <a name="when-should-you-use-scoped-directory-searches"></a>Когда следует использовать поиска в каталоге с областью?
 
 Сценарии, в которых были поиска в каталоге с областью похожи на сценарии политики адресной книги. Например можно использовать поиск в каталоге с областью в следующих ситуациях:
 
