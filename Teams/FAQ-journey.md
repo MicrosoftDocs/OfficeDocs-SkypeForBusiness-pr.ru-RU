@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: bda29fd1b193253deb573d554f7f354258dabc7a
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358903"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495539"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 
@@ -55,7 +55,9 @@ ms.locfileid: "25358903"
 
 ### <a name="will-you-continue-to-invest-in-improving-skype-for-business-in-office-365"></a>Продолжите ли вы улучшать Skype для бизнеса в Office 365?
 
-Наша концепция по объединению интеллектуальных коммуникаций и совместной работы нацелена на Teams. Планируется поддерживать Скайп для бизнес-службы и клиента в Office 365. Сейчас у нас нет планов по исключению Skype для бизнеса из подписок Office 365. Мы планируем продолжить поддержку клиентов Skype для бизнеса, предоставляющего доступ к локальному серверу и веб-службам. В настоящее время не нет даты окончания поддержки.
+Наша концепция по объединению интеллектуальных коммуникаций и совместной работы нацелена на Teams. Планируется поддерживать Скайп для бизнес-службы и клиента в Office 365. Мы планируем продолжить поддержку клиентов Skype для бизнеса, предоставляющего доступ к локальному серверу и веб-службам. В настоящее время не нет даты окончания поддержки.
+
+1 октября 2018, запуск новых клиентов Office 365 на 500 рабочих мест или меньше будет onboarded группам и не смогут получить доступ к Скайп для бизнеса в Интернет. Клиенты, которые уже используют Скайп для бизнеса в Интернет сможете продолжить это Да (включая подготовки новых пользователей) до их завершения их перехода к группам. Чтобы получить дополнительные сведения, обратитесь к разделу [Группами Майкрософт теперь основного клиента для собраний и вызов в Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling). 
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deployingor-planning-to-deployskype-for-business-in-office-365"></a>Вы что делать рекомендуется для клиентов, которые в настоящее время в процессе развертывания — или планируете развернуть — Скайп для бизнеса в Office 365?
 
