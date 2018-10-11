@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: В этой статье приведены требования для поддержки систем комнаты Скайп версии 2.
-ms.openlocfilehash: 857b48d0dc7a14243a1bc246cff9c7b06e1e0da6
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429461"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495615"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
 
@@ -42,10 +42,8 @@ ms.locfileid: "25429461"
 |Surface Pro 4       |Основные i5  |4 ГБ  |128 ГБ  |
 |Surface Pro 4       |Основные i5  |8 ГБ  |256 ГБ  |    
 |Surface Pro (2017)  |Основные i5  |4 ГБ  |128 ГБ  |
+|Surface Pro (2017)  |Основные i5  |8 ГБ  |128 ГБ  |
 |Surface Pro (2017)  |Основные i5  |8 ГБ  |256 ГБ  |
-|Surface Pro (2017)  |Core i7  |8 ГБ  |128 ГБ  |
-|Surface Pro (2017)  |Core i7  |16 ГБ |512 ГБ  |
-|Surface Pro (2017)  |Core i7  |16 ГБ |1 ТБ    |
 
 > [!NOTE]
 > M3 ядрами процессора, не поддерживаются.
