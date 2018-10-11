@@ -5,8 +5,9 @@
 ### [Примечания к выпуску](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Подготовка среды](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Требования](../plan-your-deployment/clients-and-devices/requirements.md)
-### [Online лицензирования](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+### [Online лицензирования](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [Планирование управления с OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
+
 ## Развертывание: 
 ### [Обзор развертывания](../deploy/deploy-clients/room-systems-v2.md)
 ### [Настройка учетных записей](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
@@ -17,6 +18,7 @@
 ### [Настройка консоли](../deploy/deploy-clients/console.md)
 ### [С помощью System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [Управление с помощью OMS](../deploy/deploy-clients/with-oms.md)
+
 ## Управление
 ### [Общие сведения об управлении](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [Обслуживание и эксплуатация](../manage/skype-room-systems-v2/room-systems-v2-operations.md)
@@ -24,7 +26,7 @@
 ### [Устройства с OMS](../manage/skype-room-systems-v2/oms.md)
 ### [Настройка с помощью XML-файла](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [С помощью средства восстановления](../manage/skype-room-systems-v2/recovery-tool.md)
-# Комнаты Скайп систем (v1)
+# Система Lync комнаты (SRS v1)
 ## Планирование
 ### [Развертывание системы комнат Skype в Skype для бизнеса Server](../deploy/deploy-clients/deploy-skype-room-system.md)
 ## Развертывание: 
@@ -43,3 +45,4 @@
 ### [Сценарии установки системы комнаты Скайп комнаты](../deploy/deploy-clients/room-setup-scripts.md)
 ## Управление
 ### [Управление учетными записями системы комнат Skype](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
+## [Перенос](../deploy/deploy-clients/lrs-migration.md)
