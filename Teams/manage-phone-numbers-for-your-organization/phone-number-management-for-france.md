@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими во Франции.
-ms.openlocfilehash: f982a239d501f5814c86db83801c400fcb1870d4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 18c1b428a16b478ca0b6efd9319028dad5777cad
+ms.sourcegitcommit: 9dd5d8fe6888f0c7d2df1e40fdd8b4c80512f8f9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016447"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25498174"
 ---
 # <a name="phone-number-management-for-france"></a>Управление номерами телефонов во Франции
 
@@ -40,7 +40,7 @@ ms.locfileid: "25016447"
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
 |Получение нового номера телефонов пользователей, не указанные в Скайп по центру администрирования бизнеса.   <br/> | Скачайте форму <br/> [Запрос на получение новых номеров телефонов для Франции, географические номера телефонов, версия 3.0 на французском (Франция)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr-fr).pdf?raw=true) <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
-|Получение нового номера телефонов службы, не указанные в Скайп по центру администрирования бизнеса. <br/> |Скачайте форму </br> [Новый запрос номер телефона для Франции (номера службы) (v.1.2)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(service-numbers)-(v.1.2)-(fr-fr).pdf?raw=true)<br/> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).
+|Получение нового номера телефонов службы, не указанные в Скайп по центру администрирования бизнеса. <br/> |Скачайте форму </br> [Новый запрос номер телефона для Франции (номера службы) (v.1.2)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/New-phone-number-request-for-france-(service-numbers)-(v.1.2)-(fr-fr).pdf?raw=true)<br/> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).
 |Необходимо получить номера телефонов, переданные нам.  <br/> |Скачайте одну из следующих форм:. <br/> [Доверенность для Франции, бесплатные номера телефонов, версия 2.0 на французском (Франция)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/> [Доверенность для Франции, географические номера, версия 2.0 на французском (Франция)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/>  <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
 |Необходимо опубликовать номера телефонов или отменить их публикацию в национальном телефонном справочнике.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
 |Необходимо заменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
