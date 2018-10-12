@@ -129,7 +129,7 @@
 ### [Известные проблемы планов звонков](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Изменение адреса для экстренного реагирования для пользователя](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Изменение местоположения для экстренного реагирования для пользователя](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
-### [Создание абонентских групп и управление ими](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
+### [Создание абонентских групп и управление ими](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Типы номеров телефонов, используемые в планах звонков](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Получение номеров телефонов для пользователей](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [Получение планов звонков в Office 365](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

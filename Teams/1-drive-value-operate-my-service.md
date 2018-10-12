@@ -14,12 +14,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b87b4b4ff06e4cbdb4ed0bec70c381912537142
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d5f0c1f83eca9bd7f48920eb603aaeabb8e1429e
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372364"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502269"
 ---
 # <a name="operate-my-service"></a>Мои службы
 
@@ -497,7 +497,7 @@ NET просто продавать счета (ТРУБЫ) — это пока�
 
 [Добавление, изменение и удаление местоположения организации для экстренного реагирования](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
-[Создание абонентских групп и управление ими](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
+[Создание абонентских групп и управление ими](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans)
 
 #### <a name="common-tasks-for-audio-conferencing"></a>Общие задачи для аудиоконференции
 

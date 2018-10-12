@@ -460,6 +460,7 @@
 #### [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [Что такое проверка адреса?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Что такое абонентские группы?](what-are-dial-plans.md)
+#### [Создание абонентских групп и управление ими](create-and-manage-dial-plans.md)
 ### Телефонная система
 #### [Что такое телефонная система в Office 365?](what-is-phone-system-in-office-365.md)
 #### [Настройка телефонной системы в вашей организации](setting-up-your-phone-system.md)
