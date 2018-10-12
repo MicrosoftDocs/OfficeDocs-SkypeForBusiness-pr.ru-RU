@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365.
-ms.openlocfilehash: 3114b3f663cc4a439ace8d5f0338b182a8b38a3b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6c59ff1aa7f32998efb5f7693d4e46b417b3fd84
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374954"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501496"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Развертывание Систем комнат Skype версии 2 в среде Office 365 
 
@@ -37,7 +37,7 @@ ms.locfileid: "25374954"
 
 - Клиент пользователи должны иметь почтовые ящики Exchange.
 
-- Вашей систем комнаты Скайп версии 2 для учетной записи требуются в минимальный размер Скайп для бизнеса Online (план 2) лицензии, но не требует лицензии Exchange Online.
+- Вашей систем комнаты Скайп версии 2 для учетной записи требуются в минимальный размер Скайп для бизнеса Online (план 2) лицензии, но не требует лицензии Exchange Online. Дополнительные сведения см [Лицензирование систем комнаты Скайп версии 2](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .
 
 Дополнительные сведения о Скайп для бизнеса Online планы см [Скайп для описания службы Online бизнеса](https://technet.microsoft.com/library/jj822172.aspx).
 
