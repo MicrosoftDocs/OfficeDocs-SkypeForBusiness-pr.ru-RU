@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8230cb0cd03e1ba0b11c43c16d8817fdb80c31ec
-ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.openlocfilehash: 7d197d431bb08027da27dd7ae61e421c9519aad1
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25352284"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502200"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Установка Microsoft Teams с помощью MSI
 =================================
@@ -65,5 +65,7 @@ MSI группы будут помещены установщика в Program F
 
 Если вы хотите отключить запуск, введите следующую команду:
 
-`msiexec /i Teams_windows.exe OPTIONS="noAutoStart=true"`
+```
+msiexec /i Teams_windows.exe OPTIONS="noAutoStart=true"
+```
 

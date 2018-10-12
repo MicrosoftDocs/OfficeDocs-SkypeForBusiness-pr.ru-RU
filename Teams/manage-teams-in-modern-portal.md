@@ -15,22 +15,24 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1dbfddf2f9cfba12943b8b2e18326de1877e1de3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b8d517ce7f2fb614a22c45fcf63d59a7d46b606f
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018825"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502336"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Управление группами в группами Майкрософт & Скайп по центру администрирования Business
 ==========================================
+
+[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>Обзор
 
 Как ИТ-администратор может потребоваться просмотр или обновление с группами, которые были настроены для совместной работы, или вашей организации может потребоваться выполнить исправлению действий, таких как назначение владельцев для ownerless групп. Для управления группами, используемые в вашей организации и модуль Microsoft команды PowerShell, а также группами Майкрософт и Скайп по центру администрирования бизнес. Для полного администрирования возможностей с помощью эти два набора инструментов следует убедиться в том, что назначен один из следующих ролей:
 
 - Глобальный администратор
-- Администратор службы групп
+- Администратор служб Teams
 
 Дополнительные сведения о роли администратора в группах Microsoft [здесь](using-admin-roles.md), и можно получить дополнительные сведения об использовании командлеты PowerShell для управления группами в [Справочник командлетов группами Майкрософт](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps).  
 
