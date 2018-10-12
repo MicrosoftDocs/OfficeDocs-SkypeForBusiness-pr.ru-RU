@@ -12,38 +12,38 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365.
-ms.openlocfilehash: 3114b3f663cc4a439ace8d5f0338b182a8b38a3b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6c59ff1aa7f32998efb5f7693d4e46b417b3fd84
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374954"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501496"
 ---
-# <a name="deploy-skype-room-systems-v2-with-office-365"></a><span data-ttu-id="c9379-103">Развертывание Систем комнат Skype версии 2 в среде Office 365 </span><span class="sxs-lookup"><span data-stu-id="c9379-103">Deploy Skype Room Systems v2 with Office 365</span></span>
+# <a name="deploy-skype-room-systems-v2-with-office-365"></a><span data-ttu-id="c5718-103">Развертывание Систем комнат Skype версии 2 в среде Office 365 </span><span class="sxs-lookup"><span data-stu-id="c5718-103">Deploy Skype Room Systems v2 with Office 365</span></span>
 
-<span data-ttu-id="c9379-104">В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365, где оба online находятся в Скайп для бизнеса и Exchange.</span><span class="sxs-lookup"><span data-stu-id="c9379-104">Read this topic for information on how to deploy Skype Room Systems v2 with Office 365, where Skype for Business and Exchange are both online.</span></span> 
+<span data-ttu-id="c5718-104">В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365, где оба online находятся в Скайп для бизнеса и Exchange.</span><span class="sxs-lookup"><span data-stu-id="c5718-104">Read this topic for information on how to deploy Skype Room Systems v2 with Office 365, where Skype for Business and Exchange are both online.</span></span> 
 
-<span data-ttu-id="c9379-105">Настройка учетных записей пользователей проще всего настроить их с помощью удаленной оболочки Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c9379-105">The easiest way to set up user accounts is to configure them using remote Windows PowerShell.</span></span> <span data-ttu-id="c9379-106">Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей, или validate существующие учетные записи ресурсов, что у вас есть помогающих перевод их в совместимые учетных записей пользователей системы комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="c9379-106">Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts.</span></span> <span data-ttu-id="c9379-107">При необходимости можно выполните следующие действия, чтобы настроить учетные записи, используемые устройства версии 2 Скайп комнаты систем.</span><span class="sxs-lookup"><span data-stu-id="c9379-107">If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.</span></span>
+<span data-ttu-id="c5718-105">Настройка учетных записей пользователей проще всего настроить их с помощью удаленной оболочки Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c5718-105">The easiest way to set up user accounts is to configure them using remote Windows PowerShell.</span></span> <span data-ttu-id="c5718-106">Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей, или validate существующие учетные записи ресурсов, что у вас есть помогающих перевод их в совместимые учетных записей пользователей системы комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="c5718-106">Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts.</span></span> <span data-ttu-id="c5718-107">При необходимости можно выполните следующие действия, чтобы настроить учетные записи, используемые устройства версии 2 Скайп комнаты систем.</span><span class="sxs-lookup"><span data-stu-id="c5718-107">If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.</span></span>
 
-## <a name="deploy-skype-room-systems-v2-with-office-365"></a><span data-ttu-id="c9379-108">Развертывание Систем комнат Skype версии 2 в среде Office 365 </span><span class="sxs-lookup"><span data-stu-id="c9379-108">Deploy Skype Room Systems v2 with Office 365</span></span>
+## <a name="deploy-skype-room-systems-v2-with-office-365"></a><span data-ttu-id="c5718-108">Развертывание Систем комнат Skype версии 2 в среде Office 365 </span><span class="sxs-lookup"><span data-stu-id="c5718-108">Deploy Skype Room Systems v2 with Office 365</span></span>
 
-<span data-ttu-id="c9379-109">Перед развертыванием системы комнаты Скайп версии 2 с Office 365, убедитесь, что удовлетворены требования.</span><span class="sxs-lookup"><span data-stu-id="c9379-109">Before you deploy Skype Room Systems v2 with Office 365, be sure you have met the requirements.</span></span> <span data-ttu-id="c9379-110">Для получения дополнительных сведений см [систем комнаты Скайп версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).</span><span class="sxs-lookup"><span data-stu-id="c9379-110">For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
+<span data-ttu-id="c5718-109">Перед развертыванием системы комнаты Скайп версии 2 с Office 365, убедитесь, что удовлетворены требования.</span><span class="sxs-lookup"><span data-stu-id="c5718-109">Before you deploy Skype Room Systems v2 with Office 365, be sure you have met the requirements.</span></span> <span data-ttu-id="c5718-110">Для получения дополнительных сведений см [систем комнаты Скайп версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).</span><span class="sxs-lookup"><span data-stu-id="c5718-110">For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
 
-<span data-ttu-id="c9379-111">Чтобы включить Скайп для бизнеса, необходимо иметь следующее:</span><span class="sxs-lookup"><span data-stu-id="c9379-111">To enable Skype for Business, you must have the following:</span></span>
+<span data-ttu-id="c5718-111">Чтобы включить Скайп для бизнеса, необходимо иметь следующее:</span><span class="sxs-lookup"><span data-stu-id="c5718-111">To enable Skype for Business, you must have the following:</span></span>
 
-- <span data-ttu-id="c9379-112">Скайп для бизнеса в Интернет (план 2 или план на основе предприятия) или более поздней версии в плане Office 365.</span><span class="sxs-lookup"><span data-stu-id="c9379-112">Skype for Business Online (Plan 2, or an Enterprise-based plan) or higher in your Office 365 plan.</span></span> <span data-ttu-id="c9379-113">Планирование необходимо разрешить возможности конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="c9379-113">The plan needs to allow dial-in conferencing capabilities.</span></span>
+- <span data-ttu-id="c5718-112">Скайп для бизнеса в Интернет (план 2 или план на основе предприятия) или более поздней версии в плане Office 365.</span><span class="sxs-lookup"><span data-stu-id="c5718-112">Skype for Business Online (Plan 2, or an Enterprise-based plan) or higher in your Office 365 plan.</span></span> <span data-ttu-id="c5718-113">Планирование необходимо разрешить возможности конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="c5718-113">The plan needs to allow dial-in conferencing capabilities.</span></span>
 
-- <span data-ttu-id="c9379-114">Если вам требуется-связь с возможностями собрания, необходимо будет аудиоконференций и лицензии телефонной системой.</span><span class="sxs-lookup"><span data-stu-id="c9379-114">If you need dial-in capabilities from a meeting, you will need an audio conferencing and Phone System license.</span></span>  <span data-ttu-id="c9379-115">Если вам требуется подключение по телефонной линии возможности из собрания, необходимо будет внутри страны или внутреннее и международное вызов план.</span><span class="sxs-lookup"><span data-stu-id="c9379-115">If you need dial-out capabilities from a meeting, you will need a domestic or domestic and international Calling Plan.</span></span> 
+- <span data-ttu-id="c5718-114">Если вам требуется-связь с возможностями собрания, необходимо будет аудиоконференций и лицензии телефонной системой.</span><span class="sxs-lookup"><span data-stu-id="c5718-114">If you need dial-in capabilities from a meeting, you will need an audio conferencing and Phone System license.</span></span>  <span data-ttu-id="c5718-115">Если вам требуется подключение по телефонной линии возможности из собрания, необходимо будет внутри страны или внутреннее и международное вызов план.</span><span class="sxs-lookup"><span data-stu-id="c5718-115">If you need dial-out capabilities from a meeting, you will need a domestic or domestic and international Calling Plan.</span></span> 
 
-- <span data-ttu-id="c9379-116">Клиент пользователи должны иметь почтовые ящики Exchange.</span><span class="sxs-lookup"><span data-stu-id="c9379-116">Your tenant users must have Exchange mailboxes.</span></span>
+- <span data-ttu-id="c5718-116">Клиент пользователи должны иметь почтовые ящики Exchange.</span><span class="sxs-lookup"><span data-stu-id="c5718-116">Your tenant users must have Exchange mailboxes.</span></span>
 
-- <span data-ttu-id="c9379-117">Вашей систем комнаты Скайп версии 2 для учетной записи требуются в минимальный размер Скайп для бизнеса Online (план 2) лицензии, но не требует лицензии Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="c9379-117">Your Skype Room Systems v2 account does require at a minumum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license.</span></span>
+- <span data-ttu-id="c5718-117">Вашей систем комнаты Скайп версии 2 для учетной записи требуются в минимальный размер Скайп для бизнеса Online (план 2) лицензии, но не требует лицензии Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="c5718-117">Your Skype Room Systems v2 account does require at a minumum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license.</span></span> <span data-ttu-id="c5718-118">Дополнительные сведения см [Лицензирование систем комнаты Скайп версии 2](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .</span><span class="sxs-lookup"><span data-stu-id="c5718-118">See [Skype Room Systems v2 Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) for details.</span></span>
 
-<span data-ttu-id="c9379-118">Дополнительные сведения о Скайп для бизнеса Online планы см [Скайп для описания службы Online бизнеса](https://technet.microsoft.com/library/jj822172.aspx).</span><span class="sxs-lookup"><span data-stu-id="c9379-118">For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).</span></span>
+<span data-ttu-id="c5718-119">Дополнительные сведения о Скайп для бизнеса Online планы см [Скайп для описания службы Online бизнеса](https://technet.microsoft.com/library/jj822172.aspx).</span><span class="sxs-lookup"><span data-stu-id="c5718-119">For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).</span></span>
 
-### <a name="add-a-device-account"></a><span data-ttu-id="c9379-119">Добавление учетной записи устройства</span><span class="sxs-lookup"><span data-stu-id="c9379-119">Add a device account</span></span>
+### <a name="add-a-device-account"></a><span data-ttu-id="c5718-120">Добавление учетной записи устройства</span><span class="sxs-lookup"><span data-stu-id="c5718-120">Add a device account</span></span>
 
-1. <span data-ttu-id="c9379-120">Для запуска удаленного сеанса Windows PowerShell на ПК и подключитесь к Exchange.</span><span class="sxs-lookup"><span data-stu-id="c9379-120">Start a remote Windows PowerShell session on a PC and connect to Exchange.</span></span> <span data-ttu-id="c9379-121">Убедитесь, что у вас есть необходимые разрешения для выполнения соответствующих командлетов.</span><span class="sxs-lookup"><span data-stu-id="c9379-121">Be sure you have the right permissions set to run the associated cmdlets.</span></span> <span data-ttu-id="c9379-122">Ниже приведен ряд примеров командлетов, которые можно использовать и изменять в своей среде.</span><span class="sxs-lookup"><span data-stu-id="c9379-122">The following are some examples of cmdlets that can be used and modified in your environment.</span></span>
+1. <span data-ttu-id="c5718-121">Для запуска удаленного сеанса Windows PowerShell на ПК и подключитесь к Exchange.</span><span class="sxs-lookup"><span data-stu-id="c5718-121">Start a remote Windows PowerShell session on a PC and connect to Exchange.</span></span> <span data-ttu-id="c5718-122">Убедитесь, что у вас есть необходимые разрешения для выполнения соответствующих командлетов.</span><span class="sxs-lookup"><span data-stu-id="c5718-122">Be sure you have the right permissions set to run the associated cmdlets.</span></span> <span data-ttu-id="c5718-123">Ниже приведен ряд примеров командлетов, которые можно использовать и изменять в своей среде.</span><span class="sxs-lookup"><span data-stu-id="c5718-123">The following are some examples of cmdlets that can be used and modified in your environment.</span></span>
 
    ```
    Set-ExecutionPolicy Unrestricted
@@ -54,15 +54,15 @@ ms.locfileid: "25374954"
    Import-PSSession $sess
    ```
 
-2. <span data-ttu-id="c9379-123">После установки сеанса будет либо создать новый почтовый ящик и включение как RoomMailboxAccount или изменение параметров для существующего почтового ящика помещения.</span><span class="sxs-lookup"><span data-stu-id="c9379-123">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="c9379-124">Это позволит учетной записи для проверки подлинности системы комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="c9379-124">This will allow the account to authenticate to Skype Room Systems v2.</span></span>
+2. <span data-ttu-id="c5718-124">После установки сеанса будет либо создать новый почтовый ящик и включение как RoomMailboxAccount или изменение параметров для существующего почтового ящика помещения.</span><span class="sxs-lookup"><span data-stu-id="c5718-124">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="c5718-125">Это позволит учетной записи для проверки подлинности системы комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="c5718-125">This will allow the account to authenticate to Skype Room Systems v2.</span></span>
 
-   <span data-ttu-id="c9379-125">Изменение существующего почтового ящика ресурса:</span><span class="sxs-lookup"><span data-stu-id="c9379-125">If you are changing an existing resource mailbox:</span></span>
+   <span data-ttu-id="c5718-126">Изменение существующего почтового ящика ресурса:</span><span class="sxs-lookup"><span data-stu-id="c5718-126">If you are changing an existing resource mailbox:</span></span>
 
 ```
 Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
 ```
 
-  <span data-ttu-id="c9379-126">Если вы создаете новый почтовый ящик ресурса:</span><span class="sxs-lookup"><span data-stu-id="c9379-126">If you're creating a new resource mailbox:</span></span>
+  <span data-ttu-id="c5718-127">Если вы создаете новый почтовый ящик ресурса:</span><span class="sxs-lookup"><span data-stu-id="c5718-127">If you're creating a new resource mailbox:</span></span>
 
    ```
    New-Mailbox -MicrosoftOnlineServicesID PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 
@@ -70,7 +70,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
  (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. <span data-ttu-id="c9379-p107">Чтобы оптимизировать интерфейс собрания, можно настроить различные свойства Exchange для учетной записи устройства. Описание необходимых настроек приводится в разделе "Свойства Exchange".</span><span class="sxs-lookup"><span data-stu-id="c9379-p107">Various Exchange properties must be set on the device account to improve the meeting experience. You can see which properties need to be set in the Exchange properties section.</span></span>
+3. <span data-ttu-id="c5718-p108">Чтобы оптимизировать интерфейс собрания, можно настроить различные свойства Exchange для учетной записи устройства. Описание необходимых настроек приводится в разделе "Свойства Exchange".</span><span class="sxs-lookup"><span data-stu-id="c5718-p108">Various Exchange properties must be set on the device account to improve the meeting experience. You can see which properties need to be set in the Exchange properties section.</span></span>
 
    ```
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false
@@ -79,31 +79,31 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
 
    ```
 
-4. <span data-ttu-id="c9379-129">Для применения некоторых настроек учетной записи потребуется подключиться к Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="c9379-129">You will need to connect to Azure Active Directory to apply some account settings.</span></span> <span data-ttu-id="c9379-130">Чтобы подключиться к Azure AD, выполните следующий командлет.</span><span class="sxs-lookup"><span data-stu-id="c9379-130">To connect to Azure AD, run the following cmdlet:</span></span>
+4. <span data-ttu-id="c5718-130">Для применения некоторых настроек учетной записи потребуется подключиться к Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="c5718-130">You will need to connect to Azure Active Directory to apply some account settings.</span></span> <span data-ttu-id="c5718-131">Чтобы подключиться к Azure AD, выполните следующий командлет.</span><span class="sxs-lookup"><span data-stu-id="c5718-131">To connect to Azure AD, run the following cmdlet:</span></span>
 
    ```
    Connect-MsolService -Credential $cred
    ```
 
-5. <span data-ttu-id="c9379-131">	Чтобы использовать пароль с неограниченным сроком действия, выполните командлет Set-MsolUser с параметром PasswordNeverExpires.  </span><span class="sxs-lookup"><span data-stu-id="c9379-131">If you do not want the password to expire, run the Set-MsolUser cmdlet with the PasswordNeverExpires option as follows:</span></span> 
+5. <span data-ttu-id="c5718-132">	Чтобы использовать пароль с неограниченным сроком действия, выполните командлет Set-MsolUser с параметром PasswordNeverExpires.  </span><span class="sxs-lookup"><span data-stu-id="c5718-132">If you do not want the password to expire, run the Set-MsolUser cmdlet with the PasswordNeverExpires option as follows:</span></span> 
 
    ```
    Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
    ```
 
-   <span data-ttu-id="c9379-132">Вы также можете задать номер телефона для комнаты следующим образом.</span><span class="sxs-lookup"><span data-stu-id="c9379-132">You can also set a phone number for the room as follows:</span></span>
+   <span data-ttu-id="c5718-133">Вы также можете задать номер телефона для комнаты следующим образом.</span><span class="sxs-lookup"><span data-stu-id="c5718-133">You can also set a phone number for the room as follows:</span></span>
 
    ```
    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
 
-6. <span data-ttu-id="c9379-133">Учетная запись устройства должна быть действительной лицензии Office 365 или Exchange и Скайп для бизнеса не будут работать.</span><span class="sxs-lookup"><span data-stu-id="c9379-133">The device account needs to have a valid Office 365 license, or Exchange and Skype for Business will not work.</span></span> <span data-ttu-id="c9379-134">При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи.</span><span class="sxs-lookup"><span data-stu-id="c9379-134">If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account.</span></span> <span data-ttu-id="c9379-135">Get-MsolAccountSku можно использовать для получения списка доступных номеров SKU для клиента Office 365 следующим образом:</span><span class="sxs-lookup"><span data-stu-id="c9379-135">You can use Get-MsolAccountSku to retrieve a list of available SKUs for your Office 365 tenant as follows:</span></span>
+6. <span data-ttu-id="c5718-134">Учетная запись устройства должна быть действительной лицензии Office 365 или Exchange и Скайп для бизнеса не будут работать.</span><span class="sxs-lookup"><span data-stu-id="c5718-134">The device account needs to have a valid Office 365 license, or Exchange and Skype for Business will not work.</span></span> <span data-ttu-id="c5718-135">При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи.</span><span class="sxs-lookup"><span data-stu-id="c5718-135">If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account.</span></span> <span data-ttu-id="c5718-136">Get-MsolAccountSku можно использовать для получения списка доступных номеров SKU для клиента Office 365 следующим образом:</span><span class="sxs-lookup"><span data-stu-id="c5718-136">You can use Get-MsolAccountSku to retrieve a list of available SKUs for your Office 365 tenant as follows:</span></span>
 
    ```
    Get-MsolAccountSku
    ```
 
-   <span data-ttu-id="c9379-p110">Далее можно добавить лицензию с помощью командлета Set-MsolUserLicense. В этом случае будет отображаться код SKU $strLicense (например, contoso:STANDARDPACK).</span><span class="sxs-lookup"><span data-stu-id="c9379-p110">Next, you can add a license using the Set-MsolUserLicense cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).</span></span>
+   <span data-ttu-id="c5718-p111">Далее можно добавить лицензию с помощью командлета Set-MsolUserLicense. В этом случае будет отображаться код SKU $strLicense (например, contoso:STANDARDPACK).</span><span class="sxs-lookup"><span data-stu-id="c5718-p111">Next, you can add a license using the Set-MsolUserLicense cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).</span></span>
 
    ```
    Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
@@ -111,9 +111,9 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```
 
-7. <span data-ttu-id="c9379-138">Затем необходимо включить запись устройства с Скайп для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="c9379-138">Next, you need to enable the device account with Skype for Business.</span></span> <span data-ttu-id="c9379-139">Убедитесь, что в вашей среде соответствует требованиям, определенным в [системах комнаты Скайп требования к версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).</span><span class="sxs-lookup"><span data-stu-id="c9379-139">Be sure your environment meets the requirements defined in [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
+7. <span data-ttu-id="c5718-139">Затем необходимо включить запись устройства с Скайп для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="c5718-139">Next, you need to enable the device account with Skype for Business.</span></span> <span data-ttu-id="c5718-140">Убедитесь, что в вашей среде соответствует требованиям, определенным в [системах комнаты Скайп требования к версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).</span><span class="sxs-lookup"><span data-stu-id="c5718-140">Be sure your environment meets the requirements defined in [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).</span></span>
 
-   <span data-ttu-id="c9379-140">Для запуска удаленного сеанса Windows PowerShell следующим образом (не забудьте установить Скайп для компонентов Business Online PowerShell):</span><span class="sxs-lookup"><span data-stu-id="c9379-140">Start a remote Windows PowerShell session as follows (be sure to install Skype for Business Online PowerShell components):</span></span>
+   <span data-ttu-id="c5718-141">Для запуска удаленного сеанса Windows PowerShell следующим образом (не забудьте установить Скайп для компонентов Business Online PowerShell):</span><span class="sxs-lookup"><span data-stu-id="c5718-141">Start a remote Windows PowerShell session as follows (be sure to install Skype for Business Online PowerShell components):</span></span>
 
    ```
    Import-Module LyncOnlineConnector  
@@ -121,38 +121,38 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Import-PSSession $cssess -AllowClobber
    ```
 
-   <span data-ttu-id="c9379-141">Затем включите свою учетную запись комнаты систем Скайп версии 2 для Скайп для Business Server, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="c9379-141">Next, enable your Skype Room Systems v2 account for Skype for Business Server by running the following cmdlet:</span></span>
+   <span data-ttu-id="c5718-142">Затем включите свою учетную запись комнаты систем Скайп версии 2 для Скайп для Business Server, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="c5718-142">Next, enable your Skype Room Systems v2 account for Skype for Business Server by running the following cmdlet:</span></span>
 
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   <span data-ttu-id="c9379-142">Получите сведения о RegistrarPool из учетной записи пользователя, программа установки, как показано в следующем примере:</span><span class="sxs-lookup"><span data-stu-id="c9379-142">Obtain the RegistrarPool information from the new user account being setup, as shown in this example:</span></span>
+   <span data-ttu-id="c5718-143">Получите сведения о RegistrarPool из учетной записи пользователя, программа установки, как показано в следующем примере:</span><span class="sxs-lookup"><span data-stu-id="c5718-143">Obtain the RegistrarPool information from the new user account being setup, as shown in this example:</span></span>
 
     ```
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
 
     > [!NOTE]
-    > <span data-ttu-id="c9379-143">Новые учетные записи пользователей не могут быть созданы на тот же самый пул регистратора, как существующие учетные записи пользователей в клиентов.</span><span class="sxs-lookup"><span data-stu-id="c9379-143">New user accounts might not be created on the same registrar pool as existing user accounts in the tenant.</span></span> <span data-ttu-id="c9379-144">Команды выше не позволит ошибок в учетной записи программы установки из-за этой ситуации.</span><span class="sxs-lookup"><span data-stu-id="c9379-144">The command above will prevent errors in account setup due to this situation.</span></span> 
+    > <span data-ttu-id="c5718-144">Новые учетные записи пользователей не могут быть созданы на тот же самый пул регистратора, как существующие учетные записи пользователей в клиентов.</span><span class="sxs-lookup"><span data-stu-id="c5718-144">New user accounts might not be created on the same registrar pool as existing user accounts in the tenant.</span></span> <span data-ttu-id="c5718-145">Команды выше не позволит ошибок в учетной записи программы установки из-за этой ситуации.</span><span class="sxs-lookup"><span data-stu-id="c5718-145">The command above will prevent errors in account setup due to this situation.</span></span> 
 
-<span data-ttu-id="c9379-145">После выполнения предыдущего действия, чтобы включить учетную запись комнаты систем Скайп версии 2 в Скайп для бизнеса в Интернет, им необходимо назначить лицензию на устройство систем комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="c9379-145">After you've completed the preceding steps to enable your Skype Room Systems v2 account in Skype for Business Online, you need to assign a license to Skype Room Systems v2 device.</span></span> <span data-ttu-id="c9379-146">Использование портала администрирования Office 365, назначьте либо Скайп для бизнеса Online (план 2) или Скайп для бизнеса в Интернет (план 3) лицензии на устройство.</span><span class="sxs-lookup"><span data-stu-id="c9379-146">Using the Office 365 administrative portal, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.</span></span>
+<span data-ttu-id="c5718-146">После выполнения предыдущего действия, чтобы включить учетную запись комнаты систем Скайп версии 2 в Скайп для бизнеса в Интернет, им необходимо назначить лицензию на устройство систем комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="c5718-146">After you've completed the preceding steps to enable your Skype Room Systems v2 account in Skype for Business Online, you need to assign a license to Skype Room Systems v2 device.</span></span> <span data-ttu-id="c5718-147">Использование портала администрирования Office 365, назначьте либо Скайп для бизнеса Online (план 2) или Скайп для бизнеса в Интернет (план 3) лицензии на устройство.</span><span class="sxs-lookup"><span data-stu-id="c5718-147">Using the Office 365 administrative portal, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.</span></span>
 
-### <a name="assign-a-license-to-your-account"></a><span data-ttu-id="c9379-147">Назначение лицензии учетной записи</span><span class="sxs-lookup"><span data-stu-id="c9379-147">Assign a license to your account</span></span>
+### <a name="assign-a-license-to-your-account"></a><span data-ttu-id="c5718-148">Назначение лицензии учетной записи</span><span class="sxs-lookup"><span data-stu-id="c5718-148">Assign a license to your account</span></span>
 
-1. <span data-ttu-id="c9379-148">Входа в систему как администратор клиента откройте административного портала Office 365 и щелкните на приложение администрирования.</span><span class="sxs-lookup"><span data-stu-id="c9379-148">Login as a tenant administrator, open the Office 365 Administrative Portal, and click on the Admin app.</span></span>
+1. <span data-ttu-id="c5718-149">Входа в систему как администратор клиента откройте административного портала Office 365 и щелкните на приложение администрирования.</span><span class="sxs-lookup"><span data-stu-id="c5718-149">Login as a tenant administrator, open the Office 365 Administrative Portal, and click on the Admin app.</span></span>
 
-2. <span data-ttu-id="c9379-149">Выберите **Пользователи и группы**, после чего щелкните **Добавление пользователей, сброс паролей и другие действия**.</span><span class="sxs-lookup"><span data-stu-id="c9379-149">Click **Users and Groups** and then click **Add users, reset passwords, and more**.</span></span>
+2. <span data-ttu-id="c5718-150">Выберите **Пользователи и группы**, после чего щелкните **Добавление пользователей, сброс паролей и другие действия**.</span><span class="sxs-lookup"><span data-stu-id="c5718-150">Click **Users and Groups** and then click **Add users, reset passwords, and more**.</span></span>
 
-3. <span data-ttu-id="c9379-150">Выберите учетную запись версии 2 Скайп комнаты систем и щелкните или нажмите значок перо, который означает, что изменение.</span><span class="sxs-lookup"><span data-stu-id="c9379-150">Select the Skype Room Systems v2 account, and then click or tap the pen icon, which means edit.</span></span>
+3. <span data-ttu-id="c5718-151">Выберите учетную запись версии 2 Скайп комнаты систем и щелкните или нажмите значок перо, который означает, что изменение.</span><span class="sxs-lookup"><span data-stu-id="c5718-151">Select the Skype Room Systems v2 account, and then click or tap the pen icon, which means edit.</span></span>
 
-4. <span data-ttu-id="c9379-151">Щелкните **Лицензии**.</span><span class="sxs-lookup"><span data-stu-id="c9379-151">Click on the **Licenses** option.</span></span>
+4. <span data-ttu-id="c5718-152">Щелкните **Лицензии**.</span><span class="sxs-lookup"><span data-stu-id="c5718-152">Click on the **Licenses** option.</span></span>
 
-5. <span data-ttu-id="c9379-152">В разделе **Назначение лицензий** необходимо выбрать Скайп для бизнеса Online (план 2) или Скайп для бизнеса в Интернет (план 3), в зависимости от вашей лицензирования и очевидна с точки зрения применения какого корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="c9379-152">In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice.</span></span> <span data-ttu-id="c9379-153">Вам потребуется использовать планирование 3 лицензии, если вы хотите использовать облачных УАТС на систем комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="c9379-153">You'll have to use a Plan 3 license if you want to use Cloud PBX on Skype Room Systems v2.</span></span> <span data-ttu-id="c9379-154">Облачная УАТС потребуется как минимум для подключения к голосовому каналу.</span><span class="sxs-lookup"><span data-stu-id="c9379-154">Minimally you will need CloudPBX for voice connectivity.</span></span> <span data-ttu-id="c9379-155">Затем настройте гибридную голосовую связь или звонки по ТСОП в соответствии со способом связи с ТСОП.</span><span class="sxs-lookup"><span data-stu-id="c9379-155">Then configure hybrid voice or PSTN calling based on the PSTN connectivity method.</span></span>
+5. <span data-ttu-id="c5718-153">В разделе **Назначение лицензий** необходимо выбрать Скайп для бизнеса Online (план 2) или Скайп для бизнеса в Интернет (план 3), в зависимости от вашей лицензирования и очевидна с точки зрения применения какого корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="c5718-153">In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice.</span></span> <span data-ttu-id="c5718-154">Вам потребуется использовать планирование 3 лицензии, если вы хотите использовать облачных УАТС на систем комнаты Скайп версии 2.</span><span class="sxs-lookup"><span data-stu-id="c5718-154">You'll have to use a Plan 3 license if you want to use Cloud PBX on Skype Room Systems v2.</span></span> <span data-ttu-id="c5718-155">Облачная УАТС потребуется как минимум для подключения к голосовому каналу.</span><span class="sxs-lookup"><span data-stu-id="c5718-155">Minimally you will need CloudPBX for voice connectivity.</span></span> <span data-ttu-id="c5718-156">Затем настройте гибридную голосовую связь или звонки по ТСОП в соответствии со способом связи с ТСОП.</span><span class="sxs-lookup"><span data-stu-id="c5718-156">Then configure hybrid voice or PSTN calling based on the PSTN connectivity method.</span></span>
 
-6. <span data-ttu-id="c9379-156">Чтобы завершить задачу, нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="c9379-156">Click **Save** to complete the task.</span></span>
+6. <span data-ttu-id="c5718-157">Чтобы завершить задачу, нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="c5718-157">Click **Save** to complete the task.</span></span>
 
-## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a><span data-ttu-id="c9379-157">Пример: Комнаты учетной записи программы установки в Exchange Online и Скайп для бизнеса в Интернет</span><span class="sxs-lookup"><span data-stu-id="c9379-157">Sample: Room account setup in Exchange Online and Skype for Business Online</span></span>
+## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a><span data-ttu-id="c5718-158">Пример: Комнаты учетной записи программы установки в Exchange Online и Скайп для бизнеса в Интернет</span><span class="sxs-lookup"><span data-stu-id="c5718-158">Sample: Room account setup in Exchange Online and Skype for Business Online</span></span>
 
 ```
 New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.com
@@ -177,23 +177,23 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 ```
 
 > [!NOTE]
-> <span data-ttu-id="c9379-p115">Будут добавлены CloudPBX и PSTNCallingDomesticAndInternational. Кроме того, вам потребуется назначить номер телефона с помощью интерфейса администрирования.</span><span class="sxs-lookup"><span data-stu-id="c9379-p115">This adds CloudPBX and PSTNCallingDomesticAndInternational. Addtionally, you will need to use the Admin interface to assign a phone number.</span></span> 
+> <span data-ttu-id="c5718-p116">Будут добавлены CloudPBX и PSTNCallingDomesticAndInternational. Кроме того, вам потребуется назначить номер телефона с помощью интерфейса администрирования.</span><span class="sxs-lookup"><span data-stu-id="c5718-p116">This adds CloudPBX and PSTNCallingDomesticAndInternational. Addtionally, you will need to use the Admin interface to assign a phone number.</span></span> 
 
-## <a name="validate"></a><span data-ttu-id="c9379-160">Проверка</span><span class="sxs-lookup"><span data-stu-id="c9379-160">Validate</span></span>
+## <a name="validate"></a><span data-ttu-id="c5718-161">Проверка</span><span class="sxs-lookup"><span data-stu-id="c5718-161">Validate</span></span>
 
-<span data-ttu-id="c9379-161">Для проверки можно использовать любой Скайп для бизнеса клиента для входа в учетную запись, которую вы создали.</span><span class="sxs-lookup"><span data-stu-id="c9379-161">For validation, you should be able to use any Skype for Business client to sign in to the account you created.</span></span>
+<span data-ttu-id="c5718-162">Для проверки можно использовать любой Скайп для бизнеса клиента для входа в учетную запись, которую вы создали.</span><span class="sxs-lookup"><span data-stu-id="c5718-162">For validation, you should be able to use any Skype for Business client to sign in to the account you created.</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="c9379-162">См. также</span><span class="sxs-lookup"><span data-stu-id="c9379-162">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c5718-163">См. также</span><span class="sxs-lookup"><span data-stu-id="c5718-163">See also</span></span>
 
-[<span data-ttu-id="c9379-163">Настройка учетных записей для систем комнаты Скайп версии 2</span><span class="sxs-lookup"><span data-stu-id="c9379-163">Configure accounts for Skype Room Systems v2</span></span>](room-systems-v2-configure-accounts.md)
+[<span data-ttu-id="c5718-164">Настройка учетных записей для систем комнаты Скайп версии 2</span><span class="sxs-lookup"><span data-stu-id="c5718-164">Configure accounts for Skype Room Systems v2</span></span>](room-systems-v2-configure-accounts.md)
 
-[<span data-ttu-id="c9379-164">Планирование для Систем комнат Skype версии 2</span><span class="sxs-lookup"><span data-stu-id="c9379-164">Plan for Skype Room Systems v2</span></span>](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[<span data-ttu-id="c5718-165">Планирование для Систем комнат Skype версии 2</span><span class="sxs-lookup"><span data-stu-id="c5718-165">Plan for Skype Room Systems v2</span></span>](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
-[<span data-ttu-id="c9379-165">Развертывание Систем комнат Skype версии 2</span><span class="sxs-lookup"><span data-stu-id="c9379-165">Deploy Skype Room Systems v2</span></span>](room-systems-v2.md)
+[<span data-ttu-id="c5718-166">Развертывание Систем комнат Skype версии 2</span><span class="sxs-lookup"><span data-stu-id="c5718-166">Deploy Skype Room Systems v2</span></span>](room-systems-v2.md)
 
-[<span data-ttu-id="c9379-166">Настройка консоли для Систем комнат Skype версии 2</span><span class="sxs-lookup"><span data-stu-id="c9379-166">Configure a Skype Room Systems v2 console</span></span>](console.md)
+[<span data-ttu-id="c5718-167">Настройка консоли для Систем комнат Skype версии 2</span><span class="sxs-lookup"><span data-stu-id="c5718-167">Configure a Skype Room Systems v2 console</span></span>](console.md)
 
-[<span data-ttu-id="c9379-167">Управление Системами комнат Skype версии 2</span><span class="sxs-lookup"><span data-stu-id="c9379-167">Manage Skype Room Systems v2</span></span>](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[<span data-ttu-id="c5718-168">Управление Системами комнат Skype версии 2</span><span class="sxs-lookup"><span data-stu-id="c5718-168">Manage Skype Room Systems v2</span></span>](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
-[<span data-ttu-id="c9379-168">Лицензирование v2 систем Скайп комнаты</span><span class="sxs-lookup"><span data-stu-id="c9379-168">Skype Room Systems v2 Licensing</span></span>](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[<span data-ttu-id="c5718-169">Лицензирование v2 систем Скайп комнаты</span><span class="sxs-lookup"><span data-stu-id="c5718-169">Skype Room Systems v2 Licensing</span></span>](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
