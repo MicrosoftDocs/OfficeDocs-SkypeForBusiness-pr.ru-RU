@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Skype для бизнеса
 description: Skype для бизнеса
-ms.openlocfilehash: da72536d6c9f0238b301f0fbf3bbd14abc372c46
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373882"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546668"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -179,8 +179,8 @@ ms.locfileid: "25373882"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Конечные пользователи</h3>
-                                                    <p>Найдите помощь, обучение и техническую поддержку для пользователей Skype для бизнеса на support.office.com.</p>
+                                                    <h3>Пользователи</h3>
+                                                    <p>Справку, обучение и техническую поддержку для пользователей Skype для бизнеса можно найти на сайте <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>
