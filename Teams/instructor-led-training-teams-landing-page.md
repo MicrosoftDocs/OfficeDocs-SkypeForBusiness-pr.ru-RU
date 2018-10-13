@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 4909c14205cd34b664603a33fcc469fc260674b9
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: 8944a17bb083dd5af17b8d217f31567fc27e83fe
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540287"
+ms.locfileid: "25546778"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -81,7 +81,7 @@ ms.locfileid: "25540287"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Управление обновлением из Скайп для бизнеса групп</h3>
-                                                <p>Планирование и реализация успешного обновления из Скайп для бизнеса группам (аудитории: для ИТ-специалистов, управляющие внедрения изменений)</p>
+                                                <p>Планирование и реализация успешного обновления к группам (аудитория: ИТ-специалистов, управляющие внедрения изменений)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -137,7 +137,7 @@ ms.locfileid: "25540287"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Команды в образовательных учреждений - семинары</h3>
+                                                <h3>Команды для образовательных учреждений - семинары</h3>
                                                 <p>Узнайте, как использовать команды в высшее Учебное. (Аудитории: исследование персонала, студентов, а также учебным, преподавателей, ИТ-специалистов)</p>
                                             </div>
                                         </div>
