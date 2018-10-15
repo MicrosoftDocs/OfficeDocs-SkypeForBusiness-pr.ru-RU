@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Познакомьтесь с действиями развертывания для получения микропрограммы, при необходимости обновите ее, назначение лицензий и настройка параметров для телефонов общего пользования.
-ms.openlocfilehash: 3faa66235f3c3364a0da6560a6dc52daa252915b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d741b2ea76b8824ed36252d1d53e3f66e0118401
+ms.sourcegitcommit: cba568455949deab3c47777cb6504b4ed889bdbd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370678"
+ms.lasthandoff: 10/14/2018
+ms.locfileid: "25552441"
 ---
 # <a name="set-up-common-area-phones"></a>Настройка телефонов общего пользования
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -66,11 +66,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 3. В поле **Отображаемое имя**, если оно не заполнилось автоматически, укажите, например, "Главная Приемная".
 4. В поле**Имя пользователя** укажите, например, "MainReception" или "Mainlobby".
 5. For common area phones, you might want to set a password manually or have the same password for all of you common area phones. Also, you might think about unselecting **Make this user change their password when they first sign in**.
-
-    > [!Tip]
-    > WAIT!! Don't click **Add**!! Ugh, if you did click **Add** the do this: Office 365 admin center > **Users** > **Active users** and then find the user. Then on the user's properties page, click **Product licenses** and then click **Edit**. On the **Product licenses** page, turn on **Common Area Phone** and pick either a **Domestic Calling Plan** or a Domestic and **International Calling Plan**.
-
-6. If you are still there, assign the licenses to this user. On the same page, click to expand **Product licenses**. Turn on the following:
+6. Если вы все еще на этой странице, назначьте лицензии этому пользователю. На этой же странице щелкните мышью и разверните **Лицензии продуктов**. Включите следующие опции:
    - Телефон общего пользования
    - Общего Пользования sedGlossaryTerm">Телефон********
 
@@ -91,23 +87,23 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 2. Далее: **Центр администрирования Skype для бизнеса** >  **Голосовая связь** > **Номера телефонов**.
 3. Выберите номер телефона из списка и нажмите **Назначить**.
 4. На странице **Назначить** в поле **Пользователь голосовой связи** введите имя пользователя телефона, а затем выберите пользователя в выпадающем списке **Выбор пользователя голосовой связи**.
-5. While you're there you will need to add an emergency address. Once you search, look under the **Select emergency address** to pick the right one for you.
+5. Пока вы находитесь на этой странице, необходимо добавить адрес для обращения в экстренных случаях. Во время поиска выберите нужный адрес под пунктом **Выбор адреса для обращения в экстренных случаях**.
 6. Нажмите **Сохранить**. Ваш пользователь должен выглядеть следующим образом:
 
     ![cap-user-number.png](../../images/cap-user-number.png)
 
    > [!Note]
-   > Users will only show up if they have a **Phone System** licence applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.
+   > Пользователи будут отображаться, только если на них распространяется лицензия **Телефонная система**. Если вы только что выполнили эти действия, может потребоваться некоторое время, чтобы пользователь отобразился в списке.
 
 Узнайте больше в статье [Получение телефонных номеров для ваших пользователей](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
 
-If you're wondering, you can also take your phone number that you have with another carrier and "*port*" or transfer them over to Office 365. See, [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+При необходимости номера телефонов других операторов можно "*портировать*" или передать в Office 365. Отображается, [передачи телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
 
 ### <a name="step-4---setting-up-your-phone"></a>Шаг 4. Настройка телефона
 
 **Настройка режима в телефоне**
 
-The phone or phones you have must have the **Common Area Phone mode** turned on. You might want to check on that to make sure they do.
+В вашем телефоне необходимо включить **Режим телефона общего пользования**. Убедитесь, есть ли в нем такой режим.
 
 **Ниже приведен пример настройки телефона Polycom VVX**
 
@@ -116,7 +112,7 @@ The phone or phones you have must have the **Common Area Phone mode** turned on.
     2. Затем откройте меню **Параметры** и в пункте **Параметры Skype для бизнеса** выберите **Телефон общего пользования**.
     3. Нажмите **Да** для сохранения параметров.
 
-- Now that CAP mode is enabled, set up the phone using the phone's display. The display should show **CaAP is enabled**. Then do the following:
+- Теперь режим CAP включен, и вы можете настроить телефон, используя его дисплей. Дисплей должен показывать **CAP включен**. Выполните следующие действия:
 
     1. Выберите **Параметры**.
     2. Выберите **Дополнительные**.
@@ -141,7 +137,7 @@ The phone or phones you have must have the **Common Area Phone mode** turned on.
 
 
 > [!NOTE]
-> The CAP provisioning site states it will reset the CAP account's password to a random password. Take note that the account the CAP is referring is the Azure Active Directory (AAD) account. If you created the account in AAD only then the process is straightforward. If you have synced an on premises Active Directory to AAD make sure to take note of the credentials you are using that will be changed by CAP provisioning.
+> Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если вы локально синхронизировали Active Directory с AAD, обратите внимание на учетные данные, которые будут изменены при подготовке CAP.
 
 
 ### <a name="related-topics"></a>Связанные разделы
