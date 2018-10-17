@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b50baa8ddb7e29c4484adea7d9d0f0c6cab957dd
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 81dca894a378c5331c34b5840108e63536c8ac37
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593721"
+ms.locfileid: "25597840"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -128,6 +128,7 @@ ms.locfileid: "25593721"
 
 > [!TIP]
 > Ниже приведен пример документирования планируемых сумм кредитов на связь.
+>
 > |         |         |
 > |---------|---------|
 > |Начальная сумма|1000 долл. США|
@@ -237,6 +238,7 @@ ms.locfileid: "25593721"
 > |Автоматически отправлять электронные письма пользователям в случае изменения параметров набора номера|Отключено|
 
 <br>
+
 > [!TIP]
 > Вы можете документировать параметры назначения конференции bridge списка для пользователей аудиоконференции с помощью в следующем примере.
 >

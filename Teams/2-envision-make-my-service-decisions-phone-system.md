@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593705"
+ms.locfileid: "25597848"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -269,8 +269,10 @@ ms.locfileid: "25593705"
 > |Isabell Potvin |39 quai du Président Roosevelt |План внутренних звонков |Отключено |
 
 <br>
+
 > [!TIP]
 > Вашей кредитов коммуникаций, планирование номеров можно документированы как показано в следующем примере.
+>
 > |         |         |
 > |---------|---------|
 > |Начальная сумма|1000 долл. США|
@@ -380,6 +382,7 @@ ms.locfileid: "25593705"
 > ||**FR-Service**<br>_Нормализация номера службы для Франции_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
+
 > [!TIP]
 > Приведенный ниже пример шаблона можно использовать для документирования назначений абонентской группы в вашем проекте.
 >

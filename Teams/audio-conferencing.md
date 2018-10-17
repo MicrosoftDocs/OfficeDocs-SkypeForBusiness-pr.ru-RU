@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 516437ac9def60b1c06304429ca3bbe9eca63a3f
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: ff0db687ed25f756a3ba3d184b7408c5d2784b46
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593713"
+ms.locfileid: "25597856"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Практическое руководство по развертыванию Аудиоконференций в Microsoft Teams
 ============================================================
@@ -399,6 +399,7 @@ ms.locfileid: "25593713"
 > |Автоматически отправлять электронные письма пользователям в случае изменения параметров набора номера|Отключено|
 
 <br>
+
 > [!TIP]
 > Ниже приведен пример документирования параметров моста, назначаемых для списка пользователей Аудиоконференций.
 >
