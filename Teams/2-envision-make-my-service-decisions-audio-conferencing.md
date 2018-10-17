@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8877819704b438d26f981fb6816c56eb23ef9521
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b50baa8ddb7e29c4484adea7d9d0f0c6cab957dd
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371344"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593721"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -125,10 +125,15 @@ ms.locfileid: "25371344"
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, надстройка Аудиоконференций|
 
 <br>
-&gt; [!TIP]
-&gt;Вашей кредитов коммуникаций, планирование номеров можно документированы как следующее: &gt;|         |         | &gt;|---------|---------|
-&gt;| Начальная сумма | 1000 долларов США | &gt;| Сумма триггер | 400 долларов США | &gt;| Сумма Auto пополнения | TBA |
 
+> [!TIP]
+> Ниже приведен пример документирования планируемых сумм кредитов на связь.
+> |         |         |
+> |---------|---------|
+> |Начальная сумма|1000 долл. США|
+> |Пороговая сумма|400 долл. США|
+> |Сумма для автоматического пополнения счета|Подлежит добавлению|
+> 
 <!--ENDOFSECTION-->
 
 ## <a name="conference-bridge-phone-numbers"></a>Телефонные номера для моста конференций
@@ -232,10 +237,23 @@ ms.locfileid: "25371344"
 > |Автоматически отправлять электронные письма пользователям в случае изменения параметров набора номера|Отключено|
 
 <br>
-&gt; [!TIP]
-&gt;Вы можете документировать параметры назначения конференции bridge списка для пользователей аудиоконференции с помощью в следующем примере.
-&gt;| Пользователь | Office | Бесплатный номер по умолчанию | Значение по умолчанию телефоны | Разрешить бесплатных | Не прошедшим проверку подлинности абонентов пропускать зал ожидания | Конференции обратным звонком | &gt;|---------|---------|---------|---------|---------|---------|---------|
-&gt;| Вэнс Adele | Один Epping дорогу | TBA | TBA | Yes | Включено | Международные и внутренние | &gt;| Алекс Wilber | Один Epping дорогу | TBA | TBA | Не | Отключенный | Не допускается | &gt;| Бен Вайнштайнов | Один Epping дорогу | TBA | TBA | Не | Отключенный | Не допускается | &gt;| Отклонять Борис | Один Marina Boulevard | TBA | TBA | Yes | Отключенный | Внутренние | &gt;| Дина Бергер | Один Marina Boulevard | TBA | TBA | Yes | Включено | Внутренние | &gt;| Графического ли интерфейс | Один Marina Boulevard | TBA | TBA | Yes | Включено | Внутренние | &gt;| Braun пользователя Ольга | улицы Bridge London 32 | 0001 7946 20 + 44 | TBA | Yes | Включено | Не допускается | &gt;| Lidia Holloway | улицы Bridge London 32 | 0001 7946 20 + 44 | TBA | Yes | Отключенный | Не допускается | &gt;| Lahr Луис | улицы Bridge London 32 | 0001 7946 20 + 44 | TBA | Yes | Отключенный | Не допускается | &gt;| Марсель Beauchamp | Рузвельта Président du 39 quai | TBA | TBA | Не | Отключенный | Внутренние | &gt;| Rachelle Cormier | Рузвельта Président du 39 quai | TBA | TBA | Yes | Включено | Международные и внутренние | &gt;| Isabell Potvin | Рузвельта Président du 39 quai | TBA | TBA | Не | Отключенный | Внутренние |
+> [!TIP]
+> Вы можете документировать параметры назначения конференции bridge списка для пользователей аудиоконференции с помощью в следующем примере.
+>
+> |Пользователь  |Офис  |Платный номер по умолчанию  |Бесплатный номер по умолчанию  |Разрешить бесплатные номера  |Непроверенные вызывающие абоненты минуют зал ожидания  |Обратный звонок из конференции  |
+> |---------|---------|---------|---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Подлежит добавлению|Подлежит добавлению|Да|Включено|Международный и внутренний|
+> |Alex Wilber|One Epping Road|Подлежит добавлению|Подлежит добавлению|Нет|Отключено|Запрещено|
+> |Ben Walters|One Epping Road|Подлежит добавлению|Подлежит добавлению|Нет|Отключено|Запрещено|
+> |Christie Cline|One Marina Boulevard|Подлежит добавлению|Подлежит добавлению|Да|Отключено|Внутренний|
+> |Debra Berger|One Marina Boulevard|Подлежит добавлению|Подлежит добавлению|Да|Включено|Внутренний|
+> |Lee Gu|One Marina Boulevard|Подлежит добавлению|Подлежит добавлению|Да|Включено|Внутренний|
+> |Emily Braun|32 London Bridge Street|Определите, нужд|Подлежит добавлению|Да|Включено|Запрещено|
+> |Lidia Holloway|32 London Bridge Street|Определите, нужд|Подлежит добавлению|Да|Отключено|Запрещено|
+> |Lahr Луис|32 London Bridge Street|Определите, нужд|Подлежит добавлению|Да|Отключено|Запрещено|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Подлежит добавлению|Подлежит добавлению|Нет|Отключено|Внутренний|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Подлежит добавлению|Подлежит добавлению|Да|Включено|Международный и внутренний|
+> |Isabell Potvin|39 quai du Président Roosevelt|Подлежит добавлению|Подлежит добавлению|Нет|Отключено|Внутренний|
 
 <!--ENDOFSECTION-->
 
@@ -340,9 +358,23 @@ ms.locfileid: "25371344"
 > ||**FR-Service**<br>_Нормализация номера службы для Франции_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;Можно выполнять нового шаблона документа телефонным назначения плана для поддержки проекта: &gt;| Пользователь | Office | Наберите типа плана | Имя телефонной группы | &gt;|---------|---------|---------|---------|
-&gt;| Вэнс Adele | Один Epping дорогу | Абонентскую группу клиента | AU-NSW-NorthRyde-OER | &gt;| Алекс Wilber | Один Epping дорогу | Абонентскую группу клиента | AU-NSW-NorthRyde-OER | &gt;| Бен Вайнштайнов | Один Epping дорогу | Абонентскую группу клиента | AU-NSW-NorthRyde-OER | &gt;| Отклонять Борис | Один Marina Boulevard | Абонентскую группу клиента | SG Сингапур OMB | &gt;| Дина Бергер | Один Marina Boulevard | Абонентскую группу клиента | SG Сингапур OMB | &gt;| Графического ли интерфейс | Один Marina Boulevard | Абонентскую группу клиента | SG Сингапур OMB | &gt;| Braun пользователя Ольга | улицы Bridge London 32 | Служба единой системы обмена сообщениями | Н/Д | &gt;| Lidia Holloway | улицы Bridge London 32 | Служба единой системы обмена сообщениями | Н/Д | &gt;| Lahr Луис | улицы Bridge London 32 | Служба единой системы обмена сообщениями | Н/Д | &gt;| Марсель Beauchamp | Рузвельта Président du 39 quai | Абонентскую группу клиента | FR-Париж Issy-30qdPR | &gt;| Rachelle Cormier | Рузвельта Président du 39 quai | Абонентскую группу клиента | FR-Париж Issy-30qdPR | &gt;| Isabell Potvin | Рузвельта Président du 39 quai | Абонентскую группу клиента | FR-Париж Issy-30qdPR |
+> [!TIP]
+> Приведенный ниже пример шаблона можно использовать для документирования назначений абонентской группы в вашем проекте.
+>
+> |Пользователь  |Офис  |Тип абонентской группы  |Имя абонентской группы  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Абонентская группа клиента|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Абонентская группа клиента|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Абонентская группа клиента|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Абонентская группа клиента|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Абонентская группа клиента|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Абонентская группа клиента|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Служебная абонентская группа|Н/Д|
+> |Lidia Holloway|32 London Bridge Street|Служебная абонентская группа|Н/Д|
+> |Lahr Луис|32 London Bridge Street|Служебная абонентская группа|Н/Д|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Абонентская группа клиента|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Абонентская группа клиента|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Абонентская группа клиента|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 

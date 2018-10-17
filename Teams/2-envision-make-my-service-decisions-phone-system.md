@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f73c61b1c02f9560e3419d8993d998fa8f0ba9d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374797"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593705"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -269,10 +269,13 @@ ms.locfileid: "25374797"
 > |Isabell Potvin |39 quai du Président Roosevelt |План внутренних звонков |Отключено |
 
 <br>
-&gt; [!TIP]
-&gt;Вашей кредитов коммуникаций, планирование номеров можно документированы как показано в следующем примере.
-&gt;|         |         | &gt;|---------|---------|
-&gt;| Начальная сумма | 1000 долларов США | &gt;| Сумма триггер | 400 долларов США | &gt;| Сумма Auto пополнения | TBA |
+> [!TIP]
+> Вашей кредитов коммуникаций, планирование номеров можно документированы как показано в следующем примере.
+> |         |         |
+> |---------|---------|
+> |Начальная сумма|1000 долл. США|
+> |Пороговая сумма|400 долл. США|
+> |Сумма для автоматического пополнения счета|Подлежит добавлению|
 
 <!--ENDOFSECTION-->
 
@@ -377,9 +380,23 @@ ms.locfileid: "25374797"
 > ||**FR-Service**<br>_Нормализация номера службы для Франции_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;Можно выполнять нового шаблона документа телефонным назначения плана для поддержки проекта: &gt;| Пользователь | Office | Наберите типа плана | Имя телефонной группы | &gt;|---------|---------|---------|---------|
-&gt;| Вэнс Adele | Один Epping дорогу | Абонентскую группу клиента | AU-NSW-NorthRyde-OER | &gt;| Алекс Wilber | Один Epping дорогу | Абонентскую группу клиента | AU-NSW-NorthRyde-OER | &gt;| Бен Вайнштайнов | Один Epping дорогу | Абонентскую группу клиента | AU-NSW-NorthRyde-OER | &gt;| Отклонять Борис | Один Marina Boulevard | Абонентскую группу клиента | SG Сингапур OMB | &gt;| Дина Бергер | Один Marina Boulevard | Абонентскую группу клиента | SG Сингапур OMB | &gt;| Графического ли интерфейс | Один Marina Boulevard | Абонентскую группу клиента | SG Сингапур OMB | &gt;| Braun пользователя Ольга | улицы Bridge London 32 | Служба единой системы обмена сообщениями | Н/Д | &gt;| Lidia Holloway | улицы Bridge London 32 | Служба единой системы обмена сообщениями | Н/Д | &gt;| Lahr Луис | улицы Bridge London 32 | Служба единой системы обмена сообщениями | Н/Д | &gt;| Марсель Beauchamp | Рузвельта Président du 39 quai | Абонентскую группу клиента | FR-Париж Issy-30qdPR | &gt;| Rachelle Cormier | Рузвельта Président du 39 quai | Абонентскую группу клиента | FR-Париж Issy-30qdPR | &gt;| Isabell Potvin | Рузвельта Président du 39 quai | Абонентскую группу клиента | FR-Париж Issy-30qdPR |
+> [!TIP]
+> Приведенный ниже пример шаблона можно использовать для документирования назначений абонентской группы в вашем проекте.
+>
+> |Пользователь  |Офис  |Тип абонентской группы  |Имя абонентской группы  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Абонентская группа клиента|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Абонентская группа клиента|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Абонентская группа клиента|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Абонентская группа клиента|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Абонентская группа клиента|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Абонентская группа клиента|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Служебная абонентская группа|Н/Д|
+> |Lidia Holloway|32 London Bridge Street|Служебная абонентская группа|Н/Д|
+> |Lahr Луис|32 London Bridge Street|Служебная абонентская группа|Н/Д|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Абонентская группа клиента|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Абонентская группа клиента|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Абонентская группа клиента|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 

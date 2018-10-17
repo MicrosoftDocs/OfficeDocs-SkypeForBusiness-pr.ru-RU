@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: cbe14840f53d01c491159bfb3e44fe837d047558
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dce3118f79723bd6838579a9cda722dd4dc7bb90
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371375"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593729"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Практическое руководство по телефонной системе с планами звонков в Microsoft Teams
 =========================================================================
@@ -313,9 +313,14 @@ ms.locfileid: "25371375"
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, надстройка телефонной системы, план для местных звонков|Отключено|
 
 <br>
-&gt; [!TIP]
-&gt;Вашей кредитов коммуникаций, планирование номеров можно документированы как следующее: &gt;|         |         | &gt;|---------|---------|
-&gt;| Начальная сумма | 1000 долларов США | &gt;| Сумма триггер | 400 долларов США | &gt;| Сумма Auto пополнения | TBA |
+
+> [!TIP]
+> Ниже приведен пример документирования планируемых сумм кредитов на связь.
+> |         |         |
+> |---------|---------|
+> |Начальная сумма|1000 долл. США|
+> |Пороговая сумма|400 долл. США|
+> |Сумма для автоматического пополнения счета|Подлежит добавлению|
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Номера телефонов и местоположения для экстренного реагирования
 
@@ -330,7 +335,7 @@ ms.locfileid: "25371375"
 
 - Использование [Центра администрирования Skype для бизнеса](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Удаленные командлеты Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Отправка формы запросить новый номер телефона](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Отправка формы запроса новых телефонных номеров](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 Форма запроса новых телефонных номеров лучше всего подходит для их запланированного получения, так как вы можете запросить блок смежных номеров. Получение телефонных номеров с помощью Центра администрирования Skype для бизнеса или удаленного сеанса Windows PowerShell доступно лишь в некоторых странах и регионах.
 
@@ -453,13 +458,21 @@ ms.locfileid: "25371375"
 > |Имя абонентской группы клиента<br>_Описание  |Имя правил нормализации<br>_Описание_  |Шаблон<br>Преобразование<br>IsInternalExtension  |
 > |---------|---------|---------|
 > |**FR-Paris-Issy-39qdPR**<br>_Абонентская группа 39 quai du Président Roosevelt Issy-les-Moulineaux, Франция_|**FR-39qdPR-Internal**<br>_Внутренний номер (x7000–x7999) для офиса 39 quai du Président Roosevelt, Issy-les-Moulineaux, Франция_|^(7\d{3})$<br>+3319999$1<br>True|
-> ||**FR-TollFree**<br>_Нормализация бесплатного номера для Франции_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
-> ||**FR-Service**<br>_Нормализация номера службы для Франции_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> ||**FR-TollFree**<br>_Нормализация бесплатного номера для Франции_|^0?(80\d{7})\d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Нормализация номера службы для Франции_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;Можно выполнять нового шаблона документа телефонным назначения плана для поддержки проекта: &gt;| Пользователь | Office | Наберите типа плана | Имя телефонной группы | &gt;|---------|---------|---------|---------|
-&gt;| Braun пользователя Ольга | улицы Bridge London 32 | Служба единой системы обмена сообщениями | Н/Д | &gt;| Lidia Holloway | улицы Bridge London 32 | Служба единой системы обмена сообщениями | Н/Д | &gt;| Резидентная Pradeep | улицы Bridge London 32 | Служба единой системы обмена сообщениями | Н/Д | &gt;| Марсель Beauchamp | Рузвельта Président du 39 quai | Абонентскую группу клиента | FR-Париж Issy-39qdPR | &gt;| Rachelle Cormier | Рузвельта Président du 39 quai | Абонентскую группу клиента | FR-Париж Issy-39qdPR | &gt;| Isabell Potvin | Рузвельта Président du 39 quai | Абонентскую группу клиента | FR-Париж Issy-39qdPR |
+
+> [!TIP]
+> Приведенный ниже пример шаблона можно использовать для документирования назначений абонентской группы в вашем проекте.
+> |Пользователь  |Офис  |Тип абонентской группы  |Имя абонентской группы  |
+> |---------|---------|---------|---------|
+> |Emily Braun|32 London Bridge Street|Служебная абонентская группа|Н/Д|
+> |Lidia Holloway|32 London Bridge Street|Служебная абонентская группа|Н/Д|
+> |Pradeep Gupta|32 London Bridge Street|Служебная абонентская группа|Н/Д|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Абонентская группа клиента|FR-Paris-Issy-39qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Абонентская группа клиента|FR-Paris-Issy-39qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Абонентская группа клиента|FR-Paris-Issy-39qdPR|
 
 ## <a name="document-technical-implementation-plan"></a>Документирование плана по технической реализации
 
