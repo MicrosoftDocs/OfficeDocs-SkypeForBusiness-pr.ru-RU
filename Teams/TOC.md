@@ -76,7 +76,7 @@
 
 <!-- ============================================================ -->
 # [Обновление от Скайп для бизнеса в группы](Journey-SkypeforBusiness-Teams.md)
-## [Руководство. Переход со Skype для бизнеса на Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Руководство. Переход со Skype для бизнеса на Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Обновление базовой](upgrade-basic.md)
 ### [Образец сообщения электронной почты и опросов](upgrade-emails-surveys.md)
 ## [Обновление специалистов](upgrade-pro.md)
@@ -181,6 +181,7 @@
 ### [Назначение группы владельцев и членов в группы Microsoft](assign-roles-permissions.md)
 ### [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ### [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
+### [Общие сведения о динамическое членство в группах](dynamic-memberships.md)
 ## [Гостевой доступ](guest-access.md)
 ### [Присоединение гостя к команде](guest-joins.md)
 ### [Взаимодействие с гостями](guest-experience.md)
@@ -225,7 +226,7 @@
 ### [Использовать встроенный перевод сообщений в группах](inline-message-translation-teams.md)
 
 ## Облачная система голосовой связи
-### [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Аргентина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [Австралия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 #### [Австрия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -376,7 +377,7 @@
 #### [Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 #### [Получение телефонных номеров для пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Сколько телефонных номеров можно получить?](how-many-phone-numbers-can-you-get.md)
-#### [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+#### [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ##### [Управление номер телефона для Австралии](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 ##### [Управление номерами телефонов в Бельгии](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 ##### [Управление номерами телефонов в Канаде](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
@@ -457,7 +458,7 @@
 
 #### [Передача номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md)
 #### [Общие вопросы по передаче номеров](transferring-phone-numbers-common-questions.md)
-#### [Что такое планы звонков в Office 365?](what-are-calling-plans-in-office-365.md)
+#### [Что такое планы звонков в Office 365?](what-are-calling-plans-in-office-365.md)
 #### [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [Что такое проверка адреса?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Что такое абонентские группы?](what-are-dial-plans.md)
