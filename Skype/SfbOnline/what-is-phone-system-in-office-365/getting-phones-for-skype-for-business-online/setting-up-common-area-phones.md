@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Познакомьтесь с действиями развертывания для получения микропрограммы, при необходимости обновите ее, назначение лицензий и настройка параметров для телефонов общего пользования.
-ms.openlocfilehash: d741b2ea76b8824ed36252d1d53e3f66e0118401
-ms.sourcegitcommit: cba568455949deab3c47777cb6504b4ed889bdbd
+ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2018
-ms.locfileid: "25552441"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678169"
 ---
 # <a name="set-up-common-area-phones"></a>Настройка телефонов общего пользования
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -137,12 +137,12 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 
 > [!NOTE]
-> Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если вы локально синхронизировали Active Directory с AAD, обратите внимание на учетные данные, которые будут изменены при подготовке CAP.
+> Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если синхронизировано локальный AAD в Active Directory и использовать сторонние IDP и службы федерации Active Directory, подготовки БОЛТЫ завершится с ошибкой. В этом случае необходимо использовать 365 Office/Azure Active Directory только учетная запись (например, учетную запись домена **onmicrosoft.com** ) для Политики подготовки для работы.
 
 
 ### <a name="related-topics"></a>Связанные разделы
 
 - Узнайте больше о доступных телефонах в статье [Развертывание телефонов Skype для бизнеса Online](deploying-skype-for-business-online-phones.md).
-- [Телефоны, поддерживаемые в Skype для бизнеса Online](getting-phones-for-skype-for-business-online.md)
+- [Телефоны, поддерживаемые в Skype для бизнеса Online](getting-phones-for-skype-for-business-online.md)
 
 

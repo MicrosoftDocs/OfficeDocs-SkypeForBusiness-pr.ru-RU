@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Узнайте о различных сочетаний при создании пользователей и какие комбинации поддерживаются, а не поддерживается.
-ms.openlocfilehash: aa2d5b7b98b4a683f7f79ee9fb9b76e04a40263b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f6662a6a61e34a691cc058f20c356720a61dab54
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014213"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678412"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Учетные записи пользователей в гибридной среде с помощью подключения к ТСОП
 
@@ -28,7 +28,7 @@ ms.locfileid: "25014213"
 
 В этой статье относятся к средам, в которых у вас есть следующие компоненты: 
  
-- Скайп для Business Server 2015 или Lync Server 2013 
+- Скайп для Business Server или Lync Server 2013 
 - Клиента Office 365 
 - Гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет или группами Майкрософт клиента 
 - Пользователей, которым разрешена на выполнение и прием звонков общедоступных переключения телефонной сети общего пользования (PSTN), чтобы и от клиента

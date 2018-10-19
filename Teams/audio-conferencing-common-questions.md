@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Далее представлены некоторые основные вопросы, на которые поступления из наших клиентов, которым требуется использовать звук конференц-связи.
-ms.openlocfilehash: d5ba9368e65afbb6228ebaff0296a57e902cc51c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b2c75a9207a0cff73f247809c2e70a7fe17d50e5
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014759"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678436"
 ---
 # <a name="audio-conferencing-common-questions"></a>Общие вопросы об аудиоконференциях
 
@@ -95,9 +95,9 @@ ms.locfileid: "25014759"
 
 Мы добавили новый компонент, который позволяет пользователю, [администратор](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), отправлять и обновлять данные для конференции аудио и ПИН-кода по электронной почте. Для получения дополнительных сведений о его, как отключить ее, включая см. [Включение и отключение отправки сообщения электронной почты при изменении параметров звука конференц-связи в группами Майкрософт](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) , или [Включение и отключение отправки по электронной почте при изменении параметров звука конференц-связи в Скайп для бизнеса Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
   
-## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>Можно использовать звук конференц-связи для пользователей, которые входят в состав развертывания для локальной Скайп для Business Server 2015?
+## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Можно использовать звук конференц-связи для пользователей, которые входят в состав развертывания для локальной Скайп для Business Server?
 
-Мы еще не. Тем не менее можно продолжить использование аудиоконференций, доступные в Скайп для Business Server 2015 и ТСОП-шлюз для локальных пользователей. 
+Мы еще не. Тем не менее можно продолжить использование аудиоконференций, доступные в Скайп для Business Server, а также ТСОП-шлюз для локальных пользователей. 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>Пользователь получить идентификатор личной конференции?
 

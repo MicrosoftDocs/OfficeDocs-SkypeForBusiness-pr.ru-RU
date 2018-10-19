@@ -10,12 +10,12 @@ search.appverid: MET150
 description: Научитесь использовать Windows PowerShell для управления все функции, доступные в группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0daff64e5a0f6f876de4adb7b60d913fbcce78cb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4c8eb0c37f71972bb20fac60706ff7a369d971d4
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016079"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678348"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Управление группами с помощью PowerShell
 
@@ -30,8 +30,8 @@ ms.locfileid: "25016079"
 - Windows 10
 - Windows 8.1
 - Windows 8 
-- Windows Server 2012 R2
-- Windows Server 2012
+- Windows Server 2012 R2
+- Windows Server 2012
 - Windows Server 2008
 - Windows 7
     
@@ -48,7 +48,11 @@ ms.locfileid: "25016079"
 ### <a name="step-3-download-and-install-the-teams-connector-module"></a>Шаг 3: Загрузите и установите модуль соединителя группы
 [Используйте этот раздел справки](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
-Ниже приводится ссылка для загрузки из Isabella:https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3
+Установка модуля последние из коллекции PowerShell с помощью: 
+  
+  Установка модуля MicrosoftTeams
+
+Также для получения дополнительных сведений пакета можно найти здесь.https://www.powershellgallery.com/packages/MicrosoftTeams/
 
 ### <a name="step-4-connect-using-the-teams-connector-module"></a>Шаг 4: Подключиться, используя модуль соединителя группы
 [Используйте этот раздел справки](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 

@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58dd3bb4e0f870cfcfff0f1297acdab7a82eb4a9
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 256ca09b8da5ccaed3ab5797e9d67246cebfee4e
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546687"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678143"
 ---
 <a name="teams-guest-access-checklist"></a>Контрольный список групп доступ в качестве гостя
 ==========================================
@@ -32,7 +32,7 @@ ms.locfileid: "25546687"
 
 Перейдите к группам & Скайп по центру администрирования бизнеса, с помощью https://admin.teams.microsoft.com. Здесь выберите «Масштабе организации "Параметры» и группы на вкладку «Доступ в качестве гостя» и, наконец, в рамках этой вкладке выберите «Разрешить гостевой доступ в группах Microsoft» включен. 
 
-## <a name="need-a-new-screenshot-for-new-admin-center-enablement"></a>Требуются новый снимок экрана для нового подключения центра администрирования. 
+## <Need to display a photo of the new admin center>
 
 ## <a name="-enable-specific-settings-for-channels"></a>□ Включить определенные параметры для каналов 
 В приложении группы на уровне отдельных групп настройте разрешения таким образом, гости могут создание, обновление и удаление каналов. В дополнение к "Администраторы" Этот параметр можно настроить группы владельцев.
@@ -133,7 +133,7 @@ ms.locfileid: "25546687"
 
 
 
-## <a name="troubleshooting"></a>Поиск и устранение неполадок
+## <a name="troubleshooting"></a>Устранение неполадок
 
 При наличии проблем с добавлением гости в группами Майкрософт, в разделе [Руководство по устранению неполадок доступа гостя](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797).
 

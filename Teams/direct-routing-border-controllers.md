@@ -14,17 +14,17 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-description: Корпорация Майкрософт сотрудничает с рядом поставщиков SBC и сертифицирует их контроллеры для работы с прямой маршрутизацией.
-ms.openlocfilehash: 375c5ca46e8af7bb31ad50b8c55a4fa629b8d2dd
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Партнеры корпорации Майкрософт с выбранным поставщикам SBC для подтверждения своей SBC работать с прямой маршрутизации.
+ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371798"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678452"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
-Корпорация Майкрософт сотрудничает с рядом поставщиков пограничных контроллеров сеансов (SBC) и гарантирует, что их контроллеры сертифицированы для работы с прямой маршрутизацией. 
+Партнеры корпорации Майкрософт с выбранным поставщикам границы контроллеры Сеансов для сертификации, который их изготовителей работы при прямой маршрутизации. 
 
 При этом корпорация Майкрософт: 
 

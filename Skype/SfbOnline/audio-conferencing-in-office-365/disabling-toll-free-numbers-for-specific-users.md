@@ -19,15 +19,15 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Администраторы управляют тем, как организаторы могут использовать бесплатные номера для их собраний.
-ms.openlocfilehash: 316497b6b4569ffef4419b6ed2ce6994c604d16a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ee8274dd30b246da513d0597bf39964b94be8ca
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370614"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678159"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Отключение бесплатных номеров для определенных пользователей Skype для бизнеса Online
-
+ 
 > [!Note]
 > Для получения информации об отключении бесплатных номеров для пользователей Teams см.  [Отключение бесплатных номеров для определенных пользователей Teams](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
 
@@ -48,20 +48,21 @@ By default, all users in your organization are enabled for using toll-free numbe
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для определенных пользователей 
 
+С **группами Майкрософт & Скайп по центру администрирования бизнеса**:
 
-1. В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **пользователей**, а затем выберите пользователя из списка доступных пользователей. 
+1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
 
-2. In the Action pane, click **Edit**. 
+2. Рядом с пунктом **Аудиоконференции** нажмите **Изменить**.
 
-3. Снимите флажок **Разрешить использование бесплатных номеров для присоединения к собраниям этого пользователя**. 
- 
-4. Нажмите кнопку **Сохранить**. 
+3. Значение **включают бесплатные номера в приглашении на собрание из этого пользователя** **из системы**. 
+
+4. Нажмите кнопку **Сохраните.** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
 **Использование PowerShell**  
 
-You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control. For example: 
+Можно использовать параметр AllowTollFreeDialIn Set-CsOnlineDialInConferencingUser командлета Set-CsOnlineDialInConferencingUser, чтобы включить или отключить этот параметр. Например: 
 
 - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
