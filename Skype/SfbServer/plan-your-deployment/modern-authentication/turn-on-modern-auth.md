@@ -1,5 +1,5 @@
 ---
-title: Отключение способов проверки подлинности Legacy внутренних и внешних к сети
+title: Планирование для отключения методов проверки подлинности Legacy внутренних и внешних к сети
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
@@ -11,14 +11,14 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Этот командлеты файлов в режиме структуры статьи, предоставить администраторам больше контроля методов проверки подлинности используется внутри и вне, бизнес. Администраторы могут включить методы проверки подлинности либо отключена во внутреннем или внешнем ресурсе с сетью.
-ms.openlocfilehash: f1af26c5cad98ee3416fa1bdd91d6fc8326eaf53
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 51dfaf9dc4c65afdd615cf29632c21d4cba08f65
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371805"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692756"
 ---
-# <a name="turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Отключите устаревшие методы проверки подлинности внутренних и внешних в сеть.
+# <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Планирование для отключения методов проверки подлинности Legacy внутренних и внешних в сеть.
 
 > [!NOTE]
 > Если вы хотите ознакомьтесь с этой статьей, уже должны знать о поддерживаемых топологий современных проверки подлинности, ADAL, и о конфигурации современных проверки подлинности, но в случае, если вы не ниже приведены статьи, необходимую для запуска в работе: 

@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: В этой статье описываются преимущества, рекомендации по планированию и требования к внедрению службы Microsoft Cloud голосовой почты. Сведения о настройке голосовой почты в облаке содержатся в разделе Настройка голосовой почты облака.
-ms.openlocfilehash: 8f7c2e394aa7d3f5a04961088202d1d9055eef9e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 14df7c3d8fbe7cab0bff9482c1543e7a6084039e
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370636"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696207"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Планирование службы голосовой почты в облаке
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## <a name="overview"></a>Обзор 
 

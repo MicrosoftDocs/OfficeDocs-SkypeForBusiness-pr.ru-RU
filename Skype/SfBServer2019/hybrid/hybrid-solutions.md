@@ -10,20 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Обсуждение доступные гибридные решения в Скайп для Business Server 2019.
-ms.openlocfilehash: 1d83e9f21d39bc848b854c0256e122c76b91ecf3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2909f524d1b9984fe01700a89d1bf6dc1b70f100
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030394"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696228"
 ---
 ПРИМЕЧАНИЕ: СЛЕДУЮЩИЕ КОПИРУЕТСЯ С 2015 И НАХОДИТСЯ В СТАДИИ РАЗРАБОТКИ. Дополнительные выполняемых заполнитель содержимого можно найти [ниже](#placeholder-topic-for-hybrid-solutions).
 
 
 # <a name="skype-for-business-hybrid-solutions"></a>Скайп для гибридных решений для бизнеса
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
- 
 Найдите сведения о планировании Скайп для бизнеса гибридного развертывания. 
   
 Здесь представлено несколько гибридных конфигураций, чтобы помочь вам определить конфигурацию, оптимальную для вашего предприятия. Дополнительные сведения о заинтересовавшей вас конфигурации можно найти по ссылкам, приведенным в этой статье. Статья содержит следующие разделы.
@@ -75,11 +73,11 @@ ms.locfileid: "25030394"
 ## <a name="take-advantage-of-phone-system-in-office-365-cloud-pbx"></a>Используйте преимущества телефонной системы в Office 365 (облачная УАТС)
 <a name="BKMK_CloudPBX"> </a>
 
- Телефонной системой в Office 365 (облако УАТС) — это технология корпорации Майкрософт для включения в облаке Office 365 с Скайп управления звонками и закрытый Exchange филиала (УАТС) для бизнеса в Интернет. Система телефона в Office 365 позволяет замените набор функциональных возможностей доставленных в период с Office 365 и тесно интегрируются с опыт корпорации Майкрософт облака эффективной работы имеющейся системы УАТС.
+ Телефонной системой в Office 365 (облако УАТС) — это технология корпорации Майкрософт для включения в облаке Office 365 с Скайп управления звонками и закрытый Exchange филиала (УАТС) для бизнеса в Интернет. Телефонная система в Office 365 позволяет заменить существующую систему УАТС набором функций, предоставляемых из Office 365 и тесно интегрированных в облачную среду Майкрософт для продуктивной работы.
   
 В дополнение к два телефонной системой в гибридном и услуги Office 365, корпорация Майкрософт предлагает телефонной системой в Office 365 с помощью вызова планирование — PSTN, вызов службы — все-в--облачной решения, не требующего локальное развертывание сервера. Чтобы решить, если телефонной системой в Office 365 с помощью вызова планирование может быть правом решением для вашей организации, просмотрите [Телефонной системой в решениях для Office 365](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings).
   
-В гибридных предложениях Office 365 доступны две телефонные системы: 
+В гибридных предложениях Office 365 доступны две телефонные системы:  
   
 - [Телефонная система в Office 365 с подключением к локальной сети, которое обеспечивается Skype для бизнеса Server](hybrid-solutions.md#BKMK_Server)
     
@@ -142,7 +140,7 @@ ms.locfileid: "25030394"
     
 - Использование Скайп для бизнеса, Exchange и SharePoint интегрированы функции, включая единой системы обмена сообщениями (UM) в Office 365.
     
-Для получения дополнительных сведений см. [Планирование интеграции Скайп для бизнеса и Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Дополнительные сведения см. в статье [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ### <a name="exchange-server-with-skype-for-business-online"></a>Exchange Server со Skype для бизнеса Online
 
@@ -156,7 +154,7 @@ ms.locfileid: "25030394"
     
 - Используйте Скайп для бизнеса в Интернет для возможности присутствия, обмена мгновенными Сообщениями и конференц-связи. 
     
-Для получения дополнительных сведений см. [Планирование интеграции Скайп для бизнеса и Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Дополнительные сведения см. в статье [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ## <a name="tasks-for-planning-and-configuring-a-hybrid-environment"></a>Задачи по планированию и настройке гибридной среды
 <a name="BKMK_Tasks"> </a>
@@ -208,11 +206,11 @@ ms.locfileid: "25030394"
 
 Ниже приведены ссылки на дополнительные ресурсы.
   
-- [Microsoft cloud архитектура ИТ-ресурсами](https://aka.ms/clouditarch)
+- [Ресурсы для администраторов, посвященные архитектуре Microsoft Cloud](https://aka.ms/clouditarch)
     
-- [Облачное удостоверение Microsoft для архитекторов предприятия](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [Облачное удостоверение Майкрософт для корпоративных архитекторов](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
-- [Подготовиться к работе с Office 365 корпоративный вашей организации](https://aka.ms/O365EntPrep)
+- [Подготовка организации к миграции на Office 65 корпоративный](https://aka.ms/O365EntPrep)
     
 - [Планирование гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет или группами](plan-hybrid-connectivity.md)
     
@@ -220,13 +218,13 @@ ms.locfileid: "25030394"
     
 - [Телефонной системой в решениях для Office 365](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
     
-- [Планирование интеграции Skype для бизнеса и Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
+- [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
 Вы можете скачать версию этой статьи в формате плаката:
   
-- [Скайп для бизнес-моделей архитектуры (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
+- [Модели архитектуры Skype для бизнеса (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
     
-- [Скайп для бизнес-моделей архитектурные (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
+- [Модели архитектуры Skype для бизнеса (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
     
 
 ### <a name="placeholder-topic-for-hybrid-solutions"></a>МЕСТОЗАПОЛНИТЕЛЬ ДЛЯ ГИБРИДНЫХ РЕШЕНИЙ 
@@ -260,7 +258,7 @@ ms.locfileid: "25030394"
     
   - Журнал бесед сервера со стороны, архивации, единого хранилища контактов, фотографий HighRes требуется Exchange 2013 или более поздней версии, и сервера OAuth необходимо включить взаимодействие между серверами. Для получения дополнительных сведений см. [Управление проверки подлинности сервер сервер (OAuth) и партнерских приложений в Скайп для Business Server 2015](https://technet.microsoft.com/en-us/library/jj204817.aspx).
     
-Подробнее о совместная работа с Exchange Server в том числе поддержка условия и ограничения в разных локальных и через Интернет, см [функции поддержки](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) в [Планирование интеграции Скайп для бизнеса и Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Дополнительные сведения о совместной работе с Exchange Server, в том числе ограничениях и критериях поддержки для различных комбинаций локальных и интернет-решений, см. в разделе [Поддержка функций](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) статьи [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
 
 
 

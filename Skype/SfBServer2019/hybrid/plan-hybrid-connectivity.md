@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Рекомендации по планированию для реализации гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет или группами.
-ms.openlocfilehash: 90ea0b5ee73cba718c81e5614b02b5332e223acf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 34df2639ed57376549b2a8bde2e4b0e071d08957
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "25030681"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696235"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Планирование гибридного подключения между Скайп для Business Server и Office 365
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 
 ## <a name="overview"></a>Обзор
 
@@ -61,7 +59,7 @@ ms.locfileid: "25030681"
 
 - Если пользователям необходимо воспользоваться преимуществами дополнительных online функции, например Скайп вещания собрания или голосовой почты в облаке, необходимо назначить их соответствующей лицензии в Office 365.
 
-- После того, как пользователям Skype для бизнеса Online назначена лицензия, нужно активировать для них локальное использование Skype для бизнеса или корпоративной голосовой связи. Дополнительные сведения можно [Включить пользователей для корпоративной голосовой связи локально](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Дополнительные сведения о требованиях к гибридной голосовой связи можно [Планирование телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп для Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
+- После того, как пользователям Skype для бизнеса Online назначена лицензия, нужно активировать для них локальное использование Skype для бизнеса или корпоративной голосовой связи. Дополнительные сведения можно [Включить пользователей для корпоративной голосовой связи локально](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Дополнительные сведения о требованиях к гибридной системе для голосовой связи см. в разделе [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 
 ## <a name="infrastructure-requirements"></a>Требования к инфраструктуре
@@ -76,11 +74,11 @@ ms.locfileid: "25030681"
     > [!NOTE]
     > Для гибридной конфигурации с локальным развертыванием вы можете использовать только один клиент.
 
-- Скайп Администрирование Business Server. (При использовании Lync Server 2013 или Lync Server 2010, можно использовать средства администрирования Lync Server 2013. Для получения дополнительных сведений см. [гибридной среды Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=617360)).
+- Скайп Администрирование Business Server. (При использовании Lync Server 2013 или Lync Server 2010, можно использовать средства администрирования Lync Server 2013. Дополнительные сведения см. в разделе [Гибридная среда Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
 
 - Azure Active Directory Connect для синхронизации вашего локального каталога с Office 365. Дополнительные сведения можно [Azure AD Connect: учетные записи и разрешения](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
-    Для реализации единого входа в Office 365 с использованием тех же учетных данных, что и в локальной среде, вы можете воспользоваться функцией синхронизации паролей в Azure Active Directory (AAD) Connect. Для единого входа в Office 365 можно также пользоваться службой федерации Active Directory (AD FS).
+    Для реализации единого входа в Office 365 с использованием тех же учетных данных, что и в локальной среде, вы можете воспользоваться функцией синхронизации паролей в Azure Active Directory (AAD) Connect. Для единого входа в Office 365 можно также пользоваться службой федерации Active Directory (AD FS). 
 
 Чтобы настроить гибридного подключения, необходимо также настроить федерацию между локальной и сетевой средах и настройки вашей Скайп для бизнеса в Интернет для клиентов для общее адресное пространство Session Initiation Protocol (SIP). Дополнительные сведения о действия, необходимые для настройки гибридного подключения можно [настроить гибридного подключения](configure-hybrid-connectivity.md).
 
@@ -114,9 +112,9 @@ ms.locfileid: "25030681"
 
 - Skype для бизнеса
 
-- Lync 2013
+- Lync 2013
 
-- Lync 2010
+- Lync 2010
 
 - Магазина Lync Windows
 
@@ -215,7 +213,7 @@ ms.locfileid: "25030681"
 
 В зависимости от расположения центре обработки данных Microsoft Online Services, необходимо также настроить сетевые устройства брандмауэра для принятия подключений на основе доменных имен подстановочные знаки (например, трафик от \*. outlook.com). Если брандмауэры вашей организации не поддерживают шаблону имени конфигурации, необходимо вручную определить диапазоны IP-адресов, которые вы хотите разрешить и указанных портов.
 
-Дополнительные сведения см в [Office 365 URL-адреса и диапазоны IP-адресов](https://go.microsoft.com/fwlink/p/?LinkId=252942).
+Дополнительные сведения см. в разделе [Диапазоны URL-адресов и IP-адресов Office 365](https://go.microsoft.com/fwlink/p/?LinkId=252942).
 
 ## <a name="port-and-protocol-requirements"></a>Требования относительно портов и протоколов
 <a name="BKMK_Ports"> </a>

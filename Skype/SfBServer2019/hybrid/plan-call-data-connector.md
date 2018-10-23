@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Общие сведения об использовании Скайп для бизнеса в Интернет средства телеметрии для отслеживания локальной реализации в гибридном сценарии.
-ms.openlocfilehash: 523ec9905243eaf6f2a4eb26e3757fb431f21489
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: e9039d3865e3baf5740f4f7489b1a7cfec6dea98
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678135"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696214"
 ---
 # <a name="plan-call-data-connector"></a>Планирование подключения к данным звонка
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## <a name="overview"></a>Обзор
 В этом разделе описываются преимущества, рекомендации по планированию и требования к внедрению Скайп для соединителя вызова данных Business Server. Дополнительные сведения о настройке вызова подключения к данным содержатся в разделе [Настройка вызова подключения к данным](configure-call-data-connector.md).

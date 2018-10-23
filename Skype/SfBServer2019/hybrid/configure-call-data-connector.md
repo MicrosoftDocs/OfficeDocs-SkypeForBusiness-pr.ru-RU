@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Инструкции по настройке вызова подключения к данным, что позволяет телеметрии из Скайп for Business локально, чтобы просмотреть с помощью Скайп для бизнеса в Интернет средства.
-ms.openlocfilehash: 5379b13d9b9962154a8b525109218dcf330336e4
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: adc1c9a1e50130796c4749a958e9030c10a09fd0
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678151"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696179"
 ---
 # <a name="configure-call-data-connector"></a>Настройка подключения к данным звонка
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 В этой статье описывается настройка вызова подключения к данным — один набор инструментов, который позволяет просматривать Скайп для бизнес-Server вызов качества данных с помощью Скайп средства Business Online вызов качества панели мониторинга (CQD) и вызвать аналитики (ЦС). 
 

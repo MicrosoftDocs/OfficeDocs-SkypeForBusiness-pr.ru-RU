@@ -10,16 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: Эти возможности были удалены из Скайп для Business Server 2019.'
-ms.openlocfilehash: cf91b468fe1482c7348634553b6e9b196b864b2c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 926f5539a31dbcb37ff4ccb5494ccaa7be517d30
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028763"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696165"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Что, удаленные из Скайп для Business Server 2019 
-
-[!INCLUDE [disclaimer](disclaimer.md)]
 
 Сведения о возможностях и функциях, которые не поддерживаются в Скайп для Business Server 2019. Сведения о новых возможностях в Скайп Business Server 2019 [возможности Скайп для Business Server 2019](whats-new.md)см.
 
@@ -71,8 +69,8 @@ Persistent Chat Server является дополнительной ролью,
 
 - Вызов качества методика панели мониторинга
 - Система показателей методика качества звонков Microsoft, версии 1.5
-- Средство планирования Skype для бизнеса Server 2015
-- Скайп для Business Server 2015 Stress and Performance Tool
+- Skype for Business Server 2015 Planning Tool
+- Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>См. также
 

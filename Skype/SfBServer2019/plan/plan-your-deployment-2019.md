@@ -14,19 +14,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Сводка: Изучите эти ссылки на сведения о разработке понятий, логических и физических моделей для настройки Скайп для функций, серверов и топологий Business Server 2019.'
-ms.openlocfilehash: e7f104de66782d2aafd5947fbc3bca7badfd17c1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 85b8dc6b4326a565e40331d4ba89cbed1d4edb59
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030779"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696193"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>План для вашей Скайп для развертывания Business Server 2019
  
 **Сводка:** Изучите эти ссылки на сведения о разработке понятий, логических и физических моделей для настройки Скайп для функций, серверов и топологий Business Server 2019.
   
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 Скайп для Business Server предлагает мгновенного обмена Мгновенными сообщениями, сведения о присутствии, конференц-связь, видео- и телефонной связи решений, которые может поддерживать требованиям к совместной работе корпоративного уровня. В этом разделе представлены ссылки на сведения о планировании для успешной Скайп для развертывания Business Server. 
   
 Авторы постоянно обновляют свои статьи по мере появления новой информации и отзывов пользователей. Эта страница будет часто обновляться, не забывайте регулярно просматривать ее.
@@ -60,6 +58,6 @@ ms.locfileid: "25030779"
   
 ||**Содержимое**|**Описание**|
 |:--- |:--- |:--- |
-|![Значок для DMC](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Скайп Business Server для ИТ-специалистов](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Посетите центры docs.microsoft.com и ресурсов для видеоролики о access, сайты сообществ, документацию, файлы для загрузки и др.    |
-|![Значок для содержимого разработчиков](https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg)|[Платформа разработки Скайп](https://go.microsoft.com/fwlink/?LinkId=619775)   |Ресурсы разработчика для Скайп для Business Server, включая примеры кода, обучение и пакеты SDK.    |
+|![Значок для DMC](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Skype для бизнеса Server для ИТ-специалистов](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Посетите центры docs.microsoft.com и ресурсов для видеоролики о access, сайты сообществ, документацию, файлы для загрузки и др.    |
+|![Значок для содержимого разработчиков](https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg)|[Платформа разработчика Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   |Ресурсы разработчика для Скайп для Business Server, включая примеры кода, обучение и пакеты SDK.    |
 |![Значок для новостей, блогов и т. д.](https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg)|[Управление изменениями и внедрения](https://go.microsoft.com/fwlink/p/?LinkId=532796) [Блоги по Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) [Технический блог по Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) [Блог группы разработчиков Скайп](https://go.microsoft.com/fwlink/p/?LinkId=532818)            |Следите новостями от групп, создающих и документа Скайп для Business Server.    |

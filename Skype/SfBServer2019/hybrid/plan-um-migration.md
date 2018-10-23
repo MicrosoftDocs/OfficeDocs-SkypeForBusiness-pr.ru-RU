@@ -7,16 +7,14 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: В этом разделе описывается, что нужно учитывать при принятии для миграции вашей существующей Скайп для развертываний Business Server или Exchange Server до последней версии или Скайп для бизнеса в Интернет или Exchange Online.
-ms.openlocfilehash: 25d0e275110df57747679efec46a77571259a3d4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3678b7531d60324bd557acdd762f428b048d99fc
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027258"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696221"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Планирование Скайп для переноса Business Server и Exchange Server
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 В этом разделе описывается, что нужно учитывать при принятии для миграции вашей существующей Скайп для развертываний Business Server или Exchange Server до последней версии или Скайп для бизнеса в Интернет или Exchange Online. Вы можете выполнить миграцию, а также время, сильно зависит от того что уже есть настройки в вашей организации. В предварительной версии мы повышения о поддержке несколько конкретных сценариев, с помощью дополнительных сценариев, становится доступным в общие доступности Предоставлена.
 
@@ -29,7 +27,7 @@ ms.locfileid: "25027258"
 Единая система обмена сообщениями (UM) устарел и в Exchange 2019. Это означает, что Exchange 2019 больше не предлагает следующие возможности:
 
 - Голосовая почта
-- Автосекретарь
+- Auto attendant
 
 Если вы развернули роль единой системы обмена СООБЩЕНИЯМИ в Exchange 2013 или служба единой системы обмена СООБЩЕНИЯМИ в Exchange 2016 и обновляемых Exchange 2019, то необходимо для миграции к голосовой почте в службе Microsoft Cloud голосовой почты в Office 365. Если вы хотите перенос к голосовой почте в облаке голосовой почты, рассмотрим представленном ниже разделе [2016 Exchange 2013 и Exchange и Скайп для бизнеса 2015 Exchange 2019 и Скайп для бизнеса 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) .
 > [!IMPORTANT]
