@@ -3,138 +3,139 @@ title: Контрольный список гостевой группы Microso
 author: romanma
 ms.author: romanma
 manager: serdars
-ms.date: 2/15/18
+ms.date: 10/19/18
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rramesan
+ms.reviewer: sbhatta
 description: Используйте этот контрольный список для настройки доступа гостя в гостевой группы Microsoft Access.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 256ca09b8da5ccaed3ab5797e9d67246cebfee4e
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 9bd95dc0d928a049adad06b43b9f6cacaf2c65d1
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678143"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692641"
 ---
-<a name="teams-guest-access-checklist"></a><span data-ttu-id="9ea09-103">Контрольный список групп доступ в качестве гостя</span><span class="sxs-lookup"><span data-stu-id="9ea09-103">Teams Guest Access checklist</span></span>
+<a name="teams-guest-access-checklist"></a><span data-ttu-id="00657-103">Контрольный список групп доступ в качестве гостя</span><span class="sxs-lookup"><span data-stu-id="00657-103">Teams Guest Access checklist</span></span>
 ==========================================
 
-<span data-ttu-id="9ea09-104">Используйте этот контрольный список для включения и настройки компонента доступа в группами Майкрософт в соответствии с предпочтениями вашей организации.</span><span class="sxs-lookup"><span data-stu-id="9ea09-104">Use this checklist to help you enable and configure the Guest Access feature in Microsoft Teams according to the preferences of your organization.</span></span>
+<span data-ttu-id="00657-104">Используйте этот контрольный список для включения и настройки компонента доступа в группами Майкрософт в соответствии с предпочтениями вашей организации.</span><span class="sxs-lookup"><span data-stu-id="00657-104">Use this checklist to help you enable and configure the Guest Access feature in Microsoft Teams according to the preferences of your organization.</span></span>
+
+## <a name="understand-the-limitations-for-guests"></a><span data-ttu-id="00657-105">Ознакомиться с ограничениями по Гости</span><span class="sxs-lookup"><span data-stu-id="00657-105">Understand the limitations for guests</span></span>
+
+<span data-ttu-id="00657-106">На взаимодействие с гостем имеет ограничения по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="00657-106">The guest experience has limitations by design.</span></span> <span data-ttu-id="00657-107">Убедитесь, что изучить гостевой качества, чтобы не пытайтесь исправление, не является источником проблем.</span><span class="sxs-lookup"><span data-stu-id="00657-107">Make sure you understand the guest experience so you don't try to fix something that isn't a problem.</span></span> <span data-ttu-id="00657-108">Далее представлен список некоторых функциональных возможностей, которые недоступен Гость группами Майкрософт, например:</span><span class="sxs-lookup"><span data-stu-id="00657-108">For example, here's a list of some of the functionality that isn't available to a guest in Microsoft Teams:</span></span>
+
+- <span data-ttu-id="00657-109">OneDrive для бизнеса</span><span class="sxs-lookup"><span data-stu-id="00657-109">OneDrive for Business</span></span>
+- <span data-ttu-id="00657-110">Поиск людей не из группы</span><span class="sxs-lookup"><span data-stu-id="00657-110">People search outside of Teams</span></span>
+- <span data-ttu-id="00657-111">Календарь, запланированные собрания или сведения о собрании</span><span class="sxs-lookup"><span data-stu-id="00657-111">Calendar, Scheduled Meetings, or Meeting Details</span></span>
+- <span data-ttu-id="00657-112">ТСОП</span><span class="sxs-lookup"><span data-stu-id="00657-112">PSTN</span></span>
+- <span data-ttu-id="00657-113">Организационная диаграмма</span><span class="sxs-lookup"><span data-stu-id="00657-113">Organization chart</span></span>
+- <span data-ttu-id="00657-114">Создание или изменение группы</span><span class="sxs-lookup"><span data-stu-id="00657-114">Create or revise a team</span></span>
+- <span data-ttu-id="00657-115">Поиск группы</span><span class="sxs-lookup"><span data-stu-id="00657-115">Browse for a team</span></span>
+- <span data-ttu-id="00657-116">Передача файлов между двумя пользователями чата</span><span class="sxs-lookup"><span data-stu-id="00657-116">Upload files to a person-to-person chat</span></span>
+
+<span data-ttu-id="00657-117">Для получения дополнительных сведений см [возможности взаимодействия гостя](guest-experience.md) и [гостевой доступ в группах Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).</span><span class="sxs-lookup"><span data-stu-id="00657-117">For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).</span></span>
+
+## <a name="if-your-guests-are-seeing-license-errors"></a><span data-ttu-id="00657-118">Если Гости видите ошибки лицензии</span><span class="sxs-lookup"><span data-stu-id="00657-118">If your guests are seeing license errors</span></span>
+
+<span data-ttu-id="00657-119">Гостевой доступ в группах Майкрософт использует Azure Active Directory бизнеса к компании (B2B) и его модели лицензирования.</span><span class="sxs-lookup"><span data-stu-id="00657-119">Guest Access in Microsoft Teams uses Azure Active Directory Business to Business (B2B) and its licensing model.</span></span> <span data-ttu-id="00657-120">Если вы видите лицензирования ошибки, обязательно прочтите руководство лицензирования B2B понять условия лицензионного соглашения, которыми вашей организации, чтобы пользователи могли приглашать Гости для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="00657-120">If you’re seeing licensing errors, make sure to read the B2B licensing guidance to understand the licensing requirements your organization has so that your users are able to invite guests to your organization.</span></span>
+
+<span data-ttu-id="00657-121">Следует помнить нескольких моментах:</span><span class="sxs-lookup"><span data-stu-id="00657-121">A few things to remember:</span></span>
+
+- <span data-ttu-id="00657-122">Для каждого платных лицензии Azure AD, назначение пользователю, пользователей можно пригласить до пяти гости в разделе внешние льгот пользователя.</span><span class="sxs-lookup"><span data-stu-id="00657-122">For each paid Azure AD license that you assign to a user, your users can invite up to five guest users under the External User Allowance.</span></span>
+- <span data-ttu-id="00657-123">Гости являются пользователей за пределами вашей организации.</span><span class="sxs-lookup"><span data-stu-id="00657-123">Guests are users outside your organization.</span></span> <span data-ttu-id="00657-124">Как гости нельзя добавить сотрудников, подрядчиков на сайте, на сайте агентов и т. д.</span><span class="sxs-lookup"><span data-stu-id="00657-124">Your employees, onsite contractors, onsite agents, and so on can't be added as guests.</span></span> <span data-ttu-id="00657-125">То же самое применяется к вашей дочерних компаний.</span><span class="sxs-lookup"><span data-stu-id="00657-125">The same applies to your affiliates.</span></span>
+- <span data-ttu-id="00657-126">Гостевая количество лицензий удваивается по приглашению организации.</span><span class="sxs-lookup"><span data-stu-id="00657-126">Guest licenses are counted against the inviting organization.</span></span> <span data-ttu-id="00657-127">Это необходимо учитывайте при расчете число лицензий, необходимые.</span><span class="sxs-lookup"><span data-stu-id="00657-127">Consider this when you calculate the number of licenses you need.</span></span>
+- <span data-ttu-id="00657-128">Количество лицензий удваивается с вашей организацией или приглашенным потребуется поступают из другого клиента Office 365 с помощью их адресов электронной почты личные.</span><span class="sxs-lookup"><span data-stu-id="00657-128">Licenses are counted against your organization whether the invited guests come from another Office 365 tenant or are using their personal email addresses.</span></span>
+
+## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a><span data-ttu-id="00657-129">□ Шаг 1: Настройка параметров в business Azure AD-бизнес</span><span class="sxs-lookup"><span data-stu-id="00657-129">□  Step 1: Configure settings in Azure AD business-to-business</span></span>
+
+1. <span data-ttu-id="00657-130">Войдите в https://portal.azure.com.</span><span class="sxs-lookup"><span data-stu-id="00657-130">Sign in to https://portal.azure.com.</span></span>
+2. <span data-ttu-id="00657-131">В левой области щелкните **Azure Active directory** .</span><span class="sxs-lookup"><span data-stu-id="00657-131">Click **Azure Active directory** in the left pane.</span></span>
+3. <span data-ttu-id="00657-132">В разделе **Управление**щелкните **Параметры пользователя**.</span><span class="sxs-lookup"><span data-stu-id="00657-132">Under **Manage**, click **User settings**.</span></span>
+4. <span data-ttu-id="00657-133">В разделе **внешние пользователи**щелкните **Управление внешние параметры совместной работы**.</span><span class="sxs-lookup"><span data-stu-id="00657-133">Under **External users**, click **Manage External collaboration settings**.</span></span>
+5. <span data-ttu-id="00657-134">На странице **параметров внешней совместной работы** убедитесь, что **можно пригласить участников** задано значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="00657-134">On the **External collaboration settings** page make sure **Members can invite** is set to **Yes**.</span></span>
+
+      ![<span data-ttu-id="00657-135">Снимок экрана показан пример AAD параметры переключателя.</span><span class="sxs-lookup"><span data-stu-id="00657-135">Screenshot shows an example of a AAD Settings toggle.</span></span> ](media/guest-access-checklist-AADSettings1.png)
+
+    <span data-ttu-id="00657-136">Как минимум для поддержки гости **можно пригласить участников** должен иметь значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="00657-136">At a minimum to support guests, **Members can invite** must be set to **Yes**.</span></span> 
+   
+> [!NOTE] 
+> <span data-ttu-id="00657-137">Если значение **можно пригласить участников** **Нет** и затем включить гостевого доступа в Office 365 групп и группами Майкрософт, администраторы могут управлять гостевой приглашения в каталоге.</span><span class="sxs-lookup"><span data-stu-id="00657-137">If you set **Members can invite** to **No** and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory.</span></span> <span data-ttu-id="00657-138">После Гости находятся в каталоге, они могут добавляться к группам участниками без прав администратора, которые владельцы сайтов группы.</span><span class="sxs-lookup"><span data-stu-id="00657-138">After guests are in the directory, they can be added to teams by non-admin members who are team owners.</span></span>
+
+<span data-ttu-id="00657-139">Дополнительные сведения см. в статье [Авторизация гостевого доступа в Microsoft Teams](Teams-dependencies.md).</span><span class="sxs-lookup"><span data-stu-id="00657-139">For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).</span></span>
 
 
+## <a name="-step-2-configure-office-365-groups"></a><span data-ttu-id="00657-140">□ Шаг 2: Настройка Office 365 групп</span><span class="sxs-lookup"><span data-stu-id="00657-140">□ Step 2: Configure Office 365 Groups</span></span>
+
+1. <span data-ttu-id="00657-141">В центре администрирования Microsoft 365 перейдите в раздел **Параметры** > **служб & надстройки** > **Группы Office 365**.</span><span class="sxs-lookup"><span data-stu-id="00657-141">In the Microsoft 365 admin center, go to **Settings** > **Services & Add-ins** > **Office 365 Groups**.</span></span>
+2. <span data-ttu-id="00657-142">Убедитесь в том, что **члены группы за пределами содержимого группе организации клиента** — это значение **на**.</span><span class="sxs-lookup"><span data-stu-id="00657-142">Make sure **Let group members outside the organization access group content** is set to **On**.</span></span> <span data-ttu-id="00657-143">Если этот параметр отключен, Гости не сможет получить доступ к содержимому любой группы.</span><span class="sxs-lookup"><span data-stu-id="00657-143">If this setting is turned off, guests won't be able to access any group content.</span></span>
+3. <span data-ttu-id="00657-144">Убедитесь в том, что **позволить добавлять пользователей за пределами организации, чтобы группы владельцев группы** — это значение **на**.</span><span class="sxs-lookup"><span data-stu-id="00657-144">Make sure **Let group owners add people outside the organization to groups** is set to **On**.</span></span> <span data-ttu-id="00657-145">Если этот параметр отключен, владельцев группы не сможет для добавления нового Гости.</span><span class="sxs-lookup"><span data-stu-id="00657-145">If this setting is turned off, Team owners won't be able to add new guests.</span></span> <span data-ttu-id="00657-146">Как минимум этот параметр должен быть вход в систему поддержки доступа.</span><span class="sxs-lookup"><span data-stu-id="00657-146">At a minimum, this setting must be On to support guest access.</span></span>
+
+     ![Снимок экрана показана переключение группы Office 365](media/guest-access-checklist-office365.png)
+
+<span data-ttu-id="00657-148">Подробные инструкции по настройке этих параметров в разделе [Управление доступом гостевой в Office 365 групп](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) и раздел «Группы Office 365» в [access гостевой авторизовать в группах Microsoft](Teams-dependencies.md).</span><span class="sxs-lookup"><span data-stu-id="00657-148">For detailed instructions about configuring these settings, see [Manage guest access in Office 365 groups](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and the section "Office 365 Groups" in [Authorize guest access in Microsoft Teams](Teams-dependencies.md).</span></span>
+ 
+
+## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a><span data-ttu-id="00657-149">□ Шаг 3: Включение гостевого доступа на уровне клиента</span><span class="sxs-lookup"><span data-stu-id="00657-149">□ Step 3: Enable guest access at the tenant level</span></span>
+
+<span data-ttu-id="00657-150">Как минимум необходимо включить группами Майкрософт для всех пользователей тип лицензии **гостя**.</span><span class="sxs-lookup"><span data-stu-id="00657-150">At a minimum, you must turn on Microsoft Teams for all users of the license type **Guest**.</span></span> 
+
+1. <span data-ttu-id="00657-151">В группы & Скайп по центру администрирования бизнеса, выберите пункт **Параметры масштабе организации** > **доступ в качестве гостя**.</span><span class="sxs-lookup"><span data-stu-id="00657-151">In the Teams & Skype for Business Admin Center, select **Org-Wide settings** > **Guest access**.</span></span>
+2. <span data-ttu-id="00657-152">Установка параметра **Разрешить доступ гостя в группах Майкрософт** для **на**.</span><span class="sxs-lookup"><span data-stu-id="00657-152">Set the **Allow guest access in Microsoft Teams** switch to **On**.</span></span>
+
+    ![Снимок экрана показан пример переключателя параметров группы](media/set-up-guests-image1.png)
+
+3. <span data-ttu-id="00657-154">На этой же странице настройте другие необходимые параметры гостя.</span><span class="sxs-lookup"><span data-stu-id="00657-154">On this same page, configure any other guest settings that you require.</span></span>
+4. <span data-ttu-id="00657-155">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="00657-155">Click **Save**.</span></span>
+
+<span data-ttu-id="00657-156">Подробные инструкции в разделе [Включение и отключение гостевой доступ к группами Майкрософт](set-up-guests.md).</span><span class="sxs-lookup"><span data-stu-id="00657-156">For detailed instructions, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).</span></span>
 
 
-## <a name="--enable-guest-access-at-the-tenant-level"></a><span data-ttu-id="9ea09-105">□ Enable гостевого доступа на уровне клиента</span><span class="sxs-lookup"><span data-stu-id="9ea09-105">□  Enable guest access at the tenant level</span></span>
+## <a name="--step-4-configure-sharing-in-office-365"></a><span data-ttu-id="00657-157">□ Шаг 4: Настройка общего доступа в Office 365</span><span class="sxs-lookup"><span data-stu-id="00657-157">□  Step 4: Configure Sharing in Office 365</span></span> 
 
-<span data-ttu-id="9ea09-106">Перейдите к группам & Скайп по центру администрирования бизнеса, с помощью https://admin.teams.microsoft.com.</span><span class="sxs-lookup"><span data-stu-id="9ea09-106">Go to the Teams & Skype for Business Admin Center, via https://admin.teams.microsoft.com.</span></span> <span data-ttu-id="9ea09-107">Здесь выберите «Масштабе организации "Параметры» и группы на вкладку «Доступ в качестве гостя» и, наконец, в рамках этой вкладке выберите «Разрешить гостевой доступ в группах Microsoft» включен.</span><span class="sxs-lookup"><span data-stu-id="9ea09-107">From here, select 'Org-Wide Settings', and selec the 'Guest Access' tab. Lastly, within this tab, select 'Allow guest access in Microsoft Teams' to enabled.</span></span> 
+<span data-ttu-id="00657-158">Убедитесь в том, что пользователи могут добавлять Гости.</span><span class="sxs-lookup"><span data-stu-id="00657-158">Make sure that users can add guests.</span></span> <span data-ttu-id="00657-159">Вот как:</span><span class="sxs-lookup"><span data-stu-id="00657-159">Here's how:</span></span>
 
-## <Need to display a photo of the new admin center>
+1. <span data-ttu-id="00657-160">В центре администрирования Microsoft 365 перейдите в раздел **Параметры** > **безопасности и конфиденциальности**.</span><span class="sxs-lookup"><span data-stu-id="00657-160">In the Microsoft 365 admin center, go to **Settings** > **Security & privacy**.</span></span>
 
-## <a name="-enable-specific-settings-for-channels"></a><span data-ttu-id="9ea09-108">□ Включить определенные параметры для каналов</span><span class="sxs-lookup"><span data-stu-id="9ea09-108">□ Enable specific settings for channels</span></span> 
-<span data-ttu-id="9ea09-109">В приложении группы на уровне отдельных групп настройте разрешения таким образом, гости могут создание, обновление и удаление каналов.</span><span class="sxs-lookup"><span data-stu-id="9ea09-109">In the Teams application, at the individual team level, configure guest permissions so that guests can create, update, and delete channels.</span></span> <span data-ttu-id="9ea09-110">В дополнение к "Администраторы" Этот параметр можно настроить группы владельцев.</span><span class="sxs-lookup"><span data-stu-id="9ea09-110">In addition to admins,  team owners can configure this setting.</span></span>
+     ![Снимок экрана показан пример параметры служб](media/guest-access-checklist-Office365Admin_Services_addins.png)
+
+2. <span data-ttu-id="00657-162">В **общий доступ**выберите команду **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="00657-162">In **Sharing**, select **Edit**.</span></span>
+
+     ![Снимок экрана показан пример переключателя параметры общего доступа](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+ 
+3. <span data-ttu-id="00657-164">Значение **Пользователи могут добавлять новые Гости к данной организации** **на**и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="00657-164">Set **Let users add new guests to this organization** to **On**, and then click **Save**.</span></span>
+
+     ![Снимок экрана показан пример переключателя параметры общего доступа](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+ 
+> [!NOTE]
+> <span data-ttu-id="00657-166">Этот параметр эквивалентен параметру **можно пригласить участников** в **пользовательских параметров**для > **внешних пользователей** в Azure AD.</span><span class="sxs-lookup"><span data-stu-id="00657-166">This setting is equivalent to the **Members can invite** setting in  **User settings** > **External users**  in Azure AD.</span></span>  
+
+
+## <a name="-step-5-verify-sharing-setting-in-sharepoint"></a><span data-ttu-id="00657-167">□ Этап 5: проверка общего доступа, заданное в SharePoint</span><span class="sxs-lookup"><span data-stu-id="00657-167">□ Step 5: Verify sharing setting in SharePoint</span></span>
+
+1. <span data-ttu-id="00657-168">Войдите в Центр администрирования Office 365.</span><span class="sxs-lookup"><span data-stu-id="00657-168">Sign in to the Office 365 admin center.</span></span>
+2. <span data-ttu-id="00657-169">Щелкните **Центр администрирования**, а затем выберите **SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="00657-169">Click **Admin center**, and then select **SharePoint**.</span></span>
+3. <span data-ttu-id="00657-170">В центре администрирования SharePoint выберите параметр **общий доступ**.</span><span class="sxs-lookup"><span data-stu-id="00657-170">In the SharePoint admin center, select **Sharing**.</span></span>
+4. <span data-ttu-id="00657-171">Убедитесь, что параметр для **не разрешать общий доступ к за пределами организации** *не* установлен.</span><span class="sxs-lookup"><span data-stu-id="00657-171">Make sure the option for **Don’t allow sharing outside your organization** is *not* selected.</span></span>
+ 
+     ![Снимок экрана показан пример переключателя Sparepoint параметры в сети.](media/guest-access-checklist-SPOSettings1.png)
+
+
+## <a name="-step-6-enable-specific-settings-for-channels"></a><span data-ttu-id="00657-173">□ Шаг 6: включить определенные параметры для каналов</span><span class="sxs-lookup"><span data-stu-id="00657-173">□ Step 6: Enable specific settings for channels</span></span> 
+
+<span data-ttu-id="00657-174">В приложении группы на уровне отдельных групп настройте разрешения таким образом, гости могут создание, обновление и удаление каналов.</span><span class="sxs-lookup"><span data-stu-id="00657-174">In the Teams application, at the individual team level, configure guest permissions so that guests can create, update, and delete channels.</span></span> <span data-ttu-id="00657-175">В дополнение к "Администраторы" Этот параметр можно настроить группы владельцев.</span><span class="sxs-lookup"><span data-stu-id="00657-175">In addition to admins,  team owners can configure this setting.</span></span>
 
 ![Снимок экрана показан пример переключить на канал группы параметров](media/guest-access-checklist-TeamsSettings2.png)
 
-
-<span data-ttu-id="9ea09-112">Для получения дополнительных сведений, в том числе видеоинструкции видеть [гостевой доступ в группах Майкрософт](guest-access.md).</span><span class="sxs-lookup"><span data-stu-id="9ea09-112">For more information, including how-to videos, see [Guest access in Microsoft Teams](guest-access.md).</span></span>
-
+<span data-ttu-id="00657-177">Для получения дополнительных сведений, в том числе видеоинструкции видеть [гостевой доступ в группах Майкрософт](guest-access.md).</span><span class="sxs-lookup"><span data-stu-id="00657-177">For more information, including how-to videos, see [Guest access in Microsoft Teams](guest-access.md).</span></span>
 
 
-## <a name="--configure-sharing-in-office-365"></a><span data-ttu-id="9ea09-113">Настройка □ общего доступа в Office 365</span><span class="sxs-lookup"><span data-stu-id="9ea09-113">□  Configure Sharing in Office 365</span></span> 
+## <a name="troubleshooting"></a><span data-ttu-id="00657-178">Устранение неполадок</span><span class="sxs-lookup"><span data-stu-id="00657-178">Troubleshooting</span></span>
 
-<span data-ttu-id="9ea09-114">□ Убедитесь, что пользователи могут добавлять Гости.</span><span class="sxs-lookup"><span data-stu-id="9ea09-114">□ Make sure users can add guests.</span></span> <span data-ttu-id="9ea09-115">Вот как:</span><span class="sxs-lookup"><span data-stu-id="9ea09-115">Here's how:</span></span>
-
-1. <span data-ttu-id="9ea09-116">В центре администрирования Office 365 перейдите в раздел **Параметры** > **безопасности и конфиденциальности**.</span><span class="sxs-lookup"><span data-stu-id="9ea09-116">In the Office 365 admin center, go to **Settings** > **Security & privacy**.</span></span>
-<span data-ttu-id="9ea09-117">![Снимок экрана показан пример параметры служб](media/guest-access-checklist-Office365Admin_Services_addins.png)</span><span class="sxs-lookup"><span data-stu-id="9ea09-117">![Screenshot shows an example of a Services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)</span></span>
-1. <span data-ttu-id="9ea09-118">В **общий доступ**выберите команду **Изменить**. ![Снимке экрана показан пример кнопка Изменить параметры общего доступа](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)</span><span class="sxs-lookup"><span data-stu-id="9ea09-118">In **Sharing**, select **Edit**.![Screenshot shows an example of a Sharing Settings edit button](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)</span></span>
-2. <span data-ttu-id="9ea09-119">Значение **Пользователи могут добавлять новые Гости к данной организации** **на**и нажмите кнопку **Сохранить**. ![Снимке экрана показан пример переключателя параметры общего доступа](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)</span><span class="sxs-lookup"><span data-stu-id="9ea09-119">Set **Let users add new guests to this organization** to **On**, and then click **Save**.![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)</span></span>
- 
-
- > [!NOTE]
-> <span data-ttu-id="9ea09-120">Этот параметр эквивалентен параметру **можно пригласить участников** в пользовательские параметры > внешние пользователи в Azure AD.</span><span class="sxs-lookup"><span data-stu-id="9ea09-120">This setting is equivalent to the **Members can invite** setting in  User settings > External users  in Azure AD.</span></span>  
-
-
-
-
-## <a name="-configure-office-365-groups"></a><span data-ttu-id="9ea09-121">□ Настройки групп Office 365</span><span class="sxs-lookup"><span data-stu-id="9ea09-121">□ Configure Office 365 Groups</span></span>
-
-<span data-ttu-id="9ea09-122">В центре администрирования Office 365 перейдите в раздел **Параметры** > **служб & надстройки** > **Группы Office 365**.</span><span class="sxs-lookup"><span data-stu-id="9ea09-122">In the Office 365 admin center, go to **Settings** > **Services & Add-ins** > **Office 365 Groups**.</span></span>
-
-<span data-ttu-id="9ea09-123">Убедитесь в том, что **члены группы за пределами содержимого группе организации клиента** — это значение **на**.</span><span class="sxs-lookup"><span data-stu-id="9ea09-123">Make sure **Let group members outside the organization access group content** is set to **On**.</span></span> <span data-ttu-id="9ea09-124">Если этот параметр отключен, Гости не сможет получить доступ к содержимому любой группы.</span><span class="sxs-lookup"><span data-stu-id="9ea09-124">If this setting is turned off, guests won't be able to access any group content.</span></span>
-
-<span data-ttu-id="9ea09-125">Убедитесь в том, что **позволить добавлять пользователей за пределами организации, чтобы группы владельцев группы** — это значение **на**.</span><span class="sxs-lookup"><span data-stu-id="9ea09-125">Make sure **Let group owners add people outside the organization to groups** is set to **On**.</span></span> <span data-ttu-id="9ea09-126">Если этот параметр отключен, владельцев группы не сможет для добавления нового Гости.</span><span class="sxs-lookup"><span data-stu-id="9ea09-126">If this setting is turned off, Team owners won't be able to add new guests.</span></span> <span data-ttu-id="9ea09-127">Как минимум этот параметр должен быть «на» для поддержки доступа.</span><span class="sxs-lookup"><span data-stu-id="9ea09-127">At a minimum,  this setting must be "on" to support guest access.</span></span>
-
-<span data-ttu-id="9ea09-128">Подробные инструкции по настройке этих параметров в разделе Office 365» группы «в [авторизовать гостевой доступ в группах Майкрософт](Teams-dependencies.md) и [разрешенных и запрещенных гостевой доступ к группам Office 365](https://go.microsoft.com/fwlink/?linkid=869658).</span><span class="sxs-lookup"><span data-stu-id="9ea09-128">For detailed instructions about configuring these settings, see the section "Office 365 Groups" in [Authorize guest access in Microsoft Teams](Teams-dependencies.md) and [Allow/Block guest access to Office 365 groups](https://go.microsoft.com/fwlink/?linkid=869658).</span></span>
- 
-
-
-## <a name="-configure-settings-in-azure-ad-business-to-business-b2b"></a><span data-ttu-id="9ea09-129">Настройка параметров □ в Azure AD бизнес бизнес (B2B)</span><span class="sxs-lookup"><span data-stu-id="9ea09-129">□ Configure settings in Azure AD business-to-business (B2B)</span></span>
-1. <span data-ttu-id="9ea09-130">Войдите в https://portal.azure.com.</span><span class="sxs-lookup"><span data-stu-id="9ea09-130">Sign in to https://portal.azure.com.</span></span>
-2. <span data-ttu-id="9ea09-131">В левой области щелкните **Azure Active directory** .</span><span class="sxs-lookup"><span data-stu-id="9ea09-131">Click **Azure Active directory** in the left pane.</span></span>
-3. <span data-ttu-id="9ea09-132">В разделе **Управление**щелкните **Параметры пользователя**.</span><span class="sxs-lookup"><span data-stu-id="9ea09-132">Under **Manage**, click **User settings**.</span></span>
-4. <span data-ttu-id="9ea09-133">В разделе **внешние пользователи**щелкните **Управление внешние параметры совместной работы**</span><span class="sxs-lookup"><span data-stu-id="9ea09-133">Under **External users**, click **Manage External collaboration settings**</span></span>
-5. <span data-ttu-id="9ea09-134">На странице **параметров внешней совместной работы** убедитесь, что **можно пригласить участников** задано значение **Да**. ![Снимке экрана показан пример AAD параметры переключателя.</span><span class="sxs-lookup"><span data-stu-id="9ea09-134">On the **External collaboration settings** page make sure **Members can invite** is set to **Yes**.![Screenshot shows an example of a AAD Settings toggle.</span></span> ](media/guest-access-checklist-AADSettings1.png)
-
-    
-
-<span data-ttu-id="9ea09-135">► По крайней мере для поддержки Гости, **можно пригласить участников** должен иметь значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="9ea09-135">► At a minimum to support guests, **Members can invite** must be set to **Yes**.</span></span>
-
-> > [!NOTE]
-> > <span data-ttu-id="9ea09-136">Если значение **можно пригласить участников** **Нет** и включения гостевого доступа в Office 365 групп и группами Майкрософт, администраторы могут управлять гостевой приглашения в каталоге.</span><span class="sxs-lookup"><span data-stu-id="9ea09-136">If you set **Members can invite** to **No** and enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory.</span></span> <span data-ttu-id="9ea09-137">После Гости находятся в каталоге, они могут добавляться к группам участниками без административных прав (группа владельцев).</span><span class="sxs-lookup"><span data-stu-id="9ea09-137">After guests are in the directory, they can be added to Teams by non-admin members (team owners).</span></span>
-
-
-<span data-ttu-id="9ea09-138">Дополнительные сведения см. в статье [Авторизация гостевого доступа в Microsoft Teams](Teams-dependencies.md).</span><span class="sxs-lookup"><span data-stu-id="9ea09-138">For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).</span></span>
-
-
-
-
-
-
-
-## <a name="-verify-sharing-setting-in-sharepoint"></a><span data-ttu-id="9ea09-139">Параметр общего доступа Verify □ в SharePoint</span><span class="sxs-lookup"><span data-stu-id="9ea09-139">□ Verify sharing setting in SharePoint</span></span>
-1. <span data-ttu-id="9ea09-140">Войдите в Центр администрирования Office 365.</span><span class="sxs-lookup"><span data-stu-id="9ea09-140">Sign in to the Office 365 admin center.</span></span>
-2. <span data-ttu-id="9ea09-141">Щелкните **Центр администрирования**, а затем выберите **SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="9ea09-141">Click **Admin center**, and then select **SharePoint**.</span></span>
-3. <span data-ttu-id="9ea09-142">В центре администрирования SharePoint выберите параметр **общий доступ**.</span><span class="sxs-lookup"><span data-stu-id="9ea09-142">In the SharePoint admin center, select **Sharing**.</span></span>
-4. <span data-ttu-id="9ea09-143">Убедитесь, что параметр для **не разрешать общий доступ к за пределами организации** *не* установлен. ![Снимке экрана показан пример переключателя Sparepoint параметры в сети.</span><span class="sxs-lookup"><span data-stu-id="9ea09-143">Make sure the option for **Don’t allow sharing outside your organization** is *not* selected.![Screenshot shows an example of a Sparepoint Online Settings toggle.</span></span> ](media/guest-access-checklist-SPOSettings1.png)
-
-
-
-## <a name="-verify-account-licenses-and-types"></a><span data-ttu-id="9ea09-144">□ Проверка учетной записи лицензий и типов</span><span class="sxs-lookup"><span data-stu-id="9ea09-144">□ Verify account licenses and types</span></span>
-
-- <span data-ttu-id="9ea09-145">**Учетная запись с корпоративным лицензированием для групп**: для учетной записи «Гость», в реальной учетной записи в некоторые другие клиента Office 365, эта учетная запись реального пользователя должен иметь лицензию для групп на «Гость».</span><span class="sxs-lookup"><span data-stu-id="9ea09-145">**Account licensed for Teams**: For a "Guest" account rooted in a real user account in some other Office 365 tenant, that real user account must be licensed for Teams for “Guest”.</span></span> 
-- <span data-ttu-id="9ea09-146">**Учетная запись должна будут школа Office 365 или MSA учетную запись, или**: в настоящее время пользователи с адресом электронной почты, соответствующий Azure Active Directory, работы Office 365 или школа учетную запись или учетную запись Майкрософт (MSA) можно добавить как пользователь Гость.</span><span class="sxs-lookup"><span data-stu-id="9ea09-146">**Account must be Office 365 school or work account, or MSA account**: Currently, users who have an email address corresponding to an Azure Active Directory, Office 365 work or school account, or a Microsoft account (MSA) can be added as a guest user.</span></span> 
- 
-## <a name="-configure-environment"></a><span data-ttu-id="9ea09-147">Настройка среды □</span><span class="sxs-lookup"><span data-stu-id="9ea09-147">□ Configure environment</span></span>
-
-
-<span data-ttu-id="9ea09-148">Гости необходимы для использования многофакторная проверка подлинности (многофакторной проверкой Подлинности), если необходимо для размещения клиента.</span><span class="sxs-lookup"><span data-stu-id="9ea09-148">Guests are required to use multi-factor authentication (MFA) if the hosting tenant requires it.</span></span>
-<span data-ttu-id="9ea09-149">Для получения дополнительных сведений см [модели идентификации и проверки подлинности в группах Майкрософт](identify-models-authentication.md).</span><span class="sxs-lookup"><span data-stu-id="9ea09-149">For more details, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).</span></span>
-
-## <a name="-understand-limitations-for-guests"></a><span data-ttu-id="9ea09-150">Тщательно изучите ограничения □ для Гости</span><span class="sxs-lookup"><span data-stu-id="9ea09-150">□ Understand limitations for guests</span></span>
-
-<span data-ttu-id="9ea09-151">На взаимодействие с гостем имеет ограничения по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="9ea09-151">The guest experience has limitations by design.</span></span> <span data-ttu-id="9ea09-152">Убедитесь, что изучить гостевой качества, чтобы не пытайтесь исправление, не является источником проблем.</span><span class="sxs-lookup"><span data-stu-id="9ea09-152">Make sure you understand the guest experience so you don't try to fix something that isn't a problem.</span></span>
-<span data-ttu-id="9ea09-153">Далее представлен список некоторых функциональных возможностей, которые недоступен Гость группами Майкрософт, например:</span><span class="sxs-lookup"><span data-stu-id="9ea09-153">For example, here's a list of some of the functionality that isn't available to a guest in Microsoft Teams:</span></span>
-
-- <span data-ttu-id="9ea09-154">OneDrive для бизнеса</span><span class="sxs-lookup"><span data-stu-id="9ea09-154">OneDrive for Business</span></span>
-- <span data-ttu-id="9ea09-155">Поиск людей не из группы</span><span class="sxs-lookup"><span data-stu-id="9ea09-155">People search outside of Teams</span></span>
-- <span data-ttu-id="9ea09-156">Календарь, запланированные собрания или сведения о собрании</span><span class="sxs-lookup"><span data-stu-id="9ea09-156">Calendar, Scheduled Meetings, or Meeting Details</span></span>
-- <span data-ttu-id="9ea09-157">ТСОП</span><span class="sxs-lookup"><span data-stu-id="9ea09-157">PSTN</span></span>
-- <span data-ttu-id="9ea09-158">Организационная диаграмма</span><span class="sxs-lookup"><span data-stu-id="9ea09-158">Organization chart</span></span>
-- <span data-ttu-id="9ea09-159">Создание или изменение группы</span><span class="sxs-lookup"><span data-stu-id="9ea09-159">Create or revise a team</span></span>
-- <span data-ttu-id="9ea09-160">Поиск группы</span><span class="sxs-lookup"><span data-stu-id="9ea09-160">Browse for a team</span></span>
-- <span data-ttu-id="9ea09-161">Передача файлов между двумя пользователями чата</span><span class="sxs-lookup"><span data-stu-id="9ea09-161">Upload files to a person-to-person chat</span></span>
-
-<span data-ttu-id="9ea09-162">Для получения дополнительных сведений см [возможности взаимодействия гостя](guest-experience.md) и [гостевой доступ в группах Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).</span><span class="sxs-lookup"><span data-stu-id="9ea09-162">For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).</span></span>
-
-
-
-
-## <a name="troubleshooting"></a><span data-ttu-id="9ea09-163">Устранение неполадок</span><span class="sxs-lookup"><span data-stu-id="9ea09-163">Troubleshooting</span></span>
-
-<span data-ttu-id="9ea09-164">При наличии проблем с добавлением гости в группами Майкрософт, в разделе [Руководство по устранению неполадок доступа гостя](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797).</span><span class="sxs-lookup"><span data-stu-id="9ea09-164">If you have problems with adding guests in Microsoft Teams, see the [Guest Access Troubleshooting Guide](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797).</span></span>
+<span data-ttu-id="00657-179">При наличии проблем с добавлением гости в группами Майкрософт, в разделе [Руководство по устранению неполадок доступа гостя](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797).</span><span class="sxs-lookup"><span data-stu-id="00657-179">If you have problems with adding guests in Microsoft Teams, see the [Guest Access Troubleshooting Guide](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797).</span></span>
 
 
