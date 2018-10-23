@@ -3,7 +3,7 @@ title: Продолжительность осуществления беспл�
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: mikedav, allancar
+ms.reviewer: mikedav, OscarR
 ms.topic: article
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
@@ -24,18 +24,18 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Клиенты могут использовать План звонков Office 365 и Аудиоконференцию Office 365 согласно Условиям использования услуг ТСОП для Skype для бизнеса Online и Клиентскому соглашению корпоративного лицензирования.
-ms.openlocfilehash: 9f3db1ee225633bc4a1d4084dc674d6253e49276
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: c2d241c37d6124a19b4351142e9a25ff8c29fbb9
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347395"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699590"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Бесплатный период исходящих звонков для аудиоконференций
 
 ## <a name="skype-for-business-pstn-services"></a>Услуги ТСОП в Skype для бизнеса
 
-Клиенты могут использовать План звонков Office 365 и Аудиоконференцию Office 365 согласно Условиям использования услуг ТСОП для Skype для бизнеса Online и Клиентскому соглашению корпоративного лицензирования. Условия использования служб ТСОП можно найти в [Лицензионных условиях и документации](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
+Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
   
 ### <a name="complimentary-dial-out-period"></a>Период бесплатного обратного звонка
 

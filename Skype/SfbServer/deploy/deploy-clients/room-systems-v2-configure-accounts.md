@@ -5,6 +5,7 @@ author: jambirk
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: В данном разделе приведены сведения о настройке учетных записей для версии 2 Скайп комнаты систем в Exchange и Скайп для бизнеса.
-ms.openlocfilehash: 4070757324c9c0abf56cd623ce0155649e456e3b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 38fdc37467b1a9f7b73271ac8684e86f52059981
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886487"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699681"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Настройка учетных записей для систем комнаты Скайп версии 2
  
@@ -26,7 +27,7 @@ ms.locfileid: "23886487"
   
 В этом разделе представлены способы создания учетных записей, используемых систем комнаты Скайп версии 2 в Microsoft Exchange и Скайп для бизнеса. Инструкции по развертыванию для устройств версии 2 Скайп комнаты систем представлено в разделе [Настройка консоли систем комнаты Скайп версии 2](console.md). В большинстве случаев конфигурацию инфраструктуры можно отнести к одной из следующих категорий.
   
-- Online развертывания: среде вашей организации развернут полностью на Office 365. Дополнительные сведения можно [Развернуть систем Скайп комнаты версии 2 с Office 365](with-office-365.md).
+- Online развертывания: среде вашей организации развернут полностью на Office 365. Дополнительные сведения см. в разделе [Deploy Skype Room Systems v2 with Office 365](with-office-365.md).
     
 - Локальное развертывание: вашей организации есть серверы, на которых элементы управления, где размещены Active Directory, Exchange и Скайп для Business Server. Для получения дополнительных сведений см [Развертывание системы комнаты Скайп версии 2 с Скайп для Business Server](with-skype-for-business-server-2015.md)
     
@@ -82,7 +83,7 @@ ms.locfileid: "23886487"
   
 ## <a name="see-also"></a>См. также
 
-[Планирование для Систем комнат Skype версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Настройка консоли для Систем комнат Skype версии 2](console.md)
   

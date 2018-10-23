@@ -4,18 +4,19 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 в гибридной среде с сервером Exchange при локальном.
-ms.openlocfilehash: 930cc8916459562af89c15aefb60a2bf2c33c7e4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 49e0b85cc38de91ed269ca103ef995507a6d1e37
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965452"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699362"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Развертывание Систем комнат Skype версии 2 в локальной среде Exchange
  
@@ -27,7 +28,7 @@ ms.locfileid: "20965452"
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Развертывание Систем комнат Skype версии 2 в локальной среде Exchange
 
-Перед развертыванием системы комнаты Скайп версии 2 с сервером Exchange при локальном убедитесь, что удовлетворены требования. Для получения дополнительных сведений см [систем комнаты Скайп версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).
+Перед развертыванием системы комнаты Скайп версии 2 с сервером Exchange при локальном убедитесь, что удовлетворены требования. Дополнительные сведения см. в разделе [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
 При развертывании системы комнаты Скайп версии 2 с сервером Exchange при локальном использовании средств администрирования Active Directory для добавления адрес электронной почты для учетной записи домена в локальной. Эта учетная запись будет синхронизирован с Office 365. Выполните указанные ниже действия.
   
@@ -142,7 +143,7 @@ ms.locfileid: "20965452"
     
 5. В разделе **Назначение лицензий** выберите Skype для бизнеса (план 2) или Skype для бизнеса (план 3), в зависимости от требований к лицензированию и Корпоративной голосовой связи. Вам потребуется использовать лицензии планирование 3, если вы хотите использовать корпоративной голосовой связи на вашей версии 2 Скайп комнаты систем.
     
-6. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**.
+6. Нажмите кнопку **Сохранить**.
     
 Для проверки можно использовать любой Скайп для бизнеса клиента для входа в эту учетную запись.
   
@@ -150,7 +151,7 @@ ms.locfileid: "20965452"
 
 [Настройка учетных записей для систем комнаты Скайп версии 2](room-systems-v2-configure-accounts.md)
 
-[Планирование для Систем комнат Skype версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Развертывание Систем комнат Skype версии 2](room-systems-v2.md)
   

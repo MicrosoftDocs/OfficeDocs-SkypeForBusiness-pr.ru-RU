@@ -3,18 +3,19 @@ title: Развертывание подключаемого модуля VDI Ly
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: krishra
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: В этом разделе рассматриваются процедуры развертывания для использования Скайп для бизнеса при подключении к удаленной виртуальных рабочих столов.
-ms.openlocfilehash: 08f676632e11c4bf95beee9b97be03703978a4a6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 792e6ab2521be2eaf46bc3a43979173d878fcb63
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373346"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699695"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Развертывание подключаемого модуля VDI Lync с Скайп for Business Server
  
@@ -67,7 +68,7 @@ ms.locfileid: "25373346"
   
 1. Пользователь вводит свои учетные данные в к Скайп для клиента Business, работающим на виртуальном рабочем столе.
     
-2. После Скайп для бизнеса обнаруживает подключаемого модуля VDI Lync, Скайп для бизнеса пользователю повторного ввода учетных данных. В данном диалоговом рекомендуется пользователей установите флажок **Сохранить пароль** , чтобы он или она не должен будет ввести учетные данные во время последующих входа в.
+2. После Скайп для бизнеса обнаруживает подключаемого модуля VDI Lync, Скайп для бизнеса пользователю повторного ввода учетных данных. In this dialog box, we recommend that the user select the **Save my password** check box so that he or she will not be required to enter credentials during subsequent sign in.
     
 3. Скайп для бизнеса начинается связывания с подключаемого модуля VDI Lync. Во время, которое происходит клиента отображает два значка в Скайп для строки состояния бизнеса. Значок в нижнем левом указывает, что звуковые устройства не доступны, а мигающей значок в правом нижнем указывает, что сопряжением Подключаемого модуля VDI находится в стадии разработки:. После успешной сопряжением Подключаемого модуля VDI значки изменяются и теперь обозначают аудиоустройство, который будет использоваться для вызовов и успешное сопряжение VDI: b. Пользователь теперь можно просмотреть его присутствии Скайп для бизнеса совместимых устройств, подключенных к локальному компьютеру и поместите и отвечать на звонки в обычном режиме.
     
@@ -121,4 +122,4 @@ ms.locfileid: "25373346"
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="tshoot_VDI"> </a>
 
-[Планирование развертывания Skype для бизнеса в средах VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+[Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md)

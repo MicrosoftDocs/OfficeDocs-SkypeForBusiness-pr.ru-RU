@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Сводка: Развертывание Скайп для бизнеса Web App и использовать приложение Скайп собраний с Скайп для бизнеса.'
-ms.openlocfilehash: 5789b239abd5acebca24b2d11b0747e6dd3bf9b5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261037"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699539"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Развертывание веб-загрузки клиентов в Скайп для Business Server
 
@@ -132,7 +133,7 @@ ms.locfileid: "23261037"
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Данные отправляются в корпорацию Майкрософт — в строгом соответствии с [Скайп для коллекции данных бизнес-процессов](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Сведения, отправленные Microsoft, строго соответствуют [рекомендациям по сбору данных в Skype для бизнеса](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Задайте время ожидания перед попадающих вернуться к локально размещаемого Скайп для бизнес-приложение Web программой Если CDN недоступен. По умолчанию установлено значение 6 с. Если установлено значение 0, никакого времени ожидания не будет.
 

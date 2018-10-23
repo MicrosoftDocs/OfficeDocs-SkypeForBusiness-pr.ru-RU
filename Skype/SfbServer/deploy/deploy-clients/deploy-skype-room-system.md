@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 description: Узнайте, как развертывание системы Скайп помещения, собрания комнаты решения, состоящая из интегрированной аппаратного и программного обеспечения, оптимизированный для присоединения к Скайп для деловых встреч.
-ms.openlocfilehash: a985a209c63d6d0262db42fb07f78133960444ca
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 94a9b1cb7ff3f341a51944cdc678bc66e44831cb
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020474"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699319"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Планирования развертывания для системы комнаты Скайп в Скайп для бизнеса
  
@@ -50,9 +51,9 @@ ms.locfileid: "21020474"
     
 - Скайп для бизнес enabled Скайп комнаты системную учетную запись на Скайп для пула Business Server (Enterprise или Standard Edition).
     
-- Система комнаты Скайп клиента устройством ПК с все необходимое программное обеспечение. Устройства PC должна быть запущена операционная система Windows 7 Embedded Standard. В этом оборудования обеспечивается партнерами-производителями Оборудования и все устройства (отображение, камеры, микрофон, динамики).
+- Система комнаты Скайп клиента устройством ПК с все необходимое программное обеспечение. The appliance PC must be running Windows 7 Embedded Standard operating system. This hardware is provided by OEM partners along with all devices (displays, camera, microphone, speakers).
     
-- Если вы решите присоединиться к appliance системы комнаты Скайп ПК на домен доменных служб Active Directory (AD DS), необходимо указать параметры групповой политики, которые вступают в конфликт с системой Скайп помещений. Кроме того можно оставить это устройство для ПК в рабочей группе. 
+- Если вы решите присоединиться к appliance системы комнаты Скайп ПК на домен доменных служб Active Directory (AD DS), необходимо указать параметры групповой политики, которые вступают в конфликт с системой Скайп помещений. Alternatively, you can leave this appliance PC in the Workgroup. 
     
 - Соответствующие пользовательские права для запуска командлетов приведены в этом документе. Командлеты CsMeetingRoom моделируются после командлета CsUser. Таким образом, все роли управления доступом на основе ролей (RBAC), требующиеся для запуска командлетов CsUser, применимы и к командлетам CsMeetingRoom. 
     

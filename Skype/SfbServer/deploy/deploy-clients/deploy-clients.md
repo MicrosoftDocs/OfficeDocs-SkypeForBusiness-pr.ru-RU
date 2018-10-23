@@ -4,17 +4,18 @@ ms.author: chucked
 author: chuckedmonson
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Сводка: Обзор методов установки enterprise client для Скайп для бизнеса.'
-ms.openlocfilehash: 31eb109f80379487ba50342817759f8d9b30acda
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7b58b712f5b6dec7383bcb8a58e1b17b0ed4d870
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985689"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699283"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Развертывание клиентов для Скайп для Business Server
  
@@ -38,15 +39,15 @@ ms.locfileid: "20985689"
 
 - [Настройка установки клиента Windows в Скайп для Business Server](customize-windows-client-installation.md)
     
-- [Настройка взаимодействия с клиентом в Skype для бизнеса](configure-the-client-experience.md)
+- [Configure the client experience with Skype for Business](configure-the-client-experience.md)
     
 - [Настройка интеллектуального списка контактов в Skype для бизнеса Server](configure-smart-contacts-list.md)
     
 ## <a name="installing-device-clients"></a>Установка устройства клиентов
 
-- [Skype для бизнеса Server 2015: установка и проверка Skype для бизнеса на Windows Phone](windows-phone.md)
+- [Install and test Skype for Business for Windows Phone](windows-phone.md)
     
-- [Установка и и проверка Skype для бизнеса под управлением iOS](ios.md)
+- [Install and test Skype for Business for iOS](ios.md)
     
 - [Развертывание системы комнат Skype в Skype для бизнеса Server](deploy-skype-room-system.md)
     

@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: Прочтите этот раздел, чтобы узнать о развертывании системы комнаты Скайп в среде, где имеется несколько версий Скайп для Business Server и Lync Server.
-ms.openlocfilehash: 24015d85ef82b3a175564f92504d7c0ca46e9d54
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fef5e3e0a64fd1d533a53586b470584421a165ea
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982750"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699723"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Рекомендации по перемещению системы комнат Skype
  
@@ -22,9 +23,9 @@ ms.locfileid: "20982750"
   
 ## <a name="migration-considerations"></a>Рекомендации по перемещению
 
-В этом разделе рекомендации при развертывании системы комнаты Скайп в среде нескольких пула, который включает в себя различными версиями Скайп Business Server, Lync Server или Office Communications Server 2007 R2. 
+В этом разделе рекомендации при развертывании системы комнаты Скайп в среде нескольких пула, который включает в себя различными версиями Скайп Business Server и Lync Server. 
   
-Компонент Репликатор пользователей (UR) в Lync Server получает объектов-пользователей из Active Directory и помещает их в базе данных SQL Server серверной Lync Server. Объекты системы комнаты Скайп известно только UR в Lync Server 2013. UR в предыдущих версиях Lync Server и Office Communications Server не определять атрибуты Active Directory, которые определяют объекты LRS и поэтому не знать о них. 
+The User Replicator (UR) component in Lync Server gets user objects from Active Directory and places them into the Lync Server back-end SQL Server database. Объекты системы комнаты Скайп известно только UR в Lync Server 2013. The UR in previous versions of Lync Server and Office Communications Server do not detect the Active Directory attributes that designate LRS objects, and therefore was not aware of them. 
   
 Если Скайп комнаты системной учетной записью попытается войти в Lync и выполняет автоматическое обнаружение на основе SRV-записи или запись DNS A для поиска и выберите пункт этих учетных записей для предыдущей версии Lync Server или Office Communications Server, LRS будет получать 404 не найден ответ от  устаревшем пуле. Устаревшего пула не сможет перенаправление системы Скайп помещения его домашнего пула Lync Server 2013. 
   
@@ -34,7 +35,7 @@ ms.locfileid: "20982750"
     
 - Если первый вариант невозможно, необходимо вручную настроить LRS и укажите адрес пула Lync Server 2013, настроив его непосредственно в Скайп комнаты системы консольное приложение. 
     
-- Если развернута система комнаты Скайп за пределами корпоративной сети и пограничного сервера Lync была развернута и настроена для указания на устаревшем пуле или директор, дополнительного пограничный сервер сайта является обязательным, который указывает на пул Lync Server 2013. Обратитесь к документации по развертыванию пограничного сервера Дополнительные сведения о развертывании пограничного сервера-получателя. 
+- Если развернута система комнаты Скайп за пределами корпоративной сети и пограничного сервера Lync была развернута и настроена для указания на устаревшем пуле или директор, дополнительного пограничный сервер сайта является обязательным, который указывает на пул Lync Server 2013. Refer to the Edge Server deployment documentation for more information about deploying a secondary Edge Server. 
     
 ## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Взаимодействие системы Скайп помещений с пуле Lync Server 2010
 

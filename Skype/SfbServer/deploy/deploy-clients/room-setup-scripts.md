@@ -4,23 +4,24 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: В этом разделе описывается поиск примеров сценариев предоставления учетных записей Системы комнат Skype.
-ms.openlocfilehash: 2102a9aa306b7d545ce299b0c0808d6129cbbb02
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2032799059d59d1a99526a2b90630dd3c7b1cb3e
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997848"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699667"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Сценарии для настройки системы комнат Skype
  
 В этом разделе описывается поиск примеров сценариев предоставления учетных записей Системы комнат Skype.
   
-В данном разделе приводятся примеры сценариев, которые можно использовать для подготовки Скайп комнаты системных учетных записей. Эти сценарии служат для иллюстрации только и должен использоваться только после консультации с администратором IT expert или домен.
+В данном разделе приводятся примеры сценариев, которые можно использовать для подготовки Скайп комнаты системных учетных записей. These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.
   
 ## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Пример сценария настройки: Скайп для бизнеса и Exchange Server (локально)
 

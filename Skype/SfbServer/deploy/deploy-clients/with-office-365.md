@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365.
-ms.openlocfilehash: 6c59ff1aa7f32998efb5f7693d4e46b417b3fd84
-ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
+ms.openlocfilehash: 7b3afbb0dbefb29a5cef7a9729254c1024c0369f
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25501496"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699618"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Развертывание Систем комнат Skype версии 2 в среде Office 365 
 
@@ -27,7 +28,7 @@ ms.locfileid: "25501496"
 
 ## <a name="deploy-skype-room-systems-v2-with-office-365"></a>Развертывание Систем комнат Skype версии 2 в среде Office 365 
 
-Перед развертыванием системы комнаты Скайп версии 2 с Office 365, убедитесь, что удовлетворены требования. Для получения дополнительных сведений см [систем комнаты Скайп версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).
+Перед развертыванием системы комнаты Скайп версии 2 с Office 365, убедитесь, что удовлетворены требования. Дополнительные сведения см. в разделе [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
 
 Чтобы включить Скайп для бизнеса, необходимо иметь следующее:
 
@@ -111,7 +112,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```
 
-7. Затем необходимо включить запись устройства с Скайп для бизнеса. Убедитесь, что в вашей среде соответствует требованиям, определенным в [системах комнаты Скайп требования к версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).
+7. Затем необходимо включить запись устройства с Скайп для бизнеса. Ваша среда должна соответствовать требованиям, определенным в разделе [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
 
    Для запуска удаленного сеанса Windows PowerShell следующим образом (не забудьте установить Скайп для компонентов Business Online PowerShell):
 
@@ -188,7 +189,7 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [Настройка учетных записей для систем комнаты Скайп версии 2](room-systems-v2-configure-accounts.md)
 
-[Планирование для Систем комнат Skype версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
 [Развертывание Систем комнат Skype версии 2](room-systems-v2.md)
 

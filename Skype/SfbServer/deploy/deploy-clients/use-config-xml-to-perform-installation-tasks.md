@@ -4,17 +4,18 @@ ms.author: chucked
 author: chuckedmonson
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: Сводка. Сведения об использовании файла Config.xml для определения дополнительных инструкций по установке.
-ms.openlocfilehash: a6234424240dc0d7ebb70762598467bfcee997e2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dfb6625146261b1bbf22e0f563717899c68beaae
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371515"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699560"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Использование файла Config.xml для выполнения задач установки в Скайп пользователей
 
@@ -48,7 +49,7 @@ ms.locfileid: "25371515"
 | **Элемент**              | **Описание**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuration  <br/>     | Элемент верхнего уровня (обязательный). Содержит атрибут Product, например: Product=Lync. (Это работает только для клиентов Skype для бизнеса.)  <br/>                                                                                                                                                          |
-| OptionState  <br/>       | Определяет, как при установке будут обрабатываться компоненты конкретного продукта. Используйте следующие атрибуты для предотвращения установки служб Business Connectivity Services, который включает в себя общие компоненты, которые мешают Outlook: <br/>  ID = «LOBiMain» <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| OptionState  <br/>       | Определяет, как при установке будут обрабатываться компоненты конкретного продукта. Используйте следующие атрибуты для предотвращения установки служб Business Connectivity Services, который включает в себя общие компоненты, которые мешают Outlook: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | Display  <br/>           | Уровень пользовательского интерфейса, отображаемого пользователю программой установки. Обычно используются следующие атрибуты: <br/>  CompletionNotice = «Yes»                                                                                                                                                                                |
 | Logging  <br/>           | Параметры ведения журнала программой установки. Обычно используются следующие атрибуты: <br/>  Тип = «Off»                                                                                                                                                                                       |
 | Setting  <br/>           | Определяет значения для свойств программы установщика Windows. Обычно используются следующие атрибуты:<br/>  Setting Id =» *имя*"(имя свойства установщика Windows)  <br/>  Значение =» *значение*"(значение, задаваемое свойству)  <br/>                                                             |

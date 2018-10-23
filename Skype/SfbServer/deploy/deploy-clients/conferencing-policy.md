@@ -3,18 +3,19 @@ title: Политика конференц-связи для учетных за
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: davgroom
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: В этом разделе описывается назначение политик конференц-связи для учетных записей Системы комнат Skype.
-ms.openlocfilehash: a9eb05c8e29a3db216bc74e5e016c2c6a8413a33
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a56bf9f6b8ba70a4f9ec1f28e84dfa67b1e71aa9
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973425"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699575"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Политика конференц-связи для учетных записей системы комнат Skype
  
@@ -28,7 +29,7 @@ ms.locfileid: "20973425"
 |:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Должно быть значение true для системы комнаты Скайп звука  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |Должно быть значение true для аудио системы Скайп комнаты для работы в провести собрание (компьютер) доску сеансов в системе Скайп комнаты  <br/> |
-|Для параметра AllowMultiView  <br/> |TRUE  <br/> |Позволяет Скайп комнаты для отображения нескольких представления несколько видеопотоков  <br/> |
+|AllowMultiView  <br/> |TRUE  <br/> |Позволяет Скайп комнаты для отображения нескольких представления несколько видеопотоков  <br/> |
 |AllowParticipantControl  <br/> |TRUE  <br/> |Влияет на провести собрание (компьютер) доску сеансов в системе Скайп комнаты  <br/> |
 |AllowAnnotations  <br/> |TRUE  <br/> |Влияет на провести собрание (компьютер) доску сеансов в системе Скайп комнаты  <br/> |
 |DisablePowerPointAnnotations  <br/> |False  <br/> |Влияет на провести собрание (компьютер) доску сеансов в системе Скайп комнаты  <br/> |
@@ -43,8 +44,8 @@ ms.locfileid: "20973425"
 |AllowSharedNotes  <br/> |TRUE  <br/> |Н/д в собраниях провести собрание по (сети ad hoc), но Скайп комнаты системы может отвечать на опросы на экране на передний комнаты  <br/> |
 |EnableDialInConferencing  <br/> |TRUE  <br/> |Влияет на провести собрание (компьютер) доску сеансов в системе Скайп комнаты  <br/> |
 |EnableAppDesktopSharing  <br/> |Desktop  <br/> |Влияет на провести собрание (компьютер) доску сеансов в системе Скайп комнаты  <br/> |
-|AllowConferenceRecording  <br/> |FALSE  <br/> |Н/д для помещения Скайп системы. Если значение TRUE, записать удаленного пользователя  <br/> |
-|Enablep2precording установлена  <br/> |FALSE  <br/> |Н/д для помещения Скайп системы. Если значение TRUE, записать удаленного пользователя  <br/> |
+|AllowConferenceRecording  <br/> |FALSE  <br/> |Н/д для помещения Скайп системы. If TRUE, a remote party could record  <br/> |
+|EnableP2PRecording  <br/> |FALSE  <br/> |Н/д для помещения Скайп системы. If TRUE, a remote party could record  <br/> |
 |EnableFileTransfer  <br/> |TRUE  <br/> |Н/Д  <br/> |
 |EnableP2PFileTransfer  <br/> |TRUE  <br/> |Н/Д  <br/> |
 |EnableP2PVideo  <br/> |TRUE  <br/> |Позволяет клиенту системы комнаты Скайп участие в сеансах peer-to-peer video  <br/> |
@@ -53,11 +54,11 @@ ms.locfileid: "20973425"
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |Игнорировать Скайп для Business Server, система комнаты Скайп использует HD1080  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |Влияет на провести собрание (компьютер) доску сеансов в системе Скайп комнаты  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |Примечание в конце таблицы\*  <br/> |
-|Для параметра VideoBitRateKb  <br/> |5000  <br/> |Это максимальная исходящих скорость видеопотока разрешены. Система Скайп комнаты можно отправить один 1080 в потоковом режиме наряду с pano (если используется RoundTable) в этом скорость потока. \*  <br/> |
+|VideoBitRateKB  <br/> |5000  <br/> |Это максимальная исходящих скорость видеопотока разрешены. Система Скайп комнаты можно отправить один 1080 в потоковом режиме наряду с pano (если используется RoundTable) в этом скорость потока. \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |Примечание в конце таблицы\*  <br/> |
 |FileTransferBitRateKb  <br/> |5000  <br/> |Н/Д  <br/> |
-|Для параметра TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |Рекомендуется установить значение как можно выше. Пропускную способность зависит от состояния сети во время конференции.\*  <br/> |
-|Для параметра EnableMultiViewJoin  <br/> |TRUE  <br/> |Должно быть значение TRUE для системы комнаты Скайп, чтобы обеспечить просмотр нескольких видеопотоков  <br/> |
+|TotalReceiveVideoBitRateKB  <br/> |20000  <br/> |Рекомендуется установить значение как можно выше. Пропускную способность зависит от состояния сети во время конференции.\*  <br/> |
+|EnableMultiViewJoin  <br/> |TRUE  <br/> |Должно быть значение TRUE для системы комнаты Скайп, чтобы обеспечить просмотр нескольких видеопотоков  <br/> |
    
 * Сведения о планировании пропускной способности содержатся [требования к пропускной способности сети для трафика мультимедиа](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic).
   

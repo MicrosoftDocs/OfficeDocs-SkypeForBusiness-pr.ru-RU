@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Скайп для Business Server.
-ms.openlocfilehash: db4551e91d808161d52e73033df8234001f21de3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 891f716be3a2b7d8479af83b57dfccd70500e50d
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883948"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699382"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Развертывание Скайп комнаты v2 систем с Скайп для Business Server
   
@@ -29,7 +30,7 @@ ms.locfileid: "23883948"
   
 ## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Развертывание Скайп комнаты v2 систем с Скайп для Business Server
 
-Перед развертыванием системы комнаты Скайп версии 2 с Скайп для Business Server убедитесь, что удовлетворены требования. Для получения дополнительных сведений см [систем комнаты Скайп версии 2](../../plan-your-deployment/clients-and-devices/requirements.md).
+Перед развертыванием системы комнаты Скайп версии 2 с Скайп для Business Server убедитесь, что удовлетворены требования. Дополнительные сведения см. в разделе [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
 Перед началом развертывания систем комнаты Скайп версии 2, убедитесь, что у соответствующих разрешений для запуска связанного командлетов.
   
@@ -125,7 +126,7 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 [Настройка учетных записей для систем комнаты Скайп версии 2](room-systems-v2-configure-accounts.md)
 
-[Планирование для Систем комнат Skype версии 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Развертывание Систем комнат Skype версии 2](room-systems-v2.md)
   

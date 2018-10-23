@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: В этом разделе описывается настройка Системы комнат Skype для федеративных партнеров Skype для бизнеса.
-ms.openlocfilehash: 8099b5af72d4ce8e5a8be25c7fabc8563387dd46
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e954bf5d7586c651d9d045b2d428f86f01de8a30
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997953"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699546"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Федеративные партнеры системы комнат Skype и Skype для бизнеса
  
@@ -22,9 +23,9 @@ ms.locfileid: "20997953"
   
 ## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Федеративные партнеры системы комнат Skype и Skype для бизнеса
 
-Система комнаты Скайп полагается на Скайп присоединиться к для собраний ссылку в приглашении на собрание календаря. Ссылку присоединиться к обычно находится в тексте приглашения на собрание. Тем не менее система комнаты Скайп зависит от этой ссылке, чтобы быть представлены в разделе свойства MAPI сообщения. При этом собрание отправляется удаленного организаций (Скайп для федеративных партнеров), по умолчанию будет Скайп комнаты системы удаленного организации не показывать ссылку присоединения к собранию в календаре. На самом деле пользователей Outlook в удаленную организацию смогут присоединяться к Скайп для собраний с правой кнопкой мыши календаря, элемента или из в рамках собрания напоминание. Они должны откройте приглашение и нажмите кнопку Скайп присоединиться к собранию Business в тексте сообщения. 
+Система комнаты Скайп полагается на Скайп присоединиться к для собраний ссылку в приглашении на собрание календаря. The join link is usually found in the body of a meeting request. Тем не менее система комнаты Скайп зависит от этой ссылке, чтобы быть представлены в разделе свойства MAPI сообщения. При этом собрание отправляется удаленного организаций (Скайп для федеративных партнеров), по умолчанию будет Скайп комнаты системы удаленного организации не показывать ссылку присоединения к собранию в календаре. На самом деле пользователей Outlook в удаленную организацию смогут присоединяться к Скайп для собраний с правой кнопкой мыши календаря, элемента или из в рамках собрания напоминание. Они должны откройте приглашение и нажмите кнопку Скайп присоединиться к собранию Business в тексте сообщения. 
   
-Это ограничение объясняется, что Outlook и Microsoft Exchange не используют специальный метод для упаковки данных для отправки сообщений через Интернет. Этот метод делается ссылка как транспорта Neutral Encapsulation формата TNEF, отключено по умолчанию для сообщений, отправленных извне организации Exchange. Для участия в собрании ссылку присоединиться к отображаться в удаленной системе комнаты Скайп, отправляющим организации необходимо включить TNEF с помощью следующей команды:
+The reason for this limitation is that Outlook and Microsoft Exchange do not use a special method to package information for sending messages across the Internet. This method, referred to as Transport Neutral Encapsulation Format (TNEF), is disabled by default for messages sent externally from an Exchange organization. Для участия в собрании ссылку присоединиться к отображаться в удаленной системе комнаты Скайп, отправляющим организации необходимо включить TNEF с помощью следующей команды:
   
 ```
 New-RemoteDomain -DomainName Contoso.com -Name Contoso

@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 description: В этих разделах содержатся сведения о предоставлении учетных записей Exchange и Skype для системы комнат Skype.
-ms.openlocfilehash: 584b4582f68510302af81afa32b47672220304f2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ec812f569e096d31fb1085d196037677edf5da37
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988432"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699276"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Предоставление учетных записей Exchange и Skype для системы комнат Skype
  
@@ -24,7 +25,7 @@ ms.locfileid: "20988432"
 > Версии 2 Скайп комнаты систем — это разные продукт с другой зависимости и процедуры развертывания. Сведения о версии 2 Скайп комнаты систем содержатся v2 систем комнаты Скайп [Общие сведения о развертывании](room-systems-v2.md).
   
 > [!NOTE]
-> Подготовка учетных записей системы комнаты Скайп зависит от типа topology в вашей организации есть. Чтобы получить дополнительные сведения о топологии Active Directory, видеть [окружающей среды требования к Скайп для Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+> Подготовка учетных записей системы комнаты Скайп зависит от типа topology в вашей организации есть. To know more about Active Directory topologies, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
   
 ## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Подготовку комнаты Скайп системы Exchange &amp; Скайп для бизнес-партнеры
 
@@ -34,9 +35,9 @@ ms.locfileid: "20988432"
     
 - Развертывание нескольких локальных лесов
     
-- Office 365
+- Office 365
     
-- Гибридные развертывания
+- Гибридное развертывание
     
 - Федеративные партнеры системы комнат Skype и Skype для бизнеса
     

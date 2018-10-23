@@ -3,18 +3,19 @@ title: Настройка клиента на Mac в Skype для бизнеса
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: PhillipGarding
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: В этой статье описываются параметры клиента Skype для бизнеса на Mac и настройки по умолчанию, а также порядок их изменения вне приложения.
-ms.openlocfilehash: ae7f3a5c63a77820aba24e93d820ae2eff9176ad
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: dd2f9b1d69e24f17cf76f33896804e5f50cd0ad3
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22912845"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699297"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Настройка клиента на Mac в Skype для бизнеса
  
@@ -24,7 +25,7 @@ ms.locfileid: "22912845"
 
 Некоторые функции и поведения, доступных для Скайп для бизнеса на клиентов, определяются настройки на стороне клиента. Скайп для бизнеса на Mac предпочтения находятся в файл, расположенный на компьютерах Mac. установленных Скайп для клиента Business, расположенном по следующему пути: 
   
- **~/Library/Containers/COM.Microsoft.SkypeForBusiness/Data/Library/Preferences/COM.Microsoft.SkypeForBusiness.plist**
+ **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
 Чтобы задать эти параметры, получения командной строки в Mac клиента и в качестве необходимо ввести значения по умолчанию и записи com.microsoft.SkypeForBusiness клавиш с помощью клавиш предпочтений, описанные в следующей таблице.
   
@@ -43,7 +44,7 @@ ms.locfileid: "22912845"
 |autoAcceptTimeout    |Число    |300 (по умолчанию)    |Тайм-аут автоматического приема запросов для пользователей, не имеющих журнала бесед на стороне сервера.    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = Отключено  <br/> 1 = Включено    |Предупреждает пользователя при наборе номера экстренной помощи из неизвестного места.    |
 |sipAddress    |Строка    ||Адрес SIP (электронной почты), используемый для входа в систему для Скайп для бизнеса.    |
-|имя пользователя    |Строка    ||Имя участника-пользователя (имя пользователя) используется для входа в систему для Скайп для бизнеса.    |
+|userName    |Строка    ||Имя участника-пользователя (имя пользователя) используется для входа в систему для Скайп для бизнеса.    |
 |userNameInAdvancedOnly    |Bool    |0 = отображения в поле имя пользователя на главном экране входа и в диалоговом окне Дополнительные свойства  <br/> 1 = отображения поля имя пользователя только в диалоговое окно "Дополнительные свойства" (по умолчанию)    |Укажите, где отображается в поле имя пользователя при входе в систему.    |
    
 ### <a name="usage-examples"></a>Примеры использования
