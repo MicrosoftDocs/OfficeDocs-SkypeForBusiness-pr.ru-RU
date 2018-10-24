@@ -182,6 +182,7 @@
 ### [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ### [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
 ### [Общие сведения о динамическое членство в группах](dynamic-memberships.md)
+## [Присутствие](presence-admins.md)
 ## [Гостевой доступ](guest-access.md)
 ### [Присоединение гостя к команде](guest-joins.md)
 ### [Взаимодействие с гостями](guest-experience.md)
@@ -211,7 +212,8 @@
 #### [Что такое группы live событий?](teams-live-events/what-are-teams-live-events.md)
 #### [Планирование групп событий в реальном времени](teams-live-events/plan-for-teams-live-events.md)
 #### [Настройка для групп событий в реальном времени](teams-live-events/set-up-for-teams-live-events.md)
-#### [Настройка групп событий в реальном времени](teams-live-events/configure-teams-live-events.md)
+#### [Использование PowerShell для настройки политик групп событий в реальном времени](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+#### [Настройка параметров групп событий в реальном времени](teams-live-events/configure-teams-live-events.md)
 
 
 
