@@ -1,96 +1,85 @@
 ---
-title: Настройка событий в реальном времени в группами Майкрософт
+title: Настройка параметров live события в группами Майкрософт
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
+ms.date: 10/23/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: tonysmit
+ms.reviewer: sonua
 search.appverid: MET150
-description: Сведения о настройке параметров live событий в группами Майкрософт, включая настройку видимости attendee и параметров записи.
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
+description: Узнайте, как управлять параметрами для групп live события, которые хранятся в вашей организации.
+f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcd9bc02257d67f1af959d2158042ea73545a25e
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: b8e12b6b85b61bb8c6312054be07dc37365c62c0
+ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354358"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25748151"
 ---
-# <a name="configure-live-events-in-microsoft-teams"></a>Настройка событий в реальном времени в группами Майкрософт
+# <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров live события в группами Майкрософт
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-## <a name="set-up-event-support-link"></a>Настройка ссылок поддержка событий
-Это ссылки, будут показаны участникам live события. 
+Используйте параметры групп событий в реальном времени для настройки параметров для live события, которые хранятся в вашей организации. Можно настроить URL-адрес поддержки и настроить распределение видео стороннего поставщика. Эти параметры применяются ко всем событиям live, которые созданы в вашей организации. 
 
-В Windows PowerShell, выполните следующие действия:
+Можно легко управлять эти параметры в группами Майкрософт & Скайп по центру администрирования бизнеса. В левой области переходов, перейдите к **собраниям** > **Параметры событий в реальном времени**. 
+
+![Live — событие settings.png] (../media/teams-live-events-settings.png "Снимок экрана команды live настройки событий, которые можно настроить в группами Майкрософт & Скайп по центру администрирования бизнеса") 
+
+## <a name="set-up-event-support-url"></a>Настройка URL-адрес поддержки событий
+
+Этот URL-адрес отображается в live участников события. Добавление поддержки URL-адрес для своей организации для предоставления возможности обратиться в службу поддержки во время события live участников.
+
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![команды логотип 30x30.png](../media/teams-logo-30x30.png) Использование групп Майкрософт & Скайп по центру администрирования бизнеса
+
+1. В левой области переходов, перейдите к **собраниям** > **Параметры Live событий**.
+2. В группе **Поддержки URL-адрес**введите URL-адрес поддержки вашей организации. 
+
+    ![Параметр URL-адреса поддержки для live события в группами Майкрософт & Скайп по центру администрирования бизнеса] (../media/teams-live-events-settings-supporturl.png "Снимок экрана поддерживает URL-адрес, задание для групп событий в реальном времени")
+
+### <a name="using-windows-powershell"></a>С помощью Windows PowerShell
+Выполните следующее:
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
-## <a name="configure-attendee-visibility-options"></a>Настройка параметров отображения результатов attendee
-Это позволяет организаторов трансляция создание событий с помощью видимости соответствующих attendee.
+Для получения дополнительных сведений см [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+## <a name="configure-a-third-party-video-distribution-provider"></a>Настройка распределение видео стороннего поставщика 
 
-|**Значения**  |**Поведение**  |
-|---------|---------|
-|Всем пользователям     |У пользователя есть возможность создания событий в реальном времени с помощью следующих видимости attendee: Public, всем пользователям в организации и конкретные пользователи. |
-|EveryoneInCompany     |У пользователя есть возможность создания событий в реальном времени с помощью следующих видимости attendee: всем пользователям в организации и конкретные пользователи. Пользователь не может создавать live события, которые могут быть посетившие анонимными пользователями.|
-|InvitedUsers |Пользователь может создавать только live события, которые не более конкретные пользователи с Организатор события. Пользователь не может создавать событий в реальном времени со Public и все возможности проверки подлинности компании. |
+Если приобретается и настройка решения сети (SDN) определенного программного обеспечения или корпоративной сети (eCDN) решение через партнером Майкрософт и видео доставки настройте поставщика для событий в реальном времени в группах. 
 
-Параметр BroadcastAttendeeVisibility в TeamsMeetingBroadcastPolicy в PowerShell для управления ли пользователи могли планировать вещания события, которые могут быть просмотрены с анонимных участников. 
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![команды логотип 30x30.png](../media/teams-logo-30x30.png) Использование групп Майкрософт & Скайп по центру администрирования бизнеса
 
-Если для пользователей, которым назначен пользовательскую политику, пользователи получают глобальной политики, которая имеет значение EveryoneInCompany по умолчанию. 
- 
-В Windows PowerShell выполните следующие действия, чтобы разрешить пользователям создавать анонимные событий в глобальную политику.
+1. В левой области переходов, перейдите к **собраниям** > **Параметры Live событий**.
+2. В разделе **сторонние поставщики распределение видео**установите следующие параметры. 
+
+    ![Параметры поставщика распределение видео сторонних производителей в группами Майкрософт & Скайп по центру администрирования Business] (../media/teams-live-events-settings-distribution-provider.png "Снимок экрана параметров поставщика распределение видео сторонних производителей для события")
+
+    - **Использование рассылки стороннего поставщика** Отключите этот вход в систему включить распределение видео стороннего поставщика.
+    - **Имя поставщика SDN** Выберите поставщика, который вы используете.
+    - **Ключ многократной установки поставщика** Введите код лицензии, полученный из контактов поставщика.
+    - **URL-адрес шаблона SDN API** Введите URL-адрес шаблона API, полученный от поставщика контакт.
+
+### <a name="using-windows-powershell"></a>С помощью Windows PowerShell
+Получение маркера лицензии идентификатор или интерфейса API и шаблона API из контактов поставщика и затем выполните одно из следующих действий в зависимости от поставщика, который вы используете:
+
+**Куст** 
 ```
-Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
-## <a name="configure-recording-options"></a>Настройка параметров записи
+**Kollective** 
+```
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
+```
+Для получения дополнительных сведений см [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+
 > [!NOTE]
-> Этот параметр используется для событий, используйте метод рабочей Quick start только.
+> Если планируется создание live событий, использующих внешний кодировщики, необходимо также [настроить поставщика eCDN с Microsoft потока](https://docs.microsoft.com/stream/network-caching). 
 
-Это позволяет администраторам для управления ли live всегда записываются события, никогда не зарегистрированы, или Организатор события могут принять для записи события или нет.  
-
-|**Значения**  |**Поведение**  |
-|---------|---------|
-|Всегда включена |Всегда записываются live события, упорядоченные по этому пользователю. У пользователя нет могут переопределить. Если live событий записывается, участники группы событий — могут загружать записи после события и участников можно отслеживать события после события. |
-|AlwaysDisabled |Никогда не записываются live события, упорядоченные по этому пользователю. У пользователя нет могут переопределить. Если записан live события нет записи создается для членов группы событий и участники нельзя отслеживать события после отказа. |
-|UserOverride |Пользователь может решить, записывается ли live событие, чтобы файл записи могут быть созданы для членов группы событий и участников можно отслеживать события после события. |
-
-Используйте параметр *BroadcastRecordingMode* в **TeamsMeetingBroadcastPolicy** в PowerShell для управления параметров live события, созданные Организатор live события записи.
-
-В Windows PowerShell выполните следующий командлет, чтобы обновить режим записи в глобальной политики:
-```
-Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
-```
-## <a name="configure-real-time-transcription-and-translation-in-teams-live-events-coming-soon"></a>Настройка в режиме реального времени транскрибирования и перевода в событий в реальном времени групп (ожидается в ближайшее время)
-> [!NOTE]
-> Этот параметр используется для событий, используйте метод рабочей Quick start только.
-
-Это позволяет организаторов live события для включения в режиме реального времени подписи и перевода участников live события. 
-
-Используйте параметр *AllowBroadcastTranscription* в **TeamsMeetingBroadcastPolicy** в PowerShell для управления ли участники live события будет иметь возможность видеть транскрибирования и перевода. Дополнительные сведения об управлении **TeamsMeetingBroadcastPolicy** с Office 365 PowerShell здесь.  
-
-Если для пользователей, которым назначен пользовательскую политику, пользователи получают глобальной политики, которая имеет транскрибирования и перевода, этот параметр отключен по умолчанию.
-
-В Windows PowerShell выполните следующий командлет, чтобы включить транскрибирования и перевода на события участников в глобальной политики:
-```
-Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
-```
-## <a name="administrative-tools"></a>Средства администрирования 
-Хотя Microsoft непосредственно управляет все Office 365 Online центров обработки данных и несет ответственность за производительность системы, его можно управлять только часть элементы, которые обеспечивает общий интерфейс для пользователей Office 365. Организации, сами несут ответственность за сетевых подключений для центров обработки данных клиента глобальной сети (WAN), и клиента локальной сети (LAN). Кроме того они являются пользовательскими устройствами и их настройки.Они могут также ответственность за обеспечение требуемые лицензии на одного пользователя в любые необходимые функции, в том числе, но не только для управления эти функции для до тех пор, пока пользователь должен доступа к средству.
-
-Клиенты можно использовать следующие средства для управления различных задач, связанных с группами событий в реальном времени.
-- [Центр администрирования Microsoft Office 365](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_Office365admincenterl)
-- [Microsoft групп и Скайп для бизнеса в Интернет центра администрирования](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_ExchangeAdministrationCenter)
-- [Центр администрирования Microsoft потока](https://stream.microsoft.com)
-- [Удаленная оболочка Windows PowerShell](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_RemoteWindowsPowerShell)
-
-## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
-Когда появляется в Windows PowerShell, он все сведения об управлении пользователями и какие пользователи могут или не действующими для них. С помощью Windows PowerShell можно управлять Скайп и Office 365 для бизнеса Online с использованием точки администрирования, которые можно упростить повседневной работой при наличии нескольких задач для выполнения. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
- - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
- - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
-
-Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
- - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
- - [Использование Windows PowerShell для управления Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525453)
- - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+### <a name="related-topics"></a>Связанные разделы
+- [Что такое группы live событий?](what-are-teams-live-events.md)
+- [Планирование групп событий в реальном времени](plan-for-teams-live-events.md)
+- [Настройка для групп событий в реальном времени](set-up-for-teams-live-events.md)
