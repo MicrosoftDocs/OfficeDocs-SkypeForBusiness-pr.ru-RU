@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Сведения о настройке одного пограничный контроллер сеансов (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: 292a3e675455d112fdade04018e670b9a5f9c38f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7b085661e659e7836c5e463b24c9cc0a6f071aaa
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013427"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784818"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройте пограничный контроллер сеансов для нескольких клиентов
 
@@ -90,7 +90,7 @@ SBC требуется сертификат для проверки подлин
 |---------|---------|---------|---------|---------|---------|
 |Customers.adatum.Biz|    Base     |     В поставщика для клиентов  |    \*. customers.adatum.biz  |   adatum.Biz      |НД, это клиент службы, пользователи не |
 |sbc1.Customers.adatum.Biz|    Дочерний домен  |    В клиентов клиента  |    \*. customers.adatum.biz  | woodgrovebank.US  |  sbc1.Customers.adatum.Biz|
-|sbc2.Customers.adatum.Biz  |   Дочерний домен | В клиентов клиента   |   \*. customers.adatum.biz   |Contoso.com   |sbc2.Customers.adatum.Biz |
+|sbc2.Customers.adatum.Biz  |   Дочерний домен | В клиентов клиента   |   \*. customers.adatum.biz   |contoso.com   |sbc2.Customers.adatum.Biz |
 |sbc3.Customers.adatum.Biz |   Дочерний домен | В клиентов клиента |   \*. customers.adatum.biz  |  AdventureWorks.com | sbc3.Customers.adatum.Biz |
 ||         |         |         |         |         |
 
@@ -115,7 +115,7 @@ SBC требуется сертификат для проверки подлин
 
     ![Добавление базового домена](media/direct-routing-2-sbc-add-domain.png)
 
-3. Нажмите **Далее**.
+3. Нажмите кнопку **Далее**.
 4. В примере клиента уже adatum.biz подтвержденным доменное имя. Мастер не запрашивает дополнительную проверку из-за customers.adatum.biz дочерний домен для уже зарегистрированное имя. Тем не менее если добавить полное доменное имя, которое не было проверено перед необходимо пройти через процесс проверки. Процесс проверки, [описанные ниже](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
     ![Подтверждение verfied доменного имени](media/direct-routing-3-sbc-verify-domain.png)
@@ -127,7 +127,7 @@ SBC требуется сертификат для проверки подлин
 
 ### <a name="activate-the-domain-name"></a>Активация имя домена
 
-После регистрации имени домена, необходимо включить его, добавив по крайней мере один пользователь и назначьте SIP-адрес с помощью полного доменного ИМЕНИ части соответствия создан базовый домен SIP-адрес.
+После регистрации имени домена, вам нужно активировать, добавив по крайней мере один E1, E3, или E5 с корпоративным лицензированием пользователей и назначение SIP-адрес с помощью полного доменного ИМЕНИ части SIP решить, соответствующие создан базовый домен. 
 
 *Ознакомьтесь с [Получение справки по работе с Office 365 домены](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) Дополнительные сведения о добавлении пользователей в клиентов Office 365.*
 
@@ -155,7 +155,7 @@ SBC требуется сертификат для проверки подлин
 
     ![Добавление дочернего домена клиента](media/direct-routing-5-sbc-add-customer-domain.png)
 
-3. Нажмите **Далее**.
+3. Нажмите кнопку **Далее**.
 4. Полное доменное имя, никогда не зарегистрирован в клиента. На следующем этапе необходимо проверить домен. Выберите **вместо добавления записи TXT**. 
 
     ![Параметры на странице Проверка домена](media/direct-routing-6-sbc-verify-customer-domain.png)

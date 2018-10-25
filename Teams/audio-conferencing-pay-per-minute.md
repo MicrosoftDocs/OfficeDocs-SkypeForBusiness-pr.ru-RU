@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: В дополнение к Стандартная лицензия пользователя аудиоконференции Лицензирование и многопользовательская организаций можно также предложение минуту для включения возможности конференц-связи аудио для своей организации.
-ms.openlocfilehash: 1c66649ebb75dd89756f7da45255801e4e60fc16
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 17a27c8426356b985168b26c6d19eabd88e306fa
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016927"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784850"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Поминутная оплата аудиоконференций
 
@@ -53,7 +53,7 @@ ms.locfileid: "25016927"
 - Исходящие вызовы, помещенные на внешние телефонные номера из в рамках собрания из вашей организации.
     
 > [!NOTE]
-> Можно найти нормы-связь и подключение по телефонной линии, связанный со эти типы звонков, описанные в разделе **увидеть курсы, для которых нужно позвонить раздел** в [Аудиоконференции](https://products.office.com/skype-for-business/pstn-conferencing). 
+> Можно найти нормы-связь и подключение по телефонной линии, связанный со эти типы звонков, описанные в разделе **увидеть курсы, для которых нужно позвонить раздел** в [Аудиоконференции](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates).
   
 Минуту требуется вашей организации для [Коммуникаций кредитов](what-are-communications-credits.md) лицензию, назначенную для каждого пользователя в порядке для аудиоконференции для работы с включенными. Для получения дополнительных сведений в статье [Set up кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md) и/или [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   

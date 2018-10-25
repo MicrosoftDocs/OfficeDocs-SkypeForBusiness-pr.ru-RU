@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: В этой статье рассматриваются вопросы планирования использования управления набор операций для администрирования системы комнаты Скайп v2 устройств в вашей Скайп для реализации Business Server.
-ms.openlocfilehash: 14f6ba95e5b2bcf7619002bb2dbc1e9ae3eb474a
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 64f1d91840a34ed9c9845e7fb0aae1e322fab68e
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965942"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784802"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Планирование управления системами комнат Skype версии 2 с помощью OMS
  
@@ -38,27 +38,27 @@ ms.locfileid: "23965942"
   
 ## <a name="oms-requirements"></a>Требования для OMS
 
-Для использования этой возможности требуется действующая подписка на OMS. В разделе [Начало работы с рабочей области для анализа журналов](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json) для создания подписки для вашей организации.
+Для использования этой возможности требуется действующая подписка на OMS. Сведения о создании подписки для организации см. в статье [Начало работы с рабочей областью Log Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json).
   
-Необходимо ознакомиться с инструкциями по использованию конструктора представлений OMS. Эти сведения в разделе [представления в решений по управлению пакет управления Operations (OMS)](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views) .
+Необходимо ознакомиться с инструкциями по использованию конструктора представлений OMS. Подробные сведения см. в статье о [представлениях в решениях для управления Operations Management Suite (OMS)](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views).
   
 ### <a name="related-tasks"></a>Связанные задачи
 
-1. После подписаться OMS, создание настраиваемых полей (как описано в [соответствие полей](../../deploy/deploy-clients/with-oms.md#Custom_fields)) требуется для синтаксического анализа сведения, которые будут отправляться из систем комнаты Скайп версии 2 консоли. Этот компонент включает общие сведения о схеме JSON, задокументированные в [понять записей журнала](../../manage/skype-room-systems-v2/oms.md#Telemetry).
+1. После подписаться OMS, создание настраиваемых полей (как описано в [соответствие полей](../../deploy/deploy-clients/with-oms.md#Custom_fields)) требуется для синтаксического анализа сведения, которые будут отправляться из систем комнаты Скайп версии 2 консоли. Этот компонент включает общие сведения о схеме JSON, задокументированные в [понять записей журнала](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries).
     
 2. Разработка представления управления системами комнаты Скайп версии 2 в OMS. Можно либо [Создать панели мониторинга системы комнаты Скайп версии 2 с помощью метода import](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method) ) или [Создание панели мониторинга v2 систем комнаты Скайп вручную](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually).
     
 ## <a name="individual-skype-room-systems-v2-console-requirements"></a>Отдельные требования к консоли систем комнаты Скайп версии 2
 
-Каждой версии 2 консоли Скайп комнаты систем — это приложения, работающего на устройство поверхность 4 в полноэкранном режиме (как правило, он настроен в качестве только приложения, можно запустить на устройстве). С помощью любого приложения Windows приложения v2 систем комнаты Скайп записывает событиям, таким как загрузка и оборудование ошибок в журнале событий Windows. Добавление агента OMS на устройстве v2 систем комнаты Скайп позволяет эти события собирать с OMS. (Дополнительные сведения см. в [компьютеры Windows подключиться к службе анализа журнала в Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents) )
+Каждой версии 2 консоли Скайп комнаты систем — это приложения, работающего на устройство поверхность 4 в полноэкранном режиме (как правило, он настроен в качестве только приложения, можно запустить на устройстве). С помощью любого приложения Windows приложения v2 систем комнаты Скайп записывает событиям, таким как загрузка и оборудование ошибок в журнале событий Windows. Добавление агента OMS на устройстве v2 систем комнаты Скайп позволяет эти события собирать с OMS. (Дополнительные сведения см. в разделе [Подключение компьютеров Windows к службе Log Analytics в Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents).)
   
 ## <a name="ongoing-management"></a>Текущее управление
 
-Во время использования OMS для управления устройствами конференции систем комнаты Скайп версии 2, необходимо понять сведения, содержащиеся в журналах событий, используемых OMS. Для получения дополнительных сведений на этих сообщений работоспособности в разделе [понять записей журнала](../../manage/skype-room-systems-v2/oms.md#Telemetry) .
+Во время использования OMS для управления устройствами конференции систем комнаты Скайп версии 2, необходимо понять сведения, содержащиеся в журналах событий, используемых OMS. Для получения дополнительных сведений на этих сообщений работоспособности в разделе [понять записей журнала](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries) .
   
 ### <a name="related-tasks"></a>Связанные задачи
 
-- Понять оповещения, созданные с версии 2 Скайп комнаты систем и методы их устранения (приведены в разделе [понять записи журнала](../../manage/skype-room-systems-v2/oms.md#Telemetry))
+- Понять оповещения, созданные с версии 2 Скайп комнаты систем и методы их устранения (приведены в разделе [понять записи журнала](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries))
     
 ## <a name="see-also"></a>См. также
 

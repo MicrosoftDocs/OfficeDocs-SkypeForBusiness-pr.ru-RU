@@ -1,5 +1,5 @@
 ---
-title: Управление настройками аудиоконференций для организации в Microsoft Teams
+title: Управление параметрами звука конференц-связи для вашей организации в группах Майкрософт
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о шагах в Microsoft Teams для назначения лицензии конференц-связи с телефонным подключением и идентификатора конференции пользователю и многих других настройках такой конференц-связи. '
-ms.openlocfilehash: b63650833c7c844de11ecb833288b6568604f919
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 327f9f9f9511e914d87b41f35f932df5aebd15c0
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375865"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784865"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Управление настройками аудиоконференций для организации в Microsoft Teams
+# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Управление параметрами звука конференц-связи для вашей организации в группах Майкрософт
 
 Вам будет проще просматривать все настройки аудиоконференций для Microsoft Teams в одном месте. 
 
@@ -180,7 +180,7 @@ ms.locfileid: "25375865"
     
     В этом случае, пользователям отправляются сообщения, содержащие идентификатор конференции и номер телефона, но не включающие в себя ПИН-код.
 
-Просмотр и установка основного и дополнительных языков для моста аудиоконференций
+See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Просмотреть, задайте основной (по умолчанию) и дополнительных языков (альтернативного) на звукового конференц-канала
 
@@ -195,7 +195,7 @@ ms.locfileid: "25375865"
 4. Нажмите кнопку **Сохранить**.
 
 
-См. номера для аудиоконференции с телефонным подключением.
+See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>Просмотра аудиоконференций телефонных номеров
 

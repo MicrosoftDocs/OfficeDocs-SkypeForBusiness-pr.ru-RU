@@ -348,7 +348,7 @@
 #### [Включение и отключение отправки писем при смене настроек аудиоконференций](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Управление настройками аудиоконференций для пользователя](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [Управление настройками аудиоконференций для организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Управление параметрами звука конференц-связи для вашей организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [Номера телефонов для аудиоконференций](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Сброс идентификатора конференции для пользователя](reset-a-conference-id-for-a-user-in-teams.md)
