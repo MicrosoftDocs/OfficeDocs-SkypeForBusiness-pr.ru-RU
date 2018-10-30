@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Скайп для Business Server 2019 поддерживает развертывание на нескольких сайтах и несколькими пула. Процесс миграции несколько пулов в Скайп for Business Server 2019 требуются следующие вопросы:'
-ms.openlocfilehash: 9716df65acfde26c41001bbc252b746ea1bd5241
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 74c622c1cde4a01c51749c6942c898e11e1551f9
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028749"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839165"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>Перенос нескольких сайтов и пулов
 
@@ -31,6 +31,6 @@ ms.locfileid: "25028749"
     
 6. Убедившись, что устаревшего пула пуст, вы можете отключить пула. 
     
-    Для получения дополнительных сведений о том, как отключение прежних версий старого пула и серверы увидеть [Этап 8: ликвидация старых пулов](phase-8-decommission-legacy-pools.md).
+    Дополнительные сведения о том, как отключить устаревшего пула и серверы см [Этап 8: ликвидация старых пулов](phase-8-decommission-legacy-pools.md).
     
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Сводка: Развертывание Скайп для бизнеса Web App и использовать приложение Скайп собраний с Скайп для бизнеса.'
-ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 13facacfc2e42ec45e29aae1c1006c792ef6ac1e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699539"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839228"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Развертывание веб-загрузки клиентов в Скайп для Business Server
 
@@ -75,7 +75,7 @@ ms.locfileid: "25699539"
 
 Компонент BranchCache в Windows 7 и Windows Server 2008 R2 могут мешать Скайп для веб-компонентов Business Web App. Чтобы предотвратить проблемы для Скайп для пользователей Business Web App, убедитесь, что не включен компонент BranchCache.
 
-Для получения дополнительных сведений об отключении BranchCache можно найти [В руководстве по развертыванию BranchCache](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
+Для получения дополнительных сведений об отключении BranchCache можно найти [В руководстве по развертыванию BranchCache](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Проверка Скайп по развертыванию Web App
 <a name="MFA"> </a>
@@ -133,7 +133,7 @@ ms.locfileid: "25699539"
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Сведения, отправленные Microsoft, строго соответствуют [рекомендациям по сбору данных в Skype для бизнеса](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Сведения, отправленные Microsoft, строго соответствуют [рекомендациям по сбору данных в Skype для бизнеса](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Задайте время ожидания перед попадающих вернуться к локально размещаемого Скайп для бизнес-приложение Web программой Если CDN недоступен. По умолчанию установлено значение 6 с. Если установлено значение 0, никакого времени ожидания не будет.
 

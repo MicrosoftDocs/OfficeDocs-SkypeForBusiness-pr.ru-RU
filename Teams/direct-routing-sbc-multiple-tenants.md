@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Сведения о настройке одного пограничный контроллер сеансов (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: 7b085661e659e7836c5e463b24c9cc0a6f071aaa
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784818"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839089"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройте пограничный контроллер сеансов для нескольких клиентов
 
@@ -56,7 +56,7 @@ ms.locfileid: "25784818"
 Подробное описание действий по развернуть и настроить их изготовителей размещения случае SBC обратитесь к документации разработчика SBC.
 
 - **AudioCodes:** [Заметки о конфигурации прямой маршрутизации](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), конфигурации SBC, размещения сценария, описанного в «Подключение SBC AudioCodes группами Майкрософт прямой маршрутизации размещение модели конфигурации уведомление». 
-- **Ленты коммуникаций:**  Обратитесь за помощью для [Ленты Communications SBC ядра Microsoft группами руководство по настройке](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) для получения сведений о настройке ленты основных серии SBC и на этой странице [ленты наиболее рекомендация - Настройка доставки прямой маршрутизации Microsoft групп SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Ленты коммуникаций:**  Обратитесь за помощью для [Ленты Communications SBC ядра Microsoft группами руководство по настройке](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) для получения сведений о настройке ленты основных серии SBC и на этой странице [Рекомендация ленты - Настройка доставки SBC прямой маршрутизации Microsoft групп Пограничного сервера](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > Пожалуйста, обратите внимание на способы настройки заголовка «Контакт». Заголовок контакт будет использоваться для поиска клиента клиента во входящем сообщении пригласить. 

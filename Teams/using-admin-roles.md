@@ -9,12 +9,12 @@ ms.service: msteams
 description: Изучите использование различных администрирования ролей для управления группами.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e09aa4146588cf32a6dd7cf0816a89cb4bdd696
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: f70b1035600079d4a4f746fe33fa03c6eab287a7
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678444"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838993"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Использование роли администраторов группами Майкрософт для управления группами
 
@@ -33,17 +33,17 @@ ms.locfileid: "25678444"
 | Инженер поддержки по коммуникациям Teams | Устранения неполадок коммуникаций в рамках групп с помощью **расширенных** средств. | Доступ к странице профиля пользователя для устранения неполадок вызывает в аналитике вызова. Можно просмотреть записи сведений полного звонок. <sup>3</sup> |
 | Специалист по поддержке Communications групп | Устранения неполадок коммуникаций в рамках групп с помощью **основных** средств.| Доступ к странице профиля пользователя для устранения неполадок вызывает в аналитике вызова. Возможность просмотра сведений только о запрашиваемом пользователе<sup>3</sup>.
 
-<sup>1</sup> [PowerShell - Скайп для бизнес-модуля](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
+<sup>1</sup> [PowerShell - Скайп для бизнес-модуля](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell - модуль группами Майкрософт](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [группами Майкрософт и Скайп по центру администрирования бизнеса](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>3</sup> [группами Майкрософт и Скайп по центру администрирования бизнеса](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 <!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
-Дополнительные сведения о средствах администрирования, доступных для управления группами Майкрософт можно [Управление группами Майкрософт](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center).
+Дополнительные сведения о средствах администрирования, доступных для управления группами Майкрософт можно [Управление группами Майкрософт](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
 
 ## <a name="assign-users-to-each-role"></a>Назначение пользователю каждой роли
 
-Пользователям можно назначить эти роли в Azure Active Directory. Чтобы узнать, как назначение административных ролей пользователю в Azure Active Directory, обратитесь к разделу [Назначение пользователю роли администратора в Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+Пользователям можно назначить эти роли в Azure Active Directory. Чтобы узнать, как назначение административных ролей пользователю в Azure Active Directory, обратитесь к разделу [Назначение пользователю роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## <a name="cmdlets-available-for-each-role"></a>Командлеты, доступные для каждой роли
 
@@ -59,6 +59,6 @@ ms.locfileid: "25678444"
 ### <a name="related-topics"></a>Связанные разделы
 
 - [Обзор PowerShell группами Майкрософт](teams-powershell-overview.md)
-- [PowerShell группами Майкрософт](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)
-- [Назначение группы владельцев и членов в группы Microsoft](https://docs.microsoft.com/en-us/microsoftteams/assign-roles-permissions)
+- [PowerShell группами Майкрософт](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+- [Назначение группы владельцев и членов в группы Microsoft](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
 

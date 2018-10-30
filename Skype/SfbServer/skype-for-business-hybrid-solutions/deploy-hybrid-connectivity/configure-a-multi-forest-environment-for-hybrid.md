@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: В следующих разделах рекомендации по настройке среды с несколькими лесами в модель леса ресурса/пользователя для предоставления Скайп для бизнес-функции в гибридном сценарии.
-ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370926"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838565"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Настройте среду нескольких лесов по гибридной среде Скайп для бизнеса
  
@@ -39,9 +39,9 @@ ms.locfileid: "25370926"
     
 - Exchange Server может быть развернута в один или несколько лесов, которые может включать или не включать лес, содержащий Скайп для Business Server. Убедитесь, что вы применили последние накопительные пакеты обновления.
     
-- Подробнее о совместная работа с Exchange Server в том числе поддержка условия и ограничения в разных локальных и через Интернет, см [функции поддержки](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) в [Планирование интеграции Скайп для бизнеса и Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+- Дополнительные сведения о совместной работе с Exchange Server, в том числе ограничениях и критериях поддержки для различных комбинаций локальных и интернет-решений, см. в разделе [Поддержка функций](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) статьи [Plan to integrate Skype for Business and Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
     
-Для получения дополнительных сведений обратитесь за помощью к [окружающей среды требования к Скайп для Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+Дополнительные сведения см. в разделе [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
   
 ## <a name="user-homing-considerations"></a>Рекомендации по размещению пользователей
 
@@ -49,7 +49,7 @@ ms.locfileid: "25370926"
   
 ## <a name="configure-forest-trusts"></a>Настройка отношений доверия между лесами
 
-Между лесом ресурсов и каждым из лесов пользователей должны быть установлены двусторонние транзитивные отношения доверия. При наличии нескольких лесов пользователей для включения проверки подлинности между лесами важно включить режим "Маршрутизация суффикса имен" применительно к каждому из этих отношений доверия. Сведения содержатся в разделе [Управление довериях лесов](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+Между лесом ресурсов и каждым из лесов пользователей должны быть установлены двусторонние транзитивные отношения доверия. При наличии нескольких лесов пользователей для включения проверки подлинности между лесами важно включить режим "Маршрутизация суффикса имен" применительно к каждому из этих отношений доверия. Инструкции см. в разделе [Управление отношениями доверия между лесами](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Синхронизация учетных записей в лесу, размещение Скайп для бизнеса
 
@@ -63,10 +63,10 @@ ms.locfileid: "25370926"
 |:-----|:-----|
 |выбранный атрибут ссылки на учетную запись  <br/> |выбранный атрибут ссылки на учетную запись  <br/> |
 |mail   <br/> |mail   <br/> |
-|ProxyAddresses.  <br/> |ProxyAddresses.  <br/> |
+|ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-[Выбранные атрибут ссылки учетной записи](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/) будет использоваться как источник привязки. При наличии различных и постоянные атрибут, который вы хотите использовать, можно сделать это, убедитесь, что изменение правила утверждения службы федерации Active Directory и выберите атрибут во время настройки подключения AAD.
+[Выбранные атрибут ссылки учетной записи](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) будет использоваться как источник привязки. При наличии различных и постоянные атрибут, который вы хотите использовать, можно сделать это, убедитесь, что изменение правила утверждения службы федерации Active Directory и выберите атрибут во время настройки подключения AAD.
   
 Не выполнять синхронизацию между лесами UPN. В результате испытаний было обнаружено, что имена субъектов-пользователей должны быть уникальными для каждого леса пользователей: одно и то же имя субъекта-пользователя не может быть назначено в разных лесах пользователей. Поэтому следовало рассмотреть две возможности: с синхронизацией и без синхронизации имени субъекта-пользователя. 
   
@@ -76,7 +76,7 @@ ms.locfileid: "25370926"
     
 ## <a name="create-an-office-365-tenant"></a>Создание клиента Office 365
 
-После этого необходимо подготовить клиент Office 365 для работы в этом развертывании. Дополнительные сведения можно найти в [Office 365 подготовки действия](https://social.technet.microsoft.com/wiki/contents/articles/22808.office-365-provisioning-steps.aspx). 
+После этого необходимо подготовить клиент Office 365 для работы в этом развертывании. Дополнительные сведения см. в разделе [Этапы подготовки Office 365](https://social.technet.microsoft.com/wiki/contents/articles/22808.office-365-provisioning-steps.aspx). 
   
 ## <a name="configure-ad-fs"></a>Настройка AD FS
 
@@ -112,7 +112,7 @@ ms.locfileid: "25370926"
   
 Обратите внимание на то, что для тестового пользователя в AAD Connect распознаны атрибуты sourceAnchor и cloudSourceAnchor из объектов леса пользователей, леса ресурсов и Office 365; в данном случае отображается значение 1101, выбранное ранее для атрибута employeeNumber. Это позволило выполнить объединение и получить показанный выше объект. 
   
-Для получения дополнительных сведений см [Интеграция вашей локальной удостоверения с помощью Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/). 
+Дополнительные сведения см. в разделе [Интеграция локальных удостоверений с Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   
 При установке AAD преимущественно применяются значения по умолчанию. Ниже указаны исключения. 
   
@@ -122,12 +122,12 @@ ms.locfileid: "25370926"
     
 3.  Определение пользователей в каталогах локального: выберите **удостоверения пользователей существовать в нескольких каталогах** и выберите атрибуты **ObjectSID** и **msExchangeMasterAccountSID**
     
-4. Определение пользователей в Azure AD: привязки источника — Выбор атрибута выбора после прочтения [Выбор атрибута хороший sourceAnchor](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/), имя участника-пользователя - **userPrincipalName**
+4. Определение пользователей в Azure AD: привязки источника — Выбор атрибута выбора после прочтения [Выбор атрибута хороший sourceAnchor](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), имя участника-пользователя - **userPrincipalName**
     
 5.  Дополнительные функции — выберите ли у вас есть гибридное развертывание Exchange развернут или нет.
     
     > [!NOTE]
-    >  Если у вас есть только в Exchange Online, возможны проблемы со сбоями OAuth во время автообнаружения из-за CNAME в режиме одобрения администратором. Чтобы исправить ошибку, необходимо задать URL-адреса автообнаружения Exchange, выполнив следующий командлет с Скайп для консоли Business Server:
+    >  If you have only Exchange Online, there could be an issue with OAuth failures during autodiscover because of CNAME redirection. Чтобы исправить ошибку, необходимо задать URL-адреса автообнаружения Exchange, выполнив следующий командлет с Скайп для консоли Business Server:
   
     SET-CsOAuthConfiguration - ExchangeAutoDiscoverURLhttps://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
     
@@ -137,7 +137,7 @@ ms.locfileid: "25370926"
     
 ## <a name="configure-hybrid-mode-for-skype-for-business-server"></a>Настройка гибридного режима для Skype для бизнеса Server
 
-Следуйте рекомендациям по настройке Скайп для гибридных бизнеса. Дополнительные сведения о планировании см [Планирование гибридного развертывания для Скайп для Business Server 2015](https://technet.microsoft.com/en-us/library/jj205403.aspx)и сведения о конфигурации в разделе [Настройка гибридных с Скайп для бизнеса в Интернет](https://technet.microsoft.com/en-us/library/jj204669.aspx). 
+Следуйте рекомендациям по настройке Скайп для гибридных бизнеса. Дополнительные сведения о планировании см. в разделе [Планирование гибридного развертывания Skype для бизнеса Server 2015](https://technet.microsoft.com/en-us/library/jj205403.aspx); сведения о настройке см. в разделе [Настройка гибридного развертывания Skype для бизнеса Online](https://technet.microsoft.com/en-us/library/jj204669.aspx). 
   
 ## <a name="configure-hybrid-mode-for-exchange-server"></a>Настройка гибридного режима для Exchange Server
 

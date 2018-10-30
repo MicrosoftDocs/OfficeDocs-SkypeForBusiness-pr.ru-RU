@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Сводка: Сведения о сведения о развертывании диспетчера статистики для Скайп для Business Server 2015.'
-ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28ee68cc8770660587cb7d22d2ddd68c754a4fca
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371143"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838580"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Развертывание диспетчера статистики в Skype для бизнеса Server 2015
+# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
  
 **Сводка:** В данном разделе приведены описан процесс развертывания диспетчера статистики для Скайп для Business Server 2015.
   
@@ -68,7 +68,7 @@ ms.locfileid: "25371143"
     
     Можно загрузить неподписанный программы установки[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    При необходимости, подписанные двоичные файлы можно загрузить популярные пакет руководители: [Nuget](https://www.nuget.org/packages/Redis-64/) и [Choclatey](https://chocolatey.org/packages/redis-64).
+    При необходимости подписанные двоичные файлы можно получить через популярные диспетчеры пакетов — [Nuget](https://www.nuget.org/packages/Redis-64/) и [Choclatey](https://chocolatey.org/packages/redis-64).
     
    - Запустите MSI-файл и следуйте указаниям.
     
@@ -212,7 +212,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Для просмотра всей импортированной информации о сервере выполните следующий сценарий:  
+Для просмотра сведений в настоящее время импортированных сервера, выполните следующий скрипт: 
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -299,12 +299,12 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
 
 Дополнительные сведения приведены далее.
   
-- [Планирование для диспетчера статистики для Скайп Business Server 2015](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Обновление диспетчера статистики в Skype для бизнеса Server 2015](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [Устранение проблем диспетчера статистики в Skype для бизнеса Server 2015](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
-- [Скайп для диспетчером сервера Статистика блога](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Блог, посвященный диспетчеру статистики Skype для бизнеса Server](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

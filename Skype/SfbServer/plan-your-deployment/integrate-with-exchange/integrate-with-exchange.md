@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Сводка: Просмотрите в этом разделе приведены сведения об интеграции Скайп для Business Server с Exchange Server 2016 или Exchange Server 2013.'
-ms.openlocfilehash: e46775a7a57702cd71293f2343aa2bf089491393
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374219"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839103"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Планирование интеграции Skype для бизнеса и Exchange
  
@@ -63,7 +63,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 Для получения дополнительных сведений о службе автообнаружения см [Службы автообнаружения](https://go.microsoft.com/fwlink/p/?LinkId=268542).
   
-После настройки службы автоматического обнаружения необходимо затем изменить Скайп о параметрах конфигурации Business Server OAuth; Это гарантирует, что этой Скайп для Business Server знает расположение службы автообнаружения. Для изменения параметров конфигурации OAuth в Скайп для Business Server, выполните следующую команду в Скайп для консоли Business Server. При запуске этой команды, убедитесь, что указан URI для службы автообнаружения, запущенные на сервере Exchange, и использовать **autodiscover.svc** для указания на расположение службы вместо **autodiscover.xml** (которая указывает XML-файла используется службой):
+После настройки службы автоматического обнаружения необходимо затем изменить Скайп о параметрах конфигурации Business Server OAuth; Это гарантирует, что Скайп для Business Server знает расположение службы автообнаружения. Для изменения параметров конфигурации OAuth в Скайп для Business Server, выполните следующую команду в Скайп для консоли Business Server. При запуске этой команды, убедитесь, что указан URI для службы автообнаружения, запущенные на сервере Exchange, и использовать **autodiscover.svc** для указания на расположение службы вместо **autodiscover.xml** (которая указывает XML-файла используется службой):
   
 ```
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 

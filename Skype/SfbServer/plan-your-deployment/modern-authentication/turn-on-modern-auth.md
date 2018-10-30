@@ -11,19 +11,19 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Этот командлеты файлов в режиме структуры статьи, предоставить администраторам больше контроля методов проверки подлинности используется внутри и вне, бизнес. Администраторы могут включить методы проверки подлинности либо отключена во внутреннем или внешнем ресурсе с сетью.
-ms.openlocfilehash: 51dfaf9dc4c65afdd615cf29632c21d4cba08f65
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 57b51a897f476d5c4b4b17ccda8ffe074f8a26cd
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692756"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839766"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Планирование для отключения методов проверки подлинности Legacy внутренних и внешних в сеть.
 
 > [!NOTE]
 > Если вы хотите ознакомьтесь с этой статьей, уже должны знать о поддерживаемых топологий современных проверки подлинности, ADAL, и о конфигурации современных проверки подлинности, но в случае, если вы не ниже приведены статьи, необходимую для запуска в работе: 
->  + [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
->  + [https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal)
+>  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
+>  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
   
 Современный проверки подлинности только что позволяет выполнять не более безопасной методы проверки подлинности, такой как двухфакторной проверкой подлинности или проверку подлинности на основе сертификата, его можно выполнять авторизации пользователей без необходимости имя пользователя или пароль слишком. Он может оказаться полезным.
 

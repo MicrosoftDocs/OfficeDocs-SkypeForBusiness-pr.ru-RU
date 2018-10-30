@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Сводка: Подготовка к Скайп для серверов Business Server 2019 и инфраструктуры домена в этом разделе. Оборудование, операционная система, баз данных, программного обеспечения, все требования к системе и рекомендации, а также сертификат DNS, файловый ресурс и сведения Active Directory, являются здесь для обеспечения успешной установки и развертывания фермы серверов.'
-ms.openlocfilehash: e8a5b29bb555df6ae3920d521dd21ca8bbe38d7f
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 39de1f756d5fdd278ea497d1273e474e030bb448
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784704"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838630"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Требования к системе для Скайп для Business Server 2019
  
@@ -347,7 +347,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
 При данном сценарии несколько лесов расположены локально с топологией с лесом ресурсов, что является отношением полного доверия между лесами Active Directory. Служба Azure Active Directory Connect используется для синхронизации учетных записей между локальными лесами пользователей и Office 365.
   
- У организации также есть Office 365, и она использует [Azure Active Directory Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect) для синхронизации своих локальных учетных записей с Office 365. Пользователи, которым разрешена Скайп для бизнеса включены с помощью Office 365 и Скайп для бизнеса в Интернет. Скайп для Business Server не развертываются локально.
+ У организации также есть Office 365, и она использует [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) для синхронизации своих локальных учетных записей с Office 365. Пользователи, которым разрешена Скайп для бизнеса включены с помощью Office 365 и Скайп для бизнеса в Интернет. Скайп для Business Server не развертываются локально.
   
 Единого входа проверки подлинности предоставляется в ферму служб федерации Active Directory, расположенных в лесу пользователя.
   

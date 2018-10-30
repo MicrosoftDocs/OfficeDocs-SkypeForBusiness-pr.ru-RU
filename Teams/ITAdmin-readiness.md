@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bce73966b8aa15717e3c96e91f703059428127b
-ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
+ms.openlocfilehash: 4036e6b740b059dc1075afe4b7ad3da7b9277c88
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405162"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838515"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "25405162"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,7 +50,7 @@ ms.locfileid: "25405162"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
+                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,7 +68,7 @@ ms.locfileid: "25405162"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ ms.locfileid: "25405162"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +104,7 @@ ms.locfileid: "25405162"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="success" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -129,8 +129,8 @@ ms.locfileid: "25405162"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Переход со Skype для бизнеса на Microsoft Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Руководство. Переход со Skype для бизнеса на Microsoft Teams</a></p>
+                        <h3>Переход со Skype для бизнеса на Teams</h3>
+                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Руководство. Переход со Skype для бизнеса на Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -236,7 +236,7 @@ ms.locfileid: "25405162"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Аудиоконференция</h3>
+                        <h3>Аудиоконференции</h3>
                          <p><a href="tutorial-audio-conferencing.yml">Руководство по Аудиоконференций в группах</a></p>
                          <p><a href="https://www.youtube.com/watch?v=AGPvaW4Vg0o">Видео: Общие сведения о конференции</a></p>
                          <p><a href="https://www.youtube.com/watch?v=AWbuvcWcYIc">Видео: Планирование аудиоконференций</a></p>

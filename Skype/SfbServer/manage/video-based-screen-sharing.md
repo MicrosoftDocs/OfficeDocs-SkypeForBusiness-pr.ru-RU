@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Скайп для сервера планирования и сведения о конфигурации на основе видео (VbSS) совместное использование рабочего стола
-ms.openlocfilehash: a7ea07f02b73b1092a11f61757318d0d653e048a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375910"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839749"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Видео на основе совместное использование рабочего стола для Скайп для Business Server 
  
@@ -48,7 +48,7 @@ ms.locfileid: "25375910"
 
 |**Роль сервера**|**Имя службы**|**Порт или диапазон портов**|**Протокол**|**Примечания**|
 |:-----|:-----|:-----|:-----|:-----|
-|Серверы переднего плана  <br/> |Скайп для службы Business Server общий доступ к приложениям  <br/> |5065  <br/> |TCP  <br/> |Используется для входящих SIP-запросов на прослушивание для общего доступа к приложению.  <br/> |
+|переднего плана  <br/> |Скайп для службы Business Server общий доступ к приложениям  <br/> |5065  <br/> |TCP  <br/> |Используется для входящих SIP-запросов на прослушивание для общего доступа к приложению.  <br/> |
 |Серверы переднего плана  <br/> |Скайп для службы Business Server общий доступ к приложениям  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Диапазон портов, используемых для общего доступа к приложению.  <br/> |
    
 **Необходимое клиентское порты**
@@ -99,7 +99,7 @@ ms.locfileid: "25375910"
   
 |**Содержимое 1080p **|**Среднее число RDP**|**Пиковая загрузка RDP**|**Средняя загрузка VbSS**|**Пиковая загрузка VbSS**|
 |:-----|:-----|:-----|:-----|:-----|
-|PPT  <br/> |200 Кбит/с  <br/> |12mbps  <br/> |100 кбит/с  <br/> |3mbps  <br/> |
+|PPT  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
 |Видео  <br/> |5mbps  <br/> |7mbps  <br/> |1.3mbps  <br/> |2.2mbps  <br/> |
    
@@ -150,7 +150,7 @@ ms.locfileid: "25375910"
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    Дополнительные сведения на эту команду [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)см.
+    Дополнительные сведения на эту команду [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)см.
     
 - Чтобы полностью отключить технологию VbSS, выполните следующую команду:
     
@@ -158,7 +158,7 @@ ms.locfileid: "25375910"
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    Дополнительные сведения на эту команду [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)см.
+    Дополнительные сведения на эту команду [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)см.
     
 > [!NOTE]
 > В многопользовательских Скайп для собраний все конечные точки клиентов будут использовать параметры политики для организатора собрания. 
@@ -177,7 +177,7 @@ ms.locfileid: "25375910"
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    Дополнительные сведения на эту команду [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)см.
+    Дополнительные сведения на эту команду [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)см.
     
 - Чтобы включить технологию VbSS (по умолчанию включена) после ее отключения, выполните следующую команду:
     
@@ -185,7 +185,7 @@ ms.locfileid: "25375910"
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    Дополнительные сведения на эту команду [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)см.
+    Дополнительные сведения на эту команду [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)см.
     
 > [!NOTE]
 > В многосторонние Скайп для собраний все конечные точки клиентов будут использовать параметры политики для организатора собрания. 

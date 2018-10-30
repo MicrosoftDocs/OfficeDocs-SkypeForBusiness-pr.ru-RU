@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Прочтите этот раздел, чтобы узнать о планировании политики расположения для развертывания усовершенствованные экстренных служб (E9-1-1) в Скайп Business Server Enterprise Voice.
-ms.openlocfilehash: 919a09bb907bda8666c9a44ee61436643a912d61
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ed5eb479224c82757d808c202633cd79f466a543
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887325"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839429"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Планирование политик расположения Скайп для Business Server
  
@@ -86,6 +86,6 @@ ms.locfileid: "23887325"
   
  **Интервал обновления данных расположения**
   
-Указывает количество времени (в часах) между запросы клиентов для обновления расположение из службы сведения о расположении. Значение может быть присвоено любое значение в диапазоне от 1 до 12. Значение по умолчанию — 4.
+Указывает количество времени (в часах) между запросы клиентов для обновления расположение из службы сведения о расположении. The value can be set to any value between 1 and 12. The default value is 4.
   
 

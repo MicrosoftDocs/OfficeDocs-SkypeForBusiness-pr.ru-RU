@@ -4,24 +4,25 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: mwa
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Ссылки для ИТ-специалистов на сведения о последних обновлениях бессрочных лицензий для клиентов Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013
-ms.openlocfilehash: 69ff89c856204577c46f27c568f3b6d9cf5613b2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 522161d38c3e7a0b5cb46e9ce098e48478173a68
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374165"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839271"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Последние обновления версий Skype для бизнеса, в которых используется установщик Windows (MSI)
 
 По ссылкам, указанным на этой странице, находятся дополнительные сведения о последних обновлениях бессрочных лицензий для клиентов Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013, а также соответствующие файлы для скачивания.
 
 > [!NOTE]
-> - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
+> - Сведения в этой статье применимы только к бессрочным лицензиям для клиентов Skype для бизнеса, в которых используется установщик Windows (MSI). Например, к версии корпоративного лицензирования Skype для бизнеса, например, входящую в Office профессиональный плюс 2016.
 > - Сведения в этой статье не применимы к версиям Skype для бизнеса для Office 365, например, входящим в Office 365 профессиональный плюс.
 > - Просмотреть сведения о последних обновлениях мобильных клиентов, а также скачать установочные файлы можно в магазине приложений вашего мобильного клиента (iTunes, Google Play или Microsoft Store).
 > - Чтобы узнать, какую версию Skype для бизнеса вы используете, ознакомьтесь со статьей [Какая у меня версия Skype для бизнеса?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
@@ -29,11 +30,11 @@ ms.locfileid: "25374165"
 
 Совместимость Skype для бизнеса с Office 365 и вашей локальной средой зависит от требований к системе для вашего развертывания.
 
-- Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
+- Служба Office 365 совместима с любой версией Skype для бизнеса с основной фазой поддержки, включая последнюю версию Skype для бизнеса 2016. Из предыдущих серий Skype для бизнеса продолжить работу с Office 365 смогут только имеющие расширенную поддержку, однако их функциональность будет ограничена. Дополнительные сведения см. в разделе [Политика жизненного цикла Майкрософт](https://support.microsoft.com/lifecycle).
 
 - Для локальных развертываний Skype для бизнеса Server должны быть выполнены требования к системе для вашей версии Skype для бизнеса:
 
-  - [Требования к среде Skype для бизнеса](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
+  - [Требования к среде Skype для бизнеса](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
 
   - [Требования к системе Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
 

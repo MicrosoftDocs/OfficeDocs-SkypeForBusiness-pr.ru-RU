@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e2499cb2d1432c4b9ad48be3333e798a3a8b1574
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860646"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838711"
 ---
 # <a name="peer-to-peer-activity-report"></a>Отчет по одноранговым сеансам
 
@@ -107,7 +107,7 @@ Office 365 **отчеты** панели мониторинга показыва
     
 - [Скайп для бизнеса Организатор отчету о конференциях](conference-organizer-activity-report.md) Вы можете увидеть, какое количество пользователей организации конференций, использующие обмен мгновенными Сообщениями, аудио-и видеоконференции, совместный доступ к данным, веб-узла, телефонным in/out - 3rd стороны и телефонным in/out - Microsoft.
     
-- [Скайп для бизнеса участников отчету о конференциях](conference-participant-activity-report.md) Можно увидеть сколько приложения аудио и видео, обмен мгновенными Сообщениями, общий доступ, веб и и конференций в исходящих и конференц-связи являются являлся участником.
+- [Скайп для бизнеса участников отчету о конференциях](conference-participant-activity-report.md) Можно посмотреть сколько обмен мгновенными Сообщениями, аудио и видео, общий доступ к приложениям, веб-серверы и конференций в исходящих и конференц-связи являются являлся участником.
     
 - [Отчет о заблокированных Скайп для бизнес-пользователи](users-blocked-report.md) Можно просмотреть список пользователей в вашей организации, которые были заблокированы из вызовы ТСОП.
     
@@ -117,8 +117,8 @@ Office 365 **отчеты** панели мониторинга показыва
 
 - [Скайп для отчета о сеансе бизнеса](session-details-report.md) Можно просмотреть сведения о работе вызова отдельных пользователей.
     
-## <a name="related-topics"></a>См. также:
-[Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+## <a name="related-topics"></a>Связанные разделы
+[Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

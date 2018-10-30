@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Общие сведения об использовании Скайп для бизнеса в Интернет средства телеметрии для отслеживания локальной реализации в гибридном сценарии.
-ms.openlocfilehash: e9039d3865e3baf5740f4f7489b1a7cfec6dea98
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: d704f23f9b8260e8d755c4d1f0f48da927859ba1
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696214"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838522"
 ---
 # <a name="plan-call-data-connector"></a>Планирование подключения к данным звонка
 
@@ -46,7 +46,7 @@ ms.locfileid: "25696214"
 
 - Панель мониторинга качества звонков основное внимание уделяется производительности сети и проблемы в организации. Скайп для бизнеса администраторов и инженеров сети это средство предназначено для устранения неполадок и оптимизировать производительность сети.
 
-Дополнительные сведения можно [вызвать аналитики и панель мониторинга качества звонков](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+Дополнительные сведения можно [вызвать аналитики и панель мониторинга качества звонков](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
 
 Конечно может потребоваться сохранить некоторые данные о качестве вызовов локально. Это может быть в случае, например, при использовании решения сторонних производителей с настраиваемые отчеты и рабочие процессы.  Подключения к данным вызова позволяет настроить отправки данных на Интернет-службы, сохраняя также копирование данных на локальном сервере, как показано на рисунке:
 
@@ -55,7 +55,7 @@ ms.locfileid: "25696214"
 
 ## <a name="requirements"></a>Требования
 
-Следующие требования предполагается, что вы уже Скайп для Business Server, развернутые в поддерживаемых топологий.  Дополнительные сведения о развертывании Скайп Business Server и поддерживаемые топологии можно [Основы топологии](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Чтобы настроить вызова подключения к данным, нужно сделать следующее.
+Следующие требования предполагается, что вы уже Скайп для Business Server, развернутые в поддерживаемых топологий.  Дополнительные сведения о развертывании Скайп Business Server и поддерживаемые топологии можно [Основы топологии](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Чтобы настроить вызова подключения к данным, нужно сделать следующее.
 
 - Включение гибридного подключения. Уже Скайп Business Server развернут, чтобы разрешить вызов подключения к данным необходимо убедиться, что имеются гибридного подключения между локальной и сетевой средах. Это иногда называется конфигурации домена разделения. 
 

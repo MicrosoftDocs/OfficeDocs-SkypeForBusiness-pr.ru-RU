@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: Краткое содержание. В этом разделе приводятся сведения о планировании гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online.  Настройка гибридных подключений является первым шагом при развертывании многих гибридных решений Skype для бизнеса.
-ms.openlocfilehash: d3fe994535197209a8d35c10144e45badb4391a8
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890477"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838811"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Планирование гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online
 
@@ -32,7 +32,7 @@ ms.locfileid: "23890477"
 
 В этой статье содержатся следующие разделы.
 
-- [Обзор](plan-hybrid-connectivity.md#BKMK_Overview)
+- [Overview](plan-hybrid-connectivity.md#BKMK_Overview)
 
 - [Требования к инфраструктуре](plan-hybrid-connectivity.md#BKMK_Infrastructure)
 
@@ -60,7 +60,7 @@ ms.locfileid: "23890477"
 
 - [Политики и функции пользователей](plan-hybrid-connectivity.md#BKMK_UserPolicies)
 
-После того, как чтение в этом разделе и все готово к развертывание, просмотрите [развертывания гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). В нем вы найдете пошаговое руководство по настройке гибридного подключения между вашей локальной системой и Skype для бизнеса Online.
+Когда вы ознакомитесь с этим разделом и будете готовы к развертыванию, перейдите к разделу [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). В нем вы найдете пошаговое руководство по настройке гибридного подключения между вашей локальной системой и Skype для бизнеса Online.
 
 (Сведения о настройке Lync Server 2013 или развертывания Lync Server 2010 для гибридной среды, см. [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
 
@@ -89,7 +89,7 @@ ms.locfileid: "23890477"
 
 - Если ваши пользователи размещены в Skype для бизнеса Online, то необходимо назначить им лицензию Skype для бизнеса Online (План 2), как только их учетные записи будут синхронизированы с Azure AD.
 
-- После того, как пользователям Skype для бизнеса Online назначена лицензия, нужно активировать для них локальное использование Skype для бизнеса или корпоративной голосовой связи. Дополнительные сведения можно [Включить пользователей для корпоративной голосовой связи локально](plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Дополнительные сведения о требованиях к гибридной голосовой связи можно [Планирование телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп для Business Server](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
+- После того, как пользователям Skype для бизнеса Online назначена лицензия, нужно активировать для них локальное использование Skype для бизнеса или корпоративной голосовой связи. Дополнительные сведения можно [Включить пользователей для корпоративной голосовой связи локально](plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Дополнительные сведения о требованиях к гибридной системе для голосовой связи см. в разделе [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 Сведения о настройке Active Directory приведены в следующих разделах. Сначала рассмотрим термины и акронимы, используемые в схемах ниже, а также во многих разделах, посвященных гибридным подключениям.
 
@@ -136,15 +136,15 @@ ms.locfileid: "23890477"
     > [!NOTE]
     > Для гибридной конфигурации с локальным развертыванием вы можете использовать только один клиент.
 
-- Скайп для средств администрирования Business Server 2015. (При использовании Lync Server 2013 или Lync Server 2010, можно использовать средства администрирования Lync Server 2013. Для получения дополнительных сведений см. [гибридной среды Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=617360)).
+- Скайп для средств администрирования Business Server 2015. (При использовании Lync Server 2013 или Lync Server 2010, можно использовать средства администрирования Lync Server 2013. Дополнительные сведения см. в разделе [Гибридная среда Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
 
-- Azure Active Directory Connect для синхронизации вашего локального каталога с Office 365. Для получения дополнительных сведений см [Подключение Active Directory с помощью Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+- Azure Active Directory Connect для синхронизации вашего локального каталога с Office 365. Дополнительные сведения см в статье [Соединение Active Directory с Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
-    Для реализации единого входа в Office 365 с использованием тех же учетных данных, что и в локальной среде, вы можете воспользоваться функцией синхронизации паролей в Azure Active Directory (AAD) Connect. Для единого входа в Office 365 можно также пользоваться службой федерации Active Directory (AD FS).
+    Для реализации единого входа в Office 365 с использованием тех же учетных данных, что и в локальной среде, вы можете воспользоваться функцией синхронизации паролей в Azure Active Directory (AAD) Connect. Для единого входа в Office 365 можно также пользоваться службой федерации Active Directory (AD FS). 
 
-- Поддержка федерации между локальным развертыванием Skype для бизнеса Server и клиентом Office 365. Федерации пользователи в вашем развертывании локальных для взаимодействия с пользователями Office 365 в вашей организации. Дополнительные сведения можно [настроить федерацию с Скайп для бизнеса в Интернет](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
+- Поддержка федерации между локальным развертыванием Skype для бизнеса Server и клиентом Office 365. Федерации пользователи в вашем развертывании локальных для взаимодействия с пользователями Office 365 в вашей организации. Дополнительные сведения см. в статье [Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
 
-- Настроенное общее адресное пространство SIP. SIP-адрес — это уникальный идентификатор каждого пользователя в сети, подобный номеру телефона или адресу электронной почты. Прежде чем переместить пользователей из локальной Скайп для бизнеса в Интернет, вам потребуются для настройки клиента Office 365 для совместного использования общих Session Initiation Protocol (SIP) адресное пространство с локальным развертыванием. Дополнительные сведения можно [настроить федерацию с Скайп для бизнеса в Интернет](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
+- Настроенное общее адресное пространство SIP. SIP-адрес — это уникальный идентификатор каждого пользователя в сети, подобный номеру телефона или адресу электронной почты. Прежде чем переместить пользователей из локальной Скайп для бизнеса в Интернет, вам потребуются для настройки клиента Office 365 для совместного использования общих Session Initiation Protocol (SIP) адресное пространство с локальным развертыванием. Дополнительные сведения см. в статье [Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
 
 ## <a name="multi-forest-support"></a>Поддержка множества лесов
 <a name="BKMK_MultiForest"> </a>
@@ -170,7 +170,7 @@ ms.locfileid: "23890477"
 
   - Журнал бесед сервера со стороны, архивации, единого хранилища контактов, фотографий HighRes требуется Exchange 2013 или более поздней версии, и сервера OAuth необходимо включить взаимодействие между серверами. Для получения дополнительных сведений см. [Управление проверки подлинности сервер сервер (OAuth) и партнерских приложений в Скайп для Business Server 2015](https://technet.microsoft.com/en-us/library/jj204817.aspx).
 
-Подробнее о совместная работа с Exchange Server в том числе поддержка условия и ограничения в разных локальных и через Интернет, см [функции поддержки](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) в [Планирование интеграции Скайп для бизнеса и Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Дополнительные сведения о совместной работе с Exchange Server, в том числе ограничениях и критериях поддержки для различных комбинаций локальных и интернет-решений, см. в разделе [Поддержка функций](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) статьи [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
 
 ## <a name="administrator-credentials"></a>Учетные данные администратора
 <a name="BKMK_Credentials"> </a>
@@ -189,9 +189,9 @@ ms.locfileid: "23890477"
 
 - Skype для бизнеса
 
-- Lync 2013
+- Lync 2013
 
-- Lync 2010
+- Lync 2010
 
 - Магазина Lync Windows
 
@@ -292,7 +292,7 @@ ms.locfileid: "23890477"
 
 В зависимости от расположения центре обработки данных Microsoft Online Services, необходимо также настроить сетевые устройства брандмауэра для принятия подключений на основе доменных имен подстановочные знаки (например, трафик от \*. outlook.com). Если брандмауэры вашей организации не поддерживают шаблону имени конфигурации, необходимо вручную определить диапазоны IP-адресов, которые вы хотите разрешить и указанных портов.
 
-Дополнительные сведения см в [Office 365 URL-адреса и диапазоны IP-адресов](https://go.microsoft.com/fwlink/p/?LinkId=252942).
+Дополнительные сведения см. в разделе [Диапазоны URL-адресов и IP-адресов Office 365](https://go.microsoft.com/fwlink/p/?LinkId=252942).
 
 ## <a name="port-and-protocol-requirements"></a>Требования относительно портов и протоколов
 <a name="BKMK_Ports"> </a>
@@ -319,7 +319,7 @@ ms.locfileid: "23890477"
 При синхронизации учетных записей пользователей между локальным развертыванием и интерактивного клиента с помощью AAD подключения необходимо синхронизировать учетные записи AD для всех Скайп для бизнеса или Lync пользователей в вашей организации, даже в том случае, если пользователи не перемещаются в Интернете. Если не все пользователи синхронизированы, связь между локальными и сетевыми пользователи в организации может функционировать неправильно.
 
 > [!IMPORTANT]
-> Управление всех пользователей, включая пользователь перемещает между локальной и Скайп для бизнеса в Интернет, необходимо выполнить с помощью новой версией средства администрирования. Административные средства должны быть установлены на отдельном сервере, который имеет доступ к существующему развертыванию в локальной и к Интернету. Командлет, чтобы переместить пользователей из локального развертывания в Скайп для бизнеса в Интернет, [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps), необходимо выполнить в меню Администрирование, подключенных к локальным развертыванием. Дополнительные сведения о перемещении пользователей можно [переместить пользователей из локально на Скайп для бизнеса в Интернет](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md).
+> Управление всех пользователей, включая пользователь перемещает между локальной и Скайп для бизнеса в Интернет, необходимо выполнить с помощью новой версией средства администрирования. Административные средства должны быть установлены на отдельном сервере, который имеет доступ к существующему развертыванию в локальной и к Интернету. Командлет, чтобы переместить пользователей из локального развертывания в Скайп для бизнеса в Интернет, [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps), необходимо выполнить в меню Администрирование, подключенных к локальным развертыванием. Дополнительные сведения о перемещении пользователей можно [переместить пользователей из локально на Скайп для бизнеса в Интернет](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md).
 
 > [!IMPORTANT]
 > Если пользователь создан на интернет-портале для Office 365, учетная запись пользователя не синхронизируется с локальными службами Active Directory и пользователь отсутствует в этих службах. Если в сетевом клиенте уже созданы пользователи и требуется настроить гибридную среду с локальным развертыванием, см. раздел "Миграция интернет-пользователей в локальное развертывание".

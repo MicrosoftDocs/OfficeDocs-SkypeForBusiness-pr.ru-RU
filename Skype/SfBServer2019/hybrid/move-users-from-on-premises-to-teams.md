@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Сводка: Узнайте, как перенос параметров пользователя и перемещение пользователей в группы.'
-ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 76baa9cdc87535e68cc0bff4e9397a91d1090439
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436567"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838719"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Перемещение пользователей из локальной группы
 
@@ -79,7 +79,7 @@ New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”
 -  **Перенос пользователей с помощью функции телефонии.** Пользователи могут выполнение и прием звонков с помощью команды клиента.  Вы можете вызов планирование Microsoft или прямой маршрутизации для подключения к группам служб телефонии.  
 
     -  Вызов планирование Майкрософт предоставляет решение все-в--облачной голосовой связи. Дополнительные сведения о вызове планирование Microsoft ссылка (готовится к выпуску). 
-    -  Прямое маршрутизации позволяет использовать практически любого магистрали ТСОП и можно настроить взаимодействие между владении клиента телефонное оборудование и телефонной системой Microsoft.  Для получения дополнительных сведений см [Планирование прямого](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan) и [Настроить прямое маршрутизации](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure).
+    -  Прямое маршрутизации позволяет использовать практически любого магистрали ТСОП и можно настроить взаимодействие между владении клиента телефонное оборудование и телефонной системой Microsoft.  Для получения дополнительных сведений см [Планирование прямого](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan) и [Настроить прямое маршрутизации](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure).
 
 -  **Перенос пользователей без возможности телефонной связи.** Если производится перенос пользователей без сохранения функции телефонии, убедитесь, что пользователи имеют соответствующие лицензий в облаке. 
 

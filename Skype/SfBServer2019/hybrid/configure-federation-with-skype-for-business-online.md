@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Сводка: Узнайте, как настроить взаимодействие между локальным развертыванием и Скайп для бизнеса в Интернет.'
-ms.openlocfilehash: fb04ecd53c93ae7bd64fca760b752d2d69324c3d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: df5fed224484a3c8f8957365f5304095a115b7b1
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030723"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839151"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Настройка Скайп для гибридных бизнеса
 
@@ -72,11 +72,11 @@ $CSSession = New-CsOnlineSession -Credential $cred
 Import-PSSession $CSSession -AllowClobber
 ```
 
-Дополнительные сведения о том, как установить удаленный сеанс PowerShell с Скайп для бизнеса в Интернет и использование Скайп в модуле Business Online Connector в разделе [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Дополнительные сведения о том, как установить удаленный сеанс PowerShell с Скайп для бизнеса в Интернет и использование Скайп в модуле Business Online Connector в разделе [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
 ## <a name="configure-server-to-server-authentication-if-required"></a>Настройка проверки подлинности сервер сервер, если необходимо
 
-В зависимости от типа гибридной среды, которые вы настраиваете может потребоваться настройка проверки подлинности сервер сервер.  Для получения дополнительных сведений см. [Проверка подлинности сервер сервер управление в Скайп для Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
+В зависимости от типа гибридной среды, которые вы настраиваете может потребоваться настройка проверки подлинности сервер сервер.  Для получения дополнительных сведений см. [Проверка подлинности сервер сервер управление в Скайп для Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
 
 
 ## <a name="see-also"></a>См. также

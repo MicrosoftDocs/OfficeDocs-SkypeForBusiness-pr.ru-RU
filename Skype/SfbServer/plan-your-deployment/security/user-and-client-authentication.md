@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Надежные пользователя — это один, учетные данные прошедшие проверку подлинности доверенного сервера в Скайп для Business Server. Этот сервер — это обычно сервера Standard Edition, сервер переднего плана Enterprise Edition или директора. Скайп для Business Server использует доменных служб Active Directory как репозиторий серверной single, доверенных учетных данных пользователя.
-ms.openlocfilehash: 9616774bf721863503c2ebd9145c6860f7068ef3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a4f8661ba7f56e2bc5704af383dbd80e6a6869ac
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375484"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839278"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Пользователь и клиент проверки подлинности Скайп для Business Server
  
@@ -47,7 +47,7 @@ ms.locfileid: "25375484"
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Требования к шифрования из-за ASP .NET 4.5 
 
-По состоянию на Скайп Business Server 2015 накопительным пакетом обновления 5 AES не поддерживается для ASP.NET 4.6 и это может привести к Скайп собраний приложения могут быть запуск. Если клиент использует AES как значение ключа проверки компьютера необходимо сбросить значение ключа машины SHA-1 или другой поддерживаемый алгоритм на уровне веб-сайта Скайп собраний приложения в IIS. При необходимости просмотрите [Управления конфигурации IIS 8.0 ASP.NET](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) для получения инструкций.
+По состоянию на Скайп Business Server 2015 накопительным пакетом обновления 5 AES не поддерживается для ASP.NET 4.6 и это может привести к Скайп собраний приложения могут быть запуск. Если клиент использует AES как значение ключа проверки компьютера необходимо сбросить значение ключа машины SHA-1 или другой поддерживаемый алгоритм на уровне веб-сайта Скайп собраний приложения в IIS. Инструкции можно найти в статье [Управление конфигурацией IIS 8.0 ASP.NET](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management).
   
 Другие поддерживаемые значения.
   
@@ -57,5 +57,6 @@ ms.locfileid: "25375484"
     
 - HMACSHA512
     
-  Значения AES, 3DES и MD5 больше не поддерживаются, в отличие от ASP.NET 4. [Улучшения шифрования в ASP.NET 4.5, пункта 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) имеет более подробных сведений.
+  Значения AES, 3DES и MD5 больше не поддерживаются, в отличие от ASP.NET 4. [
+                Дополнительные сведения см. в статье Улучшения системы шифрования в ASP.NET 4.5, часть 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/).
   

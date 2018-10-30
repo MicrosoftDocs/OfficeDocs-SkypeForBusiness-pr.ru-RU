@@ -9,12 +9,12 @@ ms.service: msteams
 description: Изучите использование элементов управления PowerShell для управления группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 181655609fd031da177a21e10684186ca5c52066
-ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
+ms.openlocfilehash: 84de597cc5cc6a00227cf48d9d8559f9dcb3778e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24025282"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839613"
 ---
 # <a name="teams-powershell-overview"></a>Обзор PowerShell групп
 
@@ -78,10 +78,10 @@ ms.locfileid: "24025282"
 
 ## <a name="other-powershell-tools"></a>Другие средства PowerShell
 
-Можно найти подробные инструкции по использованию все элементы управления PowerShell для управления группами Майкрософт и Скайп для бизнеса, включая подробные описания параметров в каждой политики, а в разделе [Справочник командлетов группами Майкрософт](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps) и [Скайп для Справочник командлетов Business](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps).
+Можно найти подробные инструкции по использованию все элементы управления PowerShell для управления группами Майкрософт и Скайп для бизнеса, включая подробные описания параметров в каждой политики, а в разделе [Справочник командлетов группами Майкрософт](https://docs.microsoft.com/powershell/teams/?view=teams-ps) и [Скайп для Справочник командлетов Business](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-- [Справочник командлетов группами Майкрософт](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)
-- [Скайп для бизнеса Справочник командлетов](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps)
+- [Справочник командлетов группами Майкрософт](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+- [Скайп для бизнеса Справочник командлетов](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 - [Использование роли администраторов группами Майкрософт для управления группами](using-admin-roles.md)

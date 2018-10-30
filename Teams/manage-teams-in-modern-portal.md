@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d517ce7f2fb614a22c45fcf63d59a7d46b606f
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: cf9c10640b132aeea352875f2a5acafe5cd6d377
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502336"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839111"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Управление группами в группами Майкрософт & Скайп по центру администрирования Business
 ==========================================
@@ -34,7 +34,7 @@ ms.locfileid: "25502336"
 - Глобальный администратор
 - Администратор служб Teams
 
-Дополнительные сведения о роли администратора в группах Microsoft [здесь](using-admin-roles.md), и можно получить дополнительные сведения об использовании командлеты PowerShell для управления группами в [Справочник командлетов группами Майкрософт](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps).  
+Дополнительные сведения о роли администратора в группах Microsoft [здесь](using-admin-roles.md), и можно получить дополнительные сведения об использовании командлеты PowerShell для управления группами в [Справочник командлетов группами Майкрософт](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
 В этой статье Обзор средств управления для групп в группами Майкрософт & Скайп по центру администрирования бизнеса.
 
@@ -91,7 +91,7 @@ ms.locfileid: "25502336"
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-[Справочник командлетов группами Майкрософт](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)  
+[Справочник командлетов группами Майкрософт](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 [Роли администратора в группах Майкрософт](using-admin-roles.md)
 <!--
 [Plan for Teams Lifecycle Management](plan-for-teams-lifecycle-management.md)
