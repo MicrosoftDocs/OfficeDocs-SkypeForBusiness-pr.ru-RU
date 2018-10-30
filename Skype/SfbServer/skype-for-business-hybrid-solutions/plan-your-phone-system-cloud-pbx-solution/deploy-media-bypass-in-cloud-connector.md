@@ -13,28 +13,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Прочтите этот раздел, чтобы узнать о шаги развертывания, что сервера-посредника Edition соединителя облачных версии 2.0 и более поздней версии с.
-ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375501"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839074"
 ---
-# <a name="deploy-media-bypass-in-cloud-connector-edition"></a><span data-ttu-id="32e59-103">Развертывание обхода сервера-посредника в Cloud Connector Edition</span><span class="sxs-lookup"><span data-stu-id="32e59-103">Deploy media bypass in Cloud Connector Edition</span></span>
+# <a name="deploy-media-bypass-in-cloud-connector-edition"></a><span data-ttu-id="7f9c4-103">Развертывание обхода сервера-посредника в Cloud Connector Edition</span><span class="sxs-lookup"><span data-stu-id="7f9c4-103">Deploy media bypass in Cloud Connector Edition</span></span>
  
-<span data-ttu-id="32e59-104">Прочтите этот раздел, чтобы узнать о шаги развертывания, что сервера-посредника Edition соединителя облачных версии 2.0 и более поздней версии с.</span><span class="sxs-lookup"><span data-stu-id="32e59-104">Read this topic to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later.</span></span> 
+<span data-ttu-id="7f9c4-104">Прочтите этот раздел, чтобы узнать о шаги развертывания, что сервера-посредника Edition соединителя облачных версии 2.0 и более поздней версии с.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-104">Read this topic to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later.</span></span> 
   
-<span data-ttu-id="32e59-105">Обход сервера-посредника позволяет клиентским отправить мультимедиа следующего прыжка общедоступных переключения телефонной сети общего пользования (PSTN) — шлюза или пограничный контроллер сеансов (SBC) — и ликвидировать компонент Edition соединителя облака из пути.</span><span class="sxs-lookup"><span data-stu-id="32e59-105">Media bypass allows a client to send media directly to the Public Switched Telephone Network (PSTN) next hop—a gateway or Session Border Controller (SBC)—and eliminate the Cloud Connector Edition component from the media path.</span></span> <span data-ttu-id="32e59-106">Смотрите также [Планирование мультимедиа обходить в облаке соединителя Edition](plan-for-media-bypass-in-cloud-connector-edition.md).</span><span class="sxs-lookup"><span data-stu-id="32e59-106">See also [Plan for media bypass in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).</span></span>
+<span data-ttu-id="7f9c4-105">Обход сервера-посредника позволяет клиентским отправить мультимедиа следующего прыжка общедоступных переключения телефонной сети общего пользования (PSTN) — шлюза или пограничный контроллер сеансов (SBC) — и ликвидировать компонент Edition соединителя облака из пути.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-105">Media bypass allows a client to send media directly to the Public Switched Telephone Network (PSTN) next hop—a gateway or Session Border Controller (SBC)—and eliminate the Cloud Connector Edition component from the media path.</span></span> <span data-ttu-id="7f9c4-106">Смотрите также [Планирование мультимедиа обходить в облаке соединителя Edition](plan-for-media-bypass-in-cloud-connector-edition.md).</span><span class="sxs-lookup"><span data-stu-id="7f9c4-106">See also [Plan for media bypass in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).</span></span>
   
-## <a name="enable-media-bypass"></a><span data-ttu-id="32e59-107">Разрешить обход сервера-посредника</span><span class="sxs-lookup"><span data-stu-id="32e59-107">Enable media bypass</span></span>
+## <a name="enable-media-bypass"></a><span data-ttu-id="7f9c4-107">Разрешить обход сервера-посредника</span><span class="sxs-lookup"><span data-stu-id="7f9c4-107">Enable media bypass</span></span>
 
-<span data-ttu-id="32e59-108">Чтобы разрешить обход сервера-посредника, необходимо настроить DNS-имя веб-службы обхода сервера-посредника, а также включить эту функцию обхода в конфигурации клиента.</span><span class="sxs-lookup"><span data-stu-id="32e59-108">To enable media bypass, you must configure the DNS name of the media bypass web service and turn on media bypass in the tenant configuration.</span></span> <span data-ttu-id="32e59-109">Веб-служба обхода сервера-посредника развертывается автоматически на каждом сервере-посреднике.</span><span class="sxs-lookup"><span data-stu-id="32e59-109">The media bypass web service deploys automatically on every Mediation Server.</span></span> <span data-ttu-id="32e59-110">Администратор клиента должен выбрать имя гибридной службы голосовой связи (сайт), которое должно принадлежать домену SIP, зарегистрированному для гибридной службы голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="32e59-110">A tenant administrator must pick a name for a hybrid voice service (site), and this name should be from a SIP domain registered for hybrid voice.</span></span> <span data-ttu-id="32e59-111">Имя службы должны совпадать на всех устройств для облачных соединителя и все сайты PSTN, независимо от расположения клиента.</span><span class="sxs-lookup"><span data-stu-id="32e59-111">The service name should be the same across all Cloud Connector appliances and all PSTN sites regardless of the client location.</span></span> <span data-ttu-id="32e59-112">Эта веб-служба должна быть доступна только внутри сети.</span><span class="sxs-lookup"><span data-stu-id="32e59-112">The web service should only be available internally on the network.</span></span>
+<span data-ttu-id="7f9c4-108">Чтобы разрешить обход сервера-посредника, необходимо настроить DNS-имя веб-службы обхода сервера-посредника, а также включить эту функцию обхода в конфигурации клиента.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-108">To enable media bypass, you must configure the DNS name of the media bypass web service and turn on media bypass in the tenant configuration.</span></span> <span data-ttu-id="7f9c4-109">Веб-служба обхода сервера-посредника развертывается автоматически на каждом сервере-посреднике.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-109">The media bypass web service deploys automatically on every Mediation Server.</span></span> <span data-ttu-id="7f9c4-110">Администратор клиента должен выбрать имя гибридной службы голосовой связи (сайт), которое должно принадлежать домену SIP, зарегистрированному для гибридной службы голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-110">A tenant administrator must pick a name for a hybrid voice service (site), and this name should be from a SIP domain registered for hybrid voice.</span></span> <span data-ttu-id="7f9c4-111">Имя службы должны совпадать на всех устройств для облачных соединителя и все сайты PSTN, независимо от расположения клиента.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-111">The service name should be the same across all Cloud Connector appliances and all PSTN sites regardless of the client location.</span></span> <span data-ttu-id="7f9c4-112">Эта веб-служба должна быть доступна только внутри сети.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-112">The web service should only be available internally on the network.</span></span>
   
-<span data-ttu-id="32e59-113">Администратор клиента должен настроить запись DNS A во внутренней рабочей среде Active Directory.</span><span class="sxs-lookup"><span data-stu-id="32e59-113">A tenant administrator must configure a DNS A record in the internal production Active Directory.</span></span> <span data-ttu-id="32e59-114">Если у вас есть сложных сред нескольких сайтах, см в [Пример: веб-узла DNS-записей в сложных средах с несколькими веб-посредника](deploy-media-bypass-in-cloud-connector.md#Example).</span><span class="sxs-lookup"><span data-stu-id="32e59-114">If you have a complex multi-site environment, see the example in [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example).</span></span> <span data-ttu-id="32e59-115">Эта запись DNS должна разрешаться только для внутренних, а не для внешних клиентов сети.</span><span class="sxs-lookup"><span data-stu-id="32e59-115">The DNS record should only resolve for internal network clients; it should not resolve for external network clients.</span></span>
+<span data-ttu-id="7f9c4-113">Администратор клиента должен настроить запись DNS A во внутренней рабочей среде Active Directory.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-113">A tenant administrator must configure a DNS A record in the internal production Active Directory.</span></span> <span data-ttu-id="7f9c4-114">Если у вас есть сложных сред нескольких сайтах, см в [Пример: веб-узла DNS-записей в сложных средах с несколькими веб-посредника](deploy-media-bypass-in-cloud-connector.md#Example).</span><span class="sxs-lookup"><span data-stu-id="7f9c4-114">If you have a complex multi-site environment, see the example in [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example).</span></span> <span data-ttu-id="7f9c4-115">Эта запись DNS должна разрешаться только для внутренних, а не для внешних клиентов сети.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-115">The DNS record should only resolve for internal network clients; it should not resolve for external network clients.</span></span>
   
-<span data-ttu-id="32e59-116">После настройки DNS подключитесь к Skype для бизнеса Online с использованием удаленной среды PowerShell, указав учетные данные администратора Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="32e59-116">After configuring DNS, connect to Skype for Business Online by using remote PowerShell with Skype for Business Administrator credentials.</span></span> <span data-ttu-id="32e59-117">Для получения дополнительных сведений см [Скайп для бизнеса в Интернет с помощью Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="32e59-117">For more information, see [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).</span></span>
+<span data-ttu-id="7f9c4-116">После настройки DNS подключитесь к Skype для бизнеса Online с использованием удаленной среды PowerShell, указав учетные данные администратора Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-116">After configuring DNS, connect to Skype for Business Online by using remote PowerShell with Skype for Business Administrator credentials.</span></span> <span data-ttu-id="7f9c4-117">Дополнительные сведения см. в статье [Подключение к Skype для бизнеса Online с использованием Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="7f9c4-117">For more information, see [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).</span></span>
   
-<span data-ttu-id="32e59-118">В сеансе PowerShell введите следующие команды, чтобы разрешить обход сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="32e59-118">In the PowerShell session, enter the following commands to enable media bypass:</span></span>
+<span data-ttu-id="7f9c4-118">В сеансе PowerShell введите следующие команды, чтобы разрешить обход сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-118">In the PowerShell session, enter the following commands to enable media bypass:</span></span>
   
 ```
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
@@ -42,66 +42,64 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enable
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-<span data-ttu-id="32e59-119">Включение обхода сервера-посредника осуществляется в два этапа.</span><span class="sxs-lookup"><span data-stu-id="32e59-119">Enabling media bypass is a two-step process.</span></span> <span data-ttu-id="32e59-120">Командлет New-CsNetworkMedia не выполняет немедленное сохранение новой конфигурации и лишь создает параметры в памяти.</span><span class="sxs-lookup"><span data-stu-id="32e59-120">The New-CsNetworkMedia cmdlet does not immediately save the new configuration; it only creates the settings in memory.</span></span> <span data-ttu-id="32e59-121">Объект, созданный данным командлетом, должен быть сохранен в переменную и затем передан в качестве параметра MediaBypassSettings конфигурации сети.</span><span class="sxs-lookup"><span data-stu-id="32e59-121">The object created by this cmdlet must be saved to a variable, and then assigned to the MediaBypassSettings property of the network configuration.</span></span> <span data-ttu-id="32e59-122">Дополнительные сведения можно [Пример: веб-узел DNS-записей в сложных средах с несколькими веб-посредника](deploy-media-bypass-in-cloud-connector.md#Example).</span><span class="sxs-lookup"><span data-stu-id="32e59-122">For more information, see [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example).</span></span>
+<span data-ttu-id="7f9c4-119">Включение обхода сервера-посредника осуществляется в два этапа.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-119">Enabling media bypass is a two-step process.</span></span> <span data-ttu-id="7f9c4-120">Командлет New-CsNetworkMedia не выполняет немедленное сохранение новой конфигурации и лишь создает параметры в памяти.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-120">The New-CsNetworkMedia cmdlet does not immediately save the new configuration; it only creates the settings in memory.</span></span> <span data-ttu-id="7f9c4-121">Объект, созданный данным командлетом, должен быть сохранен в переменную и затем передан в качестве параметра MediaBypassSettings конфигурации сети.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-121">The object created by this cmdlet must be saved to a variable, and then assigned to the MediaBypassSettings property of the network configuration.</span></span> <span data-ttu-id="7f9c4-122">Дополнительные сведения можно [Пример: веб-узел DNS-записей в сложных средах с несколькими веб-посредника](deploy-media-bypass-in-cloud-connector.md#Example).</span><span class="sxs-lookup"><span data-stu-id="7f9c4-122">For more information, see [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example).</span></span>
   
-<span data-ttu-id="32e59-123">Репликация между локальными компонентами и компонентами в сети может занять до 24 часов, поэтому Майкрософт рекомендует выполнить необходимые команды перед включением пользователей. 
-</span><span class="sxs-lookup"><span data-stu-id="32e59-123">The replication between the on-premises and online components can take up to 24 hours, so Microsoft recommends that you run the necessary commands before enabling users.</span></span>
+<span data-ttu-id="7f9c4-123">Репликация между локальными компонентами и компонентами в сети может занять до 24 часов, поэтому Майкрософт рекомендует выполнить необходимые команды перед включением пользователей.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-123">The replication between the on-premises and online components can take up to 24 hours, so Microsoft recommends that you run the necessary commands before enabling users.</span></span>
   
-## <a name="confirm-media-bypass-settings"></a><span data-ttu-id="32e59-124">Подтвердить параметры обхода сервера-посредника</span><span class="sxs-lookup"><span data-stu-id="32e59-124">Confirm media bypass settings</span></span>
+## <a name="confirm-media-bypass-settings"></a><span data-ttu-id="7f9c4-124">Подтвердить параметры обхода сервера-посредника</span><span class="sxs-lookup"><span data-stu-id="7f9c4-124">Confirm media bypass settings</span></span>
 
-<span data-ttu-id="32e59-125">Можно проверить параметры обхода сервера-посредника следующим образом. </span><span class="sxs-lookup"><span data-stu-id="32e59-125">You can check the media bypass settings as follows.</span></span> 
+<span data-ttu-id="7f9c4-125">Можно проверить параметры обхода сервера-посредника следующим образом. </span><span class="sxs-lookup"><span data-stu-id="7f9c4-125">You can check the media bypass settings as follows.</span></span> 
   
-<span data-ttu-id="32e59-126">Для проверки сети репликации в пул клиента, выполните следующую команду в удаленной оболочки PowerShell:</span><span class="sxs-lookup"><span data-stu-id="32e59-126">To check online replication to your tenant pool, run the following command in remote PowerShell:</span></span>
+<span data-ttu-id="7f9c4-126">Для проверки сети репликации в пул клиента, выполните следующую команду в удаленной оболочки PowerShell:</span><span class="sxs-lookup"><span data-stu-id="7f9c4-126">To check online replication to your tenant pool, run the following command in remote PowerShell:</span></span>
   
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-<span data-ttu-id="32e59-127">Установите флажок репликация локальных, подключиться к серверов-посредников соединителя облаке, выполните следующую команду в PowerShell и убедитесь, что включено — значение True, а параметру AlwaysBypass = True</span><span class="sxs-lookup"><span data-stu-id="32e59-127">To check the on-premises replication, connect to the Cloud Connector Mediation servers, run the following command in PowerShell, and confirm that Enabled=True and AlwaysBypass=True</span></span>
+<span data-ttu-id="7f9c4-127">Установите флажок репликация локальных, подключиться к серверов-посредников соединителя облаке, выполните следующую команду в PowerShell и убедитесь, что включено — значение True, а параметру AlwaysBypass = True</span><span class="sxs-lookup"><span data-stu-id="7f9c4-127">To check the on-premises replication, connect to the Cloud Connector Mediation servers, run the following command in PowerShell, and confirm that Enabled=True and AlwaysBypass=True</span></span>
   
 ```
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-<span data-ttu-id="32e59-128">Чтобы проверить параметры клиента, выход из Скайп для клиента Business, снова выполните вход и убедитесь, что клиент получил URL-адрес службы следующим образом:</span><span class="sxs-lookup"><span data-stu-id="32e59-128">To check the client settings, sign out of the Skype for Business client, sign back in, and confirm that the client has received the service URL as follows:</span></span>
+<span data-ttu-id="7f9c4-128">Чтобы проверить параметры клиента, выход из Скайп для клиента Business, снова выполните вход и убедитесь, что клиент получил URL-адрес службы следующим образом:</span><span class="sxs-lookup"><span data-stu-id="7f9c4-128">To check the client settings, sign out of the Skype for Business client, sign back in, and confirm that the client has received the service URL as follows:</span></span>
   
-1. <span data-ttu-id="32e59-129">Откройте %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog. </span><span class="sxs-lookup"><span data-stu-id="32e59-129">Open %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog.</span></span> 
+1. <span data-ttu-id="7f9c4-129">Откройте %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-129">Open %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog.</span></span> 
     
-2. <span data-ttu-id="32e59-130">Найдите hybridconfigserviceinternalurl и проверьте, что URL-адрес совпадает с указанным вами. 
-</span><span class="sxs-lookup"><span data-stu-id="32e59-130">Search for hybridconfigserviceinternalurl and confirm the URL matches the one you defined.</span></span>
+2. <span data-ttu-id="7f9c4-130">Найдите hybridconfigserviceinternalurl и проверьте, что URL-адрес совпадает с указанным вами.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-130">Search for hybridconfigserviceinternalurl and confirm the URL matches the one you defined.</span></span>
     
-## <a name="change-media-bypass-parameters"></a><span data-ttu-id="32e59-131">Изменить параметры обхода сервера-посредника</span><span class="sxs-lookup"><span data-stu-id="32e59-131">Change media bypass parameters</span></span>
+## <a name="change-media-bypass-parameters"></a><span data-ttu-id="7f9c4-131">Изменить параметры обхода сервера-посредника</span><span class="sxs-lookup"><span data-stu-id="7f9c4-131">Change media bypass parameters</span></span>
 
-<span data-ttu-id="32e59-132">Администраторы клиента могут изменить имя DNS для веб-службы, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="32e59-132">Tenant administrators are able to change the DNS name of the web service by running the following cmdlet:</span></span>
+<span data-ttu-id="7f9c4-132">Администраторы клиента могут изменить имя DNS для веб-службы, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="7f9c4-132">Tenant administrators are able to change the DNS name of the web service by running the following cmdlet:</span></span>
   
 ```
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 ```
 
 > [!IMPORTANT]
-> <span data-ttu-id="32e59-133">Клиентам необходимо выйти из системы и войти в нее, чтобы получить новое имя службы и определить изменение. </span><span class="sxs-lookup"><span data-stu-id="32e59-133">Clients need to sign out and sign in to get the new service name and recognize the change.</span></span> 
+> <span data-ttu-id="7f9c4-133">Клиентам необходимо выйти из системы и войти в нее, чтобы получить новое имя службы и определить изменение. </span><span class="sxs-lookup"><span data-stu-id="7f9c4-133">Clients need to sign out and sign in to get the new service name and recognize the change.</span></span> 
   
-## <a name="temporarily-disable-media-bypass"></a><span data-ttu-id="32e59-134">Временно отключить обход сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="32e59-134">Temporarily disable media bypass</span></span>
+## <a name="temporarily-disable-media-bypass"></a><span data-ttu-id="7f9c4-134">Временно отключить обход сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-134">Temporarily disable media bypass</span></span>
 
-<span data-ttu-id="32e59-p106">Этот сценарий может быть полезен для устранения неполадок или обслуживания. Чтобы отключить службу, запустите следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="32e59-p106">This scenario might be useful for troubleshooting or maintenance. To disable the service, run the following cmdlets:</span></span>
+<span data-ttu-id="7f9c4-p106">Этот сценарий может быть полезен для устранения неполадок или обслуживания. Чтобы отключить службу, запустите следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="7f9c4-p106">This scenario might be useful for troubleshooting or maintenance. To disable the service, run the following cmdlets:</span></span>
   
 ```
 $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-<span data-ttu-id="32e59-137">Тиражирование внесенных изменений на все экземпляры Cloud Connector может занять определенное время.</span><span class="sxs-lookup"><span data-stu-id="32e59-137">After making the change, it could take some time for changes to replicate to all Cloud Connectors.</span></span> <span data-ttu-id="32e59-138">Чтобы проверить состояние репликации, выполните следующий командлет в PowerShell на серверы-посредники соединителя облаке:</span><span class="sxs-lookup"><span data-stu-id="32e59-138">To check the status of replication, run the following cmdlet in PowerShell on Cloud Connector Mediation servers:</span></span> 
+<span data-ttu-id="7f9c4-137">Тиражирование внесенных изменений на все экземпляры Cloud Connector может занять определенное время.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-137">After making the change, it could take some time for changes to replicate to all Cloud Connectors.</span></span> <span data-ttu-id="7f9c4-138">Чтобы проверить состояние репликации, выполните следующий командлет в PowerShell на серверы-посредники соединителя облаке:</span><span class="sxs-lookup"><span data-stu-id="7f9c4-138">To check the status of replication, run the following cmdlet in PowerShell on Cloud Connector Mediation servers:</span></span> 
   
 ```
 Get- CsNetworkConfiguration -LocalStore
 ```
 
-<span data-ttu-id="32e59-139">После репликации изменений веб-служба на сервере-посреднике начнет отклонять запросы клиентов для службы обхода сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="32e59-139">After the changes replicate, the web service on the Mediation Server will start rejecting client requests for the media bypass service.</span></span>
+<span data-ttu-id="7f9c4-139">После репликации изменений веб-служба на сервере-посреднике начнет отклонять запросы клиентов для службы обхода сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-139">After the changes replicate, the web service on the Mediation Server will start rejecting client requests for the media bypass service.</span></span>
   
-## <a name="disable-media-bypass-permanently"></a><span data-ttu-id="32e59-140">Отключить обход сервера-посредника навсегда</span><span class="sxs-lookup"><span data-stu-id="32e59-140">Disable media bypass permanently</span></span>
+## <a name="disable-media-bypass-permanently"></a><span data-ttu-id="7f9c4-140">Отключить обход сервера-посредника навсегда</span><span class="sxs-lookup"><span data-stu-id="7f9c4-140">Disable media bypass permanently</span></span>
 
-<span data-ttu-id="32e59-141">Чтобы навсегда отключить обход сервера-посредника, администратору клиента необходимо выполнить следующие команды. </span><span class="sxs-lookup"><span data-stu-id="32e59-141">To permanently disable media bypass, a tenant administrator needs to run the following commands:</span></span> 
+<span data-ttu-id="7f9c4-141">Чтобы навсегда отключить обход сервера-посредника, администратору клиента необходимо выполнить следующие команды. </span><span class="sxs-lookup"><span data-stu-id="7f9c4-141">To permanently disable media bypass, a tenant administrator needs to run the following commands:</span></span> 
   
 ```
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
@@ -109,84 +107,84 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 
 ```
 
-<span data-ttu-id="32e59-142">Кроме того, администратор должен удалить веб-адреса для обхода севера-посредника с внутренних DNS-серверов.</span><span class="sxs-lookup"><span data-stu-id="32e59-142">An administrator will also need to remove the web addresses for media bypass from internal DNS servers.</span></span> <span data-ttu-id="32e59-143">После внесения изменений, может занять некоторое время изменения будут реплицированы во всех устройств для соединителя облака.</span><span class="sxs-lookup"><span data-stu-id="32e59-143">After making the change, it could take some time for changes to replicate to all Cloud Connector appliances.</span></span> 
+<span data-ttu-id="7f9c4-142">Кроме того, администратор должен удалить веб-адреса для обхода севера-посредника с внутренних DNS-серверов.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-142">An administrator will also need to remove the web addresses for media bypass from internal DNS servers.</span></span> <span data-ttu-id="7f9c4-143">После внесения изменений, может занять некоторое время изменения будут реплицированы во всех устройств для соединителя облака.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-143">After making the change, it could take some time for changes to replicate to all Cloud Connector appliances.</span></span> 
   
-## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a><span data-ttu-id="32e59-144">Пример. Записи DNS веб-сайта обхода сервера-посредника в сложных многосайтовых средах</span><span class="sxs-lookup"><span data-stu-id="32e59-144">Example: media bypass web site DNS records in complex multi-site environments</span></span>
-<span data-ttu-id="32e59-145"><a name="Example"> </a></span><span class="sxs-lookup"><span data-stu-id="32e59-145"></span></span>
+## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a><span data-ttu-id="7f9c4-144">Пример. Записи DNS веб-сайта обхода сервера-посредника в сложных многосайтовых средах</span><span class="sxs-lookup"><span data-stu-id="7f9c4-144">Example: media bypass web site DNS records in complex multi-site environments</span></span>
+<span data-ttu-id="7f9c4-145"><a name="Example"> </a></span><span class="sxs-lookup"><span data-stu-id="7f9c4-145"></span></span>
 
-<span data-ttu-id="32e59-146">Клиенты будут получать веб-адреса веб-службы обхода сервера-посредника с внутреннего DNS-сервера.</span><span class="sxs-lookup"><span data-stu-id="32e59-146">Clients will receive the web address of the media bypass web service from an internal DNS server.</span></span> <span data-ttu-id="32e59-147">Имя веб-службы будет совпадать во всех устройств для облачных соединителя и облачных соединителя PSTN сайтов.</span><span class="sxs-lookup"><span data-stu-id="32e59-147">The name of the web service will be the same across all Cloud Connector appliances and Cloud Connector PSTN sites.</span></span> <span data-ttu-id="32e59-148">В сложной многосайтовой среде рекомендуется использовать политику DNS Windows 2016 для управления трафиком на основе геолокации, благодаря чему клиенты могут перенаправляться в веб-службу, являющуюся локальной для их сети.</span><span class="sxs-lookup"><span data-stu-id="32e59-148">In a complex multi-site environment, we recommend using the Windows 2016 DNS Policy for Geo-Location Based Traffic Management, so clients can be redirected to the web service which is local for their network.</span></span> 
+<span data-ttu-id="7f9c4-146">Клиенты будут получать веб-адреса веб-службы обхода сервера-посредника с внутреннего DNS-сервера.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-146">Clients will receive the web address of the media bypass web service from an internal DNS server.</span></span> <span data-ttu-id="7f9c4-147">Имя веб-службы будет совпадать во всех устройств для облачных соединителя и облачных соединителя PSTN сайтов.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-147">The name of the web service will be the same across all Cloud Connector appliances and Cloud Connector PSTN sites.</span></span> <span data-ttu-id="7f9c4-148">В сложной многосайтовой среде рекомендуется использовать политику DNS Windows 2016 для управления трафиком на основе геолокации, благодаря чему клиенты могут перенаправляться в веб-службу, являющуюся локальной для их сети.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-148">In a complex multi-site environment, we recommend using the Windows 2016 DNS Policy for Geo-Location Based Traffic Management, so clients can be redirected to the web service which is local for their network.</span></span> 
   
-<span data-ttu-id="32e59-149">Дополнительные сведения о политиках DNS 2016 Windows [Использовать DNS политику для управления трафика на основе географического расположения, с основным серверами](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location)см.</span><span class="sxs-lookup"><span data-stu-id="32e59-149">Fore more information about Windows 2016 DNS Policies, see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location).</span></span>
+<span data-ttu-id="7f9c4-149">Дополнительные сведения о политиках DNS 2016 Windows [Использовать DNS политику для управления трафика на основе географического расположения, с основным серверами](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location)см.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-149">Fore more information about Windows 2016 DNS Policies, see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).</span></span>
   
-<span data-ttu-id="32e59-150">Ниже приведен пример конфигурации для компании с несколькими сайтами с использованием политики DNS Windows 2016 для управления трафиком на основе геолокации.</span><span class="sxs-lookup"><span data-stu-id="32e59-150">The following is an example of configuration for a company with several sites using Windows 2016 DNS Policy for Geo-Location Based Traffic Management.</span></span>
+<span data-ttu-id="7f9c4-150">Ниже приведен пример конфигурации для компании с несколькими сайтами с использованием политики DNS Windows 2016 для управления трафиком на основе геолокации.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-150">The following is an example of configuration for a company with several sites using Windows 2016 DNS Policy for Geo-Location Based Traffic Management.</span></span>
   
-<span data-ttu-id="32e59-151">Имя службы сервера-посредника — «hybridvoice.adatum.biz».</span><span class="sxs-lookup"><span data-stu-id="32e59-151">The name for the bypass service is 'hybridvoice.adatum.biz'.</span></span>
+<span data-ttu-id="7f9c4-151">Имя службы сервера-посредника — «hybridvoice.adatum.biz».</span><span class="sxs-lookup"><span data-stu-id="7f9c4-151">The name for the bypass service is 'hybridvoice.adatum.biz'.</span></span>
   
-<span data-ttu-id="32e59-152">Сайт в Амстердам имеет четыре appliances соединителя облачных развернуты следующие Mediation Server IP-адреса:</span><span class="sxs-lookup"><span data-stu-id="32e59-152">The site in Amsterdam has four Cloud Connector appliances deployed with the following Mediation Server IP addresses:</span></span>
+<span data-ttu-id="7f9c4-152">Сайт в Амстердам имеет четыре appliances соединителя облачных развернуты следующие Mediation Server IP-адреса:</span><span class="sxs-lookup"><span data-stu-id="7f9c4-152">The site in Amsterdam has four Cloud Connector appliances deployed with the following Mediation Server IP addresses:</span></span>
   
-- <span data-ttu-id="32e59-153">192.168.1.45</span><span class="sxs-lookup"><span data-stu-id="32e59-153">192.168.1.45</span></span>
+- <span data-ttu-id="7f9c4-153">192.168.1.45</span><span class="sxs-lookup"><span data-stu-id="7f9c4-153">192.168.1.45</span></span>
     
-- <span data-ttu-id="32e59-154">192.168.1.46</span><span class="sxs-lookup"><span data-stu-id="32e59-154">192.168.1.46</span></span>
+- <span data-ttu-id="7f9c4-154">192.168.1.46</span><span class="sxs-lookup"><span data-stu-id="7f9c4-154">192.168.1.46</span></span>
     
-- <span data-ttu-id="32e59-155">192.168.1.47</span><span class="sxs-lookup"><span data-stu-id="32e59-155">192.168.1.47</span></span>
+- <span data-ttu-id="7f9c4-155">192.168.1.47</span><span class="sxs-lookup"><span data-stu-id="7f9c4-155">192.168.1.47</span></span>
     
-- <span data-ttu-id="32e59-156">192.168.1.48</span><span class="sxs-lookup"><span data-stu-id="32e59-156">192.168.1.48</span></span>
+- <span data-ttu-id="7f9c4-156">192.168.1.48</span><span class="sxs-lookup"><span data-stu-id="7f9c4-156">192.168.1.48</span></span>
     
-<span data-ttu-id="32e59-157">Сайт в Сиэтл содержит три облака соединителя устройств для развертывания следующих Mediation Server IP-адреса:</span><span class="sxs-lookup"><span data-stu-id="32e59-157">The site in Seattle has three Cloud Connector appliances deployed with the following Mediation Server IP addresses:</span></span>
+<span data-ttu-id="7f9c4-157">Сайт в Сиэтл содержит три облака соединителя устройств для развертывания следующих Mediation Server IP-адреса:</span><span class="sxs-lookup"><span data-stu-id="7f9c4-157">The site in Seattle has three Cloud Connector appliances deployed with the following Mediation Server IP addresses:</span></span>
   
-- <span data-ttu-id="32e59-158">10.10.1.8</span><span class="sxs-lookup"><span data-stu-id="32e59-158">10.10.1.8</span></span>
+- <span data-ttu-id="7f9c4-158">10.10.1.8</span><span class="sxs-lookup"><span data-stu-id="7f9c4-158">10.10.1.8</span></span>
     
-- <span data-ttu-id="32e59-159">10.10.1.9</span><span class="sxs-lookup"><span data-stu-id="32e59-159">10.10.1.9</span></span>
+- <span data-ttu-id="7f9c4-159">10.10.1.9</span><span class="sxs-lookup"><span data-stu-id="7f9c4-159">10.10.1.9</span></span>
     
-- <span data-ttu-id="32e59-160">10.10.1.10</span><span class="sxs-lookup"><span data-stu-id="32e59-160">10.10.1.10</span></span>
+- <span data-ttu-id="7f9c4-160">10.10.1.10</span><span class="sxs-lookup"><span data-stu-id="7f9c4-160">10.10.1.10</span></span>
     
-<span data-ttu-id="32e59-161">С помощью управления трафиком на основе геолокации DNS-серверы будут настроены следующим образом.</span><span class="sxs-lookup"><span data-stu-id="32e59-161">Using Geo-Location Based Traffic Management, the DNS servers would be configured as follows:</span></span>
+<span data-ttu-id="7f9c4-161">С помощью управления трафиком на основе геолокации DNS-серверы будут настроены следующим образом.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-161">Using Geo-Location Based Traffic Management, the DNS servers would be configured as follows:</span></span>
   
-1. <span data-ttu-id="32e59-162">Создайте подсети DNS-клиентов для подсетей в Амстердаме и Сиэтле.</span><span class="sxs-lookup"><span data-stu-id="32e59-162">Create DNS Client Subnets for both the Amsterdam and Seattle subnets.</span></span>
+1. <span data-ttu-id="7f9c4-162">Создайте подсети DNS-клиентов для подсетей в Амстердаме и Сиэтле.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-162">Create DNS Client Subnets for both the Amsterdam and Seattle subnets.</span></span>
     
-2. <span data-ttu-id="32e59-163">Создайте области зоны DNS для adatum.biz в Амстердаме и Сиэтле.</span><span class="sxs-lookup"><span data-stu-id="32e59-163">Create DNS Zone Scopes for adatum.biz for both Amsterdam and Seattle.</span></span>
+2. <span data-ttu-id="7f9c4-163">Создайте области зоны DNS для adatum.biz в Амстердаме и Сиэтле.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-163">Create DNS Zone Scopes for adatum.biz for both Amsterdam and Seattle.</span></span>
     
-3. <span data-ttu-id="32e59-164">Создавайте записи DNS в каждой области зоны DNS.</span><span class="sxs-lookup"><span data-stu-id="32e59-164">Create DNS records in each DNS Zone Scope.</span></span>
+3. <span data-ttu-id="7f9c4-164">Создавайте записи DNS в каждой области зоны DNS.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-164">Create DNS records in each DNS Zone Scope.</span></span>
     
-    <span data-ttu-id="32e59-165">Амстердам</span><span class="sxs-lookup"><span data-stu-id="32e59-165">Amsterdam</span></span>
+    <span data-ttu-id="7f9c4-165">Амстердам</span><span class="sxs-lookup"><span data-stu-id="7f9c4-165">Amsterdam</span></span>
     
-   - <span data-ttu-id="32e59-166">Тип A</span><span class="sxs-lookup"><span data-stu-id="32e59-166">Type A;</span></span>
+   - <span data-ttu-id="7f9c4-166">Тип A</span><span class="sxs-lookup"><span data-stu-id="7f9c4-166">Type A;</span></span>
     
-   - <span data-ttu-id="32e59-167">Имя hybridvoice в зоне DNS adatum.biz</span><span class="sxs-lookup"><span data-stu-id="32e59-167">Name : hybridvoice in the adatum.biz DNS zone</span></span>
+   - <span data-ttu-id="7f9c4-167">Имя hybridvoice в зоне DNS adatum.biz</span><span class="sxs-lookup"><span data-stu-id="7f9c4-167">Name : hybridvoice in the adatum.biz DNS zone</span></span>
     
-   - <span data-ttu-id="32e59-168">Целевой объект: 192.168.1.45</span><span class="sxs-lookup"><span data-stu-id="32e59-168">Target: 192.168.1.45</span></span>
+   - <span data-ttu-id="7f9c4-168">Целевой объект: 192.168.1.45</span><span class="sxs-lookup"><span data-stu-id="7f9c4-168">Target: 192.168.1.45</span></span>
     
-     <span data-ttu-id="32e59-169">Создайте дополнительные записи для дополнительных серверов-посредников.</span><span class="sxs-lookup"><span data-stu-id="32e59-169">Create additional records for additional mediation servers</span></span>
+     <span data-ttu-id="7f9c4-169">Создайте дополнительные записи для дополнительных серверов-посредников.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-169">Create additional records for additional mediation servers</span></span>
     
-   - <span data-ttu-id="32e59-170">192.168.1.46</span><span class="sxs-lookup"><span data-stu-id="32e59-170">192.168.1.46</span></span>
+   - <span data-ttu-id="7f9c4-170">192.168.1.46</span><span class="sxs-lookup"><span data-stu-id="7f9c4-170">192.168.1.46</span></span>
     
-   - <span data-ttu-id="32e59-171">192.168.1.47</span><span class="sxs-lookup"><span data-stu-id="32e59-171">192.168.1.47</span></span>
+   - <span data-ttu-id="7f9c4-171">192.168.1.47</span><span class="sxs-lookup"><span data-stu-id="7f9c4-171">192.168.1.47</span></span>
     
-   - <span data-ttu-id="32e59-172">192.168.1.48</span><span class="sxs-lookup"><span data-stu-id="32e59-172">192.168.1.48</span></span>
+   - <span data-ttu-id="7f9c4-172">192.168.1.48</span><span class="sxs-lookup"><span data-stu-id="7f9c4-172">192.168.1.48</span></span>
     
-     <span data-ttu-id="32e59-173">Сиэтл</span><span class="sxs-lookup"><span data-stu-id="32e59-173">Seattle</span></span>
+     <span data-ttu-id="7f9c4-173">Сиэтл</span><span class="sxs-lookup"><span data-stu-id="7f9c4-173">Seattle</span></span>
     
-   - <span data-ttu-id="32e59-174">Тип A</span><span class="sxs-lookup"><span data-stu-id="32e59-174">Type A</span></span>
+   - <span data-ttu-id="7f9c4-174">Тип A</span><span class="sxs-lookup"><span data-stu-id="7f9c4-174">Type A</span></span>
     
-   - <span data-ttu-id="32e59-175">Имя hybridvoice в зоне DNS adatum.biz</span><span class="sxs-lookup"><span data-stu-id="32e59-175">Name : hybridvoice in adatum.biz DNS zone</span></span>
+   - <span data-ttu-id="7f9c4-175">Имя hybridvoice в зоне DNS adatum.biz</span><span class="sxs-lookup"><span data-stu-id="7f9c4-175">Name : hybridvoice in adatum.biz DNS zone</span></span>
     
-   - <span data-ttu-id="32e59-176">Целевой объект: 10.10.1.8</span><span class="sxs-lookup"><span data-stu-id="32e59-176">Target: 10.10.1.8</span></span>
+   - <span data-ttu-id="7f9c4-176">Целевой объект: 10.10.1.8</span><span class="sxs-lookup"><span data-stu-id="7f9c4-176">Target: 10.10.1.8</span></span>
     
-     <span data-ttu-id="32e59-177">Создайте дополнительные записи для дополнительных серверов-посредников.</span><span class="sxs-lookup"><span data-stu-id="32e59-177">Create additional records for additional mediation servers</span></span>
+     <span data-ttu-id="7f9c4-177">Создайте дополнительные записи для дополнительных серверов-посредников.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-177">Create additional records for additional mediation servers</span></span>
     
-   - <span data-ttu-id="32e59-178">10.10.1.9</span><span class="sxs-lookup"><span data-stu-id="32e59-178">10.10.1.9</span></span>
+   - <span data-ttu-id="7f9c4-178">10.10.1.9</span><span class="sxs-lookup"><span data-stu-id="7f9c4-178">10.10.1.9</span></span>
     
-   - <span data-ttu-id="32e59-179">10.10.1.10</span><span class="sxs-lookup"><span data-stu-id="32e59-179">10.10.1.10</span></span>
+   - <span data-ttu-id="7f9c4-179">10.10.1.10</span><span class="sxs-lookup"><span data-stu-id="7f9c4-179">10.10.1.10</span></span>
     
-4. <span data-ttu-id="32e59-180">Создайте политику DNS, которая подключает клиентские подсети к соответствующим областям зоны, чтобы обеспечить требуемое разрешение DNS.</span><span class="sxs-lookup"><span data-stu-id="32e59-180">Create the DNS policy that connects the client subnets to the appropriate zone scopes to ensure desired DNS resolution.</span></span>
+4. <span data-ttu-id="7f9c4-180">Создайте политику DNS, которая подключает клиентские подсети к соответствующим областям зоны, чтобы обеспечить требуемое разрешение DNS.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-180">Create the DNS policy that connects the client subnets to the appropriate zone scopes to ensure desired DNS resolution.</span></span>
     
-<span data-ttu-id="32e59-181">В таком случае клиентам, создающим DNS-запросы для hybridvoice.adatum.biz из подсети в Амстердаме, вернутся адреса 192.168.1.45, 192.168.1.46, 192.168.1.47 и 192.168.1.48, тогда как клиентам, создающим ту же форму запроса в Сиэтле, вернутся 10.10.1.8, 10.10.1.9 и 10.10.1.10.</span><span class="sxs-lookup"><span data-stu-id="32e59-181">At this point, clients making DNS queries from the Amsterdam subnet for hybridvoice.adatum.biz will return the 192.168.1.45, 192.168.1.46, 192.168.1.47 and 192.168.1.48 addresses, while clients making the same query form Seattle will return 10.10.1.8, 10.10.1.9 and 10.10.1.10.</span></span>
+<span data-ttu-id="7f9c4-181">В таком случае клиентам, создающим DNS-запросы для hybridvoice.adatum.biz из подсети в Амстердаме, вернутся адреса 192.168.1.45, 192.168.1.46, 192.168.1.47 и 192.168.1.48, тогда как клиентам, создающим ту же форму запроса в Сиэтле, вернутся 10.10.1.8, 10.10.1.9 и 10.10.1.10.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-181">At this point, clients making DNS queries from the Amsterdam subnet for hybridvoice.adatum.biz will return the 192.168.1.45, 192.168.1.46, 192.168.1.47 and 192.168.1.48 addresses, while clients making the same query form Seattle will return 10.10.1.8, 10.10.1.9 and 10.10.1.10.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="32e59-182">Если устройство системы CCE не Получение обновленных параметров, проверьте, если устройство возможность связаться клиента с помощью удаленной оболочки PowerShell.</span><span class="sxs-lookup"><span data-stu-id="32e59-182">If the CCE appliance doesn't seem to be getting the updated settings, check to see if the appliance is able to contact the tenant via remote PowerShell.</span></span> <span data-ttu-id="32e59-183">Remote PowerShell можно использовать для проверки состояния устройства для обеспечения связи с Get-CsHybridPSTNAppliance или с помощью PowerShell на узле системы CCE для проверки состояния с Get-CcApplianceStatus.</span><span class="sxs-lookup"><span data-stu-id="32e59-183">You can use Remote PowerShell to check appliance status with Get-CsHybridPSTNAppliance or use PowerShell on the CCE host to check status with Get-CcApplianceStatus.</span></span>
+> <span data-ttu-id="7f9c4-182">Если устройство системы CCE не Получение обновленных параметров, проверьте, если устройство возможность связаться клиента с помощью удаленной оболочки PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-182">If the CCE appliance doesn't seem to be getting the updated settings, check to see if the appliance is able to contact the tenant via remote PowerShell.</span></span> <span data-ttu-id="7f9c4-183">Remote PowerShell можно использовать для проверки состояния устройства для обеспечения связи с Get-CsHybridPSTNAppliance или с помощью PowerShell на узле системы CCE для проверки состояния с Get-CcApplianceStatus.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-183">You can use Remote PowerShell to check appliance status with Get-CsHybridPSTNAppliance or use PowerShell on the CCE host to check status with Get-CcApplianceStatus.</span></span>
 
   
-## <a name="see-also"></a><span data-ttu-id="32e59-184">Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.</span><span class="sxs-lookup"><span data-stu-id="32e59-184">See also</span></span>
-<span data-ttu-id="32e59-185"><a name="Example"> </a></span><span class="sxs-lookup"><span data-stu-id="32e59-185"></span></span>
+## <a name="see-also"></a><span data-ttu-id="7f9c4-184">Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.</span><span class="sxs-lookup"><span data-stu-id="7f9c4-184">See also</span></span>
+<span data-ttu-id="7f9c4-185"><a name="Example"> </a></span><span class="sxs-lookup"><span data-stu-id="7f9c4-185"></span></span>
 
-[<span data-ttu-id="32e59-186">План обхода сервера-посредника в Cloud Connector Edition</span><span class="sxs-lookup"><span data-stu-id="32e59-186">Plan for media bypass in Cloud Connector Edition</span></span>](plan-for-media-bypass-in-cloud-connector-edition.md)
+[<span data-ttu-id="7f9c4-186">План обхода сервера-посредника в Cloud Connector Edition</span><span class="sxs-lookup"><span data-stu-id="7f9c4-186">Plan for media bypass in Cloud Connector Edition</span></span>](plan-for-media-bypass-in-cloud-connector-edition.md)

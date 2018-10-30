@@ -5,7 +5,7 @@
 ### [Примечания к выпуску](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Подготовка среды](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Требования](../plan-your-deployment/clients-and-devices/requirements.md)
-### [Online лицензирования](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+### [Online лицензирования](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 ### [Планирование управления с OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
 
 ## Развертывание: 
