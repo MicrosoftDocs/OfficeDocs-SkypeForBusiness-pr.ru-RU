@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Сведения о развертывании нескольких сайтов ТСОП в Cloud Connector Edition.
-ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889715"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851492"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Развертывание нескольких сайтов в Cloud Connector
  
@@ -78,6 +78,7 @@ ExternalMRPublicIPs=104.42.226.134
   
 |**Категория**|**Элемент**|**Один сайт с высокой доступностью**|**Несколько сайтов**|
 |:-----|:-----|:-----|:-----|
+|Настройка  <br/> |Имя узла устройства <br/> |**Разные** для всех устройств <br/> |**Разные** для разных сайтов ТСОП <br/> |
 |Установка  <br/> |Общая папка  <br/> |Требует **же** общую папку для устройств <br/> |Требуются **разные** общие папки для каждого устройства <br/> |
 |Настройка  <br/> |VirtualMachineDomain  <br/> |Требуется **один** домен для всех устройств <br/> |Требуется **один** домен для разных сайтов ТСОП <br/> |
 |Настройка  <br/> |Домены SIP  <br/> |Доменные имена и порядок должны быть **же** между устройствами <br/> |Доменные имена и порядок должны быть **же** между сайтами ТСОП <br/> |

@@ -3,7 +3,7 @@ title: Использование встроенного перевода соо
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/16/2018
+ms.date: 10/30/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,19 +16,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9097e7421bb65b1a9ce0900df097080a6cfc2023
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 69c6e8046b185cc8dbc85ac0c99dc5b4cfa6fe2a
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016839"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851570"
 ---
 <a name="use-inline-message-translation-in-microsoft-teams"></a>Использование встроенного перевода сообщений в Microsoft Teams 
 =================================================
 
 Встроенный перевод сообщений — это новая функция Microsoft Teams, позволяющая пользователям автоматически переводить сообщения Teams на [язык](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194), указанный в персональных настройках языка для Office 365.
 
-Встроенный перевод сообщений предназначенных для развертывания по умолчанию для вашей организации. Если требуется разрешить пользователям использовать этот компонент в клиенте групп, необходимо включить этот параметр с помощью PowerShell. В настоящее время этот параметр недоступен в группами Майкрософт и Скайп по центру администрирования бизнес, но скоро будет.
+Встроенный перевод сообщений развертывается для вашей организации по умолчанию. Чтобы разрешить пользователям использовать эту функцию в клиенте Teams, нужно включить эту настройку с помощью PowerShell. Сейчас этот параметр недоступен в Microsoft Teams и Центре администрирования Skype для бизнеса, но скоро он там появится.
 
 > [!NOTE]
 >Этот выпуск исключен из подписок на Office 365 в наших средах облака сообщества для государственных организаций Office 365 и Office 365 Germany. 
@@ -38,11 +38,11 @@ ms.locfileid: "25016839"
 Вы можете включить встроенный перевод сообщений с помощью политики обмена сообщениями. 
 
 1. Включите эту политику с помощью командлета [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).
-2. Политики занимает несколько минут, чтобы применить. Пользователям необходимо выйти и снова выполнить вход в группы.
+2. Ее применение занимает несколько минут. Возможно, пользователям потребуется выйти из Teams и снова войти в него.
 
-## <a name="enable-by-using-the-teams-admin-center"></a>Включение с помощью Центра администрирования Teams
+## <a name="enable-by-using-the-microsoft-teams--skype-for-business-admin-center"></a>Включить с помощью команды Microsoft & Скайп по центру администрирования бизнеса
 
-Скоро появится возможность включить встроенный перевод сообщений с помощью Центра администрирования Teams.
+Параметр, чтобы включить встроенное средство преобразования сообщений, с помощью групп Майкрософт & Скайп по центру администрирования бизнес в ближайшее время.
 
 > [!NOTE]
->Перевод строго со стороны клиента и имеет не влияет на содержимое, записываемые в записях соответствия требованиям. Чтобы узнать больше о перевода, обратитесь к разделу [возможности Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
+>Перевод осуществляется исключительно на стороне клиента и не влияет на содержимое, фиксируемое в целях обеспечения соответствия. Дополнительные сведения о переводе см. в статье [Что такое Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
