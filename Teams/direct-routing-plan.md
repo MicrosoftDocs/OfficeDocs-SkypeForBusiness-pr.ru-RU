@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Прочтите этот раздел, чтобы узнать, как прямой маршрутизации Microsoft телефонной системы позволяет подключать поддерживаемые, предоставленный заказчиком пограничный контроллер сеансов (SBC) для Microsoft телефонной системой.
-ms.openlocfilehash: c0aa89e8e1900aefd069b132e8e082aa477e2786
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
+ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839481"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25849408"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -223,14 +223,10 @@ SBC выполняет запрос DNS для разрешения sip.pstnhub.
 
 Майкрософт поддерживает только сертифицированные SBC связать с прямой маршрутизации. Так как Enterprise Voice крайне важна для бизнеса, Microsoft выполняется связано со значительными затратами тесты с выбранной SBC и работает с поставщиками SBC для обеспечения две системы совместимы. 
 
-Устройства, которые были проверены, перечислены как сертифицированных для групп прямой маршрутизации. Сертифицированные устройств гарантированно работают во всех сценариях. Имеется также процесс совместного поддержки между корпорацией Майкрософт и установить SBC поставщиков.  
+Устройства, которые были проверены, перечислены как сертифицированных для групп прямой маршрутизации. Сертифицированные устройств гарантированно работают во всех сценариях. 
 
-В процессе сертификации являются следующие поставщиков:
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Лента коммуникации (ранее — Sonus):
-   - [Серия SBC пограничного сервера](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [Серия основных SBC](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel: ThinkTel не продать SBC для предприятий, но их SBC сертифицированном.  
+Дополнительные сведения о поддерживаемых их изготовителей увидеть [список из пограничных контроллеров сеансов сертифицированный для прямой маршрутизации](direct-routing-border-controllers.md).
+
  
 ## <a name="see-also"></a>См. также
 
