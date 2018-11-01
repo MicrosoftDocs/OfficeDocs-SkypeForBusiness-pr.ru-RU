@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 869adf9401e3704cc78de5f646b0b9e676e8efe9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1c7cddeb2ee125fa54cc7db353c83157bec90d76
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016527"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890550"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams
 =============================================================================
@@ -47,10 +47,10 @@ ms.locfileid: "25016527"
 > В настоящее время вы не можете заменить библиотеку документов и сайт SharePoint по умолчанию. Нас часто спрашивают об этой возможности, и мы рассматриваем пути ее внедрения. Обо всех готовящихся изменениях вы можете узнать в [Стратегии развития Teams](https://aka.ms/teamsroadmap) и в [посвященном Teams разделе UserVoice](https://aka.ms/TeamsUserVoice).
 
 > [!TIP]
-> Добавление вкладки в группу, что ссылки на существующие SharePoint веб-сайтов или к существующей SharePoint библиотеки документов:
+> Добавление вкладки в группу, приведены ссылки на существующие страницы сайта SharePoint или для вашей существующей библиотеки документов SharePoint:
 > 1. Выберите значок "плюс" рядом с вкладками.
-> 2. Выберите **веб-сайт**.
-> 3. Введите имя и введите URL-адрес библиотеки документов или сайт SharePoint.
+> 2. Выберите **SharePoint** для существующей страницы сайта SharePoint или **Библиотеки документов** для существующей библиотеки документов.
+> 3. Выберите соответствующую библиотеку страницы или документа.
 
 У каждого пользователя имеется папка OneDrive **Файлы чатов Microsoft Teams** для хранения всех файлов, предоставленных для общего доступа в приватных чатах с другими пользователями (в формате один к одному или один ко многим). При этом разрешения для ограничения доступа настраиваются автоматически.
 

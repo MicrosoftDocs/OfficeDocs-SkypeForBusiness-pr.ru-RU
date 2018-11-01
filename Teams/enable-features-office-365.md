@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f78876064ae50221562bd42b334545f627a02fb
-ms.sourcegitcommit: 9138325ba2652a9ee3602d259de811082080e358
+ms.openlocfilehash: 7411494c3baa56c1761ee3bcd69c2d49fdd4a961
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25842078"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890566"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Управление группами Майкрософт возможностями в организации Office 365
 
@@ -116,4 +116,6 @@ ms.locfileid: "25842078"
 
 Здесь можно выбрать приложение, которое пользователи будут использовать для присоединения к Скайп для бизнеса собрания (Скайп для бизнеса или [Приложение Скайп собрания](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Этот параметр не зависит от параметр режима совместной работы.
 
+## <a name="how-can-i-tell-which-features-are-available"></a>Как определить, какие компоненты доступны?
 
+В разделе [Схема Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) для получения сведений о новых функциональных возможностях группами. Дополнительные сведения о новых и предстоящие функции видеть группами [новые](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) страницы и [группами Майкрософт сообщества Технический блог](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531) для групп. 

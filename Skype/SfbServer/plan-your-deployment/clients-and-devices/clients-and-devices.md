@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: Сводка. Обзор поддерживаемых клиентов и приложений для Skype для бизнеса
-ms.openlocfilehash: 4e51c442ea50bf911eac4e83a700141cd999cdb9
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839158"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890595"
 ---
 # <a name="plan-for-clients-and-devices"></a>Планирование для клиентов и устройств
 
@@ -139,7 +139,7 @@ MSI представляет собой более традиционный сп
 
 Skype для бизнеса Server 2019 и Skype для бизнеса Online поддерживают следующие ранее выпущенные клиенты: Skype для бизнеса 2016, Skype для бизнеса 2015, Lync 2013.
 
-Skype для бизнеса Server 2015 поддерживает следующие ранее выпущенные клиенты: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition и Lync 2010 Attendant. Дополнительные сведения об этих клиентах при использовании с другими серверами см. в [таблицах сравнения клиентов для Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) и [таблицах сравнения клиентов для Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+Скайп для Business Server 2015 поддерживает следующие клиенты предыдущие: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition и Lync 2010 Attendant. Дополнительные сведения об этих клиентах при использовании с другими серверами см. в [таблицах сравнения клиентов для Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) и [таблицах сравнения клиентов для Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Требования к клиентской системе
