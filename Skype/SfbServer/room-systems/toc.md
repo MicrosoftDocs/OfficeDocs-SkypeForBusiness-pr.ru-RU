@@ -12,7 +12,7 @@
 ### [Обзор развертывания](../deploy/deploy-clients/room-systems-v2.md)
 ### [Настройка учетных записей](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [С помощью Office 365](../deploy/deploy-clients/with-office-365.md)
-### [С помощью Скайп для Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
+### [С помощью Скайп для Business Server](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
 ### [С помощью Exchange Online (гибридный)](../deploy/deploy-clients/with-exchange-online.md)
 ### [С сервером Exchange при локальном (гибридный)](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [Настройка консоли](../deploy/deploy-clients/console.md)
