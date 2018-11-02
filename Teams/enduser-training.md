@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, учебные материалы и другие ресурсы для пользователей в вашей организации в изучении и работе групп.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70df8c02afb0a1e709344cd936bd4f1c1319c311
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: aa9555476fbf429d49c624365fd81fd9d548f06a
+ms.sourcegitcommit: f16c5dc7bbcdc3d4df8462ed2a37108137727430
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838885"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25909858"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Обучение конечных пользователей для работы с Microsoft Teams
 
@@ -157,6 +157,17 @@ ms.locfileid: "25838885"
                          <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Видео: Переход к руководство для владельцев группы</a></p>
                          <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">Видео: Упорядочить список групп</a></p>
                          <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">Видео: Рекомендации по настройке вкладки, группы и каналы</a></p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Обучение по запросу в реальных условиях</h3>
+                         <p><a href="https://microsoftteams.eventbuilder.com/event/1772">#ThisisTeams - как работы команды для вас</a></p>
                     </div>
                 </div>
             </div>
