@@ -3,7 +3,7 @@ title: Обзор команд и каналов в Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/02/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 552d6f084de369ce87f3e1e44d4e3ebc968b06ea
+ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699312"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25942817"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 =================================================
@@ -83,3 +83,6 @@ Microsoft Teams отлично способствует упорядочению
 
 ![Схема иерархии для упорядочения команд и каналов в Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
+## <a name="org-wide-teams"></a>Команды в масштабе организации
+
+Если в вашей организации есть не более 1 000 пользователей, можно создать группы масштабе организации. Масштабе организации групп обеспечивает автоматическую доступ для всех пользователей в организации будет частью одной группы для совместной работы. Дополнительные сведения, включая советы и рекомендации для создания и управления группы масштабе организации в разделе [Создание группы масштабе организации в группах Microsoft](create-an-org-wide-team.md).
