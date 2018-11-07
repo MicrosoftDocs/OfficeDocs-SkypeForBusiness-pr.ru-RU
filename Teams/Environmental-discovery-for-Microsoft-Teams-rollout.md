@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53f8704daf923b54e30d0061669ea1de63eeb02e
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: f4503019a35580e662f5ca1e91e9645f92a584c6
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678252"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025129"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Обнаружение окружающей среды развертывания групп Майкрософт
 ===================================================
@@ -136,7 +136,7 @@ Capture подробные сведения о ключевых заинтере
 
 > | Вопрос | Ответ | Комментарии |
 > |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-> | Какие версии Lync или Скайп для бизнеса в настоящее время <br>Существуют развертываются локально? | <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Скайп для Business Server 2015 <br/> <input type="checkbox">Скайп для Business Server 2019 <input type="checkbox"> Скайп облаке соединитель для выпуска для бизнеса | |
+> | Какие версии Lync или Скайп для бизнеса в настоящее время <br>Существуют развертываются локально? | <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Скайп для Business Server 2015 <br/> <input type="checkbox">Скайп для Business Server 2019 <br/><input type="checkbox">Скайп облаке соединитель для выпуска для бизнеса | |
 > | Настроено ли гибридное подключение со Skype для бизнеса Online? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
 > | Эта среда размещенных и управляется сторонних производителей? <br/>Если Да, запишите подробные сведения в столбце примечания. | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
 > | Функции и модальности Каковы в настоящее время используется <br>прямо сейчас? | <input type="checkbox">Обмен мгновенными сообщениями и присутствия (обмен мгновенными Сообщениями/P) <br/> <input type="checkbox">Конференц-связи <br/> <input type="checkbox">Федерации <br/> <input type="checkbox">Запись собрания <br/> <input type="checkbox">Сохраняемый чат и групп чата <br/> <input type="checkbox">Конференц-связи Microsoft звука <br>&nbsp;&nbsp; &nbsp;(ранее — абонентской группы в конференц-связи) в вашей <br>&nbsp;&nbsp; &nbsp;локальной Lync Server или <br>&nbsp;&nbsp; &nbsp;Скайп по развертыванию <br/> <input type="checkbox">Аудиоконференции сторонних производителей <br>&nbsp;&nbsp; &nbsp;(Обратите внимание, Дополнительные сведения в столбце примечания) <br/> <input type="checkbox">Корпоративной голосовой связи используются локальные ТСОП <br>&nbsp;&nbsp; &nbsp;подключения <br/> <input type="checkbox">Тарифные планы (ранее — PSTN вызова) с помощью <br>&nbsp;&nbsp; &nbsp;Гибридное развертывание с Скайп для бизнеса в Интернете | |
