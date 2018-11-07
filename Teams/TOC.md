@@ -1,11 +1,15 @@
 <!-- ============================================================ -->
-# Начало работы
-
-## [Обзор Teams](Teams-overview.md)
-## [Инструменты и семинары. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
-## [Получите помощь в группах Майкрософт](get-help-in-microsoft-teams.md)
+# [Добро пожаловать в Microsoft Teams](teams-overview.md)
 <!-- ============================================================ -->
 
+# [Начало работы](get-started-with-teams-landing-page.md)
+## [Краткое руководство - группы](get-started-with-teams-quick-start.md)
+## [Создание первого групп и каналы](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Встроенный первыми](get-started-with-teams-onboard-early-adopters.md)
+## [Отслеживание использования и свои отзывы и предложения](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Что делать дальше](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [Получите помощь в группах Майкрософт](get-help-in-microsoft-teams.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Планирование
@@ -379,7 +383,7 @@
 #### [Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 #### [Получение телефонных номеров для пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Сколько телефонных номеров можно получить?](how-many-phone-numbers-can-you-get.md)
-#### [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+#### [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ##### [Управление номер телефона для Австралии](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 ##### [Управление номерами телефонов в Бельгии](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 ##### [Управление номерами телефонов в Канаде](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
