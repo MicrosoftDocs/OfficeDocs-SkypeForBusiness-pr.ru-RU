@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: 9c1c60552dc4ef889b312e3055ff99a412362a22
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238138"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26031783"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Встроенный первыми для групп Майкрософт
 
@@ -91,7 +91,7 @@ ms.locfileid: "26238138"
 
 Очень важно для обеспечения вашей первыми активно использовать группам продвигать новых функций совместной работы и разработать чемпионатов группами. Рекомендуется использовать канала «Практические советы» в группе «Ознакомьтесь с группами», созданный для совместного использования руководство с вашими пользователями, которые помогут внедрения. 
 
-Подробное руководство по движущих внедрения группами для вашей организации в разделе [Принять группами](adopt-microsoft-teams-landing-page.md).
+Подробное руководство по движущих внедрения группами для вашей организации [стратегию управления изменениями для групп](change-management-strategy.md)см. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Переход на [Использование монитора и свои отзывы и предложения](get-started-with-teams-monitor-usage-and-feedback.md).

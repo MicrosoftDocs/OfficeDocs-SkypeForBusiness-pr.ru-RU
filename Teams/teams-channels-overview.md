@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8553589dc895317c9799f9fde9d6a0e622b30a0
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: a5e3ec3bf4fc8f3f3a84ccec5558134b3bca43b7
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238046"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038811"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 =================================================
@@ -38,9 +38,7 @@ ms.locfileid: "26238046"
 
     -   Каналы наиболее полезны при расширенных с помощью приложения, которые включают вкладки, соединители и программы-роботы, увеличивающая их значение для членов группы.
 
-Просмотрите это короткое видео, чтобы узнать больше о рекомендации по созданию групп и каналы.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[Просмотрите это короткое видео,](https://youtu.be/hjJWtoaRJeE) для получения дополнительных сведений о рекомендациях для создания групп и каналы.
 
 <a name="membership-roles-and-settings"></a>Членство в роли и параметры
 ------------------------------
