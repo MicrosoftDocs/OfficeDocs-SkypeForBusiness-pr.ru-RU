@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 381e246edc164b5c5a3a6d88b1f5bbf4d1d868cf
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: 6907814b8eb1226f151658fbd784641cb8edbf9d
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238146"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26031779"
 ---
 # <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>Получите ресурсы для планирования процесса развертывания всей организации группами Майкрософт
 
@@ -28,4 +28,5 @@ ms.locfileid: "26238146"
 В разделе [Развертывание групп](deployment-overview.md) нашей документации предоставляет ИТ-специалистов с руководств для наилучшее решение для развертывания в масштабе организации.
 
 ## <a name="adopt-teams"></a>Принять группами
-В разделе [Принять группами](adopt-microsoft-teams-landing-page.md) нашей документации предоставляется пошаговый как успешно принять группами в организации.
+В разделе [создать стратегию управления изменениями для групп](change-management-strategy.md) руководство по успешно принять группами для использования в вашей организации. 
+
