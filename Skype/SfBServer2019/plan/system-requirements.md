@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Сводка: Подготовка к Скайп для серверов Business Server 2019 и инфраструктуры домена в этом разделе. Оборудование, операционная система, баз данных, программного обеспечения, все требования к системе и рекомендации, а также сертификат DNS, файловый ресурс и сведения Active Directory, являются здесь для обеспечения успешной установки и развертывания фермы серверов.'
-ms.openlocfilehash: 39de1f756d5fdd278ea497d1273e474e030bb448
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 0cacba46f438f84c75aa80d1e73d9b4f7fa6c0ff
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838630"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035766"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Требования к системе для Скайп для Business Server 2019
  
@@ -246,6 +246,8 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
 Можно использовать следующие операционные системы контроллера домена:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -254,6 +256,8 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
     
 Из любого домена, Скайп развертывания для бизнеса 2019 сервера в режим работы домена и леса любого леса, Скайп развертывания для 2019 Business Server, должно быть одно из следующих:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2

@@ -13,18 +13,22 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c537f37534c616965b74f5ea268f547cff28d41
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 85e7749bda08b1dbbf7a5afad5fc138facb62940
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016143"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038858"
 ---
 # <a name="cloud-voice-deployment"></a>Развертывание облачной системы голосовой связи
 
-Microsoft Teams, центр для командной работы и взаимодействия в Office 365, теперь поддерживает аудиоконференции, а также телефонную систему с планами звонков и прямую маршрутизацию телефонной системы, удовлетворяя еще более широкий спектр потребностей бизнеса. Новые возможности звонков и собраний платформы Teams позволяют подключать сторонних участников по телефонной сети общего пользования (ТСОП).
+Группами Майкрософт, сервер-концентратор для работы и коммуникации в Office 365, теперь предоставляет звук конференц-связи, телефонной системой с вызова планы и телефонной системой Direct возможности маршрутизации в соответствии с дополнительной бизнес-требований, расширяя собрания групп и вызов качества для включения сторонними подключается с помощью телефонной сети общего пользования (PSTN).
+
+
+> [!Tip] 
+> Просмотрите следующие сеанса основные сведения о телефонных систем: [Знакомство с телефонной системой в группах Майкрософт](https://aka.ms/teams-phone-system)
  
-Со временем мы будем обновлять эту страницу по мере выпуска в Teams новых функций облачной голосовой связи.
+На этой странице будут обновляться облачных дополнительные функции голосовой связи для групп будут выпущены по времени.
 
 
 
@@ -33,32 +37,32 @@ Microsoft Teams, центр для командной работы и взаим
 
 Аудиоконференции в Office 365 позволяют участникам присоединяться к вашим собраниям Teams с любого телефона.
 
-Ниже указано, что именно вы получаете вместе с [аудиоконференциями](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365) в Office 365.
+Вот, вы получаете с [Аудио конференц-связи](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365) в Office 365.
 
 
-## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>Телефонная система с Планами звонков в Microsoft Teams
+## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>Система телефон с Тарифные планы («Тарифные планы») в группах Майкрософт
 
 Телефонная система — это компонент Office 365, позволяющий управлять маршрутизацией звонков, политиками и подготовкой пользователей. В него входит система управления телефонными звонками, маршрутизация звонков и настройка отдельных звонков.
 
 Тарифные планы является дополнительной службы для функции телефонной системой, доставленных через рабочих групп и Скайп для бизнеса в Интернет. Тарифные планы требуется, что пользователь быть размещен в Скайп для бизнеса в Интернет для работы в группах Майкрософт. Тарифные планы обеспечивают для сотрудников в бизнесе с основной номер телефона, а также позволяет их выполнение и прием телефонных звонков за пределами вашей организации по ТСОП.
 
-Дополнительные сведения см. в статьях [Возможности телефонной системы в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) и [Общие сведения о планах звонков в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365).
+Дополнительные сведения, прочитайте [вот вы получаете с телефонной системой в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) и [Каковы вызов планы в Office 365?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
 
 
-## <a name="phone-system-direct-routing-direct-routing"></a>Прямая маршрутизация телефонной системы
+## <a name="phone-system-direct-routing-direct-routing"></a>Телефон системы прямой маршрутизации («Прямая отправка»)
 
-Прямая маршрутизация работает с компонентом телефонной системы, позволяя пользователям вашей организации совершать и принимать звонки за пределами организации по телефонной сети общего пользования (ТСОП), при этом возможность подключения по ТСОП обеспечивается через сторонних поставщиков услуг.
+Прямое works маршрутизации с телефонной системой компонентом, позволяют сотрудникам вашей организации выполнение и прием телефонных звонков за пределами организации сети PSTN, где подключение к ТСОП предоставляется через поставщиков услуг сторонних производителей.
 
-Дополнительные сведения см. в статьях [Планирование прямой маршрутизации](direct-routing-plan.md) и [Настройка прямой маршрутизации](direct-routing-configure.md).
+Дополнительные сведения, ознакомьтесь с [Планирование прямого](direct-routing-plan.md) и [Настроить прямое маршрутизации](direct-routing-configure.md).
 
-## <a name="practical-guidance-for-audio-conferencing-calling-plans-and-direct-routing-in-microsoft-teams"></a>Практическое руководство для аудиоконференций, планов звонков и прямой маршрутизации в Microsoft Teams
+## <a name="practical-guidance-for-audio-conferencing-calling-plans-and-direct-routing-in-microsoft-teams"></a>Практическое руководство по конференц-связи звук, вызов планы и прямой маршрутизации в группах Microsoft
 
 С помощью платформы реализация клиента Office 365 эту организован этого практического руководства и его три этапы&mdash;Предвидения, встроенный и значение диска. Он своей целью помогут спланировать, доставки и использовать успешной реализации звук, вызов планы и/или прямой маршрутизации.
 
 > [!div class="mx-tableFixed"]
 > |Выработка концепции  |Адаптация  |Извлечение выгоды  |
 > |---------|---------|---------|
-> |[Определение показателей успеха](1-envision-define-my-success-cloud-voice.md) <br> Принятие решений по службе для <br>&nbsp;&nbsp;[аудиоконференций](2-envision-make-my-service-decisions-audio-conferencing.md),<br>&nbsp;&nbsp;[планов звонков](2-envision-make-my-service-decisions-phone-system.md) или [прямой маршрутизации](2-envision-make-my-service-decisions-direct-routing.md) <br> [Оценка среды](3-envision-evaluate-my-environment.md) <br> [Планирование управления службами](4-envision-plan-my-service-management.md) <br> [Планирование взаимодействия с пользователями](5-envision-plan-my-users-experience.md) <br> [Документирование плана по достижению успеха](6-envision-document-my-success-plan.md)    | [Подготовка службы](1-onboard-prepare-my-service.md) <br> [Подготовка пользователей](2-onboard-prepare-my-users.md) <br> [Развертывание службы](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Использование службы](1-drive-value-operate-my-service.md) <br> [Улучшение службы](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
+> |[Определение Мой success](1-envision-define-my-success-cloud-voice.md) <br> Проведения Мои службы <br>&nbsp;&nbsp;[Аудиоконференции](2-envision-make-my-service-decisions-audio-conferencing.md)<br>&nbsp;&nbsp;[Тарифные планы](2-envision-make-my-service-decisions-phone-system.md)или [прямой маршрутизации](2-envision-make-my-service-decisions-direct-routing.md) <br> [Оценка моей среды](3-envision-evaluate-my-environment.md) <br> [Планирование управления Мои службы](4-envision-plan-my-service-management.md) <br> [Планирование взаимодействия пользователя Мои пользователи](5-envision-plan-my-users-experience.md) <br> [Документ успешно план](6-envision-document-my-success-plan.md)    | [Подготовка Мои службы](1-onboard-prepare-my-service.md) <br> [Подготовка Мои пользователи](2-onboard-prepare-my-users.md) <br> [Развернуть службу](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Мои службы](1-drive-value-operate-my-service.md) <br> [Улучшите Мои службы](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
 
 Контент в упорядоченном виде и предназначен для ознакомления реализация-сквозного развертывания от начала до конца. Если вы уже активно выполняется развертывание, по-прежнему рекомендуется для ссылки применимых области контента.
 

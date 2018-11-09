@@ -3,23 +3,23 @@ title: Служба элемента для панели мониторинга 
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/8/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
-description: ': Сводка сведения о службе элемента, который является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.'
-ms.openlocfilehash: 218fdb4f2c4b3d73fb4e7f78b5679b66eecf34cc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: ': Сводка сведения о службе элемента, который является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
+ms.openlocfilehash: 5e5198afd95d6c9e1de517054053b724a54b1105
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035626"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Служба элемента для панели мониторинга качества звонков (CQD)
  
-**Сводка:** Сведения о службе элемента, который является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.
+**Сводка:** Сведения о службе элемента, который является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.
   
 Служба элемент является частью API репозитория для панели мониторинга качества звонков.
   

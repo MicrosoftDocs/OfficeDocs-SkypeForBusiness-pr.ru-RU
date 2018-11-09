@@ -16,14 +16,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Прочтите этот раздел, чтобы узнать, как прямой маршрутизации Microsoft телефонной системы позволяет подключать поддерживаемые, предоставленный заказчиком пограничный контроллер сеансов (SBC) для Microsoft телефонной системой.
-ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
-ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
+ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25849408"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038921"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
+
+> [!Tip]
+> Просмотрите следующие сеанса, чтобы узнать о преимуществах прямой маршрутизации, как спланировать его и способе развертывания: [Прямой маршрутизации в группах Майкрософт](https://aka.ms/teams-direct-routing)
 
 Microsoft телефонной системы прямой маршрутизации позволяет подключать поддерживаемые, предоставленный заказчиком пограничный контроллер сеансов (SBC) Майкрософт телефонной системой.  С эту возможность например, можно настроить подключение к ТСОП в локальной с клиентом группами Майкрософт, как показано на следующей схеме: 
 

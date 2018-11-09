@@ -1,28 +1,27 @@
 ---
-title: Репозиторий API для панели мониторинга качества звонков (CQD) в Скайп для Business Server 2015
+title: Репозиторий API для мониторинга качества звонков (CQD) в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
-description: 'Сводка: Сведения об API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.'
-ms.openlocfilehash: 7881766de0daf05c85c7dfe8bb85a0ef1344c7c9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 'Сводка: Сведения об API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
+ms.openlocfilehash: de933063e5768b12af5ae8dc678ec7aa2da5f168
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374725"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035559"
 ---
-# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>Репозиторий API для панели мониторинга качества звонков (CQD) в Скайп для Business Server 2015
+# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Репозиторий API для мониторинга качества звонков (CQD) в Скайп для Business Server
  
-**Сводка:** Сведения об API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.
+**Сводка:** Сведения об API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.
   
-API репозитория предоставляет программный доступ к панели мониторинга качества звонков для Скайп для Business Server 2015.
+API репозитория предоставляет программный доступ к панели мониторинга качества звонков для Скайп для Business Server.
   
 ## <a name="repository-api-for-call-quality-dashboard"></a>Репозиторий API для панели мониторинга качества звонка
 

@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/07/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4036e6b740b059dc1075afe4b7ad3da7b9277c88
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 73c2163557706066f079f3ce61c1d4d3c58ed906
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838515"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038796"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -213,6 +213,7 @@ ms.locfileid: "25838515"
                     <div class="cardText">
                         <h3>Собрания</h3>
                         <p><a href="tutorial-meetings-in-teams.yml">Руководство. Собрания в Teams</a></p>
+                        <p><a href="https://aka.ms/teams-meetings-intro">Видео: Общие сведения о собраниях в группах Microsoft</a></p>
                     </div>
                 </div>
             </div>
@@ -250,7 +251,8 @@ ms.locfileid: "25838515"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Планы звонков</h3>
+                        <h3>Телефонная система</h3>
+                         <p><a href="https://aka.ms/teams-phone-system">Видео: Общие сведения о телефонной системой в группах Майкрософт</a></p>
                          <p><a href="configuring-teams-calling-quickstartguide.md">Краткое руководство: Настройка вызов планы в группах</a></p>
                          <p><a href="tutorial-calling-in-teams.yml">Учебное руководство. Общие сведения о звонках в Microsoft Teams</a></p>
                     </div>
@@ -263,7 +265,7 @@ ms.locfileid: "25838515"
                 <div class="card">
                     <div class="cardText">
                         <h3>Прямая отправка</h3>
-                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">Видео: Прямая отправка для групп - предварительного просмотра</a></p>
+                        <p><a href="https://aka.ms/teams-direct-routing">Видео: Прямая отправка в группах Майкрософт</a></p>
                     </div>
                 </div>
             </div>
