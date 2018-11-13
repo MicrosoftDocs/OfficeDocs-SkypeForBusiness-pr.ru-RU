@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6012193592b915c3f49ff5e50466c74d370e9835
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 979c288f58bfde0d65a923030f81750f90e69ba3
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215977"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255735"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Понять, групп и каналы в группах Майкрософт
 
@@ -32,7 +32,11 @@ ms.locfileid: "26215977"
 
 Дополнительные сведения о групп и каналы, содержится [Обзор групп и каналы в группах Microsoft](teams-channels-overview.md). Для получения дополнительных сведений о рабочих групп и Office 365 групп, содержатся в [Office 365 групп и группами Майкрософт](office-365-groups.md) и [Дополнительные сведения об Office 365 групп](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
-[Просмотрите это короткое видео,](https://youtu.be/hjJWtoaRJeE) для получения дополнительных сведений о рекомендациях для создания групп и каналы.
+
+|  |  |
+|---------|---------|
+| Просмотрите это короткое видео   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 Типы доступа группы определить, кто сможет присоединиться к группе:
 
