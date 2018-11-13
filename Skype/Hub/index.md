@@ -4,11 +4,11 @@ hide_bc: true
 title: Skype для бизнеса
 description: Skype для бизнеса
 ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
-ms.translationtype: HT
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546668"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293650"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -51,7 +51,7 @@ ms.locfileid: "25546668"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Гибридные решения</h3>
-                                                    <p>Узнайте больше о планировании гибридного развертывания Skype для бизнеса.</p>
+                                                    <p>Найдите сведения о планировании Скайп для бизнеса гибридного развертывания.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -126,7 +126,7 @@ ms.locfileid: "25546668"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Переход со Skype для бизнеса на Microsoft Teams</h3>
-                                                    <p>Найдите руководство и средства для оптимального перехода на Teams.</p>
+                                                    <p>Найдите рекомендации и средства для изучения оптимальную путь к группам.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -143,7 +143,7 @@ ms.locfileid: "25546668"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Системы комнат Skype версии 2</h3>
+                                                    <h3>Системы комнат Skype версии 2</h3>
                                                     <p>Узнайте, как планировать, развертывать системы Skype Room v2 и управлять ими.</p>
                                                 </div>
                                             </div>
@@ -179,8 +179,8 @@ ms.locfileid: "25546668"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Пользователи</h3>
-                                                    <p>Справку, обучение и техническую поддержку для пользователей Skype для бизнеса можно найти на сайте <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
+                                                    <h3>Конечные потребители</h3>
+                                                    <p>Поиск справки, обучению и техническую поддержку Скайп для бизнес-пользователи на <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>
