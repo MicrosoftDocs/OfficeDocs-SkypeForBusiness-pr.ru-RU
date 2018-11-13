@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54f7805e4e6db4416601ea01bcb5fc66e57ead17
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255656"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282990"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 =================================================
@@ -40,7 +40,7 @@ ms.locfileid: "26255656"
 
 Просмотрите это короткое видео, чтобы узнать больше о рекомендации по созданию групп и каналы.
 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 <a name="membership-roles-and-settings"></a>Членство в роли и параметры
 ------------------------------
@@ -54,7 +54,8 @@ ms.locfileid: "26255656"
 **Параметры команды.** Владельцы команд могут управлять настройками всей команды непосредственно в Microsoft Teams. Сюда входит возможность добавлять аватар команды и управление разрешениями участников на создание каналов, добавление вкладок и соединителей, @упоминание всей команды или канала, а также использование GIF-анимации, стикеров и мемов. 
 
 Выполните три минут, чтобы извлечь перейти к руководство видео для группы владельцев. 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 Если вы являетесь администратором группами Майкрософт в Office 365, имеется доступ к системных параметров в группы & Скайп по центру администрирования бизнеса. Они могут затрагивать настройки и значения по умолчанию, которые владельцы видят у себя в параметрах команды. Например, вы можете включить во всех командах канал по умолчанию "Общий" для объявлений, обсуждений и ресурсов, общих для всей команды.
 
@@ -68,7 +69,6 @@ ms.locfileid: "26255656"
 Ниже приведено несколько примеров того, как разные типы пользователей могут настраивать команды, каналы и приложения (вкладки, соединители, боты). Эти сведения могут дать толчок к обсуждению Microsoft Teams в вашем сообществе пользователей. Анализируя способы внедрения Microsoft Teams в организации, помните о том, что вы можете разработать указания о требуемой структуре команд, однако пользователи обладают возможностями для самоорганизации. Здесь лишь приведены примеры, помогающие начать рассмотрение и обсуждение этих возможностей.
 
 Microsoft Teams отлично способствует упорядочению работы организации и внедрению кросс-функциональных команд, и именно это представление о продукте нужно донести до конечных пользователей.
-
 
 |Типы команд  |Возможные каналы  |Приложения (вкладки ![Значок вкладок.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png), соединители ![Значок соединителей.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png), боты ![Значок ботов.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
