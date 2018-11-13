@@ -20,47 +20,44 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, как просмотреть список пользователей в вашей организации, которые активированы для конференц-связи с телефонным подключением из Microsoft Teams. '
-ms.openlocfilehash: a05aa000b2289499c030ac564a5f09eeefdd865a
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: 47e8f6879a16f9ee56e9050a07764800d4dba12b
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019122"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283149"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="ed5c2-103">Просмотр списка пользователей, активированных для аудиоконференций в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ed5c2-103">See a list of users that are enabled for Audio Conferencing in Microsoft Teams</span></span>
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="00d32-103">Просмотр списка пользователей, активированных для аудиоконференций в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="00d32-103">See a list of users that are enabled for Audio Conferencing in Microsoft Teams</span></span>
 
-<span data-ttu-id="ed5c2-104">После включения Microsoft группам пользователей в вашей организации для аудиоконференции можно просмотреть список тех пользователей, которые будут включены.</span><span class="sxs-lookup"><span data-stu-id="ed5c2-104">After you have enabled Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled.</span></span> <span data-ttu-id="ed5c2-105">При просмотре списка вы также сможете увидеть тип используемого поставщика услуг аудиоконференций для каждого пользователя в списке, телефонный номер для каждого пользователя по умолчанию, узнать, включены ли динамические идентификаторы конференции для вашей организации, а также статические идентификаторы конференции для аудиоконференций, которые проводят пользователи.</span><span class="sxs-lookup"><span data-stu-id="ed5c2-105">When you look at the list, you will also see for each user in the list the type of audio conferencing provider that they are using, the default dial-in phone number for the user, and if you organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.</span></span>
+<span data-ttu-id="00d32-104">После включения Microsoft группам пользователей в вашей организации для аудиоконференции можно просмотреть список тех пользователей, которые будут включены.</span><span class="sxs-lookup"><span data-stu-id="00d32-104">After you have enabled Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled.</span></span> 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="viewing-a-list-of-users"></a><span data-ttu-id="ed5c2-106">Просмотр списка пользователей</span><span class="sxs-lookup"><span data-stu-id="ed5c2-106">Viewing a list of users</span></span>
+## <a name="viewing-a-list-of-users"></a><span data-ttu-id="00d32-105">Просмотр списка пользователей</span><span class="sxs-lookup"><span data-stu-id="00d32-105">Viewing a list of users</span></span>
 
-- <span data-ttu-id="ed5c2-107">В группами Майкрософт & Скайп по центру администрирования бизнеса, на панели навигации слева щелкните **Пользователи**.</span><span class="sxs-lookup"><span data-stu-id="ed5c2-107">In the Microsoft Teams & Skype for Business Admin Center, in the left navigation, click **Users**.</span></span>
+- <span data-ttu-id="00d32-106">В группами Майкрософт & Скайп по центру администрирования бизнеса, на панели навигации слева щелкните **Пользователи**.</span><span class="sxs-lookup"><span data-stu-id="00d32-106">In the Microsoft Teams & Skype for Business Admin Center, in the left navigation, click **Users**.</span></span>
 
 
-## <a name="what-else-should-i-know"></a><span data-ttu-id="ed5c2-108">Что еще мне нужно знать?</span><span class="sxs-lookup"><span data-stu-id="ed5c2-108">What else should I know?</span></span>
+## <a name="what-else-should-i-know"></a><span data-ttu-id="00d32-107">Дополнительные сведения</span><span class="sxs-lookup"><span data-stu-id="00d32-107">What else should I know?</span></span>
 
-- <span data-ttu-id="ed5c2-109">При просмотре списка активированных пользователей вы можете выбрать пользователя, чтобы изменить его настройки аудиоконференций.</span><span class="sxs-lookup"><span data-stu-id="ed5c2-109">When you view the list of users that are enabled, you can select a user from the list to edit the audio conferencing settings for that user.</span></span>
+- <span data-ttu-id="00d32-108">При просмотре списка пользователей, для которых включено, можно выбрать пользователя из списка, чтобы изменить параметры аудиоконференций для этого пользователя.</span><span class="sxs-lookup"><span data-stu-id="00d32-108">When you view the list of users that are enabled, you can select a user from the list to edit the audio conferencing settings for that user.</span></span>
     
-- <span data-ttu-id="ed5c2-110">Если выбрать одного пользователя, у которого в качестве поставщика услуг аудиоконференций указан Майкрософт, вы можете просмотреть телефонный номер по умолчанию, узнать, включены ли динамические идентификаторы конференции для вашей организации, а также сбросить идентификатор конференции для собраний, которые проводит этот пользователь.</span><span class="sxs-lookup"><span data-stu-id="ed5c2-110">When you select a single user that is configured to use Microsoft as the audio conferencing provider, you can view the default phone number and whether your organization is enabled for dynamic conference IDs, and you can reset the conference ID for meetings that the user organizes.</span></span>
-    
-- <span data-ttu-id="ed5c2-111">Если выбрать одного пользователя, который пользуется услугами стороннего поставщика аудиоконференций, вы можете просмотреть название стороннего поставщика аудиоконференций, платный телефонный номер и бесплатный телефонный номер (если они настроены).</span><span class="sxs-lookup"><span data-stu-id="ed5c2-111">When you select a single user who is configured to use a third-party audio conferencing provider, you can view the name of the audio conferencing provider, the toll phone number, and the toll-free phone number (if they are set up).</span></span>
-    
+- <span data-ttu-id="00d32-109">При выборе одного пользователя, можно просмотреть номер телефона по умолчанию, назначенные для пользователя и другие параметры, соответствующие аудиоконференций.</span><span class="sxs-lookup"><span data-stu-id="00d32-109">When you select a single user, you can view the default phone number assigned to the user and any other relevant audio conferencing settings.</span></span>    
    
-- <span data-ttu-id="ed5c2-112">Чтобы найти отдельного пользователя в списке, можно использовать кнопку поиска.</span><span class="sxs-lookup"><span data-stu-id="ed5c2-112">You can use the search button to search for an individual user in the list.</span></span>
+- <span data-ttu-id="00d32-110">Вы можете использовать кнопку поиска, чтобы найти определенного пользователя в списке.</span><span class="sxs-lookup"><span data-stu-id="00d32-110">You can use the search button to search for an individual user in the list.</span></span>
     
     
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="ed5c2-113">Хотите узнать больше о Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="ed5c2-113">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="00d32-111">Хотите узнать больше о Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="00d32-111">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="ed5c2-p102">Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.</span><span class="sxs-lookup"><span data-stu-id="ed5c2-p102">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="00d32-p101">Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.</span><span class="sxs-lookup"><span data-stu-id="00d32-p101">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="ed5c2-117">Шесть причин использовать Windows PowerShell для управления Office 365</span><span class="sxs-lookup"><span data-stu-id="ed5c2-117">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="00d32-115">Шесть причин использовать Windows PowerShell для управления Office 365</span><span class="sxs-lookup"><span data-stu-id="00d32-115">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="ed5c2-118">Лучшие способы управления Office 365 с помощью Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="ed5c2-118">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="00d32-116">Лучшие способы управления Office 365 с помощью Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="00d32-116">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="ed5c2-119">Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="ed5c2-119">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="00d32-117">Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="00d32-117">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="ed5c2-120">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="ed5c2-120">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="00d32-118">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="00d32-118">Related topics</span></span>
 
-[<span data-ttu-id="ed5c2-121">Оцените или приобретите аудиоконференции в Office 365</span><span class="sxs-lookup"><span data-stu-id="ed5c2-121">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="00d32-119">Пробная и платная аудиоконференции в Office 365</span><span class="sxs-lookup"><span data-stu-id="00d32-119">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

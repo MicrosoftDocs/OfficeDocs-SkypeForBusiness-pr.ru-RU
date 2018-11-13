@@ -1,7 +1,7 @@
+
 <!-- ============================================================ -->
 # [Добро пожаловать в Microsoft Teams](teams-overview.md)
 <!-- ============================================================ -->
-
 # [Начало работы](get-started-with-teams-landing-page.md)
 ## [Краткое руководство - группы](get-started-with-teams-quick-start.md)
 ## [Создание первого групп и каналы](get-started-with-teams-create-your-first-teams-and-channels.md)
@@ -27,7 +27,26 @@
 ## [Создание стратегии управления изменений](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# [Адаптация](adopt-microsoft-teams-landing-page.md) 
 
+## [Начало работы](teams-adoption-get-started.md)
+## [Этап 1 — начало](teams-adoption-phase1.md)
+### [Понять, групп и каналы](teams-adoption-understand-teams-and-channels.md)
+### [Создание первой группы](teams-adoption-your-first-teams.md)
+### [Как готовы группами в вашей организации?](teams-adoption-assess-readiness.md)
+## [Этап 2 - эксперимента](teams-adoption-phase2-experiment.md)
+### [Создание программы чемпионатов](teams-adoption-create-champions-program.md)
+### [Краткое руководство](teams-adoption-governance-quick-start.md)
+### [Определение сценариев использования](teams-adoption-define-usage-scenarios.md)
+### [Встроенный первыми и сбор отзывов](teams-adoption-onboard-early-adopters.md)
+### [Встроенная поддержка](teams-adoption-onboard-support.md)
+## [Этап 3 - масштаба](teams-adoption-phase3-enable.md)
+### [Определение результатов деятельности и успеха](teams-adoption-define-outcomes.md)
+### [Оптимизировать свои отзывы и предложения и отчетов](teams-adoption-optimize-feedback-and-reporting.md)
+### [Сведения о диска и реализовать и обучение](teams-adoption-drive-awareness.md)
+### [Планирование проверки работоспособности службы](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Настройка и развертывание
@@ -115,6 +134,7 @@
 <!-- ============================================================ -->
 # Взаимодействие с Office 365
 ## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
+## [Совместная работа с Скайп для бизнеса](coexistence-chat-calls-presence.md)
 ## [Задайте вашей сосуществования и параметры обновления](setting-your-coexistence-and-upgrade-settings.md)
 ## [Группы Office 365 и Teams](office-365-groups.md)
 ## [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
@@ -334,7 +354,7 @@
 #### [Управление номерами телефонов в Нидерландах](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Управление номерами телефонов в Соединенном Королевстве](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Управление номерами телефонов в США](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-### Управление кредитов связи
+### Управление коммуникаций кредитов
 #### [Что такое кредиты на связь?](what-are-communications-credits.md)
 #### [Настройка кредитов на связь для организации](set-up-communications-credits-for-your-organization.md)
 #### [Добавление средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
