@@ -1,15 +1,11 @@
+<!-- ============================================================ -->
+# Начало работы
 
-<!-- ============================================================ -->
-# [Добро пожаловать в Microsoft Teams](teams-overview.md)
-<!-- ============================================================ -->
-# [Начало работы](get-started-with-teams-landing-page.md)
-## [Краткое руководство - группы](get-started-with-teams-quick-start.md)
-## [Создание первого групп и каналы](get-started-with-teams-create-your-first-teams-and-channels.md)
-## [Встроенный первыми](get-started-with-teams-onboard-early-adopters.md)
-## [Отслеживание использования и свои отзывы и предложения](get-started-with-teams-monitor-usage-and-feedback.md)
-## [Что делать дальше](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [Обзор Teams](Teams-overview.md)
+## [Инструменты и семинары. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
 ## [Получите помощь в группах Майкрософт](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
+
 
 <!-- ============================================================ -->
 # Планирование
@@ -27,26 +23,7 @@
 ## [Создание стратегии управления изменений](change-management-strategy.md)
 <!-- ============================================================ -->
 
-<!-- ============================================================ -->
-# [Адаптация](adopt-microsoft-teams-landing-page.md) 
 
-## [Начало работы](teams-adoption-get-started.md)
-## [Этап 1 — начало](teams-adoption-phase1.md)
-### [Понять, групп и каналы](teams-adoption-understand-teams-and-channels.md)
-### [Создание первой группы](teams-adoption-your-first-teams.md)
-### [Как готовы группами в вашей организации?](teams-adoption-assess-readiness.md)
-## [Этап 2 - эксперимента](teams-adoption-phase2-experiment.md)
-### [Создание программы чемпионатов](teams-adoption-create-champions-program.md)
-### [Краткое руководство](teams-adoption-governance-quick-start.md)
-### [Определение сценариев использования](teams-adoption-define-usage-scenarios.md)
-### [Встроенный первыми и сбор отзывов](teams-adoption-onboard-early-adopters.md)
-### [Встроенная поддержка](teams-adoption-onboard-support.md)
-## [Этап 3 - масштаба](teams-adoption-phase3-enable.md)
-### [Определение результатов деятельности и успеха](teams-adoption-define-outcomes.md)
-### [Оптимизировать свои отзывы и предложения и отчетов](teams-adoption-optimize-feedback-and-reporting.md)
-### [Сведения о диска и реализовать и обучение](teams-adoption-drive-awareness.md)
-### [Планирование проверки работоспособности службы](teams-adoption-schedule-service-health-reviews.md)
-<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Настройка и развертывание
@@ -134,7 +111,6 @@
 <!-- ============================================================ -->
 # Взаимодействие с Office 365
 ## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
-## [Совместная работа с Скайп для бизнеса](coexistence-chat-calls-presence.md)
 ## [Задайте вашей сосуществования и параметры обновления](setting-your-coexistence-and-upgrade-settings.md)
 ## [Группы Office 365 и Teams](office-365-groups.md)
 ## [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
@@ -206,7 +182,6 @@
 ### [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ### [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
 ### [Общие сведения о динамическое членство в группах](dynamic-memberships.md)
-## [Присутствие](presence-admins.md)
 ## [Гостевой доступ](guest-access.md)
 ### [Присоединение гостя к команде](guest-joins.md)
 ### [Взаимодействие с гостями](guest-experience.md)
@@ -236,8 +211,7 @@
 #### [Что такое группы live событий?](teams-live-events/what-are-teams-live-events.md)
 #### [Планирование групп событий в реальном времени](teams-live-events/plan-for-teams-live-events.md)
 #### [Настройка для групп событий в реальном времени](teams-live-events/set-up-for-teams-live-events.md)
-#### [Использование PowerShell для настройки политик групп событий в реальном времени](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-#### [Настройка параметров групп событий в реальном времени](teams-live-events/configure-teams-live-events.md)
+#### [Настройка групп событий в реальном времени](teams-live-events/configure-teams-live-events.md)
 
 
 
@@ -354,7 +328,7 @@
 #### [Управление номерами телефонов в Нидерландах](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Управление номерами телефонов в Соединенном Королевстве](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Управление номерами телефонов в США](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-### Управление коммуникаций кредитов
+### Управление кредитов связи
 #### [Что такое кредиты на связь?](what-are-communications-credits.md)
 #### [Настройка кредитов на связь для организации](set-up-communications-credits-for-your-organization.md)
 #### [Добавление средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
@@ -372,7 +346,7 @@
 #### [Включение и отключение отправки писем при смене настроек аудиоконференций](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Управление настройками аудиоконференций для пользователя](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [Управление параметрами звука конференц-связи для вашей организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Управление настройками аудиоконференций для организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [Номера телефонов для аудиоконференций](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Сброс идентификатора конференции для пользователя](reset-a-conference-id-for-a-user-in-teams.md)

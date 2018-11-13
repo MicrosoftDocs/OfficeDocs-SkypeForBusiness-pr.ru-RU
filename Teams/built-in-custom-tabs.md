@@ -3,7 +3,7 @@ title: Использование встроенных и настраиваем
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,47 +12,49 @@ search.appverid: MET150
 description: Сведения об использовании встроенных и настраиваемых вкладок для таких компонентов, как беседы, файлы, карты и многое другое.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afdf57e4b1a37cf5cc1e1de1f4c2c86f478baf79
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 01e74b526058842819e219fcaa34109a7f954ad4
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016375"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294677"
 ---
-<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a><span data-ttu-id="16ad0-103">Использование встроенных и настраиваемых вкладок в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="16ad0-103">Use built-in and custom tabs in Microsoft Teams</span></span>
+<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a><span data-ttu-id="8380b-103">Использование встроенных и настраиваемых вкладок в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="8380b-103">Use built-in and custom tabs in Microsoft Teams</span></span>
 ==================================================
 
-<span data-ttu-id="16ad0-104">Благодаря вкладкам участники команды получают доступ к службам на выделенном холсте внутри канала.</span><span class="sxs-lookup"><span data-stu-id="16ad0-104">Tabs allow team members to access services on a dedicated canvas within a channel.</span></span> <span data-ttu-id="16ad0-105">Это позволяет команде напрямую работать с предоставляемыми вами средствами и данными, а также обсуждать их в контексте канала.</span><span class="sxs-lookup"><span data-stu-id="16ad0-105">This lets the team work directly with the tools and data you provide, and to have conversations about them, in the channel’s context.</span></span> <span data-ttu-id="16ad0-106">По умолчанию каждый новый канал имеет две вкладки, как показано на следующем изображении:</span><span class="sxs-lookup"><span data-stu-id="16ad0-106">With every new channel, two tabs are provisioned by default, as listed and shown in the image, below:</span></span>
+<span data-ttu-id="8380b-104">Вкладки позволяют членам группы для доступа к службам на выделенном полотно в разговора или внутри канала.</span><span class="sxs-lookup"><span data-stu-id="8380b-104">Tabs allow team members to access services on a dedicated canvas within a channel or in a chat.</span></span> <span data-ttu-id="8380b-105">Это позволяет группы работают непосредственно с помощью средств и данных и обмена мнениями о них в контексте канала или чата.</span><span class="sxs-lookup"><span data-stu-id="8380b-105">This lets the team work directly with tools and data and have conversations about them in the context of the channel or chat.</span></span> 
 
--   <span data-ttu-id="16ad0-107">Беседы</span><span class="sxs-lookup"><span data-stu-id="16ad0-107">Conversations</span></span>
+<span data-ttu-id="8380b-106">Владельцы и участники групп можно добавить вкладки канала, частной беседы и групповые беседы для интеграции со службами облака.</span><span class="sxs-lookup"><span data-stu-id="8380b-106">Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services.</span></span> <span data-ttu-id="8380b-107">Вкладки могут быть добавлены, чтобы помочь пользователям легко получить доступ к и управления данными, они должны или взаимодействия с наиболее.</span><span class="sxs-lookup"><span data-stu-id="8380b-107">Tabs can be added to help users easily access and manage the data they need or interact with the most.</span></span> <span data-ttu-id="8380b-108">Это может быть отчет Power BI, панель мониторинга и даже видеоканал [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785), где вы публикуете обучающие ролики.</span><span class="sxs-lookup"><span data-stu-id="8380b-108">This can be a Power BI report, a dashboard, or even a [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) video channel where you publish training videos.</span></span>
 
--   <span data-ttu-id="16ad0-108">Файлы</span><span class="sxs-lookup"><span data-stu-id="16ad0-108">Files</span></span>
+![Три снимка экрана с различным содержимым на вкладках.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
-![Снимок экрана с разделом беседы для маркетинговой команды.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+## <a name="work-with-tabs"></a><span data-ttu-id="8380b-110">Работа с вкладками</span><span class="sxs-lookup"><span data-stu-id="8380b-110">Work with tabs</span></span>
 
-1.  <span data-ttu-id="16ad0-110">Владельцы и участники команды могут добавлять в каждый из каналов дополнительные вкладки для интеграции с соответствующими облачными службами.</span><span class="sxs-lookup"><span data-stu-id="16ad0-110">Owners and team members can add additional tabs, to each channel, to help integrate their cloud services.</span></span>
+- <span data-ttu-id="8380b-111">Каждый новый канал две вкладки будут иметь доступ по умолчанию, беседы и файлы.</span><span class="sxs-lookup"><span data-stu-id="8380b-111">With every new channel, two tabs are provisioned by default, Conversations and Files.</span></span> 
 
-2.  <span data-ttu-id="16ad0-111">Для преобразования во вкладки файлы Excel, PowerPoint, Word и PDF нужно отправить на **вкладку "Файлы"**.</span><span class="sxs-lookup"><span data-stu-id="16ad0-111">Excel, PowerPoint, Word and PDF files must be uploaded to the **Files tab** before they can be converted to tabs.</span></span> <span data-ttu-id="16ad0-112">Кроме того, уже отправленные файлы можно преобразовать во вкладки одним щелчком мыши, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="16ad0-112">Alternatively, any existing uploaded, files can be converted into tabs with a single click, as shown below.</span></span>
+    ![Снимок экрана с разделом беседы для маркетинговой команды.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+- <span data-ttu-id="8380b-113">С каждой частной беседы четыре вкладки будут иметь доступ по умолчанию бесед, файлы, организации и действия.</span><span class="sxs-lookup"><span data-stu-id="8380b-113">With every private chat, four tabs are provisioned by default, Conversations, Files, Organization, and Activity.</span></span>
+
+    ![Снимок экрана вкладок в разговора.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
+
+- <span data-ttu-id="8380b-115">Владельцы и участники групп можно добавить дополнительные вкладки канала или чата, нажав кнопку **Добавить вкладку** ![снимок экрана добавить кнопку вкладки, отражающая + входа.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png)</span><span class="sxs-lookup"><span data-stu-id="8380b-115">Owners and team members can add more tabs to a channel or chat by clicking **Add a tab** ![Screenshot of the Add a tab button, showing a + sign.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png)</span></span> <span data-ttu-id="8380b-116">в верхней части канала или чата.</span><span class="sxs-lookup"><span data-stu-id="8380b-116">at the top of the channel or chat.</span></span>
+
+- <span data-ttu-id="8380b-117">Необходимо загрузить файлов Excel, PowerPoint, Word и PDF вкладку **файлы** , прежде чем их можно преобразовать в вкладок.</span><span class="sxs-lookup"><span data-stu-id="8380b-117">Excel, PowerPoint, Word, and PDF files must be uploaded to the **Files** tab before they can be converted to tabs.</span></span> <span data-ttu-id="8380b-118">Кроме того любые существующие загруженному файлу может быть преобразована на вкладку одним щелчком мыши, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="8380b-118">Alternatively, any existing uploaded file can be converted to a tab with a single click, as shown below.</span></span>
 
     ![Снимок экрана с вкладкой "Файлы", где выбран файл PowerPoint.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-3.  <span data-ttu-id="16ad0-114">Чтобы добавить веб-сайт, его URL-адрес должен начинаться с **префикса https**, так как это обеспечивает безопасность при обмене данными.</span><span class="sxs-lookup"><span data-stu-id="16ad0-114">To add a website, the URL must start with an **https prefix,** so that any information exchanged remains secure.</span></span>
+- <span data-ttu-id="8380b-120">Чтобы добавить веб-сайт, URL-адрес должны начинаться с префиксом **https** , сведения, предоставленные остается безопасной.</span><span class="sxs-lookup"><span data-stu-id="8380b-120">To add a website, the URL must start with an **https** prefix so information that's exchanged remains secure.</span></span>
 
-4.  <span data-ttu-id="16ad0-115">Если участник команды пытается добавить в канал настраиваемую вкладку, то получает подробные инструкции.</span><span class="sxs-lookup"><span data-stu-id="16ad0-115">Detailed instructions are provided when a team member attempts to add a custom tab into their channel.</span></span>
-
-5.  <span data-ttu-id="16ad0-116">После добавления настраиваемой вкладки в канал создается **вкладка "Беседа"**, где участники команды могут обсудить данный контент.</span><span class="sxs-lookup"><span data-stu-id="16ad0-116">When a Custom tab is added into a channel, a **Tab conversation** is created that allows team members to have focused discussions about the content.</span></span>
+- <span data-ttu-id="8380b-121">Если участник группы попытается для добавления настраиваемой вкладки для их канала или чата приведены подробные инструкции.</span><span class="sxs-lookup"><span data-stu-id="8380b-121">Detailed instructions are provided when a team member tries to add a custom tab to their channel or chat.</span></span> <span data-ttu-id="8380b-122">При пользовательскую вкладку добавляется к каналу, **Вкладка беседы** создается, которая позволяет участникам группы шла обсуждения касательно содержимого.</span><span class="sxs-lookup"><span data-stu-id="8380b-122">When a custom tab is added to a channel, a **Tab conversation** is created that allows team members to have focused discussions about the content.</span></span>
 
     ![Снимок экрана с настраиваемой вкладкой, где в правой части окна находится беседа.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
-6.  <span data-ttu-id="16ad0-118">В каналы можно добавлять дополнительные вкладки, чтобы помочь пользователям обращаться к нужным данным и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="16ad0-118">Additional tabs can be added to channels to help users easily access and manage the data they need or interact with the most.</span></span> <span data-ttu-id="16ad0-119">Это может быть отчет Power BI, панель мониторинга и даже видеоканал [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785), где вы публикуете обучающие ролики.</span><span class="sxs-lookup"><span data-stu-id="16ad0-119">This can be a Power BI report, a dashboard, or even a [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) video channel where you publish training videos.</span></span>
+## <a name="develop-custom-tabs"></a><span data-ttu-id="8380b-124">Разработка настраиваемых вкладок</span><span class="sxs-lookup"><span data-stu-id="8380b-124">Develop custom tabs</span></span>
 
-    ![Три снимка экрана с различным содержимым на вкладках.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+<span data-ttu-id="8380b-125">В дополнение к встроенной вкладки при проектировании и разработке собственных вкладок для интеграции группам или совместной работы с другими элементами сообщества.</span><span class="sxs-lookup"><span data-stu-id="8380b-125">In addition to the built-in tabs, you can design and develop your own tabs to integrate to Teams or share with the rest of the community.</span></span>
 
-<a name="develop-custom-tabs"></a><span data-ttu-id="16ad0-121">Разработка настраиваемых вкладок</span><span class="sxs-lookup"><span data-stu-id="16ad0-121">Develop custom tabs</span></span>
--------------------
-
-<span data-ttu-id="16ad0-122">Кроме встроенных вкладок, организации могут легко разрабатывать и проектировать свои собственные вкладки, которые можно интегрировать с Microsoft Teams или предоставить сообществу.</span><span class="sxs-lookup"><span data-stu-id="16ad0-122">In addition to the built-in tabs, organizations can easily design and develop their own tabs, that can be integrated into Microsoft Teams, or shared with the rest of the community.</span></span>
-
-<span data-ttu-id="16ad0-123">Microsoft Developer Network содержит [подробные инструкции](https://go.microsoft.com/fwlink/?linkid=855786) по проектированию и разработке собственных вкладок, кроме того, можно скачать и развернуть [примеры вкладок](https://go.microsoft.com/fwlink/?linkid=855787) от Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="16ad0-123">The Microsoft Developer Network provides [detailed instructions](https://go.microsoft.com/fwlink/?linkid=855786) to design and build your own tabs; and download and deploy [sample tabs](https://go.microsoft.com/fwlink/?linkid=855787) developed by Microsoft.</span></span>
+<span data-ttu-id="8380b-126">Microsoft Developer Network содержатся [Подробные инструкции](https://go.microsoft.com/fwlink/?linkid=855786) для разработки и построения свои собственные и разработанных службой корпорации Майкрософт, вы можете загрузить [пример вкладки](https://go.microsoft.com/fwlink/?linkid=855787) .</span><span class="sxs-lookup"><span data-stu-id="8380b-126">The Microsoft Developer Network provides [detailed instructions](https://go.microsoft.com/fwlink/?linkid=855786) to design and build your own tabs and [sample tabs](https://go.microsoft.com/fwlink/?linkid=855787) developed by Microsoft that you can download.</span></span>
 
 ![Снимок экрана с примером настраиваемой вкладки в Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
+
+---
