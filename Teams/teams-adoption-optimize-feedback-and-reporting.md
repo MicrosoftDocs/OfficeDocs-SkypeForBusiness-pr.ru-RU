@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d86183ecb8209da15edd7f97511d6297bd0910c
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215978"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255767"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Оптимизировать свои отзывы и предложения и отчетов для внедрения вашей группами Майкрософт
 
@@ -50,8 +50,8 @@ ms.locfileid: "26215978"
 
 Существует три типа отчетов, который необходимо проверить, как развернуть и принять группами Майкрософт:
 
-- Служба работоспособности – из Office 365 и внутренней ИТ-поддержки отдела.
-- Активность службы – из Office 365 представления отчетов об группами Майкрософт. Можно также использовать данные других систем в вашей организации.
+- [Работоспособность службы](https://status.office365.com/) – из Office 365 и внутренней ИТ-поддержки отдела.
+- [Действие сервиса](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) — от Office 365 просматривать [отчеты, группами Майкрософт](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Можно также использовать данные других систем в вашей организации.
 - Удовлетворенность службы – собранные из внутреннего форумы и опросов на конкретных каждый раз
 
 ![Далее действия значок](media/teams-adoption-next-icon.png) далее: [сведения о диска и реализовать и обучение](teams-adoption-drive-awareness.md)

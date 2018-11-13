@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: 8a5484aee9e8a5a9b8a3e1a0c0cf3e3f264b17d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371977"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283180"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Попробуйте или Покупка аудио конференц-связи в Office 365 для групп Майкрософт
 
@@ -46,9 +46,9 @@ ms.locfileid: "25371977"
     
 2. Получите свою лицензию на **Аудиконференции**. Если Вы хотите:
 
-   - **Загрузить пробную версию**, прежде чем приобрести лицензию, Вы можете пройти регистрацию для получения бесплатной пробной версии Office 365 корпоративный E5, в которую входит функция аудиоконференции. См. раздел [Пробная версия Office 365 корпоративный E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Попробуйте прямо** перед покупкой: зарегистрироваться для Office 365 корпоративный E5 бесплатную пробную версию, которая включает в себя звук конференц-связи. См. раздел [Пробная версия Office 365 корпоративный E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Купить**, видеть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+   - **Купить**: увидеть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 3. [Назначение и удаление лицензий на Office 365 для бизнеса](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) , приобретенных для пользователей в вашей организации, которые будет расписание или ведущий сотрудник собраний.
 
@@ -74,7 +74,9 @@ ms.locfileid: "25371977"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Шаг 2: задать поставщика аудиоконференций для людей, проводящих или планирующих собрания
 
-Когда лицензии на **Аудиоконференции** уже назначены для людей в организации, проводящих или планирующих собрания, все настроено и готово к работе! (Нет необходимости в настройке их поставщика аудиоконференций.)
+При назначении лицензии **Аудиоконференций** для людей в организации, у которых нет Скайп для интегрированных бизнес с помощью стороннего поставщика аудиоконференций их все set up и подготовиться к переходу на переход! (Нет необходимости в настройке их поставщика аудиоконференций.)
+
+Если у пользователей с помощью стороннего поставщика аудиоконференций, необходимо изменить поставщика этих пользователей в корпорацию Майкрософт. Чтобы изменить поставщика пользователя, видеть [Назначение Microsoft в качестве поставщика аудиоконференций](assign-microsoft-as-the-audio-conferencing-provider.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Шаг 3: другие задачи администратора
 
@@ -94,7 +96,7 @@ ms.locfileid: "25371977"
 
 ## <a name="related-topics"></a>Связанные разделы
 
-[Настройка Skype для бизнеса Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Позволяют группам в организации](office-365-set-up.md)
 
 [Номера телефонов для аудиоконференций](phone-numbers-for-audio-conferencing-in-teams.md)
 

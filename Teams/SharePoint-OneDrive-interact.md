@@ -3,7 +3,7 @@ title: Взаимодействие SharePoint Online и OneDrive для биз�
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/31/2018
+ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c7cddeb2ee125fa54cc7db353c83157bec90d76
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: d82509aedab32e7fa4fe14ea162d369a2bab5565
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890550"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282975"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams
 =============================================================================
@@ -55,3 +55,10 @@ ms.locfileid: "25890550"
 У каждого пользователя имеется папка OneDrive **Файлы чатов Microsoft Teams** для хранения всех файлов, предоставленных для общего доступа в приватных чатах с другими пользователями (в формате один к одному или один ко многим). При этом разрешения для ограничения доступа настраиваются автоматически.
 
 ![Схема папки OneDrive с именем "Файлы чатов Microsoft Teams" для каждого из чатов пользователя.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+
+<a name="more-information"></a>Подробная информация
+----------------
+
+Дополнительные сведения о работе с группами SharePoint можно [SharePoint и рабочих групп: эффективная совместная работа](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
+
+
