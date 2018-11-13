@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: В этом разделе описываются средства в Скайп Business Server 2015 для набора ресурсов для, включая назначение каждого средства и примеры его использования. Скайп для набора ресурсов 2015 Business Server позволяет упростить выполнять рутинные задачи для ИТ-администраторам, развертывания и управления Скайп для Business Server 2015. Например, инструмент Web Conf Data упрощает управление данными, которые отправляют пользователи во время собрания по сети. А при помощи SEFAUtil можно настроить переадресацию звонков делегатам и ответ на них для пользователей. Мы рекомендуем использовать эти средства для более эффективного управления Скайп для Business Server 2015 ИТ-администраторов.
-ms.openlocfilehash: d58ba07a06b29ffe03eadc38beb55d3cb623b8cd
-ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
+ms.openlocfilehash: 3f36edc42541dfcc9b652eb16d5062277277cbc0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25942874"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294379"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Документация по инструментам Skype для бизнеса Server 2015 Resource Kit
 
@@ -259,7 +259,7 @@ ABSConfig может выполняться только с компьютера
 
 Пользователь может указать следующие каталоги файлов, как показано на рисунке.
 
-- **Местоположение файлов журнала сервера** Местоположение папки, в котором хранятся журналы сервера политики пропускной способности. Это обычно в \<файлового сервера\>\\< choice из FE\>\AppServerFiles\PDP.
+- **Местоположение файлов журнала сервера** Местоположение папки, в котором хранятся журналы сервера политики пропускной способности. Это обычно в \<файлового сервера\>\\<choice FE\>\AppServerFiles\PDP.
 
 - **Место хранения временных файлов** Временный файл места хранения промежуточных файлов во время которого создается отчет.
 
@@ -1054,16 +1054,11 @@ SEFAUtil (дополнительный компонент расширению) 
 2. A trusted application needs to be defined in the topology for the SEFAUtil tool. Определение SEFAUtil в качестве нового доверенного приложения, используйте Скайп для Business Server Командная консоль и выполните следующий командлет:
 
    ```
-   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
+   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
    ```
 
     > [!NOTE]
     > При необходимости можно использовать другой порт.
-    
-    > [!NOTE]
-    > Полное доменное имя пула: Полное доменное имя сервера или пула, в котором будет размещаться приложение SEFAUtil (обычно Скайп для сервера переднего плана Business > или в пуле).
-    > Полное доменное имя пула регистратора: Полное доменное имя Скайп для сервера переднего плана Business или пула, связанного с этого пула приложений.
-    > Сайт группы: Идентификатор сайта сайта, на котором размещаются в этом пуле.
 
 3. The topology changes need to be enabled. Включение изменения топологии можно выполнить с помощью Скайп для консоли Business Server, выполнив следующий командлет:
 

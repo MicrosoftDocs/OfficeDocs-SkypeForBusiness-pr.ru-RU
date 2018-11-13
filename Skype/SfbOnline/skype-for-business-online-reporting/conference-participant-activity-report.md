@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 3786d74d7708887e680fccc813c3cf245dc7d468
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 844fdb83a1219a23b66a3f65bc1bde69475b3eb4
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839174"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294031"
 ---
 # <a name="conference-participant-activity-report"></a>Отчет об участии в конференциях
 
-Как администратор Office 365 **отчеты** панели мониторинга выводит данные об использовании продуктов Office 365 в вашей организации. Можно использовать **Скайп для участников конференции деятельности** отчета, чтобы увидеть сколько обмен мгновенными Сообщениями, аудио-и видеоконференции, совместный доступ к данным, Web и конференций в/исходящих вызовов являлся пользователями в вашей организации.
+Как администратор Office 365 **отчеты** панели мониторинга выводит данные об использовании продуктов Office 365 в вашей организации. Можно использовать **Скайп для участников конференции деятельности** отчета, чтобы увидеть сколько обмен мгновенными Сообщениями, аудио-и видеоконференции, совместный доступ к данным, Web и и конференций в/исходящих вызовов являлся пользователями в вашей организации.
 
 Извлечение [Обзор отчетов](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) для получения дополнительных сведений.
   

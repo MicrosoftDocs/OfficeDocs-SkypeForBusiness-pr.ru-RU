@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e335210a3d7b209984cee5319dd1e7e3b1bd24e4
-ms.sourcegitcommit: 0c360c68d7841e85b89e3d92baff80c42d685e81
+ms.openlocfilehash: 9bd95dc0d928a049adad06b43b9f6cacaf2c65d1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "25797321"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293582"
 ---
 <a name="teams-guest-access-checklist"></a>Контрольный список групп доступ в качестве гостя
 ==========================================
@@ -61,7 +61,7 @@ ms.locfileid: "25797321"
 
       ![Снимок экрана показан пример AAD параметры переключателя. ](media/guest-access-checklist-AADSettings1.png)
 
-    Для поддержки Гости, **можно пригласить участников** должен иметь значение **Да**. 
+    Как минимум для поддержки гости **можно пригласить участников** должен иметь значение **Да**. 
    
 > [!NOTE] 
 > Если значение **можно пригласить участников** **Нет** и затем включить гостевого доступа в Office 365 групп и группами Майкрософт, администраторы могут управлять гостевой приглашения в каталоге. После Гости находятся в каталоге, они могут добавляться к группам участниками без прав администратора, которые владельцы сайтов группы.

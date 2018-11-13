@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Сводка: Сведения о Скайп Business Server 2015 интеграции с Exchange и SharePoint.'
-ms.openlocfilehash: 8d080174ab5560384478c1320d09bc218ef8543b
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: f90e6c4724905edafdf0b8c6d3aec5f50d7a3996
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839214"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294053"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Интеграция с Exchange и SharePoint
 
@@ -48,7 +48,7 @@ ms.locfileid: "25839214"
 |Публикация состояния в соответствии со сведениями о доступности в календаре Outlook  <br/> ||
 |Список контактов (из единого хранилища контактов)  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Lync 2013 или Скайп для настольных компьютеров клиента Business является обязательным.  <br/>  Дополнительные сведения можно [Настроить Скайп для 2015 Business Server для использования в единое хранилище контактов](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |Фотографии с высоким разрешением контакт в клиент Lync 2013, Скайп для клиента Business и Lync Web App.  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Дополнительные сведения содержатся в разделе [Настройка использования фотографий высокого разрешения в Скайп для Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Почтовый ящик exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> ||
 |Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Для получения дополнительных сведений см [Контрольный список развертывания для архивации](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Поиск заархивированного содержимого  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> |
@@ -68,7 +68,7 @@ ms.locfileid: "25839214"
 |Публикация состояния в соответствии со сведениями о доступности в календаре Outlook  <br/> ||
 |Список контактов (из единого хранилища контактов).  <br/> |Lync Server только 2013. Lync 2013 или Скайп для настольных компьютеров клиента Business является обязательным.  <br/> Дополнительные сведения можно [Настроить Скайп для 2015 Business Server для использования в единое хранилище контактов](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
 |Фотографии с высоким разрешением контакт в клиент Lync 2013, Скайп для клиента Business и Lync Web App.  <br/> |Дополнительные сведения содержатся в разделе [Настройка использования фотографий высокого разрешения в Скайп для Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Почтовый ящик Exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> ||
 |Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> |Для получения дополнительных сведений см [Контрольный список развертывания для архивации](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Поиск заархивированного содержимого  <br/> |Дополнительные сведения см. в разделе [Настройка Exchange для центра обнаружения электронных данных SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
@@ -87,7 +87,7 @@ ms.locfileid: "25839214"
 |Публикация состояния в соответствии со сведениями о доступности в календаре Outlook  <br/> ||
 |Почтовый ящик exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> ||
 |Фотографии с высоким разрешением контакта в Lync 2013 или Скайп для клиента Business.  <br/> |Требуется Exchange 2016 или Exchange 2013. Это не поддерживается в Lync Web App, когда пользователи размещаются на Скайп для бизнеса в Интернет.  <br/> |
-|Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Почтовый ящик Exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> ||
 |Журнал бесед на стороне сервера  <br/> ||
 
@@ -106,7 +106,7 @@ ms.locfileid: "25839214"
 |Почтовый ящик exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> ||
 |Список контактов (из единого хранилища контактов)  <br/> |Lync Server 2013 или Скайп для клиента Business требуется  <br/> |
 |С высоким разрешением фотографии контакта в Lync 2013, Скайп для клиента Business и Lync Web App  <br/> ||
-|Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> ||
 |Поиск заархивированного содержимого  <br/> ||
 |Голосовая почта  <br/> ||

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66bf2e6aa01c24b327d26e2a30678ca3722a8c97
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: ea8de6d6bd1d5e508654d30f27ea7f83a8097030
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282951"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294313"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Рекомендации по работе с командами в Microsoft Teams
 ======================================================
@@ -31,7 +31,7 @@ ms.locfileid: "26282951"
 
 Обратите внимание на это быстрого видео, чтобы увидеть некоторые примеры того, как будет осуществляться кросс организации или одного назначения групп:
 
-> [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Вы можете начать с небольшого числа участников команды для проведения мозгового штурма и выбора вектора дальнейшего развития, а затем добавлять людей или группы по мере необходимости. Важное преимущество Microsoft Teams заключается в том, что новые люди или группы могут быстро вникать в суть обсуждения, так как беседы и файлы доступны пользователям независимо от того, когда они присоединились. Постарайтесь не создавать разные команды с одинаковым набором участников, так как это может препятствовать сосредоточенной работе над проектом или задачей. Outlook отлично подходит для обмена информацией в группах.
 

@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 871af1f9ec06f24b7c2ef6248c1d48b859bb4563
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: ac3c65a19d80e5218e121c1cf582753e5f5eecc5
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838557"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294154"
 ---
 # <a name="conference-organizer-activity-report"></a>Отчет об организации конференций
 
@@ -109,7 +109,7 @@ Office 365 **отчеты** панели мониторинга показыва
     
 - [Отчет об использованных клиентах Skype для бизнеса](device-usage-report.md) . В этом отчете представлены настольные (в том числе под управлением ОС Windows) и мобильные устройства, на которых установлено приложение Skype для бизнеса и которые используются для обмена мгновенными сообщениями и участия в собраниях.
     
-- [Скайп для бизнеса участников отчету о конференциях](conference-participant-activity-report.md) Можно посмотреть сколько обмен мгновенными Сообщениями, аудио и видео, общий доступ к приложениям, веб-серверы и конференций в исходящих и конференц-связи являются являлся участником.
+- [Скайп для бизнеса участников отчету о конференциях](conference-participant-activity-report.md) Можно увидеть сколько приложения аудио и видео, обмен мгновенными Сообщениями, общий доступ, веб и и конференций в исходящих и конференц-связи являются являлся участником.
     
 - [Скайп для бизнес - одноранговом данными отчета](peer-to-peer-activity-report.md) Можно видеть, сколько пользователей с помощью приложения обмена мгновенными Сообщениями, аудио и видео, совместное использование и передачу файлов.
     

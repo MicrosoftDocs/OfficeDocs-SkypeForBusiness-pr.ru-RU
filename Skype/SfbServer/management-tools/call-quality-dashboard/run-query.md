@@ -3,23 +3,24 @@ title: Выполнение запроса
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: 'Сводка: Сведения о операцию выполнить запрос, который является частью API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
-ms.openlocfilehash: ac9f042a8d5b8e016a398a0daf9595ffcb9d2fcb
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Сводка: Сведения о операцию выполнить запрос, который является частью API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.'
+ms.openlocfilehash: 720bcc16b89ed2cd2b92eababb389d6c363d734d
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035703"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293905"
 ---
 # <a name="run-query"></a>Выполнение запроса
 
-**Сводка:** Узнайте о операцию выполнить запрос, который является частью API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.
+**Сводка:** Узнайте о операцию выполнить запрос, который является частью API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.
 
 Операция выполнить запрос является частью API данных для панели мониторинга качества звонков.
 
