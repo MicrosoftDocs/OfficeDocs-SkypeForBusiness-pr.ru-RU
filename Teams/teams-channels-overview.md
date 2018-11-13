@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8553589dc895317c9799f9fde9d6a0e622b30a0
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: 54f7805e4e6db4416601ea01bcb5fc66e57ead17
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238046"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255656"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 =================================================
@@ -40,7 +40,7 @@ ms.locfileid: "26238046"
 
 Просмотрите это короткое видео, чтобы узнать больше о рекомендации по созданию групп и каналы.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <a name="membership-roles-and-settings"></a>Членство в роли и параметры
 ------------------------------
@@ -54,7 +54,7 @@ ms.locfileid: "26238046"
 **Параметры команды.** Владельцы команд могут управлять настройками всей команды непосредственно в Microsoft Teams. Сюда входит возможность добавлять аватар команды и управление разрешениями участников на создание каналов, добавление вкладок и соединителей, @упоминание всей команды или канала, а также использование GIF-анимации, стикеров и мемов. 
 
 Выполните три минут, чтобы извлечь перейти к руководство видео для группы владельцев. 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Если вы являетесь администратором группами Майкрософт в Office 365, имеется доступ к системных параметров в группы & Скайп по центру администрирования бизнеса. Они могут затрагивать настройки и значения по умолчанию, которые владельцы видят у себя в параметрах команды. Например, вы можете включить во всех командах канал по умолчанию "Общий" для объявлений, обсуждений и ресурсов, общих для всей команды.
 
