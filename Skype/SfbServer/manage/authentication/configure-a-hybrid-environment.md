@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Сводка: Настройка проверки подлинности сервер сервер для Скайп для гибридной среды Business Server.'
-ms.openlocfilehash: 2d4589d2d194cd885329dd701f69af7b8896f8f3
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 02412c152e017da95c82ff6f8ad6f08db1a105ef
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784886"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295236"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Настройка проверки подлинности сервер сервер для Скайп для гибридной среды Business Server.
 
@@ -69,19 +69,19 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 $TenantID = (Get-CsTenant -DisplayName "Fabrikam.com").TenantId
 ```
 
-Для выполнения этого сценария необходимо установить Скайп для модуля Online Powershell бизнеса и подключитесь к клиенту с в этом модуле. Если вы не выполнили установку этих командлетов, то произойдет сбой вашего сценария, так как командлет Get-CsTenant будет недоступен. После выполнения скрипта необходимо настроить отношения доверия между Скайп для Business Server и сервера авторизации и второй отношения доверия между Exchange 2013/2016 и сервера авторизации. Это возможно только с помощью командлетов Microsoft Online Services.
+После выполнения скрипта необходимо настроить отношения доверия между Скайп для Business Server и сервера авторизации и второй отношения доверия между Exchange 2013 и сервера авторизации. Это возможно только с помощью командлетов Microsoft Online Services.
 
 > [!NOTE]
-> Если вы не установили командлеты Microsoft Online Services, необходимо установить его из репозитория powershell с помощью командлета install модуль MSOnline. Подробные сведения по установке и использованию модуль Microsoft Online Services можно найти на веб-сайте Office 365. Эти инструкции также можно узнать, как настроить единый вход, федерации и синхронизации между Office 365 и Active Directory. 
+> Если командлеты Microsoft Online Services не установлены, потребуется выполнить две операции перед тем, как продолжить. Во-первых, скачайте и установите 64-разрядную версию помощника по входу в Microsoft Online Services. После завершения установки, загрузите и установите 64-разрядная версия Microsoft Online Services модуль для Windows PowerShell. Подробные сведения по установке и использованию модуль Microsoft Online Services можно найти на веб-сайте Office 365. Эти инструкции также можно узнать, как настроить единый вход, федерации и синхронизации между Office 365 и Active Directory. 
 
-
+Если вы не выполнили установку этих командлетов, то произойдет сбой вашего сценария, так как командлет Get-CsTenant будет недоступен.
 
 После настройки Office 365, и после создания Office 365 субъектов-служб для Скайп для Business Server и Exchange 2013, затем нужно зарегистрировать свои учетные данные в этих субъектов-служб. Для этого необходимо сначала получить X.509 Base64 в виде файла CER. Этот сертификат затем будет применяться к участников службы Office 365.
 
-После получения сертификата X.509, откройте консоль Powershell и импортировать модуль Microsoft Online Windows PowerShell, содержащий командлетов, которые можно использовать для управления субъектов-служб:
+После получения сертификата X.509, начать модуль Microsoft Online Services (нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы**, щелкните **Microsoft Online Services**и нажмите кнопку **Microsoft Online Services модуль для Windows PowerShell**). После открытия модуля службы, введите следующие действия, чтобы импортировать модуль Microsoft Online Windows PowerShell, содержащий командлетов, которые можно использовать для управления субъектов-служб:
 
 ```
-Import-Module MSOnline
+Import-Module MSOnlineExtended
 ```
 
 По завершении импорта модуля введите следующую команду и нажмите клавишу ВВОД для подключения к Office 365:

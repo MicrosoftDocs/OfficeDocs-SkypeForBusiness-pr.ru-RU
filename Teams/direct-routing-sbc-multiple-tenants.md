@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Сведения о настройке одного пограничный контроллер сеансов (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 292a3e675455d112fdade04018e670b9a5f9c38f
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839089"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295746"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройте пограничный контроллер сеансов для нескольких клиентов
 
@@ -56,7 +56,7 @@ ms.locfileid: "25839089"
 Подробное описание действий по развернуть и настроить их изготовителей размещения случае SBC обратитесь к документации разработчика SBC.
 
 - **AudioCodes:** [Заметки о конфигурации прямой маршрутизации](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), конфигурации SBC, размещения сценария, описанного в «Подключение SBC AudioCodes группами Майкрософт прямой маршрутизации размещение модели конфигурации уведомление». 
-- **Ленты коммуникаций:**  Обратитесь за помощью для [Ленты Communications SBC ядра Microsoft группами руководство по настройке](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) для получения сведений о настройке ленты основных серии SBC и на этой странице [Рекомендация ленты - Настройка доставки SBC прямой маршрутизации Microsoft групп Пограничного сервера](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Ленты коммуникаций:**  Обратитесь за помощью для [Ленты Communications SBC ядра Microsoft группами руководство по настройке](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) для получения сведений о настройке ленты основных серии SBC и на этой странице [ленты наиболее рекомендация - Настройка доставки прямой маршрутизации Microsoft групп SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > Пожалуйста, обратите внимание на способы настройки заголовка «Контакт». Заголовок контакт будет использоваться для поиска клиента клиента во входящем сообщении пригласить. 
@@ -127,7 +127,7 @@ SBC требуется сертификат для проверки подлин
 
 ### <a name="activate-the-domain-name"></a>Активация имя домена
 
-После регистрации имени домена, вам нужно активировать, добавив по крайней мере один E1, E3, или E5 с корпоративным лицензированием пользователей и назначение SIP-адрес с помощью полного доменного ИМЕНИ части SIP решить, соответствующие создан базовый домен. 
+После регистрации имени домена, необходимо включить его, добавив по крайней мере один пользователь и назначьте SIP-адрес с помощью полного доменного ИМЕНИ части соответствия создан базовый домен SIP-адрес.
 
 *Ознакомьтесь с [Получение справки по работе с Office 365 домены](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) Дополнительные сведения о добавлении пользователей в клиентов Office 365.*
 

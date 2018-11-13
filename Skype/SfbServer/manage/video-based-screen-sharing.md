@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Скайп для сервера планирования и сведения о конфигурации на основе видео (VbSS) совместное использование рабочего стола
-ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: a7ea07f02b73b1092a11f61757318d0d653e048a
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839749"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295123"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Видео на основе совместное использование рабочего стола для Скайп для Business Server 
  
@@ -150,7 +150,7 @@ ms.locfileid: "25839749"
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    Дополнительные сведения на эту команду [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)см.
+    Дополнительные сведения на эту команду [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)см.
     
 - Чтобы полностью отключить технологию VbSS, выполните следующую команду:
     
@@ -158,7 +158,7 @@ ms.locfileid: "25839749"
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    Дополнительные сведения на эту команду [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)см.
+    Дополнительные сведения на эту команду [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)см.
     
 > [!NOTE]
 > В многопользовательских Скайп для собраний все конечные точки клиентов будут использовать параметры политики для организатора собрания. 
@@ -177,7 +177,7 @@ ms.locfileid: "25839749"
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    Дополнительные сведения на эту команду [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)см.
+    Дополнительные сведения на эту команду [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)см.
     
 - Чтобы включить технологию VbSS (по умолчанию включена) после ее отключения, выполните следующую команду:
     
@@ -185,7 +185,7 @@ ms.locfileid: "25839749"
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    Дополнительные сведения на эту команду [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)см.
+    Дополнительные сведения на эту команду [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)см.
     
 > [!NOTE]
 > В многосторонние Скайп для собраний все конечные точки клиентов будут использовать параметры политики для организатора собрания. 

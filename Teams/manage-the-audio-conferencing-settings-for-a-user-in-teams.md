@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Являясь администратором Office 365, вы можете изменять настройки аудиоконференций Microsoft Teams, например поставщика, платный или бесплатный номер по умолчанию, идентификатор конференции или ПИН-код, для отдельного пользователя в своей организации. '
-ms.openlocfilehash: 61b0cf5db964af19001069318f275ac237012cb4
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 0be1276bbcba42cdf2b38c4ec1e54845608824e6
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784842"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296190"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Управление настройками аудиоконференций для пользователя в Microsoft Teams
 
-В учетной записи администратора Office 365 можно по отдельному пользователю организации вносить изменения в параметры аудиоконференций, такие как провайдер, номера платной или бесплатной линии по умолчанию, идентификатор конференции или ПИН-код. Если вы хотите изменить параметры для вашей организации, ознакомьтесь со [управлять параметрами звука конференц-связи для вашей организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
+В учетной записи администратора Office 365 можно по отдельному пользователю организации вносить изменения в параметры аудиоконференций, такие как провайдер, номера платной или бесплатной линии по умолчанию, идентификатор конференции или ПИН-код. Если вы хотите изменить настройки для своей организации, см. статью [Управление настройками аудиоконференций для своей организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
 ## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
 
@@ -58,6 +58,6 @@ ms.locfileid: "25784842"
 
 ## <a name="related-topics"></a>Связанные разделы
 
-[Управление параметрами звука конференц-связи для вашей организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+[Управление настройками аудиоконференции для организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
 [Общие вопросы об аудиоконференциях](audio-conferencing-common-questions.md)

@@ -6,18 +6,16 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
-localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Сведения о важных перед настройкой live события в группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
-ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
+ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25748167"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294644"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование для live событий в группах Майкрософт
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -105,9 +103,3 @@ Live события команды можно использовать в нес
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Перейдите к [Настройка для групп событий в реальном времени](set-up-for-teams-live-events.md).
-
-### <a name="related-topics"></a>Связанные разделы
-- [Что такое группы live событий?](what-are-teams-live-events.md)
-- [Настройка для групп событий в реальном времени](set-up-for-teams-live-events.md)
-- [Confgure live настройки событий в группах](configure-teams-live-events.md)
-

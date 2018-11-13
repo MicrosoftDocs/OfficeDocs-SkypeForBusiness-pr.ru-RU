@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: Найдите сведения о планировании Скайп для бизнеса гибридного развертывания.
-ms.openlocfilehash: 736902ba25fe0f2d6aa569ba6f454aa773fec202
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: af15627feaf3dca84f78e657bf71055a7a68f4c0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839446"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294636"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>Скайп для гибридных решений для бизнеса
  
@@ -208,7 +208,7 @@ ms.locfileid: "25839446"
   
 - [Ресурсы для администраторов, посвященные архитектуре Microsoft Cloud](https://aka.ms/clouditarch)
     
-- [Облачное удостоверение Майкрософт для корпоративных архитекторов](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [Облачное удостоверение Майкрософт для корпоративных архитекторов](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Подготовка организации к миграции на Office 65 корпоративный](https://aka.ms/O365EntPrep)
     

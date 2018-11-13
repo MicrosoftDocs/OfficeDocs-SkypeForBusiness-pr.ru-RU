@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba794c49543740c2b436320d6639454ffb447659
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838727"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295335"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "25838727"
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
-|Политики EAF в Enhanced смягчение качества Toolkit (EMET) неправильно можно определить оптимизация хром изолированной среды в качестве угрозы. <br/> |Существует проблема с хром изолированной среды в политику экспорта адрес в таблице Access фильтрации (EAF) в Enhanced смягчение качества Toolkit (EMET) и в Windows Защитник расширенного угроз защиты анализа неправильно идентифицировать хром изолированной среды Оптимизация как угрозы. В этом случае коллективов могут не работать должным образом.  <br/> | Для решения этой проблемы отключите EAF для групп. Можно получить дополнительные о проблеме [EMET способа указания](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) Дополнительные сведения о политике ATP Защитника Windows и EAF см [воспользоваться защиты](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |10 и 11/18 <br/> |
+|Политики EAF в Enhanced смягчение качества Toolkit (EMET) неправильно можно определить оптимизация хром изолированной среды в качестве угрозы. <br/> |Существует проблема с хром изолированной среды, в котором политики экспорта адрес в таблице Access фильтрации (EAF) в Enhanced смягчение качества Toolkit (EMET) неправильно могут определять оптимизация изолированной среды хром как угрозы, связанные с. Это предотвращает отображение правильно вкладок в режиме веб-группы. <br/> | Отключите EAF для Chrome. Можно получить дополнительные о проблеме [EMET способа рекомендаций](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |10 и 11/18 <br/> |
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|

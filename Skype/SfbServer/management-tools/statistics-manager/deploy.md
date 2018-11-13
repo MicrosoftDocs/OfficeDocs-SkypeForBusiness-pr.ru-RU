@@ -1,5 +1,5 @@
 ---
-title: Развертывание диспетчера статистики для Скайп for Business Server
+title: Развертывание диспетчера статистики в Skype для бизнеса Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,24 +10,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: 'Сводка: Сведения о сведения о развертывании диспетчера статистики для Скайп для Business Server.'
-ms.openlocfilehash: 4d32c10852091d494f59c65648cb370878fc3413
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+description: 'Сводка: Сведения о сведения о развертывании диспетчера статистики для Скайп для Business Server 2015.'
+ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282982"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295184"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Развертывание диспетчера статистики для Скайп for Business Server
+# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
  
-**Сводка:** Прочтите этот раздел, чтобы узнать, как развертывания диспетчера статистики для Скайп для Business Server.
+**Сводка:** В данном разделе приведены описан процесс развертывания диспетчера статистики для Скайп для Business Server 2015.
   
  Диспетчер статистики для Скайп для Business Server представляет собой мощное средство, которое позволяет просматривать Скайп для данные о работоспособности и производительности Business Server в режиме реального времени. Опрос данные о производительности на серверах сотни раз в несколько секунд и просмотреть результаты мгновенно на веб-сайт диспетчера статистики.
   
-Прежде чем пытаться установить диспетчер статистики, убедитесь, что вы знакомы с требования к программному обеспечению, сети и оборудования. Для получения дополнительных сведений см. [Планирование для диспетчера статистики для Скайп для Business Server](plan.md).
+Прежде чем пытаться установить диспетчер статистики, убедитесь, что вы знакомы с требования к программному обеспечению, сети и оборудования. Для получения дополнительных сведений см. [Планирование для диспетчера статистики для Скайп для Business Server 2015](plan.md).
   
 > [!NOTE]
-> При обновлении предыдущей версии диспетчера статистики см.: [Обновление статистики диспетчер для Скайп для Business Server](upgrade.md). 
+> При обновлении с предыдущей версии диспетчера статистики см.: [Обновление статистики диспетчер для Скайп для Business Server 2015](upgrade.md). 
   
 > [!NOTE]
 > Веб-сайт диспетчера статистики тестировался и корректно работает с браузерами Internet Explorer 11 и более поздних версий, Edge 20.10240 и более поздних версий и Chrome 46 и более поздних версий (текущая актуальная версия). 
@@ -62,7 +62,7 @@ ms.locfileid: "26282982"
   
 ### <a name="prepare-the-listener-host-machine"></a>Подготовка хост-компьютера прослушивателя
 
-Подготовка компьютера узла, необходимо будет установить системы кэширования в памяти Redis и убедитесь, что действующего сертификата на компьютере. Корпорация Майкрософт рекомендует установить последние стабильным построения Redis 3.0. Статистика диспетчера версии 2.0 была протестирована Redis 3.2.100. 
+Подготовка компьютера узла, необходимо будет установить системы кэширования в памяти Redis и убедитесь, что действующего сертификата на компьютере. Корпорация Майкрософт рекомендует установить последние стабильным построения Redis 3.0. Статистика диспетчера версии 1.1 была протестирована Redis 3.0.501 и Redis 2.8.2400. 
   
 1. Загрузить Redis со следующего сайта: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
     
@@ -212,7 +212,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Для просмотра сведений в настоящее время импортированных сервера, выполните следующий скрипт: 
+Для просмотра всей импортированной информации о сервере выполните следующий сценарий:  
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -265,7 +265,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-Сведения о всех событий, которые могут отображаться в журнале событий приложений см.: [Устранение неполадок диспетчер статистики для Скайп для Business Server](troubleshoot.md).
+Сведения о всех событий, которые могут отображаться в журнале событий приложений см.: [Устранение неполадок диспетчер статистики для Скайп для Business Server 2015](troubleshoot.md).
   
 ## <a name="create-a-self-signed-certificate"></a>Создание самозаверяющего сертификата
 <a name="BKMK_SelfCert"> </a>
@@ -299,11 +299,11 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
 
 Дополнительные сведения приведены далее.
   
-- [Планирование для диспетчера статистики для Скайп Business Server](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Обновление статистики Manager для Скайп для Business Server](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [Устранение неполадок в диспетчер статистики для Скайп Business Server](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
 - [Блог, посвященный диспетчеру статистики Skype для бизнеса Server](https://blogs.technet.microsoft.com/skypestatsman/)
     

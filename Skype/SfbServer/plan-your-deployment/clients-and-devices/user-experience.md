@@ -14,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 'Сводка: Сведения о новом Скайп для бизнеса, а также можно предпринять для подготовки к обновлению среды и пользователей независимо от Скайп используется для бизнеса в Интернет, Скайп для Business Server 2019, Скайп для 2015 Business Server, Lync Server 2013 или Lync Server 2010.'
-ms.openlocfilehash: 351582e7a7619541d5401acfb46854f61c9e052d
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+description: 'Сводка: Сведения о новом Скайп для бизнеса, а также можно предпринять для подготовки к обновлению среды и пользователей независимо от Скайп используется для бизнеса в Интернет, Скайп для Business Server 2015, Скайп для 2015 Business Server, Lync Server 2013 или Lync Server 2010.'
+ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890580"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294629"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Планирование Скайп для бизнеса 2015 взаимодействия с пользователем для пользователей
  
@@ -120,11 +120,11 @@ Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ## <a name="use-the-lync-client-experience-with-skype-for-business-server-on-premises"></a>Использование взаимодействия с клиентом Lync в локальном развертывании Skype для бизнеса Server
 <a name="LyncwithSfBServer"> </a>
 
-Выполните действия, описанные в этом разделе, если вы хотите настроить с клиентом Lync в Скайп локального развертывания Business Server.
+Если вы хотите настроить с клиентом Lync в Скайп локального развертывания Business Server 2015, выполните действия, описанные в этом разделе.
   
 В этом разделе описывается настройка взаимодействия с клиентом Skype в локальном развертывании. Это вариант взаимодействия по умолчанию для локальной установки.
   
- **Шаг 1:** Во-первых развертывание Скайп для Business Server.
+ **Шаг 1:** Во-первых развертывание Скайп для Business Server 2015.
   
  **Шаг 2:** Затем используйте политики клиентов для установки с клиентом Lync с Скайп для клиента Business. Взаимодействие с клиентом можно задать с помощью политики клиента **3 способами**.
   

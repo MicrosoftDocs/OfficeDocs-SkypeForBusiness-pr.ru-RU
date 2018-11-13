@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Сведения о вопросы планирования для телефонной системой в Office 365 (облако УАТС), а также подключение к ТСОП в локальной.
-ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 4096dde95c4cee2871e968f4e6b91d60682e73d5
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839453"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295458"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Планирование телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп Business Server
 
@@ -56,7 +56,7 @@ ms.locfileid: "25839453"
 
 Может потребоваться пользовательского компонента или основных дополнительный компонент традиционной УАТС, такие как центр обработки вызовов. Если настраиваемый компонент в настоящее время недоступна в системе телефона в Office 365, следует оставить этих пользователей, которым требуется, настраиваемый компонент локальную систему с традиционной УАТС и порт только пользователей, которым не требуется доступ к пользовательской функции для телефонной системой в Office 365 с помощью локального подключения к ТСОП.
 
-Полный список устаревшие УАТС, взаимодействующих непосредственно с Скайп для Business Server 2015 представлен [Полный инфраструктуры для Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Если эту УАТС нет в списке, можно использовать пограничный контроллер сеансов для подключения к АТС с телефонной системой в Office 365 в Скайп для бизнеса в Интернет.
+Полный список устаревшие УАТС, взаимодействующих непосредственно с Скайп для Business Server 2015 представлен [Полный инфраструктуры для Microsoft Lync](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Если эту УАТС нет в списке, можно использовать пограничный контроллер сеансов для подключения к АТС с телефонной системой в Office 365 в Скайп для бизнеса в Интернет.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Характеристики сети для отслеживания качества и производительности
 
@@ -100,7 +100,7 @@ ms.locfileid: "25839453"
 
     При использовании Lync Server 2013 видеть [Планирование корпоративной голосовой связи в Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) и [Развертывание корпоративной голосовой связи в Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
 
-- **Синхронизация Active Directory** Необходимо настроить синхронизации Active Directory с помощью Azure AD подключение. Дополнительные сведения см. в разделе [Управление Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
+- **Синхронизация Active Directory** Необходимо настроить синхронизации Active Directory с помощью Azure AD подключение. Дополнительные сведения см. в разделе [Управление Azure AD Connect](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-whats-next/).
 
     > [!NOTE]
     > Необходимо использовать версию AAD Connect не ниже 1.0.9125.0. Если вы используете более раннюю версию средств AAD Connect или DirSync, перейдите на поддерживаемую версию. Вы можете обновить текущую установку или сохранить все настраиваемые правила, определенные в среде. 

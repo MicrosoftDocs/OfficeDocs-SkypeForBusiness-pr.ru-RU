@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: e2499cb2d1432c4b9ad48be3333e798a3a8b1574
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838711"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295497"
 ---
 # <a name="peer-to-peer-activity-report"></a>Отчет по одноранговым сеансам
 
@@ -107,7 +107,7 @@ Office 365 **отчеты** панели мониторинга показыва
     
 - [Скайп для бизнеса Организатор отчету о конференциях](conference-organizer-activity-report.md) Вы можете увидеть, какое количество пользователей организации конференций, использующие обмен мгновенными Сообщениями, аудио-и видеоконференции, совместный доступ к данным, веб-узла, телефонным in/out - 3rd стороны и телефонным in/out - Microsoft.
     
-- [Скайп для бизнеса участников отчету о конференциях](conference-participant-activity-report.md) Можно посмотреть сколько обмен мгновенными Сообщениями, аудио и видео, общий доступ к приложениям, веб-серверы и конференций в исходящих и конференц-связи являются являлся участником.
+- [Скайп для бизнеса участников отчету о конференциях](conference-participant-activity-report.md) Можно увидеть сколько приложения аудио и видео, обмен мгновенными Сообщениями, общий доступ, веб и и конференций в исходящих и конференц-связи являются являлся участником.
     
 - [Отчет о заблокированных Скайп для бизнес-пользователи](users-blocked-report.md) Можно просмотреть список пользователей в вашей организации, которые были заблокированы из вызовы ТСОП.
     

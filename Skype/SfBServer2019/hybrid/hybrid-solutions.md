@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Обсуждение доступные гибридные решения в Скайп для Business Server 2019.
-ms.openlocfilehash: 269b0ae5dd7b4fc1cf2bb5f24b9350b745fe56de
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 2909f524d1b9984fe01700a89d1bf6dc1b70f100
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838846"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295371"
 ---
 ПРИМЕЧАНИЕ: СЛЕДУЮЩИЕ КОПИРУЕТСЯ С 2015 И НАХОДИТСЯ В СТАДИИ РАЗРАБОТКИ. Дополнительные выполняемых заполнитель содержимого можно найти [ниже](#placeholder-topic-for-hybrid-solutions).
 
@@ -208,7 +208,7 @@ ms.locfileid: "25838846"
   
 - [Ресурсы для администраторов, посвященные архитектуре Microsoft Cloud](https://aka.ms/clouditarch)
     
-- [Облачное удостоверение Майкрософт для корпоративных архитекторов](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [Облачное удостоверение Майкрософт для корпоративных архитекторов](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Подготовка организации к миграции на Office 65 корпоративный](https://aka.ms/O365EntPrep)
     

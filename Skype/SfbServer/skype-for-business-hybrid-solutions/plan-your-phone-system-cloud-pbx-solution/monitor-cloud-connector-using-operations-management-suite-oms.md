@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Прочтите этот раздел, чтобы узнать, как мониторинг соединителя облачных версии 2.1 и последующего развертывания с помощью пакетов управления Microsoft операции (OMS).
-ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 19946c0d7701d2fd31c1b41cae58e08cfdf4c52d
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839825"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295073"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Мониторинг соединителя облако с помощью пакетов управления Operations (OMS)
 
 Прочтите этот раздел, чтобы узнать, как мониторинг соединителя облачных версии 2.1 и последующего развертывания с помощью пакетов управления Microsoft операции (OMS).
 
-Теперь могут отслеживать соединителя облачных версии 2.1 и последующего развертывания с помощью операции управления Suite (OMS), Microsoft cloud решения по управлению ИТ. Аналитика журнала OMS позволяет вам для мониторинга и анализа доступность и производительность ресурсов, включая физических и виртуальных машин. Дополнительные сведения об OMS и анализа журнала можно [возможности пакет управления Operations (OMS)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview).
+Теперь могут отслеживать соединителя облачных версии 2.1 и последующего развертывания с помощью операции управления Suite (OMS), Microsoft cloud решения по управлению ИТ. Аналитика журнала OMS позволяет вам для мониторинга и анализа доступность и производительность ресурсов, включая физических и виртуальных машин. Дополнительные сведения об OMS и анализа журнала можно [возможности пакет управления Operations (OMS)?](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview).
 
 В этой статье содержатся следующие разделы.
 
@@ -39,11 +39,11 @@ ms.locfileid: "25839825"
 
 Прежде чем использовать OMS мониторинг развертывания облака соединителя, необходимо будет следующее:
 
-- **Учетная запись Azure и рабочей области OMS.** Если нет учетной записи Azure, необходимо создать новое анализа журнала OMS. Сведения о том, как создать учетную запись Azure и настройка OMS рабочей области в разделе [Начало работы с рабочей области для анализа журнала](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started).
+- **Учетная запись Azure и рабочей области OMS.** Если нет учетной записи Azure, необходимо создать новое анализа журнала OMS. Сведения о том, как создать учетную запись Azure и настройка OMS рабочей области в разделе [Начало работы с рабочей области для анализа журнала](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started).
 
 - **Соединитель облачных 2.1 или более поздняя версия**
 
-- **Новый поиск журнала анализа журнала** является обязательным для мониторинга облачных соединителя. Дополнительные сведения содержатся в разделе [обновление рабочей области анализа журнала Azure новый поиск журнала](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade).
+- **Новый поиск журнала анализа журнала** является обязательным для мониторинга облачных соединителя. Дополнительные сведения содержатся в разделе [обновление рабочей области анализа журнала Azure новый поиск журнала](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-search-upgrade).
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>Настройка соединителя облака для использования OMS
 
@@ -103,7 +103,7 @@ ms.locfileid: "25839825"
      > [!NOTE]
      > Lync Server необходимо вручную ввести в текстовом поле. Не отображается как параметр в раскрывающемся списке. 
 
-     Для получения дополнительных сведений см [источников данных журнала событий Windows в аналитике журнала](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
+     Для получения дополнительных сведений см [источников данных журнала событий Windows в аналитике журнала](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 2. Последовательно выберите пункты Параметры -\>данных -\> счетчики производительности Windows, и добавьте счетчики производительности для: 
 
@@ -126,11 +126,11 @@ ms.locfileid: "25839825"
      > [!NOTE]
      > Счетчики производительности необходимо вручную ввести в текстовом поле. Они не отображаются как параметры в раскрывающемся списке. 
 
-     Для получения дополнительных сведений см [Windows и Linux источники данных производительности в аналитике журнала](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     Для получения дополнительных сведений см [Windows и Linux источники данных производительности в аналитике журнала](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>Создание оповещений
 
-Существует два типа оповещения в OMS: число результатов оповещения и уведомления метрики измерения. Дополнительные сведения о создании оповещений см [правила оповещений в аналитике журнала](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating).
+Существует два типа оповещения в OMS: число результатов оповещения и уведомления метрики измерения. Дополнительные сведения о создании оповещений см [правила оповещений в аналитике журнала](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts-creating).
 
 При создании оповещений необходимо учитывать следующее:
 
@@ -158,7 +158,7 @@ ms.locfileid: "25839825"
 
     В запросе используется фильтр компьютер, *где компьютер содержит «MediationServer»* . Фильтр выбирает только на компьютере, имя которого содержит строку «MediationServer».
 
-     Будет заменить фильтр фильтра компьютера или просто удалите его. Можно создавать фильтры сложных строки без регулярных выражений. Для получения дополнительных сведений см [операторов строки](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). Можно также использовать регулярные выражения. Кроме того можно создать группу компьютеров путем сохранения поискового запроса и использование этой группы в качестве фильтра компьютера в запросе оповещения. Для получения дополнительных сведений см. [группы компьютеров в аналитике журнала операций поиска](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups).
+     Будет заменить фильтр фильтра компьютера или просто удалите его. Можно создавать фильтры сложных строки без регулярных выражений. Для получения дополнительных сведений см [операторов строки](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). Можно также использовать регулярные выражения. Кроме того можно создать группу компьютеров путем сохранения поискового запроса и использование этой группы в качестве фильтра компьютера в запросе оповещения. Для получения дополнительных сведений см. [группы компьютеров в аналитике журнала операций поиска](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-computer-groups).
 
     Для каждого компьютера Ошибочный запрос будет получить последние журнала событий для службы начальная RTCMEDSRV службы и остановить. Возвращает один вход, если последний событие события остановки службы; он возвращает nothing, если последний событие — запустить службы. Вкратце запрос возвращает список серверов, RTCMEDSRV остановлена в окне времени. 
 
@@ -202,7 +202,7 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 ## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>Анализ оповещений в репозиторий анализа журнала
 
-Для анализа оповещений в репозиторий, использующих решение управления предупреждениями. Для получения дополнительных сведений см [решения по управлению оповещения в пакет управления Operations (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management)
+Для анализа оповещений в репозиторий, использующих решение управления предупреждениями. Для получения дополнительных сведений см [решения по управлению оповещения в пакет управления Operations (OMS)](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-solution-alert-management)
 
 ## <a name="recommended-minimal-monitoring-set"></a>Рекомендуемый минимальный набор мониторинга
 
@@ -244,12 +244,12 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 Дополнительные сведения о работе с OMS см.:
 
-- [Поиск данных с помощью поисков в журнале в аналитике журнала](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
+- [Поиск данных с помощью поисков в журнале в аналитике журнала](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-searches)
 
 - [Справочник по языку Analytics Azure журнала](https://docs.loganalytics.io/docs/Language-Reference)
 
-- [Общее представление о оповещений в аналитике журнала](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
+- [Общее представление о оповещений в аналитике журнала](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts)
 
-- [Подключения компьютеров Windows к службе анализа журнала в Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
+- [Подключения компьютеров Windows к службе анализа журнала в Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents)
 
 
