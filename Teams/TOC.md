@@ -1,8 +1,12 @@
 <!-- ============================================================ -->
-# Начало работы
-
-## [Обзор Teams](Teams-overview.md)
-## [Инструменты и семинары. Планирование, развертывание и использование Teams](planning-workshop-practical-guide.md)
+# [Добро пожаловать в Microsoft Teams](teams-overview.md)
+<!-- ============================================================ -->
+# [Начало работы](get-started-with-teams-landing-page.md)
+## [Краткое руководство - группы](get-started-with-teams-quick-start.md)
+## [Создание первого групп и каналы](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Встроенный первыми](get-started-with-teams-onboard-early-adopters.md)
+## [Отслеживание использования и свои отзывы и предложения](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Что делать дальше](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [Получите помощь в группах Майкрософт](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
@@ -20,10 +24,28 @@
 ## [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
 ## [Планирование управления в группах](plan-teams-governance.md)
 ## [Планирование для государственных учреждений 365 Microsoft - GCC развертываниях](plan-for-government-gcc.md)
-## [Создание стратегии управления изменений](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# [Адаптация](adopt-microsoft-teams-landing-page.md) 
 
+## [Начало работы](teams-adoption-get-started.md)
+## [Этап 1 — начало](teams-adoption-phase1.md)
+### [Понять, групп и каналы](teams-adoption-understand-teams-and-channels.md)
+### [Создание первой группы](teams-adoption-your-first-teams.md)
+### [Как готовы группами в вашей организации?](teams-adoption-assess-readiness.md)
+## [Этап 2 - эксперимента](teams-adoption-phase2-experiment.md)
+### [Создание программы чемпионатов](teams-adoption-create-champions-program.md)
+### [Краткое руководство](teams-adoption-governance-quick-start.md)
+### [Определение сценариев использования](teams-adoption-define-usage-scenarios.md)
+### [Встроенный первыми и сбор отзывов](teams-adoption-onboard-early-adopters.md)
+### [Встроенная поддержка](teams-adoption-onboard-support.md)
+## [Этап 3 - масштаба](teams-adoption-phase3-enable.md)
+### [Определение результатов деятельности и успеха](teams-adoption-define-outcomes.md)
+### [Оптимизировать свои отзывы и предложения и отчетов](teams-adoption-optimize-feedback-and-reporting.md)
+### [Сведения о диска и реализовать и обучение](teams-adoption-drive-awareness.md)
+### [Планирование проверки работоспособности службы](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Настройка и развертывание
@@ -127,9 +149,10 @@
 ## Отслеживание качества звонков и качество обслуживания
 ### [Качество обслуживания (QoS) в Teams](QoS-in-Teams.md)
 ### [Вызов аналитики и панель мониторинга качества звонка](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Настройка вызова аналитики](set-up-call-analytics.md)
 ### [Устранение неполадок с качеством звонков с помощью средства аналитики звонков](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Включение и использование панели мониторинга качества звонков](turning-on-and-using-call-quality-dashboard.md)
+### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Классификация потоков в Панели мониторинга качества звонка](stream-classification-in-call-quality-dashboard.md)
 ## Устранение неполадок и поддержка
 ### [Известные проблемы для Microsoft Teams](Known-issues.md)
