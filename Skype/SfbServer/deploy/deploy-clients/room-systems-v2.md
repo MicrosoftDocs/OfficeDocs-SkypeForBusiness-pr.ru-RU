@@ -1,7 +1,7 @@
 ---
 title: Развертывание Систем комнат Skype версии 2
-ms.author: jambirk
-author: jambirk
+ms.author: Turgayo
+author: Turgayo
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: В этой статье, чтобы узнать о развертывании систем комнаты Скайп версии 2.
-ms.openlocfilehash: dac4929338ded6fdb3b7af1dadfb3b1ce5675b97
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699632"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510647"
 ---
 # <a name="deployment-overview"></a>Обзор развертывания
 
@@ -128,7 +128,7 @@ PowerShell можно использовать для выполнения ря�
 
 **Pro совет** – следует отображение имен для этих учетных записей описательное и понятный. Далее представлены имена, видят пользователи при поиске и добавления версии 2 Скайп комнаты системы на собрания. В некоторых организациях используется соглашение о *сайте*-*Имени комнаты*(*Max комнаты емкость*)-RS, например Curie — 12 человека конференц-зала в Лондон — может иметь Встроенный CURIE (12)-RS отображаемое имя. 
 
-Если в организации имеется много конференц-залы, которые требуют нескольких, подготовленные учетные записи, можно использовать [Сценарии подготовки Скайп комнаты систем учетных записей](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) для массового provision несколько учетных записей службы в автоматическом режиме. 
+<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
 
 
 |    |     |

@@ -3,7 +3,7 @@ title: Управление гостевым доступом в Microsoft Teams
 author: LolaJacobsen
 ms.author: rramesan
 manager: serdars
-ms.date: 10/20/17
+ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: ИТ-администраторы могут добавлять гостей на уровне клиента, задавать политики и разрешения для гостевых пользователей и управлять ими, определять, какие пользователи могут приглашать гостей, а также составлять отчеты о деятельности гостевых пользователей.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 091215e37af012c2e2203b451e3df4dd9cf6480f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 143170c6a7a174d35300b73693f0a828336b7d32
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016727"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510570"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Управление гостевым доступом в Microsoft Teams
 ======================================
@@ -35,5 +35,8 @@ ms.locfileid: "25016727"
 
 Кроме того, для управления гостями и их доступом к ресурсам Office 365 и Teams вы можете использовать портал Azure Active Directory. Функция гостевого доступа использует возможности службы совместной работы бизнес-бизнес (B2B) Azure Active Directory в качестве базовой инфраструктуры, чтобы хранить, например, свойства удостоверений, сведения о членстве и параметры многофакторной проверки подлинности. Дополнительные сведения об Azure Active Directory B2B см. в статьях [Что такое служба совместной работы Azure AD B2B?](https://go.microsoft.com/fwlink/p/?linkid=853011) и [Вопросы и ответы по службе совместной работы Azure Active Directory B2B](https://go.microsoft.com/fwlink/p/?linkid=853020).
 > [!NOTE]
-> Группами Майкрософт всегда использует параметры внешнего Azure Active Directory, чтобы разрешить или запретить гостевой Добавление пользователей к клиенту. Для получения дополнительных сведений см [авторизовать гостевой доступ в группах Майкрософт](Teams-dependencies.md).
+> Группами Майкрософт всегда использует параметры внешнего Azure Active Directory, чтобы разрешить или запретить гостевой Добавление пользователя к клиенту. Для получения дополнительных сведений см [авторизовать гостевой доступ в группах Майкрософт](Teams-dependencies.md).
   
+## <a name="guest-access-latencies"></a>Гостевая доступа задержкой
+
+Параметры гостей задаются в Azure Active Directory. Чтобы эти изменения вступили в силу в рамках всей организации Office 365, требуется от 2 до 24 часов. Если появляется сообщение об «Обратитесь к администратору» при попытке добавить гостя в свои группы, вероятнее всего, что функция гостя не включена или параметры еще не эффективной.
