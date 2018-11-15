@@ -11,12 +11,12 @@ description: Практическое руководство по разверт
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 5ae144405375daa818f334fdf5be85e75cd4f6b1
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296390"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532886"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись собрания облачных групп
 
@@ -31,7 +31,7 @@ ms.locfileid: "26296390"
 
 Для пользователей группам собраний для записи необходимо включить поток Microsoft для клиента. Кроме того Организатор собрания и человека, который инициирует записи требуются следующие необходимые компоненты:
 
-- Пользователь имеет лицензии Office 365 корпоративный E1, E3 или E5
+- Пользователь имеет Office 365 E1, E3, E5, A1, A3, A5, M365 Business, бизнеса расширенный или основы бизнеса
 - Пользователю необходимо иметь лицензию для потока Microsoft
 - Пользователь имеет Microsoft поток передачи видео разрешения
 - Если пользователь изъявил рекомендации по организации, настройте, администратор

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: В этой статье приведены требования для поддержки систем комнаты Скайп версии 2.
-ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296360"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532075"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
 
@@ -26,6 +26,9 @@ ms.locfileid: "26296360"
 
 > [!NOTE]
 > Версии 2 Скайп комнаты систем предназначен для использования с Скайп для Business Server 2019, Скайп Business Server 2015, группами Майкрософт или Скайп для бизнеса в Интернет. <br><br>Более ранних платформы, как Lync Server 2013 не требуются для работы с системами комнаты Скайп версии 2. 
+
+> [!NOTE]
+> При использовании Exchange server на prem Скайп комнаты систем v2 необходимо использовать Exchange Server 2013 с пакетом обновления 1 или более поздней версии.
 
 ## <a name="hardware-requirements"></a>Требования к оборудованию
 
@@ -39,11 +42,11 @@ ms.locfileid: "26296360"
 
 |Планшет|Процессор|ОЗУ|Диск|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4       |Основные i5  |4 ГБ  |128 ГБ  |
-|Surface Pro 4       |Основные i5  |8 ГБ  |256 ГБ  |    
-|Surface Pro (2017)  |Основные i5  |4 ГБ  |128 ГБ  |
-|Surface Pro (2017)  |Основные i5  |8 ГБ  |128 ГБ  |
 |Surface Pro (2017)  |Основные i5  |8 ГБ  |256 ГБ  |
+|Surface Pro (2017)  |Основные i5  |8 ГБ  |128 ГБ  |
+|Surface Pro (2017)  |Основные i5  |4 ГБ  |128 ГБ  |
+|Surface Pro 4       |Основные i5  |8 ГБ  |256 ГБ  |
+|Surface Pro 4       |Основные i5  |4 ГБ  |128 ГБ  |
 
 > [!NOTE]
 > M3 ядрами процессора, не поддерживаются.

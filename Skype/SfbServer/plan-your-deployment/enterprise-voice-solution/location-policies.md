@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Прочтите этот раздел, чтобы узнать о планировании политики расположения для развертывания усовершенствованные экстренных служб (E9-1-1) в Скайп Business Server Enterprise Voice.
-ms.openlocfilehash: 919a09bb907bda8666c9a44ee61436643a912d61
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ed5eb479224c82757d808c202633cd79f466a543
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295282"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533217"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Планирование политик расположения Скайп для Business Server
  

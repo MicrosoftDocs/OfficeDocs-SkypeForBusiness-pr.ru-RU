@@ -16,17 +16,20 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a24f4ba3c9470827c8a73bf8ac234cf7ae8467e8
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: d1eeb32f86f678672a14d42b241e56eb9ab92b02
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294699"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532186"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 ===========================
 
 Группами Майкрософт имеет клиентов для настольных компьютеров Windows и Mac, web и мобильных устройств (Android, iOS и Windows Phone). Все они нуждаются в активном подключении к Интернету и не поддерживают автономный режим.
+
+> [!NOTE]
+> Эффективное 29 ноября 2018, вы больше не сможете использовать группами Майкрософт для приложения Windows 10 S (Предварительная версия), доступные из хранилища Microsoft. Мы рекомендуем использовать одну из команд приложения, описанного ниже в этой статье после 29 ноября.
 
 <a name="desktop-client"></a>Клиент рабочего стола
 --------------

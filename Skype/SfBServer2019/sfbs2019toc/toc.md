@@ -9,20 +9,12 @@
 
 ## Гибридные решения
 ### [Планирование гибридного подключения](../hybrid/plan-hybrid-connectivity.md)
-### [Планирование Скайп для переноса Business Server и Exchange Server](../hybrid/plan-um-migration.md)
 ### [Настройка гибридного подключения](../hybrid/configure-hybrid-connectivity.md)
+#### [Настройка подключения Azure AD для гибридных средах](../hybrid/configure-azure-ad-connect.md)
 #### [Настройка Скайп для гибридных бизнеса](../hybrid/configure-federation-with-skype-for-business-online.md)
-#### [Настройка федерации для поставщика аудиоконференций](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
-#### [Настройка проверки подлинности сервер сервер](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md)
 #### [Настройте среду нескольких лесов](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Перемещение пользователей из локальной Скайп для бизнеса в Интернет](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [Перемещение пользователей из локальной группы](../hybrid/move-users-from-on-premises-to-teams.md)
-### Облако голосовой почты
-#### [Планирование голосовой почты в облаке](../hybrid/plan-cloud-voicemail.md)
-#### [Настройка голосовой почты в облаке](../hybrid/configure-cloud-voicemail.md)
-### Подключения к данным звонка
-#### [Планирование подключения к данным звонка](../hybrid/plan-call-data-connector.md)
-#### [Настройка подключения к данным звонка](../hybrid/configure-call-data-connector.md)
 
 ## Планирование
 ### [Основы топологии](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -63,7 +55,7 @@
 #### [Общий доступ к файлам](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Обмен мгновенными сообщениями и присутствия](../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [сервер видеовзаимодействия](../../SfbServer/plan-your-deployment/video-interop-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-### [Решение для корпоративной голосовой связи](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Решения для голосовой связи](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Корпоративная голосовая связь](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 ##### [Компоненты, необходимые для корпоративной голосовой связи](../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [посредник](../../SfbServer/plan-your-deployment/enterprise-voice-solution/mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -109,10 +101,14 @@
 ##### [Параметры «занят»](../../SfbServer/plan-your-deployment/enterprise-voice-solution/busy-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### ["Позвонить с рабочего"](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Удаленное управление звонками](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### Облако голосовой почты
+#####[Планирование голосовой почты в облаке](../hybrid/plan-cloud-voicemail.md)
+##### [Настройка голосовой почты в облаке](../hybrid/configure-cloud-voicemail.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [единая система обмена сообщениями;](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Обзор развертывания](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Единое хранилище контактов](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
+#### [Планирование Скайп для переноса Business Server и Exchange Server](../hybrid/plan-um-migration.md)
 ### [Мониторинг](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Архивирование](../../SfbServer/plan-your-deployment/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Конференц-связь](../../SfbServer/plan-your-deployment/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -423,6 +419,9 @@
 ###### [Отчет по распределению метрик качества среды](../../SfbServer/manage/health-and-monitoring/media-quality-metrics-distribution-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Отчет о тенденциях в выборе местоположений](../../SfbServer/manage/health-and-monitoring/location-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Функция оценки звонка](../../SfbServer/manage/health-and-monitoring/rate-my-call.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### Подключения к данным звонка
+##### [Планирование подключения к данным звонка](../hybrid/plan-call-data-connector.md)
+##### [Настройка подключения к данным звонка](../hybrid/configure-call-data-connector.md)
 
 ### [Архивирование](../../SfbServer/manage/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Параметры](../../SfbServer/manage/archiving/options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -488,3 +487,22 @@
 ### [Учетные записи пользователей](../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Настройка свойств](../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Управление службами](../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+## [Средства управления](../management-tools-2019.md)
+### [Панель мониторинга качества звонков для Скайп для Business Server](../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)
+#### [Планирование для панели мониторинга качества звонка](../../SfbServer/management-tools/call-quality-dashboard/plan.md)
+#### [Развертывание панели мониторинга качества вызовов](../../SfbServer/management-tools/call-quality-dashboard/deploy-0.md)
+#### [Использование панели мониторинга качества вызовов](../../SfbServer/management-tools/call-quality-dashboard/use.md)
+
+### [Диспетчер статистики для Скайп для Business Server](../../SfbServer/management-tools/statistics-manager/statistics-manager.md)
+#### [Планирование для диспетчера статистики для Скайп Business Server](../../SfbServer/management-tools/statistics-manager/plan.md)
+#### [Развертывание диспетчера статистики для Скайп for Business Server](../../SfbServer/management-tools/statistics-manager/deploy.md)
+#### [Обновление статистики Manager для Скайп для Business Server](../../SfbServer/management-tools/statistics-manager/upgrade.md)
+#### [Устранение неполадок в диспетчер статистики для Скайп Business Server](../../SfbServer/management-tools/statistics-manager/troubleshoot.md)
+
+### [Управление Skype для бизнеса Server с помощью пакета управления SCOM](../tools/scom-management-pack-use-2019.md)
+#### [Настройка основного сервера управления](../tools/configure-the-primary-2019.md)
+#### [Настройка компьютеров для мониторинга](../tools/configure-computers-to-monitor-2019.md)
+#### [Узлы-наблюдатели](../tools/watcher-nodes-2019.md)
+##### [Параметры и тестовых пользователей](../tools/test-users-and-settings-2019.md)
+
+### [Скайп для планирования мощности калькулятор Business Server](../../SfbServer/management-tools/capacity-planning-calculator.md)

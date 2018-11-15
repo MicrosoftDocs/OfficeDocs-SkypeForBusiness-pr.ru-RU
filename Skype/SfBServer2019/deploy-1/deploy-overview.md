@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Сводка: Перейдите по этим ссылкам, чтобы узнать, как установить и настроить Скайп для Business Server 2019.'
-ms.openlocfilehash: 6302e126f280c48fdd1e964d390013e349da9db7
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: af4edc8c3c938f6016ebf743b8ce9ac982cfefbf
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294870"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531442"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Развертывание Скайп for Business Server 2019
  
@@ -35,15 +35,15 @@ ms.locfileid: "26294870"
   
 ||Содержимое|Описание|
 |:-----|:-----|:-----|
-|![Значок для документации](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Требования к системе для Скайп для Business Server 2019](../plan/system-requirements.md)  <br/> |Сведения о сервере и окружающей среды требования к Скайп для Business Server.  <br/> |
-|![Значок для документации](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Основные сведения о топологии для Скайп для Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |Описание вариантов топологии и сценарии совместного размещения сервера для Скайп для Business Server.  <br/> |
-|![Нумерованные значки инструкций](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)|[Установка Skype для бизнеса Server](../../SfbServer/deploy/install/install.md)<br/> |Сведения об установке Скайп для Business Server в различных топологиях в физических и виртуальных средах.  <br/> |
-|![Нумерованные значки инструкций](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)| [Миграция на Скайп для Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |Сведения о миграции с предыдущих версий Скайп для бизнеса или Lync Server.  <br/> |
-|![Нумерованные значки инструкций](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)|[Configure the client experience with Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |Сведения о настройке взаимодействия с пользователем.  <br/> |
-|![Нумерованные значки инструкций](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)| [Настройка гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет](../hybrid/configure-hybrid-connectivity.md) <br/> |Узнайте, как настроить необходимые условия для гибридного развертывания, а затем настройте развертывания для управления пользователями между Скайп для Business Server локальных и Скайп для бизнеса в Интернет.  <br/> |
-|![Нумерованные значки инструкций](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)| [Развертывание пограничных серверов в Скайп для Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |Если пользователи в вашей организации взаимодействовать с внешними пользователями, которые не подключены к внутренней сети, необходимые для развертывания пограничного сервера.  <br/> |
-|![Нумерованные значки инструкций](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)| [Развертывание корпоративной голосовой связи в Скайп for Business Server](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Инструкции по настройке корпоративной голосовой связи по протоколу IP (VoIP), предусматривающей широкие возможности взаимодействия с Outlook и Exchange, а также ряд эффективных функций, таких как группы ответа, парковка вызовов, групповые вызовы, перехват вызова группой и расширенная поддержка аварийной службы E9-1-1.  <br/> |
-| ![Нумерованные значки инструкций](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)| [Развертывание видео взаимодействия сервера в Скайп для Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |Если требуется для поддержки взаимодействия с видео, ознакомьтесь со сведениями о развертывании сервера видео взаимодействия (VIS).  <br/> |
+|![Значок для документации](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Требования к системе для Скайп для Business Server 2019](../plan/system-requirements.md)  <br/> |Сведения о сервере и окружающей среды требования к Скайп для Business Server.  <br/> |
+|![Значок для документации](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Основные сведения о топологии для Скайп для Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |Описание вариантов топологии и сценарии совместного размещения сервера для Скайп для Business Server.  <br/> |
+|![Нумерованные значки инструкций](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Установка Skype для бизнеса Server](../../SfbServer/deploy/install/install.md)<br/> |Сведения об установке Скайп для Business Server в различных топологиях в физических и виртуальных средах.  <br/> |
+|![Нумерованные значки инструкций](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Миграция на Скайп для Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |Сведения о миграции с предыдущих версий Скайп для бизнеса или Lync Server.  <br/> |
+|![Нумерованные значки инструкций](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Configure the client experience with Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |Сведения о настройке взаимодействия с пользователем.  <br/> |
+|![Нумерованные значки инструкций](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Настройка гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет](../hybrid/configure-hybrid-connectivity.md) <br/> |Узнайте, как настроить необходимые условия для гибридного развертывания, а затем настройте развертывания для управления пользователями между Скайп для Business Server локальных и Скайп для бизнеса в Интернет.  <br/> |
+|![Нумерованные значки инструкций](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Развертывание пограничных серверов в Скайп для Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |Если пользователи в вашей организации взаимодействовать с внешними пользователями, которые не подключены к внутренней сети, необходимые для развертывания пограничного сервера.  <br/> |
+|![Нумерованные значки инструкций](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Развертывание корпоративной голосовой связи в Скайп for Business Server](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Инструкции по настройке корпоративной голосовой связи по протоколу IP (VoIP), предусматривающей широкие возможности взаимодействия с Outlook и Exchange, а также ряд эффективных функций, таких как группы ответа, парковка вызовов, групповые вызовы, перехват вызова группой и расширенная поддержка аварийной службы E9-1-1.  <br/> |
+| ![Нумерованные значки инструкций](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Развертывание видео взаимодействия сервера в Скайп для Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |Если требуется для поддержки взаимодействия с видео, ознакомьтесь со сведениями о развертывании сервера видео взаимодействия (VIS).  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Дополнительные материалы о планировании для Скайп Business Server
 
@@ -51,8 +51,8 @@ ms.locfileid: "26294870"
   
 ||**Содержимое**|**Описание**|
 |:-----|:-----|:-----|
-|![Значок для документов](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Skype для бизнеса Server для ИТ-специалистов](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Посетите Центр ресурсов для видеоролики о access, сайты сообществ, документацию, файлы для загрузки и др.|
-|![Значок для содержимого разработчиков](https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg)|[Платформа разработчика Skype](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Ресурсы разработчика для Скайп для Business Server, включая примеры кода, обучение и пакеты SDK.  <br/> |
-|![Значок для новостей, блогов и т. д.](https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg)|[Управление изменениями и их принятие](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Блоги об Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Блог группы Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Следите новостями от групп, создающих и документа Скайп для Business Server.  <br/> |
+|![Значок для документов](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype для бизнеса Server для ИТ-специалистов](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Посетите Центр ресурсов для видеоролики о access, сайты сообществ, документацию, файлы для загрузки и др.|
+|![Значок для содержимого разработчиков](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Платформа разработчика Skype](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Ресурсы разработчика для Скайп для Business Server, включая примеры кода, обучение и пакеты SDK.  <br/> |
+|![Значок для новостей, блогов и т. д.](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[Управление изменениями и их принятие](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Блоги об Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Блог группы Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Следите новостями от групп, создающих и документа Скайп для Business Server.  <br/> |
    
 

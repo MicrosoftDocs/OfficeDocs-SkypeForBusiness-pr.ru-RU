@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Сводка: Сведения о настройке Скайп для инфраструктуры Business Server 2015 для работы с System Center Operations Manager.'
-ms.openlocfilehash: b94490c60234f76b0e07f0b7732d76cc2354eaad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a1d1b87e3f28fbbb2b8023093a9781bb0dc2627
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994964"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533289"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Управление Skype для бизнеса Server 2015 с помощью пакета управления SCOM
  
@@ -38,7 +38,7 @@ ms.locfileid: "20994964"
   
 ## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>Поддержка агентов и System Center Operations Manager корневой Management Server
 
-Пакеты управления можно использовать с System Center Operations Manager 2007 R2 (64-разрядная версия) (поддерживается только в целях миграции) или System Center Operations Manager 2012 с пакетом обновления 1 &amp; R2 (64-разрядная версия). В следующей таблице перечислены поддерживаемые конфигурации для пакетов управления для Скайп для Business Server 2015: 
+Пакеты управления можно использовать с System Center Operations Manager 2007 R2 (64-разрядная версия) (поддерживается только в целях миграции) или System Center Operations Manager 2012 с пакетом обновления 1 &amp; R2 (64-разрядная версия) или системы Center Operations Manager 2016 (64-разрядная версия). В следующей таблице перечислены поддерживаемые конфигурации для пакетов управления для Скайп для Business Server 2015: 
   
 |**Конфигурация**|**Поддерживается?**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ ms.locfileid: "20994964"
 |:-----|:-----|
 |ЦП  <br/> |Один из следующих:  <br/> Четырехъядерный 64-разрядный процессор с частотой 2,33 ГГц или выше  <br/> 64-разрядный процессор с 2-канальным кэшем, двухъядерный, 2,33 ГГц и выше  <br/> |
 |Память  <br/> |8 ГБ  <br/> |
-|Операционная система  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
+|Операционная система  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Сеть  <br/> |Один сетевой адаптер на 1 Гбит/с  <br/> |
    
 ## <a name="prerequisites"></a>Необходимые компоненты
@@ -137,14 +137,14 @@ ms.locfileid: "20994964"
 |8  <br/> |Одноранговые мгновенные сообщения MCX (мобильная связь)  <br/> |Недоступны в Lync Server 2010 Скайп для бизнеса 2015 окончательной сентября 2011 г.  <br/> |
  
 > [!NOTE]
-> Поддержка MCX для устаревших мобильных клиентов больше не доступен в Скайп для Business Server 2019. Пользователям необходимо обновить до текущего клиента.
+> Поддержка устаревших мобильных клиентов MCX (Mobility Service) больше не доступен в Скайп для Business Server 2019. Все текущей Скайп для мобильных клиентов Business уже используете Unified Communications Web API (UCWA) для поддержки мгновенного обмена Мгновенными сообщениями, сведения о присутствии и контакты. Пользователи с прежних версий клиентов, использующих MCX потребуется обновить до текущего клиента.
   
 **Поддерживаемые искусственные транзакции для конференц-связи и сохраняемого чата**
 
 ||||
 |:-----|:-----|:-----|
 |9  <br/> |Видео- и голосовая конференц-связь  <br/> |Доступные в Lync Server 2010 и за ее пределами  <br/> |
-|10  <br/> |Конференц-связь с передачей данных  <br/> |Доступные в Lync Server 2013 и за ее пределами  <br/> |
+| 10  <br/> |Конференц-связь с передачей данных  <br/> |Доступные в Lync Server 2013 и за ее пределами  <br/> |
 |11  <br/> |Конференц-связь с мгновенными сообщениями  <br/> |Доступные в Lync Server 2010 и за ее пределами  <br/> |
 |12  <br/> | Сохраняемый сеанс беседы <br/> |Доступные в Lync Server 2013 и за ее пределами  <br/> |
 |13  <br/> |Агент присоединения (запланированные собрания)  <br/> |Доступные в Lync Server 2013 и за ее пределами  <br/> |
@@ -203,35 +203,35 @@ ms.locfileid: "20994964"
   
 - [Жизненный цикл пакета управления](https://technet.microsoft.com/en-us/library/hh212732.aspx)
     
-- [Импорт пакета управления в Operations Manager 2012 г.](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [Импорт пакета управления в Operations Manager 2012 ](https://technet.microsoft.com/en-us/library/hh212691.aspx)
     
-- [Способы переопределения правила или монитора](https://technet.microsoft.com/en-us/library/hh212869.aspx)
+- [Переопределение существующего правила или монитора](https://technet.microsoft.com/en-us/library/hh212869.aspx)
     
-- [Как создать пробег как учетная запись в Operations Manager 2012 г.](https://technet.microsoft.com/en-us/library/hh321655.aspx)
+- [Создание учетной записи запуска от имени в Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
     
-- [Управление Запуск от имени учетных записей и профилей](https://technet.microsoft.com/en-us/library/hh212714.aspx)
+- [Управление учетными записями и профилями запуска от имени](https://technet.microsoft.com/en-us/library/hh212714.aspx)
     
-- [Как экспортировать пакет управления Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
+- [Экспорт пакета управления Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
     
-- [Как удалить пакет управления Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
+- [Удаление пакета управления Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
     
 Ниже приведены ссылки на часто выполняемые задачи, связанные с пакетами мониторинга System Center 2007.
   
-- [Управление жизненным циклом пакета управления](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [Администрирование жизненного цикла пакета управления](https://go.microsoft.com/fwlink/p/?LinkId=211463)
     
 - [Импорт пакета управления в Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
     
-- [Наблюдение за использованием переопределяет](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [Наблюдение посредством переопределения](https://go.microsoft.com/fwlink/p/?LinkID=117777)
     
-- [Как создать пробег как учетная запись в Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [Создание учетной записи запуска от имени в Operations Manager 2007 ](https://go.microsoft.com/fwlink/p/?LinkID=165410)
     
-- [Как изменять существующий Запуск от имени профиля](https://go.microsoft.com/fwlink/p/?LinkID=165412)
+- [Изменение существующего профиля запуска от имени](https://go.microsoft.com/fwlink/p/?LinkID=165412)
     
-- [Экспорт настроек пакета управления](https://go.microsoft.com/fwlink/p/?LinkId=209940)
+- [Экспорт пользовательских вариантов настройки пакета управления](https://go.microsoft.com/fwlink/p/?LinkId=209940)
     
 - [Удаление пакета управления](https://go.microsoft.com/fwlink/p/?LinkId=209941)
     
-Вопросы о Operations Manager и мониторинга пакетов в разделе [форум сообщества System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
+Обсуждение вопросов, относящихся к Operations Manager и пакетов мониторинга, см. на [форуме сообщества System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   
 Полезных ресурсов — это [Система центр Operations Manager Unleashed](https://opsmgrunleashed.wordpress.com/) блогу, который содержит «С образцами» сообщений для конкретных мониторинга пакетов.
   
@@ -239,15 +239,15 @@ ms.locfileid: "20994964"
   
 - [Блог группы разработчиков Operations Manager](https://blogs.technet.com/momteam/default.aspx)
     
-- [Блог OpsMgr Кевин Холман](https://blogs.technet.com/kevinholman/default.aspx)
+- [Блог Кевина Холмана (Kevin Holman) по OpsMgr](https://blogs.technet.com/kevinholman/default.aspx)
     
-- [Мысли на OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
+- [Принципы работы с OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
 - [Блог Raphael Burri](https://rburri.wordpress.com/)
     
-- [Пространства BWren элемента управления](https://blogs.technet.com/brianwren/default.aspx)
+- [Блог Б. Рена (BWren) по управлению](https://blogs.technet.com/brianwren/default.aspx)
     
-- [Диспетчер операций ++ (en)](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
+- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > Вся информация и содержимое на сайтах, не принадлежащих корпорации Майкрософт, предоставляется владельцами и пользователями веб-сайта. Корпорация Майкрософт не предоставляет каких-либо явно выраженных, подразумеваемых или установленных законом гарантий в отношении информации на этом веб-сайте. 

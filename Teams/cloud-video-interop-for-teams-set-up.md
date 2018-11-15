@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 5e0663553f6dbd3374245ba2ab370e4b5a369701
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294138"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531966"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Настройка взаимодействия облачных видео для групп Майкрософт
 
@@ -57,19 +57,19 @@ ms.locfileid: "26294138"
 Необходимо выполнить следующие командлеты для подготовки ключу клиента, а также обеспечивают создание собраний с видео взаимодействия координаты окно выбора пользователей или всей организации.
 
  
-- ** [Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Корпорация Майкрософт предоставляет предварительно построенного политик для каждого из наших поддерживаемые партнеров, которые позволяют назначить которого партнерами для облачных видео взаимодействия.
+- ** [Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Корпорация Майкрософт предоставляет предварительно построенного политик для каждого из наших поддерживаемые партнеров, которые позволяют назначить которого партнерами для облачных видео взаимодействия.
 
     Этот командлет позволяет определить предварительно построенного политик, которые можно использовать в организации. Один или несколько пользователей использование командлета Grant-CsTeamsVideoInteropServicePolicy можно назначить эту политику.
  
-- ** [Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** Командлет Grant-CsTeamsVideoInteropServicePolicy позволяет назначить предварительно построенного политику для использования в вашей организации или назначьте политику к определенным пользователям.
+- ** [Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** Командлет Grant-CsTeamsVideoInteropServicePolicy позволяет назначить предварительно построенного политику для использования в вашей организации или назначьте политику к определенным пользователям.
  
-- ** [Новый CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/new-csvideointeropserviceprovider):** Используйте New-CsVideoInteropServiceProvider, чтобы указать сведения о поддерживаемых CVI партнеров, вашей организации требуется использовать.
+- ** [Новый CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** Используйте New-CsVideoInteropServiceProvider, чтобы указать сведения о поддерживаемых CVI партнеров, вашей организации требуется использовать.
  
-- ** [Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/set-csvideointeropserviceprovider):** Set-CsVideoInteropServiceProvider используется для обновления сведений о поддерживаемых CVI партнеров, используемых вашей организацией.
+- ** [Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** Set-CsVideoInteropServiceProvider используется для обновления сведений о поддерживаемых CVI партнеров, используемых вашей организацией.
  
-- ** [Get-CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/get-csvideointeropserviceprovider):** Получение всех поставщиков, которые были настроены для использования в организации.
+- ** [Get-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** Получение всех поставщиков, которые были настроены для использования в организации.
  
-- ** [Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csvideointeropserviceprovider):** Командлет Remove-CsVideoInteropServiceProvider для удаления все сведения о поставщике о поставщике, который больше не используется в организации.  
+- ** [Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** Командлет Remove-CsVideoInteropServiceProvider для удаления все сведения о поставщике о поставщике, который больше не используется в организации.  
  
 ## <a name="consent"></a>Разрешения
 

@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/07/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bce73966b8aa15717e3c96e91f703059428127b
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 73c2163557706066f079f3ce61c1d4d3c58ed906
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295585"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533129"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "26295585"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,7 +50,7 @@ ms.locfileid: "26295585"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
+                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,7 +68,7 @@ ms.locfileid: "26295585"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ ms.locfileid: "26295585"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +104,7 @@ ms.locfileid: "26295585"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="success" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -213,6 +213,7 @@ ms.locfileid: "26295585"
                     <div class="cardText">
                         <h3>Собрания</h3>
                         <p><a href="tutorial-meetings-in-teams.yml">Руководство. Собрания в Teams</a></p>
+                        <p><a href="https://aka.ms/teams-meetings-intro">Видео: Общие сведения о собраниях в группах Microsoft</a></p>
                     </div>
                 </div>
             </div>
@@ -250,7 +251,8 @@ ms.locfileid: "26295585"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Планы звонков</h3>
+                        <h3>Телефонная система</h3>
+                         <p><a href="https://aka.ms/teams-phone-system">Видео: Общие сведения о телефонной системой в группах Майкрософт</a></p>
                          <p><a href="configuring-teams-calling-quickstartguide.md">Краткое руководство: Настройка вызов планы в группах</a></p>
                          <p><a href="tutorial-calling-in-teams.yml">Учебное руководство. Общие сведения о звонках в Microsoft Teams</a></p>
                     </div>
@@ -263,7 +265,7 @@ ms.locfileid: "26295585"
                 <div class="card">
                     <div class="cardText">
                         <h3>Прямая отправка</h3>
-                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">Видео: Прямая отправка для групп - предварительного просмотра</a></p>
+                        <p><a href="https://aka.ms/teams-direct-routing">Видео: Прямая отправка в группах Майкрософт</a></p>
                     </div>
                 </div>
             </div>

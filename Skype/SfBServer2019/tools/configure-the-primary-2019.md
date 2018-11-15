@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: Настройка вашей основной сервер управления сервера, установки System Center Operations Manager и импорт пакетов управления для Скайп для Business Server 2019.'
 ms.openlocfilehash: 39ed469227c607084dc030fa003700074a6aae9a
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216141"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26536064"
 ---
 # <a name="configure-the-primary-management-server"></a>Настройка основного сервера управления
 

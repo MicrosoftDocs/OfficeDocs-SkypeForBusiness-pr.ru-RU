@@ -1,44 +1,43 @@
 ---
-title: Plan for Statistics Manager for Skype for Business Server 2015
+title: Планирование для диспетчера статистики для Скайп Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Сводка: Прочитайте сведения о диспетчере статистики для Скайп для Business Server 2015.'
-ms.openlocfilehash: de4f2bedcbd03191b852366504423ebb031cf5f1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Сводка: Прочитайте сведения о диспетчере статистики для Скайп для Business Server.'
+ms.openlocfilehash: 7b4c45bf3fe230c331725a4510a2a8a499300bef
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294481"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531083"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server-2015"></a>Plan for Statistics Manager for Skype for Business Server 2015
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Планирование для диспетчера статистики для Скайп Business Server
 
-**Сводка:** В данном разделе приведены дополнительные сведения о диспетчере статистики для Скайп для Business Server 2015.
+**Сводка:** В данном разделе приведены сведения о диспетчере статистики для Скайп для Business Server.
 
  Диспетчер статистики для Скайп для Business Server представляет собой мощное средство, которое позволяет просматривать Скайп для данные о работоспособности и производительности Business Server в режиме реального времени. Опрос данные о производительности на серверах сотни раз в несколько секунд и просмотреть результаты мгновенно на веб-сайт диспетчера статистики.
 
 Диспетчер Статистика используется для обнаружения проблем производительности системы, просмотреть результаты плановых изменений в среду, отслеживать решение простоев и многое другое. По умолчанию Статистика диспетчера следует настроить пороговые значения индикатор работоспособности ключ (KHI) и может быть изменен в соответствии с потребностями вашего развертывания.
 
-Статистика диспетчера можно развернуть в локальном развертывании, в которой один сервер содержит все компоненты диспетчера статистики на сервере. Дополнительные сведения о развертывании диспетчера статистики [Развертывание диспетчера статистики для Скайп для Business Server 2015](deploy.md)см. Если у вас уже есть существующее развертывание из диспетчера статистики, но вы еще не был обновлен для версии 1.1, просмотрите [новые возможности версии 1.1](plan.md#BKMK_WhatsNew) и [Обновление статистики Manager для Скайп для Business Server 2015](upgrade.md).
+Статистика диспетчера можно развернуть в локальном развертывании, в которой один сервер содержит все компоненты диспетчера статистики на сервере. Дополнительные сведения о развертывании диспетчера статистики [Развертывание диспетчера статистики для Скайп для Business Server](deploy.md)см. Если у вас уже есть существующее развертывание из диспетчера статистики, но вы еще не был обновлен для версии 2.0, просмотрите [новые возможности версии 2.0](plan.md#BKMK_WhatsNew) и [Обновление статистики Manager для Скайп для Business Server](upgrade.md).
 
 В этой статье содержатся следующие разделы.
 
-- [Функции и возможности](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
+- [Функции и возможности](plan.md#BKMK_Features)
 
-- [Новые возможности версии 1.1](plan.md#BKMK_WhatsNew)
+- [Новые возможности версии 2.0](plan.md#BKMK_WhatsNew)
 
-- [Компоненты](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
+- [Компоненты](plan.md#BKMK_Components)
 
 - [Локальное развертывание](plan.md#BKMK_DeploymentOptions)
 
-- [Требования](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
+- [Требования](plan.md#BKMK_Requirements)
 
 - [Рекомендации по безопасности](plan.md#BKMK_Security)
 
@@ -77,16 +76,14 @@ ms.locfileid: "26294481"
 
   - Определения представлений KHI
 
-## <a name="whats-new-in-release-11"></a>Новые возможности версии 1.1
+## <a name="whats-new-in-release-20"></a>Новые возможности версии 2.0
 <a name="BKMK_WhatsNew"> </a>
 
-Ниже описаны новые возможности версии 1.1. Если у вас есть существующее развертывание из диспетчера статистики и еще не было выполнено обновление, см.: [Обновление статистики диспетчер для Скайп для Business Server 2015](upgrade.md).
+Ниже описаны новые возможности версии 2.0. Если у вас есть существующее развертывание из диспетчера статистики и еще не было выполнено обновление, см.: [Обновление статистики диспетчер для Скайп для Business Server](upgrade.md).
 
 - Сценарий представления были добавлены для пограничного сервера мультимедиа, состояния Fabric, отработки отказа и регистрации сценариев.
 
-- PerfAgentStorageManager.exe командной строки (устанавливается с прослушивателя) теперь можно экспортировать данные счетчиков как CSV-ФАЙЛ.
-
-- Многие новые счетчики были добавлены к серверу SQL Server, Дополнительные счетчики Windows Fabric. Дополнительные Скайп для счетчики использования бизнес и т. д.
+- Многие новые счетчики были добавлены к серверу SQL Server, более Скайп для счетчики использования бизнес и т. д.
 
 - Интеграция узел наблюдателя для агента диспетчера статистики - при агент установлен на узел-наблюдатель, регистрируются статистики искусственная транзакция как счетчики обратно к диспетчеру статистики.
 
@@ -131,7 +128,7 @@ ms.locfileid: "26294481"
 
 ### <a name="software-requirements"></a>Требования к программному обеспечению
 
-- Windows Server 2012 R2
+- Windows Server 2016 и 2019
 
 - Службы IIS (автоматически)
 
@@ -141,9 +138,7 @@ ms.locfileid: "26294481"
 
 - PSExec - требуется агент удаленного развертывания
 
-- Требуется .NET 4.5 (входит в состав 2012 R2) - для серверных компонентов
-
-- .NET 4.0 - необходимые для агентов
+- .NET 4.5 (входит в состав 2012 R2) - необходимые для агентов и компоненты на стороне сервера
 
 ### <a name="networking-requirements"></a>Требования к сети
 
@@ -180,12 +175,12 @@ ms.locfileid: "26294481"
 
 Дополнительные сведения приведены далее.
 
-- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
+- [Развертывание диспетчера статистики для Скайп for Business Server](deploy.md)
 
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
+- [Обновление статистики Manager для Скайп для Business Server](upgrade.md)
 
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
+- [Устранение неполадок в диспетчер статистики для Скайп Business Server](troubleshoot.md)
 
-- [Блог, посвященный диспетчеру статистики Skype для бизнеса Server](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Блог, посвященный диспетчеру статистики Skype для бизнеса Server](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
 
 

@@ -5,14 +5,14 @@
 ### [Примечания к выпуску](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Подготовка среды](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Требования](../plan-your-deployment/clients-and-devices/requirements.md)
-### [Online лицензирования](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+### [Online лицензирования](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 ### [Планирование управления с OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
 
 ## Развертывание: 
 ### [Обзор развертывания](../deploy/deploy-clients/room-systems-v2.md)
 ### [Настройка учетных записей](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [С помощью Office 365](../deploy/deploy-clients/with-office-365.md)
-### [С помощью Скайп для Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
+### [С помощью Скайп для Business Server](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
 ### [С помощью Exchange Online (гибридный)](../deploy/deploy-clients/with-exchange-online.md)
 ### [С сервером Exchange при локальном (гибридный)](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [Настройка консоли](../deploy/deploy-clients/console.md)

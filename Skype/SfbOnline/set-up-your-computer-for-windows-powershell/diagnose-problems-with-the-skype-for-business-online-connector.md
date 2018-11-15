@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 651afa58513819eb57914bfa1cd92bc38a46298f
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 223886b68c22f3713118eaed4a556743df2c7cf1
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295051"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532867"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -112,7 +112,7 @@ ms.locfileid: "26295051"
 
 Невозможно установить удаленное подключение PowerShell к Skype для бизнеса online, если вы не являетесь участником группы "Администраторы клиента", так как в этом случае произойдет сбой подключения и вы получите следующее сообщение об ошибке:
 
-- **Ошибка**: *New-PSSession: [admin.vdomain.com] обработки данных из удаленного сервера admin.vdomain.com выведено следующее сообщение об ошибке: «user@foo.com» пользователь не имеет разрешения на управление клиента. Путем включения пользователя в соответствующие роль RBAC могут быть предоставлены разрешения. Для получения дополнительных сведений см [Удаленного устранения неполадок](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Ошибка**: *New-PSSession: [admin.vdomain.com] обработки данных из удаленного сервера admin.vdomain.com выведено следующее сообщение об ошибке: «user@foo.com» пользователь не имеет разрешения на управление клиента. Путем включения пользователя в соответствующие роль RBAC могут быть предоставлены разрешения. Для получения дополнительных сведений см [Удаленного устранения неполадок](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Решение**: Если вы думаете, или должны быть участником группы администраторов клиента необходимо обратиться в службу поддержки Office 365.
   
@@ -121,7 +121,7 @@ ms.locfileid: "26295051"
 
 Чтобы использовать PowerShell для управления Skype для бизнеса online, для свойства EnableRemotePowerShellAccess политики клиента PowerShell нужно задать значение  `True`. Если оно не задано, произойдет сбой подключения и вы получите следующее сообщение об ошибке:
 
-- **Ошибка**: *New-PSSession: [admin.vdomain.com] обработки данных из удаленного сервера admin.vdomain.com выведено следующее сообщение об ошибке: возможность подключения клиента с помощью удаленного сеанса PowerShell отключена. Обратитесь в службу поддержки Lync, чтобы просмотреть политики Powershell клиента для клиента. Для получения дополнительных сведений см [Удаленного устранения неполадок](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Ошибка**: *New-PSSession: [admin.vdomain.com] обработки данных из удаленного сервера admin.vdomain.com выведено следующее сообщение об ошибке: возможность подключения клиента с помощью удаленного сеанса PowerShell отключена. Обратитесь в службу поддержки Lync, чтобы просмотреть политики Powershell клиента для клиента. Для получения дополнительных сведений см [Удаленного устранения неполадок](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Решение**: Если появится данное сообщение об ошибке, то необходимо обратиться в службу поддержки Office 365 и получать удаленный доступ к PowerShell включен.
   
@@ -130,7 +130,7 @@ ms.locfileid: "26295051"
 
 Каждый администратор может установить максимум три удаленных подключения к Skype для бизнеса online одновременно. Если у вас установлено три удаленных подключения PowerShell, при попытке четвертого подключения произойдет сбой со следующим сообщением об ошибке:
 
-- **Ошибка**: *New-PSSession: [admin.vdomain.com] подключение к удаленному серверу admin.vdomain.com выведено следующее сообщение об ошибке: служба WS-Management не удается обработать запрос. Превышено максимальное количество одновременных оболочек для этого пользователя. Закройте существующими оболочками или инициировать квоты для данного пользователя. Для получения дополнительных сведений см. [удаленного] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **Ошибка**: *New-PSSession: [admin.vdomain.com] подключение к удаленному серверу admin.vdomain.com выведено следующее сообщение об ошибке: служба WS-Management не удается обработать запрос. Превышено максимальное количество одновременных оболочек для этого пользователя. Закройте существующими оболочками или инициировать квоты для данного пользователя. Для получения дополнительных сведений см. [удаленного] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Решение**: закрыть один или несколько предыдущих подключений является единственным способом для устранения этой проблемы. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.
   
@@ -139,7 +139,7 @@ ms.locfileid: "26295051"
 
 Несмотря на то, что каждый администратор может иметь как минимум три одновременных подключений к Скайп для бизнеса интерактивного клиента, не одним клиентом может иметь более 20 одновременных подключений. К примеру, шесть каждого из администраторов может быть три открытых сеансов. Если четвертый администратор пытается более 2 подключиться (приведет к всего 21 одновременных подключений), это произойдет ошибка, следующее сообщение об ошибке:
   
-- **Ошибка**: *New-PSSession: [admin.vdomain.com] подключение к удаленному серверу admin.vdomain.com выведено следующее сообщение об ошибке: служба WS-Management не удается обработать запрос. Превышено максимальное количество одновременных оболочек для клиента. Закройте существующими оболочками или инициировать квоты для клиента. Для получения дополнительных сведений см. [удаленного] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **Ошибка**: *New-PSSession: [admin.vdomain.com] подключение к удаленному серверу admin.vdomain.com выведено следующее сообщение об ошибке: служба WS-Management не удается обработать запрос. Превышено максимальное количество одновременных оболочек для клиента. Закройте существующими оболочками или инициировать квоты для клиента. Для получения дополнительных сведений см. [удаленного] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Решение**: закрыть один или несколько предыдущих подключений является единственным способом для устранения этой проблемы. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.  
  

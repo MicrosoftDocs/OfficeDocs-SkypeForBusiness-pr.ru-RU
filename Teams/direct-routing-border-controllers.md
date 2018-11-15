@@ -1,6 +1,7 @@
 ---
 title: Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 ms.author: jambirk
+ms.reviewer: NMuravlyannikov
 author: jambirk
 manager: serdars
 ms.audience: ITPro
@@ -15,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Партнеры корпорации Майкрософт с выбранным поставщикам SBC для подтверждения своей SBC работать с прямой маршрутизации.
-ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 2d0873916585cab3eed6295e9be499f0eab39d53
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294813"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531002"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -59,5 +60,7 @@ ms.locfileid: "26294813"
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   Ожидание    |      V7.0.2      |
 |                                                                                                                     |    Шведский SBC Lite     |     &#10004;     |   Ожидание    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Ожидание    |       V1.4       |
-|                                                                                                                     |                     |                  |              |                  |
-
+|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   Ожидание    |   Ожидание  |   Ожидание    |
+|                                                                                                                     |      AP 4600         |    Ожидание    |   Ожидание    |      Ожидание      |
+|                                                                                                                     |      ВИРТУАЛЬНАЯ СРЕДА ПЕРЕНОСА             |    Ожидание    |   Ожидание    |      Ожидание      |
+|                     [TE СИСТЕМ](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    Ожидание    |   Ожидание    |      Ожидание      |

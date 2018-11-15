@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Сводка: Подготовка к Скайп для серверов Business Server 2019 и инфраструктуры домена в этом разделе. Оборудование, операционная система, баз данных, программного обеспечения, все требования к системе и рекомендации, а также сертификат DNS, файловый ресурс и сведения Active Directory, являются здесь для обеспечения успешной установки и развертывания фермы серверов.'
-ms.openlocfilehash: c7064f4d1c8136cf714d784fd1985efd0f21c979
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 0cacba46f438f84c75aa80d1e73d9b4f7fa6c0ff
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296157"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530976"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Требования к системе для Скайп для Business Server 2019
  
@@ -193,7 +193,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016/2017 Enterprise (64-разрядная версия) и вы должны быть запущены с последними обновлениями и группы обеспечения доступности AlwaysOn.  <br/> ||
+|Microsoft SQL Server 2016 (64-разрядная версия) и вы должны быть запущены с последними обновлениями и группы обеспечения доступности AlwaysOn.  <br/> ||
  |
    
 Если нужная выпуск SQL Server, который будет использоваться перечисленных здесь нельзя использовать его.
@@ -211,11 +211,11 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
 Два узла:
   
-- Microsoft SQL Server 2016/2017 Standard (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
+- Microsoft SQL Server 2016 Standard (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
     
 16 узлов:
   
-- Microsoft SQL Server 2016/2017 Enterprise (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
+- Microsoft SQL Server 2016 Enterprise (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
     
 У нас будет статьи Configure SQL Server кластеризации для Скайп для 2019 Business Server, в которых будут действия для получения кластеризации Готово.
  
@@ -246,6 +246,8 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
 Можно использовать следующие операционные системы контроллера домена:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -254,6 +256,8 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
     
 Из любого домена, Скайп развертывания для бизнеса 2019 сервера в режим работы домена и леса любого леса, Скайп развертывания для 2019 Business Server, должно быть одно из следующих:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -347,7 +351,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
 При данном сценарии несколько лесов расположены локально с топологией с лесом ресурсов, что является отношением полного доверия между лесами Active Directory. Служба Azure Active Directory Connect используется для синхронизации учетных записей между локальными лесами пользователей и Office 365.
   
- У организации также есть Office 365, и она использует [Azure Active Directory Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect) для синхронизации своих локальных учетных записей с Office 365. Пользователи, которым разрешена Скайп для бизнеса включены с помощью Office 365 и Скайп для бизнеса в Интернет. Скайп для Business Server не развертываются локально.
+ У организации также есть Office 365, и она использует [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) для синхронизации своих локальных учетных записей с Office 365. Пользователи, которым разрешена Скайп для бизнеса включены с помощью Office 365 и Скайп для бизнеса в Интернет. Скайп для Business Server не развертываются локально.
   
 Единого входа проверки подлинности предоставляется в ферму служб федерации Active Directory, расположенных в лесу пользователя.
   

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Инструкции по реализации голосовой почты на основе облака для пользователей, размещенных на Скайп для Business Server.
-ms.openlocfilehash: 80f154a7fa8e34b7912ebf5762e5d0390e21fd22
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 05c486ed338e8e77ab68f12a64c3a59646a157d0
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294893"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531914"
 ---
 # <a name="configure-cloud-voicemail-service"></a>Настройка службы голосовой почты в облаке
 
@@ -93,7 +93,7 @@ Get-CsHostedVoicemailPolicy
 
 ## <a name="assign-a-hosted-voicemail-policy"></a>Назначение политики размещенной голосовой почты
 
-По умолчанию, размещенных Global всем пользователям назначается политика голосовой почты. Если вы используете различные политики, перед включением пользователей для размещенной голосовой почты, необходимо сначала предоставить пользователям политика желаемую размещенной голосовой почты с помощью командлета [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) .
+По умолчанию, размещенных Global всем пользователям назначается политика голосовой почты. Если вы используете различные политики, перед включением пользователей для размещенной голосовой почты, необходимо сначала предоставить пользователям политика желаемую размещенной голосовой почты с помощью командлета [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) .
 
 Например следующая команда назначает политику глобальной размещенной голосовой почты для пользователя:
 
@@ -104,7 +104,7 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:Clou
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Включить пользователя в облаке голосовой почты
 
-Чтобы включить вызовы пользователя голосовой почты для маршрутизации голосовой почты в облаке, используйте командлет [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps) с параметром HostedVoiceMail. 
+Чтобы включить вызовы пользователя голосовой почты для маршрутизации голосовой почты в облаке, используйте командлет [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) с параметром HostedVoiceMail. 
 
 Например следующая команда включает учетную запись пользователя для голосовой почты в облаке. 
 

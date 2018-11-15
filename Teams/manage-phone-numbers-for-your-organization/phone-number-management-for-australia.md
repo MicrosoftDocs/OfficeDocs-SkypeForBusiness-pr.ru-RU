@@ -23,18 +23,15 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Австралии для Скайп для бизнеса в Интернет и рабочих групп Microsoft.
-ms.openlocfilehash: b897a9f857b6703ed0ada636c16aa76393501257
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 88db4b1410071793622c5bab7e528c51180c7a80
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296297"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532758"
 ---
 # <a name="phone-number-management-for-australia"></a>Управление номер телефона для Австралии
-> [!IMPORTANT]
-> Australia is only available to preview and early adopters customers. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
-
-In Australia, we have partnered with Telstra for the purchase and provisioning of Calling Plans. Telstra will sell Calling Plans and provide the support for phone number management for both user and service numbers for auto attendants and call queues. However, service numbers and licenses for Audio Conferencing will still be sold and managed by Office 365.
+В Австралии мы имеем партнерские отношения с Telstra для покупки и подготовки тарифных планов. Telstra  будет продавать  тарифные планы и обеспечивать поддержку управления телефонных номеров как для пользователей, так и служебных номеров автосекретарей и очередей звонков. Тем не менее номера службы и лицензий для аудиоконференции будут по-прежнему продаваться и управляться Office 365.
 
 Для получения дополнительных сведений см. [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan).
 
@@ -44,12 +41,12 @@ In Australia, we have partnered with Telstra for the purchase and provisioning o
   
 |**Требуемое действие**|**Выполните следующие действия и загрузите подходящие формы**|
 |:-----|:-----|
-|Получение телефонных номеров нового пользователя для тарифных планов в Австралии.   <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) for new phone numbers for your users. They will then add those numbers to your organization so you can assign them to your users. <br/>
-|Получение нового телефонного номера, который можно использовать с телефонной системой автосекретарей и очередями звонков для Австралии. <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) for new phone numbers. They will then add those numbers to your organization so you can assign them to your auto attendants and call queues. <br/>|
+|Получение телефонных номеров нового пользователя для тарифных планов в Австралии.   <br/> |Свяжитесь с [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan) для нового телефонного  номера для пользователей. Затем  эти номера будут добавлены вашей организации, вы можете назначить их пользователям. <br/>
+|Получение нового телефонного номера, который можно использовать с телефонной системой автосекретарей и очередями звонков для Австралии. <br/> |Свяжитесь с [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan) для новых телефонных номеров. Затем эти номера будут добавлены вашей организации, вы можете назначить их вашим автосекретарям и  очередям звонков. <br/>|
 |Получение телефонных номеров новых служб для аудиоконференции в Австралии.   <br/> |[Свяжитесь с нами](mailto:ptnapac@microsoft.com).|
-|Необходимо получить номера телефонов, переданных в Office 365 для пользователей, автосекретарей и очередей звонков.  <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) to transfer phone numbers. They will then add those numbers to your organization.  <br/> |
+|Необходимо получить номера телефонов, переданных в Office 365 для пользователей, автосекретарей и очередей звонков.  <br/> |Свяжитесь с [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan) для новых телефонных номеров. Затем эти номера будут добавлены вашей организации.  <br/> |
 |Необходимо получить номера телефонов, переданных в Office 365 для использования с аудиоконференцией.  |[Свяжитесь с нами](mailto:ptnapac@microsoft.com) |
-|Изменение экстренной адресации назначенной пользователям, которые имеют номер телефона тарифного плана. |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) to make emergency address changes. They can update this information for you.|
+|Изменение экстренной адресации назначенной пользователям, которые имеют номер телефона тарифного плана. |Свяжитесь с [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan) для внесения изменений экстренной адресации. Они могут обновлять эти сведения для вас.|
 |Вам нужно изменить номер телефона пользователя на номер службы. |Этот тип службы не поддерживается в Австралии.
 
 ## <a name="related-topics"></a>См. также:

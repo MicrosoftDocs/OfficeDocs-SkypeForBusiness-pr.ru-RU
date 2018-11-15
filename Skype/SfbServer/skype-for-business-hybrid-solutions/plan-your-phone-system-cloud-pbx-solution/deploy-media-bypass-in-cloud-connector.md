@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Прочтите этот раздел, чтобы узнать о шаги развертывания, что сервера-посредника Edition соединителя облачных версии 2.0 и более поздней версии с.
-ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296304"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531705"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Развертывание обхода сервера-посредника в Cloud Connector Edition
  
@@ -114,7 +114,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 Клиенты будут получать веб-адреса веб-службы обхода сервера-посредника с внутреннего DNS-сервера. Имя веб-службы будет совпадать во всех устройств для облачных соединителя и облачных соединителя PSTN сайтов. В сложной многосайтовой среде рекомендуется использовать политику DNS Windows 2016 для управления трафиком на основе геолокации, благодаря чему клиенты могут перенаправляться в веб-службу, являющуюся локальной для их сети. 
   
-Дополнительные сведения о политиках DNS 2016 Windows [Использовать DNS политику для управления трафика на основе географического расположения, с основным серверами](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location)см.
+Дополнительные сведения о политиках DNS 2016 Windows [Использовать DNS политику для управления трафика на основе географического расположения, с основным серверами](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location)см.
   
 Ниже приведен пример конфигурации для компании с несколькими сайтами с использованием политики DNS Windows 2016 для управления трафиком на основе геолокации.
   

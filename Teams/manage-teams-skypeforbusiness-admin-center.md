@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 38706497fc83cdc5eea4cafb7177d23d55879bf0
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3dec789d31737eeb4585da5e28737a15ca679a5b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295556"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530577"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business
 ======================================================
@@ -41,32 +41,32 @@ ms.locfileid: "26295556"
 
 |Раздел групп в центре администрирования Office 365  |Имя параметра (уровень клиента)  |Группами Майкрософт & Скайп для политики Business центра администрирования   |Уровень: Клиента или пользователя   |
 |---------|---------|---------|---------|
-|Общие     |Показать организационные чата в личный профиль        |  [TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Клиент       |
-|Общие     |Используйте Скайп для получателей, у которых нет команд для бизнеса         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
-|Общие     |Разрешить сообщения упреждающего справки T-роботов         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
-|Интеграция электронной почты     |Разрешить пользователям отправлять сообщения электронной почты с каналами         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
-|Интеграция электронной почты     |Разрешить отправителей списка         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Клиент         |
-|Настраиваемое облачное хранилище     |Поле         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
-|Настраиваемое облачное хранилище     |Общего банка данных        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
-|Настраиваемое облачное хранилище     |Диск Google        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
-|Настраиваемое облачное хранилище     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Общие     |Показать организационные чата в личный профиль        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Клиент       |
+|Общие     |Используйте Скайп для получателей, у которых нет команд для бизнеса         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Общие     |Разрешить сообщения упреждающего справки T-роботов         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Интеграция электронной почты     |Разрешить пользователям отправлять сообщения электронной почты с каналами         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Интеграция электронной почты     |Разрешить отправителей списка         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Клиент         |
+|Настраиваемое облачное хранилище     |Поле         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Настраиваемое облачное хранилище     |Общего банка данных        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Настраиваемое облачное хранилище     |Диск Google        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Настраиваемое облачное хранилище     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
 |Введите параметры пользователя и лицензии     |Включить группами Майкрософт включено или отключено для всех пользователей          |Устаревшие<sup>1</sup>        |         |
 |Команды и каналы     |         |Перенаправляет Azure Active Directory Управление групповой (то же, что текущий взаимодействия).              |Пользователь         |
 |Команды и каналы     |         |Перенаправления на управление группами AAD (то же, что текущий взаимодействия).             |Пользователь          |
-|Звонки и собрания     |Разрешить планирование для частных собраний         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешить meetup Ad-hoc канала         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешить планирование для собраний канала         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешить видео в собраниях         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешение экрана общего доступа в собраниях         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешить частной телефонной         |[TeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Пользователь          |
-|Обмен сообщениями     |Включение Giphy, поэтому пользователи могут добавлять рисунки в формате GIF беседы         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Оценка содержимого         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Включение memes, который пользователи могут редактировать и добавьте беседы         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Включение наклейки, которые пользователи могут редактировать и добавьте беседы         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Разрешить владельцам для удаления всех сообщений         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Разрешить пользователям изменять собственные сообщения         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Разрешить пользователям удалять собственные сообщения         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Позволяет пользователям чата в конфиденциальном режиме         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Звонки и собрания     |Разрешить планирование для частных собраний         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешить meetup Ad-hoc канала         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешить планирование для собраний канала         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешить видео в собраниях         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешение экрана общего доступа в собраниях         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешить частной телефонной         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Пользователь          |
+|Обмен сообщениями     |Включение Giphy, поэтому пользователи могут добавлять рисунки в формате GIF беседы         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Оценка содержимого         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Включение memes, который пользователи могут редактировать и добавьте беседы         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Включение наклейки, которые пользователи могут редактировать и добавьте беседы         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Разрешить владельцам для удаления всех сообщений         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Разрешить пользователям изменять собственные сообщения         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Разрешить пользователям удалять собственные сообщения         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Позволяет пользователям чата в конфиденциальном режиме         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
 
 Больше <sup>1</sup> гостем. Включение и отключение гостевой теперь можно управлять группами Майкрософт и Скайп по центру администрирования бизнес. Включение и отключение групп для предприятий, учебы Edu и не факультета Edu ближайшее время. Это должно осуществляться с назначением лицензий в центре администрирования Office 365. [Управление доступом пользователей к группам Microsoft](user-access.md)см.
 

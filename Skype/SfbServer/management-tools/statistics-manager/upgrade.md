@@ -1,30 +1,29 @@
 ---
-title: Обновление диспетчера статистики в Skype для бизнеса Server 2015
+title: Обновление статистики Manager для Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/10/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: 'Сводка: Прочтите этот раздел, чтобы узнать, как обновление статистики Manager для Скайп для Business Server 2015.'
-ms.openlocfilehash: d10dd5cd92fc0d7dbbb3285c43df78e8149f58c0
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Сводка: Прочтите этот раздел, чтобы узнать, как обновление статистики Manager для Скайп для Business Server.'
+ms.openlocfilehash: f783534c52b59b5910dbd975c4e29642e18b67b7
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295708"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531478"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server-2015"></a>Upgrade Statistics Manager for Skype for Business Server 2015
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Обновление статистики Manager для Скайп для Business Server
  
-**Сводка:** Прочтите этот раздел, чтобы узнать, как обновление статистики Manager для Скайп для Business Server 2015.
+**Сводка:** Прочтите этот раздел, чтобы узнать, как обновление статистики Manager для Скайп для Business Server.
   
 В этом разделе описывается, как обновление существующей установки из диспетчера статистики для Скайп для Business Server — мощное средство, которое позволяет просматривать Скайп для данные о работоспособности и производительности Business Server в режиме реального времени. Опрос данные о производительности на серверах сотни раз в несколько секунд и просмотреть результаты мгновенно на веб-сайт диспетчера статистики. 
   
-Дополнительные сведения о диспетчере статистики и новые возможности версии 1.1 содержатся в разделе [Планирование для диспетчера статистики для Скайп для Business Server 2015](plan.md) и [Развертывание диспетчера статистики для Скайп для Business Server 2015](deploy.md). For information about known issues fixed in Release 1.1, see [Known issues fixed in release 1.1](upgrade.md#BKMK_Fixed).
+Дополнительные сведения о диспетчере статистики и новые возможности в версии 2.0 [для диспетчера статистики для Скайп для Business Server планирование](plan.md) и [Развертывание диспетчера статистики для Скайп для Business Server](deploy.md)см.
   
 Предусмотрено два способа обновления:
   
@@ -100,35 +99,19 @@ ms.locfileid: "26295708"
     >   Оставьте Redis, чтобы данные в кэше сохранились во время обновления.
   
 2. 	Установите новые версии компонентов, при запросах указывая сохраненные ранее значения. Дополнительные сведения об установке компонентов см. в статье [Развертывание диспетчера статистики](deploy.md#BKMK_Deploy).
-    
-## <a name="known-issues-fixed-in-release-11"></a>Известные проблемы, исправленные в выпуске 1.1
-<a name="BKMK_Fixed"> </a>
 
-В выпуске 1.1 исправлены следующие известные проблемы:
-  
-- Пользовательского интерфейса или сервер/агента - многочисленные значительные надежность и производительность
-    
-- Пользовательский Интерфейс - элемент управления фильтра Main теперь сортирует правильно с учетом (приводя людей, учитывайте определенных серверов не были в системе, когда они были)
-    
-- Сервер — компоненты сервера теперь устанавливаются на серверах не на английском языке.
-    
-- Сервер/агент — иногда компоненты агента и сервера не устанавливались, отображая ошибку .NET, из-за определенной версии .NET 4.0. Эта проблема устранена.
-    
-- -Расширенные агента ведения журнала событий, добавлена для агента StatsMan. Агент больше не произойдет сбой при установке на сервере не в топологии, это будет регистрироваться в журнале событий, а также другие возможные условия ошибки.
-    
-- Пользовательский Интерфейс — веб-клиентов с помощью браузера Chrome отображается несколько приглашения входа в систему при с помощью на клиентский компьютер не подключен к же рабочая группа или домен в качестве веб-Статистика диспетчера сервера. Now only a single login should be required per session.
     
 ## <a name="for-more-information"></a>Дополнительные сведения
 <a name="BKMK_Fixed"> </a>
 
 Дополнительные сведения приведены далее.
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
+- [Планирование для диспетчера статистики для Скайп Business Server](plan.md)
     
-- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
+- [Развертывание диспетчера статистики для Скайп for Business Server](deploy.md)
     
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
+- [Устранение неполадок в диспетчер статистики для Скайп Business Server](troubleshoot.md)
     
-- [Блог, посвященный диспетчеру статистики Skype для бизнеса Server](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Блог, посвященный диспетчеру статистики Skype для бизнеса Server](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
     
 

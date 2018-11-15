@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a1fb82f57035f238ce222bf7f21b72983d21075
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4f3145455553c8126d66b3e56b69ec646f5f19ad
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295916"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530698"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams
 ==============================================================
@@ -35,9 +35,17 @@ ms.locfileid: "26295916"
 За счет добавления планов звонков (компонента Office 365 на основе Skype для бизнеса) приложение Teams теперь позволяет делать и принимать звонки на стационарные и мобильные телефоны по телефонной сети общего пользования (ТСОП).
 
 ![Звонки в Teams](media/Calling_in_Teams.png)
-
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Что необходимо для активации вкладки **Звонки** в Teams
-Чтобы включить вкладку **Звонки** в Teams и позволить пользователям совершать и принимать звонки по ТСОП, необходимо подготовить пользователей для использования службы телефонной системы и планов звонков. Соответствующие инструкции см. в разделе [Set up Calling Plans](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans) (Настройка планов звонков).
+Включение вкладки **звонки** в группах пользователи должны иметь 1:1 вызов включено в группах и с помощью команды клиента, вызов команд 1:1. Чтобы узнать, как управлять 1:1 вызов в группах, прочитайте [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Чтобы узнать, какие клиенты поддерживают вызова, ознакомьтесь с [ограничения и характеристики для групп Майкрософт](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams).
+
+> [!NOTE]
+> На данный момент голосовой почты не будут доступны в вкладке звонки, если пользователь включен для вызовов ТСОП. 
+
+## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Необходимые условия для включения панель **Набора номера** в группах
+Для включения вкладки **Панели набора номера** в группах и разрешить пользователям выполнение и прием звонков ТСОП необходимо будет к подготовке пользователей для телефонной системой и вызов планов. Чтобы узнать, как настраивать вызове планы, прочитайте [Set up вызов планы](https://docs.microsoft.com/en-us/microsoftteams/set-up-calling-plans).
+
+> [!NOTE]
+> Разрешить пользователям mand и принимать звонки по ТСОП можно также использовать прямой маршрутизации. Чтобы узнать, как настроить прямой маршрутизации, прочитайте [Настройка прямой маршрутизации](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
 
 ## <a name="teams-interop-policy-configuration"></a>Настройка политики взаимодействия Teams
 Для включения групп начать принимать звонки, вам потребуется обновить команды обновления и политики группы взаимодействия, с помощью [групп Майкрософт & Скайп по центру администрирования бизнеса](https://aka.ms/teamsadmincenter) или с помощью удаленного сеанса Windows PowerShell с Скайп для бизнеса [ `*-CsTeamsUpgradePolicy`и `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) командлеты, можно настроить переадресацию звонков для группы.

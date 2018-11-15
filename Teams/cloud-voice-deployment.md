@@ -13,16 +13,20 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c537f37534c616965b74f5ea268f547cff28d41
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 85e7749bda08b1dbbf7a5afad5fc138facb62940
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294878"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533184"
 ---
 # <a name="cloud-voice-deployment"></a>Развертывание облачной системы голосовой связи
 
 Группами Майкрософт, сервер-концентратор для работы и коммуникации в Office 365, теперь предоставляет звук конференц-связи, телефонной системой с вызова планы и телефонной системой Direct возможности маршрутизации в соответствии с дополнительной бизнес-требований, расширяя собрания групп и вызов качества для включения сторонними подключается с помощью телефонной сети общего пользования (PSTN).
+
+
+> [!Tip] 
+> Просмотрите следующие сеанса основные сведения о телефонных систем: [Знакомство с телефонной системой в группах Майкрософт](https://aka.ms/teams-phone-system)
  
 На этой странице будут обновляться облачных дополнительные функции голосовой связи для групп будут выпущены по времени.
 

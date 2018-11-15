@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294931"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533361"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Облако видео взаимодействия для групп Майкрософт
 
@@ -30,11 +30,11 @@ ms.locfileid: "26294931"
 Следующие партнеры имеют видео взаимодействия решений для групп Майкрософт. Вашей компании могут выбрать для работы с любой комбинацией этих партнеров на предприятии. 
 
 
-|Партнера|Решение партнера|Доступность|
-|----|---|----|
-|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect службы</a> |Доступен для загрузки|
-|![Pexip Infinity](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Infinity Pexip для групп Майкрософт</a> | 19 октября 2018|
-|![BlueJeans шлюз](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Шлюз blueJeans для групп Майкрософт</a> | 31 октября 2018|
+|Партнера|Решение партнера|
+|----|---|
+|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect службы</a> |
+|![Pexip Infinity](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Infinity Pexip для групп Майкрософт</a> | 
+|![BlueJeans шлюз](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Шлюз blueJeans для групп Майкрософт</a> |
 
 ## <a name="partner-solutions"></a>Решения партнеров
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: В следующих разделах рекомендации по настройке среды с несколькими лесами в модель леса ресурса/пользователя для предоставления Скайп для бизнес-функции в гибридном сценарии.
-ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295244"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531554"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Настройте среду нескольких лесов по гибридной среде Скайп для бизнеса
  
@@ -66,7 +66,7 @@ ms.locfileid: "26295244"
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-[Выбранные атрибут ссылки учетной записи](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/) будет использоваться как источник привязки. При наличии различных и постоянные атрибут, который вы хотите использовать, можно сделать это, убедитесь, что изменение правила утверждения службы федерации Active Directory и выберите атрибут во время настройки подключения AAD.
+[Выбранные атрибут ссылки учетной записи](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) будет использоваться как источник привязки. При наличии различных и постоянные атрибут, который вы хотите использовать, можно сделать это, убедитесь, что изменение правила утверждения службы федерации Active Directory и выберите атрибут во время настройки подключения AAD.
   
 Не выполнять синхронизацию между лесами UPN. В результате испытаний было обнаружено, что имена субъектов-пользователей должны быть уникальными для каждого леса пользователей: одно и то же имя субъекта-пользователя не может быть назначено в разных лесах пользователей. Поэтому следовало рассмотреть две возможности: с синхронизацией и без синхронизации имени субъекта-пользователя. 
   
@@ -112,7 +112,7 @@ ms.locfileid: "26295244"
   
 Обратите внимание на то, что для тестового пользователя в AAD Connect распознаны атрибуты sourceAnchor и cloudSourceAnchor из объектов леса пользователей, леса ресурсов и Office 365; в данном случае отображается значение 1101, выбранное ранее для атрибута employeeNumber. Это позволило выполнить объединение и получить показанный выше объект. 
   
-Дополнительные сведения см. в разделе [Интеграция локальных удостоверений с Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/). 
+Дополнительные сведения см. в разделе [Интеграция локальных удостоверений с Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   
 При установке AAD преимущественно применяются значения по умолчанию. Ниже указаны исключения. 
   
@@ -122,7 +122,7 @@ ms.locfileid: "26295244"
     
 3.  Определение пользователей в каталогах локального: выберите **удостоверения пользователей существовать в нескольких каталогах** и выберите атрибуты **ObjectSID** и **msExchangeMasterAccountSID**
     
-4. Определение пользователей в Azure AD: привязки источника — Выбор атрибута выбора после прочтения [Выбор атрибута хороший sourceAnchor](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/), имя участника-пользователя - **userPrincipalName**
+4. Определение пользователей в Azure AD: привязки источника — Выбор атрибута выбора после прочтения [Выбор атрибута хороший sourceAnchor](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), имя участника-пользователя - **userPrincipalName**
     
 5.  Дополнительные функции — выберите ли у вас есть гибридное развертывание Exchange развернут или нет.
     

@@ -10,40 +10,55 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Сводка: Узнайте, как настроить взаимодействие между локальным развертыванием и Скайп для бизнеса в Интернет.'
-ms.openlocfilehash: fb04ecd53c93ae7bd64fca760b752d2d69324c3d
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: db03636d412caa72a3b7a38d0c1d691c83d96a5b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295357"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532779"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Настройка Скайп для гибридных бизнеса
 
 Чтобы настроить Скайп для гибридных бизнеса, необходимо:
 
-- [Настройка федерации](#configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online)
-- [Настройте общее адресное пространство Session Initiation Protocol (SIP)](#configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space)
-- [Настройка проверки подлинности сервер сервер, если необходимо](#configure-server-to-server-authentication-if-required)
-  
-## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a>Для настройки локального пограничного сервера для федерации с Скайп для бизнеса в Интернет
+- [Настройка в локальной среде в федерацию с Office 365.](#configure-your-on-premises-edge-service-to-federate-with-Office-365)
+- [Настройте в локальной среде для управления безопасностью Office 365 и включение общее адресное пространство SIP с помощью Office 365.](#configure-your-on-premises-environment-to-share-your-SIP-address-space-with-Office-365)
+- [Включение общее адресное пространство SIP в клиент Office 365.](#configure-server-to-server-authentication-if-required)
 
-Федерации пользователи в вашем развертывании локальных для взаимодействия с пользователями Office 365 в вашей организации. Для настройки федерации, выполните следующие командлеты в Скайп для консоли Business Server:
+> [!NOTE]
+> Если у вас есть локальную систему Exchange, может потребоваться настройка OAuth между локальную систему Exchange и Скайп для бизнеса в Интернет сред. Для получения дополнительных сведений см. [Управление проверки подлинности сервер сервер в Скайп для Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) и [Планирование интеграции Скайп для бизнеса и Exchange](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
+  
+## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365"></a>Для настройки локального пограничного сервера в федерацию с Office 365
+
+Федерации пользователи в вашем развертывании локальных для взаимодействия с пользователями Office 365 в вашей организации. Для настройки федерации, выполните следующий командлет в Скайп для консоли Business Server:
   
 ```
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -EnablePartnerDiscovery 1 -UseDnsSrvRouting
 ```
 
+
+
+## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365"></a>Настройка в локальной среде для включения общее адресное пространство SIP с помощью Office 365
+
+Также необходимо настроить среду для локальной для управления безопасностью Office 365 и включение общее адресное пространство SIP с помощью Office 365. Это означает, что Office 365 могут обращаться к учетных записей пользователей для тот же набор доменов SIP, как в локальной среде и сообщения могут быть маршрутизацией между пользователями, размещенного на локальном и online.  Это делается путем настройки поставщика услуг размещения с ProxyFqdn=sipfed.online.lync.com, как описано ниже.
+
+Во-первых проверьте, если у вас уже есть поставщика услуг размещения с ProxyFqdn=sipfed.online.lync.com. Если он существует, затем удалите его с помощью следующей команды:
+
 ```
-New-CSHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+Get-CsHostingProvider | ?{ $_.ProxyFqdn -eq "sipfed.online.lync.com" } | Remove-CsHostingProvider
 ```
 
-## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>Настройка вашей Скайп для бизнеса в Интернет для клиентов для общее адресное пространство SIP
+Затем создайте нового поставщика услуг размещения, используйте командлет New-CsHostingProvider следующим образом: 
 
-Адрес по протоколу SIP – это уникальный идентификатор каждого пользователя в сети, подобный номеру телефона или адресу электронной почты. Прежде чем переместить пользователей из локальной Скайп для бизнеса в Интернет, вам потребуются для настройки клиента Office 365 для совместного использования общих Session Initiation Protocol (SIP) адресное пространство с локальным развертыванием. Если оно не настроено, может отображаться следующее сообщение об ошибке.
+```
+New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
+```
+
+ ## <a name="enable-shared-sip-address-space-in-your-office-365-tenant"></a>Включение общее адресное пространство SIP в клиент Office 365
   
-Move-CsUser: Сбой регистр: Error=(510), описания = (клиент этого пользователя не включен для общего адресного пространства sip).
-  
-Чтобы настроить общее адресное пространство SIP, создания удаленного сеанса PowerShell с Скайп для бизнеса в Интернет и затем выполните следующий командлет:
+Помимо изменения, внесенные в локальном развертывании вам потребуется внести соответствующие изменения в клиент Office 365 включено общее адресное пространство SIP с помощью локального развертывания.  
+
+Чтобы включить общее адресное пространство SIP в клиент Office 365, создания удаленного сеанса PowerShell с Скайп для бизнеса в Интернет и затем выполните следующий командлет:
   
 ```
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
@@ -52,31 +67,17 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > Атрибут SharedSipAddressSpace должен иметь значение True вплоть до перемещения в сеть, а в локальной системе не должны остаться пользователи. 
   
-Для создания удаленного сеанса PowerShell с Скайп для бизнеса в Интернет, необходимо сначала установить Скайп для бизнеса в Интернет модуля соединитель для Windows PowerShell, который вы можете получить [здесь](https://go.microsoft.com/fwlink/p/?LinkId=391911).
+Для создания удаленного сеанса PowerShell с группами или Скайп для бизнеса в Интернет, необходимо сначала установить Скайп для бизнеса в Интернет модуля соединитель для Windows PowerShell, который вы можете получить [здесь](https://go.microsoft.com/fwlink/p/?LinkId=391911).
   
 После установки модуля можно запустить удаленный сеанс с помощью следующих командлетов:
   
 ```
-Import-Module SkypeOnlineConnector
-```
-
-```
 $cred = Get-Credential
+Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
 ```
 
-```
-$CSSession = New-CsOnlineSession -Credential $cred
-```
-
-```
-Import-PSSession $CSSession -AllowClobber
-```
-
-Дополнительные сведения о том, как установить удаленный сеанс PowerShell с Скайп для бизнеса в Интернет и использование Скайп в модуле Business Online Connector в разделе [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Дополнительные сведения о том, как установить удаленный сеанс PowerShell с Скайп для бизнеса в Интернет и использование Скайп в модуле Business Online Connector в разделе [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
-## <a name="configure-server-to-server-authentication-if-required"></a>Настройка проверки подлинности сервер сервер, если необходимо
-
-В зависимости от типа гибридной среды, которые вы настраиваете может потребоваться настройка проверки подлинности сервер сервер.  Для получения дополнительных сведений см. [Проверка подлинности сервер сервер управление в Скайп для Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
 
 
 ## <a name="see-also"></a>См. также

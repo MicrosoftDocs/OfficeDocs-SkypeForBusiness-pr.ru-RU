@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Сводка: Развертывание Скайп для бизнеса Web App и использовать приложение Скайп собраний с Скайп для бизнеса.'
-ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 7fabbbbd279e2f72f3468fbe73a55b86e532f6cf
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295116"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531547"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Развертывание веб-загрузки клиентов в Скайп для Business Server
 
-**Сводка:** Развертывание Скайп для бизнеса 2015 веб-приложения и приложения собраний Скайп используется с Скайп для Business Server 2015.
+**Сводка:** Развертывание Скайп для бизнеса 2015 Web App и использовать приложения Скайп собраний с Скайп для Business Server.
 
-Скайп для бизнеса Web App — это клиент web Internet Information Services (IIS), установленной на сервере под управлением Скайп для Business Server 2015 и по умолчанию он будет развернут по запросу пользователям собрания, которые еще не Скайп для клиента Business. Эти пользователи собрания не чаще, чем не подключении за пределами вашей сети. Каждый раз, когда пользователь щелкает URL-адрес собрания, но не имеет Скайп для установки клиента Business, пользователю предоставляется возможность присоединения к собранию с помощью последней версии Скайп для бизнеса веб-приложения или приложения Скайп собрания.
+Скайп для бизнеса Web App — это клиент web Internet Information Services (IIS), установленной на сервере под управлением Скайп для Business Server и по умолчанию он будет развернут по запросу пользователям собрания, которые еще не Скайп для клиента Business. Эти пользователи собрания не чаще, чем не подключении за пределами вашей сети. Каждый раз, когда пользователь щелкает URL-адрес собрания, но не имеет Скайп для установки клиента Business, пользователю предоставляется возможность присоединения к собранию с помощью последней версии Скайп для бизнеса веб-приложения или приложения Скайп собрания.
 
 Голосовой связи, видеозаписи и общего доступа компонентов в Скайп Business Web App требуется элемент управления Microsoft ActiveX, который используется в качестве подключаемый модуль, браузер пользователя. Можно установить элемент управления ActiveX заранее или запретить пользователям устанавливать его при получении запроса, что происходит при первом использовании Скайп для бизнеса Web App или первый раз, они получают доступ к компонента, который требуется элемент управления ActiveX.
 
 > [!NOTE]
-> В Скайп для развертываний пограничного сервера Business Server 2015 HTTPS обратного прокси-сервер в сети периметра необходим для Скайп для бизнес-приложение Web клиентского доступа. Помимо этого, необходимо опубликовать простые URL-адреса. Дополнительные сведения см [Параметр копирование обратного прокси-серверы](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) и [требования к DNS для простых URL-адресов в Скайп для Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> В Скайп для развертываний пограничного сервера Business Server HTTPS обратного прокси-сервер в сети периметра необходим для Скайп для бизнес-приложение Web клиентского доступа. Помимо этого, необходимо опубликовать простые URL-адреса. Дополнительные сведения см [Параметр копирование обратного прокси-серверы](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) и [требования к DNS для простых URL-адресов в Скайп для Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Включение многофакторной проверки подлинности для Скайп для бизнеса Web App
 <a name="MFA"> </a>
@@ -75,7 +75,7 @@ ms.locfileid: "26295116"
 
 Компонент BranchCache в Windows 7 и Windows Server 2008 R2 могут мешать Скайп для веб-компонентов Business Web App. Чтобы предотвратить проблемы для Скайп для пользователей Business Web App, убедитесь, что не включен компонент BranchCache.
 
-Для получения дополнительных сведений об отключении BranchCache можно найти [В руководстве по развертыванию BranchCache](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
+Для получения дополнительных сведений об отключении BranchCache можно найти [В руководстве по развертыванию BranchCache](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Проверка Скайп по развертыванию Web App
 <a name="MFA"> </a>
@@ -133,7 +133,7 @@ ms.locfileid: "26295116"
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Сведения, отправленные Microsoft, строго соответствуют [рекомендациям по сбору данных в Skype для бизнеса](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Сведения, отправленные Microsoft, строго соответствуют [рекомендациям по сбору данных в Skype для бизнеса](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Задайте время ожидания перед попадающих вернуться к локально размещаемого Скайп для бизнес-приложение Web программой Если CDN недоступен. По умолчанию установлено значение 6 с. Если установлено значение 0, никакого времени ожидания не будет.
 

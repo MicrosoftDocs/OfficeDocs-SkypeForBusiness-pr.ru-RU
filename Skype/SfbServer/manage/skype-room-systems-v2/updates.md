@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Управление обновлениями Windows для помещения Скайп систем версии 2
-ms.openlocfilehash: 5765f99a247edcb6287878d4cda1154ec00782f4
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4b1b0bc27be3f8277fde0c641efe5359ca002d65
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294169"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532142"
 ---
 # <a name="manage-windows-updates"></a>Управление обновления Windows
 
@@ -30,13 +30,13 @@ ms.locfileid: "26294169"
 - Качество обновления и драйверы будут автоматической загрузки и установки первого дня. 
 - Обновления для компонента. В разделе Дополнительные примечания ниже. 
 
-## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Обновления Windows для бизнеса](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb) (Объект групповой Политики или Intune)   
+## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Обновления Windows для бизнеса](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (Объект групповой Политики или Intune)   
 - Обновления загружаются из Центра или вашей WSUS, но с настроенного задержек после даты выпуска исходного КБ. 
 - В сочетании с несколькими OU и фильтрации политик, это позволяет создавать развертывания «звонков», где администраторы могут указать, какие устройства сначала установите обновления качество и который таких, предназначенным для установки более поздней версии. Это позволяет для обеспечения надежности и тестирование производительности на подмножество систем перед внедрением обновления в пределах всего развертывания без затрат для примера управление обновлениями Windows в SCCM.
-- WSUS и обновлений Windows для бизнеса может быть [настроен в то же время](https://docs.microsoft.com/en-us/windows/deployment/update/waas-integrate-wufb) , при желании управления пропускной способностью и управления обновлений Windows для бизнеса предоставляет.
+- WSUS и обновлений Windows для бизнеса может быть [настроен в то же время](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) , при желании управления пропускной способностью и управления обновлений Windows для бизнеса предоставляет.
 - Обновления для компонента. В разделе Дополнительные примечания ниже.
 
-## <a name="wsussccmhttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[СЛУЖБЫ WSUS, SCCM](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-configuration-manager)
+## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[СЛУЖБЫ WSUS, SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 - Так же, как Центр обновления Windows для бизнеса, но с дополнительной возможности ориентация конкретных статья БАЗЫ знаний в пределах каждого «звонок» или всего развертывания. Каждое обновление может быть по отдельности развернутое и проверенные на будут, а не только задержки. 
 - Обновления для компонента. В разделе Дополнительные примечания ниже.
 

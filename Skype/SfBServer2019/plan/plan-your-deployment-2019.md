@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Сводка: Изучите эти ссылки на сведения о разработке понятий, логических и физических моделей для настройки Скайп для функций, серверов и топологий Business Server 2019.'
-ms.openlocfilehash: 85b8dc6b4326a565e40331d4ba89cbed1d4edb59
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 83b406401d377d8ffd4b46aee3a5264273bb142b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293574"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531297"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>План для вашей Скайп для развертывания Business Server 2019
  
@@ -34,7 +34,7 @@ ms.locfileid: "26293574"
   
 ||Содержимое|Описание|
 |:--- |:--- |:--- |
-|![Значок видео](https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg)|[Скайп для бизнеса: Краткое введение](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) [Скайп для бизнеса: пошаговое руководство для новых пользователей](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)      |Просмотрите видеопрезентации и обучающие курсы по Скайп для бизнеса.    |
+|![Значок видео](https://docs.microsoft.com/office/media/icons/get-started-blue.svg)|[Скайп для бизнеса: Краткое введение](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) [Скайп для бизнеса: пошаговое руководство для новых пользователей](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)      |Просмотрите видеопрезентации и обучающие курсы по Скайп для бизнеса.    |
    
 ## <a name="articles-about-planning-for-skype-for-business-server"></a>Статьи о планировании для Скайп Business Server
 
@@ -42,7 +42,7 @@ ms.locfileid: "26293574"
   
 |Планирование решений|Планирование архитектуры сервера, клиентов и устройств|
 |:-----|:-----|
-|![Значок для содержимого решений](https://docs.microsoft.com/en-us/office/media/icons/success.svg)   Ознакомьтесь со следующими статьями для определения наилучших решений для организации:    |![Значок для содержимого архитектуры сервера](https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg)   Ознакомьтесь со следующими статьями для планирования архитектуры сервера и поддержки клиента и устройств:    |
+|![Значок для содержимого решений](https://docs.microsoft.com/office/media/icons/success.svg)   Ознакомьтесь со следующими статьями для определения наилучших решений для организации:    |![Значок для содержимого архитектуры сервера](https://docs.microsoft.com/office/media/icons/get-started-blue.svg)   Ознакомьтесь со следующими статьями для планирования архитектуры сервера и поддержки клиента и устройств:    |
 |**[Планирование для обмена мгновенными сообщениями и присутствия в Скайп Business Server](../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md)**<br/><br/> Каковы ваши требования к функции обмена мгновенными сообщениями и присутствия? Хотя обмен мгновенными сообщениями обмена Мгновенными сообщениями и сведения о присутствии и являются включается в каждом Скайп для развертывания сервера Business, вам потребуются для принятия решений о технических требований, обмена данными с внешними пользователями и архивации. <br/> | **[Требования к системе для Скайп для Business Server 2019](system-requirements.md)**  <br/> **[Plan network requirements for Skype for Business](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md)**<br/> <br/>  Может потребоваться в прочитайте следующие разделы, чтобы определить необходимые условия для Скайп для Business Server.    |
 |**[Планирование корпоративной голосовой связи в Скайп Business Server](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)** <br/><br/>Каковы ваши требования к голосовой связи? Определите, как интегрировать к телефонной системе организации с вашей Скайп для развертывания Business Server. <br/> Корпоративная голосовая связь является самым полным предложением голосовой связи — решение VoIP предоставляет широкий набор функций, включая интеграцию с Outlook и Exchange.<br/>Звонок с помощью рабочих предоставляет способ для интеграции с вашей существующий телефон УАТС вашей Скайп для решения бизнес.   |**[Основные сведения о топологии для Скайп для Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)** <br/><br/>Прежде чем начинать подготовку других действий, наверняка хотели бы знать, что планируется для правой топологии для развертывания Скайп для Business Server. Первое, что вам необходимо решить — Если вы собираетесь имеют локальное развертывание Скайп для Business Server, или если вы собираетесь сопоставляя Скайп Business Server Online развертывания в гибридном развертывании. Ознакомьтесь с темами в данном разделе для планирования топологии и сценариев совместного размещения.   |
 |**[Планирование для видео взаимодействия сервера в Скайп Business Server](../../SfbServer/plan-your-deployment/video-interop-server.md)** <br/><br/>Каковы требования к видеосвязи в вашей организации? Скайп для видео взаимодействия Business Server Server можно интегрировать непосредственно с системами телеконференций Cisco (VTCs). <br/>Ознакомьтесь с видеофункциями и техническими требованиями.   |**[Миграция на Скайп для Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md)** <br/> <br/>Выполняется обновление предыдущей версии Lync Server или Скайп для бизнеса? Найдите информацию о способе планирования обновления.   |
@@ -58,6 +58,6 @@ ms.locfileid: "26293574"
   
 ||**Содержимое**|**Описание**|
 |:--- |:--- |:--- |
-|![Значок для DMC](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Skype для бизнеса Server для ИТ-специалистов](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Посетите центры docs.microsoft.com и ресурсов для видеоролики о access, сайты сообществ, документацию, файлы для загрузки и др.    |
-|![Значок для содержимого разработчиков](https://docs.microsoft.com/en-us/office/media/icons/developer-blue.svg)|[Платформа разработчика Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   |Ресурсы разработчика для Скайп для Business Server, включая примеры кода, обучение и пакеты SDK.    |
-|![Значок для новостей, блогов и т. д.](https://docs.microsoft.com/en-us/office/media/icons/blog-site-blue.svg)|[Управление изменениями и внедрения](https://go.microsoft.com/fwlink/p/?LinkId=532796) [Блоги по Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) [Технический блог по Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) [Блог группы разработчиков Скайп](https://go.microsoft.com/fwlink/p/?LinkId=532818)            |Следите новостями от групп, создающих и документа Скайп для Business Server.    |
+|![Значок для DMC](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype для бизнеса Server для ИТ-специалистов](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Посетите центры docs.microsoft.com и ресурсов для видеоролики о access, сайты сообществ, документацию, файлы для загрузки и др.    |
+|![Значок для содержимого разработчиков](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Платформа разработчика Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   |Ресурсы разработчика для Скайп для Business Server, включая примеры кода, обучение и пакеты SDK.    |
+|![Значок для новостей, блогов и т. д.](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[Управление изменениями и внедрения](https://go.microsoft.com/fwlink/p/?LinkId=532796) [Блоги по Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) [Технический блог по Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) [Блог группы разработчиков Скайп](https://go.microsoft.com/fwlink/p/?LinkId=532818)            |Следите новостями от групп, создающих и документа Скайп для Business Server.    |

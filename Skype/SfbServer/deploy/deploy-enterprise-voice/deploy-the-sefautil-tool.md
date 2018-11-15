@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Развертывание средства SEFAUtil в Скайп для Business Server.
-ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 1b2f981a438b71b44eb5d4c760e98d1d777f7235
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295890"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532786"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Развертывание средства SEFAUtil в Скайп для бизнеса
  
@@ -40,11 +40,15 @@ ms.locfileid: "26295890"
     
 2. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
     
-3. The SEFAUtil tool can be run only on a computer that is part of a trusted application pool. При необходимости, определение пула доверенных приложений для пула переднего плана, если вы планируете выполнить SEFAUtil. At the command line, run:
+3. The SEFAUtil tool can be run only on a computer that is part of a trusted application pool. При необходимости, определение пула доверенных приложений для пула переднего плана, если вы планируете выполнить SEFAUtil. В командной строке выполните следующую команду:
     
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
+    > [!NOTE]
+    > Полное доменное имя пула: Полное доменное имя сервера или пула, в котором будет размещаться приложение SEFAUtil (обычно Скайп для сервера переднего плана Business или пула).
+    > Полное доменное имя пула регистратора: Полное доменное имя Скайп для сервера переднего плана Business или пула, связанного с этого пула приложений.
+    > Сайт группы: Идентификатор сайта сайта, на котором размещаются в этом пуле.
 
 4. Определите инструмент SEFAUtil как доверенное приложение. В командной строке выполните следующую команду:
     

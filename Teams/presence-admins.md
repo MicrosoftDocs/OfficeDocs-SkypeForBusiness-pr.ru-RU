@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7f6ef1e7c20e4cc08d021d30a7b52062f08a2ac
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 1934a602d89240c89ffb4f7410192d19a7dd2e61
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296337"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533028"
 ---
 # <a name="user-presence-in-teams"></a>Сведения о присутствии пользователя в группах
 
@@ -66,3 +66,8 @@ ms.locfileid: "26296337"
 
 > [!NOTE]
 > Возможность команды администратора настроить эти параметры в настоящее время не поддерживается.
+
+
+## <a name="coexistence-with-skype-for-business"></a>Совместная работа с Скайп для бизнеса
+
+Для получения дополнительных сведений на действия группы присутствия при Сосуществование с Скайп для бизнеса в разделе [Совместная работа с Скайп для бизнеса](coexistence-chat-calls-presence.md) . 

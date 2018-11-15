@@ -28,18 +28,18 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: d669e6a64efe3d31b7259a3c7f7eabd447d95a65
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: 8c0e287671e3131ed9b155205e90ebe6456a743b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502368"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531177"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
 Можно выбрать страны или региона, чтобы узнать, какие функции голосовой связи облако для вашей организации.
 ***
-## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Выберите страны или региона, чтобы увидеть, доступных для вашей организации.
+## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Выберите страну или регион, в список доступных для вашей организации
 
 > [!div class="op_single_selector"]    
 > - [Аргентина](availability-in-argentina.md)

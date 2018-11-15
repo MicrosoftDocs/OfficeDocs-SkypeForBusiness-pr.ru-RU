@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: Настройка тестовых учетных записей пользователей и параметры узла наблюдателя для Скайп для искусственных транзакций Business Server.'
 ms.openlocfilehash: 3348d0407321ca53a771e2783b0f27c6463143f4
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216145"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26536062"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Настройка тестовых пользователей узла-наблюдателя и параметров
  

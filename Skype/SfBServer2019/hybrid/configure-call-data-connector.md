@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Инструкции по настройке вызова подключения к данным, что позволяет телеметрии из Скайп for Business локально, чтобы просмотреть с помощью Скайп для бизнеса в Интернет средства.
-ms.openlocfilehash: adc1c9a1e50130796c4749a958e9030c10a09fd0
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 959bb182da91029fd43ebc3ccb99fb5a69d820b2
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293618"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533136"
 ---
 # <a name="configure-call-data-connector"></a>Настройка подключения к данным звонка
 
@@ -46,7 +46,7 @@ ms.locfileid: "26293618"
 
 ### <a name="configure-your-environment"></a>Настройка среды 
 
-Для настройки среды для разрешения сборщик данных через Интернет, необходимо сначала войти к Скайп для бизнеса Online PowerShell с правами администратора. Дополнительные сведения можно [Управлять Скайп для бизнеса в Интернет с помощью Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+Для настройки среды для разрешения сборщик данных через Интернет, необходимо сначала войти к Скайп для бизнеса Online PowerShell с правами администратора. Дополнительные сведения можно [Управлять Скайп для бизнеса в Интернет с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 Существует два метода для входа систему Скайп для бизнеса Online PowerShell.
 
@@ -135,7 +135,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>Просмотр локальных данных через Интернет панели мониторинга
 
- После включения вызова подключения к данным можно просмотреть данные вызова в локальной на панели мониторинга вызова аналитики, как описано в [Аналитике вызова используется для устранения неполадок плохого качества](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
+ После включения вызова подключения к данным можно просмотреть данные вызова в локальной на панели мониторинга вызова аналитики, как описано в [Аналитике вызова используется для устранения неполадок плохого качества](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
 
 
 ## <a name="for-more-information"></a>Дополнительные сведения

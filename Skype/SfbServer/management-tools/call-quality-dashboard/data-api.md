@@ -1,28 +1,27 @@
 ---
-title: Данные API для панели мониторинга качества звонков (CQD) в Скайп для Business Server 2015
+title: Данные API для мониторинга качества звонков (CQD) в Скайп для Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 'Сводка: Сведения о была исчерпана при использовании API для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.'
-ms.openlocfilehash: e48d1a6719f77e5f91167aa76ce4f58704883fc9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Сводка: Сведения о была исчерпана при использовании API для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
+ms.openlocfilehash: 0af168c46e8b2732d5c967550391ab52459ddf95
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293848"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531759"
 ---
-# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>Данные API для панели мониторинга качества звонков (CQD) в Скайп для Business Server 2015
+# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Данные API для мониторинга качества звонков (CQD) в Скайп для Business Server
  
-**Сводка:** Сведения о была исчерпана при использовании API для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server 2015.
+**Сводка:** Сведения о была исчерпана при использовании API для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.
   
-Data API предоставляет программный доступ к панели мониторинга качества звонков для Скайп для Business Server 2015.
+Data API предоставляет программный доступ к панели мониторинга качества звонков для Скайп для Business Server.
   
 ## <a name="data-api-for-call-quality-dashboard"></a>Данные API для панели мониторинга качества звонка
 

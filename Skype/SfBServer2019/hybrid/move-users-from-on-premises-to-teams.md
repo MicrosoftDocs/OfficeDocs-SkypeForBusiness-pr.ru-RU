@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Сводка: Узнайте, как перенос параметров пользователя и перемещение пользователей в группы.'
-ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: af0867bfdc2e12a248baf7cc07746845154d27fd
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293567"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533143"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Перемещение пользователей из локальной группы
 
@@ -79,7 +79,7 @@ New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”
 -  **Перенос пользователей с помощью функции телефонии.** Пользователи могут выполнение и прием звонков с помощью команды клиента.  Вы можете вызов планирование Microsoft или прямой маршрутизации для подключения к группам служб телефонии.  
 
     -  Вызов планирование Майкрософт предоставляет решение все-в--облачной голосовой связи. Дополнительные сведения о вызове планирование Microsoft ссылка (готовится к выпуску). 
-    -  Прямое маршрутизации позволяет использовать практически любого магистрали ТСОП и можно настроить взаимодействие между владении клиента телефонное оборудование и телефонной системой Microsoft.  Для получения дополнительных сведений см [Планирование прямого](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan) и [Настроить прямое маршрутизации](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure).
+    -  Прямое маршрутизации позволяет использовать практически любого магистрали ТСОП и можно настроить взаимодействие между владении клиента телефонное оборудование и телефонной системой Microsoft.  Для получения дополнительных сведений см [Планирование прямого](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan) и [Настроить прямое маршрутизации](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure).
 
 -  **Перенос пользователей без возможности телефонной связи.** Если производится перенос пользователей без сохранения функции телефонии, убедитесь, что пользователи имеют соответствующие лицензий в облаке. 
 
@@ -100,7 +100,7 @@ Move-CsUser -Identity user0 -Target sipfed.online.lync.com -moveToTeams -credent
 ($cred = get-учетные данные. Необходимо предоставить учетные данные администратора Office 365.)
 
 > [!NOTE]
-> Эта команда показана TeamsInteropPolicy групп и TeamsUpgradePolicy на TeamsOnly режим. 
+> Эта команда задает TeamsUpgradePolicy в режим TeamsOnly. 
  
 После успешного завершения перемещения по группам, Скайп пользователя для клиента Business будет отображаться следующее сообщение: 
 

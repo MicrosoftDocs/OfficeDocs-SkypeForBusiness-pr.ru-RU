@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Централизованный поиск обновлений Skype для бизнеса Server 2015 и Lync 2013, а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 651d6c730fb8555ab4c478e51f69e3143031b00c
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6bc575a5f2ae981a6f3ea613f8a262d048c5fde0
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294039"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531619"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -230,6 +230,6 @@ ms.locfileid: "26294039"
 
 ## <a name="related-topics"></a>Связанные разделы
 
-- [Установка Skype для бизнеса Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)
-- [Обновление до Skype для бизнеса Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [Установка Skype для бизнеса Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
+- [Обновление до Skype для бизнеса Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
 - [Последние обновления версий Skype для бизнеса, в которых используется установщик Windows (MSI)](sfb-client-updates.md)

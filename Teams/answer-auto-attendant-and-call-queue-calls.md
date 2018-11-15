@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b176131cd8c491916f8b934daa763e62a9bf2a8
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 7b0b533020def2e344991fa758304888c8166436
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294707"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530948"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Ответ автосекретаря и вызвать очереди звонки непосредственно из рабочих групп
 ===========================================================
@@ -54,12 +54,12 @@ ms.locfileid: "26294707"
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Настройка auto attendant и вызова поддержки очереди для групп Майкрософт
 
-Для получения автосекретаря и вызов очереди вызовов на группами Майкрософт, необходимых для настройки политики взаимодействия и обновление политики. Ознакомьтесь с [миграции и взаимодействия для организаций, с помощью команды Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md). У вас нет автосекретаря и/или очереди вызовов настроена и вы хотите этого, в статье [Настройка автосекретаря телефонной системой](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) и [Создание очереди вызовов с телефонной системой](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+Для получения автосекретаря и вызов очереди вызовов на группами Майкрософт, необходимых для настройки политики взаимодействия и обновление политики. Ознакомьтесь с [миграции и взаимодействия для организаций, с помощью команды Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md). У вас нет автосекретаря и/или очереди вызовов настроена и вы хотите этого, в статье [Настройка автосекретаря телефонной системой](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) и [Создание очереди вызовов с телефонной системой](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ## <a name="related-topics"></a>Связанные разделы
 
 -   [Что такое телефонной системой в Office 365](what-is-phone-system-in-office-365.md)
--   [Создание очереди звонков в телефонной системе](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Создание очереди звонков в телефонной системе](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 -   [Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
--   [Настройка автосекретаря телефонной системы](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Настройка автосекретаря телефонной системы](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
