@@ -13,16 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8529adfafcac9e00bf97dc358944d83f31cd7722
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5becca716ad4790cc0b156dd15895e66fea7d836
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371860"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539043"
 ---
 # <a name="plan-for-governance-in-teams"></a>Планирование управления в группах
 
 Команды предоставляет набор средств для реализации любой функциональные возможности управления, которые может потребоваться вашей организации. В данной статье описывается ИТ-специалистов, чтобы задать вопросы вправо для определения их требования для управления, а также в соответствии с их. 
+
+> [!Tip] 
+> Просмотрите следующие сеанса, чтобы узнать больше об управлении в группах Microsoft: [Управление, управления и жизненного цикла в группах Майкрософт](https://aka.ms/teams-governance)
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>Создание группы и группы, именования, классификации и доступ в качестве гостя
 

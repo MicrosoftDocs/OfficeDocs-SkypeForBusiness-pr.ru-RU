@@ -7,7 +7,7 @@
 ### [Обновления клиента](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Обновления сервера](../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
-## Гибридные решения
+## Гибридные решения для групп и Скайп для бизнеса
 ### [Планирование гибридного подключения](../hybrid/plan-hybrid-connectivity.md)
 ### [Настройка гибридного подключения](../hybrid/configure-hybrid-connectivity.md)
 #### [Настройка подключения Azure AD для гибридных средах](../hybrid/configure-azure-ad-connect.md)
@@ -15,6 +15,7 @@
 #### [Настройте среду нескольких лесов](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Перемещение пользователей из локальной Скайп для бизнеса в Интернет](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [Перемещение пользователей из локальной группы](../hybrid/move-users-from-on-premises-to-teams.md)
+### [Интеграция с Exchange и SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 ## Планирование
 ### [Основы топологии](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

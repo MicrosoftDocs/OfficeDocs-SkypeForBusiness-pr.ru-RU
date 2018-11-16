@@ -20,17 +20,18 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Просмотрите инструкции по изменению адреса для экстренного реагирования для пользователя для работы с телефонной сетью общего пользования (PSTN) в США и Европе. '
-ms.openlocfilehash: e27ea228972ceead0838cff481a0db983c503b02
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Как изменить экстренных адрес для пользователя для работы с общей переключения телефонной сети общего пользования (PSTN) в США и Европе. '
+ROBOTS: NOINDEX
+ms.openlocfilehash: 8dac43120fafa1a98e441b983b673e78d2a24d75
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347104"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26538962"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Изменение адреса для экстренного реагирования для пользователя
 
-При установке тарифных планов в Office 365, необходимо назначитьадрес для экстренного реагирования для каждого номера телефона или пользователя. В странах Европы адрес для экстренного реагирования связан с номером телефона при переходе с Office 365 или при перемещении номера телефона по Office 365. В Соединенных Штатах Америки адрес для экстренного реагирования связан с номером телефона при назначении пользователя. Адрес для экстренного реагирования может быть изменен, если пользователь, которому он назначен перемещается в новое местоположение. Дополнительные сведения о экстренных адресов и размещения см [Каковы местоположении для экстренных служб, адресов и маршрутизации вызовов?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+When you are setting up Calling Plans in Office 365, you will need to assign an emergency address to each phone number or user. In European countries, the emergency address is associated with the phone number when you get it from Office 365 or when you transfer a phone number over to Office 365. In the United States, the emergency address is associated with the phone number when it is assigned to the user. The emergency address can be changed if the user it is assigned to moves to a new location. For more about emergency addresses and locations, see [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
 Чтобы узнать о том, как получить тарифные планы Office 365 и их стоимость, см. раздел [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -56,7 +57,7 @@ ms.locfileid: "25347104"
 7. В разделе **Изменить экстренных адрес для**введите название города, в поле и нажмите кнопку **Найти**.
     
     > [!IMPORTANT]
-    > Можно изменить только уже проверенный адрес для экстренного реагирования. Чтобы изменить адрес для экстренного реагирования, который еще не был проверен, удалите его и создайте другой адрес для экстренного реагирования. 
+    > You can only change an emergency address that has already been validated. To change an emergency address that hasn't been validated, delete it and create another emergency address. 
   
 8. Выберите новый адрес для экстренного реагирования в списке и нажмите кнопку **Сохранить**.
     

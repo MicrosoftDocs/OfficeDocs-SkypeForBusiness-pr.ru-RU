@@ -1,30 +1,30 @@
 ---
-title: Вход на портал группами Майкрософт
+title: Вход на портал группами Майкрософт, с помощью современных проверки подлинности
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/23/2018
+ms.date: 11/15/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Руководство для вход с использованием групп Майкрософт с использованием современных проверки подлинности.
+description: Как выполнить вход на группами Майкрософт с использованием современных проверки подлинности.
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7e0f77ee5a98a8c4f28798709dcbc063424ec03
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 01ca138aebae8d0db731118baf3e340aa3332120
+ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011891"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26544374"
 ---
-<a name="sign-in-to-microsoft-teams"></a>Вход на портал группами Майкрософт
+<a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Вход на портал группами Майкрософт, с помощью современных проверки подлинности
 ==========================
 
-Группами Майкрософт используется современных проверки подлинности для хранения интерфейс входа простой и безопасный.
+Группами Майкрософт используется современных проверки подлинности для хранения интерфейс входа простой и безопасный. Чтобы просмотреть, как пользователи выполняют вход группы, прочитайте [войти в группы](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
 ## <a name="how-modern-authentication-works"></a>Как современные выполняется проверка подлинности
 

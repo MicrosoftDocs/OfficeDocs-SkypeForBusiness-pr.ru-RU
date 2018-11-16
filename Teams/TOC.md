@@ -178,7 +178,7 @@
 ## [Обзор обеспечения безопасности и соответствия в Teams](security-compliance-overview.md)
 ## [Обнаружение электронных данных в Teams](ediscovery-investigation.md)
 ## [Модели удостоверений и проверка подлинности в Microsoft Teams](identify-models-authentication.md)
-## [Современный проверки подлинности](sign-in-teams.md)
+## [Войдите в современном проверки подлинности с помощью команды](sign-in-teams.md)
 ## [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
 ## [Поиск событий Teams в журнале аудита](audit-log-events.md)
 ## [Поиск контента в Teams](content-search.md)
