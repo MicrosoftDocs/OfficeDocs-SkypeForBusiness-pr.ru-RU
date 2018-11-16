@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73c2163557706066f079f3ce61c1d4d3c58ed906
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 21a55aed41443ed0a1411384579cfad2acda7de5
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533129"
+ms.locfileid: "26538971"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -165,6 +165,7 @@ ms.locfileid: "26533129"
                         <h3>Планирование и развертывание</h3>
                          <p><a href="quick-start-enable-teams.md">Quick start: Teams planning guide (Краткое руководство. Руководство по планированию Teams)</a></p>
                          <p><a href="http://aka.ms/teams-clients">Видео: Клиент рабочего стола групп Windows</a></p>
+                         <p><a href="http://aka.ms/teams-governances">Видео: Управление, управления и жизненного цикла в группах Майкрософт</a></p>
                     </div>
                 </div>
             </div>
