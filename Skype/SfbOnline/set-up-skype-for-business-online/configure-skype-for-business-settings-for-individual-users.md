@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Узнайте, как изменить Скайп для бизнеса параметры для отдельных пользователей, таких как: аудио- и видеоконференций, собраний и регистрации вызовов. '
-ms.openlocfilehash: e686e42771b22d7c8d8b21ac05998bbbd5f9ad7e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9dde738431e8afac4837b6f4bcab9b955787927a
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532554"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561689"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей
 
@@ -67,7 +67,7 @@ ms.locfileid: "26532554"
 |Запись бесед и собраний  <br/> |Выберите, что этот человек разрешается вести запись.  <br/> Этот параметр недоступен с Скайп для базовой бизнеса.  <br/> |
 |Для соответствия требованиям отключите не архивируются функции  <br/> | Выберите этот параметр, если вы закону, чтобы сохранить электронных. <br/>  При выборе этого параметра отключает функции, которые не регистрируются при наличии [Хранения на месте](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) настройки в центре администрирования Exchange. Отключает следующие функции: <br/>  Передача файлов через службу мгновенных сообщений <br/>  Общие страницы OneNote <br/>  Примечания PowerPoint <br/> |
    
-Чтобы настроить эти параметры в пакетном режиме, с помощью PowerShell. См.: [Управление политики в Скайп для бизнеса в Интернет](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
+Чтобы настроить эти параметры в пакетном режиме, с помощью PowerShell. В разделе [Настройка компьютера для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="block-external-communications"></a>Блокировать внешней связи
 <a name="__toc325019206"> </a>
@@ -84,7 +84,7 @@ ms.locfileid: "26532554"
     
 3. Нажмите кнопку **Сохранить**.
     
-Чтобы настроить эти параметры в пакетном режиме, с помощью PowerShell. В разделе [Управление коммуникаций в Скайп для бизнеса в Интернет с помощью внешних пользователей и организаций](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
+Чтобы настроить эти параметры в пакетном режиме, с помощью PowerShell. В разделе [Настройка компьютера для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Изменение параметров звукового конференц-связи для одного пользователя
 <a name="__toc314837483"> </a>
@@ -100,7 +100,7 @@ ms.locfileid: "26532554"
 |**Бесплатный номер** <br/> |Для ACP сторонних производителей эти номера телефонов, из них, полученные от поставщика аудиоконференций. Если пользователь выбрал Microsoft в качестве поставщика аудиоконференций, это будут номера, заданные для канала аудиоконференций. Форматирование чисел, как они отображаются в Скайп для бизнеса и группами Майкрософт приглашения на собрания.  <br/> |
 |**Идентификатор конференции и ПИН-кода** (обязательно) <br/> |Участник ПИН-код или конференции код, используется для присоединения к собраниям, запланированных данным пользователем и предоставляются от поставщика аудиоконференций сторонних производителей. Если пользователь использует Microsoft в качестве поставщика аудиоконференций, это не требуется указать.  <br/> |
    
-Чтобы настроить эти параметры в пакетном режиме, с помощью PowerShell. В разделе [Задайте телефона, номера, находящимся на приглашает](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md).
+Чтобы настроить эти параметры в пакетном режиме, с помощью PowerShell. В разделе [Задайте телефона, номера, находящимся на приглашает](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) [Настройка компьютера для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]

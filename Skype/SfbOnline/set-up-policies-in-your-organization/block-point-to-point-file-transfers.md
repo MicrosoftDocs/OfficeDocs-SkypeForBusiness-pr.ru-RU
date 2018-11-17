@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: В Скайп для бизнеса в Интернет у вас есть возможность управления передачу файлов между узлами (P2P) как часть существующие параметры политики конференц-связи. Тем не менее это позволяет или передача для пользователей, ли они передачу файлов, пользователь, который находится в пределах той же организации или федеративного пользователя из другой организации файлов блоки. Следующие шаги можно заблокировать P2P передачи файлов с федеративными организациями или партнеров.
-ms.openlocfilehash: 6ca79b45c4e068ae6999db24cf6a0dd54e9e3aa6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7128de070e13a1c4fc62ba12e05c1fffb3595467
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372106"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561669"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Блокировка передачи файлов точка-точка
 
@@ -40,7 +40,7 @@ ms.locfileid: "25372106"
   
 Чтобы выполнить эту операцию, пользователя необходимо включить поддерживаемая версия Скайп Click-to-Run 2016 для бизнес-приложение, которое поддерживает его. Следующие Минимальная версия Скайп для клиента Business 2016 Click-to-Run является обязательным:
   
-|**Тип**|**Дата выпуска**|**Версия**|**Построение**|
+|**Тип**|**Дата выпуска**|** Версия**|**Построение**|
 |:-----|:-----|:-----|:-----|
 |Первый выпуск для текущего канала  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Версия 1611 (сборка 7571.2006)  <br/> |
 |Текущая платформа канала  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Версия 1611 (сборка 7571.2072)  <br/> |
@@ -53,7 +53,7 @@ ms.locfileid: "25372106"
 
 - **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
     
-1. Чтобы убедиться, что выполняется версия 3.0 или более поздняя версия, зайдите в **Меню "Пуск"** > **Windows PowerShell**.
+1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
 2. Проверка версии с помощью следующей команды _Get-узел_ в окне **Windows PowerShell** .
     
@@ -65,7 +65,7 @@ ms.locfileid: "25372106"
     
 - **Запуск сеанса Windows PowerShell**
     
-1. Из **меню "Пуск"** > **Windows PowerShell**.
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     
@@ -79,7 +79,7 @@ ms.locfileid: "25372106"
     Import-PSSession $session
    ```
 
-   Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [подключение к Скайп для бизнеса в Интернет с помощью Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [настроить компьютер для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>Отключение P2P передачу файлов для вашей организации
 

@@ -1,5 +1,5 @@
 ---
-title: Вопросы и ответы по - обновления реализация из Скайп для бизнеса для групп Майкрософт - группами Майкрософт
+title: Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6371e0a13bc029706b25cdb576602f18ab9b43b0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e733d38bf914080274332abfffbd33c5eaddba50
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533151"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561742"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "26533151"
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Существует ли крайний срок, к которому клиентам требуется перейти со Skype для бизнеса Online на Teams?
 
-Мы доступна Наш план для групп клиентов можно оценить возможности для групп, относящиеся к их потребности и планирование такого перехода к группам. Клиенты могут определить сроки перехода на Teams, исходя из своих потребностей. Это отличный способ для Оставайтесь в курсе новостей о пути между Скайп для бизнеса группам, [Скайп для бизнеса в Microsoft групп возможностях стратегия](https://aka.ms/skype2teamsroadmap)— документ в формате PDF (в только на английском языке, по крайней мере в данный момент), который предоставляет текущих оценках корпорации Майкрософт о Скайп возможности Business готовится к группам.
+Клиенты могут определить сроки перехода на Teams, исходя из своих потребностей. Для клиентов, весьма Готово к обновлению они по-прежнему воспользоваться преимуществами групп, внедрив наряду с Скайп для бизнеса. Дополнительные сведения, ознакомьтесь с [понять, групп и Скайп для взаимодействие и сосуществование бизнеса](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Что ждет Skype для бизнеса Server?
 

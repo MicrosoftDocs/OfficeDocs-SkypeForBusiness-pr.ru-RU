@@ -3,25 +3,24 @@ title: Что, удаленные из Скайп для Business Server 2019
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/10/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: Эти возможности были удалены из Скайп для Business Server 2019.'
-ms.openlocfilehash: 66366c2272db8d6f605fde6dc066f730543883b6
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530544"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561613"
 ---
-# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Что, удаленные из Скайп для Business Server 2019 
+# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Что, удаленные из Скайп для Business Server 2019
 
 Сведения о возможностях и функциях, которые не поддерживаются в Скайп для Business Server 2019. Сведения о новых возможностях в Скайп Business Server 2019 [возможности Скайп для Business Server 2019](whats-new.md)см.
 
-Некоторые возможности отзыва emphasised включены в Скайп Business Server 2019 для совместимости с предыдущими версиями продукта. 
+Некоторые возможности отзыва emphasised включены в Скайп Business Server 2019 для совместимости с предыдущими версиями продукта.
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Функции не поддерживаются в Скайп для Business Server 2019 
 
@@ -31,12 +30,11 @@ ms.locfileid: "26530544"
 
 Скайп Business Server 2015 и ее предшественников позволяет настроить прокси-сервер расширяемая системы обмена сообщениями и присутствия протокола XMPP на пограничном сервере и шлюз XMPP на сервере переднего плана или интерфейсный пул. Эта функция больше не доступен в Скайп для Business Server 2019.
 
-
 ### <a name="persistent-chat-for-skype-for-business-server"></a>Сохраняемый чат для Скайп для Business Server
 
 Persistent Chat Server является дополнительной ролью, которая позволяет нескольким пользователям в вашей организации участвовать в беседах комнаты чата, сохраняющиеся во времени. Сохраняемый чат нельзя развернуть, с Скайп для Business Server 2019. Эта роль сервера удалена построителя топологий, а также из кода. 
 
-Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams).   
+Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams).
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>Зеркальное отображение SQL для Скайп для Business Server
 
@@ -46,7 +44,7 @@ Persistent Chat Server является дополнительной ролью,
 
 Обновления на месте были доступны в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Параллельное поддерживается обновления и сосуществования, [перехода на Скайп для Business Server 2019](migration/migration-to-skype-for-business-server-2019.md) более подробные сведения.
 
-###  <a name="mobility-service-mcx"></a>Служба мобильной связи (Mcx)
+### <a name="mobility-service-mcx"></a>Служба мобильной связи (Mcx)
 
 Мобильной работы службы поддержки для устаревших мобильных клиентов больше не доступен в Скайп для Business Server 2019. Это был ранее объявлена в Скайп Business Server 2015.
 

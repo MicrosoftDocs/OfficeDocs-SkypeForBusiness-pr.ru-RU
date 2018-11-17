@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Прочтите этот раздел, чтобы узнать о шаги развертывания, что сервера-посредника Edition соединителя облачных версии 2.0 и более поздней версии с.
-ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a764c17af7c23d27305f9e2f3e88eaed6edc33cf
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531705"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561916"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Развертывание обхода сервера-посредника в Cloud Connector Edition
  
@@ -32,7 +32,7 @@ ms.locfileid: "26531705"
   
 Администратор клиента должен настроить запись DNS A во внутренней рабочей среде Active Directory. Если у вас есть сложных сред нескольких сайтах, см в [Пример: веб-узла DNS-записей в сложных средах с несколькими веб-посредника](deploy-media-bypass-in-cloud-connector.md#Example). Эта запись DNS должна разрешаться только для внутренних, а не для внешних клиентов сети.
   
-После настройки DNS подключитесь к Skype для бизнеса Online с использованием удаленной среды PowerShell, указав учетные данные администратора Skype для бизнеса. Дополнительные сведения см. в статье [Подключение к Skype для бизнеса Online с использованием Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+После настройки DNS подключитесь к Skype для бизнеса Online с использованием удаленной среды PowerShell, указав учетные данные администратора Skype для бизнеса. Дополнительные сведения можно [настроить компьютер для Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
 В сеансе PowerShell введите следующие команды, чтобы разрешить обход сервера-посредника.
   

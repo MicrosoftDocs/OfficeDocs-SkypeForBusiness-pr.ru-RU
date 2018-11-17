@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Скайп для бизнеса в Интернет позволяет создавать политики дополнительные внешнего доступа. В отличие от клиента или конференц-связи политик, где может иметь несколько комбинаций, существует три политики предварительно заданных внешнего доступа, которые могут охватывать большинство сценариев.
-ms.openlocfilehash: ad40319330a66c1f0ec141531ae0ccb16a01ae07
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a822e09875bbef1fcd1472ac988a32cadfaf5850
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372604"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561699"
 ---
 # <a name="create-custom-external-access-policies"></a>Создание настраиваемых политик внешнего доступа
 
@@ -38,7 +38,7 @@ ms.locfileid: "25372604"
   
 Чтобы выполнить эту операцию, пользователю необходимо включить поддерживаемая версия 2016 Click-to-Run Скайп для бизнес-приложение, которое поддерживает его. Следующие Минимальная версия Скайп для клиента Business 2016 Click-to-Run является обязательным:
   
-|**Тип**|**Дата выпуска**|**Версия**|**Построение**|
+|**Тип**|**Дата выпуска**|** Версия**|**Построение**|
 |:-----|:-----|:-----|:-----|
 |Первый выпуск для текущего канала  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Версия 1611 (сборка 7571.2006)  <br/> |
 |Текущая платформа канала  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Версия 1611 (сборка 7571.2072)  <br/> |
@@ -51,7 +51,7 @@ ms.locfileid: "25372604"
 
 - **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
     
-1. Чтобы убедиться, что выполняется версия 3.0 или более поздняя версия, зайдите в **Меню "Пуск"** > **Windows PowerShell**.
+1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
@@ -63,7 +63,7 @@ ms.locfileid: "25372604"
     
 - **Запуск сеанса Windows PowerShell**
     
-1. Из **меню "Пуск"** > **Windows PowerShell**.
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     
@@ -77,7 +77,7 @@ ms.locfileid: "25372604"
     Import-PSSession $session
    ```
 
-   Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [подключение к Скайп для бизнеса в Интернет с помощью Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [настроить компьютер для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>Создание политики настраиваемого внешнего доступа для пользователя
 
