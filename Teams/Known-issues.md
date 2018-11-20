@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba794c49543740c2b436320d6639454ffb447659
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 98d8ec4eb6f6ab943f1515900aa20debbb7933b8
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532280"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620005"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "26532280"
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
-|Управление администрирования клиента всей соединителей больше не доступен  <br/> |При попытке добавить соединитель в клиент и Интернет-версия мы сообщение об ошибке: произошла непредвиденная ошибка. Повторите попытку. SET-OrganizationConfig - ConnectorsEnabled = True   <br/> |Отключите с помощью параметров команды. Просмотрите статью поддержкиhttps://msdn.microsoft.com/microsoft-teams/connectors  <br/> |21.06.2017  <br/> |
+|Управление администрирования клиента всей соединителей больше не доступен  <br/> |При попытке добавить соединитель в клиент и Интернет-версия мы сообщение об ошибке: произошла непредвиденная ошибка. Повторите попытку. SET-OrganizationConfig - ConnectorsEnabled = True   <br/> |Отключите с помощью параметров команды. Можно найти в этой статье поддержка:https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21.06.2017  <br/> |
 
 ## <a name="apps"></a>Приложения
 

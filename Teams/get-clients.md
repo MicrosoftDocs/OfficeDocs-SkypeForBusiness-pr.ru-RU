@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1eeb32f86f678672a14d42b241e56eb9ab92b02
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9fc0a0cf983cff89482fa645c9176d66a0d9f259
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532186"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26619997"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 ===========================
@@ -127,9 +127,6 @@ Mac пользователи могут устанавливать групп с
 |---------|---------|---------|
 |![Значок для точки принятия решений.](media/Get_clients_for_Microsoft_Teams_image4.png)      |Точка принятия решений         |Существуют ли ограничения, мешающие пользователям установить на своих устройствах подходящий клиент Microsoft Teams?         |
 |![Значок дальнейших действий.](media/Get_clients_for_Microsoft_Teams_image5.png)     |Дальнейшие действия         |Если ваша организация ограничивает установку программного обеспечения, убедитесь в совместимости данного механизма с Microsoft Teams. Примечание. Для установки клиента на Mac требуются права администратора, а на ПК — нет.         |
-
-
-  <span id="_Hlk477176062" class="anchor"></span>  Точка принятия решений. Существуют ли ограничения, мешающие пользователям установить на своих устройствах подходящий клиент Microsoft Teams?
 
 <a name="client-update-management"></a>Управление обновлениями клиентов
 ------------------------

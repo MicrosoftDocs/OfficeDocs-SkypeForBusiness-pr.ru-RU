@@ -1,5 +1,5 @@
 ---
-title: Встроенный первыми для групп Майкрософт
+title: Подключение к Microsoft Teams ранних последователей
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 4f5f4b0732aab299a2cf4038547dfa9b6bf4562d
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520007"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620101"
 ---
-# <a name="onboard-early-adopters-to-microsoft-teams"></a>Встроенный первыми для групп Майкрософт
+# <a name="onboard-early-adopters-to-microsoft-teams"></a>Подключение к Microsoft Teams ранних последователей
 
 ## <a name="invite-users-to-teams"></a>Приглашение пользователей по группам
 
@@ -52,7 +52,7 @@ ms.locfileid: "26520007"
 Клиентское группами предоставляет пользователям Windows и Mac наиболее общей работы. Для получения дополнительных сведений см [получения клиентов для групп (настольный клиент)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) и [требования к оборудованию для приложения группами Майкрософт](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
 
 > [!NOTE]
-> Как администратор вы можете метод передавать файлы установки на компьютерах в организации, например System Center Configuration Manager (Windows) или Jamf Pro (macOS). Для получения
+> Как администратор вы можете метод передавать файлы установки на компьютерах в организации, например System Center Configuration Manager (Windows) или Jamf Pro (macOS).
 
 #### <a name="teams-for-windows"></a>Группы для Windows 
 — Это самый простой способ установить клиент рабочего стола Windows:

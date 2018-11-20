@@ -1,24 +1,25 @@
 ---
-title: Запись собрания облачных групп
+title: Запись собрания Teams в облаке
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
+ms.reviewer: sonua
 search.appverid: MET150
 description: Практическое руководство по развертыванию функций облачной голосовой связи в Microsoft Teams.
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae144405375daa818f334fdf5be85e75cd4f6b1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1819aa33dd951483754f4c00377865460a3765ff
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532886"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620085"
 ---
-# <a name="teams-cloud-meeting-recording"></a>Запись собрания облачных групп
+# <a name="teams-cloud-meeting-recording"></a>Запись собрания Teams в облаке
 
 > [!Note]
 > [!INCLUDE [preview-feature](includes/preview-feature.md)]
@@ -46,7 +47,7 @@ ms.locfileid: "26532886"
 
 ### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>Предоставление пользователям в организации Microsoft потока
 
-Поток Microsoft доступна как часть подходящими подписки на Office 365 или как автономную службу.  В разделе [Общие сведения о лицензировании поток](https://docs.microsoft.com/stream/license-overview) для получения дополнительных сведений.  Обратите внимание, что поток Майкрософт не включаются в Business Essentials или бизнеса расширенный планов.
+Поток Microsoft доступна как часть подходящими подписки на Office 365 или как автономную службу.  В разделе [Общие сведения о лицензировании поток](https://docs.microsoft.com/stream/license-overview) для получения дополнительных сведений.  Поток Microsoft теперь включены в Microsoft 365 Business, Office 365 бизнеса расширенный и основы бизнеса Office 365.
 
 Дополнительные сведения о как обеспечить [Назначение лицензий для пользователей в Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) , чтобы пользователи могут получить доступ к потоку Microsoft. Убедитесь, что поток Майкрософт не блокируются для пользователей, как определено в [этой статье](https://docs.microsoft.com/stream/disable-user-organization).
 
