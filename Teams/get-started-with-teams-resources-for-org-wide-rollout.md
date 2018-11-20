@@ -1,5 +1,5 @@
 ---
-title: Получите ресурсы для планирования процесса развертывания всей организации группами Майкрософт
+title: Ресурсы для планирования развертывания Microsoft Teams в организации
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2b831f419cb5f78f19248aaeaf9f8b12cb8765e
-ms.sourcegitcommit: 9928fd21818ecd031f0bdde1124401dc3d2a933f
+ms.openlocfilehash: cd2055a6449e29c53a3f0609110710a213631600
+ms.sourcegitcommit: 4dd2598efbfd4789587b9d816b69017817e0203b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26538039"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26622280"
 ---
-# <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>Получите ресурсы для планирования процесса развертывания всей организации группами Майкрософт
+# <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>Ресурсы для планирования развертывания Microsoft Teams в организации
 
 Теперь, когда успешно настройки первого командами, onboarded начальной группы пользователей во время поездок об использовании, настало время рассмотреть перейти вперед план развертывания групп в остальной части организации параллельно внедрения.
 
@@ -32,6 +32,6 @@ ms.locfileid: "26538039"
 
 ## <a name="let-us-know-what-you-think"></a>Сообщите нам свое мнение
 
-Уйти около минуты для совместного использования свои мысли на этом Get работы раздел, заполнив [данный короткий опрос](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u). Это анонимно. 
+: заметка: завершит <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">опросе</a> (занимает около минуты) для сообщите нам о своих впечатлениях части этого раздела **приступить к работе** ? Он является анонимным.
 
 Можно также предоставить свои отзывы и предложения для конкретных статьи, перейдя к разделу **свои отзывы и предложения** этой статьи. 
