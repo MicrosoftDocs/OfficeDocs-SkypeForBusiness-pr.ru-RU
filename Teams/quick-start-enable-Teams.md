@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f7f4dcc7ce15549384bbdd5485bed9fbe7b7ef5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 98112579a33d633e4303bbf4f395f508b955eb8e
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012411"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625676"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Краткое руководство — руководство по планированию Microsoft Teams
 ==========================================================
@@ -49,7 +49,7 @@ ms.locfileid: "25012411"
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Если решение Microsoft Teams не включено в вашем клиенте Office 365 и вы являетесь администратором Office 365, выполните указания из статьи [Управление доступом к Teams](user-access.md), чтобы обеспечить пользователям доступ к приложению.
+Если группами Майкрософт не включена в клиент Office 365 и Office 365, администратор выполнить инструкциям в нашей статье [Управление доступом пользователей к группам](user-access.md) , чтобы обеспечить пользователям иметь доступ к приложению.
 
 ## <a name="step-3-complete-technical-planning"></a>Шаг 3. Техническое планирование
 
@@ -60,7 +60,7 @@ ms.locfileid: "25012411"
 3.  [URL-адреса и диапазоны IP-адресов для Office 365](office-365-urls-ip-address-ranges.md)
 4.  [Гостевой доступ в Teams](guest-access.md)
 
-Кроме того, некоторым организациям может быть интересна статья [Обзор обеспечения безопасности и соответствия в Teams](security-compliance-overview.md).
+Кроме того в некоторых организациях может потребоваться просмотрите [Общие сведения о безопасности и соответствия требованиям в группах](security-compliance-overview.md).
 
 
 ## <a name="step-4-conduct-pilots-and-deploy-teams"></a>Шаг 4. Пилотные запуски и развертывание Teams

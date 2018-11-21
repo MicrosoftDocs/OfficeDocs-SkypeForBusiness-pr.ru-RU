@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Создание, изменение и удаление диапазоны неназначенных номеров для объявлений приложения в Скайп Business Server корпоративной голосовой связи. От этих действий зависит способ обработки вызовов на неназначенные номера.
-ms.openlocfilehash: ca8b3e621da3b479bcc650584ed2aea7669f07e1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 519f4b753314325b1af71f11f94ea669e78148a1
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372715"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625668"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Создание или изменение диапазона неназначенных номеров в Скайп для Business Server
  
@@ -40,7 +40,7 @@ ms.locfileid: "25372715"
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Использование Скайп для панели управления Business Server для настройки неназначенных телефонных номеров
 
-1. Войдите на компьютер как член группы RTCUniversalServerAdmins или членом роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см **Делегирование разрешений на установку**.
+1. Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе **Delegate Setup Permissions**.
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
     
@@ -95,7 +95,7 @@ ms.locfileid: "25372715"
 3. Используйте **New-CsUnassignedNumber** , чтобы создать новый диапазон неназначенных номеров. Командлет **Set-CsUnassignedNumber** для изменения существующего диапазона неназначенных номеров.
     
     > [!TIP]
-    > Если имеются перекрывающиеся диапазоны и требуется, чтобы эти диапазоны применялись в определенном порядке, включите параметр Priority. В этом случае при звонке будет применяться диапазон, обладающий наибольшим приоритетом. 
+    > Если имеются перекрывающиеся диапазоны и требуется, чтобы эти диапазоны применялись в определенном порядке, включите параметр Priority. В этом случае при звонке будет применяться диапазон, обладающий наибольшим приоритетом. Значение 0 означает наивысший приоритет.
   
     В командной строке выполните один из следующих действий:
     
@@ -133,7 +133,7 @@ ms.locfileid: "25372715"
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>Удаление диапазона неназначенных номеров с помощью Скайп для панели управления Business Server
 
-1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или членом роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см **Делегирование разрешений на установку**.
+1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе **Delegate Setup Permissions**.
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
     
@@ -168,8 +168,8 @@ ms.locfileid: "25372715"
   
 ## <a name="see-also"></a>См. также
 
-[Новый CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
+[New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
-[SET-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
+[Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
   
 [Get-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/get-csunassignednumber?view=skype-ps)

@@ -1,5 +1,5 @@
 ---
-title: Контрольный список краткое внедрения группами Майкрософт
+title: Краткий контрольный список по внедрению Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,47 +15,49 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4106eb020385df464284f3c3ff236d93a6fc0f25
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: c3fa4f1d022951f54fdcf424ea64af731eddb811
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519994"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625737"
 ---
-# <a name="microsoft-teams-adoption-quick-start-checklist"></a>Контрольный список краткое внедрения группами Майкрософт
+# <a name="microsoft-teams-adoption-quick-start-checklist"></a>Краткий контрольный список по внедрению Microsoft Teams
 
-## <a name="get-started-driving-adoption-of-microsoft-teams"></a>Начало работы поездок внедрения группами Майкрософт
+[Загрузить копию контрольного списка](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-quick-start-checklist?branch=pr-en-us-2018)
 
-- Предварительные требования для внедрения
+## <a name="get-started-driving-adoption-of-microsoft-teams"></a>Начало работы с внедрением Microsoft Teams
+
+- [Предварительные требования для внедрения](teams-adoption-get-started.md)
 
 ## <a name="phase-1---start"></a>Этап 1 — начало
 
-- Понять, групп и каналы
-- Создание первой группы
-- Все готово для групп?
-- Встреча с заинтересованными лицами
-- Определение первыми
+- [Понять, групп и каналы](teams-adoption-understand-teams-and-channels.md)
+- [Создание первой группы](teams-adoption-your-first-teams.md)
+- [Все готово для групп?](teams-adoption-assess-readiness.md)
+- В [соответствии с заинтересованными лицами](teams-adoption-assess-readiness.md#assess-your-stakeholders))
+- [Определение первыми](teams-adoption-assess-readiness.md#identify-early-adopters)
 
 ## <a name="phase-2---experiment"></a>Этап 2 - эксперимента
 
-- Создание программы чемпионатов
-- Завершить краткое руководство
-- Определение сценариев использования
-- Интервью заинтересованным
-- Сопоставьте и определение приоритетов бизнес-сценарии
-- Встроенный первыми и сбор отзывов
-- Встроенная поддержка
+- [Создание программы чемпионатов](teams-adoption-create-champions-program.md)
+- [Завершить краткое руководство](teams-adoption-governance-quick-start.md)
+- [Определение сценариев использования](teams-adoption-define-usage-scenarios.md)
+- [Интервью заинтересованным](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [Сопоставьте и определение приоритетов бизнес-сценарии](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
+- [Встроенный первыми и сбор отзывов](teams-adoption-onboard-early-adopters.md)
+- [Встроенная поддержка](teams-adoption-onboard-support.md)
 
 ## <a name="phase-3---scale"></a>Этап 3 - масштаба
 
-- Определение результатов деятельности и показателей успешности
-- Выбор стратегии Включение службы
-- Привлечь заинтересованных лиц
-- Разверните узел группы
-- Разверните узел вашей управления и политик управления информацией
-- Оптимизировать свои отзывы и предложения и отчетов
-- Сведения о диска и реализовать и обучение
-- Служба проверок календарного плана
+- [Определение результатов деятельности и показателей успешности](teams-adoption-define-outcomes.md)
+- [Выбор стратегии Включение службы](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
+- [Привлечь заинтересованных лиц](teams-adoption-define-outcomes.md#engage-stakeholders)
+- [Разверните узел группы](teams-adoption-define-outcomes.md#expand-your-implementation-team)
+- [Разверните узел вашей управления и политик управления информацией](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
+- [Оптимизировать свои отзывы и предложения и отчетов](teams-adoption-optimize-feedback-and-reporting.md)
+- [Сведения о диска и реализовать и обучение](teams-adoption-drive-awareness.md)
+- [Служба проверок календарного плана](teams-adoption-schedule-service-health-reviews.md)
 
 
 

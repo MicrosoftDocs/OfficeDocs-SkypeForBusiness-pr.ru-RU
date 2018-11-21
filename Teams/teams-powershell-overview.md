@@ -9,12 +9,12 @@ ms.service: msteams
 description: Изучите использование элементов управления PowerShell для управления группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84de597cc5cc6a00227cf48d9d8559f9dcb3778e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a898a4eca8d96ef2da44f17695472301d6332724
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531612"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625753"
 ---
 # <a name="teams-powershell-overview"></a>Обзор PowerShell групп
 
@@ -22,7 +22,7 @@ ms.locfileid: "26531612"
 
 ## <a name="which-modules-do-you-need-to-use"></a>Какие модули необходимо использовать?
 
-Элементы управления PowerShell для управления группами Майкрософт находятся в двух разных модулях PowerShell: [модуль PowerShell группами Майкрософт](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3) (пробная версия) и [Скайп для модуль PowerShell бизнеса](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Модуль команды PowerShell содержит все командлеты, необходимые для создания и управления группами, пока Скайп для модуль Business PowerShell содержит элементы управления для управления политиками, конфигураций и другие средства групп. Справочная документация для элементов управления PowerShell сообщит вам, какие модуль содержит командлетом, в случае исследование. (В конце концов, два модули будут объединены.)
+Элементы управления PowerShell для управления группами Майкрософт находятся в двух разных модулях PowerShell: [модуль PowerShell группами Майкрософт](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (пробная версия) и [Скайп для модуль PowerShell бизнеса](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Модуль команды PowerShell содержит все командлеты, необходимые для создания и управления группами, пока Скайп для модуль Business PowerShell содержит элементы управления для управления политиками, конфигураций и другие средства групп. Справочная документация для элементов управления PowerShell сообщит вам, какие модуль содержит командлетом, в случае исследование. (В конце концов, два модули будут объединены.)
 
 ## <a name="what-can-each-admin-role-do"></a>Что можно делать каждой роли администратора?
 
@@ -32,7 +32,7 @@ ms.locfileid: "26531612"
 
 Командлеты для создания и управления группами являются в [модуль Microsoft команды PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3). 
 
-Команды выполняется резервное O365 группами, поэтому при создании рабочая группа, создание группы. Существует набор командлетов для основная группа и его параметры (``new-team``, ``get-team``, ``set-teamfunsettings``), а также командлетов для управления каналами рабочей группы (``new-teamchannel``, ``remove-teamchannel``). Все эти командлеты могут выполняться как конечные пользователи, но они работают только на которых вы должны быть членом группы. Если вы являетесь глобального администратора или администратора службы групп, можно будет действовать на все рабочие группы в вашей организации.
+Команды выполняется резервное O365 группами, поэтому при создании рабочая группа, создание группы. Существует набор командлетов для основная группа и его параметры (``new-team``, ``get-team``, ``set-teamfunsettings``, ``set-teammessagingsettings``, ``set-teamguestsettings``, ``set-teammembersettings``), управление пользователями группы (``add-teamuser``, ``remove-teamuser``), а также командлетов для управления каналами рабочей группы (``new-teamchannel`` , ``remove-teamchannel``). Все эти командлеты могут выполняться как конечные пользователи, но они работают только на которых вы должны быть членом группы. Если вы являетесь глобального администратора или администратора службы групп, можно будет действовать на все рабочие группы в вашей организации.
 
 > **GroupId** , используемые в командлетах модуля Microsoft команды PowerShell совпадает с свойства **Identity** , возвращаемого ``Get-UnifiedGroup`` в модуле Exchange PowerShell.
 
@@ -84,4 +84,4 @@ ms.locfileid: "26531612"
 
 - [Справочник командлетов группами Майкрософт](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 - [Скайп для бизнеса Справочник командлетов](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
-- [Использование роли администраторов группами Майкрософт для управления группами](using-admin-roles.md)
+- [Управление Microsoft Teams с ролями администратора](using-admin-roles.md)
