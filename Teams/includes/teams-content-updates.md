@@ -190,3 +190,68 @@
 | 09.11.2018 | [Знакомство с командами и каналами в Microsoft Teams](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | Изменено |
 | 09.11.2018 | [Внедрение Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | Изменено |
 | 09.11.2018 | [Обзор команд и каналов в Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Изменено |
+
+
+## <a name="week-of-november-12-2018"></a>Неделя с 12 ноября 2018 г.
+
+
+| Дата публикации |Название раздела | ИЗМЕНИТЬ |
+|------|------------|--------|
+| 12.11.2018 | [Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | Изменено |
+| 12.11.2018 | [Практическое руководство по аудиоконференциям в Microsoft Teams](/MicrosoftTeams/audio-conferencing) | Изменено |
+| 12.11.2018 | [Рекомендации по работе с командами в Microsoft Teams](/MicrosoftTeams/best-practices-organizing) | Изменено |
+| 12.11.2018 | [Льготный период обратных звонков](/MicrosoftTeams/complimentary-dial-out-period) | Изменено |
+| 12.11.2018 | [Мониторинг использования и отзывов в Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | Изменено |
+| 12.11.2018 | [Управление номерами телефонов в Австралии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | Изменено |
+| 12.11.2018 | [Управление настройками аудиоконференций для организации в Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams). | Изменено |
+| 12.11.2018 | [Установка Microsoft Teams с помощью MSI](/MicrosoftTeams/msi-deployment) | Изменено |
+| 12.11.2018 | [Список пользователей с включенными Аудиоконференциями в Microsoft Teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams) | Изменено |
+| 12.11.2018 | [Отправка пользователю письма с данными для Аудиоконференций в Microsoft Teams](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams) | Изменено |
+| 12.11.2018 | [Обзор команд и каналов в Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Изменено |
+| 12.11.2018 | [Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams). | Изменено |
+| 12.11.2018 | [Управление доступом пользователей к Microsoft Teams](/MicrosoftTeams/user-access) | Изменено |
+| 12.11.2018 | [Управление устройствами в Microsoft Teams](/MicrosoftTeams/device-management) | Изменено |
+| 13.11.2018 | [Внедрение Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | Добавлено |
+| 13.11.2018 | [Начало работы с Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | Добавлено |
+| 13.11.2018 | [Создание первых команд и каналов в Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | Добавлено |
+| 13.11.2018 | [Начало работы с Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | Добавлено |
+| 13.11.2018 | [Мониторинг использования и обратная связь в Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | Добавлено |
+| 13.11.2018 | [Подключение к Microsoft Teams ранних последователей](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | Добавлено |
+| 13.11.2018 | [Краткое руководство — Microsoft Teams](/MicrosoftTeams/get-started-with-teams-quick-start) | Добавлено |
+| 13.11.2018 | [Ресурсы для планирования развертывания Microsoft Teams в организации](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | Добавлено |
+| 13.11.2018 | [Насколько готова ваша организация к внедрению Microsoft Teams?](/MicrosoftTeams/teams-adoption-assess-readiness) | Добавлено |
+| 13.11.2018 | [Программа лидеров по внедрению Microsoft Teams](/MicrosoftTeams/teams-adoption-create-champions-program) | Добавлено |
+| 13.11.2018 | [Результаты и критерии успеха внедрения Microsoft Teams](/MicrosoftTeams/teams-adoption-define-outcomes) | Добавлено |
+| 13.11.2018 | [Определение сценариев использования Microsoft Teams](/MicrosoftTeams/teams-adoption-define-usage-scenarios) | Добавлено |
+| 13.11.2018 | [Информированность и внедрение обучения по Microsoft Teams](/MicrosoftTeams/teams-adoption-drive-awareness) | Добавлено |
+| 13.11.2018 | [Начало работы с внедрением Microsoft Teams](/MicrosoftTeams/teams-adoption-get-started) | Добавлено |
+| 13.11.2018 | [Краткое руководство по управлению Microsoft Teams](/MicrosoftTeams/teams-adoption-governance-quick-start) | Добавлено |
+| 13.11.2018 | [Подключение ранних последователей и сбор отзывов по Microsoft Teams](/MicrosoftTeams/teams-adoption-onboard-early-adopters) | Добавлено |
+| 13.11.2018 | [Подключение службы поддержки по Microsoft Teams](/MicrosoftTeams/teams-adoption-onboard-support) | Добавлено |
+| 13.11.2018 | [Оптимизация отзывов и отчетности по внедрению Microsoft Teams](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) | Добавлено |
+| 13.11.2018 | [Внедрение Microsoft Teams. Этап 1 — запуск](/MicrosoftTeams/teams-adoption-phase1) | Добавлено |
+| 13.11.2018 | [Внедрение Microsoft Teams. Этап 2 — эксперименты](/MicrosoftTeams/teams-adoption-phase2-experiment) | Добавлено |
+| 13.11.2018 | [Внедрение Microsoft Teams. Этап 3 — масштабирование](/MicrosoftTeams/teams-adoption-phase3-enable) | Добавлено |
+| 13.11.2018 | [Краткий контрольный список по внедрению Microsoft Teams](/MicrosoftTeams/teams-adoption-quick-start-checklist) | Добавлено |
+| 13.11.2018 | [Планирование проверок работоспособности служб при внедрении Microsoft Teams](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) | Добавлено |
+| 13.11.2018 | [Знакомство с командами и каналами в Microsoft Teams](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | Добавлено |
+| 13.11.2018 | [Создание первых команд в Microsoft Teams](/MicrosoftTeams/teams-adoption-your-first-teams) | Добавлено |
+| 13.11.2018 | [Документация и практическое руководство по Microsoft Teams](/MicrosoftTeams/microsoft-teams) | Изменено |
+| 13.11.2018 | [Обзор Microsoft Teams](/MicrosoftTeams/teams-overview) | Изменено |
+| 13.11.2018 | [Настройка прямой маршрутизации](/MicrosoftTeams/direct-routing-configure) | Изменено |
+| 13.11.2018 | [Учетные записи пользователей в гибридной среде со связью с ТСОП](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | Изменено |
+| 13.11.2018 | [Управление гостевым доступом в Microsoft Teams](/MicrosoftTeams/manage-guests) | Изменено |
+| 13.11.2018 | [Включение и отключение гостевого доступа для Microsoft Teams](/MicrosoftTeams/set-up-guests) | Изменено |
+| 14.11.2018 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
+| 14.11.2018 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 14.11.2018 | [Настройка сосуществования и обновления](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | Изменено |
+| 15.11.2018 | [Ресурсы для планирования развертывания Microsoft Teams в организации](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | Изменено |
+| 15.11.2018 | [Обучение администратора для работы с Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
+| 15.11.2018 | [Расположение данных в Microsoft Teams](/MicrosoftTeams/location-of-data-in-teams) | Изменено |
+| 15.11.2018 | [Управление командами в Центре администрирования Microsoft Teams и Skype для бизнеса](/MicrosoftTeams/manage-teams-in-modern-portal). | Изменено |
+| 15.11.2018 | [Управление решениями Майкрософт для образования: вопросы и ответы для ИТ-специалистов — Microsoft Teams](/MicrosoftTeams/plan-teams-governance-edu) | Изменено |
+| 15.11.2018 | [Планирование управления в Teams — Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | Изменено |
+| 15.11.2018 | [Вход в Microsoft Teams с современной проверкой подлинности](/MicrosoftTeams/sign-in-teams) | Изменено |
+| 15.11.2018 | [Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams). | Изменено |
+| 16.11.2018 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
+| 16.11.2018 | [Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/faq-journey) | Изменено |
