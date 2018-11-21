@@ -1,5 +1,5 @@
 ---
-title: Принять группами Майкрософт
+title: Внедрение Microsoft Teams
 description: Используйте следующие ресурсы внедрения, которые помогут в планировании и развертывании рабочих групп Майкрософт в вашей организации.
 layout: LandingPage
 ms.topic: landing-page
@@ -12,14 +12,14 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd69ba3592b23acdc963b8438e35ef998a3ceec1
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 26f1a5c4c928b0a6b97d9eac83c5c913389a2a52
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519999"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625745"
 ---
-# <a name="adopt-microsoft-teams"></a>Принять группами Майкрософт
+# <a name="adopt-microsoft-teams"></a>Внедрение Microsoft Teams
 
 Если вы малого бизнеса, или если вы хотите развернуть группы, начиная с чата, групп и каналы и собраний, используйте указаниям по сопровождению краткое, построенный для подготовки к под управлением fast. Если вы большой организации с гибридного локальной Скайп для бизнес-конфигурацию или если вы хотите развернуть функции голосовой связи (например, Office 365 вызов планы или телефонной системой), можно начать с нашей краткое руководство, но вам потребуются дополнительные руководство ниже, в разделе **более подробные инструкции внедрения**.
 
@@ -109,6 +109,24 @@ ms.locfileid: "26519999"
                     </div>
                     <div class="cardText">
                         <h3>Обучение и сертификация</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Средства и файлы для загрузки</h3>
                     </div>
                 </div>
             </div>
