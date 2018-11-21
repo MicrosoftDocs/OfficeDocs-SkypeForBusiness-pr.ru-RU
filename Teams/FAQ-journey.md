@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e733d38bf914080274332abfffbd33c5eaddba50
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 865da90f5b6c9ffc13694692a67ab092d05c755a
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561742"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626178"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "26561742"
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Что ждет Skype для бизнеса Server?
 
-Мы понимаем, что клиенты используют Скайп для бизнеса в локальной и много потребности для продолжения использования Скайп для бизнеса локальных для некоторых пользователей или географических зон из-за их требования. Скайп для Business Server 2019 была выпущена в 2019 октября.
+Мы понимаем, что клиенты используют Скайп для бизнеса в локальной и много потребности для продолжения использования Скайп для бизнеса локальных для некоторых пользователей или географических зон из-за их требования. Скайп для Business Server 2019 была выпущена в 2018 октября.
 
 ### <a name="what-will-happen-to-the-skype-brand"></a>Что произойдет с брендом Skype?
 

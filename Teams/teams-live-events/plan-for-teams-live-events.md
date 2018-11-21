@@ -1,5 +1,5 @@
 ---
-title: Планирование для live событий в группах Майкрософт
+title: Планирование трансляций в Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -12,14 +12,14 @@ search.appverid: MET150
 description: Сведения о важных перед настройкой live события в группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 40722ee1e58e7524184408819932d9a2cfdc1275
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532319"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626264"
 ---
-# <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование для live событий в группах Майкрософт
+# <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 При планировании группами live события для хранения больших собраний в организации существует ряд факторов, которые следует учесть перед началом работы установить все элементы. 
@@ -109,5 +109,5 @@ Live события команды можно использовать в нес
 ### <a name="related-topics"></a>Связанные разделы
 - [Что такое группы live событий?](what-are-teams-live-events.md)
 - [Настройка для групп событий в реальном времени](set-up-for-teams-live-events.md)
-- [Confgure live настройки событий в группах](configure-teams-live-events.md)
+- [Настройка параметров событий в реальном времени в группах](configure-teams-live-events.md)
 

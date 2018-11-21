@@ -1,5 +1,5 @@
 ---
-title: С помощью PowerShell можно настраивать политики событий в реальном времени в группах Майкрософт
+title: Настройка политик трансляции Microsoft Teams с помощью PowerShell
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 description: Примеры того, как использовать PowerShell для определения политик в группах, чтобы контролировать, кто сохранения live события в вашей организации и функции, доступные в события, которые они создают
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f802c2b67c0a4cd4b0838dd9aeec9c4bbf884968
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c198711d918914bbd6a1929514d7c2e9aa7dfe00
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26535954"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626225"
 ---
-# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>С помощью PowerShell можно настраивать политики событий в реальном времени в группах Майкрософт
+# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Можно использовать следующие командлеты Windows PowerShell для установки и назначить параметры политики для live событий в группах: 
@@ -82,15 +82,15 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 Создайте новую политику, которая не позволяет планирования live события, выполните:
 ```
-New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy
+New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
 Отключение планирования событий в реальном времени, выполните:
 ```
-Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy -AllowBroadcastScheduling $false
+Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
 Затем назначение пользователей для этой политики, выполните:
 ```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingpolicy -Verbose
+Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
 **Чтобы отключить трансляция расписания для большого числа пользователей и разрешить группы пользователей, чтобы запланировать их**
 
