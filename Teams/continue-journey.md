@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8e81a20d5c3e792f2a249b86d95a0ca22ab042e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 91608a65530c7f57772b0fe544394a669e67b2a4
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016263"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649527"
 ---
 ![Этапы обновления пути с акцентом на стадии высокий уровень работоспособности] (media/upgrade-banner-op-excellence.png "Этапы обновления пути с акцентом на стадии высокий уровень работоспособности")
 
@@ -33,9 +33,9 @@ ms.locfileid: "25016263"
 
 Состояния сети влияет на взаимодействие с пользователем. Когда у пользователя есть плохого качества (например, звонок падения или задержки времени при присоединении к собраниям), они сопоставляться с этой технологии самого, оставив их с помощью технологии не работает впечатление и открытие двери для приложений не поддерживается. Реализация плана для контроля и устранять работоспособность сети поможет обеспечить положительное пользовательского интерфейса в дополнение к уменьшению числа обращений в службу поддержки. Дополнительные сведения см в следующих статьях:
 
--   [Мои службы](upgrade-operate-my-service.md)
+-   [Использование службы](upgrade-operate-my-service.md)
 -   [Отслеживание качества](upgrade-monitor-quality.md)
--   [Улучшите Мои службы](upgrade-enhance-my-service.md)
+-   [Улучшения службы](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Диск momentum пользователей и внедрения
 

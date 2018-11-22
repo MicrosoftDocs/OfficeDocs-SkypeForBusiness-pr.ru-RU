@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 3dec789d31737eeb4585da5e28737a15ca679a5b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b3305efee9636dfff391fc9a851227cf215b719a
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530577"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649535"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business
 ======================================================
@@ -43,7 +43,6 @@ ms.locfileid: "26530577"
 |---------|---------|---------|---------|
 |Общие     |Показать организационные чата в личный профиль        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Клиент       |
 |Общие     |Используйте Скайп для получателей, у которых нет команд для бизнеса         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
-|Общие     |Разрешить сообщения упреждающего справки T-роботов         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
 |Интеграция электронной почты     |Разрешить пользователям отправлять сообщения электронной почты с каналами         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
 |Интеграция электронной почты     |Разрешить отправителей списка         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Клиент         |
 |Настраиваемое облачное хранилище     |Поле         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
