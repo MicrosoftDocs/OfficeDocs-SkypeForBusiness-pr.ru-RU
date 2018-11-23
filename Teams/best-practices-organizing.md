@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66bf2e6aa01c24b327d26e2a30678ca3722a8c97
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 43c619f8d053d0d06b9b5494d812eea541869922
+ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532500"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26670933"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Рекомендации по работе с командами в Microsoft Teams
 ======================================================
@@ -29,7 +29,7 @@ ms.locfileid: "26532500"
 
 Прежде чем создавать группы продуктов, рекомендуется учитывать цели, проектов или рабочих элементов и сотрудников, которые могут помочь обеспечить его совместно. Создав команду, добавьте в нее этих специалистов, чтобы они начали работать друг с другом. Иногда бывает полезно назначить каждой команде несколько владельцев — см. [Управление командами](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-Обратите внимание на это быстрого видео, чтобы увидеть некоторые примеры того, как будет осуществляться кросс организации или одного назначения групп:
+Обратите внимание на это короткое видео, чтобы увидеть некоторые примеры того, как будет осуществляться кросс организации или одного назначения групп:
 
 > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
