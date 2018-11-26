@@ -3,21 +3,21 @@ title: Добавление гостя в команду
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
-ms.reviewer: laal
+ms.reviewer: sbhatta
 description: Вы можете узнать о доступных администратору средствах для добавления новых гостевых пользователей в организацию, включая классический и веб-клиент Microsoft Teams, а также портал для совместной работы Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86a124cea08a69c01f33c99c16546c5f7bc3440f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0671774d01ce8b2dfeea78fff36dde117931ff00
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016095"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674467"
 ---
 <a name="add-a-guest-to-a-team"></a>Добавление гостя в команду
 =====================
@@ -46,3 +46,8 @@ ms.locfileid: "25016095"
 
 Вы можете отслеживать добавление гостей в Azure Active Directory или Центре безопасности &amp;и соответствия требованиям Office 365. Добавление гостя в Microsoft Teams проходит аудит и регистрируется в журнале администрирования групп Azure AD в виде записи "Added member to group" (Добавление участника в группу). Дополнительные сведения см. в статьях [Аудит и отчеты для пользователя службы совместной работы B2B](https://go.microsoft.com/fwlink/p/?linkid=858884) и [Поиск журнала аудита в Центре безопасности &amp;и соответствия требованиям Office 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
+## <a name="more-information"></a>Подробная информация
+
+[Разрешения доступа гостя в группах Microsoft](teams-dependencies.md)
+[Включение и отключение гостевой доступ в группах Microsoft](set-up-guests.md)
+[Использование PowerShell для управления доступом к гостевой группы.](guest-access-powershell.md)

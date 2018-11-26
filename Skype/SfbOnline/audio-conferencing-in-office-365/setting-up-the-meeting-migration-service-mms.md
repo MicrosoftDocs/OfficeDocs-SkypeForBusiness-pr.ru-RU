@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Служба переноса собраний (MMS) \x97 это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams."
-ms.openlocfilehash: 4a1cdc03945e6399b4c77dd12b800fd25b2401cc
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: b5484459fc01337bd9eb2dad38e9f0e3349abd07
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561709"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674588"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Настройка службы переноса собраний (MMS)
 
@@ -182,7 +182,7 @@ Get-CsMeetingMigrationStatus -UserId "ashaw@contoso.com"
 1. Определите пользователей, которых затронул сбой. Для получения списка пользователей, которых затронул сбой, и возникших ошибок выполните следующую команду:
     
    ```
-   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastErrorMessage
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastMessage
    ```
 
 2. Для каждого из этих пользователей запустите [средство переноса собраний](https://go.microsoft.com/fwlink/p/?linkid=626047) для переноса собраний этих пользователей вручную.
