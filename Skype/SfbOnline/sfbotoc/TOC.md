@@ -124,7 +124,7 @@
 ## [Планы звонков в Office 365](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Известные проблемы с планами звонков](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Добавление, изменение и удаление местоположения организации для экстренного реагирования](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
-### [Добавление или удаление адреса для экстренного реагирования для организации](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
+### [Добавление, изменение и удаление экстренных адрес для вашей организации](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Назначение, изменение или удаление номера телефона пользователя](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Назначение или изменение адреса для экстренного реагирования для пользователя](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
 ### [Назначение или изменение экстренных расположения для пользователя](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
