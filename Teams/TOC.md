@@ -8,7 +8,7 @@
 ## [Встроенный первыми](get-started-with-teams-onboard-early-adopters.md)
 ## [Отслеживание использования и свои отзывы и предложения](get-started-with-teams-monitor-usage-and-feedback.md)
 ## [Что делать дальше](get-started-with-teams-resources-for-org-wide-rollout.md)
-## [Получите помощь в группах Майкрософт](get-help-in-microsoft-teams.md)
+## [Справка в Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
@@ -52,7 +52,7 @@
 
 ## [Обзор развертывания Teams](deployment-overview.md)
 ## [Управление доступом пользователей к Teams](user-access.md)
-## [Использование роли администраторов группами Майкрософт для управления группами](using-admin-roles.md)
+## [Управление Microsoft Teams с ролями администратора](using-admin-roles.md)
 ## [Обзор PowerShell групп](teams-powershell-overview.md)
 ## [Работа с клиентами для Teams](get-clients.md)
 ### [Требования к оборудованию для приложения группы](hardware-requirements-for-the-teams-app.md)
@@ -60,7 +60,7 @@
 ### [Развертывание групп для предоставления сервера-концентратора](teams-surface-hub.md)
 ## [Запуск команды в виртуальной среде](virtual-environment-teams.md)
 ## [Позволяют группам в организации](Office-365-set-up.md)
-## [Использование групп Майкрософт областью действия поиск в каталоге](teams-scoped-directory-search.md)
+## [Область поиска в каталоге Microsoft Teams](teams-scoped-directory-search.md)
 ## [Управление функциями группами в организации](enable-features-office-365.md)
 ### [Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business](manage-teams-skypeforbusiness-admin-center.md)
 ### [Управление группами в группами Майкрософт & Скайп по центру администрирования Business](manage-teams-in-modern-portal.md)
@@ -133,7 +133,7 @@
 <!-- ============================================================ -->
 # Взаимодействие с Office 365
 ## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
-## [Совместная работа с Скайп для бизнеса](coexistence-chat-calls-presence.md)
+## [Сосуществование со Skype для бизнеса](coexistence-chat-calls-presence.md)
 ## [Задайте вашей сосуществования и параметры обновления](setting-your-coexistence-and-upgrade-settings.md)
 ## [Группы Office 365 и Teams](office-365-groups.md)
 ## [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
@@ -205,7 +205,7 @@
 ### [Назначение группы владельцев и членов в группы Microsoft](assign-roles-permissions.md)
 ### [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ### [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
-### [Общие сведения о динамическое членство в группах](dynamic-memberships.md)
+### [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
 ## [Гостевой доступ](guest-access.md)
 ### [Присоединение гостя к команде](guest-joins.md)
@@ -227,7 +227,7 @@
 ### [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [Включение и отключение объявлений о входе и выходе в собраниях](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 
-### [Запись собрания облачных групп](cloud-recording.md)
+### [Запись собрания Teams в облаке](cloud-recording.md)
 ### [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ### [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Облако видео взаимодействия](cloud-video-interop.md)
@@ -344,7 +344,7 @@
 
 ### [Получение служебных номеров телефонов](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-#### [Управление номер телефона для Австралии](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [Управление номерами телефонов в Австралии](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [Управление номерами телефонов в Бельгии](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [Управление номерами телефонов в Канаде](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [Управление номерами телефонов во Франции](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
@@ -392,19 +392,18 @@
 ### Планы звонков
 #### [Краткое руководство по началу работы. Настройка планов звонков в Teams](configuring-teams-calling-quickstartguide.md)
 #### [Руководство по Вызова в группах](Tutorial-calling-in-teams.yml)
-#### [Set up Calling Plans (Настройка планов звонков)](set-up-calling-plans.md)
-#### [Добавление, изменение и удаление адреса экстренного реагирования для организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Добавление, изменение и удаление местоположения экстренного реагирования для организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Настройка планов звонков](set-up-calling-plans.md)
+#### [Добавление, изменение и удаление экстренных адрес для вашей организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Добавление, изменение и удаление местоположения организации для экстренного реагирования](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Назначение или изменение адреса экстренного реагирования для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Назначение или изменение экстренных расположения для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Назначение, изменение или удаление номера телефона пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Планы звонков для Office 365](calling-plans-for-office-365.md)
-#### [Изменение адреса для экстренного реагирования для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Изменение местоположения для экстренного реагирования для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 #### [Получение телефонных номеров для пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Сколько телефонных номеров можно получить?](how-many-phone-numbers-can-you-get.md)
 #### [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-##### [Управление номер телефона для Австралии](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+##### [Управление номерами телефонов в Австралии](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 ##### [Управление номерами телефонов в Бельгии](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 ##### [Управление номерами телефонов в Канаде](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 ##### [Управление номерами телефонов во Франции](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
@@ -488,7 +487,7 @@
 #### [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [Что такое проверка адреса?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Что такое абонентские группы?](what-are-dial-plans.md)
-#### [Создание абонентских групп и управление ими](create-and-manage-dial-plans.md)
+#### [Создание и использование абонентских групп](create-and-manage-dial-plans.md)
 ### Телефонная система
 #### [Что такое телефонная система в Office 365?](what-is-phone-system-in-office-365.md)
 #### [Настройка телефонной системы в вашей организации](setting-up-your-phone-system.md)
@@ -508,8 +507,8 @@
 #### [Настройка прямой маршрутизации](direct-routing-configure.md)
 #### [Переход на прямой маршрутизации](direct-routing-migrating.md)
 #### [Мониторинг и устранение неполадок прямой маршрутизации](direct-routing-monitor-and-troubleshoot.md)
-#### [Учетные записи пользователей в гибридной среде с помощью подключения к ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
-#### [Настройте пограничный контроллер сеансов для нескольких клиентов](direct-routing-sbc-multiple-tenants.md)
+#### [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
+#### [Настройка множества клиентов в пограничном контроллере сеансов](direct-routing-sbc-multiple-tenants.md)
 #### [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
 ### [Команды Microsoft Online вызова денежных средств](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
