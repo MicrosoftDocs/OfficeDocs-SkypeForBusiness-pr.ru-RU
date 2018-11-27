@@ -1,7 +1,7 @@
 ---
-title: Встроенный первыми и сбор отзывов для групп Майкрософт
-author: LolaJacobsen
-ms.author: lolaj
+title: Подключение ранних последователей и сбор отзывов по Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Выберите первыми для эксперимента этап внедрения вашей группы, а затем собрать их отзывы для вашего проекта.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1c85fead1bd1f1295a4ff3370d1b188f79eb73
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520005"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699672"
 ---
-# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Встроенный первыми и сбор отзывов для групп Майкрософт
+# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Подключение ранних последователей и сбор отзывов по Microsoft Teams
 
 Вернуться к списку сотрудников, которые выразить заинтересованность в программе первых пользователей. Решите, какие из этих отдельных пользователей, должны участвовать в начальной эксперименты с группами. Это может быть все или его часть людей, которые хотят. Даже в том случае, если вы не устанавливайте их для этих начальные проекты, продолжайте взаимодействие с ними с, поэтому они остаются заинтересованы и будут участвовать в будущем. Они будут часть процесса адаптация новых сотрудников для проектов, выбранного на основании обсуждений с заинтересованным, технической группы и определение приоритетов осуществлением показано выше. 
 

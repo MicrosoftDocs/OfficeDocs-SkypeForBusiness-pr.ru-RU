@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Сводка: Прочитайте сведения о диспетчере статистики для Скайп для Business Server.'
-ms.openlocfilehash: 7b4c45bf3fe230c331725a4510a2a8a499300bef
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 390a49a4346af5ab1bc2005db04d99fd60bad056
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531083"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699854"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Планирование для диспетчера статистики для Скайп Business Server
 
@@ -139,6 +139,7 @@ ms.locfileid: "26531083"
 - PSExec - требуется агент удаленного развертывания
 
 - .NET 4.5 (входит в состав 2012 R2) - необходимые для агентов и компоненты на стороне сервера
+- Загрузить [Скайп для Business Server, в режиме реального времени Статистика диспетчера (64-разрядная версия)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### <a name="networking-requirements"></a>Требования к сети
 

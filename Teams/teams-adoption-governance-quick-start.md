@@ -1,7 +1,7 @@
 ---
-title: Управление краткое руководство для групп Майкрософт
-author: LolaJacobsen
-ms.author: lolaj
+title: Краткое руководство по управлению Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Принять ключевые решения по этапу 2 плане внедрения
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c71a7870fdcfb0c8818430ee748fae68a90d9471
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 7c8cf1460919019234da365626bfdf587c87249e
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519997"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699799"
 ---
-# <a name="governance-quick-start-for-microsoft-teams"></a>Управление краткое руководство для групп Майкрософт
+# <a name="governance-quick-start-for-microsoft-teams"></a>Краткое руководство по управлению Microsoft Teams
 
 Следующие действия будут выполняться одновременно, а их может включать полностью или частично ключа группы. Рекомендуется отложите беседы, безопасности и управления большими объемами после завершения вашей начальной экспериментировать с группами. Это упростит решения, необходимо будет внести в срок, более поздней версии. На этом этапе существуют некоторые вопросы, которые должны быть выполнены. Чтобы успешно их сначала необходимо ответить на следующие вопросы:
 

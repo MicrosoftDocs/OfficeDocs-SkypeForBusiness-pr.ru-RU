@@ -1,28 +1,28 @@
 ---
-title: Создание программы чемпионатов для групп Майкрософт
-author: LolaJacobsen
-ms.author: lolaj
+title: Программа лидеров по внедрению Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как для обучения командой чемпионатов для ускорения освоения группами.
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 754ffc617fb310deac244a10160f435a0ba7f6ea
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 6961c55f1ea75410e5b7e807a40d9a4512ad5249
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520000"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699869"
 ---
-# <a name="create-your-champions-program-for-microsoft-teams"></a>Создание программы чемпионатов для групп Майкрософт
+# <a name="create-your-champions-program-for-microsoft-teams"></a>Программа лидеров по внедрению Microsoft Teams
 
 Чемпионатов необходимы для поездок образование, сведения о и внедрения в организации. Известный — это пользователь, в основном соображениями, как помочь другим пользователям заинтересованы в новую технологию (в частности группы) и как помочь другим сотрудникам использовать его в соответствие с best practices. В зависимости от размера организации могут быть как официальные частью роли пользователя, но часто сотрудникам выполнять эта роль сами из-за их мотивация core, чтобы помочь другим людям.
 

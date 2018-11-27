@@ -1,7 +1,7 @@
 ---
-title: Определение сценариев использования для групп Майкрософт
-author: LolaJacobsen
-ms.author: lolaj
+title: Определение сценариев использования Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Выберите сценарии использования эксперимента этапа перехода к группам.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf67d949bfbd9fab37a96d1c4307674a1e5e6b97
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 3276fc721ca1551ee810625229e9e64a3f8386da
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519993"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699807"
 ---
-# <a name="define-usage-scenarios-for-microsoft-teams"></a>Определение сценариев использования для групп Майкрософт
+# <a name="define-usage-scenarios-for-microsoft-teams"></a>Определение сценариев использования Microsoft Teams
 
 Убедитесь в том, что вы понимаете проекты (сценарии), которые будут добавлены в область по этому этапу внедрения. Рассмотрим этот список примеры сценариев, которые являются хорошие кандидатов для первых пользователей программы. Вы можете приступать к созданию простых wins таких как:
 

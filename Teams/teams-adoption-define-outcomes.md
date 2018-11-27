@@ -1,28 +1,28 @@
 ---
-title: Определение результатов деятельности и успеха для внедрения вашей группами Майкрософт
-author: LolaJacobsen
-ms.author: lolaj
+title: Результаты и критерии успеха внедрения Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как оценить результаты и успех вашей широкий масштаба Включение команд.
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe4a146492712b4d18e8a4e1b18ea393a646662e
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 2df638a12b67ac70b0759f70365f48330c26914d
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26520036"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699821"
 ---
-# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Определение результатов деятельности и успеха для внедрения вашей группами Майкрософт
+# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Результаты и критерии успеха внедрения Microsoft Teams
 
 Для каждого бизнес-сценарий или службу, которую вы модернизации крайне важна для определения цель для бизнеса. Будет собранные эти сведения для начальной сценариев, сопоставленный их на предыдущем этапе. При подготовке для реализации масштаба, необходимо пересмотреть параметры, а затем разверните этих критериев важные успеха.
   

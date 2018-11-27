@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Централизованный поиск обновлений Skype для бизнеса Server 2015 и Lync 2013, а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 6bc575a5f2ae981a6f3ea613f8a262d048c5fde0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9c7d14e1439d3f7fd88ad6246495fccc1e7ef441
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531619"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699439"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -26,6 +26,7 @@ ms.locfileid: "26531619"
 Последние обновления Skype для бизнеса Online и Office 365 см. в разделе [Стратегический план Office 365](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Журнал обновлений Skype для бизнеса Server 2015
+[Статья БАЗЫ знаний 3061064](https://support.microsoft.com/kb/3061064) содержит список всех накопительные пакеты обновления, которая была выпущена. Дата указывает дату последнего выпуска. 
 
 |Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:--- |:--- |:--- |
