@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: Настройка хранилища SQL Server соответствия требованиям, который будет предоставлять баз данных для сервера сохраняемого чата или функции соответствия сервера сохраняемого чата.
-ms.openlocfilehash: 7854255195e73dcf03ce9027cdd7390c8f4bde54
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3342cea06870ef6841536c9d99e2503745961782
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503713"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Добавление хранилища SQL Server для совместимости сохраняемого чата
  
@@ -46,13 +47,10 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
-[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Планирование для сервера сохраняемого чата в Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Требования к серверу для Скайп для Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Аппаратные и программные требования для сервера сохраняемого чата в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Требования к оборудованию и программному обеспечению для сервера сохраняемого чата в Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Настройка службы соответствия для сервера сохраняемого чата в Скайп для Business Server 2015](../../manage/persistent-chat/configure-compliance.md)
-
+[Настройка службы проверки на соответствие для сервера сохраняемого чата в Skype для бизнеса Server 2015](../../manage/persistent-chat/configure-compliance.md)
