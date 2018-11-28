@@ -11,21 +11,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: В этой статье приведены требования для поддержки систем комнаты Скайп версии 2.
-ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cadbed89be0301071c2c8a30c715f786b549d36
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532075"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716453"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
 
 В этой статье приведены требования для поддержки систем комнаты Скайп версии 2. 
 
-Развертывание включает создание учетной записи, как описано в разделе [Развертывание системы комнаты Скайп версии 2](../../deploy/deploy-clients/room-systems-v2.md) и о настройке консоли собрания, как описано в статье [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md). Может также потребоваться ссылаться на [Скайп для лицензирования дополнительный компонент Business](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
+Развертывание включает создание учетной записи, как описано в разделе [Развертывание системы комнаты Скайп версии 2](../../deploy/deploy-clients/room-systems-v2.md) и о настройке консоли собрания, как описано в статье [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md). 
+
+Может также потребоваться обращайтесь к:
+
+- [Скайп для лицензирования дополнительный компонент Business](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [Назначение лицензий на основе плана параметры: систем комнаты Скайп версии 2](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Версии 2 Скайп комнаты систем предназначен для использования с Скайп для Business Server 2019, Скайп Business Server 2015, группами Майкрософт или Скайп для бизнеса в Интернет. <br><br>Более ранних платформы, как Lync Server 2013 не требуются для работы с системами комнаты Скайп версии 2. 
+> Версии 2 Скайп комнаты систем предназначен для использования с Скайп для Business Server 2019, Скайп Business Server 2015, группами Майкрософт или Скайп для бизнеса в Интернет. <br><br>Более ранних платформы, как Lync Server 2013 не требуются для работы с системами комнаты Скайп версии 2.
 
 > [!NOTE]
 > При использовании Exchange server на prem Скайп комнаты систем v2 необходимо использовать Exchange Server 2013 с пакетом обновления 1 или более поздней версии.

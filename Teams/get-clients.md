@@ -11,22 +11,22 @@ ms.collection: Teams_ITAdmin_Help
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
-description: Сведения об использовании различных клиентов, доступных для Microsoft Teams, включая веб-клиент, классический клиент (Windows и Mac), а также мобильный клиент (Android, iOS и Windows Phone).
+description: Сведения об использовании различных клиентов недоступны для групп Майкрософт, которые включать web, рабочий стол (Windows и Mac) и мобильные устройства (Android и операций ввода-вывода).
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f90913cfcaa3fe36380ba0c072d921c7f55fa126
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 16ee59e01a45e79bb04a410857e128df7f12934e
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649543"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716353"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 ===========================
 
-Группами Майкрософт имеет клиентов для настольных компьютеров Windows и Mac, web и мобильных устройств (Android, iOS и Windows Phone). Все они нуждаются в активном подключении к Интернету и не поддерживают автономный режим.
+Группами Майкрософт имеет клиентов для настольных компьютеров Windows и Mac, web и мобильных устройств (Android и операций ввода-вывода). Все они нуждаются в активном подключении к Интернету и не поддерживают автономный режим.
 
 > [!NOTE]
 > Эффективное 29 ноября 2018, вы больше не сможете использовать группами Майкрософт для приложения Windows 10 S (Предварительная версия), доступные из хранилища Microsoft. Мы рекомендуем использовать одну из команд приложения, описанного ниже в этой статье после 29 ноября.

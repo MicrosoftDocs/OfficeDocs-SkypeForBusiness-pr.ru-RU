@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76bacfe85fce14b2d5b1469295134e560c14c54a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a44af03e694937c5e874f6d53c0795a0c61dd606
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373294"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716369"
 ---
 # <a name="plan-my-users-experience"></a>Планирование взаимодействия пользователя Мои пользователи
 
@@ -26,7 +26,7 @@ ms.locfileid: "25373294"
 
 ## <a name="client-deployment"></a>Развертывание клиентов
 
-В Microsoft Teams доступен веб-клиент, классический клиент (Windows и Mac) и мобильный клиент (Android, iOS и Windows Phone). Дополнительные сведения о способа установки рабочих столов (Windows и Mac) и мобильных клиентов [получить клиентов для групп Майкрософт](https://docs.microsoft.com/microsoftteams/get-clients)см.
+Группами Майкрософт имеет клиенты доступных веб-приложений, настольных систем (Windows и Mac) и мобильные устройства (Android и операций ввода-вывода). Дополнительные сведения о способа установки рабочих столов (Windows и Mac) и мобильных клиентов [получить клиентов для групп Майкрософт](https://docs.microsoft.com/microsoftteams/get-clients)см.
 
 ## <a name="client-updates"></a>Обновления клиента
 
