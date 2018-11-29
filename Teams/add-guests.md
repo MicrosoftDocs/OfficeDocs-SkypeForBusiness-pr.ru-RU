@@ -12,12 +12,12 @@ ms.reviewer: sbhatta
 description: Вы можете узнать о доступных администратору средствах для добавления новых гостевых пользователей в организацию, включая классический и веб-клиент Microsoft Teams, а также портал для совместной работы Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0671774d01ce8b2dfeea78fff36dde117931ff00
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 729490af1c1e15b82d62dc35386e9ad4344d863a
+ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674467"
+ms.lasthandoff: 11/29/2018
+ms.locfileid: "26984736"
 ---
 <a name="add-a-guest-to-a-team"></a>Добавление гостя в команду
 =====================
@@ -48,6 +48,6 @@ ms.locfileid: "26674467"
 
 ## <a name="more-information"></a>Подробная информация
 
-[Разрешения доступа гостя в группах Microsoft](teams-dependencies.md)
-[Включение и отключение гостевой доступ в группах Microsoft](set-up-guests.md)
-[Использование PowerShell для управления доступом к гостевой группы.](guest-access-powershell.md)
+[Авторизация гостевого доступа в Microsoft Teams](teams-dependencies.md)</br>
+[Включение и отключение гостевой доступ в группах Майкрософт](set-up-guests.md)</br>
+[Использование PowerShell для управления гостевым доступом в команде](guest-access-powershell.md)
