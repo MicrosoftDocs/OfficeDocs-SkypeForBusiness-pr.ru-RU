@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: Сводка. Обзор поддерживаемых клиентов и приложений для Skype для бизнеса
-ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: bde1e70699de8adfdf58a7cc892405d8eee8675c
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530815"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993382"
 ---
 # <a name="plan-for-clients-and-devices"></a>Планирование для клиентов и устройств
 
@@ -34,13 +34,13 @@ Skype для бизнеса поддерживает клиенты нескол
 
 ### <a name="skype-for-business-2019"></a>Skype для бизнеса 2019
 
-Skype для бизнеса 2019 является рекомендованным полнофункциональным клиентом для Skype для бизнеса Server 2019. Описание новых возможностей см. в статье [Новые возможности Skype для бизнеса 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781). Поддержка функций клиентов подробно описана в статье [Сравнение функций классических клиентов для Skype для бизнеса](desktop-feature-comparison.md), а пользовательская документация приведена в статье [Справка по Skype для бизнеса](https://support.office.com/en-US/Skype-for-business). Этот клиент устанавливается, когда пользователь устанавливает Office 365.
+Скайп для бизнеса (2019) — это рекомендуемое полнофункциональный клиент для Скайп Business Server 2015 и 2019. Описание новых функций в разделе [выполните последних обновлений в Скайп для бизнеса](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) . Поддержка функций клиентов подробно описана в статье [Сравнение функций классических клиентов для Skype для бизнеса](desktop-feature-comparison.md), а пользовательская документация приведена в статье [Справка по Skype для бизнеса](https://support.office.com/en-US/Skype-for-business). Этот клиент устанавливается, когда пользователь устанавливает Office 365.
 
 Доступен также бесплатный базовый клиент, поддерживающий меньшее количество функций. Обе версии можно скачать на странице [Загрузка Skype для бизнеса для всех устройств](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). Отличия полного и базового клиентов описаны в разделе [Ограничения базового клиента](desktop-feature-comparison.md#Full-Basic).
 
 ### <a name="skype-for-business-2016"></a>Skype для бизнеса 2016
 
-Skype для бизнеса 2016 является рекомендованным полнофункциональным клиентом для Skype для бизнеса Server. Описание новых возможностей см. в статье [Новые возможности Skype для бизнеса 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781). Поддержка функций клиентов подробно описана в статье [Сравнение функций классических клиентов для Skype для бизнеса](desktop-feature-comparison.md), а пользовательская документация приведена в статье [Справка по Skype для бизнеса](https://support.office.com/en-US/Skype-for-business). Этот клиент устанавливается, когда пользователь устанавливает Office 365.
+Скайп 2016 Business — это полнофункциональный клиент для Скайп Business Server 2015 или 2019. Описание новых возможностей см. в статье [Новые возможности Skype для бизнеса 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781). Поддержка функций клиентов подробно описана в статье [Сравнение функций классических клиентов для Skype для бизнеса](desktop-feature-comparison.md), а пользовательская документация приведена в статье [Справка по Skype для бизнеса](https://support.office.com/en-US/Skype-for-business). Этот клиент устанавливается, когда пользователь устанавливает Office 365.
 
 Доступен также бесплатный базовый клиент, поддерживающий меньшее количество функций. Обе версии можно скачать на странице [Загрузка Skype для бизнеса для всех устройств](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). Отличия полного и базового клиентов описаны в разделе [Ограничения базового клиента](desktop-feature-comparison.md#Full-Basic).
 
