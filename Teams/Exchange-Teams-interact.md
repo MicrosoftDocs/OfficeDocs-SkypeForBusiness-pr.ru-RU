@@ -3,7 +3,6 @@ title: Взаимодействие Exchange и Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
@@ -13,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aeeab6f84b222500829282d29ac06ec73d42ecc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1fc28a19f8ebccc494f59416cec0faa21a2b6d8f
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373338"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131240"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams 
 =========================================
@@ -40,8 +39,8 @@ ms.locfileid: "25373338"
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Да,<sup>2</sup>|Да,<sup>2</sup>|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|
 |**Exchange Online Dedicated vNext**|Да,<sup>2</sup>|Да,<sup>2</sup>|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|Да|
-|**Устаревшая среда Exchange Online Dedicated** (требуется синхронизация с Azure AD)|Да ([список разрешенных](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Да,<sup>2, 3</sup>|Нет|Да|Нет|Нет|Да|Да|Нет|Нет|Нет|Да|Да|
-|**Локальная организация Microsoft Exchange** (требуется синхронизация с Azure AD)|Да ([список разрешенных](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Да,<sup>2, 3</sup>|Нет|Да|Да (Exchange 2016 CU3 +)|Нет|Да|Да|Нет|Нет|Нет|Нет|Да|
+|**Устаревшая среда Exchange Online Dedicated** (требуется синхронизация с Azure AD)|Да, <sup>2</sup>|Да,<sup>2, 3</sup>|Нет|Да|Нет|Нет|Да|Да|Нет|Нет|Нет|Да|Да|
+|**Локальная организация Microsoft Exchange** (требуется синхронизация с Azure AD)|Да, <sup>2</sup>|Да,<sup>2, 3</sup>|Нет|Да|Да (Exchange 2016 CU3 +)|Нет|Да|Да|Нет|Нет|Нет|Нет|Да|
                                                             
 <sup>1</sup> exchange 2016 накопительным пакетом обновления 3 и выше поддерживается  
 <sup>2</sup> обнаружения электронных данных и юридическое удержание для соответствия требованиям в сообщениях канала поддерживается для все варианты размещения.  
@@ -67,7 +66,7 @@ ms.locfileid: "25373338"
 > Если согласно применяемым в вашей организации требованиям соответствия все обсуждения на собраниях должны быть доступны для обнаружения, следует отключить частные собрания, когда организатор использует почтовый ящик в локальной организации Microsoft Exchange.
 > 
 > [!IMPORTANT]
->   Пользователи, участвовать в беседах, в которых являются частью список чата в группах Microsoft должны иметь почтовый ящик Exchange Online (на основе облака) для администратора для поиска бесед чата. Это вызвано тем, что беседы, входящие в список чатов, хранятся именно в облачных почтовых ящиках участников. Если у участника чата нет почтового ящика Exchange Online, администратор не сможет искать беседы или помещать их на удержание. Например, при гибридном развертывании Exchange пользователи с локальными почтовыми ящиками могут участвовать в беседах, входящих в список чатов в Microsoft Teams. Однако в этом случае поиск и удержание для таких бесед не поддерживаются, так как у пользователей нет облачных почтовых ящиков. Дополнительные сведения о поиске контента в Microsoft Teams см. в разделе [Поиск контента в Центре безопасности и соответствия требованиям Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+> В гибридном развертывании Exchange содержимого из сообщения с возможностью поиска, независимо от того, есть ли у участников беседы облачного почтового ящика или локального почтового ящика. Для получения дополнительных сведений, прочитайте [поиска облачные почтовые ящики для локальных пользователей в Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Дополнительные сведения о поиске содержимого в группах, прочитайте [Содержимое поиска в Office 365 безопасности & центре соответствия требованиям](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 > 
 > [!TIP]
->   Сведения об использовании Azure AD подключение для синхронизации с Azure Active Directory в разделе [*Интеграция вашей локальной удостоверения с помощью Azure Active Directory*](https://go.microsoft.com/fwlink/?linkid=854600).
+> Сведения об использовании Azure AD подключение для синхронизации с Azure Active Directory в разделе [Интеграция вашей локальной удостоверения с помощью Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
