@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Сводка: Перейдите по этим ссылкам, чтобы узнать, как реализовать Скайп для Business Server 2019.'
-ms.openlocfilehash: 66c3f4651a6423d7e8938c8c063c98aa5aeaaf47
-ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
+ms.openlocfilehash: 882338dc02f8db9c73415e73938a116ee3ea6171
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/29/2018
-ms.locfileid: "26984743"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131217"
 ---
 # <a name="skype-for-business-server-2019"></a>Скайп для Business Server 2019
 
@@ -205,7 +205,7 @@ ms.locfileid: "26984743"
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Прежде чем начать** <br>[Требования к системе](plan/system-requirements.md) <br>[Сетевые требования](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Установка ** <br>[Установка Skype для бизнеса Server](../SfbServer/deploy/install/install.md) <br> [Перенос в Скайп для бизнеса 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Корпоративная голосовая связь**.<br>[Планирование](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Развертывание](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **Новые возможности**<br>[Новые возможности](whats-new.md)                                                                                                                                         | **Гибридные решения**<br>[Планирование гибридного подключения](hybrid/plan-hybrid-connectivity.md)<br> [Планирование службы голосовой почты в облаке](hybrid/plan-cloud-voicemail.md)<br>[Планирование подключения к данным звонка](hybrid/plan-call-data-connector.md) |                                                                                                                                                                                                     |
+| **Новые возможности**<br>[Новые возможности](whats-new.md)                                                                                                                                         | **Гибридные решения**<br>[Планирование гибридного подключения](hybrid/plan-hybrid-connectivity.md)<br> [Планирование службы голосовой почты в облаке](hybrid/plan-cloud-voicemail.md)<br>[Планирование подключения к данным звонка](hybrid/plan-call-data-connector.md) |  **Предыдущих версий**<br/>  [Скайп документация Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Документация по Lync Server 2013](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
-* * *   
+* * *
