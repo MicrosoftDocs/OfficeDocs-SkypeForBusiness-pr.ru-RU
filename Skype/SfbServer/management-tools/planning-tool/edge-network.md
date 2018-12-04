@@ -1,5 +1,5 @@
 ---
-title: Пограничная сеть (средство планирования)
+title: Edge Network (Planning Tool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 'Большинство пограничных компонентов развертывается в сети периметра. Указанные ниже компоненты составляют пограничную топологию этой сети. За исключением того, если не указано иное, компоненты являются частью сценарии пограничного сервера в Скайп для Business Server 2015 и находятся в сети периметра. К пограничным компонентам относятся следующие:'
-ms.openlocfilehash: 48b574c749d96a0b252b2f5d90946cb3c66991a5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8a7dab2c702127bfffa8823fb364e87274cc00c2
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504700"
 ---
-# <a name="edge-network-planning-tool"></a>Пограничная сеть (средство планирования)
+# <a name="edge-network-planning-tool"></a>Edge Network (Planning Tool)
  
 Большинство пограничных компонентов развертывается в сети периметра. Указанные ниже компоненты составляют пограничную топологию этой сети. Если не указано иное компоненты являются частью [сценарии пограничного сервера в Скайп для Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) и находятся в сети периметра. К пограничным компонентам относятся следующие:
   
@@ -35,9 +36,6 @@ ms.lasthandoff: 03/28/2018
     
 ## <a name="see-also"></a>См. также
 
-#### 
-
-[Планирование развертывания пограничного сервера, в Скайп для Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[Планирование развертываний пограничного сервера в Skype для бизнеса Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[Пограничный сервер требования к системе в Скайп для Business Server 2015](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
-
+[Требования к системе пограничных серверов в Skype для бизнеса Server 2015](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

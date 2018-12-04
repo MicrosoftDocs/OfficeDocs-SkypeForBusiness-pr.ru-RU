@@ -11,12 +11,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
-description: Включение или отключение развернутого сервера сохраняемого чата или пул серверов сохраняемого чата с помощью серверов или пулов, перечисленные в параметры состояния компьютера. В списке выберите сервер или пул и нажмите кнопку сделать active для установки сервера или пула как активный.
-ms.openlocfilehash: 4005cbd2aa6973023321fe198876a6b4149b9476
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Включение или отключение развернутого сервера сохраняемого чата или пул серверов сохраняемого чата с помощью серверов или пулов, перечисленные в параметры состояния компьютера. Для перевода сервера или пула в активное состояние следует выбрать его в списке и нажать кнопку Сделать активным.
+ms.openlocfilehash: 250804a75c962d9baadc7338052eae1175c57286
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504392"
 ---
 # <a name="persistent-chat-machines-expander"></a>Расширитель настроек компьютеров сохраняемого чата
  
@@ -32,9 +33,6 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
-[Планирование для сервера сохраняемого чата в Скайп Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Планирование для сервера сохраняемого чата в Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [Добавление сервера сохраняемого чата для вашей Скайп для топологии Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-

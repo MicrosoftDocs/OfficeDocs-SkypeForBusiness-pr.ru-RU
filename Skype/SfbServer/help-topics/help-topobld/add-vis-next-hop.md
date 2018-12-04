@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server 2015.
-ms.openlocfilehash: 39d98e6b1ee3be3cbfb63b9d8ad2b4e706288b7a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7c283e9d653dff4cd95b7a1ba21ab908fbdf2dc2
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503643"
 ---
 # <a name="add-vis-next-hop"></a>Добавление следующего скачка сервера видеовзаимодействия
  
@@ -32,7 +33,4 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="see-also"></a>См. также
 
-#### 
-
-[Планирование для Business Server 2015 видео взаимодействия сервера в Скайп](../../plan-your-deployment/video-interop-server.md)
-
+[Планирование для сервера видеовзаимодействия в Skype для бизнеса Server 2015](../../plan-your-deployment/video-interop-server.md)

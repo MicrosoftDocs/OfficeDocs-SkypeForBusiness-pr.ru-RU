@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblEnumValue — это встроенная таблица, которая содержит значения отображения и поведения атрибутов, используемых в таблице Node.
-ms.openlocfilehash: 4957f87401dc93cc98d18fa5b1844e13daaefabd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e17e5fc167342c106e7b5354d90c7fc284785c3
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505078"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -47,7 +48,4 @@ tblEnumValue — это встроенная таблица, которая со
    
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [tblNode](tblnode.md)
-

@@ -1,5 +1,5 @@
 ---
-title: Таблица tblLastChatId
+title: tblLastChatId
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,13 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 description: Таблица tblLastChatId содержит последние Идентификаторы чатов, созданного (и используемый в таблице tblChat) для каждого пользователя.
-ms.openlocfilehash: 4a22dc9ba1c2dbe15ae0a24de6e4f347a62deaee
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dc25eb68ee1b4069ba54133548f743ca45b73e16
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505092"
 ---
-# <a name="tbllastchatid"></a>Таблица tblLastChatId
+# <a name="tbllastchatid"></a>tblLastChatId
  
 Таблица tblLastChatId содержит последние Идентификаторы чатов, созданного (и используемый в таблице tblChat) для каждого пользователя.
   
@@ -36,7 +37,4 @@ ms.lasthandoff: 03/28/2018
    
 ## <a name="see-also"></a>См. также
 
-#### 
-
 [tblChat](tblchat.md)
-
