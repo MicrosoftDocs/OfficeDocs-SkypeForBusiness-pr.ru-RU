@@ -301,3 +301,65 @@
 | 21.11.2018 | [План подготовки пользователей перед переходом со Skype для бизнеса на Microsoft Teams — Microsoft Teams](/MicrosoftTeams/upgrade-user-readiness) | Изменено |
 | 22.11.2018 | [Рекомендации по работе с командами в Microsoft Teams](/MicrosoftTeams/best-practices-organizing) | Изменено |
 | 22.11.2018 | [Управление настройками собраний в Microsoft Teams](/MicrosoftTeams/meeting-settings-in-teams) | Добавлено |
+
+
+## <a name="week-of-november-26-2018"></a>Неделя с 26 ноября 2018 г.
+
+
+| Дата публикации |Название раздела | ИЗМЕНИТЬ |
+|------|------------|--------|
+| 26.11.2018 | [Доступность в Канаде](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada) | Изменено |
+| 26.11.2018 | [Доступность во Франции](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | Изменено |
+| 26.11.2018 | [Доступность в Германии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | Изменено |
+| 26.11.2018 | [Доступность в Ирландии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland) | Изменено |
+| 26.11.2018 | [Доступность в Испании](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain) | Изменено |
+| 26.11.2018 | [Доступность в Нидерландах](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands) | Изменено |
+| 26.11.2018 | [Доступность в Соединенном Королевстве](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k) | Изменено |
+| 26.11.2018 | [Доступность в США](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s) | Изменено |
+| 26.11.2018 | [Авторизация гостевого доступа в Microsoft Teams](/MicrosoftTeams/teams-dependencies) | Изменено |
+| 26.11.2018 | [Добавление гостя в команду](/MicrosoftTeams/add-guests) | Изменено |
+| 26.11.2018 | [Изменение сведений о гостевых пользователях](/MicrosoftTeams/edit-guests-information) | Изменено |
+| 26.11.2018 | [Использование PowerShell для управления гостевым доступом в команде](/MicrosoftTeams/guest-access-powershell) | Изменено |
+| 26.11.2018 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
+| 26.11.2018 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
+| 26.11.2018 | [Взаимодействие с гостями](/MicrosoftTeams/guest-experience) | Изменено |
+| 26.11.2018 | [Присоединение гостя к команде](/MicrosoftTeams/guest-joins) | Изменено |
+| 26.11.2018 | [Управление гостевым доступом в Microsoft Teams](/MicrosoftTeams/manage-guests) | Изменено |
+| 26.11.2018 | [Просмотр гостевых пользователей в команде](/MicrosoftTeams/view-guests) | Изменено |
+| 26.11.2018 | [Доступность в Швейцарии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | Изменено |
+| 26.11.2018 | [Пробное предложение Microsoft Teams Commercial Cloud Trial](/MicrosoftTeams/iw-trial-teams) | Изменено |
+| 26.11.2018 | [Публикация в каталог приложений клиента Microsoft Teams](/MicrosoftTeams/tenant-apps-catalog-teams) | Изменено |
+| 26.11.2018 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
+| 26.11.2018 | [Обучение конечных пользователей для работы с Microsoft Teams](/MicrosoftTeams/enduser-training) | Изменено |
+| 26.11.2018 | [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | Изменено |
+| 26.11.2018 | [Внедрение Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | Изменено |
+| 26.11.2018 | [Инструменты и скачиваемые материалы по внедрению](/MicrosoftTeams/adopt-tools-and-downloads) | Изменено |
+| 26.11.2018 | [Общие сведения о динамическом членстве в командах](/MicrosoftTeams/dynamic-memberships) | Изменено |
+| 26.11.2018 | [Аппаратные требования для приложения Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
+| 26.11.2018 | [Планирование управления жизненным циклом в Teams — Microsoft Teams](/MicrosoftTeams/plan-teams-lifecycle) | Изменено |
+| 26.11.2018 | [Насколько готова ваша организация к внедрению Microsoft Teams?](/MicrosoftTeams/teams-adoption-assess-readiness) | Изменено |
+| 26.11.2018 | [Программа лидеров по внедрению Microsoft Teams](/MicrosoftTeams/teams-adoption-create-champions-program) | Изменено |
+| 26.11.2018 | [Результаты и критерии успеха внедрения Microsoft Teams](/MicrosoftTeams/teams-adoption-define-outcomes) | Изменено |
+| 26.11.2018 | [Определение сценариев использования Microsoft Teams](/MicrosoftTeams/teams-adoption-define-usage-scenarios) | Изменено |
+| 26.11.2018 | [Информированность и внедрение обучения по Microsoft Teams](/MicrosoftTeams/teams-adoption-drive-awareness) | Изменено |
+| 26.11.2018 | [Начало работы с внедрением Microsoft Teams](/MicrosoftTeams/teams-adoption-get-started) | Изменено |
+| 26.11.2018 | [Краткое руководство по управлению Microsoft Teams](/MicrosoftTeams/teams-adoption-governance-quick-start) | Изменено |
+| 26.11.2018 | [Подключение ранних последователей и сбор отзывов по Microsoft Teams](/MicrosoftTeams/teams-adoption-onboard-early-adopters) | Изменено |
+| 26.11.2018 | [Подключение службы поддержки по Microsoft Teams](/MicrosoftTeams/teams-adoption-onboard-support) | Изменено |
+| 26.11.2018 | [Оптимизация отзывов и отчетности по внедрению Microsoft Teams](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) | Изменено |
+| 26.11.2018 | [Внедрение Microsoft Teams. Этап 1 — запуск](/MicrosoftTeams/teams-adoption-phase1) | Изменено |
+| 26.11.2018 | [Внедрение Microsoft Teams. Этап 2 — эксперименты](/MicrosoftTeams/teams-adoption-phase2-experiment) | Изменено |
+| 26.11.2018 | [Внедрение Microsoft Teams. Этап 3 — масштабирование](/MicrosoftTeams/teams-adoption-phase3-enable) | Изменено |
+| 26.11.2018 | [Краткий контрольный список по внедрению Microsoft Teams](/MicrosoftTeams/teams-adoption-quick-start-checklist) | Изменено |
+| 26.11.2018 | [Планирование проверок работоспособности служб при внедрении Microsoft Teams](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) | Изменено |
+| 26.11.2018 | [Знакомство с командами и каналами в Microsoft Teams](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | Изменено |
+| 26.11.2018 | [Создание первых команд в Microsoft Teams](/MicrosoftTeams/teams-adoption-your-first-teams) | Изменено |
+| 27.11.2018 | [Планирование работы пользователей в Microsoft Teams](/MicrosoftTeams/5-envision-plan-my-users-experience) | Изменено |
+| 27.11.2018 | [Краткое руководство для администраторов — Microsoft Teams для образовательных учреждений](/MicrosoftTeams/teams-quick-start-edu) | Изменено |
+| 27.11.2018 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
+| 27.11.2018 | [Подключение к Microsoft Teams ранних последователей](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | Изменено |
+| 27.11.2018 | [Использование файлов журналов для устранения неполадок в Microsoft Teams](/MicrosoftTeams/log-files) | Изменено |
+| 27.11.2018 | [Подготовка сети организации к использованию Microsoft Teams](/MicrosoftTeams/prepare-network) | Изменено |
+| 29.11.2018 | [Добавление гостя в команду](/MicrosoftTeams/add-guests) | Изменено |
+| 29.11.2018 | [Сосуществование со Skype для бизнеса](/MicrosoftTeams/coexistence-chat-calls-presence) | Изменено |
+| 29.11.2018 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
