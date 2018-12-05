@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 865da90f5b6c9ffc13694692a67ab092d05c755a
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: ec2db02fe8b91736675027aee2a08a7a8587105c
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626178"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156079"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 
@@ -97,7 +97,7 @@ ms.locfileid: "26626178"
  
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>Моя организация уже запущена группами наряду с Скайп для бизнеса. Только что отключить Скайп для бизнеса?
 
-Нет, вы захотите переключитесь в режим **только команды** для выполнения их обновления до групп пользователей. Если ваша организация готова для перехода к группам, занять время сообщать пользователям, чтобы позволить им сведений о событиях сегодняшнего и разрешить некоторое время на acclimate группами. Это будет гарантировать, что у них есть срабатывание вопросы обновления и упрощается звонков в службу поддержки. Образцы шаблонов взаимодействия Загрузите нашего [Набора успешности обновления](https://aka.ms/skypetoteams-UpgradeSuccessKit).
+Нет, вы захотите переключитесь в режим **только команды** для выполнения их обновления до групп пользователей. Если ваша организация готова для перехода к группам, занять время сообщать пользователям, чтобы позволить им сведений о событиях сегодняшнего и разрешить некоторое время на acclimate группами. Это будет гарантировать, что у них есть срабатывание вопросы обновления и упрощается звонков в службу поддержки. Образцы шаблонов взаимодействия Загрузите нашего [Набора успешности обновления](https://aka.ms/UpgradeSuccessKit).
  
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>Пользователей, которые смогут связаться, если программа вопросы о процессе обновления?
 

@@ -1,5 +1,5 @@
 ---
-title: Понятие о сосуществования и взаимодействия Скайп для бизнеса и группами Майкрософт
+title: Сосуществование и взаимодействие Microsoft Teams и Skype для бизнеса
 author: lsomi
 ms.author: lsomi
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be6cb8b6154c67e75a84bbb2e44add6109b3108c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532441"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156127"
 ---
 ![Этапы обновления пути с акцентом на стадии определения проекта] (media/upgrade-banner-project-definition.png "Этапы обновления пути с акцентом на стадии определения проекта")
 
@@ -54,7 +54,7 @@ ms.locfileid: "26532441"
 
 В этом режиме сосуществования пользователей остаются в Скайп для бизнеса — не групп — для чата, собрания и вызывающий возможности и они не используйте команды для групп и каналы. Этот режим доступен в настоящее время; Тем не менее в текущей реализации модальностей команды не отключаются для пользователя автоматически. Это предстоящие. До этого времени "Администраторы" можно удалить лицензии групп пользователей, которые должны оставаться в Скайп для бизнеса, как их только приложение коммуникаций.
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>Только групп (этот режим развертывания out 2018 лето и будет выполнено для всех клиентов, попадающих 2018)
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>Только групп (этот режим развертывания out 2018 лето и выполнения для всех клиентов в календарный год 2019)
 
 Как только ваша организация готова для некоторых или всех пользователей для использования в качестве их единственным средством коммуникаций и совместной работы групп, этих пользователей можно выполнить обновление до **Групп только** в режиме.
 
