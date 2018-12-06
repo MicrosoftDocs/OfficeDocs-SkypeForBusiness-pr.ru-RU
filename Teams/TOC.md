@@ -58,11 +58,10 @@
 ### [Требования к оборудованию для приложения группы](hardware-requirements-for-the-teams-app.md)
 ### [Установка группы с помощью MSI](msi-deployment.md)
 ### [Развертывание групп для предоставления сервера-концентратора](teams-surface-hub.md)
-## [Запуск команды в виртуальной среде](virtual-environment-teams.md)
 ## [Позволяют группам в организации](Office-365-set-up.md)
 ## [Область поиска в каталоге Microsoft Teams](teams-scoped-directory-search.md)
 ## [Управление функциями группами в организации](enable-features-office-365.md)
-### [Управление группами во время перехода на новые группами Майкрософт & Скайп по центру администрирования Business](manage-teams-skypeforbusiness-admin-center.md)
+### [Управление Teams при переходе на Центр администрирования Microsoft Teams и Skype для бизнеса](manage-teams-skypeforbusiness-admin-center.md)
 ### [Управление группами в группами Майкрософт & Скайп по центру администрирования Business](manage-teams-in-modern-portal.md)
 ### [Назначение группы владельцев и членов в группы](assign-roles-permissions.md)
 ### [Публикация приложений в каталог приложений группы клиента](tenant-apps-catalog-teams.md)
@@ -202,7 +201,7 @@
 # Возможности
 ## Команды и каналы
 ### [Обзор команд и каналов в Teams](teams-channels-overview.md)
-### [Назначение группы владельцев и членов в группы Microsoft](assign-roles-permissions.md)
+### [Назначение владельцев и участников команд в Microsoft Teams](assign-roles-permissions.md)
 ### [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ### [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
 ### [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)

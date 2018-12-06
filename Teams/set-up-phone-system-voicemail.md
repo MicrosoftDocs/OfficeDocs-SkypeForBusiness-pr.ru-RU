@@ -3,7 +3,7 @@ title: Настройка голосовой почты телефонной с�
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: wasseemh
+ms.reviewer: wasseemh, phans
 ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: 6538713096804897d68d5b71d86bb84cf79be9ab
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fa0783cf51b7d3b7bf29b4948994060a3d1f63a1
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015743"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182514"
 ---
 # <a name="set-up-phone-system-voicemail"></a>Настройка голосовой почты телефонной системы
 
@@ -42,7 +42,7 @@ ms.locfileid: "25015743"
 
 Для пользователей Skype для бизнеса Online и планов звонков голосовая почта телефонной системы настраивается автоматически и предоставляется пользователям после того, как вы назначите им лицензию на **телефонную систему** и номер телефона.
   
-1. Если компонент телефонной системой не включена в план, может потребоваться приобрести лицензии дополнительный компонент **Телефонной системой** . Кроме того, может потребоваться приобрести лицензии Exchange Online. В разделе [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+1. If the Phone System feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. You may also need to purchase an Exchange Online license. See [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
     
 2. [Управление лицензиями Office 365 бизнес](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [Назначение лицензий Skype для бизнеса и Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) и Exchange Online пользователям своей организации. После этого они смогут получать сообщения голосовой почты.
     
@@ -52,7 +52,7 @@ ms.locfileid: "25015743"
 
 В этом разделе приводятся сведения о настройке службы голосовой почты телефонной службы для работы в локальных средах планов звонков.
   
-1. Если компонент телефонной системой не включена в план, может потребоваться приобрести лицензии дополнительный компонент **Телефонной системой** . Необходимо также приобрести лицензии Exchange Online. В разделе [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+1. If the Phone System feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. You also need to purchase an Exchange Online license. See [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
     
 2. [Управление лицензиями Office 365 бизнес](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [Назначение лицензий Skype для бизнеса и Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) и Exchange Online пользователям своей организации.
     
@@ -61,6 +61,8 @@ ms.locfileid: "25015743"
 4. Транскрибирование голосовой почты поддерживается с марта 2017 г. и включено по умолчанию для всех организаций и пользователей. Отключить транскрибирование для организации можно с помощью Windows PowerShell и приведенных ниже действий.
 
 5. Сведения о настройке доставки сообщений голосовой почты Azure для пользователей телефонной системы, имеющих локальный почтовый ящик, можно найти в статье [Azure PBX voicemail support for Exchange Server (Поддержка голосовой почты УАТС Azure для Exchange Server)](https://support.microsoft.com/kb/3195158).
+
+6. Также прочтите и выполните шаги, описанные в следующих документов: [мастера гибридной конфигурации](https://docs.microsoft.com/en-us/exchange/hybrid-configuration-wizard)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Настройка политик голосовой почты в организации
 
@@ -73,7 +75,7 @@ ms.locfileid: "25015743"
 
  **PS C:\\> Get-CsOnlineVoicemailPolicy**
   
-![Результаты окна Get-CsOnlineVoiceMailPolicy.](media/6cea8310-2d71-4b95-8d36-688472845727.png)
+![Get-CsOnlineVoiceMailPolicy results window.](media/6cea8310-2d71-4b95-8d36-688472845727.png)
   
 ### <a name="turning-off-transcription-for-your-organization"></a>Выключение транскрибирования для организации
 

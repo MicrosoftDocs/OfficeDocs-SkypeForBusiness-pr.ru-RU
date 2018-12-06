@@ -3,7 +3,7 @@ title: Создание очереди звонков в телефонной с
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: phans, wasseemh
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 742fdbf38aeb64426ad1781d552c580385dc8117
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ec3cbc89a0a8ab07d7936d604d1f38a5d99ed2b6
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531837"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182396"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Создание очереди звонков в телефонной системе
 
@@ -156,7 +156,7 @@ ms.locfileid: "26531837"
 ![Set up call queues.](../images/skype-for-business-add-agents-to-call-queue.png)
   
 ***
-![Номер 1](../images/sfbcallout1.png)<br/><br/>Операторами (максимальное число которых равно 50) могут быть:
+![Номер 1](../images/sfbcallout1.png)<br/><br/>Агенты вызова (200 максимальное) может быть:
 * подключенные к сети пользователи, обладающие лицензией на **телефонную систему** и разрешением на использование корпоративной голосовой связи, либо тарифным планом. <br/><br/> **Примечание.**  Переадресация вызовов подключенным к сети сотрудникам организации возможна только в случае, если они обладают лицензией на **телефонную систему** и могут пользоваться корпоративной голосовой связью, либо имеют тарифный план. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Для предоставления сотрудникам доступа к корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
 * Подключенные к сети пользователи, обладающие лицензией на **телефонную систему** и тарифным планом, которые добавлены в группу Office 365, список распределения с включенной поддержкой почты или группу безопасности. Добавление нового оператора в список распределения или группу безопасности для приема содержащихся в очереди вызовов может занимать до 30 минут. Чтобы вновь созданный список распределения или группа безопасности стали доступными для использования с очередями вызовов, может потребоваться до 48 часов. Вновь созданные группы Office 365 становятся доступными незамедлительно. <br/> 
 

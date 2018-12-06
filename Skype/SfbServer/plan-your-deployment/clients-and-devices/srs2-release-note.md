@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этой статье рассматривается накопительное улучшения в системах комнаты Скайп версии 2.
-ms.openlocfilehash: b4b7e8f238ce0963908b5aba1984bbd3f6d18a9f
-ms.sourcegitcommit: 19daa277829019807532e4ccb88cad1fdac6ee85
+ms.openlocfilehash: d37cf7561f2728dafa850aaa38d6e322fda7cfb9
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "25607384"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182482"
 ---
 # <a name="release-notes"></a>Примечания к выпуску 
 
@@ -26,6 +26,7 @@ ms.locfileid: "25607384"
 
 | Выпуск | Опубликовать в <br>Хранилище Майкрософт | 
 | ---     | ---  |
+| 4.0.51.0 | 11/17/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
 | 4.0.19.0 |  08/31/2018    |   
@@ -48,6 +49,10 @@ ms.locfileid: "25607384"
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Скайп помещения систем v2 компонента введение и проблема решение
+
+### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
+Представлено в это обновление:
+- Поддержка двойной отображения (в передней части комнаты) для собраний группы 
 
 ### <a name="40310-10162018"></a>4.0.31.0 (10/16/2018)
 Представлено в это обновление:
@@ -196,6 +201,6 @@ Introduced in this update:
 
 [Известные проблемы с системами комнаты Скайп версии 2](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Планирование для Систем комнат Skype версии 2](skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
 
 [Управление Системами комнат Skype версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

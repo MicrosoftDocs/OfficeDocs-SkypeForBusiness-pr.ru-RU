@@ -19,13 +19,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Узнайте, что вам нужно, и как организаторы собраний могут позвонить другим людям, с помощью Skype для бизнеса.
-ms.openlocfilehash: 2fe59b977384e9c76dfde4a9fd609510dc69a5d4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
+ms.openlocfilehash: d4ff0ab207d5526fe8b24f4ec791de5f952a83e3
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887317"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182345"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Чтобы другие пользователи могут присоединиться к ней выходному из Скайп для собраний
 
@@ -37,6 +37,8 @@ ms.locfileid: "23887317"
 - Вы можете подключение по телефонной линии только в том случае, если вам присоединиться к собранию с помощью Скайп для бизнес-приложения.
     
 - Вы организатор собрания был разрешен доступ к конференции.
+
+Для добавления других участников с помощью подключение по телефонной линии к собраниям вашей организации, по крайней мере один прошедших проверку пользователей из той же организации как Организатор (вашей организации) должен быть указан в собрании в друга, чтобы разрешить добавление другим участникам через подключение по телефонной линии. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -59,6 +61,6 @@ Dial-out is only available to some countries/regions. Полный список 
     
 - [Скайп для лицензирования дополнительный компонент Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
 [Установка Skype для бизнеса](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
