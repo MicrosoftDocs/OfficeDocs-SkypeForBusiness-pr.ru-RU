@@ -225,7 +225,7 @@
 ### [Включение и отключение отправки писем при смене настроек аудиоконференций](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 ### [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [Включение и отключение объявлений о входе и выходе в собраниях](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-
+### [Настройка рабочему столу в группах](configure-desktop-sharing.md)
 ### [Запись собрания Teams в облаке](cloud-recording.md)
 ### [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ### [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -246,7 +246,6 @@
 ### [Добавление ботов для приватных чатов и каналов в Teams](add-bots.md)
 ### [Использование встроенных и настраиваемых вкладок в Teams](built-in-custom-tabs.md)
 ### [Использование Office 365 и настраиваемых соединителей в Teams](office-365-custom-connectors.md)
-### [Использование П-бота для помощи пользователям с Teams](t-bot.md)
 ### [Использование отчетов о действиях для групп](teams-activity-reports.md)
 ### [Использовать встроенный перевод сообщений в группах](inline-message-translation-teams.md)
 

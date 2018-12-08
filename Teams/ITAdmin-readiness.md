@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21a55aed41443ed0a1411384579cfad2acda7de5
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: f8f83869d715c01f678e112eb9170013f2f1b956
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26538971"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201343"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -130,7 +130,11 @@ ms.locfileid: "26538971"
                 <div class="card">
                     <div class="cardText">
                         <h3>Переход со Skype для бизнеса на Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Руководство. Переход со Skype для бизнеса на Teams</a></p>
+                         <p><a href="https://aka.ms/teams-upgrade-intro">Видео: Общие сведения об обновлении</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-plan">Видео: Планирование обновления</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-coexistence-interop">Видео: Взаимодействие и совместная работа</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-admin">Видео: Интерфейс администратора</a></p>
+                        <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Руководство. Переход со Skype для бизнеса на Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -165,7 +169,7 @@ ms.locfileid: "26538971"
                         <h3>Планирование и развертывание</h3>
                          <p><a href="quick-start-enable-teams.md">Quick start: Teams planning guide (Краткое руководство. Руководство по планированию Teams)</a></p>
                          <p><a href="http://aka.ms/teams-clients">Видео: Клиент рабочего стола групп Windows</a></p>
-                         <p><a href="http://aka.ms/teams-governances">Видео: Управление, управления и жизненного цикла в группах Майкрософт</a></p>
+                         <p><a href="http://aka.ms/teams-governance">Видео: Управление, управления и жизненного цикла в группах Майкрософт</a></p>
                     </div>
                 </div>
             </div>
