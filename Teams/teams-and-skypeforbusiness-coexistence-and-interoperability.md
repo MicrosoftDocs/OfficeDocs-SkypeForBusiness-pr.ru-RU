@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b2fa0d1631a3feb6d993b23a57cf084c3774c42
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 2296d7eb423d1d268742be184e7e724e69dc0965
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182465"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201479"
 ---
 ![Этапы обновления пути с акцентом на стадии определения проекта] (media/upgrade-banner-project-definition.png "Этапы обновления пути с акцентом на стадии определения проекта")
 
@@ -31,6 +31,9 @@ ms.locfileid: "27182465"
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Понятие о группами Майкрософт и Скайп для бизнеса сосуществования и взаимодействия
 
 Если организация использует Скайп для бизнеса сегодня и требуется запустить с помощью команды наряду с Скайп для бизнеса, или планируется начать обновление до групп — важно понимать, как сосуществования двух приложений, когда и как их взаимодействие и как для Управление миграции пользователей до их окончательным обновления в Скайп для бизнеса в группы.
+
+> [!Tip]
+> Просмотрите следующие сеанса, чтобы узнать о [взаимодействие и совместная работа](https://aka.ms/teams-upgrade-coexistence-interop)
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>Совместная работа групп и Скайп для бизнеса
 

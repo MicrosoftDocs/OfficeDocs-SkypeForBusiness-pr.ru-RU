@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Австралии.
-ms.openlocfilehash: c715c6670a79f6bdd317eda256bf73597f45cc82
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b39e940d4a2d4a113f1090cededdd052ff9594a9
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017457"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201471"
 ---
 # <a name="availability-in-australia"></a>Доступность в Австралии
 
@@ -44,7 +44,7 @@ ms.locfileid: "25017457"
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет. [Свяжитесь с нами](mailto:ptnapac@microsoft.com). <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет [Свяжитесь с нами](mailto:ptnapac@microsoft.com). <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Доступно  <br/> |
 
 ## <a name="phone-system"></a>Телефонная система
@@ -66,6 +66,11 @@ ms.locfileid: "25017457"
 |Доступные минуты для планов звонков  <br/> |В разделе [Telstra вызова для Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
 |Кому можно делать исходящие звонки?  <br/> |В разделе [Telstra вызова для Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
 
+> [!IMPORTANT]
+> Чтобы удалить Австралии номера (автор Telstra) свяжитесь с Telstra напрямую.
+> Чтобы обновить сведения об адресе аварийного для Австралии номера (автор Telstra) свяжитесь с Telstra непосредственно.
+> Для получения дополнительных сведений см. [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan).
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 
 |**Функция**|**Сведения**|
@@ -74,7 +79,7 @@ ms.locfileid: "25017457"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
 
-Если вы хотите получить международную и бесплатных номеров телефонов для автосекретарей и очереди вызовов, ознакомьтесь со [Telstra вызова для Office 365](https://aka.ms/TelstraVoicePlan). Для службы номера аудиоконференций, [свяжитесь с нами](mailto:ptnapac@microsoft.com).
+Если вы хотите получить бесплатный и бесплатных номеров телефонов для автосекретарей, вызовите очередей или номеров службы аудиоконференций, [свяжитесь с нами](mailto:ptnapac@microsoft.com).
 
 ## <a name="communications-credits"></a>Кредиты на связь
 
