@@ -1,12 +1,12 @@
 ---
-title: Выберите поездке обновления - группами Майкрософт
+title: Выбор способа перехода — Microsoft Teams
 author: lsomi
 ms.author: lsomi
 manager: serdars
 ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: dearbeen, bjwhalen
 description: Подробные сведения о Скайп для бизнеса и группами Майкрософт параметры совместной работы и режимы и обновления поездок группам из Скайп для бизнеса с примеры сценариев использования.
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f78cab154dd2b697cbee851a06ef8633b742dbf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: bdf8ee99b276603329682ce2a1749f946d209fbf
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533192"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214491"
 ---
 ![Этапы обновления пути с акцентом на развертывание и стадии реализации] (media/upgrade-banner-deployment.png "Этапы обновления пути с акцентом на развертывание и стадии реализации")
 
@@ -85,7 +85,7 @@ ms.locfileid: "26533192"
 
 Со временем групп пользователей может быть обновлена до **Только группы** режиме, а затем остальной части организации. В конечном итоге во всей организации будет готов к удаление Скайп для бизнеса и использовать только группы коммуникаций и совместной работы, или, если бизнес-требований диктуют необходимость сохранения Скайп для бизнеса определенной группе — большинство пользователей в Организация может использовать только группы. <br><br>
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Точка принятия решений</td><td><ul> Какие пути обновления подходит для вашей организации & #39; s бизнес-требований?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Точка принятия решений</td><td><ul> Какие пути обновления подходит для бизнес-требований вашей организации?<br><br></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Дальнейшее действие</td><td><ul> Идентификация текущей модели развертывания, использование сценариев и ключевые положения для вашей организации будет проинформировать пути к группам, который лучше всего подходит для вашей организации.<br><br></ul></td></tr>
 </table>
 
@@ -93,7 +93,7 @@ ms.locfileid: "26533192"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Точка принятия решений</td><td><ul> Какой сценарий обновления можно применять в вашей организации?<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Дальнейшие действия</td><td><ul> Принятие временной шкалы из вашей организации & #39; пути обновления s на основе системы обмена сообщениями, собраний и вызов бизнес-требований.<br><br> Решите, необходимых дополнительных действий для выполнения обновления пути.<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Дальнейшие действия</td><td><ul> Решите, временной шкалы пути обновления вашей организации на основе системы обмена сообщениями, собраний и вызов бизнес-требований.<br><br> Решите, необходимых дополнительных действий для выполнения обновления пути.<br><br></ul></td></tr>
 </table>
 
 После вы выбрали наиболее пути обновления для вашей организации, [выполните обновление до группы](https://aka.ms/SkypeToTeams-Upgrade).

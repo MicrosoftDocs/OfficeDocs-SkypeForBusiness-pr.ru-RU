@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Партнеры корпорации Майкрософт с выбранным поставщикам SBC для подтверждения своей SBC работать с прямой маршрутизации.
-ms.openlocfilehash: 2d0873916585cab3eed6295e9be499f0eab39d53
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: feed9c228f1bdc0fb4bb8beb8f403617e9907b9f
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531002"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214552"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -45,7 +45,7 @@ ms.locfileid: "26531002"
 
 |                                                       Поставщик                                                        |       Продукт       | Без обхода сервера-посредника | Обход сервера-посредника | Версия ПО |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
-| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways) |   Mediant 500 SBC   |     &#10004;     |   Ожидание    |  7.20A.200.055   |
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   Ожидание    |  7.20A.200.055   |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   Ожидание    |  7.20A.200.055   |
 |                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   Ожидание    |  7.20A.200.055   |
 |                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   Ожидание    |  7.20A.200.055   |

@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: 994d9d25c41f5f403873a0069564f675e0020d61
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 3b023262971e9dcae111ed82d49d101437bbcda3
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510670"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214613"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -33,8 +33,8 @@ ms.locfileid: "26510670"
 
 Рекомендуется, чтобы подтвердить, что пограничного контроллера Сеансов уже настроен соответствии с рекомендациями по своему поставщику SBC: 
 
-- Документация по развертыванию AudioCodes 
-- Лента Communications документации по развертыванию
+- [Документация по развертыванию AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Лента Communications документации по развертыванию](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 
 Можно настроить телефонной системой Microsoft и пользователи могли использовать прямой маршрутизации, а затем настроить группами Майкрософт как предпочитаемый вызывающего клиента, выполнив следующие действия: 
 
@@ -209,7 +209,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 Например чтобы добавить номер телефона для пользователя «Иван низкий», необходимо ввести следующее: 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser -Identity “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 Номер телефона должен быть настроен как полный номер телефона E.164 с код страны. 

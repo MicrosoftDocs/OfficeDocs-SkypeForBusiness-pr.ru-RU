@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Сводка: Сведения о подробный отчет по конференции используется в Скайп для Business Server.'
-ms.openlocfilehash: ff8b7fa0643eedf7ddb38f908bc585af8bf7ac1f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 025e8bda6e26baf261aeb3729907a3f13c220774
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372349"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214597"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Подробный отчет по конференции в Скайп для Business Server
 
@@ -26,13 +26,13 @@ ms.locfileid: "25372349"
 
 Подробный отчет по конференции можно открыть из следующих отчетов:
 
-- [Call Admission Control Report в Скайп для Business Server](call-admission-control-report.md) (щелкнув метрику сведений для конференции)
+- [Call Admission Control Report](call-admission-control-report.md) (щелкнув метрику сведений для конференции)
 
-- [Отчет по списку сбоев в Скайп для Business Server](failure-list-report.md) (щелкнув метрику конференции)
+- [Failure List Report](failure-list-report.md) (щелкнув метрику конференции)
 
-- [User Activity Report в Скайп для Business Server](user-activity-report.md) (щелкнув метрику URI конференции)
+- [User Activity Report](call-diagnostic-reports-per-user.md) (щелкнув метрику URI конференции)
 
-Из подробного отчета по конференции можно получить доступ [Диагностического отчета в Скайп для Business Server](diagnostic-report.md) , щелкнув метрику диагностического отчета (сведений).
+Из подробного отчета по конференции можно получить доступ к [Диагностики Repor](diagnostic-report.md) , щелкнув метрику диагностического отчета (сведений).
 
 ## <a name="filters"></a>Фильтры
 
@@ -47,7 +47,7 @@ ms.locfileid: "25372349"
 
 | **Имя**.                 | **Описание**                                                                                                            |
 |:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
-| **Идентификатор URI конференции** <br/> | URI, назначенный конференции. Например:  <br/> SIP:kmyer@litwareinc.com;GRUU;Opaque=App:conf:Focus:ID:drg2y8v4  <br/> |
+| **Идентификатор URI конференции** <br/> | URI, назначенный конференции. Например:  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
 | **Полное доменное имя пула** <br/>      | Полное доменное имя пула Регистратора или участвующего в сеансе пограничного сервера.  <br/>                             |
 | **Время начала** <br/>     | Дата и время начала конференции.  <br/>                                                                          |
 | **Организатор** <br/>      | SIP-адрес пользователя, организовавшего конференцию.  <br/>                                                               |
