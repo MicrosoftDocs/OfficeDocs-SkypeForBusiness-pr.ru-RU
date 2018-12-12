@@ -3,130 +3,6 @@
 
 
 
-## <a name="week-of-october-8-2018"></a>Неделя с 8 октября 2018 г.
-
-
-| Дата публикации |Название раздела | ИЗМЕНИТЬ |
-|------|------------|--------|
-| 08.10.2018 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
-| 09.10.2018 | [Область поиска в каталоге Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | Добавлено |
-| 09.10.2018 | [Что такое политики обмена сообщениями в Teams?](/MicrosoftTeams/messaging-policies-in-teams) | Изменено |
-| 09.10.2018 | [Область поиска в каталоге Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | Изменено |
-| 09.10.2018 | [Руководство по миграции и взаимодействия для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Изменено |
-| 09.10.2018 | [Измерения и меры на панели мониторинга качества звонков](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
-| 09.10.2018 | [Подготовка сети организации к использованию Microsoft Teams](/MicrosoftTeams/prepare-network) | Изменено |
-| 10.10.2018 | [Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/faq-journey) | Изменено |
-| 10.10.2018 | [Лицензирование Office 365 для Microsoft Teams](/MicrosoftTeams/office-365-licensing) | Изменено |
-| 10.10.2018 | [Доступность в Канаде](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada) | Изменено |
-| 10.10.2018 | [Руководство по миграции и взаимодействия для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Изменено |
-| 11.10.2018 | [Включение и отключение гостевого доступа для Microsoft Teams](/MicrosoftTeams/set-up-guests) | Изменено |
-| 11.10.2018 | [Управление номерами телефонов во Франции](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | Изменено |
-| 11.10.2018 | [Тренинг под руководством инструктора по Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Изменено |
-| 11.10.2018 | [Создание и использование абонентских групп](/MicrosoftTeams/create-and-manage-dial-plans) | Переименовано |
-| 11.10.2018 | [Руководство по работе с Microsoft Teams](/MicrosoftTeams/1-drive-value-operate-my-service) | Изменено |
-| 11.10.2018 | [Известные проблемы для Microsoft Teams](/MicrosoftTeams/known-issues) | Изменено |
-| 11.10.2018 | [Общие сведения о звонках в Microsoft Teams](/MicrosoftTeams/tutorial-calling-in-teams) | Изменено |
-| 11.10.2018 | [Доступность аудиоконференций и планов звонков в различных странах и регионах](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
-| 11.10.2018 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
-| 11.10.2018 | [Управление командами в Центре администрирования Microsoft Teams и Skype для бизнеса](/MicrosoftTeams/manage-teams-in-modern-portal). | Изменено |
-| 11.10.2018 | [Установка Microsoft Teams с помощью MSI](/MicrosoftTeams/msi-deployment) | Изменено |
-| 11.10.2018 | [Что такое абонентские группы?](/MicrosoftTeams/what-are-dial-plans) | Изменено |
-| 12.10.2018 | [Тренинг под руководством инструктора по Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Изменено |
-| 12.10.2018 | [Руководство по миграции и взаимодействия для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Изменено |
-| 12.10.2018 | [Установка Microsoft Teams с помощью MSI](/MicrosoftTeams/msi-deployment) | Изменено |
-| 12.10.2018 | [Справка в Microsoft Teams](/MicrosoftTeams/get-help-in-microsoft-teams) | Добавлено |
-| 12.10.2018 | [Известные проблемы для Microsoft Teams](/MicrosoftTeams/known-issues) | Изменено |
-| 12.10.2018 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
-| 12.10.2018 | [Справка в Microsoft Teams](/MicrosoftTeams/get-help-in-microsoft-teams) | Изменено |
-
-
-## <a name="week-of-october-15-2018"></a>Неделя с 15 октября 2018 г.
-
-
-| Дата публикации |Название раздела | ИЗМЕНИТЬ |
-|------|------------|--------|
-| 17.10.2018 | [Принятие решений по службе аудиоконференций — Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | Изменено |
-| 17.10.2018 | [Принятие решений по службе телефонной системы с планами звонков — Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system) | Изменено |
-| 17.10.2018 | [Практическое руководство по аудиоконференциям в Microsoft Teams](/MicrosoftTeams/audio-conferencing) | Изменено |
-| 17.10.2018 | [Практическое руководство по телефонной системе с планами звонков в Microsoft Teams](/MicrosoftTeams/phone-system-with-calling-plans) | Изменено |
-| 18.10.2018 | [Включение и отключение гостевого доступа для Microsoft Teams](/MicrosoftTeams/set-up-guests) | Изменено |
-| 19.10.2018 | [Общие сведения о динамическом членстве в командах](/MicrosoftTeams/dynamic-memberships) | Добавлено |
-| 19.10.2018 | [Анализ среды для развертывания Microsoft Teams](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | Изменено |
-| 19.10.2018 | [Разрешения и рекомендации для приложений Microsoft Teams](/MicrosoftTeams/app-permissions) | Изменено |
-| 19.10.2018 | [Общие вопросы об аудиоконференциях](/MicrosoftTeams/audio-conferencing-common-questions) | Изменено |
-| 19.10.2018 | [Изменение языка по умолчанию для приветствий и электронных писем](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | Изменено |
-| 19.10.2018 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
-| 19.10.2018 | [Рекомендации по сбору данных](/MicrosoftTeams/data-collection-practices) | Изменено |
-| 19.10.2018 | [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
-| 19.10.2018 | [Учетные записи пользователей в гибридной среде со связью с ТСОП](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | Изменено |
-| 19.10.2018 | [Отключение бесплатных номеров для отдельных пользователей Teams](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | Изменено |
-| 19.10.2018 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
-| 19.10.2018 | [Выбор способа перехода — Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | Изменено |
-| 19.10.2018 | [Оценка среды перед переходом на Teams — Microsoft Teams](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | Изменено |
-| 19.10.2018 | [Управление Microsoft Teams с ролями администратора](/MicrosoftTeams/using-admin-roles) | Изменено |
-| 19.10.2018 | [Управление Teams с помощью PowerShell](/MicrosoftTeams/using-powershell-to-manage-teams/using-powershell-to-manage-teams) | Изменено |
-| 19.10.2018 | [Что такое абонентские группы?](/MicrosoftTeams/what-are-dial-plans) | Изменено |
-
-
-## <a name="week-of-october-22-2018"></a>Неделя с 22 октября 2018 г.
-
-
-| Дата публикации |Название раздела | ИЗМЕНИТЬ |
-|------|------------|--------|
-| 22.10.2018 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
-| 22.10.2018 | [Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams). | Изменено |
-| 22.10.2018 | [Пробное предложение Microsoft Teams Commercial Cloud Trial](/MicrosoftTeams/iw-trial-teams) | Изменено |
-| 22.10.2018 | [Присутствие пользователей в Teams](/MicrosoftTeams/presence-admins) | Добавлено |
-| 22.10.2018 | [Группы Office 365 и Microsoft Teams](/MicrosoftTeams/office-365-groups) | Изменено |
-| 22.10.2018 | [Льготный период обратных звонков](/MicrosoftTeams/complimentary-dial-out-period) | Изменено |
-| 22.10.2018 | [Улучшение имеющихся групп Office 365 с помощью Microsoft Teams](/MicrosoftTeams/enhance-office-365-groups) | Изменено |
-| 22.10.2018 | [Обзор команд и каналов в Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Изменено |
-| 23.10.2018 | [Обновление Pro в Microsoft Teams](/MicrosoftTeams/upgrade-pro) | Изменено |
-| 23.10.2018 | [Настройка параметров трансляции в Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Изменено |
-| 23.10.2018 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
-| 23.10.2018 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
-| 23.10.2018 | Управление политиками трансляций в Teams | Удалено |
-| 23.10.2018 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
-| 23.10.2018 | [Настройка политик трансляции Microsoft Teams с помощью PowerShell](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | Добавлено |
-| 24.10.2018 | [Известные проблемы для Microsoft Teams](/MicrosoftTeams/known-issues) | Изменено |
-| 24.10.2018 | [Поминутная оплата аудиоконференций](/MicrosoftTeams/audio-conferencing-pay-per-minute) | Изменено |
-| 24.10.2018 | [Настройка множества клиентов в пограничном контроллере сеансов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
-| 24.10.2018 | [Управление номерами телефонов в Канаде](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | Изменено |
-| 24.10.2018 | [Управление номерами телефонов в США](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | Изменено |
-| 24.10.2018 | [Управление настройками аудиоконференций для пользователя в Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams). | Изменено |
-| 24.10.2018 | [Управление настройками аудиоконференций для организации в Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams). | Изменено |
-| 25.10.2018 | [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
-| 25.10.2018 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
-
-
-## <a name="week-of-october-29-2018"></a>Неделя с 29 октября 2018 г.
-
-
-| Дата публикации |Название раздела | ИЗМЕНИТЬ |
-|------|------------|--------|
-| 29.10.2018 | [Управление функциями Microsoft Teams в организации Office 365](/MicrosoftTeams/enable-features-office-365). | Изменено |
-| 29.10.2018 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
-| 30.10.2018 | [Авторизация гостевого доступа в Microsoft Teams](/MicrosoftTeams/teams-dependencies) | Изменено |
-| 30.10.2018 | [Получение средств для развертывания Microsoft Teams](/MicrosoftTeams/rollout-tools) | Изменено |
-| 30.10.2018 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
-| 30.10.2018 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 30.10.2018 | [Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | Изменено |
-| 30.10.2018 | [Использование встроенного перевода сообщений в Microsoft Teams](/MicrosoftTeams/inline-message-translation-teams) | Изменено |
-| 30.10.2018 | [Доступность в Соединенном Королевстве](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k) | Изменено |
-| 30.10.2018 | [Сосуществование и взаимодействие Microsoft Teams и Skype для бизнеса](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | Изменено |
-| 30.10.2018 | [Выбор способа перехода — Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | Изменено |
-| 31.10.2018 | [Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | Изменено |
-| 31.10.2018 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
-| 31.10.2018 | [Управление функциями Microsoft Teams в организации Office 365](/MicrosoftTeams/enable-features-office-365). | Изменено |
-| 31.10.2018 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
-| 31.10.2018 | [Область поиска в каталоге Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | Изменено |
-| 01.11.2018 | [Льготный период обратных звонков](/MicrosoftTeams/complimentary-dial-out-period) | Изменено |
-| 01.11.2018 | [Взаимодействие Microsoft Teams с облачными видеослужбами](/MicrosoftTeams/cloud-video-interop) | Изменено |
-| 01.11.2018 | [Использование встроенного перевода сообщений в Microsoft Teams](/MicrosoftTeams/inline-message-translation-teams) | Изменено |
-| 01.11.2018 | [Обучение конечных пользователей для работы с Microsoft Teams](/MicrosoftTeams/enduser-training) | Изменено |
-| 02.11.2018 | [Обзор команд и каналов в Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Изменено |
-
-
 ## <a name="week-of-november-05-2018"></a>Неделя с 5 ноября 2018 г.
 
 
@@ -363,3 +239,38 @@
 | 29.11.2018 | [Добавление гостя в команду](/MicrosoftTeams/add-guests) | Изменено |
 | 29.11.2018 | [Сосуществование со Skype для бизнеса](/MicrosoftTeams/coexistence-chat-calls-presence) | Изменено |
 | 29.11.2018 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
+
+
+## <a name="week-of-december-03-2018"></a>Неделя с 3 декабря 2018 г.
+
+
+| Дата публикации |Название раздела | ИЗМЕНИТЬ |
+|------|------------|--------|
+| 03.12.2018 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | Изменено |
+| 03.12.2018 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
+| 03.12.2018 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
+| 03.12.2018 | [Развертывание Microsoft Teams для Surface Hub](/MicrosoftTeams/teams-surface-hub) | Изменено |
+| 04.12.2018 | [Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/faq-journey) | Изменено |
+| 04.12.2018 | [Сосуществование со Skype для бизнеса](/MicrosoftTeams/coexistence-chat-calls-presence) | Изменено |
+| 04.12.2018 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
+| 04.12.2018 | [Сосуществование и взаимодействие Microsoft Teams и Skype для бизнеса](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | Изменено |
+| 05.12.2018 | [Сосуществование со Skype для бизнеса](/MicrosoftTeams/coexistence-chat-calls-presence) | Изменено |
+| 05.12.2018 | [Боты в личных чатах и каналах Microsoft Teams](/MicrosoftTeams/add-bots) | Изменено |
+| 05.12.2018 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
+| 05.12.2018 | [Настройка голосовой почты Телефонной системы](/MicrosoftTeams/set-up-phone-system-voicemail) | Изменено |
+| 06.12.2018 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
+| 06.12.2018 | [Настройка сосуществования и обновления](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | Изменено |
+| 06.12.2018 | [Сосуществование и взаимодействие Microsoft Teams и Skype для бизнеса](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | Изменено |
+| 06.12.2018 | Microsoft Teams в виртуальной среде | Удалено |
+| 07.12.2018 | [Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/faq-journey) | Изменено |
+| 07.12.2018 | [Обучение администратора для работы с Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
+| 07.12.2018 | [Переход со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/journey-skypeforbusiness-teams) | Изменено |
+| 07.12.2018 | Помощь пользователям с Microsoft Teams от T-бота | Удалено |
+| 07.12.2018 | [Краткое руководство для администраторов — Microsoft Teams для образовательных учреждений](/MicrosoftTeams/teams-quick-start-edu) | Изменено |
+| 07.12.2018 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
+| 07.12.2018 | [Использование файлов журналов для устранения неполадок в Microsoft Teams](/MicrosoftTeams/log-files) | Изменено |
+| 07.12.2018 | [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Изменено |
+| 07.12.2018 | [Обзор обеспечения безопасности и соответствия в Microsoft Teams](/MicrosoftTeams/security-compliance-overview) | Изменено |
+| 07.12.2018 | [Сосуществование и взаимодействие Microsoft Teams и Skype для бизнеса](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | Изменено |
+| 07.12.2018 | [Доступность в Австралии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | Изменено |
+| 07.12.2018 | [Совместный доступ к рабочему столу в Microsoft Teams](/MicrosoftTeams/configure-desktop-sharing) | Добавлено |
