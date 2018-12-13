@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Сводка: Узнайте, как настроить взаимодействие между локальным развертыванием и Скайп для бизнеса в Интернет.'
-ms.openlocfilehash: db03636d412caa72a3b7a38d0c1d691c83d96a5b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b71ea92b5f7ce275dc5d1b5d2b7ece5be3c77ffc
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532779"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244006"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Настройка Скайп для гибридных бизнеса
 
@@ -25,8 +25,7 @@ ms.locfileid: "26532779"
 - [Настройте в локальной среде для управления безопасностью Office 365 и включение общее адресное пространство SIP с помощью Office 365.](#configure-your-on-premises-environment-to-share-your-SIP-address-space-with-Office-365)
 - [Включение общее адресное пространство SIP в клиент Office 365.](#configure-server-to-server-authentication-if-required)
 
-> [!NOTE]
-> Если у вас есть локальную систему Exchange, может потребоваться настройка OAuth между локальную систему Exchange и Скайп для бизнеса в Интернет сред. Для получения дополнительных сведений см. [Управление проверки подлинности сервер сервер в Скайп для Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) и [Планирование интеграции Скайп для бизнеса и Exchange](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
+Обратите внимание, что при наличии локальную систему Exchange, может потребоваться настройка OAuth между локальную систему Exchange и Скайп для бизнеса в Интернет сред. Для получения дополнительных сведений см. [Управление проверки подлинности сервер сервер в Скайп для Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) и [Планирование интеграции Скайп для бизнеса и Exchange](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365"></a>Для настройки локального пограничного сервера в федерацию с Office 365
 

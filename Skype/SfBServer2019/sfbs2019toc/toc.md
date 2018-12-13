@@ -9,13 +9,28 @@
 
 ## Гибридные решения для групп и Скайп для бизнеса
 ### [Планирование гибридного подключения](../hybrid/plan-hybrid-connectivity.md)
+
 ### [Настройка гибридного подключения](../hybrid/configure-hybrid-connectivity.md)
 #### [Настройка подключения Azure AD для гибридных средах](../hybrid/configure-azure-ad-connect.md)
 #### [Настройка Скайп для гибридных бизнеса](../hybrid/configure-federation-with-skype-for-business-online.md)
-#### [Настройте среду нескольких лесов](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-### [Перемещение пользователей из локальной Скайп для бизнеса в Интернет](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-### [Перемещение пользователей из локальной группы](../hybrid/move-users-from-on-premises-to-teams.md)
-### [Интеграция с Exchange и SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+
+### [Перемещение пользователей между локальной и облачной](../hybrid/move-users-between-on-premises-and-cloud.md)
+#### [Перемещение пользователей из локальной группы](../hybrid/move-users-from-on-premises-to-teams.md)
+#### [Перемещение локальных пользователей в Skype для бизнеса Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
+#### [Перемещение пользователей из облака к локально](../hybrid/move-users-from-the-cloud-to-on-premises.md)
+#### [Управление миграции собрания](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+
+### [Отключить гибридный для выполнения миграции в облако](../hybrid/cloud-consolidation-disabling-hybrid.md)
+
+### [Развертывание топологии с лесом ресурсов](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
+
+### [Консолидация облако для групп и Скайп для бизнеса](../hybrid/cloud-consolidation.md)
+#### [Обновление сертификатов пограничного сервера](../hybrid/cloud-consolidation-edge-certificates.md)
+
+#### [Обновление AAD подключения для включения более одного леса](../hybrid/cloud-consolidation-aad-connect.md)
+
+### [Интеграция с Exchange и SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/hybrid/hybrid/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/breadcrumb/toc.json)
+
 
 ## Планирование
 ### [Основы топологии](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

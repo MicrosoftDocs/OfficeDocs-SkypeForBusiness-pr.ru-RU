@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Инструкции по настройке Azure AD подключение в гибридной среде.
-ms.openlocfilehash: c2a57f9b58d88274dde8f9218faddabdee4342be
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5d27de4786c588d5d2f2a276dc20c25436bada98
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536070"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244118"
 ---
 # <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>Настройка Azure AD Connect для Скайп для бизнеса и рабочих групп 
  
@@ -35,9 +35,9 @@ Azure Active Directory подключение отслеживает Active Dire
 
 1. Один лес, содержащий удостоверения уполномоченных пользователей и размещается Скайп для Business Server. 
 
-2. Несколько лесов, только один из которых содержит Скайп для Business Server, а также один или несколько других лесов, которые содержат удостоверения уполномоченных пользователей. 
+2. Несколько лесов, только один из которых содержит Скайп для Business Server, а также один или несколько других лесов, в которых содержат удостоверения уполномоченных пользователей (лесах учетная запись). 
 
-3. Несколько развертываний Скайп для Business Server в нескольких лесах. Поддержка для этого сценария сложных скоро будет объявили об изменении.
+3. Несколько развертываний Скайп для Business Server в нескольких лесах. Предоставляемые определенных требований организации можно объединить эти нескольких развертываний в одном клиента Office 365.
 
 ### <a name="single-forest"></a>Один лес 
 
@@ -58,7 +58,7 @@ Azure Active Directory подключение отслеживает Active Dire
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>Несколько Скайп для развертываний Business Server в нескольких лесах 
 
-Microsoft будет скоро объявление о поддержка синхронизации нескольких Скайп для бизнеса лесами в одной сети клиента условии, что только один развертывания находится в режиме гибридного в любой момент времени. Готовится к выпуску более подробных сведений. 
+В этом сценарии существует несколько лесов, каждого содержащего Скайп для Business Server и одним клиентом Office 365.  Каждый лес, содержащий Скайп для Business Server можно синхронизировать в Azure AD для этого клиента, с помощью AAD подключение. Не более только одного леса можно настроить для Скайп для гибридной среды Business в указанное время. Перед включением гибридного в лесу, всех доменов SIP из другого леса необходимо отключить с помощью [disable-csonlineSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain). Для получения дополнительных сведений о том, как консолидировать такой среде в Office 365 видеть [консолидации облако для групп и Скайп для бизнеса](cloud-consolidation.md).
 
 ## <a name="general-requirements"></a>Общие требования 
 
