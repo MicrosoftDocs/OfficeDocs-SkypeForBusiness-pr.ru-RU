@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 814cea93b78985e96c20095dff8cf42c0c4715bc
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 48ae0d4551bf5ca786f995fc22165d4f3f09fa04
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699695"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240875"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Краткий контрольный список по внедрению Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "26699695"
 - [Понять, групп и каналы](teams-adoption-understand-teams-and-channels.md)
 - [Создание первой группы](teams-adoption-your-first-teams.md)
 - [Все готово для групп?](teams-adoption-assess-readiness.md)
-- В [соответствии с заинтересованными лицами](teams-adoption-assess-readiness.md#assess-your-stakeholders))
+- [Встреча с заинтересованными лицами](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [Определение первыми](teams-adoption-assess-readiness.md#identify-early-adopters)
 
 ## <a name="phase-2---experiment"></a>Этап 2 - эксперимента

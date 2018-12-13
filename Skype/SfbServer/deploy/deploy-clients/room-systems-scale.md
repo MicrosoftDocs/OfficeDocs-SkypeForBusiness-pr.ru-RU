@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: В данном разделе приведены сведения о развертывании версии 2 Скайп комнаты систем на крупномасштабного развертывания в среде.
-ms.openlocfilehash: 536530fa7836389d8c621f7c81287bfb564f024d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3a857971fd60988e89608391cc3ec7d3d0c3ae
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699553"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240966"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Развертывание системы комнаты Скайп версии 2 с помощью System Center Configuration Manager
 
@@ -504,6 +504,28 @@ ms.locfileid: "25699553"
 
 > [!NOTE]
 > Повторите те же действия для других Surface Pro моделей, которые могут возникнуть. Дополнительные сведения содержатся в разделе [Управление драйверами в System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
+
+### <a name="create-skype-room-system-configuration-package"></a>Создание пакета конфигурации системы Скайп комнаты
+
+1.  В консоли диспетчера конфигураций, перейдите к **Библиотеке программного обеспечения** \> **Управление приложениями** \> **пакетов**и выберите команду **Создать пакет**.
+
+2.  Введите следующие сведения для создания пакета.
+
+    -   Имя: **SRS версии 2 — Настройка пакета установки SRS**
+
+    -   Производитель: **Корпорация Майкрософт**
+
+    -   Версия: **1.0.0**
+
+    -   Установите флажок **Этот пакет содержит исходные файлы** , введите путь к папке **SRS версии 2 — Настройка программы установки SRS** и нажмите кнопку **Далее**.
+
+3.  Выберите **не создавать программы**и нажмите кнопку **Далее**.
+
+4.  Просмотрите страницу **Подтвердите параметры** и нажмите кнопку **Далее**.
+
+5.  Выберите команду **Закрыть**.
+
+
 
 ## <a name="distribute-configuration-manager-packages"></a>Распространение пакетов Configuration Manager
 

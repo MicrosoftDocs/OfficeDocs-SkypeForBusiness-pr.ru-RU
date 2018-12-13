@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Прочитайте о том, как установить и настроить параметры «занят» в Скайп для Business Server.
-ms.openlocfilehash: 3cf197f58dda13ab0c1af2077a6eb0fb59dafcc4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a5fdd117f2c812bba69978a7d2943321b940bcc4
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370810"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240661"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Установка и настройка параметров занятости в Skype для бизнеса Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "25370810"
 
 Независимо от установленных параметров занятости, во время обычного, удерживаемого или конференц-звонка пользователи могут выполнять новые звонки.  
 
-Дополнительные сведения о функции «занят» параметры в разделе [Планирование занят параметры Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
+Дополнительные сведения о функции параметров занятости см. в статье [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
 
 ## <a name="install"></a>Установка 
 
@@ -76,7 +76,7 @@ ms.locfileid: "25370810"
 3. Затем выполните командлет [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) , чтобы добавить параметры «занят» в список серверных приложений, как показано в следующем примере:
 
    ```
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri https://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
@@ -96,7 +96,7 @@ ms.locfileid: "25370810"
 
 ## <a name="configure"></a>Настройка
 
-Чтобы настроить параметры «занят», используйте командлет [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) .
+Для настройки параметров занятости используйте командлет [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx).  
 
 Например, следующая команда задает параметры занятости для пользователя "Ken Myer". В такой конфигурации при поступлении звонка этому пользователю во время активного звонка возвращается сигнал "занято":
 
@@ -106,18 +106,17 @@ Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 
 В следующем примере эта команда задает параметры занятости для пользователя "Chrystal Velasquez". В такой конфигурации новые входящие звонки, поступающие этому пользователю во время активного звонка, переадресуются на голосовую почту:
 
-
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Сведения о занятости параметры конфигурации можно извлечь с помощью командлета [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) . В следующем примере возвращается текущее значение «занят» параметры «KenMyer@Contoso.com»:
+Чтобы извлечь сведения о конфигурации параметров занятости, используйте командлет [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx). В следующем примере возвращается текущее значение «занят» параметры «KenMyer@Contoso.com»:
 
 ```
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
-Параметры «занят» можно удалить с помощью командлета [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) . Следующая команда удаляет параметры занятости для пользователя "Ken Myer":
+Чтобы удалить параметры занятости, используйте командлет [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx). Следующая команда удаляет параметры занятости для пользователя "Ken Myer":
 
 ```
 Remove-CsBusyOptions -Identity "Ken Myer"
@@ -144,7 +143,7 @@ New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3}
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
 Priority   : 5
-Uri        : https://www.microsoft.com/LCS/BusyOptions
+Uri        : http://www.microsoft.com/LCS/BusyOptions
 Name       : BusyOptions
 Enabled    : True
 Critical   : False

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Планирование для расположения маршрутизация на основе конференц-связи в Скайп Business Server корпоративной голосовой связи, включая консультативное вызов передает.
-ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373244"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240740"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Маршрутизация конференц-связи в Скайп для Business Server на основе расположения
 
@@ -142,9 +142,13 @@ ms.locfileid: "25373244"
 
 После найти значение приоритета правильный для маршрутизации на основе расположения для приложения конференц-связи, введите следующий командлет для каждого пула переднего плана или сервера Standard Edition, домашние пользователи включены для маршрутизации на основе местоположения:
 
-New-CsServerApplication-удостоверения службы: Registrar:<Pool FQDN>/LBRouting-приоритет <Application Priority> -включено $true-критические $true - Uri <https://www.microsoft.com/LCS/LBRoutingFor> пример:
+New-CsServerApplication-удостоверения службы: Registrar:`<Pool FQDN`> / LBRouting-приоритет \<приоритет приложений\> -включено $true-критические $true - Uri<http://www.microsoft.com/LCS/LBRouting> 
 
-New-CsServerApplication-Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting удостоверение-приоритет 3 - Enabled $true-критические $true - Uri https://www.microsoft.com/LCS/LBRoutingAfter с помощью этого командлета, перезапустите все серверы переднего плана в пуле или серверы Standard Edition где Маршрутизация на основе расположения для конференц-связи приложения был включен.
+Например:
+
+New-CsServerApplication-Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting удостоверение-приоритет 3 - Enabled $true-критические $true - Urihttp://www.microsoft.com/LCS/LBRouting 
+
+После использования этого командлета, перезапустите все серверы переднего плана в пуле или серверы Standard Edition, где был включен маршрутизации на основе расположения для приложения конференц-связи.
 
 > [!IMPORTANT]
 > Зависимостью от расположения принудительным ограничением маршрутизации для конференции и передачи консультативное не будет применяться до всех серверов переднего плана в применимое пулов или после перезапуска серверы Standard Edition. Если задать **-критические** значение **$true** в предыдущем командлеты вашей Скайп для служб Business Server сразу же перезапускается. Если не хотите, чтобы эти службы Немедленный перезапуск, задайте **-критические** значение **$false** для сейчас и затем с помощью **Set-CsServerApplication** изменение **-критические** значение **$true** более поздних версий, после перезапуска служб.

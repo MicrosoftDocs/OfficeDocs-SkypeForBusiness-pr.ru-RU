@@ -1,5 +1,5 @@
 ---
-title: Ограничения и характеристики для групп Майкрософт
+title: Ограничения и спецификации для Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fb9594ddc5fd82f1f11d4425f000a831e2b90e4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9f77de0515cc026b0d225100e7528a6eae4a7965
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532311"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240687"
 ---
-<a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и характеристики для групп Майкрософт
+<a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 =============================================
 
 В этой статье описаны некоторые ограничения, спецификации и другие требования, применимые к группами Майкрософт. 
@@ -45,7 +45,7 @@ ms.locfileid: "26532311"
 |Функция     | Максимальное ограничение |
 |------------|---------------|
 |Количество пользователей в ходе собрания  | 250    |
-|Количество пользователей в частной беседы  | 20    |
+|Количество пользователей в частной беседы  | 50    |
 
 <a name="storage"></a>Хранилище
 -------

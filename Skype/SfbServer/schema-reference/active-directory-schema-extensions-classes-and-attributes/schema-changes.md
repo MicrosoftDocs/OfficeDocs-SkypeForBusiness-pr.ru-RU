@@ -10,15 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Прежде чем развертывать и использование Скайп для Business Server, необходимо подготовить доменных служб Active Directory путем расширения схемы. Расширения схемы добавьте классы и атрибуты, которые необходимы Скайп для Business Server.
-ms.openlocfilehash: 42b4417311c557323535aa03053ccb03d95cc840
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8594ff3a25c7af7ef8c57468a8900d3abbb7f790
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240919"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Изменения схемы в Скайп для Business Server
  
-Прежде чем развертывать и использование Скайп для Business Server, необходимо подготовить доменных служб Active Directory путем расширения схемы. Расширения схемы добавьте классы и атрибуты, которые необходимы Скайп для Business Server. 
+Прежде чем развертывать и использование Скайп для Business Server, необходимо подготовить доменных служб Active Directory путем расширения схемы. Расширения схемы добавьте классы и атрибуты, которые необходимы Скайп для Business Server.
+
+> [!NOTE]
+> При обновлении с Lync Server 2013 для Скайп для Business Server 2015, не изменяются схемы и поэтому эта статья не применяется.
   
 Скайп для Business Server требуется несколько новых классов и атрибутов и изменяет некоторые существующие классы и атрибуты. Кроме того объем сведений о конфигурации Скайп для Business Server хранится в центрального хранилища управления вместо в Доменные службы Active Directory как в предыдущих версиях. Следующие сведения по-прежнему хранятся в Доменных службах Active Directory в Скайп для Business Server:
   
@@ -60,10 +64,10 @@ ms.lasthandoff: 03/28/2018
   
 **Классы, изменяемые Скайп для Business Server**
 
-|**Класс**|**Изменения**|**Класс или атрибут**|
+|**Класс**|**ИЗМЕНИТЬ**|**Класс или атрибут**|
 |:-----|:-----|:-----|
-|Пользователь  <br/> |Добавление: mayContain  <br/> Добавление: mayContain  <br/> |ProxyAddresses.  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
-|Контакт  <br/> |Добавление: mayContain  <br/> Добавление: mayContain  <br/> |ProxyAddresses.  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|Пользователь  <br/> |Добавление: mayContain  <br/> Добавление: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|Контакт  <br/> |Добавление: mayContain  <br/> Добавление: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Получатель почты  <br/> |Добавление: mayContain  <br/> |msExchUserHoldPolicies  <br/> |
 |msRTCSIP-GlobalTopologySetting  <br/> |Добавление: mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |
    
