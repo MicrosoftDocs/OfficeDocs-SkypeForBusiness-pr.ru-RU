@@ -9,14 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Инструкции по настройке Azure AD подключение в гибридной среде.
-ms.openlocfilehash: 5d27de4786c588d5d2f2a276dc20c25436bada98
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: a63f5bde6db1f9d04e2a1fbf03dd4434d1b7c8b3
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27244118"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264927"
 ---
-# <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>Настройка Azure AD Connect для Скайп для бизнеса и рабочих групп 
+# <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>Настройка Azure AD подключения для групп и Скайп для бизнеса
  
 Организации, у которых Скайп для Business Server (или Lync Server) для локальной и пользователей, которые планируется использовать группы или Скайп для бизнеса в Интернет необходимо настроить Azure AD подключение для синхронизации их локального каталога с Office 365, как описано в данном документ.  Этот компонент включает организаций, переместите непосредственно из Скайп для бизнеса в локальной группы. В частности организаций с Скайп для бизнеса в локальной необходимо убедиться, что соответствующие msRTCSIP атрибуты синхронизируются в Azure AD. 
 

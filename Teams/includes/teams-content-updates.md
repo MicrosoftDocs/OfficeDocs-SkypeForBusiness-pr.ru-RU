@@ -36,7 +36,7 @@
 | 07.11.2018 | [Развертывание собраний в Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | Добавлено |
 | 07.11.2018 | [Развертывание Microsoft Teams](/MicrosoftTeams/deploy-microsoft-teams-landing-page) | Добавлено |
 | 07.11.2018 | [Развертывание голосовой связи в Microsoft Teams](/MicrosoftTeams/deploy-voice-microsoft-teams-landing-page) | Добавлено |
-| 07.11.2018 | [Начало работы с Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | Добавлено |
+| 07.11.2018 | [Начало работы с Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | Добавлено |
 | 07.11.2018 | [Насколько готова ваша организация к внедрению Microsoft Teams?](/MicrosoftTeams/teams-adoption-assess-readiness) | Добавлено |
 | 07.11.2018 | [Программа лидеров по внедрению Microsoft Teams](/MicrosoftTeams/teams-adoption-create-champions-program) | Добавлено |
 | 07.11.2018 | [Результаты и критерии успеха внедрения Microsoft Teams](/MicrosoftTeams/teams-adoption-define-outcomes) | Добавлено |
@@ -88,7 +88,7 @@
 | 12.11.2018 | [Управление доступом пользователей к Microsoft Teams](/MicrosoftTeams/user-access) | Изменено |
 | 12.11.2018 | [Управление устройствами в Microsoft Teams](/MicrosoftTeams/device-management) | Изменено |
 | 13.11.2018 | [Внедрение Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | Добавлено |
-| 13.11.2018 | [Начало работы с Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | Добавлено |
+| 13.11.2018 | [Начало работы с Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | Добавлено |
 | 13.11.2018 | [Создание первых команд и каналов в Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | Добавлено |
 | 13.11.2018 | [Начало работы с Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | Добавлено |
 | 13.11.2018 | [Мониторинг использования и обратная связь в Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | Добавлено |

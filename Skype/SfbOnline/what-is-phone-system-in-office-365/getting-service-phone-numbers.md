@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: c16f80af9f7d7e530fb56dca2ef1ad2d51f1f1f6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6f17065398ad3801bf4cf038865d687a56b2505c
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374904"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264839"
 ---
 # <a name="getting-service-phone-numbers"></a>Получение служебных номеров телефонов
 
@@ -50,7 +50,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Перейдите в раздел **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в **Центр администрирования** > **групп и Скайп** > **Скайп администрирования прежних версий**.
     
 3. В левой панели навигации выберите пункты **голосовой связи** > **номера телефонов** > **Добавить новый номер**и нажмите кнопку **новый номеров службы**.
     
@@ -86,7 +86,7 @@ If you want to transfer service numbers from your current service provider or ca
 > Если необходимо больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## <a name="related-topics"></a>Связанные разделы
-[Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Преимущества телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

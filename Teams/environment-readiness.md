@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b02cea9763207c9a756d98b3eecf1e4c579fdc3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 057493f42a4bbfa012fb57c2394c372dfc25c9fc
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013179"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264830"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Проверка готовности среды для Microsoft Teams
 ===========================================
@@ -27,7 +27,7 @@ ms.locfileid: "25013179"
 
 Учебные заведения, настоятельно рекомендуется для [развертывания синхронизации данных School](https://docs.microsoft.com/schooldatasync/) перед развертыванием группами Майкрософт. Синхронизация данных School использует данные участников SIS вашей школы для автоматического создания классов и группы для групп Майкрософт и другими приложениями.
 
-Чтобы обеспечить оптимальное взаимодействие с Teams, вашей организации следует сначала развернуть Exchange Online и SharePoint Online. Если вы еще не развернули эти службы или у вас другая конфигурация, обратитесь к следующим статьям.
+Чтобы обеспечить оптимальное взаимодействие с Teams, вашей организации следует сначала развернуть Exchange Online и SharePoint Online. Также необходимо убедиться, что текущая среда готова для групп.  Ссылаться на эти ссылки для получения справки:
 
 -   Если ваша организация не развернула никакие рабочие нагрузки Office 365, см. статью [Приступая к работе с Office 365 бизнес](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 
@@ -41,4 +41,4 @@ ms.locfileid: "25013179"
 
 - Если ваша организация заведения и использовать учебы сведения о системе (SIS), [Развертывание синхронизации данных School](https://docs.microsoft.com/schooldatasync/) перед развертыванием группами Майкрософт.
 
-                                                                               
+- Если в вашей организации есть существующих Скайп локального развертывания Business Server (или Lync Server), необходимо настроить подключение Azure AD для синхронизации локального каталога с Office 365.  Для получения дополнительных сведений см [Настройка Azure AD для групп и Скайп для бизнеса](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect).
