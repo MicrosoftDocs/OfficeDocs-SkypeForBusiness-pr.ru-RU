@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Сведения для управления параметров политики в группах собрания.
-ms.openlocfilehash: 52efb73cb1d7774dcafe417c7a51ec7117daceec
-ms.sourcegitcommit: 2fee995f69e81ea67a93c1f6554f05815b21ff25
+ms.openlocfilehash: 03c983e98d5bcb349a7a2796ad59cb22c03e22bd
+ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2018
-ms.locfileid: "25348605"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283543"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Управление политиками собрания в группах
 
@@ -41,7 +41,7 @@ ms.locfileid: "25348605"
    - **Разрешить транскрибирования** Если включить это, подписка на собрания будут доступны пользователям.
    - **Облако разрешить запись** Для включения это позволит сохранять в облако записи.
    - **Разрешить IP-адрес видео** Для включения это позволит IP-адрес видео во время собрания.
-   - **[Скоро]** **Мультимедиа скорость потока (КБ)** Можно задать скорость потока для собраний. Значение по умолчанию — 50 МБ.
+   - **Мультимедиа скорость потока (КБ)** Можно задать скорость потока для собраний. Значение по умолчанию — 50 МБ.
 
 <a name="bkcontentsharing"> </a>
 
