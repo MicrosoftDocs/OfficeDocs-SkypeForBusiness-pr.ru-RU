@@ -501,6 +501,9 @@
 #### [Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
 #### [Ответ автосекретаря и вызвать очереди звонки непосредственно из рабочих групп](answer-auto-attendant-and-call-queue-calls.md)
 #### [Настройка телефонов общего пользования в группах Майкрософт](set-up-common-area-phones.md)
+#### [Парковка вызовов и получения](call-park-and-retrieve.md)
+#### [Общий доступ к вызовов и группы вызова раскладки](call-sharing-and-group-call-pickup.md)
+#### [Внешний вид общей строки](shared-line-appearance.md)
 ### Прямой маршрутизации телефонной системы
 #### [Планирование прямой маршрутизации](direct-routing-plan.md)
 #### [Настройка прямой маршрутизации](direct-routing-configure.md)
