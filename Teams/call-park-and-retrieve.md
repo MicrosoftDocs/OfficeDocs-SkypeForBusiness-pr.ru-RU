@@ -3,7 +3,7 @@ title: Парковка вызовов и получения в группах �
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 12/17/2018
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Используйте парковки вызовов и извлекать для совершения звонка на удержание в службе группами в облаке.
-ms.openlocfilehash: 02ec2b3af52cac65f82f5f0f0fc2b4b54ae61369
-ms.sourcegitcommit: 5f7e078125f810a9e9a89052854ef63916afe7d3
+ms.openlocfilehash: 004a5b12e178a6460ef05f7c6f5c5738c8ced042
+ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27283161"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27294190"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Парковка вызовов и получения в группах Майкрософт
 
@@ -65,6 +65,11 @@ ms.locfileid: "27283161"
 Командлет [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell для создания политики парковки вызовов.
 
 Командлет [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) PowerShell для предоставления политику парковки вызовов.
+
+По умолчанию можно изменить с помощью [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) следующим образом:
+
+`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
+
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
