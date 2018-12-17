@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Ирландии.
-ms.openlocfilehash: af194a4babcbdf87d589084d4a8f40d196fc1454
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c8a38ca3f5c872e001784e52b8c2fbae07c26bbc
+ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013941"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27292927"
 ---
 # <a name="phone-number-management-for-ireland"></a>Управление номерами телефонов в Ирландии
 
@@ -39,7 +39,7 @@ ms.locfileid: "25013941"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получение номеров телефонов для новых пользователей.  <br/> |В Ирландии нельзя получить номера телефонов для организации с помощью Центра администрирования Skype для бизнеса. Необходимо отправить запрос на получение номеров телефонов. Скачайте форму [Запрос на получение новых номеров телефонов для Ирландии, географические номера телефонов, версия 3.0 на английском (США)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(geographic-numbers)-(v.3.0)-(en-us).pdf?raw=true), заполните ее и [отправьте нам](mailto:ptneu@microsoft.com).  <br/> |
+|Получение номеров телефонов для новых пользователей.  <br/> |В Ирландии нельзя получить номера телефонов для организации с помощью Центра администрирования Skype для бизнеса. Необходимо отправить запрос на получение номеров телефонов. Загрузить [новый запрос номер телефона для Ирландия (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.4.0)-(en-us).pdf?raw=true) заполнения ее и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
 |Получение нового номера телефонов службы, не указанные в Скайп по центру администрирования бизнеса. <br/> |Для номеров службы за пределами США можно [загрузить эту форму](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true), необходимо ввести его и [Отправить его "мне нравится"](mailto:ptneu@microsoft.com).
 |Необходимо получить номера телефонов, переданные нам.  <br/> |Скачайте одну из следующих форм:. <br/> [Доверенность для Ирландии, географические номера телефонов, версия 3.0 на английском (США)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/> [Доверенность для Ирландии, негеографические номера телефонов, версия 1.0 на английском (США)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/>  <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
 |Необходимо опубликовать номера телефонов или отменить их публикацию в национальном телефонном справочнике.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
