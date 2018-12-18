@@ -96,7 +96,7 @@
 
 
 <!-- ============================================================ -->
-# [Обновление от Скайп для бизнеса в группы](Journey-SkypeforBusiness-Teams.md)
+# [Переход со Skype для бизнеса на Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Руководство. Переход со Skype для бизнеса на Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Обновление базовой](upgrade-basic.md)
 ### [Образец сообщения электронной почты и опросов](upgrade-emails-surveys.md)
@@ -507,11 +507,13 @@
 ### Прямой маршрутизации телефонной системы
 #### [Планирование прямой маршрутизации](direct-routing-plan.md)
 #### [Настройка прямой маршрутизации](direct-routing-configure.md)
-#### [Переход на прямой маршрутизации](direct-routing-migrating.md)
+#### [Перенос в прямой маршрутизации](direct-routing-migrating.md)
 #### [Мониторинг и устранение неполадок прямой маршрутизации](direct-routing-monitor-and-troubleshoot.md)
 #### [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Настройка множества клиентов в пограничном контроллере сеансов](direct-routing-sbc-multiple-tenants.md)
 #### [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
+#### Технический справочник по прямой маршрутизации
+##### [Отработка отказа линии связи на исходящие звонки](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Команды Microsoft Online вызова денежных средств](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
