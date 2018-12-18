@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Познакомьтесь с действиями развертывания для получения микропрограммы, при необходимости обновите ее, назначение лицензий и настройка параметров для Скайп для рабочих телефонов online
-ms.openlocfilehash: 809cec268ac2a086a01fc00cf043759a326a34f5
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f036f2fa47c99d1ea206192c15c901fc9391c1ee
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531819"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297660"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Развертывание телефонов для приложения Skype для бизнеса Online
 
@@ -39,7 +39,7 @@ ms.locfileid: "26531819"
 
 Прежде чем начать, рекомендуется скачать руководства по администрированию и эксплуатации телефона.
   
-- Для телефонов Polycom см [Polycom] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+- Телефоны Polycom: см. [Руководство по развертыванию Polycom](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
     
 - Телефоны Yealink: см. [Yealink Skype for Business HD SIP Phones Solution (Решения на основе SIP-телефонов Skype для бизнеса HD)](http://www.yealink.com/products_top_2.html).
     

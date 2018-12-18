@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Сведения о лицензиях дополнительный компонент компонентов, которые вы получите, как приобрести их для операционной системы и порядок использования существующего поставщика с ними. Вы можете получать сведения на сведения о ценах и план для Office 365, кредитов обмена данными и планов вызова. '
-ms.openlocfilehash: 778f2b829c09442f105576a2407c51e1d9799ae2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 17115e5456ee874cbdb4ed96c8616d6f1d3527b7
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883998"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297678"
 ---
 # <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Лицензирование надстроек Skype для бизнеса и Microsoft Teams
 
@@ -59,7 +59,7 @@ ms.locfileid: "23883998"
 |**Функция** <br/> |**Описание** <br/> |
 |**Аудиоконференция** <br/> |В некоторых случаях сотрудникам вашей организации необходимо использовать телефонный звонок, чтобы Скайп для бизнеса или группами Майкрософт собрания, вместо использования его компьютер. Используйте функцию аудиоконференции для этой ситуации.  <br/> Чтобы узнать, доступна ли функция Аудиоконцеренции в вашей стране или регионе, перейдите в раздел [Страны и регионы, доступные для Аудиоконференций и Тарифные планы](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Аудиоконференций](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
 |**Бесплатные номера доступа к конференц-связи с телефонным подключением и возможность совершать исходящие звонки, позволяющие добавить к конференции с телефонным подключением других пользователей из любой точки мира** <br/> |При добавлении Аудиоконференций, мы рекомендуем вам [Настроить Кредиты на связь](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
-|**Телефонная система** <br/> |УАТС  это телефонная система вашей организации. Телефонная система в Office 365 представляет собой размещаемую в Office 365 телефонную службу. С ней вы можете реализовать традиционные и расширенные функции УАТС без приобретения сложного дорогостоящего оборудования. [Вот вы получаете с телефонной системой в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Телефонной системы](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
+|**Телефонная система** <br/> |УАТС  это телефонная система вашей организации. Система телефона в Office 365 — размещенной телефонной связи. С ней вы можете реализовать традиционные и расширенные функции УАТС без приобретения сложного дорогостоящего оборудования. [Вот вы получаете с телефонной системой в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Телефонной системы](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
 |**Планы звонков** <br/> |Звонков на других Скайп для бизнес-пользователи могут свободно, но если пользователи должны иметь возможность вызова любого телефонных номеров за пределами вашей организации получить [Вызов планирование](/MicrosoftTeams/calling-plans-for-office-365). У Office 365 существуют тарифные планы для местных либо тарифные планы для местных и международных звонков.  <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Тарифных планов](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
 |**Системы комнат Skype версии 2** <br/> |Это не дополнительного компонента, но функциональная возможность, которая переводит видео-, аудио и общего доступа к содержимому для конференц-залов. В разделе [Скайп комнаты v2 систем](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
 
@@ -100,7 +100,7 @@ ms.locfileid: "23883998"
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
 - [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     

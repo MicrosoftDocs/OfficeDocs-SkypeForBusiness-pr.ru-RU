@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Сведения о важных перед настройкой live события в группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: e0c71258ee0285c4c00f69e63be1f2efbfc5e4ab
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156135"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297819"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "27156135"
 Ниже приведены необходимые условия для пользователя для планирования события live с группами.
 
 Вот лицензий, которые необходимо назначить.  
-- Office 365 корпоративный E1, E3 или E5 лицензии или лицензии Office 365 A3 или A5. 
+- Office 365 для предприятий E3 или E5 лицензии или лицензии Office 365 A3 или A5. 
 - Группами Майкрософт, Скайп для бизнеса и лицензии Майкрософт потока.
 
 Важно знать, что лицензии Office 365 необходим для участия в трансляция под учетной записью прошедшего проверку подлинности пользователя, но это зависит от рабочей способ, используемый:

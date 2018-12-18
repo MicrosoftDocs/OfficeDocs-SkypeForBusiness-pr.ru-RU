@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Прочтите этот раздел, чтобы узнать, как прямой маршрутизации Microsoft телефонной системы позволяет подключать поддерживаемые, предоставленный заказчиком пограничный контроллер сеансов (SBC) для Microsoft телефонной системой.
-ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131312"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297883"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -147,7 +147,8 @@ SBC только один полное доменное имя должно мо
 - Главный общедоступный ЦС класса 3
 - Comodo безопасного корневого ЦС
 - Telekom немецкой 
-- DigiCert глобального корневого ЦС 
+- DigiCert глобального корневого ЦС
+- Сертификат DigiCert высокой надежности корневого ЦС
 - Доверенный
 - GlobalSign
 - Перейти Daddy

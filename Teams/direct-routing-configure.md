@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: b56816d57b628c92e4c7f412b306ca1161021a66
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240935"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297913"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -82,8 +82,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > [!NOTE]
   > 1. Мы настоятельно рекомендуем Установка ограничения для SBC, с помощью сведений, можно найти в документации по SBC. Ограничение запустит уведомление, если SBC был создан на уровне мощности.
   > 2. Вы можете только обеспечить SBC с полным доменным ИМЕНЕМ, где домен часть имени соответствует одной из доменов, зарегистрированных в клиенту, за исключением \*. onmicrosoft.com. С помощью \*. omicrosoft.com доменных имен не поддерживается для имен SBC полное доменное имя. Например, если у вас есть два доменных имен:<br/><br/>
-  > **ABC**.xyz<br/>**ABC**. onmicrosoft.com<br/><br/>
-  > Для имени SBC можно использовать имя sbc.abc.xyz. При попытке связать SBC с именем sbc.xyz.abc, система не позволит вам, как домен не принадлежит этот клиент.
+  > **Contoso**.com<br/>**Contoso**. onmicrosoft.com<br/><br/>
+  > Для имени SBC можно использовать имя sbc.contoso.com. При попытке связать SBC с именем sbc.contoso.abc, система не позволит вам, как домен не принадлежит этот клиент.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
@@ -310,7 +310,7 @@ Get-CSOnlinePSTNUsage
 Чтобы создать маршрут «Redmond 1», введите:
 
   ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
+  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
@@ -336,7 +336,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 Чтобы создать маршрутом + 1, введите:
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -377,7 +377,7 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\\+1(\d{10})$
+NumberPattern       : ^\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
@@ -444,9 +444,9 @@ Spencer Low — допускается только в США и Канада ч
 
 |**Использование ТСОП**|**Маршрут голосовых вызовов**|**Шаблон номеров**|**Приоритет**|**SBC**|**Описание**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|"Мне НРАВИТСЯ" только|«Redmond 1»|^ + 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Active маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
-|"Мне НРАВИТСЯ" только|«Redmond 2»|^ + 1 (425\|206)(\d{7})$|2|sbc3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Резервного копирования маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
-|"Мне НРАВИТСЯ" только|«Другие + 1»|^ + 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Маршрут для вызываемого номера + 1 XXX XXX XX XX (за исключением +1 425 XXX XX XX или +1 206 XXX XX XX)|
+|"Мне НРАВИТСЯ" только|«Redmond 1»|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Active маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
+|"Мне НРАВИТСЯ" только|«Redmond 2»|^\\+ 1 (425\|206)(\d{7})$|2|sbc3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Резервного копирования маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
+|"Мне НРАВИТСЯ" только|«Другие + 1»|^\\+ 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Маршрут для вызываемого номера + 1 XXX XXX XX XX (за исключением +1 425 XXX XX XX или +1 206 XXX XX XX)|
 |International|International|\d+|4|sbc2<span></span>. contoso.biz<br/>sbc5<span></span>. contoso.biz|Маршрут для любой шаблон номера |
 
 

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этой статье рассматривается накопительное улучшения в системах комнаты Скайп версии 2.
-ms.openlocfilehash: d37cf7561f2728dafa850aaa38d6e322fda7cfb9
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: cdc180c0caa8cfe581d02a206d9b13e255214bfd
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182482"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297890"
 ---
 # <a name="release-notes"></a>Примечания к выпуску 
 
@@ -26,6 +26,7 @@ ms.locfileid: "27182482"
 
 | Выпуск | Опубликовать в <br>Хранилище Майкрософт | 
 | ---     | ---  |
+| 4.0.64.0 | 12/14/2018   |
 | 4.0.51.0 | 11/17/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
@@ -49,6 +50,11 @@ ms.locfileid: "27182482"
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Скайп помещения систем v2 компонента введение и проблема решение
+
+### <a name="40640-12142018"></a>4.0.64.0 (14/12/2018)
+Представлено в это обновление:
+- Отображение контента на обоих переднего из комнаты (для) отображается в системах двойной экрана комнаты
+- Улучшения пользовательского интерфейса темы и переднего комнаты
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 Представлено в это обновление:

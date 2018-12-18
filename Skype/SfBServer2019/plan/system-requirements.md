@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Сводка: Подготовка к Скайп для серверов Business Server 2019 и инфраструктуры домена в этом разделе. Оборудование, операционная система, баз данных, программного обеспечения, все требования к системе и рекомендации, а также сертификат DNS, файловый ресурс и сведения Active Directory, являются здесь для обеспечения успешной установки и развертывания фермы серверов.'
-ms.openlocfilehash: 0cacba46f438f84c75aa80d1e73d9b4f7fa6c0ff
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: db5bada7b89de2fafc4d72c9fa5fcac05d8611ce
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530976"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297770"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Требования к системе для Скайп для Business Server 2019
  
@@ -193,7 +193,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (64-разрядная версия) и вы должны быть запущены с последними обновлениями и группы обеспечения доступности AlwaysOn.  <br/> ||
+|Microsoft SQL Server 2016 (64-разрядная версия) и необходимо запустить с последними обновлениями.  <br/> ||
  |
    
 Если нужная выпуск SQL Server, который будет использоваться перечисленных здесь нельзя использовать его.

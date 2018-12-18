@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Служба переноса собраний (MMS) \x97 это служба Skype для бизнеса, которая работает в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams."
-ms.openlocfilehash: b5484459fc01337bd9eb2dad38e9f0e3349abd07
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: aeb174110fec955d66850ad73a0c2dd9596fdfca
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674588"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297710"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Настройка службы переноса собраний (MMS)
 
@@ -168,10 +168,10 @@ State UserCount---------------<br/> Pending 21<br/>InProgress 6<br/> Failed 2 <b
 Get-CsMeetingMigrationStatus -StartTime "10/1/2016" -EndTime "10/8/2016"
 ```
 
-Можно также проверить состояние переноса для конкретного пользователя с помощью параметра  `UserId`. Например, следующая команда получит состояние переноса для пользователя ashaw@contoso.com:
+Можно также проверить состояние переноса для конкретного пользователя с помощью параметра  `Identity`. Например, следующая команда получит состояние переноса для пользователя ashaw@contoso.com:
   
 ```
-Get-CsMeetingMigrationStatus -UserId "ashaw@contoso.com"
+Get-CsMeetingMigrationStatus -Identity "ashaw@contoso.com"
 ```
 
 ### <a name="what-do-i-do-if-there-is-an-error"></a>Что делать, если произошла ошибка?
@@ -182,7 +182,7 @@ Get-CsMeetingMigrationStatus -UserId "ashaw@contoso.com"
 1. Определите пользователей, которых затронул сбой. Для получения списка пользователей, которых затронул сбой, и возникших ошибок выполните следующую команду:
     
    ```
-   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastMessage
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table Identity,LastMessage
    ```
 
 2. Для каждого из этих пользователей запустите [средство переноса собраний](https://go.microsoft.com/fwlink/p/?linkid=626047) для переноса собраний этих пользователей вручную.

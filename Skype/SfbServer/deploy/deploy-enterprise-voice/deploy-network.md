@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Создание или изменение областей сети, сетевых узлов и сопоставление подсетей в Скайп для Business Server. Все эти группы используются для расширенных функций корпоративной голосовой связи: обход мультимедиа, контроль допуска звонков и маршрутизация на основе местоположения.'
-ms.openlocfilehash: c0f8f63c6141e2cb163abad66665eee2d83c181f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fe6edf779d00b96918d8bf92ac7e749b9c003f15
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883910"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297651"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Развертывание областей сети, сайты и подсети в Скайп для бизнеса
 
 Создание или изменение областей сети, сетевых узлов и сопоставление подсетей в Скайп для Business Server. Все эти группы используются для расширенных функций корпоративной голосовой связи: обход мультимедиа, контроль допуска звонков и маршрутизация на основе местоположения.
 
-В расширенные функции корпоративной голосовой связи входят: [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) и [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Данные функции требуются для создания сетевых областей, сетевых сайтов и подсетей. Например, для всех этих функций требуется, чтобы каждая подсеть в топологии была связана с определенным сетевым сайтом, а каждый сетевой сайт должен быть связан с сетевой областью. Дополнительные сведения о терминах можно [Сетевые параметры для расширенных функций корпоративной голосовой связи в Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+В расширенные функции корпоративной голосовой связи входят: [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) и [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Данные функции требуются для создания сетевых областей, сетевых сайтов и подсетей. Например, для всех этих функций требуется, чтобы каждая подсеть в топологии была связана с определенным сетевым сайтом, а каждый сетевой сайт должен быть связан с сетевой областью. Дополнительные сведения об условиях см. в разделе [Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
 
 На контроль допуска звонков и E9-1-1 распространяются дополнительные требования относительно конфигурации для сетевых сайтов:
 
@@ -118,7 +118,7 @@ ms.locfileid: "23883910"
 
 ## <a name="create-or-modify-a-network-site"></a>Создание или изменение сетевого сайта
 
-Если вы уже создали сетевых узлов для одного из этих функций, не требуется создавать новые сайты сети; другие расширенные функции корпоративной голосовой связи будет использовать те же сетевые узлы. Тем не менее, может потребоваться изменить существующее определение сайта сети для применения параметров определенного компонента. Например сетевой узел был создан для E9-1-1, требуется ли изменение сетевого узла во время развертывания контроля допуска звонков для применения профиля политики пропускной способности.
+Если вы уже создали сетевых узлов для одного из этих функций, не требуется создавать новые сайты сети; другие расширенные функции корпоративной голосовой связи будет использовать те же сетевые узлы. You may, however, need to modify an existing network site definition to apply feature-specific settings. For example, if you created a network site for E9-1-1, you need to modify the network site during deployment of call admission control to apply a bandwidth policy profile.
 
 ### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>Создание области сети с помощью Скайп для консоли Business Server
 
@@ -217,9 +217,9 @@ ms.locfileid: "23883910"
 ## <a name="associate-a-subnet-with-a-network-site"></a>Связь подсети с сетевым сайтом
 <a name="BKMK_AssociateSubnets"> </a>
 
-Каждой подсети в вашей сети должен быть связан с определенным сетевым узлом, так как сведения о подсети используется для определения сетевого узла, на котором конечную точку находится во время запускается новый сеанс. Когда известно местоположение каждой стороны в сеансе advanced Enterprise Voice функции можно применять эти сведения для определения способа обработки установки вызова или маршрутизации.
+Every subnet in your network must be associated with a specific network site, because subnet information is used to determine the network site on which an endpoint is located while a new session is initiated. Когда известно местоположение каждой стороны в сеансе advanced Enterprise Voice функции можно применять эти сведения для определения способа обработки установки вызова или маршрутизации.
 
-Все настроенные общедоступный IP-адреса пограничных серверов аудио и видео в вашем развертывании необходимо добавить в параметрах конфигурации сети. Эти IP-адреса добавляются в качестве подсети с помощью маски 32. Связанные сетевого узла должна соответствовать соответствующие настройки сетевого узла. Например, общедоступный IP-адрес, соответствующий A аудио- и видеоконференций в центральном узле Чикаго может быть Чикаго NetworkSiteID.
+All configured public IP addresses of the Audio/Video Edge Servers in your deployment must be added to your network configuration settings. These IP addresses are added as subnets with a mask of 32. The associated network site should correspond to the appropriate configured network site. Например, общедоступный IP-адрес, соответствующий A аудио- и видеоконференций в центральном узле Чикаго может быть Чикаго NetworkSiteID.
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Чтобы связать подсеть с сетевым узлом с помощью Скайп для консоли Business Server
 
@@ -260,7 +260,7 @@ ms.locfileid: "23883910"
 3. Выполните следующий командлет, чтобы импортировать **файл subnet.csv**, а затем сохраните его содержимое в хранилище управления Lync Server:
 
    ```
-   import-csv subnet.csv | foreach {New-CsNetworkSubnet $_IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
+   import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>Чтобы связать подсеть с сетевым узлом с помощью Скайп для панели управления Business Server
@@ -280,7 +280,7 @@ ms.locfileid: "23883910"
 7. Щелкните **ИД сетевого узла**, затем выберите ИД узла, в который необходимо добавить эту подсеть.
 
     > [!NOTE]
-    > Если вы еще не создали сетевые сайты, то этот список будет пустым. Для получения дополнительных сведений о процедуре видеть [Создание или изменение сетевого узла](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Вы также можете получить идентификаторы сайта для развертывания с помощью командлета **Get-CsNetworkSite** . Дополнительные сведения см Скайп для документации по консоли управления Business Server.
+    > Если вы еще не создали сетевые сайты, то этот список будет пустым. Дополнительные сведения см. в разделе [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Вы также можете получить идентификаторы сайта для развертывания с помощью командлета **Get-CsNetworkSite** . Дополнительные сведения см Скайп для документации по консоли управления Business Server.
 
 8. В поле **Описание** введите дополнительные сведения об этой подсети.
 
@@ -314,19 +314,19 @@ ms.locfileid: "23883910"
 <a name="BKMK_AssociateSubnets"> </a>
 
 
-[Новый CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
+[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
 
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
 
-[SET-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
+[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
 
 [Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
 
-[Новый CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
+[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
 
 [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
 
-[SET-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
+[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
 
 [Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
 
