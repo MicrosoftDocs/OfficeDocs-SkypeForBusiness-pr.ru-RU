@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Этот командлеты файлов в режиме структуры статьи, предоставить администраторам больше контроля методов проверки подлинности используется внутри и вне, бизнес. Администраторы могут включить методы проверки подлинности либо отключена во внутреннем или внешнем ресурсе с сетью.
-ms.openlocfilehash: 57b51a897f476d5c4b4b17ccda8ffe074f8a26cd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8350e1b6f3bae27c3b8355b0dee3b737bccaf655
+ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531104"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27371188"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Планирование для отключения методов проверки подлинности Legacy внутренних и внешних в сеть.
 
@@ -86,15 +86,15 @@ __Описание типа 5:__ *Извне*, современный ADAL кл�
 > [!IMPORTANT]
 > Если вы используете Lync Web Access (LWA) и доступ на основе форм (FBA) необходимо использовать для внешнего доступа, выполняет настройку LWA, чтобы клиенты могут обращаться к ней с анонимного доступа для поддержки этих сценариев. Аналогичным образом при использовании Pin связи с телефонным FBA будут блокироваться для внешних пользователей. При необходимости измените их ПИН-кода, они должны войти в систему для их корпорация для этого во внутренней сети.
 
-## <a name="links"></a>Ссылки ##
+## <a name="links"></a>Ссылки 
 - Для получения дополнительных сведений PowerShell:
-    - Get-CsAuthConfig[https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsAuthConfig.md](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsAuthConfig.md)
-    - SET-CsAuthConfig[https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsAuthConfig.md](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsAuthConfig.md)
+    -  [Get-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
+    -  [SET-CsAuthConfig](https://docs.microsoft.com/en-us/powershell/module/skype/set-csauthconfig?view=skype-ps)
 
 - Для более направление на порядок использования команд или накопительный пакет обновления, необходимые для установки их:
-    - Командлеты совещание[https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
-    - Обновления для Скайп для Business Server 2015 (Общие)[https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)
-    - Июль 2018 Скайп для Business Server 2015, основные компоненты накопительный пакет обновления (6.0.9319.534)[https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)
+    - [Командлеты совещание](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
+    - [Обновления для Скайп для Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015) (Общие)
+    - [Июль 2018 Скайп для Business Server 2015, основные компоненты накопительный пакет обновления](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534)
 
 
  
