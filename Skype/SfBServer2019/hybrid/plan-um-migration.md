@@ -7,12 +7,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: В этом разделе описывается, что нужно учитывать при принятии для миграции вашей существующей Скайп для развертываний Business Server или Exchange Server до последней версии или Скайп для бизнеса в Интернет или Exchange Online.
-ms.openlocfilehash: 64d489a944e7b56315e4b600893b46f5c1cc3355
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3078b7a1e877422eb66040c3fa3a8b0e4fbdae
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699290"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382842"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Планирование Скайп для переноса Business Server и Exchange Server
 
@@ -51,7 +51,7 @@ ms.locfileid: "25699290"
 - Exchange 2013 и Exchange 2016 и Скайп для Business Server 2015 для Exchange 2019 и Скайп для Business Server 2019
 - Скайп для Business Server 2015 для Скайп для Business Server 2019 с 2016 Exchange 2013 и Exchange
 
-Следующие сценарии необходимо существовать как часть текущего развертывания нет PBX или SBC конфигураций и Предположим, что у вас есть настройку на серверах Exchange в локальной единой системы обмена СООБЩЕНИЯМИ. Каждый из этих решений также предполагается, что вы решили настроить гибридное развертывание между вашей локальной Скайп для серверов организаций и Office 365. Дополнительные сведения о Скайп для гибридных развертываний Business видеть [Скайп для гибридных решений для бизнеса](hybrid-solutions.md).
+Следующие сценарии необходимо существовать как часть текущего развертывания нет PBX или SBC конфигураций и Предположим, что у вас есть настройку на серверах Exchange в локальной единой системы обмена СООБЩЕНИЯМИ. Каждый из этих решений также предполагается, что вы решили настроить гибридное развертывание между вашей локальной Скайп для серверов организаций и Office 365. Дополнительные сведения о Скайп для бизнеса гибридных развертываний содержатся в разделе [Планирование гибридного подключения](plan-hybrid-connectivity.md).
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013 и Exchange 2016 и Скайп для бизнеса 2015 для Exchange 2019 и Скайп для бизнеса 2019
 

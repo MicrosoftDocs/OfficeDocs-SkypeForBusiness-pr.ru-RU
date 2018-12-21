@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Сводка: Обзор рекомендаций DNS в этом разделе прежде чем внедрять Скайп для Business Server.'
-ms.openlocfilehash: 20e520d0ecb43d098855c434db740592eb7c760c
-ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
+ms.openlocfilehash: 8f47d7de61521c3908a8094bb7c6c866a55c4842
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/29/2018
-ms.locfileid: "26984750"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382856"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Требования DNS для Скайп для Business Server
 
@@ -123,7 +123,7 @@ ms.locfileid: "26984750"
 ## <a name="hybrid-considerations"></a>Гибридные подключения
 <a name="BK_Hybrid"> </a>
 
-Если планируется некоторым пользователям, размещенными Интернет-версия и некоторые перехода на локальном гибридного подключения, статьи о планировании для [Скайп для Business Server 2015](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#BKMK_DNS) и [Скайп для Business server 2019](../../../SfBServer2019/hybrid/hybrid-solutions.md). Необходимо будет настроить DNS в обычном режиме для Скайп для Business Server 2015 и также добавить дополнительные DNS-записей.
+Если планируется некоторым пользователям, размещенными Интернет-версия и некоторые перехода на локальном гибридного подключения, планирование статьи [Скайп для Business server 2019](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md). Необходимо будет настроить DNS в обычном режиме для Скайп для Business Server 2015 и также добавить дополнительные DNS-записей.
 
 Также обратитесь к «URL-адреса Office 365 и IP-адреса диапазонов» в [https://aka.ms/o365ips](https://aka.ms/o365ips) чтобы убедиться, что пользователи будут иметь доступ к ресурсам сети, они должны.
 
