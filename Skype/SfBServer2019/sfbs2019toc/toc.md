@@ -2,6 +2,7 @@
 
 ## [Новые возможности](../whats-new.md)
 ## [Что является устаревшим](../deprecated.md)
+## [Решения Майкрософт телефонной связи](../hybrid/msft-telephony-solutions.md)
 
 ## [Файлы для загрузки и обновления Скайп для бизнеса](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Обновления клиента](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
