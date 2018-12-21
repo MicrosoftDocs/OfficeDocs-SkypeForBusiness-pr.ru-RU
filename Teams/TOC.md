@@ -488,6 +488,9 @@
 #### [Что такое абонентские группы?](what-are-dial-plans.md)
 #### [Создание и использование абонентских групп](create-and-manage-dial-plans.md)
 ### Телефонная система
+#### Телефоны для групп
+##### [Телефоны для групп Майкрософт](phones-for-teams.md)
+##### [Приобретение и развертывание Microsoft групп IP-телефонов](buying-and-deploying-teams-ip-phones.md)
 #### [Что такое телефонная система в Office 365?](what-is-phone-system-in-office-365.md)
 #### [Настройка телефонной системы в вашей организации](setting-up-your-phone-system.md)
 #### [Изменение языка по умолчанию для приветствий в голосовой почте и электронных писем](change-the-default-language-for-greetings-and-emails.md)

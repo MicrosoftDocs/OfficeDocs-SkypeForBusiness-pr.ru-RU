@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Соединители предоставляют команде актуальные сведения и данные из часто используемых служб, передавая их прямо в канал.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41d9101ced23c4d0ffb51c0bdb63ee739f3dc28b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 2d8209b8652bb20b560606cfe4cc5cd34716853f
+ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013709"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "27382624"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Использование Office 365 и настраиваемых соединителей в Microsoft Teams
 =======================================================
@@ -67,4 +67,4 @@ ms.locfileid: "25013709"
 
     ![Снимок экрана интерфейса Teams с сообщением карточки соединителя.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
 
-Разработчики могут настроить свои сообщения для создания таких карточек, отправив HTTP-запрос с полезными данными в виде простой JSON на адрес веб-перехватчика Microsoft Teams, который представляет собой уникальный URL-адрес этой конечной точки, предоставленный мастером. Попросите своих разработчиков изучить статью [Начало работы с соединителями Office 365 для Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855783) в Microsoft Developer Network, содержащую подробные инструкции и примеры. Кроме того, к полезным ресурсам относится статья [Подключение приложений к группам в Outlook](https://support.office.com/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) и раздел о [Microsoft Teams в Центре разработки для Office](https://go.microsoft.com/fwlink/?linkid=855784).
+Разработчики могут настроить свои сообщения для создания таких карточек, отправив HTTP-запрос с полезными данными в виде простой JSON на адрес веб-перехватчика Microsoft Teams, который представляет собой уникальный URL-адрес этой конечной точки, предоставленный мастером. Попросите своих разработчиков изучить статью [Начало работы с соединителями Office 365 для Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/connectors/connectors) в Microsoft Developer Network, содержащую подробные инструкции и примеры. Кроме того, к полезным ресурсам относится статья [Подключение приложений к группам в Outlook](https://support.office.com/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) и раздел о [Microsoft Teams в Центре разработки для Office](https://go.microsoft.com/fwlink/?linkid=855784).

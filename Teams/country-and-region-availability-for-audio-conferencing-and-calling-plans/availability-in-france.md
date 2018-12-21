@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Франции.
-ms.openlocfilehash: d1956b9970a84ee9e1e66e6f745a29a0de04d354
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 4845b612b3a1316f8d7ac3da527ae118c6d6681c
+ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674788"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "27382664"
 ---
 # <a name="availability-in-france"></a>Доступность во Франции
 
@@ -62,7 +62,7 @@ ms.locfileid: "26674788"
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
 |Доступные для вызова планы минут. |Существует четыре параметра план в месяц календаря. <ul><li>120 минуты планирование внутренних звонков </li><li>240 минуты планирование внутренних звонков</li></li><li>1200 минуты планирование внутренних звонков </li></li><li>Внутренние и вызов планирование International: 1200 минут внутренних - или-600 минут международных звонков (из двух достигнуто первым в календарном месяце)</li></li> 
-|Можно выполнять исходящие вызовы на номера premium? <br/> | Да, полностью поддерживается в настоящее время. <br/> |
+|Можно выполнять исходящие вызовы для французского premium номера? <br/> | Да, полностью поддерживаются при использовании кредитов Communications оплачены в минуту. <br/> |
 |Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
