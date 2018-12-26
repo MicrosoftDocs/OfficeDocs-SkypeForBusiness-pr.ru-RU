@@ -88,6 +88,7 @@
 ### [Назначение лицензий Skype для бизнеса и Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Лицензирование надстроек Skype для бизнеса и Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Управление предложение коммерческие пробную версию команды](iw-trial-teams.md)
+### [Обновление группы свободного до версии подписки Office 365](upgrade-freemium.md)
 ## Поддерживаемые устройства
 ### [IP-телефонов](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB-устройства аудио- и видеоконференций](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
