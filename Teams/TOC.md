@@ -90,6 +90,7 @@
 ### [Управление предложение коммерческие пробную версию команды](iw-trial-teams.md)
 ### [Обновление группы свободного до версии подписки Office 365](upgrade-freemium.md)
 ## Поддерживаемые устройства
+### [Управление устройствами в группах](device-management.md)
 ### [IP-телефонов](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB-устройства аудио- и видеоконференций](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Устройства место собрания и решения](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -490,7 +491,7 @@
 #### [Создание и использование абонентских групп](create-and-manage-dial-plans.md)
 ### Телефонная система
 #### Телефоны для групп
-##### [Телефоны для групп Майкрософт](phones-for-teams.md)
+##### [Телефоны для Microsoft Teams](phones-for-teams.md)
 ##### [Приобретение и развертывание Microsoft групп IP-телефонов](buying-and-deploying-teams-ip-phones.md)
 #### [Что такое телефонная система в Office 365?](what-is-phone-system-in-office-365.md)
 #### [Настройка телефонной системы в вашей организации](setting-up-your-phone-system.md)
@@ -518,7 +519,7 @@
 #### [Настройка множества клиентов в пограничном контроллере сеансов](direct-routing-sbc-multiple-tenants.md)
 #### [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
 #### Технический справочник по прямой маршрутизации
-##### [Отработка отказа линии связи на исходящие звонки](direct-routing-trunk-failover-on-outbound-call.md)
+##### [Отработка отказа канала связи при исходящих звонках](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Команды Microsoft Online вызова денежных средств](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
