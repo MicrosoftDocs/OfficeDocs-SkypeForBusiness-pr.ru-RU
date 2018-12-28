@@ -1,5 +1,5 @@
 ---
-title: Управление устройствами в группах Майкрософт
+title: Управление устройствами в Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,19 +12,19 @@ description: Сведения об управлении устройств, ис
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97fd4b8d7f613c6d3f435f2d505bbd2cf99d4b10
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: dff307b1bd4ede3e8999a78a5e6a8df36b8a1411
+ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531780"
+ms.lasthandoff: 12/28/2018
+ms.locfileid: "27458552"
 ---
-# <a name="manage-your-devices-in-microsoft-teams"></a>Управление устройствами в группах Майкрософт
+# <a name="manage-your-devices-in-microsoft-teams"></a>Управление устройствами в Microsoft Teams
 
  Как администратор управлять всеми устройствами, используемые с группами в организации с группами Майкрософт & Скайп по центру администрирования бизнес. Можно просматривать и управлять Инвентаризация устройств для вашей организации и выполнять задачи, такие как обновление, перезагрузку и диагностика монитор для устройств. Также можно создавать и назначать профили конфигурации устройства или групп устройств. 
 
 ## <a name="what-devices-can-you-manage"></a>Какие устройства можно управлять?
-Устройства должны сертифицированный для групп и участвуют в группах. При первом входе пользователя в систему групп на устройстве автоматически регистрации устройство. 
+Устройства должны сертифицированный для групп и участвуют в группах. При первом входе пользователя в систему групп на устройстве автоматически регистрации устройство. Список сертифицированных устройства, на которых можно управлять в разделе [телефонах для конференций](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=ddb1bc66-7499-4823-8d2b-a2c6dbe4f716) и [стационарные телефоны](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=c6536b33-f554-4b55-bd3d-c98733ebc017&page=1&filters=).
 
 > [!NOTE]
 > При наличии Microsoft Intune устройств, автоматически регистрируются в Intune. После регистрации устройство подтверждено соответствие устройства и применение политик условного доступа к устройству. 
