@@ -1,9 +1,9 @@
 ---
-title: Планирование для государственных учреждений 365 Microsoft - GCC развертываниях - группами Майкрософт
+title: Планирование развертываний Microsoft Office 365 для государственных организаций (GCC) — Microsoft Teams
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 12/19/2018
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 978f9d6b298bb1376b236a883dad836d6e6b5860
-ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
+ms.openlocfilehash: 28827be78c93a3ea3a922d16bb9d985d3439ad7a
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27378579"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544202"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Планирование для государственных учреждений 365 Microsoft - GCC развертываниях
 
@@ -151,7 +151,7 @@ ms.locfileid: "27378579"
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Шаг 6. Развертывание групп для совместной работы
 
-После использовали onboarded для государственных учреждений 365 Microsoft - GCC, можно следовать подход стандартное развертывание с использованием [эту](https://fasttrack.microsoft.com/fasttrack-faq) и партнеру выбранного встроенного в службу.
+После использовали onboarded для государственных учреждений 365 Microsoft - GCC, можно следовать подход стандартное развертывание с использованием [эту](https://www.microsoft.com/fasttrack) и партнеру выбранного встроенного в службу.
 
 Когда вы будете готовы, развертывание групп для [включения совместной работы в рамках вашей организации с помощью групп и каналы](teams-overview.md). Убедитесь, что взаимодействовать с внедрение и управление изменение группы или группы чемпионатов.
 

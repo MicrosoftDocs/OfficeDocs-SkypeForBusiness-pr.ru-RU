@@ -3,7 +3,7 @@ title: Обзор развертывания Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5e00eb139e25061726dfe080c90457efd87da96
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e878fb50157e3c62c3425dfcea6d45e29a3be781
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016471"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544138"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Обзор развертывания Microsoft Teams
 ========================================
@@ -61,3 +61,11 @@ ms.locfileid: "25016471"
 
 
 Чтобы отследить эти точки принятия решений, скачайте вопросник по техническому планированию [Quick start: Successfully enabling Microsoft Teams](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) (Краткое руководство по началу работы. Успешная активация Microsoft Teams).
+
+## <a name="how-microsoft-deployed-teams"></a>Как Microsoft развертывание групп
+
+Чтобы просмотреть, как развернут и с помощью групп Майкрософт для совместной работы Microsoft, см.
+
+- [Развертывание групп Майкрософт оптимизирует совместной работы и усовершенствовать работу в команде](https://www.microsoft.com/itshowcase/Article/Content/1013/Deploying-Microsoft-Teams-streamlines-collaboration-and-improves-teamwork)
+- [Группами Майкрософт увеличивает совместная работа в современном рабочего места в корпорации Майкрософт](https://www.microsoft.com/itshowcase/Article/Content/1012/Microsoft-Teams-increases-collaboration-in-the-modern-workplace-at-Microsoft)
+
