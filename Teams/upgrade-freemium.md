@@ -1,5 +1,5 @@
 ---
-title: Обновление групп Майкрософт бесплатную версию Office 365
+title: Бесплатный перевод Microsoft Teams на версию по подписке Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 92693db68372c3981f1ba7944403b4d0d0f2025c
-ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
+ms.openlocfilehash: cb8770b0929b46aa0e98e1429a11874756ed07e1
+ms.sourcegitcommit: d9059e8cb0a9b968ee16508f6bfcb5d949575590
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "27383522"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27733205"
 ---
-<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Обновление групп Майкрософт бесплатную версию Office 365
+<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Бесплатный перевод Microsoft Teams на версию по подписке Office 365
 ======================================================
 
 Если ваша организация использует бесплатной версии группами Майкрософт, можно легко обновить до полной версии, купив план подписки Office 365 для пользователей. Полная версия предоставляет дополнительные возможности групп — как планирования, аудиоконференций, расширенные администрирования и возможностей безопасности —, которая не предоставляет бесплатную версию. Office 365 объединяет знакомых комплект Microsoft Office с облачными версиями следующего поколения коммуникаций и совместной работы служб корпорации Майкрософт, включая Exchange Online, SharePoint Online и Office Online, чтобы помочь пользователям эффективно работайте практически из любого местоположения через Интернет. При обновлении группы существующих данных команды не будут потеряны; все группы, каналы, обсуждения, файлы и разрешения теперь с вами. 
@@ -83,6 +83,10 @@ ms.locfileid: "27383522"
 ![Снимок экрана иллюстрирующий обновления кнопки](media/teams-freemium-upgrade-image1.png)
 
 Введите адрес электронной почты, которая используется для входа в группы и затем приобрести план Office 365 бизнеса расширенный. Если вы хотите приобрести Office 365 Business Essentials или корпоративной версии Office 365, [обратитесь в службу поддержки](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
+
+## <a name="whats-next"></a>Что дальше?
+
+После завершения обновления дополнительную [Начало работы с группами Майкрософт](get-started-with-teams-landing-page.md) для первого действия и [Принять группами Майкрософт](adopt-microsoft-teams-landing-page.md) поэтапный подход для внедрения группам в организации.
 
 ## <a name="more-information"></a>Подробная информация
 
