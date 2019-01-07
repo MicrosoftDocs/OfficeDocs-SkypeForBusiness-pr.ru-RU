@@ -3,52 +3,6 @@
 
 
 
-## <a name="week-of-november-19-2018"></a>Неделя с 19 ноября 2018 г.
-
-
-| Дата публикации |Название раздела | ИЗМЕНИТЬ |
-|------|------------|--------|
-| 19.11.2018 | [Назначение владельцев и участников команд в Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | Изменено |
-| 19.11.2018 | [Управление функциями Microsoft Teams в организации Office 365](/MicrosoftTeams/enable-features-office-365). | Изменено |
-| 19.11.2018 | [Тренинг под руководством инструктора по Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Изменено |
-| 19.11.2018 | [Известные проблемы для Microsoft Teams](/MicrosoftTeams/known-issues) | Изменено |
-| 19.11.2018 | [Обзор Microsoft Teams](/MicrosoftTeams/teams-overview) | Изменено |
-| 19.11.2018 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 19.11.2018 | [Измерения и меры на панели мониторинга качества звонков](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
-| 19.11.2018 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
-| 19.11.2018 | [Подключение к Microsoft Teams ранних последователей](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | Изменено |
-| 19.11.2018 | [Управление Microsoft Teams с ролями администратора](/MicrosoftTeams/using-admin-roles) | Изменено |
-| 19.11.2018 | [Ресурсы для планирования развертывания Microsoft Teams в организации](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | Изменено |
-| 19.11.2018 | Управление Teams с помощью PowerShell | Удалено |
-| 19.11.2018 | Управление Teams с ролями администратора | Удалено |
-| 20.11.2018 | [Внедрение Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | Изменено |
-| 20.11.2018 | [Краткий контрольный список по внедрению Microsoft Teams](/MicrosoftTeams/teams-adoption-quick-start-checklist) | Изменено |
-| 20.11.2018 | [Инструменты и скачиваемые материалы по внедрению](/MicrosoftTeams/adopt-tools-and-downloads) | Добавлено |
-| 20.11.2018 | [Инструменты и скачиваемые материалы по внедрению](/MicrosoftTeams/adopt-tools-and-downloads) | Изменено |
-| 20.11.2018 | Что такое политики обмена сообщениями в Teams? | Удалено |
-| 20.11.2018 | [Краткое руководство — руководство по планированию Microsoft Teams](/MicrosoftTeams/quick-start-enable-teams) | Изменено |
-| 20.11.2018 | [Обзор PowerShell в Teams](/MicrosoftTeams/teams-powershell-overview) | Изменено |
-| 20.11.2018 | [Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/faq-journey) | Изменено |
-| 20.11.2018 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
-| 20.11.2018 | [Настройка политик трансляции Microsoft Teams с помощью PowerShell](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | Изменено |
-| 20.11.2018 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
-| 20.11.2018 | [Что такое кредиты на связь?](/MicrosoftTeams/what-are-communications-credits) | Изменено |
-| 21.11.2018 | [Руководство по работе с Microsoft Teams](/MicrosoftTeams/1-drive-value-operate-my-service) | Изменено |
-| 21.11.2018 | [Подготовка пользователей к работе с Microsoft Teams](/MicrosoftTeams/2-onboard-prepare-my-users) | Изменено |
-| 21.11.2018 | [Внедрение Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | Изменено |
-| 21.11.2018 | [Инструменты и скачиваемые материалы по внедрению](/MicrosoftTeams/adopt-tools-and-downloads) | Изменено |
-| 21.11.2018 | [Внедрение Microsoft Teams с максимальной выгодой — Microsoft Teams](/MicrosoftTeams/continue-journey) | Изменено |
-| 21.11.2018 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
-| 21.11.2018 | [Управление Teams при переходе на Центр администрирования Microsoft Teams и Skype для бизнеса](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | Изменено |
-| 21.11.2018 | [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Изменено |
-| 21.11.2018 | [Краткий контрольный список по внедрению Microsoft Teams](/MicrosoftTeams/teams-adoption-quick-start-checklist) | Изменено |
-| 21.11.2018 | [Расширение возможностей службы после перехода — Microsoft Teams](/MicrosoftTeams/upgrade-enhance-my-service) | Изменено |
-| 21.11.2018 | [Руководство по работе с Microsoft Teams — Microsoft Teams](/MicrosoftTeams/upgrade-operate-my-service) | Изменено |
-| 21.11.2018 | [План подготовки пользователей перед переходом со Skype для бизнеса на Microsoft Teams — Microsoft Teams](/MicrosoftTeams/upgrade-user-readiness) | Изменено |
-| 22.11.2018 | [Рекомендации по работе с командами в Microsoft Teams](/MicrosoftTeams/best-practices-organizing) | Изменено |
-| 22.11.2018 | [Управление настройками собраний в Microsoft Teams](/MicrosoftTeams/meeting-settings-in-teams) | Добавлено |
-
-
 ## <a name="week-of-november-26-2018"></a>Неделя с 26 ноября 2018 г.
 
 
@@ -212,3 +166,14 @@
 | 20.12.2018 | [Телефоны для Microsoft Teams](/MicrosoftTeams/phones-for-teams) | Добавлено |
 | 20.12.2018 | [Бесплатный перевод Microsoft Teams на версию по подписке Office 365](/MicrosoftTeams/upgrade-freemium) | Добавлено |
 | 21.12.2018 | [Описание перехода со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/tutorial-journey-skypeforbusiness-to-teams) | Изменено |
+
+
+## <a name="week-of-december-24-2018"></a>Неделя с 24 декабря 2018 г.
+
+
+| Дата публикации |Название раздела | ИЗМЕНИТЬ |
+|------|------------|--------|
+| 28.12.2018 | [Принятие решений по службе аудиоконференций — Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | Изменено |
+| 28.12.2018 | [Собрания в Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams) | Изменено |
+| 28.12.2018 | [Управление устройствами в Microsoft Teams](/MicrosoftTeams/device-management) | Изменено |
+| 28.12.2018 | [Управление функциями Microsoft Teams в организации Office 365](/MicrosoftTeams/enable-features-office-365). | Изменено |
