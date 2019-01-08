@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Для клиентов, которые требуют стационарные телефоны и телефонах комнаты для конференций выполнять и принимать звонки, аудио, либо присоединяться к собраниям группами Майкрософт предоставляет растущий портфеля устройств. Клиенты могут приобрести непосредственно этих устройств на наш Marketplace группами.
-ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
-ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
+ms.openlocfilehash: c91a20f100e8edf9b7a6d9897b693ec0f511657f
+ms.sourcegitcommit: 370741f97ed8ea5026f73ec97de2f89b223df9fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/08/2019
-ms.locfileid: "27747971"
+ms.locfileid: "27760561"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>Приобретение и развертывание Microsoft групп IP-телефонов
 
@@ -27,7 +27,7 @@ ms.locfileid: "27747971"
 
 Телефоны должны быть встроенное по версии перечислены в следующей таблице для работы в группами Майкрософт.
 
-|Модель телефона|Версия микропрограммы|Дата выпуска|
+|Модель телефона|Версия микропрограммы|Дата выпуска |
 |---|---|---|---|
 |AudioCodes C450HD| Ожидается в ближайшее время |Ожидается в ближайшее время|
 |Гибкость Crestron P100-T/P110-T    |Ожидается в ближайшее время|Ожидается в ближайшее время
