@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Для клиентов, которые требуют стационарные телефоны и телефонах комнаты для конференций выполнять и принимать звонки, аудио, либо присоединяться к собраниям группами Майкрософт предоставляет растущий портфеля устройств. Клиенты могут приобрести непосредственно этих устройств на наш Marketplace группами.
-ms.openlocfilehash: b5dda1a8deb88278d1a3be1caefa7ef8eb90d933
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
+ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27383172"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27747971"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>Приобретение и развертывание Microsoft групп IP-телефонов
 
@@ -33,8 +33,8 @@ ms.locfileid: "27383172"
 |Гибкость Crestron P100-T/P110-T    |Ожидается в ближайшее время|Ожидается в ближайшее время
 |Crestron M100|2.3875.00068|2018 дек|       
 |Polycom Trio   |Ожидается в ближайшее время|Ожидается в ближайшее время|   
-|Yealink CP 960 |73.15.0.11|2018 дек
-|Серии Yealink T58/T56 |58.15.0.11|2018 дек|
+|Yealink CP 960 |73.15.0.20|2018 дек
+|Серии Yealink T58/T56 |58.15.0.20|2018 дек|
 
 
 Версия микропрограммы минимальные можно проверить на странице входа в группы, выбрав значок **Параметры** в правом верхнем углу и затем выбрав **о**.
@@ -56,4 +56,4 @@ ms.locfileid: "27383172"
 
 ## <a name="see-also"></a>См. также
 
-[Телефоны для групп Майкрософт](phones-for-teams.md)
+[Телефоны для Microsoft Teams](phones-for-teams.md)
