@@ -1,7 +1,7 @@
 ---
 title: Управление гостевым доступом в Microsoft Teams
-author: LolaJacobsen
-ms.author: rramesan
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: ИТ-администраторы могут добавлять гостей на уровне клиента, задавать политики и разрешения для гостевых пользователей и управлять ими, определять, какие пользователи могут приглашать гостей, а также составлять отчеты о деятельности гостевых пользователей.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db7e67536193e53d72f2bc85bb381158d5703f17
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: b4375f6e9eb0d36d05d20f96da2410767465fcc2
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674499"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772779"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Управление гостевым доступом в Microsoft Teams
 ======================================
