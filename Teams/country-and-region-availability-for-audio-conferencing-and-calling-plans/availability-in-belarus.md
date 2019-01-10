@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Беларусь.
-ms.openlocfilehash: c9ee1ce7bf93727d19cde5e79ade907aa75be923
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9df2ad1f118e5f0fe1ed1e88579fe8c14d34cf95
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013949"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789255"
 ---
 # <a name="availability-in-belarus"></a>Доступность в Беларусь
 
@@ -45,7 +45,7 @@ ms.locfileid: "25013949"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Доступно  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Доступные с оплаты кредитов коммуникаций в минуту  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

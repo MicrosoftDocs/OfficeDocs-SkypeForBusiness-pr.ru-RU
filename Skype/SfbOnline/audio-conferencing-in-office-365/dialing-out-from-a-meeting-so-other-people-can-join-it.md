@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: d4ff0ab207d5526fe8b24f4ec791de5f952a83e3
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 49130a14391e014d1e7aea21c62abaf2385296d8
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182345"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788950"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Чтобы другие пользователи могут присоединиться к ней выходному из Скайп для собраний
 
@@ -38,7 +38,7 @@ ms.locfileid: "27182345"
     
 - Вы организатор собрания был разрешен доступ к конференции.
 
-Для добавления других участников с помощью подключение по телефонной линии к собраниям вашей организации, по крайней мере один прошедших проверку пользователей из той же организации как Организатор (вашей организации) должен быть указан в собрании в друга, чтобы разрешить добавление другим участникам через подключение по телефонной линии. 
+Для добавления других участников с помощью подключение по телефонной линии к собраниям вашей организации, для присутствовать на собрании, чтобы разрешить добавление другим участникам требуется по крайней мере один прошедшего проверку пользователя из той же организации, как Организатор (вашей организации) через подключение по телефонной линии. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

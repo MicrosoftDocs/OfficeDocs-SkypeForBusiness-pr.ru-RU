@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Сводка: Настройка тестовых учетных записей пользователей и параметры узла наблюдателя для Скайп для искусственных транзакций Business Server.'
-ms.openlocfilehash: 3881fc1878ed3b248aa3109b79a3e384ec4a5fb7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 257814108a276d049ed4ac9173fde6dfa4473ff2
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989890"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789393"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Настройка тестовых пользователей узла-наблюдателя и параметров
  
@@ -33,12 +33,11 @@ ms.locfileid: "20989890"
 
 Тестовые учетные записи не требуется представляют фактические людей, но они должны иметь допустимые учетные записи Active Directory. Кроме того эти учетные записи должна быть включена поддержка Скайп для Business Server, они должны иметь допустимые адреса SIP и их необходимо включить для корпоративной голосовой связи (для использования искусственная транзакция Test-CsPstnPeerToPeerCall). 
   
-При использовании метода проверки подлинности TrustedServer все, что вам нужно сделать — убедитесь в том, что эти учетные записи существует и настроить их как было указано. Вы должны назначить по крайней мере три тестовых пользователей для каждого пула, который требуется проверить. При использовании метода проверки подлинности Negotiate, необходимо также использовать командлет Set-CsTestUserCredential и Скайп для Business Server командную консоль, чтобы включить их тестирование учетных записей для работы с искусственные транзакции. Это можно сделать с помощью команды, подобные приведенным ниже (эти команды предполагается, что были созданы три учетные записи пользователей Active Directory и включения этих учетных записей для Скайп для Business Server):
+If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted. Вы должны назначить по крайней мере двух тестовых пользователей для каждого пула, который требуется проверить. При использовании метода проверки подлинности Negotiate, необходимо также использовать командлет Set-CsTestUserCredential и Скайп для Business Server командную консоль, чтобы включить их тестирование учетных записей для работы с искусственные транзакции. Это можно сделать с помощью команды, подобные приведенным ниже (эти команды предполагается, что были созданы две учетные записи пользователей Active Directory и включения этих учетных записей для Скайп для Business Server):
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
-Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
 Помимо SIP-адреса вам нужно также указать имя пользователя и пароль. Если вы не укажете пароль, командлет Set-CsTestUserCredential выведет соответствующий запрос. Имя пользователя можно указывать в формате "имя_домена\имя_пользователя", как показано выше.
@@ -48,7 +47,6 @@ Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "li
 ```
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
-Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 ```
 
 Команды возвращают сведения о каждом пользователе, похожие на следующие.
@@ -62,15 +60,15 @@ Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 Создав тестовых пользователей, вы можете создать узел-наблюдатель с помощью следующей команды.
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
-Эта команда создает узел-наблюдатель с параметрами по умолчанию, который выполняет набор искусственных транзакций по умолчанию. Для нового узла-наблюдателя используются тестовые пользователи watcher1@litwareinc.com, watcher2@litwareinc.com и watcher3@litwareinc.com. Если узел-наблюдатель использует проверку подлинности TrustedServer, тестовые учетные записи могут представлять собой любые допустимые учетные записи, для которых включена поддержка Active Directory и Skype для бизнеса Server. Если узел-наблюдатель использует проверку подлинности согласованием, использование этих учетных записей пользователей также должно быть включено для узла-наблюдателя с помощью командлета Set-CsTestUserCredential.
+Эта команда создает узел-наблюдатель с параметрами по умолчанию, который выполняет набор искусственных транзакций по умолчанию. Новый компьютер узла-наблюдателя также использует тестовых пользователей watcher1@litwareinc.com и watcher2@litwareinc.com. Если компьютер узла-наблюдателя использует проверку подлинности TrustedServer, два тестовые учетные записи может быть любой допустимый учетных записей пользователей для Active Directory и Скайп для Business Server. Если узел-наблюдатель использует проверку подлинности согласованием, использование этих учетных записей пользователей также должно быть включено для узла-наблюдателя с помощью командлета Set-CsTestUserCredential.
   
 Чтобы проверить правильность настройки автоматического обнаружения целевого пула для входа в систему вместо непосредственного определения пула, используйте следующие действия:
   
 ```
-New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
 ### <a name="configuring-extended-tests"></a>Настройка расширенных тестов
@@ -78,16 +76,16 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 Если вы хотите включить тест ТСОП, проверяющий подключение к телефонной сети общего пользования, вам потребуется произвести дополнительную настройку узла-наблюдателя. Во-первых, вам нужно связать тестовых пользователей с типом теста ТСОП, выполнив следующую команду командной консоли Skype для бизнеса Server.
   
 ```
-$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
+$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
 > [!NOTE]
 > Результаты выполнения этой команды необходимо сохранить в переменной. В этом примере используется переменная $pstnTest. 
   
-Теперь можно использовать командлет **New-CsWatcherNodeConfiguration** связывание тип теста (и сохраненная в переменной $pstnTest) для Скайп для пула Business Server. Например, следующая команда создает конфигурацию узла-наблюдателя для пула atl-cs-001.litwareinc.com, добавляет трех тестовых пользователей, созданных ранее, а также тест ТСОП.
+Теперь можно использовать командлет **New-CsWatcherNodeConfiguration** связывание тип теста (и сохраненная в переменной $pstnTest) для Скайп для пула Business Server. Например следующая команда создает новый конфигурации узла-наблюдателя для пула atl-cs-001.litwareinc.com, добавление двух тестовых пользователей, созданную ранее, и добавление ТСОП проверки типа:
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
 Если вы не установили основные файлы Skype для бизнеса Server и базу данных RTCLocal на компьютере узла-наблюдателя, то предыдущая команда завершится с ошибкой. 
@@ -102,7 +100,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
     
 - IM
     
-- GroupIM
+- GroupIM (групповые мгновенные сообщения)
     
 - P2PAV (одноранговые аудио- и видеосеансы)
     
@@ -202,7 +200,13 @@ Get-CsWatcherNodeConfiguration
 
 Команда возвращает сведения, похожие на следующие.
   
-Удостоверение: atl-cs-001.litwareinc.com TestUsers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn: atl-cs-001.litwareinc.com PortNumber: 5061To убедитесь, что компьютер узла-наблюдателя настроен правильно, введите следующую команду из Скайп для консоли Business Server:
+Удостоверение: atl-cs-001.litwareinc.com <br/>
+TestUsers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...}<br/>
+ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...}<br/>
+TargetFqdn: atl-cs-001.litwareinc.com<br/>
+PortNumber: 5061<br/>
+
+Чтобы проверить конфигурацию узла-наблюдателя, введите следующую команду в командную консоль Skype для бизнеса Server.
   
 ```
 Test-CsWatcherNodeConfiguration
@@ -210,15 +214,15 @@ Test-CsWatcherNodeConfiguration
 
 Данная команда проверяет каждый узел-наблюдатель в развертывании и подтверждает выполнение следующих действий:
   
-- установлена ли требуемая роль Регистратора;
+- Установленные роли регистратора.
     
-- созданы ли требуемые разделы реестра (выполняется при запуске команды Set-CsWatcherNodeConfiguration);
+- Созданы требуемые разделы реестра (завершено при выполнении командлета Set-CsWatcherNodeConfiguration).
     
-- запущена ли на серверах требуемая версия Skype для бизнеса Server;
+- Запущена ли на серверах требуемая версия Скайп для Business Server.
     
-- правильно ли настроены порты;
+- Порты настроены правильно.
     
-- имеются ли у назначенных тестовых пользователей требуемые учетные данные.
+- Наличие у назначенных тестовых пользователей требуемых учетных данных.
     
 ## <a name="managing-watcher-nodes"></a>Управление узлами-наблюдателями
 <a name="testuser"> </a>
@@ -365,7 +369,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Искусственная транзакция сервера видеовзаимодействия
 
-Искусственная транзакция видео взаимодействия сервера по ДИАГОНАЛИ необходимо загрузить и установить файлы поддержки искусственная транзакция ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+Искусственная транзакция сервера видеовзаимодействия требует загрузки и установки файлов поддержки искусственной транзакции ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
 Чтобы установить VISSTSupportPackage.msi убедитесь, что зависимости для msi уже установлены (вкладка системных требований). Запустите VISSTSupportPackage.msi для выполнения простой установки. MSI-файла устанавливает все файлы по следующему пути: «%ProgramFiles%\VIS искусственная транзакция пакет поддержки».
   
@@ -380,15 +384,15 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
   
 Чтобы изменить частоту выполнения искусственных транзакций, выполните следующие действия:
   
-1. Открыть System Center Operations Manager. Нажмите раздел "Создание". Выберите раздел правил (в разделе "Создание")
+1. Открыть System Center Operations Manager. Нажмите раздел "Создание". Выберите раздел правила (в разделе Разработка).
     
-2. В разделе правила найти правило с именем «Основные искусственных транзакций средства выполнения производительности коллекции правила»
+2. В разделе правила найти правило с именем «Main искусственных транзакций средства выполнения производительности коллекции правил».
     
-3. Правила, щелкните правой кнопкой мыши и выберите переопределений, установите переключатель в положение правило и выберите «для всех объектов класса: наблюдатель пула»
+3. Правила, щелкните правой кнопкой мыши и выберите переопределений, установите переключатель в положение правило и выберите «для всех объектов класса: наблюдатель пула».
     
 4. В окне Свойства переопределить выберите имя параметра «Частота» и установите значение переопределить нужную папку.
     
-5. В том же окне выберите пакет управления, к которому будет применено данное переопределение
+5. В том же окне выберите пакет управления, к которому необходимо применить это переопределение.
     
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>Использование подробного журнала для искусственных транзакций
 <a name="special_synthetictrans"> </a>
@@ -403,7 +407,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
     
 - Действие, которое было выполнено (например, создание конференции, присоединение к ней или выход, вход в Skype для бизнеса Server; отправка мгновенного сообщения)
     
-- Информационные, подробные сообщения, предупреждения или сообщения об ошибках, которые были созданы при выполнении операции
+- Информационные, подробные сообщения, предупреждения или сообщения об ошибках, созданные при выполнении операции.
     
 - Сообщения о регистрации SIP
     
@@ -420,11 +424,13 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 ```
 
 > [!NOTE]
-> : Имени имени переменной символ $. Например, используйте имя переменной RegistrationTest, а не $RegistrationTest. 
+> Не вводите перед имени переменной символ $. Например, используйте имя переменной RegistrationTest, а не $RegistrationTest. 
   
 При выполнении данной команды будут отображены следующие выходные данные:
   
-Полное доменное имя целевого: atl-cs-001.litwareinc.com результатов: сбой задержка: 00:00:00 сообщение об ошибке: этот компьютер не имеет назначенного сертификаты. Диагностика: можно получить доступ к намного более подробные сведения для Эта ошибка только сообщение об ошибке, показано ниже. Для получения доступа к этой информации в формате HTML используйте команду, аналогичную этой, чтобы сохранить данные, хранящиеся в переменной RegistrationTest, в файл HTML:
+Полное доменное имя целевого: atl-cs-001.litwareinc.com результатов: сбой задержка: 00:00:00 сообщение об ошибке: этот компьютер не имеет назначенного сертификаты. Диагностика: можно получить доступ к намного более подробные сведения для Эта ошибка только сообщение об ошибке, показано ниже.
+
+Для получения доступа к этой информации в формате HTML используйте команду, аналогичную этой, чтобы сохранить данные, хранящиеся в переменной RegistrationTest, в файл HTML:
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html

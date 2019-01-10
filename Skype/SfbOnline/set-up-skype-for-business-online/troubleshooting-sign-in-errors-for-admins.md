@@ -17,18 +17,18 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Узнайте распространенные причины для Скайп для бизнеса в Интернет входа ошибок и работы через устранения неполадок. '
-ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b9eccd817fbb9a67fcbce61d73b4a701c6b063de
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371152"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789087"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение неполадок Скайп для бизнеса в Интернет ошибки для администраторов
 
 Для устранения неполадок Скайп для бизнеса в Интернет ошибки, запустите, устраняя самые распространенные причины входа сложности. При необходимости можно затем выполните действия на основании типа ошибки определенные разрешения. Если пользователь по-прежнему не удается войти в программу, собрать Дополнительные сведения и затем для получения дополнительной поддержки.
 
-## <a name="what-do-you-want-to-do"></a>В этой статье:
+## <a name="what-do-you-want-to-do"></a>Что требуется сделать?
 <a name="top"> </a>
 
 > [Распространенные причины Скайп для бизнеса в Интернет ошибки проверки](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
@@ -124,7 +124,7 @@ ms.locfileid: "25371152"
 
   - **Имя**: sip
 
-  - **Значение/назначение**: sipdir.online.microsoft.com
+  - **Значение/назначение**: sipdir.online.lync.com
 
 Дополнительные сведения в статье базы знаний Майкрософт 2566790, [Устранение неполадок Скайп для проблемы с конфигурацией DNS Online бизнеса в Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
 

@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Сведения об использовании встроенных и настраиваемых вкладок для таких компонентов, как беседы, файлы, карты и многое другое.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01e74b526058842819e219fcaa34109a7f954ad4
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: dca1d1a49a749991c97e2e8807557c457f1b67f6
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294677"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788959"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Использование встроенных и настраиваемых вкладок в Microsoft Teams
 ==================================================
@@ -51,7 +51,7 @@ ms.locfileid: "26294677"
 
 ## <a name="develop-custom-tabs"></a>Разработка настраиваемых вкладок
 
-В дополнение к встроенной вкладки при проектировании и разработке собственных вкладок для интеграции группам или совместной работы с другими элементами сообщества.
+В дополнение к встроенной вкладки при проектировании и разработке собственных вкладок для интеграции группам или совместной работы с другими элементами сообщества. [Управление доступом к настраиваемой вкладке](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) можно, настроив соответствующие группы Office 365.
 
 Microsoft Developer Network содержатся [Подробные инструкции](https://go.microsoft.com/fwlink/?linkid=855786) для разработки и построения свои собственные и разработанных службой корпорации Майкрософт, вы можете загрузить [пример вкладки](https://go.microsoft.com/fwlink/?linkid=855787) .
 

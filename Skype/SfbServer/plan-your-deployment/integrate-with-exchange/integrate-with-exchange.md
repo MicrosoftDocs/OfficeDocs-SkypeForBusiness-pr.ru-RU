@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Сводка: Просмотрите в этом разделе приведены сведения об интеграции Скайп для Business Server с Exchange Server 2016 или Exchange Server 2013.'
-ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 327a564e9c7a0a73ef178866f511c75388ac14bc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532537"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789400"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Планирование интеграции Skype для бизнеса и Exchange
  
@@ -104,9 +104,13 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 |Почтовый ящик exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> |Да (требуется Exchange 2016 или 2013)  <br/> |Да  <br/> |Нет  <br/> |Нет  <br/> |Да  <br/> |
 |Поиск заархивированного содержимого  <br/> |Да (требуется Exchange 2016 или 2013)  <br/> |Да  <br/> |Нет  <br/> |Нет  <br/> |Да  <br/> |
-|Голосовая почты системы обмена сообщениями Exchange  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
+|Голосовая почты системы обмена сообщениями Exchange  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |Нет  <br/> |Нет  <br/> |
 |Журнал бесед на стороне сервера  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |Да  <br/> |Да  <br/> |
-   
+
+> [!NOTE]
+> Существует голосовой почты облачной службы, которая поддерживается для Скайп для бизнеса в Интернет, Скайп для Business Server 2019, Скайп для Business Server 2015 и Скайп Business Server 2013.
+> 
+
 ## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
 <a name="feature_support"> </a>
 

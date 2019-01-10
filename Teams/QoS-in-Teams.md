@@ -1,5 +1,5 @@
 ---
-title: Качество обслуживания в группах Microsoft - группами Майкрософт
+title: Качество обслуживания в Microsoft Teams — Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68a11fcc519b63fe04bf6eedfbf9d87b3b80b0b
-ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
+ms.openlocfilehash: d5e6b37a0daff06a4676a7ecba1b67ecdd03649a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27294182"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789096"
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Качество обслуживания (QoS) в Microsoft Teams
 
@@ -248,7 +248,7 @@ QoS на основе политики в рамках групповой пол
 
 2. В командной строке введите
    ```
-    gpudate.exe /force
+    gpupdate.exe /force
    ```
 
 ## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Проверка маркировку DSCP в объекте групповой политики
@@ -259,7 +259,7 @@ QoS на основе политики в рамках групповой пол
 
 2. В командной строке введите 
    ```
-   gpresult /R >gp.txt
+   gpresult /R > gp.txt
    ```
 
    Это будет создать отчет и отправьте его в текстовый файл с именем gp.txt. Кроме того можно ввести следующую команду, чтобы создать те же данные в формате HTML отчет с именем gp.html:

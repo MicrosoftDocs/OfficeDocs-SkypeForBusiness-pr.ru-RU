@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Сведения о функцию вещания собрания Скайп Скайп для бизнеса в Интернет, который позволяет расписания, создавать и вещания собрания или события для крупных online аудиторий до 10 000 участников.
-ms.openlocfilehash: 7c22b4b0911935ffd90d10e65d2fff0d71018910
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b29ec51ddcb672f6727f7bc43958872962245ebb
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374557"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788978"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Настройка сети для трансляции собраний Skype
 
@@ -45,13 +45,13 @@ ms.locfileid: "25374557"
 
 2. На странице " **внешний общий доступ** " в разделе **исключения домена**выберите **все домены, блокируются за исключением**и введите следующие доменов, разделенных точкой с запятой (,):
 
-   - noammeetings.Lync.com
+   - noammeetings.lync.com
 
-   - emeameetings.Lync.com
+   - emeameetings.lync.com
 
-   - apacmeetings.Lync.com
+   - apacmeetings.lync.com
 
-   - Resources.Lync.com
+   - resources.lync.com
 
 3. Нажмите кнопку **Сохранить**.
 
@@ -93,13 +93,13 @@ ms.locfileid: "25374557"
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Настройка широковещательного Скайп собрания в гибридных развертываниях и организаций
 
-Если вы Скайп для бизнеса сети организации и локального развертывания Lync Server 2010, Microsoft Lync Server 2013 и Скайп для Business Server 2015 и имеют пользователей обоих Интернет-версия и локальной, но и других действий, которые необходимо выполнить дополнение к пример выше для включения в локальной организации для взаимодействия с Скайп для бизнеса в Интернет и разрешить всем пользователям возможность создавать и присоединиться к собранию Скайп, вещания. Чтобы узнать, что этих требований, содержатся в разделе [Настройка локального развертывания на наличие Скайп собрания вещания](https://go.microsoft.com/fwlink/?LinkId=617070).
+Если вы Скайп для бизнеса сети организации и локального развертывания Lync Server 2010, Microsoft Lync Server 2013 и Скайп для Business Server 2015 и имеют пользователей обоих Интернет-версия и локальной, но и других действий, которые необходимо выполнить дополнение к пример выше для включения в локальной организации для взаимодействия с Скайп для бизнеса в Интернет и разрешить всем пользователям, чтобы присоединиться к собранию Скайп, вещания. Чтобы узнать, что этих требований, содержатся в разделе [Настройка локального развертывания на наличие Скайп собрания вещания](https://go.microsoft.com/fwlink/?LinkId=617070).
 
 ## <a name="related-topics"></a>Связанные разделы
 
 [Включение трансляции собраний Skype](enable-skype-meeting-broadcast.md)
 
-[URL-адреса и диапазоны IP-адресов Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+[URL-адреса и диапазоны IP-адресов для Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
 [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
