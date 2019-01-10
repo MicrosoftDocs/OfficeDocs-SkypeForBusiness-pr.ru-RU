@@ -99,11 +99,9 @@
 
 
 <!-- ============================================================ -->
-# [Переход со Skype для бизнеса на Teams](Journey-SkypeforBusiness-Teams.md)
-## [Руководство. Переход со Skype для бизнеса на Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Обновление базовой](upgrade-basic.md)
-### [Образец сообщения электронной почты и опросов](upgrade-emails-surveys.md)
-## [Обновление специалистов](upgrade-pro.md)
+# [Обновление до группы](upgrade-introduction.md)
+## [Начало работы](upgrade-start-here.md)
+## [Об обновлении framework](upgrade-framework.md)
 ## [Планирование обновления пути](upgrade-plan-journey.md)
 ### [Прикрепить другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
 ### [Определение области проекта](upgrade-define-project-scope.md)
@@ -120,22 +118,22 @@
 ### [Оцените готовность к организационных изменений](upgrade-org-change-readiness.md)
 ### [Подготовка плана готовность пользователей](upgrade-user-readiness.md)
 ## [Проведение пилотных пользователей](pilot-essentials.md)
-## [Выполнение обновления на группы](upgrade-to-teams.md)
-### [Обновление от Скайп для бизнеса в Интернете по группам](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [Обновление с Скайп для гибридной среды Business по группам](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Обновление от Скайп для бизнеса локальных групп,](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [Диск выгоду за счет внедрения пользователя](continue-journey.md)
+## [Обновление от Скайп для бизнеса в Интернете по группам](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+## [Обновление с Скайп для гибридных Business или локальных групп](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+## [Удостоверения, адаптацию и оптимизация](continue-journey.md)
 ### [Использование службы](upgrade-operate-my-service.md)
 ### [Отслеживание качества](upgrade-monitor-quality.md)
 ### [Улучшения службы](upgrade-enhance-my-service.md)
+## [Руководство. Переход со Skype для бизнеса на Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Вопросы и ответы](FAQ-journey.md)
-
+## Дополнительная информация
+### [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
+### [Сосуществование со Skype для бизнеса](coexistence-chat-calls-presence.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Взаимодействие с Office 365
-## [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
-## [Сосуществование со Skype для бизнеса](coexistence-chat-calls-presence.md)
+
 ## [Задайте вашей сосуществования и параметры обновления](setting-your-coexistence-and-upgrade-settings.md)
 ## [Группы Office 365 и Teams](office-365-groups.md)
 ## [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
