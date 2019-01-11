@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d252b95496a3d86eb9667fd6dec9256d7ad98a00
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: 6d5bd0fc2e476e256d94717a1f77d1c30d880ddf
+ms.sourcegitcommit: cdaef5d0f7e1dbd1d934151152f40ad141b7bf83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27382680"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27895984"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса
 
@@ -90,7 +90,7 @@ TeamsUpgradePolicy предоставляет два основных свойс
 
 |Параметр|Тип|Допускаются следующие значения</br>(по умолчанию курсивом)|Описание|
 |---|---|---|---|
-|Режим|Enum|*О-ва*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>Прежних версий|Указывает режим, в котором должна запускаться клиента в. Если режим = прежних версий, компонентами, которые потребляют эта политика будет вернуться к учитывая TeamsInteropPolicy. TeamsUpgradePolicy полностью поддерживается и клиентам следует обновить их режимы использования конфигураций отличный от прежних версий.|
+|Режим|Enum|*О-ва*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings</br>Прежних версий|Указывает режим, в котором должна запускаться клиента в. Если режим = прежних версий, компонентами, которые потребляют эта политика будет вернуться к учитывая TeamsInteropPolicy. TeamsUpgradePolicy полностью поддерживается и клиентам следует обновить их режимы использования конфигураций отличный от прежних версий.|
 |NotifySfbUsers|Bool|*Значение false* или true|Указывает, следует ли отображать заголовок в Скайп для клиента Business, уведомляющее о группами скоро заменит Скайп для бизнеса. Это не может быть значение true, если режим = TeamsOnly.|
 |||||
 
