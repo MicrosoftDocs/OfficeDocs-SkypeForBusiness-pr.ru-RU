@@ -3,7 +3,7 @@ title: Начало работы с группами шаблонов
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/12/2018
+ms.date: 01/10/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 151a789b6047540071aa5780fb81a895503dd70b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ead0a3dc9e27b90c49808bcece0aab39bf01f13a
+ms.sourcegitcommit: 4c5b9e8c4bdb1187d610209d365680702d4372fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531018"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27801466"
 ---
 # <a name="get-started-with-teams-templates"></a>Начало работы с группами шаблонов 
 
@@ -31,17 +31,18 @@ ms.locfileid: "26531018"
  
 Эта статья является для вас, если вы:
 
-• Ответственность за планирования, развертывания и управления несколькими группами в рамках разработчиков • A вашей организации нужна для создания группы с предопределенное каналы и приложения программными средствами
+- Ответственность за планирование, развертывание и управление нескольких групп в организации<br>
+- Разработчик, которым требуется для программного создания группы с предварительно определенные каналы и приложений 
 
-## <a name="team-template-capabilities"></a>Возможности шаблон группы
+## <a name="teams-template-capabilities"></a>Возможности шаблон группы
 
-Большинство свойств в группе включены и поддерживаются в шаблонах. Однако есть некоторые свойства и функции, которые в настоящее время не поддерживаются. Ниже приведены краткая сводка того, что реализовано и что не входит в группы шаблонов.
+Большинство свойств в группе включены и поддерживаются в шаблонах. Однако некоторые свойства и функции, которые в настоящее время не поддерживается. Ниже приведены краткая сводка того, что реализовано и что не входит в группы шаблонов.
 
 | **Свойства группы, поддерживаемые шаблоны группы** | **Свойства группы еще не поддерживаются шаблонами групп** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Тип базового шаблона | Членство в группы |
 | Название команды | Изображение группы |
-| Описание группы | Параметры канала (, например auto Избранное и конфиденциальность) |
+| Описание группы | Параметры канала |
 | Группа видимости (public или private) | Соединители |
 | Параметры группы (например, элемент, гостевой @ упоминания) | Файлы и контента |
 | Auto избранного канала | |
@@ -53,19 +54,19 @@ ms.locfileid: "26531018"
 
 ## <a name="what-are-base-template-types"></a>Что такое типы базового шаблона?
 
-Типы базового шаблона — это специальные шаблоны, которые созданы Microsoft для конкретных отраслей. Эти шаблоны базового часто содержит собственный приложения, которые не доступны в свойства хранилища и группы, еще не поддерживаются в шаблонах группами по отдельности.
+Типы базового шаблона — это специальные шаблоны, которые созданы Microsoft для конкретных отраслей. Эти шаблоны базового часто содержит собственный приложения, которые не доступны в свойства хранилища и группы, которые еще не поддерживаются по отдельности в шаблонах группами.
 
-После определения типа базового шаблона можно расширить или переопределить эти специальные шаблоны, с помощью дополнительных свойств, которые вы хотите указать. Тем не менее некоторые типы базового шаблона содержит свойства, которые нельзя переопределить. 
+После определения типа базового шаблона можно расширить или переопределить эти специальные шаблоны, с помощью дополнительных свойств, которые вы хотите указать. Однако некоторые типы базового шаблона содержит свойства, которые не может быть переопределен. 
 
 По умолчанию базового шаблона — это значение **Standard** которого не содержит все дополнительные специализированных приложений или специальные свойства. Ниже текущего списка шаблонов базовые типы недоступны.
 
 | Тип базового шаблона | Идентификатор базового шаблона | Базовый шаблон собственные приложения и специальные свойства |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json) | Нет дополнительных приложений и свойства |
-| Здравоохранение - медицинскими координация | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-CC.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-CC.json#) | Приложения:<br/> -Приложение пострадавших (прикрепленных к вкладке « **Общие** »)<br/> <br/>Каналы: <br/> -Объявления<br/> -Diabetes<br/> -Cardiovascular<br/> -Зарегистрированные медсестры |
-| Здравоохранение - ютиться процесса | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-PH.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-PH.json#) | Каналы:<br/> -Вызывает писателем в мире<br/> -Обзор mortality <br/> -Предотвращение представлена <br/> -Планы sepsis |
-| Образование - класс группы<sup>1</sup> | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#) | Приложения:<br/> -Класс заметки (прикрепленных к вкладке « **Общие** ») <br/> -Приложение назначений (прикрепленных к вкладке « **Общие** ») <br/><br/> Свойства группы <br/> -Задайте значение **HiddenMembership** (не может быть переопределен) видимости подключения группой разработки |
-| Образование - персонала группы<sup>1</sup> | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-ST.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-ST.json#) | Приложения<br/> -Персонала заметки (прикрепленных к вкладке « **Общие** ») |
+| Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | Нет дополнительных приложений и свойства |
+| Образование- <br>Класс группы<sup>1</sup> | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Приложения:<ul><li>Записной книжке OneNote класс (прикрепленных к вкладке « **Общие** ») </li><li>Назначения приложения (прикрепленных к вкладке « **Общие** »)</li></ul> Свойства группы:<ul><li>Группа видимости, задайте значение **HiddenMembership** (не может быть переопределен)</li></ul> |
+| Образование-<br>Персонал группы<sup>1</sup> | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Приложения:<ul><li>Записной книжке OneNote персонала (прикрепленных к вкладке « **Общие** »)</li></ul> |
+|Образование-<br>Группа PLC |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Приложения:<ul><li>Записной книжке OneNote PLC (прикрепленных к вкладке « **Общие** »)</ul></li>|
+|||
 
 <sup>1</sup> публикации в конце октября 2018 г.
 
@@ -74,7 +75,7 @@ ms.locfileid: "26531018"
 
 ## <a name="examples"></a>Примеры 
 
-Можно приступать к созданию группы с помощью шаблона, установив [Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview).
+Можно начать с помощью шаблона для создания группы с помощью [Microsoft Graph API](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 ### <a name="create-a-team-from-a-template"></a>Создание группы на основе шаблона
 
@@ -83,15 +84,13 @@ ms.locfileid: "26531018"
 **Запрос на создание группы с помощью стандартных базового шаблона**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
-    
-    "teamDisplayName": "My Sample Team",
-    "teamDescription": "My Sample Team’s Description",
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
+  "displayName": "Sample Team",
+  "description": "Sample Team’s Description"
 }
 
 ~~~
@@ -99,23 +98,21 @@ Content-Type: application/json
 **Запрос на создание группы с помощью дополнительных канала и запретить члены из каналы**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
-    
-    "teamDisplayName": "My Sample Team",
-    "teamDescription": "My Sample Team’s Description",
-    "channels": [
-        {
-            "displayName": "Interns",
-            "autoFavorite": false
-        }
-    ],
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
+  "displayName": "My Sample Team",
+  "description": "My Sample Team’s Description",
+  "channels": [
+    {
+        "displayName": "Random",
+        "isFavoriteByDefault": true
+    }
+              ],
     "memberSettings": {
-        "allowDeleteChannels": false,
+        "allowDeleteChannels": false
     }
 }
 
@@ -124,93 +121,94 @@ Content-Type: application/json
 **Запрос на создание группы Все поддерживаемые свойства**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
- 
-    "teamType": "Healthcare_CareCoordination",
+    "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
     "visibility": "Private",
-    "teamDisplayName": "My Care Team",
-    "teamDescription": "My Care Team’s description",
- 
+    "displayName": "Sample Engineering Team",
+    "description": "This is a sample engineering team, used to showcase the range of properties 
+supported by this API",
     "channels": [
         {
-            "displayName": "General  ",
-            "autoFavorite": true,
+            "displayName": "Announcements 📢",
+            "isFavoriteByDefault": true,
+            "description": "This is a sample announcements channel that is favorited by default. Use this 
+channel to make important team, product, and service announcements."
+        },
+        {
+            "displayName": "Training 🏋️",
+            "isFavoriteByDefault": true,
+            "description": "This is a sample training channel that is favorited by default and contains an 
+example of pinned website and YouTube tabs.",
             "tabs": [
-                   {
-                       "appId": "0d820ecd-def2-4297-adad-78056cde7c78",
-                       "tabDisplayName": "Intranet”
-                   }
-               ]
+                {
+                    "teamsApp@odata.bind":
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                   "name": "A Pinned Website",
+                    "configuration": {
+                        "contentUrl": "https://docs.microsoft.com/en-us/microsoftteams/microsoft-teams"
+                    }
+                },
+                {
+                    "teamsApp@odata.bind": 
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.youtube')",
+                    "name": "A Pinned YouTube Video",
+                    "configuration": {
+                        "contentUrl": "https://tabs.teams.microsoft.com/Youtube/Home/YoutubeTab?
+videoId=X8krAMdGvCQ",
+                        "websiteUrl": "https://www.youtube.com/watch?v=X8krAMdGvCQ"
+                    }
+                }
+            ]
         },
         {
-            "displayName": "Announcements",
-            "autoFavorite": true
+"displayName": "Planning 📅 ",
+            "description": "This is a sample of a channel that is not favorited by default, these channels 
+will appear in the more channels overflow menu.",
+            "isFavoriteByDefault": false
         },
         {
-            "displayName": "Diabetes",
-            "autoFavorite": true
-        },
-        {
-            "displayName": "Cardiovascular",
-            "autoFavorite": true
-        },
-        {
-            "displayName": "Registered Nurses",
-            "autoFavorite": true
+            "displayName": "Issues and Feedback 🐞",
+            "description": "This is a sample of a channel that is not favorited by default, these channels 
+will appear in the more channels overflow menu."
         }
     ],
- 
-     "memberSettings": {
+    "memberSettings": {
         "allowCreateUpdateChannels": true,
         "allowDeleteChannels": true,
         "allowAddRemoveApps": true,
         "allowCreateUpdateRemoveTabs": true,
         "allowCreateUpdateRemoveConnectors": true
-      },
- 
-      "guestSettings": {
+    },
+    "guestSettings": {
         "allowCreateUpdateChannels": false,
         "allowDeleteChannels": false
-      },
- 
-      "messagingSettings": {
+    },
+    "funSettings": {
+        "allowGiphy": true,
+        "giphyContentRating": "Moderate",
+        "allowStickersAndMemes": true,
+        "allowCustomMemes": true
+    },
+    "messagingSettings": {
         "allowUserEditMessages": true,
         "allowUserDeleteMessages": true,
         "allowOwnerDeleteMessages": true,
         "allowTeamMentions": true,
         "allowChannelMentions": true
-      },
- 
-      "funSettings": {
-        "allowGiphy": true,
-        "giphyContentRating": "moderate",
-        "allowStickersAndMemes": true,
-        "allowCustomMemes": true
-      }
- 
- 
-    "installedApplications": [
-      {
-        "id": "0d820ecd-def2-4297-adad-78056cde7c78"
-      }
+    },
+    "installedApps": [
+        {
+            "teamsApp@odata.bind": 
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.vsts')"
+        },
+        {
+            "teamsApp@odata.bind": 
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('1542629c-01b3-4a6d-8f76-1938b779e48d')"
+        }
     ]
-}
-~~~
-
-#### <a name="response"></a>Response (Ответ)
-
-~~~
-HTTP/1.1 202 Accepted
-Content-Type: application/json
-Location: /workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa
-{
-    "workflowId": "c953c202-7b44-4a63-aa33-364fcb2d65aa",
-    "statusUri": "https://<apihostandpath>/workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa"
 }
 ~~~
 
@@ -235,6 +233,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>Связанные разделы
 
-- [Создание группы](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/team_put_teams) (в предварительной версии)
+- [Создание группы](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (в предварительной версии)
 - [Новые группы](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
-- [Обучение ИТ-администратора для работы с Microsoft Teams](itadmin-readiness.md)
+- [Обучение администратора для работы с Microsoft Teams](itadmin-readiness.md)
