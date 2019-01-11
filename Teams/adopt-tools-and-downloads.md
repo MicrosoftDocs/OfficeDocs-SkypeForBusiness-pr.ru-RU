@@ -1,5 +1,5 @@
 ---
-title: Средства и файлы для загрузки для внедрения
+title: Инструменты и скачиваемые материалы по внедрению
 description: Используйте следующие ресурсы внедрения помогут вам обеспечить принятие этого группами Майкрософт и другие службы Office 365.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7bf96f5da37b4f70ea24025e18b96a1061a483
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699703"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896141"
 ---
 # <a name="tools-for-driving-adoption"></a>Средства для управления внедрения 
 
@@ -144,3 +144,6 @@ ms.locfileid: "26699703"
 
 ### <a name="office-365-champions-program"></a>Программа чемпионатов Office 365
 Программа чемпионатов Office 365 — бесплатная программа, те, кто хотел с группами Майкрософт и другие службы Office 365. Мы объединить сообществу online [Технического сообщества Microsoft](https://aka.ms/DriveAdoption) с ежемесячный сообщества звонков, выделите все компоненты этого управляющий внедрения из управления советы и рекомендации для новых функций. Присоединение к сообществу в https://aka.ms/O365Champions и получать доступ к ранний выпуск, отзывы других клиентов и узнайте от специалистов корпорации Майкрософт.  
+
+### <a name="teams-adoption-guide"></a>Руководство по группам внедрения
+Извлечение online руководство, которое поможет вам развернуть группы в вашей компании. Оно включает в себя многие загружаемые средства, шаблоны и другие ресурсы, которые помогут вам по поездке внедрения группами.
