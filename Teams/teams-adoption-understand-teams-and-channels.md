@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b59da606f908334768fbe249bc40df87282caf5a
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: d8413bdf3bbcc2bcb4b172d46a84b7a46bd7d190
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699719"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896125"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Знакомство с командами и каналами в Microsoft Teams
 
@@ -30,12 +30,13 @@ ms.locfileid: "26699719"
 
 - Каналы являются пробелы совместной работы группы, в которой выполняется фактическая работа. 
 
-Дополнительные сведения о групп и каналы, содержится [Обзор групп и каналы в группах Microsoft](teams-channels-overview.md). Для получения дополнительных сведений о рабочих групп и Office 365 групп, содержатся в [Office 365 групп и группами Майкрософт](office-365-groups.md) и [Дополнительные сведения об Office 365 групп](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Дополнительные сведения о групп и каналы, содержится [Обзор групп и каналы в группах Microsoft](teams-channels-overview.md). Получите для подробные инструкции внедрения групп, [Внедрения руководство по группам](https:aka.ms/teamstoolkit). Для получения дополнительных сведений о рабочих групп и Office 365 групп, содержатся в [Office 365 групп и группами Майкрософт](office-365-groups.md) и [Дополнительные сведения об Office 365 групп](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
 |---------|---------|
 | Просмотрите это короткое видео   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 
 Типы доступа группы определить, кто сможет присоединиться к группе:
