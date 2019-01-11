@@ -239,8 +239,6 @@
 #### [Использование PowerShell для настройки политик групп событий в реальном времени](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 #### [Настройка параметров групп событий в реальном времени](teams-live-events/configure-teams-live-events.md)
 
-
-
 ## Приложения и службы
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
 ### [Разрешения групп приложений и рекомендации](app-permissions.md)
@@ -519,6 +517,10 @@
 #### Технический справочник по прямой маршрутизации
 ##### [Отработка отказа канала связи при исходящих звонках](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Команды Microsoft Online вызова денежных средств](microsoft-teams-online-call-flows.md)
+## [Группы аналитики и отчетов](teams-analytics-and-reports/teams-reporting-reference.md)
+### [Отчет об использовании группы](teams-analytics-and-reports/teams-usage-report.md)
+### [Отчет по действиям пользователей группам](teams-analytics-and-reports/user-activity-report.md) 
+### [Отчет об использовании групп устройств](teams-analytics-and-reports/device-usage-report.md)
 <!-- ============================================================ -->
 
 
@@ -529,6 +531,8 @@
 ## [Управления Microsoft Education вопросы и ответы для администраторов](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
+# Группы конструкторов firstline сотрудников
+## [Управление приложение смены для вашей организации в группах](manage-the-shifts-app-for-your-organization-in-teams.md)
 # [Справочник по командлетам PowerShell для Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
 
 # [Документация разработчика для Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
