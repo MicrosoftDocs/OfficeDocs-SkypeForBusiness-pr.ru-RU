@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: d7744841b99e343339624314a94d95ab9472fa85
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297913"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988289"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -81,7 +81,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 ```
   > [!NOTE]
   > 1. Мы настоятельно рекомендуем Установка ограничения для SBC, с помощью сведений, можно найти в документации по SBC. Ограничение запустит уведомление, если SBC был создан на уровне мощности.
-  > 2. Вы можете только обеспечить SBC с полным доменным ИМЕНЕМ, где домен часть имени соответствует одной из доменов, зарегистрированных в клиенту, за исключением \*. onmicrosoft.com. С помощью \*. omicrosoft.com доменных имен не поддерживается для имен SBC полное доменное имя. Например, если у вас есть два доменных имен:<br/><br/>
+  > 2. Вы можете только обеспечить SBC с полным доменным ИМЕНЕМ, где домен часть имени соответствует одной из доменов, зарегистрированных в клиенту, за исключением \*. onmicrosoft.com. С помощью \*. onmicrosoft.com доменных имен не поддерживается для имен SBC полное доменное имя. Например, если у вас есть два доменных имен:<br/><br/>
   > **Contoso**.com<br/>**Contoso**. onmicrosoft.com<br/><br/>
   > Для имени SBC можно использовать имя sbc.contoso.com. При попытке связать SBC с именем sbc.contoso.abc, система не позволит вам, как домен не принадлежит этот клиент.
 

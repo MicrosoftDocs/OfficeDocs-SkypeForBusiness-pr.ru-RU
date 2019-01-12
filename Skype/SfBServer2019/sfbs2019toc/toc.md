@@ -315,7 +315,7 @@
 #### [Запуск анализатора соответствия рекомендациям](../migration/run-best-practices-analyzer.md)
 #### [Резервное копирование системы и данные](../migration/back-up-systems-and-data.md)
 #### [Настройка клиентов для миграции](../migration/configure-clients-for-migration.md)
-#### [Проверка старой среды, которые переноса из](../migration/verify-environment.md)
+#### [Проверка старой среды, которую нужно перенести из](../migration/verify-environment.md)
 ### [Этап 3: Развертывание пилотного пула](../migration/phase-3-deploy-pilot-pool.md)
 #### [Подготовка Active Directory для пилотного пула](../migration/prepare-active-directory.md)
 #### [загрузка топологии из существующего развертывания;](../migration/download-topology-from-existing-deployment.md)
