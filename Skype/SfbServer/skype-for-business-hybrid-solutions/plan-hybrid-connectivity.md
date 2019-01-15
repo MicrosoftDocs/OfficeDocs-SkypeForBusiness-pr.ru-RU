@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: Краткое содержание. В этом разделе приводятся сведения о планировании гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online.  Настройка гибридных подключений является первым шагом при развертывании многих гибридных решений Skype для бизнеса.
-ms.openlocfilehash: 6b0456c115e1d1fc9b1a341b17cfc9711f2a6bb7
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 8fd32e8b70f2fc63919b9ec8abca2d0b70c90107
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240765"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015287"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Планирование гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online
 
@@ -333,7 +333,8 @@ ms.locfileid: "27240765"
 
 - **Обмен мгновенными сообщениями и присутствия** Списки контактов пользователей, групп и списки управления доступом (ACL) переносятся с учетной записью пользователя.
 
-- **Данные конференц-связи, содержимое собраний и запланированные собрания** Этот контент не переносится с учетной записью пользователя. Пользователи должны изменить расписание собраний, после миграции учетных записей для Скайп для бизнеса в Интернет.
+- **Данные конференц-связи, содержимое собраний и запланированные собрания** Этот контент не переносится с учетной записью пользователя. Пользователи должны изменить расписание собраний, после миграции учетных записей для Скайп для бизнеса в Интернет. Служба собрания будут автоматически при переходе с Скайп для Business server Скайп для бизнеса в Интернет или группами действия, просмотреть [с помощью службы миграции собрания](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+
 
 ## <a name="user-policies-and-features"></a>Политики и функции пользователей
 <a name="BKMK_UserPolicies"> </a>

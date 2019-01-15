@@ -12,12 +12,12 @@ description: Практическое руководство по разверт
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1819aa33dd951483754f4c00377865460a3765ff
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620085"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015335"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись собрания Teams в облаке
 
@@ -38,8 +38,10 @@ ms.locfileid: "26620085"
 - Если пользователь изъявил рекомендации по организации, настройте, администратор
 - Пользователь имеет достаточно места в потоке Microsoft для записи будет сохранен
 - Пользователь имеет TeamsMeetingPolicy AllowCloudRecording не установлено значение true
-- Пользователь имеет TeamsMeetingPolicy AllowTranscription установлено значение "true", поэтому пользователь может выбрать, следует ли автоматически переписать записи
 - Пользователь не анонимного, гостя или федеративных пользователей на собрании
+
+> [!NOTE]
+> Кроме того, чтобы разрешить запуск записи выберите, следует ли автоматически переписать записи, необходимо установить параметр TeamsMeetingPolicy - AllowTranscription пользователей имеет значение true
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Настройка групп запись собрания облаке для пользователей в вашей организации
 
@@ -90,7 +92,7 @@ ms.locfileid: "26620085"
 
 Используйте параметр AllowTranscription в TeamsMeetingPolicy в команды PowerShell для управления ли записи инициатор получает возможность переписать запись собрания. Дополнительные сведения об управлении TeamsMeetingPolicy с Office 365 PowerShell [здесь](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-Если для пользователей, которым назначен пользовательскую политику, получают глобальной политики, которая отключена в включена по умолчанию.
+Если для пользователей, которым назначен пользовательскую политику, получают глобальной политики, которая имеет AllowTranscription отключен по умолчанию.
 
 Пользователь может вернуться к глобальной политики используйте следующий командлет для удаления назначения политики для пользователя:
 
