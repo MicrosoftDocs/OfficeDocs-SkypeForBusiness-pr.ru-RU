@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fdd9c47e54c9ce51e736363eb47227614824a4c
-ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
+ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
+ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27893359"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28022917"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложение смены для вашей организации в группах Майкрософт
 
@@ -36,7 +36,11 @@ ms.locfileid: "27893359"
 
 Смены доступна на всех подписок на Office 365, включая командами, с помощью нескольких исключения. Исключения являются "мне Нравится" государственных облако сообщества (GCC) и бесплатные рабочих групп. Смены недоступен в Office 365 "мне Нравится" государственных организаций или группами свободного и услуги.
 
-Для получения дополнительных сведений о лицензировании для групп, см. [: Лицензирование Office 365 для групп](Office-365-licensing.md).
+Для получения дополнительных сведений о лицензировании для групп, включая список подписок на Office 365, которая включает в себя командами, видеть [лицензирования Office 365 для групп](Office-365-licensing.md).
+
+## <a name="location-of-shifts-data"></a>Расположение данных смены
+
+В настоящее время смены данные хранятся в Azure в центрах обработки данных в Северной Америке, Западная Европа и Азиатско-Тихоокеанский регион. Дополнительные сведения о котором хранятся данные отображаются [личных данных](http://o365datacentermap.azurewebsites.net/)?
 
 ## <a name="set-up-shifts"></a>Настроить смены
 

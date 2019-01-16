@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Централизованный поиск обновлений Skype для бизнеса Server 2015 и Lync 2013, а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 9c7d14e1439d3f7fd88ad6246495fccc1e7ef441
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 5ee195ab6837c8fb68e6768b0dadf5e014129e1b
+ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699439"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28022894"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -30,7 +30,7 @@ ms.locfileid: "26699439"
 
 |Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:--- |:--- |:--- |
-|Обновления для Skype для бизнеса Server 2015 |[Статья базы знаний 3061064](https://support.microsoft.com/kb/3061064) |Июль 2018 г.  |
+|Обновления для Skype для бизнеса Server 2015 |[Статья базы знаний 3061064](https://support.microsoft.com/kb/3061064) |Январь 2019  |
 |Накопительный пакет обновления для Skype для бизнеса Server, корпоративное веб-приложение | [Статья базы знаний 4018462](https://support.microsoft.com/kb/4018462) |Май 2017 г. |
 |Накопительный пакет обновления для Skype для бизнеса Server, служба политики пропускной способности | [Статья базы знаний 4012658](https://support.microsoft.com/kb/4012658) |Май 2017 г. |
 |Накопительный пакет обновления для Skype для бизнеса Server, среда выполнения Unified Communications Managed API 5.0 Runtime | [Статья базы знаний 4012657](https://support.microsoft.com/kb/4012657) |Май 2017 г. |
