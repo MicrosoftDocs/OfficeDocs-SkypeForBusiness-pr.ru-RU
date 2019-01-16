@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: В этой статье описывается настройка консоли версии 2 Скайп комнаты систем и его периферийных устройств.
-ms.openlocfilehash: fab2854406e22b156c8fcca76e6701214199f62c
-ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
+ms.openlocfilehash: 162aaaed5472fefc3c23cc11800b166ed4b26bc2
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/16/2019
-ms.locfileid: "28324936"
+ms.locfileid: "28326718"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Настройка консоли для Систем комнат Skype версии 2
  
@@ -52,6 +52,9 @@ ms.locfileid: "28324936"
 1. Скачайте [сценарий CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842). 
 2. Запустите сценарий CreateSrsMedia.ps1 из командной строки с повышенными привилегиями на компьютере с ОС Windows 10.
 3. Следуйте инструкциям, сценарий для создания диска настройки систем комнаты Скайп USB версии 2.
+
+> [!CAUTION]
+> Имя папки, на котором запущен мультимедиа сценария создания из не может содержать пробелы. Если места в имени папки, скрипт завершится ошибкой.
 
 После завершения удаления USB-диска со своего компьютера и перейдите к [10 Установка Windows и систем комнаты Скайп v2 консольное приложение](console.md#Reimage).
 

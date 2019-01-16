@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: b648c068131cd01f536aab65ca3cca05cfa0e7c7
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: f374a87a8cfa3645a685b6628a93b0e4d5236191
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620093"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326892"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Измерения и меры на панели мониторинга качества звонков
 
@@ -395,7 +395,7 @@ ms.locfileid: "26620093"
 |Audio OnePercent PacketLoss Count  <br/> |Число потоков  <br/> |Число аудиопотоков с потерей пакетов выше 1 %.  <br/> |
 |Audio OnePercent PacketLoss Percentage  <br/> |Процент  <br/> |Процент аудиопотоков (от общего числа) с потерей пакетов выше 1 %.  <br/> |
 |Audio Poor Due To Jitter Count  <br/> |Число потоков  <br/> |Число звуковых потоков, где метрику дрожание превышает пороговые значения перечисленных здесь: [Поток классификации панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md).  <br/> |
-|Audio Poor Due To PacketLoss Count  <br/> |Число потоков  <br/> |Число звуковых потоков, где метрику потери пакетов, превышает пороговые значения перечисленных здесь:[Поток классификации панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)  <br/> |
+|Audio Poor Due To PacketLoss Count  <br/> |Число потоков  <br/> |Число звуковых потоков, где метрику потери пакетов, превышает пороговые значения перечисленных здесь: [Поток классификации панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)  <br/> |
 |Audio Poor Due To Degradation Count  <br/> |Число потоков  <br/> |Число звуковых потоков, где метрику снижение превышает пороговые значения перечисленных здесь: [Поток классификации панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Due To RoundTrip Count  <br/> |Число потоков  <br/> |Число звуковых потоков, где время приема-передачи превышает пороговые значения перечисленных здесь: [Поток классификации панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Due To ConcealedRatio Count  <br/> |Число потоков  <br/> |Число звуковых потоков, где соотношение скрытых превышает пороговые значения перечисленных здесь: [Поток классификации панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md).  <br/> |
