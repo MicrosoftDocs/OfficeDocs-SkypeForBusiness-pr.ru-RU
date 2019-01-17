@@ -1,0 +1,50 @@
+---
+title: Реализация аналитические данные монитора вызовов и качества обслуживания в группами Майкрософт
+author: jambirk
+ms.author: MyAdvisor
+manager: Serdars
+ms.topic: article
+ms.service: msteams
+ms.reviewer: jambirk
+description: Используйте параметры качества обслуживания (QoS) и затем вызвать аналитики и панель мониторинга качества звонков в группами Майкрософт.
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_PracticalGuidance
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: d0f82a546057558cc6c69c9c0de19bc9ccb021cd
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28328179"
+---
+# <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a><span data-ttu-id="21b9f-103">Реализация качества обслуживания и отслеживание качества звонков в группами Майкрософт</span><span class="sxs-lookup"><span data-stu-id="21b9f-103">Implement QoS and Monitor Call Quality in Microsoft Teams</span></span>
+
+## <a name="get-started"></a><span data-ttu-id="21b9f-104">Начало работы</span><span class="sxs-lookup"><span data-stu-id="21b9f-104">Get Started</span></span>
+
+<span data-ttu-id="21b9f-105">Пользователям начать работу с группами для вызовов и хранения собраний, они может оказаться динамики разбиение на ИБП или chopping и выходить из нее звонка или собрания.</span><span class="sxs-lookup"><span data-stu-id="21b9f-105">As your users start using Teams for making calls and holding meetings, they may find speakers breaking ups or chopping in and out of a call or meeting.</span></span> <span data-ttu-id="21b9f-106">Общие видео может заморозить или pixellate, или происходит общий сбой.</span><span class="sxs-lookup"><span data-stu-id="21b9f-106">Shared video may freeze or pixellate, or fail altogether.</span></span> <span data-ttu-id="21b9f-107">Это из-за IP-пакетов, представляющих голосовой и видеосвязи трафика обнаружении перегрузкой сети и поступающие не по порядку или вообще не.</span><span class="sxs-lookup"><span data-stu-id="21b9f-107">This is due to the IP packets that represent voice and video traffic encountering network congestion and arriving out of sequence or not at all.</span></span> <span data-ttu-id="21b9f-108">Существуют способы предотвращения этого и определения других проблем, когда они рабочая область, в основном качества обслуживания (QoS).</span><span class="sxs-lookup"><span data-stu-id="21b9f-108">There are ways to prevent this and identify other problems when they surface, primarily Quality of Service (QoS).</span></span>
+
+<span data-ttu-id="21b9f-109">[**Качество обслуживания (QoS)**](monitor-call-quality-qos.md) — это способ определения пакетов, которые чувствительны к задержкам и перегрузки и предоставьте пакеты с раздельное обслуживание, они сталкиваются с намного меньше перегрузки.</span><span class="sxs-lookup"><span data-stu-id="21b9f-109">[**Quality of Service (QoS)**](monitor-call-quality-qos.md)  is a way to identify packets that are sensitive to delays and congestion, and then provide the packets with preferential treatment so they encounter far less congestion.</span></span> <span data-ttu-id="21b9f-110">Пока мы будем только что сообщает, что часто как письма по почте: Если вы его книга скорость отправки его довольно скоро существует получает и, который соответствует требованиям, при отправке первого класса получает существует намного быстрее и отправить его приоритета почты , то получает в течение двух дней.</span><span class="sxs-lookup"><span data-stu-id="21b9f-110">For now, we'll just say that it's a lot like sending a letter through the Mail: If you send it book rate it gets there pretty soon and that's good enough, if you send it first class it gets there a lot faster, and if you send it Priority Mail, it gets there within two days.</span></span> <span data-ttu-id="21b9f-111">Конечно сетей выполняются быстрее, чем почта, но по-прежнему запускает значение true, что скорость крайне важна для некоторых приложений и не является крайне важна для других пользователей.</span><span class="sxs-lookup"><span data-stu-id="21b9f-111">Of course networks run faster than the mail, but it still runs true that speed is critical for some applications and is not so critical for others.</span></span> <span data-ttu-id="21b9f-112">Эта тема по определению подробные и сложнее понять, в первую очередь, но он совершенно другой подход в списке пользователя взаимодействия, поэтому его стоит инвестиций времени и электроэнергии тщательное.</span><span class="sxs-lookup"><span data-stu-id="21b9f-112">This subject is inherently detailed and tricky to understand at first, but it makes a huge difference in the user experience so it's worth investing time and energy upfront.</span></span>
+
+<span data-ttu-id="21b9f-113">В идеальном варианте можно реализовать QoS во внутренней сети при настройке группы, но если вы небольшой достаточно может быть необязательно.</span><span class="sxs-lookup"><span data-stu-id="21b9f-113">Ideally you would implement QoS on your internal network while setting up Teams, but if you're small enough it can be optional.</span></span> <span data-ttu-id="21b9f-114">Это позволяет конфиденциальные задержки голосовой и видеосвязи трафик на получение их приоритета до другого трафика.</span><span class="sxs-lookup"><span data-stu-id="21b9f-114">This allows the delay-sensitive voice and video traffic to get prioritized ahead of other traffic.</span></span> <span data-ttu-id="21b9f-115">Можно сделать это определение приоритетов на всех клиентских устройств, так и в ключи и маршрутизаторы в сети.</span><span class="sxs-lookup"><span data-stu-id="21b9f-115">You'd do this prioritization on all the client devices, as well as on the switches and routers in your network.</span></span>
+
+<span data-ttu-id="21b9f-116">[**Вызов аналитики и панель мониторинга качества звонков**](difference-between-call-analytics-and-call-quality-dashboard.md) используются для находить и устранять неполадки, возникающие во время текущей операции.</span><span class="sxs-lookup"><span data-stu-id="21b9f-116">[**Call Analytics and Call Quality Dashboard**](difference-between-call-analytics-and-call-quality-dashboard.md) are used to find and troubleshoot problems that come up during ongoing operation.</span></span>  
+
+<span data-ttu-id="21b9f-117">Аналитика вызова отображаются подробные сведения о устройств, сетей и подключения, относящиеся к определенным звонков и собрания для каждого пользователя в группами Майкрософт или Скайп для учетной записи Business.</span><span class="sxs-lookup"><span data-stu-id="21b9f-117">Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user in a Microsoft Teams or Skype for Business account.</span></span> <span data-ttu-id="21b9f-118">Если вы администратор Office 365, можно использовать вызова Analytics неполадок вызов качества и подключения произошла в определенный вызов.</span><span class="sxs-lookup"><span data-stu-id="21b9f-118">If you're an Office 365 admin, you can use Call Analytics to troubleshoot call quality and connection problems experienced in a specific call.</span></span> <span data-ttu-id="21b9f-119">Это может помочь вам определить и устранить проблемы.</span><span class="sxs-lookup"><span data-stu-id="21b9f-119">This can help you to identify and eliminate problems.</span></span>
+
+<span data-ttu-id="21b9f-120">Панель мониторинга качества звонков (CQD) призвана помочь администраторам и сетевых инженеров оптимизации **сети**, не анализа и устранения одного вызова.</span><span class="sxs-lookup"><span data-stu-id="21b9f-120">Call Quality Dashboard (CQD) is designed to help admins and network engineers optimize a **network**, not analyze and troubleshoot a single call.</span></span> <span data-ttu-id="21b9f-121">CQD перемещает фокус с определенным пользователям, чтобы просмотреть сводные сведения для всей организации.</span><span class="sxs-lookup"><span data-stu-id="21b9f-121">CQD shifts focus from specific users to look at aggregated information for an entire organization.</span></span> <span data-ttu-id="21b9f-122">Это также может помочь вам определить и устранить проблемы.</span><span class="sxs-lookup"><span data-stu-id="21b9f-122">This can also help you to identify and eliminate problems.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="21b9f-123">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="21b9f-123">Related Topics</span></span>
+
+[<span data-ttu-id="21b9f-124">Реализация качества обслуживания для групп Майкрософт</span><span class="sxs-lookup"><span data-stu-id="21b9f-124">Implement QoS for Microsoft Teams</span></span>](monitor-call-quality-qos.md)
+
+[<span data-ttu-id="21b9f-125">Настройка вызова аналитики</span><span class="sxs-lookup"><span data-stu-id="21b9f-125">Set up Call Analytics</span></span>](set-up-call-analytics.md)
+
+[<span data-ttu-id="21b9f-126">Устранение неполадок с качеством звонков с помощью средства аналитики звонков</span><span class="sxs-lookup"><span data-stu-id="21b9f-126">Use Call Analytics to troubleshoot poor call quality</span></span>](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+[<span data-ttu-id="21b9f-127">Включение и использование панели мониторинга качества звонков</span><span class="sxs-lookup"><span data-stu-id="21b9f-127">Turning on and using Call Quality Dashboard </span></span>](turning-on-and-using-call-quality-dashboard.md)
+
+[<span data-ttu-id="21b9f-128">Измерения и меры на панели мониторинга качества звонков</span><span class="sxs-lookup"><span data-stu-id="21b9f-128">Dimensions and measures available in Call Quality Dashboard</span></span>](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[<span data-ttu-id="21b9f-129">Классификация потоков в Панели мониторинга качества звонка</span><span class="sxs-lookup"><span data-stu-id="21b9f-129">Stream Classification in Call Quality Dashboard</span></span>](stream-classification-in-call-quality-dashboard.md)
