@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6296e5ea0dde283dc46418d42db97c524277267b
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 05cd733e96ad77b0a413c9846ceb3697b45eec13
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328287"
+ms.locfileid: "28694784"
 ---
 # [Скайп для Business Server 2019](../skype-for-business-server-2019.md)
 
@@ -319,7 +319,6 @@ ms.locfileid: "28328287"
 ### [Этап 2: Подготовка к миграции](../migration/phase-2-prepare-for-migration.md)
 #### [Установка обновлений для устаревших установки](../migration/apply-updates.md)
 #### [Настройка DNS-записей для развертывания пилотного пула](../migration/configure-dns-records-for-pilot-pool-deployment.md)
-#### [Запуск анализатора соответствия рекомендациям](../migration/run-best-practices-analyzer.md)
 #### [Резервное копирование системы и данные](../migration/back-up-systems-and-data.md)
 #### [Настройка клиентов для миграции](../migration/configure-clients-for-migration.md)
 #### [Проверка старой среды, которую нужно перенести из](../migration/verify-environment.md)

@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f3145455553c8126d66b3e56b69ec646f5f19ad
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: cc1c20f87103dc91a317e58dac03389275b255f2
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530698"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694699"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams
 ==============================================================
@@ -97,14 +97,14 @@ ms.locfileid: "26530698"
 * **Для клиентов без Skype для бизнеса** звонки по ТСОП будут поступать в Teams.
 
 > [!WARNING]
-> В настоящее время задание параметру `CallingDefaultClient` значения "Teams" будет также влиять на звонки на IP-телефоны Skype для бизнеса. Входящие вызовы не будут поступать на эти телефоны. Их будут принимать только клиенты Teams. Сведения о поддержке существующих сертифицированных SIP-телефонов см. в документе с [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) (Переход со Skype для бизнеса на Microsoft Teams: стратегия внедрения возможностей).
+> В настоящее время задание параметру `CallingDefaultClient` значения "Teams" будет также влиять на звонки на IP-телефоны Skype для бизнеса. Входящие вызовы не будут поступать на эти телефоны. Их будут принимать только клиенты Teams. Обратитесь к [365 стратегия Майкрософт](https://aka.ms/O365Roadmap) для получения сведений о поддержке для существующего сертифицированного телефонов SIP.
 
 ### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Как настроить пользователям пользоваться PSTN вызывает в группах
 При использовании устаревшего обновления политики групп, применение политики взаимодействия команды, как описано выше, с помощью Скайп для бизнеса удаленного сеанса Windows PowerShell можно настроить переадресацию звонков для группы:
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-Если вы решите использовать режим TeamsOnly, может изменить режим сосуществования пользователя на TeamsOnly путем группами Майкрософт & Скайп по центру администрирования бизнеса, или с помощью Скайп для бизнеса удаленного сеанса Windows PowerShell можно настроить переадресацию звонков для группы.
+Если вы решите использовать режим TeamsOnly, можно изменить режим сосуществования пользователя TeamsOnly, путем группами Майкрософт & Скайп по центру администрирования бизнеса, или с помощью Скайп для бизнеса удаленного сеанса Windows PowerShell можно настроить переадресацию звонков для группы:
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
@@ -112,7 +112,7 @@ ms.locfileid: "26530698"
 ## <a name="see-also"></a>См. также
 [Set up Calling Plans (Настройка планов звонков)](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-[Руководство по миграции и взаимодействия для организаций, с помощью команды Скайп для бизнеса](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Практическое руководство по телефонной системе с планами звонков в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 

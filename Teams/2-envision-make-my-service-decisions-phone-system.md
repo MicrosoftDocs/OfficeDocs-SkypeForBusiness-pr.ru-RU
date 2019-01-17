@@ -1,5 +1,5 @@
 ---
-title: Сделать телефонной системы с помощью вызова планы решения службы - группами Майкрософт
+title: Принятие решений по службе телефонной системы с планами звонков — Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
-ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
+ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25597848"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694761"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -29,7 +29,7 @@ ms.locfileid: "25597848"
 С группами Майкрософт пользователей можно поместить и принимать телефонные звонки или из телефонной сети общего пользования (PSTN). Пользователей можно использовать собственные выделенные номера телефонов для выполнения и приема внутренних и международных телефонных звонков из группы клиентских приложений с помощью расширенных функций, включая голосовую почту.
 
 > [!NOTE]
-> Последняя версия плана группами для идентификации групп телефонной системы с использованием вызова планирование функций в области действия для развертывания, можно найти в <https://aka.ms/skype2teamsroadmap>.
+> Последняя версия плана группами для идентификации групп телефонной системы с использованием вызова планирование функций в области действия для развертывания, можно найти в <https://aka.ms/O365Roadmap>.
 
 ## <a name="phone-system-in-teams"></a>Телефонной системой в группах
 
@@ -231,11 +231,11 @@ ms.locfileid: "25597848"
 > |Пользователь |Офис |Лицензия на Office 365 |Вызов плана |
 > |----|----|----|----|
 > |Emily Braun |32 London Bridge Street |Office 365 E5 |план для международных и местных звонков. |
-> |Lidia Holloway |32 London Bridge Street |Office 365 E5 |План внутренних звонков |
-> |Lahr Луис |32 London Bridge Street |Office 365 E5 |План внутренних звонков |
-> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, телефонной системой надстройки |План внутренних звонков |
+> |Lidia Holloway |32 London Bridge Street |Office 365 E5 |план для местных звонков; |
+> |Lahr Луис |32 London Bridge Street |Office 365 E5 |план для местных звонков; |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, телефонной системой надстройки |план для местных звонков; |
 > |Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |план для международных и местных звонков. |
-> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, телефонной системой надстройки |План внутренних звонков |
+> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, телефонной системой надстройки |план для местных звонков; |
 
 <!--ENDOFSECTION-->
 
@@ -262,11 +262,11 @@ ms.locfileid: "25597848"
 > |Пользователь |Офис |Вызов плана |Кредиты на связь |
 > |----|----|----|----|
 > |Emily Braun |32 London Bridge Street |план для международных и местных звонков. |Включено |
-> |Lidia Holloway |32 London Bridge Street |План внутренних звонков |Отключено |
-> |Lahr Луис |32 London Bridge Street |План внутренних звонков |Включено |
-> |Marcel Beauchamp |39 quai du Président Roosevelt |План внутренних звонков |Отключено |
+> |Lidia Holloway |32 London Bridge Street |план для местных звонков; |Отключено |
+> |Lahr Луис |32 London Bridge Street |план для местных звонков; |Включено |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |план для местных звонков; |Отключено |
 > |Rachelle Cormier |39 quai du Président Roosevelt |план для международных и местных звонков. |Включено |
-> |Isabell Potvin |39 quai du Président Roosevelt |План внутренних звонков |Отключено |
+> |Isabell Potvin |39 quai du Président Roosevelt |план для местных звонков; |Отключено |
 
 <br>
 
