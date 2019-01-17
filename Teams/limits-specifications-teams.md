@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f77de0515cc026b0d225100e7528a6eae4a7965
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: aa699ebabd57299ef2ced07c2c6d0fc551ac6b17
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240687"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328257"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 =============================================
@@ -30,14 +30,14 @@ ms.locfileid: "27240687"
 
 |Функция    | Максимальное ограничение |
 |-----------|---------------|
-|Число групп, которые может создать пользователь | Может быть ограничение 250 объект & sup1;         |
+|Число групп, которые может создать пользователь | Может быть limit&sup1 250 объектов;         |
 |Число участников в группы | 2500       |
 |Число элементов в [масштабе организации группы](create-an-org-wide-team.md) | 2500       |
-|Число групп, которое может создать глобальный администратор        | 500 000   |
+|Число групп, которое может создать глобальный администратор        |  500 000   |
 |Число групп, которые могут возникнуть клиента Office 365    | 500 000     |
-|Число каналов на каждое группы    | 200         |
+|Число каналов на каждое группы    | 200 (в том числе удаленных каналов)         |
 
-& sup1; Любой объект каталогов в Azure Active Directory подсчитывает достигло предельного это ограничение.
+&sup1; Любой объект каталогов в Azure Active Directory подсчитывает достигло предельного это ограничение.
 
 <a name="meetings-and-calls"></a>Собрания и вызовы 
 ------------------

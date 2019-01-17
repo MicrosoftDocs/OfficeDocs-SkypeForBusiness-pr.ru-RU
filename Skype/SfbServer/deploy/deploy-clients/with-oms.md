@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Эта статья посвящена процедуре для развертывания управления устройствами v2 систем комнаты Скайп интегрированная, начала до конца способом, с помощью Microsoft Operations Management Suite.
-ms.openlocfilehash: 5f370c7e222f75b11b41a39e99b9cba568d58241
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: 9a55238296452119679ff3c07147961fcec3eb7a
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450491"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328280"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Развертывание управления системами комнат Skype версии 2 с помощью OMS
 
@@ -138,17 +138,17 @@ ms.locfileid: "25450491"
 
 | Поле JSON                   | Настраиваемое поле OMS           | Идентификатор события        |
 |:-----------------------------|:---------------------------|:----------------|
-| Описание                  | SRSEventDescription_CF     | Не выбран    |
+| Описание                  | SRSEventDescription_CF      | Не выбран    |
 | ResourceState                | SRSResourceState_CF        | Не выбран    |
-| Имя_операции                | SRSOperationName_CF        | Не выбран    |
+| OperationName                | SRSOperationName_CF        | Не выбран    |
 | OperationResult              | SRSOperationResult_CF      | Не выбран    |
 | OS                           | SRSOSVersion_CF            | Не выбран    |
 | OSVersion                    | SRSOSLongVersion_CF        | Не выбран    |
 | Alias                        | SRSAlias_CF                | Не выбран    |
-| Отображаемое имя                  | SRSDisplayName_CF          | Не выбран    |
+| DisplayName                  | SRSDisplayName_CF          | Не выбран    |
 | AppVersion                   | SRSAppVersion_CF           | Не выбран    |
-| IPv4-адрес                  | SRSIPv4Address_CF          | Не выбран    |
-| IPv6-адрес                  | SRSIPv6Address_CF          | Не выбран    |
+| IPv4Address                  | SRSIPv4Address_CF          | Не выбран    |
+| IPv6Address                  | SRSIPv6Address_CF          | Не выбран    |
 | Передний план комнаты отображения состояния | SRSFORDStatus_CF           | 3001            |
 | Состояние камеры                | SRSCameraStatus_CF         | 3001            |
 | Состояние микрофон конференции | SRSConfMicrophoneStatus_CF | 3001            |
@@ -195,7 +195,7 @@ ms.locfileid: "25450491"
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>Создать элемент, который отображает активных устройств
 1.  Выберите **Вид панели мониторинга** для запуска Добавление вашей заголовков.
-2.  Выберите **номер & списка** из коллекции
+2.  Выберите **, какой номер & списка** из коллекции
 3.  Определение **общих** свойств:<br>
     **Групповой заголовок:** Состояние пульса<br>
     **Новую группу:** Выбранные
@@ -212,7 +212,7 @@ ms.locfileid: "25450491"
 8.  Выберите **Применить**, а затем **Закрыть**.
 
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>Создать элемент, который отображает устройств, проблем с подключением
-1.  Выберите **номер & списка** из коллекции, а затем добавьте новый фрагмент.
+1.  Выберите **, какой номер & списка** из коллекции, а затем добавьте новый фрагмент.
 2.  Определение **общих** свойств:<br>
     **Групповой заголовок:** Оставить пустым<br>
     **Новую группу:** Не выбран
@@ -230,7 +230,7 @@ ms.locfileid: "25450491"
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Создать элемент, который отображает устройств, которые имеют ошибки оборудования
 
-1.  Выберите **номер & списка** из коллекции, а затем добавьте новый фрагмент.
+1.  Выберите **, какой номер & списка** из коллекции, а затем добавьте новый фрагмент.
 2.  Определение **общих** свойств:<br>
     **Групповой заголовок:** Состояние оборудования<br>
     **Новую группу:** Выбранные
@@ -248,7 +248,7 @@ ms.locfileid: "25450491"
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>Создать элемент, который отображает версии операционной системы Скайп комнаты систем версии 2
 
-1.  Выберите **список & пончик** из коллекции, а затем добавьте новый фрагмент.
+1.  Выберите **список & кольцо** из коллекции, а затем добавьте новый фрагмент.
 2.  Определение **общих** свойств:<br>
     **Групповой заголовок:** Сведения о операционной системы <br>
     **Новую группу:** Выбранные
@@ -272,7 +272,7 @@ ms.locfileid: "25450491"
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>Создать элемент, который отображает версии приложений системы комнаты Скайп версии 2
 
-1.  Выберите **список & пончик** из коллекции, а затем добавьте новый фрагмент.
+1.  Выберите **список & кольцо** из коллекции, а затем добавьте новый фрагмент.
 2.  Определение **общих** свойств:<br>
     **Групповой заголовок:** Сведения о приложении систем комнаты Скайп версии 2 <br>
     **Новую группу:** Выбранные
@@ -296,7 +296,7 @@ ms.locfileid: "25450491"
 
 ### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Создать элемент, который отображает устройств, которые имеют ошибки приложения
 
-1.  Выберите **номер & списка** из коллекции, а затем добавьте новый фрагмент.
+1.  Выберите **, какой номер & списка** из коллекции, а затем добавьте новый фрагмент.
 2.  Определение **общих** свойств.<br>
     **Групповой заголовок:** Оставить пустым<br>
     **Новую группу:** Не выбран
@@ -314,7 +314,7 @@ ms.locfileid: "25450491"
 
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>Создать элемент, который отображает устройства, на которых запущены
 
-1.  Выберите **номер & списка** из коллекции, а затем добавьте новый фрагмент.
+1.  Выберите **, какой номер & списка** из коллекции, а затем добавьте новый фрагмент.
 2.  Определение **общих** свойств.<br>
     **Групповой заголовок:** Оставить пустым<br>
     **Новую группу:** Не выбран
@@ -392,7 +392,7 @@ ms.locfileid: "25450491"
 2.  Введите следующий запрос и затем выберите команду **выполнить**.<br>
     ```
     Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(10h)
+    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
     | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
     | sort by TimeGenerated desc
