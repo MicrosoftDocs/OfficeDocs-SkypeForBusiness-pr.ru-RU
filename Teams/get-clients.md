@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfe4febe5d086af6914660bffb667942b9d00c25
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 0b4e0e713bda280738ec72c8c4e07dc5b0da15c3
+ms.sourcegitcommit: 5f289e4ca3ba40013d38c352bd34eff96d6421b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201359"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726637"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 ===========================
@@ -109,7 +109,7 @@ Mac пользователи могут устанавливать групп с
 <a name="mobile-clients"></a>Мобильные клиенты
 --------------
 
-Мобильных приложениях группами Майкрософт, доступны для Android и операций ввода-вывода и предназначены для пользователей по пути, участие в беседах по на основе чата и позволяют peer-to-peer голосовые вызовы. Для мобильных приложений перейти в соответствующие хранилища мобильных устройств Google воспроизвести и в хранилище приложений Apple. Удаленные приложения Windows Phone 20 июля 2018 видеть [здесь](https://support.microsoft.com/en-us/help/4230833/windows-phone-app-for-microsoft-teams-is-retiring) для получения дополнительных сведений.
+Мобильных приложениях группами Майкрософт, доступны для Android и операций ввода-вывода и предназначены для пользователей по пути, участие в беседах по на основе чата и позволяют peer-to-peer голосовые вызовы. Для мобильных приложений перейти в соответствующие хранилища мобильных устройств Google воспроизвести и в хранилище приложений Apple. Приложение Windows Phone был не поддерживается 20 июля 2018 и может не работать. 
 
 Для мобильных приложений Microsoft Teams поддерживаются следующие мобильные платформы:
 
