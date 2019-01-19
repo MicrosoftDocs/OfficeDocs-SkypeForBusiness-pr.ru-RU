@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c273868a07099ce0aaed60cb16e698adbdd13f
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 7cbce74cdc06a2f37f628dd32f6f36356c1ad27a
+ms.sourcegitcommit: 708e691b00f490da45d8d7f1d6594be29f45023b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349523"
+ms.locfileid: "29354502"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса
 
@@ -44,11 +44,10 @@ ms.locfileid: "29349523"
 
 6.  Поведение обновления и взаимодействия определяются на основе режима совместной работы пользователя, который управляется TeamsUpgradePolicy. TeamsInteropPolicy больше не Оплаченный и предоставление mode = прежних версий больше не допускается. 
 
-7.  Обновление пользователя в режим TeamsOnly гарантирует, что все входящие чаты и вызовы будут всегда land в клиент группы пользователя, независимо от того, какой клиент его orignated из. Эти пользователи будут также запланировать все новые собрания в группах. Должна находиться в режиме TeamsOnly, пользователь должен быть размещен online в Скайп для бизнеса. Это необходимо для обеспечения взаимодействия, федерации и полного управления группами пользователей. Обновление до TeamsOnly пользователя:
-    - Если пользователь является, расположенным в Скайп для бизнеса через Интернет (или никогда не было любой учетной записи Скайп), предоставить им TeamsUpgradePolicy с режимом = TeamsOnly, с помощью экземпляра «UpgradeToTeams», с помощью PowerShell, или выберите режим TeamsOnly с помощью центра администрирования группы.
-    - Если пользователь является, размещенные локально, используйте `Move-CsUser` из локальной admin средства для первого move пользователю Скайп для бизнеса в Интернет. При перемещении пользователей из локального существует два варианта:  
-     - Если у вас есть Скайп Business Server 2019 или CU8 для Скайп для Business Server 2015, можно указать `-MoveToTeams` переключитесь в `Move-CsUser` для перемещения пользователей группам. Этот параметр, также будет переноситься собраний пользователя к группам, (Хотя сейчас собрания миграции функционирует только для клиентов, КОСНИТЕСЬ). 
-      - В противном случае — после `Move-CsUser` завершается, назначить режим TeamsOnly пользователю с помощью PowerShell или группами центра администрирования.  
+7.  Обновление пользователя в режим TeamsOnly гарантирует, что все входящие чаты и вызовы будут всегда land в клиент группы пользователя, независимо от того, какой клиент его orignated из. Эти пользователи будут также запланировать все новые собрания в группах. Должна находиться в режиме TeamsOnly, пользователь должен быть размещен online в Скайп для бизнеса. Это необходимо для обеспечения взаимодействия, федерации и полного управления группами пользователей. Для обновления пользователя TeamsOnly: а. Если пользователь является, расположенным в Скайп для бизнеса через Интернет (или никогда не было любой учетной записи Скайп), предоставить им TeamsUpgradePolicy с режимом = TeamsOnly, с помощью экземпляра «UpgradeToTeams», с помощью PowerShell или с помощью центра администрирования группами для выбора Режим TeamsOnly.
+    Б. Если пользователь является, размещенные локально, используйте `Move-CsUser` из локальной admin средства для первого move пользователю Скайп для бизнеса в Интернет. При перемещении пользователей из локального существует два варианта:  
+      - Если у вас есть Скайп Business Server 2019 или CU8 для Скайп для Business Server 2015, можно указать `-MoveToTeams` переключитесь в `Move-CsUser` для перемещения пользователей группам. Этот параметр, также будет переноситься собраний пользователя к группам, (Хотя сейчас собрания миграции функционирует только для клиентов, КОСНИТЕСЬ). 
+       - В противном случае — после `Move-CsUser` завершается, назначить режим TeamsOnly пользователю с помощью PowerShell или группами центра администрирования.  
      Для получения дополнительных сведений см. [Перемещение пользователей между локальной и облачной](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Для получения дополнительных сведений о миграции на собрания просмотрите [с помощью службы миграции собрания (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 
@@ -137,18 +136,8 @@ TeamsUpgradePolicy управляет маршрутизации для вход
 
 Только после этого решения доставляется, администраторы могут применять к целям взаимодействия с пользователем режима TeamsUpgradePolicy вручную настроив значения TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy. Кроме того при использовании `Grant-CsTeamsUpgradePolicy` в PowerShell командлет будет автоматически проверять конфигурации соответствующие параметры в TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy для determmine эти параметры совместимы с Указанный режим. Если какие-либо не настроена должным образом, предоставление будет выполнена успешно, но будет получено предупреждение, указывающее, какие параметры настроены неправильно. Администратор должен обновлять указанной политики для обеспечения работы совместимые пользователей в группах. Если администратор решил не выполнять никаких действий, из-за предупреждение, пользователи по-прежнему могут иметь доступ к чата, вызов и/или собрания функции планирования в группах в зависимости от значения TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy, что может привести к путанице работы конечных пользователей.
 
-
-`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
-WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
-PS C:\Users\janedoe>`
-
-
-До доставки автоматического применения поведение клиента, описанных выше каждый из режимов SfB ведут себя практически одинаково. Режимы SfBOnly, SfBWithTeamsCollab и SfBWithTeamsCollabAndMeetings все идентичны в как направлять входящие звонки и беседы. Единственное отличие сейчас находится в включении надстройки Outlook для групп и Скайп для бизнеса. Пока не доставлено experiece дифференцированных клиента только 1 режимы SfB включена в портал администрирования. Но все режимы доступны в PowerShell.
-
-
-### <a name="powershell-warning-matrix"></a>Матрица предупреждение PowerShell
-
-В этой таблице показаны параметры политики, которые возвращаются при предоставлении TeamsUpgradeMode. В будущем цель состоит в режиме SfBOnly также отключение каналы в группах; Тем не менее в данный момент нет параметра, обеспечивающий возможность каналы в группы сотрудников могут быть отключены.
+### <a name="expected-values-of-workload-policy-settings-per-mode"></a>Ожидаемые значения параметров политики рабочей нагрузки в режиме
+В таблице перечислены параметры политики, которые возвращаются при предоставлении TeamsUpgradeMode. В будущем цель состоит в режиме SfBOnly также отключение каналы в группах; Тем не менее в данный момент нет параметра, обеспечивающий возможность каналы в группы сотрудников могут быть отключены.
 
 
 |**Модальность (приложение)**|**Policy.Setting**|
@@ -158,9 +147,27 @@ PS C:\Users\janedoe>`
 |Планирование собрания|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
+Ниже показано указана для указанного режима, ожидаемые значения следующих параметров:
 
-Администратор будет отображено предупреждение, если имеется разрыв между возможности рабочей нагрузки и нужный режим. Временно администратор должен включить или отключить рабочей нагрузки с помощью политики рабочей нагрузки ядра.  После реализации автоматического применения на основании TeamsUpgradePolicy предупреждения PowerShell будут обновлены для оповещения администратора, который будет автоматически применен при взаимодействия с пользователем. В этом случае значения TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy не изменяются –, но в соответствии с TeamsUpgradePolicy принудительно предполагаемая взаимодействия с пользователем.
+|Режим|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
+|---|---|---|---|---|
+|TeamsOnly или о-ва|Включено|Включено|Включено|Включено|
+|SfBWithTeamsCollabAndMeetings|Отключено|Отключено|Включено|Включено|
+|SfBWithTeamsCollab или SfBOnly|Отключено|Отключено|Отключено|Отключено|
+||||||
 
+
+Любое сочетание этих параметров в случае обнаружения во время Grant-CsTeamsUpgradePolicy grant будет выполнена успешно, но будут отображаться предупреждение, указывающее, определенные параметры, которые не соответствуют этому поведению. Временно администратор должен включить или отключить рабочей нагрузки с помощью политики рабочей нагрузки ядра.  После реализации автоматического применения на основании TeamsUpgradePolicy предупреждения PowerShell будут обновлены для оповещения администратора, который будет автоматически применен при взаимодействия с пользователем. В этом случае значения TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy не изменяются –, но в соответствии с TeamsUpgradePolicy принудительно предполагаемая взаимодействия с пользователем.
+
+Ниже приведен пример PowerShell предупреждение может иметь вид:
+
+
+`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
+WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
+PS C:\Users\janedoe>`
+
+
+До доставки автоматического применения поведение клиента, описанных выше каждый из режимов SfB ведут себя практически одинаково. Режимы SfBOnly, SfBWithTeamsCollab и SfBWithTeamsCollabAndMeetings все идентичны в как направлять входящие звонки и беседы. Единственное отличие сейчас находится в включении надстройки Outlook для групп и Скайп для бизнеса. Пока не доставлено experiece дифференцированных клиента только 1 режимы SfB включена в портал администрирования. Но все режимы доступны в PowerShell.
 
 
 ## <a name="teamsinteroppolicy-and-legacy-mode-being-retired"></a>TeamsInteropPolicy и режиме прежних версий не поддерживается 
