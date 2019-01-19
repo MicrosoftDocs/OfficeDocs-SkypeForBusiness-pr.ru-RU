@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этой статье рассматривается накопительное улучшения в системах комнаты Скайп версии 2.
-ms.openlocfilehash: cdc180c0caa8cfe581d02a206d9b13e255214bfd
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297890"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729402"
 ---
 # <a name="release-notes"></a>Примечания к выпуску 
 
@@ -26,7 +26,7 @@ ms.locfileid: "27297890"
 
 | Выпуск | Опубликовать в <br>Хранилище Майкрософт | 
 | ---     | ---  |
-| 4.0.64.0 | 12/14/2018   |
+| 4.0.64.0 | 14.12.2018   |
 | 4.0.51.0 | 11/17/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
@@ -55,6 +55,7 @@ ms.locfileid: "27297890"
 Представлено в это обновление:
 - Отображение контента на обоих переднего из комнаты (для) отображается в системах двойной экрана комнаты
 - Улучшения пользовательского интерфейса темы и переднего комнаты
+- Поддержка со стороны клиента с тактовой частотой 1,2 TLS. Для клиентов локально Включение communciation через TLS 1.2 для версии 2 Скайп комнаты системы требует Скайп для Business Server 2015 Cummulative обновления 9 (CU9) или Скайп для рабочих серверов 2019 Cummulative обновления 1 (CU1).
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 Представлено в это обновление:

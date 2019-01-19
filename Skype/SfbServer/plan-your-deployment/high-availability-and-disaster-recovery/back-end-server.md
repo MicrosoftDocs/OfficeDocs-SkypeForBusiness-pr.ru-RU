@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Сведения о способах обеспечения высокой доступности Тыловой сервер, поддерживаемые в Скайп для Business Server, включая группы обеспечения доступности AlwaysOn, экземпляры отказоустойчивого кластера AlwaysOn, зеркальное отображение базы данных и кластер отработки отказа SQL.
-ms.openlocfilehash: c17d4afb20a0aeef2a1dacc40080a1092fbda357
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: f7d48718a47533425f3481edb0c4e71878fd7226
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789294"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729416"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Назад высокой доступности внутреннего сервера в Скайп для Business Server
  
@@ -47,7 +47,6 @@ ms.locfileid: "27789294"
     
 - Пакет обновления 2 для SQL Server 2012 и накопительным пакетом обновления 2, Enterprise Edition и Standard Edition
     
-- SQL Server 2008 R2 с пакетом обновления 2, Enterprise Edition и Standard Edition
 
 > [!NOTE]
 > SQL Server 2016 является единственным версия, поддерживаемая Скайп для Business Server 2019.
@@ -113,16 +112,18 @@ ms.locfileid: "27789294"
 
 Скайп для Business Server поддерживает отказоустойчивость кластеров с помощью следующих программ базы данных SQL Server:
   
+- SQL Server 2017, Enterprise Edition и Standard Edition
+
 - SQL Server 2016, Enterprise Edition и Standard Edition
 
 - SQL Server 2014 г., Enterprise Edition и Standard Edition
     
 - Пакет обновления 2 для SQL Server 2012 и накопительным пакетом обновления 2, Enterprise Edition и Standard Edition
-    
-- SQL Server 2008 R2 с пакетом обновления 2, Enterprise Edition и Standard Edition
+
+Чтобы использовать кластер отработки отказа SQL, необходимо сначала настроить и настроить кластер SQL Server перед развертыванием интерфейсный пул. Рекомендации и инструкции по установке для отказоустойчивого кластера SQL Server 2012, в разделе [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx).
 
 > [!NOTE]
-> SQL Server 2016 является единственным версия, поддерживаемая Скайп для Business Server 2019.
+> SQL Server 2017 и SQL Server 2016 — это единственный версий, поддерживаемых Скайп для Business Server 2019.
     
 Чтобы использовать кластер отработки отказа SQL, необходимо сначала настроить и настроить кластер SQL Server перед развертыванием интерфейсный пул. Рекомендации и инструкции по установке для отказоустойчивого кластера SQL Server 2014 и 2016, в разделе [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx). Отказоустойчивая кластеризация SQL Server 2008, в разделе [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   

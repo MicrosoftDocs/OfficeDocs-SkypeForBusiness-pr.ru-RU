@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Сводка: Подготовка к Скайп для серверов Business Server 2019 и инфраструктуры домена в этом разделе. Оборудование, операционная система, баз данных, программного обеспечения, все требования к системе и рекомендации, а также сертификат DNS, файловый ресурс и сведения Active Directory, являются здесь для обеспечения успешной установки и развертывания фермы серверов.'
-ms.openlocfilehash: db5bada7b89de2fafc4d72c9fa5fcac05d8611ce
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: a812c2cbc96ab80eea55072162c54bc7371a9dc5
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297770"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729353"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Требования к системе для Скайп для Business Server 2019
  
@@ -193,9 +193,10 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (64-разрядная версия) и необходимо запустить с последними обновлениями.  <br/> ||
+|Microsoft SQL Server 2016 (64-разрядная версия) и необходимо запустить с последними обновлениями.  <br/> |
+Microsoft SQL Server 2017 (64-разрядная версия) и необходимо запустить с последними обновлениями.|
  |
-   
+
 Если нужная выпуск SQL Server, который будет использоваться перечисленных здесь нельзя использовать его.
   
 > [!NOTE]
@@ -212,13 +213,13 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 Два узла:
   
 - Microsoft SQL Server 2016 Standard (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
-    
+- Microsoft SQL Server 2017 Standard (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
+
 16 узлов:
   
 - Microsoft SQL Server 2016 Enterprise (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
-    
-У нас будет статьи Configure SQL Server кластеризации для Скайп для 2019 Business Server, в которых будут действия для получения кластеризации Готово.
- 
+- Microsoft SQL Server 2017 Enterprise (64-разрядная версия) и мы рекомендуем работать с последним пакетом обновления.
+
 Поддерживается SQL всегда на, поэтому можно получить дополнительные о нем в [Тыловой сервер высокой доступности в Скайп для Business Server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
   
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: В данном разделе приведены в этой статье описывается перенос системы комнаты Lync устройств для использования версии 2 Скайп комнаты системного программного обеспечения.
-ms.openlocfilehash: b2d748a37e7e060e19d0708b6979f9254af13682
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 9436c5a843f21b9913c0dbcbed6e62df8ef62ce2
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772905"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729409"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Перенос устройств системы Lync комнаты (LRS) в системе комнаты Скайп версии 2 
 Устройства системы Lync комнаты (LRS) с помощью программ Скайп комнаты системы версии 1 (SRS v1) достиг [окончания поддержки 9 октября 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Это означает, что программное обеспечение v1 систем Скайп комнаты больше не будет любой обновлений продукта или исправления больше. Пользователям с Lync комнаты системных устройств с использованием Скайп комнаты системное программное обеспечение v1 рекомендуется обновить свои устройства системы комнаты Скайп версии 2 (SRS v2).
@@ -45,27 +45,14 @@ ms.locfileid: "27772905"
 ### <a name="smart-room-systems-upgrade"></a>Обновление смарт-систем комнаты 
 Для клиентов, смарт-LRS, за исключением программы trade-in Crestron оборудования Корпорация Майкрософт и СМАРТ также работают на предоставление решений для обновления до версии 2 Скайп комнаты системы. Это обновление будет предоставлено смарт-Technologies Inc. Можно найти дополнительные сведения о этой [здесь](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
 
-<!--  
-For later 
-### Do-It-Yourself
-A Do-It-Yourself option is also available for customers with upgrade to Windows 10 and Skype Room Systems v2 software. Windows 10 Enterprise Licenses are available through [approved resellers](https://www.microsoft.com/en-us/Licensing/how-to-buy/how-to-buy.aspx) and Skype Room System V2 software will be available through this guide. 
- 
   
-To use this option however, customers must additionaly buy a [Logitech Screen Share](https://www.logitech.com/en-us/product/screen-share) adapter. Microsoft will provide instructions on how to use this adapter with Skype Room System v2 software. 
+Чтобы использовать этот параметр, однако, клиенты необходимо купить additionaly адаптер [Logitech экрана совместный доступ](https://www.logitech.com/en-us/product/screen-share) . Корпорация Майкрософт предоставляет инструкции о том, как использовать этот адаптер с версии 2 Скайп комнаты системное программное обеспечение. 
 
 
-Look for upgrade instructions on this page shortly. 
+Внешний вид инструкции по обновлению на этой странице в ближайшее время. 
   
-### Summary of upgrade options
-This table lists summary of all available options for existing LRS devices:
-<!--  For later 
-| Upgrade Option | SMART Room Systems | Crestron RL2 | Polycom CX8000 | Crestron RL |
-|:--- |:--- |:--- |:--- |:--- |
-|**Crestron hardware </br>Trade-in program**|Available|Available|Available|Available|
-|**Crestron RL3**|Not Available|Available|Not Available|Not Available|
-|**Do-It-Yourself**|Available|Not Available|Not Available|Not Available|
-| | | | | |
--->
+### <a name="summary-of-upgrade-options"></a>Сводка вариантов обновления
+В следующей таблице перечислены Сводка всех доступных параметров для существующего LRS устройств:
 
 ## <a name="what-should-you-do"></a>Что делать?
 Мы рекомендуем планируется обновить систему комнаты Lync устройств систем комнаты Скайп версии 2 до устаревания TLS 1.0/1.1, с помощью параметров обновления уже было сказано. Кроме того также можно замена существующего устройства на новых устройств, сертифицированном для SRS версии 2. Просмотреть [устройств комнаты](https://aka.ms/roomdevices) для получения дополнительных сведений и также взглянем на [требования к версии 2 Скайп комнаты систем](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
@@ -74,4 +61,4 @@ This table lists summary of all available options for existing LRS devices:
 > Функции сенсорного ввода и доски еще не поддерживается в системе комнаты Скайп версии 2. Поддержка сенсорного ввода и доски находится в невыполненной работы для системы комнаты Скайп версии 2 и будет добавлен в H1 CY2019.
 
 > [!NOTE]
-> Программное обеспечение Скайп комнаты системы версии 2 в настоящее время не поддерживает протокол TLS 1.2. Поддержка TLS 1.2 работает на и будут выполнены до устаревания TLS 1.0/1.1. Upgradging клиентов к версии 2 SRS не будут отображаться любые влияния амортизации TLS 1.0/1.1 на комнаты устройств с последней версией приложения SRS версии 2. Скайп для бизнеса на локально клиенты не следует отключить TLS 1.0/1.1, пока не поддерживают annouces Скайп комнаты системы V2 для TLS 1.2. 
+> Программное обеспечение Скайп комнаты системы V2 поддерживает протокол TLS 1.2 с момента 14 декабря 2018 с версией приложения 4.0.64.0. Для клиентов локально Включение communciation через TLS 1.2 для версии 2 Скайп комнаты системы требует Скайп для Business Server 2015 Cummulative обновления 9 (CU9) или Скайп для рабочих серверов 2019 Cummulative обновления 1 (CU1). Изменение должно быть зависит от Скайп для клиентов Business Online мере изменения клиента и обратной спецификации. 

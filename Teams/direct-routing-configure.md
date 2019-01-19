@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: d7744841b99e343339624314a94d95ab9472fa85
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: f89cae3569d5faf09e511439740485b40d91880e
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988289"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729446"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -31,7 +31,7 @@ ms.locfileid: "27988289"
 
 В этой статье описывается настройка прямой маршрутизации Microsoft телефонной системы. Описывается, как связать поддерживаемые пограничный контроллер сеансов (SBC) для прямой маршрутизации и способы настройки групп Майкрософт пользователям использовать прямой маршрутизации для подключения к общедоступной переключения телефонной сети общего пользования (PSTN). Для выполнения действий, описанных в данной статье, администраторы должны знакомы с командлеты PowerShell. Дополнительные сведения об использовании PowerShell в разделе [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
-Рекомендуется, чтобы подтвердить, что пограничного контроллера Сеансов уже настроен соответствии с рекомендациями по своему поставщику SBC: 
+Рекомендуется, чтобы подтвердить, что пограничного контроллера Сеансов уже настроен как рекомендовано поставщиком SBC: 
 
 - [Документация по развертыванию AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Лента Communications документации по развертыванию](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
@@ -42,7 +42,7 @@ ms.locfileid: "27988289"
 - [Включение пользователей для службы напрямую маршрутизации](#enable-users-for-direct-routing-service)
 - [Убедитесь, что группами Майкрософт является предпочтительным вызывающего клиента для пользователей](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
-## <a name="pair-the-sbc-to-direct-routing-service-of-phone-system"></a>Пары SBC для направления маршрутизации службы телефонной системой 
+## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>Пары SBC для непосредственного маршрутизации службы телефонной системой 
 
 Ниже приведены три основных действия можно подключиться или пары SBC интерфейс прямой маршрутизации. 
 
@@ -50,7 +50,7 @@ ms.locfileid: "27988289"
 - Пара SBC 
 - Проверка сопоставления 
 
-### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>Подключение к Скайп для бизнеса в Интернет с помощью PowerShell 
+### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Подключение к Скайп для бизнеса в Интернет с помощью PowerShell 
 
 Можно использовать сеанс PowerShell, подключенных к клиенту связать SBC интерфейс прямой маршрутизации. Чтобы открыть сеанс PowerShell, выполните действия, указанные в [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
@@ -60,7 +60,7 @@ ms.locfileid: "27988289"
 gcm *onlinePSTNGateway*
 ```
 
-Команда вернет четыре функций, которые будут позволяют управлять их изготовителей. 
+Команда вернет четыре функций, которые будут позволяют управлять SBC. 
 
 <pre>
 CommandType    Name                       Version    Source 
@@ -80,8 +80,8 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
-  > 1. Мы настоятельно рекомендуем Установка ограничения для SBC, с помощью сведений, можно найти в документации по SBC. Ограничение запустит уведомление, если SBC был создан на уровне мощности.
-  > 2. Вы можете только обеспечить SBC с полным доменным ИМЕНЕМ, где домен часть имени соответствует одной из доменов, зарегистрированных в клиенту, за исключением \*. onmicrosoft.com. С помощью \*. onmicrosoft.com доменных имен не поддерживается для имен SBC полное доменное имя. Например, если у вас есть два доменных имен:<br/><br/>
+  > 1. Мы настоятельно рекомендуем задание ограничений максимально допустимое число вызовов в SBC, с помощью сведений, можно найти в документации по SBC. Ограничение запустит уведомление, если SBC был создан на уровне мощности.
+  > 2. Только вы можете обеспечить SBC Если часть домена его полному доменному ИМЕНИ соответствует одному из доменов, зарегистрированных в клиенту, за исключением \*. onmicrosoft.com. С помощью \*. onmicrosoft.com доменных имен не поддерживается для SBC полное ДОМЕННОЕ имя. Например, если у вас есть два доменных имен:<br/><br/>
   > **Contoso**.com<br/>**Contoso**. onmicrosoft.com<br/><br/>
   > Для имени SBC можно использовать имя sbc.contoso.com. При попытке связать SBC с именем sbc.contoso.abc, система не позволит вам, как домен не принадлежит этот клиент.
 
@@ -100,9 +100,9 @@ SendSipOptions        : True
 MaxConcurrentSessions : 100 
 Enabled               : True   
 </pre>
-Доступны дополнительные методы, которые могут быть заданы во время связывания. В предыдущем примере тем не менее, минимально необходимые параметры показаны. 
+Доступны дополнительные методы, которые могут быть заданы во время процесса связывания. В предыдущем примере тем не менее, минимально необходимые параметры показаны. 
  
-В следующей таблице перечислены дополнительные параметры, которые можно использовать в настройке параметров для *New-CsOnlinePstnGateway*. 
+В следующей таблице приведены дополнительные параметры, которые можно использовать в настройке параметров для`New-CsOnlinePstnGateway`
 
 |Обязательно?|Имя|Описание|По умолчанию|Возможные значения|Тип и ограничения|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -122,7 +122,7 @@ Enabled               : True
 - Проверьте, если в списке парного SBC будет SBC. 
 - Проверка параметров SIP. 
  
-#### <a name="validate-if-sbc-is-on-the-list-of-paired-sbcs"></a>Проверить, если SBC находится в списке парного их изготовителей 
+#### <a name="validate-if-the-sbc-is-on-the-list-of-paired-sbcs"></a>Проверить, если SBC находится в списке парного их изготовителей 
 
 По окончании пары SBC проверки SBC присутствует в списке парного их изготовителей, выполнив следующую команду в удаленный сеанс PowerShell:`Get-CSOnlinePSTNGateway`
 
@@ -148,11 +148,11 @@ Enabled               : True
 
 #### <a name="validate-sip-options-flow"></a>Проверка потока SIP-параметры 
 
-Для проверки связывания с помощью параметров исходящей SIP, с помощью интерфейса управления SBC и увидеть, что SBC получите 200 OK ответ на исходящие параметры.
-  
-При прямой маршрутизации видит входящие параметры, он будет запущен процесс исходящей параметры отправки SBC полное доменное имя, настроенных в поле Заголовок контакт входящего сообщения, параметры. 
+Для проверки связывания с помощью параметров исходящей SIP, с помощью интерфейса управления SBC и убедитесь, что SBC получает 200 OK ответы на свои исходящие сообщения параметры.
 
-Для проверки связывания с помощью параметров входящих SIP, с помощью интерфейса управления SBC и увидеть, что SBC получает ответ на параметры сообщения, поступающие из прямой маршрутизации и что код ответа 200 OK.  
+При прямой маршрутизации видит входящие параметры, он будет запущен процесс отправки исходящих SIP-сообщения, чтобы полное доменное имя пограничного контроллера Сеансов настраиваемые параметры в поле Заголовок контакт входящего сообщения, параметры. 
+
+Для проверки, с помощью параметров входящих SIP-связывания, используйте интерфейс управления SBC и увидеть, что SBC отправляет ответ на параметры сообщения, поступающие из прямой маршрутизации и код ответа, которые он отправляет равно 200 OK.
 
 ## <a name="enable-users-for-direct-routing-service"></a>Включение пользователей для службы напрямую маршрутизации 
 
@@ -161,20 +161,20 @@ Enabled               : True
 1. Создание пользователя в Office 365 и назначьте лицензии на систему телефона. 
 2. Убедитесь, что пользователь размещенный в Скайп для бизнеса в Интернет. 
 3. Настройте номер телефона и включение корпоративной голосовой связи и голосовую почту. 
-4. Настройка маршрутизации голосовых вызовов. Маршрут проверяется автоматически.  
+4. Настройка маршрутизации голосовых вызовов. Маршрут проверяется автоматически.
 
 ### <a name="create-a-user-in-office-365-and-assign-the-license"></a>Создание пользователя в Office 365 и назначьте лицензии 
 
 Существует два варианта для создания нового пользователя в Office 365. Тем не менее рекомендуется выбрать и использовать один из вариантов, чтобы избежать проблем с маршрутизацией вашей организации: 
 
-- Создание пользователя в локальной службе Active Directory и синхронизация пользователей в облако. В разделе [Интеграция на локальную каталогов с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).  
+- Создание пользователя в локальной службе Active Directory и синхронизация пользователей в облако. В разделе [Интеграция на локальную каталогов с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 - Создание пользователя непосредственно в портал администратора Office 365. В разделе [Добавление пользователей по отдельности или набором для Office 365 — помощь администратора](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
-  При построении в системе, существует с Скайп для бизнеса 2015 или Lync 2010 или 2013 локальной только поддерживаемые параметр — для создания пользователя в локальной службе Active Directory и синхронизации пользователей в облаке (вариант 1). 
+Если ваше Скайп для бизнеса в Интернет развертывания совместного с Скайп для бизнеса 2015 или Lync 2010 или 2013 локальных, единственным вариантом поддерживаемые является создание пользователя в локальной службе Active Directory и синхронизация пользователей в облаке (вариант 1). 
 
 Необходимые лицензии: 
 
-- Office 365 для предприятий E3 (включая SfB Plan2, Exchange Plan2 или группам) телефона системы  
+- Office 365 для предприятий E3 (включая SfB Plan2, Exchange Plan2 или группам) телефона системы
 - Office 365 корпоративный E5 (включая SfB Plan2, Exchange Plan2, групп и телефонной системой) 
 
 Необязательный лицензии: 
@@ -201,15 +201,15 @@ Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
  
 1. Подключение удаленного сеанса PowerShell. 
 2. Введите команду: 
-    
+ 
 ```
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+ phone number
+Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
 ```
 
 Например чтобы добавить номер телефона для пользователя «Иван низкий», необходимо ввести следующее: 
 
 ```
-Set-CsUser -Identity “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 Номер телефона должен быть настроен как полный номер телефона E.164 с код страны. 
@@ -230,22 +230,22 @@ SBC могут быть обозначены как активных и резе
 - Политика маршрутизации голосовой связи — контейнер для использования ТСОП; можно назначить пользователю или нескольким пользователям 
 - Режимы работы с ТСОП — контейнер для маршрутов голосовых вызовов и использования ТСОП; можно совместно в различные политики маршрутизации голосовой связи 
 - Маршруты – шаблон номера и набор Online шлюзы ТСОП, используемый для вызовов, где номер соответствует шаблону голосовой связи 
-- Online шлюза ТСОП - указатель в SBC, также хранится конфигурация, которая применяется при звонок с помощью SBC, например переадресации P-Asserted-Identity (PAI) или предпочитаемое кодеков; можно добавить в маршрутов голосовых вызовов 
+- Online шлюза ТСОП - указатель SBC, также хранится конфигурация, которая применяется при звонок с помощью SBC, например переадресации P-Asserted-Identity (PAI) или предпочитаемое кодеков; можно добавить в маршрутов голосовых вызовов 
 
 #### <a name="creating-a-voice-routing-policy-with-one-pstn-usage"></a>Создание политики маршрутизации голосовых данных с помощью одного работы с ТСОП 
 
 На следующей схеме показана два примера политики маршрутизации голосовых данных в поток вызовов.
 
-**Вызова потока 1 (слева):** Если пользователь совершает вызов +1 425 XXX XX XX или +1 206 XXX XX XX, звонок перенаправляется в SBC sbc1<span></span>. contoso.biz или sbc2<span></span>. contoso.biz. Если ни один из sbc1<span></span>. contoso.biz, ни sbc2<span></span>. contoso.biz доступны, вызов отклоняется. 
+**Вызова потока 1 (слева):** Если пользователь совершает вызов +1 425 XXX XX XX или +1 206 XXX XX XX, звонок перенаправляется в SBC sbc1.contoso.biz или sbc2.contoso.biz. Если ни sbc1.contoso.biz, ни sbc2.contoso.biz недоступен, вызов отклоняется. 
 
-**Вызова поток 2 (справа):** Если пользователь совершает вызов +1 425 XXX XX XX или +1 206 XXX XX XX, вызов сначала перенаправляется в SBC sbc1<span></span>. contoso.biz или sbc2<span></span>. contoso.biz. Если ни один из SBC, предпринята попытка маршрут с низким приоритетом (sbc3<span></span>. contoso.biz и sbc4<span></span>. contoso.biz). Если ни один из их изготовителей недоступен, вызов отклоняется. 
+**Вызова поток 2 (справа):** Если пользователь совершает вызов +1 425 XXX XX XX или +1 206 XXX XX XX, вызов сначала перенаправляется в SBC sbc1.contoso.biz или sbc2.contoso.biz. Если ни один из SBC доступен, маршрут с низким приоритетом будет предпринята попытка (sbc3.contoso.biz и sbc4.contoso.biz). Если ни один из их изготовителей недоступен, вызов отклоняется. 
 
 ![Показаны примеры политики маршрутизации голосовой связи](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
 В обоих примерах пока маршрута голосовых вызовов назначается приоритеты, их изготовителей в маршруты проверяются в случайном порядке.
 
   > [!NOTE]
-  > Если у пользователя также нет лицензии Майкрософт вызов планирование, звонков на любое число, кроме номеров, соответствующих шаблонов + +1 425 XXX XX XX или +1 206 XXX XX XX в пример конфигурации удаляются. Если у пользователя есть вызов планирование лицензии, звонок автоматически маршрутизируются в соответствии с политики в планирование вызов Microsoft. 
+  > Если у пользователя также нет лицензии Майкрософт вызов планирование, звонков на любое число, кроме номеров, соответствующих шаблонов +1 425 XXX XX XX или +1 206 XXX XX XX в пример конфигурации удаляются. Если у пользователя есть вызов планирование лицензии, звонок автоматически маршрутизируются в соответствии с политики в планирование вызов Microsoft. 
 
 Планирование вызов Microsoft автоматически в качестве последнего маршрута применяется ко всем пользователям с лицензией Microsoft вызов планирование и не требует дополнительных вызовов конфигурации маршрутизации.
 
@@ -264,9 +264,9 @@ SBC могут быть обозначены как активных и резе
 
 |**Использование ТСОП**|**Маршрут голосовых вызовов**|**Шаблон номеров**|**Приоритет**|**SBC**|**Описание**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|"Мне НРАВИТСЯ" только|«Redmond 1»|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Active маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
-|"Мне НРАВИТСЯ" только|«Redmond 2»|^\\+ 1 (425\|206)(\d{7})$|2|sbc3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Резервного копирования маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
-|"Мне НРАВИТСЯ" только|«Другие + 1»|^\\+ 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Маршрут для вызываемого номера + 1 XXX XXX XX XX (за исключением +1 425 XXX XX XX или +1 206 XXX XX XX)|
+|"Мне НРАВИТСЯ" только|«Redmond 1»|^\\+ 1 (425\|206)(\d{7})$|1|sbc1.contoso.Biz<br/>sbc2.contoso.Biz|Active маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
+|"Мне НРАВИТСЯ" только|«Redmond 2»|^\\+ 1 (425\|206)(\d{7})$|2|sbc3.contoso.Biz<br/>sbc4.contoso.Biz|Резервного копирования маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
+|"Мне НРАВИТСЯ" только|«Другие + 1»|^\\+ 1 (\d{10}) $|3|sbc5.contoso.Biz<br/>sbc6.contoso.Biz|Маршрут для вызываемого номера + 1 XXX XXX XX XX (за исключением +1 425 XXX XX XX или +1 206 XXX XX XX)|
 |||||||
 
 Всех маршрутов, связанных с работы с ТСОП «"Мне Нравится" и Canada» и об использовании PSTN связан с политики маршрутизации голосовой связи «Только для США». В этом примере назначается пользователю Spencer Low политику маршрутизации голосовых вызовов.
@@ -275,12 +275,12 @@ SBC могут быть обозначены как активных и резе
 
 В следующем примере мы показываем, как Настройка политики маршрутизации, использования ТСОП и маршрутов и назначить политику для пользователя.
 
-**Шаг 1:** Создание работы с ТСОП «США и Канада.»
+**Шаг 1:** Создайте работы с ТСОП «США и Канада».
 
 В поле Скайп для сеанса удаленной оболочки PowerShell бизнеса введите:
 
 ```
-Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="US and Canada"}
+Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
 Проверка создания посредством ввода данных об использовании. 
@@ -292,7 +292,7 @@ Get-CSOnlinePSTNUsage
   Identity  : Global
   Usage     : {testusage, US and Canada, International, karlUsage. . .}
 ```
-В приведенном ниже примере можно увидеть результат выполнения команды PowerShell *`(Get-CSOnlinePSTNUsage).usage`* Отображение полного названия (не сокращается).    
+В приведенном ниже примере можно увидеть результат выполнения команды PowerShell `(Get-CSOnlinePSTNUsage).usage` Отображение полного названия (не сокращается). 
 <pre>
  testusage
  US and Canada
@@ -352,7 +352,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
-Проверьте, что правильно настроены маршрут, выполнив `Get-CSOnlineVoiceRoute` команду Powershell с помощью параметров, как показано: 
+Проверьте, что правильно настроены маршрут, выполнив `Get-CSOnlineVoiceRoute` команду PowerShell с помощью параметров, как показано: 
 
 ```
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -383,7 +383,7 @@ OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
 </pre>
 
-В примере, маршрут «Другие + 1» автоматически была назначена приоритет. 
+В примере, маршрут «Другие + 1» автоматически была назначена приоритет 4. 
 
 **Шаг 3:** Создание политики маршрутизации голосовой связи «"мне НРАВИТСЯ" только» и добавить в политику работы с ТСОП «США и Канада.»
 
@@ -402,9 +402,9 @@ Description         :
 RouteType           : BYOT
 </pre>
 
-**Шаг 4:** Предоставление пользователю Спенс Low политику маршрутизации голосовой связи с помощью PowerShell.
+**Шаг 4:** Предоставление пользователю Spencer Low политики маршрутизации голосовых данных с помощью PowerShell.
 
-- В сеанс Powershell в Скайп для бизнеса в Интернет введите следующую команду:
+- В сеанс PowerShell в Скайп для бизнеса в Интернет введите следующую команду:
 
     ```Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"```
 
@@ -426,11 +426,11 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 
 В этом примере создаются политики маршрутизации голосовой связи «Без ограничений». Политики повторно использует режим работы с ТСОП «"Мне Нравится" и Canada» создан в предыдущем примере, а также новые работы с ТСОП «International». 
 
-Это направляет все вызовы для их изготовителей sbc2<span></span>. contoso.biz и sbc5<span></span>. contoso.biz. Представлены примеры назначить нет ограничения и политики "мне Нравится" только для пользователя «Иван низкий» пользователя «John Woods».
+Это направляет все вызовы для их изготовителей sbc2.contoso.biz и sbc5.contoso.biz. Представлены примеры назначение политики "мне Нравится" только для пользователя «Иван низкий» и нет ограничений пользователя «John Woods».
 
 Spencer Low — допускается только в США и Канада числа звонков. При вызове диапазон номеров Redmond, необходимо использовать определенный набор SBC. Номера не в США не будут направляться, если вызов планирование лицензия назначена для пользователя.
 
-Джон Вудз – звонки могут любое число. При вызове диапазон номеров Redmond, необходимо использовать определенный набор SBC. Не в США номера будут направляться через sbc2<span></span>. contoso.biz и sbc5<span></span>. contoso.biz.
+Джон Вудз – звонки могут любое число. При вызове диапазон номеров Redmond, необходимо использовать определенный набор SBC. Не в США номера будут направляться через sbc2.contoso.biz и sbc5.contoso.biz.
 
 ![Отображает политику маршрутизации голосовой связи, назначенной пользователю Spencer Low](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
@@ -444,14 +444,14 @@ Spencer Low — допускается только в США и Канада ч
 
 |**Использование ТСОП**|**Маршрут голосовых вызовов**|**Шаблон номеров**|**Приоритет**|**SBC**|**Описание**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|"Мне НРАВИТСЯ" только|«Redmond 1»|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Active маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
-|"Мне НРАВИТСЯ" только|«Redmond 2»|^\\+ 1 (425\|206)(\d{7})$|2|sbc3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Резервного копирования маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
-|"Мне НРАВИТСЯ" только|«Другие + 1»|^\\+ 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Маршрут для вызываемого номера + 1 XXX XXX XX XX (за исключением +1 425 XXX XX XX или +1 206 XXX XX XX)|
-|International|International|\d+|4|sbc2<span></span>. contoso.biz<br/>sbc5<span></span>. contoso.biz|Маршрут для любой шаблон номера |
+|"Мне НРАВИТСЯ" только|«Redmond 1»|^\\+ 1 (425\|206)(\d{7})$|1|sbc1.contoso.Biz<br/>sbc2.contoso.Biz|Active маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
+|"Мне НРАВИТСЯ" только|«Redmond 2»|^\\+ 1 (425\|206)(\d{7})$|2|sbc3.contoso.Biz<br/>sbc4.contoso.Biz|Резервного копирования маршрута для вызываемого номера +1 425 XXX XX XX или +1 206 XXX XX XX|
+|"Мне НРАВИТСЯ" только|«Другие + 1»|^\\+ 1 (\d{10}) $|3|sbc5.contoso.Biz<br/>sbc6>.contoso.Biz|Маршрут для вызываемого номера + 1 XXX XXX XX XX (за исключением +1 425 XXX XX XX или +1 206 XXX XX XX)|
+|International|International|\d+|4|sbc2.contoso.Biz<br/>sbc5.contoso.Biz|Маршрут для любой шаблон номера |
 
 
   > [!NOTE]
-  > - Порядок использования ТСОП в политики маршрутизации голосовой связи крайне важна. Примеры использования применяются в порядке, а если совпадение найдено при первом использовании, затем другие режимы работы с никогда не применяются. Режим работы с ТСОП «International» должны быть введены после работы с ТСОП «"мне НРАВИТСЯ" только.» Чтобы изменить порядок использования ТСОП, запустите `Set-CSOnlineRouteRoutingPolicy` команды. <br/>Например, чтобы изменить порядок «США и Канады» выполните первый и «Международный» секунды в порядке, обратном порядку:<br/>   `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - Порядок использования ТСОП в политики маршрутизации голосовой связи крайне важна. Примеры использования применяются в порядке, а если совпадение найдено при первом использовании, затем другие режимы работы с никогда не применяются. Режим работы с ТСОП «International» должны быть введены после работы с ТСОП «"мне НРАВИТСЯ" только.» Чтобы изменить порядок использования ТСОП, запустите `Set-CSOnlineRouteRoutingPolicy` команды. <br/>Например, чтобы изменить порядок «США и Канады» выполните первый и «Международный» секунды в порядке, обратном порядку:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - Автоматически назначаются приоритет маршруты голосовой связи «International» и «Другие + 1». Они не имеет значения, поскольку они имеют более низкими приоритетами чем «Redmond 1» и «Redmond 2».
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Пример политики маршрутизации голосовой связи для пользователя John Woods
@@ -462,13 +462,13 @@ Spencer Low — допускается только в США и Канада ч
 1. Во-первых создайте работы с ТСОП «International». В удаленный сеанс PowerShell в Скайп для бизнеса в Интернет введите:
 
    ```
-   Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
+   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
    ```
 
 2. Создайте новый маршрут голосовой связи «International».
 
    ```
-   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
    ```
    Которая возвращает:
 
@@ -476,26 +476,26 @@ Spencer Low — допускается только в США и Канада ч
    Identity                  : International 
    Priority                      : 5
    Description                   : 
-   NumberPattern                 : \d+
-   OnlinePstnUsages          : {International}    
+   NumberPattern                 : .*
+   OnlinePstnUsages          : {International} 
    OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
    Name                            : International
    SupressCallerId           :
    AlternateCallerId         :
    </pre>
-3. Создайте политику маршрутизации голосовой связи «Без ограничений». Режим работы с ТСОП «Redmond 1» и «Redmond» используются повторно в политике маршрутизации голосовой связи, чтобы сохранить специальная обработка звонков на номер «+1 425 XXX XX XX» и «+1 206 XXX XX XX» как на локальном или локальный.
+3. Создайте политику маршрутизации голосовой связи «Без ограничений». Режим работы с ТСОП «Redmond 1» и «Redmond» используются повторно в политике маршрутизации голосовой связи, чтобы сохранить специальная обработка звонков на номер «+1 425 XXX XX XX» и «+1 206 XXX XX XX» как локальная или локальных вызовов.
 
 ```
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
 ```
 
     Take note of the order of PSTN Usages:
 
-    a. If a call made to number “+1425 XXX XX XX” with the usages configured as in the following example, the call follows the route set in “US and Canada” usage and the special routing logic is applied. That is, the call is routed using  sbc1<span></span>.contoso.biz and sbc2<span></span>.contoso.biz first, and then  sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz as the backup routes. 
+    a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes. 
 
-    b.  If “International” PSTN usage is before “US and Canada,” calls to + 1425 XXX XX XX are routed to sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz as part of the routing logic. Enter the command:
+    b.  If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
+    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
 
    Которая возвращает
 
@@ -512,10 +512,10 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
    ```
 
-   Затем проверьте назначения, с помощью команды:   
+   Затем проверьте назначения, с помощью команды: 
 
    ```
-   Get-CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+   Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
    ```
    Которая возвращает:
 
@@ -525,7 +525,7 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
     No Restrictions
 </pre>
 
-Результатом будет неограниченный политика голосовой связи, применяются к вызовам, Джон Вудз и выполним логику маршрутизации вызовов для США, Канада и международных звонков.
+Результатом является не ограничено политика голосовой связи, применяются к вызовам, Джон Вудз и выполним логику маршрутизации вызовов для США, Канада и международных звонков.
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Установка группами Майкрософт по предпочитаемый вызывающего клиента для пользователей
 
