@@ -1,9 +1,8 @@
 ---
-title: Подготовка ИТ-персонал для групп Майкрософт - группами Майкрософт
+title: Обучающие материалы для групп Майкрософт | Поддержка ИТ проблемы администрирования
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7a552affaf0a50325e8a90c9f6c1f7f60d2c3b2
-ms.sourcegitcommit: e49e9e8e6f42738a153306ae6f2a1d0a2e46d736
+ms.openlocfilehash: 8d7030c8695ccfcbfd34fb01772eabc1f68ebf12
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25354342"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349305"
 ---
 ![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")
 
 В этой статье является частью технической готовности этапа обновления пути, действия, которые выполнить параллельно с рабочей области готовность пользователей. Прежде чем продолжить, убедитесь, что вы выполните эти действия из предыдущих этапов:
 
--   [Прикреплено другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
--   [Определенные области проекта](https://aka.ms/SkypetoTeams-Scope)
--   [Поняты сосуществования и взаимодействия Скайп для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
--   [Выбранные обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Прикреплено другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
+- [Определенные области проекта](https://aka.ms/SkypetoTeams-Scope)
+- [Поняты сосуществования и взаимодействия Скайп для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
+- [Выбранные обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Подготовка ИТ-специалистам для групп Майкрософт
 
@@ -36,18 +35,15 @@ ms.locfileid: "25354342"
 
 Совместное использование доступны следующие материалы с сотрудниками вашей ИТ и убедитесь, что они готовы для поддержки пользователей перед началом обновления до групп:
 
--   [Обучение ИТ-администратора для работы с Microsoft Teams](itadmin-readiness.md)
- 
--   [Ресурсы поддержки для Microsoft Teams](support-resources.md)
- 
--   [Устранение проблем связи с клиентом Microsoft Teams](connectivity-issues.md)
- 
--   [Использование файлов журналов для устранения неполадок в Microsoft Teams](log-files.md)
+- [Обучение администратора для работы с Microsoft Teams](itadmin-readiness.md)
+- [Ресурсы поддержки для Microsoft Teams](support-resources.md)
+- [Устранение проблем связи с клиентом Microsoft Teams](connectivity-issues.md)
+- [Использование файлов журналов для устранения неполадок в Microsoft Teams](log-files.md)
 
 [//]: # (Попросите Debbie рассмотреть:)
 
-|    |     |
-|-----------|------------|
+| | |
+|---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Точки принятия решений|<ul><li>Задействованных все персоналу службы поддержки, которые могут принимать участие в развертывание и поддержка групп?</li><li>Вы разработали учебный план для дополнительного персонала входящая мере выполнения обновления?</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>Дальнейшие действия|<ul><li>Убедитесь, что сведения, необходимые ИТ-специалистов.</li><li>Новые возможности будут выпущены пересмотреть параметры планов обучения и подготовки.</li></ul>|
 

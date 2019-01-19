@@ -1,9 +1,8 @@
 ---
-title: Обновление с Скайп для локального развертывания Business группам - группами Майкрософт
+title: Обновление Скайп для бизнеса локальных групп, корпорация Майкрософт | Развертывание | Lync
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,25 +13,24 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd0d0f1536f509f2cdc9e379e398168f86d9b514
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5628b0bb382ef12580bb7bab12dca13e288fead7
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016783"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349337"
 ---
 ![Этапы обновления пути с акцентом на развертывание и стадии реализации] (media/upgrade-banner-deployment.png "Этапы обновления пути с акцентом на развертывание и стадии реализации")
 
 В этой статье является частью развертывания и внедрения этапа обновления пути. Прежде чем продолжить, убедитесь, что вы выполните следующие действия:
 
--   [Прикреплено другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
--   [Определенные области проекта](https://aka.ms/SkypetoTeams-Scope)
--   [Поняты сосуществования и взаимодействия Скайп для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
--   [Выбранные обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [Подготовка среды](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [Подготовлено вашей организации](https://aka.ms/SkypeToTeams-UserReadiness)
--   [Проведение пилотного проекта](https://aka.ms/SkypeToTeams-Pilot)
-
+- [Прикреплено другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
+- [Определенные области проекта](https://aka.ms/SkypetoTeams-Scope)
+- [Поняты сосуществования и взаимодействия Скайп для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
+- [Выбранные обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Подготовка среды](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Подготовлено вашей организации](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Проведение пилотного проекта](https://aka.ms/SkypeToTeams-Pilot)
 
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Обновление с Скайп для локального развертывания Business по группам
 
@@ -49,7 +47,7 @@ ms.locfileid: "25016783"
 
 ## <a name="step-2-move-users-to-skype-for-business-online"></a>Шаг 2: Перемещение пользователей в Скайп для бизнеса в Интернет
 
-По завершении настройки гибридной перемещение пользователей в Скайп для бизнеса в Интернет. 
+По завершении настройки гибридной перемещение пользователей в Скайп для бизнеса в Интернет.
 
 Дополнительные сведения можно [переместить пользователей из локально на Скайп для бизнеса в Интернет](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 

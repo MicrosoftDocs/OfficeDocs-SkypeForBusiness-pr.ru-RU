@@ -1,9 +1,8 @@
 ---
-title: Подготовка службы для обновления до групп - группами Майкрософт
+title: Подготовка для обновления группами Майкрософт |  Контрольный список развертывания адаптация новых сотрудников
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7858737dc69f076ca059aca9de5437cb3cb88e52
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2243e1420e2bd1046789669168834cff2125c4ac
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374598"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349462"
 ---
 ![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")
 
 В этой статье является частью технической готовности этапа обновления пути, действия, которые выполнить параллельно с рабочей области готовность пользователей. Прежде чем продолжить, убедитесь, что вы выполните эти действия из предыдущих этапов:
 
--   [Прикреплено другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
--   [Определенные области проекта](https://aka.ms/SkypetoTeams-Scope)
--   [Поняты сосуществования и взаимодействия Скайп для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
--   [Выбранные обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Прикреплено другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
+- [Определенные области проекта](https://aka.ms/SkypetoTeams-Scope)
+- [Поняты сосуществования и взаимодействия Скайп для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
+- [Выбранные обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Подготовка службы для обновления до группы
 
@@ -38,17 +37,17 @@ ms.locfileid: "25374598"
 
 Следующие контрольные списки выполнить шаги по развертыванию группами Майкрософт в вашей организации:
 
--  [Подготовка Office 365 для групп](onboarding-checklist-enable-office-365.md)
+- [Подготовка Office 365 для групп](onboarding-checklist-enable-office-365.md)
 
--  [Настройка групп основными возможностями](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+- [Настройка групп основными возможностями](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
--  [Настройка сети](onboarding-checklist-configure-networking.md)
+- [Настройка сети](onboarding-checklist-configure-networking.md)
 
--  [Настройка рабочих нагрузок облачных голосовой связи в группах](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Настройка рабочих нагрузок облачных голосовой связи в группах](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
--  [Настройка маршрутизации прямой в группах](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Настройка маршрутизации прямой в группах](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
 
-Задачи и действий в этих контрольных списков приведены основные элементы «задача», которые применяются к каждой среде совместной работы и возможности голосовой связи с группами. Вы можете настроить контрольные списки для включения действия и задачи, которые специфичны для поездке группами. 
+Задачи и действий в этих контрольных списков приведены основные элементы «задача», которые применяются к каждой среде совместной работы и возможности голосовой связи с группами. Вы можете настроить контрольные списки для включения действия и задачи, которые специфичны для поездке группами.
 
 Используйте предоставляемыми контрольными списками для отслеживания состояния каждой конкретной деятельности и задач, а также необходимо убедиться, что еще не пропуска любой важных этапов. Каждое действие включает в себя подробное описание необходимых действий и ссылки на дополнительные сведения, которые можно использовать для выполнения этого действия.
 

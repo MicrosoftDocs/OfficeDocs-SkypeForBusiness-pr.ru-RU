@@ -1,9 +1,8 @@
 ---
-title: Скайп для бизнеса об обновлении группами Майкрософт
+title: Обновление Скайп для бизнеса для групп Майкрософт
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,14 +13,14 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ac410d5248149641cb29461bb6c0f73e6cbfb8d
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: bfe9fb437be2df1c069c79d3c5281dbb121b4204
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201351"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349079"
 ---
-# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Скайп для бизнеса об обновлении группами Майкрософт
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Переход со Skype для бизнеса на Microsoft Teams
 
 Поддержка концепции intelligent коммуникаций корпорации Майкрософт, группами Майкрософт является центром для командной работы, собрать чата, собраний, вызов, совместной работы, интеграции приложений и хранение файлов. Как существующие Скайп для клиента Business ознакомьтесь с обновления до Microsoft командами, чтобы испытать этот полный набор возможностей обмена данными и совместной работы в одного клиентского интерфейса.
 
@@ -30,10 +29,10 @@ ms.locfileid: "27201351"
 Просмотрите этот [Обзор](https://aka.ms/UpgradeOverview) введение к Скайп для бизнеса в пути обновления групп, включая основные концепции, framework и пути обновления.
 
 > [!Tip]
-> Просмотрите следующие сеанса для получения сведений об обновлении Скайп для бизнеса группами Майкрософт: 
-> - [Общие сведения об обновлении](https://aka.ms/teams-upgrade-intro)
-> - [Планирование обновления](https://aka.ms/teams-upgrade-plan)
-> - [Взаимодействие и совместная работа](https://aka.ms/teams-upgrade-coexistence-interop)
+> Чтобы узнать больше о переходе со Skype для бизнеса на Microsoft Teams, посмотрите следующие обучающие ролики:
+> - [Общие сведения о переходе](https://aka.ms/teams-upgrade-intro)
+> - [Планирование перехода](https://aka.ms/teams-upgrade-plan)
+> - [Сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Интерфейс администратора](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>Обновление реализация framework
@@ -51,7 +50,6 @@ ms.locfileid: "27201351"
 
 Выберите один из следующих возможностей или просмотреть оба для определения оптимального пути. Дополнительные сведения будут переходит в оперативный режим постепенно, поэтому автоматически проверять обратно вашей организации по-прежнему производится пути к группам. Для лучшего понимания путь обновления и какие дополнительные рекомендации могут быть полезны занять некоторое время для <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">совместного использования ваш отзыв</a>.
 
-
 <div class="mx-tableFixed">
 <table>
 <tbody>
@@ -60,7 +58,6 @@ ms.locfileid: "27201351"
 <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
 </tbody></table>
 </div>
-
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

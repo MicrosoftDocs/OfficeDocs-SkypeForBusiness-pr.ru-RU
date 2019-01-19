@@ -1,20 +1,19 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Тренинг под руководством инструктора по Microsoft Teams
-description: Зарегистрируйтесь для под руководством инструктора классов для Узнайте все об группами Майкрософт.
+title: Обучение под руководством инструктора и видео для Microsoft группы "Администраторы"
+description: Зарегистрируйтесь для под руководством инструктора классов узнать о группами Майкрософт.
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
-ms.date: 08/24/2018
-ms.openlocfilehash: efb105e3d6b5ab1c2ec87df6520c52eeb7ded90d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214560"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349313"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -80,7 +79,7 @@ ms.locfileid: "27214560"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Ссоветы и рекомендации по группам</h3>
+                                                <h3>Рекомендации & советы по группам</h3>
                                                 <p>Ознакомиться с различными способами оптимизации и организации групп в повседневной работе. (Аудитории: конечных пользователей)</p>
                                             </div>
                                         </div>
@@ -100,7 +99,7 @@ ms.locfileid: "27214560"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Управление обновлением из Скайп для бизнеса групп</h3>
-                                                <p>Планирование и реализация успешного обновления к группам (аудитория: ИТ-специалистов, управляющие внедрения изменений)</p>
+                                                <p>_AMP_ план реализации успешного обновления группам (аудитория: ИТ-специалистов, управляющие внедрения изменений)</p>
                                             </div>
                                         </div>
                                     </div>
