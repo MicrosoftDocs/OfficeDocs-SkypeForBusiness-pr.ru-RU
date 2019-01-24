@@ -1,50 +1,14 @@
 ---
-ms.openlocfilehash: 4216629a8b0f92092024984b21fca1b82a52a557
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 1b5df1a5cb064e50e9c3deb8fdbded1db29d88a7
+ms.sourcegitcommit: 502f85e7920b1a9a14f879d6211e10ad8daba69f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015319"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "29382481"
 ---
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
 
 
-
-
-## <a name="week-of-december-10-2018"></a>Неделя с 10 декабря 2018 г.
-
-
-| Дата публикации |Название раздела | ИЗМЕНИТЬ |
-|------|------------|--------|
-| 10.12.2018 | [Пробное предложение Microsoft Teams Commercial Cloud Trial](/MicrosoftTeams/iw-trial-teams) | Изменено |
-| 10.12.2018 | [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Изменено |
-| 10.12.2018 | [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
-| 10.12.2018 | [Настройка прямой маршрутизации](/MicrosoftTeams/direct-routing-configure) | Изменено |
-| 10.12.2018 | [Выбор способа перехода — Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | Изменено |
-| 10.12.2018 | [Обучение конечных пользователей для работы с Microsoft Teams](/MicrosoftTeams/enduser-training) | Изменено |
-| 10.12.2018 | [Тренинг под руководством инструктора по Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Изменено |
-| 11.12.2018 | [Планирование развертываний Microsoft Office 365 для государственных организаций (GCC) — Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | Изменено |
-| 11.12.2018 | [Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/faq-journey) | Изменено |
-| 11.12.2018 | [Известные проблемы для Microsoft Teams](/MicrosoftTeams/known-issues) | Изменено |
-| 11.12.2018 | [Обзор Microsoft Teams](/MicrosoftTeams/teams-overview) | Изменено |
-| 11.12.2018 | [Управление функциями Microsoft Teams в организации Office 365](/MicrosoftTeams/enable-features-office-365). | Изменено |
-| 12.12.2018 | [Настройка прямой маршрутизации](/MicrosoftTeams/direct-routing-configure) | Изменено |
-| 12.12.2018 | [Общение с пользователями Teams из других организаций](/MicrosoftTeams/let-your-teams-users-communicate-with-other-people) | Изменено |
-| 12.12.2018 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
-| 12.12.2018 | [Управление номерами телефонов в Австралии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | Изменено |
-| 12.12.2018 | [Краткий контрольный список по внедрению Microsoft Teams](/MicrosoftTeams/teams-adoption-quick-start-checklist) | Изменено |
-| 12.12.2018 | [Известные проблемы для Microsoft Teams](/MicrosoftTeams/known-issues) | Изменено |
-| 13.12.2018 | [Отработка отказа канала связи при исходящих звонках](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | Добавлено |
-| 13.12.2018 | [Внедрение Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | Изменено |
-| 13.12.2018 | [Проверка готовности среды для Microsoft Teams](/MicrosoftTeams/environment-readiness) | Изменено |
-| 13.12.2018 | Начало работы с Microsoft Teams | Удалено |
-| 13.12.2018 | [Настройка лицензии для телефонов общего пользования для Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | Добавлено |
-| 14.12.2018 | [Парковка и восстановление звонков в Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | Добавлено |
-| 14.12.2018 | [Общие звонки и ответ на групповые звонки в Microsoft Teams](/MicrosoftTeams/call-sharing-and-group-call-pickup) | Добавлено |
-| 14.12.2018 | [Функция Shared Line Appearance в Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | Добавлено |
-| 14.12.2018 | [Функция Shared Line Appearance в Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | Изменено |
-| 14.12.2018 | [Политики собраний в Teams](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
-| 14.12.2018 | [Управление настройками собраний в Microsoft Teams](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
 
 
 ## <a name="week-of-december-17-2018"></a>Неделя с 17 декабря 2018 г.
@@ -160,3 +124,78 @@ ms.locfileid: "28015319"
 | 11.1.2019 | [Управление функциями Microsoft Teams в организации Office 365](/MicrosoftTeams/enable-features-office-365). | Изменено |
 | 11.1.2019 | [Планирование развертываний Microsoft Office 365 для государственных организаций (GCC) — Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | Изменено |
 | 11.1.2019 | [Сведения о режиме "Только Teams"](/MicrosoftTeams/teams-only-mode-considerations) | Изменено |
+
+
+## <a name="week-of-january-14-2019"></a>Неделя с 14 января 2019 г.
+
+
+| Дата публикации |Название раздела | ИЗМЕНИТЬ |
+|------|------------|--------|
+| 14.01.2019 | [Инструменты и скачиваемые материалы по внедрению](/MicrosoftTeams/adopt-tools-and-downloads) | Изменено |
+| 14.01.2019 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
+| 14.01.2019 | [Начало перехода на Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | Изменено |
+| 15.01.2019 | [Приложение "Смены" для вашей организации в Microsoft Teams](/MicrosoftTeams/manage-the-shifts-app-for-your-organization-in-teams) | Изменено |
+| 16.01.2019 | [Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/faq-journey) | Изменено |
+| 16.01.2019 | [Качество обслуживания и аналитика звонков в Microsoft Teams](/MicrosoftTeams/monitor-call-quality-qos) | Добавлено |
+| 16.01.2019 | [Качество обслуживания в Microsoft Teams](/MicrosoftTeams/qos-in-teams) | Изменено |
+| 16.01.2019 | [Изменение номеров телефонов для моста аудиоконференций](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | Изменено |
+| 16.01.2019 | [Создание и использование абонентских групп](/MicrosoftTeams/create-and-manage-dial-plans) | Изменено |
+| 16.01.2019 | [Исходящие звонки, позволяющие другим людям присоединиться к собранию](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | Изменено |
+| 16.01.2019 | [Измерения и меры на панели мониторинга качества звонков](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
+| 16.01.2019 | [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 16.01.2019 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
+| 16.01.2019 | [Планирование управления в Teams — Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | Изменено |
+| 16.01.2019 | [Область поиска в каталоге Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | Изменено |
+| 16.01.2019 | [Парковка и восстановление звонков в Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | Изменено |
+| 16.01.2019 | [Общие звонки и ответ на групповые звонки в Microsoft Teams](/MicrosoftTeams/call-sharing-and-group-call-pickup) | Изменено |
+| 16.01.2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 16.01.2019 | [Управление гостевым доступом в Microsoft Teams](/MicrosoftTeams/manage-guests) | Изменено |
+| 17.01.2019 | [Принятие решений по службе аудиоконференций — Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | Изменено |
+| 17.01.2019 | [Принятие решений по службе телефонной системы с планами звонков — Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system) | Изменено |
+| 17.01.2019 | [Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/faq-journey) | Изменено |
+| 17.01.2019 | [Обзор Microsoft Teams](/MicrosoftTeams/teams-overview) | Изменено |
+| 17.01.2019 | [Аудиоконференции в Microsoft Teams](/MicrosoftTeams/tutorial-audio-conferencing) | Изменено |
+| 17.01.2019 | [Общие сведения о звонках в Microsoft Teams](/MicrosoftTeams/tutorial-calling-in-teams) | Изменено |
+| 17.01.2019 | [Собрания в Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams) | Изменено |
+| 17.01.2019 | [Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | Изменено |
+| 17.01.2019 | [Корпоративный план тестирования Аудиоконференций в Microsoft Teams](/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing) | Изменено |
+| 17.01.2019 | [Корпоративный план тестирования Телефонной системы с планами звонков в Microsoft Teams](/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system) | Изменено |
+| 17.01.2019 | [Определение объема перехода на Teams со Skype для бизнеса — Microsoft Teams](/MicrosoftTeams/upgrade-define-project-scope) | Изменено |
+| 17.01.2019 | [Обновление Pro в Microsoft Teams](/MicrosoftTeams/upgrade-pro) | Изменено |
+| 17.01.2019 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
+| 17.01.2019 | [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Изменено |
+| 18.01.2019 | [Настройка прямой маршрутизации](/MicrosoftTeams/direct-routing-configure) | Изменено |
+| 18.01.2019 | [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Изменено |
+| 18.01.2019 | [Microsoft Teams: |  оценка среды, | подготовка, обнаружение](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | Изменено |
+| 18.01.2019 | [Вопросы и ответы по Microsoft Teams: | возможности собраний, конференций, звонков](/MicrosoftTeams/faq-journey) | Изменено |
+| 18.01.2019 | [Переход со Skype для бизнеса Online на Microsoft Teams](/MicrosoftTeams/journey-skypeforbusiness-teams) | Изменено |
+| 18.01.2019 | [Описание перехода со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/tutorial-journey-skypeforbusiness-to-teams) | Изменено |
+| 18.01.2019 | [План подготовки пользователей к Microsoft Teams: | рекомендации](/MicrosoftTeams/continue-journey) | Изменено |
+| 18.01.2019 | [Тренинг под руководством инструктора и видео для администраторов Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Изменено |
+| 18.01.2019 | [Пилотное использование Microsoft Teams со Skype для бизнеса: | развертывание, подготовка, внедрение](/MicrosoftTeams/pilot-essentials) | Изменено |
+| 18.01.2019 | [Microsoft Teams: | переход, режим островов, политика взаимодействия, только Teams](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | Изменено |
+| 18.01.2019 | [Переход на Microsoft Teams со Skype для бизнеса: | режимы, сосуществование](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | Изменено |
+| 18.01.2019 | [Основные этапы перехода с помощью PowerShell на| Microsoft Teams:| команды Grant Upgrade/Interop Policy](/MicrosoftTeams/upgrade-basic-powershell) | Изменено |
+| 18.01.2019 | [Контрольный список по переходу:| переход со Skype для бизнеса на Microsoft Teams | — основные этапы](/MicrosoftTeams/upgrade-basic) | Изменено |
+| 18.01.2019 | [Переход со Skype для бизнеса на Microsoft Teams: объем проекта подготовки | перехода](/MicrosoftTeams/upgrade-define-project-scope) | Изменено |
+| 18.01.2019 | [Переход на Microsoft Teams: основные электронные письма и опросы | по переходу](/MicrosoftTeams/upgrade-emails-surveys) | Изменено |
+| 18.01.2019 | [Microsoft Teams: требования | по совершенствованию служб](/MicrosoftTeams/upgrade-enhance-my-service) | Изменено |
+| 18.01.2019 | [Привлечение заинтересованных лиц: | планирование перехода со Skype для бизнеса на Teams](/MicrosoftTeams/upgrade-enlist-stakeholders) | Изменено |
+| 18.01.2019 | [Качество работы пользователей в | Microsoft Teams: | качество обслуживания (QoS), | качество звонков](/MicrosoftTeams/upgrade-monitor-quality) | Изменено |
+| 18.01.2019 | [Эффективность работы с Microsoft Teams:| управление службами, | качество](/MicrosoftTeams/upgrade-operate-my-service) | Изменено |
+| 18.01.2019 | [Переход со Skype для бизнеса на Microsoft Teams:| готовность пользователей к изменениям](/MicrosoftTeams/upgrade-org-change-readiness) | Изменено |
+| 18.01.2019 | [Планирование управления службами и обеспечения их качества: | техническая готовность](/MicrosoftTeams/upgrade-plan-for-quality) | Изменено |
+| 18.01.2019 | [Переход на Microsoft Teams: | опросник по оценке среды](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | Изменено |
+| 18.01.2019 | [Требования для Microsoft Teams: | зависимости, подготовка, переход](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | Изменено |
+| 18.01.2019 | [Планирование перехода со Skype для бизнеса на Microsoft Teams: | схема подготовки](/MicrosoftTeams/upgrade-plan-journey) | Изменено |
+| 18.01.2019 | [Тренинг по Microsoft Teams: | ИТ-поддержка, проблемы администратора](/MicrosoftTeams/upgrade-prepare-it-pros) | Изменено |
+| 18.01.2019 | [Подготовка сети для Microsoft Teams:|  требования к портам и брандмауэру](/MicrosoftTeams/upgrade-prepare-environment-prepare-network) | Изменено |
+| 18.01.2019 | [Подготовка к переходу на Microsoft Teams:|  контрольный список по подключению при развертывании](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | Изменено |
+| 18.01.2019 | [Подготовка среды к переходу со Skype для бизнеса на Teams](/MicrosoftTeams/upgrade-prepare-environment) | Изменено |
+| 18.01.2019 | [Подготовка перехода со Skype для бизнеса на Microsoft Teams: | планирование принятия у пользователей](/MicrosoftTeams/upgrade-prepare-organization) | Изменено |
+| 18.01.2019 | [Upgrade Pro для Microsoft Teams: | стратегический план](/MicrosoftTeams/upgrade-pro) | Изменено |
+| 18.01.2019 | [Переход с гибридного развертывания Skype для бизнеса на Microsoft Teams | для ТСОП](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybrid) | Изменено |
+| 18.01.2019 | [Переход со Skype для бизнеса Online на Microsoft Teams: | развертывание](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | Изменено |
+| 18.01.2019 | [Переход с локального развертывания Skype для бизнеса на Microsoft Teams: | развертывание, | Lync](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonpremises) | Изменено |
+| 18.01.2019 | [Переход на Microsoft Teams: | стратегия перехода на Teams со Skype для бизнеса](/MicrosoftTeams/upgrade-to-teams) | Изменено |
+| 18.01.2019 | [План подготовки пользователей перед переходом со Skype для бизнеса на Teams](/MicrosoftTeams/upgrade-user-readiness) | Изменено |
