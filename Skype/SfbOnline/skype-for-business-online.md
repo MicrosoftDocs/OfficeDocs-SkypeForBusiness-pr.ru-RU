@@ -14,10 +14,10 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
 ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
+ms.lasthandoff: 01/25/2019
 ms.locfileid: "26531751"
 ---
 # <a name="skype-for-business-online-admin"></a>Администратор Skype для бизнеса Online
@@ -54,7 +54,7 @@ ms.locfileid: "26531751"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Мы & #39; re здесь, чтобы помочь</h3>
+                        <h3>We& #39; re здесь, чтобы помочь</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ ms.locfileid: "26531751"
 
 ---
 
-<h2>Что & #39; новым возможностям</h2>
+<h2>What& #39; новым возможностям</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -236,7 +236,7 @@ ms.locfileid: "26531751"
                 <div class="card">
                     <div class="cardText">
                         <h3>Телефонная система</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Здесь & #39; s получение с телефонной системой в Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s получение с телефонной системой в Office 365</a></p>
                </div>
                 </div>
             </div>
