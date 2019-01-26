@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Партнеры корпорации Майкрософт с выбранным поставщикам SBC для подтверждения своей SBC работать с прямой маршрутизации.
-ms.openlocfilehash: 0230828c9aef49f8979c30d19c1d2d5e15779d84
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 611c7a4b7315b2c463ffffe8166eaeee7b6b7b7a
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326845"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562770"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -60,7 +60,7 @@ ms.locfileid: "28326845"
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   Ожидание    |      V7.0.2      |
 |                                                                                                                     |    Шведский SBC Lite     |     &#10004;     |   Ожидание    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Ожидание    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   Ожидание    |   Ожидание  |   Ожидание    |
-|                                                                                                                     |      AP 4600         |    Ожидание    |   Ожидание    |      Ожидание      |
-|                                                                                                                     |      ВИРТУАЛЬНАЯ СРЕДА ПЕРЕНОСА             |    Ожидание    |   Ожидание    |      Ожидание      |
+|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |    &#10004;     |   Ожидание  |   Глобальный Администратор ECZ8.1.0 MR-1 (сборка 145)  |
+|                                                                                                                     |      AP 4600         |    &#10004;   |   Ожидание    |     Глобальный Администратор ECZ8.1.0 MR-1 (сборка 145)  |
+|                                                                                                                     |      ВИРТУАЛЬНАЯ СРЕДА ПЕРЕНОСА             |    &#10004;    |   Ожидание    |     Глобальный Администратор ECZ8.1.0 MR-1 (сборка 145)     |
 |                     [TE СИСТЕМ](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   Ожидание    |      V3.16.2      |

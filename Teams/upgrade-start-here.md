@@ -1,5 +1,5 @@
 ---
-title: Приступая к работе с Microsoft группам обновления
+title: Начало перехода на Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,14 +14,14 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bade1b333accd5b39fb777894e2eaf3b06c6cc9
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: bc428a6e4e256a38248e66a99d5a95b668e5eeb6
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015357"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562762"
 ---
-# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Приступая к работе с Microsoft группам обновления
+# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Начало перехода на Microsoft Teams
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Зачем выполнять обновление группами Майкрософт?
 
@@ -47,3 +47,10 @@ Microsoft стремится успеха и обеспечивает надеж
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+
+> [!Tip]
+> Чтобы узнать больше о переходе со Skype для бизнеса на Microsoft Teams, посмотрите следующие обучающие ролики:
+> - [Общие сведения о переходе](https://aka.ms/teams-upgrade-intro)
+> - [Планирование перехода](https://aka.ms/teams-upgrade-plan)
+> - [Сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Интерфейс администратора](https://aka.ms/teams-upgrade-admin)

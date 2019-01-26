@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: f89cae3569d5faf09e511439740485b40d91880e
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 565d25566843a507cb875eb96f32531d2ee77caf
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729446"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562825"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -57,7 +57,7 @@ ms.locfileid: "28729446"
 После создания удаленного сеанса PowerShell, проверьте, что вы видите команды для управления SBC. Для проверки команды, введите или копирование и вставка в следующем в сеанс PowerShell и нажмите клавишу ВВОД: 
 
 ```
-gcm *onlinePSTNGateway*
+Get-Command *onlinePSTNGateway*
 ```
 
 Команда вернет четыре функций, которые будут позволяют управлять SBC. 

@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8336c3a8899e7719ae8ff50bb2bcdb9c6565c438
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: be2e95d7be359856d5aef4f67664ef27ee62fa74
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531062"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562615"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Управление доступом пользователей к Microsoft Teams
 =====================================
@@ -46,6 +46,9 @@ ms.locfileid: "26531062"
 ![Снимок экрана с разделом лицензий продуктов в Центре администрирования Office 365, где выбрана служба Microsoft Teams.](media/Manage_user_access_to_Microsoft_Teams_image4.png)
 
 ## <a name="manage-via-powershell"></a>Управление с помощью PowerShell
+
+> [!IMPORTANT]
+> Новые MsolLicenseOptions будет запустить все службы, которые ранее были отключены, если не explictitly identitied в пользовательского сценария. Например чтобы оставить оба Exchange & Sway отключены при additonally отключение команд, необходимо inlcude это в сценарий или оба & Exchange, которые Sway будет становятся доступными для пользователей, указанным вами. Если вы хотите использовать графический интерфейс пользователя для управления этой функциональности, см.: [отчетов лицензии Office 365 и средства управления-назначение удаления лицензий массовое](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
 Включение и отключение в PowerShell лицензии на рабочую нагрузку Microsoft Teams выполняются точно так же, как и для других нагрузок. План обслуживания для Microsof Teams называется TEAMS1. Для государственных учреждений имя плана службы — TEAMS_GOV. (Дополнительные сведения: [Отключение доступа к службам с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).)
 

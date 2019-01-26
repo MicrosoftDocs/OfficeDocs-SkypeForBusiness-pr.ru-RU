@@ -1,5 +1,5 @@
 ---
-title: Обновление до групп - группами Майкрософт
+title: Переход на Teams — Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3136aa7ee7fb4aedf65f814ed3a482e0acd5e0b2
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: a42eec3f5e5271f34cdab10893953753c3896369
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791731"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562744"
 ---
 # <a name="upgrade-to-teams"></a>Обновление до группы
 
@@ -30,3 +30,10 @@ ms.locfileid: "27791731"
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+
+> [!Tip]
+> Чтобы узнать больше о переходе со Skype для бизнеса на Microsoft Teams, посмотрите следующие обучающие ролики:
+> - [Общие сведения о переходе](https://aka.ms/teams-upgrade-intro)
+> - [Планирование перехода](https://aka.ms/teams-upgrade-plan)
+> - [Сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Интерфейс администратора](https://aka.ms/teams-upgrade-admin)
