@@ -1,1 +1,1 @@
-<span data-ttu-id="f5cd9-101">Образец включаемого файла — просто замените этот текст на ваш.</span><span class="sxs-lookup"><span data-stu-id="f5cd9-101">Sample include file - just replace this text with your own.</span></span>
+<span data-ttu-id="44a5f-101">Образец включаемого файла — просто замените этот текст на ваш.</span><span class="sxs-lookup"><span data-stu-id="44a5f-101">Sample include file - just replace this text with your own.</span></span>
