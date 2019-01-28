@@ -1,8 +1,8 @@
 ---
 title: Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
-ms.author: jambirk
+ms.author: crowe
 ms.reviewer: NMuravlyannikov
-author: jambirk
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Партнеры корпорации Майкрософт с выбранным поставщикам SBC для подтверждения своей SBC работать с прямой маршрутизации.
-ms.openlocfilehash: 611c7a4b7315b2c463ffffe8166eaeee7b6b7b7a
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: cf62dd1d19ec5404bda756b190502e00078d80db
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562770"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594176"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 

@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: cb8770b0929b46aa0e98e1429a11874756ed07e1
-ms.sourcegitcommit: d9059e8cb0a9b968ee16508f6bfcb5d949575590
+ms.openlocfilehash: 468a3c60b83784fb308165a5da835d451f2bc780
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27733205"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594232"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Бесплатный перевод Microsoft Teams на версию по подписке Office 365
 ======================================================
@@ -86,9 +86,9 @@ ms.locfileid: "27733205"
 
 ## <a name="whats-next"></a>Что дальше?
 
-После завершения обновления дополнительную [Начало работы с группами Майкрософт](get-started-with-teams-landing-page.md) для первого действия и [Принять группами Майкрософт](adopt-microsoft-teams-landing-page.md) поэтапный подход для внедрения группам в организации.
+После завершения обновления дополнительную [Начало работы с группами Майкрософт](get-started-with-teams-quick-start.md) для первого действия и [Принять группами Майкрософт](adopt-microsoft-teams-landing-page.md) поэтапный подход для внедрения группам в организации.
 
-## <a name="more-information"></a>Подробная информация
+## <a name="more-information"></a>Дополнительная информация
 
 - Для получения дополнительных сведений о версии групп и их возможности видеть [планы сравнение групп](https://products.office.com/microsoft-teams/free).
 - Дополнительные сведения об обновлении до полной версии групп содержатся в разделе [обновление из свободного группам рабочих групп](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).

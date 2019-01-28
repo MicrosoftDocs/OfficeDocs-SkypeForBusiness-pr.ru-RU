@@ -1,5 +1,5 @@
 ---
-title: Корпоративный план тестирования для телефонной системой с вызова планы в группах Майкрософт
+title: Корпоративный план тестирования Телефонной системы с планами звонков в Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995635ed8a7f3c9a9a5d4291652208246c3f9697
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694792"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594064"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Определите и задокументируйте телефонной системой с вызова планы в план тестирования группами для предприятий 
 ============================================================================================
@@ -72,8 +72,8 @@ ms.locfileid: "28694792"
 <a name="define-phone-system-with-calling-plans-feature-requirements"></a>Определение телефонной системой требованиям вызов планы компонента 
 ------------------------------------------------------------
 
-Как часть определения телефонной системой требованиям вызов планы компонентов для пользователей в области действия одним из первых шагов, которые можно выполнить на этапе Предвидения был [Анализа пользователя](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#assess-environment-and-evaluate-adoption-readiness), где определенные телефонной системой с вызова планы сценарии и пользователя.
-С помощью этой базовой распознан следующим шагом является оценка последняя версия плана общедоступных групп для определения:
+Как часть определения телефонной системой требованиям вызов планы компонентов для пользователей в области действия в разделе [Телефонной системы с помощью вызова планы](calling-plan-landing-page.md).
+Затем Оцените последняя версия плана общедоступных групп для определения.
 
 -   Какие телефонной системы с использованием функций вызова планы вы развертываете для пользователей в области действия.
 

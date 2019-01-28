@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc1c20f87103dc91a317e58dac03389275b255f2
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 3e66005ca69a08cd0cf944455e73c155d20bfea9
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694699"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593928"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams
 ==============================================================
@@ -30,7 +30,7 @@ ms.locfileid: "28694699"
 Ознакомьтесь с объявлением о планах звонков в Teams от 12 декабря 2017 г.: [Intelligent Communications takes the next step with calling in Teams (Звонки в Teams как новый этап интеллектуальных коммуникаций)](https://aka.ms/ipyqus)
 
 > [!NOTE]
-> Чтобы спланировать и успешно провести развертывание, помимо этого краткого руководства рекомендуем также использовать [практическое руководство](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans) и [FastTrack](https://aka.ms/cloudvoice).
+> Рекомендуется, параллельно с краткое руководство прочитать [Телефонной системы с помощью вызова планы](calling-plan-landing-page.md) и [она](https://aka.ms/cloudvoice) плану и диск успешного развертывания.
 
 За счет добавления планов звонков (компонента Office 365 на основе Skype для бизнеса) приложение Teams теперь позволяет делать и принимать звонки на стационарные и мобильные телефоны по телефонной сети общего пользования (ТСОП).
 
@@ -114,7 +114,7 @@ ms.locfileid: "28694699"
 
 [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Практическое руководство по телефонной системе с планами звонков в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
+[Телефонная система с планами звонков](calling-plan-landing-page.md)
 
 [Справочник по командлетам PowerShell для Skype для бизнеса](https://docs.microsoft.com/powershell/module/skype)
 

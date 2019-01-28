@@ -12,12 +12,12 @@ description: Практическое руководство по разверт
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015335"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594200"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись собрания Teams в облаке
 
@@ -61,7 +61,7 @@ ms.locfileid: "28015335"
 
 Если администратор Microsoft потока [настроить политику рекомендация компании](https://docs.microsoft.com/stream/company-policy-and-consent) и требует, чтобы сотрудники на прием данной политики перед сохранением контента, пользователям необходимо сделать до записи в группах Microsoft. Прежде чем единовременного средства для записи в организации убедитесь, что пользователи согласие в политике.
 
-### <a name="enabledisable-cloud-recording-for-users"></a>Включение и отключение записи для пользователей облака
+### <a name="turn-on-or-turn-off-cloud-recording"></a>Включить или отключить облачных записи
 
 Используйте параметр AllowCloudRecording TeamsMeetingPolicy в команды PowerShell для управления ли собрания пользователя могут записать или нет. Дополнительные сведения об управлении TeamsMeetingPolicy с Office 365 PowerShell [здесь](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
@@ -86,7 +86,7 @@ ms.locfileid: "28015335"
 |      Требуется записи отключены для большинства пользователей, но выборочно включить конкретных пользователей, которым разрешено для записи       | <ol><li>Подтверждение глобального CsTeamsMeetingPolicy имеет AllowCloudRecording = False<li>Большинство пользователей были присвоены глобального CsTeamsMeetingPolicy или один политик CsTeamsMeetingPolicy с AllowCloudRecording = False<li>Все пользователи имеют одну из политик CsTeamsMeetingPolicy с AllowCloudRecording = True <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
-### <a name="enabledisable-recording-transcription-for-users"></a>Включение и отключение записи транскрибирования для пользователей
+### <a name="turn-on-or-turn-off-recording-transcription"></a>Включить или отключить запись транскрибирования
 
 Когда пользователи запишите свои собрания групп, они убедитесь, ли сообщения автоматически будет создан после собрания. При отключении транскрибирования возможность для организатора собрания и инициатор записи администраторов инициатор записи не будет возможность переписать записи собрания.
 

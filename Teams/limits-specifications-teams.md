@@ -13,17 +13,17 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f50a41333956458b3db36a13b9133c1cabcc163d
-ms.sourcegitcommit: ee8996ce081039f61c070f5b0b3fd6294ea4a5f5
+ms.openlocfilehash: 65f3730cdb6ad8fbca6e8f665c5ce7e919c690e4
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "29561993"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594120"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 =============================================
 
-В этой статье описаны некоторые ограничения, спецификации и другие требования, применимые к группами Майкрософт. 
+В этой статье описаны некоторые ограничения, спецификации и другие требования, применимые к группам. 
 
 <a name="teams-and-channels"></a>Команды и каналы 
 ------------------

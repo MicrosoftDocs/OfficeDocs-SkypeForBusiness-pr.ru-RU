@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75cecfd5050ce964fd7b2dbc9dff97da2fb920b3
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 1817e11e0b628625aa1ae35695f60e2b80c4ab3c
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699751"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594264"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Начало работы с внедрением Microsoft Teams
 
@@ -30,7 +30,7 @@ ms.locfileid: "26699751"
 
 Перед началом работы убедитесь, что:
 
-- В вашей среде назначаются [группам включен](quick-start-enable-teams.md) и лицензий. В минимальные лицензий должна быть назначена основная группа и первыми, которые будут участвовать в этих статьях начального проекта.
+- [Устанавливается групп](get-clients.md) и [назначаются лицензии](office-365-licensing.md) в вашей среде. В минимальные лицензий должна быть назначена основная группа и первыми, которые будут участвовать в этих статьях начального проекта.
 
 - Загруженная настольных компьютеров и мобильных приложений. 
 

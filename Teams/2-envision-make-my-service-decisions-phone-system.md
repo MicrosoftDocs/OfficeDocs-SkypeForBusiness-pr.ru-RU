@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694761"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593968"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -135,7 +135,7 @@ ms.locfileid: "28694761"
 >[!NOTE]
 > Был реализован резервный механизм, чтобы служба голосовой почты Телефонной системы могла повторно отправлять сообщения по протоколу SMTP. Это значит, что пользователи с почтовым ящиком в сторонней почтовой системе смогут получать адресованные им сообщения голосовой почты. Этот механизм не содержит время работы гарантированной службы или других функций голосовой почты, такие как изменение приветствия голосовой почты.
 
-Дополнительные сведения о голосовой почты в реализации телефонной системы [голосовой почты УАТС Azure поддержки для Exchange Server](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans)см.
+Дополнительные сведения о голосовой почты в реализации телефонной системой можно [Телефонной системы с помощью вызова планов](calling-plan-landing-page.md).
 
 <br>
 

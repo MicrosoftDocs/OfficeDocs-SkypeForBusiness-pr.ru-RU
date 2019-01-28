@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b77f53398eda22ec2f3b7313d8c2b641228c5b5e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: d0b6940a2e58a0a459c6f7858c0d7bd19f53ca39
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349415"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594416"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -72,7 +72,7 @@ ms.locfileid: "29349415"
 
 - [Обзор Teams](Teams-overview.md)
 - [Сведения о рабочих групп и каналы](teams-channels-overview.md)
-- [Завершить технические планирования](quick-start-enable-teams.md#step-3-complete-technical-planning)
+- [Завершить технические планирования](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Управление системами Скайп комнаты](https://aka.ms/srsdocs)
 
 [В начало](#about-upgrade-basic)
