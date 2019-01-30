@@ -3,7 +3,7 @@ title: Начало перехода на Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/14/2019
+ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc428a6e4e256a38248e66a99d5a95b668e5eeb6
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 3881990e6c6906f59ceef2c2c4055399457d6952
+ms.sourcegitcommit: 784dcab3923adec61449b3b901e22a991f0c262d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562762"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29662472"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Начало перехода на Microsoft Teams
 
@@ -34,6 +34,8 @@ ms.locfileid: "29562762"
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Как Microsoft помогает пользователям с помощью их обновления групп? 
 
 Microsoft стремится успеха и обеспечивает надежную рекомендации, построенные вокруг framework проверенных, начала до конца успешности обновления, которые помогут вам спланировать и выполнить обновление для групп. Указаниям по предназначена для всех этапов обновления реализация ли вы начальном этапе планирования, уже выполняется группами наряду с Скайп для бизнеса, Готово к обновлению до группами.
+
+Чтобы облегчить процесс обновления планирования и реализации, корпорации Майкрософт размещается Бесплатное обучение, призванные быстро ознакомиться с нашей обновления инфраструктуры, совместно использовать представление о подготовке пользователей к обновлению и сориентироваться в различные возможности совместной работы организации может занять в поездке группам. Присоединяйтесь к нам для планирования сеанса Обзор обновления: [https://aka.ms/Upgrade101](https://aka.ms/upgrade101).
  
 ## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>Почему требуется обновление рекомендации? Не удается я только что delete/выводить из эксплуатации Скайп для бизнеса? 
 
