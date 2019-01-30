@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Германии.
-ms.openlocfilehash: 9bebb35762985245aa90f4feeed707ca38ca1464
-ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
+ms.openlocfilehash: e4e7240934b41e64f3b2d072788d2a270c8ff4f1
+ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27292935"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29651059"
 ---
 # <a name="phone-number-management-for-germany"></a>Управление номерами телефонов в Германии
 
@@ -39,11 +39,10 @@ ms.locfileid: "27292935"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получение нового номера телефонов пользователей, не указанные в Скайп по центру администрирования бизнеса.  <br/> | В Германии нельзя получить номера телефонов для организации с помощью Центра администрирования Skype для бизнеса. Необходимо отправить запрос на получение номеров телефонов. Во-первых Загрузите эту форму. <br/> [Запрос на получение новых номеров телефонов для Германии, географические номера телефонов, версия 3.0 на немецком (Германия)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de-de).pdf?raw=true) <br/> [Новый запрос номер телефона для Германии (географическое номера) (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br>Затем добавьте его в работе и [Отправить его "мне нравится"](mailto:ptneu@microsoft.com)  <br/> |
-|Получение нового номера телефонов службы, не указанные в Скайп по центру администрирования бизнеса. <br/> |Загрузить эту форму [новый запрос номер телефона для Германии (номера службы) (v.1.2) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/new-phone-number-request-for-germany-(service-numbers)-(v.1.2)-(de-de).pdf?raw=true)<br/> [Новый запрос номер телефона для Германии (номера службы) (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).
-|Необходимо получить номера телефонов, переданные нам.  <br/> | Загрузите одну из следующих форм. <br/> Для числа пользователей: <br/> [Доверенность для Германии, географические номера телефонов, версия 1.0 на немецком (Германия)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf?raw=true) <br/><br/> Для бесплатных номеров: <br/> [Буквы от авторизации (ЗАГРУ) для Германии (обслуживание бесплатных номеров) (v.2.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf?raw=true) <br/><br/> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
-|Необходимо опубликовать номера телефонов или отменить их публикацию в национальном телефонном справочнике.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
-|Необходимо заменить номер пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
+|Получение нового пользователя или службы телефонных номеров, не указанные в Скайп по центру администрирования бизнеса.  <br/> | В Германии нельзя получить номера телефонов для организации с помощью Центра администрирования Skype для бизнеса. Необходимо отправить запрос на получение номеров телефонов. Во-первых Загрузите эту форму. <br/> [Новый запрос номер телефона для Германии (v.4.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(de-de).pdf?raw=true) <br/> [Новый запрос номер телефона для Германии (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br>Затем заполните поля в работе и [Отправить его в корпорацию Майкрософт](mailto:ptneu@microsoft.com).  <br/> |
+|Получите телефонных номеров, передан в "мне нравится".  <br/> | Загрузите одну из следующих форм. <br/> Для числа пользователей: <br/> [Доверенность для Германии, географические номера телефонов, версия 1.0 на немецком (Германия)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf?raw=true) <br/><br/> Для бесплатных номеров: <br/> [Буквы от авторизации (ЗАГРУ) для Германии (обслуживание бесплатных номеров) (v.2.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf?raw=true) <br/><br/> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Публикация или Отмена публикации номера телефона в каталоге национальный телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
+|Изменение номера пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
    
 ## <a name="related-topics"></a>См. также:
 
