@@ -17,26 +17,28 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Получить требования для удаленного управления Скайп для бизнеса в Интернет с помощью Windows PowerShell, включая поддерживаемые операционные системы.
-ms.openlocfilehash: 001e8da26daaff65a1761519073667e530688243
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 01fa2856149bb7718fc34bb83f48e03a307496b8
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862596"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635631"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Настройка компьютера для Windows PowerShell
 
 Удаленное управление Скайп для бизнеса в Интернет с помощью Microsoft PowerShell поддерживается только в 64-разрядных компьютеров под управлением одной из следующих операционных систем:
-  
+
+- Windows Server 2016
+
 - Windows 10
     
 - Windows 8.1
     
 - Windows 8
     
-- Windows Server 2012 R2
+- Windows Server 2012 R2
     
-- Windows Server 2012
+- Windows Server 2012
     
 - Windows Server 2008
     
@@ -54,7 +56,7 @@ ms.locfileid: "23862596"
     
 - [Загрузка и установка Windows PowerShell 3.0](download-and-install-windows-powershell-3-0.md)
     
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Диагностика проблем подключения с Скайп для business online connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
