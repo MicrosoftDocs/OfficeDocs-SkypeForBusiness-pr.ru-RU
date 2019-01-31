@@ -30,7 +30,8 @@
 
 #### [Обновление AAD подключения для включения более одного леса](../hybrid/cloud-consolidation-aad-connect.md)
 
-### [Интеграция с Exchange и SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/hybrid/hybrid/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/breadcrumb/toc.json)
+### [Интеграция с Exchange и SharePoint](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+
 
 
 ## Планирование

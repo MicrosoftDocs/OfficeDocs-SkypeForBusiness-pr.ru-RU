@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Сведения о вопросы планирования для телефонной системой в Office 365 (облако УАТС), а также подключение к ТСОП в локальной.
-ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 978da546961188c54c7e08e2ed140f8d01986e44
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531604"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686474"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Планирование телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп Business Server
 
 Сведения о вопросы планирования для телефонной системой в Office 365 (облако УАТС), а также подключение к ТСОП в локальной.
 
-Этот контент относится, если вы уже Скайп Business Server или Lync Server 2013, развернутые локально. Остальные сценарии в разделе [Планирование телефонной системой в решение Office 365 (облако УАТС)](plan-your-phone-system-cloud-pbx-solution.md).
+Этот контент относится, если вы уже Скайп Business Server или Lync Server 2013, развернутые локально. Остальные сценарии в разделе [решения Майкрософт телефонной связи](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
  Система телефона в Office 365 с помощью подключения к ТСОП в локальной позволяет использовать возможности телефонной системой (облако УАТС) для пользователей. Это удобно в следующих сценариях.
 
@@ -105,12 +105,12 @@ ms.locfileid: "26531604"
     > [!NOTE]
     > Необходимо использовать версию AAD Connect не ниже 1.0.9125.0. Если вы используете более раннюю версию средств AAD Connect или DirSync, перейдите на поддерживаемую версию. Вы можете обновить текущую установку или сохранить все настраиваемые правила, определенные в среде. 
 
-- **Настройка гибридного развертывания** Ли все вашей Скайп для бизнес-пользователей в настоящий момент, размещенных либо через Интернет или локальной, или при наличии в настоящее время сочетание разных типов, как описано в [развертывания гибридного необходимо выполнить действий по настройке гибридного развертывания Скайп Business Server и Lync Server 2013 подключение между Скайп для Business Server и Скайп для бизнеса в Интернет](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Дополнительную информацию об гибридных развертываний в разделе [Планирование гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
+- **Настройка гибридного развертывания** Ли все вашей Скайп для бизнес-пользователей в настоящий момент, размещенных либо через Интернет или локальной, или при наличии в настоящее время сочетание разных типов, как описано в [развертывания гибридного необходимо выполнить действий по настройке гибридного развертывания Скайп Business Server и Lync Server 2013 подключение между Скайп для Business Server и Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Дополнительную информацию об гибридных развертываний в разделе [Планирование гибридного подключения между Скайп Business Server и Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
 
     При использовании Lync Server 2013 видеть [гибридной среды Lync Server 2013](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 
 - **Службы федерации Active Directory (AD FS) (рекомендуется)** Рекомендуется развертывание AD FS для поддержки единого входа. Для получения дополнительных сведений см [Служб федерации Active Directory (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
-Сведения о развертывании телефонной системой в Office 365 в разделе [Включить пользователей для телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп для Business Server](enable-users-for-phone-system.md).
+Сведения о развертывании телефонной системой в Office 365 см [телефонной системы в вашей организации](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 
