@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для (Гонконг).
-ms.openlocfilehash: 33f685d4e3da5b17395caffb5e6e09a9111cc9b8
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e25fd1bb12f3ee7e2e0f4aac236519bab37de483
+ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013467"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690551"
 ---
 # <a name="availability-in-hong-kong"></a>Доступность в (Гонконг)
 
@@ -43,7 +43,7 @@ ms.locfileid: "25013467"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Гонконг</ul> Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Доступно  <br/> |
    
