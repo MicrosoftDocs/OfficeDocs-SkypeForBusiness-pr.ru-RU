@@ -13,16 +13,16 @@ search.appverid: MET150
 description: Обучающие видеозаписи, учебные материалы и другие ресурсы для пользователей в вашей организации в изучении и работе групп.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4754a20c38c16c78744d44d78647f0efdede83e6
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 85500815e191363dcf8a5cd9b9c1cdd90aa769cd
+ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214445"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "29708554"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Обучение конечных пользователей для работы с Microsoft Teams
 
-Используйте следующие ресурсы обучения, чтобы помочь пользователям в вашей организации максимально эффективному использованию групп. 
+Используйте следующие ресурсы обучения, чтобы помочь пользователям в вашей организации максимально эффективному использованию групп.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -197,7 +197,7 @@ ms.locfileid: "27214445"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Публикации о & сообщения</h3>
+                        <h3>Отправляет сообщения &</h3>
                          <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Видео: Создание и форматирование post</a></p>
                          <p><a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Видео: Получение внимания с @mentions</a></p>
                          <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Видео: Сохранение сообщение или сообщение</a></p>
@@ -210,7 +210,7 @@ ms.locfileid: "27214445"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Бесед, звонков и собраний</h3>
+                        <h3>Конференции, вызовы & собраний</h3>
                        <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">Видео: Запустите чаты и выполнения звонков</a></p>
                        <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">Видео: Создание мгновенного собраний с удовлетворение</a></p>
                        <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">Видео: Управление собраний</a></p>
@@ -224,7 +224,7 @@ ms.locfileid: "27214445"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Приложения и средства</h3>
+                        <h3>Средства & приложений</h3>
                         <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Видео: Добавление средств с вкладками</a></p>
                         <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">Видео: Перевод файла в вкладки</a></p>
                         <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Видео: Использование поле Команда</a></p>
@@ -251,8 +251,8 @@ ms.locfileid: "27214445"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Ссоветы и рекомендации по группам</h3>
-                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Статья: Групп советы и рекомендации</a></p>
+                        <h3>Рекомендации & советы по группам</h3>
+                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Статьи: Рекомендации & советы по группам</a></p>
                     </div>
                 </div>
             </div>
