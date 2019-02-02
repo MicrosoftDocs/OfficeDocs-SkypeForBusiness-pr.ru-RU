@@ -302,6 +302,11 @@
 ### [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Настройка множества клиентов в пограничном контроллере сеансов](direct-routing-sbc-multiple-tenants.md)
 ### [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
+### Маршрутизация на основе расположения
+#### [Терминология маршрутизации на основе расположения](location-based-routing-terminology.md)
+#### [Планирование зависимостью от расположения маршрутизации для непосредственного](location-based-routing-plan.md)
+#### [Настройка параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
+#### [Включение зависимостью от расположения маршрутизации для непосредственного](location-based-routing-enable.md)
 ### Технический справочник по прямой маршрутизации
 #### [Отработка отказа канала связи при исходящих звонках](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -641,6 +646,7 @@
 
 ## Группы конструкторов firstline сотрудников
 ### [Управление приложение смены для вашей организации в группах](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Начало работы с группами розничной шаблонов](get-started-with-retail-teams-templates.md)
 
 ## [Планирование для государственных учреждений Microsoft 365 - GCC](plan-for-government-gcc.md)
 ### [Планирование для государственных учреждений Microsoft 365 - GCC высокой](plan-for-government-gcc-high.md)
