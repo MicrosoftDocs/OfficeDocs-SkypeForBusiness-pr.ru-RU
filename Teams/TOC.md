@@ -21,6 +21,7 @@
 ## [Назначение владельцев и участников команд в Microsoft Teams](assign-roles-permissions.md)
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ## [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
+## [Что системы обмена сообщениями политики?](messaging-policies-in-teams.md)
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
@@ -52,6 +53,7 @@
 ### [Использование PowerShell для управления гостевым доступом в команде](guest-access-PowerShell.md)
 ### [Контрольный список доступа гостя](guest-access-checklist.md)
 
+## [Внешний доступ (федерации)](manage-external-access.md)
 
 ## [Управление группами](using-admin-roles.md)
 ### [Управление функциями группами в организации](enable-features-office-365.md)
@@ -114,7 +116,6 @@
 # [Конференц-связи & собраний](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Управление параметрами собраний](meeting-settings-in-teams.md)
-## [Что системы обмена сообщениями политики?](messaging-policies-in-teams.md)
 ## [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Включение и отключение объявлений о входе и выходе в собраниях](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)

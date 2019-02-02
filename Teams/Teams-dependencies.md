@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Управление функциями и возможностями гостевого доступа Microsoft Teams ведется с помощью четырех разных уровней авторизации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e07bfc162f2d3fbc59aa26dcf2cabd1bcf003e74
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 396650240c1d7b10e2fd6716ec52c13a649839e5
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772787"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706325"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Авторизация гостевого доступа в Microsoft Teams
 ===========================================
@@ -116,3 +116,6 @@ Azure AD имеются следующие параметры для настр�
 
 Вы можете управлять параметрами внешних пользователей SharePoint Online для подключенного к Teams сайта группы. Дополнительные сведения см. в статье [Управление параметрами для сайта группы SharePoint](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).
 
+## <a name="guest-access-vs-external-access-federation"></a>Доступ в качестве гостя и внешнего доступа (федерации)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

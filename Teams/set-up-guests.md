@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42fead56b8064d2697ca4e8b115eefd0116a5e36
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: bc01f54229e5a2644fc004b4014ad41e3c0f8d73
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772763"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706261"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Включение и отключение гостевого доступа для Microsoft Teams
 ======================================
@@ -28,13 +28,16 @@ ms.locfileid: "27772763"
 
 Параметры гостей задаются в Azure Active Directory. Чтобы эти изменения вступили в силу в рамках всей организации Office 365, требуется от 2 до 24 часов. Если появляется сообщение об «Обратитесь к администратору» при попытке добавить гостя в свои группы, вероятнее всего, что функция гостя не включена или параметры еще не эффективной.
 
-
 > [!IMPORTANT]
 > Чтобы полностью включить все возможности гостевого доступа, важно понять основную зависимость между Microsoft Teams, Azure Active Directory и Office 365. Дополнительные сведения см. в статье [Авторизация гостевого доступа в Microsoft Teams](Teams-dependencies.md).
 
-## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Настройка доступа к гостевой в группы & Скайп по центру администрирования бизнеса
+## <a name="guest-access-vs-external-access-federation"></a>Доступ в качестве гостя и внешнего доступа (федерации)
 
-1.  Войдите в группы & Скайп по центру администрирования бизнеса.
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Настройка доступа в & группы Скайп по центру администрирования Business
+
+1.  Войдите в & группы Скайп по центру администрирования бизнеса.
 
 2.  Выберите пункт **Параметры масштабе организации** > **доступ в качестве гостя**.
 
@@ -102,7 +105,7 @@ ms.locfileid: "27772763"
     ```
 Теперь можно создать гостевых пользователей в группах для вашей организации.
 
-## <a name="more-information"></a>Подробная информация
+## <a name="more-information"></a>Дополнительная информация
 
 В следующем видео для получения дополнительных сведений о доступ в качестве гостя.
 
