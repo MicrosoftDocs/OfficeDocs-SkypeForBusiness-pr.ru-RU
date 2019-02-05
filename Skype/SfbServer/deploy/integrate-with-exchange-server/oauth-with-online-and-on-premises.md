@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Настройка OAuth проверки подлинности между Exchange при локальном и Скайп для бизнеса в Интернет позволяет Скайп для бизнеса и интеграция с Exchange, описанными в поддержка функции.
-ms.openlocfilehash: d4c7e491b43b457c96a69ebba1ea808054346d98
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f6108842f827cbb9cfb6761495c4787ed2b7868b
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373873"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735176"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>Настройка подключения по протоколу OAuth между Skype для бизнеса Online и локальной системой Exchange
 
@@ -30,7 +30,7 @@ ms.locfileid: "25373873"
 
 -  Перед выполнением этих процедур вы должны получить разрешения. Какие нужны разрешения см в разделе [Exchange and Shell infrastructure permissions](https://go.microsoft.com/fwlink/p/?LinkId=746511) .
 
-- Сведения о сочетаниях клавиш, которые могут относиться к процедур, описанных в этом разделе содержатся [сочетаний клавиш в центре администрирования Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
+- Информацию о сочетаниях клавиш, которые могут относиться к процедурам в этом разделе, см. в разделе [Сочетания клавиш в центре администрирования Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
 ## <a name="configure-oauth-authentication-between-your-on-premises-exchange-and-skype-for-business-organizations"></a>Настройка проверки подлинности OAuth между локальным Exchange и организациями Skype для бизнеса
 
@@ -52,7 +52,7 @@ New-AuthServer -Name "WindowsAzureACS" -AuthMetadataUrl "https://accounts.access
 Get-PartnerApplication | ?{$_.ApplicationIdentifier -eq "00000002-0000-0ff1-ce00-000000000000" -and $_.Realm -eq ""} | Set-PartnerApplication -Enabled $true
 ```
 
-### <a name="step-3-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Шаг 3. Создайте новую учетную запись пользователя почты для партнерского приложения Skype для бизнеса Online
+### <a name="step-3-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Шаг 3. Создайте новую учетную запись пользователя почты для партнерского приложения Skype для бизнеса Online 
 
 Этот шаг выполняется локально. На этом шаге создается пользователь почты, которому назначаются соответствующие права роли управления. Затем эта учетная запись используется на следующем шаге.
 
@@ -78,7 +78,7 @@ New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainC
 New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
-### <a name="step-4-create-and-enable-a-partner-application-for-skype-for-business-online"></a>Шаг 4. Создайте и активируйте партнерское приложение для Skype для бизнеса Online
+### <a name="step-4-create-and-enable-a-partner-application-for-skype-for-business-online"></a>Шаг 4. Создайте и активируйте партнерское приложение для Skype для бизнеса Online 
 
 Создайте новое партнерское приложение и начните использовать созданную учетную запись. Выполните следующую команду в Exchange PowerShell в своей локальной организации Exchange.
 
@@ -126,7 +126,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
    $cer.Import($CertFile);
    $binCert = $cer.GetRawCertData();
    $credValue = [System.Convert]::ToBase64String($binCert);
-   $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+   $ServiceName = "00000004-0000-0ff1-ce00-000000000000";
    $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
    New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```

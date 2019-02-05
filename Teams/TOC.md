@@ -23,6 +23,7 @@
 ## [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
 ## [Что системы обмена сообщениями политики?](messaging-policies-in-teams.md)
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
+## [Начало работы с шаблонами здравоохранения группами Майкрософт](healthcare/healthcare-templates.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
 ## [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
