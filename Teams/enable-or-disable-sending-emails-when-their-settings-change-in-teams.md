@@ -20,77 +20,78 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, как включить или отключить в Skype отправку сообщений пользователям при изменении таких настроек, как ПИН-код или номер по умолчанию для конференц-связи в Microsoft Teams. '
-ms.openlocfilehash: 2c082410f7acf000473e001f46587025edd6e9c7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5f0573a0dec22791bd49eeeb6be6235ae2838c70
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015543"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754139"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a><span data-ttu-id="bbf6e-103">Включение и отключение отправки сообщений электронной почты при изменении настроек аудиоконференций в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="bbf6e-103">Enable or disable sending emails when Audio Conferencing settings change in Microsoft Teams</span></span>
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a><span data-ttu-id="514e7-103">Включение и отключение отправки сообщений электронной почты при изменении настроек аудиоконференций в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="514e7-103">Enable or disable sending emails when Audio Conferencing settings change in Microsoft Teams</span></span>
 
-<span data-ttu-id="bbf6e-104">Пользователи автоматически получают уведомления по электронной почте, если они активированы для аудиоконференций.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-104">Users are automatically notified by email when they are enabled for Audio Conferencing.</span></span> <span data-ttu-id="bbf6e-105">Возможны ситуации, тем не менее, чтобы сократить число сообщений электронной почты, отправленных в Microsoft группам пользователей.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-105">There may be times, however, when you want to reduce the number of emails that are sent to Microsoft Teams users.</span></span> <span data-ttu-id="bbf6e-106">В этом случае можно отключить функцию отправки сообщений по электронной почте.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-106">In such cases, you can disable sending email.</span></span>
+<span data-ttu-id="514e7-104">Если пользователи активированы для участия в аудиоконференциях, они автоматически получают уведомление по электронной почте.</span><span class="sxs-lookup"><span data-stu-id="514e7-104">Users are automatically notified by email when they are enabled for Audio Conferencing.</span></span> <span data-ttu-id="514e7-105">В некоторых случаях потребуется сократить количество уведомлений по электронной почте.</span><span class="sxs-lookup"><span data-stu-id="514e7-105">There may be times, however, when you want to reduce the number of emails that are sent to Microsoft Teams users.</span></span> <span data-ttu-id="514e7-106">Для этого можно отключить отправку сообщений.</span><span class="sxs-lookup"><span data-stu-id="514e7-106">In such cases, you can disable sending email.</span></span>
   
-<span data-ttu-id="bbf6e-107">Если отправка уведомлений по электронной почте отключена, пользователи не будут получать сообщения аудиоконференций, включая сообщения о разрешении/запрете на использование аудиоконференций, а также о сбросе ПИН-кода и изменении идентификатора конференции или телефонного номера для конференц-связи по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-107">If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.</span></span>
+<span data-ttu-id="514e7-107">Если отправка уведомлений по электронной почте отключена, пользователи не будут получать сообщения аудиоконференций, включая сообщения о разрешении/запрете на использование аудиоконференций, а также о сбросе ПИН-кода и изменении идентификатора конференции или телефонного номера для конференц-связи по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="514e7-107">If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.</span></span>
   
-<span data-ttu-id="bbf6e-108">Ниже приведен пример сообщения, отправляемого пользователям, для которых разрешены аудиоконференции:</span><span class="sxs-lookup"><span data-stu-id="bbf6e-108">Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:</span></span>
+<span data-ttu-id="514e7-108">Ниже приведен пример сообщения, отправляемого пользователям, для которых разрешены аудиоконференции:</span><span class="sxs-lookup"><span data-stu-id="514e7-108">Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:</span></span>
   
 ![Сообщение электронной почты относительно аудиоконференции](media/audio-conferencing-user-enabled.png)
   
-## <a name="when-are-emails-being-sent-to-your-users"></a><span data-ttu-id="bbf6e-110">Когда сообщения отправляются пользователям по электронной почте?</span><span class="sxs-lookup"><span data-stu-id="bbf6e-110">When are emails being sent to your users?</span></span>
+## <a name="when-are-emails-being-sent-to-your-users"></a><span data-ttu-id="514e7-110">Когда сообщения отправляются пользователям по электронной почте?</span><span class="sxs-lookup"><span data-stu-id="514e7-110">When are emails being sent to your users?</span></span>
 
-- <span data-ttu-id="bbf6e-111">Когда пользователям в вашей организации разрешены аудиоконференции, им направляется несколько сообщений электронной почты в следующих случаях.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-111">There are several emails that are sent to users in your organization after they are enabled for audio conferencing:</span></span>
+- <span data-ttu-id="514e7-111">Когда пользователям в вашей организации разрешены аудиоконференции, им направляется несколько сообщений электронной почты в следующих случаях.</span><span class="sxs-lookup"><span data-stu-id="514e7-111">There are several emails that are sent to users in your organization after they are enabled for audio conferencing:</span></span>
     
-  - <span data-ttu-id="bbf6e-112">При назначении пользователям лицензии **аудиоконференций**.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-112">When an **Audio Conferencing** license is assigned to them.</span></span>
+  - <span data-ttu-id="514e7-112">При назначении пользователям лицензии **аудиоконференций**.</span><span class="sxs-lookup"><span data-stu-id="514e7-112">When an **Audio Conferencing** license is assigned to them.</span></span>
     
-  - <span data-ttu-id="bbf6e-113">Сброс ПИН-кода аудиоконференции пользователя вручную.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-113">When you manually reset the user's audio conferencing PIN.</span></span>
+  - <span data-ttu-id="514e7-113">Сброс ПИН-кода аудиоконференции пользователя вручную.</span><span class="sxs-lookup"><span data-stu-id="514e7-113">When you manually reset the user's audio conferencing PIN.</span></span>
     
-  - <span data-ttu-id="bbf6e-114">Сброс идентификатора конференции пользователя вручную.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-114">When you manually reset the user's conference ID.</span></span>
+  - <span data-ttu-id="514e7-114">Сброс идентификатора конференции пользователя вручную.</span><span class="sxs-lookup"><span data-stu-id="514e7-114">When you manually reset the user's conference ID.</span></span>
     
-  - <span data-ttu-id="bbf6e-115">Если удаляется лицензия  **Аудиоконференции**.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-115">When the **Audio Conferencing** license is removed from them.</span></span>
+  - <span data-ttu-id="514e7-115">Если удаляется лицензия  **Аудиоконференции**.</span><span class="sxs-lookup"><span data-stu-id="514e7-115">When the **Audio Conferencing** license is removed from them.</span></span>
     
-  - <span data-ttu-id="bbf6e-116">Изменение поставщика услуг аудиоконференций с Майкрософт на другого поставщика или на значение **Нет**.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-116">When the audio conferencing provider of a user is changed from Microsoft to another provider or **None**.</span></span>
+  - <span data-ttu-id="514e7-116">Изменение поставщика услуг аудиоконференций с Майкрософт на другого поставщика или на значение **Нет**.</span><span class="sxs-lookup"><span data-stu-id="514e7-116">When the audio conferencing provider of a user is changed from Microsoft to another provider or **None**.</span></span>
     
-  - <span data-ttu-id="bbf6e-117">Изменение поставщика услуг аудиоконференций на Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-117">When the audio conferencing provider of a user is changed to Microsoft.</span></span>
+  - <span data-ttu-id="514e7-117">Изменение поставщика услуг аудиоконференций на Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="514e7-117">When the audio conferencing provider of a user is changed to Microsoft.</span></span>
 
 
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a><span data-ttu-id="bbf6e-118">Включение или отключение отправки сообщения пользователям</span><span class="sxs-lookup"><span data-stu-id="bbf6e-118">Enable or disable email from being sent to users</span></span>
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a><span data-ttu-id="514e7-118">Включение или отключение отправки сообщения пользователям</span><span class="sxs-lookup"><span data-stu-id="514e7-118">Enable or disable email from being sent to users</span></span>
 
-<span data-ttu-id="bbf6e-119">Вы можете использовать Microsoft Teams или Windows PowerShell, чтобы включить или отключить отправку сообщения пользователям.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-119">You can use Microsoft Teams or Windows PowerShell to enable or disable email sent to users.</span></span>
+<span data-ttu-id="514e7-119">Вы можете использовать Microsoft Teams или Windows PowerShell, чтобы включить или отключить отправку сообщения пользователям.</span><span class="sxs-lookup"><span data-stu-id="514e7-119">You can use Microsoft Teams or Windows PowerShell to enable or disable email sent to users.</span></span>
 
-<span data-ttu-id="bbf6e-120">![teams-logo-30x30.png](media/teams-logo-30x30.png) **С помощью Microsoft Teams и Центра администрирования Skype для бизнеса**</span><span class="sxs-lookup"><span data-stu-id="bbf6e-120">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**</span></span>
-1. <span data-ttu-id="bbf6e-121">На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-121">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+<span data-ttu-id="514e7-120">![команды логотип 30x30.png](media/teams-logo-30x30.png) **с помощью центра администрирования группами Майкрософт**</span><span class="sxs-lookup"><span data-stu-id="514e7-120">![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-2. <span data-ttu-id="bbf6e-122">В верхней части страницы **Мосты конференц-связи** щелкните **Настройки моста**.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-122">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
+1. <span data-ttu-id="514e7-121">На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.</span><span class="sxs-lookup"><span data-stu-id="514e7-121">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-3. <span data-ttu-id="bbf6e-123">В области **Настройки моста** включите или отключите настройку **Автоматически отправлять пользователям электронные письма при изменении их настроек телефонного подключения**.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-123">In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.</span></span>
+2. <span data-ttu-id="514e7-122">В верхней части страницы **Мосты конференц-связи** щелкните **Настройки моста**.</span><span class="sxs-lookup"><span data-stu-id="514e7-122">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
 
-4. <span data-ttu-id="bbf6e-124">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-124">Click **Save**.</span></span>
+3. <span data-ttu-id="514e7-123">В области **Настройки моста** включите или отключите настройку **Автоматически отправлять пользователям электронные письма при изменении их настроек телефонного подключения**.</span><span class="sxs-lookup"><span data-stu-id="514e7-123">In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.</span></span>
+
+4. <span data-ttu-id="514e7-124">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="514e7-124">Click **Save**.</span></span>
 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-<span data-ttu-id="bbf6e-125">**Использование Windows PowerShell**</span><span class="sxs-lookup"><span data-stu-id="bbf6e-125">**Using Windows PowerShell**</span></span>
+<span data-ttu-id="514e7-125">**Использование Windows PowerShell**</span><span class="sxs-lookup"><span data-stu-id="514e7-125">**Using Windows PowerShell**</span></span>
   
-<span data-ttu-id="bbf6e-126">Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="bbf6e-126">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="514e7-126">Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="514e7-126">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
 
     
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="bbf6e-127">Хотите узнать больше о Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="bbf6e-127">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="514e7-127">Хотите узнать больше о Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="514e7-127">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="bbf6e-p102">Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.</span><span class="sxs-lookup"><span data-stu-id="bbf6e-p102">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="514e7-p102">Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.</span><span class="sxs-lookup"><span data-stu-id="514e7-p102">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="bbf6e-131">Шесть причин использовать Windows PowerShell для управления Office 365</span><span class="sxs-lookup"><span data-stu-id="bbf6e-131">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="514e7-131">Шесть причин использовать Windows PowerShell для управления Office 365</span><span class="sxs-lookup"><span data-stu-id="514e7-131">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="bbf6e-132">Лучшие способы управления Office 365 с помощью Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="bbf6e-132">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="514e7-132">Лучшие способы управления Office 365 с помощью Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="514e7-132">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="bbf6e-133">Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="bbf6e-133">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="514e7-133">Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="514e7-133">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
     
   
-## <a name="related-topics"></a><span data-ttu-id="bbf6e-134">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="bbf6e-134">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="514e7-134">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="514e7-134">Related topics</span></span>
 
-[<span data-ttu-id="bbf6e-135">Сообщения электронной почты, отправляемые пользователям при изменении их настроек аудиоконференций</span><span class="sxs-lookup"><span data-stu-id="bbf6e-135">Emails sent to users when their Audio Conferencing settings change</span></span>](emails-sent-to-users-when-their-settings-change-in-teams.md)
+[<span data-ttu-id="514e7-135">Сообщения электронной почты, отправляемые пользователям при изменении их настроек аудиоконференций</span><span class="sxs-lookup"><span data-stu-id="514e7-135">Emails sent to users when their Audio Conferencing settings change</span></span>](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
-[<span data-ttu-id="bbf6e-136">Отправка пользователю сообщения электронной почты со сведениями об аудиоконференции</span><span class="sxs-lookup"><span data-stu-id="bbf6e-136">Send an email to a user with their Audio Conferencing information</span></span>](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+[<span data-ttu-id="514e7-136">Отправка пользователю сообщения электронной почты со сведениями об аудиоконференции</span><span class="sxs-lookup"><span data-stu-id="514e7-136">Send an email to a user with their Audio Conferencing information</span></span>](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
 

@@ -58,8 +58,8 @@
 
 ## [Управление группами](using-admin-roles.md)
 ### [Управление функциями группами в организации](enable-features-office-365.md)
-### [Управление Teams при переходе на Центр администрирования Microsoft Teams и Skype для бизнеса](manage-teams-skypeforbusiness-admin-center.md)
-### [Управление группами в Скайп & группами Майкрософт по центру администрирования бизнеса](manage-teams-in-modern-portal.md)
+### [Управление группами во время перехода к центру администрирования новых групп Майкрософт](manage-teams-skypeforbusiness-admin-center.md)
+### [Управление группами в центре администрирования группами Майкрософт](manage-teams-in-modern-portal.md)
 ### [Назначение группы владельцев и членов в группы](assign-roles-permissions.md)
 ### [Настройка собрания Скайп приложение для работы с группами](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
