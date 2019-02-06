@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Получите действий, необходимых для изменения параметров конференц-канал, используемый для запрашивать абонентов и сбор имена и ПИН-коды для организаторам собрания, когда они не используют Скайп для бизнеса или группами Майкрософт приложений. '
-ms.openlocfilehash: 4c9a932a8ae084466756d2af5f72874d274aea2e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c6e4a0e04b1e63e02dd477e1c1d2e70cc7234052
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371622"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754722"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение параметров моста аудиоконференций
 
@@ -43,7 +43,7 @@ ms.locfileid: "25371622"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![команды логотип 30x30.png](media/teams-logo-30x30.png) С помощью центра администрирования группами Майкрософт
 
 1. В левой области переходов, перейдите к **собраниям** > **мостов конференции**. 
 
@@ -86,7 +86,7 @@ ms.locfileid: "25371622"
   
    - **ASK абонентов записать их имя перед присоединением к собранию** Этот флажок установлен по умолчанию. Если снять этот флажок, вызывающие объекты не будет предложено записать их имя перед их присоединиться к собранию.
     
-3. После внесения изменений нажмите кнопку **Сохранить**.
+3. См. статью **Изменение параметров моста аудиоконференций**.
     
 **Задать длину ПИН-кода для собраний**
   

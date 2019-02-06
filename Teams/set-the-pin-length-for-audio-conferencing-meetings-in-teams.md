@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Узнайте, параметров длины и требования к ПИН-кода и узнайте, как задать длину для собраний в группах Майкрософт.
-ms.openlocfilehash: 94be2277b631df9e8c65c9ce2936faeb961a42d7
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 437de07454e3421c793ed652f9124df2aea55478
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531338"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754537"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Установка длины ПИН-кода для собраний аудиоконференций в Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "26531338"
   
 ## <a name="setting-the-pin-length"></a>Настройка длины ПИН-кода
 
-![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
+![команды логотип 30x30.png](media/teams-logo-30x30.png) **с помощью центра администрирования группами Майкрософт**
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 

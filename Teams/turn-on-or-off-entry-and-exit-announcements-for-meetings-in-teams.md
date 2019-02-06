@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о включении и отключении оповещений о подключении к собранию и выходе из него в Microsoft Teams. '
-ms.openlocfilehash: 1bddd07cc251f031daf85c077601c0e670038300
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: a82c1dcea0d1fa8d6eced0a22ad01b2463842f73
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347524"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754123"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Включение и отключение оповещений о подключении к собраниям и выходе из них в Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "25347524"
   
 ## <a name="setting-meeting-join-options"></a>Настройка способов присоединения к собранию
 
-![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
+![команды логотип 30x30.png](media/teams-logo-30x30.png) **с помощью центра администрирования группами Майкрософт**
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 

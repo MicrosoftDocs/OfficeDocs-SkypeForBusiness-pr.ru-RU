@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, какая информация автоматически передается пользователям по электронной почте при изменении их настроек конференц-связи с телефонным подключением в Microsoft Teams. '
-ms.openlocfilehash: 95c0988c208c0a4796872cd835f56fb0644e97c5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: db9b2c2d99aad64bd9d607e5acbac99afc36d978
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372229"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754675"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Сообщения электронной почты, отправляемые пользователям при изменении их настроек в Microsoft Teams
 
@@ -85,7 +85,7 @@ ms.locfileid: "25372229"
 
 По умолчанию сообщения отправляются пользователям, но вы можете отключить сообщения по аудиоконференциям с помощью Microsoft Teams или Windows PowerShell. 
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **С помощью Microsoft Teams и Центра администрирования Skype для бизнеса**
+![команды логотип 30x30.png](media/teams-logo-30x30.png) **с помощью центра администрирования группами Майкрософт**
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 

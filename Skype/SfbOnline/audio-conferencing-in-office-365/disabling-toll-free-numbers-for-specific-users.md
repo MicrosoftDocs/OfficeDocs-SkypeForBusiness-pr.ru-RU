@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Администраторы управляют тем, как организаторы могут использовать бесплатные номера для их собраний.
-ms.openlocfilehash: 0ee8274dd30b246da513d0597bf39964b94be8ca
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: f553cc3abad8f4490d06099554c188881ef47e24
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678159"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753761"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Отключение бесплатных номеров для определенных пользователей Skype для бизнеса Online
  
@@ -48,7 +48,7 @@ By default, all users in your organization are enabled for using toll-free numbe
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для определенных пользователей 
 
-С **группами Майкрософт & Скайп по центру администрирования бизнеса**:
+Из **центра администрирования группами Майкрософт**:
 
 1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
 

@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Чтобы перенести или передать телефонные номера со Skype для бизнеса Online на другого поставщика или оператора услуг телефонной связи, необходимо вручную задать ПИН-код. После установки ПИН-кода необходимо указать его при запросе переноса телефонного номера.
-ms.openlocfilehash: 3a3744a4b1272bab987add10039c89c6e3983927
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
+ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347094"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753457"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Установка PIN-кода для передачи номеров новому поставщику услуг
 
-Чтобы передать или *перенести*  телефонные номера со Skype для бизнеса Online на другого поставщика или оператора услуг телефонной связи, необходимо вручную задать ПИН-код. После установки ПИН-кода необходимо указать его при запросе переноса телефонного номера. 
+To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. 
   
 > [!IMPORTANT]
 > ПИН-код переноса используется только для организаций в США. 
@@ -55,7 +55,7 @@ ms.locfileid: "25347094"
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Последовательно выберите пункты **группами Майкрософт и Скайп по центру администрирования Business** > **портала прежних версий**.
+2. Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.
     
 3. В левой панели навигации выберите **Voice** > **заказов на порт**.
     

@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e66005ca69a08cd0cf944455e73c155d20bfea9
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 0aa397b7a859e24beaf5f8455ef054b7d5a18222
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593928"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753620"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams
 ==============================================================
@@ -48,7 +48,7 @@ ms.locfileid: "29593928"
 > Разрешить пользователям mand и принимать звонки по ТСОП можно также использовать прямой маршрутизации. Чтобы узнать, как настроить прямой маршрутизации, прочитайте [Настройка прямой маршрутизации](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
 
 ## <a name="teams-interop-policy-configuration"></a>Настройка политики взаимодействия Teams
-Для включения групп начать принимать звонки, вам потребуется обновить команды обновления и политики группы взаимодействия, с помощью [групп Майкрософт & Скайп по центру администрирования бизнеса](https://aka.ms/teamsadmincenter) или с помощью удаленного сеанса Windows PowerShell с Скайп для бизнеса [ `*-CsTeamsUpgradePolicy`и `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) командлеты, можно настроить переадресацию звонков для группы.
+Чтобы включить команды начать принимать звонки, вам потребуется обновить команды обновления и политики группы взаимодействия, с помощью [центра администрирования группами Майкрософт](https://aka.ms/teamsadmincenter) или с помощью удаленного сеанса Windows PowerShell с Скайп для бизнеса [ `*-CsTeamsUpgradePolicy` и `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) командлеты, можно настроить переадресацию звонков для группы.
 
 Дополнительные сведения о политике обновления группы и политики взаимодействия команды можно [миграции и руководство по взаимодействию для организаций, с помощью команды Скайп для бизнеса](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
@@ -90,7 +90,7 @@ ms.locfileid: "29593928"
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
-Если выбрано использование обновленного обновления политики групп, им необходимо назначить TeamsOnly режима для пользователей.
+Если выбрано использование обновленного обновления политики групп, им необходимо назначить групп только в режиме для пользователей.
 
 Приведенная выше политика действует следующим образом.
 * **Для существующих клиентов Skype для бизнеса** эта политика будет перенаправлять входящие звонки в Teams. В их число входят звонки по VoIP (из Teams и Skype для бизнеса) и звонки по ТСОП. 
@@ -104,7 +104,7 @@ ms.locfileid: "29593928"
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-Если вы решите использовать режим TeamsOnly, можно изменить режим сосуществования пользователя TeamsOnly, путем группами Майкрософт & Скайп по центру администрирования бизнеса, или с помощью Скайп для бизнеса удаленного сеанса Windows PowerShell можно настроить переадресацию звонков для группы:
+Если выбрано использование групп только в режиме можно изменить режим сосуществования пользователя к группам только с помощью центра acmin группами Майкрософт или с помощью Скайп для бизнеса удаленного сеанса Windows PowerShell можно настроить переадресацию звонков для группы:
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com

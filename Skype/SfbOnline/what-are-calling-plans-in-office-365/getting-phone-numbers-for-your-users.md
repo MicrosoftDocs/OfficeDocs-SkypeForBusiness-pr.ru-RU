@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: " Узнайте, как получать новые или переносить уже существующие телефонные номера для Skype для бизнеса, а также как показать изменения вашим пользователям. "
-ms.openlocfilehash: eafbb4a302bc47375bc91b3d79ba6a49196a77be
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
+ms.openlocfilehash: 6e896d520d42ea9df512d791377bbcd2007003d8
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370739"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753771"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Получение телефонных номеров для пользователей
 
@@ -34,11 +34,11 @@ ms.locfileid: "25370739"
   
 Есть три способа получить новые номера пользователей:
 
-- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
+- **Используйте Скайп по центру администрирования бизнеса.** В некоторых странах или регионах можно получить номера для ваших пользователей с помощью Центра администрирования Skype для бизнеса. См. статью [Получение телефонных номеров для ваших пользователей](getting-phone-numbers-for-your-users.md).
     
-- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
+- **Портируйте номера, которые у вас уже есть.** Вы можете порта или перенос существующих номеров из текущего поставщика услуг или телефон поставщика в Office 365. Для получения дополнительных полезных сведений о том, как это сделать, см. статью [Перемещение телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) или [Управление телефонными номерами вашей организации](/microsoftteams/manage-phone-numbers-for-your-organization).  
   
-- **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
+- **Используйте форму запроса для новых номеров.** В некоторых случаях (в зависимости от страны или региона) не будут иметь возможность получать новые телефонных номеров с помощью Скайп по центру администрирования бизнес или вам потребуется номера телефона или код области. В таких случаях необходимо скачать соответствующую форму, заполнить ее и отправить в нашу службу поддержки. Для получения дополнительных сведений см. статью [Управление номерами телефонов для вашей организации](/microsoftteams/manage-phone-numbers-for-your-organization).
     
 Необходимо воспользоваться страницей **Добавление новых пользовательских номеров** для просмотра, поиска, получения и резервирования этих номеров. Можно выполнить поиск по атрибутам **Страна или регион**, **Область** и **Город**, а затем ввести номера телефонов, которые потребуются для пользователей.
   
@@ -51,7 +51,7 @@ ms.locfileid: "25370739"
   
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Последовательно выберите пункты **группами Майкрософт и Скайп по центру администрирования Business** > **портала прежних версий**.
+2. Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.
     
 3. В левой панели навигации выберите пункты **голосовой связи** > **телефонных номеров**, нажмите кнопку **Добавить новый номер** ![кнопку Добавить](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)и нажмите кнопку **новый количество пользователей**.
     
@@ -76,11 +76,11 @@ ms.locfileid: "25370739"
 7. Выберите номера телефонов и нажмите **Получить номера**.
     
     > [!IMPORTANT]
-    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and/or **Domestic and International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get). If you need to get more telephone numbers than this, please contact [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+    > Количество телефонных номеров для пользователей (подписчиков) равно общему количеству лицензий **Тарифного плана внутренних звонков** и/или **Тарифного плана внутренних и международных звонков**, умноженного на 1,1, плюс 10 дополнительных номеров телефонов. Например, при наличии в общей совокупности 50 пользователей с тарифным планом внутренних и/или внутренних и международных звонков вы можете получить **65** телефонных номеров **(50 x 1,1 + 10)**. Дополнительные сведения см [Сколько номеров телефонов можно получить?](/microsoftteams/how-many-phone-numbers-can-you-get). Если вам нужно больше номеров, [Обращение в службу поддержки Office 365 для бизнеса: справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
    **Перенос номеров от вашего поставщика услуг или оператора телефонной связи.**
   
-- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) to transfer your phone numbers over to Skype for Business Online.
+- Если требуется 999 и менее телефонных номеров, можно использовать мастер **Заказ на перенос нового номера** в центре администрирования Skype для бизнеса. Выполните шаги, описанные в [передачи телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) для передачи номера телефонов через Скайп для бизнеса в Интернет.
     
 - Если требуется более 999 номеров телефонов, см. [Отправка пользовательского запроса на обслуживание](manually-submit-a-custom-service-request.md) для подтверждения запроса на обслуживание или заказа на перенос всех номеров в Office 365.
     
@@ -90,7 +90,7 @@ ms.locfileid: "25370739"
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Последовательно выберите пункты **группами Майкрософт и Скайп по центру администрирования Business** > **портала прежних версий**.
+2. Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.
     
 3. На панели навигации слева перейдите в раздел **Голосовая связь** > **Номера телефонов**. Номера телефонов, доступные для вашей организации, перечислены в разделе **Номер**.
     

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как разрешить или запретить пользователям записывать свои имена при присоединении к собранию в Microsoft Teams.
-ms.openlocfilehash: bf58498ed6c00f69a32d2391d24a6c5bef1e1df7
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 36e55b4cbffe4f1f57771578104f426f705a5ecd
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347532"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754245"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "25347532"
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Выбор необходимости записи имени вызывающего абонента
 
-![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
+![команды логотип 30x30.png](media/teams-logo-30x30.png) **с помощью центра администрирования группами Майкрософт**
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 

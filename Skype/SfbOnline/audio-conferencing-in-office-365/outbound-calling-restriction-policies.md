@@ -19,18 +19,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Администраторы могут определять доступные пользователям типы аудиоконференций и вызовов конечных пользователей по ТСОП.
-ms.openlocfilehash: ed61dc5c131dd38d59820f3ccda9682dcf7fd886
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 97df093168e896eabbc210545d516f386e1a6d25
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882015"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753475"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП
 
 Как администратор, вы можете использовать элементы управления исходящими вызовами для ограничения типов аудиоконференций и вызовов конечных пользователей по ТСОП, доступных пользователям в вашей организации. 
 
-Элементы управления исходящими вызовами можно использовать отдельно для каждого пользователя. Они состоят из следующих двух элементов управления, каждый из которых ограничивает определенный тип исходящих вызовов. По умолчанию оба элемента управления разрешают международные и внутренние исходящие вызовы. 
+Outbound call controls can be applied on a per-user basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls. 
 
 |Элемент управления|Описание|Параметры элемента управления|
 |:-----|:-----|:-----|
@@ -45,7 +45,7 @@ ms.locfileid: "23882015"
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Ограничение исходящих вызовов аудиоконференций 
 
-![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью групп Майкрософт и Скайп по центру администрирования бизнеса**
+![команды логотип 30x30.png](../images/teams-logo-30x30.png) **с помощью центра администрирования группами Майкрософт**
 
 1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
 
@@ -55,7 +55,7 @@ ms.locfileid: "23882015"
 
 4. В разделе **Разрешение на телефонные вызовы во время собраний**выберите нужный параметр ограничения телефонных вызовов.
 
-5. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**. 
+5. Нажмите кнопку **Сохранить**. 
 
 ![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
 
@@ -67,16 +67,16 @@ ms.locfileid: "23882015"
 
     ![Параметры ограничения исходящих вызовов](../images/restrictions-to-dial-outs.png)
 
-5. Также можно отправить электронное письмо пользователю с помощью параметров аудиоконференции, выбрав на странице свойств аудиоконференции для пользователя параметр **Отправить информацию о конференции по электронной почте**.
+5. Нажмите кнопку **Сохранить**.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 **Использование PowerShell**
 
-Ограничения исходящих вызовов регулируются единой политикой под названием OnlineDialOutPolicy, в которой для каждого типа вызовов предусмотрен атрибут ограничения. Эту политику нельзя изменить в соответствии с потребностями пользователя, но можно использовать предварительно заданные экземпляры политики для каждого сочетания параметров. 
+Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
 
-Вы можете использовать командлет Get-CSOnlineDialOutPolicy для просмотра политик в отношении исходящих вызовов, и командлет Grant-CSDialOutPolicy — для закрепления их за пользователями (обратите внимание, что командлет Grant не содержит слово «Online», в отличие от командлета Get). 
+You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and assign them to users by using the Grant-CSDialOutPolicy cmdlet. (Please note that the Grant cmdlet doesn’t contain the word “Online” as the Get cmdlet does.) 
 
 В следующей таблице представлена общая информация о каждой политике.
 

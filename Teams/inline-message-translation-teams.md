@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2afc1d0374333fdbb0bec9246d04224c6a82f032
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 466160616adea80a2fcb6a3bfd035ca397d73754
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532704"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754428"
 ---
 <a name="use-inline-message-translation-in-microsoft-teams"></a>Использование встроенного перевода сообщений в Microsoft Teams 
 =================================================
@@ -40,9 +40,9 @@ ms.locfileid: "26532704"
 1. Включите политику с помощью командлета [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) .
 2. Политики занимает несколько минут, чтобы применить. Пользователям необходимо выйти и снова выполнить вход в группы.
 
-## <a name="enable-by-using-the-microsoft-teams--skype-for-business-admin-center"></a>Включить с помощью команды Microsoft & Скайп по центру администрирования бизнеса
+## <a name="enable-by-using-the-microsoft-teams-admin-center"></a>Включить с помощью центра администрирования группами Майкрософт
 
-В **группами Майкрософт & Скайп по центру администрирования бизнеса**выберите **Политики обмена сообщениями** в левой панели, затем либо создать новую политику или изменить существующую политику и установите флажок **Разрешить пользователям включать поддержку для перевода сообщений** для **на **.
+**Центр администрирования группами Майкрософт**выберите **Политики обмена сообщениями** в левой панели, затем либо создать новую политику или изменить существующую политику и установить для параметра **Разрешить пользователям включать поддержку для перевода сообщений** **на**.
 
 > [!NOTE]
 >Перевод выполняется службой и доставлено клиенту не оказывает влияния на содержимое, записываемые в записях соответствия требованиям. Чтобы узнать больше о перевода, обратитесь к разделу [возможности Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).

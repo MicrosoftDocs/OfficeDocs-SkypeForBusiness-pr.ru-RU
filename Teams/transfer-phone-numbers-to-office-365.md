@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 6b67688c352ca58f863db051f5883973d221261a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 851fbbc14a370f8c55d4a8e43924b5b12e36407c
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371992"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754659"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Передача номеров телефонов в Office 365
 
@@ -53,7 +53,7 @@ ms.locfileid: "25371992"
  
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Последовательно выберите пункты **группами Майкрософт и Скайп по центру администрирования Business** > **портала прежних версий**.
+2. Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.
     
 3. На панели навигации слева выберите раздел **Голосовая связь** > **Заказы на перенос** и нажмите **Добавить**.
     

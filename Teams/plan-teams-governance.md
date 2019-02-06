@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db98b9b5ab460207b2dd9f9a793a486402ec29fd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326868"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754812"
 ---
 # <a name="plan-for-governance-in-teams"></a>Планирование управления в группах
 
@@ -116,7 +116,7 @@ ms.locfileid: "28326868"
 Подробный список всех параметров, включая технические рекомендации по их реализации для вашей организации содержатся в следующих статьях:
 
 -   [Управление функциями Microsoft Teams в организации Office 365](enable-features-office-365.md).
--   [Управление группами во время перехода на новые группами Майкрософт и Скайп по центру администрирования бизнеса](manage-teams-skypeforbusiness-admin-center.md)
+-   [Управление группами во время перехода к центру администрирования новых групп Майкрософт](manage-teams-skypeforbusiness-admin-center.md)
 -   [Управление политиками собрания в группах](meeting-policies-in-teams.md)
 
 

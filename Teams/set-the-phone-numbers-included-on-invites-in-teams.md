@@ -1,5 +1,5 @@
 ---
-title: Установка телефона, номера, находящимся на приглашает в группами Майкрософт
+title: Задание телефонных номеров, включаемых в приглашения, в Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Получите инструкции по созданию номер телефона по умолчанию для абонентов, чтобы присоединиться к собранию группами Майкрософт. '
-ms.openlocfilehash: 20dfd4255cd41e9f5aebf419f77307b30fe40042
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cbe7a88d1fcb857ce94a95b2a9af7a159ccef5a
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533297"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754561"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Настройка телефонных номеров, включаемых в приглашения в Microsoft Teams
 
@@ -49,15 +49,15 @@ ms.locfileid: "26533297"
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Установить или изменить номер телефона по умолчанию аудиоконференций для организатора собрания или пользователя
 
-![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
+![команды логотип 30x30.png](media/teams-logo-30x30.png) **с помощью центра администрирования группами Майкрософт**
 
 1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
 
-    ![Показывает, Выбор пользователей в группы Microsoft и Скайп по центру администрирования Business](media/teamsselectusers.png)
+    ![Показывает, Выбор пользователей в центре администрирования группами Майкрософт](media/teamsselectusers.png)
 
 2. В верхней части страницы нажмите кнопку **Изменить**.
 
-    ![Нажмите кнопку Изменить в Microsoft групп и Скайп по центру администрирования Business](media/teamsedituser.png)
+    ![Нажмите кнопку Изменить в центре администрирования группами Майкрософт](media/teamsedituser.png)
 
 3. Рядом с пунктом **Аудиоконференции** нажмите **Изменить**. 
     

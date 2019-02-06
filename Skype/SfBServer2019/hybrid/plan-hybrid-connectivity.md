@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Рекомендации по планированию для реализации гибридного подключения между Скайп для Business Server и Скайп для бизнеса в Интернет или группами.
-ms.openlocfilehash: ca6fce658443cd100cc03b14730dac722337733d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9e71ec9de7e9ade3502532056ec63826d9f77597
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348946"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753952"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Планирование гибридного подключения между Скайп для Business Server и Office 365
 
@@ -62,7 +62,7 @@ ms.locfileid: "29348946"
     > Для гибридной конфигурации с локальным развертыванием вы можете использовать только один клиент.
 - Azure Active Directory Connect для синхронизации вашего локального каталога с Office 365. Дополнительные сведения можно [Azure AD Connect: учетные записи и разрешения](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 - Скайп Администрирование Business Server.  Они требуются для перемещения пользователей из локальной в облако. Эти средства должны быть установлены на сервере с доступом к локальным развертыванием и Интернетом.
-- Средства администрирования Online.  Можно использовать либо групп, так и Скайп для бизнеса центра администрирования или Windows PowerShell для управления группами и Скайп для бизнеса в Интернет. Использование PowerShell для управления группами или Скайп для бизнеса в Интернет, загрузите и установите Скайп для Business Online Connector.
+- Средства администрирования Online.  Можно использовать Центр администрирования группы или Windows PowerShell для управления группами и Скайп для бизнеса в Интернет. Использование PowerShell для управления группами или Скайп для бизнеса в Интернет, загрузите и установите Скайп для Business Online Connector.
 - Общее адресное пространство SIP должна быть включена и локальное развертывание должна быть настроена для использования Office 365 в качестве поставщика услуг размещения. Дополнительные сведения о действия, необходимые для настройки гибридного подключения можно [настроить гибридного подключения](configure-hybrid-connectivity.md).
 
 После настройки гибридного подключения можно переместить пользователей в группы или Скайп для бизнеса в Интернет. Дополнительные сведения можно [переместить пользователей из локальных групп](move-users-from-on-premises-to-teams.md) и [Перемещение пользователей из локально на Скайп для бизнеса в Интернет](move-users-from-on-premises-to-skype-for-business-online.md).

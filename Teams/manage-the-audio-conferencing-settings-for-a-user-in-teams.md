@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Являясь администратором Office 365, вы можете изменять настройки аудиоконференций Microsoft Teams, например поставщика, платный или бесплатный номер по умолчанию, идентификатор конференции или ПИН-код, для отдельного пользователя в своей организации. '
-ms.openlocfilehash: 61b0cf5db964af19001069318f275ac237012cb4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5b5ea2217f0bd5dce9738ab5013c176c89a9050f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532090"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754343"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Управление настройками аудиоконференций для пользователя в Microsoft Teams
 
 В учетной записи администратора Office 365 можно по отдельному пользователю организации вносить изменения в параметры аудиоконференций, такие как провайдер, номера платной или бесплатной линии по умолчанию, идентификатор конференции или ПИН-код. Если вы хотите изменить параметры для вашей организации, ознакомьтесь со [управлять параметрами звука конференц-связи для вашей организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![команды логотип 30x30.png](media/teams-logo-30x30.png) Использование групп Майкрософт и Скайп по центру администрирования бизнеса
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![команды логотип 30x30.png](media/teams-logo-30x30.png) С помощью центра администрирования группами Майкрософт
 
 1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
 
