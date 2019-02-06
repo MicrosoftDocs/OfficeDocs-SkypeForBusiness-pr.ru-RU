@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9eb5626e9b4094ec814e0b55f4bb4fd3d0a42da8
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182506"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742999"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Сосуществование со Skype для бизнеса
 
@@ -78,7 +78,7 @@ ms.locfileid: "27182506"
 |--- |--- |--- |--- |--- |
 | О-ва | Teams <br/> Skype для бизнеса<br/> Teams<br/> Skype для бизнеса| В Интернете<br/> В Интернете<br/> На prem<br/>На prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype для бизнеса<br/> Teams<br/> Skype для бизнеса|
 |SfB\* <br/> | Skype для бизнеса<br/>Skype для бизнеса<br/> | В Интернете<br/> На prem<br/> |&boxv;<br/>&boxv;|Skype для бизнеса<br/>Skype для бизнеса<br/>|
-|TeamsOnly |Teams| В Интернете<br/>|&boxv;<br/>|Teams|
+|TeamsOnly |Команды| В Интернете<br/>|&boxv;<br/>|Команды|
 | | | | | |
 
 **В таблице 1b: клиента нового чата или перенаправление получателю в SfB звонков\* режим**
@@ -87,16 +87,16 @@ ms.locfileid: "27182506"
 |--- |--- |--- |---   |--- |
 | О-ва |Teams<br/>Skype для бизнеса<br/>Teams <br/>Skype для бизнеса  |В Интернете<br/> В Интернете<br/> На prem<br/> На prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype для бизнеса* <br/> Skype для бизнеса<br/> **Не удается** <br/>Skype для бизнеса<br/> |
 |SfB\* <br/> | Skype для бизнеса<br/>Skype для бизнеса<br/> | В Интернете<br/> На prem<br/> |&boxv;<br/>&boxv; |  Skype для бизнеса<br/>Skype для бизнеса<br/> |
-|TeamsOnly |Teams| В Интернете<br/>|&boxv;<br/> |  *Skype для бизнеса* <br/>| 
+|TeamsOnly |Команды| В Интернете<br/>|&boxv;<br/> |  *Skype для бизнеса* <br/>| 
 | | | | | |
 
 **Таблица 1c: клиента нового чата или перенаправление получателю режим TeamsOnly звонков**
 
 | <br/><br/> Режим   | Инициатор <br/><br/> Клиент | <br/><br/> SfB&nbsp;, размещенных | |   Получатель <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| О-ва   |Teams<br/>Skype для бизнеса<br/>Teams <br/>Skype для бизнеса<br/>|В Интернете<br/> В Интернете<br/> На prem<br/> На prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| О-ва   |Команды<br/>Skype для бизнеса<br/>Команды <br/>Skype для бизнеса<br/>|В Интернете<br/> В Интернете<br/> На prem<br/> На prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Команды <br/>*Teams* <br/>Команды <br/>*Teams*  |
 |SfB\*  | Skype для бизнеса<br/>Skype для бизнеса<br/> | В Интернете<br/> На prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
-|TeamsOnly  | Teams | В Интернете |  &boxv; |Teams   |
+|TeamsOnly  | Команды | В Интернете |  &boxv; |Команды   |
 |  |  |  | | |
 
 ## <a name="federated-routing-for-new-chats-or-calls"></a>Федеративные маршрутизации для новой беседы или вызовов
@@ -116,27 +116,27 @@ ms.locfileid: "27182506"
 
 | <br/><br/>Режим   | Инициатор<br/><br/> Клиент| <br/><br/>SfB, размещенных| | Получатель<br/><br/> О-ва |
 |--- |--- |--- |--- |--- |
-| О-ва |Teams<br/>Skype для бизнеса <br/>Teams <br/>Skype для бизнеса  |В Интернете<br/> В Интернете<br/> На prem<br/> На prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype для бизнеса* <br/> Skype для бизнеса <br/> **Не удается**   <br/> Skype для бизнеса |
+| О-ва |Команды<br/>Skype для бизнеса <br/>Команды <br/>Skype для бизнеса  |В Интернете<br/> В Интернете<br/> На prem<br/> На prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype для бизнеса* <br/> Skype для бизнеса <br/> **Не удается**   <br/> Skype для бизнеса |
 | SfB\* |Skype для бизнеса <br/>Skype для бизнеса |В Интернете<br/> На prem<br/> | &boxv;<br/>&boxv;|Skype для бизнеса <br/>Skype для бизнеса |
-| TeamsOnly |Teams |В Интернете| &boxv;|*Skype для бизнеса* |
+| TeamsOnly |Команды |В Интернете| &boxv;|*Skype для бизнеса* |
 |  | | | | 
 
 **В таблице 2b: федеративные новой беседы или маршрутизации вызовов для получателю в SfB\* режим**
 
 | <br/><br/>Режим   | Инициатор<br/><br/> Клиент| <br/><br/>SfB, размещенных| |  Получатель<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| О-ва |Teams<br/>Skype для бизнеса <br/>Teams <br/>Skype для бизнеса <br/>|В Интернете<br/> В Интернете<br/> На prem<br/> На prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype для бизнеса* <br/> Skype для бизнеса <br/> **Не удается** <br/>Skype для бизнеса <br/> |  
+| О-ва |Команды<br/>Skype для бизнеса <br/>Команды <br/>Skype для бизнеса <br/>|В Интернете<br/> В Интернете<br/> На prem<br/> На prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype для бизнеса* <br/> Skype для бизнеса <br/> **Не удается** <br/>Skype для бизнеса <br/> |  
 | SfB\* |Skype для бизнеса <br/>Skype для бизнеса  |В Интернете<br/> На prem<br/>  |&boxv;<br/>&boxv; | Skype для бизнеса <br/>Skype для бизнеса  |
-| TeamsOnly | Teams|В Интернете |&boxv; |*Skype для бизнеса*  |
+| TeamsOnly | Команды|В Интернете |&boxv; |*Skype для бизнеса*  |
 |  | | | | |
 
 **Таблица 2c: федеративные новой беседы или маршрутизации вызовов для получателя TeamsOnly режим**
 
 | <br/><br/>Режим | Инициатор<br/><br/> Клиент| <br/><br/>SfB, размещенных| |  Получатель<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| О-ва  |Teams<br/>Skype для бизнеса <br/>Teams <br/>Skype для бизнеса <br/>|В Интернете<br/> В Интернете<br/> На prem<br/> На prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**Не удается** <br/>*Teams* |
+| О-ва  |Команды<br/>Skype для бизнеса <br/>Команды <br/>Skype для бизнеса <br/>|В Интернете<br/> В Интернете<br/> На prem<br/> На prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Команды <br/>*Teams* <br/>**Не удается** <br/>*Teams* |
 | SfB\* |Skype для бизнеса <br/>Skype для бизнеса  | В Интернете<br/> На prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
-| TeamsOnly |Teams |В Интернете |&boxv; |Teams |
+| TeamsOnly |Команды |В Интернете |&boxv; |Команды |
 |  | | | | |
 
 ## <a name="chats-and-calls-from-pre-existing-threads"></a>Обсуждений и вызывает с уже существующей потоков
@@ -190,7 +190,7 @@ ms.locfileid: "27182506"
 |Наблюдателя <br/><br/>Клиент| |<br/><br/>О-ва |Publisher <br/><br/>SfB\* |<br/>Только группы|
 |--- |--- |--- |--- |---|
 |Skype для бизнеса |&boxv;|Skype для бизнеса | Skype для бизнеса | Teams|
-|Teams |&boxv; |Teams |Skype для бизнеса |Teams |
+|Teams |&boxv; |Teams |Skype для бизнеса |Команды |
 | | | | |
 
 ## <a name="federated-presence"></a>Федеративные сведений о присутствии
@@ -204,7 +204,7 @@ ms.locfileid: "27182506"
 |Наблюдателя <br/><br/> Клиент | |<br/><br/> О-ва  |Publisher <br/><br/> SfB\* |<br/><br/> Только группы |
 |--- |--- |--- |--- |---|
 |Skype для бизнеса |&boxv; |Skype для бизнеса  | Skype для бизнеса  | Teams  |
-|Teams | &boxv;|Skype для бизнеса |Skype для бизнеса |Teams|
+|Teams | &boxv;|Skype для бизнеса |Skype для бизнеса |Команды|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>Сведения о присутствии в уже существующей потоков
@@ -212,3 +212,7 @@ ms.locfileid: "27182506"
 Чтобы выровнять сведения о присутствии и возможности доступа в уже существующей потоки, целевой присутствия, предоставляемые в том, что поток должен синхронизируется с маршрутизации в потоке, предполагается применение маршрутизации невозможно.
 
 В частности Если получатель ранее потока сохраняемого взаимодействия беседы с было выполнено обновление до командами, что поток больше не будет отражать точных сведений о присутствии и больше не будет маршрутизируемые. Необходимо запустить новый поток.
+
+## <a name="related-links"></a>Ссылки по теме
+
+[Видео: Управление сосуществования и взаимодействия между SfB и рабочих групп](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

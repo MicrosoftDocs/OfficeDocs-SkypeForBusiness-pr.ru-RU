@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41ff5d3329d46ee9f716e09145c94ad8e2dbaea8
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 11e08837aa7f9eeb4b74d8f8d98e05dc33d2ea49
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349500"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29743007"
 ---
 ![Этапы обновления пути с акцентом на стадии определения проекта] (media/upgrade-banner-project-definition.png "Этапы обновления пути с акцентом на стадии определения проекта")
 
@@ -132,3 +132,7 @@ ms.locfileid: "29349500"
 > Что запускается как простой чата обмена Мгновенными сообщениями могут быстро переведите ее в звонка или на совещании ad-hoc. Мы понимаем, что эти сценарии необходимы для удобства использования и пользовательский интерфейс и мы постоянно меняется каждый раз взаимодействия между Скайп для бизнеса и группам пользователей. Советуем последних сведений.
 
 После того как просмотре данной статьи, изучите [Выберите обновления реализация](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [миграции и рекомендации взаимодействие](https://aka.ms/SkypeToTeams-Interop), [Совместная работа с Скайп для бизнеса](coexistence-chat-calls-presence.md)и [Задание вашей сосуществования и параметры обновления](https://aka.ms/SkypeToTeams-SetCoexistence) для реализации Подробные сведения.
+
+## <a name="related-links"></a>Ссылки по теме
+
+[Видео: Управление сосуществования и взаимодействия между SfB и рабочих групп](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

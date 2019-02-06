@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3df6bf5654e29adf794c2d8c8337a2460e95550c
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 9cb83e60748cd36cc88256862a76131eb12d93ec
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562833"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29743022"
 ---
 ![Стадии процедуры обновления с акцентированием внимания на стадии технической готовности](media/upgrade-banner-tech-readiness.png "Стадии процедуры обновления с акцентированием внимания на стадии технической готовности")
 
@@ -222,3 +222,7 @@ VPN предоставляют полезную службу множеству 
 - Убедитесь, что у вас есть достаточные пропускной способности для развертывания групп, выполнив [Планировщик работы сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
 
 - Запустите [Средство оценки производительности сети](https://www.microsoft.com/download/details.aspx?id=53885) и убедитесь, что соответствуют требованиям, описанным в [мультимедиа качество и сетевого подключения к производительности](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) из сегмента пограничного сервера и клиента сегмента.
+
+## <a name="related-topics"></a>Связанные разделы
+
+[Видео: Планирование сети](https://aka.ms/teams-networking)

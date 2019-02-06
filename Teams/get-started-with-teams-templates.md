@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b4e0ad44904a14d6a1296ea17080f668a3ab461
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: 08abde935b69aa58e5e54bd50b31f1c9d554552e
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735208"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742960"
 ---
 # <a name="get-started-with-teams-templates"></a>Начало работы с шаблонами Teams 
 
@@ -67,8 +67,8 @@ ms.locfileid: "29735208"
 |Образование-<br>Группа PLC |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Приложения:<ul><li>Записной книжке OneNote PLC (прикрепленных к вкладке « **Общие** »)</ul></li>|
 | Розничные-<br>Хранилище | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Каналы:<ul><li>SHIFT передачи</li><li>Обучение</li></ul>Свойства группы<ul><li>Общий видимости групп</li></ul>Разрешения участников<ul><li>Запретить члены из создание, обновление и удаление каналов</li><li>Запретить членам добавлять или удалять приложения</li><li>Запретить члены из создания, обновлять и удалять соединители</li></ul> |
 | Розничные-<br>Диспетчер совместной работы | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Каналы:<ul><li>SHIFT передачи</li><li>Обучение</li></ul>Свойства группы:<ul><li>Группа видимости установлено значение Private</li></ul>Разрешения участников:<ul><li>Запретить члены из создание, обновление и удаление каналов</li><li>Запретить членам добавлять или удалять приложения</li><li>Запретить члены из создания, обновлять и удалять соединители</li></ul>|
-| Здравоохранение-<br>Во всем Ворд |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |Каналы: <ul><li>Объявления\*</li><li>Индикаторы звонка</li><li>Забавно (en)\*</li><li>Huddles\*<li>Переписные пациентов и планирования\*</li><li>Обучение и сертификация </li><li>Округляет\*</li></ul>\*Auto-favorited каналов |
-|Здравоохранение-<br>Больница широкий | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |Каналы:<ul><li>Объявления\*</li><li>Соответствие требованиям\*</li><li>Наказание</li><li>Финансы</li><li>Забавно (en)\*</li><li>Отдел кадров</li><li>Лаборатории</li><li>Безопасности пациентов и улучшения качества\*</li><li>Лекарства</li></ul>\*Auto-favorited канала|
+| Здравоохранение-<br>Ворд |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |Каналы: <ul><li>Объявления\*</li><li>Индикаторы звонка</li><li>Забавно (en)\*</li><li>Huddles\*</li><li>Округляет</li><li>Учебный курс по\*</li></ul>\*Auto-favorited каналов |
+|Здравоохранение-<br>Больница | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |Каналы:<ul><li>Объявления\*</li><li>Соответствие требованиям\*</li><li>Наказание</li><li>Финансы</li><li>Забавно (en)\*</li><li>Отдел кадров</li><li>Лаборатории</li></li><li>Лекарства</li></ul>\*Auto-favorited канала|
 |||
 
 > [!NOTE]

@@ -1,7 +1,7 @@
 ---
-title: Реализация аналитические данные монитора вызовов и качества обслуживания в группами Майкрософт
+title: Качество обслуживания и аналитика звонков в Microsoft Teams
 author: jambirk
-ms.author: MyAdvisor
+ms.author: jambirk
 manager: Serdars
 ms.topic: article
 ms.service: msteams
@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0f82a546057558cc6c69c9c0de19bc9ccb021cd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 505409ac51552a99fabc4eb41801a1f19a737877
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28328179"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742952"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Реализация качества обслуживания и отслеживание качества звонков в группами Майкрософт
 
@@ -37,7 +37,7 @@ ms.locfileid: "28328179"
 
 ## <a name="related-topics"></a>Связанные разделы
 
-[Реализация качества обслуживания для групп Майкрософт](monitor-call-quality-qos.md)
+[Видео: Обзор качества звонка](https://aka.ms/teams-quality)
 
 [Настройка вызова аналитики](set-up-call-analytics.md)
 

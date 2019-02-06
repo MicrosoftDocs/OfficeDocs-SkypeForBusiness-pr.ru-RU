@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2af8872253e2962322712a013cb3043a7da2d81b
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: b6b95da8ee416d4f64d22a8c0622acd417b7bb1d
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562631"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742850"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams
 =================================================
@@ -117,3 +117,6 @@ The content you will find below can be used as supplemental background informati
 |![Значок для точки принятия решений.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Точка принятия решений         |Оценили ли вы возможности своей сети для поддержки мультимедиа реального времени?<br></br>Если ваша сеть не была оценена должным образом или не поддерживает мультимедиа реального времени, отключите ли вы функции видеосвязи и демонстрации экрана для улучшения работы сети и взаимодействия с Teams?         |
 |![Значок дальнейших действий.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Дальнейшие действия         |При неизвестном качестве сети: следуйте указаниям руководства [Оценка готовности сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness), чтобы определить готовность сети к работе с мультимедиа в реальном времени.<br></br>При низком качестве сети: предпримите меры по исправлению сети, чтобы создать подходящую среду для высококачественного мультимедиа реального времени.<br></br>При удовлетворительном качестве сети: обеспечьте доступность всех IP-адресов и портов.           |
 
+## <a name="related-topics"></a>Связанные разделы
+
+[Видео: Планирование сети](https://aka.ms/teams-networking)

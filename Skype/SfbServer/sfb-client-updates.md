@@ -4,18 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
-ms.reviewer: mwa
+ms.reviewer: qingy
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Ссылки для ИТ-специалистов на сведения о последних обновлениях бессрочных лицензий для клиентов Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013
-ms.openlocfilehash: 522161d38c3e7a0b5cb46e9ce098e48478173a68
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 25bab2e73da7bf08ed91da4534e79b1fc6bd7b92
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531900"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29743014"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Последние обновления версий Skype для бизнеса, в которых используется установщик Windows (MSI)
 

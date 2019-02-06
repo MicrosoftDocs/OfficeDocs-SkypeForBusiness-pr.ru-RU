@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5667374b52561af8809ab136646ffaf9d6077ad1
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: 8aa4bb6858fceb45fbf6abca8fe475ba49dbe1ba
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735132"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742865"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Реализация качества обслуживания (QoS) в группами Майкрософт
 
@@ -333,6 +333,8 @@ QoS на основе политики в рамках групповой пол
 
 ## <a name="more-information"></a>Дополнительная информация
 
+[Видео: Планирование сети](https://aka.ms/teams-networking)
+
 [Подготовка сети организации к использованию Microsoft Teams](prepare-network.md)
 
-[Требования к ExpressRout качества обслуживания](https://docs.microsoft.com/azure/expressroute/expressroute-qos)
+[Требования к ExpressRoute качества обслуживания](https://docs.microsoft.com/azure/expressroute/expressroute-qos)
