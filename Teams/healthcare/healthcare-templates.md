@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Начало работы с шаблонами здравоохранения группами Майкрософт
-ms.openlocfilehash: 7d55d2d6a5f062bc5eb85b6bfc5227f7813c91ca
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735637"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760569"
 ---
 # <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Начало работы с шаблонами здравоохранения группами Майкрософт
 
@@ -34,7 +34,7 @@ ms.locfileid: "29735637"
 
 |Тип базового шаблона |Идентификатор базового шаблона |Каналы базового шаблона|
 |:--- |:---|:---|
-|Здравоохранение - Ворд | https://<span></span>графике<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Объявления\* <br> Индикаторы звонка\* <br> Забавно (en)\* <br> Huddles\* <br>Округляет\* <br>Учебный курс по\* |
+|Здравоохранение - Ворд | https://<span></span>графике<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Объявления\* <br> Huddles\* <br> Округляет\* <br> Набору кадров\* <br> Учебный курс по\* |
 |     | |         |
 
 \*Auto-favorited 
@@ -45,7 +45,7 @@ ms.locfileid: "29735637"
 
 |Тип базового шаблона |Идентификатор базового шаблона |Каналы базового шаблона|
 |:--- |:---|:---|
-|Здравоохранение - больница | https://<span></span>графике<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Объявления\* <br> Соответствие требованиям\* <br> Забавно (en)\* <br>Наказание<br>Финансы<br>Отдел кадров <br>Лаборатории<br> Лекарства |
+|Здравоохранение - больница | https://<span></span>графике<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Объявления\* <br> Соответствие требованиям\* <br> Наказание <br> Отдел кадров <br> Лекарства |
 | | |  |
 
 \*Auto-favorited 
@@ -58,7 +58,7 @@ ms.locfileid: "29735637"
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospitalWide",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [

@@ -23,13 +23,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: В дополнение к Стандартная лицензия пользователя аудиоконференции Лицензирование и многопользовательская организаций можно также предложение минуту для включения возможности конференц-связи аудио для своей организации.
-ms.openlocfilehash: 17a27c8426356b985168b26c6d19eabd88e306fa
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+description: В дополнение к Стандартная лицензия пользователя аудиоконференции организации, использующие корпоративного лицензирования Майкрософт также можно выбрать предложение минуту для включения возможности конференц-связи аудио для своей организации.
+ms.openlocfilehash: 7366ea4186d045b75847fd7397becefcf150b8a6
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530858"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760553"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Поминутная оплата аудиоконференций
 

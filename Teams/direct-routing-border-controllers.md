@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Партнеры корпорации Майкрософт с выбранным поставщикам SBC для подтверждения своей SBC работать с прямой маршрутизации.
-ms.openlocfilehash: b14463bfeb7010e23a567517b34b6a6d8595c478
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: f4154280b23fbd1d8b9f1a82b5877f58c04a1c70
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735216"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760601"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -60,10 +60,10 @@ ms.locfileid: "29735216"
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   Ожидание    |      V7.0.2      |
 |                                                                                                                     |    Шведский SBC Lite     |     &#10004;     |   Ожидание    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Ожидание    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |   Ожидание  |   Глобальный Администратор ECZ8.1.0 MR-1 (сборка 145)  |
-|                                                                                                                    |    AP 3900           |    &#10004;     |   Ожидание  |   Глобальный Администратор ECZ8.1.0 MR-1 (сборка 145)  | 
-|                                                                                                                    |      AP 4600         |    &#10004;   |   Ожидание    |     Глобальный Администратор ECZ8.1.0 MR-1 (сборка 145)  |
-|                                                                                                                    |      AP 6300         |    &#10004;   |   Ожидание    |     Глобальный Администратор ECZ8.1.0 MR-1 (сборка 145)  |
-|                                                                                                                   |      AP 6350           |    &#10004;   |   Ожидание    |     Глобальный Администратор ECZ8.1.0 MR-1 (сборка 145)  |                                             
-|                                                                                                                    |      ВИРТУАЛЬНАЯ СРЕДА ПЕРЕНОСА           |    &#10004;    |   Ожидание    |     Глобальный Администратор ECZ8.1.0 MR-1 (сборка 145)   |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |   Ожидание  |   ECZ8.1m1p6  |
+|                                                                                                                    |    AP 3900           |    &#10004;     |   Ожидание  |   ECZ8.1m1p6  | 
+|                                                                                                                    |      AP 4600         |    &#10004;   |   Ожидание    |     ECZ8.1m1p6  |
+|                                                                                                                    |      AP 6300         |    &#10004;   |   Ожидание    |     ECZ8.1m1p6  |
+|                                                                                                                   |      AP 6350           |    &#10004;   |   Ожидание    |     ECZ8.1m1p6  |                                             
+|                                                                                                                    |      ВИРТУАЛЬНАЯ СРЕДА ПЕРЕНОСА           |    &#10004;    |   Ожидание    |     ECZ8.1m1p6   |
 |                     [TE СИСТЕМ](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   Ожидание    |      V3.16.2      |
