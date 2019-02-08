@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как организаторы собрания могут совершать обратные звонки другим людям через Teams и что для этого нужно.
-ms.openlocfilehash: a1d06d75d48c45cfc13490c5c6562451909120dd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 4352bc7f6bd110a8dda267092920a2e2de22a4ae
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326860"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770397"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Обратные звонки из собрания Microsoft Teams, позволяющие другим людям присоединиться к нему
 
@@ -55,7 +55,7 @@ Dial-out is only available to some countries/regions. Полный список 
 
 ## <a name="allow-users-to-dial-in"></a>Разрешить пользователям звонить
 
-Если вы ищете инструкции по позволяют пользователям по телефонной линии к группам собрания, вы можете найти [номера телефонов для аудиоконференции в группах Microsoft](/Teams/phone-numbers-for-audio-conferencing-in-teams.md).
+Если вы ищете инструкции по позволяют пользователям по телефонной линии к группам собрания, вы можете найти [номера телефонов для аудиоконференции в группах Microsoft](phone-numbers-for-audio-conferencing-in-teams.md).
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше о аудиоконференций?
 
