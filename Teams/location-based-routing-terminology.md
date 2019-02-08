@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0f399dab4097a69ef9d7a90865b81eeb206b54
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715447"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771002"
 ---
-# <a name="location-based-routing-terminology"></a>Терминология маршрутизации на основе расположения 
+# <a name="location-based-routing-terminology"></a>Терминология маршрутизации на основе расположения
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 Ниже приведены некоторые термины и понятия, которые используются в документации по маршрутизации на основе местоположения. Рекомендуется ознакомиться с эти термины и концепции до получения более подробные в документации.
 

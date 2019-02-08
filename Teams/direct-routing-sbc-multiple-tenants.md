@@ -1,5 +1,5 @@
 ---
-title: Настройте пограничный контроллер сеансов для нескольких клиентов
+title: Настройка множества клиентов в пограничном контроллере сеансов
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Сведения о настройке одного пограничный контроллер сеансов (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8c962647645b742f6c7b612e25873c6486bb51a0
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532826"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771026"
 ---
-# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройте пограничный контроллер сеансов для нескольких клиентов
+# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
 Прямое маршрутизации поддерживает Настройка одного пограничный контроллер сеансов (SBC) для обслуживания нескольких клиентов.
 
@@ -206,7 +206,9 @@ SBC требуется сертификат для проверки подлин
 
 Например:
 
-*Новые CSOnlinePSTNGateway – полное доменное имя sbc1.customers.adatum.biz - SipSignallingPort 5068*
+```
+New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
+```
 
 Подготовка пользователей с телефонных номеров и настройка маршрутизации голосовых вызовов.
 

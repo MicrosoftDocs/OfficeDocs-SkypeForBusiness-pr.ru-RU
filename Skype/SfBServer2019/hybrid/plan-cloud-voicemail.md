@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: В этой статье описываются преимущества, рекомендации по планированию и требования к внедрению службы Microsoft Cloud голосовой почты. Сведения о настройке голосовой почты в облаке содержатся в разделе Настройка голосовой почты облака.
-ms.openlocfilehash: d1e962f36cdefafdd1efa2d02a719eed1d2e93fd
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e16ad9fb123342f7ac7e780f43bffd9b54b82ce6
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349025"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770917"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Планирование службы голосовой почты в облаке
 
@@ -93,7 +93,7 @@ ms.locfileid: "29349025"
 Skype для бизнеса Server 2015 | Exchange Server единой системы обмена СООБЩЕНИЯМИ | Exchange Server единой системы обмена СООБЩЕНИЯМИ |  | Облако голосовой почты <br> Exchange Online единой системы обмена СООБЩЕНИЯМИ * |
 Lync Server 2013 <br>  | Exchange Server единой системы обмена СООБЩЕНИЯМИ | Exchange Server единой системы обмена СООБЩЕНИЯМИ | | Облако голосовой почты <br> Exchange Online единой системы обмена СООБЩЕНИЯМИ * |
 
-\*Пока не рекомендуется к использованию.
+\*Пока не рекомендуется к использованию. Для получения дополнительных сведений в разделе [Exchange единой системы обмена сообщениями Online поддерживает миграции](../plan/exchange-unified-messaging-online-migration-support.md) . 
 
 Корпорация Майкрософт рекомендует следующие пути миграции.
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Ссылки для ИТ-специалистов на сведения о последних обновлениях бессрочных лицензий для клиентов Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013
-ms.openlocfilehash: 25bab2e73da7bf08ed91da4534e79b1fc6bd7b92
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 62aa604385b76df94c647199994211f25f265d56
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743014"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771041"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Последние обновления версий Skype для бизнеса, в которых используется установщик Windows (MSI)
 
@@ -42,7 +42,12 @@ ms.locfileid: "29743014"
 
 |Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:---  |:---  |:---  |
-|Обновление для системы безопасности для Skype для бизнеса 2016 |[Статья базы знаний 4022221](https://support.microsoft.com/kb/4022221)| Июль 2018 г. |
+|Обновление для Skype для бизнеса 2016 |[KB4461586](https://support.microsoft.com/kb/4461586/) | Январь 2018 г.|
+|Обновление для Skype для бизнеса 2016 |[KB4461545](https://support.microsoft.com/kb/4461545/) | Декабрь 2018|
+|Обновление для системы безопасности для Skype для бизнеса 2016 |[KB4461473](https://support.microsoft.com/kb/4461473/) | Ноябрь 2018|
+|Обновление для Skype для бизнеса 2016 |[KB4092445](https://support.microsoft.com/kb/4092445/) | Октябрь 2018|
+|Обновление для Skype для бизнеса 2016 |[KB4032255](https://support.microsoft.com/kb/4032255/) | Август 2018|
+|Обновление для системы безопасности для Skype для бизнеса 2016 |[Статья базы знаний 4022221](https://support.microsoft.com/kb/4022221) | Июль 2018 г. |
 |Обновление для Skype для бизнеса 2016 |[Статья базы знаний 4022155](https://support.microsoft.com/en-us/help/4022155) | Июнь 2018 г.|
 |Обновление для Skype для бизнеса 2016 |[Статья базы знаний 4018367](https://support.microsoft.com/kb/4018367) | Май 2018 г.|
 |Обновление для Skype для бизнеса 2016 |[Статья базы знаний 4018323](https://support.microsoft.com/kb/4018323) | Апрель 2018 г.|
@@ -209,7 +214,7 @@ ms.locfileid: "29743014"
 Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Обновление для Lync для Mac 2011 |[Статья базы знаний 3175174](https://support.microsoft.com/kb/3175174)|Июль 2016 г.|
-|Накопительные пакеты обновления для Lync для Mac 2011 |[Статья базы знаний 3074981](https://support.microsoft.com/kb/3074981)|Июль 2015 г.|
+|Накопительные пакеты обновления для Lync для Mac 2011 |[Статья базы знаний 3074981](https://support.microsoft.com/kb/3074981)|Июль 2015 г.|
 
 ### <a name="lync-2010-client-updates"></a>Обновления клиентов Lync 2010
 

@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb84f58c48292c13bd4af6f355f5e4da22458c9
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 6b99e21d172e35eb8e2ceb2aaabacee78cf45ef9
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715479"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771018"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>Настройка параметров сети для маршрутизации на основе расположения 
+# <a name="configure-network-settings-for-location-based-routing"></a>Настройка параметров сети для маршрутизации на основе расположения
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 Если вы еще не сделано, чтение, чтобы просмотреть другие действия по [Plan Location-Based маршрутизации для непосредственного](location-based-routing-plan.md) необходимо выполнить перед развертыванием параметров сети для маршрутизации на основе местоположения.
 
@@ -59,7 +61,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 ## <a name="define-network-subnets"></a>Определение подсетей
 
-Использование ``New-Cs-TenantNetworkSubnet`` командлет, чтобы определить подсетей и связать их сетевых узлов. Каждый внутренней подсети может быть связано только с одного сайта. 
+Использование ``New-CsTenantNetworkSubnet`` командлет, чтобы определить подсетей и связать их сетевых узлов. Каждый внутренней подсети может быть связано только с одного сайта. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -89,7 +91,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>Определить внешние подсети
-Использование ``New-Cs-TenantTrustedIPAddress`` командлет, чтобы определить внешние подсети и назначить их к клиенту. Можно определить неограниченное число подсети для клиента. 
+Использование ``New-CsTenantTrustedIPAddress`` командлет, чтобы определить внешние подсети и назначить их к клиенту. Можно определить неограниченное число подсети для клиента. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```

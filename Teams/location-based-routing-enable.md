@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3468b413fedc5d3e24871a632f50b5d58c7c5467
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715455"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771010"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Включение зависимостью от расположения маршрутизации для непосредственного
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Прежде чем выполнять действия, описанные в этой статье, убедитесь, что вы чтение [Plan Location-Based маршрутизации для прямого](location-based-routing-plan.md) и выполнить действия, описанные в [настроить параметры сети для маршрутизации на основе местоположения](location-based-routing-configure-network-settings.md).
 
@@ -34,7 +36,7 @@ ms.locfileid: "29715455"
 
 ## <a name="enable-location-based-routing-for-users"></a>Включение маршрутизации на основе расположения для пользователей
 
-1. Использование ``Set-CsOnlinPstnUsages`` командлет, чтобы задать случаев использования PSTN. Для нескольких вариантов использования разделяются запятыми каждого использования.
+1. Использование ``Set-CsOnlinePstnUsages`` командлет, чтобы задать случаев использования PSTN. Для нескольких вариантов использования разделяются запятыми каждого использования.
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
