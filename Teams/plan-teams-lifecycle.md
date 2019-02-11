@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56add7d27a367c5320243455d6891fa178526b4f
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 5d4c8d99dcc3e1c96e5fbfce942b9def6d0db952
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699743"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754778"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Планирование управления жизненным циклом в Teams
 
@@ -35,32 +35,32 @@ Teams содержит обширный набор инструментов дл
 
 **Teams**
 
-_Команда_ — объединение пользователей, контента и инструментов для эффективной совместной работы. В команде назначаются участники и связанные с ними политики и разрешения. Команды Teams создаются на основе групп Office 365, и любые изменения членства в группе Office 365 синхронизируются в команде. Как и другие группы Office 365, команды Teams автоматически подготавливаются вместе с почтовыми ящиками Exchange, сайтами SharePoint, записными книжками OneNote и другими ресурсами Office 365. [Дополнительные сведения о группах Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team. Like other Office 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Office 365. [Learn more about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Каналы**
 
-Именно в каналах выполняется совместная работа команды. Каждый канал посвящен конкретной теме или рабочему процессу. Для каждого канала автоматически создается папка на сайте SharePoint. В ней сохраняются все файлы этого канала, что позволяет пользователям легко находить нужные документы и работать с ними. В каналы также можно добавлять приложения, необходимые определенному рабочему процессу. Например, вы можете добавить в канал панель мониторинга Power BI, чтобы отслеживать реализацию какого-то аспекта вашего проекта.
+Channels are the collaboration spaces within a team where the actual work is done. Each channel represents a different topic or workstream within the overall team. For each channel, a folder is automatically created on the SharePoint site to store all files shared to that channel, making it easy for users to find and work on the documents they care about. Channels can also be extended with apps that are relevant to the particular workstream—for example, you can add a Power BI dashboard to a channel to track the success of one aspect of your project.
 
 **Типы доступа к командам**
 
 Типы доступа определяют, кто может присоединяться к командам:
 
--   В _закрытые_ команды могут вступать только участники, одобренные их владельцами. Это типичный вариант для команд по проектам и виртуальных команд в крупной организации.
--   В _открытые_ команды могут напрямую вступать любые пользователи вашей организации. Такие команды удобны для совместной работы по общим темам в различных отделах, работающих над различными проектами. Это хороший вариант по умолчанию для небольших организаций.
+-   _Private_ teams are restricted to team members approved by the team owner(s). This is a typical setting for project teams and virtual teams in a large organization.
+-   _Public_ teams are open for anyone in the organization to join directly. This is useful for collaboration on topics of general interest to people in different departments working on different projects. This is a good default setting for smaller organizations.
 
 **Типы пользователей команд и роли администратора** 
 
 Тип пользователя команды определяет доступные ему возможности управления:
 
--   _Создатель команды_ может создавать группы или команды в каталоге. Администратор может назначить этот тип определенному набору администраторов или пользователей. Дополнительные сведения: [Управление разрешениями пользователей на создание групп Office 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   _Владелец команды_ управляет членством и настройками команды. Каждой команде можно назначить до 10 владельцев.
+-   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
+-   _Team owner_ manages membership and settings for the team. There can be as many as 10 team owners per team.
 -   _Участник команды_ — это сотрудник вашей организации, который принимает участие в команде.
--   _Гость_ — это пользователь, который не входит в вашу организацию. Если в организации разрешен [гостевой доступ](guest-access.md), то вы можете приглашать в команду кого угодно по электронной почте.
+-   _Guest_ is a user who’s external to your organization. Anyone with an email address can be invited as a guest if your organization has enabled [guest access](guest-access.md).
 
 > [!Note]
 > Дополнительные сведения о владельцах команд и возможностях участников: [Назначение ролей и разрешений в Microsoft Teams](assign-roles-permissions.md).
 
-Роли администраторов Teams определяют возможности каждого владельца такой роли. Они описаны в следующей таблице.
+Teams admin roles determine what capabilities each admin role holder has. These are described in the following table.
 
 <table>
  <thead>
@@ -85,20 +85,20 @@ _Команда_ — объединение пользователей, кон�
 <tr>
 <td valign="top" colspan="2">Специалист по коммуникациям Teams</td>
 <td valign="top">Устранение проблем со связью в Teams при помощи базовых инструментов</td>
-<td valign="top">Доступ к странице профиля пользователя для устранения проблем со звонками в службе "Аналитика звонков". Возможность просмотра сведений только о запрашиваемом пользователе<sup>3</sup>.</td>
+<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>3</sup></td>
 </tr>
 <tr>
 <td valign="top" colspan="2">Инженер поддержки по коммуникациям Teams</td>
 <td valign="top">Устранение проблем со связью в Teams при помощи расширенных инструментов</td>
-<td valign="top">Доступ к странице профиля пользователя для устранения проблем со звонками в службе "Аналитика звонков". Просмотр всех записанных сведений о звонках<sup>3</sup>.</td>
+<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can view the full call record information.<sup>3</sup></td>
 </tr>
 <tr>
 </tbody>
 <tfoot>
 <tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">Модуль PowerShell — Skype для бизнеса</a> или <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Центр администрирования Microsoft Teams и Skype для бизнеса</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">Модуль PowerShell — Microsoft Teams</a> или <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Центр администрирования Microsoft Teams и Skype для бизнеса</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">Только <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Центр администрирования Microsoft Teams и Skype для бизнеса</a></td>
+">Модуль PowerShell — Skype для бизнеса</a> или <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Центр администрирования Microsoft Teams</a></td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">Модуль PowerShell — Microsoft Teams</a> или <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Центр администрирования Microsoft Teams</a></td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3">Только <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Центр администрирования Microsoft Teams</a></td>
 </tr>
 </tfoot>
 </table>
@@ -106,23 +106,23 @@ _Команда_ — объединение пользователей, кон�
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>Решения по ИТ, которые нужно принять перед началом работы
 
-Перед развертыванием Teams в вашей организации необходимо внедрить все требуемые в ней политики управления. Сюда могут входить соглашения об именовании, политики истечения срока действий, политики хранения и другое. В общем случае гораздо проще реализовать эти требования до того, как масштабировать развертывание в вашей организации.
+Before you roll Teams out to your organization, implement any governance policies that your organization has decided it requires. These can include items like naming conventions, expiration policies, retention policies, and more. Generally speaking, it’s much easier to implement these requirements prior to scaling your deployment across your organization.
 
 Дополнительные сведения: [Планирование управления в Teams](plan-teams-governance.md).
 
 ## <a name="teams-lifecycle-stages"></a>Этапы жизненного цикла команд
 
-В общем случае команда работает над каким-то проектом или целью. Даже если команда сформирована просто по общим интересам, ее участники со временем могут меняться, и обсуждение может сойти на нет, — только чтобы возникнуть снова в немного иной команде.
+Generally speaking, a team has a purpose that’s aligned with a project or accomplishing a goal. Even if a team was formed based on a shared interest, the team membership will probably change over time and the discussion might grow stale—only to surface again in a slightly different way in a different team.
 
 Каждая из команд проходит через три этапа: начало, когда команда создается и настраиваются каналы; основной этап использования, когда в команде ведется совместная работа в соответствии с ритмом рабочего процесса; и иногда — окончание, когда команда выполнила свою задачу и больше не приносит пользы. 
 
-Дополнительные сведения: [Управление командами в Центре администрирования Microsoft Teams и Skype для бизнеса](manage-teams-in-modern-portal.md).
+Дополнительные сведения см. в статье [Управление командами в Центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md).
 
 ### <a name="stage-1-beginning"></a>Этап 1: начало
 
 #### <a name="create-the-team"></a>Создание команды
 
-Первый шаг — определить цель команды, которая может быть связана с бизнес-процессами, структурой организации, проектами или просто с созданием открытого и свободного места для совместной работы. Вместе с определением цели команды необходимо подобрать ей подходящих участников. Для стимулирования открытого взаимодействия рекомендуем максимально расширить возможности участия, насколько это допустимо с практической точки зрения. 
+The first step is to define the goal of the team (which can range from business processes to org structure to projects, or simply creating an open, unstructured collaboration hub). Defining the team goal goes hand in hand with identifying the right people. As far as practicable, it’s a good idea to foster open collaboration by aiming for broad membership. 
 
 Владельцы команды приглашают участников, устанавливают ее аватар и описание, а также задают разрешения для каждого участника. 
 
@@ -133,15 +133,17 @@ _Команда_ — объединение пользователей, кон�
 
 Команды могут создаваться различными способами, например:
 
--   Создание команды с нуля. Добавление участников по конкретным адресам электронной почты, именам пользователей или списку рассылки.
--   Создание команды на основе уже существующей с использованием конфигурации ее каналов и приложений в качестве шаблона. Вы также можете использовать список участников этой команды.
+-   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
+-   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
 -   Добавление команды в существующую группу Office 365. При этом команда также получит доступ к почтовому ящику и сайту SharePoint этой группы.
--   Создание команд с помощью API Teams для Microsoft Graph или командлетов PowerShell. С помощью API можно создавать команды программным путем по глобальной адресной книге на основе атрибутов (например, региона или отдела) или бизнес-процессов (например, привлечения клиентов или состава учебных аудиторий).
+-   Use the Microsoft Graph Teams APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (such as region or department) or business processes (client engagements or classroom rosters, for example).
 
 Дополнительные сведения об организации команд:
 
--   [Рекомендации по работе с командами в Microsoft Teams](best-practices-organizing.md)
--   [Обзор развертывания Microsoft Teams](deployment-overview.md)
+-   [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
+-   [Развертывание чата, команды, канала и приложений](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+-   [Развертывание собраний и конференций](deploy-meetings-microsoft-teams-landing-page.md)
+-   [Развертывание голосовой связи в облаке](cloud-voice-landing-page.md)
 
 
 |    |     |
@@ -184,7 +186,7 @@ _Команда_ — объединение пользователей, кон�
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Точки принятия решений|<ul><li>Кто будет отслеживать использование для выявления проблем?</li><li>По каким показателям будет оцениваться работоспособность команды?</li><li>Определите команды, использование которых подошло к концу.</li><li>Определите угасшие команды, которые по-прежнему выполняют свою задачу, но которые нужно оживить.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Дальнейшее действие|<ul><li>Внедрите процедуры мониторинга работоспособности отдельных команд.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Следующий шаг|<ul><li>Внедрите процедуры мониторинга работоспособности отдельных команд.</li></ul>|
 
 ### <a name="stage-3-end"></a>Этап 3: окончание
 

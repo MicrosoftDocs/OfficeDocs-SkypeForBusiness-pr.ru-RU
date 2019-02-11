@@ -1,9 +1,8 @@
 ---
-title: Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
+title: Вопросы и ответы по Microsoft Teams | Возможности собраний, конференц-связи и звонков
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/16/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,22 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c030419a7176121bc102b83b7ff3551a00397b89
-ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
+ms.openlocfilehash: a41c58a1d158cd3d09582e064e7cd59777687f67
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28324944"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753983"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 
 > [!Tip]
-> Следующие видео помогут вам оптимально спланировать переход на Microsoft Teams со Skype для бизнеса: 
+> Следующие видео помогут вам оптимально спланировать переход на Microsoft Teams со Skype для бизнеса:
 > - [Общие сведения о переходе](https://aka.ms/teams-upgrade-intro) (33 минуты)
 > - [Планирование перехода](https://aka.ms/teams-upgrade-plan) (30 минут)
 > - [Сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop) (53 минуты)
 > - [Возможности администратора](https://aka.ms/teams-upgrade-admin) (24 минуты)
-
 
 ## <a name="intelligent-communications-vision"></a>Концепция интеллектуальных коммуникаций
 
@@ -43,13 +41,13 @@ ms.locfileid: "28324944"
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Существует ли крайний срок, к которому клиентам требуется перейти со Skype для бизнеса Online на Teams?
 
-Клиенты могут определить сроки перехода на Teams исходя из своих потребностей. Клиенты, которые пока не готовы к переходу, могут установить Teams и пользоваться возможностями решения параллельно с работой в Skype для бизнеса. Дополнительные сведения см. в разделе [Сосуществование и взаимодействие Teams и Skype для бизнеса](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Customers can determine the timing for moving to Teams that best meets their needs. Customers not quite ready to upgrade can still realize the benefits of Teams by adopting it alongside Skype for Business. To learn more, read [Understand Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 Чтобы помочь небольшим организациям, у которых может не быть выделенных ИТ-ресурсов, Майкрософт оказывает им поддержку с автоматическим переходом на Teams со Skype для бизнеса Online. Соответствующие клиенты получат уведомление об обновлении по электронной почте и в уведомлениях Центра сообщений. Сообщения будут содержать дополнительную информацию.
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Что произойдет со Skype для бизнеса Server?
 
-Мы понимаем, что у некоторых клиентов есть особые требования: они используют Skype для бизнеса Server и многим необходимо продолжать использовать локальную версию Skype для бизнеса для определенных пользователей или географических регионов. В таких случаях мы рекомендуем организациям установить Teams в дополнение к локальной версии Skype для бизнеса, чтобы получить новые возможности командной работы и интеграцию с другими бизнес-приложениями. Последняя версия [Skype для бизнеса Server 2019](https://docs.microsoft.com/skypeforbusiness/skype-for-business-server-2019) была выпущена в октябре 2018 г.
+We recognize that customers are using Skype for Business Server and many need to continue to use Skype for Business on-premises for some users or geographies due to their requirements. In these instances, we encourage organizations to adopt Teams in conjunction with Skype for Business on-premises to drive teamwork and collaboration as well as integration with other productivity apps. The latest version of [Skype for Business Server 2019](https://docs.microsoft.com/skypeforbusiness/skype-for-business-server-2019) was released in October 2018.
 
 ### <a name="what-will-happen-to-the-skype-brand"></a>Что произойдет с брендом Скайпа?
 
@@ -57,7 +55,7 @@ ms.locfileid: "28324944"
 
 ### <a name="what-are-the-benefits-of-teams-back-end-infrastructure"></a>В чем преимущества серверной инфраструктуры Teams?
 
-Продукт Teams, поддерживаемый новой серверной инфраструктурой Скайпа, создан для облака и построен на архитектуре микрослужб с широкими возможностями масштабирования. Эта архитектура эффективно использует полосу пропускания, обеспечивает более функциональную телеметрию и позволяет выполнять обслуживание и обновление, практически не затрагивая текущую работу. В результате пользователи смогут быстрее присоединяться к собраниям и эффективно работать в браузере без необходимости загрузки подключаемых модулей. Современная инфраструктура позволяет легко подключаться к службам Microsoft Cognitive Services, которые поддерживают транскрибирование, перевод, распознавание речи и машинное обучение — функции, которые существенно упрощают общение и совместную работу и повышают их эффективность.
+Продукт Teams, поддерживаемый новой серверной инфраструктурой Скайпа, создан для облака и построен на архитектуре микрослужб с широкими возможностями масштабирования. Эта архитектура эффективно использует полосу пропускания, обеспечивает более функциональную телеметрию и позволяет выполнять обслуживание и обновление, практически не затрагивая текущую работу. В результате пользователи смогут быстрее присоединяться к собраниям и эффективно работать в браузере без необходимости скачивания подключаемых модулей. Эта современная инфраструктура позволяет легко подключаться к службам Microsoft Cognitive Services, которые поддерживают транскрибирование, перевод, распознавание речи и машинное обучение — функции, которые существенно упрощают общение и совместную работу и повышают их эффективность.
 
 ### <a name="what-does-this-mean-for-existing-office-365-customers"></a>Как это отразится на существующих клиентах Office 365?
 
@@ -67,15 +65,15 @@ ms.locfileid: "28324944"
 
 Наша концепция по объединению интеллектуальных коммуникаций и совместной работы нацелена на Teams. Мы планируем продолжить поддержку службы и клиента Skype для бизнеса в Office 365, а также сохранить в клиенте доступ к локальному серверу и веб-службам. Дата окончания поддержки пока не установлена.
 
-Начиная с 1 октября 2018 года, новые покупатели Office 365, имеющие до 500 рабочих мест, будут подключены к Teams и не будут иметь доступа к Skype для бизнеса Online. Клиенты, уже использующие Skype для бизнеса Online, смогут продолжить работать с этим решением (в том числе подготавливать новых пользователей), пока не перейдут на Teams. Дополнительные сведения см. в статье [Microsoft Teams now the primary client for meetings and calling in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling) (Microsoft Teams теперь является основным клиентом для звонков и собраний в Office 365).
+Starting October 1, 2018, new Office 365 customers with fewer than 500 seats will be onboarded to Teams and will not have access to Skype for Business Online. Tenants already using Skype for Business Online will be able to continue doing so (including provisioning new users) until they complete their transition to Teams. To learn more please read [Microsoft Teams is now the primary client for meetings and calling in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deployingor-planning-to-deployskype-for-business-in-office-365"></a>Что бы вы порекомендовали клиентам, которые уже развертывают или планируют развернуть Skype для бизнеса в Office 365?
 
-Им следует рассмотреть [стратегию перехода со Скайпа на Teams](https://aka.ms/skype2teamsroadmap) и определить, соответствуют ли возможности Teams их бизнес-потребностям и срокам. В этом случае им нужно скорректировать свои планы и развернуть только Teams. Развертывание Teams включает в себя планирование и вложения в инфраструктуру, например оценку сети. Рекомендуем всем клиентам Office 365 начать использовать Teams отдельно или одновременно со Skype для бизнеса.
+Им следует рассмотреть [стратегию развития Microsoft 365](https://aka.ms/O365Roadmap) и определить, когда функции продукта начнут отвечать их бизнес-требованиям и установленным срокам. В этом случае им нужно скорректировать свои планы и развернуть только Teams. Развертывание Teams включает в себя планирование и вложения в инфраструктуру, например оценку сети. Рекомендуем всем клиентам Office 365 начать использовать Teams отдельно или одновременно со Skype для бизнеса.
 
 ### <a name="what-support-are-you-offering-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Какую поддержку вы оказываете клиентам, желающим перейти на Teams, особенно тем, кто сильно зависит в работе от Skype для бизнеса Online?
 
-Клиенты могут продолжать использовать Skype для бизнеса Online, пока Teams не начнет отвечать их бизнес-потребностям. Мы предоставим клиентам, желающим перейти на Teams, средства и рекомендации для выполнения процедуры перехода. Указания и рекомендации будут опубликованы на сайте [https://aka.ms/Skype2Teams](https://aka.ms/SkypeToTeams). При первом запуске программы предоставляется ознакомительный обзор, а внутри программы доступны подсказки, которые облегчат переход на Teams новым пользователям. Во время перехода клиенты смогут пользоваться FastTrack, [тренингом под руководством инструктора](instructor-led-training-teams-landing-page.md), службой поддержки и услугами наших партнеров.
+Customers may continue to use Skype for Business Online until Teams meets their business needs. We’ll assist customers who want to move users to Teams with tools and guidance to control and manage the process. Prescriptive guidance and best practices will be available at [https://aka.ms/Skype2Teams](https://aka.ms/SkypeToTeams). We’ll help ease the transition for users new to Teams with a specialized first-run experience and in-product coach marks. FastTrack, [instructor-led training](instructor-led-training-teams-landing-page.md), customer support, and partners will be available to help guide customers through the transition.
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>Что это означает с точки зрения лицензирования? Как клиенты будут оплачивать службы интеллектуальных коммуникаций в Teams?
 
@@ -91,37 +89,37 @@ ms.locfileid: "28324944"
 
 ### <a name="how-long-will-it-take-to-upgrade-my-organization-to-teams"></a>Сколько времени займет переход моей организации на Teams?
 
-То, как ваша организация будет переходить со Skype для бизнеса на Teams, вы решаете сами. Для упрощения планирования и реализации перехода вы можете выбрать один из двух основных планов: Upgrade Basic или Upgrade Pro. Upgrade Basic предназначен для небольших организаций, компаний с малым числом пользователей Skype для бизнеса или использующих только базовые рабочие нагрузки, такие как обмен сообщениями. Этот план позволяет перевести на Teams всю организацию сразу. Upgrade Pro предназначен для организаций, которые используют расширенные функции и которым был бы удобнее поэтапный переход. [Изучите оба этих плана](https://aka.ms/skypetoteams-home), чтобы определить оптимальный подход для своей организации.
- 
-### <a name="why-dont-i-see-a-teams-only-mode-in-the-microsoft-teams--skype-for-business-admin-center"></a>Почему в Центре администрирования Microsoft Teams и Skype для бизнеса нет режима "Только Teams"?
+Your organization's journey from Skype for Business to Teams can be defined by you. To assist in your planning and execution, you can choose from two core upgrade paths, Upgrade Basic and Upgrade Pro. Upgrade Basic is for smaller organizations or those with low Skype for Business adoption or core workloads such as IM, and is designed to upgrade your entire organization to Teams at once. Upgrade Pro is for organizations with expanded functionality who’d benefit from a more phased upgrade approach. [Review both paths](https://aka.ms/skypetoteams-home) to determine the optimal approach for your organization.
 
-Мы планируем активировать этот режим в ближайшие недели. В дальнейшем станут доступны другие режимы сосуществования, которые помогут оптимальнее контролировать переход вашей организации со Skype для бизнеса на Teams. Ознакомьтесь с [другими режимами сосуществования и перехода](https://aka.ms/skypetoteams-coexist), которые уже доступны или будут доступны в ближайшее время.
- 
+### <a name="why-dont-i-see-a-teams-only-mode-in-the-microsoft-teams-admin-center"></a>Почему в Центре администрирования Microsoft Teams нет режима "Только Teams"?
+
+We’ll be enabling this mode over the coming weeks. Further, you’ll see additional coexistence modes lighting up, enabling your organization to manage the Skype for Business to Teams journey that’s right for your organization. Learn more about the [coexistence and upgrade modes](https://aka.ms/skypetoteams-coexist) that are available or will be available soon.
+
 ### <a name="what-does-it-mean-to-have-teams-be-ready-for-my-organization"></a>Что означает "готовность" Teams для использования в моей организации?
 
-Как клиент Skype для бизнеса вы сможете определить, когда решение Teams будет готово к использованию в вашей организации. Это произойдет, когда в Teams появятся все доступные вам и применяемые вами функции Skype для бизнеса. За счет того, что функциональность остается прежней, пользователям будет проще переключиться на новое решение. Важно не только оценить готовность Teams для вашей организации, но и спланировать подготовку вашей организации к использованию Teams — от [проверки технической готовности](https://aka.ms/skypetoteams-technicalreadiness) до [реализации стратегии подготовки и адаптации пользователей](https://aka.ms/skypetoteams-userreadiness).
- 
+As an existing Skype for Business customer, you’ll know Teams is ready when it meets the Skype for Business functionality that’s currently enabled and active in your organization. Aligning your upgrade with the availability of relevant functionality will help ease your users’ transition from Skype for Business to Teams. In addition to understanding when Teams might be ready for your organization, you also want to plan for your organization’s readiness for Teams, from [validating technical readiness](https://aka.ms/skypetoteams-technicalreadiness) to [implementing a user readiness and acceptance strategy](https://aka.ms/skypetoteams-userreadiness).
+
 ### <a name="what-should-i-do-to-prepare-for-my-upgrade"></a>Как подготовиться к переходу?
 
-Успешный переход будет включать проверку технической готовности и готовности пользователей. Даже если выяснится, что ваша организация пока не готова к переходу на Teams, вы можете начать планировать его уже сегодня. В дальнейшем вы можете оценить возможности Teams, начав совместно использовать Teams и Skype для бизнеса. Приступите к [переходу со Скайпа на Teams](https://aka.ms/skypetoteams-home) уже сегодня!
- 
+A successful upgrade will include validating technical readiness in addition to user acceptance readiness. Even if you determine your organization isn’t quite ready to upgrade to Teams, you can begin the planning process today. Further, you can start realizing the value of Teams by enabling Teams alongside Skype for Business. Get started on your [Skype to Teams journey](https://aka.ms/skypetoteams-home) today.
+
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>Моя организация уже использует Teams совместно со Skype для бизнеса. Можно ли просто отключить Skype для бизнеса?
 
-Нет, для полного перехода на Teams необходимо перевести пользователей в режим **Только Teams**. Если ваша организация готова к переходу на Teams, выделите часть своего времени, чтобы проинформировать пользователей о переходе, и дайте им время, чтобы привыкнуть к Teams. Это поможет облегчить переход и уменьшить количество обращений в вашу службу поддержки. Шаблоны для информирования можно найти в [Комплекте инструментов для успешного перехода](https://aka.ms/UpgradeSuccessKit).
- 
+No, you'll want to switch users to **Teams Only** mode to complete the upgrade to Teams. If your organization is ready to upgrade to Teams, take time to communicate to users to let them know what’s happening and allow them to acclimate to Teams. This will help ensure they have a positive upgrade experience and help alleviate calls to your helpdesk. For sample communication templates, download our [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit).
+
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>К кому можно обратиться по вопросам, связанным с процессом перехода?
 
-Если у вас есть вопросы, связанные с переходом, обратитесь к назначенным вам контактным лицам, например из службы технической поддержки учетных записей Майкрософт, у наших партнеров или в FastTrack. Вы также можете создать обращение в службу поддержки в [Центре администрирования Microsoft Teams и Skype для бизнеса](https://admin.teams.microsoft.com/).
- 
+Если у вас есть вопросы, связанные с переходом, обратитесь к назначенным вам контактным лицам, например из службы технической поддержки учетных записей Майкрософт, у наших партнеров или в FastTrack. Вы также можете создать обращение в службу поддержки в [Центре администрирования Microsoft Teams](https://admin.teams.microsoft.com/).
+
 ### <a name="do-i-upgrade-all-users-on-my-tenant-together-or-can-i-opt-to-upgrade-select-users-at-a-time"></a>Нужно ли переводить на Teams всех пользователей моего клиента одновременно, или можно переводить по несколько пользователей за раз?
 
-Вы можете переводить пользователей на Teams в соответствии со своими потребностями: по одному, группами или всю организацию сразу. Чтобы подобрать оптимальный подход для вашей организации, рассмотрите доступные [режимы сосуществования и перехода](https://aka.ms/skypetoteams-coexist).
- 
+You have the flexibility to upgrade users as Teams meets your needs, whether it’s individuals, groups of users, or your entire organization. To help understand the optimal approach for your organization, review the various [coexistence and upgrade modes](https://aka.ms/skypetoteams-coexist) that you can enable.
+
 ### <a name="what-happens-after-my-users-are-upgraded"></a>Что произойдет после перевода моих пользователей на Teams?
 
 После перевода пользователей на Teams (режим **только Teams**):
 
-- Их клиент Skype для бизнеса будут отключен, так как все чаты и звонки будут перенесены в Teams. Этот клиент будет по-прежнему использоваться для ранее запланированных собраний Skype для бизнеса. Если удалить этот настольный клиент, то ранее запланированные собрания будут доступны пользователям в веб-приложении Skype для бизнеса.
+- Их клиент Skype для бизнеса будет отключен, так как все чаты и звонки будут перенесены в Teams. Этот клиент будет по-прежнему использоваться для ранее запланированных собраний Skype для бизнеса. Если удалить этот настольный клиент, то ранее запланированные собрания будут доступны пользователям в веб-приложении Skype для бизнеса.
 
 - Все собрания Skype для бизнеса, запланированные до перехода, будут работать в том виде, как они планировались, но все новые собрания будут назначаться в Teams.
 
@@ -131,13 +129,14 @@ ms.locfileid: "28324944"
 
 ### <a name="will-users-still-be-able-to-use-skype-for-business-after-i-activate-the-upgrade-notification-in-their-client"></a>Смогут ли пользователи по-прежнему работать в Skype для бизнеса после того, как я активирую уведомление о переходе в их клиентах?
 
-Да. Уведомление просто информирует пользователей о предстоящем переходе со Skype для бизнеса на Teams и приглашает их начать работу с Teams, если они этого еще не сделали. Рекомендуем дополнить это уведомление информационной кампанией (по электронной почте, в виде вопросов и ответов, с привлечением службы поддержки, с помощью постеров и информационных материалов), чтобы пользователи получили дополнительные сведения о переходе конкретно в вашей организации: время обновления, призывы пользователей к действиям, доступ к обучающим материалам и т. д. Шаблоны для информирования можно скачать в [Комплекте инструментов для успешного перехода](https://aka.ms/UpgradeSuccessKit).  
+Yes. The upgrade notification will simply alert users that Skype for Business will be upgrading to Teams and invite them to get started with Teams, if they haven’t already. We recommend complementing this notification with an awareness campaign (emails, FAQs, helpdesk readiness, posters/signage) to communicate further details specific to your organization, such as timing for the upgrade, calls-to-action for the user, access to training, and so on. For communication templates, download our [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit).  
 
 ## <a name="skype-to-teams-roadmap"></a>Переход со Skype для бизнеса на Teams: стратегия внедрения возможностей
 
 ### <a name="how-can-customers-learn-when-skype-for-business-capabilities-will-be-available-in-teams"></a>Как клиентам узнать, когда возможности Skype для бизнеса будут доступны в Teams?
 
-Стратегия перехода со Скайпа на Teams доступна здесь: [https://aka.ms/skype2teamsroadmap](https://aka.ms/skype2teamsroadmap). Мы будем публиковать сведения о запланированных к выпуску функциях Teams в [стратегии развития Office 365](https://go.microsoft.com/fwlink/?linkid=859057).
+См.[стратегию развития Microsoft 365](https://aka.ms/O365Roadmap).
+
 
 ### <a name="which-apis-and-sdks-will-be-made-available-for-teams"></a>Какие API-интерфейсы и пакеты SDK будут доступны для Teams?
 
@@ -155,7 +154,6 @@ ms.locfileid: "28324944"
 
 Дополнительные сведения о доступности Teams в облаке сообщества для государственных организаций (GCC) США можно найти [здесь](plan-for-government-gcc.md).
 
-
 ## <a name="calling-capabilities"></a>Возможности для звонков
 
 ### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Какие планы корпорация Майкрософт имеет относительно голосовых звонков по сети?
@@ -164,12 +162,11 @@ ms.locfileid: "28324944"
 
 ### <a name="what-is-the-guidance-for-customers-already-deployed-on-phone-system-cloud-pbx-in-skype-for-business-online"></a>Что рекомендуется делать клиентам, уже развернувшим телефонную систему (облачную УАТС) на базе Skype для бизнеса Online?
 
-Им следует рассмотреть [стратегию перехода на Teams](https://aka.ms/skype2teamsroadmap) и определить, когда функции продукта начнут отвечать их требованиям. Рекомендуем всем клиентам Office 365 начать использовать Teams отдельно или одновременно со Skype для бизнеса.
+Им следует рассмотреть [стратегию перехода на Teams](https://aka.ms/O365Roadmap) и определить, когда функции продукта начнут отвечать их требованиям. Рекомендуем всем клиентам Office 365 начать использовать Teams отдельно или одновременно со Skype для бизнеса.
 
 ### <a name="when-will-hybrid-customers-be-able-to-move-to-teams"></a>Когда клиенты с гибридным решением смогут перейти на Teams?
 
 На основе полученных отзывов мы упростили для клиентов процедуру подключения к Office 365 каналов связи и сторонних телефонных систем. Клиенты, которые хотят использовать собственную телефонную службу для звонков в Teams, могут сделать это с помощью общедоступной функции [прямой маршрутизации](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359). Прямая маршрутизация и планы звонков — две функции для поддержки тонового набора в Microsoft Teams.
-
 
 ## <a name="messaging-capabilities"></a>Возможности обмена сообщениями
 
@@ -203,7 +200,7 @@ ms.locfileid: "28324944"
 
 ### <a name="whats-planned-for-new-management-experiences"></a>Появятся ли какие-то новые функции управления?
 
-Корпорация Майкрософт создала [Центр администрирования Microsoft Teams и Skype для бизнеса](https://admin.teams.microsoft.com/) для ИТ-специалистов, работающих в Центре администрирования Office 365. Как и консоль администратора Skype для бизнеса, этот новый портал будет выступать в качестве единого ресурса для администрирования новых функций. Первоначальный выпуск портала, запланированный на первый квартал 2018 года, обеспечивает поддержку администрирования посредством корпоративной модели политик для клиентов, использующих только Teams, а также заменяет собой существующий интерфейс администрирования Teams. Этот портал позволит нам реализовать настраиваемые политики присутствия, чатов, приложений, собраний и голосовой связи и назначать эти политики пользователям Teams.
+Корпорация Майкрософт создала [Центр администрирования Microsoft Teams](https://admin.teams.microsoft.com/) для ИТ-специалистов, работающих в Центре администрирования Office 365. Как и консоль администратора Skype для бизнеса, этот новый портал будет выступать в качестве единого ресурса для администрирования новых функций. Первоначальный выпуск портала, запланированный на первый квартал 2018 года, обеспечивает поддержку администрирования посредством корпоративной модели политик для клиентов, использующих только Teams, а также заменяет собой существующий интерфейс администрирования Teams. Этот портал позволит нам реализовать настраиваемые политики присутствия, чатов, приложений, собраний и голосовой связи и назначать эти политики пользователям Teams.
 
 ## <a name="device-compatibility"></a>Совместимость устройств
 
