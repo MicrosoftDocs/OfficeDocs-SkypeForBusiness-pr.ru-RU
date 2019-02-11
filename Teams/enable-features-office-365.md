@@ -15,16 +15,16 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 383a4a18d466e367a31e4b99f9975b51cc5f559a
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: dfa908418061b4a9cc1d899d2ed64a9564b6f181
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988188"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753510"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Управление функциями Microsoft Teams в организации Office 365
 
-В скором времени все настройки Teams будут перенесены в новый Центр администрирования Microsoft Teams и Skype для бизнеса. Единственным компонентом Teams, который управляется в центре администрирования Microsoft 365, остаются "Приложения". 
+В скором времени все настройки Teams будут перенесены в новый Центр администрирования Microsoft Teams. Единственным компонентом Teams, который управляется в Центре администрирования Microsoft 365, остаются "Приложения". 
 
 Если не указано иное, по умолчанию параметры имеют значение **Вкл**.
 
@@ -38,31 +38,31 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>Приложения
 
-Приложения — это вкладки, соединители, боты или любое их сочетание, предоставляемые Teams (приложения по умолчанию, созданные Майкрософт) или сторонними поставщиками (внешние приложения). Раздел **Приложения** позволяет вам включать и отключать приложения по умолчанию, а также настраивать параметры для управления внешними приложениями.  
+Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
 
 #### <a name="default-apps"></a>Приложения по умолчанию
 
-Это такие приложения, как "Планировщик", "Благодарность" и "Погода", предоставляемые Teams. Чтобы включить приложение, установите для него флажок. Снимите флажок, чтобы отключить приложение. 
+These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
 ![Снимок экрана раздела "Приложения по умолчанию".](media/teams-tenant-wide-settings-default-apps.png "Снимок экрана раздела \"Приложения по умолчанию\"")
 
 #### <a name="external-apps"></a>Внешние приложения
 
-Эти приложения предоставляются сторонними поставщиками. Вы можете настроить для внешних приложений следующие параметры.
+These apps are provided by third parties. You can configure the following settings for external apps.
 
 ![Снимок экрана раздела "Внешние приложения".](media/teams-tenant-wide-settings-external-apps-settings.png "Снимок экрана раздела \"Внешние приложения\" с включаемыми и отключаемыми параметрами")
 
 - **Разрешить внешние приложения в Microsoft Teams**. При включении этого параметра пользователи могут добавлять внешние приложения, доступные вашей организации. 
 
-- **Разрешать новые внешние приложения по умолчанию**. При включении этого параметра пользователи могут активировать новые приложения сразу после их добавления в каталог приложений Teams. Если вы хотите контролировать новые приложения, отключите этот параметр. В этом случае не забывайте периодически просматривать новые доступные приложения, чтобы ваша организация не пропустила появление интересных программ. 
+- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
-- **Разрешить загрузку неопубликованных внешних приложений**. Если вы хотите включить некоторые внешние приложения и отключить другие, отключите этот параметр и в списке внешних приложений отключите приложения, к которым у пользователей не должно быть доступа. При включении этого параметра владельцы и участники команд, которым предоставлено разрешение, могут загружать в Teams неопубликованные приложения. 
+- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
 
 Дополнительные сведения: [Параметры администратора для приложений в Teams](admin-settings.md). 
 
 ## <a name="teams-org-wide-settings"></a>Параметры Teams на уровне организации
 
-Вы можете управлять параметрами пользователей на уровне организации в Центре администрирования Microsoft Teams и Skype для бизнеса. Для этого войдите в Центр администрирования Microsoft Teams и Skype для бизнеса и выберите **Параметры на уровне организации**. Вы можете настроить следующие параметры.
+Вы можете управлять параметрами пользователя для всей организации в Центре администрирования Microsoft Teams. Чтобы изменить параметры для всей организации, перейдите в Центр администрирования Microsoft Teams и выберите **Параметры для всей организации**. Вы можете настроить перечисленные ниже параметры.
 
 ### <a name="external-access"></a>Внешний доступ
 
@@ -76,7 +76,7 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 **Параметры Teams** позволяют интегрировать электронную почту, выбрать облачные хранилища, организовать взаимодействие со Skype для бизнеса и настроить ваши устройства.
 
-#### <a name="email-integration"></a>Интеграция электронной почты
+#### <a name="email-integration"></a>Интеграция с электронной почтой
 
 Включите эту функцию, чтобы пользователи могли отправлять письма на электронный адрес канала в Teams. Это будет доступно для любого канала принадлежащей им команды. Кроме того, пользователи могут отправлять электронные письма в любые каналы команд, участникам которых разрешено добавлять соединители. Чтобы включить интеграцию электронной почты, установите для параметра **Разрешить пользователям отправлять письма на электронный адрес канала** значение **Вкл**. 
 
@@ -116,12 +116,12 @@ Microsoft Teams позволяет организациям назначать 
 
 #### <a name="app-preferences"></a>Настройки приложений
 
-Здесь вы можете выбрать приложение, в котором пользователи будут присоединяться к собраниям Skype для бизнеса (Skype для бизнеса или [приложение "Собрания Скайпа"](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Этот параметр не зависит от настройки режима сосуществования.
+Здесь вы можете выбрать приложение, в котором пользователи будут присоединяться к собраниям Skype для бизнеса (Skype для бизнеса или [приложение "Собрания Скайпа"](https://support.office.com/ru-RU/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Этот параметр не зависит от настройки режима сосуществования.
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Как узнать, какие функции доступны?
 
-Сведения о новых функциях Teams см. на странице [Стратегия развития Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Для получения дополнительных сведений о новых и планируемых функциях Teams см. страницу [Новые возможности](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) и [блог Tech Community, посвященный Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Сведения о новых функциях Teams см. на странице [Стратегия развития Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Для получения дополнительных сведений о новых и планируемых функциях Teams см. страницу [Новые возможности](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) и [блог Tech Community, посвященный Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 Сведения о том, какие роли могут выполнять функции администратора, см. в статье [Управление Microsoft Teams с ролями администратора](using-admin-roles.md).
