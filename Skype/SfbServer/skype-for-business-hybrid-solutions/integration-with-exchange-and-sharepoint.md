@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Сводка: Сведения о Скайп Business Server 2015 интеграции с Exchange и SharePoint.'
-ms.openlocfilehash: f0437e4a93bfd897fb04e29ce2729a30789ce889
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: 6bd76957a18c8cfcbff02bf1d92f944bb76cb8b2
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690454"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890719"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Интеграция с Exchange и SharePoint
 
@@ -47,7 +47,7 @@ ms.locfileid: "29690454"
 |Присоединение к собраниям по сети в мобильных клиентах  <br/> |Для получения дополнительных сведений см [Развертывание мобильных устройств](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx).  <br/> |
 |Публикация состояния в соответствии со сведениями о доступности в календаре Outlook  <br/> ||
 |Список контактов (из единого хранилища контактов)  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Lync 2013 или Скайп для настольных компьютеров клиента Business является обязательным.  <br/>  Дополнительные сведения можно [Настроить Скайп для 2015 Business Server для использования в единое хранилище контактов](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
-|Фотографии с высоким разрешением контакт в клиент Lync 2013, Скайп для клиента Business и Lync Web App.  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Дополнительные сведения содержатся в разделе [Настройка использования фотографий высокого разрешения в Скайп для Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
+|Фотографии с высоким разрешением контакт в клиент Lync 2013, Скайп для клиента Business и Lync Web App.  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Дополнительные сведения содержатся в разделе [Настройка использования фотографий высокого разрешения в Скайп для Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Для фотографии на Скайп для бизнес-приложение для MAC и мобильные устройства интеграцию Скайп для Business Server 2015 и Exchange Server должны настраиваться как описано в [Настройка партнерских приложений в Скайп для Business Server и Exchange Server](../deploy/integrate-with-exchange-server/configure-partner-applications.md). <br/> |
 |Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Почтовый ящик exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> ||
 |Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> |Требуется Exchange 2016 или Exchange 2013.  <br/> Для получения дополнительных сведений см [Контрольный список развертывания для архивации](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
@@ -67,7 +67,7 @@ ms.locfileid: "29690454"
 |Присоединение к собранию по сети в мобильных клиентах  <br/> ||
 |Публикация состояния в соответствии со сведениями о доступности в календаре Outlook  <br/> ||
 |Список контактов (из единого хранилища контактов).  <br/> |Lync Server только 2013. Lync 2013 или Скайп для настольных компьютеров клиента Business является обязательным.  <br/> Дополнительные сведения можно [Настроить Скайп для 2015 Business Server для использования в единое хранилище контактов](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
-|Фотографии с высоким разрешением контакт в клиент Lync 2013, Скайп для клиента Business и Lync Web App.  <br/> |Дополнительные сведения содержатся в разделе [Настройка использования фотографий высокого разрешения в Скайп для Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
+|Фотографии с высоким разрешением контакт в клиент Lync 2013, Скайп для клиента Business и Lync Web App.  <br/> |Дополнительные сведения содержатся в разделе [Настройка использования фотографий высокого разрешения в Скайп для Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Для фотографии на Скайп для бизнес-приложение для MAC и мобильные устройства интеграцию Скайп для Business Server 2015 и Exchange Server должны настраиваться как описано в [Настройка интеграции между локальной Скайп для Business Server и Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md). <br/> |
 |Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Почтовый ящик Exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> ||
 |Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> |Для получения дополнительных сведений см [Контрольный список развертывания для архивации](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |

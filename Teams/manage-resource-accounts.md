@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Управление учетными записями ресурсов в группах Майкрософт
-ms.openlocfilehash: 53d335b4f345967494767445ec206efcb6f78388
-ms.sourcegitcommit: e091201f2bcb86bee011e7ac0de741a6c673cedd
+ms.openlocfilehash: a40d281349f6b5f8cdc8a95dbb77a7d3f9da8cc4
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770718"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890758"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>Управление учетными записями ресурсов в группах 
 
@@ -33,7 +33,7 @@ ms.locfileid: "29770718"
 
 Для начала работы необходимо помнить следующее:
   
-- Ваша организация должна иметь (как минимум) лицензию типа "Корпоративный E3 с**телефонной системой"** или лицензию "Корпоративный E5". Число пользовательских лицензий **Телефонной системой** , для которых влияет на число номеров службы, которые доступны для использования для учетных записей ресурсов, назначенных для вызова очередей или автосекретарей. Число учетных записей ресурсов, которые могут возникнуть, зависит от числа лицензий **Телефонной системой** и **Звук конференц-связи** , назначенные в вашей организации. Дополнительные сведения о лицензировании видеть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Ваша организация должна иметь (как минимум) лицензию типа "Корпоративный E3 с**телефонной системой"** или лицензию "Корпоративный E5". Число пользовательских лицензий **Телефонной системой** , для которых влияет на число номеров службы, которые доступны для использования для учетных записей ресурсов, назначенных для вызова очередей или автосекретарей. Число учетных записей ресурсов, которые могут возникнуть, зависит от числа лицензий **Телефонной системой** и **Звук конференц-связи** , назначенные в вашей организации. Дополнительные сведения о лицензировании видеть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
     > [!NOTE]
     > Для перенаправления вызовов тем сотрудникам организации, которые находятся в сети, им необходимо предоставить лицензию на **телефонную систему** и разрешить доступ к корпоративной голосовой связи, либо предоставить тарифные планы Office 365. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Для предоставления сотрудникам доступа к корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -89,19 +89,19 @@ Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3
 
 Для реализации, которые являются гибридное развертывание с Скайп для Business Server:
 
-[Планирование облачных автосекретаря](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant.md)
+[Планирование облачных автосекретаря](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
-[Настройка автосекретарей облако](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant.md)
+[Настройка автосекретарей облако](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
 Для реализации в группы или Скайп для бизнеса в Интернет:
 
-[Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
+[Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants)
 
-[Настройка автосекретаря телефонной системы](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[Настройка автосекретаря телефонной системы](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Пример для малого бизнеса — Настройка автосекретарю.](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Создание очереди звонков в телефонной системе](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+[Создание очереди звонков в телефонной системе](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Новый CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
