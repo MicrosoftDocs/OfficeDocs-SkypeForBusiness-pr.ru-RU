@@ -1,5 +1,5 @@
 ---
-title: Управление учетными записями ресурсов в группах
+title: Управление учетными записями ресурсов в Teams
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Управление учетными записями ресурсов в группах Майкрософт
-ms.openlocfilehash: a40d281349f6b5f8cdc8a95dbb77a7d3f9da8cc4
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 3bab9f4c76a7bc5b0baf534b17ca3f5abaf11478
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29890758"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964412"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>Управление учетными записями ресурсов в группах 
 
@@ -95,7 +95,7 @@ Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3
 
 Для реализации в группы или Скайп для бизнеса в Интернет:
 
-[Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants)
+[Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
 
 [Настройка автосекретаря телефонной системы](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

@@ -16,14 +16,14 @@
 <!-- ============================================================ -->
 
 
-# [Чата, групп, каналы, & приложений](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+# [Чат, команды, каналы и приложения](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Общие сведения о рабочих групп и каналы](teams-channels-overview.md)
 ## [Назначение владельцев и участников команд в Microsoft Teams](assign-roles-permissions.md)
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ## [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
 ## [Что системы обмена сообщениями политики?](messaging-policies-in-teams.md)
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
-## [Начало работы с шаблонами здравоохранения группами Майкрософт](healthcare/healthcare-templates.md)
+## [Начало работы с шаблонами Microsoft Teams для здравоохранения](healthcare/healthcare-templates.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
 ## [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
@@ -38,7 +38,7 @@
 ### [Используйте встроенные и пользовательские вкладки](built-in-custom-tabs.md)
 ### [Использование Office 365 и настраиваемые соединители](Office-365-custom-connectors.md)
 ### [Публикация приложений в каталог приложений группы клиента](tenant-apps-catalog-teams.md)
-### [Настройка собрания Скайп приложение для работы с группами](configure-skype-meetings-app-to-work-with-teams.md)
+### [Настройка приложения собраний Skype для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 
@@ -58,10 +58,10 @@
 
 ## [Управление группами](using-admin-roles.md)
 ### [Управление функциями группами в организации](enable-features-office-365.md)
-### [Управление группами во время перехода к центру администрирования новых групп Майкрософт](manage-teams-skypeforbusiness-admin-center.md)
-### [Управление группами в центре администрирования группами Майкрософт](manage-teams-in-modern-portal.md)
+### [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+### [Управление Teams в Центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md).
 ### [Назначение группы владельцев и членов в группы](assign-roles-permissions.md)
-### [Настройка собрания Скайп приложение для работы с группами](configure-skype-meetings-app-to-work-with-teams.md)
+### [Настройка приложения собраний Skype для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
 ### [Использовать встроенный перевод сообщения](inline-message-translation-teams.md)
 ### [Область поиска в каталоге Microsoft Teams](teams-scoped-directory-search.md)
@@ -76,6 +76,7 @@
 ### Подготовка к развертыванию групп
 #### [Проверка готовности среды для Teams](environment-readiness.md).
 #### [Подготовка сети организации к использованию Teams](prepare-network.md)
+#### [Прокси-серверы для группы или Скайп для бизнеса в Интернет](proxy-servers-for-skype-for-business-online.md)
 #### [Ограничения и спецификации для групп](limits-specifications-teams.md)
 #### [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
 #### [Получение средств для развертывания Teams](rollout-tools.md)
@@ -114,7 +115,7 @@
 <!-- ============================================================ -->
 
 
-# [Конференц-связи & собраний](deploy-meetings-microsoft-teams-landing-page.md)
+# [Собрания и конференции](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Управление параметрами собраний](meeting-settings-in-teams.md)
 ## [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -268,7 +269,7 @@
 <!-- ============================================================ -->
 
 
-# [Облачная система голосовой связи](cloud-voice-landing-page.md)
+# [Голосовая связь в облаке](cloud-voice-landing-page.md)
 ## Телефонная система
 ### [Что такое телефонной системой](what-is-phone-system-in-office-365.md)
 ### [Возможности телефонной системы](here-s-what-you-get-with-phone-system.md)
@@ -305,9 +306,9 @@
 ### [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
 ### Маршрутизация на основе расположения
 #### [Терминология маршрутизации на основе расположения](location-based-routing-terminology.md)
-#### [Планирование зависимостью от расположения маршрутизации для непосредственного](location-based-routing-plan.md)
+#### [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)
 #### [Настройка параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
-#### [Включение зависимостью от расположения маршрутизации для непосредственного](location-based-routing-enable.md)
+#### [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)
 ### Технический справочник по прямой маршрутизации
 #### [Отработка отказа канала связи при исходящих звонках](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -504,7 +505,7 @@
 #### [Настройка кредитов на связь для организации](set-up-communications-credits-for-your-organization.md)
 #### [Добавление средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
 
-### [Команды Microsoft Online вызова денежных средств](microsoft-teams-online-call-flows.md)
+### [Потоки онлайн-вызовов в Microsoft Teams](microsoft-teams-online-call-flows.md)
 
 ## Практические руководства для крупных организаций
 ### [Руководство по Вызова в группах](Tutorial-calling-in-teams.yml)
@@ -574,6 +575,7 @@
 ### [Использование службы](upgrade-operate-my-service.md)
 ### [Отслеживание качества](upgrade-monitor-quality.md)
 ### [Улучшения службы](upgrade-enhance-my-service.md)
+
 ## [Руководство. Переход со Skype для бизнеса на Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Вопросы и ответы](FAQ-journey.md)
 ## Дополнительная информация
@@ -631,9 +633,9 @@
 #### [Качество взаимодействия руководство по решению](quality-of-experience-review-guide.md)
 #### [Настройка качества обслуживания в группах](QoS-in-Teams.md)
 #### [Реализация качества обслуживания и мониторинга качества звонка](monitor-call-quality-qos.md)
-#### [Вызов аналитики и панель мониторинга качества звонка](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [Настройка вызова аналитики](set-up-call-analytics.md)
-#### [Устранение неполадок с качеством звонков с помощью средства аналитики звонков](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+#### [Аналитика звонков и панель мониторинга качества звонков](difference-between-call-analytics-and-call-quality-dashboard.md)
+#### [Настройка аналитики звонков](set-up-call-analytics.md)
+#### [Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 #### [Включение и использование панели мониторинга качества звонков](turning-on-and-using-call-quality-dashboard.md)
 #### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Классификация потоков в Панели мониторинга качества звонка](stream-classification-in-call-quality-dashboard.md)
@@ -642,12 +644,12 @@
 
 ## Teams для образовательных учреждений
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
-### [Ресурсы группы для образовательных учреждений "Администраторы"](resources-teams-edu.md)
+### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
 ### [Управления Microsoft Education вопросы и ответы для администраторов](plan-teams-governance-edu.md)
 
 ## Группы конструкторов firstline сотрудников
 ### [Управление приложение смены для вашей организации в группах](manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Начало работы с группами розничной шаблонов](get-started-with-retail-teams-templates.md)
+### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 
 ## [Планирование для государственных учреждений Microsoft 365 - GCC](plan-for-government-gcc.md)
 ### [Планирование для государственных учреждений Microsoft 365 - GCC высокой](plan-for-government-gcc-high.md)

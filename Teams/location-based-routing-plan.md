@@ -1,5 +1,5 @@
 ---
-title: Планирование зависимостью от расположения маршрутизации для непосредственного
+title: Планирование маршрутизации на основе расположения для прямой маршрутизации
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82e11cb47aeeaf0c88ba0f6179f99195af9a7473
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 8faf0f70b509a851b8365bea5ce4a69a57f198d1
+ms.sourcegitcommit: 09c2094104ee055cb1cb047a5fab8f9fd02b123e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771034"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29967458"
 ---
-# <a name="plan-location-based-routing-for-direct-routing"></a>Планирование зависимостью от расположения маршрутизации для непосредственного
+# <a name="plan-location-based-routing-for-direct-routing"></a>Планирование маршрутизации на основе расположения для прямой маршрутизации
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -30,7 +30,7 @@ ms.locfileid: "29771034"
 
 Здесь вы получите Обзор маршрутизации на основе расположения и руководство для помощи при планировании для него. Когда вы будете готовы для применения и Включение маршрутизации на основе местоположения, см.
 - [Развертывание параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
-- [Включение зависимостью от расположения маршрутизации для непосредственного](location-based-routing-enable.md)
+- [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)
 
 Маршрутизация на основе расположения — функция, которая позволяет ограничить международную сервера-посредника на основе политики и географического расположения пользователя во время входящих или исходящих вызовов ТСОП. 
 
@@ -235,7 +235,7 @@ ms.locfileid: "29771034"
 - Группы мобильных клиентов (операций ввода-вывода и Android (en))
 - Команды IP-телефонов
 
-Скайп пользователей не поддерживаются.
+Команды веб-клиента и Скайп пользователей не поддерживаются.
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>Функции, не поддерживаемые маршрутизацией на основе расположения
 
@@ -251,5 +251,5 @@ ms.locfileid: "29771034"
 Перейдите к [Настройка параметров сети для маршрутизации на основе местоположения](location-based-routing-configure-network-settings.md).
 
 ### <a name="related-topics"></a>Связанные разделы
-- [Включение зависимостью от расположения маршрутизации для непосредственного](location-based-routing-enable.md)
+- [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)
 - [Терминология маршрутизации на основе расположения](location-based-routing-terminology.md)

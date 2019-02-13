@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c881c6c40b8877fee46e3956970a0c305d0a4a
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 81b47a5a77a04becee748e4285641ce341fb65d4
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349531"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964428"
 ---
 ![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")
 
@@ -211,7 +211,7 @@ Microsoft Teams поддерживает различные конечные т�
 
 Некоторые поставщики прокси-серверов предоставляют автоматическую процедуру для обновления конфигурации. Если у вашего поставщика такая процедура не предусмотрена, вы можете скачать обновленный файл PAC по адресу <https://aka.ms/o365proxies>.
 
-[Прокси-серверы для Skype для бизнеса Online и Teams](/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Прокси-серверы для группы или Скайп для бизнеса в Интернете и рабочих групп](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Брандмауэры
 
