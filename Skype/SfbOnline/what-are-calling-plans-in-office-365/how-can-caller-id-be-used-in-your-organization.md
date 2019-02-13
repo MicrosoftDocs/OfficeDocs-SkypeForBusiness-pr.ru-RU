@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Идентификатором вызывающего абонента можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, которая называется CallingLineIdentity.
-ms.openlocfilehash: c8a823235c3c3fedaf71d42e8482c5f4579b80ef
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 4ae5c54d68410096104f61bf8cdbd71fa0628003
+ms.sourcegitcommit: 99bc2db8cb857b6fd2ddf9b837198be849dafb9b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958174"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29981917"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Использование идентификатора абонента в организации
 
@@ -49,7 +49,7 @@ ms.locfileid: "24958174"
   
 - Номер телефона, назначенный пользователю, который задан по умолчанию.
     
-- Телефонный номер, который классифицируется как *служебный* и *бесплатный* номер в ваших тарифных планах для склада телефонных номеров Office 365. Он обычно назначается автосекретарю или очереди звонков организации.
+- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
     
 - Задан как анонимный.
     
@@ -63,13 +63,13 @@ ms.locfileid: "24958174"
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Контроль пользователем идентификатора вызывающего абонента
 
-Атрибут EnableUserOverride позволяет одному или нескольким пользователям изменять их настройку идентификатора вызывающего абонента на **Анонимный**. Эта функция применяется только при настройке политики CallingLineIdentity с параметром CallingIDSubstitute LineURI или заменой. Значение по умолчанию EnableUserOverride — False.
+The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-Ваши пользователи могут установить их идентификатор вызывающего абонента как **Анонимный** с помощью вкладки **Call Forward Settings** в клиенте Skype для бизнеса для настольных приложений.
+Конечных пользователей можно установка их идентификатора звонящего с помощью вкладка " **Параметры** " в Скайп для настольных компьютеров клиента Business **Анонимный доступ** выберите **звонки конечного пользователя** (Если эта возможность включена администратором), выберите **Скрыть Мои номера номер и профилей сведения для всех вызовов **.
   
 ||||
 |:-----|:-----|:-----|
-|**Windows** <br/> |**Версия** <br/> |**Поддерживается** <br/> |
+|**Windows** <br/> |** Версия** <br/> |**Поддерживается** <br/> |
 |Технология «нажми и работай»  <br/> |Текущая платформа канала выпущена 6 декабря 2016 года - версия 1611 (сборка 7571.2072)  <br/> |Да  <br/> |
 |Технология «нажми и работай»  <br/> |Первый выпуск для отложенного канала был выпущен 22 февраля 2017 года - версия 1701 (сборка 7766.2060)  <br/> |Да  <br/> |
 |Технология «нажми и работай»  <br/> |Отложенный канал выпущен 13 июня 2017 г. - версия 1701 (сборка 7766.2092)  <br/> |Да  <br/> |
@@ -78,7 +78,7 @@ ms.locfileid: "24958174"
    
 ## <a name="inbound-caller-id"></a>Идентификация звонящего абонента
 
-Атрибут BlockIncomingCallerID обеспечивает блокирование идентификатора абонента на входящие вызовы в сети ТСОП. Можно задать этот атрибут, но он не доступен вашим пользователям на странице параметров пользователей. И в настоящее время он доступен только при возможности подключения к сети ТСОП.
+The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
   
 Чтобы задать идентификатор вызывающего абонента, см. [Назначение идентификатора абонента пользователю](set-the-caller-id-for-a-user.md).
   
