@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e1140fd30baa027ded92494b7455aab5500a726
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
+ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770902"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29992819"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams 
 =========================================
@@ -46,7 +46,7 @@ ms.locfileid: "29770902"
 <sup>2</sup> обнаружения электронных данных и юридическое удержание для соответствия требованиям в сообщениях канала поддерживается для все варианты размещения.  
 <sup>3</sup> группами частной беседы сообщений еще не поддерживаются для юридическое удержание для этого варианта размещения.
 
-<sup>4</sup> хранения будет использоваться почтового ящика теневой online пользователя для хранения сообщений. [Поддерживает команды Microsoft eDiscover для групп пользователей в среде гибридное развертывание Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> хранения будет использоваться почтового ящика теневой online пользователя для хранения сообщений. [Майкрософт поддерживает команды обнаружения электронных данных для группы пользователей в среде гибридное развертывание Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
 
 <sup>5</sup> групп Пользователи с локально почтовых ящиков Exchange могут использовать голосовой почты с группами и получать сообщения голосовой почты в Outlook, но сообщения голосовой почты не будут доступны для просмотра или воспроизвести внутри групп клиента.
 

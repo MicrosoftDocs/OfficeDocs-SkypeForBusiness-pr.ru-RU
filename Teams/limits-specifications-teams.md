@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77ee256352925ad92f0d74f7a9fb60704847709a
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 167c62c9f7fea440dea30b3946c95fc382a9757b
+ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770910"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29992811"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 =============================================
@@ -31,7 +31,7 @@ ms.locfileid: "29770910"
 |Функция    | Максимальное ограничение |
 |-----------|---------------|
 |Число групп, которые может создать пользователь | Может быть limit&sup1 250 объектов;         |
-|Число участников в группы | 2500       |
+|Число участников в группы | 5 000       |
 |Число элементов в [масштабе организации группы](create-an-org-wide-team.md) | 2500       |
 |Число групп, которое может создать глобальный администратор        |  500 000   |
 |Число групп, которые могут возникнуть клиента Office 365    | 500 000     |
