@@ -581,6 +581,7 @@
 ## Дополнительная информация
 ### [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
 ### [Сосуществование со Skype для бизнеса](coexistence-chat-calls-presence.md)
+### [Группы взаимодействия с пользователем и соответствия режимы сосуществования](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 #       
 #        
