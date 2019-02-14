@@ -65,11 +65,11 @@
 ### [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
 ### [Использовать встроенный перевод сообщения](inline-message-translation-teams.md)
 ### [Область поиска в каталоге Microsoft Teams](teams-scoped-directory-search.md)
-### [Группы аналитики и отчетов](teams-analytics-and-reports/teams-reporting-reference.md)
+### [Группы аналитики и отчетов в центре администрирования группами Майкрософт](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Отчет об использовании группы](teams-analytics-and-reports/teams-usage-report.md)
 #### [Отчет по действиям пользователей группам](teams-analytics-and-reports/user-activity-report.md) 
 #### [Отчет об использовании групп устройств](teams-analytics-and-reports/device-usage-report.md)
-#### [Использование отчетов о действиях для групп](teams-activity-reports.md)
+### [Отчеты об активности групп в центре администрирования Microsoft 365](teams-activity-reports.md)
 
 
 ## Справочные материалы
@@ -129,34 +129,58 @@
 
 ## [Аудиоконференции](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Руководство по Аудиоконференций в группах](Tutorial-Audio-Conferencing.yml)
 ### [Аудиоконференции в Office 365](audio-conferencing-in-office-365.md)
-### [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Общие вопросы по аудиоконференциям](audio-conferencing-common-questions.md)
-### [Поминутная оплата аудиоконференций](audio-conferencing-pay-per-minute.md)
-### [Изменение параметров моста аудиоконференций](change-the-settings-for-an-audio-conferencing-bridge.md)
-### [Изменение номеров телефонов для моста аудиоконференций](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-### [Исходящие звонки, позволяющие другим людям присоединиться к собранию](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
-### [Отключение бесплатных номеров для определенных пользователей](disabling-toll-free-numbers-for-specific-teams-users.md)
-### [Автоматическая отправка пользователям писем при смене настроек](emails-sent-to-users-when-their-settings-change-in-teams.md)
-### [Включение и отключение отправки писем при смене настроек аудиоконференций](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
-### [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-### [Управление настройками аудиоконференций для пользователя](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-### [Управление параметрами звука конференц-связи для вашей организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-### [Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Сброс идентификатора конференции для пользователя](reset-a-conference-id-for-a-user-in-teams.md)
-### [Сброс ПИН-кода аудиоконференции для пользователя](reset-the-audio-conferencing-pin-in-teams.md)
-### [Просмотр списка номеров для аудиоконференций](see-a-list-of-audio-conferencing-numbers-in-teams.md)
-### [Просмотр списка пользователей, активированных для аудиоконференций](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
-### [Просмотр и сброс идентификатор конференции, назначенных пользователю](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
-### [Отправка пользователям электронных писем с информацией о конференции с телефонным подключением](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
-### [Установка языков автосекретаря для аудиоконференций](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
-### [Задание телефонных номеров, включаемых в приглашения](set-the-phone-numbers-included-on-invites-in-teams.md)
-### [Установка длины ПИН-кода для аудиоконференций](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
-### [Начало аудиоконференции по телефону без ПИН-кода](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
+### [Руководство по Аудиоконференций в группах](Tutorial-Audio-Conferencing.yml)
 ### [Пробная и платная аудиоконференции в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-### [Включение и отключение оповещений о подключении к собранию и выходе из него](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 ### [Бесплатный период исходящих звонков для аудиоконференций](complimentary-dial-out-period.md)
+
+
+### [Настройка звука конференц-связи для Скайп для бизнеса и группами Майкрософт](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+### [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+### Управление звукового конференц-канала
+#### [Изменение номеров телефонов для моста аудиоконференций](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+#### [Изменение настроек для моста аудиоконференций](change-the-settings-for-an-audio-conferencing-bridge.md)
+#### [Просмотр списка номеров для аудиоконференций](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+#### [Установка языков автосекретаря для аудиоконференций](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+
+### [Управление параметрами звука конференц-связи для вашей организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Поминутная оплата аудиоконференций](audio-conferencing-pay-per-minute.md)
+
+
+### [Управление параметрами звука конференц-связи для пользователей](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+
+#### [Просмотр списка пользователей, активированных для аудиоконференций](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
+
+#### [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+#### [Сброс идентификатора конференции для пользователя](reset-a-conference-id-for-a-user-in-teams.md)
+#### [Сброс ПИН-кода аудиоконференции для пользователя](reset-the-audio-conferencing-pin-in-teams.md)
+#### [Автоматическая отправка пользователям писем при смене настроек](emails-sent-to-users-when-their-settings-change-in-teams.md)
+#### [Включение и отключение отправки писем при смене настроек аудиоконференций](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+#### [Отключение бесплатных номеров для определенных пользователей](disabling-toll-free-numbers-for-specific-teams-users.md)
+#### [Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Просмотр и сброс идентификатор конференции, назначенных пользователю](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
+#### [Отправка пользователям электронных писем с информацией о конференции с телефонным подключением](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+
+### Управление параметрами собраний для аудиоконференций
+
+#### [Исходящие звонки, позволяющие другим людям присоединиться к собранию](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
+#### [Включение и отключение оповещений о подключении к собранию и выходе из него](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+#### [Установка длины ПИН-кода для аудиоконференций](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
+#### [Задание телефонных номеров, включаемых в приглашения](set-the-phone-numbers-included-on-invites-in-teams.md)
+#### [Начало аудиоконференции по телефону без ПИН-кода](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
+
+
+
+
+
+
+
+
+
+
 
 
 ## [Облако видео взаимодействия](cloud-video-interop.md)
