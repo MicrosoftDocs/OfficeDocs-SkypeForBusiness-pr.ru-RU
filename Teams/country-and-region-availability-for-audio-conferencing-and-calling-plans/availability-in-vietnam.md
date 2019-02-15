@@ -1,7 +1,7 @@
 ---
 title: Доступность в Вьетнам
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Вьетнам.
-ms.openlocfilehash: ca6d1d2a2171f42c360bcf2a0108a0b68e6db8bb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9a0f4f732fc7729a0cf61d962c31825907c2e9e6
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016399"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048900"
 ---
 # <a name="availability-in-vietnam"></a>Доступность в Вьетнам
 
