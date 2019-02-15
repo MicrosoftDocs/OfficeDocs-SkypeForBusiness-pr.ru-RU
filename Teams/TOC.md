@@ -21,7 +21,7 @@
 ## [Назначение владельцев и участников команд в Microsoft Teams](assign-roles-permissions.md)
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ## [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
-## [Что системы обмена сообщениями политики?](messaging-policies-in-teams.md)
+## [Управление политиками обмена мгновенными сообщениями](messaging-policies-in-teams.md)
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 ## [Начало работы с шаблонами Microsoft Teams для здравоохранения](healthcare/healthcare-templates.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
@@ -117,6 +117,7 @@
 
 # [Собрания и конференции](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
+## [Управление политиками собрания](meeting-policies-in-teams.md)]
 ## [Управление параметрами собраний](meeting-settings-in-teams.md)
 ## [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
