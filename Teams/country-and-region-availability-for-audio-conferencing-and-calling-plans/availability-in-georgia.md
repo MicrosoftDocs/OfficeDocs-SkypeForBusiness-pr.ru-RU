@@ -1,7 +1,7 @@
 ---
 title: Доступность в Грузия
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Грузия.
-ms.openlocfilehash: 516b6646386bab68e8aa3f663343b92e70e8f618
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 670fa5b1d0d1df54a73f2917b137ec4a04c190df
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017859"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046466"
 ---
 # <a name="availability-in-georgia"></a>Доступность в Грузия
 

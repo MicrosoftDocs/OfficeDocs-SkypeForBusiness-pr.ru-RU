@@ -1,7 +1,7 @@
 ---
 title: Настройка планов звонков
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: a873c1d21d639917943b1ea3699620f4ef68951d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5f617ecea591d76b5dcd3e7daa308e7f7a74d808
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014975"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047080"
 ---
 # <a name="set-up-calling-plans"></a>Настройка планов звонков
 Звонков на других Скайп для бизнес-пользователи могут свободно, но если пользователи должны иметь возможность вызова телефоны за пределами вашей организации получить внутренние вызов план или международный вызов плана в Office 365. Это просто установки для бизнеса. 

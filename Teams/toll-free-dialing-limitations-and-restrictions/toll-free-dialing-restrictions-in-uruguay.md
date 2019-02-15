@@ -1,7 +1,7 @@
 ---
 title: Ограничения бесплатных набора номера в Уругвай
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: b3c0fd7ef94fde17753219776faed9a107848e75
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a1980961136ff23d9c0236bcb2f5b09a0eeaa749
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016887"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046832"
 ---
 # <a name="toll-free-dialing-restrictions-in-uruguay"></a>Ограничения бесплатных набора номера в Уругвай
 

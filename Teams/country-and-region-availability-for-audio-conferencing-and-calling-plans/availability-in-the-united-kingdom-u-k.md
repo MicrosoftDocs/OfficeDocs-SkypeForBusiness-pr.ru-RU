@@ -1,7 +1,7 @@
 ---
 title: Доступность в Соединенном Королевстве
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Великобритании.
-ms.openlocfilehash: ec3b6f1f9bb298e00b0d8786f7b8a04c8ab59352
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: a3862288f26993b400558abf9b92cb12d4f84f46
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674772"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047580"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Доступность в Соединенном Королевстве
 

@@ -1,7 +1,7 @@
 ---
 title: Ограничения бесплатных набора номера в Индии
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 99b13a33120983c2e57bbe1991a301cb850cf015
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0a1ee2ba5d2c56c626fcab24726997fa1f173205
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012851"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046976"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Ограничения бесплатных набора номера в Индии
 
@@ -43,8 +43,8 @@ ms.locfileid: "25012851"
 |Охватываемая территория  <br/> |Неприменимо  <br/> |
 |Неохватываемая территория  <br/> |Неприменимо  <br/> |
 |Доступность проводных и наземных линий связи  <br/> |Частично. См. примечания.  <br/> |
-|Доступность мобильных сетей  <br/> |Частично. См. примечания.  <br/> |
-|Примечания, ограничения и проблемы с доступом  <br/> |Доступно для абонентов следующих сетей: Loop Mobile, BSNL  наземная связь (все регионы кроме Бхопала), Vodafone, IDEA/SPICE (все регионы, за исключением оператора Spice в Пенджабе), MTS India/Shyam (наземная связь), MTNL  наземная и мобильная связь, Reliance (все регионы кроме: Ахмадабад, Бхопал, Бхубанешвар, Джайпур, Лакхнау, Мератх), TTML и TTSL (наземная связь и оплата по факту), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, сеть Bharti/Airtel.  <br/> Недоступно для абонентов следующих сетей: TTSL (предоплата), Etisalat DB Telecom и Jio.  <br/> |
+|Доступность мобильных сетей  <br/> |Частичный. Просмотрите комментарии.  <br/> |
+|Примечания, ограничения и проблемы с доступом  <br/> |Access available from the following networks: Loop Mobile, BSNL - fixed (all regions but Bhopal), Vodafone, IDEA/SPICE (all regions but Punjab Spice), MTS India/Shyam (fixed), MTNL - fixed &amp; mobile, Reliance (all regions but Ahmedabad, Bhopal, Bhuneswer, Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixed &amp; postpaid), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Bharti/Airtel network.  <br/> Недоступно для абонентов следующих сетей: TTSL (предоплата), Etisalat DB Telecom и Jio.  <br/> |
    
 ## <a name="related-topics"></a>Связанные разделы
 [Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)

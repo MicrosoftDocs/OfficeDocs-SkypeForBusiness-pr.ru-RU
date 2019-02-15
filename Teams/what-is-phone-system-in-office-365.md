@@ -1,7 +1,7 @@
 ---
 title: Что такое телефонная система в Office 365?
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Ознакомьтесь с телефонной системой может сделать для вас. '
-ms.openlocfilehash: ec9dc331d83a94563851958f5b3bc85f6c264070
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ebf8e5dbf628cf0619df0ab9906c25d75662bdc6
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016607"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048804"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Что такое телефонная система в Office 365?
 
@@ -39,8 +39,7 @@ ms.locfileid: "25016607"
   
 Традиционных систем УАТС вызовы от пользователей в вашей организации собственными силами организации в телефонной системой и не переходить в ТСОП. Это относится к вызовы от пользователей в вашей организации, расположенных в разных географических областях междугородных расходы на этих внутренних звонков.
   
-Чтобы обеспечить возможность выполнять вызовы на стационарные и мобильные телефоны, телефонную систему можно подключить к ТСОП одним из двух способов. 
-
+Чтобы обеспечить возможность выполнять вызовы на стационарные и мобильные телефоны, телефонную систему можно подключить к ТСОП одним из двух способов.
   
 - Приобретая вызов планирование (Россия или внутренний и international) в Office 365. Просмотреть [Каковы вызов планы?](what-are-calling-plans-in-office-365.md)
     
@@ -56,7 +55,7 @@ ms.locfileid: "25016607"
 
 Поскольку вызов планы работает в Office 365, это полностью---облачной предложения, которое не требует развертывания локального сервера. У вас есть выбор с помощью Россия или внутренний и International вызов планирования, который назначить каждому пользователю, который требуется выполнять вызовы. [Хотите узнать больше?](what-are-calling-plans-in-office-365.md)
   
-Пользователи, которые размещаются в Скайп для бизнеса в Интернет или группами Майкрософт в Office 365 будут иметь доступ к службам Office 365 голосовой связи. Корпорация Microsoft является поставщиком ключевых телефонных служб и служб ТСОП, и может предоставить или перенести номера телефонов ваших пользователей. 
+Пользователи, которые размещаются в Скайп для бизнеса в Интернет или группами Майкрософт в Office 365 будут иметь доступ к службам Office 365 голосовой связи. Корпорация Майкрософт является поставщиком ключевых телефонных служб и служб ТСОП, и может предоставить или перенести номера телефонов ваших пользователей. 
   
 Вызов планы в Office 365 позволяет поиска, приобретение и назначить номера телефонов для пользователей в вашей организации, чтобы пользователи могут сделать и принимать телефонные звонки с пользователями внутри и вне организации.
   
@@ -80,5 +79,5 @@ ms.locfileid: "25016607"
 - [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Телефоны, поддерживаемые в Skype для бизнеса Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
+- [Телефоны, поддерживаемые в Skype для бизнеса Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
 

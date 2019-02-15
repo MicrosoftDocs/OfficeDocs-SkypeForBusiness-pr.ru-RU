@@ -1,7 +1,7 @@
 ---
 title: Управление номерами телефонов в Австралии
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Австралии для Скайп для бизнеса в Интернет и рабочих групп Microsoft.
-ms.openlocfilehash: 6040cef3540680c68f5ccbc4cbe9b6c0b6f34617
-ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
+ms.openlocfilehash: 7ef7021fe4e7801630368ef29fc070ad751f37d0
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29651091"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046944"
 ---
 # <a name="phone-number-management-for-australia"></a>Управление номерами телефонов в Австралии
 В Австралии мы имеем партнерские отношения с Telstra для покупки и подготовки тарифных планов. Telstra  будет продавать  тарифные планы и обеспечивать поддержку управления телефонных номеров как для пользователей, так и служебных номеров автосекретарей и очередей звонков. Тем не менее номера службы и лицензий для аудиоконференции будут по-прежнему продаваться и управляться Office 365.

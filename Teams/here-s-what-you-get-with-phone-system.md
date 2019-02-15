@@ -1,7 +1,7 @@
 ---
-title: Возможности телефонной системы в Office 365
-ms.author: tonysmit
-author: tonysmit
+title: Преимущества телефонной системы в Office 365
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
 ms.topic: article
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Описание функций, доступность и планирование и настройка телефонной системой (облако УАТС) для вашего бизнеса. '
-ms.openlocfilehash: ac97c6d194673087ad90be88e649b7cb067ba89f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 864e687634426fd8fce0d489ef81cc85bbacf5e0
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017481"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048207"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Возможности телефонной системы в Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Преимущества телефонной системы в Office 365
 
 УАТС является телефонной системы в бизнесе. Телефонной системой в надстройку Office 365 предоставляет возможности УАТС, но без сложной и дорогим оборудования. 
   

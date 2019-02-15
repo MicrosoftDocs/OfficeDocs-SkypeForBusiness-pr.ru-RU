@@ -1,7 +1,7 @@
 ---
 title: Доступность в Белиз
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Белиз.
-ms.openlocfilehash: 260f2ac54c50b538e66ffef342d13b5c772f84ee
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a35ca6cff3e6b00ade4de7e13d1a5b4c2e94d4df
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015135"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047112"
 ---
 # <a name="availability-in-belize"></a>Доступность в Белиз
 

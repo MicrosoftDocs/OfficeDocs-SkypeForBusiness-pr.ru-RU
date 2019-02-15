@@ -1,7 +1,7 @@
 ---
 title: Что такое абонентские группы?
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Узнайте какой тип телефонным Тарифные планы (вызов ТСОП абонентских групп) доступны при использовании Office 365 и выберите одну для вашей организации.  '
-ms.openlocfilehash: a823e3665229eeb1292c4f027bda7d7e8eff79a9
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 091131cf852847e60c6b8546b56121183cc2d499
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678428"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047524"
 ---
 # <a name="what-are-dial-plans"></a>Что такое абонентские группы?
 
@@ -152,7 +152,7 @@ ms.locfileid: "25678428"
 
 ## <a name="related-topics"></a>Связанные разделы
 
-[Создание абонентских групп и управление ими](create-and-manage-dial-plans.md)
+[Создание и использование абонентских групп](create-and-manage-dial-plans.md)
 
 [Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)
 

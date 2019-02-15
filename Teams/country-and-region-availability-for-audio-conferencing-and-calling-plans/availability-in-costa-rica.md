@@ -1,7 +1,7 @@
 ---
 title: Доступность в Коста-Рика
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Коста-Рика.
-ms.openlocfilehash: 73d207a1a06256238259352d5d8266da4240e06d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f0610b7aed65e18b853a80a093b045f1003b4446
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012771"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048668"
 ---
 # <a name="availability-in-costa-rica"></a>Доступность в Коста-Рика
 

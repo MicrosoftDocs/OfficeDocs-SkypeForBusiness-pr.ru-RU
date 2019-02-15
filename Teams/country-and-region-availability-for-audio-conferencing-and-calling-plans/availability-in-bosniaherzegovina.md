@@ -1,7 +1,7 @@
 ---
 title: Доступность в Босния &amp; Герцеговина
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Босния и Герцеговина.
-ms.openlocfilehash: 10cb6639b8310e5ea15e817bd7a17275504ace1e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5ebbd996d99721ae5f7e92424d42db2a3c1c2960
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012659"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048564"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>Доступность в Босния &amp; Герцеговина
 

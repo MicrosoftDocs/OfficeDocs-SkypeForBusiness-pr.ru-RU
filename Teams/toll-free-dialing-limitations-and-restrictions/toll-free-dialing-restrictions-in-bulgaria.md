@@ -1,7 +1,7 @@
 ---
 title: Ограничения бесплатных набора номера в Болгария
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 37ad8a38ff55c2dc840b1bdafea2621a6cd521bb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 345f3ee147ffc7f6191937a6a3ef9b4606ed7d3a
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013339"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047794"
 ---
 # <a name="toll-free-dialing-restrictions-in-bulgaria"></a>Ограничения бесплатных набора номера в Болгария
 
@@ -45,7 +45,7 @@ ms.locfileid: "25013339"
 |Неохватываемая территория  <br/> |Неприменимо  <br/> |
 |Доступность проводных и наземных линий связи  <br/> |Да  <br/> |
 |Доступность мобильных сетей  <br/> |Частично. См. примечания.  <br/> |
-|Примечания, ограничения и проблемы с доступом  <br/> |Мобильный доступ для абонентов Vivacom и Globul Mobile.  <br/> |
+|Примечания, ограничения и проблемы с доступом  <br/> |Mobile access from Vivacom &amp; Globul Mobile.  <br/> |
    
 ## <a name="related-topics"></a>Связанные разделы
 [Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)

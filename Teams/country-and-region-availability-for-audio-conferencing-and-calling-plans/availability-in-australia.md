@@ -1,7 +1,7 @@
 ---
 title: Доступность в Австралии
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Австралии.
-ms.openlocfilehash: b39e940d4a2d4a113f1090cededdd052ff9594a9
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: d558e1268b7a4fa22c3954d2f837d1c37df5aace
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201471"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048580"
 ---
 # <a name="availability-in-australia"></a>Доступность в Австралии
 

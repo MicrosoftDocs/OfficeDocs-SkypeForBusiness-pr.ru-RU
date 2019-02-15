@@ -1,7 +1,7 @@
 ---
-title: Настройка голосовой почты телефонной системы
-ms.author: tonysmit
-author: tonysmit
+title: Настройка голосовой почты Телефонной системы
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: fa0783cf51b7d3b7bf29b4948994060a3d1f63a1
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: b0111c1d83772aee2b1b4075fdfe5125b4685c88
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182514"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047826"
 ---
-# <a name="set-up-phone-system-voicemail"></a>Настройка голосовой почты телефонной системы
+# <a name="set-up-phone-system-voicemail"></a>Настройка голосовой почты Телефонной системы
 
 Эта статья предназначена для [администрирования Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) , чтобы настроить компонентов телефонной системы голосовой почты для всех пользователей в организации.
 

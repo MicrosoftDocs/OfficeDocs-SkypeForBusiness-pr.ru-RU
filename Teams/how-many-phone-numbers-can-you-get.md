@@ -1,7 +1,7 @@
 ---
 title: Сколько телефонных номеров можно получить?
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Число номеров телефонов, которые вы можете получить для организации, превышает назначенное число лицензий. Но это зависит от типов приобретенных и назначенных номеров и лицензий. Можно нажать кнопку различные виды телефонных номеров, используемый для вызова планы можно найти сведения о различных телефонных номеров, которые используются в Скайп для бизнеса в Интернет.
-ms.openlocfilehash: b5c095f6030f1a5874e04df3b3be7ce9dac62dd4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4eeef8ea633b1ba26169681b2e994b6d3176fd67
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014357"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048764"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Сколько телефонных номеров можно получить?
 

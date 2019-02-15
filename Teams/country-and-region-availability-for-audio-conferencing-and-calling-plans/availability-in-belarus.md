@@ -1,7 +1,7 @@
 ---
-title: Доступность в Беларусь
-ms.author: tonysmit
-author: tonysmit
+title: Доступность в Беларуси
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Беларусь.
-ms.openlocfilehash: 9df2ad1f118e5f0fe1ed1e88579fe8c14d34cf95
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: f2daefe760235dc7f80ea351933102c70d5c9fb5
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789255"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048319"
 ---
-# <a name="availability-in-belarus"></a>Доступность в Беларусь
+# <a name="availability-in-belarus"></a>Доступность в Беларуси
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 

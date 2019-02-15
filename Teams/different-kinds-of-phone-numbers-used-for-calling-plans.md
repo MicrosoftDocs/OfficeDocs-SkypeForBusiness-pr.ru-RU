@@ -1,7 +1,7 @@
 ---
 title: Типы номеров телефонов, используемые в планах звонков
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Скайп для бизнеса в Интернет с помощью различных телефонных номеров типов в зависимости от назначения, для которого вы хотите использовать номер телефона.
-ms.openlocfilehash: e99324e31607f628f90eda271584882a109f47cd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9da7fdac03d174e2c503c24658d5c98ef5bdb006
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014397"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047997"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Типы номеров телефонов, используемые в планах звонков
 

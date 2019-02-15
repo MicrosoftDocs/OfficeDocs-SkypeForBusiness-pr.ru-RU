@@ -1,7 +1,7 @@
 ---
 title: Ограничения бесплатных набора номера в Нидерландах
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: aad4eaad1e72d339e87b5c0847a63640ef8ec0f4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4d649a8244f1e30709420b39eca994f80e489f0f
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014719"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047724"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-netherlands"></a>Ограничения бесплатных набора номера в Нидерландах
 

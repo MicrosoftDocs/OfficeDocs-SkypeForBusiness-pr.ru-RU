@@ -1,7 +1,7 @@
 ---
-title: Доступность в (Гонконг)
-ms.author: tonysmit
-author: tonysmit
+title: Доступность в Гонконге (САР)
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для (Гонконг).
-ms.openlocfilehash: e25fd1bb12f3ee7e2e0f4aac236519bab37de483
-ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
+ms.openlocfilehash: 328688b85fa3a564d4ce6add9534404879b74618
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690551"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047000"
 ---
-# <a name="availability-in-hong-kong"></a>Доступность в (Гонконг)
+# <a name="availability-in-hong-kong"></a>Доступность в Гонконге (САР)
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 

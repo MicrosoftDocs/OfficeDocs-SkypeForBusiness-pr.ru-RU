@@ -1,7 +1,7 @@
 ---
-title: Команды Microsoft Online вызова денежных средств
-author: tonysmit
-ms.author: tonysmit
+title: Потоки онлайн-вызовов в Microsoft Teams
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.date: 06/08/2018
 ms.topic: article
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Описывает, как рабочая нагрузка групп использует денежных средств Office 365 в различных топологиях.
-ms.openlocfilehash: 455e90d05a26ce387f916f531991ccaf664860d2
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: ce5af3e2f7d14eb0d07fe2838ab1a85954d55ba3
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562809"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048748"
 ---
-# <a name="microsoft-teams-online-call-flows"></a>Команды Microsoft Online вызова денежных средств
+# <a name="microsoft-teams-online-call-flows"></a>Потоки онлайн-вызовов в Microsoft Teams
 
 > [!Tip]
 > Просмотрите следующие сеанса, чтобы узнать, как группы использует сети и лучше всего планированию для оптимизации сетевого подключения: [Планирование сети групп](https://aka.ms/teams-networking)

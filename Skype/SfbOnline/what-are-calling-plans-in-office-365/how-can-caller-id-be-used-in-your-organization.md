@@ -1,7 +1,7 @@
 ---
 title: Использование идентификатора абонента в организации
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Идентификатором вызывающего абонента можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, которая называется CallingLineIdentity.
-ms.openlocfilehash: 4ae5c54d68410096104f61bf8cdbd71fa0628003
-ms.sourcegitcommit: 99bc2db8cb857b6fd2ddf9b837198be849dafb9b
+ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29981917"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047900"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Использование идентификатора абонента в организации
 

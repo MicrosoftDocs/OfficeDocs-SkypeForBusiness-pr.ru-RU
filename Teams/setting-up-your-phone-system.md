@@ -1,7 +1,7 @@
 ---
 title: Настройка телефонной системы в вашей организации
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.topic: article
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить телефонной системой (облако УАТС) для вашей организации. '
-ms.openlocfilehash: aae5a8e5fc8a0cd2cb20a2e3964c14a89039ce1e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ae2d890e87ecef217bfdafd2c547de7ae35414d
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374452"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047564"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Настройка телефонной системы в вашей организации
 
@@ -178,7 +178,7 @@ ms.locfileid: "25374452"
 
 В некоторых случаях пользователям в организации требуется телефон, чтобы присоединиться к собранию. Скайп для бизнеса и группами Майкрософт включить функцию аудиоконференций для только что этой ситуации! Люди могут вызывать в Скайп для бизнеса или группами Майкрософт собраний с помощью телефона, вместо использования Скайп для бизнеса или группами Майкрософт приложения на мобильном устройстве или Компьютере.
 
-Необходимо настроить звук конференц-связи для пользователей, которые планируется расписание или привести собрания. Присоединяющимся к собранию по телефону участникам не требуются какие-либо назначенные им лицензии или другие настройки.
+Вам нужно только настроить аудиоконференции для пользователей, планирующих или проводящих собрания. Присоединяющимся к собранию по телефону участникам не требуются какие-либо назначенные им лицензии или другие настройки.
   
 Часто задаваемые вопросы об аудиоконференции см. в статье [Общие вопросы о проведении аудиоконференций](audio-conferencing-common-questions.md).
     
@@ -280,7 +280,7 @@ ms.locfileid: "25374452"
 **Дополнительные сведения о назначении лицензий кредитов Communications см [кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md).**
 
 ## <a name="related-topics"></a>Связанные разделы
-[Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
+[Преимущества телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

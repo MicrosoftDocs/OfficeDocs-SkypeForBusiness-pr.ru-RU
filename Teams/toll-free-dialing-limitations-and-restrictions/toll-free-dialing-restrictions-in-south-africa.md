@@ -1,7 +1,7 @@
 ---
 title: Ограничения бесплатных набора номера в Южно-Африканская Республика
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: e2268e453f2dbf53c4294d3d6061df048eb738a0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d098cb9c9164807ac38290d1d0b3988913dfbb84
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014437"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048732"
 ---
 # <a name="toll-free-dialing-restrictions-in-south-africa"></a>Ограничения бесплатных набора номера в Южно-Африканская Республика
 

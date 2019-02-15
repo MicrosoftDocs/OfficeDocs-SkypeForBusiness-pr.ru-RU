@@ -1,7 +1,7 @@
 ---
 title: Языки для приветствий голосовой почты и сообщений
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, какие языки можно установить по умолчанию для системных сообщений в Skype для бизнеса. '
-ms.openlocfilehash: 77500d8a84dada5f2a5005c214fded7eddb3186e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 601a23efe09a486afdcd88ad2f45ec9b9b666fd7
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013275"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047716"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Языки, используемые для приветствий в голосовой почтые и сообщений
 
@@ -66,7 +66,7 @@ ms.locfileid: "25013275"
 |Испанский  <br/> |Испания  <br/> |es-ES  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |Испанский  <br/> |Мексика  <br/> |es-MX  <br/> |Да, но используется испанский (Испания) — es-ES.  <br/> |Да  <br/> |Да, но используется испанский, (Испания) — (es-ES).  <br/> |
 |Шведский  <br/> |Швеция  <br/> |sv-SE  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
-|Турецкий  <br/> |Турция  <br/> |tr-TR  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
+|Турецкий  <br/> |Турция  <br/> |tr-TR  <br/> |Управление языками для автосекретаря конференц-связи.  <br/> |Да  <br/> |Нет  <br/> |
    
 ## <a name="related-topics"></a>См. также:
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

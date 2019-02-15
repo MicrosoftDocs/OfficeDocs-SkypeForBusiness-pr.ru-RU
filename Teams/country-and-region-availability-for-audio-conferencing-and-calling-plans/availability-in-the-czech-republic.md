@@ -1,7 +1,7 @@
 ---
 title: Доступность в Чешская Республика
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены служб Office 365 для Скайп для бизнеса и группами Майкрософт для Чешская Республика.
-ms.openlocfilehash: 0336d4734d51284166e0fde7845c348066de6473
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 2df756498a3bfce7ee7ef73ba93bddb19ff5818d
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014679"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048684"
 ---
 # <a name="availability-in-the-czech-republic"></a>Доступность в Чешская Республика
 

@@ -1,7 +1,7 @@
 ---
 title: Настройка кредитов на связь для организации
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: d97c95ed3fd4d398a4422645ab1e1491e1df6e3c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0570c454cdc3fc98fa6dfa4a8fe571714263421e
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375239"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048287"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -86,7 +86,7 @@ ms.locfileid: "25375239"
     
 У каждой организации свой объем по плану звонков и свои тарифы. Эти сведения необходимо получить у своего текущего поставщика услуг. Организации, уже использующие в качестве поставщика услуг Skype для бизнеса Online, могут получить данные по использованию в отчете ( **Центр администрирования Skype для бизнеса** > **Отчеты** > **Сведения об использовании ТСОП**).
   
-При настройке кредитов на связь необходимо проанализировать объем звонков в своей организации, чтобы определить сумму пополнения счета. Сведения об объеме звонков можно получить в отчете **Сведения об использовании ТСОП**. Если требуется сохранить данные по звонкам или создавать специализированные отчеты, можно экспортировать записи из этого отчета в Excel. Об использовании см [Скайп для отчета об использовании PSTN бизнеса](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
+При настройке кредитов на связь нужно проанализировать объем звонков в своей организации, чтобы определить сумму пополнения счета. Сведения об объеме звонков можно получить в отчете **Сведения об использовании ТСОП**. Если требуется сохранить данные по звонкам или создавать специализированные отчеты, можно экспортировать записи из этого отчета в Excel. Об использовании см [Скайп для отчета об использовании PSTN бизнеса](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Шаг 3. Назначение лицензии на кредиты на связь пользователям
 

@@ -1,7 +1,7 @@
 ---
 title: Доступность во Франции
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Франции.
-ms.openlocfilehash: 4845b612b3a1316f8d7ac3da527ae118c6d6681c
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: 1714edad45c3be07b99b742a47743ad4fbf091cf
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27382664"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047612"
 ---
 # <a name="availability-in-france"></a>Доступность во Франции
 

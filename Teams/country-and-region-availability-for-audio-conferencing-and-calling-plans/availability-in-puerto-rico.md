@@ -1,7 +1,7 @@
 ---
 title: Доступность в Пуэрто-Рико
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Пуэрто-Рико.
-ms.openlocfilehash: bf9d7be7c2930ac6f0014e9c8b13a90baf6cae41
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b1f45cba06915f16c69d96a7e00567013ec491a7
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017771"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047548"
 ---
 # <a name="availability-in-puerto-rico"></a>Доступность в Пуэрто-Рико
 

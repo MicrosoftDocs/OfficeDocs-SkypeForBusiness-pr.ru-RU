@@ -1,7 +1,7 @@
 ---
 title: Доступность в Бельгия
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Бельгия.
-ms.openlocfilehash: ad372ab62df4ab69467252a4a6a64fc3c5872d92
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 136065f461fe2a902442380a675ef8dda9991625
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014333"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046540"
 ---
 # <a name="availability-in-belgium"></a>Доступность в Бельгия
 

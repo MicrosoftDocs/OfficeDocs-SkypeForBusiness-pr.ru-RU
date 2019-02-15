@@ -1,7 +1,7 @@
 ---
 title: Доступность в Македония
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Македония.
-ms.openlocfilehash: 97a574a73b86151336e2ac0d564487d8cdb18fdf
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7b0aecdda4e9bf67f346237f1a23c3834ece7384
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013235"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048517"
 ---
 # <a name="availability-in-macedonia"></a>Доступность в Македония
 
