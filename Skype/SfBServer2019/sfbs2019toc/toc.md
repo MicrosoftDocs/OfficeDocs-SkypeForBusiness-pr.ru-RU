@@ -2,36 +2,13 @@
 
 ## [Новые возможности](../whats-new.md)
 ## [Что является устаревшим](../deprecated.md)
-## [Решения Майкрософт телефонной связи](../hybrid/msft-telephony-solutions.md)
+## [Решения Майкрософт телефонной связи](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [Файлы для загрузки и обновления Скайп для бизнеса](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Обновления клиента](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Обновления сервера](../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
-## Гибридные решения для групп и Скайп для бизнеса
-### [Планирование гибридного подключения](../hybrid/plan-hybrid-connectivity.md)
-
-### [Настройка гибридного подключения](../hybrid/configure-hybrid-connectivity.md)
-#### [Настройка подключения Azure AD для гибридных средах](../hybrid/configure-azure-ad-connect.md)
-#### [Настройка Скайп для гибридных бизнеса](../hybrid/configure-federation-with-skype-for-business-online.md)
-
-### [Перемещение пользователей между локальной и облачной](../hybrid/move-users-between-on-premises-and-cloud.md)
-#### [Перемещение пользователей из локальной группы](../hybrid/move-users-from-on-premises-to-teams.md)
-#### [Перемещение локальных пользователей в Skype для бизнеса Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-#### [Перемещение пользователей из облака к локально](../hybrid/move-users-from-the-cloud-to-on-premises.md)
-#### [Управление миграции собрания](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
-
-### [Отключить гибридный для выполнения миграции в облако](../hybrid/cloud-consolidation-disabling-hybrid.md)
-
-### [Развертывание топологии с лесом ресурсов](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-
-### [Консолидация облако для групп и Скайп для бизнеса](../hybrid/cloud-consolidation.md)
-#### [Обновление сертификатов пограничного сервера](../hybrid/cloud-consolidation-edge-certificates.md)
-
-#### [Обновление AAD подключения для включения более одного леса](../hybrid/cloud-consolidation-aad-connect.md)
-
-### [Интеграция с Exchange и SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-
+## [Гибридные решения для групп и Скайп для бизнеса](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## Планирование
 ### [Основы топологии](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -119,13 +96,13 @@
 #### ["Позвонить с рабочего"](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Удаленное управление звонками](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### Облако голосовой почты
-#####[Планирование голосовой почты в облаке](../hybrid/plan-cloud-voicemail.md)
-##### [Настройка голосовой почты в облаке](../hybrid/configure-cloud-voicemail.md)
+#####[Планирование голосовой почты в облаке](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+##### [Настройка голосовой почты в облаке](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [единая система обмена сообщениями;](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Обзор развертывания](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Единое хранилище контактов](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
-#### [Планирование Скайп для переноса Business Server и Exchange Server](../hybrid/plan-um-migration.md)
+#### [Планирование Скайп для переноса Business Server и Exchange Server](../../sfbhybrid/hybrid/plan-um-migration.md)
 #### [Поддержка Exchange единой системы обмена сообщениями Online миграции](../plan/exchange-unified-messaging-online-migration-support.md)
 
 ### [Мониторинг](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -160,7 +137,7 @@
 #### [Пользовательские модели](../../SfbServer/plan-your-deployment/capacity/user-models.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
-## развертывание,
+## Развертывание
 ### [Установка ](../../SfbServer/deploy/install/install.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Установка необходимых компонентов](../../SfbServer/deploy/install/install-prerequisites.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Create a file share](../../SfbServer/deploy/install/create-a-file-share.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -434,8 +411,8 @@
 ###### [Отчет о тенденциях в выборе местоположений](../../SfbServer/manage/health-and-monitoring/location-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Функция оценки звонка](../../SfbServer/manage/health-and-monitoring/rate-my-call.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### Подключения к данным звонка
-##### [Планирование подключения к данным звонка](../hybrid/plan-call-data-connector.md)
-##### [Настройка подключения к данным звонка](../hybrid/configure-call-data-connector.md)
+##### [Планирование подключения к данным звонка](../../sfbhybrid/hybrid/plan-call-data-connector.md)
+##### [Настройка подключения к данным звонка](../../sfbhybrid/hybrid/configure-call-data-connector.md)
 
 ### [Архивирование](../../SfbServer/manage/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Параметры](../../SfbServer/manage/archiving/options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

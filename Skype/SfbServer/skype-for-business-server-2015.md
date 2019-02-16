@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Сводка: Перейдите по этим ссылкам, чтобы узнать, как реализовать Скайп для Business Server 2015.'
-ms.openlocfilehash: cfd3745b2b8e43c475028595e4bd8b8e9b3b5266
-ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
+ms.openlocfilehash: bc7c8f586eaf0312d0a37e814634104dab4df324
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29686517"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069641"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype для бизнеса Server 2015
 
@@ -43,7 +43,7 @@ ms.locfileid: "29686517"
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity">
+        <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -71,7 +71,7 @@ ms.locfileid: "29686517"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>развертывание,</h3>
+                        <h3>Развертывание</h3>
                     </div>
                 </div>
             </div>
@@ -172,7 +172,7 @@ ms.locfileid: "29686517"
                     <div class="cardText">
                         <h3>Корпоративная голосовая связь</h3>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">Планирование</a></p>
-                        <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">развертывание,</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">Развертывание</a></p>
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@ ms.locfileid: "29686517"
                 <div class="card">
                     <div class="cardText">
                         <h3>Гибридные решения</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Планирование гибридного подключения</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Планирование гибридного подключения</a></p>
                                        </div>
                 </div>
             </div>
