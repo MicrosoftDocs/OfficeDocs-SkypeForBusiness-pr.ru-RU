@@ -4,29 +4,29 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 11/07/2018
+ms.date: 02/15/2019
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
-description: Обучающие видеозаписи, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
+description: Обучающие видеозаписи, наборов слайдов PowerPoint, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c394a2259223dfb7fc5ab233a2de604af2174d13
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: eda922ce0346a69d657789bdc13a6381254c2b3a
+ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593912"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30062625"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
 
-Используйте следующие учебники, видео и другие обучающие ресурсы для сведения о группах и диска использования в организации. Советуем почаще посещать эту для нового контента. 
+Используйте обучающие ресурсы для себя информировать о группах, обучение другими пользователями или выполнения семинары по. Советуем почаще посещать эту для нового контента. 
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -36,68 +36,14 @@ ms.locfileid: "29593912"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Начало работы с группами</h3>
+                        <h3>Начало работы с помощью нескольких групп и каналы fast</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-   <li>
-        <a href="https://docs.microsoft.com/microsoftteams/tutorial-journey-skypeforbusiness-to-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Занять учебник на пути обновления Скайп для бизнес-групп</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-   <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Получение обучение пользователей</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
- <li>
-        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Извлечение канал команд на youtube (en)</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
- <li>
+    <li>
         <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
         <div class="cardSize">
             <div class="cardPadding">
@@ -115,169 +61,54 @@ ms.locfileid: "29593912"
         </div>
         </a>
     </li>
-</ul>
-
-    
-</ul>
-
----
-
-<h2>Основные курсы обучения</h2>
-<ul class="panelContent cardsW">
     <li>
+        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
+                        </div>
+                    </div>
                     <div class="cardText">
-                        <h3>Переход со Skype для бизнеса на Teams</h3>
-                         <p><a href="https://aka.ms/teams-upgrade-intro">Видео: Общие сведения об обновлении</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-plan">Видео: Планирование обновления</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-coexistence-interop">Видео: Взаимодействие и совместная работа</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-admin">Видео: Интерфейс администратора</a></p>
-                        <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Руководство. Переход со Skype для бизнеса на Teams</a></p>
+                        <h3>Получение обучение пользователей</h3>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Сотрудничество</h3>
-                         <p><a href="https://aka.ms/edx-cld267x-about">Учебный курс: Включение качества совместной работы с группами Майкрософт</a></p>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Видео: Получение группы запущены</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Видео: Переход к руководство для владельцев группы</a></p>
-                         <p><a href="create-an-org-wide-team.md">Статья: Создание группы масштабе организации в группах</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Архитектура</h3>
-                        <p><a href="http://aka.ms/teams-foundations">Видео: Основы - основные компоненты рабочих групп</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Развертывание плана &</h3>
-                         <p><a href="deploy-chat-teams-channels-microsoft-teams-landing-page.md">Развертывание чата, групп, каналов и приложений для групп Майкрософт</a></p>
-                         <p><a href="http://aka.ms/teams-clients">Видео: Клиент рабочего стола групп Windows</a></p>
-                         <p><a href="http://aka.ms/teams-governance">Видео: Управление, управления и жизненного цикла в группах Майкрософт</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li> <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teams для образовательных учреждений</h3>
-                        <p><a href="teams-quick-start-edu.yml">Краткое руководство: группы для образовательных учреждений "Администраторы"</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </a>
     </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Вызов качества сети &</h3>
-                         <p><a href="https://aka.ms/teams-quality">Видео: Обзор качества звонка</a></p>
-                         <p><a href="https://aka.ms/teams-networking">Видео: Планирование сети</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Безопасность и соответствие требованиям</h3>
-                       <p><a href="https://www.youtube.com/watch?v=OF65_p_07cE">Видео: Общие сведения об электронных документов в группах</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-        <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Собрания</h3>
-                        <p><a href="tutorial-meetings-in-teams.yml">Руководство. Собрания в Teams</a></p>
-                        <p><a href="https://aka.ms/teams-meetings-intro">Видео: Общие сведения о собраниях в группах Microsoft</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Средства & приложений</h3>
-                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Видео: Добавление средств с вкладками</a></p>
-                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Видео: Использование поле Команда</a></p>
-                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Видео: Обзор панели команд</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Аудиоконференции</h3>
-                         <p><a href="tutorial-audio-conferencing.yml">Руководство по Аудиоконференций в группах</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=AGPvaW4Vg0o">Видео: Общие сведения о конференции</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=AWbuvcWcYIc">Видео: Планирование аудиоконференций</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=5k0C21KAsns">Видео: Номер перенос для аудиоконференции</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Телефонная система</h3>
-                         <p><a href="https://aka.ms/teams-phone-system">Видео: Общие сведения о телефонной системой в группах Майкрософт</a></p>
-                         <p><a href="configuring-teams-calling-quickstartguide.md">Краткое руководство: Настройка вызов планы в группах</a></p>
-                         <p><a href="tutorial-calling-in-teams.yml">Учебное руководство. Общие сведения о звонках в Microsoft Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Прямая отправка</h3>
-                        <p><a href="https://aka.ms/teams-direct-routing">Видео: Прямая отправка в группах Майкрософт</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-      </ul>
+</ul>
 
 
+<h2>Обучающие</h2>
+
+| Модуль | Видеосвязь | Презентации PowerPoint |
+| ------------ | -------------------- | -------------------- |
+| Основы - основные компоненты | [Видео](http://aka.ms/teams-foundations) | [Колоды](http://aka.ms/teams-foundations-deck) |
+| Клиент настольных компьютеров Windows | [Видео](http://aka.ms/teams-clients) | [Колоды](http://aka.ms/teams-clients-deck) |
+| Управление, управления и Lifecylce | [Видео](http://aka.ms/teams-governance) | [Колоды](http://aka.ms/teams-governance-deck) |
+| Планирование сети | [Видео](http://aka.ms/teams-networking) | [Колоды](http://aka.ms/teams-networking-deck) |
+| Обзор качества звонка | [Видео](http://aka.ms/teams-quality) | [Колоды](http://aka.ms/teams-quality-deck) |
+| Общие сведения о собраниях | [Видео](http://aka.ms/teams-meetings-intro) | [Колоды](http://aka.ms/teams-meetings-intro-deck) |
+| Общие сведения о системе телефона | [Видео](http://aka.ms/teams-phone-system) | [Колоды](http://aka.ms/teams-phone-system-deck) |
+| Прямая отправка | [Видео](http://aka.ms/teams-direct-routing) | [Колоды](http://aka.ms/teams-direct-routing-deck) |
+| Переход со Skype для бизнеса на Teams | [Видео 1: Общие сведения об обновлении](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: Планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видео 3: Взаимодействие и сосуществование](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: Интерфейс администратора](https://aka.ms/teams-upgrade-admin) | [Колоды](htt://aka.ms/teams-upgrade-deck)|
+
+<h2>Краткие руководства по началу работы</h2>
+
+- [Краткое руководство: группы для образовательных учреждений "Администраторы"](teams-quick-start-edu.yml)
+- [Краткое руководство: Настройка вызов планы в группах](configuring-teams-calling-quickstartguide.md)
+
+<h2>Учебные материалы</h2>
+
+- [Руководство. Переход со Skype для бизнеса на Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
+- [Руководство. Собрания в Teams](tutorial-meetings-in-teams.yml)
+- [Руководство по Аудиоконференций в группах](tutorial-audio-conferencing.yml)
+- [Учебное руководство. Общие сведения о звонках в Microsoft Teams](tutorial-calling-in-teams.yml)
+
+<h2>Курсы</h2>
+
+- [Включение качества совместной работы с группами Майкрософт](https://aka.ms/edx-cld267x-about)
+- [Специалист по внедрению службы Microsoft](https://aka.ms/AdoptionCert)

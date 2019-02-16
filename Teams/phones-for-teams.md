@@ -14,19 +14,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этой статье рассматривается список телефонов, сертифицированных для Microsoft групп и возможностей, поддерживаемых в телефоны, сертифицированном для групп Майкрософт.
-ms.openlocfilehash: 8605bbc1ba0f9f69c2115b89ec7332309891253d
-ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
+ms.openlocfilehash: b9f5b85219981f8fa4c67d5f2ed6e666fc7fada2
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770415"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069627"
 ---
 # <a name="phones-for-microsoft-teams"></a>Телефоны для Microsoft Teams
 
 Группами Майкрософт поддерживает портфолио стационарные телефоны для пользователей, которые требуют взаимодействия традиционного телефона. В этой статье рассматривается список телефонов, сертифицированных для Microsoft групп и возможностей, поддерживаемых в телефоны, сертифицированном для групп Майкрософт. Чтобы получить последние и предоставляются самые последние сведения о группами сертифицированный устройств, перейдите к [Группам Marketplace](http://office.com/teamsdevices).
 
-## <a name="teams-certified-ip-phones"></a>Команды сертифицированный IP-телефонов
-Для предоставления более высокое качество и надежным группами Майкрософт возможности на телефоны, мы сотрудничестве и активно работает с Yealink, Crestron, Polycom и Audiocodes для разработки и сертификация широкий портфеля стационарные телефоны и конференции комнаты звукового устройства. В разделе [IP-телефонов](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) текущего поддерживаемых устройств.
+## <a name="teams-certified-ip-phones"></a>Команды сертифицированный IP-телефонов 
+
+Для предоставления более высокое качество и надежным группами Майкрософт возможности на телефоны, мы сотрудничестве и активно работает с Yealink, Crestron, Polycom и Audiocodes для разработки и сертификация широкий портфеля стационарные телефоны и конференции комнаты звукового устройства. В разделе [в настоящее время сертифицированный IP-телефонов](/SfbPartnerCertification/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) текущего поддерживаемых устройств.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Группами Майкрософт телефоны набор компонентов
 
@@ -124,7 +125,7 @@ ms.locfileid: "29770415"
 
 ![Выход из групп](media/teams-sign-out.png)
 
-# <a name="finding-the-firmware-version-on-a-mobile-device"></a>Поиск версия микропрограммы на мобильном устройстве
+## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Поиск версия микропрограммы на мобильном устройстве
 
 Версия микропрограммы минимальные можно проверить на странице входа в группы, выбрав значок **Параметры** в правом верхнем углу и затем выбрав **о**.
 

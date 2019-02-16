@@ -14,18 +14,18 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Сводка: Сведения о действиях, которые необходимо выполнить для настройки Скайп собрания вещания для вашей локальной Скайп для гибридного развертывания Business Server.'
-ms.openlocfilehash: bae25dae268dd5ad3b3ab7862feb1156df850953
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 09b99cab45b8832be34a3219a222324d199c5195
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371396"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069471"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Настройка локального развертывания для трансляции собраний Skype
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  
 **Сводка:** Узнайте о действиях, которые необходимо выполнить для настройки Скайп собрания вещания для вашей локальной Скайп для гибридного развертывания Business Server.
   
-Широковещательные собрания Скайп — это сетевая служба, входящий в состав Office 365. Если выполняется Скайп для Business Server локальных и требуется использовать Скайп собрания вещания в вашей среде, то необходимо необходимо выполнить действия по настройке в этом разделе. Прежде чем начать, среде необходимо настроить для гибридной среды с Скайп для бизнеса в Интернет. Дополнительные сведения см в [планировании гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) и [развертывания гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Широковещательные собрания Скайп — это сетевая служба, входящий в состав Office 365. Если выполняется Скайп для Business Server локальных и требуется использовать Скайп собрания вещания в вашей среде, то необходимо необходимо выполнить действия по настройке в этом разделе. Прежде чем начать, среде необходимо настроить для гибридной среды с Скайп для бизнеса в Интернет. Дополнительные сведения см. в разделах [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) и [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Настройте гибридную среду для вещания Скайп собрания
 
@@ -49,7 +49,7 @@ ms.locfileid: "25371396"
 |:-----|:-----|
 |**Разрешить взаимодействие с этим поставщиком:** <br/> |выбрано  <br/> |
 |**Имя поставщика:** <br/> |LyncOnlineResources  <br/> |
-|**Служба пограничного доступа (полное доменное имя):** <br/> |sipfed.Resources.Lync.com  <br/> |
+|**Служба пограничного доступа (полное доменное имя):** <br/> |sipfed.online.lync.com  <br/> |
 |**Уровень проверки по умолчанию:** <br/> |Разрешить пользователям взаимодействовать со всеми, кто работает с тем же поставщиком.  <br/> |
    
 Можно также включить федерацию с Скайп для бизнеса в Интернет ресурсы, выполнив следующий командлет в Скайп для консоли Business Server:
@@ -68,13 +68,13 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
     
 3. В поле **Имя домена (или полное доменное имя)** введите домен, повторив этот шаг для каждого из указанных ниже доменов.
     
-   - noammeetings.Lync.com
+   - noammeetings.lync.com
     
-   - emeameetings.Lync.com
+   - emeameetings.lync.com
     
-   - apacmeetings.Lync.com
+   - apacmeetings.lync.com
     
-   - Resources.Lync.com
+   - resources.lync.com
     
 Можно также настроить внешнего доступа для федеративных доменов SIP, выполнив следующие командлеты в Скайп для консоли Business Server:
   

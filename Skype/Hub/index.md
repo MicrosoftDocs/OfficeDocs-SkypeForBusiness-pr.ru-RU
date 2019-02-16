@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Skype для бизнеса
 description: Skype для бизнеса
-ms.openlocfilehash: 24dfdfe08474bb6f3cb715012a881760d6e7fa89
-ms.sourcegitcommit: ee8996ce081039f61c070f5b0b3fd6294ea4a5f5
+ms.openlocfilehash: 47a7383bb6383c1dad338dc022c9f4e471210a86
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "29561974"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069463"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -40,7 +40,7 @@ ms.locfileid: "29561974"
                                 </a>
                             </li>
                             <li>
-                                <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity">
+                                <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -106,7 +106,7 @@ ms.locfileid: "29561974"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Teams:</h3>
+                                                    <h3>Microsoft Teams</h3>
                                                     <p>Получите планирование, рекомендации и практические рекомендации, необходимые для успешного развертывания Microsoft Teams.</p>
                                                 </div>
                                             </div>

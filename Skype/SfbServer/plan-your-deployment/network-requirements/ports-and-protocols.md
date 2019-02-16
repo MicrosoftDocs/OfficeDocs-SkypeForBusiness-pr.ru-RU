@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Сводка: Рассматриваются вопросы об использовании порта перед реализацией Скайп для Business Server.'
-ms.openlocfilehash: b02f329fdc8209fa9143a966181180ed7cf3b0be
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: a014df31ad27e5ed89b97fd7ca09979d4cfb5661
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690476"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069514"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Порты и протоколы требования для серверов
  
@@ -31,7 +31,7 @@ ms.locfileid: "29690476"
   
 Также можно найти сведения в приведенных ниже таблицах в форме диаграммы, описанные в разделе связанные из статьи [Technical diagrams для Скайп для Business Server 2015](../../technical-diagrams.md) плаката с описанием нагрузок протокола.
 > [!NOTE]
-> - Если вы реализуете Скайп для бизнеса в Интернет (O365) обратитесь к [Office 365 URL-адреса и диапазоны IP-адресов](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Гибридные среды потребуется для ссылки в этом разделе, а также [Планирование гибридного подключения](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md).
+> - Если вы реализуете Скайп для бизнеса в Интернет (O365) обратитесь к [Office 365 URL-адреса и диапазоны IP-адресов](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Гибридные среды потребуется для ссылки в этом разделе, а также [Планирование гибридного подключения](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
 > - Вы может иметь брандмауэры оборудования или программного обеспечения, мы не требуется конкретных моделей или версии. Главное —, какие порты являются whitelisted, так что брандмауэр не будет нарушать функционирования Скайп Business Server.
   
 ## <a name="port-and-protocol-details"></a>Сведения о портах и протоколах

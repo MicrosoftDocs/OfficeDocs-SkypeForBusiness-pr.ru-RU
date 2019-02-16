@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Сведения о вопросы планирования для телефонной системой в Office 365 (облако УАТС), а также подключение к ТСОП в локальной.
-ms.openlocfilehash: 978da546961188c54c7e08e2ed140f8d01986e44
-ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
+ms.openlocfilehash: 3856a4901666ec58b286d5edb26c7d69bba65e41
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29686474"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069485"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Планирование телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп Business Server
 
@@ -105,7 +105,7 @@ ms.locfileid: "29686474"
     > [!NOTE]
     > Необходимо использовать версию AAD Connect не ниже 1.0.9125.0. Если вы используете более раннюю версию средств AAD Connect или DirSync, перейдите на поддерживаемую версию. Вы можете обновить текущую установку или сохранить все настраиваемые правила, определенные в среде. 
 
-- **Настройка гибридного развертывания** Ли все вашей Скайп для бизнес-пользователей в настоящий момент, размещенных либо через Интернет или локальной, или при наличии в настоящее время сочетание разных типов, как описано в [развертывания гибридного необходимо выполнить действий по настройке гибридного развертывания Скайп Business Server и Lync Server 2013 подключение между Скайп для Business Server и Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Дополнительную информацию об гибридных развертываний в разделе [Планирование гибридного подключения между Скайп Business Server и Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
+- **Настройка гибридного развертывания** Ли все вашей Скайп для бизнес-пользователей в настоящий момент, размещенных либо через Интернет или локальной, или при наличии в настоящее время сочетание разных типов, как описано в [развертывания гибридного необходимо выполнить действий по настройке гибридного развертывания Скайп Business Server и Lync Server 2013 подключение между Скайп для Business Server и Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Дополнительную информацию об гибридных развертываний в разделе [Планирование гибридного подключения между Скайп Business Server и Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json). 
 
     При использовании Lync Server 2013 видеть [гибридной среды Lync Server 2013](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 

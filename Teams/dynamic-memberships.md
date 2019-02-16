@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a96205f1971207f81d6191ef46e1be25e063f4c
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 6fe6a097ba413c81d90f5fe519c5d6cbf1377a98
+ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699774"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30062657"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Общие сведения о динамическом членстве в командах
 
@@ -33,8 +33,11 @@ ms.locfileid: "26699774"
 Группами Майкрософт может занять от нескольких минут до 2 часов для отражения изменений динамическое членство, когда они вступили в силу в группе Office 365 для команды. 
 
 > [!NOTE]
-> - Правила можно определить участников группы, но не группы владельцев.
+> - Правила можно определить, кто является участником группы, но не являющегося владельца группы.
 > - В разделе [ограничения и характеристики для групп Майкрософт](limits-specifications-teams.md) ограничения на размеры группы и канала.
+> - Владельцы не сможет добавить или удалить пользователей как участники группы, так как члены определены в динамической группы правил.
+> - Элементы, не сможет оставить группами с динамических групп.
+
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Создание и управление с помощью динамических членства группы с Office 365
 При входе в систему клиента администрирования, следуйте инструкциям в [Создание динамической группы и проверьте состояние](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). При необходимости, обратитесь к [динамические правила для групп в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
