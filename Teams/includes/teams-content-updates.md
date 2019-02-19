@@ -3,88 +3,29 @@
 
 
 
-## <a name="week-of-january-07-2019"></a>Неделя с 7 января 2019 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 7.1.2019 | [Приобретение и развертывание IP-телефонов с Microsoft Teams](/MicrosoftTeams/buying-and-deploying-teams-ip-phones) | изменено |
-| 8.1.2019 | [Приобретение и развертывание IP-телефонов с Microsoft Teams](/MicrosoftTeams/buying-and-deploying-teams-ip-phones) | изменено |
-| 8.1.2019 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | изменено |
-| 8.1.2019 | [Авторизация гостевого доступа в Microsoft Teams](/MicrosoftTeams/teams-dependencies) | изменено |
-| 8.1.2019 | [Добавление гостя в команду](/MicrosoftTeams/add-guests) | изменено |
-| 8.1.2019 | [Изменение сведений о гостевых пользователях](/MicrosoftTeams/edit-guests-information) | изменено |
-| 8.1.2019 | [Использование PowerShell для управления гостевым доступом в команде](/MicrosoftTeams/guest-access-powershell) | изменено |
-| 8.1.2019 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | изменено |
-| 8.1.2019 | [Взаимодействие с гостями](/MicrosoftTeams/guest-experience) | изменено |
-| 8.1.2019 | [Присоединение гостя к команде](/MicrosoftTeams/guest-joins) | изменено |
-| 8.1.2019 | [Управление гостевым доступом в Microsoft Teams](/MicrosoftTeams/manage-guests) | изменено |
-| 8.1.2019 | [Включение и отключение гостевого доступа для Microsoft Teams](/MicrosoftTeams/set-up-guests) | изменено |
-| 8.1.2019 | [Просмотр гостевых пользователей в команде](/MicrosoftTeams/view-guests) | изменено |
-| 1/9/2019 | [Сведения о режиме "Только Teams"](/MicrosoftTeams/teams-only-mode-considerations) | Добавлено |
-| 9.1.2019 | [Схема перехода](/MicrosoftTeams/upgrade-framework) | Добавлено |
-| 9.1.2019 | [Переход на Teams — Microsoft Teams](/MicrosoftTeams/upgrade-introduction) | Добавлено |
-| 9.1.2019 | [Начало перехода на Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | Добавлено |
-| 9.1.2019 | [Переход на Teams с гибридного или локального развертывания Skype для бизнеса — Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | Добавлено |
-| 9.1.2019 | [Известные проблемы для Microsoft Teams](/MicrosoftTeams/known-issues) | изменено |
-| 1/9/2019 | [Качество обслуживания в Microsoft Teams — Microsoft Teams](/MicrosoftTeams/qos-in-teams) | изменено |
-| 1/9/2019 | [Добавление SMTP-домена Microsoft Teams в качестве доверенного отправителя в Exchange Online](/MicrosoftTeams/smtp-accepted-domain) | изменено |
-| 1/9/2019 | [Встроенные и настраиваемые вкладки в Microsoft Teams](/MicrosoftTeams/built-in-custom-tabs) | изменено |
-| 9.1.2019 | [Доступность в Бахрейне](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | изменено |
-| 9.1.2019 | [Доступность в Беларуси](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus) | изменено |
-| 9.1.2019 | [Учетные записи пользователей в гибридной среде со связью с ТСОП](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | изменено |
-| 9.1.2019 | [Создание первых команд и каналов в Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | изменено |
-| 9.1.2019 | [Установка языков автосекретаря для аудиоконференций в Microsoft Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | изменено |
-| 9.1.2019 | [Сосуществование и взаимодействие Microsoft Teams и Skype для бизнеса](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | изменено |
-| 9.1.2019 | [Оценка готовности организации к изменениям перед переходом со Skype для бизнеса на Microsoft Teams — Microsoft Teams](/MicrosoftTeams/upgrade-org-change-readiness) | изменено |
-| 9.1.2019 | [Обновление Pro в Microsoft Teams](/MicrosoftTeams/upgrade-pro) | изменено |
-| 9.1.2019 | [Переход со Skype для бизнеса Online на Teams — Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | изменено |
-| 9.1.2019 | [Управление Microsoft Teams с ролями администратора](/MicrosoftTeams/using-admin-roles) | изменено |
-| 9.1.2019 | [Переход на Teams с гибридного или локального развертывания Skype для бизнеса — Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | изменено |
-| 1/10/2019 | [Документация и практическое руководство по Microsoft Teams](/MicrosoftTeams/microsoft-teams) | изменено |
-| 1/10/2019 | [Начало работы с шаблонами Teams](/MicrosoftTeams/get-started-with-teams-templates) | изменено |
-| 1/10/2019 | [Мониторинг использования и отзывов в Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | изменено |
-| 1/10/2019 | [Управление приложением "Смены" для вашей организации в Microsoft Teams](/MicrosoftTeams/manage-the-shifts-app-for-your-organization-in-teams) | Добавлено |
-| 10.1.2019 | [Отчет об использовании устройств с Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | Добавлено |
-| 10.1.2019 | [Аналитика и отчеты Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | Добавлено |
-| 10.1.2019 | [Отчет об использовании Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | Добавлено |
-| 10.1.2019 | [Отчет о действиях пользователей Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | Добавлено |
-| 1/11/2019 | [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | изменено |
-| 11.1.2019 | [Инструменты и скачиваемые материалы по внедрению](/MicrosoftTeams/adopt-tools-and-downloads) | изменено |
-| 11.1.2019 | [Краткое руководство — Microsoft Teams](/MicrosoftTeams/get-started-with-teams-quick-start) | изменено |
-| 11.1.2019 | [Знакомство с командами и каналами в Microsoft Teams](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | изменено |
-| 11.1.2019 | [Схема перехода](/MicrosoftTeams/upgrade-framework) | изменено |
-| 11.1.2019 | [Планирование развертываний Microsoft 365 для государственных организаций (DoD) — Microsoft Teams](/MicrosoftTeams/plan-for-government-dod) | Добавлено |
-| 1/11/2019 | [Параметры администратора для приложений в Microsoft Teams](/MicrosoftTeams/admin-settings) | изменено |
-| 11.1.2019 | [Настройка прямой маршрутизации](/MicrosoftTeams/direct-routing-configure) | изменено |
-| 11.1.2019 | [Управление функциями Microsoft Teams в организации Office 365](/MicrosoftTeams/enable-features-office-365) | изменено |
-| 11.1.2019 | [Планирование развертываний Microsoft Office 365 для государственных организаций (GCC) — Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | изменено |
-| 11.1.2019 | [Сведения о режиме "Только Teams"](/MicrosoftTeams/teams-only-mode-considerations) | изменено |
-
-
 ## <a name="week-of-january-14-2019"></a>Неделя с 14 января 2019 г.
 
 
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
-| 1/14/2019 | [Инструменты и скачиваемые материалы по внедрению](/MicrosoftTeams/adopt-tools-and-downloads) | изменено |
+| 14.01.2019 | [Инструменты и скачиваемые материалы по внедрению](/MicrosoftTeams/adopt-tools-and-downloads) | изменено |
 | 14.01.2019 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | изменено |
 | 14.01.2019 | [Начало перехода на Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | изменено |
 | 15.01.2019 | [Приложение "Смены" для вашей организации в Microsoft Teams](/MicrosoftTeams/manage-the-shifts-app-for-your-organization-in-teams) | изменено |
 | 16.01.2019 | [Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/faq-journey) | изменено |
-| 1/16/2019 | [Качество обслуживания и аналитика звонков в Microsoft Teams](/MicrosoftTeams/monitor-call-quality-qos) | Добавлено |
+| 16.01.2019 | [Качество обслуживания и аналитика звонков в Microsoft Teams](/MicrosoftTeams/monitor-call-quality-qos) | Добавлено |
 | 16.01.2019 | [Качество обслуживания в Microsoft Teams](/MicrosoftTeams/qos-in-teams) | изменено |
-| 1/16/2019 | [Изменение номеров телефонов для моста аудиоконференций](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | изменено |
-| 1/16/2019 | [Создание и использование абонентских групп](/MicrosoftTeams/create-and-manage-dial-plans) | изменено |
-| 1/16/2019 | [Исходящие звонки, позволяющие другим людям присоединиться к собранию](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | изменено |
-| 1/16/2019 | [Измерения и меры на панели мониторинга качества звонков](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | изменено |
-| 1/16/2019 | [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | изменено |
-| 1/16/2019 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | изменено |
-| 1/16/2019 | [Планирование управления в Teams — Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | изменено |
-| 1/16/2019 | [Область поиска в каталоге Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | изменено |
-| 1/16/2019 | [Парковка и восстановление звонков в Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | изменено |
-| 1/16/2019 | [Общие звонки и ответ на групповые звонки в Microsoft Teams](/MicrosoftTeams/call-sharing-and-group-call-pickup) | изменено |
-| 1/16/2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | изменено |
+| 16.01.2019 | [Изменение номеров телефонов для моста аудиоконференций](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | изменено |
+| 16.01.2019 | [Создание и использование абонентских групп](/MicrosoftTeams/create-and-manage-dial-plans) | изменено |
+| 16.01.2019 | [Исходящие звонки, позволяющие другим людям присоединиться к собранию](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | изменено |
+| 16.01.2019 | [Измерения и меры на панели мониторинга качества звонков](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | изменено |
+| 16.01.2019 | [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | изменено |
+| 16.01.2019 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | изменено |
+| 16.01.2019 | [Планирование управления в Teams — Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | изменено |
+| 16.01.2019 | [Область поиска в каталоге Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | изменено |
+| 16.01.2019 | [Парковка и восстановление звонков в Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | изменено |
+| 16.01.2019 | [Общие звонки и ответ на групповые звонки в Microsoft Teams](/MicrosoftTeams/call-sharing-and-group-call-pickup) | изменено |
+| 16.01.2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | изменено |
 | 16.01.2019 | [Управление гостевым доступом в Microsoft Teams](/MicrosoftTeams/manage-guests) | изменено |
 | 17.01.2019 | [Принятие решений по службе аудиоконференций — Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | изменено |
 | 17.01.2019 | [Принятие решений по службе телефонной системы с планами звонков — Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system) | изменено |
@@ -142,34 +83,34 @@
 
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
-| 1/22/2019 | [Изменение языка по умолчанию для приветствий и электронных писем](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | изменено |
-| 1/22/2019 | [Аналитика звонков и панель мониторинга качества звонков](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | изменено |
-| 1/22/2019 | [Настройка аналитики звонков](/MicrosoftTeams/set-up-call-analytics) | изменено |
-| 1/22/2019 | [Использование аналитики звонков для устранения проблем с качеством звонка](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | изменено |
-| 1/23/2019 | [Обзор PowerShell в Teams](/MicrosoftTeams/teams-powershell-overview) | изменено |
-| 1/23/2019 | [Аналитика звонков и панель мониторинга качества звонков](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | изменено |
-| 1/23/2019 | [Использование аналитики звонков для устранения проблем с качеством звонка](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | изменено |
-| 1/23/2019 | [Настройка аналитики звонков](/MicrosoftTeams/set-up-call-analytics) | изменено |
-| 1/24/2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | изменено |
-| 1/24/2019 | [Что такое политики обмена сообщениями в Teams?](/MicrosoftTeams/messaging-policies-in-teams) | изменено |
-| 1/25/2019 | [Взаимодействие Microsoft Teams с облачными видеослужбами](/MicrosoftTeams/cloud-video-interop) | изменено |
-| 1/25/2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | изменено |
-| 1/25/2019 | [Потоки онлайн-вызовов в Microsoft Teams](/MicrosoftTeams/microsoft-teams-online-call-flows) | изменено |
-| 1/25/2019 | [Подготовка сети организации к использованию Microsoft Teams](/MicrosoftTeams/prepare-network) | изменено |
-| 1/25/2019 | [Переход на Teams — Microsoft Teams](/MicrosoftTeams/upgrade-introduction) | изменено |
-| 1/25/2019 | [Подготовка сети для Microsoft Teams:|  требования к портам и брандмауэру](/MicrosoftTeams/upgrade-prepare-environment-prepare-network) | изменено |
-| 1/25/2019 | [Начало перехода на Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | изменено |
-| 1/25/2019 | [Вопросы и ответы по Microsoft Teams: | возможности собраний, конференций, звонков](/MicrosoftTeams/faq-journey) | изменено |
-| 1/25/2019 | [Обучение ИТ-администратора для работы с Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | изменено |
-| 1/25/2019 | [План подготовки пользователей к Microsoft Teams: | рекомендации](/MicrosoftTeams/continue-journey) | изменено |
-| 1/25/2019 | [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | изменено |
-| 1/25/2019 | [Настройка прямой маршрутизации](/MicrosoftTeams/direct-routing-configure) | изменено |
-| 1/25/2019 | [Управление функциями Microsoft Teams в организации Office 365](/MicrosoftTeams/enable-features-office-365) | изменено |
-| 1/25/2019 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | изменено |
+| 22.01.2019 | [Изменение языка по умолчанию для приветствий и электронных писем](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | изменено |
+| 22.01.2019 | [Аналитика звонков и панель мониторинга качества звонков](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | изменено |
+| 22.01.2019 | [Настройка аналитики звонков](/MicrosoftTeams/set-up-call-analytics) | изменено |
+| 22.01.2019 | [Использование аналитики звонков для устранения проблем с качеством звонка](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | изменено |
+| 23.01.2019 | [Обзор PowerShell в Teams](/MicrosoftTeams/teams-powershell-overview) | изменено |
+| 23.01.2019 | [Аналитика звонков и панель мониторинга качества звонков](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | изменено |
+| 23.01.2019 | [Использование аналитики звонков для устранения проблем с качеством звонка](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | изменено |
+| 23.01.2019 | [Настройка аналитики звонков](/MicrosoftTeams/set-up-call-analytics) | изменено |
+| 24.01.2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | изменено |
+| 24.01.2019 | [Что такое политики обмена сообщениями в Teams?](/MicrosoftTeams/messaging-policies-in-teams) | изменено |
+| 25.01.2019 | [Взаимодействие Microsoft Teams с облачными видеослужбами](/MicrosoftTeams/cloud-video-interop) | изменено |
+| 25.01.2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | изменено |
+| 25.01.2019 | [Потоки онлайн-вызовов в Microsoft Teams](/MicrosoftTeams/microsoft-teams-online-call-flows) | изменено |
+| 25.01.2019 | [Подготовка сети организации к использованию Microsoft Teams](/MicrosoftTeams/prepare-network) | изменено |
+| 25.01.2019 | [Переход на Teams — Microsoft Teams](/MicrosoftTeams/upgrade-introduction) | изменено |
+| 25.01.2019 | [Подготовка сети для Microsoft Teams:|  требования к портам и брандмауэру](/MicrosoftTeams/upgrade-prepare-environment-prepare-network) | изменено |
+| 25.01.2019 | [Начало перехода на Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | изменено |
+| 25.01.2019 | [Вопросы и ответы по Microsoft Teams: | возможности собраний, конференций, звонков](/MicrosoftTeams/faq-journey) | изменено |
+| 25.01.2019 | [Обучение ИТ-администратора для работы с Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | изменено |
+| 25.01.2019 | [План подготовки пользователей к Microsoft Teams: | рекомендации](/MicrosoftTeams/continue-journey) | изменено |
+| 25.01.2019 | [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | изменено |
+| 25.01.2019 | [Настройка прямой маршрутизации](/MicrosoftTeams/direct-routing-configure) | изменено |
+| 25.01.2019 | [Управление функциями Microsoft Teams в организации Office 365](/MicrosoftTeams/enable-features-office-365) | изменено |
+| 25.01.2019 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | изменено |
 | 25.01.2019 | [Управление командами в Центре администрирования Microsoft Teams и Skype для бизнеса](/MicrosoftTeams/manage-teams-in-modern-portal). | изменено |
-| 1/25/2019 | [Установка Microsoft Teams с помощью MSI (через SCCM)](/MicrosoftTeams/msi-deployment) | изменено |
-| 1/25/2019 | [Эффективность работы с Microsoft Teams:| Управление услугами | качество](/MicrosoftTeams/upgrade-operate-my-service) | изменено |
-| 1/25/2019 | [Управление доступом пользователей к Microsoft Teams](/MicrosoftTeams/user-access) | изменено |
+| 25.01.2019 | [Установка Microsoft Teams с помощью MSI (через SCCM)](/MicrosoftTeams/msi-deployment) | изменено |
+| 25.01.2019 | [Эффективность работы с Microsoft Teams:| Управление услугами | качество](/MicrosoftTeams/upgrade-operate-my-service) | изменено |
+| 25.01.2019 | [Управление доступом пользователей к Microsoft Teams](/MicrosoftTeams/user-access) | изменено |
 
 
 ## <a name="week-of-january-28-2019"></a>Неделя с 28 января 2019 г.
@@ -331,4 +272,222 @@
 | 7.02.2019 | [Планирование маршрутизации на основе расположения для прямой маршрутизации](/MicrosoftTeams/location-based-routing-plan) | изменено |
 | 7.02.2019 | [Терминология маршрутизации на основе расположения](/MicrosoftTeams/location-based-routing-terminology) | изменено |
 | 8.02.2019 | [Сосуществование со Skype для бизнеса](/MicrosoftTeams/coexistence-chat-calls-presence) | изменено |
-| 8.02.2019 | [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | изменено |
+| 8.02.2019 | [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Изменено |
+
+
+## <a name="week-of-february-11-2019"></a>Неделя с 11 февраля 2019 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 11.02.2019 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Добавлено |
+| 11.02.2019 | [Управление учетными записями ресурсов в Teams](/MicrosoftTeams/manage-resource-accounts) | Изменено |
+| 11.02.2019 | [Планирование развертываний Microsoft 365 для государственных организаций (GCC) — Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | Изменено |
+| 12.02.2019 | [Прокси-серверы для Teams или Skype для бизнеса Online](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | Переименовано |
+| 12.02.2019 | [URL-адреса и диапазоны IP-адресов Office 365](/MicrosoftTeams/office-365-urls-ip-address-ranges) | Изменено |
+| 12.02.2019 | [Руководство по планированию управления службами для Microsoft Teams](/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) | Изменено |
+| 12.02.2019 | [Управление учетными записями ресурсов в Teams](/MicrosoftTeams/manage-resource-accounts) | Изменено |
+| 12.02.2019 | [Планирование развертываний Microsoft 365 для государственных организаций (GCC) — Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | Изменено |
+| 12.02.2019 | [Руководство по анализу процедуры обеспечения качества для Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | Изменено |
+| 12.02.2019 | [Планирование управления службами и обеспечения их качества: | техническая готовность](/MicrosoftTeams/upgrade-plan-for-quality) | Изменено |
+| 12.02.2019 | [Планирование маршрутизации на основе расположения для прямой маршрутизации](/MicrosoftTeams/location-based-routing-plan) | Изменено |
+| 12.02.2019 | [Взаимодействие с клиентом Teams и соответствие режимам сосуществования](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | Добавлено |
+| 13.02.2019 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | Изменено |
+| 13.02.2019 | [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Изменено |
+| 13.02.2019 | [Взаимодействие с клиентом Teams и соответствие режимам сосуществования](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | Изменено |
+| 13.02.2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 13.02.2019 | [Использование отчетов об активности в Microsoft Teams](/MicrosoftTeams/teams-activity-reports) | Изменено |
+| 14.02.2019 | [Настройка параметров сети для маршрутизации на основе расположения](/MicrosoftTeams/location-based-routing-configure-network-settings) | Изменено |
+| 14.02.2019 | [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](/MicrosoftTeams/location-based-routing-enable) | Изменено |
+| 14.02.2019 | [Пополнение средств и управление кредитами на связь](/MicrosoftTeams/add-funds-and-manage-communications-credits) | Изменено |
+| 14.02.2019 | [Планы звонков для Office 365](/MicrosoftTeams/calling-plans-for-office-365) | Изменено |
+| 14.02.2019 | [Изменение языка по умолчанию для приветствий и электронных писем](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | Изменено |
+| 14.02.2019 | [Доступность в Аргентине](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina) | Изменено |
+| 14.02.2019 | [Доступность в Австралии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | Изменено |
+| 14.02.2019 | [Доступность в Австрии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria) | Изменено |
+| 14.02.2019 | [Доступность в Бахрейне](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | Изменено |
+| 14.02.2019 | [Доступность в Беларуси](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus) | Изменено |
+| 14.02.2019 | [Доступность в Бельгии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium) | Изменено |
+| 14.02.2019 | [Доступность в Белизе](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize) | Изменено |
+| 14.02.2019 | [Доступность в Боснии и Герцеговине](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina) | Изменено |
+| 14.02.2019 | [Доступность в Бразилии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil) | Изменено |
+| 14.02.2019 | [Доступность в Бруней-Даруссаламе](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei) | Изменено |
+| 14.02.2019 | [Доступность в Болгарии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria) | Изменено |
+| 14.02.2019 | [Доступность в Канаде](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada) | Изменено |
+| 14.02.2019 | [Доступность в Чили](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile) | Изменено |
+| 14.02.2019 | [Доступность в Китае](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china) | Изменено |
+| 14.02.2019 | [Доступность в Колумбии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia) | Изменено |
+| 14.02.2019 | [Доступность в Коста-Рике](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica) | Изменено |
+| 14.02.2019 | [Доступность в Хорватии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia) | Изменено |
+| 14.02.2019 | [Доступность на Кипре](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus) | Изменено |
+| 14.02.2019 | [Доступность в Дании](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark) | Изменено |
+| 14.02.2019 | [Доступность в Эквадоре](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador) | Изменено |
+| 14.02.2019 | [Доступность в Египте](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt) | Изменено |
+| 14.02.2019 | [Доступность в Эль-Сальвадоре](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador) | Изменено |
+| 14.02.2019 | [Доступность в Эстонии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia) | Изменено |
+| 14.02.2019 | [Доступность в Финляндии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland) | Изменено |
+| 14.02.2019 | [Доступность во Франции](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | Изменено |
+| 14.02.2019 | [Доступность в Грузии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia) | Изменено |
+| 14.02.2019 | [Доступность в Германии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | Изменено |
+| 14.02.2019 | [Доступность в Греции](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece) | Изменено |
+| 14.02.2019 | [Доступность в Гондурасе](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras) | Изменено |
+| 14.02.2019 | [Доступность в Гонконге (САР)](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong) | Изменено |
+| 14.02.2019 | [Доступность в Венгрии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary) | Изменено |
+| 14.02.2019 | [Доступность в Индии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | Изменено |
+| 14.02.2019 | [Доступность в Индонезии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia) | Изменено |
+| 14.02.2019 | [Доступность в Ирландии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland) | Изменено |
+| 14.02.2019 | [Доступность в Израиле](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel) | Изменено |
+| 14.02.2019 | [Доступность в Италии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | Изменено |
+| 14.02.2019 | [Доступность в Японии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | Изменено |
+| 14.02.2019 | [Доступность в Иордании](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan) | Изменено |
+| 14.02.2019 | [Доступность в Кении](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya) | Изменено |
+| 14.02.2019 | [Доступность в Латвии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia) | Изменено |
+| 14.02.2019 | [Доступность в Литве](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania) | Изменено |
+| 14.02.2019 | [Доступность в Люксембурге](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg) | Изменено |
+| 14.02.2019 | [Доступность в Македонии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia) | Изменено |
+| 14.02.2019 | [Доступность в Малайзии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia) | Изменено |
+| 14.02.2019 | [Доступность на Мальте](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta) | Изменено |
+| 14.02.2019 | [Доступность в Мексике](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico) | Изменено |
+| 14.02.2019 | [Доступность в Молдове](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova) | Изменено |
+| 14.02.2019 | [Доступность в Монако](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco) | Изменено |
+| 14.02.2019 | [Доступность в Новой Зеландии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand) | Изменено |
+| 14.02.2019 | [Доступность в Норвегии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway) | Изменено |
+| 14.02.2019 | [Доступность в Пакистане](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan) | Изменено |
+| 14.02.2019 | [Доступность в Панаме](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama) | Изменено |
+| 14.02.2019 | [Доступность в Парагвае](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay) | Изменено |
+| 14.02.2019 | [Доступность в Перу](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru) | Изменено |
+| 14.02.2019 | [Доступность в Польше](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland) | Изменено |
+| 14.02.2019 | [Доступность в Португалии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal) | Изменено |
+| 14.02.2019 | [Доступность в Пуэрто-Рико](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico) | Изменено |
+| 14.02.2019 | [Доступность в Катаре](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar) | Изменено |
+| 14.02.2019 | [Доступность в Румынии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania) | Изменено |
+| 14.02.2019 | [Доступность в России](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia) | Изменено |
+| 14.02.2019 | [Доступность в Саудовской Аравии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia) | Изменено |
+| 14.02.2019 | [Доступность в Сербии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia) | Изменено |
+| 14.02.2019 | [Доступность в Сингапуре](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore) | Изменено |
+| 14.02.2019 | [Доступность в Словакии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia) | Изменено |
+| 14.02.2019 | [Доступность в Словении](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia) | Изменено |
+| 14.02.2019 | [Доступность в ЮАР](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa) | Изменено |
+| 14.02.2019 | [Доступность в Южной Корее](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea) | Изменено |
+| 14.02.2019 | [Доступность в Испании](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain) | Изменено |
+| 14.02.2019 | [Доступность в Шри-Ланке](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka) | Изменено |
+| 14.02.2019 | [Доступность в Швеции](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden) | Изменено |
+| 14.02.2019 | [Доступность в Швейцарии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | Изменено |
+| 14.02.2019 | [Доступность на Тайване](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan) | Изменено |
+| 14.02.2019 | [Доступность в Таиланде](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand) | Изменено |
+| 14.02.2019 | [Доступность в Чехии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic) | Изменено |
+| 14.02.2019 | [Доступность в Доминиканской Республике](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic) | Изменено |
+| 14.02.2019 | [Доступность в Нидерландах](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands) | Изменено |
+| 14.02.2019 | [Доступность на Филиппинах](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines) | Изменено |
+| 14.02.2019 | [Доступность на Украине](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine) | Изменено |
+| 14.02.2019 | [Доступность в Объединенных Арабских Эмиратах (ОАЭ)](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae) | Изменено |
+| 14.02.2019 | [Доступность в Соединенном Королевстве](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k) | Изменено |
+| 14.02.2019 | [Доступность в США](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s) | Изменено |
+| 14.02.2019 | [Доступность в Тринидаде и Тобаго](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago) | Изменено |
+| 14.02.2019 | [Доступность в Турции](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey) | Изменено |
+| 14.02.2019 | [Доступность в Уругвае](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay) | Изменено |
+| 14.02.2019 | [Доступность в Венесуэле](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela) | Изменено |
+| 14.02.2019 | [Доступность во Вьетнаме](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam) | Изменено |
+| 14.02.2019 | [Доступность аудиоконференций и планов звонков в различных странах и регионах](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
+| 14.02.2019 | [Страны и регионы, в которые пользователи могут совершать исходящие звонки](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | Изменено |
+| 14.02.2019 | [Создание и использование абонентских групп](/MicrosoftTeams/create-and-manage-dial-plans) | Изменено |
+| 14.02.2019 | [Различные типы телефонных номеров, используемые для планов звонков](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans) | Изменено |
+| 14.02.2019 | [Доступность аудиоконференций и планов звонков в различных странах и регионах](/MicrosoftTeams/emergency-calling-labels) | Изменено |
+| 14.02.2019 | [Условия для экстренных вызовов](/MicrosoftTeams/emergency-calling-terms-and-conditions) | Изменено |
+| 14.02.2019 | [Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Изменено |
+| 14.02.2019 | [Предоставляемое количество номеров телефонов](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | Изменено |
+| 14.02.2019 | [Языки для приветствий и сообщений голосовой почты](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | Изменено |
+| 14.02.2019 | [Управление номерами телефонов для организации](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | Изменено |
+| 14.02.2019 | [Управление номерами телефонов в Австралии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | Изменено |
+| 14.02.2019 | [Управление номерами телефонов в Бельгии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | Изменено |
+| 14.02.2019 | [Управление номерами телефонов в Канаде](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | Изменено |
+| 14.02.2019 | [Управление номерами телефонов во Франции](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | Изменено |
+| 14.02.2019 | [Управление номерами телефонов в Германии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | Изменено |
+| 14.02.2019 | [Управление номерами телефонов в Ирландии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | Изменено |
+| 14.02.2019 | [Управление номерами телефонов в Испании](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | Изменено |
+| 14.02.2019 | [Управление номерами телефонов в Нидерландах](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | Изменено |
+| 14.02.2019 | [Управление номерами телефонов в Соединенном Королевстве](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | Изменено |
+| 14.02.2019 | [Управление номерами телефонов в США](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | Изменено |
+| 14.02.2019 | [Потоки онлайн-вызовов в Microsoft Teams](/MicrosoftTeams/microsoft-teams-online-call-flows) | Изменено |
+| 14.02.2019 | [Настройка планов звонков](/MicrosoftTeams/set-up-calling-plans) | Изменено |
+| 14.02.2019 | [Настройка кредитов на связь для организации](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | Изменено |
+| 14.02.2019 | [Настройка голосовой почты телефонной системы](/MicrosoftTeams/set-up-phone-system-voicemail) | Изменено |
+| 14.02.2019 | [Настройка телефонной системы в организации](/MicrosoftTeams/setting-up-your-phone-system) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Аргентине](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Беларуси](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Белизе](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Боснии и Герцеговине](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Бразилии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Брунее](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Болгарии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Чили](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров на севере Китая (диапазон 10 800 714 XXXX)](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров на юге Китая (диапазон 10 800 140 XXXX)](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Колумбии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Хорватии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров на Кипре](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Дании](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Эквадоре](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Египте](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Эстонии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Финляндии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров во Франции](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Германии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Гондурасе](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Гонконге (САР)](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Венгрии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Индии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Индонезии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Ирландии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Израиле](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Японии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Кении](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Люксембурге](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Малайзии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Мексике](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Молдове](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Монако](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Панаме](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Парагвае](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Перу](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Польше](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Португалии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Катаре](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Румынии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Саудовской Аравии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Сербии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Сингапуре](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Словакии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Словении](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в ЮАР](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Южной Корее](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Испании](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Швеции](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров на Тайване](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Таиланде](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Нидерландах](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров на Филиппинах](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в ОАЭ](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Соединенном Королевстве](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Турции](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Уругвае](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров в Венесуэле](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela) | Изменено |
+| 14.02.2019 | [Ограничения набора бесплатных номеров во Вьетнаме](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam) | Изменено |
+| 14.02.2019 | [Перенос телефонных номеров в Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365) | Изменено |
+| 14.02.2019 | [Общие вопросы о переносе телефонных номеров](/MicrosoftTeams/transferring-phone-numbers-common-questions) | Изменено |
+| 14.02.2019 | [Что такое кредиты на связь?](/MicrosoftTeams/what-are-communications-credits) | Изменено |
+| 14.02.2019 | [Что такое абонентские группы?](/MicrosoftTeams/what-are-dial-plans) | Изменено |
+| 14.02.2019 | [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | Изменено |
+| 14.02.2019 | [Что такое автосекретари телефонной системы?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | Изменено |
+| 14.02.2019 | [Что такое телефонная система в Office 365?](/MicrosoftTeams/what-is-phone-system-in-office-365) | Изменено |
+| 14.02.2019 | [Отработка отказа канала связи при исходящих звонках](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | Изменено |
+| 14.02.2019 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
+| 14.02.2019 | [Управление параметрами собрания](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
+| 14.02.2019 | [Управление политиками обмена сообщениями](/MicrosoftTeams/messaging-policies-in-teams) | Изменено |
+| 14.02.2019 | [Обзор обеспечения безопасности и соответствия в Microsoft Teams](/MicrosoftTeams/security-compliance-overview) | Изменено |
+| 15.02.2019 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
+| 15.02.2019 | [Обучение администратора для работы с Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
+| 15.02.2019 | [Общие сведения о динамическом членстве в командах](/MicrosoftTeams/dynamic-memberships) | Изменено |
+| 15.02.2019 | [Телефоны для Microsoft Teams](/MicrosoftTeams/phones-for-teams) | Изменено |
+| 15.02.2019 | [Аналитика звонков и панель мониторинга качества звонков](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | Изменено |
+| 15.02.2019 | [Включение и использование панели мониторинга качества звонков](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | Изменено |
