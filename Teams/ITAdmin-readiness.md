@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, наборов слайдов PowerPoint, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eda922ce0346a69d657789bdc13a6381254c2b3a
-ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
+ms.openlocfilehash: 58f37fba985817b777ebce7c125b9cd5d80cc425
+ms.sourcegitcommit: 11f95d0df48a23e701ffaf3b26445d736cbbb884
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30062625"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "30079135"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -94,7 +94,7 @@ ms.locfileid: "30062625"
 | Общие сведения о собраниях | [Видео](http://aka.ms/teams-meetings-intro) | [Колоды](http://aka.ms/teams-meetings-intro-deck) |
 | Общие сведения о системе телефона | [Видео](http://aka.ms/teams-phone-system) | [Колоды](http://aka.ms/teams-phone-system-deck) |
 | Прямая отправка | [Видео](http://aka.ms/teams-direct-routing) | [Колоды](http://aka.ms/teams-direct-routing-deck) |
-| Переход со Skype для бизнеса на Teams | [Видео 1: Общие сведения об обновлении](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: Планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видео 3: Взаимодействие и сосуществование](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: Интерфейс администратора](https://aka.ms/teams-upgrade-admin) | [Колоды](htt://aka.ms/teams-upgrade-deck)|
+| Переход со Skype для бизнеса на Teams | [Видео 1: Общие сведения об обновлении](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: Планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видео 3: Взаимодействие и сосуществование](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: Интерфейс администратора](https://aka.ms/teams-upgrade-admin) | [Колоды](http://aka.ms/teams-upgrade-deck)|
 
 <h2>Краткие руководства по началу работы</h2>
 
