@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be2e95d7be359856d5aef4f67664ef27ee62fa74
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: cdaa51072df7ffeeb2aeb2c66e73f07b0c0c0569
+ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562615"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087822"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Управление доступом пользователей к Microsoft Teams
 =====================================
@@ -50,7 +50,7 @@ ms.locfileid: "29562615"
 > [!IMPORTANT]
 > Новые MsolLicenseOptions будет запустить все службы, которые ранее были отключены, если не explictitly identitied в пользовательского сценария. Например чтобы оставить оба Exchange & Sway отключены при additonally отключение команд, необходимо inlcude это в сценарий или оба & Exchange, которые Sway будет становятся доступными для пользователей, указанным вами. Если вы хотите использовать графический интерфейс пользователя для управления этой функциональности, см.: [отчетов лицензии Office 365 и средства управления-назначение удаления лицензий массовое](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
-Включение и отключение в PowerShell лицензии на рабочую нагрузку Microsoft Teams выполняются точно так же, как и для других нагрузок. План обслуживания для Microsof Teams называется TEAMS1. Для государственных учреждений имя плана службы — TEAMS_GOV. (Дополнительные сведения: [Отключение доступа к службам с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).)
+Включение и отключение в PowerShell лицензии на рабочую нагрузку Microsoft Teams выполняются точно так же, как и для других нагрузок. План обслуживания для Microsof Teams называется TEAMS1. Для GCC имя плана службы — TEAMS_GOV. Для высокой GCC имя плана службы — TEAMS_GCCHIGH. Для министерства обороны США имя плана службы является TEAMS_DOD (см. [отключить доступ к службам с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) для получения дополнительных сведений.)
 
 **Пример:** Ниже приведен краткий образца на как может отключить команды для всех пользователей определенного лицензию. Сначала выполните эту операцию, а затем отдельно активируйте лицензии для каждого пользователя, которому нужен доступ в рамках пилотной программы.
 

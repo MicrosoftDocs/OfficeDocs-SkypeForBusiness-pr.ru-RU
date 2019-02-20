@@ -1,5 +1,5 @@
 ---
-title: Группы взаимодействия с пользователем и соответствия режимы сосуществования
+title: Взаимодействие с клиентом Teams и соответствие режимам сосуществования
 author: dearbeen
 ms.author: bjwhalen
 manager: serdars
@@ -13,16 +13,16 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5353079da3cc697d88983407db97c2d8894ea7a8
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
+ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992859"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087846"
 ---
 <a name="about-upgrade-basic"></a>
 
-# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Группы взаимодействия с пользователем и соответствия режимы сосуществования
+# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Взаимодействие с клиентом Teams и соответствие режимам сосуществования
 
 > [!NOTE]
 > На этой странице описываются важные предполагаемых изменениях в поведении команды клиента, когда пользователи находятся в любой из Скайп для режимов Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
@@ -74,9 +74,9 @@ ms.locfileid: "29992859"
 Перед развертыванием автоматического соответствия удобство работы пользователей, в зависимости от режима `Grant-csTeamsUpgradePolicy` командлет проверяет конфигурацию соответствующие параметры в TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy, чтобы определить, если эти параметры, совместимые с указанного режима. Если какие-либо не настроена должным образом, grant будет выполнена успешно, но предупреждения будет предоставляться в PowerShell, определяющее, какие специфические параметры настроены неправильно. Ниже приведен пример PowerShell предупреждение может иметь вид:
 
 
-`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
-WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
-PS C:\Users\janedoe>`
+`Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
+
+*Предупреждение: Пользователь «user1@contoso.com» в настоящее время имеет действующие политики включены значения для: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. В ближайшем будущем при предоставлении TeamsUpgradePolicy с режимом = SfBWithTeamsCollab пользователю, необходимо также отдельно назначение политики для обеспечения у пользователя есть значения действующие политики этот параметр отключен,: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling AllowChannelMeetingScheduling. В будущем возможность автоматически будет поддерживать TeamsUpgradePolicy.*
 
 После просмотра такое предупреждение, администратор впоследствии следует обновить указанной политики для обеспечения работы совместимые пользователей в группах. Если администратор решил не выполнять никаких действий, из-за предупреждение, пользователи по-прежнему могут иметь доступ к чата, вызов и/или собрания функции планирования в группах в зависимости от значения TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy, что может привести к путанице работы конечных пользователей.
 
