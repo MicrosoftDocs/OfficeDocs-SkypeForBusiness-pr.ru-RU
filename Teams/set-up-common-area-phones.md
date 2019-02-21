@@ -1,5 +1,5 @@
 ---
-title: Настройка телефона общего пользования лицензии для групп Майкрософт
+title: Настройка лицензии для телефонов общего пользования для Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить телефонов общего пользования приемные, прием областей и конференц-залов '
-ms.openlocfilehash: 44cd9a4faa6c94a60d84fa825149bbf4c6b846fe
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: b7fb997a8e9367c4a3b8629f037ad79871b64b25
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27271159"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121046"
 ---
-# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Настройка телефона общего пользования лицензии для групп Майкрософт
+# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Настройка лицензии для телефонов общего пользования для Microsoft Teams
 
 Телефон общего пользования обычно размещается в область, например зал ожидания или другой области, которое входит многим пользователям звонок; Например, для приема области, зал ожидания или конференции телефон. Региональные телефоны настраиваются как устройства, а не пользователей и автоматически может войти в сети.
 
@@ -50,7 +50,7 @@ ms.locfileid: "27271159"
 > [!NOTE]
 > Вам не нужна лицензия на телефонную систему. Она включена в лицензию Телефона общего пользования.
 
-Дополнительные сведения о лицензии видеть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Дополнительные сведения о лицензии см. [: Лицензирование дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Шаг 2. Создание новой учетной записи пользователя для телефона и назначение лицензии
 
@@ -74,7 +74,7 @@ ms.locfileid: "27271159"
 
 Используйте Скайп по центру администрирования Business для присвоения номера для пользователя.
 
-1. В центре администрирования Microsoft 365 выберите **центры администрирования** > **группами & Скайп** > **портала прежних версий**.
+1. В центре администрирования Microsoft 365 выберите **центры администрирования** > **команды & Скайп** > **портала прежних версий**.
 
 2. В Скайп по центру администрирования бизнеса, выберите **голосовой связи** > **телефонных номеров**.
 

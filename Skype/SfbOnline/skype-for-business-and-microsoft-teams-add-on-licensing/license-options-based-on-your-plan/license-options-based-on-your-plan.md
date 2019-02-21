@@ -14,17 +14,16 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
 description: Ознакомьтесь с телефонной системой голосовой почты.
-ms.openlocfilehash: 961b45de4049b7ab323f4e2cd8a6441711078113
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: faabd4c089227730f1c28e5e19dc9c394bd64473
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881875"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120292"
 ---
 # <a name="license-options-based-on-your-plan"></a>Параметры лицензии вашего Тарифного плана
 

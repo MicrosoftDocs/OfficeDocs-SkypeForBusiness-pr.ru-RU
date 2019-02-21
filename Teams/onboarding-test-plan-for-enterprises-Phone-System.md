@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: e96f39cbcf5dcca4c0687f89f37ead6791ff2d98
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594064"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120744"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Определите и задокументируйте телефонной системой с вызова планы в план тестирования группами для предприятий 
 ============================================================================================
@@ -752,7 +752,7 @@ ms.locfileid: "29594064"
 
 -   Обнаружены список организации сайтов и групп пользователей в области действия.
 
--   [Communications кредитов](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (при необходимости) настроенным для вашей организации.
+-   [Communications кредитов](what-are-communications-credits.md) (при необходимости) настроенным для вашей организации.
 
 -   Система телефона с помощью вызова планы определены и настроить параметры.
 

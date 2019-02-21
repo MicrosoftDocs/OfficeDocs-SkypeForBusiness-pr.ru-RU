@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 5f617ecea591d76b5dcd3e7daa308e7f7a74d808
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 11dfac5c72845354aeaabcc4bf15bc9ae7cf815d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047080"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120836"
 ---
 # <a name="set-up-calling-plans"></a>Настройка планов звонков
 Звонков на других Скайп для бизнес-пользователи могут свободно, но если пользователи должны иметь возможность вызова телефоны за пределами вашей организации получить внутренние вызов план или международный вызов плана в Office 365. Это просто установки для бизнеса. 
@@ -39,12 +39,12 @@ ms.locfileid: "30047080"
 Перейти к [страны и региона для конференц-связи аудио и вызов планы](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) и выберите страну или регион, чтобы получить сведения о доступности о вызове планы, а также сведения о международную звук конференц-связи, телефонной системой и бесплатный номер номера и кредитов коммуникаций.
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Шаг 2: Купить и назначение лицензий
-1. Если система телефона в Office 365 компонента не включена в план, может потребоваться приобрести лицензии дополнительный компонент **Телефонной системой** . После того как **Телефонной системой** лицензий на покупку [Вызов планы для Office 365](calling-plans-for-office-365.md). Просмотреть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)и приобрести лицензии и планирование. 
+1. Если система телефона в Office 365 компонента не включена в план, может потребоваться приобрести лицензии дополнительный компонент **Телефонной системой** . После того как **Телефонной системой** лицензий на покупку [Вызов планы для Office 365](calling-plans-for-office-365.md). См. [: Лицензирование дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)и приобрести лицензии и планирование. 
     
     > [!TIP]
     > Лицензий **Телефонной системой** и вызов планы в Office 365 перейдите вместе, чтобы увидеть возможность купить вызов планы, необходимо иметь лицензии **Телефонной системой** .
   
-2. Сначала назначение лицензий, а затем назначить вызов планирование для пользователей в вашей организации. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+2. Сначала назначение лицензий, а затем назначить вызов планирование для пользователей в вашей организации. В разделе [Назначение групп Майкрософт лицензий](assign-teams-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Шаг 3: Получение телефонных номеров
 Есть три способа получить новые номера пользователей:

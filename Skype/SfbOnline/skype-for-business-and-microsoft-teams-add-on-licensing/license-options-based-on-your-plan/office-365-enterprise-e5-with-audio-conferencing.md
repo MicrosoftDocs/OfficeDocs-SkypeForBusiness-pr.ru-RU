@@ -14,23 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Сведения о лицензии дополнительный компонент, функции и как приобрести для планов Office 365 для предприятия. '
-ms.openlocfilehash: bc88524050e8606c6d93a8fcf24ed5d8c1638fe3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 084d60a2c21712e119657005a52dc0af11bce9a0
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886760"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120350"
 ---
-# <a name="office-365-enterprise-e5"></a>Office 365 корпоративный E5
+# <a name="office-365-enterprise-e5"></a>Office 365 корпоративный E5
 
-План [Office 365 Корпоративный E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) включает в себя максимальное количество возможностей Skype для бизнеса и Microsoft Teams. Дополнительных параметров всего несколько.
+План [Office 365 корпоративный E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) включает большинство Скайп для функций бизнес. There are just a few additional options.
   
 |||
 |:-----|:-----|

@@ -14,42 +14,41 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Сведения о лицензии дополнительный компонент, функции и как приобрести для планов Office 365 бизнеса расширенный. '
-ms.openlocfilehash: 30ae65e9e9f1daad9039c95368a59f89d0596bb0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885470"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120504"
 ---
 # <a name="office-365-business-premium"></a>Office 365 бизнес премиум
 
-Если вы подписаны на [Office 365 бизнес премиум](https://products.office.com/en-us/business/office-365-business-premium), вы можете использовать Skype для бизнеса, чтобы звонить другим пользователям в вашей организации, которые находятся в вашей подписке. Например, если в вашей организации 10 человек, вы можете звонить им и обмениваться с ними мгновенными сообщениями через Skype для бизнеса.
+Если вы подписаны на [Office 365 бизнес премиум](https://products.office.com/en/business/office-365-business-premium), вы можете использовать Skype для бизнеса, чтобы звонить другим пользователям в вашей организации, которые находятся в вашей подписке. Например, если в вашей организации 10 человек, вы можете звонить им и обмениваться с ними мгновенными сообщениями через Skype для бизнеса.
 
  **Существует два способа совершать и принимать звонки от людей за пределами вашей организации**.
 
-- **Вариант 1. Используйте бесплатный [продукт Skype](https://www.skype.com/)**. Если у вас есть очень малого бизнеса (например, 1-2 участников), с помощью приложения Скайп — это лучший способ перехода. Он более экономен для внутренних и международных звонков. По-прежнему могут участвовать в конференциях, выполнение видеозвонков и общий доступ к рабочему столу для презентаций. [Сведения о тарифах и вариантах оплаты.](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **Option 1. Use the free [Skype app](https://www.skype.com/)**. If you have a very small business (for example, 1-2 people), using the Skype app is the better way to go. It's less expensive to use for domestic and international calls. You can still hold conference calls, make video calls, and share your desktop for presentations. [Check out the rates and payment options](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
 
     Обратите внимание, что Skype не входит в пакет Office 365, поэтому он не будет внедрен в Outlook 2016, как Skype для бизнеса. Это означает, что ваши контакты из Outlook 2016 не появятся в Skype; вам потребуется добавить их туда.
 
     Рекомендуем попробовать Skype, чтобы определить, подходит ли он для ваших потребностей. Если нет, вы можете обновить свой план.
 
     > [!IMPORTANT]
-    > Необходимо установить переключатель, чтобы разрешить работники должны использовать Скайп для бизнеса для нахождения пользователей Скайп. В разделе [Let Скайп для бизнес-пользователям добавлять контакты Скайп](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
+    > You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
 
 
 - Параметр **2. Обновление плана и приобрести телефонной системы и внутренний или внутренний и планирование вызов International**.
 
     > [!Important]
-    > Несмотря на то, что План 2 для Skype для бизнеса Online входит в состав подписки Office бизнеса премиум, **облачные функции голосовой связи добавить нельзя**. Мы рекомендуем рассмотреть план Корпоративный E5 (или Корпоративный E3) и решить, является ли он более экономичным.
+    > Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.
 
-1. [Переход на другой план Office 365 для бизнеса](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Рекомендуем оценить план Корпоративный E5 и решить, является ли он более экономичным.
+1. [Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.
 
 2. Приобретите надстройку **телефонной системы**.
     

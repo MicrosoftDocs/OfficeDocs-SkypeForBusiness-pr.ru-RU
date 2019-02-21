@@ -14,19 +14,18 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Сведения о лицензии дополнительный компонент и функции для GOV, EDU и планы некоммерческой организации. '
-ms.openlocfilehash: c69307833becfc6f9adc3ade2eeed962ceefcedb
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e1c19e7db6f4167fa0992101c7070dc4661665b0
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883926"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120376"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU и некоммерческие организации
 
@@ -34,9 +33,9 @@ ms.locfileid: "23883926"
 
 |**Функция Skype для бизнеса**|**Доступна для .GOV (GCC)**|**Доступна для .GOV (не GCC)**|**Доступна для .EDU**|**Доступна для некоммерческих организаций**|
 |:-----|:-----|:-----|:-----|:-----|
-|Трансляция собрания Skype  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |Да  <br/> |
-|АудиоконференцияSkype для бизнеса  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Телефонная система Office 365  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|План звонков Office 365  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
+|Трансляция собрания Skype  <br/> |Управление языками для автосекретаря конференц-связи.  <br/> |Установка международного номера как номера доступа по умолчанию (представленного в приглашении на собрание) для пользователя.  <br/> |Нет  <br/> |Да  <br/> |
+|АудиоконференцияSkype для бизнеса  <br/> |Управление языками для автосекретаря конференц-связи.  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Телефонная система Office 365  <br/> |Управление языками для автосекретаря конференц-связи.  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|План звонков Office 365  <br/> |Да  <br/> |Да   <br/> |Да   <br/> |Да  <br/> |
    
 См. запись блога [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers (Расширенные возможности Office 365 теперь доступны пользователям Government Community Cloud в США)](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).

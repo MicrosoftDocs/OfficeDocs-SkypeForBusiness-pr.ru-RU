@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: В дополнение к Стандартная лицензия пользователя аудиоконференции организации, использующие корпоративного лицензирования Майкрософт также можно выбрать предложение минуту для включения возможности конференц-связи аудио для своей организации.
-ms.openlocfilehash: 7366ea4186d045b75847fd7397becefcf150b8a6
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: affeba7a1fda6aaada47bc9b0a8c124caf84cf9e
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760553"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120974"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Поминутная оплата аудиоконференций
 
@@ -55,23 +55,23 @@ ms.locfileid: "29760553"
 > [!NOTE]
 > Можно найти нормы-связь и подключение по телефонной линии, связанный со эти типы звонков, описанные в разделе **увидеть курсы, для которых нужно позвонить раздел** в [Аудиоконференции](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates).
   
-Минуту требуется вашей организации для [Коммуникаций кредитов](what-are-communications-credits.md) лицензию, назначенную для каждого пользователя в порядке для аудиоконференции для работы с включенными. Для получения дополнительных сведений в статье [Set up кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md) и/или [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Минуту требуется вашей организации для [Коммуникаций кредитов](what-are-communications-credits.md) лицензию, назначенную для каждого пользователя в порядке для аудиоконференции для работы с включенными. Для получения дополнительных сведений в статье [Set up кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md) и/или [группами Майкрософт дополнительный компонент лицензирования](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-Чтобы включить аудиоконференции оплаты в минуту для пользователей в вашей организации, видеть [Попробуйте или Покупка Audio конференция в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365).
+Чтобы включить аудиоконференции оплаты в минуту для пользователей в вашей организации, видеть [Попробуйте или Покупка Audio конференция в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
   
 ## <a name="want-to-find-out-more-about-pricing"></a>Хотите узнать больше о ценах?
 
- **Ищете цены?** Можно найти, [как просмотреть цены и приобрести лицензии дополнительный компонент](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how) или один из следующих:
+ **Ищете цены?** Можно найти, [как просмотреть цены и приобрести лицензии дополнительный компонент](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) или один из следующих:
   
-- [Тарифы на аудиоконференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [Тарифы на аудиоконференции](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
     
-- [Тарифы для телефонной системы](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [Тарифы для телефонной системы](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
     
-- [Цены на Тарифные планы](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
+- [Цены на Тарифные планы](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>Связанные разделы
   
-[Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+[Лицензирование дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
   
  

@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: 01a9d6262cc7c452b9d937242ca431fe9e478777
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 789584991eaf6b95541d9fc49ec094d5c0481228
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048493"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120878"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
@@ -133,7 +133,7 @@ ms.locfileid: "30048493"
 
 ***
 
-После изучения доступности служб Skype для бизнеса или Microsoft Teams можно просмотреть статью [Skype for Business and Microsoft Teams add-on licensing (Лицензирование надстроек Skype для бизнеса и Microsoft Teams)](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing), в которой содержится полезная информация по приобретению лицензий и их назначению пользователям.
+После изучения доступности служб Skype для бизнеса или Microsoft Teams можно просмотреть статью [Skype for Business and Microsoft Teams add-on licensing (Лицензирование надстроек Skype для бизнеса и Microsoft Teams)](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md), в которой содержится полезная информация по приобретению лицензий и их назначению пользователям.
 
 > [!NOTE]
 > 
@@ -178,7 +178,7 @@ ms.locfileid: "30048493"
 ### <a name="calling-plans"></a>Планы звонков
 Наряду с телефонной системой планы звонков позволяют пользователям совершать и принимать телефонные звонки. Сначала необходимо получить номер телефона пользователя (подписчика), но не номер службы, чтобы назначить его пользователю, а затем можно назначить план звонков. Доступны два типа планов звонков: **внутренние звонки** и **внутренние и международные звонки**. Для получения дополнительных сведений см. статью [Что такое планы звонков?](../what-are-calling-plans-in-office-365.md)
 
-Для получения сведений о лицензировании см. также статью [Phone System and Calling Plans licensing (Лицензирование телефонной системы и планов звонков)](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Для получения сведений о лицензировании см. также статью [Phone System and Calling Plans licensing (Лицензирование телефонной системы и планов звонков)](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
 > Страна и регион определяются на основе местоположения пользовательской лицензии в **Центре администрирования Office 365** > **Активные пользователи**, а **не** по адресу для выставления счетов, который указан в разделе **Профиль организации** в **Центре администрирования Office 365**. 

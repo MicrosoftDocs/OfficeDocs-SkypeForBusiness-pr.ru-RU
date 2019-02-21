@@ -1,5 +1,5 @@
 ---
-title: Настройка телефонной системы в вашей организации
+title: Настройка телефонной системы в организации
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить телефонной системой (облако УАТС) для вашей организации. '
-ms.openlocfilehash: 0ae2d890e87ecef217bfdafd2c547de7ae35414d
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 5318c51fc389945fea09242cc211bb80ccbe4450
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047564"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120966"
 ---
-# <a name="setting-up-phone-system-in-your-organization"></a>Настройка телефонной системы в вашей организации
+# <a name="setting-up-phone-system-in-your-organization"></a>Настройка телефонной системы в организации
 
 Ниже приводится пошаговое руководство по настройке телефонной системой в Office 365. Ссылки на дополнительные подробные сведения, доступные в конце каждого этапа.
 
@@ -44,7 +44,7 @@ ms.locfileid: "30047564"
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Шаг 2: Купить и назначение лицензий телефонной системой и вызов планирование
 
-Чтобы назначить телефонной системой и вызов планирование лицензии отдельному пользователю действия такие же, как назначение лицензии Office 365. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). Если вы хотите назначить несколько пользователей в пакетном режиме, видеть [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+Чтобы назначить телефонной системой и вызов планирование лицензии отдельному пользователю действия такие же, как назначение лицензии Office 365. В разделе [Назначение групп Майкрософт лицензий](assign-teams-licenses.md). Если вы хотите назначить несколько пользователей в пакетном режиме, видеть [группами Майкрософт назначение лицензий](assign-teams-licenses.md).
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Шаг 3: Получение номера телефонов для пользователей
 
@@ -182,7 +182,7 @@ ms.locfileid: "30047564"
   
 Часто задаваемые вопросы об аудиоконференции см. в статье [Общие вопросы о проведении аудиоконференций](audio-conferencing-common-questions.md).
     
-1. Если вы приобрели лицензии дополнительный компонент **Звук конференц-связи** и коммуникаций кредитов лицензии, назначьте их слишком. Сведения содержатся в разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+1. Если вы приобрели лицензии дополнительный компонент **Звук конференц-связи** и коммуникаций кредитов лицензии, назначьте их слишком. Сведения содержатся в разделе [Назначение групп Майкрософт лицензий](assign-teams-licenses.md).
 
     Выберите поставщика аудиоконференций. Поставщика аудиоконференций предоставляет звукового конференц-канала. Мост конференц-связи задает телефонные номера телефонов, контакты и конференции идентификаторы для собраний. Принятие решения об использовании Майкрософт или стороннего поставщика:
 
@@ -203,7 +203,7 @@ ms.locfileid: "30047564"
     
    3. Задайте auto attendant языков для аудиоконференций [в Скайп для бизнеса](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) или [в группах Майкрософт](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) , автосекретаря аудиоконференций для приветствовать абонента, когда они звонить на номер телефона аудиоконференций. Этот шаг применяется только в том случае, если вы используете Microsoft как звука поставщика.
     
-   4. Задать длину ПИН-кода для собраний аудио конференц-связи [в Скайп для бизнеса](/skypeforbusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings) или [Группами Майкрософт](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md).
+   4. Задать длину ПИН-кода для собраний аудио конференц-связи [в группах Майкрософт](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md).
     
       > [!NOTE]
       > Эта функция еще не доступна пользователям Office 365 под управлением компании 21Vianet в Китае. Дополнительные сведения см. в разделе [Узнать больше о версии Office 365 под управлением компании 21Vianett](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
@@ -280,7 +280,7 @@ ms.locfileid: "30047564"
 **Дополнительные сведения о назначении лицензий кредитов Communications см [кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md).**
 
 ## <a name="related-topics"></a>Связанные разделы
-[Преимущества телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
+[Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

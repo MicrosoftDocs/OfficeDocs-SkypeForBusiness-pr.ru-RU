@@ -1,5 +1,5 @@
 ---
-title: Преимущества телефонной системы в Office 365
+title: Возможности телефонной системы в Office 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Описание функций, доступность и планирование и настройка телефонной системой (облако УАТС) для вашего бизнеса. '
-ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.openlocfilehash: 655e095f87ee9ad53cb57df09ca8366ecc8eb8f6
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30056621"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120902"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Преимущества телефонной системы в Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Возможности телефонной системы в Office 365
 
 УАТС является телефонной системы в бизнесе. Телефонной системой в надстройку Office 365 предоставляет возможности УАТС, но без сложной и дорогим оборудования. 
   
@@ -86,7 +86,7 @@ ms.locfileid: "30056621"
     
 - [Планирование телефонной системой в решение Office 365 (облако УАТС)](https://go.microsoft.com/fwlink/?LinkId=708645): в этой статье размещает все параметры развертывания. Также имеет сведения о планировании полностью только в облаке решения. 
     
-- [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing): Узнайте, какие лицензии, которые необходимо купить для получения телефонной системой в Office 365.
+- [Лицензирование дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Узнайте, какие лицензии, которые необходимо купить для получения телефонной системой в Office 365.
     
 - [Настройка голосовой почты телефонной системы  справка для администратора](set-up-phone-system-voicemail.md)
     

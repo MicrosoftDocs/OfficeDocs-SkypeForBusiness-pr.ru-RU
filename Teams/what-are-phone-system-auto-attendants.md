@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Сведения автосекретари телефонной системой (облако УАТС) и их использования. '
-ms.openlocfilehash: bd59a88c0e8a1bd23c0caf23a3a3099e6ad98063
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: f0b93d39bffc2c479e853228cb4d14f38d9a570d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048327"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120810"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Что такое автосекретари телефонной системы?
 
@@ -53,10 +53,10 @@ ms.locfileid: "30048327"
 
 Перед началом работы с функцией автосекретаря необходимо запомнить следующие моменты.
   
-- Ваша организация должна иметь (как минимум) лицензию типа "Корпоративный E3 с**телефонной системой"** или лицензию "Корпоративный E5". Число пользовательских лицензий **Телефонной системой** , назначенные последствия, что номер службы номера, доступны для использования автосекретарей. Число автосекретарей, которые могут возникнуть, зависит от номеров **Телефонной системой** и **Аудиоконференции** лицензий, для которых в вашей организации. Дополнительные сведения о лицензировании переход [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+- Ваша организация должна иметь (как минимум) лицензию типа "Корпоративный E3 с**телефонной системой"** или лицензию "Корпоративный E5". Число пользовательских лицензий **Телефонной системой** , назначенные последствия, что номер службы номера, доступны для использования автосекретарей. Число автосекретарей, которые могут возникнуть, зависит от номеров **Телефонной системой** и **Аудиоконференции** лицензий, для которых в вашей организации. Дополнительные сведения о лицензировании см. [: Лицензирование дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо будет включить их для корпоративной голосовой связи или назначить вызов планы им. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). Кроме того, можно использовать Windows PowerShell. Например, выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо будет включить их для корпоративной голосовой связи или назначить вызов планы им. В разделе [Назначение групп Майкрософт лицензий](assign-teams-licenses.md). Кроме того, можно использовать Windows PowerShell. Например, выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Для получения и использовать службы бесплатных номеров для вашей автосекретари, необходимо настроить связь кредитов. Чтобы сделать это, обратитесь к разделу [Каковы кредитов коммуникации?](what-are-communications-credits.md) и [настроить кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md).
     
@@ -271,7 +271,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 Можно получить дополнительные сведения о внесении изменений в параметры идентификатор звонящего в вашей организации, [как идентификатор звонящего используются в организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
   
 ## <a name="related-topics"></a>Связанные разделы
-[Преимущества телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
+[Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: ba2faa36cbb1a745ada776d40113aab80790b728
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694777"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120718"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -72,32 +72,32 @@ ms.locfileid: "28694777"
 > [!TIP]
 > Ниже приведен пример шаблона списка Включение звука конференц-связи веб-сайта.
 > 
-> |Офис   |Расположение |Служба конференц-связи по ТСОП  |
+> |Office   |Расположение |Служба конференц-связи по ТСОП  |
 > |---------|---------|---------|
-> |One Epping Road|Австралия|Аудиоконференции|
+> |One Epping Road|Австралия|Аудиоконференция|
 > |100 Cyberport Road|Гонконг (специальный административный район)|Устаревшая служба конференц-связи по ТСОП|
-> |One Marina Boulevard|Сингапур|Аудиоконференции|
-> |32 London Bridge Street|Соединенное Королевство|Аудиоконференции|
+> |One Marina Boulevard|Сингапур|Аудиоконференция|
+> |32 London Bridge Street|Соединенное Королевство|Аудиоконференция|
 > |39 quai du Président Roosevelt|Франция|Аудиоконференции|
 
 <!--ENDOFSECTION-->
 
 ## <a name="licensing-for-audio-conferencing"></a>Лицензирование Аудиоконференций
 
-[Аудиоконференции лицензии](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) на доступна как часть планы подписки на Office 365 E5 или дополнительной службы для планы подписки на Office 365 E1 или Office 365 E3.
+[Аудиоконференции лицензии](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) на доступна как часть планы подписки на Office 365 E5 или дополнительной службы для планы подписки на Office 365 E1 или Office 365 E3.
 
 > [!NOTE]
 > PSTN или телефонных конференций в группах не поддерживает аудиоконференций сторонних поставщиков (ACPs).
 > <br>Если вы уже используете конференц-связь по ТСОП Skype для бизнеса Online, то можете сразу же воспользоваться преимуществами Аудиоконференций в Teams.
 
-Для предоставления бесплатных конференции bridge номера телефонов и для поддержки конференц-связи по телефону для международных телефонных номеров необходимо настроить [Кредитов коммуникаций](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) для вашей организации.
+Для предоставления бесплатных конференции bridge номера телефонов и для поддержки конференц-связи по телефону для международных телефонных номеров необходимо настроить [Кредитов коммуникаций](what-are-communications-credits.md) для вашей организации.
 
 > [!IMPORTANT]
 > В некоторых странах обслуживаются номера телефонов на бесплатный номер конференции bridge. Для поддержки-связь в этих странах, необходимо использовать кредитов коммуникаций.
 
 Прежде всего, когда реализация кредитов Communications состоит в том, начальный объем средств, вы хотите приобрести. Если ваша организация решает использовать автоматическое пополнения, необходимо решить, размеры триггер (минимальное количество средств) и автоматическая пополнения. Фактические значения использования определяет сумма пополнения автоматически. Следует отслеживание кредитов коммуникации по времени и регулировка пополнения при необходимости.
 
-Дополнительные сведения о связи кредитов [здесь](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Дополнительные сведения о связи кредитов [здесь](what-are-communications-credits.md).
 
 <br>
 
@@ -165,7 +165,7 @@ ms.locfileid: "28694777"
 
 -   [Получение служебных номеров телефонов](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
--   [Передача номеров телефонов в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [Перенос телефонных номеров в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
 <br>
 
@@ -302,7 +302,7 @@ ms.locfileid: "28694777"
 
 -   [Перенос номеров телефонов в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   [Общие вопросы по передаче номеров телефонов](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Общие вопросы о переносе телефонных номеров](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 

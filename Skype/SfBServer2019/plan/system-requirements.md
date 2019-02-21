@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Сводка: Подготовка к Скайп для серверов Business Server 2019 и инфраструктуры домена в этом разделе. Оборудование, операционная система, баз данных, программного обеспечения, все требования к системе и рекомендации, а также сертификат DNS, файловый ресурс и сведения Active Directory, являются здесь для обеспечения успешной установки и развертывания фермы серверов.'
-ms.openlocfilehash: a812c2cbc96ab80eea55072162c54bc7371a9dc5
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 0f2926bc0d110ce7270b6798895ecda7ebabb23a
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729353"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120660"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Требования к системе для Скайп для Business Server 2019
  
@@ -91,7 +91,7 @@ ms.locfileid: "28729353"
 |Windows Server 2016 <br/> ||
 ||
    
-Все действия, отличные от операционных систем, перечисленных здесь не будут работать должным образом; не повторите его для установки Скайп для Business Server 2019.
+Все действия, отличные от операционных систем, перечисленных здесь не будут работать должным образом; не повторите его для установки Скайп для Business Server 2019. Например параметр основных серверных компонентов отсутствует в списке и таким образом не поддерживается.
 
 > [!NOTE]
 > 

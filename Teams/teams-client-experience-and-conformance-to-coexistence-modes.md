@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
-ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
+ms.openlocfilehash: bd81915739d9ad2087dec5b66595efd1c49e2c84
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087846"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120894"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -71,7 +71,7 @@ ms.locfileid: "30087846"
 |SfBWithTeamsCollab или SfBOnly|Отключено|Отключено|Отключено|Отключено|
 ||||||
 
-Перед развертыванием автоматического соответствия удобство работы пользователей, в зависимости от режима `Grant-csTeamsUpgradePolicy` командлет проверяет конфигурацию соответствующие параметры в TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy, чтобы определить, если эти параметры, совместимые с указанного режима. Если какие-либо не настроена должным образом, grant будет выполнена успешно, но предупреждения будет предоставляться в PowerShell, определяющее, какие специфические параметры настроены неправильно. Ниже приведен пример PowerShell предупреждение может иметь вид:
+Перед развертыванием автоматического соответствия удобство работы пользователей, в зависимости от режима `Grant-CsTeamsUpgradePolicy` командлет проверяет конфигурацию соответствующие параметры в TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy, чтобы определить, если эти параметры, совместимые с указанного режима. Если какие-либо не настроена должным образом, grant будет выполнена успешно, но предупреждения будет предоставляться в PowerShell, определяющее, какие специфические параметры настроены неправильно. Ниже приведен пример PowerShell предупреждение может иметь вид:
 
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`

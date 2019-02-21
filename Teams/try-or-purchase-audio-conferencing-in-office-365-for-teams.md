@@ -1,5 +1,5 @@
 ---
-title: Попробуйте или Покупка аудио конференц-связи в Office 365 для групп Майкрософт
+title: Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: 1b04a2506bd495165afcdf3e9f41ed6db6cd9252
-ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
+ms.openlocfilehash: 58abec46586e93c2eb9b7fccdc1190cf9cf4c778
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26544406"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120760"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Попробуйте или Покупка аудио конференц-связи в Office 365 для групп Майкрософт
+# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams.
 
 В некоторых случаях пользователям в организации требуется телефон, чтобы присоединиться к собранию. Группами Майкрософт включает в себя функцию аудиоконференции для только что этой ситуации! Пользователи могут позвонить собраний группами Майкрософт, с помощью телефона, вместо использования приложения группами Майкрософт на мобильном устройстве или Компьютере.
 
@@ -48,11 +48,11 @@ ms.locfileid: "26544406"
 
    - **Попробуйте прямо** перед покупкой: зарегистрироваться для Office 365 корпоративный E5 бесплатную пробную версию, которая включает в себя звук конференц-связи. См. раздел [Пробная версия Office 365 корпоративный E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Купить**: увидеть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+   - **Купить**: см. [: Лицензирование дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 3. [Назначение и удаление лицензий на Office 365 для бизнеса](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) , приобретенных для пользователей в вашей организации, которые будет расписание или ведущий сотрудник собраний.
 
-4. Дополнительно назначить приобретенные Вами лицензии на надстройку аудиоконференции и кредиты на связь. Сведения содержатся в разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+4. Дополнительно назначить приобретенные Вами лицензии на надстройку аудиоконференции и кредиты на связь. Сведения содержатся в разделе [Назначение групп Майкрософт лицензий](assign-teams-licenses.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Для приобретения и назначения лицензий на аудиоконференции с поминутной оплатой:
 

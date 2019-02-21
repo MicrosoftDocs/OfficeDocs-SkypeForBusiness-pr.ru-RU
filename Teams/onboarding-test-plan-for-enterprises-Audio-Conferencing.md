@@ -1,5 +1,5 @@
 ---
-title: План тестирования предприятия для аудиоконференции в группах Майкрософт
+title: Корпоративный план тестирования Аудиоконференций в Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f9fea1e2d3f8dcf4fc966d1392a38168fc1656e
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 16207273020dbe6e1ab4e2cd5ff958fcdbe614dc
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694863"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120752"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Определите и задокументируйте аудиоконференции конференции в план тестирования группами для предприятий 
 ===============================================================================
@@ -752,7 +752,7 @@ ms.locfileid: "28694863"
 
 -   Список выделенного и общему аудиоконференций телефонные номера — с Выбор языка для организации сайтов и пользователей в области — идентифицируются и настроены.
 
--   [Communications кредитов](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (при необходимости) настроенным для вашей организации для предоставления доступа к бесплатный номер конференции bridge телефона номера и поддержка конференц-связи международных сценарии подключение по телефонной линии.
+-   [Communications кредитов](what-are-communications-credits.md) (при необходимости) настроенным для вашей организации для предоставления доступа к бесплатный номер конференции bridge телефона номера и поддержка конференц-связи международных сценарии подключение по телефонной линии.
 
 -   Параметры bridge конференции звукового конференц-связи определены и настроен для всех пользователей в области (длина ПИН-кода, уведомления входа и выхода, Включение уведомлений предпочтений).
 

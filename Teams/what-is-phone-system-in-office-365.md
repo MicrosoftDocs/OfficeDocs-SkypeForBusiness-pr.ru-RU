@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Ознакомьтесь с телефонной системой может сделать для вас. '
-ms.openlocfilehash: ebf8e5dbf628cf0619df0ab9906c25d75662bdc6
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 4c05c8b5007ea5ffcba6b2c46fc36757858a0dfa
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048804"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121030"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Что такое телефонная система в Office 365?
 
@@ -76,8 +76,8 @@ ms.locfileid: "30048804"
 Если вы готовы приступить к работе, см [телефонной системы в вашей организации](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Связанные разделы
-- [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-- [Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Лицензирование дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Различные типы телефонных номеров, используемые для планов звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Телефоны, поддерживаемые в Skype для бизнеса Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
 

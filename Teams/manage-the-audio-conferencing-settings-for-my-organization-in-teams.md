@@ -1,5 +1,5 @@
 ---
-title: Управление настройками аудиоконференций для организации в Microsoft Teams.
+title: Управление настройками аудиоконференций для организации в Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о шагах в Microsoft Teams для назначения лицензии конференц-связи с телефонным подключением и идентификатора конференции пользователю и многих других настройках такой конференц-связи. '
-ms.openlocfilehash: 9769f5cd0a31ddf8494f57454bec698d1a626d4a
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 34afd4597bad857b061296feb87fe8cae758c99f
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754049"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121038"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Управление настройками аудиоконференций для организации в Microsoft Teams.
+# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Управление настройками аудиоконференций для организации в Microsoft Teams
 
 Вам будет проще просматривать все настройки аудиоконференций для Microsoft Teams в одном месте. 
 
@@ -37,7 +37,7 @@ ms.locfileid: "29754049"
 ## <a name="assign-an-audio-conferencing-license"></a>Назначение лицензии для аудиоконференций
 
 > [!NOTE]
-> Вы не можете назначать лицензии с помощью Teams. Для этого нужно использовать Центр администрирования Office 365. См. статью [Назначение лицензий Skype для бизнеса и Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
+> Вы не можете назначать лицензии с помощью Teams. Для этого нужно использовать Центр администрирования Office 365. См. статью [Назначение лицензий Skype для бизнеса и Microsoft Teams](assign-teams-licenses.md). 
   
  **Назначение лицензии для пользователя**
   
@@ -50,7 +50,7 @@ ms.locfileid: "29754049"
   
 3. На панели действий в разделе **Лицензии на продукты** щелкните **Изменить**. 
     
-4. На странице **Лицензии на продукты** включите **Аудиоконференции** и нажмите кнопку **Сохранить**. Дополнительные сведения см. в статье [Дополнительные лицензии для Skype для бизнеса и Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+4. На странице **Лицензии на продукты** включите **Аудиоконференции** и нажмите кнопку **Сохранить**. Для получения дополнительных сведений о лицензировании см. [: Лицензирование дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 > [!NOTE]
 > После назначения лицензии Майкрософт может сначала не отображаться в списке как поставщик услуг аудиоконференций. В таком случае выйдите из Центра администрирования Office 365 или нажмите клавиши CTRL+F5 для обновления окна браузера. 

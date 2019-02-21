@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 0570c454cdc3fc98fa6dfa4a8fe571714263421e
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d5e246b42a2e90bf0808a574ed27ee76a4b60280
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048287"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120918"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -44,18 +44,18 @@ ms.locfileid: "30048287"
   
 Для этого **нужно назначить лицензию на аудиоконференции или телефонную систему** своим пользователям.
   
-- Назначение лицензии **Звук конференц-связи** для пользователей. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+- Назначение лицензии **Звук конференц-связи** для пользователей. В разделе [Назначение групп Майкрософт лицензий](assign-teams-licenses.md).
     
-    После назначения данной лицензии, необходимо будет настроить аудиоконференций. Пошаговые инструкции в разделе [Попробуйте или Покупка Audio конференция в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365).
+    После назначения данной лицензии, необходимо будет настроить аудиоконференций. Пошаговые инструкции в разделе [Попробуйте или Покупка Audio конференция в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Назначение **Телефона системы** и внутри страны или внутреннее и международное лицензии вызов планирование для пользователей. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+- Назначение **Телефона системы** и внутри страны или внутреннее и международное лицензии вызов планирование для пользователей. В разделе [Назначение групп Майкрософт лицензий](assign-teams-licenses.md).
     
     > [!NOTE]
     > Хотя это не является обязательным для коммуникаций кредитов, по-прежнему необходимо также назначить **Планирование внутренних звонков** или **Внутренний и вызов планирование International** лицензии.
   
     После назначения указанных лицензий вам потребуется получить номера телефонов для организации, а затем назначить их сотрудникам. Пошаговые инструкции по настройке см. в статье [Настройка планов звонков](set-up-calling-plans.md).
     
-Дополнительные сведения см. в статье [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Для получения дополнительных сведений см. [: Лицензирование дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Шаг 2. Настройка кредитов на связь для организации
 
@@ -113,7 +113,7 @@ ms.locfileid: "30048287"
     
 Чтобы просмотреть дополнительную информацию, [войдите в центр администрирования Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и выберите **Выставление счетов** > **Подписки** > **Добавить подписки**.
   
-Таблицу с описанием лицензий, необходимых для использования различных компонентов, см. в разделе [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Таблица с лицензии или лицензий, необходимых для каждого компонента, см [лицензирования дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Связанные разделы
 
@@ -123,9 +123,7 @@ ms.locfileid: "30048287"
     
 - [Настройка в Тарифных планов](set-up-calling-plans.md) и [Тарифные планы для Office 365](calling-plans-for-office-365.md)
     
-- [Добавление средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
+- [Пополнение средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
     
-- [Настройка соединителя облако](https://technet.microsoft.com/library/mt605228.aspx) и [Загрузите соединитель облако](https://aka.ms/CloudConnectorInstaller)
-
   
  

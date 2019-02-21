@@ -14,27 +14,26 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Сведения о лицензиях дополнительных компонентов и функций, и как приобрести Office 365 корпоративный (без аудиоконференции). '
-ms.openlocfilehash: 1942d6a624d71e1da800bda491e78b2f9b236544
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 98779c56fb3a64a0fc6dc193fc55dcfd030b7bcb
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885888"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120330"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 корпоративный E5 (без аудиоконференции)
 
-Если вы уже приобрели план Office 365 корпоративный E5 (без аудиоконференции), для получения дополнительных функций Skype для бизнеса и Microsoft Teams вам потребуются следующие лицензии на надстройки.
+Если вы уже приобрели план Office 365 корпоративный E5 (без звука конференц-связи), вот Скайп для Business дополнительный компонент лицензий, которые необходимо купить для получения дополнительных функций.
 
 |||
 |:-----|:-----|
 |**Добавляемая функция** <br/> |**Что необходимо приобрести** <br/> |
-|**Аудиоконференция** <br/> | Для получения этой надстройки выполните следующие действия: <br/><br/> 1. Если вы уже купили план E5, но аудиоконференций компонент недоступен в вашей стране или регионе, вам потребуется использовать поставщика аудиоконференций сторонних производителей. Найти сторонних поставщиков аудиоконференций можно на сайте [Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530).  <br/><br/>  Проверьте в этой статье, чтобы увидеть, доступна ли аудиоконференция в вашей стране или регионе: [Страны и регионы, доступные для Аудиоконференций и Тарифные планы](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) <br/><br/> 2. Если аудиоконференция доступна, перейдите к включающему ее плану E5 Enterprise Office 365, с помощью [кнопки переключения планов](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Кроме того, вы получите множество других полезных функций. <br/> |
+|**Аудиоконференция** <br/> | Для получения этой надстройки выполните следующие действия: <br/><br/> 1. If you have already bought an E5 plan but the Audio Conferencing feature isn't available in your country or region, you will need to use a third-party audio conferencing provider. Find a third-party audio conferencing provider at [Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530).  <br/><br/>  Проверьте в этой статье, чтобы увидеть, доступна ли аудиоконференция в вашей стране или регионе: [Страны и регионы, доступные для Аудиоконференций и Тарифные планы](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) <br/><br/> 2. If it is available, use the  [Switch plans button](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) to move to the Office 365 Enterprise E5 that includes it. You'll get more features, too! <br/> |
 |**Функция телефонной системы входит в состав пакета.** <br/> | Тарифные планы: купите [Тарифный план](/MicrosoftTeams/calling-plans-for-office-365) на Office 365. <br/>  Или воспользуйтесь [телефонной службой вашего поставщика](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |**Функция голосовой почты телефонной системы входит в состав пакета.** <br/> |Этого достаточно.  <br/> |
