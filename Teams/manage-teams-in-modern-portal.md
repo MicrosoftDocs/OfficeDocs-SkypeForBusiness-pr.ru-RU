@@ -1,5 +1,5 @@
 ---
-title: Управление группами в центре администрирования группами Майкрософт
+title: Управление командами в Центре администрирования Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: cf4d312f8fcb7f9ba509359eaaeed415be3e9662
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754189"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178679"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление группами в центре администрирования группами Майкрософт
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление командами в Центре администрирования Microsoft Teams
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
@@ -104,7 +104,7 @@ ms.locfileid: "29754189"
 
 1. Access [графическое представление проводника](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
-2. Войдите в обозревателе график в левой части меню
+2. Войдите в обозревателе график в левом меню
 
 3. Изменение в командной строке запроса: > версии 1.0 > ИСПРАВЛЕНИЙhttps://graph.microsoft.com/v1.0/groups/{groupid}
 

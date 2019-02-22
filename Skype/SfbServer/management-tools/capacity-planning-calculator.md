@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: Сводка. Использование калькулятора мощности.
-ms.openlocfilehash: c55c42942ef14d7ec1904fb8b43340d6a2babb50
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8fdd2132a60becfc68c6e8d59acd8660a33eb9b4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533415"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178663"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Скайп для планирования мощности калькулятор Business Server
  
@@ -26,7 +26,7 @@ ms.locfileid: "26533415"
 > - Скайп Business Server 2019.
 > - Скайп Business Server 2015.
   
-[Скайп для калькулятор емкости Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196) и [Скайп для калькулятор емкости Business Server 2019](https://www.microsoft.com/en-in/download/details.aspx?id=57510) дополнить [Скайп для средство планирования бизнеса](https://www.microsoft.com/en-us/download/details.aspx?id=50357) и документация по развертыванию ([план для вашей Скайп для бизнеса Развертывание сервера 2015](../plan-your-deployment/plan-your-deployment.md) и [Планирование вашей Скайп для развертывания Business Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) соответственно). Чтобы использовать калькулятор, сначала ознакомьтесь с руководством и создайте рекомендованную топологию с помощью средства планирования.
+[Скайп для калькулятор емкости Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196) и [Скайп для калькулятор емкости Business Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57509) дополнить [Скайп для средство планирования бизнеса](https://www.microsoft.com/en-us/download/details.aspx?id=50357) и документация по развертыванию ([план для вашей Скайп для бизнеса Развертывание сервера 2015](../plan-your-deployment/plan-your-deployment.md) и [Планирование вашей Скайп для развертывания Business Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) соответственно). Чтобы использовать калькулятор, сначала ознакомьтесь с руководством и создайте рекомендованную топологию с помощью средства планирования.
   
 Скайп для калькулятор емкости Business Server помогает определить требования к серверу, на основе числа пользователей и средства связи, используемых вашей организацией. После определения профиля пользователя и режимов, которые следует включить для пользователей, можно воспользоваться калькулятором, чтобы запланировать необходимое количество серверов, объем памяти и пропускную способность. Для этой версии калькулятора не предусмотрены инструкции относительно требований диска касательно ввода-вывода.
   

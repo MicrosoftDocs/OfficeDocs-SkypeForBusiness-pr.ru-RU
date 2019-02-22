@@ -1,5 +1,5 @@
 ---
-title: Управление группами во время перехода к центру администрирования новых групп Майкрософт
+title: Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e695c54427dbe80daa179ad6d02e99a2556d9782
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 581be37a3acf4b0063cf93da1ba1289cd08b2f2e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753538"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178504"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Управление группами во время перехода к центру администрирования новых групп Майкрософт
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams
 ======================================================
 
 > [!IMPORTANT]
@@ -41,10 +41,10 @@ ms.locfileid: "29753538"
 
 |Раздел групп в центре администрирования Office 365  |Имя параметра (уровень клиента)  |Политика Центр администрирования группами Майкрософт   |Уровень: Клиента или пользователя   |
 |---------|---------|---------|---------|
-|Общие     |Показать организационные чата в личный профиль        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Клиент       |
-|Общие     |Используйте Скайп для получателей, у которых нет команд для бизнеса         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
-|Интеграция электронной почты     |Разрешить пользователям отправлять сообщения электронной почты с каналами         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
-|Интеграция электронной почты     |Разрешить отправителей списка         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Клиент         |
+|Общий     |Показать организационные чата в личный профиль        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Клиент       |
+|Общий     |Используйте Скайп для получателей, у которых нет команд для бизнеса         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Интеграция с электронной почтой     |Разрешить пользователям отправлять сообщения электронной почты с каналами         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Интеграция с электронной почтой     |Разрешить отправителей списка         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Клиент         |
 |Настраиваемое облачное хранилище     |Поле         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
 |Настраиваемое облачное хранилище     |Общего банка данных        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
 |Настраиваемое облачное хранилище     |Диск Google        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
@@ -52,6 +52,11 @@ ms.locfileid: "29753538"
 |Введите параметры пользователя и лицензии     |Включить группами Майкрософт включено или отключено для всех пользователей          |Устаревшие<sup>1</sup>        |         |
 |Команды и каналы     |         |Перенаправляет Azure Active Directory Управление групповой (то же, что текущий взаимодействия).              |Пользователь         |
 |Команды и каналы     |         |Перенаправления на управление группами AAD (то же, что текущий взаимодействия).             |Пользователь          |
+|Приложения|Включение новых внешних приложений по умолчанию|Параметры приложения в масштабе организации|Клиент|
+|Приложения|Разрешить внешние приложения|Параметры приложения в масштабе организации|Клиент|
+|Приложения|Разрешить sideloading из внешних приложений<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Пользователь|
+|Приложения|Приложения по умолчанию:<sup>3</sup>|TeamsAppPermissionPolicy|Пользователь|
+|Приложения|Внешние приложения<sup>3</sup>|TeamsAppPermissionPolicy|Пользователь|
 |Звонки и собрания     |Разрешить планирование для частных собраний         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
 |Звонки и собрания     |Разрешить meetup Ad-hoc канала         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
 |Звонки и собрания     |Разрешить планирование для собраний канала         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
@@ -68,6 +73,13 @@ ms.locfileid: "29753538"
 |Обмен сообщениями     |Позволяет пользователям чата в конфиденциальном режиме         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
 
 Больше <sup>1</sup> гостем. Включение и отключение гостевой, теперь может осуществляться в центре администрирования группами Майкрософт. Включение и отключение групп для предприятий, учебы Edu и не факультета Edu ближайшее время. Это должно осуществляться с назначением лицензий в центре администрирования Office 365. [Управление доступом пользователей к группам Microsoft](user-access.md)см.
+<br><br>
+<sup>2</sup> Sideloading разделены следующим образом:
+
+- Разрешает пользователю sideload приложений, которые можно управлять на уровне пользователя в [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
+- Разрешает пользователям клиента для взаимодействия с настраиваемые приложения, которыми можно управлять на уровне клиента в масштабе организации приложения параметров.
+ 
+<sup>3</sup> приложения по умолчанию и внешнего приложения могут быть включены и отключены на уровне пользователя в TeamsAppPermissionPolicy. Кроме того можно заблокировать приложения на уровне клиента в масштабе организации приложения параметров, который переопределяет любого пользователя и параметры на уровне клиента. 
 
 > [!NOTE]
 > Использование панели мониторинга групп в центре администрирования Office 365 для конфигурации, связанные с группами и каналы будет продолжать. Параметры для приложений, будут оставаться в области группы центра администрирования Office 365 и будут перенесены более поздней версии. 

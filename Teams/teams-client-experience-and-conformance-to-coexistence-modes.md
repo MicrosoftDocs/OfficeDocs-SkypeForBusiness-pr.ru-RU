@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd81915739d9ad2087dec5b66595efd1c49e2c84
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 1d97bf7230e8d1f78f2cf5c169fbf48a93f415bb
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120894"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178648"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -44,6 +44,7 @@ ms.locfileid: "30120894"
 
 **Примечания:**
 <sup>1</sup> чата собрания по-прежнему доступны.
+
 <sup>2</sup> сейчас SfBwithTeamsCollab и SfBOnly ведут себя одинаково, но цель состоит в том, для режима SfBOnly также отключить функцию каналы и файлы в группах; Тем не менее в данный момент нет параметра, обеспечивающий в группах, чтобы отключить эту функцию.
 
 
@@ -74,9 +75,9 @@ ms.locfileid: "30120894"
 Перед развертыванием автоматического соответствия удобство работы пользователей, в зависимости от режима `Grant-CsTeamsUpgradePolicy` командлет проверяет конфигурацию соответствующие параметры в TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy, чтобы определить, если эти параметры, совместимые с указанного режима. Если какие-либо не настроена должным образом, grant будет выполнена успешно, но предупреждения будет предоставляться в PowerShell, определяющее, какие специфические параметры настроены неправильно. Ниже приведен пример PowerShell предупреждение может иметь вид:
 
 
-`Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
+"Grant-CsTeamsUpgradePolicy-SfBWithTeamsCollab - PolicyName user1@contoso.com удостоверений
 
-*Предупреждение: Пользователь «user1@contoso.com» в настоящее время имеет действующие политики включены значения для: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. В ближайшем будущем при предоставлении TeamsUpgradePolicy с режимом = SfBWithTeamsCollab пользователю, необходимо также отдельно назначение политики для обеспечения у пользователя есть значения действующие политики этот параметр отключен,: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling AllowChannelMeetingScheduling. В будущем возможность автоматически будет поддерживать TeamsUpgradePolicy.*
+Предупреждение: Пользователь «user1@contoso.com» в настоящее время имеет действующие политики включены значения для: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. В ближайшем будущем при предоставлении TeamsUpgradePolicy с режимом = SfBWithTeamsCollab пользователю, необходимо также отдельно назначение политики для обеспечения у пользователя есть значения действующие политики этот параметр отключен,: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling AllowChannelMeetingScheduling. В будущем, возможность автоматически будет поддерживать TeamsUpgradePolicy. "
 
 После просмотра такое предупреждение, администратор впоследствии следует обновить указанной политики для обеспечения работы совместимые пользователей в группах. Если администратор решил не выполнять никаких действий, из-за предупреждение, пользователи по-прежнему могут иметь доступ к чата, вызов и/или собрания функции планирования в группах в зависимости от значения TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy, что может привести к путанице работы конечных пользователей.
 

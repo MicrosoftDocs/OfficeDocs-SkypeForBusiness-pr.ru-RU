@@ -1,5 +1,5 @@
 ---
-title: Настройка собрания Скайп приложение для работы с группами
+title: Настройка приложения собраний Skype для работы с Teams
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
@@ -11,14 +11,14 @@ description: Администраторы могут использовать Ц
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e94598822ab321ea514bb41af2fa0e4f8ee57ff0
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: d7ff2ea007303d88bcf2b6e6d68091513b5c60e2
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754577"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178632"
 ---
-<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Настройка собрания Скайп приложение для работы с группами
+<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Настройка приложения собраний Skype для работы с Teams
 ===================================================
 
 После обновления пользователем для групп Майкрософт администраторы могут использовать Центр администрирования группами Майкрософт для указания предпочитаемого приложение, которое пользователи будут использовать для присоединения к Скайп для деловых встреч.
@@ -29,7 +29,7 @@ ms.locfileid: "29754577"
 2. В левой области в разделе **Параметры на уровне организации**выберите **команды обновления**.
 3. На команды обновления в разделе **Параметры приложения**, выберите **Скайп собраний приложения** из списка **Предпочитаемые приложение для пользователям присоединяться к Скайп для деловых встреч** .
 
-![Выберите предпочитаемый приложение для пользователям присоединяться к Скайп для бизнеса собраний](media/configure-skype-meetings-app-to-work-with-teams.png)
+![Выберите предпочитаемый приложение для пользователям присоединяться к Скайп для бизнеса собраний](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>Известные ограничения
 

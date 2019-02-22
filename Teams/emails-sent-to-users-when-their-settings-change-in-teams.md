@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, какая информация автоматически передается пользователям по электронной почте при изменении их настроек конференц-связи с телефонным подключением в Microsoft Teams. '
-ms.openlocfilehash: 1d38963771388b1aec9bb2274e23dcfd22e9fe4b
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 1431cd4391219e052ec2ad3702a9e4c227912a06
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120886"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178695"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Сообщения электронной почты, отправляемые пользователям при изменении их настроек в Microsoft Teams
 
@@ -42,9 +42,9 @@ ms.locfileid: "30120886"
 
     Далее приведен пример этого сообщения электронной почты:
 
-     ![Проверка лицензии Skype для бизнеса](media/audio-conferencing-user-enabled.png)
+     ![Проверка лицензии Skype для бизнеса](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    Можно найти дополнительные сведения о лицензирования, ознакомившись [лицензирования дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)с.
+    Для получения дополнительных сведений о лицензировании см. [: Лицензирование дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - **Изменяется идентификатор конференции и телефонный номер конференции по умолчанию для пользователя.**
 
@@ -52,7 +52,7 @@ ms.locfileid: "30120886"
 
     Далее приведен пример этого сообщения электронной почты:
 
-     ![Изменились сведения конференц-связи с телефонным подключением.](media/audio-conferencing-info-change.png)
+     ![Изменились сведения конференц-связи с телефонным подключением.](media/teams-emails-sent-to-users-when-settings-change-image2.png)
 
 - **Выполнен сброс ПИН-кода аудиоконференций для пользователя.**
 
@@ -60,7 +60,7 @@ ms.locfileid: "30120886"
     
      Далее приведен пример этого сообщения электронной почты:
     
-     ![Изменился ПИН-код конференц-связи с телефонным подключением.](media/audio-conferencing-pin-has-changed.png)
+     ![Изменился ПИН-код конференц-связи с телефонным подключением.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **Удалена лицензия пользователя, или поставщик услуг аудиоконференций изменен с Майкрософт на другого поставщика или на значение «Нет».**
 
@@ -70,7 +70,7 @@ ms.locfileid: "30120886"
 
     Далее приведен пример этого сообщения электронной почты:
 
-     ![Отключена конференц-связь с телефонным подключением.](media/audio-conferencing-turned-off.png)
+     ![Отключена конференц-связь с телефонным подключением.](media/teams-emails-sent-to-users-when-settings-change-image4.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Являясь администратором Office 365, вы можете изменять настройки аудиоконференций Microsoft Teams, например поставщика, платный или бесплатный номер по умолчанию, идентификатор конференции или ПИН-код, для отдельного пользователя в своей организации. '
-ms.openlocfilehash: 5b5ea2217f0bd5dce9738ab5013c176c89a9050f
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 46b3eaf393ba49a17fb92c3cbeebc1d6927f16e5
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754343"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178656"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Управление настройками аудиоконференций для пользователя в Microsoft Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "29754343"
 |**Не прошедшим проверку подлинности пользователи могут быть первого участника собрания**|Чтобы изменить этот параметр, включения и отключения **не прошедшим проверку подлинности пользователи могут быть первого участника собрания** включено или отключено.
 |**Разрешения по телефону**|Чтобы изменить этот параметр, нажмите кнопку **Изменить** рядом с пунктом **Аудиоконференции** и в области **Звука конференц-связи** , выберите параметр в группе **Подключение по телефонной линии из собрания**.|
 
-![Отображает параметры звука конференц-связи для пользователя](media/sfbaudioconf-usersettings.png)
+![Отображает параметры звука конференц-связи для пользователя](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
  
 
 > [!Note]

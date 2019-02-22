@@ -15,10 +15,10 @@ ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: Прочтите этот раздел, чтобы узнать о планировании для общих строки внешний вид (SLA) в Скайп Business Server 2015, 2015 ноября накопительного обновления.
 ms.openlocfilehash: b65d637426b0a8533089b21021bce566373ca9f1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "23884510"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Планирование распределенной линии для Skype для бизнеса Server 2015
@@ -39,7 +39,7 @@ ms.locfileid: "23884510"
     
 Соглашение об уровне ОБСЛУЖИВАНИЯ — это новая возможность в Скайп для Business Server 2015 ноября накопительного обновления. 
   
-Сведения о развертывании соглашения об уровне ОБСЛУЖИВАНИЯ содержатся в разделе [Развертывание общих вид линии в Скайп для Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
+Дополнительные сведения о развертывании SLA см. в разделе [Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
   
 ## <a name="feature-list"></a>Список функций
 
