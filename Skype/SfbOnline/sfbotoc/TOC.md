@@ -220,7 +220,6 @@
 ### [Что такое абонентские группы?](/microsoftteams/what-are-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Телефонная система в Office 365](/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Создание очереди звонков в телефонной системе](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Получение номеров телефонов в Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Развертывание телефонов для приложения Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 #### [Параметр копирование телефоны общие области (узел)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
@@ -229,12 +228,13 @@
 ### Голосовая почта для телефонной системы
 #### [Изменение языка по умолчанию для приветствий в голосовой почте и электронных писем в организации](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Языки для приветствий и сообщений голосовой почты](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Настройка голосовой почты телефонной системы  справка для администратора](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Настройка автосекретаря телефонной системы](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+#### [Настройка голосовой почты телефонной системы  справка для администратора](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Настройка телефонной системы в организации](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Что такое автосекретари телефонной системы?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Настройка автосекретаря телефонной системы](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+#### [Настройка автосекретаря телефонной системы](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Пример для малого бизнеса — Настройка автосекретарю.](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+### [Создание очереди звонков в телефонной системе](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+
 
 
 ## [Настройка сети для трансляции собраний Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)

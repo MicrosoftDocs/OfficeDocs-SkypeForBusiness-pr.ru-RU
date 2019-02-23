@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Сведения о вопросы планирования для телефонной системой в Office 365 (облако УАТС), а также подключение к ТСОП в локальной.
-ms.openlocfilehash: 3856a4901666ec58b286d5edb26c7d69bba65e41
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 234c2966cb887c0adfdd15f518479ad5e363fe73
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069485"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210631"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Планирование телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп Business Server
 
 Сведения о вопросы планирования для телефонной системой в Office 365 (облако УАТС), а также подключение к ТСОП в локальной.
 
-Этот контент относится, если вы уже Скайп Business Server или Lync Server 2013, развернутые локально. Остальные сценарии в разделе [решения Майкрософт телефонной связи](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
+Этот контент относится, если вы уже Скайп Business Server или Lync Server 2013, развернутые локально. Остальные сценарии в разделе [Планирование телефонной системой в решение Office 365 (облако УАТС)](plan-your-phone-system-cloud-pbx-solution.md).
 
  Система телефона в Office 365 с помощью подключения к ТСОП в локальной позволяет использовать возможности телефонной системой (облако УАТС) для пользователей. Это удобно в следующих сценариях.
 
@@ -111,6 +111,6 @@ ms.locfileid: "30069485"
 
 - **Службы федерации Active Directory (AD FS) (рекомендуется)** Рекомендуется развертывание AD FS для поддержки единого входа. Для получения дополнительных сведений см [Служб федерации Active Directory (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
-Сведения о развертывании телефонной системой в Office 365 см [телефонной системы в вашей организации](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+Сведения о развертывании телефонной системой в Office 365 в разделе [Включить пользователей для телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп для Business Server](enable-users-for-phone-system.md).
 
 

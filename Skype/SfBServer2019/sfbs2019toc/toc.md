@@ -98,6 +98,12 @@
 #### Облако голосовой почты
 #####[Планирование голосовой почты в облаке](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 ##### [Настройка голосовой почты в облаке](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
+#### Автосекретари облако
+##### [Планирование автосекретари облако](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
+##### [Настройка автосекретарей облако](../../SfbHybrid/hybrid/configure-cloud-auto-attendant.md)
+#### Облако вызова очередей
+##### [Планирование очереди вызовов облако](../../SfbHybrid/hybrid/plan-call-queue.md)
+##### [Настройте очереди вызовов облако](../../SfbHybrid/hybrid/configure-call-queue.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [единая система обмена сообщениями;](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Обзор развертывания](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 

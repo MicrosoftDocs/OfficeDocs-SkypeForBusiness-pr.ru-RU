@@ -314,10 +314,12 @@
 ### Идентификатор звонящего
 #### [Использование идентификатора абонента в организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Настройка идентификатора звонящего для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### Автосекретари и очереди звонка
+### Автосекретари и очереди звонка 
 #### [Что такое автосекретари телефонной системой](what-are-phone-system-auto-attendants.md)
-#### [Настройка автосекретаря телефонной системы](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Создание очереди звонков в телефонной системе](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Настройка автосекретаря телефонной системы](create-a-phone-system-auto-attendant.md)
+#### [Пример для малого бизнеса — Настройка автосекретарю.](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Управление учетными записями ресурсов в группах Майкрософт](manage-resource-accounts.md)
+#### [Создание очереди звонков в телефонной системе](create-a-phone-system-call-queue.md)
 #### [Ответ автосекретаря и вызвать очереди звонки непосредственно из рабочих групп](answer-auto-attendant-and-call-queue-calls.md)
 ### [Парковка вызовов и получения](call-park-and-retrieve.md)
 ### [Общий доступ к вызовов и группы вызова раскладки](call-sharing-and-group-call-pickup.md)
@@ -664,7 +666,7 @@
 ### [Отслеживание качества звонка](monitor-call-quality-qos.md)
 #### [Качество взаимодействия руководство по решению](quality-of-experience-review-guide.md)
 #### [Настройка качества обслуживания в группах](QoS-in-Teams.md)
-#### [Реализация качества обслуживания и мониторинга качества звонка](monitor-call-quality-qos.md)
+##### [Набор QoS на клиентах Windows](QoS-in-Teams-clients.md)
 #### [Аналитика звонков и панель мониторинга качества звонков](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [Настройка аналитики звонков](set-up-call-analytics.md)
 #### [Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)

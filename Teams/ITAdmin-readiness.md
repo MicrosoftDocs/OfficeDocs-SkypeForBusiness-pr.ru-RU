@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, наборов слайдов PowerPoint, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f37fba985817b777ebce7c125b9cd5d80cc425
-ms.sourcegitcommit: 11f95d0df48a23e701ffaf3b26445d736cbbb884
+ms.openlocfilehash: 13b6b6e376043cb029c9775e0d0c3e6375370b0a
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "30079135"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205685"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -86,15 +86,15 @@ ms.locfileid: "30079135"
 
 | Модуль | Видеосвязь | Презентации PowerPoint |
 | ------------ | -------------------- | -------------------- |
-| Основы - основные компоненты | [Видео](http://aka.ms/teams-foundations) | [Колоды](http://aka.ms/teams-foundations-deck) |
-| Клиент настольных компьютеров Windows | [Видео](http://aka.ms/teams-clients) | [Колоды](http://aka.ms/teams-clients-deck) |
-| Управление, управления и Lifecylce | [Видео](http://aka.ms/teams-governance) | [Колоды](http://aka.ms/teams-governance-deck) |
-| Планирование сети | [Видео](http://aka.ms/teams-networking) | [Колоды](http://aka.ms/teams-networking-deck) |
-| Обзор качества звонка | [Видео](http://aka.ms/teams-quality) | [Колоды](http://aka.ms/teams-quality-deck) |
-| Общие сведения о собраниях | [Видео](http://aka.ms/teams-meetings-intro) | [Колоды](http://aka.ms/teams-meetings-intro-deck) |
-| Общие сведения о системе телефона | [Видео](http://aka.ms/teams-phone-system) | [Колоды](http://aka.ms/teams-phone-system-deck) |
-| Прямая отправка | [Видео](http://aka.ms/teams-direct-routing) | [Колоды](http://aka.ms/teams-direct-routing-deck) |
-| Переход со Skype для бизнеса на Teams | [Видео 1: Общие сведения об обновлении](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: Планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видео 3: Взаимодействие и сосуществование](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: Интерфейс администратора](https://aka.ms/teams-upgrade-admin) | [Колоды](http://aka.ms/teams-upgrade-deck)|
+| Основы - основные компоненты | [Видео](https://aka.ms/teams-foundations) | [Колоды](https://aka.ms/teams-foundations-deck) |
+| Клиент настольных компьютеров Windows | [Видео](https://aka.ms/teams-clients) | [Колоды](https://aka.ms/teams-clients-deck) |
+| Управление, управления и Lifecylce | [Видео](https://aka.ms/teams-governance) | [Колоды](https://aka.ms/teams-governance-deck) |
+| Планирование сети | [Видео](https://aka.ms/teams-networking) | [Колоды](https://aka.ms/teams-networking-deck) |
+| Обзор качества звонка | [Видео](https://aka.ms/teams-quality) | [Колоды](https://aka.ms/teams-quality-deck) |
+| Общие сведения о собраниях | [Видео](https://aka.ms/teams-meetings-intro) | [Колоды](https://aka.ms/teams-meetings-intro-deck) |
+| Общие сведения о системе телефона | [Видео](https://aka.ms/teams-phone-system) | [Колоды](https://aka.ms/teams-phone-system-deck) |
+| Прямая отправка | [Видео](https://aka.ms/teams-direct-routing) | [Колоды](https://aka.ms/teams-direct-routing-deck) |
+| Переход со Skype для бизнеса на Teams | [Видео 1: Общие сведения об обновлении](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: Планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видео 3: Взаимодействие и сосуществование](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: Интерфейс администратора](https://aka.ms/teams-upgrade-admin) | [Колоды](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Краткие руководства по началу работы</h2>
 

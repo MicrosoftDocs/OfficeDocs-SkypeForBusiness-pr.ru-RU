@@ -3,7 +3,7 @@ title: Ограничения и спецификации для Microsoft Team
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/31/2019
+ms.date: 10/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167c62c9f7fea440dea30b3946c95fc382a9757b
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 99e061246e673b5659c18190511dd33a5fec72ce
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992811"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210678"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 =============================================
@@ -38,9 +38,6 @@ ms.locfileid: "29992811"
 |Число каналов на каждое группы    | 200 (в том числе удаленных каналов)         |
 
 &sup1; Любой объект каталогов в Azure Active Directory подсчитывает достигло предельного это ограничение. Глобальных администраторов, исключаются из это ограничение, как выполняется вызов с использованием [разрешений приложения](https://docs.microsoft.com/graph/permissions-reference)Microsoft Graph приложений.
-
-> [!NOTE]
-> Каналы не поддерживают специальные символы как ~ # % & * {} + / \: < >? | "«в поле имя канала.  
 
 <a name="meetings-and-calls"></a>Собрания и вызовы 
 ------------------
