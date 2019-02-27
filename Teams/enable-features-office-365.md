@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb5310823db4e0a5fa441eca885599423f240dcc
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: b9da36d938a5b6e55920826b10f1ac2c1f528fe3
+ms.sourcegitcommit: c2e4e9b59183440d6aa903832d6d6a1769ccf57d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178528"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30274610"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Управление функциями Microsoft Teams в организации Office 365
 
@@ -44,13 +44,13 @@ Apps are tabs, connectors, bots, or any combination of these three, provided by 
 
 These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
-![Снимок экрана раздела "Приложения по умолчанию".](media/teams-tenant-wide-settings-default-apps.png "Снимок экрана раздела \"Приложения по умолчанию\"")
+![Снимок экрана раздела "Приложения по умолчанию".](media/teams-manage-features-in-office365-image1.png "Снимок экрана раздела \"Приложения по умолчанию\"")
 
 #### <a name="external-apps"></a>Внешние приложения
 
 These apps are provided by third parties. You can configure the following settings for external apps.
 
-![Снимок экрана раздела "Внешние приложения".](media/teams-tenant-wide-settings-external-apps-settings.png "Снимок экрана раздела \"Внешние приложения\" с включаемыми и отключаемыми параметрами")
+![Снимок экрана раздела "Внешние приложения".](media/teams-manage-features-in-office365-image2.png "Снимок экрана раздела \"Внешние приложения\" с включаемыми и отключаемыми параметрами")
 
 - **Разрешить внешние приложения в Microsoft Teams**. При включении этого параметра пользователи могут добавлять внешние приложения, доступные вашей организации. 
 

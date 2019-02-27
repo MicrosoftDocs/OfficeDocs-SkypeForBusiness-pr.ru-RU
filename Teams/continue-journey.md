@@ -14,10 +14,10 @@ MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ac7466df9000eba2ea2689c717a2012fd252e150
-ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
+ms.sourcegitcommit: 7f05a2a4191812b7486905faea37aff6eaf1ba23
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
+ms.lasthandoff: 02/26/2019
 ms.locfileid: "29562607"
 ---
 ![Этапы обновления пути с акцентом на стадии высокий уровень работоспособности] (media/upgrade-banner-op-excellence.png "Этапы обновления пути с акцентом на стадии высокий уровень работоспособности")

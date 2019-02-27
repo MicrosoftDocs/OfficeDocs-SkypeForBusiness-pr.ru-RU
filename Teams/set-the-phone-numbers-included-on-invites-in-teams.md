@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Получите инструкции по созданию номер телефона по умолчанию для абонентов, чтобы присоединиться к собранию группами Майкрософт. '
-ms.openlocfilehash: 8cbe7a88d1fcb857ce94a95b2a9af7a159ccef5a
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: a4e6ef573d7c6b5888beee9fc9278d65b883927f
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754561"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302683"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Настройка телефонных номеров, включаемых в приглашения в Microsoft Teams
 
@@ -53,15 +53,15 @@ ms.locfileid: "29754561"
 
 1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
 
-    ![Показывает, Выбор пользователей в центре администрирования группами Майкрософт](media/teamsselectusers.png)
+    ![Показывает, Выбор пользователей в центре администрирования группами Майкрософт](media/teams-set-phone-numbers-on-invites-image1.png)
 
 2. В верхней части страницы нажмите кнопку **Изменить**.
 
-    ![Нажмите кнопку Изменить в центре администрирования группами Майкрософт](media/teamsedituser.png)
+    ![Нажмите кнопку Изменить в центре администрирования группами Майкрософт](media/teams-set-phone-numbers-on-invites-image2.png)
 
 3. Рядом с пунктом **Аудиоконференции** нажмите **Изменить**. 
     
-    ![Нажмите кнопку Изменить рядом с пунктом аудиоконференции](media/teamseditaudioconf.png)
+    ![Нажмите кнопку Изменить рядом с пунктом аудиоконференции](media/teams-set-phone-numbers-on-invites-image3.png)
 
 4. Использование полей **бесплатный номер** или **бесплатный номер** для ввода цифр для пользователя.
 
