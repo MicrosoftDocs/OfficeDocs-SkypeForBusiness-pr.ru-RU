@@ -682,6 +682,7 @@
 ### [Управления Microsoft Education вопросы и ответы для администраторов](plan-teams-governance-edu.md)
 
 ## Группы конструкторов firstline сотрудников
+### [Microsoft StaffHub из эксплуатации](microsoft-staffhub-to-be-retired.md)
 ### [Управление приложение смены для вашей организации в группах](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 
