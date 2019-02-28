@@ -192,7 +192,6 @@
 
 
 ## [Облако видео взаимодействия](cloud-video-interop.md)
-### [Настройка взаимодействия видео облако](cloud-video-interop-for-teams-set-up.md)
 
 ## Событий в реальном времени
 ### [Что такое группы live событий?](teams-live-events/what-are-teams-live-events.md)
