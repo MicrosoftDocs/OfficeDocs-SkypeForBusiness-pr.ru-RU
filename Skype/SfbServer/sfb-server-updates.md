@@ -1,7 +1,7 @@
 ---
 title: Обновления Skype для бизнеса Server
-ms.author: jambirk
 author: ariantor
+ms.author: jambirk
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: arianr
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Централизованный поиск обновлений Skype для бизнеса Server 2015 и Lync 2013, а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 6433fe939bca07c520d402f193ff1e5fdacb8a09
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+ms.openlocfilehash: 7aa5a6735a0a3f9fd3544a5f0980f47b4af74213
+ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786364"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30340421"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
