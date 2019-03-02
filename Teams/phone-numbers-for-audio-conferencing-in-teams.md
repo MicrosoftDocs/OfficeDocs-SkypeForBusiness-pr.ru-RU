@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Сведения о том, какие страны и регионы имеют номера конференц-связи с телефонным подключением и как они назначаются автоматически.
-ms.openlocfilehash: 280c873385b29a7381d6bb9f4d3aae2d52a3bc1d
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 801c1c5b3c861aea1dea54779edf8d6af86aaa44
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754762"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351644"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Телефонные номера для аудиоконференций в Microsoft Teams
 

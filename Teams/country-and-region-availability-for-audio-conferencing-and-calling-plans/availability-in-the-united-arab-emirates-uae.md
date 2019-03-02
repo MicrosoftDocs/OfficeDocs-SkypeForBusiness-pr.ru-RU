@@ -1,5 +1,5 @@
 ---
-title: Доступность в Объединенные Арабские Эмираты (ОАЭ)
+title: Доступность в Объединенных Арабских Эмиратах (ОАЭ)
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 0e62e15f-e84a-42c3-87cb-adeb6dcfd761
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Объединенные Арабские Эмираты.
-ms.openlocfilehash: 59e0aa3e70128169a95c35abfef040e517736ad3
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 5a83db3ecfc43e31193deba58271e90115143ecd
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047941"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352037"
 ---
-# <a name="availability-in-the-united-arab-emirates-uae"></a>Доступность в Объединенные Арабские Эмираты (ОАЭ)
+# <a name="availability-in-the-united-arab-emirates-uae"></a>Доступность в Объединенных Арабских Эмиратах (ОАЭ)
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 

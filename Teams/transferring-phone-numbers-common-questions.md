@@ -1,20 +1,19 @@
 ---
-title: Общие вопросы по передаче номеров телефонов
-ms.author: tonysmit
-author: tonysmit
+title: Общие вопросы о переносе телефонных номеров
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Следующих часто задаваемые вопросы о передаче телефонных номеров Скайп для бизнеса. После просмотра ответов, можно приступить к созданию номеру порта и перемещение телефонных номеров. В разделе Передача номера телефонов в Office 365 для получения инструкций.
-ms.openlocfilehash: 8a260d1d59668a583f6bdda24bb88472a68c1f43
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2f69573859e04681f895dfc1a577a73f707e569a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375873"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351732"
 ---
-# <a name="transferring-phone-numbers-common-questions"></a>Общие вопросы по передаче номеров телефонов
+# <a name="transferring-phone-numbers-common-questions"></a>Общие вопросы о переносе телефонных номеров
 
 Следующих часто задаваемые вопросы о передаче телефонных номеров Скайп для бизнеса. После просмотра ответов, можно приступить к созданию номеру порта и перемещение телефонных номеров. Для получения инструкций в разделе [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md) .
   
@@ -133,7 +132,7 @@ ms.locfileid: "25375873"
 
 После выполнения запроса заказа порт может занять от 7 14 дней для обработки. Тем не менее в зависимости от поставщика услуг может потребоваться до 30 дней. После номера телефонов подключаются через, вы получите сообщение электронной почты из нам о том, что вы являетесь достаточно просто.
   
-Можно проверить состояние порта заказа, перейдя на Скайп по центру администрирования Business > **голосовой связи** > **заказов на порт**. Состояние отображается в окне в столбце **состояние** .
+Можно проверить состояние порта заказа, перейдя на Скайп для бизнеса admin center > **голосовой связи** > **заказов на порт**. Состояние отображается в окне в столбце **состояние** .
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Может быть преобразована пользователя (подписчика) телефонных номеров телефонов службы?
 <a name="bkmk_type_1"> </a>

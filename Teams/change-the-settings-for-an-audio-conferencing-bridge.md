@@ -1,5 +1,5 @@
 ---
-title: Изменение параметров моста аудиоконференций
+title: Изменение настроек для моста аудиоконференций
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,14 +7,13 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Получите действий, необходимых для изменения параметров конференц-канал, используемый для запрашивать абонентов и сбор имена и ПИН-коды для организаторам собрания, когда они не используют Скайп для бизнеса или группами Майкрософт приложений. '
-ms.openlocfilehash: c6e4a0e04b1e63e02dd477e1c1d2e70cc7234052
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 250d474d92acafb0fe7042743442e2005997588b
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754722"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352772"
 ---
-# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение параметров моста аудиоконференций
+# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение настроек для моста аудиоконференций
 
 При установке аудиоконференций в Office 365, вы получите номера телефонов для пользователей из называемое звукового конференц-канала. Конференц-канал может содержать один или несколько номеров телефонов. Эти номера телефонов используются при абонентов телефонное подключение к собранию. Номер телефона включен в нижней части Скайп для бизнеса или группами Майкрософт приглашение.
   

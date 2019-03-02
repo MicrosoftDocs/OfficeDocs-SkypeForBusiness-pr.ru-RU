@@ -1,5 +1,5 @@
 ---
-title: Ограничения бесплатных набора номера в Аргентина
+title: Ограничения набора бесплатных номеров в Аргентине
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 17d3c50f-a49a-4bf3-ab90-6d1a7aa83284
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: baeca4c4eb954f110e5f96764faf88ea99c3f958
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 9a1d145f3865c26966e4361e0d5db88fa5ca609d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046588"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353460"
 ---
-# <a name="toll-free-dialing-restrictions-in-argentina"></a>Ограничения бесплатных набора номера в Аргентина
+# <a name="toll-free-dialing-restrictions-in-argentina"></a>Ограничения набора бесплатных номеров в Аргентине
 
 [Найдите другой страны или региона](../toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.
 

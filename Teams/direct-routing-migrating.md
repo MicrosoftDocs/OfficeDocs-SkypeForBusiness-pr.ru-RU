@@ -1,28 +1,26 @@
 ---
-title: Переход на прямой маршрутизации
+title: Переход на прямую маршрутизацию
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Сведения, необходимые для переноса в прямой маршрутизации из Скайп для бизнеса в Интернет и перспективы конфигурации группы.
-ms.openlocfilehash: 4aeb9a2a2ba1bc8398896b2040276f08658194f5
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 100999483aa3246807008c2e8c60fc6d3ed5baa9
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754473"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353116"
 ---
-# <a name="migrating-to-direct-routing"></a>Переход на прямой маршрутизации
+# <a name="migrating-to-direct-routing"></a>Переход на прямую маршрутизацию
 
 В этой статье описываются необходимые для переноса в прямой маршрутизации из Скайп для бизнеса в Интернет и группами Майкрософт перспективы конфигурации. В этой статье обсуждается переход из следующих вариантов: 
  

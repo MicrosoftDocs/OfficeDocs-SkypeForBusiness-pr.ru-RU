@@ -7,12 +7,11 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: a3762b58d6014c4f32bb03ba821aa704c7145ea9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9d50c4682553999c2836d8e18bd3f6a56d88554c
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013483"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351604"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Аудиоконференции в Office 365
 Аудиоконференций в Office 365 позволяет пользователям вызывать в собраниях с телефонов. Аудиоконференции позволяет до 250 участников телефона.
@@ -42,7 +41,7 @@ ms.locfileid: "25013483"
 - Люди могут присоединиться к собранию «автономно» с помощью устройства Bluetooth.
 - Проще и более удобным для их ситуации поиска людей.
 
-Необходимо настроить звук конференц-связи для пользователей, которые планируется расписание или привести собрания. Присоединяющимся к собранию по телефону участникам не требуются какие-либо назначенные им лицензии или другие настройки.
+Вам нужно только настроить аудиоконференции для пользователей, планирующих или проводящих собрания. Присоединяющимся к собранию по телефону участникам не требуются какие-либо назначенные им лицензии или другие настройки.
 
 После участники присоединятся к собранию, они также выполнять звонки и приглашать других звонящих в Скайп для бизнеса или группами Майкрософт собрания. В разделе [выходному из групп собрание, чтобы другие пользователи могут присоединиться к ней](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) или [выходному из Скайп для бизнеса собрание, чтобы другие пользователи могут присоединиться к ней](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
@@ -99,6 +98,6 @@ ms.locfileid: "25013483"
 
 [Настройка Skype для бизнеса Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
-[Номера телефонов для аудиоконференции в группах Майкрософт](phone-numbers-for-audio-conferencing-in-teams.md) 
+[Телефонные номера для аудиоконференций в Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 
 [Номера телефонов для аудиоконференций в приложении Skype для бизнеса Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)

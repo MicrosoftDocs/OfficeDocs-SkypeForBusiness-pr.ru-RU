@@ -1,5 +1,5 @@
 ---
-title: Доступность в Сербия
+title: Доступность в Сербии
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 573ef225-36e4-4dc2-adef-d4567858c02b
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Сербия.
-ms.openlocfilehash: f427e0aea74dc5c0fd0b5693171289d0803d5694
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 82e6ee4830533f4e9fd1d0944e405073c970efc4
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046952"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353220"
 ---
-# <a name="availability-in-serbia"></a>Доступность в Сербия
+# <a name="availability-in-serbia"></a>Доступность в Сербии
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 

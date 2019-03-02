@@ -1,5 +1,5 @@
 ---
-title: Доступность в Босния &amp; Герцеговина
+title: Доступность в Боснии и Герцеговине
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 14066a15-acca-4d39-b862-d163ab824196
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Босния и Герцеговина.
-ms.openlocfilehash: 5ebbd996d99721ae5f7e92424d42db2a3c1c2960
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 43863e2b51524f2440257b1ab311b47fe7eaab91
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048564"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352212"
 ---
-# <a name="availability-in-bosnia-amp-herzegovina"></a>Доступность в Босния &amp; Герцеговина
+# <a name="availability-in-bosnia-amp-herzegovina"></a>Доступность в Боснии и Герцеговине
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 

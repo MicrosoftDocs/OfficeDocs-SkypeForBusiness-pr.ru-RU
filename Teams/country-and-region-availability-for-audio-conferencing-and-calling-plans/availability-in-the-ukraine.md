@@ -1,18 +1,17 @@
 ---
-title: Доступность в Украина
-ms.author: tonysmit
-author: tonysmit
+title: Доступность на Украине
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: f3107dfc-592e-4952-a451-921b89cd5d3f
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Украина.
-ms.openlocfilehash: d52c9a8d1f1298f8df907e9cf31a3b76680a87d1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 62345c996578280f93d53dfc1077860edf70adb8
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016567"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352468"
 ---
-# <a name="availability-in-the-ukraine"></a>Доступность в Украина
+# <a name="availability-in-the-ukraine"></a>Доступность на Украине
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 

@@ -1,5 +1,5 @@
 ---
-title: Доступность в Саудовская Аравия
+title: Доступность в Саудовской Аравии
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 54905c72-2214-47c7-8ac2-7a27597475c5
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Саудовской Аравии.
-ms.openlocfilehash: 9fd7fb8a8fbdaed545b9716c95a6b59c1b08a89f
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 7861c87009a2956e1a5c24453addbf6fb53021be
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047436"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352588"
 ---
-# <a name="availability-in-saudi-arabia"></a>Доступность в Саудовская Аравия
+# <a name="availability-in-saudi-arabia"></a>Доступность в Саудовской Аравии
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 

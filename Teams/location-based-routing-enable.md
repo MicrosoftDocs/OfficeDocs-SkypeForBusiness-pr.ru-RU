@@ -1,5 +1,5 @@
 ---
-title: Включение зависимостью от расположения маршрутизации для непосредственного
+title: Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: Узнайте, как включить маршрутизации на основе расположения для прямой маршрутизации.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 854f0fefc006c02bc07c73cd4519b943411094f5
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771010"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352548"
 ---
-# <a name="enable-location-based-routing-for-direct-routing"></a>Включение зависимостью от расположения маршрутизации для непосредственного
+# <a name="enable-location-based-routing-for-direct-routing"></a>Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -65,7 +68,7 @@ ms.locfileid: "29771010"
     
     ||Политики маршрутизации 1 голосовой связи|Политики маршрутизации 2 голосовой связи|
     |---------|---------|---------|
-    |Идентификатор политики голосовой связи   |Политики маршрутизации голосовых данных Delhi   |Политики маршрутизации голосовых данных Hyderabad    |
+    |Идентификатор политики голосовой связи через Интернет   |Delhi политики маршрутизации голосовой связи через Интернет   |Hyderabad политики маршрутизации голосовой связи через Интернет    |
     |Online использования ТСОП  |Междугородный  |Междугородный, локальные, внутренний  |
 
     Дополнительные сведения содержатся в разделе [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
@@ -76,21 +79,21 @@ ms.locfileid: "29771010"
 ## <a name="enable-location-based-routing-for-network-sites"></a>Включение маршрутизации на основе расположения для сетевых узлов
 1.  Использование ``Set-CsTenantNetworkSite`` используется для включения маршрутизации на основе расположения и связать голосовой политики маршрутизации для сетевых сайтов, которые необходимо применить ограничения по маршрутизации.
     ```
-    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -OnlineVoiceRoutingPolicy <voice routing policy ID> 
+    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     В этом примере мы Включение маршрутизации на основе расположения для узла Delhi и Hyderabad сайта. 
 
     ```
-    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "DelhiVoiceRoutingPolicy" 
-    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "HyderabadVoiceRoutingPolicy" 
+    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
+    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
     Ниже указаны сайты, включены для маршрутизации на основе расположения в следующем примере.
 
     ||Узел 1 (Delhi)  |Узел 2 (Hyderabad)  |
     |---------|---------|---------|
+|Имя сайта    |Узел 1 (Delhi)    |Узел 2 (Hyderabad)   
     |EnableLocationBasedRouting    |True    |True    |
-    |Политики маршрутизации голосовой связи    | Политики маршрутизации голосовых данных Delhi       |Политики маршрутизации голосовых данных Hyderabad    |
     |Подсети     |Подсеть 1 (Delhi)     |Подсеть 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Включение маршрутизации на основе расположения для шлюзов
@@ -103,7 +106,7 @@ ms.locfileid: "29771010"
 
     В этом примере мы создадим одной конфигурации шлюза для каждого шлюза. 
     ```
-    New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
+    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     Дополнительные сведения можно [Настроить прямой маршрутизации](direct-routing-configure.md).
     
@@ -142,25 +145,25 @@ ms.locfileid: "29771010"
     |---------|---------|---------|
     |DEL PstnGateway:Gateway 1-Себестоимости    |    True     |   Узел 1 (Delhi)      |
     |PstnGateway:Gateway 2 HYD-Себестоимости     |   True      |      Узел 2 (Hyderabad)   |
-    |DEL PstnGateway:Gateway 3-УАТС    |    True     |     Узел 1 (Delhi)    |
-    |HYD PstnGateway:Gateway 4-УАТС    |    True     |    Узел 2 (Hyderabad)     |
+    |DEL PstnGateway:Gateway 3-УАТС    |    False     |     Узел 1 (Delhi)    |
+    |HYD PstnGateway:Gateway 4-УАТС    |    False     |    Узел 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-calling-policies"></a>Включение маршрутизации на основе расположения для вызова политик
 
 Для применения параметров маршрутизации на основе расположения для отдельных пользователей, настройте политику голосовой связи пользователей, чтобы запретить международную PTSN обхода. 
 
-Использование ``Grant-TeamsCallingPolicy`` пропускать командлет, чтобы включить маршрутизация на основе местоположения, устраняя международную PSTN.
+Использование ``Grant-CsTeamsCallingPolicy`` пропускать командлет, чтобы включить маршрутизация на основе местоположения, устраняя международную PSTN.
 
 ```
-Grant-TeamsCallingPolicy -PolicyName <policy name> -id <user id> 
+Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 В этом примере мы запретить PSTN международную сервера-посредника для пользователя User1 вызов политик. 
 
 ```
-Grant-TeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
 ### <a name="related-topics"></a>Связанные разделы
-- [Планирование зависимостью от расположения маршрутизации для непосредственного](location-based-routing-plan.md)
+- [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)
 - [Настройка параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
 - [Терминология маршрутизации на основе расположения](location-based-routing-terminology.md)

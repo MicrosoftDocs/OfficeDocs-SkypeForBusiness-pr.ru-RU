@@ -1,18 +1,17 @@
 ---
-title: Доступность в Швейцария
-ms.author: tonysmit
-author: tonysmit
+title: Доступность в Швейцарии
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: bbaf568d-363f-45e7-acd2-82e5ebb7fa21
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Швейцария.
-ms.openlocfilehash: 22ec9173e00621694512f939818ed0987f5988d5
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: f8248b6daa40c80a18c4fdd61c4419d54d2ada5d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674700"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352692"
 ---
-# <a name="availability-in-switzerland"></a>Доступность в Швейцария
+# <a name="availability-in-switzerland"></a>Доступность в Швейцарии
 
 > [!NOTE]
 > Можно получить номера **службы** в Швейцария для использования с конференц-связи, автосекретаря и вызвать очередей, но не могут получить количество **пользователей** в Швейцария как Тарифные планы недоступны.

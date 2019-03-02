@@ -7,11 +7,11 @@ ms.reviewer: mikedav, jastark
 ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Этот раздел содержит все страны или регионы, которые пользователи можно установить исходящие вызовы, если у них есть вызов планирование.
-ms.openlocfilehash: 55158366711e51472884aab74db6f5f70a9241c3
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 59cfb8f99392538313f67ff80f13aa394cfa4352
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047532"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351948"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Страны и регионы, в которые пользователи могут совершать исходящие звонки
 

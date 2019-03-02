@@ -10,15 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 description: Узнайте, терминология и концепции, связанные с зависимостью от расположения маршрутизации для прямой маршрутизации.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 122ded988b9bf3c2cd8d439e84cb132e3a3f690d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771002"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352333"
 ---
 # <a name="location-based-routing-terminology"></a>Терминология маршрутизации на основе расположения
 
@@ -34,6 +37,6 @@ ms.locfileid: "29771002"
 |Надежные внешних IP-адресов    |Доверенных внешних IP-адресов — это Интернет внешних IP-адресов из корпоративной сети. Они определить, является ли конечная точка пользователя внутри корпоративной сети до проверки на соответствие определенного сайта. Если внешний IP-адрес пользователя соответствует IP-адрес, заданный в список надежных, маршрутизации на основе местоположения проверяет внутренней подсети, где находится конечная точка пользователя. Если внешний IP-адрес пользователя не соответствует любой IP-адрес, заданный в список надежных, конечной точке классифицировано как неизвестный расположении и вызовы ТСОП или из пользователь, который включен для маршрутизации на основе местоположения, блокируются.          |
 
 ### <a name="related-topics"></a>Связанные разделы
-- [Планирование зависимостью от расположения маршрутизации для непосредственного](location-based-routing-plan.md)
+- [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)
 - [Настройка параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
-- [Включение зависимостью от расположения маршрутизации для непосредственного](location-based-routing-enable.md)
+- [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)

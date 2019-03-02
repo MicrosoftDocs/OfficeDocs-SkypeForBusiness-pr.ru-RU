@@ -1,5 +1,5 @@
 ---
-title: Начало работы с шаблонами здравоохранения группами Майкрософт
+title: Начало работы с группами шаблоны для организаций здравоохранения
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Начало работы с шаблонами здравоохранения группами Майкрософт
-ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+description: Начало работы с группами шаблоны для организаций здравоохранения
+ms.openlocfilehash: 98fff56720bc0d0dee530ab37c67e0e24aaba086
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760569"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351716"
 ---
-# <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Начало работы с шаблонами здравоохранения группами Майкрософт
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Начало работы с группами шаблоны для организаций здравоохранения
 
 Шаблоны рабочих групп Майкрософт позволяют быстро и легко создавать группы, предоставляя готовый шаблон настроек, каналов и предварительно установленные приложения.
 
@@ -37,7 +37,7 @@ ms.locfileid: "29760569"
 |Здравоохранение - Ворд | https://<span></span>графике<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Объявления\* <br> Huddles\* <br> Округляет\* <br> Набору кадров\* <br> Учебный курс по\* |
 |     | |         |
 
-\*Auto-favorited 
+\*Auto-favorited
 
 ## <a name="hospital-template"></a>Шаблон больница
 

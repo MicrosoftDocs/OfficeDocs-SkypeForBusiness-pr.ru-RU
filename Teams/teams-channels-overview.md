@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ae5d850670007d4356fa3de8610e4b110856734
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: babfec7ae442b9d5f787fda7a9d9eedb0e3a6303
+ms.sourcegitcommit: e739925aa73f257b72ce4f94002d8b17582252a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753848"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357772"
 ---
 > [!NOTE]
 > Ознакомьтесь со следующими сведениями понять чата, групп, каналы, & приложений в группах. Перейдите на [Развертывание чата, групп, каналы, & приложений в группах](deploy-chat-teams-channels-microsoft-teams-landing-page.md) для справляются список важных решений для развертывания групп.
@@ -88,7 +88,7 @@ Microsoft Teams отлично способствует упорядочению
 
 Вы можете создавать команды Teams в соответствии со структурой организации.  Такое решение лучше всего подойдет руководителям, которые хотят повышать боевой дух сотрудников, получать отзывы по конкретным командам, оптимизировать подключение новых сотрудников, создавать планы организации различных категорий персонала и делать их более прозрачными.  
 
-![Схема иерархии для упорядочения команд и каналов в Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
+![Схема иерархии для упорядочения команд и каналов в Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
 
 ## <a name="org-wide-teams"></a>Команды в масштабе организации
 
