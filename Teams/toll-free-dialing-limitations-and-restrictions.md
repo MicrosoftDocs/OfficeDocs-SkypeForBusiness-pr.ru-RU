@@ -15,6 +15,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -25,20 +26,20 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона, чтобы набрать этот номер бесплатный номер.
-ms.openlocfilehash: 92629f1be80a3174603f854d8d9c0e0e2e7254dc
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9ecea9fa2503134c7ce3b13c6c7adaabdf24a142
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013259"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352684"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a><span data-ttu-id="1c0ce-105">Бесплатный номер набору номера, ограничения и ограничения</span><span class="sxs-lookup"><span data-stu-id="1c0ce-105">Toll-free dialing limitations and restrictions</span></span>
+# <a name="toll-free-dialing-limitations-and-restrictions"></a><span data-ttu-id="72f1a-105">Бесплатный номер набору номера, ограничения и ограничения</span><span class="sxs-lookup"><span data-stu-id="72f1a-105">Toll-free dialing limitations and restrictions</span></span>
 
-<span data-ttu-id="1c0ce-106">Это поможет вам узнать, как для набора бесплатные номера в каждой страны или региона.</span><span class="sxs-lookup"><span data-stu-id="1c0ce-106">This will help you find out how to dial toll free numbers in each country or region.</span></span> <span data-ttu-id="1c0ce-107">После выбора страны или региона, его можно перейти на страницу, содержащую, где международную бесплатно недоступны, включая подробные сведения, ограничения и ограничения.</span><span class="sxs-lookup"><span data-stu-id="1c0ce-107">After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits.</span></span> <span data-ttu-id="1c0ce-108">Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона, чтобы набрать этот номер бесплатный номер.</span><span class="sxs-lookup"><span data-stu-id="1c0ce-108">The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.</span></span>
+<span data-ttu-id="72f1a-106">Это поможет вам узнать, как для набора бесплатные номера в каждой страны или региона.</span><span class="sxs-lookup"><span data-stu-id="72f1a-106">This will help you find out how to dial toll free numbers in each country or region.</span></span> <span data-ttu-id="72f1a-107">После выбора страны или региона, его можно перейти на страницу, содержащую, где международную бесплатно недоступны, включая подробные сведения, ограничения и ограничения.</span><span class="sxs-lookup"><span data-stu-id="72f1a-107">After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits.</span></span> <span data-ttu-id="72f1a-108">Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона, чтобы набрать этот номер бесплатный номер.</span><span class="sxs-lookup"><span data-stu-id="72f1a-108">The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.</span></span>
   
-<span data-ttu-id="1c0ce-109">Если вы будете готовы, выберите страну или регион:</span><span class="sxs-lookup"><span data-stu-id="1c0ce-109">If you're ready, select a country or region:</span></span>
+<span data-ttu-id="72f1a-109">Если вы будете готовы, выберите страну или регион:</span><span class="sxs-lookup"><span data-stu-id="72f1a-109">If you're ready, select a country or region:</span></span>
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a><span data-ttu-id="1c0ce-110">Выберите страну или регион, чтобы увидеть коды, ограничения и ограничения.</span><span class="sxs-lookup"><span data-stu-id="1c0ce-110">Select your country or region to see the dialing codes, limitations and restrictions.</span></span>
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a><span data-ttu-id="72f1a-110">Выберите страну или регион, чтобы увидеть коды, ограничения и ограничения.</span><span class="sxs-lookup"><span data-stu-id="72f1a-110">Select your country or region to see the dialing codes, limitations and restrictions.</span></span>
 
 > [!div class="op_single_selector"]    
 > - [Аргентина](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -103,26 +104,26 @@ ms.locfileid: "25013259"
 > - [Венесуэла](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Вьетнам](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a><span data-ttu-id="1c0ce-172">Ниже приведены некоторые важные аспекты, которые необходимо помнить о бесплатные номера.</span><span class="sxs-lookup"><span data-stu-id="1c0ce-172">Here are some important things for you to remember about toll free numbers:</span></span>
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a><span data-ttu-id="72f1a-172">Ниже приведены некоторые важные аспекты, которые необходимо помнить о бесплатные номера.</span><span class="sxs-lookup"><span data-stu-id="72f1a-172">Here are some important things for you to remember about toll free numbers:</span></span>
 
-- <span data-ttu-id="1c0ce-173">**Бесплатные номера работают только в каждой страны или региона.**</span><span class="sxs-lookup"><span data-stu-id="1c0ce-173">**Toll free numbers only operate within each country/region.**</span></span> <span data-ttu-id="1c0ce-174">Например, пользователи не могут звонить на бесплатный номер в Австралии из других стран.</span><span class="sxs-lookup"><span data-stu-id="1c0ce-174">For example, your users won't be able to call an Australian toll-free number outside of Australia.</span></span>
+- <span data-ttu-id="72f1a-173">**Бесплатные номера работают только в каждой страны или региона.**</span><span class="sxs-lookup"><span data-stu-id="72f1a-173">**Toll free numbers only operate within each country/region.**</span></span> <span data-ttu-id="72f1a-174">Например, пользователи не могут звонить на бесплатный номер в Австралии из других стран.</span><span class="sxs-lookup"><span data-stu-id="72f1a-174">For example, your users won't be able to call an Australian toll-free number outside of Australia.</span></span>
     
-- <span data-ttu-id="1c0ce-175">**Получение или перенос универсальные Международная бесплатная телефонная номеров (UIFN) не поддерживается.**</span><span class="sxs-lookup"><span data-stu-id="1c0ce-175">**Acquiring or porting Universal International Freephone Numbers (UIFN) isn't supported.**</span></span>
+- <span data-ttu-id="72f1a-175">**Получение или перенос универсальные Международная бесплатная телефонная номеров (UIFN) не поддерживается.**</span><span class="sxs-lookup"><span data-stu-id="72f1a-175">**Acquiring or porting Universal International Freephone Numbers (UIFN) isn't supported.**</span></span>
     
-- <span data-ttu-id="1c0ce-176">**В некоторых странах или регионах бюро регулятор/телекоммуникаций в страны или региона, требуется каждого международную бесплатные номера для поддержки по крайней мере 100 минут использования в месяц для сохранения номер.**</span><span class="sxs-lookup"><span data-stu-id="1c0ce-176">**In many countries/regions, the regulator/telecommunication agency in the country/region requires each toll free phone number to maintain at least 100 minutes of usage per month in order to retain the number.**</span></span>
+- <span data-ttu-id="72f1a-176">**В некоторых странах или регионах бюро регулятор/телекоммуникаций в страны или региона, требуется каждого международную бесплатные номера для поддержки по крайней мере 100 минут использования в месяц для сохранения номер.**</span><span class="sxs-lookup"><span data-stu-id="72f1a-176">**In many countries/regions, the regulator/telecommunication agency in the country/region requires each toll free phone number to maintain at least 100 minutes of usage per month in order to retain the number.**</span></span>
     
     > [!NOTE]
     > Если ваш бесплатный номер не будет соответствовать этим условиям, корпорация Майкрософт может отозвать у вас этот номер по требованию агентства телекоммуникаций или надзорного органа. 
   
-- <span data-ttu-id="1c0ce-178">**Доступ к бесплатным номерам по проводным, наземным и мобильным линиям связи может быть полностью или частично ограничен.**</span><span class="sxs-lookup"><span data-stu-id="1c0ce-178">**Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.**</span></span> <span data-ttu-id="1c0ce-179">Формат набора номера описываются необходимые коды доступа в рамках каждой страны или региона, для звонков с помощью бесплатный номер телефона.</span><span class="sxs-lookup"><span data-stu-id="1c0ce-179">The dialing format describes the required access codes within each country/region to place calls using the toll free number.</span></span>
+- <span data-ttu-id="72f1a-178">**Доступ к бесплатным номерам по проводным, наземным и мобильным линиям связи может быть полностью или частично ограничен.**</span><span class="sxs-lookup"><span data-stu-id="72f1a-178">**Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.**</span></span> <span data-ttu-id="72f1a-179">Формат набора номера описываются необходимые коды доступа в рамках каждой страны или региона, для звонков с помощью бесплатный номер телефона.</span><span class="sxs-lookup"><span data-stu-id="72f1a-179">The dialing format describes the required access codes within each country/region to place calls using the toll free number.</span></span>
     
-- <span data-ttu-id="1c0ce-180">**Бесплатные номера телефона план нумерации Северная Америка:** Курсы в минуту для нумерации планирование Северная Америка бесплатные номера определяются отправляющего страны.</span><span class="sxs-lookup"><span data-stu-id="1c0ce-180">**North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country.</span></span> <span data-ttu-id="1c0ce-181">Бесплатный бесплатную в минуту для вызовов, которые отправляются из карты США на скорости, определенного как «Северная Америка».</span><span class="sxs-lookup"><span data-stu-id="1c0ce-181">The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America."</span></span> <span data-ttu-id="1c0ce-182">Тем не менее бесплатную скорости определенных международную быть вызовов, которые отправляются из других странах Северной Америки как Канада, Пуэрто-Рико, и т. д.</span><span class="sxs-lookup"><span data-stu-id="1c0ce-182">However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.</span></span>
+- <span data-ttu-id="72f1a-180">**Бесплатные номера телефона план нумерации Северная Америка:** Курсы в минуту для нумерации планирование Северная Америка бесплатные номера определяются отправляющего страны.</span><span class="sxs-lookup"><span data-stu-id="72f1a-180">**North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country.</span></span> <span data-ttu-id="72f1a-181">Бесплатный бесплатную в минуту для вызовов, которые отправляются из карты США на скорости, определенного как «Северная Америка».</span><span class="sxs-lookup"><span data-stu-id="72f1a-181">The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America."</span></span> <span data-ttu-id="72f1a-182">Тем не менее бесплатную скорости определенных международную быть вызовов, которые отправляются из других странах Северной Америки как Канада, Пуэрто-Рико, и т. д.</span><span class="sxs-lookup"><span data-stu-id="72f1a-182">However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.</span></span>
 
 > [!NOTE]
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
-## <a name="related-topics"></a><span data-ttu-id="1c0ce-184">См. также:</span><span class="sxs-lookup"><span data-stu-id="1c0ce-184">Related topics</span></span>
-[<span data-ttu-id="1c0ce-185">Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="1c0ce-185">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+## <a name="related-topics"></a><span data-ttu-id="72f1a-184">См. также:</span><span class="sxs-lookup"><span data-stu-id="72f1a-184">Related topics</span></span>
+[<span data-ttu-id="72f1a-185">Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="72f1a-185">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
