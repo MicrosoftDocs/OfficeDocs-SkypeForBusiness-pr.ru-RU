@@ -1,5 +1,5 @@
 ---
-title: Доступность в Словакия
+title: Доступность в Словакии
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: d1cbbed6-7398-4152-8836-1b06484d8bae
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Словакия.
-ms.openlocfilehash: 943ed836ea806b0ebb6c4107f4adf033227d42d0
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: ce25f9f7852464644e3c71c1b2e1212742a3230a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048724"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350796"
 ---
-# <a name="availability-in-slovakia"></a>Доступность в Словакия
+# <a name="availability-in-slovakia"></a>Доступность в Словакии
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 

@@ -23,7 +23,7 @@
 ## [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
-## [Начало работы с шаблонами Microsoft Teams для здравоохранения](healthcare/healthcare-templates.md)
+## [Шаблоны группы для здравоохранения](healthcare/healthcare-templates.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
 ## [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
@@ -105,10 +105,10 @@
 ### Лицензирование
 #### [Управление доступом пользователей к Teams](user-access.md)
 #### [Лицензирование Office 365 для Teams](office-365-licensing.md)
-#### [Назначение лицензий групп](assign-teams-licenses.md)
+#### [Назначение лицензий Teams](assign-teams-licenses.md)
 #### [Лицензирование дополнительный компонент групп](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 ##### Параметры лицензии вашего Тарифного плана
-###### [Office 365 бизнес премиум](teams-add-on-licensing/office-365-business-premium.md)
+###### [Office 365 бизнеса расширенный](teams-add-on-licensing/office-365-business-premium.md)
 ###### [Office 365 профессиональный плюс](teams-add-on-licensing/office-365-premium-pro-plus.md)
 ###### [Office 365 корпоративный E1 и E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
 ###### [Office 365 корпоративный E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)

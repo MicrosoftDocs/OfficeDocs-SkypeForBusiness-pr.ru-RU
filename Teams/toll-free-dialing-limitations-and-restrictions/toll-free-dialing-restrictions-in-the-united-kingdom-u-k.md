@@ -1,5 +1,5 @@
 ---
-title: Ограничения бесплатных набора номера в Соединенное Королевство (Великобритания)
+title: Ограничения набора бесплатных номеров в Соединенном Королевстве
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 4e3ffa25-762e-4066-acb2-15634818b586
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 5bbad4682755b6df364790910aa7e0579457506f
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 3641719d03efd34eadf8a739be0d9d6a4abf2a59
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046362"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350636"
 ---
-# <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>Ограничения бесплатных набора номера в Соединенное Королевство (Великобритания)
+# <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>Ограничения набора бесплатных номеров в Соединенном Королевстве
 
 [Найдите другой страны или региона](../toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.
 

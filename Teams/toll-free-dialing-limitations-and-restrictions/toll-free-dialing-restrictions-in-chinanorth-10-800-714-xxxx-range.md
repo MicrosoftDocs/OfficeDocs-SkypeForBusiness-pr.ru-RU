@@ -1,5 +1,5 @@
 ---
-title: Бесплатный номер набору номера, ограничения в Китае - Север (10 800 714 диапазон XXXX)
+title: Ограничения набора бесплатных номеров на севере Китая (диапазон 10 800 714 XXXX)
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: de35403c-ac6d-4325-9fb2-9bead8f14faf
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: f012a013b7999347385838a0990998b2d7f2ac9a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 18969d7f5f002ffaaf5bcdc5c97cc3e0ea9c65b4
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048652"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350934"
 ---
-# <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>Бесплатный номер набору номера, ограничения в Китае - Север (10 800 714 диапазон XXXX)
+# <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>Ограничения набора бесплатных номеров на севере Китая (диапазон 10 800 714 XXXX)
 
 [Найдите другой страны или региона](../toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.
 
