@@ -1,11 +1,11 @@
 ---
 title: Инструменты и скачиваемые материалы по внедрению
 description: Используйте следующие ресурсы внедрения помогут вам обеспечить принятие этого группами Майкрософт и другие службы Office 365.
-layout: LandingPage
 ms.topic: landing-page
 author: karuanag
 ms.author: karuanag
 manager: serdars
+layout: LandingPage
 ms.date: 11/20/2018
 ms.service: msteams
 ms.custom: Adopt
@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64041c7cf66e880374d8d52f68c7ec5def0de61c
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 0e127be7c64dfadcc8cf01e2abcd4bb069d92b78
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015327"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408245"
 ---
 # <a name="tools-for-driving-adoption"></a>Средства для управления внедрения 
 
@@ -149,4 +149,4 @@ ms.locfileid: "28015327"
 Извлечение [flipbook внедрения групп](https://aka.ms/teamstoolkit), электронного руководства, которые помогут вам развернуть группы в вашей компании. Оно включает в себя многие загружаемые средства, шаблоны и другие ресурсы, которые помогут вам по поездке внедрения группами.
 
 ### <a name="teams-customer-success-kit"></a>Группы Customer Success набора
-[Группы Customer Success комплект](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) предоставляет средства для развертывания группам в организации. Оно включает в себя шаблоны электронной почты для объявления, рекламные листовки плакаты, отсчет и советы и рекомендации. Он также включает Приступая к работе руководства для руководителей группы разработчиков и ИТ-администраторов.
+[Группы Customer Success комплект](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) предоставляет средства для развертывания группам в организации. Оно включает в себя шаблоны электронной почты для объявления, плакаты, рекламные листовки, отсчет и приемы & советы. Он также включает Приступая к работе руководства для руководителей группы разработчиков и ИТ-администраторов.

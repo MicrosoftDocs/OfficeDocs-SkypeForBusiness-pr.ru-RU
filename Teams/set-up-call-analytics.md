@@ -1,11 +1,11 @@
 ---
-title: Настройка вызова аналитики
+title: Настройка аналитики звонков
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.topic: article
-ms.assetid: ''
+ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service:
 - skype-for-business-online
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Настройка и использование вызова Analytics для выявления и устранения неполадок Скайп для бизнеса и группами Майкрософт проблемы с качеством вызовов.
-ms.openlocfilehash: 489dceae4924f3f720fd60f86423781c1aa31b41
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 4d6216fe1771158453ca32bbabfed5fcf9b09156
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754553"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408293"
 ---
-# <a name="set-up-call-analytics"></a>Настройка вызова аналитики
+# <a name="set-up-call-analytics"></a>Настройка аналитики звонков
 
 Как группы или Скайп для бизнеса в Интернет администратора Analytics вызова можно использовать для устранения неполадок Скайп для бизнеса и группами Майкрософт вызвать проблемы качества и подключения. Может быть полезно для настройки следующих возможностей в аналитике звонков:
   
@@ -94,9 +94,9 @@ ms.locfileid: "29754553"
 ## <a name="related-topics"></a>См. также:
 <a name="BKMK_UploadFiles"> </a>
 
-[Устранение неполадок с качеством звонков с помощью средства аналитики звонков](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Вызов аналитики и панель мониторинга качества звонка](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Аналитика звонков и панель мониторинга качества звонков](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

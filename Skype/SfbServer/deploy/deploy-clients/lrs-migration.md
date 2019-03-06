@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: В данном разделе приведены в этой статье описывается перенос системы комнаты Lync устройств для использования версии 2 Скайп комнаты системного программного обеспечения.
-ms.openlocfilehash: 22693913c613f87c3f11ad5b421d771b661d9b91
-ms.sourcegitcommit: 502f85e7920b1a9a14f879d6211e10ad8daba69f
+ms.openlocfilehash: c01b579e73775e5f6b237f74975681fef7ea45ea
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "29382473"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408214"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Перенос устройств системы Lync комнаты (LRS) в системе комнаты Скайп версии 2
 
@@ -41,7 +41,7 @@ ms.locfileid: "29382473"
 
 ### <a name="crestron-hardware-trade-in-program"></a>Программа Trade-in Crestron оборудование
 
-Для всех клиентов системы комнаты Lync не Crestron Crestron обеспечит обновления [Crestron SR системы](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) или иметь эквивалентные права. Ознакомиться с подробными сведениями этой программы [здесь](https://support.crestron.com/app/answers/answer_view/a_id/1000220) или <!-- For details, --> [электронной почты](mailto:lrsupgrade@crestron.com) Crestron LRS поддержки.  
+Crestron будет предоставлять обновления для [системы Crestron SR](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) или иметь эквивалентные права для всех клиентов системы комнаты Lync не Crestron (например разумная или Polycom LRS). Ознакомиться с подробными сведениями этой программы [здесь](https://support.crestron.com/app/answers/answer_view/a_id/1000220) или <!-- For details, --> [электронной почты](mailto:lrsupgrade@crestron.com) Crestron LRS поддержки.  
 
 ### <a name="crestron-rl2-upgrade-to-srs-v2"></a>Crestron RL2 обновления до версии 2 SRS
 
@@ -49,17 +49,8 @@ ms.locfileid: "29382473"
 
 ### <a name="smart-room-systems-upgrade"></a>Обновление смарт-систем комнаты
 
-Для клиентов, смарт-LRS, за исключением программы trade-in Crestron оборудования Корпорация Майкрософт и СМАРТ также работают на предоставление решений для обновления до версии 2 Скайп комнаты системы. Это обновление будет предоставлено смарт-Technologies Inc. Можно найти дополнительные сведения о этой [здесь](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
+Для клиентов, смарт-LRS, за исключением программы trade-in Crestron оборудования СМАРТ также работает на предоставление решений для обновления до версии 2 Скайп комнаты системы. Это обновление предоставлено смарт-Inc. технологии для клиентов в группе технической поддержки. Можно найти дополнительные сведения о этой [здесь](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
 
-Чтобы использовать этот параметр, клиенты Кроме того необходимо купить адаптера [Logitech экрана совместный доступ](https://www.logitech.com/en-us/product/screen-share) . Корпорация Майкрософт предоставляет инструкции о том, как использовать этот адаптер с версии 2 Скайп комнаты системное программное обеспечение.
-
-Внешний вид инструкции по обновлению на этой странице в ближайшее время.
-  
-<!-- 
-### Summary of upgrade options
-
-This table lists summary of all available options for existing LRS devices:
--->
 
 ## <a name="what-should-you-do"></a>Что делать?
 

@@ -7,18 +7,21 @@ ms.reviewer: kponnus
 ms.topic: article
 ms.service: msteams
 ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
 ms.collection:
 - Teams_ITAdmin_Help
 - Strat_SB_PSTN
 - M365-voice
 localization_priority: Normal
 description: В этой статье рассматривается список телефонов, сертифицированных для Microsoft групп и возможностей, поддерживаемых в телефоны, сертифицированном для групп Майкрософт.
-ms.openlocfilehash: 45295187e145fb634b76eeb7433c2201746db59e
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 2c4cb7439f5675fd339eec67e4555574094675a5
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353324"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408301"
 ---
 # <a name="phones-for-microsoft-teams"></a>Телефоны для Microsoft Teams
 
