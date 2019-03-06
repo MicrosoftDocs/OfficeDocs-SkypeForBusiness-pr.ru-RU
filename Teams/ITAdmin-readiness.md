@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, наборов слайдов PowerPoint, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13b6b6e376043cb029c9775e0d0c3e6375370b0a
-ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
+ms.openlocfilehash: 88d95e82941350a5ee63be0a136483fd5a8e58b2
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30205685"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408050"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
