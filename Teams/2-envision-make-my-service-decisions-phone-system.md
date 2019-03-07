@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Выберите Тарифные планы и лицензирование, Настройка местоположении для экстренных служб и функций, как код голосовой почты и вызывающего абонента, получить или передачи телефонных номеров.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7cd550b266f69d4ad0223bd7364ec1b69e56745
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: f7a277133adb520ea2a5e23cab05477f79f18ea1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120573"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461894"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -79,8 +81,8 @@ ms.locfileid: "30120573"
 > | **Office**                     | **Расположение**   | **Служба телефонной системы** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Австралия      | Устаревшая служба ТСОП |
-> | 100 Cyberport Road             | Гонконг (специальный административный район)  | Прямой маршрутизации телефонной системы |
-> | One Marina Boulevard           | Сингапур      | Прямой маршрутизации телефонной системы |
+> | 100 Cyberport Road             | Гонконг (специальный административный район)  | Прямая маршрутизация телефонной системы |
+> | One Marina Boulevard           | Сингапур      | Прямая маршрутизация телефонной системы |
 > | 32 London Bridge Street        | Соединенное Королевство | Телефонная система с планами звонков |
 > | 39 quai du Président Roosevelt | Франция         | Телефонная система с планами звонков |
 

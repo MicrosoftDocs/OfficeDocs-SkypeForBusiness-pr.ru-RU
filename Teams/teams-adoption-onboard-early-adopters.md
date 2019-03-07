@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Выберите первыми для эксперимента этап внедрения вашей группы, а затем собрать их отзывы для вашего проекта.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 415726bbc78fbc98b5e3eefa3cb1455f3ddee483
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699672"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462134"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Подключение ранних последователей и сбор отзывов по Microsoft Teams
 
@@ -33,7 +35,7 @@ ms.locfileid: "26699672"
 3. Обеспечить доступ к каналу свои отзывы и предложения команды чемпионатов командную и любые другие внутренних социальных сетевые средства, можно использовать. 
 4. Рассмотрите возможность создания периодических опросы их завершения, которые будут получать целевую информацию.
 
-## <a name="gather-feedback"></a>Сбор отзывов
+## <a name="gather-feedback"></a>Получение отзыва
 
 Использование компонентов Office 365 для сбора отзывов для вашего проекта.
   

@@ -1,5 +1,5 @@
 ---
-title: Корпоративный план тестирования Телефонной системы с планами звонков в Microsoft Teams
+title: Корпоративный план тестирования телефонной системы с планами звонков в Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Проверьте, что вашей организации ожиданиям посредством тестирования в группы функций, функциональные возможности и удобство использования телефонной системой.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e96f39cbcf5dcca4c0687f89f37ead6791ff2d98
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: ff0b806a3738046abc5dc9f9193518e9e0998539
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120744"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463510"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Определите и задокументируйте телефонной системой с вызова планы в план тестирования группами для предприятий 
 ============================================================================================
@@ -233,7 +235,7 @@ ms.locfileid: "30120744"
 
 | Тип ресурса | Необходимые ресурсы                                           | Описание ресурса |
 |---------------|--------------------------------------------------------------|----------------------|
-| Пользователи        | Тестирование должно происходить инженеры-испытатели заинтересованных лиц                               | ПОДЛЕЖИТ ОПРЕДЕЛЕНИЮ                  |
+| Люди        | Тестирование должно происходить инженеры-испытатели заинтересованных лиц                               | ПОДЛЕЖИТ ОПРЕДЕЛЕНИЮ                  |
 | Технология    | Доступ к Office 365 с помощью включены следующие службы:<ul><li>Назначенный Лицензирование E5 в Office 365</li><li>Назначенный план внутренних и международных звонков</li></ul>    | ПОДЛЕЖИТ ОПРЕДЕЛЕНИЮ                  |
 | Поддержка       | Администратор тестирования поддержки руководитель тестирования специалисту службы поддержки тестирования | ПОДЛЕЖИТ ОПРЕДЕЛЕНИЮ                  |
 

@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Определите управляющая группа ключевых заинтересованных лиц и руководителям проектов, определите цели развертывания, отслеживание хода выполнения и удалении окон.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecbefe68b00e8388298ee6eb64ddbdc55ad0eeb9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014485"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464286"
 ---
 # <a name="steering-committee"></a>Исполнительного комитета
 
@@ -50,7 +52,7 @@ ms.locfileid: "25014485"
 
 -   Определение, управление и сократить перерывов в работе, риски и проблемы, когда дополнительные влияют на то необходим из комитет.
 
--   Сбор поддержки из группы высшего звена наличие проблем, которые требуют эскалации, определение приоритетов и разрешения конфликтов между заинтересованных лиц бизнес-единицы или ответственного спонсора. 
+-   Сбор поддержки из группы высшего звена наличие проблем, которые требуют эскалации, определение приоритетов и разрешения конфликтов между заинтересованных лиц бизнес-единицы или ответственного спонсора. 
 
 -   Предоставление официальную свои отзывы и предложения и рекомендации для высшего звена, доски advisory изменения, или других бизнеса и ИТ заинтересованных лиц, в зависимости от настроек.
 

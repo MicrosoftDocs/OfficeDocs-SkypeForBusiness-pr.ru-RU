@@ -5,23 +5,24 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
 description: Практическое руководство по развертыванию функций облачной голосовой связи в Microsoft Teams.
-MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754754"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463094"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись собрания Teams в облаке
 
-В Майкрософт для групп пользователи смогут вести запись их группами собрания и звонки из группы для захвата звука, видео- и экрана сеанс совместного доступа. Имеется также возможность записи иметь автоматическая подписка, чтобы пользователи могут воспроизведения собрания записей закрытых заголовков и искать важные элементы в записи. Записи происходит в облаке и сохраняется в [Microsoft потока](https://docs.microsoft.com/stream/), поэтому пользователи могут безопасное совместное использование его в организации.
+В Майкрософт для групп пользователи смогут вести запись их группами собрания и звонки из группы для захвата звука, видео- и экрана сеанс совместного доступа. Существует возможность записи с автоматической расшифровкой аудиозаписей, чтобы пользователи могли воспроизводить записи собрания с субтитрами и искать важные элементы обсуждения в расшифровке. Записи происходит в облаке и сохраняется в [Microsoft потока](https://docs.microsoft.com/stream/), поэтому пользователи могут безопасное совместное использование его в организации.
 
 Связанные: [собрания групп записи документации для конечных пользователей](https://aka.ms/recordmeeting)
 

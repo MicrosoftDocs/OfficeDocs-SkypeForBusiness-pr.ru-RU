@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Сведения о вопросы планирования для телефонной системой в Office 365 (облако УАТС), а также подключение к ТСОП в локальной.
-ms.openlocfilehash: 234c2966cb887c0adfdd15f518479ad5e363fe73
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: f0e73b2541bdab8d3e37db02bc023667ae942578
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210631"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454045"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Планирование телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп Business Server
 
 Сведения о вопросы планирования для телефонной системой в Office 365 (облако УАТС), а также подключение к ТСОП в локальной.
 
-Этот контент относится, если вы уже Скайп Business Server или Lync Server 2013, развернутые локально. Остальные сценарии в разделе [Планирование телефонной системой в решение Office 365 (облако УАТС)](plan-your-phone-system-cloud-pbx-solution.md).
+Этот контент относится, если вы уже Скайп Business Server или Lync Server 2013, развернутые локально. Остальные сценарии в разделе [решения Майкрософт телефонной связи](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
  Система телефона в Office 365 с помощью подключения к ТСОП в локальной позволяет использовать возможности телефонной системой (облако УАТС) для пользователей. Это удобно в следующих сценариях.
 

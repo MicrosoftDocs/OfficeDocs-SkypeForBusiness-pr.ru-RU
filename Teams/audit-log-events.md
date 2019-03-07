@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Узнайте, как извлекать данные Microsoft Teams из журнала аудита Office 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 712f227dafab4400712471ea4b56be62662f1dcf
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a5207007b3855f5fa093050ac0ff8c885fd333af
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015679"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464054"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Поиск событий Microsoft Teams в журнале аудита
 ==================================================
@@ -38,7 +40,7 @@ ms.locfileid: "25015679"
 
 ## <a name="turn-on-auditing-in-teams"></a>Включение аудита в Teams
 
-Прежде чем можно посмотреть на данные аудита, необходимо выполнить первый параметр Включить аудит в **центре соответствия требованиям и безопасности**(https://protection.office.com). Как это сделать, читайте в статье [Включение и отключение поиска в журнале аудита Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Прежде чем можно посмотреть на данные аудита, необходимо выполнить первый параметр Включить аудит в **безопасности & центре соответствия требованиям**(https://protection.office.com). Как это сделать, читайте в статье [Включение и отключение поиска в журнале аудита Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 
 > [!IMPORTANT]

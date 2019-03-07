@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Сведения о собраниях, лицензирование и доступность, Настройка параметров моста конференции, получить или перемещение телефонных номеров, выберите клиента абонентские группы.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba2faa36cbb1a745ada776d40113aab80790b728
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: d8b98aa7a601466826d95ddb2413e702f94f4877
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120718"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459150"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -74,10 +76,10 @@ ms.locfileid: "30120718"
 > 
 > |Office   |Расположение |Служба конференц-связи по ТСОП  |
 > |---------|---------|---------|
-> |One Epping Road|Австралия|Аудиоконференция|
+> |One Epping Road|Австралия|Аудиоконференции|
 > |100 Cyberport Road|Гонконг (специальный административный район)|Устаревшая служба конференц-связи по ТСОП|
-> |One Marina Boulevard|Сингапур|Аудиоконференция|
-> |32 London Bridge Street|Соединенное Королевство|Аудиоконференция|
+> |One Marina Boulevard|Сингапур|Аудиоконференции|
+> |32 London Bridge Street|Соединенное Королевство|Аудиоконференции|
 > |39 quai du Président Roosevelt|Франция|Аудиоконференции|
 
 <!--ENDOFSECTION-->

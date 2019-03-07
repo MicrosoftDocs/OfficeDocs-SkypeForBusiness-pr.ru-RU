@@ -13,15 +13,17 @@ search.appverid: MET150
 description: Microsoft Teams устанавливает в Outlook надстройку, которая позволяет пользователям планировать собрания Microsoft Teams из Outlook.
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a522a8c4eb3d37159a5b377db5d6e19442a202a
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 1c0252d3bf8420711d67aec33aab1041cfe7eb1b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210587"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463134"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================

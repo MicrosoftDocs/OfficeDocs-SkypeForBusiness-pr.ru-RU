@@ -1,5 +1,5 @@
 ---
-title: Ограничения бесплатных набора номера в Уругвай
+title: Ограничения набора бесплатных номеров в Уругвае
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 73d55cdb-7826-4275-8985-1cfb5ea09cf3
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: a1980961136ff23d9c0236bcb2f5b09a0eeaa749
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: b0756dc643ab006da8df2741953074676ffd8f0c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046832"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460782"
 ---
-# <a name="toll-free-dialing-restrictions-in-uruguay"></a>Ограничения бесплатных набора номера в Уругвай
+# <a name="toll-free-dialing-restrictions-in-uruguay"></a>Ограничения набора бесплатных номеров в Уругвае
 
 [Найдите другой страны или региона](../toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.
 
@@ -49,7 +48,7 @@ ms.locfileid: "30046832"
    
 ## <a name="related-topics"></a>Связанные разделы
 
-[Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)
+[Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

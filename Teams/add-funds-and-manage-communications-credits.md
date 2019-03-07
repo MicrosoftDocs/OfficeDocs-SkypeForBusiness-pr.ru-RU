@@ -1,5 +1,5 @@
 ---
-title: Добавление средств и управление кредитами на связь
+title: Пополнение средств и управление кредитами на связь
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,8 +13,7 @@ ms.service:
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -32,14 +31,14 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Узнайте, как оплачиваться для обмена данными кредитов (потребление PSTN) Скайп для бизнес-служб и посмотрите, планы для хранения пользователей с доступом к непрерывной телефонной системы. '
-ms.openlocfilehash: 1ae700c315188fe68d856a0a39b5dd35a4997a0c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 1c4fc9b9834b11c641961651843073a2392bc95b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047226"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459350"
 ---
-# <a name="add-funds-and-manage-communications-credits"></a>Добавление средств и управление кредитами на связь
+# <a name="add-funds-and-manage-communications-credits"></a>Пополнение средств и управление кредитами на связь
 
 Кредитов коммуникации — это удобный способ оплаты для телефонной системой и вызов планов в Office 365. Приводятся рекомендации по убедитесь, что вам и вашим пользователям никогда не обнаружены не может:
   
@@ -81,7 +80,7 @@ ms.locfileid: "30047226"
     
 Чтобы просмотреть дополнительную информацию, [войдите в центр администрирования Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и выберите **Выставление счетов** > **Подписки** > **Добавить подписки**.
   
-Таблицу с описанием лицензий, необходимых для использования различных компонентов, см. в разделе [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Таблица с лицензии или лицензий, необходимых для каждого компонента, см [teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Связанные разделы
 
@@ -91,7 +90,5 @@ ms.locfileid: "30047226"
     
 - [Настройка в Тарифных планов](set-up-calling-plans.md) и [Тарифные планы для Office 365](calling-plans-for-office-365.md)
         
-- [Настройка соединителя облако](https://technet.microsoft.com/library/mt605228.aspx) и [Загрузите соединитель облако](https://aka.ms/CloudConnectorInstaller)
-
-  
+ 
  

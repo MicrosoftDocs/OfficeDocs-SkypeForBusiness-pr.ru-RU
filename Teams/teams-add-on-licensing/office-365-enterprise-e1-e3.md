@@ -1,5 +1,5 @@
 ---
-title: Планы Office 365 корпоративный E1 и E3
+title: Office 365 корпоративный (планы E1 и E3)
 ms.date: 02/15/2019
 ms.author: tonysmit
 author: tonysmit
@@ -8,7 +8,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Сведения о лицензии дополнительный компонент, функции и как приобрести Office 365 корпоративный E1 и E3 планов. '
-ms.openlocfilehash: d31ceafd950f17b231b501f820951701b224757d
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 552aaf7f9cc7970c8baa97ce183ada6d5eab26ad
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127600"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460686"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 корпоративный E1 и E3
 
@@ -30,7 +32,7 @@ ms.locfileid: "30127600"
 
 |Добавляемая функция|Вот что необходимо выполнить|
 |:------------------|:--------------------------|
-|Аудиоконференция <br/> <br/> |Приобрести **дополнительный компонент звук конференц-связи**. <br/>Купите 1 аудиоконференции лицензии для каждого человека, который будет планировать или размещать конференц-связи. Attendees do not need licenses.<br/> После приобретения лицензии корпорация Майкрософт станет вашим поставщиком аудиоконференций. |
+|Аудиоконференции <br/> <br/> |Приобрести **дополнительный компонент звук конференц-связи**. <br/>Купите 1 аудиоконференции лицензии для каждого человека, который будет планировать или размещать конференц-связи. Attendees do not need licenses.<br/> После приобретения лицензии корпорация Майкрософт станет вашим поставщиком аудиоконференций. |
 |Обслуживание бесплатных номеров для удаленного доступа для собраний и возможность выполнять звонки из собрания для добавления другого пользователя, вызвав любого телефонный номер в мире<br/> | Купите [кредитов коммуникаций](../add-funds-and-manage-communications-credits.md).|
 |Телефонная система <br/> |<ol><li>Приобрести Office 365 телефонной системой надстройки. </li><li>Купите [вызов план](../calling-plans-for-office-365.md) для Office 365.</li></ul>Или используйте [телефонную службу вашего текущего поставщика](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |Голосовая почта для телефонной системы<br/> |Для планов E1 купите Exchange Online (план 2). <br/>Или перейдите на пакет Office, который входит в комплект поставки Exchange Online (план 2), например Office 365 E3. |

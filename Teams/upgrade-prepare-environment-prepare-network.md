@@ -10,15 +10,17 @@ description: Указания по подготовке сети к развер
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9cb83e60748cd36cc88256862a76131eb12d93ec
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 34070ae8ac21be278596960a5a15129906d867f0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743022"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463710"
 ---
 ![Стадии процедуры обновления с акцентированием внимания на стадии технической готовности](media/upgrade-banner-tech-readiness.png "Стадии процедуры обновления с акцентированием внимания на стадии технической готовности")
 
@@ -97,7 +99,7 @@ ms.locfileid: "29743022"
 > [!NOTE]
 > Это то же самое оценки готовности сети, рекомендуется выполнять теми клиентами, которым нужны для успешного развертывания Скайп для бизнеса.
 
-### <a name="vpn"></a>VPN
+### <a name="vpn"></a>VPN;
 
 VPN предоставляют полезную службу множеству организаций. К сожалению они в случае обычно не предназначена или настроить для поддержки мультимедиа в режиме реального времени. Некоторые VPN также могут не поддерживать UDP. Виртуальные частные сети также предоставляют дополнительный уровень шифрования на основе трафика мультимедиа, уже зашифрованы. Кроме того возможность подключения к службе групп может оказаться эффективным из-за фиксации Сверхтонкая трафика через устройство VPN. Кроме того они не обязательно предназначен с точки зрения емкости для учета предполагаемых нагрузок, которые требуют группами.
 

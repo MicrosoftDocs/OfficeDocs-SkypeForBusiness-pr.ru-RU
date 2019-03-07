@@ -1,5 +1,5 @@
 ---
-title: Подготовка среды для обновления из Скайп для бизнеса в группы
+title: Подготовка среды к переходу со Skype для бизнеса на Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
@@ -10,15 +10,17 @@ description: Проверка среды и сети проверки готов
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c59ce73f4cff16c042753a69b4d14aa79896ebe0
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 485bd42198e54c5ccacc6296c31a19298d66ccf7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349408"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464958"
 ---
 ![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")
 

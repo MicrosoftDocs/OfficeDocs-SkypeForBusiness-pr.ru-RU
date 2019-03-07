@@ -1,5 +1,5 @@
 ---
-title: Обновление для групп с Скайп Business гибридного развертывания для или локальной - группами Майкрософт
+title: Переход на Teams с гибридного или локального развертывания Skype для бизнеса — Microsoft Teams
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
@@ -11,15 +11,17 @@ description: Вопросы, касающиеся обновления груп�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 016165ea54b3a87d4a26f5670964794364e78985
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 38a9c3bd2e9649ea657a559f1c6d41aab86edd56
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791732"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464766"
 ---
 ![Этапы обновления пути с акцентом на развертывание и стадии реализации] (media/upgrade-banner-deployment.png "Этапы обновления пути с акцентом на развертывание и стадии реализации")
 

@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 01/31/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 ms.reviewer: sbhatta
 description: Вы можете узнать о доступных администратору средствах для добавления новых гостевых пользователей в организацию, включая классический и веб-клиент Microsoft Teams, а также портал для совместной работы Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9a4418600b3ce6d0da99b8b3f18fba186c8b49f
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: b68980a3c9019bbff422393e8a47f9d90bb3294a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706285"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461214"
 ---
 <a name="add-a-guest-to-a-team"></a>Добавление гостя в команду
 =====================
@@ -43,7 +45,7 @@ ms.locfileid: "29706285"
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 [Авторизация гостевого доступа в Microsoft Teams](teams-dependencies.md)</br>
 [Включение и отключение гостевой доступ в группах Майкрософт](set-up-guests.md)</br>

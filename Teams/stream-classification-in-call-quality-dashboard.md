@@ -11,7 +11,7 @@ ms.service:
 - msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Узнайте, как качество потока классифицируется в панели мониторинга качества звонка для команд Microsoft и Skype для бизнеса Online.
-ms.openlocfilehash: 43c3e876b041e8a586b43d21f049731e3450a1a4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9a25e44393cbe8660687451fea5163f064c16240
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374327"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460310"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Классификация потоков в Панели мониторинга качества звонка
 
@@ -105,9 +105,9 @@ If ICE connectivity succeeded for an unclassified stream, the stream is likely c
 > Измерение «Утилизация пакета» и измерение «Среднее использование пакета» могут использоваться для определения активности пакета в потоке.
 
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Включение и использование вызова панели мониторинга качества (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
 [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Устранение неполадок с качеством звонков с помощью средства аналитики звонков](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)

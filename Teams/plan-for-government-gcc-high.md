@@ -11,15 +11,17 @@ description: Руководство для ИТ-специалистов для 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5261e20f11cfb4234fb6d27abfa31b18370556
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: b4b1dc313fa1ea223e7c55f066b869b29c098fd2
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988266"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460830"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Планирование для государственных учреждений 365 Microsoft - высокая GCC развертываниях
 
@@ -128,7 +130,7 @@ Microsoft 365 государственных организаций - GCC выс
 | | Microsoft Teams | Доступно |
 | Хранилище | Хранилище приложений | Недоступно |
 | Поиск | Сообщения | Доступно |
-| | Пользователи | Доступно |
+| | Люди | Доступно |
 | | Файлы | Доступно |
 | | Команды косая черта | Доступно |
 | Соответствие требованиям | Поиск контента соответствия требованиям | Доступно |

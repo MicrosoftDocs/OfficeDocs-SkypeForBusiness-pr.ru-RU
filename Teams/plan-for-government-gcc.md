@@ -1,5 +1,5 @@
 ---
-title: Планирование развертываний Microsoft Office 365 для государственных организаций (GCC) — Microsoft Teams
+title: Планирование развертываний Microsoft 365 для государственных организаций (GCC) — Microsoft Teams
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
@@ -11,15 +11,17 @@ description: Руководство для ИТ-специалистов для 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcdad8bfbcb873a84d03ec6c0048e4fe49cd5467
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: 537f951b9db2098cd1753e21e1c5c806e9d7f5d2
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964420"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462774"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Планирование для государственных учреждений 365 Microsoft - GCC развертываниях
 
@@ -127,7 +129,7 @@ ms.locfileid: "29964420"
 | | Microsoft Teams | Доступно |
 | Хранилище | Хранилище приложений | На невыполненной работы государственных организаций |
 | Поиск | Сообщения | Доступно |
-| | Пользователи | Доступно |
+| | Люди | Доступно |
 | | Файлы | Доступно |
 | | Команды косая черта | Доступно |
 | Соответствие требованиям | Поиск контента соответствия требованиям | Доступно |

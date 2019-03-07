@@ -9,7 +9,7 @@ ms.assetid: 464dcca9-e2a8-410d-9de6-317d192fe5b2
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: c3830a2ba8dede782a3516e110cd8fc630d5b8b0
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: c172e2409b9416ce2d6579dec703b23402d03f70
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352396"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459782"
 ---
 # <a name="toll-free-dialing-restrictions-in-brunei"></a>Ограничения набора бесплатных номеров в Брунее
 
@@ -47,7 +47,7 @@ ms.locfileid: "30352396"
 |Примечания, ограничения и проблемы с доступом  <br/> |Нет  <br/> |
    
 ## <a name="related-topics"></a>Связанные разделы
-[Бесплатный номер набору номера, ограничения и ограничения](../toll-free-dialing-limitations-and-restrictions.md)
+[Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

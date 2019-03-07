@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Руководство по анализа производительности в режиме реального времени мультимедиа для групп Майкрософт с помощью вызова панели мониторинга качества (CQD).
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9162a10d55b224e14867866395b1e44d18e8e6e
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178742"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461942"
 ---
 # <a name="quality-of-experience-review-guide"></a>Качество взаимодействия руководство по решению
 

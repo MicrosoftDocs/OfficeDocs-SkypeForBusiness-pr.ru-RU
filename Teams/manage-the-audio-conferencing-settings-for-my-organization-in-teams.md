@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о шагах в Microsoft Teams для назначения лицензии конференц-связи с телефонным подключением и идентификатора конференции пользователю и многих других настройках такой конференц-связи. '
-ms.openlocfilehash: 731e552e457678ecf105129cdfe91f3438acdddd
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 201da13370852b6506fe7aa32f695d973bcc637a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351660"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463894"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Управление настройками аудиоконференций для организации в Microsoft Teams
 

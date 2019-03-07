@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 профессиональный плюс '
+title: 'Office 365 профессиональный плюс  '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,7 +7,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,14 +18,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Сведения о лицензии дополнительный компонент, функции и как приобрести Office 365 профессиональный плюс.
-ms.openlocfilehash: 4cf3fb68f2063b70c30efc05be4e98d4e4620e76
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 58f5259474a31bfd873dcfc336aee9b733662e0c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127584"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463182"
 ---
-# <a name="office-365-proplus"></a>Office 365 профессиональный плюс
+# <a name="office-365-proplus"></a>Office 365 профессиональный плюс 
 
 Если вы уже приобрели план [Office 365 профессиональный плюс](https://products.office.com/en/business/office-365-proplus-business-software) , вот дополнительный компонент лицензий, которые необходимо купить, чтобы получить дополнительные возможности групп.
 
@@ -33,7 +35,7 @@ ms.locfileid: "30127584"
 
 |Добавляемая функция |Вот что необходимо выполнить |
 |:---------------------------|:--------------------------------|
-|Аудиоконференция <br/> |Приобрести дополнительный компонент звук конференц-связи. <br/>Купите 1 аудиоконференции лицензии для каждого человека, который будет планировать или размещать конференц-связи. Attendees do not need licenses. <br/>После приобретения лицензии корпорация Майкрософт станет вашим поставщиком аудиоконференций. |
+|Аудиоконференции <br/> |Приобрести дополнительный компонент звук конференц-связи. <br/>Купите 1 аудиоконференции лицензии для каждого человека, который будет планировать или размещать конференц-связи. Attendees do not need licenses. <br/>После приобретения лицензии корпорация Майкрософт станет вашим поставщиком аудиоконференций. |
 |Обслуживание бесплатных номеров для доступа к конференции, а также возможность выполнять звонки из конференции для добавления другого пользователя, вызвав любого телефонный номер в мире <br/> |Купите [кредитов коммуникаций](../set-up-communications-credits-for-your-organization.md).|
 |Телефонная система <br/> |<ol><li>[Переход на другой план Office 365 для бизнеса](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Если у вас есть Office 365 профессиональный плюс, рекомендуется обновление плана план E5 предприятия для получения возможности голосовой связи в облаке. При обновлении до плана Корпоративный E1 или E3 вы увидите параметр приобретения надстройки телефонной системы . <br/></li><li>Приобретите надстройку телефонной системы. <br/></li><li>Купите [вызов план](../calling-plans-for-office-365.md) для Office 365. <br/>Или используйте [телефонную службу вашего текущего поставщика](microsoft-teams-add-on-licensing.md#bkmk_existing).</li></ol>  <br/> |
 |Приобрести план звонков <br/> |<ol><li>[Переход на другой план Office 365 для бизнеса](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). <br/></li><li>Приобретите надстройку телефонной системы.</li><li>Купите [вызов плана](../calling-plans-for-office-365.md).<br/> Это только можно купить после приобрести дополнительный компонент телефонной системой. <br/> |

@@ -6,19 +6,21 @@ manager: serdars
 ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: marcl
 localization_priority: Priority
 search.appverid: MET150
 description: Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53a6a258d96777e5dc335fcecb84e9f2b7962beb
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 64389cdf1455c23f2c234149630a9d6091ee7274
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342105"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462334"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
 
@@ -32,7 +34,7 @@ ms.locfileid: "30342105"
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
-|Политика EAF в EMET может некорректно идентифицировать оптимизацию песочницы Chromium как угрозу. <br/> |Существует проблема, связанная с песочницей Chromium, из-за которой политика фильтрации доступа к таблицам экспорта адресов (Export Address Table Access Filtering, EAF) из набора инструментов Enhanced Mitigation Experience Toolkit (EMET) и из Advanced Threat Protection (ATP) в Защитнике Windows может некорректно идентифицировать оптимизацию песочницы Chromium как угрозу. Это приводит к нарушению работы Teams.  <br/> | Чтобы обойти эту проблему, отключите политику EAF для Teams. Дополнительные сведения о проблеме см. в статье [Общие положения о снижении рисков с помощью набора средств EMET](https://support.microsoft.com/ru-RU/help/2909257/emet-mitigations-guidelines). Дополнительные сведения об ATP в Защитнике Windows и политике EAF см. в статье [Настройка защиты от эксплойтов](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection). <br/> |11.10.2018 <br/> |
+|Политика EAF в EMET может некорректно идентифицировать оптимизацию песочницы Chromium как угрозу. <br/> |Существует проблема, связанная с песочницей Chromium, из-за которой политика фильтрации доступа к таблицам экспорта адресов (Export Address Table Access Filtering, EAF) из набора инструментов Enhanced Mitigation Experience Toolkit (EMET) и из Advanced Threat Protection (ATP) в Защитнике Windows может некорректно идентифицировать оптимизацию песочницы Chromium как угрозу. Это приводит к нарушению работы Teams.  <br/> | Чтобы обойти эту проблему, отключите политику EAF для Teams. Дополнительные сведения о проблеме см. в статье [Общие положения о снижении рисков с помощью набора средств EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines). Дополнительные сведения об ATP в Защитнике Windows и политике EAF см. в статье [Настройка защиты от эксплойтов](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection). <br/> |11.10.2018 <br/> |
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
@@ -46,7 +48,7 @@ ms.locfileid: "30342105"
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
-|[Условный доступ](https://docs.microsoft.com/ru-RU/azure/active-directory/conditional-access/overview) может не поддерживаться при использовании вкладки "Веб-сайт" в классическом приложении<br/> |Если у веб-сайта, например портала интрасети, есть политики условного доступа (например, ограничения браузеров или IP-адресов), веб-сайт может не отображаться в виде вкладки в классическом приложении Teams <br/> |Вместо классического приложения используйте приложение Teams в браузере.  <br/> |01.07.18  <br/> |
+|[Условный доступ](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) может не поддерживаться при использовании вкладки "Веб-сайт" в классическом приложении<br/> |Если у веб-сайта, например портала интрасети, есть политики условного доступа (например, ограничения браузеров или IP-адресов), веб-сайт может не отображаться в виде вкладки в классическом приложении Teams <br/> |Вместо классического приложения используйте приложение Teams в браузере.  <br/> |01.07.18  <br/> |
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|

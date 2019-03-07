@@ -1,25 +1,27 @@
 ---
-title: Добавление Microsoft группами домена SMTP как домена разрешенных отправителей в Exchange Online
+title: Добавление SMTP-домена Microsoft Teams в качестве доверенного отправителя в Exchange Online
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: anprakas
 search.appverid: MET150
 description: Сведения для добавления домена SMTP группы Microsoft как домена разрешенных отправителей в Exchange Online для отправки уведомления участников группы.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f94b18994e277b90f96bc4fdbdefaa0b1f7a72e8
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: ce0448ccdd124cf21db417f496d562e6fa9b6b76
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789052"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464470"
 ---
-<a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Добавление Microsoft группами домена SMTP как домена разрешенных отправителей в Exchange Online 
+<a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Добавление SMTP-домена Microsoft Teams в качестве доверенного отправителя в Exchange Online 
 =============================================================================
 
 Создаете ли вы группу Office 365 с помощью консоли администратора или применяете Outlook для отправки уведомлений участнику команды, добавленному в эту группу, используется Exchange Online. Эти сообщения формируются в клиенте, так как представляют полное доменное имя SMTP вашего домена по умолчанию.

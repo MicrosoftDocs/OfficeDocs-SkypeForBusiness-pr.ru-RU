@@ -7,7 +7,9 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,14 +18,14 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Сведения о политиках системы обмена сообщениями и как они могут использоваться для управления чата системы обмена сообщениями в группах.
-ms.openlocfilehash: 6349bd8299883fe213797a51e7051411c74298ef
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: b30b14ef8db70a6d8d88d4413a82fd1d672da13b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302667"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465302"
 ---
-# <a name="what-are-messaging-policies-in-teams"></a>Что такое политики обмена сообщениями в Teams?
+# <a name="what-are-messaging-policies-in-teams"></a>Что такое политики обмена сообщениями в Teams?  
 
 ::: zone target="docs"
 Политик обмена сообщениями используются для управления чата и канала функции обмена сообщениями, которые доступны для пользователей, групп Майкрософт. Можно использовать политику по умолчанию, которая будет создана или создание одного или нескольких настраиваемых политик обмена сообщениями для пользователей в вашей организации. После создания политики, будут использоваться для назначения его пользователям или группам пользователей в вашей организации.
@@ -35,8 +37,7 @@ ms.locfileid: "30302667"
 Чтобы изменить существующую политику системы обмена сообщениями по умолчанию для вашей организации, щелкните строку **Global (по умолчанию в масштабах организации)** и внесите необходимые изменения. Для создания нового настраиваемого политики обмена сообщениями, щелкните **новую политику** и выберите параметры. Закончив, нажмите кнопку **Сохранить** .
 
 ![Параметры политики сообщений в группах](media/messaging-policies-image2.png)
-::: zone-end
-
+::: zone-end  
 ::: zone target="chromeless"
 Изменение глобальной политики системы обмена сообщениями или создать новую политику настраиваемых используйте следующие параметры:
 

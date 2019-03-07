@@ -1,5 +1,5 @@
 ---
-title: Корпоративный план тестирования Аудиоконференций в Microsoft Teams
+title: Корпоративный план тестирования аудиоконференций в Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Убедитесь, что вашей организации ожиданиям посредством тестирования аудио конференц-связи в группы функций, функциональные возможности и удобство использования.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16207273020dbe6e1ab4e2cd5ff958fcdbe614dc
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 484b9589f492298a70d67b3d5b2c79a89fe7d906
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120752"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464070"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Определите и задокументируйте аудиоконференции конференции в план тестирования группами для предприятий 
 ===============================================================================
@@ -232,7 +234,7 @@ ms.locfileid: "30120752"
 
 | Тип ресурса | Необходимые ресурсы                                           | Описание ресурса |
 |---------------|--------------------------------------------------------------|----------------------|
-| Пользователи        | Тестирование должно происходить инженеры-испытатели заинтересованных лиц                               | ПОДЛЕЖИТ ОПРЕДЕЛЕНИЮ                  |
+| Люди        | Тестирование должно происходить инженеры-испытатели заинтересованных лиц                               | ПОДЛЕЖИТ ОПРЕДЕЛЕНИЮ                  |
 | Технология    | Доступ к Office 365 с помощью включены следующие службы:<ul><li>Назначенный Лицензирование E5 в Office 365</li><li>Назначенный план внутренних и международных звонков</li></ul>    | ПОДЛЕЖИТ ОПРЕДЕЛЕНИЮ                  |
 | Поддержка       | Администратор тестирования поддержки руководитель тестирования специалисту службы поддержки тестирования | ПОДЛЕЖИТ ОПРЕДЕЛЕНИЮ                  |
 

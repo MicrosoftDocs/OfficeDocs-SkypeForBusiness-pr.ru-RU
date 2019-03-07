@@ -10,15 +10,17 @@ ms.reviewer: lolaj, rowille
 description: Средства планирования, семинары и стартовые комплекты, которые помогут организациям начать работу с Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5458596d1eba8d956d6a75e0d99c99982e6525b9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 04bee65e6d2c21b6e2857d44a50bae497b251d5b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012107"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463958"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Инструменты и семинары. Планирование, развертывание и внедрение Microsoft Teams
 
@@ -27,7 +29,7 @@ ms.locfileid: "25012107"
 
 - [Комплект для успешной работы клиентов Microsoft Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
 
-    Этот пакет содержит большое число презентации, шаблоны электронной почты, советы по & приемы и плакатов, которые можно использовать для развертывания и внедрения новых групп в организации. Оно включает в себя два руководства по быстрому запуску для администраторов и руководителям и примеры вариантов для каждого отдела. Используйте эти ресурсы, чтобы максимально эффективно использовать команды для различных функций в вашей организации, включая отдела маркетинга, продаж, Finance, отдела кадров, ИТ-отдел управления проектами и разработки.
+    Этот пакет содержит большое число презентации, шаблоны электронной почты, приемы & советы и плакатов, которые можно использовать для развертывания и внедрения новых групп в организации. Оно включает в себя два руководства по быстрому запуску для администраторов и руководителям и примеры вариантов для каждого отдела. Используйте эти ресурсы, чтобы максимально эффективно использовать команды для различных функций в вашей организации, включая отдела маркетинга, продаж, Finance, отдела кадров, ИТ-отдел управления проектами и разработки.
 
 
 - [Краткое руководство по началу работы для администраторов](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)

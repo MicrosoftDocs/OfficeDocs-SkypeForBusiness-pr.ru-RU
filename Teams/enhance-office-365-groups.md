@@ -9,15 +9,17 @@ ms.service: msteams
 description: Сведения об улучшении групп Office 365 с помощью Microsoft Teams за счет приглашения в команду с помощью списка рассылки, добавления групп безопасности с поддержкой почты и т. п.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5905ba16a6928b4347db9edb08e5db1c08f0cdb
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 95112a3a3e4aea4fee68507fea4c366dac1da2da
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699269"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463526"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Улучшение имеющихся групп Office 365 с помощью Microsoft Teams
 =======================================================
@@ -32,7 +34,7 @@ ms.locfileid: "25699269"
 >Параметр **создать группы из существующей группы Office 365** не будет доступен, пока не выполнены следующие условия.
 
 
-Пользователи также могут приглашать участников в команду с помощью списка рассылки. Это осуществляется с помощью однократной синхронизации, а репликация последующих изменений членства в группе, вносимых в этот список рассылки, в Teams не осуществляется. 
+Пользователи также могут приглашать участников в команду с помощью списка рассылки. Это осуществляется с помощью однократной синхронизации, а репликация последующих изменений членства в группе, вносимых в этот список рассылки, в Teams не осуществляется. 
 
 ![Последовательность снимков экрана, показывающая приглашение списка рассылки и его участников в команду.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 

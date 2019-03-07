@@ -12,7 +12,7 @@ ms.service:
 - msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Узнайте, как включить и использовать Скайп для панели мониторинга качества Online вызовов бизнес и получить сводные отчеты о качестве вызовов. '
-ms.openlocfilehash: 24721591a2018f77dc6ec9f292ad5b58683cda7f
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: ff6e878a08dacf0fe206d68759ca23345b57301d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178703"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461038"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для групп Майкрософт и Скайп для бизнеса в Интернет
 

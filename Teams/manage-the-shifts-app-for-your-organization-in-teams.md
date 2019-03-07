@@ -1,5 +1,5 @@
 ---
-title: Приложение "Смены" для вашей организации в Microsoft Teams
+title: Управление приложением "Смены" для вашей организации в Microsoft Teams
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -9,17 +9,19 @@ ms.service: msteams
 search.appverid: MET150
 description: Узнайте, как создавать и настраивать приложения смен в группах для firstline сотрудников в вашей организации.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 204dc5899a72b1bc1516441ca8654e7341f19942
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 5dd05bf1485460bfd94ca3b33c5134084176e1fe
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754529"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462884"
 ---
-# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Приложение "Смены" для вашей организации в Microsoft Teams
+# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
 > [!IMPORTANT]
 > Начиная с 1 октября 2019, Microsoft StaffHub будет из эксплуатации. Мы создаем StaffHub возможностями, включая расписание и задачи управления в группами Майкрософт. Дополнительные возможности для работников firstline будут развернуты в группы по времени. Для получения дополнительных сведений см [Microsoft StaffHub из эксплуатации](https://support.office.com/article/microsoft-staffhub-to-be-retired-30ca17f3-5502-4bc9-bb0a-bed04bb362f0).  

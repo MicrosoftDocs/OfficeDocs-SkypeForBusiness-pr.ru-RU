@@ -10,15 +10,17 @@ description: Используйте данное руководство для �
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b978bd5fb8c4f62899e9765efaec4ce74383e1d3
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: d8803c4f4135b620d0ab654415546a7419f9e4f1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349470"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461934"
 ---
 ![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")
 
@@ -191,7 +193,7 @@ ms.locfileid: "29349470"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Точка принятия решений</td><td><ul><li>Кто будет отвечать за выполнение оценки среды?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Дальнейшее действие</td><td><ul><li>Документирование результатов оценки производительности среды.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Следующий шаг</td><td><ul><li>Документирование результатов оценки производительности среды.</li></ul></td></tr>
 </table>
 
 После оценка среды, переходите к следующему шагу: [Подготовка к сети](upgrade-prepare-environment-prepare-network.md).

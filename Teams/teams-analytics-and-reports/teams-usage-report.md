@@ -10,16 +10,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Узнайте, как использовать отчет об использовании группы в центре администрирования группами Майкрософт для получения обзор действий по группам в организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f3b437beb56f7cc073c9ab32728e2bb16fbfd4d
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: d013073402de29fc586b14c9cc3bd5ab336d3086
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "29754521"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463110"
 ---
 # <a name="microsoft-teams-usage-report"></a>Отчет об использовании Microsoft Teams
 

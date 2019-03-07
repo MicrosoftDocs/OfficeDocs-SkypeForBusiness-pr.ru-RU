@@ -9,16 +9,18 @@ ms.service: msteams
 ms.reviewer: sonua
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Примеры того, как использовать PowerShell для определения политик в группах, чтобы контролировать, кто сохранения live события в вашей организации и функции, доступные в события, которые они создают
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c198711d918914bbd6a1929514d7c2e9aa7dfe00
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 23cf75c8e764920a2d77c3bbe6c0cb3711c22f04
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626225"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459630"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]

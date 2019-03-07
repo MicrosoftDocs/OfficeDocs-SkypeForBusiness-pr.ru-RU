@@ -6,25 +6,27 @@ manager: serdars
 ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Сведения об использовании встроенных и настраиваемых вкладок для таких компонентов, как беседы, файлы, карты и многое другое.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca1d1a49a749991c97e2e8807557c457f1b67f6
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: a1e93de09dc99832f942397a3af966334371a094
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788959"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458798"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Использование встроенных и настраиваемых вкладок в Microsoft Teams
 ==================================================
 
 Вкладки позволяют членам группы для доступа к службам на выделенном полотно в разговора или внутри канала. Это позволяет группы работают непосредственно с помощью средств и данных и обмена мнениями о них в контексте канала или чата. 
 
-Владельцы и участники групп можно добавить вкладки канала, частной беседы и групповые беседы для интеграции со службами облака. Вкладки могут быть добавлены, чтобы помочь пользователям легко получить доступ к и управления данными, они должны или взаимодействия с наиболее. Это может быть отчет Power BI, панель мониторинга и даже видеоканал [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785), где вы публикуете обучающие ролики.
+Владельцы и участники команды могут добавлять вкладки в канал, приватный чат или групповой чат для интеграции с соответствующими облачными службами. Вкладки могут быть добавлены, чтобы помочь пользователям легко получить доступ к и управления данными, они должны или взаимодействия с наиболее. Это может быть отчет Power BI, панель мониторинга и даже видеоканал [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785), где вы публикуете обучающие ролики.
 
 ![Три снимка экрана с различным содержимым на вкладках.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 

@@ -10,15 +10,17 @@ description: Прикрепление заинтересованных лиц д
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 072161fed4d28ec045156c34acbcc3cbc37d7635
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 2c456d60d8dc4f98e2fa75b90dfbb80c0fd90f13
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349329"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461294"
 ---
 ![Этапы обновления пути с акцентом на сбор ваша группа заинтересованных лиц проекта] (media/upgrade-banner-stakeholders.png "Этапы обновления пути с акцентом на сбор ваша группа заинтересованных лиц проекта")
 

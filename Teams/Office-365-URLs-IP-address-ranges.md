@@ -9,15 +9,17 @@ ms.service: msteams
 description: Сведения о правильной настройке URL-адресов и диапазонов IP-адресов для Office 365, возможностях обхода прокси-сервера переадресации для соединений со службой Microsoft Teams, а также требованиях к политикам сети и безопасности.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11b874b3c42fa62889eb8c2bf8c9633d612c875a
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: c6592e74e9cedd69ff1e770374c717acc2c0b4b4
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964344"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464654"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>URL-адреса и диапазоны IP-адресов для Office 365
 =====================================
