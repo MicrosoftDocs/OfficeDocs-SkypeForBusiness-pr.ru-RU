@@ -9,18 +9,20 @@ ms.service: msteams
 ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Узнайте, как отправить на сайт.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9f9c093e7a80a7f4f3165f58cd6dc34f532ab7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5267f419fd61bd492a904dd358b930e2d55d6b1b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017417"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462638"
 ---
 <a name="adding-and-updating-locations-data"></a>Добавление и обновление данных расположений
 ============================
@@ -45,10 +47,10 @@ ms.locfileid: "25017417"
 
 |Сеть|Сетевое имя|Диапазон сети|Имя построения|Тип владельца|Тип построения|Тип Office стандартный|City|Почтовый индекс|Страна|State|Region|Внутренний корпоративный|Express маршрут|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso аренду НЕДВИЖИМОСТИ и F|Office|ОБ & F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso аренду НЕДВИЖИМОСТИ и F|Office|ОБ & F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso аренду НЕДВИЖИМОСТИ и F|Office|ОБ & F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso аренду НЕДВИЖИМОСТИ и F|Office|ОБ & F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
 
 
 Дополнительные сведения о форматировании файла данных можно [данные клиента файла формат и структура файла данных построения](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure).
@@ -56,4 +58,4 @@ ms.locfileid: "25017417"
 
 ## <a name="related-topics"></a>Связанные разделы
 
-[Настройка вызова аналитики](set-up-call-analytics.md)
+[Настройка аналитики звонков](set-up-call-analytics.md)

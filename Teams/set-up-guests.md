@@ -3,10 +3,12 @@ title: Включение и отключение гостевого досту�
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 10/18/2018
+ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Включение и отключение гостевого доступа в Microsoft Teams
@@ -14,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fc37cbf4774f4d8f097f27d50cc3f7c8e4bf5bf
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: af8cb3f6c8ba764bfd813b9d65479404dfbf1983
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753494"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462446"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Включение и отключение гостевого доступа для Microsoft Teams
 ======================================
@@ -105,7 +107,7 @@ ms.locfileid: "29753494"
     ```
 Теперь можно создать гостевых пользователей в группах для вашей организации.
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 В следующем видео для получения дополнительных сведений о доступ в качестве гостя.
 

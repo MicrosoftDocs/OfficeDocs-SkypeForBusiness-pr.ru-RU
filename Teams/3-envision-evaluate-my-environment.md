@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Используйте пользователей и анализ сетевых Оцените готовность своей организации, откройте порты TCP и UDP-ПОРТ, выполните все исправления сети.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00bf784b283f1f2d948e82d90ce54b0a67a6439
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 29bfd87d860cc68b988e365a77f28eed8fa9e2f5
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373316"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459097"
 ---
 # <a name="evaluate-my-environment"></a>Оценка моей среды
 
@@ -115,7 +117,7 @@ ms.locfileid: "25373316"
 
 Оптимизация сетевого пути к глобальной сети Майкрософт повысит производительности и в конечном счете обеспечит наилучшее взаимодействие с пользователями. Дополнительные сведения см. в записи блога [Обеспечение наилучшей возможности подключения и производительности в Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
-### <a name="vpn"></a>VPN
+### <a name="vpn"></a>VPN;
 
 VPN предоставляют полезную службу множеству организаций. К сожалению они в случае обычно не предназначена или настроить для поддержки мультимедиа в режиме реального времени. Некоторые VPN также могут не поддерживать UDP. Виртуальные частные сети также предоставляют дополнительный уровень шифрования на основе трафика мультимедиа, уже зашифрованы. Кроме того возможность подключения к службе групп может оказаться эффективным из-за фиксации Сверхтонкая трафика через устройство VPN.
 Кроме того они не обязательно предназначен с точки зрения емкости для учета предполагаемых нагрузок, которые требуют группами.

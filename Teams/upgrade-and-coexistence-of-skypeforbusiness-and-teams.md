@@ -10,15 +10,17 @@ description: Подробные сведения о Скайп для бизне
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b625cbd633ad0d88c976356861b7c90e93c7a13
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 7bf81e18970366fee397504642b181f6e8c40add
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349087"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461614"
 ---
 ![Этапы обновления пути с акцентом на развертывание и стадии реализации] (media/upgrade-banner-deployment.png "Этапы обновления пути с акцентом на развертывание и стадии реализации")
 
@@ -91,7 +93,7 @@ ms.locfileid: "29349087"
 Со временем групп пользователей может быть обновлена до **Только группы** режиме, а затем остальной части организации. В конечном итоге во всей организации будет готов к удаление Скайп для бизнеса и использовать только группы коммуникаций и совместной работы, или, если бизнес-требований диктуют необходимость сохранения Скайп для бизнеса определенной группе — большинство пользователей в Организация может использовать только группы. <br><br>
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Точка принятия решений</td><td><ul> Какие пути обновления подходит для бизнес-требований вашей организации?<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Дальнейшее действие</td><td><ul> Идентификация текущей модели развертывания, использование сценариев и ключевые положения для вашей организации будет проинформировать пути к группам, который лучше всего подходит для вашей организации.<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Следующий шаг</td><td><ul> Идентификация текущей модели развертывания, использование сценариев и ключевые положения для вашей организации будет проинформировать пути к группам, который лучше всего подходит для вашей организации.<br><br></ul></td></tr>
 </table>
 
 <table>

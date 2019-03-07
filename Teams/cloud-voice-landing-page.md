@@ -1,5 +1,5 @@
 ---
-title: Облако голосовой связи в группах Майкрософт
+title: Облачная голосовая связь в Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,22 +8,21 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: Главная страница для развертывания облака голосовой связи в группах
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 969bab316a39ec873fea802a9c257cf062891bb9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351300"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465310"
 ---
-# <a name="cloud-voice-in-microsoft-teams"></a>Облако голосовой связи в группах Майкрософт
+# <a name="cloud-voice-in-microsoft-teams"></a>Облачная голосовая связь в Microsoft Teams
 
 Вы выполнили задачу [Начало работы](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Может быть развертывания [конференц-связи & собрания](deploy-meetings-microsoft-teams-landing-page.md). Теперь вы готовы к добавлять облачных возможности голосовой связи для пользователей. 
 
@@ -41,7 +40,7 @@ ms.locfileid: "30351300"
 
 - [Телефонная система в Office 365](what-is-phone-system-in-office-365.md)
 - [Телефонной системой с вызова плана](calling-plan-landing-page.md)
-- [Прямой маршрутизации телефонной системы](direct-routing-landing-page.md)
+- [Прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
 - [Развертывание облачной системы голосовой связи](cloud-voice-deployment.md)
 - [Решения Майкрософт телефонной связи](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Просмотрите следующие сеанса для получения дополнительных сведений о телефонной системой: [Знакомство с телефонной системой в группах Майкрософт](https://aka.ms/teams-phone-system)

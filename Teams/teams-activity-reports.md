@@ -1,5 +1,5 @@
 ---
-title: Использование отчетов о действиях для групп Майкрософт
+title: Использование отчетов об активности в Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
@@ -10,18 +10,20 @@ ms.service: msteams
 ms.reviewer: chenle
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Сведения об использовании отчетов об активности, чтобы увидеть, как пользователи в вашей организации используется группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2466995597757cd5c18758bc3d1842ea4a9fb4e1
-ms.sourcegitcommit: e7f035151ba7447ada326d439df59cbfc5a79a26
+ms.openlocfilehash: 34ae95d405e9ab1f35c81db0d61ee48ba18141cf
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "29995426"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463374"
 ---
-<a name="use-activity-reports-for-microsoft-teams"></a>Использование отчетов о действиях для групп Майкрософт 
+<a name="use-activity-reports-for-microsoft-teams"></a>Использование отчетов об активности в Microsoft Teams 
 ========================================
 
 Чтобы увидеть, как пользователи в вашей организации используется группами Майкрософт, можно использовать отчеты об активности в центре администрирования Microsoft 365. Например если некоторые еще не используется группами Майкрософт, они могут не знать как приступить к работе или понять, как можно использовать команды для повысить эффективность и совместной работы. Вы можете использовать отчеты об активности в вашей организации, чтобы определить, где существует приоритетная потребность в обучении и улучшении коммуникации.
