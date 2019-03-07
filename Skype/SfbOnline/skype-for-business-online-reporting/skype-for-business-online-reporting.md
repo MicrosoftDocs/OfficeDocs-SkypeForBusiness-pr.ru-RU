@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 9339efa3dfe9f7984b23dd46ce0fac47dbe4b9ee
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b6e7dd3d109dfd9fab169b1cb8ec37e28f35bbc0
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865218"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453989"
 ---
 # <a name="skype-for-business-online-reporting"></a>Отчетность Skype для бизнеса Online
 
@@ -57,8 +57,8 @@ ms.locfileid: "23865218"
 |[Скайп минутного Business PSTN пулы отчета](pstn-minute-pools-report.md) <br/> | Это план лицензии и служб, используемый для вызова. <br/> Тип лицензии <br/> Описание возможностей <br/> Страна Minute пула  <br/> Используемые минут <br/> Общее количество минут <br/> Процент минут, за месяц <br/> |
 |[Скайп для отчета о сеансе бизнеса](session-details-report.md) <br/> | Псевдоним пользователя <br/> Идентификатор диалогового окна  <br/> Типы мультимедиа  <br/> Время начала и окончания <br/> В и из URI <br/> URL-адрес конференции <br/> Номер телефона <br/> |
  
-## <a name="related-topics"></a>См. также:
-[Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+## <a name="related-topics"></a>Связанные разделы
+[Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

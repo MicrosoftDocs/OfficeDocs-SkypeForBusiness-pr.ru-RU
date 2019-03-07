@@ -1,5 +1,5 @@
 ---
-title: Лицензирование дополнительный компонент группами Майкрософт
+title: Лицензирование надстроек Microsoft Teams
 ms.date: 02/14/2019
 ms.author: tonysmit
 author: tonysmit
@@ -8,7 +8,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Сведения о лицензиях дополнительный компонент компонентов, которые вы получите с каждой лицензии, как приобрести их для операционной системы и порядок использования существующего поставщика с ними. Вы можете получать сведения на сведения о ценах и план для Office 365, кредитов обмена данными и планов вызова.
-ms.openlocfilehash: d776e6e3b54f8a847bd82ef8b1c373af2211dbae
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 6cf3b2a242a941c9a4352aa35afd1dcbe23c902c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127680"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460134"
 ---
-# <a name="microsoft-teams-add-on-licensing"></a>Лицензирование дополнительный компонент группами Майкрософт
+# <a name="microsoft-teams-add-on-licensing"></a>Лицензирование надстроек Microsoft Teams
 
 ## <a name="what-are-add-on-licenses"></a>Что представляют собой лицензии на надстройки?
 
@@ -61,11 +63,11 @@ ms.locfileid: "30127680"
 
 Дополнительный компонент лицензирования, доступные зависит от плана Office 365. Информацию о функциях и параметрах, которые характерны для вашего плана, ищите в соответствующих разделах.
 
-- [Office 365 бизнес премиум](office-365-business-premium.md)
+- [Office 365 бизнеса расширенный](office-365-business-premium.md)
 - [Office 365 профессиональный плюс](office-365-premium-pro-plus.md)
 - [Office 365 корпоративный E1 или E3](office-365-enterprise-e1-e3.md)
 - [Office 365 корпоративный E5](office-365-enterprise-e5-with-audio-conferencing.md)
-- [Office 365 корпоративный E5 (без аудиоконференций)](office-365-enterprise-e5-without-audio-conferencing.md)
+- [Office 365 корпоративный E5 (без аудиоконференции)](office-365-enterprise-e5-without-audio-conferencing.md)
 - [Системы комнат Skype версии 2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [GOV, EDU и некоммерческие организации](gov-edu-and-nonprofit-organizations.md)
 

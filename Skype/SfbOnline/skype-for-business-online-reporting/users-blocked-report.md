@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Этот отчет, а также другие Скайп для бизнес-отчеты подробные сведения по деятельности, включая использование ТСОП внутри организации. '
-ms.openlocfilehash: 789f881aff2f80603ac440250bc769d6c7b989c0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2cd12c19911df796ae33bd841e8fd15b987cf366
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532688"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453959"
 ---
 # <a name="users-blocked-report"></a>Отчет о заблокированных пользователях
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: Выбор поставщика услуг для развертывания E9-1-1 в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 0ec2da13cb7dfcd90bc2ffcd5baad962421aeb08
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8ad971039bd4be594e287adbc73ea8bdf431e4ac
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884601"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453940"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Выбор поставщика услуг E9-1-1 для Скайп для Business Server
  
@@ -27,5 +27,7 @@ ms.locfileid: "23884601"
 E9-1-1 службы поставщика маршрутов экстренные вызовы из Скайп для Business Server для правильный общей безопасности ответы на точку (ОПЭС) на основании сведения о местоположении, содержащихся в вызове. 
   
 Для поддержки E9-1-1, как часть Скайп для развертывания Business Server, необходимо получить E9-1-1 маршрутизации службы из программы открытого взаимодействия Lync рекомендованные поставщику услуг E9-1-1. Выберите поставщика услуг, который наилучшим образом соответствует требованиям вашей организации.
+
+Список служб маршрутизации E9-1-1 для Lync см [E-911 служб, рекомендованные для Lync](https://docs.microsoft.com/en-us/skypeforbusiness/lync-cert/e-911-service-providers).
   
 

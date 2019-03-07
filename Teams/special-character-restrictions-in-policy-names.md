@@ -1,5 +1,5 @@
 ---
-title: Какие существуют ограничения специального символа в политиках групп?
+title: Каковы ограничения для специальных знаков в политиках Teams?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.service:
 - msteams
 - skype-for-business-online
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
@@ -22,14 +22,14 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: В разделе проблемы в имена политик и что можно сделать для fix it для есть со специальными знаками.
-ms.openlocfilehash: ffb6082a613587b654f997bc2b2154bfeade15bf
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3d2bc6f253f048dc07ab99111df3bc1d47788795
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754738"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460158"
 ---
-# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Какие существуют ограничения специального символа в политиках групп?
+# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Каковы ограничения для специальных знаков в политиках Teams?
 
 **Не удается создать или изменить политики (для обмена мгновенными сообщениями, собраний, и т.д.), у которых есть специального символа в поле имя в группами Майкрософт администратора центра обработки**. 
 

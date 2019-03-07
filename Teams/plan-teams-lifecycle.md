@@ -9,15 +9,17 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Узнайте, как запланировать внедрение функций управления жизненным циклом в Teams.
 localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d4c8d99dcc3e1c96e5fbfce942b9def6d0db952
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: ccd8366b746fe21fcfbe81a3878997e4e1b383bc
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754778"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460390"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Планирование управления жизненным циклом в Teams
 

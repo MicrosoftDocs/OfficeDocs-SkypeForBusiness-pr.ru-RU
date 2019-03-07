@@ -10,15 +10,17 @@ description: Задачи и действия, необходимые для у�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b455d7599f5de8e2eb76f560e593eb5e409ecae
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 42df00ed52b62d70d8c9ea734291d77e0ba038ad
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562801"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460502"
 ---
 ![Этапы обновления пути с акцентом на стадии высокий уровень работоспособности] (media/upgrade-banner-op-excellence.png "Этапы обновления пути с акцентом на стадии высокий уровень работоспособности")
 
@@ -363,7 +365,7 @@ NET просто продавать счета (ТРУБЫ) — это пока�
 
 [Планировщик сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
-[URL-адреса и диапазоны IP-адресов для Office 365](https://aka.ms/o365ips)
+[URL-адреса и диапазоны IP-адресов Office 365](https://aka.ms/o365ips)
 
 [Схема данных построения](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -450,7 +452,7 @@ NET просто продавать счета (ТРУБЫ) — это пока�
 
 ### <a name="references"></a>Ссылки
 
-[URL-адреса и диапазоны IP-адресов для Office 365](https://aka.ms/o365ips)
+[URL-адреса и диапазоны IP-адресов Office 365](https://aka.ms/o365ips)
 
 [Работа с клиентами для Microsoft Teams](get-clients.md)
 
@@ -483,7 +485,7 @@ NET просто продавать счета (ТРУБЫ) — это пока�
 
 #### <a name="general-tasks"></a>Общие задачи
 
-[Управление доступом пользователей к Microsoft Teams](user-access.md)
+[Управление доступом пользователей к Microsoft Teams](user-access.md)
 
 ### <a name="team-creation-optional"></a>Создание группы (необязательно)
 
