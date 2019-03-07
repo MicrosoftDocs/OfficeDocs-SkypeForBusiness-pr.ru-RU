@@ -126,6 +126,7 @@
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Управление политиками собрания](meeting-policies-in-teams.md)
 ## [Управление параметрами собраний](meeting-settings-in-teams.md)
+## [Настройка приглашений на собрания](customize-meeting-invitations-in-teams.md)
 ## [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Включение и отключение объявлений о входе и выходе в собраниях](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -138,7 +139,7 @@
 ## [Аудиоконференции](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Аудиоконференции в Office 365](audio-conferencing-in-office-365.md)
-### [Общие вопросы по аудиоконференциям](audio-conferencing-common-questions.md)
+### [Общие вопросы об аудиоконференциях](audio-conferencing-common-questions.md)
 ### [Руководство по Аудиоконференций в группах](Tutorial-Audio-Conferencing.yml)
 ### [Пробная и платная аудиоконференции в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Бесплатный период исходящих звонков для аудиоконференций](complimentary-dial-out-period.md)
@@ -203,7 +204,7 @@
 <!-- ============================================================ -->
 
 ### Справочные материалы
-#### [Поддерживаемые языки для аудиоконференций](audio-conferencing-supported-languages.md)
+#### [Поддерживаемые языки аудиоконференций](audio-conferencing-supported-languages.md)
 
 #### [Номера телефонов для аудиоконференций](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -329,11 +330,11 @@
 ### [Настройка вызова планы для вашей организации](set-up-calling-plans.md)
 ### [Краткое руководство: Настройка вызов планы](configuring-teams-calling-quickstartguide.md)
 
-## [Прямой маршрутизации телефонной системы](direct-routing-landing-page.md)
+## [Прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
 ### [Планирование прямой маршрутизации](direct-routing-plan.md)
 ### [Настройка прямой маршрутизации](direct-routing-configure.md)
 ### [Перенос в прямой маршрутизации](direct-routing-migrating.md)
-### [Мониторинг и устранение неполадок прямой маршрутизации](direct-routing-monitor-and-troubleshoot.md)
+### [Отслеживание и устранение неполадок прямой маршрутизации](direct-routing-monitor-and-troubleshoot.md)
 ### [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Настройка множества клиентов в пограничном контроллере сеансов](direct-routing-sbc-multiple-tenants.md)
 ### [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
@@ -470,7 +471,7 @@
 #### [Управление номерами телефонов в США](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 
-### [Бесплатный номер набору номера, ограничения и ограничения](toll-free-dialing-limitations-and-restrictions.md)
+### [Ограничения и запреты для бесплатных номеров](toll-free-dialing-limitations-and-restrictions.md)
 #### [Аргентина](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Австралия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Беларусь](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
@@ -681,7 +682,7 @@
 ### [Управления Microsoft Education вопросы и ответы для администраторов](plan-teams-governance-edu.md)
 
 ## Группы конструкторов firstline сотрудников
-### [Microsoft StaffHub из эксплуатации](microsoft-staffhub-to-be-retired.md)
+### [Прекращение поддержки Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
 ### [Управление приложение смены для вашей организации в группах](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 
