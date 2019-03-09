@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Сводка: Подготовка к и реализовать отключение TLS 1.0 и 1.1 в вашей среде.'
-ms.openlocfilehash: 50d4da536bbfcd112057464b3d4142b3eeed2b44
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f99cf01ceb952298e90d296461e0d2b663f92c5d
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532515"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493935"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Отключить протокол TLS 1.0/1.1 в Скайп для Business Server 2015
 
@@ -44,7 +44,11 @@ ms.locfileid: "26532515"
 - Скайп обновления на месте для 2015 Business Server, с CU6 HF2 и более высоких прав для 
     - Windows Server 2008 R2, 2012 г. (с статья БАЗЫ знаний [3140245](https://support.microsoft.com/en-us/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) или заменяющее обновление) или 2012 R2
 - Подключение к Exchange и Outlook Web App с Exchange Server 2010 с пакетом обновления 3 RU19 или более поздней версии, руководство [здесь](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
- 
+- Устройство для обеспечения связи в филиалах (SBA) с Скайп для Business Server 2015 CU6 HF2 или более поздней версии (проверьте с поставщиком, что они упакованных обновлений appropiate и доступному для устройства)
+- Сервер для обеспечения связи в филиалах (SBS) с Скайп для Business Server 2015 CU6 HF2 или более поздней версии
+- Lync Server 2013 **Только роли пограничного сервера**, это, поскольку роль пограничного отсутствуют зависимости на Windows Fabric 1.0.
+
+
 ### <a name="fully-tested-and-supported-clients"></a>Полностью протестированы и поддерживаемые клиенты
 
 - Настольный клиент Lync 2013 (Скайп для бизнеса), MSI и C2R, включая Basic [15.0.5023.1000 и последующие версии](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
@@ -74,6 +78,7 @@ ms.locfileid: "26532515"
 Если не указано иное следующих продуктов не входящих в область для TLS 1.0/1.1 отключить поддержку и не будет работать в среде, где были отключены TLS 1.0 и 1.1.  Это означает: Если вы по-прежнему использовать вне области серверы или клиенты, необходимо обновить или удалить эти поля, если требуется отключить протокол TLS 1.0/1.1 в любом месте вашего Скайп for Business Server локальное развертывание.
 
 - Lync Server 2013
+- Lync Server 2010
 - Windows Server 2008 и нижний край
 - Lync для Mac 2011
 - Lync 2013 для мобильных устройств - операций ввода-вывода, iPad, Android или Windows Phone
@@ -81,6 +86,8 @@ ms.locfileid: "26532515"
 - Все клиенты Lync 2010
 - Lync Phone Edition - обновлено руководство [здесь](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035).
 - 2013 на основе устройство для обеспечения связи в филиалах (SBA) или сервера обеспечения связи в филиалах (SBS)
+- Облако соединителя Edition (системы CCE)
+- Skype для бизнеса для Windows Phone
 
 ### <a name="exceptions"></a>Исключения
 
@@ -443,7 +450,7 @@ Windows Registry Editor Version 5.00
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>Убедиться, что рабочие нагрузки работают должным образом
 
-Один раз TLS 1.0 и 1.1 были отключены в вашей среде, убедитесь, что все, что основной нагрузок работают надлежащим образом, такие как обмен мгновенными Сообщениями и присутствия, P2P вызывает, корпоративной голосовой связи, и т.д.
+После TLS 1.0 и 1.1 отключены в вашей среде, убедитесь, что все основные рабочие нагрузки работают должным образом, такие как обмен мгновенными Сообщениями & сведения о присутствии, P2P вызовов корпоративной голосовой связи и т.д.
 
 **Проверить, используется только протокол TLS 1.2 (en)**
 
@@ -472,8 +479,8 @@ Windows Registry Editor Version 5.00
 
 **Вариант 2:** Предварительная установка экземпляров SQL (RTCLOCAL и LYNCLOCAL)
 
-1. Загрузите и скопируйте SQL Express 2014 с пакетом обновления 2 (SQLEXPR_x64.exe) в локальной папке на FE. Предположим, путь к папке < SQL_FOLDER_PATH >.
-2. Запустите PowerShell или командной строки и перейдите к < SQL_FOLDER_PATH >.
+1. Загрузите и скопируйте SQL Express 2014 с пакетом обновления 2 (SQLEXPR_x64.exe) в локальной папке на FE. Предположим, <SQL_FOLDER_PATH> путь папки.
+2. Запустите PowerShell или командной строки и перейдите к <SQL_FOLDER_PATH>.
 3. Создайте экземпляр RTCLOCAL SQL с помощью следующей команды. Подождите, пока завершится SQLEXPR_x64.exe перед тем как:
 
     SQLEXPR_x64.exe /Q /IACCEPTSQLSERVERLICENSETERMS /UPDATEENABLED = 0 /HIDECONSOLE /ACTION = Установка/КОМПОНЕНТЫ = SQLEngine, средств режим = RTCLOCAL /TCPENABLED = 1 /SQLSVCACCOUNT = «NT AUTHORITY\NetworkService» /SQLSYSADMINACCOUNTS = «Builtin\ Администраторы» /BROWSERSVCSTARTUPTYPE = «Automatic» /AGTSVCACCOUNT = «NTAUTHORITY\NetworkService» /SQLSVCSTARTUPTYPE = автомати

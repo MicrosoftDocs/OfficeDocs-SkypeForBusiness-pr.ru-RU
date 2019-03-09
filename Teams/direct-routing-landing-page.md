@@ -1,5 +1,5 @@
 ---
-title: Прямой маршрутизации телефонной системы
+title: Прямая маршрутизация телефонной системы
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,16 +11,17 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
+F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Целевая страница для прямой маршрутизации
 appliesto: Microsoft Teams
-ms.openlocfilehash: 6aeff0f79dfbc6cd7b3ba3cddefee382673d24eb
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353268"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494063"
 ---
-# <a name="phone-system-direct-routing"></a>Прямой маршрутизации телефонной системы
+# <a name="phone-system-direct-routing"></a>Прямая маршрутизация телефонной системы
 
 Вы выполнили задачу [Начало работы](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Может быть развертывания [конференц-связи & собрания](deploy-meetings-microsoft-teams-landing-page.md). Теперь вы готовы для добавления рабочих нагрузок облачных голосовой связи, и вы решили использовать собственного поставщика телефонии для подключения к общедоступной переключения телефонной сети общего пользования (PSTN) с помощью прямой маршрутизации телефонной системы. При прямой маршрутизации можно использовать телефонной системой с любого поставщика телефонной связи.
 
@@ -34,7 +35,7 @@ ms.locfileid: "30353268"
 - [Планирование прямой маршрутизации](direct-routing-plan.md) 
 - [Настройка прямой маршрутизации](direct-routing-configure.md)
 - [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
-- [Мониторинг и устранение неполадок прямой маршрутизации](direct-routing-monitor-and-troubleshoot.md)
+- [Отслеживание и устранение неполадок прямой маршрутизации](direct-routing-monitor-and-troubleshoot.md)
 
 Кроме того необходимо ознакомиться со следующими статьями, в зависимости от требований:
 
@@ -43,7 +44,7 @@ ms.locfileid: "30353268"
 -  [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - Просмотрите следующие сеанса для получения дополнительных сведений о маршрутизации прямой: [Прямой маршрутизации в группах Майкрософт](https://aka.ms/teams-direct-routing)
 
-## <a name="core-deployment-decisions"></a>Основные решения по развертыванию
+## <a name="core-deployment-decisions"></a>Решения по развертыванию основных функций
 
 Далее представлены основные решения необходимо учесть для прямой маршрутизации. 
 

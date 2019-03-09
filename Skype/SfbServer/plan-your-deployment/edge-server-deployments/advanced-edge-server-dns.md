@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Сводка: Обзор сценариев для Скайп для параметров развертывания Business Server. Этот раздел будет полезен при использовании как одного сервера, так и пула серверов с DNS и средствами балансировки нагрузки (HLB).'
-ms.openlocfilehash: 524245db9415637f1f8b986648003b35ab653245
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2ea6c30b6a430b880b1b75b6f5e36cc6a8721f18
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882243"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493686"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Расширенные пограничного сервера DNS планирование для Скайп Business Server
  
@@ -88,7 +88,7 @@ ms.locfileid: "23882243"
   
 Когда использовать такую конфигурацию? В случаях, когда компания должна исполнять требование об использовании одного и того же пространства имен на внутреннем и на внешнем уровнях. Разумеется, это приводит к появлению большого количества DNS-записей SRV и A, которые будут уникальными только в одной из зон. Там, где записи будут повторятся, связанные с записями IP-адреса будут уникальными.
   
-Это представляет некоторые проблемы, связанные с. Наиболее важные является разделенной DNS **не поддерживается** для мобильных устройств. Это из-за LyncDiscover и LyncDiscoverInternal записями DNS (LyncDiscover должен быть определен на вы внешних DNS-сервера при LyncDiscoverInternal должен быть определен на внутренний DNS-сервера).
+This presents some challenges. Наиболее важные является разделенной DNS **не поддерживается** для мобильных устройств. This is because of the LyncDiscover and LyncDiscoverInternal DNS records (LyncDiscover has to be defined on you external DNS server, while LyncDiscoverInternal has to be defined on your internal DNS server).
   
 Мы будем список записей DNS для внутренних и внешних зон, здесь, но можно найти подробные примеры в разделе Требования к рабочей среде пограничного сервера.
   
@@ -129,7 +129,7 @@ ms.locfileid: "23882243"
 ## <a name="automatic-configuration-without-split-brain-dns"></a>Автоматическая настройка без разделенной DNS
 <a name="NoSplitBrainDNS"> </a>
 
-Если вы не используете разделенной DNS, внутренний автоматической настройки клиентов, использующих Скайп для бизнеса не будут работать, если вы используете один из методов обхода, у нас есть здесь. Однако среди суммарных значений нет общего числа уникальных организаторов. Так как Скайп для Business Server требуется URI SIP пользователя в соответствии с домена пула переднего плана, предназначенный для автоматической настройки. Это не изменилось из более ранних версий Lync Server.
+Если вы не используете разделенной DNS, внутренний автоматической настройки клиентов, использующих Скайп для бизнеса не будут работать, если вы используете один из методов обхода, у нас есть здесь. Why not? Так как Скайп для Business Server требуется URI SIP пользователя в соответствии с домена пула переднего плана, предназначенный для автоматической настройки. Это не изменилось из более ранних версий Lync Server.
   
 Например, при использовании двух доменов SIP потребуются следующие записи службы DNS SRV:
   
@@ -207,14 +207,14 @@ ms.locfileid: "23882243"
   
 |**Запись GeoDNS**|**Записи пула**|**Записи CNAME**|**Параметры DNS (выберите один вариант)**|
 |:-----|:-----|:-----|:-----|
-|Удовлетворение int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Псевдоним Meet.contoso.com для Pool1InternalWebFQDN.contoso.com  <br/> Псевдоним Meet.contoso.com для Pool2InternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Удовлетворение ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Псевдоним Meet.contoso.com для Pool1ExternalWebFQDN.contoso.com  <br/> Псевдоним Meet.contoso.com для Pool2ExternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Dialin int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Псевдоним Dialin.contoso.com для Pool1InternalWebFQDN.contoso.com  <br/> Псевдоним Dialin.contoso.com для Pool2InternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Dialin ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Псевдоним Dialin.contoso.com для Pool1ExternalWebFQDN.contoso.com  <br/> Псевдоним Dialin.contoso.com для Pool2ExternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Lyncdiscoverint int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Псевдоним Lyncdiscoverinternal.contoso.com для Pool1InternalWebFQDN.contoso.com  <br/> Псевдоним Lyncdiscoverinternal.contoso.com для Pool2InternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Lyncdiscover ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Псевдоним Lyncdiscover.contoso.com для Pool1ExternalWebFQDN.contoso.com  <br/> Псевдоним Lyncdiscover.contoso.com для Pool2ExternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Планировщик int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Псевдоним Scheduler.contoso.com для Pool1InternalWebFQDN.contoso.com  <br/> Псевдоним Scheduler.contoso.com для Pool2InternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Планировщик ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Псевдоним Scheduler.contoso.com для Pool1ExternalWebFQDN.contoso.com  <br/> Псевдоним Scheduler.contoso.com для Pool2ExternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com для удовлетворения int.geolb.contoso.com  <br/>   <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com для удовлетворения ext.geolb.contoso.com  <br/>   <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Псевдоним Dialin.contoso.com для Pool1InternalWebFQDN.contoso.com  <br/> Псевдоним Dialin.contoso.com для Pool2InternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Псевдоним Dialin.contoso.com для Pool1ExternalWebFQDN.contoso.com  <br/> Псевдоним Dialin.contoso.com для Pool2ExternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Псевдоним Lyncdiscoverinternal.contoso.com для Pool1InternalWebFQDN.contoso.com  <br/> Псевдоним Lyncdiscoverinternal.contoso.com для Pool2InternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Псевдоним Lyncdiscover.contoso.com для Pool1ExternalWebFQDN.contoso.com  <br/> Псевдоним Lyncdiscover.contoso.com для Pool2ExternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Псевдоним Scheduler.contoso.com для Pool1InternalWebFQDN.contoso.com  <br/> Псевдоним Scheduler.contoso.com для Pool2InternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Псевдоним Scheduler.contoso.com для Pool1ExternalWebFQDN.contoso.com  <br/> Псевдоним Scheduler.contoso.com для Pool2ExternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
    
 ## <a name="dns-load-balancing"></a>Балансировка нагрузки DNS
 <a name="DNSLB"> </a>
