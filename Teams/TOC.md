@@ -1,6 +1,6 @@
 <!-- ============================================================ -->
-# [Добро пожаловать в Microsoft Teams](teams-overview.md)
-# [Способы развертывания групп](How-to-roll-out-teams.md)
+# [Добро пожаловать в Teams](teams-overview.md)
+# [Способ развертывания Teams](How-to-roll-out-teams.md)
 
 #       
 #        
@@ -8,36 +8,36 @@
 <!-- ============================================================ -->
 
 # [Начало работы](get-started-with-teams-quick-start.md)
-## [Шаг 1: Создание первого групп и каналы](get-started-with-teams-create-your-first-teams-and-channels.md)
-## [Шаг 2: Встроенные первыми](get-started-with-teams-onboard-early-adopters.md)
-## [Шаг 3: Мониторинга использования и свои отзывы и предложения](get-started-with-teams-monitor-usage-and-feedback.md)
-## [Этап 4: Планирование процесса развертывания масштабе организации](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [Шаг 1: создание первых команд и каналов](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Шаг 2: набор первых пользователей](get-started-with-teams-onboard-early-adopters.md)
+## [Шаг 3: мониторинг использования и отзывы](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Шаг 4: планирование развертывания во всей организации](get-started-with-teams-resources-for-org-wide-rollout.md)
 
 <!-- ============================================================ -->
 
 
 # [Чат, команды, каналы и приложения](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-## [Общие сведения о рабочих групп и каналы](teams-channels-overview.md)
+## [Обзор команд и каналов](teams-channels-overview.md)
 ## [Назначение владельцев и участников команд в Microsoft Teams](assign-roles-permissions.md)
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
-## [Создание группы масштабе организации в группах](create-an-org-wide-team.md)
+## [Создание команды для всей организации в Teams](create-an-org-wide-team.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
-## [Шаблоны группы для здравоохранения](healthcare/healthcare-templates.md)
+## [Шаблоны Teams для здравоохранения](healthcare/healthcare-templates.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
-## [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
+## [Общение с пользователями Teams из других организаций](let-your-teams-users-communicate-with-other-people.md)
 
 
 
 
-## [Приложения, программы-роботы, & соединители](deploy-apps-microsoft-teams-landing-page.md)
-### [Разрешения приложений и рекомендации](app-permissions.md)
+## [Приложения, боты и соединители](deploy-apps-microsoft-teams-landing-page.md)
+### [Разрешения и рекомендации для приложений](app-permissions.md)
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
 ### [Добавление ботов для приватных чатов и каналов в Teams](add-bots.md)
-### [Используйте встроенные и пользовательские вкладки](built-in-custom-tabs.md)
-### [Использование Office 365 и настраиваемые соединители](Office-365-custom-connectors.md)
-### [Публикация приложений в каталог приложений группы клиента](tenant-apps-catalog-teams.md)
+### [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
+### [Использование Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
+### [Публикация в каталог приложений клиента Teams](tenant-apps-catalog-teams.md)
 ### [Настройка приложения собраний Skype для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -45,77 +45,77 @@
 ## [Гостевой доступ](guest-access.md)
 ### [Присоединение гостя к команде](guest-joins.md)
 ### [Взаимодействие с гостями](guest-experience.md)
-### [Авторизация гостевого доступа в Microsoft Teams](teams-dependencies.md)
-### [Включение и отключение гостевого доступа в Microsoft Teams](set-up-guests.md)
+### [Авторизация гостевого доступа в Teams](teams-dependencies.md)
+### [Включение и отключение гостевого доступа в Teams](set-up-guests.md)
 ### [Управление гостевым доступом в Teams](manage-guests.md)
 ### [Добавление гостя в команду](add-guests.md)
-### [Просмотр гостевых пользователей к команде](view-guests.md)
+### [Просмотр гостевых пользователей в команде](view-guests.md)
 ### [Изменение сведений о гостевых пользователях](edit-guests-information.md)
 ### [Использование PowerShell для управления гостевым доступом в команде](guest-access-PowerShell.md)
-### [Контрольный список доступа гостя](guest-access-checklist.md)
+### [Контрольный список гостевого доступа](guest-access-checklist.md)
 
-## [Внешний доступ (федерации)](manage-external-access.md)
+## [Внешний доступ (федерация)](manage-external-access.md)
 
-## [Управление группами](using-admin-roles.md)
-### [Управление функциями группами в организации](enable-features-office-365.md)
+## [Управление Teams](using-admin-roles.md)
+### [Управление функциями Teams в организации](enable-features-office-365.md)
 ### [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Управление Teams в Центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md).
-### [Назначение группы владельцев и членов в группы](assign-roles-permissions.md)
+### [Назначение владельцев и участников команд в Teams](assign-roles-permissions.md)
 ### [Настройка приложения собраний Skype для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
-### [Взаимодействие с объектом с группами пользователей из других организаций](let-your-teams-users-communicate-with-other-people.md)
-### [Использовать встроенный перевод сообщения](inline-message-translation-teams.md)
+### [Общение с пользователями Teams из других организаций](let-your-teams-users-communicate-with-other-people.md)
+### [Использование встроенного перевода сообщений](inline-message-translation-teams.md)
 ### [Область поиска в каталоге Microsoft Teams](teams-scoped-directory-search.md)
-### [Группы аналитики и отчетов в центре администрирования группами Майкрософт](teams-analytics-and-reports/teams-reporting-reference.md)
-#### [Отчет об использовании группы](teams-analytics-and-reports/teams-usage-report.md)
-#### [Отчет по действиям пользователей группам](teams-analytics-and-reports/user-activity-report.md) 
-#### [Отчет об использовании групп устройств](teams-analytics-and-reports/device-usage-report.md)
-### [Отчеты об активности групп в центре администрирования Microsoft 365](teams-activity-reports.md)
+### [Аналитика команд и отчеты в Центре администрирования Microsoft Teams](teams-analytics-and-reports/teams-reporting-reference.md)
+#### [Отчет об использовании Teams](teams-analytics-and-reports/teams-usage-report.md)
+#### [Отчет по активности пользователей Teams](teams-analytics-and-reports/user-activity-report.md) 
+#### [Отчет об использовании устройств в Teams](teams-analytics-and-reports/device-usage-report.md)
+### [Отчеты об активности Teams в Центре администрирования Microsoft 365](teams-activity-reports.md)
 
 
 ## Справочные материалы
-### Подготовка к развертыванию групп
+### Подготовка к развертыванию Teams
 #### [Проверка готовности среды для Teams](environment-readiness.md).
 #### [Подготовка сети организации к использованию Teams](prepare-network.md)
 #### [Прокси-серверы для Teams или Skype для бизнеса Online](proxy-servers-for-skype-for-business-online.md)
-#### [Ограничения и спецификации для групп](limits-specifications-teams.md)
+#### [Ограничения и спецификации для Teams](limits-specifications-teams.md)
 #### [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
-#### [Получение средств для развертывания Teams](rollout-tools.md)
+#### [Получение средств для развертывания Teams](rollout-tools.md)
 #### [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
-#### [Планирование управления в группах](plan-teams-governance.md)
+#### [Планирование управления в Teams](plan-teams-governance.md)
 
 
-### Взаимодействие с Office 365
-#### [Задайте вашей сосуществования и параметры обновления](setting-your-coexistence-and-upgrade-settings.md)
-#### [Группы Office 365 и Teams](office-365-groups.md)
+### Взаимодействие с Office 365
+#### [Настройка сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md)
+#### [Группы Office 365 и Microsoft Teams](office-365-groups.md)
 #### [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
 #### [Взаимодействие Exchange и Teams](exchange-teams-interact.md)
-##### [Настройка гибридной организации для работы с Teams](exchange-hybrid-organization.md)
+##### [Настройка гибридной организации Exchange для работы с Teams](exchange-hybrid-organization.md)
 ##### [Добавление домена SMTP Teams в качестве обслуживаемого в Exchange Online](smtp-accepted-domain.md)
 #### [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](sharepoint-onedrive-interact.md)
-#### [Группы взаимодействия в Office 365 включена несколькими географически аренде](teams-experience-o365odb-spo-multi-geo.md)
+#### [Взаимодействие с Teams в клиенте Office 365 с поддержкой нескольких регионов](teams-experience-o365odb-spo-multi-geo.md)
 
-### Установка группы
+### Установка Teams
 #### [Работа с клиентами для Teams](get-clients.md)
-#### [Требования к оборудованию для приложения группы](hardware-requirements-for-the-teams-app.md)
-#### [Установка группы с помощью MSI](msi-deployment.md)
-#### [Включение группами в организации](Office-365-set-up.md)
+#### [Аппаратные требования для приложения Teams](hardware-requirements-for-the-teams-app.md)
+#### [Установка Teams с помощью MSI](msi-deployment.md)
+#### [Включение Teams в организации](Office-365-set-up.md)
 #### [URL-адреса и диапазоны IP-адресов Office 365](office-365-urls-ip-address-ranges.md)
-#### [Развертывание групп для предоставления сервера-концентратора](teams-surface-hub.md)
+#### [Развертывание Teams для Surface Hub](teams-surface-hub.md)
 
 ### Лицензирование
 #### [Управление доступом пользователей к Teams](user-access.md)
-#### [Лицензирование Office 365 для Teams](office-365-licensing.md)
+#### [Лицензирование Office 365 для Microsoft Teams](office-365-licensing.md)
 #### [Назначение лицензий Teams](assign-teams-licenses.md)
-#### [Лицензирование дополнительный компонент групп](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-##### Параметры лицензии вашего Тарифного плана
-###### [Office 365 бизнеса расширенный](teams-add-on-licensing/office-365-business-premium.md)
+#### [Лицензирование надстроек Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+##### Параметры лицензии с учетом плана
+###### [Office 365 бизнес премиум](teams-add-on-licensing/office-365-business-premium.md)
 ###### [Office 365 профессиональный плюс](teams-add-on-licensing/office-365-premium-pro-plus.md)
 ###### [Office 365 корпоративный E1 и E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
 ###### [Office 365 корпоративный E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-###### [Office 365 корпоративный E5 без аудиоконференций](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-###### [GOV, EDU и некоммерческие организации](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
-#### [Управление предложение коммерческие пробную версию команды](iw-trial-teams.md)
-#### [Обновление группы свободного до версии подписки Office 365](upgrade-freemium.md)
+###### [Office 365 корпоративный E5 без аудиоконференции](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+###### [Государственные, образовательные и некоммерческие организации](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+#### [Управление предложением пробной коммерческой версии Teams](iw-trial-teams.md)
+#### [Бесплатный перевод Teams на версию по подписке Office 365](upgrade-freemium.md)
 
 
 
@@ -130,7 +130,7 @@
 ## [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Включение и отключение объявлений о входе и выходе в собраниях](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-## [Настройка рабочему столу в группах](configure-desktop-sharing.md)
+## [Настройка совместного доступа к рабочему столу в Teams](configure-desktop-sharing.md)
 ## [Запись собрания Teams в облаке](cloud-recording.md)
 ## [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ## [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -140,45 +140,45 @@
 
 ### [Аудиоконференции в Office 365](audio-conferencing-in-office-365.md)
 ### [Общие вопросы об аудиоконференциях](audio-conferencing-common-questions.md)
-### [Руководство по Аудиоконференций в группах](Tutorial-Audio-Conferencing.yml)
-### [Пробная и платная аудиоконференции в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-### [Бесплатный период исходящих звонков для аудиоконференций](complimentary-dial-out-period.md)
+### [Руководство. Аудиоконференции в Teams](Tutorial-Audio-Conferencing.yml)
+### [Платная или пробная версия аудиоконференций в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+### [Льготный период обратных звонков для аудиоконференций](complimentary-dial-out-period.md)
 
 
-### [Настройка звука конференц-связи для Скайп для бизнеса и группами Майкрософт](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-### [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Назначение Майкрософт поставщиком услуг аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-### Управление звукового конференц-канала
+### Управление мостом аудиоконференций
 #### [Изменение номеров телефонов для моста аудиоконференций](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 #### [Изменение настроек для моста аудиоконференций](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [Просмотр списка номеров для аудиоконференций](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [Установка языков автосекретаря для аудиоконференций](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
 
-### [Управление параметрами звука конференц-связи для вашей организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+### [Управление настройками аудиоконференций для организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [Поминутная оплата аудиоконференций](audio-conferencing-pay-per-minute.md)
 
 
-### [Управление параметрами звука конференц-связи для пользователей](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+### [Управление настройками аудиоконференций для пользователей](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-#### [Просмотр списка пользователей, активированных для аудиоконференций](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
+#### [Список пользователей с включенными аудиоконференциями](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
 
 #### [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Сброс идентификатора конференции для пользователя](reset-a-conference-id-for-a-user-in-teams.md)
-#### [Сброс ПИН-кода аудиоконференции для пользователя](reset-the-audio-conferencing-pin-in-teams.md)
+#### [Сброс ПИН-кода для аудиоконференции для пользователя](reset-the-audio-conferencing-pin-in-teams.md)
 #### [Автоматическая отправка пользователям писем при смене настроек](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [Включение и отключение отправки писем при смене настроек аудиоконференций](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
-#### [Отключение бесплатных номеров для определенных пользователей](disabling-toll-free-numbers-for-specific-teams-users.md)
+#### [Отключение бесплатных номеров для отдельных пользователей](disabling-toll-free-numbers-for-specific-teams-users.md)
 #### [Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Просмотр и сброс идентификатор конференции, назначенных пользователю](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
-#### [Отправка пользователям электронных писем с информацией о конференции с телефонным подключением](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+#### [Просмотр и сброс идентификатора конференции, назначенного пользователю](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
+#### [Отправка пользователю сообщения электронной почты со сведениями об аудиоконференции](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
-### Управление параметрами собраний для аудиоконференций
+### Управление настройками собраний для аудиоконференций
 
 #### [Исходящие звонки, позволяющие другим людям присоединиться к собранию](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
-#### [Включение и отключение оповещений о подключении к собранию и выходе из него](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-#### [Установка длины ПИН-кода для аудиоконференций](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
-#### [Задание телефонных номеров, включаемых в приглашения](set-the-phone-numbers-included-on-invites-in-teams.md)
+#### [Включение и отключение объявлений о входе и выходе в собраниях](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+#### [Установка длины ПИН-кода для собраний аудиоконференций](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
+#### [Настройка телефонных номеров, включаемых в приглашения](set-the-phone-numbers-included-on-invites-in-teams.md)
 #### [Начало аудиоконференции по телефону без ПИН-кода](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
 
 
@@ -192,21 +192,21 @@
 
 
 
-## [Облако видео взаимодействия](cloud-video-interop.md)
+## [Облако видеовзаимодействия](cloud-video-interop.md)
 
-## Событий в реальном времени
-### [Что такое группы live событий?](teams-live-events/what-are-teams-live-events.md)
-### [Планирование групп событий в реальном времени](teams-live-events/plan-for-teams-live-events.md)
-### [Настройка для групп событий в реальном времени](teams-live-events/set-up-for-teams-live-events.md)
-### [Использование PowerShell для настройки политик групп событий в реальном времени](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-### [Настройка параметров групп событий в реальном времени](teams-live-events/configure-teams-live-events.md)
+## Прямые трансляции
+### [Что такое прямые трансляции Teams?](teams-live-events/what-are-teams-live-events.md)
+### [Планирование прямых трансляций Teams](teams-live-events/plan-for-teams-live-events.md)
+### [Настройка прямых трансляций Teams](teams-live-events/set-up-for-teams-live-events.md)
+### [Настройка политик трансляции Teams с помощью PowerShell](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Настройка параметров прямых трансляций Teams](teams-live-events/configure-teams-live-events.md)
 
 <!-- ============================================================ -->
 
 ### Справочные материалы
 #### [Поддерживаемые языки аудиоконференций](audio-conferencing-supported-languages.md)
 
-#### [Номера телефонов для аудиоконференций](phone-numbers-for-audio-conferencing-in-teams.md)
+#### [Телефонные номера для аудиоконференций](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 ##### [Аргентина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 ##### [Австралия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
@@ -215,7 +215,7 @@
 ##### [Беларусь](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
 ##### [Бельгия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
 ##### [Белиз](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md)
-##### [Босния & Герцеговина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
+##### [Босния и Герцеговина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
 ##### [Бразилия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md)
 ##### [Бруней](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
 ##### [Болгария](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
@@ -231,7 +231,7 @@
 ##### [Доминиканская Республика](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md)
 ##### [Эквадор](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md)
 ##### [Египет](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md)
-##### [Сальвадор](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md)
+##### [Эль-Сальвадор](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md)
 ##### [Эстония](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md)
 ##### [Финляндия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
 ##### [Франция](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
@@ -256,7 +256,7 @@
 ##### [Малайзия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md)
 ##### [Мальта](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
 ##### [Мексика](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
-##### [Молдавия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
+##### [Молдова](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
 ##### [Монако](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
 ##### [Нидерланды](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
 ##### [Новая Зеландия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
@@ -277,7 +277,7 @@
 ##### [Сингапур](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md)
 ##### [Словакия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md)
 ##### [Словения](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md)
-##### [Южная Африка](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md)
+##### [ЮАР](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md)
 ##### [Южная Корея](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md)
 ##### [Испания](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md)
 ##### [Шри-Ланка](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md)
@@ -285,7 +285,7 @@
 ##### [Швейцария](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md)
 ##### [Тайвань](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md)
 ##### [Таиланд](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md)
-##### [Тринидад & Тобаго](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
+##### [Тринидад и Тобаго](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
 ##### [Турция](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
 ##### [Украина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
 ##### [Объединенные Арабские Эмираты](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
@@ -294,7 +294,7 @@
 ##### [Уругвай](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
 ##### [Венесуэла](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 ##### [Вьетнам](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
-#### [Видеоролики: Аудиоконференции в Teams](audio-conferencing-videos.md)
+#### [Видео- и аудиоконференции в Teams](audio-conferencing-videos.md)
 
 
 
@@ -303,37 +303,37 @@
 
 # [Голосовая связь в облаке](cloud-voice-landing-page.md)
 ## Телефонная система
-### [Что такое телефонной системой](what-is-phone-system-in-office-365.md)
+### [Что такое телефонная система?](what-is-phone-system-in-office-365.md)
 ### [Возможности телефонной системы](here-s-what-you-get-with-phone-system.md)
-### [Настройка телефонной системой](setting-up-your-phone-system.md)
+### [Настройка телефонной системы](setting-up-your-phone-system.md)
 ### [Настройка телефонов общего пользования](set-up-common-area-phones.md)
 ### Голосовая почта
 #### [Настройка голосовой почты телефонной системы](set-up-phone-system-voicemail.md)
-#### [Изменить язык по умолчанию для голосовой почты](change-the-default-language-for-greetings-and-emails.md)
+#### [Изменение языка по умолчанию для голосовой почты](change-the-default-language-for-greetings-and-emails.md)
 #### [Языки для приветствий и сообщений голосовой почты](languages-for-voicemail-greetings-and-messages.md)
 ### Идентификатор звонящего
-#### [Использование идентификатора абонента в организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Как можно использовать идентификатор звонящего в организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Настройка идентификатора звонящего для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### Автосекретари и очереди звонка 
-#### [Что такое автосекретари телефонной системой](what-are-phone-system-auto-attendants.md)
+### Автосекретари и очереди звонков 
+#### [Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
 #### [Настройка автосекретаря телефонной системы](create-a-phone-system-auto-attendant.md)
-#### [Пример для малого бизнеса — Настройка автосекретарю.](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Управление учетными записями ресурсов в группах Майкрософт](manage-resource-accounts.md)
+#### [Пример для малого бизнеса: настройка автосекретаря](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Управление учетными записями ресурсов в Microsoft Teams](manage-resource-accounts.md)
 #### [Создание очереди звонков в телефонной системе](create-a-phone-system-call-queue.md)
-#### [Ответ автосекретаря и вызвать очереди звонки непосредственно из рабочих групп](answer-auto-attendant-and-call-queue-calls.md)
-### [Парковка вызовов и получения](call-park-and-retrieve.md)
-### [Общий доступ к вызовов и группы вызова раскладки](call-sharing-and-group-call-pickup.md)
-### [Внешний вид общей строки](shared-line-appearance.md)
+#### [Ответ на звонки автосекретарей и очередей звонков непосредственно из Teams](answer-auto-attendant-and-call-queue-calls.md)
+### [Приостановка и восстановление звонка](call-park-and-retrieve.md)
+### [Общие звонки и ответ на групповые звонки](call-sharing-and-group-call-pickup.md)
+### [Распределенная линия](shared-line-appearance.md)
 
 ## [Планы звонков](calling-plan-landing-page.md)
 ### [Планы звонков для Office 365](calling-plans-for-office-365.md)
-### [Настройка вызова планы для вашей организации](set-up-calling-plans.md)
-### [Краткое руководство: Настройка вызов планы](configuring-teams-calling-quickstartguide.md)
+### [Настройка планов звонков для организации](set-up-calling-plans.md)
+### [Краткое руководство по началу работы. Настройка планов звонков](configuring-teams-calling-quickstartguide.md)
 
 ## [Прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
 ### [Планирование прямой маршрутизации](direct-routing-plan.md)
 ### [Настройка прямой маршрутизации](direct-routing-configure.md)
-### [Перенос в прямой маршрутизации](direct-routing-migrating.md)
+### [Переход на прямую маршрутизацию](direct-routing-migrating.md)
 ### [Отслеживание и устранение неполадок прямой маршрутизации](direct-routing-monitor-and-troubleshoot.md)
 ### [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Настройка множества клиентов в пограничном контроллере сеансов](direct-routing-sbc-multiple-tenants.md)
@@ -343,35 +343,35 @@
 #### [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)
 #### [Настройка параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
 #### [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)
-### Технический справочник по прямой маршрутизации
+### Техническая справка по прямой маршрутизации
 #### [Отработка отказа канала связи при исходящих звонках](direct-routing-trunk-failover-on-outbound-call.md)
 
 ## Номера телефонов
 ### [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-### [Типы телефонных номеров, используемый для вызова планирование](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-### [Получение телефонных номеров для пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Сколько номеров телефонов можно получить?](how-many-phone-numbers-can-you-get.md)
+### [Типы телефонных номеров, используемые для плана звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+### [Получение номеров телефонов для пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Предоставляемое количество номеров телефонов](how-many-phone-numbers-can-you-get.md)
 ### [Поиск номеров телефонов пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Просмотр списка телефонных номеров в организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Назначение, изменение или удаление номера телефона пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Получение служебных номеров телефонов](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Передача номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md)
+### [Назначение, изменение и удаление номера телефона пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Получение номеров телефонов служб](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Перенос телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md)
 ### [Общие вопросы по передаче номеров](transferring-phone-numbers-common-questions.md)
 
-## Маршрутизация звонков
+## Маршрутизация вызовов
 ### [Что такое абонентские группы?](what-are-dial-plans.md)
 ### [Создание и использование абонентских групп](create-and-manage-dial-plans.md)
 ## Экстренные вызовы
-### [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
-### [Добавление, изменение и удаление экстренных адрес для вашей организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Добавление, изменение и удаление местоположения организации для экстренного реагирования](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Назначение или изменение адреса экстренного реагирования для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Назначение или изменение экстренных расположения для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Метки экстренных вызовов](emergency-calling-labels.md)
+### [Что такое расположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
+### [Добавление, изменение и удаление адреса экстренного реагирования для организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Добавление, изменение и удаление расположения экстренного реагирования для организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Назначение и изменение адреса экстренного реагирования для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Назначение и изменение расположения экстренного реагирования для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Наклейки для экстренных вызовов](emergency-calling-labels.md)
 
 
 ## Справочные материалы
-### [Доступность страны и региона для вызова планирование](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### [Доступность планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Аргентина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [Австралия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 #### [Австрия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -379,7 +379,7 @@
 #### [Беларусь](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
 #### [Бельгия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
 #### [Белиз](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md)
-#### [Босния & Герцеговина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
+#### [Босния и Герцеговина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
 #### [Бразилия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md)
 #### [Бруней](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
 #### [Болгария](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
@@ -395,7 +395,7 @@
 #### [Доминиканская Республика](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md)
 #### [Эквадор](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md)
 #### [Египет](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md)
-#### [Сальвадор](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md)
+#### [Эль-Сальвадор](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md)
 #### [Эстония](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md)
 #### [Финляндия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
 #### [Франция](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
@@ -420,7 +420,7 @@
 #### [Малайзия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md)
 #### [Мальта](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
 #### [Мексика](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
-#### [Молдавия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
+#### [Молдова](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
 #### [Монако](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
 #### [Нидерланды](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
 #### [Новая Зеландия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
@@ -441,7 +441,7 @@
 #### [Сингапур](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md)
 #### [Словакия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md)
 #### [Словения](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md)
-#### [Южная Африка](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md)
+#### [ЮАР](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md)
 #### [Южная Корея](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md)
 #### [Испания](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md)
 #### [Шри-Ланка](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md)
@@ -449,7 +449,7 @@
 #### [Швейцария](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md)
 #### [Тайвань](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md)
 #### [Таиланд](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md)
-#### [Тринидад & Тобаго](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
+#### [Тринидад и Тобаго](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
 #### [Турция](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
 #### [Украина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
 #### [Объединенные Арабские Эмираты](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
@@ -458,7 +458,7 @@
 #### [Уругвай](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
 #### [Венесуэла](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 #### [Вьетнам](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
-### Управление номеров телефона страны 
+### Управление номерами телефонов в различных странах 
 #### [Управление номерами телефонов в Австралии](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [Управление номерами телефонов в Бельгии](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [Управление номерами телефонов в Канаде](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
@@ -476,13 +476,13 @@
 #### [Австралия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Беларусь](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 #### [Белиз](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
-#### [Босния & Герцеговина](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
+#### [Босния и Герцеговина](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 #### [Бразилия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
 #### [Бруней](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 #### [Болгария](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
 #### [Чили](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
-#### [Китай (вверх)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
-#### [Китай (вниз)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
+#### [Китай (север)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
+#### [Китай (юг)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
 #### [Колумбия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
 #### [Хорватия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
 #### [Кипр](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md)
@@ -505,7 +505,7 @@
 #### [Люксембург](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
 #### [Малайзия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md)
 #### [Мексика](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md)
-#### [Молдавия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
+#### [Молдова](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
 #### [Монако](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md)
 #### [Нидерланды](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md)
 #### [Панама](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md)
@@ -521,9 +521,9 @@
 #### [Сингапур](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md)
 #### [Словакия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md)
 #### [Словения](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
-#### [Южная Африка](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
+#### [ЮАР](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
 #### [Южная Корея](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
-#### [Испания]] (toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
+#### [Испания]](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 #### [Швеция](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
 #### [Тайвань](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 #### [Таиланд](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
@@ -534,94 +534,94 @@
 #### [Венесуэла](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 #### [Вьетнам](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
 
-### Управление коммуникаций кредитов
+### Управление кредитами на связь
 #### [Что такое кредиты на связь?](what-are-communications-credits.md)
 #### [Настройка кредитов на связь для организации](set-up-communications-credits-for-your-organization.md)
 #### [Пополнение средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
 
 ### [Потоки онлайн-вызовов в Microsoft Teams](microsoft-teams-online-call-flows.md)
 
-## Практические руководства для крупных организаций
-### [Руководство по Вызова в группах](Tutorial-calling-in-teams.yml)
-### [Руководство по голосовой связи облако](cloud-voice-landing-page.md)
-#### [Определение Мой success](1-envision-define-my-success-cloud-voice.md)
-#### [Принятия решений Мои службы - телефонной системы с помощью вызова планы](calling-plan-landing-page.md)
-#### [Принять Мои решения службы - прямой маршрутизации телефонной системы](direct-routing-landing-page.md)
-#### [Оценка моей среды](3-envision-evaluate-my-environment.md)
-#### [Планирование управления Мои службы](4-envision-plan-my-service-management.md)
-#### [Планирование взаимодействия пользователя Мои пользователи](5-envision-plan-my-users-experience.md)
-#### [Документ успешно план](6-envision-document-my-success-plan.md)
-#### [Подготовка Мои службы](1-onboard-prepare-my-service.md)
-#### [Подготовка Мои пользователи](2-onboard-prepare-my-users.md)
-#### [Развернуть службу](3-onboard-deploy-my-service.md)
-#### [Мои службы](1-drive-value-operate-my-service.md)
-#### [Улучшите Мои службы](2-drive-value-enhance-my-service.md)
+## Практические рекомендации для крупных организаций
+### [Руководство. Звонки в Teams](Tutorial-calling-in-teams.yml)
+### [Голосовые подсказки в облаке](cloud-voice-landing-page.md)
+#### [Определение показателей успеха](1-envision-define-my-success-cloud-voice.md)
+#### [Принятие решений по службе — телефонная система с планами звонков](calling-plan-landing-page.md)
+#### [Принятие решений по службе — прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
+#### [Оценка среды](3-envision-evaluate-my-environment.md)
+#### [Планирование управления службами](4-envision-plan-my-service-management.md)
+#### [Планирование взаимодействия с пользователями](5-envision-plan-my-users-experience.md)
+#### [Документирование плана по достижению успеха](6-envision-document-my-success-plan.md)
+#### [Подготовка службы](1-onboard-prepare-my-service.md)
+#### [Подготовка пользователей](2-onboard-prepare-my-users.md)
+#### [Развертывание службы](3-onboard-deploy-my-service.md)
+#### [Использование службы](1-drive-value-operate-my-service.md)
+#### [Улучшение службы](2-drive-value-enhance-my-service.md)
 <!-- ============================================================ -->
 
 
 
 <!-- ============================================================ -->
-# [Адаптация](adopt-microsoft-teams-landing-page.md) 
+# [Внедрение](adopt-microsoft-teams-landing-page.md) 
 
 ## [Начало работы](teams-adoption-get-started.md)
 ## [Этап 1 — начало](teams-adoption-phase1.md)
-### [Понять, групп и каналы](teams-adoption-understand-teams-and-channels.md)
-### [Создание первой группы](teams-adoption-your-first-teams.md)
-### [Как готовы группами в вашей организации?](teams-adoption-assess-readiness.md)
-## [Этап 2 - эксперимента](teams-adoption-phase2-experiment.md)
-### [Создание программы чемпионатов](teams-adoption-create-champions-program.md)
-### [Краткое руководство](teams-adoption-governance-quick-start.md)
+### [Общие сведения о командах и каналах](teams-adoption-understand-teams-and-channels.md)
+### [Создание первых команд](teams-adoption-your-first-teams.md)
+### [Насколько готова ваша организация к внедрению Teams?](teams-adoption-assess-readiness.md)
+## [Этап 2 — экспериментирование](teams-adoption-phase2-experiment.md)
+### [Создание программы лидеров](teams-adoption-create-champions-program.md)
+### [Управление быстрым началом работы](teams-adoption-governance-quick-start.md)
 ### [Определение сценариев использования](teams-adoption-define-usage-scenarios.md)
-### [Встроенный первыми и сбор отзывов](teams-adoption-onboard-early-adopters.md)
-### [Встроенная поддержка](teams-adoption-onboard-support.md)
-## [Этап 3 - масштаба](teams-adoption-phase3-enable.md)
-### [Определение результатов деятельности и успеха](teams-adoption-define-outcomes.md)
-### [Оптимизировать свои отзывы и предложения и отчетов](teams-adoption-optimize-feedback-and-reporting.md)
-### [Сведения о диска и реализовать и обучение](teams-adoption-drive-awareness.md)
-### [Планирование проверки работоспособности службы](teams-adoption-schedule-service-health-reviews.md)
+### [Подключение ранних последователей и сбор отзывов](teams-adoption-onboard-early-adopters.md)
+### [Поддержка адаптации](teams-adoption-onboard-support.md)
+## [Этап 3 — масштабирование](teams-adoption-phase3-enable.md)
+### [Определение результатов и критериев успеха](teams-adoption-define-outcomes.md)
+### [Оптимизация отзывов и отчетности](teams-adoption-optimize-feedback-and-reporting.md)
+### [Информированность и внедрение обучения](teams-adoption-drive-awareness.md)
+### [Планирование проверок работоспособности служб](teams-adoption-schedule-service-health-reviews.md)
 <!-- ============================================================ -->
 #       
 #        
 
 <!-- ============================================================ -->
-# [Обновление до группы](upgrade-introduction.md)
+# [Переход на Teams](upgrade-introduction.md)
 ## [Начало работы](upgrade-start-here.md)
 ## [Схема перехода](upgrade-framework.md)
-## [Планирование обновления пути](upgrade-plan-journey.md)
-### [Прикрепить другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
+## [Планирование процедуры обновления](upgrade-plan-journey.md)
+### [Составление списка заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
 ### [Определение области проекта](upgrade-define-project-scope.md)
-### [Понять взаимодействие и совместная работа](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [Выбор обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Общие сведения о сосуществовании и взаимодействии](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Выбор процедуры обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ### [Планирование качества](upgrade-plan-for-quality.md)
-## [Подготовка среды для групп](upgrade-prepare-environment.md)
-### [Подготовка ИТ-персонал для групп](upgrade-prepare-IT-pros.md)
+## [Подготовка среды для Teams](upgrade-prepare-environment.md)
+### [Подготовка ИТ-персонала к использованию Teams](upgrade-prepare-IT-pros.md)
 ### [Необходимые компоненты](upgrade-plan-journey-prerequisites.md)
 ### [Оценка среды](upgrade-plan-journey-evaluate-environment.md)
 ### [Подготовка сети](upgrade-prepare-environment-prepare-network.md)
 ### [Подготовка службы](upgrade-prepare-environment-prepare-service.md)
-## [Подготовка групп в вашей организации](upgrade-prepare-organization.md)
-### [Оцените готовность к организационных изменений](upgrade-org-change-readiness.md)
-### [Подготовка плана готовность пользователей](upgrade-user-readiness.md)
-## [Проведение пилотных пользователей](pilot-essentials.md)
-## [Обновление от Скайп для бизнеса в Интернете по группам](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-## [Обновление с Скайп для гибридных Business или локальных групп](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-## [Удостоверения, адаптацию и оптимизация](continue-journey.md)
+## [Подготовка организации к использованию Teams](upgrade-prepare-organization.md)
+### [Оценка готовности организации к изменению](upgrade-org-change-readiness.md)
+### [Подготовка плана готовности пользователей](upgrade-user-readiness.md)
+## [Проведение пилотного развертывания для пользователей](pilot-essentials.md)
+## [Переход со Skype для бизнеса Online на Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+## [Переход с гибридной или локальной среды Skype для бизнеса на Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+## [Использование, внедрение и оптимизация](continue-journey.md)
 ### [Использование службы](upgrade-operate-my-service.md)
-### [Отслеживание качества](upgrade-monitor-quality.md)
-### [Улучшения службы](upgrade-enhance-my-service.md)
+### [Мониторинг качества](upgrade-monitor-quality.md)
+### [Улучшение службы](upgrade-enhance-my-service.md)
 
-## [Руководство. Переход со Skype для бизнеса на Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Руководство. Переход со Skype для бизнеса на Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Вопросы и ответы](FAQ-journey.md)
 ## Дополнительная информация
-### [Миграция и взаимодействие с Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
+### [Миграция и взаимодействие со Skype для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
 ### [Сосуществование со Skype для бизнеса](coexistence-chat-calls-presence.md)
 ### [Взаимодействие с клиентом Teams и соответствие режимам сосуществования](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 #       
 #        
 
-# [Учебный курс по](training-microsoft-teams-landing-page.md)
-## [Обучение под руководством инструктора для групп](instructor-led-training-teams-landing-page.md)
+# [Обучение](training-microsoft-teams-landing-page.md)
+## [Учебные курсы с инструктором для Teams](instructor-led-training-teams-landing-page.md)
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
 ## [Обучение конечных пользователей для работы с Teams](enduser-training.md)
 <!-- ============================================================ -->
@@ -629,28 +629,28 @@
 # Справочные материалы
 
 ## Поддерживаемые устройства
-### [Управление устройствами в группах](device-management.md)
-### [Телефоны для групп](phones-for-teams.md)
-### [USB-устройства аудио- и видеоконференций](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Устройства место собрания и решения](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Телефоны Скайп для бизнеса Интернет-версия](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Управление устройствами в Teams](device-management.md)
+### [Телефоны для Teams](phones-for-teams.md)
+### [USB-устройства для аудио и видео](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Комнатные устройства и решения для проведения собраний](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Телефоны для приложения Skype для бизнеса Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
-## [Соответствие требованиям безопасности &](security-compliance-overview.md)
+## [Безопасность и соответствие требованиям](security-compliance-overview.md)
 ### [Обнаружение электронных данных в Teams](ediscovery-investigation.md)
 ### [Модели удостоверений и проверка подлинности в Microsoft Teams](identify-models-authentication.md)
-### [Войдите в современном проверки подлинности с помощью команды](sign-in-teams.md)
+### [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)
 ### [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
 ### [Поиск событий Teams в журнале аудита](audit-log-events.md)
 ### [Поиск контента в Teams](content-search.md)
-### [Политики хранения в группах](retention-policies.md)
-#### [Политики хранения вопросы и ответы](retention-policies-FAQ.md)
-#### [Политики хранения известные проблемы](retention-policies-known-issues.md)
+### [Политики хранения в Teams](retention-policies.md)
+#### [Вопросы и ответы по политикам хранения](retention-policies-FAQ.md)
+#### [Известные проблемы с политиками хранения](retention-policies-known-issues.md)
 ### [Расположение данных в Teams](location-of-data-in-teams.md)
-### [Объявление о соответствии во Франции для групп Майкрософт специальных возможностей](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Специальные возможности решения для Скайп для бизнеса в Интернет и рабочих групп Microsoft](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-###  [Тарифные планы в Office 365 — код упражнения в Великобритании](code-of-practice-for-the-united-kingdom-u-k.md)
-###  [Вызов планы в Office 365 — обработка жалоб кода для Великобритании](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
+### [Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+###  [Планы звонков в Office 365 — кодекс по использованию в Соединенном Королевстве](code-of-practice-for-the-united-kingdom-u-k.md)
+###  [Планы звонков в Office 365 — соответствие требованиям кодекса в Соединенном Королевстве](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Рекомендации по сбору данных](data-collection-practices.md)
 ### [Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)
 
@@ -661,39 +661,39 @@
 ### [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
 ### [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
 ### [Проверка работоспособности службы для Teams](service-health.md)
-### [Ограничение использования специальных символов в политиках групп](special-character-restrictions-in-policy-names.md)
+### [Ограничения для специальных знаков в политиках Teams](special-character-restrictions-in-policy-names.md)
 
 ### [Отслеживание качества звонка](monitor-call-quality-qos.md)
-#### [Качество взаимодействия руководство по решению](quality-of-experience-review-guide.md)
-#### [Настройка качества обслуживания в группах](QoS-in-Teams.md)
-##### [Набор QoS на клиентах Windows](QoS-in-Teams-clients.md)
+#### [Руководство по анализу качества взаимодействия](quality-of-experience-review-guide.md)
+#### [Настройка качества обслуживания в Teams](QoS-in-Teams.md)
+##### [Настройка качества обслуживания в клиентах Windows](QoS-in-Teams-clients.md)
 #### [Аналитика звонков и панель мониторинга качества звонков](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [Настройка аналитики звонков](set-up-call-analytics.md)
 #### [Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 #### [Включение и использование панели мониторинга качества звонков](turning-on-and-using-call-quality-dashboard.md)
 #### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
-#### [Классификация потоков в Панели мониторинга качества звонка](stream-classification-in-call-quality-dashboard.md)
+#### [Классификация потоков на панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)
 
 
 
 ## Teams для образовательных учреждений
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
 ### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
-### [Управления Microsoft Education вопросы и ответы для администраторов](plan-teams-governance-edu.md)
+### [Управление решениями Майкрософт для образования: вопросы и ответы для администраторов](plan-teams-governance-edu.md)
 
-## Группы конструкторов firstline сотрудников
+## Teams для сотрудников без компьютеров
 ### [Прекращение поддержки Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
-### [Управление приложение смены для вашей организации в группах](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Управление приложением "Смены" для организации в Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 
-## [Планирование для государственных учреждений Microsoft 365 - GCC](plan-for-government-gcc.md)
-### [Планирование для государственных учреждений Microsoft 365 - GCC высокой](plan-for-government-gcc-high.md)
-### [Планирование для государственных учреждений Microsoft 365 - министерства обороны США](plan-for-government-dod.md)
+## [Планирование развертываний Microsoft 365 для государственных организаций — GCC](plan-for-government-gcc.md)
+### [Планирование развертываний Microsoft 365 для государственных организаций — GCC High](plan-for-government-gcc-high.md)
+### [Планирование развертываний Microsoft 365 для государственных организаций — DoD](plan-for-government-dod.md)
 
-## [Обзор PowerShell групп](teams-powershell-overview.md)
-### [Справочник по командлетам PowerShell для Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
+## [Обзор PowerShell в Teams](teams-powershell-overview.md)
+### [Справочник по командлетам PowerShell для Teams](https://docs.microsoft.com/powershell/module/teams)
 
-## [Документация разработчика для Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
+## [Документация разработчиков для Teams](https://docs.microsoft.com/microsoftteams/platform)
 
 
 
