@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Число номеров телефонов, которые вы можете получить для организации, превышает назначенное число лицензий. Но это зависит от типов приобретенных и назначенных номеров и лицензий. Можно нажать кнопку различные виды телефонных номеров, используемый для вызова планы можно найти сведения о различных телефонных номеров, которые используются в Скайп для бизнеса в Интернет.
-ms.openlocfilehash: fa2a33086d832cc7d35afa6da59f431ebae47b19
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 9adedf15bbedda7aaf03645cf6eaa253e59eadc4
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352788"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542985"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Предоставляемое количество номеров телефонов
 

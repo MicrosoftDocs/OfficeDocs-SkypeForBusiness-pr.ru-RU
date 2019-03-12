@@ -5,7 +5,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Сведения о лицензиях дополнительный компонент компонентов, которые вы получите с каждой лицензии, как приобрести их для операционной системы и порядок использования существующего поставщика с ними. Вы можете получать сведения на сведения о ценах и план для Office 365, кредитов обмена данными и планов вызова.
-ms.openlocfilehash: 6cf3b2a242a941c9a4352aa35afd1dcbe23c902c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5912ac5cf79f0db7aaf02fa4d8425d3da80a99bb
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460134"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543081"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Лицензирование надстроек Microsoft Teams
 
@@ -63,13 +63,13 @@ ms.locfileid: "30460134"
 
 Дополнительный компонент лицензирования, доступные зависит от плана Office 365. Информацию о функциях и параметрах, которые характерны для вашего плана, ищите в соответствующих разделах.
 
-- [Office 365 бизнеса расширенный](office-365-business-premium.md)
+- [Office 365 бизнес премиум](office-365-business-premium.md)
 - [Office 365 профессиональный плюс](office-365-premium-pro-plus.md)
 - [Office 365 корпоративный E1 или E3](office-365-enterprise-e1-e3.md)
 - [Office 365 корпоративный E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 корпоративный E5 (без аудиоконференции)](office-365-enterprise-e5-without-audio-conferencing.md)
-- [Системы комнат Skype версии 2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
-- [GOV, EDU и некоммерческие организации](gov-edu-and-nonprofit-organizations.md)
+- [Системы комнат Skype версии 2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Государственные, образовательные и некоммерческие организации](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Просмотр цен и приобретение лицензий на надстройки
 <a name="bkmk_how"> </a>
@@ -95,7 +95,7 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
 
 - [Настройка групп](../microsoft-teams.md)
     
-- [Настройка голосовой почты телефонной системы  справка для администратора](../set-up-phone-system-voicemail.md)
+- [Настройка голосовой почты телефонной системы — справка для администраторов](../set-up-phone-system-voicemail.md)
     
 - [Вызов планы Office 365](../calling-plans-for-office-365.md) и [настроить вызов планы](../set-up-calling-plans.md)
     

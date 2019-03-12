@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Сводка: Обзор сценариев для Скайп для параметров развертывания Business Server. Этот раздел будет полезен при использовании как одного сервера, так и пула серверов с DNS и средствами балансировки нагрузки (HLB).'
-ms.openlocfilehash: 2ea6c30b6a430b880b1b75b6f5e36cc6a8721f18
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 4631f7120bb091f3a9666edd4ab2d92cfdf52a00
+ms.sourcegitcommit: ce3f40d2ffdf452111a317a019eeebf807b0c78a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493686"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30537567"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Расширенные пограничного сервера DNS планирование для Скайп Business Server
  
@@ -209,12 +209,12 @@ This presents some challenges. Наиболее важные является р
 |:-----|:-----|:-----|:-----|
 |Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com для удовлетворения int.geolb.contoso.com  <br/>   <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
 |Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com для удовлетворения ext.geolb.contoso.com  <br/>   <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Псевдоним Dialin.contoso.com для Pool1InternalWebFQDN.contoso.com  <br/> Псевдоним Dialin.contoso.com для Pool2InternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Псевдоним Dialin.contoso.com для Pool1ExternalWebFQDN.contoso.com  <br/> Псевдоним Dialin.contoso.com для Pool2ExternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Псевдоним Lyncdiscoverinternal.contoso.com для Pool1InternalWebFQDN.contoso.com  <br/> Псевдоним Lyncdiscoverinternal.contoso.com для Pool2InternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Псевдоним Lyncdiscover.contoso.com для Pool1ExternalWebFQDN.contoso.com  <br/> Псевдоним Lyncdiscover.contoso.com для Pool2ExternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Псевдоним Scheduler.contoso.com для Pool1InternalWebFQDN.contoso.com  <br/> Псевдоним Scheduler.contoso.com для Pool2InternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
-|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Псевдоним Scheduler.contoso.com для Pool1ExternalWebFQDN.contoso.com  <br/> Псевдоним Scheduler.contoso.com для Pool2ExternalWebFQDN.contoso.com  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com для удовлетворения int.geolb.contoso.com   <br/>  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com для удовлетворения ext.geolb.contoso.com  <br/>  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com для удовлетворения int.geolb.contoso.com   <br/>   <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com для удовлетворения ext.geolb.contoso.com  <br/>  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com для удовлетворения int.geolb.contoso.com   <br/>  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com для удовлетворения ext.geolb.contoso.com   <br/>  <br/> |Циклический перебор между пулами  <br/> **ИЛИ** <br/> Используйте основной, в случае сбоя подключитесь к дополнительному  <br/> |
    
 ## <a name="dns-load-balancing"></a>Балансировка нагрузки DNS
 <a name="DNSLB"> </a>

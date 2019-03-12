@@ -4,13 +4,11 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -22,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Используйте эту таблицу, чтобы найти сведения о получении и управлении телефонных номеров в Австралии для Скайп для бизнеса в Интернет и рабочих групп Microsoft.
-ms.openlocfilehash: ffdf8a828d64a288f0a309207fafd9cfb049b064
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ea2c095f811083b9a453e2d9ecf7ffdb0f737be2
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352916"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543089"
 ---
 # <a name="phone-number-management-for-australia"></a>Управление номерами телефонов в Австралии
 В Австралии мы имеем партнерские отношения с Telstra для покупки и подготовки тарифных планов. Telstra  будет продавать  тарифные планы и обеспечивать поддержку управления телефонных номеров как для пользователей, так и служебных номеров автосекретарей и очередей звонков. Тем не менее номера службы и лицензий для аудиоконференции будут по-прежнему продаваться и управляться Office 365.

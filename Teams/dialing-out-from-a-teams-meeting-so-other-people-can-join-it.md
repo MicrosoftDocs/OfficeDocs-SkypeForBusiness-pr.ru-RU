@@ -7,8 +7,7 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как организаторы собрания могут совершать обратные звонки другим людям через Teams и что для этого нужно.
-ms.openlocfilehash: 17b066aefdd6dc41a55a41e7db1265ba6eebeb6b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 37f44eb96a33307b12eef485e2fdabf985ab8562
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464734"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543274"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Обратные звонки из собрания Microsoft Teams, позволяющие другим людям присоединиться к нему
 
@@ -59,6 +58,6 @@ Dial-out is only available to some countries/regions. Полный список 
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше о аудиоконференций?
 
-[Пробная и платная аудиоконференции в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[Платная или пробная версия аудиоконференций в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
