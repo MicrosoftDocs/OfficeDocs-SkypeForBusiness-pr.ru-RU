@@ -674,16 +674,14 @@
 #### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Классификация потоков на панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)
 
-
-
 ## Teams для образовательных учреждений
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
 ### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
 ### [Управление решениями Майкрософт для образования: вопросы и ответы для администраторов](plan-teams-governance-edu.md)
 
 ## Teams для сотрудников без компьютеров
-### [Прекращение поддержки Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
-### [Управление приложением "Смены" для организации в Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Прекращение поддержки Microsoft StaffHub](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
+### [Управление приложением "Смены" для организации в Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 
 ## [Планирование развертываний Microsoft 365 для государственных организаций — GCC](plan-for-government-gcc.md)
@@ -694,7 +692,4 @@
 ### [Справочник по командлетам PowerShell для Teams](https://docs.microsoft.com/powershell/module/teams)
 
 ## [Документация разработчиков для Teams](https://docs.microsoft.com/microsoftteams/platform)
-
-
-
 ## [Справка в Microsoft Teams](get-help-in-microsoft-teams.md)
