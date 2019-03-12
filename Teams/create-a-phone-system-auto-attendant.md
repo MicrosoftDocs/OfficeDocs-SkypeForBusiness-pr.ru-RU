@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Узнайте, как настроить и тестирование автосекретари телефонной системой (облако УАТС) для обработки для вашей организации эффективным звонков.
-ms.openlocfilehash: f055a6851610bc2071e1705a4b5739544c5d72bd
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 83a59090e447a5bfbda4cf72481b9d6b1ce21a0e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353300"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542321"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Настройка автосекретаря телефонной системы
 
@@ -365,7 +363,7 @@ ms.locfileid: "30353300"
 
 [Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Получение служебных номеров телефонов](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Получение номеров телефонов служб](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [Доступность аудиоконференций и планов звонков в различных странах и регионах](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
@@ -373,4 +371,4 @@ ms.locfileid: "30353300"
 
 [Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
 
-[Пример для малого бизнеса — Настройка автосекретарю.](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+[Пример для малого бизнеса: настройка автосекретаря](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  

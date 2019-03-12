@@ -5,14 +5,12 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
-ms.topic: article
+ms.topic: reference
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -27,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: a84ade55bc05f5fa1ac97cb291a9c43ef64552c3
-ms.sourcegitcommit: 310354297b8e8fb4e7426fd91f179253eaf4af7e
+ms.openlocfilehash: accdefde4fa94b9a0526938bd64ec5171810d36e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "30364488"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542905"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
@@ -64,7 +62,7 @@ ms.locfileid: "30364488"
 > - [Доминиканская Республика](availability-in-the-dominican-republic.md)
 > - [Эквадор](availability-in-ecuador.md)
 > - [Египет](availability-in-egypt.md)
-> - [Сальвадор](availability-in-el-salvador.md)
+> - [Эль-Сальвадор](availability-in-el-salvador.md)
 > - [Эстония](availability-in-estonia.md)
 > - [Финляндия](availability-in-finland.md)
 > - [Франция](availability-in-france.md)
@@ -89,7 +87,7 @@ ms.locfileid: "30364488"
 > - [Малайзия](availability-in-malaysia.md)
 > - [Мальта](availability-in-malta.md)
 > - [Мексика](availability-in-mexico.md)
-> - [Молдавия](availability-in-moldova.md)
+> - [Молдова](availability-in-moldova.md)
 > - [Монако](availability-in-monaco.md)
 > - [Нидерланды](availability-in-the-netherlands.md)
 > - [Новая Зеландия](availability-in-new-zealand.md)
@@ -110,7 +108,7 @@ ms.locfileid: "30364488"
 > - [Сингапур](availability-in-singapore.md)
 > - [Словакия](availability-in-slovakia.md)
 > - [Словения](availability-in-slovenia.md)
-> - [Южная Африка](availability-in-south-africa.md)
+> - [ЮАР](availability-in-south-africa.md)
 > - [Южная Корея](availability-in-south-korea.md)
 > - [Испания](availability-in-spain.md)
 > - [Шри-Ланка](availability-in-sri-lanka.md)

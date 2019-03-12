@@ -1,5 +1,5 @@
 ---
-title: Что такое автосекретари телефонной системы?
+title: Что такое автосекретари телефонной системой?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,8 +12,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -24,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Сведения автосекретари телефонной системой (облако УАТС) и их использования.
-ms.openlocfilehash: 22136339b980779991170d0f072ec762b8c39c7a
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 14499789287e23767429392f0c21b66d56372ac0
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494207"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542281"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>Что такое автосекретари телефонной системы?
+# <a name="what-are-phone-system-auto-attendants"></a>Что такое автосекретари телефонной системой?
 
 Телефонной системой в Office 365 предоставляет автосекретарей, которые могут быть использованы для внешнего и внутреннего вызывающих объектов перемещения по системе меню Поиск и поместить или переводить звонки компании пользователей или отделов организации.
   
@@ -266,4 +264,4 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Пример для малого бизнеса — Настройка автосекретарю.](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+[Пример для малого бизнеса: настройка автосекретаря](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)

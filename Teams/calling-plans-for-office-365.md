@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -27,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: ec692f33d51ac8c5405049f71d8b1010d4e1f011
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 3f1f28862274a95f5bfbb0eb3fbdc3a32f72bc90
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351932"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542098"
 ---
 # <a name="calling-plans-for-office-365"></a>Планы звонков для Office 365
 
@@ -96,7 +94,7 @@ ms.locfileid: "30351932"
 
 - [Настройка Skype для бизнеса Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Настройка голосовой почты телефонной системы  справка для администратора](set-up-phone-system-voicemail.md)
+- [Настройка голосовой почты телефонной системы — справка для администраторов](set-up-phone-system-voicemail.md)
     
 - [Настройка планов звонков](set-up-calling-plans.md)
     

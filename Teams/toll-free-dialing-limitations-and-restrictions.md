@@ -1,5 +1,5 @@
 ---
-title: Бесплатный номер набору номера, ограничения и ограничения
+title: Ограничения и запреты для бесплатных номеров
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,14 +7,10 @@ ms.reviewer: mikedav, roykuntz, jastark, oscarr
 ms.topic: article
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -26,14 +22,14 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона, чтобы набрать этот номер бесплатный номер.
-ms.openlocfilehash: 9ecea9fa2503134c7ce3b13c6c7adaabdf24a142
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 2c5f5d97972fe1c1002ffb16ca39f6a6224beb06
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352684"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542114"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a>Бесплатный номер набору номера, ограничения и ограничения
+# <a name="toll-free-dialing-limitations-and-restrictions"></a>Ограничения и запреты для бесплатных номеров
 
 Это поможет вам узнать, как для набора бесплатные номера в каждой страны или региона. После выбора страны или региона, его можно перейти на страницу, содержащую, где международную бесплатно недоступны, включая подробные сведения, ограничения и ограничения. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона, чтобы набрать этот номер бесплатный номер.
   
@@ -51,8 +47,8 @@ ms.locfileid: "30352684"
 > - [Бруней](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [Болгария](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
 > - [Чили](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
-> - [Китай (вверх)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
-> - [Китай (вниз)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
+> - [Китай (север)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
+> - [Китай (юг)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
 > - [Колумбия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
 > - [Хорватия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
 > - [Кипр](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md)
@@ -75,7 +71,7 @@ ms.locfileid: "30352684"
 > - [Люксембург](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
 > - [Малайзия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md)
 > - [Мексика](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md)
-> - [Молдавия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
+> - [Молдова](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
 > - [Монако](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md)
 > - [Нидерланды](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md)
 > - [Панама](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md)
@@ -91,7 +87,7 @@ ms.locfileid: "30352684"
 > - [Сингапур](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md)
 > - [Словакия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md)
 > - [Словения](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
-> - [Южная Африка](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
+> - [ЮАР](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
 > - [Южная Корея](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
 > - [Испания](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 > - [Швеция](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)

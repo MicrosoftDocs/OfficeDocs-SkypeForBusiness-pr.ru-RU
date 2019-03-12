@@ -4,14 +4,12 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: 104dea98-6d0a-4c45-ba79-ea568e588c77
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Соединенном Королевстве.
-ms.openlocfilehash: e5c5942a5c072b8c6fd0a68a4abba6d4da12deb0
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: a524d72cbe5ab2a3021a70d383eaff7c8f3d2dec
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351308"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541130"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Управление номерами телефонов в Соединенном Королевстве
 

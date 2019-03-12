@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 1f9c7e23-41f8-4ca2-8097-b9f2c969897e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Бельгия.
-ms.openlocfilehash: 9c80c548902c25d0d6d79ffbcabf24360dad5dda
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f35778ec30195236f6abdb88ca84b4199296fb07
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460062"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541706"
 ---
 # <a name="availability-in-belgium"></a>Доступность в Бельгии
 

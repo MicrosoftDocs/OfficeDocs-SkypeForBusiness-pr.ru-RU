@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 8791fdc3-ef3b-425f-a3a8-bb9c3651ce79
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Сингапур.
-ms.openlocfilehash: 6e4866a11774e305d8ecae3bc37ab0c296cb08a8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 85d925879930fcf6f32c264d4783b4660ca9db2b
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461694"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542913"
 ---
 # <a name="availability-in-singapore"></a>Доступность в Сингапуре
 

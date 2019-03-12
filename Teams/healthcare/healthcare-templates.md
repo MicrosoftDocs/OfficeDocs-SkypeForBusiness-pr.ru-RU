@@ -1,10 +1,10 @@
 ---
-title: Начало работы с группами шаблоны для организаций здравоохранения
+title: Начало работы с шаблонами Teams для организаций здравоохранения
 author: jambirk
 ms.author: jambirk
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -14,15 +14,15 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Начало работы с группами шаблоны для организаций здравоохранения
-ms.openlocfilehash: fac7aa90d0fe7f1e6b3e1570378b78a50d321869
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+description: Начало работы с шаблонами Teams для организаций здравоохранения
+ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408285"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541666"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Начало работы с группами шаблоны для организаций здравоохранения
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Начало работы с шаблонами Teams для организаций здравоохранения
 
 Шаблоны рабочих групп Майкрософт позволяют быстро и легко создавать группы, предоставляя готовый шаблон настроек, каналов и предварительно установленные приложения.
 

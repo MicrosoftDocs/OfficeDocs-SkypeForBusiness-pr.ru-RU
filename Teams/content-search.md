@@ -3,7 +3,6 @@ title: Поиск контента в Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -11,27 +10,29 @@ MS.collection:
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
-description: Сведения о Поиске контента в Microsoft Teams, а также поиске чатов каналов из Exchange, отправленных или измененных файлов из SharePoint и заметок из OneNote.
+description: Узнайте о поиска контента в Microsoft групп и поиск по каналу беседы с Exchange, передача файлов и изменения из SharePoint и изменяет OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3435d43fde6cd0ca2a0948ad5d34c467ea2e0863
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1860f3e5f79cd1ff2a2a63a8b49bf0dcfd65638f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460990"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30540618"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Поиск контента в Microsoft Teams
 =====================================
 
 Поиск контента — это специальная функция для запроса информации Microsoft Teams из Exchange, SharePoint Online и OneDrive для бизнеса.
 
-В приведенном ниже примере мы создали новый **Поиск контента**. Затем мы выбрали почтовый ящик и сайт SharePoint команды "Manufacturing Specs". Это позволило нам искать чаты каналов из Exchange, отправленные или измененные файлы из SharePoint и изменения в OneNote.
+Чтобы получить дополнительные сведения, прочитайте [Поиска контента в Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
-![Снимок экрана диалогового окна "Новый поиск".](media/Use_Content_Search_in_Microsoft_Teams_image1.png)
+Например с помощью **Поиска контента** от первоначальной спецификации почтовых ящиков и сайта SharePoint первоначальной спецификации, можно выполнить поиск от бесед канала группы из Exchange, передача файлов и изменения из SharePoint Online и OneNote изменения.
 
-Вы также можете добавить условия запроса для **Поиска контента**, чтобы сузить возвращаемые результаты. Например, ниже мы хотели найти расположения Exchange и SharePoint для команды "Manufacturing Specs", используя ключевые слова "**New Factory Specs**".
+Вы также можете добавить условия запроса для **Поиска контента**, чтобы сузить возвращаемые результаты. В приведенном выше примере можно искать содержимое которых ключевые слова "**новые технические характеристики фабрики»** использовались.
 
-![Снимок экрана диалогового окна "Запрос" с выполняющимся поиском по ключевым словам.](media/Use_Content_Search_in_Microsoft_Teams_image2.png)
+> [!TIP]
+> После добавления условия поиска, можно экспортировать отчет или данные на свой компьютер для анализа.
 
-Добавив нужные условия поиска, вы можете экспортировать отчет или данные на компьютер для анализа. Дополнительные сведения о Поиске контента см. по [этой ссылке](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+## <a name="related-topics"></a>Связанные разделы
+[вариантах eDiscovery в центре соответствия требованиям & безопасности Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

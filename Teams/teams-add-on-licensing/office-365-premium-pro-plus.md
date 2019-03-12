@@ -1,10 +1,10 @@
 ---
-title: 'Office 365 профессиональный плюс  '
+title: 'Office 365 профессиональный плюс '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -18,14 +18,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Сведения о лицензии дополнительный компонент, функции и как приобрести Office 365 профессиональный плюс.
-ms.openlocfilehash: 58f5259474a31bfd873dcfc336aee9b733662e0c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5d7c21d5736db08146d25909ab307c39a903e98d
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463182"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541394"
 ---
-# <a name="office-365-proplus"></a>Office 365 профессиональный плюс 
+# <a name="office-365-proplus"></a>Office 365 профессиональный плюс
 
 Если вы уже приобрели план [Office 365 профессиональный плюс](https://products.office.com/en/business/office-365-proplus-business-software) , вот дополнительный компонент лицензий, которые необходимо купить, чтобы получить дополнительные возможности групп.
 

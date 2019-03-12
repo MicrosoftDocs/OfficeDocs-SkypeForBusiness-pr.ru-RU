@@ -3,7 +3,7 @@ title: Отчет о действиях пользователей Microsoft Te
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 03/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Сведения об использовании отчета об активности пользователей группы в центре администрирования группами Майкрософт для просмотра использования групп пользователей в вашей организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa13ee11b9a622461e501a1b004be5ff54e8cf0b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 671f3cd5632712a9bc5cc08e15c04023a33ec052
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459966"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542633"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Отчет о действиях пользователей Microsoft Teams
 
@@ -50,5 +50,5 @@ ms.locfileid: "30459966"
 
 ## <a name="related-topics"></a>Связанные разделы
 - [Группы аналитики и отчетов](teams-reporting-reference.md)
-- [Отчет об использовании группы](teams-usage-report.md)
-- [Отчет об использовании групп устройств](device-usage-report.md)
+- [Отчет об использовании Teams](teams-usage-report.md)
+- [Отчет об использовании устройств в Teams](device-usage-report.md)

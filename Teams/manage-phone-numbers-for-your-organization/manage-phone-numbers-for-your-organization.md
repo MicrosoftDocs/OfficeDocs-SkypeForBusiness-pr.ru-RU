@@ -4,14 +4,12 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -25,12 +23,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Для каждой страны или региона существуют свои инструкцииУказания по получению номеров телефоновных номеровдля пользователей в Skype для бизнеса  Online и Microsoft  Teams отличаются в зависимости от страны или региона. Воспользуйтесь ссылкой на вашу страну или регион для получения необходимой информации.
-ms.openlocfilehash: 23923d6d31222d1d97d43318227ce2b1e558d5c2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: dd4bb74172736ae3b82bef00a4b4b11c7285ee1f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351900"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543129"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Управление номерами телефонов организации
 Существует три способа получить телефонные номера для пользователей и служб (платные и бесплатные) для вашей организации.

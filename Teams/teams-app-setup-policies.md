@@ -9,18 +9,21 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Описание политики в отношении установки приложений в Microsoft групп и как их использовать ПИН-код приложения для настройки групп для пользователей в вашей организации.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 6c88ba45aba076c6e26fe8bc16fd3643499a881b
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302691"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541826"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -45,7 +48,7 @@ ms.locfileid: "30302691"
 
 ## <a name="create-a-custom-app-setup-policy"></a>Создание политики пользовательское приложение программы установки
 
-Центр администрирования группами Майкрософт или Windows PowerShell можно использовать для создания настраиваемой политики.
+Центр администрирования Microsoft группы можно использовать для создания настраиваемой политики.
 
 1. В левой области переходов центра администрирования группами Майкрософт, перейдите к **группам приложений** > **политики в отношении установки приложений**.
 2. Выберите **новую политику**.
