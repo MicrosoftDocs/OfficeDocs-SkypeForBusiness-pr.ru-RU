@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: gageames
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Узнайте, как качество потока классифицируется в панели мониторинга качества звонка для команд Microsoft и Skype для бизнеса Online.
-ms.openlocfilehash: a04843e45e444da34bf065c1cdfbf0a619be9406
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: b3b63ff8ac89ed0ad1d88893913fa89af769e078
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541722"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641036"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Классификация потоков в Панели мониторинга качества звонка
 
@@ -44,7 +44,7 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 |Audio Degradation Avg|> 1,0|Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio.|
 |Round Trip|>500|Среднее время кругового пути при распространении по сети, вычисляемое в миллисекундах в соответствии со стандартом RFC3550.|
 |Packet Loss Rate|>0,1|Средний коэффициент потерь пакетов для потока.|
-|Jitter|> 30|Среднее дрожание для потока в миллисекундах.|
+|Искажение|> 30|Среднее дрожание для потока в миллисекундах.|
 |Ratio Concealed Samples Avg|> 0,07|Среднее отношение числа звука кадров с скрытых образцов, созданных функцией восстановления, общее количество кадров, звуковых потери пакетов.|
 
 ### <a name="video-classifier"></a>Видео классификатор

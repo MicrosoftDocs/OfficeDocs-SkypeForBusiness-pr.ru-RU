@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 11/15/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eec164da4dafe9be54272a72680cfa920d32d60c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5dc79f6913a2996734b34d589f124c440eb9835e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458814"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641107"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Вход в Microsoft Teams с современной проверкой подлинности
 ==========================
@@ -49,7 +49,6 @@ ms.locfileid: "30458814"
 При работе на компьютер, присоединенный к домену, (например, если их клиента включил Kerberos), они не могут переключиться учетные записи пользователей, как только они были завершены современных проверки подлинности. Если пользователи не работает на компьютер, присоединенный к домену, они переключение учетных записей.
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Выход из групп Майкрософт после завершения современных проверки подлинности
-
 Чтобы выйти из группы, пользователей можно щелкните изображение их профиля в верхней части приложения и выберите **Выход**. Они также щелкните правой кнопкой мыши значок приложения на панели задач и выберите команду **Выход**. Как только они уже знак вне группы, они должны введите свои учетные данные еще раз, чтобы запустить приложение.
 
 ## <a name="troubleshooting-modern-authentication"></a>Устранение неполадок в современном проверки подлинности

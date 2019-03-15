@@ -3,7 +3,7 @@ title: Переход со Skype для бизнеса Online на Microsoft T
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Следуйте проверенных успеха framework для пути обновления вашей организации из Скайп для бизнеса в группы
@@ -16,14 +16,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5749700eb314444398111150f1ac842466f7f90
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 60094153f0e48187b0437bce1f25077c742ad773
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494095"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641182"
 ---
-# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Переход со Skype для бизнеса на Microsoft Teams
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Скайп для бизнеса об обновлении группами Майкрософт
 
 Поддержка концепции intelligent коммуникаций корпорации Майкрософт, группами Майкрософт является центром для командной работы, собрать чата, собраний, вызов, совместной работы, интеграции приложений и хранение файлов. Как существующие Скайп для клиента Business ознакомьтесь с обновления до Microsoft командами, чтобы испытать этот полный набор возможностей обмена данными и совместной работы в одного клиентского интерфейса.
 
@@ -32,10 +32,10 @@ ms.locfileid: "30494095"
 Просмотрите этот [Обзор](https://aka.ms/UpgradeOverview) введение к Скайп для бизнеса в пути обновления групп, включая основные концепции, framework и пути обновления.
 
 > [!Tip]
-> Чтобы узнать больше о переходе со Skype для бизнеса на Microsoft Teams, посмотрите следующие обучающие ролики:
-> - [Общие сведения о переходе](https://aka.ms/teams-upgrade-intro)
-> - [Планирование перехода](https://aka.ms/teams-upgrade-plan)
-> - [Сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)
+> Просмотрите следующие сеанса для получения сведений об обновлении Скайп для бизнеса группами Майкрософт:
+> - [Общие сведения об обновлении](https://aka.ms/teams-upgrade-intro)
+> - [Планирование обновления](https://aka.ms/teams-upgrade-plan)
+> - [Взаимодействие и совместная работа](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Интерфейс администратора](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>Обновление реализация framework

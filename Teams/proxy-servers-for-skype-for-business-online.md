@@ -1,10 +1,10 @@
 ---
-title: Прокси-серверы для Teams или Skype для бизнеса Online
+title: Прокси-серверы для группы или Скайп для бизнеса в Интернет
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -19,14 +19,14 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: В этой статье сведения об использовании прокси-сервера с группами или Скайп для бизнеса.
-ms.openlocfilehash: e2d14c8307de2ee64a766394805498505719189a
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: a09a1bf53fe4d1a38742856c051a80e5928f36ef
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542809"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640900"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Прокси-серверы для Teams или Skype для бизнеса Online
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Прокси-серверы для группы или Скайп для бизнеса в Интернет
 
 В этой статье рекомендации относительно использования прокси-сервера с группами или Скайп для бизнеса.
   

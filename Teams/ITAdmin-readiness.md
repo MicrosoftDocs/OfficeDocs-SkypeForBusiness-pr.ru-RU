@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 02/15/2019
+ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 ms.collection:
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, наборов слайдов PowerPoint, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85ff5f21b1e23f2ff0407272a3e86885b779a3d6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f166d3a00fbf0ea9b51fa1d083ed490d7323df0c
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461854"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641162"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -90,10 +90,11 @@ ms.locfileid: "30461854"
 | ------------ | -------------------- | -------------------- |
 | Основы - основные компоненты | [Видео](https://aka.ms/teams-foundations) | [Колоды](https://aka.ms/teams-foundations-deck) |
 | Клиент настольных компьютеров Windows | [Видео](https://aka.ms/teams-clients) | [Колоды](https://aka.ms/teams-clients-deck) |
-| Управление, управления и Lifecylce | [Видео](https://aka.ms/teams-governance) | [Колоды](https://aka.ms/teams-governance-deck) |
+| Управление, управления и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Колоды](https://aka.ms/teams-governance-deck) |
 | Планирование сети | [Видео](https://aka.ms/teams-networking) | [Колоды](https://aka.ms/teams-networking-deck) |
 | Обзор качества звонка | [Видео](https://aka.ms/teams-quality) | [Колоды](https://aka.ms/teams-quality-deck) |
 | Общие сведения о собраниях | [Видео](https://aka.ms/teams-meetings-intro) | [Колоды](https://aka.ms/teams-meetings-intro-deck) |
+| Событий в реальном времени | [Видео](https://aka.ms/teams-live-events-session) | [Колоды](https://aka.ms/teams-live-events-deck) |
 | Общие сведения о системе телефона | [Видео](https://aka.ms/teams-phone-system) | [Колоды](https://aka.ms/teams-phone-system-deck) |
 | Прямая отправка | [Видео](https://aka.ms/teams-direct-routing) | [Колоды](https://aka.ms/teams-direct-routing-deck) |
 | Переход со Skype для бизнеса на Teams | [Видео 1: Общие сведения об обновлении](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: Планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видео 3: Взаимодействие и сосуществование](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: Интерфейс администратора](https://aka.ms/teams-upgrade-admin) | [Колоды](https://aka.ms/teams-upgrade-deck)|
@@ -105,9 +106,9 @@ ms.locfileid: "30461854"
 
 <h2>Учебные материалы</h2>
 
-- [Руководство. Переход со Skype для бизнеса на Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
+- [Руководство. Переход со Skype для бизнеса на Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Руководство. Собрания в Teams](tutorial-meetings-in-teams.yml)
-- [Руководство по Аудиоконференций в группах](tutorial-audio-conferencing.yml)
+- [Руководство. Аудиоконференции в Teams](tutorial-audio-conferencing.yml)
 - [Учебное руководство. Общие сведения о звонках в Microsoft Teams](tutorial-calling-in-teams.yml)
 
 <h2>Курсы</h2>

@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 11/25/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7fb3479c8230735d04494bd6aacfbd8d3d23395
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 42ec1ce60a206fa0a67f40c08db4658c0c53e543
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493575"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641194"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 ======================================
@@ -35,7 +35,7 @@ ms.locfileid: "30493575"
 - Сообщите, какие функции нужны вам, на сайте [UserVoice, посвященном Teams](https://aka.ms/TeamsUserVoice).
 - Поделитесь своим опытом в разделе комментариев ниже.
 
-Доступ в качестве гостя позволяет группам в организации совместной работы с людьми за пределами вашей организации, предоставив им доступ к существующей группы и каналы на одном или нескольких клиентов. Любой пользователь с корпоративной или потребительской учетной записью Outlook, Gmail или других служб может участвовать в Teams в качестве гостя с полным доступом к командным чатам, собраниям и файлам.
+Доступ в качестве гостя позволяет группам в организации совместной работы с людьми за пределами вашей организации, предоставив им доступ к существующей группы и каналы на одном или нескольких клиентов. Лица, имеющие business потребитель электронной почты учетной записи или, например, Outlook, Gmail или другим пользователям, могут участвовать в качестве гостя в группах с полным доступом для групп обсуждения, собраний и файлы.
 
 Доступ в качестве гостя входит в состав всех бизнеса расширенный Office 365, Office 365 для предприятия и Office 365 Education подписки с без дополнительных требований лицензирования. До 5 Гости на лицензированным пользователя может иметь в клиенте. Дополнительные сведения о лицензировании можно [лицензирования руководство Azure Active Directory B2B совместной работы](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
 

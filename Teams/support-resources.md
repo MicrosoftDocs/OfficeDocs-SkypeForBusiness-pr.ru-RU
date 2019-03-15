@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Список ресурсов поддержки для Microsoft Teams, помогающих использовать этот продукт более эффективно.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf6360afa81303531773cf9e1c931156fc537831
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c4342552711aad3cc22ede2d055c62d7fae69dab
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462862"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641226"
 ---
 <a name="support-resources-for-microsoft-teams"></a>Ресурсы поддержки для Microsoft Teams
 =====================================

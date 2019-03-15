@@ -3,7 +3,7 @@ title: Руководство по миграции и взаимодейств�
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 description: Руководство по управлению переход к группам из Скайп для бизнеса
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4c0733b30118bc09004d84f8c4b9db64f58e23
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2fe85942a943bcfb5a9645030924acd4180d250a
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494279"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641345"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса
 

@@ -3,7 +3,7 @@ title: Качество обслуживания и аналитика звон�
 author: jambirk
 ms.author: jambirk
 manager: Serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jambirk
 description: Используйте параметры качества обслуживания (QoS) и затем вызвать аналитики и панель мониторинга качества звонков в группами Майкрософт.
@@ -14,12 +14,12 @@ MS.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a40b5d14268323f1231377e96b75a3120145245
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 77730db17e900951f0fe1a60b7c0ae2ccdbfbc5b
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408253"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641075"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Реализация качества обслуживания и отслеживание качества звонков в группами Майкрософт
 
@@ -53,4 +53,4 @@ ms.locfileid: "30408253"
 
 [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Классификация потоков в Панели мониторинга качества звонка](stream-classification-in-call-quality-dashboard.md)
+[Классификация потоков на панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)

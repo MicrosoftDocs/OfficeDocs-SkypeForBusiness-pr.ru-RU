@@ -1,10 +1,10 @@
 ---
-title: Политики хранения в группами Майкрософт
+title: Политики хранения в Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
 description: Сведения о том, как политики хранения и управление им в группах.
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d07629f41a54dcab1995f2aef2d7536479be25d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c3c253569f642a8833d9bfad6677fe1a17624447
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464558"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640980"
 ---
-# <a name="retention-policies-in-microsoft-teams"></a>Политики хранения в группами Майкрософт
+# <a name="retention-policies-in-microsoft-teams"></a>Политики хранения в Microsoft Teams
 
 Команды беседы являются постоянными и удержания вечность по умолчанию. Вследствие внедрения политики хранения администраторы могут настраивать политики хранения (хранения и удаления) в & безопасности центре соответствия требованиям для сообщений группы чата и канала. Это позволяет организациям хранить сведения для соответствия требованиям (а именно, политика хранения) в течение определенного периода или избавиться от данных (а именно, политики удаления), если он будет считаться ответственности за определенный период. Политики хранения группы убедитесь, что при удалении данных удаляется из всех места хранения постоянных данных в службе команды. 
 

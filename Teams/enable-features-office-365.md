@@ -18,10 +18,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a7712caa826804d26fd2e3527183128ce78520c3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
+ms.lasthandoff: 03/15/2019
 ms.locfileid: "30460238"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Управление функциями Microsoft Teams в организации Office 365
@@ -56,9 +56,9 @@ These apps are provided by third parties. You can configure the following settin
 
 - **Разрешить внешние приложения в Microsoft Teams**. При включении этого параметра пользователи могут добавлять внешние приложения, доступные вашей организации. 
 
-- **Разрешить загрузку неопубликованных внешних приложений**. Если вы хотите включить некоторые внешние приложения и отключить другие, отключите этот параметр и в списке внешних приложений отключите приложения, к которым у пользователей не должно быть доступа. При включении этого параметра владельцы и участники команд, которым предоставлено разрешение, могут загружать в Teams неопубликованные приложения. 
+- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
 
-- **Разрешать новые внешние приложения по умолчанию**. При включении этого параметра пользователи могут активировать новые приложения сразу после их добавления в каталог приложений Teams. Если вы хотите контролировать новые приложения, отключите этот параметр. В этом случае не забывайте периодически просматривать новые доступные приложения, чтобы ваша организация не пропустила появление интересных программ. 
+- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
 Дополнительные сведения: [Параметры администратора для приложений в Teams](admin-settings.md). 
 
@@ -118,7 +118,7 @@ Microsoft Teams позволяет организациям назначать 
 
 #### <a name="app-preferences"></a>Настройки приложений
 
-Здесь вы можете выбрать приложение, в котором пользователи будут присоединяться к собраниям Skype для бизнеса (Skype для бизнеса или [приложение "Собрания Скайпа"](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Этот параметр не зависит от настройки режима сосуществования.
+Здесь вы можете выбрать приложение, в котором пользователи будут присоединяться к собраниям Skype для бизнеса (Skype для бизнеса или [приложение "Собрания Скайпа"](https://support.office.com/ru-RU/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Этот параметр не зависит от настройки режима сосуществования.
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Как узнать, какие функции доступны?
 

@@ -1,10 +1,10 @@
 ---
-title: Ресурсы группами Майкрософт для образовательных учреждений "Администраторы"
+title: Ресурсы Microsoft Teams для образовательных учреждений (администраторы)
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 07/26/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: ''
 description: Список групп ресурсов полезны для ИТ-администраторов для образовательных учреждений.
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57e402161dad595d1b2d5eb3db937e59e68e75a8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5737d7d93a3ae9c28bed70d18e726ac68c43a8ef
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462622"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640932"
 ---
-<a name="microsoft-teams-resources-for-education-admins"></a>Ресурсы группами Майкрософт для образовательных учреждений "Администраторы"
+<a name="microsoft-teams-resources-for-education-admins"></a>Ресурсы Microsoft Teams для образовательных учреждений (администраторы)
 ==============================================
 
 ## <a name="adoption-content"></a>Содержимое внедрения
