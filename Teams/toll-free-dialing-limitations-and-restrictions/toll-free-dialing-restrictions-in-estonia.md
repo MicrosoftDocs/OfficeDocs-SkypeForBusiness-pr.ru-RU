@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 71e0cbbb-8fa9-49d4-b0c9-4e77d500a168
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 0c83e9719123cd8fae65c6f1e4980d8a0cc96571
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cb11ce9dfe69a5b6564cb0f39bb3eb9fa74fff5f
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464182"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569683"
 ---
 # <a name="toll-free-dialing-restrictions-in-estonia"></a>Ограничения набора бесплатных номеров в Эстонии
 
 [Найдите другой страны или региона](../toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.
 
 
-|**Сведения**|**Описание**|
+|**Сведения**|**Описание**.|
 |:-----|:-----|
 |— Это бесплатный вызов доступны?  <br/> |Да  <br/> |
 |Формат набора  <br/> |800 XXXX (XXX)  <br/> |

@@ -1,10 +1,10 @@
 ---
-title: Развертывание групп Майкрософт облачная служба голосовой связи
+title: Развертывание облачной голосовой службы Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 05/16/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ce9b3f5a1d81728f0bff6951211453fb4aa2ef4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8ea80d3ba87a6499cba3bf52b5f70d45d0619c8a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458998"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568466"
 ---
-# <a name="deploy-my-service"></a>Развернуть службу
+# <a name="deploy-my-service"></a>Развертывание службы
 
 В этой статье дается обзор требований для правильного развертывания облачные службы голосовой связи. Выполнив инструкции по развертыванию облачные службы голосовой связи, можно убедиться в том успешно учетную запись для все требования и возможности повторяемого результатов.
 
@@ -50,7 +50,7 @@ ms.locfileid: "30458998"
 Страница playbook выделена устранения факторов, влияющих на пользователя с точки зрения развертывания голосовые команды. Действия и задачи сгруппированы в следующих областях фокус.
 
 -   Проверка готовности службы
-    - Аудиоконференции
+    - Аудиоконференция
     - Планы звонков
     - Прямая отправка
 

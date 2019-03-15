@@ -18,14 +18,14 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Управление учетными записями ресурсов в группах Майкрософт
-ms.openlocfilehash: 22574b2045f162353c3b1154590f3cf903721cf8
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: dad2ea10f2dbdeb387a74d01fd48ca6de9805a5a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408261"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633252"
 ---
-# <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в группах Майкрософт
+# <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
 Учетная запись ресурса также называется объект отключенных пользователей в Azure Active Directory и может использоваться для представления ресурсов в целом. В Exchange он может использоваться для представления конференц-залы, например и разрешать им номер телефона. Учетная запись ресурса может быть размещен в Microsoft 365 или локально с помощью Скайп for Business server, и эти учетные записи создаются с помощью команды Powershell.
 
@@ -49,7 +49,7 @@ ms.locfileid: "30408261"
 > [!NOTE]
 > Номера телефонов пользователей (подписчика) не могут назначаться учетная запись ресурса. Можно использовать только службы международную и бесплатных номеров телефонов.
 
-Чтобы назначить учетную запись ресурса номер телефона, необходимо получить или перенос существующих международную или бесплатная служба номеров. После получения счета или бесплатная служба телефонных номеров, они будут отображаться в **центре администрирования группами Майкрософт** > **голосовой связи** > **номера телефонов**и **тип номера** в списке будет отображаться как **Служба — бесплатный номер**. Чтобы получить номер службы, просмотреть [номера телефона службы Приступая к](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md) или существующий номер службы и передача, см [передачи телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).
+Чтобы назначить учетную запись ресурса номер телефона, необходимо получить или перенос существующих международную или бесплатная служба номеров. После получения счета или бесплатная служба телефонных номеров, они будут отображаться в **центре администрирования группами Майкрософт** > **голосовой связи** > **номера телефонов**и **тип номера** в списке будет отображаться как **Служба — бесплатный номер**. Чтобы получить номер службы, просмотреть [номера телефона службы Приступая к](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) или необходимо перенести существующий номер службы, в статье [передачи телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Если вы находитесь за пределами США, не могут использовать Центр администрирования группами Майкрософт для получения номера службы. Перейдите на [Управление телефонные номера для вашей организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) вместо этого на вашу за ее пределами США.
@@ -94,9 +94,9 @@ Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3
 
 Для реализации, которые являются гибридное развертывание с Скайп для Business Server:
 
-[Планирование облачных автосекретаря](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
+[Планирование автосекретарей в облаке](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
-[Настройка автосекретарей облако](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
+[Настройка автосекретарей в облаке](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
 Для реализации в группы или Скайп для бизнеса в Интернет:
 
@@ -104,7 +104,7 @@ Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3
 
 [Настройка автосекретаря телефонной системы](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
-[Пример для малого бизнеса — Настройка автосекретарю.](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+[Пример для малого бизнеса: настройка автосекретаря](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
 [Создание очереди звонков в телефонной системе](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 

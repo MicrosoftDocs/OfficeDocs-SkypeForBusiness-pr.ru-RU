@@ -10,10 +10,10 @@ localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Сводка: Прочитайте сведения о планировании топологии конференц-связи в Скайп Business Server.'
 ms.openlocfilehash: d8e3d771eadfe47ee1d7ec15eb68051b717643bf
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375959"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Планирование топологии конференц-связи для Скайп Business Server
@@ -77,7 +77,7 @@ ms.locfileid: "25375959"
   
 Скайп для Business Server предоставляет следующие способы настройки сети сервера Office Web Apps Server/Office. Выберите вариант в зависимости от конкретных задач.
   
-- **Установите оба Скайп для Business Server и Office Web Apps Server/Office Online Server локальных за брандмауэром организации, а также в одной сетевой зоне.** В этой топологии внешний доступ к серверу Office Web Apps (Office Online Server) предоставляется через обратный прокси-сервер. В идеальном варианте следует установить Office Web Apps Server/Office Online Server в одной сетевой зоне как Скайп для Business Server.
+- **Установите оба Скайп для Business Server и Office Web Apps Server/Office Online Server локальных за брандмауэром организации, а также в одной сетевой зоне.** With this topology, external access to Office Web Apps Server/Office Online Server will be provided through your reverse proxy server. В идеальном варианте следует установить Office Web Apps Server/Office Online Server в одной сетевой зоне как Скайп для Business Server.
     
     Внешние Скайп пользователей можно подключить Скайп для Business Server и Office Web Apps Server/Office Online Server с помощью обратного прокси-сервера, который предназначен для сервера, который принимает запросы из Интернета и передает их внутренней сети. (Внутренних клиентов не требуется использовать обратного прокси-сервера, так как они могут подключаться непосредственно к сети сервера Office Web Apps Server/Office.) Эта топология работает лучше, если вы хотите использовать выделенной фермы Office Web Apps Server/Office Online Server, которая используется только Скайп для Business Server.
     
@@ -104,7 +104,7 @@ ms.locfileid: "25375959"
   
 Учетная запись пользователя, проводящего большие собрания, должна размещаться в пуле переднего плана. Однако не рекомендуется размещать в этом пуле учетные записи других пользователей. Выделите его специально для больших собраний. Предпочтительно создать в этом пуле особую учетную запись пользователя, предназначенную только для проведения больших собраний. Поскольку настройка для крупных собраний оптимизирована для повышения производительности, ее применение обычным пользователем может привести к неполадкам, такие как невозможность преобразовать сеанс одноранговой связи в собрание, если задействована конечная точка ТСОП.
   
-Управление пулом, содержащим ровно два сервера переднего плана, имеет некоторые особенности. Для получения дополнительных сведений см. [Основные сведения о топологии для Скайп для Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) и [ссылка на топологии для Скайп для Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
+Управление пулом, содержащим ровно два сервера переднего плана, имеет некоторые особенности. Дополнительные сведения см. в разделах [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) и [Reference topologies for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
   
 Кроме того, если вы хотите при необходимости укажите аварийного восстановления резервной копии и отработка отказа для пула, используемого для больших собраний, вы можете обеспечить его с аналогичным образом определенного копирование выделенного пула в центре обработки данных. Дополнительные сведения см [Планирование высокой доступности и аварийного восстановления в Скайп для Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
@@ -114,7 +114,7 @@ ms.locfileid: "25375959"
     
 - Для реализации функциональных возможностей презентации PowerPoint на больших собраниях необходим сервер Office Web Apps (Office Online Server). Он может быть выделен для данного пула или использоваться совместно с другими пулами на сайте, где развернут данный пул. Дополнительные сведения можно [настроить интеграцию с сервером Office Web Apps в Скайп для Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
     
-- Балансировка нагрузки серверов переднего плана требуется оборудование балансировки нагрузки для трафика HTTP (например, загрузки содержимого собрания). Балансировка нагрузки на DNS рекомендуется для трафика SIP. Для получения дополнительных сведений см [Балансировка нагрузки на требования к Скайп для бизнеса](../../plan-your-deployment/network-requirements/load-balancing.md). 
+- Для балансировки нагрузки на серверах переднего плана необходимы аппаратные средства балансировки нагрузки трафика HTTP (например, загрузки материалов собрания). Для трафика SIP рекомендуется балансировка нагрузки средствами DNS. См. раздел [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md). 
     
 - Если вы хотите использовать сервера мониторинга для выделенного пула больших собраний, рекомендуется использовать сервер мониторинга и его базу данных, доступные во всех пулах сервера переднего плана в вашей Скайп для развертывания Business Server. Для получения дополнительных сведений см. [Планирование для мониторинга в Скайп для Business Server](../../plan-your-deployment/monitoring.md).
     

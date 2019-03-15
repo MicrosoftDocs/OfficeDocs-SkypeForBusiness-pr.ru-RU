@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для (Гонконг).
-ms.openlocfilehash: e2fb01a6b88868d4b999075dfeac067fda1d89b0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: d2596bdc923e341c969b588630c5d3d644601a9f
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542529"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569353"
 ---
 # <a name="availability-in-hong-kong"></a>Доступность в Гонконге (САР)
 
@@ -77,7 +77,7 @@ ms.locfileid: "30542529"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступны ли кредиты на связь?  <br/> |Нет  <br/> |
+|Доступны ли кредиты на связь?  <br/> |Да  <br/> |
    
 Если они нужны вам, см. статью [Настройка кредитов на связь для организации](../set-up-communications-credits-for-your-organization.md).
   

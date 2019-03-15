@@ -4,7 +4,7 @@ author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: MyAdvisor
@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6d8057fa2cba1f14ed00eebebdb522144eb283d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 953c971c39bde9d112619fcaee145008c378f1a3
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458918"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568442"
 ---
 # <a name="cloud-voice-deployment"></a>Развертывание облачной системы голосовой связи
 
-Группами Майкрософт, сервер-концентратор для работы и коммуникации в Office 365, теперь предоставляет звук конференц-связи, телефонной системой с вызова планы и телефонной системой Direct возможности маршрутизации в соответствии с дополнительной бизнес-требований, расширяя собрания групп и вызов качества для включения сторонними подключается с помощью телефонной сети общего пользования (PSTN).
+Microsoft Teams, центр для командной работы и взаимодействия в Office 365, теперь поддерживает аудиоконференции, а также телефонную систему с планами звонков и прямую маршрутизацию телефонной системы, удовлетворяя еще более широкий спектр потребностей бизнеса. Новые возможности звонков и собраний платформы Teams позволяют подключать сторонних участников по телефонной сети общего пользования (ТСОП).
 
 
 > [!Tip] 
@@ -44,7 +44,7 @@ ms.locfileid: "30458918"
 
 ## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>Система телефон с Тарифные планы («Тарифные планы») в группах Майкрософт
 
-Телефонная система — это компонент Office 365, позволяющий управлять маршрутизацией звонков, политиками и подготовкой пользователей. В него входит система управления телефонными звонками, маршрутизация звонков и настройка отдельных звонков.
+Телефонной системой — это функция Office 365, которая предоставляет возможность управлять маршрутизации вызовов, политик и подготовке пользователей. Этот компонент включает телефонного звонка система управления маршрутизации вызовов и управления звонками.
 
 Тарифные планы является дополнительной службы для функции телефонной системой, доставленных через рабочих групп и Скайп для бизнеса в Интернет. Тарифные планы требуется, что пользователь быть размещен в Скайп для бизнеса в Интернет для работы в группах Майкрософт. Тарифные планы обеспечивают для сотрудников в бизнесе с основной номер телефона, а также позволяет их выполнение и прием телефонных звонков за пределами вашей организации по ТСОП.
 
@@ -64,7 +64,7 @@ ms.locfileid: "30458918"
 > [!div class="mx-tableFixed"]
 > |Выработка концепции  |Адаптация  |Извлечение выгоды  |
 > |---------|---------|---------|
-> |[Определение Мой success](1-envision-define-my-success-cloud-voice.md) <br> Проведения Мои службы <br>&nbsp;&nbsp;[Аудиоконференции](2-envision-make-my-service-decisions-audio-conferencing.md)<br>&nbsp;&nbsp;[Тарифные планы](2-envision-make-my-service-decisions-phone-system.md)или [прямой маршрутизации](2-envision-make-my-service-decisions-direct-routing.md) <br> [Оценка моей среды](3-envision-evaluate-my-environment.md) <br> [Планирование управления Мои службы](4-envision-plan-my-service-management.md) <br> [Планирование взаимодействия пользователя Мои пользователи](5-envision-plan-my-users-experience.md) <br> [Документ успешно план](6-envision-document-my-success-plan.md)    | [Подготовка Мои службы](1-onboard-prepare-my-service.md) <br> [Подготовка Мои пользователи](2-onboard-prepare-my-users.md) <br> [Развернуть службу](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Мои службы](1-drive-value-operate-my-service.md) <br> [Улучшите Мои службы](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
+> |[Определение показателей успеха](1-envision-define-my-success-cloud-voice.md) <br> Проведения Мои службы <br>&nbsp;&nbsp;[Аудиоконференции](2-envision-make-my-service-decisions-audio-conferencing.md)<br>&nbsp;&nbsp;[Тарифные планы](2-envision-make-my-service-decisions-phone-system.md)или [прямой маршрутизации](2-envision-make-my-service-decisions-direct-routing.md) <br> [Оценка среды](3-envision-evaluate-my-environment.md) <br> [Планирование управления службами](4-envision-plan-my-service-management.md) <br> [Планирование взаимодействия пользователя Мои пользователи](5-envision-plan-my-users-experience.md) <br> [Документирование плана по достижению успеха](6-envision-document-my-success-plan.md)    | [Подготовка службы](1-onboard-prepare-my-service.md) <br> [Подготовка пользователей](2-onboard-prepare-my-users.md) <br> [Развертывание службы](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Использование службы](1-drive-value-operate-my-service.md) <br> [Улучшение службы](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
 
 Контент в упорядоченном виде и предназначен для ознакомления реализация-сквозного развертывания от начала до конца. Если вы уже активно выполняется развертывание, по-прежнему рекомендуется для ссылки применимых области контента.
 

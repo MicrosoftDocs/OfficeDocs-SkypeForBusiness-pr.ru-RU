@@ -1,10 +1,10 @@
 ---
-title: Ответ автосекретаря и вызвать очереди звонки непосредственно из рабочих групп
+title: Ответ на звонки автосекретарей и вызов очередей звонков непосредственно из Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/20/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 description: Описание автосекретари телефонной системой и очереди вызовов и объясняется, как можно отвечать на звонки, эти в группах.
 localization_priority: Normal
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 900fe698654a760c9863583da0b3cd161625844d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465334"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569441"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Ответ автосекретаря и вызвать очереди звонки непосредственно из рабочих групп
+<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Ответ на звонки автосекретарей и вызов очередей звонков непосредственно из Teams
 ===========================================================
 
 Группы Пользователи могут получить и отвечать на звонки от Скайп для бизнеса в Интернет, принимаемые автосекретарем и вызовите очередей непосредственно из клиента по группам. Для пользователей, групп функцию автоматического attendant теперь доступен обычно и является возможность вызова очереди в предварительной версии. 

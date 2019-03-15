@@ -3,21 +3,23 @@ title: Сосуществование со Skype для бизнеса
 author: jambirk
 ms.author: francoid
 manager: Serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
-description: В этом документе описываются поведение чата, маршрутизации вызовов и сведения о присутствии между пользователями рабочих групп и Скайп для бизнеса в клиента и федеративных, назначенный режимы TeamsUpgrade на основании. Оно включает в себя маршрутизации оптимизация, поведение сведения о присутствии, а также изменить режим по умолчанию TeamsUpgrade из *прежних версий* для *острова* и предстоящих пенсионного обеспечения из *прежних версий*.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7dee2921e6458c797a09f5b3fa78118992766b2
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+description: В этом документе описываются поведение чата, маршрутизации вызовов и сведения о присутствии между пользователями рабочих групп и Скайп для бизнеса в клиента и федеративных, назначенный режимы TeamsUpgrade на основании. Оно включает в себя маршрутизации оптимизация, поведение сведения о присутствии, а также изменить режим по умолчанию TeamsUpgrade из *прежних версий* для *острова* и предстоящих пенсионного обеспечения из *прежних версий*.
+ms.openlocfilehash: c6343b7f62249dab6e02c1e42fce1cc567f5035a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786401"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569712"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Сосуществование со Skype для бизнеса
 

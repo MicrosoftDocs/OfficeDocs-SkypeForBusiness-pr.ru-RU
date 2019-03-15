@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Сводка: Узнайте, как для наблюдения за ограничений емкости памяти сервера в Скайп для Business Server.'
-ms.openlocfilehash: 05913ea5b32a9a40d7c577c4a0795ccb07db211f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eb60d48e9da0736ac8753000343b5dc1458bacf
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978702"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226976"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Монитор ограничений емкости памяти сервера в Скайп для Business Server
  
@@ -24,7 +24,7 @@ ms.locfileid: "20978702"
 > Сведения в этом разделе, на который ссылается планирования емкости относится только к клиентов Lync 2010 Mobile и служба мобильной связи (Mcx). Планирование мощности для Unified Communications Web API (UCWA), используемого клиентами Lync 2013 Mobile, предоставленные Lync Server 2013, средство планирования. 
 
 > [!NOTE]
-> Поддержка MCX для устаревших мобильных клиентов больше не доступен в Скайп для Business Server 2019. Пользователям необходимо обновить до текущего клиента.
+> Поддержка устаревших мобильных клиентов MCX (Mobility Service) больше не доступен в Скайп для Business Server 2019. Все текущей Скайп для мобильных клиентов Business уже используете Unified Communications Web API (UCWA) для поддержки мгновенного обмена Мгновенными сообщениями, сведения о присутствии и контакты. Пользователи с прежних версий клиентов, использующих MCX потребуется обновить до текущего клиента.
   
 Два счетчики производительности мобильной работы помогут вам для определения текущего использования и помощь в планировании емкости для Скайп для службы Mobility Business Server (Mcx), а также как, чтобы отслеживать использование памяти для UCWA. Для UCWA категории счетчика — **LS:WEB - UCWA**. Для службы Mobility Service (Mcx) счетчики относятся к категории **LS:WEB — Mobile Communication Service**. Отслеживаемые счетчики:
   

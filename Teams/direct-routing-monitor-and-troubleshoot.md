@@ -1,10 +1,10 @@
 ---
-title: Мониторинг и устранение неполадок прямой маршрутизации
+title: Отслеживание и устранение неполадок прямой маршрутизации
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
@@ -13,14 +13,14 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: В этой статье описывается, как для мониторинга и устранения неполадок конфигурации прямой маршрутизации.
-ms.openlocfilehash: 75f116004c0385aa7d13b0173380221304590814
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: d4cddc98ba1ba7343d17084c3635c1fc42d5332b
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30350988"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569138"
 ---
-# <a name="monitor-and-troubleshoot-direct-routing"></a>Мониторинг и устранение неполадок прямой маршрутизации
+# <a name="monitor-and-troubleshoot-direct-routing"></a>Отслеживание и устранение неполадок прямой маршрутизации
 
 В этой статье описывается, как для мониторинга и устранения неполадок конфигурации прямой маршрутизации. 
 

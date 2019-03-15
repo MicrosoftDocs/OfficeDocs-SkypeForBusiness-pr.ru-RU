@@ -1,10 +1,10 @@
 ---
-title: Специальные возможности объявление о соответствии во Франции для групп
+title: Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Группами Майкрософт est l'outil де чата collaboratif qui d'Office 365 intègre toutes personnes les, contenus et outils не votre équipe être besoin Бетонирование плюс impliquée et efficace. "
-ms.openlocfilehash: 98f80c52b16c0bd237ced2b072854a46824c0d07
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 3c3d7f364f53e7317b90388642a5bd18d4c0cab2
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541970"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569872"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration де conformité en matière d'accessibilité
 

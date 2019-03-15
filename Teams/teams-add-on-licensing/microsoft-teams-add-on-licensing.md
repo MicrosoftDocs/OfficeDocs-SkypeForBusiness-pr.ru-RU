@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Сведения о лицензиях дополнительный компонент компонентов, которые вы получите с каждой лицензии, как приобрести их для операционной системы и порядок использования существующего поставщика с ними. Вы можете получать сведения на сведения о ценах и план для Office 365, кредитов обмена данными и планов вызова.
-ms.openlocfilehash: 5912ac5cf79f0db7aaf02fa4d8425d3da80a99bb
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 8b3e68fe89f2a7f07f5f117d60c2a74327a891ca
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543081"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633228"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Лицензирование надстроек Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "30543081"
 
 В большинстве случаев приобретение пакета программного обеспечения в рамках корпоративного плана ведет к снижению общей стоимости. Как правило если приобрести несколько лицензий дополнительный компонент, а не как часть плана, может оказаться с выше объединенный расходы.
 
-Для более подробной информации о стоимости, перейдите в раздел [Просмотр цен и приобретение лицензий на надстройки](microsoft-teams-add-on-licensing.md#bkmk_how) или выберите одно из следующих:
+Дополнительные сведения о расходах см.
 
 - [Тарифы на аудиоконференции](https://products.office.com/microsoft-teams/online-meeting-solutions)
 

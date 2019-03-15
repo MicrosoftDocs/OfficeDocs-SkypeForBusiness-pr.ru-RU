@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2c4e278f-afcd-4320-9a96-799491138835
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 6383e85e5d54c0621cad2268b873ef09f1b83844
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 94d4aa37684b33ee68059000b9767dbe9c1a5f39
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460198"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569289"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-netherlands"></a>Ограничения набора бесплатных номеров в Нидерландах
 
 [Найдите другой страны или региона](../toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.
 
 
-|**Сведения**|**Описание**|
+|**Сведения**|**Описание**.|
 |:-----|:-----|
 |— Это бесплатный вызов доступны?  <br/> |Да  <br/> |
 |Формат набора  <br/> |0 800 XXX XXXX  <br/> |

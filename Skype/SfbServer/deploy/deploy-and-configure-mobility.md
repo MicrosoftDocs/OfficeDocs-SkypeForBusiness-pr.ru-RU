@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: В этой статье поможет выполнить действия, чтобы настроить существующий Скайп для установки Business Server для использования службы мобильности, позволяя мобильными устройствами должны иметь возможность использовать преимущества Скайп для функций мобильной работы Business Server.
-ms.openlocfilehash: e1799459d2e7723298aa7fdda17f89a9041efd15
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 788f4084f902fc1b5fee8ae29fcd518542f3572d
+ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649717"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30536035"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Развертывание и Настройка мобильных устройств для Скайп для Business Server  
  
@@ -258,7 +258,7 @@ ms.locfileid: "26649717"
 
 Представленные ниже шаги не обязательно выполнять в точности. Например, в предыдущих версиях продукта требовалась настройка Threat Management Gateway (TMG), поэтому если этот компонент не используется, вы можете пропустить соответствующие действия.
   
-TMG is no longer being offered by Microsoft as a product, and if you still need to configure it, you can look at the [Lync Server 2013 steps](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Но со следующими сведениями предназначенного для формирования более полезным, даже в том случае, если нет возможности мы можем предоставить определенные шаги для каждого обратного прокси-сервера.
+TMG больше не является, предлагаемые Майкрософт как продукт, и если по-прежнему необходимо настроить его, вы откроете [действия Lync Server 2013](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Но со следующими сведениями предназначенного для формирования более полезным, даже в том случае, если нет возможности мы можем предоставить определенные шаги для каждого обратного прокси-сервера.
   
 Необходимо учитывать два основных момента:
   
@@ -464,7 +464,7 @@ TMG is no longer being offered by Microsoft as a product, and if you still need 
 ## <a name="configure-for-push-notifications"></a>Настройка для использования push-уведомлений
 <a name="ConfigPush"> </a>
 
-Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the Skype or Lync app is inactive. But what are pusn notifications? They are event alerts, like a new or missed IM invitation, or for a received voicemail. Скайп для службы Business Server Mobility отправляет такие уведомления Скайп облачной для Business Server службы Push-уведомлений, который отправляет уведомления для Microsoft Push-уведомлений службы (MSNS) для пользователей Windows Phone.
+Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the Skype or Lync app is inactive. Каковы push-уведомления? They are event alerts, like a new or missed IM invitation, or for a received voicemail. Скайп для службы Business Server Mobility отправляет такие уведомления Скайп облачной для Business Server службы Push-уведомлений, который отправляет уведомления для Microsoft Push-уведомлений службы (MSNS) для пользователей Windows Phone.
   
 Данная функциональная возможность не изменяется с Lync Server 2013, но при наличии Скайп для Business Server, необходимо выполнить следующие:
   

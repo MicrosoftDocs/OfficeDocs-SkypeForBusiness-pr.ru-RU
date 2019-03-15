@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.topic: article
+ms.topic: reference
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: ce1250030b1644dc9ec28f65ad54dd89bd863877
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 2e9845a9b9ebb294d0d7af1af87fae3165244889
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542018"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569656"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Рекомендации по сбору данных для Skype для бизнеса и Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "30542018"
 
 ## <a name="census-data"></a>Данные переписи
 
-Данные переписи предоставляется исключительно для предоставления, поддержки и улучшения Скайп для бизнеса. Группами Майкрософт и Скайп для бизнеса в Интернете. Эти данные включают информацию о среде, например, версии устройства и операционной системы, а также региональные и языковые настройки. Кроме того, они содержат счетчики попыток входа и сбоев. Ниже приведены конкретные примеры собранных данных переписи:
+Данные переписи предоставляется исключительно для предоставления, поддержки и улучшения Скайп для бизнеса. Microsoft команд и Скайп для бизнеса в Интернете. Эти данные включают информацию о среде, например, версии устройства и операционной системы, а также региональные и языковые настройки. Кроме того, они содержат счетчики попыток входа и сбоев. Ниже приведены конкретные примеры собранных данных переписи:
 
 |**Тип данных**|**Пример**|**Примечания**|
 |:-----|:-----|:-----|

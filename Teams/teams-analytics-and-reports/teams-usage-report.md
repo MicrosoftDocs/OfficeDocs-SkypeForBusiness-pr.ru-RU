@@ -3,7 +3,7 @@ title: Отчет об использовании Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 03/12/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Узнайте, как использовать отчет об использовании группы в центре администрирования группами Майкрософт для получения обзор действий по группам в организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d013073402de29fc586b14c9cc3bd5ab336d3086
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0307d0b0d8c0d2501aa8f61693c4c9c01d30cc07
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463110"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569936"
 ---
 # <a name="microsoft-teams-usage-report"></a>Отчет об использовании Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "30463110"
 
 ![Снимок экрана отчета об использовании группы в центре администрирования группами Майкрософт] (../media/teams-reports-teams-usage-with-callouts.png "Снимок экрана отчета об использовании группы в центре администрирования группами Майкрософт с выносками нумерованный")
 
-|Выноска |Описание  |
+|Выноски |Описание  |
 |--------|-------------|
 |**1**   |Отчете об использовании команды можно просмотреть для тенденций за последние 7 дней или 28 дней. |
 |**2**   |Для каждого отчета указывается дата создания. Действия обычно отражаются в отчетах с задержкой в 24-48 ч. |
@@ -50,5 +50,5 @@ ms.locfileid: "30463110"
 
 ## <a name="related-topics"></a>Связанные разделы
 - [Группы аналитики и отчетов](teams-reporting-reference.md)
-- [Отчет по действиям пользователей группам](user-activity-report.md)
-- [Отчет об использовании групп устройств](device-usage-report.md)
+- [Отчет по активности пользователей Teams](user-activity-report.md)
+- [Отчет об использовании устройств в Teams](device-usage-report.md)

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 'Сводка: Сведения о счетчиках производительности, которые можно использовать для наблюдения за серверами под управлением Unified Communications Web API (UCWA) и Скайп для службы Mobility Mcx Business Server.'
-ms.openlocfilehash: a1e44d0ba7fec9eb50d7d1f1bcea78a85a1f4955
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dc2f414dce47442d50018c4a800a0c91279068c8
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969847"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226997"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Счетчики производительности мобильности в Скайп для Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "20969847"
 Имя категории для счетчиков в таблице службы Mcx Mobility Service — **LS:WEB — Mobile Communication Service**.
 
 > [!NOTE]
-> Поддержка MCX для устаревших мобильных клиентов больше не доступен в Скайп для Business Server 2019. Пользователям необходимо обновить до текущего клиента.
+> Поддержка устаревших мобильных клиентов MCX (Mobility Service) больше не доступен в Скайп для Business Server 2019. Все текущей Скайп для мобильных клиентов Business уже используете Unified Communications Web API (UCWA) для поддержки мгновенного обмена Мгновенными сообщениями, сведения о присутствии и контакты. Пользователи с прежних версий клиентов, использующих MCX потребуется обновить до текущего клиента.
   
 ## <a name="performance-counters-for-ucwa"></a>Счетчики производительности для UCWA
 
@@ -79,7 +79,7 @@ ms.locfileid: "20969847"
    
 **Счетчики производительности для службы Mcx Mobility Service**
 
-|**Счетчик**|**Описание**|
+|**Счетчик**|**Описание**.|
 |:-----|:-----|
 |Average Lifetime for a Session in Milliseconds (Среднее время существования сеанса в миллисекундах)  <br/> |Среднее время существования сеанса в миллисекундах (мс)  <br/> |
 |Current Push Notification Subscriptions (Текущие подписки на push-уведомления)  <br/> |Текущее число подписок на push-уведомления. Это число вместе с счетчиком текущих активных сеансов представляет подмножество текущих активных сеансов, зарегистрированных для устройств Windows Mobile или iPhone.  <br/> |
@@ -114,4 +114,4 @@ ms.locfileid: "20969847"
 |Total Successful Outbound Voice Calls (Всего успешных исходящих голосовых вызовов)  <br/> |Общее число успешных исходящих голосовых вызовов  <br/> |
    
 > [!NOTE]
-> Поддержка MCX для устаревших мобильных клиентов больше не доступен в Скайп для Business Server 2019. Пользователям необходимо обновить до текущего клиента.
+> Поддержка устаревших мобильных клиентов MCX (Mobility Service) больше не доступен в Скайп для Business Server 2019. Все текущей Скайп для мобильных клиентов Business уже используете Unified Communications Web API (UCWA) для поддержки мгновенного обмена Мгновенными сообщениями, сведения о присутствии и контакты. Пользователи с прежних версий клиентов, использующих MCX потребуется обновить до текущего клиента.

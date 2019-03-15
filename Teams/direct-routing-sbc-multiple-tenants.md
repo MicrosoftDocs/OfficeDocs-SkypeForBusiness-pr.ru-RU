@@ -13,12 +13,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Сведения о настройке одного пограничный контроллер сеансов (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: 438bfbc487f7723c63afc7b7c304e832bf7d49a2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 166093a628eb7a048c1959554514f74bcb1b0677
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353572"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569705"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -208,6 +208,14 @@ SBC требуется сертификат для проверки подлин
 ```
 New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
 ```
+
+При создании магистрали, может появиться следующее сообщение об ошибке:
+
+```
+Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
+```
+
+Подождите некоторое время регистрации доменов и активации для репликации и повторите попытку.
 
 Подготовка пользователей с телефонных номеров и настройка маршрутизации голосовых вызовов.
 

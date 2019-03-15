@@ -1,10 +1,10 @@
 ---
-title: Поддерживаемые языки для конференц-связи с телефонным подключением
+title: Поддерживаемые языки аудиоконференций
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 572ca0c8-b9f0-4948-9409-e12ee0b94aa0
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,77 +21,77 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: fe90baf5bcad46bef1c9f9609c98de993ce68e98
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+description: Найти язык конференц-связи для каждой страны или региона и идентификатор языка и региональных параметров, назначенных (en US, da-DK, de-DE, и т.д.)
+ms.openlocfilehash: 32e2c93cc43d548e96c2cda7c2e501e3b94fab80
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460766"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569665"
 ---
-# <a name="audio-conferencing-supported-languages"></a>Поддерживаемые языки для конференц-связи с телефонным подключением
+# <a name="audio-conferencing-supported-languages"></a>Поддерживаемые языки аудиоконференций
 
-[] При настройке и использовании конференц-связи с телефонным подключением в Office 365 можно выбрать основной и дополнительный языки (до 4), которые будут использоваться при телефонном подключении вызывающих абонентов к собранию. Далее представлен перечень поддерживаемых языков для конференц-связи с телефонным подключением. 
+Когда установка и Настройка звука конференц-связи в Office 365, можно выбрать основной и дополнительный (до 4) языки, которые используются при абонентов по телефонной линии к Скайп для бизнеса или группами Майкрософт собрания. Ниже приведен список поддерживаемых языков для аудиоконференции: 
   
 > [!IMPORTANT]
-> Основные и дополнительные языки можно настроить только для выделенных телефонных номеров конференц-связи с телефонным подключением. 
+> Только на выделенном аудиоконференции телефонных номеров можно изменить основных и дополнительных языков. 
   
-## <a name="currently-supported-languages"></a>Языки, поддерживаемые на данный момент
+## <a name="currently-supported-languages"></a>В настоящее время поддерживаемые языки
 
-|****Язык****|****Страна или регион****|****Код языка****|
+|**Язык**|**Страна или регион**|**Идентификатор языка и региональных параметров**|
 |:-----|:-----|:-----|
-|Арабский  <br/> |Саудовская Аравия  <br/> |ar-SA  <br/> |
-|Болгарский  <br/> |Болгария  <br/> |bg-BG  <br/> |
-|Кантонский  <br/> |Гонконг  <br/> |zh-HK  <br/> |
+|арабский  <br/> |Saudi Arabia (المملكة العربية السعودية)  <br/> |ar-SA  <br/> |
+|болгарский  <br/> |Болгария  <br/> |bg-BG  <br/> |
+|Cantonese  <br/> |Гонконг  <br/> |zh-HK  <br/> |
 |Китайский (упрощенное письмо)  <br/> |Китай  <br/> |zh-CN  <br/> |
 |Китайский (традиционное письмо)  <br/> |Тайвань  <br/> |zh-TW  <br/> |
-|Хорватский  <br/> |Хорватия  <br/> |hr-HR  <br/> |
-|Чешский  <br/> |Чешская Республика  <br/> |cs-CZ  <br/> |
+|хорватский  <br/> |Хорватия  <br/> |hr-HR  <br/> |
+|чешский  <br/> |Чешская Республика  <br/> |CS Чехия  <br/> |
 |Датский  <br/> |Дания  <br/> |da-DK  <br/> |
 |Нидерландский  <br/> |Нидерланды  <br/> |nl-NL  <br/> |
 |Английский  <br/> |Австралия  <br/> |en-AU  <br/> |
-|Английский  <br/> |Великобритания  <br/> |en-GB  <br/> |
+|Английский  <br/> |Соединенное Королевство  <br/> |en-GB  <br/> |
 |Английский  <br/> |США  <br/> |en-US  <br/> |
-|Эстонский  <br/> |Эстония  <br/> |et-EE  <br/> |
-|Филиппинский  <br/> |Филиппины  <br/> |fil-PH  <br/> |
-|Финский  <br/> |Финляндия  <br/> |fi-FL  <br/> |
+|эстонский  <br/> |Эстония  <br/> |ET-EE  <br/> |
+|филиппинский  <br/> |Филиппины  <br/> |ФАЗЫ файлов  <br/> |
+|Финский  <br/> |Финляндия  <br/> |Fi-FL  <br/> |
 |Французский  <br/> |Канада  <br/> |fr-CA  <br/> |
 |Французский  <br/> |Франция  <br/> |fr-FR  <br/> |
 |Немецкий  <br/> |Германия  <br/> |de-DE  <br/> |
-|Грузинский  <br/> |Грузия  <br/> |ka-GE  <br/> |
-|Греческий  <br/> |Греция  <br/> |el-GR  <br/> |
-|Иврит  <br/> | Израиль <br/> | he-IL <br/> |
-|Хинди  <br/> |Индия  <br/> |hi-IN  <br/> |
-|Венгерский  <br/> |Венгрия  <br/> |hu-HU  <br/> |
-|Индонезийский  <br/> |Индонезия  <br/> |id-ID  <br/> |
+|грузинский  <br/> |Грузия  <br/> |в статье GE  <br/> |
+|греческий  <br/> |Греция  <br/> |Группа El  <br/> |
+|иврит  <br/> | Израиль <br/> | он IL <br/> |
+|хинди  <br/> |Индия  <br/> |-в  <br/> |
+|венгерский  <br/> |Венгрия  <br/> |Венгрия Венгрия  <br/> |
+|индонезийский  <br/> |Индонезия  <br/> |идентификатор ID  <br/> |
 |Итальянский  <br/> |Италия  <br/> | it-IT <br/> |
 |Японский  <br/> |Япония  <br/> |ja-JP  <br/> |
 |Корейский  <br/> |Корея  <br/> |ko-KR  <br/> |
-|Латышский  <br/> |Латвия  <br/> |lv-LV  <br/> |
-|Литовский  <br/> |Литва  <br/> |lt-LT  <br/> |
-|Малайский  <br/> |Малайзия  <br/> |ms-MY  <br/> |
+|латышский  <br/> |Латвия  <br/> |LV Латвия  <br/> |
+|литовский  <br/> |Литва  <br/> |lt-LT  <br/> |
+|малайский  <br/> |Малайзия  <br/> |Мои мс  <br/> |
 |Норвежский (букмол)  <br/> |Норвегия  <br/> |nb-NO  <br/> |
 |Польский  <br/> |Польша  <br/> |pl-PL  <br/> |
 |Португальский  <br/> |Бразилия  <br/> |pt-BR  <br/> |
 |Португальский  <br/> |Португалия  <br/> |pt-PT  <br/> |
-|Румынский  <br/> |Румыния  <br/> |ro-RO  <br/> |
+|румынский  <br/> |Румыния  <br/> |строки строки  <br/> |
 |Русский  <br/> |Россия  <br/> |ru-RU  <br/> |
-|Словацкий  <br/> |Словакия  <br/> |sk-SK  <br/> |
-|Словенский  <br/> |Словения  <br/> |sk-SK  <br/> |
+|словацкий  <br/> |Словакия  <br/> |sk-SK  <br/> |
+|словенский  <br/> |Словения  <br/> |sk-SK  <br/> |
 |Испанский  <br/> |Мексика  <br/> |es-MX  <br/> |
 |Испанский  <br/> |Испания  <br/> |es-ES  <br/> |
 |Шведский  <br/> |Швеция  <br/> |sv-SE  <br/> |
-|Тайский  <br/> |Таиланд  <br/> |th-TH  <br/> |
-|Турецкий  <br/> |Турция  <br/> |tr-TR  <br/> |
-|Украинский  <br/> |Украина  <br/> |uk-UA  <br/> |
+|тайский  <br/> |Таиланд  <br/> |ое й  <br/> |
+|турецкий  <br/> |Турция  <br/> |tr-TR  <br/> |
+|украинский  <br/> |Украина  <br/> |UA (Великобритания)  <br/> |
    
-Сведения о странах или регионах, где можно приобрести услуги на конференц-связь через ТСОП, см. в разделе [Доступна ли конференц-связь по ТСОП с телефонными номерами в моей стране или регионе?](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Если вы ищете странах или регионах, где вы можете приобрести звук конференц-связи, ознакомьтесь со [страны и региона доступности для конференц-связи аудио и вызов планов](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 Если вы ищете конкретных стран или регионов, имеющие номера телефонов для аудиоконференции, просмотрите [номера телефонов для аудиоконференции в группах Майкрософт](phone-numbers-for-audio-conferencing-in-teams.md) или [номера телефонов для аудиоконференции в Скайп для бизнеса в Интернет](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Для экономии времени или автоматизации процесса можно воспользоваться командлетами [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) или[Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689).
+- Для экономии времени или автоматизировать этот процесс, можно использовать командлеты [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) или [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) .
     
 - Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
@@ -110,8 +110,8 @@ ms.locfileid: "30460766"
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Связанные разделы
 
-[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Платная или пробная версия аудиоконференций в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

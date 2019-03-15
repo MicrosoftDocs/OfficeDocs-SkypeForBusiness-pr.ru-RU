@@ -1,10 +1,10 @@
 ---
-title: Оценка среды для рабочих нагрузок команды Microsoft cloud голосовой связи
+title: Оценка среды для рабочих нагрузок облачной голосовой службы Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29bfd87d860cc68b988e365a77f28eed8fa9e2f5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c092904151ac0a05536a52a9ee8b475c9264a21a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459097"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568546"
 ---
-# <a name="evaluate-my-environment"></a>Оценка моей среды
+# <a name="evaluate-my-environment"></a>Оценка среды
 
 В этой статье дается обзор требований к должным образом оценка текущей среды к использованию облачных служб голосовой связи. Оценка среды, определение рисков и требования, которые влияют на общую развертывания облака голосовой связи. С учетом этих элементов заранее, можно скорректировать планирования для достижения успеха.
 

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Сведения об использовании встроенных и настраиваемых вкладок для таких компонентов, как беседы, файлы, карты и многое другое.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1e93de09dc99832f942397a3af966334371a094
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e63cbe83214f9323692804b7d297de9091aceef0
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458798"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568666"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Использование встроенных и настраиваемых вкладок в Microsoft Teams
 ==================================================
@@ -32,7 +32,7 @@ ms.locfileid: "30458798"
 
 ## <a name="work-with-tabs"></a>Работа с вкладками
 
-- Каждый новый канал две вкладки будут иметь доступ по умолчанию, беседы и файлы. 
+- Каждый новый канал две вкладки будут иметь доступ по умолчанию: бесед и файлы. 
 
     ![Снимок экрана с разделом беседы для маркетинговой команды.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 - С каждой частной беседы четыре вкладки будут иметь доступ по умолчанию бесед, файлы, организации и действия.

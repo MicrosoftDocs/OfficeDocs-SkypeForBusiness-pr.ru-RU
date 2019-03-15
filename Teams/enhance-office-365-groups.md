@@ -1,5 +1,5 @@
 ---
-title: Улучшение имеющихся групп Office 365 с помощью Microsoft Teams
+title: Улучшите существующие группы Office 365 с группами Майкрософт
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95112a3a3e4aea4fee68507fea4c366dac1da2da
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 13b34da03c35706fafb02a4e9e02eab629a4a399
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463526"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568418"
 ---
-<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Улучшение имеющихся групп Office 365 с помощью Microsoft Teams
+<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Улучшите существующие группы Office 365 с группами Майкрософт
 =======================================================
 
 Пользователи Microsoft Teams могут улучшить имеющуюся группу Office 365 с помощью функций Microsoft Teams. Общедоступную группу Office 365 можно улучшить, если число ее участников не превышает 2500.
@@ -32,7 +32,6 @@ ms.locfileid: "30463526"
 > Только владелец группы Office 365 иметь разрешение для улучшения существующей группы с группами Майкрософт и этой группы должны содержать меньше, чем 2500 пользователей. Команды, которые уже были улучшены не будет отображаться в списке.
 >
 >Параметр **создать группы из существующей группы Office 365** не будет доступен, пока не выполнены следующие условия.
-
 
 Пользователи также могут приглашать участников в команду с помощью списка рассылки. Это осуществляется с помощью однократной синхронизации, а репликация последующих изменений членства в группе, вносимых в этот список рассылки, в Teams не осуществляется. 
 

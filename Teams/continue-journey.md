@@ -3,7 +3,7 @@ title: Планирование внедрения пользователя гр
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ad07d4445e02c10eb75a62d6fa2933b413b8107
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cb457ff6f5ba40575a8a7fc35738d8dda1ce45f5
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463278"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569976"
 ---
 ![Этапы обновления пути с акцентом на стадии высокий уровень работоспособности] (media/upgrade-banner-op-excellence.png "Этапы обновления пути с акцентом на стадии высокий уровень работоспособности")
 
@@ -35,8 +35,8 @@ ms.locfileid: "30463278"
 Состояния сети влияет на взаимодействие с пользователем. Когда у пользователя есть плохого качества (например, звонок падения или задержки времени при присоединении к собраниям), они сопоставляться с этой технологии самого, оставив их с помощью технологии не работает впечатление и открытие двери для приложений не поддерживается. Реализация плана для контроля и устранять работоспособность сети поможет обеспечить положительное пользовательского интерфейса в дополнение к уменьшению числа обращений в службу поддержки. Дополнительные сведения см в следующих статьях:
 
 - [Использование службы](upgrade-operate-my-service.md)
-- [Отслеживание качества](upgrade-monitor-quality.md)
-- [Улучшения службы](upgrade-enhance-my-service.md)
+- [Мониторинг качества](upgrade-monitor-quality.md)
+- [Улучшение службы](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Диск momentum пользователей и внедрения
 

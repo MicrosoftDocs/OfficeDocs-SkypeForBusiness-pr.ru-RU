@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 9e46f068-564b-464b-bd5c-82d92097f45f
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 9044f3e9f595f3ecb8e536cd2df20f9da9c9a7ac
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 524ea0ee55efbe8afe348ecd50ee7171935a814e
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461286"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569609"
 ---
 # <a name="toll-free-dialing-restrictions-in-luxembourg"></a>Ограничения набора бесплатных номеров в Люксембурге
 
 [Найдите другой страны или региона](../toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.
 
 
-|**Сведения**|**Описание**|
+|**Сведения**|**Описание**.|
 |:-----|:-----|
 |— Это бесплатный вызов доступны?  <br/> |Да  <br/> |
 |Формат набора  <br/> | 800 2 XXXX <br/> |

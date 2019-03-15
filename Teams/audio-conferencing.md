@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0bf506350a6e656d0143a968bcd0e884b47e5653
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: c5e9015bb13dd21ff503ac5767cce5b9704eef03
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120686"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633292"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Практическое руководство по развертыванию Аудиоконференций в Microsoft Teams
 ============================================================
@@ -324,7 +324,7 @@ ms.locfileid: "30120686"
 -   Поддержка нескольких языков для моста конференций (основной и дополнительный)
 -   Телефонный номер по умолчанию для клиента.
 
-Полное описание имеющихся возможностей см. в статьях [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) и [Номера телефонов для аудиоконференций](phone-numbers-for-audio-conferencing-in-teams.md).
+Полное описание возможностей, включенный в разделе [Настройка звука конференц-связи для групп Майкрософт](set-up-audio-conferencing-in-teams.md) и [номера телефонов для аудиоконференции](phone-numbers-for-audio-conferencing-in-teams.md).
 
 > [!NOTE]
 > Выделенные телефонные номера для моста конференций учитываются среди суммарного числа номеров, которые можно получить на одного клиента. Их количество ограничено и зависит от числа применимых лицензий, как описано в статье [Получение номеров телефонов служб для Skype для бизнеса](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Бесплатные телефонные номера для моста конференций требуют использования Кредитов на связь.
@@ -549,4 +549,4 @@ ms.locfileid: "30120686"
 <br>
 ## <a name="see-also"></a>См. также
 
-[Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Настройка звука конференц-связи для групп Майкрософт](set-up-audio-conferencing-in-teams.md)
