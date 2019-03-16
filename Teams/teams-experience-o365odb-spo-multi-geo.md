@@ -1,9 +1,9 @@
 ---
-title: Группы взаимодействия в Office 365 OneDrive и SharePoint Online несколькими географически сообщениями аренде
+title: Интерфейс Teams в клиентах OneDrive Office 365 и SharePoint Online с поддержкой нескольких регионов
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 description: Сведения об использовании группы в Office 365 OneDrive и SharePoint Online несколькими географически сообщениями аренды.
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b93b67125693487e07fce824c01dbd5e955294
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462630"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649262"
 ---
-<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Группы взаимодействия в Office 365 OneDrive и SharePoint Online несколькими географически сообщениями аренде
+<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Интерфейс Teams в клиентах OneDrive Office 365 и SharePoint Online с поддержкой нескольких регионов
 ===========================================
 
 Группами Майкрософт — это программное обеспечение группы чата, сервер-концентратор для работы в Office 365. На платформе службой Office 365 групп вместе с SharePoint Online и OneDrive для бизнеса для работы файлов. В OneDrive для бизнеса и SharePoint Online Multi-географически клиента, в котором клиента расширяется на многих географических Северная Америка, Европа и Австралия, базовым файлов необходимо Multi-географически принять во внимание, поэтому команды опыт использования файла Совместная работа также — ферма с несколькими-географически принять во внимание. Это Ключевая возможность передовых для групп на поверхности файлы одновременно в нескольких Geos в файлы в формате работы.

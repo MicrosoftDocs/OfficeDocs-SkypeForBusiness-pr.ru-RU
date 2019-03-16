@@ -3,7 +3,7 @@ title: Требования к группами Майкрософт | Улуч�
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Регулярно оценивают возможности для улучшения службы групп после обновления, отслеживать плану группами для любого интересных усовершенствований.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20d3c30157b58640b3bdfe5c1941d68a745c0e68
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 78b90349ebaf5dfea878d32c750d03d379c14cab
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461254"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649374"
 ---
 ![Этапы обновления пути с акцентом на стадии высокий уровень работоспособности] (media/upgrade-banner-op-excellence.png "Этапы обновления пути с акцентом на стадии высокий уровень работоспособности")
 

@@ -11,140 +11,145 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 в гибридной среде с сервером Exchange при локальном.
-ms.openlocfilehash: 49e0b85cc38de91ed269ca103ef995507a6d1e37
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: a804ba6b1210efae8ed36630180f14ad367cb955
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699362"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30645418"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Развертывание Систем комнат Skype версии 2 в локальной среде Exchange
- 
+
 В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 в гибридной среде с Exchange при локальном и Скайп для бизнеса в Интернет.
   
-Если в организации имеется набор служб, с некоторыми размещенных в локальную организацию и некоторые размещаются в сети, конфигурации будут зависеть от размещение каждой службы. В этом разделе рассматриваются гибридного развертывания в системах комнаты Скайп версии 2 с Exchange hosted локально. Из-за слишком большом числе различные варианты в этом типе развертывания, не поддерживается представлены подробные инструкции по их все. Процесс будет работать для многих конфигураций. Если процесс не подходит для вашей установки, мы рекомендуем использовать Windows PowerShell для достижения же конечный результат, как описано ниже, а также другие параметры развертывания. 
+Если в организации имеется набор служб, с некоторыми размещенных в локальную организацию и некоторые размещаются в сети, конфигурации будут зависеть от размещение каждой службы. В этом разделе рассматриваются гибридного развертывания в системах комнаты Скайп версии 2 с Exchange hosted локально. Из-за слишком большом числе различные варианты в этом типе развертывания, не поддерживается представлены подробные инструкции по их все. Процесс будет работать для многих конфигураций. Если процесс не подходит для вашей установки, мы рекомендуем использовать Windows PowerShell для достижения же конечный результат, как описано ниже, а также другие параметры развертывания.
 
 Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей, или validate существующие учетные записи ресурсов, что у вас есть помогающих перевод их в совместимые учетных записей пользователей системы комнаты Скайп версии 2. При необходимости можно выполните следующие действия, чтобы настроить учетные записи, используемые устройства версии 2 Скайп комнаты систем.
   
-## <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Развертывание Систем комнат Skype версии 2 в локальной среде Exchange
+## <a name="requirements"></a>Требования
 
 Перед развертыванием системы комнаты Скайп версии 2 с сервером Exchange при локальном убедитесь, что удовлетворены требования. Дополнительные сведения см. в разделе [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
 При развертывании системы комнаты Скайп версии 2 с сервером Exchange при локальном использовании средств администрирования Active Directory для добавления адрес электронной почты для учетной записи домена в локальной. Эта учетная запись будет синхронизирован с Office 365. Выполните указанные ниже действия.
   
 - Создайте учетную запись и синхронизируйте ее с Active Directory.
-    
+
 - Включите удаленный почтовый ящик и задайте его свойства.
-    
+
 - Назначение лицензии Office 365.
-    
+
 - Включение учетной записи устройства с Скайп для Business Server. Для включения учетной записи устройства в вашей среде должны выполняться указанные ниже предварительные требования.
-    
+
   - Необходимо иметь Скайп для бизнеса Online (план 2) или более поздней версии в плане Office 365. План должен поддерживать функции конференц-связи.
-    
-  - Если вам требуется корпоративной голосовой связи (телефонии PSTN) с помощью службы телефонии для систем комнаты Скайп версии 2 необходимо Скайп для бизнеса Online (план 3).
-    
-  - Клиент пользователи должны иметь почтовые ящики Exchange.
-    
-  - Вашей системы комнаты Скайп версии 2 для учетной записи требуются Скайп для бизнеса Online (план 2) или Скайп для бизнеса в Интернет (план 3) лицензии, но не требует лицензии Exchange Online.
-    
+  
+  - - Если вам требуется корпоративной голосовой связи (телефонии PSTN) с помощью службы телефонии для систем комнаты Скайп версии 2 необходимо Скайп для бизнеса Online (план 3).
+  
+  - - Клиент пользователи должны иметь почтовые ящики Exchange.
+  
+  - - Вашей системы комнаты Скайп версии 2 для учетной записи требуются Скайп для бизнеса Online (план 2) или Скайп для бизнеса в Интернет (план 3) лицензии, но не требует лицензии Exchange Online.
+
 - Назначьте Скайп лицензию Business Server для учетной записи системы комнаты Скайп версии 2.
-    
+
 ### <a name="create-an-account-and-synchronize-with-active-directory"></a>Создание учетной записи и ее синхронизация с Active Directory
 
 1. Средства **Active Directory — пользователи и компьютеры AD** щелкните правой кнопкой мыши папку или подразделение, что систем комнаты Скайп v2 учетные записи будут создаваться в, нажмите кнопку **Создать**и выберите пункт **пользователь**.
-    
+
 2. Введите отображаемое имя из предыдущего командлета в поле **Полное имя**, а затем псевдоним в поле **Имя входа пользователя**. Нажмите кнопку **Далее**.
-    
+
 3. Введите пароль учетной записи. Подтвердите пароль. Убедитесь, что выбран только параметр **Срок действия пароля не ограничен**.
-    
+
     > [!NOTE]
     > Выбор **Срок действия пароля не ограничен** является обязательным требованием для Скайп для Business Server на Скайп комнаты систем версии 2. В некоторых случаях пароли с неограниченным сроком действия могут быть запрещены правилами домена. Если Да, необходимо создать исключение для каждой учетной записи системы комнаты Скайп версии 2 устройства.
   
 4. После создания учетной записи выполните синхронизацию каталогов. После завершения перейдите на страницу пользователей в центре администрирования Office 365 и убедитесь, что учетной записи, созданной на предыдущих шагах содержащей объединенные в Интернете.
-    
+
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Включите удаленный почтовый ящик и задайте его свойства.
 
-1. Включение удаленного почтового ящика, открыв вашей локальной среды управления Exchange с правами администратора и выполните следующую команду:
-     
-   ```
-   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -Room
+1. [Откройте командную консоль Exchange](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) или [подключиться к серверу Exchange server с помощью удаленной оболочки PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
+
+2. В Exchange PowerShell создавать почтового ящика для учетной записи (почтового ящика включения учетной записи), выполнив следующую команду:
+
+   ``` Powershell
+   Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
-2. Для запуска удаленного сеанса Windows PowerShell и подключитесь к Microsoft Exchange. Клиент Office 365 выполните следующие команды:
-    
-   ```
-   $org='contoso.com'
-   $cred=Get-Credential $admin@$org
-   $sess = New-PSSession -ConfigurationName Microsoft.Exchange -Credential $cred -AllowRedirection -Authentication Basic -ConnectionUri "https://<ExchangeServerFQDN>/PowerShell"
-   Import-PSSession $sess
+   Подробный синтаксис и сведений о параметрах в разделе [Enable-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox).
+
+3. В Exchange PowerShell настройте следующие параметры на почтовый ящик помещения, чтобы улучшить работу в собрание:
+
+   - AutomateProcessing: AutoAccept (организаторам собрания принимать решение резервирования помещений напрямую без участия: свободен = принять; занят = отклонить.)
+
+   - AddOrganizerToSubject: $false (организатор собрания не добавляется к теме запроса на проведение собрания).
+
+   - DeleteComments: $false (сохранения любого текста в теле сообщения входящих приглашений на собрания).
+
+   - DeleteSubject: $false (Keep темы входящих приглашений на собрания).
+
+   - RemovePrivateProperty: $false (гарантирует пометку "частное", которые были отправлены организатором собрания в исходное приглашение на собрание запросить остается как указано).
+
+   - AddAdditionalResponse: $true (текста, указанного с помощью параметра AdditionalResponse добавляется для приглашений на собрания).
+
+   - AdditionalResponse: «это Скайп конференц-зала!» (Дополнительный текст для добавления в запрос на собрание.)
+
+   В этом примере настраивается эти параметры в почтовый ящик помещения, с именем Project-Rigel-01.
+
+   ``` PowerShell
+   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-3. Чтобы улучшить работу в собрание, то необходимо задать свойства Exchange учетной записи устройства следующим образом:
-    
-   ```
-   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false 
-   -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse 'This is a Skype Meeting room!'
-   ```
-    Дополнительные сведения о свойств, которые необходимо набора свойств Exchange Server см.
-    
-4. Для применения некоторых настроек учетной записи потребуется подключиться к Azure AD. Для подключения можно использовать следующую команду:
-    
-   ```
-   Connect-MsolService -Credential $cred
-   ```
+   Подробный синтаксис и сведений о параметрах в разделе [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
 ### <a name="assign-an-office-365-license"></a>Назначение лицензии Office 365
 
-1. Учетная запись устройства должна быть действительной лицензии Office 365, чтобы убедиться, что Скайп для Business Server и Exchange будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи.
-    
-2. Затем используйте Get-MsolAccountSku для получения списка доступных номеров SKU для клиента Office 365.
-    
-3. После этого вы можете добавить лицензию с помощью командлета Set-MsolUserLicense. В этом случае будет отображаться код SKU $strLicense (например, contoso:STANDARDPACK).
-    
+1. Подключитесь к PowerShell Azure Active Directory. Сведения содержатся в разделе [подключение с помощью Azure Active Directory PowerShell для модуля "график"](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+
+2. Учетная запись устройства должна быть действительной лицензии Office 365 или Exchange и Скайп для бизнеса не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Get-AzureADSubscribedSku можно использовать для получения списка доступных номеров SKU для клиента Office 365 следующим образом:
+
+   ``` Powershell
+   Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```
-   Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+
+   Теперь можно добавить лицензии, с помощью командлета Set-AzureADUserLicense. В этом случае будет отображаться код SKU $strLicense (например, contoso:STANDARDPACK).
+
+   ``` Powershell
+   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
+   Get-AzureADSubscribedSku
+   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```
+
+   Подробные сведения содержатся в разделе [Назначение лицензий для учетных записей пользователей с Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 ### <a name="enable-the-device-account-with-skype-for-business"></a>Включение учетной записи устройства со Skype для бизнеса
 
 1. Создайте удаленного сеанса Windows PowerShell с ПК, как показано ниже:
-    
-   ```
-   Import-Module LyncOnlineConnector  
+
+   ``` Powershell
+   Import-Module SkypeOnlineConnector  
    $cssess=New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
    ```
 
 2. Включение учетной записи системы комнаты Скайп версии 2 для Скайп для Business Server, выполните следующую команду.
-    
-   ```
+
+   ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
    Если вы не уверены, используйте для параметра RegistrarPool в вашей среде, можно получить значение из существующего Скайп для пользователя Business Server, с помощью этой команды
-    
-   ```
+
+   ``` Powershell
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
 ### <a name="assign-a-skype-for-business-license-to-your-skype-room-systems-v2-account"></a>Назначение лицензии Skype для бизнеса своей учетной записи Систем комнат Skype версии 2
 
 1. Выполните вход в качестве администратора клиента, откройте административного портала Office 365 и щелкните приложения администрирования.
-    
 2. Выберите **Пользователи и группы**, после чего щелкните **Добавление пользователей, сброс паролей и другие действия**.
-    
 3. Щелкните учетную запись комнаты систем Скайп версии 2 и нажмите кнопку перо значок, чтобы изменить сведения об учетной записи.
-    
 4. Щелкните **Лицензии**.
-    
 5. В разделе **Назначение лицензий** выберите Skype для бизнеса (план 2) или Skype для бизнеса (план 3), в зависимости от требований к лицензированию и Корпоративной голосовой связи. Вам потребуется использовать лицензии планирование 3, если вы хотите использовать корпоративной голосовой связи на вашей версии 2 Скайп комнаты систем.
-    
 6. Нажмите кнопку **Сохранить**.
-    
+
 Для проверки можно использовать любой Скайп для бизнеса клиента для входа в эту учетную запись.
   
 ## <a name="see-also"></a>См. также
@@ -158,4 +163,3 @@ ms.locfileid: "25699362"
 [Настройка консоли для Систем комнат Skype версии 2](console.md)
   
 [Управление Системами комнат Skype версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

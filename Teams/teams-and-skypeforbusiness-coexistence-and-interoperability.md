@@ -3,7 +3,7 @@ title: Группами Майкрософт | Обновление, о-ва р�
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Подробные сведения о Скайп для бизнеса и группами Майкрософт параметры сосуществования и взаимодействия между Скайп для бизнеса и рабочих групп.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd9f3deeabed9f024179499f4515ae4d12f444b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 63ddff805d0898b40cddae8a0fb9072359507da8
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465038"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647435"
 ---
 ![Этапы обновления пути с акцентом на стадии определения проекта] (media/upgrade-banner-project-definition.png "Этапы обновления пути с акцентом на стадии определения проекта")
 

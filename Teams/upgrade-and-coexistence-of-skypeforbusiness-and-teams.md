@@ -3,7 +3,7 @@ title: Обновление групп Майкрософт с Скайп для
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen, bjwhalen
 description: Подробные сведения о Скайп для бизнеса и группами Майкрософт параметры совместной работы и режимы и обновления поездок группам из Скайп для бизнеса с примеры сценариев использования.
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c7401ccf8bdefa7eaf906795d5e5e37ac8ba2e
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 22bd17ffbb29695f69aa4eff8581821a882f1614
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493959"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649198"
 ---
 ![Этапы обновления пути с акцентом на развертывание и стадии реализации] (media/upgrade-banner-deployment.png "Этапы обновления пути с акцентом на развертывание и стадии реализации")
 

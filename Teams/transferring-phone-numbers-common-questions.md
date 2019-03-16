@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Следующих часто задаваемые вопросы о передаче телефонных номеров Скайп для бизнеса. После просмотра ответов, можно приступить к созданию номеру порта и перемещение телефонных номеров. В разделе Передача номера телефонов в Office 365 для получения инструкций.
-ms.openlocfilehash: 57d20095302e4a971ea35a91e1fb46e4499735f9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543217"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649430"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Общие вопросы о переносе телефонных номеров
 
@@ -69,7 +69,7 @@ ms.locfileid: "30543217"
   **НЕ УДАЕТСЯ ПЕРЕНЕСТИ:**
   
 > [!NOTE]
-> В настоящее время не удается перенести любой номер телефона или чисел, не из поддерживаемых страны или региона, включая номера телефонов у поставщика телефона VoIP. Список поддерживаемых стран и регионов см [страны и региона доступности для конференц-связи аудио и вызов планов](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> В настоящее время не удается перенести любой номер телефона или чисел, не из поддерживаемых страну или регион, включая номера телефонов у поставщика телефона VoIP. Список поддерживаемых стран и регионов см [страны и региона доступности для конференц-связи аудио и вызов планов](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - Номера телефонов, используемые для подключения к данным, как и для линии DSL или высокоскоростное подключения к Интернету.
     
@@ -173,7 +173,7 @@ ms.locfileid: "30543217"
   
 ## <a name="related-topics"></a>См. также:
 
-[Различные типы номеров телефонов для планов звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
 

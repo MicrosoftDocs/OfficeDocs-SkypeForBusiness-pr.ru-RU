@@ -3,7 +3,7 @@ title: Project Скайп область для бизнеса для внедр
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Определите область обновления проекта, оптимизация концепции и целей.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a4d042864e3260404ddbbaa56f39c7408a0896c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 346fbfc241616af0ac071269f73dbc4f1ad66bfb
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464830"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649406"
 ---
 ![Этапы обновления пути с акцентом на стадии определения проекта] (media/upgrade-banner-project-definition.png "Этапы обновления пути с акцентом на стадии определения проекта")
 
@@ -102,7 +102,7 @@ ms.locfileid: "30464830"
 
 | Риск | Вероятность | Влияние | Общий уровень | План по устранению рисков |
 |---|---|---|---|-------|
-| **Качества сети** | Средний | Высокий уровень | Высокий уровень | Выполните планирование упражнения сети. |
+| **Качества сети** | Средняя | Высокий уровень | Высокий уровень | Выполните планирование упражнения сети. |
 | **Низкая пользователя внедрения** | Высокий уровень | Высокий уровень | Высокий уровень | Упреждающий работают с пользователями на этапах пилотного проекта и развертывание; Реализуйте целевые сведения о и обучение кампании для создания стремление. |
 | | | | | |
 

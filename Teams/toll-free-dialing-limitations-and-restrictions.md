@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона, чтобы набрать этот номер бесплатный номер.
-ms.openlocfilehash: 2c5f5d97972fe1c1002ffb16ca39f6a6224beb06
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 854b471cff9affeb6c051a1a7d8993aeb27f7f6d
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542114"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649398"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Ограничения и запреты для бесплатных номеров
 

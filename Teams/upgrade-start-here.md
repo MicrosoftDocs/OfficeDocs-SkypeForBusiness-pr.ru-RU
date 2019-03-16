@@ -4,7 +4,7 @@ author: dearbeen
 ms.author: dearbeen
 manager: serdars
 ms.date: 01/30/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Узнайте, почему необходимо учитывать обновление Скайп для бизнеса группами Майкрософт.
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5082b99d6742b72520ac7a42b33c80e19a329517
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d35f146ee7c52aa6c32f44e5fcefdad855dfbd3e
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461886"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649502"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Начало перехода на Microsoft Teams
 
@@ -53,8 +53,8 @@ Microsoft стремится успеха и обеспечивает надеж
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> Чтобы узнать больше о переходе со Skype для бизнеса на Microsoft Teams, посмотрите следующие обучающие ролики:
-> - [Общие сведения о переходе](https://aka.ms/teams-upgrade-intro)
-> - [Планирование перехода](https://aka.ms/teams-upgrade-plan)
-> - [Сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)
+> Просмотрите следующие сеанса для получения сведений об обновлении Скайп для бизнеса группами Майкрософт:
+> - [Общие сведения об обновлении](https://aka.ms/teams-upgrade-intro)
+> - [Планирование обновления](https://aka.ms/teams-upgrade-plan)
+> - [Взаимодействие и совместная работа](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Интерфейс администратора](https://aka.ms/teams-upgrade-admin)

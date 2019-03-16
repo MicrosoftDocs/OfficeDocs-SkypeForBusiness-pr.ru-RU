@@ -24,14 +24,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e06766ffd650a28f13d2b89f969a1a5c87a9fe0
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: a6fe072d3ffa8764b0c5f86347db4c187e18b046
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494055"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649238"
 ---
-# <a name="upgrade-to-teams"></a>Обновление до группы
+# <a name="upgrade-to-teams"></a>Переход на Teams
 
 Поздравляем с вашего ожидающие обновления Скайп для бизнеса группами Майкрософт. Как вы будете только что Приступая к работе с командами, уже с помощью команды наряду с Скайп для бизнеса, так и Готово к обновлению, необходимо убедиться, что у вас есть все необходимо перейдите успешные пути к группам.  
 
@@ -42,8 +42,8 @@ ms.locfileid: "30494055"
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> Чтобы узнать больше о переходе со Skype для бизнеса на Microsoft Teams, посмотрите следующие обучающие ролики:
-> - [Общие сведения о переходе](https://aka.ms/teams-upgrade-intro)
-> - [Планирование перехода](https://aka.ms/teams-upgrade-plan)
-> - [Сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)
+> Просмотрите следующие сеансов Дополнительные сведения об обновлении Скайп для бизнеса группами Майкрософт:
+> - [Общие сведения об обновлении](https://aka.ms/teams-upgrade-intro)
+> - [Планирование обновления](https://aka.ms/teams-upgrade-plan)
+> - [Взаимодействие и совместная работа](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Интерфейс администратора](https://aka.ms/teams-upgrade-admin)
