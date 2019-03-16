@@ -24,26 +24,26 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e06766ffd650a28f13d2b89f969a1a5c87a9fe0
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: a6fe072d3ffa8764b0c5f86347db4c187e18b046
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494055"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649238"
 ---
-# <a name="upgrade-to-teams"></a><span data-ttu-id="a0322-103">Обновление до группы</span><span class="sxs-lookup"><span data-stu-id="a0322-103">Upgrade to Teams</span></span>
+# <a name="upgrade-to-teams"></a><span data-ttu-id="a3fd3-103">Переход на Teams</span><span class="sxs-lookup"><span data-stu-id="a3fd3-103">Upgrade to Teams</span></span>
 
-<span data-ttu-id="a0322-104">Поздравляем с вашего ожидающие обновления Скайп для бизнеса группами Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="a0322-104">Congratulations on your pending upgrade from Skype for Business to Microsoft Teams.</span></span> <span data-ttu-id="a0322-105">Как вы будете только что Приступая к работе с командами, уже с помощью команды наряду с Скайп для бизнеса, так и Готово к обновлению, необходимо убедиться, что у вас есть все необходимо перейдите успешные пути к группам.</span><span class="sxs-lookup"><span data-stu-id="a0322-105">Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we want to ensure you have everything you need to navigate a successful journey to Teams.</span></span>  
+<span data-ttu-id="a3fd3-104">Поздравляем с вашего ожидающие обновления Скайп для бизнеса группами Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="a3fd3-104">Congratulations on your pending upgrade from Skype for Business to Microsoft Teams.</span></span> <span data-ttu-id="a3fd3-105">Как вы будете только что Приступая к работе с командами, уже с помощью команды наряду с Скайп для бизнеса, так и Готово к обновлению, необходимо убедиться, что у вас есть все необходимо перейдите успешные пути к группам.</span><span class="sxs-lookup"><span data-stu-id="a3fd3-105">Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we want to ensure you have everything you need to navigate a successful journey to Teams.</span></span>  
 
-<span data-ttu-id="a0322-106">[Начало работы с ваших команд Microsoft обновление](upgrade-start-here.md).</span><span class="sxs-lookup"><span data-stu-id="a0322-106">[Get started with your Microsoft Teams upgrade](upgrade-start-here.md).</span></span>
+<span data-ttu-id="a3fd3-106">[Начало работы с ваших команд Microsoft обновление](upgrade-start-here.md).</span><span class="sxs-lookup"><span data-stu-id="a3fd3-106">[Get started with your Microsoft Teams upgrade](upgrade-start-here.md).</span></span>
 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> <span data-ttu-id="a0322-107">Чтобы узнать больше о переходе со Skype для бизнеса на Microsoft Teams, посмотрите следующие обучающие ролики:</span><span class="sxs-lookup"><span data-stu-id="a0322-107">Watch the following session to learn about the Upgrade from Skype for Business to Microsoft Teams:</span></span>
-> - [<span data-ttu-id="a0322-108">Общие сведения о переходе</span><span class="sxs-lookup"><span data-stu-id="a0322-108">Introduction to Upgrade</span></span>](https://aka.ms/teams-upgrade-intro)
-> - [<span data-ttu-id="a0322-109">Планирование перехода</span><span class="sxs-lookup"><span data-stu-id="a0322-109">Plan your upgrade</span></span>](https://aka.ms/teams-upgrade-plan)
-> - [<span data-ttu-id="a0322-110">Сосуществование и взаимодействие</span><span class="sxs-lookup"><span data-stu-id="a0322-110">Coexistence and Interoperability</span></span>](https://aka.ms/teams-upgrade-coexistence-interop)
-> - [<span data-ttu-id="a0322-111">Интерфейс администратора</span><span class="sxs-lookup"><span data-stu-id="a0322-111">Administrator experience</span></span>](https://aka.ms/teams-upgrade-admin)
+> <span data-ttu-id="a3fd3-107">Просмотрите следующие сеансов Дополнительные сведения об обновлении Скайп для бизнеса группами Майкрософт:</span><span class="sxs-lookup"><span data-stu-id="a3fd3-107">Watch the following sessions to learn about the Upgrade from Skype for Business to Microsoft Teams:</span></span>
+> - [<span data-ttu-id="a3fd3-108">Общие сведения об обновлении</span><span class="sxs-lookup"><span data-stu-id="a3fd3-108">Introduction to Upgrade</span></span>](https://aka.ms/teams-upgrade-intro)
+> - [<span data-ttu-id="a3fd3-109">Планирование обновления</span><span class="sxs-lookup"><span data-stu-id="a3fd3-109">Plan your upgrade</span></span>](https://aka.ms/teams-upgrade-plan)
+> - [<span data-ttu-id="a3fd3-110">Взаимодействие и совместная работа</span><span class="sxs-lookup"><span data-stu-id="a3fd3-110">Coexistence and Interoperability</span></span>](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [<span data-ttu-id="a3fd3-111">Интерфейс администратора</span><span class="sxs-lookup"><span data-stu-id="a3fd3-111">Administrator experience</span></span>](https://aka.ms/teams-upgrade-admin)
