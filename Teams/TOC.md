@@ -145,7 +145,7 @@
 ### [Льготный период обратных звонков для аудиоконференций](complimentary-dial-out-period.md)
 
 
-### [Настройка аудиоконференций в Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Настройка аудиоконференций для Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 ### [Назначение Майкрософт поставщиком услуг аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
@@ -343,6 +343,12 @@
 #### [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)
 #### [Настройка параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
 #### [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)
+
+### Обход сервера-посредника для прямой маршрутизации
+#### [Планирование обхода сервера-посредника с прямой маршрутизацией](direct-routing-plan-media-bypass.md)
+#### [Настройка обхода сервера-посредника с прямой маршрутизацией](direct-routing-configure-media-bypass.md)
+
+
 ### Техническая справка по прямой маршрутизации
 #### [Отработка отказа канала связи при исходящих звонках](direct-routing-trunk-failover-on-outbound-call.md)
 
