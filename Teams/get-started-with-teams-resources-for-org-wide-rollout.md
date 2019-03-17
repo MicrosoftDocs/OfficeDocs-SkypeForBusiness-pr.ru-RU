@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a42f9c50ba1985ac0be068b2a9fbf1fab5f9b439
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d64dba26ba492ffb792a7ad2a403845fdf2564a7
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465358"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640908"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>Выберите путь для развертывания Microsoft Teams в масштабе всей организации
 
-Теперь, когда вы успешно настроили первые команды, укомплектовали начальную группу пользователей для организации работы, пришло время посмотреть на ваш план действий по развертыванию Teams для остальных сотрудников организации во время внедрения. Начните с первой рабочей нагрузки, [Чат, команды, каналы и приложения](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
+Теперь, когда вы успешно настроили первые команды и укомплектовали начальную группу пользователей для организации работы, пришло время посмотреть на ваш план действий по развертыванию Teams для остальных сотрудников организации во время внедрения. Начните с первой рабочей нагрузки, [Чат, команды, каналы и приложения](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
 
 Полезные сведения, которые помогут вам определить порядок развертывания Teams, см. в статье [Развертывание Teams](How-to-roll-out-teams.md).
 
