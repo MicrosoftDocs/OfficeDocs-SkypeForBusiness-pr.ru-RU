@@ -3,7 +3,7 @@ title: Знакомство с Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.date: 01/28/2019
 ms.reviewer: LolaJ
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ee4cba00f20eb53630845f1956d88d47e333084
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0cb72d55b41edf6c44b84461d234c42782ee6873
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458870"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649286"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
@@ -38,7 +38,7 @@ ms.locfileid: "30458870"
 
 При создании команды из уже существующей группы, ее участники, сайт, почтовый ящик и записная книжка переносятся в Teams. Воспользуйтесь [командами организации](create-an-org-wide-team.md) — особыми группами, которые включают всех пользователей компании и синхронизируют присоединяющихся и исключаемых участников с Active Directory. 
 
-Чтобы настроить и расширить возможности Teams, добавляйте сторонние приложения с помощью [приложений, ботов и соединителей](deploy-apps-microsoft-teams-landing-page.md). Teams позволяет вам включить в команду или канал пользователей, не являющихся сотрудниками вашей организации, [добавив их в качестве гостей](guest-access.md). Будучи частью Office 365, приложение Teams представляет собой мощную [платформу для разработки](https://docs.microsoft.com/en-us/microsoftteams/platform), которая позволяет создать настоящий центр командной работы для вашей организации. 
+Чтобы настроить и расширить возможности Teams, добавляйте сторонние приложения с помощью [приложений, ботов и соединителей](deploy-apps-microsoft-teams-landing-page.md). Teams позволяет вам включить в команду или канал пользователей, не являющихся сотрудниками вашей организации, [добавив их в качестве гостей](guest-access.md). Будучи частью Office 365, приложение Teams представляет собой мощную [платформу для разработки](https://docs.microsoft.com/ru-RU/microsoftteams/platform), которая позволяет создать настоящий центр командной работы для вашей организации. 
 
 ![Настольное и мобильное приложения Teams](media/teams-overview-hub.png)
 
