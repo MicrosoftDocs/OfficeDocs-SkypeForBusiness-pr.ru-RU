@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Начало работы с шаблонами Teams для организаций здравоохранения
-ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e5116ecf2ab9fa0bbad25222e69317c47cf0c892
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541666"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664702"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Начало работы с шаблонами Teams для организаций здравоохранения
 
@@ -36,7 +36,7 @@ ms.locfileid: "30541666"
 
 |Тип базового шаблона |Идентификатор базового шаблона |Каналы базового шаблона|
 |:--- |:---|:---|
-|Здравоохранение - Ворд | https://<span></span>графике<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Объявления\* <br> Huddles\* <br> Округляет\* <br> Набору кадров\* <br> Учебный курс по\* |
+|Здравоохранение - Ворд | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Объявления\* <br> Huddles\* <br> Округляет\* <br> Набору кадров\* <br> Учебный курс по\* |
 |     | |         |
 
 \*Auto-favorited
@@ -47,7 +47,7 @@ ms.locfileid: "30541666"
 
 |Тип базового шаблона |Идентификатор базового шаблона |Каналы базового шаблона|
 |:--- |:---|:---|
-|Здравоохранение - больница | https://<span></span>графике<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Объявления\* <br> Соответствие требованиям\* <br> Наказание <br> Отдел кадров <br> Лекарства |
+|Здравоохранение - больница | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Объявления\* <br> Соответствие требованиям\* <br> Наказание <br> Отдел кадров <br> Лекарства |
 | | |  |
 
 \*Auto-favorited 
@@ -60,7 +60,7 @@ ms.locfileid: "30541666"
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [

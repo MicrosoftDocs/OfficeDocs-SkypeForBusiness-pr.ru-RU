@@ -13,12 +13,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
-ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
-ms.translationtype: HT
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+ms.openlocfilehash: 4f941766db77b8bb8678d4d593e6843db662dc06
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "26531751"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664607"
 ---
 # <a name="skype-for-business-online-admin"></a>Администратор Skype для бизнеса Online
 
@@ -54,7 +55,7 @@ ms.locfileid: "26531751"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Мы поможем вам!</h3>
+                        <h3>We& #39; re здесь, чтобы помочь</h3>
                     </div>
                 </div>
             </div>
@@ -108,7 +109,7 @@ ms.locfileid: "26531751"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Переход со Skype для бизнеса на Microsoft Teams</h3>
+                        <h3>Переход со Skype для бизнеса на Teams</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +120,7 @@ ms.locfileid: "26531751"
 
 ---
 
-<h2>Что нового</h2>
+<h2>What& #39; новым возможностям</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -169,7 +170,7 @@ ms.locfileid: "26531751"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Важные обновления</h3>
+                        <h3>Основные обновления</h3>
                         <p><a href="/microsoftteams/audio-conferencing-in-office-365">Настройка аудиоконференций</a></p>
                     </div>
                 </div>
@@ -180,7 +181,7 @@ ms.locfileid: "26531751"
 
 ---
 
-<h2>Рекомендуемые статьи</h2>
+<h2>Основные статьи</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -224,7 +225,7 @@ ms.locfileid: "26531751"
                 <div class="card">
                     <div class="cardText">
                         <h3>Планы звонков</h3>
-                        <p><a href="/MicrosoftTeams/what-are-calling-plans-in-office-365">Что такое планы звонков в Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Настройка планов звонков</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности планов звонков в стране или регионе</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Что такое планы звонков в Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Настройка планов звонков</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности планов звонков в стране или регионе</a></p>
                     </div>
                 </div>
             </div>
@@ -236,7 +237,7 @@ ms.locfileid: "26531751"
                 <div class="card">
                     <div class="cardText">
                         <h3>Телефонная система</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Возможности телефонной системы в Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s получение с телефонной системой в Office 365</a></p>
                </div>
                 </div>
             </div>

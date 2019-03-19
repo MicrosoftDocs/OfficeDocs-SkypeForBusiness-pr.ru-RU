@@ -16,15 +16,14 @@ description: Узнайте, как управлять параметрами д
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a7834f1547c682c690f8c42082af0a314efec9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e3c1a3c4883705f5e9e5ded88cce94fc37da650b
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542841"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664894"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Используйте параметры групп событий в реальном времени для настройки параметров для live события, которые хранятся в вашей организации. Можно настроить URL-адрес поддержки и настроить распределение видео стороннего поставщика. Эти параметры применяются ко всем событиям live, которые созданы в вашей организации. 
 

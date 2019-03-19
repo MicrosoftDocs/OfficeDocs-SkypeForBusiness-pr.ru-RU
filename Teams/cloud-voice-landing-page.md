@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Главная страница для развертывания облака голосовой связи в группах
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465310"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664920"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Облачная голосовая связь в Microsoft Teams
 
@@ -38,11 +38,11 @@ ms.locfileid: "30465310"
 
 Следующие статьи содержат дополнительные сведения о развертывании и использовании функции голосовой связи облака в группах.
 
-- [Телефонная система в Office 365](what-is-phone-system-in-office-365.md)
-- [Телефонной системой с вызова плана](calling-plan-landing-page.md)
+- [Телефонная система Office 365](what-is-phone-system-in-office-365.md)
+- [Система телефон с Тарифные планы](calling-plan-landing-page.md)
 - [Прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
 - [Развертывание облачной системы голосовой связи](cloud-voice-deployment.md)
-- [Решения Майкрософт телефонной связи](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Решения Майкрософт для телефонии](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Просмотрите следующие сеанса для получения дополнительных сведений о телефонной системой: [Знакомство с телефонной системой в группах Майкрософт](https://aka.ms/teams-phone-system)
 
 
@@ -77,7 +77,7 @@ ms.locfileid: "30465310"
 Может потребоваться изменить параметры для следующего случая зависимости от потребностей организации и конфигурации:
 
 - Голосовая почта
-- Идентификатор звонящего абонента
+- Вызов удостоверений
 - Номера телефонов корпорацией Майкрософт
 - Абонентские группы
 - Очередь звонков
@@ -93,7 +93,7 @@ ms.locfileid: "30465310"
 | Требуется ли включение транскрибирования голосовой почты для некоторых или всех Мои пользователи? | Чтобы отключить транскрибирования голосовой почты, обратитесь к [настройке политик голосовой почты в вашей организации](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 
-### <a name="calling-identity"></a>Идентификатор звонящего абонента
+### <a name="calling-identity"></a>Вызов удостоверений
 
 По умолчанию все исходящие вызовы использовать назначенный номер в качестве удостоверения вызывающей (Звонящего). Получатель звонка может быстро идентифицировать звонящего и решить, следует ли принять или отклонить вызов.
 
@@ -148,7 +148,7 @@ ms.locfileid: "30465310"
 
 - [Управление устройствами в Microsoft Teams](device-management.md)
 - [IP-телефонов](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [USB-устройства аудио- и видеоконференций](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [USB-устройства для аудио и видео](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Интеллектуальный коммуникаций для устройств](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

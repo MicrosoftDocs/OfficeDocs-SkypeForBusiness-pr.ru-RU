@@ -25,16 +25,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 3f1f28862274a95f5bfbb0eb3fbdc3a32f72bc90
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 023b04b6d7826913fc0946ff88dda5c247db92c0
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542098"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664734"
 ---
 # <a name="calling-plans-for-office-365"></a>Планы звонков для Office 365
 
-Звонков на других Скайп для бизнеса и группами Майкрософт пользователей доступны бесплатно, но если пользователи должны иметь возможность вызова регулярных телефоны, и у вас еще нет поставщика услуг для голосовых вызовов, необходимо купить вызов планирование. [Что такое планы звонков в Office 365?](what-are-calling-plans-in-office-365.md)
+Звонков на других Скайп для бизнеса и группами Майкрософт пользователей доступны бесплатно, но если пользователи должны иметь возможность вызова регулярных телефоны, и у вас еще нет поставщика услуг для голосовых вызовов, необходимо купить вызов планирование. Для получения дополнительных сведений см [телефонной системой и вызов планов](calling-plan-landing-page.md).
   
 Ниже перечислены параметры вызова планов:
   

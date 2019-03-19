@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Сведения о настройке Skype для бизнеса с целью использования другого языка для записи приветствия голосовой почты по умолчанию. '
-ms.openlocfilehash: 0acfb798e404ea0aef4e49a866f0501b85e33653
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 6de73212df6be8a1f0d52cff8065536442085783
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541610"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664861"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
@@ -63,7 +63,7 @@ ms.locfileid: "30541610"
     
 ## <a name="related-articles-for-the-admin"></a>Дополнительные статьи для администраторов
 
-- [Что такое планы звонков в Office 365?](what-are-calling-plans-in-office-365.md)
+- [Телефонной системой и Тарифные планы](calling-plan-landing-page.md)
     
 - [Настройка планов звонков](set-up-calling-plans.md)
     

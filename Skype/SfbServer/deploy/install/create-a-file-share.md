@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Сводка: Сведения о создании общего файлового ресурса сервера Windows в ходе установки Скайп для Business Server. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: a6a040c60d3c5a41df8dfa24abd5948d85180f2e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3fe1d69bb9e7db377c6a9334b90f8ce96c581ad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884623"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664829"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Создание общей папки в Скайп для Business Server
  
@@ -60,4 +60,13 @@ ms.locfileid: "23884623"
     
      ![Вкладка общего доступа для предоставления доступа к папке.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
   
+> [!NOTE]
+>Если хранилище файлов, размещенного на общий доступ к DFS, будет получено следующее предупреждение:
 
+Предупреждение: Не удается получить доступ к разрешениям для "\\<domain>\<share>».
+
+>Ожидается, если вы не являетесь администратором на файловом сервере, или если это общая папка с распределенной файловой системы (DFS). Если уже были настроены разрешений совместный доступ, это предупреждение можно игнорировать. Если это новый совместный доступ, обратитесь к документации для получения дополнительных сведений на настройку разрешений совместный доступ.
+
+>Из-за отсутствия прав на доступ к разрешений совместный доступ в общей папке DFS Скайп для Business Server не сможет для явного задания групп в файловом ресурсе. Чтобы убедиться, что Скайп для компонентов Business Server можно получить доступ к общей папке с соответствующими разрешениями, убедитесь, что добавлены следующие группы RTC с изменение уровня разрешений на доступ в дополнение к локальные администраторы с правами полного доступа совместный доступ.
+
+RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins
