@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7712caa826804d26fd2e3527183128ce78520c3
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: a302d27884f92fb5cf17cc605cead6addbe98bfd
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30460238"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30683894"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Управление функциями Microsoft Teams в организации Office 365
 
@@ -40,7 +40,7 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>Приложения
 
-Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
+Приложения — это вкладки, соединители, боты или любое их сочетание, предоставляемые Teams (основные приложения, называемые приложениями по умолчанию) или сторонними поставщиками (внешние приложения). Раздел **Приложения** позволяет вам включать и отключать приложения по умолчанию, а также настраивать параметры для управления внешними приложениями. Дополнительные сведения о развертывании приложений, ботов, соединителей и вкладок в Teams см. в статье (Приложения, боты и соединители)[deploy-apps-microsoft-teams-landing-page.md].
 
 #### <a name="default-apps"></a>Приложения по умолчанию
 
