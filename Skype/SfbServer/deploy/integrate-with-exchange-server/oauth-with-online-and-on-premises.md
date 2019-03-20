@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Настройка OAuth проверки подлинности между Exchange при локальном и Скайп для бизнеса в Интернет позволяет Скайп для бизнеса и интеграция с Exchange, описанными в поддержка функции.
-ms.openlocfilehash: f6108842f827cbb9cfb6761495c4787ed2b7868b
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: fe1f6a56412706c658b2c686d2ca06d6a1b9e5d9
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735176"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684058"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>Настройка подключения по протоколу OAuth между Skype для бизнеса Online и локальной системой Exchange
 
@@ -30,7 +30,7 @@ ms.locfileid: "29735176"
 
 -  Перед выполнением этих процедур вы должны получить разрешения. Какие нужны разрешения см в разделе [Exchange and Shell infrastructure permissions](https://go.microsoft.com/fwlink/p/?LinkId=746511) .
 
-- Информацию о сочетаниях клавиш, которые могут относиться к процедурам в этом разделе, см. в разделе [Сочетания клавиш в центре администрирования Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
+- Сведения о сочетаниях клавиш, которые могут относиться к процедур, описанных в этом разделе содержатся [сочетаний клавиш в центре администрирования Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
 ## <a name="configure-oauth-authentication-between-your-on-premises-exchange-and-skype-for-business-organizations"></a>Настройка проверки подлинности OAuth между локальным Exchange и организациями Skype для бизнеса
 
@@ -142,7 +142,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 > [!NOTE]
 > Для успешного выполнения следующего сценария требуется подключить Windows PowerShell для Azure Active Directory к клиенту Microsoft Online Azure AD, как описано на шаге 4 предыдущего раздела.
 
-1. Сохраните следующий тест в файл сценария PowerShell, который можно назвать RegisterEndpoints.ps1. В этом примере используется подстановочный знак для регистрации всех конечных точек contoso.com. Замените contoso.com сертификации имя узла для своей локальной организации Exchange
+1. Сохраните следующий тест в файл сценария PowerShell, который можно назвать RegisterEndpoints.ps1. В этом примере используется подстановочный знак для регистрации всех конечных точек contoso.com. Замените <your Verified Domain> с полным доменным ИМЕНЕМ для локального сервера Exchange.
 
    ```
    $externalAuthority="*.<your Verified Domain>"
@@ -153,7 +153,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
    Set-MsolServicePrincipal -ObjectID $p.ObjectId -ServicePrincipalNames $p.ServicePrincipalNames;
    ```
 
-2. В Windows PowerShell для Azure Active Directory выполните сценарий Windows PowerShell, созданный на предыдущем шаге. Например: `.\RegisterEndpoints.ps1`
+2. В Windows PowerShell для Azure Active Directory выполните сценарий Windows PowerShell, созданный на предыдущем шаге. Например:`.\RegisterEndpoints.ps1`
 
 ### <a name="verify-your-success"></a>Проверка успешности выполнения
 
@@ -172,3 +172,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 Если необходимо, чтобы что успешно вы используете OAuth, убедитесь, что вы знаете, что следует ожидать и знать, как должны выглядеть трафика. Да, [Вот, что следует ожидать](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34), вот стандартный [Пример трафика OAuth в приложении Microsoft](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (действительно полезен для чтения, хотя он не использует маркеры обновления) и существуют Fiddler расширения, которые можно найти в вашей OAuth JWT (JSON Веб-маркера).
 
 Ниже приведен [Пример настройки один](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), но можно использовать любое средство сетевой трассировки, как для выполнения этого процесса.
+
+## <a name="related-topics"></a>Связанные разделы
+
+[Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

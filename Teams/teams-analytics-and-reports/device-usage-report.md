@@ -3,7 +3,7 @@ title: Отчет об использовании устройств с Microsof
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/08/2019
+ms.date: 03/19/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Сведения об использовании отчет об использовании групп устройств в центре администрирования группами Майкрософт, как пользователи в вашей организации подключиться к группам.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0abc3afd09a1bd253319de0f4b68512c35cd2daa
-ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
+ms.openlocfilehash: 1915e7c2c52911e49afca6dbbb23e6ed9b74d672
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30513015"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684027"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Отчет об использовании устройств с Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "30513015"
 
 ![Снимок экрана отчета об использовании устройства группы в центре администрирования группами Майкрософт] (../media/teams-reports-device-usage-with-callouts.png "Снимок экрана отчета об использовании устройства группы в центре администрирования группами Майкрософт с выносками нумерованный")
 
-|Выноска |Описание  |
+|Выноски |Описание  |
 |--------|-------------|
 |**1**   |Отчет об использовании групп устройств можно просмотреть для тенденций за последние 7 дней или 28 дней.  |
 |**2**   |У каждого отчета имеется даты для создания отчета. Действия обычно отражаются в отчетах с задержкой в 24-48 ч. |
@@ -49,5 +49,5 @@ ms.locfileid: "30513015"
 
 ## <a name="related-topics"></a>Связанные разделы
 - [Группы аналитики и отчетов](teams-reporting-reference.md)
-- [Отчет об использовании группы](teams-usage-report.md)
-- [Отчет по действиям пользователей группам](user-activity-report.md)
+- [Отчет об использовании Teams](teams-usage-report.md)
+- [Отчет по активности пользователей Teams](user-activity-report.md)
