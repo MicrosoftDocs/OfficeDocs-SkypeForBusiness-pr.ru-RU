@@ -6,7 +6,7 @@ ms.topic: landing-page
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 03/19/2019
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f227a9787368b325f102229afebdebf000513bb9
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ddc0e9cb6c3f8a708b7633a5731908e0a27db8ff
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463686"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684043"
 ---
 # <a name="microsoft-teams-training"></a>Обучение работе с Microsoft Teams
 
@@ -95,8 +95,8 @@ ms.locfileid: "30463686"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Переход со Skype для бизнеса на Microsoft Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Руководство. Переход со Skype для бизнеса на Teams</a></p>
+                        <h3>Переход со Skype для бизнеса на Teams</h3>
+                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Руководство. Переход со Skype для бизнеса на Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -124,4 +124,15 @@ ms.locfileid: "30463686"
             </div>
         </div>
     </li>
-  
+      </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Введение в работу в команде в Microsoft 365</h3>
+                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Узнайте о средствах Microsoft 365, облегчающие работу в команде для всех сотрудников, независимо от того, где они находятся и как они подключаются к ресурсам вашей организации.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
