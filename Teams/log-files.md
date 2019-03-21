@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Сведения о журналах отладки, мультимедиа и рабочих журналах, создаваемых Microsoft Teams, их расположении и роли при устранении неполадок.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 018247ba7f5f7ac088226bd505f6bf11737533c2
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 8e2e638af7ca9f728835f244996a0d922d8f7cbc
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640708"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720333"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Использование файлов журналов для устранения неполадок в Microsoft Teams
 =================================================
@@ -96,9 +96,7 @@ ms.locfileid: "30640708"
 
 Windows:
 
-  1.  щелкните правой кнопкой мыши **значок Microsoft Teams в** области приложений и выберите **Получить журналы**
-
-  2.  Выбор пункта **Получить журналы** в раскрывающемся меню **Справка**
+1.  щелкните правой кнопкой мыши **значок Microsoft Teams в** области приложений и выберите **Получить журналы**
 
 Mac OsX:
 

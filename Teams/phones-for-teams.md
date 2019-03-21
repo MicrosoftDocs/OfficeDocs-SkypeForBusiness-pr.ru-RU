@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: В этой статье рассматривается список телефонов, сертифицированных для Microsoft групп и возможностей, поддерживаемых в телефоны, сертифицированном для групп Майкрософт.
-ms.openlocfilehash: 9531d1c3619c15b0b8669708e40264fec5f211fd
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: c7b5278acf8b03cdd2f27b6f10a4e83be74b5a2f
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640988"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720442"
 ---
 # <a name="phones-for-microsoft-teams"></a>Телефоны для Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "30640988"
 
 ## <a name="teams-certified-ip-phones"></a>Команды сертифицированный IP-телефонов 
 
-Для предоставления более высокое качество и надежным группами Майкрософт возможности на телефоны, мы сотрудничестве и активно работает с Yealink, Crestron, Polycom и Audiocodes для разработки и сертификация широкий портфеля стационарные телефоны и конференции комнаты звукового устройства. В разделе [в настоящее время сертифицированный IP-телефонов](/SfbPartnerCertification/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) текущего поддерживаемых устройств.
+Для предоставления более высокое качество и надежным группами Майкрософт возможности на телефоны, мы сотрудничестве и активно работает с Yealink, Crestron, Polycom и Audiocodes для разработки и сертификация широкий портфеля стационарные телефоны и конференции комнаты звукового устройства. В разделе [в настоящее время сертифицированный IP-телефонов](/SkypeForBusiness/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) текущего поддерживаемых устройств.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Группами Майкрософт телефоны набор компонентов
 
