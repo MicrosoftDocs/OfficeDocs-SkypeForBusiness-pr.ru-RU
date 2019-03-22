@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Exchange Online.
-ms.openlocfilehash: 3b29c04101a28afeab4d0d29585ed9a5330935a1
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: c0c5f3aa2c5644e4d1fe24af886c9e716efd6592
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645375"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737857"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Развертывание Систем комнат Skype версии 2 в среде Exchange Online
 
@@ -68,9 +68,12 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 4. Для применения некоторых настроек учетной записи потребуется подключиться к Azure AD. Для подключения можно использовать следующий командлет.
 
-   ``` Powershell
+  ``` PowerShell
+ Connect-MsolService -Credential $cred
+  ```
+<!--   ``` Powershell
    Connect-AzureAD -Credential $cred
-   ```
+   ``` -->
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>Добавление адреса электронной почты для локальной учетной записи домена
 
@@ -87,14 +90,19 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 ### <a name="assign-an-office-365-license"></a>Назначение лицензии Office 365
 
 1. Учетная запись должна иметь действительной лицензии Office 365, чтобы убедиться, что Скайп для Business Server и Exchange будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи.
-2. Затем используйте Get-AzureADSubscribedSku для получения списка доступных номеров SKU для клиента Office 365.
-3. Один раз списка в работе номера SKU, вы можете добавить лицензии, с помощью командлета Set-AzureADUserLicense. В этом случае будет отображаться код SKU $strLicense (например, contoso:STANDARDPACK).
+2. Затем используйте`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Для получения списка доступных номеров SKU для клиента Office 365.
+3. После список масштабирование номера SKU, можно добавить лицензии с помощью`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> командлет. В этом случае будет отображаться код SKU $strLicense (например, contoso:STANDARDPACK). 
 
-   ``` Powershell
+  ```
+    Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+   Get-MsolAccountSku
+   Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+  ```
+<!--   ``` Powershell
    Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-   ```
+   ``` -->
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>Включение учетной записи пользователя с помощью Скайп для Business Server
 
