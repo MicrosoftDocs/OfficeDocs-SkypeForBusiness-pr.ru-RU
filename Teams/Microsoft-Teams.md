@@ -4,17 +4,18 @@ hide_bc: true
 title: Техническая документация по Microsoft Teams
 description: Техническая документация по Microsoft Teams
 ms.topic: hub-page
+localization_priority: Priority
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 1d30744f71683b7681ad738938a714d066b31c4a
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: MT
+ms.openlocfilehash: 14ab61709f40f0d2e2d6be95df4cd758322d0ff2
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493587"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720317"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -38,8 +39,8 @@ ms.locfileid: "30493587"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Добро пожаловать в Microsoft Teams</h3>
-                                                <P>Обзор групп и технические рекомендации, необходимые команды администратора или для ИТ-специалистов</p>
+                                                <h3>Добро пожаловать в Teams</h3>
+                                                <P>Обзор Teams и технические руководства для администратора Teams или ИТ-специалиста</p>
                                             </div>
                                         </div>
                                     </div>
@@ -56,8 +57,8 @@ ms.locfileid: "30493587"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Способы развертывания групп</h3>
-                                                <P>Будет ли вы малого бизнеса или глобальной экономике enterprise, начало найти правильный путь к развертыванию групп</p>
+                                                <h3>Способ развертывания Teams</h3>
+                                                <P>Не имеет значения, является ли ваша организация представителем малого бизнеса или транснациональной корпорацией, начните отсюда свое развертывание Teams</p>
                                             </div>
                                         </div>
                                     </div>
@@ -76,7 +77,7 @@ ms.locfileid: "30493587"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Начало работы</h3>
-                                                <P>Используйте наши краткое руководство по, чтобы получить запущено и работает fast с помощью нескольких групп и каналы</p>
+                                                <P>Используйте краткое руководство для быстрой настройки нескольких команд и каналов</p>
                                             </div>
                                         </div>
                                     </div>
@@ -113,8 +114,8 @@ ms.locfileid: "30493587"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Сервер-концентратор внедрения</h3>
-                                                <P>Средства для поддержки развертывания групп</p>
+                                                <h3>Центр внедрения</h3>
+                                                <P>Средства для поддержки развертывания Teams</p>
                                             </div>
                                         </div>
                                     </div>
@@ -132,7 +133,7 @@ ms.locfileid: "30493587"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Найдите обучающие видеозаписи &</h3>
+                                                <h3>Поиск учебных материалов и видео</h3>
                                                 <P>Обучение по Teams — для вас и ваших пользователей</p>
                                             </div>
                                         </div>
@@ -155,8 +156,8 @@ ms.locfileid: "30493587"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Группы разработчиков платформы</h3>
-                                            <p>Узнайте о платформу разработки группами Майкрософт и как она позволит создание очень полезных приложений</p>
+                                            <h3>Платформа разработки для Teams</h3>
+                                            <p>Сведения о платформе разработки Microsoft Teams, в том числе о том, как она позволяет создавать удобные и мощные приложения</p>
                                         </div>
                                     </div>
                                 </div>
@@ -174,8 +175,8 @@ ms.locfileid: "30493587"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Сообщество Технический групп</h3>
-                                            <p>Присоединяйтесь к сообществу Технический команды, чтобы задать вопросы по &amp; ответы и ознакомьтесь с блогом группы</p>
+                                            <h3>Сообщество технических специалистов по Teams</h3>
+                                            <p>Читайте блог Teams и присоединяйтесь к сообществу технических специалистов по Teams, чтобы получать ответы на свои вопросы</p>
                                         </div>
                                     </div>
                                 </div>
@@ -193,8 +194,8 @@ ms.locfileid: "30493587"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Справочник по командлетам PowerShell для Microsoft Teams</h3>
-                                            <p>Получите модули PowerShell и командлетов для групп</p>
+                                            <h3>Справочник по командлетам PowerShell для Teams</h3>
+                                            <p>Модули и командлеты PowerShell для Teams</p>
                                                     </div>
                                                 </div>
                                             </div>
