@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 718b239da2d65bc01675f91c68ad18f7dee68c3e
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641234"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737818"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
 
@@ -257,6 +257,10 @@ ms.locfileid: "30641234"
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
 |Устаревшая вкладка OneNote  <br/> |Невозможно переименовать или удалить устаревшие вкладки OneNote, созданные в общедоступной предварительной версии Microsoft Teams.  <br/> |Обходной путь отсутствует. <br/> |08.11.2017  <br/> |
+
+|**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
+|:-----|:-----|:-----|:-----|
+|Функция поиска на вкладке списка SharePoint  <br/> |При попытке открыть файл из области поиска на вкладке списка SharePoint выводится сообщение "Вам нужно новое приложение для открытия", и файл не открывается. <br/> |Выполняйте открытие непосредственно из списка, а не из строки поиска. <br/> |11.02.2019  <br/> |
 
 ## <a name="teams"></a>Команды
 
