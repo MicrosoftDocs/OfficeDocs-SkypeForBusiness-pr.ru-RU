@@ -24,6 +24,7 @@
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 ## [Шаблоны Teams для здравоохранения](healthcare/healthcare-templates.md)
+## [Шаблоны Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
 ## [Общение с пользователями Teams из других организаций](let-your-teams-users-communicate-with-other-people.md)
@@ -34,6 +35,9 @@
 ## [Приложения, боты и соединители](deploy-apps-microsoft-teams-landing-page.md)
 ### [Разрешения и рекомендации для приложений](app-permissions.md)
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
+### [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
+### [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)
+### [Управление пользовательскими политиками и параметрами приложений в Teams](teams-custom-app-policies-and-settings.md)
 ### [Добавление ботов для приватных чатов и каналов в Teams](add-bots.md)
 ### [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
 ### [Использование Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
@@ -317,7 +321,7 @@
 ### Автосекретари и очереди звонков 
 #### [Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
 #### [Настройка автосекретаря телефонной системы](create-a-phone-system-auto-attendant.md)
-#### [Пример для малого бизнеса: настройка автосекретаря](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Пример для малого бизнеса: настройка автосекретаря](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Управление учетными записями ресурсов в Microsoft Teams](manage-resource-accounts.md)
 #### [Создание очереди звонков в телефонной системе](create-a-phone-system-call-queue.md)
 #### [Ответ на звонки автосекретарей и очередей звонков непосредственно из Teams](answer-auto-attendant-and-call-queue-calls.md)
@@ -655,8 +659,8 @@
 ### [Расположение данных в Teams](location-of-data-in-teams.md)
 ### [Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
 ### [Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-###  [Планы звонков в Office 365 — кодекс по использованию в Соединенном Королевстве](code-of-practice-for-the-united-kingdom-u-k.md)
-###  [Планы звонков в Office 365 — соответствие требованиям кодекса в Соединенном Королевстве](complaint-handling-code-for-the-united-kingdom-u-k.md)
+###  [Планы звонков в Office 365 — нормы и правила для Соединенного Королевства](code-of-practice-for-the-united-kingdom-u-k.md)
+###  [Планы звонков в Office 365 — процедура подачи претензий для Соединенного Королевства](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Рекомендации по сбору данных](data-collection-practices.md)
 ### [Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)
 
@@ -688,7 +692,7 @@
 ## Teams для сотрудников без компьютеров
 ### [Прекращение поддержки Microsoft StaffHub](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
 ### [Управление приложением "Смены" для организации в Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
+### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 
 ## [Планирование развертываний Microsoft 365 для государственных организаций — GCC](plan-for-government-gcc.md)
 ### [Планирование развертываний Microsoft 365 для государственных организаций — GCC High](plan-for-government-gcc-high.md)
