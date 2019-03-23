@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Используйте парковки вызовов и извлекать для совершения звонка на удержание в службе группами в облаке.
-ms.openlocfilehash: 48052768ce172fda88b3e034277c4454988b32db
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 416458b1f7c134fca3294107bd82bbd0f2300abc
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353476"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747656"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Парковка и восстановление звонков в Microsoft Teams
 
@@ -60,6 +60,16 @@ ms.locfileid: "30353476"
 
 Сведения о том, как использовать парковки вызовов и получить возможность видеть [парковки вызовов в группах](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 
+### <a name="assign-a-call-park-policy"></a>Назначение политики парковки вызовов
+
+Выполните следующие действия, чтобы назначить политику парковки вызовов для одного или нескольких пользователей.
+
+1. Перейдите в **Центр администрирования группами Майкрософт** > **голосовой связи** > **политик парковки вызовов**.
+2. Выберите политику, нажав кнопку слева от имени политики.
+3. Выберите **Управление пользователями**.
+4. В области **Управление пользователями** поиска для пользователя по отображаемому имени или по имени пользователя, выберите имя и выберите команду **Добавить**. Повторите этот шаг для каждого пользователя, который вы хотите добавить.
+5. Завершив добавление пользователей, выберите команду **Сохранить**.
+ 
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>Настройка парковки вызовов и получить с помощью PowerShell
 
 Командлет [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell для создания политики парковки вызовов.
@@ -71,7 +81,7 @@ ms.locfileid: "30353476"
 `Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
 
 
-## <a name="troubleshooting"></a>Устранение неполадок
+## <a name="troubleshooting"></a>Поиск и устранение неполадок
 
 Если пользователи не могут видеть парковки и получить кнопки: 
 

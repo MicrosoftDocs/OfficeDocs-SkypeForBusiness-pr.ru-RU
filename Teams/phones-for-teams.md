@@ -16,20 +16,20 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: В этой статье рассматривается список телефонов, сертифицированных для Microsoft групп и возможностей, поддерживаемых в телефоны, сертифицированном для групп Майкрософт.
-ms.openlocfilehash: c7b5278acf8b03cdd2f27b6f10a4e83be74b5a2f
-ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.openlocfilehash: 2a5ae7d996d2b89aae02e4104e762dfa916c9f55
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720442"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747648"
 ---
 # <a name="phones-for-microsoft-teams"></a>Телефоны для Microsoft Teams
 
 Группами Майкрософт поддерживает портфолио стационарные телефоны для пользователей, которые требуют взаимодействия традиционного телефона. В этой статье рассматривается список телефонов, сертифицированных для Microsoft групп и возможностей, поддерживаемых в телефоны, сертифицированном для групп Майкрософт. Чтобы получить последние и предоставляются самые последние сведения о группами сертифицированный устройств, перейдите к [Группам Marketplace](http://office.com/teamsdevices).
 
-## <a name="teams-certified-ip-phones"></a>Команды сертифицированный IP-телефонов 
+## <a name="teams-certified-ip-phones"></a>Команды сертифицированный IP-телефонов
 
-Для предоставления более высокое качество и надежным группами Майкрософт возможности на телефоны, мы сотрудничестве и активно работает с Yealink, Crestron, Polycom и Audiocodes для разработки и сертификация широкий портфеля стационарные телефоны и конференции комнаты звукового устройства. В разделе [в настоящее время сертифицированный IP-телефонов](/SkypeForBusiness/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) текущего поддерживаемых устройств.
+Для предоставления более высокое качество и надежным группами Майкрософт возможности на телефоны, мы сотрудничестве и активно работает с Yealink, Crestron, Polycom и Audiocodes для разработки и сертификация широкий портфеля стационарные телефоны и конференции комнаты звукового устройства. В разделе [в настоящее время сертифицированный IP-телефонов](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones) текущего поддерживаемых устройств.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Группами Майкрософт телефоны набор компонентов
 
