@@ -1,13 +1,13 @@
 ---
-title: Контрольный список для гостевого доступа в Microsoft Teams
+title: Контрольный список доступа гостя группами Майкрософт
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 01/22/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Используйте этот контрольный список для настройки доступа гостя в гостевой группы Microsoft Access.
+description: Используйте этот контрольный список для настройки доступа гостя в группах Microsoft.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,17 +15,17 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 404754c373d46b9b6e5578107415d61bbb87f97e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
+ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463470"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "30795588"
 ---
-<a name="teams-guest-access-checklist"></a>Контрольный список групп доступ в качестве гостя
+<a name="teams-guest-access-checklist"></a>Контрольный список доступа гостевой группы
 ==========================================
 
-Используйте этот контрольный список для включения и настройки компонента доступа в группами Майкрософт в соответствии с предпочтениями вашей организации.
+Используйте этот контрольный список для включения и настройки компонента гостевой доступ в группах Microsoft в соответствии с предпочтениями вашей организации.
 
 ## <a name="understand-the-limitations-for-guests"></a>Ознакомиться с ограничениями по Гости
 
@@ -93,7 +93,7 @@ ms.locfileid: "30463470"
 1. В центре администрирования группы выберите **Параметры масштабе организации** > **доступ в качестве гостя**.
 2. Установка параметра **Разрешить доступ гостя в группах Майкрософт** для **на**.
 
-    ![Снимок экрана показан пример переключателя параметров группы](media/set-up-guests-image1.png)
+    ![Снимок экрана показан пример переключатель параметров группы](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. На этой же странице настройте другие необходимые параметры гостя.
 4. Нажмите кнопку **Сохранить**.
@@ -111,11 +111,11 @@ ms.locfileid: "30463470"
 
 2. В **общий доступ**выберите команду **Изменить**.
 
-     ![Снимок экрана показан пример переключателя параметры общего доступа](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![Снимок экрана показан пример общего доступа переключателя параметров](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
  
 3. Значение **Пользователи могут добавлять новые Гости к данной организации** **на**и нажмите кнопку **Сохранить**.
 
-     ![Снимок экрана показан пример переключателя параметры общего доступа](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![Снимок экрана показан пример общего доступа переключателя параметров](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
 > [!NOTE]
 > Этот параметр эквивалентен параметру **можно пригласить участников** в **пользовательских параметров**для > **внешних пользователей** в Azure AD.  
@@ -128,19 +128,19 @@ ms.locfileid: "30463470"
 3. В центре администрирования SharePoint выберите параметр **общий доступ**.
 4. Убедитесь, что параметр для **не разрешать общий доступ к за пределами организации** *не* установлен.
  
-     ![Снимок экрана показан пример переключателя Sparepoint параметры в сети.](media/guest-access-checklist-SPOSettings1.png)
+     ![Снимок экрана показан пример SparePoint Online параметры переключателя.](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="-step-6-enable-specific-settings-for-channels"></a>□ Шаг 6: включить определенные параметры для каналов 
 
 В приложении группы на уровне отдельных групп настройте разрешения таким образом, гости могут создание, обновление и удаление каналов. В дополнение к "Администраторы" Этот параметр можно настроить группы владельцев.
 
-![Снимок экрана показан пример переключить на канал группы параметров](media/guest-access-checklist-TeamsSettings2.png)
+![Снимок экрана показан пример переключатель параметров на канал группы](media/guest-access-checklist-TeamsSettings2.png)
 
 Для получения дополнительных сведений, в том числе видеоинструкции видеть [гостевой доступ в группах Майкрософт](guest-access.md).
 
 
-## <a name="troubleshooting"></a>Устранение неполадок
+## <a name="troubleshooting"></a>Поиск и устранение неполадок
 
 При наличии проблем с добавлением гости в группами Майкрософт, в разделе [Руководство по устранению неполадок доступа гостя](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797).
 
