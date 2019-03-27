@@ -1,5 +1,6 @@
 ---
-title: Импорт сертификата (Сводка)
+title: Импорт сертификата (сводка)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 description: На странице Импорт сертификата сводки, изучите Сводка по имени файла, путь и сведения о присутствии закрытого ключа. После просмотра сводки, затем нажмите Далее, чтобы продолжите.
-ms.openlocfilehash: 38bc9c8ed2422108d85af0743dff4502baa3281b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 52ae6c49ac8ff1131167e39e0b6cfe95dc5da0fd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015573"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883794"
 ---
-# <a name="import-certificate-summary"></a>Импорт сертификата (Сводка)
+# <a name="import-certificate-summary"></a>Импорт сертификата (сводка)
  
 На странице **Импорт сертификата сводки** , изучите Сводка по имени файла, путь и сведения о присутствии закрытого ключа. После просмотра сводки нажмите кнопку **Далее** для продолжения.
   

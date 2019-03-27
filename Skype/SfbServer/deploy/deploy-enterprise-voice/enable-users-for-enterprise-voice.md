@@ -1,5 +1,6 @@
 ---
 title: Включение пользователей для корпоративной голосовой связи в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Сводка: Узнайте, как разрешить пользователям выполнение и прием звонков с помощью корпоративной голосовой связи в Скайп for Business Server.'
-ms.openlocfilehash: 9e1435c73a175ef40b4962ace41f4c7690f85953
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b02155f424e8b3f29881caf8c4a29db6f76cb807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883758"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882971"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Включение пользователей для корпоративной голосовой связи в Скайп для Business Server
  
@@ -41,7 +42,7 @@ ms.locfileid: "23883758"
     
 2. Откройте Скайп для панели управления Business Server.
     
-3. На панели навигации слева щелкните **Пользователи**.
+3. На левой панели навигации щелкните **Пользователи**.
     
 4. В поле **Поиск пользователей** введите отображаемое имя или его начальный фрагмент, имя, фамилию, имя учетной записи (диспетчера учетных записей безопасности (SAM), SIP-адрес или строку универсального кода ресурса (URI) из учетной записи пользователя, которому требуется предоставить доступ, затем нажмите кнопку **Найти**.
     

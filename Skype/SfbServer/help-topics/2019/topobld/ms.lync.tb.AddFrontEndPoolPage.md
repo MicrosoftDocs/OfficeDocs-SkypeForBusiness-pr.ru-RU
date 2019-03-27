@@ -1,5 +1,6 @@
 ---
-title: Добавление полного доменного ИМЕНИ пула переднего плана
+title: Добавление полного доменного имени пула переднего плана
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя (FQDN) пула переднего плана, для которого создается. Полное доменное имя пула нельзя изменить после публикации топологии, содержащий пула переднего плана. Если требуется переименовать в пул, необходимо удалить пул и добавьте новый пул с новой полным доменным ИМЕНЕМ.
-ms.openlocfilehash: 9730c1857ccb68e5aeb05a66d89e306aa9646246
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 28e831df0cdf86620eefc1a22ced199507026c46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068235"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884254"
 ---
-# <a name="add-front-end-pool-fqdn"></a>Добавление полного доменного ИМЕНИ пула переднего плана
+# <a name="add-front-end-pool-fqdn"></a>Добавление полного доменного имени пула переднего плана
  
 Укажите полное доменное имя (FQDN) пула переднего плана, для которого создается. Полное доменное имя пула нельзя изменить после публикации топологии, содержащий пула переднего плана. Если требуется переименовать в пул, необходимо удалить пул и добавьте новый пул с новой полным доменным ИМЕНЕМ.
   

@@ -1,5 +1,6 @@
 ---
 title: Топология Просмотр сведений о простых URL-адресов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 5b474d16b66aa5df4debd3e037e5f9d9bea075e0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9a9f52a7b279c65e59c4aaac00483b75c1a1092c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263172"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883230"
 ---
-# <a name="topology-view-simple-url-detail"></a>Топология: Просмотр сведений о простых URL-адресов
+# <a name="topology-view-simple-url-detail"></a>Топология: просмотр сведений о простых URL-адресах
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 

@@ -1,5 +1,6 @@
 ---
 title: 'Управление конференц-связи номеров доступа в Скайп для Business Server '
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Сводка: Узнайте, как управлять номера доступа к конференц-связи в Скайп для Business Server.'
-ms.openlocfilehash: a9e93b52a329a4fdce6817a758b6c6dcb29a0348
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c074cb9417e39d8964996f643b90f8fe3e0fd7b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008190"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883523"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Управление конференц-связи номеров доступа в Скайп для Business Server
  
@@ -111,7 +112,7 @@ Regions            : {US}
 9. В области **Пул** выберите пул, в котором работает экземпляр помощника по конференц-связи, поддерживающий этот номер для телефонного подключения.
     
     > [!NOTE]
-    > Если требуется изменить пул после создания номера доступа, необходимо с помощью командлета **Move-CsApplicationEndpoint** или удалить и воссоздайте номер доступа.
+    > Если требуется изменить пул после создания номера доступа, то необходимо использовать командлет **Move-CsApplicationEndpoint** или удалить этот номер доступа и создать его заново.
   
 10. В области **Основной язык** выберите язык, на котором будут воспроизводиться приглашения для этого номера для телефонного подключения. 
     

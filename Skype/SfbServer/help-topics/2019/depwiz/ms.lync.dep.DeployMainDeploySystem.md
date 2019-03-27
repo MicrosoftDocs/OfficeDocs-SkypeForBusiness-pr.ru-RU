@@ -1,5 +1,6 @@
 ---
 title: Установка или обновление системы Skype для бизнеса Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы начать установку, или для обновления существующего развертывания Скайп для Business Server, щелкните установить или обновить Скайп для Business Server. Действия, описанные в этом разделе предназначенным для установки конкретных компонентов для данного сервера, на основе ролей в документе Topology Builder. Перед началом этой серии этапов развертывания необходимо определить в построителе топологий. Вы должны войти в развертываемый компьютер как локальный администратор и участник группы администраторов домена в домене, в котором находится сервер. Компьютер необходимо присоединить к домену до выполнения этого шага.
-ms.openlocfilehash: b02886b2270f1a6c1c7a7096098f99321d79a98c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2f452b521302ac8cb743a79ebba4b30cad8c6595
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257047"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884777"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Установка или обновление системы Skype для бизнеса Server
 
@@ -27,5 +28,5 @@ ms.locfileid: "23257047"
 
 ## <a name="see-also"></a>См. также
 
-[Развертывание](https://technet.microsoft.com/library/83bd43ee-c1fe-4b38-bfa7-3eb382817bf9.aspx)
+[Deployment](https://technet.microsoft.com/library/83bd43ee-c1fe-4b38-bfa7-3eb382817bf9.aspx)
 

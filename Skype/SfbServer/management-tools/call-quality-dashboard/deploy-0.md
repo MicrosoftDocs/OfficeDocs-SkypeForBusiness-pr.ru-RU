@@ -1,5 +1,6 @@
 ---
 title: Развертывание панели мониторинга качества звонков для Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Сводка: Сведения о процессе развертывания для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
-ms.openlocfilehash: a4e8cfb48e0d9efc93b6c107db1ab9051f928e4d
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: ee67ddd0c0c9c3f2d169831c50dda49240d2ec7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735169"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883618"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Развертывание панели мониторинга качества звонков для Скайп для Business Server
  
@@ -273,7 +274,7 @@ QoEMetrics может содержать несколько недопустим
   
 Примеры
   
-- Головной офис
+- Штаб-квартире
     
 - Удаленного офиса
     
@@ -336,7 +337,7 @@ VALUES
   
 Примеры
   
-- VPN
+- VPN;
     
 - ЛАБОРАТОРИИ
     
@@ -428,7 +429,7 @@ VALUES
 |AP NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (необходимо использовать с разделителями fformat)  <br/> |
 |Контроллер  <br/> |Building  <br/> |Аруба AP 7  <br/> |
-|Устройства  <br/> |ess  <br/> |Контроллер1  <br/> |
+|Device  <br/> |ess  <br/> |Контроллер1  <br/> |
 |Радио  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>Обработка импортированных данных

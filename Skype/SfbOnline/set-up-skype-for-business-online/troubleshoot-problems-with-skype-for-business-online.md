@@ -1,5 +1,6 @@
 ---
 title: Устранение проблем со Skype для бизнеса Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 3ed2aa64df068de58ca9651f369b868947a5129d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 07cc390cdc4e65d0ce8f59c42c6eb57f4900e949
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850120"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883132"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Устранение проблем со Skype для бизнеса Online
 
@@ -82,7 +83,7 @@ ms.locfileid: "23850120"
 > [!NOTE]
 > Если вы используете Служба Office 365, предоставляемая 21Vianet в Китае, [обратитесь в службу поддержки 21Vianet](https://go.microsoft.com/fwlink/p/?linkid=847978).
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

@@ -1,5 +1,6 @@
 ---
 title: Выбор правил нормализации
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 description: Правила нормализации сервера используют регулярные выражения .NET Framework для преобразования набранных телефонных номеров в формат E.164. Каждой абонентской группе должно быть назначено хотя бы одно правило нормализации.
-ms.openlocfilehash: b6dffdad20dd041bda7c3dd226ccca32480154c0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f64e24ddc0f8a2373ba68fd98d1ac9587398a863
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883554"
 ---
 # <a name="select-normalization-rules"></a>Выбор правил нормализации
  

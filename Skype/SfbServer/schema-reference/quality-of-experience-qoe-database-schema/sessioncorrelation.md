@@ -1,5 +1,6 @@
 ---
 title: Таблица SessionCorrelation
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 description: Таблица sessioncorrelation представляет собой вспомогательную таблицу. Каждая запись представляет один CorrelationID, который используется для сопоставления нескольких сеансов.
-ms.openlocfilehash: 8a9c9661b10548bf3ebf402aa4654fced2ca709b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8c41ab5c52c6b4d06a3c3953e8d969488680e8d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884665"
 ---
 # <a name="sessioncorrelation-table"></a>Таблица SessionCorrelation
  
 Таблица sessioncorrelation представляет собой вспомогательную таблицу. Каждая запись представляет один CorrelationID, который используется для сопоставления нескольких сеансов. 
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**Контрольная сумма** <br/> |целое  <br/> |||
 |**CorrelationKey** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этот / видеоконференций.  <br/> |

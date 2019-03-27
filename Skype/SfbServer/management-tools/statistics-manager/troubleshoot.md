@@ -1,5 +1,6 @@
 ---
-title: Устранение неполадок в диспетчер статистики для Скайп Business Server
+title: Устранение проблем диспетчера статистики в Skype для бизнеса Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Сводка: Сведения для устранения неполадок развертывания из диспетчера статистики для Скайп Business Server.'
-ms.openlocfilehash: 236b109f28de838d626e9c85844b87dc9e9eb20b
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 33635c39086211e7e3e99b33268870c56704a367
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297920"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883808"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Устранение неполадок в диспетчер статистики для Скайп Business Server
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Устранение проблем диспетчера статистики в Skype для бизнеса Server
  
 **Сводка:** Прочтите этот раздел для устранения неполадок развертывания из диспетчера статистики для Скайп Business Server.
   
@@ -172,8 +173,8 @@ ms.locfileid: "27297920"
 
 Дополнительные сведения приведены далее.
   
-- [Планирование для диспетчера статистики для Скайп Business Server](plan.md)
+- [Планирование диспетчера статистики в Skype для бизнеса Server](plan.md)
     
-- [Развертывание диспетчера статистики для Скайп for Business Server](deploy.md)
+- [Развертывание диспетчера статистики в Skype для бизнеса Server](deploy.md)
     
-- [Обновление статистики Manager для Скайп для Business Server](upgrade.md)
+- [Обновление диспетчера статистики в Skype для бизнеса Server](upgrade.md)

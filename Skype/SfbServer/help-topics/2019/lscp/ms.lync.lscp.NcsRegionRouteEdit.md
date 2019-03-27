@@ -1,5 +1,6 @@
 ---
 title: Настройка маршрута области сети создание новой или редактирование существующей
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 2ac468317cbc4a3be42dc0569acf9ec0f16da8e1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fdf1beb2d62e2d2879b3a47884feb3fa23669e00
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255411"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883010"
 ---
-# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Настройка маршрута области сети: Создание новой или редактирование существующей
+# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Настройка маршрута области сети: создание новых или редактирование существующих
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 

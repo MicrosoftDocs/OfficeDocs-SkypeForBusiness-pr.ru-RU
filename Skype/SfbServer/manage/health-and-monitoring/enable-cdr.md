@@ -1,5 +1,6 @@
 ---
 title: Включение регистрации вызовов в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Сводка: Узнайте, как включить регистрации вызовов (CDR) записей в Скайп для Business Server.'
-ms.openlocfilehash: e010f76e25f8ab0894df1dc3a5bbb8a917c93ada
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 8ba053c95dcb9e43b6951671853d2c064ad5542f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245525"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884514"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Включение регистрации вызовов в Скайп для Business Server
 
@@ -25,7 +26,7 @@ ms.locfileid: "23245525"
 Используйте следующую процедуру, чтобы включить регистрацию вызовов для всей своей организации или каждого ее сайта.
 
 > [!NOTE]
-> Чтобы включить CDR, необходимо сначала настроить мониторинг и базу данных мониторинга. Дополнительные сведения см [Развертывание мониторинга](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
+> Чтобы включить CDR, необходимо сначала настроить мониторинг и базу данных мониторинга. Дополнительные сведения см. в разделе [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
 
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Чтобы включить CDR с помощью Скайп для панели управления Business Server
 
@@ -74,4 +75,4 @@ ms.locfileid: "23245525"
 
 [Планирование мониторинга](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[Мониторинг развертывания](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

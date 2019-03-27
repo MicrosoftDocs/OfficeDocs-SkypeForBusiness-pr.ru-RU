@@ -1,5 +1,6 @@
 ---
-title: Узел области применения сервера Office Communications
+title: Узел области сервера Office Communications
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
-description: Это предварительная редакция документации, и она может меняться. Пустые разделы добавлены в качестве заполнителей.
-ms.openlocfilehash: 19490132992a86af0afce38ad02b3aaacf0c78b3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
+ms.openlocfilehash: cec7a84d5915ee2f7692071d0759fea24f142178
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248267"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884707"
 ---
-# <a name="office-communications-server-scope-node"></a>Узел области применения сервера Office Communications
+# <a name="office-communications-server-scope-node"></a>Узел области сервера Office Communications
 
-Это предварительная редакция документации, и она может меняться. Пустые разделы добавлены в качестве заполнителей.
+Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
 
 Нажмите кнопку **Microsoft Office Communications Server 2007 R2** , чтобы развернуть разделы узла или щелкните правой кнопкой мыши чтобы отобразить параметры **топологии** или получить доступ к этой странице **справки** .
 

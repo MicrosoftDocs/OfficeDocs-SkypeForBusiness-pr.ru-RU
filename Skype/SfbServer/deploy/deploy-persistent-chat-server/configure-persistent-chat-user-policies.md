@@ -1,5 +1,6 @@
 ---
 title: Настройка пользовательских политик сохраняемого чата в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,17 +10,17 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
-description: 'Сводка: Прочтите этот раздел, чтобы узнать, как создание начальной пользовательских политик для сервера сохраняемого чата в Скайп для Business Server 2015. Пользовательские политики persistent Chat определение ли доступны пользователям доступ к комнатам чата.'
-ms.openlocfilehash: 186611977a1a9dfa77549e8f0c5df6b863718eee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 'Сводка: Прочтите этот раздел, чтобы узнать, как создание начальной пользовательских политик для сервера сохраняемого чата в Скайп для Business Server 2015. Persistent Chat user policies determine whether or not users are allowed access to chat rooms.'
+ms.openlocfilehash: e082898d92e622827e2543316b07a8be224c56c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000838"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883709"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Настройка пользовательских политик сохраняемого чата в Skype для бизнеса Server 2015
  
-**Сводка:** Прочтите этот раздел, чтобы узнать, как создание начальной пользовательских политик для сервера сохраняемого чата в Скайп для Business Server 2015. Пользовательские политики persistent Chat определение ли доступны пользователям доступ к комнатам чата.
+**Сводка:** Прочтите этот раздел, чтобы узнать, как создание начальной пользовательских политик для сервера сохраняемого чата в Скайп для Business Server 2015. Persistent Chat user policies determine whether or not users are allowed access to chat rooms.
   
 Можно управлять политиками пользователя сервера сохраняемого чата на следующих уровнях: глобальная, на уровне сайта или пользователя. Сначала можно настроить глобальную политику, чтобы включить использование параметров сохраняемого чата для всех пользователей в развертывании, а затем создать дополнительные политики пользователя и сайта с целью управления возможностью включения сохраняемого чата для определенных пользователей и сайтов.
   
@@ -121,6 +122,6 @@ ms.locfileid: "21000838"
     > [!NOTE]
     > ** \<Автоматического\> ** применение параметров действующей политики по умолчанию. Данные параметры автоматически применяются сервером.
   
-6. Нажмите **Исполнить**.
+6. Щелкните **Исполнить**.
     
 
