@@ -1,5 +1,6 @@
 ---
 title: Сведения о конфигурации CDR представления в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 'Сводка: Сведения об использовании регистрации вызовов соединений (CDR) в Скайп для Business Server.'
-ms.openlocfilehash: 6abdd508cdb8ecbd89054596b024e27376c70a38
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: edf3f719ed3d859ff6d7a6c4fcebbf22356277d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979415"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896730"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Сведения о конфигурации CDR представления в Скайп для Business Server
  

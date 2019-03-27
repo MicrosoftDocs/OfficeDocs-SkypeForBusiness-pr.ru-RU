@@ -1,5 +1,6 @@
 ---
 title: Развертывание корпоративной голосовой связи в Скайп for Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Сводка: Узнайте, как развертывание корпоративной голосовой связи для Скайп для Business Server в центральном узле.'
-ms.openlocfilehash: 57b74d7e77eb8aca89400930fc38a5e92abdde5a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 463eb0a7fce174a33116bcb63f129aa59c8eba9c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886519"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895613"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Развертывание корпоративной голосовой связи в Скайп for Business Server
 

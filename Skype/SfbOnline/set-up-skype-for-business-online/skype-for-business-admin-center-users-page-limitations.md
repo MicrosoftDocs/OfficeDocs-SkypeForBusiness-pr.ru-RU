@@ -1,5 +1,6 @@
 ---
 title: Ограничения страницы Скайп для бизнеса в Интернет пользователей центра администрирования
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Узнайте о работе в рамках ограничения Скайп для отображения бизнес Online администрирования пользователей. '
-ms.openlocfilehash: 1f8a3c98e218b3d536c21bbfdd0efe7cecf3806b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 37ef56ff8301586fbdf22d21830e22ff235ca1df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862998"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896911"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Ограничения страницы Скайп для бизнеса в Интернет пользователей центра администрирования
 
@@ -41,7 +42,7 @@ ms.locfileid: "23862998"
   
 ![Пользователи страницы навигации для изменения объема пользователей на странице](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

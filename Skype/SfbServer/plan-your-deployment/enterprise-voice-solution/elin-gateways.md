@@ -1,5 +1,6 @@
 ---
 title: Управление расположениями для шлюзов ELIN в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Решения, необходимые для планирования расположение базы данных или аналогичную внешней базы данных для развертывания E9-1-1 с помощью шлюзов ELIN в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 622593285ef4b1643f19d54f6c7d2f5c1e956c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 858493089c6c0e274a45616ea4b93a3fdf69e010
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885666"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894693"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Управление расположениями для шлюзов ELIN в Скайп для Business Server
 
@@ -32,10 +33,10 @@ ms.locfileid: "23885666"
 
 - Отправить номера ELIN в базу данных автоматического определения расположения (ALI) поставщика PSTN.
 
-Для получения дополнительных сведений о том, как выполнять эти задачи в статье [Configure базы данных местоположений](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) в документации по развертыванию.
+Дополнительные сведения о том, как выполнять эти задачи, см. в разделе [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) в документации по развертыванию.
 
 > [!NOTE]
-> Расположениях, добавленных в базу данных центрального расположения недоступны клиенту, пока они не были опубликованы с помощью Скайп для командной консоли Business Server и реплицируются в пуле локального хранилища. Дополнительные сведения см в документации по развертыванию [публикации базы данных местоположений](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) .
+> Расположениях, добавленных в базу данных центрального расположения недоступны клиенту, пока они не были опубликованы с помощью Скайп для командной консоли Business Server и реплицируются в пуле локального хранилища. Дополнительные сведения см. в разделе [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) в документации по развертыванию.
 
 В данном разделе описываются вопросы, которые необходимо рассмотреть во время планирования обновления и поддержки базы данных расположений.
 
@@ -85,7 +86,7 @@ ms.locfileid: "23885666"
 
 Для интеграции со службой сведения о местоположении базы данных сторонних производителей необходимо выполнить Скайп для схемы Business Server расположение запросов и ответов. Дополнительные сведения см [Веб-службы для поддержки протокола службы E911](https://go.microsoft.com/fwlink/p/?linkid=213819). Для получения дополнительных сведений о развертывании службы дополнительного сведения о расположении в статье [Configure дополнительного службе информирования о местонахождении в Скайп для Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) в документации по развертыванию.
 
-Для получения дополнительных сведений о заполнение базы данных местоположений в статье [Configure базы данных местоположений](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) в документации по развертыванию.
+Дополнительные сведения о заполнении базы данных расположений см. в разделе [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) документации по развертыванию.
 
 ## <a name="maintaining-the-location-database"></a>Обслуживание базы данных расположений
 

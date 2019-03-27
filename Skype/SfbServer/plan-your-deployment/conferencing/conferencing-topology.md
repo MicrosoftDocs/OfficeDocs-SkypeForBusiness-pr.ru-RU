@@ -1,5 +1,6 @@
 ---
 title: Планирование топологии конференц-связи для Скайп Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Сводка: Прочитайте сведения о планировании топологии конференц-связи в Скайп Business Server.'
-ms.openlocfilehash: d8e3d771eadfe47ee1d7ec15eb68051b717643bf
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: e6269986bd5c011f43b5f6374053441e3aca54ec
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "25375959"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893607"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Планирование топологии конференц-связи для Скайп Business Server
  

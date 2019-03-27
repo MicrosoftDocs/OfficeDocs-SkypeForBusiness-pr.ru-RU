@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этой статье рассматривается накопительное улучшения в системах комнаты Скайп версии 2.
-ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645358"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891601"
 ---
 # <a name="release-notes"></a>Примечания к выпуску 
 
@@ -53,9 +53,11 @@ ms.locfileid: "30645358"
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Скайп помещения систем v2 компонента введение и проблема решение
 
+
 ### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
 Представлено в это обновление:
 - Исправление для ошибки «зависают во время запуска приложения», на которые оказывает устройств на прежних версий Windows 10 RS2 построения.  
+
 
 ### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
 Представлено в это обновление:
@@ -180,7 +182,7 @@ Introduced in this update:
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 Представлено в это обновление: 
 - Выбор пользователей в приложении приглашений на собрания комнаты аудио- и видеоконференций USB-устройства
-- Интегрированное состояния консоли комнаты отчетов для клиентов, использующих пакет управления Microsoft Operations (см. [Управление планирование систем комнаты Скайп версии 2 с помощью OMS](oms-management.md)) 
+- Состояние консоли интегрированной комнаты отчетов для клиентов, использующих операции управления Microsoft Suite, теперь монитор Azure  
 
 ### <a name="release-to-market--1272016"></a>Выпуск на рынок (7/12/2016)
 **Компоненты:** 

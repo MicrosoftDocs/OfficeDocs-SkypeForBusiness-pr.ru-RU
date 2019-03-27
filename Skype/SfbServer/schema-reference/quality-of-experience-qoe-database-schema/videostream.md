@@ -1,5 +1,6 @@
 ---
 title: Таблица VideoStream
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Каждая запись представляет один видеопоток. Одна строка видео обычно содержит два видеопотоков.
-ms.openlocfilehash: 27a9c8cdd8b1975b7854147b5855a8494155ce2a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d6eeeb96acc766859d6b57594bd11a5538593da3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881683"
 ---
 # <a name="videostream-table"></a>Таблица VideoStream
  
 Каждая запись представляет один видеопоток. Одна строка видео обычно содержит два видеопотоков.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылка из [MediaLine table](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |целое  <br/> |Primary  <br/> |R ссылка из [MediaLine table](medialine-0.md).  <br/> |
@@ -29,7 +31,7 @@ ms.lasthandoff: 03/28/2018
 |**VideoPayloadDescription** <br/> |smallint  <br/> |Основной, внешний  <br/> |Описание полезных данных. В разделе [Таблица PayloadDescription](payloaddescription.md) для получения дополнительных сведений. <br/> |
 |**JitterInterArrival** <br/> |целое  <br/> | <br/> |Среднее "дрожание" сети из статистики протокола элемента управления в режиме реального времени (RTCP).  <br/> |
 |**JitterInterArrivalMax** <br/> |целое  <br/> | <br/> |Максимальное сетевое Колебание в ходе сеанса видеосвязи.  <br/> |
-|**Обмена данными** <br/> |целое  <br/> | <br/> |Время кругового пути из статистики RTCP.  <br/> |
+|**RoundTrip** <br/> |целое  <br/> | <br/> |Время кругового пути из статистики RTCP.  <br/> |
 |**RoundTripMax** <br/> |целое  <br/> | <br/> |Максимальное время кругового пути для потока видео.  <br/> |
 |**PacketLossRate** <br/> |Decimal(5,4)  <br/> | <br/> |Средняя частота потери пакетов во время вызова.  <br/> |
 |**PacketLossRateMax** <br/> |Decimal(5,4)  <br/> | <br/> |Максимальная потеря пакетов во время вызова.  <br/> |
@@ -52,7 +54,7 @@ ms.lasthandoff: 03/28/2018
 |**BPSPDropRatio** <br/> |tinyint  <br/> ||Процент времени вызова с Пропуском кадров bpsp.  <br/> |
 |**BPSPIDropRatio** <br/> |tinyint  <br/> ||Процент времени вызова с ПРОПУСКОМ кадров bpspi.  <br/> |
 |**Входящие данные** <br/> |бит  <br/> | <br/> |Полученные данные потока на стороне получателя.  <br/> |
-|**Исходящий** <br/> |бит  <br/> | <br/> |Полученные данные потока на стороне отправителя.  <br/> |
+|**Исходящее** <br/> |бит  <br/> | <br/> |Полученные данные потока на стороне отправителя.  <br/> |
 |**SenderIsCallerPAI** <br/> |бит  <br/> | <br/> |1 означает, что поток идет в направлении от вызывающего абонента вызываемому.  <br/> 0 означает, что поток идет в направлении от вызываемого абонента к вызывающему.  <br/> |
 |**LossCongestionPercent** <br/> |число с плавающей точкой  <br/> ||Показывает процент времени, в течение которого вызов находился в состоянии перегрузки.  <br/> Этот столбец появился в Microsoft Lync Server 2013.  <br/> |
 |**DelayCongestionPercent** <br/> |число с плавающей точкой  <br/> ||Указывает процент вызовов, во время которого перегрузка была вызвана задержкой поступления сетевых пакетов.  <br/> Этот столбец появился в Microsoft Lync Server 2013.  <br/> |

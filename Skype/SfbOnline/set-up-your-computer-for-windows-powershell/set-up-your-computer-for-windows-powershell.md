@@ -1,5 +1,6 @@
 ---
 title: Настройка компьютера для Windows PowerShell
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Получить требования для удаленного управления Скайп для бизнеса в Интернет с помощью Windows PowerShell, включая поддерживаемые операционные системы.
-ms.openlocfilehash: 01fa2856149bb7718fc34bb83f48e03a307496b8
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: 7854fa064420c2addeea4397e8dd882374c3b940
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635631"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896523"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Настройка компьютера для Windows PowerShell
 
@@ -32,7 +33,7 @@ ms.locfileid: "29635631"
 
 - Windows 10
     
-- Windows 8.1
+- Windows 8.1
     
 - Windows 8
     
@@ -54,7 +55,7 @@ ms.locfileid: "29635631"
   
 - [Загрузите и установите Скайп для модуля Business Online Connector](download-and-install-the-skype-for-business-online-connector.md)
     
-- [Загрузка и установка Windows PowerShell 3.0](download-and-install-windows-powershell-3-0.md)
+- [Загрузка и установка Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
     
 ## <a name="related-topics"></a>Связанные разделы
 [Диагностика проблем подключения с Скайп для business online connector](diagnose-problems-with-the-skype-for-business-online-connector.md)

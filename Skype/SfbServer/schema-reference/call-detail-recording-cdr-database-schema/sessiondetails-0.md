@@ -1,5 +1,6 @@
 ---
 title: Представление SessionDetails
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: Представление SessionDetails сохранение информации о сеансах peer-to-peer, которые могут быть телефонного звонка VoIP-VoIP, двумя участниками сеанса обмена мгновенными Сообщениями или другой тип сеанса. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: b13b0b184d13273c339f1ca3fa09a68687d26889
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c62f6e2c1bb505bf00d56898a562db2c00d298d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896030"
 ---
 # <a name="sessiondetails-view"></a>Представление SessionDetails
  
@@ -33,7 +35,7 @@ ms.lasthandoff: 03/28/2018
 |**ToTenant** <br/> |nvarchar(256)  <br/> |Клиент пользователя, который присоединился к сеансу. В [таблице клиентов](tenants.md) для получения дополнительных сведений см. <br/> |
 |**FromEndpointId** <br/> |uniqueidentifier  <br/> |Уникальный идентификатор конечной точки пользователя, запустившего сеанс.  <br/> |
 |**ToEndpointId** <br/> |uniqueidentifier  <br/> |Уникальный идентификатор конечной точки пользователя, который присоединился к сеансу.  <br/> |
-|**Время окончания** <br/> |datetime  <br/> |Время окончания сеанса.  <br/> |
+|**EndTime** <br/> |datetime  <br/> |Время окончания сеанса.  <br/> |
 |**FromMessageCount** <br/> |целое  <br/> |Число сообщений, отправленных пользователем, запустившим сеанс.  <br/> |
 |**ToMessageCount** <br/> |целое  <br/> |Число сообщений, отправленных пользователем, который присоединился к сеансу.  <br/> |
 |**FromClientVersion** <br/> |nvarchar(256)  <br/> |Версия клиента пользователя, запустившего сеанс.  <br/> |
@@ -60,7 +62,7 @@ ms.lasthandoff: 03/28/2018
 |**DiagnosticId** <br/> |целое  <br/> |КОД диагностики из заголовков SIP.  <br/> |
 |**ContentType** <br/> |nvarchar(256)  <br/> |Тип контента для этого сеанса.  <br/> |
 |**FrontEnd** <br/> |nvarchar(256)  <br/> |Полное доменное имя сервера переднего плана, который получил данные этого сеанса.  <br/> |
-|**Пул** <br/> |nvarchar(256)  <br/> |Полное доменное имя пула, который получил данные этого сеанса.  <br/> |
+|**Pool** <br/> |nvarchar(256)  <br/> |Полное доменное имя пула, который получил данные этого сеанса.  <br/> |
 |**FromEdgeServer** <br/> |nvarchar(256)  <br/> |Полное доменное имя пограничного сервера, используемого пользователем, запустившим сеанс.  <br/> |
 |**ToEdgeServer** <br/> |nvarchar(256)  <br/> |Полное доменное имя пограничного сервера, используемого пользователем, запустившим сеанс  <br/> |
 |**IsFromInternal** <br/> |бит  <br/> |Указывает, вошел ли пользователь, запустивший сеанс систему из внутренней сети.  <br/> |

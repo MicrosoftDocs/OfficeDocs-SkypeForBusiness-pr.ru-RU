@@ -1,5 +1,6 @@
 ---
 title: Проектирование и создание рабочих процессов для группы ответа в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Разработка и создание рабочих процессов для группы ответа, в Скайп Business Server корпоративной голосовой связи. Описаны как рабочие процессы сервисной группы, так и интерактивные процессы.
-ms.openlocfilehash: 9bb701cf3d4894ff46127b04a3132b6b1fb5895a
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: efa77ffa0a1d7b8fda3720c3002c5364216af8eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27264862"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895557"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Проектирование и создание рабочих процессов для группы ответа в Скайп для бизнеса
 
@@ -43,12 +44,12 @@ ms.locfileid: "27264862"
 
 4. На странице **Рабочий процесс** щелкните **Создать или редактировать рабочий процесс**.
 
-5. В поле поиска **выберите службу** введите полностью или частично имя службы **сервера приложений** , на котором размещается рабочий процесс, чтобы создать или изменить. В сформированном списке служб щелкните требуемую службу, затем нажмите кнопку **ОК**.
+5. В поле поиска **Выбор службы** полностью или частично введите имя службы **ApplicationServer**, обеспечивающей размещение создаваемого или изменяемого рабочего процесса. В сформированном списке служб щелкните требуемую службу, затем нажмите кнопку **ОК**.
 
     > [!NOTE]
     > Откроется окно программы настройки группы ответа. Можно также открыть средство настройки группы ответа непосредственно из веб-браузера, введя следующий URL-адрес: https://\<Полное_доменное_имя_веб\>/RgsConfig.
 
-6. Выполните одно из указанных ниже действий.
+6. Выполните одно из следующих действий:
 
    - В разделе **Создание нового рабочего процесса**, рядом с **Сервисной группы**и нажмите кнопку **Создать**.
 
@@ -216,7 +217,7 @@ ms.locfileid: "27264862"
    ```
 
      > [!NOTE]
-     > Чтобы использовать звукового файла в строке, используйте командлет **Import-CsRgsAudioFile** . Дополнительные сведения см [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
+     > Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом **Import-CsRgsAudioFile**. Дополнительные сведения см [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
 
 4. Получите идентификатор очереди или вопроса при перенаправлении вызовов. В командной строке выполните команду:
 
@@ -251,7 +252,7 @@ ms.locfileid: "27264862"
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-9. Создайте или измените рабочий процесс. Чтобы создать рабочий процесс, используйте **Командлет New-CsRgsWorkflow**. Чтобы изменить рабочий процесс, используйте **Командлет Set-CsRgsWorkflow**. В командной строке введите следующую команду:
+9. Создайте или измените рабочий процесс. Для создания рабочего процесса выполните командлет **New-CsRgsWorkflow**. Для изменения рабочего процесса выполните командлет **Set-CsRgsWorkflow**. В командной строке введите следующую команду:
 
    ```
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
@@ -376,7 +377,7 @@ ms.locfileid: "27264862"
 
 4. На странице **Рабочий процесс** щелкните **Создать или редактировать рабочий процесс**.
 
-5. В поле поиска **выберите службу** введите полностью или частично имя службы **сервера приложений** , на котором размещается рабочий процесс, чтобы создать или изменить. В сформированном списке служб щелкните требуемую службу, затем нажмите кнопку **ОК**.
+5. В поле поиска **Выбор службы** полностью или частично введите имя службы **ApplicationServer**, обеспечивающей размещение создаваемого или изменяемого рабочего процесса. В сформированном списке служб щелкните требуемую службу, затем нажмите кнопку **ОК**.
 
     > [!NOTE]
     > Откроется окно программы настройки группы ответа. Можно также открыть средство настройки группы ответа непосредственно из веб-браузера, введя следующий URL-адрес: https://\<Полное_доменное_имя_веб\>/RgsConfig.
@@ -647,9 +648,9 @@ ms.locfileid: "27264862"
 
 [(Необязательно) Группа ответа определение рабочих часов в Скайп для бизнеса](optional-define-response-group-business-hours.md)
 
-[Командлет New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
+[New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 
-[Командлет Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+[Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
 

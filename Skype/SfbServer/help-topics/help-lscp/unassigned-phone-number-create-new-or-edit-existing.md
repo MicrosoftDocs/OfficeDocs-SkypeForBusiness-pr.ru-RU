@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей неназначенный номер телефона
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: Неназначенные номера — это телефонные номера, допустимые для вашей организации, но не назначенные пользователю или телефону. В таблице неназначенных номеров указывается, как обрабатываются такие номера.
-ms.openlocfilehash: 5e8648b94950750e6f750044ba4033fdf637c6f4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3091ae34eee6e877079c927e087789d910d1bf7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373672"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885692"
 ---
-# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Неназначенный номер телефона: Создание новой или редактирование существующей
+# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Неназначенный номер телефона: создание нового или редактирование существующего
 
 Неназначенные номера — это телефонные номера, допустимые для вашей организации, но не назначенные пользователю или телефону. В таблице неназначенных номеров указывается, как обрабатываются такие номера.
 
@@ -52,6 +53,6 @@ ms.locfileid: "25373672"
 
   - **Телефонный номер автосекретаря** Выберите номер телефона для единой системы обмена СООБЩЕНИЯМИ автосекретаря Exchange.
 
-Для получения дополнительных сведений о объявления функций и возможностей см [в приложении объявлений в Скайп для бизнеса 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) в документации по планированию. Для получения дополнительных сведений о работе с диапазоны неназначенных номеров содержатся в документации по операциям [Настройка маршрутизации для неназначенных телефонных номеров](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) .
+Для получения дополнительных сведений о объявления функций и возможностей см [в приложении объявлений в Скайп для бизнеса 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) в документации по планированию. Дополнительные сведения о работе с диапазонами неназначенных номеров см. в разделе [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) документации по использованию.
 
 

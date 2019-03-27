@@ -1,5 +1,6 @@
 ---
-title: Маршрут голосовых вызовов
+title: Маршрут голосовых данных
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 90fcc979fbf765649cf65fdd029c3aa5422750d1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 55dcd362af88218ed2ca01dc9adead27267178c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245749"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896395"
 ---
-# <a name="voice-route"></a>Маршрут голосовых вызовов
+# <a name="voice-route"></a>Маршрут голосовых данных
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 

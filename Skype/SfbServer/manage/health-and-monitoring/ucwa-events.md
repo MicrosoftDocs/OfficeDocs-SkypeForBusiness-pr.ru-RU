@@ -1,5 +1,6 @@
 ---
 title: События UCWA в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 description: 'Сводка: Сведения о веб-объединенных коммуникаций API (UCWA) в Скайп для Business Server.'
-ms.openlocfilehash: 5a9fa42fa1367cd4afd74bc40f30549ca5777950
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d4de92466c33ee8d9131e1c087faa871664c0d6e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981095"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896737"
 ---
 # <a name="ucwa-events-in-skype-for-business-server"></a>События UCWA в Скайп для Business Server
  
@@ -24,7 +25,7 @@ ms.locfileid: "20981095"
   
 UCWA занесет записи о рабочем поведении с типами событий "Информационный", "Предупреждение" и "Ошибка". В следующей таблице описываются события, которые могут регистрироваться компонентами UCWA.
   
-|**Идентификатор события**|**Тип события**|**Заключение**|**Причина и решение**|
+|**Идентификатор события**|**Тип события**|**Сводка**|**Причина и решение**|
 |:-----|:-----|:-----|:-----|
 |20001  <br/> |Информационный  <br/> |Инициализировано UCWA  <br/> |Н/Д  <br/> Н/Д  <br/> |
 |20002  <br/> |Ошибка  <br/> |Во время инициализации UCWA возникло неожиданное исключение  <br/> |Во время инициализации возникла неожиданная ошибка  <br/> Изучите сведения об исключении в соответствующей записи журнала событий, чтобы определить возможную причину  <br/> |

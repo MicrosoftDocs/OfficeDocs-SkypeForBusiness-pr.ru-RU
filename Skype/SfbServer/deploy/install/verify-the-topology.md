@@ -1,5 +1,6 @@
 ---
 title: Проверка топологии в Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Сводка: Узнайте, как проверить Скайп для топологии Business Server и надлежащую работу серверы Active Directory. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: ed06860837805886f1d2287f23281edb90c470c1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 03dfb45c03aa104cc5a9b265a37c347380590877
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881975"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896423"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Проверка топологии в Скайп для Business Server
  
@@ -59,7 +60,7 @@ ms.locfileid: "23881975"
     
 9. В области результатов поиска выберите добавляемых пользователей и нажмите кнопку **OK**.
     
-10. На странице **Новый Скайп для пользователя Business Server** выбранных пользователей находятся в отображения **пользователей** . В списке **Назначение пользователей для пула** выберите сервер для размещения пользователей.
+10. На странице **Новый Скайп для пользователя Business Server** выбранных пользователей находятся в отображения **пользователей** . In the **Assign users to a pool** list, select the server where the users should reside.
     
     Ниже приведен список параметров для настройки объектов.
     

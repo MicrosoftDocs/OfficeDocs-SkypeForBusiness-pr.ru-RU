@@ -1,5 +1,6 @@
 ---
 title: Управление параметрами конфигурации централизованной службы ведения журналов в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,18 +12,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Сводка: Узнайте, как для получения, обновления и создать параметры конфигурации для службы централизованного ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1aab363f88b7639e2eb61f9101864bac20cc0aa0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375603"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896933"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Управление параметрами конфигурации централизованной службы ведения журналов в Skype для бизнеса Server 2015
 
 **Сводка:** Узнайте, как для получения, обновления и создать параметры конфигурации для службы централизованного ведения журналов в Скайп для Business Server 2015.
 
-Управляемые и настроен с использованием параметров и параметров, которые создаются и используются контроллером централизованного ведения журналов службы (CLSController) для отправки команд в отдельных компьютера службы агента централизованного ведения журналов (службы централизованного ведения журналов CLSAgent). Агент обрабатывает команды, которые отправляются в нее и (при использовании команды запуска) использует конфигурации из сценариев, поставщиков, длительность трассировки и флаги для начала сбора журналов трассировки согласно сведения о конфигурации.
+Управляемые и настроен с использованием параметров и параметров, которые создаются и используются контроллером централизованного ведения журналов службы (CLSController) для отправки команд в отдельных компьютера службы агента централизованного ведения журналов (службы централизованного ведения журналов CLSAgent). The agent processes the commands that are sent to it and (in the case of a Start command) uses the configuration of the scenarios, providers, trace duration, and flags to begin collecting trace logs according to the configuration information provided.
 
 > [!IMPORTANT]
 >  Не все командлеты Windows PowerShell, перечисленных для службы централизованного ведения журналов предназначены для использования с Скайп для развертываний локальной Business Server 2015. Несмотря на то, что они могут отображаться для работы, следующие командлеты не предназначены для работы с Скайп для развертываний локальной Business Server 2015:
@@ -48,17 +49,17 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Существуют основные различия между командной строки, которые могут работать в Windows PowerShell или CLSController. Windows PowerShell предоставляет метод расширенными возможностями для настройки и определить сценарии и повторно использовать эти сценарии осмысленно для устранения неполадок сценариев. Во время CLSController обеспечивают быстрое и эффективный способ выполнения команд и получения результатов, команды, установленное для CLSController ограничивается конечный команды, у вас есть доступны из командной строки. В отличие от командлетов Windows PowerShell CLSController не может определить новые сценарии, управление область действия на сайте или глобальном уровне и многие другие ограничения набор конечное команд, не может быть настроено динамически. Хотя CLSController предоставляет средства для быстрого выполнения, Windows PowerShell служит для расширения функциональности Centralized Logging Service за рамки возможностей с CLSController.
+> Существуют основные различия между командной строки, которые могут работать в Windows PowerShell или CLSController. Windows PowerShell предоставляет метод расширенными возможностями для настройки и определить сценарии и повторно использовать эти сценарии осмысленно для устранения неполадок сценариев. While CLSController does provide a fast and efficient way to issue commands and get results, the command set for CLSController is limited by the finite commands that you have available from the command line. В отличие от командлетов Windows PowerShell CLSController не может определить новые сценарии, управление область действия на сайте или глобальном уровне и многие другие ограничения набор конечное команд, не может быть настроено динамически. Хотя CLSController предоставляет средства для быстрого выполнения, Windows PowerShell служит для расширения функциональности Centralized Logging Service за рамки возможностей с CLSController.
 
 Область отдельный компьютер может быть определен во время выполнения [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps), [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps), [Start-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps), [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps), [Sync-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) и [Update-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) команды с помощью параметра - компьютеров. -Компьютеров параметр может принимать список разделенных запятыми полные доменные имена (FQDN) конечного компьютера.
 
 > [!TIP]
 > Можно также назначить - пулов и пулов, которые необходимо выполнять команды ведения журнала на список разделенных запятыми.
 
-Сайта и глобальной области определены в командлетах **New-** **Set -** и **Remove -** централизованной службы ведения журналов. В приведенных ниже примерах демонстрируется настройка сайта и глобальной области.
+Сайта и глобальной области определены в командлетах **New-** **Set -** и **Remove -** централизованной службы ведения журналов. The following examples demonstrate how to set a site and a global scope.
 
 > [!IMPORTANT]
-> Показанные команды могут содержать параметры и концепции, описанные в других разделах. Примеры команд предназначены для демонстрации использования **-Identity** параметр для определения области, а другие параметры включены для полноты и для определения области действия. Для получения дополнительных сведений о командлеты **Set-CsClsConfiguration** видеть [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) в документации по операциям.
+> Показанные команды могут содержать параметры и концепции, описанные в других разделах. Примеры команд предназначены для демонстрации использования **-Identity** параметр для определения области, а другие параметры включены для полноты и для определения области действия. Дополнительные сведения о командлетах **Set-CsClsConfiguration** см. в описании командлета [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) в документации по применению.
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Чтобы получить текущую конфигурацию централизованной службы ведения журналов
 
@@ -158,7 +159,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
   ```
 
-Необходимо тщательно спланировать создания новой конфигурации и определение новых свойств для службы централизованного ведения журналов. Следует соблюдать осторожность о внесении изменений и убедитесь, что понять воздействие на возможность должным образом войдите в сценарии проблемы. Следует вносить изменения в конфигурацию, расширяет возможности для управления журналы размер и точку выделения, которая позволит решения проблем при его возникает.
+Необходимо тщательно спланировать создания новой конфигурации и определение новых свойств для службы централизованного ведения журналов. You should be cautious about making changes and make sure you understand the impact on your ability to properly log problem scenarios. You should make changes to the configuration that will enhance your ability to manage logs to a size and a rollover period that will allow problem solving when it arises.
 ### <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>Для удаления существующей конфигурации службы централизованного ведения журналов
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
@@ -185,9 +186,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 [Настройка сценариев для централизованной службы ведения журналов в Skype для бизнеса Server 2015](configure-scenarios.md)
 
-[Централизованная служба ведения журнала в Skype для бизнеса 2015](centralized-logging-service.md)
+[Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)
 
-[SET-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
+[Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 
 [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
 
