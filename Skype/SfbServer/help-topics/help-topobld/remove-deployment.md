@@ -1,5 +1,6 @@
 ---
 title: Удаление развертывания
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,18 +12,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
-description: Нажмите кнопку Готово, чтобы создать пустую топологию в качестве первого шага ликвидации всего развертывания.
-ms.openlocfilehash: 2424855e0d4d54a378d6847e1f3eb5cf568d326e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Нажмите кнопку Готово для создания пустой топологии, с которого начинается процесс списания всего развертывания.
+ms.openlocfilehash: e74d10d894fc46dba8d8eebd2f02cf7da192935c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885165"
 ---
-# <a name="remove-deployment"></a><span data-ttu-id="b0199-103">Удаление развертывания</span><span class="sxs-lookup"><span data-stu-id="b0199-103">Remove Deployment</span></span>
+# <a name="remove-deployment"></a><span data-ttu-id="865e5-103">Удаление развертывания</span><span class="sxs-lookup"><span data-stu-id="865e5-103">Remove Deployment</span></span>
  
-<span data-ttu-id="b0199-104">Нажмите кнопку **Готово** для создания пустой топологии, с которого начинается процесс списания всего развертывания.</span><span class="sxs-lookup"><span data-stu-id="b0199-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
+<span data-ttu-id="865e5-104">Нажмите кнопку **Готово** для создания пустой топологии, с которого начинается процесс списания всего развертывания.</span><span class="sxs-lookup"><span data-stu-id="865e5-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="b0199-105">Это действие невозможно отменить.</span><span class="sxs-lookup"><span data-stu-id="b0199-105">You cannot undo this step.</span></span> 
+> <span data-ttu-id="865e5-105">Это действие невозможно отменить.</span><span class="sxs-lookup"><span data-stu-id="865e5-105">You cannot undo this step.</span></span> 
   
 

@@ -1,5 +1,6 @@
 ---
 title: Обновление устройств
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,53 +13,53 @@ localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Периодически корпорация Майкрософт выпускает новый набор обновления встроенного устройства для Скайп для Business Phone Edition, который можно импортировать на серверах и распространения для пользователей. Можно получить последние версии из правила обновления устройств, перейдя на страницу справки и поддержки на веб-сайте Microsoft и поиск forPhone Edition.Download последнюю версию пакета обновления и извлеките файлы в папку на компьютере, на которых требуется отправить обновления. После извлечения вы можете воспользоваться командлетом Import-CsDeviceUpdate для импорта правил обновления устройств из извлеченного файла CAB (он имеет имя UCUpdates.cab). Дополнительные сведения см Import-CsDeviceUpdate.
-ms.openlocfilehash: 997570ffa8dfbf8422577784086efb8f0e4dc20a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 67e398f992fa1cf4d76a75d91d9daf1d5c05b08c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261723"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891397"
 ---
-# <a name="device-update"></a><span data-ttu-id="84aa8-106">Обновление устройства</span><span class="sxs-lookup"><span data-stu-id="84aa8-106">Device Update</span></span>
+# <a name="device-update"></a><span data-ttu-id="e5da3-106">Обновление устройства</span><span class="sxs-lookup"><span data-stu-id="e5da3-106">Device Update</span></span>
 
-<span data-ttu-id="84aa8-107">Периодически корпорация Майкрософт выпускает новый набор обновления встроенного устройства для Скайп для Business Phone Edition, который можно импортировать на серверах и распространения для пользователей.</span><span class="sxs-lookup"><span data-stu-id="84aa8-107">Microsoft periodically releases a new set of device firmware updates for Skype for Business Phone Edition, which you can import to your servers and distribute to users.</span></span> <span data-ttu-id="84aa8-108">Вы можете получить самые новые наборы правил обновления устройств, перейдя на страницу "Справка и поддержка" веб-сайта Майкрософт и выполнив поиск словосочетания "Phone Edition".</span><span class="sxs-lookup"><span data-stu-id="84aa8-108">You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching for "Phone Edition."</span></span> <span data-ttu-id="84aa8-109">Загрузите самый новый пакет обновлений и извлеките файлы в папку на компьютере, куда собираетесь отправить обновления.</span><span class="sxs-lookup"><span data-stu-id="84aa8-109">Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded.</span></span> <span data-ttu-id="84aa8-110">После извлечения вы можете воспользоваться командлетом **Import-CsDeviceUpdate** для импорта правил обновления устройств из извлеченного файла CAB (он имеет имя UCUpdates.cab).</span><span class="sxs-lookup"><span data-stu-id="84aa8-110">After the files have been extracted, you can then use the **Import-CsDeviceUpdate** cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab).</span></span> <span data-ttu-id="84aa8-111">Дополнительные сведения см [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="84aa8-111">For details, see [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).</span></span>
+<span data-ttu-id="e5da3-107">Периодически корпорация Майкрософт выпускает новый набор обновления встроенного устройства для Скайп для Business Phone Edition, который можно импортировать на серверах и распространения для пользователей.</span><span class="sxs-lookup"><span data-stu-id="e5da3-107">Microsoft periodically releases a new set of device firmware updates for Skype for Business Phone Edition, which you can import to your servers and distribute to users.</span></span> <span data-ttu-id="e5da3-108">Вы можете получить самые новые наборы правил обновления устройств, перейдя на страницу "Справка и поддержка" веб-сайта Майкрософт и выполнив поиск словосочетания "Phone Edition".</span><span class="sxs-lookup"><span data-stu-id="e5da3-108">You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching for "Phone Edition."</span></span> <span data-ttu-id="e5da3-109">Загрузите самый новый пакет обновлений и извлеките файлы в папку на компьютере, куда собираетесь отправить обновления.</span><span class="sxs-lookup"><span data-stu-id="e5da3-109">Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded.</span></span> <span data-ttu-id="e5da3-110">После извлечения вы можете воспользоваться командлетом **Import-CsDeviceUpdate** для импорта правил обновления устройств из извлеченного файла CAB (он имеет имя UCUpdates.cab).</span><span class="sxs-lookup"><span data-stu-id="e5da3-110">After the files have been extracted, you can then use the **Import-CsDeviceUpdate** cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab).</span></span> <span data-ttu-id="e5da3-111">Дополнительные сведения см [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="e5da3-111">For details, see [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).</span></span>
 
-<span data-ttu-id="84aa8-112">После завершения импорта правил обновления устройств можно использовать страницу **Обновление устройства** для просмотра и управления эти правила для устройств вашей организации.</span><span class="sxs-lookup"><span data-stu-id="84aa8-112">After the device update rules have been imported, you can use the **Device Update** page to view and manage these rules for your organization's devices.</span></span>
+<span data-ttu-id="e5da3-112">После завершения импорта правил обновления устройств можно использовать страницу **Обновление устройства** для просмотра и управления эти правила для устройств вашей организации.</span><span class="sxs-lookup"><span data-stu-id="e5da3-112">After the device update rules have been imported, you can use the **Device Update** page to view and manage these rules for your organization's devices.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="84aa8-113">Вы можете протестировать обновления встроенного ПО и затем, если тестирование завершилось успешно, распространить их на все соответствующие устройства в организации.</span><span class="sxs-lookup"><span data-stu-id="84aa8-113">You can test the firmware updates and then, assuming the tests succeed, make the updates available to all the relevant devices used in the organization.</span></span>
+> <span data-ttu-id="e5da3-113">Вы можете протестировать обновления встроенного ПО и затем, если тестирование завершилось успешно, распространить их на все соответствующие устройства в организации.</span><span class="sxs-lookup"><span data-stu-id="e5da3-113">You can test the firmware updates and then, assuming the tests succeed, make the updates available to all the relevant devices used in the organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="84aa8-114">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="84aa8-114">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="e5da3-114">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="e5da3-114">Tasks you can perform</span></span>
 
-<span data-ttu-id="84aa8-115">На странице **Обновление устройства** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="84aa8-115">You can perform the following tasks on the **Device Update** page:</span></span>
+<span data-ttu-id="e5da3-115">На странице **Обновление устройства** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="e5da3-115">You can perform the following tasks on the **Device Update** page:</span></span>
 
-- <span data-ttu-id="84aa8-116">утвердить обновления устройств в списке;</span><span class="sxs-lookup"><span data-stu-id="84aa8-116">Approve device updates in the list.</span></span>
+- <span data-ttu-id="e5da3-116">утвердить обновления устройств в списке;</span><span class="sxs-lookup"><span data-stu-id="e5da3-116">Approve device updates in the list.</span></span>
 
-- <span data-ttu-id="84aa8-117">отменить или восстановить отложенные обновления устройств;</span><span class="sxs-lookup"><span data-stu-id="84aa8-117">Cancel or restore pending device updates.</span></span>
+- <span data-ttu-id="e5da3-117">отменить или восстановить отложенные обновления устройств;</span><span class="sxs-lookup"><span data-stu-id="e5da3-117">Cancel or restore pending device updates.</span></span>
 
-- <span data-ttu-id="84aa8-118">удалить обновления устройств из списка.</span><span class="sxs-lookup"><span data-stu-id="84aa8-118">Delete device updates from the list.</span></span>
+- <span data-ttu-id="e5da3-118">удалить обновления устройств из списка.</span><span class="sxs-lookup"><span data-stu-id="e5da3-118">Delete device updates from the list.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="84aa8-119">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="84aa8-119">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="e5da3-119">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="e5da3-119">UI Reference</span></span>
 
-<span data-ttu-id="84aa8-120">В следующих списках описываются меню, команды, поля и свойства на этой странице.</span><span class="sxs-lookup"><span data-stu-id="84aa8-120">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="e5da3-120">В следующих списках описываются меню, команды, поля и свойства на этой странице.</span><span class="sxs-lookup"><span data-stu-id="e5da3-120">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
 
-- <span data-ttu-id="84aa8-121">**Изменение** Этот параметр можно использовать для выполнения следующих:</span><span class="sxs-lookup"><span data-stu-id="84aa8-121">**Edit** You can use this option to do the following:</span></span>
+- <span data-ttu-id="e5da3-121">**Изменение** Этот параметр можно использовать для выполнения следующих:</span><span class="sxs-lookup"><span data-stu-id="e5da3-121">**Edit** You can use this option to do the following:</span></span>
 
-  - <span data-ttu-id="84aa8-122">**Выделить все** Этот параметр выбирает все обновления устройств в списке.</span><span class="sxs-lookup"><span data-stu-id="84aa8-122">**Select All** This option selects all device updates in the list.</span></span>
+  - <span data-ttu-id="e5da3-122">**Выделить все** Этот параметр выбирает все обновления устройств в списке.</span><span class="sxs-lookup"><span data-stu-id="e5da3-122">**Select All** This option selects all device updates in the list.</span></span>
 
-  - <span data-ttu-id="84aa8-123">**Удаление** Этот параметр удаляет все выбранные обновления устройств.</span><span class="sxs-lookup"><span data-stu-id="84aa8-123">**Delete** This option deletes all selected device updates.</span></span>
+  - <span data-ttu-id="e5da3-123">**Удаление** Этот параметр удаляет все выбранные обновления устройств.</span><span class="sxs-lookup"><span data-stu-id="e5da3-123">**Delete** This option deletes all selected device updates.</span></span>
 
-- <span data-ttu-id="84aa8-124">**Действие** Можно выбрать одно или несколько обновлений в списке и выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="84aa8-124">**Action** You can select one or more updates in the list and take the following actions:</span></span>
+- <span data-ttu-id="e5da3-124">**Действие** Можно выбрать одно или несколько обновлений в списке и выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="e5da3-124">**Action** You can select one or more updates in the list and take the following actions:</span></span>
 
-  - <span data-ttu-id="84aa8-125">**Отменить ожидающие обновления** Этот параметр запрещает выбранного обновления при развертывании на устройствах вашей организации.</span><span class="sxs-lookup"><span data-stu-id="84aa8-125">**Cancel pending updates** This option prevents the selected update from being deployed to your organization's devices.</span></span>
+  - <span data-ttu-id="e5da3-125">**Отменить ожидающие обновления** Этот параметр запрещает выбранного обновления при развертывании на устройствах вашей организации.</span><span class="sxs-lookup"><span data-stu-id="e5da3-125">**Cancel pending updates** This option prevents the selected update from being deployed to your organization's devices.</span></span>
 
-  - <span data-ttu-id="84aa8-126">**Утверждение** Этот параметр позволяет выбранного обновления для развертывания на устройствах вашей организации.</span><span class="sxs-lookup"><span data-stu-id="84aa8-126">**Approve** This option allows the selected update to be deployed to your organization's devices.</span></span>
+  - <span data-ttu-id="e5da3-126">**Утверждение** Этот параметр позволяет выбранного обновления для развертывания на устройствах вашей организации.</span><span class="sxs-lookup"><span data-stu-id="e5da3-126">**Approve** This option allows the selected update to be deployed to your organization's devices.</span></span>
 
-  - <span data-ttu-id="84aa8-127">**Восстановление** Этот параметр позволяет ранее утвержденного обновления для развертывания на устройствах вашей организации</span><span class="sxs-lookup"><span data-stu-id="84aa8-127">**Restore** This option allows a previously approved update to be deployed to your organization's devices</span></span>
+  - <span data-ttu-id="e5da3-127">**Восстановление** Этот параметр позволяет ранее утвержденного обновления для развертывания на устройствах вашей организации</span><span class="sxs-lookup"><span data-stu-id="e5da3-127">**Restore** This option allows a previously approved update to be deployed to your organization's devices</span></span>
 
-- <span data-ttu-id="84aa8-128">**Обновление** Вы можете обновить список, чтобы проверить состояние всех обновлений устройств.</span><span class="sxs-lookup"><span data-stu-id="84aa8-128">**Refresh** You can refresh the list to verify the status of all device updates.</span></span>
+- <span data-ttu-id="e5da3-128">**Обновление** Вы можете обновить список, чтобы проверить состояние всех обновлений устройств.</span><span class="sxs-lookup"><span data-stu-id="e5da3-128">**Refresh** You can refresh the list to verify the status of all device updates.</span></span>
 
-<span data-ttu-id="84aa8-129">Для получения дополнительных сведений об устройстве веб-службе обновления видеть [Просмотр обновлений программного обеспечения для устройств в вашей организации](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="84aa8-129">For details about Device Update Web service, see [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) in the Planning documentation.</span></span>
-## <a name="see-also"></a><span data-ttu-id="84aa8-130">См. также</span><span class="sxs-lookup"><span data-stu-id="84aa8-130">See also</span></span>
+<span data-ttu-id="e5da3-129">Дополнительные сведения веб-службе обновления устройств см. в разделе [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="e5da3-129">For details about Device Update Web service, see [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) in the Planning documentation.</span></span>
+## <a name="see-also"></a><span data-ttu-id="e5da3-130">См. также</span><span class="sxs-lookup"><span data-stu-id="e5da3-130">See also</span></span>
 
-[<span data-ttu-id="84aa8-131">Import-CsDeviceUpdate</span><span class="sxs-lookup"><span data-stu-id="84aa8-131">Import-CsDeviceUpdate</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)
+[<span data-ttu-id="e5da3-131">Import-CsDeviceUpdate</span><span class="sxs-lookup"><span data-stu-id="e5da3-131">Import-CsDeviceUpdate</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

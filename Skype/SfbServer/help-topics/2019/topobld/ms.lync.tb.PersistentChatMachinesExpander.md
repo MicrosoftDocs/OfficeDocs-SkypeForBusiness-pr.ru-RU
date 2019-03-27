@@ -1,5 +1,6 @@
 ---
 title: Расширитель настроек компьютеров сохраняемого чата
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Включение или отключение развернутого сервера сохраняемого чата или пул серверов сохраняемого чата с помощью серверов или пулов, перечисленные в параметры состояния компьютера. Для перевода сервера или пула в активное состояние следует выбрать его в списке и нажать кнопку Сделать активным.
-ms.openlocfilehash: ab24577f06fea56a2115e3db3c336f05aff472c2
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: dd061a643b5187222956e8b344da6c3a027bb2dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064852"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886557"
 ---
-# <a name="persistent-chat-machines-expander"></a><span data-ttu-id="d5c78-104">Расширитель настроек компьютеров сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="d5c78-104">Persistent Chat Machines Expander</span></span>
+# <a name="persistent-chat-machines-expander"></a><span data-ttu-id="e0487-104">Расширитель настроек компьютеров сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="e0487-104">Persistent Chat Machines Expander</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="d5c78-105">Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="d5c78-105">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="d5c78-106">Те же функциональные возможности доступны в группах.</span><span class="sxs-lookup"><span data-stu-id="d5c78-106">The same functionality is available in Teams.</span></span> <span data-ttu-id="d5c78-107">Дополнительные сведения содержатся в разделе [обновление Скайп для бизнеса для групп Майкрософт](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="d5c78-107">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="d5c78-108">Если необходимо использовать сохраняемого чата, возможны перенос пользователей, которым требуется эта функция группам или продолжить использование Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="d5c78-108">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="e0487-105">Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e0487-105">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="e0487-106">Те же функциональные возможности доступны в группах.</span><span class="sxs-lookup"><span data-stu-id="e0487-106">The same functionality is available in Teams.</span></span> <span data-ttu-id="e0487-107">Дополнительные сведения содержатся в разделе [обновление Скайп для бизнеса для групп Майкрософт](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="e0487-107">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="e0487-108">Если необходимо использовать сохраняемого чата, возможны перенос пользователей, которым требуется эта функция группам или продолжить использование Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="e0487-108">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

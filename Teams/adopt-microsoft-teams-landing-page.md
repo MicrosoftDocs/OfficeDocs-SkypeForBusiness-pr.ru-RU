@@ -1,5 +1,6 @@
 ---
 title: Внедрение Microsoft Teams
+ms.reviewer: ''
 description: Используйте следующие ресурсы внедрения, которые помогут в планировании и развертывании рабочих групп Майкрософт в вашей организации.
 ms.topic: landing-page
 author: karuanag
@@ -15,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a06ae959f5372038be00737573e75065adb6f4e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 7afbc40b97863bf1456f5654aa8a0c0aea4e69b5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464798"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889983"
 ---
 # <a name="adopt-microsoft-teams"></a>Внедрение Microsoft Teams
 
@@ -155,8 +156,8 @@ ms.locfileid: "30464798"
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">Запуск</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">Начало работы</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Понять, групп и каналы</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Создание первой группы</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Общие сведения о командах и каналах</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Создание первых команд</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">Оцените готовность к культурные и организации</a></p>
                     </div>
                 </div>
@@ -174,11 +175,11 @@ ms.locfileid: "30464798"
                     </div>
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Эксперимент</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Создание программы чемпионатов</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">Краткое руководство</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Создание программы лидеров</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">Управление быстрым началом работы</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">Определение сценариев использования</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">Встроенный первыми и сбор отзывов</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">Встроенная поддержка</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">Поддержка адаптации</a></p>
                     </div>
                 </div>
             </div>
@@ -196,9 +197,9 @@ ms.locfileid: "30464798"
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Масштаб</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Определение успеха и полученные результаты</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Оптимизировать свои отзывы и предложения и отчетов</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Сведения о диска и реализовать и обучение</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Планирование проверки работоспособности службы</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Оптимизация отзывов и отчетности</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Информированность и внедрение обучения</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Планирование проверок работоспособности служб</a></p>
                     </div>
                 </div>
             </div>

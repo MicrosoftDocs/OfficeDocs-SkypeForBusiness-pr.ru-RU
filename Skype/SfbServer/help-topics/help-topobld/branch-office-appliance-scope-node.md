@@ -1,5 +1,6 @@
 ---
 title: Узел области применения устройства для обеспечения связи в филиалах
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,27 +12,28 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-description: Узел показывает полное доменное имя (FQDN), связанное пулов и серверов и устойчивость сведения об этом для обеспечения связи в филиалах. Можно выполнить следующие действия.
-ms.openlocfilehash: 0a4290ad15b9484f7410f8f490c636d45f2def27
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Узел показывает полное доменное имя (FQDN), связанное пулов и серверов и устойчивость сведения об этом для обеспечения связи в филиалах. Доступны следующие действия.
+ms.openlocfilehash: 71063adcf5e7a69210e0576851539e960c70a639
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886587"
 ---
-# <a name="branch-office-appliance-scope-node"></a><span data-ttu-id="1307d-104">Узел области применения устройства для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="1307d-104">Branch Office Appliance Scope Node</span></span>
+# <a name="branch-office-appliance-scope-node"></a><span data-ttu-id="4cede-104">Узел области применения устройства для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="4cede-104">Branch Office Appliance Scope Node</span></span>
  
-<span data-ttu-id="1307d-105">Узел показывает полное доменное имя (FQDN), связанное пулов и серверов и устойчивость сведения об этом для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="1307d-105">This node shows the fully qualified domain name (FQDN), associated pools and servers, and resiliency information about this Survivable Branch Appliance.</span></span> <span data-ttu-id="1307d-106">Можно выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="1307d-106">You can perform the following actions:</span></span>
+<span data-ttu-id="4cede-105">Узел показывает полное доменное имя (FQDN), связанное пулов и серверов и устойчивость сведения об этом для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="4cede-105">This node shows the fully qualified domain name (FQDN), associated pools and servers, and resiliency information about this Survivable Branch Appliance.</span></span> <span data-ttu-id="4cede-106">Доступны следующие действия.</span><span class="sxs-lookup"><span data-stu-id="4cede-106">You can perform the following actions:</span></span>
   
-- <span data-ttu-id="1307d-107">**Изменение свойств**.</span><span class="sxs-lookup"><span data-stu-id="1307d-107">**Edit Properties**.</span></span> <span data-ttu-id="1307d-108">Откроется страница **Изменения свойств** для этой для обеспечения связи в филиалах, где можно изменить полное доменное имя (если топология еще не опубликован), связи и параметры устойчивости.</span><span class="sxs-lookup"><span data-stu-id="1307d-108">Opens the **Edit Properties** page for this Survivable Branch Appliance, where you can change the FQDN (if the topology is not already published), the associations, and resiliency settings.</span></span>
+- <span data-ttu-id="4cede-107">**Изменение свойств**.</span><span class="sxs-lookup"><span data-stu-id="4cede-107">**Edit Properties**.</span></span> <span data-ttu-id="4cede-108">Откроется страница **Изменения свойств** для этой для обеспечения связи в филиалах, где можно изменить полное доменное имя (если топология еще не опубликован), связи и параметры устойчивости.</span><span class="sxs-lookup"><span data-stu-id="4cede-108">Opens the **Edit Properties** page for this Survivable Branch Appliance, where you can change the FQDN (if the topology is not already published), the associations, and resiliency settings.</span></span>
     
-- <span data-ttu-id="1307d-p104">**Удалить**. Удаление сервера из топологии.</span><span class="sxs-lookup"><span data-stu-id="1307d-p104">**Delete**. Deletes the server from the topology.</span></span>
+- <span data-ttu-id="4cede-p104">**Удалить**. Удаление сервера из топологии.</span><span class="sxs-lookup"><span data-stu-id="4cede-p104">**Delete**. Deletes the server from the topology.</span></span>
     
-<span data-ttu-id="1307d-111">Кроме работы с этими параметрами, вы можете выполнять следующие задачи общего характера:</span><span class="sxs-lookup"><span data-stu-id="1307d-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="4cede-111">Кроме работы с этими параметрами, вы можете выполнять следующие задачи общего характера:</span><span class="sxs-lookup"><span data-stu-id="4cede-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="1307d-p105">**Топология**. Эта команда позволяет задать новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="1307d-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, or remove the deployment.</span></span>
+- <span data-ttu-id="4cede-p105">**Топология**. Эта команда позволяет задать новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="4cede-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, or remove the deployment.</span></span>
     
-- <span data-ttu-id="1307d-p106">**Вид**. Эта команда позволяет настроить представление в построителе топологий путем выбора элементов для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="1307d-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="4cede-p106">**Вид**. Эта команда позволяет настроить представление в построителе топологий путем выбора элементов для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="4cede-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="1307d-p107">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="1307d-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="4cede-p107">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="4cede-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

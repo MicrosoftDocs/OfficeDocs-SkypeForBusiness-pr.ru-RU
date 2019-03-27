@@ -1,5 +1,6 @@
 ---
 title: Настройка сетевого сайта
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 6450efabd38ac62dc4610821380b28ddb57577ab
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: afa8e61f9b01f2d737f862235b514c8beb3e2a07
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260610"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889911"
 ---
-# <a name="configure-a-network-site"></a><span data-ttu-id="0e77d-104">Настройка сетевого сайта</span><span class="sxs-lookup"><span data-stu-id="0e77d-104">Configure a Network Site</span></span>
+# <a name="configure-a-network-site"></a><span data-ttu-id="94ab8-104">Настройка сетевого сайта</span><span class="sxs-lookup"><span data-stu-id="94ab8-104">Configure a Network Site</span></span>
 
-<span data-ttu-id="0e77d-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="0e77d-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="94ab8-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="94ab8-105">What do you want to do?</span></span> <span data-ttu-id="94ab8-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="94ab8-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0e77d-107">Настройка сетевых сайтов</span><span class="sxs-lookup"><span data-stu-id="0e77d-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="94ab8-107">Настройка сетевых сайтов</span><span class="sxs-lookup"><span data-stu-id="94ab8-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
-<span data-ttu-id="0e77d-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="0e77d-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="94ab8-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="94ab8-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

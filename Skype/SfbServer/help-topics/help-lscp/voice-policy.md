@@ -1,5 +1,6 @@
 ---
 title: Политика голосовой связи
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,20 +13,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: fa485f9f3ae3e15adea1f65c85a558832c78f140
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 438dc39536a771e7670fd6d5e580850fb2df742e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241972"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887465"
 ---
-# <a name="voice-policy"></a><span data-ttu-id="41b9b-104">Политика голосовой связи</span><span class="sxs-lookup"><span data-stu-id="41b9b-104">Voice Policy</span></span>
+# <a name="voice-policy"></a><span data-ttu-id="45711-104">Политика голосовой связи</span><span class="sxs-lookup"><span data-stu-id="45711-104">Voice Policy</span></span>
 
-<span data-ttu-id="41b9b-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="41b9b-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="45711-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="45711-105">What do you want to do?</span></span> <span data-ttu-id="45711-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="45711-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="41b9b-107">Создание или изменение голосовой политики и настройка записей использования ТСОП в Skype для бизнеса 2015</span><span class="sxs-lookup"><span data-stu-id="41b9b-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [<span data-ttu-id="45711-107">Создание или изменение голосовой политики и настройка записей использования ТСОП в Skype для бизнеса 2015</span><span class="sxs-lookup"><span data-stu-id="45711-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [<span data-ttu-id="41b9b-108">Изменение политики голосовой связи и Настройка записей использования ТСОП</span><span class="sxs-lookup"><span data-stu-id="41b9b-108">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [<span data-ttu-id="45711-108">Изменение политики голосовой связи и Настройка записей использования ТСОП</span><span class="sxs-lookup"><span data-stu-id="45711-108">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
-<span data-ttu-id="41b9b-109">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="41b9b-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="45711-109">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="45711-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей регистрации вызовов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,20 +13,20 @@ localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: cebe1f88e453e1aa05a6a3ce86b915594703ef8c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b2bfe9067b0ad3a1559d852974a9470285556f94
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979736"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889792"
 ---
-# <a name="call-detail-recording-create-new-or-edit-existing"></a><span data-ttu-id="460b9-104">Регистрации вызовов: Создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="460b9-104">Call Detail Recording: Create New or Edit Existing</span></span>
+# <a name="call-detail-recording-create-new-or-edit-existing"></a><span data-ttu-id="6d126-104">Запись сведений о звонке: создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="6d126-104">Call Detail Recording: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="460b9-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="460b9-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="6d126-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="6d126-105">What do you want to do?</span></span> <span data-ttu-id="6d126-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="6d126-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="460b9-107">Включение регистрации вызовов в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="460b9-107">Enable call detail recording in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
+- [<span data-ttu-id="6d126-107">Включение регистрации вызовов в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="6d126-107">Enable call detail recording in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [<span data-ttu-id="460b9-108">Указание срока хранения данных CDR в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="460b9-108">Specify retention of CDR data in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [<span data-ttu-id="6d126-108">Указание срока хранения данных CDR в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="6d126-108">Specify retention of CDR data in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 
