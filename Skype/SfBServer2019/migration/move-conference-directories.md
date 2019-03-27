@@ -1,5 +1,6 @@
 ---
 title: Перемещение каталогов конференций
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,56 +9,56 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Перед ликвидацией пула необходимо выполнить следующую процедуру для каждого каталога конференции в устаревшем пуле.
-ms.openlocfilehash: b7526d8c3c032bf8b1f9052dce7da7e8a87b66b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 32ebe22c54585a206c90888238d96e41fce30a58
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372807"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895721"
 ---
-# <a name="move-conference-directories"></a><span data-ttu-id="46f2e-103">Перемещение каталогов конференций</span><span class="sxs-lookup"><span data-stu-id="46f2e-103">Move Conference Directories</span></span>
+# <a name="move-conference-directories"></a><span data-ttu-id="20f23-103">Перемещение каталогов конференций</span><span class="sxs-lookup"><span data-stu-id="20f23-103">Move Conference Directories</span></span>
 
-<span data-ttu-id="46f2e-104">Перед ликвидацией пула необходимо выполнить следующую процедуру для каждого каталога конференции в устаревшем пуле.</span><span class="sxs-lookup"><span data-stu-id="46f2e-104">Before decommissioning a pool, you must perform the following procedure for each conference directory in your legacy pool.</span></span>
+<span data-ttu-id="20f23-104">Перед ликвидацией пула необходимо выполнить следующую процедуру для каждого каталога конференции в устаревшем пуле.</span><span class="sxs-lookup"><span data-stu-id="20f23-104">Before decommissioning a pool, you must perform the following procedure for each conference directory in your legacy pool.</span></span>
   
-### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a><span data-ttu-id="46f2e-105">Перемещение каталога конференции Скайп для Business Server 2019</span><span class="sxs-lookup"><span data-stu-id="46f2e-105">To Move a Conference Directory to Skype for Business Server 2019</span></span>
+### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a><span data-ttu-id="20f23-105">Перемещение каталога конференции Скайп для Business Server 2019</span><span class="sxs-lookup"><span data-stu-id="20f23-105">To Move a Conference Directory to Skype for Business Server 2019</span></span>
 
-1. <span data-ttu-id="46f2e-106">Откройте Скайп для консоли Business Server.</span><span class="sxs-lookup"><span data-stu-id="46f2e-106">Open the Skype for Business Server Management Shell.</span></span>
+1. <span data-ttu-id="20f23-106">Откройте Скайп для консоли Business Server.</span><span class="sxs-lookup"><span data-stu-id="20f23-106">Open the Skype for Business Server Management Shell.</span></span>
     
-2. <span data-ttu-id="46f2e-107">Чтобы получить идентификатор каталогов конференций в вашей организации, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="46f2e-107">To obtain the identity of the conference directories in your organization, run the following command:</span></span>
+2. <span data-ttu-id="20f23-107">Чтобы получить идентификатор каталогов конференций в вашей организации, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="20f23-107">To obtain the identity of the conference directories in your organization, run the following command:</span></span>
     
    ```
    Get-CsConferenceDirectory
    ```
 
-    <span data-ttu-id="46f2e-108">Предыдущая команда возвращает все каталоги конференций в организации.</span><span class="sxs-lookup"><span data-stu-id="46f2e-108">The preceding command returns all the conference directories in your organization.</span></span> <span data-ttu-id="46f2e-109">Из-за, можно ограничить результаты в пул списан.</span><span class="sxs-lookup"><span data-stu-id="46f2e-109">Because of that, you might want to limit the results to the pool being decommissioned.</span></span> <span data-ttu-id="46f2e-110">Например если ликвидации пула с pool01.contoso.net полное доменное имя (FQDN), чтобы ограничить возвращаемые данные для каталогов конференций из этого пула используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="46f2e-110">For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:</span></span>
+    <span data-ttu-id="20f23-108">Предыдущая команда возвращает все каталоги конференций в организации.</span><span class="sxs-lookup"><span data-stu-id="20f23-108">The preceding command returns all the conference directories in your organization.</span></span> <span data-ttu-id="20f23-109">Из-за, можно ограничить результаты в пул списан.</span><span class="sxs-lookup"><span data-stu-id="20f23-109">Because of that, you might want to limit the results to the pool being decommissioned.</span></span> <span data-ttu-id="20f23-110">Например если ликвидации пула с pool01.contoso.net полное доменное имя (FQDN), чтобы ограничить возвращаемые данные для каталогов конференций из этого пула используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="20f23-110">For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:</span></span>
     
    ```
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
-    <span data-ttu-id="46f2e-111">Эта команда возвращает только каталоги конференций, в которых свойство ServiceID содержит полное доменное имя pool01.contoso.net.</span><span class="sxs-lookup"><span data-stu-id="46f2e-111">That command returns only the conference directories where the ServiceID property contains the FQDN pool01.contoso.net.</span></span>
+    <span data-ttu-id="20f23-111">Эта команда возвращает только каталоги конференций, в которых свойство ServiceID содержит полное доменное имя pool01.contoso.net.</span><span class="sxs-lookup"><span data-stu-id="20f23-111">That command returns only the conference directories where the ServiceID property contains the FQDN pool01.contoso.net.</span></span>
     
-3. <span data-ttu-id="46f2e-112">Для перемещения каталогов конференций, выполните следующую команду для каждого каталога конференции в пуле:</span><span class="sxs-lookup"><span data-stu-id="46f2e-112">To move conference directories, run the following command for each conference directory in the pool:</span></span>
+3. <span data-ttu-id="20f23-112">Для перемещения каталогов конференций, выполните следующую команду для каждого каталога конференции в пуле:</span><span class="sxs-lookup"><span data-stu-id="20f23-112">To move conference directories, run the following command for each conference directory in the pool:</span></span>
     
    ```
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
-    <span data-ttu-id="46f2e-113">К примеру перемещение каталога конференции 3, используйте следующую команду, указав в качестве TargetPool Скайп для пула Business Server 2019:</span><span class="sxs-lookup"><span data-stu-id="46f2e-113">For example, to move conference directory 3, use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:</span></span>
+    <span data-ttu-id="20f23-113">К примеру перемещение каталога конференции 3, используйте следующую команду, указав в качестве TargetPool Скайп для пула Business Server 2019:</span><span class="sxs-lookup"><span data-stu-id="20f23-113">For example, to move conference directory 3, use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:</span></span>
     
    ```
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
    ```
 
-    <span data-ttu-id="46f2e-114">Если вы хотите переместить все каталоги конференций в пуле, используйте команду, аналогичную следующей:</span><span class="sxs-lookup"><span data-stu-id="46f2e-114">If you want to move all the conference directories on a pool, use a command similar to the following:</span></span>
+    <span data-ttu-id="20f23-114">Если вы хотите переместить все каталоги конференций в пуле, используйте команду, аналогичную следующей:</span><span class="sxs-lookup"><span data-stu-id="20f23-114">If you want to move all the conference directories on a pool, use a command similar to the following:</span></span>
     
    ```
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 
-<span data-ttu-id="46f2e-115">Загрузите [Microsoft Удаление прежних версий и удаление роли сервера](https://go.microsoft.com/fwlink/p/?linkId=246227) для подробные пошаговые инструкции по ликвидация старых пулов.</span><span class="sxs-lookup"><span data-stu-id="46f2e-115">Download [Uninstalling Microsoft legacy and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) for comprehensive, step-by-step instructions on decommissioning legacy pools.</span></span>
+<span data-ttu-id="20f23-115">Загрузите [Microsoft Удаление прежних версий и удаление роли сервера](https://go.microsoft.com/fwlink/p/?linkId=246227) для подробные пошаговые инструкции по ликвидация старых пулов.</span><span class="sxs-lookup"><span data-stu-id="20f23-115">Download [Uninstalling Microsoft legacy and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) for comprehensive, step-by-step instructions on decommissioning legacy pools.</span></span>
   
-<span data-ttu-id="46f2e-116">После перемещения каталогов конференций, может появиться следующее сообщение об ошибке:</span><span class="sxs-lookup"><span data-stu-id="46f2e-116">When moving conference directories, you might encounter the following error:</span></span>
+<span data-ttu-id="20f23-116">После перемещения каталогов конференций, может появиться следующее сообщение об ошибке:</span><span class="sxs-lookup"><span data-stu-id="20f23-116">When moving conference directories, you might encounter the following error:</span></span>
   
 ```
 WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
@@ -66,6 +67,6 @@ Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObjec
 This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 ```
 
-<span data-ttu-id="46f2e-117">Как правило, эта ошибка возникает при Скайп оболочки управления Business Server требуется обновленный набор разрешений Active Directory для выполнения задачи.</span><span class="sxs-lookup"><span data-stu-id="46f2e-117">This error typically occurs when the Skype for Business Server Management Shell requires an updated set of Active Directory permissions in order to complete a task.</span></span> <span data-ttu-id="46f2e-118">Для устранения этой проблемы, закрыть текущий экземпляр консоли, а затем откройте новый экземпляр объекта командной консоли и повторно выполните команду, чтобы переместить каталог конференции.</span><span class="sxs-lookup"><span data-stu-id="46f2e-118">To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command to move the conference directory.</span></span>
+<span data-ttu-id="20f23-117">Как правило, эта ошибка возникает при Скайп оболочки управления Business Server требуется обновленный набор разрешений Active Directory для выполнения задачи.</span><span class="sxs-lookup"><span data-stu-id="20f23-117">This error typically occurs when the Skype for Business Server Management Shell requires an updated set of Active Directory permissions in order to complete a task.</span></span> <span data-ttu-id="20f23-118">Для устранения этой проблемы, закрыть текущий экземпляр консоли, а затем откройте новый экземпляр объекта командной консоли и повторно выполните команду, чтобы переместить каталог конференции.</span><span class="sxs-lookup"><span data-stu-id="20f23-118">To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command to move the conference directory.</span></span>
   
 
