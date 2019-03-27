@@ -1,5 +1,6 @@
 ---
 title: (Необязательно) Группа ответа определение рабочих часов в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Создание или изменение группы ответа рабочих часов, в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: a5f24d218ab15cb1307f042363147c9e915a351e
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: ba10f513495d21c7f94397350c1227cb77fe588b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546808"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884679"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Необязательно) Группа ответа определение рабочих часов в Скайп для бизнеса 
  
@@ -23,7 +24,7 @@ ms.locfileid: "25546808"
   
 ## <a name="defining-business-hours"></a>Определение рабочих часов
 
-Настройки рабочих часов определяют, когда рабочий процесс доступен для ответа на вызовы, и задают процессы обработки вызовов, поступающих в нерабочее время. Администраторы групп ответа можно использовать командлет **New-CsRgsHoursOfBusiness** для создания предварительно заданных расписаний, которые можно использовать для любого числа групп ответа.
+Настройки рабочих часов определяют, когда рабочий процесс доступен для ответа на вызовы, и задают процессы обработки вызовов, поступающих в нерабочее время. Администраторы группы ответа могут использовать командлет **New-CsRgsHoursOfBusiness** для создания предварительно заданных расписаний, которые можно использовать для любого количества групп ответа.
   
 > [!TIP]
 > При создании или изменение рабочего процесса, можно указать настраиваемое расписание, которое применяется только для этого рабочего процесса. Дополнительные сведения см [разработку и создание ответа рабочих процессов для группы в Скайп для бизнеса](designing-and-creating-response-group-workflows.md). 
@@ -65,4 +66,4 @@ ms.locfileid: "25546808"
 
 [New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[Новый CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

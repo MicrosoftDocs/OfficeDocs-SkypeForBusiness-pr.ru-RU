@@ -1,5 +1,6 @@
 ---
 title: Изменение расширителя пограничных параметров для Lync Server 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Измените параметры пограничный сервер или пограничный пул, настроив следующие свойства:'
-ms.openlocfilehash: 3a3dd5fa1521bf23252bef85c3c26842258413f7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a4ad88aa6ff565ac7c1ebb5134d476d34625418f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371583"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892380"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Изменение расширителя пограничных параметров для Lync Server 2010
  
@@ -43,7 +44,7 @@ ms.locfileid: "25371583"
   
   **Внешние параметры**
   
-В этом разделе свойства можно изменить свойства параметров внешнего пограничного сервера или пограничный пул. Чтобы изменить доступны следующие свойства:
+В этом разделе свойства можно изменить свойства параметров внешнего пограничного сервера или пограничный пул. The following properties are available to edit:
   
 - Выберите **отдельные разрешить полное доменное имя и IP-адреса для веб-конференций и A / V** флажок, если требуется назначить отдельных IP-адресов и полное доменное имя для каждой службы пограничного сервера.
     

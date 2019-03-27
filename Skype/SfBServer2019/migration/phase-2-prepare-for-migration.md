@@ -1,5 +1,6 @@
 ---
 title: Этап 2 Подготовка к миграции
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
 description: Перед началом миграции в Скайп для Business Server 2019, выполните действия, описанные в этом разделе.
-ms.openlocfilehash: 035383c08158352fa1eb11ba35cc142ad9002069
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 2895472119aa7effe5562817713b29cefe338dcc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326693"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878409"
 ---
-# <a name="phase-2-prepare-for-migration"></a>Этап 2: Подготовка к миграции
+# <a name="phase-2-prepare-for-migration"></a>Этап 2: подготовка к миграции
 
 Перед началом миграции в Скайп для Business Server 2019, выполните действия, описанные в этом разделе.
   
@@ -26,7 +27,7 @@ ms.locfileid: "28326693"
     
 - [Настройка DNS-записей для развертывания пилотного пула](configure-dns-records-for-pilot-pool-deployment.md)
     
-- [Резервное копирование системы и данные](back-up-systems-and-data.md)
+- [Резервное копирование систем и данных](back-up-systems-and-data.md)
     
 - [Настройка клиентов для миграции](configure-clients-for-migration.md)
     

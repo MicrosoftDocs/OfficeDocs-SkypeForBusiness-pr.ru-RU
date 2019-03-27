@@ -1,5 +1,6 @@
 ---
 title: Удаление сертификата (введение)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
 description: На странице введение удалить сертификат ознакомьтесь со сведениями о последствиях удаления сертификата тщательно. Прочитайте эти сведения, нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: 249847daef1e7583003c631dcb2d509611735bd1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 32c4a76dc3ae7101f5b6208485fa3d4b7d1f8919
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979436"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879786"
 ---
 # <a name="remove-certificate-intro"></a>Удаление сертификата (введение)
  

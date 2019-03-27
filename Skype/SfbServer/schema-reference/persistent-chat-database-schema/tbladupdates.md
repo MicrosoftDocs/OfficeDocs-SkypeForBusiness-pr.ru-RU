@@ -1,5 +1,6 @@
 ---
 title: tblADUpdates
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
 description: Таблица tblADUpdates содержит изменения доменных служб Active Directory, которые еще не были обработаны с последующих этапах синхронизации Active Directory.
-ms.openlocfilehash: 33d2ae6d2113d3f55b0fdf54439e2383ca142589
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0e7bde110ad3d0495cb7ddea55e405eac21d96b4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899605"
 ---
 # <a name="tbladupdates"></a>tblADUpdates
  
@@ -22,7 +24,7 @@ ms.lasthandoff: 03/28/2018
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**|
+|**Столбец**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|
 |prinGuid  <br/> |Идентификатор GUID, не может быть null  <br/> |Глобальный Уникальный ИД измененного объекта.  <br/> |
 |prinADPath  <br/> |nvarchar (384), отлично от null  <br/> |Различающееся имя объекта.  <br/> |

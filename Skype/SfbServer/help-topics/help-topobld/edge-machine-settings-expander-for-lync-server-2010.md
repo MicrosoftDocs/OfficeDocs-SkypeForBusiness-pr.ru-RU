@@ -1,5 +1,6 @@
 ---
-title: Расширитель параметров пограничного сервера Lync Server 2010
+title: Расширитель параметров пограничного сервера для Lync Server 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Чтобы изменить свойства компьютеров пограничного сервера, как отдельного пограничного сервера или пограничный пул в составе, следует настроить имя сервера и параметры конфигурации IP-адресов:'
-ms.openlocfilehash: 10709088aee9d1b5ec247804122520afa3b29dee
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f0125ba8d9c7ff181aff0a29f69a5077b1ad0818
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373387"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891542"
 ---
-# <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Расширитель параметров пограничного сервера Lync Server 2010
+# <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Расширитель параметров пограничного сервера для Lync Server 2010
  
 Чтобы изменить свойства компьютеров пограничного сервера, как отдельного пограничного сервера или пограничный пул в составе, Настройка параметров **имя сервера и IP-адрес** :
   

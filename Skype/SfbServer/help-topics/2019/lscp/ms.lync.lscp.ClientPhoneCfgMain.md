@@ -1,5 +1,6 @@
 ---
 title: Конфигурация устройств
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: Конфигурация устройств — это набор параметров, используемый для управления Скайп для устройств Business Phone Edition глобально или на сайте. Эти настройки позволяют настраивать такие параметры, как требуемый режим безопасности, уровень ведения журнала на устройстве, качество обслуживания голосовой связи (QoS), и определять необходимость автоматической блокировки телефонов по истечении заданного периода неактивности.
-ms.openlocfilehash: fac770e05b6e85644f813c026dea51e855584e2a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 89050d6a2aaeeb94a6884dabc06bb01671809791
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008372"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881237"
 ---
 # <a name="device-configuration"></a>Конфигурация устройств
  
@@ -55,4 +56,4 @@ ms.locfileid: "21008372"
 
 [Конфигурация устройств: создание новой или редактирование существующей](ms.lync.lscp.ClientDeviceTestEdit.md)
 
-[SET-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

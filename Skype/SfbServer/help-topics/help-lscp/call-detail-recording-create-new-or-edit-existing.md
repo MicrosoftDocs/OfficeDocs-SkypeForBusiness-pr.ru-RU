@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей регистрации вызовов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: f9d8156e104e6181a8754da864583ce71720ce43
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cabe1396a8cea69e3fd2028120f3ec16ee773453
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012789"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886849"
 ---
-# <a name="call-detail-recording-create-new-or-edit-existing"></a>Регистрации вызовов: Создание новой или редактирование существующей
+# <a name="call-detail-recording-create-new-or-edit-existing"></a>Запись сведений о звонке: создание новой или редактирование существующей
  
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
   

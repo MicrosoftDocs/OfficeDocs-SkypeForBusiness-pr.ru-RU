@@ -1,5 +1,6 @@
 ---
 title: Парковка вызовов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: При приостановке звонка его перемещается временные номера которых содержится вызов, пока кто-то извлекает или истечения времени ожидания. Необходимо настроить таблицу с диапазонами добавочные номера, который резервируется для приостановленных звонков. Эти добавочные номера должны быть виртуальными (то есть не иметь назначенного пользователя или назначенный телефон). Каждый пул, на котором выполняется приложение парковки вызовов может содержать один или несколько диапазонов расширений. Эти диапазоны должны быть уникальными в рамках всего развертывания.
-ms.openlocfilehash: f8dd85eb98c6560a21ab6bf65eafec7e335b6138
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2470d820b6536fdcd966e25d8719cd89903b4519
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260050"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878852"
 ---
 # <a name="call-park"></a>Приостановка вызовов
 

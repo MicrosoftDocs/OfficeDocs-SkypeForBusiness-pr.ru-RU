@@ -1,5 +1,6 @@
 ---
 title: Вручную удалить базы данных качества взаимодействия в Скайп и регистрации вызовов для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Сводка: Узнайте, как вручную удалить записи из базы данных качества взаимодействия, используемых Скайп для Business Server и регистрации Вызовов.'
-ms.openlocfilehash: 14218bbc6af3d05cba3c9886da70ab7155d05159
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 55582d28541e798e8ab1c488fb6eeed266bd29b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006084"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879835"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Вручную удалить базы данных качества взаимодействия в Скайп и регистрации вызовов для Business Server
  
@@ -26,7 +27,7 @@ ms.locfileid: "21006084"
 
 Администраторы могут настраивать базы данных регистрации вызовов (CDR) и/или качества взаимодействия (QoE) для автоматической очистки старых записей из базы данных; это происходит в том случае, если для указанной базы данных (CDR или QoE) была включена очистка и присутствуют записи, которые находятся в базе данных дольше заданного срока. Например, каждый день в 1:00 администраторы могут настраивать систему, чтобы удалить из базы данных QoE записи старше 60 дней.
   
-Помимо этого автоматический очистку, два новых командлетов & #x 2014 г.; Командлет Invoke-CsCdrDatabasePurge и вызов CsQoEDatbasePurge & #x 2014 г.; были добавлены Скайп для Business Server; Эти командлеты позволяют администраторам вручную удалить записи из базы данных качества взаимодействия и регистрации Вызовов в любое время. Например, чтобы вручную удалить из базы данных CDR все записи старше 10 дней, вы можете использовать команду, аналогичную следующей:
+В дополнение к этому, автоматическое удаление, два новых командлетов & #x 2014 г.; Командлет Invoke-CsCdrDatabasePurge и вызвать CsQoEDatbasePurge & #x 2014 г.; были добавлены Скайп для Business Server; Эти командлеты позволяют администраторам вручную удалить записи из базы данных качества взаимодействия и регистрации Вызовов в любое время. Например, чтобы вручную удалить из базы данных CDR все записи старше 10 дней, вы можете использовать команду, аналогичную следующей:
   
 ```
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10

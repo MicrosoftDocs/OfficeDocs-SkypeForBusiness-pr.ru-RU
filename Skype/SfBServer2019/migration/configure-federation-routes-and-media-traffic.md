@@ -1,5 +1,6 @@
 ---
-title: Настройка маршрутов и мультимедиа трафика федерации
+title: Настройка маршрутов федерации и трафика мультимедиа
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Федерация — это отношение доверия между двумя или более доменами SIP, которое разрешает пользователям в разных организациях поддерживать связь по границам сети. После миграции в пилотном пуле вам нужно перехода от федеративного маршрута к предыдущих версий пограничных серверов для федеративного маршрута к Скайп для Business Server 2019 пограничных серверов.
-ms.openlocfilehash: 3d6fb6455221b85c4cdbfc63a5a868cdf6444341
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 607d98c3c831ae9fd911b9fd2782490dcfb0e4f4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027335"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880230"
 ---
-# <a name="configure-federation-routes-and-media-traffic"></a>Настройка маршрутов и мультимедиа трафика федерации
+# <a name="configure-federation-routes-and-media-traffic"></a>Настройка маршрутов федерации и трафика мультимедиа
 
 Федерация — это отношение доверия между двумя или более доменами SIP, которое разрешает пользователям в разных организациях поддерживать связь по границам сети. После миграции в пилотном пуле необходимо перехода от федеративный маршрут с предыдущей версии пограничных серверов для федеративного маршрута к Скайп для Business Server 2019 пограничных серверов.
   

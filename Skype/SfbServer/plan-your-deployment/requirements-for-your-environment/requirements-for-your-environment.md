@@ -1,5 +1,6 @@
 ---
 title: Требования к среде Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 'Сводка: обзор разделов с требованиями к системе, сети или инфраструктуре для Skype для бизнеса Server 2015. Если для установки и развертывания Skype для бизнеса Server 2015 необходимо установить или настроить какой-то компонент, он будет описан здесь.'
-ms.openlocfilehash: 50844d0ed48604796ca2f9c399408c10291f4c10
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: 'Сводка: Структуры разделов для требования систем и инфраструктуры сети или требования Скайп для Business Server 2015. Если вам требуется для установки и настройки что-либо в качестве предварительного требования к установке и развертыванию Скайп для Business Server 2015, оно будет здесь.'
+ms.openlocfilehash: e43fc9bda052abc952bf4a4a1a8921b4ab276427
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883903"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895442"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>Требования к вашей Скайп среды 2015 бизнеса
  

@@ -1,5 +1,6 @@
 ---
 title: Интеграция с Exchange и SharePoint
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Сводка: Сведения о Скайп Business Server 2015 интеграции с Exchange и SharePoint.'
-ms.openlocfilehash: 98e84fdac1e070c10bdcfb99278e78fb6f56a9a6
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 91291f960636b8fd0c41519ff65830b98b631e8c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210624"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879964"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Интеграция с Exchange и SharePoint
 
@@ -71,7 +72,7 @@ ms.locfileid: "30210624"
 |Делегирование собрания  <br/> |Поддерживается, только когда оба пользователя размещены в одном лесу в сети или оба размещены локально. Для получения дополнительных сведений см [Скайп для гибридных решений для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Почтовый ящик Exchange пользователя должны записываться пропущенных журнал бесед и журналы вызовов  <br/> ||
 |Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> |Для получения дополнительных сведений см [Контрольный список развертывания для архивации](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
-|Поиск заархивированного содержимого  <br/> |Дополнительные сведения см. в разделе [Настройка Exchange для центра обнаружения электронных данных SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
+|Поиск заархивированного содержимого  <br/> |Дополнительные сведения см в [Настройка Exchange для центра обнаружения электронных данных SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
 |Голосовая почта  <br/> |Дополнительные сведения содержатся в разделе [Предоставление Lync Server 2013 пользователям голосовой почты на Hosted Exchange единой системы обмена СООБЩЕНИЯМИ](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx).  <br/> |
 
  **Скайп для бизнеса в Интернет и Exchange локально**

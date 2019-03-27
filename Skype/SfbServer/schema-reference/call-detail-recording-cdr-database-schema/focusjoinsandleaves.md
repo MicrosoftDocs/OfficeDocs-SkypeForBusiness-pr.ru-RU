@@ -1,5 +1,6 @@
 ---
 title: Таблица FocusJoinsAndLeaves в Скайп для Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: Каждая запись в этой таблице содержит CDR сведения объединения одного пользователя и сведения о выходе для одной конференции. Каждой конференции представлены в этой таблице одной записи для каждого пользователя соединения и покинул данную конференцию.
-ms.openlocfilehash: f07790af63de562672cefc8d8fbd09d75dff1eec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dea6ae9e66416da41c9ca5df0d6a8c3e61550238
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881230"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>Таблица FocusJoinsAndLeaves в Скайп для Business Server 2015
  
 Каждая запись в этой таблице содержит CDR сведения объединения одного пользователя и сведения о выходе для одной конференции. Каждой конференции представлены в этой таблице одной записи для каждого пользователя соединения и покинул данную конференцию.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Основной, внешний  <br/> |Время создания экземпляра конференции. Используется совместно с **SessionIdSeq** для уникальной идентификации экземпляра конференции. В разделе [Таблица конференций в Скайп для Business Server 2015](conferences.md) для получения дополнительных сведений. <br/> |
 |**SessionIdSeq** <br/> |целое  <br/> |Основной, внешний  <br/> |Номер идентификатора для определения экземпляра в конференции. Используется в сочетании с **SessionIdTime** для уникальной идентификации экземпляра конференции. В разделе [Таблица конференций в Скайп для Business Server 2015](conferences.md) для получения дополнительных сведений. <br/> |

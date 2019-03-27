@@ -1,5 +1,6 @@
 ---
 title: Планирование телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Сведения о вопросы планирования для телефонной системой в Office 365 (облако УАТС), а также подключение к ТСОП в локальной.
-ms.openlocfilehash: f0e73b2541bdab8d3e37db02bc023667ae942578
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: 3c3dcb8316cdd3665d7570d16777a8b4195c4a82
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454045"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897916"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Планирование телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп Business Server
 
@@ -100,7 +101,7 @@ ms.locfileid: "30454045"
 
     При использовании Lync Server 2013 видеть [Планирование корпоративной голосовой связи в Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) и [Развертывание корпоративной голосовой связи в Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
 
-- **Синхронизация Active Directory** Необходимо настроить синхронизации Active Directory с помощью Azure AD подключение. Дополнительные сведения см. в разделе [Управление Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
+- **Синхронизация Active Directory** Необходимо настроить синхронизации Active Directory с помощью Azure AD подключение. Для получения дополнительных сведений см [Управление Azure AD](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
 
     > [!NOTE]
     > Необходимо использовать версию AAD Connect не ниже 1.0.9125.0. Если вы используете более раннюю версию средств AAD Connect или DirSync, перейдите на поддерживаемую версию. Вы можете обновить текущую установку или сохранить все настраиваемые правила, определенные в среде. 

@@ -1,5 +1,6 @@
 ---
 title: Изменение топологии в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,18 +12,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: После ответа на вопросы начального опроса вы можете изменить полное доменное имя и IP-адреса сайта. Для этого на странице Global Topology (Глобальная топология) дважды щелкните сайт, который хотите изменить.
-ms.openlocfilehash: 65b23bf764f802da0f535dcc86cfb5170481161b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 75f2bd04f09b6638071faff1aa70dc8870d11fea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263818"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895148"
 ---
-# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Изменение топологии в Skype для бизнеса Server 2015
+# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 
 После ответа на вопросы начального опроса вы можете изменить полное доменное имя и IP-адреса сайта. Для этого на странице **Global Topology** (Глобальная топология) дважды щелкните сайт, который хотите изменить.
 
-Средство планирования отображает топологии сайтов для выбранного сайта. В нижней части страницы сайта, четыре вкладки:
+Средство планирования отображает топологии сайтов для выбранного сайта. At the bottom of the site page are four tabs:
 
 ![Топология узлов в средстве планирования](../../media/Planning_Tool_Site_Topology.png)
 
@@ -76,9 +77,9 @@ ms.locfileid: "23263818"
 
 После внесения всех правок сохраните топологию, выполнив следующие действия:
 
-Чтобы сохранить средство планирования проекта, откройте меню **файл**и нажмите кнопку **Топологии сохранить** или **Сохранить топологию как**. Если откроется диалоговое окно **Сохранить Planning Tool как** , введите имя для файла в поле **имя файла**и нажмите кнопку **Сохранить**.
+Чтобы сохранить средство планирования проекта, откройте меню **файл**и нажмите кнопку **Топологии сохранить** или **Сохранить топологию как**. If a **Save Planning Tool As** dialog box appears, type a name for the file in **File name**, and then click **Save**.
 
-## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
+## <a name="see-also"></a>См. также
 <a name="Edit_Network_diagram"> </a>
 
-[Изменение структуры](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

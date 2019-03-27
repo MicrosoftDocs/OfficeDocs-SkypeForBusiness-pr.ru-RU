@@ -1,5 +1,6 @@
 ---
 title: Назначение политик пользователей
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: a537c3aeb535b4ee57645d82f746c3a8a5919a80
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a0fb0b2e9115bd8af78967e4e05a5d5f9953779b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258538"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884225"
 ---
-# <a name="users-assign-policies"></a>Пользователи: Назначение политик
+# <a name="users-assign-policies"></a>Пользователи: назначение политик
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 
@@ -29,13 +30,13 @@ ms.locfileid: "23258538"
 
 - [Назначение политики ПИН-код пользователя в Скайп для Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [Настройка федерации, удаленного доступа пользователей и общедоступных служб обмена Мгновенными сообщениями для пользователей](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
 - [Настройки архивации коммуникаций пользователя](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
 - [Назначение политики расположения для пользователя](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-- [Настройка телефонии для пользователей](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 - [Назначение индивидуальной политики мобильности](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 

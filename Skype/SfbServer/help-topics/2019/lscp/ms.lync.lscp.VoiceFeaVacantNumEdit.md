@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей неназначенный номер телефона
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Неназначенные номера — это телефонные номера, допустимые для вашей организации, но не назначенные пользователю или телефону. В таблице неназначенных номеров указывается, как обрабатываются такие номера.
-ms.openlocfilehash: f4428a0f3ec5e1da5267c23f9064815206262893
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 176e1b0485b9fc9584b770e4708cad0bf0662e00
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373845"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897366"
 ---
-# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Неназначенный номер телефона: Создание новой или редактирование существующей
+# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Неназначенный номер телефона: создание нового или редактирование существующего
 
 > [!NOTE]
 > Exchange единой системы обмена СООБЩЕНИЯМИ остается доступным в Скайп для Business Server 2019 при Скайп для бизнеса 2019 интеграции с Exchange 2013 или Exchange 2016. Из-за изменения в поддержке в Exchange 2019 интеграции с Exchange единой системы обмена СООБЩЕНИЯМИ, отзыва emphasised пользу функции голосовой почты в облаке и облачных автосекретаря.
@@ -55,6 +56,6 @@ ms.locfileid: "25373845"
 
   - **Телефонный номер автосекретаря** Выберите номер телефона для единой системы обмена СООБЩЕНИЯМИ автосекретаря Exchange.
 
-Для получения дополнительных сведений о объявления функций и возможностей см [в приложении объявлений в Скайп для бизнеса](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) в документации по планированию. Для получения дополнительных сведений о работе с диапазоны неназначенных номеров содержатся в документации по операциям [Настройка маршрутизации для неназначенных телефонных номеров](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) .
+Для получения дополнительных сведений о объявления функций и возможностей см [в приложении объявлений в Скайп для бизнеса](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) в документации по планированию. Дополнительные сведения о работе с диапазонами неназначенных номеров см. в разделе [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) документации по использованию.
 
 

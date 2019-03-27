@@ -1,5 +1,6 @@
 ---
 title: Видео Скайп для бизнеса в Интернет внешней связи
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Сведения о Скайп для бизнеса в Интернет внешних коммуникаций для пользователи могут взаимодействовать с внешними контактами Скайп. '
-ms.openlocfilehash: e42858b02c3c15e8200b8d99b8d52207a6fc7c63
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b01d7b72ab0f3daf660fccf0bc78ac78e394e764
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849876"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888911"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Видео: Внешняя связь в Skype для бизнеса Online
 
@@ -35,7 +36,7 @@ ms.locfileid: "23849876"
 
 ***
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Настройка Скайп для бизнеса в Интернет внешней связи](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (под руководством инструктора Пошаговое руководство)
 
 [Разрешение пользователям на связь с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md)

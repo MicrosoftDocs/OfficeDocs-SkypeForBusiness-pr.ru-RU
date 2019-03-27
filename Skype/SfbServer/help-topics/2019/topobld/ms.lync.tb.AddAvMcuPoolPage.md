@@ -1,5 +1,6 @@
 ---
-title: Добавление A / V MCU пула
+title: Добавление пула A/V MCU
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Все Enterprise Edition серверов переднего плана из центрального сайта, у которых нет выровненных A / аудио-и видеоконференциями службы можно использовать одном автономного A / пула аудио-и видеоконференциями. Для каждого A аудио- и видео конференций, необходимо указать полное доменное имя (FQDN) для пула и является ли он будет иметь только один объект аудио- и видеоконференций или нескольких балансировку сетевой нагрузки A / V серверах конференц-связи.
-ms.openlocfilehash: c58d2e405d642209f91e38d98d5c6cbef924cd2e
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f88476165ce6affe23e9e5cbb33e03a997c04971
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060090"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888135"
 ---
-# <a name="add-av-mcu-pool"></a>Добавление A / V MCU пула
+# <a name="add-av-mcu-pool"></a>Добавление пула A/V MCU
  
 Все Enterprise Edition серверов переднего плана из центрального сайта, у которых нет выровненных A / аудио-и видеоконференциями службы можно использовать одном автономного A / пула аудио-и видеоконференциями. Для каждого A аудио- и видео конференций, необходимо указать полное доменное имя (FQDN) для пула и является ли он будет иметь только один объект аудио- и видеоконференций или нескольких балансировку сетевой нагрузки A / V серверах конференц-связи.
   

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Прочитайте сведения об управлении v2 Скайп комнаты систем следующего поколения Скайп комнаты систем.
-ms.openlocfilehash: 4c94ffbcb83e5e208e5cd7278af54e157b9f478c
-ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.openlocfilehash: 29c3af2b73f9a8b1277abdc6a47afeb69cb26ef2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720426"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889324"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Обслуживание версии 2 Скайп комнаты систем и операции 
  
@@ -23,7 +23,7 @@ ms.locfileid: "30720426"
   
 Систем комнаты Скайп версии 2 — корпорации Майкрософт предназначена для преобразования комнате для собраний в подробные, совместной работы Скайп для бизнеса программой последние решение конференц-связи. Обычные пользователи оценят хорошо знакомый интерфейс Skype для бизнеса, тогда как ИТ-администраторы смогут с легкостью развернуть приложение для собраний Skype для Windows 10 и управлять им. Версии 2 Скайп комнаты систем предназначен для использования существующего оборудования как Жидкокристаллических панелей для упрощения установки для переноса Скайп для бизнеса в комнате для собраний.
   
-С помощью дополнительной настройки удаленного управления возможно с помощью пакетов управления Microsoft операции (OMS), как описано в [планирование систем комнаты Скайп v2 управлении с OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [Развертывание системы комнаты Скайп версии 2 с OMS](../../deploy/deploy-clients/with-oms.md)и [Управление Устройства системы комнаты Скайп версии 2 с OMS](oms.md). Кроме того, поддерживается [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md), в том числе применение настраиваемых экранных тем. 
+С помощью дополнительной настройки удаленного управления возможно с помощью монитор Microsoft Azure, как описано в [планирование систем комнаты Скайп управления версии 2 с монитором Azure](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [Развертывание системы комнаты Скайп управления версии 2 с монитором Azure](../../deploy/deploy-clients/azure-monitor.md), [Управление Устройства систем комнаты Скайп версии 2 с монитором Azure](azure-monitor.md). Кроме того, поддерживается [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md), в том числе применение настраиваемых экранных тем. 
   
 ## <a name="collecting-logs-on-skype-room-systems-v2"></a>Сбор журналов в Системах комнат Skype версии 2
 <a name="Logs"> </a>

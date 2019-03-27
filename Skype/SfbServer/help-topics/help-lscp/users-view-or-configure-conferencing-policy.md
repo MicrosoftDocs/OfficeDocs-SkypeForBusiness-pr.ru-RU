@@ -1,5 +1,6 @@
 ---
 title: Пользователи Просмотр или Настройка политики конференц-связи
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 85ce41cf773414b6c5030ab8a17cffa9009bac17
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c667c07b6e2b3ccc1953765e6670ae8f54e28609
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253085"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888901"
 ---
-# <a name="users-view-or-configure-conferencing-policy"></a>Пользователи: Просмотр или Настройка политики конференц-связи
+# <a name="users-view-or-configure-conferencing-policy"></a>Пользователи: просмотр или настройка политики конференц-связи
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 

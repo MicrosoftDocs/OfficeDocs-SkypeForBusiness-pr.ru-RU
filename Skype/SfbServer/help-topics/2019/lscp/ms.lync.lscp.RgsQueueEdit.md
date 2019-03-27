@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей очереди группы ответа
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Очереди группы ответа хранят звонки в группу ответа, пока агент отвечает на звонок.
-ms.openlocfilehash: b55f1ad12369824a60282294dacfc63177675e02
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 96d8bae5f4f3e818366872c4e81615a90fe24e86
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263839"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896975"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Очередь группы ответа: создание новой или редактирование существующей
 
@@ -69,6 +70,6 @@ ms.locfileid: "23263839"
 
   - **Вперед в другую очередь** Если выбран этот параметр, перейдите в очередь, который должен принимать звонки, при превышении очереди.
 
-Для получения дополнительных сведений о группы ответа функций и возможностей см. в документации по планированию [Планирование приложения группы ответа в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) . Дополнительные сведения о работе с очередями см [Управление очередями группы ответа](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) в документации по операциям.
+Для получения дополнительных сведений о группы ответа функций и возможностей см. в документации по планированию [Планирование приложения группы ответа в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) . Дополнительные сведения о работе с очередями см. в разделе [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) документации по использованию.
 
 

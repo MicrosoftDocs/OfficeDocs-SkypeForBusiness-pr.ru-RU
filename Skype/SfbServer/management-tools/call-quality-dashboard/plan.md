@@ -1,5 +1,6 @@
 ---
 title: Планирование для панели мониторинга качества звонков для Скайп Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Сводка: Сведения о том, что необходимо учитывать при планировании для панели мониторинга качества звонков.'
-ms.openlocfilehash: 684ec4ead9d6292cb316f1330bace65149151fbf
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: ee82d56747ee4f4241f2630a5a6fd3136ff42be4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729460"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884423"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Планирование для панели мониторинга качества звонков для Скайп Business Server 
  
@@ -186,7 +187,7 @@ CQD использует Microsoft SQL Server, Microsoft SQL Server Analysis Ser
 
 |**Компьютер**|**Ядра ЦП**|**ОЗУ**|**Архив качества взаимодействия и куба на одном диске**|**Архив качества взаимодействия и временной БД SQL на одном диске**|
 |:-----|:-----|:-----|:-----|:-----|
-|Виртуальная машина  <br/> |4  <br/> |7 ГБ  <br/> |Да  <br/> |Да  <br/> |
+|Виртуальная машина  <br/> |4  <br/> |7 ГБ  <br/> |Да   <br/> |Да  <br/> |
 |4 процессора с тактовой  <br/> |4  <br/> |20 ГБ  <br/> |Да  <br/> |Нет  <br/> |
 |8 ядра  <br/> |8  <br/> |32 ГБ  <br/> |Да  <br/> |Нет  <br/> |
 |16-ядерный  <br/> |16  <br/> |128 ГБ  <br/> |Нет  <br/> |Нет  <br/> |
@@ -224,7 +225,7 @@ CQD использует Microsoft SQL Server, Microsoft SQL Server Analysis Ser
 
 Эти инструкции Предположим, что показатели качества взаимодействия базы данных уже установлен и функционирует в Скайп для топологии Business Server.
   
-#### <a name="hardware-requirements"></a>Требования к оборудованию
+#### <a name="hardware-requirements"></a>Требования к аппаратному обеспечению
 
 CQD использует Microsoft SQL Server, анализа Microsoft SQL Server и Microsoft Internet Information Server, поэтому его CQD минимальные аппаратные и требования к программному обеспечению по сути то же самое, что эти зависимые компоненты. Тем не менее основанных на требованиях организации вокруг актуальность данных (к которым будет зависеть от частично корпоративных данных о качестве взаимодействия, которые создает организации) и затрат на развертывание, рекомендации по развертыванию дополнительные делаться.
   
