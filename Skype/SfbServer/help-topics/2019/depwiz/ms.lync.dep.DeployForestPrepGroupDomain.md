@@ -1,5 +1,6 @@
 ---
 title: Подготовка текущего леса (местонахождение универсальной группы)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 ROBOTS: NOINDEX, NOFOLLOW
 description: Необходимо указать, где необходимо создать универсальные группы в лесу. Универсальная группа расположение страницы использует домен, в котором компьютере, на котором вы вошли является членом по умолчанию. Если вы хотите создать универсальных групп в домене, отличном от локального домена по умолчанию, выберите полное доменное имя домена и введите полное доменное имя (FQDN) в текстовом поле. Создать при условии, что альтернативном домене полезна при выполнении задачи подготовки леса в домене, отличном от место универсальных групп. Для продолжения нажмите кнопку Далее.
-ms.openlocfilehash: 0abf9be2bea6b69545d2274c34fd433b0ecc9c00
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c886ff701a1e66221f5fa75c50e847d33560b32e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980018"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879155"
 ---
-# <a name="prepare-current-forest-universal-group-location"></a><span data-ttu-id="d8a29-107">Подготовка текущего леса (местонахождение универсальной группы)</span><span class="sxs-lookup"><span data-stu-id="d8a29-107">Prepare Current Forest (Universal Group Location)</span></span>
+# <a name="prepare-current-forest-universal-group-location"></a><span data-ttu-id="15ac9-107">Подготовка текущего леса (местонахождение универсальной группы)</span><span class="sxs-lookup"><span data-stu-id="15ac9-107">Prepare Current Forest (Universal Group Location)</span></span>
  
-<span data-ttu-id="d8a29-108">Необходимо указать, где необходимо создать универсальные группы в лесу.</span><span class="sxs-lookup"><span data-stu-id="d8a29-108">You must indicate where you need to create the universal groups in the forest.</span></span> <span data-ttu-id="d8a29-109">**Универсальная группа расположение** страницы использует домен, в котором компьютере, на котором вы вошли является членом по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="d8a29-109">The **Universal Group Location** page uses the domain in which the computer that you are logged on to is a member of as the default.</span></span> <span data-ttu-id="d8a29-110">Если вы хотите создать универсальных групп в домене, отличном от **домена**по умолчанию, выберите **Полное доменное имя домена** и введите полное доменное имя (FQDN) в текстовом поле.</span><span class="sxs-lookup"><span data-stu-id="d8a29-110">If you would prefer to create the universal groups in a domain other than the default **Local domain**, select **Domain FQDN** and type the fully qualified domain name (FQDN) in the text box.</span></span> <span data-ttu-id="d8a29-111">Создать при условии, что альтернативном домене полезна при выполнении задачи подготовки леса в домене, отличном от место универсальных групп.</span><span class="sxs-lookup"><span data-stu-id="d8a29-111">Providing an alternate domain is helpful when you are running the forest preparation task from a domain other than where you want the universal groups be created.</span></span> <span data-ttu-id="d8a29-112">Для продолжения нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="d8a29-112">Click **Next** to continue.</span></span>
+<span data-ttu-id="15ac9-108">Необходимо указать, где необходимо создать универсальные группы в лесу.</span><span class="sxs-lookup"><span data-stu-id="15ac9-108">You must indicate where you need to create the universal groups in the forest.</span></span> <span data-ttu-id="15ac9-109">**Универсальная группа расположение** страницы использует домен, в котором компьютере, на котором вы вошли является членом по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="15ac9-109">The **Universal Group Location** page uses the domain in which the computer that you are logged on to is a member of as the default.</span></span> <span data-ttu-id="15ac9-110">Если вы хотите создать универсальных групп в домене, отличном от **домена**по умолчанию, выберите **Полное доменное имя домена** и введите полное доменное имя (FQDN) в текстовом поле.</span><span class="sxs-lookup"><span data-stu-id="15ac9-110">If you would prefer to create the universal groups in a domain other than the default **Local domain**, select **Domain FQDN** and type the fully qualified domain name (FQDN) in the text box.</span></span> <span data-ttu-id="15ac9-111">Создать при условии, что альтернативном домене полезна при выполнении задачи подготовки леса в домене, отличном от место универсальных групп.</span><span class="sxs-lookup"><span data-stu-id="15ac9-111">Providing an alternate domain is helpful when you are running the forest preparation task from a domain other than where you want the universal groups be created.</span></span> <span data-ttu-id="15ac9-112">Для продолжения нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="15ac9-112">Click **Next** to continue.</span></span>
   
 

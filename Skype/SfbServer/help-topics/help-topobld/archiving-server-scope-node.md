@@ -1,5 +1,6 @@
 ---
 title: Узел области применения сервера архивации
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 description: В построителе топологий, можно выполнить задачи, связанные с сервера с архивации щелкнуть правой кнопкой мыши пул, в дереве консоли и выбрав пункт Изменить свойства. На странице изменить свойства можно изменить полное доменное имя (FQDN) сервера с архивации, базы данных архивации SQL Server и хранилище архивации файлов.
-ms.openlocfilehash: 26ab098881ca45076635fb7abf069e84896ba4a2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7cb73a4b84f9370fadfcac8c8f484db74c734487
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880555"
 ---
-# <a name="archiving-server-scope-node"></a><span data-ttu-id="8ca04-104">Узел области применения сервера архивации</span><span class="sxs-lookup"><span data-stu-id="8ca04-104">Archiving Server Scope Node</span></span>
+# <a name="archiving-server-scope-node"></a><span data-ttu-id="ddd23-104">Узел области применения сервера архивации</span><span class="sxs-lookup"><span data-stu-id="ddd23-104">Archiving Server Scope Node</span></span>
  
-<span data-ttu-id="8ca04-105">В построителе топологий, можно выполнить задачи, связанные с сервера с архивации щелкнуть правой кнопкой мыши пул, в дереве консоли и выбрав пункт **Изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="8ca04-105">In Topology Builder, you can perform tasks related to the server running Archiving by right-clicking the pool in the console tree, and selecting **Edit Properties**.</span></span> <span data-ttu-id="8ca04-106">На странице **Изменить свойства** можно изменить полное доменное имя (FQDN) сервера с архивации, базы данных архивации SQL Server и хранилище архивации файлов.</span><span class="sxs-lookup"><span data-stu-id="8ca04-106">From the **Edit Properties** page you can change the fully qualified domain name (FQDN) of the server running Archiving, the archiving SQL Server database, and the archiving file store.</span></span>
+<span data-ttu-id="ddd23-105">В построителе топологий, можно выполнить задачи, связанные с сервера с архивации щелкнуть правой кнопкой мыши пул, в дереве консоли и выбрав пункт **Изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="ddd23-105">In Topology Builder, you can perform tasks related to the server running Archiving by right-clicking the pool in the console tree, and selecting **Edit Properties**.</span></span> <span data-ttu-id="ddd23-106">На странице **Изменить свойства** можно изменить полное доменное имя (FQDN) сервера с архивации, базы данных архивации SQL Server и хранилище архивации файлов.</span><span class="sxs-lookup"><span data-stu-id="ddd23-106">From the **Edit Properties** page you can change the fully qualified domain name (FQDN) of the server running Archiving, the archiving SQL Server database, and the archiving file store.</span></span>
   
 
