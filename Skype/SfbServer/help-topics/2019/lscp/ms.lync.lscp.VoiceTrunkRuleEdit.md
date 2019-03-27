@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующего правила преобразования
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,20 +13,20 @@ localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 0f7a3d5187185dcbef9b8b22f2c543b452359225
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 92f98136edd544416607d02e638dd5889a7a22ab
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241829"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891549"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="02fee-104">Правило преобразования: Создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="02fee-104">Translation Rule: Create New or Edit Existing</span></span>
+# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="63985-104">Правило преобразования: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="63985-104">Translation Rule: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="02fee-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="02fee-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="63985-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="63985-105">What do you want to do?</span></span> <span data-ttu-id="63985-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="63985-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="02fee-107">Создание или изменение правила преобразования для называемое идентификатор представления в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="02fee-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="63985-107">Создание или изменение правила преобразования для называемое идентификатор представления в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="63985-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="02fee-108">Создание или изменение правила преобразования вручную</span><span class="sxs-lookup"><span data-stu-id="02fee-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="63985-108">Создание или изменение правила преобразования вручную</span><span class="sxs-lookup"><span data-stu-id="63985-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

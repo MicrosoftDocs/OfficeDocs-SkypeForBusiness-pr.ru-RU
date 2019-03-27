@@ -1,5 +1,6 @@
 ---
 title: Подготовка текущего домена (введение)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице подготовка домена начинается процесс подготовки домена для Скайп для Business Server. Нажмите Далее для запуска подготовки домена.
-ms.openlocfilehash: 7409c5100ecf827633b23d397b339617f74eee33
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1797f4d4d155ad69da35c52ff9e7bd1c5b2de972
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985972"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879597"
 ---
-# <a name="prepare-current-domain-intro"></a><span data-ttu-id="c93a3-104">Подготовка текущего домена (введение)</span><span class="sxs-lookup"><span data-stu-id="c93a3-104">Prepare Current Domain (Intro)</span></span>
+# <a name="prepare-current-domain-intro"></a><span data-ttu-id="23a84-104">Подготовка текущего домена (введение)</span><span class="sxs-lookup"><span data-stu-id="23a84-104">Prepare Current Domain (Intro)</span></span>
  
-<span data-ttu-id="c93a3-105">На странице **Подготовка домена** начинается процесс подготовки домена для Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="c93a3-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server.</span></span> <span data-ttu-id="c93a3-106">Нажмите **Далее** для запуска подготовки домена.</span><span class="sxs-lookup"><span data-stu-id="c93a3-106">Click **Next** to begin preparing the domain.</span></span>
+<span data-ttu-id="23a84-105">На странице **Подготовка домена** начинается процесс подготовки домена для Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="23a84-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server.</span></span> <span data-ttu-id="23a84-106">Нажмите **Далее** для запуска подготовки домена.</span><span class="sxs-lookup"><span data-stu-id="23a84-106">Click **Next** to begin preparing the domain.</span></span>
   
 

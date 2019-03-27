@@ -1,5 +1,6 @@
 ---
 title: Политика версий клиентов
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,51 +13,51 @@ localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы может указать версию клиентов, поддерживаемых в вашей среде. При взаимодействии двух клиентов с разными версиями возможности, доступные обоим клиентам, могут быть ограничены возможностями другого клиента.
-ms.openlocfilehash: b5fab3872137ba56b25512d1ff9569102cc9aaff
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d63966c988ebe6041012764767faf9ff459273ef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244482"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893826"
 ---
-# <a name="client-version-policy"></a><span data-ttu-id="a0f97-104">Политика версий клиентов</span><span class="sxs-lookup"><span data-stu-id="a0f97-104">Client Version Policy</span></span>
+# <a name="client-version-policy"></a><span data-ttu-id="3fa2d-104">Политика версий клиентов</span><span class="sxs-lookup"><span data-stu-id="3fa2d-104">Client Version Policy</span></span>
 
-<span data-ttu-id="a0f97-105">Вы может указать версию клиентов, поддерживаемых в вашей среде.</span><span class="sxs-lookup"><span data-stu-id="a0f97-105">You can specify the version of clients that are supported in your environment.</span></span> <span data-ttu-id="a0f97-106">При взаимодействии двух клиентов с разными версиями возможности, доступные обоим клиентам, могут быть ограничены возможностями другого клиента.</span><span class="sxs-lookup"><span data-stu-id="a0f97-106">When two clients that are running different versions interact, the features that are available to either client can be limited by the capabilities of the other client.</span></span> <span data-ttu-id="a0f97-107">Важнейшим использования компонентов, содержащихся в Скайп для Business Server и улучшить работу пользователей в целом, можно использовать фильтр версий клиентов для ограничения версий клиентов, которые используются в вашей среде.</span><span class="sxs-lookup"><span data-stu-id="a0f97-107">To make the greatest use of features included in Skype for Business Server and to improve the overall user experience, you can use the client version filter to restrict the client versions that are used in your environment.</span></span> <span data-ttu-id="a0f97-108">Используя этот фильтр, вы также можете сократить расходы, связанные с поддержкой нескольких версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="a0f97-108">By using the client version filter, you can also help reduce costs associated with supporting multiple client versions.</span></span>
+<span data-ttu-id="3fa2d-105">Вы может указать версию клиентов, поддерживаемых в вашей среде.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-105">You can specify the version of clients that are supported in your environment.</span></span> <span data-ttu-id="3fa2d-106">При взаимодействии двух клиентов с разными версиями возможности, доступные обоим клиентам, могут быть ограничены возможностями другого клиента.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-106">When two clients that are running different versions interact, the features that are available to either client can be limited by the capabilities of the other client.</span></span> <span data-ttu-id="3fa2d-107">Важнейшим использования компонентов, содержащихся в Скайп для Business Server и улучшить работу пользователей в целом, можно использовать фильтр версий клиентов для ограничения версий клиентов, которые используются в вашей среде.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-107">To make the greatest use of features included in Skype for Business Server and to improve the overall user experience, you can use the client version filter to restrict the client versions that are used in your environment.</span></span> <span data-ttu-id="3fa2d-108">Используя этот фильтр, вы также можете сократить расходы, связанные с поддержкой нескольких версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-108">By using the client version filter, you can also help reduce costs associated with supporting multiple client versions.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="a0f97-109">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="a0f97-109">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="3fa2d-109">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="3fa2d-109">Tasks you can perform</span></span>
 
-<span data-ttu-id="a0f97-110">На странице **Политика версий клиента** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="a0f97-110">You can perform the following tasks on the **Client Version Policy** page:</span></span>
+<span data-ttu-id="3fa2d-110">На странице **Политика версий клиента** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="3fa2d-110">You can perform the following tasks on the **Client Version Policy** page:</span></span>
 
-- <span data-ttu-id="a0f97-111">Изменение политики версий клиентов по умолчанию ( **Глобальная**).</span><span class="sxs-lookup"><span data-stu-id="a0f97-111">Edit the default ( **Global**) client version policy.</span></span>
+- <span data-ttu-id="3fa2d-111">Изменение политики версий клиентов по умолчанию ( **Глобальная**).</span><span class="sxs-lookup"><span data-stu-id="3fa2d-111">Edit the default ( **Global**) client version policy.</span></span>
 
-- <span data-ttu-id="a0f97-112">создать политики версий клиентов для конкретного сайта или пула;</span><span class="sxs-lookup"><span data-stu-id="a0f97-112">Create client version policies for a particular site or pool.</span></span>
+- <span data-ttu-id="3fa2d-112">создать политики версий клиентов для конкретного сайта или пула;</span><span class="sxs-lookup"><span data-stu-id="3fa2d-112">Create client version policies for a particular site or pool.</span></span>
 
-- <span data-ttu-id="a0f97-113">создать политики версий клиентов, которые можно назначить отдельным пользователям.</span><span class="sxs-lookup"><span data-stu-id="a0f97-113">Create client version policies that can be assigned to individual users.</span></span>
+- <span data-ttu-id="3fa2d-113">создать политики версий клиентов, которые можно назначить отдельным пользователям.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-113">Create client version policies that can be assigned to individual users.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a0f97-114">Поскольку анонимные пользователи не связаны с пользователями, сайтами или службами, к ним могут применяться только политики глобального уровня.</span><span class="sxs-lookup"><span data-stu-id="a0f97-114">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
+> <span data-ttu-id="3fa2d-114">Поскольку анонимные пользователи не связаны с пользователями, сайтами или службами, к ним могут применяться только политики глобального уровня.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-114">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="a0f97-115">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="a0f97-115">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="3fa2d-115">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="3fa2d-115">UI Reference</span></span>
 
-<span data-ttu-id="a0f97-116">В следующих списках описываются меню, команды, поля и свойства на этой странице.</span><span class="sxs-lookup"><span data-stu-id="a0f97-116">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="3fa2d-116">В следующих списках описываются меню, команды, поля и свойства на этой странице.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-116">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
 
-- <span data-ttu-id="a0f97-117">**Новые** Можно создать одно или несколько из них следующие политики версий клиентов:</span><span class="sxs-lookup"><span data-stu-id="a0f97-117">**New** You can create one or more of each of the following client version policies:</span></span>
+- <span data-ttu-id="3fa2d-117">**Новые** Можно создать одно или несколько из них следующие политики версий клиентов:</span><span class="sxs-lookup"><span data-stu-id="3fa2d-117">**New** You can create one or more of each of the following client version policies:</span></span>
 
-  - <span data-ttu-id="a0f97-118">Политика сайта</span><span class="sxs-lookup"><span data-stu-id="a0f97-118">Site policy</span></span>
+  - <span data-ttu-id="3fa2d-118">Политика сайта</span><span class="sxs-lookup"><span data-stu-id="3fa2d-118">Site policy</span></span>
 
-  - <span data-ttu-id="a0f97-119">Политика пула</span><span class="sxs-lookup"><span data-stu-id="a0f97-119">Pool policy</span></span>
+  - <span data-ttu-id="3fa2d-119">Политика пула</span><span class="sxs-lookup"><span data-stu-id="3fa2d-119">Pool policy</span></span>
 
-  - <span data-ttu-id="a0f97-120">Политика пользователя</span><span class="sxs-lookup"><span data-stu-id="a0f97-120">User policy</span></span>
+  - <span data-ttu-id="3fa2d-120">Политика пользователя</span><span class="sxs-lookup"><span data-stu-id="3fa2d-120">User policy</span></span>
 
-- <span data-ttu-id="a0f97-121">**Изменение** Можно изменить параметры любого из политики версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="a0f97-121">**Edit** You can change the options of any of the client version policies.</span></span> <span data-ttu-id="a0f97-122">С помощью этого параметра можно выполнить следующее:</span><span class="sxs-lookup"><span data-stu-id="a0f97-122">Using this option, you can do the following:</span></span>
+- <span data-ttu-id="3fa2d-121">**Изменение** Можно изменить параметры любого из политики версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-121">**Edit** You can change the options of any of the client version policies.</span></span> <span data-ttu-id="3fa2d-122">С помощью этого параметра можно выполнить следующее:</span><span class="sxs-lookup"><span data-stu-id="3fa2d-122">Using this option, you can do the following:</span></span>
 
-  - <span data-ttu-id="a0f97-123">**Показать подробности** Этот параметр открывает диалоговое окно, в котором можно изменить параметры для политики версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="a0f97-123">**Show details** This option opens a dialog box in which you can change the options for a client version policy.</span></span>
+  - <span data-ttu-id="3fa2d-123">**Показать подробности** Этот параметр открывает диалоговое окно, в котором можно изменить параметры для политики версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-123">**Show details** This option opens a dialog box in which you can change the options for a client version policy.</span></span>
 
-  - <span data-ttu-id="a0f97-124">**Выделить все** Этот параметр выбирает все политики версий клиентов в списке.</span><span class="sxs-lookup"><span data-stu-id="a0f97-124">**Select All** This option selects all client version policies in the list.</span></span>
+  - <span data-ttu-id="3fa2d-124">**Выделить все** Этот параметр выбирает все политики версий клиентов в списке.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-124">**Select All** This option selects all client version policies in the list.</span></span>
 
-  - <span data-ttu-id="a0f97-125">**Удаление** Этот параметр удаляет все политики версий выбранного клиента.</span><span class="sxs-lookup"><span data-stu-id="a0f97-125">**Delete** This option deletes all selected client version policies.</span></span>
+  - <span data-ttu-id="3fa2d-125">**Удаление** Этот параметр удаляет все политики версий выбранного клиента.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-125">**Delete** This option deletes all selected client version policies.</span></span>
 
-- <span data-ttu-id="a0f97-126">**Обновление** Можно обновить списке политика версий клиентов, чтобы проверить состояние параметров всех политик версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="a0f97-126">**Refresh** You can refresh the client version policy list to verify the status of the options of all client version policies.</span></span>
+- <span data-ttu-id="3fa2d-126">**Обновление** Можно обновить списке политика версий клиентов, чтобы проверить состояние параметров всех политик версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-126">**Refresh** You can refresh the client version policy list to verify the status of the options of all client version policies.</span></span>
 
-<span data-ttu-id="a0f97-127">Для получения дополнительных сведений о взаимодействии между клиентами и их версий в документации по планированию показано [Взаимодействие с клиентом](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) .</span><span class="sxs-lookup"><span data-stu-id="a0f97-127">For details about interoperability among clients and client versions, see [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation.</span></span> <span data-ttu-id="a0f97-128">Для получения дополнительных сведений о работе с политики версий клиентов см [Версий клиента, поддерживаемые в вашей организации](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) в документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="a0f97-128">For details about working with client version policies, see [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="3fa2d-127">Для получения дополнительных сведений о взаимодействии между клиентами и их версий в документации по планированию показано [Взаимодействие с клиентом](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) .</span><span class="sxs-lookup"><span data-stu-id="3fa2d-127">For details about interoperability among clients and client versions, see [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation.</span></span> <span data-ttu-id="3fa2d-128">Дополнительные сведения о работе с политиками версий клиентов см. в разделе [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) документации по использованию.</span><span class="sxs-lookup"><span data-stu-id="3fa2d-128">For details about working with client version policies, see [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) in the Operations documentation.</span></span>
 

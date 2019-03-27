@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей абонентской группы
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,24 +13,24 @@ localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: d4487d518854df99429f24e456329ce18f82f6cd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6ec36413e6e766618ab7b48e0fd8a674a4652cfa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242283"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882011"
 ---
-# <a name="dial-plan-create-new-or-edit-existing"></a><span data-ttu-id="cd7df-104">Абонентская группа: Создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="cd7df-104">Dial Plan: Create New or Edit Existing</span></span>
+# <a name="dial-plan-create-new-or-edit-existing"></a><span data-ttu-id="1216e-104">Абонентская группа: создание новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="1216e-104">Dial Plan: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="cd7df-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="cd7df-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="1216e-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="1216e-105">What do you want to do?</span></span> <span data-ttu-id="1216e-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="1216e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="cd7df-107">Создание или изменение абонентской группы в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="cd7df-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [<span data-ttu-id="1216e-107">Создание или изменение абонентской группы в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="1216e-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [<span data-ttu-id="cd7df-108">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="cd7df-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [<span data-ttu-id="1216e-108">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="1216e-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [<span data-ttu-id="cd7df-109">Создание или изменение правила нормализации в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="cd7df-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="1216e-109">Создание или изменение правила нормализации в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="1216e-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="cd7df-110">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="cd7df-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="1216e-110">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="1216e-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
 
 

@@ -1,5 +1,6 @@
 ---
 title: Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Сводка: Перейдите по этим ссылкам, чтобы узнать, как реализовать Скайп для Business Server 2015.'
-ms.openlocfilehash: bc7c8f586eaf0312d0a37e814634104dab4df324
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 4ec6dd19757c4a4d367146582cf9b05205662ed3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069641"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899766"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype для бизнеса Server 2015
 
@@ -35,7 +36,7 @@ ms.locfileid: "30069641"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Составьте план развертывания</h3>
+                        <h3>Планирование развертывания</h3>
                     </div>
                 </div>
             </div>
@@ -136,7 +137,7 @@ ms.locfileid: "30069641"
 
 ---
 
-<h2>Рекомендуемые статьи</h2>
+<h2>Основные статьи</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -144,8 +145,8 @@ ms.locfileid: "30069641"
                 <div class="card">
                     <div class="cardText">
                         <h3>Прежде чем начать</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Requirements for your environment</a></p>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Сетевые требования</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Требования к среде</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Требования к сети</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Клиенты и устройства</a></p>
                     </div>
                 </div>
