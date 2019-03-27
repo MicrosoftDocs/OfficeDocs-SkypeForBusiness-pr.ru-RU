@@ -1,5 +1,6 @@
 ---
 title: Выбор контактов в Active Directory
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,16 +13,16 @@ localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте выбор в диалоговом окне Active Directory для поиска контактов, которые необходимо включить для Скайп для бизнеса. В поле поиска введите SIP-адрес или отображаемое имя контакта, которого требуется найти. Чтобы получить все доступные контакты, не вводите ничего в поле поиска.
-ms.openlocfilehash: 6acb6a4728f43d2f60d64c42f3a05da4932263db
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6793abc2121a552bcab9f2c165f7902ea5da40a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989935"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926555"
 ---
-# <a name="select-contacts-from-active-directory"></a><span data-ttu-id="980ef-105">Выбор контактов в Active Directory</span><span class="sxs-lookup"><span data-stu-id="980ef-105">Select Contacts from Active Directory</span></span>
+# <a name="select-contacts-from-active-directory"></a><span data-ttu-id="35db3-105">Выбор контактов в Active Directory</span><span class="sxs-lookup"><span data-stu-id="35db3-105">Select Contacts from Active Directory</span></span>
  
-<span data-ttu-id="980ef-106">Используйте диалоговое окно **Выбор в Active Directory** для поиска контактов, которые необходимо включить для Скайп для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="980ef-106">Use the **Select from Active Directory** dialog box to find contacts who you want to enable for Skype for Business.</span></span> <span data-ttu-id="980ef-107">В поле поиска введите SIP-адрес или отображаемое имя контакта, которого требуется найти.</span><span class="sxs-lookup"><span data-stu-id="980ef-107">In the search box, type the SIP address or display name of the contact you want to find.</span></span> <span data-ttu-id="980ef-108">Чтобы получить все доступные контакты, не вводите ничего в поле поиска.</span><span class="sxs-lookup"><span data-stu-id="980ef-108">To retrieve all available contacts, do not type anything in the search box.</span></span>
+<span data-ttu-id="35db3-106">Используйте диалоговое окно **Выбор в Active Directory** для поиска контактов, которые необходимо включить для Скайп для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="35db3-106">Use the **Select from Active Directory** dialog box to find contacts who you want to enable for Skype for Business.</span></span> <span data-ttu-id="35db3-107">В поле поиска введите SIP-адрес или отображаемое имя контакта, которого требуется найти.</span><span class="sxs-lookup"><span data-stu-id="35db3-107">In the search box, type the SIP address or display name of the contact you want to find.</span></span> <span data-ttu-id="35db3-108">Чтобы получить все доступные контакты, не вводите ничего в поле поиска.</span><span class="sxs-lookup"><span data-stu-id="35db3-108">To retrieve all available contacts, do not type anything in the search box.</span></span>
   
  
   
