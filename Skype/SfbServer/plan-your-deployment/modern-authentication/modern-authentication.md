@@ -1,5 +1,6 @@
 ---
 title: Планирование современной проверки подлинности в Skype для бизнеса
+ms.reviewer: ''
 ms.author: tracyp
 author: MSFTTracyP
 ms.audience: ITPro
@@ -8,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: Темы по планированию для проверки подлинности и авторизации для Скайп для Business Server, включая интеграцию с другими продуктами
-ms.openlocfilehash: 218100a78b128b28188d7c0b49534a9eb8ff4a1d
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 662eb90758bb22a9ef65492d9c9c1a99af778f23
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692720"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873382"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Описание проверки подлинности и авторизации в Скайп для бизнеса
 

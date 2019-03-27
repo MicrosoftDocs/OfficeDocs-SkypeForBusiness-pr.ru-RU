@@ -1,5 +1,6 @@
 ---
-title: Получение предков элемента
+title: Получить родительских элементов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 'Сводка: Сведения о операцию получения предков элемента, который является частью службы элемента. Служба элемент является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
-ms.openlocfilehash: e9e23c32aada4c609f9deb43004385b389a533bf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 7afeecb81d1933b0a308b174e49f6d8ff45a93dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532593"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873114"
 ---
-# <a name="get-item-ancestors"></a>Получение предков элемента
+# <a name="get-item-ancestors"></a>Получить родительских элементов
  
 **Сводка:** Узнайте о операцию получения предков элемента, который является частью службы элемента. Служба элемент является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.
   
 Операция получения предков элемента является частью службы элемента в API репозитория для панели мониторинга качества звонков.
   
-## <a name="get-item-ancestors"></a>Получение предков элемента
+## <a name="get-item-ancestors"></a>Получить родительских элементов
 
 Получите предков элемента возвращает предков определенные элементы из репозитория.
   

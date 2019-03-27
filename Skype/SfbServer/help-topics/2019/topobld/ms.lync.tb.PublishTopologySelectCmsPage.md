@@ -1,5 +1,6 @@
 ---
-title: Страница публикации топологии CMS выбора
+title: Страница публикации CMS выбора топологии
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: Опубликуйте топологию, которую вы настроили с помощью построителя топологий. Будет предложено выбрать из списка, в котором сервер переднего плана или интерфейсный пул примет на себя роль руку центрального хранилища управления. Только один сервер переднего плана или интерфейсный пул может содержать эта роль в любой момент времени.
-ms.openlocfilehash: 5f5c25982194246490232966d5c7da3a48759a57
-ms.sourcegitcommit: 16421e244f866e13600765a41cca509202815819
+ms.openlocfilehash: 0c80fa30721fe47fc3bc4725ca4f50f8a75f7009
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2018
-ms.locfileid: "22290282"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873831"
 ---
-# <a name="publish-topology-select-cms-page"></a>Страница публикации топологии CMS выбора
+# <a name="publish-topology-select-cms-page"></a>Страница публикации CMS выбора топологии
  
 Опубликуйте топологию, которую вы настроили с помощью построителя топологий. Будет предложено выбрать из списка, в котором сервер переднего плана или интерфейсный пул примет на себя роль руку центрального хранилища управления. Только один сервер переднего плана или интерфейсный пул может содержать эта роль в любой момент времени. 
   

@@ -1,5 +1,6 @@
 ---
-title: Файлы для загрузки и обновления Скайп для бизнеса
+title: Загрузки и обновления Skype для бизнеса
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Поиск и управление обновлениями для Скайп Business Server и Lync 2013. Чтобы получить дополнительные сведения, а затем загружать обновления с помощью ссылок.
-ms.openlocfilehash: af9718d7a6c8eab655c0fded39863d8c978bcb84
-ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.openlocfilehash: 1f76130ee290e32ecc5e4fbdde03a3f1802470c8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23485815"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872796"
 ---
-# <a name="skype-for-business-downloads-and-updates"></a>Файлы для загрузки и обновления Скайп для бизнеса
+# <a name="skype-for-business-downloads-and-updates"></a>Загрузки и обновления Skype для бизнеса
 
 Веб-страницы _Скайп Business для загрузки и обновления_ , один раз на сайте Technet устарела. Содержимое были преобразованы в клиентские и серверные страницы. Выполните эти ссылки на содержимое, которое требуется.
 

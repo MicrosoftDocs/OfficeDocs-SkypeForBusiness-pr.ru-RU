@@ -1,5 +1,6 @@
 ---
 title: Средство планирования Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Руководство по использованию Скайп для средство планирования 2015 Business Server.
-ms.openlocfilehash: faaa4a334fc04be44dce2a753804bf3e7f2b52b0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7a2230344cc31a14fbd8898706973af5ed0e6d9c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998590"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873529"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Средство планирования Skype для бизнеса Server 2015
  
@@ -40,22 +41,22 @@ ms.locfileid: "20998590"
   
 ## <a name="in-this-section"></a>Содержание
 
-- [Установка средства планирования в Skype для бизнеса Server 2015](install.md)
+- [Install the Planning Tool in Skype for Business Server 2015](install.md)
     
 - [Optional Software](install.md#Optional_Software)
     
-- [Навигация по средству планирования в Skype для бизнеса Server 2015](navigate.md)
+- [Navigate the Planning Tool in Skype for Business Server 2015](navigate.md)
     
-- [Создание начального проекта топологии для Skype для бизнеса Server 2015](create-the-initial-design.md)
+- [Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md)
     
-- [Изменение топологии в Skype для бизнеса Server 2015](edit-the-topology.md)
+- [Edit the topology in Skype for Business Server 2015](edit-the-topology.md)
     
 - [Edit the network configuration diagram](edit-the-topology.md#Edit_Network_diagram)
     
-- [Просмотр отчетов администратора в Skype для бизнеса Server 2015](review-the-administrator-reports.md)
+- [Review the Administrator Reports in Skype for Business Server 2015](review-the-administrator-reports.md)
     
 ## <a name="see-also"></a>См. также
 
-[Установка Skype для бизнеса Server 2015](../../deploy/install/install.md)
+[Установка Skype для бизнеса Server 2015](../../deploy/install/install.md)
   
 [Планирование обмена мгновенными сообщениями и оповещения о присутствии в Skype для бизнеса Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md)

@@ -1,5 +1,6 @@
 ---
 title: Компоненты и топологии для контроля допуска звонков в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Планирование отчета по контролю допуска звонков (CAC) при наличии сети MPLS, магистрали SIP или шлюза ТСОП или УАТС. Применяется к Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: f43b111d0ef3260c34b53e27a903de20fdf676ef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7022ade98dbd614023a4faaea283b939fa658e73
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887674"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872840"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Компоненты и топологии для контроля допуска звонков в Скайп для бизнеса
 
@@ -52,14 +53,14 @@ ms.locfileid: "23887674"
 
 Чтобы настроить контроль допуска звонков в магистрали SIP, во время развертывания контроля допуска звонков необходимо выполнить следующие задачи.
 
-1. Создать сетевой сайт для представления поставщика услуг интернет-телефонии (ITSP). Вписать этот сетевой сайт в соответствующий сетевую область и выделить для этого сетевого сайта нулевую пропускную способность для аудио и видео. Дополнительные сведения см [Настройки сетевых узлов для контроля допуска звонков](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx) в документации по развертыванию.
+1. Создать сетевой сайт для представления поставщика услуг интернет-телефонии (ITSP). Вписать этот сетевой сайт в соответствующий сетевую область и выделить для этого сетевого сайта нулевую пропускную способность для аудио и видео. Дополнительные сведения см. в разделе [Configure Network Sites for CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx) документации по развертыванию.
 
     > [!NOTE]
     > Для ITSP конфигурация этого сетевого сайта не функциональна. Значения политики пропускной способности фактически применяются в шаге 2.
 
 2. Создать межсайтовую связь для магистрали SIP с помощью соответствующих значений параметров для сайта, созданного на шаге 1. Например, можно указать имя этого сетевого сайта на предприятии в качестве значения параметра NetworkSiteID1, а имя сетевого сайта ITSP — в качестве значения параметра NetworkSiteID2. Дополнительные сведения см в документации по развертыванию и [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps) [Создание политик межсайтового взаимодействия в Скайп для Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) .
 
-3. Получите IP-адрес пограничного контроллера сеансов пользователя (SCB) точка подключения из у поставщика услуг. Добавить этот IP-адрес с маской подсети 32 к сетевому сайту, представляющему ITSP. Дополнительные сведения см [связать подсеть с сетевым узлом](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+3. Получите IP-адрес пограничного контроллера сеансов пользователя (SCB) точка подключения из у поставщика услуг. Добавить этот IP-адрес с маской подсети 32 к сетевому сайту, представляющему ITSP. Дополнительные сведения см. в разделе [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>Контроль допуска звонков с помощью стороннего шлюза ТСОП или УАТС
 
@@ -88,7 +89,7 @@ ms.locfileid: "23887674"
 > Убедитесь в том, что IP-подсеть, к которой относятся оба интерфейса сервера-посредника, настроена и связана с сетевым узлом 1.
 
 > [!NOTE]
-> Дополнительные сведения см [связать подсеть с сетевым узлом](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Дополнительные сведения см. в разделе [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>Вариант 2: CAC между сервером-посредником и УАТС сторонних производителей с точка подключения
 
@@ -113,7 +114,7 @@ ms.locfileid: "23887674"
 > Убедитесь в том, что IP-подсеть, к которой относятся оба интерфейса сервера-посредника, настроена и связана с сетевым узлом 1.
 
 > [!NOTE]
-> Дополнительные сведения см [связать подсеть с сетевым узлом](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Дополнительные сведения см. в разделе [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>Вариант 3: CAC между сервером-посредником и УАТС сторонних производителей без точка подключения
 
@@ -134,6 +135,6 @@ ms.locfileid: "23887674"
 > Убедитесь в том, что IP-подсеть, к которой относятся оба интерфейса сервера-посредника, настроена и связана с сетевым узлом 1.
 
 > [!NOTE]
-> Дополнительные сведения см [связать подсеть с сетевым узлом](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Дополнительные сведения см. в разделе [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 

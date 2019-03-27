@@ -1,5 +1,6 @@
 ---
-title: Аудиоконференции видео (средство планирования)
+title: Audio Video Conferencing (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
 description: Скайп для Business Server аудио/видео (A / V) конференц-связи предоставляет пользователям возможность участвовать в режиме реального времени аудио- и видеоконференций.
-ms.openlocfilehash: bf81bd6c6dfa0dbde4bbea4e6c0bdce17b89e3ed
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 1400c6208ba98171634ae433a6fb0b063240c55b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057786"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873599"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a>Аудиоконференции видео (средство планирования)
+# <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
  
 Скайп для Business Server аудио/видео (A / V) конференц-связи предоставляет пользователям возможность участвовать в режиме реального времени аудио- и видеоконференций.
   

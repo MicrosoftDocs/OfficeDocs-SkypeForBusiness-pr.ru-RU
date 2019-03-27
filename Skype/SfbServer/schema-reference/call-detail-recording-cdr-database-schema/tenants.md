@@ -1,5 +1,6 @@
 ---
 title: Таблица Tenants
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 description: В таблице клиентов представляет собой вспомогательную таблицу, в которой хранится список различных клиентов. Каждая запись в таблице представляет один клиент.
-ms.openlocfilehash: 4dde1baaf553c1a0d8a0efe65d72e8326cbb3bad
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cf7d0271c9cacfd76079a80a7e5db63d669a8dfb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873992"
 ---
 # <a name="tenants-table"></a>Таблица Tenants
  
@@ -23,7 +25,7 @@ ms.lasthandoff: 03/28/2018
 > [!NOTE]
 > В локальном развертывании CDR использует встроенный ИД клиента для указания другой тип проверки подлинности, такие как общедоступный служба обмена Мгновенными сообщениями, федеративными или анонимное подключение. 
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**TenantId** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий ИД клиента.  <br/> |
 |**TenantKey** <br/> |nvarchar(256)  <br/> || Допускаются следующие значения: <br/>  00000000-0000-0000-0000-000000000000-предприятия <br/>  00000000-0000-0000-0000-000000000001-федеративных <br/>  Очередей — - анонимный <br/>  00000000-0000-0000-0000-000000000003 — общедоступных служб обмена Мгновенными сообщениями <br/> |

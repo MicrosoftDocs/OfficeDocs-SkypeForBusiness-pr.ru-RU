@@ -1,5 +1,6 @@
 ---
 title: Вопросы и ответы по Скайп для Business Server 2015 Stress and Performance Tool
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 11/11/2015
@@ -10,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Скайп для бизнеса 2015 Stress and Performance Tool часто задаваемые вопросы (FAQ), полезен для узнать, какие средства конфигурации поддерживаются, устранение неполадок средства и разъясняющее настройки, которые могут отображаться при запуске средства нагрузка и производительность .
-ms.openlocfilehash: 730f9620e4aa498df26cc24f3c17ea1bd2ad7d5d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f71ff02d1bcb6bb858aa4e00144e55bf43c4cbd5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873452"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Вопросы и ответы по Скайп для Business Server 2015 Stress and Performance Tool
  

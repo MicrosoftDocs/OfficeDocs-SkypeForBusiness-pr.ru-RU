@@ -1,5 +1,6 @@
 ---
 title: Настройка политик голосовой связи, записей использования ТСОП и маршрутов голосовых вызовов в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: 'Сводка: Сведения о настройке политик голосовой связи, записей использования ТСОП и маршрутов голосовых вызовов в Скайп для Business Server.'
-ms.openlocfilehash: feb240600c02da2cdb5cabf9db8ca55605240901
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 37cc90e76a4ebf93ebd1ab1d61595b7fb8f6db38
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891282"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872768"
 ---
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Настройка политик голосовой связи, записей использования ТСОП и маршрутов голосовых вызовов в Скайп для бизнеса
  

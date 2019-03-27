@@ -1,5 +1,6 @@
 ---
 title: Обновление записей DNS SRV
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Чтобы успешно выполнить данную процедуру, необходимо войти в систему на сервере или в домене, что и должна быть членом группы администраторов домена или член группы DnsAdmins.
-ms.openlocfilehash: f298db10f7030482b604734a1719756af4071ce2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5cdf98d065abbb57b3cb654c8b770f8f1f87500c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027230"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872726"
 ---
 # <a name="update-dns-srv-records"></a>Обновление записей DNS SRV
 

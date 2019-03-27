@@ -1,5 +1,6 @@
 ---
-title: Переключатель CcVersion
+title: Switch-CcVersion
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
-description: Командлет Switch-CcVersion отключает работающее устройство и выполняет переключение на только что развернутое или резервное устройство.
-ms.openlocfilehash: 651dad80ef5c9907eb6c182527b646da7aa5acc8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Командлет Switch-CcVersion отключает работающее устройство и выполняет переключение на только что развернутое или резервное устройство. '
+ms.openlocfilehash: 73ae9b4f93a2488dea29f3271565ac3d25759fd1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872861"
 ---
-# <a name="switch-ccversion"></a>Переключатель CcVersion
+# <a name="switch-ccversion"></a>Switch-CcVersion
  
-Командлет Switch-CcVersion отключает работающее устройство и выполняет переключение на только что развернутое или резервное устройство. 
+Командлет Switch-CcVersion отключает работающее устройство и выполняет переключение на только что развернутое или резервное устройство.  
   
 ```
 Switch-CcVersion [-Force]
@@ -51,9 +53,9 @@ Switch-CcVersion -Force
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|:-----|
-| Force <br/> |  Необязательно <br/> |System.Management.Automation.SwitchParameter  <br/> | Принудительно останавливает службы при сбое их очистки. <br/> |
+| Force <br/> | Необязательно <br/> |System.Management.Automation.SwitchParameter  <br/> |  Принудительно останавливает службы при сбое их очистки. <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
@@ -63,7 +65,7 @@ Switch-CcVersion -Force
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Нет
+Отсутствуют
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>

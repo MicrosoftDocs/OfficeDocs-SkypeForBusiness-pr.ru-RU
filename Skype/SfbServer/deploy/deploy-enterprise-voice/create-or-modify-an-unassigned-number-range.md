@@ -1,5 +1,6 @@
 ---
 title: Создание или изменение диапазона неназначенных номеров в Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Создание, изменение и удаление диапазоны неназначенных номеров для объявлений приложения в Скайп Business Server корпоративной голосовой связи. От этих действий зависит способ обработки вызовов на неназначенные номера.
-ms.openlocfilehash: 519f4b753314325b1af71f11f94ea669e78148a1
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: 9546e4caaab30ae7582866dbcefd680b04de33f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625668"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872897"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Создание или изменение диапазона неназначенных номеров в Скайп для Business Server
  

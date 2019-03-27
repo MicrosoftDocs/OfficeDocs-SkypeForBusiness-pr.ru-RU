@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Узнайте, как настроить и тестирование автосекретари телефонной системой (облако УАТС) для обработки для вашей организации эффективным звонков.
-ms.openlocfilehash: 83a59090e447a5bfbda4cf72481b9d6b1ce21a0e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5071b3c26809e56df4cdd922ed1df2e67fc9481c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542321"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873481"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Настройка автосекретаря телефонной системы
 
@@ -37,19 +37,21 @@ ms.locfileid: "30542321"
 > [!NOTE]
 > Эта статья относится к группам Майкрософт и Скайп для бизнеса в Интернет.
 
-## <a name="step-1---getting-started"></a>Шаг 1. Начало работы
+## <a name="step-1---get-started"></a>Шаг 1 - начало работы
 
-- Прежде чем создать и настроить вашей автосекретари, если номер телефона для автосекретаря (и многих второго уровня запрашивает или вложенные автосекретари будет автоматически не требуется номер телефона) необходимо получить или перенос существующих международную или бесплатная служба номеров . После получения счета или службы бесплатных номеров, они будет отображаться в **Центр администрирования группами Майкрософт** > **голосовой связи** > страницы**телефонных номеров** . Чтобы получить номер службы, просмотреть [номера телефона службы Приступая к](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)или существующий номер службы и передача, см [передачи телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Если вы находитесь за пределами США, нельзя использовать Центр администрирования группами Майкрософт для получения номера службы; [здесь](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- Прежде чем создать и настроить вашей автосекретари, если номер телефона для автосекретаря (и многих второго уровня запрашивает или вложенные автосекретари будет автоматически не требуется номер телефона) необходимо получить или перенос существующих международную или бесплатная служба номеров . После получения счета или службы бесплатных номеров, они будет отображаться в **Центр администрирования группами Майкрософт** > **голосовой связи** > страницы**телефонных номеров** . Чтобы получить номер службы, просмотреть [номера телефона службы Приступая к](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)или существующий номер службы и передача, см [передачи телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Если вы находитесь за пределами США, нельзя использовать Центр администрирования группами Майкрософт для получения номера службы; [здесь](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
     > [!CAUTION]
     > Чтобы получить и использовать бесплатных номеров телефонов, необходимо настроить кредитов коммуникаций. Чтобы это сделать, обратитесь [Каковы кредитов коммуникации?](what-are-communications-credits.md) и [настроить кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md).
   
-- Ваша организация должна иметь (как минимум) лицензию типа "Корпоративный E3 с**телефонной системой"** или лицензию "Корпоративный E5". Число назначенных пользовательских лицензий**телефонной системы**влияет на количество сервисных номеров, которые могут быть использованы для автосекретарей. Количество доступных автосекретарей зависит от количества лицензий на **телефонную систему** и **аудиоконференции**вашей организации. Чтобы узнать больше о лицензировании, нажмите [здесь](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Ваша организация должна иметь (как минимум) лицензию типа "Корпоративный E3 с**телефонной системой"** или лицензию "Корпоративный E5". Число назначенных пользовательских лицензий**телефонной системы**влияет на количество сервисных номеров, которые могут быть использованы для автосекретарей. Количество доступных автосекретарей зависит от количества лицензий на **телефонную систему** и **аудиоконференции**вашей организации. Дополнительные сведения о лицензировании видеть [Скайп для лицензирования дополнительный компонент Business](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) или [группами Майкрософт дополнительный компонент лицензирования](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). .
 
     > [!TIP]
-    > Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо включить их для корпоративной голосовой связи или назначить им вызов планы в Office 365. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Кроме того, можно использовать Windows PowerShell. Например выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо включить их для корпоративной голосовой связи или назначить им вызов планы в Office 365. В разделе [Назначение Скайп для бизнеса лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) или [группами Майкрософт назначение лицензий](assign-teams-licenses.md). Кроме того, можно использовать Windows PowerShell. Например выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>Шаг 2. Создание нового автосекретаря
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > Каждые очереди звонка необходимо иметь связанной [учетной записи ресурса](manage-resource-accounts.md). Сначала необходимо создать учетную запись ресурса, а затем связать автосекретаря.
@@ -305,7 +307,7 @@ ms.locfileid: "30542321"
 
 С помощью параметра **исключить** , у вас есть два варианта:
 
-- **Нет**. Использование этой функции означает, что при поиске по справочнику никакие пользователи не исключаются из списка.  
+- **Нет**. Использование этой функции означает, что при поиске по справочнику никакие пользователи не исключаются из списка.   
 - **Настраиваемая группа пользователей** Если используется этот параметр, можно выполнить поиск для группы Office 365, список рассылки или группу безопасности, которые были созданы в вашей организации и всех людей добавлена в эту группу Office 365 списка рассылки или групп безопасности, которые будут исключены из поиск в каталоге. Вы можете добавить несколько групп Office 365, списков рассылки и групп безопасности.
 
   > [!Caution]
@@ -363,7 +365,7 @@ ms.locfileid: "30542321"
 
 [Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Получение номеров телефонов служб](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Получение номеров телефонов служб](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Доступность аудиоконференций и планов звонков в различных странах и регионах](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
@@ -371,4 +373,5 @@ ms.locfileid: "30542321"
 
 [Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
 
-[Пример для малого бизнеса: настройка автосекретаря](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+[Пример для малого бизнеса: настройка автосекретаря](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa
+)  

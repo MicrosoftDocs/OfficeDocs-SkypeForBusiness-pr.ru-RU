@@ -1,5 +1,6 @@
 ---
-title: Удаление пула переднего плана или сервера Standard Edition.
+title: Удаление пула переднего плана или сервера Standard Edition
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этом разделе описывается процесс удаления пула переднего плана или сервера Standard Edition переднего плана. При удалении пула переднего плана, удалите каждого сервера переднего плана, к которому относится к пулу как часть процесса удаления пула. При удалении Standard Edition Front End Server, необходимо удалить определение хранилища SQL в построителе топологий.
-ms.openlocfilehash: 7e56f2e9ff57536d1f065452f299a9af33a46aee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 394edcd6f5c89478ed98abebe0be29720d009107
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028889"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872719"
 ---
-# <a name="remove-front-end-pool-or-standard-edition-server"></a>Удаление пула переднего плана или сервера Standard Edition.
+# <a name="remove-front-end-pool-or-standard-edition-server"></a>Удаление пула переднего плана или сервера Standard Edition
 
 В этой статье описывается процесс удаления пула переднего плана или сервера Standard Edition переднего плана. При удалении пула переднего плана, удалите каждого сервера переднего плана, к которому относится к пулу как часть процесса удаления пула. При удалении Standard Edition Front End Server, необходимо удалить определение хранилища SQL в построителе топологий.
   
