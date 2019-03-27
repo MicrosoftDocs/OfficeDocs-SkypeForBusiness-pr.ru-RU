@@ -1,5 +1,6 @@
 ---
 title: Развертывание Скайп for Business Server 2019
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Сводка: Перейдите по этим ссылкам, чтобы узнать, как установить и настроить Скайп для Business Server 2019.'
-ms.openlocfilehash: a8512e55cdc0062be1548458f2ce6a4aca0296ad
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 8ff29f37fb63f5e174d1811d291fa282f7e67695
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30058998"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897844"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Развертывание Скайп for Business Server 2019
  
@@ -27,7 +28,7 @@ ms.locfileid: "30058998"
   
 Скайп для Business Server предлагает мгновенного обмена Мгновенными сообщениями, сведения о присутствии, конференц-связь, видео- и телефонной связи решений, которые может поддерживать требованиям к совместной работе корпоративного уровня. В этом разделе представлены ссылки на сведения о развертывании и настройке Скайп для Business Server. 
   
-Авторы постоянно обновляют свои статьи по мере появления новой информации и отзывов пользователей. Эта страница будет часто обновляться, не забывайте регулярно просматривать ее.
+Авторы обновляют статьи на постоянной основе по мере выхода новой информации и получения отзывов пользователей. Данная страница будет постоянно обновляться, поэтому заходите почаще.
    
 ##  <a name="articles-about-skype-for-business-server-installation-and-configuration"></a>Статьи, посвященные Скайп к установке Business Server и настройке
 
@@ -49,10 +50,10 @@ ms.locfileid: "30058998"
 
 Доступны следующие материалы о планировании для Скайп Business Server доступны от других экспертов. 
   
-||**Содержимое**|**Описание**|
+||**Содержимое**|**Описание**.|
 |:-----|:-----|:-----|
-|![Значок для документов](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype для бизнеса Server для ИТ-специалистов](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Посетите Центр ресурсов для видеоролики о access, сайты сообществ, документацию, файлы для загрузки и др.|
-|![Значок для содержимого разработчиков](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Платформа разработчика Skype](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Ресурсы разработчика для Скайп для Business Server, включая примеры кода, обучение и пакеты SDK.  <br/> |
-|![Значок для новостей, блогов и т. д.](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[Управление изменениями и их принятие](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Блоги об Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Блог группы Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Следите новостями от групп, создающих и документа Скайп для Business Server.  <br/> |
+|![Значок для документов](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Скайп Business Server для ИТ-специалистов](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Посетите Центр ресурсов для видеоролики о access, сайты сообществ, документацию, файлы для загрузки и др.|
+|![Значок для содержимого разработчиков](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Платформа разработки Скайп](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Ресурсы разработчика для Скайп для Business Server, включая примеры кода, обучение и пакеты SDK.  <br/> |
+|![Значок для новостей, блогов и т. д.](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[Управление изменениями и внедрения](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Блоги по Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Блог группы разработчиков Скайп](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Следите новостями от групп, создающих и документа Скайп для Business Server.  <br/> |
    
 

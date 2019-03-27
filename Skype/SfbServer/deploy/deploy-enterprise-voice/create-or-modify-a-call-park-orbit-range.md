@@ -1,5 +1,6 @@
 ---
 title: Создание или изменение диапазона орбит парковки вызовов в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Создание или изменение таблицы диапазон орбиты парковки вызовов в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 6892c48c95b7c5e84242a1456855e869a70e532b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 23de2c42ff7b7e8bf3c020eaf3bb5050524b87d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370693"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896122"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Создание или изменение диапазона орбит парковки вызовов в Скайп для бизнеса
 
 Создание или изменение таблицы диапазон орбиты парковки вызовов в Скайп Business Server корпоративной голосовой связи.
 
-Парковка вызовов с помощью орбиты парковки вызовов. Прежде чем пользователи могут приостанавливать и извлечение вызовов, необходимо настроить таблицу орбиты парковки вызовов. Необходимо указать диапазоны добавочных номеров (орбиты), что ваша организация будет зарезервировать для парковки вызовов и определите маршрут для этих диапазонов путем указания, какой пул парковки вызовов обрабатывает каждого диапазона. При определении диапазонов орбит цель — иметь достаточный орбиты, чтобы любой один орбиты не повторно слишком быстро, но не слишком большом числе орбиты ограничить число расширения, доступные для пользователей или других служб. Можно создать несколько диапазонов орбит парковки вызовов для каждого Скайп для пула Business Server, где развернуто приложение парковки вызовов. Каждый диапазон орбиты парковки вызовов должны иметь глобальное уникальное имя и уникальный набор расширений.
+Парковка вызовов с помощью орбиты парковки вызовов. Прежде чем пользователи могут приостанавливать и извлечение вызовов, необходимо настроить таблицу орбиты парковки вызовов. Необходимо указать диапазоны добавочных номеров (орбиты), что ваша организация будет зарезервировать для парковки вызовов и определите маршрут для этих диапазонов путем указания, какой пул парковки вызовов обрабатывает каждого диапазона. When you define orbit ranges, the goal is to have enough orbits so that any one orbit is not reused too quickly, but not so many orbits that you limit the number of extensions available for users or other services. Можно создать несколько диапазонов орбит парковки вызовов для каждого Скайп для пула Business Server, где развернуто приложение парковки вызовов. Каждый диапазон орбиты парковки вызовов должны иметь глобальное уникальное имя и уникальный набор расширений.
 
 > [!IMPORTANT]
 > Обычно диапазон орбит содержит 100 или менее орбит. Каждый из диапазонов может быть значительно больше, максимальные значения составляют не более 10000 орбит на диапазон и менее 50000 орбит на пул. Если диапазон слишком мал, орбиты используются повторно с большей частотой.
@@ -38,7 +39,7 @@ ms.locfileid: "25370693"
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Чтобы использовать Скайп для панели управления Business Server для создания или изменения диапазона номеров для парковки вызовов
 
-1. Войдите на компьютер как член группы RTCUniversalServerAdmins или членом роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см **Делегирование разрешений на установку**.
+1. Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе **Delegate Setup Permissions**.
 
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.
 
@@ -77,7 +78,7 @@ ms.locfileid: "25370693"
 
 2. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
 
-3. Чтобы создать новый диапазон номеров орбит используйте **New-CsCallParkOrbit** . Командлет **Set-CsCallParkOrbit** для изменения существующий диапазон номеров орбит.
+3. Используйте командлет **New-CsCallParkOrbit** для создания нового диапазона номеров орбиты. Используйте командлет **Set-CsCallParkOrbit** для изменения существующего диапазона номеров орбиты.
 
     В командной строке выполните следующую команду:
 
@@ -99,8 +100,8 @@ ms.locfileid: "25370693"
 
 ## <a name="see-also"></a>См. также
 
-[Новый CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
-[SET-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
 [Удаление диапазона орбиты парковки вызовов](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)

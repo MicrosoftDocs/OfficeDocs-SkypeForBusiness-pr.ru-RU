@@ -1,5 +1,6 @@
 ---
 title: Представление videostreamdetail
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,24 +11,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: Представление Videostreamdetail хранятся сведения о каждом видеопотоке в базе данных. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: d102a5e99cfcecb7d5e2e35b113e13509662af4f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6bafdbed3152bc73b2988e31877d8b7203557d46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884437"
 ---
 # <a name="videostreamdetail-view"></a>Представление videostreamdetail
  
 Представление Videostreamdetail хранятся сведения о каждом видеопотоке в базе данных. В этом представлении была введена в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Описание**|
+|**Столбец**|**Тип данных**|**Описание**.|
 |:-----|:-----|:-----|
 |SessionTime  <br/> |datetime  <br/> |Ссылка из [MediaLine table](medialine-0.md).  <br/> |
 |SessionSeq  <br/> |целое  <br/> |Ссылка из [MediaLine table](medialine-0.md).  <br/> |
 |MediaLineLabel  <br/> |tinyint  <br/> |Ссылка из [MediaLine table](medialine-0.md).  <br/> |
 |StreamId  <br/> |целое  <br/> |Уникальный идентификатор в канале передачи мультимедиа.  <br/> |
-|Время начала  <br/> |datetime  <br/> |Начало сеанса.  <br/> |
-|Время окончания  <br/> |datetime  <br/> |Время окончания сеанса.  <br/> |
+|StartTime  <br/> |datetime  <br/> |Начало сеанса.  <br/> |
+|EndTime  <br/> |datetime  <br/> |Время окончания сеанса.  <br/> |
 |CallPriority  <br/> |целое  <br/> |Приоритет вызова.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |Полное доменное имя пула вызывающего абонента.  <br/> |
 |CalleePool  <br/> |nvarchar(256)  <br/> |Полное доменное имя пула вызываемого абонента.  <br/> |
@@ -87,7 +89,7 @@ ms.lasthandoff: 03/28/2018
 |AppliedBandwidthLimit  <br/> |целое  <br/> |Фактические пропускной способности применяются к потоку со стороны данного отправки различных параметров политики (ВКЛЮЧЕНИЕ, API, SDP, сервер политики и т. п.). Это не следует путать с пропускную способность, так как может быть меньше эффективной пропускной способности на основе оценки пропускной способности. Это практически максимальная полоса пропускания потока отправки может занять за исключением ограничений, накладываемых оценка пропускной способности.  <br/> |
 |JitterInterArrival  <br/> |целое  <br/> |Среднее "дрожание" сети из статистики протокола элемента управления в режиме реального времени (RTCP).  <br/> |
 |JitterInterArrivalMax  <br/> |целое  <br/> |Максимальное "дрожание" сети во время вызова.  <br/> |
-|Обмена данными  <br/> |целое  <br/> |Время кругового пути из статистики RTCP.  <br/> |
+|RoundTrip  <br/> |целое  <br/> |Время кругового пути из статистики RTCP.  <br/> |
 |RoundTripMax  <br/> |целое  <br/> |Максимальное время кругового пути для аудиопотока.  <br/> |
 |PacketLossRate  <br/> |Decimal(5,4)  <br/> |Средняя частота потери пакетов во время вызова.  <br/> |
 |PacketLossRateMax  <br/> |Decimal(5,4)  <br/> |Максимальная потеря пакетов во время вызова.  <br/> |

@@ -1,5 +1,6 @@
 ---
 title: Редактирование префиксов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для определения префиксами или начальных цифр, добавьте префиксы, которые должен обрабатывать этот маршрут, включая + при необходимости. Например можно сопоставить все номера, начиная с +123.
-ms.openlocfilehash: 62fdb4c329d2a3b07f9fc1f1f45a2339b2157759
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 99b445b02e36f162105ddaa91b543b85f9e05cb0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989229"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899542"
 ---
 # <a name="prefix-edit"></a>Редактирование префиксов
  

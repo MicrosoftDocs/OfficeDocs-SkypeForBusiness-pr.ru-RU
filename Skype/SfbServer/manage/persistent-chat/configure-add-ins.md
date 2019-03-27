@@ -1,5 +1,6 @@
 ---
 title: Настройка надстроек для комнат сохраняемого чата в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Сводка: Сведения о настройке надстроек для комнат чата Persistent Chat Server в Скайп для Business Server 2015.'
-ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b43340f44b7ce41a1d77768f10a96bff651afc3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372701"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885956"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Настройка надстроек для комнат сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -54,15 +55,15 @@ ms.locfileid: "25372701"
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>Конфигурация надстроек с помощью Windows PowerShell
 
-Надстройки для комнат чата можно настроить с помощью следующих командлетов Windows PowerShell. Для получения дополнительных сведений о синтаксисе, включая все доступные параметры просмотра [Скайп оболочки управления 2015 Business Server](../management-shell.md).
+Надстройки для комнат чата можно настроить с помощью следующих командлетов Windows PowerShell. Дополнительные сведения о синтаксисе, включая все доступные параметры, см. в разделе [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 
 |**Командлет**|**Описание**|
 |:-----|:-----|
 |New-CsPersistentChatAddin  <br/> |Создание новой надстройки  <br/> |
-|Командлет Set-CsPersistentChatAddin  <br/> |Настройка параметров для существующей надстройки  <br/> |
-|Командлет Get-CsPersistentChatAddin  <br/> |Извлечение информации о надстройках  <br/> |
-|Командлет remove-CsPersistentChatAddin  <br/> |Удаление надстройки  <br/> |
+|Set-CsPersistentChatAddin  <br/> |Настройка параметров для существующей надстройки  <br/> |
+|Get-CsPersistentChatAddin  <br/> |Извлечение информации о надстройках  <br/> |
+|Remove-CsPersistentChatAddin  <br/> |Удаление надстройки  <br/> |
    
 ### <a name="create-a-new-add-in"></a>Создание новой надстройки
 
@@ -92,7 +93,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>Удаление надстройки
 
-Add-in можно удалить с помощью командлета **Remove-CsPersistentChatAddIn** . Например, следующая команда используется для удаления надстройки сохраняемого чата ITChatAddin, найденной в пуле atl-cs-001.contoso.com:
+Add-in можно удалить с помощью командлета **Remove-CsPersistentChatAddIn** . Например, следующая команда удаляет Persistent Chat, надстройка ITChatAddin удастся найти на пул atl-cs-001.contoso.com:
   
 ```
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

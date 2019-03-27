@@ -1,5 +1,6 @@
 ---
 title: Расширитель настроек CMS
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: Центральный сервер управления можно перенести из одного заданного пула переднего плана в другой заданный пул переднего плана. Для изменения расположения центрального сервера управления выберите пул переднего плана в раскрывающемся списке Сервер переднего плана для установки центрального сервера управления. Сервером переднего плана может служить пул переднего плана корпоративного выпуска или сервер переднего плана стандартного выпуска.
-ms.openlocfilehash: e0019da52b59b6167724193ba2472ea7fc34e447
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: ab3178fb2ed2a25ad0909d9252a636082dfb1e47
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062423"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897086"
 ---
 # <a name="cms-settings-expander"></a>Расширитель настроек CMS
  
@@ -26,6 +27,6 @@ ms.locfileid: "21062423"
 > [!IMPORTANT]
 > Если было определено, опубликовано и развернуто центральное хранилище управления для инфраструктуры, невозможно изменить местоположение центрального хранилища управления без переноса этого хранилище на другой интерфейсный сервер для внешней обработки. 
   
-Для получения дополнительных сведений о перемещении центральный сервер управления хранилища, увидеть [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) в справочник командлетов Windows PowerShell.
+О перемещении центрального хранилища управления см. в разделе [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) справочника по командлетам Windows PowerShell.
   
 

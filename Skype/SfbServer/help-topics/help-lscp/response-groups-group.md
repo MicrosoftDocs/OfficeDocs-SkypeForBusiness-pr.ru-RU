@@ -1,5 +1,6 @@
 ---
 title: Группа групп ответа
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: Группы ответа состоят из групп агентов, очереди и рабочие процессы. Группа агентов — группа людей, предназначены для отвечать на звонки группы ответа.
-ms.openlocfilehash: e6293b40575d3847cb94082bdd9049387900feef
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9f7e28aad186467938df9d0ec64e7a5de151d7aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248274"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898015"
 ---
 # <a name="response-groups-group"></a>Группы ответа: группа
 
@@ -53,6 +54,6 @@ ms.locfileid: "23248274"
 
 - **Описание** Описание для группы агентов.
 
-Для получения дополнительных сведений о группы ответа функций и возможностей см. в документации по планированию [Планирование приложения группы ответа в Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) . Дополнительные сведения о работе с группами агентов см [Управление группами агентов](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) в документации по операциям.
+Для получения дополнительных сведений о группы ответа функций и возможностей см. в документации по планированию [Планирование приложения группы ответа в Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) . Дополнительные сведения о работе с группами агентов см. в разделе [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) документации по использованию.
 
 

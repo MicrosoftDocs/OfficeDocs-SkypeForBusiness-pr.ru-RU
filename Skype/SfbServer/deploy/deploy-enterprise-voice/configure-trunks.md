@@ -1,5 +1,6 @@
 ---
 title: Настройка магистрали в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: ': Сводка Настройка линии связи между сервером-посредником и коллег для корпоративной голосовой связи в Скайп для Business Server.'
-ms.openlocfilehash: 02ace749e62b7e6edd3f514fa81b55eb30c87094
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c47d1ff06fe695be939758c8444dac246c555de9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887978"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892859"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>Настройка магистрали в Скайп для Business Server
  
@@ -40,7 +41,7 @@ ms.locfileid: "23887978"
     
 - Чтобы настроить несколько магистралей, можно создать несколько связей между же шлюза и сервера-посредника. Это обеспечивает улучшения устойчивости инфраструктурой корпоративной голосовой связи, который особенно полезен в сценариях interoperational относиться УАТС. 
     
-При определении магистрали, должен быть связан с маршрутом. Чтобы связать магистралей с маршрутом, определение простое имя для магистрали в построителе топологий. Это простое имя используется как имя линии связи в Скайп для панели управления Business Server, где можно сопоставить с маршрутов магистральных линий связи. Имя канала связи простых используется как имя шлюза из Скайп для консоли Business Server. 
+When a trunk is defined, it must be associated to a route. Чтобы связать магистралей с маршрутом, определение простое имя для магистрали в построителе топологий. Это простое имя используется как имя линии связи в Скайп для панели управления Business Server, где можно сопоставить с маршрутов магистральных линий связи. Имя канала связи простых используется как имя шлюза из Скайп для консоли Business Server. 
   
 ```
 New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}

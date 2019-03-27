@@ -1,5 +1,6 @@
 ---
 title: Представление пользователя сведения о ПИН-код в Скайп для Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 'Сводка: Просмотр сведений о пользователе ПИН-код в Скайп для Business Server.'
-ms.openlocfilehash: 4b0eda76e4429ee5c6d658f4d161783bc4d356a3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2960e31a54dd531598254ccea41dda516e9f7335
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008561"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899696"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Представление пользователя сведения о ПИН-код в Скайп для Business Server
  
@@ -62,7 +63,7 @@ ms.locfileid: "21008561"
     
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о ПИН-код пользователя с помощью Windows PowerShell командлетов
 
-Можно просмотреть сведения о ПИН пользователя с помощью командлета Get-CsClientPinInfo. Этот командлет можно запустить из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell. Для получения дополнительных сведений об использовании удаленной оболочки Windows PowerShell для подключения к Скайп для Business Server в статье блога [«Быстрый запуск: управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Процесс одинаков в Скайп для Business Server.
+You can view user PIN information by using the Get-CsClientPinInfo cmdlet. Этот командлет можно запустить из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell. Для получения дополнительных сведений об использовании удаленной оболочки Windows PowerShell для подключения к Скайп для Business Server в статье блога [«Быстрый запуск: управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Процесс одинаков в Скайп для Business Server.
   
 ### <a name="to-view-user-pin-information"></a>Порядок просмотра сведений о ПИН-коде пользователя
 

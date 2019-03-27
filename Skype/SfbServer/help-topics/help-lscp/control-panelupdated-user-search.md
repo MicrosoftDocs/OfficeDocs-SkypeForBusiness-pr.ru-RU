@@ -1,5 +1,6 @@
 ---
 title: Панель управления - обновленные поиск пользователей
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Настройка пользователей для Скайп для Business Server можно использовать результаты запроса поиска. Можно выполнить поиск пользователей по отображаемое имя, имя первого, последнего имени, имя учетной записи диспетчера учетных записей (SAM), SIP-адрес или строки универсальный код ресурса (URI). Можно также выполнить поиск для пользователей с помощью панели управления Lync Server или Active Directory — пользователи и компьютеры оснастку.
-ms.openlocfilehash: a254881713064ad0442d359f3d385d94165c6629
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5d94c468edeb8c982d901f1c396bfd49c8c88fb6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254853"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896486"
 ---
 # <a name="control-panel---updated-user-search"></a>Панель управления — обновлено: Поиск пользователей
 
@@ -27,21 +28,21 @@ ms.locfileid: "23254853"
 
 На странице панели управления **Поиск пользователей** можно выполнить следующие задачи:
 
-- [Поиск пользователей Lync Server 2010](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [Search for Lync Server 2010 Users](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
 
-- [Включение и отключение пользователей для Lync Server 2010](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Enable or Disable Users for Lync Server 2010](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
 - [Перемещение пользователя](move-user.md)
 
 - [Перемещение всех пользователей](move-all-users.md)
 
-- [Назначение политик для пользователей](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [Assign Policies to Users](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
 
-- [Включение пользователей для корпоративной голосовой связи в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [Настройка федерации, удаленного доступа пользователей и общедоступных служб обмена Мгновенными сообщениями для пользователей](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [Настройка телефонии для пользователей](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
 
@@ -75,7 +76,7 @@ ms.locfileid: "23254853"
 
 - **Включение пользователей** Щелкните, чтобы открыть [пользователи: новый пользователь Lync Server](users-new-lync-server-user.md) диалоговое окно, в котором можно добавить нового пользователя Скайп для Business Server.
 
-    Чтобы добавить новый контакт, щелкните стрелку вниз и выберите **Включить контакты** , чтобы открыть [пользователи: новые объекты контактов](users-new-contact-objects.md) диалогового окна.
+    Для добавления нового контакта щелкните стрелку вниз, а затем выберите команду **Включить контакты**, чтобы открыть диалоговое окно [Users: New Contact Objects](users-new-contact-objects.md).
 
 - **Изменение** Нажмите кнопку **Изменить** и нажмите кнопку **Показать подробности** , чтобы отобразить сведения о выбранного пользователя или нажмите кнопку **Выбрать всех результатов поиска** для выбора всех пользователей, отображаемые в таблице результатов.
 

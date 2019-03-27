@@ -1,5 +1,6 @@
 ---
 title: Управление политиками конференц-связи в Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: 'Сводка: Узнайте, как управлять политиками конференц-связи в Скайп для Business Server.'
-ms.openlocfilehash: d5fed0c6615747069d71015fca33144ca41dd64b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96b2f5e27aa65931f5cd76499e1a3f66b817baa5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986659"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898146"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Управление политиками конференц-связи в Скайп для Business Server
  
@@ -42,14 +43,14 @@ ms.locfileid: "20986659"
 
 Для управления встречами с помощью Скайп для консоли Business Server, используйте следующие командлеты:
   
-**Параметры политик конференц-связи**
+**Параметры политики конференц-связи**
 
 |**Командлет**|**Описание**|
 |:-----|:-----|
 |[Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps) <br/> |Возвращает сведения о политиках проведения конференций, используемых в вашей организации.  <br/> |
-|[GRANT-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps) <br/> |Назначает политику конференций на уровне пользователей.  <br/> |
+|[Grant-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps) <br/> |Назначает политику конференций на уровне пользователей.  <br/> |
 |[New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> |Создает новую политику конференций в организации.  <br/> |
 |[Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps) <br/> |Удаляет выбранную политику конференц-связи.  <br/> |
-|[SET-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> |Изменяет существующую политику конференц-связи.  <br/> |
+|[Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> |Изменяет существующую политику конференц-связи.  <br/> |
    
 

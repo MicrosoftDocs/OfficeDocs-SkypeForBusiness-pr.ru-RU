@@ -1,5 +1,6 @@
 ---
 title: Добавление компьютера пограничного сервера
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя (FQDN) каждого компьютера, который требуется добавить в качестве пограничного сервера в этом пуле. После добавления компьютера в список, можно обновить полное доменное имя компьютера, или удалить его из пула, в любое время до публикации топологии. После публикации топологии для изменения полного доменного ИМЕНИ необходимо удаление сервера в построителе топологий, а затем добавляя новый сервер к пулу с новой полным доменным ИМЕНЕМ. Для получения дополнительных сведений о разработке топологии для пограничного пула Просмотрите определение топология с пограничным в документации по развертыванию пограничного сервера.
-ms.openlocfilehash: 06f5e19706ca4dedf41dd4942004a40e63037ba9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ad5e447b46b14314c640e6a6fde5b2ed685f8e52
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257747"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889517"
 ---
 # <a name="edge-server-add-machine"></a>Добавление компьютера пограничного сервера
 

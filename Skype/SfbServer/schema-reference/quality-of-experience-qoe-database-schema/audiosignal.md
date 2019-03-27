@@ -1,5 +1,6 @@
 ---
 title: Таблица AudioSignal
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Каждая запись представляет метрики звукового сигнала для одной конечной точки. Как правило каждого вызова имеет две записи, также является вызывающего абонента и является вызываемого абонента.
-ms.openlocfilehash: 0ffab37f49e55f73d8d414258e208265e2b5e9ff
-ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
+ms.openlocfilehash: 7a064f13b6f34f61dcfb72169a4b1620cd81b01f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21781650"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895120"
 ---
 # <a name="audiosignal-table"></a>Таблица AudioSignal
  

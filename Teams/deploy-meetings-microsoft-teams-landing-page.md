@@ -1,5 +1,6 @@
 ---
 title: Собрания и конференции в Microsoft Teams
+ms.reviewer: ''
 description: Используйте эти ресурсы развертывания для помощи в развёртывании собраний в Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
@@ -14,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d6554a641fe9abc02461fac891a3bb4fc5a9440
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: afd7e15f759caafdc76dc2f20777f4d3ab66d672
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461094"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889771"
 ---
 # <a name="meetings--conferencing-in-microsoft-teams"></a>Собрания и конференции в Microsoft Teams
 
@@ -49,7 +50,7 @@ ms.locfileid: "30461094"
 
 | Задайте себе вопрос | Действие |
 |--------------|--------|
-|Готова ли моя сеть к развертыванию собраний в Teams? | Чтобы убедиться, что ваша сеть готова, ознакомьтесь со следующими материалами:<ul><li>[Подготовка сети организации к использованию Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network)</li><li>[URL-адреса и диапазоны IP-адресов для Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Готова ли моя сеть к развертыванию собраний в Teams? | Чтобы убедиться, что ваша сеть готова, ознакомьтесь со следующими материалами:<ul><li>[Подготовка сети организации к использованию Microsoft Teams](https://docs.microsoft.com/ru-RU/MicrosoftTeams/prepare-network)</li><li>[URL-адреса и диапазоны IP-адресов для Office 365](https://docs.microsoft.com/ru-RU/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Основные решения по развертыванию

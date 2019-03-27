@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующего маршрута голосовых вызовов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 15e9f61ffd234b50394fed83cb14b2412093aa51
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c125898dfd3596a1e49801d6fc8f0752bdb81332
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258293"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899682"
 ---
-# <a name="voice-route-create-new-or-edit-existing"></a>Маршрут голосовых вызовов: Создание новой или редактирование существующей
+# <a name="voice-route-create-new-or-edit-existing"></a>Маршрут голосовых данных: создание нового или редактирование существующего
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 

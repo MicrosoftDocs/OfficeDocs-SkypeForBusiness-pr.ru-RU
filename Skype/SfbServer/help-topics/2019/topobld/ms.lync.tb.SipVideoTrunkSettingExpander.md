@@ -1,5 +1,6 @@
 ---
 title: Расширитель параметров видеомагистрали SIP
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server.
-ms.openlocfilehash: 8c6ec1a98cd9de63b568368b6363f8cdb1fc1ebb
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 01b394a9bd8e3ba304e67b762e81750bddd3af1a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067580"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895253"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>Расширитель параметров видеомагистрали SIP
  

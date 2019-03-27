@@ -1,5 +1,6 @@
 ---
 title: Узел области применения устройств для обеспечения связи в филиалах
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
-description: Узел для обеспечения связи в филиалах приведены для обеспечения связи в филиалах на этом сайте филиала. Можно выполнить следующее действие.
-ms.openlocfilehash: c31e91d3d6076950b80dae9f34faa97700031c7a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Узел для обеспечения связи в филиалах приведены для обеспечения связи в филиалах на этом сайте филиала. Доступно следующее действие.
+ms.openlocfilehash: 980c2a26787dd1e7f34f3c002771c211aded1f4a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897519"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Узел области применения устройств для обеспечения связи в филиалах
  

@@ -1,5 +1,6 @@
 ---
 title: Создание параметров конфигурации качества взаимодействия в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 'Сводка: Сведения о параметрах качества взаимодействия (QoE) в Скайп для Business Server.'
-ms.openlocfilehash: 678f57ba06008244bf9872ee44b26ea0c1e9a0f2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 971d3488d0c6d20586e33424c1fbb2b197b31241
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968197"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883188"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Создание параметров конфигурации качества взаимодействия в Скайп для Business Server
  
@@ -26,7 +27,7 @@ ms.locfileid: "20968197"
   
 Параметры конфигурации качества взаимодействия можно создать с помощью любого из Скайп для панели управления Business Server или командлета [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) . При использовании Скайп для панели управления Business Server для создания новых параметров будут доступны для вас следующие параметры:
   
-|**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**|
+|**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**.|
 |:-----|:-----|:-----|
 |Имя  <br/> |Identity  <br/> |Уникальный идентификатор создаваемых параметров. Параметры конфигурации качества взаимодействия могут быть созданы только на уровне сайта.  <br/> |
 |Разрешить отслеживание данных о качестве связи  <br/> |EnableQoE  <br/> |Указывает, будут ли записи качества взаимодействия собраны и сохранены в базу данных мониторинга.  <br/> |
@@ -38,7 +39,7 @@ ms.locfileid: "20968197"
   
 ### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Создание параметров конфигурации качества взаимодействия с помощью Скайп для панели управления Business Server
 
-1. Войдите на компьютер как член группы RTCUniversalServerAdmins или членом роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см **Делегирование разрешений на установку**.
+1. Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе **Delegate Setup Permissions**.
     
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
     

@@ -1,5 +1,6 @@
 ---
 title: Расширитель настроек маршрута федерации
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: Чтобы задать назначение федеративного маршрута сайта, сначала необходимо включена функция на пограничном сервере или пула пограничных серверов федерации. Если федерация не включен на пограничном сервере или в пуле, параметры назначение маршрута федерации для сайта не будет доступен для изменения.
-ms.openlocfilehash: 798019c4be9de360c6530865860ee425b1a2bea5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f166f74a1d49af168a8ce2a9a193bb9cc49da753
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20972459"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899633"
 ---
 # <a name="federation-route-settings-expander"></a>Расширитель настроек маршрута федерации
  

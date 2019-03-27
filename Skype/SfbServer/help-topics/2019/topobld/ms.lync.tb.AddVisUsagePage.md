@@ -1,5 +1,6 @@
 ---
 title: Добавление сведений об использовании сервера видеовзаимодействия
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server.
-ms.openlocfilehash: 231c3133944e90501dd49925328db03bd3bb15f7
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 7eea715fa17850515e24e11fcd6cf3768d887aa7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061403"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895246"
 ---
 # <a name="add-vis-usage"></a>Добавление сведений об использовании сервера видеовзаимодействия
  

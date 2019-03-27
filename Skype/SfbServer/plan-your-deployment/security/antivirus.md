@@ -1,5 +1,6 @@
 ---
 title: Антивирусная программа сканирования исключения для Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Обзор взаимодействия антивирусную программу с Скайп для Business Server.
-ms.openlocfilehash: 782f7bc6fe004eb5106fa07c93b6f22993849d98
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: 377c9e8fb9de71187978fe541a23f43cc2282749
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975196"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895967"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Антивирусная программа сканирования исключения для Скайп для Business Server
 
@@ -122,7 +123,7 @@ ms.locfileid: "24975196"
 
 - Каталоги и файлы
 
-  - %systemroot%\system32\LogFiles
+  - %systemroot%\System32\LogFiles
 
   - %systemroot%\SysWow64\LogFiles
 
@@ -143,7 +144,7 @@ ms.locfileid: "24975196"
 
   - Хранилище общих папок (указывается в построителе топологий). Хранилища файлов задаются в построителе топологий.
 
-  - Файлы данных и журналов сервера SQL Server, включая объекты внутренней базы данных, хранилища пользователей, архивов, мониторинга и приложений. Файлы баз данных и журналов можно указать в построителе топологий. Для получения дополнительных сведений о файлах данных и журналов для каждой базы данных, включая имена по умолчанию содержатся в документации по развертыванию [данных SQL Server и размещение файлов журнала](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) .
+  - Файлы данных и журналов сервера SQL Server, включая объекты внутренней базы данных, хранилища пользователей, архивов, мониторинга и приложений. Файлы баз данных и журналов можно указать в построителе топологий. Подробные сведения о файлах данных и журналов для каждой базы, включая имена по умолчанию, см. в статье [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) в разделе, посвященном документации развертывания.
 
   - SQL Server файлов данных и журналов, в том числе для интерфейсных базы данных, Скайп для хранения бизнес и RtcDatabase хранилища. Как правило, они находятся в папке %localdrive%\CSData.
 

@@ -1,5 +1,6 @@
 ---
 title: Подготовка текущего домена (введение)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
-description: На странице подготовка домена начинается процесс подготовки домена для Скайп для Business Server 2015. Нажмите кнопку Далее, чтобы приступить к подготовке домена.
-ms.openlocfilehash: f5b805e86084f688f3247f14a3cc1ad778ffc4b9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: На странице подготовка домена начинается процесс подготовки домена для Скайп для Business Server 2015. Нажмите Далее для запуска подготовки домена.
+ms.openlocfilehash: 2ce02803e036dc4aaff10078fc4c0c1c5275a198
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897276"
 ---
 # <a name="prepare-current-domain-intro"></a>Подготовка текущего домена (введение)
  

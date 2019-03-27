@@ -1,5 +1,6 @@
 ---
 title: Перемещение каталогов конференций
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Перед ликвидацией пула необходимо выполнить следующую процедуру для каждого каталога конференции в устаревшем пуле.
-ms.openlocfilehash: b7526d8c3c032bf8b1f9052dce7da7e8a87b66b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 32ebe22c54585a206c90888238d96e41fce30a58
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372807"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895721"
 ---
 # <a name="move-conference-directories"></a>Перемещение каталогов конференций
 

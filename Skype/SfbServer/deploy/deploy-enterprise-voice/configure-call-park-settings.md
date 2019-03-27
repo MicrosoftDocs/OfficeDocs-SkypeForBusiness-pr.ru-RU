@@ -1,5 +1,6 @@
 ---
 title: Настройка параметров парковки вызовов в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Изменение параметров парковки вызовов в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 4a80b9e60085c3091aacbbf619f0dbe672b64251
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ab2fec9a0455316ea1b0fcba6a771b91f0d115d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373679"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891652"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Настройка параметров парковки вызовов в Скайп для бизнеса
 
@@ -29,14 +30,14 @@ ms.locfileid: "25373679"
 > [!NOTE]
 > Мы рекомендуем настроить хотя бы параметр **OnTimeoutURI** для резервного назначения, используемого в случае истечения времени ожидания запаркованного вызова и сбоя переключения на удерживаемого абонента.
 
-Используйте командлет **New-CsCpsConfiguration** или командлета **Set-CsCpsConfiguration** для настройки любых из следующих параметров:
+Используйте командлет **New-CsCpsConfiguration** или **Set-CsCpsConfiguration** для настройки любых из приведенных ниже параметров:
 
 
 | **Данный параметр:**                     | **Указывает следующее:**                                                                                                                                                                                                                                                                                                                   |
 |:-------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CallPickupTimeoutThreshold** <br/> | Период времени, по истечении которого припаркованный вызов перенаправляется обратно на номер телефона, с которого ответили на звонок.  <br/> Значение следует вводить в формате чч:мм:сс, где чч — это часы, мм — минуты, сс — секунды. Минимальное значение составляет 10 секунд, максимальное — 10 минут. Значение по умолчанию — 00:01:30.  <br/> |
 | **EnableMusicOnHold** <br/>          | Воспроизводится ли музыка для звонящего при парковке вызова.  <br/> Доступны значения True и False. Значение по умолчанию — True.  <br/>                                                                                                                                                                                                                 |
-| **Значения MaxCallPickupAttempts** <br/>      | Число повторных звонков припаркованного вызова на ответивший телефон перед перенаправлением на резервный универсальный код ресурса (URI), указанный для **OnTimeoutURI**. Значение по умолчанию — 1.<br/>                                                                                                                         |
+| **MaxCallPickupAttempts** <br/>      | Число повторных звонков припаркованного вызова на ответивший телефон перед перенаправлением на резервный универсальный код ресурса (URI), указанный для **OnTimeoutURI**. Значение по умолчанию — 1.<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | SIP-адрес пользователя или группы ответа, которым перенаправляется неотвеченный припаркованный вызов в случае превышения значения **MaxCallPickupAttempts**. <br/> Значение должно быть кодом URI SIP. начинающимся со строки sip:. Например, sip:bob@contoso.com. По умолчанию адрес пересылки не используется.<br/>                                                   |
 
 ### <a name="to-configure-call-park-settings"></a>Настройка параметров парковки вызовов
@@ -50,7 +51,7 @@ ms.locfileid: "25373679"
    ```
 
    > [!TIP]
-   > Командлет **Get-CsSite** для определения сайта. Дополнительные сведения см Скайп для документации по консоли управления Business Server.
+   > Используйте командлет **Get-CsSite** для идентификации сайта. Дополнительные сведения см Скайп для документации по консоли управления Business Server.
 
     Например:
 
@@ -62,8 +63,8 @@ ms.locfileid: "25373679"
 
 [Настройка функции воспроизведения музыки для режима удержания при парковке вызова в Skype для бизнеса 2015](customize-call-park-music-on-hold.md)
 
-[Новый CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
-[SET-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
+[Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 
-[Командлет Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
+[Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)

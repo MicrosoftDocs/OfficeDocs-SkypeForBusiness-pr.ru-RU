@@ -1,5 +1,6 @@
 ---
 title: Конфигурация политик для управления общим доступом пользователей
+ms.reviewer: ''
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ublic мгновенными сообщениями (IM) позволяет пользователям организации использовать мгновенные сообщения для взаимодействия с пользователями служб обмена мгновенными Сообщениями, предоставляемых поставщиками служб обмена мгновенными Сообщениями.
-ms.openlocfilehash: 8ad406957d50f44bd8cee9465549ff86af9a3e6b
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 3ed19bf692ccc7dfc39466e304b3b1371164758c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222872"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899773"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Настройка политик для управления доступом пользователей общедоступных служб в Скайп для Business Server
 
@@ -55,7 +56,7 @@ ms.locfileid: "27222872"
 
 5.  (Необязательно) Если вы хотите добавить или изменить описание, укажите информацию о политике в **поле Описание**.
 
-6.  Выполните одно из указанных ниже действий.
+6.  Выполните одно из следующих действий:
     
       - Чтобы включить для политики доступ пользователей общедоступных служб, установите флажок **Разрешить взаимодействие с незарегистрированными пользователями** .
     
@@ -70,4 +71,4 @@ ms.locfileid: "27222872"
 
 ## <a name="see-also"></a>См. также
 
-[Управление поставщиками SIP федеративных для вашей организации](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+[Управление федеративными поставщиками SIP в организации](../sip-providers/manage-sip-federated-providers-for-your-organization.md)

@@ -1,5 +1,6 @@
 ---
 title: Создание или редактирование конфигурации Push-уведомления мобильного клиента
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Push-уведомления и система PNCH — это два компонента для работы с мобильными устройствами. Push-уведомления — это процесс, в котором уведомления отправляются в систему PNCH. Сообщение удерживается в системе до тех пор, пока оно не сможет быть доставлено на мобильный клиент или не закончится срок его действия.
-ms.openlocfilehash: 36a18e31aaa9e98b10f3085874e46784b684b386
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 96c20e19444f275076b18830a89d74dba93df39b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374669"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880209"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Мобильный клиент: создание или редактирование конфигурации push-уведомлений
  

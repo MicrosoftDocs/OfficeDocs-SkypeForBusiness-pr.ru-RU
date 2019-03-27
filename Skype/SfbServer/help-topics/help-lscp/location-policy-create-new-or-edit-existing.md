@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей политики расположения
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: Можно настроить политики расположения на определение активности технологии Enhanced 9-1-1 (E9-1-1) и способа ее использования, а также на способ применения сведений о расположении для пользователей и контактов.
-ms.openlocfilehash: 2fa861277f5b7e36c9faa3ffd632cc84aa9b5f53
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 50769e3f6aec7d495ee5f9ea1c835c2e0849dc01
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244995"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883674"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Политика определения местонахождения: создание новой или редактирование существующей
 
@@ -65,6 +66,6 @@ ms.locfileid: "23244995"
 
   - **Двусторонняя** Указывает, что третья сторона может принимать участие в беседу между абонентом и оператором PSAP.
 
-Для получения дополнительных сведений о корпоративной голосовой связи экстренные службы функциях и возможностях просмотра [Обзор службы E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) в документации по планированию. Для получения дополнительных сведений об использовании политик расположения содержатся в документации по операциям [Настройка политики расположения](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) .
+Для получения дополнительных сведений о корпоративной голосовой связи экстренные службы функциях и возможностях просмотра [Обзор службы E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) в документации по планированию. Дополнительные сведения о работе с политиками расположения см. в разделе [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) документации по использованию.
 
 

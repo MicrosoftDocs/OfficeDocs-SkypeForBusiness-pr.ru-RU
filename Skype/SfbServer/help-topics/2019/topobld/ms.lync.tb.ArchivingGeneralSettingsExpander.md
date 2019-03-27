@@ -1,5 +1,6 @@
 ---
 title: Расширитель общих настроек сервера архивации
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для изменения свойств отдельного сервера мониторинга в построителе топологий можно щелкнуть правой кнопкой мыши сервер мониторинга в дереве консоли и выбрать Действие на панели инструментов или щелкнуть задачу на панели действий, затем щелкнуть Изменение свойств и изменить любые из следующих параметров.
-ms.openlocfilehash: 6419b7b4fff2c533a0dc91ab0819b0a58044447d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9f68ed29d1ff58e3c89c5b5e50e83e8a8730a338
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060114"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899710"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Расширитель общих настроек сервера архивации
  

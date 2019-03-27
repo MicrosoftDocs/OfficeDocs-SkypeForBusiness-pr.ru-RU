@@ -1,5 +1,6 @@
 ---
 title: Планирование параметров занятости в Skype для бизнеса Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Просмотр сведений о занятости параметры компонента в Скайп для Business Server.
-ms.openlocfilehash: 7b71cad7eebaf2d375098abfa0891cdf6b494fe9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 41e34dbb4eaf4a264ba1cec3756cc53c78992611
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884788"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897979"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Планирование параметров занятости в Skype для бизнеса Server
  
@@ -27,7 +28,7 @@ ms.locfileid: "23884788"
   
 Политика параметров занятости поддерживается при отработке отказа и аварийном восстановлении в парных пулах переднего плана и серверах для обеспечения связи в филиалах (SBS).
   
-В этой статье описываются функции параметров занятости. Сведения о том, как установить и настроить параметры «занят» можно [установить и настроить параметры «занят» для Скайп для Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
+В этой статье описываются функции параметров занятости. Дополнительные сведения об установке и настройке параметров занятости см. в статье [Install and configure Busy Options for Skype for Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
   
 ## <a name="configuration-options"></a>Параметры конфигурации
 
