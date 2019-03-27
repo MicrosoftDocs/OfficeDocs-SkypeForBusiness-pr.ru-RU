@@ -1,5 +1,6 @@
 ---
 title: Использование панели мониторинга в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Сводка: Сведения о панели мониторинга в Скайп для Business Server.'
-ms.openlocfilehash: e12c9faed684121def2e1a4b175f2f7a9fcb534e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 19d0ddefc79d97ee19a371cde4fb0dc2d10f7e90
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375275"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892366"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Использование панели мониторинга в Скайп для Business Server
  
@@ -98,7 +99,7 @@ Get-CsReportingConfiguration
     
 ## <a name="call-diagnostics"></a>Диагностика звонка
 
-Связь между одноранговыми узлами
+Одноранговая
   
 - Всего сбоев
     

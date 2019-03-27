@@ -1,5 +1,6 @@
 ---
 title: Конфигурация устройств
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: Конфигурация устройств — это набор параметров, используемый для управления Скайп для устройств Business Phone Edition глобально или на сайте. Эти настройки позволяют настраивать такие параметры, как требуемый режим безопасности, уровень ведения журнала на устройстве, качество обслуживания голосовой связи (QoS), и определять необходимость автоматической блокировки телефонов по истечении заданного периода неактивности.
-ms.openlocfilehash: 14314e32c4ed277a1d823bfc3671f9b126f977e4
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 20f288ab601fb53aa9d4dbb622170da8964fc9e3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503202"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890806"
 ---
 # <a name="device-configuration"></a>Конфигурация устройств
  

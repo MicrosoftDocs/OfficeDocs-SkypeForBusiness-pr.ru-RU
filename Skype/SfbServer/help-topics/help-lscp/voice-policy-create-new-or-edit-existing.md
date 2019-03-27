@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей политики голосовой связи
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb07d783-e084-4256-a928-a67a6ac006cb
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: cd1cdeb56d51dbe6913848fc4c528f0c7b418e5d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4463b5bcf8c5cbc34b33de5f2d33063d6a2b3ec8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242028"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891218"
 ---
-# <a name="voice-policy-create-new-or-edit-existing"></a>Политика голосовой связи: Создание новой или редактирование существующей
+# <a name="voice-policy-create-new-or-edit-existing"></a>Политика голосовой связи: создание новой или редактирование существующей
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 

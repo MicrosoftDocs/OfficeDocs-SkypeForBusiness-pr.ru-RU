@@ -1,5 +1,6 @@
 ---
-title: IP-адрес версии (средство планирования)
+title: IP Version (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 description: У вас есть три варианта при настройке IP-адресов в Скайп для Business Server 2015. Можно настроить Скайп для 2015 Business Server для поддержки только протокола IP версии 4 (IPv4), только протокола IP версии 6 (IPv6), или их сочетание (известную как двойного стека).
-ms.openlocfilehash: 94e77a4e4560ba9e6aca4337a4e30a064b67c294
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7899718a02992756e730819cd1abd880b074758b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888121"
 ---
-# <a name="ip-version-planning-tool"></a>IP-адрес версии (средство планирования)
+# <a name="ip-version-planning-tool"></a>IP Version (Planning Tool)
  
 У вас есть три варианта при настройке IP-адресов в Скайп для Business Server 2015. Можно настроить Скайп для 2015 Business Server для поддержки только протокола IP версии 4 (IPv4), только протокола IP версии 6 (IPv6), или их сочетание (известную как двойного стека).
   

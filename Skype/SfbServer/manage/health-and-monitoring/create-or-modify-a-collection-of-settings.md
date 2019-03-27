@@ -1,5 +1,6 @@
 ---
 title: Создание или изменение коллекции параметров конфигурации CDR в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Сводка: Сведения о регистрации вызовов (CDR) в Скайп для Business Server.'
-ms.openlocfilehash: f1bbf12f3766156b5f30ef3f2760669791e8c4c0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 563aeb37a0d6ae8cc10f73fe8d5d6808b9a051a9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970374"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893000"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Создание или изменение коллекции параметров конфигурации CDR в Скайп для Business Server
  
@@ -26,12 +27,12 @@ ms.locfileid: "20970374"
   
 Параметры конфигурации CDR можно создать с помощью любого из Скайп для панели управления Business Server или командлет [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) . Скайп для панели управления Business Server или командлета [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) можно использовать для изменения существующих параметров. Если Скайп для панели управления Business Server используется для создания или изменения параметров, будут доступны вам следующие параметры:
   
-|**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**|
+|**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**.|
 |:-----|:-----|:-----|
 |Имя  <br/> |Identity  <br/> |Уникальный идентификатор создаваемых параметров конфигурации CDR. Эти параметры можно создавать только на уровне сайта.  <br/> |
 |Enable monitoring of CDRs (Включить мониторинг CDR)  <br/> |EnableCDR  <br/> |Указывает, включен ли CDR.  <br/> |
 |Enable purging of CDRs (Включить очистку CDR)  <br/> |EnablePurging  <br/> |Указывает, будут ли записи CDR периодически удаляться из базы данных CDR.  <br/> |
-|Keep CDRs for maximum duration (days) (Сохранять CDR не более (дней))  <br/> |Качестве значения этого свойства  <br/> |Указывает число дней, в течение которых записи CDR должны храниться в базе данных CDR. Все записи старше указанного числа дней будут автоматически удаляться (обратите внимание, что удаление выполняется только при включении очистки).  <br/> |
+|Keep CDRs for maximum duration (days) (Сохранять CDR не более (дней))  <br/> |KeepCallDetailForDays  <br/> |Указывает число дней, в течение которых записи CDR должны храниться в базе данных CDR. Все записи старше указанного числа дней будут автоматически удаляться (обратите внимание, что удаление выполняется только при включении очистки).  <br/> |
 |Keep error report data for maximum duration (days) (Сохранять данные отчетов об ошибках не более (дней))  <br/> |KeepErrorReportForDays  <br/> |Указывает число дней, в течение которого сохраняются отчеты об ошибках CDR. Все отчеты старше указанного числа дней будут автоматически удаляться. Отчеты об ошибках CDR представляют собой диагностические отчеты, которые отправляют клиентские приложения.  <br/> |
    
 > [!NOTE]
@@ -51,7 +52,7 @@ ms.locfileid: "20970374"
 
 1. В Скайп для панели управления Business Server щелкните **мониторинг и Архивация**.
     
-2. Дважды щелкните набор параметров для изменения, или выберите коллекцию, нажмите кнопку **Изменить**и нажмите кнопку **Показать подробности**. Обратите внимание на то, что можно изменять только одна коллекция за раз. Чтобы изменить же нескольких семейств сайтов, используйте Скайп для консоли Business Server.
+2. Double-click the collection of settings to be modified, or select the collection, click **Edit**, and then click **Show Details**. Note that you can only modify a single collection at a time. Чтобы изменить же нескольких семейств сайтов, используйте Скайп для консоли Business Server.
     
 3. В диалоговом окне **изменения параметров регистрации вызовов (CDR)** установите необходимые флажки и нажмите кнопку **Сохранить**.
     

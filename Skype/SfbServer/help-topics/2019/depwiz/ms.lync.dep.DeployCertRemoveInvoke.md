@@ -1,5 +1,6 @@
 ---
 title: Удаление сертификата (вызов)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице выполнение команд предоставляет подробные сведения для удаления сертификата. Просмотрите сводные сведения от удаления сертификата. Убедитесь, что файл журнала удалить сертификат отображается в раскрывающемся списке и нажмите кнопку Просмотреть журнал, чтобы просмотреть сведения о удаления сертификата. После просмотра сводки и файлов журнала нажмите кнопку Готово.
-ms.openlocfilehash: 313af0bdbef536e700b699827200653c5aa714aa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1cf96bf0a8a6a2cbecd6d187e93d92f0393d542e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971579"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894116"
 ---
 # <a name="remove-certificate-invoke"></a>Удаление сертификата (вызов)
  

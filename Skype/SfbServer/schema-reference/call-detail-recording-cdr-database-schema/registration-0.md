@@ -1,5 +1,6 @@
 ---
 title: Представление регистрации
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: Представление регистрации хранятся сведения о регистрации пользователей. В этом представлении появился в Lync Server 2013.
-ms.openlocfilehash: e116c2609f1f26268eaaa3413c3a4491da096585
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bf6797bee124653515744d3c1bcd481c2ea1bfc2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887888"
 ---
 # <a name="registration-view"></a>Представление регистрации
  
@@ -39,9 +41,9 @@ ms.lasthandoff: 03/28/2018
 |**DialogId** <br/> |varstring(775)  <br/> |SIP-идентификатор диалогового окна. Формат — это:  <br/> диалоговое окно, из тега; для тега  <br/> |
 |**ResponseCode** <br/> |целое  <br/> |Код ответа SIP на приглашение на сеанс. Это поле обычно находятся файлы данных, созданный из начального сообщения ПРИГЛАСИТЬ в сеанс. Если сообщения не ПРИГЛАСИТЬ поле заполняется с датой и временем первого соответствующего сообщения SIP (BYE, Отмена, сообщения или сведения).  <br/> |
 |**DiagnosticId** <br/> |целое  <br/> |КОД диагностики из заголовка SIP.  <br/> |
-|**Регистратора** <br/> |nvarchar(256)  <br/> |Полное доменное имя регистратора.  <br/> |
-|**Пул** <br/> |nvarchar(256)  <br/> |Полное доменное имя пула, который получил данные этого сеанса.  <br/> |
-|**EdgeServer** <br/> |nvarchar(256)  <br/> |Полное доменное имя пограничного сервера зарегистрировавшегося пользователя.  <br/> |
+|**регистратор** <br/> |nvarchar(256)  <br/> |Полное доменное имя регистратора.  <br/> |
+|**Pool** <br/> |nvarchar(256)  <br/> |Полное доменное имя пула, который получил данные этого сеанса.  <br/> |
+|**Пограничный сервер** <br/> |nvarchar(256)  <br/> |Полное доменное имя пограничного сервера зарегистрировавшегося пользователя.  <br/> |
 |**IsInternal** <br/> |бит  <br/> |Указывает, является ли пользователь вошел в систему из внутренней сети.  <br/> |
 |**IsUserServiceAvailable** <br/> |бит  <br/> |Указывает, была ли служба UserService доступна во время регистрации.  <br/> |
 |**IsPrimaryRegistrar** <br/> |бит  <br/> |Указывает, была ли регистрация в основном регистраторе.  <br/> |

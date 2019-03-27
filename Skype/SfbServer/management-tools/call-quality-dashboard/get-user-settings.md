@@ -1,5 +1,6 @@
 ---
 title: Получение параметров пользователя
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
 description: 'Сводка: Сведения о операцию получить параметры пользователя, который является частью службы параметров пользователя. Служба параметров пользователя входит в API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
-ms.openlocfilehash: 9547479b95a8b321a9aa2f92c7cfcb2e88edf4bb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 3c94f02f305ee2f779b6a31ef78bea875d462cbf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532901"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889023"
 ---
 # <a name="get-user-settings"></a>Получение параметров пользователя
  

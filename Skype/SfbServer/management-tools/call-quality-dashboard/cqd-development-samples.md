@@ -1,5 +1,6 @@
 ---
 title: Примеры разработки CQD
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Сводка: Обзор разработки и учебных примеров для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
-ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: eb2e195a9eaac54b01af6d0da498fda6fafe374c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531069"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887374"
 ---
 # <a name="cqd-development-samples"></a>Примеры разработки CQD
 
@@ -346,7 +347,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
    ],
    ```
 
-   Здесь измерение `[Scenarios].[ScenarioPair]` задано значение равно `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. `[Scenario.][ScenarioPair]` — Это специальные измерение, созданное для упрощения создания отчета. Оно имеет шесть значений, соответствующих параметрам `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Таким образом, для определения не требуется сочетание шести фильтров: достаточно одного фильтра. В нашем примере значение `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` преобразование в сценарий где: сначала — это сервер, во-вторых не является сервером, сначала находится внутри, во-вторых находится внутри, проводное первый тип подключения, а второй тип подключения — проводной, которая является точное определение " Сервер Client-Inside проводной сети».
+   Здесь измерение `[Scenarios].[ScenarioPair]` задано значение равно `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. `[Scenario.][ScenarioPair]` — Это специальные измерение, созданное для упрощения создания отчета. Она имеет шесть значения, соответствующие `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Таким образом, для определения не требуется сочетание шести фильтров: достаточно одного фильтра. В нашем примере значение `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` преобразование в сценарий где: сначала — это сервер, во-вторых не является сервером, сначала находится внутри, во-вторых находится внутри, проводное первый тип подключения, а второй тип подключения — проводной, которая является точное определение " Сервер Client-Inside проводной сети».
 
 3. Создайте по одному фильтру для каждого сценария. В системе показателей на рисунке каждая строка представляет отдельный сценарий, для которого задается отдельный фильтр (измерения и показатели являются общими для всех сценариев). 
 

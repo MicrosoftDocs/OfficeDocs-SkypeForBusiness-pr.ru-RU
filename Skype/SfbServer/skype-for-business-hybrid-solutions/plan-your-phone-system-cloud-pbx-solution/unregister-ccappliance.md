@@ -1,5 +1,6 @@
 ---
-title: Отмена регистрации CcAppliance
+title: Unregister-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: Командлет Unregister-CcAppliance отменяет регистрацию текущего устройства Skype для бизнеса Cloud Connector Edition для сайта ТСОП в конфигурации интерактивного клиента.
-ms.openlocfilehash: 21bd0a7dffc6a395f829af68a61dfd7523d2c09a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6ee21f66c2b189aff8c8aa7d831369536618b18c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892006"
 ---
-# <a name="unregister-ccappliance"></a>Отмена регистрации CcAppliance
+# <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
 Командлет Unregister-CcAppliance отменяет регистрацию текущего устройства Skype для бизнеса Cloud Connector Edition для сайта ТСОП в конфигурации интерактивного клиента.
   
@@ -37,7 +39,7 @@ Unregister-CcAppliance
 
 ### <a name="example-2"></a>Пример 2
 
-В следующем примере проверяется конфигурации для отмены регистрации локально без подключения к конфигурации сети клиента:
+В следующем примере выполняется локальная проверка отмены регистрации без подключения к конфигурации интерактивного клиента:
   
 ```
 Unregister-CcAppliance -Local
@@ -45,7 +47,7 @@ Unregister-CcAppliance -Local
 
 ### <a name="example-3"></a>Пример 3
 
-Следующий пример отменяет регистрацию текущего устройства с именем «Appliance1» к сайту ТСОП «Site1»:
+В следующем примере отменяется регистрация текущего устройства с именем "Appliance1" на сайте ТСОП "Site1":
   
 ```
 Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
@@ -61,10 +63,10 @@ Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|:-----|
-| Имя_узла <br/> |Необязательно  <br/> |System.String  <br/> |Имя сайта ТСОП, на котором регистрируется устройство. В качестве значения по умолчанию принимается значение SiteName в файле CloudConnector.ini.  <br/> |
-|Имя устройства  <br/> |Необязательно  <br/> |System.String  <br/> |Имя текущего устройства В качестве значения по умолчанию принимается имя компьютера, присвоенное серверу узла.  <br/> |
+| SiteName <br/> |Необязательно   <br/> |System.String  <br/> |Имя сайта ТСОП, на котором регистрируется устройство. В качестве значения по умолчанию принимается значение SiteName в файле CloudConnector.ini.  <br/> |
+|ApplianceName  <br/> |Необязательно   <br/> |System.String  <br/> |Имя текущего устройства В качестве значения по умолчанию принимается имя компьютера, присвоенное серверу узла.  <br/> |
 |Локально  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Локальная проверка конфигурации регистрации без подключения к конфигурации интерактивного клиента.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
@@ -84,8 +86,8 @@ Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
   
 [Install-CcAppliance](install-ccappliance.md)
   
-[Удаление CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
-[Публикация CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 

@@ -1,5 +1,6 @@
 ---
 title: Представление конференций
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: Представление конференций хранит информацию о конференциях. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: 98fbf972badeb6cf3b179c8fa408626f2224f5b3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 42bdbed9cceb8d50e2de8ddbe29ba406e4a0a2f5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887808"
 ---
 # <a name="conferences-view"></a>Представление конференций
  
@@ -24,7 +26,7 @@ ms.lasthandoff: 03/28/2018
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Время запроса сеанса. Используется совместно с SessionIdSeq для уникальной идентификации сеанса. В разделе [диалоговых окон в таблице в Скайп для Business Server 2015](dialogs.md) для получения дополнительных сведений. <br/> |
 |**SessionIdSeq** <br/> |целое  <br/> |Номер идентификатора для идентификации сеанса. Используется в сочетании с SessionIdTime для уникальной идентификации сеанса. В разделе [диалоговых окон в таблице в Скайп для Business Server 2015](dialogs.md) для получения дополнительных сведений. <br/> |
-|**URI конференции** <br/> |nvarchar(450)  <br/> |URI конференции.  <br/> |
+|**ConferenceUri** <br/> |nvarchar(450)  <br/> |URI конференции.  <br/> |
 |**ConferenceUriType** <br/> |nvarchar(256)  <br/> |Тип URI конференции. В [таблице UriTypes](uritypes.md) для получения дополнительных сведений см. <br/> |
 |**ConfInstance** <br/> |uniqueidentifier  <br/> |Используется для повторяющихся конференций. Каждый экземпляр повторяющейся конференции имеет одинаковые параметр ConferenceUri, но разные ConfInstance.  <br/> |
 |**ConferenceStartTime** <br/> |datetime  <br/> |Время начала конференции.  <br/> |
@@ -32,7 +34,7 @@ ms.lasthandoff: 03/28/2018
 |**OrganizerUri** <br/> |nvarchar(450)  <br/> |URI пользователя, организовавшего конференцию.  <br/> |
 |**OrganizerType** <br/> |nvarchar(256)  <br/> |Тип URI пользователя, организовавшего конференцию. В [таблице UriTypes](uritypes.md) для получения дополнительных сведений см. <br/> |
 |**OrganizerTenant** <br/> |nvarchar(256)  <br/> |Клиент пользователя, организовавшего конференцию. В [таблице клиентов](tenants.md) для получения дополнительных сведений см. <br/> |
-|**Пул** <br/> |nvarchar(256)  <br/> |Полное доменное имя пула, в котором размещена конференция.  <br/> |
+|**Pool** <br/> |nvarchar(256)  <br/> |Полное доменное имя пула, в котором размещена конференция.  <br/> |
 |**Флаг** <br/> |smallint  <br/> |Битовая маска, которая содержит атрибуты конференции. Возможные значения  <br/> 0X01 — искусственная транзакция  <br/> |
    
 

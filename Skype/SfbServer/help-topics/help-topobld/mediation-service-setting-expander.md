@@ -1,5 +1,6 @@
 ---
 title: Расширитель параметров службы посредника
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7cfc838f-845b-4b73-bbdf-3c0c9b9aac1b
 description: Используйте эту страницу для определения портов прослушивания для этого сервера-посредника и определения связи со шлюзами телефонной сети (общего пользования PSTN).
-ms.openlocfilehash: d1cd9ee1bce52dc748d2cd12193a84b985ab5cf5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ac8897dbafd44c0c6942c0de4477ebb6e16f3b4b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887724"
 ---
 # <a name="mediation-service-setting-expander"></a>Расширитель параметров службы посредника
  

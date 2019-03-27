@@ -1,5 +1,6 @@
 ---
 title: FAILURE List Report в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Сводка: Сведения об отчете списка сбоев в Скайп Business Server.'
-ms.openlocfilehash: 3d40d7d73b6a4cb63e3885736a9a32f8b64ed989
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f286dfe288b82b1e8ab0f5b4956c4f75c5bd72a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992635"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899612"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>FAILURE List Report в Скайп для Business Server 
  
@@ -98,7 +99,7 @@ Count    Name
   
 **Показатели отчета Failure List (Список ошибок)**
 
-|**Имя**.|**Поддержка сортировки**|**Описание**|
+|**Имя**.|**Поддержка сортировки**|**Описание**.|
 |:-----|:-----|:-----|
 |**Время создания отчета** <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |
 |**Запрос** <br/> |Нет  <br/> |Тип запроса SIP, завершившегося с ошибкой. Например, INVITE или BYE.  <br/> |

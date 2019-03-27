@@ -1,5 +1,6 @@
 ---
 title: Переключение между пользовательскими интерфейсами клиентов Skype для бизнеса и Lync
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: cde636a0919a1cc4e6c8c852e61040f6bee296eb
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f248da01bb7046174fd241ed01ad6c0c93111cd9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857058"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887131"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Переключение между пользовательскими интерфейсами клиентов Skype для бизнеса и Lync
 
@@ -131,17 +132,17 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 |:-----|:-----|
 |Политика не установлена. |Пользователь продолжает работать в пользовательском интерфейсе клиента Skype для бизнеса.|
 |`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|Пользователь продолжает работать в пользовательском интерфейсе клиента Skype для бизнеса.|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|Пользователю будет предложено переключиться на пользовательский интерфейс клиента Skype для бизнеса (Lync). Пользователь может переключиться позже.|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|Пользователь будет работать в пользовательском интерфейсе клиента Skype для бизнеса. |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|Пользователь будет предложено переключитесь в Скайп для пользовательского интерфейса клиента Business (Lync). Пользователь может переключиться позже.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|Пользователь использует Скайп для пользовательского интерфейса клиента Business. |
 `Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|Пользователь будет предложено переключитесь в Скайп для пользовательского интерфейса клиента Business (Lync). В дальнейшем администратор может изменить этот параметр и переключить пользователя на пользовательский интерфейс клиента Skype для бизнеса. |
    
 Эта таблица содержит информацию о взаимодействии с пользователем при изменении политики.
   
 |**Параметр политики администратора**|**Пользовательский интерфейс Skype для бизнеса (Lync)**|**Пользовательский интерфейс Skype для бизнеса**|
 |:-----|:-----|:-----|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|Пользователю будет предложено переключиться на пользовательский интерфейс клиента Skype для бизнеса.  <br/> |Пользователь продолжает работать в пользовательском интерфейсе клиента Skype для бизнеса.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|Чтобы переключиться на Скайп для пользовательского интерфейса клиента Business будет предложено пользователя.  <br/> |Пользователь будет использовать Скайп для пользовательского интерфейса клиента Business.  <br/> |
 |`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|Пользователь будет использовать Скайп для интерфейса Business (Lync).  <br/> |Пользователь будет предложено переключитесь в Скайп для пользовательского интерфейса клиента Business (Lync).  <br/> |
-|Политика не установлена.  <br/> |Никогда не видят пользователи Скайп для пользовательского интерфейса клиента Business (Lync) Если политика не установлена. Пользователь будет работать только в пользовательском интерфейсе клиента Skype для бизнеса.  <br/> |Пользователь продолжает работать в пользовательском интерфейсе клиента Skype для бизнеса.  <br/> |
+|Политика не установлена.  <br/> |Никогда не видят пользователи Скайп для пользовательского интерфейса клиента Business (Lync) Если политика не установлена. Пользователь будет работать только в пользовательском интерфейсе клиента Skype для бизнеса.  <br/> |Пользователь будет использовать Скайп для пользовательского интерфейса клиента Business.  <br/> |
    
 В этой таблице приводятся все настраиваемые политики, доступные для Online. Эти новые политики были созданы для того, чтобы предоставить администраторам гибкость и сохранить прежнюю настраиваемую политику при переключении флагов EnableSkypeUI. Чтобы назначить пользователям одну из приведенных ниже политик, используйте указанные выше командлеты.
   
@@ -163,13 +164,13 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 `ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |False|
 
    
-Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
   
 - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-## <a name="first-launch-client-behaviors"></a>Поведение клиента при первом запуске
+## <a name="first-launch-client-behaviors"></a>Режим работы клиента при первом запуске
 
 По умолчанию, когда пользователи запуска Скайп для бизнеса в первый раз, они всегда будет видеть Скайп для бизнеса пользовательского интерфейса — даже в том случае, если вы выбрали с клиентом Lync путем установки клиентской политики с клиентом Lync (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) описанные ранее. Через несколько минут пользователям будет предложено переключиться в режим Lync.
   
@@ -197,7 +198,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
 Теперь интерфейс Lync будет отображаться при первом запуске клиента Skype для бизнеса пользователями.
   
-### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Управление отображением руководства на экране приветствия
+### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Руководство по управлению отображением экрана приветствия
 
 При открытии Скайп для клиента Business, поведение по умолчанию — Показать экран приветствия, который включает в себя *7 советы запрашивать большинство пользователей*. Можно отключить отображение экран приветствия, но дать пользователям получать доступ к учебника по, добавив следующий параметр реестра на клиентском компьютере:
   
@@ -276,7 +277,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
 Также можно проверить успешное обновление реестра объектом групповой политики на компьютере пользователя, изучив реестр. Откройте редактор реестра и найдите строку **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]**. Если объект групповой политики успешно обновил реестр, будет отображаться значение с именем EnableSkypeUI и значением 0.
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

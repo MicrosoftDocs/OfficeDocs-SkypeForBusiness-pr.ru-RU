@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей политики конференц-связи
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: Политика конференц-связи определяет функции и возможности, доступные пользователям во время конференции (также называемой собранием).
-ms.openlocfilehash: 6dbdb4a300e899e5172785cc08b081852a2c9742
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 393ced559593f63068dd8cf0761096330b8c4544
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262353"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899570"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Политика конференц-связи: создание новой или редактирование существующей
 
@@ -104,6 +105,6 @@ ms.locfileid: "23262353"
     > [!NOTE]
     > Параметр **Разрешить множественные потоки видео** определяет, разрешено ли на конференции использование множественных потоков видео.
 
-Для получения дополнительных сведений о функции конференц-связи и возможности видеть [Обзор конференц-связи](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) в документации по планированию. Для получения дополнительных сведений об использовании политик конференц-связи содержатся в документации по операциям [Политик конференц-связи](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) .
+Дополнительные сведения о компонентах и возможностях конференц-связи см. в разделе [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) документации по планированию. Дополнительные сведения о работе с политиками конференц-связи см. в разделе [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) документации по использованию.
 
 

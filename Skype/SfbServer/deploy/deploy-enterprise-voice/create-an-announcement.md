@@ -1,5 +1,6 @@
 ---
 title: Создание и удаление оповещения в Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Создание и удаление объявлений для объявлений приложения в Скайп Business Server корпоративной голосовой связи. От этих действий зависит способ обработки вызовов на неназначенные номера.
-ms.openlocfilehash: cbdcaed3d5908b76f0932f3461dfc21716f74b32
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cf6fc0ce754e30e4d52e968dc3a167bbe87a5a83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372296"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885577"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Создание и удаление оповещения в Скайп для Business Server
 
@@ -28,7 +29,7 @@ ms.locfileid: "25372296"
 
 Для создания объявлений сначала нужно определить таблицу неназначенных номеров. Данную процедуру необходимо выполнить для всех объявлений, использующих звуковую подсказку, подсказку TTS, или объявлений, не использующих подсказку.
 
-В этом разделе описывается импорт и создание оповещений. Для получения дополнительных сведений о назначении объявлений в таблице неназначенных номеров видеть [настройки таблицы неназначенных номер](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).
+В этом разделе описывается импорт и создание оповещений. Дополнительные сведения о назначении оповещений в таблице неназначенных номеров см. в разделе [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>Создание нового объявления для неназначенных номеров
 
@@ -36,9 +37,9 @@ ms.locfileid: "25372296"
 
 1. Если планируется использовать звуковое приглашение, запишите звуковой файл с помощью любого приложения для звукозаписи.
 
-2. Для звуковых приглашений выполните командлет **Import-CsAnnouncementFile** , чтобы импортировать содержимое звукового файла в хранилище файлов.
+2. Чтобы импортировать содержимое звукового файла в хранилище файлов, выполните командлет **Import-CsAnnouncementFile**.
 
-3. Выполните командлет **New-CsAnnouncement** , чтобы создать оповещение. С его помощью можно создавать оповещения со звуковыми приглашениями, текстовыми приглашениями, преобразованными в речь, а также оповещения без приглашений.
+3. Чтобы создать оповещение и присвоить ему имя, выполните командлет **New-CsAnnouncement**. С его помощью можно создавать оповещения со звуковыми приглашениями, текстовыми приглашениями, преобразованными в речь, а также оповещения без приглашений.
 
     > [!TIP]
     > Вы можете создать оповещение без приглашения, например, если требуется переводить звонки в определенное назначение без воспроизведения сообщения.
@@ -118,7 +119,7 @@ ms.locfileid: "25372296"
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[Новый CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 
 [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
 

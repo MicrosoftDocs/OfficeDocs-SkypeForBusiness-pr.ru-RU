@@ -1,5 +1,6 @@
 ---
 title: Выбор агентов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Агенты — это пользователей, которые предназначены для отвечать на звонки группы ответа. Группе ответа должна быть назначена группа агентов, определяющая, какие агенты могут принимать звонки для данной группы ответа. Один из способов создания группы агентов заключается в определении настраиваемой группы посредством выбора подходящих пользователей. Право пользователей разрешено для Скайп Business Server и корпоративной голосовой связи.
-ms.openlocfilehash: 45f7ff77acc48a5c4000fd985cfdb0ae707deb9e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 17a58df6e6729d5258e69007db98b480b83d46c4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263424"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888593"
 ---
 # <a name="select-agents"></a>Выбор агентов
 
@@ -43,6 +44,6 @@ ms.locfileid: "23263424"
 
 - **Включено** Отображает значение поля **разрешено для Lync Server** , определенное для пользователей.
 
-Дополнительные сведения о работе с группами агентов см [Управление группами агентов](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) в документации по операциям.
+Дополнительные сведения о работе с группами агентов см. в разделе [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) документации по использованию.
 
 

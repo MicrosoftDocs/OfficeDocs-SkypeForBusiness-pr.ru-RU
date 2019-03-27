@@ -1,5 +1,6 @@
 ---
 title: Запрос сертификата (введение)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы продолжить процесс запроса на сертификат, нажмите кнопку Далее. Чтобы выйти из процесса без внесения изменений в систему, нажмите кнопку Отмена.
-ms.openlocfilehash: 1c83908d49aa9b614439567bc69f4b100d24c614
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 64e5cc83ca6706a7f9de3988d5f45550f933558a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995183"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888960"
 ---
 # <a name="certificate-request-intro"></a>Запрос сертификата (введение)
  

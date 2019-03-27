@@ -1,5 +1,6 @@
 ---
 title: Добавление веб-службы директора
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 ROBOTS: NOINDEX, NOFOLLOW
 description: Базовый URL-адрес представляет собой удостоверение веб-служб для URL-адреса без префикса https://. Например, если — это полный URL-адрес для веб-служб пула https://pool01.contoso.net, базовый URL-адрес является pool01.contoso.net.
-ms.openlocfilehash: 2350a728580d89e5ff1e18106c558ec817ab2f37
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 8da69fe55100f5704c3a96a7d2286148f1a4d73c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061808"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890271"
 ---
 # <a name="add-director-web-service"></a>Добавление веб-службы директора
  

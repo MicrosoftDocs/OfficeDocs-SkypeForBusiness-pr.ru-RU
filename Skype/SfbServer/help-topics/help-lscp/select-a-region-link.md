@@ -1,5 +1,6 @@
 ---
 title: Выбор связи между областями
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
-description: Используйте диалоговое окно связи между областями для поиска связей между областями в вашей среде. Для использования существующего связь между областями щелкните связь между областями в списке и нажмите кнопку ОК.
-ms.openlocfilehash: a18bb0740e353752b9ff2d704e11499d78f91fc4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Используйте диалоговое окно Связь между областями для поиска связей между областями, которые доступны в вашей среде. Чтобы использовать существующую связь между областями, выберите связь в списке, затем нажмите кнопку ОК.
+ms.openlocfilehash: 0a5bda6f55b6f476558390e6a052b3f3ac0672ab
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886884"
 ---
 # <a name="select-a-region-link"></a>Выбор связи между областями
  

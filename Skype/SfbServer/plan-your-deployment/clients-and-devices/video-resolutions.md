@@ -1,5 +1,6 @@
 ---
 title: Скайп для клиента Business разрешений
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Обзор: Анализ требований видео клиента при планировании для Скайп Business Server.'
-ms.openlocfilehash: 0150acf98a2d5219975cf33c573f31f755db62f0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a17e3e269f24e74c5403c053723d544898560f34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886145"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886692"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Скайп для клиента Business разрешений
  
@@ -66,23 +67,23 @@ ms.locfileid: "23886145"
 
 |**Поддерживаемое разрешение кодировщика**|**Поддерживаемое разрешение декодера**|**Требование**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |424x240 (640x360 при 15 кадр/с только для приема)  <br/> |1 ядро и VideoEncodeScore ≥ 4.0  <br/> |
-|640 x 360  <br/> |640 x 360  <br/> |2 ядра и VideoEncodeScore ≥ 4.5  <br/> |
-|640 x 360  <br/> |1280 x 720  <br/> |2 ядра и VideoEncodeScore ≥ 4.5  <br/> |
-|640 x 360  <br/> |1920 x 1080  <br/> |4 ядра и VideoEncodeScore ≥ 4.5  <br/> |
-|1280 x 720  <br/> |1280 x 720  <br/> |4 ядра и VideoEncodeScore ≥ 7.3  <br/> |
-|1280 x 720  <br/> |1920 x 1080  <br/> |4 ядра и VideoEncodeScore ≥ 7.3  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |Н/Д  <br/> |
+|424x240  <br/> |424x240 (640x360 при 15 кадр/с только для приема)  <br/> |1 ядро и VideoEncodeScore ≥ 4.0  <br/> |
+|640x360  <br/> |640x360  <br/> |2 ядра и VideoEncodeScore ≥ 4.5  <br/> |
+|640x360  <br/> |1280x720  <br/> |2 ядра и VideoEncodeScore ≥ 4.5  <br/> |
+|640x360  <br/> |1920x1080  <br/> |4 ядра и VideoEncodeScore ≥ 4.5  <br/> |
+|1280x720  <br/> |1280x720  <br/> |4 ядра и VideoEncodeScore ≥ 7.3  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |4 ядра и VideoEncodeScore ≥ 7.3  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |Н/Д  <br/> |
    
 **Компьютер с DXVA, но без аппаратного ускорения кодирования**
 
 |**Поддерживаемое разрешение кодировщика**|**Поддерживаемое разрешение декодера**|**Требование**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |1920 x 1080  <br/> |1 ядро и VideoEncodeScore ≥ 3.0  <br/> |
-|640 x 360  <br/> |1920 x 1080  <br/> |2 ядра и VideoEncodeScore ≥ 4.5  <br/> |
-|960 x 540  <br/> |1920 x 1080  <br/> |2 ядра и VideoEncodeScore ≥ 6.0  <br/> |
-|1280 x 720  <br/> |1920 x 1080  <br/> |4 ядра и VideoEncodeScore ≥ 6.7  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |4 ядра и VideoEncodeScore ≥ 8.2  <br/> |
+|424x240  <br/> |1920x1080  <br/> |1 ядро и VideoEncodeScore ≥ 3.0  <br/> |
+|640x360  <br/> |1920x1080  <br/> |2 ядра и VideoEncodeScore ≥ 4.5  <br/> |
+|960x540  <br/> |1920x1080  <br/> |2 ядра и VideoEncodeScore ≥ 6.0  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |4 ядра и VideoEncodeScore ≥ 6.7  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |4 ядра и VideoEncodeScore ≥ 8.2  <br/> |
    
 > [!NOTE]
 > В Windows 7 максимальное значение показателя WinSAT составляет 7,9, поэтому такая производительность кодирования для компьютера без аппаратного ускорения может быть достигнута только в Windows 8 или Windows 8.1, где максимальное значение показателя WinSAT составляет 9,9. 
@@ -91,8 +92,8 @@ ms.locfileid: "23886145"
 
 |**Поддерживаемое разрешение кодировщика**|**Поддерживаемое разрешение декодера**|**Требование**|
 |:-----|:-----|:-----|
-|1280 x 720  <br/> |1920 x 1080  <br/> |Все графические карты Intel HD Graphics второго и третьего поколения  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |Графические карты Intel HD Graphics второго и третьего поколения и GraphicsScore ≥ 5.0  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |Все графические карты Intel HD Graphics второго и третьего поколения  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |Графические карты Intel HD Graphics второго и третьего поколения и GraphicsScore ≥ 5.0  <br/> |
    
 ## <a name="mobile-device-video-capabilities"></a>Возможности видео мобильных устройств
 

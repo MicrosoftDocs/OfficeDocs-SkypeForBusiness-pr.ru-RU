@@ -1,5 +1,6 @@
 ---
 title: Обновление устройств
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Периодически корпорация Майкрософт выпускает новый набор обновления встроенного устройства для Скайп для Business Phone Edition, который можно импортировать на серверах и распространения для пользователей. Можно получить последние версии из правила обновления устройств, перейдя на страницу справки и поддержки на веб-сайте Microsoft и поиск forPhone Edition.Download последнюю версию пакета обновления и извлеките файлы в папку на компьютере, на которых требуется отправить обновления. После извлечения вы можете воспользоваться командлетом Import-CsDeviceUpdate для импорта правил обновления устройств из извлеченного файла CAB (он имеет имя UCUpdates.cab). Дополнительные сведения см Import-CsDeviceUpdate.
-ms.openlocfilehash: 997570ffa8dfbf8422577784086efb8f0e4dc20a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 67e398f992fa1cf4d76a75d91d9daf1d5c05b08c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261723"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891397"
 ---
 # <a name="device-update"></a>Обновление устройства
 
@@ -58,7 +59,7 @@ ms.locfileid: "23261723"
 
 - **Обновление** Вы можете обновить список, чтобы проверить состояние всех обновлений устройств.
 
-Для получения дополнительных сведений об устройстве веб-службе обновления видеть [Просмотр обновлений программного обеспечения для устройств в вашей организации](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) в документации по планированию.
+Дополнительные сведения веб-службе обновления устройств см. в разделе [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) документации по планированию.
 ## <a name="see-also"></a>См. также
 
 [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

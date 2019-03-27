@@ -1,5 +1,6 @@
 ---
 title: Выбор создателей
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 ROBOTS: NOINDEX, NOFOLLOW
 description: Создание и управление Persistent Chat комнат намного проще с правильное использование категорий. Администратор сохраняемого чата можно назначить Указание параметров AllowedMembers и Creators для каждой категории и можно также определить параметры комнаты чата по умолчанию и поведения, которые будут применяться для всех комнатах чата, созданные в категории. Администраторы сохраняемого чата создания категорий или управления ими с помощью Скайп для панели управления Business Server или командлетов Windows PowerShell.
-ms.openlocfilehash: 07c8344d59ff128a689017362a78153cbeb94cc4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: df8092a77edd0d66563f1c963bdbc3906875d98a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020698"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894854"
 ---
 # <a name="select-creators"></a>Выбор создателей
 

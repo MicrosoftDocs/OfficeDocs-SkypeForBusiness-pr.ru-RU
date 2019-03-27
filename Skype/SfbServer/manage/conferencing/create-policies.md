@@ -1,5 +1,6 @@
 ---
 title: Создание политик конференц-связи в Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Сводка: Сведения о создании политик конференц-связи в Скайп для Business Server.'
-ms.openlocfilehash: 4a481d8853fdb8f022da3539c5ebeb49c3b49402
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 718eacad71ca0264785b9bb42d113c1d54679b50
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372289"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893239"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политик конференц-связи в Скайп для Business Server
  
@@ -43,7 +44,7 @@ ms.locfileid: "25372289"
     
 6. В разделе **Политика организатора** в поле **Максимальный размер собрания** введите максимальное допустимое число пользователей собрания. Значение по умолчанию — 250.
     
-7. Чтобы запретить пользователям приглашать на собрания анонимных пользователей, снимите флажок **Разрешить участникам приглашать анонимных пользователей** . Анонимные пользователи не пользователей, у которых нет учетных данных в доменных службах Active Directory вашей организации и пользователей, которые, следовательно, не прошедшим проверку подлинности. По умолчанию могут ли пользователи приглашать на собрания анонимных пользователей.
+7. To prevent users from inviting anonymous users to meetings, clear the **Allow participants to invite anonymous users** check box. Анонимные пользователи не пользователей, у которых нет учетных данных в доменных службах Active Directory вашей организации и пользователей, которые, следовательно, не прошедшим проверку подлинности. By default, users can invite anonymous users to meetings.
     
 8. В окне **Запись** выполните одно из следующих действий.
     

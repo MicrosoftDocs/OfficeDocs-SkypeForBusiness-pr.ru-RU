@@ -1,5 +1,6 @@
 ---
 title: Таблица AudioClientEvent
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: Каждая запись содержит события клиента для одной конечной точки в голосовой звонок. Как правило один вызов имеет две записи, одно для вызывающего абонента, а другое для вызываемого абонента.
-ms.openlocfilehash: dd910c9abf5cbd8d95a7448f72b49641148a2c64
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 307406446d71adf462cdc8a0345aa823129a8f99
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895057"
 ---
 # <a name="audioclientevent-table"></a>Таблица AudioClientEvent
  
 Каждая запись содержит события клиента для одной конечной точки в голосовой звонок. Как правило один вызов имеет две записи, одно для вызывающего абонента, а другое для вызываемого абонента.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылка из [MediaLine table](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |целое  <br/> |Primary  <br/> |Ссылка из [MediaLine table](medialine-0.md).  <br/> |

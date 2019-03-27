@@ -1,5 +1,6 @@
 ---
-title: Обновить CcCACertificate
+title: Renew-CcCACertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: Командлет Renew-CcCACertificate продлевает сертификат корневого центра сертификации Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек. Эта команда был изменен на обновление CcCACertificate в облаке соединителя 2.0 и более поздних версий.
-ms.openlocfilehash: bfcf7c69e27af8ebf83c85a8c90cc46491fbc454
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 616abb35d577b816368854396a201b9f07b40d12
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893864"
 ---
-# <a name="renew-cccacertificate"></a>Обновить CcCACertificate
+# <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
 Командлет Renew-CcCACertificate продлевает сертификат корневого центра сертификации Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек. Эта команда был изменен на обновление CcCACertificate в облаке соединителя 2.0 и более поздних версий.
   
@@ -58,14 +60,14 @@ Renew-CcCACertificate
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Нет
+Отсутствуют
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>
 
-[Сброс CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Обновить CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

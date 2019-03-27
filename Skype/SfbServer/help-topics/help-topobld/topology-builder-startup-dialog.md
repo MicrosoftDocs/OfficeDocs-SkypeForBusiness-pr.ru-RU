@@ -1,5 +1,6 @@
 ---
 title: Диалоговое окно запуска построителя топологии
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Запустите построитель топологий для настройки свойств и конфигурации развертывания Microsoft Lync Server 2013. При загрузке системы Topology Builder отображает диалоговое окно с вопросом, каким будет источник в документе топологии. Выберите один из трех вариантов:'
-ms.openlocfilehash: 5140c16f96b641dec74cb6919571365a7751ae0b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: df784ea76497cb038eb46f929844662066a298aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260827"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891097"
 ---
 # <a name="topology-builder-startup-dialog"></a>Диалоговое окно запуска построителя топологии
 
@@ -35,4 +36,4 @@ ms.locfileid: "23260827"
 
 [Общие сведения о Lync Server 2013 Preview](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
 
-[Средства администрирования Lync Server](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
+[Lync Server Administrative Tools](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)

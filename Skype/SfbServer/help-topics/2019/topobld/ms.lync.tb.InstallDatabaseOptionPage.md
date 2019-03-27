@@ -1,5 +1,6 @@
 ---
-title: Страница параметров базы данных установки
+title: Страница установки параметров базы данных
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Настройка дополнительных параметров для размещения базы данных и файлов журнала SQL Server. Доступны следующие варианты:'
-ms.openlocfilehash: d77619bb48088a0e3769b3616236514db7d40cd5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4834a3b12b668f407b92770f8850646509fc6914
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255812"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892268"
 ---
-# <a name="install-database-options-page"></a>Страница параметров базы данных установки
+# <a name="install-database-options-page"></a>Страница установки параметров базы данных
 
 Настройка дополнительных параметров для размещения базы данных и файлов журнала SQL Server. Доступны следующие варианты:
 

@@ -1,5 +1,6 @@
 ---
 title: Тип правила нормализации регулярных выражений
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 description: Введите регулярное выражение .NET Framework, чтобы задать шаблон соответствия для конечных телефонных номеров, к которым применяется маршрут.
-ms.openlocfilehash: a0331754822c498ef15d587dd43666e4695a2eac
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1ebd21a63d53c10d6e4cdb33b508afa750808b6b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986595"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887559"
 ---
-# <a name="normalization-rule-type-a-regular-expression"></a>Правило нормализации: Ввод регулярного выражения
+# <a name="normalization-rule-type-a-regular-expression"></a>Правило нормализации: ввод регулярного выражения
  
 Введите регулярное выражение .NET Framework, чтобы задать шаблон соответствия для конечных телефонных номеров, к которым применяется маршрут. 
   

@@ -1,5 +1,6 @@
 ---
-title: Добавление хранилища SQL Server для сервера архивации
+title: Добавление хранилища SQL для сервера архивации
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Сервер архивации требует с поддерживаемой 64-разрядной версией программного обеспечения баз данных SQL Server для хранения данных архива. Можно выбрать ранее заданных базы данных SQL Server для архивирования, или определите новую базу данных SQL Server, указав полное доменное имя (FQDN) сервера, на котором размещаются базы данных SQL Server и экземпляр SQL Server, Вы хотите использовать для новой базы данных SQL Server (который может быть экземпляр по умолчанию или именованный экземпляр, который указан).
-ms.openlocfilehash: 4495db6454dc68d1b46db4d618edba0fea23d0ef
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f16a405551822041ad7d792ac9307e29df19ee45
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250604"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889331"
 ---
-# <a name="add-archiving-server-sql-server-store"></a>Добавление хранилища SQL Server для сервера архивации
+# <a name="add-archiving-server-sql-server-store"></a>Добавление хранилища SQL для сервера архивации
 
 Сервер архивации требует с поддерживаемой 64-разрядной версией программного обеспечения баз данных SQL Server для хранения данных архива. Можно выбрать ранее заданных базы данных SQL Server для архивирования, или определите новую базу данных SQL Server, указав полное доменное имя (FQDN) сервера, на котором размещаются базы данных SQL Server и экземпляр SQL Server, Вы хотите использовать для новой базы данных SQL Server (который может быть экземпляр по умолчанию или именованный экземпляр, который указан).
 

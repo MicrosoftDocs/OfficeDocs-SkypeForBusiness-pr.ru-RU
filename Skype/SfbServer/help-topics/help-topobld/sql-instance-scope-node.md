@@ -1,5 +1,6 @@
 ---
 title: Узел области применения экземпляра SQL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
-description: Этот узел показывает полное доменное имя (FQDN) в этом Microsoft SQL Server и экземпляр SQL Server на этом сервере и пулов или серверов, использующих этот сервер SQL. Можно выполнить следующие действия.
-ms.openlocfilehash: bd89b0fa262b24b4d4f64d2cf549c980965cb009
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Этот узел показывает полное доменное имя (FQDN) в этом Microsoft SQL Server и экземпляр SQL Server на этом сервере и пулов или серверов, использующих этот сервер SQL. Доступны следующие действия.
+ms.openlocfilehash: 18da478ce1cda34c6ce36c5cfc10141d57878c3b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889338"
 ---
 # <a name="sql-instance-scope-node"></a>Узел области применения экземпляра SQL
  
-Этот узел показывает полное доменное имя (FQDN) в этом Microsoft SQL Server и экземпляр SQL Server на этом сервере и пулов или серверов, использующих этот сервер SQL. Можно выполнить следующие действия.
+Этот узел показывает полное доменное имя (FQDN) в этом Microsoft SQL Server и экземпляр SQL Server на этом сервере и пулов или серверов, использующих этот сервер SQL. Доступны следующие действия.
   
 - **Изменение свойств**. Откроется страница **Изменения свойств** для этого сервера, в котором можно изменить полное доменное имя сервера (если топология еще не опубликован) и экземпляр SQL Server для использования.
     

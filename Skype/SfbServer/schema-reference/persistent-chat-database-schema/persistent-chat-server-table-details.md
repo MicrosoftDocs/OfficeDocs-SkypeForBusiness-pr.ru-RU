@@ -1,5 +1,6 @@
 ---
 title: Данные таблицы сервера сохраняемого чата
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: В следующих разделах описываются столбцы таблиц схемы базы данных Persistent Chat.
-ms.openlocfilehash: 016974ff261cd862b888158f729e4baaff504366
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ee15bfab456f2e2e5c1ea535a1b521f9544a352
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992800"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889655"
 ---
 # <a name="persistent-chat-server-table-details"></a>Данные таблицы сервера сохраняемого чата
  
@@ -49,7 +50,7 @@ ms.locfileid: "20992800"
     
 - [tblPrincipalRole](tblprincipalrole.md)
     
-- [tblsiopwhitelist —](tblsiopwhitelist.md)
+- [tblSiopWhiteList](tblsiopwhitelist.md)
     
 - [tblEnumAttribute](tblenumattribute.md)
     
@@ -59,21 +60,21 @@ ms.locfileid: "20992800"
     
 - [tblChat](tblchat.md)
     
-- [Таблица tblLastInviteId](tbllastinviteid.md)
+- [tblLastInviteId](tbllastinviteid.md)
     
-- [Таблица tblLastChatId](tbllastchatid.md)
+- [tblLastChatId](tbllastchatid.md)
     
 - [tblPreference](tblpreference.md)
     
-- [Таблица tblFileToken](tblfiletoken.md)
+- [tblFileToken](tblfiletoken.md)
     
 - [tblServerIdentity](tblserveridentity.md)
     
 - [tblAdminLock](tbladminlock.md)
     
-- [Таблица tblSystemRevision](tblsystemrevision.md)
+- [tblSystemRevision](tblsystemrevision.md)
     
-- [Таблица tblActivePeers](tblactivepeers.md)
+- [tblActivePeers](tblactivepeers.md)
     
 - [tblConfig](tblconfig.md)
     

@@ -1,5 +1,6 @@
 ---
 title: Таблица User
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
 description: В таблице пользователей представляет собой вспомогательную таблицу. Каждая запись в таблице хранятся сведения о одного пользователя, участвующего в звонков или сеансах с записями в базе данных.
-ms.openlocfilehash: b14350d060485a57b4af42cbfe26db729872f6f8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3929ba33737c107ee60ec1e31beebb1addbb2e3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885563"
 ---
 # <a name="users-table"></a>Таблица User
  
 В таблице пользователей представляет собой вспомогательную таблицу. Каждая запись в таблице хранятся сведения о одного пользователя, участвующего в звонков или сеансах с записями в базе данных.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**NextUpdateTS** <br/> |datetime  <br/> ||Метка времени для внутреннего использования.  <br/> |
 |**Идентификатор пользователя** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этого пользователя.  <br/> |

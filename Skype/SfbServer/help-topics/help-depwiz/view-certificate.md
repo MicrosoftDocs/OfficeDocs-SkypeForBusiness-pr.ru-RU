@@ -1,5 +1,6 @@
 ---
 title: Просмотр сертификата
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 description: На странице "Просмотр сертификата" — область, в которой можно выбрать любой допустимый сертификат в локальном хранилище сертификатов. Выберите сертификат и нажмите кнопку Просмотр сведений о сертификате. Сертификат будет отображаться в новой области. На левой панели сертификата можно просмотреть сведения о сертификате Общие. Перейдите на вкладку сведения, чтобы просмотреть подробные сведения о сертификате, таких как имя субъекта и альтернативное имя субъекта. Путь сертификации будет отображаться путь thechain trustfor сертификат. По окончании просмотра сведения о сертификате, нажмите кнопку ОК.
-ms.openlocfilehash: be5588b00b3fbabaee1c05eebb211c9fb643ce2a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e16d49fe3fb483b4155ae3a64f12c9e51ba203bb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978614"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886628"
 ---
 # <a name="view-certificate"></a>Просмотр сертификата
  

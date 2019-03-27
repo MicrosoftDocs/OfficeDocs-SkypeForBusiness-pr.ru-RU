@@ -1,5 +1,6 @@
 ---
 title: Запуск служб (вызов)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: Области сводки в области выполнения команд состояние задачи, выдается для запуска служб для Скайп для сервера Business Server role, который развертывает администратор.
-ms.openlocfilehash: 119f7027c09d67f8c1182e20186d568007f0ca71
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: db2e0282e15b1995aa6b83bcfdd4ecbecd922207
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026007"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887853"
 ---
 # <a name="start-services-invoke"></a>Запуск служб (вызов)
  

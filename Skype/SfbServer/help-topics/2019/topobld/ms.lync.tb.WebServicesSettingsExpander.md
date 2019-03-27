@@ -1,5 +1,6 @@
 ---
 title: Расширитель параметров веб-служб
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Из в построителе топологий, можно изменить параметры порта, используемые для обоих внутренних и внешних веб-служб. Кроме того и при развертывании балансировки нагрузки доменных имен (DNS), можно использовать построитель топологий для настройки полное доменное имя (FQDN) пула, которое разрешается в физические IP-адреса всех серверов в этом пуле.
-ms.openlocfilehash: 8b607ed42cbb97bbf305fdad916ed2637c9935c5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 75d73a81ec649c97149fd03125887116c947144c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058467"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889177"
 ---
 # <a name="web-services-settings-expander"></a>Расширитель параметров веб-служб
  

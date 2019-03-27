@@ -1,5 +1,6 @@
 ---
 title: Добавление хранилища файлов переднего плана
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 ROBOTS: NOINDEX, NOFOLLOW
 description: Необходимо указать общую папку файлов, которая будет использоваться как файловое хранилище для сервера Standard Edition или интерфейсного пула Enterprise Edition. Можно использовать существующую общую папку файлов для файлового хранилища или определить новую общую папку файлов, указав полное доменное имя файлового сервера, на котором будет располагаться общая папка файлов, и имя этой папки.
-ms.openlocfilehash: 1aebf332543bb639052beb04b91e58385cac82d5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 7a4761beb798e52d848b7c0c42c3157f7a5da400
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263804"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898925"
 ---
 # <a name="add-front-end-file-store"></a>Добавление хранилища файлов переднего плана
 
@@ -32,6 +33,6 @@ ms.locfileid: "23263804"
 > [!IMPORTANT]
 > При добавлении в топологию интерфейсного пула Enterprise или сервера Standard Edition построитель топологий должен иметь возможность настройки файлового хранилища и списков управления доступом на уровне пользователей (DACL) для общей папке файлов, которая будет использоваться для файлового хранилища. Для этого требуется войти в систему под учетной записью, имеющей права полного доступа (чтение, запись, изменение) к общей папке файлов при публикации новой топологии в построителей топологий.
 
-Для получения дополнительных сведений о поддержке хранения для общих файлов видеть [Поддерживает хранение файлов](https://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx) в документации по технической поддержке и [данных SQL Server и размещение файлов журнала](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) в документации по развертыванию. Для получения дополнительных сведений о выровненное размещение общей папки, просмотрите [Поддерживаемые выровненное размещение серверов](https://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx) в документации по поддержке. Для получения дополнительных сведений о разработке топологии для пула переднего плана Enterprise Edition содержатся в документации по развертыванию [Определение и настройка пула переднего плана](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) .
+О поддержке хранилища для общих файловых ресурсов см. в разделе [File Storage Support](https://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx) документации по поддержке и в разделе [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) документации по развертыванию. О совмещенном расположении общего файлового ресурса см. в разделе [Supported Server Collocation](https://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx) документации по поддержке. О разработке топологии для пула переднего плана корпоративного выпуска см. в разделе [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) документации по развертыванию.
 
 

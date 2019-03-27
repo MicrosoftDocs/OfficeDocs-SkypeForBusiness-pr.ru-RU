@@ -1,5 +1,6 @@
 ---
 title: Настройка области сети создание новой или редактирование существующей
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 64b1463fb6bc83af5e60b08ff191cd57bff8d3b6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e6dfbfb6a03e8f9a9ee7f8548b8bb06f379b1ed3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257474"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885043"
 ---
-# <a name="configure-a-network-region-create-new-or-edit-existing"></a>Настройка области сети: Создание новой или редактирование существующей
+# <a name="configure-a-network-region-create-new-or-edit-existing"></a>Настройка области сети: создание новых или редактирование существующих
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 

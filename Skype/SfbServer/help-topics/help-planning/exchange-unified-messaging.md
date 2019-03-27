@@ -1,5 +1,6 @@
 ---
-title: Exchange единой системы обмена сообщениями (средство планирования)
+title: Exchange Unified Messaging (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: Скайп для Business Server 2015 поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
-ms.openlocfilehash: d14c6fda42b96b76d3d96413ec25c7f2e45abdec
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f5fee8acda91ff6777203942c0661a20c271cff0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251861"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889862"
 ---
-# <a name="exchange-unified-messaging-planning-tool"></a>Exchange единой системы обмена сообщениями (средство планирования)
+# <a name="exchange-unified-messaging-planning-tool"></a>Exchange Unified Messaging (Planning Tool)
 
 Скайп для Business Server 2015 поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
 
 Для получения дополнительных сведений см.:
 
-- [Планирование для Exchange единой системы обмена сообщениями интеграции](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [Planning for Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
 
 - «Единой системы обмена сообщениями» по[https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)
 

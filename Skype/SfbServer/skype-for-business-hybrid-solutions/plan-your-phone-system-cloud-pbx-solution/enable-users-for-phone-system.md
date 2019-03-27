@@ -1,5 +1,6 @@
 ---
 title: Включение пользователей для телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: В этом разделе описываются предоставлению пользователям разрешения для телефонной системой в Office 365 с помощью локального подключения к ТСОП. Прежде чем выполнять действия, описанные в этом разделе, прочитайте следующие:.
-ms.openlocfilehash: 7427bf33c275d55b99c240aaf192d180c2d63945
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: a3eec7adbd4897889cbc2ef8c7e985231c53bc99
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30642210"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889219"
 ---
 # <a name="enable-users-for-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Включение пользователей для телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп для Business Server
  
@@ -35,7 +36,7 @@ ms.locfileid: "30642210"
     
 ## <a name="moving-users-to-phone-system-in-office-365-with-on-premises-pstn-connectivity"></a>Переход на телефонной системой в Office 365 с помощью локального подключения к ТСОП
 
-Перед перемещением пользователей на Скайп для бизнеса в Интернет, рекомендуется включить пользователей локально в Скайп для Business Server или Lync Server 2013 и переместите их в Интернете. Дополнительные сведения см в [планировании гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) и в разделе необходимо учитывать для [предоставления пользователям корпоративной голосовой связи на локальном](enable-the-users-for-enterprise-voice-on-premises.md). 
+Перед перемещением пользователей на Скайп для бизнеса в Интернет, рекомендуется включить пользователей локально в Скайп для Business Server или Lync Server 2013 и переместите их в Интернете. Дополнительные сведения можно [планировать гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) и [Включить пользователей для корпоративной голосовой связи при локальном](enable-the-users-for-enterprise-voice-on-premises.md) (выполняется во время пользователи размещаются в разделе необходимо учитывать локальный). 
   
 Все пользователи должен быть создан в Active Directory при локальном и синхронизируются с Office 365 с помощью поддерживаемая версия соединителя Azure AD. Пользователи не могут включить для телефонной системой в Office 365, которые были созданы непосредственно в Azure AD. Если вы хотите включить телефонной системой в Office 365 с помощью подключения к ТСОП локального пользователя, который был создан в Azure AD, необходимо создать новую учетную запись для этого пользователя в своей локальной AD, настройте учетную запись локальной и затем синхронизировать с помощью учетной записи поддерживаемая версия соединительной Azure AD. 
   
@@ -47,8 +48,8 @@ ms.locfileid: "30642210"
     
 - [Синхронизация пользователей в облаке и назначение лицензий](synchronize-users-to-the-cloud-and-assign-licenses.md) (выполняется с помощью Office 365).
     
-- [Переместите пользователей в локальной Скайп для бизнеса в Интернет](move-on-premises-users-to-skype-for-business-online.md) (выполняется с помощью Windows PowerShell в локальной, но с помощью учетных данных администратора Office 365).
+- [Переместите пользователей в локальной Скайп для бизнеса в Интернет](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online) (выполняется с помощью Windows PowerShell в локальной, но с помощью учетных данных администратора Office 365).
     
-- [Включить пользователей для корпоративной голосовой связи через Интернет и телефонной системой в голосовой почты Office 365](enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md) (выполняется с помощью удаленной оболочки PowerShell).
+- [Включить пользователей для корпоративной голосовой связи через Интернет и телефонной системой в голосовой почты Office 365](enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md) (выполняется с помощью удаленной оболочки PowerShell.
     
 

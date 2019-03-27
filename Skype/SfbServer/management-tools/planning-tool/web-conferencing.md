@@ -1,5 +1,6 @@
 ---
-title: Веб-конференций (средство планирования)
+title: Web Conferencing (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Скайп веб-конференций Business Server 2015 включает в себя совместная работа над документами, общий доступ к приложениям и рабочим столам.
-ms.openlocfilehash: 3755a922970942451f08e19c2ba59884cd8b91d3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8363d1b0cd7487600e0df8d924efc5c282fc3adb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890025"
 ---
-# <a name="web-conferencing-planning-tool"></a>Веб-конференций (средство планирования)
+# <a name="web-conferencing-planning-tool"></a>Web Conferencing (Planning Tool)
  
 Скайп веб-конференций Business Server 2015 включает в себя совместная работа над документами, общий доступ к приложениям и рабочим столам.
   
@@ -28,12 +30,12 @@ ms.lasthandoff: 03/28/2018
   
 Сведения о планировании включения веб-конференций в вашей организации см. в следующих статьях: 
   
-- [Планирование конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование конференц-связи в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Аппаратные и программные требования для конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Требования к оборудованию и программному обеспечению для конференц-связи в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Планирование конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [План для больших собраний в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
+- [Планирование больших собраний в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
     
 

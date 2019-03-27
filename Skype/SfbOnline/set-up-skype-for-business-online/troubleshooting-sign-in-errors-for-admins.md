@@ -1,5 +1,6 @@
 ---
 title: Устранение неполадок Скайп для бизнеса в Интернет ошибки для администраторов
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Узнайте распространенные причины для Скайп для бизнеса в Интернет входа ошибок и работы через устранения неполадок. '
-ms.openlocfilehash: b9eccd817fbb9a67fcbce61d73b4a701c6b063de
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 369dc9347903335227641b1afebb1fd199d64541
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789087"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886998"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение неполадок Скайп для бизнеса в Интернет ошибки для администраторов
 
@@ -106,7 +107,7 @@ ms.locfileid: "27789087"
 
 4. В диалоговом окне **Настройка записи приложения** настройте следующие правила:
 
-|**Приложение**|**Ключ**|**Значение**|
+|**Application**|**Ключ**|**Значение**|
 |:-----|:-----|:-----|
 |**msoidsvc** <br/> |Отключение  <br/> |0  <br/> |
 |**msoidsvc** <br/> |DisableEx  <br/> |0  <br/> |

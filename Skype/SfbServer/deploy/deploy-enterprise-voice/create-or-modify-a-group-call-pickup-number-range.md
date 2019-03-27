@@ -1,5 +1,6 @@
 ---
 title: Создание или изменение группы вызова раскладки диапазон номеров в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,20 +14,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Создание или изменение группы вызова раскладки диапазон номеров в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: d73b3e72aa7cd5f733406c861d8a3357fe28fe45
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0032d46507c6cb91629b94662ec67bf9c67b7cc4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883955"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885612"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Создание или изменение группы вызова раскладки диапазон номеров в Скайп для бизнеса
 
 Создание или изменение группы вызова раскладки диапазон номеров в Скайп Business Server корпоративной голосовой связи.
 
-Групповой звонок раскладки основано на приложение парковки вызовов. При развертывании группы вызова раскладки, необходимо настроить таблицы орбиты парковки вызовов с диапазонами телефонных номеров, которые обозначены как номера раскладки групповой звонок. Эти номера группы — это числа, который пользователи для сбора вызовов, которые мелодий для другого пользователя.
+Групповой звонок раскладки основано на приложение парковки вызовов. При развертывании группы вызова раскладки, необходимо настроить таблицы орбиты парковки вызовов с диапазонами телефонных номеров, которые обозначены как номера раскладки групповой звонок. These group numbers are the numbers that users dial to pick up calls that are ringing for another user.
 
-Как номеров орбит парковки вызовов, вызвать раскладки группы номеров необходимость виртуального расширения, которые не имеют пользователя или назначен телефон. Каждый пул переднего плана, где развертывание группы вызова раскладки может иметь один или несколько диапазонов номеров раскладки групповой звонок. Диапазоны номеров группы должно быть глобально уникальным в развертывании и должен быть назначен в качестве типа **GroupPickup** .
+Like call park orbit numbers, call pickup group numbers need to be virtual extensions that have no user or phone assigned to them. Каждый пул переднего плана, где развертывание группы вызова раскладки может иметь один или несколько диапазонов номеров раскладки групповой звонок. The group number ranges must be globally unique in your deployment, and must be assigned as the **GroupPickup** type.
 
 Воспользуйтесь следующей процедурой для создания или изменения диапазона номеров группы ответа на звонки в таблице орбит парковки вызовов.
 
@@ -51,7 +52,7 @@ ms.locfileid: "23883955"
 
 2. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
 
-3. **New-CsCallParkOrbit** используется для создания нового диапазона номеров раскладки групповой звонок. Командлет **Set-CsCallParkOrbit** для изменения существующий диапазон номеров раскладки звонок.
+3. Используйте командлет  **New-CsCallParkOrbit** для создания нового диапазона номеров группы ответа на звонки. Используйте командлет **Set-CsCallParkOrbit** для изменения существующего диапазона номеров ответа на звонки.
 
     В командной строке выполните следующую команду:
 
@@ -76,8 +77,8 @@ ms.locfileid: "23883955"
 
 ## <a name="see-also"></a>См. также
 
-[Новый CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
-[SET-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
 [Удаление диапазона орбиты парковки вызовов](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)

@@ -1,5 +1,6 @@
 ---
 title: Создание профилей пропускной способности политики в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Создание или изменение политики пропускной способности, которые используются с корпоративной голосовой связи контроля допуска звонков в Скайп для Business Server.
-ms.openlocfilehash: ac1c5ab43e810ca152097c256e087ee176caa2d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26f0e81d4f148888b9c8f61b774dcd476bd102d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885361"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887787"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Создание профилей пропускной способности политики в Скайп для Business Server 
  
@@ -91,10 +92,10 @@ ms.locfileid: "23885361"
     
 ## <a name="see-also"></a>См. также
 
-[Новый CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[SET-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)

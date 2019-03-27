@@ -1,5 +1,6 @@
 ---
-title: Включение качества обслуживания для устройств, не входящий в систему Windows
+title: Включение качества обслуживания для устройств без Windows
+ms.reviewer: ''
 ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
 ms:contentKeyID: 48183661
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Узнайте, как включить качество обслуживания для устройств, используемых в вашей организации, использующие операционной системы, отличных от Windows.
-ms.openlocfilehash: 0dc870080b3cfcd5f73eaf6e45aee841b9c8b488
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: b1f3dae2d2b499b334995d7754282c56872ce111
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222774"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887122"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Включение качества обслуживания в Скайп для Business Server для устройств, не входящий в систему Windows
 

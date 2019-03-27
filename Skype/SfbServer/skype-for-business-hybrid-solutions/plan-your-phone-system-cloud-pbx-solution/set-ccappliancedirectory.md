@@ -1,5 +1,6 @@
 ---
-title: SET-CcApplianceDirectory
+title: Set-CcApplianceDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
 description: Командлет Set-CcApplianceDirectory задает рабочий каталог на сервере узла Skype для бизнеса Cloud Connector Edition. В этом каталоге хранятся все файлы развертывания.
-ms.openlocfilehash: 67fda4f1ef7da0f9a7e61b1099c7edb3b96ad62c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 16c9c858d770b7d4a74c9030ebdc760f5a9f25e9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888184"
 ---
-# <a name="set-ccappliancedirectory"></a>SET-CcApplianceDirectory
+# <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
 Командлет Set-CcApplianceDirectory задает рабочий каталог на сервере узла Skype для бизнеса Cloud Connector Edition. В этом каталоге хранятся все файлы развертывания.
   
@@ -38,7 +40,7 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 ## <a name="parameters"></a>Параметры
 <a name="Examples"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|:-----|
 | Путь <br/> | Обязательно <br/> |System.String  <br/> |  Указывает путь к каталогу, где будут храниться все файлы развертывания. <br/> |
    
@@ -50,7 +52,7 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Нет
+Отсутствуют
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>

@@ -1,5 +1,6 @@
 ---
 title: Добавление полного имени домена сервера видеовзаимодействия
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1e868ae2-57d9-449f-85be-6133c0cbd4f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server.
-ms.openlocfilehash: 3f8475b82a44d94d1704274709aa4320eea8778c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 38a30bfe3e52cc5df8255a303271b70f1c9b4169
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21063319"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890201"
 ---
 # <a name="add-vis-fqdn"></a>Добавление полного имени домена сервера видеовзаимодействия
  

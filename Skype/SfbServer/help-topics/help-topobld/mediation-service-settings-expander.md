@@ -1,5 +1,6 @@
 ---
 title: Расширитель настроек службы сервера-посредника
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
-description: В разделе Сервер-посредник можно задать следующие параметры.
-ms.openlocfilehash: 4535698552b918c57a8c76741ffaaef2c1b66b48
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 'Для сервера-посредника необходимо указать следующее:'
+ms.openlocfilehash: 12bbb6908be0f369b48c0630d97e4e01b3a91f7a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253797"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890117"
 ---
 # <a name="mediation-service-settings-expander"></a>Расширитель настроек службы сервера-посредника
 
-В разделе **Сервер-посредник** можно задать следующие параметры.
+Для **сервера-посредника** можно задать следующие параметры.
 
 Если collocating сервера-посредника на пул переднего плана или сервера Standard Edition, установите флажок, **включено, совмещенного сервера-посредника**. Если не выбрано совместно сервера-посредника, отсутствуют определяемые параметры в этом разделе.
 

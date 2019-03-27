@@ -1,5 +1,6 @@
 ---
 title: Добавление сервера
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 'Чтобы добавить новый сервер в существующий пул серверов, где пула — это один из следующих действий:'
-ms.openlocfilehash: 6e45048eba1758f6944ea822113622c03703d315
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6aaa8c29e6eb8ae7742b28aff82a25bd596a2cdb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372967"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887174"
 ---
 # <a name="add-server"></a>Добавление сервера
  
@@ -27,7 +28,7 @@ ms.locfileid: "25372967"
     
 - Директоров
     
-- Сервер-посредник
+- посредник
     
 - Сервер аудио-и видеоконференций
     
@@ -51,7 +52,7 @@ ms.locfileid: "25372967"
     
 - Выберите **использовать все настроенные IP-адреса**, что означает, что будет использоваться любой IP-адрес, определенные на компьютере. Кроме того выберите **ограничьте использование службы выбранных IP-адресов** и введите определенный IP-адрес на новом сервере. Введенный IP-адрес — это единственный IP-адрес, который будут отвечать для размещенных служб.
     
-  **посредник**
+  **Сервер-посредник**
   
 - Полное доменное имя нового сервера как оно определяется в DNS.
     

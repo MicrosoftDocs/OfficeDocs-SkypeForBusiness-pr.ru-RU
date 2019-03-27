@@ -1,5 +1,6 @@
 ---
 title: Редактирование префиксов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: Для определения префиксами или начальных цифр, добавьте префиксы, которые должен обрабатывать этот маршрут, включая + при необходимости. Например можно сопоставить все номера, начиная с +123.
-ms.openlocfilehash: 9e351f7ba16fa763dd84f4df2a75a2f5eb634b18
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a6c2856395104a00535e3792c9c79254f1510ded
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987059"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889714"
 ---
 # <a name="prefix-edit"></a>Редактирование префиксов
  

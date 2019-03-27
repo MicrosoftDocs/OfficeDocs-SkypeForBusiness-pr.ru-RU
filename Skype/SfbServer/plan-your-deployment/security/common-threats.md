@@ -1,5 +1,6 @@
 ---
 title: Распространенные угрозы безопасности в современном компьютерном мире
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Так как Скайп для Business Server — это система communications корпоративного класса, можно принять во внимание распространенных угроз безопасности, которые могут повлиять на его инфраструктуры и обмена информацией.
-ms.openlocfilehash: 354e537a7e927ed6825b5909107c80fe59e04996
-ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
+ms.openlocfilehash: 15c5f71db846ad51fa0df70396cb7ca1252dd4dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25599213"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885866"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Распространенные угрозы безопасности в современном компьютерном мире
  

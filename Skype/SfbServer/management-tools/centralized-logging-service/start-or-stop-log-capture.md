@@ -1,5 +1,6 @@
 ---
 title: Запуск или остановка записи журналов CLS в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Сводка: Узнайте, как запустить или остановить сеанс записи журналов службы централизованного ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: d3dc2ca58964908bda0d8c2de845297bb0cb951b
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 982aecf9da4e8ca08d734a4adb35d8a34a3bb816
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699861"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887332"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Запуск или остановка записи журналов CLS в Skype для бизнеса Server 2015
  
@@ -47,7 +48,7 @@ To capture the right information, you need to make sure you use the right scenar
    ```
 
     > [!NOTE]
-    > У сценария AlwaysOn нет длительности по умолчанию. Этот сценарий будет работать, пока не будет явным образом остановлен вручную с помощью командлета **Stop-CsClsLogging** . Подробные сведения см. в статье [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Для всех остальных сценариев длительность по умолчанию составляет 4 часа. 
+    > У сценария AlwaysOn нет длительности по умолчанию. Этот сценарий будет выполняться, пока он не будет явно остановлен с помощью командлета **Stop-CsClsLogging**. Подробные сведения см. в статье [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Для всех остальных сценариев длительность по умолчанию составляет 4 часа. 
   
 3. Для выполнения команды нажмите клавишу ВВОД. 
     
@@ -56,7 +57,7 @@ To capture the right information, you need to make sure you use the right scenar
   
      ![Запуск Start-CsClsLogging.](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
   
-4. Чтобы выполнить другой сценарий, используйте командлет **Start-CsClsLogging** с именем выполняемого дополнительного сценария для запуска следующим образом (например, сценария **Authentication**):
+4. Чтобы выполнить другой сценарий, используйте командлет **Start-CsClsLogging** с именем выполняемого дополнительного сценария (например, сценария **Authentication**):
     
    ```
    Start-CsClsLogging -Scenario Authentication
@@ -139,7 +140,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     > Журналы, созданные в течение останавливаемого сеанса ведения журнала с помощью сценария UserReplicator, не удаляются. Журналы остаются доступными для выполнения поиска с помощью команды Search-CsClsLogging. Подробные сведения см. в статье [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
   
 Действуя в качестве команды-спутника для Start-CsClsLogging, командлет Stop-CsClsLogging завершает сеанс ведения журнала и сохраняет журналы, созданные в течение этого сеанса. Одновременно на данном компьютере может выполняться не более двух сценариев. Способ остановки одного сценария для сбора данных с помощью другого сценария является типовой задачей, часто выполняемой при устранении неполадок рабочих нагрузок.
-## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
+## <a name="see-also"></a>См. также
 <a name="stop"> </a>
 
 [Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)

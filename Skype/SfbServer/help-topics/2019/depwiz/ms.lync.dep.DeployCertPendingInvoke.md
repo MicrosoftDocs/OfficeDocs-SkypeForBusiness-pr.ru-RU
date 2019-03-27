@@ -1,5 +1,6 @@
 ---
 title: Отложенный сертификат (вызов)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице выполнение команд отображается состояние команды, которые извлекаются отложенный сертификат. После завершения задачи доступен файл журнала извлечения ожидающих установки сертификатов. Нажмите кнопку Просмотреть журнал обработки и уведомление о состоянии задач. Для продолжения нажмите кнопку Далее.
-ms.openlocfilehash: 63da48b442c0b82e3c9f729ff5a6931803208437
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f9c22f5a427c289ebae2509ea56c6f1f2f2a7edc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988112"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891449"
 ---
 # <a name="pending-certificate-invoke"></a>Отложенный сертификат (вызов)
  

@@ -1,5 +1,6 @@
 ---
 title: Правило версий клиентов
+ms.reviewer: ''
 ms.author: dianef
 author: dianef77
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: Политика версий клиентов состоит из набора правил версий клиентов. Эти правила определяют действия, которые следует предпринять при попытке пользователей выполнить вход с использованием определенных клиентов и их версий.
-ms.openlocfilehash: 4c2d82b5868725a0369e92033c92a279823d912d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c70d831d88948bd50f14b9591807e2ce1f36611a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258391"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890103"
 ---
 # <a name="client-version-rule"></a>Правило версий клиентов
 
@@ -97,5 +98,5 @@ ms.locfileid: "23258391"
 
   - **Заблокировать с URL-адресом** — запрещает клиенту выполнить вход и отображает сообщение о том, где можно загрузить другую версию клиента. Соответствующий URL-адрес указывается в поле **URL-адрес**.
 
-Для получения дополнительных сведений о взаимодействии между клиентами и версий клиентов видеть [Взаимодействие с клиентом в Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) в документации по планированию. Для получения дополнительных сведений о работе с настройки версий клиентов видеть [Изменение действия по умолчанию для клиентов не явным образом поддерживается "или" Ограниченные](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) в документации по операциям.
+Дополнительные сведения о взаимодействии клиентов и версиях клиентов см. в разделе [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) документации по планированию. Дополнительные сведения о работе с конфигурациями версий клиентов см. в разделе [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) документации по использованию.
 

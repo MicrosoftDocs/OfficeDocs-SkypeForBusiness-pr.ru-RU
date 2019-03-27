@@ -1,5 +1,6 @@
 ---
 title: Скайп Настройка "Администраторы" для бизнеса параметры для отдельных пользователей
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +22,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Узнайте, как изменить Скайп для бизнеса параметры для отдельных пользователей, таких как: аудио- и видеоконференций, собраний и регистрации вызовов. '
-ms.openlocfilehash: 9dde738431e8afac4837b6f4bcab9b955787927a
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 5c9bb7cfddb496a5b3bdb0b28ea050d5958a8147
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561689"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885765"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей
 

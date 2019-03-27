@@ -1,5 +1,6 @@
 ---
 title: Сопоставление отчетов мониторинга с зеркальной базы данных в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Сводка: Узнайте, как связать отчетов мониторинга с зеркальной базы данных, используемые Скайп для Business Server.'
-ms.openlocfilehash: fdca07874192a772a99145bf3ca2042995bb7aee
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ea087ad53466abd35f6ff221b8c9b2aec781922f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374367"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885897"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Сопоставление отчетов мониторинга с зеркальной базы данных в Скайп для Business Server 
  

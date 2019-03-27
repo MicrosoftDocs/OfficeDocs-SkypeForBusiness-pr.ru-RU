@@ -1,5 +1,6 @@
 ---
 title: Feature Overview (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Скайп для сервера планирования
-ms.openlocfilehash: f7a9f7fd0dfc7f4c65d85404bd827aee7b98332b
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 8541167196f3940a1621e6bb843c81e82d212e46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059146"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887311"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
@@ -151,7 +152,7 @@ ms.locfileid: "30059146"
     
     Приложение группы ответа автоматически отвечает и распространять вызовы к агенту доступные служба технической поддержки.
     
-- **Информационное сообщение**
+- **Объявление**
     
     Если планируется развертывание корпоративной голосовой связи, можно включить могли настроить как телефонные звонки обрабатываются, если набранный номер является допустимым, но не назначено общего доступа пользователей. Administrators can configure Announcement Service so that these calls transfer to a predetermined destination (phone number or SIP URI) or play an audio announcement or both. Using Announcement Service avoids the situation in which a caller misdials and hears a busy tone or the SIP client receives an error message. Announcement Service functionality is a typical PBX feature. 
     

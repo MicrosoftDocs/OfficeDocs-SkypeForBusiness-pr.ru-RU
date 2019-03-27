@@ -1,5 +1,6 @@
 ---
 title: Перенос аналоговых устройств
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Скайп для Business Server обеспечивает поддержку аналоговых устройств. В частности поддерживаемые аналоговых устройств, аналоговые звука телефонов и аналоговых факсов. Вы можете настроить квалифицированного шлюзов для поддержки использования аналоговых устройств в вашей Скайп среды Business Server. После миграции Скайп для Business Server 2019, также необходимо перенести контактных объектов, связанных с аналоговых устройств. Используйте Скайп для консоли Business Server для первой загрузки все контактные объекты, связанные с устаревших аналоговых устройств и затем перетащить эти объекты в Скайп для пула Business Server 2019.
-ms.openlocfilehash: ea100f4e26cc38d5eb30f881de61bf415110ca36
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 80edf5b806ffd192d125bd5da27207a37f3074d1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374852"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889968"
 ---
 # <a name="migrate-analog-devices"></a>Перенос аналоговых устройств
 
@@ -23,13 +24,13 @@ ms.locfileid: "25374852"
 
 1. Запустите Скайп для консоли Business Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы**, щелкните **Скайп Microsoft для Business Server 2019**и нажмите кнопку **Скайп для консоли Business Server**.
 
-2. В командной строке введите следующую команду:
+2. В командной строке выполните следующую команду:
 
    ```
    Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
    ```
 
-3. Убедитесь в том, что все контактные объекты были перемещены в Скайп для пула Business Server 2019. В командной строке введите следующую команду:
+3. Убедитесь в том, что все контактные объекты были перемещены в Скайп для пула Business Server 2019. В командной строке выполните следующую команду:
 
    ```
    Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}

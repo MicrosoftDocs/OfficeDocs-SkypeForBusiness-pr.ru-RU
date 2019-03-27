@@ -1,5 +1,6 @@
 ---
 title: Настройка сетевого сайта Создание новой или редактирование существующей
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 99007035d25a5ba9dbe89b8a35364975501112bf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a0e2c82be2f2c11953fc2a98b4fd518a8d72acf4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245532"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894637"
 ---
-# <a name="configure-a-network-site-create-new-or-edit-existing"></a>Настройка сетевого сайта: Создание новой или редактирование существующей
+# <a name="configure-a-network-site-create-new-or-edit-existing"></a>Настройка сетевого сайта: создание новых или редактирование существующих
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 

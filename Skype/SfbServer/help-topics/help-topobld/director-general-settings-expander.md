@@ -1,5 +1,6 @@
 ---
 title: Расширитель общих настроек директора
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 'Чтобы изменить параметры существующего директора, изучите следующие разделы:'
-ms.openlocfilehash: db15577c5dcb7230f3de97c51f42f8ba90d8bdf2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 92ddafb0029f4860f4fd36ddb9a497d21deb97d2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988855"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885591"
 ---
 # <a name="director-general-settings-expander"></a>Расширитель общих настроек директора
  

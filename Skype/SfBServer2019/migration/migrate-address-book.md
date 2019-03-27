@@ -1,5 +1,6 @@
 ---
 title: Перенос адресной книги
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'В целом наряду с топологией переносится в адресной книге. Тем не менее необходимо выполнить некоторые действия после переноса, если настроены следующие в старой среды:'
-ms.openlocfilehash: 081246acaaede37ab7f7f204a3f7204d9b25fbcc
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 728ae97270cd8451178c6ef962f05e0351118119
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788996"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890650"
 ---
 # <a name="migrate-address-book"></a>Перенос адресной книги
 
@@ -62,7 +63,7 @@ ms.locfileid: "27788996"
 
 1. Запустите Скайп для консоли Business Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы**, щелкните **Скайп Microsoft для Business Server 2019**и нажмите кнопку **Скайп для консоли Business Server**.
 
-2. Выполните одно из указанных ниже действий.
+2. Выполните одно из следующих действий:
 
    - Если в развертывании имеется только Скайп для 2019 Business Server, выполните следующий командлет на глобальном уровне, чтобы изменить значения для **UseNormalizationRules** и **IgnoreGenericRules** на True: 
 

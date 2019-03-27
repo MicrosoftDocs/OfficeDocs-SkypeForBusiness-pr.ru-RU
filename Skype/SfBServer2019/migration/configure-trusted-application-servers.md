@@ -1,5 +1,6 @@
 ---
 title: Настройка доверенных серверов приложений
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В смешанной среде Если вы создаете новый доверенный сервер приложений, необходимо задать пул следующих прыжков быть Скайп для пула Business Server 2019. В смешанной среде устаревшего пула и Скайп для пула Business Server 2019 отображаются в раскрывающемся списке. Выбор устаревшего пула не поддерживается.
-ms.openlocfilehash: d1c79e044145a4739cf1b7bfb3992320be1e4ab3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027748"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890890"
 ---
 # <a name="configure-trusted-application-servers"></a>Настройка доверенных серверов приложений
 
@@ -30,11 +31,11 @@ ms.locfileid: "25027748"
     
 3. Введите **Полное доменное имя пула** пула доверенных приложений и выберите будет ли это одним или несколькими серверами. 
     
-4. Нажмите **Далее**.
+4. Нажмите кнопку **Далее**.
     
 5. На странице **Выбор следующего прыжка** в списке выберите Скайп для пула переднего плана Business Server 2019. 
     
-6. Нажмите кнопку **Готово **.
+6. Нажмите **Готово**.
     
 7. Выберите верхний узел **Скайп для Business Server**и в меню **Действие** выберите **Опубликовать**.
     

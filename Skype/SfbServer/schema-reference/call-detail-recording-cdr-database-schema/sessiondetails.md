@@ -1,5 +1,6 @@
 ---
 title: Таблица SessionDetails
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Каждая запись представляет один сеанс peer-to-peer, который может быть телефонный звонок VoIP-VoIP, двумя участниками сеанса обмена мгновенными Сообщениями или другой тип сеанса. Можно выполнить в таблице соединение с таблицей мультимедиа, чтобы найти сведения о каждом мультимедиа в данном сеансе.
-ms.openlocfilehash: 9c6cbe0b69871aa4876777b235d14f8a7ced0e15
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e499c8d443742bacfcdbe9c129e884cae4dd96a0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889926"
 ---
 # <a name="sessiondetails-table"></a>Таблица SessionDetails
  
@@ -22,7 +24,7 @@ ms.lasthandoff: 03/28/2018
   
 Обратите внимание на то, что IsUser1IntegratedWithDeskPhone и isuser2integratedwithdeskphone удалены поля были пропущены из таблицы SessionDetails, используемой в Скайп для Business Server 2015.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Основной, внешний  <br/> |Время запроса сеанса. Используется совместно с **SessionIdSeq** для уникальной идентификации сеанса. В разделе [диалоговых окон в таблице в Скайп для Business Server 2015](dialogs.md) для получения дополнительных сведений. <br/> |
 |**SessionIdSeq** <br/> |целое  <br/> |Основной, внешний  <br/> |Номер идентификатора для идентификации сеанса. Используется в сочетании с **SessionIdTime** для уникальной идентификации session.* [диалоговых окон в таблице в Скайп для Business Server 2015](dialogs.md) для получения дополнительных сведений см. <br/> |

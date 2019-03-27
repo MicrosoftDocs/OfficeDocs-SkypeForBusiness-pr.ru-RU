@@ -1,5 +1,6 @@
 ---
 title: (Необязательно) Проверка развертывания парковки вызовов в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,18 +11,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: Проверка развертывания парковки вызовов в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: b07b3b3bfb709770a4f30f2f6cb43e5ce5dbcc3a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 514c82590d56a2de16ca31cc892032afe5e7a34c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000531"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895099"
 ---
 # <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(Необязательно) Проверка развертывания парковки вызовов в Скайп для бизнеса
  
 Проверка развертывания парковки вызовов в Скайп Business Server корпоративной голосовой связи. 
   
-После установки и настройки парковки вызовов, необходимо проверить конфигурацию, чтобы убедиться, что парковку и извлечение вызовов работает должным образом. Как минимум, необходимо проверить следующее:
+После установки и настройки парковки вызовов, необходимо проверить конфигурацию, чтобы убедиться, что парковку и извлечение вызовов работает должным образом. At minimum, verify the following:
   
 - Звонок пользователя с поддержкой парковки вызовов и у пользователя парковки вызовов.
     

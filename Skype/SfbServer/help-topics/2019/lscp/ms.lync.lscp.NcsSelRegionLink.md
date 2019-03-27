@@ -1,5 +1,6 @@
 ---
 title: Выбор связи между областями
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно Связь между областями для поиска связей между областями, которые доступны в вашей среде. Чтобы использовать существующую связь между областями, выберите связь в списке, затем нажмите кнопку ОК.
-ms.openlocfilehash: 3674a21689de265ac167415c2433e2e4c9ace25b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 512171611a11572f1e3be385b04d566011155e9a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973417"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885507"
 ---
 # <a name="select-a-region-link"></a>Выбор связи между областями
  

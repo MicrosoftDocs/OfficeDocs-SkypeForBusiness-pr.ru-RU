@@ -1,5 +1,6 @@
 ---
 title: Планирование мощности использование модели пользователя для Скайп для Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: В этой статье приводится руководство по количества серверов, необходимых сайтов для количества пользователей этого сайта в соответствии с использования, описанными в модели пользователя в Скайп для Business Server.
-ms.openlocfilehash: 1e802bc130086bcefc8fd06cbacd3f21222d6d0a
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 13c7a1bdbbfc20f13dec2c6d9999b80caf4078dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789407"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886235"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Планирование мощности использование модели пользователя для Скайп для Business Server
 
@@ -81,7 +82,7 @@ When an active server is unavailable, its connections are transferred automatica
 |1,3 Кбит/с  <br/> |13 Мбит/с  <br/> |
 
 > [!NOTE]
-> Для повышения производительности мультимедиа совмещенного A аудио- и видеоконференций, а также сервер-посредник функциональные возможности на серверах переднего плана, следует включить стороне приема масштабирование (RSS) на сетевых адаптеров на серверах переднего плана. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see [Receive Side Scaling (RSS) in the Windows Server 2012 documentation](https://go.microsoft.com/fwlink/p/?LinkId=620365). For details about how to enable RSS, you'll need to refer to your network adapter documentation.
+> Для повышения производительности мультимедиа совмещенного A аудио- и видеоконференций, а также сервер-посредник функциональные возможности на серверах переднего плана, следует включить стороне приема масштабирование (RSS) на сетевых адаптеров на серверах переднего плана. RSS поддерживает параллельную обработку входящих пакетов несколькими процессорами сервера. Дополнительные сведения см [Получают со стороны масштабирование (RSS) в документации по Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). For details about how to enable RSS, you'll need to refer to your network adapter documentation.
 
 ## <a name="conferencing-maximums"></a>Максимумы конференц-связи
 
@@ -105,7 +106,7 @@ Given the user model that 5% of users in a pool may be in a conference at any on
 Когда вы учетной записи для числа пользователей для пограничных серверов, следует включить пользователей, размещенных на устройств и серверов для обеспечения связи в филиалах, связанных с пулом переднего плана на этом сайте.
 
 > [!NOTE]
-> Для повышения эффективности A / V Edge конференц-связи службы на пограничных серверах, следует включить стороне приема масштабирования (RSS) на сетевых адаптеров на пограничных серверах. RSS enables incoming packets to be handled in parallel by multiple processors on the server. Для получения дополнительных сведений проверьте «[Получать со стороны масштабирование (RSS) в Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)». For details about how to enable RSS, you'll need to refer to your network adapter documentation.
+> Для повышения эффективности A / V Edge конференц-связи службы на пограничных серверах, следует включить стороне приема масштабирования (RSS) на сетевых адаптеров на пограничных серверах. RSS поддерживает параллельную обработку входящих пакетов несколькими процессорами сервера. Для получения дополнительных сведений проверьте «[Получать со стороны масштабирование (RSS) в Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)». For details about how to enable RSS, you'll need to refer to your network adapter documentation.
 
 ## <a name="director"></a>Директор
 
@@ -149,7 +150,7 @@ Given the user model that 5% of users in a pool may be in a conference at any on
 > Этот номер, намного меньше номера для автономного сервера-посредника. Вот так как сервер переднего плана имеет для обработки других компонентов и функций для 6600 пользователей, размещенных на, в дополнение к перекодировки, необходимые для голосовых вызовов.
 
 > [!NOTE]
-> В целях повышения производительности сервера-посредника можно включить стороне приема масштабирования (RSS) на сетевых адаптеров на серверы-посредники. RSS enables incoming packets to be handled in parallel by multiple processors on the server. Дополнительные сведения см «[Масштабирование на стороне приема в Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)». For details about how to enable RSS, you'll need to refer to your network adapter documentation.
+> В целях повышения производительности сервера-посредника можно включить стороне приема масштабирования (RSS) на сетевых адаптеров на серверы-посредники. RSS поддерживает параллельную обработку входящих пакетов несколькими процессорами сервера. Дополнительные сведения см «[Масштабирование на стороне приема в Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)». For details about how to enable RSS, you'll need to refer to your network adapter documentation.
 
 ## <a name="back-end-server"></a>внутренний сервер
 

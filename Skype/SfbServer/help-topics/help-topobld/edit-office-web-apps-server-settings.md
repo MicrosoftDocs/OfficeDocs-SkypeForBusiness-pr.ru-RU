@@ -1,5 +1,6 @@
 ---
 title: Изменение параметров сервера Office Web Apps
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
-description: 'Изменение свойств настроенного сервера Office Web Apps. Чтобы изменить доступны следующие свойства:'
-ms.openlocfilehash: 321f159de58779874597588a88a6bb461918d27c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 'Изменение свойств настроенного сервера Office Web Apps. The following properties are available to edit:'
+ms.openlocfilehash: 163c2d8623175af0e41b69e2422734513835e2d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263480"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885137"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Изменение параметров сервера Office Web Apps
 
-Изменение свойств настроенного сервера Office Web Apps. Чтобы изменить доступны следующие свойства:
+Изменение свойств настроенного сервера Office Web Apps. The following properties are available to edit:
 
  **Полное доменное имя сервера приложений Office Web**: это свойство определяет полное доменное имя сервера Office Web Apps и должна соответствовать система доменных имен (DNS) узла A или AAAA (при использовании IPv6) записи.
 
@@ -33,4 +34,4 @@ ms.locfileid: "23263480"
 
 ## <a name="see-also"></a>См. также
 
-[Компоненты и топологии для конференц-связи](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

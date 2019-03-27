@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalType
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: Таблица tblPrincipalType содержит типы субъектов для возможности в таблице tblPrincipal.
-ms.openlocfilehash: d5c710e1301344c853ef39aeff3b57f62c630c95
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ab2cb28971f0564a082e0caed01e7fc622c41201
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505127"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887439"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -23,7 +24,7 @@ ms.locfileid: "19505127"
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**|
+|**Столбец**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|
 |ptypeID  <br/> |smallint, не может быть null  <br/> |Идентификатор типа субъекта.  <br/> |
 |ptypeDesc  <br/> |nvarchar (256), отлично от null  <br/> |Описание типа.  <br/> |
@@ -32,13 +33,13 @@ ms.locfileid: "19505127"
    
 **Ключ**
 
-|**Столбец**|**Описание**|
+|**Столбец**|**Описание**.|
 |:-----|:-----|
 |ptypeID  <br/> |Первичный ключ.  <br/> |
    
 **Значения субъектов**
 
-|**ID**|**Роль**|**Описание**|**Пользователь**|
+|**ID**|**Роль**|**Описание**.|**User**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |Любой  <br/> |Универсальный участника без известных типа. Не используется в таблице tblPrincipal.  <br/> ||
 |2  <br/> |AnyUser  <br/> |Универсальный участника пользовательского типа. Не используется в таблице tblPrincipal.  <br/> |Да  <br/> |
@@ -47,7 +48,7 @@ ms.locfileid: "19505127"
 |5  <br/> |Пользователь  <br/> |Обычный пользователь.  <br/> |Да  <br/> |
 |8  <br/> |КОНТРОЛЛЕР ДОМЕНА  <br/> |Контроллер домена Active Directory доменных служб.  <br/> ||
 |9  <br/> |Группа  <br/> |Группа безопасности Active Directory.  <br/> ||
-| 10  <br/> |Папка  <br/> |Active Directory контейнер или подразделение.  <br/> ||
+|10  <br/> |Папка  <br/> |Active Directory контейнер или подразделение.  <br/> ||
    
 ## <a name="see-also"></a>См. также
 

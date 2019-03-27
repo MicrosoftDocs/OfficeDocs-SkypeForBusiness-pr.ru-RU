@@ -1,5 +1,6 @@
 ---
-title: Директор (средство планирования)
+title: Director (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: Директор является сервере под управлением Скайп для программного обеспечения communications Business Server 2015, который может выполнять проверку подлинности запросов пользователей, но не номер домашнего все учетные записи пользователей.
-ms.openlocfilehash: b379388b05e4beda934b13517f36bc792b6f0748
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b6cdecd01183f8e249aaf97e6b4e7bbbbfcbe7cd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885307"
 ---
-# <a name="director-planning-tool"></a>Директор (средство планирования)
+# <a name="director-planning-tool"></a>Director (Planning Tool)
  
 Директор является сервере под управлением Скайп для программного обеспечения communications Business Server 2015, который может выполнять проверку подлинности запросов пользователей, но не номер домашнего все учетные записи пользователей. 
   

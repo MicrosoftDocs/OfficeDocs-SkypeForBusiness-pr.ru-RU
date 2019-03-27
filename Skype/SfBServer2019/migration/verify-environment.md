@@ -1,5 +1,6 @@
 ---
 title: Проверка старой среды
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Перед развертыванием Скайп для Business Server 2019 в состоянии сосуществования, необходимо убедиться, что настройки и работы устаревших служб. Очень важно для определения основных служб и компонентов, существующих в старой среды, перед развертыванием Скайп для пилотного пула Business Server 2019. Прежде чем развертывание Скайп Microsoft Business Server 2019 XMPP в состоянии сосуществования с устаревшее развертывание XMPP, необходимо проверить, были настроены и запущены устаревших служб XMPP и определение федеративного партнера, которому устаревшей конфигурации XMPP Поддержка.
-ms.openlocfilehash: d6e4585e127009117345d1220458196b5b461b6a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0f9812efe966d72eba1eeead9d74780f2ba16661
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030429"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887351"
 ---
 # <a name="verify-the-legacy-environment"></a>Проверка старой среды
 

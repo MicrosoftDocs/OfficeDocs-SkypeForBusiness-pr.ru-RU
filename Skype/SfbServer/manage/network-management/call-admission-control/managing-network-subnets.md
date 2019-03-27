@@ -1,5 +1,6 @@
 ---
 title: Управление подсетями
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В большинстве развертываний Скайп для Business Server, где реализуется контроля допуска звонков (CAC) как правило будет большое число подсети. Таким образом чаще всего наиболее Настройка подсетей с Скайп для консоли Business Server.
-ms.openlocfilehash: e855805aebc61228c185d04cba1faa9de6700f84
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 3b61ad1b4e1eb7f11d61b32c15e337bcd4ff77c8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223355"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899752"
 ---
-# <a name="managing-network-subnets-in-skype-for-business-server"></a>Управление подсетями в Скайп для Business Server
+# <a name="managing-network-subnets-in-skype-for-business-server"></a>Управление подсетями в Skype для бизнеса Server
 
 Можно использовать либо Скайп для панели управления Business Server или Скайп для консоли Business Server для управления подсетей. В большинстве развертываний Скайп для Business Server, где реализуется контроля допуска звонков (CAC) как правило будет большое число подсети. Таким образом чаще всего наиболее Настройка подсетей с Скайп для консоли Business Server.
 
@@ -131,7 +132,7 @@ ms.locfileid: "27223355"
 
 5.  В меню **Правка** выберите пункт **Удалить**.
 
-6.  Нажмите **OK**.
+6.  Нажмите **ОК**.
 
 
 ## <a name="see-also"></a>См. также

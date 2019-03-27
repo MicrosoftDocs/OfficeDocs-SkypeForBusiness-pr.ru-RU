@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 809e48e4a770906b93642356cc5f37fd03c411c4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68b239d00e67d942f80a259facb87c80ddf2a55
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460334"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886034"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
 
@@ -39,7 +39,7 @@ ms.locfileid: "30460334"
 
 ## <a name="enable-location-based-routing-for-users"></a>Включение маршрутизации на основе расположения для пользователей
 
-1. Использование ``Set-CsOnlinePstnUsages`` командлет, чтобы задать случаев использования PSTN. Для нескольких вариантов использования разделяются запятыми каждого использования.
+1. Командлет [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) случаев использования PSTN. Для нескольких вариантов использования разделяются запятыми каждого использования.
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -48,7 +48,7 @@ ms.locfileid: "30460334"
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. Использование ``New-CsOnlineVoiceRoutingPolicy`` командлет, чтобы создать политику маршрутизации голосовой связи, чтобы связать пользователя с соответствующих случаев использования PSTN.
+2. Командлет [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) используется для создания политики маршрутизации голосовой связи, чтобы связать пользователя с соответствующих случаев использования PSTN.
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -71,13 +71,12 @@ ms.locfileid: "30460334"
     |Идентификатор политики голосовой связи через Интернет   |Delhi политики маршрутизации голосовой связи через Интернет   |Hyderabad политики маршрутизации голосовой связи через Интернет    |
     |Online использования ТСОП  |Междугородный  |Междугородный, локальные, внутренний  |
 
-    Дополнительные сведения содержатся в разделе [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
-3. Использование ``Grant-CsOnlineVoiceRoutingPolicy`` командлет, чтобы связать Интернет-версия голосовой маршрутизации политик для пользователей, которым требуется маршрутизации ограничения вступили в силу.
+3. Командлет [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) связывание маршрутизации политики сети голосовой связи для пользователей, которым требуется маршрутизации ограничения вступили в силу.
     ```
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ## <a name="enable-location-based-routing-for-network-sites"></a>Включение маршрутизации на основе расположения для сетевых узлов
-1.  Использование ``Set-CsTenantNetworkSite`` используется для включения маршрутизации на основе расположения и связать голосовой политики маршрутизации для сетевых сайтов, которые необходимо применить ограничения по маршрутизации.
+1.  Командлет [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) для включения маршрутизации на основе расположения и связать политики маршрутизации голосовых данных на сайтах сети, которые необходимо применить ограничения по маршрутизации.
     ```
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
@@ -97,7 +96,7 @@ ms.locfileid: "30460334"
     |Подсети     |Подсеть 1 (Delhi)     |Подсеть 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Включение маршрутизации на основе расположения для шлюзов
-1. Использование ``New-CsOnlinePstnGateway`` командлет, чтобы создать шлюз для каждого шлюза или сетевого узла. 
+1. Командлет [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) используется для создания конфигурации шлюза для каждого шлюза или сетевого узла. 
 
     ```
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
@@ -110,7 +109,7 @@ ms.locfileid: "30460334"
     ```
     Дополнительные сведения можно [Настроить прямой маршрутизации](direct-routing-configure.md).
     
-2. Использование ``Set-CSOnlinePSTNGateway`` используется для включения маршрутизации на основе расположения для вашей шлюзов, которые необходимо применить ограничения по маршрутизации. 
+2. Командлет [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) используется для включения маршрутизации на основе расположения для вашей шлюзов, которые необходимо применить ограничения по маршрутизации. 
 
     Включение маршрутизации на основе расположения для шлюзов, которые маршрутизации вызовов для шлюзов PSTN, маршрутизировать вызовы в ТСОП и сопоставить сетевого узла, где находится шлюз.
 
@@ -152,7 +151,7 @@ ms.locfileid: "30460334"
 
 Для применения параметров маршрутизации на основе расположения для отдельных пользователей, настройте политику голосовой связи пользователей, чтобы запретить международную PTSN обхода. 
 
-Использование ``Grant-CsTeamsCallingPolicy`` пропускать командлет, чтобы включить маршрутизация на основе местоположения, устраняя международную PSTN.
+Командлет [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) используется для включения маршрутизации на основе местоположения, устраняя PSTN международную сервера-посредника.
 
 ```
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 

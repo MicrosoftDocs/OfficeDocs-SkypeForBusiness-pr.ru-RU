@@ -1,5 +1,6 @@
 ---
 title: Доменные службы Active Directory для Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Доменные службы Active Directory работает как службы каталогов для Windows Server 2003, Windows Server 2008, Windows Server 2012 и Windows Server 2012 R2 сетей. Доменные службы Active Directory также выступает в качестве foundation, на котором создается Скайп для инфраструктуры безопасности Business Server. Этот раздел предназначен для описания как Скайп для Business Server использует доменных служб Active Directory для создания надежного среды обмена мгновенными Сообщениями, веб-конференций, мультимедиа и голосовой связи. Для получения дополнительных сведений о подготовке среды для доменных служб Active Directory приведена Установка Скайп Business Server в документации по развертыванию. Для получения дополнительных сведений о роли доменных служб Active Directory в сетях Windows Server документации для версии операционной системы, которую вы используете.
-ms.openlocfilehash: 19e09126e07055b2c76487ba8dad1cc7c5777bc5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1664f3b354078c79429b20e7654b363ce9fccb7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980811"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892387"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Доменные службы Active Directory для Скайп для Business Server
  
@@ -54,11 +55,11 @@ ms.locfileid: "20980811"
 Для получения дополнительных сведений о конкретных универсальные группы, созданные при подготовке AD для Скайп Business Server, а также служб и административные группы, которые добавляются в группы инфраструктуры увидеть [изменений, внесенных путем подготовки леса в Скайп для бизнеса Сервер](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) в документации по развертыванию.
   
 > [!NOTE]
-> Скайп для Business Server поддерживает универсальные группы в Windows Server 2012, а также ОС Windows Server 2003 для контроллеров домена. Члены универсальных групп могут быть другие группы и учетные записи из любого домена в дереве доменов или лесов и можно назначить разрешения любого домена в дереве доменов или лесов. Поддержка универсальной группы, в сочетании с делегированием администратора упрощает управление Скайп для развертывания Business Server. Например не является для добавления одного домена в другой, чтобы разрешить администраторам управлять оба. 
+> Скайп для Business Server поддерживает универсальные группы в Windows Server 2012, а также ОС Windows Server 2003 для контроллеров домена. Members of universal groups can include other groups and accounts from any domain in the domain tree or forest and can be assigned permissions in any domain in the domain tree or forest. Поддержка универсальной группы, в сочетании с делегированием администратора упрощает управление Скайп для развертывания Business Server. For example, it is not necessary to add one domain to another to enable an administrator to manage both. 
   
 ## <a name="role-based-access-control"></a>Управление доступом на основе ролей
 
-Кроме создания универсальных групп обслуживания и администрирования и добавления этих групп в соответствующие универсальные группы, подготовка леса также создает группы управления доступом на основе ролей (RBAC). Для получения дополнительных сведений о конкретных группах RBAC, созданные подготовки леса просмотрите [изменения, внесенные с подготовки леса в Скайп для Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) в документации по развертыванию. Дополнительные сведения о группах RBAC [управления доступом на основе ролей (RBAC) для Скайп для Business Server](role-based-access-control-rbac.md)см.
+Кроме создания универсальных групп обслуживания и администрирования и добавления этих групп в соответствующие универсальные группы, подготовка леса также создает группы управления доступом на основе ролей (RBAC). Подробные сведения об определенных группах RBAC, созданных при подготовке леса, см. в разделе [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) документации по развертыванию. Дополнительные сведения о группах RBAC [управления доступом на основе ролей (RBAC) для Скайп для Business Server](role-based-access-control-rbac.md)см.
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>Записи управления доступом (ACE) и наследование
 

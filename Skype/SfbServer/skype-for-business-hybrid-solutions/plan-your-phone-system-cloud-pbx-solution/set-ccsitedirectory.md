@@ -1,5 +1,6 @@
 ---
-title: SET-CcSiteDirectory
+title: Set-CcSiteDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: Командлет Set-CcSiteDirectory задает каталог, в котором будут храниться файлы конфигурации уровня сайта для Skype для бизнеса Cloud Connector Edition. В папке будут находиться файлы конфигурации базового виртуального жесткого диска и Cloud Connector.
-ms.openlocfilehash: d34945a17f32c275240e2cef0435f6e0ca3e63a0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1c03d0f91b3a724df6ce61d216138bb281fb0b87
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885584"
 ---
-# <a name="set-ccsitedirectory"></a>SET-CcSiteDirectory
+# <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
 Командлет Set-CcSiteDirectory задает каталог, в котором будут храниться файлы конфигурации уровня сайта для Skype для бизнеса Cloud Connector Edition. В папке будут находиться файлы конфигурации базового виртуального жесткого диска и Cloud Connector.
   
@@ -40,14 +42,14 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Чтобы обеспечить соответствие шлюза и высокой доступности, устройств для соединителя облаке могут быть объединены в сайты. Пользователи назначаются сайтов вместо устройств для соединителя облака. На каждом сайте есть общая папка, в которой хранятся файлы установки базового виртуального жесткого диска и Cloud Connector. Эта папка используется устройства во время развертывания. Эта папка должна быть общей с другими приложениями, в облаке соединителя сайта.
+Чтобы обеспечить соответствие шлюза и высокой доступности, устройств для соединителя облаке могут быть объединены в сайты. Пользователи назначаются сайтов вместо устройств для соединителя облака. Каждый сайт имеет общей папки, в которой хранятся базового установочные файлы VHD и облачных соединителя. Устройства используют эту папку во время развертывания. Эта папка должна быть общей с другими приложениями, в облаке соединителя сайта.
   
 Папка по умолчанию является C:\Users\%userprofile%\CloudConnector\SiteRoot. Путь можно просмотреть с помощью командлета Get-CcSiteDirectory.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|:-----|
 | Путь <br/> | Обязательно <br/> | System.String <br/> |Содержит путь к папке, где будут храниться файлы соединителя облака сайта.  <br/> |
    

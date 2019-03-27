@@ -1,5 +1,6 @@
 ---
-title: Очистить кэш
+title: Очистка кэша
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
 description: 'Сводка: Сведения об операции очистить кэш, который является частью API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
-ms.openlocfilehash: 745fdff57843c42ebf55c1caee011d4b7f4ed250
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c2371a7f99eb37e8e01be919bf6c31b0c9a452cb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531290"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889240"
 ---
-# <a name="clear-cache"></a>Очистить кэш
+# <a name="clear-cache"></a>Очистка кэша
  
 **Сводка:** Сведения об операции очистить кэш, который является частью API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.
   
 Очистить кэш операция является частью API данных для панели мониторинга качества звонков.
   
-## <a name="clear-cache"></a>Очистить кэш
+## <a name="clear-cache"></a>Очистка кэша
 
 Операция очистки кэша удаляет кэш на сервере для запросов и данных. Эта команда сбросит кэша и мы получите новые данные из куба качества взаимодействия впоследствии для новых запросов.
   

@@ -1,5 +1,6 @@
 ---
 title: Процесс развертывания для объявлений приложения в Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Процесс развертывания и действия для объявлений приложения в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 5adaea25903968935cbaa00639546926781c004c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 96925df57a36373ee6f031b953f1933b3bac5681
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888073"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885601"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Процесс развертывания для объявлений приложения в Скайп для Business Server
  
@@ -32,7 +33,7 @@ ms.locfileid: "23888073"
   
 **Процесс развертывания объявлений**
 
-|**Этап**|**Шаги**|**Роли **|**Документация по развертыванию**|
+|**Этап**|**Шаги**|**Roles**|**Документация по развертыванию**|
 |:-----|:-----|:-----|:-----|
 |Настройка параметров объявлений  <br/> | Создайте объявление, записав и отправив звуковые файлы или воспользовавшись преобразованием текста в речь. <br/>  Настройте диапазоны неназначенных номеров в таблице неназначенных номеров и свяжите их с соответствующим объявлением. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[Создание и удаление оповещения в Скайп для Business Server](create-an-announcement.md) <br/> [Создание или изменение диапазона неназначенных номеров в Скайп для Business Server](create-or-modify-an-unassigned-number-range.md) <br/> |
 |Проверка развертывания объявления  <br/> |Выполните тестовое прослушивание объявлений, чтобы убедиться в их правильной работе.  <br/> |-  <br/> |[(Необязательно) Проверка развертывания объявлений в Скайп для бизнеса](optional-verify-announcement-deployment.md) <br/> |

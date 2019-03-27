@@ -1,5 +1,6 @@
 ---
 title: Установка или удаление компонентов Skype для бизнеса Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Для установки и активации, или деактивация и удаление Скайп для компонентов Business Server, используйте шаг 2: программа установки или удаления компонентов сервера Скайп. Необходимо выполнить вход в качестве локального администратора на компьютере, установка или изменение и его необходимо смогут прочитать доменных служб Active Directory пользователей и групп в текущем домене. Чтобы начать, нажмите кнопку выполнить. При этом определение топологии на основе хранилища централизованного управления доступен для чтения. Необходимые программные компоненты устанавливаются и настраиваются в соответствии с ролью, как определено в центральном хранилище управления. После завершения установки просмотрите сводку и нажмите кнопку Готово.'
-ms.openlocfilehash: e08eb866067f982d0134d56f80b97ca0cb5ab581
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cc16e843159cf0d06614f2ba3a095112664fe2fb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971253"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884917"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>Установка или удаление компонентов Skype для бизнеса Server
  

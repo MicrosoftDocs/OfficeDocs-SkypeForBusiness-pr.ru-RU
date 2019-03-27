@@ -1,5 +1,6 @@
 ---
 title: Сохранить параметры конфигурации незафиксированные голосовой связи
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 ROBOTS: NOINDEX, NOFOLLOW
 description: Диалоговое окно Несохраненные параметры настройки голосовой связи используется для просмотра всех внесенных изменений. Прокрутите диалоговое окно, чтобы просмотреть все несохраненные изменения, или нажмите стрелки, чтобы развернуть или свернуть различные разделы. После завершения либо нажмите кнопку Исполнить для сохранения всех изменений, либо нажмите кнопку Отмена, чтобы вернуться и исправить изменения.
-ms.openlocfilehash: 317091ee8b0b2e94cfba07787bd83431a02514e8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 19e60df24656ff9a65b6eb93af1a53929d912d0f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010073"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889135"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>Незафиксированные параметры конфигурации голосовой связи: фиксация
  

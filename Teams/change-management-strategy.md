@@ -1,5 +1,6 @@
 ---
 title: Создание стратегии по управлению изменениями для Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,12 +14,12 @@ search.appverid: MET150
 description: Сведения о создании стратегии по управлению изменениями для Microsoft Teams посредством определения ключевых заинтересованных лиц, бизнес-результатов, показателей успешности и управления кампанией.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73994941bb549857d8813fa1b9c4d58b9a1c45a4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3da1b3e5435c1503b52d958086a59f73dcb92e09
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458990"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886685"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Создание стратегии по управлению изменениями для Microsoft Teams
 =======================================================

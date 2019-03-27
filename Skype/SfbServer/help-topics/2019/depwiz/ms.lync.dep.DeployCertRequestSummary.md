@@ -1,5 +1,6 @@
 ---
 title: Запрос сертификата (сводка)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Сводка о запросе сертификата отображается сводная информация по всем компонентам и настройкам для сертификата. В сводке указывается, что будет содержать запрос сертификата и как сертификат будет выдаваться. Внимательно просмотрите сводную информацию и убедитесь, что все элементы и компоненты выбраны правильно. Если все правильно, нажмите кнопку Далее, чтобы перейти к формированию запроса и его подготовке для отправки в центр сертификации.
-ms.openlocfilehash: e39e210291d23cf1d239e0ada8a032edbaa32c83
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: da1d1ccaf7a3e998ee5365b7ed375eff9b8b8eae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996117"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887738"
 ---
 # <a name="certificate-request-summary"></a>Запрос сертификата (сводка)
  

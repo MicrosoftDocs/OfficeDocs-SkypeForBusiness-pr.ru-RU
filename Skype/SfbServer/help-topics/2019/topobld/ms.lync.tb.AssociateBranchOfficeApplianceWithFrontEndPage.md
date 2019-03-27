@@ -1,5 +1,6 @@
 ---
 title: Связывание устройства филиала с сервером переднего плана
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Связывание устройства для обеспечения связи в филиалах или для обеспечения связи в филиалах с пулом переднего плана или сервера Standard Edition, на странице Выбор интерфейсного пула, выберите из раскрывающегося списка пул переднего плана пула переднего плана или сервера Standard Edition. Для продолжения нажмите кнопку Далее.
-ms.openlocfilehash: 44c608fbe8a430f8c917020b8a397eccc6a460a4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 5008aca5f6779e78fd981b96ad18927ae5b177a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060772"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886355"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>Связывание устройства филиала с сервером переднего плана
  

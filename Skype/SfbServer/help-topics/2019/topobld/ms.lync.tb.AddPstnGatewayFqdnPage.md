@@ -1,5 +1,6 @@
 ---
-title: Определение полного доменного ИМЕНИ шлюза ТСОП
+title: Определение полного доменного имени шлюза ТСОП
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя (FQDN) шлюза телефонной сети (общего пользования PSTN), которые будут подключаться компоненты корпоративной голосовой связи с ТСОП или АТС учреждения (УАТС).
-ms.openlocfilehash: 74c0e117e3ccbdd031839f7ef85ce46b5960e7f0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9eff3a2807f026266f5929a62f866be524c2e03a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245763"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890229"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a>Определение полного доменного ИМЕНИ шлюза ТСОП
+# <a name="define-the-pstn-gateway-fqdn"></a>Определение полного доменного имени шлюза ТСОП
 
 Укажите полное доменное имя (FQDN) шлюза телефонной сети (общего пользования PSTN), которые будут подключаться компоненты корпоративной голосовой связи с ТСОП или АТС учреждения (УАТС).
 

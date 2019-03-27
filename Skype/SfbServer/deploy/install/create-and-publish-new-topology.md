@@ -1,5 +1,6 @@
 ---
 title: Создание и публикация новой топологии в Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Сводка: Узнайте, как создание, публикация и проверка новой топологии, перед установкой Скайп для Business Server. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: c2879b2323ffe85624c852d70028ab2388b4feb7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ba141e76732705008ded4e8e03737154bc45b1c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371336"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886677"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Создание и публикация новой топологии в Скайп для Business Server
  
@@ -29,7 +30,7 @@ ms.locfileid: "25371336"
   
 ![Обзорная схема](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
-## <a name="create-and-publish-new-topology"></a>Создание и публикация новой топологии
+## <a name="create-and-publish-new-topology"></a>Create and publish new topology
 
 Можно использовать Скайп для Business Server Topology Builder для проектирования, определите, настройки и публикации топологии. Это средство была установлена при установке средства администрирования ранее в этой статье. Существует множество различных вариантов, внесенные при создании топологии. В этой процедуре создается общей топологии с конференц-связи.
   
@@ -185,7 +186,7 @@ ms.locfileid: "25371336"
     > В качестве URL-адреса администрирования рекомендуется использовать максимально простой URL-адрес. — Это самый простой вариант https://admin. _ \<домена\>_. URL-администрирования можно носиться к внутреннему или внешнему домену, например contoso.local или contoso.com, если соответствующая запись разрешима во внутренней DNS. 
   
     > [!IMPORTANT]
-    > В случае изменения простого URL-адреса после исходного развертывания необходимо помнить, что такие изменения влияют на записи службы доменных имен (DNS) и сертификаты для простых URL-адресов. Если изменение влияет на базовый простой URL-адрес, необходимо изменить DNS-записей и сертификаты, слишком. Например, изменение из https://sfb.contoso.com/Meet для https://meet.contoso.com изменяется базовый URL-адрес с sfb.contoso.com meet.contoso.com, поэтому необходимо изменять DNS-записей и сертификаты ссылаться meet.contoso.com. При изменении простого URL-адреса из https://sfb.contoso.com/Meet для https://sfb.contoso.com/Meetings, базовый URL-адрес sfb.contoso.com остается прежней, поэтому DNS или необходимые изменения сертификата. При любом изменении простого URL-адреса, тем не менее, необходимо выполнить командлет **Enable-CsComputer** на каждом директора и интерфейсного сервера, чтобы зарегистрировать это изменение.
+    > В случае изменения простого URL-адреса после исходного развертывания необходимо помнить, что такие изменения влияют на записи службы доменных имен (DNS) и сертификаты для простых URL-адресов. Если изменение влияет на базовый простой URL-адрес, необходимо изменить DNS-записей и сертификаты, слишком. Например, изменение из https://sfb.contoso.com/Meet для https://meet.contoso.com изменяется базовый URL-адрес с sfb.contoso.com meet.contoso.com, поэтому необходимо изменять DNS-записей и сертификаты ссылаться meet.contoso.com. При изменении простого URL-адреса из https://sfb.contoso.com/Meet для https://sfb.contoso.com/Meetings, базовый URL-адрес sfb.contoso.com остается прежней, поэтому DNS или необходимые изменения сертификата. Однако в случае изменения имени простого URL-адреса, необходимо выполнить командлет **Enable-CsComputer** на каждом директоре и сервере переднего плана, чтобы зарегистрировать такое изменение.
   
 ### <a name="publish-and-verify-the-topology"></a>Публикация и проверка топологии
 

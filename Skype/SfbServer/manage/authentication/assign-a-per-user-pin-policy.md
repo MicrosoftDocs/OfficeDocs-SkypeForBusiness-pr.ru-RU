@@ -1,5 +1,6 @@
 ---
 title: Назначение политики ПИН-код пользователя в Скайп для Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 'Сводка: Рабочей области AV и OAuth сертификаты для Скайп для Business Server.'
-ms.openlocfilehash: fc7444aae0dfea0f22500f524490aea470c83903
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ec2187ddf75d3725646ed9ea732a65552d432364
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005955"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889100"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Назначение политики ПИН-код пользователя в Скайп для Business Server
 

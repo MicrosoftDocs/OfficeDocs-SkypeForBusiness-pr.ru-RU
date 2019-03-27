@@ -1,5 +1,6 @@
 ---
 title: Аварийное восстановление, тестирование в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Выполните восстановление системы для Скайп для пула сервера Business Server для тестирования процесса документированным аварийного восстановления
-ms.openlocfilehash: d401d27c1cc0f5b04c6e256a1e55f6847c9c35ba
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 876470f0e4193f02efe0a2094be80f7bdf891fdd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222725"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884966"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Аварийное восстановление, тестирование в Скайп для Business Server
 
@@ -45,12 +46,12 @@ ms.locfileid: "27222725"
 
 Рабочая Скайп для бизнеса пула будет создана ссылка клиентами с помощью автоматической настройки и записей DNS SRV:
 
-- Запись SRV: _sip._tls. \<домена > /CNAME: SIP. \<домена >
-- CNAME: SIP. \<домена > /cvc-pool-1. \<домена >
+- Запись SRV: _sip._tls. \<domain> /CNAME: SIP. \<domain>
+- CNAME: SIP. \<domain> /cvc-pool-1. \<domain>
 
 Для облегчения процедуры отработки отказа данная запись CNAME должна быть обновлена с помощью ссылки на DROCSPool FQDN:
 
-- CNAME: SIP.<domain> / DROCSPool. \<домена >
-- SIP. \<домена >
-- AV.\<домена >
-- webconf. \<домена >
+- CNAME: SIP.<domain> / DROCSPool. \<domain>
+- SIP. \<domain>
+- AV.\<domain>
+- webconf. \<domain>

@@ -1,5 +1,6 @@
 ---
 title: Управление двухфакторной проверки подлинности в Скайп для Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Сводка: Управление двухфакторной проверки подлинности в Скайп для Business Server.'
-ms.openlocfilehash: a9ebeaa5f8f012d66fb62357e8378010d0a74865
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: ce6d43b8ace741a754cb4406235534fd83e414b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692742"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888404"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Управление двухфакторной проверки подлинности в Скайп для Business Server
  
@@ -100,7 +101,7 @@ DNS-записи, используемые с внутренним и внешн
 
 AD FS 2.0 обеспечивает функцию обнаружения повтора маркера, которая позволяет обнаружить и отменить ряд запросов, использующих один маркер. Эта функция поддерживает целостность запросов проверки подлинности в пассивном профиле федерации веб-служб и профиле SAML WebSSO, не позволяя использовать один маркер несколько раз.
   
-Функция обнаружения повтора маркера необходима в особо опасных условиях, например в интерактивных терминалах. Дополнительные сведения о функции см. в статье [Рекомендации по безопасному планированию и развертыванию AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
+Функция обнаружения повтора маркера необходима в особо опасных условиях, например в интерактивных терминалах. Дополнительные сведения об обнаружении повтора видеть [Советы и рекомендации для безопасного планирования и развертывания AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
   
 ## <a name="external-user-access"></a>Доступ внешнего пользователя
 

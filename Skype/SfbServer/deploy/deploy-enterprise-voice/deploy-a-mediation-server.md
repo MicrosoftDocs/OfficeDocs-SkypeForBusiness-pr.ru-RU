@@ -1,5 +1,6 @@
 ---
 title: Развертывание сервера-посредника в построителе топологий в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Сводка: Узнайте, как определять и развертывание сервера-посредника в построителе топологий в Скайп for Business Server.'
-ms.openlocfilehash: 5e4221230fbaf993b5bf3d2b647e6d7e6e7ada51
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 558c1324b488d36f69f760a2dc0484f22586d93c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371923"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885608"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Развертывание сервера-посредника в построителе топологий в Скайп для Business Server
  
@@ -84,7 +85,7 @@ ms.locfileid: "25371923"
   
    - Если вы хотите развернуть только один сервер-посредник в пуле, так как не требуется высокий уровень доступности, выберите пункт **пул из одного компьютера**. Пропустите следующее действие.
     
-6. Если вы выбрали **пул на нескольких компьютерах** на предыдущем шаге, в элементе **Определение компьютеров в этом пуле** нажмите кнопку **Полное доменное имя компьютера**, введите полное доменное имя каждого сервера в пуле и нажмите кнопку **Добавить**. Повторите это действие для всех других серверов-посредников, которые нужно добавить в пул. После определения всех компьютеров в пуле, нажмите кнопку **Далее**.
+6. If you selected **Multiple computer pool** in the previous step, on the **Define the computers in this pool** item, click **Computer FQDN**, type the FQDN of each server in the pool, and then click **Add**. Повторите это действие для всех других серверов-посредников, которые нужно добавить в пул. When you have defined all the computers in the pool, click **Next**.
     
 7. На странице **Выбор следующего прыжка** щелкните **пул следующих прыжков**, полное доменное имя пула переднего плана, который будет использовать этот пул сервера-посредника и нажмите кнопку **Далее**.
     

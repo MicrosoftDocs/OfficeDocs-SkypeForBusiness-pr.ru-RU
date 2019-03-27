@@ -1,5 +1,6 @@
 ---
 title: Узел области серверов мониторинга
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
-description: Узел серверов мониторинга список серверов мониторинга в топологии. Можно выполнить следующее действие.
-ms.openlocfilehash: 6d6d2030c9db5fb055a3a3a2958d507b481cd33f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: Узел серверов мониторинга список серверов мониторинга в топологии. Доступно следующее действие.
+ms.openlocfilehash: 166ceeef9ce17b2a1ffad8b6270e61f631fd22b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977599"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889430"
 ---
 # <a name="monitoring-servers-scope-node"></a>Узел области серверов мониторинга
  
-Узел **Серверов мониторинга** список серверов мониторинга в топологии. Можно выполнить следующее действие.
+Узел **Серверов мониторинга** список серверов мониторинга в топологии. Доступно следующее действие.
   
 - **Новый сервер мониторинга**. Запускает мастер **Определение нового сервера мониторинга** , который используется для добавления нового сервера мониторинга в топологию.
     

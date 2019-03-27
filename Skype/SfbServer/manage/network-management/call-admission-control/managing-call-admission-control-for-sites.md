@@ -1,5 +1,6 @@
 ---
 title: Управление контролем допуска звонков для сайтов
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Сетевые узлы не офисы или расположения в каждом регионе сети для контроля допуска звонков (CAC), E9-1-1 и развертываний обход мультимедиа.
-ms.openlocfilehash: ecf23a8a052afbd21b02f8ff5507c248d42b7118
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 53140cf03110991f2c757e5d52e30a6c7db1d7de
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223173"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895421"
 ---
-# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Управление контролем допуска звонков для сайтов в Скайп для Business Server
+# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Управление контролем допуска звонков для сайтов в Skype для бизнеса Server
 
 Сетевые узлы не офисы или расположения в каждом регионе сети для контроля допуска звонков (CAC), E9-1-1 и развертываний обход мультимедиа. Используйте процедуры, описанные в этой статье Настройка контроль допуска звонков для сетевых узлов.
 
@@ -183,7 +184,7 @@ ms.locfileid: "27223173"
 
 5.  В меню **Правка** выберите пункт **Удалить**.
 
-6.  Нажмите **OK**.
+6.  Нажмите **ОК**.
     
 
     > [!WARNING]  

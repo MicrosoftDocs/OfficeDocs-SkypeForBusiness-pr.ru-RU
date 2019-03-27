@@ -1,5 +1,6 @@
 ---
 title: Расширитель настроек хранилища файлов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы изменить свойства определенных файловых хранилищ:'
-ms.openlocfilehash: b88e681aeb2c35d1de5b1dcc78cc30d659ee952c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: bee25e8550cd61ca14c1c898dc8810aa8d759fb5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065580"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886790"
 ---
 # <a name="file-store-settings-expander"></a>Расширитель настроек хранилища файлов
  
