@@ -1,5 +1,6 @@
 ---
 title: Проверка федерации и удаленного доступа для внешних пользователей
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После переноса федеративного маршрута для Скайп Business Server 2019 пограничного сервера, необходимо выполнить некоторые функциональных тестов, чтобы убедиться, что федерации работает, как ожидалось. Тесты доступа внешних пользователей должны охватывать все типы внешних пользователей, которые поддерживаются в организации, включая некоторые или все следующие.
-ms.openlocfilehash: ce0e2dd6ee7d4fb605f844d7dfb26b3f9d13bf14
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027237"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876699"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>Проверка федерации и удаленного доступа для внешних пользователей
 

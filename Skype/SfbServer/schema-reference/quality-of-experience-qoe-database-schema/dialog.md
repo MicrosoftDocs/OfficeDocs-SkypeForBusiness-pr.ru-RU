@@ -1,5 +1,6 @@
 ---
 title: Таблица Dialog
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
 description: В таблице диалогового окна представляет собой вспомогательную таблицу; Каждая запись представляет один диалоговое окно Session Initiation Protocol (SIP).
-ms.openlocfilehash: 0380f9c7c48ff7d3b26b9ea5442fb5ac2155f785
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 017da65154d12c89aeed63ea59269639d23b2129
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876629"
 ---
 # <a name="dialog-table"></a>Таблица Dialog
  
 В таблице диалогового окна представляет собой вспомогательную таблицу; Каждая запись представляет один диалоговое окно Session Initiation Protocol (SIP).
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Время, когда агент работы (QoE) получает первый отчет от вызывающего и вызываемого абонента. Используется в сочетании с SessionSeq для уникальной идентификации сеанса.  <br/> |
 |**SessionSeq** <br/> |целое  <br/> |Primary  <br/> |Порядковый номер, позволяющий различать сеансы, когда у них есть же ConferenceDateTime.  <br/> |

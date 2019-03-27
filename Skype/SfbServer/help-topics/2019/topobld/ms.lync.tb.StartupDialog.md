@@ -1,5 +1,6 @@
 ---
 title: Диалоговое окно запуска построителя топологии
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Запустите построитель топологий для настройки свойств и конфигурации развертывания. При загрузке системы Topology Builder отображает диалоговое окно с вопросом, каким будет источник в документе топологии. Выберите один из трех вариантов:'
-ms.openlocfilehash: d0bd1ca60710b5e2b11e5a393b0536c947b914fc
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: eb464902ff7ce1cd20a18be4829753e2ad8528c1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064302"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875590"
 ---
 # <a name="topology-builder-startup-dialog"></a>Диалоговое окно запуска построителя топологии
  

@@ -1,5 +1,6 @@
 ---
 title: Конфигурация архивирования
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 'Использование конфигураций архивирования для управления параметрами для вашей Скайп для развертывания Business Server, среди которых включение и отключение следующих параметров архивирования:'
-ms.openlocfilehash: e32c42d5ef945b360ce4992ea9a33658bcc4068a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4d618e8fe31b0bdef85c4ef2cbd606818850cadc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874097"
 ---
 # <a name="archiving-configuration"></a>Конфигурация архивирования
  

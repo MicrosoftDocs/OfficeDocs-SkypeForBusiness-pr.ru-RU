@@ -1,5 +1,6 @@
 ---
-title: Корпоративная голосовая связь (средство планирования)
+title: Enterprise Voice (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
 description: С корпоративной голосовой связи Скайп для Business Server обеспечивает изолированной голосовой связи по протоколу IP (VoIP) для совершенствования или замены традиционных относиться УАТС систем.
-ms.openlocfilehash: f507ae79ae7547d5ee10bb7bb628d509cb0882c6
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 2a25de34494d6a5e13e90072136b396e8da8a13d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069274"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877834"
 ---
-# <a name="enterprise-voice-planning-tool"></a>Корпоративная голосовая связь (средство планирования)
+# <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  
 С корпоративной голосовой связи Скайп для Business Server обеспечивает изолированной голосовой связи по протоколу IP (VoIP) для совершенствования или замены традиционных относиться УАТС систем. Пользователей корпоративной голосовой связи можно вызвать коллег в сети VoIP вашей организации или УАТС, и они могут вызывать традиционных телефонных номеров за пределами вашей организации. Решение Enterprise Voice включает общие такие возможности, как ответ, переадресация, передачи, удержание, переадресовать, выпуск и приостановить и Enhanced 9-1-1 (E9-1-1) вызова (E9-1-1 доступна только в США). Корпоративная голосовая связь также поддерживает множество текущей и старые IP-адресов и USB-устройства.
   

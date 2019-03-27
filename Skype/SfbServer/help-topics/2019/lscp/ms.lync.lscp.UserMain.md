@@ -1,5 +1,6 @@
 ---
 title: Панель управления - обновленные поиск пользователей
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: Настройка пользователей для Скайп для Business Server можно использовать результаты запроса поиска. Можно выполнить поиск пользователей по отображаемое имя, имя первого, последнего имени, имя учетной записи диспетчера учетных записей (SAM), SIP-адрес или строки универсальный код ресурса (URI). Можно также выполнить поиск для пользователей с помощью панели управления Lync Server или Active Directory — пользователи и компьютеры оснастку.
-ms.openlocfilehash: 79a12b5b420b355376e544d8a51db8e24142bea0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9ffcb7c0046c80f684450f8d8c9e30814f8ef4ea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245686"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877967"
 ---
 # <a name="control-panel---updated-user-search"></a>Панель управления — обновлено: Поиск пользователей
 
@@ -35,13 +36,13 @@ ms.locfileid: "23245686"
 
 - [Перемещение всех пользователей](ms.lync.lscp.UserMoveAll.md)
 
-- [Назначение политик для пользователей](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [Assign Policies to Users](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
 
 - [Включение пользователей для корпоративной голосовой связи в Скайп для Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [Настройка федерации, удаленного доступа пользователей и общедоступных служб обмена Мгновенными сообщениями для пользователей](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [Настройка телефонии для пользователей](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 
 
@@ -75,7 +76,7 @@ ms.locfileid: "23245686"
 
 - **Включение пользователей** Щелкните, чтобы открыть [пользователи: новый пользователь Lync Server](ms.lync.lscp.UserNew.md) диалоговое окно, в котором можно добавить нового пользователя Скайп для Business Server.
 
-    Чтобы добавить новый контакт, щелкните стрелку вниз и выберите **Включить контакты** , чтобы открыть [пользователи: новые объекты контактов](ms.lync.lscp.UserNewContact.md) диалогового окна.
+    Для добавления нового контакта щелкните стрелку вниз, а затем выберите команду **Включить контакты**, чтобы открыть диалоговое окно [Users: New Contact Objects](ms.lync.lscp.UserNewContact.md).
 
 - **Изменение** Нажмите кнопку **Изменить** и нажмите кнопку **Показать подробности** , чтобы отобразить сведения о выбранного пользователя или нажмите кнопку **Выбрать всех результатов поиска** для выбора всех пользователей, отображаемые в таблице результатов.
 

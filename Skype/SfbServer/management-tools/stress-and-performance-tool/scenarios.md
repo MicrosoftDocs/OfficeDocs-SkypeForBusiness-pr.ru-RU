@@ -1,5 +1,6 @@
 ---
 title: Сценарии производительности для Скайп для Business Server 2015 Stress and Performance Tool
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 12/17/2015
@@ -10,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: Задачи, которые необходимо выполнить для настройки Скайп для 2015 Business Server для выполнения нагрузочного тестирования производительности и с помощью Stress and Performance Tool.
-ms.openlocfilehash: 6b60d403e0a440e544874a8ed877a0b98e3e92ae
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 53504b714304b4b3cd18e44397ce0f06fcc59b63
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874593"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Сценарии производительности для Скайп для Business Server 2015 Stress and Performance Tool
  

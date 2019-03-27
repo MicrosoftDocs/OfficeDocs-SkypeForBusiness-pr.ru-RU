@@ -1,5 +1,6 @@
 ---
 title: Связывание сервера-посредника с пограничным сервером
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: Определение сервера-посредника, укажите параметры, которые связать сервер-посредник с сервера переднего плана и пограничного сервера или пула. Чтобы связать сервер-посредник или пул с пограничного сервера или пула пограничных серверов, выполните следующие действия.
-ms.openlocfilehash: b619b4d4244aadcb8e161da0a2393c5896024585
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 03d0cc7c1333151274b67d9eef657d33931501ea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082631"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874439"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Связывание сервера-посредника с пограничным сервером
  

@@ -1,5 +1,6 @@
 ---
 title: Удаление базы данных SQL Server для сервера мониторинга
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После удаления сервера мониторинга, можно удалить базы данных SQL Server, которые размещены данных с сервера. Используйте следующую процедуру для удаления определения построителя топологий и удалите файлы базы данных и журналов на сервер базы данных.
-ms.openlocfilehash: 85999f1bbb3fc443edcab9d1f1354f26187c6a75
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7e299eb2de3fc0820cd4497c2956c71ceec79910
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373359"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876344"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>Удаление базы данных SQL Server для сервера мониторинга
 

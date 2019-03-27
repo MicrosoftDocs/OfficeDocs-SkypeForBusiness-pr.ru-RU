@@ -1,5 +1,6 @@
 ---
 title: Для установки сервера-посредника в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 'Сводка: Узнайте, как установить файлы для сервера-посредника в Скайп для Business Server.'
-ms.openlocfilehash: 6cc10053c6ffc3667e8280a8aad4cb1ef300d490
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ab02655dc812815c79720d76c87bfefe91c90c73
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883543"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877540"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Для установки сервера-посредника в Скайп для Business Server
  
@@ -57,7 +58,7 @@ ms.locfileid: "23883543"
     
 12. После успешного завершения **шага 4** перезапустите сервер и войдите на него как участник группы DomainAdmins.
     
-13. На компьютере, где выполняется Скайп для панели управления Business Server проверка на странице **Топология** Скайп для панели управления Business Server, которая отображается состояние службы сервера-посредника как зеленая галочка. Если красный значок отображается X, выберите сервер-посредник. В меню **Действие** выберите команду **Запустить все службы**. 
+13. На компьютере, где выполняется Скайп для панели управления Business Server проверка на странице **Топология** Скайп для панели управления Business Server, которая отображается состояние службы сервера-посредника как зеленая галочка. If a red X appears instead, select the Mediation Server. On the **Action** menu, click **Start All Services**. 
     
 При добавлении нескольких компьютеров для пула серверов-посредников выполните действия, описанные в эту процедуру на всех компьютерах в пуле сервера-посредника. Если необходимо установить файлы для сервера-посредника для других компьютерах, затем следуйте инструкциям в разделе [Настройка магистрали в Скайп для Business Server](configure-trunks.md) для настройки параметров подключения линии связи между этого пула сервера-посредника (или всех посредника Серверы на сайте) и его однорангового узла.
 

@@ -1,5 +1,6 @@
 ---
 title: Таблица MediaList
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: Таблица MediaList — это статическая таблица, в которой хранится список различных типов мультимедиа.
-ms.openlocfilehash: c9309219399fac30e318f8e112dd82269fff5ac2
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 72ae6dbb145c3bb284f1090b01585591e4e773bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569770"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877519"
 ---
 # <a name="medialist-table"></a>Таблица MediaList
  
 Таблица MediaList — это статическая таблица, в которой хранится список различных типов мультимедиа.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**MediaId** <br/> |tinyint  <br/> |Primary  <br/> |Значения: 1–7  <br/> |
 |**Media** <br/> |nvarchar(256)  <br/> || Статическое сопоставление значений MediaID и Media <br/>  1 — мгновенные сообщения <br/>  2 - передача файлов <br/>  3 — удаленный помощник <br/>  4 - общий доступ к приложениям <br/>  5 — аудио <br/>  6 — видео <br/>  7 - приглашение из приложения <br/> |

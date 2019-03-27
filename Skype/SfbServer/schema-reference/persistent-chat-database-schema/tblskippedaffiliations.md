@@ -1,5 +1,6 @@
 ---
 title: tblSkippedAffiliations
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
 description: tblSkippedAffiliations содержит принадлежности, которые не удалось прочитать (обычно вследствие ошибок доступа к доменным службам Active Directory).
-ms.openlocfilehash: 8809e75f7da7f08c3dee9a846cef332d9cba4371
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7072cf1d9ebef1040b78bc2fe93ccac02808099a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874789"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  
@@ -22,15 +24,15 @@ tblSkippedAffiliations содержит принадлежности, котор
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**|
+|**Столбец**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, не null  <br/> |Идентификатор субъекта.  <br/> |
-|affDescription  <br/> |nvarchar (256), отлично от null  <br/> |Строка, идентифицирующая принадлежность.  <br/> Имеет формат: guid: _{0}_ uri: _{1}_> id: _{2}_ <br/> |
+|affDescription  <br/> |nvarchar (256), отлично от null  <br/> |Строка, идентифицирующая принадлежность.  <br/> Имеет формат: guid: _{0}_ uri: _{1}_> id:_{2}_ <br/> |
 |updatedBy  <br/> |int, не null  <br/> |Идентификатор субъекта, который обновления этой строки. Это всегда 1 (система пользователя), так как синхронизации Active Directory является единственным источником для этих операций.  <br/> |
    
 **Ключи**
 
-|**Столбцы**|**Описание**|
+|**Столбцы**|**Описание**.|
 |:-----|:-----|
 |\<prinID affDescription\>  <br/> |Первичный ключ.  <br/> |
 |prinID  <br/> |Внешний ключ с подстановкой в таблице tblPrincipal.prinID.  <br/> |

@@ -1,5 +1,6 @@
 ---
 title: Добавление следующего скачка сервера видеовзаимодействия
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server 2015.
-ms.openlocfilehash: 7c283e9d653dff4cd95b7a1ba21ab908fbdf2dc2
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: cb38288922d222dc7e3affc973aa94f55595c34d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503643"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874432"
 ---
 # <a name="add-vis-next-hop"></a>Добавление следующего скачка сервера видеовзаимодействия
  

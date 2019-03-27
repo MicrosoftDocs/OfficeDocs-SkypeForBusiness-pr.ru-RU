@@ -1,5 +1,6 @@
 ---
 title: Запрет сеансов для служб
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Можно запретить установку новых сеансов для устаревших служб, работающих на определенном компьютере или запретить установку новых сеансов для определенной службы прежних версий, можно использовать устаревшим установкам панель управления.
-ms.openlocfilehash: af4605f65d7cabe187696eda20bd9082ab73ad02
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9f3f9bb301841d7e71c18f4d3ca052f3d0c74dce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027216"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875534"
 ---
 # <a name="prevent-sessions-for-services"></a>Запрет сеансов для служб
 

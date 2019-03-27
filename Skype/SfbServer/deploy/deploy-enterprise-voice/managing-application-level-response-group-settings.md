@@ -1,5 +1,6 @@
 ---
 title: Управление параметрами группы ответа уровня приложения в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Управление параметрами группы ответа уровня приложения, такие как параметры обратного вызова и музыка при удержании, в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 4a44ee8988925025b81eac6bd1ee340a3bbef81b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ceb59b041918836f00f2a568ab8f93f638ecdac5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23890945"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873698"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Управление параметрами группы ответа уровня приложения в Скайп для бизнеса
  
 Управление параметрами группы ответа уровня приложения, такие как параметры обратного вызова и музыка при удержании, в Скайп Business Server корпоративной голосовой связи.
   
-Конфигурация музыки при удержании по умолчанию, звуковой файл музыки при удержании по умолчанию, длительности периода обратного вызова агента и контекста вызова следующие параметры уровня приложения для приложения группы ответа. Для каждого пула можно задать на уровне приложения только один набор параметров. Чтобы просмотреть параметры на уровне приложения, командлет **Get-CsRgsConfiguration** . Для изменения параметров уровня приложения, используйте командлет **Set-CsRgsConfiguration** .
+Конфигурация музыки при удержании по умолчанию, звуковой файл музыки при удержании по умолчанию, длительности периода обратного вызова агента и контекста вызова следующие параметры уровня приложения для приложения группы ответа. Для каждого пула можно задать на уровне приложения только один набор параметров. Для просмотра параметров, заданных на уровне приложения, выполните командлет **Get-CsRgsConfiguration**. Для изменения параметров, заданных на уровне приложения, выполните командлет**Set-CsRgsConfiguration**.
   
 Музыкальный файл по умолчанию для режима удержания воспроизводится только в том случае, если не определен настраиваемый музыкальный файл. Контекст вызова доступен только для очередей, назначенных интерактивным рабочим процессам. Если контекст вызова включен, при получении вызова агент может просматривать такие сведения, как время ожидания ответа абонентом или вопросы и ответы в рамках рабочего процесса.
   
@@ -55,8 +56,8 @@ ms.locfileid: "23890945"
 
 ## <a name="see-also"></a>См. также
 
-[Командлет Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
+[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
-[Командлет Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
+[Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)

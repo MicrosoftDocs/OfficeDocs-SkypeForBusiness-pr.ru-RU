@@ -1,5 +1,6 @@
 ---
 title: Обновление Windows мастер развертывания
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для получения дополнительных сведений об использовании мастер развертывания для установки Скайп для Business Server см Установка Скайп Business Server.
-ms.openlocfilehash: 63704279c0116903312fffd155f8ef0071385154
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e8482ac4a0c271a62c63eb9a9829faa7b2f577ba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20999725"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875294"
 ---
 # <a name="deployment-wizard-windows-update"></a>Мастер развертывания: центр обновления Windows
  

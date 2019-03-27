@@ -1,5 +1,6 @@
 ---
 title: Создание новой коллекции магистрали, параметры конфигурации в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Сводка: Сведения о создании параметров конфигурации новой коллекции магистрали с помощью Скайп для панели управления Business Server.'
-ms.openlocfilehash: f4cb53cecc54ebd547cd6992c4d89aaf2ea9e586
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5f3fd6b704a99be13ab71153352b174f769a28cc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882181"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877687"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Создание новой коллекции магистрали, параметры конфигурации в Скайп для Business Server 
 
@@ -36,7 +37,7 @@ ms.locfileid: "23882181"
   
 При создании параметров конфигурации магистрали SIP с помощью Скайп для панели управления Business Server, вам доступны следующие параметры.
   
-|**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**|
+|**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**.|
 |:-----|:-----|:-----|
 |Имя  <br/> |Identity  <br/> |Уникальный идентификатор для коллекции. Это свойство только для чтения; вы не можете изменить идентификатор коллекции параметров настройки магистральной линии связи.  <br/> |
 |Описание  <br/> |Описание  <br/> |Предоставляет администраторам возможность сохранять дополнительную информацию о параметрах (например, сведения о цели настройки магистральной линии связи).  <br/> |

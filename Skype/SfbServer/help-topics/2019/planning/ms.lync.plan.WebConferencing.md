@@ -1,5 +1,6 @@
 ---
-title: Веб-конференций (средство планирования)
+title: Web Conferencing (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Скайп веб-конференций Business Server включает в себя совместная работа над документами, общий доступ к приложениям и рабочим столам.
-ms.openlocfilehash: 822984c20078ac10121e652e32b30fea825fe3cb
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6a793b6e1e08ffa1636bd598e677990b8c8c8ab1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068097"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877149"
 ---
-# <a name="web-conferencing-planning-tool"></a>Веб-конференций (средство планирования)
+# <a name="web-conferencing-planning-tool"></a>Web Conferencing (Planning Tool)
  
 Скайп веб-конференций Business Server включает в себя совместная работа над документами, общий доступ к приложениям и рабочим столам.
   

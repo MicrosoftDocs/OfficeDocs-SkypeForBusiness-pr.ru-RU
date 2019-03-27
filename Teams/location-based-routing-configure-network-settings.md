@@ -16,23 +16,23 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67202207b5668022f4e0b33acc2d20f3c4abd7aa
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462710"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876770"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Настройка параметров сети для маршрутизации на основе расположения
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-Если вы еще не сделано, чтение, чтобы просмотреть другие действия по [Plan Location-Based маршрутизации для непосредственного](location-based-routing-plan.md) необходимо выполнить перед развертыванием параметров сети для маршрутизации на основе местоположения.
+Если вы еще не сделано, чтение, чтобы просмотреть другие действия по [Plan Location-Based маршрутизации для непосредственного](location-based-routing-plan.md) необходимо выполнить перед настройкой параметров сети для маршрутизации на основе местоположения.
 
 В этой статье описывается настройка параметров сети для маршрутизации на основе местоположения. После развертывания прямой маршрутизации телефонной системы в вашей организации, следующие действия, чтобы создать и настроить областей сети, сетевых сайтов и подсетей. Чтобы выполнить действия, описанные в этой статье, вам потребуются некоторые навыки работы с помощью командлетов PowerShell. Для получения дополнительных сведений см [Команды PowerShell](teams-powershell-overview.md).
 
 ## <a name="define-network-regions"></a>Определение областей сети
- Область сети соединения различные части сети через несколько географических областей. Использование ``New-CsTenantNetworkRegion`` командлета PowerShell для определения области сети. Обратите внимание, что ``RegionID`` параметр — это логическое имя, которое представляет географический регион и не имеет зависимости или ограничения и ``CentralSite <site ID>`` это необязательный параметр. 
+ Область сети соединения различные части сети через несколько географических областей. Командлет [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) используется для определения области сети. Обратите внимание, что параметр RegionID логическое имя, который представляет географический регион и имеет не зависимости или ограничения и CentralSite &lt;веб-сайтов идентификатор&gt; это необязательный параметр. 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -45,7 +45,7 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## <a name="define-network-sites"></a>Определение сетевых узлов
 
-Использование ``New-CsTenantNetworkSite`` командлета PowerShell определение сетевых узлов. 
+Используйте командлет [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) определение сетевых узлов. 
 
 ```
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
@@ -64,7 +64,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 ## <a name="define-network-subnets"></a>Определение подсетей
 
-Использование ``New-CsTenantNetworkSubnet`` командлет, чтобы определить подсетей и связать их сетевых узлов. Каждый внутренней подсети может быть связано только с одного сайта. 
+Командлет [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) для определения подсетей и связывать их с сетевыми узлами. Каждый внутренней подсети может быть связано только с одного сайта. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -94,7 +94,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>Определить внешние подсети
-Использование ``New-CsTenantTrustedIPAddress`` командлет, чтобы определить внешние подсети и назначить их к клиенту. Можно определить неограниченное число подсети для клиента. 
+Командлет [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) для определения внешние подсети и назначить их к клиенту. Можно определить неограниченное число подсети для клиента. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```

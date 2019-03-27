@@ -1,5 +1,6 @@
 ---
 title: Этап 7 завершения задачи после завершения переноса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,32 +9,32 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции в Скайп для Business Server 2019.
-ms.openlocfilehash: dedeb9fd3cb524fb2f61ff7e8ade87265c2001e0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ef3a1f4b6d7262d223e78ebfae53e02203e9248e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028896"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875456"
 ---
-# <a name="phase-7-complete-post-migration-tasks"></a>Этап 7: Выполнение послемиграционных задач
+# <a name="phase-7-complete-post-migration-tasks"></a>Этап 7: необходимые действия после миграции
 
 В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции в Скайп для Business Server 2019.
   
 ## <a name="in-this-section"></a>Содержание
 
-- [Перенос существующих собраний и содержимое собраний](migrate-existing-meetings-and-meeting-content.md)
+- [Перенос существующих собраний и содержимого собраний](migrate-existing-meetings-and-meeting-content.md)
     
 - [Перенос номеров доступа](migrate-dial-in-access-numbers.md)
     
-- [Перенос параметров приложения парковки вызовов](migrate-call-park-application-settings.md)
+- [Перенос параметров приложения приостановки звонков](migrate-call-park-application-settings.md)
     
-- [Миграция групп ответа](migrate-response-groups.md)
+- [Перенос групп ответа](migrate-response-groups.md)
     
 - [Перенос адресной книги](migrate-address-book.md)
     
-- [Настройка собрания страницы присоединения к](configure-the-meeting-join-page.md)
+- [Конфигурация страницы присоединения к собранию](configure-the-meeting-join-page.md)
     
-- [Удаление прежних версий Архивация и наблюдение за серверами](remove-legacy-archiving-and-monitoring-servers.md)
+- [Удаление старых серверов архивирования и мониторинга](remove-legacy-archiving-and-monitoring-servers.md)
     
 - [Настройка доверенных серверов приложений](configure-trusted-application-servers.md)
     

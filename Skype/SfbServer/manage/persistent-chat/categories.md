@@ -1,5 +1,6 @@
 ---
 title: Управление категориями на сервере сохраняемого чата в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Сводка: Узнайте, как управлять категориями сервера сохраняемого чата в Скайп для Business Server 2015.'
-ms.openlocfilehash: 01b1bad9fd8b68eee68e1980fcb79f69462e9dfa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0d70ec0266fc85d94c44c11ba15e42eea0be44b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979507"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874195"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление категориями на сервере сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -58,7 +59,7 @@ ms.locfileid: "20979507"
     
    - В поле **Имя** укажите имя новой категории комнат чата.
     
-   - В поле **Описание** введите подробные сведения о категории комнат (например, категория комнат для компании Contoso).
+   - В поле **Описание** введите подробные сведения о категории комнат (например, категории комнат для компании Contoso).
     
    - Чтобы управлять, могут быть включены приглашения для комнат чата, относящихся к этой категории, установите или снимите флажок **Включить приглашения** . Если выбрано, комнат в этой категории, возможно, приглашения включено или отключено; Если этот флажок снят, комнат в этой категории не могут иметь приглашения. Если комнаты приглашения на при добавлении нового элемента в комнате, он или она получает уведомление об новой комнаты в клиент Persistent Chat.
     
@@ -84,9 +85,9 @@ ms.locfileid: "20979507"
 |**Командлет**|**Описание**|
 |:-----|:-----|
 |New-CsPersistentChatCategory  <br/> |Создание новой категории  <br/> |
-|Командлет Set-CsPersistentChatCategory  <br/> |Настройка параметров существующей категории  <br/> |
-|Командлет Get-CsPersistentChatCategory  <br/> |Получение сведений о категориях  <br/> |
-|Командлет remove-CsPersistentChatCategory  <br/> |Удаление категории  <br/> |
+|Set-CsPersistentChatCategory  <br/> |Настройка параметров существующей категории  <br/> |
+|Get-CsPersistentChatCategory  <br/> |Получение сведений о категориях  <br/> |
+|Remove-CsPersistentChatCategory  <br/> |Удаление категории  <br/> |
    
 Можно настроить следующие параметры категорий:
   
@@ -98,11 +99,11 @@ ms.locfileid: "20979507"
     
 - Creators. Определение пользователей, которым разрешено создание комнат чата в этой категории.
     
-- Указание параметров AllowedMembers. Определение пользователей, которым разрешен доступ к комнатам чата в этой категории.
+- AllowedMembers. Определение пользователей, которым разрешен доступ к комнатам чата в этой категории.
     
 - DeniedMembers. Определение пользователей, которым не разрешен доступ к комнатам чата в этой категории.
     
-Полные сведения о синтаксисе командлета, включая все параметры [Скайп для консоли 2015 Business Server](../management-shell.md)см.
+Полная информация о синтаксисе командлетов, включая описание всех параметров, приведена в разделе [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 ### <a name="create-a-new-category"></a>Создание новой категории
 

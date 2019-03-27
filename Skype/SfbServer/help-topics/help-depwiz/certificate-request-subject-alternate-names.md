@@ -1,5 +1,6 @@
 ---
 title: Запрос сертификата (альтернативные имена субъектов)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 description: Имя субъекта / альтернативные имена субъекта представляет сводку имя субъекта и все альтернативные имена субъекта создаст сертификат. Имена, представленный имени субъекта и альтернативные имена субъекта собираются из документа определения, как он был создан при определении развертывания в построителе топологий.
-ms.openlocfilehash: 72f2ecae3a3452de6e52b905cbd10f52535421f7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6ece1fb410314daf32799546dda0fcffeba73e61
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008063"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874302"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Запрос сертификата (альтернативные имена субъектов)
  

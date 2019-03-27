@@ -1,5 +1,6 @@
 ---
-title: Добавление полного доменного ИМЕНИ пула переднего плана
+title: Добавление полного доменного имени пула переднего плана
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 description: Укажите полное доменное имя (FQDN) пула переднего плана, для которого создается. Полное доменное имя пула нельзя изменить после публикации топологии, содержащий пула переднего плана. Если требуется переименовать в пул, необходимо удалить пул и добавьте новый пул с новой полным доменным ИМЕНЕМ.
-ms.openlocfilehash: 739a794b1b3fd8e88ae074b5c03f4c0e51fb844f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4d09e70e6c75c2e1013b0a801d343865c9d112eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981299"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877156"
 ---
-# <a name="add-front-end-pool-fqdn"></a>Добавление полного доменного ИМЕНИ пула переднего плана
+# <a name="add-front-end-pool-fqdn"></a>Добавление полного доменного имени пула переднего плана
  
 Укажите полное доменное имя (FQDN) пула переднего плана, для которого создается. Полное доменное имя пула нельзя изменить после публикации топологии, содержащий пула переднего плана. Если требуется переименовать в пул, необходимо удалить пул и добавьте новый пул с новой полным доменным ИМЕНЕМ.
   

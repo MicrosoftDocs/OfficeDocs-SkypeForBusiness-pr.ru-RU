@@ -1,5 +1,6 @@
 ---
 title: Компоненты подключения к ТСОП в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Ознакомьтесь с SIP-магистрали и шлюзов ТСОП для корпоративной голосовой связи в Скайп для Business Server.
-ms.openlocfilehash: d770e47917d8fc1d56e6a74d896938151ac00895
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 06c4b79d07b776b4f5820f67ab86ac958db32686
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887993"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877002"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Компоненты подключения к ТСОП в Скайп для Business Server
  
@@ -55,7 +56,7 @@ ms.locfileid: "23887993"
 - УАТС с временным мультиплексированием с изолированным шлюзом ТСОП.
     
 > [!NOTE]
-> Функция обхода сервера-посредника взаимодействует не со всеми шлюзами ТСОП, IP-PBX и пограничным контроллером SBC. Корпорация Майкрософт вместе с сертифицированными партнерами протестировала набор шлюзов ТСОП и пограничных контроллеров сеансов, а также провела с вместе с компанией Cisco тесты УАТС на базе протокола IP. Обход сервера-посредника поддерживается только с помощью продуктов и версий приведенный в [Объединенных коммуникаций программы открытого взаимодействия - Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406). 
+> Функция обхода сервера-посредника взаимодействует не со всеми шлюзами ТСОП, IP-PBX и пограничным контроллером SBC. Корпорация Майкрософт протестировала набор шлюзов ТСОП и контроллеров SBC с сертифицированными партнерами и провела некоторые тесты для Cisco IP-PBX. Обход сервера-посредника поддерживается только с помощью продуктов и версий приведенный в [Объединенных коммуникаций программы открытого взаимодействия - Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406). 
   
 Для получения дополнительных сведений о партнеров, которые предлагают решения для корпоративной голосовой связи посетите [веб-сайт Microsoft Unified Communications партнеров](https://go.microsoft.com/fwlink/p/?linkId=202836).
   

@@ -1,5 +1,6 @@
 ---
 title: Создание связей между областями в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Создание или изменение связей между областями сети, используемые с корпоративной голосовой связи контроля допуска звонков в Скайп Business Server.
-ms.openlocfilehash: fd74960ed2efe9e8e67c5682c5b30aac17c9b2b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 729b20010390bf0a8865adce96a398d362009552
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886466"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874006"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Создание связей между областями в Скайп для Business Server
  
 Создание или изменение связей между областями сети, используемые с корпоративной голосовой связи контроля допуска звонков в Скайп Business Server. 
   
-Регионы в сети связываются с помощью физического подключения глобальной сети.Связь между областями сети создает канал между двумя областями, настроенными для контроля допуска звонков (CAC), и задает ограничения пропускной способности трафика аудио- и видеоданных между этими областями.
+Регионы в сети связываются с помощью физического подключения глобальной сети. Связь между областями сети создает канал между двумя областями, настроенными для контроля допуска звонков (CAC), и задает ограничения пропускной способности трафика аудио- и видеоданных между этими областями.
   
 Пример топологии имеет связь между Северной Америке, а также Азиатско-Тихоокеанском регионе и ссылки между EMEA, а также Азиатско-Тихоокеанском регионе. Каждый из этих связей между областями ограниченной пропускной способностью глобальной сети, как описано в таблице сведения о пропускной способности связи между областями в [Пример: сбор требований для контроля допуска звонков в Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
@@ -69,10 +70,10 @@ ms.locfileid: "23886466"
     
 ## <a name="see-also"></a>См. также
 
-[Новый CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
+[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[SET-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
 [Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)

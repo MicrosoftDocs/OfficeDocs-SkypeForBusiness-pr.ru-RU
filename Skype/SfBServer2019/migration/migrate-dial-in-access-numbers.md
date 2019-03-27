@@ -1,5 +1,6 @@
 ---
 title: Перенос номеров доступа
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Перенос номеров доступа Скайп для Business Server 2019 требуется выполнение командлета Move-CsApplicationEndpoint для переноса контактных объектов. Во время установки прежних версий и Скайп для периода сосуществования Business Server 2019 номера для телефонного номера, созданные в Скайп Business Server 2019 ведут себя аналогично на номера доступа, создаваемого в прежних версий установка, как описано в данном раздел.
-ms.openlocfilehash: 697ffb05e54722576f15dce2b4e7f0721b255aa2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7f7aef113018a27e70b88e166d365195c07dce9c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370730"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874712"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Перенос номеров доступа
 

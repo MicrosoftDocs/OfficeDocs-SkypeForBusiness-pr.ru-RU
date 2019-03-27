@@ -1,5 +1,6 @@
 ---
 title: Главная страница конфигурации сохраняемого чата
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: Развертывание сервера сохраняемого чата могут размещаться количество параллельных комнат сохраняемого сеанса беседы. На сервере комнаты чата можно упорядочить по целому набору категорий. Каждая комната чата относится к одной категории и наследует от нее некоторые параметры. Такая организация позволяет получить структуру, которая удобна для идентификации бесед по их назначению, облегчает делегированное администрирование и упрощает управление.
-ms.openlocfilehash: c5f29ec6c57fc92b4001e7b4061662ecf67a28bb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5cbe727f6c939eab6c94f8a455acf9ee009ef1c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985053"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874060"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Главная страница конфигурации сохраняемого чата
 

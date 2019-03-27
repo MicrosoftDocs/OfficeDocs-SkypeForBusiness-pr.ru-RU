@@ -1,5 +1,6 @@
 ---
 title: Exchange Unified Messaging (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Скайп для Business Server 2015 поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
-ms.openlocfilehash: 8cc0ccc3f49d66c4dce60c4704559fcfbc0232f1
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: fa658b67939da641de349b3a1872ab387ec47262
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059182"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875951"
 ---
 # <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange единой системы обмена сообщениями (средство планирования) в Скайп для бизнеса 2015
 

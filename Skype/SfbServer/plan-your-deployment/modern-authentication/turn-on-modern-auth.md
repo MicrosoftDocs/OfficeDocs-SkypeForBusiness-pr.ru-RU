@@ -1,5 +1,6 @@
 ---
 title: Планирование для отключения методов проверки подлинности Legacy внутренних и внешних к сети
+ms.reviewer: ''
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
@@ -11,12 +12,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Этот командлеты файлов в режиме структуры статьи, предоставить администраторам больше контроля методов проверки подлинности используется внутри и вне, бизнес. Администраторы могут включить методы проверки подлинности либо отключена во внутреннем или внешнем ресурсе с сетью.
-ms.openlocfilehash: 1761722bca624451b1cfc6acc28bed7b00eabe6d
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 08f8b850fbde99f85f804494eab79a9a3531d009
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789262"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877813"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Планирование для отключения методов проверки подлинности Legacy внутренних и внешних в сеть.
 

@@ -1,5 +1,6 @@
 ---
 title: Планирование зависимостью от расположения маршрутизации Скайп для бизнеса
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Планирование расположения маршрутизация на основе в Скайп Business Server корпоративной голосовой связи, включая взаимодействие с одновременных звонков и делегирование и поддерживаемых сценариях для маршрутизации на основе местоположения.
-ms.openlocfilehash: 1e4f19d96306db31be0606dbfda799e93c2d34e0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886100"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874366"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Планирование зависимостью от расположения маршрутизации Скайп для бизнеса
 
@@ -127,7 +128,7 @@ ms.locfileid: "23886100"
 
 Например: Скайп для бизнес-пользователя в ходе вызова с другой Скайп для бизнес-пользователя, который находится в том же сайте сети, переводит вызов к конечной точке ТСОП и разрешенные переключения звонка.
 
-### <a name="simultaneous-ringing"></a>Одновременный вызов
+### <a name="simultaneous-ringing"></a>Одновременный звонок
 
 Если вызываемый абонент одновременных звонков включена, маршрутизации на основе местоположения анализирует расположение вызывающей стороны и конечных точек вызываемой стороны для определения, необходимо ли перенаправлять звонок.
 
@@ -226,8 +227,8 @@ ms.locfileid: "23886100"
 |**Тип клиента**|**Поддерживается**|**Сведения**|
 |:-----|:-----|:-----|
 |Skype для бизнеса  <br/> |Да  <br/> ||
-|Lync 2013  <br/> |Да  <br/> ||
-|Lync 2010  <br/> |Да  <br/> ||
+|Lync 2013  <br/> |Да  <br/> ||
+|Lync 2010  <br/> |Да  <br/> ||
 |Office Communicator 2007 R2  <br/> |нет  <br/> ||
 |Lync Phone Edition  <br/> |Да  <br/> ||
 |Lync Attendant  <br/> |Да  <br/> ||
@@ -236,7 +237,7 @@ ms.locfileid: "23886100"
 |Lync Mobile 2010  <br/> |Да  <br/> ||
 
 > [!NOTE]
-> Чтобы отключить VoIP для Скайп пользователей, назначение политики мобильности с параметром, Передачу звука и видео, отключена для всех пользователей, которые включены для маршрутизации на основе местоположения. Для получения дополнительных сведений о политике мобильности видеть [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+> Чтобы отключить VoIP для Скайп пользователей, назначение политики мобильности с параметром, Передачу звука и видео, отключена для всех пользователей, которые включены для маршрутизации на основе местоположения. Более подробно о политике мобильности см. в разделе [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>Функции, не поддерживаемые маршрутизацией на основе расположения
 

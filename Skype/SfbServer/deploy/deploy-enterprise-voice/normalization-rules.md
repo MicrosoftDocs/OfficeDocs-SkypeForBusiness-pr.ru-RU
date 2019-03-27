@@ -1,5 +1,6 @@
 ---
 title: Создание или изменение правила нормализации в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Сводка: Узнайте, как определить, создание и изменение правила нормализации в Скайп для Business Server.'
-ms.openlocfilehash: ff43185da86693c230b6b238222e0fcd922a411c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 52f56280c747db702935405ea4c60383c58a6d78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375289"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874600"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Создание или изменение правила нормализации в Скайп для бизнеса
 
@@ -63,7 +64,7 @@ ms.locfileid: "25375289"
 8. Введите номер для проверки правила нормализации, затем нажмите кнопку **Перейти** (необязательно). Результаты проверки отображаются под полем **Введите номер телефона для проверки**.
 
     > [!NOTE]
-    > Можно сохранить правило нормализации, который еще не прошел проверку и настроить его более поздняя версия. Дополнительные сведения см [Тестирование маршрутизации голосовой связи](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).
+    > Можно сохранить правило нормализации, которое еще не прошло проверку, и изменить его настройки позднее. См. раздел [Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).
 
 9. Нажмите кнопку **ОК** для сохранения правила нормализации.
 

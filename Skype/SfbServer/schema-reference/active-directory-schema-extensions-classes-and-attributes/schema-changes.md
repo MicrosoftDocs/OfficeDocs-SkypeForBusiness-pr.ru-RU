@@ -1,5 +1,6 @@
 ---
 title: Изменения схемы в Скайп для Business Server
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Прежде чем развертывать и использование Скайп для Business Server, необходимо подготовить доменных служб Active Directory путем расширения схемы. Расширения схемы добавьте классы и атрибуты, которые необходимы Скайп для Business Server.
-ms.openlocfilehash: 8594ff3a25c7af7ef8c57468a8900d3abbb7f790
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: ba76f57197e9cd812163c8abac5f51005933eace
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240919"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874642"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Изменения схемы в Скайп для Business Server
  
@@ -52,7 +53,7 @@ ms.locfileid: "27240919"
   
 **Атрибуты, добавленные Скайп для Business Server**
 
-|**Атрибут**|**Описание**|
+|**Атрибут**|**Описание**.|
 |:-----|:-----|
 |msExchUserHoldPolicies  <br/> |Этот атрибут со множеством значений содержит идентификаторы для хранения политик, которые применяются к пользователю. Удержаний политик сохраняются элементы почтовых ящиков для пользователя во время выполнения удержания. Этот атрибут используется совместно с Exchange 2013.  <br/> |
 |msRTCSIP-UserRoutingGroupId  <br/> |Это SIP, маршрутизация идентификатор группы. Пользователи в той же группе будет регистрировать на тот же сервер переднего плана.  <br/> |
@@ -64,7 +65,7 @@ ms.locfileid: "27240919"
   
 **Классы, изменяемые Скайп для Business Server**
 
-|**Класс**|**ИЗМЕНИТЬ**|**Класс или атрибут**|
+|**Класс**|**Изменение**|**Класс или атрибут**|
 |:-----|:-----|:-----|
 |Пользователь  <br/> |Добавление: mayContain  <br/> Добавление: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Контакт  <br/> |Добавление: mayContain  <br/> Добавление: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |

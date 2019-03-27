@@ -1,5 +1,6 @@
 ---
 title: Схема базы данных сохраняемого чата
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: Здесь приведена схема базы данных сохраняемого сеанса беседы в Скайп для Business Server.
-ms.openlocfilehash: 1c78ea53438484fb0ad573a815c10ad76f08edca
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 37b22077157def7ea25a5cf70b23a0272a58956e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874057"
 ---
 # <a name="persistent-chat-database-schema"></a>Схема базы данных сохраняемого чата
  
@@ -41,7 +43,7 @@ ms.lasthandoff: 03/28/2018
     
 - [Список таблиц соответствия для сервера сохраняемого чата в Скайп для Business Server](list-of-persistent-chat-server-compliance-tables.md)
     
-- [Данные таблицы persistent Chat Server](persistent-chat-server-table-details.md)
+- [Данные таблицы сервера сохраняемого чата](persistent-chat-server-table-details.md)
     
 - [Примеры запросов к базе данных сохраняемого чата](sample-persistent-chat-database-queries.md)
     

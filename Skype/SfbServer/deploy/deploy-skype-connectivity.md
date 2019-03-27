@@ -1,5 +1,6 @@
 ---
 title: Развертывание подключения к Скайп в Скайп for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Сводка: Узнайте, как для подключения Скайп для Business Server Скайп получателю. Также известной как Скайп подключение.'
-ms.openlocfilehash: 33b24ff4ea609240bbb1a1bbea4a8e25154dc14a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372455"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874509"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Развертывание подключения к Скайп в Скайп for Business Server
  
@@ -80,7 +81,7 @@ ms.locfileid: "25372455"
   
 Дополнительные сведения об администрировании Skype для бизнеса см. в разделах:
   
-- [Разрешение пользователям на связь с внешними пользователями Skype для бизнеса](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+- [Разрешите пользователям связываться с внешними пользователями Skype для бизнеса](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
 - [Что следует предпринять, если вы не можете Скайп обмена мгновенными Сообщениями для бизнеса или Скайп внешние контакты](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
@@ -231,7 +232,7 @@ ms.locfileid: "25372455"
   
 |**Клиент**|**Поиск в каталоге Skype и добавление контактов**|**Аудио-/видеосвязь Skype, взаимодействие с мгновенными сообщениями**|
 |:-----|:-----|:-----|
-|Skype для бизнеса  <br/> |Да  <br/> |Да  <br/> |
+|Skype для бизнеса  <br/> |Да   <br/> |Да   <br/> |
 |Skype для бизнеса на Mac  <br/> |Возможность добавления (поиск отсутствует)  <br/> |Да  <br/> |
 |Lync Desktop 2013  <br/> |Возможность добавления (поиск отсутствует)  <br/> |Да  <br/> |
 |Lync Web App — интерактивная версия и локальная  <br/> |Н/Д  <br/> |Н/Д  <br/> |
@@ -239,7 +240,7 @@ ms.locfileid: "25372455"
 |Lync Mobile — Android  <br/> |Ожидается в ближайшее время  <br/> |Да  <br/> |
 |Lync Mobile — iOS  <br/> |Ожидается в ближайшее время  <br/> |Да  <br/> |
 |Lync Room System  <br/> |Ожидается в ближайшее время  <br/> |Да  <br/> |
-|Lync Modern App (Win 8.1)  <br/> |Да  <br/> |Да  <br/> |
+|Lync Modern App (Win 8.1)  <br/> |Да  <br/> |Да   <br/> |
 |Lync Mac 2011  <br/> |Возможность добавления (поиск отсутствует)  <br/> |Да  <br/> |
 |Lync Desktop 2010  <br/> |Возможность добавления (поиск отсутствует)  <br/> |Да  <br/> |
 |Lync Phone Edition  <br/> |Н/Д  <br/> |Н/Д  <br/> |

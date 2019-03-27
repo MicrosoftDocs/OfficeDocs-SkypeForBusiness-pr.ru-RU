@@ -1,5 +1,6 @@
 ---
 title: Параметры безопасности регистратора
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 3abca26900b10db7aa014209357c6936e13c016b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 20cb4bfd9954f93e92f46488ca842d9fb7a9bc59
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260617"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877093"
 ---
 # <a name="registrar-security-settings"></a>Параметры безопасности регистратора
 

@@ -1,5 +1,6 @@
 ---
-title: Подключение пилотного пула к прежних версий пограничных серверов
+title: Подключение пилотного пула к старым пограничным серверам
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После развертывания Скайп для Business Server 2019, необходимо настроить федеративный маршрут для вашего сайта. Перед использованием федеративного маршрута, используемый прежних версий установки, Скайп для Business Server 2019 должен быть настроен для использования этим маршрутом.
-ms.openlocfilehash: 6766034cf54fd867c9b270324cb1db8ad2d644d5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a3498041b4af762d184cd56e3883a90612b13e0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030569"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874747"
 ---
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Подключение пилотного пула к прежних версий пограничных серверов
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Подключение пилотного пула к старым пограничным серверам
 
 После развертывания Скайп для Business Server 2019, необходимо настроить федеративный маршрут для вашего сайта. Перед использованием федеративного маршрута, используемый прежних версий установки, Скайп для Business Server 2019 должен быть настроен для использования этим маршрутом. 
   

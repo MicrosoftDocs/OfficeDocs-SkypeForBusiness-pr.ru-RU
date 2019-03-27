@@ -1,5 +1,6 @@
 ---
 title: Изменения, внесенные с подготовки домена в Скайп для Business Server
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 description: В следующей таблице перечислены записи управления доступом (ACE), которые создает подготовки домена в корневом домене. Все элементы управления доступом наследуются, если не указано иное.
-ms.openlocfilehash: 3602e04082dbf4af9a2ab40fc3318761ebc08c21
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5cf239e37badafee9980140d08fd20a11e3c233d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877701"
 ---
 # <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Изменения, внесенные с подготовки домена в Скайп для Business Server
  

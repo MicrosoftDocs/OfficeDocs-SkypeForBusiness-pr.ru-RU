@@ -1,5 +1,6 @@
 ---
 title: Таблица AppSharingMetricsThreshold
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: Таблица AppSharingMetricsThreshold содержит оптимальные и допустимые значения показателей качества взаимодействия, которые используются с общий доступ к приложениям. Эти пороговые значения используются для определения, если приложение, общий доступ к качества следует следует рассматривать как низкого уровня.
-ms.openlocfilehash: 1ccf60fc9668d2ad2943929affad6fd4a078c789
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bddad99803ab6683985b0f44ed5df509b84344f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877044"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>Таблица AppSharingMetricsThreshold
  
@@ -22,7 +24,7 @@ ms.lasthandoff: 03/28/2018
   
 Эта таблица была введена в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**CallType** <br/> |целое  <br/> |Primary  <br/> |Тип размещенного вызова.  <br/> |
 |**AppliedBandwidthLimitOptimal** <br/> |целое  <br/> ||Ограничение оптимальной пропускной способности для общего доступа к приложениям. Значение по умолчанию — 1000000.  <br/> |

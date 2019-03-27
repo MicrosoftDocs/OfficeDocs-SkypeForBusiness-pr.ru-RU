@@ -1,5 +1,6 @@
 ---
 title: Расширитель параметров веб-служб
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: Из в построителе топологий, можно изменить параметры порта, используемые для обоих внутренних и внешних веб-служб. Кроме того и при развертывании балансировки нагрузки доменных имен (DNS), можно использовать построитель топологий для настройки полное доменное имя (FQDN) пула, которое разрешается в физические IP-адреса всех серверов в этом пуле.
-ms.openlocfilehash: 537f9faaf89fbf82e80741d022e0913aa57a02f9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 776ff33dabc331a3cf0a2107e7f0006bf2291fdb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875041"
 ---
 # <a name="web-services-settings-expander"></a>Расширитель параметров веб-служб
  

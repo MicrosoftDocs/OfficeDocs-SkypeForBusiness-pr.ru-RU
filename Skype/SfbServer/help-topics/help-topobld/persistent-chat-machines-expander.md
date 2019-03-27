@@ -1,5 +1,6 @@
 ---
 title: Расширитель настроек компьютеров сохраняемого чата
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: Включение или отключение развернутого сервера сохраняемого чата или пул серверов сохраняемого чата с помощью серверов или пулов, перечисленные в параметры состояния компьютера. Для перевода сервера или пула в активное состояние следует выбрать его в списке и нажать кнопку Сделать активным.
-ms.openlocfilehash: 250804a75c962d9baadc7338052eae1175c57286
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 8318bc734e3532e4fb1c03f0ea796ecbed9ffdc0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504392"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875104"
 ---
 # <a name="persistent-chat-machines-expander"></a>Расширитель настроек компьютеров сохраняемого чата
  

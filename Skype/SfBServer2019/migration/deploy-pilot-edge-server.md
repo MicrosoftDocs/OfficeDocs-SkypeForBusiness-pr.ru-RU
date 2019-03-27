@@ -1,5 +1,6 @@
 ---
 title: Развертывание пилотного пограничного сервера
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этом разделе рассматриваются параметры конфигурации, которые следует обратить внимание перед развертыванием вашей Скайп Business Server 2019 пограничного сервера. Процессы развертывания и настройки для Скайп для Business Server 2019 очень похожи на Скайп для Business Server 2015. В данном разделе рассматриваются только ключевые моменты, которые следует рассматривать как часть развертывания пилотного пула. Подробное описание действий см развертывание доступа внешних пользователей в Скайп для Business Server 2019 в документации по развертыванию, которая описывает процесс развертывания, а также предоставляет сведения о конфигурации для доступа внешних пользователей.
-ms.openlocfilehash: 3ae1508c56ac3240cfb9904415090ff1bdf18677
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5b755d0ba8802c47a176cb3375a87b6523f35fad
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029862"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876200"
 ---
 # <a name="deploy-pilot-edge-server"></a>Развертывание пилотного пограничного сервера
 

@@ -1,5 +1,6 @@
 ---
-title: Таблица tblSystemRevision
+title: tblSystemRevision
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,19 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
 description: Таблица tblSystemRevision содержит номер редакции, используемый с таблицей tblAdminLock для обеспечения согласованности между клиентами администраторов.
-ms.openlocfilehash: 53bf54678a97af2ea886cfbeb4df4163cf7b5124
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d4e8bf99597fa6c6a81d72950d5bcdbc6bcfa57d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876805"
 ---
-# <a name="tblsystemrevision"></a>Таблица tblSystemRevision
+# <a name="tblsystemrevision"></a>tblSystemRevision
  
 Таблица tblSystemRevision содержит номер редакции, используемый с таблицей tblAdminLock для обеспечения согласованности между клиентами администраторов.
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**|
+|**Столбец**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|
 |sysRevision  <br/> |bigint, не может быть null  <br/> |Номер редакции.  <br/> |
    

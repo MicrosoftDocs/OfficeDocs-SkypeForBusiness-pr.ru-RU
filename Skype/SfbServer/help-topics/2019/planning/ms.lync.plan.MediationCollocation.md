@@ -1,5 +1,6 @@
 ---
-title: Выровненное размещение посредника (средство планирования)
+title: Mediation Collocation (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Сервер-посредник совмещен с сервером переднего плана по умолчанию. Сервер-посредник также могут быть развернуты в отдельном пуле в целях повышения производительности или при развертывании распределения каналов SIP, в этом случае автономного пула настоятельно рекомендуется. Выровненное размещение в Скайп для функций Business Server так же, как и в Lync Server 2013. Дополнительные сведения содержатся в следующих разделах:'
-ms.openlocfilehash: 845b31a934318e0de2b10189ab6fa4d83be92482
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'Сервер-посредник совмещен с сервером переднего плана по умолчанию. Сервер-посредник также могут быть развернуты в отдельном пуле в целях повышения производительности или при развертывании распределения каналов SIP, в этом случае автономного пула настоятельно рекомендуется. Выровненное размещение в Скайп для функций Business Server так же, как и в Lync Server 2013. For details, see the following topics:'
+ms.openlocfilehash: effffec9ae375aea95e5286074eb03020ff6b5a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21066417"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876207"
 ---
-# <a name="mediation-collocation-planning-tool"></a>Выровненное размещение посредника (средство планирования)
+# <a name="mediation-collocation-planning-tool"></a>Mediation Collocation (Planning Tool)
  
-Сервер-посредник совмещен с сервером переднего плана по умолчанию. Сервер-посредник также могут быть развернуты в отдельном пуле в целях повышения производительности или при развертывании распределения каналов SIP, в этом случае автономного пула настоятельно рекомендуется. Выровненное размещение в Скайп для функций Business Server так же, как и в Lync Server 2013. Дополнительные сведения содержатся в следующих разделах:
+Сервер-посредник совмещен с сервером переднего плана по умолчанию. Сервер-посредник также могут быть развернуты в отдельном пуле в целях повышения производительности или при развертывании распределения каналов SIP, в этом случае автономного пула настоятельно рекомендуется. Выровненное размещение в Скайп для функций Business Server так же, как и в Lync Server 2013. For details, see the following topics:
   
 - [Поддерживаемое совместное размещение серверов в Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425885%28v=ocs.15%29.aspx)
     

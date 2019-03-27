@@ -1,5 +1,6 @@
 ---
 title: Планирование высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Сводка: Сведения в этой статье описывается планирование высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп Business Server 2015.'
-ms.openlocfilehash: 90f01de0ca7efef8fdcda4f03fa4bfaa28bd4fcc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88584c43cb205d10d2baacb6cb31c4e8fdbb228a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971657"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874796"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Планирование высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп Business Server 2015
  
@@ -41,15 +42,15 @@ ms.locfileid: "20971657"
     
 - Если включено соответствие требованиям сервера сохраняемого чата, требуются дополнительные три выделенную базу данных экземпляра. Их рассылки — это такие же, как описано ранее для базы данных Persistent Chat. Хотя база данных соответствия для совместного использования в одном экземпляре SQL Server с базой данных Persistent Chat, рекомендуется использовать отдельных экземпляров высокой доступности и аварийного восстановления.
     
-- В общей папке, создаются и предназначенный для журналов транзакций доставки журналов SQL Server. Все серверы SQL в обоих центров обработки данных, на которых выполняется Persistent Chat баз данных должны иметь доступ на чтение/запись в эту общую папку. Эту папку не определена как часть роли хранилища файлов.
+- В общей папке, создаются и предназначенный для журналов транзакций доставки журналов SQL Server. Все серверы SQL в обоих центров обработки данных, на которых выполняется Persistent Chat баз данных должны иметь доступ на чтение/запись в эту общую папку. This share is not defined as part of a FileStore role.
     
 - Файловый ресурс на сервере базы данных-получателя в качестве конечной папки для журналов транзакций SQL Server, которые копируются с общего файлового ресурса основного сервера.
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>Решения высокой доступности и аварийного восстановления
 
-Скайп для Business Server поддерживает несколько режимов обеспечения высокой доступности для вашей внутренними серверами, включая зеркальное отображение базы данных. Для получения дополнительных сведений см. [Планирование высокой доступности и аварийного восстановления в Скайп для Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+Скайп для Business Server поддерживает несколько режимов обеспечения высокой доступности для вашей внутренними серверами, включая зеркальное отображение базы данных. Дополнительные сведения см. в статье [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
   
-Решение аварийного восстановления для сервера сохраняемого чата описанного в данном разделе построена на вытянутый пул серверов сохраняемого чата. Не является обязательным для растянутых виртуальной локальной сети (VLAN). С продолжительностью пул серверов сохраняемого чата, Настройка одного пула в топологии логически, но физически поместить серверы в пуле в двух разных центрах данных. Настройка зеркального отображения SQL Server для базы данных так же, как и развертывания базы данных и зеркальный в одном центре обработки данных. Необходимо настроить резервной копии базы данных в центре обработки данных дополнительного (с необязательным зеркала для обеспечения высокой доступности во время аварийного восстановления). Это резервной копии базы данных, используемое для отработки отказа во время аварийного восстановления. 
+Решение аварийного восстановления для сервера сохраняемого чата описанного в данном разделе построена на вытянутый пул серверов сохраняемого чата. There is no requirement for a stretched virtual local area network (VLAN). С продолжительностью пул серверов сохраняемого чата, Настройка одного пула в топологии логически, но физически поместить серверы в пуле в двух разных центрах данных. You configure SQL Server mirroring for the database in the same way, and deploy the database and the mirror in the same data center. You need to configure a backup database in the secondary data center (with an optional mirror to provide high availability during disaster recovery). This is the backup database used for failover during disaster recovery. 
   
 Для получения дополнительных сведений о настройке высокой доступности и аварийного восстановления для сервера сохраняемого чата видеть [Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
   

@@ -1,5 +1,6 @@
 ---
 title: Расширитель пограничных параметров
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы изменить параметры для одного или нескольких существующих пулов пограничных серверов, можно воспользоваться следующими разделами параметров:'
-ms.openlocfilehash: 972481f04f678a701c3f6c3f8bab23adbdb2ea8a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1125073d1f733959c9c0312fe3f0d36ad5369f8f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258524"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876266"
 ---
 # <a name="edge-settings-expander"></a>Расширитель пограничных параметров
 
@@ -60,6 +61,6 @@ ms.locfileid: "23258524"
 
 ## <a name="see-also"></a>См. также
 
-Для получения дополнительных сведений об определении и настройке параметров для службы пограничного сервера просмотрите [Определение пограничных серверов](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
+О задании и настройке параметров пограничных служб см. в разделе [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
 
 

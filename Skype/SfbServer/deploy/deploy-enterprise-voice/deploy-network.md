@@ -1,5 +1,6 @@
 ---
 title: Развертывание областей сети, сайты и подсети в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Создание или изменение областей сети, сетевых узлов и сопоставление подсетей в Скайп для Business Server. Все эти группы используются для расширенных функций корпоративной голосовой связи: обход мультимедиа, контроль допуска звонков и маршрутизация на основе местоположения.'
-ms.openlocfilehash: fe6edf779d00b96918d8bf92ac7e749b9c003f15
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 91ce871d3e8d4871693b7ad28cf4659ea0bb0c4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297651"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875484"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Развертывание областей сети, сайты и подсети в Скайп для бизнеса
 
@@ -225,7 +226,7 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
 
-2. Чтобы связать подсеть с сетевым узлом используйте командлет **New-CsNetworkSubnet** :
+2. Чтобы связать подсеть с сетевым сайтом, используйте командлет **New-CsNetworkSubnet**:
 
    ```
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
@@ -280,7 +281,7 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
 7. Щелкните **ИД сетевого узла**, затем выберите ИД узла, в который необходимо добавить эту подсеть.
 
     > [!NOTE]
-    > Если вы еще не создали сетевые сайты, то этот список будет пустым. Дополнительные сведения см. в разделе [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Вы также можете получить идентификаторы сайта для развертывания с помощью командлета **Get-CsNetworkSite** . Дополнительные сведения см Скайп для документации по консоли управления Business Server.
+    > Если вы еще не создали сетевые сайты, то этот список будет пустым. Дополнительные сведения см. в разделе [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Также для получения ИД сетевых сайтов можно использовать командлет **Get-CsNetworkSite**. Дополнительные сведения см Скайп для документации по консоли управления Business Server.
 
 8. В поле **Описание** введите дополнительные сведения об этой подсети.
 
@@ -310,7 +311,7 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
 
 2. Убедитесь, в том что обе подсети 10.121.248.0/24 и 10.121.249.0/24 связаны с сетевым сайтом.
 
-## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
+## <a name="see-also"></a>См. также
 <a name="BKMK_AssociateSubnets"> </a>
 
 

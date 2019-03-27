@@ -1,5 +1,6 @@
 ---
-title: Получите последние интеграции данных
+title: Получение последних данных интеграции
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Сводка: Сведения о операции получения последнего интеграции данных, которая является частью API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
-ms.openlocfilehash: b2e759766987b6ee52795845ee55546920181807
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 33681e38b2dfeac635d3e3c7bd05e67980e0a598
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531789"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874425"
 ---
-# <a name="get-last-integration-data"></a>Получите последние интеграции данных
+# <a name="get-last-integration-data"></a>Получение последних данных интеграции
  
 **Сводка:** Узнайте о операции получения последнего интеграции данных, которая является частью API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.
   
 Операция получения последнего интеграции данных является частью API данных для панели мониторинга качества звонков.
   
-## <a name="get-last-integration-data"></a>Получите последние интеграции данных
+## <a name="get-last-integration-data"></a>Получение последних данных интеграции
 
 Операции получения последнего интеграции данных возвращает список последних 5 успеха/сбой системы архивации и обработки куба.
   

@@ -1,5 +1,6 @@
 ---
-title: Высокая доступность (средство планирования)
+title: High Availability (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Схема основной высокой доступности для большинства ролей сервера в Скайп для Business Server 2015 основано на избыточности сервера с помощью пула. В случае сбоя сервера, на котором выполняется определенная роль сервера, другие серверы в пуле с той же ролью берут его нагрузку на себя.
-ms.openlocfilehash: 8441db5ee4a84c573ed6a1642473b827382e4654
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 50cc5f371e4964555aae2a7f50ce3d1431f4f10c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874027"
 ---
-# <a name="high-availability-planning-tool"></a>Высокая доступность (средство планирования)
+# <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
  
 Схема основной высокой доступности для большинства ролей сервера в Скайп для Business Server 2015 основано на избыточности сервера с помощью пула. В случае сбоя сервера, на котором выполняется определенная роль сервера, другие серверы в пуле с той же ролью берут его нагрузку на себя.
   

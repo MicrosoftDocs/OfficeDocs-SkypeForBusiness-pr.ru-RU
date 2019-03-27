@@ -1,5 +1,6 @@
 ---
 title: Установка отчетов мониторинга в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Сводка: Узнайте, как установить службу, которая будет создавать отчеты мониторинга в Скайп для Business Server.'
-ms.openlocfilehash: 51d7e452be546c41daacbb0a0a77c142bace6e31
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ee500d3440e4211bc42566a7cbdd47ee2cd4cc0e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016600"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876424"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Установка отчетов мониторинга в Скайп для Business Server
  
@@ -64,7 +65,7 @@ ms.locfileid: "21016600"
     
 6. На странице **Выполнение команд** нажмите кнопку **Готово**.
     
-Мониторинг отчетов также можно установить из Скайп для консоли Business Server, выполнив скрипт DeployReports.ps1; Этот сценарий Windows PowerShell можно найти в \<расположение установки\>\Skype для папки 2015\Deployment\Setup Business Server. Установка отчетов мониторинга с помощью DeployReports.ps1, введите следующую команду в командной строке командной консоли:
+Мониторинг отчетов также можно установить из Скайп для консоли Business Server, выполнив скрипт DeployReports.ps1; Этот сценарий Windows PowerShell можно найти в \<расположение установки\>\Skype для папки 2015\Deployment\Setup Business Server. To install Monitoring Reports using DeployReports.ps1, type a command similar to the following at the Management Shell prompt:
   
 ```
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
@@ -72,7 +73,7 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
 
 Параметры, используемые в этой команде, описаны в следующей таблице.
   
-|**Имя параметра**|**Обязательно**|**Описание**|
+|**Имя параметра**|**Обязательно**|**Описание**.|
 |:-----|:-----|:-----|
 |storedUserName  <br/> |Да  <br/> |Учетная запись пользователя (в формате домен\имя_пользователя) для доступа к хранилищу данных наблюдения; например:  <br/> ```-storedUserName "litwareinc\kenmyer"```Эта учетная запись должна иметь предварительно заданные разрешения SQL Server и служб отчетов SQL Server или скрипт завершится с ошибкой.  <br/> |
 |storedPassword  <br/> |Да  <br/> |Пароль учетной записи пользователя для доступа к хранилищу данных наблюдения.  <br/> |
@@ -80,7 +81,7 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
 |reportSqlServerInstance  <br/> |Нет  <br/> |Экземпляр SQL Server, на котором размещаются службы отчетов. Экземпляр для служб отчетов следует указывать в виде полного доменного имени сервера отчетов, например:<br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com```Если этот параметр не указан то скрипт будет предполагать, что службы отчетов, размещенных в одном экземпляре SQL Server, на котором размещается база данных мониторинга.  <br/> |
 |monitoringDatabaseId  <br/> |Нет  <br/> |Удостоверение службы для базы данных мониторинга. Чтобы получить удостоверения для баз данных мониторинга, можно выполнить следующую команду:<br/> ```Get-CsService -MonitoringDatabase```|
    
-После установки отчетов мониторинга нажмите необходимо использовать командлет New-CsReportingConfiguration для настройки URL-адреса для доступ к отчетам. Этой задачи могут быть выполнены с Скайп для консоли Business Server, выполнив следующую команду Windows PowerShell. Обратите внимание, что рекомендуется, но не требуется использовать протокол HTTPS, при настройке отчетности URL-адрес:
+After the Monitoring Reports have been installed you must then use the New-CsReportingConfiguration cmdlet to configure the URL used to access these reports. Этой задачи могут быть выполнены с Скайп для консоли Business Server, выполнив следующую команду Windows PowerShell. Note that it is recommended, but not required, that you use the HTTPS protocol when configuring the reporting URL:
   
 ```
 New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.litwareinc.com' -ReportingURL 'https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST'

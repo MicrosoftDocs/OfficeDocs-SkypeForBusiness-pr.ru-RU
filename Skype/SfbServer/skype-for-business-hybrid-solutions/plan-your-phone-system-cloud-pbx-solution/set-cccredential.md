@@ -1,5 +1,6 @@
 ---
-title: SET-CcCredential
+title: Set-CcCredential
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: 'Командлет Set-CcCredential задает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition. '
-ms.openlocfilehash: 7680f863ccf082ddb8359c7d3fcefc2c058b6a40
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 547f0b87b006347a337a2c25222aecbd4f402669
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876643"
 ---
-# <a name="set-cccredential"></a>SET-CcCredential
+# <a name="set-cccredential"></a>Set-CcCredential
  
 Командлет Set-CcCredential задает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.  
   
@@ -40,14 +42,14 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Командлет Set-CcCredential задает имя и пароль учетной записи для администратора клиента. Для выпусков до 2.0 этот администратор должен быть глобального администратора Office 365. Облако соединитель использует эту учетную запись для получения сведений о конфигурации, задайте параметры конфигурации, а состояние обновления устройства для обеспечения связи в конфигурации клиента Office 365. В версии 2.0 и более поздних версий, можно также использовать этот командлет для обновления паролей для учетных записей VmAdmin и страница.
+Командлет Set-CcCredential задает имя и пароль учетной записи для администратора клиента. В выпусках вплоть до версии 2.0 этот администратор должен быть глобальным администратором Office 365. Облако соединитель использует эту учетную запись для получения сведений о конфигурации, задайте параметры конфигурации, а состояние обновления устройства для обеспечения связи в конфигурации клиента Office 365. В версии 2.0 и более поздних версий, можно также использовать этот командлет для обновления паролей для учетных записей VmAdmin и страница.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> | Обязательно <br/> |System.String  <br/> |  Параметр должен иметь значение "TenantAdmin", "VmAdmin" или "DomainAdmin". <br/> |
+| AccountType <br/> | Обязательный <br/> |System.String  <br/> |  Параметр должен иметь значение "TenantAdmin", "VmAdmin" или "DomainAdmin". <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>

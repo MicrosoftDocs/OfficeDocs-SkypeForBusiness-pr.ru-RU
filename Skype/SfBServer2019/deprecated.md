@@ -1,5 +1,6 @@
 ---
 title: Что, удаленные из Скайп для Business Server 2019
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: Эти возможности были удалены из Скайп для Business Server 2019.'
-ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: bd7519e66632c005d81ff9fc110684f6c4854c41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561613"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876657"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Что, удаленные из Скайп для Business Server 2019
 
@@ -56,7 +57,7 @@ Persistent Chat Server является дополнительной ролью,
 
 Не будут доступны для использования в первоначальном выпуске Скайп Business Server 2019 следующие средства:
 
-- Скайп для планирования мощности калькулятор Business Server
+- Калькулятор планирования мощности Skype для бизнеса Server
 - Скайп для Business Server средства отладки
 - Скайп для Business Server Resource Kit Tools (будут удалены некоторые средства)
     - Счетчик парковки вызовов
@@ -67,7 +68,7 @@ Persistent Chat Server является дополнительной ролью,
 
 - Вызов качества методика (но не вызывайте панели мониторинга качества)
 - Система показателей методика качества звонков Microsoft, версии 1.5
-- Skype for Business Server 2015 Planning Tool
+- Средство планирования Skype для бизнеса Server 2015
 - Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>См. также

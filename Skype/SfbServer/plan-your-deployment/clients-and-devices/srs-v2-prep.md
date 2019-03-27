@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: В этой статье описывается Подготовка инфраструктуры для развертывания версии 2 Скайп комнаты систем.
-ms.openlocfilehash: 24ad623b81df5735c9034d8526e6b028e82dfb83
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 89c035816784bf160ad7f1ed821ed0effe916f31
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371884"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876074"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -84,30 +84,30 @@ ms.locfileid: "25371884"
 3. В **Windows поиска** введите нижней левой в редакторе реестра (либо долго клавишу экрана или щелкните правой кнопкой мыши и выберите команду **Запуск от имени администратора**).
     
 4. Щелкните папку HKEY_USERS (вы увидите список идентификаторов SID пользователей компьютера) и убедитесь в том, что выбрана корневая папка HKEY_USERS.
-    
-    Будет выведен запрос имени ключа для вашей вновь загруженного куста; Введите в Скайп (должна появиться параметры реестра для пользователя Скайп).
-    
+       
 5. Щелкните файл и нажмите кнопку **Загрузить куст.**
     
 6. Перейдите к **C:\Users\Skype** папку и введите в поле имя файла NTUSER.dat поле и нажмите кнопку Открыть
-    
-7. Откройте раздел Скайп и перейдите к HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet параметры, затем убедитесь, что эти параметры будут введены: 
+
+7. Будет выведен запрос имени ключа для вашей вновь загруженного куста; Введите в Скайп (должна появиться параметры реестра для пользователя Скайп).
+ 
+8. Откройте раздел Скайп и перейдите к HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet параметры, затем убедитесь, что эти параметры будут введены: 
     
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
     
-    «MigrateProxy» = DWORD: 00000001
+    "MigrateProxy"=dword:00000001
     
-    «ProxyEnable» = DWORD: 00000001
+    "ProxyEnable"=dword:00000001
     
-    «ProxyServer"="xx.xx.xx.xx:8080»
+    "ProxyServer"="xx.xx.xx.xx:8080"
     
     Если параметр ProxyServer не существует, его может потребоваться добавить в качестве строкового параметра. Замените xx.xx.xx.xx:8080 на IP-адрес или имя узла и порт вашего прокси-сервера.
     
-8. После завершения внесения изменений выделения пользователя Скайп ключевые (корневой папки для Скайп) и выберите команду Выгрузить куст из меню файл реестра (будет выведен запрос на подтверждение - выберите **Да** ).
+9. После завершения внесения изменений выделения пользователя Скайп ключевые (корневой папки для Скайп) и выберите команду Выгрузить куст из меню файл реестра (будет выведен запрос на подтверждение - выберите **Да** ).
     
-9. Теперь можно закрыть редактор реестра и ввести logoff в поле "Поиск в Windows".
+10. Теперь можно закрыть редактор реестра и ввести logoff в поле "Поиск в Windows".
     
-10. Вернувшись на экран входа, выберите пользователя **Skype**. Если все предыдущие шаги выполнены успешно, устройство версии 2 Скайп комнаты систем будет вход успешно.
+11. Вернувшись на экран входа, выберите пользователя **Skype**. Если все предыдущие шаги выполнены успешно, устройство версии 2 Скайп комнаты систем будет вход успешно.
     
 Чтобы использовать это приложение, необходимо обеспечить подключение к следующим конечным точкам. Чтобы просмотреть IP-адреса, разверните соответствующий раздел под таблицей с описанием потока трафика.
   
@@ -117,14 +117,14 @@ ms.locfileid: "25371884"
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Проверка подлинности и удостоверение в  <br/> |[Office 365 проверки подлинности](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) и удостоверения <br/> |||
 |Портал и общие службы  <br/> |[Office 365 портала и общему](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) см. <br/> |||
-|Сигнализация SIP  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|Сигнализация SIP  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |Протокол TCP 443  <br/> |
 |Веб-конференции по каналам PSOM  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Скачанные по протоколу HTTPS данные  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Звук  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50,000-50019  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50,000-59,999  <br/> |
 |Видео  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 020-50039  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50,000-59,999  <br/> |
 |Совместный доступ к рабочему столу  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 040-50059  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50,000-59,999  <br/> |
 |Push-уведомления Lync Mobile для Lync Mobile 2010 на устройствах iOS. Для мобильных устройств с Android, Nokia Symbian или Windows Phone не требуется.  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
-|Телеметрия Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |skypemaprdsitus.trafficmanager.NET  <br/> pipe.Skype.com  <br/> |Нет  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
+|Телеметрия Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Возможность идентификации любого пользователя в организации с помощью ПИН-кода.  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
 |Советы клиента Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |quicktips.skypeforbusiness.com  <br/> |Нет  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
    
 > [!NOTE]

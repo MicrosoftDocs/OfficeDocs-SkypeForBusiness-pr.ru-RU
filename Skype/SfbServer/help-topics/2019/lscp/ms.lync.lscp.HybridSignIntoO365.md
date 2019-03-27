@@ -1,5 +1,6 @@
 ---
 title: Мастер гибридной войти в Office 365
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -16,12 +17,12 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте Скайп к управляемости гибридного сервера Business мастера по настройке среды для гибридной среды с Скайп для бизнеса в Интернет.
-ms.openlocfilehash: b656aae6b60858c4637d49532a6fcf34d8631ccc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: efbb21fded9a6ec6445062bc075f9116f963c71c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248406"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877079"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Мастер гибридной среды: вход в Office 365
 
@@ -31,6 +32,6 @@ ms.locfileid: "23248406"
 
 Введите имя пользователя и пароль в клиенте Office 365 для входа и подключения локального развертывания с помощью клиента Office 365. Вам потребуется использовать учетную запись администратора для создания домена onmicrosoft при входе в систему Office 365, например admin@contoso.onmicrosoft.com.
 
-Дополнительные сведения о том, как настроить среду для гибридной среды можно [Общие сведения о гибридных развертываниях](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
+Дополнительные сведения о способе настройки среды для гибридного образа использования см. в разделе [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
 
 

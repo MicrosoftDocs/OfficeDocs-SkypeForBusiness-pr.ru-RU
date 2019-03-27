@@ -1,5 +1,6 @@
 ---
 title: Представление FocusJoinsAndLeaves
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: Представление FocusJoinsAndLeaves сохранение информации о соединения и оставьте сведения для одной конференции. Каждой конференции представленного в этом представлении записи каждый раз пользователь присоединился к и покинул данную конференцию. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: 3ae234977ef541ca523178f41b40f12135b16bfd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4fa6a2ec043c5f9746a14d5214be9ad531159cd7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874083"
 ---
 # <a name="focusjoinsandleaves-view"></a>Представление FocusJoinsAndLeaves
  

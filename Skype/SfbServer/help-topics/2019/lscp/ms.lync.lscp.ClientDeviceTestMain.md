@@ -1,5 +1,6 @@
 ---
 title: Тестовое устройство
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы можете добавить устройство проверки на страницу Устройство проверки и затем использовать его для проверки функциональных возможностей новых обновлений перед их развертыванием на производственных устройствах. Вы можете протестировать устройство глобально (то есть в рамках всей среды) или для отдельного сайта. Устройство проверки указывается по MAC-адресу или серийному номеру. При добавлении устройства, оно отображается в списке на странице устройство проверки Скайп для панели управления Business Server.
-ms.openlocfilehash: 2f29c1e03bdeed44f69990604c8c0e5437b481eb
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 86c8320615ac4d194c33e455283a7b56fd5fb825
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253905"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876904"
 ---
 # <a name="test-device"></a>Тестовое устройство
 
@@ -51,12 +52,12 @@ ms.locfileid: "23253905"
 
 - **Обновление** Можно обновить список устройств проверки, чтобы проверить состояние параметров всех устройств проверки.
 
-Для получения дополнительных сведений о тестировании устройств в разделе [Add устройства для проверки возможности обновления](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) в документации по операциям.
+Дополнительные сведения о тестировании устройств см. в разделе [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) документации по использованию.
 ## <a name="see-also"></a>См. также
 
 [Тестовое устройство: создание нового или редактирование существующего](ms.lync.lscp.ClientDeviceTestEdit.md)
 
-[Новый CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
+[New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
 
 [SET-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
 
