@@ -1,5 +1,6 @@
 ---
 title: Назначение свойств
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 description: Используйте диалоговое окно назначения свойства для указания идентификатора сети и описание сайта в нескольких подсетях за один раз. В поле Описание введите описание, которое будет использоваться для подсетей, выбранном. В ИД сетевого узла выберите ИД сетевого узла, который требуется назначить подсети, выбранном. Чтобы назначить эти свойства подсети, выбранном, нажмите кнопку ОК.
-ms.openlocfilehash: 5111f74c27ea2c367218a79c9ea1e0fbb0df0a3a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bfd05528da40f35e0adf6361253a8682d91719cf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990276"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883034"
 ---
-# <a name="assign-properties"></a><span data-ttu-id="d5a6e-106">Назначение свойств</span><span class="sxs-lookup"><span data-stu-id="d5a6e-106">Assign Properties</span></span>
+# <a name="assign-properties"></a><span data-ttu-id="01f4a-106">Назначение свойств</span><span class="sxs-lookup"><span data-stu-id="01f4a-106">Assign Properties</span></span>
  
-<span data-ttu-id="d5a6e-107">Используйте диалоговое окно **Назначения свойства** для указания идентификатора сети и описание сайта в нескольких подсетях за один раз.</span><span class="sxs-lookup"><span data-stu-id="d5a6e-107">Use the **Assign Properties** dialog box to specify a description and network site ID to multiple subnets at one time.</span></span> <span data-ttu-id="d5a6e-108">В поле **Описание**введите описание, которое будет использоваться для подсетей, выбранном.</span><span class="sxs-lookup"><span data-stu-id="d5a6e-108">In **Description**, type the description you want to use for the subnets you selected.</span></span> <span data-ttu-id="d5a6e-109">В **ИД сетевого узла**выберите ИД сетевого узла, который требуется назначить подсети, выбранном.</span><span class="sxs-lookup"><span data-stu-id="d5a6e-109">In **Network site ID**, select the network site ID that you want to assign to the subnets you selected.</span></span> <span data-ttu-id="d5a6e-110">Чтобы назначить эти свойства подсети, выбранном, нажмите **кнопку ОК**.</span><span class="sxs-lookup"><span data-stu-id="d5a6e-110">To assign these properties to the subnets you selected, click **OK**.</span></span>
+<span data-ttu-id="01f4a-107">Используйте диалоговое окно **Назначения свойства** для указания идентификатора сети и описание сайта в нескольких подсетях за один раз.</span><span class="sxs-lookup"><span data-stu-id="01f4a-107">Use the **Assign Properties** dialog box to specify a description and network site ID to multiple subnets at one time.</span></span> <span data-ttu-id="01f4a-108">В поле **Описание**введите описание, которое будет использоваться для подсетей, выбранном.</span><span class="sxs-lookup"><span data-stu-id="01f4a-108">In **Description**, type the description you want to use for the subnets you selected.</span></span> <span data-ttu-id="01f4a-109">В **ИД сетевого узла**выберите ИД сетевого узла, который требуется назначить подсети, выбранном.</span><span class="sxs-lookup"><span data-stu-id="01f4a-109">In **Network site ID**, select the network site ID that you want to assign to the subnets you selected.</span></span> <span data-ttu-id="01f4a-110">Чтобы назначить эти свойства подсети, выбранном, нажмите **кнопку ОК**.</span><span class="sxs-lookup"><span data-stu-id="01f4a-110">To assign these properties to the subnets you selected, click **OK**.</span></span>
   
-<span data-ttu-id="d5a6e-111">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="d5a6e-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="01f4a-111">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="01f4a-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

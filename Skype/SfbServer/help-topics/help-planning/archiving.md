@@ -1,5 +1,6 @@
 ---
-title: Архивация (средство планирования)
+title: Archiving (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,16 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
 description: Архивация в Скайп для Business Server предоставляет способ для архивации передаваемых через Скайп для Business Server.
-ms.openlocfilehash: 6082df30fb2dd827e5db03ad779533e49604332d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 84c56c7c136ff36d22ed23cbc1e77f610a38043a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883296"
 ---
-# <a name="archiving-planning-tool"></a><span data-ttu-id="773d8-103">Архивация (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="773d8-103">Archiving (Planning Tool)</span></span>
+# <a name="archiving-planning-tool"></a><span data-ttu-id="8d3f4-103">Archiving (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="8d3f4-103">Archiving (Planning Tool)</span></span>
  
-<span data-ttu-id="773d8-104">Архивация в Скайп для Business Server предоставляет способ для архивации передаваемых через Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="773d8-104">Archiving in Skype for Business Server provides a way for you to archive communications that are sent through Skype for Business Server.</span></span>
+<span data-ttu-id="8d3f4-104">Архивация в Скайп для Business Server предоставляет способ для архивации передаваемых через Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="8d3f4-104">Archiving in Skype for Business Server provides a way for you to archive communications that are sent through Skype for Business Server.</span></span>
   
-<span data-ttu-id="773d8-105">Для получения дополнительных сведений о подготовке среды для сервера архивации видеть [Планирование архивации в Скайп для Business Server 2015](../../plan-your-deployment/archiving/archiving.md).</span><span class="sxs-lookup"><span data-stu-id="773d8-105">For details about preparing your environment for Archiving Server, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).</span></span>
+<span data-ttu-id="8d3f4-105">Для получения дополнительных сведений о подготовке среды для сервера архивации видеть [Планирование архивации в Скайп для Business Server 2015](../../plan-your-deployment/archiving/archiving.md).</span><span class="sxs-lookup"><span data-stu-id="8d3f4-105">For details about preparing your environment for Archiving Server, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).</span></span>
   
 
