@@ -1,5 +1,6 @@
 ---
 title: Представление MediaLine
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: Представление MediaLine хранятся сведения о каждом канале передачи мультимедиа в базе данных. Один аудиосеанса обычно содержит одну строку аудио. Один аудио- и видеоконференций (A / V) сеанса обычно содержит одну строку аудио и одну строку видео; Тем не менее сеанс может содержать две строки видео при использовании устройства конференц-связи или при использовании представления галереи. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: 11905ae9ccc67bb166702f4d43f19d1b52bfbe7b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 04037bae4b2f04058667d42205a2e0b33abacb4f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894218"
 ---
 # <a name="medialine-view"></a>Представление MediaLine
  

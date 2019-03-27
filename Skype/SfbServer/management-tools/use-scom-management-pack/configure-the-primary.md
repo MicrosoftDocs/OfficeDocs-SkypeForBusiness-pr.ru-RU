@@ -1,5 +1,6 @@
 ---
 title: Настройка основного сервера управления
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Сводка: Настройка вашей основной сервер управления сервера, установки System Center Operations Manager и импорт пакетов управления для Скайп для Business Server 2015.'
-ms.openlocfilehash: a6413277b2e3c08627f0763fc110f0dab7b1c44d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 06dbf8161e2b241bb527c0ca02c9e8210055d409
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373530"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890081"
 ---
 # <a name="configure-the-primary-management-server"></a>Настройка основного сервера управления
 
@@ -55,7 +56,7 @@ ms.locfileid: "25373530"
 
 При установке пакетов управления можно расширить возможности System Center Operations Manager — программное обеспечение, которое может отслеживать определяет элементы, System Center Operations Manager, как эти элементы должны отслеживаться и запуска оповещения и отчеты. Скайп для Business Server 2015 включает в себя два пакета управления System Center Operations Manager, которые обеспечивают следующие возможности:
 
-- **Компонент и пакет управления пользователя** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) отслеживает Скайп проблем Business Server записываются в журналы событий, зарегистрированные счетчики производительности или в записи регистрации вызовов (CDR) или базы данных качества взаимодействия (QoE). Для критических проблем System Center Operations Manager можно настроить для сразу же уведомления администраторов с помощью электронной почты, мгновенное сообщение или SMS системы обмена сообщениями. (SMS или сообщения SMS является технологии, используемые для отправки текстовых сообщений с мобильного устройства).
+- **Компонент и пакет управления пользователя** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) отслеживает Скайп проблем Business Server записываются в журналы событий, зарегистрированные счетчики производительности или в записи регистрации вызовов (CDR) или базы данных качества взаимодействия (QoE). Для критических проблем System Center Operations Manager можно настроить для сразу же уведомления администраторов с помощью электронной почты, мгновенное сообщение или SMS системы обмена сообщениями. (SMS, or Short Message Service, is the technology used to send text messages from one mobile device to another.)
 
     > [!NOTE]
     >  Для получения дополнительных сведений о настройке уведомлений Operations Manager видеть [Настройка уведомлений](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).

@@ -1,5 +1,6 @@
 ---
 title: Таблица Registration
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: Каждая запись представляет одно событие регистрации пользователя.
-ms.openlocfilehash: 87a05d49c9dbf723203bf8efe02dee7cd16550a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1dd8f623799753e078d112d08de960076618dfac
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885685"
 ---
 # <a name="registration-table"></a>Таблица Registration
  
 Каждая запись представляет одно событие регистрации пользователя.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Основной, внешний  <br/> |Время запроса сеанса. Используется совместно с **SessionIdSeq** для уникальной идентификации сеанса. В разделе [диалоговых окон в таблице в Скайп для Business Server 2015](dialogs.md) для получения дополнительных сведений. <br/> |
 |**SessionIdSeq** <br/> |целое  <br/> |Основной, внешний  <br/> |Номер идентификатора для идентификации сеанса. Используется в сочетании с **SessionIdTime** для уникальной идентификации сеанса. В разделе [диалоговых окон в таблице в Скайп для Business Server 2015](dialogs.md) для получения дополнительных сведений. <br/> |
@@ -41,7 +43,7 @@ ms.lasthandoff: 03/28/2018
 |**DiagnosticId** <br/> |целое  <br/> ||Диагностический идентификатор запроса регистрации. Это указывает на то, тип диагностические сведения.  <br/> |
 |**DeviceId** <br/> |целое  <br/> |Внешний  <br/> |Устройство, откуда запроса регистрации. В разделе [Таблица устройств в Скайп для Business Server 2015](devices.md) для получения дополнительных сведений. <br/> |
 |**DeRegisterTypeId** <br/> |tinyint  <br/> |Внешний  <br/> |Причина de-register, такие как «пользователь инициировал», «срок действия регистрации истек», «сбой клиента» и многое другое. [Таблица DeRegisterType в Скайп для Business Server 2015](deregistertype.md) для получения дополнительных сведений см. <br/> |
-|**IP-адрес** <br/> |nvarchar(256)  <br/> ||IP-адрес конечной точки пользователя зарегистрирован. Это может быть адрес IPv4 или IPv6-адрес.  <br/> В этом поле было представлено в Microsoft Lync Server 2013.  <br/> |
+|**IPAddress** <br/> |nvarchar(256)  <br/> ||IP-адрес конечной точки пользователя зарегистрирован. Это может быть адрес IPv4 или IPv6-адрес.  <br/> В этом поле было представлено в Microsoft Lync Server 2013.  <br/> |
 |**LastModifiedTime** <br/> |Даты и времени  <br/> ||Для внутреннего использования службой мониторинга.  <br/> В этом поле было представлено в Скайп для Business Server 2015.  <br/> |
    
 

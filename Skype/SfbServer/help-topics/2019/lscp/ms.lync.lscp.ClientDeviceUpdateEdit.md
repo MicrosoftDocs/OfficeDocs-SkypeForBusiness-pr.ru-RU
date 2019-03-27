@@ -1,5 +1,6 @@
 ---
 title: Изменить настройки журнала устройств
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: Можно добавить настройку журнала устройств на странице Изменение параметров журнала, который определяет максимальный размер кэша, максимальный размер файла журнала или время хранения файла журнала до его удаления. Можно изменить эти параметры в соответствии с потребностями организации.
-ms.openlocfilehash: 7e2e5091c662f105b47e2a3a8574c144457753dc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ac8e30dced9c5383ab88068d27a6a44444312da1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974440"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890975"
 ---
 # <a name="device-log-configuration-edit"></a>Конфигурация журнала устройств: редактирование
  

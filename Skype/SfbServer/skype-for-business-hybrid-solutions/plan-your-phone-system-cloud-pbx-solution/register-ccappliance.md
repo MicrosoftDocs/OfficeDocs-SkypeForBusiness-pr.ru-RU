@@ -1,5 +1,6 @@
 ---
 title: Register-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: Командлет Register-CcAppliance регистрирует сведения об устройстве на сайте ТСОП в конфигурации интерактивного клиента. Прежде чем развертывать устройство и управлять им с помощью службы управления Skype для бизнеса Cloud Connector Edition, необходимо зарегистрировать его.
-ms.openlocfilehash: 8f1156ccd32b101e6eab957bc3ce7549a3bcc7d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892275"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -54,7 +56,7 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Необходимо указать учетную запись и пароль администратора клиента. Используйте учетную запись, созданные для соединителя облачных online управления. 
+Необходимо указать учетную запись и пароль администратора клиента. Используйте учетную запись, созданную для управления Cloud Connector через Интернет. 
   
 В выпуске 1.4.2 и более ранних версий, следуйте инструкциям, чтобы предоставить пароль внешний сертификат, пароль администратора безопасного режима, пароль администратора домена и пароль администратора виртуальной Машины. 
   
@@ -83,10 +85,10 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|:-----|
-|Имя_узла  <br/> |Необязательно  <br/> |System.String  <br/> |Имя сайта ТСОП, на котором регистрируется устройство. В качестве значения по умолчанию принимается значение SiteName в файле CloudConnector.ini.  <br/> |
-|Имя устройства  <br/> |Необязательно  <br/> |System.String  <br/> |Имя текущего устройства В качестве значения по умолчанию принимается имя компьютера, присвоенное серверу узла.  <br/> |
+|SiteName  <br/> |Необязательно   <br/> |System.String  <br/> |Имя сайта ТСОП, на котором регистрируется устройство. В качестве значения по умолчанию принимается значение SiteName в файле CloudConnector.ini.  <br/> |
+|ApplianceName  <br/> |Необязательно   <br/> |System.String  <br/> |Имя текущего устройства В качестве значения по умолчанию принимается имя компьютера, присвоенное серверу узла.  <br/> |
 |Локально  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Локальная проверка регистрации без подключения к конфигурации интерактивного клиента.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
@@ -102,12 +104,12 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>
 
-[Отмена регистрации CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[Публикация CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 [Install-CcAppliance](install-ccappliance.md)
   
-[Удаление CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

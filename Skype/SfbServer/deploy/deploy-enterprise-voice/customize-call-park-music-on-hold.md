@@ -1,5 +1,6 @@
 ---
 title: Настройка парковки вызовов музыку при удержании inSkype для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Настройка парковки вызовов, музыки на хранение в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 261c3dac0926ca15240eb3c8a345d1a70fecdfb4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3d1ccdf70278173bf5a3a448e5330a24879d117
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885117"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895435"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Настройка парковки вызовов музыку при удержании inSkype для бизнеса
  
 Настройка парковки вызовов, музыки на хранение в Скайп Business Server корпоративной голосовой связи.
   
-Можно указать собственный файл музыки для использования при удержании, вместо файлов музыку по умолчанию, которое поставляется с Скайп для Business Server. Чтобы настроить музыку при удержании, используйте командлет **Set-CsCallParkServiceMusicOnHoldFile** .
+Можно указать собственный файл музыки для использования при удержании, вместо файлов музыку по умолчанию, которое поставляется с Скайп для Business Server. Чтобы настроить музыку, воспроизводимую при удержании вызова, используйте командлет **Set-CsCallParkServiceMusicOnHoldFile**.
   
 > [!NOTE]
 > Если настроить музыку при удержании и должно же музыки для нескольких сайтов, необходимо настроить файл музыки для каждого сайта, на котором выполняется приложение парковки вызовов. 
@@ -42,7 +43,7 @@ ms.locfileid: "23885117"
    ```
 
     > [!TIP]
-    > Командлет **Get-CsService** для идентификации службы. Дополнительные сведения см [Командлет Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps). 
+    > Используйте командлет **Get-CsService** для идентификации службы. Дополнительные сведения см [Командлет Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps). 
   
     В следующем примере показано, как получить содержимое файла soothingmusic.wma в виде байтового массива и назначить его переменной. Затем аудиофайл назначается для режима приостановки вызовов в качестве музыки, воспроизводимой при удержании вызова. Дополнительные сведения см [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).
     
@@ -53,6 +54,6 @@ ms.locfileid: "23885117"
 
 ## <a name="see-also"></a>См. также
 
-[SET-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
+[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   
-[Командлет Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)

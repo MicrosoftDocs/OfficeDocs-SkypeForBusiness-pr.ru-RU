@@ -1,5 +1,6 @@
 ---
 title: Сброс контроля допуска звонков
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Если устаревшего пула переднего плана размещен контроль допуска звонков (CAC), необходимо переместить контроль допуска звонков размещения для Скайп для пула Business Server 2019, прежде чем удалять устаревшие пула переднего плана.
-ms.openlocfilehash: 65d56d000c5bcec5f7aae73413c287dee8ab29ca
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3b94322b86feb2c647f88102617ab1dcc9d5f8bc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027321"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895777"
 ---
 # <a name="reset-call-admission-control"></a>Сброс контроля допуска звонков
 
@@ -29,6 +30,6 @@ ms.locfileid: "25027321"
     
 4. В разделе **пул переднего плана для запуска контроля допуска звонков (CAC)** выберите Скайп для Business Server 2019 пула, который должен размещаться контроля допуска звонков и нажмите кнопку **ОК**.
     
-5. Публикация топологии.
+5. Опубликуйте топологию.
     
 

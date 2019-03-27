@@ -1,5 +1,6 @@
 ---
 title: tblPreference
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
 description: tblPreference содержит параметры клиента пользователей. Обычно используется клиентами предшествующих Lync 2013.
-ms.openlocfilehash: c76c62ec453ab1a152738cb16d76e5c5394a2a98
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b5036d9c71feaea6406ecdcaa6f15b61f64d5ad3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375945"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879793"
 ---
 # <a name="tblpreference"></a>tblPreference
 
@@ -24,7 +25,7 @@ tblPreference содержит параметры клиента пользов�
 **Столбцы**
 
 
-| **Столбец**            | **Тип**                        | **Описание**                                                 |
+| **Столбец**            | **Тип**                        | **Описание**.                                                 |
 |:----------------------|:--------------------------------|:----------------------------------------------------------------|
 | prefLabel  <br/>      | nvarchar (255), отлично от null  <br/> | Метка имеет формат, таких как: \<uri sip пользователя\>                   |
 | prefSeqID  <br/>      | int, не null  <br/>            | Порядковый номер (каждой отдельной метки) для управления версиями.  <br/> |
@@ -33,7 +34,7 @@ tblPreference содержит параметры клиента пользов�
 
 **Ключ**
 
-|**Столбец**|**Описание**|
+|**Столбец**|**Описание**.|
 |:-----|:-----|
 |\<prefLabel prefSeqID\>  <br/> |Первичный ключ.  <br/> |
 

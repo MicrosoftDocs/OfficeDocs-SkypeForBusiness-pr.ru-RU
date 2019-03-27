@@ -1,5 +1,6 @@
 ---
-title: Определите IP-адрес шлюза IP или ТСОП
+title: Определение IP-адреса шлюза IP или ТСОП
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Определение адресов IPv4 или IPv6 для шлюза IP-адресов или по телефону коммутируемой телефонной сети (общего пользования PSTN), выбрав включить IPv4 или включить IPv6. Можно либо использовать все настроенные IP-адреса или ограничьте использование службы выбранных IP-адресов.
-ms.openlocfilehash: c6d287fdb6705bbca00a6aa269f548f30417c513
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4def45565685b819fa587e61e1c7588a3664d225
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260603"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894826"
 ---
-# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Определите IP-адрес шлюза IP или ТСОП
+# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Определение IP-адреса шлюза IP или ТСОП
 
 Определение адресов IPv4 или IPv6 для шлюза IP-адресов или по телефону коммутируемой телефонной сети (общего пользования PSTN), выбрав **Включить IPv4** или **Включить IPv6**. Вы можете **использовать все настроенные IP-адреса** или **ограничьте использование службы выбранных IP-адресов**.
 

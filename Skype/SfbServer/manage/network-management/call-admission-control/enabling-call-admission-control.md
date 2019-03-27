@@ -1,5 +1,6 @@
 ---
 title: Включение контроля допуска звонков
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: " После настройки сетевой контроля допуска допуска звонков необходимо включить контроль допуска звонков для принудительного применения ограничения пропускной способности."
-ms.openlocfilehash: 9c264305a38bf4bf9ef3716c5df82d74155e8936
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: a683fe0f437fc1c3fa92784313135d094e43c8b1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222837"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897645"
 ---
-# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Включение контроля допуска звонков в Скайп для Business Server
+# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Включение контроля допуска звонков в Skype для бизнеса Server
 
 Контроль доступа звонков — это сеть регионов, сайтов и подсетей, которые позволяют вам налагать ограничения на передачу звука и видео в зависимости от доступной пропускной способности. После настройки сетевой контроля допуска звонков необходимо включить контроль допуска звонков для принудительного применения ограничения пропускной способности. Для этого можно использовать Скайп для панели управления Business Server.
 

@@ -1,5 +1,6 @@
 ---
 title: Управление федеративными доменами SIP для организации
+ms.reviewer: ''
 ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Узнайте, как управлять и настраивать доменов SIP, которые можно создать федерацию с,
-ms.openlocfilehash: 565971ccf5cd4cbf62f08acc91e15f9615d350f7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 83623b41e0d9adb1e4539958344214fd2ebe0db9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223089"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892261"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Управление федеративных доменов SIP для вашей организации в Скайп для Business Server
 
@@ -94,6 +95,6 @@ ms.locfileid: "27223089"
 
 [Включение или отключение федерации и подключение для общедоступного обмена мгновенными сообщениями](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-[Включение и отключение обнаружения федеративных партнеров](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
+[Включение или отключение обнаружения федеративных партнеров](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
   
 

@@ -1,5 +1,6 @@
 ---
 title: Политика сохраняемого чата
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: Страницу Политика сохраняемого чата группы Сохраняемый чат можно использовать для управления политиками на глобальном уровне, на уровне пула, сайта или пользователя, в том числе для настройки глобальной политики по умолчанию и создания одной или нескольких дополнительных политик пользователей или сайтов для вашего развертывания. Если сервера сохраняемого чата для пользователя включена политикой, среды сервера сохраняемого чата отображается в своих клиентов.
-ms.openlocfilehash: 95020a24cc8f68c33028977cc5e4c3569423b219
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: fc994f74acc0abf8d4d615d3d85ea3662c367904
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375785"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894931"
 ---
 # <a name="persistent-chat-policy"></a>Политика сохраняемого чата
  

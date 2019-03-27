@@ -1,5 +1,6 @@
 ---
 title: Запуск служб
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Запуск служб на развернутое server role, выберите пункт выполнить на шаге 4: запуск служб. Необходимо войти в систему как участник локальной группы администраторов или иметь эквивалентные права.'
-ms.openlocfilehash: 1c2d76bd0dffa9541dce8e66883d54be8db74031
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bd499ccd1a94c5ff58b6d9428ff0032022d5b075
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981595"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894088"
 ---
 # <a name="start-services"></a>Запуск служб
  

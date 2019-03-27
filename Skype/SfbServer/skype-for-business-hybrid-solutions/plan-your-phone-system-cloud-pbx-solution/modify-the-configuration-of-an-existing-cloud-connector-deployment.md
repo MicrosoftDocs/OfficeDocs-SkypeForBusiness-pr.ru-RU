@@ -1,5 +1,6 @@
 ---
 title: Изменение конфигурации существующего развертывания Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Выполните действия, описанные в этом разделе, чтобы изменить конфигурацию существующего Скайп для соединителя Cloud Business Edition версии 1.4.1 или более поздняя версия развертывания.
-ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375374"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893057"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Изменение конфигурации существующего развертывания Cloud Connector
  
@@ -63,7 +64,7 @@ ms.locfileid: "25375374"
 
 При наличии нескольких устройств на сайте необходимо выполнить эти шаги, изменить файл CloudConnector.ini и последовательно развернуть все устройства снова.
   
-1. Выполните следующий командлет, чтобы удалить все существующие виртуальные машины на текущем устройстве. 
+1. Выполните следующий командлет, чтобы удалить все существующие виртуальные машины на текущем устройстве.  
     
    ```
    Uninstall-CcAppliance
@@ -147,9 +148,9 @@ ms.locfileid: "25375374"
    New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
    ```
 
-   - Задайте интервал времени обновления для сайта. 
+   - Задайте интервал времени обновления для сайта.  
     
-     Интервалы времени обновления BITS-файлов и операционной системы задаются отдельно. В обоих случаях можно настроить один или несколько интервалов времени. Каждый интервал времени может быть назначен разным сайтам для разных целей (обновление BITS-файлов или операционной системы). Выполните следующий командлет, чтобы установить интервал времени для сайта: 
+     Интервалы времени обновления BITS-файлов и операционной системы задаются отдельно. В обоих случаях можно настроить один или несколько интервалов времени. Каждый интервал времени может быть назначен разным сайтам для разных целей (обновление BITS-файлов или операционной системы). Выполните следующий командлет, чтобы установить интервал времени для сайта:  
     
    ```
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
@@ -172,17 +173,17 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Это раздел применяется только к Cloud Connector версии 2.0 и более поздних. 
   
-Все облака соединителя учетные данные хранятся в следующий файл: «% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml». При изменении паролей на хост-сервере, необходимо обновить локально сохраненных учетных данных.
+Все облака соединителя учетные данные хранятся в следующий файл: «% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml». При изменении пароля на сервере узла необходимо обновить учетные данные, сохраненные локально.
   
 Чтобы обновить локально сохраненных учетных данных на устройстве соединителя облаке, используйте командлеты [Get-CcCredential](get-cccredential.md) и [Set-CcCredential](set-cccredential.md) и выполните следующие действия:
   
 1. Выполните следующие команды, чтобы получить пароли, которые вам понадобятся в дальнейшем.  
     
-   - Get-CcCredential - AccountType страница - DisplayPassword
+   - Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
    - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-   - Get-CcCredential - AccountType CceService - DisplayPassword
+   - Get-CcCredential -AccountType CceService -DisplayPassword
     
 2. Измените пароль учетной записи на сервере узла.
     
@@ -190,7 +191,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 4. Удалите следующий файл: «% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml».
     
-5. Запуск консоли PowerShell от имени администратора и запустите «Register CcAppliance-локальный» повторного ввода после описания службы и паролей. Убедитесь, что укажите тот же пароль, введенные до развертывания облака соединителя.
+5. Запуск консоли PowerShell от имени администратора и запустите «Register CcAppliance-локальный» повторного ввода после описания службы и паролей. Необходимо ввести тот же пароль, который был указан ранее для развертывания Cloud Connector.
     
 По умолчанию для учетных записей VmAdmin и DomainAdmin используется тот же пароль, что и для CceService. Если пароли для учетных записей DomainAdmin, VMAdmin и CceService, возвращаемые на шаге 1, различаются между собой, необходимо выполнить следующие действия.
   
@@ -323,8 +324,6 @@ Set-CcCredential -AccountType TenantAdmin
 6. 
     
     Удалите регистрацию клиента для каждого устройства на сайте, выполнив следующий командлет в консоли PowerShell Skype для бизнеса Online.
-
-
     
    ```
    Remove-CsHybridPSTNSite

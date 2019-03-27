@@ -1,5 +1,6 @@
 ---
 title: Запрос, установка или назначение сертификатов
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Шаг 3: Запрос, установка или назначение сертификатов запускается мастер сертификатов после выберите пункт выполнить. Сертификаты, настроенные в мастере основаны на определении Скайп для топологии Business Server, которая настроена и опубликованный Topology Builder для центрального хранилища управления. Для успешного запуска мастера сертификатов для локальную службу сертификации (ЦС) в организации, необходимо войти на компьютер как пользователь, являющийся членом группы администраторов локального компьютера. Также необходимо прошедшего проверку подлинности пользователя домена в домене, где существует компьютера и ЦС. Мастер сертификатов предоставляют возможность указать альтернативные учетные данные для доступа к ЦС организации.'
-ms.openlocfilehash: cf61a6e2c065ea01e18ae5935c3b4e0e49d9ea36
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c281855a786a7f497b39515711bd8af36b3a62b2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966217"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893078"
 ---
 # <a name="request-install-or-assign-certificates"></a>Запрос, установка или назначение сертификатов
  

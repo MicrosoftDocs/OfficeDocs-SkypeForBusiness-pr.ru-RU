@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующего устройства проверки
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Возможность "Устройство проверки" работает совместно с возможностью "Обновление устройства". Вы можете добавить устройство проверки на страницу Устройство проверки и затем использовать его для проверки функциональных возможностей новых обновлений перед их развертыванием на производственных устройствах. Вы можете протестировать устройство глобально (то есть в рамках всей среды) или для отдельного сайта. Устройство проверки указывается по MAC-адресу или серийному номеру. При добавлении устройства, оно отображается в списке на странице устройство проверки Скайп для панели управления Business Server.
-ms.openlocfilehash: fc9328a500df8f457362a46f146114f2d09682f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1bb61f99ceab29eb3915e7650e1a760b1798f0db
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263207"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882273"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Тестовое устройство: создание нового или редактирование существующего
 
@@ -49,12 +50,12 @@ ms.locfileid: "23263207"
 
 - **Уникальный идентификатор** Можно ввести MAC-адрес или серийный номер устройства.
 
-Для получения дополнительных сведений о тестировании устройств в разделе [Add устройства для проверки возможности обновления](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) в документации по операциям.
+Дополнительные сведения о тестировании устройств см. в разделе [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) документации по использованию.
 ## <a name="see-also"></a>См. также
 
 [Тестовое устройство](ms.lync.lscp.ClientDeviceTestMain.md)
 
-[Новый CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
+[New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
 
 [SET-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
 

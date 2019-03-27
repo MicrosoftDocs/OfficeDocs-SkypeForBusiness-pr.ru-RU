@@ -1,5 +1,6 @@
 ---
 title: Планирование корпоративной голосовой связи в Скайп решение Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Сводка: Сведения о возможностях по планированию единое решение голосовой связи и коммуникаций в Скайп Business Server.'
-ms.openlocfilehash: 23bd0663be3a5e8a2dfc98c83bccacf9a5b1b793
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d564c609bdcb869db47986179d18a518c1bcab34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885041"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893649"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Планирование корпоративной голосовой связи в Скайп решение Business Server
  

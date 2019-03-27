@@ -1,5 +1,6 @@
 ---
 title: Узел области применения видеомагистралей SIP
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server 2015.
-ms.openlocfilehash: b9dda367ee98411ec552f2773ebb051a4d7988d5
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: d3a75645a7dfa42616cf44b66b8fa93b49249c8e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504196"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894095"
 ---
 # <a name="sip-video-trunks-scope-node"></a>Узел области применения видеомагистралей SIP
  

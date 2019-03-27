@@ -1,5 +1,6 @@
 ---
 title: Управление параметрами конфигурации сервера конференц-связи в Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Сводка: Узнайте, как управлять параметрами конфигурации сервера конференц-связи в Скайп для Business Server.'
-ms.openlocfilehash: ede34c37e957340f0aa01ac511378d2f4bb3a80e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a12226f9f7d56f9f8a61b6f820a2c0f9744121fc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21009896"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890383"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Управление параметрами конфигурации сервера конференц-связи в Скайп для Business Server
  
@@ -22,7 +23,7 @@ ms.locfileid: "21009896"
   
 В этом разделе описывается, как управлять параметрами конфигурации конференц-связи. Дополнительные сведения о планировании и развертывании конференц-связи видеть [план для конференц-связи в Скайп для Business Server](../../plan-your-deployment/conferencing/conferencing.md) и [Развертывание конференц-связи в Скайп для Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-Параметры конфигурации конференц-связи определить такие параметры, как максимальный допустимый размер содержимого собрания и раздаточные материалы; Максимальный объем пропускной способности для службы конференц-связь, совместное использование приложений; ограничения для хранилища и срок действия; загружаемые файлы для URL-адреса для внутренних и внешних поддерживаемые клиента; указатели на внутренних и внешних URL-адреса, где пользователи могут получить помощь конференц-связи и ресурсов; и портов, используемых для общего доступа к приложениям, клиент аудио-, передача файлов и трафика мультимедиа. Эти параметры позволяют управлять фактический самого сервера. Эти параметры можно настроить с помощью Скайп для консоли Business Server.
+Параметры конфигурации конференц-связи определить такие параметры, как максимальный допустимый размер содержимого собрания и раздаточные материалы; Максимальный объем пропускной способности для службы конференц-связь, совместное использование приложений; ограничения для хранилища и срок действия; загружаемые файлы для URL-адреса для внутренних и внешних поддерживаемые клиента; указатели на внутренних и внешних URL-адреса, где пользователи могут получить помощь конференц-связи и ресурсов; и портов, используемых для общего доступа к приложениям, клиент аудио-, передача файлов и трафика мультимедиа. These settings allow you to manage the actual servers themselves. Эти параметры можно настроить с помощью Скайп для консоли Business Server.
   
 При установке Скайп для Business Server система предоставляет одной коллекции конференц-связи параметры конфигурации (глобальной коллекции). Если вам необходимо создать настраиваемые параметры для сайта или службы, это можно сделать с помощью командлета **New-CsConferencingConfiguration** . Обратите внимание на то, что новые параметры могут применяться только на уровне сайта или службы; не удается создать новую коллекцию глобальных конференц-связи, параметры конфигурации, однако можно изменить глобальную коллекцию с помощью командлета **Set-CsConferencingConfiguration** . Кроме того не сайта или службы может размещаться более чем одной коллекции параметров. Если вы попытаетесь для создания новых параметров для Redmond сайта и Redmond уже хранится коллекция параметров конфигурации конференц-связи сайтов, а затем команда завершится с ошибкой.
   
@@ -37,7 +38,7 @@ ms.locfileid: "21009896"
 |[Get-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |Возвращает сведения о параметрах конфигурации конференц-связи для организации.  <br/> |
 |[New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |Создает коллекцию параметров конфигурации конференц-связи.  <br/> |
 |[Remove-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |Удаляет указанную коллекцию параметров конфигурации конференц-связи.  <br/> |
-|[SET-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |Изменяет существующую коллекцию параметров конфигурации конференц-связи.  <br/> |
+|[Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |Изменяет существующую коллекцию параметров конфигурации конференц-связи.  <br/> |
    
 Приведенная ниже команда создает новую коллекцию параметров конфигурации конференц-связи для сайта Redmond (site:Redmond). В этом примере используется один дополнительный параметр (Organization), с помощью которого свойству Organization присваивается значение Litwareinc. 
   

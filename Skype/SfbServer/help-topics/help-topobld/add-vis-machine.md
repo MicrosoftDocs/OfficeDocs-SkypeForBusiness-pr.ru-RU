@@ -1,5 +1,6 @@
 ---
 title: Добавление компьютера сервера видеовзаимодействия
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server 2015.
-ms.openlocfilehash: 2cc957db293d5652ac8a5c5f22b6dca2303c9db5
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 4b0f8fc3d8533ab8f8f97733198c532f72d5d037
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504476"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890699"
 ---
 # <a name="add-vis-machine"></a>Добавление компьютера сервера видеовзаимодействия
  

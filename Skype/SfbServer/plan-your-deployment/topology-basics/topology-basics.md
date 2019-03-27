@@ -1,5 +1,6 @@
 ---
 title: Основные сведения о топологии для Скайп для Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Сводка: Нажмите кнопку топологии для Скайп for Business Server. Узнайте о выровненное размещение серверов для Скайп для Business Server.'
-ms.openlocfilehash: 5d2589d6ba7878ea69c8860ad99f182912e471dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 566d044defd69dd9ae79bc964c9a587332649b42
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886167"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881620"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Основные сведения о топологии для Скайп для Business Server
 
@@ -30,7 +31,7 @@ ms.locfileid: "23886167"
 
 ## <a name="sites"></a>Сайты
 
-В Скайп Business Server можно определить сайтов локальной сети, содержащие Скайп для компонентов Business Server. Сайт — это набор компьютеров, соединенных высокоскоростной, небольшой задержкой сети, например одной локальной сети (LAN) или две сети, подключенных к сети оптический высокоскоростную оптоволоконной. Обратите внимание, что Скайп для сайтов Business Server отдельные концепции из доменных служб Active Directory — сайты и сайты Microsoft Exchange Server. Ваше Скайп для сайтов Business Server, соответствуют на сайтах Active Directory не требуется.
+В Скайп Business Server можно определить сайтов локальной сети, содержащие Скайп для компонентов Business Server. A site is a set of computers that is well-connected by a high-speed, low-latency network, such as a single local area network (LAN) or two networks connected by a high-speed fiber optic network. Обратите внимание, что Скайп для сайтов Business Server отдельные концепции из доменных служб Active Directory — сайты и сайты Microsoft Exchange Server. Ваше Скайп для сайтов Business Server, соответствуют на сайтах Active Directory не требуется.
 
 Скайп для Business Server поддерживает локальное развертывание одного или нескольких сайтов, которые может масштабироваться в соответствии с высокой доступности и требования к расположению.
 
@@ -133,7 +134,7 @@ ms.locfileid: "23886167"
 
 - веб-компоненты для поддержки веб-задач, таких как веб-планировщик и компонент обеспечения процесса присоединения.
 
-- дополнительно: архивация как отдельных мгновенных сообщений, так и собраний для соответствия нормативным требованиям. Дополнительные сведения см [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) в документации по планированию.
+- дополнительно: архивация как отдельных мгновенных сообщений, так и собраний для соответствия нормативным требованиям. Более подробные сведения см. в разделе [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) документации по развертыванию.
 
     В Lync Server 2010 и более ранних версий мониторинг и архивация были разными ролями сервера, не располагается на сервере переднего плана.
 
@@ -164,7 +165,7 @@ ms.locfileid: "23886167"
 > [!NOTE]
 > XMPP шлюзов и прокси-серверы, доступные в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Для получения дополнительных сведений в разделе [федерации XMPP миграции](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
 
-### <a name="mediation-server"></a>Сервер-посредник
+### <a name="mediation-server"></a>посредник
 
 Сервер-посредник является компонентом необходимых для реализации корпоративной голосовой связи, звонок с помощью рабочих и конференц-связи. Сервер-посредник преобразует сигналы и некоторые конфигурации мультимедиа между вашей внутренней Скайп для инфраструктуры Business Server и общего пользования шлюза телефонной сети (общего пользования PSTN), IP-УАТС или магистрали Session Initiation Protocol (SIP). Можно запустить сервер-посредник с совместным размещением на том же сервере, что и сервер переднего плана, или в отдельном пуле сервера-посредника.
 
@@ -227,7 +228,7 @@ ms.locfileid: "23886167"
 
 - сервер видеовзаимодействия
 
-- Веб-приложения Office Web App
+- веб-приложения Office Web App
 
 ### <a name="databases"></a>Базы данных
 
@@ -262,7 +263,7 @@ ms.locfileid: "23886167"
 
 - База данных соответствия persistent Chat
 
-#### <a name="both"></a>Оба
+#### <a name="both"></a>Both
 
 Теперь существуют некоторые дополнительные правила следует придерживаться при collocating Скайп для сервера баз данных в одном экземпляре SQL или в нескольких экземпляров SQL в той же базе данных SQL Server:
 

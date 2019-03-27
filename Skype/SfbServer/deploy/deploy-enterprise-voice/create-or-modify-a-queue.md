@@ -1,5 +1,6 @@
 ---
 title: Создание или изменение очереди в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Создание или изменение очереди группы ответа, в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d564a40f8e650042fe23ff1db6262c6d1c5b93a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374517"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895515"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Создание или изменение очереди в Скайп для бизнеса
  
 Создание или изменение очереди группы ответа, в Скайп Business Server корпоративной голосовой связи.
   
-Очереди содержат абонентов, пока агент отвечает на звонок. Когда приложение группы ответа выполняет поиск доступного агента, будет выполняться поиск группы агентов в порядке их список. Можно выбрать группы агентов, назначенные в очередь и задать поведение очереди, такие как ограничивать количество вызовов, в очереди и период времени, что вызов ожидает ответы агента вызова.
+Queues hold callers until an agent answers the call. Когда приложение группы ответа выполняет поиск доступного агента, будет выполняться поиск группы агентов в порядке их список. You can select the agent groups that are assigned to the queue and specify queue behavior, such as limiting the number of calls that the queue can hold and the period of time that a call waits until an agent answers the call.
   
 Чтобы создать или изменить очередь, используйте одну из следующих процедур.
   
@@ -41,7 +42,7 @@ ms.locfileid: "25374517"
     
 4. На странице **Очередь** выполните одно из следующих действий.
     
-   - Чтобы создать очередь, нажмите кнопку **Создать**. В **поле выбора службы**введите часть имени или полное имя службы **ApplicationServer** , где вы хотите добавить очереди в поле поиска. В полученном списке служб выберите требуемую службу и затем нажмите кнопку **ОК**.
+   - Чтобы создать очередь, нажмите кнопку **Создать**. В окне **Выбор службы** в поле поиска введите имя службы **ApplicationServer**, для которой необходимо добавить очередь, или часть имени. В полученном списке служб выберите требуемую службу и затем нажмите кнопку **ОК**.
     
    - Чтобы изменить существующую очередь, введите в поле поиска ее имя или его часть. В полученном списке очередей выберите требуемую очередь, нажмите кнопку **Изменить**, а затем кнопку **Подробнее**.
     
@@ -118,7 +119,7 @@ ms.locfileid: "25374517"
    ```
 
    > [!NOTE]
-   > Чтобы использовать звукового файла в строке, используйте командлет **Import-CsRgsAudioFile** . Дополнительные сведения см [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+   > Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом **Import-CsRgsAudioFile**. Дополнительные сведения см [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Определите действие, которое должно выполняться при достижении порогового времени ожидания очереди, и сохраните его в переменной. В командной строке введите следующую команду.
     
@@ -148,7 +149,7 @@ ms.locfileid: "25374517"
    ```
 
       > [!NOTE]
-      > Чтобы использовать звукового файла в строке, используйте командлет **Import-CsRgsAudioFile** . Дополнительные сведения см [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+      > Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом **Import-CsRgsAudioFile**. Дополнительные сведения см [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Определите действие, которое должно выполняться при достижении максимального числа звонков в очереди, и сохраните его в переменной. В командной строке введите следующую команду.
     
@@ -200,16 +201,16 @@ ms.locfileid: "25374517"
 
 ## <a name="see-also"></a>См. также
 
-[Командлет New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
-[Командлет Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
+[Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
-[Командлет New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
 [Командлет New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
-[Командлет Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
+[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   
 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
-[Командлет remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
+[Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)

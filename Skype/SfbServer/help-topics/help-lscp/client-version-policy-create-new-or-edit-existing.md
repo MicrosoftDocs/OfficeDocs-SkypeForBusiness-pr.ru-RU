@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей политики версий клиентов
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 description: Вы может указать версию клиентов, поддерживаемых в вашей среде. При взаимодействии двух клиентов с разными версиями возможности, доступные обоим клиентам, могут быть ограничены возможностями другого клиента. Важнейшим использования компонентов, содержащихся в Скайп для Business Server 2015 и улучшить работу пользователей в целом, можно использовать фильтр версий клиентов для ограничения версий клиентов, которые используются в вашей среде. Используя этот фильтр, вы также можете сократить расходы, связанные с поддержкой нескольких версий клиентов.
-ms.openlocfilehash: 9b69b3dd52665c01e42d12f7aed2790064cb6688
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 80494c52aa20175a74daac7b094600bb4590d92a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261149"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885071"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>Политика версии клиента: создание новой или редактирование существующей
 
@@ -52,5 +53,5 @@ ms.locfileid: "23261149"
 
 - **Стрелки вверх и вниз** Этот параметр перемещает правило версий клиентов выбранного вверх или вниз в приоритет. Правила обрабатываются в указанном порядке.
 
-Для получения дополнительных сведений о взаимодействии между клиентами и версий клиентов видеть [Взаимодействие с клиентом в Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) в документации по планированию. Для получения дополнительных сведений о работе с политики версий клиентов см [Версий клиента, поддерживаемые в вашей организации](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) в документации по операциям.
+Дополнительные сведения о взаимодействии клиентов и версиях клиентов см. в разделе[Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) в документации по планированию. Дополнительные сведения о работе с политиками версий клиентов см. в разделе [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) документации по использованию.
 

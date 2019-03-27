@@ -1,5 +1,6 @@
 ---
 title: Добавление политики расположения в области сети, в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: Назначение политик расположения E9-1-1 для сетевых узлов в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: caf7de4816c30ba77a4215457b503ac0f8fe9640
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7a6930fddcadc9b9eb772d20c21ff1e13be6bef0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370884"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890348"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Добавление политики расположения в области сети, в Скайп для Business Server
  
@@ -28,11 +29,11 @@ ms.locfileid: "25370884"
   
 Для получения дополнительных сведений о работе с сетевыми узлами обратитесь к документации Командная консоль Lync Server для следующих командлетов:
   
-- **Новый CsNetworkSite**
+- **New-CsNetworkSite**
     
 - **Get-CsNetworkSite**
     
-- **SET-CsNetworkSite**
+- **Set-CsNetworkSite**
     
 - **Remove-CsNetworkSite**
     

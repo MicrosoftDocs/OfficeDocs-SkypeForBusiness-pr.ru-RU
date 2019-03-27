@@ -1,5 +1,6 @@
 ---
-title: Изменение политики мобильных устройств клиента
+title: Изменение политики мобильных устройств для клиентов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: В диалоговом окне Изменение политики мобильных устройств можно изменить сведения о политики мобильных устройств.
-ms.openlocfilehash: dd23d7ee4d838d2e3e3aa5d0b4a4134818660088
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0c10beff86078be294e39a32327b4562446d935d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241808"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893976"
 ---
-# <a name="edit-client-mobility-policy"></a>Изменение политики мобильных устройств клиента
+# <a name="edit-client-mobility-policy"></a>Изменение политики мобильных устройств для клиентов
 
 В диалоговом окне **Изменение политики мобильных устройств** можно изменить сведения о политики мобильных устройств.
 

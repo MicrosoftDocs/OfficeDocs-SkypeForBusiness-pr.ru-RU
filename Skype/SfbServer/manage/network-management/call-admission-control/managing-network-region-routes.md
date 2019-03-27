@@ -1,5 +1,6 @@
 ---
 title: Управление маршрутов между сетевыми областями
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Маршрута области сети определяет маршрут между парой областей сети. Каждой парой областей сети в вашего развертывания контроля допуска звонков необходимо маршрута области сети.
-ms.openlocfilehash: 98d7f0ce8f6cb89aa443c5dc8863afd34c355ff3
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 12e8d9072df3affdb6e47b6ddb0452e0ee5982a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223159"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898125"
 ---
-# <a name="managing-network-region-routes-in-skype-for-business-server"></a>Управление маршрутов между сетевыми областями в Скайп для Business Server
+# <a name="managing-network-region-routes-in-skype-for-business-server"></a>Управление маршрутами сетевых областей в Skype для бизнеса Server
 
 *Маршрут к региону сети* определяет маршрут между парой областей сети. Каждой парой областей сети в вашего развертывания контроля допуска звонков необходимо маршрута области сети. Это позволяет каждому региону сети в рамках развертывания осуществлять доступ к любому другому региону. Используйте процедуры, описанные в этом artilce для просмотра, создания, изменения или удаления маршрутов между сетевыми областями.
 
@@ -129,13 +130,13 @@ ms.locfileid: "27223159"
 
 5.  В меню **Правка** выберите пункт **Удалить**.
 
-6.  Нажмите **OK**.
+6.  Нажмите **ОК**.
 
 
 
 ## <a name="see-also"></a>См. также
 
-[Управление областей сети в Скайп для Business Server](managing-network-regions.md)
+[Управление сетевыми областями в Skype для бизнеса Server](managing-network-regions.md)
 
 [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 

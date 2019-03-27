@@ -1,5 +1,6 @@
 ---
 title: Неназначенный номер телефона
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Неназначенные номера — это телефонные номера, допустимые для вашей организации, но не назначенные пользователю или телефону. В таблице неназначенных номеров указывается, как обрабатываются такие номера.
-ms.openlocfilehash: c5161fb083e9d251c05d39601e793b508590c61a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fcb94ca101f2a2380c1d458ae740a492d6cd60c1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262563"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897722"
 ---
 # <a name="unassigned-phone-number"></a>Неназначенный номер телефона
 
@@ -78,6 +79,6 @@ ms.locfileid: "23262563"
 
 - **Оповещения** Извещение, воспроизводимое для этого диапазона неназначенных номеров.
 
-Для получения дополнительных сведений о объявления функций и возможностей см [в приложении объявлений в Скайп для бизнеса 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) в документации по планированию. Для получения дополнительных сведений о работе с диапазоны неназначенных номеров содержатся в документации по операциям [Настройка маршрутизации для неназначенных телефонных номеров](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) .
+Для получения дополнительных сведений о объявления функций и возможностей см [в приложении объявлений в Скайп для бизнеса 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) в документации по планированию. Дополнительные сведения о работе с диапазонами неназначенных номеров см. в разделе [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) документации по использованию.
 
 

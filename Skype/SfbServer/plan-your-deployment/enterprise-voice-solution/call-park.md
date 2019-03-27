@@ -1,5 +1,6 @@
 ---
 title: Планирование парковки вызовов в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Планирование для парковки вызовов в Скайп Business Server корпоративной голосовой связи, что позволяет размещение звонков на удержание и передача вызовов для отделов. Включает планирование мощности, поддерживаемые вызовы и поддерживаемые клиенты.
-ms.openlocfilehash: 328c94507c393aba1edc7253bdf962a2904a44d6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 92c896bb610827108379af2bca38cd7a89639af2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883357"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894067"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Планирование парковки вызовов в Скайп для бизнеса
  
@@ -84,7 +85,7 @@ ms.locfileid: "23883357"
   
 - Skype для бизнеса
     
-- Lync 2013
+- Lync 2013
     
 - Lync 2010
     
@@ -105,7 +106,7 @@ ms.locfileid: "23883357"
   
 - Skype для бизнеса
     
-- Lync 2013
+- Lync 2013
     
 - Lync 2010
     

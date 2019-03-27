@@ -1,5 +1,6 @@
 ---
 title: Включение качества взаимодействия в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,23 +10,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: 'Сводка: Узнайте, как включить качества взаимодействия (QoE) в Скайп для Business Server.'
-ms.openlocfilehash: 38c0c14382e8f00abd49f6671af705400c0cff8c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ba3b34769e5fb74aa641d89168ef7203bec0d2d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261093"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892345"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Включение качества взаимодействия в Скайп для Business Server
 
 **Сводка:** Включение качества взаимодействия (QoE) в Скайп для Business Server.
 
-Служба отслеживания качества взаимодействия (QoE) записывает числовые данные, которые показывают качество мультимедиа-данных, и сведения об участниках, именах устройств, драйверах, IP-адресах и типах конечных точек, использованных во время звонка или сеанса. Дополнительные сведения см [мониторинг](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx) в документации по планированию.
+Служба отслеживания качества взаимодействия (QoE) записывает числовые данные, которые показывают качество мультимедиа-данных, и сведения об участниках, именах устройств, драйверах, IP-адресах и типах конечных точек, использованных во время звонка или сеанса. Подробные сведения см. в разделе [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx) документации по планированию.
 
 Используйте следующую процедуру для включения службы качества взаимодействия для всей организации или для отдельных сайтов в организации.
 
 > [!NOTE]
-> Чтобы включить службу качества взаимодействия, сначала необходимо настроить мониторинг и внутреннюю базу данных мониторинга. Дополнительные сведения см [Развертывание мониторинга](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
+> Чтобы включить службу качества взаимодействия, сначала необходимо настроить мониторинг и внутреннюю базу данных мониторинга. Дополнительные сведения см. в разделе [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
 
 ### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>Включение службы качества взаимодействия с помощью Скайп для панели управления Business Server
 
@@ -71,5 +72,5 @@ ms.locfileid: "23261093"
 
 [Планирование мониторинга](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[Мониторинг развертывания](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
 

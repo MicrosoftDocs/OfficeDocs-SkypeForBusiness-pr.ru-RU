@@ -1,5 +1,6 @@
 ---
 title: Представление audiostreamdetail
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: Представление Audiostreamdetail хранятся сведения о каждом аудиопотоке в базе данных. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: 4dadc53f0641e2d59dc72b2add433c69fc9b8ad1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c5078a0d936cce0dec29ddfee3813db7334aba71
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895288"
 ---
 # <a name="audiostreamdetail-view"></a>Представление audiostreamdetail
  
@@ -25,8 +27,8 @@ ms.lasthandoff: 03/28/2018
 |SessionTime  <br/> |datetime  <br/> |Ссылка из [MediaLine table](medialine-0.md).  <br/> |
 |SessionSeq  <br/> |целое  <br/> |Ссылка из [MediaLine table](medialine-0.md).  <br/> |
 |StreamId  <br/> |целое  <br/> |Уникальный идентификатор в канале передачи мультимедиа.  <br/> |
-|Время начала  <br/> |datetime  <br/> |Начало сеанса.  <br/> |
-|Время окончания  <br/> |datetime  <br/> |Время окончания сеанса.  <br/> |
+|StartTime  <br/> |datetime  <br/> |Начало сеанса.  <br/> |
+|EndTime  <br/> |datetime  <br/> |Время окончания сеанса.  <br/> |
 |DialogCategory  <br/> |бит  <br/> |Категория диалога: 0 — это Скайп для Business Server до сервера-посредника; 1 — это ветвь шлюза ТСОП сервера-посредника.  <br/> |
 |MediationServerBypassFlag  <br/> |бит  <br/> |Флаг, указывающий ли вызов обход сервера-посредника или нет.  <br/> |
 |MediaBypassWarningFlag  <br/> |целое  <br/> |Если этот параметр указан, указывает, почему звонка не обход сервера-посредника даже при совпадении идентификаторы сервера-посредника. Определяется только одно значение:  <br/> 0x0001 — Неизвестный идентификатор обхода для сетевого адаптера по умолчанию.  <br/> |
@@ -145,7 +147,7 @@ ms.lasthandoff: 03/28/2018
 |RatioConcealedSamplesAvg  <br/> |Decimal(5,2)  <br/> |Среднее отношение числа скрытых образцов, созданных функцией восстановления звука, к обычным образцам.  <br/> |
 |RatioStretchedSamplesAvg  <br/> |Decimal(5,2)  <br/> |Среднее отношение числа растянутых образцов, созданных функцией восстановления звука, к обычным образцам.  <br/> |
 |RatioCompressedSamplesAvg  <br/> |Decimal(5,2)  <br/> |Среднее отношение числа сжатых образцов, созданных функцией восстановления звука, к обычным образцам.  <br/> |
-|Обмена данными  <br/> |целое  <br/> |Время кругового пути из статистики RTCP.  <br/> |
+|RoundTrip  <br/> |целое  <br/> |Время кругового пути из статистики RTCP.  <br/> |
 |RoundTripMax  <br/> |целое  <br/> |Максимальное время кругового пути для аудиопотока.  <br/> |
 |OverallAvgNetworkMOS  <br/> |Decimal(3,2)  <br/> |Средняя экспертная оценка MOS сети для вызова. Этот показатель зависит от потери пакетов, дрожанием и кодек, который используется. Значения — от версии 1.0 до 5.0.  <br/> |
 |OverallMinNetworkMOS  <br/> |Decimal(3,2)  <br/> |Минимальная экспертная оценка качества MOS сети для вызова.  <br/> |

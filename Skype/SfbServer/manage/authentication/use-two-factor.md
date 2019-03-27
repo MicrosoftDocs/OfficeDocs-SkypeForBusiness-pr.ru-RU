@@ -1,5 +1,6 @@
 ---
 title: Использовать двухфакторной проверки подлинности с помощью Скайп для бизнеса клиентов и Скайп для Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Сводка: Используйте двухфакторной проверки подлинности с помощью Скайп для Business Server и Скайп для бизнеса.'
-ms.openlocfilehash: 734e63d22610dab44cc221290b462e51e93291f1
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 0c66808f22655e3f78a23930adc84dcbc31af6bb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25694591"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894204"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Использовать двухфакторной проверки подлинности с помощью Скайп для бизнеса клиентов и Скайп для Business Server
  

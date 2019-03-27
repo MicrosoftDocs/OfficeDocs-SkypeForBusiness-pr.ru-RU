@@ -1,5 +1,6 @@
 ---
 title: (Необязательно) Группа ответа Проверка развертывания в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Проверка вашего развертывания успешно группы ответа, в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: ebf8e9960b26dfa0da256e0ea26e356648cbe356
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2a0cc58101199183a23d74152a0ef6a05a1fb699
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532178"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893941"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Необязательно) Группа ответа Проверка развертывания в Скайп для бизнеса
  
@@ -31,7 +32,7 @@ ms.locfileid: "26532178"
     
 - Агент, размещенный на Скайп для бизнеса
     
-  **Scenarios**
+  **Сценарии**
   
 - Скайп для бизнес-пользователь вызывает группу ответа.
     

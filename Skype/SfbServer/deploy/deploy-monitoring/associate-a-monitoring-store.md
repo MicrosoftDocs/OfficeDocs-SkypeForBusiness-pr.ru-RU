@@ -1,5 +1,6 @@
 ---
 title: Связать хранилище данных мониторинга с пулом переднего плана в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Сводка: Узнайте, как связать пулов переднего плана с хранилищем мониторинга, используемые Скайп для Business Server.'
-ms.openlocfilehash: a7a7965016ed659d120cf4bff642e85e9941b193
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1156883202218dd536926f44f40e6ba774b17cb7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968211"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887146"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Связать хранилище данных мониторинга с пулом переднего плана в Скайп для Business Server 
 **Сводка:** Узнайте, как связать пулов переднего плана с хранилищем мониторинга, используемые Скайп для Business Server.
@@ -23,7 +24,7 @@ ms.locfileid: "20968211"
   
 ## <a name="associate-a-monitoring-store-with-a-front-end-pool"></a>Связь хранилища мониторинга с пулом переднего плана
 
- Чтобы связать хранилище данных мониторинга с помощью нового пула переднего плана, убедитесь в том, что вы выбрали параметр **мониторинг (регистрации вызовов и ведение журнала качества взаимодействия показатели)** на странице " **Выбор компонентов** " в мастере определения нового пула переднего плана. Обратите внимание на то, что при выборе этого параметра необходимо также указать хранилище SQL для выполнения мастера; Тем не менее это хранилище не существует во время выполнения мастера. Это означает, что можно сначала свяжите пул с хранилищем мониторинга, а затем более поздней версии программы установки и настройки этого хранилища.
+  To associate a monitoring store with a new Front End pool, make sure that you select the option **Monitoring (call detail recording and logging of quality of experience metrics)** on the **Select Features** page of the Define New Front End Pool wizard. Note that, if you select this option, you must also specify a SQL store in order to complete the wizard; however, this store does not have to exist at the time you run the wizard. That means that you can first associate a pool with a monitoring store, then later setup and configure that store.
   
 Или же вы можете связать существующий интерфейсный пул с новым или другим хранилищем мониторинга, выполнив следующие действия.
   
@@ -43,7 +44,7 @@ ms.locfileid: "20968211"
     
 7. В диалоговом окне **Изменить свойства** нажмите кнопку **ОК**.
     
-После связывания хранилищем мониторинга с пулом переднего плана необходимо опубликовать новую топологию, чтобы изменения вступили в силу. Для публикации новой топологии, выполните следующие действия в построителе топологии:
+After associating the monitoring store with a Front End pool you must publish the new topology before the changes take effect. Для публикации новой топологии, выполните следующие действия в построителе топологии:
   
 1. Нажмите **Действие**, наведите указатель на пункт **Топология**, затем нажмите кнопку **Опубликовать**.
     
@@ -51,7 +52,7 @@ ms.locfileid: "20968211"
     
 3. На странице **Завершение мастера публикации** нажмите кнопку **Готово**.
     
-После публикации топологии базу данных мониторинга затем можно установить на компьютере, на котором будет размещаться хранилищу данных наблюдения. База данных мониторинга можно установить с помощью Скайп для консоли Business Server и Windows PowerShell. Установка базы данных локально (то есть, для установки базы данных на том же компьютере, где выполняется Скайп для консоли Business Server), запустите командную консоль на соответствующий компьютер, а затем введите следующую команду и нажмите клавишу ВВОД:
+After the topology has been published you can then install the monitoring database on the computer that will host the monitoring store. База данных мониторинга можно установить с помощью Скайп для консоли Business Server и Windows PowerShell. Установка базы данных локально (то есть, для установки базы данных на том же компьютере, где выполняется Скайп для консоли Business Server), запустите командную консоль на соответствующий компьютер, а затем введите следующую команду и нажмите клавишу ВВОД:
   
 ```
 Install-CsDatabase -LocalDatabases

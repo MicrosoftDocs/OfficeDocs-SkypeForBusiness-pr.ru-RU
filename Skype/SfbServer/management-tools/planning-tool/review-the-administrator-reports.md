@@ -1,5 +1,6 @@
 ---
 title: Просмотр отчетов администратора в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,14 +12,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Компонент "Administrator Reports" (Отчеты администратора) предоставляют подробную информацию для развертывания и проведения операций. Отчеты создаются на базе параметров, выбранных в области Design Sites (Разработка сайтов). Проектировщик может получить дополнительную выгоду от использования компонента "Administrator Reports" (Отчеты администратора), изменив схемы сети и определив полные IP-адреса и полные доменные имена для серверов, пулов и подсистем балансировки нагрузки.
-ms.openlocfilehash: 1aec87246082083d981d8783d1abc31b5f96bc55
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5cab8231428ace2a0d77132481819eed304d3519
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261590"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898196"
 ---
-# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Просмотр отчетов администратора в Skype для бизнеса Server 2015
+# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 
 Компонент "Administrator Reports" (Отчеты администратора) предоставляют подробную информацию для развертывания и проведения операций. Отчеты создаются на базе параметров, выбранных в области **Design Sites** (Разработка сайтов). Проектировщик может получить дополнительную выгоду от использования компонента "Administrator Reports" (Отчеты администратора), изменив схемы сети и определив полные IP-адреса и полные доменные имена для серверов, пулов и подсистем балансировки нагрузки.
 
@@ -54,7 +55,7 @@ ms.locfileid: "23261590"
 ## <a name="review-the-certificates-report"></a>Просмотр отчета по сертификатам
 <a name="Certificates_Report"> </a>
 
-Сертификаты отчет содержит все сертификаты, которые необходимы в рекомендуемые Скайп для развертывания Business Server 2015. Планирование по сокращению имена субъекта и альтернативные имена субъектов, которые были введены. Текст по умолчанию, который остается она может представлять потенциальных сложную задачу для группы, ответственных за разрешения на запрос и выдачи сертификатов. Сведения о сертификате также приводятся сведения о котором сертификата обычно выполняемые из. Если инфраструктура не имеет внутренней инфраструктуры открытого ключа (PKI) на месте, все сертификаты можно запросить через общедоступный сертификат поставщика. Расширенное использование ключа (EKU) и назначить для поля в отчет, очень полезно в понимании, что должно быть назначение и расположение для каждого сертификата.
+Сертификаты отчет содержит все сертификаты, которые необходимы в рекомендуемые Скайп для развертывания Business Server 2015. Планирование по сокращению имена субъекта и альтернативные имена субъектов, которые были введены. Default text that is left unedited may represent a potential challenge for the team responsible for requesting and issuing the certificates. Certificate information also contains information about where the certificate can typically be issued from. If the infrastructure does not have an internal public key infrastructure (PKI) in place, all certificates can be requested through a public certificate provider. Extended key usages (EKU) and Assign To fields in the report are very helpful in understanding what the purpose and location for each certificate should be.
 
 ![Отчет по сертификатам для администратора](../../media/Certificates_Report_Admin_Report.png)
 
@@ -67,7 +68,7 @@ ms.locfileid: "23261590"
 ## <a name="review-the-firewall-report"></a>Просмотр отчета по брандмауэрам
 <a name="Firewall_report"> </a>
 
-Скайп для Business Server 2015 имеет ряд потенциально сложные правила брандмауэра. Средство планирования уменьшает сложность, создав отчет, который определяет подробно все требования к брандмауэру, на основе критерия ввода конструктора. ИТ-администратор брандмауэр будет иметь возможность этот отчет используется для настройки и определите необходимые правила.
+Скайп для Business Server 2015 имеет ряд потенциально сложные правила брандмауэра. Средство планирования уменьшает сложность, создав отчет, который определяет подробно все требования к брандмауэру, на основе критерия ввода конструктора. The IT firewall administrator will be able to use this report to configure and define the necessary rules.
 
 При управлении брандмауэром этот отчет следует тщательно анализировать на предмет конфликтов с имеющимися правилами брандмауэра и нарушений имеющихся политик или процедур.
 
@@ -82,7 +83,7 @@ ms.locfileid: "23261590"
 
 Попросите свою группу управления DNS тщательно изучить отчет по DNS, чтобы убедиться в отсутствии ошибок, которые могут вызвать проблемы при развертывании или затруднить диагностику.
 
-## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
+## <a name="see-also"></a>См. также
 <a name="DNS_Report"> </a>
 
-[Просмотр отчетов администратора](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[Reviewing the Administrator Reports](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)

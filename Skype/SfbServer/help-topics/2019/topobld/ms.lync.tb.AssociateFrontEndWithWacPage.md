@@ -1,5 +1,6 @@
 ---
 title: Страница сопоставления сервера переднего плана с сервером Office Web Apps
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Службы, выполняющиеся на сервере Office Web Apps, позволяют выступающему загрузить документ для демонстрации на собрании; при этом их функциональные возможности расширены по сравнению с предыдущими версиями.
-ms.openlocfilehash: 06ad45689f64e94b9f9f82994fa55f200f881bf0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2f00851409411f7b2a0ddd01378943c5af4f46ee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256359"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898770"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Страница сопоставления сервера переднего плана с сервером Office Web Apps
 
@@ -35,4 +36,4 @@ ms.locfileid: "23256359"
 
 ## <a name="see-also"></a>См. также
 
-[Публикация обратного прокси-сервера с помощью сервера Office Web Apps](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[Publishing Office Web Apps Server Using a Reverse Proxy Server](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)

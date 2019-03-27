@@ -1,5 +1,6 @@
 ---
-title: Посредник расширитель общих настроек сервера для Lync Server 2010
+title: Расширитель общих настроек сервера-посредника для Lync Server 2010
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Изменение свойств серверов-посредников в этом диалоговом окне. В левой представляют собой набор быстрые ссылки для параметров общих параметров, настройки следующего перехода и настройки шлюза ТСОП. В каждом разделе приведены следующие параметры:'
-ms.openlocfilehash: bc26a6b92746e2cf1453d9ee789500011469527f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a5af8e844c82d1af194e0c59fde67725c019ec99
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375973"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892429"
 ---
-# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Посредник расширитель общих настроек сервера для Lync Server 2010
+# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Расширитель общих настроек сервера-посредника для Lync Server 2010
 
 Изменение свойств серверов-посредников в этом диалоговом окне. В левой представляют собой набор быстрые ссылки для параметров общих параметров, настройки следующего перехода и настройки шлюза ТСОП. В каждом разделе приведены следующие параметры:
 

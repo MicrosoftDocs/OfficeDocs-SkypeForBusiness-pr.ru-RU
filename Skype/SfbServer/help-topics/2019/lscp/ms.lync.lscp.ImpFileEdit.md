@@ -1,5 +1,6 @@
 ---
 title: Фильтр файлов Создание новой или редактирование существующей
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 27f10addc01a8d81be4c342714912bd7fcd55973
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3aa77423a2b17aaaf0dd506f14703c9722c7c68d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243987"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890841"
 ---
-# <a name="file-filter-create-new-or-edit-existing"></a>Фильтр файлов: Создание новой или редактирование существующей
+# <a name="file-filter-create-new-or-edit-existing"></a>Фильтр файлов: создание нового или редактирование существующего
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 

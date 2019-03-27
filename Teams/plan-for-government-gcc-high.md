@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4b1dc313fa1ea223e7c55f066b869b29c098fd2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b3aab01d03b3239918c48bfb250df00208f76a7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460830"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891141"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Планирование для государственных учреждений 365 Microsoft - высокая GCC развертываниях
 
@@ -101,7 +101,7 @@ Microsoft 365 государственных организаций - GCC выс
 | | Запись в облаке | На невыполненной работы государственных организаций |
 | | Примечания к собранию | Доступно |
 | | Широковещательные собраний | На невыполненной работы государственных организаций |
-| | Федеративные собраний | Доступно |
+| | Собрания федеративном внутри облака (GCCH для GCCH) | Доступно |
 | | Контактной поддержки сервера-концентратора | На невыполненной работы государственных организаций |
 | Звонки | Контакты | Доступно |
 | | Журнал | Доступно |

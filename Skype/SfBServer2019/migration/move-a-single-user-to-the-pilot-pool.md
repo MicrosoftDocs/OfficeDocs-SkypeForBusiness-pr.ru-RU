@@ -1,5 +1,6 @@
 ---
 title: Перемещение одного пользователя в пилотный пул
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Можно переместить пользователя из устаревшего пула в вашей Скайп для Business Server 2019 пилотного пула с помощью Скайп для панели управления 2019 Business Server или Скайп для консоли 2019 Business Server. В следующем примере, в столбец пул регистратора pool01.contoso.net является устаревшего пула и все шесть из этих пользователей подключения в этот пул. Используйте следующие процедуры для перехода пользователя к вашей Скайп для пула Business Server 2019, с помощью Скайп для панели управления 2019 Business Server и Скайп для консоли Business Server.
-ms.openlocfilehash: 6742c5fc00c9d53030ac32ee698686bb8b11fa07
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 94896ce2ea05a3102d5a7643e3f26430e74bfe19
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372747"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880251"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Перемещение одного пользователя в пилотный пул
 
@@ -27,7 +28,7 @@ ms.locfileid: "25372747"
     
 3. Щелкните элемент **Пользователи**, щелкните **Поиск**и нажмите кнопку **Найти**.
     
-4. Выберите пользователя, который требуется переместить в Скайп для пула Business Server 2019. В этом примере мы будет переместить пользователя пользователя Валентины.
+4. Выберите пользователя, который требуется переместить в Скайп для пула Business Server 2019. В данном примере мы будем перемещать пользователя Sara Davis.
     
 5. В меню **Макрокоманда** выберите **Переместить выбранных пользователей в пул**.
     

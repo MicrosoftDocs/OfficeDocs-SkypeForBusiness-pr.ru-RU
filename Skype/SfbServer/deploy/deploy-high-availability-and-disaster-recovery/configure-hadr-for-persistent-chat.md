@@ -1,5 +1,6 @@
 ---
 title: Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Сводка: Сведения в этой статье описывается настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015.'
-ms.openlocfilehash: f0bf1a98bb8967a7310844d9aa85d17d4ef4d167
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5c53652cf5084b5a6c021c38f71f1cccc0322efa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880485"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Skype для бизнеса Server 2015
  
 **Сводка:** В данном разделе приведены в этой статье описывается настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015.
   
-Скайп для Business Server поддерживает несколько режимов обеспечения высокой доступности для вашей внутренними серверами, включая зеркальное отображение базы данных. Для получения дополнительных сведений см. [Планирование высокой доступности и аварийного восстановления в Скайп для Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Скайп для Business Server поддерживает несколько режимов обеспечения высокой доступности для вашей внутренними серверами, включая зеркальное отображение базы данных. Дополнительные сведения см. в статье [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
 > Группы обеспечения доступности AlwaysOn с серверов сохраняемого сеанса беседы не поддерживаются. 

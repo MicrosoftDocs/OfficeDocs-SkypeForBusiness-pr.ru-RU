@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей абонентской группы
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: d4487d518854df99429f24e456329ce18f82f6cd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6ec36413e6e766618ab7b48e0fd8a674a4652cfa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242283"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882011"
 ---
-# <a name="dial-plan-create-new-or-edit-existing"></a>Абонентская группа: Создание новой или редактирование существующей
+# <a name="dial-plan-create-new-or-edit-existing"></a>Абонентская группа: создание новой или редактирование существующей
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 

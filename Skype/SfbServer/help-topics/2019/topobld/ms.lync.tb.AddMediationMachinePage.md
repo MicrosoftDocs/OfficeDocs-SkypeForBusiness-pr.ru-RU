@@ -1,5 +1,6 @@
 ---
 title: Добавление компьютера-посредника
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f186be15-626a-4454-9b54-55aa5d90c520
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя (FQDN) каждого компьютера, который требуется добавить в качестве сервера переднего плана в этом пуле. До публикации топологии можно в любой момент обновить полное доменное имя добавленного к списку компьютера или удалить его из пула. После публикации топологии для изменения полного доменного ИМЕНИ необходимо удаление сервера в построителе топологий, а затем добавляя новый сервер к пулу с новой полным доменным ИМЕНЕМ.
-ms.openlocfilehash: 651aa1f4e625c74fe76a56e7aa1518651b94bfc9
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6b7215a2f9169a521e5afe92cce85a163f869c69
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060497"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879449"
 ---
 # <a name="add-mediation-machine"></a>Добавление компьютера-посредника
  

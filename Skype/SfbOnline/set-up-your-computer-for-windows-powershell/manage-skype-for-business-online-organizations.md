@@ -1,5 +1,6 @@
 ---
 title: Управление Скайп для бизнеса в Интернет организаций
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Использование Windows PowerShell и командлетов Get-CsTenant и Get-CsTenantLicensingConfiguration для получения сведений о вашей Скайп для бизнеса интерактивного клиента.
-ms.openlocfilehash: 279f9431c69605377fcc0070bf9c81a027cb4064
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b71c89967ab34909fa461f71fc5f67c1cf99a408
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863336"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896554"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Управление Скайп для бизнеса в Интернет организаций
 
@@ -46,7 +47,7 @@ Get-CsTenant | Select-Object Name, TenantID
   
 Чтобы найти сведения о доступна ли сведения о лицензировании для указанного клиента в Скайп для бизнеса в Интернет центра администрирования, командлет [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

@@ -1,5 +1,6 @@
 ---
 title: Управление службами для Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: В этой статье описывается, как управлять служб, работающих в Скайп для топологии Business Server.
-ms.openlocfilehash: 7f95023416bd1b851bc5a3d3ce6185e3362ec098
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4f5e1c4d91d5412470edebf3ed8d320101153da1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372448"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879218"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Управление службами для Скайп для Business Server
 
@@ -46,7 +47,7 @@ ms.locfileid: "25372448"
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server. 
 3. В левой панели навигации щелкните **Топология**. 
 4. На странице " **состояние** " Сортировка или поиска в списке, необходимо, чтобы найти компьютер, к которому вы хотите и нажмите кнопку имя компьютера.
-5. Выполните любое из следующих действий.
+5. Выполните одно из следующих действий:
    - Чтобы просмотреть последнее состояние служб, работающих на компьютере, нажмите кнопку **получить сведения о состоянии службы**.
    - Чтобы просмотреть список конкретных служб, работающих на компьютере, а также состояние каждой из них, щелкните **Свойства**и нажмите кнопку **Закрыть** , чтобы вернуться к списку.
     

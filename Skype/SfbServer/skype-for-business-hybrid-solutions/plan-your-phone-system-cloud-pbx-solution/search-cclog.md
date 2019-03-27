@@ -1,5 +1,6 @@
 ---
-title: CcLog поиска
+title: Search-CcLog
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: Командлет Search-CcLog выполняет поиск журналов входящих и исходящих звонков в каталоге журнала устройства Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: 3d7d34f2e069b9c4ed728dcc805af5ccf9d13067
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e11e82ba105ed58efa6892165a19c6a4c4de0429
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892767"
 ---
-# <a name="search-cclog"></a>CcLog поиска
+# <a name="search-cclog"></a>Search-CcLog
  
 Командлет Search-CcLog выполняет поиск журналов входящих и исходящих звонков в каталоге журнала устройства Skype для бизнеса Cloud Connector Edition.
   
@@ -51,11 +53,11 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|:-----|
-|Время начала  <br/> | Обязательно <br/> |System.Datetime  <br/> | Начальные дата и время для искомых записей журнала. Указываются в местном часовом поясе. <br/> |
-|Время окончания  <br/> |Обязательно  <br/> |System.Datetime  <br/> |Конечные дата и время для искомых записей журнала. Указываются в местном часовом поясе.  <br/> |
-|Имя файла  <br/> |Обязательно  <br/> |System.String  <br/> |Указывает полный путь к текстовому файлу, содержащему результаты поиска.  <br/> |
+|StartTime  <br/> | Обязательно <br/> |System.Datetime  <br/> | Начальные дата и время для искомых записей журнала. Указываются в местном часовом поясе. <br/> |
+|EndTime  <br/> |Обязательно  <br/> |System.Datetime  <br/> |Конечные дата и время для искомых записей журнала. Указываются в местном часовом поясе.  <br/> |
+|FileName  <br/> |Обязательно  <br/> |System.String  <br/> |Указывает полный путь к текстовому файлу, содержащему результаты поиска.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
@@ -72,6 +74,6 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName
 
 [Start-CcLogging](start-cclogging.md)
   
-[STOP-CcLogging](stop-cclogging.md)
+[Stop-CcLogging](stop-cclogging.md)
   
 

@@ -1,5 +1,6 @@
 ---
 title: Настройка присутствия в Skype для бизнеса Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: a3d65a3ef79bb24e5f05a5bd761170e618cc2020
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 5c8d30106397d18957c7866d9b4961cfa1409f83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849950"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894160"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Настройка присутствия в Skype для бизнеса Online
 
@@ -52,7 +53,7 @@ ms.locfileid: "23849950"
 
 - [Установка параметров состояния в Скайп для бизнеса](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 

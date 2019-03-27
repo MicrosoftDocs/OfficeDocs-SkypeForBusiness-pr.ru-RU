@@ -1,5 +1,6 @@
 ---
 title: Федеративные партнеры XMPP Создание новой или редактирование существующей
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 9f5f5b887f0da52276ddff80e55c280cc3f9ea23
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 24f37f1ba3324a5b379fb2a12bd3dce1282b686c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242105"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879618"
 ---
-# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Федеративные партнеры XMPP: Создание новой или редактирование существующей
+# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Федеративные партнеры XMPP: создание новых или редактирование существующих
 
 > [!NOTE]
 > XMPP шлюзов и прокси-серверы, доступные в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Для получения дополнительных сведений в разделе [федерации XMPP миграции](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .

@@ -1,5 +1,6 @@
 ---
 title: Планирование для конференц-связи в Скайп Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Сводка: Прочитайте сведения о планировании для конференц-связи в Скайп Business Server.'
-ms.openlocfilehash: 1b051cc757c0e55fb2f16b790921da962738ade3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ea5b6db3c04d9827502a2b7632b409ac7b8ebdc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973579"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893281"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Планирование для конференц-связи в Скайп Business Server
  
@@ -75,7 +76,7 @@ ms.locfileid: "20973579"
     
 - По умолчанию все номера доступа по телефонной линии для данного региона включаются в приглашение на собрание.
     
-- Важно имя области, чтобы они были четко распознавание. Пользователя можно использовать названия регионов для изменения области собрания, чтобы для телефонного подключения различных включены в приглашение. (Пользователей с помощью Outlook можно планировать собрания, пользователя с помощью надстройки собраний по сети для Скайп для бизнеса изменение области).
+- It is important to name regions so that they are clearly recognizable. The user can use the names of the regions to change a meeting's region so that different access numbers are included in the invitation. (Пользователей с помощью Outlook можно планировать собрания, пользователя с помощью надстройки собраний по сети для Скайп для бизнеса изменение области).
     
 - Области должны быть построены таким образом, чтобы любой приглашенный, желающий присоединиться к собранию, мог видеть локальный номер доступа в приглашении на конференцию.
     

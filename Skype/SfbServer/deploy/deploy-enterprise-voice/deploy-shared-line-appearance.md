@@ -1,5 +1,6 @@
 ---
 title: Развертывание распределенной линии для Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: В этом разделе описывается развертывание Shared Line Appearance (SLA) в накопительном пакете обновления Skype для бизнеса Server 2015 от ноября 2015 г. SLA является функцией для обработки нескольких вызовов на определенный номер, который называется общим.
-ms.openlocfilehash: f5c97c94f2e0ed2034ac96864b20dec604708d55
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c0da29e54f03a5c328f1b65807f438b63c14a68f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372016"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878650"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Развертывание распределенной линии для Skype для бизнеса Server 2015
 
 В этом разделе описывается развертывание Shared Line Appearance (SLA) в накопительном пакете обновления Skype для бизнеса Server 2015 от ноября 2015 г. SLA является функцией для обработки нескольких вызовов на определенный номер, который называется общим.
 
-Дополнительные сведения об этой функции в разделе [Планирование общих внешний вид строки в Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
+Дополнительные сведения об этой функции см. в разделе [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
 
 Внешний вид общей строки (SLA) — это новая возможность в Скайп для Business Server 2015 ноября накопительного обновления. Для включения этой функции сначала требуется развернуть это обновление.
 
@@ -57,7 +58,7 @@ ms.locfileid: "25372016"
 
 ### <a name="create-an-sla-group-and-add-users-to-it"></a>Создать группу SLA и добавить в нее пользователей
 
-1. Создание группы соглашения об уровне ОБСЛУЖИВАНИЯ с помощью командлета [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
+1. Создать группу SLA можно с помощью командлета [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps):
 
    ```
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
@@ -78,14 +79,14 @@ ms.locfileid: "25372016"
     > [!NOTE]
     > Обратите внимание на то, что указанное для `-Identity` должен быть допустимый существующей учетной записи пользователя с включенной поддержкой корпоративной голосовой связи.
 
-2. Добавьте в группу делегаты с помощью командлета [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) :
+2. Добавление делегатов в группы выполняется с помощью командлета [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps):
 
    ```
    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
           <NameOfDelegate@domain>
    ```
 
-    Следующий пример добавляет пользователя в группу соглашения об уровне ОБСЛУЖИВАНИЯ. Каждый пользователь добавлен в группу по должен быть допустимый пользователя с включенной поддержкой корпоративной голосовой связи:
+    The following example adds a user to the SLA group. Каждый пользователь добавлен в группу по должен быть допустимый пользователя с включенной поддержкой корпоративной голосовой связи:
 
    ```
    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
@@ -95,7 +96,7 @@ ms.locfileid: "25372016"
 
 ### <a name="configure-the-sla-group-busy-option"></a>Настройка опции "Занято" для группы SLA
 
-- Настройка соглашения об уровне ОБСЛУЖИВАНИЯ группы «занят» параметр с помощью командлета [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
+- Настроить опцию "Занято" для группы SLA можно с помощью командлета [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps):
 
   ```
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
@@ -109,7 +110,7 @@ ms.locfileid: "25372016"
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>Настройка опции "Пропущенный вызов" для группы SLA
 
-1. Настройка группы соглашения об уровне ОБСЛУЖИВАНИЯ параметр пропущенные звонок с помощью командлета [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
+1. Настроить опцию "Пропущенный вызов" для группы SLA можно с помощью командлета [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps):
 
    ```
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
@@ -123,7 +124,7 @@ ms.locfileid: "25372016"
 
 ### <a name="remove-a-delegate-from-a-group"></a>Удаление делегата из группы
 
-- Чтобы удалите делегата из группы с помощью командлета [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) :
+- Удалить делегата из группы можно с помощью командлета [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps):
 
   ```
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
@@ -137,7 +138,7 @@ ms.locfileid: "25372016"
 
 ### <a name="delete-an-sla-group"></a>Удаление группы SLA
 
-- Удалите группу соглашения об уровне ОБСЛУЖИВАНИЯ с помощью командлета [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) :
+- Удалить группу SLA можно с помощью командлета [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps).
 
   ```
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>

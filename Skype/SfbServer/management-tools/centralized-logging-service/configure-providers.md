@@ -1,5 +1,6 @@
 ---
 title: Настройка поставщиков для централизованной службы ведения журналов в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Сводка: Сведения о настройке поставщиков сценариев для централизованной службы ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: e67a1dee9227624ecc94c50437f60781435b2fe8
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 36eb16eb1aea584e1ca28670ea75bd3a262ceb1a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372494"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882210"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Настройка поставщиков для централизованной службы ведения журналов в Skype для бизнеса Server 2015
  
@@ -123,7 +124,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 ```
 
-Где $LyssProvider — это переменная, содержащая определенный сценарий, созданный с помощью **New-CsClsProvider**.
+где $LyssProvider — это переменная, содержащая определенный сценарий, созданный с помощью командлета **New-CsClsProvider**.
 ### <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>Чтобы изменить существующего поставщика сценария централизованной службы ведения журналов
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
@@ -140,9 +141,9 @@ New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvid
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
-Конечный результат выполнения команды — обновление флагов и уровня поставщика назначенного для сайта сценария: Redmond/RedmondLyssInfo. Новый сценарий можно просмотреть с помощью командлета Get-CsClsScenario. Дополнительные сведения см [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).
+Конечный результат выполнения команды — обновление флагов и уровня поставщика назначенного для сайта сценария: Redmond/RedmondLyssInfo. Новый сценарий можно просмотреть с помощью командлета Get-CsClsScenario. Дополнительные сведения см. в разделе [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).
 > [!CAUTION]
-> **New-ClsCsProvider** не проверяет, чтобы определить допустимое флаги. Убедитесь, что названия флагов указаны верно (например, TF_DIAG или TF_CONNECTION). Если названия флагов указаны неверно, поставщик не вернет ожидаемые сведения журналов.
+> **New-ClsCsProvider** не определяет допустимость флагов. Убедитесь, что названия флагов указаны верно (например, TF_DIAG или TF_CONNECTION). Если названия флагов указаны неверно, поставщик не вернет ожидаемые сведения журналов.
   
 Если необходимо добавить в этот сценарий дополнительных поставщиков, введите следующую команду:
 
@@ -150,12 +151,12 @@ New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvid
 Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSProvider, $CASProvider, S4Provider}
 ```
 
-Где каждый поставщик, определенный с помощью директивы Add уже был определен с помощью процесса **New-CsClsProvider** .
+где каждый поставщик, определенный с помощью директивы Add, уже был определен с помощью процесса **New-CsClsProvider**.
 ### <a name="to-remove-a-scenario-provider"></a>Удаление поставщика сценария
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
     
-2. Приведенные командлеты позволяют обновить существующих поставщиков и создать новых. Чтобы удалить поставщика, необходимо использовать директиву заменить для параметра поставщика для **Set-CsClsScenario**. Единственным способом полностью удалить поставщика является замена его на переопределенного поставщика того же типа с тем же именем, что выполняется с помощью директивы Update. Например, наш поставщик LyssProvider определен с типом журнала WPP, уровнем "Отладка" и флагами TF_CONNECTION и TF_DIAG. Чтобы сменить флаги для «Все». Чтобы изменить поставщика, выполните следующую команду:
+2. Приведенные командлеты позволяют обновить существующих поставщиков и создать новых. Чтобы удалить поставщика, необходимо использовать директиву Replace для параметра Provider в командлете **Set-CsClsScenario**. Единственным способом полностью удалить поставщика является замена его на переопределенного поставщика того же типа с тем же именем, что выполняется с помощью директивы Update. Например, наш поставщик LyssProvider определен с типом журнала WPP, уровнем "Отладка" и флагами TF_CONNECTION и TF_DIAG. Чтобы сменить флаги для «Все». Чтобы изменить поставщика, выполните следующую команду:
     
    ```
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
@@ -178,9 +179,9 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
    ```
 
     > [!CAUTION]
-    > Командлет **Remove-CsClsScenario** не запрашивать подтверждение. Сценарий удаляется вместе со всеми назначенными ему поставщиками. Можно повторно создать сценарий, повторно выполнив команды, которые использовались для его исходного создания. Процедуры восстановления удаленных сценариев или поставщиков не существует.
+    > Командлет **Remove-CsClsScenario** не запрашивает подтверждения. Сценарий удаляется вместе со всеми назначенными ему поставщиками. Можно повторно создать сценарий, повторно выполнив команды, которые использовались для его исходного создания. Процедуры восстановления удаленных сценариев или поставщиков не существует.
   
-При удалении сценария с помощью командлета **Remove-CsClsScenario** , полностью удалить сценарий из области действия. Чтобы использовать созданные сценарии и поставщиков, которые являются частью сценария, необходимо создать новых поставщиков и назначить их новому сценарию.
+При удалении сценария с помощью командлета **Remove-CsClsScenario** вы полностью удаляете сценарий из области применения. Чтобы использовать созданные сценарии и поставщиков, которые являются частью сценария, необходимо создать новых поставщиков и назначить их новому сценарию.
 ## <a name="see-also"></a>См. также
 
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
@@ -189,6 +190,6 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
   
 [Remove-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/remove-csclsscenario?view=skype-ps)
   
-[SET-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)
+[Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)
   
 [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps)

@@ -1,5 +1,6 @@
 ---
 title: Start-CcLogging
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
 description: Командлет Start-CcLogging запускает ведение журналов входящих и исходящих звонков для устройства Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: 26056f06ed8d7d3982729e9caab69a01eca189d6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2a7d859851ae8433bde0b86f797e257de29f74f4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892506"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  
@@ -52,13 +54,13 @@ Start-CcLogging
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Нет
+Отсутствуют
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>
 
-[CcLog поиска](search-cclog.md)
+[Search-CcLog](search-cclog.md)
   
-[STOP-CcLogging](stop-cclogging.md)
+[Stop-CcLogging](stop-cclogging.md)
   
 

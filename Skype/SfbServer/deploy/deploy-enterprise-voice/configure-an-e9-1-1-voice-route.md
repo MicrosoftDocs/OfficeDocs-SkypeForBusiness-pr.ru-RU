@@ -1,5 +1,6 @@
 ---
 title: Настройка маршрута голосовой связи E9-1-1 в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Настройка маршрутов голосовой связи E9-1-1 в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: a465dd40eb79224db4e021a227f46fb0f1f6a129
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 04890782eb9c550428d89c99304c5a7951fc34b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890324"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894924"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Настройка маршрута голосовой связи E9-1-1 в Скайп для Business Server
  
@@ -27,7 +28,7 @@ ms.locfileid: "23890324"
 Чтобы развернуть E9-1-1, сначала необходимо настроить маршрут голосовой связи для выполнения экстренных вызовов. Сведения о создании маршрутов голосовых вызовов, в разделе [Создать или изменить маршрут голосовой связи в Скайп для бизнеса](create-or-modify-a-voice-route.md). Можно определить более одного маршрута, если, например, развертывание включает основной магистральный канал SIP и дополнительный магистральный канал SIP. 
   
 > [!NOTE]
-> Чтобы включить информацию о местоположении в приглашение E9-1-1 INVITE, необходимо настроить магистральный канал SIP, который служит для подключения к поставщику службы E9-1-1 для маршрутизации экстренных вызовов через шлюз. Для этого установите флаг EnablePIDFLOSupport в командлете **Set-CsTrunkConfiguration** значение True. Значение по умолчанию для EnablePIDFLOSupport — False. Например: `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` не требуется включать получение местоположений для резервных общего пользования телефонной сети (общего пользования PSTN) шлюзов и шлюзов аварийного расположение идентификационный номер (ELIN).
+> Чтобы включить информацию о местоположении в приглашение E9-1-1 INVITE, необходимо настроить магистральный канал SIP, который служит для подключения к поставщику службы E9-1-1 для маршрутизации экстренных вызовов через шлюз. Для этого установите для флага EnablePIDFLOSupport в командлете **Set-CsTrunkConfiguration** значение True. Значение по умолчанию для EnablePIDFLOSupport — False. Например: `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` не требуется включать получение местоположений для резервных общего пользования телефонной сети (общего пользования PSTN) шлюзов и шлюзов аварийного расположение идентификационный номер (ELIN).
   
 ### <a name="to-configure-an-e9-1-1-voice-route"></a>Настройка маршрута голосовой связи E9-1-1
 

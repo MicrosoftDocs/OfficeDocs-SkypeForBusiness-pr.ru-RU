@@ -1,5 +1,6 @@
 ---
 title: План интеграции единой системы обмена сообщениями Exchange в Skype для бизнеса
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Сводка: Изучите раздел при планировании интеграции Скайп для Business Server с Exchange 2013 или 2016.'
-ms.openlocfilehash: ee6e6bc81c4bd0b2291b7f4be7ceb13894d2aec2
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 951b31e36290bda0d6bd171c4a7df8f6aa4ff337
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059189"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886019"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>План интеграции единой системы обмена сообщениями Exchange в Skype для бизнеса
 
@@ -52,7 +53,7 @@ ms.locfileid: "30059189"
 
 - **Автосекретарь** Автосекретаря является средством Exchange единой системы обмена СООБЩЕНИЯМИ, который можно использовать для настройки номер телефона, который за пределами пользователи могут подключиться к представителей компании. In particular, it provides a series of voice prompts that assist an external caller in navigating a menu system. В списке доступных вариантов является администратором на сервере Exchange единой системы обмена СООБЩЕНИЯМИ Exchange единой системы обмена СООБЩЕНИЯМИ.
 
-- **Службы факсов** Exchange единой системы обмена СООБЩЕНИЯМИ включает в себя возможностями службы факсов, которые позволяют пользователям получать входящие факсы в их почтовые ящики Exchange. For details, see [Unified Messaging](https://go.microsoft.com/fwlink/p/?linkId=135652) in the Microsoft Exchange Server documentation.
+- **Службы факсов** Exchange единой системы обмена СООБЩЕНИЯМИ включает в себя возможностями службы факсов, которые позволяют пользователям получать входящие факсы в их почтовые ящики Exchange. Дополнительные сведения см [Единой системы обмена сообщениями](https://go.microsoft.com/fwlink/p/?linkId=135652) в документации по Microsoft Exchange Server.
 
     > [!NOTE]
     > Службы факсов, предоставляемые сервером Exchange единой системы обмена СООБЩЕНИЯМИ, недоступны в Скайп для развертываний Business Server, интегрированных с Microsoft Exchange Server 2010, Exchange 2010 с последним пакетом обновления, Exchange 2013 или Exchange 2016.
@@ -134,7 +135,7 @@ ms.locfileid: "30059189"
 
 - [Включение единой системы обмена сообщениями в Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 
-- [Отключение единой системы обмена сообщениями в Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [Отключение единой системы обмена сообщениями на сервере Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
