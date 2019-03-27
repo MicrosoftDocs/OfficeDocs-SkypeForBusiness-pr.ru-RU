@@ -1,5 +1,6 @@
 ---
 title: Выбор магистральной линии связи
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно Выбор магистрали для поиска существующего магистральной линии связи, которые можно использовать.
-ms.openlocfilehash: 9c559e0029ebc749270effb1467937da273c40e3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 54f1b5d3ac63ee2d8570e12f0fe2107e335c81c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989072"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889261"
 ---
 # <a name="select-trunk"></a>Выбор магистральной линии связи
  

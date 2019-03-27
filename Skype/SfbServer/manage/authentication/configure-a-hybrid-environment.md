@@ -1,5 +1,6 @@
 ---
 title: Настройка проверки подлинности сервер сервер для Скайп для гибридной среды Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Сводка: Настройка проверки подлинности сервер сервер для Скайп для гибридной среды Business Server.'
-ms.openlocfilehash: 2d4589d2d194cd885329dd701f69af7b8896f8f3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: d8ba920d516368d1931097e5e31b738a0d271bcf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532349"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893614"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Настройка проверки подлинности сервер сервер для Скайп для гибридной среды Business Server.
 
@@ -120,7 +121,7 @@ $binaryValue = $certificate.GetRawCertData()
 $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 ```
 
-После того как сертификат был импортирован и кодировке, затем можно назначить сертификат для субъектов-служб Office 365. Для этого сначала командлет Get-MsolServicePrincipal для получения значение свойства AppPrincipalId для Скайп для Business Server и участников службы Microsoft Exchange; значение свойства AppPrincipalId будет использоваться для идентификации участников-служб, назначаемое сертификат. С помощью AppPrincipalId свойство руку значение для Скайп Business Server, выполните следующую команду назначение сертификата до версии Office 365 Скайп для Business Server.
+После того как сертификат был импортирован и кодировке, затем можно назначить сертификат для субъектов-служб Office 365. Для этого сначала командлет Get-MsolServicePrincipal для получения значение свойства AppPrincipalId для Скайп для Business Server и участников службы Microsoft Exchange; значение свойства AppPrincipalId будет использоваться для идентификации участников-служб, назначаемое сертификат. С помощью AppPrincipalId свойство руку значение для Скайп Business Server, используйте следующую команду для назначения сертификата Скайп для бизнеса Интернет-версия:
 
 ```
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 
@@ -128,7 +129,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 Необходимо повторно выполнить команду, это время с помощью значение свойства AppPrincipalId для Exchange 2013.
 
-Если позднее вам потребуется удалить этот сертификат, сначала вам потребуется получить для него значение KeyId:
+Если позднее вам потребуется удалить этот сертификат, например, если истек, это можно сделать извлекая идентификатор ключа сертификата:
 
 ```
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
@@ -153,11 +154,11 @@ Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00
 
 В дополнение к назначения сертификата, который необходимо настроить Exchange Online участников-служб и настройка локальной версии Скайп для Business Server внешние Web services URL-адреса в качестве участника-службы Office 365. Для этого можно выполнить две следующие команды: 
 
-В следующем примере lync.contoso.com является внешним Web services URL-адрес Скайп для пула Business Server. Следует повторите эти действия, чтобы добавить всех внешних Web services URL-адреса в развертывании.
+В следующем примере Pool1ExternalWebFQDN.contoso.com является внешним Web services URL-адрес Скайп для пула Business Server. Следует повторите эти действия, чтобы добавить всех внешних Web services URL-адреса в развертывании.
 
 ```
 Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
 $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000
-$lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/lync.contoso.com")
+$lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/Pool1ExternalWebFQDN.contoso.com")
 Set-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $lyncSP.ServicePrincipalNames
 ```

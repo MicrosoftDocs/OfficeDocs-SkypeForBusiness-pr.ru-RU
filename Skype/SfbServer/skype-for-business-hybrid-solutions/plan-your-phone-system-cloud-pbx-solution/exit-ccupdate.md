@@ -1,5 +1,6 @@
 ---
-title: Выход CcUpdate
+title: Exit-CcUpdate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
 description: Командлет Exit-CcUpdate обновляет режим обслуживания на сервере узла Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: f7b913fd6aaa77a18df66fd86a36d5d4838f69d4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7ac36e9cbab8e479a4ec7b070b773b3585370e8f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926541"
 ---
-# <a name="exit-ccupdate"></a>Выход CcUpdate
+# <a name="exit-ccupdate"></a>Exit-CcUpdate
  
 Командлет Exit-CcUpdate обновляет режим обслуживания на сервере узла Skype для бизнеса Cloud Connector Edition. 
   
@@ -56,11 +58,11 @@ Exit-CcUpdate
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
 
-Нет 
+Отсутствуют 
   
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>
 
-[Введите CcUpdate](enter-ccupdate.md)
+[Enter-CcUpdate](enter-ccupdate.md)
   
 

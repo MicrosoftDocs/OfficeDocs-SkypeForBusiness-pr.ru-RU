@@ -1,5 +1,6 @@
 ---
 title: Таблица ErrorReport в Скайп для Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: Таблица ErrorReport сохранение информации о возникших ошибках. Каждая запись — один ошибку. Ошибки, которые отслеживались либо агентом CDR, работающим на сервере переднего плана или передаче от клиента.
-ms.openlocfilehash: 80ae8cb9fb4bea586ac31456fc396856e5263a34
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 99dcdc7aa78b20f555f94614ba94c80103b56211
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899273"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>Таблица ErrorReport в Скайп для Business Server 2015
  
 Таблица ErrorReport сохранение информации о возникших ошибках. Каждая запись — один ошибку. Ошибки, которые отслеживались либо агентом CDR, работающим на сервере переднего плана или передаче от клиента.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |Primary  <br/> |Дата и время возникновения ошибки.  <br/> |
 |**ErrorReportSeq** <br/> |целое  <br/> |Primary  <br/> |Номер идентификатора для идентификации отчет об ошибках. Используется в сочетании с **ErrorTime** для уникальной идентификации отчет об ошибке. <br/> |

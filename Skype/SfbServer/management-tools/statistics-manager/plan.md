@@ -1,5 +1,6 @@
 ---
-title: Планирование для диспетчера статистики для Скайп Business Server
+title: Планирование диспетчера статистики в Skype для бизнеса Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Сводка: Прочитайте сведения о диспетчере статистики для Скайп для Business Server.'
-ms.openlocfilehash: a73e58acdd91b4112537fa0028bf2c134e9c0fce
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 7e086dda9bfea755265d2c77413989f8cc634df7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297860"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893990"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Планирование для диспетчера статистики для Скайп Business Server
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Планирование диспетчера статистики в Skype для бизнеса Server
 
 **Сводка:** В данном разделе приведены сведения о диспетчере статистики для Скайп для Business Server.
 
@@ -126,7 +127,7 @@ ms.locfileid: "27297860"
 
 Необходимо будет необходимо учитывать следующие требования к программному обеспечению, сети и оборудования, перед развертыванием диспетчера статистики.
 
-### <a name="software-requirements"></a>Требования к программному обеспечению
+### <a name="software-requirements"></a>Требования к программному обеспечению 
 
 - Windows Server 2016 и 2019
 
@@ -176,8 +177,8 @@ ms.locfileid: "27297860"
 
 Дополнительные сведения приведены далее.
 
-- [Развертывание диспетчера статистики для Скайп for Business Server](deploy.md)
+- [Развертывание диспетчера статистики в Skype для бизнеса Server](deploy.md)
 
-- [Обновление статистики Manager для Скайп для Business Server](upgrade.md)
+- [Обновление диспетчера статистики в Skype для бизнеса Server](upgrade.md)
 
-- [Устранение неполадок в диспетчер статистики для Скайп Business Server](troubleshoot.md)
+- [Устранение проблем диспетчера статистики в Skype для бизнеса Server](troubleshoot.md)

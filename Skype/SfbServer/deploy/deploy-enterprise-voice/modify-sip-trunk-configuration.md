@@ -1,5 +1,6 @@
 ---
 title: Изменение параметров конфигурации магистрали SIP в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Сводка: Узнайте, как для изменения параметров конфигурации магистрали SIP с помощью Скайп для панели управления Business Server.'
-ms.openlocfilehash: 176e685fd0eb2677854329640014528a24d8bebf
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6fbae1279ec1734cd67269651c65dc7c278ca3a3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888355"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898700"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Изменение параметров конфигурации магистрали SIP в Скайп для Business Server
  
@@ -36,7 +37,7 @@ ms.locfileid: "23888355"
   
 При изменении параметров конфигурации магистрали SIP с помощью Скайп для панели управления Business Server, вам доступны следующие параметры.
   
-|**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**|
+|**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**.|
 |:-----|:-----|:-----|
 |Имя  <br/> |Identity  <br/> |Уникальный идентификатор для коллекции. Это свойство только для чтения; вы не можете изменить идентификатор коллекции параметров настройки магистральной линии связи.  <br/> |
 |Описание  <br/> |Описание  <br/> |Предоставляет администраторам возможность сохранять дополнительную информацию о параметрах (например, сведения о цели настройки магистральной линии связи).  <br/> |

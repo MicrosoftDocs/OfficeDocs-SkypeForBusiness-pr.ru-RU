@@ -1,5 +1,6 @@
 ---
 title: Процесс развертывания для группы ответа в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Процесс развертывания и действия для группы ответа в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 290db10e0a306217462015c43d9abb68e18ccb8a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 83438ec17bd78a60afbc08a1c72ef84469218652
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884184"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897937"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Процесс развертывания для группы ответа в Скайп для бизнеса
 
@@ -74,7 +75,7 @@ ms.locfileid: "23884184"
 
 Данный подраздел касается вас, только если вашей организации необходимо соответствовать федеральному стандарту по (FIPS, США).
 
-Чтобы обеспечить совместимость с FIPS, необходимо изменить файл Web.config уровня приложения для использования различных криптографический алгоритм после установки веб-служб. Необходимо указать, в которых используется ASP.NET трижды стандарта шифрования данных (3DES) алгоритм для обработки данных о состоянии представления. Для приложения группы ответа это требование применяется к консоли входа и выхода агентов и средство настройки группы ответа. Дополнительные сведения по этому вопросу содержатся в статье базы знаний Майкрософт 911722, «может появиться сообщение об ошибке при получении доступа к веб-страницам ASP.NET, для которого включено после обновления из ASP.NET 1.1 в ASP.NET 2.0, состояние просмотра» в [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183).
+To be compliant with FIPS, you need to modify the application-level Web.config file to use a different cryptography algorithm after you install Web Services. You need to specify that ASP.NET use the Triple Data Encryption Standard (3DES) algorithm to process view state data. Для приложения группы ответа это требование применяется к консоли входа и выхода агентов и средство настройки группы ответа. Дополнительные сведения по этому вопросу содержатся в статье базы знаний Майкрософт 911722, «может появиться сообщение об ошибке при получении доступа к веб-страницам ASP.NET, для которого включено после обновления из ASP.NET 1.1 в ASP.NET 2.0, состояние просмотра» в [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183).
 
 Чтобы изменить файл Web.config, сделайте следующее:
 
@@ -105,15 +106,15 @@ ms.locfileid: "23884184"
 
 Для поддержки символов ий, мэн и цзан необходимо изменить параметры сортировки базы данных Rgsconfig. Измените параметры сортировки столбца **Имя** в следующих таблицах каждой базы данных Rgsconfig:
 
-- dbo. AgentGroups
+- dbo.AgentGroups
 
-- dbo. BusinessHours
+- dbo.BusinessHours
 
-- dbo. HolidaySets
+- dbo.HolidaySets
 
-- dbo. Очереди
+- dbo.Queues
 
-- dbo. Рабочие процессы
+- dbo.Workflows
 
 Для SQL Server 2008 R2 и SQL Server 2012, параметры сортировки использования Latin_General_100 (с учетом диакритических знаков). Если применяются эти параметры сортировки во всех именах объектов не учитывается регистр.
 
@@ -133,10 +134,10 @@ ms.locfileid: "23884184"
 
 |**Этап**|**Шаги**|**Разрешения**|**Документация по развертыванию**|
 |:-----|:-----|:-----|:-----|
-|Включение пользователей для Скайп для бизнеса и корпоративной голосовой связи  <br/> |Включите пользователей, которые будут агенты для Скайп для бизнеса и корпоративной голосовой связи. Пользователей необходимо включить до того, как их можно будет добавлять в группы агентов. Как правило пользователей разрешено для Скайп для бизнеса во время развертывания серверов Standard Edition или Enterprise Edition. Пользователь включен для корпоративной голосовой связи в процессе развертывания корпоративной голосовой связи.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Включение и отключение пользователей для Lync Server 2013 Preview](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Включение пользователей для корпоративной голосовой связи в Скайп для Business Server](enable-users-for-enterprise-voice.md) <br/> |
-|Создание и настройка групп ответа, которые состоят из групп агентов, очередей и рабочих процессов  <br/> |1. Используйте Скайп для панели управления Business Server или Скайп для консоли Business Server для выполнения следующих:  <br/> а. Создайте и настройте группы агентов.  <br/> б. Создайте и настройте очереди.  <br/> 2. При необходимости используйте Скайп для консоли Business Server для создания предварительно заданных ответа группы рабочее время и выходные дни.  <br/> 3. Используйте средство настройки группы ответа или Скайп для консоли Business Server для создания рабочих процессов (сервисные группы или потоки вызовов интерактивного автоответчика (IVR)), включая настраиваемые ответа группы рабочее время и выходные дни.  <br/> Средства настройки группы ответа можно обращаться Скайп для панели управления Business Server.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Создание групп агента группы ответа](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [Создание очередей группы ответа](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [(Необязательно) Группа ответа определение рабочих часов в Скайп для бизнеса](optional-define-response-group-business-hours.md) <br/> [(Необязательно) Определение группы ответа праздничные дни в Скайп для бизнеса](optional-define-response-group-holiday-sets.md) <br/> [Проектирование и создание рабочих процессов для группы ответа в Скайп для бизнеса](designing-and-creating-response-group-workflows.md) <br/> |
+|Включение пользователей для Скайп для бизнеса и корпоративной голосовой связи  <br/> |Включите пользователей, которые будут агенты для Скайп для бизнеса и корпоративной голосовой связи. Пользователей необходимо включить до того, как их можно будет добавлять в группы агентов. Как правило пользователей разрешено для Скайп для бизнеса во время развертывания серверов Standard Edition или Enterprise Edition. Пользователь включен для корпоративной голосовой связи в процессе развертывания корпоративной голосовой связи.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Enable or Disable Users for Lync Server 2013 Preview](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Включение пользователей для корпоративной голосовой связи в Скайп для Business Server](enable-users-for-enterprise-voice.md) <br/> |
+|Создание и настройка групп ответа, которые состоят из групп агентов, очередей и рабочих процессов  <br/> |1. Используйте Скайп для панели управления Business Server или Скайп для консоли Business Server для выполнения следующих:  <br/> а. Создайте и настройте группы агентов.  <br/> б. Создайте и настройте очереди.  <br/> 2. При необходимости используйте Скайп для консоли Business Server для создания предварительно заданных ответа группы рабочее время и выходные дни.  <br/> 3. Используйте средство настройки группы ответа или Скайп для консоли Business Server для создания рабочих процессов (сервисные группы или потоки вызовов интерактивного автоответчика (IVR)), включая настраиваемые ответа группы рабочее время и выходные дни.  <br/> Средства настройки группы ответа можно обращаться Скайп для панели управления Business Server.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Create Response Group Agent Groups](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [Create Response Group Queues](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [(Необязательно) Группа ответа определение рабочих часов в Скайп для бизнеса](optional-define-response-group-business-hours.md) <br/> [(Необязательно) Определение группы ответа праздничные дни в Скайп для бизнеса](optional-define-response-group-holiday-sets.md) <br/> [Проектирование и создание рабочих процессов для группы ответа в Скайп для бизнеса](designing-and-creating-response-group-workflows.md) <br/> |
 |(Необязательно) Задание настроек на уровне приложения  <br/> |Использование Скайп для консоли Business Server для настройки конфигурации музыки при удержании по умолчанию, звуковой файл музыки при удержании по умолчанию, длительности периода обратного вызова агента и контекста вызова.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Управление параметрами группы ответа уровня приложения в Скайп для бизнеса](managing-application-level-response-group-settings.md) <br/> |
-|(Необязательно) Делегирование управления группами реагирования  <br/> |Назначение пользователям роли CsResponseGroupManager делегирование конфигурации группы ответа. Менеджеры групп ответа можно настроить группы ответа, назначенные им.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Планирование для управления доступом на основе ролей](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
+|(Необязательно) Делегирование управления группами реагирования  <br/> |Назначение пользователям роли CsResponseGroupManager делегирование конфигурации группы ответа. Менеджеры групп ответа можно настроить группы ответа, назначенные им.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Planning for Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
 |Проверка развертывания группы ответа  <br/> |Протестируйте ответ на звонки в сервисную группу и рабочие процессы IVR, чтобы гарантировать правильную работу конфигурации.  <br/> |-  <br/> |-  <br/> |
 
 ## <a name="overview-of-workflow-creation-scenarios"></a>Обзор сценариев создания рабочих процессов

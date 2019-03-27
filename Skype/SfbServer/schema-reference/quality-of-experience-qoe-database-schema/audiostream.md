@@ -1,5 +1,6 @@
 ---
 title: Таблица AudioStream
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Каждая запись представляет один аудиопоток. Одна строка аудио обычно содержит два звуковых потоков.
-ms.openlocfilehash: 2e910eb3f6717beed4ba228237f16b96471aea29
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 7c1e7ae70a04aabc7db704aaaad873bc5b2100c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570053"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894137"
 ---
 # <a name="audiostream-table"></a>Таблица AudioStream
  
@@ -43,7 +44,7 @@ ms.locfileid: "19570053"
 |**DegradationPacketLossAvg** <br/> |Decimal(3,2)  <br/> | <br/> |Уменьшение объема MOS сети, вызванное потерей пакетов.  <br/> |
 |**AudioPayloadDescription** <br/> |целое  <br/> |Внешний  <br/> |Аудиокодек, используемый для вызова, на который ссылается таблица PayloadDescription.  <br/> |
 |**AudioSampleRate** <br/> |целое  <br/> | <br/> |Частота выборки для аудиопотока.  <br/> |
-|**Обмена данными** <br/> |целое  <br/> | <br/> |Время кругового пути из статистики RTCP. Для обеспечения приемлемой качества это должен быть меньше, чем 100 мс.  <br/> |
+|**RoundTrip** <br/> |целое  <br/> | <br/> |Время кругового пути из статистики RTCP. Для обеспечения приемлемой качества это должен быть меньше, чем 100 мс.  <br/> |
 |**RoundTripMax** <br/> |целое  <br/> | <br/> |Максимальное время кругового пути для аудиопотока.  <br/> |
 |**OverallAvgNetworkMOS** <br/> |Decimal(3,2)  <br/> | <br/> |Средняя экспертная оценка MOS сети для вызова. Этот показатель зависит от потери пакетов, дрожанием и кодек, который используется. Значения — от [1.0 5.0].  <br/> |
 |**OverallMinNetworkMOS** <br/> |Decimal(3,2)  <br/> | <br/> |Минимальная экспертная оценка MOS сети для вызова.  <br/> |
@@ -56,7 +57,7 @@ ms.locfileid: "19570053"
 |**RatioStretchedSamplesAvg** <br/> |Decimal(5,2)  <br/> ||Среднее отношение числа растянутых образцов, созданных функцией восстановления звука, к обычным образцам.  <br/> |
 |**RatioCompressedSamplesAvg** <br/> |Decimal(5,2)  <br/> ||Среднее отношение числа сжатых образцов, созданных функцией восстановления звука, к обычным образцам.  <br/> |
 |**Входящие данные** <br/> |бит  <br/> | <br/> |Полученные данные потока на стороне получателя.  <br/> |
-|**Исходящий** <br/> |бит  <br/> | <br/> |Полученные данные потока на стороне отправителя.  <br/> |
+|**Исходящее** <br/> |бит  <br/> | <br/> |Полученные данные потока на стороне отправителя.  <br/> |
 |**SenderIsCallerPAI** <br/> |бит  <br/> | <br/> |1 означает, что поток идет в направлении от вызывающего абонента к вызываемому.  <br/> 0 означает, что поток идет в направлении от вызываемого абонента к вызывающему.  <br/> |
 |**JitterInterArrivalSD** <br/> |число с плавающей точкой  <br/> ||Допустимое отклонение для дрожания.  <br/> Этот столбец появился в Microsoft Lync Server 2013.  <br/> |
 |**ConcealRatioMax** <br/> |число с плавающей точкой  <br/> ||Максимальный коэффициент пакетов, скрытых при исправлении.  <br/> Этот столбец появился в Microsoft Lync Server 2013.  <br/> |

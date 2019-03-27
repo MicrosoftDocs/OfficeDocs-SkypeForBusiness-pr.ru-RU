@@ -1,5 +1,6 @@
 ---
 title: Развертывание нескольких сайтов в Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Сведения о развертывании нескольких сайтов ТСОП в Cloud Connector Edition.
-ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 194eaf0b68489b37a5ab1fc2d5d501177edd0b35
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532371"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895953"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Развертывание нескольких сайтов в Cloud Connector
  
@@ -69,7 +70,7 @@ ExternalMRPublicIPs=104.42.226.134
 Для каждого сайта ТСОП, который вы хотите добавить следуйте указаниям в [Развернуть один сайт в облаке соединителя](deploy-a-single-site-in-cloud-connector.md).
   
 > [!IMPORTANT]
-> Общая папка для подготовки среды высокой доступности выделяется на каждый сайт ТСОП. Каждый сайт ТСОП **должен** использовать разные общие папки. Не используйте ту же папку общей для нескольких сайтов. > 
+> Общая папка для подготовки среды высокой доступности выделяется на каждый сайт ТСОП. Каждый сайт ТСОП **должен** использовать разные общие папки. Не используйте ту же общую папку для нескольких sites.> 
   
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>Сравнение развертывания отдельного сайта с высокой доступностью и развертывания с несколькими сайтами
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>

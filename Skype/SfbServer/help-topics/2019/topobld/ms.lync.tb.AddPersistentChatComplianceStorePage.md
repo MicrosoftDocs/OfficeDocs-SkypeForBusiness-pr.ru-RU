@@ -1,5 +1,6 @@
 ---
 title: Добавление хранилища SQL Server для совместимости сохраняемого чата
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 ROBOTS: NOINDEX, NOFOLLOW
 description: Настройка хранилища SQL Server соответствия требованиям, который будет предоставлять баз данных для сервера сохраняемого чата или функции соответствия сервера сохраняемого чата.
-ms.openlocfilehash: 337c221b3d20572c026ca98afd9db2ed267ac1f8
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 08ca69ab6a949a906da800b677b3f63213686803
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064395"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896009"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Добавление хранилища SQL Server для совместимости сохраняемого чата
 

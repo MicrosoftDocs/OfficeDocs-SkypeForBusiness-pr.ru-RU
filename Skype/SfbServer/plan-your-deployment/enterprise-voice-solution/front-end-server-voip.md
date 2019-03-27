@@ -1,5 +1,6 @@
 ---
 title: Переднего плана Server VoIP компоненты для Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Сведения о компонентах Enterprise Voice, расположенные на серверах переднего плана в Скайп для Business Server, включая службы перевода и различные компоненты маршрутизации.
-ms.openlocfilehash: 5b99ea77d31f1697b0809c4089c801b2df729a29
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caeec86f4b4a965570773ee4bc51a4e752e76e46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888899"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892803"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Переднего плана Server VoIP компоненты для Скайп для Business Server
 
@@ -66,7 +67,7 @@ Exchange единой системы обмена СООБЩЕНИЯМИ ком�
 
 Чтобы включить переадресацию голосовой почты, мы рекомендуем администратору Exchange настроить Exchange единой системы обмена СООБЩЕНИЯМИ Auto Attendant (AA) на прием только сообщений.
 
-Для получения дополнительных сведений об этих возможностях см [В локальной единой системы обмена сообщениями интеграции с Exchange](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) и [Планирование устойчивости корпоративной голосовой связи](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx), соответственно.
+Дополнительные сведения об этих возможностях см. в разделах [On-Premises Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) и [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx) соответственно.
 
 ## <a name="intercluster-routing-component"></a>Компонент маршрутизации между кластерами
 

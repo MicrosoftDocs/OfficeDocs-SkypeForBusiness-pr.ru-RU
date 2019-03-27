@@ -1,5 +1,6 @@
 ---
-title: Параметры клиента (средство планирования)
+title: Client Settings (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,16 +13,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
-description: Мобильные возможности в Скайп для Business Server 2015 поддерживает Скайп для бизнес-функции на мобильных устройствах. Дополнительные сведения см планирование для мобильных устройств.
-ms.openlocfilehash: b7ec9bee77369b297ac5c4c590f7e185eaa0f450
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Мобильные возможности в Скайп для Business Server 2015 поддерживает Скайп для бизнес-функции на мобильных устройствах. Дополнительные сведения см. в статье Planning for Mobility.
+ms.openlocfilehash: 8c2fd0c0f3b0278a4d004c035f796a358d17199f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248392"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898608"
 ---
-# <a name="client-settings-planning-tool"></a>Параметры клиента (средство планирования)
+# <a name="client-settings-planning-tool"></a>Client Settings (Planning Tool)
 
-Мобильные возможности в Скайп для Business Server 2015 поддерживает Скайп для бизнес-функции на мобильных устройствах. Дополнительные сведения см [Планирование для мобильных устройств](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).
+Мобильные возможности в Скайп для Business Server 2015 поддерживает Скайп для бизнес-функции на мобильных устройствах. Дополнительные сведения см. в статье [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).
 
 

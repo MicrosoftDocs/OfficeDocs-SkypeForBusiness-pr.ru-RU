@@ -1,5 +1,6 @@
 ---
 title: Установка Skype для бизнеса Server на серверах в топологии
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 'Сводка: Узнайте, как установить Скайп компонентов системы Business Server на каждом сервере в топологии. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: c6122bea5af5be0e08f2510a6fae4b9c0e406df4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caa933e3469227fe0fa2aab680f53ddee445256e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887268"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891904"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Установка Skype для бизнеса Server на серверах в топологии
  
@@ -158,9 +159,9 @@ ms.locfileid: "23887268"
     
 15. На странице **Выполнение команд** нажмите кнопку **Далее**.
     
-16. На странице **Состояние сетевого запроса сертификата** просмотрите полученную информацию. Следует отметить, что сертификат был выдан и установлен в локальное хранилище сертификатов. Если он сообщается о был выдан и установлен, но не является допустимым, убедитесь в том, установить сертификат корневого центра сертификации в хранилище доверенных корневых ЦС сервера. Сведения о получении сертификата доверенного корневого центра сертификации см. в документации по центру сертификации. Если необходимо просмотреть полученный сертификат, щелкните элемент **Просмотр сведений о сертификате**. По умолчанию установлен флажок для **назначить сертификат, который Скайп для использования сертификата сервера** . Чтобы назначить сертификат вручную, снимите флажок и нажмите кнопку **Готово**.
+16. On the **Online Certificate Request Status** page, review the information returned. You should note that the certificate was issued and installed into the local certificate store. Если он сообщается о был выдан и установлен, но не является допустимым, убедитесь в том, установить сертификат корневого центра сертификации в хранилище доверенных корневых ЦС сервера. Refer to your CA documentation on how to retrieve a Trusted Root CA certificate. If you need to view the retrieved certificate, click **View Certificate Details**. По умолчанию установлен флажок для **назначить сертификат, который Скайп для использования сертификата сервера** . If you want to manually assign the certificate, clear the check box, and then click **Finish**.
     
-17. Если снять этот флажок для **назначить сертификат, который Скайп для использования сертификата Business Server** на предыдущей странице, появится страница **Назначение сертификата** . Нажмите кнопку **Далее**.
+17. Если снять этот флажок для **назначить сертификат, который Скайп для использования сертификата Business Server** на предыдущей странице, появится страница **Назначение сертификата** . Click **Next**.
     
 18. На странице **Хранилище сертификатов** выберите запрошенный сертификат. Чтобы просмотреть сертификат, щелкните элемент **Просмотр сведений о сертификате**, а затем нажмите кнопку **Далее**.
     
@@ -185,7 +186,7 @@ ms.locfileid: "23887268"
 
 1. Проверьте необходимые условия для **Шага 4. Запуск служб**.
     
-2. Если это пул переднего плана Enterprise Edition с по крайней мере три сервера, используется Windows Fabric и необходимо использовать командлет **Start-CsPool** . Если одного сервера, которая всегда в случае с Standard Edition, вы muse использовать командлет **Start-CsWindowsService** . В этом примере мы используем Enterprise Edition с тремя серверами переднего плана в пуле откройте **Скайп для Business Server Командная консоль** и выполните командлет **Start-CsPool** , как показано на рисунке. Для всех других ролей, включая сервера Standard Edition необходимо использовать **Командлет Start-CsWindowsService**. Чтобы развернуть роли, кроме роли сервера переднего плана, в документации для определенной роли.
+2. If this is an Enterprise Edition Front End pool with at least three servers, Windows Fabric is used, and you must use the **Start-CsPool** cmdlet. Если одного сервера, которая всегда в случае с Standard Edition, вы muse использовать командлет **Start-CsWindowsService** . В этом примере мы используем Enterprise Edition с тремя серверами переднего плана в пуле откройте **Скайп для Business Server Командная консоль** и выполните командлет **Start-CsPool** , как показано на рисунке. For all other roles, including Standard Edition server, you must use **Start-CsWindowsService**. To deploy roles other than the Front End role, see documentation for those particular roles.
     
      ![Запуск служб Skype для бизнеса.](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   

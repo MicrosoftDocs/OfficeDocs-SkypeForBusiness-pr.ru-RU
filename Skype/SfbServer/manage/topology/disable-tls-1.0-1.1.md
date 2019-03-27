@@ -1,5 +1,6 @@
 ---
 title: Отключить протокол TLS 1.0/1.1 в Скайп для Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Сводка: Подготовка к и реализовать отключение TLS 1.0 и 1.1 в вашей среде.'
-ms.openlocfilehash: f99cf01ceb952298e90d296461e0d2b663f92c5d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c10be59bb3e14ccb0a3ac315891789e8a0e2ce64
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493935"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886606"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Отключить протокол TLS 1.0/1.1 в Скайп для Business Server 2015
 
@@ -38,7 +39,7 @@ ms.locfileid: "30493935"
 
 ### <a name="fully-tested-and-supported-servers"></a>Полностью протестированы и поддерживаемые серверы
 
-- Скайп для Business Server 2019
+- Skype для бизнеса Server 2019
 - Скайп для Business Server 2015 CU6 HF2 6.0.9319.516 ([Обновить 2018 марта](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) и выше на: 
     - Windows Server 2012 (с 3140245 КБ или заменяющего обновления), 2012 R2 или 2016
 - Скайп обновления на месте для 2015 Business Server, с CU6 HF2 и более высоких прав для 
@@ -66,7 +67,7 @@ ms.locfileid: "30493935"
 
 - Система комнаты Lync (известной как SRSv1)
 - Версии 2 Скайп комнаты систем (известной как SRSv2)
-- Surface Hub
+- Контактной сервера-концентратора
 - на основе 2015, устройство для обеспечения связи в филиалах (SBA) или сервера обеспечения связи в филиалах (SBS)
 
 #### <a name="other"></a>Другое
@@ -529,11 +530,11 @@ Windows Registry Editor Version 5.00
      ![Диалоговое окно Установка локального хранилища конфигурации](../../media/local-configuration-store.png)
      - Проанализируйте результаты и убедитесь, что состояние задачи завершено. Просмотрите созданный файл журнала, нажав кнопку **Просмотреть журнал**.
      ![Состояние задачи отображается как завершено](../../media/local-configuration-task-completed.png)
-     - Нажмите кнопку **Готово **.
+     - Нажмите **Готово**.
 9. Установка и удаление Скайп для бизнес-компоненты сервера (шаг 2):
     - Откройте мастер развертывания, выберите **установить или обновление Скайп для бизнес-системы сервера**и нажмите кнопку **Запуск** на шаге 2: Установка и удаление Скайп для бизнеса серверных компонентов
     - Нажмите кнопку **Далее** в задать копирование Скайп для диалогового окна Business серверных компонентов.
     ![Задайте копирование Скайп для бизнеса серверных компонентов окна](../../media/set-up-skype-for-business-server-components-window.png)
     - Просмотр журнала с помощью просмотреть журнал и проверки, установка завершена без проблем. 
-    - Нажмите кнопку **Готово **.
+    - Нажмите **Готово**.
 10. Дополнительные установки и конфигурации в соответствии с требованиями (можно возобновить процедуры обычной установки на этом этапе).

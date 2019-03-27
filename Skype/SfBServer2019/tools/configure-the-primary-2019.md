@@ -1,5 +1,6 @@
 ---
 title: Настройка основного сервера управления
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: Настройка вашей основной сервер управления сервера, установки System Center Operations Manager и импорт пакетов управления для Скайп для Business Server 2019.'
-ms.openlocfilehash: 39ed469227c607084dc030fa003700074a6aae9a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a1e77a46b450e7f2e8f706099224ae314618ed78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536064"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895679"
 ---
 # <a name="configure-the-primary-management-server"></a>Настройка основного сервера управления
 
@@ -57,7 +58,7 @@ ms.locfileid: "26536064"
 - **Компонент и пакет управления пользователя** (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) отслеживает Скайп проблем Business Server записываются в журналы событий, зарегистрированные счетчики производительности или в записи регистрации вызовов (CDR) или базы данных качества взаимодействия (QoE). Для критических проблем System Center Operations Manager можно настроить для сразу же уведомления администраторов с помощью электронной почты, мгновенное сообщение или SMS системы обмена сообщениями. (SMS, or Short Message Service, is the technology used to send text messages from one mobile device to another.)
 
     > [!NOTE]
-    >  О настройке уведомления в Operations Manager см. раздел [Configuring Notification](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
+    >  Для получения дополнительных сведений о настройке уведомлений Operations Manager видеть [Настройка уведомлений](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
 - **Пакет управления Active мониторинга** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) проактивное тесты ключевые Скайп для бизнеса серверные компоненты, такие как вход в систему, обмен мгновенными сообщениями или выполнение вызовов номер телефона, расположенные на телефонной сети общего пользования (PSTN ). Такая проверка выполняется с помощью командлетов искусственных транзакций Skype для бизнеса Server. Например, командлет **Test-CsIM** позволяет смоделировать сеанс обмена мгновенными сообщениями между двумя тестовыми пользователями. В случае сбоя при моделировании сеанса формируется оповещение.
 

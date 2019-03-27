@@ -1,5 +1,6 @@
 ---
 title: Настройка приглашений на собрания
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Настройка приглашения на собрания Скайп рисунок, связанный с эмблем, справки и юридических URL-адреса и текст нижнего колонтитула. '
-ms.openlocfilehash: a5ea519ddc762e861b8c3bad173139c328d8bab4
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 3d01d23172d7c187d09930c644390bdbf7a273b2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493524"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897337"
 ---
 # <a name="customize-meeting-invitations"></a>Настройка приглашений на собрания
 
@@ -71,7 +72,7 @@ ms.locfileid: "30493524"
     
     ![Здесь выглядит настраиваемые приглашения, без рисунка](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 <a name="__top"> </a>
 
 [Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

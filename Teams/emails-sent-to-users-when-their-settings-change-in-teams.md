@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, какая информация автоматически передается пользователям по электронной почте при изменении их настроек конференц-связи с телефонным подключением в Microsoft Teams. '
-ms.openlocfilehash: cdd45eaad709ed2060cc0b0f9700e213ea884b72
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 67e4945095b9ed7e69632741e04b4ac384741feb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633336"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883421"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Сообщения электронной почты, отправляемые пользователям при изменении их настроек в Microsoft Teams
 
@@ -77,7 +77,7 @@ ms.locfileid: "30633336"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Изменение отправляемых сообщений электронной почты
 
-Вы можете внести изменения в сообщение, автоматически отправляемое пользователям, включая адрес электронной почты и отображаемое имя, включаемое в поле *От* контактных данных. По умолчанию эти сообщения электронной почты отправляются из Office 365, но вы можете изменить адрес электронной почты и отображаемое имя с помощью Windows PowerShell. Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Можно внести изменения в сообщение электронной почты, которое отправляется пользователям автоматически. По умолчанию отправителя сообщения электронной почты будут из Office 365, но можно изменить отображаемое имя, с помощью Windows PowerShell. Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Что делать, если отправлять сообщение не требуется?
 

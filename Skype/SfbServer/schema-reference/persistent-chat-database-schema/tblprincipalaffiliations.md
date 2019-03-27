@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalAffiliations
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 description: Таблица tblPrincipalAffiliations содержит присоединения субъектов, которые описывают членство в расположениях, включая группы безопасности доменных служб Active Directory, контейнеры Active Directory и доменов.
-ms.openlocfilehash: 4e5529590a6a636c28c801392953c7fd69e9f649
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c93edb552c63ebd4f7344926a7d43858b42506ae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897041"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  
@@ -22,7 +24,7 @@ ms.lasthandoff: 03/28/2018
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**|
+|**Столбец**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|
 |principalID  <br/> |int, не null  <br/> |Идентификатор присоединенного субъекта.  <br/> |
 |affiliationID  <br/> |int, не null  <br/> |Идентификатор участника, представляющий принадлежность. Каждый участник (за исключением системы--пользователем) имеет также самораспаковывающийся принадлежность к.  <br/> |
@@ -31,7 +33,7 @@ ms.lasthandoff: 03/28/2018
    
 **Ключи**
 
-|**Столбцы**|**Описание**|
+|**Столбцы**|**Описание**.|
 |:-----|:-----|
 |\<principalID, индекса, affiliationID\>  <br/> |Первичный ключ.  <br/> |
 |principalID  <br/> |Внешний ключ с подстановкой в таблице tblPrincipal.prinID.  <br/> |

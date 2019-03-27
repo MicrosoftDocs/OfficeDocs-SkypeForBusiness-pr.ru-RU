@@ -1,5 +1,6 @@
 ---
-title: Расширитель параметров службы посредника переднего плана для Lync Server 2010
+title: Расширитель настроек службы сервера-посредника переднего плана для Lync Server 2010
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 'Изменение свойств параметров шлюза ТСОП Mediation Server в этом диалоговом окне. Определите следующие параметры:'
-ms.openlocfilehash: a70ec5e569b60c28e8ec91e86d09ac5f5285ee00
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1a189481eebafc18e925df391c55fa5ced656d91
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371493"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889275"
 ---
-# <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Расширитель параметров службы посредника переднего плана для Lync Server 2010
+# <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Расширитель настроек службы сервера-посредника переднего плана для Lync Server 2010
  
 Изменение свойств параметров **шлюза ТСОП Mediation Server** в этом диалоговом окне. Определите следующие параметры:
   

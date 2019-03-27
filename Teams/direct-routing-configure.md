@@ -1,5 +1,6 @@
 ---
 title: Настройка прямой маршрутизации
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Сведения о настройке Microsoft телефонной системы прямой маршрутизации.
-ms.openlocfilehash: 5c2d90ccb88c0e654239ec02a5780778a7db6bbe
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 20bd29bdd2ba83050bd83513f513732ce646cbbe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569784"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883569"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -449,7 +450,7 @@ Spencer Low — допускается только в США и Канада ч
 
 
   > [!NOTE]
-  > - Порядок использования ТСОП в политики маршрутизации голосовой связи крайне важна. Примеры использования применяются в порядке, а если совпадение найдено при первом использовании, затем другие режимы работы с никогда не применяются. Режим работы с ТСОП «International» должны быть введены после работы с ТСОП «"мне НРАВИТСЯ" только.» Чтобы изменить порядок использования ТСОП, запустите `Set-CSOnlineRouteRoutingPolicy` команды. <br/>Например, чтобы изменить порядок «США и Канады» выполните первый и «Международный» секунды в порядке, обратном порядку:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - Порядок использования ТСОП в политики маршрутизации голосовой связи крайне важна. Примеры использования применяются в порядке, а если совпадение найдено при первом использовании, затем другие режимы работы с никогда не применяются. Режим работы с ТСОП «International» должны быть введены после работы с ТСОП «"мне НРАВИТСЯ" только.» Чтобы изменить порядок использования ТСОП, запустите `Set-CSOnlineVoiceRoutingPolicy` команды. <br/>Например, чтобы изменить порядок «США и Канады» выполните первый и «Международный» секунды в порядке, обратном порядку:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - Автоматически назначаются приоритет маршруты голосовой связи «International» и «Другие + 1». Они не имеет значения, поскольку они имеют более низкими приоритетами чем «Redmond 1» и «Redmond 2».
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Пример политики маршрутизации голосовой связи для пользователя John Woods

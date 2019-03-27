@@ -1,5 +1,6 @@
 ---
 title: Изменить существующую политику в Скайп архивирования для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Сводка: Узнайте, как для изменения политик архивации для Скайп для Business Server пользователя.'
-ms.openlocfilehash: 6c92d4f7e4c2a464d248f6b981165de000615432
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 66365ea489f0450f0489c03bf0e273731d5526a8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974653"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884338"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Изменить существующую политику в Скайп архивирования для Business Server
  

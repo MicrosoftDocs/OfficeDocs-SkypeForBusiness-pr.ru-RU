@@ -1,5 +1,6 @@
 ---
 title: Переднего плана пула аварийного восстановления в Скайп для Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Для аварийного восстановления Скайп для Business Server предлагает связывания с отработки отказа в случае, если один пул происходит сбой пула.
-ms.openlocfilehash: 4f7be2c41155c25984a3a4892fdabe982384756a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 56108fe2187b37fd6f3094d68a8cc89bac436bea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979893"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897425"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Переднего плана пула аварийного восстановления в Скайп для Business Server
  
@@ -71,7 +72,7 @@ ms.locfileid: "20979893"
   
 В соответствии с проектными задачами при отработке отказа для центрального хранилища управления целевое время восстановления (RTO) составляет 5 минут, а целевая точка восстановления (RPO) — 5 минут.
   
-## <a name="front-end-pool-pairing-data-security"></a>Безопасность данных при связывании внешних пулов
+## <a name="front-end-pool-pairing-data-security"></a>Безопасность спаренных данных пула переднего плана
 
 Служба резервного копирования непрерывно переносит данные пользователей и содержимое конференций между двумя связанными внешними пулами. Данные пользователей содержат пользовательские SIP URI, а также расписания конференций, списки контактов и настройки пользователей. Содержимое конференций включает в себя загрузки Microsoft PowerPoint, а также доски, используемые на конференциях.
   

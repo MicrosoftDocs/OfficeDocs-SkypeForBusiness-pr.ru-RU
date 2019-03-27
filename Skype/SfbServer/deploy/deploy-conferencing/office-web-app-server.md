@@ -1,5 +1,6 @@
 ---
 title: Настройка интеграции с сервером Office Web Apps в Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Сводка: Прочтите этот раздел, чтобы узнать, как настроить интеграцию сервера Office Web Apps и Скайп для Business Server для включения презентаций PowerPoint для веб-конференций.'
-ms.openlocfilehash: 6c7c19f7634c7b0266364d372b573d3d060d5a97
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 69cdbd50387f2e3267a0fc2acb38e47260970578
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375246"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892577"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Настройка интеграции с сервером Office Web Apps в Скайп для Business Server
  
@@ -65,11 +66,11 @@ ms.locfileid: "25375246"
     
 ## <a name="configure-access-for-external-users"></a>Настройка доступа внешних пользователей
 
-Если вы хотите внешних пользователей (то есть, вход в систему из за пределами брандмауэра организации) имеют доступ к презентации PowerPoint сервера Office Web Apps, после чего будет для использования сервера Office Web Apps и обратного прокси-сервера. Также вам потребуется создать и настроить правило публикации веб-сайта, что поможет гарантировать, что пользователи могут подключаться к серверу. 
+Если вы хотите внешних пользователей (то есть, вход в систему из за пределами брандмауэра организации) имеют доступ к презентации PowerPoint сервера Office Web Apps, после чего будет для использования сервера Office Web Apps и обратного прокси-сервера. You will also need to create and configure a website publishing rule, which will help ensure that users are able to connect to the server. 
   
 ## <a name="validate-the-configuration"></a>Проверка конфигурации
 
-После добавления сервера Office Web Apps в топологию, а после публикации, топологии, вы увидите два новых события журнала событий в Скайп для журнала событий Business Server. Во-первых следует добавить событие MCU данных LS (идентификатор события 41034); Это событие сообщает, что был обнаружен сервера Office Web Apps:
+После добавления сервера Office Web Apps в топологию, а после публикации, топологии, вы увидите два новых события журнала событий в Скайп для журнала событий Business Server. First, an LS Data MCU event (event ID 41034) should be added; this event will report that the Office Web Apps Server has been discovered:
   
  **Сервер веб-конференций обнаружил сервер Office Web Apps Server, содержимое PowerPoint включено.**
   

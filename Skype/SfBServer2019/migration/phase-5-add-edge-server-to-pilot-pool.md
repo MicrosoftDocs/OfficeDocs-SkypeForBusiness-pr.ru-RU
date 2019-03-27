@@ -1,5 +1,6 @@
 ---
 title: Этап 5 добавьте Скайп для бизнеса 2019 пограничного сервера для пилотного пула
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В темах этого раздела описывается, как добавление Скайп Business Server 2019 пограничного сервера для развертывания пилотного пула. В разделах представлено руководство настройки и проверки при запуске мастера развертывания нового пограничного пула.
-ms.openlocfilehash: 7f118a9ff75f1775692292ea2286c8a41bade1f8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c7da85f000fad55b27ed376d40bed957edf8dd6c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027251"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898992"
 ---
 # <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Этап 5: Добавление Скайп Business Server 2019 пограничного сервера для пилотного пула
 
@@ -23,6 +24,6 @@ ms.locfileid: "25027251"
 
 - [Развертывание пилотного пограничного сервера](deploy-pilot-edge-server.md)
     
-- [Проверка параметров конфигурации](verify-configuration-settings.md)
+- [Проверка параметров настройки](verify-configuration-settings.md)
     
 

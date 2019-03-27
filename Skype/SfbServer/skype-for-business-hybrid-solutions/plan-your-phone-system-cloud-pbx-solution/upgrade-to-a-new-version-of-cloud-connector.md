@@ -1,5 +1,6 @@
 ---
 title: Обновление Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Сведения о процедуре обновлении развертывания Cloud Connector Edition.
-ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5b3ca4b216bc376c9e23424fb978b5cd83e4aa41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370629"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897652"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Обновление Cloud Connector
  
@@ -61,7 +62,7 @@ ms.locfileid: "25370629"
   - Очистите старое устройство и переведите сетевое подключение на новое устройство.
     
 > [!NOTE]
->  При соединителя облачных обновлений на новое построение и командлеты соединителей облако может не обновляются. Это может произойти, например, если окно PowerShell будет открыта, несмотря на то автоматического обновления. Чтобы загрузить обновленные командлеты, можно выполнить одно из следующих действий: > Закрыть PowerShell на устройство для облачных соединителя, а затем открыть PowerShell. > или можно запустить CloudConnector Import-Module-Force.
+>  При соединителя облачных обновлений на новое построение и командлеты соединителей облако может не обновляются. Это может произойти, например, если окно PowerShell будет открыта, несмотря на то автоматического обновления. Чтобы загрузить обновленные командлеты, выполните одно из следующие шаги: > закрыть PowerShell на устройстве облачных соединителя и снова запустите PowerShell.> или, можно запустить CloudConnector Import-Module-Force.
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>Обновление отдельного сайта до новой версии
 <a name="BKMK_Upgrade"> </a>

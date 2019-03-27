@@ -1,5 +1,6 @@
 ---
 title: Управление enhanced 9-1-1 и службой расположения
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Скайп для Business Server поддерживает Enhanced 9-1-1 (E9-1-1) вызов из Скайп пользователей. При настройке Скайп для Business Server для E9-1-1, экстренных вызовов, поступающих из Скайп для бизнеса включают расположение экстренного ответа (ERL) данные из базы данных службы сведения о расположении.
-ms.openlocfilehash: ef45f6e30e65a9a3fe79fd51576c24a6a4dfb318
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223460"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895155"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Управление enhanced 9-1-1 и службой расположения в Скайп для бизнес-сервера
 
@@ -141,7 +142,7 @@ ms.locfileid: "27223460"
 
 5.  В меню **Правка** выберите пункт **Удалить**.
 
-6.  Нажмите **OK**.
+6.  Нажмите **ОК**.
 
     > [!IMPORTANT]  
     > Не удается удалить глобальную политику расположения. Если попытаться удалить глобальную политику вы получите предупреждение и политики восстановит значения по умолчанию.
@@ -151,7 +152,7 @@ ms.locfileid: "27223460"
 
 [Создание или изменение сетевых узлов](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 
-[Новый CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
 
 [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 
  

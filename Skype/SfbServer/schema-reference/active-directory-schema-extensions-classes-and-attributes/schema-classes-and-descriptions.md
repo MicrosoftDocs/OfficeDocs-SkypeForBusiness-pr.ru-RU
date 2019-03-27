@@ -1,5 +1,6 @@
 ---
 title: Классы схемы и описания в Скайп Business Server
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: В этом разделе описываются все классы схемы, используемые Скайп для Business Server.
-ms.openlocfilehash: 20d85e879bb9bfb040150423d47836b6e6803c37
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0bb34a93ec23df67d19026e82e29769e0aeb9ab2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926562"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Классы схемы и описания в Скайп Business Server
  
@@ -22,7 +24,7 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="schema-classes-and-descriptions"></a>Классы схемы и описания
 
-|**Класс**|**Описание**|**Комментарии**|
+|**Класс**|**Описание**.|**Комментарии**|
 |:-----|:-----|:-----|
 |Получатель почты  <br/> |Получатель электронной почты Exchange единой системы обмена сообщениями (единой системы обмена СООБЩЕНИЯМИ).  <br/> |Этот дополнительный класс совместно с Exchange единой системы обмена СООБЩЕНИЯМИ.  <br/> |
 |msRTCSIP-ApplicationContacts  <br/> |Этот класс является контейнером для нескольких контактов приложения и не содержит какие-либо атрибуты.  <br/> |Новые возможности Microsoft Office Communications Server 2007 R2.  <br/> |

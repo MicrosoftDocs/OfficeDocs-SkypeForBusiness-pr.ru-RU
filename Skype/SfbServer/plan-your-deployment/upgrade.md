@@ -1,5 +1,6 @@
 ---
 title: Планирование обновления до Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Сводка: Сведения о том, что, что необходимо учитывать при планировании обновления до Скайп Business Server 2015. Загрузить бесплатную пробную версию программы Скайп для 2015 Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: dd62ee7b8b7721b8ace7c3e49dd69df60d3229f7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 711b675c902824e6aab31ed64266a946a135b7fb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375136"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899167"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Планирование обновления до Skype для бизнеса Server 2015
  
@@ -147,7 +148,7 @@ ms.locfileid: "25375136"
    - Для других серверов (не переднего плана) используйте командлет Start-CSWindowsService.
     
 > [!NOTE]
->  Если вы не хотите обновлять свои существующие базы данных архивирования и мониторинга, удалите данную зависимость перед обновлением топологии. Если требуется во время обновления создать новые базы данных архивирования и мониторинга, можно создать новое хранилище SQL и связать его с пулом. Можно найти инструкции о том, как это сделать в разделе[обновление Скайп для Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > Обновление на месте не поддерживает высокой доступности и аварийного восстановления для Скайп для Business Server. Во избежание прерывания служб пользователей, используйте [метод переместить пользователей (без простоев пользователя)](upgrade.md#bkmk_MoveUsersMethod) для обновления. > во время процесса обновления реплики xds переводится в локальном общей папки на жесткий диск с наибольшим объемом свободного пространства. Если позже этот диск будет удален, вы можете столкнуться с проблемами, например со сбоем запуска служб.
+>  Если вы не хотите обновлять свои существующие базы данных архивирования и мониторинга, удалите данную зависимость перед обновлением топологии. Если требуется во время обновления создать новые базы данных архивирования и мониторинга, можно создать новое хранилище SQL и связать его с пулом. Можно найти инструкции о том, как это сделать в разделе[обновление Скайп для Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). обновление на месте > не поддерживает высокой доступности и аварийного восстановления для Скайп для Business Server. Во избежание прерывания служб пользователей, используйте [метод переместить пользователей (без простоев пользователя)](upgrade.md#bkmk_MoveUsersMethod) , upgrade.> во время процесса обновления, который xds реплики переводится в локальном общей папки на жесткий диск с наибольшим объемом свободного пространства. Если позже этот диск будет удален, вы можете столкнуться с проблемами, например со сбоем запуска служб.
   
 ### <a name="upgrade-order"></a>Порядок обновления
 
@@ -162,7 +163,7 @@ ms.locfileid: "25375136"
 
 Skype для бизнеса Server 2015 выполняется в той же топологии, что и Lync Server 2013 или Lync Server 2010, однако вы не можете разместить все три продукта в одной топологии.
   
-Если в среде настроена совместная работа Lync Server 2010 и Lync Server 2013, рекомендуется обновить всю топологию до Lync Server 2013, а затем до Skype для бизнеса Server 2015, используя функцию обновления на месте. Для получения дополнительных сведений см [Миграция с Lync Server 2010 на Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526615).
+Если вы одновременно используете Lync Server 2010 и Lync Server 2013, рекомендуем сначала перевести всю топологию на Lync Server 2013, а затем обновить ее до Skype для бизнеса Server 2015 с помощью функции обновления на месте. Для получения дополнительных сведений см [Миграция с Lync Server 2010 на Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526615).
   
 Если в топологии в основном используется Lync Server 2010, выполните откат компонентов Lync Server 2013 до версии Lync Server 2010 перед обновлением топологии до Skype для бизнеса Server 2015. В этом случае вы не сможете воспользоваться преимуществами обновления на месте и реализовать топологию совместного развертывания Lync Server 2010 и Skype для бизнеса Server 2015.
   
@@ -183,11 +184,11 @@ Skype для бизнеса Server 2015 выполняется в той же т
   
 Для сосуществования топологий Lync Server 2010 и Lync Server 2013 выровняйте первым рекомендации, внесенные в разделе «поддержка совместная работа с Lync Server 2013 и Lync Server 2010".
   
-## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
+## <a name="see-also"></a>См. также
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-[Обновление до Скайп для Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
+[Upgrade to Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
   
-[Требования к среде Skype для бизнеса Server 2015](requirements-for-your-environment/environmental-requirements.md)
+[Environmental requirements for Skype for Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
   
-[Требования к серверу для Skype для бизнеса Server 2015](requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)

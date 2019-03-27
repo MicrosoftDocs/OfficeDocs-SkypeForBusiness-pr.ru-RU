@@ -1,5 +1,6 @@
 ---
 title: Маршрутизация конференц-связи в Скайп для Business Server на основе расположения
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Планирование для расположения маршрутизация на основе конференц-связи в Скайп Business Server корпоративной голосовой связи, включая консультативное вызов передает.
-ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cdb043aca3f2e2ac4278de1782f756d395016770
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240740"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892965"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Маршрутизация конференц-связи в Скайп для Business Server на основе расположения
 
@@ -66,7 +67,7 @@ ms.locfileid: "27240740"
 > [!NOTE]
 > В Skype для бизнеса с накопительным пакетом обновления 4 (CU4) должно наблюдаться поведение, описанное в следующей таблице:
 
-|**Пользователь**|**Другая сторона**|**Описание**|**Результат**|
+|**User**|**Другая сторона**|**Описание**|**Результат**|
 |:-----|:-----|:-----|:-----|
 |Skype для бизнеса Mobile  <br/> |ТСОП  <br/> |В Skype для бизнеса Mobile выполняется звонок ТСОП. Затем Skype для бизнеса Mobile передает вызов в службу автосекретаря конференции (CAA).  <br/> |Вызов блокируется с соответствующим сообщением об ошибке.  <br/> |
 |Skype для бизнеса Mobile  <br/> |Клиент или федеративный пользователь Skype для бизнеса  <br/> |Любой из сторон перехода к CAA клиента или федеративного пользователя — на вызов VoIP Скайп для маршрутизации Business Mobile Location-Based пользователя  <br/> |Вызов эскалации блокируется с соответствующим сообщением об ошибке.  <br/> |
@@ -142,7 +143,7 @@ ms.locfileid: "27240740"
 
 После найти значение приоритета правильный для маршрутизации на основе расположения для приложения конференц-связи, введите следующий командлет для каждого пула переднего плана или сервера Standard Edition, домашние пользователи включены для маршрутизации на основе местоположения:
 
-New-CsServerApplication-удостоверения службы: Registrar:`<Pool FQDN`> / LBRouting-приоритет \<приоритет приложений\> -включено $true-критические $true - Uri<http://www.microsoft.com/LCS/LBRouting> 
+New-CsServerApplication-удостоверения службы: Registrar:`<Pool FQDN`>/LBRouting - приоритет \<приоритет приложений\> -включено $true-критические $true - Uri<http://www.microsoft.com/LCS/LBRouting> 
 
 Например:
 

@@ -1,5 +1,6 @@
 ---
 title: Настройка тестовых пользователей узла-наблюдателя и параметров
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: Настройка тестовых учетных записей пользователей и параметры узла наблюдателя для Скайп для искусственных транзакций Business Server.'
-ms.openlocfilehash: 3348d0407321ca53a771e2783b0f27c6463143f4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6137d72ce35ffdacaacb85890b387d5f9fc8ab9a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536062"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897488"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Настройка тестовых пользователей узла-наблюдателя и параметров
  
@@ -364,7 +365,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Искусственная транзакция сервера видеовзаимодействия
 
-Искусственная транзакция сервера видеовзаимодействия требует загрузки и установки файлов поддержки искусственной транзакции ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+Искусственная транзакция видео взаимодействия сервера по ДИАГОНАЛИ необходимо загрузить и установить файлы поддержки искусственная транзакция ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
 Чтобы установить VISSTSupportPackage.msi убедитесь, что зависимости для msi уже установлены (вкладка системных требований). Запустите VISSTSupportPackage.msi для выполнения простой установки. MSI-файла устанавливает все файлы по следующему пути: «%ProgramFiles%\VIS искусственная транзакция пакет поддержки».
   

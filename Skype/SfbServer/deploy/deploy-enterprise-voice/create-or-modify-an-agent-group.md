@@ -1,5 +1,6 @@
 ---
 title: Создание или изменение группы агентов в Скайп для бизнеса
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Создание или изменение группы агента группы ответа, в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 0eb94658abac8d137b915fd5a499364b43b51916
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16dafbfc3157e08a187be5799c5901115d738b48
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370686"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894538"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Создание или изменение группы агентов в Скайп для бизнеса
  
@@ -79,7 +80,7 @@ ms.locfileid: "25370686"
     
    - Если требуется всегда предлагать принять новый вызов агентам в том порядке, в котором они представлены в списке **Агент**, щелкните **Последовательно**. 
     
-   - Чтобы предложить Новый звонок для всех агентов, которые были подписаны в Скайп для бизнеса и приложения группы ответа в то же время, независимо от их текущего сведения о присутствии щелкните **помощника**. Пользователи, настроенные как агенты могут видеть все звонки, которые ожидают и отвечать на звонки ожидания в любом порядке. Вызов отправляется первого агенту, который принимает его, после чего другие агенты больше не видели вызов.
+   - Чтобы предложить Новый звонок для всех агентов, которые были подписаны в Скайп для бизнеса и приложения группы ответа в то же время, независимо от их текущего сведения о присутствии щелкните **помощника**. Users who are configured as agents can see all the calls that are waiting and answer waiting calls in any order. The call is sent to the first agent who accepts it, after which the other agents no longer see the call.
     
 10. В разделе **Агенты** укажите вариант создания списка агентов.
     
@@ -143,10 +144,10 @@ ms.locfileid: "25370686"
 
 ## <a name="see-also"></a>См. также
 
-[Командлет Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   
-[Командлет New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+[New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 [Командлет Set-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
   
-[Командлет Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)
+[Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)

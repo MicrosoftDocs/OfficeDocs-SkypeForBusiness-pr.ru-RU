@@ -1,7 +1,7 @@
 ---
 title: Создание очереди звонков в телефонной системе
-ms.author: tonysmit
-author: tonysmit
+ms.author: jambirk
+author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Узнайте о том, как настроить телефонную систему для работы с очередью вызовов Office 365 (Cloud PBX), позволяющей использовать корпоративное приветствие, музыкальную заставку при удержании вызова и функцию переадресации вызовов операторам, доступным в списках распределения и группах безопасности. Помимо этого, вы можете получить информацию о том, как настроить максимальный размер очереди, тайм-аут и параметры обработки вызовов.
-ms.openlocfilehash: f22b840bfde011937305732e61748d8a1feae390
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+description: Узнайте, как настроить телефонной системой для телефонной системой очередей вызова обеспечивающее организационной приветствия музыку при удержании и Перенаправление звонков на вызов агентам в списки рассылки и группы безопасности. You can also set the maximum queue size, time out, and call handling options.
+ms.openlocfilehash: 924885ff62bb0e7e2ba0f25cc348dc62eb29ec32
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633276"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898168"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Создание очереди звонков в телефонной системе
 
@@ -64,7 +64,7 @@ Phone System call queues include greetings that are used when someone calls in t
     > [!NOTE]
     > Для перенаправления вызовов тем сотрудникам организации, которые находятся в сети, им необходимо предоставить лицензию на **телефонную систему** и разрешить доступ к корпоративной голосовой связи, либо предоставить тарифные планы Office 365. В разделе [Назначение Скайп для бизнеса лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) или [группами Майкрософт назначение лицензий](assign-teams-licenses.md). Для предоставления сотрудникам доступа к корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Чтобы больше узнать о тарифных планах Office 365, см. [Что представляют собой тарифные планы в Office 365?](what-are-calling-plans-in-office-365.md) и [Тарифные планы для Office 365](calling-plans-for-office-365.md).
+- Чтобы узнать больше о вызове планы Office 365, обратитесь к разделу [телефонной системой и вызов планов](calling-plan-landing-page.md) и [Вызов планов Office 365](calling-plans-for-office-365.md).
 
     > [!NOTE]
     > Пользователи размещенных в локальной Lync Server 2010 не поддерживается как очередь звонков агенты.
@@ -108,6 +108,8 @@ Phone System call queues include greetings that are used when someone calls in t
 Если вы также установка автосекретари, может только необходимо назначить номер телефона учетная запись ресурса главного автосекретаря и затем абонентов, которые его прямой звонок очередь. Если это так, очереди вызовов будет необходимо создать перед созданием параметр автосекретаря, которая выбирает очереди вызовов.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Шаг 3 - создать новую очередь звонка
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > Каждые очереди звонка необходимо иметь связанной [учетной записи ресурса](manage-resource-accounts.md). Сначала необходимо создать учетную запись ресурса, а затем можно связать его в очередь вызова.

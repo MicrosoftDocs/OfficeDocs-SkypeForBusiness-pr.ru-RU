@@ -1,5 +1,6 @@
 ---
-title: Развертывание диспетчера статистики для Скайп for Business Server
+title: Развертывание диспетчера статистики в Skype для бизнеса Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Сводка: Сведения о сведения о развертывании диспетчера статистики для Скайп для Business Server.'
-ms.openlocfilehash: ef2dd51306dc2806161fc0c0d4b11087a2f466ea
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297701"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898260"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Развертывание диспетчера статистики для Скайп for Business Server
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Развертывание диспетчера статистики в Skype для бизнеса Server
  
 **Сводка:** Прочтите этот раздел, чтобы узнать, как развертывания диспетчера статистики для Скайп для Business Server.
   
@@ -67,7 +68,7 @@ ms.locfileid: "27297701"
     
     Можно загрузить неподписанный программы установки[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    При необходимости подписанные двоичные файлы можно получить через популярные диспетчеры пакетов — [Nuget](https://www.nuget.org/packages/Redis-64/) и [Choclatey](https://chocolatey.org/packages/redis-64).
+    При необходимости, подписанные двоичные файлы можно загрузить популярные пакет руководители: [Nuget](https://www.nuget.org/packages/Redis-64/) и [Choclatey](https://chocolatey.org/packages/redis-64).
     
    - Запустите MSI-файл и следуйте указаниям.
     
@@ -298,8 +299,8 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
 
 Дополнительные сведения приведены далее.
   
-- [Планирование для диспетчера статистики для Скайп Business Server](plan.md)
+- [Планирование диспетчера статистики в Skype для бизнеса Server](plan.md)
     
-- [Обновление статистики Manager для Скайп для Business Server](upgrade.md)
+- [Обновление диспетчера статистики в Skype для бизнеса Server](upgrade.md)
     
 - [Устранение неполадок диспетчера статистики для Скайп для Business Server](troubleshoot.md) ß

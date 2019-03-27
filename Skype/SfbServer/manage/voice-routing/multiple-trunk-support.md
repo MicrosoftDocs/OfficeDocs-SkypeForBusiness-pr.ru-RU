@@ -1,5 +1,6 @@
 ---
 title: Поддержка нескольких каналов в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Скайп для функции Business Server поддерживает несколько связей между шлюзы и серверы-посредники. Такие связи вносимые определение линии связи, который является логической связи между пула серверов-посредников и шлюза телефонной сети (общего пользования PSTN), пограничный контроллер сеансов (SBC) или IP-УАТС. Используйте построитель топологий для сопоставления шлюзы с серверов-посредников (то есть, магистральных линий связи).
-ms.openlocfilehash: 086d345eb7492423526466cc77a2ce0d0d9a998e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 5d093bee56597474f0cefcf1053536774f2eb795
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222788"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896569"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>Поддержка нескольких каналов в Скайп для Business Server
 

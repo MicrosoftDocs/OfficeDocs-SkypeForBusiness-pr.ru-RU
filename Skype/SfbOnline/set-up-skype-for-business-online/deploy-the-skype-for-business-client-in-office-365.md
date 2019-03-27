@@ -1,5 +1,6 @@
 ---
 title: Развертывание клиента Skype для бизнеса в среде Office 365
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. '
-ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6dccd022d82519c1dfdce13f767e5b0a2531eb10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372574"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896796"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Развертывание клиента Skype для бизнеса в среде Office 365
 
@@ -52,7 +53,7 @@ ms.locfileid: "25372574"
     ![Choose which software you want the user to access.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> Если вам нужно просмотреть, какие планы назначены сотрудникам вашей организации, войдите в новый центр администрирования Office 365 > **Пользователи** > **Активные пользователи**. Выберите пользователя в списке, затем найдите раздел **лицензий на продукт**. При использовании классической центра администрирования Office 365, обратитесь в разделе **назначения лицензий**. 
+> Если вам нужно просмотреть, какие планы назначены сотрудникам вашей организации, войдите в новый Office 365 admin center > **пользователей** > **Активные пользователи**. Выберите пользователя в списке, затем найдите раздел **лицензий на продукт**. При использовании классической центра администрирования Office 365, обратитесь в разделе **назначения лицензий**. 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>Развертывание Skype для бизнеса на компьютерах пользователей вручную
 <a name="bkmk_manual_1"> </a>

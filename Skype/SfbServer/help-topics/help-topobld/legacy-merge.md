@@ -1,5 +1,6 @@
 ---
-title: Объединения с устаревшей версией
+title: Объединение с устаревшей версией
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 description: Полное доменное имя внешних веб-конференций позволяет внешним пользователям присоединяться к собраниям в локальной. Введите полное доменное имя (FQDN) веб-конференций внешнего интерфейса из устаревшего пограничного сервера.
-ms.openlocfilehash: f118cf556662d62e63c2c1d47cc220428a307150
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a6bb1ee83496e98f6097905fdf24c62d20d657ae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246696"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897180"
 ---
-# <a name="legacy-merge"></a>Объединения с устаревшей версией
+# <a name="legacy-merge"></a>Объединение с устаревшей версией
 
 **Полное доменное имя внешних веб-конференций** позволяет внешним пользователям присоединяться к собраниям в локальной. Введите полное доменное имя (FQDN) веб-конференций внешнего интерфейса из устаревшего пограничного сервера.
 

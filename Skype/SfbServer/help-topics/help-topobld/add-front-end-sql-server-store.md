@@ -1,5 +1,6 @@
 ---
-title: Добавление хранилища SQL Server переднего плана
+title: Добавление хранилища SQL Server для сервера переднего плана
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 description: Развертывание сервера Standard Edition автоматически устанавливает требуется Microsoft SQL Server Express программное обеспечение баз данных и базы данных SQL Server. Таким образом предварительно все параметры, а не удается внести изменения в конфигурацию по умолчанию.
-ms.openlocfilehash: 490d824e99f987475355d1258a279627a681aa83
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b85c98f81be4dc53a9a7b5d0bfea708fd267135b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246991"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894390"
 ---
-# <a name="add-front-end-sql-server-store"></a>Добавление хранилища SQL Server переднего плана
+# <a name="add-front-end-sql-server-store"></a>Добавление хранилища SQL Server для сервера переднего плана
 
 Развертывание сервера Standard Edition автоматически устанавливает требуется Microsoft SQL Server Express программное обеспечение баз данных и базы данных SQL Server. Таким образом предварительно все параметры, а не удается внести изменения в конфигурацию по умолчанию.
 

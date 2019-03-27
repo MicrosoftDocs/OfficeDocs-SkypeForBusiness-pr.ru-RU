@@ -1,5 +1,6 @@
 ---
-title: Установка и запуск средства администрирования
+title: Установка и открытие средств администрирования
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этом разделе описывается, как установить и открывать административные инструменты, необходимые для развертывания и управления Скайп для бизнеса.
-ms.openlocfilehash: a27f16ab72d8fcdd4a5c440909dfb40baadd2572
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 260d84f071558ff54511b8650868db3ebb56abcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223166"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899479"
 ---
-# <a name="install-and-open-administrative-tools"></a>Установка и запуск средства администрирования
+# <a name="install-and-open-administrative-tools"></a>Установка и открытие средств администрирования
 
 В этом разделе описывается установка средств администрирования, необходимые для развертывания и управления Скайп для Business Server. По умолчанию на каждом сервере под управлением Скайп для Business Server установлены средства администрирования. Кроме того можно установить средства администрирования на других компьютерах, такие как выделенный консоли администрирования. Мы настоятельно рекомендуем установить средства администрирования на компьютере, в том же домене или лесу как Скайп для развертывания Business Server, которые вы создаете, чтобы убедиться, что подготовки доменных служб Active Directory все еще, которого позволяет использовать средства администрирования на этом компьютере более поздней версии для публикации топологии. Также убедитесь, что для просмотра необходимые требования перед установкой или использовать Скайп для средств администрирования Business Server. Обратитесь к документации требования в [Скайп для Business Server 2019](../../SfBServer2019/plan/system-requirements.md) или [Скайп для Business Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md).
  

@@ -1,5 +1,6 @@
 ---
 title: Подготовка текущего леса
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Чтобы подготовить лес доменных служб Active Directory, необходимо успешно расширить схему, как описано в разделе Running Schema Preparation и убедитесь в том, что схема была реплицирована.
-ms.openlocfilehash: a82904125880c5f411338a8690d1196327f374b4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f9ee99484b498b83a4ad55b0d3a2c2592453abae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246612"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897958"
 ---
 # <a name="prepare-current-forest"></a>Подготовка текущего леса
 

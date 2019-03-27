@@ -1,5 +1,6 @@
 ---
 title: Включение и отключение уведомлений на мобильном телефоне
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Узнайте, как включить или отключить уведомления мобильного телефона, пользователи могут получать оповещения о входящих, голосовой почты и пропущенные мгновенных сообщений.
-ms.openlocfilehash: 6ec2dad1a6084db4c83061b06d056382f90787b8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854246"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897026"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Включение и отключение уведомлений на мобильном телефоне
 
@@ -38,7 +39,7 @@ ms.locfileid: "23854246"
 
 1. Вход в Office 365.
     
-2. Перейдите в раздел **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
     
 3. Перейдите в раздел **организация** > **Общие**. 
     
@@ -55,7 +56,7 @@ ms.locfileid: "23854246"
 > [!IMPORTANT]
 >  Корпорация Майкрософт использует других производителей для обеспечения Скайп в режиме реального времени для бизнес-мобильных уведомлений для Windows Phone, iPhone и iPad пользователей. В разделе [заявление о конфиденциальности для Microsoft Скайп для продуктов бизнес](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 

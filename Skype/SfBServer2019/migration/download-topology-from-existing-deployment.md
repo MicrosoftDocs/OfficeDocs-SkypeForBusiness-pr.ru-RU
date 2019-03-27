@@ -1,5 +1,6 @@
 ---
 title: загрузка топологии из существующего развертывания;
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: При создании Скайп для пула Business Server 2019, необходимо использовать центрального хранилища управления, которая связана с установкой прежних версий. При запуске сеансов Topology Builder при первом вызове и последующие изменения, вам предлагается место Topology Builder для загрузки текущей конфигурации документа. Поскольку для определенных топология создано центрального хранилища управления, следует выбрать загрузка топологии из существующего развертывания. Topology Builder будет считывать базы данных и извлечения текущего определения.
-ms.openlocfilehash: e43bfa6da2bdcb96a28f157c9fc4a6f9e50c3508
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 35c0d7163d58c17db16678ba14fd8c7b6b400c9f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030534"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896760"
 ---
 # <a name="download-topology-from-existing-deployment"></a>загрузка топологии из существующего развертывания;
 

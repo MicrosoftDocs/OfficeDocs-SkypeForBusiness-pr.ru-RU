@@ -1,5 +1,6 @@
 ---
 title: Планирование для мониторинга в Скайп Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Сводка: Изучите раздел при планировании для мониторинга службы в Скайп Business Server.'
-ms.openlocfilehash: ab2b96063d94471ce47564845c64a63dfc5710c8
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cfe5e0eb31ca2badb3c4610f33c0761a98972ce7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243349"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892513"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Планирование для мониторинга в Скайп Business Server
 
@@ -85,7 +86,7 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 
 Это имеет большое значение при планировании, так как для использования зеркалирования потребуется дублирование необходимого количества баз данных: в дополнение к каждой основной базе данных вам потребуется вторая база данных, выступающая в качестве зеркала.
 
- **Нужна ли вашей Скайп для сайтов Business Server собственные настраиваемых конфигураций мониторинга?** Когда вы устанавливаете Скайп для Business Server также установить глобальной коллекции параметров конфигурации CDR и QoE; Эти глобальные коллекции предоставляют возможность применяются те же параметры CDR и QoE во всей организации. Во многих случаях этого достаточно: как правило, необходимо, чтобы, например, мониторинг CDR, был включен для всех пользователей.
+ **Нужна ли вашей Скайп для сайтов Business Server собственные настраиваемых конфигураций мониторинга?** Когда вы устанавливаете Скайп для Business Server также установить глобальной коллекции параметров конфигурации CDR и QoE; Эти глобальные коллекции предоставляют возможность применяются те же параметры CDR и QoE во всей организации. In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
 
 Однако в некоторых случаях требуется применение различных настроек для разных сайтов. Например, предположим, вы хотите использовать функции мониторинга CDR и QoE на сайте Redmond, но использовать только мониторинг CDR на сайте Dublin. Аналогичным образом, предположим, что вы хотите хранить данные мониторинга в течение 60 дней на сайте Redmond, однако эти же данные требуется хранить на сайте Dublin в течение всего лишь 30 дней. Скайп для Business Server позволяет создать отдельные коллекции параметров конфигурации CDR и QoE на уровне сайта; который позволяет управлять каждый сайт по-разному. (Это подразумевает автономное включение и отключение мониторинга, а также настройку параметров управления, включая длительность хранения данных.)
 
@@ -111,4 +112,4 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 ## <a name="see-also"></a>См. также
 
 
-[Мониторинг развертывания](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

@@ -1,5 +1,6 @@
 ---
 title: Управление сервером сохраняемого чата в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: 'Сводка: Узнайте, как управлять сервера сохраняемого чата в Скайп для Business Server 2015.'
-ms.openlocfilehash: 2511de09c321c70d73d824f5fc94bf21fa674131
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f6bd3f9e1364f4dd5b347e65a0a5799e66a97b33
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967900"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899111"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление сервером сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -36,26 +37,26 @@ ms.locfileid: "20967900"
     
 3. В левой панели навигации щелкните **Сохраняемый чат**.
     
-В следующей таблице представлены командлеты Windows PowerShell, помогающих управлять сервера сохраняемого чата. Для получения дополнительных сведений о синтаксисе, включая все доступные параметры просмотра [Скайп оболочки управления 2015 Business Server](../management-shell.md).
+В следующей таблице представлены командлеты Windows PowerShell, помогающих управлять сервера сохраняемого чата. Дополнительные сведения о синтаксисе, включая все доступные параметры, см. в разделе [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 
 |**Командлет**|**Описание**|
 |:-----|:-----|
 |New-CsPersistentChatCategory  <br/> |Создание новой категории  <br/> |
-|Командлет Set-CsPersistentChatCategory  <br/> |Настройка параметров для существующей категории  <br/> |
-|Командлет Get-CsPersistentChatCategory  <br/> |Извлечение информации о категориях  <br/> |
-|Командлет remove-CsPersistentChatCategory  <br/> |Удаление категории  <br/> |
+|Set-CsPersistentChatCategory  <br/> |Настройка параметров для существующей категории  <br/> |
+|Get-CsPersistentChatCategory  <br/> |Извлечение информации о категориях  <br/> |
+|Remove-CsPersistentChatCategory  <br/> |Удаление категории  <br/> |
 |New-CsPersistentChatRoom  <br/> |Создание новой комнаты чата  <br/> |
-|SET-CsPersistentChatRoom  <br/> |Настройка параметров для существующей комнаты; назначение пользователей и групп пользователей для комнаты  <br/> |
-|Командлет Get-CsPersistentChatRoom  <br/> |Извлекает сведения о комнат  <br/> |
+|Set-CsPersistentChatRoom  <br/> |Настройка параметров для существующей комнаты; назначение пользователей и групп пользователей для комнаты  <br/> |
+|Get-CsPersistentChatRoom  <br/> |Извлекает сведения о комнат  <br/> |
 |Clear-CsPersistentChatRoom  <br/> |Очистка комнаты или сообщений комнаты  <br/> |
-|Remove Cspersistentchatroomnm  <br/> |Удаление комнаты  <br/> |
+|Remove-CsPersistentChatRoom  <br/> |Удаление комнаты  <br/> |
 |Remove-CsPersistentChatMessage  <br/> |Удаление сообщений из комнаты  <br/> |
 |New-CsPersistentChatAddin  <br/> |Создание новой надстройки  <br/> |
-|Командлет Set-CsPersistentChatAddin  <br/> |Настройка параметров для существующей надстройки  <br/> |
-|Командлет Get-CsPersistentChatAddin  <br/> |Извлечение информации о надстройках  <br/> |
-|Командлет remove-CsPersistentChatAddin  <br/> |Удаление надстройки  <br/> |
-|SET-CsPersistentChatComplianceConfiguration  <br/> |Изменяет существующую коллекцию параметров конфигурации соответствия  <br/> |
+|Set-CsPersistentChatAddin  <br/> |Настройка параметров для существующей надстройки  <br/> |
+|Get-CsPersistentChatAddin  <br/> |Извлечение информации о надстройках  <br/> |
+|Remove-CsPersistentChatAddin  <br/> |Удаление надстройки  <br/> |
+|Set-CsPersistentChatComplianceConfiguration  <br/> |Изменяет существующую коллекцию параметров конфигурации соответствия  <br/> |
 |Export-CsPersistentChatData  <br/> |Экспорт данных из базы данных сохраняемых чатов  <br/> |
 |Import-CsPersistentChatData  <br/> |Импорт данных, экспорт которых был выполнен в предыдущих версиях Skype для бизнеса Server  <br/> |
    

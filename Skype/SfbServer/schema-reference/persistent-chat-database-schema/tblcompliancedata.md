@@ -1,5 +1,6 @@
 ---
 title: tblComplianceData
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
 description: tblComplianceData содержит события соответствия, которые не были обработаны адаптером соответствия еще.
-ms.openlocfilehash: 6fcee20a96a83a69a3671fe9255f1336590b42de
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e617f7821fcf026f279f333d45f526a1322509a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885823"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  
@@ -22,7 +24,7 @@ tblComplianceData содержит события соответствия, ко
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**|
+|**Столбец**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|
 |cmplEventID  <br/> |bigint, не может быть null  <br/> |Идентификатор события.  <br/> |
 |entryDate  <br/> |smalldatetime, не null  <br/> |Время вставки (может относиться к далекому будущему для cmplType = 9, так как запись в этом случае является всего лишь заполнителем).  <br/> |
@@ -36,7 +38,7 @@ tblComplianceData содержит события соответствия, ко
    
 **Ключ**
 
-|**Столбец**|**Описание**|
+|**Столбец**|**Описание**.|
 |:-----|:-----|
 |cmplEventID  <br/> |Первичный ключ.  <br/> |
    
