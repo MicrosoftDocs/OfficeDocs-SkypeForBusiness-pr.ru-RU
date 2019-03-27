@@ -1,5 +1,6 @@
 ---
 title: Добавление сервера-посредника
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 965eda6f-5d11-4b94-8cc4-5968bc4e7018
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы определить сервера-посредника, укажите полное доменное имя (FQDN) для пула сервера-посредника. При создании пула серверов-посредников соответствуют имя пула для серверов-посредников, выполняется развертывание. Полные доменные имена отдельных серверов задаются на другом шаге. При развертывании одного сервера-посредника можно указать полное доменное имя будет полное доменное имя отдельного сервера-посредника. Дополнительные сведения см развертывание сервера-посредника в построителе топологий в Скайп для Business Server.
-ms.openlocfilehash: 67d79ae69813fa23149adc2a75768131f16e5fc4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 500ffe49d78d56ad92a1d22f1243a9c267365a57
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062778"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895183"
 ---
 # <a name="add-mediation-server"></a>Добавление сервера-посредника
  

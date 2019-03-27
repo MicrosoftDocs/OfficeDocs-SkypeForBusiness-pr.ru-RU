@@ -1,5 +1,6 @@
 ---
 title: Развертывание архивации для Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: 'Сводка: Сведения о сведения о развертывании архивацию для Скайп Business Server.'
-ms.openlocfilehash: b1df3b3b14ec31f0c2c4d3d94f41ff23411c7f45
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0598d1a35523cc38d85320206b065b85e025687e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997633"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895071"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>Развертывание архивации для Скайп для Business Server
  
@@ -39,7 +40,7 @@ ms.locfileid: "20997633"
   
 |**Этап**|**Шаги**|**Роли и членство в группах**|**Документация**|
 |:-----|:-----|:-----|:-----|
-|**Установка необходимого оборудования и программного обеспечения** <br/> |Чтобы использовать интеграцию с Microsoft Exchange (с помощью Exchange для архивации хранилища, используемого для некоторых или всех пользователей), требуется существующее развертывание Exchange.  <br/> Чтобы использовать отдельные базы данных архивации (с применением баз данных SQL Server) для архивации хранилища, используемого частью пользователей или всеми пользователями, требуется SQL Server на сервере, на котором будут храниться данные архивации.  <br/> Архивация работает на серверах переднего плана корпоративного пула и на серверах Standard Edition. Для нее не существует дополнительных требований к оборудованию или программному обеспечению помимо требований для установки этих серверов.  <br/> |Пользователь домена, являющийся членом локальной группы администраторов.  <br/> |[Требования к серверу для Skype для бизнеса Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Требования к среде Skype для бизнеса Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [Планирование интеграции Skype для бизнеса и Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[Требования к системе для Скайп для Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) |
+|**Установка необходимого оборудования и программного обеспечения** <br/> |Чтобы использовать интеграцию с Microsoft Exchange (с помощью Exchange для архивации хранилища, используемого для некоторых или всех пользователей), требуется существующее развертывание Exchange.  <br/> Чтобы использовать отдельные базы данных архивации (с применением баз данных SQL Server) для архивации хранилища, используемого частью пользователей или всеми пользователями, требуется SQL Server на сервере, на котором будут храниться данные архивации.  <br/> Архивация работает на серверах переднего плана корпоративного пула и на серверах Standard Edition. Для нее не существует дополнительных требований к оборудованию или программному обеспечению помимо требований для установки этих серверов.  <br/> |Пользователь домена, являющийся членом локальной группы администраторов.  <br/> |[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [Планирование интеграции Skype для бизнеса и Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[Требования к системе для Скайп для Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) |
 |**Создание соответствующей внутренней топологии для поддержки архивации (только если интеграция с не используется Microsoft Exchange для всех пользователей в развертывании)** <br/> |Запустите построитель топологий, чтобы добавить Скайп для сервера архивирование баз данных (SQL Server) в топологию, а затем опубликуйте топологию.  <br/> |Чтобы определить топологию для включения баз данных архивации, требуется учетная запись члена локальной группы пользователей.  <br/> Чтобы опубликовать топологию, учетную запись, которая является членом группы администраторов домена и группу RTCUniversalServerAdmins и имеет разрешения на полный доступ (чтение/запись/изменение) в общей папке, которое будет использоваться для Скайп для хранилища файлов Business Server (, чтобы топологии Конструктор можно настроить требуемые доступом).  <br/> |[Добавление баз данных архивации к существующему развертыванию в Скайп для Business Server](add-archiving-databases.md) <br/> |
 |**Настройка проверки подлинности сервер сервер (только при использовании интеграции с Microsoft Exchange)** <br/> |Настройте серверы для включения проверки подлинности между Скайп для Business Server и Exchange. Мы рекомендуем running **testuser_sipUri Test CsExchangeStorageConnectivity-папки корзины** для проверки архивации подключения к хранилищу перед включением архивации Exchange. <br/> |Учетная запись с соответствующими разрешениями для управления сертификатами на серверах.  <br/> |Управление проверкой подлинности между серверами  <br/> |
 |**Настройка параметров и политик архивации** <br/> |Настройка архивации, включая решения об использовании интеграции с Microsoft Exchange, глобальную политику и любые политик пользователей и сайтов (если не используется интеграция с Microsoft Exchange для хранения всех данных) и определенного архивации параметров, таких как критического режима и данных Экспорт и очистку.  <br/> При использовании интеграции с Microsoft Exchange, настройте политики хранения на месте Exchange соответствующим образом.  <br/> |Группа RTCUniversalServerAdmins (только Windows PowerShell) или назначение пользователям роли CSArchivingAdministrator или CSAdministrator.  <br/> |[Настройка параметров архивации для Скайп для Business Server](configure-archiving-options.md) <br/> Документация по продукту Exchange (при использовании интеграции с Microsoft Exchange).  <br/> |
