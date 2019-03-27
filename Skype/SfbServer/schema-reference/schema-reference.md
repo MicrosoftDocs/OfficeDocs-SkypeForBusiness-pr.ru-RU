@@ -1,5 +1,6 @@
 ---
 title: Справочник по схеме для Скайп для Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
-ms.openlocfilehash: a91ec8b3cf11ed1891b7e3896566e9db33d4645e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d774a9d09ae72955ba8637753ee4502f51c8941
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992776"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882406"
 ---
 # <a name="schema-reference-for-skype-for-business-server-2015"></a>Справочник по схеме для Скайп для Business Server 2015
  

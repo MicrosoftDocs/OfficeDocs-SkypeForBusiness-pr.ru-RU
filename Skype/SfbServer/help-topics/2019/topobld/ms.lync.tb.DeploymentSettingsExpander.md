@@ -1,5 +1,6 @@
 ---
 title: Расширитель параметров развертывания
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Редактируемые свойства существующего развертывания расположены в следующих разделах.
-ms.openlocfilehash: 733f71ffbb2f1e49fb73da6727a9df7586273d5b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b5e953f165c9e54fa2e7891b7562e840c78b3144
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255418"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878163"
 ---
 # <a name="deployment-settings-expander"></a>Расширитель параметров развертывания
 
@@ -25,7 +26,7 @@ ms.locfileid: "23255418"
 
 - Домен SIP
 
-- Простые URL-адреса
+- Простые URL-адреса 
 
 - управления
 
@@ -70,9 +71,9 @@ ms.locfileid: "23255418"
 > [!IMPORTANT]
 > После определения, опубликовано ли и развернуто центральное хранилище управления для инфраструктуры, невозможно изменить местоположение центрального хранилища управления без переноса этого хранилище на другой интерфейсный сервер для внешней обработки.
 
-Для получения дополнительных сведений о перемещении центральное хранилище управления содержатся [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) в справочник командлетов Windows PowerShell.
+О перемещении центрального хранилища управления см. в [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) справочнике по командлетам Windows PowerShell.
 
 
-Для получения дополнительных сведений об определении и настройке этих параметров просмотрите [Определение и Настройка топологии](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
+О задании и настройке этих параметров см. в разделе [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
 
 

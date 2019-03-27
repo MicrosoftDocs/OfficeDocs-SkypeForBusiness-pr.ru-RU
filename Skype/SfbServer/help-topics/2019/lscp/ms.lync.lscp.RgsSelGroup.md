@@ -1,5 +1,6 @@
 ---
 title: Выбор групп
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: Очереди группы ответа содержат вызовы в группы ответа, пока агент отвечает на звонок. Очереди назначения групп агентов. При создании или изменение очереди для выбора одного или нескольких групп агентов для назначения в очередь используется диалоговое окно Выбор групп.
-ms.openlocfilehash: 1021d15afea2a5ea3caf059a38415a2e8466b22d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1ea3d43241d5cdac2ebcc860333ab326d45fd274
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244120"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880323"
 ---
 # <a name="select-groups"></a>Выбор групп
 
@@ -35,6 +36,6 @@ ms.locfileid: "23244120"
 
 - **Метод маршрутизации** Отображает тип маршрутизации, заданный для группы агентов.
 
-Дополнительные сведения о работе с очередями см [Управление очередями группы ответа](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) в документации по операциям.
+Дополнительные сведения о работе с очередями см. в разделе [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) документации по использованию.
 
 

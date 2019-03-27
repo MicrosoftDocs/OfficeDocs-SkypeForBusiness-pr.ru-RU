@@ -1,5 +1,6 @@
 ---
 title: Выбор очереди переполнения
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: Используйте поле выберите диалоговое окно с очереди переполнения для выбора очереди которую направляются звонки после заполнения очереди группы ответа.
-ms.openlocfilehash: ac568927bbf35187b8d20ae3eefcf76f49b29fc6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d86a11efbfa775f38737eeee3704866e43cbc15d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989214"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879569"
 ---
 # <a name="select-overflow-queue"></a>Выбор очереди переполнения
  

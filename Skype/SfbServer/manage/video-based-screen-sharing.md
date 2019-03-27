@@ -1,5 +1,6 @@
 ---
-title: Видео на основе совместное использование рабочего стола для Скайп для Business Server
+title: Видеодемонстрация экрана в Skype для бизнеса Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Скайп для сервера планирования и сведения о конфигурации на основе видео (VbSS) совместное использование рабочего стола
-ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: d899e07fc478e33c4480cd235b3eb0cafd95ecba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993435"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878916"
 ---
-# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Видео на основе совместное использование рабочего стола для Скайп для Business Server 
+# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Видеодемонстрация экрана в Skype для бизнеса Server 
  
 На основе видео совместное использование рабочего стола (VbSS) в Скайп для Business Server 2015 теперь доступен для загрузки: [Скайп для Business Server 2015 накопительные пакеты обновления KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS входит в состав Скайп для Business Server 2019.
   

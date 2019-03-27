@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей абонентской группы
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,22 +13,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 86044261bfad621b69921e505eab8bef9cb456b4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c4388950e5241ea14fb40b486b1db3c9c3de2eca
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245756"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879078"
 ---
-# <a name="dial-plan-create-new-or-edit-existing"></a>Абонентская группа: Создание новой или редактирование существующей
+# <a name="dial-plan-create-new-or-edit-existing"></a>Абонентская группа: создание новой или редактирование существующей
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 
-- [Создание или изменение абонентской группы в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [Create or modify a dial plan in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
 
 - [Изменение абонентской группы](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [Создание или изменение правила нормализации в Skype для бизнеса 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Create or modify a normalization rule in Skype for Business 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
 - [Создание или изменение правила нормализации вручную](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 

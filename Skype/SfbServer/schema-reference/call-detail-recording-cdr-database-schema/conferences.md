@@ -1,5 +1,6 @@
 ---
 title: Таблица конференций в Скайп для Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Каждая запись в этой таблице содержит сведения о одной конференции звонках.
-ms.openlocfilehash: f0d90f7abb99bce012e864fa2485386c335de409
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f0401c150f3835772ba0df20f8c02c64c9919921
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881955"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Таблица конференций в Скайп для Business Server 2015
  
 Каждая запись в этой таблице содержит сведения о одной конференции звонках.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primary  <br/> |Время запроса конференции были записаны агентом регистрации Вызовов. Используется только как первичный ключ для уникальной идентификации экземпляра конференции.  <br/> |
 |**SessionIdSeq** <br/> |целое  <br/> |Primary  <br/> |Номер идентификатора для идентификации сеанса. Используется в сочетании с **SessionIdTime** для уникальной идентификации экземпляра конференции. * <br/> |

@@ -1,5 +1,6 @@
 ---
 title: Просмотр сеанса
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: Просмотр сеанса сохранение информации о сеансах с записями в базе данных. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: 056067b0c0e06b3ce9eb862898345fe4c8ff131c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c72773b4ff87786ab5b4e73b67e89032dc393fa1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880223"
 ---
 # <a name="session-view"></a>Просмотр сеанса
  
@@ -28,8 +30,8 @@ ms.lasthandoff: 03/28/2018
 |DialogCategory  <br/> |бит  <br/> |Категория диалога; 0 — Скайп для Business Server до сервера-посредника; 1 — сервер-посредник ветвь шлюза ТСОП.  <br/> |
 |MediationServerBypassFlag  <br/> |бит  <br/> |Указывает, будет ли того, были ли вызов обход сервера-посредника.  <br/> |
 |MediaBypassWarningFlag  <br/> |целое  <br/> |В этом поле, если этот параметр указан, указывает, почему звонка не обход сервера-посредника даже при совпадении идентификаторы сервера-посредника. Для Скайп Business Server определяется только одно значение:  <br/> 0x0001 — Неизвестный идентификатор обхода для сетевого адаптера по умолчанию  <br/> |
-|Время начала  <br/> |datetime  <br/> |Время начала вызова.  <br/> |
-|Время окончания  <br/> |datetime  <br/> |Время окончания вызова.  <br/> |
+|StartTime  <br/> |datetime  <br/> |Время начала вызова.  <br/> |
+|EndTime  <br/> |datetime  <br/> |Время окончания вызова.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |Полное доменное имя пула вызывающего абонента.  <br/> |
 |CalleePool  <br/> |nvarchar(256)  <br/> |Полное доменное имя пула вызываемого абонента.  <br/> |
 |CallerPAI  <br/> |nvarchar(450)  <br/> |У вызывающего абонента удостоверения pai URI.  <br/> |

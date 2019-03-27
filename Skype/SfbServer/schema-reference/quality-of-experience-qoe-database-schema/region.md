@@ -1,5 +1,6 @@
 ---
 title: Таблица Region
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
 description: В таблице регион представляет собой вспомогательную таблицу. Каждая запись представляет один страны или региона определенные параметры конфигурации сети.
-ms.openlocfilehash: 20fe1e77e9454ca1957bd7f719478bdce06a1166
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1fcc6c0b4b2d9cbe1edc0a7127cda7f54cd079ed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880541"
 ---
 # <a name="region-table"></a>Таблица Region
  
 В таблице регион представляет собой вспомогательную таблицу. Каждая запись представляет один страны или региона определенные параметры конфигурации сети.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**RegionKey** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий страну или регион.  <br/> |
 |**RegionName** <br/> |nvarchar(128)  <br/> |Уникальный  <br/> |Имя страны или региона.  <br/> |

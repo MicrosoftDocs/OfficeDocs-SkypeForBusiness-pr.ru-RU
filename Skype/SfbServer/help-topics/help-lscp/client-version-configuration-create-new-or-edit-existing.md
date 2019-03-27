@@ -1,5 +1,6 @@
 ---
 title: Создание новой или редактирование существующей конфигурации версий клиентов
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 description: Параметры конфигурации используются для включения и отключения управления версиями клиентов. Конфигурация версии клиента глобального устанавливается с Скайп для Business Server и используется для включения или отключения контроля версий клиента для развертывания всего сервера. Когда включена глобальная конфигурация, при попытке пользователя войти в систему применяются все заданные политики версий клиентов. Вы можете отключить глобальную конфигурацию версий клиентов, если не хотите применять какое-либо управление версиями.
-ms.openlocfilehash: d02779e64a4f6a4bae812ff374f71f8e95659004
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: eb5471219112f9f388cd7f4478fb3d77b88c5883
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252719"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878730"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Конфигурация версии клиента: создание новой или редактирование существующей
 
@@ -57,5 +58,5 @@ ms.locfileid: "23252719"
 
   - **URL-адрес** Если выбрано **Блокировать с URL-адресом** или **Разрешить с URL-адресом**, можно указать URL-адрес загрузки клиента необходимо включить в сообщение об ошибке.
 
-Для получения дополнительных сведений о взаимодействии между клиентами и версий клиентов видеть [Взаимодействие с клиентом в Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) в документации по планированию. Для получения дополнительных сведений о работе с настройки версий клиентов видеть [Изменение действия по умолчанию для клиентов не явным образом поддерживается "или" Ограниченные](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) в документации по операциям.
+Дополнительные сведения о взаимодействии клиентов и версиях клиентов см. в разделе [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) документации по планированию. Дополнительные сведения о работе с конфигурациями версий клиентов см. в разделе [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) документации по использованию.
 

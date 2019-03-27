@@ -1,5 +1,6 @@
 ---
-title: Разрешение пользователям на запись аудио- и видеоконференций
+title: Разрешение записи аудио- и видеоконференций
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +19,14 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Как включить запись для аудио-и видеоконференций, а также узнать, что является и не включена в записи. '
-ms.openlocfilehash: ddd560970b84333f14fcc039c4c1501874048c50
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0e642dc8075c4a7cdcc6d3846cf0c69bca3e2e01
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849904"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881187"
 ---
-# <a name="let-people-record-their-audio-and-video-conferences"></a>Разрешение пользователям на запись аудио- и видеоконференций
+# <a name="let-people-record-their-audio-and-video-conferences"></a>Разрешение записи аудио- и видеоконференций
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Выберите параметры для одного пользователя, либо все записи в вашей организации по умолчанию
 
@@ -45,7 +46,7 @@ ms.locfileid: "23849904"
    
 Дополнительные сведения см [сохранения и публикации записи Lync](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) и [Диспетчер записи Lync](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

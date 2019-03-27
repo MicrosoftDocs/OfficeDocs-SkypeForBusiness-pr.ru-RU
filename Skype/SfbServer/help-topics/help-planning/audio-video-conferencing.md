@@ -1,5 +1,6 @@
 ---
-title: Аудиоконференции видео (средство планирования)
+title: Audio Video Conferencing (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,18 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Скайп для Business Server 2015 аудио/видео (A / V) конференц-связи предоставляет пользователям возможность участвовать в режиме реального времени аудио- и видеоконференций.
-ms.openlocfilehash: a8261a81a675a60ec9d420192d05ec2e9d33ff28
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 300b819a87de1397c5d19aff6086347cff769b4a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878587"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a>Аудиоконференции видео (средство планирования)
+# <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
  
 Скайп для Business Server 2015 аудио/видео (A / V) конференц-связи предоставляет пользователям возможность участвовать в режиме реального времени аудио- и видеоконференций.
   
 Сведения о планировании включения аудио- и видеоконференций в вашей организации см. в следующих статьях и разделах: 
   
-- [Планирование конференц-связи в Скайп для Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование конференц-связи в Skype для бизнеса Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
 

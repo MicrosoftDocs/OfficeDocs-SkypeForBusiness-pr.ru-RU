@@ -1,5 +1,6 @@
 ---
 title: Таблица Session
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Каждая запись представляет один сеанс, который включает в себя аудио- или аудио и видео. Здесь приводятся общие сведения о сеансе. Сеанс определяется как аудио- или видеозвонка Session Initiation Protocol (SIP) диалоговое окно с между двумя конечными точками.
-ms.openlocfilehash: 24acf23d2dab2dbc4b6586e40aa49cba632d6a68
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7a0ea3f9753529c22299ef46017b863c314319b5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881380"
 ---
 # <a name="session-table"></a>Таблица Session
  
 Каждая запись представляет один сеанс, который включает в себя аудио- или аудио и видео. Здесь приводятся общие сведения о сеансе. Сеанс определяется как аудио- или видеозвонка Session Initiation Protocol (SIP) диалоговое окно с между двумя конечными точками.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Ссылка из [таблицы Dialog table](dialog.md).  <br/> |
 |**SessionSeq** <br/> |целое  <br/> |Primary  <br/> |Ссылка из [таблицы Dialog table](dialog.md).  <br/> |
@@ -29,8 +31,8 @@ ms.lasthandoff: 03/28/2018
 |**DialogCategory** <br/> |бит  <br/> | <br/> |Категория диалога; 0 — Скайп для Business Server до сервера-посредника; 1 — сервер-посредник ветвь шлюза ТСОП.  <br/> |
 |**MediationServerBypassFlag** <br/> |бит  <br/> ||Флаг, указывающий ли вызов обход сервера-посредника или нет.  <br/> |
 |**MediaBypassWarningFlag** <br/> |целое  <br/> ||В этом поле, если этот параметр указан, указывает, почему звонка не обход сервера-посредника даже при совпадении идентификаторы сервера-посредника. Для Скайп Business Server определяется только одно значение.  <br/> 0x0001 — Неизвестный идентификатор обхода для сетевого адаптера по умолчанию.  <br/> |
-|**Время начала** <br/> |datetime  <br/> | <br/> |Время начала вызова.  <br/> |
-|**Время окончания** <br/> |datetime  <br/> | <br/> |Время окончания вызова.  <br/> |
+|**StartTime** <br/> |datetime  <br/> | <br/> |Время начала вызова.  <br/> |
+|**EndTime** <br/> |datetime  <br/> | <br/> |Время окончания вызова.  <br/> |
 |**CallerPool** <br/> |целое  <br/> |Внешний  <br/> |Пула вызывающего абонента. Ссылка из [таблицы пула](pool.md).  <br/> |
 |**CalleePool** <br/> |целое  <br/> |Внешний  <br/> |Пул получателя вызова. Ссылка из [таблицы пула](pool.md).  <br/> |
 |**CalleePAI** <br/> |целое  <br/> |Внешний  <br/> |URI SIP в SIP удостоверения pai (PAI) получающей конечной точки. Ссылка из [таблицы пользователей](user-0.md).  <br/> |

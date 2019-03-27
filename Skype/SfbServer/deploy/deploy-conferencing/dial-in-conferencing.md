@@ -1,5 +1,6 @@
 ---
 title: Настройка телефонных конференций в Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Сводка: Сведения в этой статье описывается настройка телефонных конференций в Скайп для Business Server.'
-ms.openlocfilehash: 3c4460761fadd1dee523eb15949da8fc1bf69f14
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dbd851f416fb3bc91a556753ce33d2ef80976ff2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372404"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881509"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Настройка телефонных конференций в Скайп для Business Server
  
@@ -72,7 +73,7 @@ ms.locfileid: "25372404"
   
 Поскольку важно указать регион для всех абонентских групп, мы рекомендуем проверить наличие регионов конференц-связи у всех абонентских групп. 
   
-Чтобы проверить, задано ли область для всех абонентских групп-связь с телефонным, командлет **Get-CsDialPlan** . Если область отсутствует абонентские группы, чтобы задать область можно использовать командлет **Set-CsDialPlan** . Можно также использовать Скайп для панели управления Business Server для обновления области в существующих абонентских групп. Для получения дополнительных сведений об использовании Скайп для панели управления Business Server см [Создание и изменение абонентской группы в Скайп для Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
+To verify whether the region is set for all dial-in conferencing dial plans, use the **Get-CsDialPlan** cmdlet. If the region is missing from dial plans, you can use the **Set-CsDialPlan** cmdlet to set the region. Можно также использовать Скайп для панели управления Business Server для обновления области в существующих абонентских групп. Для получения дополнительных сведений об использовании Скайп для панели управления Business Server см [Создание и изменение абонентской группы в Скайп для Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
 ### <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>Проверка правильности задания регионов для абонентских групп
 
@@ -171,7 +172,7 @@ ms.locfileid: "25372404"
 9. В области **Пул** выберите пул, в котором работает экземпляр помощника по конференц-связи, поддерживающий этот номер для телефонного подключения.
     
     > [!NOTE]
-    > Если требуется изменить пул после создания номера доступа, необходимо с помощью командлета [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) или удалить и воссоздайте номер доступа.
+    > Если требуется изменить пул после создания номера доступа, то необходимо использовать командлет [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) или удалить этот номер доступа и создать его заново.
   
 10. В области **Основной язык** выберите язык, на котором будут воспроизводиться приглашения для этого номера для телефонного подключения. 
     
@@ -194,7 +195,7 @@ ms.locfileid: "25372404"
   
 Дополнительные сведения о настройке политик конференц-связи содержатся в разделе [Управление политики конференц-связи в Скайп для Business Server](../../manage/conferencing/conferencing-policies.md).
   
-## <a name="assign-a-line-uri-to-a-user-account"></a>Assign a Line URI to a user account
+## <a name="assign-a-line-uri-to-a-user-account"></a>Назначение URI линии учетной записи пользователя
 <a name="BKMK_AssignaLineURI"> </a>
 
 Для присоединения к конференции в качестве пользователей, прошедших проверку подлинности, пользователи конференц-связи с телефонным подключением вводят номера телефонов или добавочные номера и ПИН-код. Указан на Скайп для учетных записей пользователей Business Server **URI линии** телефонии является обязательным для проверки подлинности.

@@ -1,5 +1,6 @@
 ---
 title: Добавление резервного хранилища SQL Server сохраняемого чата
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: Следует настроить резервные хранилища SQL Server, предоставляющие резервные базы данных для сервера сохраняемого чата или пул серверов сохраняемого чата.
-ms.openlocfilehash: ed7d3196e609a0180fc16df08efcc3ed4230b141
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ed507b14cf0b03da86eda4b3fbc8491997c801d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503881"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880583"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Добавление резервного хранилища SQL Server сохраняемого чата
  

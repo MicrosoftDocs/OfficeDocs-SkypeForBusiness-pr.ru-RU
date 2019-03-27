@@ -1,5 +1,6 @@
 ---
-title: Аварийное восстановление (средство планирования)
+title: Disaster Recovery (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Скайп для Business Server 2015 включает в себя аварийного восстановления меры, позволяя вам пары пулов переднего плана, расположенный в двух центров данных.
-ms.openlocfilehash: 584a5c82619bc99bb4804bbb36140148fce8b6fe
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a56e9334ad71dee56eaa919200589fc0ae4df6fe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881798"
 ---
-# <a name="disaster-recovery-planning-tool"></a>Аварийное восстановление (средство планирования)
+# <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)
  
 Скайп для Business Server 2015 включает в себя аварийного восстановления меры, позволяя вам пары пулов переднего плана, расположенный в двух центров данных.
   

@@ -1,5 +1,6 @@
 ---
 title: Таблица imreportsummary в Скайп для Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,19 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 description: В таблице IMReportSummaryTable приводится общий отчет о сеансах обмена мгновенными сообщениями в организации. Эта таблица была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: f716a7406f4cf3562e2fa9244e8a766ef8537f53
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fd907165f7db131e94d09d2b9a531eeb20812734
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881024"
 ---
 # <a name="imreportsummary-table-in-skype-for-business-server-2015"></a>Таблица imreportsummary в Скайп для Business Server 2015
  
 В таблице IMReportSummaryTable приводится общий отчет о сеансах обмена мгновенными сообщениями в организации. Эта таблица была введена в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Ключ или индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**Время начала** <br/> |datetime  <br/> |Primary  <br/> |Дата и время начала сеанса обмена мгновенными сообщениями.  <br/> |
+|**StartTime** <br/> |datetime  <br/> |Primary  <br/> |Дата и время начала сеанса обмена мгновенными сообщениями.  <br/> |
 |**TimePeriod** <br/> |char(1)  <br/> |Primary  <br/> ||
 |**PoolFQDN** <br/> |nvarchar(257)  <br/> |Primary  <br/> |Полное доменное имя пула, в котором размещается сеанс.  <br/> |
 |**AuthType** <br/> |целое  <br/> |Primary  <br/> |Приоритет вызова (например, срочные или не срочный). Сведения о приоритет хранятся в [Таблица CallPriorities в Скайп для Business Server 2015](callpriorities.md).  <br/> |

@@ -1,5 +1,6 @@
 ---
 title: Включение пользователей для E9-1-1 в Скайп для Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: Решения для политики расположения для развертывания E9-1-1 в Скайп для Business Server корпоративной голосовой связи, включая пользователей, которые для включения и как для поддержки перемещаемых профилей пользователей.
-ms.openlocfilehash: 24a50384ec0f455c1998aa97274890e6346e5a01
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 57a84d18bec0547f1179e62013c9b957afdd2c53
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889911"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879309"
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Включение пользователей для E9-1-1 в Скайп для Business Server
  

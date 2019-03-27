@@ -1,5 +1,6 @@
 ---
-title: STOP-CcLogging
+title: Stop-CcLogging
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
-description: Командлет Stop-CcLogging останавливает создание журнала входящих и исходящих вызовов для Скайп для соединителя Cloud Business Edition устройства.
-ms.openlocfilehash: abecc5acc6a454b2965fbf79caadb23f2256e4cd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Командлет Stop-CcLogging прекращает ведение журналов входящих и исходящих звонков для устройства Skype для бизнеса Cloud Connector Edition.
+ms.openlocfilehash: eaccde49421cd22e32b23b89d8b5ea42dd073912
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879625"
 ---
-# <a name="stop-cclogging"></a>STOP-CcLogging
+# <a name="stop-cclogging"></a>Stop-CcLogging
  
-Командлет Stop-CcLogging останавливает создание журнала входящих и исходящих вызовов для Скайп для соединителя Cloud Business Edition устройства.
+Командлет Stop-CcLogging прекращает ведение журналов входящих и исходящих звонков для устройства Skype для бизнеса Cloud Connector Edition.
   
 ```
 Stop-CcLogging [-RemoveCache]
@@ -51,7 +53,7 @@ Stop-CcLogging -RemoveCache
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|:-----|
 | RemoveCache <br/> | Необязательно <br/> | System.Management.Automation.SwitchParameter <br/> |Удаляет файлы кэша журналов.  <br/> |
    
@@ -68,7 +70,7 @@ Stop-CcLogging -RemoveCache
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>
 
-[CcLog поиска](search-cclog.md)
+[Search-CcLog](search-cclog.md)
   
 [Start-CcLogging](start-cclogging.md)
   

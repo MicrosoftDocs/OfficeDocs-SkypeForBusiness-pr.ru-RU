@@ -1,5 +1,6 @@
 ---
-title: Таблица tblFileToken
+title: tblFileToken
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,19 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 description: Таблица tblFileToken содержит временные маркеры для передачи файлов.
-ms.openlocfilehash: 86047611c21301543a12486fa1c15bb15fde4c65
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 46553a4b8752e2a95691dc2042a2632845166fc7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881300"
 ---
-# <a name="tblfiletoken"></a>Таблица tblFileToken
+# <a name="tblfiletoken"></a>tblFileToken
  
 Таблица tblFileToken содержит временные маркеры для передачи файлов.
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**|
+|**Столбец**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|
 |fileToken  <br/> |nvarchar (50), отлично от null  <br/> |Уникальный маркер (GUID).  <br/> |
 |fileTokenUserID  <br/> |int, не null  <br/> |Идентификатор субъекта, который передает файл.  <br/> |
@@ -36,7 +38,7 @@ ms.lasthandoff: 03/28/2018
    
 **Ключи**
 
-|**Столбец**|**Описание**|
+|**Столбец**|**Описание**.|
 |:-----|:-----|
 |fileToken  <br/> |Первичный ключ.  <br/> |
 |fileTokenChannelID  <br/> |Внешний ключ с подстановкой в таблице tblNode.nodeGuid.  <br/> |

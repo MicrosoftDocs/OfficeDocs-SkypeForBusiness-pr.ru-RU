@@ -1,5 +1,6 @@
 ---
 title: Запрос сертификата (возврат)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Страница состояние запроса на сертификат содержит важные сведения, которые являются результатом успешного создания и выполнения запроса на сертификат через Интернет. На этой странице представлены отпечаток сертификата, который уникальным образом определяет сертификат. По умолчанию установлен флажок назначить этот сертификат Скайп для использования сертификата сервера. Если нажать кнопку Готово, сертификат будет автоматически назначен Скайп для Business Server в целях, заданных во время создания действия запроса на сертификат. По умолчанию в целях, будет назначен сертификат являются:'
-ms.openlocfilehash: 2de8bae390ed8406883f5c6cd74709990c6c450b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 70868129dc759e19960d2f6d9e3a9a1dc3d2f941
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983758"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878702"
 ---
 # <a name="certificate-request-returned"></a>Запрос сертификата (возврат)
  

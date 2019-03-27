@@ -1,5 +1,6 @@
 ---
 title: Тестирование тестовых примеров маршрутизации голосовой связи
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 6d043d7dbf4c74b1b2fae7dd421fcf48759bd90b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2cdd4fac098f0a3906a380ba947229cef50d7ea2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247779"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881885"
 ---
-# <a name="test-voice-routing-test-cases"></a>Тестирование маршрутизации голосовой связи: Тестовые сценарии
+# <a name="test-voice-routing-test-cases"></a>Тестирование маршрутизации голосовой связи: тестовые сценарии
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 

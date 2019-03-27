@@ -1,5 +1,6 @@
 ---
 title: Удаление существующей политики в Скайп архивации для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 'Сводка: Узнайте, как для удаления политики архивации для Скайп для Business Server.'
-ms.openlocfilehash: 0446999923b462311f941b6653157b41000b1f43
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1210dacc85ea28d2968d602431d5a9bdf7bcc4b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973103"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878430"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Удаление существующей политики в Скайп архивации для Business Server
 

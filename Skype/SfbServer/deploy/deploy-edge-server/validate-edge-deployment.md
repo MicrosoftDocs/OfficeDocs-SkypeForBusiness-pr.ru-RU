@@ -1,5 +1,6 @@
 ---
 title: Проверка развертывания пограничного сервера в Скайп для Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -11,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Сводка: Узнайте, как проверить, развертывание пограничного сервера или пула пограничных серверов работает в Скайп для Business Server.'
-ms.openlocfilehash: 267a02407a66614d0c78592da073307979136e39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 63c4cb1af599da191d0e0f4b95cfdaa775a64ba4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883550"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878608"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Проверка развертывания пограничного сервера в Скайп для Business Server
  
@@ -32,7 +33,7 @@ ms.locfileid: "23883550"
   
 ## <a name="verify-connectivity-for-your-external-users"></a>Проверка соединений для внешних пользователей
 
-У нас есть отличное средство для проверки конфигурации пограничного сервера, а также возможность подключения, отправлять и получать правильные сообщения для сценариев пограничного сервера. Это [удаленного подключения к Anaylzer сайта](https://testconnectivity.microsoft.com/). Это сайт, управляемых и поддерживается службой технической поддержки Майкрософт. Чтобы использовать это средство, перейдите на веб-сайт и следуйте инструкциям, чтобы при выборе подходящего сценария для вас.
+У нас есть отличное средство для проверки конфигурации пограничного сервера, а также возможность подключения, отправлять и получать правильные сообщения для сценариев пограничного сервера. Это [удаленного подключения к Anaylzer сайта](https://testconnectivity.microsoft.com/). This is a site that's managed and maintained by Microsoft Support. To use this tool, browse to the website and follow the instructions to choose the right scenario for you.
   
 ### <a name="things-to-consider-when-testing-external-user-connectivity"></a>Вопросы, которые необходимо рассмотреть во время тестирования подключения внешних пользователей
 

@@ -1,5 +1,6 @@
 ---
 title: tblNode
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode содержит дерево объектов (с узлами категорий или комнат чата), которым осуществляется в панели управления и администрирования командлетов.
-ms.openlocfilehash: 0b5e752856272ad7021666822694cd27bb3660ee
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: c5028b138711b6f57c0e947ea41572fd9984b3fb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878895"
 ---
 # <a name="tblnode"></a>tblNode
  
@@ -22,7 +24,7 @@ tblNode содержит дерево объектов (с узлами кате
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**|
+|**Столбец**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|
 |nodeID  <br/> |int, не null  <br/> |КОД узла (уникальное число).  <br/> |
 |nodeGuid  <br/> |Идентификатор GUID, не может быть null  <br/> |Глобальный уникальный ИД узла.  <br/> |
@@ -45,7 +47,7 @@ tblNode содержит дерево объектов (с узлами кате
    
 **Ключи**
 
-|**Столбец**|**Описание**|
+|**Столбец**|**Описание**.|
 |:-----|:-----|
 |nodeID  <br/> |Первичный ключ.  <br/> |
 |поведение  <br/> |Внешний ключ с поиском в таблице tblEnumValue.valueID.  <br/> |

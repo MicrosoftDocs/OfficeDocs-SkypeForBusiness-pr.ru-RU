@@ -1,5 +1,6 @@
 ---
-title: Добавьте полное доменное имя пограничного сервера
+title: Добавление полного доменного имени пограничного сервера
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: Необходимо указать полное доменное имя (FQDN) для пограничной службы доступа. Если вы не выбрали использования одного полного доменного ИМЕНИ &amp; параметр адрес IP-адресов на странице Выбор функции страницы, необходимо также указать полное доменное имя для службы Web пограничного сервера конференц-связи и A / V Edge службы.
-ms.openlocfilehash: 5f9d3bc3b63eaaf9db303c3fc0c74038df223391
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33856832407e6e12a3c0854fb2d2c87a1bde376c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965900"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880020"
 ---
-# <a name="add-edge-server-fqdn"></a>Добавьте полное доменное имя пограничного сервера
+# <a name="add-edge-server-fqdn"></a>Добавление полного доменного имени пограничного сервера
  
 Необходимо указать полное доменное имя (FQDN) для пограничной службы доступа. Если вы не выбрали **использования одного полного доменного ИМЕНИ &amp; IP-адрес** параметр на странице " **Выбор компонентов** " необходимо также указать полное доменное имя для службы Web пограничного сервера конференц-связи и A / видеоконференций.
   

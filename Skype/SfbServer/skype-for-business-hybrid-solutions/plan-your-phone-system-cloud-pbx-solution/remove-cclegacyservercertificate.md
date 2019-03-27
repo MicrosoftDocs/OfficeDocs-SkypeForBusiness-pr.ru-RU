@@ -1,5 +1,6 @@
 ---
 title: Remove-CcLegacyServerCertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: Командлет Remove-CcLegacyServerCertificate удаляет прежние версии сертификатов сервера центрального хранилища управления, сервера-посредника и пограничного сервера после выполнения командлетов Renew-CcCACertificate или Renew CcServerCertificate.
-ms.openlocfilehash: dc52351d9c66ff310329da62dbd69da74b19c222
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 5f148aa083b646565adf0158f34fb15314296170
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569842"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882462"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
@@ -47,9 +48,9 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 ## <a name="parameters"></a>Параметры
 <a name="Examples"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|:-----|
-| Роли  <br/> |Необязательно  <br/> |System.Array  <br/> | Массив ролей сервера Cloud Connector. <br/> |
+| Роли <br/> |Необязательно   <br/> |System.Array  <br/> |  Массив ролей сервера Cloud Connector. <br/> |
    
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
@@ -64,12 +65,12 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>
 
-[Обновить CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
-[Сброс CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Обновить CcCACertificate](renew-cccacertificate.md)
+[Renew-CcCACertificate](renew-cccacertificate.md)
   
-[Обновление CcCACertificate](update-cccacertificate.md)
+[Update-CcCACertificate](update-cccacertificate.md)
   
 

@@ -1,5 +1,6 @@
 ---
 title: Развертывание мониторинг в Скайп для Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Сводка: Узнайте, как развертывание мониторинг в Скайп для Business Server.'
-ms.openlocfilehash: 0bcc324e9f37b37078719e3e5c0e5ffe1518f5cd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 147d20c7a6b85ef294711602748ee474b4e9abd3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252389"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878107"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Развертывание мониторинг в Скайп для Business Server
 
@@ -54,7 +55,7 @@ ms.locfileid: "23252389"
 
 |**Этап**|**Шаги**|**Членство в роли и группе**|**Документация**|
 |:-----|:-----|:-----|:-----|
-|**Установка необходимого оборудования и программного обеспечения** <br/> |Установка поддерживаемой версии Microsoft SQL Server на компьютере, который будет работать в качестве внутреннего хранилища данных для мониторинга.  <br/> |Пользователь домена, который также является членом группы администраторов.  <br/> |[Поддерживаемое оборудование](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Server Software and Infrastructure Support](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
+|**Установка необходимого оборудования и программного обеспечения** <br/> |Установка поддерживаемой версии Microsoft SQL Server на компьютере, который будет работать в качестве внутреннего хранилища данных для мониторинга.  <br/> |Пользователь домена, который также является членом группы администраторов.  <br/> |[Supported Hardware](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Server Software and Infrastructure Support](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
 |**Создание подходящей внутренней топологии для поддержки мониторинга** <br/> |Использование Скайп для Business Server Topology Builder для добавления нажмите мониторинг баз данных в топологию публикацией и обновлением топологии.  <br/> |Чтобы определить топологию, пользователь, который является членом локальной группы пользователей.  <br/> Чтобы опубликовать топологию, пользователь, который является членом группы администраторов домена и группы RTCUniversalServerAdmins.  <br/> |[Связать хранилище данных мониторинга с пулом переднего плана в Скайп для Business Server](associate-a-monitoring-store.md) <br/> |
 |**Включение подходящих параметров мониторинга** <br/> |Включите мониторинг регистрации вызовов (CDR) и качества взаимодействия (QoE) на глобальном уровне и уровне сайта.  <br/> |Пользователь, который является членом группы RTCUniversalServerAdmins или которому была назначена роль RBAC, предоставляющая доступ к командлетам CsCdrConfiguration и CsQoEConfiguration.  <br/> |[Настройка регистрации вызовов и параметров качества взаимодействия в Скайп для Business Server](call-detail-recording-and-qoe.md) <br/> |
 

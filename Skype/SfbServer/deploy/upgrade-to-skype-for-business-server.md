@@ -1,5 +1,6 @@
 ---
 title: Обновление до Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Сводка: Узнайте, как обновление с Lync Server 2013 Скайп для Business Server 2015. Загрузить бесплатную пробную версию программы Скайп для 2015 Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 5c23faeb1dca662b80855b87a93152b3e81de43d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0a09de79bd60917667dfb2e7ca33310da3b04ddd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885147"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878191"
 ---
-# <a name="upgrade-to-skype-for-business-server-2015"></a>Обновление до Skype для бизнеса Server 2015
+# <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
 **Сводка:** Узнайте, как обновление с Lync Server 2013 Скайп для Business Server 2015. Загрузите бесплатную пробную версию программы Скайп для Business Server 2015 [Центр оценки Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
@@ -36,7 +37,7 @@ ms.locfileid: "23885147"
   
 ### <a name="before-you-begin"></a>До начала работы
 
-- Просмотрите [Планирование обновления до Скайп для Business Server 2015](../plan-your-deployment/upgrade.md).
+- Просмотрите раздел [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md).
     
 - Обзор [требований для сервера для Скайп для Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
@@ -71,7 +72,7 @@ ms.locfileid: "23885147"
 Перед началом процесса обновления необходимо запустить все службы для пулов, которые планируется обновить. Это обеспечит репликацию изменений топологии в локальную базу данных серверов в пуле.
   
 > [!IMPORTANT]
->  Перед обновлением сохраните копию топологии. После обновления, вы не сможете для возврата к предыдущей версии топология. > Если вашей службы на тех же серверах как баз данных, как служба — на том же сервере базы данных сохраняемого чата Persistent Chat пропустить этот этап и перейдите к шагу 4. После остановки служб запустите на каждом сервере настройку обновления на месте для обновления локальных баз данных.
+>  Перед обновлением сохраните копию топологии. После обновления, вы не сможете для возврата к предыдущей версии topology.>, если их на тех же серверах, как баз данных, как служба — на том же сервере базы данных сохраняемого чата Persistent Chat, пропустите этот шаг и перейдите к шагу 4. После остановки служб запустите на каждом сервере настройку обновления на месте для обновления локальных баз данных.
   
 > [!NOTE]
 > Если топология имеет внутреннюю зеркальную базу данных, тогда **при публикации топологии** с помощью построителя топологий отобразятся и основная и зеркальная базы данных. Убедитесь, что все базы данных запущены на основном сервере, а при публикации топологии выберите только основную, а не зеркальную базу данных. В противном случае после публикации топологии отобразится предупреждение.
@@ -179,7 +180,7 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Шаг 5. Обновление интерфейсных пулов и серверов, не входящих в этот пул
 
 > [!NOTE]
->  До обновления установите все новые компоненты, необходимые для Скайп для Business Server 2015 которые включают: > по крайней мере 32 ГБ свободного места на диске перед обновлением. Кроме того, убедитесь в том, что диск — это локальном жестком диске, не соединена с USB и Firewire, отформатированные с файловой системой NTFS, не сжимается и не содержит файла страницы. > PowerShell версии 6.2.9200.0 или более поздняя версия. > последние Lync Server 2013 Накопительное обновление. > SQL Server 2012 SP1. > следующие КБ установленные (установлены автоматически, если с помощью центра обновления Майкрософт): > Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
+>  До обновления установите все новые компоненты, необходимые для Скайп для Business Server 2015 которые включают: > по крайней мере 32 ГБ свободного места на диске перед обновлением. Кроме того убедитесь в том, что диск — это локальном жестком диске, не соединена с USB и Firewire, отформатированные с файловой системой NTFS, не сжимается и не содержит страницу file.> PowerShell версии 6.2.9200.0 или более поздняя версия .> последних Lync Server 2013 Накопительный пакет обновления установлен .> .> установлены следующие КБ (установлены автоматически, если с помощью центра обновления Майкрософт) установлен SQL Server 2012 с пакетом обновления 1: > Windows >[KB2858668](https://support.microsoft.com/kb/2858668)-[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 — Windows Server 2008 R2 Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
 Обновление на месте на каждом сервере для обновления используйте пула переднего плана, пограничного пула, сервер-посредник и пула Persistent Chat.
   
@@ -199,7 +200,7 @@ Disable-CsComputer -Scorch
 ### <a name="step-6-restart-services-on-all-upgraded-servers"></a>Шаг 6. Повторный запуск служб на всех обновленных серверах
 
 > [!NOTE]
-> Перед перезапуском службы, чтобы убедиться, что %ProgramData%\WindowsFabric не существует на всех серверах переднего плана. Если он существует, удалите его перед запуском служб. 
+> Перед перезапуском службы, чтобы убедиться, что %ProgramData%\WindowsFabric не существует на всех серверах переднего плана. If it exists, delete it before starting the services. 
   
 - После обновления всех серверов в пуле переднего плана, перезапустите службы с помощью следующей команды PowerShell: 
     
@@ -242,7 +243,7 @@ Disable-CsComputer -Scorch
 
 [Планирование обновления до Skype для бизнеса Server 2015](../plan-your-deployment/upgrade.md)
   
-[Требования к серверу для Skype для бизнеса Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
 [Установка обязательных компонентов для Skype для бизнеса Server 2015](install/install-prerequisites.md)
   

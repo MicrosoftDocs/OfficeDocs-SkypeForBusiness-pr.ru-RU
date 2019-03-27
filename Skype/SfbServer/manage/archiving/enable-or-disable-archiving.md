@@ -1,5 +1,6 @@
 ---
 title: Включить или отключить архивацию в Скайп Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: 'Сводка: Узнайте, как включить или отключить архивацию в Скайп Business Server.'
-ms.openlocfilehash: a0d32a3bacb604c326db13034bf5315c7f3d4d99
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b7f9ab424a9fc24c733fa61c75c1d4564b636941
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965893"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883027"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Включить или отключить архивацию в Скайп Business Server
 
@@ -40,7 +41,7 @@ ms.locfileid: "20965893"
     
 ## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>Включение и отключение архивации с помощью Windows PowerShell
 
-Можно также включить или отключить архивацию с помощью командлета **Set-CsArchivingConfiguration**. Например, следующая команда позволяет изменить все параметры конфигурации архивации таким образом, что архивироваться будут только сеансы обмена мгновенными сообщениями. Команда вызывает командлет **Get-CsArchivingConfiguration** без параметров для возврата всех параметров конфигурации архивации в настоящее время используемых в организации. Этот набор затем передается в командлет **Where-Object** , который выбирает только параметры, где свойство EnableArchiving равно (-eq) «ImAndWebConf». Отфильтрованный набор затем передается в командлет **Set-CsArchivingConfiguration** , который принимает каждого элемента в коллекции и изменяет значение EnableArchiving «ImOnly»:
+Можно также включить или отключить архивацию с помощью командлета **Set-CsArchivingConfiguration**. Например, следующая команда позволяет изменить все параметры конфигурации архивации таким образом, что архивироваться будут только сеансы обмена мгновенными сообщениями. При выполнении этой команды вызывается командлет **Get-CsArchivingConfiguration** без параметров, возвращающий все параметры конфигурации архивации, которая на данный момент применяется в организации. Затем эта коллекция передается командлету **Where-Object** для отбора только тех параметров, в которых свойству EnableArchiving присвоено значение (-eq) "ImAndWebConf". После этого отфильтрованная коллекция передается командлету **Set-CsArchivingConfiguration**, в результате чего для каждого элемента в коллекции значение свойства EnableArchiving изменяется на "ImOnly":
   
 ```
 Get-CsArchivingConfiguration | Where-Object {$_.EnableArchiving -eq "ImAndWebConf"} | Set-CsArchivingConfiguration -EnableArchiving "ImOnly"

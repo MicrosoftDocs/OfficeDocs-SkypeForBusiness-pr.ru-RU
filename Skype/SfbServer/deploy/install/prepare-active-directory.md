@@ -1,5 +1,6 @@
 ---
 title: Подготовка Active Directory для Скайп для Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Сводка: Узнайте, как подготовка домена Active Directory для установки Скайп для Business Server. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 278a46ab7f39f3274905741fb40212869c043e9e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: de5de35377e526844a7badeb9897fe29b4b15db4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884006"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880828"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Подготовка Active Directory для Скайп для Business Server
  
@@ -156,7 +157,7 @@ ms.locfileid: "23884006"
     
     в. В окне **Свойства CSAdministrator** перейдите на вкладку **Участники**.
     
-    г. На вкладке **Участники** нажмите кнопку **Добавить**. В окне **выбора пользователей, контактов, компьютеров, учетных записей служб или групп** найдите поле **Введите имена объектов для выбора**. Введите имена пользователей или групп для добавления к группе CSAdministrators. Нажмите кнопку **ОК**.
+    г. На вкладке **Участники** нажмите кнопку **Добавить**. В окне **выбора пользователей, контактов, компьютеров, учетных записей служб или групп** найдите поле **Введите имена объектов для выбора**. Введите имена пользователей или групп для добавления к группе CSAdministrators. Нажмите **ОК**.
     
     e. На вкладке **Участники** проверьте наличие выбранных пользователей или групп. Нажмите кнопку **ОК**.
     
@@ -175,4 +176,4 @@ ms.locfileid: "23884006"
 
 ## <a name="see-also"></a>См. также
  
-[Доменные службы Active Directory для Skype для бизнеса Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)
+[Active Directory Domain Services for Skype for Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

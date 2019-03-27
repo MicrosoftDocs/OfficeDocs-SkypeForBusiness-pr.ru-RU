@@ -1,5 +1,6 @@
 ---
 title: Настройка Skype для бизнеса Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Сведения для настройки вашего домена, пользователи, обмена мгновенными Сообщениями и сведения о присутствии для вашей организации для установки Скайп для бизнеса. Также узнайте, как настроить аудиоконференций, телефонной системой и вызов планы и собрания Скайп вещания. '
-ms.openlocfilehash: af472553cea8a79f2fe9d918f7924f8884e834b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2a968fa0f5b89351c2a7a2726052b1418f0ac213
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374478"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878687"
 ---
 # <a name="set-up-skype-for-business-online"></a>Настройка Skype для бизнеса Online
 
@@ -171,7 +172,7 @@ ms.locfileid: "25374478"
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Связанные разделы
 <a name="bkmk_more"> </a>
 
 [Планирование гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online](https://go.microsoft.com/fwlink/p/?linkid=400791)

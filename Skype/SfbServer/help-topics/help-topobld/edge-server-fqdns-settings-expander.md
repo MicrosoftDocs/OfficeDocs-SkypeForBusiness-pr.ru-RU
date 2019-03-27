@@ -1,5 +1,6 @@
 ---
 title: Расширитель параметров полного доменного имени пограничного сервера
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: Если для пограничных серверов требуется задать или изменить значения в разделе Внешние параметры, необходимо сначала определить, будут ли назначены отдельные IP-адреса для доступа по протоколу SIP, для пограничных веб-конференций и для пограничной службы передачи аудио- и видеоданных
-ms.openlocfilehash: 8f211bef1176d5836ec3cc89ad7c48eda707e702
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bb2872ada60da7edb6905692deb5a893fe3e5427
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263445"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880702"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Расширитель параметров полного доменного имени пограничного сервера
 
@@ -35,6 +36,6 @@ ms.locfileid: "23263445"
 > [!IMPORTANT]
 > Если внести какие-либо изменения любые из этих параметров, включая использования раздельных полных доменных имен, а также IP-адресов и портов, необходимо обновить все остальные службы, которые зависят от изначально настраиваемых значений.
 
-Для получения дополнительных сведений об определении и настройке параметров для службы пограничного сервера просмотрите [Определение пограничных серверов](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
+О задании и настройке параметров пограничных служб см. в разделе [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
 
 

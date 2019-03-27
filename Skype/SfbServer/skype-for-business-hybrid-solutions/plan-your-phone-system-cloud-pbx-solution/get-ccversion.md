@@ -1,5 +1,6 @@
 ---
 title: Get-CcVersion
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: Возвращает версию устройства Cloud Connector. Использовать командлет Get-CCVersion можно только на хост-компьютере Cloud Connector.
-ms.openlocfilehash: 8391264603a73e3f594122dcdd2eb62b9ba19978
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5e5428e53d53eec66bafa9eb566059ef1b5a5833
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881335"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  
@@ -30,9 +32,9 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
   
 ## <a name="parameters"></a>Параметры
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|:-----|
-|VersionType  <br/> |Необязательно  <br/> |System.String  <br/> |Тип версии. Этот параметр может иметь значения RunningScripts, RunningBits, BackupBits или All. Значение по умолчанию: RunningScripts.  <br/> |
+|VersionType  <br/> |Необязательно  <br/> |System.String  <br/> |Тип версии. Этот параметр может иметь значения RunningScripts, RunningBits, BackupBits или All. Значение по умолчанию: RunningScripts.   <br/> |
    
 ## <a name="examples"></a>Примеры
 <a name="Examples"> </a>
@@ -61,7 +63,7 @@ Get-CCVersion -VersionType RunningBits
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="Examples"> </a>
 
-Нет.
+Нет. 
   
 ## <a name="see-also"></a>См. также
 <a name="Examples"> </a>

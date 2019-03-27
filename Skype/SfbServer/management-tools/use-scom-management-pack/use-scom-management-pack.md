@@ -1,5 +1,6 @@
 ---
 title: Управление Skype для бизнеса Server 2015 с помощью пакета управления SCOM
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Сводка: Сведения о настройке Скайп для инфраструктуры Business Server 2015 для работы с System Center Operations Manager.'
-ms.openlocfilehash: 5a1d1b87e3f28fbbb2b8023093a9781bb0dc2627
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 578982e25757bd9f3c38ae96bdf36928f448f373
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533289"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881122"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Управление Skype для бизнеса Server 2015 с помощью пакета управления SCOM
  
@@ -40,7 +41,7 @@ ms.locfileid: "26533289"
 
 Пакеты управления можно использовать с System Center Operations Manager 2007 R2 (64-разрядная версия) (поддерживается только в целях миграции) или System Center Operations Manager 2012 с пакетом обновления 1 &amp; R2 (64-разрядная версия) или системы Center Operations Manager 2016 (64-разрядная версия). В следующей таблице перечислены поддерживаемые конфигурации для пакетов управления для Скайп для Business Server 2015: 
   
-|**Конфигурация**|**Поддерживается?**|
+|**Конфигурация**|**Поддержка**|
 |:-----|:-----|
 |Операционная система Windows Server 2008 R2  <br/> Операционная система Windows Server 2012 R2  <br/> |Да. Оба на Скайп для сервера Business Server 2015 и искусственная транзакция узлах.  <br/> |
 |Кластеры серверов  <br/> |Не поддерживаются.  <br/> |
@@ -96,7 +97,7 @@ ms.locfileid: "26533289"
 
 Скайп для пакета управления 2015 Business Server поддерживает широкий спектр возможностей для обнаружения и диагностики неполадок. Эти функции обеспечивает возможность в реальном времени отслеживания работоспособности Скайп для среды Business Server 2015.
   
-|**Сценарий наблюдения**|**Описание**|
+|**Сценарий наблюдения**|**Описание**.|
 |:-----|:-----|
 |Искусственные транзакции  <br/> | Командлеты Windows PowerShell для проверки и обеспечения высокой доступности сценариев, такие как входа в сведения о присутствии, обмен мгновенными Сообщениями и конференц-связи для пользователей. <br/> Искусственные транзакции могут выполняться из любого географического местоположения как на предприятии, так и за его пределами, а также в филиалах.  <br/> В случае сбоя искусственной транзакции создаются журналы HTML, позволяющие точно определить характеристики сбоя. К ним относятся сбойное действие, задержка каждого действия, команда, по которой выполнялось испытание, и возникшая ошибка.  <br/> |
 |Оповещения о стабильности вызовов  <br/> |Записи регистрации вызовов (CDR), созданным Скайп для серверов 2015 Business Server отражают ли пользователи могут подключаться к звонку или почему завершения звонка. Оповещения о стабильности вызовов, формируемые на основе запросов к базе данных CDR, указывают на большое количество неполадок подключения пользователей к одноранговым вызовам или основных функций конференц-связи.  <br/> Эти оповещения охватывают вызовы голосовой связи, одноранговый обмен мгновенными сообщениями (IM) и другие функции конференц-связи.  <br/> |
@@ -144,7 +145,7 @@ ms.locfileid: "26533289"
 ||||
 |:-----|:-----|:-----|
 |9  <br/> |Видео- и голосовая конференц-связь  <br/> |Доступные в Lync Server 2010 и за ее пределами  <br/> |
-| 10  <br/> |Конференц-связь с передачей данных  <br/> |Доступные в Lync Server 2013 и за ее пределами  <br/> |
+|10  <br/> |Конференц-связь с передачей данных  <br/> |Доступные в Lync Server 2013 и за ее пределами  <br/> |
 |11  <br/> |Конференц-связь с мгновенными сообщениями  <br/> |Доступные в Lync Server 2010 и за ее пределами  <br/> |
 |12  <br/> | Сохраняемый сеанс беседы <br/> |Доступные в Lync Server 2013 и за ее пределами  <br/> |
 |13  <br/> |Агент присоединения (запланированные собрания)  <br/> |Доступные в Lync Server 2013 и за ее пределами  <br/> |
@@ -166,7 +167,7 @@ ms.locfileid: "26533289"
 
 Ниже указаны состояния работоспособности объектов Скайп для сервера мониторинга пакета.
   
-|**Объект пакета управления**|**Описание**|
+|**Объект пакета управления**|**Описание**.|
 |:-----|:-----|
 |Скайп по развертыванию сервера  <br/> |Представляет развертывания Скайп для Business Server 2015 в организации.  <br/> |
 |Скайп для сайта Business Server  <br/> |Представляет различные географические местоположения, в которых развертываются службы.  <br/> |
@@ -203,35 +204,35 @@ ms.locfileid: "26533289"
   
 - [Жизненный цикл пакета управления](https://technet.microsoft.com/en-us/library/hh212732.aspx)
     
-- [Импорт пакета управления в Operations Manager 2012 ](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [Импорт пакета управления в Operations Manager 2012 г.](https://technet.microsoft.com/en-us/library/hh212691.aspx)
     
-- [Переопределение существующего правила или монитора](https://technet.microsoft.com/en-us/library/hh212869.aspx)
+- [Способы переопределения правила или монитора](https://technet.microsoft.com/en-us/library/hh212869.aspx)
     
-- [Создание учетной записи запуска от имени в Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
+- [Как создать пробег как учетная запись в Operations Manager 2012 г.](https://technet.microsoft.com/en-us/library/hh321655.aspx)
     
-- [Управление учетными записями и профилями запуска от имени](https://technet.microsoft.com/en-us/library/hh212714.aspx)
+- [Управление Запуск от имени учетных записей и профилей](https://technet.microsoft.com/en-us/library/hh212714.aspx)
     
-- [Экспорт пакета управления Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
+- [Как экспортировать пакет управления Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
     
-- [Удаление пакета управления Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
+- [Как удалить пакет управления Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
     
 Ниже приведены ссылки на часто выполняемые задачи, связанные с пакетами мониторинга System Center 2007.
   
-- [Администрирование жизненного цикла пакета управления](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [Управление жизненным циклом пакета управления](https://go.microsoft.com/fwlink/p/?LinkId=211463)
     
 - [Импорт пакета управления в Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
     
-- [Наблюдение посредством переопределения](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [Наблюдение за использованием переопределяет](https://go.microsoft.com/fwlink/p/?LinkID=117777)
     
-- [Создание учетной записи запуска от имени в Operations Manager 2007 ](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [Как создать пробег как учетная запись в Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
     
-- [Изменение существующего профиля запуска от имени](https://go.microsoft.com/fwlink/p/?LinkID=165412)
+- [Как изменять существующий Запуск от имени профиля](https://go.microsoft.com/fwlink/p/?LinkID=165412)
     
-- [Экспорт пользовательских вариантов настройки пакета управления](https://go.microsoft.com/fwlink/p/?LinkId=209940)
+- [Экспорт настроек пакета управления](https://go.microsoft.com/fwlink/p/?LinkId=209940)
     
 - [Удаление пакета управления](https://go.microsoft.com/fwlink/p/?LinkId=209941)
     
-Обсуждение вопросов, относящихся к Operations Manager и пакетов мониторинга, см. на [форуме сообщества System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
+Вопросы о Operations Manager и мониторинга пакетов в разделе [форум сообщества System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   
 Полезных ресурсов — это [Система центр Operations Manager Unleashed](https://opsmgrunleashed.wordpress.com/) блогу, который содержит «С образцами» сообщений для конкретных мониторинга пакетов.
   
@@ -239,15 +240,15 @@ ms.locfileid: "26533289"
   
 - [Блог группы разработчиков Operations Manager](https://blogs.technet.com/momteam/default.aspx)
     
-- [Блог Кевина Холмана (Kevin Holman) по OpsMgr](https://blogs.technet.com/kevinholman/default.aspx)
+- [Блог OpsMgr Кевин Холман](https://blogs.technet.com/kevinholman/default.aspx)
     
-- [Принципы работы с OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
+- [Мысли на OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
 - [Блог Raphael Burri](https://rburri.wordpress.com/)
     
-- [Блог Б. Рена (BWren) по управлению](https://blogs.technet.com/brianwren/default.aspx)
+- [Пространства BWren элемента управления](https://blogs.technet.com/brianwren/default.aspx)
     
-- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
+- [Диспетчер операций ++ (en)](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > Вся информация и содержимое на сайтах, не принадлежащих корпорации Майкрософт, предоставляется владельцами и пользователями веб-сайта. Корпорация Майкрософт не предоставляет каких-либо явно выраженных, подразумеваемых или установленных законом гарантий в отношении информации на этом веб-сайте. 

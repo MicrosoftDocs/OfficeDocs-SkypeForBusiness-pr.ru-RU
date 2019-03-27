@@ -1,5 +1,6 @@
 ---
 title: Выбор групп
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: Очереди группы ответа содержат вызовы в группы ответа, пока агент отвечает на звонок. Очереди назначения групп агентов. При создании или изменение очереди для выбора одного или нескольких групп агентов для назначения в очередь используется диалоговое окно Выбор групп.
-ms.openlocfilehash: 36193ae3155da4284f062d9a8906c9d6f5a13db9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fc03bbc95c1604ef13380a52fa214f9fd65f35b4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245847"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878524"
 ---
 # <a name="select-groups"></a>Выбор групп
 
@@ -35,6 +36,6 @@ ms.locfileid: "23245847"
 
 - **Метод маршрутизации** Отображает тип маршрутизации, заданный для группы агентов.
 
-Дополнительные сведения о работе с очередями см [Управление очередями группы ответа](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) в документации по операциям.
+Дополнительные сведения о работе с очередями см. в разделе [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) документации по использованию.
 
 

@@ -1,5 +1,6 @@
 ---
 title: Install-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: Командлет Install-CcAppliance устанавливает на сервер узла устройство Skype для бизнеса Cloud Connector Edition, включая виртуальные машины Active Directory, центрального хранилища управления, сервера-посредника и пограничного сервера.
-ms.openlocfilehash: d35a102f7d3ade7b64bcf43388eaf03dc455c27b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 8f1a8b7d99a555006c1d69ee52f2403e9bf0a874
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569989"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880216"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -66,7 +67,7 @@ Install-CcAppliance -ShowStepsOnly
   
 ### <a name="example-5"></a>Пример 5
 
-В следующем примере создаются файлы конфигурации для каждого шага развертывания на сервере узла. Будут сохранены файлы конфигурации \<ApplianceRoot\>\Instances\\< версии\>-default\ExportedConfig папку на хост-сервера:
+В следующем примере создаются файлы конфигурации для каждого шага развертывания на сервере узла. Будут сохранены файлы конфигурации \<ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig папку на хост-сервера:
   
 ```
 Install-CcAppliance -PrepareOnly
@@ -89,7 +90,7 @@ Install-CcAppliance -Steps @(1,2,3) -SkipExistingObjects
   
 Чтобы определить шаги развертывания, выполните следующий командлет:
   
-Install-CcAppliance - ShowStepsOnly
+Install-CcAppliance -ShowStepsOnly
   
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
@@ -103,12 +104,12 @@ Install-CcAppliance - ShowStepsOnly
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|:-----|
 |PrepareOnly  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> | Создает файлы конфигурации для каждого шага развертывания. Этот параметр используется только для устранения неполадок.  <br/> |
 |ShowStepsOnly  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Отображает только названия шагов развертывания. Этот параметр используется только для устранения неполадок.  <br/> |
 |SkipExistingObjects  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Этот параметр используется вместе с параметром Steps. Этот параметр используется только для устранения неполадок.  <br/> |
-|Steps  <br/> |Необязательно  <br/> |System.Array  <br/> |Выполняет шаги развертывания. Этот параметр используется только для устранения неполадок.  <br/> |
+|Steps  <br/> |Необязательно   <br/> |System.Array  <br/> |Выполняет шаги развертывания. Этот параметр используется только для устранения неполадок.  <br/> |
 |Upgrade  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Обновляет существующее развертывание Cloud Connector до последней версии.  <br/> |
 |UpdateAllCredentials  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Удаление всех учетных данных облачных соединителя в кэше. Отображает запрос для ввода пользователем новых учетных данных для установки.  <br/> |
    
@@ -125,12 +126,12 @@ Install-CcAppliance - ShowStepsOnly
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>
 
-[Публикация CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 [Register-CcAppliance](register-ccappliance.md)
   
-[Отмена регистрации CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[Удаление CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

@@ -1,5 +1,6 @@
 ---
 title: Выбор правил нормализации
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 ROBOTS: NOINDEX, NOFOLLOW
 description: Правила нормализации сервера используют регулярные выражения .NET Framework для преобразования набранных телефонных номеров в формат E.164. Каждой абонентской группе должно быть назначено хотя бы одно правило нормализации.
-ms.openlocfilehash: a49abda53addc465b085032d283d95e465bd0a9e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 41680eeec4b767797c0f1101bf43c38f75808bd2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018581"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880772"
 ---
 # <a name="select-normalization-rules"></a>Выбор правил нормализации
  

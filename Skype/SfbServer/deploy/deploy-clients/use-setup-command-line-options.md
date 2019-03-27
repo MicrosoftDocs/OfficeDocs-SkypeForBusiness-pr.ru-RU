@@ -1,5 +1,6 @@
 ---
 title: Использование параметров командной строки программы установки с Скайп пользователей
+ms.reviewer: ''
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 'Сводка: Сведения об операциях командной строки Setup.exe в программе установки Office.'
-ms.openlocfilehash: 13005f96b353b8648ed676ef68af54b76a99e48c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d3bf2b4d867fbbb43c346f2b9572de329ec66bdc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974454"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880280"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Использование параметров командной строки программы установки с Скайп пользователей
  
@@ -26,7 +27,7 @@ ms.locfileid: "20974454"
   
 **Параметры командной строки программы установки Office**
 
-|**Параметр командной строки программы установки**|**Описание**|
+|**Параметр командной строки программы установки**|**Описание**.|
 |:-----|:-----|
 |/admin  <br/> |Запускает центр развертывания Office для создания файла настройки программы установки (файла MSP).  <br/> |
 |/adminfile [путь]  <br/> |Применяет к установке указанный файл настройки программы установки. Можно указать путь к конкретному MSP-файлу настройки или к папке файлов настройки.  <br/> |

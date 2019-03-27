@@ -1,5 +1,6 @@
 ---
 title: Настройка сценариев для централизованной службы ведения журналов в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,18 +12,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Сводка: Узнайте, как создавать, изменять и удалять сценариев для централизованной службы ведения журналов в Скайп для Business Server 2015.'
-ms.openlocfilehash: e80324d4228aec503c887927459e42188741837f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 453c9c593e53dca186b09e1ba835bc8f94bb7112
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373932"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878303"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Настройка сценариев для централизованной службы ведения журналов в Skype для бизнеса Server 2015
  
 **Сводка:** Узнайте, как создавать, изменять и удалять сценариев для централизованной службы ведения журналов в Скайп для Business Server 2015.
   
-Сценарии определить область (то есть, глобальная, на уровне сайта, пул или компьютер) и какие поставщиков для использования в службы централизованного ведения журналов. С помощью сценариев, включение или отключение трассировки на поставщиков (например, S4, SIPStack, обмен мгновенными Сообщениями и присутствия). Настроив сценарий, можно сгруппировать всех поставщиков для данного семейства сайтов логической этот адрес условие определенные проблемы. Если сценарий необходимо изменить в соответствии с диагностики и ведение журналов потребности, Скайп для средств отладки 2015 Business Server предоставляет модулем Windows PowerShell с именем ClsScenarioEdit.psm1, содержащий функции namedEdit-CsClsScenario. Модуль предназначен для изменения свойств именованные сценария. В этом разделе приведены примеры того, как работает этот модуль. Загрузите Скайп Business Server 2015 [Средства отладки](https://go.microsoft.com/fwlink/p/?LinkId=285257) , прежде чем перейти к следующему шагу.
+Сценарии определить область (то есть, глобальная, на уровне сайта, пул или компьютер) и какие поставщиков для использования в службы централизованного ведения журналов. By using scenarios, you enable or disable tracing on providers (for example, S4, SIPStack, IM, and Presence). By configuring a scenario, you can group all of the providers for a given logical collection that address a specific problem condition. Если сценарий необходимо изменить в соответствии с диагностики и ведение журналов потребности, Скайп для средств отладки 2015 Business Server предоставляет модулем Windows PowerShell с именем ClsScenarioEdit.psm1, содержащий функции namedEdit-CsClsScenario. The purpose of the module is to edit the properties of the named scenario. Examples of how this module works are provided in this topic. Загрузите Скайп Business Server 2015 [Средства отладки](https://go.microsoft.com/fwlink/p/?LinkId=285257) , прежде чем перейти к следующему шагу.
   
 > [!IMPORTANT]
 > Для любой области действия (глобальной, области узла, пула и компьютера) одновременно можно использовать не больше двух сценариев. Чтобы определить, какие сценарии выполняются в настоящее время, используйте Windows PowerShell и [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps). С помощью Windows PowerShell и [Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps), можно динамически изменять, какие сценарии выполняются. Это можно сделать во время сеанса ведения журнала, чтобы скорректировать собираемые данные и поставщиков, от которых они собираются. 
@@ -39,7 +40,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 201
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-В оставшейся части этого раздела рассказывается о определить сценарий, изменить сценарий, получать выполнение сценариев, удалить сценарий и указать, содержащий сценарий для оптимизации диагностики. Скайп для консоли Business Server можно использовать для выполнения команд Windows PowerShell. При использовании Windows PowerShell можно определить новые сценарии для использования в вашей сеансы ведения журналов.
+The remainder of this topic focuses on how to define a scenario, modify a scenario, retrieve what scenarios are running, remove a scenario, and specify what a scenario contains to optimize your troubleshooting. Скайп для консоли Business Server можно использовать для выполнения команд Windows PowerShell. При использовании Windows PowerShell можно определить новые сценарии для использования в вашей сеансы ведения журналов.
   
 Как было описано в [Централизованной службы ведения журналов в Скайп для бизнеса 2015](centralized-logging-service.md), являются элементы сценария:
   
@@ -56,7 +57,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
     
-2. Чтобы создать новый сценарий для сеанса ведения журнала, используйте [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) и определите имя сценария (то есть, как оно будет уникальным образом идентифицироваться). Выберите тип формата ведения журнала из WPP (то есть, трассировка препроцессору программного обеспечения Windows и используется по умолчанию), журнал событий (то есть, формат журнала событий Windows) или IISLog (то есть, файл в формате ASCII на основе формат файла журнала IIS). Затем определите уровень (как определено в разделе уровни ведения журнала в данном разделе) и флаги (как определено в разделе флаги в данном разделе).
+2. Чтобы создать сценарий для сеанса ведения журналов, используйте [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) и задайте имя сценария (т. е. его уникальный идентификатор). Выберите тип формата ведения журнала в WPP (т. е. препроцессор трассировки ПО Windows, значение по умолчанию), EventLog (т. е. формат журнала событий Windows) или IISLog (т. е. формат ASCII на основе формата IIS). Затем задайте уровень (как указано в подразделе "Уровни ведения журнала" в этом разделе) и флаги (см. "Флаги" в этом разделе).
     
     Для этого примера сценария мы используем LyssProvider как пример переменной поставщика.
     
@@ -82,7 +83,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
     
-2. Можно использовать не больше двух сценариев для области действия. Тем не менее вы не ограничиваются заданное количество поставщиков. В этом примере предполагается, что мы создали три поставщика и необходимо назначить все три для сценария, который вы определяете. Имена переменных поставщика, LyssProvider, ABServerProvider и SIPStackProvider. Для определения и назначения нескольких поставщиков в сценарий, введите в Скайп для консоли Business Server и Windows PowerShell командной строке следующую команду:
+2. You are limited to two scenarios per scope. However, you are not limited to a set number of providers. In this example, assume that we have created three providers, and you want to assign all three to the scenario you are defining. The provider variable names are LyssProvider, ABServerProvider, and SIPStackProvider. Для определения и назначения нескольких поставщиков в сценарий, введите в Скайп для консоли Business Server и Windows PowerShell командной строке следующую команду:
     
    ```
    New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
@@ -141,7 +142,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
    ```
 
-Командлет **Remove-CsClsScenario** Удаляет указанный сценарий, но трассировки, которые были записаны, по-прежнему доступны в журналах для поиска по.
+Командлет **Remove-CsClsScenario** удаляет указанный сценарий, но полученные трассировки все еще доступны в журналах.
 ### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>Загрузка и выгрузка командлета Edit-CsClsScenario с помощью модуля ClsScenarioEdit.psm1
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.

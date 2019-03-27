@@ -1,5 +1,6 @@
 ---
 title: Пограничный сервер сценариев в Скайп для Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Сводка: Просмотрите эти сценарии, которые помогут вам спланировать топологию пограничного сервера в Скайп для Business Server.'
-ms.openlocfilehash: 6343c69c493992656b17aaadb5e1450baec85560
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26bdb7e007c3ba0da6c5590db4c1e6953e43e701
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885182"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881537"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Пограничный сервер сценариев в Скайп для Business Server
  
 **Сводка:** Просмотрите эти сценарии, которые помогут вам спланировать топологию пограничного сервера в Скайп для Business Server.
   
-У нас есть некоторые сценарии схемы для облегчения визуализация и о выборе какие Скайп для пограничного сервера Business Server топологии требуется реализовать. Если вы выбрали соблюдено, можно перейти чтения копирование окружающей среды требования, необходимые на адрес. Следующие применима к любому из сценариев, поэтому мы в случае упоминание сначала.
+У нас есть некоторые сценарии схемы для облегчения визуализация и о выборе какие Скайп для пограничного сервера Business Server топологии требуется реализовать. Once you've picked a good candidate, you can go read up on the environmental requirements you'll need to address. The following is applicable to any of the scenarios, so we're mentioning it first.
   
 Эти рисунки используются исключительно в целях иллюстрации (по этой причине они содержат образцы данных IPv4 и IPv6). Они не отражают действительный коммуникационный поток, но дают высокоуровневое представление о возможном трафике. Сведения о портах представлены на диаграммах портов в каждом сценарии.
   

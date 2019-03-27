@@ -1,5 +1,6 @@
 ---
 title: Управление комнатами чата на сервере сохраняемого чата в Skype для бизнеса Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Сводка: Узнайте, как управлять Persistent Chat Server разговоров в Скайп для Business Server 2015.'
-ms.openlocfilehash: 1c197be847d2a1359a3e6203df718cc34f1d9e41
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8764b40651c9872393867ced205c405cfc2d4046
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372151"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881732"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление комнатами чата на сервере сохраняемого чата в Skype для бизнеса Server 2015
  
 **Сводка:** Сведения об управлении Persistent Chat Server разговоров в Скайп для Business Server 2015.
   
-Создание комнат чата и управление ими осуществляются значительно проще благодаря правильному использованию категорий. Категория определяет пользователей, которые могут создавать или присоединиться к комнат чата. Прежде чем пытаться управление комнат чата, обязательно прочитайте [сохраняемого чата категорий, комнат чата и роли пользователей в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) и [Управление категориями в Persistent Chat Server в Скайп для Business Server 2015](categories.md).
+Создание комнат комнат чата и управление ими осуществляется значительно проще благодаря правильному использованию категорий. Категория определяет пользователей, которые могут создавать или присоединиться к комнат чата. Прежде чем пытаться управление комнат чата, обязательно прочитайте [сохраняемого чата категорий, комнат чата и роли пользователей в Скайп для Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) и [Управление категориями в Persistent Chat Server в Скайп для Business Server 2015](categories.md).
   
 > [!NOTE]
 > Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Для получения дополнительных сведений см [Реализация из Скайп для бизнеса для групп Майкрософт](/microsoftteams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны либо перенос пользователей, которым требуется эта функция групп, или для дальнейшего использования Скайп для Business Server 2015. 
@@ -50,10 +51,10 @@ ms.locfileid: "25372151"
 |**Командлет**|**Описание**|
 |:-----|:-----|
 |New-CsPersistentChatRoom  <br/> |Создание новой комнаты чата.  <br/> |
-|SET-CsPersistentChatRoom  <br/> |Настройка параметров существующей комнаты; назначение пользователей и групп пользователей комнате  <br/> |
-|Командлет Get-CsPersistentChatRoom  <br/> |Получение сведений о комнат  <br/> |
+|Set-CsPersistentChatRoom  <br/> |Настройка параметров существующей комнаты; назначение пользователей и групп пользователей комнате  <br/> |
+|Get-CsPersistentChatRoom  <br/> |Получение сведений о комнат  <br/> |
 |Clear-CsPersistentChatRoom  <br/> |Очистка комнаты или очистка сообщений в комнате  <br/> |
-|Remove Cspersistentchatroomnm  <br/> |Удаление комнаты  <br/> |
+|Remove-CsPersistentChatRoom  <br/> |Удаление комнаты  <br/> |
 |Remove-CsPersistentChatMessage  <br/> |Удаление сообщений из комнаты  <br/> |
    
 Командлет **New-CsPersistentChatRoom** используется для создания комнат чата, а командлет **Set-CsPersistentChatRoom** — для настройки существующей комнаты чата, включая добавление к ней пользователей. Можно настроить следующие параметры комнаты чата:
@@ -76,7 +77,7 @@ ms.locfileid: "25372151"
     
 - Presenters. Позволяет назначать выступающих комнате-аудитории чата. 
     
-  Подробные сведения о синтаксисе, включая все параметры, [Скайп для консоли 2015 Business Server](../management-shell.md).
+  Дополнительные сведения о синтаксисе, включая все параметры, см. в разделе [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 ## <a name="create-a-new-room"></a>Создание новой комнаты
 

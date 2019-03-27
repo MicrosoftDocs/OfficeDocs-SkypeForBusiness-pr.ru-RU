@@ -1,5 +1,6 @@
 ---
 title: Get-CcSiteDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: Командлет Get-CcSiteDirectory показывает текущий каталог, в котором хранятся файлы конфигурации уровня сайта. В папке находятся файлы установки базового виртуального жесткого диска и Skype для бизнеса Cloud Connector Edition. Эта папка должна быть общей с другими приложениями, соединитель облака сайта.
-ms.openlocfilehash: e75e20a18960510bf75a8ca4cfc97ffd9daa894f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d0869f3cbd1c43e523107a0ff8dce6fd769889a8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882399"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
@@ -44,7 +46,7 @@ Get-CcSiteDirectory
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Чтобы обеспечить соответствие шлюза и высокой доступности, устройств для соединителя облаке могут быть объединены в сайты. Пользователи назначаются сайтов вместо устройств для соединителя облака. На каждом сайте есть общая папка, в которой хранятся файлы установки базового виртуального жесткого диска и Cloud Connector. Эта папка используется устройства во время развертывания. Папка по умолчанию является C:\Users\%userprofile%\CloudConnector\SiteRoot. Путь можно изменить с помощью командлета Set-CcSiteDirectory.
+Чтобы обеспечить соответствие шлюза и высокой доступности, устройств для соединителя облаке могут быть объединены в сайты. Пользователи назначаются сайтов вместо устройств для соединителя облака. Каждый сайт имеет общей папки, в которой хранятся базового установочные файлы VHD и облачных соединителя. Устройства используют эту папку во время развертывания. Папка по умолчанию является C:\Users\%userprofile%\CloudConnector\SiteRoot. Путь можно изменить с помощью командлета Set-CcSiteDirectory.
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
@@ -59,6 +61,6 @@ Get-CcSiteDirectory
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>
 
-[SET-CcSiteDirectory](set-ccsitedirectory.md)
+[Set-CcSiteDirectory](set-ccsitedirectory.md)
   
 

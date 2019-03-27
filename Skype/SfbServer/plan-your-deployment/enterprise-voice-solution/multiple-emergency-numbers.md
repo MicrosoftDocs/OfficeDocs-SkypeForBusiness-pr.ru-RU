@@ -1,5 +1,6 @@
 ---
 title: Планирование для нескольких аварийного номера в Скайп Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: В данном разделе приведены в этой статье описывается планирование нескольких аварийного номера в Скайп для Business Server.
-ms.openlocfilehash: 6a27539641544682f6cb0905d8434f632fa868f2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3ecbc039dac510a1ebc5eb989773c1f32c3b6ac
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891523"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880765"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Планирование для нескольких аварийного номера в Скайп Business Server
  
@@ -73,9 +74,12 @@ ms.locfileid: "23891523"
 
 |**Имя политики расположения**|**Включена поддержка E911**|**Строка набора экстренного номера**|**Маска номера**|**Аварийного номера**|**Использование ТСОП**|**Требуется расположение**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|США  <br/> |Да  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |Да  <br/> |
-|US-Hospital  <br/> |Да  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Да  <br/> |
-|Лондон  <br/> |Да  <br/> |999  <br/> |144  <br/> |999 144  <br/> 112 911; 117; 118  <br/> |GBEmergency  <br/> |Нет  <br/> |
+|США  <br/> |Да  <br/> |911  
+  <br/> | 112;999 <br/> ||USEmergency  <br/> |Да  <br/> |
+|US-Hospital  <br/> |Да  <br/> |911  
+  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Да  <br/> |
+|Лондон  <br/> |Да  <br/> |999  
+  <br/> |144  <br/> |999 144  <br/> 112 911; 117; 118  <br/> |GBEmergency  <br/> |Нет  <br/> |
 |Индия  <br/> |Да  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |Нет  <br/> |
    
  **Соединенные Штаты** — не является обязательным для нескольких аварийного номера. В Соединенных Штатах Америки используйте старой конфигурации аварийного номера строки и маска номера.

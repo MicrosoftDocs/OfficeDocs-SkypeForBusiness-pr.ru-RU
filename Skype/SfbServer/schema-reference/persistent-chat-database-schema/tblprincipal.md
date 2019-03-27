@@ -1,5 +1,6 @@
 ---
 title: tblPrincipal
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: Таблица tblPrincipal содержит все субъекты, включая пользователей, папки и группы.
-ms.openlocfilehash: 847af7f719b15161738d488408ac11b81d9c57a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: adeb4e52ea9bd276de09d90945443431fb3be94f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880975"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
@@ -22,7 +24,7 @@ ms.lasthandoff: 03/28/2018
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**|
+|**Столбец**|**Тип**|**Описание**.|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, не null  <br/> |Идентификатор субъекта.  <br/> |
 |prinGuid  <br/> |Идентификатор GUID, не может быть null  <br/> |GUID субъекта. Широко используется в качестве альтернативного первичный ключ, так как его значение переходит в пространство доменных служб Active Directory. (Идентификатор GUID для кэширования участника равен соответствующего объекта Active Directory GUID).  <br/> |
@@ -45,7 +47,7 @@ ms.lasthandoff: 03/28/2018
    
 **Ключи**
 
-|**Столбец**|**Описание**|
+|**Столбец**|**Описание**.|
 |:-----|:-----|
 |prinID  <br/> |Первичный ключ.  <br/> |
 |prinTypeID  <br/> |Внешний ключ с подстановкой в таблице tblPrincipalType.ptypeID.  <br/> |

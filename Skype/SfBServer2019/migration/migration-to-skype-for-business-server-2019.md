@@ -1,5 +1,6 @@
 ---
 title: Миграция на Скайп для Business Server 2019
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В темах этого раздела описывается процесс миграции в Скайп for Business Server 2019.
-ms.openlocfilehash: 544dd01cdea68971b54374ca6e0e94909e249c82
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 32babd6fedd5defc756f73bbf001716c7c0b8a72
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027832"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881599"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>Миграция на Скайп для Business Server 2019
 
@@ -41,20 +42,20 @@ ms.locfileid: "25027832"
 
 - [Перед началом миграции](before-you-begin-the-migration.md)
     
-- [Этап 1: Планирование миграции](phase-1-plan-your-migration.md)
+- [Этап 1: планирование миграции](phase-1-plan-your-migration.md)
     
-- [Этап 2: Подготовка к миграции](phase-2-prepare-for-migration.md)
+- [Этап 2: подготовка к миграции](phase-2-prepare-for-migration.md)
     
-- [Этап 3: Развертывание пилотного пула](phase-3-deploy-pilot-pool.md)
+- [Этап 3: развертывание пилотного пула](phase-3-deploy-pilot-pool.md)
     
 - [Этап 4: Перемещение тестовых пользователей пилотного пула](phase-4-move-test-users-to-the-pilot-pool.md)
     
-- [Этап 5: Добавление пограничного сервера в пилотном пуле](phase-5-add-edge-server-to-pilot-pool.md)
+- [Этап 5: добавление пограничного сервера в пилотный пул](phase-5-add-edge-server-to-pilot-pool.md)
     
-- [Этап 6: Переход от пилотного развертывания к рабочей версии](phase-6-move-from-pilot-deployment-into-production.md)
+- [Этап 6: переход от пилотного развертывания к рабочей версии](phase-6-move-from-pilot-deployment-into-production.md)
     
-- [Этап 7: Выполнение послемиграционных задач](phase-7-complete-post-migration-tasks.md)
+- [Этап 7: необходимые действия после миграции](phase-7-complete-post-migration-tasks.md)
     
-- [Этап 8: Ликвидация старых пулов](phase-8-decommission-legacy-pools.md)
+- [Этап 8: ликвидация старых пулов](phase-8-decommission-legacy-pools.md)
     
 

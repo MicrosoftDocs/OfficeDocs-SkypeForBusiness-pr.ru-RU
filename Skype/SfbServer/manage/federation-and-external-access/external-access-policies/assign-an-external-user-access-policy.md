@@ -1,5 +1,6 @@
 ---
-title: Назначьте политику доступа внешних пользователей
+title: Назначение политики доступа внешних пользователей
+ms.reviewer: ''
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Если пользователь включен для Скайп для сервера, можно настроить федерацию SIP, удаленного доступа пользователей и общедоступных служб обмена мгновенными сообщениями (IM) в Скайп для панели управления Business Server путем применения соответствующих политик к определенным пользователям.
-ms.openlocfilehash: 3498b7aabaddc80053efca70b89198c224147c0e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f07a407fee6f32f4cd4207c93ca19341e409ea78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222844"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881502"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Назначьте политику доступа внешних пользователей Скайп для пользователя с поддержкой бизнеса
 
@@ -44,7 +45,7 @@ ms.locfileid: "27222844"
 5.  В **Скайп изменение для пользователя Business Server** в разделе **Политика внешнего доступа**выберите пользовательскую политику, которую нужно применить.
      
 > [!NOTE]  
-> ** \<Автоматического >** применяются параметры сервера по умолчанию или параметров глобальной политики.
+> ** \<Automatic>** применяются параметры сервера по умолчанию или параметров глобальной политики.
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Назначение политик внешнего доступа на уровне пользователя с помощью командлетов Windows PowerShell

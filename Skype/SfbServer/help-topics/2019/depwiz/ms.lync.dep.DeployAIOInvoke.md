@@ -1,5 +1,6 @@
 ---
 title: Подготовка отдельного сервера Standard Edition (вызов)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице выполнение команд можно просмотреть задачи установки SQL Server Express и настройки в качестве центрального хранилища управления в области задач. По умолчанию создать экземпляр базы данных на основе SQL Server с именем RTC. Чтобы разрешить входящий и исходящий доступ для серверов и клиентов для взаимодействия с базой данных и экземпляр также создаются правила брандмауэра. После выполнения задачи, можно выбрать файл журнала из раскрывающегося списка. Файл журнала называется начальной загрузки локального компьютера. После выбора файла журнала, нажмите кнопку Просмотреть журнал. Просмотрите файл журнала все ошибки и предупреждения. Когда вы будете готовы продолжить, нажмите кнопку Готово. Теперь следует определить топологию с помощью построителя топологий, если это еще не сделано.
-ms.openlocfilehash: 44fae0f1349b9252f207248fa99b714b0a8550ce
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b4c1807f383e6933e15d49b6e486978d3afc087f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987513"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878636"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Подготовка отдельного сервера Standard Edition (вызов)
  
