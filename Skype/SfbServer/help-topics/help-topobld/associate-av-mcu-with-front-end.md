@@ -1,5 +1,6 @@
 ---
 title: Связывание AV MCU с сервером переднего плана
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a436e41-c902-4968-8d6e-8e7c0adf9f40
 description: Все пулы переднего плана Enterprise Edition с поддержкой конференц-связи должны иметь A аудио- и видеоконференций, совмещенного или необходимо использовать изолированный A / пула аудио-и видеоконференциями. Любые существующие переднего плана Enterprise Edition пулы, имеющим в настоящий момент A аудио- и видеоконференций службы с совместным размещением может быть выбран для использования этой новой автономной A аудио- и видеоконференций, вместо этого пула.
-ms.openlocfilehash: c53409a6a032311d13ce87accab146a031443617
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0aa3835a4c28c96980f077849b701e80c762711d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002034"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894383"
 ---
-# <a name="associate-av-mcu-with-front-end"></a><span data-ttu-id="18c69-104">Связывание AV MCU с сервером переднего плана</span><span class="sxs-lookup"><span data-stu-id="18c69-104">Associate AV MCU With Front End</span></span>
+# <a name="associate-av-mcu-with-front-end"></a><span data-ttu-id="bb4b0-104">Связывание AV MCU с сервером переднего плана</span><span class="sxs-lookup"><span data-stu-id="bb4b0-104">Associate AV MCU With Front End</span></span>
  
-<span data-ttu-id="18c69-105">Все пулы переднего плана Enterprise Edition с поддержкой конференц-связи должны иметь A аудио- и видеоконференций, совмещенного или необходимо использовать изолированный A / пула аудио-и видеоконференциями.</span><span class="sxs-lookup"><span data-stu-id="18c69-105">All Enterprise Edition Front End pools with Conferencing enabled must have an A/V Conferencing service collocated, or must use a stand-alone A/V Conferencing pool.</span></span> <span data-ttu-id="18c69-106">Любые существующие переднего плана Enterprise Edition пулы, имеющим в настоящий момент A аудио- и видеоконференций службы с совместным размещением может быть выбран для использования этой новой автономной A аудио- и видеоконференций, вместо этого пула.</span><span class="sxs-lookup"><span data-stu-id="18c69-106">Any existing Enterprise Edition Front End pools that currently have an A/V Conferencing service collocated may be selected to use this new stand-alone A/V Conferencing pool instead.</span></span>
+<span data-ttu-id="bb4b0-105">Все пулы переднего плана Enterprise Edition с поддержкой конференц-связи должны иметь A аудио- и видеоконференций, совмещенного или необходимо использовать изолированный A / пула аудио-и видеоконференциями.</span><span class="sxs-lookup"><span data-stu-id="bb4b0-105">All Enterprise Edition Front End pools with Conferencing enabled must have an A/V Conferencing service collocated, or must use a stand-alone A/V Conferencing pool.</span></span> <span data-ttu-id="bb4b0-106">Любые существующие переднего плана Enterprise Edition пулы, имеющим в настоящий момент A аудио- и видеоконференций службы с совместным размещением может быть выбран для использования этой новой автономной A аудио- и видеоконференций, вместо этого пула.</span><span class="sxs-lookup"><span data-stu-id="bb4b0-106">Any existing Enterprise Edition Front End pools that currently have an A/V Conferencing service collocated may be selected to use this new stand-alone A/V Conferencing pool instead.</span></span>
   
 
