@@ -1,5 +1,6 @@
 ---
-title: Связывание сервера переднего плана с помощью архивации
+title: Связывание сервера переднего плана с архивированием
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 description: Каждый пул переднего плана и обеспечения связи в филиалах может быть только один сервер архивации, связанное с ним. При включении архивации для сайта, затем собирает сервера архивации и записей мгновенного обмена сообщениями содержимое сообщения обмена Мгновенными сообщениями и веб-конференции контент из бесед, включающие использование пользователей, размещенных на связанный пулов и обеспечения связи в филиалах.
-ms.openlocfilehash: ac278ce9656d4a975f8a336efa5e60a77796ec19
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c603187e58f8a47d74f20581b666381f7db588ff
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967871"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877348"
 ---
-# <a name="associate-front-end-with-archiving"></a><span data-ttu-id="d273a-104">Связывание сервера переднего плана с помощью архивации</span><span class="sxs-lookup"><span data-stu-id="d273a-104">Associate Front End With Archiving</span></span>
+# <a name="associate-front-end-with-archiving"></a><span data-ttu-id="58d78-104">Связывание сервера переднего плана с архивированием</span><span class="sxs-lookup"><span data-stu-id="58d78-104">Associate Front End With Archiving</span></span>
  
-<span data-ttu-id="d273a-105">Каждый пул переднего плана и обеспечения связи в филиалах может быть только один сервер архивации, связанное с ним.</span><span class="sxs-lookup"><span data-stu-id="d273a-105">Each Front End pool and Survivable Branch Appliance can have only one Archiving Server associated with it.</span></span> <span data-ttu-id="d273a-106">При включении архивации для сайта, затем собирает сервера архивации и записей мгновенного обмена сообщениями содержимое сообщения обмена Мгновенными сообщениями и веб-конференции контент из бесед, включающие использование пользователей, размещенных на связанный пулов и обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="d273a-106">When archiving is enabled for the site, Archiving Server then collects and records instant messaging (IM) message content and web conference content from conversations involving the users homed on the associated pools and Survivable Branch Appliances.</span></span> 
+<span data-ttu-id="58d78-105">Каждый пул переднего плана и обеспечения связи в филиалах может быть только один сервер архивации, связанное с ним.</span><span class="sxs-lookup"><span data-stu-id="58d78-105">Each Front End pool and Survivable Branch Appliance can have only one Archiving Server associated with it.</span></span> <span data-ttu-id="58d78-106">При включении архивации для сайта, затем собирает сервера архивации и записей мгновенного обмена сообщениями содержимое сообщения обмена Мгновенными сообщениями и веб-конференции контент из бесед, включающие использование пользователей, размещенных на связанный пулов и обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="58d78-106">When archiving is enabled for the site, Archiving Server then collects and records instant messaging (IM) message content and web conference content from conversations involving the users homed on the associated pools and Survivable Branch Appliances.</span></span> 
   
-<span data-ttu-id="d273a-107">Все пулы сайта и пулы нескольких центральных сайтов можно использовать тот же сервер архивации, если использование не превышает мощности сервера архивирование.</span><span class="sxs-lookup"><span data-stu-id="d273a-107">All pools at a site and the pools of multiple central sites can use the same Archiving Server, if usage does not exceed the capacity of the Archiving Server.</span></span> 
+<span data-ttu-id="58d78-107">Все пулы сайта и пулы нескольких центральных сайтов можно использовать тот же сервер архивации, если использование не превышает мощности сервера архивирование.</span><span class="sxs-lookup"><span data-stu-id="58d78-107">All pools at a site and the pools of multiple central sites can use the same Archiving Server, if usage does not exceed the capacity of the Archiving Server.</span></span> 
   
 

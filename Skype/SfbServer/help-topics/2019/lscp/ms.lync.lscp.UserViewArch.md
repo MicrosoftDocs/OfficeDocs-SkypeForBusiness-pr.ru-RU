@@ -1,5 +1,6 @@
 ---
 title: Пользователи Просмотр или Настройка политики архивирования
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,20 +13,20 @@ localization_priority: Normal
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 5794df7a80cc3969b037c1a59638694b520f14d9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cab2f22f110d312edb86ca4ebb542a958ad1d37f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253926"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874967"
 ---
-# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="a8cca-104">Пользователи: Просмотр или Настройка политики архивирования</span><span class="sxs-lookup"><span data-stu-id="a8cca-104">Users: View or Configure Archiving Policy</span></span>
+# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="62496-104">Пользователи: просмотр или настройка политики архивирования</span><span class="sxs-lookup"><span data-stu-id="62496-104">Users: View or Configure Archiving Policy</span></span>
 
-<span data-ttu-id="a8cca-p102">Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="a8cca-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="62496-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="62496-105">What do you want to do?</span></span> <span data-ttu-id="62496-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="62496-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a8cca-107">Назначение политики архивации на уровне пользователя</span><span class="sxs-lookup"><span data-stu-id="a8cca-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="62496-107">Назначение политики архивации на уровне пользователя</span><span class="sxs-lookup"><span data-stu-id="62496-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="a8cca-108">Применение политики архивации для пользователя или группы пользователей</span><span class="sxs-lookup"><span data-stu-id="a8cca-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
+- [<span data-ttu-id="62496-108">Применение политики архивации для пользователя или группы пользователей</span><span class="sxs-lookup"><span data-stu-id="62496-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
 
 
 

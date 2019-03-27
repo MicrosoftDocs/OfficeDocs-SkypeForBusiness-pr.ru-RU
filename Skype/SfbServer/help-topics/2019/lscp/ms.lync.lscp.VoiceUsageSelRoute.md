@@ -1,5 +1,6 @@
 ---
 title: Выбор маршрутов
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,19 +13,19 @@ localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно Выбор маршрутов для поиска существующих маршрутов голосовых вызовов, которые можно использовать.
-ms.openlocfilehash: 487ff06b8cccc68dc918eaee95dc3f419f320537
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2c2f1d34976ed1f709e948af74f83999a368933e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983156"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874460"
 ---
-# <a name="select-routes"></a><span data-ttu-id="96690-103">Выбор маршрутов</span><span class="sxs-lookup"><span data-stu-id="96690-103">Select Routes</span></span>
+# <a name="select-routes"></a><span data-ttu-id="4edd6-103">Выбор маршрутов</span><span class="sxs-lookup"><span data-stu-id="4edd6-103">Select Routes</span></span>
  
-<span data-ttu-id="96690-104">Используйте диалоговое окно **Выбор маршрутов** для поиска существующих маршрутов голосовых вызовов, которые можно использовать.</span><span class="sxs-lookup"><span data-stu-id="96690-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
+<span data-ttu-id="4edd6-104">Используйте диалоговое окно **Выбор маршрутов** для поиска существующих маршрутов голосовых вызовов, которые можно использовать.</span><span class="sxs-lookup"><span data-stu-id="4edd6-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="96690-105">Чтобы получить все доступны маршруты голосовых данных, не вводите в поле «Поиск» и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="96690-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="4edd6-105">Чтобы получить все доступны маршруты голосовых данных, не вводите в поле «Поиск» и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="4edd6-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
   
  
   
