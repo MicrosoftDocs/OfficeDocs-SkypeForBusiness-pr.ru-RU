@@ -187,26 +187,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-## [Облако видеовзаимодействия](cloud-video-interop.md)
-
-## Прямые трансляции
-### [Что такое прямые трансляции Teams?](teams-live-events/what-are-teams-live-events.md)
-### [Планирование прямых трансляций Teams](teams-live-events/plan-for-teams-live-events.md)
-### [Настройка прямых трансляций Teams](teams-live-events/set-up-for-teams-live-events.md)
-### [Настройка политик трансляции Teams с помощью PowerShell](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-### [Настройка параметров прямых трансляций Teams](teams-live-events/configure-teams-live-events.md)
-
-<!-- ============================================================ -->
-
 ### Справочные материалы
 #### [Поддерживаемые языки аудиоконференций](audio-conferencing-supported-languages.md)
 
@@ -305,6 +285,26 @@
 <!-- ============================================================ -->
 
 
+
+
+
+
+
+
+
+## [Облако видеовзаимодействия](cloud-video-interop.md)
+
+## Прямые трансляции
+### [Что такое прямые трансляции Teams?](teams-live-events/what-are-teams-live-events.md)
+### [Планирование прямых трансляций Teams](teams-live-events/plan-for-teams-live-events.md)
+### [Настройка прямых трансляций Teams](teams-live-events/set-up-for-teams-live-events.md)
+### [Настройка политик трансляции Teams с помощью PowerShell](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Настройка параметров прямых трансляций Teams](teams-live-events/configure-teams-live-events.md)
+
+<!-- ============================================================ -->
+
+
+
 # [Голосовая связь в облаке](cloud-voice-landing-page.md)
 ## Телефонная система
 ### [Что такое телефонная система?](what-is-phone-system-in-office-365.md)
@@ -312,7 +312,7 @@
 ### [Настройка телефонной системы](setting-up-your-phone-system.md)
 ### [Настройка телефонов общего пользования](set-up-common-area-phones.md)
 ### Голосовая почта
-#### [Настройка голосовой почты телефонной системы](set-up-phone-system-voicemail.md)
+#### [Настройка облачной голосовой почты](set-up-phone-system-voicemail.md)
 #### [Изменение языка по умолчанию для голосовой почты](change-the-default-language-for-greetings-and-emails.md)
 #### [Языки для приветствий и сообщений голосовой почты](languages-for-voicemail-greetings-and-messages.md)
 ### Идентификатор звонящего
