@@ -1,7 +1,7 @@
 ---
 title: Создание очереди звонков в телефонной системе
-author: CarolynRowe
-ms.author: crowe
+author: Jambirk
+ms.author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.callqueues.overview
 ms.custom:
 - Phone System
 description: 'Узнайте о том, как настроить телефонную систему для работы с очередью вызовов Office 365 (Cloud PBX), позволяющей использовать корпоративное приветствие, музыкальную заставку при удержании вызова и функцию переадресации вызовов операторам, доступным в списках распределения и группах безопасности. Помимо этого, вы можете получить информацию о том, как настроить максимальный размер очереди, тайм-аут и параметры обработки вызовов. '
-ms.openlocfilehash: 204959e68fa398300352e477fc7e78ea870aa359
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: c76f7e00c8c12e79c0dc333e05d4ccb0ca75266a
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664633"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952354"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Создание очереди звонков в телефонной системе
 
@@ -173,7 +173,7 @@ Before you can create and set up your call queues, you will need to get or trans
 ![Номер 2](../images/sfbcallout2.png)<br/><br/>**При достижении максимальное число звонков** Очереди звонок по достижении максимального размера (задается с помощью параметра **Maximum вызывает в очереди** ), можно выбрать, что происходит с новой входящие звонки.
 * **Отключить с сигналом занятости**. Звонок отключается.   
 * **Переадресация этот вызов** При выборе это будет иметь следующие параметры:
-  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/> <br/>Для получения дополнительных сведений о лицензиях, необходимых для использования голосовой почты, см. [Настройка голосовой почты телефонной системы](/microsoftteams/set-up-phone-system-voicemail). 
+  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/> <br/>Дополнительные сведения о лицензировании, необходимые для голосовой почты, см [голосовой почты в облаке](/microsoftteams/set-up-phone-system-voicemail). 
 
     > [!Note]
     > Пользователи размещенных в локальной Lync Server 2010 не поддерживается.<br/>
@@ -187,7 +187,7 @@ Before you can create and set up your call queues, you will need to get or trans
 ![Номер 4](../images/sfbcallout4.png)<br/><br/>**При истечении времени ожидания звонка**. Определяет порядок дальнейшей звонков по истечении времени, заданного в параметре **Как долго звонок может находиться в очереди**:
 * **Отключить**. Звонок отключается.   
 * **Переадресация этот вызов** При выборе это будет иметь следующие параметры:
-  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  Для получения дополнительных сведений о лицензиях, необходимых для использования голосовой почты, см. [Настройка голосовой почты телефонной системы](/microsoftteams/set-up-phone-system-voicemail). 
+  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  Дополнительные сведения о лицензировании, необходимые для голосовой почты, см [голосовой почты в облаке](/microsoftteams/set-up-phone-system-voicemail). 
 
     > [!Note]
     > Пользователи размещенных в локальной Lync Server 2010 не поддерживается.<br/>
