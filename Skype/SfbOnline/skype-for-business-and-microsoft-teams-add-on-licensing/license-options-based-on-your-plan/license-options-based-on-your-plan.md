@@ -1,5 +1,5 @@
 ---
-title: Параметры лицензии вашего Тарифного плана
+title: Параметры лицензии с учетом плана
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
-description: Ознакомьтесь с телефонной системой голосовой почты.
-ms.openlocfilehash: faabd4c089227730f1c28e5e19dc9c394bd64473
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+description: Сведения о голосовой почты в облаке.
+ms.openlocfilehash: eb6065a64bf03c2112747a296a1d0ef955a1506f
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120292"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948146"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="2c263-103">Параметры лицензии вашего Тарифного плана</span><span class="sxs-lookup"><span data-stu-id="2c263-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="f7a71-103">Параметры лицензии с учетом плана</span><span class="sxs-lookup"><span data-stu-id="f7a71-103">License options based on your plan</span></span>
 
 
