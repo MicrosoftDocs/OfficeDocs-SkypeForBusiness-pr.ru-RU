@@ -3,7 +3,7 @@ title: Настройка автосекретаря телефонной сис
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: waseemh
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Узнайте, как настроить и тестирование автосекретари телефонной системой (облако УАТС) для обработки для вашей организации эффективным звонков.
-ms.openlocfilehash: 5071b3c26809e56df4cdd922ed1df2e67fc9481c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: ad60bf758c339a801d63e0f8886a9e92329d286a
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873481"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952439"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Настройка автосекретаря телефонной системы
 
@@ -50,8 +50,6 @@ ms.locfileid: "30873481"
     > Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо включить их для корпоративной голосовой связи или назначить им вызов планы в Office 365. В разделе [Назначение Скайп для бизнеса лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) или [группами Майкрософт назначение лицензий](assign-teams-licenses.md). Кроме того, можно использовать Windows PowerShell. Например выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>Шаг 2. Создание нового автосекретаря
-
-[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > Каждые очереди звонка необходимо иметь связанной [учетной записи ресурса](manage-resource-accounts.md). Сначала необходимо создать учетную запись ресурса, а затем связать автосекретаря.

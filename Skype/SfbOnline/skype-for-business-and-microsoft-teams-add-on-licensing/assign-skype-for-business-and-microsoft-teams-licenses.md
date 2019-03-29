@@ -1,5 +1,5 @@
 ---
-title: Назначение Скайп для лицензий на бизнес
+title: Назначение лицензий Skype для бизнеса
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Узнайте, как назначить лицензии Skype для бизнеса на телефонные системы, аудиоконференции, планы звонков и кредиты на связь. '
-ms.openlocfilehash: f1fcece66976d303146a4e173f9e51892ad82282
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: e81c4c4d2fc11202ac114912ca309d93b00f2062
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120414"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952468"
 ---
-# <a name="assign-skype-for-business-licenses"></a>Назначение Скайп для лицензий на бизнес
+# <a name="assign-skype-for-business-licenses"></a>Назначение лицензий Skype для бизнеса
 
-В этой статье приводятся советы назначение лицензий пользователям для таких функций, как аудиоконференции, телефонной системой и вызов планов. Он также предоставляет сценарии для назначения лицензий в пакетном режиме.
+This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
 
 > [!IMPORTANT]
 > Дополнительные сведения об какие лицензий, которые необходимо купить и **как приобрести** их - в зависимости от Office 365 планирование - содержатся [Скайп для лицензирования дополнительный компонент Business](skype-for-business-and-microsoft-teams-add-on-licensing.md) так что пользователи получают аудиоконференции, обслуживание бесплатных номеров и возможность вызова телефонных номеров за пределами бизнеса.
@@ -41,21 +41,21 @@ ms.locfileid: "30120414"
 
 - **При использовании локальных подключений ТСОП для пользователей в гибридных средах** необходимо назначить только лицензию на **телефонную систему**. Назначать план звонков **НЕ НУЖНО**.
 
-- **Задержка после назначения лицензий**: из-за задержки между Office 365 и Скайп для бизнеса в Интернет, возможно может потребоваться до 24 часов для пользователя, чтобы назначить вызов планирование после назначении лицензии. Если по прошествии 24 часов пользователю не назначен план звонков, пожалуйста, выполните [Обращение в службу поддержки Office 365 для бизнеса: справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Latency after assigning licenses**: Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If after 24 hours the user isn't assigned a Calling Plan, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **Сообщения об ошибках**. Если приобретено неправильное число лицензий, выдается сообщение об ошибке. Если требуется приобрести дополнительные лицензии на планы звонков, щелкните **Купить еще**.
     
-- **Дальнейшие действия**: после назначения лицензий на вызов планирование для пользователей, необходимо получить номера телефонов для вашей организации, а затем назначить эти номера для пользователей в вашей организации. Пошаговые инструкции см. в статье [Настройка планов звонков](/microsoftteams/set-up-calling-plans).
+- **Next steps**: After you assign Calling Plan licenses to your users, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>Назначение лицензии на телефонную систему и план звонков одному пользователю
 
-Действия такие же, как назначение лицензии Office 365. Просмотрите [Назначение и удаление лицензий на Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+Шаги совпадают с шагами при назначении лицензии на Office 365. См. раздел [Управление лицензиями Office 365 бизнес](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
 ### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>Массовое назначение лицензий на телефонную систему и план звонков
 
-1. Установка **Microsoft Online Services помощник по входу для ИТ-специалистов RTW**. Не установлен модуль? Загрузите его со страницы [Помощника по входу в Microsoft Online Services для ИТ-специалистов, версия RTW](https://go.microsoft.com/fwlink/?LinkId=625123).
+1. Install the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW**. Don't have the module installed? See [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=625123) to download it.
 
-2. Установите **модуль Windows Azure Active Directory.** Не установлен модуль? Перейдите в раздел [Управление Azure AD с помощью Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) для ознакомления с инструкцией по загрузки и синтаксисом командлета.
+2. Install the **Windows Azure Active Directory Module.** Don't have the module installed? See [Manage Azure AD using Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) for download instructions and cmdlet syntax.
 
 3. После установки модулей назначьте пользователям лицензии с помощью командной строки Windows PowerShell и следующего синтаксиса.
 
@@ -108,7 +108,7 @@ ms.locfileid: "30120414"
 |Телефонная система  <br/> |MCOEV  <br/> |
 |План международных звонков  <br/> |MCOPSTN2  <br/> |
 |План внутренних звонков  <br/> |MCOPSTN1  <br/> |
-|Кредиты на связь  <br/> |MCOPSTNPP  <br/> |
+|Кредиты на связь  <br/> |MCOPSTNC  <br/> |
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Аудиоконференция. Советы и сценарии для назначения лицензий
 
@@ -116,7 +116,7 @@ ms.locfileid: "30120414"
 
 - **Сторонний поставщик аудиоконференций**. Если для пользователя уже настроено использование стороннего поставщика аудиоконференций, при назначении ему лицензии на **аудиоконференцию** поставщиком аудиоконференций автоматически назначается Майкрософт, но вы можете снова задать стороннего поставщика.
 
-- Дальнейшие действия: после назначения лицензий **Аудиоконференций** , им необходимо назначить поставщика аудиоконференций. См. [Назначение Майкрософт в качестве поставщика услуг аудиоконференций].
+- Next steps: After you assign **Audio Conferencing** licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider].
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Назначение лицензии на аудиоконференции одному пользователю
 
@@ -130,7 +130,7 @@ ms.locfileid: "30120414"
 
     После установки модулей назначьте пользователям лицензии с помощью командной строки Windows PowerShell и следующего синтаксиса.
 
-    Имя лицензии или названия продуктов в скрипте, перечислены в текста курсивом. Полный перечень названий продуктов см. в разделе [Названия продуктов и номера SKU для аудиоконференций, использующихся для сценариев](assign-skype-for-business-and-microsoft-teams-licenses.md#sku).
+    The name of the licenses or product names in the script are listed in italics text. See [Audio Conferencing product names or SKUs used for scripting](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) for all of the product names.
 
     В этом примере лицензия "Корпоративный E3" назначается вместе с лицензией на аудиоконференцию.
 
@@ -187,15 +187,15 @@ foreach ($user in $users)
 
 - **E5 корпоративных клиентов**: даже в том случае, если пользователи назначаются E5 корпоративных лицензий, все же рекомендуется назначить их **Кредитов Communications** лицензий.
     
-- **Дальнейшие действия**: после назначить эти лицензии, необходимо получить номера телефонов для вашей организации, а затем назначить эти номера для пользователей в вашей организации. Пошаговые инструкции см. в статье [Настройка планов звонков](/microsoftteams/set-up-calling-plans).
+- **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
     
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>Назначение лицензии на кредиты на связь одному пользователю
 
-Шаги совпадают с шагами при назначении лицензии на Office 365. См. раздел [Управление лицензиями Office 365 бизнес](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
 ### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Назначение лицензий кредитов коммуникаций в пакетном режиме
 
-Ознакомьтесь с примером сценария для назначения лицензий на **аудиоконференции**. Обновите сведения для назначения лицензий на **кредиты на связь**.
+Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
 
 ## <a name="related-topics"></a>Связанные разделы
   

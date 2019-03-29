@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Узнайте, какие телефоны компаний Polycom, HP и Mitel поддерживают Skype для бизнеса, а также о требуемых лицензиях. '
-ms.openlocfilehash: 8b218161268855a1b89aa54fd0e40c4b308db40d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
+ms.openlocfilehash: e79c942923e9a9d4d0df0bc18172eb10caff57bc
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371568"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952400"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Телефоны, поддерживаемые в Skype для бизнеса Online
 
@@ -40,7 +40,7 @@ ms.locfileid: "25371568"
   
 Майкрософт является партнером и тесно сотрудничает с компаниями Polycom, Yealink и AudioCodes по вопросам разработки и сертификации широкого спектра устройств в рамках партнерской программы IP-телефонии (PIP) для телефонных систем в Office 365 и Skype для бизнеса Server.
   
-When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
+При заказе новых телефонов для Скайп для бизнеса, важно приобрести телефонов с *правом продукта идентификатор*. Выбирая телефоны с нужным кодом, вы получаете устройства с заранее установленной соответствующей версией Skype для бизнеса Online.
   
 |||
 |:-----|:-----|
@@ -56,9 +56,9 @@ When ordering new phones for Skype for Business, it is important to buy phones w
 Дополнительные сведения о телефонах AudioCodes см. в разделе [IP-телефоны для Skype для бизнеса](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Lync Phone Edition is supported with Skype for Business Online, but not with Microsoft Teams. Mainstream support for the LPE platform ended by April/10/2014, with extended support until April/11/2023 to align with the product support lifecycle of Lync Server 2013. See [Microsoft Product Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) for details on the LPE lifecycle. LPE CAP models aren't supported with Skype for Business Online.
+> Lync Phone Edition поддерживается в Skype для бизнеса Online, но не поддерживается в Microsoft Teams. Основной поддержки для платформы LPE завершен сервером апреля/10/2014 г., с расширенной поддержки до апреля/11/2023 для выравнивания по срокам поддержки продуктов Lync Server 2013. Для получения дополнительной информации о жизненном цикле LPE см. [Жизненный цикл для продуктов Майкрософт](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO). Модели LPE CAP не поддерживаются Skype для бизнеса Online.
 >
-> Later this year, Office 365 will not support any version of TLS older than 1.2. Since the underlying operating system of LPE does not support TLS 1.2, LPE will not be supported to connect to Office 365 anymore. See [Preparing for the mandatory use of TLS 1.2 in Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) for more information.
+> В этом году, Office 365 не могут использовать любой версии старше версии 1.2 TLS. Поскольку базовая операционная система LPE не поддерживает TLS 1.2, LPE больше не будет поддерживаться для подключения к Office 365. Для получения дополнительной информации см. [Подготовка к обязательному использованию TLS 1.2 в Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365).
   
 ## <a name="supported-firmware"></a>Поддерживаемые встроенного по
 
@@ -71,7 +71,9 @@ When ordering new phones for Skype for Business, it is important to buy phones w
 |Сертифицировано: Polycom VVX Series  <br/> |5.4.0A  <br/> |Декабрь 2015 г.  <br/> |
 |Yealink  <br/> |X.8.1.52  <br/> |Февраль 2017 г.  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Декабрь 2016 г.  <br/> |
-   
+
+Для получения дополнительных сведений о текущем сертифицированного встроенное видеть [Скайп для бизнеса IP-телефонов](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones#conference-phones).
+
 > [!NOTE]
 > Настроенные для локального развертывания телефоны Lync Phone Edition (LPE) требуется обновить, установив минимально допустимую (или более позднюю) версию встроенного ПО перед переводом пользователей на работу со Skype для бизнеса Online. Если перевести пользователей из локального местоположения на Skype для бизнеса Online без предварительного обновления встроенного ПО на телефонах, пользователи не смогут подключаться к Skype для бизнеса Online со своих телефонов. 
   
@@ -88,30 +90,30 @@ Skype для бизнеса Online не требует наличия допол
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Функция** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|Вход с помощью учетных данных пользователя  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
-|Вход через компьютер (сопряжение), только для Windows  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Вход через веб-интерфейс  <br/>  <br/> **Примечание:** Установите флажок Таблица поддержки в руководстве по развертыванию.           |Да  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
-|Присоединение к собранию одним щелчком  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Набор номера одним нажатием кнопки (сопряжение)  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Элементы управления собранием  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Визуальная голосовая почта  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Блокировка телефона  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Обновление устройства  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Автоматическое предоставление данных голосовой почты  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Качество взаимодействия  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
-|Загрузка журнала  <br/> <br/> **Примечание:** В настоящее время все журналы выгружаются в группу поддержки корпорации Майкрософт. доступа клиентов к журналы звонков еще недоступны.           |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Современная проверка подлинности  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
-|Несколько номеров экстренных служб  <br/> |Да  <br/> |Нет  <br/> |Нет  <br/> |Да  <br/> |
-|Интеграция с календарем Exchange *  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> <br/> **Примечание:** Требует tethering ПК           |
-|Интеграция оповещения о присутствии  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Каталог организации  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
-|Делегирование  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
-|Интеграция фотографии контакта  <br/> |Нет  <br/> |Да  <br/> |Нет  <br/> |Да  <br/> |
+|Вход с помощью учетных данных пользователя  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Нет  <br/> |
+|Вход через компьютер (сопряжение), только для Windows  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Вход через веб-интерфейс  <br/>  <br/> **Примечание:** Установите флажок Таблица поддержки в руководстве по развертыванию.           |Да   <br/> |Да   <br/> |Да   <br/> |Нет  <br/> |
+|Присоединение к собранию одним щелчком  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Набор номера одним нажатием кнопки (сопряжение)  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Элементы управления собранием  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Визуальная голосовая почта  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Блокировка телефона  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Обновление устройства  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Автоматическое предоставление данных голосовой почты  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да  <br/> |
+|Качество взаимодействия  <br/> |Да  <br/> |Да   <br/> |Да   <br/> |Нет  <br/> |
+|Загрузка журнала  <br/> <br/> **Примечание:** В настоящее время все журналы выгружаются в группу поддержки корпорации Майкрософт. доступа клиентов к журналы звонков еще недоступны.           |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Современная проверка подлинности  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да  <br/> |
+|Несколько номеров экстренных служб  <br/> |Установка международного номера как номера доступа по умолчанию (представленного в приглашении на собрание) для пользователя.  <br/> |Да  <br/> |Нет  <br/> |Да  <br/> |
+|Интеграция с календарем Exchange *  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> <br/> **Примечание:** Требует tethering ПК           |
+|Интеграция оповещения о присутствии  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Каталог организации  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да  <br/> |
+|Делегирование  <br/> |Да  <br/> |Да   <br/> |Да   <br/> |Нет  <br/> |
+|Интеграция фотографии контакта  <br/> |Нет  <br/> |Установка международного номера как номера доступа по умолчанию (представленного в приглашении на собрание) для пользователя.  <br/> |Да  <br/> |Да  <br/> |
 ||||||
 
      
 > [!NOTE]
-> CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
+> CX 600 и другие телефоны Aries не поддерживают многофакторную проверку подлинности (MFA). При принудительном включении MFA вход с помощью данных устройств будет невозможен. Данные устройства должны использовать только код организации для проверки подлинности.
  
 ## <a name="what-else-should-you-know"></a>Дополнительные сведения
 Пошаговые инструкции см. в разделе [Развертывание телефонов для приложения Skype для бизнеса Online](deploying-skype-for-business-online-phones.md).

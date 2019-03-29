@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Узнайте, как оплачиваться для обмена данными кредитов (потребление PSTN) Скайп для бизнес-служб и посмотрите, планы для хранения пользователей с доступом к непрерывной телефонной системы. '
-ms.openlocfilehash: bbb24094e7aefd428e510273a922dab4461b7dde
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 0305e432534188f0dd8276fb29c9c764cc26bfeb
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569082"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948343"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Пополнение средств и управление кредитами на связь
 
@@ -84,7 +84,7 @@ ms.locfileid: "30569082"
 
 - [Настройка Skype для бизнеса Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Настройка голосовой почты телефонной системы — справка для администраторов](set-up-phone-system-voicemail.md)
+- [Настройка голосовой почты Cloud - Admin справки](set-up-phone-system-voicemail.md)
     
 - [Настройка в Тарифных планов](set-up-calling-plans.md) и [Тарифные планы для Office 365](calling-plans-for-office-365.md)
         

@@ -1,9 +1,9 @@
 ---
 title: Настройка автосекретаря телефонной системы
-author: CarolynRowe
-ms.author: crowe
+author: jambirk
+ms.author: jambirk
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: waseemh
 ms.date: 9/1/2018
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
@@ -21,31 +21,31 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Узнайте, как настроить и тестирование автосекретари телефонной системой (облако УАТС) для обработки для вашей организации эффективным звонков. '
-ms.openlocfilehash: 79a3292ea15781d448f0931c18a9ed98cd351f01
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+description: 'Узнайте, как настроить и тестирование автосекретари телефонной системой для обработки для вашей организации эффективным звонков. '
+ms.openlocfilehash: ce5b428d678e94d71025eaf8dd659418d05ce8a2
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046767"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952420"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Настройка автосекретаря телефонной системы
 
-Автосекретари, позволяет людям, вызов для вашей организации и выберите меню системы, чтобы получить их в правом отдел, вызвать очереди, лицо или оператор. Можно создать автосекретарь для вашей организации с помощью Скайп по центру администрирования бизнеса. Чтобы создать новый автосекретарь, перейдите в раздел **Маршрутизация вызовов** в панели навигации слева и выберите **Автосекретари** > **Добавить**.
+Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center. To create a new auto attendant, go to **Call routing** in the left navigation, and then select **Auto attendants** > **Add new**.
 
 Если вы хотите узнать больше о автосекретари, [Каковы телефонной системой автосекретари?](/microsoftteams/what-are-phone-system-auto-attendants)
 
 ## <a name="step-1---getting-started"></a>Шаг 1. Начало работы
 
-- Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. После получения счета или службы бесплатных номеров, они будут отображаться на **Скайп по центру администрирования бизнес** > **голосовой связи** > страницы**телефонных номеров** . Для получения номера службы видеть [Приступая к службе номера телефонов для Скайп для бизнеса и группами Майкрософт](getting-service-phone-numbers.md)или существующий номер службы и передача, см [передачи телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365). **User (subscriber)** numbers can't be assigned to auto attendants. Если вы находитесь за пределами США, Скайп по центру администрирования Business нельзя использовать для получения номера службы; [здесь](/microsoftteams/manage-phone-numbers-for-your-organization) вместо этого.
+- Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service numbers, they will show up on the **Skype for Business admin center** > **Voice** > **Phone numbers** page. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md), or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365). **User (subscriber)** numbers can't be assigned to auto attendants. If you are outside the United States, you can't use the Skype for Business admin center to get service numbers; go [here](/microsoftteams/manage-phone-numbers-for-your-organization) instead.
 
     > [!CAUTION]
-    > Чтобы получить и использовать бесплатных номеров телефонов, необходимо настроить кредитов коммуникаций. Чтобы это сделать, обратитесь [Каковы кредитов коммуникации?](/microsoftteams/what-are-communications-credits) и [настроить кредитов коммуникаций для вашей организации](/microsoftteams/set-up-communications-credits-for-your-organization).
+    > To get and use toll-free phone numbers, you need to set up Communications Credits. To do this see [What are Communications Credits?](/microsoftteams/what-are-communications-credits) and [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
   
-- Ваша организация должна иметь (как минимум) лицензию типа "Корпоративный E3 с**телефонной системой"** или лицензию "Корпоративный E5". Число назначенных пользовательских лицензий**телефонной системы**влияет на количество сервисных номеров, которые могут быть использованы для автосекретарей. Количество доступных автосекретарей зависит от количества лицензий на **телефонную систему** и **аудиоконференции**вашей организации. Чтобы узнать больше о лицензировании, нажмите [здесь](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned affects the number of service numbers that are available to be used for auto attendants. The numbers of auto attendants you can have is dependent on the number **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, go [here](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
     > [!TIP]
-    > Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо включить их для корпоративной голосовой связи или назначить им вызов планы в Office 365. В разделе [Назначение Скайп для бизнеса и группами Майкрософт лицензий](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Кроме того, можно использовать Windows PowerShell. Например выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans in Office 365 to them. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). You can also use Windows PowerShell. For example, run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Шаг 2. Создание нового автосекретаря
 
@@ -58,10 +58,10 @@ ms.locfileid: "30046767"
 ![New auto attendant page 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
 ***
-![Номер 1](../images/sfbcallout1.png)<br/>**Имя** Введите понятное отображаемое имя вашего автосекретаря. Имя является обязательным и может содержать до 64 символов, включая пробелы. Оно будет указано в столбце **Имя** на вкладке **Автосекретари**.
+![Номер 1](../images/sfbcallout1.png)<br/>**Name** Enter a descriptive display name for your auto attendant. The name is required and can contain up to 64 characters, including spaces. It will be listed in the **Name** column on the **Auto attendants** tab.
 ***
 
-![Номер 2](../images/sfbcallout2.png)<br/>**Номер телефона** Этот параметр является необязательным. При необходимости выберите номер телефона вашего автосекретаря. Вы можете выбрать любой платный или бесплатный сервисный номер телефона вашей организации. Если в списке нет телефонных номеров, необходимо получить платный или бесплатный сервисный номер телефона. Чтобы получить номер, перейдите [сюда](getting-service-phone-numbers.md). <br/> <br/>
+![Номер 2](../images/sfbcallout2.png)<br/>**Phone number** This setting is optional. If you like, select a phone number for your auto attendant. You can pick any available service toll or toll-free phone number that you have for your organization. If there are no phone numbers listed, you will need to get a service toll or toll-free phone number. Go [here](getting-service-phone-numbers.md) to get them. <br/> <br/>
 
 > [!NOTE]
 > **User (subscriber)** numbers can't be assigned to auto attendants.
@@ -69,29 +69,29 @@ ms.locfileid: "30046767"
 ***
 ![Номер 3](../images/sfbcallout3.png)<br/>**Часовой пояс**. Укажите часовой пояс для функции автосекретаря. Он не обязательно должен совпадать с часовым поясом, соответствующим указанному для вашей организации основному адресу. Для каждого автосекретаря можно указать свой часовой пояс, на основе которого в каждом конкретном случае будут установлены соответствующие рабочие часы.
 ***
-![14](../images/sfbcallout4.png)<br/>**Язык** Выберите язык, который будет использоваться для вашей автосекретаря из любого из списка доступных языков. Язык, здесь — это язык, автосекретаря используется для взаимодействия с пользователями, вызов для этот автосекретарь, и все запросы на системы будет воспроизводиться на этом языке.
+![14](../images/sfbcallout4.png)<br/>**Language** Select the language that you want to use for your auto attendant from any of the available languages listed. The language you set here is the language that the auto attendant will use to interact with people that call in to this auto attendant, and all the system prompts will be played in this language.
 ***
-![Номер 5](../images/sfbcallout5.png)<br/>**Распознавание речи** Распознавание речи доступно и если выбран этот параметр. Люди, вызвать в можно использовать голосовой ввод на языке, заданную вами. Распознавание речи можно отключить, снимите его, если требуется только позволяют использовать свои клавиатуру телефона.
+![Номер 5](../images/sfbcallout5.png)<br/>**Speech recognition** Speech recognition is available and if this option is selected. People that call in can use voice input in the language you set. You can disable speech recognition by clearing it if you want to only let people use their phone keypad.
 ***
-![Номер 6](../images/sfbcallout6.png)<br/>**Оператор**Это дополнительная функция, которая является необязательной для автосекретаря. Тем не менее можно задать параметр **оператора** для людей, вызвать в должны иметь возможность разорвать меню говорить человека, помогая им. <br/> <br/> Оператору автоматически назначается клавиша 0. <br/> <br/> Если этот параметр настроен, вам нужно будет сообщить вызывающим абонентам о том, что он доступен в разделе **"Редактировать параметры меню"** на странице **"Обработка вызовов в рабочее время"**. Если оператор для вашего автосекретаря настроен, вам необходимо ввести соответствующий текст подсказки в поле **"Текст для вызывающих абонентов"** или изменить звуковой файл с учетом этого параметра. Например, "Чтобы связаться с оператором, нажмите ноль". <br/><br/>  Для выбора в качестве оператора доступны следующие варианты: 
+![Номер 6](../images/sfbcallout6.png)<br/>**Operator** This is optional and doesn't need to be set for the auto attendant. However, you can set the **Operator** option for people that call in to be able to break out of the menus to speak to a person to help them. <br/> <br/> Оператору автоматически назначается клавиша 0. <br/> <br/> If you set this up, you will also need to tell people who call in that this is an available option in the **Edit menu options** on the **Business hours call handling** page. If you set an operator on your auto attendant, you will need to enter the corresponding prompt text in the **Callers will hear** box or change your audio file to include this option. For example, "For the Operator, press zero." <br/><br/>  Для выбора в качестве оператора доступны следующие варианты: 
 *    **Сотрудник компании**, имеющий лицензию на**телефонную систему**и возможность подключения по корпоративной голосовой связи или планы звонков в Office 365. <br/>
 
      > [!Note] 
-     > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013. Lync Server 2010 не поддерживается. <br/> 
+     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 isn't supported. <br/> 
 
 * Настроенная вами **очередь звонков**. 
-* Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лицо в вашей компании** и звонки этого пользователя будет переадресован непосредственно на голосовую почту. 
+* You can set it up so the person calling will be sent to voicemail. To do this, select **Person in your company** and set this person's calls to be forwarded directly to voicemail. 
 
 ### <a name="select-hours-of-operation-page"></a>Страница выбора часов работы
 
-По умолчанию рабочие часы устанавливаются 24 часа в сутки, 7 дней в неделю, поэтому в любое время считаются рабочих часов. Все часы, которые не включены в часы работы, считаются нерабочим временем. Если выберите параметр **Настраиваемый** и задать рабочих часов, затем новую страницу вызывается **после обработка звонков часов** добавляются которых могут настраивать обработка после рабочих часов для автосекретаря обращения.
+By default, business hours are set to 24 hours a day, 7 days a week, so all hours are considered business hours. All of the hours that aren't included in business hours are considered after business hours. If you select the **Custom** option and set your business hours, then a new page called **After hours call handling** will be added where you can configure the call handling for after business hours for the auto attendant.
 
 ![New auto attendant Hours of operation.](../images/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
 ***
 ![Номер 1](../images/sfbcallout1.png)<br/>Выберите параметр **Другой**, чтобы задать конкретные рабочие часы в календаре. При выборе параметра **Другой** по умолчанию устанавливаются рабочие часы с 09:00 до 17:00.
 ***
-![Номер 2](../images/sfbcallout2.png)<br/>Чтобы изменить рабочие часы, выделите часы, которые нужно установить, с помощью календаря. Календарь позволяет выбрать рабочих часов в 30-минутный интервалов и рабочих часов, здесь задается в соответствии часовой пояс, установленной на странице " **Общие сведения** ". Чтобы задать перерыв, например обеденное время, отмените выбор соответствующих часов в календаре. Можно установить несколько разрывов в рамках рабочих часов. 
+![Номер 2](../images/sfbcallout2.png)<br/>To change business hours, highlight the business hours you want to set using the calendar. The calendar allows you to select business hours in 30-minute intervals, and the business hours you select here will be set based on the time zone that you set on the **General info** page. To set up a break (a lunch break, for example), deselect or drag to deselect the time on the calendar. You can set multiple breaks within business hours. 
 
 ### <a name="select-business-hours-call-handling-page"></a>Страница "Обработка звонков в рабочее время"
 
@@ -103,48 +103,48 @@ ms.locfileid: "30046767"
 ![Business hours call handling.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 
 ***
-![Номер 1](../images/sfbcallout1.png)<br/>**Приветствие компании** Приветствие в рабочее время является необязательным параметром и может иметь значение **Нет**. В этом случае вызывающий абонент не услышит никакого сообщения или приветствия, пока вызов не будет обработан с использованием одного из выбранных параметров. Вы также можете загрузить аудиофайл (в формате WAV, mp3 или WMA) или создать настраиваемое приветствие, используя функцию преобразования текста в речь.
+![Номер 1](../images/sfbcallout1.png)<br/>**Company greeting** Business hours greeting is optional and can be set to **None**. In this case, the caller will hear no message or greeting before the call is handled by one of the options you select. You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.
 * **Нет** Никакое приветствие не будет воспроизводиться при обращении абонентов по номеру телефона автосекретаря.
-*    **Создать пользовательское приветствие** Если выбран этот параметр, необходимо ввести текст, который будет зачитан вызывающему абоненту (до 1000 знаков). Например, можно ввести "Вас приветствует Contoso. Ваш звонок очень важен для нас." в поле **Текст для вызывающих абонентов**.
+*    **Create a custom greeting** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Welcome to Contoso. Your call is important to us." in the **Callers will hear** box.
 * **Загрузить аудиофайл** Если выбран этот параметр, запишите приветствие и загрузите полученный звуковой файл (в формате WAV, .mp3 или WMA).
 ***
-![Номер 2](../images/sfbcallout2.png)<br/>Вы можете выбрать, как будут обрабатываться звонки, поступающие в рабочее время. Возможен выбор одного из следующих вариантов:
+![Номер 2](../images/sfbcallout2.png)<br/>You can select what happens to calls that arrive during business hours. You can chose from the following options:
 * **Отключить** Если выбран этот параметр, вызывающий абонент будет отключен после прослушивания приветствия в рабочее время.
 * **Переадресовать звонок** Этот параметр можно использовать для автоматической переадресации вызова, используя следующие параметры:
-  * **Сотрудник компании**, имеющий лицензию на**телефонную систему**и возможность подключения по корпоративной голосовой связи или планы звонков в Office 365. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лица в вашей компании** и установите их переадресация на голосовую почту напрямую звонков этому пользователю. <br/><br/>
+  * **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can set it up so the person calling in can be sent to voicemail. To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/><br/>
     > [!Note]
-    > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013. Lync Server 2010 не поддерживается. <br/><br/>
+    > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported. <br/><br/>
 
   *  **Очередь звонков** Функция очереди звонков позволяет добавить вызов в существующую очередь звонков, которую вы настроили.
-  * Другой **автосекретарь**Вы можете использовать существующего автосекретаря для создания второго уровня параметров меню, содержащего подменю. Эти функции называются вложенными автосекретарями.
+  * Another **Auto attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.
 
 * **Воспроизводить подсказку параметра меню** Эту функцию можно использовать, чтобы настроить подсказку для воспроизведения.
 ***
 ![Номер 3](../images/sfbcallout3.png)<br/>**Запрос меню**. Чтобы создать подсказку для основного меню, можно либо воспользоваться функцией преобразования текста в речь, либо отправить звуковой файл (WAV, MP3 или WMA). Можно ввести подсказку в поле **Будут слышать абоненты** или записать звуковой файл и сказать, например, следующее: "Для связи с отделом продаж нажмите или произнесите 1. Для связи с отделом обслуживания нажмите или произнесите 2. Для связи с отделом поддержки клиентов нажмите или произнесите 3. Для связи с оператором нажмите или произнесите 0. Чтобы прослушать доступные варианты еще раз, произнесите текст "Повторить" или нажмите клавишу со звездочкой". **Создать пользовательский запрос**. При выборе этой функции необходимо ввести текст, который должна читать система (до 1000 символов). **Отправить звуковой файл**. При выборе этой функции необходимо записать приветствие, а затем отправить звуковой файл (в формате WAV, MP3 или WMA).
 ***
-![Номер 4](../images/sfbcallout4.png)<br/>**Вызов по имени** Выбор этого параметра позволяет вызывающим абонентам выполнить поиск сотрудников организации, используя функцию поиска в каталоге. Вы можете выбрать, каких пользователей можно вызвать, используя функцию "Вызов по имени", а каких — нет, настроив эти параметры на странице **Область вызова.**. Используя функцию "Вызов по имени", можно найти любого онлайн-пользователя с лицензией на**телефонную систему**или локального пользователя, использующего Skype для бизнеса Server 2015 или Lync Server 2013.<br/><br/>  
+![Номер 4](../images/sfbcallout4.png)<br/>**Dial by name** If you choose this option, this will enable people who call in to search for people in your organization using Directory Search. You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page. Any online user with a **Phone System** license, or any user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013, can be found with Dial by Name.<br/><br/>  
 
 > [!WARNING]
 > Если локальный пользователь использует Lync 2010,**с ним нельзя связаться** с помощью функции "Вызов по имени".
 > ***
 
-![Номер 5](../images/sfbcallout5.png)<br/>**Изменить параметры меню** Параметры меню можно добавлять или удалять с помощью клавиш на клавиатуре. Чтобы добавить параметр меню, нажмите соответствующую клавишу на клавиатуре. Цвет используемых клавиш изменится, а ниже появится соответствующая строка параметров. Чтобы удалить параметр меню, просто нажмите на соответствующую клавишу на клавиатуре, чтобы отменить выбор этой клавиши. Строка сопоставления клавиш будет удалена.<br/><br/>  **Совет.** При добавлении или удалении параметров вам необходимо будет обновить текст подсказок меню или повторно отдельно записать звуковой файл, так как существующие подсказки меню не будут автоматически изменены.  <br/><br/>  Любые параметры меню можно добавлять и удалять в любом порядке, при этом сопоставления клавиш необязательно должны быть последовательными. Например, можно создать меню с помощью сопоставления с параметрами клавиш 0, 1 и 3, при этом клавиша 2 не используется.<br/><br/> 
+![Номер 5](../images/sfbcallout5.png)<br/>**Edit menu options** Menu options can be added or removed by using key buttons on the keypad. To add a menu option, press the corresponding key on the keypad. The keys in use will change in color and the corresponding row of options will appear below. To delete a menu option, simply click on the corresponding key on the keypad control to deselect this key. The key mapping row will be removed.<br/><br/>  **Совет.** При добавлении или удалении параметров вам необходимо будет обновить текст подсказок меню или повторно отдельно записать звуковой файл, так как существующие подсказки меню не будут автоматически изменены.  <br/><br/>  Any menu option can be added and removed in any order, and the key mappings don't have to be continuous. It is possible, for example, to create a menu with keys 0, 1, and 3 mapped to options, while the key 2 isn't used.<br/><br/> 
 
 > [!NOTE]
-> Клавиши * (повтор) и # (назад) зарезервированы системой и не могут быть закреплены за другими функциями. Если включен параметр распознавания речи, нажатие клавиши * соответствует голосовой команде "Повтор", а нажатие клавиши # — голосовой команде "Назад".
+> The keys * (Repeat) and # (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands.
 
 
 Чтобы настроить параметры меню, после выбора клавиш необходимо выполнить следующее: 
-- **Ввести имя параметра** Имя может содержать до 64 знаков, в том числе слова, например, "Обслуживание клиентов" или "Операции и основания". Если включена функция распознавания речи, имя будет распознаваться автоматически, а вызывающий абонент сможет нажать клавишу 3, сказать «три» или «обслуживание клиентов», чтобы выбрать параметр, закрепленный за клавишей 3. 
-- Следующий шаг — выбрать, куда переадресуется вызов, если нажата соответствующая клавиша или для выбора параметра использовалась функция распознавания речи. Кому можно направить вызов: 
-    - **Оператор** Если параметр "Оператор" уже настроен, он автоматически сопоставляется с клавишей 0, но его можно также удалить или закрепить за другой клавишей. Если связь с оператором не закреплена за какой-либо клавишей, то голосовая команда "Оператор" также будет отключена. 
-    - **Сотрудник компании**, имеющий лицензию на**телефонную систему**и возможность подключения по корпоративной голосовой связи или планы звонков в Office 365. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лица в вашей компании** и установите их переадресация на голосовую почту напрямую звонков этому пользователю.<br/><br/> 
+- **Enter the Name of the option** This can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds." If speech recognition is enabled, the name will automatically be recognized, and the person calling in will be able to either press 3, say "three," or say "Customer Service" to select the option mapped to key 3. 
+- The next step is to select where the call is to be sent if the corresponding key is pressed, or the option is selected using speech recognition. The call can be sent to: 
+    - **Operator** If operator is already set up, it is automatically mapped to key 0, but it can also be deleted or reassigned to a different key. If operator isn't set to any key, then the voice command "Operator" will be disabled too. 
+    - A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned an Calling Plan in Office 365. You can set it up so the person calling in can be sent to voicemail. To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail.<br/><br/> 
 
         > [!Note] 
-        > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013. Lync Server 2010 не поддерживается. <br/><br/>
+        > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported. <br/><br/>
 
     - **Очередь звонков** Функция очереди звонков позволяет добавить вызов в существующую очередь звонков, которую вы настроили. 
-    - **Автосекретарь**Вы можете использовать существующий автосекретарь для создания второго уровня параметров меню, содержащего подменю. Эти функции называются вложенными автосекретарями.<br/><br/>
+    - **Auto Attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.<br/><br/>
 
         > [!Note]
         > Также будет использоваться **время работы** вложенных автосекретарей (автосекретарей второго уровня), в том числе для вызовов, переадресуемых с других настроенных автосекретарей.
@@ -156,32 +156,32 @@ ms.locfileid: "30046767"
 ![Настройка праздников в автосекретаре](../images/50a5ce88-7f39-4210-808a-da7ced969854.png)
 
 ***
-![Номер 1](../images/sfbcallout1.png)<br/>**Добавить праздник** Введите имя нового праздников в поле**Имя праздника**.<br/><br/> Имена праздников могут содержать до 64 знаков; каждое имя праздника одного автосекретаря должно быть уникальным. Например, нельзя создать для одного автосекретаря два праздника с именем "День Благодарения".  
+![Номер 1](../images/sfbcallout1.png)<br/>**Добавить праздник** Введите имя нового праздников в поле**Имя праздника**.<br/><br/> Holiday names may consist of up to 64 characters and must be unique for the same auto attendant. For example, you cannot have two holidays named "Thanksgiving" in the same auto attendant.  
 ***
-![Номер 2](../images/sfbcallout2.png)<br/>**Приветствие в праздничные дни** Это необязательный параметр, который может иметь значение**Нет**. В этом случае вызывающий абонент не услышит никакого сообщения или приветствия, пока вызов не будет обработан с использованием одного из выбранных параметров. Вы также можете загрузить аудиофайл (в формате WAV, mp3 или WMA) или создать настраиваемое приветствие, используя функцию преобразования текста в речь.
+![Номер 2](../images/sfbcallout2.png)<br/>**Holiday Greeting** The Holiday Greeting is optional and can be set to **None**. In this case, the caller will hear no message or greeting before the call is handled by one of the options you select. You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.
 * **Нет** Никакое приветствие не будет воспроизводиться при обращении абонентов по номеру телефона автосекретаря.
-* **Создать пользовательское приветствие** Если выбран этот параметр, необходимо ввести текст, который будет зачитан вызывающему абоненту (до 1000 знаков). Например, вы можете ввести текст "Поздравляем с новым годом! Наш офисы сейчас закрыты." в поле **Текст для вызывающих абонентов**.
+* **Create a custom greeting** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Happy New Year! Our offices are currently closed." in the **Callers will hear** box.
 * **Загрузить аудиофайл** Если выбран этот параметр, запишите приветствие в праздничные дни и загрузите полученный звуковой файл (в формате WAV, .mp3 или WMA).  
 ***
-![Номер 3](../images/sfbcallout3.png)<br/>**Что происходит с вызовами после приветствия?** Вы можете выбрать, как будут обрабатываться звонки, поступающие во время этого праздника. Возможен выбор одного из следующих вариантов:
+![Номер 3](../images/sfbcallout3.png)<br/>**What happens to the calls after the greeting?** You can select what happens to the calls that arrive during this holiday. You can chose from the following options:
 * **Отключить** Вызывающий абонент будет отключен после прослушивания праздничного приветствия.
 * **Переадресовать звонок** Этот параметр можно использовать для автоматической переадресации вызова, используя следующие параметры:
-  * **Сотрудник компании**, имеющий лицензию на **телефонную систему**и возможность подключения по корпоративной голосовой связи или планы звонков в Office 365. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лицо в вашей компании**и задать этого пользователя их вызовы направляться непосредственно на голосовую почту. <br/><br/> 
+  * A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can set it up so the person calling in can be sent to voicemail. To do this, select **Person in your company**, and set this person to have their calls forwarded directly to voicemail. <br/><br/> 
 
     > [!Note] 
-    > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013. Lync Server 2010 не поддерживается.<br/><br/>
+    > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported.<br/><br/>
 
   * **Очередь звонков**: добавление вызова в существующую очередь звонков, которую вы настроили.
-  * Другой **автосекретарь**для создания второго уровня параметров меню, содержащего подменю. Эти функции называются вложенными автосекретарями. <br/><br/>
+  * Another **Auto attendant**, to create a second level of menu options containing a submenu. These are called nested auto attendants. <br/><br/>
 
     > [!Note]
     > По умолчанию все вызовы, поступающие в период праздников, после приветствия (при его наличии) переводятся в режим "Отключить", поэтому если вы хотите изменить этот режим работы, необходимо указать, кому следует переадресовать вызов.
 
 ***
-![Номер 4](../images/sfbcallout4.png)<br/>**Когда начинается и заканчивается праздник?** Введите дату начала праздника в формате дд/мм/гггг и выберите время начала, а затем дату и время окончания, в соответствии с подсказкой в таблице диапазона дат.<br/><br/>Для каждого праздника можно указать до 10 диапазонов дат. Например, можно добавить диапазон дат для новогодних праздников сроком на 10 лет. Праздник может длиться несколько дней.<br/><br/>Чтобы добавить дополнительные диапазоны дат праздника (например, на следующий год), нажмите **Добавить**и введите новые даты начала и окончания праздника.<br/><br/>Также поддерживаются вложенные праздники. Например, можно вложить несколько праздников в период одного "праздничного выходного": 
-* **С 24 декабря по 3 января:** "Поздравляем с праздниками! Наш офисы сейчас закрыты. Мы вернемся к работе 4 января."
-* **25 декабря:** "Поздравляем с католическим Рождеством! Наш офисы сейчас закрыты. Мы вернемся к работе 4 января."
-* **1 января:** "Поздравляем с новым годом! Наш офисы сейчас закрыты. Мы вернемся к работе 4 января."
+![Номер 4](../images/sfbcallout4.png)<br/>**When do you want the holiday to start and end?** Enter your holiday start date in dd/mm/yyyy format, and then select a start time, end date, and end time, as prompted in the date range table.<br/><br/>You can specify up to 10 different date ranges for a holiday. For example, you could add date ranges for New Year's Eve holidays for up to 10 years. A holiday can span multiple days.<br/><br/>Чтобы добавить дополнительные диапазоны дат праздника (например, на следующий год), нажмите **Добавить**и введите новые даты начала и окончания праздника.<br/><br/>Nested holidays are also supported. For example, you could nest multiple holidays within one "holiday break" time frame: 
+* **December 24 through January 3:** "Happy Holidays! Our offices are currently closed. We will reopen on January 4th."
+* **December 25:** "Merry Christmas! Our offices are currently closed. We will reopen on January 4th."
+* **January 1:** "Happy New Year! Our offices are currently closed. We will reopen on January 4th."
 
 После сохранения автосекретаря праздники отображаются на вкладке **Праздники**, где можно изменить, добавить или изменить настройки праздничных дней.
 
@@ -193,15 +193,15 @@ ms.locfileid: "30046767"
 
 ***
 ![Номер 1](../images/sfbcallout1.png)<br/>При использовании функции **Включить** предлагаются два параметра:
-* **Все активные пользователи** С помощью этого параметра позволяет всем пользователям в вашей организации, которые будут включены в поиск в каталоге. В список будут включены все онлайн-пользователи с лицензией на **телефонную систему**, а также локальные пользователи, использующие Skype для бизнеса Server 2015 или Lync Server 2013 и имеющие планы звонков в Office 365. 
-* **Другой** Использование этой функции позволяет осуществлять поиск группы Office 365, списка рассылки или группы безопасности, созданной в вашей организации, и пользователей, включенных в эту группу Office 365, список рассылки или группу безопасности, которые являются либо**онлайн- пользователями с лицензией на телефонную систему**, либо локальными пользователями, использующими Skype для бизнеса Server 2015 или Lync Server 2013. Вы можете добавить несколько групп Office 365, списков рассылки и групп безопасности. <br/><br/> 
+* **All Online users** Using this option allows all of the people in your organization to be included in directory search. All Online users with a **Phone System** license, as well as users hosted on-premises using Skype for Business Server 2015 or Lync Server 2013 who have Calling Plans in Office 365, will be listed. 
+* **Custom** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and the people added to this Office 365 Group, distribution list, or security group who are either **Online users with a Phone System license** or hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. You can add multiple Office 365 Groups, distribution lists, and security groups. <br/><br/> 
 
   > [!Caution]
   > Не будет отображаться локальных пользователей от развертывания Lync Server 2010, когда кто-то ищет в каталоге с помощью вызова по имени. 
 ***
 ![Номер 2](../images/sfbcallout2.png)<br/>С помощью параметра **исключить** , у вас есть два варианта:
-* **Нет**. Использование этой функции означает, что при поиске по справочнику никакие пользователи не исключаются из списка.   
-* **Custom** Если используется этот параметр, можно выполнить поиск для группы Office 365, список рассылки или группу безопасности, которые были созданы в вашей организации и всех людей добавлена в эту группу Office 365 списка рассылки или групп безопасности, которые будут исключены из поиск в каталоге. Вы можете добавить несколько групп Office 365, списков рассылки и групп безопасности. <br/><br/> 
+* **Нет**. Использование этой функции означает, что при поиске по справочнику никакие пользователи не исключаются из списка.    
+* **Custom** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and all people added to this Office 365 Group, distribution list, or security groups will be excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups. <br/><br/> 
 
   > [!Caution]
   > Не будет отображаться локальных пользователей от развертывания Lync Server 2010, когда кто-то ищет в каталоге с помощью вызова по имени.
@@ -213,7 +213,7 @@ ms.locfileid: "30046767"
 
 ## <a name="editing-and-testing-auto-attendants"></a>Редактирование и тестирование автосекретари
 
-После сохранения автосекретаря он отображается в списке на странице **Автосекретари**. Это позволит быстро увидеть некоторые параметры, которые были заданы, включая имя, номер телефона, язык и состояние.
+After you have saved your auto attendant, it will be listed on the **Auto attendants** page. This will allow you to quickly see some of the options that you have set up, including the name, phone number, language, and status.
 
 Если вы хотите внести изменения для автосекретаря, выберите тот автосекретарь и в области действий нажмите кнопку **Изменить**.
 
@@ -242,7 +242,7 @@ ms.locfileid: "30046767"
 
 ### <a name="more-about-windows-powershell"></a>Дополнительные сведения о Windows PowerShell
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
 
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 
@@ -256,8 +256,8 @@ ms.locfileid: "30046767"
 
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>See also
-[Преимущества телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+## <a name="related-topics"></a>Связанные разделы
+[Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](getting-service-phone-numbers.md)
 
@@ -265,4 +265,4 @@ ms.locfileid: "30046767"
 
 [Что такое автосекретари телефонной системы?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
 
-[Пример для малого бизнеса — Настройка автосекретарю.](tutorial-org-aa.yml)  
+[Пример для малого бизнеса: настройка автосекретаря](tutorial-org-aa.yml)  

@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Сведения о лицензиях дополнительный компонент компонентов, которые вы получите с каждой лицензии, как приобрести их для операционной системы и порядок использования существующего поставщика с ними. Вы можете получать сведения на сведения о ценах и план для Office 365, кредитов обмена данными и планов вызова.
-ms.openlocfilehash: 8b3e68fe89f2a7f07f5f117d60c2a74327a891ca
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 9413a8384aadc08d77bf16bf155d12a8edad9447
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633228"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948371"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Лицензирование надстроек Microsoft Teams
 
@@ -95,7 +95,7 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
 
 - [Настройка групп](../microsoft-teams.md)
     
-- [Настройка голосовой почты телефонной системы — справка для администраторов](../set-up-phone-system-voicemail.md)
+- [Настройка голосовой почты Cloud - Admin справки](../set-up-phone-system-voicemail.md)
     
 - [Вызов планы Office 365](../calling-plans-for-office-365.md) и [настроить вызов планы](../set-up-calling-plans.md)
     
