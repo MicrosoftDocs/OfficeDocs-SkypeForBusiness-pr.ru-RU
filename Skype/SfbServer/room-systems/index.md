@@ -1,5 +1,5 @@
 ---
-title: "Системы комнат Skype версии\_2"
+title: Комнат группами Майкрософт
 ms.reviewer: null
 ms.author: jambirk
 author: jambirk
@@ -11,17 +11,17 @@ ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: 'Соответствующие вопросы планирования развертывания систем комнаты Скайп версии 2, а также для развертывания и управления системы.'
+description: 'Соответствующие вопросы планирования развертывания комнат группами Майкрософт, а также для развертывания и управления системы.'
 ---
 
-<h2>Комнаты Скайп систем версии 2 & #x 2013; <br>Следующее поколение систем Скайп комнаты </h2>
+<h2>Комнат группами Майкрософт</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Преобразование собрания пробелов от малого ютиться области до больших конференц-залы с расширенными возможностями, совместной работы Скайп для бизнеса качества that& #39; s прост, развертывания и управления. </p>
+                        <p>Преобразование собрания пробелов от малого ютиться области до больших конференц-залы с расширенными возможностями, совместной работы групп качества that& #39; s прост, развертывания и управления. </p>
                         <p>Запуск собрания на время с одним нажатием соединения, а затем мгновенно project для отображения в комнаты и общий доступ для удаленных участников. </p>
                         <p>Выберите один из партнеров правом системы и аудиоустройств видео: Logitech, Crestron, Polycom, Lenovo и HP.</p>
                         <p></p>
@@ -36,7 +36,7 @@ description: 'Соответствующие вопросы планирован
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/srs-room.jpg" alt="A conference table with Skype Room Systems v2 equipment" />
+                            <img src="../media/srs-room.jpg" alt="A conference table with Microsoft Teams Rooms equipment" />
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ description: 'Соответствующие вопросы планирован
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -70,7 +70,7 @@ description: 'Соответствующие вопросы планирован
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/deploy-blue.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,9 +102,9 @@ description: 'Соответствующие вопросы планирован
 </ul>
 
 > [!NOTE]
-> Версии 2 Скайп комнаты систем предназначен для использования с Скайп для Business Server 2019, Скайп Business Server 2015, группами Майкрософт или Скайп для бизнеса в Интернет.  <br><br>Более ранних платформы, как Lync Server 2013 не требуются для работы с системами комнаты Скайп версии 2. 
+> Комнат группы Microsoft предназначена для использования с группами, Скайп для бизнеса в Интернет, Скайп для Business Server 2019 или Скайп для Business Server 2015.  <br><br>Более ранних платформы, как Lync Server 2013 не требуются для работы с группами комнат Microsoft.
 
-В этих статьях, предназначены для людей, получает задачу планирования, развертывания и управления этих устройств, а не для пользователей системы. Пользователи будут больше интересуют v2 систем комнаты Скайп [интерактивной справки](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+В этих статьях, предназначены для людей, получает задачу планирования, развертывания и управления этих устройств, а не для пользователей системы. Пользователи будут больше интересуют комнат группами Майкрософт [интерактивной справки](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
 > [!NOTE]
-> Скайп помещения системы и систем комнаты Скайп версии 2, различные продукты с другой зависимости и процедуры развертывания. 
+> [Система Скайп комнаты](../deploy/deploy-clients/lrs-migration.md) (ранее — система комнаты Lync) и комнаты группами Майкрософт представляют различные продукты с другой зависимости и процедуры развертывания.
