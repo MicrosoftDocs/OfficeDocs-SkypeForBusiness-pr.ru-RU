@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Обучающие видеозаписи, наборов слайдов PowerPoint, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8294854a3ff4ed7d38b90380b1e1e25230f859d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 14fea980b7f0cfbb3d8a8218c20ebe503387529a
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872712"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003822"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -92,6 +92,7 @@ ms.locfileid: "30872712"
 | Основы - основные компоненты | [Видео](https://aka.ms/teams-foundations) | [Колоды](https://aka.ms/teams-foundations-deck) |
 | Клиент настольных компьютеров Windows | [Видео](https://aka.ms/teams-clients) | [Колоды](https://aka.ms/teams-clients-deck) |
 | Управление, управления и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Колоды](https://aka.ms/teams-governance-deck) |
+| Соответствие требованиям безопасности & | [Видео](https://aka.ms/teams-security-compliance) | [Колоды](https://aka.ms/teams-security-compliance-deck) |
 | Планирование сети | [Видео](https://aka.ms/teams-networking) | [Колоды](https://aka.ms/teams-networking-deck) |
 | Обзор качества звонка | [Видео](https://aka.ms/teams-quality) | [Колоды](https://aka.ms/teams-quality-deck) |
 | Общие сведения о собраниях | [Видео](https://aka.ms/teams-meetings-intro) | [Колоды](https://aka.ms/teams-meetings-intro-deck) |
