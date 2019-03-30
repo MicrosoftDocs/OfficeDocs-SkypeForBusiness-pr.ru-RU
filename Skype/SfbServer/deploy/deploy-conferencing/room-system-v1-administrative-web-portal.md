@@ -9,13 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
+ms.collection: M365-voice
 description: Скайп для бизнес-систем комнаты Скайп Server v1 (SRS v1, ранее называлась системы комнаты Lync) административного веб-портала — это веб-портала, организации могут использовать для поддержки конференц-залов Скайп комнаты систем. Администраторы могут использовать SRS v1 административного веб-портала для отслеживания работоспособности устройств, например следя за устройства аудио и видео. С помощью этого портала, администраторы могут удаленно собирать диагностические сведения, чтобы отслеживать работоспособность конференц-зала.
-ms.openlocfilehash: d6575f83aaf76dee1255c37482cf4435e8e3771c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: b616084016a3b660f4af5bcd3bda6926dfc7e286
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891947"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012907"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Развертывание SRS v1 административного веб-портала в Скайп for Business Server
 
@@ -243,7 +244,7 @@ ms.locfileid: "30891947"
 
 Убедитесь в том, что учетная запись пользователя LRSApp поддержкой SIP и является частью группы безопасности LRSPowerUserAdminsGroup.
 
-#### <a name="does-the-srs-v1-administrative-web-portal-work-with-skype-room-systems-v2"></a>Веб-портал администрирования SRS версии 1 работает с системами комнат Skype версии 2?
+#### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>Административные веб-портала v1 SRS работает с комнат группами Майкрософт?
 
 Нет
 

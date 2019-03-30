@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Сводка: Обзор методов установки enterprise client для Скайп для бизнеса.'
-ms.openlocfilehash: 7b58b712f5b6dec7383bcb8a58e1b17b0ed4d870
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 49eff64918deefe2ec169993557dd0f9dfbf6955
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699283"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012541"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Развертывание клиентов для Скайп для Business Server
  
@@ -51,7 +51,7 @@ ms.locfileid: "25699283"
     
 - [Развертывание системы комнат Skype в Skype для бизнеса Server](deploy-skype-room-system.md)
     
-- [Развертывание Систем комнат Skype версии 2](room-systems-v2.md)
+- [Развертывание групп Майкрософт комнат](room-systems-v2.md)
     
 - [Развертывание подключаемого модуля VDI Lync с Скайп for Business Server](deploy-the-lync-vdi-plug-in.md)
     

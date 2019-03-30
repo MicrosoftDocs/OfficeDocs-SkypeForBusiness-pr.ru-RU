@@ -1,5 +1,5 @@
 ---
-title: Системы комнат Skype версии 2 — требования
+title: Требования к комнат группами Майкрософт
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -10,34 +10,35 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
-description: В этой статье приведены требования для поддержки систем комнаты Скайп версии 2.
-ms.openlocfilehash: bc1cfdfe8d7d470396617421cdcfdc6aab50a9bc
-ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
+ms.collection: M365-voice
+description: В этой статье приведены требования для поддержки комнат группами Майкрософт.
+ms.openlocfilehash: aff26f2f69b134569b8792df79c2afa4e4a18318
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770422"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012996"
 ---
-# <a name="skype-room-systems-v2-requirements"></a>Системы комнат Skype версии 2 — требования
+# <a name="microsoft-teams-rooms-requirements"></a>Требования к комнат группами Майкрософт
 
-В этой статье приведены требования для поддержки систем комнаты Скайп версии 2. 
+В этой статье приведены требования для поддержки комнат группами Майкрософт. 
 
-Развертывание включает создание учетной записи, как описано в разделе [Развертывание системы комнаты Скайп версии 2](../../deploy/deploy-clients/room-systems-v2.md) и о настройке консоли собрания, как описано в статье [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md). 
+Развертывание включает создание учетной записи, как описано в разделе [Развертывание комнат группами Майкрософт](../../deploy/deploy-clients/room-systems-v2.md) и о настройке консоли собрания, как описано в статье [Настройка консоли комнат группы Microsoft](../../deploy/deploy-clients/console.md). 
 
 Может также потребоваться обращайтесь к:
 
-- [Скайп для лицензирования дополнительный компонент Business](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Назначение лицензий на основе плана параметры: систем комнаты Скайп версии 2](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Лицензирование надстройки Skype для бизнеса](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [Назначение лицензий на основе плана параметры: комнат группами Майкрософт](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Версии 2 Скайп комнаты систем предназначен для использования с Скайп для Business Server 2019, Скайп Business Server 2015, группами Майкрософт или Скайп для бизнеса в Интернет. <br><br>Более ранних платформы, как Lync Server 2013 не требуются для работы с системами комнаты Скайп версии 2.
+> Комнат группами Майкрософт предназначены для использования с Скайп для Business Server 2019, Скайп Business Server 2015, группами Майкрософт или Скайп для бизнеса в Интернет. <br><br>Более ранних платформы, как Lync Server 2013 не требуются для работы с группами комнат Microsoft.
 
 > [!NOTE]
-> При использовании Exchange server на prem Скайп комнаты систем v2 необходимо использовать Exchange Server 2013 с пакетом обновления 1 или более поздней версии.
+> При использовании Exchange server на prem комнат группами Майкрософт необходимо использовать Exchange Server 2013 с пакетом обновления 1 или более поздней версии.
 
 ## <a name="hardware-requirements"></a>Требования к оборудованию
 
-Версии 2 Скайп комнаты систем можно масштабировать для размеров другой комнате через стандартные в зависимости от периферийных аудио- и видеоконференций. Оборудование, указанные в этой статье поддерживает режимы собрания Скайп и рабочих групп.  Аудио- и видеоконференций периферийных подключиться к версии 2 Скайп комнаты систем через подключение к USB или HDMI закрепления устройства. Кроме того, вам потребуется следующее.
+Комнат группами Майкрософт можно масштабировать для размеров другой комнате через стандартные в зависимости от периферийных аудио- и видеоконференций. Оборудование, указанные в этой статье поддерживает режимы собрания Скайп и рабочих групп.  Аудио- и видеоконференций периферийных подключитесь к комнат группами Майкрософт через подключение к USB или HDMI закрепления устройства. Кроме того, вам потребуется следующее.
 
 - 32 ГБ или больше дисков USB необходимо настроить как загрузочного установочного носителя Windows для Windows 10 Enterprise. 
 
@@ -73,23 +74,23 @@ ms.locfileid: "29770422"
 
 **Сертифицированный встроенное периферийных устройств USB аудио- и видеоконференций**
 
-|Периферийных систем комнаты Скайп версии 2|Версия микропрограммы сертифицированный для систем комнаты Скайп версии 2|
+|Периферийных комнат группами Майкрософт|Версия микропрограммы сертифицированный для комнат группами Майкрософт|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Аудио - 1.0.172  <br/> Видео - 1.0.156  <br/> |
-|[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
-|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
+|[Подключение Logitech ConferenceCam](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
+|[Группа Logitech](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
-|[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> |  1.1.219 <br/> |
+|[Logitech PTZ специалистов](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> |  1.1.219 <br/> |
 |[PTZ Logitech специалистов 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
 |[Polycom RealPresence Trio](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
-|[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
-|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
+|[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
+|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
-|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
+|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0  <br/> |
-|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
+|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
 |[1000 Yamaha YVC](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c  <br/> |
 
 - **Расширения USB**:
@@ -108,11 +109,11 @@ ms.locfileid: "29770422"
     > Бытовой телевизор, используемый в качестве центрального дисплея, должен поддерживать функцию управления бытовой электронной техникой (CEC) стандарта HDMI для автоматического переключения на активный источник видеосигнала из режима ожидания. Эту функцию поддерживают не все телевизоры. 
 
 > [!NOTE]
-> Версии 2 Скайп комнаты систем не использует клавиатуру. При необходимости администратор может использовать экранную клавиатуру. USB-клавиатуры или мыши требуется указать при обработки изображений устройства версии 2 Скайп комнаты систем. 
+> Комнат группами Майкрософт не использует клавиатуру. При необходимости администратор может использовать экранную клавиатуру. USB-клавиатуры или мыши требуется указать при комнат группами Майкрософт устройства обработки изображений. 
 
 В следующих таблицах приводятся рекомендации по для устройств на размер комнаты основе:
 
-**Сертифицированный аудиоустройств v2 систем Скайп комнаты**
+**Комнат группы Microsoft Certified аудиоустройств**
 
 |Тип комнаты|Количество людей|Рекомендованное максимальное расстояние от микрофона до выступающего|Устройство для максимального размера комнаты|Комментарии|
 |:-----|:-----|:-----|:-----|:-----|
@@ -121,35 +122,35 @@ ms.locfileid: "29770422"
 |**Средняя** <br/> 18' x 20'  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 мс  <br/> |Logitech MeetUp включает в себя камера, он должен быть установлен на передней части комнаты (не Центр таблицы для записи локального участников).  <br/> В общем случае комнат с таблицами длинный прямоугольный или u образный может преимущества Дополнительные сопутствующие микрофонов.  <br/> Устройство SP 220 MS должно подключаться последовательно.  <br/> |
 |**Большая** <br/> 15' x 32 °  <br/> |12-16  <br/> |3 м  <br/> Здесь также учитывается расстояние до каждого дополнительного микрофона, подключенного к звуковому устройству.   <br/> |Группа Logitech + вспомогательных микрофона  <br/> Polycom Trio + вспомогательных микрофона  <br/> Polycom CX5100 + вспомогательных микрофона  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 мс + вспомогательных микрофона  <br/> |Все звуковые устройства, указанные в этой строке, поддерживают подключение дополнительных микрофонов.  <br/> Устройство CX5100 оснащено встроенной камерой с круговым обзором, что позволяет размещать его в центре стола.  <br/> Устройство SP 220 MS должно подключаться последовательно.  <br/> |
 
-**Сертифицированный видео периферийных v2 систем Скайп комнаты**
+**Комнат группы Microsoft Certified видео периферийных устройств**
 
 |Тип комнаты|Количество людей|Устройство по размеру оптимальную комнаты|Комментарии|
 |:-----|:-----|:-----|:-----|
 |**Фокус-комната** <br/> 10' x 9'  <br/> |2 – 4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
-|**Небольшая** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ специалистов обычно входит в состав группы Logitech  <br/> |
-|**Средний уровень** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
-|**Большая** <br/> 15' x 32 °  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**Небольшая** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ специалистов обычно входит в состав группы Logitech  <br/> |
+|**Средняя** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**Большая** <br/> 15' x 32 °  <br/> |12-16  <br/> |Logitech PTZ специалистов  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
 
  > [!NOTE]
  > Передней части разрешение экрана комнаты должен иметь значение не более 1920x1080p.
 
-## <a name="required-software-downloads"></a>Необходимое программное обеспечение
+## <a name="required-software-downloads"></a>Загружаемые файлы для необходимого программного обеспечения
 
-Для создания образа версии 2 Скайп комнаты систем, следуйте инструкциям в статье [Настройка консоли систем комнаты Скайп версии 2](../../deploy/deploy-clients/console.md). Эти инструкции поможет выполнить загрузку все необходимое программное обеспечение для процесса установки. 
+Для создания образа комнат группами Майкрософт, следуйте инструкциям в статье [Настройка консоли комнат группами Майкрософт](../../deploy/deploy-clients/console.md). Эти инструкции поможет выполнить загрузку все необходимое программное обеспечение для процесса установки. 
 
 > [!NOTE]
 > ИТ-специалистов требуется доступ к Windows 10 Enterprise ISO файлов с помощью их соглашением о корпоративном лицензировании.
 
-Кроме того можно копию [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), часто используется для подготовки учетных записей систем комнаты Скайп версии 2.
+Кроме того можно копию [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), который можно использовать для подготовки учетных записей комнат группами Майкрософт.
 
 ## <a name="see-also"></a>См. также
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Планирование для групп Майкрософт комнат](skype-room-systems-v2-0.md)
 
-[Развертывание Систем комнат Skype версии 2](../../deploy/deploy-clients/room-systems-v2.md)
+[Развертывание групп Майкрософт комнат](../../deploy/deploy-clients/room-systems-v2.md)
 
-[Настройка консоли для Систем комнат Skype версии 2](../../deploy/deploy-clients/console.md)
+[Настройка консоли комнат группами Майкрософт](../../deploy/deploy-clients/console.md)
 
-[Управление Системами комнат Skype версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление группами Майкрософт комнат](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
-[Скайп для лицензирования дополнительный компонент Business](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
+[Лицензирование надстройки Skype для бизнеса](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

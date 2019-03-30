@@ -9,20 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
+ms.collection: M365-voice
 description: В этом разделе описывается управление учетными записями системы комнат Skype.
-ms.openlocfilehash: 715eda137395d2133b6b19dee4a9d2336923c13b
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 4c276d4acf0cf15df7689fa5c11a0e6e2cde785b
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699246"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012526"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Управление учетными записями системы комнат Skype
  
 В этом разделе описывается управление учетными записями системы комнат Skype. 
 
 > [!NOTE]
-> Версии 2 Скайп комнаты систем — это разные продукт с другой зависимости и процедуры развертывания. Сведения о версии 2 Скайп комнаты систем содержатся v2 систем комнаты Скайп [Общие сведения об управлении](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).
+> Комнат группами Майкрософт — это разные продукт с другой зависимости и процедуры развертывания. Сведения о комнат группы Microsoft содержатся [Общие сведения об управлении](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)комнат группы Microsoft.
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Перемещение между пулами Скайп комнаты системной учетной записи
 

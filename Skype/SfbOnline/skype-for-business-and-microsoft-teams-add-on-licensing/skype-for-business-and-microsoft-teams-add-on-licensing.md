@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
-ms.openlocfilehash: 9b77336757e36aac0f4465af0813141bef4bd3f9
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.openlocfilehash: ada45384ed7eb1328954105334523b51825f4bcb
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948198"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012487"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Лицензирование надстройки Skype для бизнеса
 
@@ -60,7 +60,7 @@ For most businesses, buying a bundle of software in an Enterprise plan will resu
 |**Бесплатные номера доступа к конференц-связи с телефонным подключением и возможность совершать исходящие звонки, позволяющие добавить к конференции с телефонным подключением других пользователей из любой точки мира** <br/> |При добавлении Аудиоконференций, мы рекомендуем вам [Настроить Кредиты на связь](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
 |**Телефонная система** <br/> |УАТС  это телефонная система вашей организации. Система телефона в Office 365 — размещенной телефонной связи. С ней вы можете реализовать традиционные и расширенные функции УАТС без приобретения сложного дорогостоящего оборудования. [Вот вы получаете с телефонной системой в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Телефонной системы](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
 |**Планы звонков** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Тарифных планов](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
-|**Системы комнат Skype версии 2** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
+|**Комнат группами Майкрософт** <br/> |Это не дополнительного компонента, но функциональная возможность, которая переводит видео-, аудио и общего доступа к содержимому для конференц-залов. В разделе [комнат группами Майкрософт](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
 
 Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
@@ -73,7 +73,7 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
 - [Office 365 корпоративный (E1, E3 и E4)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 - [Office 365 корпоративный E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 корпоративный E5 (без аудиоконференции)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
-- [Системы комнат Skype версии 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+- [Комнат группами Майкрософт](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 - [GOV, EDU и некоммерческие организации](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 
 Подробный список функций и сравнения для каждого Скайп для бизнес-план в разделе [Скайп для описания службы Online бизнеса](https://go.microsoft.com/fwlink/?LinkId=730729).

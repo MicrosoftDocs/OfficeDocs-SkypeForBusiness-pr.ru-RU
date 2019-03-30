@@ -1,5 +1,5 @@
 ---
-title: Развертывание Систем комнат Skype версии 2 в среде Office 365
+title: Развертывание групп Майкрософт комнат с Office 365
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,25 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365.
-ms.openlocfilehash: 05288842a54fd8be7487181582fcc7bd4780fd2e
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+description: В данном разделе приведены сведения о развертывании Microsoft комнат групп с помощью Office 365.
+ms.openlocfilehash: 5ef6c4ea8b76a34b19da6a74d82badf8000e007c
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800126"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012942"
 ---
-# <a name="deploy-skype-room-systems-v2-with-office-365"></a>Развертывание Систем комнат Skype версии 2 в среде Office 365 
+# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Развертывание групп Майкрософт комнат с Office 365
 
-В данном разделе приведены сведения о способах развертывания систем комнаты Скайп версии 2 с Office 365, где оба online находятся в Скайп для бизнеса и Exchange.
+В данном разделе приведены сведения о том, как развернуть комнат группами Майкрософт в Office 365, где оба online находятся в Скайп для бизнеса и Exchange.
 
-Настройка учетных записей пользователей проще всего настроить их с помощью удаленной оболочки Windows PowerShell. Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей, или validate существующие учетные записи ресурсов, что у вас есть помогающих перевод их в совместимые учетных записей пользователей системы комнаты Скайп версии 2. При необходимости можно выполните следующие действия, чтобы настроить учетные записи, используемые устройства версии 2 Скайп комнаты систем.
+Настройка учетных записей пользователей проще всего настроить их с помощью удаленной оболочки Windows PowerShell. Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей, или validate существующие учетные записи ресурсов, что у вас есть помогающих перевод их в совместимые учетных записей пользователей комнат группами Майкрософт. При необходимости можно выполните следующие действия, чтобы настроить учетные записи, используемые устройства комнат группами Майкрософт.
 
 ## <a name="requirements"></a>Требования
 
-Перед развертыванием системы комнаты Скайп версии 2 с Office 365, убедитесь, что удовлетворены требования. Дополнительные сведения см. в разделе [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+Перед развертыванием комнат команды Microsoft Office 365, убедитесь, что удовлетворены требования. Для получения дополнительных сведений в разделе [requirements комнат группами Майкрософт](../../plan-your-deployment/clients-and-devices/requirements.md).
 
 Чтобы включить Скайп для бизнеса, необходимо иметь следующее:
 
@@ -38,7 +39,7 @@ ms.locfileid: "30800126"
 
 - Клиент пользователи должны иметь почтовые ящики Exchange.
 
-- Учетной записи системы комнаты Скайп версии 2 требуется по крайней мере Скайп для бизнеса Online (план 2) лицензии, но не требует лицензии Exchange Online. Дополнительные сведения см [Лицензирование систем комнаты Скайп версии 2](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .
+- Учетной записи Microsoft группами комнат требуется по крайней мере Скайп для бизнеса Online (план 2) лицензии, но не требует лицензии Exchange Online. Просмотрите [Лицензирования комнат группами Майкрософт](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) для получения дополнительных сведений.
 
 Дополнительные сведения о Скайп для бизнеса Online планы см [Скайп для описания службы Online бизнеса](https://technet.microsoft.com/library/jj822172.aspx).
 
@@ -164,7 +165,7 @@ ms.locfileid: "30800126"
 
    Подробные сведения содержатся в разделе [Назначение лицензий для учетных записей пользователей с Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-7. Затем необходимо включить запись устройства с Скайп для бизнеса. Ваша среда должна соответствовать требованиям, определенным в разделе [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+7. Затем необходимо включить запись устройства с Скайп для бизнеса. Убедитесь, что в вашей среде соответствует требованиям, определенным в [требования к комнат группами Майкрософт](../../plan-your-deployment/clients-and-devices/requirements.md).
 
    Для запуска удаленного [сеанса Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) (не забудьте [установить Скайп для компонентов Business Online PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)) следующим образом:
 
@@ -174,7 +175,7 @@ ms.locfileid: "30800126"
    Import-PSSession $cssess -AllowClobber
    ```
 
-   Затем включите свою учетную запись комнаты систем Скайп версии 2 для Скайп для Business Server, выполнив следующий командлет:
+   Затем включите свою учетную запись Microsoft группами комнат для Скайп для Business Server, выполнив следующий командлет:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
@@ -189,7 +190,7 @@ ms.locfileid: "30800126"
     > [!NOTE]
     > Новые учетные записи пользователей не могут быть созданы на тот же самый пул регистратора, как существующие учетные записи пользователей в клиентов. Команды выше не позволит ошибок в учетной записи программы установки из-за этой ситуации.
 
-После выполнения предыдущего действия, чтобы включить учетную запись комнаты систем Скайп версии 2 в Скайп для бизнеса в Интернет, им необходимо назначить лицензию на устройство систем комнаты Скайп версии 2. Использование портала администрирования Office 365, назначьте либо Скайп для бизнеса Online (план 2) или Скайп для бизнеса в Интернет (план 3) лицензии на устройство.
+После выполнения предыдущего действия, чтобы включить учетную запись комнаты группами Майкрософт в Скайп для бизнеса в Интернет, им необходимо назначить лицензию на устройство комнат группами Майкрософт. Использование портала администрирования Office 365, назначьте либо Скайп для бизнеса Online (план 2) или Скайп для бизнеса в Интернет (план 3) лицензии на устройство.
 
 ### <a name="assign-a-license-to-your-account"></a>Назначение лицензии учетной записи
 
@@ -197,11 +198,11 @@ ms.locfileid: "30800126"
 
 2. Выберите **Пользователи и группы**, после чего щелкните **Добавление пользователей, сброс паролей и другие действия**.
 
-3. Выберите учетную запись версии 2 Скайп комнаты систем и щелкните или нажмите значок перо, который означает, что изменение.
+3. Выберите учетную запись Microsoft группами комнат и щелкните или нажмите значок перо, который означает, что изменение.
 
 4. Щелкните **Лицензии**.
 
-5. В разделе **Назначение лицензий** необходимо выбрать Скайп для бизнеса Online (план 2) или Скайп для бизнеса в Интернет (план 3), в зависимости от вашей лицензирования и очевидна с точки зрения применения какого корпоративной голосовой связи. Вам потребуется использовать планирование 3 лицензии, если вы хотите использовать облачных УАТС на систем комнаты Скайп версии 2. Облачная УАТС потребуется как минимум для подключения к голосовому каналу. Затем настройте гибридную голосовую связь или звонки по ТСОП в соответствии со способом связи с ТСОП. В разделе [лицензий v2 систем комнаты Скайп](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) более подробных сведений.
+5. В разделе **Назначение лицензий** необходимо выбрать Скайп для бизнеса Online (план 2) или Скайп для бизнеса в Интернет (план 3), в зависимости от вашей лицензирования и очевидна с точки зрения применения какого корпоративной голосовой связи. Вам потребуется использовать планирование 3 лицензии, если вы хотите использовать УАТС облака на комнат группы Microsoft. Облачная УАТС потребуется как минимум для подключения к голосовому каналу. Затем настройте гибридную голосовую связь или звонки по ТСОП в соответствии со способом связи с ТСОП. Просмотрите [лицензий комнат группами Майкрософт](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) для получения дополнительных сведений.
 
 6. Чтобы завершить задачу, нажмите кнопку **Сохранить**.
 
@@ -249,14 +250,14 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 ## <a name="see-also"></a>См. также
 
-[Настройка учетных записей для систем комнаты Скайп версии 2](room-systems-v2-configure-accounts.md)
+[Настройка учетных записей для комнат группами Майкрософт](room-systems-v2-configure-accounts.md)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Планирование для групп Майкрософт комнат](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
-[Развертывание Систем комнат Skype версии 2](room-systems-v2.md)
+[Развертывание групп Майкрософт комнат](room-systems-v2.md)
 
-[Настройка консоли для Систем комнат Skype версии 2](console.md)
+[Настройка консоли комнат группами Майкрософт](console.md)
 
-[Управление Системами комнат Skype версии 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление группами Майкрософт комнат](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
-[Лицензирование v2 систем Скайп комнаты](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Лицензирование комнат группами Майкрософт](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

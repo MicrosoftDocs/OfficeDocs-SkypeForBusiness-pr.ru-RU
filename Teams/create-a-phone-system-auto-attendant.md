@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Узнайте, как настроить и тестирование автосекретари телефонной системой (облако УАТС) для обработки для вашей организации эффективным звонков.
-ms.openlocfilehash: ad60bf758c339a801d63e0f8886a9e92329d286a
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.openlocfilehash: 8bf33e911e11ab7561cc09e0cd18f4cfaf314d98
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952439"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013097"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Настройка автосекретаря телефонной системы
 
@@ -37,17 +37,22 @@ ms.locfileid: "30952439"
 > [!NOTE]
 > Эта статья относится к группам Майкрософт и Скайп для бизнеса в Интернет.
 
+
+
 ## <a name="step-1---get-started"></a>Шаг 1 - начало работы
 
-- Прежде чем создать и настроить вашей автосекретари, если номер телефона для автосекретаря (и многих второго уровня запрашивает или вложенные автосекретари будет автоматически не требуется номер телефона) необходимо получить или перенос существующих международную или бесплатная служба номеров . После получения счета или службы бесплатных номеров, они будет отображаться в **Центр администрирования группами Майкрософт** > **голосовой связи** > страницы**телефонных номеров** . Чтобы получить номер службы, просмотреть [номера телефона службы Приступая к](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)или существующий номер службы и передача, см [передачи телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Если вы находитесь за пределами США, нельзя использовать Центр администрирования группами Майкрософт для получения номера службы; [здесь](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- Автосекретарь необходимо иметь учетную запись связанных ресурсов. Сведения о учетные записи ресурса в разделе [Управление учетными записями ресурсов в группах](manage-resource-accounts.md) .
+- Если вы планируете нумерации прямой маршрутизации, необходимо получить и назначение лицензий на следующие учетные записи ресурса \(Office 365 корпоративный E1, E3 или E5 с телефонной системой надстройки\).
+- Вместо этого при назначении номера службы Майкрософт, необходимо получить и назначьте следующие лицензии свою учетную запись ресурса \(Office 365 корпоративный E1, E3 или E5 с телефонной системой надстройки и вызов планирование\).
 
-    > [!CAUTION]
-    > Чтобы получить и использовать бесплатных номеров телефонов, необходимо настроить кредитов коммуникаций. Чтобы это сделать, обратитесь [Каковы кредитов коммуникации?](what-are-communications-credits.md) и [настроить кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md).
-  
-- Ваша организация должна иметь (как минимум) лицензию типа "Корпоративный E3 с**телефонной системой"** или лицензию "Корпоративный E5". Число назначенных пользовательских лицензий**телефонной системы**влияет на количество сервисных номеров, которые могут быть использованы для автосекретарей. Количество доступных автосекретарей зависит от количества лицензий на **телефонную систему** и **аудиоконференции**вашей организации. Дополнительные сведения о лицензировании видеть [Скайп для лицензирования дополнительный компонент Business](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) или [группами Майкрософт дополнительный компонент лицензирования](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). .
+> [!NOTE] 
+> Корпорация Майкрософт работает на соответствующей модели лицензирования для приложений, таких как автосекретари облако и очереди вызовов, для теперь необходимо использовать модель лицензирования пользователя.
 
-    > [!TIP]
-    > Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо включить их для корпоративной голосовой связи или назначить им вызов планы в Office 365. В разделе [Назначение Скайп для бизнеса лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) или [группами Майкрософт назначение лицензий](assign-teams-licenses.md). Кроме того, можно использовать Windows PowerShell. Например выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!CAUTION]
+> Чтобы получить и использовать бесплатных номеров телефонов, необходимо настроить кредитов коммуникаций. Чтобы это сделать, обратитесь [Каковы кредитов коммуникации?](what-are-communications-credits.md) и [настроить кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md).
+
+> [!TIP]
+> Можно настроить переадресацию звонков для оператора или пункт меню, который является Online пользователя с **Телефонной системой** лицензии, необходимо включить их для корпоративной голосовой связи или назначить им вызов планы в Office 365. В разделе [Назначение Скайп для бизнеса лицензий](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) или [группами Майкрософт назначение лицензий](assign-teams-licenses.md). Кроме того, можно использовать Windows PowerShell. Например выполните:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>Шаг 2. Создание нового автосекретаря
 
@@ -101,7 +106,7 @@ ms.locfileid: "30952439"
 - **Сотрудник компании**, имеющий лицензию на**телефонную систему**и возможность подключения по корпоративной голосовой связи или планы звонков в Office 365.
 
      > [!Note]
-     > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013. Lync Server 2010 не поддерживается.
+     > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013.
 
 - **Вызов очереди** , настройки.
 - Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лицо в вашей компании** и звонки этого пользователя будет переадресован непосредственно на голосовую почту.
@@ -169,7 +174,7 @@ ms.locfileid: "30952439"
   - **Лица в компании** с **Телефонной системой** лицензии, который включен для корпоративной голосовой связи или назначенных вызов планы в Office 365. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лицо в компании** и установите их переадресация на голосовую почту напрямую звонков этому пользователю.
 
     > [!Note]
-    > **Лица в компании** может быть Online пользователя или пользователь размещенных в локальной с помощью Скайп for Business Server 2015 или Lync Server 2013. Lync Server 2010 не поддерживается.
+    > **Лица в компании** может быть Online пользователя или пользователь размещенных в локальной с помощью Скайп for Business Server 2015 или Lync Server 2013.
 
    - Другой **автосекретаря**
 
@@ -332,18 +337,24 @@ ms.locfileid: "30952439"
 
 Далее перечислены командлеты, необходимые для управления автосекретарем.
 
-|||
-|---  |---  |
-| [New-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx) | [New-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx) |
-| [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx) | [New-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx) |
-| [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx) | [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps) |
-| [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx) | [New-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx) |
-| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx) | [New-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx) |
-| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [New-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx) |
-| [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) | [New-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx) |
-| [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx) | [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx) |
-| [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx) | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
-| [New-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx) | |
+ 
+- [Новый CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
+- [SET-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps) 
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
+- [Новый CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
+- [Новый CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
+- [Новый CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps) 
+- [Новый CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps) 
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps) 
+- [Импорт CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
+- [Новый CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
 
 ### <a name="more-about-windows-powershell"></a>Дополнительные сведения о Windows PowerShell
 
@@ -371,5 +382,4 @@ ms.locfileid: "30952439"
 
 [Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
 
-[Пример для малого бизнеса: настройка автосекретаря](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa
-)  
+[Пример для малого бизнеса: настройка автосекретаря](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  

@@ -9,20 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
+ms.collection: M365-voice
 description: В этих разделах содержатся сведения о предоставлении учетных записей Exchange и Skype для системы комнат Skype.
-ms.openlocfilehash: ec812f569e096d31fb1085d196037677edf5da37
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 2da978d84ac763a27bba135e1899e83955b4fb53
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699276"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012556"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Предоставление учетных записей Exchange и Skype для системы комнат Skype
  
 В этих разделах содержатся сведения о предоставлении учетных записей Exchange и Skype для системы комнат Skype. 
 
 > [!NOTE]
-> Версии 2 Скайп комнаты систем — это разные продукт с другой зависимости и процедуры развертывания. Сведения о версии 2 Скайп комнаты систем содержатся v2 систем комнаты Скайп [Общие сведения о развертывании](room-systems-v2.md).
+> Комнат группами Майкрософт — это разные продукт с другой зависимости и процедуры развертывания. Сведения о комнат группы Microsoft содержатся [Общие сведения о развертывании](room-systems-v2.md)комнат группы Microsoft.
   
 > [!NOTE]
 > Подготовка учетных записей системы комнаты Скайп зависит от типа topology в вашей организации есть. To know more about Active Directory topologies, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 

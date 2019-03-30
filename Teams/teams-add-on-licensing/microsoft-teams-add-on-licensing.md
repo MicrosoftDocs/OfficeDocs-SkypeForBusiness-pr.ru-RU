@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Сведения о лицензиях дополнительный компонент компонентов, которые вы получите с каждой лицензии, как приобрести их для операционной системы и порядок использования существующего поставщика с ними. Вы можете получать сведения на сведения о ценах и план для Office 365, кредитов обмена данными и планов вызова.
-ms.openlocfilehash: 9413a8384aadc08d77bf16bf155d12a8edad9447
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.openlocfilehash: 497881fc073297df36f0b26280e51694c69babcf
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948371"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013068"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Лицензирование надстроек Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "30948371"
 |**Бесплатные номера доступа к конференц-связи с телефонным подключением и возможность совершать исходящие звонки, позволяющие добавить к конференции с телефонным подключением других пользователей из любой точки мира** <br/> |При добавлении Аудиоконференций, мы рекомендуем вам [Настроить Кредиты на связь](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Телефонная система** <br/> |УАТС  это телефонная система вашей организации. Система телефона в Office 365 — размещенной телефонной связи. С ней вы можете реализовать традиционные и расширенные функции УАТС без приобретения сложного дорогостоящего оборудования. [Вот вы получаете с телефонной системой в Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> Если вы ищете как намного его расходов, видеть [Телефонной системой](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
 |**Планы звонков** <br/> |Звонки другим пользователям, группам доступны бесплатно, но если пользователи должны иметь возможность вызова любого телефонных номеров за пределами вашей организации получить [Вызов планирование](../calling-plans-for-office-365.md). У Office 365 существуют тарифные планы для местных либо тарифные планы для местных и международных звонков.  <br/> Если вы ищете как намного его расходов, ознакомьтесь со [Вызов планирование цена](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
-|**Системы комнат Skype версии 2** <br/> |Это не дополнительного компонента, но функциональная возможность, которая переводит видео-, аудио и общего доступа к содержимому для конференц-залов. В разделе [Скайп комнаты v2 систем](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
+|**Комнат группами Майкрософт** <br/> |Это не дополнительного компонента, но функциональная возможность, которая переводит видео-, аудио и общего доступа к содержимому для конференц-залов. В разделе [комнат группами Майкрософт](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
 
 [] Хотите узнать больше о параметрах надстроек? [Обращение в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
@@ -68,7 +68,7 @@ ms.locfileid: "30948371"
 - [Office 365 корпоративный E1 или E3](office-365-enterprise-e1-e3.md)
 - [Office 365 корпоративный E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 корпоративный E5 (без аудиоконференции)](office-365-enterprise-e5-without-audio-conferencing.md)
-- [Системы комнат Skype версии 2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Комнат группами Майкрософт](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [Государственные, образовательные и некоммерческие организации](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Просмотр цен и приобретение лицензий на надстройки

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Сводка: Подготовка к и реализовать отключение TLS 1.0 и 1.1 в вашей среде.'
-ms.openlocfilehash: c10be59bb3e14ccb0a3ac315891789e8a0e2ce64
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: dc835a68e47f9fac6036724d92ad336ead795e50
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886606"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012935"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Отключить протокол TLS 1.0/1.1 в Скайп для Business Server 2015
 
@@ -66,7 +66,7 @@ ms.locfileid: "30886606"
 #### <a name="devices"></a>Устройства
 
 - Система комнаты Lync (известной как SRSv1)
-- Версии 2 Скайп комнаты систем (известной как SRSv2)
+- Комнат группами Майкрософт
 - Контактной сервера-концентратора
 - на основе 2015, устройство для обеспечения связи в филиалах (SBA) или сервера обеспечения связи в филиалах (SBS)
 
