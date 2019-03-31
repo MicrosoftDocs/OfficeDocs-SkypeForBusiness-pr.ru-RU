@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a41e16b8e813fe3f8acb1a41d9c2751fa7c71e4c
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640940"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013639"
 ---
 # <a name="get-started-with-teams-templates"></a>Начало работы с шаблонами Teams 
 
@@ -64,14 +64,14 @@ ms.locfileid: "30640940"
 
 | Тип базового шаблона | Идентификатор базового шаблона | Свойства, входящие в состав этот базовый шаблон |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | Нет дополнительных приложений и свойства |
-| Образование-<br>Класс группы | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Приложения:<ul><li>Записной книжке OneNote класс (прикрепленных к вкладке « **Общие** ») </li><li>Назначения приложения (прикрепленных к вкладке « **Общие** »)</li></ul> Свойства группы:<ul><li>Группа видимости, задайте значение **HiddenMembership** (не может быть переопределен)</li></ul> |
-| Образование-<br>Группа персонала | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Приложения:<ul><li>Записной книжке OneNote персонала (прикрепленных к вкладке « **Общие** »)</li></ul> |
-|Образование-<br>Группа PLC |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Приложения:<ul><li>Записной книжке OneNote PLC (прикрепленных к вкладке « **Общие** »)</ul></li>|
-| Розничные-<br>Хранилище | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Каналы:<ul><li>SHIFT передачи</li><li>Обучение</li></ul>Свойства группы<ul><li>Общий видимости групп</li></ul>Разрешения участников<ul><li>Запретить члены из создание, обновление и удаление каналов</li><li>Запретить членам добавлять или удалять приложения</li><li>Запретить члены из создания, обновлять и удалять соединители</li></ul> |
-| Розничные-<br>Диспетчер совместной работы | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Каналы:<ul><li>SHIFT передачи</li><li>Обучение</li></ul>Свойства группы:<ul><li>Группа видимости установлено значение Private</li></ul>Разрешения участников:<ul><li>Запретить члены из создание, обновление и удаление каналов</li><li>Запретить членам добавлять или удалять приложения</li><li>Запретить члены из создания, обновлять и удалять соединители</li></ul>|
-| Здравоохранение-<br>Ворд |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |Каналы: <ul><li>Объявления\*</li><li>Huddles\*</li><li>Округляет</li><li>Набору кадров\*</li><li>Учебный курс по\*</li></ul>\*Auto-favorited каналов |
-|Здравоохранение-<br>Больница | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Каналы:<ul><li>Объявления\*</li><li>Соответствие требованиям\*</li><li>Наказание</li><li>Отдел кадров</li></li><li>Лекарства</li></ul>\*Auto-favorited канала|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | Нет дополнительных приложений и свойства |
+| Образование-<br>Класс группы | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Приложения:<ul><li>Записной книжке OneNote класс (прикрепленных к вкладке « **Общие** ») </li><li>Назначения приложения (прикрепленных к вкладке « **Общие** »)</li></ul> Свойства группы:<ul><li>Группа видимости, задайте значение **HiddenMembership** (не может быть переопределен)</li></ul> |
+| Образование-<br>Группа персонала | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Приложения:<ul><li>Записной книжке OneNote персонала (прикрепленных к вкладке « **Общие** »)</li></ul> |
+|Образование-<br>Группа PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Приложения:<ul><li>Записной книжке OneNote PLC (прикрепленных к вкладке « **Общие** »)</ul></li>|
+| Розничные-<br>Хранилище | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Каналы:<ul><li>SHIFT передачи</li><li>Обучение</li></ul>Свойства группы<ul><li>Общий видимости групп</li></ul>Разрешения участников<ul><li>Запретить члены из создание, обновление и удаление каналов</li><li>Запретить членам добавлять или удалять приложения</li><li>Запретить члены из создания, обновлять и удалять соединители</li></ul> |
+| Розничные-<br>Диспетчер совместной работы | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Каналы:<ul><li>SHIFT передачи</li><li>Обучение</li></ul>Свойства группы:<ul><li>Группа видимости установлено значение Private</li></ul>Разрешения участников:<ul><li>Запретить члены из создание, обновление и удаление каналов</li><li>Запретить членам добавлять или удалять приложения</li><li>Запретить члены из создания, обновлять и удалять соединители</li></ul>|
+| Здравоохранение-<br>Ворд |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Каналы: <ul><li>Объявления\*</li><li>Huddles\*</li><li>Округляет</li><li>Набору кадров\*</li><li>Учебный курс по\*</li></ul>\*Auto-favorited каналов |
+|Здравоохранение-<br>Больница | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Каналы:<ul><li>Объявления\*</li><li>Соответствие требованиям\*</li><li>Наказание</li><li>Отдел кадров</li></li><li>Лекарства</li></ul>\*Auto-favorited канала|
 |||
 
 > [!NOTE]
@@ -84,4 +84,4 @@ ms.locfileid: "30640940"
 - [Новые группы](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Обучение администратора для работы с Microsoft Teams](itadmin-readiness.md)
 - [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
-- [Начало работы с группами здравоохранения шаблонов](healthcare/healthcare-templates.md)
+- [Начало работы с шаблонами Teams для организаций здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates.md)

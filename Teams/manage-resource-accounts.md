@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Узнайте о управления учетными записями ресурсов в группах Майкрософт
-ms.openlocfilehash: b24538e73d236da2c7ee9e889b7cd117a3c931b0
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 345b3b8698f0c387f90b37cc1212c320a2d3d85d
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012957"
+ms.locfileid: "31013647"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -59,7 +59,7 @@ ms.locfileid: "31012957"
 > [!NOTE]
 > Если вы находитесь за пределами США, не могут использовать Центр администрирования группами Майкрософт для получения номера службы. Перейдите на [Управление телефонные номера для вашей организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) вместо этого на вашу за ее пределами США.
 
-## <a name="create-a-resource-account-in-admin-center"></a>Создание учетной записи ресурса в центре администрирования
+## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Создание учетной записи ресурса в центре администрирования группами Майкрософт
 
 Чтобы создать учетную запись ресурса в центре администрирования группами Майкрософт, перейдите к **масштабе организации параметры** > **учетные записи ресурса**, нажмите кнопку **+ Добавить**и заполните отображаемое имя, имя пользователя, а затем выберите имя домена и нажмите кнопку **Сохранить**.
 

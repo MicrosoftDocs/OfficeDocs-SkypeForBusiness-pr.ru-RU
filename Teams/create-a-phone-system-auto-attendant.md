@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Узнайте, как настроить и тестирование автосекретари телефонной системой (облако УАТС) для обработки для вашей организации эффективным звонков.
-ms.openlocfilehash: 8bf33e911e11ab7561cc09e0cd18f4cfaf314d98
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 32fbf066524ec73b6cfa683a493dc93c58932d7c
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013097"
+ms.locfileid: "31013655"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Настройка автосекретаря телефонной системы
 
@@ -211,7 +211,7 @@ ms.locfileid: "31013097"
   - **Сотрудник компании**, имеющий лицензию на**телефонную систему**и возможность подключения по корпоративной голосовой связи или планы звонков в Office 365. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лица в вашей компании** и установите их переадресация на голосовую почту напрямую звонков этому пользователю.
 
     > [!Note]
-    > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013. Lync Server 2010 не поддерживается.
+    > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013. 
     - Другой **автосекретаря**
 
        Существующего автосекретаря можно использовать для создания второго уровня параметры меню, содержащий подменю. Эти функции называются вложенными автосекретарями. Чтобы направить звонок в вложенных автосекретаря, выберите **лицо в компании** и назначьте учетной записи ресурса, введите одно с уже автосекретарю связанного или одного, которое будет связать автосекретарю. После завершения работы Создание этот автосекретарь.
@@ -227,8 +227,6 @@ ms.locfileid: "31013097"
 
 **Вызов по имени** Выбор этого параметра позволяет вызывающим абонентам выполнить поиск сотрудников организации, используя функцию поиска в каталоге. Вы можете выбрать, каких пользователей можно вызвать, используя функцию "Вызов по имени", а каких — нет, настроив эти параметры на странице **Область вызова.**. Используя функцию "Вызов по имени", можно найти любого онлайн-пользователя с лицензией на**телефонную систему**или локального пользователя, использующего Skype для бизнеса Server 2015 или Lync Server 2013.
 
-> [!WARNING]
-> Если локальный пользователь использует Lync 2010,**с ним нельзя связаться** с помощью функции "Вызов по имени".
 
 * * *
 
@@ -280,7 +278,7 @@ ms.locfileid: "31013097"
   - **Сотрудник компании**, имеющий лицензию на **телефонную систему**и возможность подключения по корпоративной голосовой связи или планы звонков в Office 365. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите **лицо в вашей компании**и задать этого пользователя их вызовы направляться непосредственно на голосовую почту.
 
     > [!Note]
-    > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013. Lync Server 2010 не поддерживается.
+    > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013. 
 
   - **Вызов очереди** переключение звонка на существующую очередь звонок, были установлены.
   - Другой **автосекретаря**, создание второго уровня параметры меню, содержащий подменю. Эти функции называются вложенными автосекретарями.
@@ -301,9 +299,6 @@ ms.locfileid: "31013097"
 - **Все активные пользователи** С помощью этого параметра позволяет всем пользователям в вашей организации, которые будут включены в поиск в каталоге. В список будут включены все онлайн-пользователи с лицензией на **телефонную систему**, а также локальные пользователи, использующие Skype для бизнеса Server 2015 или Lync Server 2013 и имеющие планы звонков в Office 365.
 - **Настраиваемая группа пользователей** Если этот параметр, можно выполнить поиск для группы Office 365, список рассылки или группу безопасности, которые были созданы в вашей организации и людей добавлена для этой группы Office 365, список рассылки или группу безопасности, которые либо **Online пользователи с Лицензия телефонной системы** или размещенных в локальной с помощью Скайп for Business Server 2015 или Lync Server 2013. Вы можете добавить несколько групп Office 365, списков рассылки и групп безопасности.
 
-  > [!Caution]
-  > Не будет отображаться локальных пользователей от развертывания Lync Server 2010, когда кто-то ищет в каталоге с помощью вызова по имени.
-
 * * *
 
 ![Номер 2](media/sfbcallout2.png)
@@ -312,9 +307,6 @@ ms.locfileid: "31013097"
 
 - **Нет**. Использование этой функции означает, что при поиске по справочнику никакие пользователи не исключаются из списка.   
 - **Настраиваемая группа пользователей** Если используется этот параметр, можно выполнить поиск для группы Office 365, список рассылки или группу безопасности, которые были созданы в вашей организации и всех людей добавлена в эту группу Office 365 списка рассылки или групп безопасности, которые будут исключены из поиск в каталоге. Вы можете добавить несколько групп Office 365, списков рассылки и групп безопасности.
-
-  > [!Caution]
-  > Не будет отображаться локальных пользователей от развертывания Lync Server 2010, когда кто-то ищет в каталоге с помощью вызова по имени.
 
 > [!NOTE]
 > Может потребоваться до 36 часов для их имена, перечисленные в каталоге с помощью вызова по имени распознавания речи нового пользователя.
@@ -337,24 +329,23 @@ ms.locfileid: "31013097"
 
 Далее перечислены командлеты, необходимые для управления автосекретарем.
 
- 
-- [Новый CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [SET-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps) 
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
-- [Новый CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
-- [Новый CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [Новый CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendant?view=skype-ps)  
+- [Set-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csOrganizationalautoattendant?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendant?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendantholidays?view=skype-ps) 
+- [Remove-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csOrganizationalautoattendant?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendantmenu?view=skype-ps) 
+- [Новый CsOrganizationalOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallFlow?view=skype-ps) 
+- [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsOrganizationalAutoAttendantHolidays?view=skype-ps) 
 - [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
 - [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
 - [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps) 
-- [Новый CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps) 
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps) 
-- [Импорт CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
-- [Новый CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedTimeZone?view=skype-ps)
+- [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallHandlingAssociation?view=skype-ps)
+- [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedLanguage?view=skype-ps)
+- [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csOrganizationalautoattendantholidays?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
 
 ### <a name="more-about-windows-powershell"></a>Дополнительные сведения о Windows PowerShell
 
