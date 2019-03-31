@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Начало работы с шаблонами Teams для организаций здравоохранения
-ms.openlocfilehash: 282c28661de3d2678f7b4b29129de4f80dece491
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 5482afa3302085f113a57ec7b6b9f3f188f7cffc
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013219"
+ms.locfileid: "31013631"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Начало работы с шаблонами Teams для организаций здравоохранения
 
@@ -157,3 +157,9 @@ ms.locfileid: "31013219"
           }
 
 ```
+
+## <a name="related-topics"></a>Связанные разделы
+
+[Начало работы с шаблонами Teams](../../get-started-with-teams-templates.md)
+
+[Начало работы с группами для организаций здравоохранения](teams-in-hc.md)
