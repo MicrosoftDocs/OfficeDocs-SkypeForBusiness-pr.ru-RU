@@ -566,7 +566,7 @@
 | 11.03.2019 | [Настройка аналитики звонков](/MicrosoftTeams/set-up-call-analytics) | Изменено |
 | 11.03.2019 | [Настройка планов звонков](/MicrosoftTeams/set-up-calling-plans) | Изменено |
 | 11.03.2019 | [Настройка кредитов на связь для организации](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | Изменено |
-| 11.03.2019 | [Настройка голосовой почты телефонной системы](/MicrosoftTeams/set-up-phone-system-voicemail) | Изменено |
+| 11.03.2019 | [Настройка облачной голосовой почты](/MicrosoftTeams/set-up-phone-system-voicemail) | Изменено |
 | 11.03.2019 | [Настройка телефонной системы в организации](/MicrosoftTeams/setting-up-your-phone-system) | Изменено |
 | 11.03.2019 | [Функция Shared Line Appearance в Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | Изменено |
 | 11.03.2019 | [Каковы ограничения для специальных знаков в политиках Teams?](/MicrosoftTeams/special-character-restrictions-in-policy-names) | Изменено |
@@ -948,7 +948,7 @@
 | 20.02.2019 | [Настройка планов звонков](/MicrosoftTeams/set-up-calling-plans) | Изменено |
 | 20.02.2019 | [Настройка лицензии для телефонов общего пользования для Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | Изменено |
 | 20.02.2019 | [Настройка кредитов на связь для организации](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | Изменено |
-| 20.02.2019 | [Настройка голосовой почты телефонной системы](/MicrosoftTeams/set-up-phone-system-voicemail) | Изменено |
+| 20.02.2019 | [Настройка облачной голосовой почты](/MicrosoftTeams/set-up-phone-system-voicemail) | Изменено |
 | 20.02.2019 | [Настройка телефонной системы в организации](/MicrosoftTeams/setting-up-your-phone-system) | Изменено |
 | 20.02.2019 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
 | 20.02.2019 | [Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams). | Изменено |
@@ -1160,7 +1160,7 @@
 | 01.03.2019 | [Настройка планов звонков](/MicrosoftTeams/set-up-calling-plans) | Изменено |
 | 01.03.2019 | [Настройка лицензии для телефонов общего пользования для Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | Изменено |
 | 01.03.2019 | [Настройка кредитов на связь для организации](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | Изменено |
-| 01.03.2019 | [Настройка голосовой почты телефонной системы](/MicrosoftTeams/set-up-phone-system-voicemail) | Изменено |
+| 01.03.2019 | [Настройка облачной голосовой почты](/MicrosoftTeams/set-up-phone-system-voicemail) | Изменено |
 | 01.03.2019 | [Настройка телефонной системы в организации](/MicrosoftTeams/setting-up-your-phone-system) | Изменено |
 | 01.03.2019 | [Ограничения и запреты для бесплатных номеров](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | Изменено |
 | 01.03.2019 | [Ограничения набора бесплатных номеров в Аргентине](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | Изменено |
