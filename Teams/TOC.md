@@ -22,9 +22,6 @@
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ## [Создание команды для всей организации в Teams](create-an-org-wide-team.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
-## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
-## [Шаблоны Teams для здравоохранения](healthcare/healthcare-templates.md)
-## [Шаблоны Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
 ## [Общение с пользователями Teams из других организаций](let-your-teams-users-communicate-with-other-people.md)
@@ -590,8 +587,7 @@
 ### [Информированность и внедрение обучения](teams-adoption-drive-awareness.md)
 ### [Планирование проверок работоспособности служб](teams-adoption-schedule-service-health-reviews.md)
 <!-- ============================================================ -->
-#       
-#        
+
 
 <!-- ============================================================ -->
 # [Переход на Teams](upgrade-introduction.md)
@@ -626,15 +622,50 @@
 ### [Миграция и взаимодействие со Skype для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
 ### [Сосуществование со Skype для бизнеса](coexistence-chat-calls-presence.md)
 ### [Взаимодействие с клиентом Teams и соответствие режимам сосуществования](teams-client-experience-and-conformance-to-coexistence-modes.md)
+
 <!-- ============================================================ -->
-#       
-#        
+# 
+# 
+
+# [Использование Teams во всей организации](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
+## ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
+### [Прекращение поддержки Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
+### [В Microsoft Teams вскоре появятся возможности для сотрудников без компьютеров](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [Перемещение групп Microsoft StaffHub в приложение "Смены" в Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Управление приложением "Смены" для вашей организации в Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
+## [Teams для сферы здравоохранения](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+### [Начало работы с Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+
+## [Teams для сферы образования](expand-teams-across-your-org/teams-for-education-landing-page.md)
+### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
+### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
+### [Управление решениями Майкрософт для образования: вопросы и ответы для администраторов](plan-teams-governance-edu.md)
+
+## [Teams для розничной торговли](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
+
+## [Teams для государственных организаций](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Планирование развертываний Microsoft 365 для государственных организаций — GCC](plan-for-government-gcc.md)
+### [Планирование развертываний Microsoft 365 для государственных организаций — GCC High](plan-for-government-gcc-high.md)
+### [Планирование развертываний Microsoft 365 для государственных организаций — DoD](plan-for-government-dod.md)
+
+<!-- ============================================================ -->
+
+# 
+# 
+
+<!-- ============================================================ -->
 
 # [Обучение](training-microsoft-teams-landing-page.md)
 ## [Учебные курсы с инструктором для Teams](instructor-led-training-teams-landing-page.md)
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
 ## [Обучение конечных пользователей для работы с Teams](enduser-training.md)
 <!-- ============================================================ -->
+
 
 # Справочные материалы
 
@@ -683,20 +714,6 @@
 #### [Включение и использование панели мониторинга качества звонков](turning-on-and-using-call-quality-dashboard.md)
 #### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Классификация потоков на панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)
-
-## Teams для образовательных учреждений
-### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
-### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
-### [Управление решениями Майкрософт для образования: вопросы и ответы для администраторов](plan-teams-governance-edu.md)
-
-## Teams для сотрудников без компьютеров
-### [Прекращение поддержки Microsoft StaffHub](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
-### [Управление приложением "Смены" для организации в Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
-
-## [Планирование развертываний Microsoft 365 для государственных организаций — GCC](plan-for-government-gcc.md)
-### [Планирование развертываний Microsoft 365 для государственных организаций — GCC High](plan-for-government-gcc-high.md)
-### [Планирование развертываний Microsoft 365 для государственных организаций — DoD](plan-for-government-dod.md)
 
 ## [Обзор PowerShell в Teams](teams-powershell-overview.md)
 ### [Справочник по командлетам PowerShell для Teams](https://docs.microsoft.com/powershell/module/teams)
