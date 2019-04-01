@@ -15,6 +15,10 @@
 
 ### [Активация пользователей телефонной системы с возможностью подключения к локальной ТСОП в Skype для бизнеса Server](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
+#### [Включение локальной корпоративной голосовой связи для пользователей](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
+#### [Назначение политики маршрутизации голосовой связи](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
+#### [Предоставление пользователям доступа к корпоративной голосовой связи через сеть и телефонной системе в голосовой почте Office 365](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+
 
 ### [Планирование Skype для бизнеса Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 #### [Планирование узлов ТСОП Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
@@ -100,7 +104,7 @@
 #### [Клиенты собраний](../plan-your-deployment/clients-and-devices/meetings-clients.md)
 ##### [Минимальные требования к сети для приложения "Собрания Skype"](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Требования для Windows Phone](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
-<!-- #### [Skype Room Systems v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+<!-- #### [Microsoft Teams Rooms](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ##### [Support for current branch versions](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
 ##### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ##### [Prepare your Environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
@@ -575,7 +579,7 @@
 
 ### [Видеодемонстрация экрана](../manage/video-based-screen-sharing.md)
 
-<!-- ### [Skype Room Systems v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+<!-- ### [Microsoft Teams Rooms](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
 #### [XML config file](../manage/skype-room-systems-v2/xml-config-file.md)
