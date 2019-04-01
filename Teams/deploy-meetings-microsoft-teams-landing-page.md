@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afd7e15f759caafdc76dc2f20777f4d3ab66d672
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: f4cd3af52b98bb80d7424b84be71416dbceb6250
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889771"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013060"
 ---
 # <a name="meetings--conferencing-in-microsoft-teams"></a>Собрания и конференции в Microsoft Teams
 
@@ -156,7 +156,7 @@ Teams предоставляет набор настраиваемых роле�
 
 | Задайте себе вопрос | Действие |
 |--------------|--------|
-| Что нужно делать для развертывания систем конференц-залов?|Ознакомьтесь со статьями [Планирование комнатных систем Skype v2](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+| Что нужно делать для развертывания систем конференц-залов?|См. статьи [Планирование комнат Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 
 ### <a name="cloud-video-interop"></a>Облако видеовзаимодействия
