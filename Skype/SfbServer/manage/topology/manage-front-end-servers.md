@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Сводка: Узнайте, как добавление, удаление, исправление или обновление серверов переднего плана в Скайп для Business Server.'
-ms.openlocfilehash: c7ccaee0ee70c10b855053fb63c39cfead148f4e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bfd090ab007523ff05795aff012e4a01da4a0175
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875224"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026183"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Управление серверами переднего плана в Скайп для Business Server
  
@@ -47,6 +47,9 @@ ms.locfileid: "30875224"
     
     > [!IMPORTANT]
     > При добавлении или удалении сервера из пула в топологии и последующей публикации измененной топологии все серверы в пуле будут перезагружены одновременно. В течение перезагрузки пул остается недоступным для подключенных к нему пользователей. Чтобы предотвратить перерыв в обслуживании, публикацию топологии с новым сервером в пуле необходимо запланировать на период за пределами рабочего времени. 
+  
+  > [!NOTE]
+> Кроме того при добавлении или удаление сервера в пул необходимо запуск Скайп для мастер развертывания Business Server на компьютере добавлен или удален, Дополнительные сведения, можно [Установить Скайп для Business Server на серверах в топологии](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
 4. При изменении числа серверов в пуле переднего плана в любом из указанных ниже способов, затем перезапустите пул с, введя следующий командлет: Reset-CsPoolRegistrarState - ResetType FullReset - PoolFqdn 
     

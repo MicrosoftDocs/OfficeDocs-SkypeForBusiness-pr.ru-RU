@@ -3,7 +3,7 @@ title: Авторизация гостевого доступа в Microsoft Tea
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 11/26/18
+ms.date: 04/01/19
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Управление функциями и возможностями гостевого доступа Microsoft Teams ведется с помощью четырех разных уровней авторизации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b98eb03a8a77e878354ed07e3104b1b6d91b4aa
-ms.sourcegitcommit: 8af806727bfdc5a90c41f957f6ae1671946277dc
+ms.openlocfilehash: 87b0e6bf1f920ea4eaab4a4ed2bfb3f314b60601
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30936459"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026066"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Авторизация гостевого доступа в Microsoft Teams
 ===========================================

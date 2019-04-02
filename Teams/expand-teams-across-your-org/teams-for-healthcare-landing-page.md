@@ -1,5 +1,5 @@
 ---
-title: Группы конструкторов здравоохранения
+title: Teams для сферы здравоохранения
 description: Используйте следующие ресурсы для максимально эффективному использованию группами в организации здравоохранения.
 layout: LandingPage
 ms.topic: landing-page
@@ -12,14 +12,14 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9957bfda5a30dc40350220cf6d5707604c5f3b06
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.openlocfilehash: d5033c7479a8b457a18395a9e8a8fae4740ba06a
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013623"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026199"
 ---
-# <a name="teams-for-healthcare"></a>Группы конструкторов здравоохранения
+# <a name="teams-for-healthcare"></a>Teams для сферы здравоохранения
 
 Команды предоставляет медицинскими сотрудниками и медицинским работникам является безопасным способом связи, координации пациента медицинскими и повысить эффективность. Здесь вы найдете admin ресурсы, необходимые для управления группами для здравоохранения групп в вашей организации.
 
@@ -31,11 +31,11 @@ ms.locfileid: "31013623"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="walkthrough" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Начало работы с группами для организаций здравоохранения</h3>
+                        <h3>Начало работы с Teams для организаций в сфере здравоохранения</h3>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ ms.locfileid: "31013623"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Начало работы с шаблонами Teams для организаций здравоохранения</h3>
+                        <h3>Начало работы с шаблонами Teams для организаций в сфере здравоохранения</h3>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ ms.locfileid: "31013623"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Начало работы с безопасного обмена сообщениями для организаций здравоохранения</h3>
+                        <h3>Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения</h3>
                     </div>
                 </div>
             </div>

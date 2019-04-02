@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49d8ea5235c490b38c0ef52bf5cf5a9903c4137c
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 2eb6e6616d1164dad462e349a80e7ac36cc5ce1e
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013283"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026215"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Перемещение ваших команд Microsoft StaffHub смены в группах Майкрософт
 
@@ -128,7 +128,7 @@ Get-TeamMigrationJobStatus <Int32>
 
 ### <a name="raise-awareness"></a>Сведения о вызовет
 
-При вы готовы к выходит за пределы пилотных групп и перемещение группы StaffHub вашей организации командами, важно сначала передачи изменения в организации. Распространение слов о смены и перехода к группам для возведения сведения о, создания волнение и внедрения.
+При вы готовы к выходит за пределы пилотных групп и перемещение групп StaffHub вашей организации командами, важно сначала передачи изменения в организации. Распространение слов о смены и перехода к группам для возведения сведения о, создания волнение и внедрения.
 
 ### <a name="move-your-staffhub-teams"></a>Перемещение ваших команд StaffHub
 

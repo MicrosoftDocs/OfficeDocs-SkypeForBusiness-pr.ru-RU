@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Узнайте, как включить и использовать Скайп для панели мониторинга качества Online вызовов бизнес и получить сводные отчеты о качестве вызовов. '
-ms.openlocfilehash: 134d0f636719592edca1060d86fbf4fb7c2d9db6
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 38332fdcf8cb2f5e1f26d45b67d85dc17610a42d
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543145"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026239"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для групп Майкрософт и Скайп для бизнеса в Интернет
 
@@ -77,7 +77,7 @@ ms.locfileid: "30543145"
 > [!NOTE]
 > Она может занять несколько часов для обработки достаточно данных для отображения значимых результатов в отчетах. 
   
-## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>Интернет-версия функции мониторинга качества звонков для Скайп для бизнеса
+## <a name="features-of-the-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Функции панели мониторинга качества звонков для групп Майкрософт и Скайп для бизнеса Интернет-версия 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
 Отчеты по Сводка CQD предоставляют часть функций, запланированных для подробных отчетов. Ниже перечислены различия между двумя версиями:

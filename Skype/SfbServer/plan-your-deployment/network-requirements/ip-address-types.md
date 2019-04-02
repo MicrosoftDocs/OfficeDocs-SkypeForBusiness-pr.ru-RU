@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Сводка: Обзор рекомендаций типа IP-адрес ниже перед реализацией Скайп для Business Server.'
-ms.openlocfilehash: 82c2cac46efe2513c6506bf57ab5c181c7a32202
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4ebf8c3329358e526f86dd90eb4cbc0340d06606
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892125"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026058"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Настройка типов IP-адресов в Skype для бизнеса
 
@@ -51,7 +51,7 @@ ms.locfileid: "30892125"
    - **PSTN IP address** (IP-адрес ТСОП). Укажите IP-адрес ТСОП, используемый при расположении сервера-посредника на сервере переднего плана. Введенный IP-адрес должен соответствовать формату выбранного типа адресов.
 
 > [!NOTE]
-> Установка дополнительных сетевых карт (сетевых адаптеров) для поддержки ТСОП IP-адрес на серверах переднего плана не поддерживается. Дополнительные сведения о поддерживаемых конфигурациях сетевой Адаптер для Скайп для Business Server можно [аппаратные серверные платформы для Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> Установка дополнительных сетевых карт (сетевых адаптеров) для поддержки ТСОП IP-адрес (или по другой причине) на серверах переднего плана не поддерживается. Дополнительные сведения о поддерживаемых конфигурациях сетевой Адаптер для Скайп для Business Server можно [аппаратные серверные платформы для Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Развертывание типов IP-адресов на сервере-посреднике
 

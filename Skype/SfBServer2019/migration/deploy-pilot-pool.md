@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Один из первого действия, необходимые для перехода на Скайп для Business Server 2019 — развертывание пилотного пула. Пилотного пула —, где выполняется тестирование сосуществования Скайп для Business Server 2019 с устаревшее развертывание. Совместная работа — это временное состояние, занимающего, пока не будут перемещены все пользователи и группы в Скайп для Business Server 2019.
-ms.openlocfilehash: e0ac949b0cc7a52e1da5edd9f150e5f59717c08f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26f391a485c991aa3575498b98b181f1b5ac761c
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890657"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026051"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Развертывание Скайп for Business Server 2019 пилотного пула
 
@@ -53,6 +53,10 @@ ms.locfileid: "30890657"
 10. Чтобы опубликовать топологию, щелкните правой кнопкой мыши узел **Скайп для Business Server** и нажмите кнопку **Опубликовать топологию**.
   
 11. По завершении процесса публикации нажмите кнопку **Готово**.
+
+12. Перед вызовом переход к следующему разделу «Проверка возможности совместного использования пилотного устаревшего пула» необходимо установить Скайп для Business Server нового пула переднего плана пилотного, было определено в опубликованной топологии, следуйте инструкциям, приведенным ниже [Установка Скайп для Business Server на серверах в топологии](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+
+13. После завершения предыдущих шага перемещение к следующему разделу Проверка возможности совместного использования пилотного пула прежних версий.
     
 <!-- To install a local copy of the configuration store and start the required services, see 
 [Setting up Front End Servers and Front End pools for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation.  -->

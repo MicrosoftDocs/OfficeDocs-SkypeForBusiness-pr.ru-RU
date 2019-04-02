@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Узнайте, как настроить телефонной системой для телефонной системой очередей вызова обеспечивающее организационной приветствия музыку при удержании и Перенаправление звонков на вызов агентам в списки рассылки и группы безопасности. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: a44bd5b00b47655dc950ee01f82ffd0c0a308466
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: be8055dfe1d92caa7e3416740856ab2b6578e799
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012975"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026231"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Создание очереди звонков в телефонной системе
 
@@ -209,7 +209,7 @@ Phone System call queues include greetings that are used when someone calls in t
  3. На странице пользовательских параметров нажать на кнопку **Очереди вызовов**, а затем — снять  флажки для всех очередей, прием вызовов из которых следует отключить.
 
     > [!NOTE]
-    > Операторы, использующие клиент Mac, мобильный клиент или клиент Lync 2013, а также локальные пользователи Hybrid Voice, пользующиеся сервером Skype для бизнеса 2015, могут перейти к [https://aka.ms/cqsettings](https://aka.ms/cqsettings) для доступа к функции отказа от приема вызовов.
+    > Агенты, отличный от с помощью приложения или конечные точки Скайп для бизнеса рабочего стола можно получить доступ явного out-параметр с портала параметры пользователя [https://aka.ms/cqsettings](https://aka.ms/cqsettings).
 
 ![Номер 2](media/sfbcallout2.png)
 **настройки агента оповещений**
