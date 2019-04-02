@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771736"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026105"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
 
@@ -108,7 +108,8 @@ ms.locfileid: "30771736"
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
-|Поддержка веб-клиента Safari  <br/> |Пользователи, пытающиеся открыть веб-клиент Microsoft Teams в Safari, перенаправляются на страницу скачивания классического клиента. Корпорация Майкрософт рассматривает возможность поддержки Safari и сообщит новости в рамках [стратегии развития Teams](https://aka.ms/TeamsRoadmap).  <br/> |Используйте поддерживаемые интернет-браузеры: Internet Explorer 11, Microsoft Edge 12, Chrome 51.0, Firefox 47.0 и их более поздние версии.  <br/> |02.11.2016  <br/> |
+|Поддержка веб-клиента Safari  <br/> | Приложение Teams теперь доступно в предварительной версии в Safari 11.1+ для macOS. В предварительной версии у пользователей могут возникать проблемы, связанные с функцией интеллектуального предотвращения отслеживания Safari. [Известные проблемы Safari](https://go.microsoft.com/fwlink/?linkid=2062082).  <br/> | Пока поддержка браузеров Safari находится в предварительной версии, выберите **Параметры > Конфиденциальность**  и снимите флажок параметра  **Мешать перекрестному отслеживанию** . Затем закройте браузер и вернитесь на сайт teams.microsoft.com в Safari. <br/> |02.11.2016  <br/> |
+
 
 ## <a name="channels"></a>Каналы
 
