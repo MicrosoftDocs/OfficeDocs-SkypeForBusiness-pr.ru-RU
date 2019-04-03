@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c4d68d9ac41a3dfff1ca5863869726040b36bb4
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 3fcd7fcbc2de14f5ecf90ceffdaaafccab8ce2fc
+ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013307"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31043415"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Прекращение поддержки Microsoft StaffHub
 
@@ -32,7 +32,7 @@ ms.locfileid: "31013307"
 
 #### <a name="when-will-staffhub-be-retired"></a>Когда будет StaffHub из эксплуатации?
 
-Запуск середине апреля 2019 Microsoft StaffHub больше не будут доступны для новых клиентов. Текущий пользователи по-прежнему смогут использовать службу до октября 1,2019, однако не дополнительные возможности будут доступны.
+Запуск середине апреля 2019 Microsoft StaffHub больше не будут доступны для новых клиентов и вы больше не смогут получить доступ к приложению из запуска приложения для Office 365. Текущий пользователи по-прежнему смогут использовать службу до октября 1,2019, однако не дополнительные возможности будут доступны.
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>Что произойдет, если не поддерживается StaffHub?
 
