@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Ссылки для ИТ-специалистов на сведения о последних обновлениях бессрочных лицензий для клиентов Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013
-ms.openlocfilehash: 2c430b28cb16c5d3d06b0cf5fff02278ccd498fd
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 8b82923625b8ce686a5898a3d271734aeb8e4ab0
+ms.sourcegitcommit: 4175b376cb8b406dcb3c338dcddf9f01c15eca5e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408308"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31398374"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Последние обновления версий Skype для бизнеса, в которых используется установщик Windows (MSI)
 
 По ссылкам, указанным на этой странице, находятся дополнительные сведения о последних обновлениях бессрочных лицензий для клиентов Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013, а также соответствующие файлы для скачивания.
 
 > [!NOTE]
-> - Сведения в этой статье применимы только к бессрочным лицензиям для клиентов Skype для бизнеса, в которых используется установщик Windows (MSI). Например, к версии корпоративного лицензирования Skype для бизнеса, например, входящую в Office профессиональный плюс 2016.
+> - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
 > - Сведения в этой статье не применимы к версиям Skype для бизнеса для Office 365, например, входящим в Office 365 профессиональный плюс.
 > - Просмотреть сведения о последних обновлениях мобильных клиентов, а также скачать установочные файлы можно в магазине приложений вашего мобильного клиента (iTunes, Google Play или Microsoft Store).
 > - Чтобы узнать, какую версию Skype для бизнеса вы используете, ознакомьтесь со статьей [Какая у меня версия Skype для бизнеса?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
@@ -30,7 +30,7 @@ ms.locfileid: "30408308"
 
 Совместимость Skype для бизнеса с Office 365 и вашей локальной средой зависит от требований к системе для вашего развертывания.
 
-- Служба Office 365 совместима с любой версией Skype для бизнеса с основной фазой поддержки, включая последнюю версию Skype для бизнеса 2016. Из предыдущих серий Skype для бизнеса продолжить работу с Office 365 смогут только имеющие расширенную поддержку, однако их функциональность будет ограничена. Дополнительные сведения см. в разделе [Политика жизненного цикла Майкрософт](https://support.microsoft.com/lifecycle).
+- Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
 
 - Для локальных развертываний Skype для бизнеса Server должны быть выполнены требования к системе для вашей версии Skype для бизнеса:
 
@@ -42,6 +42,9 @@ ms.locfileid: "30408308"
 
 |Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:---  |:---  |:---  |
+|Обновление для Skype для бизнеса 2016 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4462234](https://support.microsoft.com/kb/4462234/) | Апрель 2019|
+|Обновление для Skype для бизнеса 2016 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4462190](https://support.microsoft.com/kb/4462190/) | Март 2019|
+|Обновление для Skype для бизнеса 2016 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4462114](https://support.microsoft.com/kb/4462114/) | Февраль 2019|
 |Обновление для Skype для бизнеса 2016 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4461586](https://support.microsoft.com/kb/4461586/) | Январь 2019|
 |Обновление для Skype для бизнеса 2016 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4461545](https://support.microsoft.com/kb/4461545/) | Декабрь 2018|
 |Обновление для системы безопасности для Skype для бизнеса 2016 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4461473](https://support.microsoft.com/kb/4461473/) | Ноябрь 2018|
@@ -84,6 +87,7 @@ ms.locfileid: "30408308"
 
 |Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Обновление для Skype для бизнеса 2015 или Lync 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4462207](https://support.microsoft.com/kb/4462207/)| Апрель 2019 |
 |Обновление для Skype для бизнеса 2015 или Lync 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4461557](https://support.microsoft.com/kb/4461557/)| Январь 2019 |
 |Обновление для системы безопасности для Skype для бизнеса 2015 или Lync 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4461487](https://support.microsoft.com/kb/4461487/)| Ноябрь 2018 |
 |Обновление для Skype для бизнеса 2015 или Lync 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4461446](https://support.microsoft.com/kb/4461446/)| Октябрь 2018 |
@@ -133,10 +137,7 @@ ms.locfileid: "30408308"
 
 ### <a name="skype-for-business-on-mac-client-updates"></a>Обновления клиентов Skype для бизнеса на Mac
 
-|Имя пакета|Дата выпуска|
-|:--- |:--- |
-|[Обновление для Skype для бизнеса на Mac](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | Июнь 2018 г. |
-|[Текущие заметки о выпуске для Skype для бизнеса на Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | Июнь 2018 г. |
+[Текущие заметки о выпуске для Skype для бизнеса на Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac)
 
 * * *
 
@@ -144,6 +145,7 @@ ms.locfileid: "30408308"
 
 Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Обновление для Skype для бизнеса 2015 или Lync 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4462207](https://support.microsoft.com/kb/4462207/)| Апрель 2019 |
 |Обновление для Skype для бизнеса 2015 или Lync 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4461557](https://support.microsoft.com/kb/4461557/)| Январь 2019 |
 |Обновление для системы безопасности для Skype для бизнеса 2015 или Lync 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4461487](https://support.microsoft.com/kb/4461487/)| Ноябрь 2018 |
 |Обновление для Skype для бизнеса 2015 или Lync 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4461446](https://support.microsoft.com/kb/4461446/)| Октябрь 2018 |
@@ -206,7 +208,7 @@ ms.locfileid: "30408308"
 |Обновления для Lync 2013 | [СТАТЬЯ БАЗЫ ЗНАНИЙ 2850057](http://support.microsoft.com/kb/2850057) | Сентябрь 2013 г.  |
 |Обновления для Lync 2013 | [СТАТЬЯ БАЗЫ ЗНАНИЙ 2817630](http://support.microsoft.com/kb/2817630) | Декабря 2013 г.  |
 |Обновления для Lync 2013 | [СТАТЬЯ БАЗЫ ЗНАНИЙ 2817465](http://support.microsoft.com/kb/2817465) | Июль 2013 г.  |
-|Обновления для Lync 2013 | [СТАТЬЯ БАЗЫ ЗНАНИЙ 2768004](http://support.microsoft.com/kb/2768004) | Май 2013 г.  |
+|Обновления для Lync 2013 | [СТАТЬЯ БАЗЫ ЗНАНИЙ 2768004](http://support.microsoft.com/kb/2768004) | Мая 2013 г.  |
 |Обновления для Lync 2013 | [СТАТЬЯ БАЗЫ ЗНАНИЙ 2760556](http://support.microsoft.com/kb/2760556) | Март 2013 г.  |
 |Обновления для Lync 2013 | [СТАТЬЯ БАЗЫ ЗНАНИЙ 2812461](http://support.microsoft.com/kb/2812461) | Февраль 2013 г.  |
 
@@ -248,7 +250,7 @@ ms.locfileid: "30408308"
 Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Обновление для Lync для Mac 2011 |[Статья базы знаний 3175174](https://support.microsoft.com/kb/3175174)|Июль 2016 г.|
-|Накопительные пакеты обновления для Lync для Mac 2011 |[Статья базы знаний 3074981](https://support.microsoft.com/kb/3074981)|Июль 2015 г.|
+|Накопительные пакеты обновления для Lync для Mac 2011 |[Статья базы знаний 3074981](https://support.microsoft.com/kb/3074981)|Июль 2015 г.|
 
 ### <a name="lync-2010-client-updates"></a>Обновления клиентов Lync 2010
 
