@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: afe1ce61a5c5f137b5123cb530094d6a651ecf7f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541786"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517073"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -76,6 +76,8 @@ ms.locfileid: "30541786"
 
       > [!NOTE]
      > Средства будут расходоваться только на оплату кредитов на связь по опубликованным корпорацией Майкрософт тарифам при использовании служб. Средства, не израсходованные за 12 месяцев с даты приобретения, списываются и не могут использоваться для оплаты. 
+     > 
+     > Ежемесячно по выставлению счетов для обмена данными кредитов он применяется только при использовании средств счете, чтобы узнать, как проверка ежемесячный использования, прочитайте [Скайп для отчета об использовании PSTN бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. Введите платежные данные и выберите команду **Заказать**.
     >[!IMPORTANT]
@@ -83,7 +85,7 @@ ms.locfileid: "30541786"
     
 У каждой организации свой объем по плану звонков и свои тарифы. Эти сведения необходимо получить у своего текущего поставщика услуг. Организации, уже использующие в качестве поставщика услуг Skype для бизнеса Online, могут получить данные по использованию в отчете ( **Центр администрирования Skype для бизнеса** > **Отчеты** > **Сведения об использовании ТСОП**).
   
-При настройке кредитов на связь нужно проанализировать объем звонков в своей организации, чтобы определить сумму пополнения счета. Сведения об объеме звонков можно получить в отчете **Сведения об использовании ТСОП**. Если требуется сохранить данные по звонкам или создавать специализированные отчеты, можно экспортировать записи из этого отчета в Excel. Об использовании см [Скайп для отчета об использовании PSTN бизнеса](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
+При настройке кредитов Communications необходимо получение сведений об использовании звонка для вашей организации определить суммы, необходимую. Сведения о звонках можно получить в отчете **Сведения об использовании ТСОП**. В этом отчете позволяет экспортировать записи данных о вызовах в Excel, если вам требуется для хранения данных или создание настраиваемых отчетов. Чтобы узнать, как для просмотра об использовании, ознакомьтесь с [Скайп для отчета об использовании PSTN бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Шаг 3. Назначение лицензии на кредиты на связь пользователям
 
@@ -116,7 +118,7 @@ ms.locfileid: "30541786"
 
 - [Настройка Skype для бизнеса Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Настройка голосовой почты телефонной системы — справка для администраторов](set-up-phone-system-voicemail.md)
+- [Настройка облачной голосовой почты — справка для администратора](set-up-phone-system-voicemail.md)
     
 - [Настройка в Тарифных планов](set-up-calling-plans.md) и [Тарифные планы для Office 365](calling-plans-for-office-365.md)
     

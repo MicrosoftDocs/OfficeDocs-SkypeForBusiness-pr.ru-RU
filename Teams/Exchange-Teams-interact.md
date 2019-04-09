@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 560e1f81db6e8150bcd8d686747bfb297cbfcf84
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: bdb998587eefd0eb15477b26799d487e041df220
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569984"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516801"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams 
 =========================================
@@ -27,7 +27,7 @@ ms.locfileid: "30569984"
 > [!Tip]
 > Просмотрите следующие сеанса, чтобы узнать, как группы взаимодействует с Azure Active Directory (AAD), группы Office 365, Exchange, SharePoint и OneDrive для бизнеса: [Основы группами Майкрософт](https://aka.ms/teams-foundations)
 
-Для полноценной работы с Microsoft Teams сотруднику нужно разрешить использовать Exchange Online, SharePoint Online, а также создавать группы Office 365.
+Для полноценной работы с Teams каждому сотруднику нужно разрешить использовать Exchange Online, SharePoint Online, а также создавать группы Office 365.
 
 Почтовые ящики пользователей Exchange могут размещаться как в сети, так и локально. Пользователям, размещенным в Exchange Online или Exchange Dedicated vNext, доступны все функции Teams. Они могут создавать команды и каналы и присоединяться к ним, создавать и просматривать собрания, изменять аватары, добавлять и настраивать соединители, вкладки и боты, а также общаться в звонках и чате.
 
@@ -66,13 +66,15 @@ ms.locfileid: "30569984"
 
 -   Функции обеспечения безопасности и соответствия в Microsoft Teams, такие как обнаружение электронных данных, поиск контента, архивация и удержание по юридическим причинам, лучше всего работают в средах Exchange Online и SharePoint Online. Во время бесед в каналах сообщения передаются в почтовый ящик группы Exchange Online, где они доступны для обнаружения электронных данных. Если пользователи организации имеют доступ к SharePoint Online и OneDrive для бизнеса (с помощью учебной или рабочей учетной записи), эти функции по обеспечению соответствия также доступны для всех файлах в Teams.
 
--   Для локальную систему Exchange необходимо настроить новый протокол проверки подлинности Exchange OAuth, как описано в разделе [Настройка OAuth authentication между организациями Exchange и Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
+-   Для локальную систему Exchange необходимо настроить новый протокол проверки подлинности Exchange OAuth, как описано в разделе [Настройка OAuth authentication между организациями Exchange и Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
+
+-  Контроль и Защита конфигурации политики соответствия в группы и Exchange с помощью условного доступа. Дополнительные сведения можно [как политики условного доступа работают для групп?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
 
 > [!NOTE]
 > Если согласно применяемым в вашей организации требованиям соответствия все обсуждения на собраниях должны быть доступны для обнаружения, следует отключить частные собрания, когда организатор использует почтовый ящик в локальной организации Microsoft Exchange.
 > 
 > [!IMPORTANT]
-> В гибридном развертывании Exchange содержимого из сообщения с возможностью поиска, независимо от того, есть ли у участников беседы облачного почтового ящика или локального почтового ящика. Для получения дополнительных сведений, прочитайте [поиска облачные почтовые ящики для локальных пользователей в Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Дополнительные сведения о поиске содержимого в группах, прочитайте [Содержимое поиска в центре соответствия требованиям & безопасности Office 365](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+> В гибридном развертывании Exchange содержимого из сообщения с возможностью поиска, независимо от того, есть ли у участников беседы облачного почтового ящика или локального почтового ящика. Для получения дополнительных сведений, прочитайте [поиска облачные почтовые ящики для локальных пользователей в Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Дополнительные сведения о поиске содержимого в группах, прочитайте [Содержимое поиска в центре соответствия требованиям & безопасности Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 > 
 > [!TIP]
 > Сведения об использовании Azure AD подключение для синхронизации с Azure Active Directory в разделе [Интеграция вашей локальной удостоверения с помощью Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).

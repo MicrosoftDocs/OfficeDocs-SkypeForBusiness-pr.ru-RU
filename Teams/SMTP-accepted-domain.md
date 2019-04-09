@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Сведения для добавления домена SMTP группы Microsoft как домена разрешенных отправителей в Exchange Online для отправки уведомления участников группы.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce0448ccdd124cf21db417f496d562e6fa9b6b76
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c4a1a94bec69b1c7953dea6802d62058b04700bb
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464470"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516809"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Добавление SMTP-домена Microsoft Teams в качестве доверенного отправителя в Exchange Online 
 =============================================================================
@@ -28,7 +28,7 @@ ms.locfileid: "30464470"
 
 ![Снимок экрана с примером заголовка сообщения Outlook, указывающего, что пользователь добавлен в группу.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-Teams использует Microsoft Exchange Online и для отправки уведомлений членам команды при их добавлении. Разница сейчас домена полное доменное имя SMTP-сообщения «@email.teams.microsoft.com» для Commerical или бизнес-клиентов и «@GCC-email.teams.com» для правительственных клиентов и может обнаруживаться фильтрации нежелательной почты.
+Teams использует Microsoft Exchange Online и для отправки уведомлений членам команды при их добавлении. Разница сейчас домена полное доменное имя SMTP-сообщения «@email.teams.microsoft.com» для коммерческих или бизнес-клиентов и «@GCC-email.teams.com» для правительственных клиентов и может обнаруживаться фильтрации нежелательной почты.
 
 ![Снимок экрана с примером заголовка сообщения Outlook, указывающего, что пользователь добавлен в группу.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 

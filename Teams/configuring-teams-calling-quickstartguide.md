@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cd8f5a2d0402418bb2a8c0e5a2c20bc95aeef68
-ms.sourcegitcommit: 2dd1369e5112b0c4ed7c6b0be8a17489b71f494a
+ms.openlocfilehash: 980bb0ad6602cc25df5743f1932fbc76092e7842
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30469748"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516825"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams
 ==============================================================
@@ -37,22 +37,22 @@ ms.locfileid: "30469748"
 
 ![Звонки в Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Что необходимо для активации вкладки **Звонки** в Teams
-Включение вкладки **звонки** в группах пользователи должны иметь 1:1 вызов включено в группах и с помощью команды клиента, вызов команд 1:1. Чтобы узнать, как управлять 1:1 вызов в группах, прочитайте [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Чтобы узнать, какие клиенты поддерживают вызова, ознакомьтесь с [ограничения и характеристики для групп Майкрософт](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams).
+Включение вкладки **звонки** в группах пользователи должны иметь 1:1 вызов включено в группах и с помощью команды клиента, вызов команд 1:1. Чтобы узнать, как управлять 1:1 вызов в группах, прочитайте [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Чтобы узнать, какие клиенты поддерживают вызова, ознакомьтесь с [ограничения и характеристики для групп Майкрософт](https://docs.microsoft.com/microsoftteams/limits-specifications-teams).
 
 > [!NOTE]
 > На данный момент голосовой почты не будут доступны в вкладке звонки, если пользователь включен для вызовов ТСОП. 
 
 ## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Необходимые условия для включения панель **Набора номера** в группах
-Для включения вкладки **Панели набора номера** в группах и разрешить пользователям выполнение и прием звонков ТСОП необходимо будет к подготовке пользователей для телефонной системой и вызов планов. Чтобы узнать, как настраивать вызове планы, прочитайте [Set up вызов планы](https://docs.microsoft.com/en-us/microsoftteams/set-up-calling-plans).
+Для включения вкладки **Панели набора номера** в группах и разрешить пользователям выполнение и прием звонков ТСОП необходимо будет к подготовке пользователей для телефонной системой и вызов планов. Чтобы узнать, как настраивать вызове планы, прочитайте [Set up вызов планы](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
 
 > [!NOTE]
-> Разрешить пользователям mand и принимать звонки по ТСОП можно также использовать прямой маршрутизации. Чтобы узнать, как настроить прямой маршрутизации, прочитайте [Настройка прямой маршрутизации](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
+> Можно также использовать прямой маршрутизации, чтобы разрешить пользователям выполнение и прием звонков ТСОП. Чтобы узнать, как настроить прямой маршрутизации, прочитайте [Настройка прямой маршрутизации](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Использование TeamsUpgradePolicy для элемента управления, где land звонки
 Чтобы управлять ли входящие звонки (и беседы) land в группы или Скайп для бизнеса, Администраторы используют TeamsUpgradePolicy, с помощью любого из [групп Майкрософт центра администрирования](https://aka.ms/teamsadmincenter) или с помощью удаленного сеанса Windows PowerShell с [Скайп для бизнеса](https://docs.microsoft.com/powershell/module/skype) командлеты.
 
 
-Конфигурация по умолчанию TeamsUpgradePolicy является острова режим, в котором разработан для обеспечения, существующего бизнес-рабочие процессы не прерывается во время развертывания групп. По умолчанию звонки по VoIP, ТСОП и федеративные звонки вашим пользователям будут по-прежнему поступать в Skype для бизнеса до тех пор, пока вы не обновите политику и не активируете входящие звонки в Teams.  Когда получатели находятся в режиме о-ва:
+Конфигурация по умолчанию TeamsUpgradePolicy является острова режим, в котором разработан для обеспечения, существующего бизнес-рабочие процессы не прерывается во время развертывания групп. По умолчанию VoIP, ТСОП и федеративных вызовов для пользователей будет направляться в Скайп для бизнеса до обновления политики, включающей входящих звонков для группы.  Когда получатели находятся в режиме о-ва:
 
  - Входящие VOIP вызывает этот происхождение в Скайп Business всегда Земля в Скайп получателя для клиента Business.
  - Входящие VOIP вызывает, которая была создана в land группами в группах, *Если отправитель и получатель, тому же владельцу*.
@@ -72,11 +72,11 @@ ms.locfileid: "30469748"
 
 
 ## <a name="see-also"></a>См. также
-[Set up Calling Plans (Настройка планов звонков)](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+[Настройка планов звонков](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Телефонная система с планами звонков](calling-plan-landing-page.md)
+[Система телефон с Тарифные планы](calling-plan-landing-page.md)
 
-[Справочник по командлетам PowerShell для Skype для бизнеса](https://docs.microsoft.com/powershell/module/skype)
+[Скайп для Справочник командлетов PowerShell бизнеса](https://docs.microsoft.com/powershell/module/skype)
 

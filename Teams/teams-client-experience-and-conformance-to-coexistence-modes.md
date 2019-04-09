@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4865d66d4d3ff1257d0fc4bd355a65c7c1330101
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934790"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517081"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -35,7 +35,7 @@ ms.locfileid: "30934790"
 Когда пользователь находится в любой из Скайп для режимов бизнеса, все входящие чаты и вызовы направляются Скайп пользователя для клиента Business. Чтобы избежать путаницы конечного пользователя и гарантировать правильную маршрутизацию, функциональные возможности телефонной и чата в клиенте группами отключена, если пользователь не во всех Скайп для режимов Business. Аналогично планирования собраний в группах явным образом отключается, когда пользователи находятся в режимах SfBOnly или SfBWithTeamsCollab и явно включены, если пользователь находится в режиме SfBWithTeamsCollabAndMeetings.   
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Как доступные функции в клиенте команд изменяется на основе режима
-Доступные функции в dependes группами в режиме сосуществования пользователя, как набор с TeamsUpgradePolicy. В следующей таблице описано поведение:
+Доступные функции в группах зависит от режима совместной работы пользователя, как набор с TeamsUpgradePolicy. В следующей таблице описано поведение:
 
 |Эффективное режим пользователя|Опытом группы клиента|
 |---|---|

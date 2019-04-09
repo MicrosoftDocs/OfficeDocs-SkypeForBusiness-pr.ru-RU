@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: В этой статье описывается настройка консоли комнат группами Майкрософт и ее периферийных устройств.
-ms.openlocfilehash: fc1d50ffe6dd7415848e02571eab1484bd3dfe22
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 9027057314d405788e81d4d27f9ce4e5d5649a48
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012615"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520157"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Настройка консоли комнат группами Майкрософт
 
@@ -51,8 +51,9 @@ ms.locfileid: "31012615"
 2. Запустите сценарий CreateSrsMedia.ps1 из командной строки с повышенными привилегиями на компьютере с ОС Windows 10.
 3. Следуйте инструкциям, сценарий для создания диска настройки USB комнат группами Майкрософт.
 
-> [!CAUTION]
-> Имя папки, на котором запущен мультимедиа сценария создания из не может содержать пробелы. Если места в имени папки, скрипт завершится ошибкой.
+
+> [!TIP]
+> Каждый раз запускает скрипт CreateSrsMedia.ps1, на экране будет включать имя файла журнала или запись в сеансе. При наличии проблем с выполнением скрипта, убедитесь, что у копию этого описание доступных при запросе поддержки. 
 
 Сценарий CreateSrsMedia.ps1 автоматизирует следующие задачи:
 

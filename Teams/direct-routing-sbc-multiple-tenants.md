@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Сведения о настройке одного пограничный контроллер сеансов (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: 53cc4d6f9d930c9069ac39d81e304b0265669b5e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26c2263747b33eab5c6e27a1a22b13fd44af7874
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893345"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517226"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -118,7 +118,7 @@ SBC требуется сертификат для проверки подлин
 3. Нажмите кнопку **Далее**.
 4. В примере клиента уже adatum.biz подтвержденным доменное имя. Мастер не запрашивает дополнительную проверку из-за customers.adatum.biz дочерний домен для уже зарегистрированное имя. Тем не менее если добавить полное доменное имя, которое не было проверено перед необходимо пройти через процесс проверки. Процесс проверки, [описанные ниже](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Подтверждение verfied доменного имени](media/direct-routing-3-sbc-verify-domain.png)
+    ![Подтверждение подтвержденным доменное имя](media/direct-routing-3-sbc-verify-domain.png)
 
 5.  Нажмите кнопку **Далее**на странице " **Параметры DNS обновление** " выберите **я добавите DNS-записи самостоятельно** и нажмите кнопку **Далее**.
 6.  На следующей странице, удалите все значения (Если вы хотите использовать имя домена для Exchange, SharePoint или команды/Скайп для бизнеса), нажмите кнопку **Далее**и затем нажмите кнопку **Готово**. Убедитесь в том, что новый домен находится в состоянии завершения программы установки.

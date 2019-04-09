@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Партнеры корпорации Майкрософт с выбранным поставщикам SBC для подтверждения своей SBC работать с прямой маршрутизации.
-ms.openlocfilehash: ec9c3b152858e9e1968340d20d20996bf3dfbfb0
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: ed394326f56c9647036d2b4785dcf04b59caeba6
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664726"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517129"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -65,3 +65,5 @@ ms.locfileid: "30664726"
 |                                                                                                                   |      AP 6350           |    &#10004;   |   Ожидание    |     ECZ8.1m1p6  |                                             
 |                                                                                                                    |      ВИРТУАЛЬНАЯ СРЕДА ПЕРЕНОСА           |    &#10004;    |   Ожидание    |     ECZ8.1m1p6   |
 |                     [TE СИСТЕМ](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      V3.16.2      |
+
+Чтобы отправить отзыв об командами, такие как рекомендации, как новые возможности для продукта посетите веб- [Uservoice](https://microsoftteams.uservoice.com)

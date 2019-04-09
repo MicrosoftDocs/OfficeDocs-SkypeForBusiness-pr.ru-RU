@@ -1,5 +1,5 @@
 ---
-title: Назначение или изменение экстренных расположения для пользователя
+title: Назначение и изменение расположения экстренного реагирования для пользователя
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,15 +20,15 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: c55f8f51ee7d94ad3b9e0c91c0bb67c319a28c46
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+description: 'Узнайте, как изменить местоположение для реагирования экстренных служб для пользователей. С помощью безлимитного числа местоположений, можно изменить местоположения для реагирования экстренных служб, по мере того как сотрудники двигаются между этажами и зданиями. '
+ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046499"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516945"
 ---
-# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Назначение или изменение экстренных расположения для пользователя
+# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Назначение и изменение расположения экстренного реагирования для пользователя
 
 Каждый номер телефона active должен быть связанного экстренных адрес при назначение номер телефона для пользователя. (Свяжите адрес при получении номер телефона в Office 365 или при перемещении номера телефона.) При связывании номер экстренного адрес также можно добавить экстренных расположение для предоставления более точное расположения в физическое расположение. Местоположение для экстренного реагирования может быть этажом, крылом или номером офиса, где находится пользователь. У вас есть безлимитное число местоположений для заданного адреса для экстренного реагирования, и вы можетеизменить местоположение для реагирования экстренных служб, если пользователь перемещается в другой офис или здание — например, при перемещении c 34 на 35 этаж.
   
@@ -60,9 +60,12 @@ ms.locfileid: "30046499"
     Если вы хотите добавить новые экстренные расположение, которое будет отображаться в списке, содержатся в разделе [Добавление, изменение или удаление экстренных расположение для вашей организации](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 ## <a name="related-topics"></a>Связанные разделы
-[Добавление или удаление адреса для экстренного реагирования для организации](add-or-remove-an-emergency-address-for-your-organization.md)
 
-[Добавление, изменение и удаление местоположения организации для экстренного реагирования](add-change-or-remove-an-emergency-location-for-your-organization.md)
+[Назначение действия в чрезвычайных ситуациях расположений с помощью powershell](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsOnlineVoiceUser.md)
+
+[Добавление или удаление адреса для экстренного реагирования для вашей организации](add-or-remove-an-emergency-address-for-your-organization.md)
+
+[Добавление, изменение и удаление расположения экстренного реагирования для организации](add-change-or-remove-an-emergency-location-for-your-organization.md)
 
 [Что такое проверка адреса?](what-is-address-validation.md)
 

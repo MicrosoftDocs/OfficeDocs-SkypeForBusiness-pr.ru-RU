@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Узнайте о управления учетными записями ресурсов в группах Майкрософт
-ms.openlocfilehash: 345b3b8698f0c387f90b37cc1212c320a2d3d85d
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.openlocfilehash: 055e419e5a82233676e5b66857589216b4dbca6d
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013647"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517234"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -61,9 +61,13 @@ ms.locfileid: "31013647"
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Создание учетной записи ресурса в центре администрирования группами Майкрософт
 
-Чтобы создать учетную запись ресурса в центре администрирования группами Майкрософт, перейдите к **масштабе организации параметры** > **учетные записи ресурса**, нажмите кнопку **+ Добавить**и заполните отображаемое имя, имя пользователя, а затем выберите имя домена и нажмите кнопку **Сохранить**.
+Чтобы создать учетную запись ресурса в центре администрирования группами Майкрософт, перейдите к **масштабе организации параметры** > **учетные записи ресурса**, нажмите кнопку **+ Добавить**. Во всплывающем введите отображаемое имя и имя пользователя для учетной записи ресурса (имя домена должно отобразиться автоматически) нажмите кнопку **Сохранить**.
 
-Чтобы применить лицензия учетную запись ресурса, перейдите на вкладку Центр администрирования O365 пользователей.
+![Учетная запись ресурса](media/res-acct.png)
+
+Необходимо также для применения лицензии учетная запись ресурса, как описано в [Назначение лицензий для пользователей в Office 365 для бизнеса](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide)
+
+После создания учетной записи ресурса и назначены лицензии, вы щелкаете **Назначить или снять** назначение номер телефона для учетной записи ресурса, а также назначить учетную запись ресурса в очередь auto attendant или звонок.
 
 ## <a name="create-a-resource-account-in-powershell"></a>Создание учетной записи ресурса в Powershell
 
@@ -74,7 +78,7 @@ ms.locfileid: "31013647"
 - Для создания учетной записи ресурса, размещенный на локальном реализации гибридных (номера телефонов, размещенных на прямой маршрутизации, OPCH и системы CCE) будет использовать [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .  
 - Интернет-версия только для реализации, использующие [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) иметь учетную запись ресурса, который расположен в Интернете.
 
-Ниже приведен пример создания учетной записи ресурса online среды:
+Ниже приведен пример создания учетной записи ресурса с автосекретарем ApplicationID сети Интернет. Задания в очереди вызовов можно использовать следующие ApplicationID 11cd3e2e-fccb-42ad-ad00-878b93575e07:
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
@@ -89,7 +93,7 @@ $resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ``` Powershell
 Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
  -TelephoneNumber +14255550100
-Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
+Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
 Если лицензия не применяются при создании учетной записи ресурса назначения номера телефона завершится с ошибкой. 

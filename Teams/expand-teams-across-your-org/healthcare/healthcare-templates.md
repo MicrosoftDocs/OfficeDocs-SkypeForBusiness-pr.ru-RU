@@ -1,5 +1,5 @@
 ---
-title: Начало работы с шаблонами Teams для организаций здравоохранения
+title: Начало работы с шаблонами Teams для организаций в сфере здравоохранения
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -14,15 +14,15 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Начало работы с шаблонами Teams для организаций здравоохранения
-ms.openlocfilehash: 5482afa3302085f113a57ec7b6b9f3f188f7cffc
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Начало работы с шаблонами Teams для организаций в сфере здравоохранения
+ms.openlocfilehash: 38b2067bc91a79ff2efa8bc20726ad14d793aa24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013631"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517113"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Начало работы с шаблонами Teams для организаций здравоохранения
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Начало работы с шаблонами Teams для организаций в сфере здравоохранения
 
 Шаблоны рабочих групп Майкрософт позволяют быстро и легко создавать группы, предоставляя готовый шаблон настроек, каналов и предварительно установленные приложения.
 
@@ -55,6 +55,9 @@ ms.locfileid: "31013631"
 ## <a name="how-to-use-first-party-templates"></a>Как использовать первой стороны шаблонов
 
 Чтобы использовать эти шаблоны, просто измените свойство «template@odata.bind» в теле запроса из «стандартный» TemplateIDs выше.  Дополнительные сведения о том, как развертывать шаблоны группы, Microsoft Graph [статьи о создании группы](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+
+> [!NOTE]
+> Каналы в шаблоне создается автоматически в разделе «Общие».
 
 ### <a name="example-hospital-template-extension-script"></a>Пример: Больница шаблона расширения сценариев
 
@@ -162,4 +165,4 @@ ms.locfileid: "31013631"
 
 [Начало работы с шаблонами Teams](../../get-started-with-teams-templates.md)
 
-[Начало работы с группами для организаций здравоохранения](teams-in-hc.md)
+[Начало работы с Teams для организаций в сфере здравоохранения](teams-in-hc.md)

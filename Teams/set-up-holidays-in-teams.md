@@ -1,5 +1,5 @@
 ---
-title: Настройка праздники в группах Майкрософт
+title: Задание выходных в Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: Узнайте, как настроить праздники в группах Майкрософт и подключать их к вашей автосекретаря.
-ms.openlocfilehash: ee88135a030aa1a20872b397b2709da40b3ab8e5
-ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
+ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537758"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517121"
 ---
-# <a name="set-up-holidays-in-microsoft-teams"></a>Настройка праздники в группах Майкрософт
+# <a name="set-up-holidays-in-microsoft-teams"></a>Задание выходных в Microsoft Teams
 
 Можно использовать функцию праздников группы Microsoft планирование определенных дат и время, когда пользователи в вашей организации будет предпринимать время off из и не будут доступны в рабочее время. 
 
@@ -55,7 +55,7 @@ ms.locfileid: "30537758"
 
 9. Нажмите кнопку **Сохранить**.
 
-## <a name="change-a-holdiay"></a>Изменение holdiay
+## <a name="change-a-holiday"></a>Изменение праздничных дней
 
 1. В центре администрирования группами Майкрософт, перейдите в раздел **масштабе организации параметры** > **праздничные дни**.
 

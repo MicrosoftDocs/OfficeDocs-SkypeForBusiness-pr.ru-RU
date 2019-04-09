@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Управление функциями и возможностями гостевого доступа Microsoft Teams ведется с помощью четырех разных уровней авторизации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87b0e6bf1f920ea4eaab4a4ed2bfb3f314b60601
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: 4e1c81d0c93505e98bdc2159d2fad7464c7c3aeb
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026066"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516833"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Авторизация гостевого доступа в Microsoft Teams
 ===========================================
@@ -45,6 +45,8 @@ ms.locfileid: "31026066"
 ![Схема приглашения и погашения потоки](media/authorize-guest-image1.png)
 
 Важно отметить, что программы-роботы, приложений и соединители могут требовать собственные разрешения и/или разрешения для учетной записи пользователя. Это может потребоваться предоставляться отдельно. Аналогично SharePoint может установить дополнительные внешние общего доступа границы для определенного пользователя, группы пользователей, или даже на уровне сайта.
+
+Предыдущие две схемы, также доступны в [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/media/teams_dependencies.vsdx?raw=true).
 
 ## <a name="control-guest-access-in-azure-active-directory"></a>Управление доступом гостевой в Azure Active Directory
 

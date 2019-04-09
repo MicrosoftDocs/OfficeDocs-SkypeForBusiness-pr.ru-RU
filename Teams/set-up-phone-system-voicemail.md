@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить голосовой почты в облаке для пользователей. '
-ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
-ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
+ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31041936"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517154"
 ---
 # <a name="set-up-cloud-voicemail"></a>Настройка облачной голосовой почты
 
@@ -59,7 +59,7 @@ ms.locfileid: "31041936"
 
 5. Почтовых ящиков пользователей Exchange по протоколу SMTP направляться через Exchange Online Protection доставки сообщений голосовой почты. Чтобы включить успешную доставку сообщений, пожалуйста, убедитесь правильной настройке соединителей Exchange между серверами Exchange и Exchange Online Protection. [Использование соединителей для настройки потока обработки почты](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-6. Для включения функции голосовой почты, например Настройка приветствие, конференц-связи доступа и visual голосовой почты, наличие подключения к Office 365 для почтовых ящиков Exchange server с помощью веб-служб Exchange является обязательным. Для включения этого подключения необходимо настроить новый Exchange Oauth, описывающие протокол проверки подлинности в [проверки подлинности Настройка OAuth между организациями Exchange и Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
+6. Для включения функции голосовой почты, например Настройка приветствия и visual голосовой почты в Скайп для клиентов, Business connectivity из Office 365 для почтовых ящиков Exchange server с помощью веб-служб Exchange является обязательным. Для включения этого подключения необходимо настроить новый Exchange Oauth, описывающие протокол проверки подлинности в [проверки подлинности Настройка OAuth между организациями Exchange и Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
 
 > [!NOTE]
 > Мастер гибридной Exchange выполнения из Exchange 2013 CU5 или более высокой версии будет автоматически обрабатывать требования в шаги 5 и 6. 
@@ -127,6 +127,8 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 ## <a name="related-topics"></a>Связанные разделы
 [Настройка Skype для бизнеса Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
-[Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
+[Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
+
+[Планирование миграции Skype для бизнеса Server и Exchange Server](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-um-migration)
 
 
