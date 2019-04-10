@@ -18,19 +18,17 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 034ac8eeb5529179013540b1911a7bbc34b49014
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520150"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749671"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Параметры администратора для приложений в Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 Приложения предоставляют средства ожидания введите для вашей организации для повышения эффективности группы. Эти приложения объединить функции вкладки, обмена мгновенными сообщениями расширений, соединители и роботов, предоставляемым корпорацией Майкрософт, созданных с третьей стороне или разработчиков в вашей организации.
 
@@ -38,7 +36,7 @@ ms.locfileid: "31520150"
 
 ## <a name="app-permission-policies"></a>Политики разрешений приложения
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 С политиками разрешений приложения можно заблокировать или разрешить приложения масштабе организации или для отдельных пользователей.  При блокировании приложения отключаются все взаимодействия с этого приложения и приложения не отображается в группах для пользователей.
 
@@ -52,7 +50,7 @@ ms.locfileid: "31520150"
 
 ## <a name="app-setup-policies"></a>Политики в отношении установки приложений
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Политики в отношении установки приложений позволяют настраивать параметры приложения для пользователей. Выберите приложения, которые нужно закрепить панель приложения в группы клиентов и порядок их отображения, на серверах, настольных и мобильных клиентов.
 
@@ -64,7 +62,7 @@ ms.locfileid: "31520150"
 
 ## <a name="custom-app-policies-and-settings"></a>Пользовательское приложение политики и параметры
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 Команды позволяет разработчикам для создания, тестирования и развертывание пользовательских приложений для других пользователей в организации. Настраиваемые приложения можно добавить к группам, загрузив пакет приложения в ZIP-файл непосредственно к группе или в контексте личные. Можно использовать политики в отношении ли контролировать, кто в организации настраиваемые приложения можно публиковать программы установки приложений. Также можно настроить параметры на уровне организации для управления ли пользователи могут взаимодействовать с определенным настраиваемые приложения.
 

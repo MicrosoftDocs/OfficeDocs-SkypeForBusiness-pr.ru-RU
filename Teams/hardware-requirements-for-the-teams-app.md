@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f699352625d512c20e6b0b0b2384a08eafcb1872
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 66a5b4a5ef64f83f61d106a6cd2052516cda95a7
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891630"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749679"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Аппаратные требования для приложения Microsoft Teams
 
@@ -62,6 +62,10 @@ ms.locfileid: "30891630"
 - Android - требуется Android 4.4 или более поздняя версия
 
 - операций ввода-вывода - требуется iOS 10.0 или более поздней версии. Совместимый с iPhone, iPad и iPod touch.
+
+## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Требования к оборудованию для приложения группы в среде инфраструктуры виртуальных рабочих столов (VDI)
+
+В разделе [группы для виртуализации рабочих столов инфраструктура](teams-for-vdi.md) требования для запуска групп в виртуализованной среде. 
 
 ### <a name="related-topics"></a>Связанные разделы
 - [Получение приложения группы](get-clients.md)

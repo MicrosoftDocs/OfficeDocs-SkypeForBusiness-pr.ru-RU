@@ -19,16 +19,16 @@ search.appverid: MET150
 description: Описание политики в отношении установки приложений в Microsoft групп и как их использовать ПИН-код приложения для настройки групп для пользователей в вашей организации.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 7e4eaf604c075f8ab95cd40ec7588515c428360c
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517105"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749751"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Как администратора можно использовать политики в отношении приложений программы установки для настройки групп Майкрософт для выделения приложений, которые наиболее важные для пользователей. Выберите приложения для закрепления и установить порядок их отображения. Политики в отношении установки приложений позволяют демонстрационных приложений, которые должны пользователей в вашей организации, включая объекты, созданных сторонними разработчиками или разработчиками в вашей организации. Политики в отношении приложений программы установки можно также использовать для управления как встроенных функций отображаются.
 

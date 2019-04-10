@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Узнайте, как изменить местоположение для реагирования экстренных служб для пользователей. С помощью безлимитного числа местоположений, можно изменить местоположения для реагирования экстренных служб, по мере того как сотрудники двигаются между этажами и зданиями. '
-ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
+ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516945"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31744283"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>Назначение и изменение расположения экстренного реагирования для пользователя
 
@@ -74,6 +74,8 @@ ms.locfileid: "31516945"
 [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[Командлет Set-CsOnlineVoiceUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
   
  
