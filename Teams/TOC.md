@@ -101,6 +101,7 @@
 #### [Установка Teams с помощью MSI](msi-deployment.md)
 #### [Включение Teams в организации](Office-365-set-up.md)
 #### [URL-адреса и диапазоны IP-адресов Office 365](office-365-urls-ip-address-ranges.md)
+#### [Teams для инфраструктуры виртуальных рабочих столов (VDI)](teams-for-vdi.md)
 #### [Развертывание Teams для Surface Hub](teams-surface-hub.md)
 
 ### Лицензирование
@@ -144,7 +145,7 @@
 ### [Руководство. Аудиоконференции в Teams](Tutorial-Audio-Conferencing.yml)
 ### [Платная или пробная версия аудиоконференций в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Льготный период обратных звонков для аудиоконференций](complimentary-dial-out-period.md)
-
+### [Преимущество подписки с аудиоконференциями "Обратный звонок"/"Позвонить мне на номер"](audio-conferencing-subscription-dial-out.md)
 
 ### [Настройка аудиоконференций для Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
@@ -702,7 +703,7 @@
 
 ## Устранение неполадок и поддержка
 ### [Известные проблемы для Microsoft Teams](Known-issues.md)
-### [Ресурсы поддержки для Microsoft Teams](support-resources.md)
+### [Ресурсы поддержки для Microsoft Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
 ### [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
 ### [Проверка работоспособности службы для Teams](service-health.md)
