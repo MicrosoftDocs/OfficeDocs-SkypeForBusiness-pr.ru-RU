@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50102058aa14d988ad92bf832609500e049d6174
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3524e28df5e24fa32655e694def1400db45c5953
+ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459622"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "31765207"
 ---
 ![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")
 
@@ -38,7 +38,7 @@ ms.locfileid: "30459622"
 Совместное использование доступны следующие материалы с сотрудниками вашей ИТ и убедитесь, что они готовы для поддержки пользователей перед началом обновления до групп:
 
 - [Обучение администратора для работы с Microsoft Teams](itadmin-readiness.md)
-- [Ресурсы поддержки для Microsoft Teams](support-resources.md)
+- [Обращение в службу поддержки Office 365 для бизнеса: справка для администраторов](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Устранение проблем связи с клиентом Microsoft Teams](connectivity-issues.md)
 - [Использование файлов журналов для устранения неполадок в Microsoft Teams](log-files.md)
 

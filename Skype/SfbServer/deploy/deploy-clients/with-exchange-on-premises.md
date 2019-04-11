@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: В данном разделе приведены сведения о способах развертывания комнат группами Майкрософт в гибридной среде с сервером Exchange при локальном.
-ms.openlocfilehash: b6c10635180d5707982efbc259eca577c45b1638
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 664f6d210858b42591dcbb4461b858646e5cb933
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012519"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31807985"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Развертывание Microsoft группами комнат с сервером Exchange при локальном
 
@@ -53,7 +53,7 @@ ms.locfileid: "31012519"
 
 ### <a name="create-an-account-and-synchronize-with-active-directory"></a>Создание учетной записи и ее синхронизация с Active Directory
 
-1. Средства **Active Directory — пользователи и компьютеры AD** щелкните правой кнопкой мыши папку или подразделение, что вашей комнат группами Майкрософт, учетные записи будут создаваться в, нажмите кнопку **Создать**и выберите пункт **пользователь**.
+1. Средства **Active Directory — пользователи и компьютеры** щелкните правой кнопкой мыши папку или подразделение, что вашей комнат группами Майкрософт, учетные записи будут создаваться в, нажмите кнопку **Создать**и выберите пункт **пользователь**.
 
 2. Введите отображаемое имя из предыдущего командлета в поле **Полное имя**, а затем псевдоним в поле **Имя входа пользователя**. Нажмите кнопку **Далее**.
 
@@ -169,4 +169,4 @@ ms.locfileid: "31012519"
   
 [Настройка консоли комнат группами Майкрософт](console.md)
   
-[Управление группами Майкрософт комнат](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление приложением "Комнаты Microsoft Teams"](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
