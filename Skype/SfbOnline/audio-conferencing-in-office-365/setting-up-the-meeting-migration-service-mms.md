@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Собрания службы миграции (MMS) — это служба, которая выполняется в фоновом режиме и автоматически обновляет Скайп для бизнеса и группами Майкрософт собраний для пользователей. Эта служба позволяет пользователям не запускать средство переноса собраний для обновления собраний Skype для бизнеса и Microsoft Teams.
-ms.openlocfilehash: e700725fc95957647bea8fe44d6a73a34bd16ab8
-ms.sourcegitcommit: 2d79898281258e123a86d9a0a2bc1211ee6b039e
+description: Собрания службы миграции (MMS) — это служба, которая выполняется в фоновом режиме и автоматически обновляет Скайп для бизнеса и группами Майкрософт собраний для пользователей. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
+ms.openlocfilehash: 90953f1352f54a8411513a78ccfda8bfb5356883
+ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28019579"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31836859"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>С помощью службы миграции собрания (MMS)
 
@@ -41,7 +41,7 @@ ms.locfileid: "28019579"
 По умолчанию MMS автоматически запускается в каждом из этих случаев, несмотря на то, что администраторы могут отключить его на уровне клиента. Кроме того администраторы могут использовать командлет PowerShell, чтобы вручную запустить миграции собрания для данного пользователя.
 
 > [!NOTE]
-> Возможность преобразования Скайп для собраний бизнес группами собрания и возможность обновления существующих собраний команды для изменения параметров аудиоконференций в настоящее время ограничивается только для клиентов TAP.
+> Возможность преобразования Скайп для собраний бизнес группами собрания и возможность обновления существующих собраний команды для изменения параметров аудиоконференций в настоящее время ограничивается только для клиентов TAP. По оценкам отдела Microsoft сделать доступными для всех клиентов этой функциональности попадает в мая 2019.
 
 **Ограничения**: собрания нельзя использовать службы миграции, если выполняется одно из следующих условий:
 
@@ -113,7 +113,7 @@ ms.locfileid: "28019579"
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Обновление собрания при назначении TeamsUpgradePolicy
 
 > [!NOTE]
-> В этом разделе описываются функциональные возможности, которые в настоящее время доступны только для программы TAP.
+> В этом разделе описываются функциональные возможности, которые в настоящее время доступны только для программы TAP. По оценкам отдела Microsoft сделать доступными для всех клиентов этой функциональности попадает в мая 2019.
 
 По умолчанию собрания миграции будет автоматически применяться при предоставления пользователям экземпляр `TeamsUpgradePolicy` с `mode=TeamsOnly` или `mode= SfBWithTeamsCollabAndMeetings`. Если вы не хотите перенос собрания при предоставлении любой из этих режимов, а затем укажите `MigrateMeetingsToTeams $false` в `Grant-CsTeamsUpgradePolicy`.
 
@@ -211,6 +211,6 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 ## <a name="related-topics"></a>Связанные разделы
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 [Перемещение пользователей между локальной и облачной](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
