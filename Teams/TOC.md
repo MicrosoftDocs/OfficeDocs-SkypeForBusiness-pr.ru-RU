@@ -548,7 +548,7 @@
 #### [Настройка кредитов на связь для организации](set-up-communications-credits-for-your-organization.md)
 #### [Пополнение средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
 
-### [Потоки онлайн-вызовов в Microsoft Teams](microsoft-teams-online-call-flows.md)
+### [Потоки звонков Microsoft Teams](microsoft-teams-online-call-flows.md)
 
 ## Практические рекомендации для крупных организаций
 ### [Руководство. Звонки в Teams](Tutorial-calling-in-teams.yml)

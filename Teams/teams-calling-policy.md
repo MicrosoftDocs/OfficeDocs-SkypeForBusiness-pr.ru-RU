@@ -1,0 +1,73 @@
+---
+title: Политика звонков в группах Майкрософт
+author: LolaJacobsen
+ms.author: tonysmit
+manager: serdars
+ms.date: 04/12/2019
+ms.topic: conceptual
+ms.service: msteams
+ms.reviewer: jastark
+search.appverid: MET150
+description: Сведения о вызове параметры политики в группах Майкрософт.
+localization_priority: Normal
+ms.custom:
+- NewAdminCenter_Update
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: c97fd5ff9228d0761f55f2f56b9a908cc3861c29
+ms.sourcegitcommit: 82490c2ef74900c348c14968b605a313b5bf3078
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 04/13/2019
+ms.locfileid: "31860266"
+---
+<a name="calling-policy-in-microsoft-teams"></a><span data-ttu-id="8dd39-103">Политика звонков в группах Майкрософт</span><span class="sxs-lookup"><span data-stu-id="8dd39-103">Calling policy in Microsoft Teams</span></span>
+==========================================
+
+<span data-ttu-id="8dd39-104">В Майкрософт для групп вызов политик управления какие вызова функции переадресации звонков доступны и для пользователей.</span><span class="sxs-lookup"><span data-stu-id="8dd39-104">In Microsoft Teams, calling policies control which calling and call forwarding features are available to users.</span></span> <span data-ttu-id="8dd39-105">Вызов политики определяют ли пользователь может выполнять вызовы частных, используйте переадресации звонков или одновременных звонков другим пользователям или внешние телефонные номера маршрутизации вызовов на голосовую почту, звонки отправки вызовов группам делегирования для входящих и исходящих вызовов, и т. д.</span><span class="sxs-lookup"><span data-stu-id="8dd39-105">Calling policies determine whether a user can make private calls, use call forwarding or  simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to Call Groups, use delegation for inbound and outbound calls, and so on.</span></span> <span data-ttu-id="8dd39-106">Глобальную политику по умолчанию создается автоматически, но администраторы также можно создать и назначить настраиваемых политик вызова.</span><span class="sxs-lookup"><span data-stu-id="8dd39-106">A default global policy is created automatically, but admins can also create and assign custom calling policies.</span></span>
+
+## <a name="calling-policy-settings"></a><span data-ttu-id="8dd39-107">Вызов параметров политики</span><span class="sxs-lookup"><span data-stu-id="8dd39-107">Calling policy settings</span></span>
+
+|<span data-ttu-id="8dd39-108">Вызов параметр политики</span><span class="sxs-lookup"><span data-stu-id="8dd39-108">Calling policy setting</span></span> | <span data-ttu-id="8dd39-109">Описание</span><span class="sxs-lookup"><span data-stu-id="8dd39-109">Description</span></span> |
+|-----------------------|-------------|
+|<span data-ttu-id="8dd39-110">Пользователь может выполнять вызовы частных</span><span class="sxs-lookup"><span data-stu-id="8dd39-110">User can make private calls</span></span> | <span data-ttu-id="8dd39-111">Определяет все возможности вызова в группах.</span><span class="sxs-lookup"><span data-stu-id="8dd39-111">Controls all calling capabilities in Teams.</span></span> <span data-ttu-id="8dd39-112">Если выключить этот параметр отключает все функциями вызова в группах.</span><span class="sxs-lookup"><span data-stu-id="8dd39-112">Turning this off will turn off all calling functionality in Teams.</span></span>|
+|<span data-ttu-id="8dd39-113">Переадресация звонков и одновременных звонков другим пользователям</span><span class="sxs-lookup"><span data-stu-id="8dd39-113">Call forwarding and simultaneous ringing to other users</span></span> | <span data-ttu-id="8dd39-114">Элементы управления ли входящих звонков можно переадресовывать другим пользователям, или другой пользователь может звонить в то же время.</span><span class="sxs-lookup"><span data-stu-id="8dd39-114">Controls whether incoming calls can be forwarded to other users or can ring another person at the same time.</span></span> |
+|<span data-ttu-id="8dd39-115">Переадресация звонков и одновременных звонков на внешние телефонные номера</span><span class="sxs-lookup"><span data-stu-id="8dd39-115">Call forwarding and simultaneous ringing to external phone numbers</span></span> | <span data-ttu-id="8dd39-116">Элементы управления ли входящих звонков могут перенаправляться на внешний номер или могут поступать внешний номер в то же время.</span><span class="sxs-lookup"><span data-stu-id="8dd39-116">Controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time.</span></span>|
+|<span data-ttu-id="8dd39-117">Голосовая почта доступен для маршрутизации входящих вызовов для пользователей</span><span class="sxs-lookup"><span data-stu-id="8dd39-117">Voicemail is available for routing inbound calls to users</span></span> | <span data-ttu-id="8dd39-118">Входящие вызовы включает отправку на голосовую почту.</span><span class="sxs-lookup"><span data-stu-id="8dd39-118">Enables inbound calls to be sent to voicemail.</span></span> <span data-ttu-id="8dd39-119">Допустимые параметры: **всегда включены**, **всегда отключены**или **пользовательских**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-119">Valid options are **Always enabled**, **Always disabled**, or **User controlled**.</span></span> |
+|<span data-ttu-id="8dd39-120">Входящие вызовы маршрутизируются для вызова групп</span><span class="sxs-lookup"><span data-stu-id="8dd39-120">Inbound calls can be routed to call groups</span></span> | <span data-ttu-id="8dd39-121">Определяет, можно ли переадресовывать входящие звонки в группу звонка.</span><span class="sxs-lookup"><span data-stu-id="8dd39-121">Controls whether incoming calls can be forwarded to a call group.</span></span>  |
+|<span data-ttu-id="8dd39-122">Разрешить делегирование для входящих и исходящих вызовов</span><span class="sxs-lookup"><span data-stu-id="8dd39-122">Allow delegation for inbound and outbound calls</span></span> | <span data-ttu-id="8dd39-123">Разрешает входящие вызовы направляться делегатам; Разрешает делегатов, которые будут выполнять исходящие вызовы от имени пользователей, для которых они делегированных разрешений.</span><span class="sxs-lookup"><span data-stu-id="8dd39-123">Enables inbound calls to be routed to delegates; allows delegates to make outbound calls on behalf of the users for whom they have delegated permissions.</span></span> |
+|<span data-ttu-id="8dd39-124">Предотвращение обхода сервера-посредника международную и отправить вызовы через PSTN</span><span class="sxs-lookup"><span data-stu-id="8dd39-124">Prevent toll bypass and send calls through the PSTN</span></span> | <span data-ttu-id="8dd39-125">Установка значения **на** отправлять вызовы через PSTN и то, а не через сеть и на обход расходов на международную.</span><span class="sxs-lookup"><span data-stu-id="8dd39-125">Setting this to **On** will send calls through PSTN and incur charges rather than going through the network and bypassing the tolls.</span></span> |
+|<span data-ttu-id="8dd39-126">«Занят» на «занят» доступен во время звонка.</span><span class="sxs-lookup"><span data-stu-id="8dd39-126">Busy on Busy is available while in a call.</span></span>| <span data-ttu-id="8dd39-127">Настраивается как входящие звонки обрабатываются, когда пользователь уже вызова или конференции.</span><span class="sxs-lookup"><span data-stu-id="8dd39-127">Configures how incoming calls are handled when a user is already in a call or conference.</span></span> <span data-ttu-id="8dd39-128">Новые или входящие звонки могут отклонен с занят.</span><span class="sxs-lookup"><span data-stu-id="8dd39-128">New or incoming calls can be rejected with a busy signal.</span></span> |
+
+## <a name="create-a-custom-calling-policy"></a><span data-ttu-id="8dd39-129">Создание настраиваемой политики вызывающего</span><span class="sxs-lookup"><span data-stu-id="8dd39-129">Create a custom calling policy</span></span>
+
+<span data-ttu-id="8dd39-130">Выполните следующие действия, чтобы создать новую политику настраиваемых вызова.</span><span class="sxs-lookup"><span data-stu-id="8dd39-130">Follow these steps to create a new custom calling policy.</span></span>
+
+1. <span data-ttu-id="8dd39-131">В центре администрирования группами Майкрософт выберите **голосовой связи** > **Политика звонков**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-131">In the Microsoft Teams admin center, select **Voice** > **Calling policy**.</span></span>
+2. <span data-ttu-id="8dd39-132">Выберите **новую политику**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-132">Select **New policy**.</span></span>
+3. <span data-ttu-id="8dd39-133">Включение функции, которые необходимо использовать в вызовах политики.</span><span class="sxs-lookup"><span data-stu-id="8dd39-133">Turn on the features that you want to use in your calling policy.</span></span> <span data-ttu-id="8dd39-134">**Все выбранные элементы по умолчанию отключены.**</span><span class="sxs-lookup"><span data-stu-id="8dd39-134">All selections are **Off** by default.</span></span>
+4. <span data-ttu-id="8dd39-135">Чтобы контролировать, могут ли пользователи направлять входящие звонки на голосовую почту, выберите **всегда включена** или **контролируемых пользователя**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-135">To control whether users can route inbound calls to voicemail, select **Always enabled** or **User controlled**.</span></span> <span data-ttu-id="8dd39-136">Чтобы запретить маршрутизации голосовой почты, выберите **всегда отключены**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-136">To prevent routing to voicemail, select **Always disabled**.</span></span>
+5. <span data-ttu-id="8dd39-137">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-137">Select **Save**.</span></span>
+
+## <a name="modify-an-existing-calling-policy"></a><span data-ttu-id="8dd39-138">Изменение существующей политика звонков</span><span class="sxs-lookup"><span data-stu-id="8dd39-138">Modify an existing calling policy</span></span>
+
+<span data-ttu-id="8dd39-139">Выполните следующие действия для изменения существующего политика звонков.</span><span class="sxs-lookup"><span data-stu-id="8dd39-139">Follow these steps to modify an existing calling policy.</span></span>
+
+1. <span data-ttu-id="8dd39-140">В центре администрирования группами Майкрософт выберите **голосовой связи** > **Политика звонков**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-140">In the Microsoft Teams admin center, select **Voice** > **Calling policy**.</span></span>
+2. <span data-ttu-id="8dd39-141">Нажмите кнопку рядом с полем политики, которую требуется изменить, а затем выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-141">Click next to the policy that you want to modify, and then select **Edit**.</span></span>
+3. <span data-ttu-id="8dd39-142">Включение функции, которые необходимо использовать в вызовах политики.</span><span class="sxs-lookup"><span data-stu-id="8dd39-142">Turn on the features that you want to use in your calling policy.</span></span> <span data-ttu-id="8dd39-143">**Все выбранные элементы по умолчанию отключены.**</span><span class="sxs-lookup"><span data-stu-id="8dd39-143">All selections are **Off** by default.</span></span>
+4. <span data-ttu-id="8dd39-144">Чтобы контролировать, могут ли пользователи направлять входящие звонки на голосовую почту, выберите **всегда включена** или **контролируемых пользователя**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-144">To control whether users can route inbound calls to voicemail, select **Always enabled** or **User controlled**.</span></span> <span data-ttu-id="8dd39-145">Чтобы запретить маршрутизации голосовой почты, выберите **всегда отключены**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-145">To prevent routing to voicemail, select **Always disabled**.</span></span>
+5. <span data-ttu-id="8dd39-146">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-146">Select **Save**.</span></span>
+
+## <a name="assign-a-calling-policy-to-a-user"></a><span data-ttu-id="8dd39-147">Назначение политики вызывающего пользователя</span><span class="sxs-lookup"><span data-stu-id="8dd39-147">Assign a calling policy to a user</span></span>
+
+<span data-ttu-id="8dd39-148">Выполните следующие действия, чтобы назначить пользовательскую политику вызывающего пользователя.</span><span class="sxs-lookup"><span data-stu-id="8dd39-148">Follow these steps to assign a custom calling policy to a user.</span></span>
+
+1. <span data-ttu-id="8dd39-149">В центре администрирования группами Майкрософт выберите **голосовой связи** > **Политика звонков**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-149">In the Microsoft Teams admin center, select **Voice** > **Calling policy**.</span></span>
+2. <span data-ttu-id="8dd39-150">Нажмите кнопку рядом с полем Имя политики, чтобы выделить его, а затем выберите **Управление пользователями**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-150">Click next to the policy name to select it, and then select **Manage users**.</span></span>
+3. <span data-ttu-id="8dd39-151">В области **Управление пользователями** выполните поиск имени пользователя.</span><span class="sxs-lookup"><span data-stu-id="8dd39-151">In the **Manage users** pane, search for the user’s name.</span></span> <span data-ttu-id="8dd39-152">(Необходимо ввести по крайней мере трех символов).</span><span class="sxs-lookup"><span data-stu-id="8dd39-152">(You must enter at least three characters.)</span></span>
+4. <span data-ttu-id="8dd39-153">Выберите имя пользователя и выберите команду **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-153">Select the user’s name, and then select **Add**.</span></span>
+5. <span data-ttu-id="8dd39-154">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="8dd39-154">Select **Save**.</span></span>
