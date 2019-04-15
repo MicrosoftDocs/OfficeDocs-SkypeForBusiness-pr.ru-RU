@@ -61,6 +61,7 @@
 ### [Управление функциями Teams в организации](enable-features-office-365.md)
 ### [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Управление Teams в Центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md).
+### [Управление бесплатной версией Teams](manage-freemium.md)
 ### [Назначение владельцев и участников команд в Teams](assign-roles-permissions.md)
 ### [Настройка приложения собраний Skype для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Общение с пользователями Teams из других организаций](let-your-teams-users-communicate-with-other-people.md)
@@ -325,6 +326,7 @@
 #### [Ответ на звонки автосекретарей и очередей звонков непосредственно из Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### [Приостановка и восстановление звонка](call-park-and-retrieve.md)
 ### [Общие звонки и ответ на групповые звонки](call-sharing-and-group-call-pickup.md)
+### [Политика звонков](teams-calling-policy.md)
 ### [Распределенная линия](shared-line-appearance.md)
 
 ## [Планы звонков](calling-plan-landing-page.md)
