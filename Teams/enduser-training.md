@@ -1,5 +1,5 @@
 ---
-title: Обучение конечных пользователей для работы с Microsoft Teams
+title: Обучение конечных пользователей для работы с Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -12,20 +12,20 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
-description: Обучающие видеозаписи, учебные материалы и другие ресурсы для пользователей в вашей организации в изучении и работе групп.
+description: Обучающие видео, руководства и другие ресурсы для пользователей в организации, предназначенные для изучения и использования Teams.
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 01246103d321e40316df01799c3c7f5a82940340
 ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/08/2019
 ms.locfileid: "30493668"
 ---
-# <a name="end-user-training-for-microsoft-teams"></a>Обучение конечных пользователей для работы с Microsoft Teams
+# <a name="end-user-training-for-microsoft-teams"></a>Обучение конечных пользователей для работы с Microsoft Teams
 
-Используйте следующие ресурсы обучения, чтобы помочь пользователям в вашей организации максимально эффективному использованию групп.
+Используйте эти учебные ресурсы, чтобы помочь пользователям в вашей организации максимально эффективно использовать Teams.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -39,8 +39,8 @@ ms.locfileid: "30493668"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Знакомство с группами!<br>
-Просмотрите это короткое видео, краткие сведения о групп</h3>
+                        <h3>Добро пожаловать в Teams!<br>
+Просмотрите этот короткий видеоролик для знакомства с Teams</h3>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ ms.locfileid: "30493668"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Выполните этот краткое быстро запущено и работает в группах</h3>
+                    <h3>Используйте это краткое руководство, чтобы быстро приступить к работе с Teams</h3>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ ms.locfileid: "30493668"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Получение справки и инструкций по документации в центре справки групп</h3>
+                        <h3>Получайте справку и инструкции в центре справки Teams</h3>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@ ms.locfileid: "30493668"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Просмотр групп, обучающие видеозаписи</h3>
+                        <h3>Просматривайте обучающие видео для Teams</h3>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@ ms.locfileid: "30493668"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Извлечение канал команд на youtube (en)</h3>
+                        <h3>Ознакомьтесь с каналом Teams на сайте YouTube</h3>
                     </div>
                 </div>
             </div>
@@ -125,16 +125,16 @@ ms.locfileid: "30493668"
 
 ---
 
-<h2>Основные курсы обучения</h2>
+<h2>Тематическое обучение</h2>
 <ul class="panelContent cardsW">
      <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Быстрый старт</h3>
-                         <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Загрузите это руководство по (формат PDF), чтобы освоить основы</a></p>
-                        <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Следуйте статьи в этом краткое быстро приступить к работе</a></p>
+                        <h3>Краткие руководства</h3>
+                         <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Чтобы ознакомиться с основами, скачайте это краткое руководство по началу работы (PDF)</a></p>
+                        <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Используйте статьи из этого краткого руководства, чтобы быстро приступить к работе</a></p>
                     </div>
                 </div>
             </div>
@@ -144,10 +144,10 @@ ms.locfileid: "30493668"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Обзор групп</h3>
-                        <p><a href="https://teamsdemo.office.com/">Интерактивная демонстрация групп</a></p>  
-                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">Обучение по запросу в реальных условиях: #ThisisTeams - как группы могут работать для вас</a></p>
-                        <p><a href="https://aka.ms/teamsgettingstartedondemand">Обучение по запросу в реальных условиях: Приступая к работе с группами</a></p>
+                        <h3>Обзор Teams</h3>
+                        <p><a href="https://teamsdemo.office.com/">Интерактивная демонстрация Teams</a></p>  
+                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">Интерактивное обучение по запросу: #ThisisTeams — возможности Teams</a></p>
+                        <p><a href="https://aka.ms/teamsgettingstartedondemand">Интерактивное обучение по запросу: начало работы с Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -158,10 +158,10 @@ ms.locfileid: "30493668"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Переключитесь в группы из Скайп для бизнеса</h3>
-                         <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">Статья: Переключение группам из Скайп для бизнеса</a></p>
-                         <p><a href="https://aka.ms/upgrade101ondemand">Обучение по запросу в реальных условиях: обновление 101: Общие сведения об обновлении Скайп для бизнеса в группы</a></p>
-                        <p><a href="https://aka.ms/fromskypetoteamsondemand">Обучение по запросу в реальных условиях: Скайп из для бизнеса в группы</a></p>
+                        <h3>Переход на Teams из Skype для бизнеса</h3>
+                         <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">Статья: переход на Teams из Skype для бизнеса</a></p>
+                         <p><a href="https://aka.ms/upgrade101ondemand">Интерактивное обучение по запросу: основы обновления — общие сведения о переходе из Skype для бизнеса на Teams</a></p>
+                        <p><a href="https://aka.ms/fromskypetoteamsondemand">Интерактивное обучение по запросу: из Skype для бизнеса на Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -171,11 +171,11 @@ ms.locfileid: "30493668"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Настройка групп</h3>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Видео: Получение группы запущены</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Видео: Переход к руководство для владельцев группы</a></p>
-                         <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">Видео: Упорядочить список групп</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">Видео: Рекомендации по настройке вкладки, группы и каналы</a></p> 
+                        <h3>Настройка команд</h3>
+                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Видео: формирование команды</a></p>
+                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Видео: справочное руководство для владельцев команд</a></p>
+                         <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">Видео: упорядочение списков команд</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">Видео: инструкции по настройке команд, каналов и вкладок</a></p> 
                     </div>
                 </div>
             </div>
@@ -186,10 +186,10 @@ ms.locfileid: "30493668"
                 <div class="card">
                     <div class="cardText">
                         <h3>Команды и каналы</h3>
-                         <p><a href="https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46">Видео: Общие сведения о рабочих групп и каналы</a></p>
-                         <p><a href="https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba">Видео: Избранное и выполните каналов</a></p>
-                         <p><a href="https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e">Видео: Работают в каналы</a></p>
-                         <p><a href="https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca">Видео: Подсказки — отправка электронной почты на канал</a></p>
+                         <p><a href="https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46">Видео: обзор команд и каналов</a></p>
+                         <p><a href="https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba">Видео: подписка на канал и добавление его в избранное</a></p>
+                         <p><a href="https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e">Видео: как работать в каналах</a></p>
+                         <p><a href="https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca">Видео: совет по отправке электронной почты в канал</a></p>
                     </div>
                 </div>
             </div>
@@ -200,10 +200,11 @@ ms.locfileid: "30493668"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Отправляет сообщения &</h3>
-                         <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Видео: Создание и форматирование post</a></p>
-                         <p><a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Видео: Получение внимания с @mentions</a></p>
-                         <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Видео: Сохранение сообщение или сообщение</a></p>
+                        <h3>Записи и сообщения</h3>
+                         <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Видео: создание и форматирование записи</a></p>
+                         <p>
+  <a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Видео: привлечение внимания с помощью @упоминаний</a></p>
+                         <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Видео: сохранение записи или сообщения</a></p>
                     </div>
                 </div>
             </div>
@@ -213,10 +214,10 @@ ms.locfileid: "30493668"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Конференции, вызовы & собраний</h3>
-                       <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">Видео: Запустите чаты и выполнения звонков</a></p>
-                       <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">Видео: Создание мгновенного собраний с удовлетворение</a></p>
-                       <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">Видео: Управление собраний</a></p>
+                        <h3>Чаты, звонки и собрания</h3>
+                       <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">Видео: как начать чат и сделать звонок</a></p>
+                       <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">Видео: мгновенное создание незапланированных собраний</a></p>
+                       <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">Видео: управление собраниями</a></p>
                     </div>
                 </div>
             </div>
@@ -227,11 +228,11 @@ ms.locfileid: "30493668"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Средства & приложений</h3>
-                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Видео: Добавление средств с вкладками</a></p>
-                        <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">Видео: Перевод файла в вкладки</a></p>
-                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Видео: Использование поле Команда</a></p>
-                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Видео: Обзор панели команд</a></p>
+                        <h3>Приложения и инструменты</h3>
+                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Видео: добавление инструментов с помощью вкладок</a></p>
+                        <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">Видео: преобразование файла во вкладку</a></p>
+                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Видео: использование командного поля</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Видео: обзор панели команд</a></p>
                     </div>
                 </div>
             </div>
@@ -243,8 +244,8 @@ ms.locfileid: "30493668"
                 <div class="card">
                     <div class="cardText">
                         <h3>Веб-канал активности</h3>
-                         <p><a href="https://support.office.com/article/filter-your-activity-feed-02b9ece4-6086-4daa-b4c0-627beeacbf08">Видео: Фильтрации на веб-канал активности</a></p>
-                         <p><a href="https://support.office.com/article/manage-notification-settings-348672f7-9ed0-4b96-86ed-d6fdcecb4096">Видео: Управление параметрами уведомлений</a></p>
+                         <p><a href="https://support.office.com/article/filter-your-activity-feed-02b9ece4-6086-4daa-b4c0-627beeacbf08">Видео: фильтрация веб-канала активности</a></p>
+                         <p><a href="https://support.office.com/article/manage-notification-settings-348672f7-9ed0-4b96-86ed-d6fdcecb4096">Видео: управление параметрами уведомлений</a></p>
                     </div>
                 </div>
             </div>
@@ -254,8 +255,8 @@ ms.locfileid: "30493668"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Рекомендации & советы по группам</h3>
-                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Статьи: Рекомендации & советы по группам</a></p>
+                        <h3>Советы и рекомендации по работе с Teams</h3>
+                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Статья: советы и рекомендации по работе с Teams</a></p>
                     </div>
                 </div>
             </div>
