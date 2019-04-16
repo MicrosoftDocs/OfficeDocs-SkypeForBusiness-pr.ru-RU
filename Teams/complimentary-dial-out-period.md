@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Клиенты могут использовать План звонков Office 365 и Аудиоконференцию Office 365 согласно Условиям использования услуг ТСОП для Skype для бизнеса Online и Клиентскому соглашению корпоративного лицензирования.
-ms.openlocfilehash: 37e42cfe15e592822286936f6a0994cb9862d5b2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 4255df94166416a7743a1d9715b465164cdaf627
+ms.sourcegitcommit: 2731231f7e1cb518ce34c81bd00e619c3a1972e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569644"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "31875023"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Бесплатный период исходящих звонков для аудиоконференций
 
@@ -35,6 +35,10 @@ ms.locfileid: "30569644"
 
 Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
   
+### <a name="end-of-complimentary-dial-out-period"></a>Конец бесплатных обратным звонком периода
+
+Приступая к работе с 1 декабря 2019, будут завершены предоставляется возможность подключение по телефонной линии. Видеть [подписки аудиоконференции исходящих звонков и звонить по льгот](audio-conferencing-subscription-dial-out.md) для получения дополнительной информации. 
+
 ### <a name="complimentary-dial-out-period-details"></a>Бесплатное обратным звонком периода сведений
 
 Для клиентов, осваивает услуги конференц-связи Office 365 звук Корпорация Майкрософт предоставляет дополнительные бесплатных преимуществ, связанных с звонков из организованы пользователи, которым назначены лицензии подписки на Office 365 звук конференц-связи через 2019 июня. В течение этого периода бесплатных Microsoft разрешает организаторам собрания или авторизованного участников как определено в собрание параметры политики, чтобы звонить по телефону из в рамках собрания бесплатных номеров телефонов в 44 стран «Зона A», перечисленных ниже. Это преимущество можно применять к аудиоконференции ежемесячный лицензиями подписки и не распространяется на аудиоконференции-минуту лицензий.
