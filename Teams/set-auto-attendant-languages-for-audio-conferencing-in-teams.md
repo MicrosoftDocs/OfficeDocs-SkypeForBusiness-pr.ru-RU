@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как выбрать языки автосекретаря аудиоконференций для номера аудиоконференций в Microsoft Teams.
-ms.openlocfilehash: a0ed552599e295f630852971f22b362d2e2f2b1b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ce0462dd1e855402aee424a5f677e37efba1a7e3
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463926"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869816"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Установка языков автосекретаря для аудиоконференций в Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "30463926"
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.
 
-2. Выберите номер телефона аудиоконференций **Dedidcated** из списка и в верхней части страницы, нажмите кнопку **Изменить**. Можно только изменить языки номеров выделенного аудиоконференций. Параметр **Изменить** доступен только при выборе номер выделенного аудиоконференций.
+2. Выберите номер телефона аудиоконференций **выделенными** из списка и в верхней части страницы, нажмите кнопку **Изменить**. Можно только изменить языки номеров выделенного аудиоконференций. Параметр **Изменить** доступен только при выборе номер выделенного аудиоконференций.
 
 3. В области справа выберите нужный язык по умолчанию и любые дополнительные языки. 
  
@@ -70,5 +70,5 @@ ms.locfileid: "30463926"
   
 ## <a name="related-topics"></a>Связанные разделы
 
-[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Платная или пробная версия аудиоконференций в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
