@@ -1,5 +1,5 @@
 ---
-title: Задание выходных в Microsoft Teams
+title: Настройка выходных в Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: Узнайте, как настроить праздники в группах Майкрософт и подключать их к вашей автосекретаря.
-ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517121"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914580"
 ---
-# <a name="set-up-holidays-in-microsoft-teams"></a>Задание выходных в Microsoft Teams
+# <a name="set-up-holidays-in-microsoft-teams"></a>Настройка выходных в Microsoft Teams
 
 Можно использовать функцию праздников группы Microsoft планирование определенных дат и время, когда пользователи в вашей организации будет предпринимать время off из и не будут доступны в рабочее время. 
 
@@ -33,7 +33,7 @@ ms.locfileid: "31517121"
 
 Хороший пример — создание праздников на Рождество для при многие сотрудники не на работе. После создания праздников и установить время, а затем необходимо добавить праздника с главным принимаемые автосекретарем, поэтому при вызове людей, они будут воспроизводить аудио сообщения, которую вы создали. Что-то вроде «Мы закрыты на Рождество от 22 декабря по 27 декабря. Оставьте "Мне нравится" голосовое сообщение, можно вернуть звонков при нахождении в офисе.»
 
-Дополнительные сведения о автосекретари Узнайте, [какие автосекретари телефонной системой](what-are-phone-system-auto-attendants.md)?  
+Дополнительные сведения о автосекретари Узнайте, [какие автосекретари облако](what-are-phone-system-auto-attendants.md)?  
 
 ## <a name="create-a-holiday"></a>Создание праздничных дней
 
@@ -88,4 +88,4 @@ ms.locfileid: "31517121"
 
 ## <a name="related-topics"></a>Связанные разделы
 
-[Что такое автосекретари телефонной системой](what-are-phone-system-auto-attendants.md)?
+[Что такое облачных автосекретари](what-are-phone-system-auto-attendants.md)?

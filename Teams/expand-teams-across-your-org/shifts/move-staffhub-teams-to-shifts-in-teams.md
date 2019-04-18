@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa224306f3d42d4746f8e8f2276b44208fc568bd
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 885872b62d15091faf8b14609aed69b274c1ae74
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520218"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914588"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Перемещение ваших команд Microsoft StaffHub смены в группах Майкрософт
 
@@ -101,29 +101,37 @@ ms.locfileid: "31520218"
 Выполните следующие действия, чтобы переместить StaffHub группы.
 
 ```
-Move-StaffHubTeam -Identity <String>
+Move-StaffHubTeam -TeamId <String>
+
+Sample:
+
+Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
 Ниже приведен пример, вы получаете при отправке запрос на перемещение группы StaffHub группы ответа.
 
 ```
-    jobId   teamId                                      teamAlreadyInMicrosofteams  
-    -----   ------                                      ------------          
-        1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
+    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+    ---------------------------------------    ----------------------------------------    ---------------------------          
+    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
 ```
 
 Чтобы проверить состояние запроса на перемещение, выполните следующую команду.
 
 ```
-Get-TeamMigrationJobStatus <Int32>
+Get-TeamMigrationJobStatus <String>
+
+Sample:
+Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
+
 ```
 
 Ниже приведен пример ответа, которые будут выдаваться при перемещении находится в стадии разработки.
 
 ```
-    jobId   status       teamId                                     isO365GroupCreated  Error
-    -----   ------       ------                                     ------------------  -----    
-        1   InProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  True                None
+    jobId                                     status       teamId                                     isO365GroupCreated  Error
+    ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
+    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
 
 ## <a name="make-the-transition-from-staffhub-to-teams"></a>Переход от StaffHub по группам
@@ -141,44 +149,56 @@ Get-TeamMigrationJobStatus <Int32>
 Выполните следующие действия, чтобы получить список всех групп StaffHub в вашей организации.
 
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant
+$StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
 Затем выполните следующие действия, чтобы переместить все группы.
 
 ```
-$StaffHubTeams | foreach {Move-StaffHubTeam -Identity {$_.Id}}
+$StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
 ```
 
 Ниже приведен пример ответа.
 
+Любой рабочей группы, который уже перемещено в группы или уже существует в группах jobId будет иметь значение «null» задание не требуется отправить для перемещения этой группы.
+
 ```
-    jobId   teamId                                      teamAlreadyInMicrosofteams  
-    -----   ------                                      ------------          
-        1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
-        2   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   False
+    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+    ----------------------------------------   -----------------------------------------   --------------------------         
+    null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
+    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
 #### <a name="move-specific-staffhub-teams-coming-soon"></a>Перемещение определенными группами StaffHub (ожидается в ближайшее время)
 
-Выполните следующие действия, чтобы получить список всех групп StaffHub в вашей организации.
+Выполните следующие действия, чтобы получить список всех групп StaffHub идентификаторы в вашей организации.
 
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant
+Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-Создайте файл с разделителями-запятыми (CSV) и добавьте идентификаторы групп, которые необходимо переместить.
-Ниже приведен пример.
+В списке результатов, возвращаемых `Get-StaffHubteamsForTenant` командлет вы выполнили ранее идентификаторы группы, которую нужно переместить и добавить их в файл с разделителями-запятыми (CSV).
+
+Ниже приведен пример форматирования CSV-файл.
 
 |Идентификатор  |
 |---------|
 |TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>9 TEAM_b42d0fa2 - 0fc-408b-85ff-c14a26700000<br>9 TEAM_b42d0fa2 - 0fc-408b-85ff-c14a26700000|
 
-Затем выполните следующие действия, чтобы переместить команды, указанной в CSV-файл.
+После создания CSV-файл, выполните следующие действия, чтобы переместить команды, указанной в CSV-файл.
 
 ```
-Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -Identity {$_.Id}}
+Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
 ```
+### <a name="confirm-that-your-staffhub-teams-have-moved-to-teams-coming-soon"></a>Убедитесь, что группа разработчиков StaffHub будут перемещены в группы (ожидается в ближайшее время)
+
+Выполните следующие действия, чтобы получить список всех групп в смен в вашей организации. 
+
+```
+Get-StaffHubTeamsForTenant -ManagedBy "Teams"
+```
+
+#### 
 
 ## <a name="monitor-teams-usage"></a>Наблюдение за использованием групп
 

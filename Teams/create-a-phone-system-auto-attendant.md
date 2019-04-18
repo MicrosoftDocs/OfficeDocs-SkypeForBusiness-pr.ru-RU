@@ -1,5 +1,5 @@
 ---
-title: Настройка автосекретаря телефонной системы
+title: Настроить автосекретарь облако
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Узнайте, как настроить и тестирование автосекретари телефонной системой (облако УАТС) для обработки для вашей организации эффективным звонков.
-ms.openlocfilehash: 32fbf066524ec73b6cfa683a493dc93c58932d7c
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Узнайте, как настроить и тестирование облачных автосекретари для обработки для вашей организации эффективным звонков.
+ms.openlocfilehash: 8ab3dd318e8ae4c815a78dcc8f7430b2b6d08b04
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013655"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914672"
 ---
-# <a name="set-up-a-phone-system-auto-attendant"></a>Настройка автосекретаря телефонной системы
+# <a name="set-up-a-cloud-auto-attendant"></a>Настроить автосекретарь облако
 
 Автосекретари, позволяет людям, вызов для вашей организации и выберите меню системы, чтобы получить их в правом отдел, вызвать очереди, лицо или оператор. С помощью центра администрирования группами Майкрософт, можно создать автосекретарь для вашей организации. Чтобы создать автосекретарь, перейдите к **голосовой связи** в левой панели навигации и выберите **автосекретари** > **Добавить новые**.
 
-Если вы хотите узнать больше о автосекретари, [Каковы телефонной системой автосекретари?](/microsoftteams/what-are-phone-system-auto-attendants)
+Если вы хотите узнать больше о автосекретари, [Каковы автосекретари облаке?](/microsoftteams/what-are-phone-system-auto-attendants)
 
 > [!NOTE]
 > Эта статья относится к группам Майкрософт и Скайп для бизнеса в Интернет.
@@ -57,7 +57,7 @@ ms.locfileid: "31013655"
 ## <a name="step-2---create-a-new-auto-attendant"></a>Шаг 2. Создание нового автосекретаря
 
 > [!IMPORTANT]
-> Каждые очереди звонка необходимо иметь связанной [учетной записи ресурса](manage-resource-accounts.md). Сначала необходимо создать учетную запись ресурса, а затем связать автосекретаря.
+> Каждые автосекретаря необходимо иметь связанной [учетной записи ресурса](manage-resource-accounts.md). Сначала необходимо создать учетную запись ресурса, а затем связать автосекретаря.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>С помощью центра администрирования группами Майкрософт
 
@@ -77,7 +77,7 @@ ms.locfileid: "31013655"
 
 ![Номер 2](media/sfbcallout2.png)
 
-**Учетная запись ресурса** Нажмите эту кнопку, чтобы выбрать одну или несколько записей ресурсов для подключения к вашей автосекретарь. Все автосекретари должны иметь учетную запись связанных ресурсов. Учетная запись ресурса может иметь номер телефона, связанный со учетной записи, но это не всегда возможно. Автосекретарь верхнего уровня будет наверняка будет иметь учетную запись ресурса с номером телефона назначенный, но дополнительного автосекретаря (использовать в качестве первого уровня автосекретаря подключается к меню уровень 2) легко не может быть назначен номер телефона его Учетная запись ресурса.
+**Учетная запись ресурса** Нажмите эту кнопку, чтобы выбрать одну или несколько записей ресурсов для подключения к вашей автосекретарь. Все автосекретари должны иметь учетную запись связанных ресурсов. Учетная запись ресурса может иметь номер телефона, связанный со учетной записи, но это не всегда возможно. Автосекретарь верхнего уровня обычно есть учетная запись ресурса с номером телефона назначенный, но вложенных автосекретаря (использовать в качестве первого уровня автосекретаря подключается к меню уровень 2) может не иметь номер телефона, назначенных его учетной записи ресурса.
 
 * * *
 
@@ -329,23 +329,23 @@ ms.locfileid: "31013655"
 
 Далее перечислены командлеты, необходимые для управления автосекретарем.
 
-- [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendant?view=skype-ps)  
-- [Set-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csOrganizationalautoattendant?view=skype-ps) 
-- [Get-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendant?view=skype-ps) 
-- [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendantholidays?view=skype-ps) 
-- [Remove-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csOrganizationalautoattendant?view=skype-ps) 
-- [New-CsOrganizationalAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendantmenu?view=skype-ps) 
-- [Новый CsOrganizationalOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [New-CsOrganizationalAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallFlow?view=skype-ps) 
-- [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsOrganizationalAutoAttendantHolidays?view=skype-ps) 
+- [Новый CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
+- [SET-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps) 
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
+- [Новый CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
+- [Новый CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
+- [Новый CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
 - [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
 - [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
 - [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
-- [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedTimeZone?view=skype-ps)
-- [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedLanguage?view=skype-ps)
-- [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csOrganizationalautoattendantholidays?view=skype-ps) 
-- [New-CsOrganizationalAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
+- [Новый CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
+- [Импорт CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
+- [Новый CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
 
 ### <a name="more-about-windows-powershell"></a>Дополнительные сведения о Windows PowerShell
 
@@ -371,6 +371,6 @@ ms.locfileid: "31013655"
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[Что такое автосекретари телефонной системы?](what-are-phone-system-auto-attendants.md)
+[Что такое автосекретари облако?](what-are-phone-system-auto-attendants.md)
 
 [Пример для малого бизнеса: настройка автосекретаря](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  
