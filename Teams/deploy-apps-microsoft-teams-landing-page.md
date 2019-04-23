@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00653ebb796f0b33fa1461327ad173378fed8e28
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e182732647b79f5a3a2ae48940ce3423b157c61f
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993534"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Приложения, боты и соединители в Microsoft Teams
 
@@ -76,7 +76,7 @@ ms.locfileid: "30873171"
 
 ### <a name="office-365-and-custom-connectors"></a>Office 365 и настраиваемые соединители
 
-Соединители помогают поддерживать текущую работу команды, предоставляя контент и обновления из служб, которые вы часто используете, непосредственно в канале. С помощью соединителей участники вашей команды в Teams могут получать обновления из таких популярных служб, как Twitter, Trello, Wunderlist, GitHub и Visual Studio Team Services (VSTS), прямо в чатах внутри команды.
+Соединители помогают поддерживать текущую работу команды, предоставляя контент и обновления из служб, которые вы часто используете, непосредственно в канале. С помощью соединителей пользователи Teams могут получать обновления из таких популярных служб, как Twitter, Trello, Wunderlist, GitHub и Azure DevOps Services, прямо в чатах Teams.
 
 | Задайте себе вопрос | Действие |
 |--------------|--------|

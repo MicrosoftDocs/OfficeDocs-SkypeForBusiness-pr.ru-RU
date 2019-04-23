@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 01/28/2019
+ms.date: 04/18/2019
 ms.reviewer: LolaJ
 description: Найдите подходящий способ развертывания Microsoft Teams в вашей организации. Сведения об инфраструктуре Teams и использовании Teams вместе с Office 365.
 localization_priority: Priority
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cb72d55b41edf6c44b84461d234c42782ee6873
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: cf50b6f7acba602ec001c340e2cbe999c610e693
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649286"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959230"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
@@ -29,16 +29,20 @@ ms.locfileid: "30649286"
 
 ## <a name="overview-of-teams"></a>Обзор Teams
 
-Если вы не знакомы с Teams, посмотрите короткое видео [Что такое Microsoft Teams](https://youtu.be/s3aQV3T0D6c). В основе Teams лежат группы Office 365 и Office Graph. Teams обеспечивает столь же высокий корпоративный уровень безопасности, соответствия требованиям и контроля, что и остальные инструменты Office 365. Teams использует удостоверения, хранящиеся в Azure Active Directory (Azure AD). При создании команды создаются следующие объекты:
+Если вы не знакомы с Teams, посмотрите короткое видео [Что такое Microsoft Teams](https://youtu.be/s3aQV3T0D6c). В основе Teams лежат группы Office 365 и Office Graph. Teams обеспечивает столь же высокий корпоративный уровень безопасности, соответствия требованиям и контроля, что и остальные инструменты Office 365. Teams использует удостоверения, хранящиеся в Azure Active Directory (Azure AD). Чтобы увидеть, где находится Teams в контексте Microsoft 365, ознакомьтесь с плакатом по архитектуре: [Teams в составе Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+
+При создании команды создаются следующие объекты:
 - Новая группа [Office 365](office-365-groups.md)
 - Сайт [SharePoint Online](sharepoint-onedrive-interact.md) и библиотека документации для хранения файлов команды
 - Общий почтовый ящик и календарь [Exchange Online](exchange-teams-interact.md)
 - Записная книжка OneNote
 - Привязки к другим приложениям Office 365, таким как Планировщик и Power BI
 
-При создании команды из уже существующей группы, ее участники, сайт, почтовый ящик и записная книжка переносятся в Teams. Воспользуйтесь [командами организации](create-an-org-wide-team.md) — особыми группами, которые включают всех пользователей компании и синхронизируют присоединяющихся и исключаемых участников с Active Directory. 
+При создании команды из уже существующей группы, ее участники, сайт, почтовый ящик и записная книжка переносятся в Teams. Дополнительные сведения см. на плакате [Группы в Microsoft 365 для ИТ-архитекторов](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Чтобы настроить и расширить возможности Teams, добавляйте сторонние приложения с помощью [приложений, ботов и соединителей](deploy-apps-microsoft-teams-landing-page.md). Teams позволяет вам включить в команду или канал пользователей, не являющихся сотрудниками вашей организации, [добавив их в качестве гостей](guest-access.md). Будучи частью Office 365, приложение Teams представляет собой мощную [платформу для разработки](https://docs.microsoft.com/ru-RU/microsoftteams/platform), которая позволяет создать настоящий центр командной работы для вашей организации. 
+Воспользуйтесь [командами организации](create-an-org-wide-team.md) — особыми группами, которые включают всех пользователей компании и синхронизируют присоединяющихся и исключаемых участников с Active Directory. 
+
+Чтобы настроить и расширить возможности Teams, добавляйте сторонние приложения с помощью [приложений, ботов и соединителей](deploy-apps-microsoft-teams-landing-page.md). Teams позволяет вам включить в команду или канал пользователей, не являющихся сотрудниками вашей организации, [добавив их в качестве гостей](guest-access.md). Будучи частью Office 365, приложение Teams представляет собой мощную [платформу для разработки](https://docs.microsoft.com/microsoftteams/platform), которая позволяет создать настоящий центр командной работы для вашей организации. 
 
 ![Настольное и мобильное приложения Teams](media/teams-overview-hub.png)
 
@@ -46,9 +50,10 @@ ms.locfileid: "30649286"
 ## <a name="managing-teams"></a>Управления группами
 
 Как администратор вы будете управлять Teams через Центр администрирования Microsoft Teams. Дополнительные сведения:
-- [Управление Teams в Центре администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md).
+- [Управление Teams с ролями администратора](using-admin-roles.md)
+- [Управление Teams в Центре администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](manage-teams-in-modern-portal.md)
-
+- [Управление функциями Teams в организации Office 365](enable-features-office-365.md)
 
 Узнать о новых возможностях Teams и других продуктов и служб Office 365 в вашей организации можно в [Центре сообщений](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) и [Стратегии развития Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Вы будете получать оповещения о новых и обновленных функциях, планируемых изменениях и возможных проблемах, чтобы знать о них и быть готовыми заранее. 
 

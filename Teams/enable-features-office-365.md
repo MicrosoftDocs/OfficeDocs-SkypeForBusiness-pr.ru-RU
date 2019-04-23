@@ -1,14 +1,14 @@
 ---
-title: Управление функциями Microsoft Teams в организации Office 365
+title: Управление параметрами Microsoft Teams в организации
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/29/2018
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Узнайте, как включать и отключать приложения Microsoft Teams в организации Office 365, в том числе вкладки, соединители, боты и любое их сочетание.
+description: Узнайте, как включить или отключить параметры Microsoft Teams для всей организации, включая приложения, внешний доступ, гостевой доступ, параметры Teams и настройки обновления Teams.
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
@@ -17,20 +17,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a302d27884f92fb5cf17cc605cead6addbe98bfd
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.openlocfilehash: a61a9e31e2c1ba7c33da3a09d213e1ab0339756b
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30683894"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959270"
 ---
-# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Управление функциями Microsoft Teams в организации Office 365
+# <a name="manage-microsoft-teams-settings-for-your-organization"></a>Управление параметрами Microsoft Teams в организации
 
 В скором времени все настройки Teams будут перенесены в новый Центр администрирования Microsoft Teams. Единственным компонентом Teams, который управляется в Центре администрирования Microsoft 365, остаются "Приложения". 
 
 Если не указано иное, по умолчанию параметры имеют значение **Вкл**.
 
-## <a name="tenant-wide-settings"></a>Параметры на уровне клиента 
+## <a name="tenant-wide-settings-in-the-microsoft-365-admin-center"></a>Параметры на уровне клиента в Центре администрирования Microsoft 365
 
 Вы можете включать и отключать приложения для Teams в разделе **Параметры на уровне клиента** в Центре администрирования Microsoft 365. 
 
@@ -44,31 +44,37 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 #### <a name="default-apps"></a>Приложения по умолчанию
 
-These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
+Это такие приложения, как "Планировщик", "Благодарность" и "Погода", предоставляемые Teams. Чтобы включить приложение, установите для него флажок. Снимите флажок, чтобы отключить приложение. 
 
 ![Снимок экрана раздела "Приложения по умолчанию".](media/teams-manage-features-in-office365-image1.png "Снимок экрана раздела \"Приложения по умолчанию\"")
 
 #### <a name="external-apps"></a>Внешние приложения
 
-These apps are provided by third parties. You can configure the following settings for external apps.
+Эти приложения предоставляются сторонними поставщиками. Вы можете настроить для внешних приложений следующие параметры.
 
 ![Снимок экрана раздела "Внешние приложения".](media/teams-manage-features-in-office365-image2.png "Снимок экрана раздела \"Внешние приложения\" с включаемыми и отключаемыми параметрами")
 
 - **Разрешить внешние приложения в Microsoft Teams**. При включении этого параметра пользователи могут добавлять внешние приложения, доступные вашей организации. 
 
-- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
+- **Разрешить загрузку неопубликованных внешних приложений**. Если вы хотите включить некоторые внешние приложения и отключить другие, отключите этот параметр и в списке внешних приложений отключите приложения, к которым у пользователей не должно быть доступа. При включении этого параметра владельцы и участники команд, которым предоставлено разрешение, могут загружать в Teams неопубликованные приложения. 
 
-- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
+- **Разрешать новые внешние приложения по умолчанию**. При включении этого параметра пользователи могут активировать новые приложения сразу после их добавления в каталог приложений Teams. Если вы хотите контролировать новые приложения, отключите этот параметр. В этом случае не забывайте периодически просматривать новые доступные приложения, чтобы ваша организация не пропустила появление интересных программ. 
 
-Дополнительные сведения: [Параметры администратора для приложений в Teams](admin-settings.md). 
+Дополнительные сведения см. в статье [Параметры администратора для приложений в Teams](admin-settings.md). 
 
-## <a name="teams-org-wide-settings"></a>Параметры Teams на уровне организации
-
+## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Параметры Teams на уровне организации в Центре администрирования Microsoft Teams
 Вы можете управлять параметрами пользователя для всей организации в Центре администрирования Microsoft Teams. Чтобы изменить параметры для всей организации, перейдите в Центр администрирования Microsoft Teams и выберите **Параметры для всей организации**. Вы можете настроить перечисленные ниже параметры.
 
 ### <a name="external-access"></a>Внешний доступ
 
 **Внешний доступ** позволяет пользователям Teams и Skype для бизнеса взаимодействовать с внешними контактами за пределами вашей организации. Сведения о настройке внешнего доступа см. в статье об [активации чата и взаимодействия с пользователями Teams из другой организации](let-your-teams-users-communicate-with-other-people.md).
+
+Чтобы добавить или заблокировать домен:
+
+1. Выберите пункт **Добавить домен**.
+2. В области "Добавление домена" введите имя домена и нажмите клавишу ПРОБЕЛ, чтобы сохранить имя.
+3. Выберите параметр **Разрешен** или **Заблокирован**.
+4. Нажмите **Готово**, чтобы сохранить изменения. 
 
 ### <a name="guest-access"></a>Гостевой доступ
 
@@ -100,7 +106,7 @@ These apps are provided by third parties. You can configure the following settin
 - **Задать ПИН-код контента** — требовать, чтобы пользователи вводили этот ПИН-код, для предотвращения несанкционированного доступа к документам. Это позволяет не допускать неправомочных пользователей к участию в собраниях и просмотру их материалов.
 - **Разрешить учетным записям ресурсов отправлять сообщения** — установите для этого параметра значение **Вкл**, чтобы разрешить отправку сообщений из учетной записи ресурса Surface Hub.
 
-#### <a name="search"></a>Поиск
+#### <a name="search-by-name"></a>Поиск по имени
 
 Microsoft Teams позволяет организациям назначать политику адресных книг Exchange для поиска только в определенных областях каталога: таким образом они могут задавать пользователям внутри компании виртуальные границы для поиска и взаимодействия друг с другом. Поиск в области каталога будет целесообразен, к примеру, в следующих ситуациях:
 

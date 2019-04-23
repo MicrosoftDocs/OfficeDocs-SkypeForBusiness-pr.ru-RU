@@ -1,7 +1,7 @@
 <!-- ============================================================ -->
 # [Добро пожаловать в Teams](teams-overview.md)
 # [Способ развертывания Teams](How-to-roll-out-teams.md)
-
+# [Плакаты: архитектура и решения для телефонии Teams](teams-architecture-solutions-posters.md)
 #       
 #        
 
@@ -25,6 +25,7 @@
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
 ## [Общение с пользователями Teams из других организаций](let-your-teams-users-communicate-with-other-people.md)
+## [Архивация или удаление команды](archive-or-delete-a-team.md)
 
 
 
@@ -58,11 +59,12 @@
 ## [Внешний доступ (федерация)](manage-external-access.md)
 
 ## [Управление Teams](using-admin-roles.md)
-### [Управление функциями Teams в организации](enable-features-office-365.md)
+### [Управление параметрами Teams в организации](enable-features-office-365.md)
 ### [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Управление Teams в Центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md).
 ### [Управление бесплатной версией Teams](manage-freemium.md)
 ### [Назначение владельцев и участников команд в Teams](assign-roles-permissions.md)
+### [Массовое изменение параметров пользователей Teams](edit-user-settings-in-bulk.md)
 ### [Настройка приложения собраний Skype для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Общение с пользователями Teams из других организаций](let-your-teams-users-communicate-with-other-people.md)
 ### [Использование встроенного перевода сообщений](inline-message-translation-teams.md)
@@ -75,6 +77,7 @@
 
 
 ## Справочные материалы
+
 ### Подготовка к развертыванию Teams
 #### [Проверка готовности среды для Teams](environment-readiness.md).
 #### [Подготовка сети организации к использованию Teams](prepare-network.md)
@@ -84,6 +87,8 @@
 #### [Получение средств для развертывания Teams](rollout-tools.md)
 #### [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
 #### [Планирование управления в Teams](plan-teams-governance.md)
+
+
 
 
 ### Взаимодействие с Office 365
@@ -723,7 +728,7 @@
 #### [Классификация потоков на панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)
 
 ## [Обзор PowerShell в Teams](teams-powershell-overview.md)
-### [Справочник по командлетам PowerShell для Teams](https://docs.microsoft.com/powershell/module/teams)
+### [Справочник по командлетам PowerShell для Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Документация разработчиков для Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Справка в Microsoft Teams](get-help-in-microsoft-teams.md)
