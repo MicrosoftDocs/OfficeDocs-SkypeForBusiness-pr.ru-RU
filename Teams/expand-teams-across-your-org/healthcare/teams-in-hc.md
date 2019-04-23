@@ -1,5 +1,5 @@
 ---
-title: Начало работы с группами для организаций здравоохранения
+title: Начало работы с Teams для организаций в сфере здравоохранения
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Начало работы с группами для организаций здравоохранения
-ms.openlocfilehash: 9e9d43d5bd4b7f2f0b15727a2f5c52bda6bb7afb
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Начало работы с Teams для организаций в сфере здравоохранения
+ms.openlocfilehash: 4ba465c69477f3e9ff6d541ddeb55dc41100b7ec
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013784"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959428"
 ---
-# <a name="get-started-with-teams-for-healthcare-organizations"></a>Начало работы с группами для организаций здравоохранения
+# <a name="get-started-with-teams-for-healthcare-organizations"></a>Начало работы с Teams для организаций в сфере здравоохранения
 
 Группами Майкрософт предлагает ряд возможностей полезен для больницы и других организаций здравоохранения. В области разработки для облегчения больницах с включены компоненты групп:
 
@@ -58,4 +58,5 @@ ms.locfileid: "31013784"
  Можно в следующих статьях:
 
 - [Перемещение ваших команд Microsoft StaffHub смены в группах Майкрософт](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
+
 - [Управление приложением "Смены" для вашей организации в Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)

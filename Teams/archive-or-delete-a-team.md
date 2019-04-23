@@ -3,7 +3,7 @@ title: Архивировать или удалять группы в групп
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/12/2019
+ms.date: 04/18/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: islubin
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2e567677964238e125c44fd65eb0c9a21ba512
-ms.sourcegitcommit: 447428df83e0ebf3251343c8ff72f125e486af3e
+ms.openlocfilehash: 5eaa26a3092c0612b006c28bb7ab543313a55dfe
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31910568"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959452"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Архивировать или удалять группы в группах Майкрософт
 ===========================================

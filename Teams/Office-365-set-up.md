@@ -1,5 +1,5 @@
 ---
-title: Включение группами Майкрософт в организации Office 365
+title: Включение Microsoft Teams в организации Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1bf865f9efd7960e7c0df10859d6c821130990b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460926"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959150"
 ---
 # <a name="enable-teams-in-your-organization"></a>Позволяют группам в организации
 
@@ -32,7 +32,7 @@ ms.locfileid: "30460926"
 По умолчанию продукт Microsoft Teams включен для всех организаций. Если вы использовали Microsoft Teams в предварительной версии, параметр останется таким же, какой был указан в предварительной версии Microsoft Teams. 
 
 
-Будучи администратором в своей организации, вы можете назначать лицензии пользователей для индивидуального управления доступом к Microsoft Teams, а также разрешать или блокировать использование отдельных источников данных в Microsoft Teams. [Функции управления группами Майкрософт в организации Office 365](enable-features-office-365.md) или [Параметры администрирования для приложений в группах Microsoft](admin-settings.md) более подробные сведения. 
+Будучи администратором в своей организации, вы можете назначать лицензии пользователей для индивидуального управления доступом к Microsoft Teams, а также разрешать или блокировать использование отдельных источников данных в Microsoft Teams. Просмотрите [Параметры управления группами Майкрософт для вашей организации](enable-features-office-365.md) или [Параметры администрирования для приложений в группами Майкрософт](admin-settings.md) для получения дополнительных сведений. 
 
 
  

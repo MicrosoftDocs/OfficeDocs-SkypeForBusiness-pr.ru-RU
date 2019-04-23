@@ -4,7 +4,7 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/29/2018
+ms.date: 04/16/2019
 ms.topic: conceptual
 ms.service: msteams
 description: Сведения о том, как Группы Office 365 и членство в них используются в Microsoft Teams.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a456e0777d354585eddf3676f2fdcae56ae9485
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 77c8125425bf7aaaf6f619edc9463b17967e4133
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890096"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959278"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 групп и группами Майкрософт
 =====================================
@@ -31,6 +31,8 @@ ms.locfileid: "30890096"
 Группы Office 365 — это служба членства в Office 365. В общем случае группу Office 365 — это объект в Azure Active Directory со списком членов и возможность тесного взаимодействия для связанных с ними рабочих нагрузок, включая сайта группы SharePoint, группы Yammer общие ресурсы почтового ящика Exchange, планировщик работы, Power BI и OneNote. Вы можете добавить или удалить пользователей в группу так же, как и любой другой объект на основе группы безопасности в службе каталогов Active Directory.
 
 Администратор Office 365 можно определить группу Office 365, добавлять элементы и пользу из функции, такие как обмен общих почтовых ящиков, библиотеки документов SharePoint, группы Yammer и т. д. Дополнительные сведения об Office 365 групп можно [сведения о группах Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+
+Не пропустите плакат [групп в Microsoft 365 для ИТ-разработчикам](teams-architecture-solutions-posters.md#groups-in-microsoft-365).
 
 <a name="how-office-365-groups-work"></a>Принципы работы группы Office 365
 --------------------------

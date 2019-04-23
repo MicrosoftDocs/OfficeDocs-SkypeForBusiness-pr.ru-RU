@@ -1,5 +1,5 @@
 ---
-title: Обзор PowerShell в Teams
+title: Обзор PowerShell групп
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -13,21 +13,21 @@ ms.collection:
 description: Изучите использование элементов управления PowerShell для управления группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 497aeba1e339e3c079de9eb4a23182e8f727f278
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897205"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959364"
 ---
-# <a name="teams-powershell-overview"></a>Обзор PowerShell в Teams
+# <a name="teams-powershell-overview"></a>Обзор PowerShell групп
 
 Группами Майкрософт имеет широкий набор средств для ИТ-администраторов для управления продукта через Центр администрирования группами Майкрософт, PowerShell элементов управления и API-интерфейсы графике. В этом руководстве рассматривается как мы структурировать наших командлеты PowerShell для ИТ-администраторов для использования и содержит ссылки на дополнительные документацию. Обратите внимание на то, что различные роли администраторов группы имеют доступ к другой командлетов. Дополнительные сведения можно [управлять группами ролей администраторов группами Майкрософт использования](using-admin-roles.md).
 
 ## <a name="which-modules-do-you-need-to-use"></a>Какие модули необходимо использовать?
 
 Элементы управления PowerShell для управления группами находятся в двух разных модулях PowerShell: 
-- [Модуль Microsoft команды PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (пробная версия): модуль команды PowerShell содержит все командлеты, необходимые для создания и управление группами.  
+- [Модуль Microsoft команды PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) : модуль команды PowerShell содержит все командлеты, необходимые для создания и управление группами.  
 - [Скайп для модуль PowerShell бизнеса](https://www.microsoft.com/en-us/download/details.aspx?id=39366): Скайп для модуль Business PowerShell содержит командлеты, чтобы управлять политиками, конфигурации и других средств группами. 
 
 Справочная документация для элементов управления PowerShell сообщит вам, какие модуль содержит командлетом, в случае исследование. (В конце концов, два модули будут объединены.)
@@ -38,9 +38,9 @@ ms.locfileid: "30897205"
 
 ## <a name="creating-and-managing-teams-via-powershell"></a>Создание и управление группами с помощью PowerShell
 
-Командлеты для создания и управления группами являются в [модуль Microsoft команды PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3). 
+Командлеты для создания и управления группами являются в [модуль Microsoft команды PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
 
-Команды выполняется резервное O365 группами, поэтому при создании рабочая группа, создание группы. Существует набор командлетов для основная группа и его параметры (``new-team``, ``get-team``, ``set-teamfunsettings``, ``set-teammessagingsettings``, ``set-teamguestsettings``, ``set-teammembersettings``), управление пользователями группы (``add-teamuser``, ``remove-teamuser``), а также командлетов для управления каналами рабочей группы (``new-teamchannel`` , ``remove-teamchannel``). Все эти командлеты могут выполняться как конечные пользователи, но они работают только на которых вы должны быть членом группы. Если вы являетесь глобального администратора или администратора службы групп, можно будет действовать на все рабочие группы в вашей организации.
+Команды выполняется резервное O365 группами, поэтому при создании рабочая группа, создание группы. Существует набор командлетов для основная группа и его параметры (``new-team``, ``get-team``, ``set-team``), управление пользователями группы (``add-teamuser``, ``remove-teamuser``), а также командлетов для управления каналами рабочей группы (``new-teamchannel``, ``remove-teamchannel``). Все эти командлеты могут выполняться как конечные пользователи, но они работают только на которых вы должны быть членом группы. Если вы являетесь глобального администратора или администратора службы групп, можно будет действовать на все рабочие группы в вашей организации.
 
 > **GroupId** , используемые в командлетах модуля Microsoft команды PowerShell совпадает с свойства **Identity** , возвращаемого ``Get-UnifiedGroup`` в модуле Exchange PowerShell.
 

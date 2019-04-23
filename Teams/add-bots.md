@@ -14,19 +14,19 @@ ms.reviewer: lucarras
 description: Сведения о добавлении ботов для приватного чата и каналов в Microsoft Teams, создании пользовательских ботов и загрузке собственного неопубликованного бота для приватного чата.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3dfaabcbb2099f0b677e03b58ce79b5a7fca3237
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d2b651e627f2b9375023984883562b1eaa696b1c
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458806"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959171"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Добавление ботов для приватных чатов и каналов в Microsoft Teams
 ==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Боты — это автоматические программы, которые отвечают на запросы или предоставляют интересующие пользователя уведомления и данные. Они позволяют пользователю взаимодействовать с облачными службами, предназначенными, например, для управления задачами, планирования и опросов, через беседы чата в Microsoft Teams. Боты для Microsoft Teams создаются на платформе [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370). Поэтому для Microsoft Teams можно легко адаптировать любые боты, разработанные на этой платформе. Для получения дополнительных сведений см [Управление группами Майкрософт в организации Office 365](enable-features-office-365.md).
+Боты — это автоматические программы, которые отвечают на запросы или предоставляют интересующие пользователя уведомления и данные. Они позволяют пользователю взаимодействовать с облачными службами, предназначенными, например, для управления задачами, планирования и опросов, через беседы чата в Microsoft Teams. Боты для Microsoft Teams создаются на платформе [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370). Поэтому для Microsoft Teams можно легко адаптировать любые боты, разработанные на этой платформе. Для получения дополнительных сведений см. [Параметры управления группами Майкрософт для вашей организации](enable-features-office-365.md).
 
 Сейчас Microsoft Teams поддерживает боты в приватных чатах и каналах внутри команды. Администраторы могут разрешить или запретить боты в клиенте Office 365.<span id="_T-Bot" class="anchor"></span>
 

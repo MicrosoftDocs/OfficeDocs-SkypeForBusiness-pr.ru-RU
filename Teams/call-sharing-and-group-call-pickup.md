@@ -1,7 +1,7 @@
 ---
 title: Общие звонки и ответ на групповые звонки в Microsoft Teams
 ms.author: lolaj
-author: lolaj
+author: LolaJacobsen
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Вызовите общего доступа и раскладки звонок группы Пользователи могут совместно использовать входящие звонки с коллегами, чтобы звонки можно отслеживались при недоступности пользователя.
-ms.openlocfilehash: df98dd4df064b23b687ddcc569e6c5a431137527
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: e822d06e48f3d7df548f0fd0d04645e7e9328598
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351332"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993583"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Общие звонки и ответ на групповые звонки в Microsoft Teams
 
@@ -54,6 +54,6 @@ ms.locfileid: "30351332"
 
 Клиент может содержать не более 32 768 звонок группы. Может быть не более 5 пользователей в каждой группе звонок. 
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 [Переадресация звонков и одновременных звонков в группах](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)

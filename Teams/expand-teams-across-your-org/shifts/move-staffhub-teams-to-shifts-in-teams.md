@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 885872b62d15091faf8b14609aed69b274c1ae74
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: 14f94428ddeba7b5a648b4b8dbd7bd5ef8fae0e4
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914588"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959484"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Перемещение ваших команд Microsoft StaffHub смены в группах Майкрософт
 
@@ -160,7 +160,7 @@ $StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
 
 Ниже приведен пример ответа.
 
-Любой рабочей группы, который уже перемещено в группы или уже существует в группах jobId будет иметь значение «null» задание не требуется отправить для перемещения этой группы.
+Любой рабочей группы, который уже был перемещен в группы или уже существует в группах jobId будет иметь значение «null» задание не требуется отправить для перемещения этой группы.
 
 ```
     jobId                                      teamId                                      teamAlreadyInMicrosofteams  
@@ -198,13 +198,11 @@ Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
 
-#### 
-
 ## <a name="monitor-teams-usage"></a>Наблюдение за использованием групп
 
 Отчеты об использовании помогут вам лучше понять особенности использования и предоставить дополнительная информация о том, куда определять приоритеты обучения и обмена данными между организациями. Поскольку смены приложения в группах, можно просмотреть использования по группам отчетов. Для получения дополнительных сведений см [групп отчетов в центре администрирования группами Майкрософт](../../teams-analytics-and-reports/teams-reporting-reference.md) и [отчеты об активности групп в центре администрирования Microsoft 365](../../teams-activity-reports.md).
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 - [Прекращение поддержки Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
 - [Управление приложением "Смены" для вашей организации в Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Справочник по StaffHub PowerShell](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)

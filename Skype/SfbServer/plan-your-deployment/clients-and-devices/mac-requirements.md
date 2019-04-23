@@ -14,22 +14,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Прочтите этот раздел, чтобы узнать о оборудование, программное обеспечение и требования к инфраструктуре для запуска Скайп для бизнеса на Mac.
-ms.openlocfilehash: 694f64933f4618b5c2157f7a35acdf9339d52919
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: bd8522684131d1119ce91c100a2aeeeec4797a70
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965629"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993559"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Скайп для бизнеса на требования к клиентскому Mac
  
 Прочтите этот раздел, чтобы узнать о оборудование, программное обеспечение и требования к инфраструктуре для запуска Скайп для бизнеса на Mac.
   
-[Скайп для бизнеса на клиентском компьютере Mac](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac) доступно для загрузки.
+[Скайп для бизнеса на клиенте Mac](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac) доступно для загрузки.
   
-## <a name="hardware-and-software-requirements-for-skype-for-business-on-the-mac"></a>Требования к программному обеспечению и оборудованию для Skype для бизнеса на Mac
+## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Требования к оборудованию и программному обеспечению для Скайп для бизнеса в Mac
 
-Скайп для бизнеса на клиентском компьютере Mac требуется Mac OS X El Capitan и более поздней версии и использует менее 100 МБ дискового пространства. Мы поддерживаем все встроенные звуковые и видеоустройства. Внешние устройства должны быть в [Скайп для каталога бизнес-решений](https://partnersolutions.skypeforbusiness.com/solutionscatalog). 
+Скайп для бизнеса на клиенте Mac требуется Mac OS X El Capitan и более поздней версии и использует менее 100 МБ дискового пространства. Мы поддерживаем все встроенные звуковые и видеоустройства. Внешние устройства должны быть в [Скайп для каталога бизнес-решений](https://partnersolutions.skypeforbusiness.com/solutionscatalog). 
   
 > [!NOTE]
 > Этот список является предварительной и может некоторые устройства могут быть рекомендованные для Lync, но не поддерживается на Скайп для бизнеса на Mac. Обратитесь к [требования к системе](https://products.office.com/en-us/office-system-requirements) для минимальное оборудование, необходимое.
@@ -44,16 +44,16 @@ ms.locfileid: "23965629"
  
 Эти клиенты не поддерживается Скайп для Business Server 2019.
    
-## <a name="infrastructure-requirements-for-skype-for-business-on-the-mac"></a>Требования к инфраструктуре для Skype для бизнеса на Mac
+## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>Требования к инфраструктуре для Скайп для бизнеса в Mac
 <a name="Infrastructure"> </a>
 
-Скайп для бизнеса на клиентском компьютере Mac использует объединенные коммуникации управления платформы (UCMP) как, так и Unified Communications Web API (UCWA), используйте наши клиенты мобильной работы.
+Скайп для бизнеса на клиенте Mac использует объединенные коммуникации управления платформы (UCMP) как, так и Unified Communications Web API (UCWA), используйте наши клиенты мобильной работы.
   
 Требования клиента совпадают с требованиями мобильных клиентов: необходимо развернуть пограничный сервер доступа и обратный прокси-сервер в поддерживаемой конфигурации. 
   
 ### <a name="authentication"></a>Проверка подлинности
 
-Скайп для бизнеса на клиентском компьютере Mac поддерживает проверку подлинности на основе сертификата, современных проверку подлинности Microsoft и многофакторной проверки подлинности при развертывании и включено.
+Скайп для бизнеса на клиенте Mac поддерживает проверку подлинности на основе сертификата, современный проверку подлинности Microsoft и многофакторной проверки подлинности при развертывании и включен.
   
 > [!NOTE]
 > Из-за текущим ограничением учетные данные пользователя Exchange должен совпадать с их Скайп Business учетных данных. 
@@ -74,7 +74,7 @@ ms.locfileid: "23965629"
     
 Для получения дополнительных сведений обратитесь: [Руководство по мобильности Microsoft Lync Server 2010](https://go.microsoft.com/fwlink//p/?LinkId=798226)и [Развертывание мобильных устройств в Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=798224).
   
-## <a name="see-also"></a>Были ли эти инструкции полезны? Если да, укажите это в конце статьи. Если нет, сообщите нам о недочетах, и мы постараемся найти решение.
+## <a name="see-also"></a>См. также
 <a name="Infrastructure"> </a>
 
 [Требования DNS для Скайп для Business Server](../../plan-your-deployment/network-requirements/dns.md)

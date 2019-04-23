@@ -1,6 +1,6 @@
 ---
 title: Назначение лицензий Teams
-author: lolaj
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 12/14/2018
@@ -14,12 +14,12 @@ ms.reviewer: mikedav
 description: Узнайте, как для назначения лицензий для функции, такие как аудио конференц-связи, телефонной системой и планы вызова.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c679a43262a5cd10756b0f5ea542f1341018b615
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 46966b7cad855ef6336b501564cde89dffd6b2b2
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993631"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Назначение лицензий группами Майкрософт
 
@@ -190,7 +190,7 @@ foreach ($user in $users)
 
 Ознакомьтесь с примером сценария для назначения лицензий на аудиоконференции. Обновите сведения для назначения лицензий на кредиты на связь.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка планов звонков](set-up-calling-plans.md)
 </br>

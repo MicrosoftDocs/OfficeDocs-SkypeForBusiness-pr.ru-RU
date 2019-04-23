@@ -1,6 +1,6 @@
 ---
-title: Настройка взаимодействия облачных видео для групп Майкрософт
-author: lolaj
+title: Настройка взаимодействия Microsoft Teams с облачными видеослужбами
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b51bcd5cd5813c317c79a5f89656e11423d91412
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b171b3fb5e73561ea5aea54e6e4f25bfabe6b0dc
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462542"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993623"
 ---
-# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Настройка взаимодействия облачных видео для групп Майкрософт
+# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Настройка взаимодействия Microsoft Teams с облачными видеослужбами
 
 После того как [выбранных на вашей партнерами видео взаимодействия облаке](cloud-video-interop.md)необходимо спланировать развертывание, Настройка get подготовки содержатся дополнительные сведения и ключу клиента партнеров и разрешения для видео взаимодействия приложений в вашей организации. Ниже описывается процесс. 
 

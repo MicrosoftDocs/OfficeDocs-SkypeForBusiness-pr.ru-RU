@@ -1,7 +1,7 @@
 ---
 title: Функция Shared Line Appearance в Microsoft Teams
 ms.author: lolaj
-author: lolaj
+author: LolaJacobsen
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Внешний вид общей строки позволяет пользователю выбрать представителю ответ или обработки звонков от их имени.
-ms.openlocfilehash: 81eea77595f07db5772ffc4f3d6ee0b0dafa95c5
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: d16fe4b3241e814609999d8068ee47743bfca516
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993542"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Функция Shared Line Appearance в Microsoft Teams
 
@@ -66,6 +66,6 @@ ms.locfileid: "30641210"
  
 Если представитель и делегат не в том же месте, — разрешить Звонящего отображались в разных географических расположениях для делегированных (от имени владельца) вызова поставщику PSTN. 
  
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 [Общий доступ к телефонной линии с помощью делегата](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)

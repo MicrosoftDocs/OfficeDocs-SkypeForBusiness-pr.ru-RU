@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Скайп для правил нормализации Business Server использование регулярных выражений .NET Framework для перевода набранного номера телефонов в формате E.164. Другими словами правила нормализации занять телефонный номер, набираемый пользователем и преобразования в формат, используется системой Скайп для Business Server этот номер. Каждой абонентской группе должно быть назначено хотя бы одно правило нормализации.
-ms.openlocfilehash: 8e32ac485763c626d7d4347bb194fb4c4f3dba44
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a1157e9cf435fdd655e9d1772294fa3f57acf3f4
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993517"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Определение правил нормализации в Скайп для Business Server
 
@@ -36,7 +36,7 @@ ms.locfileid: "30882476"
 
 1. Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см [Делегирование разрешений на установку](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления. Для получения дополнительных сведений о различных способах, которые можно использовать для запуска Скайп для панели управления Business видеть [установки и откройте Администрирование](../../management-tools/install-and-open-administrative-tools.md).
-3. (Необязательно) Выполните действия в разделе [Создание абонентской группы](GET LINK AFTER MIGRATION) через шаг 11 или [Изменение абонентской группы](GET LINK AFTER MIGRATION) по действие 10. 
+3. (Необязательно) Выполните действия в разделе [Создание абонентской группы](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) через шаг 11 или [Изменение абонентской группы](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) по действие 10. 
 4. В разделе **создания** или **редактирования правила нормализации**в поле **Имя** введите имя, описывающее нормализуемый числовой шаблон (например, назовите правило нормализации **5DigitExtension**).
 5. В поле **Описание** введите описание правила нормализации (например, "Преобразование пятизначных добавочных номеров") (не обязательно).
 6. В разделе **Построение правила нормализации** введите значения в следующих полях.

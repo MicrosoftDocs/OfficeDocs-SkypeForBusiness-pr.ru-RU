@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Узнайте о управления учетными записями ресурсов в группах Майкрософт
-ms.openlocfilehash: e8d3da4938a5040972b3c4853434808ca7457c90
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: a5b03c8bca7bcc8e012331afe9835a8de6cfe99a
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914596"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959507"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -65,51 +65,65 @@ ms.locfileid: "31914596"
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Создание учетной записи ресурса в центре администрирования группами Майкрософт
 
-Чтобы создать учетную запись ресурса в центре администрирования группами Майкрософт, перейдите к **масштабе организации параметры** > **учетные записи ресурса**, нажмите кнопку **+ Добавить**. Во всплывающем введите отображаемое имя и имя пользователя для учетной записи ресурса (имя домена должно отобразиться автоматически) нажмите кнопку **Сохранить**.
+В центре администрирования группами Майкрософт, перейдите к **параметрам масштабе организации** > **учетные записи ресурса**. 
+
+![Драйвер автоматического обхода](media/r-a-master.png)
+
+![номер 1](media/sfbcallout1.png)
+
+Чтобы создать новый ресурс учетной записи нажмите кнопку **+ новой учетной записи**. Во всплывающем введите отображаемое имя и имя пользователя для учетной записи ресурса (имя домена должно отобразиться автоматически) нажмите кнопку **Сохранить**.
 
 ![Учетная запись ресурса](media/res-acct.png)
 
-Необходимо также для применения лицензии учетная запись ресурса, как описано в [Назначение лицензий для пользователей в Office 365 для бизнеса](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide)
+Далее необходимо будет применить лицензия учетная запись ресурса, как описано в [Назначение лицензий для пользователей в Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-После создания учетной записи ресурса и назначены лицензии, вы щелкаете **Назначить или снять** назначение номер телефона для учетной записи ресурса, а также назначить учетную запись ресурса в очередь auto attendant или звонок.
+![номер 3](media/sfbcallout3.png) после того как вы создали учетную запись ресурса и назначены лицензии, щелкните **Назначить или снять** назначение номер телефона для учетной записи ресурса или назначения ресурса учетной записи автосекретарю или позвонить очереди, который уже существует. Если очереди вызовов или по-прежнему требуется создать автосекретарь, можно связать учетную запись ресурса при его создании. Закончив, нажмите кнопку **Сохранить** .
+
+![Назначение учетной записи ресурса](media/r-a-assign.png)
+
+![номер 2](media/sfbcallout2.png) можно изменить отображаемое имя учетной записи ресурса, выбрав пункт **Изменить** .  Закончив, нажмите кнопку **Сохранить** .
+![Изменение учетной записи ресурса](media/r-a-edit.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>Создание учетной записи ресурса в Powershell
 
 Для Microsoft Тарифные планы могут быть назначены только международную и номера телефонов бесплатных службы, в **Центр администрирования группами Майкрософт** или перенесен из другого поставщика услуг для учетной записи ресурса. Чтобы получить и использовать бесплатные телефонные номера, необходимо настроить кредиты на услуги связи.
 
-В зависимости от того, ли номер телефона расположен через Интернет или локально необходимо подключиться к строке соответствующие Powershell с правами администратора.
+В зависимости от того, ли свою учетную запись ресурса находится через Интернет или локально необходимо подключиться к строке соответствующие Powershell с правами администратора. 
+- Следующие Powershell, командлет примеры считают, что учетная запись ресурса размещенный online с помощью [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) для создания учетной записи ресурса, который расположен в Интернете.
 
+- Ресурс учетные записи, размещенные локально в Скайп для Business Server 2019, который может использоваться с очередями вызовов облако и облачных автосекретари в разделе [Настройка очередей облачных звонков](/skypeforbusiness/SfbHybrid/hybrid/configure-call-queue.md) или [Настройка автосекретарей облака](/skypeforbusiness/SfbHybrid/hybrid/configure-cloud-auto-attendant.md). Реализации гибридных (номера, размещенных на прямой маршрутизации), использующие [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps).
 
-- (Номера, размещенных на прямой маршрутизации) реализации гибридных будет использоваться для создания учетной записи ресурса, размещенный на локальном [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .  
-- Интернет-версия только для реализации, использующие [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) иметь учетную запись ресурса, который расположен в Интернете.
+Приложение идентификатор приложения-службы, необходимо использовать при создании приложения экземпляры:
+- **Автосекретаря:** ce933385-9390-45d1-9512-c8d228074e07
+- **Вызова очереди:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Ниже приведен пример создания учетной записи ресурса с автосекретарем ApplicationID сети Интернет. Задания в очереди вызовов можно использовать следующие ApplicationID 11cd3e2e-fccb-42ad-ad00-878b93575e07:
+> [!NOTE]
+> Если требуется очереди звонок или принимаемые автосекретарем становится доступным для поиска с локальных пользователей, необходимо создать вашей ресурсов учетные записи локальных, поскольку учетные записи сетевой ресурс синхронизируются вниз до Active Directory.
+
+1. Создание учетной записи ресурса Интернет-версия для использования auto attendant, следующая команда.  
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
-$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ```
 
-В разделе [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) для получения дополнительных сведений о этой команды.
+2. Вы не сможете использовать учетную запись ресурса, пока не применяется лицензии. Для применения лицензии для учетной записи в центре администрирования O365 [назначение лицензий для пользователей в Office 365 для бизнеса] см (https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user и [Назначение Скайп для лицензий на бизнес](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) .
 
-> [!NOTE]
-> Можно легко указывается, что online телефона с помощью центра администрирования группами Майкрософт, как описано в следующем разделе. Вы также можете использовать `Set-CsOnlineVoiceApplicationInstance` команду для назначения номер телефона, чтобы учетная запись ресурса после его первоначального создания как показано:
+3. (Необязательно) После применения правильные лицензии учетная запись ресурса можно задать номер телефона учетную запись ресурса, как показано ниже. Не все учетные записи ресурсов необходимо номер телефона. Если лицензия не применены к учетной записи ресурса, назначения номера телефона завершится с ошибкой.
 
 ``` Powershell
-Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
+Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com
  -TelephoneNumber +14255550100
 Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
-Если лицензия не применяются при создании учетной записи ресурса назначения номера телефона завершится с ошибкой. 
-
 В разделе [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) для получения дополнительных сведений о этой команды.
 
-
+> [!NOTE]
+> Можно легко установить online номер с помощью центра администрирования группами Майкрософт, как описано выше.
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Управления параметрами учетных записей ресурсов в центре администрирования группами Майкрософт
 
-Для управления параметрами учетных записей ресурсов в центре администрирования группами Майкрософт, перейдите к **Параметры масштабе организации**  > **учетные записи ресурса**, выберите учетную запись ресурса, чтобы изменить параметры для и нажмите кнопку **Изменить** . в окне **Изменение учетной записи ресурсов** вы сможете изменить:
+Для управления параметрами учетных записей ресурсов в центре администрирования группами Майкрософт, перейдите к **Параметры масштабе организации**  > **учетные записи ресурса**, выберите учетную запись ресурса, чтобы изменить параметры для и нажмите кнопку **Изменить** . в окне **Изменить учетную запись ресурса** можно изменить следующие параметры:
 
 - **Отображаемое имя** для учетной записи
 - Звонок очередь или автосекретаря, который использует учетную запись
@@ -127,13 +141,13 @@ Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 
 Для реализации в группы или Скайп для бизнеса в Интернет:
 
-[Что такое автосекретари облако?](what-are-phone-system-auto-attendants.md)
+[Что представляют собой облачные автосекретари?](what-are-phone-system-auto-attendants.md)
 
-[Настроить автосекретарь облако](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Настройка облачного автосекретаря](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Пример для малого бизнеса: настройка автосекретаря](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Создание очереди вызовов облако](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[Создание облачной очереди звонков](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Новый CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

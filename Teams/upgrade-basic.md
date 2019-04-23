@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e31cfcecf519489f21a99e9e68c14d92639a624c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494167"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959388"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -64,7 +64,7 @@ ms.locfileid: "30494167"
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a>Шаг 2. Подготовка групп в вашей организации
+## <a name="step-2-prepare-your-organization-for-teams"></a>Шаг 2. Подготовка организации к использованию Teams
 
 *(Около четырех до шести недель до обновления)*
 
@@ -78,7 +78,7 @@ ms.locfileid: "30494167"
 - [Обзор Teams](Teams-overview.md)
 - [Сведения о рабочих групп и каналы](teams-channels-overview.md)
 - [Завершить технические планирования](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Управление системами Скайп комнаты](https://aka.ms/srsdocs)
+- [Управление приложением "Комнаты Microsoft Teams"](https://aka.ms/MTRDocs)
 
 [В начало](#about-upgrade-basic)
 
@@ -113,7 +113,7 @@ ms.locfileid: "30494167"
 
 **Ресурсы:**
 
-- [Управление функциями группами в организации](enable-features-office-365.md)
+- [Управление параметрами групп Майкрософт для вашей организации](enable-features-office-365.md)
 - [Образец электронной почты: оповещение, пользователям о Скайп для бизнеса](upgrade-emails-surveys.md#step-4-email)
 
 [В начало](#about-upgrade-basic)
@@ -164,7 +164,7 @@ ms.locfileid: "30494167"
 
 **Ресурсы:**
 
-- [Задайте вашей сосуществования и параметры обновления](setting-your-coexistence-and-upgrade-settings.md)
+- [Настройка сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md)
 - [Образец электронной почты: приглашение пользователей принять группами](upgrade-emails-surveys.md#step-7-email)
 
 [В начало](#about-upgrade-basic)

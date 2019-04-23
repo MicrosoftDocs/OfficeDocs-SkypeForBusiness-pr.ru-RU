@@ -1,6 +1,6 @@
 ---
 title: Взаимодействие Microsoft Teams с облачными видеослужбами
-author: lolaj
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d18879bdc983ea245c491f4cfadb38c2e7bd5578
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 9a3da2281ffcc444478a32e3a4980f707acfd25f
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569297"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993591"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Взаимодействие Microsoft Teams с облачными видеослужбами
 
