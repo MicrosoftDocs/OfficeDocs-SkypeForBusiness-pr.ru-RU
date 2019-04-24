@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Можно переместить пользователей в новые Скайп для развертывания Business Server 2019 с помощью любого из Скайп для панели управления Business Server или Скайп для консоли Business Server. То необходимо выполнить некоторые требования, чтобы обеспечить плавный переход к Скайп для Business Server 2019. Для получения дополнительных сведений о предварительных требованиях для выполнения процедур, описанных в данном разделе увидеть Настройка клиентов для миграции. Подробное описание действий о перемещении пользователей, посвященной этап 4: перемещение тестовых пользователей в пилотный пул.'
 ms.openlocfilehash: 9f984b7fac919decce521c6dafc587a4ac86de50
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231590"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Перемещение оставшихся пользователей на Скайп для Business Server 2019
 

@@ -22,11 +22,11 @@ ms.custom:
 - Reporting
 description: Узнайте о вызова аналитики и панель мониторинга качества звонков и когда следует использовать их для мониторинга и устранения проблем качества звонка.
 ms.openlocfilehash: c85bcecd31c978616e5394740efac6bb5c28c07c
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993656"
+ms.locfileid: "32199817"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Аналитика звонков и панель мониторинга качества звонков
 

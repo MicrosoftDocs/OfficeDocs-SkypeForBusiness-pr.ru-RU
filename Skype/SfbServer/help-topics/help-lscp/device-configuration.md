@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: Конфигурация устройств — это набор параметров, используемый для управления Скайп для устройств Business Phone Edition глобально или на сайте. Эти настройки позволяют настраивать такие параметры, как требуемый режим безопасности, уровень ведения журнала на устройстве, качество обслуживания голосовой связи (QoS), и определять необходимость автоматической блокировки телефонов по истечении заданного периода неактивности.
 ms.openlocfilehash: 20f288ab601fb53aa9d4dbb622170da8964fc9e3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200767"
 ---
 # <a name="device-configuration"></a>Конфигурация устройств
  

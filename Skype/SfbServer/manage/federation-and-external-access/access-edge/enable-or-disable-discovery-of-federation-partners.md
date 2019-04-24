@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Во время развертывания пограничных серверов и поддержкой федерации для вашей организации должны указаны ли поддержка автоматического обнаружения доменов федеративного партнера.
 ms.openlocfilehash: de61d8180a8f4e8f8be13abaab3d8911d2c6e22c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199943"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Включение и отключение обнаружения федеративных партнеров в Скайп для Business Server
 

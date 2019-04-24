@@ -14,11 +14,11 @@ ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы начать установку базы данных, который будет использоваться для хранения локальной копии только для чтения из центрального хранилища управления, выберите между получение определенных конфигурации публикации с помощью построителя топологий с уже установлена и настроена Central Хранилище управления или чтение определенные конфигурации с другими носителя. Для компьютера, который размещается на внутренней сети вашей организации выберите получить автоматически из центрального хранилища управления.
 ms.openlocfilehash: 21cf742be33ab79daa733cbc52aa557b6ccee145
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216055"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Вызов установки локального хранилища конфигурации (настройка)
  

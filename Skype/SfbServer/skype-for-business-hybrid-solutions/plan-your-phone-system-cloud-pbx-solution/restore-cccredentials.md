@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
 description: Командлет учетные данные копия на восстановление восстанавливает все учетные данные текущего Скайп для развертывания соединителя Cloud Business Edition.
 ms.openlocfilehash: 0b790b9f2edab9fade2738c3c95348be864f9017
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250865"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  

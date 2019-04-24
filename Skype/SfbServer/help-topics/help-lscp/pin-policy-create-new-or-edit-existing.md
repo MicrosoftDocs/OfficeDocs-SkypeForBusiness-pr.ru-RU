@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 ms.openlocfilehash: fbc594a4d5aecfddbd4dda4d14dd802dfa6923d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200669"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Политика ПИН-кодов: создание новой или редактирование существующей
 

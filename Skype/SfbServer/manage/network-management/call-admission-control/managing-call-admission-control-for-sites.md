@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Сетевые узлы не офисы или расположения в каждом регионе сети для контроля допуска звонков (CAC), E9-1-1 и развертываний обход мультимедиа.
 ms.openlocfilehash: 53140cf03110991f2c757e5d52e30a6c7db1d7de
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199226"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Управление контролем допуска звонков для сайтов в Skype для бизнеса Server
 
@@ -184,7 +184,7 @@ ms.locfileid: "30895421"
 
 5.  В меню **Правка** выберите пункт **Удалить**.
 
-6.  Нажмите **ОК**.
+6.  Нажмите кнопку **ОК**.
     
 
     > [!WARNING]  

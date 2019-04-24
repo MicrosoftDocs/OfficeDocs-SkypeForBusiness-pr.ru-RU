@@ -23,11 +23,11 @@ ms.custom:
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
 ms.openlocfilehash: 2e9845a9b9ebb294d0d7af1af87fae3165244889
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218062"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Рекомендации по сбору данных для Skype для бизнеса и Microsoft Teams
 
@@ -116,7 +116,7 @@ ms.locfileid: "30569656"
 
 Для пользователей 21Vianet, использующих Office 365 см. [Set up your network for Lync Online](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Программа улучшения качества программного обеспечения](https://www.microsoft.com/products/ceip/default.mspx)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

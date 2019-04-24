@@ -14,11 +14,11 @@ ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Выберите базы данных, которые вы хотите создать для вашего развертывания. По умолчанию базы данных будут создаваться на определенном SQL Server на определенном сайте и автоматически развертывание и настройка файлов базы данных на SQL Server, размещении баз данных на основе.
 ms.openlocfilehash: f9b345a741182968e32bc0907d70c0924a61ea3f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201795"
 ---
 # <a name="install-and-create-databases"></a>Установка и создание баз данных
 

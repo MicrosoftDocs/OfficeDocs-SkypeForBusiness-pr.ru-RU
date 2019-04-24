@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 description: Используйте диалоговое окно Выбор единой системы обмена СООБЩЕНИЯМИ автосекретаря Exchange для выбора Exchange единой системы обмена СООБЩЕНИЯМИ автосекретарь, который будет обрабатывать входящие звонки для диапазона неназначенных номеров.
 ms.openlocfilehash: 5724c2fbdfc2caca986dfc2fea31d788b6a72955
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220138"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Выбор автосекретаря единой системы обмена сообщениями Exchange
  

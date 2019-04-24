@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.collection: M365-voice
 description: В этой статье обсуждаются накопительные пакеты усовершенствования в комнатах группами Майкрософт.
 ms.openlocfilehash: 3d80c1c2e4aa2fcad241f566b832e8ddbc662120
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012900"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214493"
 ---
 # <a name="release-notes"></a>Примечания к выпуску 
 
@@ -218,7 +218,7 @@ Introduced in this update:
 <a name="See"> </a>  
 ## <a name="see-also"></a>См. также
 
-[Справка по Microsoft группами комнат](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Подготовка среды](srs-v2-prep.md)
 
@@ -228,4 +228,4 @@ Introduced in this update:
 
 [Планирование для групп Майкрософт комнат](skype-room-systems-v2-0.md)
 
-[Управление группами Майкрософт комнат](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление приложением "Комнаты Microsoft Teams"](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

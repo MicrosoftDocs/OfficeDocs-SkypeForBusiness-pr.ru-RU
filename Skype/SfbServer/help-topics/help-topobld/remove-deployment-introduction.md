@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: Запустите мастер развертывания удалить только в том случае, если вы хотите выводить из эксплуатации всего развертывания. Создание пустую топологию, состоящую из одного сервера переднего плана. После выполнения этого мастера и публикации топологии, пустой, нельзя вернуться к исходной топологии.
 ms.openlocfilehash: a9b58c76ccd027e5a9641fb7b2d2f8bbf6ef58ca
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219361"
 ---
 # <a name="remove-deployment-introduction"></a>Введение в удаление развертывания
  

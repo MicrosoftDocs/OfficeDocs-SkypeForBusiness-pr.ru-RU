@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 description: 'Вы можете включить поддержку для отдельных возможностей, требующих развертывания других серверов, сопоставив роли сервера с интерфейсным пулом как прямо сейчас, так и позднее. К ролям сервера, которые можно сопоставить с интерфейсным пулом, относятся следующие:'
 ms.openlocfilehash: 448a73a00de558fcd04b1ae881ed0e1a2c239f0c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246868"
 ---
 # <a name="add-front-end-associations"></a>Добавление связей переднего плана
 

@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Сводка: Узнайте, как создавать, изменять и удалять сценариев для централизованной службы ведения журналов в Скайп для Business Server 2015.'
 ms.openlocfilehash: 453c9c593e53dca186b09e1ba835bc8f94bb7112
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217679"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Настройка сценариев для централизованной службы ведения журналов в Skype для бизнеса Server 2015
  

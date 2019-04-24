@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Сводка: Настройка вашей основной сервер управления сервера, установки System Center Operations Manager и импорт пакетов управления для Скайп для Business Server 2015.'
 ms.openlocfilehash: 06dbf8161e2b241bb527c0ca02c9e8210055d409
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197943"
 ---
 # <a name="configure-the-primary-management-server"></a>Настройка основного сервера управления
 

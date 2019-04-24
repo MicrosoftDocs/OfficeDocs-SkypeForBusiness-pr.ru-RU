@@ -14,11 +14,11 @@ ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: С каждым пулом переднего плана может быть связан только один пограничный сервер или пограничный пул. Если к сайту разрешен доступ внешних пользователей, можно включить поддержку удаленных пользователей. Возможна также поддержка федеративных пользователей, включая пользователей конкретных поставщиков общедоступных услуг связи для обмена мгновенными сообщениями (например, Windows Live), и поддержка анонимных пользователей.
 ms.openlocfilehash: c1af7071f8db9d924f33326f5d88a17311897423
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220707"
 ---
 # <a name="associate-front-end-with-edge"></a>Связывание сервера переднего плана с пограничным
 

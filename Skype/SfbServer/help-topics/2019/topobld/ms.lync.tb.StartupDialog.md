@@ -14,11 +14,11 @@ ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Запустите построитель топологий для настройки свойств и конфигурации развертывания. При загрузке системы Topology Builder отображает диалоговое окно с вопросом, каким будет источник в документе топологии. Выберите один из трех вариантов:'
 ms.openlocfilehash: eb464902ff7ce1cd20a18be4829753e2ad8528c1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201581"
 ---
 # <a name="topology-builder-startup-dialog"></a>Диалоговое окно запуска построителя топологии
  

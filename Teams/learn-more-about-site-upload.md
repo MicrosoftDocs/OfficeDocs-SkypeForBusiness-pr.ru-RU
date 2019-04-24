@@ -19,11 +19,11 @@ f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a84b022c7b5553a15ff8862a175ba5f856cdd149
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222319"
 ---
 <a name="adding-and-updating-locations-data"></a>Добавление и обновление данных расположений
 ============================
@@ -48,15 +48,15 @@ ms.locfileid: "30494079"
 
 |Сеть|Сетевое имя|Диапазон сети|Имя построения|Тип владельца|Тип построения|Тип Office стандартный|City|Почтовый индекс|Страна|State|Region|Внутренний корпоративный|Express маршрут|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|CA|"МНЕ НРАВИТСЯ"|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|ЦЕНТР СЕРТИФИКАЦИИ|"МНЕ НРАВИТСЯ"|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|ЦЕНТР СЕРТИФИКАЦИИ|"МНЕ НРАВИТСЯ"|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|ЦЕНТР СЕРТИФИКАЦИИ|"МНЕ НРАВИТСЯ"|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso аренду RE&F|Office|RE&F|Просмотр Горное|94043|"МНЕ НРАВИТСЯ"|ЦЕНТР СЕРТИФИКАЦИИ|"МНЕ НРАВИТСЯ"|1|1|
 
 
 Дополнительные сведения о форматировании файла данных можно [данные клиента файла формат и структура файла данных построения](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure).
 
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка аналитики звонков](set-up-call-analytics.md)

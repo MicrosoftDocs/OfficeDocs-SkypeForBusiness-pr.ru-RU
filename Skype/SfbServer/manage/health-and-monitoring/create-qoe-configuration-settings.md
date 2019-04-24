@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 'Сводка: Сведения о параметрах качества взаимодействия (QoE) в Скайп для Business Server.'
 ms.openlocfilehash: 971d3488d0c6d20586e33424c1fbb2b197b31241
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198241"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Создание параметров конфигурации качества взаимодействия в Скайп для Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "30883188"
   
 Параметры конфигурации качества взаимодействия можно создать с помощью любого из Скайп для панели управления Business Server или командлета [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) . При использовании Скайп для панели управления Business Server для создания новых параметров будут доступны для вас следующие параметры:
   
-|**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**.|
+|**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**|
 |:-----|:-----|:-----|
 |Имя  <br/> |Identity  <br/> |Уникальный идентификатор создаваемых параметров. Параметры конфигурации качества взаимодействия могут быть созданы только на уровне сайта.  <br/> |
 |Разрешить отслеживание данных о качестве связи  <br/> |EnableQoE  <br/> |Указывает, будут ли записи качества взаимодействия собраны и сохранены в базу данных мониторинга.  <br/> |

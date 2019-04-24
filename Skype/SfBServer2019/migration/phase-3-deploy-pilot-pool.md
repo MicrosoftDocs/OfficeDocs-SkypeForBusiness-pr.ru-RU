@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
 description: В этом разделе описываются действия, необходимые для развертывания пилотного пула Скайп для Business Server 2019. Развертывание Скайп для Business Server 2019 требуется с помощью построителя топологий для определения топологии и компоненты, которые вы хотите развернуть, Подготовка среды для развертывания Скайп для компонентов Business Server 2019, публикации топологии Разработка на первого сервера переднего плана и выберите Установка и настройка Скайп для программного обеспечения Business Server 2019 для компонентов для вашего развертывания. После завершения вашего Скайп для развертывания пилотного пула Business Server 2019 будет сосуществовать с существующего пула прежних версий.
 ms.openlocfilehash: 457b2daad926b3e2f15c1673cadea5cd249cf99f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231555"
 ---
 # <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>Этап 3: Развертывание Скайп для пилотного пула Business Server 2019
 

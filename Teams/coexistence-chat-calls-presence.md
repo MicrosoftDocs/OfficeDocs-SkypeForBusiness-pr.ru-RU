@@ -15,11 +15,11 @@ appliesto:
 - Microsoft Teams
 description: В этом документе описываются поведение чата, маршрутизации вызовов и сведения о присутствии между пользователями рабочих групп и Скайп для бизнеса в клиента и федеративных, назначенный режимы TeamsUpgrade на основании. Оно включает в себя маршрутизации оптимизация, поведение сведения о присутствии, а также изменить режим по умолчанию TeamsUpgrade из *прежних версий* для *острова* и предстоящих пенсионного обеспечения из *прежних версий*.
 ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198786"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Сосуществование со Skype для бизнеса
 

@@ -14,11 +14,11 @@ ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 ROBOTS: NOINDEX, NOFOLLOW
 description: Каждый пул переднего плана и обеспечения связи в филиалах может быть только один сервер архивации, связанное с ним. При включении архивации для сайта, затем собирает сервера архивации и записей мгновенного обмена сообщениями содержимое сообщения обмена Мгновенными сообщениями и веб-конференции контент из бесед, включающие использование пользователей, размещенных на связанный пулов и обеспечения связи в филиалах.
 ms.openlocfilehash: ea6ddb783861117a15b95c5b2de4580fae183583
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220778"
 ---
 # <a name="associate-front-end-with-archiving"></a>Связывание сервера переднего плана с архивированием
  

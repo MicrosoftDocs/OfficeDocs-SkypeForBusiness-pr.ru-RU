@@ -17,11 +17,11 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222365"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Настройка параметров сети для маршрутизации на основе расположения
 
@@ -106,6 +106,6 @@ New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description 
 ## <a name="next-steps"></a>Дальнейшие действия
 Перейдите на [Включение зависимостью от расположения маршрутизации для непосредственного](location-based-routing-enable.md).
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>Статьи по теме
 - [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)
 - [Терминология маршрутизации на основе расположения](location-based-routing-terminology.md)

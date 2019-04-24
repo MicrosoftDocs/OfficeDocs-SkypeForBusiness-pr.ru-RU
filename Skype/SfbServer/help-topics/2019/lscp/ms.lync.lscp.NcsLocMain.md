@@ -14,11 +14,11 @@ ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Политики расположения определяют, включена ли технология Enhanced 9-1-1 (E9-1-1) и как она используется, а также определяют, как сведения о расположении применяются для пользователей и контактов.
 ms.openlocfilehash: 22ac0d266737b402a5ba6af62a6319f4fd9d37e0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215369"
 ---
 # <a name="location-policy"></a>Политика определения местонахождения
 

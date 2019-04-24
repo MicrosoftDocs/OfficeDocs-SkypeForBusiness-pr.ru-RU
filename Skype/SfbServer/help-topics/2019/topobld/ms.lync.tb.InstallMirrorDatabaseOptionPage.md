@@ -14,11 +14,11 @@ ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Настройте параметры зеркальной базы данных определяются следующим:'
 ms.openlocfilehash: 5117686188b8259211c2f2b2539d54a62cf1dfdf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201802"
 ---
 # <a name="install-mirror-database-option-page"></a>Страница параметров установки зеркальной базы данных
  

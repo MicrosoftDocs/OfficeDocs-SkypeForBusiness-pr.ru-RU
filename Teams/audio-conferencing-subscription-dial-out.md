@@ -1,5 +1,5 @@
 ---
-title: Подписки звукового конференц-связи «Подключение по телефонной линии» / «Позвонить мне на» преимущества в отношении
+title: Преимущество подписки с аудиоконференциями "Обратный звонок"/"Позвонить мне на номер"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Licensing
 description: 'Клиенты представили предоставляется возможность подключение по телефонной линии, что приведет к сбросу на 30 ноября 2019.  Приступая к работе с 1 декабря 2019, каждой подписки аудиоконференций предоставляет 60 минут на одного пользователя в месяц в любой зоне A странах, как описано в этом документе. '
 ms.openlocfilehash: 890441987eb0f08d67afe8a7f231c9a534c59a7f
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31809432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198618"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Подписки звукового конференц-связи «Подключение по телефонной линии» / «Позвонить мне на» преимущества в отношении
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Преимущество подписки с аудиоконференциями "Обратный звонок"/"Позвонить мне на номер"
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft групп и Скайп для аудиоконференций PSTN бизнеса
 

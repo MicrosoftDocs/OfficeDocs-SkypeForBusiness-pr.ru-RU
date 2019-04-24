@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Соединенном Королевстве.
 ms.openlocfilehash: a524d72cbe5ab2a3021a70d383eaff7c8f3d2dec
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245190"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Управление номерами телефонов в Соединенном Королевстве
 

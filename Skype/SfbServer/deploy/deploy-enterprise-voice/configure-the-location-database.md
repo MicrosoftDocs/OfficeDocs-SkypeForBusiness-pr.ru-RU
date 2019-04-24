@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Настройка, заполнения и опубликовать базу данных местоположений E9-1-1 в Скайп Business Server корпоративной голосовой связи.
 ms.openlocfilehash: ab97fae05a74f95e618cebacac9be5ac011eb921
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223657"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Настройка базы данных местоположений в Скайп для Business Server
  

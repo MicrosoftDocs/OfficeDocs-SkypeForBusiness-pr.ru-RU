@@ -1,12 +1,12 @@
 ---
-title: Управление бесплатной версии группами Майкрософт
+title: Управление бесплатной версией Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 04/12/2019
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: daryav
 search.appverid: MET150
 description: Узнайте о возможностях администрирования в группах бесплатное.
 localization_priority: Normal
@@ -17,14 +17,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4a3d72374e2d49df0298002b99272c80d78ffe0
-ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
+ms.openlocfilehash: b6eb43669761e6f61d88299fe155501e807e1100
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31854153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222335"
 ---
-<a name="manage-the-free-version-of-microsoft-teams"></a>Управление бесплатной версии группами Майкрософт
+<a name="manage-the-free-version-of-microsoft-teams"></a>Управление бесплатной версией Microsoft Teams
 ==========================================
 
 В бесплатной версии группами Майкрософт первый пользователь, который регистрируется в вашей организации имеет роль ограниченный администратора. Лиц, имеющих ограниченный с этой ролью можно добавлять и удалять участников группы и укажите ли всем пользователям можно пригласить дополнительных участников, но этот пользователь имеет не расширенные возможности администрирования и нет доступа к центру администрирования группами Майкрософт. 
@@ -33,7 +33,7 @@ ms.locfileid: "31854153"
 
 Для получения дополнительных сведений о версии групп и их возможности видеть [планы сравнение групп](https://products.office.com/microsoft-teams/free).
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 - [Различия между группами Майкрософт и группами Майкрософт бесплатную](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c)краткая сводка различий между группами и бесплатные рабочих групп, см. 
 - Дополнительные сведения об обновлении до полной версии команды увидеть [обновления с группами бесплатное по группам](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39) и [Обновление Microsoft рабочих групп бесплатную версию Office 365](upgrade-freemium.md).

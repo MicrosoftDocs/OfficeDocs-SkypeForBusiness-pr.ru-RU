@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953c971c39bde9d112619fcaee145008c378f1a3
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: d4089e0e9ff9ce0ecbff63e55a43d2dc9f2ca7d1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194759"
 ---
 # <a name="cloud-voice-deployment"></a>Развертывание облачной системы голосовой связи
 
@@ -48,7 +48,7 @@ Microsoft Teams, центр для командной работы и взаим
 
 Тарифные планы является дополнительной службы для функции телефонной системой, доставленных через рабочих групп и Скайп для бизнеса в Интернет. Тарифные планы требуется, что пользователь быть размещен в Скайп для бизнеса в Интернет для работы в группах Майкрософт. Тарифные планы обеспечивают для сотрудников в бизнесе с основной номер телефона, а также позволяет их выполнение и прием телефонных звонков за пределами вашей организации по ТСОП.
 
-Дополнительные сведения, прочитайте [вот вы получаете с телефонной системой в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) и [Каковы вызов планы в Office 365?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
+Чтобы получить дополнительные сведения, ознакомиться с [вот вы получаете с телефонной системой в Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) и [телефонной системой и вызов планов](calling-plan-landing-page.md)
 
 
 ## <a name="phone-system-direct-routing-direct-routing"></a>Телефон системы прямой маршрутизации («Прямая отправка»)

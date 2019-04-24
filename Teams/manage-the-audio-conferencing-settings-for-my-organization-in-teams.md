@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Сведения о шагах в Microsoft Teams для назначения лицензии конференц-связи с телефонным подключением и идентификатора конференции пользователю и многих других настройках такой конференц-связи. '
 ms.openlocfilehash: 201da13370852b6506fe7aa32f695d973bcc637a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202767"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Управление настройками аудиоконференций для организации в Microsoft Teams
 
@@ -83,9 +83,9 @@ ms.locfileid: "30463894"
 
 3. В **Сброс идентификатор конференции?** окно, нажмите кнопку **Сброс**. При этом будет автоматически создан идентификатор конференции и, если функция отправки сообщений включена, пользователям будут отправлены сообщения с новым идентификатором конференции. По умолчанию эта настройка остается включенной.
 
-Сброс ПИН-кода организатора конференции
+See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).
   
-## <a name="reset-a-conference-organizers-pin"></a>Сброс ПИН-кода организатора конференции
+## <a name="reset-a-conference-organizers-pin"></a>Reset a conference organizer's PIN
 
 Каждому собранию, запланированному пользователем, будет назначен уникальный идентификатор конференции. Идентификатор конференции будет автоматически создан и назначенных пользователю, однако иногда может потребоваться при пользователь не нужно использовать этот сертификат и требуется установить на определенное число или пользователи не могут не забудьте или теряют их идентификатор конференции. 
 
@@ -112,7 +112,7 @@ ms.locfileid: "30463894"
 
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
-## <a name="set-the-phone-numbers-included-on-invites"></a>Задание телефонных номеров, включаемых в приглашения
+## <a name="set-the-phone-numbers-included-on-invites"></a>Настройка телефонных номеров, включаемых в приглашения
 
 ![команды логотип 30x30.png](media/teams-logo-30x30.png) **с помощью центра администрирования группами Майкрософт**
 
@@ -223,6 +223,6 @@ Windows PowerShell дает возможность управлять польз
     
 ## <a name="related-topics"></a>Связанные разделы
 
-[Управление настройками аудиоконференций для пользователя](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+[Управление настройками аудиоконференции для пользователя](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 

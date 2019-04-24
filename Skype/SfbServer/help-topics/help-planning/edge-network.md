@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 'Большинство пограничных компонентов развертывается в сети периметра. Указанные ниже компоненты составляют пограничную топологию этой сети. За исключением того, если не указано иное, компоненты являются частью сценарии пограничного сервера в Скайп для Business Server 2015 и находятся в сети периметра. К пограничным компонентам относятся следующие:'
 ms.openlocfilehash: e80373250c87ed0c51e5c1fbba629b2d8df801da
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200290"
 ---
 # <a name="edge-network-planning-tool"></a>Edge Network (Planning Tool)
  

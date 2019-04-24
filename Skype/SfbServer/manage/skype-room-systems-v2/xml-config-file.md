@@ -13,11 +13,11 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: M365-voice
 description: В этой статье обсуждается удаленное управление параметры по умолчанию, используемого устройством комнат группами Майкрософт, включая применение пользовательской темы.
 ms.openlocfilehash: 2dc99046647fc1cbda8fcb7643dbdf06d2d24c82
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214745"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Удаленное управление параметры консоли комнат группами Майкрософт с помощью XML-файла конфигурации
  
@@ -132,6 +132,6 @@ ms.locfileid: "31013031"
 ## <a name="see-also"></a>См. также
 
 
-[Управление группами Майкрософт комнат](skype-room-systems-v2.md)
+[Управление приложением "Комнаты Microsoft Teams"](skype-room-systems-v2.md)
 
 [Настройка файла элемента](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

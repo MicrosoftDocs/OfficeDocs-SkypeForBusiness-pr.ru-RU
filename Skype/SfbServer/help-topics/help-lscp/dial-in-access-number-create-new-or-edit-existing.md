@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 ms.openlocfilehash: e43dcb15932da0ed973c093f16879832a90d7aa8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200774"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>Номер доступа для телефонного подключения: создание нового или редактирование существующего
 

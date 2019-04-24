@@ -14,11 +14,11 @@ ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Каждый пул переднего плана и обеспечения связи в филиалах может быть только один сервер мониторинга, связанное с ним. Если мониторинг включен для сайта, сервер мониторинга предоставляет регистрации вызовов (CDR) и сбора данных качества взаимодействия (QoE) и отчетности.
 ms.openlocfilehash: 95a16d0d634f115a06e1fd48a105dbad45a29048
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216006"
 ---
 # <a name="sql-server-reporting-services-intro"></a>Службы SQL Server Reporting Services (введение)
  

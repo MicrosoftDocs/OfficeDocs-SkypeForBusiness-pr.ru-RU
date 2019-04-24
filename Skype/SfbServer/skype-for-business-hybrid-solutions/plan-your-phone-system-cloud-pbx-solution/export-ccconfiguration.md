@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: Экспортирует конфигурацию Skype для бизнеса Cloud Connector Edition в локальный файл на сервере узла Skype для бизнеса Cloud Connector Edition.
 ms.openlocfilehash: 8afca55e6727c84c579957de9e2010e84a72fb15
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234058"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
@@ -45,7 +45,7 @@ Export-CcConfiguration -Path "C:\test\CloudConnector.ini"
 ## <a name="parameters"></a>Параметры
 <a name="Examples"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |Путь  <br/> |Обязательно  <br/> |System.String  <br/> |Полный путь к файлу, в котором будут храниться конфигурации Cloud Connector.  <br/> |
    

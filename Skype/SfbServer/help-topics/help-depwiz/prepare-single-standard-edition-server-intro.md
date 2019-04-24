@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 description: Чтобы начать установку Скайп для сервера Business Server 2015 Standard Edition, который будет содержать центральное хранилище управления и других выровненных служб, которые можно выбрать, необходимо войти качестве должна быть членом локальной группы администраторов на сервере, который будет стать сервера Standard Edition. Странице Prepare один стандартный выпуск сервера подробно описываются требования к начальной установки. Компьютер должен быть членом домена, в котором планируется развернуть его, и необходимо успешно выполнить Подготовка схемы, домена и леса для своего леса.
 ms.openlocfilehash: 0f3980ec0fc8e65b6737dcbaf2deff5dccaca5e4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874275"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201267"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>Подготовка отдельного сервера Standard Edition (введение)
  

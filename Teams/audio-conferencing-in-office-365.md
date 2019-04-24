@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 20ce25368c5b77bcd355bc5ed0d6ef55868401c1
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 24a85ab6fced284fc264db5bcc394769e4a0bfca
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30570120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198596"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Аудиоконференции в Office 365
 Аудиоконференций в Office 365 позволяет пользователям вызывать в собраниях с телефонов. Аудиоконференции позволяет до 250 участников телефона.
@@ -92,9 +92,9 @@ ms.locfileid: "30570120"
 - **Используйте форму запроса для новых номеров.** В некоторых случаях (в зависимости от страны или региона) не будут иметь возможность получать новые телефонных номеров с помощью Скайп по центру администрирования бизнес или вам потребуется номера телефона или код области. В таких случаях необходимо скачать соответствующую форму, заполнить ее и отправить в нашу службу поддержки. Для получения дополнительных сведений см. статью [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## <a name="how-do-you-set-it-up"></a>Как ее настройка?
-После того как вы решили Настройка звука конференц-связи для пользователей, изучите [Настройка звука конференц-связи для групп Майкрософт](set-up-audio-conferencing-in-teams.md) или [Настройка звука конференц-связи для Скайп для бизнеса в Интернет](/SkypeForBusiness/audio-conferencing-in-office/set-up-audio-conferencing) для действия, которые можно выполнить для этого.
+После того как вы решили Настройка звука конференц-связи для пользователей, изучите [Настройка звука конференц-связи для групп Майкрософт](set-up-audio-conferencing-in-teams.md) или [Настройка звука конференц-связи для Скайп для бизнеса в Интернет](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) для действия, которые можно выполнить для этого.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка Skype для бизнеса Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   

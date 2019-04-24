@@ -14,11 +14,11 @@ ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для подготовки схемы для доменных служб Active Directory, для запуска на этапе подготовки схемы Скайп для мастер развертывания Business Server. Для запуска подготовки схемы нажмите кнопку Выполнить.
 ms.openlocfilehash: fc9981e5a6f298d4d7697b00cde2798dd0b859ef
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216145"
 ---
 # <a name="prepare-schema"></a>Подготовка схемы
  

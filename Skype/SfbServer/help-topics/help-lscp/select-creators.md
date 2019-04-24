@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Создание и управление Persistent Chat комнат намного проще с правильное использование категорий. Администратор сохраняемого чата можно назначить Указание параметров AllowedMembers и Creators для каждой категории и можно также определить параметры комнаты чата по умолчанию и поведения, которые будут применяться для всех комнатах чата, созданные в категории. Администраторы сохраняемого чата создания категорий или управления ими с помощью Скайп для панели управления Business Server или командлетов Windows PowerShell.
 ms.openlocfilehash: 85c9a2be4e2afcd28823bc656f18c733594b44b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200599"
 ---
 # <a name="select-creators"></a>Выбор создателей
 

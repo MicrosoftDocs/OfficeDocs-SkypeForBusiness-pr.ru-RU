@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: e62dd8a19e2207f6b40864cab19a3fda48d184fe
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204660"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -39,9 +39,9 @@ ms.locfileid: "31517081"
 
 |Эффективное режим пользователя|Опытом группы клиента|
 |---|---|
-|Любой Скайп для режима бизнеса|Вызов и чата<sup>1</sup> отключены.|
+|Любой Скайп для режима бизнеса|Вызов и чата отключены.|
 |SfBWithTeamsCollabAndMeetings|Доступно на собрания планирования|
-|SfBWithTeamsCollab или SfBOnly<sup>2</sup>|Планирование на собрания не поддерживается|
+|SfBWithTeamsCollab или SfBOnly<sup>1</sup>|Планирование на собрания не поддерживается|
 |||
 
 Следующие снимки экрана иллюстрируют различие между TeamsOnly или о-ва режим и другие режимы. Обратите внимание, что значки чата и вызова доступны с TeamsOnly или о-ва режим (слева снимок экрана), но не другие режимы (правом снимок экрана):
@@ -50,10 +50,8 @@ ms.locfileid: "31517081"
 
 
  
-**Примечания:**
-<sup>1</sup> чата собрания по-прежнему доступны.
-
-<sup>2</sup> сейчас SfBwithTeamsCollab и SfBOnly ведут себя одинаково, но цель состоит в том, для режима SfBOnly также отключить функцию каналы и файлы в группах; Тем не менее в данный момент нет параметра, обеспечивающий в группах, чтобы отключить эту функцию.
+**Примечание:**
+<sup>1</sup> в данный момент, SfBwithTeamsCollab и SfBOnly ведут себя одинаково, но цель состоит в том, для режима SfBOnly также отключить функцию каналы и файлы в группах; Тем не менее в данный момент нет параметра, обеспечивающий в группах, чтобы отключить эту функцию.
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Влияние режима от других параметров политики
@@ -75,7 +73,7 @@ ms.locfileid: "31517081"
 |SfBWithTeamsCollab или SfBOnly|Отключено|Отключено|Отключено|Отключено|
 ||||||
 
-В ближайшем будущем `Grant-CsTeamsUpgradePolicy` командлет проверит конфигурации соответствующие параметры в TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy, чтобы определить, если эти параметры будут внесены TeamsUpgradePolicy и если да, Информационное сообщение предоставляется в PowerShell.  Как указано выше, больше не требуется задать параметры политики. Ниже приведен пример предупреждение PowerShell выглядит как:
+При использовании PowerShell, `Grant-CsTeamsUpgradePolicy` командлет проверяет конфигурацию соответствующие параметры в TeamsMessagingPolicy, TeamsCallingPolicy и TeamsMeetingPolicy для определения этих параметров будет заменен с TeamsUpgradePolicy и если да, Информационное сообщение предоставляется в PowerShell.  Как указано выше, больше не требуется задать параметры политики. Ниже приведен пример предупреждение PowerShell выглядит как:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
@@ -83,7 +81,7 @@ ms.locfileid: "31517081"
 
 
 
-# <a name="related-topics"></a>Связанные разделы
+# <a name="related-topics"></a>Статьи по теме
 
 [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 

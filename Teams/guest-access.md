@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42ec1ce60a206fa0a67f40c08db4658c0c53e543
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: ae1f3149ca915e2fd5a9ddf59fdb0bfad2be2ca2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30641194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235565"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 ======================================
@@ -37,7 +37,7 @@ ms.locfileid: "30641194"
 
 Гостевой доступ позволяет командам в вашей организации взаимодействовать с людьми, находящимися за пределами организации, предоставляя им доступ к существующим командам и каналам одного или нескольких клиентов. Любой пользователь с корпоративной или потребительской учетной записью Outlook, Gmail или других служб может участвовать в Teams в качестве гостя с полным доступом к командным чатам, собраниям и файлам.
 
-Функция гостевого доступа включена во все подписки Office 365 бизнес премиум, Office 365 корпоративный и Office 365 для образования и не требует дополнительного лицензирования. На одного лицензированного пользователя в клиенте может приходиться до 5 гостей. Дополнительные сведения о лицензировании см. в статье [Руководство по лицензированию службы совместной работы Azure Active Directory B2B](https://docs.microsoft.com/ru-RU/azure/active-directory/b2b/licensing-guidance). 
+Функция гостевого доступа включена во все подписки Office 365 бизнес премиум, Office 365 корпоративный и Office 365 для образования и не требует дополнительного лицензирования. На одного лицензированного пользователя в клиенте может приходиться до 5 гостей. Дополнительные сведения о лицензировании см. в статье [Руководство по лицензированию службы совместной работы Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
 
 Гостевой доступ в Microsoft Teams настраивается на уровне клиента и по умолчанию отключен. На гостевой доступ распространяются ограничения служб Azure AD и Office 365.
 
@@ -60,7 +60,7 @@ ms.locfileid: "30641194"
 
 ## <a name="more-information"></a>Дополнительная информация
     
-[Ресурсы поддержки для Microsoft Teams](support-resources.md)  
+[Обращение в службу поддержки Office 365 для бизнеса: справка для администраторов](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 
   [Гостевой доступ в Группах Office 365](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   

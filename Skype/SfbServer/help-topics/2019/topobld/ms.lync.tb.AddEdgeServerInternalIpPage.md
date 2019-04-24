@@ -14,11 +14,11 @@ ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Внутренний IP-адрес — IP-адрес внутреннего интерфейса пограничного сервера.
 ms.openlocfilehash: c9d7a454f5a318fac7507cadcbc0dc09577ccb2d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202147"
 ---
 # <a name="add-edge-server-internal-ip"></a>Добавление внутреннего IP-адреса пограничного сервера
 

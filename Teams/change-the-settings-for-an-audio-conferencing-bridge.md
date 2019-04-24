@@ -23,11 +23,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Получите действий, необходимых для изменения параметров конференц-канал, используемый для запрашивать абонентов и сбор имена и ПИН-коды для организаторам собрания, когда они не используют Скайп для бизнеса или группами Майкрософт приложений. '
 ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198564"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение настроек для моста аудиоконференций
 
@@ -132,8 +132,8 @@ ms.locfileid: "30633235"
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
-[Настройка звука конференц-связи для групп Майкрософт](set-up-audio-conferencing-in-teams.md)
+[Настройка аудиоконференций для Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 [Настройка звука конференц-связи для Скайп для бизнеса в Интернет](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

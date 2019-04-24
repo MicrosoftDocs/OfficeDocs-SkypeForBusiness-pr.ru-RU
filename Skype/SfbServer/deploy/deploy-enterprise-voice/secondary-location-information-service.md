@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: Настройка базы данных-источника (SLS) дополнительных расположений для E9-1-1 в Скайп Business Server корпоративной голосовой связи.
 ms.openlocfilehash: d5ff35be38030cc6081224e11431463e30696e4e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881115"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222986"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Настройка дополнительных сведений о расположении службы в Скайп для Business Server
  

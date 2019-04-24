@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: Чтобы задать назначение федеративного маршрута сайта, сначала необходимо включена функция на пограничном сервере или пула пограничных серверов федерации. Если федерация не включен на пограничном сервере или в пуле, параметры назначение маршрута федерации для сайта не будет доступен для изменения.
 ms.openlocfilehash: f166f74a1d49af168a8ce2a9a193bb9cc49da753
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194030"
 ---
 # <a name="federation-route-settings-expander"></a>Расширитель настроек маршрута федерации
  

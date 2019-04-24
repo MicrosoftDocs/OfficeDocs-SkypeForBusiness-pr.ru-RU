@@ -14,11 +14,11 @@ ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для изменения свойств отдельного сервера мониторинга в построителе топологий можно щелкнуть правой кнопкой мыши сервер мониторинга в дереве консоли и выбрать Действие на панели инструментов или щелкнуть задачу на панели действий, затем щелкнуть Изменение свойств и изменить любые из следующих параметров.
 ms.openlocfilehash: 9f68ed29d1ff58e3c89c5b5e50e83e8a8730a338
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220771"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Расширитель общих настроек сервера архивации
  

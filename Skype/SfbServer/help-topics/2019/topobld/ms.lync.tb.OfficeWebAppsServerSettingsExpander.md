@@ -14,11 +14,11 @@ ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Изменение свойств настроенного сервера Office Web Apps. The following properties are available to edit:'
 ms.openlocfilehash: 0ef79728f389bfd87078aef5f9bbaca8f45e18dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201688"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Изменение параметров сервера Office Web Apps
 

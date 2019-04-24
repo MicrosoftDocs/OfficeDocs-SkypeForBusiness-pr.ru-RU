@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Настройка пользователей для Скайп для Business Server можно использовать результаты запроса поиска. Можно выполнить поиск пользователей по отображаемое имя, имя первого, последнего имени, имя учетной записи диспетчера учетных записей (SAM), SIP-адрес или строки универсальный код ресурса (URI). Можно также выполнить поиск для пользователей с помощью панели управления Lync Server или Active Directory — пользователи и компьютеры оснастку.
 ms.openlocfilehash: 5d94c468edeb8c982d901f1c396bfd49c8c88fb6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200830"
 ---
 # <a name="control-panel---updated-user-search"></a>Панель управления — обновлено: Поиск пользователей
 

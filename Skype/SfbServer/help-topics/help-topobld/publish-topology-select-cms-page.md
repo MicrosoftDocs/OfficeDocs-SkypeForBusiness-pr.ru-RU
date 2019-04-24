@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: Опубликуйте топологию, которую вы настроили с помощью построителя топологий. Будет предложено выбрать из списка, в котором сервер переднего плана или интерфейсный пул примет на себя роль руку центрального хранилища управления. Только один сервер переднего плана или интерфейсный пул может содержать эта роль в любой момент времени.
 ms.openlocfilehash: a2f37afe8b654562a98255be42b621b1290bbb67
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219214"
 ---
 # <a name="publish-topology-select-cms-page"></a>Страница публикации CMS выбора топологии
 

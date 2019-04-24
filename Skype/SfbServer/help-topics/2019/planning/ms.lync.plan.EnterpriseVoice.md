@@ -15,11 +15,11 @@ ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
 description: С корпоративной голосовой связи Скайп для Business Server обеспечивает изолированной голосовой связи по протоколу IP (VoIP) для совершенствования или замены традиционных относиться УАТС систем.
 ms.openlocfilehash: 2a25de34494d6a5e13e90072136b396e8da8a13d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220985"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  

@@ -1,5 +1,5 @@
 ---
-title: Зарегистрируйтесь ретрансляции IP-адресов в Канада —
+title: IP-ретрансляция в Канаде — регистрация
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,24 +19,24 @@ ms.custom:
 hideEdit: true
 description: Как sigh для учетной записи ретрансляции IP-адресов для Канады.
 ms.openlocfilehash: ce63d4fb99d44584d2628c9b5e891e4931814b12
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194231"
 ---
-# <a name="ip-relay-in-canada---sign-up"></a>Зарегистрируйтесь ретрансляции IP-адресов в Канада —
+# <a name="ip-relay-in-canada---sign-up"></a>IP-ретрансляция в Канаде — регистрация
 
 Чтобы получить учетную запись ретрансляции IP-адресов для Канады, введите нужные сведения в следующей таблице и отправьте его по электронной почте в [ptn@microsoft.com](mailto:ptn@microsoft.com).
 
 |||
 |:-----|:-----|
-|Имя первого и последнего.||
+|Первый & Фамилия:||
 |Имя домена клиента Office 365: <br/>(Пример: Contoso.com)||
 |Номер телефона пользователя Office 365: <br/>Пример: + 1 XXX XXX XXXX) ||
 |Пароль (8 до 16 символов): ||
 |Наиболее вероятное значение физических адресов <br/>во время чрезвычайных:||
-|Номер дома & Name:||
+|Номер & улицы:||
 |Подразделение / набора приложений:||
 |Город:||
 |Край аудио- и состояний:||

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: В разделе Add-in страницы Persistent Chat можно использовать для сопоставления URL-адреса с комнатами Persistent Chat. Эти URL-адреса отображаются в клиенте в комнате чата в области расширения беседы. Администратор должен добавить надстройки в список зарегистрированных надстроек, а руководители или создатели комнат чата должны связать комнаты с одной из зарегистрированных надстроек, чтобы пользователи могли увидеть это обновление в клиенте.
 ms.openlocfilehash: 8b0add45aaf4baf55c30d4640da09e07f96cdb0c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200809"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Главная страница надстройки сохраняемого чата
 

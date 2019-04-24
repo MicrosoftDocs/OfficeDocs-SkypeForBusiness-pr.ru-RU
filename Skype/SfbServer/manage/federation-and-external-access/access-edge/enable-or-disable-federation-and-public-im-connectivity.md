@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Поддержка федерации необходим, чтобы разрешить пользователям, имеющим учетную запись с надежных организацией клиентов и партнеров, включая доменов партнеров и пользователей общедоступного, обмен мгновенными сообщениями пользователи поставщика обмена Мгновенными сообщениями, которые поддерживают, совместно работать с пользователями в вашей организация.
 ms.openlocfilehash: c207f409164162f066d1ea49197cbd26fa50273b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199936"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Включение и отключение федерации и подключения к общедоступным обмена мгновенными Сообщениями в Скайп для Business Server
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: Командлет Get-CcExternalCertificateFilePath возвращает путь к файлу внешнего сертификата для развертывания Skype для бизнеса Cloud Connector Edition. Этот сертификат подготавливается пользователем.
 ms.openlocfilehash: 997b5d7a39decf11a19c307f4e7a7b439069441f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882588"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233787"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
@@ -55,7 +55,7 @@ Get-CcExternalCertificateFilePath -Target MediationServer
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |Целевой объект  <br/> |Необязательно  <br/> | System.Management.Automation.SwitchParameter <br/> |Тип запрашиваемого пути к файлу. Возможные типы:  <br/> EdgeServer (по умолчанию)  <br/> MediationServer  <br/> |
    

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: 'Сводка: Узнайте, как управлять конференц-связи в Скайп для Business Server.'
 ms.openlocfilehash: 109f40e66feda81098f09689a862ce219ac2f676
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222795"
 ---
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Управление конференц-связи в Скайп для Business Server
  

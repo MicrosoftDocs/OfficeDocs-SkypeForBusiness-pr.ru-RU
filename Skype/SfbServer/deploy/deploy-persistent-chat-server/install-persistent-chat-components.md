@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: 'Сводка: Прочтите этот раздел, чтобы узнать, как использовать Скайп для мастер развертывания Business Server для установки Скайп для компонентов Business Server 2015 и служб.'
 ms.openlocfilehash: 78fb134ef8db5b0c47c890db9454858ff392a624
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222304"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>Установка компонентов для сохраняемого чата в Skype для бизнеса Server 2015
  

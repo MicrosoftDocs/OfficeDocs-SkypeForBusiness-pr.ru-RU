@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: Выберите базы данных, которые вы хотите создать для вашего развертывания. По умолчанию базы данных будут создаваться на определенном SQL Server на определенном сайте и автоматически развертывание и настройка файлов базы данных на SQL Server, размещении баз данных на основе.
 ms.openlocfilehash: 997b7f988796240911301c352c5317d463688dcf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200245"
 ---
 # <a name="install-and-create-databases"></a>Установка и создание баз данных
 

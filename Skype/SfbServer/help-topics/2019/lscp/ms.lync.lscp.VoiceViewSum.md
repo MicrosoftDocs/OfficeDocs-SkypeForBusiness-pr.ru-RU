@@ -14,11 +14,11 @@ ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно незафиксированные параметры конфигурации голосовой связи, чтобы просмотреть все изменения, внесенные. Прокрутите диалоговое окно, чтобы просмотреть все несохраненные изменения, или нажмите стрелки, чтобы развернуть или свернуть различные разделы. Завершив настройку, нажмите кнопку Закрыть. Закройте это диалоговое окно, можно изменить изменения или их подтверждения.
 ms.openlocfilehash: 9fbaaff594bd432fcd36e74878ecac40be0e33ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221210"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>Незафиксированные параметры конфигурации голосовой связи: просмотр
  

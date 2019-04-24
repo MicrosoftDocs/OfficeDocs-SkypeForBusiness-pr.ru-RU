@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Сводка: Сведения о том, как использовать панель мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
 ms.openlocfilehash: 856035642d1d8a818abe5f0a106c90270d706516
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217716"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Использование панели мониторинга качества звонков для Скайп для Business Server
  

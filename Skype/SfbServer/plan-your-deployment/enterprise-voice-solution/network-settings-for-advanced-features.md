@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Сведения об областях сети, сетевых сайтах и IP-подсетях. Все эти должна быть настроена для развертывания плана для сервера-посредника в Скайп для бизнеса, план для контроля допуска звонков в Скайп для Business Server), или планирование чрезвычайных служб в Скайп Business Server в Скайп Business Server корпоративной голосовой связи.
 ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206559"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Параметры сети для расширенных функций корпоративной голосовой связи в Скайп для Business Server
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: Параметры конфигурации собраний определяют взаимодействие с пользователем при присоединении к конференциям, запланированным пользователями. Эти параметры распространяются только на запланированные собрания. Они не распространяются на одноранговые собрания, созданные посредством выбора элемента "Провести собрание" в клиенте.
 ms.openlocfilehash: bb2b81aa860660503522783d3ed3a3aa9ec09985
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200704"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Конфигурация собрания: создание новой или редактирование существующей
 

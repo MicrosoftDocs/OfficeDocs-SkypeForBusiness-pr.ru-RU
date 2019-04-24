@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Сводка: Узнайте, как проверить телефонных конференций в Скайп для Business Server.'
 ms.openlocfilehash: 99d91a4d3e9729da7b86f723f4a980a887d88b5f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880919"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197774"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Тестирование телефонных конференций в Скайп для Business Server
  

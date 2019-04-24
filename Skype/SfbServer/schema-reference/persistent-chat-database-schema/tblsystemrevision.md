@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
 description: Таблица tblSystemRevision содержит номер редакции, используемый с таблицей tblAdminLock для обеспечения согласованности между клиентами администраторов.
 ms.openlocfilehash: d4e8bf99597fa6c6a81d72950d5bcdbc6bcfa57d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212364"
 ---
 # <a name="tblsystemrevision"></a>tblSystemRevision
  
@@ -24,7 +24,7 @@ ms.locfileid: "30876805"
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |sysRevision  <br/> |bigint, не может быть null  <br/> |Номер редакции.  <br/> |
    
