@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 description: Для обработки запроса на сертификат ожидающие online, то есть, запрос, который выполнялась в локальную службу сертификации, но административно задано значение требуется ручное утверждение, нажмите кнопку Далее.
 ms.openlocfilehash: 8b474d4b577cbbac90863a291f1c197ccf9f572d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201176"
 ---
 # <a name="pending-certificate-intro"></a>Отложенный сертификат (введение)
  

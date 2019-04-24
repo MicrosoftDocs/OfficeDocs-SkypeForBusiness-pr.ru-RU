@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Решения, необходимые для планирования развертывания E9-1-1 в Скайп Business Server корпоративной голосовой связи.
 ms.openlocfilehash: 014ef9a07679341a7d5eada4ecbad382a9576b61
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206482"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Определение области развертывания E9-1-1 в Скайп для Business Server
 

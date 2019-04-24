@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
 description: Скайп для Business Server включает в себя группы управления доступом на основе ролей (RBAC) для делегирования административных задач без снижения безопасности стандартам. Эти группы создаются в процессе подготовки леса. Для получения дополнительных сведений о подготовки леса приведена доменных служб Active Directory для Скайп Business Server. Для получения дополнительных сведений об определенных групп, созданные подготовки леса просмотра изменений, внесенных путем подготовки леса в Скайп для Business Server в документации по развертыванию.
 ms.openlocfilehash: 461fa82809b16ccf6db1ac02e7c8d0e6698e2b61
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894275"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213587"
 ---
 # <a name="role-based-access-control-rbac-for-skype-for-business-server"></a>Управление доступом на основе ролей (RBAC) для Скайп для Business Server
  

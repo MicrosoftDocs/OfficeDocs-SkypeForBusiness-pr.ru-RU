@@ -1,5 +1,5 @@
 ---
-title: Настройка звука конференц-связи для групп Майкрософт
+title: Настройка аудиоконференций для Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - LIL_Placement
 description: 'Узнайте, как настроить-связи или аудиоконференции для пользователей в вашей организации, которым необходимо использовать телефон для присоединения к конференции. '
 ms.openlocfilehash: 7ff24dd2b29eabbad46759471b69c3619e4e7b24
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204882"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Настройка звука конференц-связи для групп Майкрософт
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Настройка аудиоконференций для Microsoft Teams
 
 В некоторых случаях пользователям в организации требуется телефон, чтобы присоединиться к собранию. Группами Майкрософт включает в себя функцию аудиоконференций для только что этой ситуации! Пользователи могут позвонить собраний группы, с помощью телефона, вместо использования приложения группы на мобильном устройстве или Компьютере. 
   

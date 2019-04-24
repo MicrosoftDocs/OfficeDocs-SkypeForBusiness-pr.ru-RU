@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Сведения о компонентах Enterprise Voice, расположенные на серверах переднего плана в Скайп для Business Server, включая службы перевода и различные компоненты маршрутизации.
 ms.openlocfilehash: caeec86f4b4a965570773ee4bc51a4e752e76e46
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892803"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206882"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Переднего плана Server VoIP компоненты для Скайп для Business Server
 

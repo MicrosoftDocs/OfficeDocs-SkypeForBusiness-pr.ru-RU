@@ -14,11 +14,11 @@ description: Практическое руководство по разверт
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198435"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись собрания Teams в облаке
 
@@ -122,7 +122,7 @@ ms.locfileid: "30463094"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Windows PowerShell имеет много преимуществ в скорости, простоты и повышения производительности по сравнению только с помощью центра администрирования Office 365, например, при внесении изменений параметров для нескольких пользователей за один раз. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Windows PowerShell имеет много преимуществ в скорости, простоты и повышения производительности по сравнению только с помощью центра администрирования Office 365, например, при внесении изменений параметров для нескольких пользователей за один раз. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
 
 - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Настройка компьютера для Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525038)

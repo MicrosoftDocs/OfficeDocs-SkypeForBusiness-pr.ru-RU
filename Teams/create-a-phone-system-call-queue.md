@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: Узнайте, как настроить система телефона для облачных вызова очередей для организационной приветствия музыку при удержании и Перенаправление звонков на вызов агентам в списки рассылки и группы безопасности. You can also set the maximum queue size, time out, and call handling options.
 ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199311"
 ---
-# <a name="create-a-cloud-call-queue"></a>Создание очереди вызовов облако
+# <a name="create-a-cloud-call-queue"></a>Создание облачной очереди звонков
 
 Облако вызова очередей включают приветствие, используемые при получении звонка на номер телефона для вашей организации, возможность автоматически переводить звонки в режим удержания и возможность поиска для следующего агента доступные вызова для обработки вызова при пользователей, которые являются прослушивание музыки при удержании. Вы можете создать для своей организации одну или несколько очередей вызовов.
   
@@ -317,7 +317,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
   - [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 

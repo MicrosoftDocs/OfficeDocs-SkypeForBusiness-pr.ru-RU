@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: Очереди группы ответа содержат вызовы в группы ответа, пока агент отвечает на звонок. Очереди назначения групп агентов. При создании или изменение очереди для выбора одного или нескольких групп агентов для назначения в очередь используется диалоговое окно Выбор групп.
 ms.openlocfilehash: fc03bbc95c1604ef13380a52fa214f9fd65f35b4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200557"
 ---
 # <a name="select-groups"></a>Выбор групп
 

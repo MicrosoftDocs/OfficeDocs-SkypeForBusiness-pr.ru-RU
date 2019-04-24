@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 55ed1396cd9c16b96e7d230429ccf25c1802473e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204638"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Настройка сосуществования и обновления
 
@@ -67,7 +67,7 @@ ms.locfileid: "30460406"
 4. Если выбрать любой **режим сосуществования** отличный от **масштабе организации использование параметров**, у вас есть параметр, чтобы включить уведомления в Скайп пользователя для бизнес-приложения, обновление группы в ближайшее время. Можно включить это уведомление для пользователя, включив параметр **Уведомлять Скайп для бизнес-пользователя** .
 5. После внесения изменений нажмите кнопку **Сохранить** .
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>Статьи по теме
 [Планирование поездки](upgrade-plan-journey.md)
 
 [Понять сосуществования и обновление пути для Скайп для бизнеса и рабочих групп](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

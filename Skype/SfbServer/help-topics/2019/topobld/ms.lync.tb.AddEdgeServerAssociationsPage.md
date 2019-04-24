@@ -14,11 +14,11 @@ ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте эту страницу, чтобы выбрать, какие пулов переднего плана и серверов Standard Edition будет с помощью этого пограничного пула A / V трафика.
 ms.openlocfilehash: 79dfc08253f105b123a73c83bdf51d0ea0584bc0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202161"
 ---
 # <a name="add-edge-server-associations"></a>Добавление связей для пограничного сервера
  

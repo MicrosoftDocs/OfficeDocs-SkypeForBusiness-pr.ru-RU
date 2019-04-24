@@ -23,19 +23,19 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: d27c06edd976849716f24cdd4a161b4b92091d81
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 33928993983b06c07cec5e88d7e01d419ec5efaf
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204124"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Ограничения набора бесплатных номеров во Вьетнаме
 
 [Найдите другой страны или региона](../toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.
 
 
-| **Сведения**                                      | **Описание**.                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Сведения**                                      | **Описание**                                                                                                                                                                                                                                                                                                                                                                                           |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | — Это бесплатный вызов доступны?  <br/>           | Да  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
 | Формат набора  <br/>                         | 120-11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX: формат больше не предоставляется <br/>                                                                                                                                                                                                                                                                                                                            |
@@ -44,9 +44,9 @@ ms.locfileid: "30568954"
 | Неохватываемая территория  <br/>              | Неприменимо  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | Доступность проводных и наземных линий связи  <br/>             | Частично. См. примечания.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | Доступность мобильных сетей  <br/>               | Частичный. Просмотрите комментарии.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| Примечания, ограничения и проблемы с доступом  <br/> | Номера формата 120 XX XXX доступны для абонентов наземных и мобильных сетей Vietnam Telecom International (VTI) и VNPT (Vietnam Post and Telecommunications). <br/> <br/>120 XX XXX формат номера не могут быть вызваны сеть мобильной Mobifone пользователя. <br/> <br/>**Примечание:** Mobifone &amp; Vinaphone являются частью VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours. |
+| Примечания, ограничения и проблемы с доступом  <br/> | Номера формата 120 XX XXX доступны для абонентов наземных и мобильных сетей Vietnam Telecom International (VTI) и VNPT (Vietnam Post and Telecommunications). <br/> <br/> По состоянию на июнь 2018 120 XX XXX формат номера не могут быть вызваны сеть мобильной Mobifone пользователя. <br/> <br/>**Примечание:** Mobifone &amp; Vinaphone являются частью VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours. |
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 

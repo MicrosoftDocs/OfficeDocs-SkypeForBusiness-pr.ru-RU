@@ -20,11 +20,11 @@ ms.custom:
 - Phone System
 description: Внешний вид общей строки позволяет пользователю выбрать представителю ответ или обработки звонков от их имени.
 ms.openlocfilehash: d16fe4b3241e814609999d8068ee47743bfca516
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993542"
+ms.locfileid: "32204493"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Функция Shared Line Appearance в Microsoft Teams
 
@@ -66,6 +66,6 @@ ms.locfileid: "31993542"
  
 Если представитель и делегат не в том же месте, — разрешить Звонящего отображались в разных географических расположениях для делегированных (от имени владельца) вызова поставщику PSTN. 
  
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 [Общий доступ к телефонной линии с помощью делегата](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)

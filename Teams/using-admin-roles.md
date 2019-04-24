@@ -14,11 +14,11 @@ description: Изучите использование различных адм
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 677249ba27c79352207a4fffa65480a0a7d484cd
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211810"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Управление Microsoft Teams с ролями администратора
 
@@ -57,12 +57,12 @@ ms.locfileid: "30955016"
 
 1. Назначение пользователю роли (и убедитесь в том, что пользователь имеет другие роли не).
 2. Подключение к Скайп для модуль PowerShell бизнеса:<br>
-   а. $session = новый csonlinesession<br>
-   б. Import-pssession $session<br>
+   a) $session = новый csonlinesession<br>
+   б) Import-pssession $session<br>
    в. **Get-модуль** используется для определения имени импортированных сеанса (оно будет случайное имя).<br>
 3. Использование **Get-Command - модуль** <>*имя указанного выше*для определения всех доступных командлетов
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>Статьи по теме
 
 - [Обзор PowerShell группами Майкрософт](teams-powershell-overview.md)
 - [PowerShell группами Майкрософт](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)

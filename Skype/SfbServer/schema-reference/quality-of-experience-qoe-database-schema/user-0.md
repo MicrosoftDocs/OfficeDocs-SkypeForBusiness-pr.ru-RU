@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
 description: Таблица пользователей представляет собой вспомогательную таблицу, в которой хранится список различных пользователей, которые участвовали в сеансах, записанные в базе данных. Каждая запись в таблице представляет один пользователь.
 ms.openlocfilehash: fcdc8682b86432613af79d5e4d2abbdb248fef0f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212083"
 ---
 # <a name="user-table"></a>Таблица User
  

@@ -1,5 +1,5 @@
 ---
-title: Юридические и регулятивным требованиям
+title: Юридическая и нормативная информация
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,10 +20,10 @@ ms.custom:
 - Legal
 description: 'Это содержимое, которые должны быть опубликованы в соответствии с требованиями для специальных возможностей соответствием требованиям и регулятивным требованиям для Скайп для бизнеса в Интернет во Франции. '
 ms.openlocfilehash: 1681bedf95938a9eddc5f9e65862855a1591fd0c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199601"
 ---
-# <a name="legal-and-regulatory"></a>Юридические и регулятивным требованиям
+# <a name="legal-and-regulatory"></a>Юридическая и нормативная информация

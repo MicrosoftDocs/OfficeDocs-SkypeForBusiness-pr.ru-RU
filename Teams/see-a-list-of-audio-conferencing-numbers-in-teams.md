@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Сведения о просмотре номеров для конференц-связи с телефонным подключением из Microsoft Teams. '
 ms.openlocfilehash: 72cb7018e49ccbae777869f1305cf9e64df6fcb0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205098"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Просмотр списка номеров для аудиоконференций в Microsoft Teams
 
@@ -64,5 +64,5 @@ Windows PowerShell дает возможность управлять польз
   
 ## <a name="related-topics"></a>Связанные разделы
 
-[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Платная или пробная версия аудиоконференций в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
   

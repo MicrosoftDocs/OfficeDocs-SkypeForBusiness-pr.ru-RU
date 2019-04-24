@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Сведения о лицензии дополнительный компонент и функции для GOV, EDU и планы некоммерческой организации. '
-ms.openlocfilehash: f2afc5b36d15f0b420cd8cdf7ce545dd78a5a941
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 3aa8cfc2f08f31f78aa830fb4c44a513a160e5c5
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204509"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Государственные, образовательные и некоммерческие организации
 
@@ -31,8 +31,8 @@ ms.locfileid: "30542681"
 
 |**Функция групп**|**Доступные GOV (GCC)**|**Доступные GOV (не являющиеся GCC)**|**Доступные EDU**|**Доступна для некоммерческих организаций**|
 |:-----|:-----|:-----|:-----|:-----|
-|Аудиоконференции  <br/> |Управление языками для автосекретаря конференц-связи.  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
-|Телефонная система Office 365  <br/> |Управление языками для автосекретаря конференц-связи.  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Аудиоконференции  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
+|Телефонная система Office 365  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
 |План звонков Office 365  <br/> |Да  <br/> |Да   <br/> |Да   <br/> |Да  <br/> |
    
-См. запись блога [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers (Расширенные возможности Office 365 теперь доступны пользователям Government Community Cloud в США)](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
+См. запись блога [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers (Расширенные возможности Office 365 теперь доступны пользователям Government Community Cloud в США)](https://www.microsoft.com/en-us/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).

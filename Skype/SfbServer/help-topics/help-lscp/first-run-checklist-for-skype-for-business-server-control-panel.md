@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: Добро пожаловать на страницу Скайп для панели управления сервера для бизнеса, интерфейс пользователя в Интернете для администрирования и управления Скайп для Business Server. Панель управления можно использовать для выполнения задач администрирования тех же типов, что и в консоли управления (MMC) предыдущих версий.
 ms.openlocfilehash: 510838c2924f32ca532bfc075cc2c457f12cf3de
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889897"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200732"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Контрольный список первого запуска для панели управления Skype для бизнеса Server
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
 description: Таблица Phones представляет собой вспомогательную таблицу. Каждая запись в таблице хранятся сведения о один телефонный номер, участвующих в вызовах VoIP с записями в базе данных.
 ms.openlocfilehash: 733adec46e948c3b7f1d804f57011110355078f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212889"
 ---
 # <a name="phones-table"></a>Таблица Phones
  

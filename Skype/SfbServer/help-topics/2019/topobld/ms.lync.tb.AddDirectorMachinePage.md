@@ -14,11 +14,11 @@ ms.assetid: 7d51493a-1b7a-43ad-b562-49e45f899796
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя (FQDN) каждого компьютера, который требуется добавить в качестве директора в этом пуле. До публикации топологии можно в любой момент обновить полное доменное имя добавленного к списку компьютера или удалить его из пула. После публикации топологии для изменения полного доменного ИМЕНИ необходимо удаление сервера в построителе топологий, а затем добавляя новый сервер к пулу с новой полным доменным ИМЕНЕМ.
 ms.openlocfilehash: 4dfa84692eea728085424c0046aa25afff61f356
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202224"
 ---
 # <a name="add-director-machine"></a>Добавление компьютера директора
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: На странице политика клиенты отображаются доступные в вашем развертывании политики мобильных устройств.
 ms.openlocfilehash: d08faeb5d304c538d23d275f07e1a0c63a431388
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200914"
 ---
 # <a name="clients-mobility-policy"></a>Клиенты: политика мобильных устройств
 

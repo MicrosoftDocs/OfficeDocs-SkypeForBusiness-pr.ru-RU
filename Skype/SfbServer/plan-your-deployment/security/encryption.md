@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Скайп для Business Server используется протокол TLS и MTLS для шифрования мгновенных сообщений. Для трафика от сервера к серверу требуется MTLS, независимо от того, ограничивается ли трафик внутренней сетью или пересекает внутренний периметр сети. При подключении Скайп Business Server для сторонних производителей IPPBX или магистралями SIP TLS необязательно, настоятельно рекомендуется между сервером-посредником и шлюзом мультимедиа. If TLS is configured on this link, MTLS is required. Таким образом шлюз должен работать под управлением сертификат из центра сертификации, который является доверенным для сервера-посредника.
 ms.openlocfilehash: e4a58cf10d268dedadb34556206e1c7227d4fdf5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213622"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Шифрование для Скайп для Business Server
  

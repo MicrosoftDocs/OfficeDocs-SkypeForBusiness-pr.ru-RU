@@ -1,5 +1,5 @@
 ---
-title: Ответ на звонки автосекретарей и вызов очередей звонков непосредственно из Teams
+title: Ответ на звонки автосекретарей и очередей звонков непосредственно из Teams
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,13 +16,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8a94f8220cca2058e993f73241e62ff3ad0ea4f2
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210936"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Ответ на звонки автосекретарей и вызов очередей звонков непосредственно из Teams
+<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Ответ на звонки автосекретарей и очередей звонков непосредственно из Teams
 ===========================================================
 
 Группы Пользователи могут получать и отвечать на звонки из облака автосекретарей и очереди вызовов непосредственно из клиента по группам. Для пользователей, групп функцию автоматического attendant теперь доступен обычно и является возможность вызова очереди в предварительной версии. 
@@ -59,10 +59,10 @@ ms.locfileid: "31914546"
 
 Для получения автосекретаря и вызов очереди вызовов на группами Майкрософт, необходимых для настройки политики взаимодействия и обновление политики. Ознакомьтесь с [миграции и взаимодействия для организаций, с помощью команды Скайп для бизнеса](migration-interop-guidance-for-teams-with-skype.md). Если у вас нет автосекретаря и/или очереди вызовов настроена и вы хотите делать это, видеть [настроить автосекретарь облако](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) и [Создание очереди вызовов облака](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 -   [Что такое телефонной системой в Office 365](what-is-phone-system-in-office-365.md)
--   [Создание очереди вызовов облако](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [Что такое автосекретари облако?](what-are-phone-system-auto-attendants.md)
--   [Настроить автосекретарь облако](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Создание облачной очереди звонков](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Что представляют собой облачные автосекретари?](what-are-phone-system-auto-attendants.md)
+-   [Настройка облачного автосекретаря](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

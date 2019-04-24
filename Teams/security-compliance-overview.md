@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203073"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Обзор обеспечения безопасности и соответствия в Microsoft Teams
 ======================================================
@@ -154,6 +154,6 @@ Teams также принудительно применяет двухфакт�
 
 Изучите Дополнительные сведения о наших доверия и безопасности связанные сведения в [Центр управления безопасностью Microsoft](https://microsoft.com/trustcenter). Команды следует же руководство и принципы как центр управления безопасностью Microsoft.
 
-<a name="related-topics"></a>Связанные разделы
+<a name="related-topics"></a>Статьи по теме
 ----------------------
 [Office 365 ATP Safe ссылки](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)

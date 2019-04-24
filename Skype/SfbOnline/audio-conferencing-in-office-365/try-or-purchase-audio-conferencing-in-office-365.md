@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
 ms.openlocfilehash: deb26d47c2b291e83c3ed32e4175bf7a82035c67
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203330"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Воспользуйтесь пробной версией или приобретите функцию аудиоконференции в Office 365 для Skype для бизнеса Online
 
@@ -96,10 +96,10 @@ When you assign an **Audio Conferencing** license to people in your organization
 > [!NOTE]
 > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-[Номера телефонов для аудиоконференций](phone-numbers-for-audio-conferencing.md)
+[Телефонные номера для аудиоконференций](phone-numbers-for-audio-conferencing.md)
 
 [Установка параметров для онлайн-собраний и конференций](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

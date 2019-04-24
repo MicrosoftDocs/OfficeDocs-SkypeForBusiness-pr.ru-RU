@@ -14,11 +14,11 @@ ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя (FQDN) пула переднего плана, для которого создается. Полное доменное имя пула нельзя изменить после публикации топологии, содержащий пула переднего плана. Если требуется переименовать в пул, необходимо удалить пул и добавьте новый пул с новой полным доменным ИМЕНЕМ.
 ms.openlocfilehash: 28e831df0cdf86620eefc1a22ced199507026c46
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202063"
 ---
 # <a name="add-front-end-pool-fqdn"></a>Добавление полного доменного имени пула переднего плана
  

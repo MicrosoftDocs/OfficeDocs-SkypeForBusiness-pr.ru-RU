@@ -1,11 +1,17 @@
---- 
+---
 layout: HubPage
 hide_bc: true
 title: Skype для бизнеса
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 description: Skype для бизнеса
+ms.openlocfilehash: a08b6ecdaf09ade237332e08a23ddbfeb9c5eb64
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195018"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -140,8 +146,8 @@ description: Skype для бизнеса
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Комнат группами Майкрософт</h3>
-                                                    <p>Узнайте, как для планирования, развертывания и управления каналами группами Майкрософт.</p>
+                                                    <h3>Комнаты Microsoft Teams</h3>
+                                                    <p>Сведения о планировании и развертывании комнат Microsoft Teams, а также управлении ими.</p>
                                                 </div>
                                             </div>
                                         </div>

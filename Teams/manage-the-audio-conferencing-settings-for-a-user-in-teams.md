@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Являясь администратором Office 365, вы можете изменять настройки аудиоконференций Microsoft Teams, например поставщика, платный или бесплатный номер по умолчанию, идентификатор конференции или ПИН-код, для отдельного пользователя в своей организации. '
 ms.openlocfilehash: 55d9b326b98dd24cb98262b7104e7de1361a6e8e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202703"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Управление настройками аудиоконференций для пользователя в Microsoft Teams
 
@@ -57,8 +57,8 @@ ms.locfileid: "30460230"
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
-[Управление параметрами звука конференц-связи для вашей организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+[Управление настройками аудиоконференций для организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
 [Общие вопросы об аудиоконференциях](audio-conferencing-common-questions.md)

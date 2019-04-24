@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
 description: Миграция с Microsoft Office Communications Server 2007 R2 на Lync Server 2013 использует возможности Topology Builder для объединения существующей топологии. Сводный экран указывает все действия и выбранные элементы, внесенные во время настройки слияния Office Communications Server 2007 R2 в конфигурации построитель топологии Lync Server 2013.
 ms.openlocfilehash: 62b1d212f7840c123620d8d8b64814ed3263fdf2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200146"
 ---
 # <a name="legacy-merge-summary-page"></a>Страница сводки по объединению с устаревшей версией
 

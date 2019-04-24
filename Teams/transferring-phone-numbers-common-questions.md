@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Следующих часто задаваемые вопросы о передаче телефонных номеров Скайп для бизнеса. После просмотра ответов, можно приступить к созданию номеру порта и перемещение телефонных номеров. В разделе Передача номера телефонов в Office 365 для получения инструкций.
 ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204132"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Общие вопросы о переносе телефонных номеров
 
