@@ -14,11 +14,11 @@ ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы указать учетные данные для SQL Server Reporting Services (SSRS) для доступа к базе данных мониторинга, выполните следующие действия.
 ms.openlocfilehash: 02287bd96f37886dcfdbf36aabe20409d6fee5c6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216034"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>Службы SQL Server Reporting Services (учетные данные)
  

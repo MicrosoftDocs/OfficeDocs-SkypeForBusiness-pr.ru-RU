@@ -1,5 +1,5 @@
 ---
-title: Настроить автосекретарь облако
+title: Настройка облачного автосекретаря
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: Узнайте, как настроить и тестирование облачных автосекретари для обработки для вашей организации эффективным звонков.
 ms.openlocfilehash: 8ab3dd318e8ae4c815a78dcc8f7430b2b6d08b04
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218847"
 ---
-# <a name="set-up-a-cloud-auto-attendant"></a>Настроить автосекретарь облако
+# <a name="set-up-a-cloud-auto-attendant"></a>Настройка облачного автосекретаря
 
 Автосекретари, позволяет людям, вызов для вашей организации и выберите меню системы, чтобы получить их в правом отдел, вызвать очереди, лицо или оператор. С помощью центра администрирования группами Майкрософт, можно создать автосекретарь для вашей организации. Чтобы создать автосекретарь, перейдите к **голосовой связи** в левой панели навигации и выберите **автосекретари** > **Добавить новые**.
 
@@ -361,7 +361,7 @@ ms.locfileid: "31914672"
 
   - [Использование Windows PowerShell для управления Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
@@ -371,6 +371,6 @@ ms.locfileid: "31914672"
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[Что такое автосекретари облако?](what-are-phone-system-auto-attendants.md)
+[Что представляют собой облачные автосекретари?](what-are-phone-system-auto-attendants.md)
 
 [Пример для малого бизнеса: настройка автосекретаря](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  

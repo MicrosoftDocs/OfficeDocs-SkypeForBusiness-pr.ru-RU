@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Настройка OAuth проверки подлинности между Exchange при локальном и Скайп для бизнеса в Интернет позволяет Скайп для бизнеса и интеграция с Exchange, описанными в поддержка функции.
 ms.openlocfilehash: 976aae8287c1d9f209975d53ebc64ac80033c591
-ms.sourcegitcommit: 42666cf15b37279244d205715016a10e01fc752e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31040018"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216664"
 ---
 # <a name="configure-integration-between-skype-for-business-online-or-microsoft-teams-and-exchange-server"></a>Настройка интеграции между Скайп для бизнеса в Интернете или группами Майкрософт и Exchange Server 
 
@@ -89,6 +89,6 @@ New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1
 
 Ниже приведен [Пример настройки один](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), но можно использовать любое средство сетевой трассировки, как для выполнения этого процесса.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Если развертывание сервера архивации и мониторинга сервера в старой среды, вы можете развернуть эти серверы в вашей Скайп среды Business Server 2019 после миграции пулов переднего плана. Если архивации и мониторинга функциональные возможности важны для вашей организации, тем не менее, следует добавить архивации и мониторинга для вашей Скайп для пилотного пула Business Server 2019 перед миграцией, чтобы функциональность доступна во время миграции.
 ms.openlocfilehash: 24dc3e3007fd9a58c23f9c15a31cccc766d45e83
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231646"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>Перенос серверов архивирования и мониторинга
 

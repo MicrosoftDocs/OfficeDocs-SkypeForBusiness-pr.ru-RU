@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5fd20329-475c-4fb0-82f1-5cef07723e09
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 3a0e361369f8b424977c6f1181c3b224d818914b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 89c04b3190d76ca2e8b66b360dcfe7975504bcfc
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223394"
 ---
 # <a name="toll-free-dialing-restrictions-in-peru"></a>Ограничения набора бесплатных номеров в Перу
 
@@ -46,7 +46,7 @@ ms.locfileid: "30463822"
 |Доступность мобильных сетей  <br/> |Нет  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Нет  <br/> |
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Сводка: Сведения о настройке поставщиков сценариев для централизованной службы ведения журналов в Скайп для Business Server 2015.'
 ms.openlocfilehash: 36eb16eb1aea584e1ca28670ea75bd3a262ceb1a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217504"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Настройка поставщиков для централизованной службы ведения журналов в Skype для бизнеса Server 2015
  

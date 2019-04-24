@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 description: После предоставления необходимой информации для развертывания сервера мониторинга отчетов Microsoft SQL Server 2008 R2 или для служб Microsoft SQL Server 2012 отчета, на странице выполнение команд отображается сводка по переданные команды для установки отчеты служб отчетов SQL Server.
 ms.openlocfilehash: f1cc4ee2f2a53ea8e6d3ba1f1fcd24c59c915990
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234904"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>Службы SQL Server Reporting Services (вызов)
  

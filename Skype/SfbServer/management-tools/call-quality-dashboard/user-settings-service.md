@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: 'Сводка: Сведения о службе параметров пользователя, которая является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
 ms.openlocfilehash: 8cb30c0f079834c14879e2ce6cbd14201f5bbdcb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217525"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>Служба параметров пользователя для панели мониторинга качества звонков (CQD)
  
@@ -36,7 +36,7 @@ ms.locfileid: "30888233"
   
 В следующей таблице включены операции REST.
 
-|**Операция**|**Описание**.|
+|**Операция**|**Описание**|
 |:-----|:-----|
 |[Получение параметров пользователя](get-user-settings.md) <br/> |Параметры пользователя Get возвращает список параметров для указанного пользователя.  <br/> |
 |[Получение параметра пользователя](get-user-setting.md) <br/> |Получите возвращает параметр пользователя параметр с одним пользователем.  <br/> |

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: Проверка развертывания объявлений приложения в Скайп Business Server корпоративной голосовой связи. От этих действий зависит способ обработки вызовов на неназначенные номера.
 ms.openlocfilehash: 8f20c9d35a8349c0e02af7a5c3d67532ec2d9236
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225641"
 ---
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(Необязательно) Проверка развертывания объявлений в Скайп для бизнеса
  

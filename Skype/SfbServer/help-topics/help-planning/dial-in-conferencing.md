@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 description: Скайп для Business Server 2015 телефонных конференций позволяет пользователям присоединяться к звуковой части Скайп для Business Server 2015 конференции с использованием телефонной сети (общего пользования PSTN) телефона без поставщика аудиоконференций сторонних производителей.
 ms.openlocfilehash: 4bca75a791e3bed9fa6a1dc48fd82a313dc7aad5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219809"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  

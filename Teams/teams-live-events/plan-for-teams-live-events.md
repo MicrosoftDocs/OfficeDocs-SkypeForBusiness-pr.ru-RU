@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Сведения о важных перед настройкой live события в группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c249c6e63b8342b524b54afc2a6d30be3e92b25
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: 427a0dc26ef3c5b9901ddbe9cefe1288c905ccbb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223378"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "30771768"
 - Видео разрешен доступ к файлам в собраниях групп (*TeamsMeetingPolicy - AllowIPVideo параметр = True*).
 - Совместное использование рабочего стола включена в собраниях групп (*TeamsMeetingPolicy - ScreenSharingMode параметр = EntireScreen*).
 - Live планирования событий в группах включено (*TeamsMeetingBroadcastPolicy - AllowBroadcastScheduling параметр = True*).
-- Разрешения на создание событий в реальном времени в Microsoft потока (для [внешних кодировщика рабочей](#production)).
+- Разрешения на создание событий в реальном времени в Microsoft потока (для рабочей среды внешнего кодирования).
 
 > [!IMPORTANT]
 > Гости Office 365, федеративным и анонимным пользователям не удается пригласить как поставщики или выступающие на группы событий в реальном времени. Гостевая Office 365 и федеративные пользователи можно только просмотр событий в реальном времени анонимного доступа. 
@@ -113,7 +113,7 @@ Live события команды можно использовать в нес
 ## <a name="next-steps"></a>Дальнейшие действия
 Перейдите к [Настройка для групп событий в реальном времени](set-up-for-teams-live-events.md).
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>Статьи по теме
 - [Что такое прямые трансляции Teams?](what-are-teams-live-events.md)
 - [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
 - [Настройка параметров событий в реальном времени в группах](configure-teams-live-events.md)

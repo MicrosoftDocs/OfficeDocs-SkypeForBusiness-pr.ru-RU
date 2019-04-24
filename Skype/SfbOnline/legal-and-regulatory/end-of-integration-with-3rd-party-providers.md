@@ -20,11 +20,11 @@ ms.custom:
 hideEdit: true
 description: Наконец, на 1 апреля 2020 г., конец жизненного программы для интеграции Скайп для бизнеса с поставщиками сторонних производителей аудиоконференций (ACP сторонних производителей).
 ms.openlocfilehash: 4846875a8fb288683e896454a33e9213eec3a2ac
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223866"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Конец жизненного программы для интеграции Скайп для бизнеса с аудиоконференций сторонних поставщиков 
 

@@ -17,11 +17,11 @@ f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Сведения о политиках системы обмена сообщениями и как они могут использоваться для управления чата системы обмена сообщениями в группах.
 ms.openlocfilehash: 20c1354f168b5476733c95b49d3344364b8a6008
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231785"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Управление политиками обмена сообщениями в Teams
 

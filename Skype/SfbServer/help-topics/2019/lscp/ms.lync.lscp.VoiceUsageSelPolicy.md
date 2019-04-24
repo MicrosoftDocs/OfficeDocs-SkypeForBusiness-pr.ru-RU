@@ -14,11 +14,11 @@ ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления Business Server см управление Скайп Business Server.
 ms.openlocfilehash: 1376ebc9c0f52763e1d36bfc5ac9836e74563331
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221238"
 ---
 # <a name="voice-usage-policy"></a>Политика использования голосовой связи
  

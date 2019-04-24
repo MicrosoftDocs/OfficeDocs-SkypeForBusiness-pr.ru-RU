@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 ms.openlocfilehash: 0b16940eafecc2177ca65fbebe7d818440549bd3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220279"
 ---
 # <a name="network-configuration-global-setting"></a>Конфигурация сети: глобальная настройка
 

@@ -14,11 +14,11 @@ ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Очереди группы ответа хранят звонки в группу ответа, пока агент отвечает на звонок.
 ms.openlocfilehash: 96d8bae5f4f3e818366872c4e81615a90fe24e86
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215201"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Очередь группы ответа: создание новой или редактирование существующей
 

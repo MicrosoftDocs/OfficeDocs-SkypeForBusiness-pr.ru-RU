@@ -23,11 +23,11 @@ ms.custom:
 - LIL_Placement
 description: 'Узнайте, как настроить-связи или аудиоконференции для пользователей в вашей организации, которым необходимо использовать телефон для присоединения к конференции. '
 ms.openlocfilehash: d57eedec13d9bd1c01ec9365fd42c0a4dfdc2d96
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229314"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Настройка звука конференц-связи для Скайп для бизнеса
 
@@ -147,6 +147,6 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
   
 [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
-[Телефонные номера для аудиоконференций](phone-numbers-for-audio-conferencing.md)
+[Номера телефонов для аудиоконференции](phone-numbers-for-audio-conferencing.md)
   
 [Установка параметров для онлайн-собраний и конференций](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

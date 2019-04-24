@@ -1,5 +1,5 @@
 ---
-title: Функции рабочих Firstline готовится к выпуску для групп Майкрософт
+title: В Microsoft Teams вскоре появятся возможности для сотрудников без компьютеров
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -14,13 +14,13 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c96510d0015e8ff026dee28567c7626196007fd6
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245818"
 ---
-# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>Функции рабочих Firstline готовится к выпуску для групп Майкрософт
+# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>В Microsoft Teams вскоре появятся возможности для сотрудников без компьютеров
 
 > [!IMPORTANT]
 > Начиная с 1 октября 2019, Microsoft StaffHub будет из эксплуатации. Мы создаем StaffHub возможностей в группами Майкрософт. В настоящее время группы включает в себя приложение смены для управление планированием и дополнительные возможности будут развернуты со временем. StaffHub перестанет работать для всех пользователей на 1 октября 2019. Кто-то пытается открыть StaffHub отображается сообщение, предлагая загрузить групп. Для получения дополнительных сведений см [Microsoft StaffHub из эксплуатации](microsoft-staffhub-to-be-retired.md).
@@ -47,7 +47,7 @@ ms.locfileid: "31013195"
 
 Мы поддерживаем построение возможности, которые соответствуют требованиям рабочей силы Firstline и хотите узнать от вас, отправьте нам свои отзывы и предложения по [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 - [Прекращение поддержки Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
-- [Перемещение ваших команд Microsoft StaffHub смены в группах](move-staffhub-teams-to-shifts-in-teams.md)
+- [Перемещение групп Microsoft StaffHub в приложение Shifts в Teams](move-staffhub-teams-to-shifts-in-teams.md)

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 82577b8e8102baca9ea9681bb94d4a0c73f8b01e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218679"
 ---
 ![Этапы обновления пути с акцентом на развертывание и стадии реализации] (media/upgrade-banner-deployment.png "Этапы обновления пути с акцентом на развертывание и стадии реализации")
 
@@ -34,7 +34,7 @@ ms.locfileid: "30465158"
 - [Подготовлено вашей организации](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Проведение пилотного проекта](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-from-skype-for-business-online-to-teams"></a>Обновление от Скайп для бизнеса в Интернете по группам
+# <a name="upgrade-from-skype-for-business-online-to-teams"></a>Переход со Skype для бизнеса Online на Teams
 
 Следуйте указаниям в этой статье, если полностью развернут Скайп для бизнеса в Интернет и требуется обновление пользователей с Скайп для бизнеса в группы. Можно обновить пользователей выборочно или файловый, основанным на обновление journey, ваша организация решила, назначив соответствующие сосуществования и обновления режима для пользователей.
 

@@ -14,11 +14,11 @@ ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице сведения о местоположении запрос Дополнительные сведения для запроса сертификата. На этой странице выберите страны, после чего тип край, Округ и Город, в котором в текстовом поле. Обратите внимание на то, что не следует использовать сокращения и должна описывать полное имя край, Округ и Город.
 ms.openlocfilehash: bfb19bbeea3004094443fc7f2e3ffe3733353e61
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216377"
 ---
 # <a name="certificate-request-geography"></a>Запрос сертификата (сведения о местонахождении)
  

@@ -14,11 +14,11 @@ ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы определить следующего прыжка для сервера-посредника, которая определяется, выберите из раскрывающегося списка следующего прыжка пула Enterprise Edition или сервера Standard Edition, который будет выступать в качестве следующего перехода для сервера-посредника. Для продолжения нажмите кнопку Далее.
 ms.openlocfilehash: 7c6f1c07f38582481aa3e1e3f3dcdd8c2f1244d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220922"
 ---
 # <a name="add-mediation-server-nexthop"></a>Добавление следующего скачка для серверов-посредников
  

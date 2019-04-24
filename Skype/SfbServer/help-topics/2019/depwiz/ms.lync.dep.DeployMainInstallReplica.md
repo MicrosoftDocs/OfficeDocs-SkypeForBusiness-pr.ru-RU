@@ -14,11 +14,11 @@ ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы начать установку новых Скайп для роли сервера Business Server, необходимо сначала установить на локальном SQL Server, на котором будет размещаться локального хранилища конфигурации. Локальное хранилище конфигурации будет действовать как только для чтения реплики Скайп для бизнеса сервера центрального хранилища управления (CMS).
 ms.openlocfilehash: 5030cb426582ca849b01cea7995401eca276021c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216132"
 ---
 # <a name="install-local-configuration-store"></a>Установка локального хранилища конфигурации
 

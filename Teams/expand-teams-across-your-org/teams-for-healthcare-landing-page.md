@@ -13,11 +13,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d5033c7479a8b457a18395a9e8a8fae4740ba06a
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245701"
 ---
 # <a name="teams-for-healthcare"></a>Teams для сферы здравоохранения
 

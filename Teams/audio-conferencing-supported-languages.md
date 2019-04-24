@@ -23,11 +23,11 @@ ms.custom:
 - Audio Conferencing
 description: Найти язык конференц-связи для каждой страны или региона и идентификатор языка и региональных параметров, назначенных (en US, da-DK, de-DE, и т.д.)
 ms.openlocfilehash: 32e2c93cc43d548e96c2cda7c2e501e3b94fab80
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569665"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244303"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Поддерживаемые языки аудиоконференций
 
@@ -110,8 +110,8 @@ ms.locfileid: "30569665"
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
-[Платная или пробная версия аудиоконференций в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

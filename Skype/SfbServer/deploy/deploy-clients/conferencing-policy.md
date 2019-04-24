@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: В этом разделе описывается назначение политик конференц-связи для учетных записей Системы комнат Skype.
 ms.openlocfilehash: a56bf9f6b8ba70a4f9ec1f28e84dfa67b1e71aa9
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219467"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Политика конференц-связи для учетных записей системы комнат Skype
  

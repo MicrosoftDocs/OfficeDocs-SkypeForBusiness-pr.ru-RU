@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: ': Сводка сведения о службе элемента, который является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
 ms.openlocfilehash: 28a705d488519e439a0fd4c9c9345b1d540fd949
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217819"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Служба элемента для панели мониторинга качества звонков (CQD)
  
@@ -48,7 +48,7 @@ API репозитория предлагает службы простое уп
 В следующей таблице включены операции REST.
   
 
-|**Операция**|**Описание**.|
+|**Операция**|**Описание**|
 |:-----|:-----|
 |[Получение элементов](get-items.md) <br/> |Получение элементов возвращает все элементы в репозитории.  <br/> |
 |[Получение элемента](get-item.md) <br/> |Получение элемента возвращает конкретный элемент.  <br/> |

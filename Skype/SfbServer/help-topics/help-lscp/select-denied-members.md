@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Администратор сохраняемого чата можно создавать и управлять категорий комнат чата. В процессе создания и управления ими категорий комнат чата администратор сохраняемого чата можно настроить участников (доменных служб Active Directory группы и контейнеры/пользователи), которые имеют доступ к быть члены/создателей каналы, в конкретной категории. Persistent Chat Administrator также можно добавить DeniedMembers к категории, и они станут явные исключения в список разрешенных. DeniedMembers переопределить возможности Указание параметров AllowedMembers.
 ms.openlocfilehash: a4726710bcf331c940c73380dc43b98a6f422c66
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220209"
 ---
 # <a name="select-denied-members"></a>Выбор запрещенных участников
 

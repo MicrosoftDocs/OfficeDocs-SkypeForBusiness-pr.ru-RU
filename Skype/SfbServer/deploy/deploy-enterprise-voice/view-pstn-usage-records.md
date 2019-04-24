@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Сводка: Узнайте, как для просмотра записей использования ТСОП Скайп для или с помощью панели управления сервера Business Скайп для консоли Business Server.'
 ms.openlocfilehash: ee3260c79da4619e6093f5e4eff3f98d697b3c19
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222550"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Просмотр записей использования ТСОП в Скайп для бизнеса
 

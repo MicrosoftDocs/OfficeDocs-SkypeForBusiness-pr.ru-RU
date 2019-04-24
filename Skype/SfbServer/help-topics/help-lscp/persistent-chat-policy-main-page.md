@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Страницу Политика сохраняемого чата группы Сохраняемый чат можно использовать для управления политиками на глобальном уровне, на уровне пула, сайта или пользователя, в том числе для настройки глобальной политики по умолчанию и создания одной или нескольких дополнительных политик пользователей или сайтов для вашего развертывания. Если для пользователя включена для сервера сохраняемого чата политикой, среда сервера сохраняемого чата отобразится в своих клиентов.
 ms.openlocfilehash: c44986a053fc891d7d8d956d21b12012fd62fc5c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220335"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Главная страница политики сохраняемого чата
  

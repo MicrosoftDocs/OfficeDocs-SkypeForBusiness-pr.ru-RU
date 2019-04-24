@@ -12,11 +12,11 @@ ms.collection: M365-voice
 ms.assetid: ''
 description: В данном разделе приведены в этой статье описывается перенос устройств Lync комнаты системы на использование программного обеспечения Microsoft группами комнат.
 ms.openlocfilehash: 2d9187643d8ffa72a843cbd72a47f4fd4a564f6e
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219397"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Перенос системы Lync комнаты (LRS) устройств для комнат группами Майкрософт
 

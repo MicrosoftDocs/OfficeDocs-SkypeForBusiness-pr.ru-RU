@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Южно-Африканская Республика.
 ms.openlocfilehash: 19f69ebb7100fafa7b2092c6997cad96f7bebe94
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222021"
 ---
 # <a name="availability-in-south-africa"></a>Доступность в ЮАР
 

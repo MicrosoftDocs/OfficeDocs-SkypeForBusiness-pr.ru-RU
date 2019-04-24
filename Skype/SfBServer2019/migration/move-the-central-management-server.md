@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После миграции на Скайп для Business Server 2019, необходимо переместить центральный сервер управления Скайп для сервера переднего плана Business Server 2019 или пула, прежде чем удалять устаревшего сервера.
 ms.openlocfilehash: dc85548a3c81e55267bc0ed3a32e53860e4bce09
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231576"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Перемещение устаревшего сервера централизованного управления Скайп для Business Server 2019
 

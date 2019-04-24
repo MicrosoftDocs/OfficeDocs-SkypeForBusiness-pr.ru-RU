@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: После завершения установки Скайп для средство планирования Business Server вы готовы к запустите средство планирования и приступить к разработке предлагаемого Скайп для инфраструктуры Business Server 2015.
 ms.openlocfilehash: 132db1bfacac5d5faec17c2edceb72fe7736f887
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876897"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217231"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Создание начального проекта топологии для Skype для бизнеса Server 2015
 

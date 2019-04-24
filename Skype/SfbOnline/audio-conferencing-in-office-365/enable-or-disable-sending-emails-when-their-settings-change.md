@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как включать и отключать отправку писем с помощью Skype пользователям при изменении настроек, например ПИН-кода или номера для аудиоконференций по умолчанию. '
 ms.openlocfilehash: a9100de01fc835916af54d08b84dbd03a06ec1d6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229820"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Включение и отключение отправки сообщений электронной почты при изменении параметров аудиоконференций в Skype для бизнеса Online
 
@@ -121,10 +121,10 @@ Users are automatically notified by email when they are enabled for Audio Confer
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Статьи по теме
 
 [Отправить пользователям при изменении их параметров звука конференц-связи по электронной почте](emails-sent-to-users-when-their-settings-change.md)
 
-[Отправка пользователям электронных писем с информацией о конференции с телефонным подключением](send-an-email-to-a-user-with-their-dial-in-information.md)
+[Отправка пользователю сообщения электронной почты со сведениями об аудиоконференции](send-an-email-to-a-user-with-their-dial-in-information.md)
 
 

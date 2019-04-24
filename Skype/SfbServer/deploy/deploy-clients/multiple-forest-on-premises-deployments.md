@@ -11,18 +11,18 @@ localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: В этом разделе описывается развертывание системы комнат Skype в локальной среде с несколькими лесами.
 ms.openlocfilehash: 507040a1d8274817e7a4a0780135ee8f6642c77c
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219418"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Развертывание нескольких локальных лесов для системы комнат Skype
  
 В этом разделе описывается развертывание системы комнат Skype в локальной среде с несколькими лесами.
   
 > [!NOTE]
-> Для развертывания в нескольких лесах, система комнаты Скайп требуется Exchange Server 2013 CU6 выпущен 26 августа 2014 г. Избегайте повторное использование существующего почтового ящика для помещения Скайп системы. Использовать новый (удаление старых почтовых ящиков и повторное создание) почтового ящика ресурса для помещения Скайп системы. To restore the meetings lost by deleting the mailbox, see [Connect or restore a deleted mailbox](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
+> Для развертывания в нескольких лесах, система комнаты Скайп требуется Exchange Server 2013 CU6 выпущен 26 августа 2014 г. Избегайте повторное использование существующего почтового ящика для помещения Скайп системы. Использовать новый (удаление старых почтовых ящиков и повторное создание) почтового ящика ресурса для помещения Скайп системы. Чтобы восстановить собраний, потеряны при удалении почтового ящика, видеть [подключение или восстановление удаленного почтового ящика](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
   
 After creating the mailbox, you can use Set-CalendarProcessing to configure the mailbox. Refer to steps 3 through 6 under Single forest on-premises deployments for more details. После создания почтового ящика Exchange ресурсов для системы Скайп помещения, включить учетную запись для Скайп для бизнеса, выполнив действия в Включение Скайп комнаты системных учетных записей для Скайп для бизнеса в разделе локальные развертывания одного леса.
   

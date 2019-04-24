@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Региональные телефоны обладают IP-телефоны, что наиболее часто находятся в общей рабочей области или общего доступа как основной, кухни или фабрики этажа. Региональные телефоны, подключенной к компьютеру, чтобы обеспечить Скайп для Business Server объединенных коммуникаций (UC) функциональные возможности не требуется. После миграции в развертывании Скайп for Business Server 2019, необходимо выполнить миграцию контактных объектов, связанных с устаревших телефона общего пользования. С помощью Скайп для консоли Business Server будет сначала извлечь все контактные объекты, связанные с устаревших телефонов общего пользования и затем перетащить эти объекты в Скайп для пула Business Server 2019.
 ms.openlocfilehash: d17e15224a9124eaf3e9fd6696e6ecd9265044eb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231667"
 ---
 # <a name="migrate-common-area-phones"></a>Миграция телефонов общего пользования
 

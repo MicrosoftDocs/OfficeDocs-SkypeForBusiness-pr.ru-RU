@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Сводка: Узнайте, как запустить или остановить сеанс записи журналов службы централизованного ведения журналов в Скайп для Business Server 2015.'
 ms.openlocfilehash: 982aecf9da4e8ca08d734a4adb35d8a34a3bb816
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887332"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217571"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Запуск или остановка записи журналов CLS в Skype для бизнеса Server 2015
  

@@ -19,11 +19,11 @@ MS.collection:
 - M365-collaboration
 description: Узнайте, как управлять параметрами для собраний команды, которые пользователи планировать в вашей организации.
 ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231899"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Управление настройками собраний в Microsoft Teams
 

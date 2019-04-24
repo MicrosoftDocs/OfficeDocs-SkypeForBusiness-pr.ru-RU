@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этом разделе описывается процесс удаления пула переднего плана или сервера Standard Edition переднего плана. При удалении пула переднего плана, удалите каждого сервера переднего плана, к которому относится к пулу как часть процесса удаления пула. При удалении Standard Edition Front End Server, необходимо удалить определение хранилища SQL в построителе топологий.
 ms.openlocfilehash: 394edcd6f5c89478ed98abebe0be29720d009107
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231548"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>Удаление пула переднего плана или сервера Standard Edition
 

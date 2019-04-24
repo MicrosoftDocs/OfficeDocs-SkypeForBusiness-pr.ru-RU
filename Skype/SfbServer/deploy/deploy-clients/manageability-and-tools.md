@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: В этом разделе описываются возможности инструментов управления для Системы комнат Skype.
 ms.openlocfilehash: 9be385030ad09e73608b461c5a0c05cea70987c0
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699625"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219404"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Возможности управления и инструменты для системы комнат Skype
  
@@ -51,7 +51,7 @@ ms.locfileid: "25699625"
   - Скайп для средство анализа бизнеса (Excel)    
   - Скайп для Business Connectivity Analyzer 32-разрядная или 64-разрядная версия
     
-- Ознакомьтесь с разделом [Новые полезные инструменты для устранения неисправностей и анализа для Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Подтверждение у пользователя имеется Скайп для бизнеса пула и сервера Office Web Apps и могут совместно использовать набор PowerPoint с помощью Скайп для клиента Business.
+- Просмотрите [полезные новые Устранение неполадок и средства анализа для Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Подтверждение у пользователя имеется Скайп для бизнеса пула и сервера Office Web Apps и могут совместно использовать набор PowerPoint с помощью Скайп для клиента Business.
     
 - Если зала уже почтового ящика ресурса, включить эту функцию для Скайп для бизнеса.
     

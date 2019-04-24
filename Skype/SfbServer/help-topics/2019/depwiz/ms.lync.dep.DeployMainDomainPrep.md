@@ -14,11 +14,11 @@ ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы подготовить домен на серверах под управлением Скайп Business Server или Скайп для пользователей Business Server, необходимо выполнить шаг 5: Подготовка текущего домена, как описано в разделе Использование программы установки для выполнения подготовки домена. Для выполнения на шаге вы должны войти в систему как член группы администраторов домена в домен, в подготовке или как член группы "Администраторы предприятия", к которой принадлежит домену леса. Подготовка домена:'
 ms.openlocfilehash: 0544381fbb4965bd370f1ac128d2e203de0cb109
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216174"
 ---
 # <a name="prepare-current-domain"></a>Подготовка текущего домена
 

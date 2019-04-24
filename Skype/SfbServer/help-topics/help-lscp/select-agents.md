@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Агенты — это пользователей, которые предназначены для отвечать на звонки группы ответа. Группе ответа должна быть назначена группа агентов, определяющая, какие агенты могут принимать звонки для данной группы ответа. Один из способов создания группы агентов заключается в определении настраиваемой группы посредством выбора подходящих пользователей. Право пользователей разрешено для Скайп Business Server и корпоративной голосовой связи.
 ms.openlocfilehash: 17a58df6e6729d5258e69007db98b480b83d46c4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220152"
 ---
 # <a name="select-agents"></a>Выбор агентов
 
