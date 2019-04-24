@@ -14,11 +14,11 @@ ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы настроить параметры сервера сохраняемого чата или пул серверов сохраняемого чата, определив следующие свойства:'
 ms.openlocfilehash: 3ee219b69ef71b686aa92fda0a8e07de77f9832f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220806"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Определение свойств и параметров для пула сохраняемого чата
 

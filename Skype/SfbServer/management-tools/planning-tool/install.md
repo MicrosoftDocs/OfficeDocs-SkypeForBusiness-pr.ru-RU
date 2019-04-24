@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Перед началом разработки и планирование вашей Скайп для инфраструктуры Business Server 2015 с помощью Скайп для средство планирования 2015 Business Server, необходимо сначала установить средство планирования. Средство планирования не нужно развертывать на рабочей станции или сервере, который является частью инфраструктуры или домена, где предполагается установить Скайп для Business Server 2015. Readme-файле средство планирования подробно описываются важные сведения об установке и с помощью средства. Some of the information in the Readme file is duplicated here for clarity.
 ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217301"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Установка средства планирования в Skype для бизнеса Server 2015
 

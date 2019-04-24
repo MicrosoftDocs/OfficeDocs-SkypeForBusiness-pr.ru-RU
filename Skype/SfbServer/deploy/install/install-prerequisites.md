@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Сводка: Сведения о серверов и ролей серверов, необходимо настроить перед установкой Скайп для Business Server. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: 0efa8a7fb06c1577d1b55fe42bfe88ca238e485e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894665"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210482"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Установка необходимых компонентов для Скайп для Business Server
  

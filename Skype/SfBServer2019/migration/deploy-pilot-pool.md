@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Один из первого действия, необходимые для перехода на Скайп для Business Server 2019 — развертывание пилотного пула. Пилотного пула —, где выполняется тестирование сосуществования Скайп для Business Server 2019 с устаревшее развертывание. Совместная работа — это временное состояние, занимающего, пока не будут перемещены все пользователи и группы в Скайп для Business Server 2019.
 ms.openlocfilehash: 26f391a485c991aa3575498b98b181f1b5ac761c
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238537"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Развертывание Скайп for Business Server 2019 пилотного пула
 

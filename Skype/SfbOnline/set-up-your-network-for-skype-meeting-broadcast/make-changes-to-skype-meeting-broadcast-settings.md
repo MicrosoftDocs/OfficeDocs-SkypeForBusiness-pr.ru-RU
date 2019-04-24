@@ -20,11 +20,11 @@ ms.custom:
 - SMB
 description: Можно включить Скайп вещания собрания и внести изменения в параметры и политики для них.
 ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226277"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Вносить изменения в параметры вещания собрания Скайп для вашей организации
 
@@ -40,7 +40,7 @@ ms.locfileid: "23851706"
     
 - **Служба технической поддержки поддерживает URL-адрес для участников** Введите ссылку участников вещания собрания для использования, если они нужна помощь подключение или посещение собрания вещания.
     
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка сети для трансляции собраний Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 

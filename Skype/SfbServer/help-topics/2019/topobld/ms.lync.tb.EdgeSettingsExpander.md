@@ -14,11 +14,11 @@ ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы изменить параметры для одного или нескольких существующих пулов пограничных серверов, можно воспользоваться следующими разделами параметров:'
 ms.openlocfilehash: 1125073d1f733959c9c0312fe3f0d36ad5369f8f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220546"
 ---
 # <a name="edge-settings-expander"></a>Расширитель пограничных параметров
 

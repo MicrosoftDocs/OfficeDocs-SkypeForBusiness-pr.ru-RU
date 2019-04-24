@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Сводка: Узнайте, как обновление с Lync Server 2013 Скайп для Business Server 2015. Загрузить бесплатную пробную версию программы Скайп для 2015 Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: 0a09de79bd60917667dfb2e7ca33310da3b04ddd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211637"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
@@ -247,4 +247,4 @@ Disable-CsComputer -Scorch
   
 [Установка обязательных компонентов для Skype для бизнеса Server 2015](install/install-prerequisites.md)
   
-[Установка Skype для бизнеса Server 2015](install/install.md)
+[Установка Skype для бизнеса Server 2015](install/install.md)

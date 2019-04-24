@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: 'Сводка: Узнайте, как добавить дополнительные Скайп для сервера баз данных в существующей группы обеспечения доступности AlwaysOn и сведения о необходимости дополнительных действий после обновления вы или обновление Тыловой сервер, который является частью группы обеспечения доступности AlwaysOn в Скайп для Business Server.'
 ms.openlocfilehash: 8d25e7d3aa1e840be7eb246e6aaa3065b65b7ff7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214696"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Управление базами данных с помощью группы обеспечения доступности AlwaysOn в Скайп для Business Server
 

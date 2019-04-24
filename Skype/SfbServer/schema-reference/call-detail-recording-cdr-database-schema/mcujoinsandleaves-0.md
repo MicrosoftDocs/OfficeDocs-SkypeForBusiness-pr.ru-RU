@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: Представление McuJoinsAndLeaves сохранение информации о присоединиться к пользователям и оставьте сведения для одного сервера конференц-связи. Каждая запись в этом представлении содержит сведения о одного сочетания пользователя присоединения или выходе и конференц-связи сервера звонках. В этом представлении была введена в Microsoft Lync Server 2013.
 ms.openlocfilehash: db759e324689cfbad92389f30c8fd632c24ebd5e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212989"
 ---
 # <a name="mcujoinsandleaves-view"></a>Представление McuJoinsAndLeaves
  

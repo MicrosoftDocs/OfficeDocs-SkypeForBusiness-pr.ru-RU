@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: Диапазоны номеров для парковки вызовов определяют временные номера, где удерживаются запаркованные вызовы, пока кто-то восстановит их, или они времени ожидания.
 ms.openlocfilehash: 6948bc42616ee85c77eb7fe250fe922420d6919b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898854"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234811"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Парковка вызовов: создание новой или редактирование существующей
 

@@ -14,11 +14,11 @@ ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для отдельного пограничного сервера или подсистемы балансировки нагрузки консолидированного пограничного сервера, нажмите кнопку Далее, чтобы указать сведения о конфигурации. Для пограничных серверов развернут конфигурация каждого сервера необходимо изменить значение параметра консолидированного пограничного сервера конфигурации перед можно объединить.
 ms.openlocfilehash: e87cb85e8e48a07c96eb1d053dbe2ff602121fc4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220482"
 ---
 # <a name="legacy-merge-edge-type"></a>Тип пограничного сервера при объединении с устаревшей версией
  

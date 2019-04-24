@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: Таблица tblPrincipalType содержит типы субъектов для возможности в таблице tblPrincipal.
 ms.openlocfilehash: ab2cb28971f0564a082e0caed01e7fc622c41201
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212441"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -24,7 +24,7 @@ ms.locfileid: "30887439"
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |ptypeID  <br/> |smallint, не может быть null  <br/> |Идентификатор типа субъекта.  <br/> |
 |ptypeDesc  <br/> |nvarchar (256), отлично от null  <br/> |Описание типа.  <br/> |
@@ -33,13 +33,13 @@ ms.locfileid: "30887439"
    
 **Ключ**
 
-|**Столбец**|**Описание**.|
+|**Столбец**|**Описание**|
 |:-----|:-----|
 |ptypeID  <br/> |Первичный ключ.  <br/> |
    
 **Значения субъектов**
 
-|**ID**|**Роль**|**Описание**.|**User**|
+|**ID**|**Роль**|**Описание**|**User**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |Любой  <br/> |Универсальный участника без известных типа. Не используется в таблице tblPrincipal.  <br/> ||
 |2  <br/> |AnyUser  <br/> |Универсальный участника пользовательского типа. Не используется в таблице tblPrincipal.  <br/> |Да  <br/> |

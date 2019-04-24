@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 description: Таблица tblFileToken содержит временные маркеры для передачи файлов.
 ms.openlocfilehash: 46553a4b8752e2a95691dc2042a2632845166fc7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212602"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  
@@ -24,7 +24,7 @@ ms.locfileid: "30881300"
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |fileToken  <br/> |nvarchar (50), отлично от null  <br/> |Уникальный маркер (GUID).  <br/> |
 |fileTokenUserID  <br/> |int, не null  <br/> |Идентификатор субъекта, который передает файл.  <br/> |
@@ -38,7 +38,7 @@ ms.locfileid: "30881300"
    
 **Ключи**
 
-|**Столбец**|**Описание**.|
+|**Столбец**|**Описание**|
 |:-----|:-----|
 |fileToken  <br/> |Первичный ключ.  <br/> |
 |fileTokenChannelID  <br/> |Внешний ключ с подстановкой в таблице tblNode.nodeGuid.  <br/> |

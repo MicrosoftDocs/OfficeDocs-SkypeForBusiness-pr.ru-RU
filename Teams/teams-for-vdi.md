@@ -1,5 +1,5 @@
 ---
-title: Группы конструкторов виртуализованной инфраструктуры
+title: Teams для инфраструктуры виртуальных рабочих столов
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,13 +16,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c351e0cefc5e4de4ff74a175af4dee064bf96f3f
-ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "31869832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223426"
 ---
-# <a name="teams-for-virtualized-desktop-infrastructure"></a>Группы конструкторов виртуализованной инфраструктуры
+# <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
 В этой статье описаны требования и ограничения при использовании групп Майкрософт в виртуализованной среде.
 
@@ -220,6 +220,6 @@ ms.locfileid: "31869832"
 
 Известные проблемы, которые не относятся к VDI командами в разделе [Известные проблемы, связанные с группами Майкрософт](Known-issues.md).
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 - [Установка группами Майкрософт, с помощью MSI](msi-deployment.md)

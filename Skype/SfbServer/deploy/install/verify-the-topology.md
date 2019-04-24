@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Сводка: Узнайте, как проверить Скайп для топологии Business Server и надлежащую работу серверы Active Directory. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: 03dfb45c03aa104cc5a9b265a37c347380590877
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210797"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Проверка топологии в Скайп для Business Server
  

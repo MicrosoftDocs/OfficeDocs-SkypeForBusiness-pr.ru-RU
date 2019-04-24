@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Предыдущие версии предоставляются Расширяемые системы обмена сообщениями и сведениями о присутствии протокола XMPP шлюз, который может быть развернуты как отдельный сервер роль разрешить федеративные отношения с развертываниями XMPP. Функциональные возможности XMPP больше не доступен &, не поддерживаются в Скайп для Business Server 2019. Если вы хотите продолжить работу функциональные возможности XMPP, который можно availed в среде coexitence с устаревших версий (Скайп для Business Server 2015 и Lync Server 2013). Функциональные возможности XMPP устанавливается на две части: как XMPP прокси-сервера, на котором выполняется на устаревший пограничный сервер и шлюза XMPP, который выполняется на устаревшего сервера переднего плана.'
 ms.openlocfilehash: fa91741c1be8d80443363caba7c840b1d985d8f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879330"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231632"
 ---
 # <a name="migrating-xmpp-federation"></a>Перенос федерации XMPP
 

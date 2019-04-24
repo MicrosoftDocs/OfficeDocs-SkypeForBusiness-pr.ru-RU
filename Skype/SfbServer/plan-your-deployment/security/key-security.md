@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Скайп для Business Server включает в себя ряд функций безопасности, включая проверки подлинности сервер сервер, управление доступом на основе ролей и централизованного хранилища данных конфигурации.
 ms.openlocfilehash: 5a0a82800be8158b6d54e4e01e7609d3e6b3714d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894282"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213608"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Основных функций безопасности в Скайп для Business Server
  

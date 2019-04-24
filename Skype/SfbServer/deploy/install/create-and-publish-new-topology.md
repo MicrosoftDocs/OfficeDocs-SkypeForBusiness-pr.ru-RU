@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Сводка: Узнайте, как создание, публикация и проверка новой топологии, перед установкой Скайп для Business Server. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: ba141e76732705008ded4e8e03737154bc45b1c6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212237"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Создание и публикация новой топологии в Скайп для Business Server
  

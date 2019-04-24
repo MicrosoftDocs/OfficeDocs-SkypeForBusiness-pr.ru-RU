@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 'Сводка: Узнайте, как включить функцию списка смарт-контакты в Скайп для клиента Business.'
 ms.openlocfilehash: 52de1eb889b1373dc6928c90a9e0e298f467d3fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212777"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Настройка списка смарт-контактов в Скайп пользователей
 

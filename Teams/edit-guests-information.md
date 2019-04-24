@@ -15,11 +15,11 @@ description: Вы можете узнать, как администратор �
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 897e11084908d6f07ca94d7b67df25a1dfa054e6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234667"
 ---
 <a name="edit-guest-user-information"></a>Изменение сведений о гостевых пользователях
 ===========================

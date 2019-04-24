@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Процесс развертывания и действия для объявлений приложения в Скайп Business Server корпоративной голосовой связи.
 ms.openlocfilehash: 96925df57a36373ee6f031b953f1933b3bac5681
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223043"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Процесс развертывания для объявлений приложения в Скайп для Business Server
  

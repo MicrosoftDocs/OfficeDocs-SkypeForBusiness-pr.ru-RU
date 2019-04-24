@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
 description: tblADCookie содержит текущий файлы cookie синхронизации Lightweight Directory Access Protocol (LDAP).
 ms.openlocfilehash: 3e7eeeeae6623bbbb308f4e05c4ab8a4b9a7be50
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213160"
 ---
 # <a name="tbladcookie"></a>tblADCookie
  
@@ -24,7 +24,7 @@ tblADCookie содержит текущий файлы cookie синхрониз
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |prinGuid  <br/> |Идентификатор GUID, не может быть null  <br/> |GUID субъекта домена, за которым ведется наблюдение.  <br/> |
 |prinDCHost  <br/> |nvarchar (255)  <br/> |Полное доменное имя (FQDN) текущего контроллера домена, используемого для синхронизации службы домена Active Directory. Информационные значение равно.  <br/> |
@@ -34,7 +34,7 @@ tblADCookie содержит текущий файлы cookie синхрониз
    
 **Ключи**
 
-|**Столбцы**|**Описание**.|
+|**Столбцы**|**Описание**|
 |:-----|:-----|
 |prinGuid  <br/> |Первичный ключ.  <br/> |
 |prinGuid  <br/> |Внешний ключ с поиском в таблице Principal.prinGuid.  <br/> |

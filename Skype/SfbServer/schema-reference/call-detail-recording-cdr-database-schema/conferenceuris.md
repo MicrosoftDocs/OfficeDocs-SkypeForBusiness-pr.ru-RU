@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
 description: В таблице ConfereneUris представляет собой вспомогательную таблицу, в которой хранится список различных конференции URI, которые участвовали в сеансах конференц записаны в базе данных. Каждая запись в таблице представляет одну URI конференции.
 ms.openlocfilehash: 6f373774b652e9858af84dd4c16b51fcb3c5d493
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887773"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213216"
 ---
 # <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>Таблица ConferenceUris в Скайп для Business Server 2015
  

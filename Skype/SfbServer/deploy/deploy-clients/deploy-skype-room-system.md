@@ -12,11 +12,11 @@ ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 ms.collection: M365-voice
 description: Узнайте, как развертывание системы Скайп помещения, собрания комнаты решения, состоящая из интегрированной аппаратного и программного обеспечения, оптимизированный для присоединения к Скайп для деловых встреч.
 ms.openlocfilehash: 26ce5f6e50d26b408a8bce5d167e4e7b6046e514
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212728"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Планирования развертывания для системы комнаты Скайп в Скайп для бизнеса
  

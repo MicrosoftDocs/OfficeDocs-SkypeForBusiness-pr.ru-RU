@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: Таблица tblChat содержит все сообщения чата.
 ms.openlocfilehash: 54e19fe729d9f96afb04d22a917864118de75efe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212651"
 ---
 # <a name="tblchat"></a>tblChat
  
@@ -24,7 +24,7 @@ ms.locfileid: "30881307"
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |channelId  <br/> |int, не null  <br/> |ИД узла.  <br/> |
 |chatId  <br/> |bigint, не может быть null  <br/> |Уникальный порядковый номер (для каждого ИД узла), определяющий порядок чата, таблицей tblLastChatId.  <br/> |
@@ -36,7 +36,7 @@ ms.locfileid: "30881307"
    
 **Ключ**
 
-|**Столбец**|**Описание**.|
+|**Столбец**|**Описание**|
 |:-----|:-----|
 |\<channelID chatD\>  <br/> |Первичный ключ.  <br/> |
    

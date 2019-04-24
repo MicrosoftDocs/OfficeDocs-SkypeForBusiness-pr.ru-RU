@@ -13,11 +13,11 @@ ms.custom: tracyp
 ms.assetid: ''
 description: Этот командлеты файлов в режиме структуры статьи, предоставить администраторам больше контроля методов проверки подлинности используется внутри и вне, бизнес. Администраторы могут включить методы проверки подлинности либо отключена во внутреннем или внешнем ресурсе с сетью.
 ms.openlocfilehash: 08f8b850fbde99f85f804494eab79a9a3531d009
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213902"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Планирование для отключения методов проверки подлинности Legacy внутренних и внешних в сеть.
 

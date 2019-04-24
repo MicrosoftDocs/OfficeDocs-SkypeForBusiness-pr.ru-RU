@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Перед развертыванием Скайп для Business Server 2019 в состоянии сосуществования, необходимо выполнить некоторые дополнительные задачи Active Directory для настройки схемы, домена и леса для Скайп для Business Server 2019. Расширения схемы добавьте Active Directory классы и атрибуты, которые необходимы для Business Server 2019 Скайп. Для получения дополнительных сведений см раздел Подготовка доменных служб Active Directory для Скайп Business Server 2019.
 ms.openlocfilehash: 290919f0c3ac1c58a92e00ba6d3403b6d2fb9069
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231534"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Подготовка Active Directory для Скайп для Business Server
 

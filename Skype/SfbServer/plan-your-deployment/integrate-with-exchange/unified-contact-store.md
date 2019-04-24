@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: 'Сводка: Изучите раздел при планировании интеграции Скайп для Business Server с Exchange 2013.'
 ms.openlocfilehash: fd408466034646938d002c609a263e71077e5b94
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214133"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>План для единого хранилища контактов в Skype для бизнеса Server 2015
  

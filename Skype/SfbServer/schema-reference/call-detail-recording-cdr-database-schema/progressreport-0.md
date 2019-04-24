@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: Представление ProgressReport хранит сведения о завершенных сеансах. Отчеты о состоянии записываются только для вызовов и сеансов с Lync Server 2013 определяет, могут оказаться полезными для диагностики. В этом представлении была введена в Microsoft Lync Server 2013.
 ms.openlocfilehash: 5f7cbba2580b83a65dbce00588f3c567317f4df4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212875"
 ---
 # <a name="progressreport-view"></a>Представление ProgressReport
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
 description: tblComplianceData содержит события соответствия, которые не были обработаны адаптером соответствия еще.
 ms.openlocfilehash: e617f7821fcf026f279f333d45f526a1322509a1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212616"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  
@@ -24,7 +24,7 @@ tblComplianceData содержит события соответствия, ко
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |cmplEventID  <br/> |bigint, не может быть null  <br/> |Идентификатор события.  <br/> |
 |entryDate  <br/> |smalldatetime, не null  <br/> |Время вставки (может относиться к далекому будущему для cmplType = 9, так как запись в этом случае является всего лишь заполнителем).  <br/> |
@@ -38,7 +38,7 @@ tblComplianceData содержит события соответствия, ко
    
 **Ключ**
 
-|**Столбец**|**Описание**.|
+|**Столбец**|**Описание**|
 |:-----|:-----|
 |cmplEventID  <br/> |Первичный ключ.  <br/> |
    

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: Возвращает версию устройства Cloud Connector. Использовать командлет Get-CCVersion можно только на хост-компьютере Cloud Connector.
 ms.openlocfilehash: 5e5428e53d53eec66bafa9eb566059ef1b5a5833
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233759"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  
@@ -32,7 +32,7 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
   
 ## <a name="parameters"></a>Параметры
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |VersionType  <br/> |Необязательно  <br/> |System.String  <br/> |Тип версии. Этот параметр может иметь значения RunningScripts, RunningBits, BackupBits или All. Значение по умолчанию: RunningScripts.   <br/> |
    

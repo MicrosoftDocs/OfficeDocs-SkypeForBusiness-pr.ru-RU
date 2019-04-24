@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Предоставление пользователям для отправки вызовов группы в Скайп Business Server корпоративной голосовой связи и назначьте номер группы.
 ms.openlocfilehash: f2d02aa4993e103b786894f642dd88ca93dcf354
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212497"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Включение раскладки вызова группа для пользователей и назначение номер группы в Скайп для бизнеса
 

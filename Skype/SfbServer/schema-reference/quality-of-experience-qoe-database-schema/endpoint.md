@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 description: В таблице конечная точка представляет собой вспомогательную таблицу, в которой хранятся сведения о конечных точках, которые участвовали в сеансах, записанные в базе данных. Каждая запись в таблице представляет одной конечной точки.
 ms.openlocfilehash: f9c304408006ef9caf5521b8f0bbe28c2d917abe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212244"
 ---
 # <a name="endpoint-table"></a>Таблица Endpoint
  

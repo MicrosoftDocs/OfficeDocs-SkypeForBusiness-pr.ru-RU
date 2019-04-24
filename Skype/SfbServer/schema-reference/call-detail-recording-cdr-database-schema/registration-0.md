@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: Представление регистрации хранятся сведения о регистрации пользователей. В этом представлении появился в Lync Server 2013.
 ms.openlocfilehash: bf6797bee124653515744d3c1bcd481c2ea1bfc2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212854"
 ---
 # <a name="registration-view"></a>Представление регистрации
  

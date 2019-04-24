@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: Таблица ErrorReport сохранение информации о возникших ошибках. Каждая запись — один ошибку. Ошибки, которые отслеживались либо агентом CDR, работающим на сервере переднего плана или передаче от клиента.
 ms.openlocfilehash: 99dcdc7aa78b20f555f94614ba94c80103b56211
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213132"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>Таблица ErrorReport в Скайп для Business Server 2015
  

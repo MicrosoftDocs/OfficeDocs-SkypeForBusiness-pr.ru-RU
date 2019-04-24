@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: В этой статье описывается настройка консоли комнат группами Майкрософт и ее периферийных устройств.
-ms.openlocfilehash: 9027057314d405788e81d4d27f9ce4e5d5649a48
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 2d3d9acdc3c72754232304364812fd2af9f3f6cb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212756"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Настройка консоли комнат группами Майкрософт
 
@@ -82,9 +82,9 @@ ms.locfileid: "31520157"
 
 5. Загрузите установочный диск USB. Следуйте инструкциям производителя. Если ваше устройство Surface Pro, выполните следующие действия для загрузки на диске установки USB:
 
-    а. Нажмите клавишу, удерживая тома нажатой кнопку (-).
+    a) Нажмите клавишу, удерживая тома нажатой кнопку (-).
 
-    б. Нажмите клавишу и кнопку питания.
+    б) Нажмите клавишу и кнопку питания.
 
     в. После загрузки установки Windows отпустите кнопку уменьшения громкости (–).
 
@@ -259,4 +259,4 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
   
 [Настройка консоли комнат группами Майкрософт](console.md)
   
-[Управление группами Майкрософт комнат](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление приложением "Комнаты Microsoft Teams"](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

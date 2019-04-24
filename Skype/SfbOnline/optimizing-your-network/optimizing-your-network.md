@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: Рассматриваемые в этой статье требования имеют важное значение для успешной и долгосрочной работы всех функций Skype для бизнеса Online, настраиваемых в организации. Этот документ предназначен для пользователей, обладающих обширным техническим опытом. Но некоторые из вас не имеют таких глубоких знаний. Если вам нужна помощь в настройке Skype для бизнеса Online, прочтите эту статью, чтобы ознакомиться с моментами, которые необходимо учитывать. Здесь также выделяются моменты, которые нужно обсудить при работе с Microsoft FastTrack Center, отделами по работе с клиентами Майкрософт или с партнерами Майкрософт, чтобы выяснить, как выполнить эти требования.
 ms.openlocfilehash: aac6a85b78df7477a6e62ddbf766015182bb7a2b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234531"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Оптимизация сети для Skype для бизнеса Online
 
@@ -144,7 +144,7 @@ Skype для бизнеса позволяет выполнять следующ
   
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
   
-## <a name="related-topics"></a>См. также: 
+## <a name="related-topics"></a>Статьи по теме 
 
 [ExpressRoute и качество обслуживания в Skype для бизнеса Online](expressroute-and-qos-in-skype-for-business-online.md)
   

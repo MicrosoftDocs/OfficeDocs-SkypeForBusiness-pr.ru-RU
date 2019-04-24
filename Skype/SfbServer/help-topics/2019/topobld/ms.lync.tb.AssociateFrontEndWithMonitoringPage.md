@@ -14,11 +14,11 @@ ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: Каждый пул переднего плана и обеспечения связи в филиалах может быть только один сервер мониторинга, связанное с ним. Если мониторинг включен для сайта, сервер мониторинга предоставляет регистрации вызовов (CDR) и сбора данных качества взаимодействия (QoE) и отчетности.
 ms.openlocfilehash: b6a1f46f24e016fe7fab9b620bf3240c23b0d6b2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896902"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220792"
 ---
 # <a name="associate-front-end-with-monitoring"></a>Связывание сервера переднего плана с мониторингом
  

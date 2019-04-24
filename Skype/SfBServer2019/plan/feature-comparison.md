@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Сводка: Скайп для Business Server 2019 или Скайп для администраторов Business Online можно использовать эти таблицы понять, какие возможности поддерживаются в какие клиенты.'
 ms.openlocfilehash: f11a6c5c31267dabd2d8125a604a659a71168d6c
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231331"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Сравнение функций для настольных компьютеров для Скайп для Business Server 2019
 

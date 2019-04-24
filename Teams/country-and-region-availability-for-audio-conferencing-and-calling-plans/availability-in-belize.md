@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Белиз.
 ms.openlocfilehash: 39ca7f425df21a3a26a42ab7b9d613f5654d0b7f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232833"
 ---
 # <a name="availability-in-belize"></a>Доступность в Белизе
 

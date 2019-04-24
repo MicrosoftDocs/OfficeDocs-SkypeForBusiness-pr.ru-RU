@@ -19,11 +19,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227577"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -113,7 +113,7 @@ ms.locfileid: "31959388"
 
 **Ресурсы:**
 
-- [Управление параметрами групп Майкрософт для вашей организации](enable-features-office-365.md)
+- [Управление параметрами Microsoft Teams в организации](enable-features-office-365.md)
 - [Образец электронной почты: оповещение, пользователям о Скайп для бизнеса](upgrade-emails-surveys.md#step-4-email)
 
 [В начало](#about-upgrade-basic)

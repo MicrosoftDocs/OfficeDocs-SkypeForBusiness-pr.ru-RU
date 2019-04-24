@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Скайп для Business Server обеспечивает управление базовой сеанса по поддержке межмагистральная маршрутизации. '
 ms.openlocfilehash: 9f73899d59e79d8fc93e768f0e870449baaeb7fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214806"
 ---
 # <a name="inter-trunk-routing-in-skype-for-business-server"></a>Маршрутизация промежуточных магистралей в Скайп для Business Server
 

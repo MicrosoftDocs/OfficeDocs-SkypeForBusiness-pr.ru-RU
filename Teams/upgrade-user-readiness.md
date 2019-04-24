@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3172d85065f72d16df800d77e196632181c7d7bd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218664"
 ---
 ![Этапы обновления пути с акцентом на стадии подготовки пользователей] (media/upgrade-banner-user-readiness.png "Этапы обновления пути с акцентом на стадии подготовки пользователей")
 
@@ -31,7 +31,7 @@ ms.locfileid: "30459710"
 - [Поняты сосуществования и взаимодействия Скайп для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
 - [Выбранные обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-a-user-readiness-plan"></a>Подготовка плана готовность пользователей
+# <a name="prepare-a-user-readiness-plan"></a>Подготовка плана готовности пользователей
 
 План проверки готовности к оптимальной пользователя включает в себя как будет общаться с, обучению и поддержке пользователей как пилотного, встроенного и обновление до группы. Как обнаружения в [Оценка организационной изменение проверки готовности к](https://aka.ms/OrgReadiness)подготовке не является оптимальным. Для обеспечения оптимальной receptiveness на новую технологию, используется сочетание широкий доступности системы обмена сообщениями (Включение концепции/значение системы обмена сообщениями и варианты использования универсальных) и системы обмена сообщениями, обучение и поддержки адаптированные для пользователей и последователей определенный вами и также для вашей laggards ограничено. Индивидуально настроенных плана поможет упростить внедрения пользователя, что позволяет пользователям быстрее, которые относятся к командами, во время демонстрации, что вы понимаете их потребности.
 
@@ -47,7 +47,7 @@ ms.locfileid: "30459710"
 <table>
 <tbody>
 <tr><th>Какие каналы связи будет использовать?</th><th>Какие обучающие каналы будут использовать?</th><th>Какая поддержка каналы будут использовать?</th></tr>
-<tr><td><ul><li>Email<br><strong>Совет:</strong> Используйте наш пример пилотного, совместная работа и обновление для настройки электронной почты кампании по электронной почте.</li><li>Плакаты и цифровых вывески</li><li>Запуск событий</li><li>Менеджеры отдела</li><li>Лидеры</li><li>Команды/каналов</li><li>Gamification</li></ul></td><td><ul><li>Корпорация Майкрософт опубликовала статьи и видео</li><li>Ресурсы:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переключитесь в группы из Скайп для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Учебные групп</a></li></ul></li><li>Помощь в продукта (Справка)</li><li>Собственное обучение группы</li><li>Обучение группы партнера</li></ul></td><td><ul><li>Собственное служба технической поддержки</li><li>Перенаправленный службу поддержки</li><li>Самообслуживание (в интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Интерактивная справка и инструкции</a></li><li>Этажа walkers и чемпионатов</li><li>Цикл свои отзывы и предложения (опросы, рейтинги)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>Совет:</strong> Используйте наш пример пилотного, совместная работа и обновление для настройки электронной почты кампании по электронной почте.</li><li>Плакаты и цифровых вывески</li><li>Запуск событий</li><li>Менеджеры отдела</li><li>Лидеры</li><li>Команды/каналов</li><li>Gamification</li></ul></td><td><ul><li>Корпорация Майкрософт опубликовала статьи и видео</li><li>Ресурсы:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переход на Teams из Skype для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Учебные групп</a></li></ul></li><li>Помощь в продукта (Справка)</li><li>Собственное обучение группы</li><li>Обучение группы партнера</li></ul></td><td><ul><li>Собственное служба технической поддержки</li><li>Перенаправленный службу поддержки</li><li>Самообслуживание (в интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Интерактивная справка и инструкции</a></li><li>Этажа walkers и чемпионатов</li><li>Цикл свои отзывы и предложения (опросы, рейтинги)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

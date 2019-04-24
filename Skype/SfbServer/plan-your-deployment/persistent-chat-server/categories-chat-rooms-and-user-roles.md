@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Сводка: Прочтите этот раздел, чтобы узнать о категорий, комнат чата и роли пользователей и администраторов для сервера сохраняемого чата в Скайп для Business Server 2015.'
 ms.openlocfilehash: 0a65d5d8944d28ba834fac461051f23fcdd98800
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213783"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Категории сохраняемого чата, комнаты чата и роли пользователей в Skype для бизнеса Server 2015
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblEnumValue — это встроенная таблица, которая содержит значения отображения и поведения атрибутов, используемых в таблице Node.
 ms.openlocfilehash: 579b2747ea753b8a701d11dd806178427cbb27b3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212882"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -24,7 +24,7 @@ tblEnumValue — это встроенная таблица, которая со
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |valueID  <br/> |smallint, не может быть null  <br/> |ИД значения.  <br/> |
 |attributeID  <br/> |smallint, не может быть null  <br/> |Идентификатор атрибута.  <br/> |
@@ -32,7 +32,7 @@ tblEnumValue — это встроенная таблица, которая со
    
 **Ключи**
 
-|**Столбец**|**Описание**.|
+|**Столбец**|**Описание**|
 |:-----|:-----|
 |valueID  <br/> |Первичный ключ.  <br/> |
 |attributeID  <br/> |Внешний ключ с поиском в таблице tblEnumAttribute.attributeID.  <br/> |

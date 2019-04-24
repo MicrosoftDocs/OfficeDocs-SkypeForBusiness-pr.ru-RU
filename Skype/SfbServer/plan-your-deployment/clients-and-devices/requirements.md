@@ -13,11 +13,11 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: В этой статье приведены требования для поддержки комнат группами Майкрософт.
 ms.openlocfilehash: aff26f2f69b134569b8792df79c2afa4e4a18318
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214507"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнат группами Майкрософт
 
@@ -151,6 +151,6 @@ ms.locfileid: "31012996"
 
 [Настройка консоли комнат группами Майкрософт](../../deploy/deploy-clients/console.md)
 
-[Управление группами Майкрософт комнат](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление приложением "Комнаты Microsoft Teams"](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Лицензирование надстройки Skype для бизнеса](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

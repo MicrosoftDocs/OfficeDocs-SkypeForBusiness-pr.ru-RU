@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: Таблица tblPrincipal содержит все субъекты, включая пользователей, папки и группы.
 ms.openlocfilehash: adeb4e52ea9bd276de09d90945443431fb3be94f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212518"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
@@ -24,7 +24,7 @@ ms.locfileid: "30880975"
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, не null  <br/> |Идентификатор субъекта.  <br/> |
 |prinGuid  <br/> |Идентификатор GUID, не может быть null  <br/> |GUID субъекта. Широко используется в качестве альтернативного первичный ключ, так как его значение переходит в пространство доменных служб Active Directory. (Идентификатор GUID для кэширования участника равен соответствующего объекта Active Directory GUID).  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "30880975"
    
 **Ключи**
 
-|**Столбец**|**Описание**.|
+|**Столбец**|**Описание**|
 |:-----|:-----|
 |prinID  <br/> |Первичный ключ.  <br/> |
 |prinTypeID  <br/> |Внешний ключ с подстановкой в таблице tblPrincipalType.ptypeID.  <br/> |

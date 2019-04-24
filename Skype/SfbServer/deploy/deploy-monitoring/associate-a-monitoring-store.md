@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Сводка: Узнайте, как связать пулов переднего плана с хранилищем мониторинга, используемые Скайп для Business Server.'
 ms.openlocfilehash: 1156883202218dd536926f44f40e6ba774b17cb7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225485"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Связать хранилище данных мониторинга с пулом переднего плана в Скайп для Business Server 
 **Сводка:** Узнайте, как связать пулов переднего плана с хранилищем мониторинга, используемые Скайп для Business Server.
