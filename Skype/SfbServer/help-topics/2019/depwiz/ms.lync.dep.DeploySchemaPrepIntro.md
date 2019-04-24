@@ -14,14 +14,14 @@ ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для запуска задачи для расширения схемы для Скайп для Business Server, сначала на странице подготовки схемы. Нажмите кнопку Далее, чтобы продолжить подготовку схемы.
 ms.openlocfilehash: 3dd114243a6685064aa976bd1427445d202d945a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883632"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216286"
 ---
-# <a name="prepare-schema-intro"></a><span data-ttu-id="03ba7-104">Подготовка схемы (введение)</span><span class="sxs-lookup"><span data-stu-id="03ba7-104">Prepare Schema (Intro)</span></span>
+# <a name="prepare-schema-intro"></a><span data-ttu-id="8c5e1-104">Подготовка схемы (введение)</span><span class="sxs-lookup"><span data-stu-id="8c5e1-104">Prepare Schema (Intro)</span></span>
  
-<span data-ttu-id="03ba7-105">Для запуска задачи для расширения схемы для Скайп для Business Server, сначала на странице **Подготовки схемы** .</span><span class="sxs-lookup"><span data-stu-id="03ba7-105">To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="03ba7-106">Нажмите кнопку **Далее**, чтобы продолжить подготовку схемы.</span><span class="sxs-lookup"><span data-stu-id="03ba7-106">Click **Next** to continue with the schema preparation.</span></span>
+<span data-ttu-id="8c5e1-105">Для запуска задачи для расширения схемы для Скайп для Business Server, сначала на странице **Подготовки схемы** .</span><span class="sxs-lookup"><span data-stu-id="8c5e1-105">To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="8c5e1-106">Нажмите кнопку **Далее**, чтобы продолжить подготовку схемы.</span><span class="sxs-lookup"><span data-stu-id="8c5e1-106">Click **Next** to continue with the schema preparation.</span></span>
   
 

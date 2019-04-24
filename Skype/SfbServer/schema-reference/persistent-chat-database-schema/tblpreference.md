@@ -12,30 +12,30 @@ localization_priority: Normal
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
 description: tblPreference содержит параметры клиента пользователей. Обычно используется клиентами предшествующих Lync 2013.
 ms.openlocfilehash: b5036d9c71feaea6406ecdcaa6f15b61f64d5ad3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879793"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212539"
 ---
-# <a name="tblpreference"></a><span data-ttu-id="22758-104">tblPreference</span><span class="sxs-lookup"><span data-stu-id="22758-104">tblPreference</span></span>
+# <a name="tblpreference"></a><span data-ttu-id="a3c96-104">tblPreference</span><span class="sxs-lookup"><span data-stu-id="a3c96-104">tblPreference</span></span>
 
-<span data-ttu-id="22758-105">tblPreference содержит параметры клиента пользователей.</span><span class="sxs-lookup"><span data-stu-id="22758-105">tblPreference contains the users' client preferences.</span></span> <span data-ttu-id="22758-106">Обычно используется клиентами предшествующих Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="22758-106">This is generally used by clients previous to Lync 2013.</span></span>
+<span data-ttu-id="a3c96-105">tblPreference содержит параметры клиента пользователей.</span><span class="sxs-lookup"><span data-stu-id="a3c96-105">tblPreference contains the users' client preferences.</span></span> <span data-ttu-id="a3c96-106">Обычно используется клиентами предшествующих Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="a3c96-106">This is generally used by clients previous to Lync 2013.</span></span>
 
-<span data-ttu-id="22758-107">**Столбцы**</span><span class="sxs-lookup"><span data-stu-id="22758-107">**Columns**</span></span>
+<span data-ttu-id="a3c96-107">**Столбцы**</span><span class="sxs-lookup"><span data-stu-id="a3c96-107">**Columns**</span></span>
 
 
-| <span data-ttu-id="22758-108">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="22758-108">**Column**</span></span>            | <span data-ttu-id="22758-109">**Тип**</span><span class="sxs-lookup"><span data-stu-id="22758-109">**Type**</span></span>                        | <span data-ttu-id="22758-110">**Описание**.</span><span class="sxs-lookup"><span data-stu-id="22758-110">**Description**</span></span>                                                 |
+| <span data-ttu-id="a3c96-108">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="a3c96-108">**Column**</span></span>            | <span data-ttu-id="a3c96-109">**Тип**</span><span class="sxs-lookup"><span data-stu-id="a3c96-109">**Type**</span></span>                        | <span data-ttu-id="a3c96-110">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a3c96-110">**Description**</span></span>                                                 |
 |:----------------------|:--------------------------------|:----------------------------------------------------------------|
-| <span data-ttu-id="22758-111">prefLabel</span><span class="sxs-lookup"><span data-stu-id="22758-111">prefLabel</span></span>  <br/>      | <span data-ttu-id="22758-112">nvarchar (255), отлично от null</span><span class="sxs-lookup"><span data-stu-id="22758-112">nvarchar (255), not null</span></span>  <br/> | <span data-ttu-id="22758-113">Метка имеет формат, таких как: \<uri sip пользователя\></span><span class="sxs-lookup"><span data-stu-id="22758-113">Label with a format such as: \<user sip uri\></span></span>                   |
-| <span data-ttu-id="22758-114">prefSeqID</span><span class="sxs-lookup"><span data-stu-id="22758-114">prefSeqID</span></span>  <br/>      | <span data-ttu-id="22758-115">int, не null</span><span class="sxs-lookup"><span data-stu-id="22758-115">int, not null</span></span>  <br/>            | <span data-ttu-id="22758-116">Порядковый номер (каждой отдельной метки) для управления версиями.</span><span class="sxs-lookup"><span data-stu-id="22758-116">A sequential number (per label) for versioning purposes.</span></span>  <br/> |
-| <span data-ttu-id="22758-117">prefContent</span><span class="sxs-lookup"><span data-stu-id="22758-117">prefContent</span></span>  <br/>    | <span data-ttu-id="22758-118">nvarchar (максимум)</span><span class="sxs-lookup"><span data-stu-id="22758-118">nvarchar (max)</span></span>  <br/>           | <span data-ttu-id="22758-119">Зашифрованное содержимое.</span><span class="sxs-lookup"><span data-stu-id="22758-119">Encoded content.</span></span>  <br/>                                         |
-| <span data-ttu-id="22758-120">lastModifiedBy</span><span class="sxs-lookup"><span data-stu-id="22758-120">lastModifiedBy</span></span>  <br/> | <span data-ttu-id="22758-121">int, не null</span><span class="sxs-lookup"><span data-stu-id="22758-121">int, not null</span></span>  <br/>            | <span data-ttu-id="22758-122">Идентификатор субъекта, обновившего.</span><span class="sxs-lookup"><span data-stu-id="22758-122">ID of the principal that updated the preference.</span></span>  <br/>         |
+| <span data-ttu-id="a3c96-111">prefLabel</span><span class="sxs-lookup"><span data-stu-id="a3c96-111">prefLabel</span></span>  <br/>      | <span data-ttu-id="a3c96-112">nvarchar (255), отлично от null</span><span class="sxs-lookup"><span data-stu-id="a3c96-112">nvarchar (255), not null</span></span>  <br/> | <span data-ttu-id="a3c96-113">Метка имеет формат, таких как: \<uri sip пользователя\></span><span class="sxs-lookup"><span data-stu-id="a3c96-113">Label with a format such as: \<user sip uri\></span></span>                   |
+| <span data-ttu-id="a3c96-114">prefSeqID</span><span class="sxs-lookup"><span data-stu-id="a3c96-114">prefSeqID</span></span>  <br/>      | <span data-ttu-id="a3c96-115">int, не null</span><span class="sxs-lookup"><span data-stu-id="a3c96-115">int, not null</span></span>  <br/>            | <span data-ttu-id="a3c96-116">Порядковый номер (каждой отдельной метки) для управления версиями.</span><span class="sxs-lookup"><span data-stu-id="a3c96-116">A sequential number (per label) for versioning purposes.</span></span>  <br/> |
+| <span data-ttu-id="a3c96-117">prefContent</span><span class="sxs-lookup"><span data-stu-id="a3c96-117">prefContent</span></span>  <br/>    | <span data-ttu-id="a3c96-118">nvarchar (максимум)</span><span class="sxs-lookup"><span data-stu-id="a3c96-118">nvarchar (max)</span></span>  <br/>           | <span data-ttu-id="a3c96-119">Зашифрованное содержимое.</span><span class="sxs-lookup"><span data-stu-id="a3c96-119">Encoded content.</span></span>  <br/>                                         |
+| <span data-ttu-id="a3c96-120">lastModifiedBy</span><span class="sxs-lookup"><span data-stu-id="a3c96-120">lastModifiedBy</span></span>  <br/> | <span data-ttu-id="a3c96-121">int, не null</span><span class="sxs-lookup"><span data-stu-id="a3c96-121">int, not null</span></span>  <br/>            | <span data-ttu-id="a3c96-122">Идентификатор субъекта, обновившего.</span><span class="sxs-lookup"><span data-stu-id="a3c96-122">ID of the principal that updated the preference.</span></span>  <br/>         |
 
-<span data-ttu-id="22758-123">**Ключ**</span><span class="sxs-lookup"><span data-stu-id="22758-123">**Key**</span></span>
+<span data-ttu-id="a3c96-123">**Ключ**</span><span class="sxs-lookup"><span data-stu-id="a3c96-123">**Key**</span></span>
 
-|<span data-ttu-id="22758-124">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="22758-124">**Column**</span></span>|<span data-ttu-id="22758-125">**Описание**.</span><span class="sxs-lookup"><span data-stu-id="22758-125">**Description**</span></span>|
+|<span data-ttu-id="a3c96-124">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="a3c96-124">**Column**</span></span>|<span data-ttu-id="a3c96-125">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a3c96-125">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="22758-126">\<prefLabel prefSeqID\></span><span class="sxs-lookup"><span data-stu-id="22758-126">\<prefLabel, prefSeqID\></span></span>  <br/> |<span data-ttu-id="22758-127">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="22758-127">Primary key.</span></span>  <br/> |
+|<span data-ttu-id="a3c96-126">\<prefLabel prefSeqID\></span><span class="sxs-lookup"><span data-stu-id="a3c96-126">\<prefLabel, prefSeqID\></span></span>  <br/> |<span data-ttu-id="a3c96-127">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="a3c96-127">Primary key.</span></span>  <br/> |
 
 
