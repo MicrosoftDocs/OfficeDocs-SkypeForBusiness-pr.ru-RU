@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Сводка: Обзор методов установки enterprise client для Скайп для бизнеса.'
 ms.openlocfilehash: 49eff64918deefe2ec169993557dd0f9dfbf6955
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212721"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Развертывание клиентов для Скайп для Business Server
  
@@ -39,7 +39,7 @@ ms.locfileid: "31012541"
 
 - [Настройка установки клиента Windows в Скайп для Business Server](customize-windows-client-installation.md)
     
-- [Configure the client experience with Skype for Business](configure-the-client-experience.md)
+- [Настройка взаимодействия с клиентом в Skype для бизнеса](configure-the-client-experience.md)
     
 - [Настройка интеллектуального списка контактов в Skype для бизнеса Server](configure-smart-contacts-list.md)
     

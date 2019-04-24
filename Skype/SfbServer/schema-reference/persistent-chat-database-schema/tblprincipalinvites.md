@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
 description: tblPrincipalInvites содержит приглашения для всех подготовленных пользователей для всех узлов с автоматическим приглашением на.
 ms.openlocfilehash: fbf61265f4970b57ffa95a52c8bafa395fb3a331
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212469"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
@@ -24,7 +24,7 @@ tblPrincipalInvites содержит приглашения для всех по
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, не null  <br/> |Идентификатор субъекта.  <br/> |
 |invID  <br/> |int, не null  <br/> |Уникальный порядковый номер (на код участника) созданный для таблицы tblLastInviteId.  <br/> |
@@ -33,7 +33,7 @@ tblPrincipalInvites содержит приглашения для всех по
    
 **Ключи**
 
-|**Столбец**|**Описание**.|
+|**Столбец**|**Описание**|
 |:-----|:-----|
 |\<prinID nodeID\>  <br/> |Первичный ключ.  <br/> |
 |prinID  <br/> |Внешний ключ с подстановкой в таблице tblPrincipal.prinID.  <br/> |

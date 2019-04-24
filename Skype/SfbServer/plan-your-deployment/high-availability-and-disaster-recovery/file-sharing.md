@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: Сведения об обеспечении высокой доступности на файловых Скайп для Business Server, с помощью DFS.
 ms.openlocfilehash: 0b5d2f577775635b95add15dd7b7576ca24c883f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214070"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Общий доступ к файлам высокой доступности в Скайп для Business Server
  

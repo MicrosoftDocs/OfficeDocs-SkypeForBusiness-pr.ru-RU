@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Последний контрольный список для развертывания вызова допуска элемента управления (CAC) в Скайп Business Server корпоративной голосовой связи.
 ms.openlocfilehash: d0d61bcf6c6f0ab509eafa2b968bbb45c00b2a50
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212406"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Развертывания контроля допуска звонков: последний контрольный список для Скайп для Business Server
  

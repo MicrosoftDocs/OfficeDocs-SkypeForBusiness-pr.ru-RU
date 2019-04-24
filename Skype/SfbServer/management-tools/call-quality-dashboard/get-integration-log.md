@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 'Сводка: Сведения о операции получения интеграции журнала, которая является частью API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
 ms.openlocfilehash: e6d449a8ea973132b404e821f6a5d5f156e6ddd6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217672"
 ---
 # <a name="get-integration-log"></a>Получение журнала интеграции
  

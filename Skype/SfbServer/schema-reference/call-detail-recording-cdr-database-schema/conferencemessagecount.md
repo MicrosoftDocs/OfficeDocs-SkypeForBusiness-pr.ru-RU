@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
 description: Каждая запись в этой таблице представляет одного пользователя в одной конференции обмена мгновенными Сообщениями, включая число сообщений, отправленных данным пользователем. Каждой конференции представлены несколько записей в этой таблице; одна запись для каждого пользователя.
 ms.openlocfilehash: 60fa79de17c2db14116bd0ffe211e25a61ec9136
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213279"
 ---
 # <a name="conferencemessagecount-table-in-skype-for-business-server-2015"></a>Таблица ConferenceMessageCount в Скайп для Business Server 2015
  

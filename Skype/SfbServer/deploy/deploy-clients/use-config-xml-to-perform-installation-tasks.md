@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: Сводка. Сведения об использовании файла Config.xml для определения дополнительных инструкций по установке.
 ms.openlocfilehash: dfb6625146261b1bbf22e0f563717899c68beaae
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214851"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Использование файла Config.xml для выполнения задач установки в Скайп пользователей
 
