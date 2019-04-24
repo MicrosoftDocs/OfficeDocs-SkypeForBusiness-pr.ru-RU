@@ -84,7 +84,6 @@
 #### [Прокси-серверы для Teams или Skype для бизнеса Online](proxy-servers-for-skype-for-business-online.md)
 #### [Ограничения и спецификации для Teams](limits-specifications-teams.md)
 #### [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
-#### [Получение средств для развертывания Teams](rollout-tools.md)
 #### [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
 #### [Планирование управления в Teams](plan-teams-governance.md)
 
