@@ -1,5 +1,5 @@
 ---
-title: Добавление, изменение и удаление экстренных адрес для вашей организации
+title: Добавление, изменение и удаление адреса экстренного реагирования для организации
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to add an emergency address to your Skype for Business account. '
+description: 'Добавление адреса для экстренного реагирования в учетную запись Skype для бизнеса. '
 ms.openlocfilehash: b3fab8d41c1b6f59961feee09f5eae888d32b362
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32170918"
 ---
-# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Добавление, изменение и удаление экстренных адрес для вашей организации
+# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Добавление, изменение и удаление адреса экстренного реагирования для организации
 
 Экстренные адрес должен быть связан с номером телефона, но в этом случае может меняться в зависимости от страны или регионы. Например, в США необходимо привязать адрес для экстренного реагирования при назначении телефонного номера пользователю. В Великобритании необходимо привязать адрес для экстренного реагирования к номеру телефона при получении телефонных номеров в Office 365 или передаче телефонного номера текущим поставщиком услуг.
   
-Независимо от страны или региона вашего местоположения, можно добавить его в качестве адреса для экстренного реагирования или удалить такой адрес. В зависимости от номеров по физическому местонахождению вашей организации, можно создать их для строений, этажей или кабинетов. Просмотреть [Каковы местоположении для экстренных служб, адресов и маршрутизации вызовов?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) некоторые сведения.
+No matter which country/region you are in, it's possible to add a location or locations to an emergency address or remove an emergency address. Depending on the number of physical locations in your organization, you can create them for buildings, floors, and offices. See [What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for some details.
   
 Чтобы узнать, как получить вызов план звонков и сколько это стоит, см. раздел [Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -52,7 +52,7 @@ ms.locfileid: "30047741"
 5. После ввода всех данных адрес, нажмите кнопку **Проверить**.
     
     > [!IMPORTANT]
-    > Во время подтверждения улицы или городского адреса проверяется, существует ли этот адрес официально и в правильном ли формате он указан. Существует возможность, что частично правильный адрес emergency, такие как если бы вы ввели название города, может по-прежнему пройти проверку. Даже в таком случае сочетание названия города и правильно указанного почтового адреса позволяет диспетчеру направить службы экстренного реагирования по нужному адресу. 
+    > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Even though it's misspelled and passed validation, the combination of the misspelled name of city along with the other correct parts of the address are enough information to route the call to the appropriate emergency dispatch center. 
     
     > Примечание: В Бельгия, Франция, Германия, Ирландия, Нидерланды и Испания, важно понимать, что для успешной активации номер телефона в Office 365 настройки адреса в расположение аварийного, которое будет использоваться для получения номера, должен соответствовать телефонный номер код города.
   
@@ -86,7 +86,7 @@ ms.locfileid: "30047741"
     > [!IMPORTANT]
     > Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .
 
-## <a name="troubleshooting"></a>Устранение неполадок
+## <a name="troubleshooting"></a>Поиск и устранение неполадок
 
 **Номер в состоянии «Failed».**
 
