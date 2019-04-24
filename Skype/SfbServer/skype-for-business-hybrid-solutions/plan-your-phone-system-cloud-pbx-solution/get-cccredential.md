@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: Командлет Get-CcCredential возвращает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.
 ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233997"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
@@ -60,7 +60,7 @@ Write-Host $text
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 | AccountType <br/> |Обязательный  <br/> | System.String <br/> | Параметр AccountType может иметь следующие значения. <br/>  VmAdmin: локальный администратор соединителя облачных виртуальных машин. <br/>  DomainAdmin. Администратор домена виртуальных машин Cloud Connector. <br/>  SafeModeAdmin. Администратор безопасного режима для контроллера домена виртуальных машин Cloud Connector. <br/>  ExternalCert. Учетная запись для внешнего сертификата, установленного на пограничном сервере. <br/>  TenantAdmin. Администратор клиента O365. <br/> |
    

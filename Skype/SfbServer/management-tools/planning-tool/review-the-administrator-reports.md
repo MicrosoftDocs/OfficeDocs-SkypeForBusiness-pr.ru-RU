@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Компонент "Administrator Reports" (Отчеты администратора) предоставляют подробную информацию для развертывания и проведения операций. Отчеты создаются на базе параметров, выбранных в области Design Sites (Разработка сайтов). Проектировщик может получить дополнительную выгоду от использования компонента "Administrator Reports" (Отчеты администратора), изменив схемы сети и определив полные IP-адреса и полные доменные имена для серверов, пулов и подсистем балансировки нагрузки.
 ms.openlocfilehash: 5cab8231428ace2a0d77132481819eed304d3519
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222735"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 

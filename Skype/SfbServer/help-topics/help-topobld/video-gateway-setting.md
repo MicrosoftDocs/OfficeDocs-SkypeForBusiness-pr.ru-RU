@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8dcd4168-60ed-4787-b6de-2b04268d6d0f
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server 2015.
 ms.openlocfilehash: 256691a7e98f2e4968939335b7735e0d1533032a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219326"
 ---
 # <a name="video-gateway-setting"></a>Настройка видеошлюза
  

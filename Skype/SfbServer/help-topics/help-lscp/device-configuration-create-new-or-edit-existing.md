@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: На странице Создание конфигурации устройства или изменение конфигурации устройства можно создать или изменить набор параметров, используемый для управления Скайп для Business Phone Edition. Эти настройки позволяют настраивать такие параметры, как требуемый режим безопасности, уровень ведения журнала на устройстве, качество обслуживания голосовой связи (QoS), и определять необходимость автоматической блокировки телефонов по истечении заданного периода неактивности.
 ms.openlocfilehash: ed1f002cd0d8c0465a765c04c3efb4367c6f99fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234681"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Конфигурация устройств: создание новой или редактирование существующей
  

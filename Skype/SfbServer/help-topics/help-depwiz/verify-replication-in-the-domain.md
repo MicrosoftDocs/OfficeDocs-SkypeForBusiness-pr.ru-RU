@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 description: 'Для проверки репликации подготовки домена, выполнить на этапе Step 1: Подготовка схемы, это необходимо для запуска командлета из Скайп для Business Server Management Shell Командная консоль Lync Server. Чтобы выполнить командлет Windows PowerShell, войдите на компьютер, который является членом домена, который вы подготовили и как член группы "Администраторы домена". Выполните следующие действия.'
 ms.openlocfilehash: 32a5a315566fcee07f7214c980843829ef8e229f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234875"
 ---
 # <a name="verify-replication-in-the-domain"></a>Проверка репликации в домене
  

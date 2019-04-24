@@ -14,11 +14,11 @@ ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Определите новый сеанс initiation protocol (SIP) магистрали содержат следующие сведения:'
 ms.openlocfilehash: eba7dec862cf359a8670bcfbf7f0b475575a26ec
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220827"
 ---
 # <a name="define-a-new-trunk"></a>Определение новой линии связи
 

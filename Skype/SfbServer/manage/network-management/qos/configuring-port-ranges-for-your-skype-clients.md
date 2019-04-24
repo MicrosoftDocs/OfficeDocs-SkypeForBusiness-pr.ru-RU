@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этой статье описывается настройка диапазонов портов для клиентов и настройка политики качества обслуживания в Скайп для Business Server для клиентов, работающих на Windows 10.
 ms.openlocfilehash: 2e5328406634302a1b076eec8466e7f7b9245150
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219725"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Настройка диапазонов портов и политики качества обслуживания для клиентов в Скайп для Business Server
 

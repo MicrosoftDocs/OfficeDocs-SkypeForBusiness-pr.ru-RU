@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Изменение общих параметров для сервера сохраняемого чата или пул серверов сохраняемого чата настраиваются путем определения следующих свойств:'
 ms.openlocfilehash: 5300a6353bb683bfe2a010cda00c43e0faa839b8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219291"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Расширитель общих настроек сохраняемого чата
  

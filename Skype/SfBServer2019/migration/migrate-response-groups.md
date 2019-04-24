@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После перемещения пользователей к Скайп для пулов Business Server 2019 можно выполнить миграцию групп ответа. Перенос ответа групп включает копирование группы агентов, очередей, рабочие процессы, звуковые файлы и перемещение контактных объектов группы ответа из устаревшего развертывания Скайп для пула Business Server 2019. После миграции устаревших групп ответа звонки для группы ответа обрабатывается приложения группы ответа в Скайп для пула Business Server 2019. Вызовы в группы ответа больше не обрабатывается устаревшего пула.
 ms.openlocfilehash: 17ba19be3b574436f3a175457264654d8c28ebd0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231653"
 ---
 # <a name="migrate-response-groups"></a>Перенос групп ответа
 

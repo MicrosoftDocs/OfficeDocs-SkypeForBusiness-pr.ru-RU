@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В Скайп Business Server 2019 можно определить сайтов локальной сети, содержащие Скайп для компонентов Business Server 2019. Сайт — это набор компьютеров, соединенных высокоскоростной, небольшой задержкой сети, например одной локальной сети (LAN) или две сети, подключенных к сети оптический высокоскоростную оптоволоконной.
 ms.openlocfilehash: d34351b551262450dee852efd7679f17cbe1e161
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231625"
 ---
 # <a name="migration-phases"></a>Этапы миграции
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: Таблица Complianceparticipant содержит текущих участников на канал и на каждом сервере.
 ms.openlocfilehash: a3d18c4a78af2892a837e1105a435a3ce46ea14b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881418"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212953"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  
@@ -24,7 +24,7 @@ ms.locfileid: "30881418"
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |channelUri  <br/> |nvarchar (255), отлично от null  <br/> |Канал универсальный код ресурса (URI).  <br/> |
 |идентификатор пользователя  <br/> |int, не null  <br/> |Идентификатор субъекта участника (в соответствии с таблицей tblPrincipal.prinID).  <br/> |
@@ -36,7 +36,7 @@ ms.locfileid: "30881418"
    
 **Ключ**
 
-|**Столбец**|**Описание**.|
+|**Столбец**|**Описание**|
 |:-----|:-----|
 |\<channelUri, идентификатор пользователя, joinedAt\>  <br/> |Первичный ключ.  <br/> |
    

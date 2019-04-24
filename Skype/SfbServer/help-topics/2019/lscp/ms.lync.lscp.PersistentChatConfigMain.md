@@ -14,11 +14,11 @@ ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: Развертывание сервера сохраняемого чата могут размещаться количество параллельных комнат сохраняемого сеанса беседы. На сервере комнаты чата можно упорядочить по целому набору категорий. Каждая комната чата относится к одной категории и наследует от нее некоторые параметры. Такая организация позволяет получить структуру, которая удобна для идентификации бесед по их назначению, облегчает делегированное администрирование и упрощает управление.
 ms.openlocfilehash: 5cbe727f6c939eab6c94f8a455acf9ee009ef1c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215257"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Главная страница конфигурации сохраняемого чата
 

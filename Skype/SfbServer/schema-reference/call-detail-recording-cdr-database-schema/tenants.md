@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 description: В таблице клиентов представляет собой вспомогательную таблицу, в которой хранится список различных клиентов. Каждая запись в таблице представляет один клиент.
 ms.openlocfilehash: cf7d0271c9cacfd76079a80a7e5db63d669a8dfb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212770"
 ---
 # <a name="tenants-table"></a>Таблица Tenants
  

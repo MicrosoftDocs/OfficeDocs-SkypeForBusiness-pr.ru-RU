@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode содержит дерево объектов (с узлами категорий или комнат чата), которым осуществляется в панели управления и администрирования командлетов.
 ms.openlocfilehash: c5028b138711b6f57c0e947ea41572fd9984b3fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212553"
 ---
 # <a name="tblnode"></a>tblNode
  
@@ -24,7 +24,7 @@ tblNode содержит дерево объектов (с узлами кате
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |nodeID  <br/> |int, не null  <br/> |КОД узла (уникальное число).  <br/> |
 |nodeGuid  <br/> |Идентификатор GUID, не может быть null  <br/> |Глобальный уникальный ИД узла.  <br/> |
@@ -47,7 +47,7 @@ tblNode содержит дерево объектов (с узлами кате
    
 **Ключи**
 
-|**Столбец**|**Описание**.|
+|**Столбец**|**Описание**|
 |:-----|:-----|
 |nodeID  <br/> |Первичный ключ.  <br/> |
 |поведение  <br/> |Внешний ключ с поиском в таблице tblEnumValue.valueID.  <br/> |

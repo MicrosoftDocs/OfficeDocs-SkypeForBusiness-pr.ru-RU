@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Можно переместить несколько пользователей из устаревшего пула для вашей Скайп для Business Server 2019 пилотного пула с помощью Скайп для панели управления 2019 Business Server или Скайп для консоли 2019 Business Server.
 ms.openlocfilehash: c77598d531fa4640d64a61e22ace17e39d87b005
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233969"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Перемещение нескольких пользователей в пилотный пул
 
@@ -44,7 +44,7 @@ ms.locfileid: "30888303"
     
 5. В раскрывающемся списке выберите Скайп для пула Business Server 2019.
     
-6. Щелкните **Действие**и выберите команду **переместить выбранных пользователей в пул**. Нажмите **ОК**.
+6. Щелкните **Действие**и выберите команду **переместить выбранных пользователей в пул**. Нажмите кнопку **ОК**.
     
      ![Перемещение пользователей, диалоговое окно пул регистратора назначения](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   

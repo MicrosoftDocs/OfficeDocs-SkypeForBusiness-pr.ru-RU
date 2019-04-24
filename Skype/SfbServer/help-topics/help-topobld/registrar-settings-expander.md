@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: Устойчивость предоставляет высокой доступности и аварийного восстановления для пула регистратора. С указанием регистратора резервного копирования в случае сбоя основного регистратора Registrar взять на себя для неудачных регистратора резервной копии позволяя пользователям входить в систему и общаться. Пользователи могут использовать потенциально ограниченной функциональности, в зависимости от того, который системы не были выполнены в основном регистраторе.
 ms.openlocfilehash: afe640a5560c11f90381875aa67f5fe25c70044c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219157"
 ---
 # <a name="registrar-settings-expander"></a>Расширитель параметров регистратора
  

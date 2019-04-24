@@ -14,11 +14,11 @@ ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Предоставление доступа к Скайп для Business Server, выполните следующие действия.
 ms.openlocfilehash: c0f30910fb6f39f5e2f81b054ec2ca39dac742e4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897297"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216622"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Создание администраторов панели управления Skype для бизнеса Server
  

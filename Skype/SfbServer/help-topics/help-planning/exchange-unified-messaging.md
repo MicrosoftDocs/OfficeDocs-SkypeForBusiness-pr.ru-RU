@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: Скайп для Business Server 2015 поддерживает интеграцию с Exchange единой системы обмена сообщениями (UM) для объединения голосовых сообщений и сообщений электронной почты в составе единой инфраструктуры обмена сообщениями.
 ms.openlocfilehash: f5fee8acda91ff6777203942c0661a20c271cff0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889862"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219881"
 ---
 # <a name="exchange-unified-messaging-planning-tool"></a>Exchange Unified Messaging (Planning Tool)
 

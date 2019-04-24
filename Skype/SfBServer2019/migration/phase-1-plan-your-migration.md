@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этом разделе освещаются темы планирования перехода на Скайп для Business Server 2019.
 ms.openlocfilehash: 71178e0b28297db4782c6244b70f48193f0c53b8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231583"
 ---
 # <a name="phase-1-plan-your-migration"></a>Этап 1: планирование миграции
 

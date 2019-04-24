@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Сведения о Скайп для бизнеса в Интернет внешних коммуникаций для пользователи могут взаимодействовать с внешними контактами Скайп. '
 ms.openlocfilehash: b01d7b72ab0f3daf660fccf0bc78ac78e394e764
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225983"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Видео: Внешняя связь в Skype для бизнеса Online
 
@@ -36,7 +36,7 @@ ms.locfileid: "30888911"
 
 ***
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка Скайп для бизнеса в Интернет внешней связи](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (под руководством инструктора Пошаговое руководство)
 
 [Разрешение пользователям на связь с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md)

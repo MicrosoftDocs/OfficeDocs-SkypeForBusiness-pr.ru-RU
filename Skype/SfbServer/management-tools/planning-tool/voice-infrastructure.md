@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 description: Скайп для Business Server 2015 обеспечивает надежное, масштабируемое подключение к ТСОП с помощью магистралях SIP, прямые SIP-подключения для шлюза ТСОП или прямые SIP-подключения для УАТС. Для получения дополнительных сведений ознакомьтесь с разделом Plan PSTN-соединение в Скайп для Business Server 2015.
 ms.openlocfilehash: 2edde6f20edbfa91b652ef2dfdab501a7b753f71
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222620"
 ---
 # <a name="voice-infrastructure-planning-tool"></a>Voice Infrastructure (Planning Tool)
  

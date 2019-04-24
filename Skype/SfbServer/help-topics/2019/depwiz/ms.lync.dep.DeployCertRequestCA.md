@@ -14,11 +14,11 @@ ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: При создании запроса сертификата, адресованного локальному центру сертификации (обычно это серверы, расположенные во внутренней сети), на странице Выбор центра сертификации (ЦС) предоставляются две возможности.
 ms.openlocfilehash: 64e4b5b52f0ebf6eb5dab6b60c7aa9c140ada080
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216874"
 ---
 # <a name="certificate-request-certificate-authority"></a>Запрос сертификата (центр сертификации)
  

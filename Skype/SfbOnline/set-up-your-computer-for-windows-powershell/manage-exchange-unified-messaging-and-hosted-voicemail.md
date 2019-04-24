@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: Use PowerShell to manage Exchange Unified Messaging capabilities such as Auto Attendant and Subscriber Access and hosted voicemail in Skype for Business Online.
 ms.openlocfilehash: 02fda8c315807899983741f94c1f825de1ebf1a9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224401"
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Управление единой системой обмена сообщениями Exchange и размещенной голосовой почтой
 
@@ -39,7 +39,7 @@ ms.locfileid: "30873514"
 | [Get-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849628) <br/><br/> [New-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849629) <br/> <br/>[Remove-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849630) <br/> <br/>[Set-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849631) <br/> | Создает объекты контактов, используемые для автосекретаря и служб абонентского доступа, и управляет ими, если единая система обмена сообщениями Exchange является размещенной службой.  <br/><br/> Skype для бизнеса online вместе с единой системой обмена сообщениями Exchange предоставляет несколько возможностей, связанных с голосом, включая автосекретарь и абонентский доступ. Автосекретарь позволяет автоматически отвечать на звонки и перенаправлять их нужному человеку. С помощью абонентского доступа пользователи подключаются к единой системе обмена сообщениями Exchange и извлекают письма, голосовые сообщения, контакты и сведения о календаре.<br/><br/> Если единая система обмена сообщениями Exchange предоставляется как размещенная служба, объекты контактов, используемые для автосекретаря и служб абонентского доступа, нужно создать с помощью Microsoft PowerShell. Эти объекты создаются и управляются с помощью командлетов **CsExUmContact**.<br/> |
 | [Get-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849633) <br/> <br/>[Grant-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849602) <br/>                                                                                                                                                | Управляет политиками размещенной голосовой почты, используемыми в организации. Политики размещенной голосовой почты определяют, как неотвеченные звонки перенаправляются в службу единой системы обмена сообщениями Exchange. Эти политики затрагивают только пользователей, у которых разрешена размещенная голосовая почта единой системы обмена сообщениями Exchange.    <br/><br/> Чтобы проверить, разрешена ли размещенная голосовая почта для пользователя, запустите команду, аналогичную следующей, из приглашения PowerShell.  <br/> \`Get-CsOnlineUser-Identity «kenmyer@litwareinc.com»                                                                                                                                                                                                                                                                                                                                                           |
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

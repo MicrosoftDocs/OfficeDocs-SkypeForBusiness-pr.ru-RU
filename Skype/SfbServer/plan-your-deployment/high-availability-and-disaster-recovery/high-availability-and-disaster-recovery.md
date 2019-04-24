@@ -14,11 +14,11 @@ ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: Скайп для Business Server предлагает высокой доступности с помощью пула аварийного восстановления с помощью связывания пула и нескольких режимах Тыловой сервер высокой доступности, включая группы обеспечения доступности AlwaysOn, зеркальное отображение базы данных и отказоустойчивый кластер SQL server.
 ms.openlocfilehash: 9e48fa65572dea5c0e6a297397d2a502cefcdc36
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214063"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Планирование высокой доступности и аварийного восстановления в Скайп Business Server
  
