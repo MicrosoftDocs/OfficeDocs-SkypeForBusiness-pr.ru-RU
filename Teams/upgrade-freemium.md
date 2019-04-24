@@ -17,13 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-- Skype for Business Online
-ms.openlocfilehash: d8365792ead4422786d8e54c2541ff42d79f35b6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3f97e3a22122b08c9b554d0c1a395a8d714d92e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227623"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Бесплатный перевод Microsoft Teams на версию по подписке Office 365
 ======================================================
@@ -95,4 +94,5 @@ ms.locfileid: "30464318"
 - Для получения дополнительных сведений о версии групп и их возможности видеть [планы сравнение групп](https://products.office.com/microsoft-teams/free).
 - Дополнительные сведения об обновлении до полной версии групп содержатся в разделе [обновление из свободного группам рабочих групп](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 - Admin дополнительные задачи, связанные с обновление пользователей, включая добавление пользовательских лицензий изменение имен пользователей и назначение временные пароли см [для обновления с группами бесплатную в платную подписку "Администраторы"](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
+- Сведения об управлении группами бесплатную в вашей организации содержатся в разделе [Управление бесплатной версии группами Майкрософт](manage-freemium.md).
 

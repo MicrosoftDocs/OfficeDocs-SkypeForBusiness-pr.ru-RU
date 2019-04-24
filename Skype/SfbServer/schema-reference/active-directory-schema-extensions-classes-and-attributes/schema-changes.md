@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Прежде чем развертывать и использование Скайп для Business Server, необходимо подготовить доменных служб Active Directory путем расширения схемы. Расширения схемы добавьте классы и атрибуты, которые необходимы Скайп для Business Server.
 ms.openlocfilehash: ba76f57197e9cd812163c8abac5f51005933eace
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213356"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Изменения схемы в Скайп для Business Server
  
@@ -53,7 +53,7 @@ ms.locfileid: "30874642"
   
 **Атрибуты, добавленные Скайп для Business Server**
 
-|**Атрибут**|**Описание**.|
+|**Атрибут**|**Описание**|
 |:-----|:-----|
 |msExchUserHoldPolicies  <br/> |Этот атрибут со множеством значений содержит идентификаторы для хранения политик, которые применяются к пользователю. Удержаний политик сохраняются элементы почтовых ящиков для пользователя во время выполнения удержания. Этот атрибут используется совместно с Exchange 2013.  <br/> |
 |msRTCSIP-UserRoutingGroupId  <br/> |Это SIP, маршрутизация идентификатор группы. Пользователи в той же группе будет регистрировать на тот же сервер переднего плана.  <br/> |

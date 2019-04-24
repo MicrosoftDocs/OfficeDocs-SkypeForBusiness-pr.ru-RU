@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Скайп для сервера планирования и сведения о конфигурации на основе видео (VbSS) совместное использование рабочего стола
 ms.openlocfilehash: d899e07fc478e33c4480cd235b3eb0cafd95ecba
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215005"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Видеодемонстрация экрана в Skype для бизнеса Server 
  

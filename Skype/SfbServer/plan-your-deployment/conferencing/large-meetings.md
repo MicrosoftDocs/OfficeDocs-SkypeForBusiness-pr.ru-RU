@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Сводка: Прочтите этот раздел, чтобы узнать о рекомендации по внедрению и управление большими собраниями в Скайп для Business Server.'
 ms.openlocfilehash: 4ef45f5393e389a3c6a1246041d058d1e0b387f1
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31003876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214374"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>План для больших собраний в Скайп для Business Server
  

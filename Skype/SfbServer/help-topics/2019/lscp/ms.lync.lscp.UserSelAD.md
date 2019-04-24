@@ -14,11 +14,11 @@ ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте выбор в диалоговом окне Active Directory для поиска пользователей, которые необходимо включить для Скайп для Business Server. В поле поиска введите SIP-адрес или отображаемое имя пользователя, которого требуется найти. Чтобы получить всех доступных пользователей, не вводите ничего в поле поиска.
 ms.openlocfilehash: e0c9c32a7e66a73cd843fb3b3f6079e6dc11f02c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214977"
 ---
 # <a name="select-from-active-directory"></a>Выбор в Active Directory
  
