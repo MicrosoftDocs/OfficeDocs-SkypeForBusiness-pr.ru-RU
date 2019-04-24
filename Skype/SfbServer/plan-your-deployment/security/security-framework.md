@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: В этом разделе приведен обзор основных элементов, формирующих модель безопасности для Скайп для Business Server. Общие сведения о совместной работе этих элементов необходимо для принятия обоснованных решений о защите вашей конкретной Скайп для развертывания Business Server.
 ms.openlocfilehash: 7c678e1f005178b569f8e4136d40fd911483a3d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213615"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Модель безопасности для Скайп для Business Server
  

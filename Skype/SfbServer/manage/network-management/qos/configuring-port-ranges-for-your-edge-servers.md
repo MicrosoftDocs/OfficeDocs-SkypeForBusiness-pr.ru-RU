@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этой статье описывается настройка диапазонов портов для пограничных серверов и настройка политики качества обслуживания для вашей A / V пограничных серверов.
 ms.openlocfilehash: 11fdb542c6256c21e169480194bc5154bf1c1428
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214935"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Настройка диапазонов портов и политики качества обслуживания для пограничных серверов в Скайп для Business Server
 

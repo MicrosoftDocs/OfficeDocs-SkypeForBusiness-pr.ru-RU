@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В процессе развертывания корпоративной голосовой связи можно настроить линии связи между сервером-посредником и один или несколько одноранговых узлов для предоставления телефонной сети (общего пользования PSTN) для корпоративной голосовой связи клиентов и устройств в вашей организации.
 ms.openlocfilehash: 5e07f0152aac32c4d57962cf619e56777221c955
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214769"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>Конфигурация магистралей в Скайп для Business Server
 
