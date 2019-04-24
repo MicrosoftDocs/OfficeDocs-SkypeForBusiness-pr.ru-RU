@@ -15,16 +15,16 @@ ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
 description: Контроль допуска звонков (CAC) на основе доступной пропускной способности сети определяет, следует ли разрешать установку сеансов связи в режиме реального времени, таких как голосовые или видеовызовы.
 ms.openlocfilehash: 3ade43f485d8931404ef772dff5bb4f7604df8f5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221146"
 ---
-# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="4df9f-103">Call Admission Control (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="4df9f-103">Call Admission Control (Planning Tool)</span></span>
+# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="4ee20-103">Call Admission Control (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="4ee20-103">Call Admission Control (Planning Tool)</span></span>
  
-<span data-ttu-id="4df9f-104">Контроль допуска звонков (CAC) на основе доступной пропускной способности сети определяет, следует ли разрешать установку сеансов связи в режиме реального времени, таких как голосовые или видеовызовы.</span><span class="sxs-lookup"><span data-stu-id="4df9f-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
+<span data-ttu-id="4ee20-104">Контроль допуска звонков (CAC) на основе доступной пропускной способности сети определяет, следует ли разрешать установку сеансов связи в режиме реального времени, таких как голосовые или видеовызовы.</span><span class="sxs-lookup"><span data-stu-id="4ee20-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
   
-<span data-ttu-id="4df9f-105">Для получения дополнительных сведений о планировании для контроля допуска звонков видеть [плана для контроля допуска звонков в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="4df9f-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
+<span data-ttu-id="4ee20-105">Для получения дополнительных сведений о планировании для контроля допуска звонков видеть [плана для контроля допуска звонков в Скайп для Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="4ee20-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
   
 

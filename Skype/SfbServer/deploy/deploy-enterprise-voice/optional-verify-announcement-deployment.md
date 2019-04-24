@@ -12,20 +12,20 @@ ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: Проверка развертывания объявлений приложения в Скайп Business Server корпоративной голосовой связи. От этих действий зависит способ обработки вызовов на неназначенные номера.
 ms.openlocfilehash: 8f20c9d35a8349c0e02af7a5c3d67532ec2d9236
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225641"
 ---
-# <a name="optional-verify-announcement-deployment-in-skype-for-business"></a><span data-ttu-id="f213d-104">(Необязательно) Проверка развертывания объявлений в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="f213d-104">(Optional) Verify Announcement deployment in Skype for Business</span></span>
+# <a name="optional-verify-announcement-deployment-in-skype-for-business"></a><span data-ttu-id="8c0a8-104">(Необязательно) Проверка развертывания объявлений в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="8c0a8-104">(Optional) Verify Announcement deployment in Skype for Business</span></span>
  
-<span data-ttu-id="f213d-105">Проверка развертывания объявлений приложения в Скайп Business Server корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="f213d-105">Verifying your deployment of Announcement application in Skype for Business Server Enterprise Voice.</span></span> <span data-ttu-id="f213d-106">This affects how calls to unassigned numbers are handled.</span><span class="sxs-lookup"><span data-stu-id="f213d-106">This affects how calls to unassigned numbers are handled.</span></span>
+<span data-ttu-id="8c0a8-105">Проверка развертывания объявлений приложения в Скайп Business Server корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="8c0a8-105">Verifying your deployment of Announcement application in Skype for Business Server Enterprise Voice.</span></span> <span data-ttu-id="8c0a8-106">This affects how calls to unassigned numbers are handled.</span><span class="sxs-lookup"><span data-stu-id="8c0a8-106">This affects how calls to unassigned numbers are handled.</span></span>
   
-<span data-ttu-id="f213d-p103">После установки и настройки приложения "Оповещение" необходимо проверить конфигурацию, чтобы убедиться, что вызовы на неназначенные номера работают соответствующим образом. Как минимум, необходимо проверить следующее:</span><span class="sxs-lookup"><span data-stu-id="f213d-p103">After you install and configure Announcement, you need to verify the configuration to make sure that calls to unassigned numbers work as expected. At minimum, verify the following:</span></span>
+<span data-ttu-id="8c0a8-p103">После установки и настройки приложения "Оповещение" необходимо проверить конфигурацию, чтобы убедиться, что вызовы на неназначенные номера работают соответствующим образом. Как минимум, необходимо проверить следующее:</span><span class="sxs-lookup"><span data-stu-id="8c0a8-p103">After you install and configure Announcement, you need to verify the configuration to make sure that calls to unassigned numbers work as expected. At minimum, verify the following:</span></span>
   
-- <span data-ttu-id="f213d-109">вызвать номер, который действителен в организации, но никуда не назначен;</span><span class="sxs-lookup"><span data-stu-id="f213d-109">Call a number that is valid for your organization but is an unassigned number.</span></span>
+- <span data-ttu-id="8c0a8-109">вызвать номер, который действителен в организации, но никуда не назначен;</span><span class="sxs-lookup"><span data-stu-id="8c0a8-109">Call a number that is valid for your organization but is an unassigned number.</span></span>
     
-- <span data-ttu-id="f213d-110">вызвать неназначенный номер и проверить, воспроизводится ли правильное оповещение.</span><span class="sxs-lookup"><span data-stu-id="f213d-110">Call the unassigned number and verify that the correct announcement plays.</span></span>
+- <span data-ttu-id="8c0a8-110">вызвать неназначенный номер и проверить, воспроизводится ли правильное оповещение.</span><span class="sxs-lookup"><span data-stu-id="8c0a8-110">Call the unassigned number and verify that the correct announcement plays.</span></span>
     
 

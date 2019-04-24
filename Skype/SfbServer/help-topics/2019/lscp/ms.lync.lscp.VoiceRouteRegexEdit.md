@@ -14,15 +14,15 @@ ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 ROBOTS: NOINDEX, NOFOLLOW
 description: Введите регулярное выражение .NET Framework, чтобы задать шаблон соответствия для конечных телефонных номеров, к которым применяется маршрут.
 ms.openlocfilehash: e7307c386adce1478a38f48c90806a4906c871c0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221319"
 ---
-# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="ef534-103">Правило нормализации: ввод регулярного выражения</span><span class="sxs-lookup"><span data-stu-id="ef534-103">Normalization Rule: Type a Regular Expression</span></span>
+# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="5ed5a-103">Правило нормализации: ввод регулярного выражения</span><span class="sxs-lookup"><span data-stu-id="5ed5a-103">Normalization Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="ef534-104">Введите регулярное выражение .NET Framework, чтобы задать шаблон соответствия для конечных телефонных номеров, к которым применяется маршрут.</span><span class="sxs-lookup"><span data-stu-id="ef534-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
+<span data-ttu-id="5ed5a-104">Введите регулярное выражение .NET Framework, чтобы задать шаблон соответствия для конечных телефонных номеров, к которым применяется маршрут.</span><span class="sxs-lookup"><span data-stu-id="5ed5a-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
   
  
   

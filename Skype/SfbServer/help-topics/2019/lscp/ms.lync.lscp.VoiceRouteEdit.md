@@ -14,19 +14,19 @@ ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 ms.openlocfilehash: c96c7578d5c498da0b8139d26914fbbbaa6bf8ee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221224"
 ---
-# <a name="voice-route-create-new-or-edit-existing"></a><span data-ttu-id="2ae9a-104">Маршрут голосовых данных: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="2ae9a-104">Voice Route: Create New or Edit Existing</span></span>
+# <a name="voice-route-create-new-or-edit-existing"></a><span data-ttu-id="bba98-104">Маршрут голосовых данных: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="bba98-104">Voice Route: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="2ae9a-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="2ae9a-105">What do you want to do?</span></span> <span data-ttu-id="2ae9a-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="2ae9a-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="bba98-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="bba98-105">What do you want to do?</span></span> <span data-ttu-id="bba98-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="bba98-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="2ae9a-107">Создание или изменение маршрута голосовых в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="2ae9a-107">Create or modify a voice route in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [<span data-ttu-id="bba98-107">Создание или изменение маршрута голосовых в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="bba98-107">Create or modify a voice route in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [<span data-ttu-id="2ae9a-108">Изменение маршрута голосовой связи</span><span class="sxs-lookup"><span data-stu-id="2ae9a-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [<span data-ttu-id="bba98-108">Изменение маршрута голосовой связи</span><span class="sxs-lookup"><span data-stu-id="bba98-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 
 
 
