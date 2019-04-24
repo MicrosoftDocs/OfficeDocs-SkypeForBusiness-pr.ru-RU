@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Ссылка на топологии для Скайп Business Server, включая схемы и решения, принимаемые больших, средний, и небольших организаций.
 ms.openlocfilehash: 6dd4c12d400408d284a21b55d983ba655bfd7bdd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207610"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Ссылка на топологии для Скайп для Business Server
 

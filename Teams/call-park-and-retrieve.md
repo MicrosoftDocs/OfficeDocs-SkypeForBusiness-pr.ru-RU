@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: Используйте парковки вызовов и извлекать для совершения звонка на удержание в службе группами в облаке.
 ms.openlocfilehash: 798e53ef9a0638be659da8567419b7bd3d3c3555
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993504"
+ms.locfileid: "32211840"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Парковка и восстановление звонков в Microsoft Teams
 
@@ -103,6 +103,6 @@ ms.locfileid: "31993504"
 - Остров режим – парковки вызовов и извлекать недоступны в режиме остров группами.
 - Вызов уже извлечен или завершен.
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 [Парковка вызовов в группах](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).

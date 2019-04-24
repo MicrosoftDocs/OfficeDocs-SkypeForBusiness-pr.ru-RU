@@ -87,7 +87,7 @@
 ##### [Маршрутизация на основе расположения](../../SfbServer/plan-your-deployment/enterprise-voice-solution/location-based-routing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [LBR для конференц-связи](../../SfbServer/plan-your-deployment/enterprise-voice-solution/lbr-for-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Функции управления звонками](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-management-features.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-###### [Приостановка звонка](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-park.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+###### [Приостановка звонков](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-park.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Ответ на групповой вызов](../../SfbServer/plan-your-deployment/enterprise-voice-solution/group-call-pickup.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Группа ответа](../../SfbServer/plan-your-deployment/enterprise-voice-solution/response-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Объявление](../../SfbServer/plan-your-deployment/enterprise-voice-solution/announcement.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

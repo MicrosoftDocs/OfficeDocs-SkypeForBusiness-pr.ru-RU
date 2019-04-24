@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Сводка: Обзор требований к поддержки клиентов Windows при планировании Скайп Business Server.'
 ms.openlocfilehash: fec7996bccddf68fdeb59b8f9e0a185d5c5f18c7
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965636"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207225"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Требования к клиентскому Windows и поддержка программного обеспечения
  
@@ -35,7 +35,7 @@ ms.locfileid: "23965636"
 
 |**Системный компонент**|**Поддерживаемые версии**|
 |:-----|:-----|
-|Операционная система Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Операционная система Windows 7  <br/> Windows Server 2008 R2 или более поздних версиях с последним пакетом обновления  <br/> **Примечание:** Скайп для бизнеса и надстройка собраний по сети для Скайп для бизнеса не поддерживаются в ОС Windows Vista или Windows XP (любой версии). <br/> |
+|Операционная система Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Операционная система Windows 7  <br/> Windows Server 2008 R2 или более поздних версиях с последним пакетом обновления  <br/> **Примечание:** Скайп для бизнеса и надстройка собраний по сети для Скайп для бизнеса не поддерживаются в ОС Windows Vista или Windows XP (любой версии). <br/> |
 |Установка и обновление  <br/> |Права и разрешения администратора  <br/> |
 |Браузер  <br/> |Microsoft Edge  <br/> Internet Explorer 11 веб-браузер  <br/>  Internet Explorer 10 веб-браузер <br/> Internet Explorer 9 веб-браузер  <br/> Internet Explorer 8 веб-браузер  <br/> Internet Explorer 7 веб-браузер  <br/> Mozilla Firefox  <br/>  Веб-браузера Google Chrome  <br/>**Примечание:** При использовании Скайп для бизнеса с Microsoft Exchange Online и вашей организации развернут проверки подлинности прокси-сервер HTTP, Internet Explorer 8 или более поздней версии является обязательным.           |
 |Интеграция с Microsoft Office  <br/> | Outlook 2010 или более поздней версии |

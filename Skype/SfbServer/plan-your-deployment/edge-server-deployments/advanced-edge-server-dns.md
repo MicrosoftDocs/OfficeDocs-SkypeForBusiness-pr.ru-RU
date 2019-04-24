@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Сводка: Обзор сценариев для Скайп для параметров развертывания Business Server. Этот раздел будет полезен при использовании как одного сервера, так и пула серверов с DNS и средствами балансировки нагрузки (HLB).'
 ms.openlocfilehash: e6619056d7c8a69f63fa22007a7702b41480719f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207183"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Расширенные пограничного сервера DNS планирование для Скайп Business Server
  

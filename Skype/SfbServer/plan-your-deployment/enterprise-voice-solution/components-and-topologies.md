@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Планирование отчета по контролю допуска звонков (CAC) при наличии сети MPLS, магистрали SIP или шлюза ТСОП или УАТС. Применяется к Скайп Business Server корпоративной голосовой связи.
 ms.openlocfilehash: 7022ade98dbd614023a4faaea283b939fa658e73
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207954"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Компоненты и топологии для контроля допуска звонков в Скайп для бизнеса
 

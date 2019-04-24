@@ -16,13 +16,13 @@ description: Вызов план Главная страница
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460758"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211985"
 ---
-# <a name="phone-system-with-calling-plans"></a>Телефонная система с планами звонков 
+# <a name="phone-system-with-calling-plans"></a>Система телефон с Тарифные планы 
 
 Вы завершили [приступить к работе](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Может быть развертывания [конференц-связи & собрания](deploy-meetings-microsoft-teams-landing-page.md). Теперь вы готовы для добавления рабочих нагрузок облачных голосовой связи, и вы решили использовать Microsoft телефонной системой с вызова планирование для подключения к общедоступной переключения телефонной сети общего пользования (PSTN). 
 
@@ -33,7 +33,7 @@ ms.locfileid: "30460758"
 
 Следующие статьи содержат дополнительные сведения о развертывании и использовании Microsoft вызов планов.
 
-- [Телефонная система в Office 365](what-is-phone-system-in-office-365.md)
+- [Телефонная система Office 365](what-is-phone-system-in-office-365.md)
 - [Планы звонков для Office 365](calling-plans-for-office-365.md)
 - [Настройка планов звонков](set-up-calling-plans.md)
 
@@ -69,7 +69,7 @@ ms.locfileid: "30460758"
 |Как подробные надо экстренных адрес и расположение сведения? |Дополнительные сведения можно [Каковы местоположении для экстренных служб, адресов и маршрутизации вызовов?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
 
-### <a name="calling-identity"></a>Идентификатор звонящего абонента
+### <a name="calling-identity"></a>Вызов удостоверений
 
 По умолчанию все исходящие вызовы использовать назначенный номер в качестве удостоверения вызывающей (Звонящего). Получатель звонка может быстро идентифицировать звонящего и решить, следует ли принять или отклонить вызов.
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Планирование расположения маршрутизация на основе в Скайп Business Server корпоративной голосовой связи, включая взаимодействие с одновременных звонков и делегирование и поддерживаемых сценариях для маршрутизации на основе местоположения.
 ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874366"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206791"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Планирование зависимостью от расположения маршрутизации Скайп для бизнеса
 

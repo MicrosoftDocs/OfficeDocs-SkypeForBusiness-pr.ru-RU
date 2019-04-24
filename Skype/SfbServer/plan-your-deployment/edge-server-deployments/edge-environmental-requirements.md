@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Сводка: Сведения о окружающей среды требования для пограничного сервера в Скайп для Business Server.'
 ms.openlocfilehash: eaa6c1ac5b1d014f6c2bb54a342dabd4c6388c2e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207162"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Пограничный окружающей среды требования к серверам в Скайп для Business Server
  

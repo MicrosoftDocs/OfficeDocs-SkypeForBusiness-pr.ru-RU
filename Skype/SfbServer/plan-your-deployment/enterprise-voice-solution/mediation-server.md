@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 'Сведения о серверов-посредников в Скайп для Business Server, включая его поддерживаемые топологии и ее отношения магистральных линий связи m: n, сервера-посредника и контроля допуска звонков.'
 ms.openlocfilehash: 237892f446250332e00616dcc8a08abf9c59d741
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207484"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Компонент сервера-посредника в Скайп для Business Server
  

@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: Вызовите общего доступа и раскладки звонок группы Пользователи могут совместно использовать входящие звонки с коллегами, чтобы звонки можно отслеживались при недоступности пользователя.
 ms.openlocfilehash: e822d06e48f3d7df548f0fd0d04645e7e9328598
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993583"
+ms.locfileid: "32211825"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Общие звонки и ответ на групповые звонки в Microsoft Teams
 
@@ -54,6 +54,6 @@ ms.locfileid: "31993583"
 
 Клиент может содержать не более 32 768 звонок группы. Может быть не более 5 пользователей в каждой группе звонок. 
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 [Переадресация звонков и одновременных звонков в группах](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)

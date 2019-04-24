@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: В этом разделе описывается проверка наличия корпоративной лицензии на программное обеспечение Skype для бизнеса.
 ms.openlocfilehash: e4ba03dacdce0056cb130299f551921042a6790d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207933"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Система комнат Skype: лицензия на использование программного обеспечения Skype для бизнеса
  
@@ -31,7 +31,7 @@ ms.locfileid: "25699261"
   
 Для получения дополнительных сведений см [Обнаружение узлов Windows KMS и Office с помощью DNS и удаление несанкционированного экземпляров](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx). 
   
-Сведения о настройке KMS см. в разделах [Активация Office 2013 с помощью KMS](https://technet.microsoft.com/library/ee624357.aspx) и [Ключи GVLK для KMS и активации Active Directory в Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
+Настройка сервера KMS, в разделе [службы KMS для активации Office 2013](https://technet.microsoft.com/library/ee624357.aspx) и [Gvlk для активации KMS и Active Directory Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
   
 Office 2013 универсальный ключ многократной установки для Lync: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (этот ключ система Скайп комнаты следует искать KMS в сети.)
   
@@ -41,7 +41,7 @@ If the customer uses any other volume license software, the IT department will m
   
 Клиент с VLA должен знать свои учетные данные VLSC, которые будут использоваться для администрирования соглашения и получения MAK. Если определен, должна появиться возможность подтверждение, если клиент оплату за VLA клиента финансового отдела.
   
-Для получения MAK необходимо перейти в Volume Licensing Service Center для просмотра соглашения и загрузки ключей продукта (MAK). Дополнительные сведения см. в [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). 
+Для получения MAK необходимо перейти в Volume Licensing Service Center для просмотра соглашения и загрузки ключей продукта (MAK). Для получения дополнительных сведений перейдите в [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). 
   
 ## <a name="mak-for-office-365-without-vlsc-access"></a>MAK для Office 365 без получения доступа к VLSC
 
