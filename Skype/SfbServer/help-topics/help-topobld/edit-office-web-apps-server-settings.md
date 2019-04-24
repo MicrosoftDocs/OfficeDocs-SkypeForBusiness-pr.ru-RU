@@ -14,24 +14,24 @@ localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Изменение свойств настроенного сервера Office Web Apps. The following properties are available to edit:'
 ms.openlocfilehash: 163c2d8623175af0e41b69e2422734513835e2d3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194015"
 ---
-# <a name="edit-office-web-apps-server-settings"></a><span data-ttu-id="ac402-104">Изменение параметров сервера Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="ac402-104">Edit Office Web Apps Server Settings</span></span>
+# <a name="edit-office-web-apps-server-settings"></a><span data-ttu-id="04924-104">Изменение параметров сервера Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="04924-104">Edit Office Web Apps Server Settings</span></span>
 
-<span data-ttu-id="ac402-105">Изменение свойств настроенного сервера Office Web Apps.</span><span class="sxs-lookup"><span data-stu-id="ac402-105">You edit the properties of the configured Office Web Apps Server.</span></span> <span data-ttu-id="ac402-106">The following properties are available to edit:</span><span class="sxs-lookup"><span data-stu-id="ac402-106">The following properties are available to edit:</span></span>
+<span data-ttu-id="04924-105">Изменение свойств настроенного сервера Office Web Apps.</span><span class="sxs-lookup"><span data-stu-id="04924-105">You edit the properties of the configured Office Web Apps Server.</span></span> <span data-ttu-id="04924-106">The following properties are available to edit:</span><span class="sxs-lookup"><span data-stu-id="04924-106">The following properties are available to edit:</span></span>
 
- <span data-ttu-id="ac402-107">**Полное доменное имя сервера приложений Office Web**: это свойство определяет полное доменное имя сервера Office Web Apps и должна соответствовать система доменных имен (DNS) узла A или AAAA (при использовании IPv6) записи.</span><span class="sxs-lookup"><span data-stu-id="ac402-107">**Office Web Apps Server FQDN**: This property defines the fully qualified domain name of the Office Web Apps Server and should match a domain name system (DNS) host A or AAAA (if IPv6 is being used) record.</span></span>
+ <span data-ttu-id="04924-107">**Полное доменное имя сервера приложений Office Web**: это свойство определяет полное доменное имя сервера Office Web Apps и должна соответствовать система доменных имен (DNS) узла A или AAAA (при использовании IPv6) записи.</span><span class="sxs-lookup"><span data-stu-id="04924-107">**Office Web Apps Server FQDN**: This property defines the fully qualified domain name of the Office Web Apps Server and should match a domain name system (DNS) host A or AAAA (if IPv6 is being used) record.</span></span>
 
- <span data-ttu-id="ac402-108">**URL-адрес обнаружения сервера Office Web Apps**: универсальный код ресурса URL-адреса для клиентского доступа для сервера Office Web Apps, может потребоваться изменить этот адрес по умолчанию, если сервер размещен в другой зоны сети, отличный от внутренней сети для вашей развертывание.</span><span class="sxs-lookup"><span data-stu-id="ac402-108">**Office Web Apps Server discovery URL**: The uniform resource locator (URL) for client access to the Office Web Apps Server, you may need to edit this address from its default if the server is placed in another network zone other than the internal network for your deployment.</span></span>
+ <span data-ttu-id="04924-108">**URL-адрес обнаружения сервера Office Web Apps**: универсальный код ресурса URL-адреса для клиентского доступа для сервера Office Web Apps, может потребоваться изменить этот адрес по умолчанию, если сервер размещен в другой зоны сети, отличный от внутренней сети для вашей развертывание.</span><span class="sxs-lookup"><span data-stu-id="04924-108">**Office Web Apps Server discovery URL**: The uniform resource locator (URL) for client access to the Office Web Apps Server, you may need to edit this address from its default if the server is placed in another network zone other than the internal network for your deployment.</span></span>
 
-<span data-ttu-id="ac402-109">Установите флажок **Сервер Office Web Apps развернут во внешней сети**, если этот сервер развернут в сети периметра или в другой сетевой зоне за пределами внутреннего брандмауэра, отделяющего сеть периметра, сети без доверия и Интернет от внутреннего развертывания.</span><span class="sxs-lookup"><span data-stu-id="ac402-109">Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.</span></span>
+<span data-ttu-id="04924-109">Установите флажок **Сервер Office Web Apps развернут во внешней сети**, если этот сервер развернут в сети периметра или в другой сетевой зоне за пределами внутреннего брандмауэра, отделяющего сеть периметра, сети без доверия и Интернет от внутреннего развертывания.</span><span class="sxs-lookup"><span data-stu-id="04924-109">Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.</span></span>
 
 ![Расширитель настроек Office Web Apps](../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a><span data-ttu-id="ac402-111">См. также</span><span class="sxs-lookup"><span data-stu-id="ac402-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="04924-111">См. также</span><span class="sxs-lookup"><span data-stu-id="04924-111">See also</span></span>
 
-[<span data-ttu-id="ac402-112">Components and Topologies for Conferencing</span><span class="sxs-lookup"><span data-stu-id="ac402-112">Components and Topologies for Conferencing</span></span>](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[<span data-ttu-id="04924-112">Components and Topologies for Conferencing</span><span class="sxs-lookup"><span data-stu-id="04924-112">Components and Topologies for Conferencing</span></span>](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

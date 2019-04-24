@@ -14,38 +14,38 @@ localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Чтобы изменить свойства компьютеров пограничного сервера, как отдельного пограничного сервера или пограничный пул в составе, следует настроить имя сервера и параметры конфигурации IP-адресов:'
 ms.openlocfilehash: f0125ba8d9c7ff181aff0a29f69a5077b1ad0818
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891542"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225365"
 ---
-# <a name="edge-machine-settings-expander-for-lync-server-2010"></a><span data-ttu-id="8050f-103">Расширитель параметров пограничного сервера для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="8050f-103">Edge Machine Settings Expander for Lync Server 2010</span></span>
+# <a name="edge-machine-settings-expander-for-lync-server-2010"></a><span data-ttu-id="86554-103">Расширитель параметров пограничного сервера для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="86554-103">Edge Machine Settings Expander for Lync Server 2010</span></span>
  
-<span data-ttu-id="8050f-104">Чтобы изменить свойства компьютеров пограничного сервера, как отдельного пограничного сервера или пограничный пул в составе, Настройка параметров **имя сервера и IP-адрес** :</span><span class="sxs-lookup"><span data-stu-id="8050f-104">To edit the properties for Edge Server computers as an single Edge Server or as member computers in an Edge pool, you configure **Server name and IP address configuration** settings:</span></span>
+<span data-ttu-id="86554-104">Чтобы изменить свойства компьютеров пограничного сервера, как отдельного пограничного сервера или пограничный пул в составе, Настройка параметров **имя сервера и IP-адрес** :</span><span class="sxs-lookup"><span data-stu-id="86554-104">To edit the properties for Edge Server computers as an single Edge Server or as member computers in an Edge pool, you configure **Server name and IP address configuration** settings:</span></span>
   
-- <span data-ttu-id="8050f-105">**Внутреннее имя или полное доменное имя**: Введите имя компьютера, который используется в доменных имен (DNS).</span><span class="sxs-lookup"><span data-stu-id="8050f-105">**Internal name or FQDN**: Type the name of the computer as it is referenced in the domain name system (DNS).</span></span> 
+- <span data-ttu-id="86554-105">**Внутреннее имя или полное доменное имя**: Введите имя компьютера, который используется в доменных имен (DNS).</span><span class="sxs-lookup"><span data-stu-id="86554-105">**Internal name or FQDN**: Type the name of the computer as it is referenced in the domain name system (DNS).</span></span> 
     
-- <span data-ttu-id="8050f-106">**Внутренний адрес IPv4**: введите IPv4-адрес внутреннего сетевого адаптера NIC () для этого компьютера.</span><span class="sxs-lookup"><span data-stu-id="8050f-106">**Internal IPv4 address**: Type the IPv4 address of the internal network interface card (NIC) for this computer.</span></span>
+- <span data-ttu-id="86554-106">**Внутренний адрес IPv4**: введите IPv4-адрес внутреннего сетевого адаптера NIC () для этого компьютера.</span><span class="sxs-lookup"><span data-stu-id="86554-106">**Internal IPv4 address**: Type the IPv4 address of the internal network interface card (NIC) for this computer.</span></span>
     
-- <span data-ttu-id="8050f-107">Настройка **службы пограничного сервера доступа** **внешнего IPv4-адрес** , связанный с этим компьютером.</span><span class="sxs-lookup"><span data-stu-id="8050f-107">You configure the **Access Edge service** **External IPv4 address** associated with this computer</span></span>
+- <span data-ttu-id="86554-107">Настройка **службы пограничного сервера доступа** **внешнего IPv4-адрес** , связанный с этим компьютером.</span><span class="sxs-lookup"><span data-stu-id="86554-107">You configure the **Access Edge service** **External IPv4 address** associated with this computer</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="8050f-108">Если вы решили использовать один IP-адрес для конфигурации пограничного сервера, только можно для изменения внешнего IPv4-адрес пограничной службы доступа.</span><span class="sxs-lookup"><span data-stu-id="8050f-108">If you selected to use a single IP address for the Edge Server configuration, you will only be able to edit the external IPv4 address for the Access Edge service.</span></span> <span data-ttu-id="8050f-109">Другие службы пограничного сервера будут совместно использовать один и тот же адрес IPv4, как служба пограничного сервера доступа.</span><span class="sxs-lookup"><span data-stu-id="8050f-109">The other Edge services will share the same IPv4 address as the Access Edge service.</span></span> 
+    > <span data-ttu-id="86554-108">Если вы решили использовать один IP-адрес для конфигурации пограничного сервера, только можно для изменения внешнего IPv4-адрес пограничной службы доступа.</span><span class="sxs-lookup"><span data-stu-id="86554-108">If you selected to use a single IP address for the Edge Server configuration, you will only be able to edit the external IPv4 address for the Access Edge service.</span></span> <span data-ttu-id="86554-109">Другие службы пограничного сервера будут совместно использовать один и тот же адрес IPv4, как служба пограничного сервера доступа.</span><span class="sxs-lookup"><span data-stu-id="86554-109">The other Edge services will share the same IPv4 address as the Access Edge service.</span></span> 
   
-- <span data-ttu-id="8050f-110">Если доступен для изменения, то настроить **службы веб-конференций** **внешнего IPv4-адрес** , связанный с этим компьютером.</span><span class="sxs-lookup"><span data-stu-id="8050f-110">If available to edit, you configure the **Web Conferencing service** **External IPv4 address** associated with this computer</span></span>
+- <span data-ttu-id="86554-110">Если доступен для изменения, то настроить **службы веб-конференций** **внешнего IPv4-адрес** , связанный с этим компьютером.</span><span class="sxs-lookup"><span data-stu-id="86554-110">If available to edit, you configure the **Web Conferencing service** **External IPv4 address** associated with this computer</span></span>
     
-- <span data-ttu-id="8050f-111">Если доступен для изменения, можно настроить **A / V Edge службы** **внешние IPv4-адрес** , связанный с этим компьютером.</span><span class="sxs-lookup"><span data-stu-id="8050f-111">If available to edit, you configure the **A/V Edge service** **External IPv4 address** associated with this computer</span></span>
+- <span data-ttu-id="86554-111">Если доступен для изменения, можно настроить **A / V Edge службы** **внешние IPv4-адрес** , связанный с этим компьютером.</span><span class="sxs-lookup"><span data-stu-id="86554-111">If available to edit, you configure the **A/V Edge service** **External IPv4 address** associated with this computer</span></span>
     
-- <span data-ttu-id="8050f-112">Если доступен для изменения, настройте **поддержкой преобразования сетевых адресов общедоступный IPv4-адрес** , связанный с этим компьютером.</span><span class="sxs-lookup"><span data-stu-id="8050f-112">If available to edit, you configure the **NAT-enabled public IPv4 address** associated with this computer.</span></span>
+- <span data-ttu-id="86554-112">Если доступен для изменения, настройте **поддержкой преобразования сетевых адресов общедоступный IPv4-адрес** , связанный с этим компьютером.</span><span class="sxs-lookup"><span data-stu-id="86554-112">If available to edit, you configure the **NAT-enabled public IPv4 address** associated with this computer.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="8050f-113">Свойства конфигурации для **поддержкой преобразования сетевых адресов общедоступный IPv4-адрес** доступна только для редактирования, если будет выбрано преобразование сетевых адресов (NAT) для A / V Edge службы</span><span class="sxs-lookup"><span data-stu-id="8050f-113">The configuration property for **NAT-enabled public IPv4 address** will only be available to edit if you chose to provide network address translation (NAT) for the A/V Edge service</span></span>
+    > <span data-ttu-id="86554-113">Свойства конфигурации для **поддержкой преобразования сетевых адресов общедоступный IPv4-адрес** доступна только для редактирования, если будет выбрано преобразование сетевых адресов (NAT) для A / V Edge службы</span><span class="sxs-lookup"><span data-stu-id="86554-113">The configuration property for **NAT-enabled public IPv4 address** will only be available to edit if you chose to provide network address translation (NAT) for the A/V Edge service</span></span>
   
-  <span data-ttu-id="8050f-114">**ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="8050f-114">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="86554-114">**ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="86554-114">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="8050f-115">**Отмена**. Отмена изменений и закрытие диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="8050f-115">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="86554-115">**Отмена**. Отмена изменений и закрытие диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="86554-115">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="8050f-116">**Справка**. Отображение этого экрана справки.</span><span class="sxs-lookup"><span data-stu-id="8050f-116">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="86554-116">**Справка**. Отображение этого экрана справки.</span><span class="sxs-lookup"><span data-stu-id="86554-116">**Help** Displays this help screen.</span></span>
   
 

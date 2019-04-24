@@ -14,14 +14,14 @@ ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Можно добавить поддержку для доступа внешних пользователей при развертывании первоначальной топологией или позже. Дополнительные сведения о добавлении пограничных серверов к существующей топологии см. в разделе Define Your Edge Topology документации по развертыванию пограничного сервера.
 ms.openlocfilehash: 78aab30b5fc0f1fefe2b42a5f1d04affcdb73244
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202133"
 ---
-# <a name="add-edge-server-support"></a><span data-ttu-id="cd4b1-104">Добавление поддержки для пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="cd4b1-104">Add Edge Server Support</span></span>
+# <a name="add-edge-server-support"></a><span data-ttu-id="ef481-104">Добавление поддержки для пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="ef481-104">Add Edge Server Support</span></span>
 
-<span data-ttu-id="cd4b1-105">Можно добавить поддержку для доступа внешних пользователей при развертывании первоначальной топологией или позже.</span><span class="sxs-lookup"><span data-stu-id="cd4b1-105">You can add support for external user access when you deploy your initial topology, or at a later time.</span></span> <span data-ttu-id="cd4b1-106">Дополнительные сведения о добавлении пограничных серверов к существующей топологии см. в разделе [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) документации по развертыванию пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="cd4b1-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
+<span data-ttu-id="ef481-105">Можно добавить поддержку для доступа внешних пользователей при развертывании первоначальной топологией или позже.</span><span class="sxs-lookup"><span data-stu-id="ef481-105">You can add support for external user access when you deploy your initial topology, or at a later time.</span></span> <span data-ttu-id="ef481-106">Дополнительные сведения о добавлении пограничных серверов к существующей топологии см. в разделе [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) документации по развертыванию пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="ef481-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
 
 
