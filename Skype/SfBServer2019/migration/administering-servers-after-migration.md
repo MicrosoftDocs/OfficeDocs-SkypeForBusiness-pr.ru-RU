@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Как правило необходимо использовать средство администрирования, который соответствует версии сервера, который вы хотите управлять.
 ms.openlocfilehash: 235ceee4bfc3aa79022a97ab0e8be2edc46b8005
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238784"
 ---
-# <a name="administering-servers-after-migration"></a><span data-ttu-id="68ed9-103">Администрирование серверов после миграции</span><span class="sxs-lookup"><span data-stu-id="68ed9-103">Administering servers after migration</span></span>
+# <a name="administering-servers-after-migration"></a><span data-ttu-id="37413-103">Администрирование серверов после миграции</span><span class="sxs-lookup"><span data-stu-id="37413-103">Administering servers after migration</span></span>
 
-<span data-ttu-id="68ed9-104">Как правило необходимо использовать средство администрирования, который соответствует версии сервера, который вы хотите управлять.</span><span class="sxs-lookup"><span data-stu-id="68ed9-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="68ed9-105">Не удается установить средства администрирования в различных выпусках на том же компьютере.</span><span class="sxs-lookup"><span data-stu-id="68ed9-105">You cannot install administrative tools from different releases on the same computer.</span></span>
+<span data-ttu-id="37413-104">Как правило необходимо использовать средство администрирования, который соответствует версии сервера, который вы хотите управлять.</span><span class="sxs-lookup"><span data-stu-id="37413-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="37413-105">Не удается установить средства администрирования в различных выпусках на том же компьютере.</span><span class="sxs-lookup"><span data-stu-id="37413-105">You cannot install administrative tools from different releases on the same computer.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="68ed9-106">После развертывания Скайп для пилотного пула Business Server нельзя использовать построитель топологий или панели управления для управления любые ресурсы 2019.</span><span class="sxs-lookup"><span data-stu-id="68ed9-106">After a Skype for Business Server pilot pool is deployed, you cannot use Topology Builder or Control Panel to manage any 2019 resources.</span></span> <span data-ttu-id="68ed9-107">Необходимо использовать 2019 средства для управления ресурсами все текущие и предыдущие версии.</span><span class="sxs-lookup"><span data-stu-id="68ed9-107">You must use 2019 tools to manage all current and previous version resources.</span></span> 
+> <span data-ttu-id="37413-106">После развертывания Скайп для пилотного пула Business Server нельзя использовать построитель топологий или панели управления для управления любые ресурсы 2019.</span><span class="sxs-lookup"><span data-stu-id="37413-106">After a Skype for Business Server pilot pool is deployed, you cannot use Topology Builder or Control Panel to manage any 2019 resources.</span></span> <span data-ttu-id="37413-107">Необходимо использовать 2019 средства для управления ресурсами все текущие и предыдущие версии.</span><span class="sxs-lookup"><span data-stu-id="37413-107">You must use 2019 tools to manage all current and previous version resources.</span></span> 
   

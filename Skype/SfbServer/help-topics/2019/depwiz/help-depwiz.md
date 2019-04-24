@@ -3,23 +3,23 @@ title: Help-DepWiz
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
+ms.date: 1/1/1900
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca35c25c-6238-4e98-a8d0-c225fb605058
 description: Щелкните ссылку мастер развертывания
-ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: a970bc5e50b9af8dfe6f83b0ae74eb1e06349006
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216629"
 ---
-# <a name="help-depwiz"></a><span data-ttu-id="e483d-103">Help-DepWiz</span><span class="sxs-lookup"><span data-stu-id="e483d-103">Help-DepWiz</span></span>
+# <a name="help-depwiz"></a><span data-ttu-id="36e7b-103">Help-DepWiz</span><span class="sxs-lookup"><span data-stu-id="36e7b-103">Help-DepWiz</span></span>
  
-<span data-ttu-id="e483d-104">В данном разделе описываются справку по Скайп для мастера развертывания Business Server.</span><span class="sxs-lookup"><span data-stu-id="e483d-104">The topics in this node provide help for the Skype for Business Server deployment wizard.</span></span>
+<span data-ttu-id="36e7b-104">В данном разделе описываются справку по Скайп для мастера развертывания Business Server.</span><span class="sxs-lookup"><span data-stu-id="36e7b-104">The topics in this node provide help for the Skype for Business Server deployment wizard.</span></span>
   
 
   
