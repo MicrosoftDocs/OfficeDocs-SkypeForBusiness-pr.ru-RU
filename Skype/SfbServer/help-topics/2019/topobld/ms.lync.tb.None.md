@@ -13,13 +13,13 @@ localization_priority: Normal
 ms.assetid: 20c61a2a-4955-42b9-897f-b180ffc226d6
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 1d4161d9f98c78f93740c706690840a2a2b72a0a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235349"
 ---
-# <a name="topology-builder-skype-for-business-server-node"></a><span data-ttu-id="92c0a-102">Скайп построитель топологии для узла Business Server</span><span class="sxs-lookup"><span data-stu-id="92c0a-102">Topology Builder Skype for Business Server Node</span></span>
+# <a name="topology-builder-skype-for-business-server-node"></a><span data-ttu-id="bd088-102">Скайп построитель топологии для узла Business Server</span><span class="sxs-lookup"><span data-stu-id="bd088-102">Topology Builder Skype for Business Server Node</span></span>
  
 
 

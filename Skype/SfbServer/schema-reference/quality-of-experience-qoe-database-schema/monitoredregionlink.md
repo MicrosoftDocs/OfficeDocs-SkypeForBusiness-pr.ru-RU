@@ -12,19 +12,19 @@ localization_priority: Normal
 ms.assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
 description: Таблица monitoredregionlink представляет собой вспомогательную таблицу. Каждая запись представляет одну связь между двумя странах или регионах.
 ms.openlocfilehash: 0df5cd8abe957ed952bdf656a67e1d423cc57f33
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212462"
 ---
-# <a name="monitoredregionlink-table"></a><span data-ttu-id="4ae01-104">Таблица MonitoredRegionLink</span><span class="sxs-lookup"><span data-stu-id="4ae01-104">MonitoredRegionLink table</span></span>
+# <a name="monitoredregionlink-table"></a><span data-ttu-id="aae42-104">Таблица MonitoredRegionLink</span><span class="sxs-lookup"><span data-stu-id="aae42-104">MonitoredRegionLink table</span></span>
  
-<span data-ttu-id="4ae01-105">Таблица monitoredregionlink представляет собой вспомогательную таблицу.</span><span class="sxs-lookup"><span data-stu-id="4ae01-105">The MonitoredRegionLink table is a supporting table.</span></span> <span data-ttu-id="4ae01-106">Каждая запись представляет одну связь между двумя странах или регионах.</span><span class="sxs-lookup"><span data-stu-id="4ae01-106">Each record represents one link between two countries/regions.</span></span>
+<span data-ttu-id="aae42-105">Таблица monitoredregionlink представляет собой вспомогательную таблицу.</span><span class="sxs-lookup"><span data-stu-id="aae42-105">The MonitoredRegionLink table is a supporting table.</span></span> <span data-ttu-id="aae42-106">Каждая запись представляет одну связь между двумя странах или регионах.</span><span class="sxs-lookup"><span data-stu-id="aae42-106">Each record represents one link between two countries/regions.</span></span>
   
-|<span data-ttu-id="4ae01-107">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="4ae01-107">**Column**</span></span>|<span data-ttu-id="4ae01-108">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="4ae01-108">**Data Type**</span></span>|<span data-ttu-id="4ae01-109">**Ключ/индекс**</span><span class="sxs-lookup"><span data-stu-id="4ae01-109">**Key/Index**</span></span>|<span data-ttu-id="4ae01-110">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="4ae01-110">**Details**</span></span>|
+|<span data-ttu-id="aae42-107">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="aae42-107">**Column**</span></span>|<span data-ttu-id="aae42-108">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="aae42-108">**Data Type**</span></span>|<span data-ttu-id="aae42-109">**Ключ/индекс**</span><span class="sxs-lookup"><span data-stu-id="aae42-109">**Key/Index**</span></span>|<span data-ttu-id="aae42-110">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="aae42-110">**Details**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="4ae01-111">**Region1Key**</span><span class="sxs-lookup"><span data-stu-id="4ae01-111">**Region1Key**</span></span> <br/> |<span data-ttu-id="4ae01-112">целое</span><span class="sxs-lookup"><span data-stu-id="4ae01-112">int</span></span>  <br/> |<span data-ttu-id="4ae01-113">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="4ae01-113">Primary, Foreign</span></span>  <br/> |<span data-ttu-id="4ae01-114">Ссылка из [Region table](region.md).</span><span class="sxs-lookup"><span data-stu-id="4ae01-114">Referenced from the [Region table](region.md).</span></span>  <br/> |
-|<span data-ttu-id="4ae01-115">**Region2Key**</span><span class="sxs-lookup"><span data-stu-id="4ae01-115">**Region2Key**</span></span> <br/> |<span data-ttu-id="4ae01-116">целое</span><span class="sxs-lookup"><span data-stu-id="4ae01-116">int</span></span>  <br/> |<span data-ttu-id="4ae01-117">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="4ae01-117">Primary, Foreign</span></span>  <br/> |<span data-ttu-id="4ae01-118">Ссылка из [Region table](region.md).</span><span class="sxs-lookup"><span data-stu-id="4ae01-118">Referenced from the [Region table](region.md).</span></span>  <br/> |
+|<span data-ttu-id="aae42-111">**Region1Key**</span><span class="sxs-lookup"><span data-stu-id="aae42-111">**Region1Key**</span></span> <br/> |<span data-ttu-id="aae42-112">целое</span><span class="sxs-lookup"><span data-stu-id="aae42-112">int</span></span>  <br/> |<span data-ttu-id="aae42-113">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="aae42-113">Primary, Foreign</span></span>  <br/> |<span data-ttu-id="aae42-114">Ссылка из [Region table](region.md).</span><span class="sxs-lookup"><span data-stu-id="aae42-114">Referenced from the [Region table](region.md).</span></span>  <br/> |
+|<span data-ttu-id="aae42-115">**Region2Key**</span><span class="sxs-lookup"><span data-stu-id="aae42-115">**Region2Key**</span></span> <br/> |<span data-ttu-id="aae42-116">целое</span><span class="sxs-lookup"><span data-stu-id="aae42-116">int</span></span>  <br/> |<span data-ttu-id="aae42-117">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="aae42-117">Primary, Foreign</span></span>  <br/> |<span data-ttu-id="aae42-118">Ссылка из [Region table](region.md).</span><span class="sxs-lookup"><span data-stu-id="aae42-118">Referenced from the [Region table](region.md).</span></span>  <br/> |
    
 

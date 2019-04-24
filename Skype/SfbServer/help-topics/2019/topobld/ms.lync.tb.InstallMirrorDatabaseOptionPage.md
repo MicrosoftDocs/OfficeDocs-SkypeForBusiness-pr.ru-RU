@@ -14,13 +14,13 @@ ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Настройте параметры зеркальной базы данных определяются следующим:'
 ms.openlocfilehash: 5117686188b8259211c2f2b2539d54a62cf1dfdf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201802"
 ---
-# <a name="install-mirror-database-option-page"></a><span data-ttu-id="7fae9-103">Страница параметров установки зеркальной базы данных</span><span class="sxs-lookup"><span data-stu-id="7fae9-103">Install Mirror Database Option Page</span></span>
+# <a name="install-mirror-database-option-page"></a><span data-ttu-id="9030f-103">Страница параметров установки зеркальной базы данных</span><span class="sxs-lookup"><span data-stu-id="9030f-103">Install Mirror Database Option Page</span></span>
  
 > [!NOTE]
-> <span data-ttu-id="7fae9-104">Зеркальное отображение SQL доступна в Скайп для Business Server 2015, но в Скайп Business Server 2019 больше не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="7fae9-104">SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="7fae9-105">Методы кластеризации отработки отказа группы обеспечения доступности AlwaysOn, экземпляры кластера AlwaysOn отработки отказа (FCI) и SQL, являются предпочтительными с Скайп для Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="7fae9-105">The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.</span></span>
+> <span data-ttu-id="9030f-104">Зеркальное отображение SQL доступна в Скайп для Business Server 2015, но в Скайп Business Server 2019 больше не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="9030f-104">SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="9030f-105">Методы кластеризации отработки отказа группы обеспечения доступности AlwaysOn, экземпляры кластера AlwaysOn отработки отказа (FCI) и SQL, являются предпочтительными с Скайп для Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="9030f-105">The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.</span></span>

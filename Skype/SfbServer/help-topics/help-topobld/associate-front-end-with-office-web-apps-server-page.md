@@ -14,26 +14,26 @@ localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Службы, выполняющиеся на сервере Office Web Apps, позволяют выступающему загрузить документ для демонстрации на собрании; при этом их функциональные возможности расширены по сравнению с предыдущими версиями.
 ms.openlocfilehash: 925a27d4b1ddffd40038f71b5cc9d7a3404efba3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227391"
 ---
-# <a name="associate-front-end-with-office-web-apps-server-page"></a><span data-ttu-id="ee6cf-103">Страница сопоставления сервера переднего плана с сервером Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="ee6cf-103">Associate Front End With Office Web Apps Server Page</span></span>
+# <a name="associate-front-end-with-office-web-apps-server-page"></a><span data-ttu-id="ffe31-103">Страница сопоставления сервера переднего плана с сервером Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="ffe31-103">Associate Front End With Office Web Apps Server Page</span></span>
 
-<span data-ttu-id="ee6cf-104">Службы, выполняющиеся на сервере Office Web Apps, позволяют выступающему загрузить документ для демонстрации на собрании; при этом их функциональные возможности расширены по сравнению с предыдущими версиями.</span><span class="sxs-lookup"><span data-stu-id="ee6cf-104">The Office Web Apps Server provides services similar to a presenter uploading a document for use in a meeting, but enables additional features that the prior versions did not.</span></span>
+<span data-ttu-id="ffe31-104">Службы, выполняющиеся на сервере Office Web Apps, позволяют выступающему загрузить документ для демонстрации на собрании; при этом их функциональные возможности расширены по сравнению с предыдущими версиями.</span><span class="sxs-lookup"><span data-stu-id="ffe31-104">The Office Web Apps Server provides services similar to a presenter uploading a document for use in a meeting, but enables additional features that the prior versions did not.</span></span>
 
-<span data-ttu-id="ee6cf-105">При выборе сервера Office Web Apps для развертывания конференц-связь была выбрана как один из компонентов для вашего Скайп для конфигурации Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="ee6cf-105">You select an Office Web Apps Server for your deployment if you have chosen Conferencing as one of your feature options for your Skype for Business Server 2015 configuration.</span></span>
+<span data-ttu-id="ffe31-105">При выборе сервера Office Web Apps для развертывания конференц-связь была выбрана как один из компонентов для вашего Скайп для конфигурации Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="ffe31-105">You select an Office Web Apps Server for your deployment if you have chosen Conferencing as one of your feature options for your Skype for Business Server 2015 configuration.</span></span>
 
-<span data-ttu-id="ee6cf-106">Параметры в этом диалоговом окне предоставляют следующие возможности.</span><span class="sxs-lookup"><span data-stu-id="ee6cf-106">The options in this dialog present you with these choices:</span></span>
+<span data-ttu-id="ffe31-106">Параметры в этом диалоговом окне предоставляют следующие возможности.</span><span class="sxs-lookup"><span data-stu-id="ffe31-106">The options in this dialog present you with these choices:</span></span>
 
-1. <span data-ttu-id="ee6cf-107">**Свяжите пул с сервера Office Web Apps** — установите этот флажок, если будет предоставить и развертывание сервера Office Web Apps для пользователей конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="ee6cf-107">**Associate pool with an Office Web Apps Server** - You select this check box if you will provide and deploy an Office Web Apps Server for your conferencing users.</span></span>
+1. <span data-ttu-id="ffe31-107">**Свяжите пул с сервера Office Web Apps** — установите этот флажок, если будет предоставить и развертывание сервера Office Web Apps для пользователей конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="ffe31-107">**Associate pool with an Office Web Apps Server** - You select this check box if you will provide and deploy an Office Web Apps Server for your conferencing users.</span></span>
 
-2. <span data-ttu-id="ee6cf-108">Если этот флажок установлен, следует использовать список для выбора уже определенного сервера Office Web Apps.</span><span class="sxs-lookup"><span data-stu-id="ee6cf-108">If you have selected the check box, you use the list to select an already defined Office Web Apps Server.</span></span>
+2. <span data-ttu-id="ffe31-108">Если этот флажок установлен, следует использовать список для выбора уже определенного сервера Office Web Apps.</span><span class="sxs-lookup"><span data-stu-id="ffe31-108">If you have selected the check box, you use the list to select an already defined Office Web Apps Server.</span></span>
 
-3. <span data-ttu-id="ee6cf-109">Нажмите кнопку **Создать** для определения нового сервера Office Web Apps, относящегося к данному развертыванию.</span><span class="sxs-lookup"><span data-stu-id="ee6cf-109">Click **New** to define a new Office Web Apps Server for your deployment.</span></span>
+3. <span data-ttu-id="ffe31-109">Нажмите кнопку **Создать** для определения нового сервера Office Web Apps, относящегося к данному развертыванию.</span><span class="sxs-lookup"><span data-stu-id="ffe31-109">Click **New** to define a new Office Web Apps Server for your deployment.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ee6cf-110">См. также</span><span class="sxs-lookup"><span data-stu-id="ee6cf-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ffe31-110">См. также</span><span class="sxs-lookup"><span data-stu-id="ffe31-110">See also</span></span>
 
-[<span data-ttu-id="ee6cf-111">Publishing Office Web Apps Server Using a Reverse Proxy Server</span><span class="sxs-lookup"><span data-stu-id="ee6cf-111">Publishing Office Web Apps Server Using a Reverse Proxy Server</span></span>](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[<span data-ttu-id="ffe31-111">Publishing Office Web Apps Server Using a Reverse Proxy Server</span><span class="sxs-lookup"><span data-stu-id="ffe31-111">Publishing Office Web Apps Server Using a Reverse Proxy Server</span></span>](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
