@@ -14,11 +14,11 @@ ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы задать назначение федеративного маршрута сайта, сначала необходимо включена функция на пограничном сервере или пула пограничных серверов федерации. Если федерация не включен на пограничном сервере или в пуле, параметры назначение маршрута федерации для сайта не будет доступен для изменения.
 ms.openlocfilehash: 49709f5c4a91e25efb14cc4b2c321c99fec89b68
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201901"
 ---
 # <a name="federation-route-settings-expander"></a>Расширитель настроек маршрута федерации
  

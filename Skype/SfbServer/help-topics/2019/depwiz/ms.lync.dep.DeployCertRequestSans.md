@@ -14,11 +14,11 @@ ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: С помощью функции Настройка дополнительных альтернативных имен субъектов можно добавить в сертификат дополнительные альтернативные имена субъектов (SAN) перед завершением и отправкой запроса сертификата. Чтобы добавить SAN, введите полное доменное имя и нажмите кнопку Добавить. Если необходимо удалить добавленное имя, выделите его и нажмите кнопку Удалить. Чтобы удалить все добавленные записи SAN, нажмите кнопку Очистить все.
 ms.openlocfilehash: d7ab2e2c1fe427e437ba35ee6ef2e46641d22faf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894011"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216356"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>Запрос сертификата (дополнительные альтернативные имена субъектов)
  

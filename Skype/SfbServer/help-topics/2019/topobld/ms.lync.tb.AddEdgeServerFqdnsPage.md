@@ -14,11 +14,11 @@ ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: Необходимо указать полное доменное имя (FQDN) для пограничной службы доступа. Если вы не выбрали использования одного полного доменного ИМЕНИ &amp; параметр адрес IP-адресов на странице Выбор функции страницы, необходимо также указать полное доменное имя для службы Web пограничного сервера конференц-связи и A / V Edge службы.
 ms.openlocfilehash: 07591bf9e98f74d9092e34e34b62b8cb2bdcf525
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202168"
 ---
 # <a name="add-edge-server-fqdn"></a>Добавление полного доменного имени пограничного сервера
  

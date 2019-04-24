@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Навигация Скайп для средство планирования 2015 Business Server с помощью комбинации панели инструментов, специфичные для страницы кнопки и ссылки и контекстные областей. Контекстно-зависимые области предоставляют информацию о структуре для планирования и обеспечения мощности, которая соответствует параметрам выбора на конкретной странице.
 ms.openlocfilehash: 64e8157c6511316d047709a47009769843f95958
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897568"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217367"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navigate the Planning Tool in Skype for Business Server 2015
 

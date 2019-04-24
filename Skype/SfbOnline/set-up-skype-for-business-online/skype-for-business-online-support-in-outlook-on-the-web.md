@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Веб-приложение Outlook в Office 365 предлагает базовый веб-клиент Skype для бизнеса на панели навигации. Этот базовый клиент доступна для пользователей Online которого администратор еще не настроены запоминающиеся URL-адрес для своей организации Office 365. Поскольку учетная запись пользователя находится в сети, не имеет запоминающиеся URL-адрес, он будет по-прежнему видеть взаимодействия пользователя со даже в том случае, если их организации есть некоторые учетные записи пользователей, которые являются, размещенные локально. Пользователи, у пользователя учетные записи в локальной (есть ли у них запоминающиеся URL-адрес или нет) или управляют Microsoft будут видеть взаимодействия Lync в Outlook web app.
 ms.openlocfilehash: 0d98d2490510b54ec0aabd4fefb7ed4137b449b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237234"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Поддержка Skype для бизнеса Online в веб-приложении Outlook
 
@@ -44,7 +44,7 @@ ms.locfileid: "30891040"
 |Чистая на prem  <br/> |Да  <br/> |Веб-интерфейс Lync  <br/> |
    
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

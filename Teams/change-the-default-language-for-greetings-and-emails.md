@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: 'Сведения о настройке Skype для бизнеса с целью использования другого языка для записи приветствия голосовой почты по умолчанию. '
 ms.openlocfilehash: 6de73212df6be8a1f0d52cff8065536442085783
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198485"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
@@ -63,7 +63,7 @@ ms.locfileid: "30664861"
     
 ## <a name="related-articles-for-the-admin"></a>Дополнительные статьи для администраторов
 
-- [Телефонной системой и Тарифные планы](calling-plan-landing-page.md)
+- [Телефонная система и тарифные планы](calling-plan-landing-page.md)
     
 - [Настройка планов звонков](set-up-calling-plans.md)
     

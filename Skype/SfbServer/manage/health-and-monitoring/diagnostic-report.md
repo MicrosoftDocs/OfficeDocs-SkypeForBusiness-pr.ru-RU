@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Сводка: Сведения о диагностического отчета в Скайп для Business Server.'
 ms.openlocfilehash: 21f5a15495c925f401442bd6443b42d1d0bdd16d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197922"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Диагностический отчет в Скайп для Business Server
  
@@ -43,7 +43,7 @@ ms.locfileid: "30898153"
   
 **Показатели отчета Diagnostic Report (Диагностический отчет)**
 
-|**Имя**.|**Поддержка сортировки**|**Описание**.|
+|**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Время создания отчета** <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |
 |**Код ответа** <br/> |Нет  <br/> |Код ответа SIP, отправленный при сбое сеанса.  <br/> |

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 description: tblPrincipalRole содержит явные роли, назначенные узлам.
 ms.openlocfilehash: 69cfb0cb2b821064801a07510758514bb5d33128
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890771"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212455"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  
@@ -24,7 +24,7 @@ tblPrincipalRole содержит явные роли, назначенные у
   
 **Столбцы**
 
-|**Столбец**|**Тип**|**Описание**.|
+|**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |prinRoleNodeID  <br/> |int, не null  <br/> |Идентификатор узла, к которому применяется роль.  <br/> |
 |prinRolePrinID  <br/> |int, не null  <br/> |Идентификатор субъекта.  <br/> |
@@ -33,7 +33,7 @@ tblPrincipalRole содержит явные роли, назначенные у
    
 **Ключи**
 
-|**Столбец**|**Описание**.|
+|**Столбец**|**Описание**|
 |:-----|:-----|
 |\<prinRoleNodeID, prinRolePrinID, prinRoleTypeID\>  <br/> |Первичный ключ.  <br/> |
 |prinRoleNodeID  <br/> |Внешний ключ с подстановкой в таблице tblNode.nodeID.  <br/> |

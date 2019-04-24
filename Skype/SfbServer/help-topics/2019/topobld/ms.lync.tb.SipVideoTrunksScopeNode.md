@@ -14,11 +14,11 @@ ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 ROBOTS: NOINDEX, NOFOLLOW
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server.
 ms.openlocfilehash: dfa881341b72ee70f62a70fbf538b15480de52de
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201617"
 ---
 # <a name="sip-video-trunks-scope-node"></a>Узел области применения видеомагистралей SIP
  

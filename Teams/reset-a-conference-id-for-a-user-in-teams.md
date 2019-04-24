@@ -20,11 +20,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Описание шагов по сбросу идентификатора конференции для пользователя в Microsoft Teams, а также получения ссылок на средства для изменения и переноса собраний. '
 ms.openlocfilehash: f5926d838d61d38eb5b8e9f840cd9d7a4694253f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206588"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Сброс идентификатора конференции для пользователя в Microsoft Teams
 

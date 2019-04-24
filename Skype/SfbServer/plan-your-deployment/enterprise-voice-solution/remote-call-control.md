@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Удаленное управление звонками была компонента в предыдущих версиях Lync Server, который позволяет пользователям управлять телефонах УАТС с Lync Server. В Скайп Business Server этот компонент был заменен звонок с помощью рабочих. В версии клиента для Скайп Business Server 2015 и переход вперед, удаленного вызова элемента управления больше не доступен для настройки в клиенте и была удалена для использования.
 ms.openlocfilehash: 31ee089e5f4142a0db728878d2bd35d86b628804
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206510"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Планирование удаленного управления звонками в Скайп для бизнеса
  

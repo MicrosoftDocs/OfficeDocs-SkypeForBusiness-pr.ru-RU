@@ -20,11 +20,11 @@ ms.custom:
 - LIL_Placement
 description: Загрузки, установки и затем использовать Windows PowerShell 5.1 для создания удаленного сеанса PowerShell, который подключается к Скайп для бизнеса в Интернет.
 ms.openlocfilehash: 63f4924a30bfc910679f23a617cc5252ecc5b6aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198071"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Загрузка и установка Windows PowerShell 5.1
 
@@ -143,7 +143,7 @@ Auth
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка компьютера для Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
 
   

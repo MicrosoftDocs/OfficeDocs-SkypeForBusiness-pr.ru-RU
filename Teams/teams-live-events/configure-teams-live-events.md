@@ -17,11 +17,11 @@ f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e3c1a3c4883705f5e9e5ded88cce94fc37da650b
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204753"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
@@ -80,7 +80,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > [!NOTE]
 > Если планируется создание live событий, использующих внешний кодировщики, необходимо также [настроить поставщика eCDN с Microsoft потока](https://docs.microsoft.com/stream/network-caching). 
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>Статьи по теме
 - [Что такое прямые трансляции Teams?](what-are-teams-live-events.md)
 - [Планирование прямых трансляций Teams](plan-for-teams-live-events.md)
 - [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)

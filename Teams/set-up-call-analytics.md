@@ -22,11 +22,11 @@ ms.custom:
 - Reporting
 description: Настройка и использование вызова Analytics для выявления и устранения неполадок Скайп для бизнеса и группами Майкрософт проблемы с качеством вызовов.
 ms.openlocfilehash: ebd5ec0ea60a59e50c3ce7137f518d9a596074a5
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204824"
 ---
 # <a name="set-up-call-analytics"></a>Настройка аналитики звонков
 
@@ -89,7 +89,7 @@ ms.locfileid: "30542329"
   
 Если вы создаете .tsv или CSV-файл с нуля, видеть [данные клиента файла формат и структура файла данных построения](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Статьи по теме
 <a name="BKMK_UploadFiles"> </a>
 
 [Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)

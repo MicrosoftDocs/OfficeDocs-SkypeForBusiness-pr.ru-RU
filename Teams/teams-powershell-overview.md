@@ -1,5 +1,5 @@
 ---
-title: Обзор PowerShell групп
+title: Обзор PowerShell в Teams
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -14,13 +14,13 @@ description: Изучите использование элементов упр
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204471"
 ---
-# <a name="teams-powershell-overview"></a>Обзор PowerShell групп
+# <a name="teams-powershell-overview"></a>Обзор PowerShell в Teams
 
 Группами Майкрософт имеет широкий набор средств для ИТ-администраторов для управления продукта через Центр администрирования группами Майкрософт, PowerShell элементов управления и API-интерфейсы графике. В этом руководстве рассматривается как мы структурировать наших командлеты PowerShell для ИТ-администраторов для использования и содержит ссылки на дополнительные документацию. Обратите внимание на то, что различные роли администраторов группы имеют доступ к другой командлетов. Дополнительные сведения можно [управлять группами ролей администраторов группами Майкрософт использования](using-admin-roles.md).
 

@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Узнайте, действия, чтобы сбросить пользователя собрания идентификатор конференции в Скайп для бизнеса в Интернет и получения ссылки на средства обновления и миграции для собраний. '
 ms.openlocfilehash: 748664ec8e6584adcbcb0630147f1bcd60be9482
-ms.sourcegitcommit: 17348a197c8ed76d587f3c3d0ff36c56414183f0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30475798"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229274"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Сброс идентификатор конференции для пользователя в Скайп для бизнеса в Интернет
 
@@ -83,6 +83,6 @@ ms.locfileid: "30475798"
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Статьи по теме
 
-[Сброс аудиоконференций ПИН-кода](reset-the-audio-conferencing-pin.md)
+[Сброс ПИН-кода для аудиоконференции](reset-the-audio-conferencing-pin.md)

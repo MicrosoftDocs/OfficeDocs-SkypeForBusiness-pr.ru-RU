@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Сводка: Узнайте, как установить средства администрирования, необходимые для установки Скайп для Business Server. Загрузить бесплатную пробную версию программы Скайп для Business Server в центре Microsoft оценки по: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: 48c6234b04f3c594f8cc50bda82ffca8cb256552
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210727"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Установка средств администрирования в Скайп для Business Server
  

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В большинстве развертываний Скайп для Business Server, где реализуется контроля допуска звонков (CAC) как правило будет большое число подсети. Таким образом чаще всего наиболее Настройка подсетей с Скайп для консоли Business Server.
 ms.openlocfilehash: 3b61ad1b4e1eb7f11d61b32c15e337bcd4ff77c8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198910"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Управление подсетями в Skype для бизнеса Server
 
@@ -132,7 +132,7 @@ ms.locfileid: "30899752"
 
 5.  В меню **Правка** выберите пункт **Удалить**.
 
-6.  Нажмите **ОК**.
+6.  Нажмите кнопку **ОК**.
 
 
 ## <a name="see-also"></a>См. также

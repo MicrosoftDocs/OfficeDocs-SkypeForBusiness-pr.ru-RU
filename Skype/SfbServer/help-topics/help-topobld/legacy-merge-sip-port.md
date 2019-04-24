@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 description: 'По умолчанию обмен данными с клиентами, интерфейсными пулами прежних версий и серверами осуществляется через SIP-порт 5061, работающий по протоколу TCP. Если значение по умолчанию не применялось, выберите SIP-порт для всех пулов и серверов: и введите новое значение.'
 ms.openlocfilehash: 095d211feb05beff06c4634dfef55a8de857c27f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200153"
 ---
 # <a name="legacy-merge-sip-port"></a>Порт SIP для объединения с устаревшей версией
  

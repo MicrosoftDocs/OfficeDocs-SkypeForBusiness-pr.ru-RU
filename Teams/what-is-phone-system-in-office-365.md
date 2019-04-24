@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: 'Ознакомьтесь с телефонной системой может сделать для вас. '
 ms.openlocfilehash: a4ac90d24863ecaf56ca471d412474bf81653a50
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914622"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211732"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Что такое телефонная система в Office 365?
 
@@ -73,7 +73,7 @@ ms.locfileid: "31914622"
 
 Если вы готовы приступить к работе, см [телефонной системы в вашей организации](setting-up-your-phone-system.md).
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 - [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Различные типы телефонных номеров, используемые для планов звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)

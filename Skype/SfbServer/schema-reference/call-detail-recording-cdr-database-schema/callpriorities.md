@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
 description: Таблица CallPriorities — это статическая таблица, в которой хранится список возможных приоритетов вызовов, такие как «emergency», «срочно» или «normal».
 ms.openlocfilehash: faf4e7f04d7a63b096cb2369c21916e5fcb71a24
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213335"
 ---
 # <a name="callpriorities-table-in-skype-for-business-server-2015"></a>Таблица CallPriorities в Скайп для Business Server 2015
  

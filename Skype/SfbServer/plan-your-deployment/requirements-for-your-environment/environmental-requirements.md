@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Сводка: Настройка серверных требований для Скайп для Business Server 2015. Перед развертыванием вам потребуется настроить множество компонентов, включая Active Directory, DNS, сертификаты и файловые ресурсы.'
 ms.openlocfilehash: a75301a6f6f26ac933841ead0192d707d0647897
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207806"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
@@ -335,7 +335,7 @@ ms.locfileid: "30887139"
   
 Пул директора и пула переднего плана по сертификатам требования:
   
-|**Описание**.|**Запись SAN**|
+|**Описание**|**Запись SAN**|
 |:-----|:-----|
 |URL-адрес внутренней службы автоматического обнаружения  <br/> |SAN = lyncdiscoverinternal. \<sipdomain\>  <br/> |
 |URL-адрес внешней службы автоматического обнаружения  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
@@ -344,7 +344,7 @@ ms.locfileid: "30887139"
   
 Требования к сертификатам для обратного прокси-сервера (общедоступный центр сертификации)
   
-|**Описание**.|**Запись SAN**|
+|**Описание**|**Запись SAN**|
 |:-----|:-----|
 |URL-адрес внешней службы автоматического обнаружения  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
    

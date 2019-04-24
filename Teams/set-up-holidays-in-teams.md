@@ -19,11 +19,11 @@ localization_priority: Normal
 f1keywords: None
 description: Узнайте, как настроить праздники в группах Майкрософт и подключать их к вашей автосекретаря.
 ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204778"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Настройка выходных в Microsoft Teams
 
@@ -86,6 +86,6 @@ ms.locfileid: "31914580"
     Чтобы перенаправить звонок, выберите **перенаправить звонок**и выберите человека, который будет получать перенаправления звонков из раскрывающегося списка или выполните поиск контакта по отображаемому имени.
 8. Нажмите кнопку **Сохранить**.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Что такое облачных автосекретари](what-are-phone-system-auto-attendants.md)?

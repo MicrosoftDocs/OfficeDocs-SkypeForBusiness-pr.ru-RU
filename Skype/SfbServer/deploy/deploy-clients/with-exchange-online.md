@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: В данном разделе приведены сведения о развертывании Microsoft группами комнат с Exchange Online.
-ms.openlocfilehash: 09a9cf6ed01ea4b523e6f790d30a586e92b5c4f5
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 4bff1fb6adce254608aa9286ec080cf6677c1a48
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012886"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214830"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Развертывание групп Майкрософт комнат с Exchange Online
 
@@ -67,19 +67,12 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. Для применения некоторых настроек учетной записи потребуется подключиться к Azure AD. Для подключения можно использовать следующий командлет.
 
-  ``` PowerShell
- Connect-MsolService -Credential $cred
-  ```
-<!--   ``` Powershell
-   Connect-AzureAD -Credential $cred
-   ``` -->
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>Добавление адреса электронной почты для локальной учетной записи домена
 
-1. Средства **Active Directory — пользователи и компьютеры AD** щелкните правой кнопкой мыши папку или подразделение, что вашей комнат группами Майкрософт, учетные записи будут создаваться в, нажмите кнопку **Создать**и выберите пункт **пользователь**.
-2. Введите отображаемое имя из предыдущего командлета в поле **Полное имя**, а затем псевдоним в поле **Имя входа пользователя**. Нажмите кнопку **Далее**.
+1. Средства **Active Directory — пользователи и компьютеры AD** щелкните правой кнопкой мыши контейнер или подразделение, что вашей комнат группами Майкрософт, учетные записи будут создаваться в, нажмите кнопку **Создать**и выберите пункт **пользователь**.
+2. Введите отображаемое имя (-Identity) из предыдущего командлета (Set-Mailbox или New-Mailbox) в поле **полное имя** и адрес в поле **имя входа пользователя** . Нажмите кнопку **Далее**.
 3. Введите пароль учетной записи. Подтвердите пароль. Убедитесь, что выбран только параметр **Срок действия пароля не ограничен**.
 
     > [!NOTE]
@@ -90,9 +83,18 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="assign-an-office-365-license"></a>Назначение лицензии Office 365
 
-1. Учетная запись должна иметь действительной лицензии Office 365, чтобы убедиться, что Скайп для Business Server и Exchange будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи.
-2. Затем используйте`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Для получения списка доступных номеров SKU для клиента Office 365.
-3. После список масштабирование номера SKU, можно добавить лицензии с помощью`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> командлет. В этом случае будет отображаться код SKU $strLicense (например, contoso:STANDARDPACK). 
+1. Во-первых подключение к Azure AD для применения некоторые параметры учетной записи. Для подключения можно использовать следующий командлет.
+
+  ``` PowerShell
+ Connect-MsolService -Credential $cred
+  ```
+<!--   ``` Powershell
+   Connect-AzureAD -Credential $cred
+   ``` -->
+
+2. Учетная запись должна иметь действительной лицензии Office 365, чтобы убедиться, что Скайп для Business Server и Exchange будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. На следующем этапе будет внести назначения.
+3. Затем используйте`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Для получения списка доступных номеров SKU для клиента Office 365.
+4. После список масштабирование номера SKU, можно добавить лицензии с помощью`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> командлет. В этом случае будет отображаться код SKU $strLicense (например, contoso:STANDARDPACK). 
 
   ```
     Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
@@ -148,4 +150,4 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
   
 [Настройка консоли комнат группами Майкрософт](console.md)
   
-[Управление группами Майкрософт комнат](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Управление приложением "Комнаты Microsoft Teams"](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

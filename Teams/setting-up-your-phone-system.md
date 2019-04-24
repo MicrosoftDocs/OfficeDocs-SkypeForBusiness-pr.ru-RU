@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: 'Узнайте, как настроить телефонной системой (облако УАТС) для вашей организации. '
 ms.openlocfilehash: 7a180817fb4a3885748a5ca80c494ef1b69143a4
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205548"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Настройка телефонной системы в организации
 
@@ -276,7 +276,7 @@ ms.locfileid: "31914654"
 
 **Дополнительные сведения о назначении лицензий кредитов Communications см [кредитов коммуникаций для вашей организации](set-up-communications-credits-for-your-organization.md).**
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 'Сводка: Сведения об операциях командной строки Setup.exe в программе установки Office.'
 ms.openlocfilehash: d3bf2b4d867fbbb43c346f2b9572de329ec66bdc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214879"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Использование параметров командной строки программы установки с Скайп пользователей
  
@@ -27,7 +27,7 @@ ms.locfileid: "30880280"
   
 **Параметры командной строки программы установки Office**
 
-|**Параметр командной строки программы установки**|**Описание**.|
+|**Параметр командной строки программы установки**|**Описание**|
 |:-----|:-----|
 |/admin  <br/> |Запускает центр развертывания Office для создания файла настройки программы установки (файла MSP).  <br/> |
 |/adminfile [путь]  <br/> |Применяет к установке указанный файл настройки программы установки. Можно указать путь к конкретному MSP-файлу настройки или к папке файлов настройки.  <br/> |

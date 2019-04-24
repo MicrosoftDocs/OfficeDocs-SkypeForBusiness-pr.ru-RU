@@ -1,5 +1,5 @@
 ---
-title: Интерфейс Teams в клиентах OneDrive Office 365 и SharePoint Online с поддержкой нескольких регионов
+title: Взаимодействие с Teams в клиентах Office 365 OneDrive и SharePoint Online с поддержкой нескольких регионов
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,13 +15,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204501"
 ---
-<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Интерфейс Teams в клиентах OneDrive Office 365 и SharePoint Online с поддержкой нескольких регионов
+<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Взаимодействие с Teams в клиентах Office 365 OneDrive и SharePoint Online с поддержкой нескольких регионов
 ===========================================
 
 Группами Майкрософт — это программное обеспечение группы чата, сервер-концентратор для работы в Office 365. На платформе службой Office 365 групп вместе с SharePoint Online и OneDrive для бизнеса для работы файлов. В OneDrive для бизнеса и SharePoint Online Multi-географически клиента, в котором клиента расширяется на многих географических Северная Америка, Европа и Австралия, базовым файлов необходимо Multi-географически принять во внимание, поэтому команды опыт использования файла Совместная работа также — ферма с несколькими-географически принять во внимание. Это Ключевая возможность передовых для групп на поверхности файлы одновременно в нескольких Geos в файлы в формате работы.

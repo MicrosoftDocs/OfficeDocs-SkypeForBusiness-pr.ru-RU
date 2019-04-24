@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Сводка: Сведения о подробного отчета по вызову используется в Скайп для Business Server.'
 ms.openlocfilehash: a0b0836099e1181a25b95bf7adbbe603ef7d5e5f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197585"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Отчет о звонке в Скайп для Business Server
  
@@ -85,7 +85,7 @@ ms.locfileid: "30887654"
   
 **Метрики подробного отчета по вызову**
 
-|**Имя**.|**Поддержка сортировки**|**Описание**.|
+|**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Caller PAI (PAI вызывающего абонента)** <br/> |Нет  <br/> |Параметр P-Asserted-Identity пользователя, который инициировал вызов. Параметр P-Asserted-Identity используется для передачи подтвержденного удостоверения пользователя в рамках надежной сети.  <br/> |
 |**Caller URI (URI вызывающего абонента)** <br/> |Нет  <br/> |SIP-адрес пользователя, инициировавшего вызов.  <br/> |

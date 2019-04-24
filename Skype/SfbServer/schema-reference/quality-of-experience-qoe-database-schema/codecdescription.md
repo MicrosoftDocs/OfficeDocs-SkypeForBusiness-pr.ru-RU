@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 3598acb8-7ea6-4748-8417-149c971c32a2
 description: Таблица codecdescription назначение уникальных идентификаторов кодека соответствующему кодеку. Кодеки используется для кодирования цифровых сигналов для передачи и вещания, а затем для декодирования этих сигналов для воспроизведения. Эта таблица была введена в Microsoft Lync Server 2013
 ms.openlocfilehash: efda27afe9312c25add8be0f74364384aed53b3e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212272"
 ---
 # <a name="codecdescription-table"></a>Таблица codecdescription
  

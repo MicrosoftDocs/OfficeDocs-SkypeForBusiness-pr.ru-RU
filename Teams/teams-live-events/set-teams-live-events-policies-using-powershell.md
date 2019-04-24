@@ -15,15 +15,14 @@ MS.collection:
 description: Примеры того, как использовать PowerShell для определения политик в группах, чтобы контролировать, кто сохранения live события в вашей организации и функции, доступные в события, которые они создают
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23cf75c8e764920a2d77c3bbe6c0cb3711c22f04
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8858b8572a06aede2fa1de98ce9cfc14ed1745bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204572"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Можно использовать следующие командлеты Windows PowerShell для установки и назначить параметры политики для live событий в группах: 
 - [Get-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -139,7 +138,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>Связанные разделы
-- [Настройка для групп событий в реальном времени](set-up-for-teams-live-events.md)
+### <a name="related-topics"></a>Статьи по теме
+- [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
 
 

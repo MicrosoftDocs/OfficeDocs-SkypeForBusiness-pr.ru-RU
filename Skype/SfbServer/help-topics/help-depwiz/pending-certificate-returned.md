@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 description: Состояние запроса сертификата страницы возвращает текущее состояние сертификата. Если сертификат все еще находится в состоянии ожидает утверждения с администратору центра сертификации —, который является, если нет утверждены — состояние появится сообщение о том, что сертификат по-прежнему обрабатывается.
 ms.openlocfilehash: 468a8686c80d8605df5c4b3fde58b54c2eced7f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201232"
 ---
 # <a name="pending-certificate-returned"></a>Отложенный сертификат (возврат)
  

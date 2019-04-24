@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Скайп для Business Server поддерживает Enhanced 9-1-1 (E9-1-1) вызов из Скайп пользователей. При настройке Скайп для Business Server для E9-1-1, экстренных вызовов, поступающих из Скайп для бизнеса включают расположение экстренного ответа (ERL) данные из базы данных службы сведения о расположении.
 ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200304"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Управление enhanced 9-1-1 и службой расположения в Скайп для бизнес-сервера
 
@@ -142,7 +142,7 @@ ms.locfileid: "30895155"
 
 5.  В меню **Правка** выберите пункт **Удалить**.
 
-6.  Нажмите **ОК**.
+6.  Нажмите кнопку **ОК**.
 
     > [!IMPORTANT]  
     > Не удается удалить глобальную политику расположения. Если попытаться удалить глобальную политику вы получите предупреждение и политики восстановит значения по умолчанию.

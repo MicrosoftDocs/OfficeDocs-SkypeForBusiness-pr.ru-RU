@@ -15,11 +15,11 @@ f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8c2564cc3da4f9df551ee9c9e5155a4cb81e4a37
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204704"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams?
 
@@ -76,7 +76,7 @@ ms.locfileid: "30664845"
 ## <a name="next-steps"></a>Дальнейшие действия
 Последовательно выберите пункты [план для групп событий в реальном времени](plan-for-teams-live-events.md).
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>Статьи по теме
 - [Событий в реальном времени через 365 Microsoft в Yammer, группами Майкрософт и потока Microsoft](https://docs.microsoft.com/stream/live-event-m365)
 - [Live события в группами Майкрософт](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
 - [Live события в Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)

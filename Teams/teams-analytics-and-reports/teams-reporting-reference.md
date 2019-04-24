@@ -18,11 +18,11 @@ description: Сведения об отчетах группами, доступ
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c674f9256d30e4b4a4f5a6f8e336e7d03f551df0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225018"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Аналитика и отчеты Microsoft Teams
 

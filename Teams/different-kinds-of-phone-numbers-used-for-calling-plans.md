@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Скайп для бизнеса в Интернет с помощью различных телефонных номеров типов в зависимости от назначения, для которого вы хотите использовать номер телефона.
 ms.openlocfilehash: e2a05e44cfe064736d906ec83195e02f6026bf3d
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199188"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Различные типы телефонных номеров, используемые для планов звонков
 

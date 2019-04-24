@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
 ms.openlocfilehash: cec7a84d5915ee2f7692071d0759fea24f142178
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199964"
 ---
 # <a name="office-communications-server-scope-node"></a>Узел области сервера Office Communications
 

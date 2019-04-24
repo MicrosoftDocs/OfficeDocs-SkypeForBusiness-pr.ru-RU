@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Изменение свойств серверов-посредников в этом диалоговом окне. В левой представляют собой набор быстрые ссылки для параметров общих параметров, настройки следующего перехода и настройки шлюза ТСОП. В каждом разделе приведены следующие параметры:'
 ms.openlocfilehash: a5af8e844c82d1af194e0c59fde67725c019ec99
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200090"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Расширитель общих настроек сервера-посредника для Lync Server 2010
 

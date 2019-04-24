@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: Кроме возможности задания версии клиентов, которые вы хотите поддержки в среде, можно также указать действие по умолчанию для клиентов, которые еще не определена политика версии. Это позволяет ограничить, какие версии клиента, используемых в вашей среде, которые позволяют контролировать расходы, связанные с поддержкой нескольких версий клиента.
 ms.openlocfilehash: 99938b2474a467c7c80148a7e0c3cab12320381f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200944"
 ---
 # <a name="client-version-configuration"></a>Конфигурация версий клиентов
 
