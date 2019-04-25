@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
 ms.openlocfilehash: bcc4ad06d922c4d0f65dc4f98a7d0780904e1d18
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229558"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Почему активация номера отображается как незавершенная?
 

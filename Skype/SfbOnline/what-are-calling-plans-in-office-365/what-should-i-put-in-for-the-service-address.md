@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Узнайте, возможности свой адрес службы, их отличий от адрес для выставления счетов и где его найти. '
 ms.openlocfilehash: dfdbb46dcbba6707ae746b004f5d97cdb20c5776
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227837"
 ---
 # <a name="what-should-i-put-in-for-the-service-address"></a>Какой адрес службы следует указывать?
 

@@ -21,11 +21,11 @@ ms.custom:
 - LIL_Placement
 description: 'Сведения о лицензиях надстроек, функциях и о том, как приобрести планы Office 365 корпоративный (E1, E3, и E4). '
 ms.openlocfilehash: 74518e09344136e399ed0307ff7bff110ac8e9d9
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239233"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 корпоративный (E1, E3 и E4)
 
@@ -37,7 +37,7 @@ ms.locfileid: "30948208"
 |**Аудиоконференция** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Надстройка **Аудиоконференции** <br/>После приобретения лицензии корпорация Майкрософт станет вашим поставщиком аудиоконференций. |
 |**Обслуживание бесплатных номеров для удаленного доступа для собраний и возможность выполнять звонки из собрания для добавления другого пользователя, вызвав любого телефонный номер в мире** <br/> |[Кредиты на связь](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**Телефонная система** <br/> |1. дополнительный компонент **Телефонной системы Microsoft office 365** <br/> 2. Тарифные планы: приобретите [Тарифный план](/MicrosoftTeams/calling-plans-for-office-365) в Office 365. <br/>  Или используйте [телефонную службу вашего текущего поставщика](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Голосовая почта в облаке** <br/> |Для планов E1 и E4 приобретите Exchange Online (план 2). <br/>Или перейдите на пакет Office, который входит в комплект поставки Exchange Online (план 2), например Office 365 E3. |
+|**Облачная голосовая почта** <br/> |Для планов E1 и E4 приобретите Exchange Online (план 2). <br/>Или перейдите на пакет Office, который входит в комплект поставки Exchange Online (план 2), например Office 365 E3. |
 |**Планы звонков** <br/> |1. **телефонной системой** надстройки <br/> 2. [Тарифный план](/MicrosoftTeams/calling-plans-for-office-365): его можно приобрести только после приобретения надстройки **Телефонная система**. <br/> |
    
   

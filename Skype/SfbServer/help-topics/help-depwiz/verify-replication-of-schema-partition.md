@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 description: Чтобы убедиться в том, что расширение схемы успешность репликации в лесу доменных служб Active Directory, выполните следующие действия.
 ms.openlocfilehash: 38d5983623c837e931274deef7581dd1567fc492
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234861"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Проверка репликации раздела схемы
  

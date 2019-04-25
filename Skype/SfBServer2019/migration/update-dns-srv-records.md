@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Чтобы успешно выполнить данную процедуру, необходимо войти в систему на сервере или в домене, что и должна быть членом группы администраторов домена или член группы DnsAdmins.
 ms.openlocfilehash: 5cdf98d065abbb57b3cb654c8b770f8f1f87500c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231385"
 ---
 # <a name="update-dns-srv-records"></a>Обновление записей DNS SRV
 
@@ -32,7 +32,7 @@ ms.locfileid: "30872726"
     
 4. В **узел этой службы**обновите полное доменное имя для указания на Скайп для пула Business Server 2019 узла.
     
-5. Нажмите **ОК**.
+5. Нажмите кнопку **ОК**.
     
 ## <a name="to-verify-that-the-fqdn-of-the-front-end-pool-or-standard-edition-server-can-be-resolved"></a>Чтобы убедиться, что можно разрешить полное доменное имя пула переднего плана или сервера Standard Edition.
 

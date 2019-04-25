@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Процедуры, приведенные в этом разделе предназначены для процесса удаления для пула переднего плана Enterprise Edition или Standard Edition сервера переднего плана. После миграции на Скайп для Business Server 2019, это один из первых шагов, Списание старой среды.
 ms.openlocfilehash: cd21eff37bfd4f1b29597ee2a44ad3bafe2c104c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231439"
 ---
 # <a name="remove-the-front-end-server"></a>Удаление сервера переднего плана
 

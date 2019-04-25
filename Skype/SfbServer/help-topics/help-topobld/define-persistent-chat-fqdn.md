@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: Создание нового сервера сохраняемого чата или пул серверов сохраняемого чата с помощью мастера определения нового пула сохраняемого чата. Выберите Пул из нескольких компьютеров или Пул из одного компьютера. Если выбран пул из одного компьютера, а позднее потребовался пул из нескольких компьютеров, необходимо удалить пул из одного компьютера и затем определить пул из нескольких компьютеров.
 ms.openlocfilehash: 9de27a5b64c9fa13effa9396798cb67083a407e5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226937"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Определение полного доменного имени сохраняемого чата
  

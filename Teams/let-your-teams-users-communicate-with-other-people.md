@@ -19,11 +19,11 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Узнайте, как настроить группы сотрудников могут пользователи могут взаимодействовать с пользователями в другой организации.
 ms.openlocfilehash: c3faf65dd3f36c193a75e74e73d90bf5e9be11df
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222373"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Сообщите разговор группам пользователей и взаимодействовать с пользователями в другой организации групп
 
@@ -93,7 +93,7 @@ ms.locfileid: "30894190"
     
 4. В списке **заблокированных или разрешенных доменов**, выберите **+** и добавьте имя домена, чтобы разрешить. Убедитесь в том, что эти шаги не администратора в другой организации. К примеру в список **разрешенных доменов** их администрирования необходимо войти в домен для бизнеса.
     
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>Статьи по теме
 
 [Вход на портал группами Майкрософт](sign-in-teams.md)
 [Обучение конечных пользователей для групп](enduser-training.md)

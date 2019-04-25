@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 description: 'В учетной записи администратора Office 365 можно по отдельному пользователю организации вносить изменения в параметры аудиоконференций Skype для бизнеса Online, такие как поставщик, номера платной или бесплатной линии по умолчанию, идентификатор конференции или PIN-код. '
 ms.openlocfilehash: 06fd99987df725e235f308af20542fa45b0286fd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886404"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229628"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Управлять пользовательскими параметрами аудиоконференций Skype для бизнеса Online
 
 > [!Note]
 > Для сведений по управлению пользовательскими параметрами в Microsoft Teams см. [Управлять пользовательскими параметрами аудиоконференций в Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-В учетной записи администратора Office 365 можно по отдельному пользователю организации вносить изменения в параметры аудиоконференций, такие как провайдер, номера платной или бесплатной линии по умолчанию, идентификатор конференции или ПИН-код. Для сведений по управлению параметрами организации см. [Управлять параметрами аудиоконференции по моей организации](manage-the-audio-conferencing-settings-for-my-organization.md).
+As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
@@ -48,12 +48,12 @@ ms.locfileid: "23886404"
 |**Параметр**|**Описание**|
 |:-----|:-----|
 |**Имя поставщика** <br/> |Выберите поставщика из списка.  <br/><br/> **Примечание:** остальные параметры в этой таблице применяются только в том случае, если выбрать Microsoft в качестве поставщика аудиоконференций.           |
-|**Бесплатный номер по умолчанию** (обязательно) <br/> |Для сторонних поставщиков эти номера телефонов соответствуют номерам, полученным от поставщика аудиоконференций. Если пользователь выбрал Microsoft в качестве поставщика аудиоконференций, это будут номера, заданные для канала аудиоконференций. Форматирование чисел, как они отображаются в Скайп для бизнеса и группами Майкрософт приглашения на собрания.  <br/> |
-|**Бесплатные номера по умолчанию** <br/> |Для сторонних поставщиков эти номера телефонов соответствуют номерам, полученным от поставщика аудиоконференций. Если пользователь выбрал Microsoft в качестве поставщика аудиоконференций, это будут номера, заданные для канала аудиоконференций. Форматирование чисел, как они отображаются в Скайп для бизнеса и группами Майкрософт приглашения на собрания.  <br/> |
+|**Бесплатный номер по умолчанию** (обязательно) <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
+|**Бесплатные номера по умолчанию** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
 |**Разрешить использование бесплатных номеров в канале Microsoft своей организации, чтобы подключиться к собранию данного пользователя** <br/> |Выберите эту опцию, чтобы разрешить пользователю бесплатных номеров подключаться к собраниям.  <br/> |
-|**Отправлять сведения о конференции по электронной почте** <br/> |Перейдите по этой ссылке только в том случае, если необходимо пользователю с собственным идентификатором конференции и номером телефона сразу же отправить сообщение по электронной почте. (Это сообщение электронной почты не содержит PIN-код.) См. раздел [Отправить пользователю сообщение по электронной почте, используя его сведения для аудиоконференции](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
-|**Идентификатор конференции** <br/> |Выберите **Сброс** , если необходимо сбросить идентификатор конференции для пользователя. Для дополнительных сведений см. [Сбросить идентификатор конференции для пользователя](reset-a-conference-id-for-a-user.md).  <br/> |
-|**ПИН-КОД** <br/> |Выберите **Сброс** , если необходимо сбросить PIN-код пользователя. Для дополнительных сведений см. [Сбросить PIN-код для аудиоконференций](reset-the-audio-conferencing-pin.md).  <br/> |
+|**Отправлять сведения о конференции по электронной почте** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
+|**Идентификатор конференции** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |
+|**ПИН-КОД** <br/> |Select **Reset** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).  <br/> |
 |**Разрешить неаутентифицированным абонентам быть первыми в собрании** <br/> |Выберите эту опцию, чтобы разрешить неаутентифицированным абонентам подключиться к собраниям первыми.  <br/> |
 |**Ограничения на исходящие соединения в собраниях этого пользователя** <br/> |Выберите опцию в этом списке, чтобы установить ограничения на исходящие соединения с национальными сетями или заблокировать все исходящие соединения в собраниях.  <br/> |
   
@@ -62,8 +62,8 @@ ms.locfileid: "23886404"
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Статьи по теме
 
 [Управление настройками аудиоконференции для организации](manage-the-audio-conferencing-settings-for-my-organization.md)
 
-[Общие вопросы по аудиоконференциям](/MicrosoftTeams/audio-conferencing-common-questions)
+[Общие вопросы об аудиоконференциях](/MicrosoftTeams/audio-conferencing-common-questions)

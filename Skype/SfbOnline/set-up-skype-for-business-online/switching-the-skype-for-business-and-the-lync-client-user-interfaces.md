@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
 ms.openlocfilehash: f248da01bb7046174fd241ed01ad6c0c93111cd9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238007"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Переключение между пользовательскими интерфейсами клиентов Skype для бизнеса и Lync
 
@@ -277,7 +277,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
 Также можно проверить успешное обновление реестра объектом групповой политики на компьютере пользователя, изучив реестр. Откройте редактор реестра и найдите строку **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]**. Если объект групповой политики успешно обновил реестр, будет отображаться значение с именем EnableSkypeUI и значением 0.
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

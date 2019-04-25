@@ -20,11 +20,11 @@ ms.custom:
 - Phone System
 description: Познакомьтесь с действиями развертывания для получения микропрограммы, при необходимости обновите ее, назначение лицензий и настройка параметров для телефонов общего пользования.
 ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231158"
 ---
 # <a name="set-up-common-area-phones"></a>Настройка телефонов общего пользования
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -83,7 +83,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 ![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) Назначьте номер телефона пользователю, используя **Центр администрирования Skype для бизнеса**
 
-1. В центре администрирования Office 365 > **центры администрирования** > **Скайп для бизнеса**.
+1. В > Центр администрирования Office 365, **центры администрирования** > **Скайп для бизнеса**.
 2. Далее: **Центр администрирования Skype для бизнеса** >  **Голосовая связь** > **Номера телефонов**.
 3. Выберите номер телефона из списка и нажмите **Назначить**.
 4. На странице **Назначить** в поле **Пользователь голосовой связи** введите имя пользователя телефона, а затем выберите пользователя в выпадающем списке **Выбор пользователя голосовой связи**.
@@ -140,7 +140,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 > Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если синхронизировано локальный AAD в Active Directory и использовать сторонние IDP и службы федерации Active Directory, подготовки БОЛТЫ завершится с ошибкой. В этом случае необходимо использовать 365 Office/Azure Active Directory только учетная запись (например, учетную запись домена **onmicrosoft.com** ) для Политики подготовки для работы.
 
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>Статьи по теме
 
 - Узнайте больше о доступных телефонах в статье [Развертывание телефонов Skype для бизнеса Online](deploying-skype-for-business-online-phones.md).
 - [Телефоны, поддерживаемые в Skype для бизнеса Online](getting-phones-for-skype-for-business-online.md)

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: 'Сводка: Узнайте, как резервное копирование и восстановление баз данных сервера сохраняемого чата в Скайп для Business Server 2015.'
 ms.openlocfilehash: a07321c7e9167e830a7af472e9022b669a45c3e7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222089"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Резервное копирование и восстановление баз данных сохраняемого чата в Skype для бизнеса Server 2015
  

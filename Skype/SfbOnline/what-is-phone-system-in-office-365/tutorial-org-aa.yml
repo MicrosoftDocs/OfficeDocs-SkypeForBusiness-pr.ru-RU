@@ -26,11 +26,11 @@ metadata:
   ms.custom:
   - NewAdminCenter_Update
   ms.openlocfilehash: 04ffca1074840ece195d82bffb797b2fb80330a2
-  ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+  ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 04/18/2019
-  ms.locfileid: "31914663"
+  ms.lasthandoff: 04/23/2019
+  ms.locfileid: "32233350"
 items:
 - durationInMinutes: 2
   content: "\n[Microsoft групп](/MicrosoftTeams/Teams-overview.md) и [Скайп для бизнеса](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) являются частью системы Office 365, которые предоставляют чата, беседы телефона, голосовой почты, собрания, файлы и приложения вместе в одном месте. Они требуют [**Телефонной системой**](/MicrosoftTeams/what-is-phone-system-in-office-365) лицензий для включения в Office 365 облаке управления звонками и УАТС. Лицензия доступна как дополнительный компонент или как часть E5 корпоративных лицензий. Сведения о лицензиях, [Скайп для лицензирования дополнительный компонент Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). \n\nЛицензия телефонной системой можно заменить имеющейся системы УАТС с [набором функций](/MicrosoftTeams/here-s-what-you-get-with-phone-system) , включают в себя голосовой почты и [автосекретари](/microsoftteams/what-are-phone-system-auto-attendants), какие let людей, вызовите бизнеса перейдите системе меню для получения их в правом отдел, участников и или Оператор. Автосекретари можно использовать с группами или Скайп для бизнеса. Создания автосекретаря системы организации с помощью Скайп по центру администрирования бизнеса.\n\nЕсли требуется настроить автосекретарю. в этой статье приведен пример планирования и реализации автосекретари по предполагаемую малого бизнеса. Не является универсальная решения, но это имеет смысл начать. \n\n## <a name=\"before-you-begin\"></a>До начала работы\n\nМы предполагаем, что вы уже сделали следующее: \n- [Настройка телефонной системы в вашей организации](/MicrosoftTeams/setting-up-your-phone-system.md) с помощью [Вызова планирование](/MicrosoftTeams/calling-plan-landing-page) для предоставления телефонных номеров для пользователей.\n- [Настройка облачной голосовой почты](/MicrosoftTeams/set-up-phone-system-voicemail.md) \n- Проверить [Каковы автосекретари облако?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) чтобы лучше понять возможности телефонной системой, с которыми можно работать с автосекретарем.\n\nКроме того, вы будете рады обнаружить, что большая часть планирования и проектирования можно выполнить с помощью доски или индекса карточек: Хороший план не требуя обеспечить технически.\n"

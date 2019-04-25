@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Обычно обслуживаемых для миграций рекомендуется создавать несколько тестовых пользователей и использовать их для проведения тестов системы. После успешно перемещен и проверить эти учетные записи, следует определить группы пользователей пилотного производства и перемещения учетных записей и проведение тестов проверки на них. При получении удовлетворяют результаты можно переместить остальных пользователей в новом развертывании.
 ms.openlocfilehash: beb5df367ba97db5f654eba01fa6790d0e806ab3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231366"
 ---
 # <a name="user-migration"></a>Перенос пользователей
 

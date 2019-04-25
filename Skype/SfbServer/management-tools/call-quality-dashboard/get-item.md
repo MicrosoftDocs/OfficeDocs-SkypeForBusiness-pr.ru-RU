@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Сводка: Сведения о операцию получения элемента, который является частью службы элемента. Служба элемент является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
 ms.openlocfilehash: 1f86c318139d328f414bf1290c66ddd7ccb7e20a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222697"
 ---
 # <a name="get-item"></a>Получение элемента
  

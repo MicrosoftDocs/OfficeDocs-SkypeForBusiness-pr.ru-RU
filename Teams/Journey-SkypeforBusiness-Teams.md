@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 60094153f0e48187b0437bce1f25077c742ad773
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226803"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Скайп для бизнеса об обновлении группами Майкрософт
 

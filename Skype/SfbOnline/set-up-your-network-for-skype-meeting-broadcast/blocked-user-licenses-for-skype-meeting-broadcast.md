@@ -19,11 +19,11 @@ ms.custom:
 - SMB
 description: К сожалению, существуют некоторые пользовательских лицензий, которые блокируются при пользователя перейдите к https://broadcast.skype.com и хотите использовать Скайп собрания вещания. Если пользователь видит это сообщение, у них один заблокированных лицензий, которые были им назначены. Если по-прежнему требуется использовать его, назначьте их другой лицензии Office 365.
 ms.openlocfilehash: b20334a525aa7942af90439cf05add7c49fc1f8b
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226366"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Заблокировано пользовательских лицензий для размещения вещания Скайп собрания
 
@@ -58,7 +58,7 @@ ms.locfileid: "27788968"
 - Преимущества использования Microsoft 365 A1 учебы
 
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Статьи по теме
 
 [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

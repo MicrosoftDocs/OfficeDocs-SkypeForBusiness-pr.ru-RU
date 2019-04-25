@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: В этом разделе описывается развертывание Shared Line Appearance (SLA) в накопительном пакете обновления Skype для бизнеса Server 2015 от ноября 2015 г. SLA является функцией для обработки нескольких вызовов на определенный номер, который называется общим.
 ms.openlocfilehash: c0da29e54f03a5c328f1b65807f438b63c14a68f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223079"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Развертывание распределенной линии для Skype для бизнеса Server 2015
 
@@ -36,7 +36,7 @@ ms.locfileid: "30878650"
 
 2. Программа установки разворачивает последнюю версию приложения SLA, однако приложение не включено по умолчанию. Для его включения необходимо выполнить приведенные ниже действия.
 
-    а. Зарегистрировать SLA в качестве серверного приложения, запустив следующую команду для каждого пула:
+    a) Зарегистрировать SLA в качестве серверного приложения, запустив следующую команду для каждого пула:
 
    ```
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri   https://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled                $true -Priority (Get-CsServerApplication -Identity              'Service:Registrar:%FQDN%/UserServices').Priority
@@ -44,7 +44,7 @@ ms.locfileid: "30878650"
 
    где %FQDN% — полное доменное имя пула.
 
-    б. Запустить следующую команду для обновления ролей RBAC для командлетов SLA:
+    б) Запустить следующую команду для обновления ролей RBAC для командлетов SLA:
 
    ```
    Update-CsAdminRole
