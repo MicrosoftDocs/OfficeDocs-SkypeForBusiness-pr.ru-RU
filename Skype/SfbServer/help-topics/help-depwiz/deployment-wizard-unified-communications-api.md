@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 description: Для получения дополнительных сведений об использовании мастер развертывания для установки Скайп для Business Server 2015 см Установка Скайп Business Server 2015.
 ms.openlocfilehash: 76624a6a6d5eb570bb1e17e09abe36a32e15560e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235067"
 ---
-# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="8cd86-103">Мастер развертывания: API унифицированных коммуникаций</span><span class="sxs-lookup"><span data-stu-id="8cd86-103">Deployment Wizard: Unified Communications API</span></span>
+# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="38eb2-103">Мастер развертывания: API унифицированных коммуникаций</span><span class="sxs-lookup"><span data-stu-id="38eb2-103">Deployment Wizard: Unified Communications API</span></span>
  
-<span data-ttu-id="8cd86-104">Для получения дополнительных сведений об использовании мастер развертывания для установки Скайп для Business Server 2015 видеть [Установка Скайп для Business Server 2015](../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="8cd86-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="38eb2-104">Для получения дополнительных сведений об использовании мастер развертывания для установки Скайп для Business Server 2015 видеть [Установка Скайп для Business Server 2015](../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="38eb2-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 

@@ -14,18 +14,18 @@ localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Укажите полное доменное имя (FQDN) шлюза телефонной сети (общего пользования PSTN), которые будут подключаться компоненты корпоративной голосовой связи с ТСОП или АТС учреждения (УАТС).
 ms.openlocfilehash: 586b59185187379b2f93bb0e7a67383b892153d7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226959"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="2affd-103">Определение полного доменного имени шлюза ТСОП</span><span class="sxs-lookup"><span data-stu-id="2affd-103">Define the PSTN Gateway FQDN</span></span>
+# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="7695d-103">Определение полного доменного имени шлюза ТСОП</span><span class="sxs-lookup"><span data-stu-id="7695d-103">Define the PSTN Gateway FQDN</span></span>
 
-<span data-ttu-id="2affd-104">Укажите полное доменное имя (FQDN) шлюза телефонной сети (общего пользования PSTN), которые будут подключаться компоненты корпоративной голосовой связи с ТСОП или АТС учреждения (УАТС).</span><span class="sxs-lookup"><span data-stu-id="2affd-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
+<span data-ttu-id="7695d-104">Укажите полное доменное имя (FQDN) шлюза телефонной сети (общего пользования PSTN), которые будут подключаться компоненты корпоративной голосовой связи с ТСОП или АТС учреждения (УАТС).</span><span class="sxs-lookup"><span data-stu-id="7695d-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
 
-<span data-ttu-id="2affd-105">Дополнительные сведения см [компоненты подключения к ТСОП в Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="2affd-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
+<span data-ttu-id="7695d-105">Дополнительные сведения см [компоненты подключения к ТСОП в Скайп для Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="7695d-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2affd-106">См. также</span><span class="sxs-lookup"><span data-stu-id="2affd-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7695d-106">См. также</span><span class="sxs-lookup"><span data-stu-id="7695d-106">See also</span></span>
 
-[<span data-ttu-id="2affd-107">Параметры развертывания шлюза ТСОП</span><span class="sxs-lookup"><span data-stu-id="2affd-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[<span data-ttu-id="7695d-107">Параметры развертывания шлюза ТСОП</span><span class="sxs-lookup"><span data-stu-id="7695d-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

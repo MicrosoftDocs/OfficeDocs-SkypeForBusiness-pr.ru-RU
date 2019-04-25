@@ -14,23 +14,23 @@ ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 ms.openlocfilehash: 7c37dc4117e1e427922f5a65cf72810d1080f3a4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221471"
 ---
-# <a name="dial-plan"></a><span data-ttu-id="56c31-104">Абонентская группа</span><span class="sxs-lookup"><span data-stu-id="56c31-104">Dial Plan</span></span>
+# <a name="dial-plan"></a><span data-ttu-id="889b9-104">Абонентская группа</span><span class="sxs-lookup"><span data-stu-id="889b9-104">Dial Plan</span></span>
 
-<span data-ttu-id="56c31-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="56c31-105">What do you want to do?</span></span> <span data-ttu-id="56c31-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="56c31-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="889b9-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="889b9-105">What do you want to do?</span></span> <span data-ttu-id="889b9-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="889b9-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="56c31-107">Создание или изменение абонентской группы в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="56c31-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [<span data-ttu-id="889b9-107">Создание или изменение абонентской группы в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="889b9-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [<span data-ttu-id="56c31-108">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="56c31-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [<span data-ttu-id="889b9-108">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="889b9-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [<span data-ttu-id="56c31-109">Создание или изменение правила нормализации в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="56c31-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="889b9-109">Создание или изменение правила нормализации в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="889b9-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="56c31-110">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="56c31-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="889b9-110">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="889b9-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
 
 

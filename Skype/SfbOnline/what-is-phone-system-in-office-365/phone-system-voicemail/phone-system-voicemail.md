@@ -1,5 +1,5 @@
 ---
-title: Голосовая почта в облаке
+title: Облачная голосовая почта
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom: None
 description: Сведения о голосовой почты в облаке.
 ms.openlocfilehash: 6c224d3b00234bc65f724f7c255049b3be9edbe8
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227777"
 ---
-# <a name="cloud-voicemail"></a><span data-ttu-id="f1328-103">Голосовая почта в облаке</span><span class="sxs-lookup"><span data-stu-id="f1328-103">Cloud Voicemail</span></span>
+# <a name="cloud-voicemail"></a><span data-ttu-id="e64bb-103">Облачная голосовая почта</span><span class="sxs-lookup"><span data-stu-id="e64bb-103">Cloud Voicemail</span></span>
 
 

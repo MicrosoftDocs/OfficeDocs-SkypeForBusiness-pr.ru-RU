@@ -1,5 +1,5 @@
 ---
-title: Просмотр списка телефонных номеров в организации
+title: Просмотр списка номеров телефонов в организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,101 +22,101 @@ ms.custom:
 - Calling Plans
 description: Узнайте, как просмотреть список всех телефонных номеров в вашей организации, все номера, назначенные пользователям, и все номера, назначенные пользователям голосовой связи, из центра администрирования Skype для бизнеса.
 ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229947"
 ---
-# <a name="see-a-list-of-phone-numbers-in-your-organization"></a><span data-ttu-id="84e6f-103">Просмотр списка телефонных номеров в организации</span><span class="sxs-lookup"><span data-stu-id="84e6f-103">See a list of phone numbers in your organization</span></span>
+# <a name="see-a-list-of-phone-numbers-in-your-organization"></a><span data-ttu-id="c2811-103">Просмотр списка номеров телефонов в организации</span><span class="sxs-lookup"><span data-stu-id="c2811-103">See a list of phone numbers in your organization</span></span>
 
-<span data-ttu-id="84e6f-104">Есть различные типы телефонных номеров, которые в Office 365 можно назначить пользователям или другим службам (служебные номера), таким как Аудиоконференции.</span><span class="sxs-lookup"><span data-stu-id="84e6f-104">There are different types of phone numbers that you can assign to users or other services (service numbers), such as for Audio Conferencing in Office 365.</span></span>
+<span data-ttu-id="c2811-104">Есть различные типы телефонных номеров, которые в Office 365 можно назначить пользователям или другим службам (служебные номера), таким как Аудиоконференции.</span><span class="sxs-lookup"><span data-stu-id="c2811-104">There are different types of phone numbers that you can assign to users or other services (service numbers), such as for Audio Conferencing in Office 365.</span></span>
   
-## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a><span data-ttu-id="84e6f-105">Просмотр списка всех телефонных номеров, имеющихся в организации</span><span class="sxs-lookup"><span data-stu-id="84e6f-105">To see a list of all phone numbers that you have for your organization</span></span>
+## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a><span data-ttu-id="c2811-105">Просмотр списка всех телефонных номеров, имеющихся в организации</span><span class="sxs-lookup"><span data-stu-id="c2811-105">To see a list of all phone numbers that you have for your organization</span></span>
 
-<span data-ttu-id="84e6f-106">![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**</span><span class="sxs-lookup"><span data-stu-id="84e6f-106">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="c2811-106">![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**</span><span class="sxs-lookup"><span data-stu-id="c2811-106">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
 
-1. <span data-ttu-id="84e6f-107">Войдите в Office 365 под своей учебной или рабочей учетной записью.</span><span class="sxs-lookup"><span data-stu-id="84e6f-107">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="c2811-107">Войдите в Office 365 под своей учебной или рабочей учетной записью.</span><span class="sxs-lookup"><span data-stu-id="c2811-107">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="84e6f-108">Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.</span><span class="sxs-lookup"><span data-stu-id="84e6f-108">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
+2. <span data-ttu-id="c2811-108">Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.</span><span class="sxs-lookup"><span data-stu-id="c2811-108">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
     
-3. <span data-ttu-id="84e6f-109">В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **голосовой связи** > **телефонных номеров**.</span><span class="sxs-lookup"><span data-stu-id="84e6f-109">In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Phone numbers**.</span></span>
+3. <span data-ttu-id="c2811-109">В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **голосовой связи** > **телефонных номеров**.</span><span class="sxs-lookup"><span data-stu-id="c2811-109">In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Phone numbers**.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="84e6f-110">Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .</span><span class="sxs-lookup"><span data-stu-id="84e6f-110">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="c2811-110">Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .</span><span class="sxs-lookup"><span data-stu-id="c2811-110">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
     
-4. <span data-ttu-id="84e6f-111">Для просмотра назначенных телефонных номеров см. столбец **Номер**.</span><span class="sxs-lookup"><span data-stu-id="84e6f-111">To view the phone numbers that are assigned, see the **Number** column.</span></span>
+4. <span data-ttu-id="c2811-111">Для просмотра назначенных телефонных номеров см. столбец **Номер**.</span><span class="sxs-lookup"><span data-stu-id="c2811-111">To view the phone numbers that are assigned, see the **Number** column.</span></span>
     
-5. <span data-ttu-id="84e6f-112">Используйте раскрывающийся список для применения фильтра, чтобы просмотреть:</span><span class="sxs-lookup"><span data-stu-id="84e6f-112">You can use the drop-down list to filter your view by:</span></span>
+5. <span data-ttu-id="c2811-112">Используйте раскрывающийся список для применения фильтра, чтобы просмотреть:</span><span class="sxs-lookup"><span data-stu-id="c2811-112">You can use the drop-down list to filter your view by:</span></span>
     
-   - <span data-ttu-id="84e6f-113">**Все** телефонные номера, включая служебные телефонные номера.</span><span class="sxs-lookup"><span data-stu-id="84e6f-113">**All** phone numbers including service phone numbers.</span></span>
+   - <span data-ttu-id="c2811-113">**Все** телефонные номера, включая служебные телефонные номера.</span><span class="sxs-lookup"><span data-stu-id="c2811-113">**All** phone numbers including service phone numbers.</span></span>
     
-   - <span data-ttu-id="84e6f-114">Установленный вами **диапазон телефонных номеров**.</span><span class="sxs-lookup"><span data-stu-id="84e6f-114">A phone **number range** that you set.</span></span>
+   - <span data-ttu-id="c2811-114">Установленный вами **диапазон телефонных номеров**.</span><span class="sxs-lookup"><span data-stu-id="c2811-114">A phone **number range** that you set.</span></span>
     
-   - <span data-ttu-id="84e6f-115">Телефонные номера, **назначенные пользователю**.</span><span class="sxs-lookup"><span data-stu-id="84e6f-115">Phone numbers that are **assigned to user**.</span></span>
+   - <span data-ttu-id="c2811-115">Телефонные номера, **назначенные пользователю**.</span><span class="sxs-lookup"><span data-stu-id="c2811-115">Phone numbers that are **assigned to user**.</span></span>
     
-   - <span data-ttu-id="84e6f-116">Телефонные номера, **назначенные конференции** для присоединения к конференции по телефону.</span><span class="sxs-lookup"><span data-stu-id="84e6f-116">Phone numbers that **assigned to conference** for dial-in conferencing.</span></span>
+   - <span data-ttu-id="c2811-116">Телефонные номера, **назначенные конференции** для присоединения к конференции по телефону.</span><span class="sxs-lookup"><span data-stu-id="c2811-116">Phone numbers that **assigned to conference** for dial-in conferencing.</span></span>
     
-   - <span data-ttu-id="84e6f-117">**Неназначенные** телефонные номера.</span><span class="sxs-lookup"><span data-stu-id="84e6f-117">Phone numbers that are **unassigned**.</span></span>
+   - <span data-ttu-id="c2811-117">**Неназначенные** телефонные номера.</span><span class="sxs-lookup"><span data-stu-id="c2811-117">Phone numbers that are **unassigned**.</span></span>
     
-   - <span data-ttu-id="84e6f-118">**Расположение** телефонных номеров.</span><span class="sxs-lookup"><span data-stu-id="84e6f-118">The **location** of the phone numbers.</span></span>
+   - <span data-ttu-id="c2811-118">**Расположение** телефонных номеров.</span><span class="sxs-lookup"><span data-stu-id="c2811-118">The **location** of the phone numbers.</span></span>
     
-## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a><span data-ttu-id="84e6f-119">Просмотр всех телефонных номеров, назначенных пользователям</span><span class="sxs-lookup"><span data-stu-id="84e6f-119">To see all of the phone numbers that are assigned to users</span></span>
+## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a><span data-ttu-id="c2811-119">Просмотр всех телефонных номеров, назначенных пользователям</span><span class="sxs-lookup"><span data-stu-id="c2811-119">To see all of the phone numbers that are assigned to users</span></span>
 
-<span data-ttu-id="84e6f-120">![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**</span><span class="sxs-lookup"><span data-stu-id="84e6f-120">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="c2811-120">![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**</span><span class="sxs-lookup"><span data-stu-id="c2811-120">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
 
-<span data-ttu-id="84e6f-121">При настройке параметров пользователей вам может понадобиться просмотреть список телефонных номеров, которые уже назначены пользователям, и какие телефонные номера можно им назначить.</span><span class="sxs-lookup"><span data-stu-id="84e6f-121">When you are setting up users, you might just want to see the list of the phone numbers that are already assigned to users and which phone numbers can be assigned to them.</span></span>
+<span data-ttu-id="c2811-121">При настройке параметров пользователей вам может понадобиться просмотреть список телефонных номеров, которые уже назначены пользователям, и какие телефонные номера можно им назначить.</span><span class="sxs-lookup"><span data-stu-id="c2811-121">When you are setting up users, you might just want to see the list of the phone numbers that are already assigned to users and which phone numbers can be assigned to them.</span></span>
   
-1. <span data-ttu-id="84e6f-122">Войдите в Office 365 под своей учебной или рабочей учетной записью.</span><span class="sxs-lookup"><span data-stu-id="84e6f-122">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="c2811-122">Войдите в Office 365 под своей учебной или рабочей учетной записью.</span><span class="sxs-lookup"><span data-stu-id="c2811-122">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="84e6f-123">Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.</span><span class="sxs-lookup"><span data-stu-id="84e6f-123">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
+2. <span data-ttu-id="c2811-123">Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.</span><span class="sxs-lookup"><span data-stu-id="c2811-123">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
     
-3. <span data-ttu-id="84e6f-124">В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **голосовой связи** > **пользователей голосовой связи**.</span><span class="sxs-lookup"><span data-stu-id="84e6f-124">In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.</span></span>
+3. <span data-ttu-id="c2811-124">В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **голосовой связи** > **пользователей голосовой связи**.</span><span class="sxs-lookup"><span data-stu-id="c2811-124">In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="84e6f-125">Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .</span><span class="sxs-lookup"><span data-stu-id="84e6f-125">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="c2811-125">Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .</span><span class="sxs-lookup"><span data-stu-id="c2811-125">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
     
-4. <span data-ttu-id="84e6f-p101">You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:</span><span class="sxs-lookup"><span data-stu-id="84e6f-p101">You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:</span></span>
+4. <span data-ttu-id="c2811-p101">You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:</span><span class="sxs-lookup"><span data-stu-id="c2811-p101">You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:</span></span>
     
-   - <span data-ttu-id="84e6f-128">**Все** телефонные номера, включая служебные телефонные номера.</span><span class="sxs-lookup"><span data-stu-id="84e6f-128">**All** phone numbers including service phone numbers.</span></span>
+   - <span data-ttu-id="c2811-128">**Все** телефонные номера, включая служебные телефонные номера.</span><span class="sxs-lookup"><span data-stu-id="c2811-128">**All** phone numbers including service phone numbers.</span></span>
     
-   - <span data-ttu-id="84e6f-129">**Номер, назначенный** пользователю.</span><span class="sxs-lookup"><span data-stu-id="84e6f-129">**Number assigned** to user.</span></span>
+   - <span data-ttu-id="c2811-129">**Номер, назначенный** пользователю.</span><span class="sxs-lookup"><span data-stu-id="c2811-129">**Number assigned** to user.</span></span>
     
-   - <span data-ttu-id="84e6f-130">**Номер, не назначенный** пользователю.</span><span class="sxs-lookup"><span data-stu-id="84e6f-130">**No number assigned** to user.</span></span>
+   - <span data-ttu-id="c2811-130">**Номер, не назначенный** пользователю.</span><span class="sxs-lookup"><span data-stu-id="c2811-130">**No number assigned** to user.</span></span>
     
-## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a><span data-ttu-id="84e6f-131">Просмотр телефонных номеров, назначенных пользователям голосовой связи</span><span class="sxs-lookup"><span data-stu-id="84e6f-131">To see the phone numbers that are assigned to voice users</span></span>
+## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a><span data-ttu-id="c2811-131">Просмотр телефонных номеров, назначенных пользователям голосовой связи</span><span class="sxs-lookup"><span data-stu-id="c2811-131">To see the phone numbers that are assigned to voice users</span></span>
 
-<span data-ttu-id="84e6f-132">![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**</span><span class="sxs-lookup"><span data-stu-id="84e6f-132">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="c2811-132">![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**</span><span class="sxs-lookup"><span data-stu-id="c2811-132">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
 
-<span data-ttu-id="84e6f-p102">When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the list of the users that have phone numbers assigned to users, those that don't and whether a user is hosted Online or on-premises.</span><span class="sxs-lookup"><span data-stu-id="84e6f-p102">When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the list of the users that have phone numbers assigned to users, those that don't and whether a user is hosted Online or on-premises.</span></span>
+<span data-ttu-id="c2811-p102">When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the list of the users that have phone numbers assigned to users, those that don't and whether a user is hosted Online or on-premises.</span><span class="sxs-lookup"><span data-stu-id="c2811-p102">When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the list of the users that have phone numbers assigned to users, those that don't and whether a user is hosted Online or on-premises.</span></span>
   
-1. <span data-ttu-id="84e6f-135">Войдите в Office 365 под своей учебной или рабочей учетной записью.</span><span class="sxs-lookup"><span data-stu-id="84e6f-135">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="c2811-135">Войдите в Office 365 под своей учебной или рабочей учетной записью.</span><span class="sxs-lookup"><span data-stu-id="c2811-135">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="84e6f-136">Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.</span><span class="sxs-lookup"><span data-stu-id="84e6f-136">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
+2. <span data-ttu-id="c2811-136">Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.</span><span class="sxs-lookup"><span data-stu-id="c2811-136">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
     
-3. <span data-ttu-id="84e6f-137">В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **голосовой связи** > **пользователей голосовой связи**.</span><span class="sxs-lookup"><span data-stu-id="84e6f-137">In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.</span></span>
+3. <span data-ttu-id="c2811-137">В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **голосовой связи** > **пользователей голосовой связи**.</span><span class="sxs-lookup"><span data-stu-id="c2811-137">In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="84e6f-138">Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .</span><span class="sxs-lookup"><span data-stu-id="84e6f-138">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="c2811-138">Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .</span><span class="sxs-lookup"><span data-stu-id="c2811-138">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
     
-4. <span data-ttu-id="84e6f-p103">You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:</span><span class="sxs-lookup"><span data-stu-id="84e6f-p103">You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:</span></span>
+4. <span data-ttu-id="c2811-p103">You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:</span><span class="sxs-lookup"><span data-stu-id="c2811-p103">You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:</span></span>
     
-   - <span data-ttu-id="84e6f-141">**Активные пользователи** и является ли пользователь подключенным через Интернет или локальным.</span><span class="sxs-lookup"><span data-stu-id="84e6f-141">**Active users** and whether a user is Online or on-premises.</span></span>
+   - <span data-ttu-id="c2811-141">**Активные пользователи** и является ли пользователь подключенным через Интернет или локальным.</span><span class="sxs-lookup"><span data-stu-id="c2811-141">**Active users** and whether a user is Online or on-premises.</span></span>
     
-   - <span data-ttu-id="84e6f-142">**Ожидающие лицензий** и является ли пользователь подключенным через Интернет или локальным.</span><span class="sxs-lookup"><span data-stu-id="84e6f-142">**Pending licenses** and whether a user is Online or on-premises.</span></span>
+   - <span data-ttu-id="c2811-142">**Ожидающие лицензий** и является ли пользователь подключенным через Интернет или локальным.</span><span class="sxs-lookup"><span data-stu-id="c2811-142">**Pending licenses** and whether a user is Online or on-premises.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="84e6f-143">См. также:</span><span class="sxs-lookup"><span data-stu-id="84e6f-143">Related topics</span></span>
-[<span data-ttu-id="84e6f-144">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="84e6f-144">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="c2811-143">См. также:</span><span class="sxs-lookup"><span data-stu-id="c2811-143">Related topics</span></span>
+[<span data-ttu-id="c2811-144">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="c2811-144">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="84e6f-145">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="84e6f-145">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="c2811-145">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="c2811-145">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="84e6f-146">Управление номерами телефонов организации</span><span class="sxs-lookup"><span data-stu-id="84e6f-146">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="c2811-146">Управление номерами телефонов организации</span><span class="sxs-lookup"><span data-stu-id="c2811-146">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="84e6f-147">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="84e6f-147">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="c2811-147">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="c2811-147">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="84e6f-148">[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="84e6f-148">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="c2811-148">[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="c2811-148">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
   
  
