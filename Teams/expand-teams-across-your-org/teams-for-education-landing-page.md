@@ -10,18 +10,19 @@ ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8704f1d3cae6bb6e0f8d26befb2a21d71d5460cf
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: f44f5d5ad76da0385fa63203d61da3a82923047d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245724"
 ---
 # <a name="teams-for-education"></a>Teams для образовательных учреждений
 
-С командами школа или учебное заведение можно создать совместных аудиторий, подключение в сообществах профессионального обучения и общаться с школа персонала. Используйте ресурсы admin здесь помогут вам успешно развертывания, внедрение и управление группами в учреждения.  
+С командами преподавателей и факультета можно создать совместных аудиторий, подключения в сообществах профессионального обучения и взаимодействовать с преподавателей и учащихся. Используйте ресурсы admin здесь помогут вам успешно развертывания, внедрение и управление группами в школе или учебное заведение. 
 
 <ul class="panelContent cardsFTitle">
     <li>
