@@ -1,5 +1,5 @@
 ---
-title: Разверните узел группами Майкрософт в организации
+title: Использование Microsoft Teams во всей организации
 description: Используйте следующие ресурсы для получения максимально эффективному использованию групп внутри организации.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1772131042c80ca34991e44352ebf501527ac337
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246180"
 ---
-# <a name="expand-microsoft-teams-across-your-organization"></a>Разверните узел группами Майкрософт в организации
+# <a name="expand-microsoft-teams-across-your-organization"></a>Использование Microsoft Teams во всей организации
 
 <br>
 <ul class="panelContent cardsFTitle">
@@ -34,7 +34,7 @@ ms.locfileid: "31013155"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Смены для групп</h3>
+                        <h3>"Смены" для Teams</h3>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ ms.locfileid: "31013155"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Группы конструкторов здравоохранения</h3>
+                        <h3>Teams для сферы здравоохранения</h3>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ ms.locfileid: "31013155"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Группы для розничной торговли</h3>
+                        <h3>Teams для розничной торговли</h3>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ ms.locfileid: "31013155"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Группы для государственных организаций</h3>
+                        <h3>Teams для государственных организаций</h3>
                     </div>
                 </div>
             </div>

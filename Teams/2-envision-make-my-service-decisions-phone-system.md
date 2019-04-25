@@ -1,7 +1,7 @@
 ---
 title: Принятие решений по службе телефонной системы с планами звонков — Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 98a66e0335daf0e74c96d0a2dad18f89bd1f4c5f
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242419"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -370,7 +370,7 @@ ms.locfileid: "30948189"
 > [!TIP]
 > Если это применимо в проект, чтобы задокументировать конфигурации плана удаленного клиента можно использовать следующий шаблон.
 > 
-> |Имя абонентской группы клиента<br>_Описание_.  |Имя правил нормализации<br>_Описание_  |Шаблон<br>Преобразование<br>IsInternalExtension  |
+> |Имя абонентской группы клиента<br>_Описание_  |Имя правил нормализации<br>_Описание_  |Шаблон<br>Преобразование<br>IsInternalExtension  |
 > |---------|---------|---------|
 > |**AU-NSW-NorthRyde-OER**<br>_Абонентская группа One Epping Road North Ryde, NSW, AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Внутренний номер (x7000–x7999) для офиса One Epping Road, North Ryde, NSW, Австралия_|^(7\d{3})$<br>+6125550$1<br>True|
 > ||**AU-NSW-Local**<br>_Нормализация местного номера для NSW, Австралия_|^ ([2-9] \d{7}) $<br>+612$1<br>False|

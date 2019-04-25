@@ -1,5 +1,5 @@
 ---
-title: Смены для групп
+title: "\"Смены\" для Teams"
 description: Ознакомьтесь с рекомендациями администратора, необходимую для настройки и управления ими смены, средства управления расписание в группах.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e1d8336719e8858819f81f6e174c20dac09aa429
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245910"
 ---
-# <a name="shifts-for-teams"></a>Смены для групп
+# <a name="shifts-for-teams"></a>"Смены" для Teams
 
 Команды предоставляет Firstline сотрудников в вашей организации средства, необходимые для связи и эффективная совместная работа и эффективную работу. Здесь вы найдете руководство администратора, необходимую для настройки и управления ими смены, средства управления расписание в группах.
 

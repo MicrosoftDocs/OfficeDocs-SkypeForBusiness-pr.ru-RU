@@ -1,7 +1,7 @@
 ---
 title: Руководство по работе с Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 04/12/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 45de98935cdba03697c84172ba7a0c081b0811da
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241822"
 ---
 # <a name="operate-my-service"></a>Использование службы
 
@@ -364,7 +364,7 @@ NET просто продавать счета (ТРУБЫ) — это пока�
 
 [Планировщик сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
-[URL-адреса и диапазоны IP-адресов Office 365](https://aka.ms/o365ips)
+[URL-адреса и диапазоны IP-адресов для Office 365](https://aka.ms/o365ips)
 
 [Схема данных построения](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -455,7 +455,7 @@ NET просто продавать счета (ТРУБЫ) — это пока�
 
 ### <a name="references"></a>Ссылки 
 
-[URL-адреса и диапазоны IP-адресов Office 365](https://aka.ms/o365ips)
+[URL-адреса и диапазоны IP-адресов для Office 365](https://aka.ms/o365ips)
 
 [Работа с клиентами для Microsoft Teams](get-clients.md)
 

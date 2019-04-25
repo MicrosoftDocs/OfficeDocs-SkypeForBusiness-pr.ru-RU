@@ -1,7 +1,7 @@
 ---
 title: Планирование управления в Teams — Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 072fc92184841be318e84e7891a204d1b7576215
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246172"
 ---
 # <a name="plan-for-governance-in-teams"></a>Планирование управления в Teams
 
@@ -117,7 +117,7 @@ ms.locfileid: "31959523"
 
 Подробный список всех параметров, включая технические рекомендации по их реализации для вашей организации содержатся в следующих статьях:
 
--   [Управление параметрами групп Майкрософт для вашей организации](enable-features-office-365.md)
+-   [Управление параметрами Microsoft Teams в организации](enable-features-office-365.md)
 -   [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Управление политиками собрания в группах](meeting-policies-in-teams.md)
 

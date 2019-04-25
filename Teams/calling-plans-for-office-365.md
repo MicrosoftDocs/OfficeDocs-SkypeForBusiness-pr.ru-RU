@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 023b04b6d7826913fc0946ff88dda5c247db92c0
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: 697a822b70a93fc14b6bf0309167e4fc4c6e6a34
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245041"
 ---
 # <a name="calling-plans-for-office-365"></a>Планы звонков для Office 365
 
@@ -90,11 +90,11 @@ ms.locfileid: "30664734"
 - [Планирование решения телефонной системы в Office 365 (облачная УАТС)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 - [Настройка Skype для бизнеса Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Настройка голосовой почты телефонной системы — справка для администраторов](set-up-phone-system-voicemail.md)
+- [Настройка облачной голосовой почты — справка для администратора](set-up-phone-system-voicemail.md)
     
 - [Настройка планов звонков](set-up-calling-plans.md)
     

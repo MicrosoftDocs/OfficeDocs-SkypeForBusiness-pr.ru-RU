@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1ef7ee44b1d6318b85461b5d6b9d4173cc8552
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 9927da9aea89eeb4d5b1b71eac2818c5deb52925
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245940"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -59,8 +59,6 @@ ms.locfileid: "31013211"
 
 ### <a name="use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams"></a>С помощью политики программы установки приложения Firstline работников для смены ПИН-кода для групп
 
-> [!INCLUDE [Preview customer token](../../includes/preview-feature.md)]
-
 Настройка политики в отношении приложений позволяют настраивать группам выделите пункт приложения, которые наиболее важные для пользователей в вашей организации. Указать в политике почтовых приложений связанные с панели приложения&mdash;полосы прокрутки на стороне клиента рабочего стола группами и в нижней части мобильных клиентов группами&mdash;которой пользователи могут быстро и легко получить доступ к их. 
  
 Команды включает в себя встроенной политики рабочих Firstline программы установки приложения, которое можно назначить Firstline сотрудников в вашей организации. По умолчанию политики включает действия, смены, беседы и вызова приложения. 
@@ -98,5 +96,5 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWo
 ``` 
 В зависимости от числа членов группы эта команда может занять несколько минут для выполнения.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 - [Сдвигает справки для работников Firstline](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)

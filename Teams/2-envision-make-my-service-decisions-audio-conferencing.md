@@ -1,7 +1,7 @@
 ---
 title: Принятие решений по службе аудиоконференций — Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 12/28/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30570000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241542"
 ---
 # <a name="make-my-service-decisions"></a>Мои проведения службы
 
@@ -76,10 +76,10 @@ ms.locfileid: "30570000"
 > 
 > |Office   |Расположение |Служба конференц-связи по ТСОП  |
 > |---------|---------|---------|
-> |One Epping Road|Австралия|Аудиоконференция|
+> |One Epping Road|Австралия|Аудиоконференции|
 > |100 Cyberport Road|Гонконг (специальный административный район)|Устаревшая служба конференц-связи по ТСОП|
-> |One Marina Boulevard|Сингапур|Аудиоконференция|
-> |32 London Bridge Street|Соединенное Королевство|Аудиоконференция|
+> |One Marina Boulevard|Сингапур|Аудиоконференции|
+> |32 London Bridge Street|Соединенное Королевство|Аудиоконференции|
 > |39 quai du Président Roosevelt|Франция|Аудиоконференции|
 
 <!--ENDOFSECTION-->
@@ -161,9 +161,9 @@ ms.locfileid: "30570000"
 
 Для получения дополнительных сведений о конференции bridge телефонных номеров, ознакомьтесь со следующими статьями:
 
--   [Настройка звука конференц-связи для групп Майкрософт](set-up-audio-conferencing-in-teams.md)
+-   [Настройка аудиоконференций для Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
--   [Телефонные номера для аудиоконференций](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+-   [Номера телефонов для аудиоконференции](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
 -   [Получение номеров телефонов служб](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
@@ -348,7 +348,7 @@ ms.locfileid: "30570000"
 > [!TIP]
 > Если это применимо в проект, чтобы задокументировать конфигурации плана удаленного клиента можно использовать следующий шаблон.
 > 
-> |Имя абонентской группы клиента<br>_Описание_.  |Имя правил нормализации<br>_Описание_  |Шаблон<br>Преобразование<br>IsInternalExtension  |
+> |Имя абонентской группы клиента<br>_Описание_  |Имя правил нормализации<br>_Описание_  |Шаблон<br>Преобразование<br>IsInternalExtension  |
 > |---------|---------|---------|
 > |**AU-NSW-NorthRyde-OER**<br>_Абонентская группа One Epping Road North Ryde, NSW, AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Внутренний номер (x7000–x7999) для офиса One Epping Road, North Ryde, NSW, Австралия_|^(7\d{3})$<br>+6125550$1<br>True|
 > ||**AU-NSW-Local**<br>_Нормализация местного номера для NSW, Австралия_|^ ([2-9] \d{7}) $<br>+612$1<br>False|

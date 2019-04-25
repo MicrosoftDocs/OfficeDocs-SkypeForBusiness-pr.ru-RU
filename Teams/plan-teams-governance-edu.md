@@ -1,7 +1,7 @@
 ---
 title: 'Управление решениями Майкрософт для образования: вопросы и ответы для ИТ-специалистов — Microsoft Teams'
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: article
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5058347677b1c5baef6f01fefb1f8eca3ac4384
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e2be87b8d48970c9f33a4a49ae9970bee6fb3da3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246164"
 ---
-# <a name="microsoft-education-governance-faq-for-admins"></a>Управления Microsoft Education вопросы и ответы для администраторов
+# <a name="microsoft-education-governance-faq-for-admins"></a>Управление решениями Майкрософт для образования: вопросы и ответы для администраторов
 
 > [!Tip]
 > Просмотрите следующие сеанса для изучения Дополнительные сведения об управлении в группах Майкрософт: [Управление, управления и жизненного цикла в группах Майкрософт](https://aka.ms/teams-governance)
@@ -113,7 +113,7 @@ ms.locfileid: "30461182"
 
 Да. Можно использовать политики для управления конкретных системы обмена сообщениями, собрания, вызова и live возможностей события, о которых пользователи имеют доступ к. Можно использовать параметры на уровне клиента для применяются те же параметры ко всем или применять политики уровня пользователя при необходимости. 
 
-Для получения дополнительных сведений о политиках группами видеть [возможности управления группами Майкрософт в организации Office 365](enable-features-office-365.md).
+Для получения дополнительных сведений о политиках группами см. [Параметры управления группами Майкрософт для вашей организации](enable-features-office-365.md).
  
 ## <a name="can-i-control-what-external-parties-my-faculty-and-students-collaborate-with"></a>Можно контролировать, какие сторонними Мои преподавателей и учащихся совместно работать с?
 

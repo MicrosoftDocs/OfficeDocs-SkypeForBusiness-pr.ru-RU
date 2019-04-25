@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: Вы можете загрузить эти метки для экстренного вызова при использовании вызова планы в Office 365.
 ms.openlocfilehash: 2b88bfe984aed655a78f69a580fdd1d510f3d8e1
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244439"
 ---
 # <a name="emergency-calling-labels"></a>Экстренные вызовы меток
 
@@ -35,6 +35,6 @@ ms.locfileid: "30542002"
 
 ## <a name="related-topics"></a>См. также:
 
-[Различные типы номеров телефонов для планов звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)
+[Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)

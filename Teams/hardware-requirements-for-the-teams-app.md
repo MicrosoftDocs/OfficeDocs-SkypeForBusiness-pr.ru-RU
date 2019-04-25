@@ -19,11 +19,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 66a5b4a5ef64f83f61d106a6cd2052516cda95a7
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235017"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Аппаратные требования для приложения Microsoft Teams
 
@@ -67,7 +67,7 @@ ms.locfileid: "31749679"
 
 В разделе [группы для виртуализации рабочих столов инфраструктура](teams-for-vdi.md) требования для запуска групп в виртуализованной среде. 
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>Статьи по теме
 - [Получение приложения группы](get-clients.md)
 - [Группами Майкрософт на мобильных устройствах](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Установка приложения группами Майкрософт, с помощью файла MSI](msi-deployment.md)

@@ -18,11 +18,11 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Узнайте, как включить логотип, юридическое заявление об отказе и другие сведения в приглашения на собрание.
 ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955008"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236048"
 ---
 # <a name="customize-meeting-invitations-in-microsoft-teams"></a>Настройка приглашений на собрания в Microsoft Teams
 
@@ -49,6 +49,6 @@ ms.locfileid: "30955008"
 5.  Нажмите кнопку **Сохранить**.
 6.  Подождите час или получить появится для всех служб Office 365 изменения. Затем перейдите в Outlook и запланировать собрание Скайп, чтобы отобразить изменения.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Управление настройками собраний в Microsoft Teams](meeting-settings-in-teams.md)

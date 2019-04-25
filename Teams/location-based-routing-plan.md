@@ -17,11 +17,11 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b91eb877da7d18b41fdb21acbb7ade018a2c97b5
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246145"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Планирование маршрутизации на основе расположения для прямой маршрутизации
 
@@ -253,6 +253,6 @@ ms.locfileid: "30641099"
 ## <a name="next-steps"></a>Дальнейшие действия
 Перейдите к [Настройка параметров сети для маршрутизации на основе местоположения](location-based-routing-configure-network-settings.md).
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>Статьи по теме
 - [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)
 - [Терминология маршрутизации на основе расположения](location-based-routing-terminology.md)

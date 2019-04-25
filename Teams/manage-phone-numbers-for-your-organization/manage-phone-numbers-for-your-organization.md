@@ -22,13 +22,13 @@ f1keywords:
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
-description: Для каждой страны или региона существуют свои инструкцииУказания по получению номеров телефоновных номеровдля пользователей в Skype для бизнеса  Online и Microsoft  Teams отличаются в зависимости от страны или региона. Воспользуйтесь ссылкой на вашу страну или регион для получения необходимой информации.
+description: Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the information you need.
 ms.openlocfilehash: dd4bb74172736ae3b82bef00a4b4b11c7285ee1f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245280"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Управление номерами телефонов организации
 Существует три способа получить телефонные номера для пользователей и служб (платные и бесплатные) для вашей организации.
@@ -37,7 +37,7 @@ ms.locfileid: "30543129"
 - Передавайте или «портируйте» существующие номера нам.
 
 > [!IMPORTANT]
-> В **Бельгия, Ирландия, Германия и Нидерландов**не могут получить новые номера телефонов телефон с помощью **Скайп по центру администрирования бизнеса**; необходимо загрузить и заполнить форму. Для получения информации о новых номерах телефонов в Австралии, перейдите в раздел [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).
+> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).
 
 ***
 Если вы знаете, какой тип формы вам нужен, используйте раскрывающееся меню, чтобы выбрать страну или регион, в котором вы хотите получить номер.
@@ -62,28 +62,28 @@ ms.locfileid: "30543129"
 
 В некоторых случаях (в зависимости от страны или региона) не будут иметь возможность получать нового пользователя (подписчика) или служба (международную или бесплатная) требуются номеров с помощью **Скайп по центру администрирования бизнеса**, или номера телефона или коды областей.
 
-Если это так, то вам необходимо загрузить правильную форму в формате PDF (для каждой страны или региона и типа номера) и отправить ее нам. Наш службы поддержки займет оттуда и сообщит о ход выполнения или заказа.
+If so, you will need to download the correct PDF form (per country/region and the type of numbers) and send it back to us. Our service desk will take it from there and will let you know about the progress or your order.
 
 ### <a name="letters-of-authorization-loas-for-transferring-numbers"></a>Доверенности (LOAs) для передачи номеров
-Если вам нужно передать номера телефонов, вам нужно будет загрузить **Доверенность (LOA)**, которая дает разрешение на передачу существующего номера (номеров) от стороннего поставщика услуг. Используйте LOA, если у вас есть:
+If you need to transfer phone numbers, you'll to download a **Letter of Authorization (LOA)**, which gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute. Use an LOA if you have:
 - Номера телефонов пользователя, которые у вас уже есть от другого поставщика услуг.
 - Сервисные номера телефонов (платные) для аудиоконференций, автоответчики или очередь вызовов.
 - Сервисные номера телефонов (бесплатные).
 - Вам нужно получить более 999 номеров телефонов, но вы не можете войти в Центр администрирования Skype для бизнеса с помощью **Local Number Porting wizard**.
 
 ## <a name="if-you-still-need-help-and-arent-sure-what-to-do"></a>Если вам по-прежнему нужна помощь, но вы не уверены, что нужно делать....
-Если вам по-прежнему нужна помощь, дайте знать, как мы можем помочь. Отправляя ваш запрос помощи, включите сведения об ИД (идентификаторе вашей организации), доменах, типах телефонных номеров, с которыми вам требуется помощь, сколько номеров телефонов вам нужно, сведения о доверенном лице (доверителе учетной записи) и другие важные сведения о вашей проблеме.
+If you still need help, please let us know how we can help you. In your Help request, include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.
 - Для получения справки о телефонных номерах в США, [отправьте запрос](mailto:ptn@microsoft.com).
 - Для получения справки о телефонных номерах за пределами США, [отправьте запрос](mailto:ptneu@microsoft.com).
 
 #### <a name="additional-resources"></a>Дополнительные ресурсы
-- Узнать о доступности планов звонков в вашей стране или вашем регионе можно в разделе [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) (Доступность аудиоконференций и планов звонков в различных странах и регионах)
-- Чтобы выбрать подходящий тип номера телефона, обратитесь к разделу [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md) (Различные типы номеров телефонов для планов звонков).
+- Если вызов планы доступны в вашей стране или регионе, см [странах и область доступности для конференц-связи аудио и вызов планов](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- Чтобы выбрать тип номера телефона необходимо прочитать [различные виды телефонных номеров, используемый для вызова планов](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - Чтобы узнать о получении номера телефона пользователя в Центре администрирования, прочитайте [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users) (Получение номеров телефонов для пользователей).
 - Чтобы получить сведения о настройке телефонных номеров для вашей организации, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
 

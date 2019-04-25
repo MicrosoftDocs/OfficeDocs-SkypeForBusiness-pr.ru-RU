@@ -1,5 +1,5 @@
 ---
-title: Изменение параметров пользователей группами Майкрософт в пакетном режиме
+title: Массовое изменение параметров пользователей Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: jastark
@@ -16,11 +16,11 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4c1dfba0bdaec642b0ea078d7f10ba022c8514da
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31988975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245080"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Изменение параметров пользователя группами Майкрософт в пакетном режиме
 
