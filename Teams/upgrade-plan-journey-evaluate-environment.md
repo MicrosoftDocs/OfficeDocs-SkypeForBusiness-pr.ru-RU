@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d8803c4f4135b620d0ab654415546a7419f9e4f1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223094"
 ---
 ![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")
 
@@ -157,7 +157,7 @@ ms.locfileid: "30461934"
 > | Какие операционные системы для настольных компьютеров вы сейчас используете? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (задать версию в столбце примечания). <br/> <input type="checkbox">Другие (запишите подробные сведения в столбце примечания). | |
 > | Развертывание версии системы Microsoft Office <br>для этих устройств? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office для Mac 2011 г. <br/> <input type="checkbox">Office для Mac 2016 <br/> <input type="checkbox">Другие (запишите подробные сведения в столбце примечания). | |
 > | Какие технологии развертывания Office уже используется <br>в вашей организации? | <input type="checkbox">MSI <br/> <input type="checkbox">Click-to-Run | |
-> | Что такое разрешенных и поддерживаемых мобильных устройств <br>Платформа используется? <br/>Выберите все подходящие варианты. | <input type="checkbox">Windows <br/> <input type="checkbox"> Мобильный <br/> <input type="checkbox">операций ввода-вывода <br/> <input type="checkbox">Android (en) <br/> <input type="checkbox">Другие (запишите подробные сведения в столбце примечания). | |
+> | Что такое разрешенных и поддерживаемых мобильных устройств <br>Платформа используется? <br/>Выберите все подходящие варианты. | <input type="checkbox">Windows <br/> <input type="checkbox">Mobile <br/> <input type="checkbox">операций ввода-вывода <br/> <input type="checkbox">Android (en) <br/> <input type="checkbox">Другие (запишите подробные сведения в столбце примечания). | |
 > | В какой форме предоставляются мобильные устройства <br/>Выберите все подходящие варианты. | <input type="checkbox">Корпоративный устройств <br/> <input type="checkbox">Использование собственного устройства | |
 > | Какие устройства ли пользователи в настоящее время используется для доступа к <br>службы голосовой связи и конференц-связи <br>(мобильные телефоны, гарнитуры, телефоны, видео)? | | |
 

@@ -1,5 +1,5 @@
 ---
-title: Потоки вызовов группами Майкрософт
+title: Потоки звонков Microsoft Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 description: Описывается порядок использования команд денежных средств Office 365 в различных топологиях.
 ms.openlocfilehash: ecdeb6dc4e1e7219dc8c01c710877437661e0ceb
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31828939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232187"
 ---
-# <a name="microsoft-teams-call-flows"></a>Потоки вызовов группами Майкрософт
+# <a name="microsoft-teams-call-flows"></a>Потоки звонков Microsoft Teams
 
 > [!Tip]
 > Просмотрите следующие сеанса, чтобы узнать, как группы использует сети и о планировании для оптимизации сетевого подключения: [Планирование сети групп](https://aka.ms/teams-networking)

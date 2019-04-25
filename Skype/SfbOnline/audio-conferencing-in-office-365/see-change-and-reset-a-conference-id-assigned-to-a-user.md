@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как присвоить пользователю идентификатор конференции для Skype для бизнеса Online и какими должны быть параметры для установки идентификатора конференции. '
 ms.openlocfilehash: eb7d42fa88c54b917e89eb97ce9f52bd03af4935
-ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30535962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229334"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Просмотр и сброс идентификатора конференции, присвоенного пользователю в Skype для бизнеса Online
 
@@ -51,7 +51,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. Перейдите в раздел **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
 
 3. В **Центре администрирования Skype для бизнеса**> **Аудиоконференции** > **Пользователи**, выберите пользователя, которому необходим идентификатор конференции.
 
@@ -79,7 +79,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. Перейдите в раздел **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
 
 3. В **Скайп по центру администрирования Business**> **аудиоконференции** > **пользователей**, в области действий в разделе **Идентификатор конференции**, нажмите кнопку **Сброс**.
 
@@ -121,7 +121,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Статьи по теме
 
-[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4cec1b2d-80b4-4cc0-b250-19449c7b136b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
-ms.openlocfilehash: 119660d90d7a0ce334c989ec6f80ba6480201a31
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d2e0b5f950a33cd8255a82991ee9ee5cfa981836
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223434"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>Ограничения набора бесплатных номеров в Индонезии
 
@@ -46,7 +46,7 @@ ms.locfileid: "30461118"
 |Доступность мобильных сетей  <br/> |Частично. См. примечания.  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Для расширения охвата предлагается два формата номеров. Номера формата 007 803 CCC XXXX доступны для абонентов сети PT Telkom, включая мобильные линии связи Telkomsel и XL. Номера формата 001 803 CCC XXXX доступны для абонентов сети Indosat. Для мобильной связи: только абоненты Matrix Cellular (префикс 0855, 0858, 0815 и 0816).  <br/> |
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 

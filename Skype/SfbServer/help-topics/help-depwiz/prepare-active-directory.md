@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 description: Чтобы начать установку Скайп для Business Server 2015, необходимо подготовить схемы доменных служб Active Directory, леса и домены, используемом для серверов и пользователей. Скайп для мастера развертывания сервера Business поможет выполнить действия, необходимые для подготовки Active Directory, Приступая к работе с использованием схемы, а затем в подготовки леса. После подтверждения, что репликация Active Directory будет успешно выполнена, затем Подготовка каждого домена, в котором будет размещаться пользователей или серверов.
 ms.openlocfilehash: ba7cbe0b0cf571cc06637cba4e3047016e68f781
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228385"
 ---
 # <a name="prepare-active-directory"></a>Подготовка Active Directory
 

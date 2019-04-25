@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415726bbc78fbc98b5e3eefa3cb1455f3ddee483
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0225f439f8a8ffef245e94f5536251fb2ad43e94
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227053"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Подключение ранних последователей и сбор отзывов по Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "30462134"
 
 Использование компонентов Office 365 для сбора отзывов для вашего проекта.
   
-![Значок для точки принятия решений.](media/teams-adoption-decision-icon.png) Решение: Если в вашей организации уже есть инвестиции в сети Yammer, можно использовать его как форум свои отзывы и предложения для первых пользователей программы. Если нет и программа первых пользователей имеет меньше, чем 2500 члены, создание группы в группах для сбора отзывов и обучение.
+![Значок для точки принятия решений.](media/teams-adoption-decision-icon.png) Решение: Если в вашей организации уже есть инвестиции в сети Yammer, можно использовать его как форум свои отзывы и предложения для первых пользователей программы. В противном случае и первых пользователей программы имеет меньше, чем 5000 элементов, создание группы в группах для сбора отзывов и обучение.
   
 > [!Note]
 > В некоторых организациях будет Объединить каналы для первых отзывов пользователей в группы командную чемпионатов программы. Это рекомендуется придерживаться следующего подхода, так как многие первыми могут стать чемпионатов в будущем, и оно выполняет построение более надежная сообщества. 

@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
 ms.openlocfilehash: e79c942923e9a9d4d0df0bc18172eb10caff57bc
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229528"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Телефоны, поддерживаемые в Skype для бизнеса Online
 

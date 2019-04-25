@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Что следует поместить в компании Скайп для бизнеса, и где его найти. '
 ms.openlocfilehash: 49b26c5fce7cd11ad5cb2cbdf15f32144198898f
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229598"
 ---
 # <a name="what-should-i-put-in-for-the-company-name"></a>Что указывать в названии компании?
 

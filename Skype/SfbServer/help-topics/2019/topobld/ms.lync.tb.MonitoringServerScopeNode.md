@@ -14,11 +14,11 @@ ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'В построителе топологий можно выполнить задачи, связанные с отдельного сервера под управлением мониторинг либо щелкните правой кнопкой мыши сервер мониторинга в дереве консоли, выбрав пункты действие на панели инструментов или задач в области действия, а затем выбрав один из следующие параметры для сервера под управлением мониторинг:'
 ms.openlocfilehash: 2f156b660dc60a16c67ac9bdf54e8114ce17a0ed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235356"
 ---
 # <a name="monitoring-scope-node"></a>Узел области мониторинга
  

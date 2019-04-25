@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 description: У вас есть три варианта при настройке IP-адресов в Скайп для Business Server 2015. Можно настроить Скайп для 2015 Business Server для поддержки только протокола IP версии 4 (IPv4), только протокола IP версии 6 (IPv6), или их сочетание (известную как двойного стека).
 ms.openlocfilehash: 7899718a02992756e730819cd1abd880b074758b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222627"
 ---
 # <a name="ip-version-planning-tool"></a>IP Version (Planning Tool)
  

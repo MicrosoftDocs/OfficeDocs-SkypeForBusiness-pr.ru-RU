@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: Система контроля допуска звонков обеспечивает проверку возможности установления сеанса связи в реальном времени без ухудшения качества видео- и голосовой связи в перегруженных сетях.
 ms.openlocfilehash: 52fcedaab781e9ed76222afb32b56840a3b07c1c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223143"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Развертывание контроля допуска звонков в Скайп for Business Server
  

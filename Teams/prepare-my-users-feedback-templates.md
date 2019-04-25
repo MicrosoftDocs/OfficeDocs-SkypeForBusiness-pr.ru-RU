@@ -1,5 +1,5 @@
 ---
-title: Опросы свои отзывы и предложения пользователей в группы Microsoft или Скайп для бизнеса
+title: Опросы с отзывами пользователей в Microsoft Teams или Skype для бизнеса
 author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 74594c81d86bf19b80cf40ad8292517705e7e690
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235889"
 ---
 # <a name="user-feedback-surveys"></a>Опросы отзывов пользователей 
 
@@ -57,13 +57,13 @@ ms.locfileid: "30463878"
 
 Вероятность являетесь рекомендуется использовать групп как телефона друга или коллеги? (0 = не на всех скорее всего... 10 = очень скорее всего)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 Вероятность вы рекомендуем телефонного устройства для друга или коллеги? (0 = не на всех скорее всего... 10 = очень скорее всего)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

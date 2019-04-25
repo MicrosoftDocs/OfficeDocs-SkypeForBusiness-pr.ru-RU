@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Скайп для бизнеса в Интернет позволяет создавать политики дополнительные внешнего доступа. В отличие от клиента или конференц-связи политик, где может иметь несколько комбинаций, существует три политики предварительно заданных внешнего доступа, которые могут охватывать большинство сценариев.
 ms.openlocfilehash: b368c7d30e74225f7808f9f3728691040e75016f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237531"
 ---
 # <a name="create-custom-external-access-policies"></a>Создание настраиваемых политик внешнего доступа
 
@@ -110,7 +110,7 @@ ms.locfileid: "30878780"
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Передача файлов точка-точка блока](block-point-to-point-file-transfers.md)
 
 [Настройка политик клиента в организации](set-up-client-policies-for-your-organization.md)

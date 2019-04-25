@@ -1,5 +1,5 @@
 ---
-title: Просмотр списка телефонных номеров в организации
+title: Просмотр списка номеров телефонов в организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: Узнайте, как просмотреть список всех телефонных номеров в вашей организации, все номера, назначенные пользователям, и все номера, назначенные пользователям голосовой связи, из центра администрирования Skype для бизнеса.
 ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229947"
 ---
-# <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Просмотр списка телефонных номеров в организации
+# <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Просмотр списка номеров телефонов в организации
 
 Есть различные типы телефонных номеров, которые в Office 365 можно назначить пользователям или другим службам (служебные номера), таким как Аудиоконференции.
   

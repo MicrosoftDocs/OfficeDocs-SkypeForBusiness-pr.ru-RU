@@ -14,11 +14,11 @@ ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: Если изменения не были завершены, просмотрите сообщения в данном диалоговом, измените конфигурацию маршрутизации голосовой связи и повторите попытку.
 ms.openlocfilehash: 3b3dcad6649d8c0ec43efa561cfe296265412a77
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221520"
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>Маршрутизация голосовых данных: состояние фиксации изменений для конфигурации маршрутизации голосовых данных
  

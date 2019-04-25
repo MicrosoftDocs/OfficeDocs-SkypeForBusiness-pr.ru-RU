@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: Собрания службы миграции (MMS) — это служба, которая выполняется в фоновом режиме и автоматически обновляет Скайп для бизнеса и группами Майкрософт собраний для пользователей. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
 ms.openlocfilehash: 90953f1352f54a8411513a78ccfda8bfb5356883
-ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31836859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229244"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>С помощью службы миграции собрания (MMS)
 
@@ -209,8 +209,8 @@ Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
-[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 [Перемещение пользователей между локальной и облачной](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)

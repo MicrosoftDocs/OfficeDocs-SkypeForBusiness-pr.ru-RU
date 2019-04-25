@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Если устаревшее развертывание содержит сервера архивирование или сервера мониторинга, после миграции в Скайп for Business Server 2019, этих серверов можно удалить из старой среды условии, что все пользователи удалены из всех оставшихся пулов прежних версий. Архивация сервера или сервера мониторинга можно удалить в любой последовательности. Ключевые требование заключается в том, что все пользователи были удалены из всех оставшихся пулов прежних версий.
 ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231425"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Удаление старых серверов архивирования и мониторинга
 

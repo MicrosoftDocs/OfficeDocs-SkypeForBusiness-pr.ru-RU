@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Австралии.
 ms.openlocfilehash: 3035cd55a3fb255b143390bdd6d368d87f23ddbe
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245002"
 ---
 # <a name="availability-in-australia"></a>Доступность в Австралии
 
@@ -43,7 +43,7 @@ ms.locfileid: "30541290"
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет [Свяжитесь с нами](mailto:ptnapac@microsoft.com). <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |№ [Свяжитесь с нами](mailto:ptnapac@microsoft.com). <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Доступно  <br/> |
 
 ## <a name="phone-system"></a>Телефонная система

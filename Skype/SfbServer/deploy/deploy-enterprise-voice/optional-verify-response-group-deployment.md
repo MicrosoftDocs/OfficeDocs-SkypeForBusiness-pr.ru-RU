@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Проверка вашего развертывания успешно группы ответа, в Скайп Business Server корпоративной голосовой связи.
 ms.openlocfilehash: 2a0cc58101199183a23d74152a0ef6a05a1fb699
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225627"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Необязательно) Группа ответа Проверка развертывания в Скайп для бизнеса
  

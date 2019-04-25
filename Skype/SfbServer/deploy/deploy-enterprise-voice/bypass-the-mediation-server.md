@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: Включите обход сервера-посредника для всегда сервера-посредника в Скайп Business Server корпоративной голосовой связи.
 ms.openlocfilehash: 31ecb80df342ac68ba6bb28b20248648bd5808c8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223777"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Настройка сервера-посредника в Скайп для Business Server, чтобы всегда сервера-посредника
  

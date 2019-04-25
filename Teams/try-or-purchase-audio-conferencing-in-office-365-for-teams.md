@@ -23,11 +23,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
 ms.openlocfilehash: b474a5c905566b3ee0c01249f7b20f11e3dbabfc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223172"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams.
 
@@ -95,10 +95,10 @@ ms.locfileid: "30460982"
 > [!NOTE]
 > Эта функция еще не доступна пользователям Office 365 под управлением компании 21Vianet в Китае. Дополнительные сведения см. в разделе [Узнать больше о версии Office 365 под управлением компании 21Vianett](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Позволяют группам в организации](office-365-set-up.md)
 
-[Номера телефонов для аудиоконференций](phone-numbers-for-audio-conferencing-in-teams.md)
+[Номера телефонов для аудиоконференции](phone-numbers-for-audio-conferencing-in-teams.md)
 
 [Установка параметров для онлайн-собраний и конференций](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

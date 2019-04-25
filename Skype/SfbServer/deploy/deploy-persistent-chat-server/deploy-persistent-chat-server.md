@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: 'Сводка: Сведения в этой статье описывается развертывание Скайп для сервера сохраняемого чата 2015 Business Server.'
 ms.openlocfilehash: 85f77445acca86d8de14178e8c3baa61eb193783
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225388"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>Развертывание сервера сохраняемого чата в Skype для бизнеса Server 2015
  

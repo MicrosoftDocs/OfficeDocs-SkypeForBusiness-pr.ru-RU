@@ -17,11 +17,11 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e68b239d00e67d942f80a259facb87c80ddf2a55
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245256"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
 
@@ -162,7 +162,7 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
-### <a name="related-topics"></a>Связанные разделы
+### <a name="related-topics"></a>Статьи по теме
 - [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)
 - [Настройка параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
 - [Терминология маршрутизации на основе расположения](location-based-routing-terminology.md)

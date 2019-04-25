@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: fe419348d966d9ddfc5c16eee29d9a5005cd6db8
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31555137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245918"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Установка модуля Microsoft StaffHub PowerShell
 
@@ -59,7 +59,7 @@ ms.locfileid: "31555137"
 
 2. Если появится запрос, войдите в систему как глобальный администратор.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 - [Справочник по Microsoft StaffHub PowerShell](https://docs.microsoft.com/en-us/powershell/module/staffhub/?view=staffhub-ps)
-- [Перемещение групп Microsoft StaffHub в приложение "Смены" в Teams](move-staffhub-teams-to-shifts-in-teams.md)
+- [Перемещение групп Microsoft StaffHub в приложение Shifts в Teams](move-staffhub-teams-to-shifts-in-teams.md)

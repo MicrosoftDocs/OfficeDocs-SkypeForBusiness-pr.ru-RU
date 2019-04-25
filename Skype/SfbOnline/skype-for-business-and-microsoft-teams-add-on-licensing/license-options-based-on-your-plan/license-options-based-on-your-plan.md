@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom: None
 description: Сведения о голосовой почты в облаке.
 ms.openlocfilehash: eb6065a64bf03c2112747a296a1d0ef955a1506f
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226034"
 ---
 # <a name="license-options-based-on-your-plan"></a>Параметры лицензии с учетом плана
 

@@ -19,13 +19,13 @@ ms.custom:
 hideEdit: true
 description: Как использовать учетную запись ретрансляции IP-адресов для Канады.
 ms.openlocfilehash: b5f6d268db302b4b0446c5f692bb7e27daa60b17
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224195"
 ---
-# <a name="ip-relay-in-canada---user-guide"></a>Ретрансляция IP-адресов в Канада — руководство пользователя
+# <a name="ip-relay-in-canada---user-guide"></a>IP-ретрансляция в Канаде — руководство пользователя
 
 Описание службы IP-адресов ретрансляцию сообщений от корпорации Майкрософт:
 
@@ -80,9 +80,9 @@ https://aka.ms/IPRelay
 > [!IMPORTANT]
 > Northern911 управляет службой ретрансляции IP-адресов от имени корпорации Майкрософт.
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Статьи по теме
 
-[Зарегистрируйтесь ретрансляции IP-адресов в Канада —](ip-relay-canada-email-signup.md)
+[IP-ретрансляция в Канаде — регистрация](ip-relay-canada-email-signup.md)
 
 
 

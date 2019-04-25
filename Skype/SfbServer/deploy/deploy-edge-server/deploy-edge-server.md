@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 'Сводка: Узнайте, как развернуть пограничный сервер или пограничный пул в вашей Скайп среды Business Server.'
 ms.openlocfilehash: bbc331a6abf07450519f58395beda47446e6cef8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223805"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Развертывание пограничного сервера в Скайп для Business Server
  

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Сводка: Узнайте, как установить службу, которая будет создавать отчеты мониторинга в Скайп для Business Server.'
 ms.openlocfilehash: ee500d3440e4211bc42566a7cbdd47ee2cd4cc0e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876424"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225506"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Установка отчетов мониторинга в Скайп для Business Server
  
@@ -73,7 +73,7 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
 
 Параметры, используемые в этой команде, описаны в следующей таблице.
   
-|**Имя параметра**|**Обязательно**|**Описание**.|
+|**Имя параметра**|**Обязательно**|**Описание**|
 |:-----|:-----|:-----|
 |storedUserName  <br/> |Да  <br/> |Учетная запись пользователя (в формате домен\имя_пользователя) для доступа к хранилищу данных наблюдения; например:  <br/> ```-storedUserName "litwareinc\kenmyer"```Эта учетная запись должна иметь предварительно заданные разрешения SQL Server и служб отчетов SQL Server или скрипт завершится с ошибкой.  <br/> |
 |storedPassword  <br/> |Да  <br/> |Пароль учетной записи пользователя для доступа к хранилищу данных наблюдения.  <br/> |

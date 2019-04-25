@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Используйте процедуры, описанные в этой статье для включения или отключения сервера-посредника с помощью Скайп для панели управления Business Server.
 ms.openlocfilehash: eebbc111f0d205be8dced9ec8ddb5150deff8119
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226244"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Включение и отключение обхода сервера-посредника в Skype для бизнеса Server
 

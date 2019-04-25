@@ -19,20 +19,20 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
+description: Узнайте, что вам нужно, и как организаторы собраний могут позвонить другим людям, с помощью Skype для бизнеса.
 ms.openlocfilehash: 49130a14391e014d1e7aea21c62abaf2385296d8
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229538"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Чтобы другие пользователи могут присоединиться к ней выходному из Скайп для собраний
 
 > [!NOTE]
 > Информацию об исходящих звонках из собрания команды см. в статье [Исходящие звонки из собрания команды, позволяющие другим людям присоединиться к собранию](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
-Организатор собрания можно абонентской группы с помощью Скайп для бизнес-приложения для других пользователей присоединиться к одной собрание, с помощью телефона. При совершении исходящего звонка рекомендуется набирать номер полностью, включая код страны/региона, однако это необязательно. Настройка исходящих вызовов
+As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
   
 - Вы можете подключение по телефонной линии только в том случае, если вам присоединиться к собранию с помощью Скайп для бизнес-приложения.
     
@@ -59,8 +59,8 @@ Dial-out is only available to some countries/regions. Полный список 
 
 [Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Скайп для лицензирования дополнительный компонент Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Лицензирование надстройки Skype для бизнеса](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Установка Skype для бизнеса](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

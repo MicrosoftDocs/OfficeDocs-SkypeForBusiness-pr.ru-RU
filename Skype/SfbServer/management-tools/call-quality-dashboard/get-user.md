@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
 description: 'Сводка: Сведения об операции получения пользователя, входящего в состав службы пользователей. Служба пользователей является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
 ms.openlocfilehash: 2d3c5febe30af2ea4d41d94aec026c25e27f21b9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235725"
 ---
 # <a name="get-user"></a>Получение пользователя
  

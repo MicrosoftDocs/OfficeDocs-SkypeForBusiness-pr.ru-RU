@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Создание или изменение маршрутов interregional сети, которые используются контроля допуска звонков корпоративной голосовой связи в Скайп Business Server.
 ms.openlocfilehash: 5b792a9d1471e8925a44bcc5c0a1026e79aa0a0c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223540"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Создание сетевых маршрутов interregional в Скайп для Business Server
  

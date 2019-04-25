@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: Командлет Get-CsOnlineUser в Windows PowerShell для получения сведений о Скайп вашей организации для бизнеса активные пользователи.
 ms.openlocfilehash: 8f6ca618925b070e1d42a215cb9afb076a1e8197
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226410"
 ---
 # <a name="manage-user-accounts"></a>Управление учетными записями пользователей
 
@@ -114,7 +114,7 @@ Get-CsOnlineUser | Get-Member
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: Проверка развертывания парковки вызовов в Скайп Business Server корпоративной голосовой связи.
 ms.openlocfilehash: 514c82590d56a2de16ca31cc892032afe5e7a34c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225634"
 ---
 # <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(Необязательно) Проверка развертывания парковки вызовов в Скайп для бизнеса
  

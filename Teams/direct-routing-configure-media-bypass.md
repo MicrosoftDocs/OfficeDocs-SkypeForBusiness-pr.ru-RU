@@ -1,5 +1,5 @@
 ---
-title: Настройка сервера-посредника при прямой маршрутизации
+title: Настройка обхода сервера-посредника с прямой маршрутизацией
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Прочтите этот раздел, чтобы узнать, как настроить обход сервера-посредника при прямой маршрутизации телефонной системы.
-ms.openlocfilehash: 405f71fd0a1e0ea3e8fec6ee1061786c93fabf1b
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 459ebd80a175fbf2c213a016436a2bf130ae9982
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232699"
 ---
-# <a name="configure-media-bypass-with-direct-routing"></a>Настройка сервера-посредника при прямой маршрутизации
+# <a name="configure-media-bypass-with-direct-routing"></a>Настройка обхода сервера-посредника с прямой маршрутизацией
 
 До настройки обхода медиаданных при прямой маршрутизации, убедитесь, что вы прочли [Планирование мультимедиа обходить при прямой маршрутизации](direct-routing-plan-media-bypass.md).
 
@@ -53,16 +53,8 @@ ms.locfileid: "30631078"
 - Лента
 - TE-систем (AnyNode)    
 
-В настоящее время данное сообщение полностью протестированные и сертифицированные для работы с обходом сервера-посредника следующие их изготовителей:
+Список пограничных контроллеров сеансов (SBC) сертифицированный для прямой маршрутизации в разделе [список из сеанса Broder контроллеры сертифицированный для прямой маршрутизации](direct-routing-border-controllers.md).
 
-- V7.20A.204.222 9000 AudioCodes, AudioCodes M800B-SBC / V7.20A.250.003
-
--   Лента
-    - 5210 v06.02.xx-xxx 
-    - 5400, v06.02.xx-xxx
-    - 5110, v06.02.xx-xxx
-
--   V TE системы AnyNode 3.16.2 
 
 
 ## <a name="see-also"></a>См. также

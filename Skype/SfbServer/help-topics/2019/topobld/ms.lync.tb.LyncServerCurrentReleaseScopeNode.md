@@ -14,11 +14,11 @@ ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: Можно создавать новые роли сервера в узле Lync Server 2013 Topology Builder, щелкните правой кнопкой мыши на Lync Server 2013, выберите команду Создать, а затем выберите Создать роль сервера.
 ms.openlocfilehash: aa53e7a373a95e8f264a64aaac82bbcab47b0dcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235422"
 ---
 # <a name="skype-for-business-server-create-new-expander"></a>Создание нового расширителя Скайп для Business Server
  

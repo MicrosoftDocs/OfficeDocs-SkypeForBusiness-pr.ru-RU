@@ -9,11 +9,11 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 description: Обучающие видеозаписи содержат краткие сведения о Skype для бизнеса и объяснения для администраторов о планировании, развертывании и использовании Skype для бизнеса.
 ms.openlocfilehash: dd9d114beb0ebfb3765fac72f7391ac2ab202272
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247455"
 ---
 <a name="admin-training-for-skype-for-business-online"></a>Обучение для администратора Skype для бизнеса Online
 ==================================

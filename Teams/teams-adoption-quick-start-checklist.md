@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f19d78de9b9227dcbc42073b177fffd9596e5ffb
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225050"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Краткий контрольный список по внедрению Microsoft Teams
 
@@ -34,31 +34,31 @@ ms.locfileid: "30464015"
 
 ## <a name="phase-1---start"></a>Этап 1 — начало
 
-- [Понять, групп и каналы](teams-adoption-understand-teams-and-channels.md)
-- [Создание первой группы](teams-adoption-your-first-teams.md)
+- [Общие сведения о командах и каналах](teams-adoption-understand-teams-and-channels.md)
+- [Создание первых команд](teams-adoption-your-first-teams.md)
 - [Все готово для групп?](teams-adoption-assess-readiness.md)
 - [Встреча с заинтересованными лицами](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [Определение первыми](teams-adoption-assess-readiness.md#identify-early-adopters)
 
-## <a name="phase-2---experiment"></a>Этап 2 - эксперимента
+## <a name="phase-2---experiment"></a>Этап 2 — экспериментирование
 
-- [Создание программы чемпионатов](teams-adoption-create-champions-program.md)
+- [Создание программы лидеров](teams-adoption-create-champions-program.md)
 - [Завершить краткое руководство](teams-adoption-governance-quick-start.md)
 - [Определение сценариев использования](teams-adoption-define-usage-scenarios.md)
 - [Интервью заинтересованным](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
 - [Сопоставьте и определение приоритетов бизнес-сценарии](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
-- [Встроенный первыми и сбор отзывов](teams-adoption-onboard-early-adopters.md)
-- [Встроенная поддержка](teams-adoption-onboard-support.md)
+- [Подключение ранних последователей и сбор отзывов](teams-adoption-onboard-early-adopters.md)
+- [Поддержка адаптации](teams-adoption-onboard-support.md)
 
-## <a name="phase-3---scale"></a>Этап 3 - масштаба
+## <a name="phase-3---scale"></a>Этап 3 — масштабирование
 
 - [Определение результатов деятельности и показателей успешности](teams-adoption-define-outcomes.md)
 - [Выбор стратегии Включение службы](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
 - [Привлечь заинтересованных лиц](teams-adoption-define-outcomes.md#engage-stakeholders)
 - [Разверните узел группы](teams-adoption-define-outcomes.md#expand-your-implementation-team)
 - [Разверните узел вашей управления и политик управления информацией](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
-- [Оптимизировать свои отзывы и предложения и отчетов](teams-adoption-optimize-feedback-and-reporting.md)
-- [Сведения о диска и реализовать и обучение](teams-adoption-drive-awareness.md)
+- [Оптимизация отзывов и отчетности](teams-adoption-optimize-feedback-and-reporting.md)
+- [Информированность и внедрение обучения](teams-adoption-drive-awareness.md)
 - [Служба проверок календарного плана](teams-adoption-schedule-service-health-reviews.md)
 
 

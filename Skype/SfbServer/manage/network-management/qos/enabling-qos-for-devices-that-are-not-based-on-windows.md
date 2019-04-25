@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Узнайте, как включить качество обслуживания для устройств, используемых в вашей организации, использующие операционной системы, отличных от Windows.
 ms.openlocfilehash: b1f3dae2d2b499b334995d7754282c56872ce111
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887122"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232715"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Включение качества обслуживания в Скайп для Business Server для устройств, не входящий в систему Windows
 

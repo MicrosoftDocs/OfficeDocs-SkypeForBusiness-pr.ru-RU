@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
 ms.openlocfilehash: 7c44e6be750e4793083a0fa931874db2e6b09b80
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229860"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Отправка пользовательского запроса на обслуживание
 
@@ -98,7 +98,7 @@ ms.locfileid: "25371876"
 8. Проверьте информацию и нажмите кнопку **Отправить запрос**.
     
 > [!TIP]
-> В Центре администрирования Office 365 в левой части страницы **Запросы на обслуживание** отобразится номер для ссылки.
+> Номер для ссылки отобразится в Центре администрирования Office 365 на странице **Запросы на обслуживание**.
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>Что еще необходимо знать о переносе номеров?
 

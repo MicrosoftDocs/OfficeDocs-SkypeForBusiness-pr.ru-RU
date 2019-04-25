@@ -19,16 +19,16 @@ search.appverid: MET150
 description: Ознакомьтесь с политиками разрешений приложения в Microsoft групп и как их использовать для управления, какие приложения доступны для пользователей в вашей организации.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: 49200d597811d87ce27d94d9bb19577def6355c1
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 8c35871fde876e01bba1ad8a843cd25fa0174c8d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225156"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Управление политиками разрешений для приложений в Microsoft Teams
 
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
 
 Как администратора чтобы контролировать, какие приложения будут доступны пользователям группами Майкрософт в организации можно использовать политики разрешений приложения. Можно разрешить или заблокировать все приложения или определенных приложений, опубликованные корпорацией Майкрософт, сторонние производители и вашей организации. При блокировании приложения, пользователи не могут установить его из хранилища приложения группы.
 
@@ -176,7 +176,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 - Настройка соединителей для получения уведомлений
 - Использование расширения приложения обмена сообщениями
 
- ## <a name="related-topics"></a>Связанные разделы
+ ## <a name="related-topics"></a>Статьи по теме
 - [Параметры администратора для приложений в Teams](admin-settings.md)
 - [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)
 - [Управление пользовательскими политиками и параметрами приложений в Teams](teams-custom-app-policies-and-settings.md)

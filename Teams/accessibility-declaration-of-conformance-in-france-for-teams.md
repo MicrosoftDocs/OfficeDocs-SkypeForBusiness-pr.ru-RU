@@ -20,11 +20,11 @@ ms.custom:
 hideEdit: true
 description: "Группами Майкрософт est l'outil де чата collaboratif qui d'Office 365 intègre toutes personnes les, contenus et outils не votre équipe être besoin Бетонирование плюс impliquée et efficace. "
 ms.openlocfilehash: 3c3d7f364f53e7317b90388642a5bd18d4c0cab2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231800"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration де conformité en matière d'accessibilité
 
@@ -205,6 +205,6 @@ La personnalisation du produit annule ла présente déclaration де conformit
 
 LE présent документа est fourni отчетные titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, TACITE EXPRESSE ПОДРАЗДЕЛЕНИЕ, DANS LE PRÉSENT ДОКУМЕНТА.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Решения для специальных возможностей в Skype для бизнеса Online во Франции](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

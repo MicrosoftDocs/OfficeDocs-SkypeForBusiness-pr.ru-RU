@@ -1,5 +1,5 @@
 ---
-title: Начало работы с группами шаблонов в розничной торговле
+title: Начало работы с шаблонами Teams для розничной торговли
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245748"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>Начало работы с группами шаблонов в розничной торговле 
+# <a name="get-started-with-teams-templates-in-retail"></a>Начало работы с шаблонами Teams для розничной торговли 
 
 Шаблоны группы позволяют быстро и легко создавать группы, предоставляя готовый шаблон настроек, каналов и предварительно установленные приложения.
 

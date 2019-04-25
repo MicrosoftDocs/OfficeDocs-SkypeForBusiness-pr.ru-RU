@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'Узнайте о работе в рамках ограничения Скайп для отображения бизнес Online администрирования пользователей. '
 ms.openlocfilehash: 37ef56ff8301586fbdf22d21830e22ff235ca1df
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238017"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Ограничения страницы Скайп для бизнеса в Интернет пользователей центра администрирования
 
@@ -42,7 +42,7 @@ ms.locfileid: "30896911"
   
 ![Пользователи страницы навигации для изменения объема пользователей на странице](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

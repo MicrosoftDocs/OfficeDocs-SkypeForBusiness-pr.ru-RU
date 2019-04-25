@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'В целом наряду с топологией переносится в адресной книге. Тем не менее необходимо выполнить некоторые действия после переноса, если настроены следующие в старой среды:'
 ms.openlocfilehash: 728ae97270cd8451178c6ef962f05e0351118119
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238426"
 ---
 # <a name="migrate-address-book"></a>Перенос адресной книги
 

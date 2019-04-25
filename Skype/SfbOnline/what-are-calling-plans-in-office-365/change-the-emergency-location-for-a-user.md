@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Узнайте, как изменить местоположение для реагирования экстренных служб для пользователей. С помощью безлимитного числа местоположений, можно изменить местоположения для реагирования экстренных служб, по мере того как сотрудники двигаются между этажами и зданиями. '
 ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
-ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31744283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233211"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>Назначение и изменение расположения экстренного реагирования для пользователя
 
@@ -59,7 +59,7 @@ ms.locfileid: "31744283"
     
     Если вы хотите добавить новые экстренные расположение, которое будет отображаться в списке, содержатся в разделе [Добавление, изменение или удаление экстренных расположение для вашей организации](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 [Назначение действия в чрезвычайных ситуациях расположений с помощью powershell](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsOnlineVoiceUser.md)
 

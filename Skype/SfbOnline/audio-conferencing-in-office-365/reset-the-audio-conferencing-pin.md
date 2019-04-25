@@ -21,20 +21,20 @@ ms.custom:
 - Audio Conferencing
 description: 'Узнайте, что должен знать о ПИН-коды и сброс их в Скайп для бизнеса в Интернет. '
 ms.openlocfilehash: 257f59f59d4fc86c91aa5496fe3db42573269065
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229254"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Сброс аудиоконференций ПИН-код в Скайп для бизнеса Интернет-версия
 
 > [!Note]
 > Информацию о сбросе ПИН-кодов аудиоконференций в Microsoft Teams см. в разделе [Сброс ПИН-кода аудиоконференций в Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
 
-ПИН-код представляет собой числовой код, который создается для каждого пользователя Skype для бизнеса, имеющего возможность участия в аудиоконференциях. ПИН-коды аудиоконференций используют организаторы собраний для подтверждения статуса организатора собрания и запуска собрания по телефону. При использовании для запуска собрания Skype для бизнеса ПИН-код не требуется. Если пользователь забыл свой ПИН-код, и ему не удается найти сообщение электронной почты, отправленное ему при предоставлении возможности участия в аудиоконференциях, администратор может выполнить сброс его ПИН-кода, или же он может изменить свой ПИН-код самостоятельно.
+A PIN is a code made up of numbers that is created for each Skype for Business user who is enabled for audio conferencing. Audio conferencing PINs are used by meeting organizers to identify that they are the meeting organizer and allow them to start a meeting over the phone. If they use the Skype for Business app to start the meeting, a PIN isn't required. If users forget their PIN and they can't find it in the email that was sent to them when they were enabled for audio conferencing, an administrator can reset their PIN, or they can reset their own PIN.
   
-Собрания может запускаться при присоединении пользователя с разрешением использование Скайп для бизнес-приложения или когда организатором присоединяет свой ПИН-код по телефону. Если для участия в телефонном собрании требуется ПИН-код, то все пользователи, подключившиеся к этому собранию по телефону, перенаправляются в зал ожидания и могут прослушивать музыку до начала собрания. Если организатор собрания не запрашивает ПИН-код при открытии собрания по телефону, то при подключении к собранию участникам не потребуется вводить ПИН-код.
+Meetings can be started when an authenticated user joins using the Skype for Business app or when the organizer joins with his or her PIN over the phone. When a meeting requires a PIN to start, users who join over the phone will be placed in the lobby and will listen to music on hold until the meeting starts. If the organizer of a meeting doesn't require a PIN to start the meeting over the phone, then callers won't be asked to provide a PIN when they join the meeting.
   
 ## <a name="reset-a-users-pin"></a>Сброс ПИН-кода пользователя
 
@@ -51,7 +51,7 @@ ms.locfileid: "23882141"
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>Сброс ПИН-кода пользователем
 
-Пользователь может сбросить ПИН-код с помощью параметра **Сброс ПИН-кода** на странице **Конференц-связь с телефонным подключением**. На эту страницу можно перейти одним из трех способов:
+A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Conferencing** page. This page can be accessed in one of three ways:
 
 * В браузере перейдите на страницу [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling).
 * В Skype для бизнеса нажмите стрелку **Показать меню** рядом с пунктом **Параметры**, затем нажмите **Средства** > **Параметры конференц-связи с телефонным подключением**.
@@ -59,21 +59,21 @@ ms.locfileid: "23882141"
 
 ## <a name="what-else-should-you-know-about-pins"></a>Что еще необходимо знать о ПИН-кодах?
 
-- В целях безопасности ПИН-код отображается однократно и только для администратора, выполняющего сброс. После сброса ПИН-кода, администратор ПИН-код будет отображаться как *** в **Скайп по центру администрирования бизнеса** и в списке результатов при использовании Get-CsCsOnlineDialInConfencingUser в Windows PowerShell.
+- For security purposes, the PIN is only shown to an administrator on one time, when the PIN is reset. After the PIN is reset by an administrator, the PIN will be listed as *********** in the **Skype for Business admin center** and in the results when they use Get-CsCsOnlineDialInConfencingUser in Windows PowerShell.
     
-- Автоматически отправлять сообщения электронной почты для пользователей включена по умолчанию, и пользователи будут получать сообщения электронной почты с свой ПИН-код, когда они будет включена поддержка аудиоконференций или когда сбросить ПИН-код. Но если вы отключили автоматически отправка по электронной почте, электронной почты сброс ПИН-код не будут отправляться на пользователя и необходимо вручную отправлять сведения о ПИН пользователя.
+- Automatically sending emails to users is enabled by default, and users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent to a user and you will have to manually send the PIN information to the user.
     
 - Когда начинается собрание, к нему автоматически присоединяются все пользователи, находящиеся в зале ожидания. Пример: если два участника попытаются присоединиться к собранию, когда оно еще не началось, эти участники будут перенаправлены в зал ожидания. Когда с телефона присоединяется организатор собрания под собственным ПИН-кодом, собрание начинается, и к нему подключаются все участники, находящиеся в зале ожидания.
     
 - Значение по умолчанию — запретить собрания для работы с анонимных абонентов.
     
-- При включении пользователя для аудиоконференций, по умолчанию они отправляются по электронной почте, которая содержит сведения о конференц-связи и свой ПИН-код. Пользователь должен иметь почтовый ящик Office 365, так как при сбросе ПИН-код новый ПИН-код будет отправляться пользователя по электронной почте для своих основной SMTP-адрес (псевдоним), который имеет значение для пользователя.
+- When you enable a user for audio conferencing, by default they are sent emails that include conferencing information and their PIN. The user must have an Office 365 mailbox, because when a PIN is reset, a new PIN will be sent to the user in email to their primary SMTP address (alias) that is set for the user.
     
-- При настройке аудиоконференций вы задаете цифры, которые должны быть включены в ПИН-коды в вашей организации. ПИН-коды может составлять от 4 до 12 цифр — значение по умолчанию — 5. При изменении длины ПИН-кода новое значение применяется только к новым ПИН-кодам и не применяется к ПИН-кодам для существующих пользователей, которым разрешено участие в аудиоконференциях. См. [Настройка длины PIN-кода для собраний с аудиоконференцией](Set-the-PIN-length-for-Audio-Conferencing-meetings.md).
+- When you set up audio conferencing, you set the digits that are required for the PINs in your organization. PINs can be from 4 to 12 digits - the default is 5. If you change the PIN length setting, the setting is only applied on newly generated PINs and isn't applied to the PIN setting for existing users that are enabled for audio conferencing. See [Set the length of the PIN for Audio Conferencing meetings](Set-the-PIN-length-for-Audio-Conferencing-meetings.md).
     
-- Сообщение электронной почты по умолчанию будет отправлено на основной SMTP-адрес пользователя в Office 365. Вы можете отправить сообщение электронной почты на адрес электронной почты, который не относится к Office 365, например, на портале Hotmail или MSN. Используемый по умолчанию адрес электронной почты можно изменить с помощью Windows PowerShell. Это полезно, если у пользователя нет почтового ящика Exchange в Office 365.
+- The email by default will be set to the Office 365 primary SMTP address of the user. You can send an email to a non-Office 365 address such as a Hotmail or MSN email address. You can override the default email address by using Windows PowerShell. This is useful if the users don't have an Exchange mailbox in Office 365.
     
-- Чтобы переопределить адрес пользователя по умолчанию, где отправлено сообщение электронной почты, администратор клиента можно использовать следующий командлет: Set-CsOnlineDialInConferencingUser-amos.marble - ResetLeaderPIN - sendemail действие - SendEmailToAddress «u@hotmail.com». Параметр sendemail действие требуется переопределить адрес электронной почты пользователя.
+- To override the default user address where the email is sent, the tenant admin can use the following cmdlet: Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com". The SendEmail parameter is required to override the email address of the user.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
@@ -102,6 +102,6 @@ ms.locfileid: "23882141"
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Статьи по теме
 
 [Сброс идентификатора конференции для пользователя](reset-a-conference-id-for-a-user.md)

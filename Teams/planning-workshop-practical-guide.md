@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04bee65e6d2c21b6e2857d44a50bae497b251d5b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3fe995522f1557ed18c8edc0713f3c219b626dcb
+ms.sourcegitcommit: fc18ad4fdc737f6208a2fbf9c98a680c47c0f582
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463958"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "32453517"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Инструменты и семинары. Планирование, развертывание и внедрение Microsoft Teams
 
@@ -48,6 +48,6 @@ ms.locfileid: "30463958"
 
 [Подготовка ИТ-администратора к использованию Teams](ITAdmin-readiness.md)
 
-[Получение средств для развертывания Teams](rollout-tools.md)
+[Набор средств для внедрения](adopt-tools-and-downloads.md)
 
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: Настройка SNMP-приложения для работы с E9-1-1 в Скайп Business Server корпоративной голосовой связи.
 ms.openlocfilehash: f45666708b2f5bb3065631bbb4ab38ee88082517
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223692"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Настройка SNMP-приложения в Скайп для Business Server
  

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0ac397a7ba54a81a2d92cf4823144da2b0c56a3c
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222543"
 ---
 ![Этапы обновления пути с акцентом на стадии подготовки пользователей] (media/upgrade-banner-user-readiness.png "Этапы обновления пути с акцентом на стадии подготовки пользователей")
 

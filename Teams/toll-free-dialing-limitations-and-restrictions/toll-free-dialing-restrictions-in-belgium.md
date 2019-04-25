@@ -1,5 +1,5 @@
 ---
-title: Ограничения бесплатных набора номера в Бельгия
+title: Ограничения набора бесплатных номеров в Бельгии
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,18 +23,18 @@ ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как для набора бесплатные номера в каждом регионе. После выбора страны или региона, его можно перейти страны страницу, содержащую подробные сведения, ограничения и ограничения для бесплатных службы доступности которых бесплатная служба недоступна. Формат набора номера или форматы покажу требуется код доступа в рамках каждой страны или региона для абонентской группы бесплатный номер телефона.
 ms.openlocfilehash: 28a34ac1ab9fb0c671088635185b5a8a0fb8c1a4
-ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31407760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223450"
 ---
-# <a name="toll-free-dialing-restrictions-in-belgium"></a>Ограничения бесплатных набора номера в Бельгия
+# <a name="toll-free-dialing-restrictions-in-belgium"></a>Ограничения набора бесплатных номеров в Бельгии
 
 [Найдите другой страны или региона](../toll-free-dialing-limitations-and-restrictions.md), или Дополнительные сведения о ограничения бесплатных набора номера.
 
 
-|**Сведения**|**Описание**.|
+|**Сведения**|**Описание**|
 |:-----|:-----|
 |— Это бесплатный вызов доступны?  <br/> |Да  <br/> |
 |Формат набора  <br/> | 0 800 XX XXX <br>|
@@ -45,7 +45,7 @@ ms.locfileid: "31407760"
 |Доступность мобильных сетей  <br/> | Да, premium скоростью. <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Нет  <br/> |
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

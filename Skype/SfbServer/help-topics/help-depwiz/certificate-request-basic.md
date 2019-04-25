@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: Страница Настройка имени и безопасности предоставляет текстовое поле для определения понятное имя раскрывающегося списка для длины бита для пары ключей и закрытого и флажок, который позволяет пометить закрытый ключ сертификата как экспортируемый.
 ms.openlocfilehash: 4803feab68422217e268823bda6252d3103691b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235152"
 ---
 # <a name="certificate-request-basic"></a>Запрос сертификата (основные сведения)
  

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: При выполнении командлета Move-CsUser может произойдет сбой, так как данные пользователей между доменных служб Active Directory (AD DS) и Скайп Business Server 2019 баз данных не синхронизированы, из-за неполной первоначальной репликации. Время, необходимое для успешного завершения установки Скайп для начальной синхронизации службы Репликатор пользователей 2019 Business Server зависит от количества контроллеров домена, размещенных в лесу Active Directory, на котором размещается Скайп для бизнеса Пул серверов 2019. Скайп для начальной синхронизации службы Репликатор пользователей 2019 Business Server процесса происходит при запуске Скайп для сервера переднего плана Business Server 2019 в первый раз. После этого синхронизации нажмите основано на интервал репликатора пользовательских данных. Выполните следующие действия, чтобы проверка пользовательской репликации выполнена перед запуском командлета Move-CsUser.
 ms.openlocfilehash: bab54e91ebda7a10804980e368e05bb58ff911ff
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231338"
 ---
 # <a name="verify-user-replication-has-completed"></a>Проверка выполнения пользовательской репликации
 

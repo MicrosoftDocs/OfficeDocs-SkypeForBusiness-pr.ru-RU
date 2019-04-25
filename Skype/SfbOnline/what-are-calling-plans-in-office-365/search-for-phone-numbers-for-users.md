@@ -1,5 +1,5 @@
 ---
-title: Поиск номеров телефонов пользователей
+title: Поиск номеров телефонов для пользователей
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. '
+description: 'Узнайте о том, как выполняется поиск телефонных номеров, которые можно назначить пользователям в зависимости от страны/региона, штата/провинции или города, а также о том, как указать требуемое количество номеров. '
 ms.openlocfilehash: eeae7ad4bcafea1f8a1f86d36e59d2f57a2edff1
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32230062"
 ---
-# <a name="search-for-phone-numbers-for-users"></a>Поиск номеров телефонов пользователей
+# <a name="search-for-phone-numbers-for-users"></a>Поиск номеров телефонов для пользователей
 
-При указании других пользователей в организации, выполнение и прием телефонных звонков, необходимо использовать **Скайп по центру администрирования бизнес** и сначала нужно получить номера телефонов, можно назначить пользователям. Номер телефона, который нужно назначить пользователя будет номер телефона, который вы выбрали для вашей организации и отображается в раскрывающемся списке изменить свойства пользователя, и нажмите кнопку **назначить**.
+When you are setting up users in your organization to make and receive phone calls, you must use the **Skype for Business admin center** and first get phone numbers that can be assigned to users. The phone number you assign to a user will be a phone number that you have chosen for your organization and will be listed in the drop-down list when you edit the properties of the user and click **Assign**.
   
-Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. Поиск по **страны или региона**, **состояние**и **Город**и затем введите количество телефонных номеров, необходимых для пользователей. 
+Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. You can search by **Country/region**, **State**, and **City**, and then enter the number of phone numbers you will need for your users. 
   
 Если вам требуется некоторые помощь по началу номера телефонов, могут видеть [Управление номера телефонов для вашей организации](/microsoftteams/manage-phone-numbers-for-your-organization) или [контактов поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
@@ -46,7 +46,7 @@ Before you can assign phone numbers to your users, you must use the **New number
     
 2. Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.
     
-3. На панели навигации слева выберите **Голосовая связь** > **Номера телефонов****** >  и щелкните **Новые пользовательские номера**.
+3. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
   
     > [!IMPORTANT]
     > Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .  
@@ -59,12 +59,12 @@ Before you can assign phone numbers to your users, you must use the **New number
     > [!NOTE]
     > Число номеров, определяемое числом лицензий, отображается рядом с полем **Общее доступное количество номеров пользователей**. 
   
-6. Вы можете нажать **Показать номера**, чтобы увидеть полный список номеров телефонов. Эта функция полезна, если вы не хотите выберите номер телефона в списке.
+6. You can click **Show numbers** to see the full list of phone numbers. Эта функция полезна, если вы не хотите выберите номер телефона в списке.
     
 7. Выберите номера телефонов и нажмите **Получить номера**.
     
     > [!IMPORTANT]
-    > Можно получить дополнительные номера телефонов, меньше, чем лицензий. Чтобы определить, сколько телефонных номеров можно получить, возьмите количество лицензий, добавьте к нему 10 процентов от этого количества, а затем — прибавьте 10. К примеру при наличии 100 лицензий на **Внутренний вызов планирование** и/или **Международный вызов планирование** можно зарезервировать 120 телефонных номеров, при условии, что не уже приобретен некоторые номера телефонов для этих 100 пользователей. Для получения дополнительных сведений см.  [Сколько телефонных номеров можно получить?](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
 
 ## <a name="related-topics"></a>См. также:
 [Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)

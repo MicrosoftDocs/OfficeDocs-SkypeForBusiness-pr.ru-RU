@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: В Скайп для бизнеса в Интернет у вас есть возможность управления передачу файлов между узлами (P2P) как часть существующие параметры политики конференц-связи. Тем не менее это позволяет или передача для пользователей, ли они передачу файлов, пользователь, который находится в пределах той же организации или федеративного пользователя из другой организации файлов блоки. Следующие шаги можно заблокировать P2P передачи файлов с федеративными организациями или партнеров.
 ms.openlocfilehash: 9b7d229c7f0ea0565dc3174286b4117984a2b606
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883246"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237541"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Блокировка передачи файлов точка-точка
 
@@ -120,7 +120,7 @@ ms.locfileid: "30883246"
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)
 
 [Настройка политик клиента в организации](set-up-client-policies-for-your-organization.md)

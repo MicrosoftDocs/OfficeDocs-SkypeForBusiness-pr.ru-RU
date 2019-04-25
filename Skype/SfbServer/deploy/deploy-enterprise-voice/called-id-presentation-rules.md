@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Сводка: Узнайте, как определять правила преобразования с помощью построения правила преобразования в Скайп для Business Server.'
 ms.openlocfilehash: 947dc6a76482fc5b00efaeb71463b35eab9f9cea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897694"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223749"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Создание или изменение правила преобразования для называемое идентификатор представления в Скайп для Business Server
 

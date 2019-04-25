@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Сводка: Сведения в этой статье описывается настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Скайп для Business Server 2015.'
 ms.openlocfilehash: 7bc1ae0b71df3916c36acfdc7fabce91caa297e8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225450"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Настройка высокой доступности и аварийного восстановления для сервера сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -40,9 +40,9 @@ ms.locfileid: "30899280"
     
 2. Измените свойства службы сервера сохраняемого чата в:
     
-    а. Включите зеркальное отображение для базы данных-источника.
+    a) Включите зеркальное отображение для базы данных-источника.
     
-    б. Добавьте основное зеркальное хранилище SQL Server.
+    б) Добавьте основное зеркальное хранилище SQL Server.
     
     в. Настройка базы данных доставки журналов SQL Server.
     

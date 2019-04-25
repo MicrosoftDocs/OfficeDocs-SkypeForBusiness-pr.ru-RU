@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Создание или изменение областей сети, сетевых узлов и сопоставление подсетей в Скайп для Business Server. Все эти группы используются для расширенных функций корпоративной голосовой связи: обход мультимедиа, контроль допуска звонков и маршрутизация на основе местоположения.'
 ms.openlocfilehash: 91ce871d3e8d4871693b7ad28cf4659ea0bb0c4c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223115"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Развертывание областей сети, сайты и подсети в Скайп для бизнеса
 

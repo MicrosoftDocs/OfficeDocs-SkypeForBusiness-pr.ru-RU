@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как определить входящие номера конференц-связи в Skype для бизнеса Online. '
 ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229227"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Просмотр списка номеров для аудиоконференций в Skype для бизнеса Online
 
@@ -53,7 +53,7 @@ If there is only one phone number available in your organization, it will be use
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Перейдите в раздел **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
     
 3. В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **Microsoft bridge**, а затем:
     
@@ -86,7 +86,7 @@ If there is only one phone number available in your organization, it will be use
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Статьи по теме
 
 [Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   

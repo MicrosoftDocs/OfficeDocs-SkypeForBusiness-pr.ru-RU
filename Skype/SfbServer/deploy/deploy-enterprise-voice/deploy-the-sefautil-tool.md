@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Развертывание средства SEFAUtil в Скайп для Business Server.
 ms.openlocfilehash: 64319438604e30ab7187885eb82daf554d176917
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886818"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223086"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Развертывание средства SEFAUtil в Скайп для бизнеса
  
@@ -70,9 +70,9 @@ ms.locfileid: "30886818"
     
 7. Проверьте правильность работы инструмента SEFAUtil следующим образом. 
     
-    а. Запустите этот инструмент из командной строки Windows с привилегиями администратора, чтобы отобразить параметры переадресации звонков пользователя в текущем развертывании.
+    a) Запустите этот инструмент из командной строки Windows с привилегиями администратора, чтобы отобразить параметры переадресации звонков пользователя в текущем развертывании.
     
-    б. Отобразите параметры переадресации звонков пользователя. В командной строке выполните следующую команду:
+    б) Отобразите параметры переадресации звонков пользователя. В командной строке выполните следующую команду:
     
    ```
    SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>

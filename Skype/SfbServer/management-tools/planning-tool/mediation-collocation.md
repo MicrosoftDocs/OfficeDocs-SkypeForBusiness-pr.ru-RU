@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 'Сервер-посредник совмещен с сервером переднего плана по умолчанию. Сервер-посредник также могут быть развернуты в отдельном пуле в целях повышения производительности или при развертывании распределения каналов SIP, в этом случае автономного пула настоятельно рекомендуется. Выровненное размещение в Скайп для функций Business Server так же, как и в Lync Server 2013. For details, see the following topics:'
 ms.openlocfilehash: 36456e49f62b308f0f1227db1b6730153abbc66b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235718"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Mediation Collocation (Planning Tool)
  

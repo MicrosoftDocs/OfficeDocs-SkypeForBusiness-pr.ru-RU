@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'Сведения, которые можно и нельзя использовать в Скайп для бизнеса центра администрирования и других функций при службы переносится в другом центре обработки данных Майкрософт. '
 ms.openlocfilehash: 57ffa6e37c18de8e87e5af00750eef276649f4f5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226320"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Почему не удается использовать Скайп для бизнеса в Интернет центра администрирования на данный момент?
 
@@ -65,7 +65,7 @@ ms.locfileid: "30885642"
 
 Что. Хотя мы вы переход к Скайп для бизнеса веб-службами, по-прежнему можно использовать другие центры администрирования Office 365 (например, Office 365 и Exchange центры администрирования). Тем не менее а также Скайп для бизнеса в Интернет центра администрирования, не будут иметь возможность использовать Скайп для командлетов Online удаленной оболочки PowerShell Business во время миграции. 
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

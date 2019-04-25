@@ -1,5 +1,5 @@
 ---
-title: Назначение, изменение или удаление номер телефона для пользователя
+title: Назначение, изменение или удаление номера телефона пользователя
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: Узнайте, как назначить, изменить или удалить рабочий номер телефона ваших пользователей Skype for Business, чтобы другие предприятия и клиенты могли им звонить.
 ms.openlocfilehash: 0e354956d1077b2f81de7b889d8085f05db038c4
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235695"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение или удаление номер телефона для пользователя
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение или удаление номера телефона пользователя
 
 При настройке вызов планы в Office 365, нужно назначить номера телефонов пользователей. 
 
@@ -125,7 +125,7 @@ ms.locfileid: "30047751"
 6. На панели действий, под строкой ontenteditable="false" class="locked monad startTag">**Назначить номер**, нажмите **Удалить**.
     
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Что такое проверка адреса?](what-is-address-validation.md)
 
 [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)

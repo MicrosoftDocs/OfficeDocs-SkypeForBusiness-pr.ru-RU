@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как просмотреть список пользователей в вашей организации, которые активированы для телефонных конференций, из центра администрирования Skype для бизнеса. '
 ms.openlocfilehash: 722f9e411e1781529ea68f6995a2109f58d39cb0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229264"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Просмотреть список пользователей, которые включены в Скайп для аудиоконференции для бизнеса в Интернет
 
 > [!NOTE]
 > Для получения сведений об активированных пользователях в Microsoft Teams см. [Просмотр списка пользователей, активированных для аудиоконференций в Microsoft Teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
 
-После активации пользователей Skype для бизнеса в вашей организации для аудиоконференции, вы можете просмотреть список тех пользователей, которые были активированы. При просмотре списка вы также сможете увидеть тип используемого поставщика услуг аудиоконференций для каждого пользователя в списке, телефонный номер для каждого пользователя по умолчанию, узнать, включены ли динамические идентификаторы конференции для вашей организации, а также статические идентификаторы конференции для аудиоконференций, которые проводят пользователи.
+After you have enabled Skype for Business users in your organization for Audio Conferencing, you can view the list of those users who have been enabled. When you look at the list, you will also see for each user in the list the type of audio conferencing provider that they are using, the default dial-in phone number for the user, and if you organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -74,7 +74,7 @@ ms.locfileid: "23881998"
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -88,6 +88,6 @@ ms.locfileid: "23881998"
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Статьи по теме
 
 [Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

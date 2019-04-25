@@ -14,11 +14,11 @@ ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы изменить свойства базы данных SQL Server, необходимо изменить экземпляр базы данных SQL Server. Диалоговое окно Изменение свойств нельзя использовать для выполнения задач, таких как база данных сервера архивации перемещается с одного компьютера на другой. Кроме того нельзя использовать диалоговое окно Изменение свойств для изменения экземпляра SQL Server, в котором размещается центральное хранилище управления.
 ms.openlocfilehash: d1b5287344095c062421a6afc56d620c81584fd3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235194"
 ---
 # <a name="sql-store-settings-expander"></a>Расширитель параметров хранилища SQL
  

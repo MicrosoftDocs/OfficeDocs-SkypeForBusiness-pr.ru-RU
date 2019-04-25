@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Можно включить вашей Скайп для бизнес-пользователям использовать встроенные Скайп для средство отправки отзывов приложения Business чтобы дать возможность пользователям отчитываться о проблемах и отзывы и напрямую в корпорацию Майкрософт о своих качества.
 ms.openlocfilehash: f803c1fe88de564f8fb4870446ef6d1d1058a841
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226674"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Включение и выключение отчетов и отзывов клиентов в Skype для бизнеса
 
@@ -95,7 +95,7 @@ ms.locfileid: "30891434"
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

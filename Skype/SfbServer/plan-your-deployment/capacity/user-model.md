@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: В этой статье приводится руководство по количества серверов, необходимых сайтов для количества пользователей этого сайта в соответствии с использования, описанными в модели пользователя в Скайп для Business Server.
 ms.openlocfilehash: 13c7a1bdbbfc20f13dec2c6d9999b80caf4078dd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228402"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Планирование мощности использование модели пользователя для Скайп для Business Server
 

@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Чили.
 ms.openlocfilehash: a804a8955a676df8381d1dcb6a2cab4f17dfe840
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541362"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248159"
 ---
 # <a name="availability-in-chile"></a>Доступность в Чили
 

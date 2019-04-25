@@ -1,5 +1,5 @@
 ---
-title: Почему возникают проблемы с вводом адреса в Соединенном Королевстве?
+title: Почему возникают проблемы, введя Соединенное Королевство сведения об адресе?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: Ниже приведены некоторые причины, почему может не получается адрес или адреса для проверки правильности в Соединенное Королевство (Великобритания).
 ms.openlocfilehash: dafc6608f45393ccc0a39ecdb2c01e2479ec630b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227817"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Почему возникают проблемы с вводом адреса в Соединенном Королевстве?
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Почему возникают проблемы, введя Соединенное Королевство сведения об адресе?
 
 Ниже приведены некоторые причины, почему может не получается адрес или адреса для проверки правильности в Соединенное Королевство (Великобритания).
   

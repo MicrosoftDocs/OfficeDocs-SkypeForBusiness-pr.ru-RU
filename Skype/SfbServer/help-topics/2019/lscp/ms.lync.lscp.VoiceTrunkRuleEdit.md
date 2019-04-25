@@ -14,11 +14,11 @@ ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 ms.openlocfilehash: 92f98136edd544416607d02e638dd5889a7a22ab
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221273"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>Правило преобразования: создание нового или редактирование существующего
 

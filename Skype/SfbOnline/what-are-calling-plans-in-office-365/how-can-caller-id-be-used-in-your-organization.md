@@ -1,5 +1,5 @@
 ---
-title: Использование идентификатора абонента в организации
+title: Как можно использовать идентификатор абонента в организации?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: Идентификатором вызывающего абонента можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, которая называется CallingLineIdentity.
 ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047900"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229890"
 ---
-# <a name="how-can-caller-id-be-used-in-your-organization"></a>Использование идентификатора абонента в организации
+# <a name="how-can-caller-id-be-used-in-your-organization"></a>Как можно использовать идентификатор абонента в организации?
 
 Идентификатором вызывающего абонента можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, которая называется CallingLineIdentity.
   
@@ -69,7 +69,7 @@ The EnableUserOverride attribute enables single or multiple users to change thei
   
 ||||
 |:-----|:-----|:-----|
-|**Windows** <br/> |** Версия** <br/> |**Поддерживается** <br/> |
+|**Windows** <br/> |**Версия** <br/> |**Поддерживается** <br/> |
 |Технология «нажми и работай»  <br/> |Текущая платформа канала выпущена 6 декабря 2016 года - версия 1611 (сборка 7571.2072)  <br/> |Да  <br/> |
 |Технология «нажми и работай»  <br/> |Первый выпуск для отложенного канала был выпущен 22 февраля 2017 года - версия 1701 (сборка 7766.2060)  <br/> |Да  <br/> |
 |Технология «нажми и работай»  <br/> |Отложенный канал выпущен 13 июня 2017 г. - версия 1701 (сборка 7766.2092)  <br/> |Да  <br/> |

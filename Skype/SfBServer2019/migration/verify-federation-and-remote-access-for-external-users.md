@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После переноса федеративного маршрута для Скайп Business Server 2019 пограничного сервера, необходимо выполнить некоторые функциональных тестов, чтобы убедиться, что федерации работает, как ожидалось. Тесты доступа внешних пользователей должны охватывать все типы внешних пользователей, которые поддерживаются в организации, включая некоторые или все следующие.
 ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231352"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>Проверка федерации и удаленного доступа для внешних пользователей
 

@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'В разделе where для назначения плана допустимый службы для пользователя после Скайп для бизнеса в Интернет план обслуживания не допустимый ошибки. '
 ms.openlocfilehash: a6e42e26b9a0257005d735b0e5cda13af6f11b67
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237196"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Недопустимый Скайп пользователя для бизнеса в Интернет план обслуживания
 
@@ -33,7 +33,7 @@ ms.locfileid: "30888023"
   
 Перейдите в **Центр администрирования Office 365** > **активных пользователей** и назначить допустимый службы планирования для этого пользователя.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236423"
 ---
 <a name="what-the-guest-experience-is-like"></a>Взаимодействие с гостями
 =================================
@@ -95,19 +95,19 @@ ms.locfileid: "30641083"
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
   
 Q. Есть ли у Гости те же возможности, как участники группы?<br>
-А. Нет Дополнительные сведения о какие гостя доступных и недоступных перейдите к [возможности гостевой в группах](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
+А. № Дополнительные сведения о какие гостя доступных и недоступных перейдите к [возможности гостевой в группах](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
 Q. Сколько Гости можно пригласить?<br>
 А. Можно добавить до 5 Гости на лицензированным пользователя.
 
 Q. Гости имеют доступ к OneDrive для бизнеса?<br>
-А. Нет
+А. №
 
 Q. Гости имеют доступ к файлам SharePoint?<br>
 А. Да.
 
 Q. Поиск может Гости внутри файлов?<br>
-А. Нет
+А. №
 
 Q. Гости могут и подключение файлов?<br>
 А. Да, гостя могут прикреплять файлы следующими двумя способами: • выберите файлы в левой области, а затем перейдите к месту расположения файла.

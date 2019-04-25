@@ -18,11 +18,11 @@ localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как управлять политиками пользовательское приложение и параметры, чтобы контролировать, кто в организации настраиваемые приложения в группах Microsoft можно публиковать.
 ms.openlocfilehash: 3cbd517cdfe8066eebff0164457c8e2e3aa37a5d
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749759"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224636"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Управление пользовательскими политиками и параметрами приложений в Microsoft Teams
 
@@ -125,7 +125,7 @@ ms.locfileid: "31749759"
 | Вкл.     | Вкл.     | Выкл.         | Пользователь не может загрузить настраиваемые приложения.       |
 | Вкл.    | Вкл.        | Вкл.        | Пользовательские приложения можно публиковать пользователя в группу, независимо от того, является ли пользователь является владельцем группы. Настраиваемые приложения в контексте личные можно публиковать пользователя.       |
 
- ## <a name="related-topics"></a>Связанные разделы
+ ## <a name="related-topics"></a>Статьи по теме
 - [Параметры администратора для приложений в Teams](admin-settings.md)
 - [Управление политиками настройки приложений в Microsoft Teams](teams-app-setup-policies.md)
 - [Управление политиками разрешений для приложений в Microsoft Teams](teams-app-permission-policies.md)

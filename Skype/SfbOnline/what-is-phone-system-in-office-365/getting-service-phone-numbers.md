@@ -1,5 +1,5 @@
 ---
-title: Получение служебных номеров телефонов
+title: Получение номеров телефонов служб
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
 ms.openlocfilehash: e1f4020e7062066451eebd626832da8d4a633069
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227877"
 ---
-# <a name="getting-service-phone-numbers"></a>Получение служебных номеров телефонов
+# <a name="getting-service-phone-numbers"></a>Получение номеров телефонов служб
 
 In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
   
@@ -85,8 +85,8 @@ If you want to transfer service numbers from your current service provider or ca
 > [!NOTE]
 > Если необходимо больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
-## <a name="related-topics"></a>Связанные разделы
-[Преимущества телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+## <a name="related-topics"></a>Статьи по теме
+[Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

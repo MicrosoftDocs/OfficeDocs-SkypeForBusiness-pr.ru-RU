@@ -14,11 +14,11 @@ ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Устойчивость предоставляет высокой доступности и аварийного восстановления для пула регистратора. С указанием регистратора резервного копирования в случае сбоя основного регистратора Registrar взять на себя для неудачных регистратора резервной копии позволяя пользователям входить в систему и общаться. Пользователи могут использовать потенциально ограниченной функциональности, в зависимости от того, который системы не были выполнены в основном регистраторе.
 ms.openlocfilehash: dff7561a1e461283768601515a52207de1b4140b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235261"
 ---
 # <a name="registrar-settings-expander"></a>Расширитель параметров регистратора
  

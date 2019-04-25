@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Если устаревшего пула переднего плана размещен контроль допуска звонков (CAC), необходимо переместить контроль допуска звонков размещения для Скайп для пула Business Server 2019, прежде чем удалять устаревшие пула переднего плана.
 ms.openlocfilehash: 3b94322b86feb2c647f88102617ab1dcc9d5f8bc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231392"
 ---
 # <a name="reset-call-admission-control"></a>Сброс контроля допуска звонков
 

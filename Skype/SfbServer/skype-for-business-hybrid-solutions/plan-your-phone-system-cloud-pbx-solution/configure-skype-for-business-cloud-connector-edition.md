@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: Сведения о настройке Скайп для облачных соединитель Business Edition, топологии минимальной локальных Чтобы включить интеграцию инфраструктуры голосовой связи в локальной с телефонной системой в службах Office 365 (облако УАТС) голосовой связи в Скайп для бизнеса в Интернет.
 ms.openlocfilehash: 5d057a299e51bfb83bd6711fcf1fbe8b4ee98f02
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227917"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Настройка и управление Skype для бизнеса Cloud Connector Edition
  
@@ -38,7 +38,7 @@ ms.locfileid: "30898000"
 
 В следующей таблице приводятся шаги по установке и настройке выпуска Cloud Connector Edition.
   
-|**Шаг**|**Описание**.|
+|**Шаг**|**Описание**|
 |:-----|:-----|
 |[Подготовка устройства Cloud Connector](prepare-your-cloud-connector-appliance.md) <br/> |Загрузить файл установки, Подготовка сертификаты, настроить Hyper-V и подготовки среды для развертывания облака соединителя.  <br/> |
 |[Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) <br/> |Создайте сайт в развертывании Cloud Connector.  <br/> |

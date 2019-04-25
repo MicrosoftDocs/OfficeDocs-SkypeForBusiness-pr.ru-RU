@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Греция.
 ms.openlocfilehash: e0d73e274ae59b9d9b82b1e7b2b564c9f8070b0a
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248097"
 ---
 # <a name="availability-in-greece"></a>Доступность в Греции
 

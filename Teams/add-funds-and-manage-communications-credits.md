@@ -30,11 +30,11 @@ ms.custom:
 - Licensing
 description: 'Узнайте, как оплачиваться для обмена данными кредитов (потребление PSTN) Скайп для бизнес-служб и посмотрите, планы для хранения пользователей с доступом к непрерывной телефонной системы. '
 ms.openlocfilehash: 0305e432534188f0dd8276fb29c9c764cc26bfeb
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948343"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231808"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Пополнение средств и управление кредитами на связь
 
@@ -80,11 +80,11 @@ ms.locfileid: "30948343"
   
 Таблица с лицензии или лицензий, необходимых для каждого компонента, см [лицензирования дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 
 - [Настройка Skype для бизнеса Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Настройка голосовой почты Cloud - Admin справки](set-up-phone-system-voicemail.md)
+- [Настройка облачной голосовой почты — справка для администратора](set-up-phone-system-voicemail.md)
     
 - [Настройка в Тарифных планов](set-up-calling-plans.md) и [Тарифные планы для Office 365](calling-plans-for-office-365.md)
         

@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 896727462b44389e436df68441d6915b57547d01
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226988"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Внедрение Microsoft Teams. Этап 3 — масштабирование
 

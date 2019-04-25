@@ -19,11 +19,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
-ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30512991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226609"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -72,7 +72,7 @@ ms.locfileid: "30512991"
 - Надстройка не будет работать, если прокси-сервер проверки подлинности находится по сетевому пути пользовательского ПК и служб Microsoft Teams.
 - Надстройки предназначенных для развертывания постепенного и может быть недоступна для вашей организации еще.
 
-## <a name="troubleshooting"></a>Устранение неполадок
+## <a name="troubleshooting"></a>Поиск и устранение неполадок
 
 Если не удается получить собрания команды надстройки для Outlook для установки, попробуйте выполните следующие действия по устранению неполадок.
 

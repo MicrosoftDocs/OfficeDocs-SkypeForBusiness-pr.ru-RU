@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: Если вы развертывании пограничных серверов и необходимо предоставить служб мультимедиа для внешнего использования, выберите пограничного сервера или пула, который будет связан с устройства для обеспечения связи в филиалах или для обеспечения связи в филиалах, выбрав в раскрывающемся списке. Для продолжения нажмите кнопку Далее.
 ms.openlocfilehash: 2e20b11ec58cbccca1acc625a0676675b9833219
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227440"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Сопоставление устройства для обеспечения связи в филиалах с пограничным сервером
  
