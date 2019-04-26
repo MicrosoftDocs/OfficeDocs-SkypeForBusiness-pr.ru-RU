@@ -3,7 +3,7 @@ title: Работа с клиентами для Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/05/2018
+ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43344ac9ea00c15bcb4fb7518d727ccc9cff92de
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
-ms.translationtype: HT
+ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934717"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304727"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 ===========================
@@ -31,7 +31,9 @@ ms.locfileid: "30934717"
 В Microsoft Teams доступен классический клиент (Windows и Mac), веб-клиент и мобильный клиент (Android и iOS). Все они нуждаются в активном подключении к Интернету и не поддерживают автономный режим.
 
 > [!NOTE]
-> С 29 ноября 2018 г. вы больше не сможете использовать приложение Microsoft Teams для Windows 10 S (предварительная версия), доступное в Магазине Microsoft Store. После 29 ноября рекомендуется использовать одно из приложений Teams, описанных ниже в этой статье.
+> С 29 ноября 2018 г. вы больше не сможете использовать приложение Microsoft Teams для Windows 10 S (предварительная версия), доступное в Магазине Microsoft Store. Вместо этого можно теперь Загрузите и установите клиентское групп на устройствах под управлением Windows 10 S режим. Чтобы загрузить настольных компьютеров клиента, перейдите к [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). Построения MSI клиента рабочего стола команды не доступен для устройств под управлением Windows 10 S режим.
+>
+> Дополнительные сведения о режиме Windows 10 S приведены [Краткие сведения о 10 Windows в режиме S](https://www.microsoft.com/windows/s-mode). 
 
 <a name="desktop-client"></a>Классический клиент
 --------------
@@ -45,7 +47,7 @@ ms.locfileid: "30934717"
 
 При наличии подходящих локальных разрешений (для установки клиента Teams на Mac требуются права администратора, а на ПК — нет) пользователи могут скачать и установить классические клиенты прямо со страницы [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754).
 
-ИТ-администраторы могут использовать предпочитаемый способ распространения установочных файлов на компьютеры в своей организации, например System Center Configuration Manager (Windows) или Jamf Pro (macOS). Сведения о получении MSI-пакета для распространения в Windows см. в статье [Установка Microsoft Teams с помощью MSI](msi-deployment.md).
+ИТ-администраторы могут использовать предпочитаемый способ распространения установочных файлов на компьютеры в своей организации, например System Center Configuration Manager (Windows) или Jamf Pro (macOS). Сведения о получении MSI-пакета для распространения в Windows см. в статье [Установка Microsoft Teams с помощью MSI](msi-deployment.md).  
 
 > [!NOTE]
 > Распространение посредством этих механизмов подходит только для начальной установки клиентов Microsoft Team, но не для дальнейших обновлений.
@@ -133,7 +135,7 @@ ms.locfileid: "30934717"
 <a name="client-update-management"></a>Управление обновлениями клиентов
 ------------------------
 
-Сейчас клиенты обновляются службой Microsoft Teams автоматически и без вмешательства ИТ-администратора. При выходе обновления клиент автоматически скачивает его, а после определенного периода неактивности приложения запускает процесс обновления.
+Сейчас клиенты обновляются службой Microsoft Teams автоматически и без вмешательства ИТ-администратора. Если обновление доступно, клиент автоматически загружать обновления и когда приложение idled на определенный период времени, начинается процесс обновления.
 
 <a name="client-side-configurations"></a>Конфигурации на стороне клиента
 ---------------------------

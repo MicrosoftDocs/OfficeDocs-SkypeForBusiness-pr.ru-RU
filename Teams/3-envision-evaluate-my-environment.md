@@ -1,7 +1,7 @@
 ---
 title: Оценка среды для рабочих нагрузок облачной голосовой службы Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c092904151ac0a05536a52a9ee8b475c9264a21a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2f91bde48311e12a6cdac63f7f855b1267b6e1f4
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244576"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304815"
 ---
 # <a name="evaluate-my-environment"></a>Оценка среды
 
