@@ -21,6 +21,7 @@
 ## [Назначение владельцев и участников команд в Microsoft Teams](assign-roles-permissions.md)
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ## [Создание команды для всей организации в Teams](create-an-org-wide-team.md)
+## [Управление обнаружением закрытых команд в Teams](manage-discovery-of-private-teams.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
