@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Федерация — это отношение доверия между двумя или более доменами SIP, которое разрешает пользователям в разных организациях поддерживать связь по границам сети. После миграции в пилотном пуле вам нужно перехода от федеративного маршрута к предыдущих версий пограничных серверов для федеративного маршрута к Скайп для Business Server 2019 пограничных серверов.
 ms.openlocfilehash: 607d98c3c831ae9fd911b9fd2782490dcfb0e4f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238746"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Настройка маршрутов федерации и трафика мультимедиа
 

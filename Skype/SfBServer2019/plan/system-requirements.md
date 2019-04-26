@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: ''
 description: 'Сводка: Подготовка к Скайп для серверов Business Server 2019 и инфраструктуры домена в этом разделе. Оборудование, операционная система, баз данных, программного обеспечения, все требования к системе и рекомендации, а также сертификат DNS, файловый ресурс и сведения Active Directory, являются здесь для обеспечения успешной установки и развертывания фермы серверов.'
 ms.openlocfilehash: 86ef54a5a269a47fb1e2b8dff04808bf85b5b296
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242007"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Требования к системе для Скайп для Business Server 2019
  
@@ -513,7 +513,7 @@ Microsoft SQL Server 2017 (64-разрядная версия) и необход
   
 Пул директора и пула переднего плана по сертификатам требования:
   
-|**Описание**.|**Запись SAN**|
+|**Описание**|**Запись SAN**|
 |:-----|:-----|
 |URL-адрес внутренней службы автоматического обнаружения  <br/> |SAN = lyncdiscoverinternal. \<sipdomain\>  <br/> |
 |URL-адрес внешней службы автоматического обнаружения  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
@@ -522,7 +522,7 @@ Microsoft SQL Server 2017 (64-разрядная версия) и необход
   
 Требования к сертификатам для обратного прокси-сервера (общедоступный центр сертификации)
   
-|**Описание**.|**Запись SAN**|
+|**Описание**|**Запись SAN**|
 |:-----|:-----|
 |URL-адрес внешней службы автоматического обнаружения  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
    

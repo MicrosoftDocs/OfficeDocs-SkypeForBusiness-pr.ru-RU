@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: При создании Скайп для пула Business Server 2019, необходимо использовать центрального хранилища управления, которая связана с установкой прежних версий. При запуске сеансов Topology Builder при первом вызове и последующие изменения, вам предлагается место Topology Builder для загрузки текущей конфигурации документа. Поскольку для определенных топология создано центрального хранилища управления, следует выбрать загрузка топологии из существующего развертывания. Topology Builder будет считывать базы данных и извлечения текущего определения.
 ms.openlocfilehash: 35c0d7163d58c17db16678ba14fd8c7b6b400c9f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238473"
 ---
 # <a name="download-topology-from-existing-deployment"></a>загрузка топологии из существующего развертывания;
 

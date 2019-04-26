@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 'Как включить запись для аудио-и видеоконференций, а также узнать, что является и не включена в записи. '
 ms.openlocfilehash: 0e642dc8075c4a7cdcc6d3846cf0c69bca3e2e01
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237569"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Разрешение записи аудио- и видеоконференций
 
@@ -46,7 +46,7 @@ ms.locfileid: "30881187"
    
 Дополнительные сведения см [сохранения и публикации записи Lync](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) и [Диспетчер записи Lync](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

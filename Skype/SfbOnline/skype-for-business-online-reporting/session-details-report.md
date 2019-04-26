@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: Новая панель мониторинга отчетов Office 365 показывающий обзор действий по продуктов Office 365 в вашей организации. Он позволяет работать отдельных продуктов уровня отчетами, чтобы предоставить более детальные сведения о действия в рамках каждого продукта.
 ms.openlocfilehash: c4f3040c759deefc222c6243d80de393e18befe9
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240608"
 ---
 # <a name="session-details-report"></a>Отчет со сведениями о сеансах
 
@@ -117,7 +117,7 @@ Office 365 **отчеты** панели мониторинга показыва
 
 - [Скайп для бизнеса PSTN minute пулы отчета](pstn-minute-pools-report.md) можно увидеть число минут потребления во время текущего месяца вашей организации.
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

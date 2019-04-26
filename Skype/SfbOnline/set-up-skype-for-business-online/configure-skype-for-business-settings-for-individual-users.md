@@ -23,11 +23,11 @@ ms.custom:
 - LIL_Placement
 description: 'Узнайте, как изменить Скайп для бизнеса параметры для отдельных пользователей, таких как: аудио- и видеоконференций, собраний и регистрации вызовов. '
 ms.openlocfilehash: 5c9bb7cfddb496a5b3bdb0b28ea050d5958a8147
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238045"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Администраторам: настройка параметров Skype для бизнеса для отдельных пользователей
 
@@ -107,7 +107,7 @@ ms.locfileid: "30885765"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
   
    
-## <a name="related-topics"></a>Связанные разделы 
+## <a name="related-topics"></a>Статьи по теме 
 
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 

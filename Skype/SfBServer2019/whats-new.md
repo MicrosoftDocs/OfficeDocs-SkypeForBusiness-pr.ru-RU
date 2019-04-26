@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: Эти функции являются новыми в Скайп для Business Server 2019.'
 ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239578"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Что такое в Скайп для Business Server 2019
 
@@ -23,7 +23,7 @@ ms.locfileid: "30891784"
 
 Новые возможности Скайп для Business Server 2019 относятся следующие:
   
-- Голосовая почта в облаке  
+- Облачная голосовая почта  
 - Соединитель данных звонка
 - Миграция рядом друг с другом
 

@@ -26,11 +26,11 @@ metadata:
   ms.custom:
   - NewAdminCenter_Update
   ms.openlocfilehash: faafc90009801aa06fc39cc4eec34028a1a5fa24
-  ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+  ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 04/18/2019
-  ms.locfileid: "31914605"
+  ms.lasthandoff: 04/23/2019
+  ms.locfileid: "32233438"
 items:
 - durationInMinutes: 2
   content: "\n[Microsoft групп](/MicrosoftTeams/Teams-overview.md) и [Скайп для бизнеса](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) являются частью системы Office 365, которые предоставляют чата, беседы телефона, голосовой почты, собрания, файлы и приложения вместе в одном месте. Они требуют [ **Телефонной системой** лицензий](/MicrosoftTeams/what-is-phone-system-in-office-365) для включения в Office 365 облаке управления звонками и УАТС. Лицензия телефонной системы входит в состав E5 корпоративной лицензии или его можно добавить до лицензии Enterprise E3. Сведения о лицензиях, [Скайп для лицензирования дополнительный компонент Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). \n\nЛицензия телефонной системой можно заменить существующие системы УАТС с [набором функций](/MicrosoftTeams/here-s-what-you-get-with-phone-system) , можно включить очереди вызовов, какой маршрут агентов, которые могут вызвать людей, которые вызывают бизнеса к одному из вашей компании, затем обслуживания клиентов заливки запросы или поместить в продаж заказы. Вызов очередей можно использовать с группами или Скайп для бизнеса. Создание очереди вызовов для вашей организации, с помощью центра администрирования группами Майкрософт. Учетная запись ресурса очереди звонок может либо назначен номер телефона или очередь звонок может быть Выбор параметров для автосекретарь без непосредственно соответствующему номеру телефона.\n\nВ ответ на запрос Настройка очереди вызовов в этой статье приведен пример планирования и реализации упрощенный одно для предполагаемую бизнеса.  \n\n## <a name=\"before-you-begin\"></a>До начала работы\n\nМы предполагаем, что вы уже сделали следующее: \n- [Настройка телефонной системы в вашей организации](/MicrosoftTeams/setting-up-your-phone-system.md) с помощью [Вызова планирование](/MicrosoftTeams/calling-plan-landing-page) для предоставления телефонных номеров для пользователей.\n- [Настройка голосовой почты телефонной системы](/MicrosoftTeams/set-up-phone-system-voicemail.md) \n- Проверить [Каковы автосекретари и вызвать очередей?](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls.md) чтобы лучше понять возможности телефонной системой, с которыми могут работать очереди вызовов.\n"

@@ -20,11 +20,11 @@ ms.custom:
 - LIL_Placement
 description: 'Узнайте, как для пользователей, которые используют Скайп для бизнес-контакта Скайп для бизнес-пользователей из других организаций и добавить их в свой список контактов. '
 ms.openlocfilehash: 212393154cb2b730ce18f5be9b03495e747e207c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238035"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Разрешение на добавление контактов Skype пользователям Skype для бизнеса
 

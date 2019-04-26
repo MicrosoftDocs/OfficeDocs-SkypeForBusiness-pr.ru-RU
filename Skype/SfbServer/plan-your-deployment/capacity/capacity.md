@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
 description: В темах этого раздела помогут понять, как планирование и развертывание Скайп for Business Server, чтобы соответствующим образом спланировать количество пользователей в организации и планирование нагрузку на сервер, создавать их действий.
 ms.openlocfilehash: e7974704c4c39ac269b763043dbc50b83fc02c96
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236103"
 ---
 # <a name="capacity-planning-for-skype-for-business-server"></a>Планирование мощности для Скайп для Business Server
  

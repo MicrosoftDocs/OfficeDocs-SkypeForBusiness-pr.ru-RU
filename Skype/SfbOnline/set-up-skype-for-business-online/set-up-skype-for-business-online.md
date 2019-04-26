@@ -24,11 +24,11 @@ ms.custom:
 - LIL_Placement
 description: 'Сведения для настройки вашего домена, пользователи, обмена мгновенными Сообщениями и сведения о присутствии для вашей организации для установки Скайп для бизнеса. Также узнайте, как настроить аудиоконференций, телефонной системой и вызов планы и собрания Скайп вещания. '
 ms.openlocfilehash: 2a968fa0f5b89351c2a7a2726052b1418f0ac213
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237827"
 ---
 # <a name="set-up-skype-for-business-online"></a>Настройка Skype для бизнеса Online
 
@@ -172,7 +172,7 @@ ms.locfileid: "30878687"
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 <a name="bkmk_more"> </a>
 
 [Планирование гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online](https://go.microsoft.com/fwlink/p/?linkid=400791)

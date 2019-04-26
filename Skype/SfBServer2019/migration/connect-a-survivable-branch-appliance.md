@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Каждые для обеспечения связи в филиалах Appliance (SBA) связан с пулом переднего плана, который выступает в качестве резервного регистратора для SBA. Когда переднего плана миграции пула Скайп для 2019 Business Server, устройство должно отделяется от пула переднего плана, во время обновления пула после пула были перенесены на Скайп для Business Server 2019, устройство может быть повторно связано с обновленных переднего E Вторая пула. Данная операция подразумевает удаление SBA из устаревшего топологии в построителе топологий и добавляя SBA Скайп для топологии Business Server 2019. Пользователей, размещенных на устаревший SBA необходимо сначала перемещены в другой пул переднего плана перед удалением на устройство из топологии. После добавления SBA для Скайп для топологии Business Server 2019 этих пользователей можно затем перемещать обратно на устройство. Эти действия приведены ниже.
 ms.openlocfilehash: e4917b20e9e680627e92935dcb10ebf06c2e3d2d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238656"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Подключение Survivable Branch Appliance
 

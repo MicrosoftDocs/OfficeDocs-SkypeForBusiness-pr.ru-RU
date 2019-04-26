@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Можно настроить способ подключения к Skype для бизнеса Online с помощью приложения Skype для бизнеса на мобильных устройствах, например с помощью функции, которая позволяет пользователям совершать и принимать звонки по рабочим, а не личным номерам мобильных телефонов. Можно также использовать политики мобильных устройств, чтобы запросить подключение Wi-Fi при звонках.
 ms.openlocfilehash: 73416cb6e0c9c349c58e26b70760f6490e283e4f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237463"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Настройка политик мобильных устройств в организации
 
@@ -138,7 +138,7 @@ ms.locfileid: "30897189"
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)
 
 [Передача файлов точка-точка блока](block-point-to-point-file-transfers.md)

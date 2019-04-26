@@ -21,15 +21,15 @@ ms.custom:
 - Security
 description: Руководство по безопасности для Skype для бизнеса Online <add description>
 ms.openlocfilehash: 555a7bd3e4a57c637c0375ea406caeca3c221be7
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248007"
 ---
 # <a name="security-and-skype-for-business-online"></a>Безопасность и Скайп для бизнеса в Интернете
 
-Skype для бизнеса Online (SfBO), входящий в состав службы Office 365, следует всем передовым методам и процедурам безопасности, таким как безопасность на уровне обслуживания, посредством глубокой защиты, контроля клиентов в рамках службы, повышения безопасности и лучшей практики работы. Полные сведения можно найти в центре управления безопасностью Microsoft (https://microsoft.com/trustcenter).
+Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. Полные сведения можно найти в центре управления безопасностью Microsoft (https://microsoft.com/trustcenter).
 
 ## <a name="trustworthy-by-design"></a>Надежность, заложенная в проект 
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
@@ -55,7 +55,7 @@ The denial-of-service attack occurs when the attacker prevents normal network us
 SfBO устраняет от этих атак, выполнив защита Azure DDOS и посредством регулирования количества запросов клиентов из одной конечных точек, подсети и федеративных сущностей.
 
 ### <a name="eavesdropping"></a>Прослушивание
-Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path. 
+Прослушивание осуществляется, когда злоумышленнику удается получить доступ к каналам передачи данных в сети с возможностью контролировать и просматривать трафик. Такой тип атаки также называется сканированием или слежением. Если трафик передается в виде обычного текста, злоумышленник может прочитать его, получив доступ к каналу обмена данными. Примером такой атаки является контроль маршрутизатора в составе такого канала. 
 
 SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
@@ -77,7 +77,7 @@ A man-in-the-middle attack occurs when an attacker reroutes communication betwee
 A replay attack occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SfBO uses SRTP in conjunction with a secure signaling protocol that protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.
 
 ### <a name="spim"></a>Нежелательные мгновенные сообщения
-Spim is unsolicited commercial instant messages or presence subscription requests. While not by itself a compromise of the network, it is annoying in the least, can reduce resource availability and production, and can possibly lead to a compromise of the network. An example of this is users spimming each other by sending requests. Users can block each other to prevent this, but with federation, if a coordinated spim attack is established, this can be difficult to overcome unless you disable federation for the partner.
+Нежелательные мгновенные сообщения — это нежелательные мгновенные сообщения коммерческого характера либо запросы подписки на сведения о присутствии. Хотя такие сообщения сами по себе не нарушают безопасность сети, они как минимум раздражают пользователей, ухудшают их доступность и производительность и в перспективе могут привести к нарушению сетевой безопасности. Примером является отправка пользователями нежелательных запросов друг другу. Чтобы избавиться от таких запросов, пользователи могут блокировать друг друга, однако защититься от скоординированной атаки нежелательными мгновенными сообщениями в федеративной среде сложно без отключения федерации партнера.
 
 ### <a name="viruses-and-worms"></a>Вирусы и черви
 Вирус — это блок кода, задача которого — воспроизводство идентичных блоков. Для работы вирусу нужен носитель, например файл, сообщение электронной почты или программа. Подобно вирусу, вирус-червь представляет собой единицу кода, которая кодируется для воспроизведения дополнительных похожих единиц кода, но в отличие от вируса не требуется основного приложения. Вирусы и черви в основном появляются при обмене файлами между клиентами, а также при получении URL-адресов от других пользователей. Если вирус находится на компьютере, он может, например, использовать идентификационные данные хозяина для отправки мгновенных сообщений от его имени. Стандартные рекомендации по безопасности клиентов, такие как периодическое сканирование вирусов, могут уменьшить эту проблему. 
@@ -103,7 +103,7 @@ SfBO has the potential to disclose information over a public network that might 
 
 <!-- end of table -->
 
-***Таблица 2 - Обязательные данные***
+***В таблице 2 - обязательных данных***
 
 <!--start table here -->
 
@@ -118,7 +118,7 @@ SfBO has the potential to disclose information over a public network that might 
 
 <!-- end of table -->
 
-## <a name="security-framework-for-sfbo"></a>Рамки безопасности для SfBO
+## <a name="security-framework-for-sfbo"></a>Модель безопасности для SfBO
 This section provides an overview of the fundamental elements that form the security framework for Microsoft SfBO. These elements are as follows:
 - Azure Active Directory (AAD) предоставляет единый надежный репозиторий для пользовательских учетных записей. 
 - Сертификаты, выданные доверенных центров сертификации (ЦС) использует инфраструктуры открытого ключа (PKI) для проверки подлинности серверов и обеспечения целостности данных.
@@ -203,7 +203,7 @@ For media authentication, the ICE and TURN protocols also use the Digest challen
 Клиентские сертификаты предоставления альтернативного способа для пользователей проходить проверку подлинности с SfBO. Вместо предоставления имя пользователя и пароль, пользователи имеют сертификат и закрытый ключ, соответствующий сертификату, необходимое для решения служб шифрования сложную задачу. 
 
 ### <a name="windows-powershell-and-sfbo-management-tools"></a>Средства управления Windows PowerShell и SfBO
-В SfBO ИТ-администраторы могут управлять своим сервисом через портал администратора O365 или с помощью Tenant Remote PowerShell (TRPS). Администраторы-арендаторы используют современную проверку подлинности для аутентификации в TRPS.
+В SfBO ИТ-администраторы могут управлять своим сервисом через портал администратора O365 или с помощью Tenant Remote PowerShell (TRPS). Администраторы клиента использования современных проверки подлинности для проверки подлинности TRPS.
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>Настройка доступа к SfBO на границе вашего интернета
 Для SfBO для правильной работы требуется клиентов (пользователи смогут присоединяться к собраниям и т.д.), настраивать их Интернета доступ к таким образом, чтобы исходящий трафик UDP и TCP для служб в облаке SfBO разрешен. Дополнительные сведения см.https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
@@ -237,7 +237,7 @@ Enabling external users and internal users to exchange media requires an Access 
 4. Между клиентом и A / согласовать видео конференций, подключение мультимедиа и установки через SRTP.
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
-### <a name="federation-safeguards-for-sfbo"></a>Защита Федерации для SfBO
+### <a name="federation-safeguards-for-sfbo"></a>Уровень безопасности федерации для SfBO
 Федерация предоставляет вашей организации возможность общаться с другими организациями для обмена мгновенными сообщениями и присутствием. В SfBO федерация включена по умолчанию. Тем не менее, администраторы-арендаторы имеют возможность контролировать это через портал администратора O365. См. больше.
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>Устранение угроз в конференциях SfBO
@@ -252,12 +252,12 @@ Enabling external users to participate in SfBO meetings greatly increases the va
 - Anonymous, that is, unauthenticated, users who want to join a dial-in conference dial one of the conference access numbers and then they are prompted to enter the conference ID. Unauthenticated anonymous users are also prompted to record their name. The recorded name identifies unauthenticated users in the conference. Anonymous users are not admitted to the conference until at least one leader or authenticated user has joined, and they cannot be assigned a predefined role.
 
 ### <a name="participant-roles"></a>Роли участников
-Участники собрания делятся на три группы, каждая из которых имеет свои привилегии и ограничения:
+Участники собрания могут быть разделены на три группы, каждый из которых свои права и ограничения:
 - **Организатор** &nbsp; &nbsp;Пользователя, который создает собрание, является ли impromptu или с помощью планирования. Организатор должен быть пользователем предприятия прошедшего проверку подлинности и контролирует все аспекты конечных пользователей собрания.
-- **Докладчик** &nbsp; &nbsp;Пользователя, которому разрешено для предоставления сведений на совещании, с помощью любой мультимедиа поддерживается. Организатор собрания по определению также является докладчиком и определяет, кто еще может быть докладчиком. Организатор может принять это решение, когда собрание запланировано или во время проведения собрания.
+- **Докладчик** &nbsp; &nbsp;Пользователя, которому разрешено для предоставления сведений на совещании, с помощью любой мультимедиа поддерживается. Организатор собрания по определению также является выступающим и определяет, кто еще может быть выступающим. При планировании собрания или во время собрания обрабатывается инициатора можно сделать это определение.
 - **Участник** &nbsp; &nbsp;Пользователя, приглашенные на участие в собрании, но которые не могут выступать в качестве выступающего.
 
-Докладчик может также способствовать повышению уровня участника в роли докладчика во время собрания.
+Выступающим также может повысить участником роли выступающего во время собрания.
 
 ### <a name="participant-types"></a>Типы участников
 
@@ -285,6 +285,6 @@ Meeting organizers control whether participants can present during a meeting. Ea
 - **Все, включая людей извне организации**&nbsp;&nbsp;все (нет ограничений) присоединяющиеся участники собрания можно представить.
 - **Люди, которых я выбираю**&nbsp;&nbsp;Организатор совещания определяет, какие пользователи могут присутствовать, добавив их в список докладчиков.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Центр управления безопасностью Microsoft](https://microsoft.com/trustcenter)
 

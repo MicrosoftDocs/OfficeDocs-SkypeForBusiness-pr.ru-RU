@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Устранение неполадок развертывания облака соединителя Edition.
 ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240752"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Устранение неполадок с развертыванием Cloud Connector
  
@@ -375,9 +375,9 @@ PowerShell создает этот файл как кэш командлеты �
     
     - После проверки правильности модуля CloudConnector существует в этом расположении, может быть изменен в переменную PSModulePath среды хранения путь для расположения модули:
     
-     а. Изменение временной: Powershell Start как администратора и выполните следующую команду: $env: PSModulePath = $env: PSModulePath + «; C:\Program Files\WindowsPowerShell\Modules\"
+     a) Изменение временной: Powershell Start как администратора и выполните следующую команду: $env: PSModulePath = $env: PSModulePath + «; C:\Program Files\WindowsPowerShell\Modules\"
         
-     б. Для сохраняемых изменений, запустите PowerShell как администратор и выполнить следующие команды, по одному: $CurrentValue = [среды]:: GetEnvironmentVariable("PSModulePath", "Machine") SetEnvironmentVariable("PSModulePath", $CurrentValue + "; C:\Program Files\WindowsPowerShell\Modules», «Компьютер»)
+     б) Для сохраняемых изменений, запустите PowerShell как администратор и выполнить следующие команды, по одному: $CurrentValue = [среды]:: GetEnvironmentVariable("PSModulePath", "Machine") SetEnvironmentVariable("PSModulePath", $CurrentValue + "; C:\Program Files\WindowsPowerShell\Modules», «Компьютер»)
 
     
 ## <a name="install-windows-updates-manually"></a>Установка обновления Windows вручную

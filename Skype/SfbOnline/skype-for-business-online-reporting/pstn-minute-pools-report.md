@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: В новом центре администрирования Skype для бизнеса в разделе Отчеты приводится сводка операций по звонкам и аудиоконференциям в организации. В ней можно также просмотреть детализированные отчеты по отдельным продуктам. Например Скайп для бизнеса PSTN minute пулы отчета можно использовать для просмотра потребления во время текущего месяца вашей организации в минутах.
 ms.openlocfilehash: 903ea97fa5cd187e49db89d0e4db32ad7b851a41
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239901"
 ---
 # <a name="pstn-minute-pools-report"></a>Отчет о пулах минут, затраченных по ТСОП
 
@@ -92,7 +92,7 @@ ms.locfileid: "30454019"
 
 - [Скайп для отчета о сеансе бизнеса](session-details-report.md) Можно просмотреть сведения о работе вызова отдельных пользователей.
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

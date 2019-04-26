@@ -21,11 +21,11 @@ ms.custom:
 - LIL_Placement
 description: 'Сведения о лицензии дополнительный компонент, функции и как приобрести для планов Office 365 бизнеса расширенный. '
 ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238937"
 ---
 # <a name="office-365-business-premium"></a>Office 365 бизнес премиум
 

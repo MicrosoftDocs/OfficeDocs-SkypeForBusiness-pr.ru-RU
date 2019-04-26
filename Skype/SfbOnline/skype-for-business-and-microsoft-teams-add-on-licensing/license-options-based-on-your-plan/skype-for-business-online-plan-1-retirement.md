@@ -1,5 +1,5 @@
 ---
-title: 'Скайп для пенсионного обеспечения Business Online план 1 '
+title: 'Прекращение поддержки Skype для бизнеса Online (план 1) '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,13 @@ ms.custom:
 - Licensing
 description: Скайп для бизнеса Online план 1 устарела. Тем не менее при наличии текущего подписка на Скайп для бизнеса Online план 1 это изменение не влияет на вы сразу. Когда вы готовы переместить в новый план — сейчас или во время обновления, вы получите трех вариантов.
 ms.openlocfilehash: d8468fa2d070e98cb19a1f41fff6884ac7c3517e
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24968617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248716"
 ---
-# <a name="skype-for-business-online-plan-1-retirement"></a>Скайп для пенсионного обеспечения Business Online план 1 
+# <a name="skype-for-business-online-plan-1-retirement"></a>Прекращение поддержки Skype для бизнеса Online (план 1) 
 
 Скайп для бизнеса Online план 1 устарела. Тем не менее при наличии текущего подписка на Скайп для бизнеса Online план 1 это изменение не влияет на вы сразу. Как глобальный администратор Office 365 будет получать обновления по электронной почте и просмотр публикации в центр сообщений (часть из центра администрирования Office 365) с информацией о когда следует выполнять действия. В это время могут продолжить использовать существующие Скайп для бизнеса Online план 1 лицензий.
 

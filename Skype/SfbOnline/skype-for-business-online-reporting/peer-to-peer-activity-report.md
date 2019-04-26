@@ -22,11 +22,11 @@ ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
 ms.openlocfilehash: 7610f8c97dcab5536f8c02420e4aff83cb4aaefe
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242230"
 ---
 # <a name="peer-to-peer-activity-report"></a>Отчет по одноранговым сеансам
 
@@ -117,7 +117,7 @@ Office 365 **отчеты** панели мониторинга показыва
 
 - [Скайп для отчета о сеансе бизнеса](session-details-report.md) Можно просмотреть сведения о работе вызова отдельных пользователей.
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

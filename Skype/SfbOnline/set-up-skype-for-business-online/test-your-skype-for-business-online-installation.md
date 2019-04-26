@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
 ms.openlocfilehash: 2cdb08634ce16b3ba6e09148daee57191e8c6988
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237779"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Тестирование установки Skype для бизнеса Online
 
@@ -136,7 +136,7 @@ ms.locfileid: "30883546"
 |[Показ слайдов PowerPoint на собрании Lync](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |Презентация PowerPoint отображается на компьютерах других пользователей в окне сцены собрания Skype для бизнеса.  <br/> |
 |[Передача файла на собрании Lync](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |После загрузки все участники собрания смогут просмотреть вложение и загрузить его на свои компьютеры.  <br/> |
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

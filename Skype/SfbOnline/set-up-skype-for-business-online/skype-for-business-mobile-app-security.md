@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Сведения по настройке безопасности мобильных приложений для пользователей. '
 ms.openlocfilehash: 0c07bbbe7d186774c4c8aa13d7fcb08bf81dcb63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237261"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Безопасность мобильного приложения Skype для бизнеса
 
@@ -40,7 +40,7 @@ ms.locfileid: "30886834"
    
 **Примечание:** Можно найти [в этой общедоступной документации](https://docs.microsoft.com/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) для принудительного применения ПИН-код устройства на каждом из выше мобильных платформ
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)

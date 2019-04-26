@@ -28,11 +28,11 @@ ms.custom:
 - LIL_Placement
 description: 'Узнайте, как настроить Скайп для бизнеса дать возможность пользователям обращаться к пользователей в другой организации или разрешить за пределами контактов к ним. '
 ms.openlocfilehash: 352973816e07ce60cff650f43ac6fced7f81e3b1
-ms.sourcegitcommit: 1bb3bf4b16394aaa1fdf9bab8d766afe040b9aac
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31907500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239220"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Разрешите пользователям связываться с внешними пользователями Skype для бизнеса
 
@@ -148,7 +148,7 @@ ms.locfileid: "31907500"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
    
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 <a name="bk_preview"> </a>
 
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)

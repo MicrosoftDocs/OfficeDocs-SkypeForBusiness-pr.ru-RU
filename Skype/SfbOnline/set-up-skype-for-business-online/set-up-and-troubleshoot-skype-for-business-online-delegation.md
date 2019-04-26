@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: В этой статье объясняется, как настроить и устранении неполадок Скайп для бизнеса в Интернет делегирования. В этой статье описаны рекомендации по рекомендации по настройке, рекомендации и действия по устранению неполадок.
 ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237300"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Настройка делегирования в Skype для бизнеса Online и устранение неполадок
 
@@ -143,7 +143,7 @@ ms.locfileid: "30887838"
     
 - Почтовый ящик Exchange Online не будет доступна через Скайп для клиента Business. При возникновении этой ошибки запустите [Outlook Проверка подключения](https://testconnectivity.microsoft.com/) к убедитесь в том, что они передают.
     
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
