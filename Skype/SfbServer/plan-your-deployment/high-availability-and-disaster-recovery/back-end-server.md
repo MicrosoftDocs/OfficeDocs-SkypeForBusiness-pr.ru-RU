@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Сведения о способах обеспечения высокой доступности Тыловой сервер, поддерживаемые в Скайп для Business Server, включая группы обеспечения доступности AlwaysOn, экземпляры отказоустойчивого кластера AlwaysOn, зеркальное отображение базы данных и кластер отработки отказа SQL.
-ms.openlocfilehash: 5f95ea1a1a856db945e1d0fac5683b1fb8c4c02e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6a466c398e5b25793d7e07f9e07815ba5387140
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214105"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33356220"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Назад высокой доступности внутреннего сервера в Скайп для Business Server
  
@@ -50,7 +50,7 @@ ms.locfileid: "32214105"
     
 
 > [!NOTE]
-> SQL Server 2016 является единственным версия, поддерживаемая Скайп для Business Server 2019.
+> Зеркальное отображение SQL доступна в Скайп для Business Server 2015, но в Скайп Business Server 2019 больше не поддерживается. Методы кластеризации отработки отказа группы обеспечения доступности AlwaysOn, экземпляры кластера AlwaysOn отработки отказа (FCI) и SQL, являются предпочтительными с Скайп для Business Server 2019.
     
 Зеркальное отображение базы данных асинхронный не поддерживается для обеспечения высокой доступности Тыловой сервер в Скайп для Business Server. Далее в этом документе под зеркальным отображением баз данных всегда понимается синхронное отображение, если явно не указано иное. 
   
