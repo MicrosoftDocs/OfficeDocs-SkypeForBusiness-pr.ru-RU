@@ -104,12 +104,6 @@
 #### [Клиенты собраний](../plan-your-deployment/clients-and-devices/meetings-clients.md)
 ##### [Минимальные требования к сети для приложения "Собрания Skype"](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Требования для Windows Phone](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
-<!-- #### [Microsoft Teams Rooms](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
-##### [Support for current branch versions](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
-##### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
-##### [Prepare your Environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
-##### [Requirements](../plan-your-deployment/clients-and-devices/requirements.md)
-##### [OMS management](../plan-your-deployment/clients-and-devices/oms-management.md) -->
 #### [Среды VDI](../plan-your-deployment/clients-and-devices/vdi-environments.md)
 ### [Высокая доступность и аварийное восстановление](../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
 #### [Высокая доступность](../plan-your-deployment/high-availability-and-disaster-recovery/high-availability.md)
