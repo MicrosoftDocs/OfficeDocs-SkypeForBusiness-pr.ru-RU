@@ -1,5 +1,5 @@
 ---
-title: Обзор PowerShell в Teams
+title: Обзор PowerShell групп
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -13,14 +13,14 @@ ms.collection:
 description: Изучите использование элементов управления PowerShell для управления группами Майкрософт.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a56783a4958038710440fc899081abfdd24f1dec
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204471"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401632"
 ---
-# <a name="teams-powershell-overview"></a>Обзор PowerShell в Teams
+# <a name="teams-powershell-overview"></a>Обзор PowerShell групп
 
 Группами Майкрософт имеет широкий набор средств для ИТ-администраторов для управления продукта через Центр администрирования группами Майкрософт, PowerShell элементов управления и API-интерфейсы графике. В этом руководстве рассматривается как мы структурировать наших командлеты PowerShell для ИТ-администраторов для использования и содержит ссылки на дополнительные документацию. Обратите внимание на то, что различные роли администраторов группы имеют доступ к другой командлетов. Дополнительные сведения можно [управлять группами ролей администраторов группами Майкрософт использования](using-admin-roles.md).
 
@@ -43,6 +43,37 @@ ms.locfileid: "32204471"
 Команды выполняется резервное O365 группами, поэтому при создании рабочая группа, создание группы. Существует набор командлетов для основная группа и его параметры (``new-team``, ``get-team``, ``set-team``), управление пользователями группы (``add-teamuser``, ``remove-teamuser``), а также командлетов для управления каналами рабочей группы (``new-teamchannel``, ``remove-teamchannel``). Все эти командлеты могут выполняться как конечные пользователи, но они работают только на которых вы должны быть членом группы. Если вы являетесь глобального администратора или администратора службы групп, можно будет действовать на все рабочие группы в вашей организации.
 
 > **GroupId** , используемые в командлетах модуля Microsoft команды PowerShell совпадает с свойства **Identity** , возвращаемого ``Get-UnifiedGroup`` в модуле Exchange PowerShell.
+
+### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Различия между Preview и модуль PowerShell общедоступной группами Майкрософт
+
+После мы выхода нашего версии наших модуль PowerShell, несколько командлетов остались в модуле только для бета-версии, как описано в следующей таблице.
+
+| Командлет | Доступно в режиме предварительного просмотра | В версии 1.0 |
+|------- | -------------------- | ------------------------------ |
+| Добавление TeamUser | Да | Да |
+| Подключение MicrosoftTeams | Да | Да |
+| Отключение MicrosoftTeams | Да | Да |
+| Get-подключения группой разработки | Да | Да |
+| Get-TeamChannel | Да | Да |
+| Get-TeamFunSettings | До версии 1.0 | Нет |
+| Get-TeamGuestSettings | До версии 1.0 | Нет |
+| Get-TeamHelp | Да | Да |
+| Get-TeamMemberSettings | До версии 1.0 | Нет |
+| Get-TeamMessagingSettings | До версии 1.0 | Нет |
+| Get-TeamUser | Да | Да |
+| Новые группы | Да | Да |
+| Новый TeamChannel | Да | Да |
+| Удаление группы | Да | Да |
+| Remove-TeamChannel | Да | Да |
+| Remove-TeamUser | Да | Да |
+| SET-подключения группой разработки | Да | Да |
+| SET-TeamChannel | Да | Да |
+| SET-TeamFunSettings | До версии 1.0 | Нет |
+| SET-TeamGuestSettings | До версии 1.0 | Нет |
+| SET-TeamMemberSettings | До версии 1.0 | Нет |
+| SET-TeamMessagingSettings | До версии 1.0 | Нет |
+| SET-TeamPicture | Да | Нет, запланированных |
+
 
 ## <a name="managing-policies-via-powershell"></a>Управление политиками через PowerShell
 

@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: Узнайте о различных сочетаний при создании пользователей и какие комбинации поддерживаются, а не поддерживается.
 ms.openlocfilehash: aaaf06fd0f4e697a1a4c371a9030510b9708f171
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298542"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402456"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Учетные записи пользователей в гибридной среде со связью с ТСОП
 

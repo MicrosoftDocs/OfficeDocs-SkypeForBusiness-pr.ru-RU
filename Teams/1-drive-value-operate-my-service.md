@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 340c61ab7013da769bdf422f2d2c43a767c5de03
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304455"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401051"
 ---
 # <a name="operate-my-service"></a>Использование службы
 
@@ -364,7 +364,7 @@ NET просто продавать счета (ТРУБЫ) — это пока�
 
 [Планировщик сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
-[URL-адреса и диапазоны IP-адресов для Office 365](https://aka.ms/o365ips)
+[URL-адреса и диапазоны IP-адресов Office 365](https://aka.ms/o365ips)
 
 [Схема данных построения](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -455,7 +455,7 @@ NET просто продавать счета (ТРУБЫ) — это пока�
 
 ### <a name="references"></a>Ссылки 
 
-[URL-адреса и диапазоны IP-адресов для Office 365](https://aka.ms/o365ips)
+[URL-адреса и диапазоны IP-адресов Office 365](https://aka.ms/o365ips)
 
 [Работа с клиентами для Microsoft Teams](get-clients.md)
 

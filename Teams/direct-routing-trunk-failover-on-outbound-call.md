@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: Прочтите этот раздел, чтобы узнать, как обрабатывать магистрали отработки отказа при исходящих вызовах из рабочих групп для пограничный контроллер сеансов (SBC).
 ms.openlocfilehash: b2da454097fcb0f0af91aefad987d195e9e0f912
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298558"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401784"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Отработка отказа канала связи при исходящих звонках
 

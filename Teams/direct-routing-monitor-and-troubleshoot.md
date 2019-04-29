@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: В этой статье описывается, как для мониторинга и устранения неполадок конфигурации прямой маршрутизации.
 ms.openlocfilehash: e21d3e020f477fd1518017e0d6fc484e7ea10344
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298662"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402448"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Отслеживание и устранение неполадок прямой маршрутизации
 

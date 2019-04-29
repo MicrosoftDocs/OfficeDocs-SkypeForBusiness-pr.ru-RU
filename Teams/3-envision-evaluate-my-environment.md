@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2f91bde48311e12a6cdac63f7f855b1267b6e1f4
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304815"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401067"
 ---
 # <a name="evaluate-my-environment"></a>Оценка среды
 
