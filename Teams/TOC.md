@@ -142,6 +142,7 @@
 ## [Запись собрания Teams в облаке](cloud-recording.md)
 ## [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ## [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Комнаты Microsoft Teams](room-systems/index.md)
 
 
 ## [Аудиоконференции](deploy-audio-conferencing-teams-landing-page.md)
