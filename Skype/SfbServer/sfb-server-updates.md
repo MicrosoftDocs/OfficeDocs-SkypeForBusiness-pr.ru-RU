@@ -11,16 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Централизованный поиск обновлений Skype для бизнеса Server 2015 и Lync 2013, а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 7aa5a6735a0a3f9fd3544a5f0980f47b4af74213
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f3ce33cb77a5285b96a077b44c02e42007500190
+ms.sourcegitcommit: f82994504d8ca89f05c39eae5318475c5a5b09eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199584"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33472512"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
-Централизованный поиск обновлений [Skype для бизнеса Server 2015](#skype-for-business-server-2015-update-history), [Lync 2013](#Lync-2013-update-history) и [Lync Server 2010](#lync-server-2010-update-history), а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
+Поиск и управление обновлениями для [Скайп для Business Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history)и [Lync Server 2010](#lync-server-2010-update-history) в одном месте. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
 
 Последние Скайп для обновления Business Online и Office 365 в разделе [Стратегия 365 Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
