@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: В данном разделе приведены сведения о развертывании Microsoft комнат групп с помощью Office 365.
-ms.openlocfilehash: 462f5a6727a3c67e221b0d7ac019849ed3eb6f52
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 16d0fad14bd52a13fa6735ec0b786cb15f3ce8c1
+ms.sourcegitcommit: 728507d34031d01f663d9b551cd4794867244854
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362970"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33467536"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Развертывание групп Майкрософт комнат с Office 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "33362970"
 
 - Клиент пользователи должны иметь почтовые ящики Exchange.
 
-- Учетной записи Microsoft группами комнат требуется по крайней мере Скайп для бизнеса Online (план 2) лицензии, но не требует лицензии Exchange Online. Просмотрите [Лицензирования комнат группами Майкрософт](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) для получения дополнительных сведений.
+- Учетной записи Microsoft группами комнат требуется по крайней мере Скайп для бизнеса Online (план 2) лицензии, но не требует лицензии Exchange Online. Просмотрите [лицензий комнат группами Майкрософт](skype-room-systems-v2.md) для получения дополнительных сведений.
 
 Дополнительные сведения о Скайп для бизнеса Online планы см [Скайп для описания службы Online бизнеса](https://technet.microsoft.com/library/jj822172.aspx).
 

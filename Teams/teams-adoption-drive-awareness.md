@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60e6d6b02719bf1055b5f8e9faa3c31febdf0bcb
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 0f0337fb71e766b96f7648c15b46d665d846e1fb
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647555"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470671"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Информированность и внедрение обучения по Microsoft Teams
 
@@ -65,6 +65,6 @@ ms.locfileid: "30647555"
 
 Совместное использование полезные сведения о получении отзывов каналы с хэш-тег #TeamsStories для облегчения поиска. Каждый месяц публикуйте в своей интрасети историю об использовании Teams с тегом #TeamsStories, чтобы отметить сотрудников, которые используют нововведения для повышения производительности и для эффективной совместной работы в вашей среде. Также совместно использовать их с нами наших форуме внедрения, влияющие на технические сообщества Майкрософт. Совместное использование этих реальные примеры в рамках вашей компании очень важно для понимания долгосрочной изменения со временем с помощью сообщества пользователей.
 
-[Дополнительные сведения о в отчетах об использовании группами Майкрософт в центре администрирования Office 365.](teams-activity-reports.md)
+[Дополнительные сведения о в отчетах об использовании группами Майкрософт в центре администрирования Microsoft 365.](teams-activity-reports.md)
 
 ![Далее действия значок](media/teams-adoption-next-icon.png) далее: [проверяет работоспособность службы расписания](teams-adoption-schedule-service-health-reviews.md)
