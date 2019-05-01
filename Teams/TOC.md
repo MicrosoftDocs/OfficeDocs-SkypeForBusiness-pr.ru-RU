@@ -323,13 +323,14 @@
 ### Идентификатор звонящего
 #### [Как можно использовать идентификатор звонящего в организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Настройка идентификатора звонящего для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### Автосекретари и очереди звонков 
+### Автосекретари и очереди вызовов 
 #### [Что представляют собой облачные автосекретари](what-are-phone-system-auto-attendants.md)
 #### [Настройка облачного автосекретаря](create-a-phone-system-auto-attendant.md)
 #### [Пример для малого бизнеса: настройка автосекретаря](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Пример для малого бизнеса: настройка очереди вызовов](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Управление учетными записями ресурсов в Microsoft Teams](manage-resource-accounts.md)
-#### [Создание облачной очереди звонков](create-a-phone-system-call-queue.md)
-#### [Ответ на звонки автосекретарей и очередей звонков непосредственно из Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Создание облачной очереди вызовов](create-a-phone-system-call-queue.md)
+#### [Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### [Приостановка и восстановление звонка](call-park-and-retrieve.md)
 ### [Общие звонки и ответ на групповые звонки](call-sharing-and-group-call-pickup.md)
 ### [Политика звонков](teams-calling-policy.md)
