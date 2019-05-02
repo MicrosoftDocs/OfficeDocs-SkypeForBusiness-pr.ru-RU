@@ -77,54 +77,6 @@
 ### [Отчеты об активности Teams в Центре администрирования Microsoft 365](teams-activity-reports.md)
 
 
-## Справочные материалы
-
-### Подготовка к развертыванию Teams
-#### [Проверка готовности среды для Teams](environment-readiness.md).
-#### [Подготовка сети организации к использованию Teams](prepare-network.md)
-#### [Прокси-серверы для Teams или Skype для бизнеса Online](proxy-servers-for-skype-for-business-online.md)
-#### [Ограничения и спецификации для Teams](limits-specifications-teams.md)
-#### [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
-#### [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
-#### [Планирование управления в Teams](plan-teams-governance.md)
-
-
-
-
-### Взаимодействие с Office 365
-#### [Настройка сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md)
-#### [Группы Office 365 и Microsoft Teams](office-365-groups.md)
-#### [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
-#### [Взаимодействие Exchange и Teams](exchange-teams-interact.md)
-##### [Настройка гибридной организации Exchange для работы с Teams](exchange-hybrid-organization.md)
-##### [Добавление домена SMTP Teams в качестве обслуживаемого в Exchange Online](smtp-accepted-domain.md)
-#### [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](sharepoint-onedrive-interact.md)
-#### [Взаимодействие с Teams в клиенте Office 365 с поддержкой нескольких регионов](teams-experience-o365odb-spo-multi-geo.md)
-
-### Установка Teams
-#### [Работа с клиентами для Teams](get-clients.md)
-#### [Аппаратные требования для приложения Teams](hardware-requirements-for-the-teams-app.md)
-#### [Установка Teams с помощью MSI](msi-deployment.md)
-#### [Включение Teams в организации](Office-365-set-up.md)
-#### [URL-адреса и диапазоны IP-адресов Office 365](office-365-urls-ip-address-ranges.md)
-#### [Teams для инфраструктуры виртуальных рабочих столов (VDI)](teams-for-vdi.md)
-#### [Развертывание Teams для Surface Hub](teams-surface-hub.md)
-
-### Лицензирование
-#### [Управление доступом пользователей к Teams](user-access.md)
-#### [Лицензирование Office 365 для Microsoft Teams](office-365-licensing.md)
-#### [Назначение лицензий Teams](assign-teams-licenses.md)
-#### [Лицензирование надстроек Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-##### Параметры лицензии с учетом плана
-###### [Office 365 бизнес премиум](teams-add-on-licensing/office-365-business-premium.md)
-###### [Office 365 профессиональный плюс](teams-add-on-licensing/office-365-premium-pro-plus.md)
-###### [Office 365 корпоративный E1 и E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-###### [Office 365 корпоративный E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-###### [Office 365 корпоративный E5 без аудиоконференции](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-###### [Государственные, образовательные и некоммерческие организации](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
-#### [Управление предложением пробной коммерческой версии Teams](iw-trial-teams.md)
-#### [Бесплатный перевод Teams на версию по подписке Office 365](upgrade-freemium.md)
-
 
 
 <!-- ============================================================ -->
@@ -656,6 +608,7 @@
 
 ## [Teams для сферы образования](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
+### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
 ### [Управление решениями Майкрософт для образования: вопросы и ответы для администраторов](plan-teams-governance-edu.md)
 
@@ -683,6 +636,58 @@
 
 # Справочные материалы
 
+
+## Подготовка к развертыванию Teams
+### [Проверка готовности среды для Teams](environment-readiness.md).
+### [Подготовка сети организации к использованию Teams](prepare-network.md)
+### [Прокси-серверы для Teams или Skype для бизнеса Online](proxy-servers-for-skype-for-business-online.md)
+### [Ограничения и спецификации для Teams](limits-specifications-teams.md)
+### [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
+### [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
+### [Планирование управления в Teams](plan-teams-governance.md)
+
+
+
+
+
+
+## Установка Teams
+### [Работа с клиентами для Teams](get-clients.md)
+### [Аппаратные требования для приложения Teams](hardware-requirements-for-the-teams-app.md)
+### [Установка Teams с помощью MSI](msi-deployment.md)
+### [Включение Teams в организации](Office-365-set-up.md)
+### [URL-адреса и диапазоны IP-адресов Office 365](office-365-urls-ip-address-ranges.md)
+### [Teams для инфраструктуры виртуальных рабочих столов (VDI)](teams-for-vdi.md)
+### [Развертывание Teams для Surface Hub](teams-surface-hub.md)
+
+## Лицензирование
+### [Управление доступом пользователей к Teams](user-access.md)
+### [Лицензирование Office 365 для Microsoft Teams](office-365-licensing.md)
+### [Назначение лицензий Teams](assign-teams-licenses.md)
+### [Лицензирование надстроек Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+#### Параметры лицензии с учетом плана
+##### [Office 365 бизнес премиум](teams-add-on-licensing/office-365-business-premium.md)
+##### [Office 365 профессиональный плюс](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Office 365 корпоративный E1 и E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
+##### [Office 365 корпоративный E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
+##### [Office 365 корпоративный E5 без аудиоконференции](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+##### [Государственные, образовательные и некоммерческие организации](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Управление предложением пробной коммерческой версии Teams](iw-trial-teams.md)
+### [Бесплатный перевод Teams на версию по подписке Office 365](upgrade-freemium.md)
+
+
+## Взаимодействие с Office 365
+### [Настройка сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md)
+### [Группы Office 365 и Microsoft Teams](office-365-groups.md)
+### [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
+### [Взаимодействие Exchange и Teams](exchange-teams-interact.md)
+#### [Настройка гибридной организации Exchange для работы с Teams](exchange-hybrid-organization.md)
+#### [Добавление домена SMTP Teams в качестве обслуживаемого в Exchange Online](smtp-accepted-domain.md)
+### [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](sharepoint-onedrive-interact.md)
+### [Взаимодействие с Teams в клиенте Office 365 с поддержкой нескольких регионов](teams-experience-o365odb-spo-multi-geo.md)
+
+
+
 ## Поддерживаемые устройства
 ### [Управление устройствами в Teams](device-management.md)
 ### [Телефоны для Teams](phones-for-teams.md)
@@ -692,6 +697,7 @@
 
 
 ## [Безопасность и соответствие требованиям](security-compliance-overview.md)
+### [Информационные барьеры в Teams](information-barriers-in-teams.md)
 ### [Обнаружение электронных данных в Teams](ediscovery-investigation.md)
 ### [Модели удостоверений и проверка подлинности в Microsoft Teams](identify-models-authentication.md)
 ### [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)

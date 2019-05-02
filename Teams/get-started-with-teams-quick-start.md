@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8694abbec22e577983889bdf6cdc3d6038d3c80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5ad250e133ebe3d9a203a1439f04a8f1f3cc41d9
+ms.sourcegitcommit: ceba3ec2d5618fceaa57e18f7ca6858e8d5d5ee5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245610"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33509686"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Начало работы с Microsoft Teams
 
@@ -44,7 +44,15 @@ Teams позволяет быстро создавать команды с лю�
 
 ## <a name="before-you-get-started"></a>С чего начать
 
-Убедитесь, что у вас есть все необходимые лицензии Teams. Ознакомьтесь с содержанием статей [Сравнение планов Teams](https://products.office.com/microsoft-teams/free) и [Лицензирование Office 365 для Teams](office-365-licensing.md). 
+Перед началом работы рекомендуется спланировать развертывание Teams, ознакомившись со следующими статьями:
+
+- [Проверка готовности среды для Microsoft Teams](environment-readiness.md)
+- [Подготовка сети организации к использованию Teams](prepare-network.md)
+- [Знакомство с преимуществами установки классических, веб- и мобильных клиентов](get-clients.md)
+
+Также убедитесь, что у вас есть все необходимые лицензии Teams. Ознакомьтесь с содержанием статей [Сравнение планов Teams](https://products.office.com/microsoft-teams/free) и [Лицензирование Office 365 для Teams](office-365-licensing.md). 
+
+
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Перейдите к разделу [Создание первых команд и каналов](get-started-with-teams-create-your-first-teams-and-channels.md)
