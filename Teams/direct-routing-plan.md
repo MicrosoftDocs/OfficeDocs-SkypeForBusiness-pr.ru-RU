@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Прочтите этот раздел, чтобы узнать, как прямой маршрутизации Microsoft телефонной системы позволяет подключать поддерживаемые, предоставленный заказчиком пограничный контроллер сеансов (SBC) для Microsoft телефонной системой.
-ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 3ed03225105e7c265687d6659cb98d162da85f91
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402464"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632212"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -207,6 +207,7 @@ SBC выполняет запрос DNS для разрешения sip.pstnhub.
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Трафика мультимедиа: диапазонов портов
+Обратите внимание на то, ниже требования относятся Если безопасности для развертывания прямой маршрутизации без сервера-посредника. Требования к брандмауэру для сервера-посредника можно найти по [планированию для сервера-посредника при прямой маршрутизации](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
 
 Трафика мультимедиа потоки с отдельной службой в облаке Майкрософт. Диапазон IP-адресов для трафика мультимедиа:
 - 52.112.0.0 /14 (IP-адресов из 52.112.0.1 52.115.255.254).

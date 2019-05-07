@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e759fe9981728c97914c271dba69bfca6aebdd2b
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204717"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632252"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -58,7 +58,7 @@ ms.locfileid: "32204717"
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. В левой области переходов центра администрирования Office 365, перейдите к **выставления счетов** > **подписки** > **Добавить подписки**.
+2. В левой области переходов центра администрирования Microsoft 365 перейдите к **выставления счетов** > **подписки** > **Добавить подписки**.
 
 3. Разверните **дополнительный компонент подписки**, а затем выберите **Кредитов Communications** > **купить**.
     
@@ -91,7 +91,7 @@ ms.locfileid: "32204717"
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. В центре администрирования Office 365 на панели навигации слева выберите **Пользователи** > **Активные пользователи**, затем укажите одного или нескольких пользователей.
+2. В левой панели навигации центра администрирования Microsoft 365 перейдите к **пользователям** > **активных пользователей**, а затем выберите одного или нескольких пользователей в списке.
     
 3. На панели действий в разделе **Лицензии на продукты** нажмите **Изменить**.
     
@@ -110,7 +110,7 @@ ms.locfileid: "32204717"
     
 - [Планы телефонной системы](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Чтобы просмотреть дополнительную информацию, [войдите в центр администрирования Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и выберите **Выставление счетов** > **Подписки** > **Добавить подписки**.
+Можно также просмотреть информацию выполнив [Вход в центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и переход на **выставление счетов** > **подписки** > **Добавить подписки**.
   
 Таблица с лицензии или лицензий, необходимых для каждого компонента, см [лицензирования дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Администраторы могут определять доступные пользователям типы аудиоконференций и вызовов конечных пользователей по ТСОП.
-ms.openlocfilehash: 36f116acb62cd16863cb547a11fe5687457a8a4e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: acd75df192211465071940148e35bc7e269c7976
+ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229790"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33584226"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП
 
@@ -39,7 +39,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 |Вызовы конечных пользователей по ТСОП|Ограничивает тип вызовов, </br>доступных пользователю.|Международные и внутренние (по умолчанию)</br>Внутренний</br>Нет|
 
    > [!NOTE]
-   > Вызов считается внутренним, если вызываемый номер телефона находится в стране, указанной в Office 365 организатора собрания (в случае аудиоконференций) или конечного пользователя (в случае вызовов конечного пользователя по ТСОП). 
+   > Вызов считается внутри страны, если Набираемый номер в одной стране, где Office 365 настроен для организатора собрания (в случае аудиоконференций) или конечного пользователя (в случае вызовы в ТСОП конечного пользователя). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

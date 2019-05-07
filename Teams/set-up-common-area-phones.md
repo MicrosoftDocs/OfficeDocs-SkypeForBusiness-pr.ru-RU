@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить телефонов общего пользования приемные, прием областей и конференц-залов '
-ms.openlocfilehash: 74806d3dfc66c27c144d6c3a4e1ddd5c6c7e7c60
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204871"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632379"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Настройка лицензии для телефонов общего пользования для Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "32204871"
 
 ## <a name="step-1---buy-the-licenses"></a>Шаг 1. Приобретение лицензий
 
-1. В центре администрирования Office 365 перейдите **по выставлению счетов** > **приобретение служб** и затем разверните узел **другие планы**.
+1. В центре администрирования Microsoft 365 перейдите **по выставлению счетов** > **приобретение служб** и затем разверните узел **другие планы**.
 
     ![Снимок экрана, показывающий плитку телефон общего пользования](media/set-up-common-area-phone-image1.png)
 
@@ -55,7 +55,7 @@ ms.locfileid: "32204871"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Шаг 2. Создание новой учетной записи пользователя для телефона и назначение лицензии
 
-1. В центре администрирования Office 365 перейдите к **пользователям** > **активных пользователей** > **Добавить пользователя**.
+1. В центре администрирования Microsoft 365 перейдите к **пользователям** > **активных пользователей** > **Добавить пользователя**.
 
 2. Введите имя пользователя как «Главная» для имени и «Прием» для второго имени.
 
