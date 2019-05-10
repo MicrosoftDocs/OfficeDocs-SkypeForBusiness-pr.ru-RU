@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 016831a9c3d5cac6c331d6112adbc2738ec8382b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aca7dcf2607fd90bfea15ef324034be96770a822
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236133"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835017"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Планирование использования групп Office 365 при создании команд в Microsoft Teams
 ==========================================================
@@ -48,6 +48,6 @@ ms.locfileid: "32236133"
 
 -   [Дополнительные возможности работы с группами в Outlook](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
--   [Добавление или удаление членов из группы Office 365, с помощью центра администрирования Office 365](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [Добавление или удаление членов из группы Office 365, с помощью центра администрирования Microsoft 365](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
 -   [Восстановление удаленного группы Office 365](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)

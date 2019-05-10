@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: Эти функции являются новыми в Скайп для Business Server 2019.'
-ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239578"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835241"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Что такое в Скайп для Business Server 2019
 
@@ -29,7 +29,7 @@ ms.locfileid: "32239578"
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>Единой службы обмена сообщениями: голосовой почты в облаке
 
-Exchange единой системы обмена СООБЩЕНИЯМИ остается доступным в Скайп для Business Server 2019 при Скайп для бизнеса 2019 интеграции с Exchange 2013 или Exchange 2016. Из-за изменения в поддержке в Exchange 2019 интеграции с Exchange единой системы обмена СООБЩЕНИЯМИ, отзыва emphasised пользу функции голосовой почты в облаке и облачных автосекретаря.  
+Exchange единой системы обмена СООБЩЕНИЯМИ остается доступным в Скайп для Business Server 2019 при Скайп для бизнеса 2019 интеграции с Exchange 2013 или Exchange 2016. Из-за изменения в поддержке в Exchange 2019 интеграции с Exchange единой системы обмена СООБЩЕНИЯМИ, рекомендуется вместо функции голосовой почты в облаке и облачных автосекретаря.  
 
 Голосовой почты в облаке включает все Скайп для бизнеса 2019 users& #x 2014 г; ли они размещаются на локальных или online& #x 2014 г., чтобы иметь доступ к одной службы голосовой почты в облаке Майкрософт. Голосовой почты в облаке для локальных и активные пользователи дает следующие преимущества:
 

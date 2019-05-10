@@ -1,5 +1,5 @@
 ---
-title: Развертывание групп Майкрософт комнат с Office 365
+title: Развертывание комнат Microsoft Teams с Office 365
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: В данном разделе приведены сведения о развертывании Microsoft комнат групп с помощью Office 365.
-ms.openlocfilehash: 16d0fad14bd52a13fa6735ec0b786cb15f3ce8c1
-ms.sourcegitcommit: 728507d34031d01f663d9b551cd4794867244854
+ms.openlocfilehash: 05b6bc05200bd6664fc597b937d2a45fba1c9e2b
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33467536"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835257"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Развертывание групп Майкрософт комнат с Office 365
+# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Развертывание комнат Microsoft Teams с Office 365
 
 В данном разделе приведены сведения о способах развертывания комнат группами Майкрософт в Office 365, где группами Майкрософт или Скайп для бизнеса и Exchange операции присваивания являются Интернет-версия.
 
@@ -108,8 +108,12 @@ ms.locfileid: "33467536"
 
    Подробный синтаксис и сведений о параметрах в разделе [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Подключение к MS Online PowerShell, чтобы сделать параметрами Active Directory, выполнив `Connect-MsolService -Credential $cred` командлета powershell.   Для получения дополнительных сведений об Active Directory просмотрите [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). <!-- or [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) for the new module -->  
-    1. Если вы не хотите истечения срока действия пароля, используйте следующий синтаксис:
+4. Подключение к MS Online PowerShell, чтобы сделать параметрами Active Directory, выполнив `Connect-MsolService -Credential $cred` командлета powershell.   Для получения дополнительных сведений об Active Directory просмотрите [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+
+   > [!NOTE]
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
+
+5. Если вы не хотите истечения срока действия пароля, используйте следующий синтаксис:
 
     ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true

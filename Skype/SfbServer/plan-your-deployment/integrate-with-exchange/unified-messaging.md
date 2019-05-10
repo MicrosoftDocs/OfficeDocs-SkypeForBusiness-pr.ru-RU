@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Сводка: Изучите раздел при планировании интеграции Скайп для Business Server с Exchange 2013 или 2016.'
-ms.openlocfilehash: 951b31e36290bda0d6bd171c4a7df8f6aa4ff337
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 30898b8a5a8495ac34527d6feb688d4a1acb4d49
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213949"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835427"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>План интеграции единой системы обмена сообщениями Exchange в Skype для бизнеса
 
@@ -28,7 +28,7 @@ ms.locfileid: "32213949"
 В Microsoft Exchange Server 2013 и 2016 Exchange единой системы обмена СООБЩЕНИЯМИ выполняется в качестве службы на сервере почтовых ящиков Exchange. Скайп для развертываний Business Server Enterprise Voice единой системы обмена сообщениями объединяет системы обмена сообщениями голосовой и электронной почты в одном хранилище, пользователи могут получить доступ с телефона (голосовой доступ к Outlook) или компьютер. Единой системы обмена сообщениями и Скайп для Business Server работают вместе для предоставления пользователям корпоративной голосовой связи автоответчика, голосового доступа к Outlook и автосекретаря.
 
 > [!NOTE]
-> Exchange единой системы обмена СООБЩЕНИЯМИ остается доступным в Скайп для Business Server 2019 при Скайп для бизнеса 2019 интеграции с Exchange 2013 или Exchange 2016. Из-за изменения в поддержке в Exchange 2019 интеграции с Exchange единой системы обмена СООБЩЕНИЯМИ, отзыва emphasised пользу функции голосовой почты в облаке и облачных автосекретаря.  [Планирование голосовой почты облачных служб](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) и [Планирование Скайп для Business Server и миграция Exchange Server](../../../sfbhybrid/hybrid/plan-um-migration.md) более подробные сведения.
+> Exchange единой системы обмена СООБЩЕНИЯМИ остается доступным в Скайп для Business Server 2019 при Скайп для бизнеса 2019 интеграции с Exchange 2013 или Exchange 2016. Из-за изменения в поддержке в Exchange 2019 интеграции с Exchange единой системы обмена СООБЩЕНИЯМИ, рекомендуется вместо функции голосовой почты в облаке и облачных автосекретаря.  [Планирование голосовой почты облачных служб](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) и [Планирование Скайп для Business Server и миграция Exchange Server](../../../sfbhybrid/hybrid/plan-um-migration.md) более подробные сведения.
 
 
 Этих компонентов, которые должны поддерживаться в развертывании Exchange единой системы обмена СООБЩЕНИЯМИ в локальной вам должна быть установлена одна из следующих:

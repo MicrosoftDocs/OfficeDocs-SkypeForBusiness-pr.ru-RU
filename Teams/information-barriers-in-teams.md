@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: Сведения о препятствующих сведения и их влияние на группы.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a529784ba9968835ce5fb9d8e8648022e46beda5
-ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
+ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33506754"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827790"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>Сведения о препятствующих в предварительной версии Microsoft групп
 
@@ -77,7 +77,7 @@ ms.locfileid: "33506754"
 
 ## <a name="required-licenses-and-permissions"></a>Необходимые лицензии и разрешения
 
-На данный момент функции барьер сведения — в частной предварительного просмотра. Если эти функции, обычно доступны, они будут включены в подписок, таких как:
+На данный момент функции барьер сведения, в общедоступных предварительного просмотра. Если эти функции, обычно доступны, они будут включены в подписок, таких как:
 
 - Microsoft 365 E5
 - Office 365 E5

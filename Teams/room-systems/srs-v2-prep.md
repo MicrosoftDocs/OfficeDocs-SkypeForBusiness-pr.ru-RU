@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: В этой статье описывается Подготовка инфраструктуры для развертывания комнат группы Microsoft.
-ms.openlocfilehash: 4c46618da43b12b53b6b6e4ba99f7ddb408bc4da
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b1830ba68b61c322b6eeef95f29b1e72d2b93303
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362948"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865016"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -27,7 +27,7 @@ ms.locfileid: "33362948"
     
 2. Проверьте наличие рабочего подключения к сети или Интернету, которое будет использовать устройство.  
     
-   - Необходимо иметь возможность получать IP-адреса с помощью DHCP (Примечание: комнат группами Майкрософт нельзя настроить статический IP-адрес при первом запуске единицы)
+   - Он должен иметь возможность получать IP-адреса с помощью DHCP. (Комнат группами Майкрософт нельзя настроить статический IP-адрес при первом запуске единицы, но впоследствии статических IP-адресов для устройства могут быть настроены на устройстве или на вышестоящие коммутатора или маршрутизатора).
     
    - Необходимо иметь следующие порты (в дополнение к откройте обычный порты мультимедиа):
     
@@ -57,7 +57,7 @@ ms.locfileid: "33362948"
 - Доступ к экземпляру Active Directory или Azure Active Directory (Azure AD), а также серверам Microsoft Exchange и Skype для бизнеса.
 - Доступ к серверу, предоставляющему IP-адреса через DHCP. Комнат группами Майкрософт нельзя настроить статический IP-адрес.
 - Доступ к HTTP-портам 80 и 443.
-- Порты TCP и UDP-ПОРТ, настроенных как описано в [портов и протоколов требования для серверов](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) для локального Скайп для реализации бизнеса или [диапазоны IP-адресов и URL-адреса Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) для групп Майкрософт или Скайп для бизнеса Интернет-версия реализации.
+- Порты TCP и UDP-ПОРТ, настроенных как описано в [портов и протоколов требования для серверов](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) для локального Скайп для реализации Business Server или [Office 365 URL-адреса и диапазоны IP-адресов](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) для групп Майкрософт или Скайп для бизнеса Интернет-версия реализации.
 
 > [!IMPORTANT]
 > Для обеспечения достаточной пропускной способности используйте проводное сетевое подключение стандарта 1 Гбит/с. 

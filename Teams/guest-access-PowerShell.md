@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Используйте PowerShell, чтобы разрешить или блокировать гостевой доступ к командам в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9215cdbc360f1bda1d9d0ea75c1a9fe6ab0f458
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7ca05e48d28986a944debe150d5dbf25129ca73c
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235573"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827671"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Использование PowerShell для управления гостевым доступом в команде
 ================================================
@@ -36,7 +36,7 @@ ms.locfileid: "32235573"
   
 Вы также можете использовать PowerShell, чтобы разрешить или заблокировать гостевого пользователя по его домену. Например, предположим, что ваша организация (Contoso) сотрудничает с другой организацией (Fabrikam). Вы можете добавить Fabrikam в список разрешений, чтобы пользователи могли добавлять этих гостей в свои группы. Дополнительные сведения см. в статье [Разрешение и блокировка гостевого доступа к группам Office 365](https://go.microsoft.com/fwlink/?linkid=854001).
   
-Если вы хотите блокировать гостей в командах, разрешив им при этом доступ к сайтам SharePoint, можете воспользоваться командлетами Powershell Azure Active Directory, чтобы отключить параметр AllowGuestAccessToGroups объекта "Company", при условии, что для сайтов SharePoint включен внешний общий доступ.   
+Если требуется заблокировать гости в группах и по-прежнему требуется разрешить им доступ к сайтам SharePoint, можно использовать командлеты Windows Azure Active Directory Powershell отключить параметр AllowGuestsToAccessGroups на объекте компании при условии, что внешний общий доступ для включено Сайты SharePoint.   
 
 ## <a name="guest-access-vs-external-access"></a>Доступ в качестве гостя и внешнего доступа
 

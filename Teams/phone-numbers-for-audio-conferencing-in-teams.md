@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Сведения о том, какие страны и регионы имеют номера конференц-связи с телефонным подключением и как они назначаются автоматически.
-ms.openlocfilehash: 3997d6e6337f88d84a39239100c4a973280ddc02
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3fdd94a8ff0bf867f71a1e02c5ae84cf17bac0d8
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246284"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835085"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Телефонные номера для аудиоконференций в Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "32246284"
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Покрытие и цены для аудиоконференций
 
-Полный список стран/регионов и городов, где доступна функция аудиоконференций, см. в статье [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Дополнительные сведения о ценах см. в статье [Цены для аудиоконференций](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Полный список стран/регионов и городов, где доступна функция аудиоконференций, см. в статье [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Дополнительные сведения о ценах см. в статье [Цены для аудиоконференций](https://go.microsoft.com/fwlink/?linkid=799762).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Номера телефонного подключения в приглашении на собрание
 
@@ -60,7 +60,7 @@ ms.locfileid: "32246284"
 Список этих стран или регионов, имеющих номера телефонов, автоматически назначаемых для организаций, приведен в разделе [Страны и регионы, для которых доступны аудиоконференции и тарифные планы](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> Чтобы определить расположение организации в стране или регионе, можно войти в **Центр администрирования Office 365** и просмотреть **Профиль организации**. 
+> Страна или регион местонахождение вашей организации можно найти, вход в **Центр администрирования Microsoft 365** и посмотрев под **Профиля организации**. 
   
 > [!CAUTION]
 > В связи с ограниченной емкостью пула платных номеров телефонов в Венесуэле, Индонезии и ОАЭ организации из этих стран/регионов не получают платный номер аудиоконференций автоматически. Бесплатные номера доступны для этих стран в зависимости от доступных возможностей. 

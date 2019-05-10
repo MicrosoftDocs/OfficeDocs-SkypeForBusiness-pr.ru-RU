@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 80ae1944a2208393a38032bd6a988e807f803938
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237550"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827663"
 ---
 <a name="teams-guest-access-checklist"></a>Контрольный список доступа гостевой группы
 ==========================================
@@ -59,7 +59,7 @@ ms.locfileid: "32237550"
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Шаг 1: Настройка параметров в business Azure AD-бизнес
 
-1. Войдите в https://portal.azure.com.
+1. Вход на порталhttps://portal.azure.com
 2. В левой области щелкните **Azure Active directory** .
 3. В разделе **Управление**щелкните **Параметры пользователя**.
 4. В разделе **внешние пользователи**щелкните **Управление внешние параметры совместной работы**.

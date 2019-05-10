@@ -17,12 +17,12 @@ appliesto:
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Узнайте, как включить логотип, юридическое заявление об отказе и другие сведения в приглашения на собрание.
-ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cb6c535011e6ef1f6f7fe8fcd141646a34827e67
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236048"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868834"
 ---
 # <a name="customize-meeting-invitations-in-microsoft-teams"></a>Настройка приглашений на собрания в Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "32236048"
 ## <a name="customize-your-meeting-invitations"></a>Настройка приглашения на собрание
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
-2. В центре администрирования Office 365 выберите команду **центры администрирования** > **команды & Скайп**.
+2. В центре администрирования Microsoft 365 выберите команду **центры администрирования** > **команды & Скайп**.
 3. В центре администрирования группами Майкрософт выберите **собраний** > **параметры собрания**.
 4. Установите следующие параметры.
     - **URL-адрес эмблемы** — введите URL-адрес, где хранится логотип. Помните, что оно должно быть в формате JPG или PNG!

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить голосовой почты в облаке для пользователей. '
-ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a4d992ac4f42dca1bffe7a4c3d7ae01400b8e635
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204801"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865008"
 ---
 # <a name="set-up-cloud-voicemail"></a>Настройка облачной голосовой почты
 
@@ -65,6 +65,9 @@ ms.locfileid: "32204801"
 > Мастер гибридной Exchange выполнения из Exchange 2013 CU5 или более высокой версии будет автоматически обрабатывать требования в шаги 5 и 6. 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Настройка политик голосовой почты в организации
+
+> [!WARNING]
+> Для Скайп для предприятий, отключение голосовой почты через группами Майкрософт, политика звонков может также отключить службу голосовой почты для вашей Скайп для коммерческих пользователей.
 
 Транскрибирование голосовой почты включено по умолчанию, a транскрибирование маскировки богохульства отключено по умолчанию для всех организаций и пользователей; тем не менее ими можно управлять с помощью командлетов [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) и [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
 

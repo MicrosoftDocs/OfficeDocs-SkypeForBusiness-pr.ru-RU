@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: c35c2455c3164f04dd9fdbbb210e20809a719bc6
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632371"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835329"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Политики звонков в Microsoft Teams
 ===================================
@@ -85,11 +85,16 @@ ms.locfileid: "33632371"
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Входящие вызовы маршрутизируются для вызова групп 
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 Этот параметр определяет, можно ли переадресовывать входящие звонки в группу звонка.
 
 ### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>Разрешить делегирование для входящих и исходящих вызовов
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 Этот параметр включает входящие вызовы направлялись делегатов, благодаря чему делегатов, которые будут выполнять исходящие вызовы от имени пользователей, для которых они делегированных разрешений. Для получения дополнительных сведений см [совместный доступ к телефонной линии с помощью делегата](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
+
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Предотвращение обхода сервера-посредника международную и отправить вызовы через PSTN 
 

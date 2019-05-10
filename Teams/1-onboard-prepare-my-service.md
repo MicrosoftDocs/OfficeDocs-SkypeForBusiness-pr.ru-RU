@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b800dc410eb6a6d506d3c3ad7ad4719485df84c2
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 27a3555443ecf1988a49c6002477e8ec2cb4680e
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402254"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868690"
 ---
 # <a name="prepare-my-service"></a>Подготовка службы
 
@@ -52,7 +52,7 @@ ms.locfileid: "33402254"
 Когда вы будете входящая пользователей на основе отдельных веб-сайтов, настоятельно рекомендуется использовать [Страница Playbook Включение сайта для голосовой связи (страница Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) в качестве дополнительных руководства в этих контрольных списков.
 
 >[!NOTE]
->Большинство параметров конфигурации, общих элементов для групп и Скайп для бизнеса в Интернет. Использование центра администрирования центра администрирования Office 365 и группами Майкрософт для настройки этих параметров.
+>Большинство параметров конфигурации, общих элементов для групп и Скайп для бизнеса в Интернет. Использование центра администрирования Microsoft 365 Admin Center и группами Майкрософт для настройки этих параметров.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Точки принятия решений</td><td><ul><li>Кто будет отвечать надзор завершения контрольные списки адаптация новых сотрудников?</li></ul></td></tr>

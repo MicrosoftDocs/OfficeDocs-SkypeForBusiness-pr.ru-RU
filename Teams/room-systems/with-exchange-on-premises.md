@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: В данном разделе приведены сведения о способах развертывания комнат группами Майкрософт в гибридной среде с сервером Exchange при локальном.
-ms.openlocfilehash: 6975d64de9353cb17817c96d18a0bc0c8440602c
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 6d00b1523e5ae4d98e18f492370d5a9a02174f00
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362982"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835292"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Развертывание Microsoft группами комнат с сервером Exchange при локальном
 
@@ -102,7 +102,10 @@ ms.locfileid: "33362982"
 
 ### <a name="assign-an-office-365-license"></a>Назначение лицензии Office 365
 
-1. Подключитесь к PowerShell Azure Active Directory. Сведения содержатся в разделе [подключение с помощью Azure Active Directory PowerShell для модуля "график"](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+1. Подключитесь к Azure Active Directory. Для получения дополнительных сведений об Active Directory просмотрите [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+
+   > [!NOTE]
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
 
 2. Учетная запись устройства должна быть действительной лицензии Office 365 или Exchange и группами Майкрософт не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Вы можете использовать`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Чтобы получить список доступных номеров SKU.
 
