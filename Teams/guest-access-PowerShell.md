@@ -14,17 +14,17 @@ search.appverid: MET150
 description: Используйте PowerShell, чтобы разрешить или блокировать гостевой доступ к командам в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ca05e48d28986a944debe150d5dbf25129ca73c
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 0efb3a8054008d179b9d2e7e674b3482fe62a32c
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827671"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865092"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Использование PowerShell для управления гостевым доступом в команде
 ================================================
 
-Кроме Центра администрирования Office 365 и портала Azure Active Directory, для управления гостевым доступом вы можете использовать Windows PowerShell. PowerShell предоставляет следующие возможности:
+С помощью центра администрирования Microsoft 365 и Azure Active Directory портала, можно использовать Windows PowerShell для управления доступом гостя. PowerShell предоставляет следующие возможности:
   
 - Разрешение или запрет гостевого доступа для всех команд и групп Office 365
     
