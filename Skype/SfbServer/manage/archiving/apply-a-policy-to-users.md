@@ -1,8 +1,8 @@
 ---
 title: Применение политики архивации для пользователей, Скайп для Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Сводка: Узнайте, как назначение политики архивации для пользователей, Скайп для Business Server.'
-ms.openlocfilehash: aee6ba91d327f6af1c13680fb6477cf12627cafc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4375aa593b106283042d89413aa65a5eed707bbb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873754"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903160"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Применение политики архивации для пользователей, Скайп для Business Server
 

@@ -1,8 +1,8 @@
 ---
 title: Конфигурация версий клиентов
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Кроме возможности задания версии клиентов, которые вы хотите поддержки в среде, можно также указать действие по умолчанию для клиентов, которые еще не определена политика версии. Это позволяет ограничить, какие версии клиента, используемых в вашей среде, которые позволяют контролировать расходы, связанные с поддержкой нескольких версий клиента.
-ms.openlocfilehash: c83dc832d6ea866a7f29f0a98213ea25853cd2f7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d35872df068c651f4f9540e806e81cc57bd61e0d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215922"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891931"
 ---
 # <a name="client-version-configuration"></a>Конфигурация версий клиентов
 

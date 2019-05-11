@@ -1,8 +1,8 @@
 ---
 title: Выбор автосекретаря единой системы обмена сообщениями Exchange
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно Выбор единой системы обмена СООБЩЕНИЯМИ автосекретаря Exchange для выбора Exchange единой системы обмена СООБЩЕНИЯМИ автосекретарь, который будет обрабатывать входящие звонки для диапазона неназначенных номеров.
-ms.openlocfilehash: 6b037c907a2bd2d78a9f246e9cbc64dab2c5d8b8
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 747a2ab0ed7975d93354335196984d75a0553f93
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835308"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890657"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Выбор автосекретаря единой системы обмена сообщениями Exchange
 

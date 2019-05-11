@@ -1,8 +1,8 @@
 ---
 title: Создание новой или редактирование существующей неназначенный номер телефона
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Неназначенные номера — это телефонные номера, допустимые для вашей организации, но не назначенные пользователю или телефону. В таблице неназначенных номеров указывается, как обрабатываются такие номера.
-ms.openlocfilehash: 89990e7ec0de5f2f4423b4c2862518a8c46dae63
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 84db35252916a67e8bae8c0b3198928f60a6c4e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835314"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890664"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Неназначенный номер телефона: создание нового или редактирование существующего
 

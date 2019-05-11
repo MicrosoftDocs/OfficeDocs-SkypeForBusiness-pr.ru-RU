@@ -1,7 +1,7 @@
 ---
 title: Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса
-author: arachmanGitHub
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58b2548e4c1c409314146d1675bbc06b2f95f7e5
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 20516c3045fecf14757866bf076b4bf8d16adaf4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835461"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902743"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса
 
@@ -49,7 +49,7 @@ ms.locfileid: "33835461"
 
 7.  Обновление пользователя в режим TeamsOnly гарантирует, что все входящие чаты и вызовы всегда будет располагаться в клиент группы пользователя, независимо от того, какие исходит от клиента. Эти пользователи будут также запланировать все новые собрания в группах. Должна находиться в режиме TeamsOnly, пользователь должен быть размещен online в Скайп для бизнеса. Это необходимо для обеспечения взаимодействия, федерации и полного управления группами пользователей. Обновление до TeamsOnly пользователя:
     - Если пользователь является, расположенным в Скайп для бизнеса через Интернет (или никогда не было любой учетной записи Скайп), предоставить им TeamsUpgradePolicy с режимом = TeamsOnly, с помощью экземпляра «UpgradeToTeams», с помощью PowerShell, или выберите режим TeamsOnly с помощью центра администрирования группы.
-    - Если пользователь является, размещенные локально, используйте `Move-CsUser` из локальной admin средства для первого move пользователю Скайп для бизнеса в Интернет.  Если у вас есть Скайп Business Server 2019 или CU8 для Скайп для Business Server 2015, можно указать `-MoveToTeams` переключитесь в `Move-CsUser` для перемещения пользователя непосредственно для групп в процессе перемещения online. Этот параметр, также будет переноситься собраний пользователя к группам. Если `-MoveToTeams` не указанный или недоступно, затем после `Move-CsUser` завершается, назначить режим TeamsOnly пользователю с помощью PowerShell или группами центра администрирования. Для получения дополнительных сведений см. [Перемещение пользователей между локальной и облачной](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Для получения дополнительных сведений о миграции на собрания просмотрите [с помощью службы миграции собрания (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+    - Если пользователь является, размещенные локально, используйте `Move-CsUser` из локальной admin средства для первого move пользователю Скайп для бизнеса в Интернет.  Если у вас есть Скайп Business Server 2019 или CU8 для Скайп для Business Server 2015, можно указать `-MoveToTeams` переключитесь в `Move-CsUser` для перемещения пользователя непосредственно для групп в процессе перемещения online. Этот параметр, также будет переноситься собраний пользователя к группам. Если `-MoveToTeams` не указанный или недоступно, затем после `Move-CsUser` завершается, назначить режим TeamsOnly пользователю с помощью PowerShell или группами центра администрирования. Для получения дополнительных сведений см. [Перемещение пользователей между локальной и облачной](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Для получения дополнительных сведений о миграции на собрания просмотрите [с помощью службы миграции собрания (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 8.  Использование функции групп телефонной системой с группами, пользователи должны быть в режиме TeamsOnly (то есть, расположенным в Скайп для бизнеса в Интернет и обновлены для группы) и должен быть настроен либо для телефонной системой Microsoft [Прямой маршрутизации](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (который позволяет использовать телефонной системой с помощью собственных магистралях SIP и SBC) или Office 365 вызов плана.   
 
@@ -192,4 +192,4 @@ TeamsInteropPolicy вместо нее TeamsUpgradePolicy. Все компоне
 
 [SET-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-[С помощью службы миграции собрания (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+[С помощью службы миграции собрания (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

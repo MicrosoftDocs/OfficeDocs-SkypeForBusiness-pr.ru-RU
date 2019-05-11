@@ -1,8 +1,8 @@
 ---
 title: Запрос сертификата (запрос подписи сертификата)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для создания автономного запроса, необходимо сначала создать соответствующий запрос (CSR). В текстовом поле имя файла введите путь и имя файла для по обслуживанию Клиентов. Нажать кнопку Обзор, чтобы выбрать расположение для создания по обслуживанию Клиентов. Для продолжения нажмите кнопку Далее.
-ms.openlocfilehash: 8987d40b4494d70cd588cb7bfc6804918c590df0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 053b8577eccf86c1f0c8278f0bf3f89bee0860f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216363"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893786"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Запрос сертификата (запрос подписи сертификата)
  

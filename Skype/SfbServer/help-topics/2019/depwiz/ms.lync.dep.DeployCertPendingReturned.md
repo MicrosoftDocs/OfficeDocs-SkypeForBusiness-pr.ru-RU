@@ -1,8 +1,8 @@
 ---
 title: Отложенный сертификат (возврат)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Состояние запроса сертификата страницы возвращает текущее состояние сертификата. Если сертификат все еще находится в состоянии ожидает утверждения с администратору центра сертификации —, который является, если нет утверждены — состояние появится сообщение о том, что сертификат по-прежнему обрабатывается.
-ms.openlocfilehash: 6ee8a4d49b6a15c60e86f5bd9e92f0e97a95337d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a24ee8713a37a87258bd6b1e2cfff29712f8b4e2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216440"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893982"
 ---
 # <a name="pending-certificate-returned"></a>Отложенный сертификат (возврат)
  

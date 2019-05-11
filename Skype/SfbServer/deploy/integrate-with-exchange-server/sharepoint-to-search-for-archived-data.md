@@ -1,8 +1,8 @@
 ---
 title: Настройка поиска архивных данных Skype для бизнеса на сервере SharePoint
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Сводка: Настройка SharePoint Server для поиска данных архивации с Exchange Server и Скайп для Business Server.'
-ms.openlocfilehash: b9e08c5681b35b71ac7543115ee008a97e207bb7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f6bf82348744ea5c3d650c348634dddd7628ad74
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216860"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894269"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Настройка поиска архивных данных Skype для бизнеса на сервере SharePoint
  

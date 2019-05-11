@@ -1,8 +1,8 @@
 ---
 title: Запрос сертификата (сведения об организации)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 ROBOTS: NOINDEX, NOFOLLOW
 description: В области сведения об организации позволяет указать имя вашей организации и подразделения (OU) (обычно отдела или подразделения), для которого запрашивается сертификат. Данные, введите в текстовых полях подразделение и организации отображается в сертификате и используется для идентификации источник запроса сертификата при просмотре сертификат с другими пользователями.
-ms.openlocfilehash: bbf47547b1d0bc02055235dd64541fd80acee5de
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6b2c944cfee475847430af44e77e5289a7afb3df
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216321"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893807"
 ---
 # <a name="certificate-request-organization-information"></a>Запрос сертификата (сведения об организации)
  

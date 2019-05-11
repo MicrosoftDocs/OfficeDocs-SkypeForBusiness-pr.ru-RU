@@ -1,20 +1,20 @@
 ---
 title: Определение правил нормализации в Скайп для Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Скайп для правил нормализации Business Server использование регулярных выражений .NET Framework для перевода набранного номера телефонов в формате E.164. Другими словами правила нормализации занять телефонный номер, набираемый пользователем и преобразования в формат, используется системой Скайп для Business Server этот номер. Каждой абонентской группе должно быть назначено хотя бы одно правило нормализации.
-ms.openlocfilehash: a1157e9cf435fdd655e9d1772294fa3f57acf3f4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dbf8b2a764d5a9370d1e117360a5773f20d6d9cb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214661"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896413"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Определение правил нормализации в Скайп для Business Server
 

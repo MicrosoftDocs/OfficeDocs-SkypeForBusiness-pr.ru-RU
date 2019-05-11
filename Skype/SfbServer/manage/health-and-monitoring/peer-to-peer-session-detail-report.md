@@ -1,8 +1,8 @@
 ---
 title: Peer-to-Peer сеанса подробный отчет в Скайп для Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 'Сводка: Сведения о сеансе Peer-to-Peer подробного отчета по в Скайп для Business Server.'
-ms.openlocfilehash: 41d4b7d78c674afbc2136911913e88837a4f5095
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 77b5a80c2280d5242e4efcc0dc696c6720da4f64
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897248"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925231"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Peer-to-Peer сеанса подробный отчет в Скайп для Business Server
  
@@ -59,7 +59,7 @@ ms.locfileid: "30897248"
   
 **Метрики сведений о сеансе**
 
-|**Имя**.|**Описание**.|
+|**Имя**.|**Описание**|
 |:-----|:-----|
 |**Полное доменное имя пула** <br/> |Полное доменное имя пула регистратора или пограничного сервера, участвующего в сеансе.  <br/> |
 |**Invite time (Время приглашения)** <br/> |Дата и время, когда было отправлено приглашение принять участие в сеансе.  <br/> |
@@ -86,7 +86,7 @@ ms.locfileid: "30897248"
   
 **Метрики для модальностей**
 
-|**Имя**.|**Поддержка сортировки**|**Описание**.|
+|**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Modalities (Модальности)** <br/> |Нет  <br/> |Модальности, использованные в сеансе, например, обмен мгновенными сообщениями или передача файла.  <br/> |
 |**From user messages (Сообщения пользователя-инициатора)** <br/> |Нет  <br/> |Количество сообщений, отправленных пользователем, начавшим сеанс.  <br/> |
@@ -98,7 +98,7 @@ ms.locfileid: "30897248"
   
 **Метрики для диагностических отчетов**
 
-|**Имя**.|**Поддержка сортировки**|**Описание**.|
+|**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Подробности** <br/> |Нет  <br/> |При нажатии этой метрики отображается диагностический отчет для данного сеанса.  <br/> |
 |**Reported time (Время создания отчета)** <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |

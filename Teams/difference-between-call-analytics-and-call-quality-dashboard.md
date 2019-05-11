@@ -3,7 +3,7 @@ title: Аналитика звонков и панель мониторинга 
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, siunies, gageames
+ms.reviewer: mikedav, wlooney, gageames
 ms.topic: conceptual
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Узнайте о вызова аналитики и панель мониторинга качества звонков и когда следует использовать их для мониторинга и устранения проблем качества звонка.
-ms.openlocfilehash: c85bcecd31c978616e5394740efac6bb5c28c07c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 410b8a55fb2e0860f9b888ffc7ec26513a2d91fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199817"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902677"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Аналитика звонков и панель мониторинга качества звонков
 

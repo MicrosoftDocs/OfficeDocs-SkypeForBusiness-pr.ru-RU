@@ -1,8 +1,8 @@
 ---
 title: Таблица McuJoinsAndLeaves в Скайп для Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: Каждая запись в этой таблице содержит сведения о одного сочетания пользователя присоединения или выходе и конференц-связи сервера звонках. К примеру Если пользователь присоединился к конференции, которая включает в себя веб-конференций и аудио/видео элементы, одной записи будут создаваться для этого пользователя присоединиться к конференц-связи веб и другой записи будут создаваться для присоединения к аудио-и видеоконференций пользователя.
-ms.openlocfilehash: 7a31564ed770c956baa0ef7e968d0fba1dc3fd7d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d6bcd51e9c0e5832939004647348abe7368a2e43
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212982"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930299"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>Таблица McuJoinsAndLeaves в Скайп для Business Server 2015
  

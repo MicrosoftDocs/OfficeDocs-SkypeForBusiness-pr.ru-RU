@@ -1,8 +1,8 @@
 ---
 title: Запрос сертификата (учетная запись центра сертификации)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы отправить запрос вашего центра сертификации (ЦС) может потребоваться учетные данные не указаны для пользователя, который в настоящее время выполнил вход в качестве.
-ms.openlocfilehash: 71239d8b4648c08de12b0c425c5050c5c4f2e0ed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c7919e03449553856e84b4193d8cef475b659aca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216391"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893849"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Запрос сертификата (учетная запись центра сертификации)
  

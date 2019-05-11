@@ -1,8 +1,8 @@
 ---
 title: Главная страница надстройки сохраняемого чата
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 ROBOTS: NOINDEX, NOFOLLOW
 description: В разделе Add-in страницы Persistent Chat можно использовать для сопоставления URL-адреса с комнатами Persistent Chat. Эти URL-адреса отображаются в клиенте в комнате чата в области расширения беседы. Администратор должен добавить надстройки в список зарегистрированных надстроек, а руководители или создатели комнат чата должны связать комнаты с одной из зарегистрированных надстроек, чтобы пользователи могли увидеть это обновление в клиенте.
-ms.openlocfilehash: 3088e6294d94c20a8c5f568fabe9e0b326ed432d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 90d29aad268187ad0ea4e7876f3f15e5ba24a020
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215453"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891385"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Главная страница надстройки сохраняемого чата
 

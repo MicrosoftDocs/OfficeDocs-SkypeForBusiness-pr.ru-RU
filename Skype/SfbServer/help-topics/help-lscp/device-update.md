@@ -1,8 +1,8 @@
 ---
 title: Обновление устройств
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: Периодически корпорация Майкрософт выпускает новый набор обновления встроенного устройства для Скайп для Business Phone Edition, который можно импортировать на серверах и распространения для пользователей. Можно получить последние версии из правила обновления устройств, перейдя на страницу справки и поддержки на веб-сайте Microsoft и поиск forPhone Edition.Download последнюю версию пакета обновления и извлеките файлы в папку на компьютере, на которых требуется отправить обновления. После извлечения вы можете воспользоваться командлетом Import-CsDeviceUpdate для импорта правил обновления устройств из извлеченного файла CAB (он имеет имя UCUpdates.cab). Дополнительные сведения см Import-CsDeviceUpdate.
-ms.openlocfilehash: 271803e5a04f09ceda1fb98aced4501d3a08183e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e3d553357131c2e0f9e0b0bcef1329f5d2a4104
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234652"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902820"
 ---
 # <a name="device-update"></a>Обновление устройства
 

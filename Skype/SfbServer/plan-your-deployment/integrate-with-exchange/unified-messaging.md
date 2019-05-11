@@ -1,8 +1,8 @@
 ---
 title: План интеграции единой системы обмена сообщениями Exchange в Skype для бизнеса
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Сводка: Изучите раздел при планировании интеграции Скайп для Business Server с Exchange 2013 или 2016.'
-ms.openlocfilehash: 30898b8a5a8495ac34527d6feb688d4a1acb4d49
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: c0a72058098bd5d1a0c3832e874dd288b940a1fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835427"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907173"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>План интеграции единой системы обмена сообщениями Exchange в Skype для бизнеса
 

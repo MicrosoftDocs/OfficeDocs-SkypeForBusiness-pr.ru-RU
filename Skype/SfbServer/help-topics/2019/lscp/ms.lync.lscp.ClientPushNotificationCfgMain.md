@@ -1,8 +1,8 @@
 ---
 title: Мобильный клиент конфигурации Push-уведомлений
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы настроить push-уведомления Майкрософт и push-уведомления Apple, необходимо создать политику, определяющую требуют типы push-уведомлений.
-ms.openlocfilehash: a2dafb190d0eb1c29d1dfb7cc07af40a10fb107c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4fbe14981bef31808426cc618bb1b26a803d7dc8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215789"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891672"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Мобильный клиент: конфигурация push-уведомлений
  

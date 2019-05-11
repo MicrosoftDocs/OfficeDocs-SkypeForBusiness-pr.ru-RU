@@ -1,8 +1,8 @@
 ---
 title: Добавление домена SIP по умолчанию
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 description: Укажите основной домен Session Initiation Protocol (SIP), который будет развертывания для поддержки. Основной домен SIP может быть таким же, как, или отличается от домена доменных служб Active Directory. К примеру вашего домена Active Directory может быть fabrikam.net и можно указать основного SIP-домена быть contoso.net.
-ms.openlocfilehash: 2f309f8af7a3233632fbe095adc8ab66b24e8d68
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 591ebae416223d52eb4f8effb38f39d2b9b4f9dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883730"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886623"
 ---
 # <a name="add-default-sip-domain"></a>Добавление домена SIP по умолчанию
  

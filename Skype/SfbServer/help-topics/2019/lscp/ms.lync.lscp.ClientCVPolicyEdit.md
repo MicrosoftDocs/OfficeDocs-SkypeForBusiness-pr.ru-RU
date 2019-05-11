@@ -1,8 +1,8 @@
 ---
 title: Создание новой или редактирование существующей политики версий клиентов
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы может указать версию клиентов, поддерживаемых в вашей среде. При взаимодействии двух клиентов с разными версиями возможности, доступные обоим клиентам, могут быть ограничены возможностями другого клиента.
-ms.openlocfilehash: 5648d96e69869171d78a3a28634bdb2b0221a234
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 298610084be12606eedf09331ad39beea8add9ae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216405"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891910"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>Политика версии клиента: создание новой или редактирование существующей
 

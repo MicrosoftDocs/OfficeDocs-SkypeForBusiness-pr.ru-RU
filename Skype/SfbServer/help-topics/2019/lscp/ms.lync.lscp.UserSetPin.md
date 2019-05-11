@@ -1,8 +1,8 @@
 ---
 title: Настройка ПИН-кода
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы создать ПИН-код пользователя, выберите автоматически создавать допустимый ПИН-код.
-ms.openlocfilehash: 15be84521e13d5702ce7cacc3fc36a86b4619077
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96aa3ab395d48d4edb52a29fb1669dbd499c9a18
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214928"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890860"
 ---
 # <a name="set-pin"></a>Настройка ПИН-кода
 

@@ -1,8 +1,8 @@
 ---
 title: Развертывание пограничного сервера в Скайп для Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 'Сводка: Узнайте, как развернуть пограничный сервер или пограничный пул в вашей Скайп среды Business Server.'
-ms.openlocfilehash: bbc331a6abf07450519f58395beda47446e6cef8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4968f11b14b21308ab731cffbc68d67337afa564
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223805"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893240"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Развертывание пограничного сервера в Скайп для Business Server
  

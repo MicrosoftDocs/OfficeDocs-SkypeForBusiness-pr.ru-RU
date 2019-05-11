@@ -1,8 +1,8 @@
 ---
 title: Создание новой или редактирование существующего профиля политики пропускной способности
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 9a2a81d38478f6dba2f4b6f81f8ecaafc609282c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dec1788ba357b0b05c8627e68fbeb2a9c205991b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215439"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891077"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Профиль политики пропускной способности: создание нового или редактирование существующего
 

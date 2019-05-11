@@ -1,7 +1,7 @@
 ---
 title: Прикрепление заинтересованных лиц | Планирование обновления Скайп для бизнеса в группы
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6de0b8a3924a9f4e80bd1ff462a5a7dd9e8f8bd6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e1d1db7c652ed365c264c3c33684832de098a3c0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227670"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920353"
 ---
 ![Этапы обновления пути с акцентом на сбор ваша группа заинтересованных лиц проекта] (media/upgrade-banner-stakeholders.png "Этапы обновления пути с акцентом на сбор ваша группа заинтересованных лиц проекта")
 
@@ -38,7 +38,7 @@ ms.locfileid: "32227670"
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Точки принятия решений | <ul><li>Пользователей, которые являются нужных людей в качестве группы заинтересованных лиц для этого проекта?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Дальнейшие действия | <ul><li>Попробуйте области проекта и назначьте соответствующие заинтересованные стороны.</li><li>Используйте следующую таблицу, в качестве рекомендации, но Обратите внимание на то, что этот список не разрешены.<br><strong>Совет</strong><br>Выполните построение ответственность ответственность запрошен обоснованные [матрицы (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) для более полной тех, кто будет нести ответственность от тех, кто просто должны соблюдаться обоснованных в определенной области проекта.</li> |
+| ![](media/audio_conferencing_image9.png)<br/>Следующие шаги | <ul><li>Попробуйте области проекта и назначьте соответствующие заинтересованные стороны.</li><li>Используйте следующую таблицу, в качестве рекомендации, но Обратите внимание на то, что этот список не разрешены.<br><strong>Совет</strong><br>Выполните построение ответственность ответственность запрошен обоснованные [матрицы (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) для более полной тех, кто будет нести ответственность от тех, кто просто должны соблюдаться обоснованных в определенной области проекта.</li> |
 | <li>Принятие решения по созданию исполнительного комитета и назначение ролей соответствующим образом.</li></ul> | |
 
 | Роли | Ответственность за |

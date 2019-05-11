@@ -1,8 +1,8 @@
 ---
 title: Запрос сертификата (задание шаблона)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Определение дополнительного шаблона сертификата можно определить шаблон сертификата, отличающийся от шаблона сертификата WebServer, который используется по умолчанию. Установите флажок Использовать другой шаблон сертификата для выбранного центра сертификации, затем укажите название альтернативного шаблона сертификата в поле Название шаблона сертификата. Необходимо указывать название шаблона в точности так, как оно определено в центре сертификации (ЦС). Чтобы вернуться на предыдущую страницу, нажмите кнопку Назад. Чтобы закончить процесс запроса сертификата, нажмите кнопку Отмена.
-ms.openlocfilehash: 3940162eb8369942828018c84d0de69107110b37
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 28bc9e44a4dcc1dc6fde4cbdafcd9e93352cf217
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216293"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894097"
 ---
 # <a name="certificate-request-specify-termplate"></a>Запрос сертификата (задание шаблона)
  

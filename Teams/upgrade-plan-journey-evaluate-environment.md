@@ -1,7 +1,7 @@
 ---
 title: Обновление групп Майкрософт | Оценка среды, вопросы обнаружения
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8803c4f4135b620d0ab654415546a7419f9e4f1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 810daf5f63cc5c1e22bb8ed6d6a110621200c047
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223094"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895920"
 ---
 ![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")
 

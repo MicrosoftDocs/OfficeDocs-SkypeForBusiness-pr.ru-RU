@@ -1,6 +1,6 @@
 ---
-title: Ответ на звонки автосекретарей и очередей звонков непосредственно из Teams
-ms.reviewer: ''
+title: Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams
+ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a94f8220cca2058e993f73241e62ff3ad0ea4f2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: beb4b043798ba5348da1d460f49ff93e6aff55e1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32210936"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33900932"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Ответ на звонки автосекретарей и очередей звонков непосредственно из Teams
+<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams
 ===========================================================
 
 Группы Пользователи могут получать и отвечать на звонки из облака автосекретарей и очереди вызовов непосредственно из клиента по группам. Для пользователей, групп функцию автоматического attendant теперь доступен обычно и является возможность вызова очереди в предварительной версии. 
@@ -62,7 +62,7 @@ ms.locfileid: "32210936"
 ## <a name="related-topics"></a>Статьи по теме
 
 -   [Что такое телефонной системой в Office 365](what-is-phone-system-in-office-365.md)
--   [Создание облачной очереди звонков](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Создание облачной очереди вызовов](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 -   [Что представляют собой облачные автосекретари?](what-are-phone-system-auto-attendants.md)
 -   [Настройка облачного автосекретаря](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

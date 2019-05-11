@@ -1,8 +1,8 @@
 ---
 title: 'Пользователи: Просмотр политики голосовой связи'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 5382f4bea05768e744422fef9e7e18a9516336d7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3349313591952dd8d28f5b1b5eb31e64049fbb37
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221569"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890888"
 ---
 # <a name="users-view-voice-policy"></a>Пользователи: просмотр политики голосовой связи
 
