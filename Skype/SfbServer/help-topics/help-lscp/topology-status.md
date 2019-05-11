@@ -1,8 +1,8 @@
 ---
 title: Состояние топологии
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 5/21/2015
 ms.audience: ITPro
@@ -13,29 +13,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: 'На странице Топология: Состояние отображается состояние серверов в вашей топологии Skype для бизнеса.'
-ms.openlocfilehash: 9e448dd4916671be04aa02b66f37a58d8735f962
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ede65ba61436eb7b2b815eda7e11517a56f1dd1c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220023"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929590"
 ---
-# <a name="topology-status"></a><span data-ttu-id="52012-103">Топология: состояние</span><span class="sxs-lookup"><span data-stu-id="52012-103">Topology: Status</span></span>
+# <a name="topology-status"></a><span data-ttu-id="39e98-103">Топология: состояние</span><span class="sxs-lookup"><span data-stu-id="39e98-103">Topology: Status</span></span>
 
-<span data-ttu-id="52012-104">На странице **Топология**: **Состояние** отображается состояние серверов в вашей топологии Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="52012-104">The **Topology**: **Status** page displays the status of the servers in your Skype for Business topology.</span></span>
+<span data-ttu-id="39e98-104">На странице **Топология**: **Состояние** отображается состояние серверов в вашей топологии Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="39e98-104">The **Topology**: **Status** page displays the status of the servers in your Skype for Business topology.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="52012-105">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="52012-105">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="39e98-105">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="39e98-105">Tasks you can perform</span></span>
 
-<span data-ttu-id="52012-106">На странице **Топология**: **Состояние** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="52012-106">You can perform the following tasks on the **Topology**: **Status** page:</span></span>
+<span data-ttu-id="39e98-106">На странице **Топология**: **Состояние** можно выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="39e98-106">You can perform the following tasks on the **Topology**: **Status** page:</span></span>
 
-- [<span data-ttu-id="52012-107">View a List of Computers Running Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="52012-107">View a List of Computers Running Lync Server 2010</span></span>](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [<span data-ttu-id="39e98-107">View a List of Computers Running Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="39e98-107">View a List of Computers Running Lync Server 2010</span></span>](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
 
-- [<span data-ttu-id="52012-108">View Details About a Service</span><span class="sxs-lookup"><span data-stu-id="52012-108">View Details About a Service</span></span>](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [<span data-ttu-id="39e98-108">View Details About a Service</span><span class="sxs-lookup"><span data-stu-id="39e98-108">View Details About a Service</span></span>](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
 
-- [<span data-ttu-id="52012-109">Start or Stop Lync Server 2010 Services</span><span class="sxs-lookup"><span data-stu-id="52012-109">Start or Stop Lync Server 2010 Services</span></span>](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [<span data-ttu-id="39e98-109">Start or Stop Lync Server 2010 Services</span><span class="sxs-lookup"><span data-stu-id="39e98-109">Start or Stop Lync Server 2010 Services</span></span>](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
 
-- [<span data-ttu-id="52012-110">Prevent New Connections to Services</span><span class="sxs-lookup"><span data-stu-id="52012-110">Prevent New Connections to Services</span></span>](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
+- [<span data-ttu-id="39e98-110">Prevent New Connections to Services</span><span class="sxs-lookup"><span data-stu-id="39e98-110">Prevent New Connections to Services</span></span>](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
 
-<span data-ttu-id="52012-111">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="52012-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="39e98-111">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="39e98-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
 

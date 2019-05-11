@@ -1,8 +1,8 @@
 ---
 title: tblComplianceFanout
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,28 +11,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
 description: tblComplianceFanout содержит все серверы, обработавшие событие соответствия.
-ms.openlocfilehash: 7f24b1a78dab16b43036734e21d5a8a9b876ca7a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 002ffe3fd825dd90a5223dca06316ff3a60fddd9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212630"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929926"
 ---
-# <a name="tblcompliancefanout"></a><span data-ttu-id="11b58-103">tblComplianceFanout</span><span class="sxs-lookup"><span data-stu-id="11b58-103">tblComplianceFanout</span></span>
+# <a name="tblcompliancefanout"></a><span data-ttu-id="7c485-103">tblComplianceFanout</span><span class="sxs-lookup"><span data-stu-id="7c485-103">tblComplianceFanout</span></span>
  
-<span data-ttu-id="11b58-104">tblComplianceFanout содержит все серверы, обработавшие событие соответствия.</span><span class="sxs-lookup"><span data-stu-id="11b58-104">tblComplianceFanout contains all servers that processed a compliance event.</span></span>
+<span data-ttu-id="7c485-104">tblComplianceFanout содержит все серверы, обработавшие событие соответствия.</span><span class="sxs-lookup"><span data-stu-id="7c485-104">tblComplianceFanout contains all servers that processed a compliance event.</span></span>
   
-<span data-ttu-id="11b58-105">**Столбцы**</span><span class="sxs-lookup"><span data-stu-id="11b58-105">**Columns**</span></span>
+<span data-ttu-id="7c485-105">**Столбцы**</span><span class="sxs-lookup"><span data-stu-id="7c485-105">**Columns**</span></span>
 
-|<span data-ttu-id="11b58-106">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="11b58-106">**Column**</span></span>|<span data-ttu-id="11b58-107">**Тип**</span><span class="sxs-lookup"><span data-stu-id="11b58-107">**Type**</span></span>|<span data-ttu-id="11b58-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="11b58-108">**Description**</span></span>|
+|<span data-ttu-id="7c485-106">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="7c485-106">**Column**</span></span>|<span data-ttu-id="7c485-107">**Тип**</span><span class="sxs-lookup"><span data-stu-id="7c485-107">**Type**</span></span>|<span data-ttu-id="7c485-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="7c485-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="11b58-109">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="11b58-109">fanoutEventID</span></span>  <br/> |<span data-ttu-id="11b58-110">целое</span><span class="sxs-lookup"><span data-stu-id="11b58-110">int</span></span>  <br/> |<span data-ttu-id="11b58-111">Идентификатор события.</span><span class="sxs-lookup"><span data-stu-id="11b58-111">Event ID.</span></span>  <br/> |
-|<span data-ttu-id="11b58-112">fanoutServerID</span><span class="sxs-lookup"><span data-stu-id="11b58-112">fanoutServerID</span></span>  <br/> |<span data-ttu-id="11b58-113">целое</span><span class="sxs-lookup"><span data-stu-id="11b58-113">int</span></span>  <br/> |<span data-ttu-id="11b58-114">Идентификатор сервера (в соответствии с таблицей tblServerIdentity.serverID).</span><span class="sxs-lookup"><span data-stu-id="11b58-114">Server identity (corresponding to tblServerIdentity.serverID table).</span></span>  <br/> |
+|<span data-ttu-id="7c485-109">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="7c485-109">fanoutEventID</span></span>  <br/> |<span data-ttu-id="7c485-110">целое</span><span class="sxs-lookup"><span data-stu-id="7c485-110">int</span></span>  <br/> |<span data-ttu-id="7c485-111">Идентификатор события.</span><span class="sxs-lookup"><span data-stu-id="7c485-111">Event ID.</span></span>  <br/> |
+|<span data-ttu-id="7c485-112">fanoutServerID</span><span class="sxs-lookup"><span data-stu-id="7c485-112">fanoutServerID</span></span>  <br/> |<span data-ttu-id="7c485-113">целое</span><span class="sxs-lookup"><span data-stu-id="7c485-113">int</span></span>  <br/> |<span data-ttu-id="7c485-114">Идентификатор сервера (в соответствии с таблицей tblServerIdentity.serverID).</span><span class="sxs-lookup"><span data-stu-id="7c485-114">Server identity (corresponding to tblServerIdentity.serverID table).</span></span>  <br/> |
    
-<span data-ttu-id="11b58-115">**Ключ**</span><span class="sxs-lookup"><span data-stu-id="11b58-115">**Key**</span></span>
+<span data-ttu-id="7c485-115">**Ключ**</span><span class="sxs-lookup"><span data-stu-id="7c485-115">**Key**</span></span>
 
-|<span data-ttu-id="11b58-116">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="11b58-116">**Column**</span></span>|<span data-ttu-id="11b58-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="11b58-117">**Description**</span></span>|
+|<span data-ttu-id="7c485-116">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="7c485-116">**Column**</span></span>|<span data-ttu-id="7c485-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="7c485-117">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="11b58-118">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="11b58-118">fanoutEventID</span></span>  <br/> |<span data-ttu-id="11b58-119">Внешний ключ с поиском в таблице tblComplianceData.cmplEventID.</span><span class="sxs-lookup"><span data-stu-id="11b58-119">Foreign key with lookup in tblComplianceData.cmplEventID table.</span></span>  <br/> |
+|<span data-ttu-id="7c485-118">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="7c485-118">fanoutEventID</span></span>  <br/> |<span data-ttu-id="7c485-119">Внешний ключ с поиском в таблице tblComplianceData.cmplEventID.</span><span class="sxs-lookup"><span data-stu-id="7c485-119">Foreign key with lookup in tblComplianceData.cmplEventID table.</span></span>  <br/> |
    
 

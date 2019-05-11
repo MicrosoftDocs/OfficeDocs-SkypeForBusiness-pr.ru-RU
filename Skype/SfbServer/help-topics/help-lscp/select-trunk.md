@@ -1,8 +1,8 @@
 ---
 title: Выбор магистральной линии связи
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,20 +13,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 description: Используйте диалоговое окно Выбор магистрали для поиска существующего магистральной линии связи, которые можно использовать.
-ms.openlocfilehash: 89138d44aa9187faeafcd0fe978005c8745657a3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c250a8400842f4e0696d76c871c69e2899afb56b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200529"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929562"
 ---
-# <a name="select-trunk"></a><span data-ttu-id="305ec-103">Выбор магистральной линии связи</span><span class="sxs-lookup"><span data-stu-id="305ec-103">Select Trunk</span></span>
+# <a name="select-trunk"></a><span data-ttu-id="72da9-103">Выбор магистральной линии связи</span><span class="sxs-lookup"><span data-stu-id="72da9-103">Select Trunk</span></span>
  
-<span data-ttu-id="305ec-104">Используйте диалоговое окно **Выбор магистрали** для поиска существующего магистральной линии связи, которые можно использовать.</span><span class="sxs-lookup"><span data-stu-id="305ec-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
+<span data-ttu-id="72da9-104">Используйте диалоговое окно **Выбор магистрали** для поиска существующего магистральной линии связи, которые можно использовать.</span><span class="sxs-lookup"><span data-stu-id="72da9-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="305ec-105">Чтобы получить все доступные магистральные линии связи, не вводите в поле «Поиск» и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="305ec-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="72da9-105">Чтобы получить все доступные магистральные линии связи, не вводите в поле «Поиск» и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="72da9-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
   
-<span data-ttu-id="305ec-106">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="305ec-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="72da9-106">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="72da9-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
