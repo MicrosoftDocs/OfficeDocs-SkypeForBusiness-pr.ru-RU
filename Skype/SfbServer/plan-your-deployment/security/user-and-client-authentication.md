@@ -1,8 +1,8 @@
 ---
 title: Пользователь и клиент проверки подлинности Скайп для Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Надежные пользователя — это один, учетные данные прошедшие проверку подлинности доверенного сервера в Скайп для Business Server. Этот сервер — это обычно сервера Standard Edition, сервер переднего плана Enterprise Edition или директора. Скайп для Business Server использует доменных служб Active Directory как репозиторий серверной single, доверенных учетных данных пользователя.
-ms.openlocfilehash: f8f006ac3f727553f612070ea9bdbf696d81a97e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6d6a796f521ce79fe3c78c7becb48a495eafd473
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213461"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885463"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Пользователь и клиент проверки подлинности Скайп для Business Server
  

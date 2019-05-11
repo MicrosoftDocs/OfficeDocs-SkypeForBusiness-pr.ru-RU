@@ -1,8 +1,8 @@
 ---
 title: Расширитель общих настроек сервера архивации
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 description: Для изменения свойств отдельного сервера мониторинга в построителе топологий можно щелкнуть правой кнопкой мыши сервер мониторинга в дереве консоли и выбрать Действие на панели инструментов или щелкнуть задачу на панели действий, затем щелкнуть Изменение свойств и изменить любые из следующих параметров.
-ms.openlocfilehash: 21b067e3a97e6c53ba51f4949385532a840d282e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 89fc3fd914f9430893a411a6b5a39cce2998a841
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250139"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915784"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Расширитель общих настроек сервера архивации
  

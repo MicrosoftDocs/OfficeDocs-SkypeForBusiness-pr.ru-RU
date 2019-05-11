@@ -1,8 +1,8 @@
 ---
 title: Добавление сервера Office Web Apps
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Мастер определения нового сервера Office Web Apps определяется новый сервер Office Web Apps в вашем развертывании. You fill in the following information:'
-ms.openlocfilehash: 65cce0b8079ab24b3ee20f59126cc0f0d0e35c7d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 90e138771e0f4a7524d6c277e9b317778af5ff21
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220855"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886875"
 ---
 # <a name="add-office-web-apps-server"></a>Добавление сервера Office Web Apps
 

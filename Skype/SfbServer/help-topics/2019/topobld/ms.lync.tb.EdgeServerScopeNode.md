@@ -1,8 +1,8 @@
 ---
 title: Узел области пограничного сервера
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: Этот узел отображает полное доменное имя пула и другие базовые параметры пограничного пула. Доступны следующие действия.
-ms.openlocfilehash: 9df6d1c25c49024572dcdc7806053ccdeaa4a43b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5603b5efdc6172737f8027618fae1c7eacdfd15d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220525"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910800"
 ---
 # <a name="edge-server-scope-node"></a>Узел области пограничного сервера
  

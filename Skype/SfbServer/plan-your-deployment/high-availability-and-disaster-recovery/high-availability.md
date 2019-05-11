@@ -1,8 +1,8 @@
 ---
 title: Высокая доступность и управление пулом переднего плана
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Сведения об управлении пула переднего плана в Скайп для Business Server, включая управление пулов, потери кворума и специальные действия для пулов из только два сервера переднего плана.
-ms.openlocfilehash: 43c8e3fffb010bf268f94970b5cca25ecee7cd58
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bab9d4b40132665719a1e9d019b8f34e2d96622d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214077"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910230"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Высокая доступность и управление пулом переднего плана
  

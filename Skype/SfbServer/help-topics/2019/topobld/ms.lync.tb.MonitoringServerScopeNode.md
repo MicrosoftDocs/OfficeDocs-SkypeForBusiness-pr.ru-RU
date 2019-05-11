@@ -1,8 +1,8 @@
 ---
 title: Узел области мониторинга
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'В построителе топологий можно выполнить задачи, связанные с отдельного сервера под управлением мониторинг либо щелкните правой кнопкой мыши сервер мониторинга в дереве консоли, выбрав пункты действие на панели инструментов или задач в области действия, а затем выбрав один из следующие параметры для сервера под управлением мониторинг:'
-ms.openlocfilehash: 2f156b660dc60a16c67ac9bdf54e8114ce17a0ed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3e3b9079549b78b88c490f410f368883b56460bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235356"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885520"
 ---
 # <a name="monitoring-scope-node"></a>Узел области мониторинга
  

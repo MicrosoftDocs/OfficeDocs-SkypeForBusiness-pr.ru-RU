@@ -1,8 +1,8 @@
 ---
 title: Контрольный список первого запуска для панели управления Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: Добро пожаловать на страницу Скайп для панели управления сервера для бизнеса, интерфейс пользователя в Интернете для администрирования и управления Скайп для Business Server. Панель управления можно использовать для выполнения задач администрирования тех же типов, что и в консоли управления (MMC) предыдущих версий.
-ms.openlocfilehash: 510838c2924f32ca532bfc075cc2c457f12cf3de
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b229fb3cac258b5b24a315a5193131308f61efb7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200732"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910969"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Контрольный список первого запуска для панели управления Skype для бизнеса Server
 

@@ -1,8 +1,8 @@
 ---
 title: Расширитель общих параметров сервера мониторинга
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для изменения свойств отдельного сервера мониторинга в построителе топологий можно щелкнуть правой кнопкой мыши сервер мониторинга в дереве консоли и выбрать Действие на панели инструментов или щелкнуть задачу на панели действий, затем щелкнуть Изменение свойств и изменить любые из следующих параметров.
-ms.openlocfilehash: 4dfdc81b92ca1c0ebf1b8fd0cf3e2541f702697c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 02241287b2d45742484c88defc272445a81cd36c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235370"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885569"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Расширитель общих параметров сервера мониторинга
  

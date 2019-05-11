@@ -1,8 +1,8 @@
 ---
 title: Включить или отключить архивацию в Скайп Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: 'Сводка: Узнайте, как включить или отключить архивацию в Скайп Business Server.'
-ms.openlocfilehash: b7f9ab424a9fc24c733fa61c75c1d4564b636941
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 27cb7aab08c6a85f21e058848963bb42de6e1635
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883027"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885033"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Включить или отключить архивацию в Скайп Business Server
 

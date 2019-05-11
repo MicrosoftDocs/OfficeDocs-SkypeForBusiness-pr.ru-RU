@@ -1,8 +1,8 @@
 ---
 title: Категория сохраняемого чата
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: Раздел Категория страницы Сохраняемый чат можно использовать для настройки категорий. Категории комнат сохраняемого чата — логическая структура организации комнат чата. Категория определяет набор списков управления доступом (ACL) по умолчанию для управления пользователями и группами пользователей, которые могут создавать комнаты чата или присоединяться к ним. Категории можно использовать для применения этических границ между различными подразделениями в организациях.
-ms.openlocfilehash: 8d5b14b0ce9bf46b9f6cf8ff7ab99c2859858a93
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dc1ce00a65186da02979afb67900dce7f0943a19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200697"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910955"
 ---
 # <a name="persistent-chat-category"></a>Категория сохраняемого чата
  

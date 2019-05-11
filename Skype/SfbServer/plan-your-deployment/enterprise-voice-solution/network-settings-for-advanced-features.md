@@ -1,8 +1,8 @@
 ---
 title: Параметры сети для расширенных функций корпоративной голосовой связи в Скайп для Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Сведения об областях сети, сетевых сайтах и IP-подсетях. Все эти должна быть настроена для развертывания плана для сервера-посредника в Скайп для бизнеса, план для контроля допуска звонков в Скайп для Business Server), или планирование чрезвычайных служб в Скайп Business Server в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 979f90beb012bb0ff05077f7236dfdf39a74a69c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206559"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913682"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Параметры сети для расширенных функций корпоративной голосовой связи в Скайп для Business Server
 

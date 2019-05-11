@@ -1,8 +1,8 @@
 ---
 title: Политика определения местонахождения
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: Политики расположения определяют, включена ли технология Enhanced 9-1-1 (E9-1-1) и как она используется, а также определяют, как сведения о расположении применяются для пользователей и контактов.
-ms.openlocfilehash: 9d22f76f65c84c12d16a2f8668882b2db16b7923
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5b5afaff156ed0692c7c0ee80ad66dc0b55ed343
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220328"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910885"
 ---
 # <a name="location-policy"></a>Политика определения местонахождения
 
