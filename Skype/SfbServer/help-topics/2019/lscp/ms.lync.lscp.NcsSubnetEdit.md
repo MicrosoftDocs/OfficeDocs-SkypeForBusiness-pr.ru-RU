@@ -1,8 +1,8 @@
 ---
 title: Свяжите подсети Добавление новой или редактирование существующей
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 6897ca78a9ea15741c2558433082af81d0d327c0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c923c3aff2af244a6155467bcd28d7e1784b0d0a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215264"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891350"
 ---
-# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="dcb78-104">Связывание подсети: добавление новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="dcb78-104">Associate a Subnet: Add New or Edit Existing</span></span>
+# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="f1e0e-104">Связывание подсети: добавление новой или редактирование существующей</span><span class="sxs-lookup"><span data-stu-id="f1e0e-104">Associate a Subnet: Add New or Edit Existing</span></span>
 
-<span data-ttu-id="dcb78-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="dcb78-105">What do you want to do?</span></span> <span data-ttu-id="dcb78-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="dcb78-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="f1e0e-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="f1e0e-105">What do you want to do?</span></span> <span data-ttu-id="f1e0e-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="f1e0e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="dcb78-107">Настройка подсетей</span><span class="sxs-lookup"><span data-stu-id="dcb78-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="f1e0e-107">Настройка подсетей</span><span class="sxs-lookup"><span data-stu-id="f1e0e-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 
 
 

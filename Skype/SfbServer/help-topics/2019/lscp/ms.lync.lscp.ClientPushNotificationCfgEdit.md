@@ -1,8 +1,8 @@
 ---
 title: Создание или редактирование конфигурации Push-уведомления мобильного клиента
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,33 +13,33 @@ localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Push-уведомления и система PNCH — это два компонента для работы с мобильными устройствами. Push-уведомления — это процесс, в котором уведомления отправляются в систему PNCH. Сообщение удерживается в системе до тех пор, пока оно не сможет быть доставлено на мобильный клиент или не закончится срок его действия.
-ms.openlocfilehash: 96c20e19444f275076b18830a89d74dba93df39b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9920029e657db4ed7d1c8da269593368d673d08a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215810"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891665"
 ---
-# <a name="mobile-client-create-or-edit-push-notification-configuration"></a><span data-ttu-id="495cc-105">Мобильный клиент: создание или редактирование конфигурации push-уведомлений</span><span class="sxs-lookup"><span data-stu-id="495cc-105">Mobile Client: Create or Edit Push Notification Configuration</span></span>
+# <a name="mobile-client-create-or-edit-push-notification-configuration"></a><span data-ttu-id="5f114-105">Мобильный клиент: создание или редактирование конфигурации push-уведомлений</span><span class="sxs-lookup"><span data-stu-id="5f114-105">Mobile Client: Create or Edit Push Notification Configuration</span></span>
  
-<span data-ttu-id="495cc-p102">Push-уведомления и система PNCH — это два компонента для работы с мобильными устройствами. Push-уведомления — это процесс, в котором уведомления отправляются в систему PNCH. Сообщение удерживается в системе до тех пор, пока оно не сможет быть доставлено на мобильный клиент или не закончится срок его действия.</span><span class="sxs-lookup"><span data-stu-id="495cc-p102">Push Notification and the Push Notification Clearing House (PNCH) are two key parts of the mobility feature. Push notification is the process where a message is sent to the PNCH. The message is held here until it can be delivered to the mobile client, or the timeout period expires.</span></span> 
+<span data-ttu-id="5f114-p102">Push-уведомления и система PNCH — это два компонента для работы с мобильными устройствами. Push-уведомления — это процесс, в котором уведомления отправляются в систему PNCH. Сообщение удерживается в системе до тех пор, пока оно не сможет быть доставлено на мобильный клиент или не закончится срок его действия.</span><span class="sxs-lookup"><span data-stu-id="5f114-p102">Push Notification and the Push Notification Clearing House (PNCH) are two key parts of the mobility feature. Push notification is the process where a message is sent to the PNCH. The message is held here until it can be delivered to the mobile client, or the timeout period expires.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="495cc-109">Срок действия задается в системе PNCH и не настраивается пользователем или администратором развертывания.</span><span class="sxs-lookup"><span data-stu-id="495cc-109">The time period is set at the Push Notification Clearing House and is not configurable by the user or the administrator of your deployment.</span></span> 
+> <span data-ttu-id="5f114-109">Срок действия задается в системе PNCH и не настраивается пользователем или администратором развертывания.</span><span class="sxs-lookup"><span data-stu-id="5f114-109">The time period is set at the Push Notification Clearing House and is not configurable by the user or the administrator of your deployment.</span></span> 
   
-<span data-ttu-id="495cc-110">Чтобы включить push-уведомления, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="495cc-110">To enable Push Notification, you do the following:</span></span>
+<span data-ttu-id="5f114-110">Чтобы включить push-уведомления, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="5f114-110">To enable Push Notification, you do the following:</span></span>
   
-1. <span data-ttu-id="495cc-p103">**Область.** Обратите внимание на область действия для этой политики. Она может быть **глобальной**, тогда она применяется ко всем пользователям в развертывании, или иметь значение **Сайт**, тогда она включает только пользователей, назначенных домашним серверам в заданном сайте.</span><span class="sxs-lookup"><span data-stu-id="495cc-p103">**Scope:** Note the scope for this policy. It can either be **Global**, which applies to all users in this deployment, or **Site**, which is only users assigned to home servers in the specified site.</span></span>
+1. <span data-ttu-id="5f114-p103">**Область.** Обратите внимание на область действия для этой политики. Она может быть **глобальной**, тогда она применяется ко всем пользователям в развертывании, или иметь значение **Сайт**, тогда она включает только пользователей, назначенных домашним серверам в заданном сайте.</span><span class="sxs-lookup"><span data-stu-id="5f114-p103">**Scope:** Note the scope for this policy. It can either be **Global**, which applies to all users in this deployment, or **Site**, which is only users assigned to home servers in the specified site.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="495cc-p104">Параметры политики, которые применяются на уровне одной политики, могут переопределять параметры, применяемые на уровне другой политики. Приоритет политик: политика пользователя (самое большое влияние) переопределяет политику сайта, а политика сайта — глобальную политику (минимальное влияние). То есть, чем ближе параметр политики к объекту, на который она влияет, тем больше влияния она оказывает на объект.</span><span class="sxs-lookup"><span data-stu-id="495cc-p104">Policy settings that are applied at one policy level can override settings that are applied at another policy level. Policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence). This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.</span></span> 
+    > <span data-ttu-id="5f114-p104">Параметры политики, которые применяются на уровне одной политики, могут переопределять параметры, применяемые на уровне другой политики. Приоритет политик: политика пользователя (самое большое влияние) переопределяет политику сайта, а политика сайта — глобальную политику (минимальное влияние). То есть, чем ближе параметр политики к объекту, на который она влияет, тем больше влияния она оказывает на объект.</span><span class="sxs-lookup"><span data-stu-id="5f114-p104">Policy settings that are applied at one policy level can override settings that are applied at another policy level. Policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence). This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.</span></span> 
   
-2. <span data-ttu-id="495cc-116">Выберите, какую службу push-уведомлений следует включить, установив один из флажков:</span><span class="sxs-lookup"><span data-stu-id="495cc-116">Select which push notification services you want to enable by clicking the check box for:</span></span>
+2. <span data-ttu-id="5f114-116">Выберите, какую службу push-уведомлений следует включить, установив один из флажков:</span><span class="sxs-lookup"><span data-stu-id="5f114-116">Select which push notification services you want to enable by clicking the check box for:</span></span>
     
-   - <span data-ttu-id="495cc-117">Включает **push-уведомления Майкрософт включить** push-уведомления для облачных PNCH для Windows Phone с Скайп для бизнес-приложения</span><span class="sxs-lookup"><span data-stu-id="495cc-117">**Enable Microsoft push notification** will enable the push notification to the cloud-based PNCH for Windows Phone with the Skype for Business app</span></span>
+   - <span data-ttu-id="5f114-117">Включает **push-уведомления Майкрософт включить** push-уведомления для облачных PNCH для Windows Phone с Скайп для бизнес-приложения</span><span class="sxs-lookup"><span data-stu-id="5f114-117">**Enable Microsoft push notification** will enable the push notification to the cloud-based PNCH for Windows Phone with the Skype for Business app</span></span>
     
-   - <span data-ttu-id="495cc-118">**Включение push-уведомления** будет включить push-уведомления для PNCH Apple для устройств под управлением Apple iOS (например, iPhone, iPad) и с помощью Скайп для бизнес-приложения</span><span class="sxs-lookup"><span data-stu-id="495cc-118">**Enable Apple push notification** will enable the push notification to the Apple PNCH for devices running Apple's iOS (for example, iPhone, iPad) and using the Skype for Business app</span></span>
+   - <span data-ttu-id="5f114-118">**Включение push-уведомления** будет включить push-уведомления для PNCH Apple для устройств под управлением Apple iOS (например, iPhone, iPad) и с помощью Скайп для бизнес-приложения</span><span class="sxs-lookup"><span data-stu-id="5f114-118">**Enable Apple push notification** will enable the push notification to the Apple PNCH for devices running Apple's iOS (for example, iPhone, iPad) and using the Skype for Business app</span></span>
     
-3. <span data-ttu-id="495cc-p105">Завершив редактирование политики, нажмите кнопку **Исполнить**, чтобы сохранить изменения. Если требуется удалить выполненные изменения, нажмите кнопку **Отмена**. В этом случае изменения не будут сохранены в политику.</span><span class="sxs-lookup"><span data-stu-id="495cc-p105">When you have completed the edits of the policy, click **Commit** to save your changes. If you need to delete the changes you have made, select **Cancel**. No changes will be saved to the policy.</span></span>
+3. <span data-ttu-id="5f114-p105">Завершив редактирование политики, нажмите кнопку **Исполнить**, чтобы сохранить изменения. Если требуется удалить выполненные изменения, нажмите кнопку **Отмена**. В этом случае изменения не будут сохранены в политику.</span><span class="sxs-lookup"><span data-stu-id="5f114-p105">When you have completed the edits of the policy, click **Commit** to save your changes. If you need to delete the changes you have made, select **Cancel**. No changes will be saved to the policy.</span></span>
     
 

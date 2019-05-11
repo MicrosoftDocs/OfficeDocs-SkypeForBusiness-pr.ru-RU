@@ -1,8 +1,8 @@
 ---
 title: Добавление компьютера переднего плана
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 description: Укажите полное доменное имя (FQDN) каждого компьютера, который требуется добавить в качестве сервера переднего плана в этом пуле. До публикации топологии можно в любой момент обновить полное доменное имя добавленного к списку компьютера или удалить его из пула. После публикации топологии для изменения полного доменного ИМЕНИ необходимо удаление сервера в построителе топологий, а затем добавляя новый сервер к пулу с новой полным доменным ИМЕНЕМ. Дополнительные сведения о добавлении пула переднего плана в топологию Просмотрите определение и настройка пула переднего плана в документации по развертыванию.
-ms.openlocfilehash: 85cb78ef8ca9f906eb854b7a2966bd0ad1820e37
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: b161530bc58cfba2712e3642f71a8da65ab3eb0d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887444"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33904260"
 ---
-# <a name="add-front-end-machine"></a><span data-ttu-id="b410a-106">Добавление компьютера переднего плана</span><span class="sxs-lookup"><span data-stu-id="b410a-106">Add Front End Machine</span></span>
+# <a name="add-front-end-machine"></a><span data-ttu-id="03b74-106">Добавление компьютера переднего плана</span><span class="sxs-lookup"><span data-stu-id="03b74-106">Add Front End Machine</span></span>
 
-<span data-ttu-id="b410a-107">Укажите полное доменное имя (FQDN) каждого компьютера, который требуется добавить в качестве сервера переднего плана в этом пуле.</span><span class="sxs-lookup"><span data-stu-id="b410a-107">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Front End Server in this pool.</span></span> <span data-ttu-id="b410a-108">До публикации топологии можно в любой момент обновить полное доменное имя добавленного к списку компьютера или удалить его из пула.</span><span class="sxs-lookup"><span data-stu-id="b410a-108">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="b410a-109">После публикации топологии для изменения полного доменного ИМЕНИ необходимо удаление сервера в построителе топологий, а затем добавляя новый сервер к пулу с новой полным доменным ИМЕНЕМ.</span><span class="sxs-lookup"><span data-stu-id="b410a-109">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> <span data-ttu-id="b410a-110">Дополнительные сведения о добавлении пула переднего плана в топологию в документации по развертыванию показано [Определение и настройка пула переднего плана](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) .</span><span class="sxs-lookup"><span data-stu-id="b410a-110">For details about adding a Front End pool to the topology, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
+<span data-ttu-id="03b74-107">Укажите полное доменное имя (FQDN) каждого компьютера, который требуется добавить в качестве сервера переднего плана в этом пуле.</span><span class="sxs-lookup"><span data-stu-id="03b74-107">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Front End Server in this pool.</span></span> <span data-ttu-id="03b74-108">До публикации топологии можно в любой момент обновить полное доменное имя добавленного к списку компьютера или удалить его из пула.</span><span class="sxs-lookup"><span data-stu-id="03b74-108">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="03b74-109">После публикации топологии для изменения полного доменного ИМЕНИ необходимо удаление сервера в построителе топологий, а затем добавляя новый сервер к пулу с новой полным доменным ИМЕНЕМ.</span><span class="sxs-lookup"><span data-stu-id="03b74-109">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> <span data-ttu-id="03b74-110">Дополнительные сведения о добавлении пула переднего плана в топологию в документации по развертыванию показано [Определение и настройка пула переднего плана](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) .</span><span class="sxs-lookup"><span data-stu-id="03b74-110">For details about adding a Front End pool to the topology, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="b410a-111">Обратите внимание на то, что Topology Builder указывает, что может иметь до 20 серверов переднего плана в пуле.</span><span class="sxs-lookup"><span data-stu-id="b410a-111">Note that Topology Builder indicates that you can have up to 20 Front End Servers in a pool.</span></span> <span data-ttu-id="b410a-112">Максимальное поддерживаемое число серверов — 12.</span><span class="sxs-lookup"><span data-stu-id="b410a-112">The maximum supported number of servers is 12.</span></span> <span data-ttu-id="b410a-113">Может иметь до 20 statefull серверов, определенных в структуре, из которых 12 может быть активной и online в любой момент времени.</span><span class="sxs-lookup"><span data-stu-id="b410a-113">You can have up to 20 statefull servers defined in the fabric, of which 12 can be active and online at any one time.</span></span>
+> <span data-ttu-id="03b74-111">Обратите внимание на то, что Topology Builder указывает, что может иметь до 20 серверов переднего плана в пуле.</span><span class="sxs-lookup"><span data-stu-id="03b74-111">Note that Topology Builder indicates that you can have up to 20 Front End Servers in a pool.</span></span> <span data-ttu-id="03b74-112">Максимальное поддерживаемое число серверов — 12.</span><span class="sxs-lookup"><span data-stu-id="03b74-112">The maximum supported number of servers is 12.</span></span> <span data-ttu-id="03b74-113">Может иметь до 20 statefull серверов, определенных в структуре, из которых 12 может быть активной и online в любой момент времени.</span><span class="sxs-lookup"><span data-stu-id="03b74-113">You can have up to 20 statefull servers defined in the fabric, of which 12 can be active and online at any one time.</span></span>
 
 

@@ -1,8 +1,8 @@
 ---
 title: Перемещение пользователя
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Переместить пользователей вы можете выбрать конечный пул для перемещения выбранного пользователя.
-ms.openlocfilehash: 1dbac7af993cb4f95dbd6c161af55e7121e06719
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3588f07f9eba4d66387db3b46beb87527cdb6f59
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214956"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890867"
 ---
-# <a name="move-user"></a><span data-ttu-id="48225-103">Перемещение пользователя</span><span class="sxs-lookup"><span data-stu-id="48225-103">Move User</span></span>
+# <a name="move-user"></a><span data-ttu-id="54543-103">Перемещение пользователя</span><span class="sxs-lookup"><span data-stu-id="54543-103">Move User</span></span>
 
-<span data-ttu-id="48225-104">На странице **Переместить пользователей** вы можете выбрать конечный пул для перемещения выбранного пользователя.</span><span class="sxs-lookup"><span data-stu-id="48225-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
+<span data-ttu-id="54543-104">На странице **Переместить пользователей** вы можете выбрать конечный пул для перемещения выбранного пользователя.</span><span class="sxs-lookup"><span data-stu-id="54543-104">On the **Move Users** page, you can select a destination pool to move the selected user to.</span></span>
 
-<span data-ttu-id="48225-105">Дополнительные сведения о перемещении пользователей см. в разделе [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="48225-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
+<span data-ttu-id="54543-105">Дополнительные сведения о перемещении пользователей см. в разделе [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="54543-105">For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).</span></span>
 
 
