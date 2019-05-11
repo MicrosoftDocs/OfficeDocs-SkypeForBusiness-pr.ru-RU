@@ -1,8 +1,8 @@
 ---
 title: Расширитель параметров следующего скачка сохраняемого чата
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Настройка пула Persistent Chat следующего прыжка, выбрав сервера переднего плана или интерфейсный пул из списка.
-ms.openlocfilehash: a836ffc5b089aea7377a245e9649db031cf3510d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8e1c79b57e43cd7bb922af308e70c0d9fd21acef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235325"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885675"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Расширитель параметров следующего скачка сохраняемого чата
 

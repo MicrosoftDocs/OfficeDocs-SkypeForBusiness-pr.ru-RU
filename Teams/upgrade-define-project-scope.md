@@ -1,7 +1,7 @@
 ---
 title: Project Скайп область для бизнеса для внедрения группами Майкрософт | Обновление
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 346fbfc241616af0ac071269f73dbc4f1ad66bfb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cab55d10e8ca200f4b783a4467e9d8aa828bb8e3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227679"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920478"
 ---
 ![Этапы обновления пути с акцентом на стадии определения проекта] (media/upgrade-banner-project-definition.png "Этапы обновления пути с акцентом на стадии определения проекта")
 
@@ -35,7 +35,7 @@ ms.locfileid: "32227679"
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Точки принятия решений|<ul><li>Необходимые для выполнения с использованием этого проекта (другими словами, почему вы используете его)</li><li>Как выглядит успеха?</li><li>Каковы риски и каков будет ваш план для устранения рисков?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Дальнейшие действия|<ul><li>Рассматриваются следующие разделы с помощью группы проекта и спонсоров.</li><li>Документ концепции, область, цели и рисков для этого проекта.</li><li>Вернитесь в рабочую группу проекта, чтобы убедиться, что мероприятиям правильный выбор сотрудников.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Следующие шаги|<ul><li>Рассматриваются следующие разделы с помощью группы проекта и спонсоров.</li><li>Документ концепции, область, цели и рисков для этого проекта.</li><li>Вернитесь в рабочую группу проекта, чтобы убедиться, что мероприятиям правильный выбор сотрудников.</li></ul>|
 
 ## <a name="project-vision"></a>Концепции проекта
 

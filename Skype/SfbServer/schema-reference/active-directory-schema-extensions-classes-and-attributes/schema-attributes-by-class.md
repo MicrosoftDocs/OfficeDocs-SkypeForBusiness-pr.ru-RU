@@ -1,8 +1,8 @@
 ---
 title: Атрибуты схемы по классам в Скайп для Business Server
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: В этом разделе перечислены атрибуты схемы, которые могут содержаться в каждом Скайп для класса Business Server и классы, которые могут находиться в других классах. Список всех классов и их описания в разделе классы схемы и описания в Скайп Business Server. Список всех атрибутов и их описания в разделе атрибуты схемы и описания в Скайп Business Server.
-ms.openlocfilehash: a2dc6ee09730c1245a3242f88ad25ad07f9b582a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1560e7100fb3fe48f0ef1aa03bd55d65a8894b37
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213370"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924936"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Атрибуты схемы по классам в Скайп для Business Server
  

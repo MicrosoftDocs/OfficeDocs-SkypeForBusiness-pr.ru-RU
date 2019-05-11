@@ -1,8 +1,8 @@
 ---
 title: Страница установки параметров базы данных
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 'Настройка дополнительных параметров для размещения базы данных и файлов журнала SQL Server. Доступны следующие варианты:'
-ms.openlocfilehash: e610b28bc4cf1c6ce2bcac5f155e6e65e7fdc363
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 17453e97bf527390ed2dab561c3995711d7b1d07
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200224"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888613"
 ---
 # <a name="install-database-options-page"></a>Страница установки параметров базы данных
 

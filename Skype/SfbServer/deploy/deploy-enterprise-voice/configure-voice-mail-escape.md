@@ -1,8 +1,8 @@
 ---
 title: Настройка отмены для голосовой почты в Скайп для бизнеса
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Сводка: Сведения о настройке отмены для голосовой почты в Скайп для Business Server с помощью Скайп для консоли Business Server.'
-ms.openlocfilehash: 6c1c6977949eb45c28cce482f98be67295ee4eef
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 29d8f03a23ba562cdb6636cd2aa7f3166e17404c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223510"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893044"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Настройка отмены для голосовой почты в Скайп для бизнеса
 

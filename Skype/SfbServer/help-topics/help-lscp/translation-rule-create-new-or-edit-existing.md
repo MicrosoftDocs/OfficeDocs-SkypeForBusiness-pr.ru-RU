@@ -1,8 +1,8 @@
 ---
 title: Создание новой или редактирование существующего правила преобразования
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 5b1464e905ee413bbf2d206881c6fdaf5e1ce644
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8d2d1c19bd9887ee95f176f1af17960dfdc2b4ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219960"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929534"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>Правило преобразования: создание нового или редактирование существующего
 

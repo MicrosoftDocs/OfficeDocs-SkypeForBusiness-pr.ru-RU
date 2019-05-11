@@ -1,8 +1,8 @@
 ---
 title: События UCWA в Скайп для Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 description: 'Сводка: Сведения о веб-объединенных коммуникаций API (UCWA) в Скайп для Business Server.'
-ms.openlocfilehash: d4de92466c33ee8d9131e1c087faa871664c0d6e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: f675c16903301412c0c78981b0c17bb9bcc7b24b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896737"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897991"
 ---
 # <a name="ucwa-events-in-skype-for-business-server"></a>События UCWA в Скайп для Business Server
  

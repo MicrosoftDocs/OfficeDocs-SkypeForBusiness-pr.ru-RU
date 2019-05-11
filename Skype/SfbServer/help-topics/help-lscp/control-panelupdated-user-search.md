@@ -1,8 +1,8 @@
 ---
 title: Панель управления - обновленные поиск пользователей
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 5/21/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Настройка пользователей для Скайп для Business Server можно использовать результаты запроса поиска. Можно выполнить поиск пользователей по отображаемое имя, имя первого, последнего имени, имя учетной записи диспетчера учетных записей (SAM), SIP-адрес или строки универсальный код ресурса (URI). Можно также выполнить поиск для пользователей с помощью панели управления Lync Server или Active Directory — пользователи и компьютеры оснастку.
-ms.openlocfilehash: 5d94c468edeb8c982d901f1c396bfd49c8c88fb6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7318d37741eba1b75ff930bf6b252fbfbdabf4cc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200830"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914046"
 ---
 # <a name="control-panel---updated-user-search"></a>Панель управления — обновлено: Поиск пользователей
 

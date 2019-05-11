@@ -1,8 +1,8 @@
 ---
 title: Служба параметров пользователя для панели мониторинга качества звонков (CQD)
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: 'Сводка: Сведения о службе параметров пользователя, которая является частью API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Скайп для Business Server.'
-ms.openlocfilehash: 8cb30c0f079834c14879e2ce6cbd14201f5bbdcb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ae87fcb28babbe3d9a480092d73e9c4cad2e1a76
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217525"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914998"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>Служба параметров пользователя для панели мониторинга качества звонков (CQD)
  

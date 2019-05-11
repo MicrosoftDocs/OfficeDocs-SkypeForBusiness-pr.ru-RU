@@ -1,8 +1,8 @@
 ---
 title: Расширитель настроек маршрута федерации
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы задать назначение федеративного маршрута сайта, сначала необходимо включена функция на пограничном сервере или пула пограничных серверов федерации. Если федерация не включен на пограничном сервере или в пуле, параметры назначение маршрута федерации для сайта не будет доступен для изменения.
-ms.openlocfilehash: 49709f5c4a91e25efb14cc4b2c321c99fec89b68
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 37b3dc26b12ba1ddba336f8847e16d47124a5cca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201901"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912024"
 ---
 # <a name="federation-route-settings-expander"></a>Расширитель настроек маршрута федерации
  

@@ -1,7 +1,7 @@
 ---
 title: Контрольный список по освоению для настройки рабочих нагрузок облачной голосовой службы в Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3da65a7203f8597824a43be15d5980a5ab53cb2f
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 416cf03d07918834ebd06dbfd717bd28b7edff2d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400846"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33899055"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Настройка рабочих нагрузок облачных голосовой связи в группами Майкрософт
 
@@ -56,7 +56,7 @@ ms.locfileid: "33400846"
 | 10 | Подготовка и выполнения пользовательского приемочного тестирования | Подготовка и выполнения пользовательского приемочного тестирования, включая сценарии-связь и подключение по телефонной линии. | | [План тестирования для телефонной системы](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system) |
 | 11 | Отчет об использовании, работоспособности, успеха ключевые индикаторы и качества | Отчет о об использовании, работоспособности, KSIs и качества, как они были определены на этапе Предвидения. | | [Руководство по работе](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) |
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После завершения этот контрольный список будет возможности голосовой связи, успешно добавлены в развертывание групп.
 

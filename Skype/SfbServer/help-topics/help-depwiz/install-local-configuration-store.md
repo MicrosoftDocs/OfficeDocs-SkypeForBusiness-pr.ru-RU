@@ -1,8 +1,8 @@
 ---
 title: Установка локального хранилища конфигурации
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/13/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: Чтобы начать установку новых Скайп для роли сервера Business Server 2015, сначала необходимо установить на локальном SQL Server, на котором будет размещаться локального хранилища конфигурации. Локальное хранилище конфигурации будет действовать как только для чтения реплики Скайп для бизнеса сервера центрального хранилища управления (CMS). На сервер, на котором выполняется шаг Установка локального хранилища конфигурации, вы должны войти как локальный администратор компьютера и участник группы RTCUniversalServerAdmins или RTCUniversalGlobalReadOnlyGroup. При установке пограничного сервера не обязательно быть участником группы RTCUniversalServerAdmins или RTCUniversalGlobalReadOnlyGroup. Документ описания Topology Builder считываются из документа экспортированного определения а не из центрального хранилища управления. Чтобы экспортировать документ описания Topology Builder и сделать его доступным для пограничных серверов, см раздел Экспорт Your Topology и копировать его на внешний носитель для установки пограничного сервера.
-ms.openlocfilehash: 758b32178dcb574e5e929c88bc5744d495b6420f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c5c06d47b0deb8e82505567750832762a21200e7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201253"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921029"
 ---
 # <a name="install-local-configuration-store"></a>Установка локального хранилища конфигурации
 

@@ -1,8 +1,8 @@
 ---
 title: Выбор запрещенных участников
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Администратор сохраняемого чата можно создавать и управлять категорий комнат чата. В процессе создания и управления ими категорий комнат чата администратор сохраняемого чата можно настроить участников (доменных служб Active Directory группы и контейнеры/пользователи), которые имеют доступ к быть члены/создателей каналы, в конкретной категории. Persistent Chat Administrator также можно добавить DeniedMembers к категории, и они станут явные исключения в список разрешенных. DeniedMembers переопределить возможности Указание параметров AllowedMembers.
-ms.openlocfilehash: a4726710bcf331c940c73380dc43b98a6f422c66
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7f87177d02a639ae32f3841298466b455ed5d538
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220209"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929555"
 ---
 # <a name="select-denied-members"></a>Выбор запрещенных участников
 

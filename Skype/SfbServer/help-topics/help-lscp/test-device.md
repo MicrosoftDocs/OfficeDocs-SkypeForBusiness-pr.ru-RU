@@ -1,8 +1,8 @@
 ---
 title: Тестовое устройство
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: Вы можете добавить устройство проверки на страницу Устройство проверки и затем использовать его для проверки функциональных возможностей новых обновлений перед их развертыванием на производственных устройствах. Вы можете протестировать устройство глобально (то есть в рамках всей среды) или для отдельного сайта. Устройство проверки указывается по MAC-адресу или серийному номеру. При добавлении устройства, оно отображается в списке на странице устройство проверки Скайп для панели управления Business Server.
-ms.openlocfilehash: 09a087b9ae370a9ae04265161351df2c32a71d59
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aabb85cfa8522aa3955be0f1fefb50e45bb20b17
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200487"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929464"
 ---
 # <a name="test-device"></a>Тестовое устройство
 

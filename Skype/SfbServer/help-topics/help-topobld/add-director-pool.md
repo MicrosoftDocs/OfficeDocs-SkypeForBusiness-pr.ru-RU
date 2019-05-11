@@ -1,8 +1,8 @@
 ---
 title: Добавление пула директоров
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: Чтобы определить полное доменное имя пула директоров, выберите пул на нескольких компьютерах, который будет состоять из двух или нескольких директоров в пуле подсистемы балансировки нагрузки или пул одиночного компьютера. Кроме того, необходимо ввести полное доменное имя (FQDN), который будет использоваться для подключения к пул директоров или полное доменное имя одного директора. Для пула директоров компьютеров это будет запись доменных имен (DNS) для виртуальный IP-адрес аппаратного балансировщика нагрузки или общей записи DNS для балансировки нагрузки DNS.
-ms.openlocfilehash: 8dfccfdac8ee2651c935b626f2deb0e688488b54
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 6f1e9fd873cfbd09ab8e9bc27323082be4d125a6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879274"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886531"
 ---
 # <a name="add-director-pool"></a>Добавление пула директоров
  

@@ -1,7 +1,7 @@
 ---
 title: Возможности управления и инструменты для системы комнат Skype
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: В этом разделе описываются возможности инструментов управления для Системы комнат Skype.
-ms.openlocfilehash: 9be385030ad09e73608b461c5a0c05cea70987c0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8a1d9f3e3d1c569a0473ca92cda6761ce63f0096
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219404"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895035"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Возможности управления и инструменты для системы комнат Skype
  
