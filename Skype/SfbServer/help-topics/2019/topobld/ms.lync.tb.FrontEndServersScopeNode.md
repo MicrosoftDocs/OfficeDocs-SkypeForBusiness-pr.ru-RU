@@ -1,8 +1,8 @@
 ---
 title: Узел области применения серверов переднего плана
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узел Пулы переднего плана Enterprise Edition содержит список пулов переднего плана на данном сайте, а узел Серверы переднего плана Standard Edition — список серверов переднего плана стандартного выпуска на данном сайте. Доступно следующее действие.
-ms.openlocfilehash: f4e02da68560537040855413618396b916a88b32
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 676bbbd74153842e4517a2acba667c2eeaa5cbac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201781"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919832"
 ---
 # <a name="front-end-servers-scope-node"></a>Узел области применения серверов переднего плана
  
