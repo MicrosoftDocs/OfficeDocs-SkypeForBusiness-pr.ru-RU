@@ -1,8 +1,8 @@
 ---
 title: Запрос сертификата (вызов)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 description: На странице выполнение команд отображается состояние области задач как команды, выполненные для создания запроса на сертификат. После завершения задач, в раскрывающемся списке области сводки содержит список файлов журнала. Раскрывающемся списке выберите файл журнала, чтобы просмотреть и нажмите кнопку Просмотреть журнал. Запустите Internet Explorer и отображения файла журнала. В случае сбоя запроса просмотрите файлы журнала, чтобы определить причину ошибки. Можно повторно выполнить запрос на сертификат, чтобы решить эту проблему, устранении ошибки, указанных в файле журнала. Тем не менее продолжить страницы запроса сертификата и запросить сертификат еще раз.
-ms.openlocfilehash: 3b87f63c8d12deb753dc8225861d4fc38bacf3a9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af894564859b078587c564aa67cff47751d03a49
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235032"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911123"
 ---
-# <a name="certificate-request-invoke"></a><span data-ttu-id="73089-109">Запрос сертификата (вызов)</span><span class="sxs-lookup"><span data-stu-id="73089-109">Certificate Request (Invoke)</span></span>
+# <a name="certificate-request-invoke"></a><span data-ttu-id="69c0a-109">Запрос сертификата (вызов)</span><span class="sxs-lookup"><span data-stu-id="69c0a-109">Certificate Request (Invoke)</span></span>
  
-<span data-ttu-id="73089-110">На странице **Выполнение команд** отображается состояние области задач как команды, выполненные для создания запроса на сертификат.</span><span class="sxs-lookup"><span data-stu-id="73089-110">The **Executing Commands** page displays a task status pane as the commands run for the generation of the certificate request.</span></span> <span data-ttu-id="73089-111">После завершения задач, в раскрывающемся списке области сводки содержит список файлов журнала.</span><span class="sxs-lookup"><span data-stu-id="73089-111">After the tasks are completed, the drop-down list below the summary pane contains a list of log files.</span></span> <span data-ttu-id="73089-112">Раскрывающемся списке выберите файл журнала, чтобы просмотреть и нажмите кнопку **Просмотреть журнал**.</span><span class="sxs-lookup"><span data-stu-id="73089-112">Use the drop-down list to select a log file to view, and then click **View Log**.</span></span> <span data-ttu-id="73089-113">Запустите Internet Explorer и отображения файла журнала.</span><span class="sxs-lookup"><span data-stu-id="73089-113">Internet Explorer will start and display the log file.</span></span> <span data-ttu-id="73089-114">В случае сбоя запроса просмотрите файлы журнала, чтобы определить причину ошибки.</span><span class="sxs-lookup"><span data-stu-id="73089-114">In case of a failed request, you should review the log file(s) to determine the cause of the failure.</span></span> <span data-ttu-id="73089-115">Можно повторно выполнить запрос на сертификат, чтобы решить эту проблему, устранении ошибки, указанных в файле журнала.</span><span class="sxs-lookup"><span data-stu-id="73089-115">You can rerun the certificate request to resolve the issue, correcting the problem indicated in the log file.</span></span> <span data-ttu-id="73089-116">Тем не менее продолжить страницы запроса сертификата и запросить сертификат еще раз.</span><span class="sxs-lookup"><span data-stu-id="73089-116">Continue though the certificate request pages and request the certificate again.</span></span>
+<span data-ttu-id="69c0a-110">На странице **Выполнение команд** отображается состояние области задач как команды, выполненные для создания запроса на сертификат.</span><span class="sxs-lookup"><span data-stu-id="69c0a-110">The **Executing Commands** page displays a task status pane as the commands run for the generation of the certificate request.</span></span> <span data-ttu-id="69c0a-111">После завершения задач, в раскрывающемся списке области сводки содержит список файлов журнала.</span><span class="sxs-lookup"><span data-stu-id="69c0a-111">After the tasks are completed, the drop-down list below the summary pane contains a list of log files.</span></span> <span data-ttu-id="69c0a-112">Раскрывающемся списке выберите файл журнала, чтобы просмотреть и нажмите кнопку **Просмотреть журнал**.</span><span class="sxs-lookup"><span data-stu-id="69c0a-112">Use the drop-down list to select a log file to view, and then click **View Log**.</span></span> <span data-ttu-id="69c0a-113">Запустите Internet Explorer и отображения файла журнала.</span><span class="sxs-lookup"><span data-stu-id="69c0a-113">Internet Explorer will start and display the log file.</span></span> <span data-ttu-id="69c0a-114">В случае сбоя запроса просмотрите файлы журнала, чтобы определить причину ошибки.</span><span class="sxs-lookup"><span data-stu-id="69c0a-114">In case of a failed request, you should review the log file(s) to determine the cause of the failure.</span></span> <span data-ttu-id="69c0a-115">Можно повторно выполнить запрос на сертификат, чтобы решить эту проблему, устранении ошибки, указанных в файле журнала.</span><span class="sxs-lookup"><span data-stu-id="69c0a-115">You can rerun the certificate request to resolve the issue, correcting the problem indicated in the log file.</span></span> <span data-ttu-id="69c0a-116">Тем не менее продолжить страницы запроса сертификата и запросить сертификат еще раз.</span><span class="sxs-lookup"><span data-stu-id="69c0a-116">Continue though the certificate request pages and request the certificate again.</span></span>
   
 

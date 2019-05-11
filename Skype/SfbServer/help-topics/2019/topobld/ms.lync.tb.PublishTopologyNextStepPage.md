@@ -1,8 +1,8 @@
 ---
 title: Следующий этап публикации топологии
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,26 +13,26 @@ localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW
 description: По завершении публикации топологии отображается страница завершения мастера публикации.
-ms.openlocfilehash: db236d0f30d68c9706430b72d44a514a876848af
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ec19762450156ab0ded3c4dabeed9eb4a77cfb8a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201624"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919860"
 ---
-# <a name="publish-topology-next-step"></a><span data-ttu-id="3d69d-103">Следующий этап публикации топологии</span><span class="sxs-lookup"><span data-stu-id="3d69d-103">Publish Topology Next Step</span></span>
+# <a name="publish-topology-next-step"></a><span data-ttu-id="02c95-103">Следующий этап публикации топологии</span><span class="sxs-lookup"><span data-stu-id="02c95-103">Publish Topology Next Step</span></span>
 
-<span data-ttu-id="3d69d-104">По завершении публикации топологии отображается страница **завершения мастера публикации** .</span><span class="sxs-lookup"><span data-stu-id="3d69d-104">At the completion of the publishing of the topology, the **Publish wizard complete** page is displayed.</span></span>
+<span data-ttu-id="02c95-104">По завершении публикации топологии отображается страница **завершения мастера публикации** .</span><span class="sxs-lookup"><span data-stu-id="02c95-104">At the completion of the publishing of the topology, the **Publish wizard complete** page is displayed.</span></span>
 
-<span data-ttu-id="3d69d-105">По окончании действия во время процесса публикации топологии журналов создаются, которые содержат сведения о задачах, которые были выполнены.</span><span class="sxs-lookup"><span data-stu-id="3d69d-105">As you finish steps during the Publish Topology process, logs are created that contain information about the tasks that were performed.</span></span> <span data-ttu-id="3d69d-106">Просмотр файла журнала, связанные с указанной действие, выберите действие, которое нужно проверить файл журнала и нажмите кнопку **Просмотр журнала**.</span><span class="sxs-lookup"><span data-stu-id="3d69d-106">To view a log file related to a given step, select the step that you need to review the log file for, and then click **View Logs**.</span></span>
+<span data-ttu-id="02c95-105">По окончании действия во время процесса публикации топологии журналов создаются, которые содержат сведения о задачах, которые были выполнены.</span><span class="sxs-lookup"><span data-stu-id="02c95-105">As you finish steps during the Publish Topology process, logs are created that contain information about the tasks that were performed.</span></span> <span data-ttu-id="02c95-106">Просмотр файла журнала, связанные с указанной действие, выберите действие, которое нужно проверить файл журнала и нажмите кнопку **Просмотр журнала**.</span><span class="sxs-lookup"><span data-stu-id="02c95-106">To view a log file related to a given step, select the step that you need to review the log file for, and then click **View Logs**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="3d69d-107">Файлы журналов будут связаны не все действия во время процесса публикации топологии.</span><span class="sxs-lookup"><span data-stu-id="3d69d-107">Not all steps during the Publish Topology process will have associated log files.</span></span> <span data-ttu-id="3d69d-108">Если выберите шаг и **Просмотр журнала** доступен, это действие создан файл журнала.</span><span class="sxs-lookup"><span data-stu-id="3d69d-108">If you select a step and **View Logs** is available, this step has created a log file.</span></span> <span data-ttu-id="3d69d-109">Если кнопка **Просмотр журнала** недоступен (выделен серым цветом), файл журнала не был создан для этого шага.</span><span class="sxs-lookup"><span data-stu-id="3d69d-109">If the **View Logs** button is not available (grayed out), no log file was created for this step.</span></span>
+> <span data-ttu-id="02c95-107">Файлы журналов будут связаны не все действия во время процесса публикации топологии.</span><span class="sxs-lookup"><span data-stu-id="02c95-107">Not all steps during the Publish Topology process will have associated log files.</span></span> <span data-ttu-id="02c95-108">Если выберите шаг и **Просмотр журнала** доступен, это действие создан файл журнала.</span><span class="sxs-lookup"><span data-stu-id="02c95-108">If you select a step and **View Logs** is available, this step has created a log file.</span></span> <span data-ttu-id="02c95-109">Если кнопка **Просмотр журнала** недоступен (выделен серым цветом), файл журнала не был создан для этого шага.</span><span class="sxs-lookup"><span data-stu-id="02c95-109">If the **View Logs** button is not available (grayed out), no log file was created for this step.</span></span>
 
-<span data-ttu-id="3d69d-110">Чтобы просмотреть дальнейшие действия, предложенные для выполнения вашей топологии, щелкните ссылку **щелкните здесь, чтобы открыть список дел**.</span><span class="sxs-lookup"><span data-stu-id="3d69d-110">To review Next Steps suggested to complete your topology, click the link **Click here to open to-do list**.</span></span> <span data-ttu-id="3d69d-111">В текстовом файле, которая открывается по этой ссылке указывается, серверы, на которых будут иметь для запуска программы установки локального или дополнительные действия, которые необходимо предпринять для выполнения развертывания.</span><span class="sxs-lookup"><span data-stu-id="3d69d-111">The text file that is opened by clicking this link will indicate the servers that you will have to run local setup, and any additional steps that you need to take to complete your deployment.</span></span> <span data-ttu-id="3d69d-112">Для каждого из перечисленных задач обратитесь к разделу соответствующие в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="3d69d-112">For each of the tasks listed, refer to the appropriate section in the Deployment documentation.</span></span>
+<span data-ttu-id="02c95-110">Чтобы просмотреть дальнейшие действия, предложенные для выполнения вашей топологии, щелкните ссылку **щелкните здесь, чтобы открыть список дел**.</span><span class="sxs-lookup"><span data-stu-id="02c95-110">To review Next Steps suggested to complete your topology, click the link **Click here to open to-do list**.</span></span> <span data-ttu-id="02c95-111">В текстовом файле, которая открывается по этой ссылке указывается, серверы, на которых будут иметь для запуска программы установки локального или дополнительные действия, которые необходимо предпринять для выполнения развертывания.</span><span class="sxs-lookup"><span data-stu-id="02c95-111">The text file that is opened by clicking this link will indicate the servers that you will have to run local setup, and any additional steps that you need to take to complete your deployment.</span></span> <span data-ttu-id="02c95-112">Для каждого из перечисленных задач обратитесь к разделу соответствующие в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="02c95-112">For each of the tasks listed, refer to the appropriate section in the Deployment documentation.</span></span>
 
-<span data-ttu-id="3d69d-113">Нажмите кнопку **Готово**</span><span class="sxs-lookup"><span data-stu-id="3d69d-113">Click **Finish**</span></span>
+<span data-ttu-id="02c95-113">Нажмите кнопку **Готово**</span><span class="sxs-lookup"><span data-stu-id="02c95-113">Click **Finish**</span></span>
 
-<span data-ttu-id="3d69d-114">Дополнительные сведения см [опубликовать топологию](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx).</span><span class="sxs-lookup"><span data-stu-id="3d69d-114">For details, see [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx).</span></span>
+<span data-ttu-id="02c95-114">Дополнительные сведения см [опубликовать топологию](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx).</span><span class="sxs-lookup"><span data-stu-id="02c95-114">For details, see [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx).</span></span>
 
 

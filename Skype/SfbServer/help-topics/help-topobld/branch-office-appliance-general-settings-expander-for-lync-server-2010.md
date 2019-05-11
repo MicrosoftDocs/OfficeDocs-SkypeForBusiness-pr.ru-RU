@@ -1,8 +1,8 @@
 ---
 title: Расширитель общих настроек устройства для обеспечения связи в филиалах для Lync Server 2010
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,43 +13,43 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: Чтобы изменить свойства для обеспечения связи в филиалах и устройства для обеспечения связи в филиалах, в разделе "Общие", необходимо настроить.
-ms.openlocfilehash: fad751cc897c2ad9d8ebc02e02bc37cd10b00fbf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8469202562a263007ae5a89e9fa1835c6d641243
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226930"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911807"
 ---
-# <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a><span data-ttu-id="78648-103">Расширитель общих настроек устройства для обеспечения связи в филиалах для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="78648-103">Branch Office Appliance General Settings Expander for Lync Server 2010</span></span>
+# <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a><span data-ttu-id="ef271-103">Расширитель общих настроек устройства для обеспечения связи в филиалах для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="ef271-103">Branch Office Appliance General Settings Expander for Lync Server 2010</span></span>
  
-<span data-ttu-id="78648-104">Чтобы изменить свойства для обеспечения связи в филиалах или для обеспечения связи в филиалах, в разделе **Общие**настройки:</span><span class="sxs-lookup"><span data-stu-id="78648-104">To edit properties for Survivable Branch Appliance or Survivable Branch Server , under **General**, you configure:</span></span>
+<span data-ttu-id="ef271-104">Чтобы изменить свойства для обеспечения связи в филиалах или для обеспечения связи в филиалах, в разделе **Общие**настройки:</span><span class="sxs-lookup"><span data-stu-id="ef271-104">To edit properties for Survivable Branch Appliance or Survivable Branch Server , under **General**, you configure:</span></span>
   
-- <span data-ttu-id="78648-105">**Полное доменное имя**: Введите полное доменное имя для обеспечения связи в филиалах или для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="78648-105">**FQDN**: You type the fully qualified domain name of the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+- <span data-ttu-id="ef271-105">**Полное доменное имя**: Введите полное доменное имя для обеспечения связи в филиалах или для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="ef271-105">**FQDN**: You type the fully qualified domain name of the Survivable Branch Appliance or Survivable Branch Server.</span></span>
     
-    <span data-ttu-id="78648-106">**Использовать все настроенные IP-адреса** с помощью IP-адресов, настроенных для обеспечения связи в филиалах или сервера для обеспечения связи в филиалах для всех целей.</span><span class="sxs-lookup"><span data-stu-id="78648-106">**Use all configured IP addresses** uses the IP addresses configured on the Survivable Branch Appliance or Survivable Branch Server for all purposes.</span></span>
+    <span data-ttu-id="ef271-106">**Использовать все настроенные IP-адреса** с помощью IP-адресов, настроенных для обеспечения связи в филиалах или сервера для обеспечения связи в филиалах для всех целей.</span><span class="sxs-lookup"><span data-stu-id="ef271-106">**Use all configured IP addresses** uses the IP addresses configured on the Survivable Branch Appliance or Survivable Branch Server for all purposes.</span></span>
     
-    <span data-ttu-id="78648-107">**Ограничить использование службы выбранными IP-адресами**. Пользователем задаются различные IP-адреса для сервера и для связи с ТСОП.</span><span class="sxs-lookup"><span data-stu-id="78648-107">**Limit service usage to selected IP addresses** You configure the distinct address that define the server and the IP address to be used for PSTN.</span></span>
+    <span data-ttu-id="ef271-107">**Ограничить использование службы выбранными IP-адресами**. Пользователем задаются различные IP-адреса для сервера и для связи с ТСОП.</span><span class="sxs-lookup"><span data-stu-id="ef271-107">**Limit service usage to selected IP addresses** You configure the distinct address that define the server and the IP address to be used for PSTN.</span></span>
     
-    <span data-ttu-id="78648-108">**Основной IP-адрес**. IP-адрес определяется и настраивается для всех задач, кроме функций, связанных с ТСОП.</span><span class="sxs-lookup"><span data-stu-id="78648-108">**Primary IP address**: The IP address is defined and configured for all purposes, except for PSTN-associated functions.</span></span>
+    <span data-ttu-id="ef271-108">**Основной IP-адрес**. IP-адрес определяется и настраивается для всех задач, кроме функций, связанных с ТСОП.</span><span class="sxs-lookup"><span data-stu-id="ef271-108">**Primary IP address**: The IP address is defined and configured for all purposes, except for PSTN-associated functions.</span></span>
     
-    <span data-ttu-id="78648-109">**IP-адрес для ТСОП**. IP-адрес, связанный с функциями ТСОП.</span><span class="sxs-lookup"><span data-stu-id="78648-109">**PSTN IP address**: The IP address associated with the public switched telephone network (PSTN) functions.</span></span>
+    <span data-ttu-id="ef271-109">**IP-адрес для ТСОП**. IP-адрес, связанный с функциями ТСОП.</span><span class="sxs-lookup"><span data-stu-id="ef271-109">**PSTN IP address**: The IP address associated with the public switched telephone network (PSTN) functions.</span></span>
     
-- <span data-ttu-id="78648-110">Можно настроить **связи** , чтобы убедиться, что другой сервер роли настроена и связана с устройства для обеспечения связи в филиалах или для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="78648-110">You configure **Associations** to ensure that other server roles are configured and associated with the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+- <span data-ttu-id="ef271-110">Можно настроить **связи** , чтобы убедиться, что другой сервер роли настроена и связана с устройства для обеспечения связи в филиалах или для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="ef271-110">You configure **Associations** to ensure that other server roles are configured and associated with the Survivable Branch Appliance or Survivable Branch Server.</span></span>
     
-    <span data-ttu-id="78648-111">**Связанный сервер архивации** Выберите в списке сервер архивации, которую требуется связать с устройства для обеспечения связи в филиалах или для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="78648-111">**Associate Archiving Server** Select from the list the Archiving Server that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
+    <span data-ttu-id="ef271-111">**Связанный сервер архивации** Выберите в списке сервер архивации, которую требуется связать с устройства для обеспечения связи в филиалах или для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="ef271-111">**Associate Archiving Server** Select from the list the Archiving Server that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
     
-    <span data-ttu-id="78648-112">Нажмите кнопку **Создать** , если вы еще не создали сервер архивации, которую требуется связать с этим для обеспечения связи в филиалах или сервера для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="78648-112">Click **New** if you have not created the Archiving Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server</span></span>
+    <span data-ttu-id="ef271-112">Нажмите кнопку **Создать** , если вы еще не создали сервер архивации, которую требуется связать с этим для обеспечения связи в филиалах или сервера для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="ef271-112">Click **New** if you have not created the Archiving Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server</span></span>
     
-    <span data-ttu-id="78648-113">**Связывание сервера мониторинга** Выберите в списке сервер мониторинга, который требуется связать с устройства для обеспечения связи в филиалах или для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="78648-113">**Associate Monitoring Server** Select from the list the Monitoring Server that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
+    <span data-ttu-id="ef271-113">**Связывание сервера мониторинга** Выберите в списке сервер мониторинга, который требуется связать с устройства для обеспечения связи в филиалах или для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="ef271-113">**Associate Monitoring Server** Select from the list the Monitoring Server that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
     
-    <span data-ttu-id="78648-114">Нажмите кнопку **Создать** , если вы еще не создали сервер мониторинга, которую требуется связать с этим для обеспечения связи в филиалах или сервера для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="78648-114">Click **New** if you have not created the Monitoring Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server</span></span>
+    <span data-ttu-id="ef271-114">Нажмите кнопку **Создать** , если вы еще не создали сервер мониторинга, которую требуется связать с этим для обеспечения связи в филиалах или сервера для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="ef271-114">Click **New** if you have not created the Monitoring Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server</span></span>
     
-    <span data-ttu-id="78648-115">**Связать пограничный пул (для компонентов мультимедиа)** Выберите в списке пограничный сервер или пограничный пул, который требуется связать с устройства для обеспечения связи в филиалах или для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="78648-115">**Associate Edge pool (for media components)** Select from the list the Edge Server or Edge pool that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
+    <span data-ttu-id="ef271-115">**Связать пограничный пул (для компонентов мультимедиа)** Выберите в списке пограничный сервер или пограничный пул, который требуется связать с устройства для обеспечения связи в филиалах или для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="ef271-115">**Associate Edge pool (for media components)** Select from the list the Edge Server or Edge pool that you want to associate with the Survivable Branch Appliance or Survivable Branch Server</span></span>
     
-  <span data-ttu-id="78648-116">**ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="78648-116">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="ef271-116">**ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="ef271-116">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="78648-117">**Отмена**. Отмена изменений и закрытие диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="78648-117">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="ef271-117">**Отмена**. Отмена изменений и закрытие диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="ef271-117">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="78648-118">**Справка**. Отображение этого экрана справки.</span><span class="sxs-lookup"><span data-stu-id="78648-118">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="ef271-118">**Справка**. Отображение этого экрана справки.</span><span class="sxs-lookup"><span data-stu-id="ef271-118">**Help** Displays this help screen.</span></span>
   
 

@@ -1,8 +1,8 @@
 ---
 title: Следующий переход для объединения с устаревшей версией
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 description: Полное доменное имя следующего прыжка идентифицирует сервера следующего прыжка, к которому устаревшего пограничного сервера Маршрутизация внутреннего трафика. Введите полное доменное имя (FQDN) сервера следующего прыжка, к которому этот пограничный сервер Маршрутизация внутреннего трафика и выберите пул переднего плана или Директор.
-ms.openlocfilehash: 0e498a7181b77ec86b1f1b6d12d673feba372097
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 18e32b48da6f2bdead01c2583178efa358a535d1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200182"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888676"
 ---
-# <a name="legacy-merge-next-hop"></a><span data-ttu-id="a47fd-104">Следующий переход для объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="a47fd-104">Legacy Merge Next Hop</span></span>
+# <a name="legacy-merge-next-hop"></a><span data-ttu-id="3eec2-104">Следующий переход для объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="3eec2-104">Legacy Merge Next Hop</span></span>
  
-<span data-ttu-id="a47fd-105">**Полное доменное имя следующего прыжка** идентифицирует сервера следующего прыжка, к которому устаревшего пограничного сервера Маршрутизация внутреннего трафика.</span><span class="sxs-lookup"><span data-stu-id="a47fd-105">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic.</span></span> <span data-ttu-id="a47fd-106">Введите полное доменное имя (FQDN) сервера следующего прыжка, к которому этот пограничный сервер Маршрутизация внутреннего трафика и выберите **пул переднего плана** или **директора**.</span><span class="sxs-lookup"><span data-stu-id="a47fd-106">Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
+<span data-ttu-id="3eec2-105">**Полное доменное имя следующего прыжка** идентифицирует сервера следующего прыжка, к которому устаревшего пограничного сервера Маршрутизация внутреннего трафика.</span><span class="sxs-lookup"><span data-stu-id="3eec2-105">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic.</span></span> <span data-ttu-id="3eec2-106">Введите полное доменное имя (FQDN) сервера следующего прыжка, к которому этот пограничный сервер Маршрутизация внутреннего трафика и выберите **пул переднего плана** или **директора**.</span><span class="sxs-lookup"><span data-stu-id="3eec2-106">Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
   
 

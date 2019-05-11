@@ -1,8 +1,8 @@
 ---
 title: Связывание сервера-посредника с пограничным сервером
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: Определение сервера-посредника, укажите параметры, которые связать сервер-посредник с сервера переднего плана и пограничного сервера или пула. Чтобы связать сервер-посредник или пул с пограничного сервера или пула пограничных серверов, выполните следующие действия.
-ms.openlocfilehash: 03d0cc7c1333151274b67d9eef657d33931501ea
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ab7e1292a6fa897a48429e85a75062895b73dc01
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220651"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896288"
 ---
-# <a name="associate-mediation-server-with-edge"></a><span data-ttu-id="6905f-104">Связывание сервера-посредника с пограничным сервером</span><span class="sxs-lookup"><span data-stu-id="6905f-104">Associate Mediation Server With Edge</span></span>
+# <a name="associate-mediation-server-with-edge"></a><span data-ttu-id="ee835-104">Связывание сервера-посредника с пограничным сервером</span><span class="sxs-lookup"><span data-stu-id="ee835-104">Associate Mediation Server With Edge</span></span>
  
-<span data-ttu-id="6905f-105">Определение сервера-посредника, укажите параметры, которые связать сервер-посредник с сервера переднего плана и пограничного сервера или пула.</span><span class="sxs-lookup"><span data-stu-id="6905f-105">To define a Mediation Server, specify settings that associate the Mediation Server with a Front End Server and with an Edge Server or pool.</span></span> <span data-ttu-id="6905f-106">Чтобы связать сервер-посредник или пул с пограничного сервера или пула пограничных серверов, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="6905f-106">To associate the Mediation Server or pool with an Edge Server or Edge Server pool, do the following:</span></span>
+<span data-ttu-id="ee835-105">Определение сервера-посредника, укажите параметры, которые связать сервер-посредник с сервера переднего плана и пограничного сервера или пула.</span><span class="sxs-lookup"><span data-stu-id="ee835-105">To define a Mediation Server, specify settings that associate the Mediation Server with a Front End Server and with an Edge Server or pool.</span></span> <span data-ttu-id="ee835-106">Чтобы связать сервер-посредник или пул с пограничного сервера или пула пограничных серверов, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="ee835-106">To associate the Mediation Server or pool with an Edge Server or Edge Server pool, do the following:</span></span>
   
-1. <span data-ttu-id="6905f-107">В раскрывающемся списке выберите пограничный пул или сервер, который следует связать с сервером-посредником.</span><span class="sxs-lookup"><span data-stu-id="6905f-107">From the drop-down list, select the Edge pool or Edge Server to associate with the Mediation Server.</span></span>
+1. <span data-ttu-id="ee835-107">В раскрывающемся списке выберите пограничный пул или сервер, который следует связать с сервером-посредником.</span><span class="sxs-lookup"><span data-stu-id="ee835-107">From the drop-down list, select the Edge pool or Edge Server to associate with the Mediation Server.</span></span>
     
-2. <span data-ttu-id="6905f-108">Для продолжения нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="6905f-108">Click **Next** to continue.</span></span>
+2. <span data-ttu-id="ee835-108">Для продолжения нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="ee835-108">Click **Next** to continue.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="6905f-109">Если вы не еще не определили пограничного сервера или пула пограничных серверов в развертывании, раскрывающегося списка не будет содержать операций.</span><span class="sxs-lookup"><span data-stu-id="6905f-109">If you have not yet defined an Edge Server or Edge Server pool in your deployment, the drop-down list will not contain entries.</span></span> <span data-ttu-id="6905f-110">Можно нажать кнопку **Далее** для продолжения и изменение параметров для сервера-посредника, после того как добавлена в развертывание пограничного сервера или пула.</span><span class="sxs-lookup"><span data-stu-id="6905f-110">You can click **Next** to continue and edit the settings for the Mediation Server after you have added an Edge Server or pool to your deployment.</span></span>
+> <span data-ttu-id="ee835-109">Если вы не еще не определили пограничного сервера или пула пограничных серверов в развертывании, раскрывающегося списка не будет содержать операций.</span><span class="sxs-lookup"><span data-stu-id="ee835-109">If you have not yet defined an Edge Server or Edge Server pool in your deployment, the drop-down list will not contain entries.</span></span> <span data-ttu-id="ee835-110">Можно нажать кнопку **Далее** для продолжения и изменение параметров для сервера-посредника, после того как добавлена в развертывание пограничного сервера или пула.</span><span class="sxs-lookup"><span data-stu-id="ee835-110">You can click **Next** to continue and edit the settings for the Mediation Server after you have added an Edge Server or pool to your deployment.</span></span>
   
-<span data-ttu-id="6905f-111">Для получения дополнительных сведений см [Сервера-посредника в построителе топологий в Скайп для Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span><span class="sxs-lookup"><span data-stu-id="6905f-111">For additional details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
+<span data-ttu-id="ee835-111">Для получения дополнительных сведений см [Сервера-посредника в построителе топологий в Скайп для Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span><span class="sxs-lookup"><span data-stu-id="ee835-111">For additional details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
   
 

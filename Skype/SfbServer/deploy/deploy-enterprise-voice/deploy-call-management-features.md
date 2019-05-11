@@ -1,8 +1,8 @@
 ---
 title: Развертывание функций управления вызовами в Скайп для бизнеса
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,37 +14,37 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Развертывание функций управления вызовами в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 6c7a87502c5690d8e39c9e62c8e398381d2504b3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d19ad207b416f2a09abd88282047b79ddd2a1dc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223136"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892750"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business"></a><span data-ttu-id="b603d-103">Развертывание функций управления вызовами в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="b603d-103">Deploy call management features in Skype for Business</span></span>
+# <a name="deploy-call-management-features-in-skype-for-business"></a><span data-ttu-id="9fcfa-103">Развертывание функций управления вызовами в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="9fcfa-103">Deploy call management features in Skype for Business</span></span>
  
-<span data-ttu-id="b603d-104">Развертывание функций управления вызовами в Скайп Business Server корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="b603d-104">Deploying call management features in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="9fcfa-104">Развертывание функций управления вызовами в Скайп Business Server корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="9fcfa-104">Deploying call management features in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="b603d-105">Корпоративная голосовая связь вызовов функций управления управлять как входящих звонков маршрутизируются и получен ответ.</span><span class="sxs-lookup"><span data-stu-id="b603d-105">Enterprise Voice call management features control how incoming calls are routed and answered.</span></span> <span data-ttu-id="b603d-106">Скайп для Business Server предоставляет при следующем вызове функции управления:</span><span class="sxs-lookup"><span data-stu-id="b603d-106">Skype for Business Server provides the following call management features:</span></span> 
+<span data-ttu-id="9fcfa-105">Корпоративная голосовая связь вызовов функций управления управлять как входящих звонков маршрутизируются и получен ответ.</span><span class="sxs-lookup"><span data-stu-id="9fcfa-105">Enterprise Voice call management features control how incoming calls are routed and answered.</span></span> <span data-ttu-id="9fcfa-106">Скайп для Business Server предоставляет при следующем вызове функции управления:</span><span class="sxs-lookup"><span data-stu-id="9fcfa-106">Skype for Business Server provides the following call management features:</span></span> 
   
-- <span data-ttu-id="b603d-107">**Парковка вызовов**: позволяет пользователям голосовой связи временно приостановить вызов и затем ответить на него с того же самого или другого телефона.</span><span class="sxs-lookup"><span data-stu-id="b603d-107">**Call Park**: Enables voice users to temporarily park a call and then pick it up from the same phone or another phone.</span></span>
+- <span data-ttu-id="9fcfa-107">**Парковка вызовов**: позволяет пользователям голосовой связи временно приостановить вызов и затем ответить на него с того же самого или другого телефона.</span><span class="sxs-lookup"><span data-stu-id="9fcfa-107">**Call Park**: Enables voice users to temporarily park a call and then pick it up from the same phone or another phone.</span></span>
     
-- <span data-ttu-id="b603d-108">**Групповой звонок раскладки**: пользователи могут отвечать на вызовы, сделанные на другого пользователя, которому назначена раскладки группы, набирая номер раскладки группы вызова.</span><span class="sxs-lookup"><span data-stu-id="b603d-108">**Group Call Pickup**: Enables users to answer calls made to another user who is assigned to a pickup group by dialing the call pickup group number.</span></span>
+- <span data-ttu-id="9fcfa-108">**Групповой звонок раскладки**: пользователи могут отвечать на вызовы, сделанные на другого пользователя, которому назначена раскладки группы, набирая номер раскладки группы вызова.</span><span class="sxs-lookup"><span data-stu-id="9fcfa-108">**Group Call Pickup**: Enables users to answer calls made to another user who is assigned to a pickup group by dialing the call pickup group number.</span></span>
     
-- <span data-ttu-id="b603d-109">**Группы ответа**: направляет входящие вызовы группам агентов с помощью сервисных групп или интерактивного автоответчика (IVR) вопросов и ответов.</span><span class="sxs-lookup"><span data-stu-id="b603d-109">**Response Group**: Routes incoming calls to groups of agents by using hunt groups or interactive voice response (IVR) questions and answers.</span></span>
+- <span data-ttu-id="9fcfa-109">**Группы ответа**: направляет входящие вызовы группам агентов с помощью сервисных групп или интерактивного автоответчика (IVR) вопросов и ответов.</span><span class="sxs-lookup"><span data-stu-id="9fcfa-109">**Response Group**: Routes incoming calls to groups of agents by using hunt groups or interactive voice response (IVR) questions and answers.</span></span>
     
-- <span data-ttu-id="b603d-110">**Информационное сообщение**: воспроизводит сообщение для вызовов, выполненных на не назначенный номер, перенаправляет вызов куда-нибудь еще или выполняет оба действия.</span><span class="sxs-lookup"><span data-stu-id="b603d-110">**Announcement**: Plays a message for calls made to an unassigned number, or routes the call elsewhere, or both.</span></span>
+- <span data-ttu-id="9fcfa-110">**Информационное сообщение**: воспроизводит сообщение для вызовов, выполненных на не назначенный номер, перенаправляет вызов куда-нибудь еще или выполняет оба действия.</span><span class="sxs-lookup"><span data-stu-id="9fcfa-110">**Announcement**: Plays a message for calls made to an unassigned number, or routes the call elsewhere, or both.</span></span>
     
-<span data-ttu-id="b603d-111">В этом разделе описываются способы настройки этих функций управления вызовами во время процесса развертывания корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="b603d-111">This section describes how to configure these call management features during an Enterprise Voice deployment.</span></span>
+<span data-ttu-id="9fcfa-111">В этом разделе описываются способы настройки этих функций управления вызовами во время процесса развертывания корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="9fcfa-111">This section describes how to configure these call management features during an Enterprise Voice deployment.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="b603d-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="b603d-112">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9fcfa-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="9fcfa-112">In this section</span></span>
 
-- [<span data-ttu-id="b603d-113">Процесс развертывания для парковки вызовов в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="b603d-113">Deployment process for Call Park in Skype for Business</span></span>](deployment-process-for-call-park.md)
+- [<span data-ttu-id="9fcfa-113">Процесс развертывания для парковки вызовов в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="9fcfa-113">Deployment process for Call Park in Skype for Business</span></span>](deployment-process-for-call-park.md)
     
-- [<span data-ttu-id="b603d-114">Процесс развертывания для группы вызова раскладки в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="b603d-114">Deployment process for Group Call Pickup in Skype for Business</span></span>](deployment-process-for-group-call-pickup.md)
+- [<span data-ttu-id="9fcfa-114">Процесс развертывания для группы вызова раскладки в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="9fcfa-114">Deployment process for Group Call Pickup in Skype for Business</span></span>](deployment-process-for-group-call-pickup.md)
     
-- [<span data-ttu-id="b603d-115">Процесс развертывания для группы ответа в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="b603d-115">Deployment process for Response Group in Skype for Business</span></span>](deployment-process-for-response-group.md)
+- [<span data-ttu-id="9fcfa-115">Процесс развертывания для группы ответа в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="9fcfa-115">Deployment process for Response Group in Skype for Business</span></span>](deployment-process-for-response-group.md)
     
-- [<span data-ttu-id="b603d-116">Процесс развертывания для объявлений приложения в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="b603d-116">Deployment process for the Announcement application in Skype for Business Server</span></span>](deployment-process-for-the-announcement-application.md)
+- [<span data-ttu-id="9fcfa-116">Процесс развертывания для объявлений приложения в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="9fcfa-116">Deployment process for the Announcement application in Skype for Business Server</span></span>](deployment-process-for-the-announcement-application.md)
     
 
