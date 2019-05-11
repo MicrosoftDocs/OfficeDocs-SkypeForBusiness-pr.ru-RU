@@ -1,8 +1,8 @@
 ---
 title: Установка локального хранилища конфигурации (вызов)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'В области выполнения команд отображается состояние задачи для установки локальной реплики центрального хранилища управления только для чтения. Во время выполнения задачи, область задач будет обновляться по мере выполнения команды. Следует ознакомиться состояние задачи и обратите внимание на наличие ошибок или предупреждений, которые отображаются. Когда задачи завершены, сообщение состояние задачи: завершено отображается, и раскрывающегося списка для файлов журналов — отображает имена файлов журнала. Для просмотра файлов журнала, которые были созданы, выберите файл журнала для просмотра и щелкните Просмотреть журнал. Обзор всех файлов журнала для успеха, ошибки и предупреждения.'
-ms.openlocfilehash: b7241a7cd7aeb7b01e762e31bebaa37fa1b90b58
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: efed7afa9943eb2682096be5216fbe7d9d42261d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216027"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893597"
 ---
 # <a name="install-local-configuration-store-invoke"></a>Установка локального хранилища конфигурации (вызов)
  

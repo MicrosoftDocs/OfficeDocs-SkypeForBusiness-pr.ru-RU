@@ -1,8 +1,8 @@
 ---
 title: Топологии Skype для бизнеса, поддерживаемые современной проверкой подлинности
 ms.reviewer: ''
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: В этой статье перечислены облачные и локальные топологии, которые поддерживает современная проверка подлинности в Skype для бизнеса, а также средства безопасности, применимые к каждой из них.
-ms.openlocfilehash: 7fbcbcd68030bd3bbc933aef73101b4c7b984937
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ca7c89ce8f7f7681463bbdc87518f42130bf310e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214026"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929057"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Skype for Business topologies supported with Modern Authentication
  

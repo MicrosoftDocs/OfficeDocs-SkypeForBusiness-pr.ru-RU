@@ -1,8 +1,8 @@
 ---
 title: Подготовка текущего домена
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы подготовить домен на серверах под управлением Скайп Business Server или Скайп для пользователей Business Server, необходимо выполнить шаг 5: Подготовка текущего домена, как описано в разделе Использование программы установки для выполнения подготовки домена. Для выполнения на шаге вы должны войти в систему как член группы администраторов домена в домен, в подготовке или как член группы "Администраторы предприятия", к которой принадлежит домену леса. Подготовка домена:'
-ms.openlocfilehash: 0544381fbb4965bd370f1ac128d2e203de0cb109
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 21440b3797b5c1f9d85113b5c180e7b8009c1528
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216174"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893681"
 ---
 # <a name="prepare-current-domain"></a>Подготовка текущего домена
 

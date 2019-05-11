@@ -1,8 +1,8 @@
 ---
 title: Узел области мониторинга
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'В построителе топологий Lync Server 2013 можно выполнить задачи, связанные с отдельного сервера под управлением мониторинг либо щелкните правой кнопкой мыши сервер мониторинга в дереве консоли, нажав кнопку действия на панели инструментов или нажав кнопку задачи в области действия и затем Выберите одну из следующих параметров для сервера под управлением мониторинг:'
-ms.openlocfilehash: cbefbef6872daeaadbf4972cafb440b58270622c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3880ad774d28605942f4fa5bcf2bd07d00a3a7aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200040"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888361"
 ---
 # <a name="monitoring-scope-node"></a>Узел области мониторинга
  
