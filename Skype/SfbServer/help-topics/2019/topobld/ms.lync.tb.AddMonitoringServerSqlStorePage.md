@@ -1,8 +1,8 @@
 ---
 title: Добавление хранилища SQL Server для сервера мониторинга
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Сервер мониторинга требует с поддерживаемой 64-разрядной версией программного обеспечения баз данных SQL Server для хранения данных наблюдения. Можно выбрать ранее заданных базы данных SQL Server, которое будет использоваться для наблюдения за, или определите новую базу данных SQL Server, указав полное доменное имя (FQDN) сервера, на котором размещаются базы данных SQL Server, в дополнение к экземпляру SQL Сервер, который вы хотите использовать для новой базы данных SQL Server (который может быть экземпляр по умолчанию или именованный экземпляр, который указан).
-ms.openlocfilehash: f0efdf2662567f786a035d30236d11c14ccc8efe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4ecbdac4b78c4a377d3de17a136e031ee7503582
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202035"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888788"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Добавление хранилища SQL Server для сервера мониторинга
 

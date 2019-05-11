@@ -1,8 +1,8 @@
 ---
 title: Создание нового расширителя Lync Server 2013
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: Можно создавать новые роли сервера в узле Lync Server 2013 Topology Builder, щелкните правой кнопкой мыши на Lync Server 2013, выберите команду Создать, а затем выберите Создать роль сервера.
-ms.openlocfilehash: aa53e7a373a95e8f264a64aaac82bbcab47b0dcc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b0f272ec7393302e54818053ca0e53270b8c1cf3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235422"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885612"
 ---
 # <a name="skype-for-business-server-create-new-expander"></a>Создание нового расширителя Скайп для Business Server
  

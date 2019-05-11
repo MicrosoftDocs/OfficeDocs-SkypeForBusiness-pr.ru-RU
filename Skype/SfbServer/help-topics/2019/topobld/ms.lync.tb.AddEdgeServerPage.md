@@ -1,8 +1,8 @@
 ---
 title: Добавление пограничного сервера
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для включения пограничного сервера или пула пограничных серверов в топологическую схему необходимо указать полное доменное имя сервера, на котором требуется развернуть пограничный сервер или пул пограничных серверов. Перед публикацией топологии, которая включает в себя пограничного сервера или пула пограничных серверов и установка Скайп для Business Server, необходимо завершить все необходимые компоненты для развертывания доступа внешних пользователей. Дополнительные сведения об этих обязательных условиях см. в разделе Preparing for Installation of Servers in the Perimeter Network документации по развертыванию.
-ms.openlocfilehash: e54deff6c6dcf371ba86f3fbfa1b974489cb3f11
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6c951f40d598fcd2f459bd6ecfc7d6f83f4aa937
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202119"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889012"
 ---
 # <a name="add-edge-server"></a>Добавление пограничного сервера
 

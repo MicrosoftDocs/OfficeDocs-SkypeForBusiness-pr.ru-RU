@@ -1,7 +1,7 @@
 ---
 title: Обучающие материалы для групп Майкрософт | Поддержка ИТ проблемы администрирования
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3524e28df5e24fa32655e694def1400db45c5953
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a0334b13b79348203666c81e597af7b6f00a6190
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203938"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906850"
 ---
 ![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")
 
@@ -47,6 +47,6 @@ ms.locfileid: "32203938"
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Точки принятия решений|<ul><li>Задействованных все персоналу службы поддержки, которые могут принимать участие в развертывание и поддержка групп?</li><li>Вы разработали учебный план для дополнительного персонала входящая мере выполнения обновления?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Дальнейшие действия|<ul><li>Убедитесь, что сведения, необходимые ИТ-специалистов.</li><li>Новые возможности будут выпущены пересмотреть параметры планов обучения и подготовки.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Следующие шаги|<ul><li>Убедитесь, что сведения, необходимые ИТ-специалистов.</li><li>Новые возможности будут выпущены пересмотреть параметры планов обучения и подготовки.</li></ul>|
 
 После подготовки ИТ-специалистам для групп убедитесь, что среды соответствует всех [необходимых компонентов](upgrade-plan-journey-prerequisites.md).

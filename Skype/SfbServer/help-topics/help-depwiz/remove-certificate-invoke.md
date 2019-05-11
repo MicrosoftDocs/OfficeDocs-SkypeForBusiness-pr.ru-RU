@@ -1,8 +1,8 @@
 ---
 title: Удаление сертификата (вызов)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
 description: На странице выполнение команд предоставляет подробные сведения для удаления сертификата. Просмотрите сводные сведения от удаления сертификата. Убедитесь, что файл журнала удалить сертификат отображается в раскрывающемся списке и нажмите кнопку Просмотреть журнал, чтобы просмотреть сведения о удаления сертификата. После просмотра сводки и файлов журнала нажмите кнопку Готово.
-ms.openlocfilehash: beba0856e1ece3e639f2153022047e639e1c0fcc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 336c9bc79f1211ab2fc7ecb20c5411b40c6cb8fb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234956"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925132"
 ---
 # <a name="remove-certificate-invoke"></a>Удаление сертификата (вызов)
  

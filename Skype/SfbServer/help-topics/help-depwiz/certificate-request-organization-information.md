@@ -1,8 +1,8 @@
 ---
 title: Запрос сертификата (сведения об организации)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 description: В области сведения об организации позволяет указать имя вашей организации и подразделения (OU) (обычно отдела или подразделения), для которого запрашивается сертификат. Данные, введите в текстовых полях подразделение и организации отображается в сертификате и используется для идентификации источник запроса сертификата при просмотре сертификат с другими пользователями.
-ms.openlocfilehash: ac5906177e6ae23bd1b703b7b79339bf9d54f866
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 27fbbd711f7f1e4f920f4b59ac6a09f2760833bc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201362"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911130"
 ---
 # <a name="certificate-request-organization-information"></a>Запрос сертификата (сведения об организации)
  

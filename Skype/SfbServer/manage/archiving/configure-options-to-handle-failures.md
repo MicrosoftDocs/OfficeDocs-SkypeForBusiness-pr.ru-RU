@@ -1,8 +1,8 @@
 ---
 title: Настройка параметров архивации для обработки ошибок в Скайп для Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: ': Сводка блокирование сеансов обмена мгновенными Сообщениями и конференц-связи в случае Скайп для сбоев Business Server, который будет препятствовать архивации.'
-ms.openlocfilehash: 4fe63319f2b480557c73e238f2b19692df06440f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 356db70f9e1be630b8ff6daa8b619b13caf817b1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883020"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885047"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Настройка параметров архивации для обработки ошибок в Скайп для Business Server
 

@@ -1,8 +1,8 @@
 ---
 title: Представление SessionDetails
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: Представление SessionDetails сохранение информации о сеансах peer-to-peer, которые могут быть телефонного звонка VoIP-VoIP, двумя участниками сеанса обмена мгновенными Сообщениями или другой тип сеанса. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: c62f6e2c1bb505bf00d56898a562db2c00d298d0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9c94c106d8a290dfd81a57d1674b3fac0fa74642
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212819"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930625"
 ---
 # <a name="sessiondetails-view"></a>Представление SessionDetails
  

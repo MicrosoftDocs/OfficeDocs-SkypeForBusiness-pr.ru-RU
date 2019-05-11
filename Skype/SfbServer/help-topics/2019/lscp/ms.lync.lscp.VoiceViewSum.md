@@ -1,8 +1,8 @@
 ---
 title: Просмотр параметров конфигурации незафиксированные голосовой связи
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно незафиксированные параметры конфигурации голосовой связи, чтобы просмотреть все изменения, внесенные. Прокрутите диалоговое окно, чтобы просмотреть все несохраненные изменения, или нажмите стрелки, чтобы развернуть или свернуть различные разделы. Завершив настройку, нажмите кнопку Закрыть. Закройте это диалоговое окно, можно изменить изменения или их подтверждения.
-ms.openlocfilehash: 9fbaaff594bd432fcd36e74878ecac40be0e33ce
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d59edc1ea64c1a2db114ae6c7cc1521afdcf8392
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221210"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890363"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>Незафиксированные параметры конфигурации голосовой связи: просмотр
  

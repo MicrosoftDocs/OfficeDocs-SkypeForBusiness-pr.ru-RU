@@ -1,8 +1,8 @@
 ---
 title: Развертывание контроля допуска звонков в Скайп for Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: Система контроля допуска звонков обеспечивает проверку возможности установления сеанса связи в реальном времени без ухудшения качества видео- и голосовой связи в перегруженных сетях.
-ms.openlocfilehash: 52fcedaab781e9ed76222afb32b56840a3b07c1c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6ea527bc48f4a61bfe128eb935231200bb88b29f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223143"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892764"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Развертывание контроля допуска звонков в Скайп for Business Server
  

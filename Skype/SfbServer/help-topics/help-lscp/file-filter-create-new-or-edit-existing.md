@@ -1,8 +1,8 @@
 ---
 title: Фильтр файлов Создание новой или редактирование существующей
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: d563a33f68a7ebe863bca5109746f69327c1a6c5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ccd41c10873ee45e8bdb6af3300f449ef459af86
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200725"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911025"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>Фильтр файлов: создание нового или редактирование существующего
 
