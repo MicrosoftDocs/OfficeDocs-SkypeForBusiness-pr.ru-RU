@@ -1,8 +1,8 @@
 ---
 title: Добавление полного доменного имени пограничного сервера
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: Необходимо указать полное доменное имя (FQDN) для пограничной службы доступа. Если вы не выбрали использования одного полного доменного ИМЕНИ &amp; параметр адрес IP-адресов на странице Выбор функции страницы, необходимо также указать полное доменное имя для службы Web пограничного сервера конференц-связи и A / V Edge службы.
-ms.openlocfilehash: 33856832407e6e12a3c0854fb2d2c87a1bde376c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a76efab9c34984c5c514e9301ddbf17fdb2fb025
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880020"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886419"
 ---
-# <a name="add-edge-server-fqdn"></a><span data-ttu-id="8a41b-104">Добавление полного доменного имени пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="8a41b-104">Add Edge Server FQDN</span></span>
+# <a name="add-edge-server-fqdn"></a><span data-ttu-id="84fd4-104">Добавление полного доменного имени пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="84fd4-104">Add Edge Server FQDN</span></span>
  
-<span data-ttu-id="8a41b-105">Необходимо указать полное доменное имя (FQDN) для пограничной службы доступа.</span><span class="sxs-lookup"><span data-stu-id="8a41b-105">You must specify a fully qualified domain name (FQDN) for the Access Edge service.</span></span> <span data-ttu-id="8a41b-106">Если вы не выбрали **использования одного полного доменного ИМЕНИ &amp; IP-адрес** параметр на странице " **Выбор компонентов** " необходимо также указать полное доменное имя для службы Web пограничного сервера конференц-связи и A / видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="8a41b-106">If you did not select the **Use a single FQDN &amp; IP address** option on the **Select features** page, you must also specify an FQDN for the Web Conferencing Edge service and for the A/V Edge service.</span></span>
+<span data-ttu-id="84fd4-105">Необходимо указать полное доменное имя (FQDN) для пограничной службы доступа.</span><span class="sxs-lookup"><span data-stu-id="84fd4-105">You must specify a fully qualified domain name (FQDN) for the Access Edge service.</span></span> <span data-ttu-id="84fd4-106">Если вы не выбрали **использования одного полного доменного ИМЕНИ &amp; IP-адрес** параметр на странице " **Выбор компонентов** " необходимо также указать полное доменное имя для службы Web пограничного сервера конференц-связи и A / видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="84fd4-106">If you did not select the **Use a single FQDN &amp; IP address** option on the **Select features** page, you must also specify an FQDN for the Web Conferencing Edge service and for the A/V Edge service.</span></span>
   
-<span data-ttu-id="8a41b-107">Кроме того Если вы выбрали **использование единого полное доменное имя &amp; IP-адрес** параметр, необходимо указать другой номер порта для каждой из служб пограничного сервера (рекомендуемые параметры порта: службы 444 для пограничного сервера доступа, 8057 для пограничного сервера конференц-связи веб-службы и 443 для A / V Служба пограничного сервера).</span><span class="sxs-lookup"><span data-stu-id="8a41b-107">Also, if you selected the **Use a single FQDN &amp; IP address** option, you must specify a different port number for each of the Edge services (recommended port settings: 444 for Access Edge service, 8057 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="8a41b-108">Если параметр не выбран, можно использовать один и тот же номер порта (например, 443) для всех трех служб.</span><span class="sxs-lookup"><span data-stu-id="8a41b-108">If you did not select the option, you can use the same port number (such as 443) for all three services.</span></span>
+<span data-ttu-id="84fd4-107">Кроме того Если вы выбрали **использование единого полное доменное имя &amp; IP-адрес** параметр, необходимо указать другой номер порта для каждой из служб пограничного сервера (рекомендуемые параметры порта: службы 444 для пограничного сервера доступа, 8057 для пограничного сервера конференц-связи веб-службы и 443 для A / V Служба пограничного сервера).</span><span class="sxs-lookup"><span data-stu-id="84fd4-107">Also, if you selected the **Use a single FQDN &amp; IP address** option, you must specify a different port number for each of the Edge services (recommended port settings: 444 for Access Edge service, 8057 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="84fd4-108">Если параметр не выбран, можно использовать один и тот же номер порта (например, 443) для всех трех служб.</span><span class="sxs-lookup"><span data-stu-id="84fd4-108">If you did not select the option, you can use the same port number (such as 443) for all three services.</span></span>
   
 

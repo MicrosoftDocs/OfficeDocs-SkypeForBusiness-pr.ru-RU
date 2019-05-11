@@ -1,8 +1,8 @@
 ---
 title: Расширитель параметров сервера
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,27 +13,27 @@ localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Этот узел отображает полное доменное имя и IP-адрес этого сервера. Можно выполнить следующие действия.
-ms.openlocfilehash: 3e2e2723dc27fbacbb1376290d0622dd3237060b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19a4f5460860ea81d9392972f944d5c1c80ce202
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235443"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885562"
 ---
-# <a name="server-settings-expander"></a><span data-ttu-id="66915-104">Расширитель параметров сервера</span><span class="sxs-lookup"><span data-stu-id="66915-104">Server Settings Expander</span></span>
+# <a name="server-settings-expander"></a><span data-ttu-id="2232d-104">Расширитель параметров сервера</span><span class="sxs-lookup"><span data-stu-id="2232d-104">Server Settings Expander</span></span>
  
-<span data-ttu-id="66915-p102">Этот узел отображает полное доменное имя и IP-адрес этого сервера. Можно выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="66915-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
+<span data-ttu-id="2232d-p102">Этот узел отображает полное доменное имя и IP-адрес этого сервера. Можно выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="2232d-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="66915-p103">**Изменение свойств**. Открытие страницы **Изменение свойств** для данного сервера, где можно изменить полное доменное имя сервера (если топология еще не опубликована) и конфигурацию IP-адресов сервера.</span><span class="sxs-lookup"><span data-stu-id="66915-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
+- <span data-ttu-id="2232d-p103">**Изменение свойств**. Открытие страницы **Изменение свойств** для данного сервера, где можно изменить полное доменное имя сервера (если топология еще не опубликована) и конфигурацию IP-адресов сервера.</span><span class="sxs-lookup"><span data-stu-id="2232d-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
     
-- <span data-ttu-id="66915-p104">**Удалить**. Удаление сервера из топологии.</span><span class="sxs-lookup"><span data-stu-id="66915-p104">**Delete**. Deletes the server from the topology.</span></span>
+- <span data-ttu-id="2232d-p104">**Удалить**. Удаление сервера из топологии.</span><span class="sxs-lookup"><span data-stu-id="2232d-p104">**Delete**. Deletes the server from the topology.</span></span>
     
-<span data-ttu-id="66915-111">Кроме работы с этими параметрами, вы можете выполнять следующие задачи общего характера:</span><span class="sxs-lookup"><span data-stu-id="66915-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="2232d-111">Кроме работы с этими параметрами, вы можете выполнять следующие задачи общего характера:</span><span class="sxs-lookup"><span data-stu-id="2232d-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="66915-p105">**Топология**. Эта команда позволяет задать новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, выполнить объединение с компонентами прежних версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="66915-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="2232d-p105">**Топология**. Эта команда позволяет задать новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, выполнить объединение с компонентами прежних версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="2232d-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="66915-p106">**Вид**. Эта команда позволяет настроить представление в построителе топологий путем выбора элементов для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="66915-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="2232d-p106">**Вид**. Эта команда позволяет настроить представление в построителе топологий путем выбора элементов для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="2232d-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="66915-p107">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="66915-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="2232d-p107">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="2232d-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

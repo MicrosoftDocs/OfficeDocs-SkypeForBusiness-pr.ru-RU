@@ -1,8 +1,8 @@
 ---
 title: Полное доменное имя для объединения с устаревшей версией
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: Внутреннее полное доменное имя пула пограничного сервера доступа используется для различных сценариев, где внутренним пользователям взаимодействовать с внешними пользователями для федерации, удаленного доступа пользователей и общедоступной службы обмена Мгновенными сообщениями. Если со сбалансированной нагрузкой пограничный сервер был развернут в старой среды, введите полное доменное имя (FQDN) балансировщика нагрузки внутренней.
-ms.openlocfilehash: 38febd8b6d37d186706dc6d4ce43df5a9585c475
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 83a85a31049b936bbc52f51e10855938aa049249
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200189"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888571"
 ---
-# <a name="legacy-merge-fqdn"></a><span data-ttu-id="59e16-104">Полное доменное имя для объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="59e16-104">Legacy Merge FQDN</span></span>
+# <a name="legacy-merge-fqdn"></a><span data-ttu-id="cd047-104">Полное доменное имя для объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="cd047-104">Legacy Merge FQDN</span></span>
  
-<span data-ttu-id="59e16-105">**Внутреннее полное доменное имя пула пограничного сервера доступа** используется для различных сценариев, где внутренним пользователям взаимодействовать с внешними пользователями для федерации, удаленного доступа пользователей и общедоступной службы обмена Мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="59e16-105">The **Access Edge Pool internal FQDN** is used for a variety of scenarios where internal users communicate with external users for federation, remote user access, and public IM connectivity.</span></span> <span data-ttu-id="59e16-106">Если со сбалансированной нагрузкой пограничный сервер был развернут в старой среды, введите полное доменное имя (FQDN) балансировщика нагрузки внутренней.</span><span class="sxs-lookup"><span data-stu-id="59e16-106">If a load-balanced Edge Server was deployed in your legacy environment, enter the fully qualified domain name (FQDN) of the internal load balancer.</span></span>
+<span data-ttu-id="cd047-105">**Внутреннее полное доменное имя пула пограничного сервера доступа** используется для различных сценариев, где внутренним пользователям взаимодействовать с внешними пользователями для федерации, удаленного доступа пользователей и общедоступной службы обмена Мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="cd047-105">The **Access Edge Pool internal FQDN** is used for a variety of scenarios where internal users communicate with external users for federation, remote user access, and public IM connectivity.</span></span> <span data-ttu-id="cd047-106">Если со сбалансированной нагрузкой пограничный сервер был развернут в старой среды, введите полное доменное имя (FQDN) балансировщика нагрузки внутренней.</span><span class="sxs-lookup"><span data-stu-id="cd047-106">If a load-balanced Edge Server was deployed in your legacy environment, enter the fully qualified domain name (FQDN) of the internal load balancer.</span></span>
   
-<span data-ttu-id="59e16-107">Значение **внутреннего SIP-порт** **5061** — порт SIP протокол TCP (Transmission Control) по умолчанию для общения с клиентами, прежних версий пулов переднего плана и серверов.</span><span class="sxs-lookup"><span data-stu-id="59e16-107">The **Internal SIP access port** value of **5061** is the default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools and servers.</span></span> <span data-ttu-id="59e16-108">Если значение по умолчанию не используется, обновите **Внутренний SIP-порт:** значение.</span><span class="sxs-lookup"><span data-stu-id="59e16-108">If the default value was not used, update the **Internal SIP access port:** value.</span></span>
+<span data-ttu-id="cd047-107">Значение **внутреннего SIP-порт** **5061** — порт SIP протокол TCP (Transmission Control) по умолчанию для общения с клиентами, прежних версий пулов переднего плана и серверов.</span><span class="sxs-lookup"><span data-stu-id="cd047-107">The **Internal SIP access port** value of **5061** is the default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools and servers.</span></span> <span data-ttu-id="cd047-108">Если значение по умолчанию не используется, обновите **Внутренний SIP-порт:** значение.</span><span class="sxs-lookup"><span data-stu-id="cd047-108">If the default value was not used, update the **Internal SIP access port:** value.</span></span>
   
 

@@ -1,8 +1,8 @@
 ---
 title: Тип пограничного сервера при объединении с устаревшей версией
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для отдельного пограничного сервера или подсистемы балансировки нагрузки консолидированного пограничного сервера, нажмите кнопку Далее, чтобы указать сведения о конфигурации. Для пограничных серверов развернут конфигурация каждого сервера необходимо изменить значение параметра консолидированного пограничного сервера конфигурации перед можно объединить.
-ms.openlocfilehash: e87cb85e8e48a07c96eb1d053dbe2ff602121fc4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7787163f7ec6b2659dd064f9be6954b96f8a70b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220482"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906755"
 ---
-# <a name="legacy-merge-edge-type"></a><span data-ttu-id="82dde-104">Тип пограничного сервера при объединении с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="82dde-104">Legacy Merge Edge Type</span></span>
+# <a name="legacy-merge-edge-type"></a><span data-ttu-id="15b18-104">Тип пограничного сервера при объединении с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="15b18-104">Legacy Merge Edge Type</span></span>
  
-<span data-ttu-id="82dde-105">**Отдельного пограничного сервера** или **подсистемы балансировки нагрузки консолидированного пограничного** сервера нажмите кнопку **Далее** для указания сведений о конфигурации.</span><span class="sxs-lookup"><span data-stu-id="82dde-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="82dde-106">Для **Развернут пограничный**конфигурации каждого сервера необходимо изменить значение параметра консолидированного пограничного сервера конфигурации перед можно объединить.</span><span class="sxs-lookup"><span data-stu-id="82dde-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged.</span></span> 
+<span data-ttu-id="15b18-105">**Отдельного пограничного сервера** или **подсистемы балансировки нагрузки консолидированного пограничного** сервера нажмите кнопку **Далее** для указания сведений о конфигурации.</span><span class="sxs-lookup"><span data-stu-id="15b18-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="15b18-106">Для **Развернут пограничный**конфигурации каждого сервера необходимо изменить значение параметра консолидированного пограничного сервера конфигурации перед можно объединить.</span><span class="sxs-lookup"><span data-stu-id="15b18-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged.</span></span> 
   
 

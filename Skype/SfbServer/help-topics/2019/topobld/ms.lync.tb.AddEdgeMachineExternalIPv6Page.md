@@ -1,8 +1,8 @@
 ---
 title: Добавление внешнего адреса IPv6 пограничного компьютера
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: e901509e-f667-41ef-96f5-67251b05a167
 ROBOTS: NOINDEX, NOFOLLOW
 description: В внешний адрес IPv6 введите внешний IP-адрес, указывающий на служба пограничного сервера доступа, служба пограничного сервера конференц-связи Web и A / V Edge службы.
-ms.openlocfilehash: cf87e6984e855fa31ee27c8dac64d15875dfe758
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 86959206ff6487c77f8a553baf460f5dbdb10167
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202196"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889103"
 ---
-# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="fcddf-103">Добавление внешнего адреса IPv6 пограничного компьютера</span><span class="sxs-lookup"><span data-stu-id="fcddf-103">Add Edge Machine External IPv6</span></span>
+# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="affed-103">Добавление внешнего адреса IPv6 пограничного компьютера</span><span class="sxs-lookup"><span data-stu-id="affed-103">Add Edge Machine External IPv6</span></span>
  
-<span data-ttu-id="fcddf-104">В поле **внешний адрес IPv6**введите внешний IP-адрес, указывающий на служба пограничного сервера доступа, служба пограничного сервера конференц-связи Web и A / V Edge службы.</span><span class="sxs-lookup"><span data-stu-id="fcddf-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="affed-104">В поле **внешний адрес IPv6**введите внешний IP-адрес, указывающий на служба пограничного сервера доступа, служба пограничного сервера конференц-связи Web и A / V Edge службы.</span><span class="sxs-lookup"><span data-stu-id="affed-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

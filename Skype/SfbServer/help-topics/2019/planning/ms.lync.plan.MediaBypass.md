@@ -1,8 +1,8 @@
 ---
 title: Media Bypass (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Обход сервера-посредника означает исключение сервера-посредника из пути передачи данных по возможности для звонков, чьи сигналы проходят через сервер-посредник. Для получения дополнительных сведений ознакомьтесь со статьей Plan для мультимедиа обходить в Скайп для бизнеса.
-ms.openlocfilehash: f0045ae5b4124d1135c6d3f771c501e3c35a1dd0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 245a6afa7534b75ffa36929419d64254769b94d2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220964"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889341"
 ---
-# <a name="media-bypass-planning-tool"></a><span data-ttu-id="816c5-104">Media Bypass (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="816c5-104">Media Bypass (Planning Tool)</span></span>
+# <a name="media-bypass-planning-tool"></a><span data-ttu-id="e3896-104">Media Bypass (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="e3896-104">Media Bypass (Planning Tool)</span></span>
  
-<span data-ttu-id="816c5-105">Обход сервера-посредника означает исключение сервера-посредника из пути передачи данных по возможности для звонков, чьи сигналы проходят через сервер-посредник.</span><span class="sxs-lookup"><span data-stu-id="816c5-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="816c5-106">Для получения дополнительных сведений ознакомьтесь со статьей [Plan для мультимедиа обходить в Скайп для бизнеса](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="816c5-106">For more details, see [Plan for media bypass in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
+<span data-ttu-id="e3896-105">Обход сервера-посредника означает исключение сервера-посредника из пути передачи данных по возможности для звонков, чьи сигналы проходят через сервер-посредник.</span><span class="sxs-lookup"><span data-stu-id="e3896-105">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span> <span data-ttu-id="e3896-106">Для получения дополнительных сведений ознакомьтесь со статьей [Plan для мультимедиа обходить в Скайп для бизнеса](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="e3896-106">For more details, see [Plan for media bypass in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).</span></span>
   
 
