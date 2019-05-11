@@ -1,7 +1,7 @@
 ---
 title: Требования к группами Майкрософт | Улучшения службы
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78b90349ebaf5dfea878d32c750d03d379c14cab
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f23ff01a70e2aa65a6440b351d8abb1025bbb978
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227632"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920493"
 ---
 ![Этапы обновления пути с акцентом на стадии высокий уровень работоспособности] (media/upgrade-banner-op-excellence.png "Этапы обновления пути с акцентом на стадии высокий уровень работоспособности")
 
@@ -42,5 +42,5 @@ ms.locfileid: "32227632"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Точки принятия решений</td><td><ul><li>Определите, кто будет отслеживать общедоступных планы действий и другие службы извещения для новых функций или служб, которые могут использовать преимущества вашей организации.</li><li>Выберите ритмичности, в котором для получения этих новых функций или служб для ключевых заинтересованных лиц, с помощью исполнительного комитета.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Дальнейшие действия</td><td><ul><li>Реализуйте стратегию адаптированные в актуальном состоянии с помощью служб для получения наиболее для вашей организации.</li><li>Улучшения службы диск через жизненный цикл полного проекта, чтобы убедиться, что правильно рассмотрения их воздействие на развертывание.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Следующие шаги</td><td><ul><li>Реализуйте стратегию адаптированные в актуальном состоянии с помощью служб для получения наиболее для вашей организации.</li><li>Улучшения службы диск через жизненный цикл полного проекта, чтобы убедиться, что правильно рассмотрения их воздействие на развертывание.</li></ul></td></tr>
 </table>

@@ -1,8 +1,8 @@
 ---
 title: Представление ConferenceMessageCount
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
 description: Представление ConferenceMessageCount содержит сведения о количества сообщений — пользователя к конференции. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: f2290eef7d2738831ed3ce72c794a36659858b8b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ce94cd13637b70b87a92fd688ca8ce8aefd2c69e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213713"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901417"
 ---
 # <a name="conferencemessagecount-view"></a>Представление ConferenceMessageCount
  

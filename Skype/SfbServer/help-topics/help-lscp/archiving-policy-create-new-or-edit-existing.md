@@ -1,8 +1,8 @@
 ---
 title: Создание новой или редактирование существующей политики архивации
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 'Вы можете выбрать Управление архивацией внутренних и внешних коммуникаций в вашем развертывании для пользователей, которые размещаются на Скайп для Business Server политики архивирования. Политики архивирования включают глобальную политику и, дополнительно, одну или несколько политик сайтов и пользователей:'
-ms.openlocfilehash: 76dcc63ed6c08c0a8d11c79547b8a11f6b1e4b39
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3cb4aad48f56d7d947ec09b1efa71080e9426bc7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234840"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887260"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Политика архивирования: создание новой или редактирование существующей
  

@@ -1,8 +1,8 @@
 ---
 title: Страница публикации CMS выбора топологии
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: Опубликуйте топологию, которую вы настроили с помощью построителя топологий. Будет предложено выбрать из списка, в котором сервер переднего плана или интерфейсный пул примет на себя роль руку центрального хранилища управления. Только один сервер переднего плана или интерфейсный пул может содержать эта роль в любой момент времени.
-ms.openlocfilehash: 0c80fa30721fe47fc3bc4725ca4f50f8a75f7009
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e649629650bfa1fe168698984e3e8b0aaa5d2df4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201695"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888760"
 ---
 # <a name="publish-topology-select-cms-page"></a>Страница публикации CMS выбора топологии
  

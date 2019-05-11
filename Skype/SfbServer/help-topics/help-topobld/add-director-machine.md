@@ -1,8 +1,8 @@
 ---
 title: Добавление компьютера директора
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d51493a-1b7a-43ad-b562-49e45f899796
 description: Укажите полное доменное имя (FQDN) каждого компьютера, который требуется добавить в качестве директора в этом пуле. До публикации топологии можно в любой момент обновить полное доменное имя добавленного к списку компьютера или удалить его из пула. После публикации топологии для изменения полного доменного ИМЕНИ необходимо удаление сервера в построителе топологий, а затем добавляя новый сервер к пулу с новой полным доменным ИМЕНЕМ.
-ms.openlocfilehash: a3d3837a6d8ab1821a5ddece87a276ab516ddef8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 41f342f6c63707c094400ecb7a5712554628993a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881767"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886552"
 ---
 # <a name="add-director-machine"></a>Добавление компьютера директора
  

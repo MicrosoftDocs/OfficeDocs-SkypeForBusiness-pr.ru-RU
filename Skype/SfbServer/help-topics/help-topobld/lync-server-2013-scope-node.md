@@ -1,8 +1,8 @@
 ---
 title: Узел области применения Lync Server 2013
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 description: Действия, необходимые для определения нового VIS или видео шлюза в построителе топологий Интернет-версия описаны в разделе Создание пула VIS в Скайп для Business Server 2015.
-ms.openlocfilehash: 6fb141ee96ae755891393fd66837b7b4beb08c8e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9fb639982b094d4480dd7f7481f539d69f140440
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200105"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888522"
 ---
 # <a name="lync-server-2013-scope-node"></a>Узел области применения Lync Server 2013
  
