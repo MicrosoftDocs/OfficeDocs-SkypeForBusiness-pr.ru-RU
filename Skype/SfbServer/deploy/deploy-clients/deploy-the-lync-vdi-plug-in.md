@@ -1,7 +1,7 @@
 ---
 title: Развертывание подключаемого модуля VDI Lync с Скайп for Business Server
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.reviewer: krishra
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: В этом разделе рассматриваются процедуры развертывания для использования Скайп для бизнеса при подключении к удаленной виртуальных рабочих столов.
-ms.openlocfilehash: 792e6ab2521be2eaf46bc3a43979173d878fcb63
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 94539a263fb88f4c1306bbc87de665bf7d985fe1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219411"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895288"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Развертывание подключаемого модуля VDI Lync с Скайп for Business Server
  

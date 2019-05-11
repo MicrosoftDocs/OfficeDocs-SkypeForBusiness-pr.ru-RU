@@ -1,7 +1,7 @@
 ---
 title: Рекомендации по перемещению системы комнат Skype
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: Прочтите этот раздел, чтобы узнать о развертывании системы комнаты Скайп в среде, где имеется несколько версий Скайп для Business Server и Lync Server.
-ms.openlocfilehash: fef5e3e0a64fd1d533a53586b470584421a165ea
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f5e33c36b0c6a58d83f22e5c18f4de34ffb9d648
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219432"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895218"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Рекомендации по перемещению системы комнат Skype
  

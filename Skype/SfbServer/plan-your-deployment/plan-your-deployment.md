@@ -1,8 +1,8 @@
 ---
 title: Планирование развертывания Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/21/2018
 ms.audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: 'Сводка: Изучите эти ссылки на сведения о разработке понятий, логических и физических моделей для настройки Скайп для функции Business Server 2015, серверов и топологий.'
-ms.openlocfilehash: bc0df4bb1cf4c10b915c181f7f76c2586cf001be
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 86d1dbbb2c3da5543ed7ffeb3a30ae063dca5fb6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207792"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33923319"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>Планирование развертывания Skype для бизнеса Server 2015
  

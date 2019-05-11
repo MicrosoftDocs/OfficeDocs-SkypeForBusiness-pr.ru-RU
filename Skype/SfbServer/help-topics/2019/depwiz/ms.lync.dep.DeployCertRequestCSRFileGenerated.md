@@ -1,8 +1,8 @@
 ---
 title: Запрос сертификата (запрос подписи сертификата создан)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
 ROBOTS: NOINDEX, NOFOLLOW
 description: После завершения автономный запрос на сертификат, отображается страница файл запроса сертификата. Отображать запрос на сертификат и подготовить для отправки в вашей автономной центр сертификации (ЦС) или общедоступного центра сертификации, нажмите кнопку Просмотр. Запрос сертификата отображается в "Блокнот" Windows (по умолчанию). Скопируйте и вставьте запрос закодированный сертификата из этого списка или завершения обработки запроса на сертификат, выполнив указания из выбранную автономного центра сертификации или общедоступный центр сертификации. Нажмите кнопку Готово, чтобы продолжить.
-ms.openlocfilehash: 6bfb972cf2ccd79d5fd05ac89696862d6e8d2fcc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c1b592cb190ef364ecd5eabf6fa0779f7af06f2f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216335"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893884"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>Запрос сертификата (запрос подписи сертификата создан)
  

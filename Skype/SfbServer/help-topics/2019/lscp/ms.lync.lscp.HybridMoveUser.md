@@ -1,8 +1,8 @@
 ---
 title: Мастер гибридной переместить пользователя
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте мастер переместить пользователей для перемещения учетных записей пользователей, размещенных на пул локальной размещен в Скайп для бизнеса в Интернет. Дополнительные сведения см. в разделе Use the Hybrid Manageability wizard.
-ms.openlocfilehash: 006cb12ebaa7eeda32ee94d201ed9f6ee1e2fdb6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b317d7ba395cb70e456fd4f542431bb2eaa563cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215586"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891497"
 ---
 # <a name="hybrid-wizard-move-user"></a>Мастер гибридной среды: перемещение пользователя
 

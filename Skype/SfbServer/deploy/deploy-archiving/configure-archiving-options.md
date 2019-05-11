@@ -1,8 +1,8 @@
 ---
 title: Настройка параметров архивации для Скайп для Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 'Сводка: Сведения в этой статье описывается настройка начальной параметров архивации для Скайп для Business Server. Изначально Настройка конфигураций архивации при развертывании архивации, но можно изменять, добавлять и удалять конфигурации после развертывания.'
-ms.openlocfilehash: 80501c01c4e05e0578685b42f8fb83b7faed6c59
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 58dd94cb5d42e3d0dabb845acbb5b72e7e90d8bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236140"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895927"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>Настройка параметров архивации для Скайп для Business Server
  

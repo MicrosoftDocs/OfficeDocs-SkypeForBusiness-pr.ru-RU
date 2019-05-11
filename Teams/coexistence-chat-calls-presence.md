@@ -1,7 +1,7 @@
 ---
 title: Сосуществование со Skype для бизнеса
-author: jambirk
-ms.author: francoid
+author: kenwith
+ms.author: kenwith
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: В этом документе описываются поведение чата, маршрутизации вызовов и сведения о присутствии между пользователями рабочих групп и Скайп для бизнеса в клиента и федеративных, назначенный режимы TeamsUpgrade на основании. Оно включает в себя маршрутизации оптимизация, поведение сведения о присутствии, а также изменить режим по умолчанию TeamsUpgrade из *прежних версий* для *острова* и предстоящих пенсионного обеспечения из *прежних версий*.
-ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3c88bd93805e6c2a33eb2f5c03ee04d4e7d55535
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198786"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929107"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Сосуществование со Skype для бизнеса
 

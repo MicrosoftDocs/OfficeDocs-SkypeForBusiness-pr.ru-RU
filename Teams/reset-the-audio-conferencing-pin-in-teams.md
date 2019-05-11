@@ -1,6 +1,6 @@
 ---
 title: Сброс ПИН-кода аудиоконференций в Microsoft Teams
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о ПИН-кодах и их сбросе в Microsoft Teams. '
-ms.openlocfilehash: 7fe1ae3487caf9433b8f41753f6af9584a7d7f4d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 56ea27ddf535f7ce23d5a25415b0a5921cfb2d6e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206596"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912305"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Сброс ПИН-кода аудиоконференций в Microsoft Teams
 

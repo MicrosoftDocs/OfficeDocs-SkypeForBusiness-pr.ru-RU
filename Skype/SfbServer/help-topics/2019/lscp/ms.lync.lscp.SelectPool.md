@@ -1,8 +1,8 @@
 ---
 title: Выбор службы
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно Выбор службы для поиска служб, которые доступны в вашей среде. Чтобы использовать существующую службу, выберите службу в списке, а затем нажмите кнопку ОК.
-ms.openlocfilehash: 0482dd0832d76d1b0e56c7aa978073e514b62090
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c858e7024e08613fd812b4ee412a95315cd8316b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215096"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891098"
 ---
 # <a name="select-a-service"></a>Выбор службы
 

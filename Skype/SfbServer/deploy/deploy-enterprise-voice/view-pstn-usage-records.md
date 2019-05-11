@@ -1,8 +1,8 @@
 ---
 title: Просмотр записей использования ТСОП в Скайп для бизнеса
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Сводка: Узнайте, как для просмотра записей использования ТСОП Скайп для или с помощью панели управления сервера Business Скайп для консоли Business Server.'
-ms.openlocfilehash: ee3260c79da4619e6093f5e4eff3f98d697b3c19
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 933f20754aff5d8e8c9032cee02693e685130078
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222550"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892260"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Просмотр записей использования ТСОП в Скайп для бизнеса
 

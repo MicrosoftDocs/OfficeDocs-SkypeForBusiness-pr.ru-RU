@@ -1,8 +1,8 @@
 ---
 title: IP Version (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 ROBOTS: NOINDEX, NOFOLLOW
 description: У вас есть три варианта при настройке IP-адресов в Скайп для Business Server. Можно настроить Скайп для Business Server для поддержки только протокола IP версии 4 (IPv4), только протокола IP версии 6 (IPv6), или их сочетание (известную как двойного стека).
-ms.openlocfilehash: 8b2c83d749dbbcbf6ef171020d625c564258e047
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 785bec9f1333e8daaf26ec708d7802630e2abb7f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221090"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889376"
 ---
 # <a name="ip-version-planning-tool"></a>IP Version (Planning Tool)
  

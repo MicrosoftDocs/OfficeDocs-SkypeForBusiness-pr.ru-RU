@@ -1,8 +1,8 @@
 ---
 title: Запуск служб (вызов)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 description: Области сводки в области выполнения команд состояние задачи, выдается для запуска служб для Скайп для Business Server 2015 роли сервера, который развертывает администратор. В сводной информации в области задач не отображается запуск служб в реальном времени. Некоторые Скайп для служб Business Server может занять длительное время, чтобы начать процесс начальной загрузки. В процессе выполнения задач вызывается команда запуска, но этот процесс не приостанавливается для проверки успешности запуска службы. Если необходимо отслеживать запуск службы и ее состояние, следует пользоваться консолью управления (MMC) для служб Windows.
-ms.openlocfilehash: 48d94dabe5e584fed8bc10b7e7b19efd5b068a1c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d2b4f615b8654609192b0612dafe4dd57a079a6b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201155"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925111"
 ---
 # <a name="start-services-invoke"></a>Запуск служб (вызов)
  

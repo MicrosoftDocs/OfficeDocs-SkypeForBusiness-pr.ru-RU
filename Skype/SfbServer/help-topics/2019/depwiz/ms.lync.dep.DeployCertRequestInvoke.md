@@ -1,8 +1,8 @@
 ---
 title: Запрос сертификата (вызов)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице выполнение команд отображается состояние области задач как команды, выполненные для создания запроса на сертификат. После завершения задач, в раскрывающемся списке области сводки содержит список файлов журнала. Раскрывающемся списке выберите файл журнала, чтобы просмотреть и нажмите кнопку Просмотреть журнал. Запустите Internet Explorer и отображения файла журнала. В случае сбоя запроса просмотрите файлы журнала, чтобы определить причину ошибки. Можно повторно выполнить запрос на сертификат, чтобы решить эту проблему, устранении ошибки, указанных в файле журнала. Тем не менее продолжить страницы запроса сертификата и запросить сертификат еще раз.
-ms.openlocfilehash: 842e752675d9f4d0cd027d6cff2792404c4bc4e4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 17fbd2f83f56bda5c261c4bf3b9a31c7bebdb899
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216349"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893863"
 ---
 # <a name="certificate-request-invoke"></a>Запрос сертификата (вызов)
  

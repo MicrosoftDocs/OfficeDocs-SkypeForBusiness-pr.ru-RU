@@ -1,8 +1,8 @@
 ---
 title: Подготовка схемы (введение)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 description: Чтобы начать задачу для расширения схемы для Скайп для Business Server 2015, сначала на странице подготовки схемы. Нажмите кнопку Далее, чтобы продолжить подготовку схемы.
-ms.openlocfilehash: 7454e82fac3c2af03d640d499feeaf54dcdf38f7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 67be60cabf989216ac699d4cec8243267e333843
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234942"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888291"
 ---
 # <a name="prepare-schema-intro"></a>Подготовка схемы (введение)
  

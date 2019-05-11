@@ -1,7 +1,7 @@
 ---
 title: Контрольный список по освоению для настройки прямой маршрутизации в Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd5badad4051072ff9a52a013f5701501ed8744d
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: a69b71c4b55987b9495ebef149e8057fa6340775
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401901"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902865"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Настройка маршрутизации прямой в группах Майкрософт
 
@@ -45,7 +45,7 @@ ms.locfileid: "33401901"
 |15|Подготовка и выполнения пользовательского приемочного тестирования|Подготовка и выполнения пользовательского приемочного тестирования, включая сценарии-связь и подключение по телефонной линии.||[Test облачных голосовой связи и рабочих нагрузок в группах](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service#test-cloud-voice-workloads-in-teams)|
 |16|Отчет об использовании, работоспособности, успеха ключевых индикаторов (KSIs) и качества|Отчет о об использовании, работоспособности, KSIs и качества, как они были определены на этапе Предвидения.||[Руководство по работе](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)|
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После завершения этот контрольный список, будет успешно настроен прямой маршрутизации с помощью команды развертывания.
 
