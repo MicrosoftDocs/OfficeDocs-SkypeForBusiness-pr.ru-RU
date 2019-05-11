@@ -1,8 +1,8 @@
 ---
 title: Настройка сетевого сайта Создание новой или редактирование существующей
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 13d24593909a77888c793cff2199b18019a6efcc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 22e930a07cb18ed00401de199867d331c4a46d63
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200821"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914002"
 ---
-# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="15405-104">Настройка сетевого сайта: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="15405-104">Configure a Network Site: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="11460-104">Настройка сетевого сайта: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="11460-104">Configure a Network Site: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="15405-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="15405-105">What do you want to do?</span></span> <span data-ttu-id="15405-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="15405-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="11460-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="11460-105">What do you want to do?</span></span> <span data-ttu-id="11460-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="11460-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="15405-107">Настройка сетевых сайтов</span><span class="sxs-lookup"><span data-stu-id="15405-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="11460-107">Настройка сетевых сайтов</span><span class="sxs-lookup"><span data-stu-id="11460-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
-<span data-ttu-id="15405-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="15405-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="11460-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="11460-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

@@ -1,8 +1,8 @@
 ---
 title: Подготовка схемы (вызов)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 description: 'На странице выполнение команд отображается сводка команды, которые выдаются для расширения схемы для Скайп для Business Server 2015. По завершении задач на панели сводки указывается, успешно ли завершилась задача или же с ошибкой. Просмотрите сводный экран и убедитесь, что на панели сводки указана запись Состояние задачи: Завершено. В раскрывающемся списке под панелью сводки можно выбрать файл журнала "Подготовка схемы". Для просмотра файла журнала нажмите кнопку Просмотреть журнал. Если во время подготовки схемы возникают ошибки, эти ошибки, обнаруженные задачей, записываются в журнал. Вы затем можете попытаться исправить ошибки и снова выполнить подготовку схемы.'
-ms.openlocfilehash: 8af03b8c0919d3b4ada9dc02f4afd31bd214ace3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 61bef5718fb60fd77e8914bb4ac1928b1ebf4d21
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201274"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924880"
 ---
-# <a name="prepare-schema-invoke"></a><span data-ttu-id="3498a-109">Подготовка схемы (вызов)</span><span class="sxs-lookup"><span data-stu-id="3498a-109">Prepare Schema (Invoke)</span></span>
+# <a name="prepare-schema-invoke"></a><span data-ttu-id="4d068-109">Подготовка схемы (вызов)</span><span class="sxs-lookup"><span data-stu-id="4d068-109">Prepare Schema (Invoke)</span></span>
  
-<span data-ttu-id="3498a-110">На странице **Выполнение команд** отображается сводка команды, которые выдаются для расширения схемы для Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="3498a-110">The **Executing Commands** page displays a summary of the commands that are issued to extend the schema for Skype for Business Server 2015.</span></span> <span data-ttu-id="3498a-111">По завершении задач на панели сводки указывается, успешно ли завершилась задача или же с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="3498a-111">When the tasks are complete, the summary pane will indicate if the tasks were successful or if they failed.</span></span> <span data-ttu-id="3498a-112">Просмотрите сводный экран и убедитесь, что на панели сводки указана запись **Состояние задачи: Завершено**.</span><span class="sxs-lookup"><span data-stu-id="3498a-112">Review the summary screen, and make sure that **Task status: Completed** is displayed under the summary pane.</span></span> <span data-ttu-id="3498a-113">В раскрывающемся списке под панелью сводки можно выбрать файл журнала "Подготовка схемы".</span><span class="sxs-lookup"><span data-stu-id="3498a-113">The drop-down list under the summary pane enables you to select and view the log file, Prepare Schema.</span></span> <span data-ttu-id="3498a-114">Для просмотра файла журнала нажмите кнопку **Просмотреть журнал**.</span><span class="sxs-lookup"><span data-stu-id="3498a-114">Click **View Log** to review the log file.</span></span> <span data-ttu-id="3498a-115">Если во время подготовки схемы возникают ошибки, эти ошибки, обнаруженные задачей, записываются в журнал.</span><span class="sxs-lookup"><span data-stu-id="3498a-115">If you received errors during the schema preparation, the errors that the task encountered are logged here.</span></span> <span data-ttu-id="3498a-116">Вы затем можете попытаться исправить ошибки и снова выполнить подготовку схемы.</span><span class="sxs-lookup"><span data-stu-id="3498a-116">You can then take action to correct any error and re-run the schema preparation.</span></span>
+<span data-ttu-id="4d068-110">На странице **Выполнение команд** отображается сводка команды, которые выдаются для расширения схемы для Скайп для Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="4d068-110">The **Executing Commands** page displays a summary of the commands that are issued to extend the schema for Skype for Business Server 2015.</span></span> <span data-ttu-id="4d068-111">По завершении задач на панели сводки указывается, успешно ли завершилась задача или же с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="4d068-111">When the tasks are complete, the summary pane will indicate if the tasks were successful or if they failed.</span></span> <span data-ttu-id="4d068-112">Просмотрите сводный экран и убедитесь, что на панели сводки указана запись **Состояние задачи: Завершено**.</span><span class="sxs-lookup"><span data-stu-id="4d068-112">Review the summary screen, and make sure that **Task status: Completed** is displayed under the summary pane.</span></span> <span data-ttu-id="4d068-113">В раскрывающемся списке под панелью сводки можно выбрать файл журнала "Подготовка схемы".</span><span class="sxs-lookup"><span data-stu-id="4d068-113">The drop-down list under the summary pane enables you to select and view the log file, Prepare Schema.</span></span> <span data-ttu-id="4d068-114">Для просмотра файла журнала нажмите кнопку **Просмотреть журнал**.</span><span class="sxs-lookup"><span data-stu-id="4d068-114">Click **View Log** to review the log file.</span></span> <span data-ttu-id="4d068-115">Если во время подготовки схемы возникают ошибки, эти ошибки, обнаруженные задачей, записываются в журнал.</span><span class="sxs-lookup"><span data-stu-id="4d068-115">If you received errors during the schema preparation, the errors that the task encountered are logged here.</span></span> <span data-ttu-id="4d068-116">Вы затем можете попытаться исправить ошибки и снова выполнить подготовку схемы.</span><span class="sxs-lookup"><span data-stu-id="4d068-116">You can then take action to correct any error and re-run the schema preparation.</span></span>
   
-<span data-ttu-id="3498a-117">Чтобы завершить задачу, нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="3498a-117">Click **Finish** to complete the task.</span></span>
+<span data-ttu-id="4d068-117">Чтобы завершить задачу, нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="4d068-117">Click **Finish** to complete the task.</span></span>
   
 
