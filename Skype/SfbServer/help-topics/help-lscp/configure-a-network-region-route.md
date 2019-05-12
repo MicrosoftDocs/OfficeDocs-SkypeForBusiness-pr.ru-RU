@@ -1,8 +1,8 @@
 ---
 title: Настройка маршрута области сети
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 60981e1afd6c6e70f3574206fdb8f7b88dae7bde
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cb309ad34d8264239823524d071576107c558018
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200822"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902280"
 ---
-# <a name="configure-a-network-region-route"></a><span data-ttu-id="abb5a-104">Настройка маршрута области сети</span><span class="sxs-lookup"><span data-stu-id="abb5a-104">Configure a Network Region Route</span></span>
+# <a name="configure-a-network-region-route"></a><span data-ttu-id="bb4c7-104">Настройка маршрута области сети</span><span class="sxs-lookup"><span data-stu-id="bb4c7-104">Configure a Network Region Route</span></span>
 
-<span data-ttu-id="abb5a-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="abb5a-105">What do you want to do?</span></span> <span data-ttu-id="abb5a-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="abb5a-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="bb4c7-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="bb4c7-105">What do you want to do?</span></span> <span data-ttu-id="bb4c7-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="bb4c7-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="abb5a-107">Настройка маршрутов между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="abb5a-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+- [<span data-ttu-id="bb4c7-107">Настройка маршрутов между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="bb4c7-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
 
-<span data-ttu-id="abb5a-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="abb5a-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="bb4c7-108">Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="bb4c7-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
