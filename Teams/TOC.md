@@ -599,8 +599,9 @@
 ### [Прекращение поддержки Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [В Microsoft Teams вскоре появятся возможности для сотрудников без компьютеров](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Установка модуля Microsoft StaffHub PowerShell](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [Перемещение групп Microsoft StaffHub в приложение Shifts в Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Управление приложением Shifts для организации в Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Запуск отчета для отображения активного использования StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
+### [Перемещение групп Microsoft StaffHub в приложение "Смены" в Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Управление приложением "Смены" для организации в Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [Teams для сферы здравоохранения](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
 ### [Начало работы с Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/teams-in-hc.md)
@@ -663,6 +664,7 @@
 ### [URL-адреса и диапазоны IP-адресов Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams для инфраструктуры виртуальных рабочих столов (VDI)](teams-for-vdi.md)
 ### [Развертывание Teams для Surface Hub](teams-surface-hub.md)
+### [Процесс обновления клиента Teams](teams-client-update.md)
 
 ## Лицензирование
 ### [Управление доступом пользователей к Teams](user-access.md)
