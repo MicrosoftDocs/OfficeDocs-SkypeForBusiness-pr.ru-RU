@@ -1,8 +1,8 @@
 ---
 title: Компоненты и топологии для контроля допуска звонков в Скайп для бизнеса
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Планирование отчета по контролю допуска звонков (CAC) при наличии сети MPLS, магистрали SIP или шлюза ТСОП или УАТС. Применяется к Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 7022ade98dbd614023a4faaea283b939fa658e73
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a727805cb298a7ba4059c47990a57e2552a3e55
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207954"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925294"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Компоненты и топологии для контроля допуска звонков в Скайп для бизнеса
 

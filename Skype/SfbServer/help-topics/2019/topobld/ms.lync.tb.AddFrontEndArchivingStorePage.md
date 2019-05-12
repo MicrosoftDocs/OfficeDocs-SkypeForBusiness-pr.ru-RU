@@ -1,8 +1,8 @@
 ---
 title: Добавление хранилища архивации переднего плана
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Архивация требует с поддерживаемой 64-разрядной версией программного обеспечения баз данных Microsoft SQL Server для хранения архивных данных. Можно выбрать ранее заданных базы данных SQL Server, которое будет использоваться для архивации, или определите новую базу данных SQL Server, указав полное доменное имя (FQDN) сервера, на котором размещаются в дополнение к экземпляру SQL Se базы данных SQL Server на сервере, который вы хотите использовать для новой базы данных SQL Server (который может быть экземпляр по умолчанию или именованный экземпляр, который указан).
-ms.openlocfilehash: e43d7de6598a24306cc9622f24bea0b2b7e7cc25
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 83964daddb7319c99399f0a8fd4bf82cdaf62db9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202091"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906741"
 ---
 # <a name="add-front-end-archiving-store"></a>Добавление хранилища архивации переднего плана
 

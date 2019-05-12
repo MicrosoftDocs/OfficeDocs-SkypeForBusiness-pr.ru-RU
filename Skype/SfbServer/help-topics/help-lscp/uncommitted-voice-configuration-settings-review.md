@@ -1,8 +1,8 @@
 ---
 title: Просмотр параметров конфигурации незафиксированные голосовой связи
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 description: Используйте диалоговое окно незафиксированные параметры конфигурации голосовой связи, чтобы просмотреть все изменения, внесенные. Прокрутите диалоговое окно, чтобы просмотреть все несохраненные изменения, или нажмите стрелки, чтобы развернуть или свернуть различные разделы. Завершив настройку, нажмите кнопку Закрыть. Закройте это диалоговое окно, можно изменить изменения или их подтверждения.
-ms.openlocfilehash: e7acfdb6dc73998713c02dacf75c9fadce274ae7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 64c3a8c0e262259abb66cf7186177d22c26f2278
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220030"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912241"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>Незафиксированные параметры конфигурации голосовой связи: просмотр
  

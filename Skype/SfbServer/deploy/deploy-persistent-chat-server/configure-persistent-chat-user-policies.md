@@ -1,8 +1,8 @@
 ---
 title: Настройка пользовательских политик сохраняемого чата в Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Сводка: Прочтите этот раздел, чтобы узнать, как создание начальной пользовательских политик для сервера сохраняемого чата в Скайп для Business Server 2015. Persistent Chat user policies determine whether or not users are allowed access to chat rooms.'
-ms.openlocfilehash: e082898d92e622827e2543316b07a8be224c56c3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 84bc1236bf8fd08063f55c9a0c3b0d63ff4eb280
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225457"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894509"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Настройка пользовательских политик сохраняемого чата в Skype для бизнеса Server 2015
  

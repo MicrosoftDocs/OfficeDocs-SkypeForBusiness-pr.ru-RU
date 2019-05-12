@@ -1,8 +1,8 @@
 ---
 title: Использовать двухфакторной проверки подлинности с помощью Скайп для бизнеса клиентов и Скайп для Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Сводка: Используйте двухфакторной проверки подлинности с помощью Скайп для Business Server и Скайп для бизнеса.'
-ms.openlocfilehash: 0c66808f22655e3f78a23930adc84dcbc31af6bb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: c1d67682f229a22f4674e5643ccf8d3a99a59f68
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894204"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919460"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Использовать двухфакторной проверки подлинности с помощью Скайп для бизнеса клиентов и Скайп для Business Server
  
@@ -88,9 +88,9 @@ ms.locfileid: "30894204"
     
 7. Теперь вы увидите страница с именем станции регистрации смарт-карт. Согласитесь на установку элемента ActiveX и заполните форму расширенного запроса сертификата, указав приведенные ниже данные.
     
-    а. В раскрывающемся списке **Шаблон сертификата** выберите **Пользователь смарт-карты**.
+    a) В раскрывающемся списке **Шаблон сертификата** выберите **Пользователь смарт-карты**.
     
-    б. Выберите **Создать новый набор ключей**.
+    б) Выберите **Создать новый набор ключей**.
     
     в. Найдите сведения об изготовителе на этикетке смарт-карты и выберите этого изготовителя в раскрывающемся списке **Поставщик служб шифрования**.
     

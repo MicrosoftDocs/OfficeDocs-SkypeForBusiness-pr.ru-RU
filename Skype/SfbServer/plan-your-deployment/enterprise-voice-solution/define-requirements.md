@@ -1,8 +1,8 @@
 ---
 title: Определение требований для экстренных вызовов в Скайп для Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: Представлены действия, необходимые для включения E9-1-1 в Скайп Business Server корпоративной голосовой связи, в зависимости от того, есть ли у поставщика услуг E9-1-1 магистрали SIP или шлюз ELIN.
-ms.openlocfilehash: 3ddcb25b86689f29831872f24a1893d5ff2f1f4c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f7a7d34339cb16851705712ef7911194cde1b9f1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206980"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925161"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Определение требований для экстренных вызовов в Скайп для Business Server
  

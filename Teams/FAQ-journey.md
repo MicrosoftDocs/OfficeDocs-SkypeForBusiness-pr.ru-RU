@@ -1,7 +1,7 @@
 ---
 title: Вопросы и ответы по Microsoft Teams | Возможности собраний, конференц-связи и звонков
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 069c7f067ee1d408ad92cb980d81b807bce0d880
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19aa57453227edf366ea663b4d9fee01c6d8ed12
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180590"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868698"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 
@@ -202,7 +202,7 @@ Yes. The upgrade notification will simply alert users that Skype for Business wi
 
 ### <a name="whats-planned-for-new-management-experiences"></a>Появятся ли какие-то новые функции управления?
 
-Корпорация Майкрософт создала [Центр администрирования Microsoft Teams](https://admin.teams.microsoft.com/) для ИТ-специалистов, работающих в Центре администрирования Office 365. Как и консоль администратора Skype для бизнеса, этот новый портал будет выступать в качестве единого ресурса для администрирования новых функций. Первоначальный выпуск портала, запланированный на первый квартал 2018 года, обеспечивает поддержку администрирования посредством корпоративной модели политик для клиентов, использующих только Teams, а также заменяет собой существующий интерфейс администрирования Teams. Этот портал позволит нам реализовать настраиваемые политики присутствия, чатов, приложений, собраний и голосовой связи и назначать эти политики пользователям Teams.
+Корпорация Майкрософт создала [Центр администрирования Microsoft Teams](https://admin.teams.microsoft.com/) для ИТ-специалистов, работающих в Центре администрирования Microsoft 365. Как и консоль администратора Skype для бизнеса, этот новый портал будет выступать в качестве единого ресурса для администрирования новых функций. Первоначальный выпуск портала, запланированный на первый квартал 2018 года, обеспечивает поддержку администрирования посредством корпоративной модели политик для клиентов, использующих только Teams, а также заменяет собой существующий интерфейс администрирования Teams. Этот портал позволит нам реализовать настраиваемые политики присутствия, чатов, приложений, собраний и голосовой связи и назначать эти политики пользователям Teams.
 
 ## <a name="device-compatibility"></a>Совместимость устройств
 

@@ -1,8 +1,8 @@
 ---
 title: Добавление машины A/V MCU
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 56f6f46e-7482-45dc-87dc-c2b30e3ec67f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Укажите полное доменное имя (FQDN) каждого компьютера, который вы хотите добавить как A / V Server конференц-связи в A / пула аудио-и видеоконференциями. До публикации топологии можно в любой момент обновить полное доменное имя добавленного к списку компьютера или удалить его из пула. После публикации топологии для изменения полного доменного ИМЕНИ необходимо удаление сервера в построителе топологий, а затем добавляя новый сервер к пулу с новой полным доменным ИМЕНЕМ.
-ms.openlocfilehash: ae7fed78d40d0bb4f94b761e30ed0c500e24f2d5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 51c70f590173b28fd1cc4ead9a95ed391630e7ef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202291"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889348"
 ---
 # <a name="add-av-mcu-machine"></a>Добавление машины A/V MCU
  

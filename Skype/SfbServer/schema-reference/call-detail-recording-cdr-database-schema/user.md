@@ -1,8 +1,8 @@
 ---
 title: Представление пользователя
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: Представление пользователя хранятся сведения о пользователях, которые не связаны звонков или сеансах с записями в базе данных. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: 9e631c101660e8f14bca25f019f5d991a0d9aadd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f4e255f2de8dd087308ee46c64ef301cc0e9d390
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213181"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930080"
 ---
 # <a name="user-view"></a>Представление пользователя
  

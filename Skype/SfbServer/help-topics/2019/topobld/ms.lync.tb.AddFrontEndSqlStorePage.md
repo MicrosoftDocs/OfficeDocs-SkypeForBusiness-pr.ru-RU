@@ -1,8 +1,8 @@
 ---
 title: Добавление хранилища SQL Server для сервера переднего плана
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Развертывание сервера Standard Edition автоматически устанавливает требуется Microsoft SQL Server Express программное обеспечение баз данных и базы данных SQL Server. Таким образом предварительно все параметры, а не удается внести изменения в конфигурацию по умолчанию.
-ms.openlocfilehash: 5424325431867d6e7c2d1991f4a3152c89ac5ca1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f90ab8c9fec5149064c2a8b446f6bf21aaba200f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202056"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888956"
 ---
 # <a name="add-front-end-sql-server-store"></a>Добавление хранилища SQL Server для сервера переднего плана
 

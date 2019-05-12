@@ -1,9 +1,10 @@
 ---
 title: Skype for Business Server 2015 Stress and Performance Tool
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 4/6/2016
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: Скайп для Business Server 2015 Stress and Performance Tool используется при планировании мощности и производительности, помощник по настройке в тестовой или тестовой среды.
-ms.openlocfilehash: 801a18b4c2cb31cad52cf2d57a661361788844f0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 7705e92c8389e0377e805bd7d8e09aee454d9160
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875027"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33904575"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool
  
@@ -53,7 +54,7 @@ Stress and Performance Tool можно смоделировать эти тип�
 
 Эти приложения являются частью Скайп для Business Server Stress and Performance Tool:
   
-|**Средство**|**Описание**.|
+|**Средство**|**Описание**|
 |:-----|:-----|
 |UserProvisioningTool.exe  <br/> |Это средство используется для создания пользователей и контактов.  <br/> |
 |UserProfileGenerator.exe  <br/> |Используется для настройки характеристики нагрузки, в случае моделирования.  <br/> |

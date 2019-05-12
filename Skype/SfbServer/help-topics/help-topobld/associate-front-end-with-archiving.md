@@ -1,8 +1,8 @@
 ---
 title: Связывание сервера переднего плана с архивированием
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 description: Каждый пул переднего плана и обеспечения связи в филиалах может быть только один сервер архивации, связанное с ним. При включении архивации для сайта, затем собирает сервера архивации и записей мгновенного обмена сообщениями содержимое сообщения обмена Мгновенными сообщениями и веб-конференции контент из бесед, включающие использование пользователей, размещенных на связанный пулов и обеспечения связи в филиалах.
-ms.openlocfilehash: c603187e58f8a47d74f20581b666381f7db588ff
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 56316a8a7d030bae61814673a86c9c07d7031004
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227426"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925069"
 ---
 # <a name="associate-front-end-with-archiving"></a>Связывание сервера переднего плана с архивированием
  
