@@ -1,8 +1,8 @@
 ---
 title: Требования к среде Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/15/2018
 ms.audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Сводка: Настройка серверных требований для Скайп для Business Server 2015. Перед развертыванием вам потребуется настроить множество компонентов, включая Active Directory, DNS, сертификаты и файловые ресурсы.'
-ms.openlocfilehash: a75301a6f6f26ac933841ead0192d707d0647897
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 71916081a9ea138d22f41fd4f2813834a74e941b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207806"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33909080"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  

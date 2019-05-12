@@ -1,8 +1,8 @@
 ---
 title: Настройка свойств учетной записи пользователя для Скайп для Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Для изменения свойств учетной записи отдельного пользователя, можно использовать процедуры, описанные в этом разделе.
-ms.openlocfilehash: 5162cb187538b5288f13f25beae96f3775faa594
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1f2039180a2bfa44b3379f7cf6bf095e2d0a7c14
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214837"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911835"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Настройка свойств учетной записи пользователя для Скайп для Business Server
  
