@@ -1,8 +1,8 @@
 ---
 title: Импорт сертификата (введение)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: Чтобы импортировать сертификат, необходимо указать путь к файлу сертификата. В текстовом поле Выбор сертификата файла можно либо введите полный путь и имя файла или нажмите кнопку Обзор и перейдите в расположение путь и имя файла (как правило, .p7b, PFX-файл или CER-файл).
-ms.openlocfilehash: 5006fa68b4b19fe312d92a3dc641f1ab61638e72
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2fb6d45730ee04c07d2feee986aa3f60bf1561ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234999"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924362"
 ---
 # <a name="import-certificate-intro"></a>Импорт сертификата (введение)
  

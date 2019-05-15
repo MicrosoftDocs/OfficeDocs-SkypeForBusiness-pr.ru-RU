@@ -1,8 +1,8 @@
 ---
 title: Документация по инструментам Skype для бизнеса Server 2015 Resource Kit
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 1/20/2017
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: В этом разделе описываются средства в Скайп Business Server 2015 для набора ресурсов для, включая назначение каждого средства и примеры его использования. Скайп для набора ресурсов 2015 Business Server позволяет упростить выполнять рутинные задачи для ИТ-администраторам, развертывания и управления Скайп для Business Server 2015. Например, инструмент Web Conf Data упрощает управление данными, которые отправляют пользователи во время собрания по сети. А при помощи SEFAUtil можно настроить переадресацию звонков делегатам и ответ на них для пользователей. Мы рекомендуем использовать эти средства для более эффективного управления Скайп для Business Server 2015 ИТ-администраторов.
-ms.openlocfilehash: 730ba434a70f49b01b70aaf0d9f1ac889bd2ba75
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e6ff130d403c83a898c2598dc9971079cb912d56
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879863"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906629"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Документация по инструментам Skype для бизнеса Server 2015 Resource Kit
 

@@ -1,7 +1,7 @@
 ---
 title: Развертывание комнат группами Майкрософт с использованием System Center Configuration Manager
-author: jambirk
-ms.author: jambirk
+author: lanachin
+ms.author: v-lanac
 ms.reviewer: Turgayo
 manager: serdars
 ms.date: 5/10/2018
@@ -13,12 +13,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: В данном разделе приведены сведения о развертывании комнат группами Майкрософт в крупномасштабного развертывания в среде.
-ms.openlocfilehash: f8770a98cb08e33676f7079aa1a60743ea68b1dd
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: ac016ff8a31ce9272c5766e1a994aeb7c0e9301f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362997"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916338"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Развертывание комнат группами Майкрософт с использованием System Center Configuration Manager
 

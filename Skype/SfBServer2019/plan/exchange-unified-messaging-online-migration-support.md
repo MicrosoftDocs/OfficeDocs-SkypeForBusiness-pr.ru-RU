@@ -1,7 +1,7 @@
 ---
 title: Поддержка сетевой единой системы обмена сообщениями Exchange
 ms.author: heidip
-author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: waseemh, dstrome, balinger
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft закончится единой системы обмена сообщениями службу Exchange Online (ExchUMO) с февраля 2020 г. В этой статье представлено влияет на то, что клиенты должны знать и выполните спланировать их непрерывность ведения бизнеса.
-ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: e7bb1f7f73406f6585cac7b95f98b57c48d9ab40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914679"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911405"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Поддержка сетевой единой системы обмена сообщениями Exchange  
 

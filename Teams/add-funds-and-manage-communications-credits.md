@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Узнайте, как оплачиваться для обмена данными кредитов (потребление PSTN) Скайп для бизнес-служб и посмотрите, планы для хранения пользователей с доступом к непрерывной телефонной системы. '
-ms.openlocfilehash: 0305e432534188f0dd8276fb29c9c764cc26bfeb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aceb1fab6cfffeaca174c156b1f54ffd9bcd09bb
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231808"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970286"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Пополнение средств и управление кредитами на связь
 
@@ -76,7 +76,7 @@ ms.locfileid: "32231808"
     
 - [Планы телефонной системой](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Чтобы просмотреть дополнительную информацию, [войдите в центр администрирования Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и выберите **Выставление счетов** > **Подписки** > **Добавить подписки**.
+Можно также просмотреть информацию выполнив [Вход в центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и переход на **выставление счетов** > **подписки** > **Добавить подписки**.
   
 Таблица с лицензии или лицензий, необходимых для каждого компонента, см [лицензирования дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

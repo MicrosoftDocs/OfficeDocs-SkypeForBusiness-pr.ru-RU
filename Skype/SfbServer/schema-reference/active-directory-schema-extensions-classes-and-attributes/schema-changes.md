@@ -1,8 +1,8 @@
 ---
 title: Изменения схемы в Скайп для Business Server
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Прежде чем развертывать и использование Скайп для Business Server, необходимо подготовить доменных служб Active Directory путем расширения схемы. Расширения схемы добавьте классы и атрибуты, которые необходимы Скайп для Business Server.
-ms.openlocfilehash: ba76f57197e9cd812163c8abac5f51005933eace
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5b6c3f036b1bc194331c721ea2d45564f0827d1c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213356"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924845"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Изменения схемы в Скайп для Business Server
  

@@ -1,8 +1,8 @@
 ---
 title: Таблица MediaLine
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Каждая запись представляет одну строку мультимедиа. (Один аудиосеанса обычно содержит одну строку аудио. Один аудио- и видеоконференций (A / V) сеанса обычно содержит одну строку аудио и одну строку видео, несмотря на то, что сеанс может содержать две строки видео, при использовании устройства конференц-связи или при использовании представления галереи.
-ms.openlocfilehash: 11c309091211ce0bc480fa032e0f1dbbbbf533cd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 42c770486c3b2b457e1715dfa5c5a5b028022f26
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212546"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920147"
 ---
 # <a name="medialine-table"></a>Таблица MediaLine
  

@@ -1,8 +1,8 @@
 ---
 title: Выбор префикса гиперссылок
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Используйте диалоговое окно Выбор префикса гиперссылок чтобы выбрать типы гиперссылки, которые необходимо заблокировать, отправлять предупреждение или разрешить, установив (для блокировки или отправлять предупреждение) или сняв (Разрешить) флажки для их расширения из категорий в разделе Префиксы гиперссылок. Щелкните стрелку, чтобы развернуть категорию и просмотреть все префиксы гиперссылок для этой категории. Если вы хотите выделить все префиксы гиперссылок для категории, выберите имя категории.
-ms.openlocfilehash: d0811bab0d7e44e7e7fb2fec116b9aa65a78a530
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 752112ee5af16079dfd15b9714e54e931e9ac965
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220124"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924621"
 ---
 # <a name="select-hyperlink-prefix"></a>Выбор префикса гиперссылок
  

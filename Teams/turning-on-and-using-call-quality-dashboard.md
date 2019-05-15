@@ -3,7 +3,7 @@ title: Включение и использование панели монит�
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, siunies, gageames
+ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Узнайте, как включить и использовать Скайп для панели мониторинга качества Online вызовов бизнес и получить сводные отчеты о качестве вызовов. '
-ms.openlocfilehash: bfbca275afb6da9dbe0f809906e6053f87e960e8
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 51e49d786f421777116e5c1d28ff8fcb7a11bcc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401800"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920463"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для групп Майкрософт и Скайп для бизнеса в Интернет
 
