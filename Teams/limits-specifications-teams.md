@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a151ca7e35f6b512064bc1554b754e9aefdef358
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 514348d0f861ae2bda4d146de4851f788b703444
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233056"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993866"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 =============================================
@@ -86,6 +86,9 @@ ms.locfileid: "32233056"
 &dagger;Если размер сообщения превышает это ограничение, создается сообщение предварительного просмотра и ему будет предложено представления и загрузки исходное сообщение электронной почты из предоставленную ссылку.
 
 &Dagger;Если число изображения или вложения превышает этот предел, сообщения не будут обрабатываться и отправителю уведомлением ошибки будут отправляться сообщения электронной почты о Недоставке.
+
+> [!NOTE]
+> Размер сообщения, вложенных файлов и изображений встроенного ограничения применяются через все лицензии на Office 365.
 
 Для получения дополнительных сведений см [ограничения Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 

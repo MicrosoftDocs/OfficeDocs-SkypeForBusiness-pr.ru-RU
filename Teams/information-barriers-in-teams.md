@@ -1,9 +1,9 @@
 ---
-title: Сведения о препятствующих в предварительной версии Microsoft групп
+title: Информационные барьеры в предварительной версии Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/30/2019
+ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,14 +12,14 @@ ms.reviewer: vikramju
 description: Сведения о препятствующих сведения и их влияние на группы.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 5cf9891e44df3e656255da90dc495d8f0bda8c72
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827790"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993923"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>Сведения о препятствующих в предварительной версии Microsoft групп
+# <a name="information-barriers-in-microsoft-teams-preview"></a>Информационные барьеры в предварительной версии Microsoft Teams
 
 > [!INCLUDE [Preview feature](includes/preview-feature.md)]
 
@@ -27,7 +27,8 @@ ms.locfileid: "33827790"
 
 > [!NOTE]
 > - Сведения о барьер группы не могут создаваться клиентов.
-> - С помощью программы-роботы для добавления пользователей не поддерживается для версии 1.
+> - С помощью программы-роботы для добавления пользователей не поддерживается в версии 1.
+> - Сведения о препятствующих версии 1 сюда не включены поддержка для SharePoint и OneDrive для бизнеса. Мы работа на включение компонента в SharePoint и будет обмениваться данными, когда он доступен.
 
 Сведения о политиках барьер также запретить поиска и обнаружения. Это означает, что при попытке общаться с кем вы должны не взаимодействуют с не сможете найти этого пользователя в средстве выбора людей.
 
