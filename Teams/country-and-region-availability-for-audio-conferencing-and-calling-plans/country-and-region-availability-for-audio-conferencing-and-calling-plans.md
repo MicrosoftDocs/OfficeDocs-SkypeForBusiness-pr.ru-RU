@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: 6fd448d3ab2efd8f5337e0f5a080bee9fd644bf0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 400d202d32f6c539a9750f5c035ff49e8abbaee4
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200269"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082732"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
@@ -178,7 +178,7 @@ ms.locfileid: "32200269"
 Для получения сведений о лицензировании см. также статью [Phone System and Calling Plans licensing (Лицензирование телефонной системы и планов звонков)](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
-> Страна и регион определяются на основе местоположения пользовательской лицензии в **Центре администрирования Office 365** > **Активные пользователи**, а **не** по адресу для выставления счетов, который указан в разделе **Профиль организации** в **Центре администрирования Office 365**. 
+> Страна или регион, зависит от местоположения лицензии пользователя в **центре администрирования Microsoft 365** > **Активных пользователей** и **отсутствует** в списке в разделе **Профиля организации** в **Microsoft 365 admin адреса выставления счетов Центр**. 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Платные и бесплатные номера телефона для таких служб
 

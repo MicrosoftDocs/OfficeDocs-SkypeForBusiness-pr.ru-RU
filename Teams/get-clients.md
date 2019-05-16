@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b4c18bdd39e7978258c90bd4c757eb3e2e86a3b3
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402107"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082667"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 ===========================
@@ -41,7 +41,7 @@ ms.locfileid: "33402107"
 > [!Tip]
 > Просмотрите следующий сеанс, чтобы узнать о преимуществах классического клиента для Windows, его планировании и развертывании: [Классический клиент Teams для Windows](https://aka.ms/teams-clients)
 
-Классический клиент Microsoft Teams представляет собой автономное приложение и сейчас не входит в состав Office 365 профессиональный плюс. Teams доступен как для 32- и 64-разрядных версий Windows (7+), так и для macOS (10.10+). В Windows для Teams требуется платформа .NET Framework 4.5 или более поздней версии; установщик Teams предложит установить ее, если она отсутствует. 
+Клиент рабочего стола группами Майкрософт — это автономного приложения и также доступен [в Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams доступен как для 32- и 64-разрядных версий Windows (7+), так и для macOS (10.10+). В Windows для Teams требуется платформа .NET Framework 4.5 или более поздней версии; установщик Teams предложит установить ее, если она отсутствует. 
 
 Классические клиенты поддерживают взаимодействие в реальном времени (звук, видео и общий доступ к контенту) для собраний команды, групповых звонков и частных индивидуальных звонков.
 
