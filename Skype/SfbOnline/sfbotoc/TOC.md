@@ -260,7 +260,6 @@
 ### [Что такое кредиты на связь?](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-### [Обучение администраторов Skype для бизнеса Online](../set-up-skype-for-business-online/skypeacademy-training.md)
 ### [Разрешите пользователям связываться с внешними пользователями Skype для бизнеса](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [Настройка сведений о присутствии в Skype для бизнеса Online](../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [Настройка режима конфиденциальности присутствия](../set-up-skype-for-business-online/configure-presence-privacy-mode.md)

@@ -1,7 +1,7 @@
 ---
 title: Изменение языка по умолчанию для приветствий и электронных писем
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Сведения о настройке Skype для бизнеса с целью использования другого языка для записи приветствия голосовой почты по умолчанию. '
-ms.openlocfilehash: 6de73212df6be8a1f0d52cff8065536442085783
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 78bb744fc00f81c18bd411d2a79367d2e4c9e216
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198485"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33995169"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
@@ -49,7 +49,7 @@ ms.locfileid: "32198485"
 
 1. Вход с помощью учетной записи [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) в[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
-2. В центре администрирования Office 365 выберите элемент **Параметры** > **профиля организации**. 
+2. В центре администрирования Microsoft 365 выбрать **Параметры** > **профиля организации**. 
     
      ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
