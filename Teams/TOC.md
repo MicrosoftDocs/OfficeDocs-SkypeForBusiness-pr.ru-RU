@@ -616,6 +616,7 @@
 ### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
 ### [Управление решениями Майкрософт для образования: вопросы и ответы для администраторов](plan-teams-governance-edu.md)
+### [Установка интеграции Moodle](install-moodle-integration.md)
 
 ## [Teams для розничной торговли](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
@@ -710,6 +711,7 @@
 ### [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
 ### [Поиск событий Teams в журнале аудита](audit-log-events.md)
 ### [Поиск контента в Teams](content-search.md)
+### [Политики управления приложениями AppLocker в Teams](applocker-in-teams.md)
 ### [Политики хранения в Teams](retention-policies.md)
 #### [Вопросы и ответы по политикам хранения](retention-policies-FAQ.md)
 #### [Известные проблемы с политиками хранения](retention-policies-known-issues.md)
