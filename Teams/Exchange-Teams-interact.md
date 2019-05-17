@@ -1,11 +1,11 @@
 ---
 title: Взаимодействие Exchange и Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: crowe
+ms.reviewer: dstrome
 description: Сведения о взаимодействии Microsoft Teams и различных установок Exchange при использовании некоторых функций, таких как создание команд и присоединение к ним, создание каналов и т. д.
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdb998587eefd0eb15477b26799d487e041df220
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dcdb6a687875aeab39585b44a8f6a9d3b6652b48
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180370"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108646"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams 
 =========================================

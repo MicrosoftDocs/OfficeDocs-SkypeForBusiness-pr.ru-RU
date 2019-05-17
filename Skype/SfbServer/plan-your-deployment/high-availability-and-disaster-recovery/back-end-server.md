@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Сведения о способах обеспечения высокой доступности Тыловой сервер, поддерживаемые в Скайп для Business Server, включая группы обеспечения доступности AlwaysOn, экземпляры отказоустойчивого кластера AlwaysOn, зеркальное отображение базы данных и кластер отработки отказа SQL.
-ms.openlocfilehash: d40ceb237ff52434074de29363704fdb1de5b78c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c200596ac43099d92b7fd37e850a524cf92a24ce
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916560"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106301"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Назад высокой доступности внутреннего сервера в Скайп для Business Server
  
@@ -42,6 +42,8 @@ ms.locfileid: "33916560"
 
 Скайп для Business Server поддерживает зеркальное отображение с помощью следующих программ базы данных:
   
+- SQL Server 2017, Enterprise Edition и Standard Edition
+
 - SQL Server 2016, Enterprise Edition и Standard Edition
 
 - SQL Server 2014 г., Enterprise Edition и Standard Edition
@@ -100,9 +102,29 @@ ms.locfileid: "33916560"
   
 ## <a name="alwayson-availability-groups-and-alwayson-failover-cluster-instances"></a>Группы доступности AlwaysOn и экземпляры отказоустойчивого кластера AlwaysOn
 
-Группы обеспечения доступности AlwaysOn и экземпляры отказоустойчивого кластера AlwaysOn поддерживаются только в SQL Server 2014 Enterprise Edition и SQL Server 2012 Enterprise Edition. Скайп для Business Server поддерживает группы доступности AlwaysOn только как активный/пассивный, активный/активный. 
+Скайп для Business Server поддерживает группы доступности AlwaysOn только как активный/пассивный, активный/активный. 
   
 Чтобы использовать группы обеспечения доступности AlwaysOn или экземпляры отказоустойчивого кластера AlwaysOn, сначала использовать SQL Server для установки и настройки решения высокой доступности. Затем можно использовать построитель топологий для связи с пулом переднего плана.
+
+Скайп для Business Server поддерживает AlwaysOn со следующей программное обеспечение баз данных.
+
+- SQL Server 2017 Enterprise Edition
+
+- SQL Server 2017 Standard Edition с ограничениями, см. примечание ниже
+
+- SQL Server 2016 Enterprise Edition
+
+- SQL Server 2016 Standard Edition с ограничениями, см. примечание ниже
+
+- SQL Server 2014 Enterprise Edition
+    
+- Пакет обновления 2 для SQL Server 2012 и накопительным пакетом обновления 2 Enterprise Edition
+
+> [!NOTE]
+> SQL Server 2017 и SQL Server 2016 — это единственный версий, поддерживаемых Скайп для Business Server 2019.
+
+> [!NOTE]
+> Всегда на группы обеспечения доступности — **не** поддерживается в SQL 2016 и 2017 Standard Edition, но можно использовать всегда на экземплярами отказоустойчивого кластера. В разделе [выпусков и поддерживаемые функции SQL Server 2016](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) для получения дополнительных сведений.
   
 > [!IMPORTANT]
 > Имена экземпляров для нескольких экземпляров группы обеспечения доступности AlwaysOn должны быть одинаковыми. 

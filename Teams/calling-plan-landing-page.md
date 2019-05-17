@@ -15,14 +15,14 @@ search.appverid: MET150
 description: Вызов план Главная страница
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d85546df76b7699986d28152ff08003612df8331
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211985"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108757"
 ---
-# <a name="phone-system-with-calling-plans"></a>Система телефон с Тарифные планы 
+# <a name="which-calling-plan-is-right-for-you"></a>Какие вызов планирование подходящую для вас? 
 
 Вы завершили [приступить к работе](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Может быть развертывания [конференц-связи & собрания](deploy-meetings-microsoft-teams-landing-page.md). Теперь вы готовы для добавления рабочих нагрузок облачных голосовой связи, и вы решили использовать Microsoft телефонной системой с вызова планирование для подключения к общедоступной переключения телефонной сети общего пользования (PSTN). 
 

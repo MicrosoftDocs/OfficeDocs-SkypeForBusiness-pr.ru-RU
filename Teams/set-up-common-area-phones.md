@@ -21,14 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте, как настроить телефонов общего пользования приемные, прием областей и конференц-залов '
-ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 66f84cb1ce768cc86a7c31a6ac345f0fcc135726
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632379"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108749"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Настройка лицензии для телефонов общего пользования для Microsoft Teams
+> [!NOTE]
+> Региональные телефоны не поддерживают голосовой почты.
 
 Телефон общего пользования обычно размещается в область, например зал ожидания или другой области, которое входит многим пользователям звонок; Например, для приема области, зал ожидания или конференции телефон. Региональные телефоны настраиваются как устройства, а не пользователей и автоматически может войти в сети.
 

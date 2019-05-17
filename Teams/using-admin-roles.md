@@ -1,5 +1,5 @@
 ---
-title: Управление Microsoft Teams с ролями администратора
+title: Использование ролей администратора группами Майкрософт для управления группами
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,14 +13,14 @@ ms.reviewer: islubin
 description: Изучите использование различных административных ролей для управления группами.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 677249ba27c79352207a4fffa65480a0a7d484cd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c8b2d1c9f1dccc12f630625d880dad54b0497f12
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211810"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108741"
 ---
-# <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Управление Microsoft Teams с ролями администратора
+# <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Использование ролей администратора группами Майкрософт для управления группами
 
 С помощью Azure Active Directory (Azure AD), можно назначить администраторов, которым требуются различные уровни доступа для управления группами Майкрософт. Администраторы могут управлять всей рабочей нагрузки группы или они могут делегированных разрешений для устранения неполадок вызывать проблемы с качеством или управление нужных телефонии вашей организации. 
 
