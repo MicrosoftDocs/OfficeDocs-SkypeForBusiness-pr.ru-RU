@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Познакомьтесь с действиями развертывания для получения микропрограммы, при необходимости обновите ее, назначение лицензий и настройка параметров для телефонов общего пользования.
-ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ознакомьтесь с инструкциями по развертыванию, чтобы получить подходящую версию встроенного по, при необходимости обновите ее, назначьте лицензии и настройте параметры для стационарных телефонов с областями.
+ms.openlocfilehash: 0e673bc0a236cbf12aa305c3fc658dffe039c0e3
+ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231158"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34162585"
 ---
 # <a name="set-up-common-area-phones"></a>Настройка телефонов общего пользования
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -36,10 +36,10 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 - Приобрести лицензию на телефон общего пользования и тарифный план.
 - Найти и приобрести одобренные телефоны (вы можете просмотреть их список[здесь](deploying-skype-for-business-online-phones.md)).
 - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
-  - **Телефоны Polycom VVX**: переход к **параметрам** > **состояние** > **платформы** > **приложения** > **Main**.
-  - **Телефоны Yealink**: перейти к **состоянию** на экране основной телефон.
-  - **Телефоны AudioCodes**: Откройте **меню** > **Состояние устройства** > **версия микропрограммы** на начальном экране.
-  - **Телефоны Lync Phone Edition (LPE)**: В **меню** > **Сведения о системе** на начальном экране.
+  - **Polycom VVX phones**: перейдите в раздел **Параметры** > **** > **** > **приложения** > Platform**Main**.
+  - **Yealinkные телефоны**: переход **** к состоянию на главном экране телефона.
+  - **AudioCodes телефоны**: переход в **меню** > "**состояние** > **** устройства" на начальном экране.
+  - **Lync Phone Edition (LPE)**: выберите **пункт** > "**сведения о системе** " на начальном экране.
 
     Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
 
@@ -58,7 +58,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 > [!Note]
 > You don't need a Phone System license. It's included with the **Common Area Phone** license.
 
-Дополнительные сведения о лицензии в разделе [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Дополнительные сведения о лицензиях можно найти в [статье Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Шаг 2. Создание новой учетной записи пользователя для телефона и назначение лицензии
 1. В центре администрирования Office 365 перейдите в раздел **Пользователи** > **Активные пользователи** > **Добавление пользователя**.
@@ -83,7 +83,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 ![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) Назначьте номер телефона пользователю, используя **Центр администрирования Skype для бизнеса**
 
-1. В > Центр администрирования Office 365, **центры администрирования** > **Скайп для бизнеса**.
+1. В центре администрирования Office 365 _гт_ **центр** > администрирования**Skype для бизнеса**.
 2. Далее: **Центр администрирования Skype для бизнеса** >  **Голосовая связь** > **Номера телефонов**.
 3. Выберите номер телефона из списка и нажмите **Назначить**.
 4. На странице **Назначить** в поле **Пользователь голосовой связи** введите имя пользователя телефона, а затем выберите пользователя в выпадающем списке **Выбор пользователя голосовой связи**.
@@ -95,9 +95,9 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
    > [!Note]
    > Пользователи будут отображаться, только если на них распространяется лицензия **Телефонная система**. Если вы только что выполнили эти действия, может потребоваться некоторое время, чтобы пользователь отобразился в списке.
 
-Узнайте больше в статье [Получение телефонных номеров для ваших пользователей](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
+Узнайте больше в статье [Получение телефонных номеров для ваших пользователей](/microsoftteams/getting-phone-numbers-for-your-users).
 
-При необходимости номера телефонов других операторов можно "*портировать*" или передать в Office 365. Отображается, [передачи телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+При необходимости номера телефонов других операторов можно "*портировать*" или передать в Office 365. Посмотрите, [перенесите номера телефонов в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
 
 ### <a name="step-4---setting-up-your-phone"></a>Шаг 4. Настройка телефона
 
@@ -115,7 +115,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 - Теперь режим CAP включен, и вы можете настроить телефон, используя его дисплей. Дисплей должен показывать **CAP включен**. Выполните следующие действия:
 
     1. Выберите **Параметры**.
-    2. Выберите **Дополнительные**.
+    2. Нажмите кнопку **Дополнительно**.
     3. Введите пароль.
     4. В пункте **Параметры администрирования** выберите **Параметры телефона общего пользования**.
     5. Включите **CAP** и **Режим администратора CAP**.
@@ -137,7 +137,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 
 > [!NOTE]
-> Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если синхронизировано локальный AAD в Active Directory и использовать сторонние IDP и службы федерации Active Directory, подготовки БОЛТЫ завершится с ошибкой. В этом случае необходимо использовать 365 Office/Azure Active Directory только учетная запись (например, учетную запись домена **onmicrosoft.com** ) для Политики подготовки для работы.
+> Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если вы синхронизируете локальную службу Active Directory с AAD и используете сторонние IDP или ADFS, инициализация закрепления завершается сбоем. В этом случае необходимо использовать учетную запись Office 365 или Azure Active Directory только (например, учетную запись с доменом **onmicrosoft.com** ), чтобы подготовиться к работе.
 
 
 ### <a name="related-topics"></a>Статьи по теме

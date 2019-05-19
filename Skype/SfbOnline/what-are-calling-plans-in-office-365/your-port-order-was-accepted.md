@@ -21,26 +21,26 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 450781d2318b11e7f199c6c68041aaf6bc66b21c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 56656e85f23a4c6c7082bebff628c12aea9843b4
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229518"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34159187"
 ---
 # <a name="your-port-order-was-accepted"></a>Ваш заказ на перенос номера принят
 
-Порт заказа утвержденных! Поиск номера телефонов в **Скайп по центру администрирования Business** > **голосовой связи** > **телефонных номеров**.
+Ваш заказ на перенос номеров утвержден! Найдите номера телефонов в > **голосовых** > **номерах**в **центре администрирования Skype для бизнеса**.
   
  **ВАЖНО!** Чтобы в левой области навигации Центра администрирования Skype для бизнеса появился элемент **Голосовая связь**, необходимо приобрести хотя бы одну **лицензию уровня корпоративный E5**, лицензию на надстройку **Телефонная система** либо лицензию на надстройку **Аудиоконференция**.
   
-Теперь, когда было утверждено и готовы номерам телефонов, необходимо выполнить несколько действий все настройки.
+После того как он будет утвержден и ваши номера телефонов будут готовы, вам потребуется выполнить несколько действий, чтобы получить все настройки.
   
-- Убедитесь, что вы [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Необходимо будет **Телефонной системой** и **Планирование внутренних звонков** или **Международный вызов планирование**.
+- Убедитесь, что у вас есть [Лицензия на надстройку Skype для бизнеса и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Вам понадобится телефонная **система** и **план внутренних звонков** или **План международных звонков**.
     
-- Создать [Добавьте или удалите экстренных адрес для своей организации](add-or-remove-an-emergency-address-for-your-organization.md) и, если необходимо, на[Добавление, изменение или удаление экстренных расположение для вашей организации](add-change-or-remove-an-emergency-location-for-your-organization.md) (в некоторых странах или регионах, адрес можно получить экстренных с номером телефона).
+- Создание [или удаление адреса для экстренного реагирования для вашей организации](add-or-remove-an-emergency-address-for-your-organization.md) , а также[Добавление, изменение и удаление местоположения для экстренной](add-change-or-remove-an-emergency-location-for-your-organization.md) помощи в некоторых странах и регионах, вы получаете адрес для экстренного реагирования с номером телефона).
     
-- Пойти дальше и [назначить, изменить или удалить номер телефона для пользователя](assign-change-or-remove-a-phone-number-for-a-user.md).
+- Вы можете [назначить, изменить или удалить номер телефона пользователя](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 > [!NOTE]
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
