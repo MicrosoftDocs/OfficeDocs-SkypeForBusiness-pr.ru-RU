@@ -333,11 +333,9 @@
 ## Номера телефонов
 ### [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [Типы телефонных номеров, используемые для плана звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-### [Получение номеров телефонов для пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Получение номеров телефонов для пользователей](getting-phone-numbers-for-your-users.md)
 ### [Предоставляемое количество номеров телефонов](how-many-phone-numbers-can-you-get.md)
-### [Поиск номеров телефонов пользователей](/SkypeForBusiness/what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Просмотр списка телефонных номеров в организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Назначение, изменение и удаление номера телефона пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Назначение, изменение и удаление номера телефона пользователя](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Получение номеров телефонов служб](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Перенос телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md)
 ### [Общие вопросы по передаче номеров](transferring-phone-numbers-common-questions.md)
