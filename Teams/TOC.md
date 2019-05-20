@@ -7,7 +7,8 @@
 
 <!-- ============================================================ -->
 
-# [Начало работы](get-started-with-teams-quick-start.md)
+# Начало работы
+## [Обзор](get-started-with-teams-quick-start.md)
 ## [Шаг 1: создание первых команд и каналов](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [Шаг 2: набор первых пользователей](get-started-with-teams-onboard-early-adopters.md)
 ## [Шаг 3: мониторинг использования и отзывы](get-started-with-teams-monitor-usage-and-feedback.md)
@@ -15,8 +16,8 @@
 
 <!-- ============================================================ -->
 
-
-# [Чат, команды, каналы и приложения](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+# Чат, команды, каналы и приложения
+## [Планирование развертывания](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Обзор команд и каналов](teams-channels-overview.md)
 ## [Назначение владельцев и участников команд в Microsoft Teams](assign-roles-permissions.md)
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
@@ -30,8 +31,9 @@
 
 
 
+## Приложения, боты и соединители
 
-## [Приложения, боты и соединители](deploy-apps-microsoft-teams-landing-page.md)
+### [Обзор](deploy-apps-microsoft-teams-landing-page.md)
 ### [Разрешения и рекомендации для приложений](app-permissions.md)
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
 ### [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
@@ -45,8 +47,8 @@
 ### [Настройка приложения собраний Skype для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
-
-## [Гостевой доступ](guest-access.md)
+## Гостевой доступ
+### [Обзор](guest-access.md)
 ### [Присоединение гостя к команде](guest-joins.md)
 ### [Взаимодействие с гостями](guest-experience.md)
 ### [Авторизация гостевого доступа в Teams](teams-dependencies.md)
@@ -60,7 +62,8 @@
 
 ## [Внешний доступ (федерация)](manage-external-access.md)
 
-## [Управление Teams](using-admin-roles.md)
+## Управление Teams
+### [Роли администратора](using-admin-roles.md)
 ### [Управление параметрами Teams в организации](enable-features-office-365.md)
 ### [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Управление Teams в Центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md).
@@ -71,7 +74,9 @@
 ### [Общение с пользователями Teams из других организаций](let-your-teams-users-communicate-with-other-people.md)
 ### [Использование встроенного перевода сообщений](inline-message-translation-teams.md)
 ### [Область поиска в каталоге Microsoft Teams](teams-scoped-directory-search.md)
-### [Аналитика команд и отчеты в Центре администрирования Microsoft Teams](teams-analytics-and-reports/teams-reporting-reference.md)
+
+### Аналитика команд и отчеты в Центре администрирования Microsoft Teams
+#### [Обзор](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Отчет об использовании Teams](teams-analytics-and-reports/teams-usage-report.md)
 #### [Отчет по активности пользователей Teams](teams-analytics-and-reports/user-activity-report.md) 
 #### [Отчет об использовании устройств в Teams](teams-analytics-and-reports/device-usage-report.md)
@@ -82,8 +87,8 @@
 
 <!-- ============================================================ -->
 
-
-# [Собрания и конференции](deploy-meetings-microsoft-teams-landing-page.md)
+# Собрания и конференции
+## [Планирование развертывания](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Управление политиками собрания](meeting-policies-in-teams.md)
 ## [Управление параметрами собраний](meeting-settings-in-teams.md)
@@ -98,7 +103,8 @@
 ## [Комнаты Microsoft Teams](room-systems/index.md)
 
 
-## [Аудиоконференции](deploy-audio-conferencing-teams-landing-page.md)
+## Аудиоконференции
+### [Планирование развертывания](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Аудиоконференции в Office 365](audio-conferencing-in-office-365.md)
 ### [Общие вопросы об аудиоконференциях](audio-conferencing-common-questions.md)
@@ -117,11 +123,14 @@
 #### [Просмотр списка номеров для аудиоконференций](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [Установка языков автосекретаря для аудиоконференций](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
 
+
 ### [Управление настройками аудиоконференций для организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-#### [Поминутная оплата аудиоконференций](audio-conferencing-pay-per-minute.md)
 
+### [Поминутная оплата аудиоконференций](audio-conferencing-pay-per-minute.md)
 
-### [Управление настройками аудиоконференций для пользователей](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+### Управление настройками аудиоконференций для пользователей
+
+#### [Обзор](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 #### [Список пользователей с включенными аудиоконференциями](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
 
@@ -149,7 +158,9 @@
 #### [Поддерживаемые языки аудиоконференций](audio-conferencing-supported-languages.md)
 
 #### [Телефонные номера для аудиоконференций](phone-numbers-for-audio-conferencing-in-teams.md)
-#### [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+#### Доступность аудиоконференций и планов звонков в различных странах и регионах
+##### [Обзор](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 ##### [Аргентина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 ##### [Австралия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 ##### [Австрия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -262,8 +273,8 @@
 <!-- ============================================================ -->
 
 
-
-# [Голосовая связь в облаке](cloud-voice-landing-page.md)
+# Голосовая связь в облаке 
+## [Планирование развертывания](cloud-voice-landing-page.md)
 ## Телефонная система
 ### [Что такое телефонная система?](what-is-phone-system-in-office-365.md)
 ### [Возможности телефонной системы](here-s-what-you-get-with-phone-system.md)
@@ -279,7 +290,7 @@
 ### Автосекретари и очереди вызовов 
 #### [Что представляют собой облачные автосекретари](what-are-phone-system-auto-attendants.md)
 #### [Настройка облачного автосекретаря](create-a-phone-system-auto-attendant.md)
-#### [Пример для малого бизнеса: настройка автосекретаря](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Пример для малого бизнеса: настройка автосекретаря](tutorial-org-aa.yml)
 #### [Пример для малого бизнеса: настройка очереди вызовов](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Управление учетными записями ресурсов в Microsoft Teams](manage-resource-accounts.md)
 #### [Создание облачной очереди вызовов](create-a-phone-system-call-queue.md)
@@ -289,12 +300,15 @@
 ### [Политика звонков](teams-calling-policy.md)
 ### [Распределенная линия](shared-line-appearance.md)
 
-## [Планы звонков](calling-plan-landing-page.md)
-### [Планы звонков для Office 365](calling-plans-for-office-365.md)
+
+## Планы звонков
+### [Какой план звонков подходит для вас?](calling-plan-landing-page.md)
+### [Как купить план звонков](calling-plans-for-office-365.md)
 ### [Настройка планов звонков для организации](set-up-calling-plans.md)
 ### [Краткое руководство по началу работы. Настройка планов звонков](configuring-teams-calling-quickstartguide.md)
 
-## [Прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
+## Прямая маршрутизация телефонной системы
+### [Обзор](direct-routing-landing-page.md)
 ### [Планирование прямой маршрутизации](direct-routing-plan.md)
 ### [Настройка прямой маршрутизации](direct-routing-configure.md)
 ### [Переход на прямую маршрутизацию](direct-routing-migrating.md)
@@ -341,7 +355,9 @@
 
 
 ## Справочные материалы
-### [Доступность планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### Доступность планов звонков в различных странах и регионах
+
+#### [Обзор](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Аргентина](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [Австралия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 #### [Австрия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -441,7 +457,8 @@
 #### [Управление номерами телефонов в США](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 
-### [Ограничения и запреты для бесплатных номеров](toll-free-dialing-limitations-and-restrictions.md)
+### Ограничения и запреты для бесплатных номеров
+#### [Обзор](toll-free-dialing-limitations-and-restrictions.md)
 #### [Аргентина](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Австралия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Беларусь](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
@@ -532,20 +549,27 @@
 
 
 <!-- ============================================================ -->
-# [Внедрение](adopt-microsoft-teams-landing-page.md) 
+# Внедрение
 
+## [Обзор](adopt-microsoft-teams-landing-page.md) 
 ## [Начало работы](teams-adoption-get-started.md)
-## [Этап 1 — начало](teams-adoption-phase1.md)
+
+## Этап 1 — начало
+### [Начало](teams-adoption-phase1.md)
 ### [Общие сведения о командах и каналах](teams-adoption-understand-teams-and-channels.md)
 ### [Создание первых команд](teams-adoption-your-first-teams.md)
 ### [Насколько готова ваша организация к внедрению Teams?](teams-adoption-assess-readiness.md)
-## [Этап 2 — экспериментирование](teams-adoption-phase2-experiment.md)
+
+## Этап 2 — экспериментирование
+### [Экспериментирование](teams-adoption-phase2-experiment.md)
 ### [Создание программы лидеров](teams-adoption-create-champions-program.md)
 ### [Управление быстрым началом работы](teams-adoption-governance-quick-start.md)
 ### [Определение сценариев использования](teams-adoption-define-usage-scenarios.md)
 ### [Подключение ранних последователей и сбор отзывов](teams-adoption-onboard-early-adopters.md)
 ### [Поддержка адаптации](teams-adoption-onboard-support.md)
-## [Этап 3 — масштабирование](teams-adoption-phase3-enable.md)
+
+## Этап 3 — масштабирование
+### [Масштабирование](teams-adoption-phase3-enable.md)
 ### [Определение результатов и критериев успеха](teams-adoption-define-outcomes.md)
 ### [Оптимизация отзывов и отчетности](teams-adoption-optimize-feedback-and-reporting.md)
 ### [Информированность и внедрение обучения](teams-adoption-drive-awareness.md)
@@ -702,8 +726,8 @@
 ### [Комнатные устройства и решения для проведения собраний](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Телефоны для приложения Skype для бизнеса Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
-## [Безопасность и соответствие требованиям](security-compliance-overview.md)
+## Безопасность и соответствие требованиям
+### [Обзор](security-compliance-overview.md)
 ### [Информационные барьеры в Teams](information-barriers-in-teams.md)
 ### [Обнаружение электронных данных в Teams](ediscovery-investigation.md)
 ### [Модели удостоверений и проверка подлинности в Microsoft Teams](identify-models-authentication.md)
@@ -712,7 +736,8 @@
 ### [Поиск событий Teams в журнале аудита](audit-log-events.md)
 ### [Поиск контента в Teams](content-search.md)
 ### [Политики управления приложениями AppLocker в Teams](applocker-in-teams.md)
-### [Политики хранения в Teams](retention-policies.md)
+### Политики хранения в Teams
+#### [Обзор](retention-policies.md)
 #### [Вопросы и ответы по политикам хранения](retention-policies-FAQ.md)
 #### [Известные проблемы с политиками хранения](retention-policies-known-issues.md)
 ### [Расположение данных в Teams](location-of-data-in-teams.md)
@@ -743,8 +768,10 @@
 #### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Классификация потоков на панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)
 
-## [Обзор PowerShell в Teams](teams-powershell-overview.md)
-### [Справочник по командлетам PowerShell для Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+## PowerShell в Teams
+### [Обзор](teams-powershell-overview.md)
+### [Справочник по командлетам для Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Документация разработчиков для Teams](https://docs.microsoft.com/microsoftteams/platform)
-## [Справка в Microsoft Teams](get-help-in-microsoft-teams.md)
+## [Получение справки в Teams](get-help-in-microsoft-teams.md)
+## [Обновления контента Teams](teams-updates.md)
