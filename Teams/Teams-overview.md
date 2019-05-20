@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf50b6f7acba602ec001c340e2cbe999c610e693
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2908c7f16f353d49ca25db0ef297601cc82db371
+ms.sourcegitcommit: 64cb4e9db6c83d25c2f5de0cc8b835675af80f0b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226156"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34100867"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
@@ -78,6 +78,10 @@ Teams — основной клиент интеллектуальных ком
 - **Yammer** — позволяет объединить вместе пользователей организации. Организуйте общекорпоративные инициативы, обменивайтесь опытом и создавайте сообщества, посвященные общим темам или сферам деятельности. Выносите идеи на общее открытое обсуждение всей компанией.
 
 - **Приложения Office** — это приложения, которые хорошо знакомы пользователям и с которыми они регулярно работают: Word, Excel, PowerPoint и OneNote. 
+
+## <a name="teams-content-updates"></a>Обновления контента Teams
+
+См. [еженедельный список обновленных статей о Teams](teams-updates.md).
 
 ## <a name="teams-known-issues"></a>Известные проблемы Teams
 
