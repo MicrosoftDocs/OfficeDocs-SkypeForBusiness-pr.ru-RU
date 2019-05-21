@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,46 +18,46 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Политики клиента помогают определить функции Skype для бизнеса online, доступные пользователям. Например, вы можете предоставить одним пользователям право передавать файлы и запретить это другим пользователям.
-ms.openlocfilehash: 33623e43ed6e7db6edd8af14e042ae798c9c8cd1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 14d023598a27c676fd4249e97e6454b8110ee958
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237501"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297721"
 ---
-# <a name="set-up-client-policies-for-your-organization"></a><span data-ttu-id="cd275-103">Настройка политик клиента в организации</span><span class="sxs-lookup"><span data-stu-id="cd275-103">Set up client policies for your organization</span></span>
+# <a name="set-up-client-policies-for-your-organization"></a><span data-ttu-id="51cf1-103">Настройка политик клиента в организации</span><span class="sxs-lookup"><span data-stu-id="51cf1-103">Set up client policies for your organization</span></span>
 
-<span data-ttu-id="cd275-104">[] Политики клиента помогают определить функции Skype для бизнеса online, доступные пользователям. Например, вы можете предоставить одним пользователям право передавать файлы и запретить это другим пользователям.</span><span class="sxs-lookup"><span data-stu-id="cd275-104">Client policies help determine the features of Skype for Business Online that are made available to users; for example, you might give some users the right to transfer files while denying this right to other users.</span></span>
+<span data-ttu-id="51cf1-104">[] Политики клиента помогают определить функции Skype для бизнеса online, доступные пользователям. Например, вы можете предоставить одним пользователям право передавать файлы и запретить это другим пользователям.</span><span class="sxs-lookup"><span data-stu-id="51cf1-104">Client policies help determine the features of Skype for Business Online that are made available to users; for example, you might give some users the right to transfer files while denying this right to other users.</span></span>
   
-<span data-ttu-id="cd275-105">Во время создания политики можно настроить параметры политики клиента или командлет **Set-CsClientPolicy** для изменения параметров существующей политики.</span><span class="sxs-lookup"><span data-stu-id="cd275-105">Client policy settings can be configured at the time a policy is created, or you can use the **Set-CsClientPolicy** cmdlet to modify the settings of an existing policy.</span></span>
+<span data-ttu-id="51cf1-105">Параметры политики клиента можно настроить на момент создания политики, а также можно использовать командлет **Set-CsClientPolicy** , чтобы изменить параметры существующей политики.</span><span class="sxs-lookup"><span data-stu-id="51cf1-105">Client policy settings can be configured at the time a policy is created, or you can use the **Set-CsClientPolicy** cmdlet to modify the settings of an existing policy.</span></span>
   
-## <a name="set-your-client-policies"></a><span data-ttu-id="cd275-106">Задание политик клиента</span><span class="sxs-lookup"><span data-stu-id="cd275-106">Set your client policies</span></span>
+## <a name="set-your-client-policies"></a><span data-ttu-id="51cf1-106">Задание политик клиента</span><span class="sxs-lookup"><span data-stu-id="51cf1-106">Set your client policies</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="cd275-107">Для всех настроек политики клиента в Skype для бизнеса Online нужно использовать Windows PowerShell. **Нельзя использовать** **Центр администрирования Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="cd275-107">For all of the client policy settings in Skype for Business Online, you must use Windows PowerShell and you **can't use** the **Skype for Business admin center**.</span></span> 
+> <span data-ttu-id="51cf1-107">Для всех настроек политики клиента в Skype для бизнеса Online нужно использовать Windows PowerShell. **Нельзя использовать** **Центр администрирования Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="51cf1-107">For all of the client policy settings in Skype for Business Online, you must use Windows PowerShell and you **can't use** the **Skype for Business admin center**.</span></span> 
   
-### <a name="verify-and-start-windows-powershell"></a><span data-ttu-id="cd275-108">Проверка и запуск Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="cd275-108">Verify and start Windows PowerShell</span></span>
+### <a name="verify-and-start-windows-powershell"></a><span data-ttu-id="51cf1-108">Проверка и запуск Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="51cf1-108">Verify and start Windows PowerShell</span></span>
 
-- <span data-ttu-id="cd275-109">**Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**</span><span class="sxs-lookup"><span data-stu-id="cd275-109">**Check that you are running Windows PowerShell version 3.0 or higher**</span></span>
+- <span data-ttu-id="51cf1-109">**Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**</span><span class="sxs-lookup"><span data-stu-id="51cf1-109">**Check that you are running Windows PowerShell version 3.0 or higher**</span></span>
     
-1. <span data-ttu-id="cd275-110">To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="cd275-110">To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.</span></span>
+1. <span data-ttu-id="51cf1-110">To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="51cf1-110">To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.</span></span>
     
-2. <span data-ttu-id="cd275-111">Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.</span><span class="sxs-lookup"><span data-stu-id="cd275-111">Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.</span></span>
+2. <span data-ttu-id="51cf1-111">Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.</span><span class="sxs-lookup"><span data-stu-id="51cf1-111">Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.</span></span>
     
-3. <span data-ttu-id="cd275-p101">Если у вас более ранняя версия, вам необходимо скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4.0, перейдите на страницу [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845). При появлении запроса перезагрузите компьютер.</span><span class="sxs-lookup"><span data-stu-id="cd275-p101">If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.</span></span>
+3. <span data-ttu-id="51cf1-p101">Если у вас более ранняя версия, вам необходимо скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4.0, перейдите на страницу [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845). При появлении запроса перезагрузите компьютер.</span><span class="sxs-lookup"><span data-stu-id="51cf1-p101">If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.</span></span>
     
-4. <span data-ttu-id="cd275-p102">Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.</span><span class="sxs-lookup"><span data-stu-id="cd275-p102">You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.</span></span>
+4. <span data-ttu-id="51cf1-p102">Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.</span><span class="sxs-lookup"><span data-stu-id="51cf1-p102">You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.</span></span>
     
-    <span data-ttu-id="cd275-118">Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).</span><span class="sxs-lookup"><span data-stu-id="cd275-118">If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx).</span></span>
+    <span data-ttu-id="51cf1-118">Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).</span><span class="sxs-lookup"><span data-stu-id="51cf1-118">If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx).</span></span>
     
-- <span data-ttu-id="cd275-119">**Запуск сеанса Windows PowerShell**</span><span class="sxs-lookup"><span data-stu-id="cd275-119">**Start a Windows PowerShell session**</span></span>
+- <span data-ttu-id="51cf1-119">**Запуск сеанса Windows PowerShell**</span><span class="sxs-lookup"><span data-stu-id="51cf1-119">**Start a Windows PowerShell session**</span></span>
     
-1. <span data-ttu-id="cd275-120">From the **Start Menu** > **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="cd275-120">From the **Start Menu** > **Windows PowerShell**.</span></span>
+1. <span data-ttu-id="51cf1-120">From the **Start Menu** > **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="51cf1-120">From the **Start Menu** > **Windows PowerShell**.</span></span>
     
-2. <span data-ttu-id="cd275-121">В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:</span><span class="sxs-lookup"><span data-stu-id="cd275-121">In the **Windows PowerShell** window, connect to your Office 365 organization by running:</span></span>
+2. <span data-ttu-id="51cf1-121">В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:</span><span class="sxs-lookup"><span data-stu-id="51cf1-121">In the **Windows PowerShell** window, connect to your Office 365 organization by running:</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="cd275-122">Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.</span><span class="sxs-lookup"><span data-stu-id="cd275-122">You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.</span></span>
+    > <span data-ttu-id="51cf1-122">Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.</span><span class="sxs-lookup"><span data-stu-id="51cf1-122">You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.</span></span>
 
    ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
@@ -66,94 +66,94 @@ ms.locfileid: "32237501"
     Import-PSSession $session
    ```
 
-   <span data-ttu-id="cd275-123">Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [настроить компьютер для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span><span class="sxs-lookup"><span data-stu-id="cd275-123">If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span></span>
+   <span data-ttu-id="51cf1-123">Если вы хотите получить дополнительные сведения о запуске Windows PowerShell, ознакомьтесь со статьей [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [Настройка компьютера для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span><span class="sxs-lookup"><span data-stu-id="51cf1-123">If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span></span>
     
-### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a><span data-ttu-id="cd275-124">Отключение эмотиконов, уведомлений о присутствии и запрет на сохранение мгновенных сообщений</span><span class="sxs-lookup"><span data-stu-id="cd275-124">Disable emoticons and presence notifications and prevent saving of IMs</span></span>
+### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a><span data-ttu-id="51cf1-124">Отключение эмотиконов, уведомлений о присутствии и запрет на сохранение мгновенных сообщений</span><span class="sxs-lookup"><span data-stu-id="51cf1-124">Disable emoticons and presence notifications and prevent saving of IMs</span></span>
 
-- <span data-ttu-id="cd275-125">Чтобы создать политику для настроек, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="cd275-125">To create a new policy for these settings, run:</span></span>
+- <span data-ttu-id="51cf1-125">Чтобы создать политику для настроек, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="51cf1-125">To create a new policy for these settings, run:</span></span>
     
 > 
 >   ```
 >   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
 >   ```
 
-  <span data-ttu-id="cd275-126">В разделе Дополнительные с параметрами командлета [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .</span><span class="sxs-lookup"><span data-stu-id="cd275-126">See more on the [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet.</span></span>
+  <span data-ttu-id="51cf1-126">Дополнительные сведения о командлете [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .</span><span class="sxs-lookup"><span data-stu-id="51cf1-126">See more on the [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet.</span></span>
     
-- <span data-ttu-id="cd275-127">Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="cd275-127">To grant the new policy you created to all of the users in your organization, run:</span></span>
+- <span data-ttu-id="51cf1-127">Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="51cf1-127">To grant the new policy you created to all of the users in your organization, run:</span></span>
     
 > 
 >   ```
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
 >   ```
 
-  <span data-ttu-id="cd275-128">Просмотрите Дополнительные сведения о командлета [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .</span><span class="sxs-lookup"><span data-stu-id="cd275-128">See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet.</span></span>
+  <span data-ttu-id="51cf1-128">Дополнительные сведения о командлете [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .</span><span class="sxs-lookup"><span data-stu-id="51cf1-128">See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet.</span></span>
     
-<span data-ttu-id="cd275-129">Если вы уже создали политику, можно использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) для внесения изменений в существующую политику и затем используйте командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) для применения параметров для пользователей.</span><span class="sxs-lookup"><span data-stu-id="cd275-129">If you have already created a policy, you can use the [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet to apply the settings to your users.</span></span>
+<span data-ttu-id="51cf1-129">Если вы уже создали политику, вы можете использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) , чтобы применить параметры к вашим пользователям.</span><span class="sxs-lookup"><span data-stu-id="51cf1-129">If you have already created a policy, you can use the [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet to apply the settings to your users.</span></span>
   
-### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a><span data-ttu-id="cd275-130">Разрешение перехода по URL-адресам или гиперссылкам в мгновенных сообщениях</span><span class="sxs-lookup"><span data-stu-id="cd275-130">Enable URLs or hyperlinks to be clickable in IMs</span></span>
+### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a><span data-ttu-id="51cf1-130">Разрешение перехода по URL-адресам или гиперссылкам в мгновенных сообщениях</span><span class="sxs-lookup"><span data-stu-id="51cf1-130">Enable URLs or hyperlinks to be clickable in IMs</span></span>
 
-- <span data-ttu-id="cd275-131">Чтобы создать политику для настроек, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="cd275-131">To create a new policy for these settings, run:</span></span>
+- <span data-ttu-id="51cf1-131">Чтобы создать политику для настроек, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="51cf1-131">To create a new policy for these settings, run:</span></span>
     
 > 
 >   ```
 >   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
 >   ```
 
-  <span data-ttu-id="cd275-132">В разделе Дополнительные с параметрами командлета [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .</span><span class="sxs-lookup"><span data-stu-id="cd275-132">See more on the [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet.</span></span>
+  <span data-ttu-id="51cf1-132">Дополнительные сведения о командлете [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .</span><span class="sxs-lookup"><span data-stu-id="51cf1-132">See more on the [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet.</span></span>
     
-- <span data-ttu-id="cd275-133">Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="cd275-133">To grant the new policy you created to all of the users in your organization, run:</span></span>
+- <span data-ttu-id="51cf1-133">Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="51cf1-133">To grant the new policy you created to all of the users in your organization, run:</span></span>
     
 > 
 >   ```
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
 >   ```
 
-  <span data-ttu-id="cd275-134">Просмотрите Дополнительные сведения о командлета [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .</span><span class="sxs-lookup"><span data-stu-id="cd275-134">See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet.</span></span>
+  <span data-ttu-id="51cf1-134">Дополнительные сведения о командлете [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .</span><span class="sxs-lookup"><span data-stu-id="51cf1-134">See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet.</span></span>
     
-<span data-ttu-id="cd275-135">Если вы уже создали политику, можно использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) для внесения изменений в существующую политику и затем используйте командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) для применения параметров для пользователей.</span><span class="sxs-lookup"><span data-stu-id="cd275-135">If you have already created a policy, you can use the [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet to apply the settings to your users.</span></span>
+<span data-ttu-id="51cf1-135">Если вы уже создали политику, вы можете использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) , чтобы применить параметры к вашим пользователям.</span><span class="sxs-lookup"><span data-stu-id="51cf1-135">If you have already created a policy, you can use the [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet to apply the settings to your users.</span></span>
   
-### <a name="prevent-showing-recent-contacts"></a><span data-ttu-id="cd275-136">Запрет отображения последних контактов</span><span class="sxs-lookup"><span data-stu-id="cd275-136">Prevent showing recent contacts</span></span>
+### <a name="prevent-showing-recent-contacts"></a><span data-ttu-id="51cf1-136">Запрет отображения последних контактов</span><span class="sxs-lookup"><span data-stu-id="51cf1-136">Prevent showing recent contacts</span></span>
 
-- <span data-ttu-id="cd275-137">Чтобы создать политику для настроек, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="cd275-137">To create a new policy for these settings, run:</span></span>
+- <span data-ttu-id="51cf1-137">Чтобы создать политику для настроек, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="51cf1-137">To create a new policy for these settings, run:</span></span>
   > 
   > ```
   > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
   > ```
 
-  <span data-ttu-id="cd275-138">В разделе Дополнительные с параметрами командлета [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .</span><span class="sxs-lookup"><span data-stu-id="cd275-138">See more on the [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet.</span></span>
+  <span data-ttu-id="51cf1-138">Дополнительные сведения о командлете [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .</span><span class="sxs-lookup"><span data-stu-id="51cf1-138">See more on the [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet.</span></span>
     
-- <span data-ttu-id="cd275-139">Чтобы предоставить новую политику Amos Marble, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="cd275-139">To grant the new policy you created to Amos Marble, run:</span></span>
+- <span data-ttu-id="51cf1-139">Чтобы предоставить новую политику Amos Marble, запустите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="51cf1-139">To grant the new policy you created to Amos Marble, run:</span></span>
   > 
   > ```
   > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   > ```
 
-  <span data-ttu-id="cd275-140">Просмотрите Дополнительные сведения о командлета [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .</span><span class="sxs-lookup"><span data-stu-id="cd275-140">See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet.</span></span>
+  <span data-ttu-id="51cf1-140">Дополнительные сведения о командлете [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .</span><span class="sxs-lookup"><span data-stu-id="51cf1-140">See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet.</span></span>
     
-  <span data-ttu-id="cd275-141">Если вы уже создали политику, можно использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) для внесения изменений в существующую политику и затем используйте командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) для применения параметров для пользователей.</span><span class="sxs-lookup"><span data-stu-id="cd275-141">If you have already created a policy, you can use the [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet to apply the settings to your users.</span></span>
+  <span data-ttu-id="51cf1-141">Если вы уже создали политику, вы можете использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) , чтобы применить параметры к вашим пользователям.</span><span class="sxs-lookup"><span data-stu-id="51cf1-141">If you have already created a policy, you can use the [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) cmdlet to apply the settings to your users.</span></span>
   
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="cd275-142">Хотите узнать больше о Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="cd275-142">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="51cf1-142">Хотите узнать больше о Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="51cf1-142">Want to know more about Windows PowerShell?</span></span>
 
-- <span data-ttu-id="cd275-143">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span><span class="sxs-lookup"><span data-stu-id="cd275-143">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="cd275-144">С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач.</span><span class="sxs-lookup"><span data-stu-id="cd275-144">With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do.</span></span> <span data-ttu-id="cd275-145">Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.</span><span class="sxs-lookup"><span data-stu-id="cd275-145">To get started with Windows PowerShell, see these topics:</span></span>
+- <span data-ttu-id="51cf1-143">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span><span class="sxs-lookup"><span data-stu-id="51cf1-143">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="51cf1-144">С помощью Windows PowerShell вы можете управлять Office 365 и Skype для бизнеса online, используя единый центр администрирования, который упростит выполнение ваших повседневных задач.</span><span class="sxs-lookup"><span data-stu-id="51cf1-144">With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do.</span></span> <span data-ttu-id="51cf1-145">Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.</span><span class="sxs-lookup"><span data-stu-id="51cf1-145">To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="cd275-146">Введение в Windows PowerShell и Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="cd275-146">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [<span data-ttu-id="51cf1-146">Введение в Windows PowerShell и Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="51cf1-146">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [<span data-ttu-id="cd275-147">Шесть причин использовать Windows PowerShell для управления Office 365</span><span class="sxs-lookup"><span data-stu-id="cd275-147">Six Reasons Why You Might Want to Use Windows PowerShell to Manage Office 365 </span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="51cf1-147">Шесть причин использовать Windows PowerShell для управления Office 365</span><span class="sxs-lookup"><span data-stu-id="51cf1-147">Six Reasons Why You Might Want to Use Windows PowerShell to Manage Office 365 </span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- <span data-ttu-id="cd275-p104">Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="cd275-p104">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:</span></span>
+- <span data-ttu-id="51cf1-p104">Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="51cf1-p104">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:</span></span>
     
-  - [<span data-ttu-id="cd275-150">Лучшие способы управления Office 365 с помощью Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="cd275-150">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="51cf1-150">Лучшие способы управления Office 365 с помощью Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="51cf1-150">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-  - [<span data-ttu-id="cd275-151">Использование Windows PowerShell для управления Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="cd275-151">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [<span data-ttu-id="51cf1-151">Использование Windows PowerShell для управления Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="51cf1-151">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [<span data-ttu-id="cd275-152">Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="cd275-152">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [<span data-ttu-id="51cf1-152">Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="51cf1-152">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a><span data-ttu-id="cd275-153">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="cd275-153">Related topics</span></span>
-[<span data-ttu-id="cd275-154">Создание настраиваемых политик внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="cd275-154">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+## <a name="related-topics"></a><span data-ttu-id="51cf1-153">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="51cf1-153">Related topics</span></span>
+[<span data-ttu-id="51cf1-154">Создание настраиваемых политик внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="51cf1-154">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
 
-[<span data-ttu-id="cd275-155">Передача файлов точка-точка блока</span><span class="sxs-lookup"><span data-stu-id="cd275-155">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+[<span data-ttu-id="51cf1-155">Блокировка передачи файлов между точками</span><span class="sxs-lookup"><span data-stu-id="51cf1-155">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
 
-[<span data-ttu-id="cd275-156">Настройка политик конференц-связи в вашей организации</span><span class="sxs-lookup"><span data-stu-id="cd275-156">Set up conferencing policies in your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+[<span data-ttu-id="51cf1-156">Настройка политик конференц-связи в Организации</span><span class="sxs-lookup"><span data-stu-id="51cf1-156">Set up conferencing policies in your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
 
   
  

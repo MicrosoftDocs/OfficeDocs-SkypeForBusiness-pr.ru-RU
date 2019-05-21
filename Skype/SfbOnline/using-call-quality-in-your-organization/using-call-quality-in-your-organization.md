@@ -1,5 +1,5 @@
 ---
-title: С помощью качество звонка в вашей организации
+title: Использование качества связи в Организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -18,14 +18,14 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: Настройка и использование вызова Analytics для выявления и устранения неполадок Скайп для бизнеса и группами Майкрософт проблемы с качеством вызовов.
-ms.openlocfilehash: 5ba24a8c4d8f74a2a43f28f3f42280a1be40f814
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Настройка и использование средства аналитики звонков для выявления и устранения проблем с качеством звонков в Skype для бизнеса и Microsoft Teams.
+ms.openlocfilehash: d6428afc9fc15bc94dbb2e5b1c3aae44a4f96500
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227291"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303854"
 ---
-# <a name="using-call-quality-in-your-organization"></a><span data-ttu-id="e02e4-103">С помощью качество звонка в вашей организации</span><span class="sxs-lookup"><span data-stu-id="e02e4-103">Using Call Quality in your organization</span></span>
+# <a name="using-call-quality-in-your-organization"></a><span data-ttu-id="804fa-103">Использование качества связи в Организации</span><span class="sxs-lookup"><span data-stu-id="804fa-103">Using Call Quality in your organization</span></span>
 
 
