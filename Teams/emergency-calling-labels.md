@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,19 +19,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Вы можете загрузить эти метки для экстренного вызова при использовании вызова планы в Office 365.
-ms.openlocfilehash: 2b88bfe984aed655a78f69a580fdd1d510f3d8e1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Вы можете скачать эти наклейки для вызова экстренной помощи, если вы используете планы звонков в Office 365.
+ms.openlocfilehash: 0a8476fbe671b55136db371b5a83f778c3ba22c0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244439"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298885"
 ---
-# <a name="emergency-calling-labels"></a>Экстренные вызовы меток
+# <a name="emergency-calling-labels"></a>Этикетки для экстренных вызовов
 
-Далее представлены экстренного вызова (911) меток заявление об отказе или наклейки для использования с подписями адрес Avery 5160 (1 "x 2 5/8") или можно изменять, если вы хотите использовать другие виды меток.
+Это метки отказов на использование средств экстренной помощи (911), которые предназначены для подписок на Avery 5160 (1 "x 2 5/8"), или их размер, если вы хотите использовать другие типы наклеек.
 
-[Щелкните, чтобы загрузить ZIP-файл для вызова аварийного меток (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).
+[Щелкните, чтобы скачать ZIP-файл для подписей на экстренные звонки (EN – US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).
 
 ## <a name="related-topics"></a>См. также:
 

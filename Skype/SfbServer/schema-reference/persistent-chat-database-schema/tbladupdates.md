@@ -5,33 +5,33 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
-description: Таблица tblADUpdates содержит изменения доменных служб Active Directory, которые еще не были обработаны с последующих этапах синхронизации Active Directory.
-ms.openlocfilehash: 4ed1abe2d5926c8b34ddccb28133ecc34ddaa03a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Тбладупдатес содержит изменения доменных служб Active Directory, которые еще не были обработаны с помощью последующих шагов синхронизации Active Directory.
+ms.openlocfilehash: 3e7788db170539f888923a4600392e19022bbb0e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929863"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295561"
 ---
 # <a name="tbladupdates"></a>tblADUpdates
  
-Таблица tblADUpdates содержит изменения доменных служб Active Directory, которые еще не были обработаны с последующих этапах синхронизации Active Directory.
+Тбладупдатес содержит изменения доменных служб Active Directory, которые еще не были обработаны с помощью последующих шагов синхронизации Active Directory.
   
-**Столбцы**
+**Столбцов**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|prinGuid  <br/> |Идентификатор GUID, не может быть null  <br/> |Глобальный Уникальный ИД измененного объекта.  <br/> |
-|prinADPath  <br/> |nvarchar (384), отлично от null  <br/> |Различающееся имя объекта.  <br/> |
-|prinAttributesChanged  <br/> |bit, не может быть null  <br/> |Значение true, если хотя бы один атрибут объекта изменяется.  <br/> |
-|prinMembersChanged  <br/> |bit, не может быть null  <br/> |Значение true, если изменилось членство.  <br/> |
-|prinAffiliationsChanged  <br/> |bit, не может быть null  <br/> |Не используется.  <br/> |
-|prinDeleted  <br/> |bit, не может быть null  <br/> |Значение true, если объект был удален.  <br/> |
-|lastUpdated  <br/> |DateTime, не может быть null  <br/> |Когда строка была вставлена метка времени.  <br/> |
+|Прингуид  <br/> |GUID, а не NULL  <br/> |Идентификатор GUID участника измененного объекта.  <br/> |
+|Принадпас  <br/> |nvarchar (384), NOT NULL  <br/> |Отличительное имя объекта.  <br/> |
+|Принаттрибутесчанжед  <br/> |bit, NOT NULL  <br/> |Значение true, если по крайней мере один из атрибутов объекта изменился.  <br/> |
+|Принмемберсчанжед  <br/> |bit, NOT NULL  <br/> |Значение true, если изменилось членство.  <br/> |
+|Принаффилиатионсчанжед  <br/> |bit, NOT NULL  <br/> |Не используется.  <br/> |
+|Принделетед  <br/> |bit, NOT NULL  <br/> |Значение true, если объект был удален.  <br/> |
+|Ластупдатед  <br/> |DateTime, NOT NULL  <br/> |Метка времени вставки строки.  <br/> |
    
 

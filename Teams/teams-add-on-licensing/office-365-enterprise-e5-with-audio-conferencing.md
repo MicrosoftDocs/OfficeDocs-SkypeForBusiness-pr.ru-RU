@@ -10,27 +10,27 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Сведения о лицензии дополнительный компонент, функции и как приобрести для планов Office 365 корпоративный E5. '
-ms.openlocfilehash: 58e481bce72596bd7e731b73e78cad11bfff6c30
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Узнайте о лицензиях и возможностях надстройки, а также о том, как купить Office 365 корпоративный + + +. '
+ms.openlocfilehash: 35052942774645ff5795ab688876cfbd30c80259
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204580"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298496"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 корпоративный E5
 
-План [Office 365 корпоративный E5](https://products.office.com/business/office-365-enterprise-e5-business-software) включает большинство функций группами Майкрософт. There are just a few additional options.
+План [Office 365 корпоративный](https://products.office.com/business/office-365-enterprise-e5-business-software) + содержит большинство функций Microsoft Teams. There are just a few additional options.
   
-|Добавляемая функция|Вот что необходимо выполнить |
+|Добавляемая функция|Вот что вам нужно сделать |
 |:------------------|:--------------------------|
 |Функция аудиоконференции входит в состав пакета. <br/> |После приобретения лицензии корпорация Майкрософт станет вашим поставщиком аудиоконференций.<br/> |
-|Добавление другого пользователя, вызвав любого телефонный номер в мире бесплатные номера для удаленного доступа для собраний и возможность выполнять звонки из собрания.<br/> | Купите [кредитов коммуникаций](../set-up-communications-credits-for-your-organization.md).|
-|Функция голосовой почты телефонной системы входит в состав пакета. <br/> |Купите [вызов план](../calling-plans-for-office-365.md) для Office 365. <br/>  Или воспользуйтесь [телефонной службой вашего поставщика](microsoft-teams-add-on-licensing.md#bkmk_existing). |
+|Бесплатные номера для доступа к собраниям с телефонным подключением и возможность исходящих звонков с собрания, чтобы добавить пользователя, позвонив по любому номеру телефона в мире.<br/> | Купить [кредиты на связь](../set-up-communications-credits-for-your-organization.md).|
+|Функция голосовой почты телефонной системы входит в состав пакета. <br/> |Приобретите [план звонков](../calling-plans-for-office-365.md) для Office 365. <br/>  Или воспользуйтесь [телефонной службой вашего поставщика](microsoft-teams-add-on-licensing.md#bkmk_existing). |

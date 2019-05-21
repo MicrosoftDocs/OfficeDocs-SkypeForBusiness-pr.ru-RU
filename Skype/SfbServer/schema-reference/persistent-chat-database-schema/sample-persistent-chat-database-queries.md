@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
-description: В этом разделе содержатся примеры запросов для базы данных Persistent Chat.
-ms.openlocfilehash: e81400e357044d215103131a626cd584d2f3fffc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: В этом разделе содержатся примеры запросов для базы данных сохраняемого чата.
+ms.openlocfilehash: fef40c2f36547fb0772d2e938bf8259246ec2055
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930017"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295610"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Примеры запросов к базе данных сохраняемого чата
  
-В этом разделе содержатся примеры запросов для базы данных Persistent Chat.
+В этом разделе содержатся примеры запросов для базы данных сохраняемого чата.
   
-Используйте следующий пример, чтобы получить список наиболее активных комнат сохраняемого чата после определенной даты.
+Чтобы получить список наиболее активных сохраненных комнат чата после определенной даты, используйте следующий пример.
   
 ```
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
@@ -32,7 +32,7 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-Используйте следующий пример, чтобы получить список наиболее активных пользователей после определенной даты.
+Чтобы получить список наиболее активных пользователей после определенной даты, используйте следующий пример.
   
 ```
 SELECT prinName as Name, count(*) as ChatMessages
@@ -42,7 +42,7 @@ SELECT prinName as Name, count(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-Используйте следующий пример, чтобы получить список всех, кто когда-либо отправлял сообщение «Hello World» в нем.
+В следующем примере показано, как получить список всех тех, кто когда-либо отправил сообщение с помощью "Hello World".
   
 ```
 SELECT nodeName as ChatRoom, prinName as Name, content as Message
@@ -50,7 +50,7 @@ SELECT nodeName as ChatRoom, prinName as Name, content as Message
   WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 ```
 
-Используйте следующий пример, чтобы получить список членства в группе для определенного участника.
+С помощью приведенного ниже примера можно получить список участников группы для определенного участника.
   
 ```
 SELECT prinName as Name    
@@ -58,7 +58,7 @@ SELECT prinName as Name
   where principalID = 7 and affiliationID = prinID
 ```
 
-Используйте следующий пример, чтобы получить список всех комнат чата, который пользователь Jane Dow является непосредственным членом.
+В следующем примере показано, как получить список всех комнат чата, в которых входит пользователь, Джейн Seleznyov.
   
 ```
 SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
@@ -66,7 +66,7 @@ SELECT DISTINCT nodeName as ChatRoom, prinName as Name
   WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 ```
 
-Используйте следующий пример, чтобы получить список приглашений, полученных пользователем.
+С помощью приведенного ниже примера можно получить список приглашенных, полученных пользователем.
   
 ```
 SELECT prinName

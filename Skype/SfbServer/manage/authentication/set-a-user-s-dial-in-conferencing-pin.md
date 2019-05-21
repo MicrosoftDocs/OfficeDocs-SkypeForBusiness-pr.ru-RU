@@ -1,37 +1,37 @@
 ---
-title: Задать пользователя телефонных конференций ПИН-код в Скайп для Business Server
+title: Установка ПИН-кода конференц-связи с телефонным подключением пользователя в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: 'Сводка: Set пользователя телефонных конференций ПИН-кода для Скайп for Business Server.'
-ms.openlocfilehash: 4dc60d10d063e367a7fd696d7625c6a5ad5540b9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: Настройка PIN-кода для Конференции с телефонным подключением пользователя для Skype для бизнеса Server.'
+ms.openlocfilehash: d52c52e65fbfe706f243f420d6397319e4d00a32
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919362"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297584"
 ---
-# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Задать пользователя телефонных конференций ПИН-код в Скайп для Business Server
+# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Установка ПИН-кода конференц-связи с телефонным подключением пользователя в Skype для бизнеса Server
  
-**Сводка:** Задайте пользователя телефонных конференций ПИН-кода для Скайп для Business Server.
+**Сводка:** Настройка ПИН-кода конференц-связи с телефонным подключением пользователя для Skype для бизнеса Server.
   
-Чтобы присоединиться к конференции номера в качестве пользователя с разрешением, Скайп для пользователя Business Server с использованием учетных данных доменных служб Active Directory (AD DS) требуется персонального идентификационного номера (ПИН-кода). Если пользователь забудет конференц связи с телефонным ПИН-код или не задано ПИН-кода с помощью Скайп for Business Server, можно задать ПИН-код пользователя из Скайп для панели управления Business Server. You can automatically generate the PIN or create one manually.
+Чтобы присоединиться к Конференции с телефонным подключением в качестве пользователя, прошедшего проверку подлинности, требуется персональный идентификационный номер (ПИН-код) для пользователя Skype для бизнеса Server с учетной записью доменных служб Active Directory (AD DS). Если пользователь забывает ПИН-код конференции с телефонным подключением или не настроили ПИН-код с помощью Skype для бизнеса Server, вы можете задать PIN-код пользователя на панели управления Skype для бизнеса Server. You can automatically generate the PIN or create one manually.
   
 > [!NOTE]
 > Определенные характеристики ПИН-кода, такие как минимальная длина, можно настроить в виде политики. Кроме глобальной политики можно настроить политику ПИН-кода для отдельных узлов или пользователей. 
   
-### <a name="to-set-a-users-pin"></a>Чтобы задать ПИН-код пользователя
+### <a name="to-set-a-users-pin"></a>Настройка ПИН-кода пользователя
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.  
     
 3. На левой панели навигации щелкните **Пользователи**.
     
@@ -54,7 +54,7 @@ ms.locfileid: "33919362"
     > [!TIP]
     > Чтобы добавить в запрос дополнительные условия поиска, щелкните **Добавить фильтр**. 
   
-   e. Щелкните **Поиск**.
+   учеб. Щелкните **Поиск**.
     
     > [!NOTE]
     > Если ПИН-код заблокирован, перед определением необходимо его разблокировать. Чтобы разблокировать ПИН-код, щелкните **Действие**, затем **Разблокировать ПИН-код**. 
@@ -63,7 +63,7 @@ ms.locfileid: "33919362"
     
 7. В диалоговом окне **Установить ПИН-код** выполните одно из указанных ниже действий.
     
-   - Чтобы разрешить Скайп для Business Server для создания ПИН-код пользователя, выберите **автоматически создавать допустимый ПИН-кода** (по умолчанию).
+   - Чтобы разрешить в Skype для бизнеса Server создание PIN-кода пользователя, установите флажок **автоматически создавать допустимый ПИН-код** (по умолчанию).
     
    - Чтобы создать собственный ПИН-код, щелкните **Ввести ПИН-код вручную**, щелкните текстовое поле, а затем введите ПИН-код, который соответствует требованиям, указанным в параметрах политики ПИН-кода.
     
@@ -77,13 +77,13 @@ ms.locfileid: "33919362"
     
 10. Нажмите кнопку **Закрыть**.
     
-## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Назначение ПИН-код пользователя с помощью командлетов Windows PowerShell
+## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Назначение PIN-кода пользователя с помощью командлетов Windows PowerShell
 
-You can assign PIN numbers can also be assigned by using the Set-CsClientPin cmdlet. Можно выполнить этот командлет из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell. Для получения дополнительных сведений об использовании удаленной оболочки Windows PowerShell для подключения к Скайп для Business Server в статье блога [«Быстрый запуск: управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Процесс одинаков в Скайп для Business Server. 
+You can assign PIN numbers can also be assigned by using the Set-CsClientPin cmdlet. Этот командлет можно выполнить либо из командной консоли Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании удаленной оболочки Windows PowerShell для подключения к серверу Skype для бизнеса можно найти в статье ["Краткое руководство": Управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell](https://go.microsoft.com/fwlink/p/?linkId=255876). Этот процесс одинаков в Skype для бизнеса Server. 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Автоматическое назначение ПИН-кода пользователю
 
-Следующая команда служит для назначения GBY-кода пользователю Ken Myer. Так как не задан параметр ПИН-код, Скайп для Business Server автоматически создавать и назначение ПИН-кода.
+Следующая команда служит для назначения GBY-кода пользователю Ken Myer. Так как параметр PIN не указан, сервер Skype для бизнеса будет автоматически создавать и назначать PIN-код.
     
   ```
   Set-CsClientPin -Identity "Ken Myer" 
@@ -97,6 +97,6 @@ You can assign PIN numbers can also be assigned by using the Set-CsClientPin cmd
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-Для получения дополнительных сведений см раздел справки для командлета [Set-CsClientPin](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps) .
+Дополнительные сведения можно найти в разделе справки по командлету [Set-ксклиентпин](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps) .
   
 

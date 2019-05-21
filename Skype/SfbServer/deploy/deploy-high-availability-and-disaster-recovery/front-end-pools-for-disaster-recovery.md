@@ -1,33 +1,33 @@
 ---
-title: Развертывание парных пулов переднего плана для аварийного восстановления в Скайп for Business Server
+title: Развертывание попарных пулов переднего плана для аварийного восстановления в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Вам может потребоваться использовать сопряженные интерфейсные пулы для обеспечения аварийного восстановления, однако это не обязательное требование.
-ms.openlocfilehash: b281b8d0e9453de2f3faeab5abad88c846633f12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 49af49a4a8ff3dd0f543de6f1b13bfbe5b571788
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894551"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298510"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Развертывание парных пулов переднего плана для аварийного восстановления в Скайп for Business Server
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Развертывание попарных пулов переднего плана для аварийного восстановления в Skype для бизнеса Server
  
 Вам может потребоваться использовать сопряженные интерфейсные пулы для обеспечения аварийного восстановления, однако это не обязательное требование.
   
-Вы легко можете развернуть топологию аварийного восстановления для парных пулов переднего плана с помощью построителя топологий. 
+Топологию аварийного восстановления для сопряженных пулов переднего плана можно легко развернуть с помощью построителя топологии. 
   
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>Развертывание пары интерфейсных пулов
 
-1. Для пулов, новые и еще не заданы, используйте построитель топологий для создания пулов.
+1. Если вы еще не определили пулы, используйте построитель топологии для создания пулов.
     
-2. Щелкните правой кнопкой мыши один из двух пулов в построителе топологий и выберите команду **Изменить свойства**.
+2. В построителе топологии щелкните правой кнопкой мыши один из двух пулов и выберите команду **изменить свойства**.
     
 3. Щелкните элемент **Устойчивость** на левой панели и выберите **Связанный резервный пул** на правой панели.
     
@@ -37,7 +37,7 @@ ms.locfileid: "33894551"
     
     Теперь при просмотре сведений о данном пуле связанный с ним пул отображается на правой панели в области **Устойчивость**.  
     
-6. Чтобы опубликовать топологию с помощью построителя топологии.
+6. Опубликуйте топологию с помощью построителя топологии.
     
 7. Если два эти пула еще не были развернуты, разверните их для завершения настройки. Вы можете пропустить два последних действия данной процедуры.
     
@@ -51,7 +51,7 @@ ms.locfileid: "33894551"
 
     Это позволяет настроить остальные службы, необходимые для правильной работы резервного сопряжения.
     
-9. Из Скайп для командной консоли Business Server выполните следующую команду: 
+9. В командной строке консоли управления Skype для бизнеса Server выполните указанные ниже действия. 
     
    ```
    Start-CsWindowsService -Name LYNCBACKUP
@@ -78,8 +78,8 @@ ms.locfileid: "33894551"
     ```
 
 > [!NOTE]
-> Параметр **автоматической отработки отказа и восстановления размещения для голосовой связи** и связанные временных интервалов в построителе топологий применяются только к функции обеспечения устойчивости голосовой связи, которые были представлены в Lync Server. Selecting this option does not imply that the pool failover discussed in this document is automatic. Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.
+> Параметры **автоматического перехода на другой ресурс и восстановление при сбое для голосовой связи** , а также соответствующие интервалы времени в построителе топологии применяются только к функциям устойчивости голоса, которые появились в Lync Server. Selecting this option does not imply that the pool failover discussed in this document is automatic. Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.
   
 ## <a name="see-also"></a>См. также
 
-[Переднего плана пула аварийного восстановления в Скайп для Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[Внешнее аварийное восстановление пула в Skype для бизнеса Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

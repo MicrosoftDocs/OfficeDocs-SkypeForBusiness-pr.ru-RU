@@ -1,33 +1,33 @@
 ---
-title: Создание политик конференц-связи в Скайп для Business Server
+title: Создание политик конференц-связи в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Сводка: Сведения о создании политик конференц-связи в Скайп для Business Server.'
-ms.openlocfilehash: 58a7cb21c9c44241723ffef42a0806d46fab87f5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о создании политик конференц-связи в Skype для бизнеса Server.'
+ms.openlocfilehash: 323a50ab779e772ca6149dc4c151f9d42d55df66
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919544"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304014"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политик конференц-связи в Скайп для Business Server
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политик конференц-связи в Skype для бизнеса Server
  
-**Сводка:** Сведения о создании политик конференц-связи в Скайп для Business Server.
+**Сводка:** Сведения о том, как создавать политики конференций в Skype для бизнеса Server.
   
-Политики конференц-связи можно создать с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
+Вы можете создавать политики конференций с помощью панели управления Skype для бизнеса Server или с помощью командной консоли Skype для бизнеса Server.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Создание политик конференц-связи с помощью Скайп для панели управления Business Server
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Создание политик конференц-связи с помощью панели управления Skype для бизнеса Server
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2. Откройте Скайп для панели управления Business Server.
+2. Откройте панель управления Skype для бизнеса Server.
     
 3. На левой панели навигации щелкните **Конференция**, а затем — **Политика конференц-связи**.
     
@@ -44,7 +44,7 @@ ms.locfileid: "33919544"
     
 6. В разделе **Политика организатора** в поле **Максимальный размер собрания** введите максимальное допустимое число пользователей собрания. Значение по умолчанию — 250.
     
-7. To prevent users from inviting anonymous users to meetings, clear the **Allow participants to invite anonymous users** check box. Анонимные пользователи не пользователей, у которых нет учетных данных в доменных службах Active Directory вашей организации и пользователей, которые, следовательно, не прошедшим проверку подлинности. By default, users can invite anonymous users to meetings.
+7. To prevent users from inviting anonymous users to meetings, clear the **Allow participants to invite anonymous users** check box. Анонимные пользователи — это пользователи, у которых нет учетных данных в доменных службах Active Directory вашей организации и которые, следовательно, не прошли проверку подлинности. By default, users can invite anonymous users to meetings.
     
 8. В окне **Запись** выполните одно из следующих действий.
     
@@ -114,16 +114,16 @@ ms.locfileid: "33919544"
     
 21. Нажмите **Исполнить**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Создание политик конференц-связи с помощью Скайп для консоли Business Server
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Создание политик конференц-связи с помощью командной консоли Skype для бизнеса Server
 
 Чтобы создать политики конференц-связи, используйте командлет **New-CsConferencingPolicy**.
   
-В следующем примере создается новая политика конференц-связи с идентификатором SalesConferencingPolicy. В этой политике будут использованы все значения по умолчанию, кроме одного: MaxMeetingSize. В этом примере максимальное количество участников будет 50 вместо значения по умолчанию — 250.
+В следующем примере создается новая политика конференц-связи с удостоверением СалесконференЦингполици. В этой политике будут использованы все значения по умолчанию, кроме одного: MaxMeetingSize. В этом примере максимальное количество участников будет 50 вместо значения по умолчанию — 250.
   
 ```
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Дополнительные сведения, включая описание полный синтаксис и список параметров содержатся в разделе [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
+Дополнительные сведения, в том числе полные описания синтаксиса и список параметров, можно найти в разделе [New-ксконференЦингполици](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
   
 

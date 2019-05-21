@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,18 +18,18 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Политики клиента помогают определить функции Skype для бизнеса online, доступные пользователям. Например, вы можете предоставить одним пользователям право передавать файлы и запретить это другим пользователям.
-ms.openlocfilehash: 33623e43ed6e7db6edd8af14e042ae798c9c8cd1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 14d023598a27c676fd4249e97e6454b8110ee958
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237501"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297721"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Настройка политик клиента в организации
 
 [] Политики клиента помогают определить функции Skype для бизнеса online, доступные пользователям. Например, вы можете предоставить одним пользователям право передавать файлы и запретить это другим пользователям.
   
-Во время создания политики можно настроить параметры политики клиента или командлет **Set-CsClientPolicy** для изменения параметров существующей политики.
+Параметры политики клиента можно настроить на момент создания политики, а также можно использовать командлет **Set-CsClientPolicy** , чтобы изменить параметры существующей политики.
   
 ## <a name="set-your-client-policies"></a>Задание политик клиента
 
@@ -66,7 +66,7 @@ ms.locfileid: "32237501"
     Import-PSSession $session
    ```
 
-   Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [настроить компьютер для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Если вы хотите получить дополнительные сведения о запуске Windows PowerShell, ознакомьтесь со статьей [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [Настройка компьютера для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Отключение эмотиконов, уведомлений о присутствии и запрет на сохранение мгновенных сообщений
 
@@ -77,7 +77,7 @@ ms.locfileid: "32237501"
 >   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
 >   ```
 
-  В разделе Дополнительные с параметрами командлета [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  Дополнительные сведения о командлете [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
     
@@ -86,9 +86,9 @@ ms.locfileid: "32237501"
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
 >   ```
 
-  Просмотрите Дополнительные сведения о командлета [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Дополнительные сведения о командлете [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-Если вы уже создали политику, можно использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) для внесения изменений в существующую политику и затем используйте командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) для применения параметров для пользователей.
+Если вы уже создали политику, вы можете использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) , чтобы применить параметры к вашим пользователям.
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>Разрешение перехода по URL-адресам или гиперссылкам в мгновенных сообщениях
 
@@ -99,7 +99,7 @@ ms.locfileid: "32237501"
 >   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
 >   ```
 
-  В разделе Дополнительные с параметрами командлета [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  Дополнительные сведения о командлете [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
     
@@ -108,9 +108,9 @@ ms.locfileid: "32237501"
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
 >   ```
 
-  Просмотрите Дополнительные сведения о командлета [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Дополнительные сведения о командлете [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-Если вы уже создали политику, можно использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) для внесения изменений в существующую политику и затем используйте командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) для применения параметров для пользователей.
+Если вы уже создали политику, вы можете использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) , чтобы применить параметры к вашим пользователям.
   
 ### <a name="prevent-showing-recent-contacts"></a>Запрет отображения последних контактов
 
@@ -120,7 +120,7 @@ ms.locfileid: "32237501"
   > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
   > ```
 
-  В разделе Дополнительные с параметрами командлета [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  Дополнительные сведения о командлете [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
 - Чтобы предоставить новую политику Amos Marble, запустите следующую команду:
   > 
@@ -128,9 +128,9 @@ ms.locfileid: "32237501"
   > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   > ```
 
-  Просмотрите Дополнительные сведения о командлета [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Дополнительные сведения о командлете [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-  Если вы уже создали политику, можно использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) для внесения изменений в существующую политику и затем используйте командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) для применения параметров для пользователей.
+  Если вы уже создали политику, вы можете использовать командлет [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) , чтобы применить параметры к вашим пользователям.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
@@ -151,9 +151,9 @@ ms.locfileid: "32237501"
 ## <a name="related-topics"></a>Статьи по теме
 [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)
 
-[Передача файлов точка-точка блока](block-point-to-point-file-transfers.md)
+[Блокировка передачи файлов между точками](block-point-to-point-file-transfers.md)
 
-[Настройка политик конференц-связи в вашей организации](set-up-conferencing-policies-for-your-organization.md)
+[Настройка политик конференц-связи в Организации](set-up-conferencing-policies-for-your-organization.md)
 
   
  

@@ -1,11 +1,11 @@
 ---
-title: Мастер гибридной войти в Office 365
+title: Мастер гибридной работы вход в Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.HybridSignIntoO365
@@ -16,17 +16,17 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: Используйте Скайп к управляемости гибридного сервера Business мастера по настройке среды для гибридной среды с Скайп для бизнеса в Интернет.
-ms.openlocfilehash: 1e0a9e87e4ddeb32223fbc9b5c7d92ab4210e1ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: С помощью мастера гибридного управления в Skype для бизнеса Server вы можете настроить среду для гибридной работы в Skype для бизнеса Online.
+ms.openlocfilehash: 1729699fdce96549bf1d3e485a6346960c4cc5ed
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910927"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293489"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Мастер гибридной среды: вход в Office 365
 
-Используйте Скайп к управляемости гибридного сервера Business мастера по настройке среды для гибридной среды с Скайп для бизнеса в Интернет.
+С помощью мастера гибридного управления в Skype для бизнеса Server вы можете настроить среду для гибридной работы в Skype для бизнеса Online.
 
 ## <a name="sign-in-to-office-365"></a>Вход в Office 365
 

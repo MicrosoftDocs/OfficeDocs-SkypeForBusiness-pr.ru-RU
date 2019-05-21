@@ -10,26 +10,26 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Сведения о лицензии дополнительный компонент и функции для GOV, EDU и планы некоммерческой организации. '
-ms.openlocfilehash: 3aa8cfc2f08f31f78aa830fb4c44a513a160e5c5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Узнайте о лицензиях и функциях надстроек для GOV, EDU и некоммерческих планов. '
+ms.openlocfilehash: 1e9fc8f4cc7d658285e3e871700caa651736acfd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204509"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298589"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Государственные, образовательные и некоммерческие организации
 
-Большинство групп функции, доступные для государственных учреждений "мне Нравится", education и некоммерческие организации. Для получения дополнительных сведений см.
+Большинство функций Teams доступно для организаций, исученных правительством США, а так и для образования. Дополнительные сведения приведены в таблице ниже.
 
-|**Функция групп**|**Доступные GOV (GCC)**|**Доступные GOV (не являющиеся GCC)**|**Доступные EDU**|**Доступна для некоммерческих организаций**|
+|**Компоненты Teams**|**Доступно для GOV (GCC)**|**Доступно для GOV (не GCC)**|**Доступно для образовательных учреждений**|**Доступна для некоммерческих организаций**|
 |:-----|:-----|:-----|:-----|:-----|
 |Аудиоконференции  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
 |Телефонная система Office 365  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |

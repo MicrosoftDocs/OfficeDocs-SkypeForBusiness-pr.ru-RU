@@ -4,61 +4,61 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Перед ликвидацией пула необходимо выполнить следующую процедуру для каждого каталога конференции в устаревшем пуле.
-ms.openlocfilehash: 32ebe22c54585a206c90888238d96e41fce30a58
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Перед списанием пула необходимо выполнить описанные ниже действия для каждой из каталогов конференций в пуле старого.
+ms.openlocfilehash: c3bee8160e7387102f6d45fc39fa821d2f0df161
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231604"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298143"
 ---
 # <a name="move-conference-directories"></a>Перемещение каталогов конференций
 
-Перед ликвидацией пула необходимо выполнить следующую процедуру для каждого каталога конференции в устаревшем пуле.
+Перед списанием пула необходимо выполнить описанные ниже действия для каждой из каталогов конференций в пуле старого.
   
-### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a>Перемещение каталога конференции Скайп для Business Server 2019
+### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a>Перемещение каталога конференций в Skype для бизнеса Server 2019
 
-1. Откройте Скайп для консоли Business Server.
+1. Откройте консоль управления Skype для бизнеса Server.
     
-2. Чтобы получить идентификатор каталогов конференций в вашей организации, выполните следующую команду:
+2. Чтобы получить удостоверение каталогов конференции в Организации, выполните следующую команду:
     
    ```
    Get-CsConferenceDirectory
    ```
 
-    Предыдущая команда возвращает все каталоги конференций в организации. Из-за, можно ограничить результаты в пул списан. Например если ликвидации пула с pool01.contoso.net полное доменное имя (FQDN), чтобы ограничить возвращаемые данные для каталогов конференций из этого пула используйте следующую команду:
+    Предыдущая команда возвращает все каталоги конференций в Организации. По этой причине вам может потребоваться ограничить результаты для пула. Например, если вы собираетесь списать пул с полным доменным именем (FQDN) pool01.contoso.net, используйте эту команду, чтобы ограничить возвращаемые данные каталогам конференций из этого пула.
     
    ```
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
-    Эта команда возвращает только каталоги конференций, в которых свойство ServiceID содержит полное доменное имя pool01.contoso.net.
+    Эта команда возвращает только каталоги конференций, в которых свойство Сервицеид имеет полное доменное имя (FQDN) pool01.contoso.net.
     
-3. Для перемещения каталогов конференций, выполните следующую команду для каждого каталога конференции в пуле:
+3. Чтобы переместить каталоги конференций, выполните для каждой из каталогов конференций в пуле следующую команду:
     
    ```
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
-    К примеру перемещение каталога конференции 3, используйте следующую команду, указав в качестве TargetPool Скайп для пула Business Server 2019:
+    Например, чтобы переместить каталог конференций 3, используйте эту команду, указав в качестве Таржетпул пул 2019 в Skype для бизнеса Server.
     
    ```
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
    ```
 
-    Если вы хотите переместить все каталоги конференций в пуле, используйте команду, аналогичную следующей:
+    Если вы хотите переместить все каталоги конференций в пуле, выполните команду, подобную следующей:
     
    ```
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 
-Загрузите [Microsoft Удаление прежних версий и удаление роли сервера](https://go.microsoft.com/fwlink/p/?linkId=246227) для подробные пошаговые инструкции по ликвидация старых пулов.
+Скачайте раздел [Удаление старой версии Microsoft и удалите роли сервера](https://go.microsoft.com/fwlink/p/?linkId=246227) , чтобы получить исчерпывающие пошаговые инструкции по списанию устаревших пулов.
   
-После перемещения каталогов конференций, может появиться следующее сообщение об ошибке:
+При перемещении каталогов конференций может появиться следующее сообщение об ошибке:
   
 ```
 WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
@@ -67,6 +67,6 @@ Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObjec
 This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 ```
 
-Как правило, эта ошибка возникает при Скайп оболочки управления Business Server требуется обновленный набор разрешений Active Directory для выполнения задачи. Для устранения этой проблемы, закрыть текущий экземпляр консоли, а затем откройте новый экземпляр объекта командной консоли и повторно выполните команду, чтобы переместить каталог конференции.
+Как правило, эта ошибка возникает, когда для выполнения задачи в командной консоли Skype для бизнеса Server требуется обновленный набор разрешений Active Directory. Чтобы устранить эту проблему, закройте текущий экземпляр интерпретатора команд, а затем откройте новый экземпляр оболочки и повторно выполните команду, чтобы переместить каталог конференций.
   
 

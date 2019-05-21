@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
-description: Таблица tblLastChatId содержит последние Идентификаторы чатов, созданного (и используемый в таблице tblChat) для каждого пользователя.
-ms.openlocfilehash: 9d19c6c873660683ff526eb144d74b6e8752bf80
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Тблластчатид включает последний идентификатор чата, который был создан (и использован в таблице Тблчат) для каждого пользователя.
+ms.openlocfilehash: f14d8090fd3252d88ef747de93a987f51870a63b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929968"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295400"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
-Таблица tblLastChatId содержит последние Идентификаторы чатов, созданного (и используемый в таблице tblChat) для каждого пользователя.
+Тблластчатид включает последний идентификатор чата, который был создан (и использован в таблице Тблчат) для каждого пользователя.
   
-**Столбцы**
+**Столбцов**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|nodeID  <br/> |int, не null  <br/> |КОД узла (только типа комнаты чата).  <br/> |
-|lastChatID  <br/> |bigint, не может быть null  <br/> |Последний идентификатор чата.  <br/> |
+|Нодеид  <br/> |int, NOT NULL  <br/> |Идентификатор узла (комната чата — только тип).  <br/> |
+|Ластчатид  <br/> |bigint, NOT NULL  <br/> |НОМЕР последнего использованного чата.  <br/> |
    
-**Ключи**
+**Параметры**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|\<nodeID lastChatID\>  <br/> |Первичный ключ (достаточно NodeId для обработки).  <br/> |
-|nodeID  <br/> |Внешний ключ с подстановкой в таблице tblNode.nodeID.  <br/> |
+|\<Нодеид, Ластчатид\>  <br/> |Первичный ключ (для обработки достаточно просто Нодеид).  <br/> |
+|Нодеид  <br/> |Внешний ключ с подстановкой в таблице Тблноде. Нодеид.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

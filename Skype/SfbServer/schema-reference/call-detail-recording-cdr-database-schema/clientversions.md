@@ -1,31 +1,31 @@
 ---
-title: Таблица ClientVersions в Скайп для Business Server 2015
+title: Таблица Клиентверсионс в Skype для бизнеса Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
-description: Таблица ClientVersions — собой вспомогательную таблицу, в которой хранится список различных типов клиентов и версии, которые участвовали в сеансах, записанные в базе данных. Каждая запись в таблице представляет одну версию клиента.
-ms.openlocfilehash: 86711c89baf374576ee53c64a67688cde10103cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Таблица Клиентверсионс является вспомогательной таблицей, в которой хранится список различных типов клиентов и версий, которые принимали участие в сеансах, записанных в базе данных. Каждая запись в таблице представляет одну версию клиента.
+ms.openlocfilehash: b42bc79fb04ca4ce2ef88fb7c280db7bc281e23b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901445"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296513"
 ---
-# <a name="clientversions-table-in-skype-for-business-server-2015"></a>Таблица ClientVersions в Скайп для Business Server 2015
+# <a name="clientversions-table-in-skype-for-business-server-2015"></a>Таблица Клиентверсионс в Skype для бизнеса Server 2015
  
-Таблица ClientVersions — собой вспомогательную таблицу, в которой хранится список различных типов клиентов и версии, которые участвовали в сеансах, записанные в базе данных. Каждая запись в таблице представляет одну версию клиента.
+Таблица Клиентверсионс является вспомогательной таблицей, в которой хранится список различных типов клиентов и версий, которые принимали участие в сеансах, записанных в базе данных. Каждая запись в таблице представляет одну версию клиента.
   
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**VersionId** <br/> |**целое** <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этот тип и версию клиента.  <br/> |
+|**VersionId** <br/> |**целое** <br/> |Primary  <br/> |Уникальный номер, показывающий этот тип клиента и версию.  <br/> |
 |**Версия** <br/> |**nvarchar(256)** <br/> ||Название версии.  <br/> |
-|**Типа клиента** <br/> |целое  <br/> ||Указывает тип клиента, используемая в сеансе. [Таблица useragentdef](useragentdef.md) для получения дополнительных сведений см. <br/> В этом поле было представлено в Microsoft Lync Server 2013.  <br/> |
+|**Клиенттипе** <br/> |целое  <br/> ||Указывает тип клиента, используемого в сеансе. Для получения дополнительных сведений ознакомьтесь с [таблицей усеражентдеф](useragentdef.md) . <br/> Это поле было введено в Microsoft Lync Server 2013.  <br/> |
    
 

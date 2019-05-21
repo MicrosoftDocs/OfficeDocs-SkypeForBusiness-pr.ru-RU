@@ -5,37 +5,37 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-description: tblPreference содержит параметры клиента пользователей. Обычно используется клиентами предшествующих Lync 2013.
-ms.openlocfilehash: 1c8b098d308802428dcb314d2163b9e32863b547
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Тблпреференце включает клиентские настройки пользователей. Обычно используется клиентами, предшествующими Lync 2013.
+ms.openlocfilehash: b646bbe65c8090295c070a4fdc88b8339a62e4ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929921"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295344"
 ---
 # <a name="tblpreference"></a>tblPreference
 
-tblPreference содержит параметры клиента пользователей. Обычно используется клиентами предшествующих Lync 2013.
+Тблпреференце включает клиентские настройки пользователей. Обычно используется клиентами, предшествующими Lync 2013.
 
-**Столбцы**
+**Столбцов**
 
 
 | **Столбец**            | **Тип**                        | **Описание**                                                 |
 |:----------------------|:--------------------------------|:----------------------------------------------------------------|
-| prefLabel  <br/>      | nvarchar (255), отлично от null  <br/> | Метка имеет формат, таких как: \<uri sip пользователя\>                   |
-| prefSeqID  <br/>      | int, не null  <br/>            | Порядковый номер (каждой отдельной метки) для управления версиями.  <br/> |
-| prefContent  <br/>    | nvarchar (максимум)  <br/>           | Зашифрованное содержимое.  <br/>                                         |
-| lastModifiedBy  <br/> | int, не null  <br/>            | Идентификатор субъекта, обновившего.  <br/>         |
+| Префлабел  <br/>      | nvarchar (255), NOT NULL  <br/> | Метка с таким же форматом, \<как URL-адрес пользователя SIP\>                   |
+| Префсекид  <br/>      | int, NOT NULL  <br/>            | Последовательный номер (на метку) для целей управления версиями.  <br/> |
+| Префконтент  <br/>    | nvarchar (max)  <br/>           | Закодированное содержимое.  <br/>                                         |
+| Ластмодифиедби  <br/> | int, NOT NULL  <br/>            | Идентификатор участника, который обновил предпочтение.  <br/>         |
 
 **Ключ**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|\<prefLabel prefSeqID\>  <br/> |Первичный ключ.  <br/> |
+|\<Префлабел, Префсекид\>  <br/> |Первичный ключ.  <br/> |
 
 
