@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Болгария.
-ms.openlocfilehash: e19263a011c7d0f403c4bb59763b7e7d44b0427d
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Болгария.
+ms.openlocfilehash: 553b3f3819aa5ca19c396c1646f043445d6dc978
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542649"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283196"
 ---
 # <a name="availability-in-bulgaria"></a>Доступность в Болгарии
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Болгария.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Болгария.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

@@ -1,25 +1,25 @@
 ---
-title: Media Quality отчет по распределению метрик в Скайп для Business Server
+title: Отчет о распределении показателей качества мультимедиа в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 'Сводка: Сведения о Media Quality отчет по распределению метрик в Скайп для Business Server.'
-ms.openlocfilehash: 65fc10e1adaa32c2538f49d7c41fe6ee45a51c1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о отчете о распространении метрик качества мультимедиа в Skype для бизнеса Server.'
+ms.openlocfilehash: 0376f75ff94b1b189c15e53aa7259880da96554a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902273"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280042"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Media Quality отчет по распределению метрик в Скайп для Business Server 
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Отчет о распределении показателей качества мультимедиа в Skype для бизнеса Server 
  
-**Сводка:** Узнайте о Media Quality отчет по распределению метрик в Скайп для Business Server.
+**Сводка:** Сведения о отчете о распространении показателей качества мультимедиа в Skype для бизнеса Server.
   
 Отчет по распределению метрик качества среды позволяет просматривать диаграмму, на которой отображаются значения распространения для метрик качества работы, такие как дрожание и потеря пакетов. Предположим, пользователи сделали 10 звонков; ниже приведен отчет по этим 10 звонкам со следующими значениями времени цикла:
   
@@ -32,9 +32,9 @@ ms.locfileid: "33902273"
 |5  <br/> |50  <br/> |
 |6  <br/> |50  <br/> |
 |7  <br/> |50  <br/> |
-|8  <br/> |4550  <br/> |
-|9  <br/> |50  <br/> |
-|10  <br/> |50  <br/> |
+|No8  <br/> |4550  <br/> |
+|@  <br/> |50  <br/> |
+|5-10  <br/> |50  <br/> |
    
 Среднее время кругового пути составляет 500 мс (5000, разделенные на 10). 500 мс — это очень большое время кругового пути; соответственно, это может говорить о значительных проблемах, связанных с перегрузкой сети (продолжительное время кругового пути, как правило, свидетельствует о перегруженных сетях).
   

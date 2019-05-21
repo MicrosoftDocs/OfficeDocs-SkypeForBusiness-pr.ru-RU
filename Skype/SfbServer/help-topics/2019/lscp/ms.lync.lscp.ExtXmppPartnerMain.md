@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ExtXmppPartnerMain
@@ -13,19 +13,19 @@ localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 2947edd23023af47d9b704d67201d3bb2cdf158d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aae141e3dd54720076522d8c2fa55d6b3ee575e8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891567"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287638"
 ---
 # <a name="xmpp-federated-partners"></a>Федеративные партнеры XMPP
 
 > [!NOTE]
-> XMPP шлюзов и прокси-серверы, доступные в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Для получения дополнительных сведений в разделе [федерации XMPP миграции](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+> Шлюзы и прокси-серверы КСМПП доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019. Более подробную информацию вы видите в разделе [перевод КСМПП Федерации](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
 
-Просмотреть [Управление XMPP федеративных партнеров для вашей организации](https://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
+Просмотр [управления федеративными партнерами КСМПП для Организации](https://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
 
 
 

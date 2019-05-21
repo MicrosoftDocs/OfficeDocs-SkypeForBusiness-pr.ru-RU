@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,16 +18,16 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 'Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online. '
-ms.openlocfilehash: a93cf1d3d09910001f25619969b6d504e23ec36f
-ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
+ms.openlocfilehash: 7e97bc31d85370919eec7c50fae01d00f5b1ddac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34036695"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284713"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Скачайте и установите модуль Skype для бизнеса Online Connector
 
-Скайп для модуля Business Online Connector включает в себя командлет **New-CsOnlineSession** , который позволяет создавать удаленного сеанса Windows PowerShell, который подключается к Скайп для бизнеса в Интернет. В этом модуле, который поддерживается только в 64-разрядных компьютерах ( [Настройка компьютера для Скайп для бизнеса в Интернет управление с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md) более подробные сведения), можно загрузить из центра загрузки Майкрософт по [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366). Загрузите файл SkypeOnlinePowershell.exe, а затем выполните следующие действия:
+Модуль соединителя Skype для бизнеса Online включает командлет **New-ксонлинесессион** , который позволяет создавать удаленные сеансы Windows PowerShell, которые подключаются к Skype для бизнеса Online. Этот модуль, поддерживаемый только на компьютерах 64 (более подробная информация содержится в разделе [Настройка компьютера для управления Skype для бизнеса Online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md) ), можно загрузить в центре загрузки Майкрософт по адресу [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366). Скачайте файл Скипеонлинеповершелл. exe, а затем выполните указанные ниже действия.
   
 1. Дважды щелкните файл **SkypeOnlinePowershell.exe**.
     
@@ -60,7 +60,7 @@ Import-Module SkypeOnlineConnector
 Чтобы проверить версию установленного на вашем компьютере модуля соединителя, откройте панель управления, выберите **Программы и компоненты** и просмотрите значение, представленное в разделе **Модуль Windows PowerShell для Skype для бизнеса Online**.
   
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Настройка компьютера для управления Skype для бизнеса Online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
  

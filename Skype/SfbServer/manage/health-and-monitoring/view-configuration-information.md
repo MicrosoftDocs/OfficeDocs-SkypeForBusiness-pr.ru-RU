@@ -1,43 +1,43 @@
 ---
-title: Сведения о конфигурации CDR представления в Скайп для Business Server
+title: Просмотр сведений о конфигурации CDR в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
-description: 'Сводка: Сведения об использовании регистрации вызовов соединений (CDR) в Скайп для Business Server.'
-ms.openlocfilehash: 5efa27942f91888218ddb1725ffe491fa6992776
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как использовать запись сведений о звонке (CDR) в Skype для бизнеса Server.'
+ms.openlocfilehash: e0aed0c26672b83cb223ba763eb6224025d68118
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898061"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279650"
 ---
-# <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Сведения о конфигурации CDR представления в Скайп для Business Server
+# <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Просмотр сведений о конфигурации CDR в Skype для бизнеса Server
  
-**Сводка:** Сведения об использовании регистрации вызовов соединений (CDR) в Скайп для Business Server.
+**Сводка:** Сведения о том, как использовать запись сведений о звонке (CDR) в Skype для бизнеса Server.
   
 Служба регистрации вызовов (CDR) позволяет отслеживать использование таких услуг, как сеансы обмена одноранговыми мгновенными сообщениями, телефонные вызовы с передачей речи по IP-сетям (VoIP) и вызовы конференц-связи. Данные о таком использовании телефонии включают сведения о том, кто кому звонил, когда звонили и каким долгим был телефонный разговор.
   
-Когда вы устанавливаете Скайп для Business Server, single, глобальной коллекции параметров конфигурации CDR будет создан автоматически. Администраторы также могут создавать настраиваемые коллекции параметров, которые можно применять к отдельным сайтам. Можно просмотреть параметры конфигурации CDR используется в вашей организации с помощью Скайп для панели управления Business Server или командлет [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
+При установке Skype для бизнеса Server создается единая глобальная коллекция параметров конфигурации CDR. Администраторы также могут создавать настраиваемые коллекции параметров, которые можно применять к отдельным сайтам. Вы можете просматривать параметры конфигурации CDR, используемые в Организации, с помощью панели управления Skype для бизнеса Server или командлетом [Get-кскдрконфигуратион](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
   
-### <a name="to-view-cdr-configuration-information-by-using-skype-for-business-server-control-panel"></a>Просмотр сведений о конфигурации CDR с помощью Скайп для панели управления Business Server
+### <a name="to-view-cdr-configuration-information-by-using-skype-for-business-server-control-panel"></a>Просмотр сведений о конфигурации CDR с помощью панели управления Skype для бизнеса Server
 
-1. В Скайп для панели управления Business Server щелкните **мониторинг и Архивация**.
+1. На панели управления Skype для бизнеса Server нажмите кнопку **наблюдение и архивация**.
     
 2. Список всех параметров конфигурации CDR отображается на вкладке **Регистрация вызовов**. Для каждой коллекции параметров вы увидите **Имя**, была ли включена регистрация вызовов или нет (свойство **CDR**) независимо от включения очистки (свойство **Очистка CDR**). Для просмотра подробных сведений о коллекции дважды щелкните ее или выберите нужную коллекцию, нажмите кнопку **Правка** и щелкните **Показать подробности**. Учтите, что вы можете просматривать подробную информацию только для одной коллекции параметров конфигурации CDR за один раз.
     
 ## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о конфигурации CDR с помощью командлетов Windows PowerShell
 
-Параметры конфигурации CDR можно просмотреть с помощью Windows PowerShell и командлет Get-CsCdrConfiguration. Можно выполнить этот командлет из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell. Для получения дополнительных сведений об использовании удаленной оболочки Windows PowerShell для подключения к Скайп для Business Server в статье блога [«Быстрый запуск: управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Процесс одинаков в Скайп для Business Server.
+Вы можете просматривать параметры конфигурации CDR с помощью Windows PowerShell и командлета Get-Кскдрконфигуратион. Этот командлет можно выполнить либо из командной консоли Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании удаленной оболочки Windows PowerShell для подключения к серверу Skype для бизнеса можно найти в статье ["Краткое руководство": Управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell](https://go.microsoft.com/fwlink/p/?linkId=255876). Этот процесс одинаков в Skype для бизнеса Server.
   
 ### <a name="to-view-cdr-configuration-information"></a>Просмотр данных конфигурации CDR
 
-- Чтобы просмотреть сведения обо всех параметрах конфигурации CDR, введите следующую команду в Скайп для консоли Business Server и нажмите клавишу ВВОД:
+- Чтобы просмотреть сведения о всех параметрах конфигурации CDR, введите в командной консоли Skype для Business Server указанную ниже команду и нажмите клавишу ВВОД.
     
   ```
   Get-CsCdrConfiguration
@@ -54,6 +54,6 @@ KeepErrorReportForDays : 60
 PurgeHourOfDay         : 2
 </pre>
 
-Для получения дополнительных сведений см раздел справки для командлета [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
+Дополнительные сведения можно найти в разделе справки по командлету [Get-кскдрконфигуратион](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
   
 

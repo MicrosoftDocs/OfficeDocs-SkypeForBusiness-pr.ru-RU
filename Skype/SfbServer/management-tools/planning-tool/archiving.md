@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.Archiving
@@ -13,18 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
-description: Архивация в Скайп для Business Server предоставляет способ для архивации передаваемых через Скайп для Business Server.
-ms.openlocfilehash: 517cb30574e5b20b302395d29b357593da50e39c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Архивация в Skype для бизнеса Server позволяет архивировать сообщения, отправляемые через Skype для бизнеса Server.
+ms.openlocfilehash: 928a900c9ded9ee831a371cee70dcc519f2660a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914949"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274354"
 ---
 # <a name="archiving-planning-tool"></a>Archiving (Planning Tool)
  
-Архивация в Скайп для Business Server предоставляет способ для архивации передаваемых через Скайп для Business Server.
+Архивация в Skype для бизнеса Server позволяет архивировать сообщения, отправляемые через Skype для бизнеса Server.
   
-Для получения дополнительных сведений о подготовке среды для сервера архивации видеть [Планирование архивации в Скайп для Business Server 2015](../../plan-your-deployment/archiving/archiving.md).
+Подробнее о том, как подготовить среду для сервера архивации, можно найти [в разделе Планирование архивации в Skype для бизнеса server 2015](../../plan-your-deployment/archiving/archiving.md).
   
 

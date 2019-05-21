@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Филиппины.
-ms.openlocfilehash: b4421c88c0ac0ccb5c638abc446a46426de03ed5
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Филиппины.
+ms.openlocfilehash: 76c7632f422a5db572ea8ffacb28d8d70e8b673c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542473"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281986"
 ---
 # <a name="availability-in-the-philippines"></a>Доступность на Филиппинах
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Филиппины.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Филиппины.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -44,7 +44,7 @@ ms.locfileid: "30542473"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для: <br/><ul><li> Манила</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуется кредитов связи  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты на связь  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

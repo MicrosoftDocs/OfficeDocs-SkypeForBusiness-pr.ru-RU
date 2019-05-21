@@ -1,24 +1,24 @@
 ---
-title: Этап 7 завершения задачи после завершения переноса
+title: Этап 7 Завершение задач после миграции
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции в Скайп для Business Server 2019.
-ms.openlocfilehash: ef3a1f4b6d7262d223e78ebfae53e02203e9248e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: В этом разделе описаны задачи, которые необходимо выполнить после перехода на Skype для бизнеса Server 2019.
+ms.openlocfilehash: 34977674966ab7c52e14a3036edc71e1e2f44469
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231453"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273863"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Этап 7: необходимые действия после миграции
 
-В этом разделе описываются задачи, которые необходимо выполнить после завершения миграции в Скайп для Business Server 2019.
+В этом разделе описаны задачи, которые необходимо выполнить после перехода на Skype для бизнеса Server 2019.
   
 ## <a name="in-this-section"></a>Содержание
 
@@ -38,7 +38,7 @@ ms.locfileid: "32231453"
     
 - [Настройка доверенных серверов приложений](configure-trusted-application-servers.md)
     
-- [Развертывание Скайп для клиентов Business Server 2019](deploy-clients.md)
+- [Развертывание клиентов Skype для бизнеса Server 2019](deploy-clients.md)
     
 - [Подключение Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
     

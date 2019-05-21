@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallDatabaseCreateMirrorDatabasePage
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
-ms.openlocfilehash: a4ce2c9ab578111cb261d2857c65d3264e9dd436
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27df8977f9651ac363493d57a306c4355da3aebb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888585"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284307"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Страница установки для создания зеркальной базы данных
  
 Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
   
-Если вы не были установлены зеркальные базы данных SQL Server во время процесса публикации, установите их с помощью **Установка базы данных** из правой кнопкой мыши на любом узле в построителе топологий. Выберите зеркального хранилища для установки. Нажмите кнопку **Параметры** , чтобы определить необходимые дополнительные параметры.
+Если вы решили не устанавливать зеркальные базы данных SQL Server во время процесса публикации, вы сможете установить их с помощью **базы данных** , щелкнув правой кнопкой мыши любой узел в построителе топологии. Вы выбираете для установки зеркальное хранилище. Нажмите кнопку " **Параметры** ", чтобы задать дополнительные параметры.
   
 ## <a name="see-also"></a>См. также
 

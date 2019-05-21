@@ -10,20 +10,20 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: Командлет Get-CsOnlineUser в Windows PowerShell для получения сведений о Скайп вашей организации для бизнеса активные пользователи.
-ms.openlocfilehash: 8f6ca618925b070e1d42a215cb9afb076a1e8197
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: С помощью командлета Get-CsOnlineUser в Windows PowerShell можно получить сведения о пользователях Skype для бизнеса Online в вашей организации.
+ms.openlocfilehash: ca690e272f7755e826ea7432eab124c66eaa81bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226410"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284666"
 ---
 # <a name="manage-user-accounts"></a>Управление учетными записями пользователей
 
@@ -33,88 +33,88 @@ ms.locfileid: "32226410"
 
 - [Получение сведений обо всех пользователях Lync Online](manage-user-accounts.md#BKMKReturnInfoAboutAllUsers)
 
-- [Получить сведения для определенного пользователя в Скайп для бизнеса в Интернет](manage-user-accounts.md#BKMKReturnInfoSpecificUser)
+- [Возврат сведений о конкретном пользователе в Skype для бизнеса Online](manage-user-accounts.md#BKMKReturnInfoSpecificUser)
 
-- [Возвращает сведения, относящиеся к определенным пользователям в Скайп для бизнеса в Интернет](manage-user-accounts.md#BKMKReturninfoSpecificUsers)
+- [Возврат определенных сведений о конкретных пользователях в Skype для бизнеса Online](manage-user-accounts.md#BKMKReturninfoSpecificUsers)
 
-- [Возвращает фильтрованного списка пользователей в Скайп для бизнеса в Интернет](manage-user-accounts.md#BKMKReturnFilteredListofUsers)
+- [Возврат отфильтрованного списка пользователей в Skype для бизнеса Online](manage-user-accounts.md#BKMKReturnFilteredListofUsers)
 
 > [!NOTE]
-> Командлет **Set-CsUser** также входит в набор командлетов, доступных для Скайп для бизнеса в Интернет "Администраторы". Тем не менее **Set-CsUser** в настоящее время не может использоваться для управления Скайп для бизнеса в Интернет, за исключением параметра _AudioVideoDisabled_ . Если попытаться запустить командлет с другими параметрами, она завершится с ошибкой с сообщением об ошибке, похожие на следующие: не удается задать «SipAddress». Этот параметр есть только в пределах удаленного сеанса PowerShell клиента.
+> Командлет **Set-CsUser** также включается в набор командлетов, доступных для администраторов Skype для бизнеса Online. Однако **Set-CsUser** в настоящее время не может использоваться для управления Skype для бизнеса Online, за исключением задания параметра _аудиовидеодисаблед_ . При попытке выполнить командлет с другим параметром произойдет сбой с сообщением об ошибке, похожее на следующее: не удается установить значение "Сипаддресс". Этот параметр ограничен в среде удаленного клиента PowerShell.
 
 ### <a name="return-information-about-all-your-skype-for-business-online-users"></a>Получение сведений обо всех пользователях Lync Online
 <a name="BKMKReturnInfoAboutAllUsers"> </a>
 
-Для получения информации обо всех пользователей, которым был разрешен доступ к Скайп для бизнеса в Интернет, вызовите командлет [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) без дополнительных параметров.
+Чтобы получить сведения обо всех пользователях, которым разрешено использовать Skype для бизнеса Online, вызовите командлет [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) без дополнительных параметров.
 
 ```
 Get-CsOnlineUser
 ```
 
-Чтобы получить сведения для одного, случайно выбранного пользователя (например, чтобы использовать эту учетную запись для тестирования) вызова командлета **Get-CsOnlineUser** и установите параметр _ResultSize_ 1.
+Чтобы вернуть сведения для одного случайно выбранного пользователя (например, чтобы использовать эту учетную запись для целей тестирования), вызовите командлет **Get-CsOnlineUser** и установите для параметра _ресултсизе_ значение 1.
 
 ```
 Get-CsOnlineUser -ResultSize 1
 ```
 
-Который вызывает командлет **Get-CsOnlineUser** возвращает сведения для одного пользователя, независимо от того, сколько пользователей в вашей организации есть. Для возвращения сведений о пяти пользователей, задайте значение параметра _ResultSize_ до 5.
+Это приводит к тому, что командлет **Get-CsOnlineUser** возвращает сведения только для одного пользователя, независимо от количества пользователей в Организации. Чтобы вернуть сведения для пяти пользователей, установите для параметра _ресултсизе_ значение 5.
 
 ```
 Get-CsOnlineUser -ResultSize 5
 ```
 
-### <a name="return-information-for-a-specific-user-in-skype-for-business-online"></a>Получить сведения для определенного пользователя в Скайп для бизнеса в Интернет
+### <a name="return-information-for-a-specific-user-in-skype-for-business-online"></a>Возврат сведений о конкретном пользователе в Skype для бизнеса Online
 <a name="BKMKReturnInfoSpecificUser"> </a>
 
-Существует несколько способов обращения к учетной записи пользователя при вызове командлета [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) . Можно использовать отображаемое имя пользователя доменных служб Active Directory (AD DS).
+Существует несколько способов ссылки на определенную учетную запись пользователя при вызове командлета [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) . Вы можете использовать отображаемое имя пользователя доменных служб Active Directory (AD DS).
 
 ```
 Get-CsOnlineUser -Identity "Ken Myer"
 ```
 
-Можно использовать адрес SIP пользователя.
+Вы можете использовать SIP-адрес пользователя.
 
 ```
 Get-CsOnlineUser -Identity "sip:kenmyer@litwareinc.com"
 ```
 
-Можно использовать его имя участника-пользователя (UPN).
+Вы можете использовать имя участника-пользователя (UPN).
 
 ```
 Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ```
 
-### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>Возвращает сведения, относящиеся к определенным пользователям в Скайп для бизнеса в Интернет
+### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>Возврат определенных сведений о конкретных пользователях в Skype для бизнеса Online
 <a name="BKMKReturninfoSpecificUsers"> </a>
 
-По умолчанию командлет [Get-CsOnlineUser](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) возвращает большой объем сведений для каждого Скайп для бизнеса в Интернет учетной записи пользователя. Если вы заинтересованы в подмножество эти сведения, передайте возвращаемые данные в командлет **Select-Object** . Например эта команда возвращает все данные для пользователя Кен Майер, а затем использует командлет **Select-Object** , чтобы ограничить сведения, отображаемые на экране чтобы Кена Доменные службы Active Directory отображаемое имя и абонентской группы.
+По умолчанию командлет [Get-CsOnlineUser](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) возвращает огромный объем данных для каждой учетной записи пользователя Skype для бизнеса Online. Если вы заинтересованы только в подмножестве этих данных, перебери возвращенные данные в командлет **Select-Object** . Например, эта команда возвращает все данные для пользователя Кен мер, а затем использует командлет **Select-Object** для ограничения отображаемых на экране сведений отображаемым именем и абонентским ИНТЕРФЕЙСОМ AD DS.
 
 ```
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
 ```
 
-Следующие команды Возвращает отображаемое имя и абонентская группа планирования для всех пользователей.
+Следующая команда возвращает отображаемое имя и абонентскую группу для всех пользователей.
 
 ```
 Get-CsOnlineUser | Select-Object DisplayName, DialPlan
 ```
 
-Чтобы найти свойства Скайп для бизнеса в Интернет учетной записи пользователя, используйте следующую команду.
+Чтобы найти свойства учетной записи пользователя Skype для бизнеса Online, выполните следующую команду:
 
 ```
 Get-CsOnlineUser | Get-Member
 ```
 
-### <a name="return-a-filtered-list-of-users-in-skype-for-business-online"></a>Возвращает фильтрованного списка пользователей в Скайп для бизнеса в Интернет
+### <a name="return-a-filtered-list-of-users-in-skype-for-business-online"></a>Возврат отфильтрованного списка пользователей в Skype для бизнеса Online
 <a name="BKMKReturnFilteredListofUsers"> </a>
 
-С помощью командлета [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) и параметры _LdapFilter_ или _Фильтр_ , можно легко возвращать сведения о целевой группы пользователей. Например эта команда возвращает все пользователи, работающие в финансовом подразделении.
+С помощью командлета [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) и параметров _лдапфилтер_ или _Filter_ вы можете легко вернуть сведения о целевом наборе пользователей. Например, эта команда возвращает всех пользователей, работающих в финансовом отделе.
 
 ```
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Настройка компьютера для управления Skype для бизнеса Online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
 

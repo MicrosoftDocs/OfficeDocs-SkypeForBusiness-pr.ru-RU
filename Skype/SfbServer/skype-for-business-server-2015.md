@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 layout: LandingPage
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
-description: 'Сводка: Перейдите по этим ссылкам, чтобы узнать, как реализовать Скайп для Business Server 2015.'
-ms.openlocfilehash: 38faabfeb22fde3762bbbc606252dfe116ea0417
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: Ознакомьтесь с этими ссылками, чтобы ознакомиться со сведениями о том, как внедрить Skype для бизнеса Server 2015.'
+ms.openlocfilehash: 33512dab400d207842d7d548ac217c8d00d923b4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902231"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286812"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype для бизнеса Server 2015
 
-Скайп для бизнеса — это платформа коммуникаций и совместной работы, который объединяет клиентом по Скайп безопасности уровня предприятия, соответствие требованиям и элемента управления. Скайп для бизнеса предлагает компонентов, включая сведения о присутствии, обмен мгновенными Сообщениями, голосовой связи и видеовызовы и собрания по сети. 
+Skype для бизнеса — это платформа для связи и совместной работы, объединяющая в себе клиентские возможности, связанные с безопасностью, соответствием требованиям и управлением корпоративными приложениями. Skype для бизнеса включает такие возможности, как присутствие, мгновенные сообщения, голосовые и видеозвонки, а также собрания по сети. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -126,7 +126,7 @@ ms.locfileid: "33902231"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Загрузите из Скайп для центр оценки бизнеса</h3>
+                        <h3>Загрузка из центра оценки Skype для бизнеса</h3>
                     </div>
                 </div>
             </div>
@@ -137,14 +137,14 @@ ms.locfileid: "33902231"
 
 ---
 
-<h2>Основные статьи</h2>
+<h2>Популярные статьи</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Прежде чем начать</h3>
+                        <h3>Перед началом работы</h3>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Требования к среде</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Требования к сети</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Клиенты и устройства</a></p>
@@ -158,7 +158,7 @@ ms.locfileid: "33902231"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Установка и управление ими</h3>
+                        <h3>Установка и управление</h3>
                         <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Установка Skype для бизнеса Server</a></p>
                         <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Управление системой Skype для бизнеса Server</a></p>
                      </div>
@@ -186,7 +186,7 @@ ms.locfileid: "33902231"
                     <div class="cardText">
                         <h3>Трансляция собрания Skype</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">Что это такое?</a></p>
-                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Настройка локального развертывания на наличие Скайп вещания собрания</a>
+                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Настройка локального развертывания для трансляции собраний Skype</a>
                     </div>
                 </div>
             </div>
@@ -210,8 +210,8 @@ ms.locfileid: "33902231"
                 <div class="card">
                     <div class="cardText">
                         <h3>Другие ресурсы</h3>
-                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Скайп серии готовности бизнеса</a></p>
-                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Скайп документация Business Server 2019</a></p>
+                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Серия готовности Skype для бизнеса</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Документация по Skype для бизнеса Server 2019</a></p>
                         <p><a href="/lyncserver/microsoft-lync-server-2013">Документация по Lync Server 2013</a></p>
                     </div>
                 </div>

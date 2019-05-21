@@ -10,39 +10,39 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: Перед людей в организации можно использовать Скайп вещания собрания, необходимо включить его. Для этого необходимо знать, как с помощью Windows PowerShell. Если вы не знаете Windows PowerShell, рассмотрите возможность найма партнера корпорации Майкрософт, чтобы выполнить это действие для вас.
-ms.openlocfilehash: 699b82af07b263331ee5508326bf3e7ed015848e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Прежде чем сотрудники вашей организации смогут использовать трансляцию собраний Skype, необходимо включить ее. Для этого вам нужно знать, как использовать Windows PowerShell. Если вы не знаете Windows PowerShell, вы можете сделать это с помощью партнера Майкрософт.
+ms.openlocfilehash: bd633b919bc916c1e64620d008e2ec9081656041
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226822"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280806"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собрания Skype
 
-Перед людей в организации можно использовать Скайп вещания собрания, необходимо включить его. Для этого необходимо знать, как с помощью Windows PowerShell. Если вы не знаете Windows PowerShell, рассмотрите возможность найма [партнера корпорации Майкрософт](https://go.microsoft.com/fwlink/?linkid=391089) для выполнения этого шага для вас.
+Прежде чем сотрудники вашей организации смогут использовать трансляцию собраний Skype, необходимо включить ее. Для этого вам нужно знать, как использовать Windows PowerShell. Если вы не знаете Windows PowerShell, вы можете сделать это с помощью [партнера Майкрософт](https://go.microsoft.com/fwlink/?linkid=391089) .
 
   
-## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Включение Скайп собрания вещания с помощью Скайп по центру администрирования бизнеса
+## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Включение трансляции собраний Skype с помощью центра администрирования Skype для бизнеса
 
-![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
 
-1. Вход с помощью учетной записи глобального администратора Office 365 в [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Войдите в систему с помощью учетной записи глобального администратора [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)Office 365 по адресу.
     
-2. В центре администрирования Office 365 перейдите на **центры администрирования** > **Скайп для бизнеса**.
+2. В центре администрирования Office 365 перейдите в раздел **"центры** > администрирования**Skype для бизнеса**".
     
-3. В **Скайп по центру администрирования бизнеса**, перейдите на **собрания по сети** > **распространения собраний**и выберите команду **Включить Скайп вещания собрания**.
+3. В **центре администрирования Skype для бизнеса**перейдите в раздел **собрания** > по сети, чтобы**транслировать**собрания, а затем выберите **Включить трансляцию собраний Skype**.
     
-## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Включение Скайп собрания вещания с помощью PowerShell
+## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Включение трансляции собраний Skype с помощью PowerShell
 
-1. Убедитесь, что запущена версия 3.0 или более поздней версии для Windows PowerShell.
+1. Убедитесь в том, что вы используете версию 3,0 или более позднюю версию Windows PowerShell.
     
 2. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
@@ -52,7 +52,7 @@ ms.locfileid: "32226822"
     
 5. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
     
-6. В **Меню "Пуск"** выберите команду **Windows PowerShell**.
+6. В **меню Пуск**выберите пункт **Windows PowerShell**.
     
 7. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     
@@ -62,38 +62,38 @@ ms.locfileid: "32226822"
    Import-PSSession $O365Session
    ```
 
-8. Подтверждение текущей конфигурации Скайп собрания вещания с помощью:
+8. Подтвердите текущую конфигурацию трансляции собраний Skype, выполнив следующие действия:
     
    ```
    Get-CsBroadcastMeetingConfiguration
    ```
 
-    Убедитесь, что параметр _EnableBroadcastMeeting_ `False`.
+    Убедитесь, что для __ `False`параметра енаблеброадкастмитинг задано значение.
     
-     ![Командлет Скайп вещания Включение организации собраний.](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
+     ![Трансляция собраний Skype с помощью командлета Organization.](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
   
-9. Включение Скайп собрания вещания для вашей организации, выполнив:
+9. Включите трансляцию собраний Skype для своей организации, выполнив следующие действия:
     
    ```
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
-    Убедитесь, что этот параметр включен, выполнив `Get-CsBroadcastMeetingConfiguration` еще раз.
+    Вы можете подтвердить, что параметр включен, запустив `Get-CsBroadcastMeetingConfiguration` его еще раз.
     
-     ![Скайп собрания вещания включите командлет организации.](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
+     ![Трансляция собраний Skype с помощью командлета Organization.](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   
     > [!TIP]
-    > После внесения изменений, он может занять час вступили в силу на портале Скайп собрания вещания. 
+    > После внесения изменений может вступить в силу на портале трансляции собраний Skype в течение часа. 
   
-10. Пользователи теперь могут содержать вещания встречи с другими пользователями в бизнесе. По началу работы, укажите их [возможности собраний Скайп, вещание?](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
+10. Теперь ваши пользователи могут проводить широковещательные собрания с другими пользователями вашего бизнеса. Чтобы начать работу, наведите их на то, [что такое трансляция собрания Skype?](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
     
-## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>Настройка сети для вещания собрания с внешних пользователей
+## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>Настройка сети для трансляции собраний с внешними участниками
 
-Брандмауэр, и требуется для хранения вещании с людьми за ее пределами бизнеса (пользователей, которые не являются федеративными бизнеса), требуется ли настройка сети с использованием эти инструкции: [Настройка сети для Скайп собрания вещания](set-up-your-network-for-skype-meeting-broadcast.md). 
+Если у вас есть брандмауэр и вы хотите хранить широковещательные показы с людьми за пределами вашей организации (которые не являются федеративными организациями), вам нужно настроить сеть, выполнив следующие инструкции: [Настройка сети для трансляции собраний Skype](set-up-your-network-for-skype-meeting-broadcast.md). 
   
-Если вы опытный с Настройка брандмауэра, рассмотрите возможность найма [партнера корпорации Майкрософт](https://go.microsoft.com/fwlink/?linkid=391089) для выполнения этого шага для вас.
+Если вы не сталкивались с настройкой межсетевого экрана, рассматривайте для этого действия [партнера Майкрософт](https://go.microsoft.com/fwlink/?linkid=391089) .
   
-Пропустите этот шаг и вместо этого добавьте другой компании вашей федерации см [Разрешить пользователям включать поддержку для связи внешних Скайп для коммерческих пользователей](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md). 
+Чтобы пропустить этот шаг и добавить еще один бизнес в Федерацию, ознакомьтесь с разделом [Разрешить пользователям связываться с внешними пользователями Skype для бизнеса](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md). 
   
 ## <a name="related-topics"></a>Статьи по теме
 

@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySSRSInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
-description: После предоставления необходимой информации для развертывания сервера мониторинга отчетов Microsoft SQL Server 2008 R2 или для служб Microsoft SQL Server 2012 отчета, на странице выполнение команд отображается сводка по переданные команды для установки отчеты служб отчетов SQL Server.
-ms.openlocfilehash: bb73c456e062a4fc6e3c045db907e6e889d958d9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: После предоставления необходимых данных для развертывания отчетов сервера мониторинга в Microsoft SQL Server 2008 R2 или службах отчетов Microsoft SQL Server 2012, команды выполнения страницы выводят сводку команд, которые выдаются для установки отчеты служб SQL Server Reporting Services.
+ms.openlocfilehash: 5f9fb2a727d9ef43a04b41e247dc421e366170b8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925104"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284790"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>Службы SQL Server Reporting Services (вызов)
  
-После предоставления необходимой информации для развертывания сервера мониторинга отчетов Microsoft SQL Server 2008 R2 или для служб Microsoft SQL Server 2012 отчета, на странице выполнение команд отображается сводка по переданные команды для установки отчеты служб отчетов SQL Server.
+После предоставления необходимых данных для развертывания отчетов сервера мониторинга в Microsoft SQL Server 2008 R2 или службах отчетов Microsoft SQL Server 2012, команды выполнения страницы выводят сводку команд, которые выдаются для установки отчеты служб SQL Server Reporting Services.
   
 Просмотрите сводку команд и обратите внимание на все сообщения об ошибках и предупреждающие сообщения, отображаемые для команд. Если сформирован файл журнала, для просмотра этого файла выберите его в раскрывающемся списке в окне сводки и нажмите кнопку **Просмотреть журнал**.
   
 > [!IMPORTANT]
-> Для отчетов служб Reporting Services, для успешного развертывания и получить доступ к отчетам, после завершения развертывания, необходимо иметь TCP/IP в брандмауэре Windows откройте порт 80 (и при необходимости TCP-порт 443 для протокола SSL, если назначить сертификат для служб отчетов) Повышенной безопасности на сервере SQL Server. Дополнительные сведения см [Настройка брандмауэра Windows на разрешение доступа к SQL Server](https://go.microsoft.com/fwlink/p/?linkId=218031) для Microsoft SQL Server 2008 R2.
+> Для успешной развертки отчетов служб Reporting Services и получения доступа к отчетам после развертывания необходимо иметь порт TCP/IP 80 (и, при необходимости, TCP-порт 443 для SSL, если вы назначаете сертификат для служб Reporting Services) открытым в брандмауэре Windows с повышенной безопасностью SQL Server. Дополнительные сведения можно найти в разделе [Настройка брандмауэра Windows для обеспечения доступа к SQL Server](https://go.microsoft.com/fwlink/p/?linkId=218031) для Microsoft sql Server 2008 R2.
   
-После просмотра сводки нажмите кнопку **Готово** , чтобы завершить установку отчетов в SQL Server Reporting Services.
+После просмотра реферата нажмите кнопку **Готово** , чтобы завершить установку отчетов в службах SQL Server Reporting Services.
   
 

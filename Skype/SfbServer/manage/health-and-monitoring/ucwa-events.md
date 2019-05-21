@@ -1,27 +1,27 @@
 ---
-title: События UCWA в Скайп для Business Server
+title: События УКВА в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 'Сводка: Сведения о веб-объединенных коммуникаций API (UCWA) в Скайп для Business Server.'
-ms.openlocfilehash: f675c16903301412c0c78981b0c17bb9bcc7b24b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о веб-ИНТЕРФЕЙСе единой системы обмена сообщениями (УКВА) в Skype для бизнеса Server.'
+ms.openlocfilehash: bbded70318190fb4fa68ab524a696183c97ff07d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897991"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279699"
 ---
-# <a name="ucwa-events-in-skype-for-business-server"></a>События UCWA в Скайп для Business Server
+# <a name="ucwa-events-in-skype-for-business-server"></a>События УКВА в Skype для бизнеса Server
  
-**Сводка:** Сведения о веб-объединенных коммуникаций API (UCWA) в Скайп для Business Server.
+**Сводка:** Сведения о веб-ИНТЕРФЕЙСе единой системы обмена сообщениями (УКВА) в Skype для бизнеса Server.
   
-Скайп для Business Server использует Unified Communications Web API (UCWA) для различных целей, доступ к Microsoft Exchange для контакта поиска на обновление сведений о присутствии для мобильных клиентов.
+Skype для бизнеса Server использует веб-API единой системы обмена сообщениями (УКВА) в нескольких целях, от доступа к Microsoft Exchange для поиска контактов для обновления сведений о присутствии для мобильных клиентов.
   
 UCWA занесет записи о рабочем поведении с типами событий "Информационный", "Предупреждение" и "Ошибка". В следующей таблице описываются события, которые могут регистрироваться компонентами UCWA.
   

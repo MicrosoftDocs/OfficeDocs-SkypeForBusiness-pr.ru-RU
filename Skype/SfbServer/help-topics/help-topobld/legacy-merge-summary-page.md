@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LegacyMergeSummaryPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
-description: Миграция с Microsoft Office Communications Server 2007 R2 на Lync Server 2013 использует возможности Topology Builder для объединения существующей топологии. Сводный экран указывает все действия и выбранные элементы, внесенные во время настройки слияния Office Communications Server 2007 R2 в конфигурации построитель топологии Lync Server 2013.
-ms.openlocfilehash: ff0be2dc4f87ac41a159465f62aee96ca61e4331
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Миграция с Microsoft Office Communications Server 2007 R2 на Lync Server 2013 использует возможности построителя топологии для слияния существующих топологий. На экране Summary (сводка) указаны все действия и параметры, которые вы внесли в ходе настройки слияния Office Communications Server 2007 R2 и конфигурации сервера Lync Server 2013 Topology Builder.
+ms.openlocfilehash: a717daa2e1c67802442816b67c182424e9a49468
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888529"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284125"
 ---
 # <a name="legacy-merge-summary-page"></a>Страница сводки по объединению с устаревшей версией
 
-Миграция с Microsoft Office Communications Server 2007 R2 на Lync Server 2013 использует возможности Topology Builder для объединения существующей топологии. Сводный экран указывает все действия и выбранные элементы, внесенные во время настройки слияния Office Communications Server 2007 R2 в конфигурации построитель топологии Lync Server 2013.
+Миграция с Microsoft Office Communications Server 2007 R2 на Lync Server 2013 использует возможности построителя топологии для слияния существующих топологий. На экране Summary (сводка) указаны все действия и параметры, которые вы внесли в ходе настройки слияния Office Communications Server 2007 R2 и конфигурации сервера Lync Server 2013 Topology Builder.
 
-Просмотрите сводку и определите, если выбранные параметры были правильно определены. Если вы удовлетворены выбранных элементов, отражены в сводке продолжить работу со слиянием.
+Проверьте сводку и убедитесь, что выбранные параметры заданы правильно. Если вы удовлетворены параметрами, которые отображаются в сводке, продолжайте использовать слияние.
 
 ## <a name="see-also"></a>См. также
 

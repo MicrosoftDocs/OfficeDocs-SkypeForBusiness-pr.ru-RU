@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.MediationCollocation
@@ -13,17 +13,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
-description: 'Сервер-посредник совмещен с сервером переднего плана по умолчанию. Сервер-посредник также могут быть развернуты в отдельном пуле в целях повышения производительности или при развертывании распределения каналов SIP, в этом случае автономного пула настоятельно рекомендуется. Выровненное размещение в Скайп для функций Business Server так же, как и в Lync Server 2013. For details, see the following topics:'
-ms.openlocfilehash: 94d290936d77e6e55270594fdfa5d73d170059e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сервер обновлений по умолчанию выровнен с сервером переднего плана. Сервер-посредник также может развертываться в отдельном пуле для повышения производительности или при развертывании магистральной магистрали SIP, в этом случае настоятельно рекомендуется использовать изолированный пул. Расвыровнение в Skype для бизнеса Server работает так же, как и в Lync Server 2013. For details, see the following topics:'
+ms.openlocfilehash: 197e2f171882f41d7297a8d82f1e251d35d3e833
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912094"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278201"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Mediation Collocation (Planning Tool)
  
-Сервер-посредник совмещен с сервером переднего плана по умолчанию. Сервер-посредник также могут быть развернуты в отдельном пуле в целях повышения производительности или при развертывании распределения каналов SIP, в этом случае автономного пула настоятельно рекомендуется. Выровненное размещение в Скайп для функций Business Server так же, как и в Lync Server 2013. For details, see the following topics:
+Сервер обновлений по умолчанию выровнен с сервером переднего плана. Сервер-посредник также может развертываться в отдельном пуле для повышения производительности или при развертывании магистральной магистрали SIP, в этом случае настоятельно рекомендуется использовать изолированный пул. Расвыровнение в Skype для бизнеса Server работает так же, как и в Lync Server 2013. For details, see the following topics:
   
 - [Поддерживаемое совместное размещение серверов в Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425885%28v=ocs.15%29.aspx)
     

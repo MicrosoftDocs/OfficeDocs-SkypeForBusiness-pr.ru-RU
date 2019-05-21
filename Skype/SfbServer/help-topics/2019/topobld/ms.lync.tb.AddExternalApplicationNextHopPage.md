@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddExternalApplicationNextHopPage
@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 ROBOTS: NOINDEX, NOFOLLOW
-description: Чтобы задать узел следующего перехода для доверенный сервер приложений или пула, выполните следующие действия.
-ms.openlocfilehash: 76910b7b8050e6b2a3804acb2c105245aadfcb4f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Чтобы настроить следующий прыжок для сервера или пула приложений Trusted Applications, выполните указанные ниже действия.
+ms.openlocfilehash: 0af2abdf5a29b65bdcdcf218df89f74911eea861
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888977"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278491"
 ---
 # <a name="add-nexthop-trusted-application-server"></a>Добавление сервера доверенных приложений NextHop
  
-Чтобы задать узел следующего перехода для доверенный сервер приложений или пула, выполните следующие действия.
+Чтобы настроить следующий прыжок для сервера или пула приложений Trusted Applications, выполните указанные ниже действия.
   
-В списке **пул узла следующего перехода** выберите пул Enterprise Edition или Standard Edition Front End Server, который будет пул надежных приложений для использования в качестве следующего прыжка.
+В раскрывающемся списке " **пул следующего прыжка** " выберите пул корпоративных выпусков или стандартный сервер переднего плана, который будет использоваться в качестве следующего прыжка для надежного пула приложений.
   
-Нажмите кнопку **Готово** , чтобы завершить создание пула доверенных приложений.
+Нажмите кнопку **Готово** , чтобы завершить создание надежного пула приложений.
   
 

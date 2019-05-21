@@ -5,7 +5,7 @@ author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 6/4/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,35 +14,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
-description: 'Сводка: Сведения о для организаций, которые не использовать Office 365 и требуется доступ к собраниям, размещенного в организации, выполните.'
-ms.openlocfilehash: 6dafdb57db2ce3609b4fa97dba44ebe6b70a9373
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения для организаций, которые не используют Office 365 и должны иметь доступ к собраниям, размещенным в организациях.'
+ms.openlocfilehash: 1017c81fc3432fbd409077b89809d725b2b0e2cc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926109"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277484"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Минимальные требования к сети для приложения "Собрания Skype"
  
-**Сводка:**  Информация для организаций, которые не использовать Office 365 и требуется доступ к собраниям, размещенного в организации, выполните. В этой статье не предназначен для пользователей из этих приложений.
+**Сводка:**  Сведения для организаций, которые не используют Office 365 и должны иметь доступ к собраниям, размещенным в организациях. Эта статья не предназначена для пользователей этих приложений.
   
-Чтобы разрешить пользователям использовать приложение собраний Скайп собрания, размещенной в Скайп для бизнеса в Интернет, сетевых администраторов организации, не использующих Office 365 должен белом или иным способом делать доступными полные доменные имена, IP-адреса и порты, перечисленных ниже.
+Чтобы пользователи могли использовать приложение "собрания Skype" для участия в собраниях, размещенных в Skype для бизнеса Online, сетевые администраторы организаций, не использующих Office 365, должны Добавление или иным образом предоставлять полные доменные имена, IP-адреса и порты, упомянутые ниже.
 
 ## <a name="requirements-for-skype-meetings-app-connectivity"></a>Требования к подключениям для приложения "Собрания Skype"
 
-Сведения, показанных здесь является частью [диапазонов адресов URL-адреса Office 365 и IP-адрес](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US), который обеспечивает более подробно и всегда будет наиболее в актуальном состоянии.
+Указанные здесь сведения представляют собой подмножество [URL-адресов и диапазонов IP-адресов Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US), что обеспечивает более глубокую и наиболее актуальную информацию.
                     
  
-|Приложения |Полные доменные имена назначения  |IP-адреса  |Порты  |
+|· |Полные доменные имена назначения  |IP-адреса  |Порты  |
 |---|---------|---------|---------|
-|**Приложение для собраний Skype** | \*. lync.com <br/>\*. infra.lync.com<br/>\*. pipe.aria.microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*вещания<span></span>. officeapps.live.com <br/>\*PowerPoint<span></span>. officeapps.live.com <br/>\*. office.live.com<br/>\*. cdn.office.net<br/>*.s-microsoft.com<br/>        |   Эти IP-адреса часто обновляются.  Просмотреть [Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) , а также [Office Online диапазонов IP-адресов](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP: 3478–3481<br/>
-|**Teams**    | \*<span></span>. Microsoft.com (en) <br/>\*<span></span>. skype.com | Эти IP-адреса часто обновляются.  Просмотреть [Скайп для диапазонов IP-адресов бизнеса](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) , а также [Office Online диапазонов IP-адресов](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP: 443 <br/> UDP: 3478–3481
+|**Приложение для собраний Skype** | \*. lync.com <br/>\*. infra.lync.com<br/>\*. pipe.aria.microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*Broadcast<span></span>. officeapps.Live.com <br/>\*PowerPoint<span></span>. officeapps.Live.com <br/>\*. office.live.com<br/>\*. cdn.office.net<br/>*.s-microsoft.com<br/>        |   Эти IP-адреса часто обновляются.  Просмотр [диапазонов IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) и [диапазонов IP-адресов для Office Online](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP: 3478–3481<br/>
+|**Teams**    | \*<span></span>. microsoft.com <br/>\*<span></span>. skype.com | Эти IP-адреса часто обновляются.  Просмотр [диапазонов IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) и [диапазонов IP-адресов для Office Online](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP: 443 <br/> UDP: 3478–3481
 
 ## <a name="see-also"></a>См. также
 <a name="BKMK_Conferencing"> </a>
 
-[Планирование для клиентов собрания (веб-приложения и приложения собрания)](meetings-clients.md)
+[Планирование клиентов собраний (приложение для веб-приложений и собраний)](meetings-clients.md)
 
-[Развертывание веб-загрузки клиентов в Скайп для Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+[Развертывание загружаемых веб-клиентов в Skype для бизнеса Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-[Поддерживаемые платформы для приложения Скайп собраний](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+[Платформы, поддерживаемые приложением "собрания Skype"](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

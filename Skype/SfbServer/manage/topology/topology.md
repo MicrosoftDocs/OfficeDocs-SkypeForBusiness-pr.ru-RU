@@ -1,31 +1,31 @@
 ---
-title: Управление топологией в Скайп для Business Server
+title: Управление топологией в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
-description: 'Сводка: Сведения о действиях, которые для управления топологией в Скайп для Business Server.'
-ms.openlocfilehash: 3d82a60590e7d54d397752567d16c6e6e9ee3cec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о действиях, которые необходимо выполнить для управления топологией в Skype для бизнеса Server.'
+ms.openlocfilehash: 402e8e725aeb92d7b80f87c9b9d1c6f7d66fc807
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911842"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275117"
 ---
-# <a name="manage-your-topology-in-skype-for-business-server"></a>Управление топологией в Скайп для Business Server 
+# <a name="manage-your-topology-in-skype-for-business-server"></a>Управление топологией в Skype для бизнеса Server 
  
-**Сводка:** Сведения о действиях, которые для управления топологией в Скайп для Business Server.
+**Сводка:** Узнайте, как управлять топологией в Skype для бизнеса Server.
   
-В следующих разделах приводятся пошаговые инструкции для задач, связанных с управлением вашей Скайп для топологии Business Server и вашего сервера переднего плана.
+В следующих разделах приведены пошаговые инструкции для задач, связанных с управлением топологией сервера Skype для бизнеса и серверами переднего плана.
   
 - [Управление серверами переднего плана](manage-front-end-servers.md)
     
-- [Управление базами данных с помощью группы обеспечения доступности AlwaysOn](manage-databases.md)
+- [Управление базами данных с помощью группы доступности AlwaysOn](manage-databases.md)
 
 - [Модернизация или обновление внутреннего сервера или сервера Standard Edition](patch-or-update-a-back-end-or-standard-edition-server.md)
     

@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployDomainPrepIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
-description: На странице подготовка домена начинается процесс подготовки домена для Скайп для Business Server 2015. Нажмите Далее для запуска подготовки домена.
-ms.openlocfilehash: 67f96647dbe654ea21d0d214624ccbffecc62a54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: На странице Подготовка домена начинается подготовка домена для работы с Skype для бизнеса Server 2015. Нажмите Далее для запуска подготовки домена.
+ms.openlocfilehash: 55daaa8d6a3701db483db9d4673be4a4cfc8b603
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920684"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283894"
 ---
 # <a name="prepare-current-domain-intro"></a>Подготовка текущего домена (введение)
  
-На странице **Подготовка домена** начинается процесс подготовки домена для Скайп для Business Server 2015. Нажмите **Далее** для запуска подготовки домена.
+На странице **Подготовка домена** начинается подготовка домена для работы с Skype для бизнеса Server 2015. Нажмите **Далее** для запуска подготовки домена.
   
 

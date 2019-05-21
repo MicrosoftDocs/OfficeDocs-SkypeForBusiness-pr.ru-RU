@@ -1,25 +1,25 @@
 ---
-title: Вызова сводного диагностического отчета в Скайп Business Server
+title: Сводный отчет о звонках в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: 'Сводка: Сведения о вызова сводном диагностическом отчете используется в Скайп для Business Server.'
-ms.openlocfilehash: 7c204649a5819b4f119c975e71c6ac52e487b933
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о сводном отчете о диагностике звонков, используемом в Skype для бизнеса Server.'
+ms.openlocfilehash: baa34340214b1eb905777c977c0e9fa8ebaea788
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915299"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279743"
 ---
-# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Вызова сводного диагностического отчета в Скайп Business Server
+# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Сводный отчет о звонках в Skype для бизнеса Server
  
-**Сводка:** Узнайте о вызова сводном диагностическом отчете используется в Скайп для Business Server.
+**Сводка:** Сведения о сводном отчете о диагностике звонков, используемом в Skype для бизнеса Server.
   
 Сводный диагностический отчет по вызовам предоставляет полную сводку по неудачным одноранговым сеансам и сеансам конференц-связи. Этот отчет показывает общее количество сбоев для обоих типов сеансов, и далее разбивает сведения о сбое по следующим типам модальности сеанса:
   
@@ -35,7 +35,7 @@ ms.locfileid: "33915299"
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Доступ к сводному диагностическому отчету по вызовам
 
-The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page. По диагностического отчета вызова Сводка может получить доступ [Peer-to-Peer Activity Diagnostic Report в Скайп для сервера](peer-to-peer-activity-diagnostic-report.md) , щелкнув метрику Частота сбоев в разделе сеанса Peer-to-Peer сводного отчета по. Можно также получить доступ к [Конференции диагностического отчета в Скайп для Business Server](conference-diagnostic-report.md) , щелкнув один из следующих показателей конференции:
+The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page. В сводном отчете диагностика звонков вы можете получить доступ к [диагностическим отчету о действиях одноранговых групп в Skype для бизнеса Server](peer-to-peer-activity-diagnostic-report.md) , щелкнув метрику частота сбоя в разделе "одноранговый сеанс" в сводном отчете. Вы также можете получить доступ к [отчету диагностика конференций в Skype для бизнеса Server](conference-diagnostic-report.md) , щелкнув одну из следующих метрик конференции:
   
 - Общая доля сбоев сеансов
     
@@ -45,7 +45,7 @@ The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home 
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Эффективное использование сводного диагностического отчета по вызовам
 
-Диагностический отчет вызова Сводка включает в себя диаграммы, сравнение сбоев для различных модальностей, используемые в Скайп для Business Server. Столбцы в графиков, фактически гиперссылок; к примеру, при выборе столбце мгновенного обмена сообщениями для сеансов peer-to-peer вы будете перейти экземпляр [Peer-to-Peer Activity Diagnostic Report в Скайп для Business Server](peer-to-peer-activity-diagnostic-report.md), отчет, который предоставляет дополнительные сведения обо всех сеансах обмена мгновенными сообщениями включены в сводном отчете вызова диагностики.
+Сводный отчет о звонке содержит графики, которые сравнивают тарифы на сбои для различных модальностей, используемых в Skype для бизнеса Server. Столбцы на этих графах фактически хотлинкс; Например, если щелкнуть столбец "мгновенные сообщения" для одноранговых сеансов, вы узнаете, как перейти к экземпляру диагностического отчета о действиях одноранговых групп [в Skype для бизнеса Server](peer-to-peer-activity-diagnostic-report.md), который содержит дополнительные сведения обо всех сеансы обмена мгновенными сообщениями, включенными в сводный отчет "Диагностика звонков".
   
 ## <a name="filters"></a>Фильтры
 

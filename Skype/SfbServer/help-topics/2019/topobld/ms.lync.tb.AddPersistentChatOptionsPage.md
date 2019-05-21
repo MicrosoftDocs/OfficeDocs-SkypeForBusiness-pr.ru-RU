@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPersistentChatOptionsPage
@@ -12,15 +12,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Чтобы настроить параметры сервера сохраняемого чата или пул серверов сохраняемого чата, определив следующие свойства:'
-ms.openlocfilehash: 2473f604ba7e95d33faa8ceea0a4b719b5fbe006
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Вы можете настроить параметры почтового сервера или пула сохраняемого чата, определив указанные ниже свойства.
+ms.openlocfilehash: a5f558191553ded1186dc253aac1388a98d53c41
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912255"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281404"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Определение свойств и параметров для пула сохраняемого чата
 
 > [!NOTE] 
-> Сохраняемый чат доступна в Скайп для Business Server 2015, но больше не поддерживается в Скайп для Business Server 2019. Те же функциональные возможности доступны в группах. Дополнительные сведения содержатся в разделе [обновление Скайп для бизнеса для групп Майкрософт](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Если необходимо использовать сохраняемого чата, возможны перенос пользователей, которым требуется эта функция группам или продолжить использование Скайп для Business Server 2015.
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти [в разделе Skype для бизнеса и Microsoft Teams Upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым нужны эти функции, в Teams, либо продолжить работу в Skype для бизнеса Server 2015.
