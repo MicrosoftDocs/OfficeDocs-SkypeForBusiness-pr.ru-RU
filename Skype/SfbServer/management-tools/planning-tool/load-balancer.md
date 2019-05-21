@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.LoadBalancer
@@ -13,20 +13,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
-description: 'Если у вас есть пулов переднего плана, пулы директоров или пограничный сервер пулов, необходимые для развертывания балансировки нагрузки для этих пулов. Load balancing distributes the traffic among the servers in a pool. For details, see:'
-ms.openlocfilehash: 65e150952bd7ab147cc90b1b53aab49b140e8c3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Если у вас есть пулы, пулы или пограничные серверы, вам потребуется развернуть балансировку нагрузки для этих пулов. Load balancing distributes the traffic among the servers in a pool. For details, see:'
+ms.openlocfilehash: 1d348231ef31016c765a69739116a882fbdee650
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915075"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279153"
 ---
-# <a name="load-balancer-planning-tool"></a><span data-ttu-id="f1e5a-105">Load Balancer (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="f1e5a-105">Load Balancer (Planning Tool)</span></span>
+# <a name="load-balancer-planning-tool"></a><span data-ttu-id="61109-105">Load Balancer (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="61109-105">Load Balancer (Planning Tool)</span></span>
  
-<span data-ttu-id="f1e5a-106">Если у вас есть пулов переднего плана, пулы директоров или пограничный сервер пулов, необходимые для развертывания балансировки нагрузки для этих пулов.</span><span class="sxs-lookup"><span data-stu-id="f1e5a-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="f1e5a-107">Load balancing distributes the traffic among the servers in a pool.</span><span class="sxs-lookup"><span data-stu-id="f1e5a-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="f1e5a-108">For details, see:</span><span class="sxs-lookup"><span data-stu-id="f1e5a-108">For details, see:</span></span>
+<span data-ttu-id="61109-106">Если у вас есть пулы, пулы или пограничные серверы, вам потребуется развернуть балансировку нагрузки для этих пулов.</span><span class="sxs-lookup"><span data-stu-id="61109-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="61109-107">Load balancing distributes the traffic among the servers in a pool.</span><span class="sxs-lookup"><span data-stu-id="61109-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="61109-108">For details, see:</span><span class="sxs-lookup"><span data-stu-id="61109-108">For details, see:</span></span>
   
-- [<span data-ttu-id="f1e5a-109">Требования к балансировке нагрузки для Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="f1e5a-109">Load balancing requirements for Skype for Business</span></span>](../../plan-your-deployment/network-requirements/load-balancing.md)
+- [<span data-ttu-id="61109-109">Требования к балансировке нагрузки для Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="61109-109">Load balancing requirements for Skype for Business</span></span>](../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [<span data-ttu-id="f1e5a-110">Требования к DNS для Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="f1e5a-110">DNS requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/network-requirements/dns.md)
+- [<span data-ttu-id="61109-110">Требования к DNS для Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="61109-110">DNS requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/network-requirements/dns.md)
     
 
