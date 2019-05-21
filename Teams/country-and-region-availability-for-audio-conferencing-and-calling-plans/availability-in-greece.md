@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Греция.
-ms.openlocfilehash: e0d73e274ae59b9d9b82b1e7b2b564c9f8070b0a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Греция.
+ms.openlocfilehash: b20d1e92e94c5e4230ffdb5faad695fa88403500
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248097"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282876"
 ---
 # <a name="availability-in-greece"></a>Доступность в Греции
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Греция.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Греция.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

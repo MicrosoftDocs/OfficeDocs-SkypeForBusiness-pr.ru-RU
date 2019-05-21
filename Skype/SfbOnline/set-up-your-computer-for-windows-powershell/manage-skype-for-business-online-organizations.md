@@ -1,5 +1,5 @@
 ---
-title: Управление Скайп для бизнеса в Интернет организаций
+title: Управление организациями Skype для бизнеса Online
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,45 +10,45 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: Использование Windows PowerShell и командлетов Get-CsTenant и Get-CsTenantLicensingConfiguration для получения сведений о вашей Скайп для бизнеса интерактивного клиента.
-ms.openlocfilehash: b71c89967ab34909fa461f71fc5f67c1cf99a408
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Используйте Windows PowerShell и командлеты Get-Кстенант и Get-Кстенантлиценсингконфигуратион для получения сведений о клиенте Skype для бизнеса Online.
+ms.openlocfilehash: 768ee4e0724bd04d38e9ce77b94372bdad498ecd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32224448"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284693"
 ---
-# <a name="manage-skype-for-business-online-organizations"></a>Управление Скайп для бизнеса в Интернет организаций
+# <a name="manage-skype-for-business-online-organizations"></a>Управление организациями Skype для бизнеса Online
 
-Можно найти сведения о вашей Скайп для бизнеса интерактивного клиента с помощью командлетов **Get-CsTenant** и **Get-CsTenantLicensingConfiguration** .
+Вы можете найти сведения о клиенте Skype для бизнеса Online с помощью командлетов **Get-кстенант** и **Get-кстенантлиценсингконфигуратион** .
   
-## <a name="manage-skype-for-business-online-tenants"></a>Управление Скайп для бизнеса в Интернет клиентов
+## <a name="manage-skype-for-business-online-tenants"></a>Управление клиентами Skype для бизнеса Online
 
-Для возвращения сведений о вашей Скайп для бизнеса интерактивного клиента, вызовите командлет [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) без дополнительных параметров.
+Чтобы получить сведения о клиенте Skype для бизнеса Online, вызовите командлет [Get-кстенант](https://go.microsoft.com/fwlink/p/?linkid=849599) без дополнительных параметров.
   
 ```
 Get-CsTenant
 ```
 
-Для возврата только что клиента, имя и идентификатор, используйте следующую команду.
+Чтобы возвратить только имя и идентификатор клиента, используйте эту команду.
   
 ```
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-Значение параметра _TenantID_ является обязательным при запуске командлета [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) и [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).
+Значение параметра _TenantID_ является обязательным при выполнении командлетов, таких как [Set-кстенантпубликпровидер](https://go.microsoft.com/fwlink/p/?linkid=849602) и [Set-кстенантфедератионконфигуратион](https://technet.microsoft.com/en-us/library/jj994080.aspx).
   
-Чтобы найти сведения о доступна ли сведения о лицензировании для указанного клиента в Скайп для бизнеса в Интернет центра администрирования, командлет [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
+Чтобы найти сведения о том, доступны ли сведения о лицензировании для указанного клиента в центре администрирования Skype для бизнеса Online, используйте командлет [Get-кстенантлиценсингконфигуратион](https://go.microsoft.com/fwlink/p/?linkid=849606) .
   
 ## <a name="related-topics"></a>Статьи по теме
-[Настройка компьютера для Скайп online управления бизнес-процессов с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Настройка компьютера для управления Skype для бизнеса Online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
  

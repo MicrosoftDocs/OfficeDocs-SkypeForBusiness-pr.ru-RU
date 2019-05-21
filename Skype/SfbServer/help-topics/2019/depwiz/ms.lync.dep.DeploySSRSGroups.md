@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySSRSGroups
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 ROBOTS: NOINDEX, NOFOLLOW
-description: В группе только для чтения укажите укажите группу, к которому необходимо предоставить доступ только для чтения к отчетам мониторинг.
-ms.openlocfilehash: ce958ffdb368350dab7b5dd75d0f2bc3a6a6cc48
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: В поле укажите группу, предназначенную только для чтения, укажите группу, в которую вы хотите предоставить доступ только для чтения для наблюдения за отчетами.
+ms.openlocfilehash: 5109d801bbda6931674a69fd5069cd5c30cf738f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892022"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278002"
 ---
 # <a name="sql-server-reporting-services-groups"></a>Службы SQL Server Reporting Services (группы)
 
-**Указать группу только для чтения**и укажите группу, к которому необходимо предоставить доступ только для чтения к отчетам мониторинг. Используйте формат &lt;домена&gt;\\&lt;группу доступа&gt;. Например: contoso\RTCUniversalReadOnlyAdmins.
+В поле **Укажите группу**, предназначенную только для чтения, укажите группу, в которую вы хотите предоставить доступ только для чтения для наблюдения за отчетами. &lt;Используйте формат&gt;\\&lt;группы&gt;доступ к домену. Например: Контосо\рткуниверсалреадонлядминс.
   
-Назначение группы доступ только для чтения не является обязательным. Если вы не хотите теперь предоставляется доступ только для чтения, можно настроить его позже непосредственно в SQL Server Reporting Services.
+Назначение групповой доступа только для чтения является необязательным. Если вы не хотите предоставлять доступ только для чтения сейчас, вы можете настроить его позже прямо в службах отчетов SQL Server.
   
 

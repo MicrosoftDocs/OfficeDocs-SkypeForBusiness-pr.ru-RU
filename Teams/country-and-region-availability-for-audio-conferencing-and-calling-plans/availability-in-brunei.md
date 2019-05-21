@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Бруней.
-ms.openlocfilehash: 437c5f62eff5d1fd015185feae6b2a803ad7f63d
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Бруней.
+ms.openlocfilehash: a1019c4ef5bb6bae7add322c5a0e52517c89a9e9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543201"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283220"
 ---
 # <a name="availability-in-brunei"></a>Доступность в Бруней-Даруссаламе
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Бруней.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Бруней.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -44,7 +44,7 @@ ms.locfileid: "30543201"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Неприменимо  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуется кредитов связи  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты на связь  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

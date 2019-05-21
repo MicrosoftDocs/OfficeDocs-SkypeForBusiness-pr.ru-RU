@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Кения.
-ms.openlocfilehash: 0e8b97ce7f07ee134532113819214b3f9bc59cc5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Кения.
+ms.openlocfilehash: 39fc3b2669c9a09fa69570744ab265f22adfb896
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203699"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288072"
 ---
 # <a name="availability-in-kenya"></a>Доступность в Кении
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Кения.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Кения.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -44,7 +44,7 @@ ms.locfileid: "32203699"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуется кредитов связи  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты на связь  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 

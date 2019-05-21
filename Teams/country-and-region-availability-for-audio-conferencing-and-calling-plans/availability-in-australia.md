@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Австралии.
-ms.openlocfilehash: 3035cd55a3fb255b143390bdd6d368d87f23ddbe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Австралии.
+ms.openlocfilehash: 0ced5fd869b54366b5b3214f76b9dee1f8f5782f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245002"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283356"
 ---
 # <a name="availability-in-australia"></a>Доступность в Австралии
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Австралии.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Австралии.
 
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -57,17 +57,17 @@ ms.locfileid: "32245002"
 
 ## <a name="calling-plans"></a>Планы звонков
 > [!IMPORTANT]
-> Доступно только через Telstra для клиентов на основе Австралии. Для получения дополнительных сведений см. [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan).
+> Доступно только через Телстра для клиентов, использующих Австралии. Для получения дополнительных сведений см. [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение планов звонков?  <br/> |Да, в разделе [Telstra вызова для Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
-|Доступные минуты для планов звонков  <br/> |В разделе [Telstra вызова для Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
-|Кому можно делать исходящие звонки?  <br/> |В разделе [Telstra вызова для Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|Доступно ли приобретение планов звонков?  <br/> |Да, смотрите [Телстра звонков для Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
+|Доступные минуты для планов звонков  <br/> |[Дополнительные сведения о Телстра звонков для Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|Кому можно делать исходящие звонки?  <br/> |[Дополнительные сведения о Телстра звонков для Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
 
 > [!IMPORTANT]
-> Чтобы удалить Австралии номера (автор Telstra) свяжитесь с Telstra напрямую.
-> Чтобы обновить сведения об адресе аварийного для Австралии номера (автор Telstra) свяжитесь с Telstra непосредственно.
+> Чтобы удалить австралийские номера абонентов (предоставленные Телстра), свяжитесь с Телстра напрямую.
+> Чтобы обновить сведения об адресах для австралийского абонентского номера (предоставлены компанией Телстра), свяжитесь с Телстра напрямую.
 > Для получения дополнительных сведений см. [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan).
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
@@ -78,7 +78,7 @@ ms.locfileid: "32245002"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
 
-Если вы хотите получить бесплатный и бесплатных номеров телефонов для автосекретарей, вызовите очередей или номеров службы аудиоконференций, [свяжитесь с нами](mailto:ptnapac@microsoft.com).
+Если вы хотите получить бесплатные и платные телефонные номера для автосекретарей, очереди звонков и номера службы голосовой связи, [пожалуйста, свяжитесь с нами](mailto:ptnapac@microsoft.com).
 
 ## <a name="communications-credits"></a>Кредиты на связь
 

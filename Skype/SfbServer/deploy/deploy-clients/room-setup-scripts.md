@@ -3,27 +3,27 @@ title: Сценарии для настройки системы комнат Sk
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: В этом разделе описывается поиск примеров сценариев предоставления учетных записей Системы комнат Skype.
-ms.openlocfilehash: 10e68de94f7327c2a2c111af98a725ad4d8a6754
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4b146346d7afe69746cf7046c0ee156ee9ff0da
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895182"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291703"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Сценарии для настройки системы комнат Skype
  
 В этом разделе описывается поиск примеров сценариев предоставления учетных записей Системы комнат Skype.
   
-В данном разделе приводятся примеры сценариев, которые можно использовать для подготовки Скайп комнаты системных учетных записей. These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.
+В этом разделе приведены примеры сценариев, которые можно использовать для подготовки системных учетных записей Skype для помещения. These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Пример сценария настройки: Скайп для бизнеса и Exchange Server (локально)
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Пример сценария настройки: Skype для бизнеса и Exchange Server (локально)
 
 ```
 # On Exchange 
@@ -37,7 +37,7 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Пример сценария настройки: Скайп для бизнеса и Интернет-версия Exchange Server
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Пример сценария настройки: Skype для бизнеса и Exchange Server Online
 
 Перед запуском сценария обязательно ознакомьтесь со следующими предварительными требованиями.
   

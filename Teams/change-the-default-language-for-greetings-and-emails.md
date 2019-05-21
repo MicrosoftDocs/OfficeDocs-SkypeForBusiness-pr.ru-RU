@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Сведения о настройке Skype для бизнеса с целью использования другого языка для записи приветствия голосовой почты по умолчанию. '
-ms.openlocfilehash: 78bb744fc00f81c18bd411d2a79367d2e4c9e216
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: f36ab76f0a83fc71f9d7ca668020dcd30f4808d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33995169"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283458"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
@@ -43,13 +43,13 @@ ms.locfileid: "33995169"
   
 - **Вам требуется записывать исходящие сообщения голосовой почты?** См. статью [Проверка голосовой почты и параметров в Skype для бизнеса](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
-- **Требуется изменить язык запроса голосовой почты?** Последовательно выберите пункты [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) и выбрать новый язык в разделе **Приглашения язык**.
+- **Вы хотите изменить язык приглашения голосовой почты?** Перейдите в [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) раздел **язык запросов**и выберите новый язык.
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Изменение языка системы сразу для всех пользователей организации
 
-1. Вход с помощью учетной записи [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) в[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Войдите в систему с помощью учетной записи [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) по адресу[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
-2. В центре администрирования Microsoft 365 выбрать **Параметры** > **профиля организации**. 
+2. В центре администрирования Microsoft 365 выберите " **Параметры** > **профиля организации**". 
     
      ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -67,7 +67,7 @@ ms.locfileid: "33995169"
     
 - [Настройка планов звонков](set-up-calling-plans.md)
     
-- [Планирование телефонной системой в Office 365 с помощью локального подключения к ТСОП в Скайп Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Планирование телефонной системы в Office 365 с использованием локальной сети PSTN в Skype для бизнеса Server](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>См. также:
 

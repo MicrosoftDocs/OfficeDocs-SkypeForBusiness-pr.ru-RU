@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LegacyMergeSipPortPage
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'По умолчанию обмен данными с клиентами, интерфейсными пулами прежних версий и серверами осуществляется через SIP-порт 5061, работающий по протоколу TCP. Если значение по умолчанию не применялось, выберите SIP-порт для всех пулов и серверов: и введите новое значение.'
-ms.openlocfilehash: 7a1f07834e31d12720ef109212b906b0ed6e2b5a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 68c0f003c2f428d62c908158046db0ffc8a593f0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885506"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291630"
 ---
 # <a name="legacy-merge-sip-port"></a>Порт SIP для объединения с устаревшей версией
  

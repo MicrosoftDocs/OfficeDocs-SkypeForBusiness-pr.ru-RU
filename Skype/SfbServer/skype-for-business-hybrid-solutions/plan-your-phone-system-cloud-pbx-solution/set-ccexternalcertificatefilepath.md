@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: Командлет Set-CcExternalCertificateFilePath задает путь к сертификату для сервера-посредника или пограничного сервера.
-ms.openlocfilehash: 059d0f2fbf5fee708ceccd0d6e10ad4286fe4f85
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bc22771c20277d9de99660551864d600f06b3acc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895351"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286987"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
@@ -62,12 +62,12 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 
 При развертывании или изменении топологии необходимо указать путь к сертификату пограничного сервера и при необходимости к сертификату сервера-посредника. 
   
-Сертификат сервера-посредника требуется в том случае, если между шлюзами и сервером-посредником используется протокол TLS. При развертывании appliance облачных соединителя и хотите развернуть TLS, можно указать только путь к сертификату, который будет развертываться на сервер-посредник. Тем не менее, если вы хотите обновить сертификат посредника на ранее развернутом устройстве, необходимо указать путь и параметр -Import. Чтобы просмотреть путь, используйте командлет Get-CCExternalCertificateFilePath.
+Сертификат сервера-посредника требуется в том случае, если между шлюзами и сервером-посредником используется протокол TLS. При развертывании устройства облачного соединителя и необходимости развертывания протокола TLS вы можете указать путь к сертификату, который будет развернут на сервере-посреднике. Тем не менее, если вы хотите обновить сертификат посредника на ранее развернутом устройстве, необходимо указать путь и параметр -Import. Чтобы просмотреть путь, используйте командлет Get-CCExternalCertificateFilePath.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 | Целевой объект <br/> | Обязательно <br/> |System.String  <br/> |Тип запрашиваемого пути к файлу. Возможные типы:  <br/> EdgeServer (по умолчанию)  <br/> MediationServer  <br/> |
 |Импорт  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Указывает, что сертификат необходимо импортировать на сервер-посредник. Этот параметр не требуется, если устройство развертывается впервые. Этот параметр обязателен, если требуется заменить существующий сертификат для ранее развернутой версии.  <br/> |

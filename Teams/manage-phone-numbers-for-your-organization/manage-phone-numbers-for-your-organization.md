@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,16 +23,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the information you need.
-ms.openlocfilehash: dd4bb74172736ae3b82bef00a4b4b11c7285ee1f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 087375b8874876fe5ed3f0bbf9f8799fc6f53c74
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245280"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278337"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Управление номерами телефонов организации
 Существует три способа получить телефонные номера для пользователей и служб (платные и бесплатные) для вашей организации.
-- Получение числа в Скайп по центру администрирования бизнеса.
+- Получайте номера в центре администрирования Skype для бизнеса.
 - Используйте форму запроса для получения новых номеров телефонов, не указанных в Центре администрирования Skype для бизнеса.
 - Передавайте или «портируйте» существующие номера нам.
 
@@ -60,7 +60,7 @@ ms.locfileid: "32245280"
 ### <a name="request-forms-for-new-phone-numbers"></a>Формы запроса новых номеров телефонов
 Каждой стране или региону соответствуют различные инструкции и различные типы номеров (географические или не географические, и службы (платные или бесплатные), а также правила получения номеров телефонов, которые могут использоваться в Skype для бизнеса Online и Microsoft Teams.
 
-В некоторых случаях (в зависимости от страны или региона) не будут иметь возможность получать нового пользователя (подписчика) или служба (международную или бесплатная) требуются номеров с помощью **Скайп по центру администрирования бизнеса**, или номера телефона или коды областей.
+Иногда (в зависимости от страны или региона) вы не сможете получить нового пользователя (абонента) или услуги (платные или бесплатные номера) с помощью **центра администрирования Skype для бизнеса**или вам понадобятся определенные номера телефонов или коды города.
 
 If so, you will need to download the correct PDF form (per country/region and the type of numbers) and send it back to us. Our service desk will take it from there and will let you know about the progress or your order.
 
@@ -77,10 +77,10 @@ If you still need help, please let us know how we can help you. In your Help req
 - Для получения справки о телефонных номерах за пределами США, [отправьте запрос](mailto:ptneu@microsoft.com).
 
 #### <a name="additional-resources"></a>Дополнительные ресурсы
-- Если вызов планы доступны в вашей стране или регионе, см [странах и область доступности для конференц-связи аудио и вызов планов](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- Чтобы выбрать тип номера телефона необходимо прочитать [различные виды телефонных номеров, используемый для вызова планов](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
-- Чтобы узнать о получении номера телефона пользователя в Центре администрирования, прочитайте [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users) (Получение номеров телефонов для пользователей).
-- Чтобы получить сведения о настройке телефонных номеров для вашей организации, [обратитесь в службу поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- Чтобы узнать, доступны ли планы звонков в вашей стране или регионе, проучите страну [и регион для голосовой конференции и планов звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) .
+- Чтобы облегчить выбор типа номера телефона, прочтите [различные типы номеров телефонов, используемых для планов звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- Чтобы узнать о получении номера телефона пользователя в Центре администрирования, прочитайте [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users) (Получение номеров телефонов для пользователей).
+- Чтобы получить помощь по настройке номеров телефонов для Организации, [обратитесь в службу поддержки для бизнес-продуктов — Справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
     
 ## <a name="related-topics"></a>Статьи по теме

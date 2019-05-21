@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 2cdb08634ce16b3ba6e09148daee57191e8c6988
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b7bce3818de3ae2a096330b11a7bb779bb62ec10
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237779"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285077"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Тестирование установки Skype для бизнеса Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "32237779"
 
 - компьютер для каждой тестовой учетной записи. Настройте компьютеры типичным для организации способом.
 
-- Учетная запись с поставщика аудиоконференций для Скайп для бизнеса в Интернет.
+- Учетная запись с поставщиком услуг голосовой связи в Skype для бизнеса Online.
 
 ## <a name="what-do-you-want-to-do"></a>Что требуется сделать?
 
@@ -50,7 +50,7 @@ ms.locfileid: "32237779"
 ## <a name="set-up-test-accounts"></a>Настройка тестовых учетных записей
 <a name="__toc328126910"> </a>
 
-1. Последовательно выберите пункты **Администрирование** > **Office 365** > **пользователей и групп**, а затем выберите Добавить![добавить](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) и введите необходимые сведения.
+1. Перейдите в раздел **Администрирование** > **пользователей и групп****Office 365** > , а затем нажмите кнопку](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) добавить![и введите необходимые сведения.
 
 2. На шаге 4 (электронная почта) укажите собственный адрес электронной почты. Таким образом, у вас будет запись, состоящая из нового имени пользователя и пароля.
 
@@ -78,7 +78,7 @@ ms.locfileid: "32237779"
 
  **Добавление данных для аудиоконференции к учетной записи одного из тестовых пользователей**
 
-1. Нажмите кнопку **аудиоконференций** > **пользователей**.
+1. Выберите пункт**Пользователи** **голосовой конференции** > .
 
 2. Щелкните имена пользователей, для которых необходимо настроить конференц-связь, а затем нажмите кнопку **Изменить**![Изменить](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
 

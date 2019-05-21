@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Пуэрто-Рико.
-ms.openlocfilehash: 8a245f67e4542f532ec7282abaea429a0a3b95f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Пуэрто-Рико.
+ms.openlocfilehash: f92c35fa19c2464704c3d2827485cde6145f3b26
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232708"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287964"
 ---
 # <a name="availability-in-puerto-rico"></a>Доступность в Пуэрто-Рико
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Пуэрто-Рико.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Пуэрто-Рико.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -61,7 +61,7 @@ ms.locfileid: "32232708"
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
 |Доступные минуты для планов звонков  <br/> |3000 минут для звонков внутри страны или 600 минут для международных звонков в месяц (в зависимости от того, какое количество исчерпается раньше). Внутренние звонки в США включают звонки во все 50 штатов, а также в Пуэрто-Рико.Пользователи, которым назначена лицензия в США или Пуэрто-Рико, получают одинаковое количество минут.  <br/> |
-|Можно выполнять исходящие вызовы на номера premium? <br/> | В настоящее время не поддерживается. <br/> |
+|Может ли исходящие звонки на платные номера? <br/> | В настоящее время не поддерживается. <br/> |
 |Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб

@@ -1,53 +1,53 @@
 ---
-title: Интеграция Скайп для Business Server с Exchange Server
+title: Интеграция сервера Skype для бизнеса с сервером Exchange Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
-description: 'Сводка: Просмотрите действия по интеграции для Exchange Server 2016 или Exchange Server 2013 и Скайп for Business Server.'
-ms.openlocfilehash: e5e33e77c60aa4be0ae28f21945d9ce5dccddfc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Аннотация: Ознакомьтесь с этапами интеграции Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.'
+ms.openlocfilehash: 25b2260805cf4e42bc15d1ae5607baa3f830fba6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891714"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277988"
 ---
-# <a name="integrate-skype-for-business-server-with-exchange-server"></a>Интеграция Скайп для Business Server с Exchange Server
+# <a name="integrate-skype-for-business-server-with-exchange-server"></a>Интеграция сервера Skype для бизнеса с сервером Exchange Server
 
-**Сводка:** Просмотрите этапы интеграции для Exchange Server 2013 или более поздней версии и Скайп for Business Server.
+**Сводка:** Ознакомьтесь с этапами интеграции Exchange Server 2013 или более поздней версии и Skype для бизнеса Server.
 
-Скайп для Business Server и Exchange Server 2013 или более поздняя версия совместимости и интеграции. Например могут быть выявлены Скайп для бизнес-информация присутствия пользователя в Microsoft Outlook; Аналогичным образом Скайп для бизнеса можно получить доступ к календарю Outlook, обратите внимание, что у пользователя есть время совещания, запланированного и показывать состояние присутствия пользователя «занят» во время собрания. Несмотря на то, что не нужно выполнить Exchange Server, чтобы запустить Скайп для Business Server (и наоборот) двух продуктов друг с другом расширить возможности пользователей друг друга.
+Сервер Exchange Server 2013 или более поздней версии и Skype для бизнеса Server совместимы и интегрируются. Например, информацию о присутствии пользователей в Skype для бизнеса можно сообщить в Microsoft Outlook; Кроме того, Skype для бизнеса может получить доступ к календарю Outlook пользователя, обратите внимание на то, что на собрании пользователя запланировано собрание и отображается состояние присутствия пользователя во время собрания. Несмотря на то, что для работы с Skype для бизнеса Server (или наоборот) вам не нужно запускать сервер Exchange Server, эти два продукта вместе расширяют возможности взаимодействия с пользователем.
 
-В этой документации содержит сведения об интеграции Скайп Business Server и Exchange Server 2016 или Exchange Server 2013, но предполагается начальной установки и настройки этих двух продуктов уже выполнена. Для получения дополнительных сведений о развертывании Скайп для Business Server см [Скайп for Business Server Технический центр](https://go.microsoft.com/fwlink/p/?LinkId=246127). Для получения дополнительных сведений о развертывании Exchange Server см документации по развертыванию для вашей версии Exchange.
+В этой документации содержатся сведения об интеграции Skype для бизнеса Server и Exchange Server 2016 или Exchange Server 2013, но предполагается, что первоначальная настройка и конфигурация этих двух продуктов уже произошел. Подробнее о том, как развернуть Skype для бизнеса Server, можно найти в [центре технической поддержки Skype для бизнеса Server](https://go.microsoft.com/fwlink/p/?LinkId=246127). Дополнительные сведения о развертывании Exchange Server можно найти в документации по развертыванию этой версии Exchange.
 
-Если вы реализуете интеграцию на локальном установки Скайп для Business Server с Microsoft Exchange Online, ознакомьтесь со [Настройка интеграции между локальной Скайп для Business Server и Outlook Web App](outlook-web-app.md).
+Если вы собираетесь установить локальную версию Skype для бизнеса Server в Microsoft Exchange Online, ознакомьтесь с разделами [Настройка интеграции между локальными приложениями Skype для бизнеса Server и Outlook Web App](outlook-web-app.md).
 
-Если вы реализуете интеграцию Скайп для бизнеса в Интернет с помощью Exchange Server при локальном, видеть [Настройка OAuth между Скайп для бизнеса в Интернет и Exchange при локальном](oauth-with-online-and-on-premises.md).
+Если вы интегрирует Skype для бизнеса Online на локальный сервер Exchange Server, ознакомьтесь со сведениями в разделе [Настройка OAuth между Skype для бизнеса Online и Exchange в локальной среде](oauth-with-online-and-on-premises.md).
 
 ## <a name="in-this-section"></a>Содержание
 
-[Настройка партнерских приложений в Скайп Business Server и Exchange Server](configure-partner-applications.md)
+[Настройка партнерских приложений в Skype для бизнеса Server и Exchange Server](configure-partner-applications.md)
 
-[Настройка Скайп для бизнес-сервера архивирование Exchange Server](use-exchange-archiving.md)
+[Настройка сервера Skype для бизнеса Server для использования архивации Exchange Server](use-exchange-archiving.md)
 
 [Настройка поиска архивных данных Skype для бизнеса на сервере SharePoint](sharepoint-to-search-for-archived-data.md)
 
 [Настройка Skype для бизнеса Server для работы с единым хранилищем контактов](use-the-unified-contact-store.md)
 
-[Настройка использования фотографий высокого разрешения в Скайп для Business Server](high-resolution-photos.md)
+[Настройка использования фотографий высокого разрешения в Skype для бизнеса Server](high-resolution-photos.md)
 
 [Настройка единой системы обмена сообщениями Exchange Server для голосовой почты Skype для бизнеса Server](exchangeunified-messaging-for-voice-mail.md)
 
-[Интеграция Скайп for Business Server и Microsoft Outlook Web App 2013](https://technet.microsoft.com/library/513d4cc7-aa87-4f68-b99d-d58b63bdf242.aspx)
+[Интеграция Skype для бизнеса Server и Microsoft Outlook Web App 2013](https://technet.microsoft.com/library/513d4cc7-aa87-4f68-b99d-d58b63bdf242.aspx)
 
-[Настройка хранилища личных контактов на клиентских компьютерах для Скайп для Business Server](personal-contacts-store.md)
+[Настройка хранилища личных контактов на клиентских компьютерах для Skype для бизнеса Server](personal-contacts-store.md)
 
 ## <a name="see-also"></a>См. также
 

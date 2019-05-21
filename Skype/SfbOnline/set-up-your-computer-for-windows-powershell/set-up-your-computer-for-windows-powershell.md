@@ -10,24 +10,24 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: Получить требования для удаленного управления Скайп для бизнеса в Интернет с помощью Windows PowerShell, включая поддерживаемые операционные системы.
-ms.openlocfilehash: 7854fa064420c2addeea4397e8dd882374c3b940
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Узнайте о требованиях для удаленного управления Skype для бизнеса Online с помощью Windows PowerShell, включая поддерживаемые операционные системы.
+ms.openlocfilehash: f9369f23ffcc77c5d7d61fb7e764900055b4b920
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226348"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275525"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Настройка компьютера для Windows PowerShell
 
-Удаленное управление Скайп для бизнеса в Интернет с помощью Microsoft PowerShell поддерживается только в 64-разрядных компьютеров под управлением одной из следующих операционных систем:
+Удаленное управление Skype для бизнеса Online с помощью Microsoft PowerShell поддерживается только на 64-разрядных компьютерах под управлением одной из следующих операционных систем:
 
 - Windows Server 2016
 
@@ -45,20 +45,20 @@ ms.locfileid: "32226348"
     
 - Windows 7
     
-В дополнение к поддерживаемая операционная система на компьютере необходимо также работать следующие:
+В дополнение к поддерживаемой операционной системе на компьютере должны быть также доступны следующие программы:
   
 - PowerShell
     
-- Скайп для модуля Business Online Connector
+- Модуль соединителя Skype для бизнеса Online
     
-Можно найти сведения о загрузке и установке эти элементы в следующих разделах:
+Сведения о загрузке и установке этих элементов можно найти в следующих статьях:
   
-- [Загрузите и установите Скайп для модуля Business Online Connector](download-and-install-the-skype-for-business-online-connector.md)
+- [Скачайте и установите модуль соединителя Skype для бизнеса Online](download-and-install-the-skype-for-business-online-connector.md)
     
-- [Загрузка и установка Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
+- [Скачивание и установка Windows PowerShell 5,1](download-and-install-windows-powershell-5-1.md)
     
 ## <a name="related-topics"></a>Статьи по теме
-[Диагностика проблем подключения с Скайп для business online connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
+[Диагностика проблем с подключением с помощью соединителя Skype для бизнеса Online](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
  

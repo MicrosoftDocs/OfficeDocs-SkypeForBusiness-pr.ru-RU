@@ -1,33 +1,33 @@
 ---
-title: Изменить существующую политику в Скайп архивирования для Business Server
+title: Изменение существующей политики архивации в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Сводка: Узнайте, как для изменения политик архивации для Скайп для Business Server пользователя.'
-ms.openlocfilehash: 7e8cc208802af324690ff61cad971023d3a20232
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как изменить политики архивации пользователей в Skype для бизнеса Server.'
+ms.openlocfilehash: 4a3da0bfe403d1a00807865cd07762111b59b540
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885005"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282023"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Изменить существующую политику в Скайп архивирования для Business Server
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Изменение существующей политики архивации в Skype для бизнеса Server
  
-**Сводка:** Сведения о переходе пользователя политик архивации для Скайп для Business Server.
+**Сводка:** Сведения о том, как изменить политики архивации пользователей в Skype для бизнеса Server.
   
-При первом развертывании Скайп для Business Server, Настройка начальной политик архивации, определяющие способ реализации архивации для пользователей в развертывании. В этом разделе описываются способы управления политиками и их изменения. 
+При первом развертывании сервера Skype для бизнеса вы настраиваете начальные политики архивации, определяющие способ реализации архивации для пользователей в вашем развертывании. В этом разделе описываются способы управления политиками и их изменения. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Изменение политик архивации с помощью панели управления
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator. 
     
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server. 
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server. 
     
 3. На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Политика архивации**.
     
@@ -48,7 +48,7 @@ ms.locfileid: "33885005"
 6. Нажмите **Исполнить**.
     
     > [!IMPORTANT]
-    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения см [Применить политики архивации для пользователей, Скайп для Business Server](apply-a-policy-to-users.md). 
+    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Подробнее смотрите в разделе [применение политики архивации для пользователей в Skype для бизнеса Server](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Изменение политик архивации с помощью Windows PowerShell
 
@@ -68,7 +68,7 @@ Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
 ```
 
-Чтобы включить архивацию сеансов внутренней и внешней связи, задайте значение параметра свойствам ArchiveInternal и ArchiveExternal значение True: 
+Чтобы включить архивацию внутренних и внешних сеансов связи, установите для параметров Арчивеинтернал и Арчивикстернал значение true: 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True

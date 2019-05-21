@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.CmsSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: Центральный сервер управления можно перенести из одного заданного пула переднего плана в другой заданный пул переднего плана. Для изменения расположения центрального сервера управления выберите пул переднего плана в раскрывающемся списке Сервер переднего плана для установки центрального сервера управления. Сервером переднего плана может служить пул переднего плана корпоративного выпуска или сервер переднего плана стандартного выпуска.
-ms.openlocfilehash: f45cd060bf263ba9071c8260a3c0ad380174bc3b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c75ae1a9e0c6f1cbde831e10a52e6be2cb3f0769
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916058"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280589"
 ---
 # <a name="cms-settings-expander"></a>Расширитель настроек CMS
  

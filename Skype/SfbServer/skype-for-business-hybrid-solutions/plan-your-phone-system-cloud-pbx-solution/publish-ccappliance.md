@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: Командлет Publish-CcAppliance получает сведения о высокой доступности из конфигурации интерактивного клиента и публикует их на устройстве Skype для бизнеса Cloud Connector Edition на сервере узла.
-ms.openlocfilehash: 119b5e816555eedf221d9db06be15e6a778936d4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 2fd17e2afdceabc8fbfb44a808b7e6c9ce6bd894
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879807"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287162"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  
@@ -35,7 +35,7 @@ Publish-CcAppliance
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере возвращает сведения о высокой доступности из конфигурации сети клиентов и публикуется в облаке соединителя устройство на хост-сервера:
+В следующем примере показано получение сведений о высокой доступности из конфигурации Интернет-клиента и его публикация на устройстве облачного соединителя на сервере узла.
   
 ```
 Publish-CcAppliance

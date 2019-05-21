@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,22 +24,22 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Швейцария.
-ms.openlocfilehash: cda107fdd1b807d0df1f9f7c48548e4e14f9ecb5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Швейцарии.
+ms.openlocfilehash: 1586b0c538b8fb8ee87343d2fda2f5535e3bb6c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221957"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282780"
 ---
 # <a name="availability-in-switzerland"></a>Доступность в Швейцарии
 
 > [!NOTE]
-> Можно получить номера **службы** в Швейцария для использования с конференц-связи, автосекретаря и вызвать очередей, но не могут получить количество **пользователей** в Швейцария как Тарифные планы недоступны.
+> Вы можете получать номера **служб** в Швейцарии для использования в конференциях, автосекретарях и очередях звонков, но вы не можете получить номера **пользователей** по Швейцарии, так как планы звонков недоступны.
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Швейцария.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Швейцарии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

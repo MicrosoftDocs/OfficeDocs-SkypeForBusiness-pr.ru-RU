@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены служб Office 365 для Скайп для бизнеса и группами Майкрософт для Чешская Республика.
-ms.openlocfilehash: c98d9522e14c1bec8bff2d8a52d67ff825410e6e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Чешской Республики.
+ms.openlocfilehash: 70b81f7c801dd2bb8158a510ce015d530d804390
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221933"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286104"
 ---
 # <a name="availability-in-the-czech-republic"></a>Доступность в Чехии
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Ниже приведены служб Office 365 для Скайп для бизнеса и группами Майкрософт для Чешская Республика.
+Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Чешской Республики.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

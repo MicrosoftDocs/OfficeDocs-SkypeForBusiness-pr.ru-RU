@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
-ms.openlocfilehash: bcc4ad06d922c4d0f65dc4f98a7d0780904e1d18
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5648855dc13225dfcb525ddfc82b31a13e90c862
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229558"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290558"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Почему активация номера отображается как незавершенная?
 
-Проверка адреса является важной частью настройки планов звонков в Office 365. Если для какой-либо причине номер телефона не активирован и указана в качестве **неполный** из-за проверки адреса, необходимо создать и выдать запрос службы. Выполнение проверки зависит от размера организации.
+Проверка адреса является важной частью настройки планов звонков в Office 365. Если по какой-либо причине телефонный номер не активирован и указан как **неполный** из-за подтверждения адреса, вам потребуется создать и отправить запрос на обслуживание. Выполнение проверки зависит от размера организации.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Для организаций, где число пользователей не превышает 150, необходимо выполнить следующие шаги.
 1. В **Центре администрирования Office 365** выберите **Требуется помощь**?

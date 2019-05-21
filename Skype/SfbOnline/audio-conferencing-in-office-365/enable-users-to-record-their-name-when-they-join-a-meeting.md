@@ -1,5 +1,5 @@
 ---
-title: Разрешить пользователям записать их имя при их присоединиться к собранию Скайп для бизнеса в Интернет
+title: Предоставление пользователям возможности записывать свое имя при присоединении к собранию в Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,22 +12,22 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Узнайте, как включить или отключить ли пользователям можно записать их имена, когда они присоединиться к собранию Скайп для бизнеса в Интернет.
-ms.openlocfilehash: 7b28a038edf9b812532283ecaa766b86e2bc8de8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Сведения о том, как включать и отключать возможность записи пользователями своих имен при присоединении к собранию в Skype для бизнеса Online.
+ms.openlocfilehash: d12d03c11340694673986733c73f46a3e7fccb1a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229304"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290103"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Разрешить пользователям записать их имя при их присоединиться к собранию Скайп для бизнеса в Интернет
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Предоставление пользователям возможности записывать свое имя при присоединении к собранию в Skype для бизнеса Online
 
 > [!Note]
 > Если требуется предоставить пользователям возможность записывать свое имя в Microsoft Teams, ознакомьтесь со статьей [Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Microsoft Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
@@ -36,9 +36,9 @@ ms.locfileid: "32229304"
   
 Мост конференц-связи обеспечивает ответ на вызов пользователя, который присоединяется к собранию с телефона. Мост конференц-связи отвечает вызывающей стороне голосовыми подсказками с помощью автосекретаря, а затем, в зависимости от настроек, может воспроизвести уведомления, попросить вызывающую сторону записать свое имя и настроить ПИН-код безопасности для организаторов собрания. ПИН-коды предоставляются организаторам собраний. Организаторы могут начать собрание, введя ПИН-код. Однако собрание можно настроить таким образом, чтобы ПИН-код не требовался.
 
-## <a name="set-whether-callers-should-record-their-name"></a>Указать, следует ли звонящие следует записать их имя
+## <a name="set-whether-callers-should-record-their-name"></a>Определение того, должны ли вызывающие записи записывать свое имя
     
-1. В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **параметров моста Microsoft**.
+1. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста**видеоконференций **** > Microsoft.
     
 2. В разделе **Присоединение к собранию** включите параметр **Включить уведомления о входе и выходе из собрания**.
     
@@ -74,4 +74,4 @@ ms.locfileid: "32229304"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

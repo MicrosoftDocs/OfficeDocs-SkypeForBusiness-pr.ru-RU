@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,33 +18,33 @@ f1keywords:
 - O365P_RecordingDesc
 ms.custom:
 - Setup
-description: 'Как включить запись для аудио-и видеоконференций, а также узнать, что является и не включена в записи. '
-ms.openlocfilehash: 0e642dc8075c4a7cdcc6d3846cf0c69bca3e2e01
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Включение и отключение записи звука и видео, а также сведения о том, что не включено в записную видеоконференции. '
+ms.openlocfilehash: 31c4661f0c6ec37c8c098594dcdf737248b880b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237569"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285267"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Разрешение записи аудио- и видеоконференций
 
-## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Выберите параметры для одного пользователя, либо все записи в вашей организации по умолчанию
+## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Выбор параметров записи по умолчанию для одного или всех пользователей в Организации
 
-![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
 
-1. Перейдите в **Центр администрирования Office 365** > **Скайп для бизнеса**и нажмите кнопку **Пользователи**.
+1. Откройте > **Skype для бизнеса**в **центре администрирования Office 365**и выберите пункт **Пользователи**.
     
-2. На странице " **Пользователи** " выберите одного или нескольких пользователей в списке и нажмите кнопку **Изменить**.
+2. На странице **Пользователи** выберите пользователя или пользователей из списка и нажмите кнопку **изменить**.
     
-3. На **странице Параметры**нажмите кнопку **запись бесед и собраний**и нажмите кнопку **Сохранить**.
+3. На **странице Параметры**щелкните **запись бесед и собраний**, а затем нажмите кнопку **сохранить**.
     
-При включении регистрации организаторов или выступающие можно записать Скайп для бизнеса собрания или конференции. Включение записи включено или отключено влияет на все в организации.
+Когда запись включена, организаторов или выступающие могут записать собрание Skype для бизнеса Online или конференц-связь. Включение и отключение записи влияет на всех пользователей в Организации.
   
-|**Включить в записи**|**Не включены в записи**|
+|**Включено в записи**|**Не включено в записи**|
 |:-----|:-----|
-|Аудио и видео высокой Четкости  <br/> Презентаций PowerPoint и доски  <br/> Рабочий стол или программа, сеансы общего доступа к  <br/> |Общие страницы OneNote  <br/> Примечания PowerPoint  <br/> Общие файлы (с вложениями)  <br/> |
+|Аудио и видео в формате HD  <br/> Презентации PowerPoint и доски  <br/> Рабочие столы и сеансы программы  <br/> |Общие страницы OneNote  <br/> Примечания PowerPoint  <br/> Общие файлы (вложения)  <br/> |
    
-Дополнительные сведения см [сохранения и публикации записи Lync](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) и [Диспетчер записи Lync](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
+Дополнительные сведения можно найти в разделе [Сохранение и публикация](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) в [диспетчере записи](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)Lync. 
   
 ## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)

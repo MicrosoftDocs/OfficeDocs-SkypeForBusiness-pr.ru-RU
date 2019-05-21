@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
-ms.openlocfilehash: 7d6e8e6709a885e65888d330ef543556c5fa05b0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0a12ee82d2a568a563408a2dc29971e9b3766da0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229683"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290829"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>Отправка запроса на обслуживание для переноса локального номера
 
-Если требуется перенести более 999 телефонных номеров (для пользователей, или номера службы, включая международную или бесплатный) Скайп для бизнеса в Интернет, ознакомьтесь со [Управление номера телефонов для вашей организации](/microsoftteams/manage-phone-numbers-for-your-organization).
+Если вам нужно передать более 999 номеров телефонов (для пользователей или служебных номеров, включая платный или бесплатный) в Skype для бизнеса Online, ознакомьтесь со сведениями о том, как [управлять телефонными номерами в Организации](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 > [!NOTE]
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

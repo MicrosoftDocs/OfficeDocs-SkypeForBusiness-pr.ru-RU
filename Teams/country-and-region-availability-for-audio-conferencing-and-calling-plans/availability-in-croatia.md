@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Хорватия.
-ms.openlocfilehash: 93005cc68bbd7f668b344dbf968c3ce42a67e114
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Office для Хорватия.
+ms.openlocfilehash: bc66aad83168c32cb336fb8fce6ec51b1f89ca3a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541210"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283100"
 ---
 # <a name="availability-in-croatia"></a>Доступность в Хорватии
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Хорватия.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Office для Хорватия.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

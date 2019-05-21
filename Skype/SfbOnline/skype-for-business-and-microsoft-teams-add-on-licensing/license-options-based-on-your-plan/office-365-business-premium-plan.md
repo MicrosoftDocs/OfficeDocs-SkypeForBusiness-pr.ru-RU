@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,13 +19,13 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Сведения о лицензии дополнительный компонент, функции и как приобрести для планов Office 365 бизнеса расширенный. '
-ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Узнайте о лицензиях и возможностях надстройки, а также о том, как купить планы Office 365 Business Premium. '
+ms.openlocfilehash: b4f501d3a047e0408a484065e38ab23f98b850ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238937"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290076"
 ---
 # <a name="office-365-business-premium"></a>Office 365 бизнес премиум
 
@@ -43,7 +43,7 @@ ms.locfileid: "32238937"
     > You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
 
 
-- Параметр **2. Обновление плана и приобрести телефонной системы и внутренний или внутренний и планирование вызов International**.
+- **Вариант 2. Обновите план и купите телефонную систему, а также внутренний или внутренний и Международный план звонков**.
 
     > [!Important]
     > Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.
@@ -52,11 +52,11 @@ ms.locfileid: "32238937"
 
 2. Приобретите надстройку **телефонной системы**.
     
-3. Купить [Вызов Plan for Office 365](/MicrosoftTeams/calling-plans-for-office-365): можно только приобрести это после приобрести дополнительный компонент **Телефонной системой** .
+3. Купите [план звонков для Office 365](/MicrosoftTeams/calling-plans-for-office-365): вы можете купить его только после приобретения надстройки **телефонной системы** .
     
     Второй вариант отлично подойдет для организаций с несколькими сотрудниками, которые совершают и принимают внешние телефонные звонки.
 
-## <a name="how-to-see-prices-and-buy"></a>Как просмотреть цены и приобрести
+## <a name="how-to-see-prices-and-buy"></a>Как посмотреть цены и купить
 <a name="bkmk_buypremium"> </a>
 
  **Получение функции аудиоконференции и кредитов на связь:**
@@ -65,7 +65,7 @@ ms.locfileid: "32238937"
 
 2. Перейдите в раздел **Выставление счетов** > **Подписки** > **Дополнения** > **Купить дополнения**.
 
-   ![Приобрести лицензию дополнительный компонент, нажмите кнопку купить надстройки.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Чтобы приобрести лицензию на надстройку, выберите пункт Купить надстройки.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. После этого появится возможность просмотреть цены и приобрести функцию аудиоконференции, а также настроить кредиты на связь.
 

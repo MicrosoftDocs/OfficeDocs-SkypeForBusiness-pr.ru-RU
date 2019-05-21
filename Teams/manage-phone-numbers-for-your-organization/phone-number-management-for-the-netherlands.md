@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Нидерландах.
-ms.openlocfilehash: 78170170a9a15b8991ff2d7b538d0daecca01f46
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e2cef9ac0315ec5e31b5733c35c55b636630603a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245232"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276116"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Управление номерами телефонов в Нидерландах
 
@@ -36,10 +36,10 @@ ms.locfileid: "32245232"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получение нового пользователя и служба телефонных номеров, не указанные в Скайп по центру администрирования бизнеса.   <br/> | Загрузите эту форму.</br> [Новый запрос номер телефона для Нидерландов (v.4.0)(nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(nl-nl).pdf?raw=true) <br/> [Новый запрос номер телефона для Нидерландов (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(en-us).pdf?raw=true)  <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
-|Получите телефонных номеров, передан в "мне нравится".  <br/> |Скачайте одну из следующих форм:. <br/> [Доверенность для Нидерландов, географические номера телефонов, версия 2.0 на нидерландском (Нидерланды)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> [Доверенность для Нидерландов, негеографические номера телефонов, версия 2.0 на нидерландском (Нидерланды)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
-|Публикация или Отмена публикации номера телефона в каталоге национальный телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
-|Изменение номера пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
+|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Skype для бизнеса.   <br/> | Скачайте эту форму.</br> [Новый запрос номера телефона для Нидерландов (v. 4.0) (nl-NL)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(nl-nl).pdf?raw=true) <br/> [Новый запрос номера телефона для Нидерландов (v. 4.0) (EN-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(en-us).pdf?raw=true)  <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Получение телефонных номеров, перенесенных в США.  <br/> |Скачайте одну из следующих форм:. <br/> [Доверенность для Нидерландов, географические номера телефонов, версия 2.0 на нидерландском (Нидерланды)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> [Доверенность для Нидерландов, негеографические номера телефонов, версия 2.0 на нидерландском (Нидерланды)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Публикация и Отмена публикации номеров телефонов в каталоге национального телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
+|Изменение номера пользователя на номер Услуги.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
 
 ## <a name="related-topics"></a>См. также:
 

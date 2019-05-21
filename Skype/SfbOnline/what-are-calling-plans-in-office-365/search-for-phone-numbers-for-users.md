@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Узнайте о том, как выполняется поиск телефонных номеров, которые можно назначить пользователям в зависимости от страны/региона, штата/провинции или города, а также о том, как указать требуемое количество номеров. '
-ms.openlocfilehash: eeae7ad4bcafea1f8a1f86d36e59d2f57a2edff1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 42f678b81b34b145e086e413bb95a53eab054167
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32230062"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280495"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Поиск номеров телефонов для пользователей
 
@@ -34,22 +34,22 @@ When you are setting up users in your organization to make and receive phone cal
   
 Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. You can search by **Country/region**, **State**, and **City**, and then enter the number of phone numbers you will need for your users. 
   
-Если вам требуется некоторые помощь по началу номера телефонов, могут видеть [Управление номера телефонов для вашей организации](/microsoftteams/manage-phone-numbers-for-your-organization) или [контактов поддержки продуктов бизнес - Admin справки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+Если вам нужна помощь в работе с телефонными номерами, вы можете узнать, как [управлять номерами телефонов для Организации](/microsoftteams/manage-phone-numbers-for-your-organization) , или [обратиться в службу поддержки для бизнес-продуктов — Справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) .
   
 ## <a name="search-for-phone-numbers"></a>Поиск номеров телефонов
 
  **Поиск номеров телефонов для пользователей**
 
-![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
   
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.
+2. Откройте > **устаревший портал** **центра администрирования Microsoft Teams**.
     
 3. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
   
     > [!IMPORTANT]
-    > Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .  
+    > Для просмотра параметров **голоса** на левой панели навигации в центре администрирования Skype для бизнеса вы должны сначала приобрести хотя бы одну **лицензию**на корпоративную, одну лицензию на надстройку **** или лицензию для **голосовой конференции** .  
     
     
 4. На странице **Добавление новых пользовательских номеров** щелкните списки **Страна** и **Область**, чтобы указать соответствующую область, из которой следует выбирать номера, а затем укажите код города для элемента из списка **Город**.
@@ -59,7 +59,7 @@ Before you can assign phone numbers to your users, you must use the **New number
     > [!NOTE]
     > Число номеров, определяемое числом лицензий, отображается рядом с полем **Общее доступное количество номеров пользователей**. 
   
-6. You can click **Show numbers** to see the full list of phone numbers. Эта функция полезна, если вы не хотите выберите номер телефона в списке.
+6. You can click **Show numbers** to see the full list of phone numbers. Это полезно, если вы не хотите выбирать определенный телефонный номер в списке.
     
 7. Выберите номера телефонов и нажмите **Получить номера**.
     

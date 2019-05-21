@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,19 +18,19 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 413610285a187fc85d7aa926a77f09cccbb15643
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b3b912526a44fb10cb685dd6ab9b3dea8f8eac4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226017"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284927"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Включение и выключение разрешения предварительной загрузки содержимого для собраний с помощью Outlook
 
-Пользователи может предварительно контент, файлы или вложения, подключенные к приглашения собрание Outlook Скайп для собраний по сети предприятия, но его можно включить или отключить. Он включен по умолчанию для всех организаций, использующих Скайп для бизнеса в Интернет. Просмотреть как [предварительной загрузки вложений для Скайп для собраний](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
+Пользователи могут предварительно загрузить содержимое, файлы или вложения, вложенные в приглашение на собрание, в собрание Skype для бизнеса Online, но вы можете включать и отключать их. Она включена по умолчанию для всех организаций, использующих Skype для бизнеса Online. Узнайте, как [предварительно загрузить вложения для собрания Skype для бизнеса](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]
-> На данный момент недоступны не командлеты в Скайп для бизнеса в Интернет для просмотра online значения для _MaxContentStorageMB_ и _MaxUploadFileMB_или параметр. Они доступны только для локальных развертываний. Важно знать, что содержимое не будет загружена в собрание Если вложенные превышает _MaxUploadFileSizeMB_ или _MaxContentStorageMB_ максимального числа.
+> В настоящее время командлеты в Skype для бизнеса Online недоступны для настройки и просмотра значений Online для _максконтентсторажемб_ и _максуплоадфилемб_. Они доступны только для локальных развертываний. Важно знать, что содержимое не будет отправлено на собрание, если его содержимое превышает _максуплоадфилесиземб_ или если достигнуто ограничение _максконтентсторажемб_ .
   
 ## <a name="to-get-you-started"></a>Чтобы начать работу, можно сделать следующее
 
@@ -66,14 +66,14 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [настроить компьютер для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Если вы хотите получить дополнительные сведения о запуске Windows PowerShell, ознакомьтесь со статьей [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [Настройка компьютера для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="turning-it-on-or-off"></a>Включение и выключение функции
 
-Возможность загрузки содержимого, подключенного к приглашения собрание Outlook Скайп для собраний по сети Business включен по умолчанию, но может потребоваться запретить пользователям в вашей организации из предварительной загрузки содержимого в свои собрания.
+Возможность предварительной загрузки содержимого, связанного с приглашением на собрание Outlook, для собраний по сети в Skype для бизнеса по умолчанию включено, но вам может потребоваться запретить пользователям в Организации предварительную загрузку содержимого на собраниях.
   
 > [!IMPORTANT]
-> Этот параметр можно только включить или выключить для всей организации; не может быть включено или отключено для одного пользователя. 
+> Этот параметр можно включить или выключить только для всей Организации; Вы не можете включить или отключить ее для одного пользователя. 
   
  **Чтобы отключить функцию, откройте Windows PowerShell и выполните следующие действия:**
   

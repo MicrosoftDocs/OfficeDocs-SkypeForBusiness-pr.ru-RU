@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Португалия.
-ms.openlocfilehash: 70b452d41b7ea108ca5223e755fcea1e128185bf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Португалия.
+ms.openlocfilehash: 2c7f01a6115a9d3005d951370104a355314849f2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199108"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276531"
 ---
 # <a name="availability-in-portugal"></a>Доступность в Португалии
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Португалия.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Португалия.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

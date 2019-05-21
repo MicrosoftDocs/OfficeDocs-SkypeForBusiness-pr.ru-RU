@@ -1,5 +1,5 @@
 ---
-title: Загрузка и установка Windows PowerShell 5.1
+title: Скачивание и установка Windows PowerShell 5,1
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,19 +18,19 @@ f1keywords: None
 ms.custom:
 - PowerShell
 - LIL_Placement
-description: Загрузки, установки и затем использовать Windows PowerShell 5.1 для создания удаленного сеанса PowerShell, который подключается к Скайп для бизнеса в Интернет.
-ms.openlocfilehash: 63f4924a30bfc910679f23a617cc5252ecc5b6aa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Скачивание, установка и использование Windows PowerShell 5,1 для создания удаленного сеанса PowerShell, который подключается к Skype для бизнеса Online.
+ms.openlocfilehash: 42c466d476b95228674b8a58cdeafca785496f4e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198071"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285117"
 ---
-# <a name="download-and-install-windows-powershell-51"></a>Загрузка и установка Windows PowerShell 5.1
+# <a name="download-and-install-windows-powershell-51"></a>Скачивание и установка Windows PowerShell 5,1
 
-Если вы используете Windows Update Годовщина 10 или Windows Server 2016, необходимо иметь Windows PowerShell 5.1. Вот так, как это приложение предварительно с этими операционными системами.
+Если вы используете Windows 10 с обновлением годовщины или Windows Server 2016, у вас уже должно быть Windows PowerShell 5,1. Это связано с тем, что это приложение предустановлено для этих операционных систем.
   
-Чтобы определить, какая версия Microsoft PowerShelll использовании, выполните следующие действия в Windows 7 или Windows Server 2008 R2 или Windows Server 2012 компьютера:
+Чтобы узнать, какая у вас версия Microsoft PowerShell, выполните указанные ниже действия на компьютере с операционной системой Windows 7 или Windows Server 2008 R2 или Windows Server 2012.
   
 1. В меню **Пуск** последовательно выберите пункты **Все программы**, **Стандартные**, **Windows PowerShell** и затем щелкните **Windows PowerShell**.
     
@@ -48,9 +48,9 @@ ms.locfileid: "32198071"
     4.0
     </pre>
 
-    Если возвращенный номер версии — 5.1, вы выполняете Windows PowerShell 5.1. Если возвращенный номер версии не 5.1, то необходимо для установки Windows PowerShell 5.1. Windows Management Framework 5.1, включая Windows PowerShell 5.1, можно загрузить из [Центра загрузки Майкрософт](https://www.microsoft.com/en-us/download/details.aspx?id=54616).
+    Если возвращенный номер версии — 5,1, значит вы используете Windows PowerShell 5,1. Если возвращенный номер версии не является 5,1, вам потребуется установить Windows PowerShell 5,1. Вы можете скачать среду Windows Management Framework 5,1, которая содержит Windows PowerShell 5,1, в [центре загрузки Майкрософт](https://www.microsoft.com/en-us/download/details.aspx?id=54616).
   
-После проверки, что установлено Windows PowerShell 5.1, необходимо убедиться, PowerShell настроен для запуска удаленного сценариев. Для этого запустите приложение PowerShell от имени администратора. В ОС Windows 7, Windows Server 2008 R2, Windows Server 2012 или Windows Server 2012 R2 выполните следующие действия:
+После того как вы проверили установку Windows PowerShell 5,1, необходимо убедиться, что в PowerShell настроено выполнение удаленных сценариев. Для этого запустите приложение PowerShell от имени администратора. В ОС Windows 7, Windows Server 2008 R2, Windows Server 2012 или Windows Server 2012 R2 выполните следующие действия:
   
 1. В меню **Пуск** последовательно выберите пункты **Все программы**, **Стандартные** и **Windows PowerShell**. Затем щелкните элемент **Windows PowerShell** правой кнопкой мыши и выберите **Запуск от имени администратора**.
     
@@ -71,7 +71,7 @@ Set-ExecutionPolicy RemoteSigned -Force
    
  
 > [!NOTE]
-> При выполнении предыдущей команды, вы можете получить следующие ошибки сообщения: > *Set-ExecutionPolicy: доступ к разделу реестра "HKEY_LOCAL_MACHINE\\программного обеспечения\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell "отказано.* Это сообщение об ошибке, как правило, возникает, если не выполняется PowerShell с использованием учетных данных администратора. Чтобы исправить эту ошибку, закройте сеанс PowerShell и запустите новый сеанс от имени администратора.
+> При выполнении предыдущей команды может появиться следующее сообщение об ошибке: _Гт_ *Set-ExecutionPolicy: доступ к\\реестру кэй'хкэй_локал_мачине программного обеспечения\\Microsoft\\PowerShell\\1 шеллидс\\\\Микрсофт. PowerShell запрещен.* Это сообщение об ошибке обычно появляется, если вы не используете PowerShell с учетными данными администратора. Чтобы исправить эту ошибку, закройте сеанс PowerShell и запустите новый сеанс от имени администратора.
  
 Чтобы проверить правильность настройки политики выполнения, в командной строке PowerShell введите следующую команду и нажмите клавишу ВВОД:
   
@@ -83,17 +83,17 @@ Get-ExecutionPolicy
   
 `RemoteSigned`
 
-Если вы не используется в настоящее время Windows PowerShell 5.1, также необходимо загрузить и установить Windows Management Framework 5.1 из центра загрузки Майкрософт. Это установочного пакета, содержащего Windows PowerShell 5.1 и удаленное управление Windows (WinRM) 3.0. Этот пакет установки может потребоваться, если, например, выполняется Windows 7 с пакетом обновления 1 и еще не обновлена до версии 5.1 Windows PowerShell. Если выполняется 2016 сервера Windows или Windows Update Годовщина 10, должен быть не требуется устанавливать Windows PowerShell 5.1. Windows PowerShell 5.1 предварительно в этих операционных системах.
+Если вы не используете Windows PowerShell 5,1, вам также потребуется скачать и установить платформу Windows Management Framework 5,1 из центра загрузки Майкрософт. Это установочный пакет, включающий Windows PowerShell 5,1 и службу удаленного управления Windows (WinRM) 3,0. Этот пакет установки может потребоваться, если, например, используется Windows 7 с пакетом обновления 1 (SP1), но еще не обновил Windows PowerShell 5,1. Если вы используете Windows Server 2016 или обновление годовщины Windows 10, вам не нужно устанавливать Windows PowerShell 5,1. Windows PowerShell 5,1 предустановлена в этих операционных системах.
   
-Перед установкой Windows Management Framework 5.1:
+Перед установкой Windows Management Framework 5,1 выполните указанные ниже действия.
   
-- Убедитесь, что вы скачали правильную версию пакета установки. Если выполняется 64-разрядная версия Windows 7 с пакетом обновления 1, загрузите файл Win7AndW2K8R2 KB3191566 x64.ZIP. Если выполняется 32-разрядная версия Windows 7 Загрузите файл Win7 KB3191566 x86.ZIP.
+- Убедитесь, что вы скачали правильную версию пакета установки. Если вы используете 64-разрядную версию Windows 7 с пакетом обновления 1 (SP1), скачайте файл Win7AndW2K8R2-KB3191566-x64. ZIP. Если вы используете 32-разрядную версию Windows 7, скачайте файл Win7-KB3191566-x86. ZIP.
     
 - Если на вашем компьютере установлена ОС Windows 7, проверьте наличие пакета обновления 1 для этой операционной системы.
 
 Если вы не знаете свою версию Windows или не уверены, установлен ли у вас пакет обновления 1 для Windows 7, откройте меню **Пуск**, щелкните правой кнопкой мыши пункт **Компьютер** и выберите пункт **Свойства**. Нужная информация будет представлена в диалоговом окне "Система".
   
-Чтобы установить Windows Management Framework 5.1, выполните процедуру в разделе [Установка и настройка WMF 5.1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
+Чтобы установить среду Windows Management Framework 5,1, выполните действия, описанные в разделе [Установка и настройка WMF 5,1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
   
 После перезагрузки проверьте работоспособность Windows PowerShell и возможность запуска этого приложения от имени администратора. Для этого выполните следующие действия:
   
@@ -139,7 +139,7 @@ Auth
     CredSSP = false
 </pre>
 
-Если обычная проверка подлинности имеет значение true, а затем вы готовы к использование PowerShell для подключения к Скайп для бизнеса в Интернет.
+Если для обычной проверки подлинности установлено значение true, вы можете использовать PowerShell для подключения к Skype для бизнеса Online.
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    

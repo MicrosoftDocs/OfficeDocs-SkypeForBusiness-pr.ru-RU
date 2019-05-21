@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,44 +20,44 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как организаторы собрания могут совершать обратные звонки другим людям через Teams и что для этого нужно.
-ms.openlocfilehash: 37f44eb96a33307b12eef485e2fdabf985ab8562
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b02a395277762c4bbd731bd839fdedc395042502
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236094"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281895"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Обратные звонки из собрания Microsoft Teams, позволяющие другим людям присоединиться к нему
 
-Организатор собрания можно абонентской группы с помощью команды приложения для других пользователей присоединиться к собранию же с помощью их телефоны.
+Организатор собрания может звонить с помощью приложения Teams, чтобы позволить другим участникам присоединиться к тому же собранию с помощью своих телефонов.
 
-Установить соединение для другого пользователя, рекомендуется делать это с помощью их полного телефонных номеров (включая код страны или региона - формат E.164).
+Если вы звоните другим пользователям, мы рекомендуем вам использовать их полные номера (в том числе формат кода страны/региона-E. 164).
   
-  Учтите, что:
+  Обратите внимание на следующее:
 
-- Наберите в работе только в том случае, если вам присоединиться к собранию с помощью команды.
-- Вам, как организатор собрания был разрешен доступ к конференции.
+- Вы можете звонить только в том случае, если вы присоединяетесь к собранию с помощью Teams.
+- Вы, как организатор собрания, включили голосовую конференцию.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-Вот как для получения номера в работе для работы.
+Вот как можно сделать исходящие звонки.
 
- **Шаг 1:** На собрании, используйте **Добавить людей** ![кнопку Добавить людей](media/add-people-button.png) вариант, чтобы выполнять звонки на номер телефона.
- **Шаг 2:** Введите полный телефонного номера, включая код страны или региона в поле **Пригласить пользователя или набора номера** .
+ **Действие 1:** На собрании с помощью](media/add-people-button.png) кнопки **Добавить** ![пользователей добавьте пользователей, чтобы звонить по номеру телефона.
+ **Шаг 2.** Введите полный номер телефона, включая код страны или региона, в поле **пригласить кого** -либо или набрать номер.
   
-![Приглашение пользователей или наберите номер поля](media/invite-someone-box.png)
+![Пригласить человека или набрать номер](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>Поддерживаемые страны и регионы
 
-Dial-out is only available to some countries/regions. Полный список в разделе [доступность страны и региона для конференц-связи аудио и вызов планов](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Dial-out is only available to some countries/regions. Полный список можно найти в разделе [доступ к странам и регионам для голосовой конференции и планов звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 ## <a name="allow-users-to-dial-in"></a>Разрешить пользователям звонить
 
-Если вы ищете инструкции по позволяют пользователям по телефонной линии к группам собрания, вы можете найти [номера телефонов для аудиоконференции в группах Microsoft](phone-numbers-for-audio-conferencing-in-teams.md).
+Если вы ищете инструкции по подключению пользователей к собранию Teams, просмотрите [номера телефонов в Microsoft Teams для проведения голосовой](phone-numbers-for-audio-conferencing-in-teams.md)связи.
 
-## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше о аудиоконференций?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше о голосовой конференции?
 
-[Пробная и платная аудиоконференции в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[Платная или пробная версия аудиоконференций в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

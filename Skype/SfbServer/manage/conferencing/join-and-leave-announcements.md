@@ -1,27 +1,27 @@
 ---
-title: Управление присоединиться к конференции и передачи оповещений в Скайп для Business Server
+title: Управление присоединением к Конференции и выход из объявлений в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 'Сводка: Узнайте, как управление присоединиться к конференции и передачи оповещений в Скайп для Business Server.'
-ms.openlocfilehash: ace07fdc3325d97e443297265892e7bcc4bce562
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как управлять присоединением к Конференции и оставлять объявления в Skype для бизнеса Server.'
+ms.openlocfilehash: 3d9a14e36dfe6b8df51e5ee91dd329ce34452cda
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919523"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283797"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Управление присоединиться к конференции и передачи оповещений в Скайп для Business Server
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Управление присоединением к Конференции и выход из объявлений в Skype для бизнеса Server
  
-**Сводка:** Узнайте, как управление присоединиться к конференции и передачи оповещений в Скайп для Business Server.
+**Сводка:** Здесь вы узнаете, как управлять присоединением к Конференции и оставлять объявления в Skype для бизнеса Server.
   
-При удаленных пользователей присоединиться к или покинуть конференцию, объявлений конференц-связи приложения можно объявить их входные или выйти из, воспроизведения звуковой сигнал или о том, их имена. Можно изменить порядок работы оповещений с помощью Скайп для консоли Business Server и командлет **Set-CsDialinConferencing** со следующими параметрами:
+При присоединении к Конференции или выходе из нее пользователи могут сообщать о своем входе в приложение и выходить из него с помощью звукового сопровождения или произнесения их имен. Вы можете изменить способ работы объявлений с помощью командной консоли Skype для бизнеса Server и командлета **Set-ксдиалинконференЦинг** со следующими параметрами:
   
 - EnableNameRecording. Определяет, должны ли анонимные участники записать свое имя перед входом в конференцию. По умолчанию используется значение "$true", что означает, что анонимным участникам предлагается указать свое имя при присоединении к конференции. (Прошедшие проверку подлинности участники не записывают свое имя, поскольку используется их отображаемое имя.)
     
@@ -44,7 +44,7 @@ ms.locfileid: "33919523"
    Get-CsDialinConferencingConfiguration
    ```
 
-Этот командлет получает сведения о, должны ли участники записать их имя при подключении к конференции, а также Скайп для Business Server реакция при участников присоединиться к или выход из нее конференц-связи.
+Этот командлет извлекает сведения о том, требуется ли участникам записывать свое имя при присоединении к Конференции и о том, как Skype для бизнеса Server отвечает на присоединение или выход из конференции с телефонным подключением.
     
 4. Выполните следующую команду в командной строке:
     
@@ -64,6 +64,6 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-Дополнительные сведения, включая синтаксиса и полный список параметров [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)см.
+Дополнительные сведения, в том числе синтаксис и полный список параметров, приведены в разделе [Set-ксдиалинконференЦингконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).
   
 
