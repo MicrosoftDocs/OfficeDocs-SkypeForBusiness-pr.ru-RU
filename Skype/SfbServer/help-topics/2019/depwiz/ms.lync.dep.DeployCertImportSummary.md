@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertImportSummary
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 ROBOTS: NOINDEX, NOFOLLOW
-description: На странице Импорт сертификата сводки, изучите Сводка по имени файла, путь и сведения о присутствии закрытого ключа. После просмотра сводки, затем нажмите Далее, чтобы продолжите.
-ms.openlocfilehash: b0ce87ea6ba09efe9294f54dc6de58e5bda9e003
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: На странице "Импорт сертификата" отображается сводка по имени файла, пути и доступности закрытого ключа. После просмотра реферата нажмите кнопку Далее, чтобы продолжить.
+ms.openlocfilehash: 319065c7835e7370c95d0ffc6362222f4f414b51
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893954"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275474"
 ---
 # <a name="import-certificate-summary"></a>Импорт сертификата (сводка)
  
-На странице **Импорт сертификата сводки** , изучите Сводка по имени файла, путь и сведения о присутствии закрытого ключа. После просмотра сводки нажмите кнопку **Далее** для продолжения.
+На странице " **Импорт сертификата** " отображается сводка по имени файла, пути и доступности закрытого ключа. После просмотра реферата нажмите кнопку **Далее** , чтобы продолжить.
   
 

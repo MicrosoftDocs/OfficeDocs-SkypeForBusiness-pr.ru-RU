@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 0cbfe5fec234ab237bd0c6bf108cfaa968685f0f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e779b3f9aaf5c88bb64e1045f5743e4c4a238d50
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229407"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273730"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Назначение Майкрософт в качестве поставщика услуг аудиоконференций
 
@@ -41,16 +41,16 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
 
 ### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Использование Центра администрирования Skype для бизнеса
 
-1. Перейдите в **Центр администрирования группами Майкрософт** > **портала прежних версий**.
+1. Откройте > **устаревший портал** **центра администрирования Microsoft Teams**.
     
-2. В **Скайп по центру администрирования бизнеса**, в левой панели навигации перейдите к **аудиоконференции**.
+2. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел " **звуковые конференции**".
     
 3. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
     
-4. На странице "Свойства" для пользователя, в разделе **имя поставщика**выберите **Microsoft** в раскрывающемся списке.
+4. На странице свойств пользователя в разделе **имя поставщика**выберите **Microsoft** в раскрывающемся списке.
     
     > [!NOTE]
-    > Так как вы используете Microsoft в качестве поставщика аудиоконференций и существует несколько телефонных номеров, можно использовать раскрывающегося списка **номер счета по умолчанию** для выбора звукового номер по умолчанию для пользователя.
+    > Так как вы используете Microsoft в качестве поставщика видеоконференций и есть несколько телефонных номеров, вы можете использовать раскрывающийся список **платный номер** по умолчанию для выбора звукового номера по умолчанию для пользователя.
   
 5. Нажмите кнопку **Сохранить**.
 
@@ -65,7 +65,7 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
 > При смене поставщика на **Майкрософт** сведения об аудиоконференции (идентификатор конференции, платные и бесплатные телефонные номера) будут изменены. Сохраните эти данные перед сменой поставщика. 
 
   
-Чтобы изменить поставщик в корпорацию Майкрософт для небольшого числа пользователей, можно использовать командлет [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) .
+Чтобы сменить поставщика на Microsoft для небольшого количества пользователей, можно использовать командлет [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) .
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>Применение сценария Windows PowerShell для большого количества пользователей
@@ -89,7 +89,7 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**В примере 3:** В этом примере использовании этот сценарий для поставщика аудиоконференций из Intercall (или другого поставщика) в **корпорацию Майкрософт** для большое число пользователей в вашей организации.
+**Пример 3:** В этом примере вы можете использовать этот сценарий, чтобы изменить поставщика голосовой конференц-связи (или другого поставщика) до **Microsoft** для большого числа пользователей в вашей организации.
     
   ```
   Script.ps1 -ACPProviderName <Provider>

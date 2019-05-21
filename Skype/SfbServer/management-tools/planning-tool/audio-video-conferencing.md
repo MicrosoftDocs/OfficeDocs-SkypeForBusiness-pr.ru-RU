@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/6/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.AV
@@ -13,17 +13,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
-description: Скайп для Business Server 2015 аудио/видео (A / V) конференц-связи предоставляет пользователям возможность участвовать в режиме реального времени аудио- и видеоконференций.
-ms.openlocfilehash: 188c627e8804dc481baf4f545b8bb3704a5ac77f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Конференции Skype для бизнеса Server 2015 аудио-и видеоконференции (A/V) позволяют пользователям принимать участие в голосовой и видеоконференциях в режиме реального времени.
+ms.openlocfilehash: 23a79906de0a9252b4687e9663695d8d3cca4060
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914942"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274361"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
  
-Скайп для Business Server 2015 аудио/видео (A / V) конференц-связи предоставляет пользователям возможность участвовать в режиме реального времени аудио- и видеоконференций.
+Конференции Skype для бизнеса Server 2015 аудио-и видеоконференции (A/V) позволяют пользователям принимать участие в голосовой и видеоконференциях в режиме реального времени.
   
 Сведения о планировании включения аудио- и видеоконференций в вашей организации см. в следующих статьях и разделах: 
   

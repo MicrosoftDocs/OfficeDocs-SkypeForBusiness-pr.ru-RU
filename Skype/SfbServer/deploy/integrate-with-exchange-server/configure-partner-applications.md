@@ -1,83 +1,83 @@
 ---
-title: Настройка партнерских приложений в Скайп для Business Server 2015 и Exchange Server
+title: Настройка партнерских приложений в Skype для бизнеса Server 2015 и Exchange Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
-description: 'Сводка: Настройка проверки подлинности сервер-сервер для Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server.'
-ms.openlocfilehash: 70433d0a6f3b6d9c30e510e116003a4efb5ba9b5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: Настройка проверки подлинности сервера для Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.'
+ms.openlocfilehash: 4c7c8a0efb2432403422e33140c1a2fdf3551dd1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894339"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306736"
 ---
-# <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Настройка партнерских приложений в Скайп Business Server и Exchange Server
+# <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Настройка партнерских приложений в Skype для бизнеса Server и Exchange Server
  
-**Сводка:** Настройка проверки подлинности сервер-сервер для Exchange Server 2016 или Exchange Server 2013 и Скайп для Business Server.
+**Сводка:** Настройка проверки подлинности сервера для Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.
   
-Для проверки подлинности "сервер-сервер" обычно требуется два сервера, которые должны обмениваться данными, и сторонний сервер маркеров безопасности. Если сервер A и Server B требуется для связи, затем оба этих серверов обычно сначала общаться с сервера маркеров и получение маркера безопасности доверяют. Затем сервер A отправляет этот маркер безопасности серверу B (и наоборот) в качестве гарантии своей подлинности и надежности.
+Для проверки подлинности "сервер-сервер" обычно требуется два сервера, которые должны обмениваться данными, и сторонний сервер маркеров безопасности. Если сервер A и сервер B нуждаются в общении, то оба эти сервера обычно начинают с того, что они поставляются с сервером-маркером и получают взаимно доверенные маркеры безопасности. Затем сервер A отправляет этот маркер безопасности серверу B (и наоборот) в качестве гарантии своей подлинности и надежности.
   
-Однако это общее правило. Скайп для Business Server, Exchange Server 2016, Exchange Server 2013 и SharePoint Server 2013 не требуется использовать сервер маркеров сторонних производителей при обмене данными друг с другом; Вот так как эти серверные продукты можно создать маркеров безопасности, которые могут быть приняты с друг с другом без необходимости в отдельном сервере маркеров. (Эта возможность доступна только в Скайп для Business Server, Exchange Server 2016, Exchange Server 2013 и SharePoint Server 2013. Для настройки проверки подлинности "сервер-сервер" с другими серверами, включая серверные продукты Microsoft, потребуется использование стороннего сервера маркеров.)
+Однако это общее правило. Skype для бизнеса Server, Exchange Server 2016, Exchange Server 2013 и SharePoint Server 2013 не требуется использовать сторонний сервер маркеров при взаимодействии друг с другом. Это может быть вызвано тем, что эти серверные продукты могут создавать маркеры безопасности, которые могут принимать друг друга, без необходимости использования отдельного сервера маркеров. (Эта возможность доступна только в Skype для бизнеса Server, Exchange Server 2016, Exchange Server 2013 и SharePoint Server 2013. Для настройки проверки подлинности "сервер-сервер" с другими серверами, включая серверные продукты Microsoft, потребуется использование стороннего сервера маркеров.)
   
-Для настройки проверки подлинности сервер сервер между Скайп для Business Server и Exchange Server необходимо выполнить два действия: 1) необходимо назначить сертификаты на каждом сервере; и, 2) необходимо настроить каждый сервер в качестве партнерского приложения другого сервера:, который означает, что необходимо настроить Скайп для Business Server в качестве партнерского приложения для Exchange Server и необходимо настроить Exchange Server в качестве партнерского приложения для Скайп Business Server.
+Чтобы настроить серверную проверку подлинности между Skype для бизнеса Server и Exchange Server, необходимо выполнить два действия: 1) необходимо назначить соответствующие сертификаты каждому серверу. и 2) необходимо настроить каждый сервер так, чтобы он был партнерским приложением другого сервера: это означает, что необходимо настроить Skype для бизнеса Server для использования партнера в Exchange Server, а также настроить сервер Exchange для использования в качестве партнерского приложения Skype. для Business Server.
   
-## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>Настройка Скайп для Business Server в качестве партнерского приложения для Exchange Server
+## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>Настройка Skype для бизнеса Server для работы в качестве партнерских приложений для Exchange Server
 
-Простой способ настройки Скайп для Business Server в качестве партнерского приложения с Exchange Server 2016 или Exchange Server 2013 — это сценарий Configure-EnterprisePartnerApplication.ps1, сценарий Windows PowerShell, которое поставляется с Exchange Server. Для запуска этого сценария необходимо задать URL-адрес для Скайп для документа метаданных проверки подлинности Business Server; Обычно это будет полное доменное имя Скайп для пула Business Server, а затем /metadata/json/1 суффикс. Например:
+Самый простой способ настроить Skype для бизнеса Server — это партнерское приложение с Exchange Server 2016 или Exchange Server 2013 — запуск сценария Конфигуре-ентерприсепартнераппликатион. ps1 — сценария Windows PowerShell, который поставляется вместе с Exchange Server. Чтобы выполнить этот сценарий, необходимо указать URL-адрес для документа метаданных проверки подлинности в Skype для бизнеса Server. как правило, это полное доменное имя пула сервера Skype для бизнеса, за которым следует суффикс/Metadata/JSON/1. Например:
   
 ```
 https://atl-cs-001.litwareinc.com/metadata/json/1
 ```
 
-Для настройки Скайп для Business Server как партнерское приложение, откройте командную консоль Exchange и выполните команду следующего вида (предполагается, что Exchange была установлена на диске C: и что он использует путь к папке по умолчанию).
+Чтобы настроить сервер Skype для бизнеса в качестве партнерского приложения, откройте командную консоль Exchange и выполните следующую команду (предполагая, что Exchange установлен на диске C: и используется путь к папке по умолчанию):
   
 ```
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-cs-001.litwareinc.com/metadata/json/1' -ApplicationType Lync"
 ```
 
-После настройки партнерского приложения рекомендуется остановите и перезапустите Internet Information Services (IIS) на серверах Exchange почтовых ящиков и клиентского доступа. Ниже приведен пример команды перезапуска служб IIS, относящийся к компьютеру atl-exchange-001.
+После настройки приложения-партнера рекомендуется остановить и перезапустить службы IIS в почтовом ящике Exchange и на серверах клиентского доступа. Ниже приведен пример команды перезапуска служб IIS, относящийся к компьютеру atl-exchange-001.
   
 ```
 iisreset atl-exchange-001
 ```
 
-Эту команду можно выполнить из командной консоли Exchange или из другого командного окна, открытого с правами администратора.
+Эту команду можно выполнить в командной консоли Exchange или в любом другом окне команд, которое запускается с правами администратора.
   
-## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>Настройка Exchange Server в качестве партнерского приложения для Скайп для Business Server
+## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>Настройка сервера Exchange Server в качестве партнерской программы для Skype для бизнеса Server
 
-После настройки Скайп для Business Server в качестве партнерского приложения для Exchange Server 2016 или Exchange Server 2013, затем необходимо настроить Exchange Server в качестве партнерского приложения для Скайп для Business Server. Это можно сделать с помощью Скайп для консоли Business Server, указав документа метаданных проверки подлинности для Exchange; Обычно это будет URI службы автообнаружения Exchange, а затем /metadata/json/1 суффикс. Например:
+После того как вы настроили Skype для Business Server как приложение-партнер для Exchange Server 2016 или Exchange Server 2013, необходимо настроить сервер Exchange Server для работы в качестве партнерского приложения для Skype для бизнеса Server. Это можно сделать с помощью командной консоли Skype для бизнеса Server и указав документ метаданных проверки подлинности для Exchange; как правило, это URI службы автообнаружения Exchange, за которой следует суффикс/Metadata/JSON/1. Например:
   
 ```
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
-В Скайп Business Server с помощью командлета [New-CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) настраиваются партнерских приложений. В дополнение к определению URI метаданных необходимо установить доверие приложения уровня полный; Это позволит Exchange будет представлять себя и любой авторизованный пользователь в сфере. Например:
+В Skype для бизнеса Server партнерские приложения настраиваются с помощью командлета [New-кспартнераппликатион](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) . В дополнение к указанию URI метаданных необходимо также установить полный уровень доверия для приложения; Это позволит Exchange самостоятельно представлять себе и всех авторизованных пользователей в сфере. Например:
   
 ```
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 ```
 
-Кроме того можно создать партнерского приложения, копирование и изменение кода скрипта, обнаруженных в Скайп для документации по проверки подлинности сервер сервер Business Server. В статье [Управление проверки подлинности сервер сервер (OAuth) и партнерских приложений в Скайп для Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) для получения дополнительных сведений.
+Кроме того, вы можете создать партнерское приложение, скопировав и изменив код сценария, который находится в документации для проверки подлинности сервера в Skype для бизнеса Server. Дополнительные сведения можно найти в статье [Управление проверкой подлинности серверов (OAuth) и партнерских программ в Skype для бизнеса Server](../../manage/authentication/server-to-server-and-partner-applications.md) .
   
-Если вы успешно настроили партнерских приложений для обоих Скайп для Business Server и Exchange Server, также успешной настройке проверки подлинности сервер сервер между двумя продуктов. Скайп для Business Server включает в себя командлета Windows PowerShell, [Test-CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) , который позволяет проверить правильность настройки проверки подлинности, сервер сервер и, что можно Скайп для службы хранения Business Server Подключитесь к Exchange Server. Командлет делает это подключение к почтовому ящику пользователя с Exchange Server, запись элемента в папке журнала бесед для этого пользователя и (необязательно) Удаление этого элемента.
+Если вы успешно настроили партнерские приложения для Skype для бизнеса Server и Exchange Server, вы также успешно настроили проверку подлинности серверов и сервера между двумя продуктами. В Skype для бизнеса Server есть командлет Windows PowerShell [Test-ксекссторажеконнективити](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) , который позволяет проверить правильность настройки проверки подлинности серверов и сервера в службе хранилища Skype для бизнеса Server. Подключитесь к Exchange Server. Командлет делает это, подключаясь к почтовому ящику пользователя Exchange Server, записывая элемент в папку журнала бесед для этого пользователя, а затем (необязательно) его удаление.
   
-Тестирование интеграции Скайп для Business Server и Exchange Server, выполните команду, аналогичную приведенным ниже, из Скайп для консоли Business Server:
+Чтобы протестировать интеграцию Skype для бизнеса Server и Exchange Server, выполните в командной консоли Skype для Business Server команду, подобную следующей:
   
 ```
 Test-CsExStorageConnectivity -SipUri "sip:kenmyer@litwareinc.com"
 ```
 
-В предыдущей команде SipUri представляет SIP-адрес пользователя с использованием учетной записи на сервере Exchange; команда завершится с ошибкой в это не учетную запись пользователя.
+В предыдущей команде Сипури — адрес SIP пользователя с учетной записью на сервере Exchange Server; не удается выполнить команду, так как она не является действительной учетной записью пользователя.
   
 > [!NOTE]
-> При получении ответа 401 из этого командлета это возможно, так как конфигурация по умолчанию для Exchange не поддерживает за принятие маркеры Oauth. Дополнительные сведения об использовании Oauth в Exchange [OAuth настройки проверки подлинности с помощью SharePoint 2013 и Скайп для Business Server](https://go.microsoft.com/fwlink/p/?LinkId=513103)см. 
+> Если вы получили ответ 401 от этого командлета, скорее всего, это связано с тем, что в конфигурации Exchange по умолчанию не указана поддержка приема маркеров OAuth. Дополнительные сведения об использовании OAuth в Exchange можно найти в разделе [Настройка проверки подлинности OAuth с помощью SharePoint 2013 и Skype для бизнеса Server](https://go.microsoft.com/fwlink/p/?LinkId=513103). 
   
 Если проверка завершилась успешно и соединение было установлено, можно перейти к настройке дополнительных компонентов, таких как интеграция службы архивации и единое хранилище контактов.

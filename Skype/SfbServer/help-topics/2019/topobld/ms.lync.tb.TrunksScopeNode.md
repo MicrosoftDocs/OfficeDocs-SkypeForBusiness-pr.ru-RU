@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.TrunksScopeNode
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Щелкните правой кнопкой мыши магистральных линий связи в построителе топологий, чтобы выполнить следующее:'
-ms.openlocfilehash: ff68127e1192fc9e288709d3635e9abaeb2bc5b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Щелкните правой кнопкой мыши Магистральы в построителе топологии, чтобы выполнить указанные ниже действия.
+ms.openlocfilehash: 9fff67ce969ac30d5098ebbfaf2fafa9822588de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911326"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34307086"
 ---
 # <a name="trunks-scope-node"></a>Узел области магистральных линий связи
  
-Щелкните правой кнопкой мыши **магистральных линий связи** в построителе топологий, чтобы выполнить следующее:
+Щелкните правой кнопкой **** мыши магистральы в построителе топологии, чтобы выполнить указанные ниже действия.
   
 - **Создать линию связи**. Запускает мастера **Определение новой линии связи** для задания новой магистрали SIP.
     

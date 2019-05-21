@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: В этой таблице представлены сведения о получении номеров телефонов Skype для бизнеса Online и Microsoft Teams и управлении ими в Соединенном Королевстве.
-ms.openlocfilehash: a524d72cbe5ab2a3021a70d383eaff7c8f3d2dec
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 547489c5371639b4195861b1f62edc218efea722
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245190"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274018"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Управление номерами телефонов в Соединенном Королевстве
 
@@ -36,10 +36,10 @@ ms.locfileid: "32245190"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получение нового пользователя или службы телефонных номеров, не указанные в Скайп по центру администрирования бизнеса.   <br/> |Загрузите эту форму.  [Новый запрос номер телефона для Великобритании (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-u.k.-(v.4.0)-(en-us).pdf?raw=true) </br>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
-|Получите телефонных номеров, передан в "мне нравится".  <br/> |Скачайте одну из следующих форм: <br/> [Доверенность для Соединенного Королевства, географические номера телефонов, версия 2.0 на английском (США)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en-us).pdf?raw=true) <br/> [Доверенность для Соединенного Королевства, негеографические номера телефонов, версия 2.1 на английском (США)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en-us).pdf?raw=true) <br/> <br/> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
-|Публикация или Отмена публикации номера телефона в каталоге национальный телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
-|Изменение номера пользователя на номер службы.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
+|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Skype для бизнеса.   <br/> |Скачайте эту форму.  [Новый запрос на телефонный номер для Великобритании (v. 4,0) (EN-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-u.k.-(v.4.0)-(en-us).pdf?raw=true) </br>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Получение телефонных номеров, перенесенных в США.  <br/> |Скачайте одну из следующих форм: <br/> [Доверенность для Соединенного Королевства, географические номера телефонов, версия 2.0 на английском (США)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en-us).pdf?raw=true) <br/> [Доверенность для Соединенного Королевства, негеографические номера телефонов, версия 2.1 на английском (США)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en-us).pdf?raw=true) <br/> <br/> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Публикация и Отмена публикации номеров телефонов в каталоге национального телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
+|Изменение номера пользователя на номер Услуги.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
    
 ## <a name="related-topics"></a>См. также:
 
