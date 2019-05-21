@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeCommunicationsServerScopeNode
@@ -13,21 +13,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
-ms.openlocfilehash: 19ecb124a4f8c5a9a03d2b9b42264a26c30f7b50
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0a88ce00c2583b8476bf4ee2d8c7b2c114ee5231
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930576"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285633"
 ---
-# <a name="office-communications-server-scope-node"></a><span data-ttu-id="07993-104">Узел области сервера Office Communications</span><span class="sxs-lookup"><span data-stu-id="07993-104">Office Communications Server Scope Node</span></span>
+# <a name="office-communications-server-scope-node"></a><span data-ttu-id="d64ee-104">Узел области сервера Office Communications</span><span class="sxs-lookup"><span data-stu-id="d64ee-104">Office Communications Server Scope Node</span></span>
 
-<span data-ttu-id="07993-105">Это предварительная редакция документации и она может меняться.</span><span class="sxs-lookup"><span data-stu-id="07993-105">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="07993-106">Пустые разделы добавлены в качестве заполнителей.</span><span class="sxs-lookup"><span data-stu-id="07993-106">Blank topics are included as placeholders.</span></span>
+<span data-ttu-id="d64ee-105">Это предварительная редакция документации и она может меняться.</span><span class="sxs-lookup"><span data-stu-id="d64ee-105">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="d64ee-106">Пустые разделы добавлены в качестве заполнителей.</span><span class="sxs-lookup"><span data-stu-id="d64ee-106">Blank topics are included as placeholders.</span></span>
 
-<span data-ttu-id="07993-107">Нажмите кнопку **Microsoft Office Communications Server 2007 R2** , чтобы развернуть разделы узла или щелкните правой кнопкой мыши чтобы отобразить параметры **топологии** или получить доступ к этой странице **справки** .</span><span class="sxs-lookup"><span data-stu-id="07993-107">You click **Office Communications Server 2007 R2** to expand the sections under the node, or you right click to access **Topology** options, or to access this **Help** page.</span></span>
+<span data-ttu-id="d64ee-107">Вы щелкните **Office Communications Server 2007 R2** , чтобы развернуть разделы под узлом, или щелкните правой кнопкой мыши, чтобы получить доступ к параметрам **топологии** или получить доступ к этой странице **справки** .</span><span class="sxs-lookup"><span data-stu-id="d64ee-107">You click **Office Communications Server 2007 R2** to expand the sections under the node, or you right click to access **Topology** options, or to access this **Help** page.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="07993-108">См. также</span><span class="sxs-lookup"><span data-stu-id="07993-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d64ee-108">См. также</span><span class="sxs-lookup"><span data-stu-id="d64ee-108">See also</span></span>
 
-[<span data-ttu-id="07993-109">Объединение с помощью мастера объединения построителя топологии</span><span class="sxs-lookup"><span data-stu-id="07993-109">Merge Using Topology Builder Merge Wizard</span></span>](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[<span data-ttu-id="d64ee-109">Слияние с помощью мастера слияния построителя топологии</span><span class="sxs-lookup"><span data-stu-id="d64ee-109">Merge Using Topology Builder Merge Wizard</span></span>](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 
-[<span data-ttu-id="07993-110">Проверьте сведения о топологии</span><span class="sxs-lookup"><span data-stu-id="07993-110">Verify Topology Information</span></span>](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
+[<span data-ttu-id="d64ee-110">Проверка сведений о топологии</span><span class="sxs-lookup"><span data-stu-id="d64ee-110">Verify Topology Information</span></span>](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)

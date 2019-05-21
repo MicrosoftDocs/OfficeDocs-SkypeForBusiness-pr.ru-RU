@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.DisasterRecovery
@@ -13,18 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: Скайп для Business Server 2015 включает в себя аварийного восстановления меры, позволяя вам пары пулов переднего плана, расположенный в двух центров данных.
-ms.openlocfilehash: 05708d04b2127f4f41a5f7f46b30219726bec79c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype для бизнеса Server 2015 включает в себя меры по восстановлению после аварии, позволяя связывать пулы интерфейсов, расположенные в двух центрах обработки данных.
+ms.openlocfilehash: bb89116d1cedf4eea5e888c0b8021b009688324f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914921"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274256"
 ---
-# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="bbfdc-103">Disaster Recovery (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="bbfdc-103">Disaster Recovery (Planning Tool)</span></span>
+# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="b3c10-103">Disaster Recovery (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="b3c10-103">Disaster Recovery (Planning Tool)</span></span>
  
-<span data-ttu-id="bbfdc-104">Скайп для Business Server 2015 включает в себя аварийного восстановления меры, позволяя вам пары пулов переднего плана, расположенный в двух центров данных.</span><span class="sxs-lookup"><span data-stu-id="bbfdc-104">Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
+<span data-ttu-id="b3c10-104">Skype для бизнеса Server 2015 включает в себя меры по восстановлению после аварии, позволяя связывать пулы интерфейсов, расположенные в двух центрах обработки данных.</span><span class="sxs-lookup"><span data-stu-id="b3c10-104">Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
   
-<span data-ttu-id="bbfdc-105">Для получения дополнительных сведений о подготовке среды для аварийного восстановления видеть [Планирование высокой доступности и аварийного восстановления в Скайп для Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="bbfdc-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
+<span data-ttu-id="b3c10-105">Подробнее о том, как подготовить среду к аварийному восстановлению, можно найти в статьях [Планирование высокой доступности и аварийного восстановления в Skype для бизнеса Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="b3c10-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
   
 

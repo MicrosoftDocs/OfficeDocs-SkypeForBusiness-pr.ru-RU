@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
-description: Чтобы добавить дополнительные простых URL-адреса для определения развертывания, укажите URL-адрес нового простого URL-адреса.
-ms.openlocfilehash: 0b2d6331fe23b82618d00e3761949c911bc6c46f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Чтобы добавить в определение развертывания дополнительные простые URL-адреса, укажите URL-адрес нового простого URL-адреса.
+ms.openlocfilehash: 53d5e4a59d14e0082a4de40a55a3a05d9ac926d1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897445"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275838"
 ---
-# <a name="add-simple-url"></a><span data-ttu-id="3d565-103">Добавление простого URL-адреса</span><span class="sxs-lookup"><span data-stu-id="3d565-103">Add Simple URL</span></span>
+# <a name="add-simple-url"></a><span data-ttu-id="ed500-103">Добавление простого URL-адреса</span><span class="sxs-lookup"><span data-stu-id="ed500-103">Add Simple URL</span></span>
  
-<span data-ttu-id="3d565-104">Чтобы добавить дополнительные простых URL-адреса для определения развертывания, укажите URL-адрес нового простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="3d565-104">To add additional simple URLs to the definition of the deployment, specify the URL of the new simple URL.</span></span> <span data-ttu-id="3d565-105">Формат URL-адрес: _http://\<простого URL-адрес типа\>.\< имя домена\> _ или _http://\<доменное имя\>/\<простого URL-адрес типа\>_, где простого типа URL-адрес — это одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="3d565-105">The format of the URL is  _http://\<simple URL type\>.\<domain name\>_ or _http://\<domain name\>/\<simple URL type\>_, where the simple URL type is one of the following:</span></span>
+<span data-ttu-id="ed500-104">Чтобы добавить в определение развертывания дополнительные простые URL-адреса, укажите URL-адрес нового простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="ed500-104">To add additional simple URLs to the definition of the deployment, specify the URL of the new simple URL.</span></span> <span data-ttu-id="ed500-105">URL-адрес имеет формат, _http://\<простой тип\>URL-\< адреса. доменное\> имя_ или _доменное\>/\<имя http://\<URL\>-адрес простого типа_, где простой URL-адрес является одним из следующих:</span><span class="sxs-lookup"><span data-stu-id="ed500-105">The format of the URL is  _http://\<simple URL type\>.\<domain name\>_ or _http://\<domain name\>/\<simple URL type\>_, where the simple URL type is one of the following:</span></span>
   
-- <span data-ttu-id="3d565-106">Провести</span><span class="sxs-lookup"><span data-stu-id="3d565-106">Meet</span></span>
+- <span data-ttu-id="ed500-106">Подходит</span><span class="sxs-lookup"><span data-stu-id="ed500-106">Meet</span></span>
     
-- <span data-ttu-id="3d565-107">Звонить</span><span class="sxs-lookup"><span data-stu-id="3d565-107">Dial in</span></span>
+- <span data-ttu-id="ed500-107">Набрать номер</span><span class="sxs-lookup"><span data-stu-id="ed500-107">Dial in</span></span>
     
 > [!IMPORTANT]
-> <span data-ttu-id="3d565-108">Может иметь одно номера в простой URL-адрес и один собраний простого URL-адреса active в любое время.</span><span class="sxs-lookup"><span data-stu-id="3d565-108">You can have one Dial in simple URL and one Meet simple URL active at any time.</span></span> <span data-ttu-id="3d565-109">Добавление нового простого URL-адреса, делая активный URL-адрес будет задать все последующие запросы для использования нового простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="3d565-109">Adding a new simple URL and making it the active URL will set all future requests to use the new simple URL.</span></span> <span data-ttu-id="3d565-110">Оставьте неактивную простого URL-адреса для обработки конференций и других запросов, которые были внесены при активном старые простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="3d565-110">You leave the nonactive simple URL to handle conferences and other requests that were made when the older simple URL was active.</span></span> 
+> <span data-ttu-id="ed500-108">Вы можете в любое время использовать один простой URL-адрес и один из них.</span><span class="sxs-lookup"><span data-stu-id="ed500-108">You can have one Dial in simple URL and one Meet simple URL active at any time.</span></span> <span data-ttu-id="ed500-109">Если добавить новый простой URL-адрес и сделать его активным, все будущие запросы будут задаваться для использования нового простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="ed500-109">Adding a new simple URL and making it the active URL will set all future requests to use the new simple URL.</span></span> <span data-ttu-id="ed500-110">Вы оставляете неактивный простой URL-адрес для обработки конференций и других запросов, сделанных в момент активации старого простого URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="ed500-110">You leave the nonactive simple URL to handle conferences and other requests that were made when the older simple URL was active.</span></span> 
   
-<span data-ttu-id="3d565-111">Для получения дополнительных сведений о добавлении простой URL-адрес просмотрите [требования к DNS для простых URL-адресов в Скайп для Business Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md).</span><span class="sxs-lookup"><span data-stu-id="3d565-111">For more details about adding a simple URL, see [DNS requirements for simple URLs in Skype for Business Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md).</span></span>
+<span data-ttu-id="ed500-111">Дополнительные сведения о добавлении простого URL-адреса можно найти [в разделе Требования к DNS для простых URL-адресов в Skype для Business Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md).</span><span class="sxs-lookup"><span data-stu-id="ed500-111">For more details about adding a simple URL, see [DNS requirements for simple URLs in Skype for Business Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md).</span></span>
   
 

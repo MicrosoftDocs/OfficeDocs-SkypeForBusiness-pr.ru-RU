@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.MediationServiceSettingsExpander2010
@@ -13,34 +13,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: Свойства службы посредника можно изменить, определив следующие свойства
-ms.openlocfilehash: b3625af71afcf1d414d3599f5ea48a84e3721cdc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c0057157168667ea9ed0981390e59d5dfb1cd89e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888431"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285640"
 ---
-# <a name="mediation-service-settings-expander-for-lync-server-2010"></a><span data-ttu-id="42901-103">Расширитель настроек службы сервера-посредника для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="42901-103">Mediation Service Settings Expander for Lync Server 2010</span></span>
+# <a name="mediation-service-settings-expander-for-lync-server-2010"></a><span data-ttu-id="a2557-103">Расширитель настроек службы сервера-посредника для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="a2557-103">Mediation Service Settings Expander for Lync Server 2010</span></span>
  
-<span data-ttu-id="42901-104">Свойства службы посредника можно изменить, определив следующие свойства</span><span class="sxs-lookup"><span data-stu-id="42901-104">You edit the properties of the Mediation service by defining the following properties:</span></span>
+<span data-ttu-id="a2557-104">Свойства службы посредника можно изменить, определив следующие свойства</span><span class="sxs-lookup"><span data-stu-id="a2557-104">You edit the properties of the Mediation service by defining the following properties:</span></span>
   
-- <span data-ttu-id="42901-p101">**Порты прослушивания**. Задайте порт **TLS** для ожидания передачи данных службой-посредником. По умолчанию для протокола TLS применяется порт TCP 5067.</span><span class="sxs-lookup"><span data-stu-id="42901-p101">**Listening ports**: Define the **TLS** port that the Mediation service will listen on. By default, the port value is TCP 5067 over transport layer security (TLS)</span></span>
+- <span data-ttu-id="a2557-p101">**Порты прослушивания**. Задайте порт **TLS** для ожидания передачи данных службой-посредником. По умолчанию для протокола TLS применяется порт TCP 5067.</span><span class="sxs-lookup"><span data-stu-id="a2557-p101">**Listening ports**: Define the **TLS** port that the Mediation service will listen on. By default, the port value is TCP 5067 over transport layer security (TLS)</span></span>
     
-    <span data-ttu-id="42901-p102">При необходимости можно задать значение порта **TCP**. Значение по умолчанию: TCP 5068.</span><span class="sxs-lookup"><span data-stu-id="42901-p102">Optionally, you define a **TCP** port value. By default, the value is TCP 5068.</span></span>
+    <span data-ttu-id="a2557-p102">При необходимости можно задать значение порта **TCP**. Значение по умолчанию: TCP 5068.</span><span class="sxs-lookup"><span data-stu-id="a2557-p102">Optionally, you define a **TCP** port value. By default, the value is TCP 5068.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="42901-p103">Для задания значения порта TCP необходимо выбрать режим **Включить порт TCP**. Требования к параметрам порта для связи со службой-посредником см. в документации по шлюзу ТСОП или IP‑УАТС.</span><span class="sxs-lookup"><span data-stu-id="42901-p103">The TCP port value setting is enabled by selecting **Enable TCP port**. You should refer to the documentation for your Public Switched Telephone Network (PSTN) Gateway or Internet Protocol Private Branch Exchange (IP-PBX) for the requirements for the port settings required to communicate with the Mediation service.</span></span> 
+    > <span data-ttu-id="a2557-p103">Для задания значения порта TCP необходимо выбрать режим **Включить порт TCP**. Требования к параметрам порта для связи со службой-посредником см. в документации по шлюзу ТСОП или IP‑УАТС.</span><span class="sxs-lookup"><span data-stu-id="a2557-p103">The TCP port value setting is enabled by selecting **Enable TCP port**. You should refer to the documentation for your Public Switched Telephone Network (PSTN) Gateway or Internet Protocol Private Branch Exchange (IP-PBX) for the requirements for the port settings required to communicate with the Mediation service.</span></span> 
   
-- <span data-ttu-id="42901-111">Выбор режима **Включить порт TCP** позволяет задать значение порта для передачи данных по протоколу TCP из шлюза ТСОП или IP-УАТС.</span><span class="sxs-lookup"><span data-stu-id="42901-111">You **Enable TCP port** to define the port value for TCP communications from your PSTN gateway or IP-PBX.</span></span>
+- <span data-ttu-id="a2557-111">Выбор режима **Включить порт TCP** позволяет задать значение порта для передачи данных по протоколу TCP из шлюза ТСОП или IP-УАТС.</span><span class="sxs-lookup"><span data-stu-id="a2557-111">You **Enable TCP port** to define the port value for TCP communications from your PSTN gateway or IP-PBX.</span></span>
     
-- <span data-ttu-id="42901-112">Список связанных и существующих значений параметров **Линия связи** (т. е. магистрали для протокола SIP), **Шлюз** (шлюз ТСОП или IP-УАТС) и **Сайт** (сайт, настроенный для магистрали и шлюза).</span><span class="sxs-lookup"><span data-stu-id="42901-112">A listing of currently associated and existing **Trunk** (that is, Session Initiation Protocol (SIP) Trunks), **Gateway** (PSTN gateway or IP-PBX) and **Site** (configured site for the trunk and gateway).</span></span>
+- <span data-ttu-id="a2557-112">Список связанных и существующих значений параметров **Линия связи** (т. е. магистрали для протокола SIP), **Шлюз** (шлюз ТСОП или IP-УАТС) и **Сайт** (сайт, настроенный для магистрали и шлюза).</span><span class="sxs-lookup"><span data-stu-id="a2557-112">A listing of currently associated and existing **Trunk** (that is, Session Initiation Protocol (SIP) Trunks), **Gateway** (PSTN gateway or IP-PBX) and **Site** (configured site for the trunk and gateway).</span></span>
     
-- <span data-ttu-id="42901-p104">Выберите магистраль, шлюз и сайт, затем щелкните **По умолчанию** для применения выбранных значения по умолчанию данной службой-посредником. Для отмены применения значения по умолчанию выберите его и щелкните **Отменить по умолчанию**. После этого выберите новое значение для применения по умолчанию и щелкните **По умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="42901-p104">You select a Trunk, Gateway and Site and click **Make Default** to set the selection as the default for this Mediation service. You select the current default and click **Unmake Default** to remove the selection as the current default. You then select a new default and click **Make Default**.</span></span>
+- <span data-ttu-id="a2557-p104">Выберите магистраль, шлюз и сайт, затем щелкните **По умолчанию** для применения выбранных значения по умолчанию данной службой-посредником. Для отмены применения значения по умолчанию выберите его и щелкните **Отменить по умолчанию**. После этого выберите новое значение для применения по умолчанию и щелкните **По умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="a2557-p104">You select a Trunk, Gateway and Site and click **Make Default** to set the selection as the default for this Mediation service. You select the current default and click **Unmake Default** to remove the selection as the current default. You then select a new default and click **Make Default**.</span></span>
     
-  <span data-ttu-id="42901-116">**ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="42901-116">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="a2557-116">**ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="a2557-116">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="42901-117">**Отмена**. Отмена изменений и закрытие диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="42901-117">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="a2557-117">**Отмена**. Отмена изменений и закрытие диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="a2557-117">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="42901-118">**Справка**. Отображение этого экрана справки.</span><span class="sxs-lookup"><span data-stu-id="42901-118">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="a2557-118">**Справка**. Отображение этого экрана справки.</span><span class="sxs-lookup"><span data-stu-id="a2557-118">**Help** Displays this help screen.</span></span>
   
 

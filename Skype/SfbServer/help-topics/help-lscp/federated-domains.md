@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ExtDomainMain
@@ -13,19 +13,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 732de1b19525392038dcbf1f37b418dc20ce3f81
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b59dec6b58db380f1181bca9dcfff188b177f62
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920245"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285801"
 ---
-# <a name="federated-domains"></a><span data-ttu-id="a2372-104">Федеративные домены</span><span class="sxs-lookup"><span data-stu-id="a2372-104">Federated Domains</span></span>
+# <a name="federated-domains"></a><span data-ttu-id="2de4a-104">Федеративные домены</span><span class="sxs-lookup"><span data-stu-id="2de4a-104">Federated Domains</span></span>
 
-<span data-ttu-id="a2372-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="a2372-105">What do you want to do?</span></span> <span data-ttu-id="a2372-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="a2372-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="2de4a-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="2de4a-105">What do you want to do?</span></span> <span data-ttu-id="2de4a-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="2de4a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a2372-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="a2372-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="2de4a-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="2de4a-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="a2372-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="a2372-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [<span data-ttu-id="2de4a-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="2de4a-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 
