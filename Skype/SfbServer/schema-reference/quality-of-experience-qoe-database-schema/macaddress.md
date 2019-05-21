@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
-description: Таблица MacAddress представляет собой вспомогательную таблицу. Каждая запись представляет один источник.
-ms.openlocfilehash: 54a40444f3b67eb097d05ebb271302abea628dd7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Таблица MacAddress является вспомогательной таблицей. Каждая запись представляет один источник.
+ms.openlocfilehash: a94296e63c8b6d9a3408e12fa7a48ea3b635c238
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920189"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294910"
 ---
 # <a name="macaddress-table"></a>Таблица MacAddress
  
-Таблица MacAddress представляет собой вспомогательную таблицу. Каждая запись представляет один источник.
+Таблица MacAddress является вспомогательной таблицей. Каждая запись представляет один источник.
   
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**MacAddressKey** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий Mac-адрес.  <br/> |
-|**MacAddress** <br/> |varchar(256)  <br/> |Уникальный  <br/> |Строка MAC-адреса.  <br/> |
+|**Макаддресскэй** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер для обозначения Mac-адреса.  <br/> |
+|**MacAddress** <br/> |varchar (256)  <br/> |Повторя  <br/> |Строка Mac-адреса.  <br/> |
    
 

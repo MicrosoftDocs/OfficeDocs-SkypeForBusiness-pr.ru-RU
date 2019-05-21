@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
-description: tblConfig содержит несколько серверов сохраняемого чата неподдерживаемой конфигурации в одну строку.
-ms.openlocfilehash: 79cd7e2303210bb07f35fa2c6b7ecc5c86b7e8cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Тблконфиг включает в себя неподдерживаемую конфигурацию сервера чатов в одной строке.
+ms.openlocfilehash: 244eebcb88c67b521022f9d64888678f221d2369
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930024"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295456"
 ---
 # <a name="tblconfig"></a>tblConfig
  
-tblConfig содержит несколько серверов сохраняемого чата неподдерживаемой конфигурации в одну строку.
+Тблконфиг включает в себя неподдерживаемую конфигурацию сервера чатов в одной строке.
   
-**Столбцы**
+**Столбцов**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|configLabel  <br/> |nvarchar (255), отлично от null  <br/> |Содержит «pool».  <br/> |
-|configContent  <br/> |nvarchar (максимум)  <br/> |Содержимое конфигурации.  <br/> |
-|configPoolID  <br/> |Идентификатор GUID, не может быть null  <br/> |Уникальный идентификатор экземпляра базы данных.  <br/> |
+|Конфиглабел  <br/> |nvarchar (255), NOT NULL  <br/> |Группа "пул".  <br/> |
+|Конфигконтент  <br/> |nvarchar (max)  <br/> |Содержимое конфигурации.  <br/> |
+|Конфигпулид  <br/> |GUID, а не NULL  <br/> |Уникальный идентификатор экземпляра базы данных.  <br/> |
    
 **Ключ**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|configLabel  <br/> |Первичный ключ.  <br/> |
+|Конфиглабел  <br/> |Первичный ключ.  <br/> |
    
 

@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca91a0b4-98c0-49f6-af9d-7d0f8ac75f1a
-description: Таблица DeviceDriver представляет собой вспомогательную таблицу. Каждая запись представляет драйвера устройства захвата или устройства обработки.
-ms.openlocfilehash: 9a011c7e555bad71f453510dca7c310e2467a505
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Таблица Девицедривер является вспомогательной таблицей. Каждая запись представляет драйвер, который используется устройством захвата или устройством рендеринга.
+ms.openlocfilehash: 6a58bba9edcb0351c929c1406dcbc1ebaedec364
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920175"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294980"
 ---
 # <a name="devicedriver-table"></a>Таблица DeviceDriver
  
-Таблица DeviceDriver представляет собой вспомогательную таблицу. Каждая запись представляет драйвера устройства захвата или устройства обработки.
+Таблица Девицедривер является вспомогательной таблицей. Каждая запись представляет драйвер, который используется устройством захвата или устройством рендеринга.
   
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**DeviceDriverKey** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий эту запись драйвера устройства.  <br/> |
-|**DeviceDriver** <br/> |varchar(256)  <br/> |Уникальный  <br/> |Имя драйвера для устройства.  <br/> |
+|**Девицедриверкэй** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий эту запись драйвера устройства.  <br/> |
+|**DeviceDriver** <br/> |varchar (256)  <br/> |повторя  <br/> |Имя драйвера устройства.  <br/> |
    
 

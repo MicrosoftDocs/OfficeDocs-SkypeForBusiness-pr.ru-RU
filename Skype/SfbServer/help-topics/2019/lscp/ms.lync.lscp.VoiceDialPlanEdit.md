@@ -1,10 +1,10 @@
 ---
-title: Создание новой или редактирование существующей абонентской группы
+title: Абонентская группа создание нового или изменение существующего
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceDialPlanEdit
@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: b2846ca124c62cdfd23f82a5b0d16e4602eb4a4e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 70fd1bb986c90850423000e0438e9e02b792cc51
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890832"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293657"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Абонентская группа: создание новой или редактирование существующей
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 
-- [Создание или изменение абонентской группы в Скайп для Business Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [Создание и изменение абонентской группы в Skype для бизнеса Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
 - [Изменение абонентской группы](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [Создание или изменение правила нормализации в Скайп для бизнеса](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Создание и изменение правила нормализации в Skype для бизнеса](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
 - [Создание или изменение правила нормализации вручную](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 

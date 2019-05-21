@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
-description: В таблице диалогового окна представляет собой вспомогательную таблицу; Каждая запись представляет один диалоговое окно Session Initiation Protocol (SIP).
-ms.openlocfilehash: 36ab76d147673ca85371ca4cdfb151fa953e29b2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Диалоговая таблица — это вспомогательная таблица; Каждая запись отображает диалоговое окно протокола SIP.
+ms.openlocfilehash: e6bbaa3c40ebf53c5fd9fc410acca7779128bf39
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920091"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294959"
 ---
 # <a name="dialog-table"></a>Таблица Dialog
  
-В таблице диалогового окна представляет собой вспомогательную таблицу; Каждая запись представляет один диалоговое окно Session Initiation Protocol (SIP).
+Диалоговая таблица — это вспомогательная таблица; Каждая запись отображает диалоговое окно протокола SIP.
   
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Время, когда агент работы (QoE) получает первый отчет от вызывающего и вызываемого абонента. Используется в сочетании с SessionSeq для уникальной идентификации сеанса.  <br/> |
-|**SessionSeq** <br/> |целое  <br/> |Primary  <br/> |Порядковый номер, позволяющий различать сеансы, когда у них есть же ConferenceDateTime.  <br/> |
-|**DialogID** <br/> |varchar(256)  <br/> ||Глобальный уникальный идентификатор диалогового окна.  <br/> |
-|**DialogIDChecksum** <br/> |целое  <br/> |Индекс  <br/> |Контрольная сумма идентификатора диалогового окна.  <br/> |
+|**Конференцедатетиме** <br/> |datetime  <br/> |Primary  <br/> |Время, когда агент качества (QoE) получает первый отчет от вызывающего или вызываемого абонента. Используется в сочетании с Сессионсек для уникальной идентификации сеанса.  <br/> |
+|**Сессионсек** <br/> |целое  <br/> |Primary  <br/> |Порядковый номер, чтобы отличать сеансы связи с одинаковым Конференцедатетиме.  <br/> |
+|**Диалогид** <br/> |varchar (256)  <br/> ||ИДЕНТИФИКАТОР диалогового окна, который является глобально уникальным.  <br/> |
+|**Диалогидчекксум** <br/> |целое  <br/> |индекса  <br/> |Контрольная сумма идентификатора диалогового окна.  <br/> |
    
 

@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceUsageSelRoute
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
-description: Используйте диалоговое окно Выбор маршрутов для поиска существующих маршрутов голосовых вызовов, которые можно использовать.
-ms.openlocfilehash: 04de6f02a70c210ce7e4e89198bd1e6813421e60
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Используйте диалоговое окно Выбор маршрутов для поиска существующих голосовых маршрутов, которые вы можете использовать.
+ms.openlocfilehash: c755c27b79c8e9d6c9772eb1ff7a05c682186d50
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924502"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293342"
 ---
 # <a name="select-routes"></a>Выбор маршрутов
  
-Используйте диалоговое окно **Выбор маршрутов** для поиска существующих маршрутов голосовых вызовов, которые можно использовать.
+Используйте диалоговое окно **выбор маршрутов** для поиска существующих голосовых маршрутов, которые вы можете использовать.
   
 > [!NOTE]
-> Чтобы получить все доступны маршруты голосовых данных, не вводите в поле «Поиск» и нажмите значок поиска. 
+> Чтобы получить все доступные Голосовые маршруты, не вводите ничего в поле поиска, а затем щелкните значок поиска. 
   
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
   
 

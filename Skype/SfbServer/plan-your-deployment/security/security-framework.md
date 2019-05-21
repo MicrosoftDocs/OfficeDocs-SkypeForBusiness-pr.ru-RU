@@ -1,30 +1,30 @@
 ---
-title: Модель безопасности для Скайп для Business Server
+title: Платформа безопасности для Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: В этом разделе приведен обзор основных элементов, формирующих модель безопасности для Скайп для Business Server. Общие сведения о совместной работе этих элементов необходимо для принятия обоснованных решений о защите вашей конкретной Скайп для развертывания Business Server.
-ms.openlocfilehash: 2ffede0ab2e6dab012ee578f764b3f1ea3f42db6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: В этом разделе приводятся общие сведения об основных элементах, которые формируют структуру безопасности для Skype для бизнеса Server. Понимание того, как эти элементы работают вместе, очень важно для принятия обоснованных решений по обеспечению безопасности конкретного развертывания Skype для бизнеса Server.
+ms.openlocfilehash: 8b82b09a8220139abe62ac4503ad8a7eddc28e99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914130"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296877"
 ---
-# <a name="security-framework-for-skype-for-business-server"></a>Модель безопасности для Скайп для Business Server
+# <a name="security-framework-for-skype-for-business-server"></a>Платформа безопасности для Skype для бизнеса Server
  
-В этом разделе приведен обзор основных элементов, формирующих модель безопасности для Скайп для Business Server. Общие сведения о совместной работе этих элементов необходимо для принятия обоснованных решений о защите вашей конкретной Скайп для развертывания Business Server.
+В этом разделе приводятся общие сведения об основных элементах, которые формируют структуру безопасности для Skype для бизнеса Server. Понимание того, как эти элементы работают вместе, очень важно для принятия обоснованных решений по обеспечению безопасности конкретного развертывания Skype для бизнеса Server.
   
 Ниже представлены эти элементы.
   
-- Доменных служб Active Directory (AD DS) предоставляет одного надежного серверной хранилище учетных записей пользователей и сетевых ресурсов.
+- Доменные службы Active Directory (AD DS) предоставляют единый доверенный серверный репозиторий для учетных записей пользователей и сетевых ресурсов.
     
 - Управление доступом на основе ролей (RBAC) позволяет делегировать административные задачи, обеспечивая при этом поддержку высоких стандартов безопасности.
     
@@ -34,26 +34,26 @@ ms.locfileid: "33914130"
     
 - Протоколы отраслевых стандартов для проверки подлинности пользователя (по мере возможности).
     
-- Windows PowerShell предоставляет функции безопасности, для которых включено по умолчанию, чтобы пользователи не могут легко или непреднамеренно выполнение скриптов.
+- Windows PowerShell предоставляет функции безопасности, которые включены по умолчанию, чтобы пользователи не могли легко или непреднамеренно запускать сценарии.
     
-Эти элементы системы безопасности фундаментальные работают вместе для определения надежным пользователям, серверы, подключений и операций для обеспечения безопасной foundation для Скайп для Business Server.
+Эти фундаментальные элементы безопасности вместе служат для определения доверенных пользователей, серверов, подключений и операций, чтобы обеспечить надежную основу для Skype для бизнеса Server.
   
 ## <a name="in-this-section"></a>Содержание
 
-В этом разделе описываются принципы работы каждого из этих основных элементов для повышения безопасности вашей Скайп для инфраструктуры Business Server.
+В этой статье описывается, как все эти фундаментальные элементы помогают повысить безопасность инфраструктуры сервера Skype для бизнеса.
   
-- [Доменные службы Active Directory для Скайп для Business Server](active-directory-domain-services.md)
+- [Доменные службы Active Directory для Skype для бизнеса Server](active-directory-domain-services.md)
     
-- [Управление доступом на основе ролей (RBAC) для Скайп для Business Server](role-based-access-control-rbac.md)
+- [Управление доступом на основе ролей (RBAC) для Skype для бизнеса Server](role-based-access-control-rbac.md)
     
-- [Инфраструктура открытого ключа для Скайп для Business Server](public-key-infrastructure-for-skype.md)
+- [Инфраструктура открытых ключей для Skype для бизнеса Server](public-key-infrastructure-for-skype.md)
     
-- [Протокол TLS и MTLS для Скайп для Business Server](tls-and-mtls.md)
+- [TLS и MTLS для Skype для бизнеса Server](tls-and-mtls.md)
     
-- [Шифрование для Скайп для Business Server](encryption.md)
+- [Шифрование для Skype для бизнеса Server](encryption.md)
     
-- [Пользователь и клиент проверки подлинности Скайп для Business Server](user-and-client-authentication.md)
+- [Проверка подлинности пользователей и клиентов для Skype для бизнеса Server](user-and-client-authentication.md)
     
-- [Скайп для средств управления Business Server и Windows PowerShell](management-tools.md)
+- [Средства управления Windows PowerShell и Skype для бизнеса Server](management-tools.md)
     
 

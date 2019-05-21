@@ -1,33 +1,33 @@
 ---
-title: Создание параметров конфигурации собрания в Скайп для Business Server
+title: Создание параметров конфигурации собраний в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Сводка: Сведения о создании параметров конфигурации собрания в Скайп для Business Server.'
-ms.openlocfilehash: ea75e133ab15f450a6316c9ee86ba2ded485f29a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как создавать параметры конфигурации собраний в Skype для бизнеса Server.'
+ms.openlocfilehash: 3d4f986b850b309d50967da9126b8b4eea08a166
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919418"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293846"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Создание параметров конфигурации собрания в Скайп для Business Server
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Создание параметров конфигурации собраний в Skype для бизнеса Server
  
-**Сводка:** Сведения о создании параметров конфигурации собрания в Скайп для Business Server.
+**Сводка:** Сведения о том, как создавать параметры конфигурации собраний в Skype для бизнеса Server.
   
-Можно создать параметров конфигурации собрания с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
+Параметры конфигурации собрания можно создать с помощью панели управления Skype для бизнеса Server или с помощью командной консоли Skype для бизнеса Server.
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Создание параметров конфигурации собрания с помощью Скайп для панели управления Business Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Создание параметров конфигурации собраний с помощью панели управления Skype для бизнеса Server
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2.  Откройте Скайп для панели управления Business Server.
+2.  Откройте панель управления Skype для бизнеса Server.
     
 3. В левой области навигации щелкните **Конференц-связь**, затем **Конфигурация собрания**.
     
@@ -51,7 +51,7 @@ ms.locfileid: "33919418"
     
 8. Чтобы запретить автоматическое предоставление доступа анонимным (не прошедшим проверку подлинности) пользователям, снимите флажок **Допуск анонимных пользователей по умолчанию**. По умолчанию анонимные пользователи автоматически допускаются к собраниям.
     
-9. Чтобы настроить отправку участникам приглашения на собрание, выполните указанные ниже действия. Обратите внимание, что максимальная длина URL-адресов и настраиваемых колонтитулов — 1 КБ. Если не указать значение для настроек, они не будут включены в собрание (кроме **URL-адреса справки**). Если не включить URL-адрес справки, URL-адрес справки по умолчанию для Скайп для бизнеса отображается в приглашении на. 
+9. Чтобы настроить отправку участникам приглашения на собрание, выполните указанные ниже действия. Обратите внимание, что максимальная длина URL-адресов и настраиваемых колонтитулов — 1 КБ. Если не указать значение для настроек, они не будут включены в собрание (кроме **URL-адреса справки**). Если вы не включаете URL-адрес настраиваемой справки, в приглашении появится адрес URL справки по умолчанию для Skype для бизнеса. 
     
    - Чтобы настроить логотип, который отображается в приглашении на собрание, укажите местоположение логотипа в поле **URL-адрес логотипа**. В качестве логотипа необходимо использовать изображение формата GIF или JPG, имеющее размер 188 на 30 пикселей. 
     
@@ -63,7 +63,7 @@ ms.locfileid: "33919418"
     
 10. Нажмите **Исполнить**.
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Создание параметров конфигурации собрания с помощью Скайп для консоли Business Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Создание параметров конфигурации собраний с помощью командной консоли Skype для бизнеса Server
 
 Для создания параметров конфигурации собрания используется командлет **New-CsMeetingConfiguration**.
   
@@ -87,6 +87,6 @@ New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Every
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-Дополнительные сведения, включая полный список параметров содержатся в разделе [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
+Дополнительные сведения, включая полный список параметров, можно найти в разделе [New-ксмитингконфигуратион](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
   
 

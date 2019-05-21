@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
-description: Таблица tblActivePeers содержит текущие peer-to-peer соединения между службами чата.
-ms.openlocfilehash: 7d7f995b878d6e47878636bee6f9c16ac142352e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Тблактивепирс включает в себя текущие одноранговые соединения между службами чата.
+ms.openlocfilehash: f45a04019cafc2304baf825b5000e96ca7a6cead
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929877"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295547"
 ---
 # <a name="tblactivepeers"></a>tblActivePeers
  
-Таблица tblActivePeers содержит текущие peer-to-peer соединения между службами чата.
+Тблактивепирс включает в себя текущие одноранговые соединения между службами чата.
   
-**Столбцы**
+**Столбцов**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|aplServerID  <br/> |int, не null  <br/> |Идентификатор сервера, добавившего запись.  <br/> |
-|aplPeerID  <br/> |int, не null  <br/> |ИД узла, который подключен сервер учета.  <br/> |
+|Аплсерверид  <br/> |int, NOT NULL  <br/> |Идентификатор сервера, на котором размещена запись.  <br/> |
+|Аплпирид  <br/> |int, NOT NULL  <br/> |Идентификатор однорангового узла, к которому подключен сервер публикации.  <br/> |
    
-**Ключи**
+**Параметры**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|\<aplServerID aplPeerID\>  <br/> |Первичный ключ.  <br/> |
-|aplServerID  <br/> |Внешний ключ с поиском в таблице tblServerIdentity.serverID.  <br/> |
-|aplPeerID  <br/> |Внешний ключ с поиском в таблице tblServerIdentity.serverID.  <br/> |
+|\<Аплсерверид, Аплпирид\>  <br/> |Первичный ключ.  <br/> |
+|Аплсерверид  <br/> |Внешний ключ с подстановкой в таблице Тблсерверидентити. Серверид.  <br/> |
+|Аплпирид  <br/> |Внешний ключ с подстановкой в таблице Тблсерверидентити. Серверид.  <br/> |
    
 

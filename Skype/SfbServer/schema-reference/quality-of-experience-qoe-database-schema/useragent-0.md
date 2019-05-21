@@ -1,32 +1,32 @@
 ---
-title: Представление UserAgent
+title: Представление "UserAgent"
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b986f76f-f16e-4e5e-96cb-6e8f7f9b42ee
-description: Представление UserAgent хранит информацию об агентах пользователя, участвовавших в сеансах с записями в базе данных. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: 942093ece5706115cc4e90171c09df8a8a169b09
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: В представлении UserAgent хранятся сведения о агентах пользователей, которые были вовлечены в сеансы с записями в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
+ms.openlocfilehash: 874a9c986ec77c3e19b557cd65dcf6dbeb045752
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907026"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294609"
 ---
-# <a name="useragent-view"></a>Представление UserAgent
+# <a name="useragent-view"></a>Представление "UserAgent"
  
-Представление UserAgent хранит информацию об агентах пользователя, участвовавших в сеансах с записями в базе данных. В этом представлении была введена в Microsoft Lync Server 2013.
+В представлении UserAgent хранятся сведения о агентах пользователей, которые были вовлечены в сеансы с записями в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
   
 |**Столбец**|**Тип данных**|**Сведения**|
 |:-----|:-----|:-----|
-|UserAgentKey  <br/> |целое  <br/> |Уникальный номер, идентифицирующий этот агент пользователя.  <br/> |
+|Усераженткэй  <br/> |целое  <br/> |Уникальный номер, идентифицирующий агент пользователя.  <br/> |
 |UserAgent  <br/> |nvarchar(256)  <br/> |Строка агента пользователя.  <br/> |
-|UAType  <br/> |smallint  <br/> |Тип агента пользователя. В разделе [Таблица UserAgent](useragent.md) для получения дополнительных сведений. <br/> |
-|UACategory  <br/> |nvarchar(64)  <br/> |Категория, к которой принадлежит агента пользователя. Например агент пользователя Conferencing_Attendant_1.0 принадлежит UACategory CAA.  <br/> |
+|Уатипе  <br/> |smallint  <br/> |Тип агента пользователя. Дополнительные сведения приведены в [таблице UserAgent](useragent.md) . <br/> |
+|Уакатегори  <br/> |nvarchar (64)  <br/> |Категория, к которой принадлежит агент пользователя. Например, агент пользователя КонференЦинг_аттендант_ 1.0 принадлежит к Уакатегори Каа.  <br/> |
    
 

@@ -1,11 +1,11 @@
 ---
-title: Просмотр сведений о службе топологии
+title: Сведения о службе представления топологии
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.TopoStatusSvcEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 982564b9e328dc6c42a766d540cb34f788261667
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 030d37edb6eecb0040a691d7fd30c6534a7525e4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929128"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293097"
 ---
 # <a name="topology-view-service-detail"></a>Топология: просмотр сведений о службе
 
@@ -32,5 +32,5 @@ ms.locfileid: "33929128"
 
 - [Prevent New Connections to Services](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
 
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
 

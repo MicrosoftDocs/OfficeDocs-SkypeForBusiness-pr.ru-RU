@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Нидерландов.
-ms.openlocfilehash: c891cfc53625c7bb8e8b584f28e31cd372817907
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Нидерландов.
+ms.openlocfilehash: a7ee5062baad01e1d620d3f2e3f09283e7bbd29a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541890"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294238"
 ---
 # <a name="availability-in-the-netherlands"></a>Доступность в Нидерландах
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Нидерландов.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Нидерландов.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -60,8 +60,8 @@ ms.locfileid: "30541890"
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение планов звонков?  <br/> |Да  <br/> |
-|Доступные для вызова планы минут. |Существует четыре параметра план в месяц календаря. <ul><li>120 минуты планирование внутренних звонков </li><li>240 минуты планирование внутренних звонков</li></li><li>1200 минуты планирование внутренних звонков </li></li><li>Внутренние и вызов планирование International: 1200 минут внутренних - или-600 минут международных звонков (из двух достигнуто первым в календарном месяце)</li></li> 
-|Можно выполнять исходящие вызовы на номера premium? <br/> | В настоящее время не поддерживается. <br/> |
+|Минуты, доступные для планов звонков. |Для одного календарного месяца доступно четыре варианта плана: <ul><li>120 минут на звонки в местные планы </li><li>240 минут на звонки в местные планы</li></li><li>1200 минут на звонки в местные планы </li></li><li>План внутренних и международных звонков: 1200 минут из внутренних или 600 минут на международные звонки (в зависимости от того, какой из них достигнут в календарном месяце).</li></li> 
+|Может ли исходящие звонки на платные номера? <br/> | В настоящее время не поддерживается. <br/> |
 |Кому можно делать исходящие звонки?  <br/> | В 196 стран мира, в том числе [следующие](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб

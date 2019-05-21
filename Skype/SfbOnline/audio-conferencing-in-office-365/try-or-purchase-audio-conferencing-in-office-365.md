@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: deb26d47c2b291e83c3ed32e4175bf7a82035c67
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e59c895ed60c53b3199648a0acb142037b936c75
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203330"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302763"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Воспользуйтесь пробной версией или приобретите функцию аудиоконференции в Office 365 для Skype для бизнеса Online
 
@@ -38,9 +38,9 @@ Sometimes people in your organization will need to use a phone to call in to a m
 
 You only need to set up audio conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to the meeting don't need any licenses assigned to them and don't need other setup.
 
-Цена сведения, в разделе [ценообразования для аудиоконференции](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+Сведения о ценах можно найти в статье [цены для голосовой конференции](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
 
-## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Этап 1: Приобрести и назначение лицензий аудиоконференции
+## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Шаг 1: приобретение и назначение лицензий на голосовую конференцию
 
 Для перехода к этому шагу у Вас должны быть [О правах администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -52,9 +52,9 @@ You only need to set up audio conferencing for people who plan to schedule or le
 
    - **Try it** before you buy it, you can sign up for an Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Купить**, видеть [Скайп для бизнеса и группами Майкрософт дополнительный компонент лицензирования](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+   - **Купите его**, вы можете ознакомиться с [лицензией на надстройку Skype для бизнеса и Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
-3. [Назначение и удаление лицензий на Office 365 для бизнеса](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) , приобретенных для пользователей в вашей организации, которые будет расписание или ведущий сотрудник собраний.
+3. [Назначение и удаление лицензий для Office 365 для бизнеса](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) , которые вы приобрели для пользователей в вашей организации, которые планируется планировать или руководить собраниями.
 
 4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
@@ -71,7 +71,7 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
     > [!IMPORTANT]
     > Если кредиты на связь не настроены, для любых пользователей с лицензиями с поминутной оплатой функция аудиоконференции работать не будет.
 
-4. [Назначение и удаление лицензий на Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) , приобретенных для пользователей в вашей организации, которые будет расписание или ведущий сотрудник собраний.
+4. [Назначение и удаление лицензий для Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) , которые вы приобрели для пользователей в вашей организации, которые планируется планировать или руководить собраниями.
 
     > [!NOTE]
     > В случае наличия лицензий на аудиоконференции с поминутной оплатой Вам необязательно отдельно для каждого пользователя специально назначать лицензии на кредиты на связь, чтобы использовать функцию аудиоконференций (однако, может потребоваться назначение лицензий на другие сервисы).
@@ -90,7 +90,7 @@ When you assign an **Audio Conferencing** license to people in your organization
 
 3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
 
-4. [Задать длину ПИН-кода для собраний аудио конференц-связи](set-the-pin-length-for-audio-conferencing-meetings.md).
+4. [Установка длины ПИН-кода для собраний по голосовой конференции](set-the-pin-length-for-audio-conferencing-meetings.md).
 
 
 > [!NOTE]

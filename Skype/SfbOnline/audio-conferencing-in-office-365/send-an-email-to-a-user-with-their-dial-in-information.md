@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Отправляйте своим пользователям сообщения электронной почты с информацией для участия в аудиоконференциях в Skype для бизнеса Online.
-ms.openlocfilehash: 80cfbd88b8c933e2b1e66d6348deff111a45f8e3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 14c8bc3eb246cf4ab6ffa0d823ec53fbdc78d189
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229324"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302100"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Отправить сообщение электронной почты для пользователя с помощью их аудиоконференции сведения в Скайп для бизнеса в Интернет
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Отправка электронного письма пользователю со сведениями о голосовой конференции в Skype для бизнеса Online
 
 > [!Note]
 > Сведения об отправке пользователям информации для участия в аудиоконференциях в Microsoft Teams см. в статье [Отправка пользователю сообщения электронной почты с информацией для участия в аудиоконференциях в Microsoft Teams](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams).
@@ -39,7 +39,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
 - Идентификатор конференции пользователя.
     
    
-Ниже приведен пример сообщения электронной почты:
+Ниже приведен пример отправляемого сообщения электронной почты.
   
 ![Сообщение о конференц-связи с телефонным подключением](../images/audio-conferencing-info.png)
 
@@ -48,46 +48,46 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Отправка пользователю сообщения электронной почты с информацией для участия в аудиоконференциях
 
-1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
+1. На панели навигации слева выберите пункт **Пользователи**, а затем выберите пользователя из списка доступных пользователей.
 
-2. В верхней части страницы нажмите кнопку **Изменить**.
+2. В верхней части страницы нажмите кнопку **изменить**.
 
 3. В разделе **Аудиоконференции** щелкните **Отправить информацию для конференций в электронном письме**.
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Перейдите в **Центр администрирования Office 365** > **Скайп для бизнеса**и на панели навигации слева щелкните **звук конференц-связи**.
+2.  > Перейдите в **центр администрирования Office 365**в**Skype для бизнеса**и на панели навигации слева выберите пункт **звуковые конференции**.
     
-3. Щелкните **Пользователи**и затем выберите пользователя.
+3. Нажмите кнопку **Пользователи**, а затем выберите пользователя.
     
 4. На панели действий щелкните **Отправить информацию о конференции по электронной почте**.
     
 > [!TIP]
-> Можно также отправить электронной почты для пользователя с помощью параметров аудиоконференций путем изменения свойства пользователя **аудиоконференции** > **отправлять сведения о конференции по электронной почте**. 
+> Кроме того, вы можете отправлять электронную почту пользователю с помощью параметров конференц-связи, изменив свойства пользователя и **** > выбрав команду**отправить сведения о конференции по электронной почте**. 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Что еще необходимо знать о таких сообщениях?
 
-- Существует несколько сообщений электронной почты, отправленных для пользователей в вашей организации после их, необходимо включить для аудиоконференций.
+- После включения поддержки голосовой конференции у пользователей вашей организации есть несколько сообщений электронной почты, которые отправляются пользователям.
     
   - При назначении пользователям лицензии **аудиоконференций**.
     
-  - При сбросе вручную аудиоконференций ПИН-код пользователя.
+  - При ручном сбросе ПИН-кода голосовой конференции пользователя.
     
   - Выполнение сброса идентификатора конференции пользователя вручную.
     
   - При изъятии лицензии **аудиоконференций** у пользователя.
     
-  - Поставщик услуг аудиоконференций для пользователя изменении корпорацией Майкрософт на другой поставщик или **Нет**.
+  - Когда поставщик видеоконференций для пользователя будет изменен с Microsoft на другого поставщика или **нет**.
     
-  - При изменении поставщика аудиоконференций для пользователя в корпорацию Майкрософт.
+  - После изменения поставщика голосовой конференции для пользователя на Microsoft.
     
 - By default, the sender of the emails will be from Office 365, but you can change the email address and display name by using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) cmdlet. To make changes to the email address that is sending the email to users, you must:
     
-  - Введите адрес электронной почты с помощью параметра SendEmailFromAddress.
+  - Введите адрес электронной почты в параметре Сендемаилфромаддресс.
     
   - Присвойте параметру SendEmailOverride значение True.
     
-  - Введите отображаемое имя электронной почты с помощью параметра SendEmailFromDisplayName.
+  - Введите отображаемое имя электронной почты в параметре Сендемаилфромдисплайнаме.
     
      `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
@@ -98,7 +98,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
 
 - Для экономии времени или автоматизации процесса можно воспользоваться командлетом [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
     
-    Чтобы отправить сообщение электронной почты пользователя с их сведения аудиоконференций, выполните следующую команду:
+    Чтобы отправить пользователю сообщение электронной почты со сведениями о голосовой конференции, выполните указанные ниже действия.
     
   ```
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
@@ -123,4 +123,4 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

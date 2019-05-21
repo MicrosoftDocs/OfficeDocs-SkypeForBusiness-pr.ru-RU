@@ -1,30 +1,30 @@
 ---
-title: Применение политики архивации для пользователей, Скайп для Business Server
+title: Применение к пользователям политики архивации в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 'Сводка: Узнайте, как назначение политики архивации для пользователей, Скайп для Business Server.'
-ms.openlocfilehash: 4375aa593b106283042d89413aa65a5eed707bbb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о назначении политики архивации пользователям в Skype для бизнеса Server.'
+ms.openlocfilehash: 895a7fac34fcac0a4a7e39756796f6b7d2fc6377
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903160"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282051"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Применение политики архивации для пользователей, Скайп для Business Server
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Применение к пользователям политики архивации в Skype для бизнеса Server
 
-**Сводка:** Узнайте, как назначение политики архивации для пользователей, Скайп для Business Server.
+**Сводка:** Сведения о назначении пользователям политики архивации в Skype для бизнеса Server.
   
-Если вы создали одну или несколько политик пользователей для архивации для пользователей, размещенных на Скайп для Business Server, вы можете реализовать поддержки архивации для конкретных пользователей путем применения соответствующих политик для этих пользователей или групп пользователей. Например если создать политику для поддержки архивации внутренних коммуникаций, можно применить их хотя бы одному пользователю или группе пользователей для поддержки архивации из Скайп пользователя для коммуникаций Business Server.
+Если вы создали одну или несколько политик пользователей для архивации для пользователей, размещенных на сервере Skype для бизнеса Server, вы можете реализовать поддержку архивации для определенных пользователей, применяя соответствующие политики к этим пользователям или группам пользователей. Например, если вы создаете политику для поддержки архивации внутренних данных, вы можете применить ее по крайней мере к одному пользователю или группе пользователей для поддержки архивации данных пользователя в Skype для бизнеса Server.
   
 > [!NOTE]
-> Если включена интеграция с Microsoft Exchange для вашего развертывания, управления политики хранения на месте Exchange ли архивации для пользователей, которые размещаются на сервере Exchange и установить их почтовые ящики на хранение на месте. Дополнительные сведения см [Планирование архивации в Скайп для Business Server](../../plan-your-deployment/archiving/archiving.md) и [Настройка интеграции с хранилищем Exchange для Скайп для Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Если вы включили интеграцию Microsoft Exchange для развертывания, политики хранения на месте Exchange определяют, разрешено ли архивирование для пользователей, использующих Exchange, и почтовые ящики, которые помещаются на хранение на месте. Подробности можно найти [в разделе Планирование архивации в Skype для бизнеса Server](../../plan-your-deployment/archiving/archiving.md) и [Настройка интеграции с хранилищем Exchange для Skype для бизнеса Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Применение политики пользователей с помощью панели управления
 
@@ -32,22 +32,22 @@ ms.locfileid: "33903160"
   
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator. 
     
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server. 
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server. 
     
 3. На панели навигации слева нажмите **Пользователи** и затем найдите учетную запись пользователя, которую необходимо настроить. 
     
 4. В таблице с результатами поиска выберите нужную учетную запись, нажмите кнопку **Изменить** и выберите пункт **Показать сведения**.
     
-5. В **Окне Изменение пользователя Lync Server** в поле **Политика архивация**выберите политику, которую нужно применить.
+5. В диалоговом окне **изменение пользователя Lync Server** в разделе **Политика архивации**выберите политику архивации пользователей, которую вы хотите применить.
     
     > [!NOTE]
-    > ** \<Автоматического\> ** параметры применяются параметры установки сервера по умолчанию. Данные параметры автоматически применяются сервером.
+    > Для ** \<параметров\> автоматической** настройки применяются параметры установки сервера по умолчанию. Данные параметры автоматически применяются сервером.
   
 6. Нажмите **Исполнить**.
     
-## <a name="apply-a-user-policy-by-using-windows-powershell"></a>Применение пользовательской политики с помощью Windows PowerShell
+## <a name="apply-a-user-policy-by-using-windows-powershell"></a>Применение политики пользователей с помощью Windows PowerShell
 
-Также можно применить политику уровня пользователя с помощью командлета Windows PowerShell **Grant-CsArchivingPolicy** .
+Вы также можете применить политику пользователей с помощью командлета **Grant-Ксарчивингполици** Windows PowerShell.
   
 Следующей командой пользователю Ken Myer назначается политика архивации RedmondArchivingPolicy на уровне пользователей.
   
@@ -55,7 +55,7 @@ ms.locfileid: "33903160"
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
-Эта команда назначает политику архивации на уровне пользователя RedmondArchivingPolicy всем пользователям, чьи учетные записи размещены в пуле регистраторов atl-cs-001.contoso.com. Для получения дополнительных сведений о параметр Filter, используемые в этой команде обратитесь к документации командлет [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) .
+Эта команда назначает политику архивации на уровне пользователя RedmondArchivingPolicy всем пользователям, чьи учетные записи размещены в пуле регистраторов atl-cs-001.contoso.com. Дополнительные сведения о параметре фильтрации, используемом в этой команде, можно найти в документации по командлету [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) .
   
 ```
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
@@ -67,6 +67,6 @@ Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchiv
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 
-Для получения дополнительных сведений обратитесь к документации командлета [Grant-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps) .
+Дополнительные сведения можно найти в документации по командлету [Grant-ксарчивингполици](https://docs.microsoft.com/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps) .
   
 

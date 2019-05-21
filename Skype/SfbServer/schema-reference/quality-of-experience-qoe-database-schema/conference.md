@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
-description: Таблица Conference представляет собой вспомогательную таблицу. Каждая запись представляет один конференции или сеанса peer-to-peer.
-ms.openlocfilehash: 0914e98aed4aea16e5301ccae454e925663454a5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Таблица конференции — это вспомогательная таблица. Каждая запись представляет одну конференцию или одноранговый сеанс.
+ms.openlocfilehash: 61e9667d235ed9ab8f3696f55e676bfc60ab69e3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920168"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295015"
 ---
 # <a name="conference-table"></a>Таблица Conference
  
-Таблица Conference представляет собой вспомогательную таблицу. Каждая запись представляет один конференции или сеанса peer-to-peer.
+Таблица конференции — это вспомогательная таблица. Каждая запись представляет одну конференцию или одноранговый сеанс.
   
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceKey** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий эту запись конференции.  <br/> |
-|**ConfURI** <br/> |nvarchar(450)  <br/> |Уникальный  <br/> |URI конференции, если это конференции или DialogID при этом является peer-to-peer сеанса.  <br/> |
-|**Контрольная сумма** <br/> |целое  <br/> |Индекс  <br/> |Контрольная сумма URI конференции. Этот параметр используется во внутренней сети.  <br/> |
-|**NextUpdateTS** <br/> |datetime  <br/> ||Только для внутреннего использования.  <br/> |
+|**Конференцекэй** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий эту запись конференции.  <br/> |
+|**Конфури** <br/> |nvarchar (450)  <br/> |повторя  <br/> |Универсальный код ресурса (URI) для Конференции, если это конференция, или Диалогид, если это одноранговый сеанс.  <br/> |
+|**Счет** <br/> |целое  <br/> |индекса  <br/> |Контрольная сумма URI конференции. Используется для внутренних целей.  <br/> |
+|**Некступдатетс** <br/> |datetime  <br/> ||Только для внутреннего использования.  <br/> |
    
 

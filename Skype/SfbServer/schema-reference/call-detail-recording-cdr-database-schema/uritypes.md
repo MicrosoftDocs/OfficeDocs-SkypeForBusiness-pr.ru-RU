@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
-description: Таблица UriTypes содержит различные типы URI (универсальный код ресурса), отслеживаемые в Скайп для Business Server 2015.
-ms.openlocfilehash: 72704715ff5e5fd3a354b75b0aa6baff45ecea54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: В таблице Уритипес содержатся различные типы URI (универсального идентификатора ресурса), отслеживаемые в Skype для бизнеса Server 2015.
+ms.openlocfilehash: 5ad8e1d0432aff3278f897fbe82d3759ad3c95e1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930271"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295750"
 ---
 # <a name="uritypes-table"></a>Таблица UriTypes
  
-Таблица UriTypes содержит различные типы URI (универсальный код ресурса), отслеживаемые в Скайп для Business Server 2015.
+В таблице Уритипес содержатся различные типы URI (универсального идентификатора ресурса), отслеживаемые в Skype для бизнеса Server 2015.
 
-При создании базы данных регистрации Вызовов, создаются две записи для представления PhoneUri и UserUri и записей, создаваемых после динамически назначены UriTypeId. 
+После создания базы данных CDR создаются две записи, представляющие Фонеури и Усерури, а также записи, созданные после того, как динамически назначены Уритипеид. 
   
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**UriTypeId** <br/> |tinyint  <br/> |Primary  <br/> |Уникальный идентификатор, назначенный типа URI.  <br/> Допустимые значения — от 0 до 255 |
-|**UriType** <br/> |nvarchar(256)  <br/> || Описание различных типов URI. Назначенный доступны следующие значения: <br/>  1 — Uri телефона <br/>  0 — Uri пользователя <br/> <br/>  Другие возможные типы: <br/>conf:applicationsharing <br/> conf:audio-video<br/> conf:Chat<br/>    conf:focus<br/>   MRAS<br/>
+|**Уритипеид** <br/> |tinyint  <br/> |Primary  <br/> |Уникальный идентификатор, присвоенный типу URI.  <br/> Возможные значения: от 0 до 255 |
+|**Уритипе** <br/> |nvarchar(256)  <br/> || Описание различных типов URI. Следующие значения предварительно назначены: <br/>  Универсальный код ресурса (URI) на 1 номер <br/>  0 — URI пользователя <br/> <br/>  Ниже перечислены другие возможные типы. <br/>conf:applicationsharing <br/> conf:audio-video<br/> conf: чат<br/>    conf:focus<br/>   мрас<br/>

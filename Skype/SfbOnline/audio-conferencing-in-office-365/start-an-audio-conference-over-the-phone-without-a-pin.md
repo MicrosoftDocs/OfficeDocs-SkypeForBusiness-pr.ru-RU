@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,19 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как разрешить или запретить анонимным абонентам присоединяться к собранию с помощью центра администрирования Skype for Business admin или путем использования сценария PowerShell. '
-ms.openlocfilehash: 3a18692dbb95e1edc2d8093bad68bc059ffbc7d8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af62ed29ed2bbe835ab811651152b231a85caaf8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203845"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302773"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Начало аудиоконференции по телефону без PIN-кода в Skype для бизнеса Online
 
 > [!Note]
 > Сведения о начале аудиоконференции без PIN-кода в Microsoft Teams см. в статье [Начало аудиоконференции по телефону без PIN-кода в Microsoft Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
 
-Это может быть неудобства для пользователей, которые телефонное подключение к собранию, в течение которого будут храниться в зал собраний, прослушивание музыки, так как Скайп для бизнеса Организатор собрания еще не запущена собрания. 
+Пользователи, которые подключаются к собранию, могут столкнуться с тем, что они будут храниться в конференц-зале собрания, так как организатор собрания Skype для бизнеса не начал собрание. 
   
 If a meeting organizer calls in to the meeting, by default, a PIN is required to start a meeting. You can set it up so that anyone can dial in to a meeting and not be prompted for a PIN to start the meeting. You can use the Skype for Business admin center to enable or disable this setting for a single user.
   
@@ -43,11 +43,11 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Разрешение и запрет присоединения анонимных абонентов к собранию
     
-1. В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **пользователей**. 
+1. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу Пользователи **голосовой конференции** > ****. 
     
-2. В списке выберите пользователя и в области действий нажмите кнопку **Изменить**. 
+2. В списке выберите пользователя и на панели действий нажмите кнопку **изменить**. 
     
-3. На странице свойств пользователя в разделе **параметры собрания**установите или снимите **непроверенный Разрешить звонящим быть первого людей в ходе собрания. Если не, затем они будет ждать в зале ожидания прошедшего проверку подлинности пользователь присоединился к**.
+3. На странице свойств пользователя в разделе **параметры собрания**установите или снимите флажок **Разрешить звонящим, не прошедшим проверку подлинности, первым участникам собрания. В противном случае они будут ждать в зале ожидания, пока пользователь не**пройдет проверку подлинности.
     
 4. Нажмите кнопку **Сохранить**. 
 
@@ -63,15 +63,15 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 ## <a name="what-else-should-you-know"></a>Дополнительные сведения
 
-- Если требуется сбросить ПИН-код, ознакомьтесь со [Сброс ПИН-кода конференц-связи звука](reset-the-audio-conferencing-pin.md).
+- Если вы хотите сбросить PIN-код, посмотрите ссылку [Сброс ПИН-кода голосовой](reset-the-audio-conferencing-pin.md)связи.
     
-- Если анонимный доступ или не требует ПИН-код начать собрание:
+- Если анонимный доступ или не требуется ПИН-код для начала собрания, включается:
     
-  - Если собрание еще не запущена (нет ни один собрания еще): Звонящий будет запрос, если он является организатором; Если Рид Да, он будет запрашиваться ПИН-код и после он ввода ПИН-код, будет запущен процесс собрания и пользователь будет присоединиться к собранию.
+  - Если собрание еще не началось (в собрании пока нет ни одного участника): абоненту будет предложено выбрать его, если он является организатором. Если он говорит Да, ему будет предложено ввести ПИН-код, и после ввода PIN-кода собрание начнется, и пользователь присоединится к собранию.
     
   - Если собрание уже началось (кто-либо присоединился): абонент не получит сообщения с вопросом, является ли он организатором. Кроме того, PIN-код запрашиваться не будет. Собрание уже началось, и пользователь присоединится к нему.
     
-- Если анонимный доступ или не требует ПИН-код начать собрание, отключен:
+- Если анонимный доступ или не требуется ПИН-код для начала собрания, это значение отключено:
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     

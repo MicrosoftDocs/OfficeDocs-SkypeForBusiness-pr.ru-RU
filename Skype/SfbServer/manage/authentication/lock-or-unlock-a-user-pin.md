@@ -1,34 +1,34 @@
 ---
-title: Заблокировать или разблокировать ПИН-код, в Скайп пользователя для Business Server
+title: Блокировка и Разблокировка PIN-кода пользователя в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: 'Сводка: Блокировка и разблокировка пользователя телефонных конференций ПИН-кода для Скайп для Business Server.'
-ms.openlocfilehash: 36d25ad681136a88953535a902ef1d3580ff7a1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: блокирование и разблокирование ПИН-кода конференц-связи с телефонным подключением пользователя для Skype для бизнеса Server.'
+ms.openlocfilehash: 600ddcb507c7cb0074a651580c684590fa283602
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919902"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294283"
 ---
-# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Заблокировать или разблокировать ПИН-код, в Скайп пользователя для Business Server
+# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Блокировка и Разблокировка PIN-кода пользователя в Skype для бизнеса Server
  
-**Сводка:** Блокировка и разблокировка пользователя телефонных конференций ПИН-кода для Скайп для Business Server.
+**Сводка:** Заблокируйте или разблокируйте ПИН-код для конференц-связи с телефонным подключением пользователя для Skype для бизнеса Server.
   
-Можно заблокировать или разблокировать ПИН-код пользователя в разделе **Пользователи** Скайп для панели управления Business Server.
+Вы можете заблокировать или разблокировать ПИН-код пользователя в разделе " **Пользователи** " на панели управления "Skype для бизнеса Server".
   
-### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>Чтобы заблокировать ПИН пользователя Скайп для панели управления Business Server
+### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>Блокировка PIN-кода пользователя на панели управления Skype для бизнеса Server
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.  
     
 3. На левой панели навигации щелкните **Пользователи**.
     
@@ -51,15 +51,15 @@ ms.locfileid: "33919902"
     > [!TIP]
     > Чтобы добавить в запрос дополнительные условия поиска, щелкните **Добавить фильтр**. 
   
-   e. Щелкните **Поиск**.
+   учеб. Щелкните **Поиск**.
     
-   f. Щелкните пользователя, затем пункт **Действие**, затем **Заблокировать ПИН-код**.
+   н. Щелкните пользователя, затем пункт **Действие**, затем **Заблокировать ПИН-код**.
     
-### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>Чтобы разблокировать ПИН-код пользователя в Скайп для панели управления Business Server
+### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>Разблокирование ПИН-кода пользователя на панели управления Skype для бизнеса Server
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.  
     
 3. На левой панели навигации щелкните **Пользователи**.
     
@@ -82,17 +82,17 @@ ms.locfileid: "33919902"
     > [!TIP]
     > Чтобы добавить в запрос дополнительные условия поиска, щелкните **Добавить фильтр**. 
   
-   e. Щелкните **Поиск**.
+   учеб. Щелкните **Поиск**.
     
-   f. Щелкните пользователя, затем пункт **Действие**, затем **Разблокировать ПИН-код**.
+   н. Щелкните пользователя, затем пункт **Действие**, затем **Разблокировать ПИН-код**.
     
-## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Блокировка и разблокировка PIN-кодами пользователей с помощью командлетов Windows PowerShell
+## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Блокировка и разблокировка контактов пользователей с помощью командлетов Windows PowerShell
 
-Блокировать и разблокировать ПИН-коды пользователей с помощью Windows PowerShell и командлетов Lock CsClientPin и Unlock-CsClientPin. Можно выполнить эти командлеты из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell. Для получения дополнительных сведений об использовании удаленной оболочки Windows PowerShell для подключения к Скайп для Business Server в статье блога [«Быстрый запуск: управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Процесс одинаков в Скайп для Business Server.
+Вы можете заблокировать и разблокировать контакты пользователей с помощью Windows PowerShell и командлетов Lock-Ксклиентпин и Unlock-Ксклиентпин. Эти командлеты можно выполнить либо из командной консоли Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании удаленной оболочки Windows PowerShell для подключения к серверу Skype для бизнеса можно найти в статье ["Краткое руководство": Управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell](https://go.microsoft.com/fwlink/p/?linkId=255876). Этот процесс одинаков в Skype для бизнеса Server.
   
 ### <a name="to-lock-a-user-pin"></a>Чтобы заблокировать ПИН-код пользователя
 
-- Чтобы заблокировать ПИН-код пользователя, используйте командлет Lock-CsClientPin. Пример:
+- Чтобы заблокировать закрепление пользователя, используйте командлет Lock-Ксклиентпин. Пример:
     
   ```
   Lock-CsClientPin -Identity "Ken Myer"
@@ -100,10 +100,10 @@ ms.locfileid: "33919902"
 
 ### <a name="to-unlock-a-user-pin"></a>Чтобы разблокировать ПИН-код пользователя
 
-- Чтобы разблокировать ПИН-код пользователя, используйте командлет Unlock-CsClientPin. Например:
+- Чтобы разблокировать закрепление пользователя, используйте командлет Unlock-Ксклиентпин. Например:
     
   ```
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-Для получения дополнительных сведений см раздел справки по командлетам [Lock CsClientPin](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps) и [Unlock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps) .
+Дополнительные сведения можно найти в разделе справки по командлетам [Lock-ксклиентпин](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps) и [Unlock-ксклиентпин](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps) .

@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/19/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
-description: 'Сводка: Прочитайте сведения о диспетчере статистики для Скайп для Business Server, мощное средство, которое позволяет просматривать Скайп для данные о работоспособности и производительности Business Server в режиме реального времени.'
-ms.openlocfilehash: 7efb8a9c9005c8339eb803ac5bd8877ca177a3a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы узнать о диспетчере статистики для Skype для бизнеса Server — мощном средстве, позволяющем просматривать данные о работоспособности и производительности Skype для бизнеса Server в режиме реального времени.'
+ms.openlocfilehash: a0ec2d70679999df62e3094fed42d888c2a71fce
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906776"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304648"
 ---
 # <a name="statistics-manager-for-skype-for-business-server"></a>Диспетчер статистики в Skype для бизнеса Server
  
-**Сводка:** В данном разделе приведены сведения о диспетчере статистики для Скайп для Business Server, мощное средство, которое позволяет просматривать Скайп для данные о работоспособности и производительности Business Server в режиме реального времени.
+**Сводка:** В этой статье рассказывается о диспетчере статистики для Skype для бизнеса Server — мощном средстве, позволяющем просматривать данные о работоспособности и производительности Skype для бизнеса Server в режиме реального времени.
   
-В этом разделе содержатся следующие темы:
+Этот раздел включает в себя следующие темы:
   
 - [Планирование диспетчера статистики в Skype для бизнеса Server](plan.md)
     

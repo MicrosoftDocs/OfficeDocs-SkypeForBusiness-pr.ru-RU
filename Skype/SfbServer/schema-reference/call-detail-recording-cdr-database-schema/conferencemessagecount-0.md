@@ -1,35 +1,35 @@
 ---
-title: Представление ConferenceMessageCount
+title: Представление Конференцемессажекаунт
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
-description: Представление ConferenceMessageCount содержит сведения о количества сообщений — пользователя к конференции. В этом представлении была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: ce94cd13637b70b87a92fd688ca8ce8aefd2c69e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: В представлении Конференцемессажекаунт хранятся сведения о количестве сообщений, отправленных пользователем на конференцию. Это представление было представлено в Microsoft Lync Server 2013.
+ms.openlocfilehash: 890a5912c6f828f614fbff89627c94c4e12ba7e1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901417"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296492"
 ---
-# <a name="conferencemessagecount-view"></a>Представление ConferenceMessageCount
+# <a name="conferencemessagecount-view"></a>Представление Конференцемессажекаунт
  
-Представление ConferenceMessageCount содержит сведения о количества сообщений — пользователя к конференции. В этом представлении была введена в Microsoft Lync Server 2013.
+В представлении Конференцемессажекаунт хранятся сведения о количестве сообщений, отправленных пользователем на конференцию. Это представление было представлено в Microsoft Lync Server 2013.
   
 > [!NOTE]
-> Представление ConferenceMessageCount содержит все столбцы [ConferenceSessionDetails view](conferencesessiondetails.md) в дополнение к этому столбцов, перечисленных ниже.
+> В представлении Конференцемессажекаунт содержатся все столбцы в [представлении "конференцесессиондетаилс](conferencesessiondetails.md) " в дополнение к столбцам, перечисленным ниже.
   
 |**Столбец**|**Тип данных**|**Сведения**|
 |:-----|:-----|:-----|
-|**UserUri** <br/> |nvarchar(450)  <br/> |URI пользователя, отправившего сообщение.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Тип URI пользователя, отправившего сообщение. В [таблице UriTypes](uritypes.md) для получения дополнительных сведений см. <br/> |
-|**UserTenant** <br/> |uniqueidentifier  <br/> |Клиент пользователя, отправившего сообщение. В [таблице клиентов](tenants.md) для получения дополнительных сведений см. <br/> |
-|**UserMessageCount** <br/> |smallint  <br/> |Число сообщений, отправленных пользователем во время сеанса конференц-связи.  <br/> |
+|**Усерури** <br/> |nvarchar (450)  <br/> |Универсальный код ресурса (URI) пользователя, отправившего сообщение.  <br/> |
+|**Усеруритипе** <br/> |nvarchar(256)  <br/> |Тип URI пользователя, отправившего сообщения. Для получения дополнительных сведений ознакомьтесь с [таблицей уритипес](uritypes.md) . <br/> |
+|**Усертенант** <br/> |идентификатора  <br/> |Клиент пользователя, отправившего сообщения. Дополнительные сведения см. в [таблице "клиенты](tenants.md) ". <br/> |
+|**Усермессажекаунт** <br/> |smallint  <br/> |Количество сообщений, отправленных пользователем во время сеанса конференции.  <br/> |
    
 

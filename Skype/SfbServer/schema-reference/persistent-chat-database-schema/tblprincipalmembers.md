@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9a3e24cf-6ef7-4b82-99fc-50ba41800b6f
-description: Таблица tblPrincipalMembers содержит сведения о членстве субъектов.
-ms.openlocfilehash: be66ee6124c7b0306583bcb10f7d78b777fcf10c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: ТблпринЦипалмемберс включает участников участника.
+ms.openlocfilehash: 12c3bf86b7416665f0f2355af0bfc9f98e3c1f1a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33904162"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295288"
 ---
 # <a name="tblprincipalmembers"></a>tblPrincipalMembers
  
-Таблица tblPrincipalMembers содержит сведения о членстве субъектов.
+ТблпринЦипалмемберс включает участников участника.
   
-**Столбцы**
+**Столбцов**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int, не null  <br/> |Идентификатор субъекта.  <br/> |
-|memberADPath  <br/> |nvarchar (384), отлично от null  <br/> |Различающееся имя члена. Член не нужно быть участником (в таблице tblPrincipal).  <br/> |
+|Принид  <br/> |int, NOT NULL  <br/> |Идентификатор участника.  <br/> |
+|Мемберадпас  <br/> |nvarchar (384), NOT NULL  <br/> |Отличительное имя участника. Участник может не быть участником (в таблице ТблпринЦипал).  <br/> |
    
-**Ключи**
+**Параметры**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|\<prinID memberADPath\>  <br/> |Первичный ключ.  <br/> |
-|prinID  <br/> |Внешний ключ с подстановкой в таблице tblPrincipal.prinID.  <br/> |
+|\<Принид, Мемберадпас\>  <br/> |Первичный ключ.  <br/> |
+|Принид  <br/> |Внешний ключ с подстановкой в ТблпринЦипал. Принид.  <br/> |
    
 

@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c49d61c0-305a-4770-a5d2-5d9f05decc6d
-description: Таблица PayloadDescription представляет собой вспомогательную таблицу. Каждая запись представляет один кодек, который используется в сеансе аудио или видео.
-ms.openlocfilehash: 2854d3b1dd5338b9d150bb1a9c36a0409d0f8099
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Таблица Пайлоаддескриптион является вспомогательной таблицей. Каждая запись представляет один кодек, который используется в звуковом или видеосеансе.
+ms.openlocfilehash: 41819c8329802b224bd3848334eddbc9de6935f2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920070"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294812"
 ---
 # <a name="payloaddescription-table"></a>Таблица PayloadDescription
  
-Таблица PayloadDescription представляет собой вспомогательную таблицу. Каждая запись представляет один кодек, который используется в сеансе аудио или видео.
+Таблица Пайлоаддескриптион является вспомогательной таблицей. Каждая запись представляет один кодек, который используется в звуковом или видеосеансе.
   
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**PayloadDescriptionKey** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, обозначающий кодек.  <br/> |
-|**PayloadDescription** <br/> |nvarchar(256)  <br/> |Уникальный  <br/> |Имя кодека.  <br/> |
+|**Пайлоаддескриптионкэй** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер кодека.  <br/> |
+|**PayloadDescription** <br/> |nvarchar(256)  <br/> |Повторя  <br/> |Имя кодека.  <br/> |
    
 

@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
-description: tblScopePrincipal содержит области, назначенные узлам.
-ms.openlocfilehash: f682c8a2235ef30cda365bc5950cbfb123840595
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: ТблскопепринЦипал включает области, назначенные узлам.
+ms.openlocfilehash: 2fd8e434710c7bcd266c427fa492e23adacedb22
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924929"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295197"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  
-tblScopePrincipal содержит области, назначенные узлам.
+ТблскопепринЦипал включает области, назначенные узлам.
   
-**Столбцы**
+**Столбцов**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|scopeNodeID  <br/> |int, не null  <br/> |Идентификатор узла, к которому применяется область.  <br/> |
-|scopePrinID  <br/> |int, не null  <br/> |Идентификатор субъекта.  <br/> |
-|scopeIsDenied  <br/> |bit, не может быть null  <br/> |Значение true, если тип области — Deny; Значение false, если разрешение.  <br/> |
-|scopeUpdatedBy  <br/> |int, не null  <br/> |Идентификатор субъекта, который последним обновил эту запись.  <br/> |
+|Скопенодеид  <br/> |int, NOT NULL  <br/> |Идентификатор узла, к которому относится область.  <br/> |
+|Скопепринид  <br/> |int, NOT NULL  <br/> |Идентификатор участника.  <br/> |
+|Скопеисдениед  <br/> |bit, NOT NULL  <br/> |Значение true, если тип области — Deny; Значение false, если разрешено.  <br/> |
+|Скопеупдатедби  <br/> |int, NOT NULL  <br/> |Идентификатор участника, который последним обновил эту запись.  <br/> |
    
-**Ключи**
+**Параметры**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|\<scopeNodeID scopePrinID\>  <br/> |Первичный ключ.  <br/> |
-|scopeNodeID  <br/> |Внешний ключ с подстановкой в таблице tblNode.nodeID.  <br/> |
-|scopePrinID  <br/> |Внешний ключ с подстановкой в таблице tblPrincipal.prinID.  <br/> |
+|\<Скопенодеид, Скопепринид\>  <br/> |Первичный ключ.  <br/> |
+|Скопенодеид  <br/> |Внешний ключ с подстановкой в таблице Тблноде. Нодеид.  <br/> |
+|Скопепринид  <br/> |Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.  <br/> |
    
 

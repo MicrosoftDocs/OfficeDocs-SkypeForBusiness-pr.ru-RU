@@ -1,33 +1,33 @@
 ---
-title: Таблица userstatistics
+title: Таблица Усерстатистикс
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
-description: Таблица userstatistics представляет собой вспомогательную таблицу. Каждая запись в таблице хранятся сведения об использовании отдельных пользователей системы. Эта таблица была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: c2e0acffa7b75b3c54781e3e4e9a8b033be5e440
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Таблица Усерстатистикс является вспомогательной таблицей. Каждая запись в таблице содержит сведения об использовании системы конкретным пользователем. Эта таблица введена в Microsoft Lync Server 2013.
+ms.openlocfilehash: 4801ed2611f3a078811f22f7e5a1cc1a797f6805
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929982"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295694"
 ---
-# <a name="userstatistics-table"></a>Таблица userstatistics
+# <a name="userstatistics-table"></a>Таблица Усерстатистикс
  
-Таблица userstatistics представляет собой вспомогательную таблицу. Каждая запись в таблице хранятся сведения об использовании отдельных пользователей системы. Эта таблица была введена в Microsoft Lync Server 2013.
+Таблица Усерстатистикс является вспомогательной таблицей. Каждая запись в таблице содержит сведения об использовании системы конкретным пользователем. Эта таблица введена в Microsoft Lync Server 2013.
   
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**Идентификатор пользователя** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этого пользователя.  <br/> |
-|**LastLogInTime** <br/> |datetime  <br/> ||Время последнего пользователя войти в систему.  <br/> |
-|**LastConfOrganizedTime** <br/> |datetime  <br/> ||Время последней конференции, организованной пользователем.  <br/> |
-|**LastCallOrganizerCallFailureTime** <br/> |datetime  <br/> ||Время последнего сбоя вызова был данный пользователь.  <br/> |
-|**LastConfOrganizerCallFailureTime** <br/> |datetime  <br/> ||Время последнего пользователя сбоя вызова когда организатором конференции.  <br/> |
+|**Идентификатора пользователя** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этого пользователя.  <br/> |
+|**Ластлогинтиме** <br/> |datetime  <br/> ||Время последнего входа пользователя в систему.  <br/> |
+|**Ластконфорганизедтиме** <br/> |datetime  <br/> ||Последний раз, когда пользователь организует конференцию.  <br/> |
+|**Ласткаллорганизеркаллфаилуретиме** <br/> |datetime  <br/> ||Последнее время, когда пользователь попытался вызвать сбой звонка.  <br/> |
+|**Ластконфорганизеркаллфаилуретиме** <br/> |datetime  <br/> ||Последний раз, когда пользователь попытался вызвать сбой в организаторе конференц-связи.  <br/> |
    
 

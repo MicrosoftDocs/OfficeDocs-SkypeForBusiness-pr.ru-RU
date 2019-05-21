@@ -3,7 +3,7 @@ title: Плакаты ИТ-архитектуры и решений для те�
 ms.author: lolaj
 author: lolajacobsen
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.service: msteams
 localization_priority: Priority
@@ -15,12 +15,12 @@ appliesto:
 search.appverid:
 - MET150
 description: 'Сводка. Сведения о логической архитектуре служб повышения производительности в Microsoft 365, начиная с Microsoft Teams. А также сведения о решениях телефонии для Teams. '
-ms.openlocfilehash: 4ffa53d11ad7e6a57bd09892c38838e8fd52c58c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 33cfe4f3c3e652170a777ea174b4cd03f4f8730a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225010"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293997"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Плакаты ИТ-архитектуры и решений для телефонии Microsoft Teams
 

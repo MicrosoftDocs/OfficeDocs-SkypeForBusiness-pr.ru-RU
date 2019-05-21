@@ -1,33 +1,33 @@
 ---
-title: Включение и отключение конференц-связи в Скайп для Business Server
+title: Включение и отключение конференц-связи с телефонным подключением в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
-description: 'Сводка: Узнайте, как использовать панель управления или командной консоли для включения или отключения конференц-связи в Скайп для Business Server.'
-ms.openlocfilehash: 1392c67e2b432a6acc9bca805367083d311fd7d1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как с помощью панели управления или консоли управления включить или отключить Конференц-связь с телефонным подключением в Skype для бизнеса Server.'
+ms.openlocfilehash: 6723c3501b226d11977ad176a804210540f1a2bc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919803"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294259"
 ---
-# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Включение и отключение конференц-связи в Скайп для Business Server
+# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Включение и отключение конференц-связи с телефонным подключением в Skype для бизнеса Server
  
-**Сводка:** Узнайте, как использовать панель управления или командной консоли для включения или отключения конференц-связи в Скайп для Business Server.
+**Сводка:** В этой статье объясняется, как с помощью панели управления или консоли управления включить или отключить Конференц-связь с телефонным подключением в Skype для бизнеса Server.
   
-Конференц-связь можно включить с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
+Вы можете включить Конференц-связь с телефонным подключением с помощью панели управления Skype для бизнеса Server или с помощью командной консоли Skype для бизнеса Server.
   
-## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Включение или отключение конференц-связи с помощью Скайп для панели управления Business Server
+## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Включение и отключение конференц-связи с телефонным подключением с помощью панели управления Skype для бизнеса Server
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2.  Откройте Скайп для панели управления Business Server.
+2.  Откройте панель управления Skype для бизнеса Server.
     
 3. На левой панели навигации щелкните **Конференция**, а затем — **Политика конференц-связи**.
     
@@ -37,7 +37,7 @@ ms.locfileid: "33919803"
     
 6. Нажмите **Исполнить**. 
     
-## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Включение или отключение конференц-связи с помощью Скайп для консоли Business Server
+## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Включение и отключение конференц-связи с телефонным подключением с помощью командной консоли Skype для бизнеса Server
 
 Для включения или отключения конференц-связи с телефонным подключением используется командлет **Set-CsConferencingPolicy** с параметром EnableDialInConferencing (см. ниже).
   
@@ -45,6 +45,6 @@ ms.locfileid: "33919803"
 Set-CsConferencingPolicy  [-EnableDialInConferencing <$true | $false>] 
 ```
 
-Для получения дополнительных сведений см [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+Дополнительные сведения можно найти в разделе [Set-ксконференЦингполици](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
   
 
