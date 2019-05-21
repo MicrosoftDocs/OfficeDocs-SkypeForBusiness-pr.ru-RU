@@ -1,25 +1,25 @@
 ---
-title: Таблица FrontEnd в Скайп для Business Server 2015
+title: Интерфейсная таблица в Skype для бизнеса Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8207af80-41fa-4bec-9523-b0332e8231d9
-description: Таблица FrontEnd предназначена только для внутреннего использования. Эта таблица была введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: 9911748e35bef7558b5a93a408c47bc7c7b0fa9d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Интерфейсная таблица предназначена только для внутреннего использования. Эта таблица введена в Microsoft Lync Server 2013.
+ms.openlocfilehash: b41e0d989d93134e00b9e5ff437bc529b34af9f7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901117"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296191"
 ---
-# <a name="frontend-table-in-skype-for-business-server-2015"></a><span data-ttu-id="8ae32-104">Таблица FrontEnd в Скайп для Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="8ae32-104">FrontEnd table in Skype for Business Server 2015</span></span>
+# <a name="frontend-table-in-skype-for-business-server-2015"></a><span data-ttu-id="9d9ea-104">Интерфейсная таблица в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="9d9ea-104">FrontEnd table in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="8ae32-105">Таблица FrontEnd предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="8ae32-105">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="8ae32-106">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8ae32-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="9d9ea-105">Интерфейсная таблица предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="9d9ea-105">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="9d9ea-106">Эта таблица введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9d9ea-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

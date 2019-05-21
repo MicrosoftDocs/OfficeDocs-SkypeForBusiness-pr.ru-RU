@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,97 +16,97 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
-description: 'Сводка: Прочтите этот раздел, чтобы узнать, как назначение политики голосовой связи для пользователей, использующих с телефонной системой в Office 365 с помощью подключения к ТСОП в локальной.'
-ms.openlocfilehash: 489e4988d21d7d22f4bcfe0756c4f0d462a1906e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы научиться назначать политику голосовой связи для пользователей, использующих телефонную систему в Office 365 с локальным подключением КТСОП.'
+ms.openlocfilehash: 0d310378b77c09b427836f0d9bceb60a14982071
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234455"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294434"
 ---
-# <a name="assign-a-voice-routing-policy"></a><span data-ttu-id="8075f-103">Назначение политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="8075f-103">Assign a Voice Routing Policy</span></span>
+# <a name="assign-a-voice-routing-policy"></a><span data-ttu-id="b0e06-103">Назначение политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="b0e06-103">Assign a Voice Routing Policy</span></span>
  
-<span data-ttu-id="8075f-104">**Сводка:** Прочтите этот раздел, чтобы узнать, как назначение политики голосовой связи для пользователей с помощью телефонной системой в Office 365 с помощью локального подключения к ТСОП.</span><span class="sxs-lookup"><span data-stu-id="8075f-104">**Summary:** Read this topic to learn how to assign a voice policy for users using Phone System in Office 365 with on-premises PSTN connectivity.</span></span> 
+<span data-ttu-id="b0e06-104">**Сводка:** В этой статье рассказывается о том, как назначить политику голосовой связи для пользователей, использующих телефонную систему в Office 365 с локальным подключением КТСОП.</span><span class="sxs-lookup"><span data-stu-id="b0e06-104">**Summary:** Read this topic to learn how to assign a voice policy for users using Phone System in Office 365 with on-premises PSTN connectivity.</span></span> 
   
-<span data-ttu-id="8075f-105">Когда пользователь разговаривает по Скайп для бизнеса в Интернет и использование системы телефона в Office 365 с помощью подключения к ТСОП в локальной, два политик голосовой связи будет применяться к их.</span><span class="sxs-lookup"><span data-stu-id="8075f-105">Once a user is on Skype for Business Online and using Phone System in Office 365 with on-premises PSTN connectivity, two voice policies will apply to them.</span></span> <span data-ttu-id="8075f-106">Один является локальной политики маршрутизации голосовых данных, который будут использоваться для назначения локально.</span><span class="sxs-lookup"><span data-stu-id="8075f-106">One is an on-premises voice routing policy that you will assign on premises.</span></span> <span data-ttu-id="8075f-107">Эта политика может быть глобальной или пользовательская и определяет, какие записи использования ТСОП связаны с этим пользователем.</span><span class="sxs-lookup"><span data-stu-id="8075f-107">This policy can be global or user-specific and defines what PSTN usage records are associated with the user.</span></span> <span data-ttu-id="8075f-108">This topic explains how to assign this policy.</span><span class="sxs-lookup"><span data-stu-id="8075f-108">This topic explains how to assign this policy.</span></span>
+<span data-ttu-id="b0e06-105">После того как пользователь входит в Skype для бизнеса Online и использует телефонную систему в Office 365 с локальным подключением PSTN, к ним применяются две политики голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="b0e06-105">Once a user is on Skype for Business Online and using Phone System in Office 365 with on-premises PSTN connectivity, two voice policies will apply to them.</span></span> <span data-ttu-id="b0e06-106">One — это локальная политика голосовой маршрутизации, которая будет назначаться локально.</span><span class="sxs-lookup"><span data-stu-id="b0e06-106">One is an on-premises voice routing policy that you will assign on premises.</span></span> <span data-ttu-id="b0e06-107">Этот параметр может быть глобальным или конкретным пользователем и определяет, какие записи об использовании PSTN связаны с пользователем.</span><span class="sxs-lookup"><span data-stu-id="b0e06-107">This policy can be global or user-specific and defines what PSTN usage records are associated with the user.</span></span> <span data-ttu-id="b0e06-108">This topic explains how to assign this policy.</span><span class="sxs-lookup"><span data-stu-id="b0e06-108">This topic explains how to assign this policy.</span></span>
   
-<span data-ttu-id="8075f-109">Политика голосовой связи определяет, какие вызова функции, доступные для пользователя; политики голосовой связи определяется корпорацией Майкрософт и идентична для всех телефонной системой в Office 365 с локальными пользователями подключения к ТСОП.</span><span class="sxs-lookup"><span data-stu-id="8075f-109">The other voice policy defines what calling features are available to the user; this voice policy is defined by Microsoft and is identical for all Phone System in Office 365 with on-premises PSTN connectivity users.</span></span> <span data-ttu-id="8075f-110">Он автоматически назначается телефонной системой в пользователей Office 365.</span><span class="sxs-lookup"><span data-stu-id="8075f-110">It is automatically assigned to Phone System in Office 365 users.</span></span>
+<span data-ttu-id="b0e06-109">Другая политика голосовой связи определяет доступные для пользователя функции звонка; Эта политика голосовой связи определена корпорацией Майкрософт и идентична для всех телефонных систем в Office 365 с локальными пользователями сети PSTN.</span><span class="sxs-lookup"><span data-stu-id="b0e06-109">The other voice policy defines what calling features are available to the user; this voice policy is defined by Microsoft and is identical for all Phone System in Office 365 with on-premises PSTN connectivity users.</span></span> <span data-ttu-id="b0e06-110">Она автоматически назначается телефонной системе пользователям Office 365.</span><span class="sxs-lookup"><span data-stu-id="b0e06-110">It is automatically assigned to Phone System in Office 365 users.</span></span>
   
-||<span data-ttu-id="8075f-111">**Локальный пользователь**</span><span class="sxs-lookup"><span data-stu-id="8075f-111">**On-premises user**</span></span>|<span data-ttu-id="8075f-112">**Система телефона в Office 365 с помощью подключения к ТСОП локального пользователя**</span><span class="sxs-lookup"><span data-stu-id="8075f-112">**Phone System in Office 365 with on-premises PSTN connectivity user**</span></span>|
+||<span data-ttu-id="b0e06-111">**Локальный пользователь**</span><span class="sxs-lookup"><span data-stu-id="b0e06-111">**On-premises user**</span></span>|<span data-ttu-id="b0e06-112">**Телефонная система в Office 365 с локальным пользовательским подключением PSTN**</span><span class="sxs-lookup"><span data-stu-id="b0e06-112">**Phone System in Office 365 with on-premises PSTN connectivity user**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="8075f-113">Функции вызовов, определенные в</span><span class="sxs-lookup"><span data-stu-id="8075f-113">Calling features defined in</span></span>  <br/> |<span data-ttu-id="8075f-114">Политика голосовой связи</span><span class="sxs-lookup"><span data-stu-id="8075f-114">Voice policy</span></span>  <br/> |<span data-ttu-id="8075f-115">Заранее определенные политики голосовой связи, назначенные автоматически, когда у пользователя лицензии для телефонной системой в Office 365.</span><span class="sxs-lookup"><span data-stu-id="8075f-115">Pre-defined voice policy, assigned automatically when the user is licensed for Phone System in Office 365.</span></span>  <br/> |
-|<span data-ttu-id="8075f-116">Записи использования ТСОП, связанные с</span><span class="sxs-lookup"><span data-stu-id="8075f-116">PSTN usage records associated with</span></span>  <br/> |<span data-ttu-id="8075f-117">Политика голосовой связи</span><span class="sxs-lookup"><span data-stu-id="8075f-117">Voice policy</span></span>  <br/> |<span data-ttu-id="8075f-118">Политика маршрутизации голосовой связи, назначенная, когда пользователь размещен в локальной среде.</span><span class="sxs-lookup"><span data-stu-id="8075f-118">Voice routing policy, assigned while the user is still homed on-premises.</span></span>  <br/> |
+|<span data-ttu-id="b0e06-113">Функции вызовов, определенные в</span><span class="sxs-lookup"><span data-stu-id="b0e06-113">Calling features defined in</span></span>  <br/> |<span data-ttu-id="b0e06-114">Политика голосовой связи</span><span class="sxs-lookup"><span data-stu-id="b0e06-114">Voice policy</span></span>  <br/> |<span data-ttu-id="b0e06-115">Предварительно определенная политика голосовой связи, назначаемая автоматически, когда пользователь лицензируется для телефонной системы в Office 365.</span><span class="sxs-lookup"><span data-stu-id="b0e06-115">Pre-defined voice policy, assigned automatically when the user is licensed for Phone System in Office 365.</span></span>  <br/> |
+|<span data-ttu-id="b0e06-116">Записи использования ТСОП, связанные с</span><span class="sxs-lookup"><span data-stu-id="b0e06-116">PSTN usage records associated with</span></span>  <br/> |<span data-ttu-id="b0e06-117">Политика голосовой связи</span><span class="sxs-lookup"><span data-stu-id="b0e06-117">Voice policy</span></span>  <br/> |<span data-ttu-id="b0e06-118">Политика маршрутизации голосовой связи, назначенная, когда пользователь размещен в локальной среде.</span><span class="sxs-lookup"><span data-stu-id="b0e06-118">Voice routing policy, assigned while the user is still homed on-premises.</span></span>  <br/> |
    
-<span data-ttu-id="8075f-119">Выполните следующие действия, используя локальное развертывание, пока пользователь по-прежнему размещенный в локальном развертывании.</span><span class="sxs-lookup"><span data-stu-id="8075f-119">You perform the following steps using your on-premises deployment, while the user is still homed in the on-premises deployment.</span></span>
+<span data-ttu-id="b0e06-119">Для выполнения описанных ниже действий используйте локальное развертывание, в то время как пользователь по-прежнему входит в локальное развертывание.</span><span class="sxs-lookup"><span data-stu-id="b0e06-119">You perform the following steps using your on-premises deployment, while the user is still homed in the on-premises deployment.</span></span>
   
-## <a name="using-a-global-voice-routing-policy"></a><span data-ttu-id="8075f-120">Использование политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="8075f-120">Using a global voice routing policy</span></span>
+## <a name="using-a-global-voice-routing-policy"></a><span data-ttu-id="b0e06-120">Использование политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="b0e06-120">Using a global voice routing policy</span></span>
 
-<span data-ttu-id="8075f-121">Прежде чем использовать политику маршрутизации голосовой связи глобальной для телефонной системой в Office 365 с локальными пользователями подключения к ТСОП, необходимо добавить записи использования ТСОП в политике.</span><span class="sxs-lookup"><span data-stu-id="8075f-121">Before using a global voice routing policy for your Phone System in Office 365 with on-premises PSTN connectivity users, you must add PSTN usage records to the policy.</span></span>
+<span data-ttu-id="b0e06-121">Перед использованием глобальной политики голосовой маршрутизации для телефонной системы в Office 365 с локальными пользователями подключения к глобальной сети (КТСОП) необходимо добавить в политику записи об использовании PSTN.</span><span class="sxs-lookup"><span data-stu-id="b0e06-121">Before using a global voice routing policy for your Phone System in Office 365 with on-premises PSTN connectivity users, you must add PSTN usage records to the policy.</span></span>
   
-### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a><span data-ttu-id="8075f-122">Назначение записей использования ТСОП глобальной политике маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="8075f-122">To assign PSTN usage records to the global voice routing policy</span></span>
+### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a><span data-ttu-id="b0e06-122">Назначение записей использования ТСОП глобальной политике маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="b0e06-122">To assign PSTN usage records to the global voice routing policy</span></span>
 
-1. <span data-ttu-id="8075f-123">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="8075f-123">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="b0e06-123">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="b0e06-123">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="8075f-124">Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="8075f-124">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="b0e06-124">Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="b0e06-124">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="8075f-125">Добавление записей использования ТСОП в политике:</span><span class="sxs-lookup"><span data-stu-id="8075f-125">Add the PSTN usage records to the policy:</span></span>
+3. <span data-ttu-id="b0e06-125">Добавьте в политику записи об использовании КТСОП.</span><span class="sxs-lookup"><span data-stu-id="b0e06-125">Add the PSTN usage records to the policy:</span></span>
     
    ```
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
-    <span data-ttu-id="8075f-126">Например:</span><span class="sxs-lookup"><span data-stu-id="8075f-126">For example:</span></span>
+    <span data-ttu-id="b0e06-126">Например:</span><span class="sxs-lookup"><span data-stu-id="b0e06-126">For example:</span></span>
     
    ```
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
    ```
 
-## <a name="creating-a-new-voice-routing-policy"></a><span data-ttu-id="8075f-127">Создание новой политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="8075f-127">Creating a new voice routing policy</span></span>
+## <a name="creating-a-new-voice-routing-policy"></a><span data-ttu-id="b0e06-127">Создание новой политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="b0e06-127">Creating a new voice routing policy</span></span>
 
-### <a name="to-create-a-new-voice-routing-policy"></a><span data-ttu-id="8075f-128">Создание новой политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="8075f-128">To create a new voice routing policy</span></span>
+### <a name="to-create-a-new-voice-routing-policy"></a><span data-ttu-id="b0e06-128">Создание новой политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="b0e06-128">To create a new voice routing policy</span></span>
 
-1. <span data-ttu-id="8075f-129">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="8075f-129">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="b0e06-129">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="b0e06-129">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="8075f-130">Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="8075f-130">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="b0e06-130">Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="b0e06-130">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="8075f-131">Создание новой политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="8075f-131">Create a new voice routing policy:</span></span>
+3. <span data-ttu-id="b0e06-131">Создание новой политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="b0e06-131">Create a new voice routing policy:</span></span>
     
    ```
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
-    <span data-ttu-id="8075f-132">Например:</span><span class="sxs-lookup"><span data-stu-id="8075f-132">For example:</span></span>
+    <span data-ttu-id="b0e06-132">Например:</span><span class="sxs-lookup"><span data-stu-id="b0e06-132">For example:</span></span>
     
    ```
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
    ```
 
-<span data-ttu-id="8075f-133">В этом примере создается новая политика маршрутизации голосовой связи HybridVoice, с которой связаны две записи использования ТСОП.</span><span class="sxs-lookup"><span data-stu-id="8075f-133">This example creates a new voice routing policy called HybridVoice, which has two PSTN usages associated with it.</span></span>
+<span data-ttu-id="b0e06-133">В этом примере создается новая политика маршрутизации голосовой связи HybridVoice, с которой связаны две записи использования ТСОП.</span><span class="sxs-lookup"><span data-stu-id="b0e06-133">This example creates a new voice routing policy called HybridVoice, which has two PSTN usages associated with it.</span></span>
   
-## <a name="assigning-a-voice-routing-policy"></a><span data-ttu-id="8075f-134">Назначение политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="8075f-134">Assigning a voice routing policy</span></span>
+## <a name="assigning-a-voice-routing-policy"></a><span data-ttu-id="b0e06-134">Назначение политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="b0e06-134">Assigning a voice routing policy</span></span>
 
-<span data-ttu-id="8075f-135">Независимо от того, какая политика маршрутизации голосовой связи используется — глобальная или пользовательская, используйте следующие действия для назначения политики пользователю.</span><span class="sxs-lookup"><span data-stu-id="8075f-135">No matter whether you use the global voice routing policy, or user-specific ones, use the following steps to assign the policy to a user.</span></span>
+<span data-ttu-id="b0e06-135">Независимо от того, какая политика маршрутизации голосовой связи используется — глобальная или пользовательская, используйте следующие действия для назначения политики пользователю.</span><span class="sxs-lookup"><span data-stu-id="b0e06-135">No matter whether you use the global voice routing policy, or user-specific ones, use the following steps to assign the policy to a user.</span></span>
   
-### <a name="to-assign-the-voice-routing-policy"></a><span data-ttu-id="8075f-136">Назначение политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="8075f-136">To assign the voice routing policy</span></span>
+### <a name="to-assign-the-voice-routing-policy"></a><span data-ttu-id="b0e06-136">Назначение политики маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="b0e06-136">To assign the voice routing policy</span></span>
 
-1. <span data-ttu-id="8075f-137">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="8075f-137">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="b0e06-137">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="b0e06-137">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="8075f-138">Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="8075f-138">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="b0e06-138">Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="b0e06-138">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="8075f-139">Назначьте существующую политику голосовой связи пользователю:</span><span class="sxs-lookup"><span data-stu-id="8075f-139">Assign an existing voice policy to a user:</span></span>
+3. <span data-ttu-id="b0e06-139">Назначьте существующую политику голосовой связи пользователю:</span><span class="sxs-lookup"><span data-stu-id="b0e06-139">Assign an existing voice policy to a user:</span></span>
     
    ```
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
-    <span data-ttu-id="8075f-140">Например:</span><span class="sxs-lookup"><span data-stu-id="8075f-140">For example:</span></span>
+    <span data-ttu-id="b0e06-140">Например:</span><span class="sxs-lookup"><span data-stu-id="b0e06-140">For example:</span></span>
     
    ```
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
    ```
 
-<span data-ttu-id="8075f-141">В этом примере пользователю с отображаемым именем Bob Kelly назначается ранее созданная политика голосовой связи с именем HybridVoice.</span><span class="sxs-lookup"><span data-stu-id="8075f-141">In this example, the user with the display name Bob Kelly is assigned to the previously created voice policy with the name HybridVoice.</span></span>
+<span data-ttu-id="b0e06-141">В этом примере пользователю с отображаемым именем Bob Kelly назначается ранее созданная политика голосовой связи с именем HybridVoice.</span><span class="sxs-lookup"><span data-stu-id="b0e06-141">In this example, the user with the display name Bob Kelly is assigned to the previously created voice policy with the name HybridVoice.</span></span>
   
-<span data-ttu-id="8075f-142">Дополнительные сведения о политиках маршрутизации голосовых данных в разделе [Создание или изменение политики голосовой связи и Настройка записей использования ТСОП в Скайп для бизнеса 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)и [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="8075f-142">For more details about voice routing policies, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps), and [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).</span></span>
+<span data-ttu-id="b0e06-142">Дополнительные сведения о политиках голосовой маршрутизации можно найти [в разделе Создание или изменение политики голосовой связи и настройка записей использования PSTN в Skype для бизнеса 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-ксвоицераутингполици](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)и [Grant-ксвоицеполици](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="b0e06-142">For more details about voice routing policies, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps), and [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).</span></span>
   
 

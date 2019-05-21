@@ -5,57 +5,57 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
-description: 'В этом справочном разделе представлены следующие сведения:'
-ms.openlocfilehash: dc2d147791317134ee9abd3de723f1c53f8f625b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Этот справочный раздел содержит указанные ниже сведения.
+ms.openlocfilehash: 5934c9ffab8055de86cdaf3bcf507fa9c806f245
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907119"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296744"
 ---
-# <a name="active-directory-schema-extensions-classes-and-attributes"></a><span data-ttu-id="83e7e-103">Расширения схемы Active Directory, классы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="83e7e-103">Active Directory schema extensions, classes, and attributes</span></span>
+# <a name="active-directory-schema-extensions-classes-and-attributes"></a><span data-ttu-id="33fa6-103">Расширения схемы Active Directory, классы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="33fa6-103">Active Directory schema extensions, classes, and attributes</span></span>
  
-<span data-ttu-id="83e7e-104">В этом справочном разделе представлены следующие сведения:</span><span class="sxs-lookup"><span data-stu-id="83e7e-104">This reference section includes the following information:</span></span> 
+<span data-ttu-id="33fa6-104">Этот справочный раздел содержит указанные ниже сведения.</span><span class="sxs-lookup"><span data-stu-id="33fa6-104">This reference section includes the following information:</span></span> 
   
-- <span data-ttu-id="83e7e-105">Расширения схемы Active Directory, которые являются новые или измененные для Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="83e7e-105">Active Directory schema extensions that are new or changed for Skype for Business Server</span></span>
+- <span data-ttu-id="33fa6-105">Новые или измененные расширения схемы Active Directory для сервера Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="33fa6-105">Active Directory schema extensions that are new or changed for Skype for Business Server</span></span>
     
-    <span data-ttu-id="83e7e-106">Схемы Active Directory содержит формальные определения каждого класса объектов, которые могут быть созданы в лесу Active Directory.</span><span class="sxs-lookup"><span data-stu-id="83e7e-106">The Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest.</span></span> <span data-ttu-id="83e7e-107">Схема также содержит формальные определения каждого атрибута, которые могут находиться на объект Active Directory.</span><span class="sxs-lookup"><span data-stu-id="83e7e-107">The schema also contains formal definitions of every attribute that can exist on an Active Directory object.</span></span> <span data-ttu-id="83e7e-108">Глобального каталога Active Directory содержит реплики всех объектов в лесу, а также ограниченный набор атрибутов для каждого объекта.</span><span class="sxs-lookup"><span data-stu-id="83e7e-108">The Active Directory global catalog contains replicas of all the objects for the forest, along with a subset of the attributes for each object.</span></span> <span data-ttu-id="83e7e-109">В этом разделе описываются классы и атрибуты, которые являются новые или измененные в Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="83e7e-109">This section describes the classes and attributes that are new or changed in Skype for Business Server.</span></span>
+    <span data-ttu-id="33fa6-106">Схема Active Directory включает в себя формальные определения всех классов объектов, которые можно создать в лесу Active Directory.</span><span class="sxs-lookup"><span data-stu-id="33fa6-106">The Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest.</span></span> <span data-ttu-id="33fa6-107">Схема также содержит формальные определения всех атрибутов, которые могут существовать в объекте Active Directory.</span><span class="sxs-lookup"><span data-stu-id="33fa6-107">The schema also contains formal definitions of every attribute that can exist on an Active Directory object.</span></span> <span data-ttu-id="33fa6-108">Глобальный каталог Active Directory включает в себя реплики всех объектов для леса, а также подмножество атрибутов для каждого объекта.</span><span class="sxs-lookup"><span data-stu-id="33fa6-108">The Active Directory global catalog contains replicas of all the objects for the forest, along with a subset of the attributes for each object.</span></span> <span data-ttu-id="33fa6-109">В этом разделе описаны классы и атрибуты, новые или измененные в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="33fa6-109">This section describes the classes and attributes that are new or changed in Skype for Business Server.</span></span>
     
-- <span data-ttu-id="83e7e-110">Все классы, используемые Скайп для Business Server, с описанием каждого из них</span><span class="sxs-lookup"><span data-stu-id="83e7e-110">All the classes used by Skype for Business Server, with a description of each</span></span>
+- <span data-ttu-id="33fa6-110">Все классы, используемые в Skype для бизнеса Server, с описанием каждого из них.</span><span class="sxs-lookup"><span data-stu-id="33fa6-110">All the classes used by Skype for Business Server, with a description of each</span></span>
     
-- <span data-ttu-id="83e7e-111">Все атрибуты, используемые Скайп для Business Server, с описанием каждого из них</span><span class="sxs-lookup"><span data-stu-id="83e7e-111">All the attributes used by Skype for Business Server, with a description of each</span></span>
+- <span data-ttu-id="33fa6-111">Все атрибуты, используемые в Skype для бизнеса Server, с описанием каждого из них.</span><span class="sxs-lookup"><span data-stu-id="33fa6-111">All the attributes used by Skype for Business Server, with a description of each</span></span>
     
-- <span data-ttu-id="83e7e-112">Список классов, используемых Скайп для Business Server, с атрибутами, которые они могут содержать</span><span class="sxs-lookup"><span data-stu-id="83e7e-112">A list of the classes used by Skype for Business Server, with the attributes each may contain</span></span>
+- <span data-ttu-id="33fa6-112">Список классов, используемых в Skype для бизнеса Server, с атрибутами, которые могут содержать</span><span class="sxs-lookup"><span data-stu-id="33fa6-112">A list of the classes used by Skype for Business Server, with the attributes each may contain</span></span>
     
-- <span data-ttu-id="83e7e-113">Глобальные параметры и объекты, помимо универсальных групп служб и административные, созданных во время подготовки леса</span><span class="sxs-lookup"><span data-stu-id="83e7e-113">Global settings and objects, in addition to the universal service and administration groups that are created during forest preparation</span></span>
+- <span data-ttu-id="33fa6-113">Глобальные параметры и объекты, в дополнение к универсальным службам и группам администрирования, которые создаются во время подготовки леса</span><span class="sxs-lookup"><span data-stu-id="33fa6-113">Global settings and objects, in addition to the universal service and administration groups that are created during forest preparation</span></span>
     
-- <span data-ttu-id="83e7e-114">Записи управления доступом (ACE), которые созданы на домен корневого и встроенных контейнерах во время подготовки домена</span><span class="sxs-lookup"><span data-stu-id="83e7e-114">Access control entries (ACEs) that are created on the domain root and built-in containers during domain preparation</span></span>
+- <span data-ttu-id="33fa6-114">Элементы управления доступом (ACE), созданные в корне домена и встроенных контейнерах во время подготовки домена</span><span class="sxs-lookup"><span data-stu-id="33fa6-114">Access control entries (ACEs) that are created on the domain root and built-in containers during domain preparation</span></span>
     
-- <span data-ttu-id="83e7e-115">Изменения, внесенные в подразделения (OU) Active Directory командлетом grant_cssetuppermission.</span><span class="sxs-lookup"><span data-stu-id="83e7e-115">Changes that are made on an Active Directory organizational unit (OU) by the Grant_CsSetupPermission cmdlet.</span></span>
+- <span data-ttu-id="33fa6-115">Изменения, внесенные в организационное подразделение Active Directory (OU) с помощью командлета Грант_кссетуппермиссион.</span><span class="sxs-lookup"><span data-stu-id="33fa6-115">Changes that are made on an Active Directory organizational unit (OU) by the Grant_CsSetupPermission cmdlet.</span></span>
     
-- <span data-ttu-id="83e7e-116">Изменения, внесенные в Подразделение Active Directory командлетом grant_csoupermission.</span><span class="sxs-lookup"><span data-stu-id="83e7e-116">Changes that are made on an Active Directory OU by the Grant_CsOUPermission cmdlet.</span></span>
+- <span data-ttu-id="33fa6-116">Изменения, внесенные в подразделение Active Directory с помощью командлета Грант_ксаупермиссион.</span><span class="sxs-lookup"><span data-stu-id="33fa6-116">Changes that are made on an Active Directory OU by the Grant_CsOUPermission cmdlet.</span></span>
     
-## <a name="in-this-section"></a><span data-ttu-id="83e7e-117">Содержание</span><span class="sxs-lookup"><span data-stu-id="83e7e-117">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="33fa6-117">Содержание</span><span class="sxs-lookup"><span data-stu-id="33fa6-117">In This Section</span></span>
 
-- [<span data-ttu-id="83e7e-118">Изменения схемы в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="83e7e-118">Schema changes in Skype for Business Server</span></span>](schema-changes.md)
+- [<span data-ttu-id="33fa6-118">Изменения схемы в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="33fa6-118">Schema changes in Skype for Business Server</span></span>](schema-changes.md)
     
-- [<span data-ttu-id="83e7e-119">Классы схемы и описания в Скайп Business Server</span><span class="sxs-lookup"><span data-stu-id="83e7e-119">Schema classes and descriptions in Skype for Business Server</span></span>](schema-classes-and-descriptions.md)
+- [<span data-ttu-id="33fa6-119">Классы и описания схемы в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="33fa6-119">Schema classes and descriptions in Skype for Business Server</span></span>](schema-classes-and-descriptions.md)
     
-- [<span data-ttu-id="83e7e-120">Атрибуты схемы и описания в Скайп Business Server</span><span class="sxs-lookup"><span data-stu-id="83e7e-120">Schema attributes and descriptions in Skype for Business Server</span></span>](schema-attributes-and-descriptions.md)
+- [<span data-ttu-id="33fa6-120">Атрибуты и описания схемы в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="33fa6-120">Schema attributes and descriptions in Skype for Business Server</span></span>](schema-attributes-and-descriptions.md)
     
-- [<span data-ttu-id="83e7e-121">Атрибуты схемы по классам в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="83e7e-121">Schema attributes by class in Skype for Business Server</span></span>](schema-attributes-by-class.md)
+- [<span data-ttu-id="33fa6-121">Атрибуты схемы по классу в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="33fa6-121">Schema attributes by class in Skype for Business Server</span></span>](schema-attributes-by-class.md)
     
-- [<span data-ttu-id="83e7e-122">Изменения, внесенные с подготовки леса в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="83e7e-122">Changes made by forest preparation in Skype for Business Server</span></span>](changes-made-by-forest-preparation.md)
+- [<span data-ttu-id="33fa6-122">Изменения, внесенные в процессе подготовки леса в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="33fa6-122">Changes made by forest preparation in Skype for Business Server</span></span>](changes-made-by-forest-preparation.md)
     
-- [<span data-ttu-id="83e7e-123">Изменения, внесенные с подготовки домена в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="83e7e-123">Changes made by domain preparation in Skype for Business Server</span></span>](changes-made-by-domain-preparation.md)
+- [<span data-ttu-id="33fa6-123">Изменения, внесенные в ходе подготовки домена в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="33fa6-123">Changes made by domain preparation in Skype for Business Server</span></span>](changes-made-by-domain-preparation.md)
     
-- [<span data-ttu-id="83e7e-124">Изменения, сделанные Grant-CsSetupPermission в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="83e7e-124">Changes made by Grant-CsSetupPermission in Skype for Business Server</span></span>](changes-made-by-grant-cssetuppermission.md)
+- [<span data-ttu-id="33fa6-124">Изменения, внесенные с помощью GRANT-Кссетуппермиссион в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="33fa6-124">Changes made by Grant-CsSetupPermission in Skype for Business Server</span></span>](changes-made-by-grant-cssetuppermission.md)
     
-- [<span data-ttu-id="83e7e-125">Изменения, сделанные Grant-CsOUPermission в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="83e7e-125">Changes made by Grant-CsOUPermission in Skype for Business Server</span></span>](changes-made-by-grant-csoupermission.md)
+- [<span data-ttu-id="33fa6-125">Изменения, внесенные с помощью GRANT-Ксаупермиссион в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="33fa6-125">Changes made by Grant-CsOUPermission in Skype for Business Server</span></span>](changes-made-by-grant-csoupermission.md)
     
 

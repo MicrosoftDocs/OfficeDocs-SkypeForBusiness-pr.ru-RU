@@ -1,39 +1,39 @@
 ---
-title: Планирование безопасности в Скайп Business Server
+title: Планирование безопасности в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
-description: Скайп содержимого безопасности Business Server.
-ms.openlocfilehash: 68ae0643f7336c47c0f86b5ae3de1bc6370d5bef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Содержимое для обеспечения безопасности в Skype для бизнеса Server.
+ms.openlocfilehash: d850eabc233e999e2334391fcee6f8019781370c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914116"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296905"
 ---
-# <a name="plan-for-security-in-skype-for-business-server"></a><span data-ttu-id="2956b-103">Планирование безопасности в Скайп Business Server</span><span class="sxs-lookup"><span data-stu-id="2956b-103">Plan for security in Skype For Business Server</span></span> 
+# <a name="plan-for-security-in-skype-for-business-server"></a><span data-ttu-id="143a3-103">Планирование безопасности в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="143a3-103">Plan for security in Skype For Business Server</span></span> 
  
-<span data-ttu-id="2956b-104">Скайп содержимого безопасности Business Server.</span><span class="sxs-lookup"><span data-stu-id="2956b-104">Skype for Business Server security content.</span></span> 
+<span data-ttu-id="143a3-104">Содержимое для обеспечения безопасности в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="143a3-104">Skype for Business Server security content.</span></span> 
   
-<span data-ttu-id="2956b-105">Это содержимое относится к Скайп безопасности Business Server.</span><span class="sxs-lookup"><span data-stu-id="2956b-105">This content relates to Skype for Business Server security.</span></span> <span data-ttu-id="2956b-106">Безопасность — чрезвычайно обширная тема.</span><span class="sxs-lookup"><span data-stu-id="2956b-106">Security is a very broad topic.</span></span> <span data-ttu-id="2956b-107">Безопасность достигает через каждый компонент Скайп для Business Server, а также баз данных, служб и оборудования, входящих в состав экосистеме.</span><span class="sxs-lookup"><span data-stu-id="2956b-107">Security reaches across every feature of Skype for Business Server as well as databases, services, and hardware that make up the ecosystem.</span></span> <span data-ttu-id="2956b-108">Этот контент является дополнением для безопасности разделов, посвященных Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="2956b-108">This content is a supplement for specific security topics regarding Skype for Business Server.</span></span>
+<span data-ttu-id="143a3-105">Это содержимое относится к безопасности Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="143a3-105">This content relates to Skype for Business Server security.</span></span> <span data-ttu-id="143a3-106">Безопасность — чрезвычайно обширная тема.</span><span class="sxs-lookup"><span data-stu-id="143a3-106">Security is a very broad topic.</span></span> <span data-ttu-id="143a3-107">Безопасность достигает всех функций Skype для бизнеса Server, а также баз данных, служб и оборудования, образующих экосистему.</span><span class="sxs-lookup"><span data-stu-id="143a3-107">Security reaches across every feature of Skype for Business Server as well as databases, services, and hardware that make up the ecosystem.</span></span> <span data-ttu-id="143a3-108">Этот материал является дополнением для конкретных вопросов безопасности, касающихся Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="143a3-108">This content is a supplement for specific security topics regarding Skype for Business Server.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="2956b-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="2956b-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="143a3-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="143a3-109">In This Section</span></span>
 
-- [<span data-ttu-id="2956b-110">Антивирусная программа сканирования исключения для Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="2956b-110">Antivirus scanning exclusions for Skype for Business Server</span></span>](antivirus.md)
+- [<span data-ttu-id="143a3-110">Исключения проверки антивирусной программы для Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="143a3-110">Antivirus scanning exclusions for Skype for Business Server</span></span>](antivirus.md)
     
-- [<span data-ttu-id="2956b-111">Основных функций безопасности в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="2956b-111">Key security features in Skype for Business Server</span></span>](key-security.md)
+- [<span data-ttu-id="143a3-111">Основные функции безопасности в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="143a3-111">Key security features in Skype for Business Server</span></span>](key-security.md)
     
-- [<span data-ttu-id="2956b-112">Распространенные угрозы безопасности в современного вычислений</span><span class="sxs-lookup"><span data-stu-id="2956b-112">Common security threats in modern day computing</span></span>](common-threats.md)
+- [<span data-ttu-id="143a3-112">Распространенные угрозы безопасности в современных повседневных системах</span><span class="sxs-lookup"><span data-stu-id="143a3-112">Common security threats in modern day computing</span></span>](common-threats.md)
     
-- [<span data-ttu-id="2956b-113">Модель безопасности для Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="2956b-113">Security framework for Skype for Business Server</span></span>](security-framework.md)
+- [<span data-ttu-id="143a3-113">Платформа безопасности для Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="143a3-113">Security framework for Skype for Business Server</span></span>](security-framework.md)
     
-- [<span data-ttu-id="2956b-114">Угрозы, связанные с основной инфраструктуре-адресов для Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="2956b-114">Addressing threats to your core infrastructure for Skype for Business Server</span></span>](addressing-threats.md)
+- [<span data-ttu-id="143a3-114">Устранение угроз для базовой инфраструктуры Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="143a3-114">Addressing threats to your core infrastructure for Skype for Business Server</span></span>](addressing-threats.md)
     
 

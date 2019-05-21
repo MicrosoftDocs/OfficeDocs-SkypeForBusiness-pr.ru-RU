@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ConfCAASelLang
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 description: Выберите языки, которые требуется использовать для номера доступа к конференц-связи с телефонным подключением. Дополнительные сведения см. в разделе Create or Modify a Dial-in Conferencing Access Number.
-ms.openlocfilehash: 2c62c4df4221ac151a3a65d15fa4152d41a05862
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 779e4a004ef7e1851bc8d966c802eed55a253ac2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924600"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293829"
 ---
-# <a name="select-languages"></a><span data-ttu-id="7e268-104">Выбор языков</span><span class="sxs-lookup"><span data-stu-id="7e268-104">Select Languages</span></span>
+# <a name="select-languages"></a><span data-ttu-id="5fc39-104">Выбор языков</span><span class="sxs-lookup"><span data-stu-id="5fc39-104">Select Languages</span></span>
 
-<span data-ttu-id="7e268-p102">Выберите языки, которые требуется использовать для номера доступа к конференц-связи с телефонным подключением. Дополнительные сведения см. в разделе [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="7e268-p102">Select the languages that you want to use for your dial-in conferencing access number. For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
+<span data-ttu-id="5fc39-p102">Выберите языки, которые требуется использовать для номера доступа к конференц-связи с телефонным подключением. Дополнительные сведения см. в разделе [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="5fc39-p102">Select the languages that you want to use for your dial-in conferencing access number. For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
 
 

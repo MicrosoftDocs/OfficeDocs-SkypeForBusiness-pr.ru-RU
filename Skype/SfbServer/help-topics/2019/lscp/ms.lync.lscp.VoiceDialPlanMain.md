@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceDialPlanMain
@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: e344263471350de95fe0e7cda61eab48627772e9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ef6d0d03569772eb6d41a2f6f27ed1e38c514e81
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890804"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304288"
 ---
-# <a name="dial-plan"></a><span data-ttu-id="22715-104">Абонентская группа</span><span class="sxs-lookup"><span data-stu-id="22715-104">Dial Plan</span></span>
+# <a name="dial-plan"></a><span data-ttu-id="8a04d-104">Абонентская группа</span><span class="sxs-lookup"><span data-stu-id="8a04d-104">Dial Plan</span></span>
 
-<span data-ttu-id="22715-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="22715-105">What do you want to do?</span></span> <span data-ttu-id="22715-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="22715-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="8a04d-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="8a04d-105">What do you want to do?</span></span> <span data-ttu-id="8a04d-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="8a04d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="22715-107">Создание или изменение абонентской группы в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="22715-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [<span data-ttu-id="8a04d-107">Создание и изменение абонентской группы в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="8a04d-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [<span data-ttu-id="22715-108">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="22715-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [<span data-ttu-id="8a04d-108">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="8a04d-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [<span data-ttu-id="22715-109">Создание или изменение правила нормализации в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="22715-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="8a04d-109">Создание и изменение правила нормализации в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="8a04d-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="22715-110">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="22715-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="8a04d-110">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="8a04d-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
 
 
