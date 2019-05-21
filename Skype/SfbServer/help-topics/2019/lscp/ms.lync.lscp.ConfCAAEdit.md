@@ -1,10 +1,10 @@
 ---
-title: Номер доступа Создание новой или редактирование существующей
+title: Номер доступа для телефонного подключения создание нового или изменение существующего
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ConfCAAEdit
@@ -13,19 +13,19 @@ localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 96d4597c3b147474f79935a11bfcc112248aea3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f64f380463889185a00630b103b0dcc99b85b93c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891623"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300310"
 ---
-# <a name="dial-in-access-number-create-new-or-edit-existing"></a><span data-ttu-id="0f4c9-104">Номер доступа для телефонного подключения: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="0f4c9-104">Dial-in Access Number: Create New or Edit Existing</span></span>
+# <a name="dial-in-access-number-create-new-or-edit-existing"></a><span data-ttu-id="525cf-104">Номер доступа для телефонного подключения: создание нового или редактирование существующего</span><span class="sxs-lookup"><span data-stu-id="525cf-104">Dial-in Access Number: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="0f4c9-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="0f4c9-105">What do you want to do?</span></span> <span data-ttu-id="0f4c9-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="0f4c9-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="525cf-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="525cf-105">What do you want to do?</span></span> <span data-ttu-id="525cf-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="525cf-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0f4c9-107">Create or Modify a Dial-in Conferencing Access Number</span><span class="sxs-lookup"><span data-stu-id="0f4c9-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [<span data-ttu-id="525cf-107">Create or Modify a Dial-in Conferencing Access Number</span><span class="sxs-lookup"><span data-stu-id="525cf-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
 
-- [<span data-ttu-id="0f4c9-108">Delete a Dial-in Conferencing Access Number</span><span class="sxs-lookup"><span data-stu-id="0f4c9-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
+- [<span data-ttu-id="525cf-108">Delete a Dial-in Conferencing Access Number</span><span class="sxs-lookup"><span data-stu-id="525cf-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
 
 

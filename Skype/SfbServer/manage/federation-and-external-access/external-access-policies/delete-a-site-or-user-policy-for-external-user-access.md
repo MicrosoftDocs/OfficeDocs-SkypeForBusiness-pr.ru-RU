@@ -8,67 +8,67 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Можно удалить любой политику узла или пользователя, который указан в Скайп для панели управления Business Server на странице политика внешнего доступа.
-ms.openlocfilehash: 517c5b015d4e2fe5de584a8079af1bb4f5ed248a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Вы можете удалить любые сайты и политики пользователей, указанные на панели управления "Skype для бизнеса" на сервере, на странице политики внешней доступа.
+ms.openlocfilehash: 615df309088a329e07f5417dce16e98366a371c7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920419"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280126"
 ---
-# <a name="delete-a-site-or-user-policy-for-external-user-access"></a><span data-ttu-id="58b87-103">Удаление сайта или пользовательской политики для доступа внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="58b87-103">Delete a site or user policy for external user access</span></span>
+# <a name="delete-a-site-or-user-policy-for-external-user-access"></a><span data-ttu-id="b30ac-103">Удаление сайта или пользовательской политики для доступа внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="b30ac-103">Delete a site or user policy for external user access</span></span>
 
-<span data-ttu-id="58b87-104">Если были созданы или настроены политики доступа внешних пользователей, которые больше не хотите использовать, можно сделать следующее:</span><span class="sxs-lookup"><span data-stu-id="58b87-104">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
+<span data-ttu-id="b30ac-104">Если вы создали или настроили политики доступа внешних пользователей, которые вы больше не хотите использовать, вы можете сделать следующее:</span><span class="sxs-lookup"><span data-stu-id="b30ac-104">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
 
-  - <span data-ttu-id="58b87-105">Удалите политику узла или пользователя, который вы создали.</span><span class="sxs-lookup"><span data-stu-id="58b87-105">Delete any site or user policy that you created.</span></span>
+  - <span data-ttu-id="b30ac-105">Удалите все созданные вами сайты и политики пользователей.</span><span class="sxs-lookup"><span data-stu-id="b30ac-105">Delete any site or user policy that you created.</span></span>
 
-  - <span data-ttu-id="58b87-106">Сброс глобальной политики по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="58b87-106">Reset the global policy to the default settings.</span></span> <span data-ttu-id="58b87-107">Параметры глобальной политики по умолчанию запретить доступ внешних пользователей.</span><span class="sxs-lookup"><span data-stu-id="58b87-107">The default global policy settings deny any external user access.</span></span> <span data-ttu-id="58b87-108">Не удается удалить глобальную политику.</span><span class="sxs-lookup"><span data-stu-id="58b87-108">The global policy cannot be deleted.</span></span>
-
-
-<span data-ttu-id="58b87-109">Можно удалить любой политику узла или пользователя, который указан в Скайп для панели управления Business Server на странице **Политика внешнего доступа** .</span><span class="sxs-lookup"><span data-stu-id="58b87-109">You can delete any site or user policy that is listed in the Skype for Business Server Control Panel on the **External Access Policy** page.</span></span> <span data-ttu-id="58b87-110">Удаление глобальной политики не приводит к удалению фактически, но только сбрасывает параметры по умолчанию, которые не поддерживают функцию для параметров доступа внешних пользователей.</span><span class="sxs-lookup"><span data-stu-id="58b87-110">Deleting the global policy does not actually delete it, but only resets it to the default settings, which do not include support for any external user access options.</span></span> <span data-ttu-id="58b87-111">Для получения дополнительных сведений о Сброс глобальной политики видеть [Сброс глобальной политики для доступа внешних пользователей](reset-the-global-policy-for-external-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="58b87-111">For details about resetting the global policy, see [Reset the global policy for external user access](reset-the-global-policy-for-external-user-access.md).</span></span>
+  - <span data-ttu-id="b30ac-106">Восстановление параметров глобальной политики по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="b30ac-106">Reset the global policy to the default settings.</span></span> <span data-ttu-id="b30ac-107">Параметры глобальной политики по умолчанию запрещают доступ к внешним пользователям.</span><span class="sxs-lookup"><span data-stu-id="b30ac-107">The default global policy settings deny any external user access.</span></span> <span data-ttu-id="b30ac-108">Невозможно удалить глобальную политику.</span><span class="sxs-lookup"><span data-stu-id="b30ac-108">The global policy cannot be deleted.</span></span>
 
 
-## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a><span data-ttu-id="58b87-112">Чтобы удалить политику сайта или пользователя для доступа внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="58b87-112">To delete a site or user policy for external user access</span></span>
-
-1.  <span data-ttu-id="58b87-113">Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="58b87-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
-
-2.  <span data-ttu-id="58b87-114">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.</span><span class="sxs-lookup"><span data-stu-id="58b87-114">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
-
-3.  <span data-ttu-id="58b87-115">**Доступ внешних пользователей**, щелкните **Политика внешнего доступа**.</span><span class="sxs-lookup"><span data-stu-id="58b87-115">Click **External User Access**, click **External Access Policy**.</span></span>
-
-4.  <span data-ttu-id="58b87-116">На вкладке **Политика внешнего доступа** щелкните в политике сайта или пользователя, которые необходимо удалить, нажмите кнопку **Изменить**и выберите команду **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="58b87-116">On the **External Access Policy** tab, click the site or user policy you want to delete, click **Edit**, and then click **Delete**.</span></span>
-
-5.  <span data-ttu-id="58b87-117">При появлении запроса на подтверждение нажмите **кнопку ОК**.</span><span class="sxs-lookup"><span data-stu-id="58b87-117">When prompted to confirm the deletion, click **OK**.</span></span>
+<span data-ttu-id="b30ac-109">Вы можете удалить любые сайты и политики пользователей, указанные на панели управления "Skype для бизнеса" на сервере, на странице **политики внешней доступа** .</span><span class="sxs-lookup"><span data-stu-id="b30ac-109">You can delete any site or user policy that is listed in the Skype for Business Server Control Panel on the **External Access Policy** page.</span></span> <span data-ttu-id="b30ac-110">При удалении глобальной политики фактически она не удаляется, но только восстанавливает параметры, заданные по умолчанию, которые не включают поддержку каких – либо параметров доступа внешних пользователей.</span><span class="sxs-lookup"><span data-stu-id="b30ac-110">Deleting the global policy does not actually delete it, but only resets it to the default settings, which do not include support for any external user access options.</span></span> <span data-ttu-id="b30ac-111">Дополнительные сведения о сбросе глобальной политики см. [в разделе Восстановление глобальной политики для внешнего доступа пользователей](reset-the-global-policy-for-external-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="b30ac-111">For details about resetting the global policy, see [Reset the global policy for external user access](reset-the-global-policy-for-external-user-access.md).</span></span>
 
 
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="58b87-118">Удаление политик ПИН-кода с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="58b87-118">Removing PIN Policies by Using Windows PowerShell Cmdlets</span></span>
+## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a><span data-ttu-id="b30ac-112">Удаление политики сайта или пользователя для доступа внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="b30ac-112">To delete a site or user policy for external user access</span></span>
 
-<span data-ttu-id="58b87-119">Политики внешнего доступа можно удалить с помощью Windows PowerShell и командлет Remove-CsExternalAccessPolicy.</span><span class="sxs-lookup"><span data-stu-id="58b87-119">External access policies can be deleted by using Windows PowerShell and the Remove-CsExternalAccessPolicy cmdlet.</span></span> <span data-ttu-id="58b87-120">Этот командлет можно запустить из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="58b87-120">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+1.  <span data-ttu-id="b30ac-113">Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="b30ac-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="b30ac-114">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="b30ac-114">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+
+3.  <span data-ttu-id="b30ac-115">Выберите **внешний доступ пользователей**и нажмите кнопку **Политика внешних доступа**.</span><span class="sxs-lookup"><span data-stu-id="b30ac-115">Click **External User Access**, click **External Access Policy**.</span></span>
+
+4.  <span data-ttu-id="b30ac-116">На вкладке **внешняя политика доступа** выберите сайт или политику пользователей, которые вы хотите удалить, и нажмите кнопку **изменить**, а затем — **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="b30ac-116">On the **External Access Policy** tab, click the site or user policy you want to delete, click **Edit**, and then click **Delete**.</span></span>
+
+5.  <span data-ttu-id="b30ac-117">Когда появится запрос на подтверждение удаления, нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="b30ac-117">When prompted to confirm the deletion, click **OK**.</span></span>
 
 
-## <a name="to-remove-a-specific-external-access-policy"></a><span data-ttu-id="58b87-121">Чтобы удалить политику внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="58b87-121">To remove a specific external access policy</span></span>
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="b30ac-118">Удаление политик закрепления с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="b30ac-118">Removing PIN Policies by Using Windows PowerShell Cmdlets</span></span>
 
-  - <span data-ttu-id="58b87-122">Эта команда удаляет политику внешнего доступа, применяемых к сайту Redmond:</span><span class="sxs-lookup"><span data-stu-id="58b87-122">This command removes the external access policy applied to the Redmond site:</span></span>
+<span data-ttu-id="b30ac-119">Внешние политики доступа можно удалить с помощью Windows PowerShell и командлета Remove-Ксекстерналакцессполици.</span><span class="sxs-lookup"><span data-stu-id="b30ac-119">External access policies can be deleted by using Windows PowerShell and the Remove-CsExternalAccessPolicy cmdlet.</span></span> <span data-ttu-id="b30ac-120">Этот командлет можно выполнить либо из командной консоли Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b30ac-120">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+
+
+## <a name="to-remove-a-specific-external-access-policy"></a><span data-ttu-id="b30ac-121">Удаление особой политики внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="b30ac-121">To remove a specific external access policy</span></span>
+
+  - <span data-ttu-id="b30ac-122">Эта команда удаляет политику внешней политики доступа, примененную к сайту Redmond.</span><span class="sxs-lookup"><span data-stu-id="b30ac-122">This command removes the external access policy applied to the Redmond site:</span></span>
     
         Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
 
-## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a><span data-ttu-id="58b87-123">Удаление всех внешний доступ к политик, применяемых на уровне пользователя</span><span class="sxs-lookup"><span data-stu-id="58b87-123">To remove all the external access policies applied to the per-user scope</span></span>
+## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a><span data-ttu-id="b30ac-123">Чтобы удалить все внешние политики доступа, примененные к области "на пользователя"</span><span class="sxs-lookup"><span data-stu-id="b30ac-123">To remove all the external access policies applied to the per-user scope</span></span>
 
-  - <span data-ttu-id="58b87-124">Эта команда удаляет все политики внешнего доступа, настроенные на уровне пользователя:</span><span class="sxs-lookup"><span data-stu-id="58b87-124">This command removes all the external access policies configured at the per-user scope:</span></span>
+  - <span data-ttu-id="b30ac-124">Эта команда удаляет все политики внешней доступа, настроенные для области "на пользователя".</span><span class="sxs-lookup"><span data-stu-id="b30ac-124">This command removes all the external access policies configured at the per-user scope:</span></span>
     
         Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
 
-## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a><span data-ttu-id="58b87-125">Удаление всех политик внешнего доступа, где отключена доступа внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="58b87-125">To remove all the external access policies where outside user access is disabled</span></span>
+## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a><span data-ttu-id="b30ac-125">Удаление всех внешних политик доступа, для которых отключен доступ за пределами пользователей</span><span class="sxs-lookup"><span data-stu-id="b30ac-125">To remove all the external access policies where outside user access is disabled</span></span>
 
-  - <span data-ttu-id="58b87-126">Эта команда удаляет все политики внешнего доступа, где внешних пользователей доступ был отключен:</span><span class="sxs-lookup"><span data-stu-id="58b87-126">This command deletes all the external access policies where outside user access has been disabled:</span></span>
+  - <span data-ttu-id="b30ac-126">Эта команда удаляет все внешние политики доступа, в которых отключен доступ за пределы пользователей.</span><span class="sxs-lookup"><span data-stu-id="b30ac-126">This command deletes all the external access policies where outside user access has been disabled:</span></span>
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
 
-<span data-ttu-id="58b87-127">Для получения дополнительных сведений см раздел справки для командлета [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) .</span><span class="sxs-lookup"><span data-stu-id="58b87-127">For more information, see the help topic for the [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet.</span></span>
+<span data-ttu-id="b30ac-127">Дополнительные сведения можно найти в разделе справки по командлету [Remove-ксекстерналакцессполици](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) .</span><span class="sxs-lookup"><span data-stu-id="b30ac-127">For more information, see the help topic for the [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet.</span></span>

@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LegacyMergeEdgeTypePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
-description: Для отдельного пограничного сервера или подсистемы балансировки нагрузки консолидированного пограничного сервера, нажмите кнопку Далее, чтобы указать сведения о конфигурации. Для пограничных серверов развернут конфигурация каждого сервера необходимо изменить значение параметра консолидированного пограничного сервера конфигурации перед его можно объединить с Lync Server 2013.
-ms.openlocfilehash: e7c9f9d4d9e9a2c03f8ec1c4d353451187605bb9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Для одного пограничного сервера или объединенного пограничного сервера можно нажать кнопку Далее, чтобы указать сведения о конфигурации. Для развернутого края конфигурацию каждого сервера необходимо изменить на объединенную конфигурацию EDGE, прежде чем ее можно будет объединить с Lync Server 2013.
+ms.openlocfilehash: f2fcbf48c642deb3fac62b8396e684fb6ae66e89
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888802"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284230"
 ---
-# <a name="legacy-merge-edge-type"></a><span data-ttu-id="bf025-104">Тип пограничного сервера при объединении с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="bf025-104">Legacy Merge Edge Type</span></span>
+# <a name="legacy-merge-edge-type"></a><span data-ttu-id="308ec-104">Тип пограничного сервера при объединении с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="308ec-104">Legacy Merge Edge Type</span></span>
  
-<span data-ttu-id="bf025-105">**Отдельного пограничного сервера** или **подсистемы балансировки нагрузки консолидированного пограничного** сервера нажмите кнопку **Далее** для указания сведений о конфигурации.</span><span class="sxs-lookup"><span data-stu-id="bf025-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="bf025-106">Для **Расширенное пограничного сервера**каждый сервер конфигурации необходимо изменить значение параметра консолидированной конфигурации пограничного сервера перед его можно объединить с Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="bf025-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged with Lync Server 2013.</span></span> 
+<span data-ttu-id="308ec-105">Для **одного пограничного сервера** или **Объединенного пограничного** сервера можно нажать кнопку **Далее** , чтобы указать сведения о конфигурации.</span><span class="sxs-lookup"><span data-stu-id="308ec-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="308ec-106">Для развернутого **края**конфигурацию каждого сервера необходимо изменить на объединенную конфигурацию EDGE, прежде чем ее можно будет объединить с Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="308ec-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged with Lync Server 2013.</span></span> 
   
 

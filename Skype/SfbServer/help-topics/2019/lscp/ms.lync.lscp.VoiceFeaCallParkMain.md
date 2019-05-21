@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceFeaCallParkMain
@@ -12,50 +12,50 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
-description: При приостановке звонка его перемещается временные номера которых содержится вызов, пока кто-то извлекает или истечения времени ожидания. Необходимо настроить таблицу с диапазонами добавочные номера, который резервируется для приостановленных звонков. Эти добавочные номера должны быть виртуальными (то есть не иметь назначенного пользователя или назначенный телефон). Каждый пул, на котором выполняется приложение парковки вызовов может содержать один или несколько диапазонов расширений. Эти диапазоны должны быть уникальными в рамках всего развертывания.
-ms.openlocfilehash: f5ca06e9df54a78294c25557f47b69516f378832
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Когда звонок приостанавливается, он передается во временный номер, в котором звонок удерживается до тех пор, пока кто-то не загружает его или не истечет время ожидания. Вы должны настроить таблицу с диапазонами добавочных номеров, которые вы сохраняете для приостановки звонка. Эти добавочные номера должны быть виртуальными (то есть не иметь назначенного пользователя или назначенный телефон). Каждый пул, на котором запущено приложение для парковки, может иметь один или несколько диапазонов расширений. Эти диапазоны должны быть уникальными в рамках всего развертывания.
+ms.openlocfilehash: d325b1dd2066bd35f6dc9003de4c026a7f925a72
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890650"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290138"
 ---
-# <a name="call-park"></a><span data-ttu-id="5450e-106">Приостановка вызовов</span><span class="sxs-lookup"><span data-stu-id="5450e-106">Call Park</span></span>
+# <a name="call-park"></a><span data-ttu-id="4bacb-106">Приостановка вызовов</span><span class="sxs-lookup"><span data-stu-id="4bacb-106">Call Park</span></span>
 
-<span data-ttu-id="5450e-107">При приостановке звонка его перемещается временные номера которых содержится вызов, пока кто-то извлекает или истечения времени ожидания. Необходимо настроить таблицу с диапазонами добавочные номера, который резервируется для приостановленных звонков.</span><span class="sxs-lookup"><span data-stu-id="5450e-107">When a call is parked, it is transferred to a temporary number where the call is held until someone retrieves it or it times out. You need to configure a table with the ranges of extension numbers that you are reserving for parked calls.</span></span> <span data-ttu-id="5450e-108">Эти добавочные номера должны быть виртуальными (то есть не иметь назначенного пользователя или назначенный телефон).</span><span class="sxs-lookup"><span data-stu-id="5450e-108">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="5450e-109">Каждый пул, на котором выполняется приложение парковки вызовов может содержать один или несколько диапазонов расширений.</span><span class="sxs-lookup"><span data-stu-id="5450e-109">Each pool that runs the Call Park application can have one or more ranges of extensions.</span></span> <span data-ttu-id="5450e-110">Эти диапазоны должны быть уникальными в рамках всего развертывания.</span><span class="sxs-lookup"><span data-stu-id="5450e-110">These ranges must be globally unique across your deployment.</span></span>
+<span data-ttu-id="4bacb-107">Когда звонок приостанавливается, он передается во временный номер, в котором звонок удерживается до тех пор, пока кто-то не загружает его или не истечет время ожидания. Вы должны настроить таблицу с диапазонами добавочных номеров, которые вы сохраняете для приостановки звонка.</span><span class="sxs-lookup"><span data-stu-id="4bacb-107">When a call is parked, it is transferred to a temporary number where the call is held until someone retrieves it or it times out. You need to configure a table with the ranges of extension numbers that you are reserving for parked calls.</span></span> <span data-ttu-id="4bacb-108">Эти добавочные номера должны быть виртуальными (то есть не иметь назначенного пользователя или назначенный телефон).</span><span class="sxs-lookup"><span data-stu-id="4bacb-108">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="4bacb-109">Каждый пул, на котором запущено приложение для парковки, может иметь один или несколько диапазонов расширений.</span><span class="sxs-lookup"><span data-stu-id="4bacb-109">Each pool that runs the Call Park application can have one or more ranges of extensions.</span></span> <span data-ttu-id="4bacb-110">Эти диапазоны должны быть уникальными в рамках всего развертывания.</span><span class="sxs-lookup"><span data-stu-id="4bacb-110">These ranges must be globally unique across your deployment.</span></span>
 
-<span data-ttu-id="5450e-111">На странице **Парковка звонков** отображается список всех парковки вызовов диапазонов номеров, определенных для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="5450e-111">The **Call Park** page displays a list of all the Call Park number ranges that are defined for your organization.</span></span>
+<span data-ttu-id="4bacb-111">На странице "Приостановка **звонка** " отображается список всех диапазонов номеров для приостановки звонка, определенных для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="4bacb-111">The **Call Park** page displays a list of all the Call Park number ranges that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="5450e-112">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="5450e-112">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="4bacb-112">Задачи, которые вы можете выполнить</span><span class="sxs-lookup"><span data-stu-id="4bacb-112">Tasks you can perform</span></span>
 
-<span data-ttu-id="5450e-113">На странице **Парковка вызовов** можно выполнять следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="5450e-113">You can perform the following tasks from the **Call Park** page:</span></span>
+<span data-ttu-id="4bacb-113">На странице **Парковка вызовов** можно выполнять следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="4bacb-113">You can perform the following tasks from the **Call Park** page:</span></span>
 
-- <span data-ttu-id="5450e-114">создать новый диапазон номеров;</span><span class="sxs-lookup"><span data-stu-id="5450e-114">Create a new number range</span></span>
+- <span data-ttu-id="4bacb-114">создать новый диапазон номеров;</span><span class="sxs-lookup"><span data-stu-id="4bacb-114">Create a new number range</span></span>
 
-- <span data-ttu-id="5450e-115">изменить существующий диапазон номеров;</span><span class="sxs-lookup"><span data-stu-id="5450e-115">Change an existing number range</span></span>
+- <span data-ttu-id="4bacb-115">изменить существующий диапазон номеров;</span><span class="sxs-lookup"><span data-stu-id="4bacb-115">Change an existing number range</span></span>
 
-- <span data-ttu-id="5450e-116">удалить диапазон номеров.</span><span class="sxs-lookup"><span data-stu-id="5450e-116">Delete a number range</span></span>
+- <span data-ttu-id="4bacb-116">удалить диапазон номеров.</span><span class="sxs-lookup"><span data-stu-id="4bacb-116">Delete a number range</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="5450e-117">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="5450e-117">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="4bacb-117">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="4bacb-117">UI Reference</span></span>
 
-<span data-ttu-id="5450e-118">В следующем списке описываются команды на странице.</span><span class="sxs-lookup"><span data-stu-id="5450e-118">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="4bacb-118">В следующем списке описываются команды на странице.</span><span class="sxs-lookup"><span data-stu-id="4bacb-118">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="5450e-119">**Новые** Создает новый диапазон номеров парковки вызовов.</span><span class="sxs-lookup"><span data-stu-id="5450e-119">**New** Starts a new Call Park number range.</span></span>
+- <span data-ttu-id="4bacb-119">**Новые** Начало нового диапазона номеров для приостановки вызова.</span><span class="sxs-lookup"><span data-stu-id="4bacb-119">**New** Starts a new Call Park number range.</span></span>
 
-- <span data-ttu-id="5450e-120">**Изменение** Открывает выбранный диапазон номеров для правки, выбирает все диапазоны номеров в списке или удаляет выбранный диапазон номеров.</span><span class="sxs-lookup"><span data-stu-id="5450e-120">**Edit** Opens the selected number range for editing, selects all number ranges in the list, or deletes the selected number range.</span></span>
+- <span data-ttu-id="4bacb-120">**Изменить** Открытие выделенного диапазона номеров для редактирования, выделение всех диапазонов номеров в списке или удаление выделенного диапазона номеров.</span><span class="sxs-lookup"><span data-stu-id="4bacb-120">**Edit** Opens the selected number range for editing, selects all number ranges in the list, or deletes the selected number range.</span></span>
 
-- <span data-ttu-id="5450e-121">**Обновление** Обновляет список диапазонов номеров.</span><span class="sxs-lookup"><span data-stu-id="5450e-121">**Refresh** Refreshes the list of number ranges.</span></span>
+- <span data-ttu-id="4bacb-121">**Обновить** Обновляет список диапазонов номеров.</span><span class="sxs-lookup"><span data-stu-id="4bacb-121">**Refresh** Refreshes the list of number ranges.</span></span>
 
-<span data-ttu-id="5450e-122">В следующем списке описываются поля на странице.</span><span class="sxs-lookup"><span data-stu-id="5450e-122">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="4bacb-122">В следующем списке описываются поля на странице.</span><span class="sxs-lookup"><span data-stu-id="4bacb-122">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="5450e-123">**Имя** Уникальное имя диапазона номеров.</span><span class="sxs-lookup"><span data-stu-id="5450e-123">**Name** The unique name that identifies the number range.</span></span>
+- <span data-ttu-id="4bacb-123">**Name (имя** ) Уникальное имя, определяющее диапазон номеров.</span><span class="sxs-lookup"><span data-stu-id="4bacb-123">**Name** The unique name that identifies the number range.</span></span>
 
-- <span data-ttu-id="5450e-124">**Начало диапазона** Первый номер диапазона.</span><span class="sxs-lookup"><span data-stu-id="5450e-124">**Start range** The beginning number of the range.</span></span>
+- <span data-ttu-id="4bacb-124">**Начальный диапазон** Начальный номер диапазона.</span><span class="sxs-lookup"><span data-stu-id="4bacb-124">**Start range** The beginning number of the range.</span></span>
 
-- <span data-ttu-id="5450e-125">**Конец диапазона** Конечный номер диапазона.</span><span class="sxs-lookup"><span data-stu-id="5450e-125">**End range** The ending number of the range.</span></span>
+- <span data-ttu-id="4bacb-125">**Конечный диапазон** Конечный номер диапазона.</span><span class="sxs-lookup"><span data-stu-id="4bacb-125">**End range** The ending number of the range.</span></span>
 
-- <span data-ttu-id="5450e-126">**Назначения** Полное доменное имя (FQDN) или идентификатор службы приложения, на котором размещается приложение парковки вызовов для диапазона номеров службы.</span><span class="sxs-lookup"><span data-stu-id="5450e-126">**Destination** The fully qualified domain name (FQDN) or service ID of the Application service that hosts the Call Park application for the number range.</span></span>
+- <span data-ttu-id="4bacb-126">**Destination (назначение** ) Полное доменное имя (FQDN) или идентификатор службы приложения, в котором размещается номер диапазона, заданное приложением парковки.</span><span class="sxs-lookup"><span data-stu-id="4bacb-126">**Destination** The fully qualified domain name (FQDN) or service ID of the Application service that hosts the Call Park application for the number range.</span></span>
 
-<span data-ttu-id="5450e-127">Для получения дополнительных сведений о парковки вызовов функций и возможностей видеть [Планирование парковки вызовов в Скайп для бизнеса](../../../plan-your-deployment/enterprise-voice-solution/call-park.md).</span><span class="sxs-lookup"><span data-stu-id="5450e-127">For details about Call Park features and capabilities, see [Plan for Call Park in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md).</span></span> <span data-ttu-id="5450e-128">Для получения дополнительных сведений о работе с диапазоны номеров для парковки вызовов видеть [Настройки расширений номер телефона для парковки вызовов](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).</span><span class="sxs-lookup"><span data-stu-id="5450e-128">For details about working with Call Park number ranges, see [Configure Phone Number Extensions for Parking Calls](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).</span></span>
+<span data-ttu-id="4bacb-127">Дополнительные сведения о функциях и возможностях приостановки звонка можно найти [в разделе Планирование приостановки звонков в Skype для бизнеса](../../../plan-your-deployment/enterprise-voice-solution/call-park.md).</span><span class="sxs-lookup"><span data-stu-id="4bacb-127">For details about Call Park features and capabilities, see [Plan for Call Park in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md).</span></span> <span data-ttu-id="4bacb-128">Подробнее о работе с диапазонами номеров для присоединения к абоненту можно узнать в разделе [Настройка расширений номеров телефонов для вызовов парковки](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).</span><span class="sxs-lookup"><span data-stu-id="4bacb-128">For details about working with Call Park number ranges, see [Configure Phone Number Extensions for Parking Calls](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).</span></span>
 
 

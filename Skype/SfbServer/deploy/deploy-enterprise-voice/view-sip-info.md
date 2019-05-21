@@ -1,10 +1,10 @@
 ---
-title: Просмотр сведений об отдельных магистралях SIP в Скайп для Business Server
+title: Просмотр сведений об отдельных магистральных линиях SIP в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,41 +13,41 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: 'Сводка: Узнайте, как для просмотра сведений о магистралях SIP в Скайп для Business Server.'
-ms.openlocfilehash: a7cf290bf245092e08babcaa86c642dd0f0a4265
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как просматривать сведения о магистральных линиях SIP в Skype для бизнеса Server.'
+ms.openlocfilehash: a8cb5559b1431987adeef7c50b7810b7e9b4adc7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892239"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300918"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a><span data-ttu-id="16daa-103">Просмотр сведений об отдельных магистралях SIP в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="16daa-103">View information about individual SIP trunks in Skype for Business Server</span></span>
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a><span data-ttu-id="aadbe-103">Просмотр сведений об отдельных магистральных линиях SIP в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="aadbe-103">View information about individual SIP trunks in Skype for Business Server</span></span>
  
-<span data-ttu-id="16daa-104">**Сводка:** Узнайте, как для просмотра сведений о магистралях SIP в Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="16daa-104">**Summary:** Learn how to view information about SIP trunks in Skype for Business Server.</span></span>
+<span data-ttu-id="aadbe-104">**Сводка:** Сведения о том, как просматривать сведения о магистральных линиях SIP в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="aadbe-104">**Summary:** Learn how to view information about SIP trunks in Skype for Business Server.</span></span>
   
-<span data-ttu-id="16daa-105">Магистралях SIP, используются для подключения Скайп Business Server голосовой связи через IP-телефона сеть с общей переключения телефонной сети общего пользования (PSTN).</span><span class="sxs-lookup"><span data-stu-id="16daa-105">SIP trunks are used to connect Skype for Business Server Voice over IP phone network with the Public Switched Telephone Network (PSTN).</span></span> <span data-ttu-id="16daa-106">В предыдущих версиях продукта магистрали использовались для маршрутизации исходящих звонков с сервера-посредника на шлюз ТСОП, причем для каждого шлюза использовалась только одна магистраль.</span><span class="sxs-lookup"><span data-stu-id="16daa-106">In previous version of the product, trunks were used to route outbound calls from a Mediation Server to a PSTN gateway and each gateway was limited to a single trunk.</span></span> <span data-ttu-id="16daa-107">Поэтому шлюз ТСОП и магистраль SIP были практически равнозначны.</span><span class="sxs-lookup"><span data-stu-id="16daa-107">As a result, a PSTN gateway and a SIP trunk were essentially identical.</span></span> <span data-ttu-id="16daa-108">Для администраторов это означало возможность просмотра сведений об отдельной магистрали SIP путем просмотра сведений о связанном шлюзе ТСОП.</span><span class="sxs-lookup"><span data-stu-id="16daa-108">For administrators, that meant they could view information about an individual SIP trunk simply by viewing information about the associated PSTN gateway.</span></span>
+<span data-ttu-id="aadbe-105">Магистральные линии SIP используются для подключения к голосовой сети Skype для бизнеса Server с помощью коммутируемой телефонной сети с открытым коммутируемым телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="aadbe-105">SIP trunks are used to connect Skype for Business Server Voice over IP phone network with the Public Switched Telephone Network (PSTN).</span></span> <span data-ttu-id="aadbe-106">В предыдущих версиях продукта магистрали использовались для маршрутизации исходящих звонков с сервера-посредника на шлюз ТСОП, причем для каждого шлюза использовалась только одна магистраль.</span><span class="sxs-lookup"><span data-stu-id="aadbe-106">In previous version of the product, trunks were used to route outbound calls from a Mediation Server to a PSTN gateway and each gateway was limited to a single trunk.</span></span> <span data-ttu-id="aadbe-107">Поэтому шлюз ТСОП и магистраль SIP были практически равнозначны.</span><span class="sxs-lookup"><span data-stu-id="aadbe-107">As a result, a PSTN gateway and a SIP trunk were essentially identical.</span></span> <span data-ttu-id="aadbe-108">Для администраторов это означало возможность просмотра сведений об отдельной магистрали SIP путем просмотра сведений о связанном шлюзе ТСОП.</span><span class="sxs-lookup"><span data-stu-id="aadbe-108">For administrators, that meant they could view information about an individual SIP trunk simply by viewing information about the associated PSTN gateway.</span></span>
   
-<span data-ttu-id="16daa-109">В Скайп Business Server Однако несколько магистралей можно теперь назначить один шлюз ТСОП; Это означает, что магистральных линий связи и шлюзами больше не одной и той же.</span><span class="sxs-lookup"><span data-stu-id="16daa-109">In Skype for Business Server, however, multiple trunks can now be assigned to a single PSTN gateway; this means that gateways and trunks are no longer one and the same.</span></span> <span data-ttu-id="16daa-110">В свою очередь, это означает, что администраторы должны использовать новый командлет [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) для просмотра сведений об отдельных канала SIP.</span><span class="sxs-lookup"><span data-stu-id="16daa-110">In turn, that means that administrators must use the new [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) cmdlet in order to view information about an individual SIP trunk.</span></span>
+<span data-ttu-id="aadbe-109">Однако в Skype для бизнеса Server для одного шлюза PSTN может быть назначено несколько каналов. Это означает, что шлюзы и магистральные линии больше не являются одними и теми же.</span><span class="sxs-lookup"><span data-stu-id="aadbe-109">In Skype for Business Server, however, multiple trunks can now be assigned to a single PSTN gateway; this means that gateways and trunks are no longer one and the same.</span></span> <span data-ttu-id="aadbe-110">В свою очередь, это означает, что администраторы должны использовать новый командлет [Get-кструнк](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) для просмотра сведений о отдельной внешней магистрали SIP.</span><span class="sxs-lookup"><span data-stu-id="aadbe-110">In turn, that means that administrators must use the new [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) cmdlet in order to view information about an individual SIP trunk.</span></span>
   
-### <a name="to-view-information-for-all-your-sip-trunks"></a><span data-ttu-id="16daa-111">Просмотр сведений о всех магистралях SIP</span><span class="sxs-lookup"><span data-stu-id="16daa-111">To view information for all your SIP trunks</span></span>
+### <a name="to-view-information-for-all-your-sip-trunks"></a><span data-ttu-id="aadbe-111">Просмотр сведений о всех магистралях SIP</span><span class="sxs-lookup"><span data-stu-id="aadbe-111">To view information for all your SIP trunks</span></span>
 
-- <span data-ttu-id="16daa-112">Следующая команда возвращает сведения о всех магистралях SIP, используемых в организации.</span><span class="sxs-lookup"><span data-stu-id="16daa-112">The following command returns information about all the SIP trunks in use in your organization:</span></span>
+- <span data-ttu-id="aadbe-112">Следующая команда возвращает сведения о всех магистралях SIP, используемых в организации.</span><span class="sxs-lookup"><span data-stu-id="aadbe-112">The following command returns information about all the SIP trunks in use in your organization:</span></span>
     
   ```
   Get-CsTrunk
   ```
 
-### <a name="to-view-information-for-a-specific-sip-trunk"></a><span data-ttu-id="16daa-113">Просмотр сведений об определенной магистрали SIP</span><span class="sxs-lookup"><span data-stu-id="16daa-113">To view information for a specific SIP trunk</span></span>
+### <a name="to-view-information-for-a-specific-sip-trunk"></a><span data-ttu-id="aadbe-113">Просмотр сведений об определенной магистрали SIP</span><span class="sxs-lookup"><span data-stu-id="aadbe-113">To view information for a specific SIP trunk</span></span>
 
-- <span data-ttu-id="16daa-114">Эта команда возвращает сведения только о магистрали SIP с идентификатором PstnGateway:192.168.0.240:</span><span class="sxs-lookup"><span data-stu-id="16daa-114">This command returns information only for the SIP trunk with the Identity PstnGateway:192.168.0.240:</span></span>
+- <span data-ttu-id="aadbe-114">Эта команда возвращает сведения только о магистрали SIP с идентификатором PstnGateway:192.168.0.240:</span><span class="sxs-lookup"><span data-stu-id="aadbe-114">This command returns information only for the SIP trunk with the Identity PstnGateway:192.168.0.240:</span></span>
     
   ```
   Get-CsTrunk -Identity "PstnGateway:192.168.0.240"
   ```
 
-### <a name="view-information-for-all-the-sip-trunks-assigned-to-a-pool"></a><span data-ttu-id="16daa-115">Просмотр информации обо всех линиях связи SIP, назначенных пулу</span><span class="sxs-lookup"><span data-stu-id="16daa-115">View information for all the SIP trunks assigned to a pool</span></span>
+### <a name="view-information-for-all-the-sip-trunks-assigned-to-a-pool"></a><span data-ttu-id="aadbe-115">Просмотр информации обо всех линиях связи SIP, назначенных пулу</span><span class="sxs-lookup"><span data-stu-id="aadbe-115">View information for all the SIP trunks assigned to a pool</span></span>
 
-- <span data-ttu-id="16daa-116">В этом примере возвращаются сведения о всех магистралях SIP, назначенных пулу atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="16daa-116">In this example, information is returned for all the SIP trunks assigned to the pool atl-cs-001.litwareinc.com:</span></span>
+- <span data-ttu-id="aadbe-116">В этом примере возвращаются сведения о всех магистралях SIP, назначенных пулу atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="aadbe-116">In this example, information is returned for all the SIP trunks assigned to the pool atl-cs-001.litwareinc.com:</span></span>
     
   ```
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
