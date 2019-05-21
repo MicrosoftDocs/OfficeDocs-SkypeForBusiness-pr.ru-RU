@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PdpSettingsExpander
@@ -13,24 +13,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 description: Контроль доступа звонков — это сеть регионов, сайтов и подсетей, которые позволяют вам налагать ограничения на передачу звука и видео в зависимости от доступной пропускной способности. После настройки сети на использование контроля доступа звонков, следует включить контроль доступа звонков для применения заданных ограничений.
-ms.openlocfilehash: afc7f8ef5410b1fc921ef7c6250b79a31ca5c3cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7f5da16b1f3854f676f550c4f2484e950adf86fb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903602"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305978"
 ---
-# <a name="call-admission-control-settings-expander"></a><span data-ttu-id="8e23f-104">Расширитель параметров контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="8e23f-104">Call Admission Control Settings Expander</span></span>
+# <a name="call-admission-control-settings-expander"></a><span data-ttu-id="71228-104">Расширитель параметров контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="71228-104">Call Admission Control Settings Expander</span></span>
  
-<span data-ttu-id="8e23f-p102">Контроль доступа звонков — это сеть регионов, сайтов и подсетей, которые позволяют вам налагать ограничения на передачу звука и видео в зависимости от доступной пропускной способности. После настройки сети на использование контроля доступа звонков, следует включить контроль доступа звонков для применения заданных ограничений.</span><span class="sxs-lookup"><span data-stu-id="8e23f-p102">Call admission control (CAC) is a network of regions, sites, and subnets that enable you to place restrictions on audio and video transmissions based on available bandwidth. After you configure the network for CAC, you must enable CAC in order for the bandwidth limitations to be enforced.</span></span> 
+<span data-ttu-id="71228-p102">Контроль доступа звонков — это сеть регионов, сайтов и подсетей, которые позволяют вам налагать ограничения на передачу звука и видео в зависимости от доступной пропускной способности. После настройки сети на использование контроля доступа звонков, следует включить контроль доступа звонков для применения заданных ограничений.</span><span class="sxs-lookup"><span data-stu-id="71228-p102">Call admission control (CAC) is a network of regions, sites, and subnets that enable you to place restrictions on audio and video transmissions based on available bandwidth. After you configure the network for CAC, you must enable CAC in order for the bandwidth limitations to be enforced.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="8e23f-107">Контроль доступа звонков можно также включить на панели управления или с помощью командлетов командной консоли.</span><span class="sxs-lookup"><span data-stu-id="8e23f-107">You can also use control panel or the management shell cmdlets to enable CAC.</span></span> 
+> <span data-ttu-id="71228-107">Контроль доступа звонков можно также включить на панели управления или с помощью командлетов командной консоли.</span><span class="sxs-lookup"><span data-stu-id="71228-107">You can also use control panel or the management shell cmdlets to enable CAC.</span></span> 
   
-<span data-ttu-id="8e23f-108">В разделе **Параметры контроля допуска звонков** диалогового окна **Изменение свойств** для данного сайта можно изменить следующие параметры.</span><span class="sxs-lookup"><span data-stu-id="8e23f-108">In the **Call Admission Control Setting** section of the **Edit Properties** dialog box for your site, you can change the following settings:</span></span>
+<span data-ttu-id="71228-108">В разделе **Параметры контроля допуска звонков** диалогового окна **Изменение свойств** для данного сайта можно изменить следующие параметры.</span><span class="sxs-lookup"><span data-stu-id="71228-108">In the **Call Admission Control Setting** section of the **Edit Properties** dialog box for your site, you can change the following settings:</span></span>
   
-- <span data-ttu-id="8e23f-109">**Включение службы контроля допуска звонков** Выберите этот параметр, чтобы включить службу Контроля.</span><span class="sxs-lookup"><span data-stu-id="8e23f-109">**Enable Call Admission Control** Select this setting to enable CAC.</span></span> <span data-ttu-id="8e23f-110">При его снятии контроль допуска звонков отключается для всей сети.</span><span class="sxs-lookup"><span data-stu-id="8e23f-110">Clear this setting to disable CAC for your entire network.</span></span> <span data-ttu-id="8e23f-111">Для включения контроля допуска звонков необходимо соответствующим образом настроить сеть.</span><span class="sxs-lookup"><span data-stu-id="8e23f-111">To enable CAC, you must have configured your network for CAC.</span></span> <span data-ttu-id="8e23f-112">Дополнительные сведения см в документации по развертыванию [развертывания контроля допуска в Скайп для Business Server 2015 звонков](../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) .</span><span class="sxs-lookup"><span data-stu-id="8e23f-112">For details, see [Deploy call admission control in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) in the Deployment documentation.</span></span>
+- <span data-ttu-id="71228-109">**Включить управление допуском звонков** Выберите этот параметр, чтобы включить CAC.</span><span class="sxs-lookup"><span data-stu-id="71228-109">**Enable Call Admission Control** Select this setting to enable CAC.</span></span> <span data-ttu-id="71228-110">При его снятии контроль допуска звонков отключается для всей сети.</span><span class="sxs-lookup"><span data-stu-id="71228-110">Clear this setting to disable CAC for your entire network.</span></span> <span data-ttu-id="71228-111">Для включения контроля допуска звонков необходимо соответствующим образом настроить сеть.</span><span class="sxs-lookup"><span data-stu-id="71228-111">To enable CAC, you must have configured your network for CAC.</span></span> <span data-ttu-id="71228-112">Подробнее смотрите в разделе [Развертывание элемента управления допуском звонков в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="71228-112">For details, see [Deploy call admission control in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) in the Deployment documentation.</span></span>
     
-- <span data-ttu-id="8e23f-113">**Пул переднего плана для запуска контроля допуска звонков** Если этот параметр включен контроль допуска звонков, можно изменить пула, в котором оно выполняется.</span><span class="sxs-lookup"><span data-stu-id="8e23f-113">**Front End pool to run Call Admission Control** If you enabled CAC, you can change the pool that runs it.</span></span> <span data-ttu-id="8e23f-114">Выберите пул в раскрывающемся списке.</span><span class="sxs-lookup"><span data-stu-id="8e23f-114">Select the pool from the drop-down list.</span></span>
+- <span data-ttu-id="71228-113">**Пул переднего плана, на котором будет выполняться управление допуском звонков** Если включена служба CAC, вы можете изменить пул, на котором он выполняется.</span><span class="sxs-lookup"><span data-stu-id="71228-113">**Front End pool to run Call Admission Control** If you enabled CAC, you can change the pool that runs it.</span></span> <span data-ttu-id="71228-114">Выберите пул в раскрывающемся списке.</span><span class="sxs-lookup"><span data-stu-id="71228-114">Select the pool from the drop-down list.</span></span>
     
 

@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddDirectorFeaturesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
-description: Если требуется пул директоров, чтобы включить сервер мониторинга выберите мониторинг (регистрация Вызовов и показатели качества взаимодействия).
-ms.openlocfilehash: 1ba32a5e75b73dabe49689575bb5310f9ffa7ab3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Если вы хотите, чтобы руководитель пула включал сервер мониторинга, выберите мониторинг (CDR и QoE метрики).
+ms.openlocfilehash: a8652881f02f007f799ff37573540057673e3103
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886602"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304827"
 ---
-# <a name="add-director-features"></a><span data-ttu-id="4bbe3-103">Добавление компонентов директора</span><span class="sxs-lookup"><span data-stu-id="4bbe3-103">Add Director Features</span></span>
+# <a name="add-director-features"></a><span data-ttu-id="6764e-103">Добавление компонентов директора</span><span class="sxs-lookup"><span data-stu-id="6764e-103">Add Director Features</span></span>
 
-<span data-ttu-id="4bbe3-104">Если требуется пул директоров, чтобы включить сервер мониторинга выберите **мониторинг (регистрация Вызовов и показатели качества взаимодействия)**.</span><span class="sxs-lookup"><span data-stu-id="4bbe3-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
+<span data-ttu-id="6764e-104">Если вы хотите, чтобы руководитель пула включал сервер мониторинга, выберите **мониторинг (CDR и QoE метрики)**.</span><span class="sxs-lookup"><span data-stu-id="6764e-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
 
-<span data-ttu-id="4bbe3-105">Для получения дополнительных сведений о добавлении пул директоров видеть [сценарии для директора](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) и [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span><span class="sxs-lookup"><span data-stu-id="4bbe3-105">For more details about adding a Director pool, see [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) and [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span></span>
+<span data-ttu-id="6764e-105">Дополнительные сведения о добавлении пула директоров можно найти [в разделе сценарии для режиссера](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) и [Настройка режиссера](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span><span class="sxs-lookup"><span data-stu-id="6764e-105">For more details about adding a Director pool, see [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) and [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span></span>
 
 

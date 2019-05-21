@@ -1,118 +1,118 @@
 ---
-title: Оцените Мои звонка в Скайп для Business Server
+title: Оцените мой звонок в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 'Сводка: Сведения о скорости личных вызова функции в Скайп для Business Server.'
-ms.openlocfilehash: 6b704562d3cfe70b00bc36aff46e509529f9beae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Сводка. Узнайте, как оценить возможности моего звонка в Skype для бизнеса Server.
+ms.openlocfilehash: e146bba647c9586d96682bf8056417630676726e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897620"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279860"
 ---
-# <a name="rate-my-call-in-skype-for-business-server"></a><span data-ttu-id="35327-103">Оцените Мои звонка в Скайп для Business Server</span><span class="sxs-lookup"><span data-stu-id="35327-103">Rate my Call in Skype for Business Server</span></span>
+# <a name="rate-my-call-in-skype-for-business-server"></a><span data-ttu-id="86ef3-103">Оцените мой звонок в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="86ef3-103">Rate my Call in Skype for Business Server</span></span>
 
-<span data-ttu-id="35327-104">**Сводка:** Сведения о скорости личных вызова функции в Скайп для Business Server.</span><span class="sxs-lookup"><span data-stu-id="35327-104">**Summary:** Learn about the Rate My Call feature in Skype for Business Server.</span></span>
+<span data-ttu-id="86ef3-104">**Сводка:** Узнайте о том, как оценить возможности моего звонка в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="86ef3-104">**Summary:** Learn about the Rate My Call feature in Skype for Business Server.</span></span>
 
-<span data-ttu-id="35327-105">Скорость личных звонок был компонента в Скайп для 2015 бизнеса и клиентов 2016 в Windows, который предоставляет способ получить свои отзывы и предложения от их конечных пользователей предприятия.</span><span class="sxs-lookup"><span data-stu-id="35327-105">Rate My Call was a new feature in Skype for Business 2015 and 2016 clients on Windows that provides enterprises a way to get feedback from their end-users.</span></span>
+<span data-ttu-id="86ef3-105">Оцените, что мой звонок был новым компонентом клиентов Skype для бизнеса 2015 и 2016 в Windows, который предоставляет предприятиям способ получить отзыв от своих конечных пользователей.</span><span class="sxs-lookup"><span data-stu-id="86ef3-105">Rate My Call was a new feature in Skype for Business 2015 and 2016 clients on Windows that provides enterprises a way to get feedback from their end-users.</span></span>
 
-<span data-ttu-id="35327-106">Окно личных вызова скорость предлагает систему «звездочка» оценок и предустановленные токены для вызовов, аудио- и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="35327-106">The Rate My Call window offers a "star" rating system and predefined tokens for audio and video calls.</span></span> <span data-ttu-id="35327-107">Кроме того администраторы могут разрешить настраиваемого поля оставить отзыв.</span><span class="sxs-lookup"><span data-stu-id="35327-107">In addition, administrators can enable a custom field to provide feedback.</span></span>
+<span data-ttu-id="86ef3-106">В окне "скорость звонка" предлагается система оценки звездочки и стандартные маркеры для голосовой связи и видеозвонка.</span><span class="sxs-lookup"><span data-stu-id="86ef3-106">The Rate My Call window offers a "star" rating system and predefined tokens for audio and video calls.</span></span> <span data-ttu-id="86ef3-107">Кроме того, администраторы могут включить настраиваемое поле для обеспечения обратной связи.</span><span class="sxs-lookup"><span data-stu-id="86ef3-107">In addition, administrators can enable a custom field to provide feedback.</span></span>
 
-<span data-ttu-id="35327-108">Собранные данные оценки вызова в настоящее время не включаются ни в один из существующих ответов мониторинга, но имеет отдельный отчет мониторинга.</span><span class="sxs-lookup"><span data-stu-id="35327-108">Collected Rate My Call data is not currently included in any existing monitoring report, but it has a separate monitoring report.</span></span> <span data-ttu-id="35327-109">Сбор данных в таблицах SQL, которые можно получить, запустив SQL-запросов.</span><span class="sxs-lookup"><span data-stu-id="35327-109">Data is collected in SQL tables that can be accessed by running SQL queries.</span></span>
+<span data-ttu-id="86ef3-108">Собранные данные оценки вызова в настоящее время не включаются ни в один из существующих ответов мониторинга, но имеет отдельный отчет мониторинга.</span><span class="sxs-lookup"><span data-stu-id="86ef3-108">Collected Rate My Call data is not currently included in any existing monitoring report, but it has a separate monitoring report.</span></span> <span data-ttu-id="86ef3-109">Данные собираются в таблицы SQL, к которым можно получить доступ с помощью запросов SQL.</span><span class="sxs-lookup"><span data-stu-id="86ef3-109">Data is collected in SQL tables that can be accessed by running SQL queries.</span></span>
 
-## <a name="rate-my-call-prerequisites"></a><span data-ttu-id="35327-110">Требования функции оценки вызова</span><span class="sxs-lookup"><span data-stu-id="35327-110">Rate my Call Prerequisites</span></span>
+## <a name="rate-my-call-prerequisites"></a><span data-ttu-id="86ef3-110">Требования функции оценки вызова</span><span class="sxs-lookup"><span data-stu-id="86ef3-110">Rate my Call Prerequisites</span></span>
 
-<span data-ttu-id="35327-111">Пользователи в вашей Скайп для развертывания Business Server может получить доступ к скорости личных вызова функциональные возможности, необходимо развернута и настроена следующего набора компонентов:</span><span class="sxs-lookup"><span data-stu-id="35327-111">Before the users in your Skype for Business Server deployment can access Rate My Call functionality, the following set of components must be deployed and configured:</span></span>
+<span data-ttu-id="86ef3-111">Перед тем как пользователи в развертывании сервера Skype для бизнеса Server смогут получить доступ к функциям функций звонков, необходимо развернуть и настроить следующий набор компонентов.</span><span class="sxs-lookup"><span data-stu-id="86ef3-111">Before the users in your Skype for Business Server deployment can access Rate My Call functionality, the following set of components must be deployed and configured:</span></span>
 
--  <span data-ttu-id="35327-112">Необходимо иметь Скайп для установки сервера Business (версия 9160 или выше).</span><span class="sxs-lookup"><span data-stu-id="35327-112">You must have Skype for Business Server installed (version 9160 or higher).</span></span>
+-  <span data-ttu-id="86ef3-112">На компьютере должен быть установлен Skype для бизнеса Server (версии 9160 или выше).</span><span class="sxs-lookup"><span data-stu-id="86ef3-112">You must have Skype for Business Server installed (version 9160 or higher).</span></span>
 
-- <span data-ttu-id="35327-113">У пользователей Установка и обновление до последней версии Скайп для бизнеса и также попросить использовать Скайп для пользовательского интерфейса бизнеса.</span><span class="sxs-lookup"><span data-stu-id="35327-113">Have your users install and update to the latest version of Skype for Business and also ask them to use the Skype for Business UI.</span></span>
+- <span data-ttu-id="86ef3-113">Попросите пользователей установить и обновить новейшую версию Skype для бизнеса, а также попросить их использовать пользовательский интерфейс Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="86ef3-113">Have your users install and update to the latest version of Skype for Business and also ask them to use the Skype for Business UI.</span></span>
 
-- <span data-ttu-id="35327-114">Пользователи должны быть размещены на Скайп для пула переднего плана Business Server.</span><span class="sxs-lookup"><span data-stu-id="35327-114">Users must be homed on the Skype for Business Server Front End pool.</span></span>
+- <span data-ttu-id="86ef3-114">Пользователи должны быть размещены в пуле серверного интерфейса Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="86ef3-114">Users must be homed on the Skype for Business Server Front End pool.</span></span>
 
-- <span data-ttu-id="35327-115">Необходимо иметь Скайп для сервера базы данных мониторинга развернуты и связанный вашей Скайп для пулов Business Server.</span><span class="sxs-lookup"><span data-stu-id="35327-115">You must have a Skype for Business Server monitoring database deployed and associated to your Skype for Business Server pools.</span></span>
+- <span data-ttu-id="86ef3-115">Необходимо, чтобы база данных мониторинга сервера Skype для бизнеса Server была развернута и связана с пулами сервера Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="86ef3-115">You must have a Skype for Business Server monitoring database deployed and associated to your Skype for Business Server pools.</span></span>
 
-- <span data-ttu-id="35327-116">Рекомендуется развернуть панель мониторинга качества вызовов (CQD).</span><span class="sxs-lookup"><span data-stu-id="35327-116">We recommend deploying Call Quality Dashboard (CQD).</span></span>
+- <span data-ttu-id="86ef3-116">Рекомендуется развернуть панель мониторинга качества вызовов (CQD).</span><span class="sxs-lookup"><span data-stu-id="86ef3-116">We recommend deploying Call Quality Dashboard (CQD).</span></span>
 
-## <a name="configure-rate-my-call"></a><span data-ttu-id="35327-117">Настройка функции оценки вызова</span><span class="sxs-lookup"><span data-stu-id="35327-117">Configure Rate my Call</span></span>
+## <a name="configure-rate-my-call"></a><span data-ttu-id="86ef3-117">Настройка функции оценки вызова</span><span class="sxs-lookup"><span data-stu-id="86ef3-117">Configure Rate my Call</span></span>
 
-<span data-ttu-id="35327-118">Частота личных вызова она включена по умолчанию в политике клиента со следующими параметрами:</span><span class="sxs-lookup"><span data-stu-id="35327-118">The Rate My Call feature is enabled by default in the Client policy with the following settings:</span></span>
+<span data-ttu-id="86ef3-118">Функция "оценить мой Звонок" включена по умолчанию в политике клиента со следующими параметрами:</span><span class="sxs-lookup"><span data-stu-id="86ef3-118">The Rate My Call feature is enabled by default in the Client policy with the following settings:</span></span>
 
-- <span data-ttu-id="35327-119">Оцените Мои процент отображения вызовов - 10%</span><span class="sxs-lookup"><span data-stu-id="35327-119">Rate My Call Display Percentage - 10%</span></span>
+- <span data-ttu-id="86ef3-119">Оцените процент отображения моего звонка-10%</span><span class="sxs-lookup"><span data-stu-id="86ef3-119">Rate My Call Display Percentage - 10%</span></span>
 
-- <span data-ttu-id="35327-120">Оцените Мои вызова разрешить Custom отзывов и предложений — этот параметр отключен</span><span class="sxs-lookup"><span data-stu-id="35327-120">Rate My Call Allow Custom User Feedback - disabled</span></span>
+- <span data-ttu-id="86ef3-120">Оценить мой звонок разрешить отзыв пользовательских пользователей — отключено</span><span class="sxs-lookup"><span data-stu-id="86ef3-120">Rate My Call Allow Custom User Feedback - disabled</span></span>
 
-<span data-ttu-id="35327-121">Нет никаких действий, необходимых для реализации базовой функции, тем не менее, но если требуется настраиваемых свои отзывы и предложения необходимо включить отдельно.</span><span class="sxs-lookup"><span data-stu-id="35327-121">There is no action required to enable the base feature, however but if you want custom feedback you will need to enable it separately.</span></span> <span data-ttu-id="35327-122">Следующий командлет Windows PowerShell — это пример Включение настраиваемого конечного пользователя свои отзывы и предложения и изменение интервала от 10% до 80%.</span><span class="sxs-lookup"><span data-stu-id="35327-122">The following Windows PowerShell cmdlet is an example of enabling custom end user feedback and changing the interval from 10% to 80%.</span></span>
+<span data-ttu-id="86ef3-121">Никаких действий, необходимых для включения базового компонента, не требуется, но если вы хотите включить пользовательскую обратную связь, вам нужно будет включать ее отдельно.</span><span class="sxs-lookup"><span data-stu-id="86ef3-121">There is no action required to enable the base feature, however but if you want custom feedback you will need to enable it separately.</span></span> <span data-ttu-id="86ef3-122">Следующий командлет Windows PowerShell — это пример включения настраиваемой обратной связи с конечным пользователем и изменения интервала с 10 до 80%.</span><span class="sxs-lookup"><span data-stu-id="86ef3-122">The following Windows PowerShell cmdlet is an example of enabling custom end user feedback and changing the interval from 10% to 80%.</span></span>
 
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a><span data-ttu-id="35327-123">Доступ к данным оценки вызова</span><span class="sxs-lookup"><span data-stu-id="35327-123">Accessing Rate My Call Data</span></span>
+## <a name="accessing-rate-my-call-data"></a><span data-ttu-id="86ef3-123">Доступ к данным оценки вызова</span><span class="sxs-lookup"><span data-stu-id="86ef3-123">Accessing Rate My Call Data</span></span>
 
-<span data-ttu-id="35327-124">Сбор данных от пользователей в двух таблиц в базе данных мониторинга.</span><span class="sxs-lookup"><span data-stu-id="35327-124">Data from users is collected in two tables in the monitoring database.</span></span>
+<span data-ttu-id="86ef3-124">Данные пользователей собираются в двух таблицах в базе данных мониторинга.</span><span class="sxs-lookup"><span data-stu-id="86ef3-124">Data from users is collected in two tables in the monitoring database.</span></span>
 
- <span data-ttu-id="35327-125">**[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** -в этой таблице содержатся результаты опроса маркеров конечными пользователями.</span><span class="sxs-lookup"><span data-stu-id="35327-125">**[QoeMetrics].[dbo].[CallQualityFeedbackToken]** - this table contains results of token polling by end users.</span></span>
+ <span data-ttu-id="86ef3-125">**[Коеметрикс]. [dbo]. [Каллкуалитифидбакктокен]** -в этой таблице содержатся результаты опроса маркеров конечными пользователями.</span><span class="sxs-lookup"><span data-stu-id="86ef3-125">**[QoeMetrics].[dbo].[CallQualityFeedbackToken]** - this table contains results of token polling by end users.</span></span>
 
- <span data-ttu-id="35327-126">**[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** -в этой таблице содержится маркеров определений.</span><span class="sxs-lookup"><span data-stu-id="35327-126">**[QoeMetrics].[dbo].[CallQualityFeedbackTokenDef]** - this table contains token definitions.</span></span>
+ <span data-ttu-id="86ef3-126">**[Коеметрикс]. [dbo]. [Каллкуалитифидбакктокендеф]** -в этой таблице содержатся определения маркеров.</span><span class="sxs-lookup"><span data-stu-id="86ef3-126">**[QoeMetrics].[dbo].[CallQualityFeedbackTokenDef]** - this table contains token definitions.</span></span>
 
-<span data-ttu-id="35327-127">Определения маркеров имеют следующую кодировку:</span><span class="sxs-lookup"><span data-stu-id="35327-127">Token definitions are coded as follows:</span></span>
+<span data-ttu-id="86ef3-127">Определения маркеров имеют следующую кодировку:</span><span class="sxs-lookup"><span data-stu-id="86ef3-127">Token definitions are coded as follows:</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="35327-128">1</span><span class="sxs-lookup"><span data-stu-id="35327-128">1</span></span>  <br/> |<span data-ttu-id="35327-129">Искаженная речь</span><span class="sxs-lookup"><span data-stu-id="35327-129">DistortedSpeech</span></span>  <br/> |
-|<span data-ttu-id="35327-130">2</span><span class="sxs-lookup"><span data-stu-id="35327-130">2</span></span>  <br/> | <span data-ttu-id="35327-131">Оценка качества</span><span class="sxs-lookup"><span data-stu-id="35327-131">ElectronicFeedback</span></span> <br/> |
-|<span data-ttu-id="35327-132">3</span><span class="sxs-lookup"><span data-stu-id="35327-132">3</span></span>  <br/> | <span data-ttu-id="35327-133">Фоновый шум</span><span class="sxs-lookup"><span data-stu-id="35327-133">BackgroundNoise</span></span> <br/> |
-|<span data-ttu-id="35327-134">4</span><span class="sxs-lookup"><span data-stu-id="35327-134">4</span></span>  <br/> |<span data-ttu-id="35327-135">Приглушенная речь</span><span class="sxs-lookup"><span data-stu-id="35327-135">MuffledSpeech</span></span>  <br/> |
-|<span data-ttu-id="35327-136">5</span><span class="sxs-lookup"><span data-stu-id="35327-136">5</span></span>  <br/> |<span data-ttu-id="35327-137">Эхо</span><span class="sxs-lookup"><span data-stu-id="35327-137">Echo</span></span>  <br/> |
-|<span data-ttu-id="35327-138">21</span><span class="sxs-lookup"><span data-stu-id="35327-138">21</span></span>  <br/> | <span data-ttu-id="35327-139">Застывшее видео</span><span class="sxs-lookup"><span data-stu-id="35327-139">FrozenVideo</span></span> <br/> |
-|<span data-ttu-id="35327-140">22</span><span class="sxs-lookup"><span data-stu-id="35327-140">22</span></span>  <br/> | <span data-ttu-id="35327-141">Мозаичное видео</span><span class="sxs-lookup"><span data-stu-id="35327-141">PixelatedVideo</span></span> <br/> |
-|<span data-ttu-id="35327-142">23</span><span class="sxs-lookup"><span data-stu-id="35327-142">23</span></span>  <br/> | <span data-ttu-id="35327-143">Размытое изображение</span><span class="sxs-lookup"><span data-stu-id="35327-143">BlurryImage</span></span> <br/> |
-|<span data-ttu-id="35327-144">24</span><span class="sxs-lookup"><span data-stu-id="35327-144">24</span></span>  <br/> | <span data-ttu-id="35327-145">Блеклые цвета</span><span class="sxs-lookup"><span data-stu-id="35327-145">PoorColor</span></span> <br/> |
-|<span data-ttu-id="35327-146">25</span><span class="sxs-lookup"><span data-stu-id="35327-146">25</span></span>  <br/> | <span data-ttu-id="35327-147">Затемненное видео</span><span class="sxs-lookup"><span data-stu-id="35327-147">DarkVideo</span></span> <br/> |
-|<span data-ttu-id="35327-148">101</span><span class="sxs-lookup"><span data-stu-id="35327-148">101</span></span>  <br/> |<span data-ttu-id="35327-149">Audio_SilentLocal</span><span class="sxs-lookup"><span data-stu-id="35327-149">Audio_SilentLocal</span></span>  <br/> |
-|<span data-ttu-id="35327-150">102</span><span class="sxs-lookup"><span data-stu-id="35327-150">102</span></span>  <br/> |<span data-ttu-id="35327-151">Audio_SilentRemote</span><span class="sxs-lookup"><span data-stu-id="35327-151">Audio_SilentRemote</span></span>  <br/> |
-|<span data-ttu-id="35327-152">103</span><span class="sxs-lookup"><span data-stu-id="35327-152">103</span></span>  <br/> |<span data-ttu-id="35327-153">Audio_Echo</span><span class="sxs-lookup"><span data-stu-id="35327-153">Audio_Echo</span></span>  <br/> |
-|<span data-ttu-id="35327-154">104</span><span class="sxs-lookup"><span data-stu-id="35327-154">104</span></span>  <br/> |<span data-ttu-id="35327-155">Audio_BackgroundNoise</span><span class="sxs-lookup"><span data-stu-id="35327-155">Audio_BackgroundNoise</span></span>  <br/> |
-|<span data-ttu-id="35327-156">105</span><span class="sxs-lookup"><span data-stu-id="35327-156">105</span></span>  <br/> |<span data-ttu-id="35327-157">Audio_LowSound</span><span class="sxs-lookup"><span data-stu-id="35327-157">Audio_LowSound</span></span>  <br/> |
-|<span data-ttu-id="35327-158">106</span><span class="sxs-lookup"><span data-stu-id="35327-158">106</span></span>  <br/> |<span data-ttu-id="35327-159">Audio_Dropped</span><span class="sxs-lookup"><span data-stu-id="35327-159">Audio_Dropped</span></span>  <br/> |
-|<span data-ttu-id="35327-160">107</span><span class="sxs-lookup"><span data-stu-id="35327-160">107</span></span>  <br/> |<span data-ttu-id="35327-161">Audio_DistortedSpeech</span><span class="sxs-lookup"><span data-stu-id="35327-161">Audio_DistortedSpeech</span></span>  <br/> |
-|<span data-ttu-id="35327-162">108</span><span class="sxs-lookup"><span data-stu-id="35327-162">108</span></span>  <br/> |<span data-ttu-id="35327-163">Audio_Interrupted</span><span class="sxs-lookup"><span data-stu-id="35327-163">Audio_Interrupted</span></span>  <br/> |
-|<span data-ttu-id="35327-164">109</span><span class="sxs-lookup"><span data-stu-id="35327-164">109</span></span>  <br/> |<span data-ttu-id="35327-165">Audio_Other</span><span class="sxs-lookup"><span data-stu-id="35327-165">Audio_Other</span></span>  <br/> |
-|<span data-ttu-id="35327-166">201</span><span class="sxs-lookup"><span data-stu-id="35327-166">201</span></span>  <br/> |<span data-ttu-id="35327-167">Video_NoLocalVideo</span><span class="sxs-lookup"><span data-stu-id="35327-167">Video_NoLocalVideo</span></span>  <br/> |
-|<span data-ttu-id="35327-168">202</span><span class="sxs-lookup"><span data-stu-id="35327-168">202</span></span>  <br/> |<span data-ttu-id="35327-169">Video_NoRemoteVideo</span><span class="sxs-lookup"><span data-stu-id="35327-169">Video_NoRemoteVideo</span></span>  <br/> |
-|<span data-ttu-id="35327-170">203</span><span class="sxs-lookup"><span data-stu-id="35327-170">203</span></span>  <br/> |<span data-ttu-id="35327-171">Video_LowQuality</span><span class="sxs-lookup"><span data-stu-id="35327-171">Video_LowQuality</span></span>  <br/> |
-|<span data-ttu-id="35327-172">204</span><span class="sxs-lookup"><span data-stu-id="35327-172">204</span></span>  <br/> |<span data-ttu-id="35327-173">Video_FrozenVideo</span><span class="sxs-lookup"><span data-stu-id="35327-173">Video_FrozenVideo</span></span>  <br/> |
-|<span data-ttu-id="35327-174">205</span><span class="sxs-lookup"><span data-stu-id="35327-174">205</span></span>  <br/> |<span data-ttu-id="35327-175">Video_StoppedUnexpectedly</span><span class="sxs-lookup"><span data-stu-id="35327-175">Video_StoppedUnexpectedly</span></span>  <br/> |
-|<span data-ttu-id="35327-176">206</span><span class="sxs-lookup"><span data-stu-id="35327-176">206</span></span>  <br/> |<span data-ttu-id="35327-177">Video_DarkVideo</span><span class="sxs-lookup"><span data-stu-id="35327-177">Video_DarkVideo</span></span>  <br/> |
-|<span data-ttu-id="35327-178">207</span><span class="sxs-lookup"><span data-stu-id="35327-178">207</span></span>  <br/> |<span data-ttu-id="35327-179">Video_NoAudioSync</span><span class="sxs-lookup"><span data-stu-id="35327-179">Video_NoAudioSync</span></span>  <br/> |
-|<span data-ttu-id="35327-180">208</span><span class="sxs-lookup"><span data-stu-id="35327-180">208</span></span>  <br/> |<span data-ttu-id="35327-181">Video_Other</span><span class="sxs-lookup"><span data-stu-id="35327-181">Video_Other</span></span>  <br/> |
-|<span data-ttu-id="35327-182">301</span><span class="sxs-lookup"><span data-stu-id="35327-182">301</span></span>  <br/> |<span data-ttu-id="35327-183">Pstn_DialPad</span><span class="sxs-lookup"><span data-stu-id="35327-183">Pstn_DialPad</span></span>  <br/> |
-|<span data-ttu-id="35327-184">401</span><span class="sxs-lookup"><span data-stu-id="35327-184">401</span></span>  <br/> |<span data-ttu-id="35327-185">SS_NoContentLocal</span><span class="sxs-lookup"><span data-stu-id="35327-185">SS_NoContentLocal</span></span>  <br/> |
-|<span data-ttu-id="35327-186">402</span><span class="sxs-lookup"><span data-stu-id="35327-186">402</span></span>  <br/> |<span data-ttu-id="35327-187">SS_NoContentRemote</span><span class="sxs-lookup"><span data-stu-id="35327-187">SS_NoContentRemote</span></span>  <br/> |
-|<span data-ttu-id="35327-188">403</span><span class="sxs-lookup"><span data-stu-id="35327-188">403</span></span>  <br/> |<span data-ttu-id="35327-189">SS_CantPresent</span><span class="sxs-lookup"><span data-stu-id="35327-189">SS_CantPresent</span></span>  <br/> |
-|<span data-ttu-id="35327-190">404</span><span class="sxs-lookup"><span data-stu-id="35327-190">404</span></span>  <br/> |<span data-ttu-id="35327-191">SS_LowQuality</span><span class="sxs-lookup"><span data-stu-id="35327-191">SS_LowQuality</span></span>  <br/> |
-|<span data-ttu-id="35327-192">405</span><span class="sxs-lookup"><span data-stu-id="35327-192">405</span></span>  <br/> |<span data-ttu-id="35327-193">SS_Freezing</span><span class="sxs-lookup"><span data-stu-id="35327-193">SS_Freezing</span></span>  <br/> |
-|<span data-ttu-id="35327-194">406</span><span class="sxs-lookup"><span data-stu-id="35327-194">406</span></span>  <br/> |<span data-ttu-id="35327-195">SS_StoppedUnexpectedly</span><span class="sxs-lookup"><span data-stu-id="35327-195">SS_StoppedUnexpectedly</span></span>  <br/> |
-|<span data-ttu-id="35327-196">407</span><span class="sxs-lookup"><span data-stu-id="35327-196">407</span></span>  <br/> |<span data-ttu-id="35327-197">SS_LargeDelay</span><span class="sxs-lookup"><span data-stu-id="35327-197">SS_LargeDelay</span></span>  <br/> |
-|<span data-ttu-id="35327-198">408</span><span class="sxs-lookup"><span data-stu-id="35327-198">408</span></span>  <br/> |<span data-ttu-id="35327-199">SS_Other</span><span class="sxs-lookup"><span data-stu-id="35327-199">SS_Other</span></span>  <br/> |
-|<span data-ttu-id="35327-200">501</span><span class="sxs-lookup"><span data-stu-id="35327-200">501</span></span>  <br/> |<span data-ttu-id="35327-201">Reliabilty_Join</span><span class="sxs-lookup"><span data-stu-id="35327-201">Reliabilty_Join</span></span>  <br/> |
-|<span data-ttu-id="35327-202">502</span><span class="sxs-lookup"><span data-stu-id="35327-202">502</span></span>  <br/> |<span data-ttu-id="35327-203">Reliabilty_Invite</span><span class="sxs-lookup"><span data-stu-id="35327-203">Reliabilty_Invite</span></span>  <br/> |
+|<span data-ttu-id="86ef3-128">1</span><span class="sxs-lookup"><span data-stu-id="86ef3-128">1</span></span>  <br/> |<span data-ttu-id="86ef3-129">Искаженная речь</span><span class="sxs-lookup"><span data-stu-id="86ef3-129">DistortedSpeech</span></span>  <br/> |
+|<span data-ttu-id="86ef3-130">2</span><span class="sxs-lookup"><span data-stu-id="86ef3-130">2</span></span>  <br/> | <span data-ttu-id="86ef3-131">Оценка качества</span><span class="sxs-lookup"><span data-stu-id="86ef3-131">ElectronicFeedback</span></span> <br/> |
+|<span data-ttu-id="86ef3-132">3</span><span class="sxs-lookup"><span data-stu-id="86ef3-132">3</span></span>  <br/> | <span data-ttu-id="86ef3-133">Фоновый шум</span><span class="sxs-lookup"><span data-stu-id="86ef3-133">BackgroundNoise</span></span> <br/> |
+|<span data-ttu-id="86ef3-134">4</span><span class="sxs-lookup"><span data-stu-id="86ef3-134">4</span></span>  <br/> |<span data-ttu-id="86ef3-135">Приглушенная речь</span><span class="sxs-lookup"><span data-stu-id="86ef3-135">MuffledSpeech</span></span>  <br/> |
+|<span data-ttu-id="86ef3-136">5</span><span class="sxs-lookup"><span data-stu-id="86ef3-136">5</span></span>  <br/> |<span data-ttu-id="86ef3-137">Эхо</span><span class="sxs-lookup"><span data-stu-id="86ef3-137">Echo</span></span>  <br/> |
+|<span data-ttu-id="86ef3-138">Порт</span><span class="sxs-lookup"><span data-stu-id="86ef3-138">21</span></span>  <br/> | <span data-ttu-id="86ef3-139">Застывшее видео</span><span class="sxs-lookup"><span data-stu-id="86ef3-139">FrozenVideo</span></span> <br/> |
+|<span data-ttu-id="86ef3-140">максималь</span><span class="sxs-lookup"><span data-stu-id="86ef3-140">22</span></span>  <br/> | <span data-ttu-id="86ef3-141">Мозаичное видео</span><span class="sxs-lookup"><span data-stu-id="86ef3-141">PixelatedVideo</span></span> <br/> |
+|<span data-ttu-id="86ef3-142">стр</span><span class="sxs-lookup"><span data-stu-id="86ef3-142">23</span></span>  <br/> | <span data-ttu-id="86ef3-143">Размытое изображение</span><span class="sxs-lookup"><span data-stu-id="86ef3-143">BlurryImage</span></span> <br/> |
+|<span data-ttu-id="86ef3-144">24</span><span class="sxs-lookup"><span data-stu-id="86ef3-144">24</span></span>  <br/> | <span data-ttu-id="86ef3-145">Блеклые цвета</span><span class="sxs-lookup"><span data-stu-id="86ef3-145">PoorColor</span></span> <br/> |
+|<span data-ttu-id="86ef3-146">24</span><span class="sxs-lookup"><span data-stu-id="86ef3-146">25</span></span>  <br/> | <span data-ttu-id="86ef3-147">Затемненное видео</span><span class="sxs-lookup"><span data-stu-id="86ef3-147">DarkVideo</span></span> <br/> |
+|<span data-ttu-id="86ef3-148">101</span><span class="sxs-lookup"><span data-stu-id="86ef3-148">101</span></span>  <br/> |<span data-ttu-id="86ef3-149">Аудио_силентлокал</span><span class="sxs-lookup"><span data-stu-id="86ef3-149">Audio_SilentLocal</span></span>  <br/> |
+|<span data-ttu-id="86ef3-150">102</span><span class="sxs-lookup"><span data-stu-id="86ef3-150">102</span></span>  <br/> |<span data-ttu-id="86ef3-151">Аудио_силентремоте</span><span class="sxs-lookup"><span data-stu-id="86ef3-151">Audio_SilentRemote</span></span>  <br/> |
+|<span data-ttu-id="86ef3-152">103</span><span class="sxs-lookup"><span data-stu-id="86ef3-152">103</span></span>  <br/> |<span data-ttu-id="86ef3-153">Аудио_ечо</span><span class="sxs-lookup"><span data-stu-id="86ef3-153">Audio_Echo</span></span>  <br/> |
+|<span data-ttu-id="86ef3-154">104</span><span class="sxs-lookup"><span data-stu-id="86ef3-154">104</span></span>  <br/> |<span data-ttu-id="86ef3-155">Аудио_баккграундноисе</span><span class="sxs-lookup"><span data-stu-id="86ef3-155">Audio_BackgroundNoise</span></span>  <br/> |
+|<span data-ttu-id="86ef3-156">105</span><span class="sxs-lookup"><span data-stu-id="86ef3-156">105</span></span>  <br/> |<span data-ttu-id="86ef3-157">Аудио_ловсаунд</span><span class="sxs-lookup"><span data-stu-id="86ef3-157">Audio_LowSound</span></span>  <br/> |
+|<span data-ttu-id="86ef3-158">106</span><span class="sxs-lookup"><span data-stu-id="86ef3-158">106</span></span>  <br/> |<span data-ttu-id="86ef3-159">Аудио_дроппед</span><span class="sxs-lookup"><span data-stu-id="86ef3-159">Audio_Dropped</span></span>  <br/> |
+|<span data-ttu-id="86ef3-160">107</span><span class="sxs-lookup"><span data-stu-id="86ef3-160">107</span></span>  <br/> |<span data-ttu-id="86ef3-161">Аудио_дистортедспич</span><span class="sxs-lookup"><span data-stu-id="86ef3-161">Audio_DistortedSpeech</span></span>  <br/> |
+|<span data-ttu-id="86ef3-162">108</span><span class="sxs-lookup"><span data-stu-id="86ef3-162">108</span></span>  <br/> |<span data-ttu-id="86ef3-163">Аудио_интерруптед</span><span class="sxs-lookup"><span data-stu-id="86ef3-163">Audio_Interrupted</span></span>  <br/> |
+|<span data-ttu-id="86ef3-164">109</span><span class="sxs-lookup"><span data-stu-id="86ef3-164">109</span></span>  <br/> |<span data-ttu-id="86ef3-165">Аудио_осер</span><span class="sxs-lookup"><span data-stu-id="86ef3-165">Audio_Other</span></span>  <br/> |
+|<span data-ttu-id="86ef3-166">201</span><span class="sxs-lookup"><span data-stu-id="86ef3-166">201</span></span>  <br/> |<span data-ttu-id="86ef3-167">Видео_нолокалвидео</span><span class="sxs-lookup"><span data-stu-id="86ef3-167">Video_NoLocalVideo</span></span>  <br/> |
+|<span data-ttu-id="86ef3-168">202</span><span class="sxs-lookup"><span data-stu-id="86ef3-168">202</span></span>  <br/> |<span data-ttu-id="86ef3-169">Видео_норемотевидео</span><span class="sxs-lookup"><span data-stu-id="86ef3-169">Video_NoRemoteVideo</span></span>  <br/> |
+|<span data-ttu-id="86ef3-170">203</span><span class="sxs-lookup"><span data-stu-id="86ef3-170">203</span></span>  <br/> |<span data-ttu-id="86ef3-171">Видео_ловкуалити</span><span class="sxs-lookup"><span data-stu-id="86ef3-171">Video_LowQuality</span></span>  <br/> |
+|<span data-ttu-id="86ef3-172">204</span><span class="sxs-lookup"><span data-stu-id="86ef3-172">204</span></span>  <br/> |<span data-ttu-id="86ef3-173">Видео_фрозенвидео</span><span class="sxs-lookup"><span data-stu-id="86ef3-173">Video_FrozenVideo</span></span>  <br/> |
+|<span data-ttu-id="86ef3-174">205</span><span class="sxs-lookup"><span data-stu-id="86ef3-174">205</span></span>  <br/> |<span data-ttu-id="86ef3-175">Видео_стоппедунекспектедли</span><span class="sxs-lookup"><span data-stu-id="86ef3-175">Video_StoppedUnexpectedly</span></span>  <br/> |
+|<span data-ttu-id="86ef3-176">206</span><span class="sxs-lookup"><span data-stu-id="86ef3-176">206</span></span>  <br/> |<span data-ttu-id="86ef3-177">Видео_дарквидео</span><span class="sxs-lookup"><span data-stu-id="86ef3-177">Video_DarkVideo</span></span>  <br/> |
+|<span data-ttu-id="86ef3-178">207</span><span class="sxs-lookup"><span data-stu-id="86ef3-178">207</span></span>  <br/> |<span data-ttu-id="86ef3-179">Видео_ноаудиосинк</span><span class="sxs-lookup"><span data-stu-id="86ef3-179">Video_NoAudioSync</span></span>  <br/> |
+|<span data-ttu-id="86ef3-180">208</span><span class="sxs-lookup"><span data-stu-id="86ef3-180">208</span></span>  <br/> |<span data-ttu-id="86ef3-181">Видео_осер</span><span class="sxs-lookup"><span data-stu-id="86ef3-181">Video_Other</span></span>  <br/> |
+|<span data-ttu-id="86ef3-182">301</span><span class="sxs-lookup"><span data-stu-id="86ef3-182">301</span></span>  <br/> |<span data-ttu-id="86ef3-183">Пстн_диалпад</span><span class="sxs-lookup"><span data-stu-id="86ef3-183">Pstn_DialPad</span></span>  <br/> |
+|<span data-ttu-id="86ef3-184">401</span><span class="sxs-lookup"><span data-stu-id="86ef3-184">401</span></span>  <br/> |<span data-ttu-id="86ef3-185">Сс_ноконтентлокал</span><span class="sxs-lookup"><span data-stu-id="86ef3-185">SS_NoContentLocal</span></span>  <br/> |
+|<span data-ttu-id="86ef3-186">402</span><span class="sxs-lookup"><span data-stu-id="86ef3-186">402</span></span>  <br/> |<span data-ttu-id="86ef3-187">Сс_ноконтентремоте</span><span class="sxs-lookup"><span data-stu-id="86ef3-187">SS_NoContentRemote</span></span>  <br/> |
+|<span data-ttu-id="86ef3-188">403</span><span class="sxs-lookup"><span data-stu-id="86ef3-188">403</span></span>  <br/> |<span data-ttu-id="86ef3-189">Сс_кантпресент</span><span class="sxs-lookup"><span data-stu-id="86ef3-189">SS_CantPresent</span></span>  <br/> |
+|<span data-ttu-id="86ef3-190">404</span><span class="sxs-lookup"><span data-stu-id="86ef3-190">404</span></span>  <br/> |<span data-ttu-id="86ef3-191">Сс_ловкуалити</span><span class="sxs-lookup"><span data-stu-id="86ef3-191">SS_LowQuality</span></span>  <br/> |
+|<span data-ttu-id="86ef3-192">405</span><span class="sxs-lookup"><span data-stu-id="86ef3-192">405</span></span>  <br/> |<span data-ttu-id="86ef3-193">Сс_фризинг</span><span class="sxs-lookup"><span data-stu-id="86ef3-193">SS_Freezing</span></span>  <br/> |
+|<span data-ttu-id="86ef3-194">406</span><span class="sxs-lookup"><span data-stu-id="86ef3-194">406</span></span>  <br/> |<span data-ttu-id="86ef3-195">Сс_стоппедунекспектедли</span><span class="sxs-lookup"><span data-stu-id="86ef3-195">SS_StoppedUnexpectedly</span></span>  <br/> |
+|<span data-ttu-id="86ef3-196">407</span><span class="sxs-lookup"><span data-stu-id="86ef3-196">407</span></span>  <br/> |<span data-ttu-id="86ef3-197">Сс_ларжеделай</span><span class="sxs-lookup"><span data-stu-id="86ef3-197">SS_LargeDelay</span></span>  <br/> |
+|<span data-ttu-id="86ef3-198">408</span><span class="sxs-lookup"><span data-stu-id="86ef3-198">408</span></span>  <br/> |<span data-ttu-id="86ef3-199">Сс_осер</span><span class="sxs-lookup"><span data-stu-id="86ef3-199">SS_Other</span></span>  <br/> |
+|<span data-ttu-id="86ef3-200">501</span><span class="sxs-lookup"><span data-stu-id="86ef3-200">501</span></span>  <br/> |<span data-ttu-id="86ef3-201">Релиабилти_жоин</span><span class="sxs-lookup"><span data-stu-id="86ef3-201">Reliabilty_Join</span></span>  <br/> |
+|<span data-ttu-id="86ef3-202">502</span><span class="sxs-lookup"><span data-stu-id="86ef3-202">502</span></span>  <br/> |<span data-ttu-id="86ef3-203">Релиабилти_инвите</span><span class="sxs-lookup"><span data-stu-id="86ef3-203">Reliabilty_Invite</span></span>  <br/> |
 
- <span data-ttu-id="35327-204">**[QoeMetrics]. [dbo]. [CallQualityFeedback]** В этой таблице содержатся результаты опроса «Звезда» голосования и отзывы пользователей, если этот параметр включен.</span><span class="sxs-lookup"><span data-stu-id="35327-204">**[QoeMetrics].[dbo].[CallQualityFeedback]** This table contains polling results from "Star" voting and customer feedback if enabled.</span></span>
+ <span data-ttu-id="86ef3-204">**[Коеметрикс]. [dbo]. [Каллкуалитифидбакк]** В этой таблице содержатся результаты опроса от "звезды" голосования и отзывов пользователей, если они включены.</span><span class="sxs-lookup"><span data-stu-id="86ef3-204">**[QoeMetrics].[dbo].[CallQualityFeedback]** This table contains polling results from "Star" voting and customer feedback if enabled.</span></span>
 
-<span data-ttu-id="35327-205">Данные из таблиц, которые могут вызываться с помощью **выберите \* из [Table.Name]** запроса или с помощью Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="35327-205">Data from tables can be called by using a **select \* from [Table.Name]** query or by using Microsoft SQL Server Management Studio.</span></span>
+<span data-ttu-id="86ef3-205">Данные из таблиц можно вызвать с помощью запроса **SELECT \* from [Table.name]** или с помощью Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="86ef3-205">Data from tables can be called by using a **select \* from [Table.Name]** query or by using Microsoft SQL Server Management Studio.</span></span>
 
-<span data-ttu-id="35327-206">Можно использовать следующие запросы SQL:</span><span class="sxs-lookup"><span data-stu-id="35327-206">The following SQL queries can be used:</span></span>
+<span data-ttu-id="86ef3-206">Можно использовать следующие запросы SQL:</span><span class="sxs-lookup"><span data-stu-id="86ef3-206">The following SQL queries can be used:</span></span>
 
- <span data-ttu-id="35327-207">**Аудио**</span><span class="sxs-lookup"><span data-stu-id="35327-207">**Audio**</span></span>
+ <span data-ttu-id="86ef3-207">**Аудио**</span><span class="sxs-lookup"><span data-stu-id="86ef3-207">**Audio**</span></span>
 
 ```
 SELECT
@@ -149,7 +149,7 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
- <span data-ttu-id="35327-208">**Видео**</span><span class="sxs-lookup"><span data-stu-id="35327-208">**Video**</span></span>
+ <span data-ttu-id="86ef3-208">**Видео**</span><span class="sxs-lookup"><span data-stu-id="86ef3-208">**Video**</span></span>
 
 ```
 SELECT
@@ -186,9 +186,9 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
-## <a name="updating-token-definitions"></a><span data-ttu-id="35327-209">Обновление маркеров определений</span><span class="sxs-lookup"><span data-stu-id="35327-209">Updating Token Definitions</span></span>
+## <a name="updating-token-definitions"></a><span data-ttu-id="86ef3-209">Обновление определений маркеров</span><span class="sxs-lookup"><span data-stu-id="86ef3-209">Updating Token Definitions</span></span>
 
-<span data-ttu-id="35327-210">Новый маркер проблема идентификаторы сообщить о последних Скайп пользователей (\> 100), которая не может быть представлен в [QoeMetrics]. [dbo]. Таблица [CallQualityFeedbackTokenDef].</span><span class="sxs-lookup"><span data-stu-id="35327-210">The latest Skype for Business clients report new problem token IDs (\> 100) that may not be present in your [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table.</span></span> <span data-ttu-id="35327-211">Для обновления таблицы базы данных с последними маркеров определений ниже SQL команду можно выполнить на базу данных мониторинга с помощью Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="35327-211">To update the database table with the latest token definitions, the below SQL command can be run on the monitoring database using Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="35327-212">Эта команда будет заменен всех записей в [QoeMetrics]. [dbo]. Таблица [CallQualityFeedbackTokenDef].</span><span class="sxs-lookup"><span data-stu-id="35327-212">This command will replace all entries in the [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table.</span></span>
+<span data-ttu-id="86ef3-210">Последние клиенты Skype для бизнеса сообщают о новых кодах маркеров проблем\> (100), которые могут отсутствовать в [коеметрикс]. [dbo]. Таблица [Каллкуалитифидбакктокендеф].</span><span class="sxs-lookup"><span data-stu-id="86ef3-210">The latest Skype for Business clients report new problem token IDs (\> 100) that may not be present in your [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table.</span></span> <span data-ttu-id="86ef3-211">Чтобы обновить таблицу базы данных с помощью последних определений маркеров, в базе данных мониторинга с помощью Microsoft SQL Server Management Studio можно выполнить указанную ниже команду SQL.</span><span class="sxs-lookup"><span data-stu-id="86ef3-211">To update the database table with the latest token definitions, the below SQL command can be run on the monitoring database using Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="86ef3-212">Эта команда заменит все записи в элементе [Коеметрикс]. [dbo]. Таблица [Каллкуалитифидбакктокендеф].</span><span class="sxs-lookup"><span data-stu-id="86ef3-212">This command will replace all entries in the [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table.</span></span>
 
 ```
 DELETE FROM [CallQualityFeedbackTokenDef];
