@@ -5,19 +5,19 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 12/20/2018
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Требования и необходимые компоненты для средства Stress and Performance Skype для бизнеса Server 2015. Установка и настройка средства Stress and Performance.
-ms.openlocfilehash: 51e83736ecc3d8f18937dee8e9fdbb5244662a2a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37aa89a0e6158b4623711ded8752eab2eb9d77ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906587"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299732"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Необходимые компоненты и настройка для средства Stress and Performance Skype для бизнеса
  
@@ -55,7 +55,7 @@ ms.locfileid: "33906587"
     
 Кроме того, компьютеры должны удовлетворять следующим минимальным требованиям к программному обеспечению.
   
-- Установленная платформа Microsoft .NET 4.5 Framework. [Загрузить .net 4.5 Framework здесь.](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
+- Установленная платформа Microsoft .NET 4.5 Framework. [Загрузите .NET 4,5 Framework.](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
     
 - Включенная функция возможностей рабочего стола в Windows.
     
@@ -81,6 +81,6 @@ ms.locfileid: "33906587"
 
 Установка этого средства максимально упрощена. Запустите файл установщика Windows **CapacityPlanningTool.msi** на каждом клиентском компьютере, где планируется моделирование трафика пользователей, а также на сервере переднего плана в каждом пуле, где будут создаваться пользователи и контакты.
   
-Чтобы загрузить MSI-файла, а также примеры сценариев, упомянутые в других статьях, перейдите к ссылку центра загрузки: [Скайп для Business Server 2015, Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367).
+Чтобы скачать MSI-файл, а также примеры сценариев, упомянутые в наших других статьях, перейдите на веб-канал центра загрузки: [средство для обеспечения нагрузки и производительности в Skype для бизнеса Server 2015](https://www.microsoft.com/download/details.aspx?id=50367).
   
 

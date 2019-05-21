@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: Командлет учетные данные копия на восстановление восстанавливает все учетные данные текущего Скайп для развертывания соединителя Cloud Business Edition.
-ms.openlocfilehash: 0b790b9f2edab9fade2738c3c95348be864f9017
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Командлет Restore CC-Credential восстанавливает все учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.
+ms.openlocfilehash: efa1bcda9af6abccd2ced0faf1e772e779a4483f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250865"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287085"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-Командлет учетные данные копия на восстановление восстанавливает все учетные данные текущего Скайп для развертывания соединителя Cloud Business Edition. 
+Командлет Restore CC-Credential восстанавливает все учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition. 
   
-Этот командлет применяется к Скайп для соединителя выпуск Business Cloud 2.1.
+Этот командлет применим к Skype для бизнеса Cloud Connector Edition 2,1.
   
 ```
 Restore-CcCredentials 
@@ -30,7 +30,7 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>Подробное описание
 
-Командлет Restore-CcCredentials очищает все учетные данные, необходимо повторно ввести все учетные данные, используемые для текущего Скайп для развертывания Cloud Business Connector.
+Командлет Restore-Кккредентиалс удаляет все учетные данные и предлагает вам повторно ввести все учетные данные, которые используются для текущего развертывания облачного соединителя Skype для бизнеса.
   
 ## <a name="parameters"></a>Параметры
 
@@ -38,7 +38,7 @@ Restore-CcCredentials
   
 ## <a name="input-types"></a>Типы входных данных
 
-Отсутствуют. Командлет Restore-CcCredentials не принимает входные данные.
+Отсутствуют. Командлет Restore-Кккредентиалс не поддерживает конвейерный вход.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 
@@ -46,7 +46,7 @@ Restore-CcCredentials
   
 ## <a name="example"></a>Пример
 
-В следующем примере восстанавливается все учетные данные текущего развертывания облака соединителя:
+В следующем примере восстанавливаются все учетные данные для текущего развертывания облачного соединителя:
   
 ```
     PS C:\>Restore-CcCredentials

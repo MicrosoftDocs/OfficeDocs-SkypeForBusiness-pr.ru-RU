@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: e9d2cced647eef2f4db7729c4446068a19000176
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e6cf065207afa04772930adf866c0557440c07ad
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229740"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291930"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Настройка идентификатора абонента для пользователя
 The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
@@ -46,7 +46,7 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
   
 - **Block their outbound caller ID** You can block the outgoing Caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called.
     
-- **Блокировать их входящих идентификатора звонящего** Можно запретить пользователю получение идентификатора звонящего на входящие вызовы ТСОП.
+- **Блокировка идентификатора входящего вызывающего абонента** Вы можете запретить пользователю получать идентификатор вызывающего абонента во всех входящих звонках по сети PSTN.
     
 > [!IMPORTANT]
 > При звонках в экстренные службы номер телефона пользователя (идентификатор абонента) передается всегда. 
@@ -58,7 +58,7 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
 ## <a name="set-your-caller-id-policy-settings"></a>Задание настроек политики идентификатора абонента
 
 > [!NOTE]
-> Для всех параметров идентификатора звонящего в Скайп для бизнеса в Интернет необходимо использовать Windows PowerShell и **нельзя использовать** **Скайп по центру администрирования бизнеса**. 
+> Для всех параметров идентификации вызывающего абонента в Skype для бизнеса Online необходимо использовать Windows PowerShell и **нельзя использовать** **центр администрирования Skype для бизнеса**. 
   
 ### <a name="verify-and-start-windows-powershell"></a>Проверка и запуск Windows PowerShell
 
@@ -90,21 +90,21 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
     Import-PSSession $session
    ```
 
-Дополнительные сведения о запуске Windows PowerShell, см [подключиться ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [настроить компьютер для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Если вы хотите получить дополнительные сведения о запуске Windows PowerShell, ознакомьтесь со статьей [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [Настройка компьютера для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Просмотр всех настроек политики идентификатора абонента в организации
 
-- Чтобы просмотреть все параметры политики идентификатор звонящего в вашей организации, выполните следующую команду:
+- Чтобы просмотреть все параметры политики идентификации вызывающего абонента в Организации, выполните следующие действия:
 
   ```
   Get-CsCallingLineIdentity |fl
   ```
-  Просмотрите Дополнительные сведения и примеры для [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
+  Ознакомьтесь с дополнительными примерами и подробными сведениями о [Get-кскаллинглинеидентити](https://technet.microsoft.com/en-us/library/mt793856.aspx).
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Создание политики идентификатора абонента для организации
 
 
-- Чтобы создать новую политику идентификатор звонящего, который задает идентификатор звонящего для анонимного, выполните следующую команду:
+- Чтобы создать политику идентификации вызывающего абонента, которая устанавливает анонимный идентификатор вызывающего абонента, выполните следующие действия:
     
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
@@ -112,27 +112,27 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
   > [!NOTE]  
   > Во всех случаях поле «Номер службы» не должно содержать начальный символ «+».
 
-  Просмотрите дополнительные примеры и подробные сведения для [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
+  Ознакомьтесь с дополнительными примерами и подробными сведениями о [новых](https://technet.microsoft.com/en-us/library/mt793855.aspx)возкскаллинглинеидентитих.
     
-- Чтобы применить новую политику, которую вы создали мрамор Amos, выполните следующую команду:
+- Чтобы применить новую политику, созданную для Иван мрамора, выполните указанные ниже действия.
     
   ```
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   Дополнительные сведения о командлете [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
     
-Если вы уже создали политику, можно использовать командлет [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) внесение изменений в существующую политику и затем используйте командлет [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) для применения параметров для пользователей.
+Если вы уже создали политику, вы можете использовать командлет [Set-кскаллинглинеидентити](https://technet.microsoft.com/en-us/library/mt793854.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-кскаллинглинеидентити](https://technet.microsoft.com/en-us/library/mt793857.aspx) , чтобы применить параметры к вашим пользователям.
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Блокировка идентификатора входящего абонента
 
-- Чтобы блокировать входящие идентификатора звонящего, выполните следующую команду:
+- Чтобы заблокировать входящий идентификатор вызывающего абонента, выполните следующие действия:
     
   ```
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  Просмотрите Дополнительные сведения и примеры для [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
+  Ознакомьтесь с дополнительными примерами и подробными сведениями о [Set-кскаллинглинеидентити](https://technet.microsoft.com/en-us/library/mt793854.aspx).
     
-- Чтобы применить политику, которую вы создали для пользователей в вашей организации, выполните следующую команду:
+- Чтобы применить параметр политики, созданный для пользователя в Организации, выполните следующие действия:
     
   ```
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"

@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
-description: Этот узел показывает полное доменное имя (FQDN) в этом Microsoft SQL Server и экземпляр SQL Server на этом сервере и пулов или серверов, использующих этот сервер SQL. Доступны следующие действия.
-ms.openlocfilehash: 9fb3ee8c1ee4bff5e192e50734e509798cfbf163
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Этот узел показывает полное доменное имя (FQDN) этого сервера Microsoft SQL Server и экземпляр SQL Server на нем, а также пулы или серверы, использующие этот сервер SQL Server. Доступны следующие действия.
+ms.openlocfilehash: f841c1211392590e3e833d4942fc73af18819fed
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930800"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291251"
 ---
 # <a name="sql-instance-scope-node"></a>Узел области применения экземпляра SQL
  
-Этот узел показывает полное доменное имя (FQDN) в этом Microsoft SQL Server и экземпляр SQL Server на этом сервере и пулов или серверов, использующих этот сервер SQL. Доступны следующие действия.
+Этот узел показывает полное доменное имя (FQDN) этого сервера Microsoft SQL Server и экземпляр SQL Server на нем, а также пулы или серверы, использующие этот сервер SQL Server. Доступны следующие действия.
   
-- **Изменение свойств**. Откроется страница **Изменения свойств** для этого сервера, в котором можно изменить полное доменное имя сервера (если топология еще не опубликован) и экземпляр SQL Server для использования.
+- **Изменение свойств**. Открытие страницы " **изменение свойств** " для этого сервера, на котором можно изменить полное доменное имя сервера (Если топология еще не опубликована) и используемого экземпляра SQL Server.
     
 - **Удалить**. Удаление сервера из топологии.
     

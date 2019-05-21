@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: Командлет Export-CcConfigurationSampleFile экспортирует образец файла конфигурации Skype для бизнеса Cloud Connector Edition (INI) в каталог устройства на устройстве Cloud Connector. Вы можете изменить и переименовать этот файл, чтобы использовать его в своем развертывании.
-ms.openlocfilehash: 3154ff3492899de244c3033e4e35345132d04f20
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 440253bc6b9c4e980a6f7ac4aae0c82ebad05660
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233990"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287384"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
@@ -37,7 +37,7 @@ Export-CcConfigurationSampleFile
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере файлы для загрузки пример файла конфигурации с сайта корпорации Майкрософт и записывает в каталоге appliance appliance облачных соединителя:
+В следующем примере файл конфигурации примера загружается с сайта Майкрософт и записывается в каталог управляющего устройства облачного соединителя:
   
 ```
 Export-CcConfigurationSampleFile
@@ -46,9 +46,9 @@ Export-CcConfigurationSampleFile
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Текущая версия облачных соединителя необходимо указать несколько параметров в INI-файла; Например, для таких параметров IP-адреса виртуальных машин для облачных компоненты, имена компонентов, параметры шлюза и т. д.
+Для текущей версии облачного соединителя требуется предоставить несколько параметров в ini-файле. Например, такие параметры, как IP-адреса виртуальных машин для компонентов облачного соединителя, имена компонентов, параметры шлюза и т. д.
   
-Этот командлет, при запуске на главном компьютере соединителя облачных файлы для загрузки примера INI-файле с примерами настройки с сайта корпорации Майкрософт. Командлет записывает файл в каталоге appliance appliance облачных соединителя. С помощью командлета Set-CcApplianceDirectory указан каталог устройства.
+Этот командлет при запуске на главном компьютере облачного соединителя, загружает образец ini-файла с примерами конфигурации на сайте Майкрософт. Командлет записывает файл в каталог управляющего устройства облачного соединителя. Каталог Appliance (устройство) задается с помощью командлета Set-Ккапплианцедиректори.
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>

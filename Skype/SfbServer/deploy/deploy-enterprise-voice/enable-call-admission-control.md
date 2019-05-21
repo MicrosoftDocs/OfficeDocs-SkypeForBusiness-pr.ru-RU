@@ -1,10 +1,10 @@
 ---
-title: Включение контроля допуска звонков в Скайп для Business Server
+title: Включение управления допуском звонков в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: Включение контроля допуска звонков в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: ce50e11d5d8536dba6038a918a9242ad2cfd6f1d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Включите управление допуском звонков в корпоративной голосовой связи Skype для бизнеса Server.
+ms.openlocfilehash: ed770a79a7237de682822e8280a13de4516921ec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892498"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291597"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Включение контроля допуска звонков в Скайп для Business Server
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Включение управления допуском звонков в Skype для бизнеса Server
  
-Включение контроля допуска звонков в Скайп Business Server корпоративной голосовой связи. 
+Включите управление допуском звонков в корпоративной голосовой связи Skype для бизнеса Server. 
   
 Чтобы политики пропускной способности сети вступили в силу, необходимо включить службу контроля допуска звонков (после настройки параметров сети для развертывания этой службы).
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Включение контроля допуска звонков с помощью Скайп для консоли Business Server
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Включение управления допуском звонков с помощью командной консоли Skype для бизнеса Server
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
     
@@ -43,9 +43,9 @@ ms.locfileid: "33892498"
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Включение контроля допуска звонков с помощью Скайп для панели управления Business Server
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Включение управления допуском звонков с помощью панели управления "Skype для бизнеса" на сервере
 
-1. Откройте Скайп для панели управления Business Server.
+1. Откройте панель управления Skype для бизнеса Server.
     
 2. В левой области навигации щелкните элемент **Конфигурация сети**.
     
@@ -62,7 +62,7 @@ ms.locfileid: "33892498"
     
 ## <a name="see-also"></a>См. также
 
-[Командлет Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
+[Get-Кснетворкконфигуратион](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
 [Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   

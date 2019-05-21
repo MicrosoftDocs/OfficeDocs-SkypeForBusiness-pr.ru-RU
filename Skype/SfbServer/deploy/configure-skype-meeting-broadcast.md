@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,33 +14,33 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
-description: 'Сводка: Сведения о действиях, которые необходимо выполнить для настройки Скайп собрания вещания для вашей локальной Скайп для гибридного развертывания Business Server.'
-ms.openlocfilehash: 4eb117715905a9d371b725c8da7a992b9fdee6b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: Узнайте, какие действия необходимо выполнить, чтобы настроить трансляцию собраний Skype для локального гибридного развертывания Skype для бизнеса Server.'
+ms.openlocfilehash: b744ae55fe9c866b2f65c816e471ed077312df13
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894206"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291667"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  
-**Сводка:** Узнайте о действиях, которые необходимо выполнить для настройки Скайп собрания вещания для вашей локальной Скайп для гибридного развертывания Business Server.
+**Сводка:** Узнайте, какие действия необходимо выполнить, чтобы настроить трансляцию собраний Skype для локального гибридного развертывания Skype для бизнеса Server.
   
-Широковещательные собрания Скайп — это сетевая служба, входящий в состав Office 365. Если выполняется Скайп для Business Server локальных и требуется использовать Скайп собрания вещания в вашей среде, то необходимо необходимо выполнить действия по настройке в этом разделе. Прежде чем начать, среде необходимо настроить для гибридной среды с Скайп для бизнеса в Интернет. Дополнительные сведения см. в разделах [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) и [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Трансляция собрания Skype — это веб-служба, которая входит в состав Office 365. Если вы используете локальную версию Skype для бизнеса Server и хотите использовать трансляцию собраний Skype в своей среде, необходимо выполнить действия по настройке, описанные в этой статье. Прежде чем приступить к работе, необходимо настроить гибридную среду в Skype для бизнеса Online. Дополнительные сведения см. в разделах [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) и [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
-## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Настройте гибридную среду для вещания Скайп собрания
+## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Настройка гибридной среды для трансляции собраний Skype
 
-Вам потребуется выполните следующие действия для подготовки среды к Скайп собрания вещания:
+Для подготовки среды для трансляции собраний Skype вам потребуется выполнить следующие действия:
   
-- Настройка федерации с Скайп для бизнеса в Интернет ресурсы
+- Настройка Федерации с помощью ресурсов Skype для бизнеса Online
     
 - Настройка федеративных доменов SIP
     
-### <a name="configure-federation-with-skype-for-business-online-resources"></a>Настройка федерации с Скайп для бизнеса в Интернет ресурсы
+### <a name="configure-federation-with-skype-for-business-online-resources"></a>Настройка Федерации с помощью ресурсов Skype для бизнеса Online
 
-Чтобы включить федерацию с Скайп для бизнеса в Интернет ресурсы, необходимо настроить внешний доступ для федеративного поставщика SIP. Для этого с помощью Скайп для панели управления Business Server выполните следующие действия:
+Чтобы включить федерацию для ресурсов Skype для бизнеса Online, вам нужно настроить внешний доступ для поставщика федерации SIP. Чтобы сделать это с помощью панели управления Skype для бизнеса Server, выполните указанные ниже действия.
   
-1. Запустите Скайп для панели управления Business Server и слева выберите **Внешний доступ** .
+1. Откройте панель управления Skype для бизнеса Server и выберите **внешний доступ** слева.
     
 2. Выберите **Федеративные поставщики SIP** и нажмите кнопку **Создать**.
     
@@ -48,12 +48,12 @@ ms.locfileid: "33894206"
     
 |||
 |:-----|:-----|
-|**Разрешить взаимодействие с этим поставщиком:** <br/> |выбрано  <br/> |
+|**Включите связь с этим поставщиком:** <br/> |выбрано  <br/> |
 |**Имя поставщика:** <br/> |LyncOnlineResources  <br/> |
 |**Служба пограничного доступа (полное доменное имя):** <br/> |sipfed.online.lync.com  <br/> |
 |**Уровень проверки по умолчанию:** <br/> |Разрешить пользователям взаимодействовать со всеми, кто работает с тем же поставщиком.  <br/> |
    
-Можно также включить федерацию с Скайп для бизнеса в Интернет ресурсы, выполнив следующий командлет в Скайп для консоли Business Server:
+Вы также можете включить федерацию с ресурсами Skype для бизнеса Online, выполнив следующий командлет в командной консоли управления Skype для бизнеса Server:
   
 ```
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
@@ -61,9 +61,9 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
 
 ### <a name="configure-sip-federated-domains"></a>Настройка федеративных доменов SIP
 
-Затем необходимо добавить в список разрешенных доменов SIP федеративные домены. Повторите эти шаги для каждого из четырех указанных доменов, создав четыре новых федеративных домена SIP. Включить эти домены для региональных данных центры используется в Скайп для бизнеса в Интернет.
+Затем необходимо добавить федеративные домены SIP в список разрешенных доменов. Повторите эти шаги для каждого из четырех указанных доменов, создав четыре новых федеративных домена SIP. Эти домены относятся к региональным центрам обработки данных, используемым в Skype для бизнеса Online.
   
-1. Запустите Скайп для панели управления Business Server и слева выберите **Внешний доступ** .
+1. Откройте панель управления Skype для бизнеса Server и выберите **внешний доступ** слева.
     
 2. Выберите **Федеративные поставщики SIP** и нажмите кнопку **Создать**.
     
@@ -77,7 +77,7 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
     
    - resources.lync.com
     
-Можно также настроить внешнего доступа для федеративных доменов SIP, выполнив следующие командлеты в Скайп для консоли Business Server:
+Вы также можете настроить внешний доступ для федеративных доменов SIP, выполнив следующие командлеты в командной консоли управления Skype для бизнеса Server:
   
 ```
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
@@ -86,6 +86,6 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-После выполнения этих действий можно начать с помощью Скайп собрания вещания в вашем развертывании. Дополнительные сведения о Скайп вещания собрания можно [возможности собраний Скайп, широковещательного?](https://go.microsoft.com/fwlink/?LinkId=617071) и [Руководстве вещания администратора Скайп собрания](https://go.microsoft.com/fwlink/?LinkId=617075).
+После выполнения этих шагов настройки вы сможете начать использование трансляции собраний Skype в развертывании. Дополнительные сведения о трансляции собраний Skype можно найти [в статье что такое трансляция собраний Skype](https://go.microsoft.com/fwlink/?LinkId=617071) и [Руководство администратора трансляции собраний Skype](https://go.microsoft.com/fwlink/?LinkId=617075).
   
 

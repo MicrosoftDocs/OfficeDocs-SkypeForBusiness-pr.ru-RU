@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Таиланд.
-ms.openlocfilehash: 2d76789fd107613296d410a7d0b94651e1456d2a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Таиланда.
+ms.openlocfilehash: 10aa1854cf65e8fa3372040b1d696e389c0c64b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221941"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291473"
 ---
 # <a name="availability-in-thailand"></a>Доступность в Таиланде
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Таиланд.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Таиланда.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
 description: Командлет Get-CcApplianceLogDirectory показывает текущий каталог, в котором хранятся журналы устройства Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: d1298454bb347356718fdf24d6761acfea1b71b1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 675e89f49c7c1384edc7cfa5944c8aee3f236c79
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233954"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287372"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
@@ -37,7 +37,7 @@ Get-CcApplianceLogDirectory
 
 ### <a name="example-1"></a>Пример 1
 
-В следующем примере показано текущей папки, в котором хранятся журналы для текущего устройства облачных соединителя:
+В следующем примере показана текущая папка, в которой хранятся журналы для текущего устройства в облачном соединителе:
   
 ```
 Get-CcApplianceLogDirectory
@@ -46,7 +46,7 @@ Get-CcApplianceLogDirectory
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Командлет Get-CcApplianceLogDirectory отображает текущий каталог котором хранятся журналы для соединителя облачных устройства. Папка по умолчанию является C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs. 
+Командлет Get-Ккапплианцелогдиректори показывает текущий каталог, в котором хранятся журналы для устройства облачного соединителя. По умолчанию используется папка\%к:\усерс усерпрофиле%\клаудконнектор\апплианцерут\логс. 
   
 Чтобы изменить этот каталог, выполните командлет Set-CcApplianceDirectory. 
   

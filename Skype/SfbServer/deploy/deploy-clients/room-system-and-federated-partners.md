@@ -3,19 +3,19 @@ title: Федеративные партнеры системы комнат Sky
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: В этом разделе описывается настройка Системы комнат Skype для федеративных партнеров Skype для бизнеса.
-ms.openlocfilehash: 30668641f2c43981485531722861647fdeffc710
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f47659ce1fcf98e026eea3c4a1f38f74575235dc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895021"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291718"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Федеративные партнеры системы комнат Skype и Skype для бизнеса
  
@@ -23,13 +23,13 @@ ms.locfileid: "33895021"
   
 ## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Федеративные партнеры системы комнат Skype и Skype для бизнеса
 
-Система комнаты Скайп полагается на Скайп присоединиться к для собраний ссылку в приглашении на собрание календаря. The join link is usually found in the body of a meeting request. Тем не менее система комнаты Скайп зависит от этой ссылке, чтобы быть представлены в разделе свойства MAPI сообщения. При этом собрание отправляется удаленного организаций (Скайп для федеративных партнеров), по умолчанию будет Скайп комнаты системы удаленного организации не показывать ссылку присоединения к собранию в календаре. На самом деле пользователей Outlook в удаленную организацию смогут присоединяться к Скайп для собраний с правой кнопкой мыши календаря, элемента или из в рамках собрания напоминание. Они должны откройте приглашение и нажмите кнопку Скайп присоединиться к собранию Business в тексте сообщения. 
+В приглашении на собрание в календаре для системы комнат Skype используется ссылка "присоединиться к собранию Skype для бизнеса". The join link is usually found in the body of a meeting request. Тем не менее, система комнаты Skype зависит от этой ссылки, которая должна быть представлена в свойствах MAPI сообщения. Если это приглашение на собрание будет отправлено в удаленные Организации (Федеративные партнеры Skype для бизнеса), по умолчанию в системе комнаты Skype удаленной организации не отображается ссылка присоединение к собранию в календаре. На самом деле пользователи Outlook в удаленной организации не смогут присоединиться к собранию Skype для бизнеса, щелкнув правой кнопкой мыши элемент календаря или в рамках напоминания о собрании. Они должны открыть приглашение на собрание и щелкнуть присоединиться к собранию Skype для бизнеса в тексте сообщения. 
   
-The reason for this limitation is that Outlook and Microsoft Exchange do not use a special method to package information for sending messages across the Internet. This method, referred to as Transport Neutral Encapsulation Format (TNEF), is disabled by default for messages sent externally from an Exchange organization. Для участия в собрании ссылку присоединиться к отображаться в удаленной системе комнаты Скайп, отправляющим организации необходимо включить TNEF с помощью следующей команды:
+The reason for this limitation is that Outlook and Microsoft Exchange do not use a special method to package information for sending messages across the Internet. This method, referred to as Transport Neutral Encapsulation Format (TNEF), is disabled by default for messages sent externally from an Exchange organization. Для отображения ссылки присоединения к собранию в удаленной системе комнат Skype необходимо включить TNEF с помощью следующей команды:
   
 ```
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```
 
-Когда метод TNEF включен для удаленной организации, сообщения, отправляемые организации через Интернет, будут представлены в виде вложения в формате TNEF. С поддержкой TNEF при Скайп для бизнеса приглашения на собрание отправляется Скайп для федеративного партнера, система комнаты Скайп будет иметь возможность отображения Скайп присоединиться к собранию бизнес и удаленные пользователи смогут присоединиться к Скайп для деловых встреч. 
+Когда метод TNEF включен для удаленной организации, сообщения, отправляемые организации через Интернет, будут представлены в виде вложения в формате TNEF. При включенном формате TNEF при отправке приглашений на собрание Skype для бизнеса для федеративного партнера Skype для бизнеса система комнат Skype сможет отобразить собрание Skype для бизнеса, и удаленные пользователи смогут присоединиться к собраниям Skype для бизнеса. 

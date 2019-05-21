@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AssociateFrontEndWithWacPage
@@ -13,22 +13,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Службы, выполняющиеся на сервере Office Web Apps, позволяют выступающему загрузить документ для демонстрации на собрании; при этом их функциональные возможности расширены по сравнению с предыдущими версиями.
-ms.openlocfilehash: 763078a2f936cc15542ab2068d20058eb30bd7de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3d8f42b7e4954e8f4adc472bac18c4c9e26758a0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925020"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301703"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Страница сопоставления сервера переднего плана с сервером Office Web Apps
 
 Службы, выполняющиеся на сервере Office Web Apps, позволяют выступающему загрузить документ для демонстрации на собрании; при этом их функциональные возможности расширены по сравнению с предыдущими версиями.
 
-При выборе сервера Office Web Apps для развертывания конференц-связь была выбрана как один из компонентов для вашего Скайп для конфигурации Business Server 2015.
+Вы выбираете сервер Office Web Apps для развертывания, если вы выбрали Конференц-связь в качестве одной из возможностей, описанных в настройках Skype для бизнеса Server 2015.
 
 Параметры в этом диалоговом окне предоставляют следующие возможности.
 
-1. **Свяжите пул с сервера Office Web Apps** — установите этот флажок, если будет предоставить и развертывание сервера Office Web Apps для пользователей конференц-связи.
+1. **Связывание пула с сервером Office Web Apps** . вы выбираете этот флажок, если вы предоставляете и разворачиваете сервер Office Web Apps для пользователей конференц-связи.
 
 2. Если этот флажок установлен, следует использовать список для выбора уже определенного сервера Office Web Apps.
 

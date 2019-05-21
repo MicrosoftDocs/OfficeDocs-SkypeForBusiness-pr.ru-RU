@@ -1,24 +1,24 @@
 ---
-title: Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition
+title: Удаление сервера переднего плана Enterprise Edition или стандартного выпуска Standard Edition
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Процедуры, приведенные в этом разделе предназначены для процесса удаления для пула переднего плана Enterprise Edition или Standard Edition сервера переднего плана. После миграции на Скайп для Business Server 2019, это один из первых шагов, Списание старой среды.
-ms.openlocfilehash: cd21eff37bfd4f1b29597ee2a44ad3bafe2c104c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Процедуры, описанные в этом разделе, предназначены для того, чтобы попытаться выполнить удаление пула переднего плана Enterprise Edition или серверного переднего плана стандартного выпуска. После перехода на Skype для бизнеса Server 2019 это один из первых шагов, позволяющих списать старую среду.
+ms.openlocfilehash: 62e9552f8781d753e5e03e8aa4f23ad67d40dbce
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231439"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301106"
 ---
 # <a name="remove-the-front-end-server"></a>Удаление сервера переднего плана
 
-Процедуры, описанные в этом разделе предназначены для процесса удаления для пула переднего плана Enterprise Edition или Standard Edition сервера переднего плана. После миграции на Скайп для Business Server 2019, это один из первого действия, описанные в списание старой среды.
+Процедуры, описанные в этом разделе, предназначены для того, чтобы попытаться выполнить удаление пула переднего плана Enterprise Edition или серверного переднего плана стандартного выпуска. После перехода на Skype для бизнеса Server 2019 это один из первых этапов списания устаревшей среды.
   
 ## <a name="in-this-section"></a>Содержание
 

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 07cc390cdc4e65d0ce8f59c42c6eb57f4900e949
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e08eb29827996ff65e85de1afe7aabba1b02ac40
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237186"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285057"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Устранение проблем со Skype для бизнеса Online
 
@@ -31,7 +31,7 @@ ms.locfileid: "32237186"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Устранение проблем, возникающих при администрировании Skype для бизнеса Online
 
-Можно получить ответы на большая часть вашей Скайп для бизнеса в Интернет вопросов, [Проверить наличие распространенные причины Скайп для бизнеса в Интернет ошибки](troubleshooting-sign-in-errors-for-admins.md#toc323194094). Эта статья базы знаний также включает множество ресурсов по устранению неполадок и справочников по кодам ошибок: [Устранение неполадок при входе в Skype для бизнеса Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
+Вы можете получить ответы на все вопросы, касающиеся Skype для бизнеса Online, проследите, чтобы найти наиболее [распространенные причины ошибок входа в Skype для бизнеса Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). Эта статья базы знаний также включает множество ресурсов по устранению неполадок и справочников по кодам ошибок: [Устранение неполадок при входе в Skype для бизнеса Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
 
 Сведения о проблемах конференц-связи с телефонным подключением см. в статье [Известные проблемы аудиоконференций и устранение неполадок](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
 
@@ -65,7 +65,7 @@ ms.locfileid: "32237186"
 
 - [Справка по собраниям Skype для бизнеса](https://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
 
-- [Скайп на обучение бизнеса](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
+- [Обучение работе со Skype для бизнеса](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
 
 - [Презентация программ в Skype для бизнеса](https://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
 

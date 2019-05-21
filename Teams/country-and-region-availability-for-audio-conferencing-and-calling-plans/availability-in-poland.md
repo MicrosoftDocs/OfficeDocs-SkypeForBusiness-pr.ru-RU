@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Польши.
-ms.openlocfilehash: 0ae2b7c97250ad4051ad3ffa83c9d0d616a1d591
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Польша.
+ms.openlocfilehash: 8dbc0056af27b5a422864af2e8471911102c36b3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199100"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287987"
 ---
 # <a name="availability-in-poland"></a>Доступность в Польше
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Польши.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Польша.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

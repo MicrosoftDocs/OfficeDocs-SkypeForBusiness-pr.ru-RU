@@ -1,10 +1,10 @@
 ---
-title: Создание нового фильтра URL-адресов или редактирование существующей
+title: Фильтр URL-адресов создание нового или изменение существующего
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ImpImEdit
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 8cf01a5ecccbd3bffe6137311f26ac8449d96824
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: beb0158aa1ce89e6fbc01fbda65606dfc953f48f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891224"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279020"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>Фильтр URL-адресов: создание нового или редактирование существующего
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 
-- [Изменение фильтра URL-адрес по умолчанию](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [Изменение фильтра URL-адреса по умолчанию](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
 
-- [Создание нового фильтра URL-адрес для управления гиперссылками в мгновенные сообщения](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [Создание фильтра URL-адресов для обработки гиперссылок в текстовых беседах](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
 
 
 

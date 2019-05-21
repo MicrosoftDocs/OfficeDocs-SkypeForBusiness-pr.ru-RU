@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.TrunkScopdeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
-description: 'Щелкните правой кнопкой мыши на существующую магистраль SIP в построителе топологий для выполнения следующих:'
-ms.openlocfilehash: 6ac6d18e4d8ee06c78f68e1f897aed966bf0453b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Вы можете щелкнуть правой кнопкой мыши на существующей магистральной внешней сети SIP в построителе топологии, чтобы выполнить указанные ниже действия.
+ms.openlocfilehash: 6b0db3a7a37c510d5340bd2e9da7a1273f7197e3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903406"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299784"
 ---
 # <a name="trunk-scope-node"></a>Узел области применения линии связи
  
-Щелкните правой кнопкой мыши на существующую магистраль SIP в построителе топологий для выполнения следующих:
+Вы можете щелкнуть правой кнопкой мыши на существующей магистральной внешней сети SIP в построителе топологии, чтобы выполнить указанные ниже действия.
   
 - **Изменение свойств**. Запуск мастера **Изменение свойств** для редактирования и или повторного определения конфигурации существующей магистральной линии SIP
     

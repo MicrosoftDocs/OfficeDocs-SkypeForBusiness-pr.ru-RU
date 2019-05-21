@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LegacyMergeAddExpandedEdgePage
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
 ROBOTS: NOINDEX, NOFOLLOW
-description: Скайп для Business Server не поддерживает объединение прежних версий Office Communications Server 2007 R2 расширенной конфигурации пограничного сервера. Для объединения данных с данными расширенного пограничного сервера необходимо сначала преобразовать его в конфигурацию консолидированного пограничного сервера.
-ms.openlocfilehash: 00456317d1824857a389b4120b4dcca70e289e81
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype для бизнеса Server не поддерживает слияние устаревшей конфигурации пограничного сервера Office Communications Server 2007 R2. Для объединения данных с данными расширенного пограничного сервера необходимо сначала преобразовать его в конфигурацию консолидированного пограничного сервера.
+ms.openlocfilehash: a8d152d7ec739cce7a505bff6953ff77377a9beb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919825"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300184"
 ---
 # <a name="legacy-merge-add-expanded-edge"></a>Добавление пограничного сервера расширенной конфигурации при объединении с устаревшей версией
  
-Скайп для Business Server не поддерживает объединение прежних версий Office Communications Server 2007 R2 расширенной конфигурации пограничного сервера. Для объединения данных с данными расширенного пограничного сервера необходимо сначала преобразовать его в конфигурацию консолидированного пограничного сервера. 
+Skype для бизнеса Server не поддерживает слияние устаревшей конфигурации пограничного сервера Office Communications Server 2007 R2. Для объединения данных с данными расширенного пограничного сервера необходимо сначала преобразовать его в конфигурацию консолидированного пограничного сервера. 
   
 

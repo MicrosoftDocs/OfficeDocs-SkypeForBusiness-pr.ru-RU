@@ -1,25 +1,25 @@
 ---
-title: Peer-to-Peer сеанса подробный отчет в Скайп для Business Server
+title: Отчет о одноранговых сеансах в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 'Сводка: Сведения о сеансе Peer-to-Peer подробного отчета по в Скайп для Business Server.'
-ms.openlocfilehash: 77b5a80c2280d5242e4efcc0dc696c6720da4f64
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о одноранговых отчетах сеансов в Skype для бизнеса Server.'
+ms.openlocfilehash: 768609c68e37eebf46c350009638b960066f9456
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925231"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279881"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Peer-to-Peer сеанса подробный отчет в Скайп для Business Server
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Отчет о одноранговых сеансах в Skype для бизнеса Server
  
-**Сводка:** Сведения о сеансе Peer-to-Peer подробного отчета по в Скайп для Business Server.
+**Сводка:** Подробные сведения о одноранговых отчетах сеансов в Skype для бизнеса Server.
   
 Отчет по деталям однорангового сеанса (Peer-to-Peer Session Detail Report) предоставляет подробные сведения об одноранговом сеансе. Например, если выбрать сеанс обмена мгновенными сообщениями, то отчет предоставит сведения о количестве сообщений, отправленных в этом сеансе каждым из двух пользователей.
   
@@ -35,7 +35,7 @@ ms.locfileid: "33925231"
     
 - Отчет по списку отказов 
     
-В отчете Peer-to-Peer сеанса можно вызвать [Диагностического отчета в Скайп для сервера](diagnostic-report.md) , щелкнув метрику диагностического отчета (сведений). Можно также вызвать отчет по основным сбоям (Top Failures Report), щелкнув одну из следующих метрик:
+В отчете сведения о одноранговых сеансах вы можете получить доступ к [отчету о диагностике в Skype для бизнеса Server](diagnostic-report.md) , щелкнув метрику диагностического отчета (подробности). Можно также вызвать отчет по основным сбоям (Top Failures Report), щелкнув одну из следующих метрик:
   
 - Response (Ответ)
     

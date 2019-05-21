@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 8/8/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
 description: Командлет Start-CcDownload синхронно скачивает части выпуска облачного соединителя Skype для бизнеса и MSI-файл.
-ms.openlocfilehash: cc157825df75a4534422cb0a2fd07abb0ae0daea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 184c15d1932a179bb9ae07da515eeacfc115dfae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893840"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286945"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
@@ -33,7 +33,7 @@ Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonPara
 
 ### <a name="example-1"></a>Пример 1
 
-Следующий пример файлы для загрузки bits облачных соединителя и msi-файл синхронно с сайта загрузки облака соединителя
+В следующем примере синхронизирующие биты и MSI-файл загружаются синхронно из общедоступного сайта скачивания облачного соединителя:
   
 ```
 Start-CcDownload
@@ -41,7 +41,7 @@ Start-CcDownload
 
 ### <a name="example-2"></a>Пример 2
 
-Следующий пример файлы для загрузки bits облачных соединителя и msi-файл синхронно с сайта закрытый файл для загрузки
+В следующем примере синхронизирующие биты и MSI-файл загружаются синхронно из закрытого сайта скачивания.
   
 ```
 Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
@@ -58,14 +58,14 @@ Start-CcDownload -DownloadBitsOnly
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-При наличии новой версии доступны в узле загрузки, Start-CcDownload загрузить и установить msi-файл с сайта загрузки и синхронно Загрузите бит облачных соединителя. Если новая версия MSI-файла отсутствует, командлет Start-CcDownload скачает только BITS-файл Cloud Connector. Если BITS-файл Cloud Connector уже скачан, командлет Start-CcDownload не выполняется.
+Если на сайте загрузки доступна новая версия, запустите-Ккдовнлоад, чтобы скачать и установить MSI-файл с сайта загрузки, а затем синхронно Скачайте биты из облака. Если новая версия MSI-файла отсутствует, командлет Start-CcDownload скачает только BITS-файл Cloud Connector. Если BITS-файл Cloud Connector уже скачан, командлет Start-CcDownload не выполняется.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
-|DownloadUrlRoot   <br/> |  Необязательно <br/> |System.String  <br/> | Полный URL-адрес определенной версии соединителя облака в частном Загрузите сайта. Используйте этот параметр с осторожностью, убедитесь, что для загрузки версии облачных соединителя. <br/> |
+|DownloadUrlRoot   <br/> |  Необязательно <br/> |System.String  <br/> | Полный URL-адрес конкретной версии облачного соединителя на закрытом сайте скачивания. Используйте этот параметр с осторожностью, убедитесь, что вы знаете, какую версию облачного соединителя вы скачиваете. <br/> |
 |DownloadBitsOnly   <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Пропустите скачивание и установку MSI-файла с сайта для скачивания. Скачайте только BITS-файл Cloud Connector.  <br/> |
    
 ## <a name="input-types"></a>Типы входных данных

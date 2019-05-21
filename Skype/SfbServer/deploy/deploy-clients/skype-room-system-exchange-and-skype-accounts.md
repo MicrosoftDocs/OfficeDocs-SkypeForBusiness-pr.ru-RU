@@ -3,7 +3,7 @@ title: Предоставление учетных записей Exchange и Sk
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,24 +11,24 @@ localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: В этих разделах содержатся сведения о предоставлении учетных записей Exchange и Skype для системы комнат Skype.
-ms.openlocfilehash: 1e6674c869e69611bbb405112d5a781eae502084
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504c1551cdda30bef46ba30584de8a557c5a4941
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893339"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287680"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Предоставление учетных записей Exchange и Skype для системы комнат Skype
  
 В этих разделах содержатся сведения о предоставлении учетных записей Exchange и Skype для системы комнат Skype. 
 
 > [!NOTE]
-> Комнат группами Майкрософт — это разные продукт с другой зависимости и процедуры развертывания. Сведения о комнат группы Microsoft содержатся [Общие сведения о развертывании](room-systems-v2.md)комнат группы Microsoft.
+> Комнаты Microsoft Teams — это другой продукт с разными зависимостями и процедурами развертывания. Сведения о комнатах Microsoft Teams можно найти в разделе [Общие сведения о развертывании](room-systems-v2.md)комнат Microsoft Teams.
   
 > [!NOTE]
-> Подготовка учетных записей системы комнаты Скайп зависит от типа topology в вашей организации есть. To know more about Active Directory topologies, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+> Подготовка учетной записи системы для помещения в Skype в зависимости от типа топологии, имеющейся в Организации. To know more about Active Directory topologies, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
   
-## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Подготовку комнаты Скайп системы Exchange &amp; Скайп для бизнес-партнеры
+## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Подготовка к работе с учетными записями &amp; Skype для бизнеса в системе "комната"
 
 В следующих разделах содержатся инструкции о предоставлении и организации учетных записей Exchange и Skype для бизнеса с системой комнат Skype для следующего:
   

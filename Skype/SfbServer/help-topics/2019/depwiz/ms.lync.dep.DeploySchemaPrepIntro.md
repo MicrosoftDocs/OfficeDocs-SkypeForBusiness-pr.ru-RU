@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySchemaPrepIntro
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 ROBOTS: NOINDEX, NOFOLLOW
-description: Для запуска задачи для расширения схемы для Скайп для Business Server, сначала на странице подготовки схемы. Нажмите кнопку Далее, чтобы продолжить подготовку схемы.
-ms.openlocfilehash: e17886be0660a8e3f0b9d8de6516b45b4aa830c7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Чтобы запустить задачу для продления схемы Skype для бизнеса Server, вы можете начать со страницы подготовка схемы. Нажмите кнопку Далее, чтобы продолжить подготовку схемы.
+ms.openlocfilehash: 7df88b74c3432208e048fa8e60e49be8d45b76ea
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892071"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287792"
 ---
 # <a name="prepare-schema-intro"></a>Подготовка схемы (введение)
  
-Для запуска задачи для расширения схемы для Скайп для Business Server, сначала на странице **Подготовки схемы** . Нажмите кнопку **Далее**, чтобы продолжить подготовку схемы.
+Чтобы запустить задачу для продления схемы Skype для бизнеса Server, вы можете начать со страницы **Подготовка схемы** . Нажмите кнопку **Далее**, чтобы продолжить подготовку схемы.
   
 

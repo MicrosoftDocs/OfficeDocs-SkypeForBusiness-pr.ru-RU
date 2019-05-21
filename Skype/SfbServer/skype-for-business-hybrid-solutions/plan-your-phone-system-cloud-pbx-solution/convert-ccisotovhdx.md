@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: Командлет Convert-CcIsoToVhdx создает файл базового виртуального жесткого диска (VHDX) на основе предоставленного клиентом ISO-файла с образом Windows Server 2012 R2. VHDX-файл используется в процессе развертывания Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: 181d1af762d1f8c9c8f3e65a4411b317ab36ce4a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 7b1426fe3180576e28780aeae96ee8e4913bb399
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898489"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287540"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
@@ -28,7 +28,7 @@ Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpd
 
 ## <a name="parameters"></a>Параметры
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**.|
+|**Параметр**|**Обязательно**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |IsoFilePath  <br/> | Обязательно <br/> |System.String  <br/> | Путь к ISO-файлу образа с Windows Server 2012 R2. <br/> |
 |GeneralizeOnly  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Если во время обновления Windows произойдет сбой процесса преобразования, вы можете попробовать настроить сеть или прокси-сервер и выполнить обновление Windows вручную. После выполнения задачи вручную вы можете запустить этот командлет с параметром -GeneralizeOnly, чтобы выполнить оставшиеся шаги.   <br/> |
@@ -47,7 +47,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO"
 
 ### <a name="example-2"></a>Пример 2
 
-В случае сбоя командлету Convert-CcIsoToVhdx во время обновления Windows, возможно, из-за неправильной сети и прокси-сервером. Вы можете выполнить инструкции, представленные в сообщении об ошибке, и войти в систему базовой виртуальной машины, чтобы устранить проблему и обновить Windows вручную. После выполнения задачи вручную вы можете запустить этот командлет еще раз с параметром -GeneralizeOnly, чтобы выполнить оставшиеся шаги: 
+Если командлет Convert-КЦисотовхдкс завершается сбоем во время обновления Windows, возможно, это вызвано неверной конфигурацией сети или прокси-сервера. Вы можете выполнить инструкции, представленные в сообщении об ошибке, и войти в систему базовой виртуальной машины, чтобы устранить проблему и обновить Windows вручную. После выполнения задачи вручную вы можете запустить этот командлет еще раз с параметром -GeneralizeOnly, чтобы выполнить оставшиеся шаги: 
   
 ```
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
@@ -55,7 +55,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Gene
 
 ### <a name="example-3"></a>Пример 3
 
-Если для обновления Windows требуется выполнить настройку параметров вручную, используйте параметр -PauseBeforeUpdate. С помощью этого параметра соединителя облачных возникнет пауза перед процесса обновления Windows. После этого вы можете выполнить настройку вручную и затем возобновить процесс преобразования:
+Если для обновления Windows требуется выполнить настройку параметров вручную, используйте параметр -PauseBeforeUpdate. С помощью этого параметра облачный соединитель будет приостановлен до процесса обновления Windows. После этого вы можете выполнить настройку вручную и затем возобновить процесс преобразования:
   
 ```
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
@@ -64,7 +64,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Paus
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Командлет Convert-CcIsoToVhdx создает основу виртуальной Машины во-первых, устанавливает некоторые основные компоненты, что соединитель облачных зависит от того, а затем устанавливает обновления Windows. И, наконец обобщает виртуальной машины (sysprep) для получения базового файла VHDX, который будет использоваться с виртуальных машин appliance облачных соединителя. 
+Командлет Convert-КЦисотовхдкс сначала создает базовую виртуальную машину, устанавливает некоторые основные компоненты, от которых зависит облачный соединитель, а затем устанавливает обновления Windows. Наконец, она обобщает виртуальную машину (Sysprep) для получения базового VHDX-файла, который будет использоваться виртуальными машинами устройства облачного соединителя. 
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>

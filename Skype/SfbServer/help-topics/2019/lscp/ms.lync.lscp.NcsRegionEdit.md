@@ -1,10 +1,10 @@
 ---
-title: Настройка области сети создание новой или редактирование существующей
+title: Настройка сетевого региона создание нового или изменение существующего
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.NcsRegionEdit
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: abd183295ef9b5ddf8864e4ae27913d0ccb4971b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ae35babd60fb110f63df938d7e92f5f01e35c195
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891049"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291893"
 ---
 # <a name="configure-a-network-region-create-new-or-edit-existing"></a>Настройка области сети: создание новых или редактирование существующих
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 
-- [Настройка сетевых областей](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [Настройка регионов сети](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 
 
 
