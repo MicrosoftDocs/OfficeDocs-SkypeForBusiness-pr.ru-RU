@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
-description: tblEnumAttribute — это таблица содержит атрибуты Visibility и Behavior, используемые в таблице Node.
-ms.openlocfilehash: b81e8ae09561220df381290eed212ef752820edd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Тбленуматтрибуте — это жесткая таблица, которая содержит атрибуты видимости и поведения, которые используются в таблице node.
+ms.openlocfilehash: b326ebe98592daccf7560dc90e299f31c158cd5c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929954"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295421"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
-tblEnumAttribute — это таблица содержит атрибуты Visibility и Behavior, используемые в таблице Node.
+Тбленуматтрибуте — это жесткая таблица, которая содержит атрибуты видимости и поведения, которые используются в таблице node.
   
-**Столбцы**
+**Столбцов**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|attributeID  <br/> |smallint, не может быть null  <br/> |Идентификатор атрибута.  <br/> |
-|Имя_атрибута  <br/> |nvarchar (256), отлично от null  <br/> |Имя атрибута.  <br/> |
+|attributeID  <br/> |smallint, NOT NULL  <br/> |Идентификатор атрибута.  <br/> |
+|attributeName  <br/> |nvarchar (256), NOT NULL  <br/> |Имя атрибута.  <br/> |
    
 **Ключ**
 
@@ -37,10 +37,10 @@ tblEnumAttribute — это таблица содержит атрибуты Vis
    
 **Значения таблицы**
 
-|**attributeID**|**Имя_атрибута**|
+|**attributeID**|**attributeName**|
 |:-----|:-----|
-|1  <br/> |Видимость.  <br/> |
-|2  <br/> |Поведение.  <br/> |
+|1  <br/> |Отображение.  <br/> |
+|2  <br/> |Расширения.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: Просмотреть, изменение и сброс идентификатор конференции, назначенных пользователю в Скайп для бизнеса в Интернет
+title: Просмотр, изменение и сброс идентификатора конференц-связи, назначенного пользователю в Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как присвоить пользователю идентификатор конференции для Skype для бизнеса Online и какими должны быть параметры для установки идентификатора конференции. '
-ms.openlocfilehash: eb7d42fa88c54b917e89eb97ce9f52bd03af4935
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 28d18b6a12fdfcb40fa43904b8cc8a0461977c38
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229334"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298924"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Просмотр и сброс идентификатора конференции, присвоенного пользователю в Skype для бизнеса Online
 
@@ -43,9 +43,9 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ## <a name="view-and-reset-conference-ids"></a>Просмотр и сброс идентификатора конференции
 
-### <a name="to-view-the-conference-id"></a>Чтобы просмотреть идентификатор конференции
+### <a name="to-view-the-conference-id"></a>Просмотр идентификатора конференции
 
-![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
 
 Вы можете посмотреть их идентификатор конференции и отправить его пользователям.
 
@@ -58,9 +58,9 @@ An email will be sent to the user with the conference ID and the default audio c
 4. На странице "Действия" найдите раздел **Идентификатор конференции**.
 
     > [!TIP]
-    > Можно отправить все сведения конференц-связи для пользователя в сообщение электронной почты, включая идентификатор конференции и звуковых телефонных номеров, щелкнув ссылку **Отправить сведения о конференции по электронной почте** , после выбора пользователя на странице " **Пользователи** ".
+    > Вы можете отправить всем сведения о конференциях в сообщение электронной почты, которое содержит идентификатор конференции и звуковые номера, нажав кнопку **отправить сведения о конференции по электронной почте** , после того как вы выберете пользователя на странице **Пользователи** .
 
-**С помощью Windows PowerShell**
+**Использование Windows PowerShell**
 
 You can use Windows PowerShell to view the conference ID for a user. To do so, run:
 
@@ -71,21 +71,21 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
     See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
 
 
-### <a name="to-reset-the-conference-id"></a>Чтобы сбросить идентификатор конференции
+### <a name="to-reset-the-conference-id"></a>Сброс идентификатора конференции
 
 Если, например, пользователь забыл идентификатор конференции, его можно сбросить.
 
-![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
 2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
 
-3. В **Скайп по центру администрирования Business**> **аудиоконференции** > **пользователей**, в области действий в разделе **Идентификатор конференции**, нажмите кнопку **Сброс**.
+3. **** В > **** центре>  **администрирования Skype для бизнеса**, в разделе " **идентификатор конференции**", в области "действия" нажмите кнопку **Сброс**.
 
 4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
-**С помощью Windows PowerShell**
+**Использование Windows PowerShell**
 
 You can reset the conference ID for a user by using the Windows PowerShell. To do this, run:
 
@@ -123,5 +123,5 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

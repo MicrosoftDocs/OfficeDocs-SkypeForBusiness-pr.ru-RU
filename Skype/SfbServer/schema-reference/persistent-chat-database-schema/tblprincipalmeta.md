@@ -5,40 +5,40 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
-description: tblPrincipalMeta содержит список субъектов, которых необходимо обновить из доменных служб Active Directory.
-ms.openlocfilehash: a13fdcf705075188ae4febd5a2e0c3bc93a4738f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: ТблпринЦипалмета содержит участников, которые необходимо обновлять из доменных служб Active Directory.
+ms.openlocfilehash: 9cff5b2515613ac3540d82e545862bf4fdb58b94
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924544"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295260"
 ---
 # <a name="tblprincipalmeta"></a>tblPrincipalMeta
  
-tblPrincipalMeta содержит список субъектов, которых необходимо обновить из доменных служб Active Directory.
+ТблпринЦипалмета содержит участников, которые необходимо обновлять из доменных служб Active Directory.
   
-**Столбцы**
+**Столбцов**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int, не null  <br/> |Идентификатор субъекта.  <br/> |
-|prinAffiliationsDirty  <br/> |bit, не может быть null  <br/> |Значение true, если назначения субъектов требуется обновить.  <br/> |
-|prinAttributesDirty  <br/> |bit, не может быть null  <br/> |Значение true, если атрибуты которых необходимо обновить.  <br/> |
-|prinDeleted  <br/> |bit, не может быть null  <br/> |Значение true, если субъект был удален.  <br/> |
-|tryCount  <br/> |целое  <br/> |Число попыток обновления субъекта из Доменных службах Active Directory, предпринятых на данный момент.  <br/> |
-|lastTry  <br/> |datetime  <br/> |Метка времени последней попытки обновления субъекта. Может иметь значение null, если обновление не предпринята попытка еще.  <br/> |
-|nextTry  <br/> |datetime  <br/> |Метка времени для следующего запланированного обновления. Может иметь значение null, если дальнейшие обновления по расписанию.  <br/> |
+|Принид  <br/> |int, NOT NULL  <br/> |Идентификатор участника.  <br/> |
+|Принаффилиатионсдирти  <br/> |bit, NOT NULL  <br/> |Значение true, если присвоить участникам участники необходимо обновлять.  <br/> |
+|Принаттрибутесдирти  <br/> |bit, NOT NULL  <br/> |Значение true, если атрибуты участника нужно обновить.  <br/> |
+|Принделетед  <br/> |bit, NOT NULL  <br/> |Значение true, если участник удален.  <br/> |
+|Трикаунт  <br/> |целое  <br/> |Количество попыток обновления участника из доменных служб Active Directory, произошедших в данный момент.  <br/> |
+|Ласттри  <br/> |datetime  <br/> |Метка времени последней попытки обновить участника. Может иметь значение null, если вы еще не пытались обновить обновление.  <br/> |
+|Нексттри  <br/> |datetime  <br/> |Метка времени для следующего запланированного обновления. Может иметь значение null, если дальнейшее обновление не запланировано.  <br/> |
    
-**Ключи**
+**Параметры**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|prinID  <br/> |Первичный ключ.  <br/> |
-|prinID  <br/> |Внешний ключ с подстановкой в таблице tblPrincipal.prinID.  <br/> |
+|Принид  <br/> |Первичный ключ.  <br/> |
+|Принид  <br/> |Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.  <br/> |
    
 

@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
-description: tblsiopwhitelist — это список зарегистрированных надстроек, которые могут быть связаны с узлами.
-ms.openlocfilehash: f3389f3d4a956e00180303c09bd3eb264d786b9b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Тблсиопвхителист — список зарегистрированных надстроек, которые можно связать с узлами.
+ms.openlocfilehash: 3277ec3a2d4fe11000b2eda60fa2327547c77d2b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924775"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295176"
 ---
 # <a name="tblsiopwhitelist"></a>tblSiopWhiteList
  
-tblsiopwhitelist — это список зарегистрированных надстроек, которые могут быть связаны с узлами.
+Тблсиопвхителист — список зарегистрированных надстроек, которые можно связать с узлами.
   
-**Столбцы**
+**Столбцов**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|siopID  <br/> |Идентификатор GUID, не может быть null  <br/> |GUID надстройки.  <br/> |
-|siopName  <br/> |nvarchar (50), отлично от null  <br/> |Отображаемое имя надстройки.  <br/> |
-|siopUrl  <br/> |nvarchar (255), отлично от null  <br/> |URL-адрес надстройки.  <br/> |
+|Сиопид  <br/> |GUID, а не NULL  <br/> |Идентификатор GUID надстройки.  <br/> |
+|Сиопнаме  <br/> |nvarchar (50), NOT NULL  <br/> |Отображаемое имя надстройки.  <br/> |
+|Сиопурл  <br/> |nvarchar (255), NOT NULL  <br/> |URL-адрес надстройки.  <br/> |
    
 **Ключ**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|siopID  <br/> |Первичный ключ.  <br/> |
+|Сиопид  <br/> |Первичный ключ.  <br/> |
    
 

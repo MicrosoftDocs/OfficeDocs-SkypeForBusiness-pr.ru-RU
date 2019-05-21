@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceRouteSelGateway
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
-description: Используйте диалоговое окно Выбор магистрали для поиска существующего магистральной линии связи, которые можно использовать.
-ms.openlocfilehash: c250a8400842f4e0696d76c871c69e2899afb56b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: С помощью диалогового окна Выбор магистрали можно найти существующую магистральную ссылку, которую вы можете использовать.
+ms.openlocfilehash: bb441a94d8a55121b897623040323f544c6fcacd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929562"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293286"
 ---
 # <a name="select-trunk"></a>Выбор магистральной линии связи
  
-Используйте диалоговое окно **Выбор магистрали** для поиска существующего магистральной линии связи, которые можно использовать.
+С помощью диалогового окна **Выбор магистрали** можно найти существующую магистральную ссылку, которую вы можете использовать.
   
 > [!NOTE]
-> Чтобы получить все доступные магистральные линии связи, не вводите в поле «Поиск» и нажмите значок поиска. 
+> Чтобы получить все доступные магистральы, не вводите ничего в поле поиска, а затем щелкните значок "Поиск". 
   
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
   
 

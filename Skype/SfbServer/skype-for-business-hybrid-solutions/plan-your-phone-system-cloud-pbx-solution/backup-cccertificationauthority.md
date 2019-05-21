@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: Командлет Backup-CcCertificationAuthority выполняет резервное копирование службы центра сертификации Skype для бизнеса Cloud Connector Edition в файл и сохраняет папку CA в общем каталоге сайта.
-ms.openlocfilehash: 2f85a4da58a586852b3331f1f8e482ee17e29e02
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 463aab2516deec5b47e549aec67bcba6a0a80bc0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234553"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294420"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
@@ -44,7 +44,7 @@ Backup-CcCertificationAuthority
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Резервное копирование центра сертификации можно использовать, если необходимо выполнить заново appliance облачных соединителя с тот же сертификат в случае сбоя, или если вы хотите переместить устройства для обеспечения связи в новое оборудование. Команда сохраняет копию служба центра сертификации облачных соединителя с сервера AD для "\<SiteRootDirectory\>\CA\SfB системы CCE Root.p12».
+Резервное копирование центра сертификации может быть полезно, если вы планируете повторное развертывание устройства облачного соединителя с помощью того же сертификата в случае аварии или вы хотите переместить устройство на новое оборудование. С помощью этой команды можно сохранить копию службы центра сертификации облачного соединителя с AD на сервере "\<СИТЕРУТДИРЕКТОРИ\>\ка\сфб кце root. p12".
   
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
