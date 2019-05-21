@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceUsageMain
@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 02aadb4082f944e5f109b2f10d507623d0a48fa5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eaff91ab3c2b803c2dec519164b3c9a3e7444b7c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890427"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290618"
 ---
-# <a name="pstn-usage"></a><span data-ttu-id="e9ae7-104">Использование ТСОП</span><span class="sxs-lookup"><span data-stu-id="e9ae7-104">PSTN Usage</span></span>
+# <a name="pstn-usage"></a><span data-ttu-id="d230b-104">Использование ТСОП</span><span class="sxs-lookup"><span data-stu-id="d230b-104">PSTN Usage</span></span>
 
-<span data-ttu-id="e9ae7-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="e9ae7-105">What do you want to do?</span></span> <span data-ttu-id="e9ae7-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="e9ae7-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="d230b-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="d230b-105">What do you want to do?</span></span> <span data-ttu-id="d230b-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="d230b-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="e9ae7-107">Просмотр записей использования ТСОП в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="e9ae7-107">View PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [<span data-ttu-id="d230b-107">Просмотр записей использования PSTN в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="d230b-107">View PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
-- [<span data-ttu-id="e9ae7-108">Создание или изменение политики голосовой связи и Настройка записей использования ТСОП в Скайп для бизнеса</span><span class="sxs-lookup"><span data-stu-id="e9ae7-108">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [<span data-ttu-id="d230b-108">Создание или изменение политики голосовой связи и настройка записей использования PSTN в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="d230b-108">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [<span data-ttu-id="e9ae7-109">Изменение политики голосовой связи и Настройка записей использования ТСОП</span><span class="sxs-lookup"><span data-stu-id="e9ae7-109">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [<span data-ttu-id="d230b-109">Изменение политики голосовой связи и настройка записей об использовании PSTN</span><span class="sxs-lookup"><span data-stu-id="d230b-109">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
 
 

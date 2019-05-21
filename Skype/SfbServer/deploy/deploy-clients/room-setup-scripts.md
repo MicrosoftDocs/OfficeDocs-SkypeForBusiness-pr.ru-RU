@@ -3,27 +3,27 @@ title: Сценарии для настройки системы комнат Sk
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: В этом разделе описывается поиск примеров сценариев предоставления учетных записей Системы комнат Skype.
-ms.openlocfilehash: 10e68de94f7327c2a2c111af98a725ad4d8a6754
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4b146346d7afe69746cf7046c0ee156ee9ff0da
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895182"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291703"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="47cc6-103">Сценарии для настройки системы комнат Skype</span><span class="sxs-lookup"><span data-stu-id="47cc6-103">Skype Room System room setup scripts</span></span>
+# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="4daf2-103">Сценарии для настройки системы комнат Skype</span><span class="sxs-lookup"><span data-stu-id="4daf2-103">Skype Room System room setup scripts</span></span>
  
-<span data-ttu-id="47cc6-104">В этом разделе описывается поиск примеров сценариев предоставления учетных записей Системы комнат Skype.</span><span class="sxs-lookup"><span data-stu-id="47cc6-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
+<span data-ttu-id="4daf2-104">В этом разделе описывается поиск примеров сценариев предоставления учетных записей Системы комнат Skype.</span><span class="sxs-lookup"><span data-stu-id="4daf2-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
   
-<span data-ttu-id="47cc6-105">В данном разделе приводятся примеры сценариев, которые можно использовать для подготовки Скайп комнаты системных учетных записей.</span><span class="sxs-lookup"><span data-stu-id="47cc6-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="47cc6-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span><span class="sxs-lookup"><span data-stu-id="47cc6-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
+<span data-ttu-id="4daf2-105">В этом разделе приведены примеры сценариев, которые можно использовать для подготовки системных учетных записей Skype для помещения.</span><span class="sxs-lookup"><span data-stu-id="4daf2-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="4daf2-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span><span class="sxs-lookup"><span data-stu-id="4daf2-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="47cc6-107">Пример сценария настройки: Скайп для бизнеса и Exchange Server (локально)</span><span class="sxs-lookup"><span data-stu-id="47cc6-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="4daf2-107">Пример сценария настройки: Skype для бизнеса и Exchange Server (локально)</span><span class="sxs-lookup"><span data-stu-id="4daf2-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
 
 ```
 # On Exchange 
@@ -37,17 +37,17 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="47cc6-108">Пример сценария настройки: Скайп для бизнеса и Интернет-версия Exchange Server</span><span class="sxs-lookup"><span data-stu-id="47cc6-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="4daf2-108">Пример сценария настройки: Skype для бизнеса и Exchange Server Online</span><span class="sxs-lookup"><span data-stu-id="4daf2-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
 
-<span data-ttu-id="47cc6-109">Перед запуском сценария обязательно ознакомьтесь со следующими предварительными требованиями.</span><span class="sxs-lookup"><span data-stu-id="47cc6-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
+<span data-ttu-id="4daf2-109">Перед запуском сценария обязательно ознакомьтесь со следующими предварительными требованиями.</span><span class="sxs-lookup"><span data-stu-id="4daf2-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
   
-- <span data-ttu-id="47cc6-110">Помощник по входу в Microsoft Online Services для ИТ-специалистов, версия BETA</span><span class="sxs-lookup"><span data-stu-id="47cc6-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
+- <span data-ttu-id="4daf2-110">Помощник по входу в Microsoft Online Services для ИТ-специалистов, версия BETA</span><span class="sxs-lookup"><span data-stu-id="4daf2-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
     
-- <span data-ttu-id="47cc6-111">Модуль Windows Azure Active Directory для Windows PowerShell (64-разрядная версия) или (32-разрядная версия)</span><span class="sxs-lookup"><span data-stu-id="47cc6-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
+- <span data-ttu-id="4daf2-111">Модуль Windows Azure Active Directory для Windows PowerShell (64-разрядная версия) или (32-разрядная версия)</span><span class="sxs-lookup"><span data-stu-id="4daf2-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
     
-- <span data-ttu-id="47cc6-112">Использование модуля Windows PowerShell для Lync Online</span><span class="sxs-lookup"><span data-stu-id="47cc6-112">Windows PowerShell Module for Lync Online</span></span>
+- <span data-ttu-id="4daf2-112">Использование модуля Windows PowerShell для Lync Online</span><span class="sxs-lookup"><span data-stu-id="4daf2-112">Windows PowerShell Module for Lync Online</span></span>
     
-- <span data-ttu-id="47cc6-113">Перезагрузка при необходимости</span><span class="sxs-lookup"><span data-stu-id="47cc6-113">Reboot if needed</span></span>
+- <span data-ttu-id="4daf2-113">Перезагрузка при необходимости</span><span class="sxs-lookup"><span data-stu-id="4daf2-113">Reboot if needed</span></span>
     
 ```
 # Note you have to enter each command one at a time and update any bold fields for your environment

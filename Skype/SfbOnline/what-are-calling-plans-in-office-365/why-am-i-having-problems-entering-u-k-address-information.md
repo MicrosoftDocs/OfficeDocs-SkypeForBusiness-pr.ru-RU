@@ -1,5 +1,5 @@
 ---
-title: Почему возникают проблемы, введя Соединенное Королевство сведения об адресе?
+title: Почему у меня возникают проблемы при входе в Великобритания Информация об адресе
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,104 +20,104 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: Ниже приведены некоторые причины, почему может не получается адрес или адреса для проверки правильности в Соединенное Королевство (Великобритания).
-ms.openlocfilehash: dafc6608f45393ccc0a39ecdb2c01e2479ec630b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ниже приведены некоторые причины, по которым может возникнуть проблема с подключением вашего адреса или адреса для правильной проверки правильности в Великобритании (Великобритания).
+ms.openlocfilehash: e710f2ef502bb264677bc89d5cdebb2584d48679
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227817"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290691"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a><span data-ttu-id="d021f-104">Почему возникают проблемы, введя Соединенное Королевство</span><span class="sxs-lookup"><span data-stu-id="d021f-104">Why am I having problems entering U.K.</span></span> <span data-ttu-id="d021f-105">сведения об адресе?</span><span class="sxs-lookup"><span data-stu-id="d021f-105">address information?</span></span>
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a><span data-ttu-id="65e9c-104">Почему у меня возникают проблемы при входе в Великобритания</span><span class="sxs-lookup"><span data-stu-id="65e9c-104">Why am I having problems entering U.K.</span></span> <span data-ttu-id="65e9c-105">Информация об адресе</span><span class="sxs-lookup"><span data-stu-id="65e9c-105">address information?</span></span>
 
-<span data-ttu-id="d021f-106">Ниже приведены некоторые причины, почему может не получается адрес или адреса для проверки правильности в Соединенное Королевство (Великобритания).</span><span class="sxs-lookup"><span data-stu-id="d021f-106">Here are some reasons why you may be having problems getting your address or addresses to validate correctly in the United Kingdom (U.K.).</span></span>
+<span data-ttu-id="65e9c-106">Ниже приведены некоторые причины, по которым может возникнуть проблема с подключением вашего адреса или адреса для правильной проверки правильности в Великобритании (Великобритания).</span><span class="sxs-lookup"><span data-stu-id="65e9c-106">Here are some reasons why you may be having problems getting your address or addresses to validate correctly in the United Kingdom (U.K.).</span></span>
   
-## <a name="whats-wrong-with-the-company-name"></a><span data-ttu-id="d021f-107">Что происходит в название компании?</span><span class="sxs-lookup"><span data-stu-id="d021f-107">What's wrong with the company name?</span></span>
+## <a name="whats-wrong-with-the-company-name"></a><span data-ttu-id="65e9c-107">Что не так с названием компании?</span><span class="sxs-lookup"><span data-stu-id="65e9c-107">What's wrong with the company name?</span></span>
 
-<span data-ttu-id="d021f-108">Если возникли проблемы, введя имя компании, не забудьте:</span><span class="sxs-lookup"><span data-stu-id="d021f-108">If you are having a problem entering the company name, remember:</span></span>
+<span data-ttu-id="65e9c-108">Если у вас возникла проблема с вводом названия компании, помните:</span><span class="sxs-lookup"><span data-stu-id="65e9c-108">If you are having a problem entering the company name, remember:</span></span>
   
-- <span data-ttu-id="d021f-109">Он может иметь буквы, цифры и следующие специальные символы:, аудио- и - +.</span><span class="sxs-lookup"><span data-stu-id="d021f-109">It can have letters, numbers, and the following special characters: , / - + .</span></span> <span data-ttu-id="d021f-110">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="d021f-110"></span></span> 
+- <span data-ttu-id="65e9c-109">Она может содержать буквы, цифры и следующие специальные символы:,/-+.</span><span class="sxs-lookup"><span data-stu-id="65e9c-109">It can have letters, numbers, and the following special characters: , / - + .</span></span> <span data-ttu-id="65e9c-110">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="65e9c-110"></span></span> 
     
     > [!CAUTION]
-    > <span data-ttu-id="d021f-111">В Соединенное Королевство (Великобритания), не могут иметь имя компании + входа.</span><span class="sxs-lookup"><span data-stu-id="d021f-111">In the United Kingdom (U.K.), the company name can't have the + sign.</span></span> 
+    > <span data-ttu-id="65e9c-111">В Великобритании (Великобритания) название компании не может содержать символ +.</span><span class="sxs-lookup"><span data-stu-id="65e9c-111">In the United Kingdom (U.K.), the company name can't have the + sign.</span></span> 
   
-- <span data-ttu-id="d021f-112">Она должна быть 80 знаков или меньше.</span><span class="sxs-lookup"><span data-stu-id="d021f-112">It has to be 80 characters or less.</span></span>
+- <span data-ttu-id="65e9c-112">Оно должно состоять не более чем из 80 знаков.</span><span class="sxs-lookup"><span data-stu-id="65e9c-112">It has to be 80 characters or less.</span></span>
     
-- <span data-ttu-id="d021f-113">Не может начинаться с символов.</span><span class="sxs-lookup"><span data-stu-id="d021f-113">It can't start with a special character.</span></span>
+- <span data-ttu-id="65e9c-113">Она не может начинаться со специального символа.</span><span class="sxs-lookup"><span data-stu-id="65e9c-113">It can't start with a special character.</span></span>
     
-## <a name="whats-wrong-with-the-house-number"></a><span data-ttu-id="d021f-114">Что происходит в номер дома?</span><span class="sxs-lookup"><span data-stu-id="d021f-114">What's wrong with the house number?</span></span>
+## <a name="whats-wrong-with-the-house-number"></a><span data-ttu-id="65e9c-114">В чем заключается номер дома?</span><span class="sxs-lookup"><span data-stu-id="65e9c-114">What's wrong with the house number?</span></span>
 
-<span data-ttu-id="d021f-115">Если возникли проблемы, введя номер дома, не забудьте:</span><span class="sxs-lookup"><span data-stu-id="d021f-115">If you are having a problem entering the house number, remember:</span></span>
+<span data-ttu-id="65e9c-115">Если у вас возникли проблемы с входом в номер дома, помните:</span><span class="sxs-lookup"><span data-stu-id="65e9c-115">If you are having a problem entering the house number, remember:</span></span>
   
-- <span data-ttu-id="d021f-116">Он может иметь буквы, цифры и следующих специальных символов:-/]</span><span class="sxs-lookup"><span data-stu-id="d021f-116">It can have letters, numbers, and the following special characters: - / [ ]</span></span>
+- <span data-ttu-id="65e9c-116">Она может содержать буквы, цифры и следующие специальные символы:-/[]</span><span class="sxs-lookup"><span data-stu-id="65e9c-116">It can have letters, numbers, and the following special characters: - / [ ]</span></span>
     
-- <span data-ttu-id="d021f-117">Он должен начинаться с цифры.</span><span class="sxs-lookup"><span data-stu-id="d021f-117">It has to start with a number.</span></span>
+- <span data-ttu-id="65e9c-117">Она должна начинаться с цифры.</span><span class="sxs-lookup"><span data-stu-id="65e9c-117">It has to start with a number.</span></span>
     
-- <span data-ttu-id="d021f-118">Она должна быть 20 знаков или меньше.</span><span class="sxs-lookup"><span data-stu-id="d021f-118">It has to be 20 characters or less.</span></span>
+- <span data-ttu-id="65e9c-118">Оно должно состоять не менее чем из 20 символов.</span><span class="sxs-lookup"><span data-stu-id="65e9c-118">It has to be 20 characters or less.</span></span>
     
-- <span data-ttu-id="d021f-119">Он может иметь прописные или строчные буквы.</span><span class="sxs-lookup"><span data-stu-id="d021f-119">It can have a capital or lowercase letter.</span></span>
+- <span data-ttu-id="65e9c-119">Он может иметь прописную или строчную букву.</span><span class="sxs-lookup"><span data-stu-id="65e9c-119">It can have a capital or lowercase letter.</span></span>
     
-## <a name="whats-wrong-with-the-house-name"></a><span data-ttu-id="d021f-120">Что такое неверный с именем house?</span><span class="sxs-lookup"><span data-stu-id="d021f-120">What's wrong with the house name?</span></span>
+## <a name="whats-wrong-with-the-house-name"></a><span data-ttu-id="65e9c-120">Что не так с названием дома?</span><span class="sxs-lookup"><span data-stu-id="65e9c-120">What's wrong with the house name?</span></span>
 
-<span data-ttu-id="d021f-121">Если возникли проблемы, введя имя дома, не забудьте:</span><span class="sxs-lookup"><span data-stu-id="d021f-121">If you are having a problem entering the house name, remember:</span></span>
+<span data-ttu-id="65e9c-121">Если у вас возникли проблемы при вводе названия дома, помните:</span><span class="sxs-lookup"><span data-stu-id="65e9c-121">If you are having a problem entering the house name, remember:</span></span>
   
-- <span data-ttu-id="d021f-122">Он может иметь только буквы, цифры и следующих специальных символов:, аудио- и - +.</span><span class="sxs-lookup"><span data-stu-id="d021f-122">It can have letters, numbers and the following special characters : , / - + .</span></span> <span data-ttu-id="d021f-123">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="d021f-123"></span></span>
+- <span data-ttu-id="65e9c-122">Она может содержать буквы, цифры и следующие специальные символы:,/-+.</span><span class="sxs-lookup"><span data-stu-id="65e9c-122">It can have letters, numbers and the following special characters : , / - + .</span></span> <span data-ttu-id="65e9c-123">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="65e9c-123"></span></span>
     
-- <span data-ttu-id="d021f-124">Она должна быть 50 знаков или меньше.</span><span class="sxs-lookup"><span data-stu-id="d021f-124">It has to be 50 characters or less.</span></span>
+- <span data-ttu-id="65e9c-124">Оно должно состоять не более чем из 50 знаков.</span><span class="sxs-lookup"><span data-stu-id="65e9c-124">It has to be 50 characters or less.</span></span>
     
-- <span data-ttu-id="d021f-125">Не может начинаться с символов.</span><span class="sxs-lookup"><span data-stu-id="d021f-125">It can't start with a special character.</span></span>
+- <span data-ttu-id="65e9c-125">Она не может начинаться со специального символа.</span><span class="sxs-lookup"><span data-stu-id="65e9c-125">It can't start with a special character.</span></span>
     
-## <a name="whats-wrong-with-the-street-name"></a><span data-ttu-id="d021f-126">Что происходит в название улицы?</span><span class="sxs-lookup"><span data-stu-id="d021f-126">What's wrong with the street name?</span></span>
+## <a name="whats-wrong-with-the-street-name"></a><span data-ttu-id="65e9c-126">Что не так с названием улицы?</span><span class="sxs-lookup"><span data-stu-id="65e9c-126">What's wrong with the street name?</span></span>
 
-<span data-ttu-id="d021f-127">Если возникли проблемы, введя название улицы, не забудьте:</span><span class="sxs-lookup"><span data-stu-id="d021f-127">If you are having a problem entering the street name, remember:</span></span>
+<span data-ttu-id="65e9c-127">Если при вводе названия улицы возникла проблема, помните:</span><span class="sxs-lookup"><span data-stu-id="65e9c-127">If you are having a problem entering the street name, remember:</span></span>
   
-- <span data-ttu-id="d021f-128">Он может иметь буквы, цифры и следующие специальные символы:, аудио- и - +.</span><span class="sxs-lookup"><span data-stu-id="d021f-128">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="d021f-129">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="d021f-129"></span></span> 
+- <span data-ttu-id="65e9c-128">Она может содержать буквы, цифры и следующие специальные символы:,/-+.</span><span class="sxs-lookup"><span data-stu-id="65e9c-128">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="65e9c-129">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="65e9c-129"></span></span> 
     
-- <span data-ttu-id="d021f-130">Она должна быть 50 знаков или меньше.</span><span class="sxs-lookup"><span data-stu-id="d021f-130">It has to be 50 characters or less.</span></span>
+- <span data-ttu-id="65e9c-130">Оно должно состоять не более чем из 50 знаков.</span><span class="sxs-lookup"><span data-stu-id="65e9c-130">It has to be 50 characters or less.</span></span>
     
-- <span data-ttu-id="d021f-131">Не может начинаться с символов.</span><span class="sxs-lookup"><span data-stu-id="d021f-131">It can't start with a special character.</span></span> 
+- <span data-ttu-id="65e9c-131">Она не может начинаться со специального символа.</span><span class="sxs-lookup"><span data-stu-id="65e9c-131">It can't start with a special character.</span></span> 
     
-## <a name="whats-wrong-with-the-city-or-town"></a><span data-ttu-id="d021f-132">Что происходит в города?</span><span class="sxs-lookup"><span data-stu-id="d021f-132">What's wrong with the city or town?</span></span>
+## <a name="whats-wrong-with-the-city-or-town"></a><span data-ttu-id="65e9c-132">Почему в городе или городе возникли проблемы?</span><span class="sxs-lookup"><span data-stu-id="65e9c-132">What's wrong with the city or town?</span></span>
 
-<span data-ttu-id="d021f-133">Если возникли проблемы, введя имя города, не забудьте:</span><span class="sxs-lookup"><span data-stu-id="d021f-133">If you are having a problem entering the name of the city or town, remember:</span></span>
+<span data-ttu-id="65e9c-133">Если у вас возникают проблемы с вводом названия города или населенного пункта, помните:</span><span class="sxs-lookup"><span data-stu-id="65e9c-133">If you are having a problem entering the name of the city or town, remember:</span></span>
   
-- <span data-ttu-id="d021f-134">Он может иметь буквы, цифры и следующие специальные символы:, аудио- и - +.</span><span class="sxs-lookup"><span data-stu-id="d021f-134">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="d021f-135">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="d021f-135"></span></span>
+- <span data-ttu-id="65e9c-134">Она может содержать буквы, цифры и следующие специальные символы:,/-+.</span><span class="sxs-lookup"><span data-stu-id="65e9c-134">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="65e9c-135">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="65e9c-135"></span></span>
     
-- <span data-ttu-id="d021f-136">Она должна быть 50 знаков или меньше.</span><span class="sxs-lookup"><span data-stu-id="d021f-136">It has to be 50 characters or less.</span></span>
+- <span data-ttu-id="65e9c-136">Оно должно состоять не более чем из 50 знаков.</span><span class="sxs-lookup"><span data-stu-id="65e9c-136">It has to be 50 characters or less.</span></span>
     
-- <span data-ttu-id="d021f-137">Не может начинаться с символов.</span><span class="sxs-lookup"><span data-stu-id="d021f-137">It can't start with a special character.</span></span> 
+- <span data-ttu-id="65e9c-137">Она не может начинаться со специального символа.</span><span class="sxs-lookup"><span data-stu-id="65e9c-137">It can't start with a special character.</span></span> 
     
-## <a name="whats-wrong-with-the-postal-code"></a><span data-ttu-id="d021f-138">Что происходит в почтовый индекс?</span><span class="sxs-lookup"><span data-stu-id="d021f-138">What's wrong with the postal code?</span></span>
+## <a name="whats-wrong-with-the-postal-code"></a><span data-ttu-id="65e9c-138">В чем заключается ошибка почтового индекса?</span><span class="sxs-lookup"><span data-stu-id="65e9c-138">What's wrong with the postal code?</span></span>
 
-<span data-ttu-id="d021f-139">Если возникли проблемы, введя почтовый индекс, не забудьте:</span><span class="sxs-lookup"><span data-stu-id="d021f-139">If you are having a problem entering the postal code, remember:</span></span>
+<span data-ttu-id="65e9c-139">Если при вводе почтового индекса возникли проблемы, помните:</span><span class="sxs-lookup"><span data-stu-id="65e9c-139">If you are having a problem entering the postal code, remember:</span></span>
   
-- <span data-ttu-id="d021f-140">Он может иметь только буквы, числа или пробелов.</span><span class="sxs-lookup"><span data-stu-id="d021f-140">It can only have letters, numbers, or spaces.</span></span>
+- <span data-ttu-id="65e9c-140">Оно может содержать только буквы, цифры или пробелы.</span><span class="sxs-lookup"><span data-stu-id="65e9c-140">It can only have letters, numbers, or spaces.</span></span>
     
-- <span data-ttu-id="d021f-141">Он должен иметь не более 8 букв, включая номера и пробелов.</span><span class="sxs-lookup"><span data-stu-id="d021f-141">It has to have 8 or less letters, including numbers and spaces.</span></span>
+- <span data-ttu-id="65e9c-141">Оно должно содержать не более 8 букв, в том числе цифр и пробелов.</span><span class="sxs-lookup"><span data-stu-id="65e9c-141">It has to have 8 or less letters, including numbers and spaces.</span></span>
     
-- <span data-ttu-id="d021f-142">**Помните, что если пользователь находится в Соединенное Королевство (Великобритания)**, **необходимо** поместить почтовый индекс, в одном из следующих форматов где буква A = знаков A-Z, знак # = число в диапазоне от 0 до 9, а _ (знак подчеркивания) = пробел.</span><span class="sxs-lookup"><span data-stu-id="d021f-142">**Remember that if you are in the United Kingdom (U.K.)**, you **must** put the postal code in one of the following formats, where the letter A = character A-Z, the # sign = a number from 0-9, and the _ (underscore) = a blank space.</span></span> <span data-ttu-id="d021f-143">Вот несколько примеров:</span><span class="sxs-lookup"><span data-stu-id="d021f-143">Here are some examples:</span></span>
+- <span data-ttu-id="65e9c-142">**Помните, что если вы используете Великобритания (Великобритания)**, вы **должны** поставить почтовый индекс в одном из следующих форматов, где буква a = символ a-Z, знак # = a, число из 0-9, а _ (подчеркивание) — пустое пространство.</span><span class="sxs-lookup"><span data-stu-id="65e9c-142">**Remember that if you are in the United Kingdom (U.K.)**, you **must** put the postal code in one of the following formats, where the letter A = character A-Z, the # sign = a number from 0-9, and the _ (underscore) = a blank space.</span></span> <span data-ttu-id="65e9c-143">Вот несколько примеров:</span><span class="sxs-lookup"><span data-stu-id="65e9c-143">Here are some examples:</span></span>
     
-|<span data-ttu-id="d021f-144">**Формат**</span><span class="sxs-lookup"><span data-stu-id="d021f-144">**Format**</span></span>|<span data-ttu-id="d021f-145">**Пример**</span><span class="sxs-lookup"><span data-stu-id="d021f-145">**Example**</span></span>|
+|<span data-ttu-id="65e9c-144">**Формате**</span><span class="sxs-lookup"><span data-stu-id="65e9c-144">**Format**</span></span>|<span data-ttu-id="65e9c-145">**Пример**</span><span class="sxs-lookup"><span data-stu-id="65e9c-145">**Example**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="d021f-146">AA #A_ #AA</span><span class="sxs-lookup"><span data-stu-id="d021f-146">AA#A_#AA</span></span>  <br/> |<span data-ttu-id="d021f-147">EC3B 2BD</span><span class="sxs-lookup"><span data-stu-id="d021f-147">EC3B 2BD</span></span>  <br/> |
-|<span data-ttu-id="d021f-148">#A_ #AA</span><span class="sxs-lookup"><span data-stu-id="d021f-148">A#A_#AA</span></span>  <br/> |<span data-ttu-id="d021f-149">E1W 1AP</span><span class="sxs-lookup"><span data-stu-id="d021f-149">E1W 1AP</span></span>  <br/> |
-|<span data-ttu-id="d021f-150">#_ #AA</span><span class="sxs-lookup"><span data-stu-id="d021f-150">A#_#AA</span></span>  <br/> |<span data-ttu-id="d021f-151">F1 2AG</span><span class="sxs-lookup"><span data-stu-id="d021f-151">F1 2AG</span></span>  <br/> |
-|<span data-ttu-id="d021f-152">## _ #AA</span><span class="sxs-lookup"><span data-stu-id="d021f-152">A##_#AA</span></span>  <br/> |<span data-ttu-id="d021f-153">C44 8HT</span><span class="sxs-lookup"><span data-stu-id="d021f-153">C44 8HT</span></span>  <br/> |
-|<span data-ttu-id="d021f-154">AA #_ #AA</span><span class="sxs-lookup"><span data-stu-id="d021f-154">AA#_#AA</span></span>  <br/> |<span data-ttu-id="d021f-155">DR3 6 РЕЖИМЕ HP</span><span class="sxs-lookup"><span data-stu-id="d021f-155">DR3 6HG</span></span>  <br/> |
-|<span data-ttu-id="d021f-156">AA ## _ #AA</span><span class="sxs-lookup"><span data-stu-id="d021f-156">AA##_#AA</span></span>  <br/> |<span data-ttu-id="d021f-157">FN35 НОЙ</span><span class="sxs-lookup"><span data-stu-id="d021f-157">FN35 1TH</span></span>  <br/> |
+|<span data-ttu-id="65e9c-146">AA # А_ # AA</span><span class="sxs-lookup"><span data-stu-id="65e9c-146">AA#A_#AA</span></span>  <br/> |<span data-ttu-id="65e9c-147">EC3B 2BD</span><span class="sxs-lookup"><span data-stu-id="65e9c-147">EC3B 2BD</span></span>  <br/> |
+|<span data-ttu-id="65e9c-148"># А_ # AA</span><span class="sxs-lookup"><span data-stu-id="65e9c-148">A#A_#AA</span></span>  <br/> |<span data-ttu-id="65e9c-149">E1W 1AP</span><span class="sxs-lookup"><span data-stu-id="65e9c-149">E1W 1AP</span></span>  <br/> |
+|<span data-ttu-id="65e9c-150"># _ # AA</span><span class="sxs-lookup"><span data-stu-id="65e9c-150">A#_#AA</span></span>  <br/> |<span data-ttu-id="65e9c-151">КЛАВИША F1 2AG</span><span class="sxs-lookup"><span data-stu-id="65e9c-151">F1 2AG</span></span>  <br/> |
+|<span data-ttu-id="65e9c-152"># #_ # AA</span><span class="sxs-lookup"><span data-stu-id="65e9c-152">A##_#AA</span></span>  <br/> |<span data-ttu-id="65e9c-153">C44 8HT</span><span class="sxs-lookup"><span data-stu-id="65e9c-153">C44 8HT</span></span>  <br/> |
+|<span data-ttu-id="65e9c-154">AA # _ # AA</span><span class="sxs-lookup"><span data-stu-id="65e9c-154">AA#_#AA</span></span>  <br/> |<span data-ttu-id="65e9c-155">DR3 6HG</span><span class="sxs-lookup"><span data-stu-id="65e9c-155">DR3 6HG</span></span>  <br/> |
+|<span data-ttu-id="65e9c-156">AA # #_ # AA</span><span class="sxs-lookup"><span data-stu-id="65e9c-156">AA##_#AA</span></span>  <br/> |<span data-ttu-id="65e9c-157">FN35 1TH</span><span class="sxs-lookup"><span data-stu-id="65e9c-157">FN35 1TH</span></span>  <br/> |
 
 > [!NOTE]
-> <span data-ttu-id="d021f-158">Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="d021f-158">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="65e9c-158">Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="65e9c-158">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
    
-## <a name="related-topics"></a><span data-ttu-id="d021f-159">См. также:</span><span class="sxs-lookup"><span data-stu-id="d021f-159">Related topics</span></span>
-[<span data-ttu-id="d021f-160">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="d021f-160">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="65e9c-159">См. также:</span><span class="sxs-lookup"><span data-stu-id="65e9c-159">Related topics</span></span>
+[<span data-ttu-id="65e9c-160">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="65e9c-160">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="d021f-161">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="d021f-161">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="65e9c-161">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="65e9c-161">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="d021f-162">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="d021f-162">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="65e9c-162">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="65e9c-162">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="d021f-163">[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="d021f-163">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="65e9c-163">[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="65e9c-163">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  

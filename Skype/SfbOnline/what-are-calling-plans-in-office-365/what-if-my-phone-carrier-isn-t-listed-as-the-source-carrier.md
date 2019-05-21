@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,34 +20,34 @@ f1keywords:
 - ms.lync.lac.PortOrderDetailPanelWhois
 ms.custom:
 - Calling Plans
-description: 'Узнайте, что делать, если нет в списке своего оператора в Скайп для бизнеса. '
-ms.openlocfilehash: 638d222231ca0f092684ebde2fab74cc034af70c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Сведения о том, что делать, если ваша перевозчик не указан в Skype для бизнеса. '
+ms.openlocfilehash: e882a376c8f7b0baf07c42e71c03a84acc16b4c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229655"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290809"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a><span data-ttu-id="88b9e-103">Что делать, если моего оператора нет в списке?</span><span class="sxs-lookup"><span data-stu-id="88b9e-103">What if my phone carrier isn't listed as the source carrier?</span></span>
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a><span data-ttu-id="fab94-103">Что делать, если моего оператора нет в списке?</span><span class="sxs-lookup"><span data-stu-id="fab94-103">What if my phone carrier isn't listed as the source carrier?</span></span>
 
-<span data-ttu-id="88b9e-104">Это немного путаницу при появлении, что имя вашего поставщика нет в списке.</span><span class="sxs-lookup"><span data-stu-id="88b9e-104">It's a little confusing when you see that the name of your carrier isn't listed.</span></span> <span data-ttu-id="88b9e-105">В большинстве случаев Если поставщик услуг или поставщика нет в списке, скорее всего, что номера телефонов, на которого переключается через принадлежащие другого поставщика услуг или поставщика.</span><span class="sxs-lookup"><span data-stu-id="88b9e-105">In most cases, if the service provider or carrier is different, chances are that the phone numbers you are transferring over are owned by a different service provider or carrier.</span></span> <span data-ttu-id="88b9e-106">Может быть время, когда поставщик услуг или поставщика, который указан может отличаться от текущего поставщика услуг поскольку текущего поставщика услуг может работать с поставщиком услуг сторонних производителей.</span><span class="sxs-lookup"><span data-stu-id="88b9e-106">There can be times when the service provider or carrier that is listed could be different from your current service provider because your current service provider may be working with a third-party service provider.</span></span> 
+<span data-ttu-id="fab94-104">Если вы видите, что имя оператора не указано в списке, это немного запутанно.</span><span class="sxs-lookup"><span data-stu-id="fab94-104">It's a little confusing when you see that the name of your carrier isn't listed.</span></span> <span data-ttu-id="fab94-105">В большинстве случаев, если поставщик услуг или оператор перевозчика отличаются, вероятно, что ваши номера телефонов, на которые вы перемещаете, принадлежат разным поставщикам услуг или операторам.</span><span class="sxs-lookup"><span data-stu-id="fab94-105">In most cases, if the service provider or carrier is different, chances are that the phone numbers you are transferring over are owned by a different service provider or carrier.</span></span> <span data-ttu-id="fab94-106">Это может быть вызвано тем, что поставщик услуг или оператор, который указан в списке, могут отличаться от поставщика услуг, так как ваш текущий поставщик услуг может работать с сторонним поставщиком услуг.</span><span class="sxs-lookup"><span data-stu-id="fab94-106">There can be times when the service provider or carrier that is listed could be different from your current service provider because your current service provider may be working with a third-party service provider.</span></span> 
   
-<span data-ttu-id="88b9e-107">Пример:</span><span class="sxs-lookup"><span data-stu-id="88b9e-107">An example:</span></span>
+<span data-ttu-id="fab94-107">Пример:</span><span class="sxs-lookup"><span data-stu-id="fab94-107">An example:</span></span>
   
-- <span data-ttu-id="88b9e-108">При переносе номер из Скайп для бизнеса как своего оператора может появиться Level3 из списка.</span><span class="sxs-lookup"><span data-stu-id="88b9e-108">If you are porting number from Skype for Business as your carrier, you might see Level3 listed.</span></span>
+- <span data-ttu-id="fab94-108">Если вы используете номер переноса из Skype для бизнеса в качестве перевозчика, вы можете увидеть Level3 в списке.</span><span class="sxs-lookup"><span data-stu-id="fab94-108">If you are porting number from Skype for Business as your carrier, you might see Level3 listed.</span></span>
     
-  <span data-ttu-id="88b9e-109">**Подробные пошаговые инструкции в разделе [Передача телефонных номеров в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span><span class="sxs-lookup"><span data-stu-id="88b9e-109">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
+  <span data-ttu-id="fab94-109">**Полные пошаговые инструкции можно найти [в статье перенос номеров телефонов в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span><span class="sxs-lookup"><span data-stu-id="fab94-109">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="88b9e-110">Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="88b9e-110">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+    > <span data-ttu-id="fab94-110">Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="fab94-110">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="88b9e-111">См. также:</span><span class="sxs-lookup"><span data-stu-id="88b9e-111">Related topics</span></span>
-[<span data-ttu-id="88b9e-112">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="88b9e-112">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="fab94-111">См. также:</span><span class="sxs-lookup"><span data-stu-id="fab94-111">Related topics</span></span>
+[<span data-ttu-id="fab94-112">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="fab94-112">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="88b9e-113">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="88b9e-113">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="fab94-113">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="fab94-113">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="88b9e-114">[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="88b9e-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="fab94-114">[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="fab94-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  

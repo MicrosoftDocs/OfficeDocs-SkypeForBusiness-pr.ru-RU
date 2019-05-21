@@ -4,47 +4,47 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'Федерация XMPP определяет внешний развертывания, основываясь на расширяемой системы обмена сообщениями и присутствия протокола XMPP. Конфигурации XMPP позволяет пользователям получить доступ к пользователей домена XMPP с:'
-ms.openlocfilehash: 65ef8904660eaa75ddd10238a6561ea91b9f7278
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'КСМПП Федерация определяет внешнее развертывание на основе расширяемого протокола обмена сообщениями и присутствия (КСМПП). Конфигурация КСМПП позволяет пользователям получать доступ к КСМПП доменам, выполнив следующие действия:'
+ms.openlocfilehash: c5231016729cd40619bbcfe48ebfcf59eff9182a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238663"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275575"
 ---
-# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a><span data-ttu-id="64908-104">Настройка политик доступа и сертификатов шлюза XMPP</span><span class="sxs-lookup"><span data-stu-id="64908-104">Configure XMPP gateway access policies and certificates</span></span>
+# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a><span data-ttu-id="e8f1f-104">Настройка политик доступа и сертификатов шлюза XMPP</span><span class="sxs-lookup"><span data-stu-id="e8f1f-104">Configure XMPP gateway access policies and certificates</span></span>
 
-<span data-ttu-id="64908-105">Федерация XMPP определяет внешний развертывания, основываясь на расширяемой системы обмена сообщениями и присутствия протокола XMPP.</span><span class="sxs-lookup"><span data-stu-id="64908-105">XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP).</span></span> <span data-ttu-id="64908-106">Конфигурации XMPP позволяет пользователям получить доступ к пользователей домена XMPP с:</span><span class="sxs-lookup"><span data-stu-id="64908-106">An XMPP configuration allows users access to XMPP domain users by:</span></span>
+<span data-ttu-id="e8f1f-105">КСМПП Федерация определяет внешнее развертывание на основе расширяемого протокола обмена сообщениями и присутствия (КСМПП).</span><span class="sxs-lookup"><span data-stu-id="e8f1f-105">XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP).</span></span> <span data-ttu-id="e8f1f-106">Конфигурация КСМПП позволяет пользователям получать доступ к КСМПП доменам, выполнив следующие действия:</span><span class="sxs-lookup"><span data-stu-id="e8f1f-106">An XMPP configuration allows users access to XMPP domain users by:</span></span>
   
-- <span data-ttu-id="64908-107">Обмен мгновенными Сообщениями и сведениями о присутствии — только в двустороннем режиме</span><span class="sxs-lookup"><span data-stu-id="64908-107">IM and Presence - person to person only</span></span>
+- <span data-ttu-id="e8f1f-107">Обмен сообщениями и присутствие — человек только для человека</span><span class="sxs-lookup"><span data-stu-id="e8f1f-107">IM and Presence - person to person only</span></span>
     
-- <span data-ttu-id="64908-108">Создание федеративных XMPP контактов в Скайп для бизнеса клиента</span><span class="sxs-lookup"><span data-stu-id="64908-108">Creation of XMPP federated contacts in the Skype for Business client</span></span>
+- <span data-ttu-id="e8f1f-108">Создание федеративных контактов КСМПП в клиенте Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="e8f1f-108">Creation of XMPP federated contacts in the Skype for Business client</span></span>
     
-<span data-ttu-id="64908-109">При настройке политик для поддержки XMPP федеративных партнеров, политики применяются к пользователям XMPP федеративных доменов, но не для пользователей из сеанса initiation protocol (SIP), обмен мгновенными сообщениями службы обмена Мгновенными сообщениями поставщики или SIP федеративных доменов.</span><span class="sxs-lookup"><span data-stu-id="64908-109">When you configure policies for support of XMPP federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers, or SIP federated domains.</span></span> <span data-ttu-id="64908-110">Настройка федеративного партнера XMPP для каждого федеративного домена XMPP, чтобы разрешить пользователям добавлять контакты и общаться с.</span><span class="sxs-lookup"><span data-stu-id="64908-110">You configure an XMPP federated partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with.</span></span> <span data-ttu-id="64908-111">Как только они на месте, необходимо настроить сертификатов шлюза XMPP.</span><span class="sxs-lookup"><span data-stu-id="64908-111">Once the policies are in place, you need to configure the XMPP Gateway certificates.</span></span> 
+<span data-ttu-id="e8f1f-109">При настройке политик для поддержки федеративных партнеров КСМПП политики применяются к пользователям КСМПП федеративных доменов, но не к пользователям служб мгновенных сообщений в протоколе SIP и Федеративных доменам SIP.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-109">When you configure policies for support of XMPP federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers, or SIP federated domains.</span></span> <span data-ttu-id="e8f1f-110">Вы настраиваете федеративного партнера КСМПП для каждого КСМПП федеративного домена, с которым вы хотите разрешить пользователям добавлять контакты и взаимодействовать с ними.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-110">You configure an XMPP federated partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with.</span></span> <span data-ttu-id="e8f1f-111">После того как политики будут установлены, необходимо настроить сертификаты шлюза КСМПП.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-111">Once the policies are in place, you need to configure the XMPP Gateway certificates.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="64908-112">Функциональные возможности XMPP рекомендуется использовать в Скайп для Business Server 2019, но может быть продолжен в устаревшем сервере в режиме сосуществования с Скайп для Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="64908-112">XMPP functionality is deprecated in Skype for Business Server 2019, but can be continued in a legacy server in coexistence with Skype for Business Server 2019.</span></span> <span data-ttu-id="64908-113">Убедитесь, что вы уже развернули устаревшего сервера (Скайп для Business Server 2015 и Lync Server 2013) шлюза XMPP и настройки политики доступа, чтобы включить пользователей для устаревших шлюза XMPP.</span><span class="sxs-lookup"><span data-stu-id="64908-113">Make sure you have already deployed the legacy server (Skype for Business Server 2015 / Lync Server 2013) XMPP Gateway, and configured the access policies to enable users for legacy XMPP Gateway.</span></span> <span data-ttu-id="64908-114">Дополнительные сведения см [Перенос федерации XMPP](migrating-xmpp-federation.md).</span><span class="sxs-lookup"><span data-stu-id="64908-114">For details, see [Migrating XMPP Federation](migrating-xmpp-federation.md).</span></span> 
+> <span data-ttu-id="e8f1f-112">Функции КСМПП не рекомендуются в Skype для бизнеса Server 2019, но их можно продолжать использовать на устаревшем сервере в Skype для бизнеса Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-112">XMPP functionality is deprecated in Skype for Business Server 2019, but can be continued in a legacy server in coexistence with Skype for Business Server 2019.</span></span> <span data-ttu-id="e8f1f-113">Убедитесь в том, что вы уже развернули старый сервер (Skype для бизнеса Server 2015/Lync Server 2013) КСМПП Gateway и настроили политики доступа, чтобы разрешить пользователям устаревших шлюзов КСМПП.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-113">Make sure you have already deployed the legacy server (Skype for Business Server 2015 / Lync Server 2013) XMPP Gateway, and configured the access policies to enable users for legacy XMPP Gateway.</span></span> <span data-ttu-id="e8f1f-114">Подробности можно найти в разделе [Миграция Федерации КСМПП](migrating-xmpp-federation.md).</span><span class="sxs-lookup"><span data-stu-id="e8f1f-114">For details, see [Migrating XMPP Federation](migrating-xmpp-federation.md).</span></span> 
   
-### <a name="configure-an-external-access-policy-to-enable-users-for-legacy-xmpp-gateway"></a><span data-ttu-id="64908-115">Настройте политику внешнего доступа, чтобы разрешить пользователям для устаревших шлюза XMPP</span><span class="sxs-lookup"><span data-stu-id="64908-115">Configure an External Access Policy to Enable Users for legacy XMPP Gateway</span></span>
+### <a name="configure-an-external-access-policy-to-enable-users-for-legacy-xmpp-gateway"></a><span data-ttu-id="e8f1f-115">Настройка политики внешнего доступа для предоставления пользователям устаревшего шлюза КСМПП</span><span class="sxs-lookup"><span data-stu-id="e8f1f-115">Configure an External Access Policy to Enable Users for legacy XMPP Gateway</span></span>
 
-1. <span data-ttu-id="64908-116">Откройте прежних версий Скайп для панели управления Business Server.</span><span class="sxs-lookup"><span data-stu-id="64908-116">Open the legacy Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="e8f1f-116">Откройте стандартную панель управления Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-116">Open the legacy Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="64908-117">В левой панели навигации щелкните **Федерация и внешний доступ**и нажмите кнопку **Политика внешнего доступа**.</span><span class="sxs-lookup"><span data-stu-id="64908-117">In the left navigation bar, click **Federation and External Access**, and then click **External Access Policy**.</span></span>
+2. <span data-ttu-id="e8f1f-117">На панели навигации слева выберите пункт **интеграция и внешний доступ**, а затем — **Политика внешнего доступа**.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-117">In the left navigation bar, click **Federation and External Access**, and then click **External Access Policy**.</span></span>
     
-3. <span data-ttu-id="64908-118">Нажмите кнопку **Создать** и выберите **Политика пользователя**.</span><span class="sxs-lookup"><span data-stu-id="64908-118">Click **New**, and then click **User policy**.</span></span>
+3. <span data-ttu-id="e8f1f-118">Нажмите кнопку **Создать** и выберите **Политика пользователя**.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-118">Click **New**, and then click **User policy**.</span></span>
     
-4. <span data-ttu-id="64908-119">Введите имя для политики внешнего доступа пользователей.</span><span class="sxs-lookup"><span data-stu-id="64908-119">Enter a name for the external access user policy.</span></span>
+4. <span data-ttu-id="e8f1f-119">Введите имя для политики пользователей внешнего доступа.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-119">Enter a name for the external access user policy.</span></span>
     
-5. <span data-ttu-id="64908-120">Предоставьте описание политики внешнего доступа пользователей.</span><span class="sxs-lookup"><span data-stu-id="64908-120">Provide a description for external access user policy.</span></span>
+5. <span data-ttu-id="e8f1f-120">Введите описание для политики пользователей внешнего доступа.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-120">Provide a description for external access user policy.</span></span>
     
-6. <span data-ttu-id="64908-121">Установите флажок **Разрешить взаимодействие с федеративными пользователями**.</span><span class="sxs-lookup"><span data-stu-id="64908-121">Select **Enable communications with federated users**.</span></span>
+6. <span data-ttu-id="e8f1f-121">Выберите **включить связь с федеративными пользователями**.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-121">Select **Enable communications with federated users**.</span></span>
     
-7. <span data-ttu-id="64908-122">Выберите **Разрешить связь с федеративными XMPP пользователи**.</span><span class="sxs-lookup"><span data-stu-id="64908-122">Select **Enable communications with XMPP federated users**.</span></span>
+7. <span data-ttu-id="e8f1f-122">Выберите **включить связь с федеративными пользователями КСМПП**.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-122">Select **Enable communications with XMPP federated users**.</span></span>
     
-8. <span data-ttu-id="64908-123">Нажмите кнопку **зафиксировать** , чтобы сохранить изменения в политике сайта или пользователя.</span><span class="sxs-lookup"><span data-stu-id="64908-123">Click **Commit** to save your changes to the site or user policy.</span></span> 
+8. <span data-ttu-id="e8f1f-123">Нажмите \*\*\*\* кнопку Сохранить, чтобы сохранить изменения в политике сайта или пользователя.</span><span class="sxs-lookup"><span data-stu-id="e8f1f-123">Click **Commit** to save your changes to the site or user policy.</span></span> 
     
 

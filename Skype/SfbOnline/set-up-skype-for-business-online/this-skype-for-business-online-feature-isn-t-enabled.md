@@ -1,5 +1,5 @@
 ---
-title: В этом Скайп для бизнеса в Интернет функции не включена
+title: Функция Skype для бизнеса Online не включена
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,28 +19,28 @@ f1keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
-description: 'Найти возможные причины и предложений действие при получении Скайп для бизнеса в Интернет средство не включено ошибки. '
-ms.openlocfilehash: 0688bcc572c90c776bb1db6413825436f2ba8930
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Вы можете найти возможные причины и варианты действий при получении компонента Skype для бизнеса Online не включена ошибка. '
+ms.openlocfilehash: d819dacc777b4e6ef8f3adb9e6e7cab20a1be874
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237176"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285047"
 ---
-# <a name="this-skype-for-business-online-feature-isnt-enabled"></a><span data-ttu-id="91aa2-103">В этом Скайп для бизнеса в Интернет функции не включена</span><span class="sxs-lookup"><span data-stu-id="91aa2-103">This Skype for Business Online feature isn't enabled</span></span>
+# <a name="this-skype-for-business-online-feature-isnt-enabled"></a><span data-ttu-id="f25ce-103">Функция Skype для бизнеса Online не включена</span><span class="sxs-lookup"><span data-stu-id="f25ce-103">This Skype for Business Online feature isn't enabled</span></span>
 
-<span data-ttu-id="91aa2-104">К сожалению он выглядел, как пользователь не будет лицензии на этот компонент.</span><span class="sxs-lookup"><span data-stu-id="91aa2-104">Sorry, it looks like the user isn't licensed for this feature.</span></span>
+<span data-ttu-id="f25ce-104">Похоже, у пользователя нет лицензии на этот компонент.</span><span class="sxs-lookup"><span data-stu-id="f25ce-104">Sorry, it looks like the user isn't licensed for this feature.</span></span>
   
-|<span data-ttu-id="91aa2-105">**Возможные причины**</span><span class="sxs-lookup"><span data-stu-id="91aa2-105">**Possible cause**</span></span>|<span data-ttu-id="91aa2-106">**Предполагаемое действие**</span><span class="sxs-lookup"><span data-stu-id="91aa2-106">**Suggested action**</span></span>|
+|<span data-ttu-id="f25ce-105">**Возможная причина**</span><span class="sxs-lookup"><span data-stu-id="f25ce-105">**Possible cause**</span></span>|<span data-ttu-id="f25ce-106">**Предлагаемое действие**</span><span class="sxs-lookup"><span data-stu-id="f25ce-106">**Suggested action**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="91aa2-107">У вас есть доступных лицензий, но еще не включена функция для этого пользователя.</span><span class="sxs-lookup"><span data-stu-id="91aa2-107">You have licenses available, but you haven't turned on the feature for this user.</span></span>  <br/> |<span data-ttu-id="91aa2-108">Перейдите в **Центр администрирования Office 365** > **активных пользователей** , чтобы лицензировать этого пользователя.</span><span class="sxs-lookup"><span data-stu-id="91aa2-108">Go to the **Office 365 admin center** > **Active users** to license this user.</span></span> <br/> |
-|<span data-ttu-id="91aa2-109">Пользователь находится в расположение, где этот компонент не будет доступен.</span><span class="sxs-lookup"><span data-stu-id="91aa2-109">The user is in a location where this feature isn't available.</span></span>  <br/> |<span data-ttu-id="91aa2-110">Если это возможно, перейдите в **Центр администрирования Office 365** > **активных пользователей** и назначьте этого пользователя в место, где эта функция доступна.</span><span class="sxs-lookup"><span data-stu-id="91aa2-110">If possible, go to **Office 365 admin center** > **Active users** and assign this user to a location where the feature is available.</span></span> <br/> |
-|<span data-ttu-id="91aa2-111">Компонент не был включен для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="91aa2-111">The feature hasn't been turned on for your organization.</span></span>  <br/> |<span data-ttu-id="91aa2-112">Перейдите в **Центр администрирования Office 365** > **Скайп для бизнеса** и включить функцию для всей организации.</span><span class="sxs-lookup"><span data-stu-id="91aa2-112">Go to **Office 365 admin center** > **Skype for Business** and turn on the feature for your entire organization.</span></span> <br/> |
+|<span data-ttu-id="f25ce-107">У вас есть доступные лицензии, но вы не включили функцию для этого пользователя.</span><span class="sxs-lookup"><span data-stu-id="f25ce-107">You have licenses available, but you haven't turned on the feature for this user.</span></span>  <br/> |<span data-ttu-id="f25ce-108">Перейдите в раздел > **Активные пользователи** **центра администрирования Office 365**для лицензирования этого пользователя.</span><span class="sxs-lookup"><span data-stu-id="f25ce-108">Go to the **Office 365 admin center** > **Active users** to license this user.</span></span> <br/> |
+|<span data-ttu-id="f25ce-109">Пользователь находится в том месте, где эта функция недоступна.</span><span class="sxs-lookup"><span data-stu-id="f25ce-109">The user is in a location where this feature isn't available.</span></span>  <br/> |<span data-ttu-id="f25ce-110">По возможности перейдите в раздел > **Активные пользователи** **центра администрирования Office 365**и назначьте ему расположение, в котором она доступна.</span><span class="sxs-lookup"><span data-stu-id="f25ce-110">If possible, go to **Office 365 admin center** > **Active users** and assign this user to a location where the feature is available.</span></span> <br/> |
+|<span data-ttu-id="f25ce-111">Функция не включена для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="f25ce-111">The feature hasn't been turned on for your organization.</span></span>  <br/> |<span data-ttu-id="f25ce-112">Откройте > **Skype для бизнеса** в **центре администрирования Office 365**и включите функцию для всей Организации.</span><span class="sxs-lookup"><span data-stu-id="f25ce-112">Go to **Office 365 admin center** > **Skype for Business** and turn on the feature for your entire organization.</span></span> <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="91aa2-113">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="91aa2-113">Related topics</span></span>
-[<span data-ttu-id="91aa2-114">Настройка Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="91aa2-114">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="f25ce-113">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="f25ce-113">Related topics</span></span>
+[<span data-ttu-id="f25ce-114">Настройка Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="f25ce-114">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="91aa2-115">Разрешение на добавление контактов Skype пользователям Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="91aa2-115">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="f25ce-115">Разрешение на добавление контактов Skype пользователям Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="f25ce-115">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
 
   
  
